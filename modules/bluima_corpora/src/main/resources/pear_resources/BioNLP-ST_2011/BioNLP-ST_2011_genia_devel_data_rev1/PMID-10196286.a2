@@ -1,0 +1,12 @@
+T12	Binding 278 288	associated
+T13	Binding 445 456	association
+T14	Binding 532 543	association
+T15	Binding 662 671	associate
+T16	Positive_regulation 860 874	transformation
+E1	Binding:T12 Theme:T3
+E2	Binding:T12 Theme:T2
+E3	Binding:T12 Theme:T1
+E4	Binding:T13 Theme:T4
+E5	Binding:T14 Theme:T5
+E6	Binding:T15 Theme:T6
+E7	Positive_regulation:T16 Theme:E1 Cause:T7

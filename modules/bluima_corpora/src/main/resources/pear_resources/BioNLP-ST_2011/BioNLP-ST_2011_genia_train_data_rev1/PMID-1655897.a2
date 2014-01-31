@@ -1,0 +1,27 @@
+T8	Binding 35 39	bind
+T9	Entity 64 72	promoter
+T10	Regulation 176 186	contribute
+T11	Entity 215 223	promoter
+T12	Regulation 429 440	contributes
+T13	Regulation 455 466	specificity
+T14	Gene_expression 480 490	expression
+T15	Positive_regulation 700 709	stimulate
+T16	Positive_regulation 743 750	induced
+T17	Positive_regulation 872 884	requirements
+T18	Positive_regulation 1139 1146	induced
+T19	Positive_regulation 1400 1412	requirements
+T20	Gene_expression 1427 1437	expression
+E1	Binding:T8 Theme:T1 Site:T9
+E2	Regulation:T10 Theme:T2 Site:T11
+E3	Regulation:T12 Theme:E4
+E4	Regulation:T13 Theme:E5
+E5	Gene_expression:T14 Theme:T4
+E6	Positive_regulation:T15 Theme:T3
+E7	Positive_regulation:T16 Theme:T3
+E8	Positive_regulation:T16 Theme:T3 Cause:T5
+E9	Positive_regulation:T17 Theme:T3
+E10	Positive_regulation:T18 Theme:T3
+E11	Positive_regulation:T19 Theme:E12
+E12	Gene_expression:T20 Theme:T7
+M1	Speculation E3
+M2	Negation E8

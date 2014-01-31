@@ -1,0 +1,56 @@
+T15	Positive_regulation 671 678	induced
+T16	Gene_expression 691 701	expression
+T17	Positive_regulation 838 844	caused
+T18	Entity 860 868	tyrosine
+T19	Phosphorylation 869 884	phosphorylation
+T20	Regulation 962 971	affecting
+T21	Positive_regulation 1021 1024	for
+T22	Negative_regulation 1163 1172	inhibited
+T23	Positive_regulation 1183 1190	induced
+T24	Gene_expression 1223 1233	expression
+T25	Positive_regulation 1235 1244	Augmented
+T26	Gene_expression 1245 1255	expression
+T27	Positive_regulation 1354 1360	caused
+T28	Positive_regulation 1478 1486	increase
+T29	Phosphorylation 1490 1505	phosphorylation
+T30	Phosphorylation 1655 1670	phosphorylation
+T31	Positive_regulation 1726 1737	in response
+T32	Negative_regulation 1752 1761	inhibited
+T33	Positive_regulation 1806 1815	augmented
+T34	Positive_regulation 1893 1900	induced
+T35	Positive_regulation 1918 1927	directing
+T36	Positive_regulation 1928 1937	increased
+T37	Gene_expression 1938 1948	expression
+T38	Phosphorylation 2037 2052	phosphorylation
+T39	Positive_regulation 2064 2070	occurs
+T40	Negative_regulation 2146 2154	inhibits
+T41	Positive_regulation 2185 2193	increase
+T42	Phosphorylation 2229 2244	phosphorylation
+E1	Positive_regulation:T15 Theme:E2
+E2	Gene_expression:T16 Theme:T2
+E3	Positive_regulation:T17 Theme:E4
+E4	Phosphorylation:T19 Theme:T3 Site:T18
+E5	Regulation:T20 Theme:T4
+E6	Positive_regulation:T21 Theme:E4
+E7	Negative_regulation:T22 Theme:E8
+E8	Positive_regulation:T23 Theme:E9
+E9	Gene_expression:T24 Theme:T6
+E10	Positive_regulation:T25 Theme:E11
+E11	Gene_expression:T26 Theme:T7
+E12	Positive_regulation:T27 Theme:E13
+E13	Positive_regulation:T28 Theme:E14
+E14	Phosphorylation:T29 Theme:T9
+E15	Phosphorylation:T30 Theme:T11
+E16	Positive_regulation:T31 Theme:E15
+E17	Negative_regulation:T32 Theme:E15
+E18	Positive_regulation:T33 Theme:E15
+E19	Positive_regulation:T34 Theme:E20
+E20	Positive_regulation:T35 Theme:E21
+E21	Positive_regulation:T36 Theme:E22
+E22	Gene_expression:T37 Theme:T12
+E23	Phosphorylation:T38 Theme:T13
+E24	Positive_regulation:T39 Theme:E23
+E25	Negative_regulation:T40 Theme:E26
+E26	Positive_regulation:T41 Theme:E27
+E27	Phosphorylation:T42 Theme:T14
+M1	Negation E5

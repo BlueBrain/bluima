@@ -1,0 +1,29 @@
+T22	Positive_regulation 323 335	up-regulates
+T23	Gene_expression 355 365	expression
+T24	Binding 383 394	interaction
+T25	Positive_regulation 418 432	Overexpression
+T26	Gene_expression 418 432	Overexpression
+T27	Positive_regulation 655 666	transfected
+T28	Gene_expression 655 666	transfected
+T29	Gene_expression 762 776	overexpression
+T30	Positive_regulation 762 776	overexpression
+T31	Gene_expression 940 950	Expression
+T32	Gene_expression 1372 1379	express
+T33	Positive_regulation 1397 1406	following
+E1	Positive_regulation:T22 Theme:E3
+E2	Positive_regulation:T22 Theme:E4
+E3	Gene_expression:T23 Theme:T5
+E4	Gene_expression:T23 Theme:T6
+E5	Binding:T24 Theme:T5 Theme2:T6
+E6	Positive_regulation:T25 Theme:E7
+E7	Gene_expression:T26 Theme:T7
+E8	Positive_regulation:T27 Theme:E9
+E9	Gene_expression:T28 Theme:T10
+E10	Gene_expression:T29 Theme:T11
+E11	Positive_regulation:T30 Theme:E10
+E12	Gene_expression:T31 Theme:T13
+E13	Gene_expression:T31 Theme:T14
+E14	Gene_expression:T32 Theme:T20
+E15	Gene_expression:T32 Theme:T19
+E16	Positive_regulation:T33 Theme:E15
+E17	Positive_regulation:T33 Theme:E14

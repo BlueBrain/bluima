@@ -1,0 +1,83 @@
+T39	Regulation 0 10	Regulation
+T40	Entity 20 28	promoter
+T41	Positive_regulation 29 37	activity
+T42	Gene_expression 56 66	expression
+T43	Binding 131 138	binding
+T44	Entity 146 164	RUNX binding sites
+T45	Positive_regulation 191 202	transfected
+T46	Gene_expression 307 317	expression
+T47	Positive_regulation 330 338	increase
+T48	Positive_regulation 444 457	cotransfected
+T49	Gene_expression 478 488	expression
+T50	Positive_regulation 513 521	increase
+T51	Entity 525 533	promoter
+T52	Gene_expression 560 574	cotransfection
+T53	Gene_expression 616 626	expression
+T54	Negative_regulation 631 640	abrogated
+T55	Gene_expression 778 792	overexpression
+T56	Positive_regulation 827 831	need
+T57	Entity 854 862	promoter
+T58	Positive_regulation 863 873	activation
+T59	Negative_regulation 1065 1074	reduction
+T60	Negative_regulation 1159 1168	reduction
+T61	Negative_regulation 1326 1334	decrease
+T62	Negative_regulation 1377 1386	reduction
+T63	Entity 1481 1494	binding sites
+T64	Binding 1529 1536	binding
+T65	Positive_regulation 1562 1571	necessary
+T66	Positive_regulation 1585 1595	activation
+T67	Entity 1609 1617	promoter
+T68	Gene_expression 1650 1664	overexpression
+T69	Positive_regulation 1730 1738	elevated
+T70	Positive_regulation 1832 1843	requirement
+T71	Gene_expression 1942 1954	transfection
+T72	Positive_regulation 2024 2032	increase
+E1	Regulation:T39 Theme:E2 Cause:T3
+E3	Regulation:T39 Theme:E2 Cause:T4
+E4	Regulation:T39 Theme:E5 Cause:T3
+E6	Regulation:T39 Theme:E5 Cause:T4
+E2	Positive_regulation:T41 Theme:T1 Site:T40
+E5	Gene_expression:T42 Theme:T2
+E7	Binding:T43 Theme:T5 Theme2:T7 Site2:T44
+E8	Binding:T43 Theme:T6 Theme2:T7 Site2:T44
+E9	Positive_regulation:T45 Theme:E10
+E11	Positive_regulation:T45 Theme:E12
+E13	Positive_regulation:T45 Theme:E14
+E10	Gene_expression:T46 Theme:T9
+E12	Gene_expression:T46 Theme:T10
+E14	Gene_expression:T46 Theme:T11
+E15	Positive_regulation:T47 Theme:T12 Cause:E16
+E17	Positive_regulation:T47 Theme:T12 Cause:E18
+E19	Positive_regulation:T47 Theme:T12 Cause:E20
+E16	Positive_regulation:T48 Theme:E21
+E18	Positive_regulation:T48 Theme:E22
+E20	Positive_regulation:T48 Theme:E23
+E21	Gene_expression:T49 Theme:T13
+E22	Gene_expression:T49 Theme:T14
+E23	Gene_expression:T49 Theme:T15
+E24	Positive_regulation:T50 Theme:T7 Cause:E25 Site:T51
+E26	Positive_regulation:T50 Theme:T7 Cause:E27 Site:T51
+E25	Gene_expression:T52 Theme:T16
+E27	Gene_expression:T52 Theme:T17
+E28	Gene_expression:T53 Theme:T18
+E29	Negative_regulation:T54 Theme:E28
+E30	Gene_expression:T55 Theme:T21
+E31	Gene_expression:T55 Theme:T22
+E32	Positive_regulation:T56 Theme:E33 Cause:T23
+E33	Positive_regulation:T58 Theme:T24 Site:T57
+E34	Negative_regulation:T59 Theme:T26
+E35	Negative_regulation:T60 Theme:T26
+E36	Negative_regulation:T61 Theme:T27
+E37	Negative_regulation:T62 Theme:T27
+E38	Binding:T64 Theme:T28 Theme2:T29 Site2:T63
+E39	Positive_regulation:T65 Theme:E40 Cause:E38
+E40	Positive_regulation:T66 Theme:T29 Site:T67
+E41	Gene_expression:T68 Theme:T30
+E42	Positive_regulation:T69 Theme:T32 Cause:E41
+E43	Positive_regulation:T70 Theme:E42 Cause:T35
+E44	Gene_expression:T71 Theme:T37
+E45	Positive_regulation:T72 Theme:T38 Cause:E44
+M1	Negation E34
+M2	Speculation E39
+M3	Negation E43
+M4	Negation E45

@@ -1,0 +1,5 @@
+*	Equiv T2 T3
+T7	Positive_regulation 453 464	transfected
+T8	Gene_expression 453 464	transfected
+E1	Positive_regulation:T7 Theme:E2
+E2	Gene_expression:T8 Theme:T4

@@ -1,0 +1,9 @@
+T17	Binding 0 7	Binding
+T18	Entity 53 66	binding sites
+T19	Binding 1009 1016	binding
+T20	Entity 1084 1092	promoter
+E1	Binding:T17 Theme:T1 Theme2:T3 Site2:T18
+E2	Binding:T17 Theme:T2 Theme2:T3 Site2:T18
+E3	Binding:T19 Theme:T7 Theme2:T10 Site2:T20
+E4	Binding:T19 Theme:T8 Theme2:T10 Site2:T20
+E5	Binding:T19 Theme:T9 Theme2:T10 Site2:T20

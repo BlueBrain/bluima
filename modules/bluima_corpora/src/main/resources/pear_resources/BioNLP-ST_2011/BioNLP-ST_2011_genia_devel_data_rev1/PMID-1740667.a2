@@ -1,0 +1,34 @@
+*	Equiv T3 T2
+T15	Regulation 356 360	role
+T16	Gene_expression 371 380	induction
+T17	Negative_regulation 655 664	abrogates
+T18	Transcription 665 674	induction
+T19	Negative_regulation 748 757	abolishes
+T20	Positive_regulation 758 767	induction
+T21	Regulation 1234 1240	effect
+T22	Positive_regulation 1244 1256	inducibility
+T23	Entity 1269 1277	promoter
+T24	Negative_regulation 1356 1364	abrogate
+T25	Positive_regulation 1365 1374	induction
+T26	Entity 1387 1395	promoter
+T27	Gene_expression 1542 1552	expression
+T28	Positive_regulation 1571 1578	enhance
+T29	Positive_regulation 1579 1588	induction
+T30	Entity 1601 1609	promoter
+E1	Regulation:T15 Theme:E2
+E2	Gene_expression:T16 Theme:T3
+E3	Negative_regulation:T17 Theme:E4
+E4	Transcription:T18 Theme:T4
+E5	Negative_regulation:T19 Theme:E6
+E6	Positive_regulation:T20 Theme:T5
+E7	Regulation:T21 Theme:E8
+E8	Positive_regulation:T22 Theme:T9 Site:T23
+E9	Negative_regulation:T24 Theme:E10
+E10	Positive_regulation:T25 Theme:T10 Site:T26
+E11	Gene_expression:T27 Theme:T12
+E12	Gene_expression:T27 Theme:T11
+E13	Positive_regulation:T28 Theme:E15 Cause:E11
+E14	Positive_regulation:T28 Theme:E15 Cause:E12
+E15	Positive_regulation:T29 Theme:T13 Site:T30
+M1	Speculation E1
+M2	Negation E7

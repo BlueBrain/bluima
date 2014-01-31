@@ -1,0 +1,5 @@
+Figure 1: Example sentence from the GENIA corpus. (a) Two of the top 50 constituency parses from the MCCC-I
+parser; the first had a total probability mass of 0.43 and the second 0.25 after renormalization. Nodes that differ
+between parses are shaded and outlined. (b) The dependency posteriors (labels omitted due to space) after
+conversion of 50-best parses. Solid lines indicate edges with posterior > 0.95; edges with posterior < 0.05 were
+omitted. Most of the ambiguity is in the attachment of “elicited”.

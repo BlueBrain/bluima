@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>julie-basic-types</name>
+  <description>The type system contains the basic annotation types.</description>
+  <version>2.1</version>
+  <vendor/>
+  <types>
+    <typeDescription>
+      <name>de.julielab.jules.types.Annotation</name>
+      <description>The super-type for all types.</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>confidence</name>
+          <description>The component that made the annotation may put its confidence/score calculated internally here, O</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>componentId</name>
+          <description>Indicates which NLP component has been used to derive the annotation, C</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>id</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.DiscontinuousAnnotation</name>
+      <description>Chains annotations of the same type</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>value</name>
+          <description>Annotations to be chained.</description>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>de.julielab.jules.types.Annotation</elementType>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.ResourceEntry</name>
+      <description>The reference to an external resource</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>source</name>
+          <description>The name of the resource, C</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>entryId</name>
+          <description>The identifier of the entry, C</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>version</name>
+          <description>The version of the resource, C</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

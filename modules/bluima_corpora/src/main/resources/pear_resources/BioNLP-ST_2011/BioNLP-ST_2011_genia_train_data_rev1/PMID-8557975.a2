@@ -1,0 +1,57 @@
+*	Equiv T6 T5
+T29	Positive_regulation 56 64	required
+T30	Positive_regulation 73 84	stimulation
+T31	Transcription 98 111	transcription
+T32	Positive_regulation 140 165	stimulates the activation
+T33	Phosphorylation 208 222	phosphorylates
+T34	Positive_regulation 208 222	phosphorylates
+T35	Positive_regulation 227 236	activates
+T36	Phosphorylation 349 363	phosphorylates
+T37	Positive_regulation 349 363	phosphorylates
+T38	Positive_regulation 368 377	activates
+T39	Positive_regulation 464 472	promotes
+T40	Gene_expression 478 488	production
+T41	Positive_regulation 588 597	stimulate
+T42	Transcription 608 621	transcription
+T43	Positive_regulation 623 633	Expression
+T44	Gene_expression 839 849	expression
+T45	Gene_expression 1132 1142	Expression
+T46	Positive_regulation 1416 1426	expression
+T47	Regulation 1533 1542	functions
+T48	Positive_regulation 1550 1561	stimulation
+T49	Transcription 1572 1585	transcription
+E1	Positive_regulation:T29 Theme:E3 Cause:T1
+E2	Positive_regulation:T29 Theme:E3
+E3	Positive_regulation:T30 Theme:E4
+E4	Transcription:T31 Theme:T2
+E5	Positive_regulation:T32 Theme:T3
+E6	Phosphorylation:T33 Theme:T6
+E7	Positive_regulation:T34 Theme:E6 Cause:T4
+E8	Positive_regulation:T35 Theme:T6 Cause:T4
+E9	Phosphorylation:T36 Theme:T7
+E10	Positive_regulation:T37 Theme:E9 Cause:T6
+E11	Positive_regulation:T37 Theme:E12 Cause:T6
+E12	Phosphorylation:T36 Theme:T8
+E13	Positive_regulation:T38 Theme:T7 Cause:T6
+E14	Positive_regulation:T38 Theme:T8 Cause:T6
+E15	Positive_regulation:T39 Theme:E16 Cause:T9
+E16	Gene_expression:T40 Theme:T10
+E17	Positive_regulation:T41 Theme:E19
+E18	Positive_regulation:T41 Theme:E19 Cause:T11
+E19	Transcription:T42 Theme:T12
+E20	Positive_regulation:T43 Theme:T13
+E21	Positive_regulation:T43 Theme:T14
+E22	Gene_expression:T44 Theme:T14
+E23	Gene_expression:T44 Theme:T13
+E24	Gene_expression:T45 Theme:T19
+E25	Positive_regulation:T46 Theme:T23
+E26	Positive_regulation:T46 Theme:T22
+E27	Regulation:T47 Theme:E32 Cause:T26
+E28	Regulation:T47 Theme:E32 Cause:T27
+E29	Regulation:T47 Theme:E32
+E30	Regulation:T47 Theme:E32 Cause:T24
+E31	Regulation:T47 Theme:E32 Cause:T25
+E32	Positive_regulation:T48 Theme:E33
+E33	Transcription:T49 Theme:T28
+M1	Speculation E17
+M2	Speculation E18

@@ -1,0 +1,47 @@
+*	Equiv T6 T5
+*	Equiv T4 T3
+T17	Positive_regulation 20 26	induce
+T18	Localization 58 67	secretion
+T19	Gene_expression 80 90	expression
+T20	Regulation 298 302	role
+T21	Localization 359 368	secretion
+T22	Gene_expression 381 391	expression
+T23	Localization 630 639	secretion
+T24	Entity 653 660	surface
+T25	Localization 661 671	expression
+T26	Localization 796 805	secretion
+T27	Entity 817 824	surface
+T28	Localization 825 835	expression
+T29	Positive_regulation 855 864	increased
+T30	Negative_regulation 1346 1355	inhibited
+T31	Localization 1362 1371	secretion
+T32	Entity 1376 1383	surface
+T33	Localization 1384 1394	expression
+T34	Positive_regulation 1506 1514	modulate
+T35	Regulation 1606 1615	dependent
+E1	Positive_regulation:T17 Theme:E3
+E2	Positive_regulation:T17 Theme:E4
+E3	Localization:T18 Theme:T1
+E4	Gene_expression:T19 Theme:T2
+E5	Regulation:T20 Theme:E7
+E6	Regulation:T20 Theme:E8
+E7	Localization:T21 Theme:T4
+E8	Gene_expression:T22 Theme:T6
+E9	Localization:T23 Theme:T7
+E10	Localization:T25 Theme:T8 AtLoc:T24
+E11	Localization:T26 Theme:T9
+E12	Localization:T28 Theme:T10 AtLoc:T27
+E13	Positive_regulation:T29 Theme:E12
+E14	Positive_regulation:T29 Theme:E11
+E15	Negative_regulation:T30 Theme:E18
+E16	Negative_regulation:T30 Theme:E17
+E17	Localization:T31 Theme:T13
+E18	Localization:T33 Theme:T14 AtLoc:T32
+E19	Positive_regulation:T34 Theme:T15
+E20	Positive_regulation:T34 Theme:T16
+E21	Regulation:T35 Theme:E20
+E22	Regulation:T35 Theme:E19
+M1	Speculation E9
+M2	Speculation E10
+M3	Negation E15
+M4	Negation E16

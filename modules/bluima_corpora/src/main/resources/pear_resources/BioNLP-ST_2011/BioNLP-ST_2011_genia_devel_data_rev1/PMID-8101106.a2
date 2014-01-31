@@ -1,0 +1,16 @@
+T11	Negative_regulation 60 65	block
+T12	Gene_expression 72 82	expression
+T13	Negative_regulation 690 699	reduction
+T14	Gene_expression 707 717	expression
+T15	Negative_regulation 1043 1052	reduction
+T16	Gene_expression 1071 1081	expression
+T17	Negative_regulation 1167 1176	abolished
+T18	Positive_regulation 1180 1192	upregulation
+E1	Negative_regulation:T11 Theme:E2
+E2	Gene_expression:T12 Theme:T2
+E3	Negative_regulation:T13 Theme:E4
+E4	Gene_expression:T14 Theme:T5
+E5	Negative_regulation:T15 Theme:E6
+E6	Gene_expression:T16 Theme:T6
+E7	Negative_regulation:T17 Theme:E8
+E8	Positive_regulation:T18 Theme:T8

@@ -1,0 +1,25 @@
+#
+
+#cr: SingleFileReader
+#inputFile: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/crawled_bams_pdfs/10842230.pdf
+# inputFile: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/crawled_bams_pdfs/11069955.pdf
+#ae: ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator
+
+#cr: SingleAbstractReader
+
+#cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+# inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/crawled_bams_pdfs
+# inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/
+# isRecursive__java: true
+
+cr: PubmedWholeDatabaseCR
+ defaultValue__java: new String[]{ "127.0.0.1", "bb_pubmed", "root", "" }
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+
+java:
+//System.out.println("blah");
+for (de.julielab.jules.types.Sentence s : org.apache.uima.fit.util.JCasUtil.select(jCas, de.julielab.jules.types.Sentence.class)){
+  System.out.println(s.getCoveredText().length());
+}
+

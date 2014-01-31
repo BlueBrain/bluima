@@ -1,0 +1,14 @@
+*	Equiv T3 T4
+T8	Negative_regulation 588 601	down-regulate
+T9	Gene_expression 661 671	expression
+T10	Positive_regulation 752 762	activation
+T11	Binding 812 822	engagement
+E1	Negative_regulation:T8 Theme:E5
+E2	Negative_regulation:T8 Theme:E6
+E3	Negative_regulation:T8 Theme:E7
+E4	Negative_regulation:T8 Theme:E8
+E5	Gene_expression:T9 Theme:T3
+E6	Gene_expression:T9 Theme:T5
+E7	Positive_regulation:T10 Theme:E5
+E8	Positive_regulation:T10 Theme:E6
+E9	Binding:T11 Theme:T6

@@ -1,0 +1,28 @@
+T11	Gene_expression 0 10	Expression
+T12	Positive_regulation 54 62	requires
+T13	Positive_regulation 192 199	induced
+T14	Gene_expression 306 316	expression
+T15	Negative_regulation 350 360	suppressed
+T16	Positive_regulation 485 496	requirement
+T17	Gene_expression 501 511	expression
+T18	Positive_regulation 513 522	Induction
+T19	Negative_regulation 646 656	suppressed
+T20	Gene_expression 950 960	expression
+T21	Positive_regulation 961 969	requires
+T22	Regulation 1003 1011	affected
+E1	Gene_expression:T11 Theme:T1
+E2	Positive_regulation:T12 Theme:E1
+E3	Positive_regulation:T13 Theme:T3
+E4	Positive_regulation:T13 Theme:T2
+E5	Gene_expression:T14 Theme:T3
+E6	Gene_expression:T14 Theme:T2
+E7	Negative_regulation:T15 Theme:E6
+E8	Negative_regulation:T15 Theme:E5
+E9	Positive_regulation:T16 Theme:E10
+E10	Gene_expression:T17 Theme:T4
+E11	Positive_regulation:T18 Theme:T5
+E12	Negative_regulation:T19 Theme:E11
+E13	Gene_expression:T20 Theme:T10
+E14	Positive_regulation:T21 Theme:E13
+E15	Regulation:T22 Theme:E13
+M1	Negation E15

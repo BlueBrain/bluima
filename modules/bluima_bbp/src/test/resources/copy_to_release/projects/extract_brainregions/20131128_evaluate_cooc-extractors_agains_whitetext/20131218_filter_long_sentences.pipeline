@@ -1,0 +1,45 @@
+
+cr: WhiteTextConnectionsCollectionReader
+
+ae: EvaluationPreprocessorAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.Cooccurrence
+
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.BrainRegion
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+ #keepOnlyNearestNeighbors__java: true
+
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator 
+
+  
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
+ # default
+ maximumEnclosingScopeLength__java: 1000
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator 
+
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
+ maximumEnclosingScopeLength__java: 500
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator 
+
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
+ maximumEnclosingScopeLength__java: 300
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator 
+
+
+#TestResult:
+#    precision:  0.086
+#    recall: 1.000
+#    F1: 0.159
+#TestResult:
+#    precision:  0.087
+#    recall: 0.987
+#    F1: 0.160
+#TestResult:
+#    precision:  0.100
+#    recall: 0.925
+#    F1: 0.180
+#TestResult:
+#    precision:  0.114
+#    recall: 0.738
+#    F1: 0.197

@@ -1,0 +1,25 @@
+T15	Positive_regulation 603 614	upregulated
+T16	Positive_regulation 713 726	up-regulation
+T17	Positive_regulation 892 901	induction
+T18	Regulation 980 1006	transcriptional regulators
+E1	Positive_regulation:T15 Theme:T7
+E2	Positive_regulation:T15 Theme:T5
+E3	Positive_regulation:T15 Theme:T10
+E4	Positive_regulation:T15 Theme:T6
+E5	Positive_regulation:T15 Theme:T9
+E6	Positive_regulation:T15 Theme:T8
+E7	Positive_regulation:T16 Theme:T5
+E8	Positive_regulation:T16 Theme:T9
+E9	Positive_regulation:T16 Theme:T8
+E10	Positive_regulation:T16 Theme:T6
+E11	Positive_regulation:T16 Theme:T10
+E12	Positive_regulation:T16 Theme:T7
+E13	Positive_regulation:T17 Theme:T11
+E14	Regulation:T18 Theme:T12
+E15	Regulation:T18 Theme:T12 Cause:T11
+M1	Negation E8
+M2	Negation E9
+M3	Negation E10
+M4	Negation E11
+M5	Negation E12
+M6	Speculation E13

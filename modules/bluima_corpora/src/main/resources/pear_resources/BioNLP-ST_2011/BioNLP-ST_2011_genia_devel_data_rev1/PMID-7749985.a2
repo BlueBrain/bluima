@@ -1,0 +1,16 @@
+T9	Positive_regulation 952 967	transactivation
+T10	Entity 1005 1006	S
+T11	Entity 1011 1013	X2
+T12	Regulation 1080 1089	dependent
+T13	Gene_expression 1103 1117	overexpression
+T14	Positive_regulation 1103 1117	overexpression
+T15	Positive_regulation 1188 1198	initiation
+T16	Gene_expression 1208 1218	expression
+E1	Positive_regulation:T9 Theme:T5 Site:T10
+E2	Positive_regulation:T9 Theme:T5 Site:T11
+E3	Regulation:T12 Theme:E1 Cause:T6
+E4	Regulation:T12 Theme:E2 Cause:T6
+E5	Gene_expression:T13 Theme:T7
+E6	Positive_regulation:T14 Theme:E5
+E7	Positive_regulation:T15 Theme:E8
+E8	Gene_expression:T16 Theme:T8

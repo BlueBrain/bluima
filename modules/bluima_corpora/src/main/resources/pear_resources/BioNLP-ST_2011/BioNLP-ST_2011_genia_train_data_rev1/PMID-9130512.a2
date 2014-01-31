@@ -1,0 +1,45 @@
+T14	Regulation 22 32	modulation
+T15	Transcription 46 56	production
+T16	Gene_expression 400 410	production
+T17	Positive_regulation 414 423	augmented
+T18	Regulation 473 498	immune modulating effects
+T19	Transcription 513 517	mRNA
+T20	Regulation 865 872	changes
+T21	Transcription 880 890	production
+T22	Regulation 965 972	effects
+T23	Gene_expression 1002 1012	expression
+T24	Positive_regulation 1104 1111	augment
+T25	Transcription 1122 1132	production
+T26	Regulation 1170 1176	effect
+T27	Gene_expression 1192 1202	expression
+T28	Positive_regulation 1231 1239	mediated
+T29	Regulation 1299 1308	modulated
+E1	Regulation:T14 Theme:E2
+E2	Transcription:T15 Theme:T1
+E3	Gene_expression:T16 Theme:T3
+E4	Positive_regulation:T17 Theme:E3
+E5	Regulation:T18 Theme:E6
+E6	Transcription:T19 Theme:T4
+E7	Regulation:T20 Theme:E10
+E8	Regulation:T20 Theme:E11
+E9	Regulation:T20 Theme:E12
+E10	Transcription:T21 Theme:T6
+E11	Transcription:T21 Theme:T7
+E12	Transcription:T21 Theme:T8
+E13	Regulation:T22 Theme:E14
+E14	Gene_expression:T23 Theme:T9
+E15	Positive_regulation:T24 Theme:E16
+E16	Transcription:T25 Theme:T10
+E17	Regulation:T26 Theme:E18
+E18	Gene_expression:T27 Theme:T11
+E19	Positive_regulation:T28 Theme:E16 Cause:T12
+E20	Regulation:T29 Theme:T13
+M1	Speculation E5
+M2	Speculation E6
+M3	Speculation E7
+M4	Speculation E8
+M5	Speculation E9
+M6	Speculation E13
+M7	Speculation E17
+M8	Speculation E19
+M9	Speculation E20

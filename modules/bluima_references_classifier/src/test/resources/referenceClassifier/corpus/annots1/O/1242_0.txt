@@ -1,0 +1,29 @@
+Figure 8. Classifier weights of best performing sensors consistently selected specific proportions of the sensor of each cell for
+classifying functional network activity. A, Weights found by the top 11 best sensors were consistent (best sensor being the 2
+Both Ca concentration and current
+rightmost, brown color). B, Mean and SD of the sensors with success 80% (n 63) maintained the same proportions between
+are informative for homeostatic
+the weights of sensors of different cells and the offset value. The weight of each cell sensor was significantly different from each of
+the others ( p 10 4, same for separate one-way ANOVA for each pair and also one for all together). C–E, Distribution of the regulation
+average optimal sensor readings from the three cells (each into 100 bins) for all networks classified (C; n 9915, the truncated 0 In general, our methodology is not limbins showing no activity were 4208 for AB/PD, 663 for LP, and 5662 for PY), for functional networks (D; n 221), and for classified ited to comparing only one type of sensor,
+functional networks (E; n 2834). because we showed that the controlling
+quantity in the sensors is interchangeable
+tern is functional. Consistent with the linear classifier results between the total Ca 2 current (ICa) and
+showing that PY and LP sensors contain more information in concentration ([Ca 2 ]) (Fig. 5B); we could as well have chosen to
+making estimations (Figs. 3D, 7A, 8), the sensor weights in the use the membrane voltage as in the study by Rabinowitch and
+most important hyperplane (H3) weighed higher the sensors Segev (2006). In this comparison, our [Ca 2 ] dynamics in Equaof PY exclusively. The next important hyperplane (H2) tion 1 was limited to only one set of fixed parameters (Prinz et al.,
+weighed both LP and PY sensors high, and the least important 2003). Although varying these parameters would have given a
+hyperplane (H1) weighed sensors from all cells but used a rule more realistic range of Ca 2 dynamics, it would have also in-that complements the other two hyperplanes. creased the parameter space significantly and thus was kept outside the scope of this work. Our use of ICa for activity sensing is
+Discussion consistent with experiments showing that ADHR is modulated
+We generalized and explored an existing, biophysically inspired, not by the steady state of the activity level but by its change
+abstract Ca 2 sensor model (Abbott and LeMasson, 1993; Le- (Thoby-Brisson and Simmers, 2000). We assume that the change
+Masson et al., 1993; Siegel et al., 1994; Liu et al., 1998) to make in activity reflects [Ca 2 ] close to the membrane in which it is
+predictions about dynamics of Ca 2 sensing mechanisms. more likely to affect ion channels (see Materials and Methods).
+Although this assumption may exclude processes that involve
+A classifier can be used as an optimal readout for regulation transport and signaling between the nucleus and the cell memInstead of explicitly defining the readout mechanism as done brane, it is consistent with the localization of some Ca 2 senspreviously (Golowasch et al., 1999b), we assumed that there is an ing proteins (e.g., frequenin) near the plasma membrane
+optimal mechanism by replacing it with a classifier [using a sim- (O'Callaghan et al., 2003).
+ilar approach to that of Poirazi and Mel (2001) and the ideal Despite the experimental evidence connecting Ca 2 to reguobserver in the study by Felsen and Mainen (2008)]. This classi- latory processes (Turrigiano et al., 1994; Linsdell and Moody,
+fier generates a single score for each network that indicates on 1995; Golowasch et al., 1999a), another modeling study sugwhich side of the functional boundary the network lies. It has gested that the Ca 2 concentration across different cells may be
+been shown that such a single error measure can be sufficient, too variable to be useful for homeostatic regulation (Achard and
+under certain conditions in ADHR modeling studies, to regulate De Schutter, 2006, 2008). This is inconsistent with our results
+ionic conductances along a line in the parameter space (Liu et al., that correctly predict network regulation targets from read-1998; Golowasch et al., 1999b; Olypher and Calabrese, 2007; ings of [Ca 2 ], ICa, and ICa-based activity sensors across the

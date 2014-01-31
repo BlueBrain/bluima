@@ -1,0 +1,28 @@
+Synaptic Properties
+Whole-cell recordings typically result in low-noise recordings. The root
+mean square (r.m.s.) of the noise was measured 30–60 ms prior to the
+onset of the evoked postsynaptic potentials/currents (PSP/PSCs) of
+connected cells. Failures were defined as events in which the amplitude
+was less than the r.m.s. The latency of PSP/PSC onset was defined as
+the time from the peak of the A P to 10% of the PSP/PSC amplitude.
+This measure therefore includes axonal, synaptic and dendritic delays.
+PSP/PSC amplitudes were determined by averaging 3–5 points around the
+peak (not corrected for the CV of noise). Series resistance and whole-cell
+capacitance of voltage clamp recordings were in most cases (>80%)
+compensated by >85%. R ise times of currents (RT) were measured as time
+to rise from 20 to 80% peak amplitude (30–50 sweeps excluding failures).
+Decay time constants (DTC) of PSCs were estimated as single exponentials because of multiple distributed release sites. Chord conductances
+(G1) were determined as the slope of the line fit through amplitudes of
+first responses and intersection at the reversal potential (negligible
+rectification detected). Maximal conductances (Gmax) were calculated as
+G1/Use (utilization of synaptic efficacy, equivalent to probability of
+release). Charge was determined by integrating the mean unitary
+inhibitory PSC (30–50 waves) excluding failures. Quantification of the
+physiological properties of unitary excitatory PSCs was not performed
+due to variable degrees of synaptic rundown (Rozov et al., 1998).
+Parameters of synaptic connections (Ase, absolute synaptic efficacy; Use;
+F and D, time constants for recovery from facilitation and depression,
+respectively) were derived by fitting averaged synaptic responses (30–60
+trials) to at least two different frequencies of presynaptic stimulation to
+the model of dynamic synaptic transmission as detailed previously
+(Markram et al., 1998).

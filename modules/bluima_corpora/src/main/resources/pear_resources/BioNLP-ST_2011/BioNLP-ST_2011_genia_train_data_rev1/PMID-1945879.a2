@@ -1,0 +1,12 @@
+*	Equiv T2 T3
+*	Equiv T5 T6
+T10	Localization 500 509	secreting
+T11	Binding 575 582	binding
+T12	Binding 887 892	binds
+T13	Regulation 1418 1425	control
+T14	Transcription 1445 1458	transcription
+E1	Localization:T10 Theme:T4
+E2	Binding:T11 Theme:T5
+E3	Binding:T12 Theme:T8
+E4	Regulation:T13 Theme:E5
+E5	Transcription:T14 Theme:T9

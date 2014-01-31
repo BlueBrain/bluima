@@ -1,0 +1,9 @@
+*	Equiv T1 T2
+*	Equiv T8 T9
+*	Equiv T3 T4
+T10	Positive_regulation 838 844	result
+T11	Gene_expression 1060 1070	expression
+T12	Regulation 1128 1134	alters
+E1	Positive_regulation:T10 Theme:T7
+E2	Gene_expression:T11 Theme:T8
+E3	Regulation:T12 Theme:E2

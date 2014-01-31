@@ -1,0 +1,19 @@
+T7	Binding 725 736	heterodimer
+T8	Negative_regulation 756 760	lost
+T9	Negative_regulation 855 864	overcomes
+T10	Positive_regulation 961 969	restored
+T11	Negative_regulation 1326 1335	disrupted
+T12	Binding 1451 1458	Binding
+T13	Binding 1485 1496	heterodimer
+T14	Negative_regulation 1526 1546	negatively regulated
+E1	Binding:T7 Theme:T3 Theme2:T4
+E2	Negative_regulation:T8 Theme:E1
+E3	Negative_regulation:T9 Theme:E2
+E4	Positive_regulation:T10 Theme:E1
+E5	Negative_regulation:T11 Theme:E1
+E6	Binding:T12 Theme:T6
+E7	Binding:T12 Theme:T5
+E8	Binding:T13 Theme:T5 Theme2:T6
+E9	Negative_regulation:T14 Theme:E6
+E10	Negative_regulation:T14 Theme:E7
+M1	Negation E5

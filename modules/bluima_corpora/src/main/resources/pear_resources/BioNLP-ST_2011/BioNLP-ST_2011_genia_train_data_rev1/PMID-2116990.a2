@@ -1,0 +1,6 @@
+T5	Positive_regulation 364 374	increasing
+T6	Gene_expression 420 430	expression
+T7	Positive_regulation 562 570	required
+E1	Positive_regulation:T5 Theme:E2
+E2	Gene_expression:T6 Theme:T4
+E3	Positive_regulation:T7 Theme:E1

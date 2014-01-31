@@ -1,0 +1,14 @@
+T13	Gene_expression 58 67	expressed
+T14	Positive_regulation 293 304	High levels
+T15	Gene_expression 314 324	expression
+T16	Positive_regulation 786 800	cis-activation
+T17	Gene_expression 869 879	expression
+T18	Gene_expression 901 911	expression
+E1	Gene_expression:T13 Theme:T1
+E2	Positive_regulation:T14 Theme:E3
+E3	Gene_expression:T15 Theme:T3
+E4	Positive_regulation:T16 Theme:T9
+E5	Gene_expression:T17 Theme:T10
+E6	Gene_expression:T18 Theme:T10
+M1	Speculation E4
+M2	Negation E6

@@ -1,0 +1,18 @@
+T25	Gene_expression 16 26	expression
+T26	Positive_regulation 246 255	increased
+T27	Transcription 256 266	expression
+T28	Gene_expression 569 580	transfected
+T29	Gene_expression 588 599	transfected
+E1	Gene_expression:T25 Theme:T1
+E2	Gene_expression:T25 Theme:T2
+E3	Positive_regulation:T26 Theme:E4
+E5	Positive_regulation:T26 Theme:E6
+E7	Positive_regulation:T26 Theme:E8
+E9	Positive_regulation:T26 Theme:E10
+E4	Transcription:T27 Theme:T13
+E6	Transcription:T27 Theme:T14
+E8	Transcription:T27 Theme:T15
+E10	Transcription:T27 Theme:T16
+E11	Gene_expression:T28 Theme:T23
+E12	Gene_expression:T29 Theme:T23
+M1	Negation E12

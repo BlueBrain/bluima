@@ -1,0 +1,2610 @@
+<?xml version='1.0'?>
+<!DOCTYPE File PUBLIC "NeuroScholar.DTD" "NeuroScholar.DTD">
+<?xml-stylesheet type="text/css" href="NeuroScholar.css"?>
+<File>
+
+  <Title>Crossed Connections of the Substantia Nigra in the Rat</Title>
+
+  <Authors>CHARLES R. GERFEN, WILLIAM A. STAINES, GORDON W. ARBUTHNOTT, 
+  AND HANS C. FIBIGER</Authors>
+
+  <Abstract>
+
+    <S avgH="22" class="abstract.heading" format="TimesNewRomanPSMT"
+     id="s0">ABSTRACT</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s1">The existence of crossed multisynaptic pathways that allow 
+    for the interdependent control of activity in one substantia nigra 
+    and its contralateral counterpart has been inferred from a number 
+    of recent biochemical and neurophysiological investigations.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s2">This prompted a reexamination of the connections of the 
+    substantia nigra with an emphasis on crossed inputs to and crossed 
+    projections from that nucleus.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s3">Male albino rats received 2050-nl pressure injections of a 
+    1% wheat germ agglutinin-conjugated horseradish peroxidase 
+    (WGA-HRP) solution into the substantia nigra or into surrounding 
+    areas as controls.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s4">Following a 24-hour survival period the animals were 
+    processed according to the tetramethylbenzidine protocol for the 
+    visualization of HRP.</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s5">The pattern of anterograde transport of WGA-HRP after 
+    substantia nigra injections, confirming for the most part previous 
+    reports, demonstrated ipsilateral nigral efferent projections to 
+    the striatum; globus pallidus; subthalamic nucleus; the lateral 
+    dorsal, paralamellar mediodorsal, ventromedial, and parafascicular 
+    thalamic nuclei; central gray, midbrain reticular formation; 
+    superior colliculus; and peribrachial area, including the 
+    pedunculopontine nucleus.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s6">Additionally, the nigral projections to the paralamellar 
+    mediodorsal and ventromedial thalamic nuclei and to the superior 
+    colliculus were demonstrated to be bilateral.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s7">Most of these connections were confirmed by the 
+    complementary retrograde experiment.</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s8">In accordance with previous reports, intranigral WGA-HRP 
+    injections retrogradely labeled neurons located in the ipsilateral 
+    prefrontal cortex, motor cortex, striatum, globus pallidus, central 
+    nucleus of the amygdala, anterior hypothalamic area, subthalamic 
+    nucleus, and dorsal raphe.</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s9">Additionally, labeled perikarya were observed in the 
+    ipsilateral parafascicular thalamic nucleus, in the contralateral 
+    posterior lateral hypothalamic area, and in the ipsilateral and 
+    contralateral peribrachial-pedunculopontine area.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s10">These latter nigral afferents were confirmed with 
+    complementary WGA-HRP injections into each of the regions of 
+    origin.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s11">While bilateral peribrachial-pedunculopontine innervation 
+    of the substantia nigra has been reported in the cat there has been 
+    no previous demonstration of a crossed nigral afferent system from 
+    the contralateral posterior lateral hypothalamic area.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s12">The results are discussed with reference to the pathways 
+    that may mediate the interdependent control of the activity of 
+    neurons in the left and right substantia nigra.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s13">Additionally, the association of the substantia nigra 
+    with a variety of neuronal circuits, including the cerebellofugal, 
+    tectothalamic, thalamocortical, thalamostriatal, and basal ganglia 
+    pathways, are discussed.</S>
+  </Abstract>
+
+  <Introduction>
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s14">Accepted for publication March 1, 1982.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s15">Reprint requests to C.R.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s16">Gerfen, Developmental Neurobiology Laboratory, The Salk 
+    Institute, P.O.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s17">Box 85800, San Diego, CA Recent biochemical and 
+    electrophysiological investigations are suggestive of crossed 
+    connections that allow for the interdependent control of activity 
+    in the left and right substantia nigra (Cheramy et al., 
+    &apos;81).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s18">Although there is no evidence of a direct connection 
+    between one substantia nigra and its contralateral counterpart, 
+    unilateral application of glycine or GABA-related compounds to the 
+    substantia nigra results in symmetric changes in the activity of 
+    both nigrostriatal dopamine (DA) pathways (Leviel et al., 
+    &apos;79).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s19">Also, asymmetric changes occur in the activity of the two 
+    nigrostriatal pathways after unilateral sensory stimulation 
+    (Nieoullon et al., &apos;77b) or after unilateral modification of 
+    DA transmission within the substantia nigra (Leviel et al., 
+    &apos;79; Nieoullon et al., &apos;77a).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s20">These data point to the existence of one or more crossed, 
+    presumably multisynaptic connections, linking activity in the two 
+    structures.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s21">To date anterograde tracing techniques have revealed 
+    partly crossed efferent connections of the substantia nigra that 
+    include the innervation of the paralamellar portion of the 
+    mediodorsal thalamic nucleus, the central gray region that includes 
+    the dorsal raphe, and the lateral dorsal tegmental nucleus 
+    (Beckstead et al., &apos;79).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s22">Additionally, retrograde transport studies have suggested 
+    a minor contralateral projection to the ventromedial nucleus of the 
+    thalamus from the substantia nigra (Herkenham, &apos;79) and there 
+    is electrophysiological evidence for a crossed nigrotectal 
+    projection (Deniau et al., &apos;77).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s23">In the present study confirmation of these pathways was 
+    obtained and additional crossed nigral connections were revealed 
+    using the tetramethylbenzidine (TMB) method (Mesulam, &apos;78) for 
+    the visualization of axonally transported wheat germ 
+    agglutinin-conjugated horseradish peroxidase (WGA-HRP) (Staines et 
+    al., &apos;80).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s24">These new connections include nigral afferents from a 
+    restricted region of the contralateral posterior lateral 
+    hypothalamic area and from the ipsilateral and contralateral 
+    peribrachial area including the pedunculopontine nucleus.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s25">Additionally, the existence of a nigral efferent pathway 
+    to the ipsilateral lateral dorsal thalamic nucleus was 
+    demonstrated.</S>
+  </Introduction>
+
+  <Methods>
+
+    <S avgH="26" class="methods.heading" format="TimesNewRomanPS-BoldMT"
+     id="s26">METHODS</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s27">Male albino rats, anesthetized with pentobarbital, 
+    received 20-50-nl pressure injections of a 1% WGA-HRP solution into 
+    the substantia nigra.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s28">Injections were made from a 1-pl Hamilton syringe fitted 
+    with a 31-gauge cannula.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s29">The cannula was inserted stereotaxically by using a 
+    45&quot; approach.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s30">After a 24-hour survival period the animals were 
+    reanesthetized and perfused sequentially with 50 ml of a 0.9% 
+    saline solution containing 0.25% procaine and 0.001% heparin at 
+    room temperature, 400 ml of 1.0% formaldehyde and 1.25% 
+    glutaraldehyde in 0.1 M phosphate buffer (pH 7.4) at room 
+    temperature, and 250 ml of an ice-cold 10% sucrose solution in 0.1 
+    M phosphate buffer (pH 7.4).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s31">The brains were removed and placed in 10% sucrose 
+    phosphate at 5&quot; C until sectioned.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s32">Frozen sections (50 pm) were cut and mounted from 0.1 M 
+    phosphate b&amp;er (pH 7.4) onto chrome-alum-coated slides, dried 
+    under a stream of cool air, and reacted according to the TMB method 
+    of Mesulam (&apos;78).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s33">The sections were coverslipped without counterstaining 
+    and examined under darkfield illumination.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s34">Control injections of WGA-HRP were made along the angled 
+    approach to the substantia nigra and into the regions rostral, 
+    caudal and dorsal to that nucleus.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s35">Additional WGA-HRP injections were made into the 
+    parafascicular thalamic nucleus and the peribrachial area.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s36">Iontophoretic WGA-HRP injections were made into various 
+    brain regions through a micropipette (10-20-pm tip diameter) filled 
+    with a 1% WGA-HRP solution in 0.9% saline using a 2 pamp positive 
+    current for 5 minutes.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s37">Iontophoretic injections of WGA-HRP were made into the 
+    posterior lateral hypothalamic area; superior colliculus; and 
+    laterodorsal, mediodorsal, and parafascicular thalamic nuclei.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s38">Histochemical controls were run by processing animals 
+    which had not received tracer injections.</S>
+  </Methods>
+
+  <Results>
+
+    <S avgH="26" class="results.heading" format="TimesNewRomanPS-BoldMT"
+     id="s39">RESULTS</S>
+    <BR />
+
+    <S avgH="26" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s40">Technical 
+    considerations</S>
+    <BR />
+
+    <S avgH="26" class="results.body" format="CourierNewPS-BoldMT"
+     id="s41">Although the TMB reaction affords a highly sensitive 
+    visualization of the HRP marker there are a number of technical 
+    considerations that must be addressed.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s43">First, it is not possible to determine the exact area in 
+    and around an injection site from which neuronal elements may take 
+    up and transport demonstrable amounts of the enzyme.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s44">Possible spread of the enzyme along the injection tract 
+    further complicates the delineation of the injection area, as does 
+    the observation that the apparent injection site is smaller at 24 
+    hours&apos; survival than at shorter time intervals (Kim and 
+    Strick, &apos;76; Staines et al., &apos;80).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s45">For these reasons , the pattern of <tracerChemical>WGA - 
+    HRP</tracerChemical> transport following injections into 
+    <injectionLocation>the substantia nigra</injectionLocation> was 
+    compared to those observed fallawing various control injections 
+    .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s46">Outlines of these control injections are shown in Figure 
+    3.</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s47">Second, evidence was obtained in the present study that 
+    <tracerChemical>WGA-HRP</tracerChemical>, like 
+    <tracerChemical>HRP</tracerChemical>, may be taken up and 
+    transported by damaged fibers or by fibers of passage (Herkenham 
+    and Nauta, &apos;77).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s48">This problem was also addressed by comparison of the 
+    labeling seen after injections into the substantia nigra with that 
+    obtained after control injections.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s49">In instances where such comparisons were not conclusive , 
+    complementary <tracerChemical>WGA - HRP</tracerChemical> injections 
+    were made into areas suggested to be connected with the substantia 
+    nigra .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s50">Hence , nigral efferent and afferent projections were 
+    confirmed by the presence of perikaryal and 
+    <labelingDescription>terminal labeling</labelingDescription> 
+    respectively in <labelingLocation>the substantia 
+    nigra</labelingLocation> after <tracerChemical>WGA - 
+    HRP</tracerChemical> injections into target areas .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s51">In all cases the criterion used to determine 
+    <labelingDescription>a WGA - HRPlabeled terminal 
+    field</labelingDescription> was <labelingDescription>the presence 
+    of labeled fibers</labelingDescription> to and within an area in 
+    which <labelingDescription>a moderately dense punctate distribution 
+    of reaction product</labelingDescription> was evident .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s52"><labelingDescription>Labeled perikarya in an area of 
+    presumed terminal labeling</labelingDescription> somewhat 
+    compromised this analysis because of the possibility that all or 
+    part of the extraperikaryal peroxidase activity was localized in 
+    labeled dendrites or efferent rather than afferent axons and 
+    <labelingDescription>terminals</labelingDescription> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s53">In these cases , <tracerChemical>WGA - 
+    HRP</tracerChemical> was injected into <injectionLocation>the 
+    presumed</injectionLocation> terminal regions to establish the 
+    presence or absence of retrograde transport to substantia nigra 
+    neurons .</S>
+    <BR />
+
+    <S avgH="26" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s54">Nigral injections</S>
+    <BR />
+
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s55"><labelingDescription>Anterograde and retrograde 
+      labeling</labelingDescription> of neuronal elements resulting 
+      from <exptLabel>an injection of <tracerChemical>WGA - 
+      HRP</tracerChemical> apparently confined to 
+      <injectionLocation>the substantia 
+      nigra</injectionLocation></exptLabel> are shown in Figure 2.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s56">The injection was centered in <injectionLocation>the 
+      pars reticulata</injectionLocation> and led to 
+      <labelingDescription>dense labeling of 
+      neurons</labelingDescription> , presumably by direct soma1 or 
+      dendritic uptake , around the injection center in 
+      <injectionSpread>the pars reticulata and pars 
+      cornpacta</injectionSpread> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s57">That the injection did not spread into 
+      <injectionSpread yesNo="0">the medially adjacent ventral 
+      tegmental area</injectionSpread> can be inferred by the absence 
+      of labeling of neurons in <labelingLocation>the ventral tegmental 
+      area</labelingLocation> and by <labelingDescription>the absence 
+      of anterograde transport</labelingDescription> to 
+      <labelingLocation>the nucleus accumbens</labelingLocation> , 
+      known to receive a massive input from that area ( Beckstead et al 
+      . , &apos; 79 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s58">In the case depicted , there was negligible diffusion 
+      of <tracerChemical>WGA - HRP</tracerChemical> along the injection 
+      tract .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s59">There was no evidence that the tracer had spread into 
+      <injectionSpread yesNo="0">the cerebral peduncle ventral to the 
+      substantia nigra</injectionSpread> .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s60"><labelingDescription>Retrograde 
+      labeling</labelingDescription> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s61"><labelingDescription>The retrograde 
+      labeling</labelingDescription> in this case confirms previous 
+      findings in the rat ( Hattori et al . , &apos; 75 ; Bunney and 
+      Aghajanian , &apos; 76 ; Van Der Kooy and Hattori , &apos; 80 ) 
+      .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s62">These include ipsilateral inputs from 
+      <labelingLocation>the dorsal agranular insular prefrontal cortex 
+      ( A18 </labelingLocation>( terminology of Krettek and Price , 
+      &apos; 77 ; after Rose , &apos; 28 ) , <labelingLocation>medial 
+      and lateral precentral cortex , striatum , globus pallidus , 
+      subthalamic nucleus , dorsal raphe and minor ipsilateral inputs 
+      from the hypothalamus , central nucleus of the amygdala, and 
+      lateral habenula</labelingLocation>  .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s63">In addition , three other brain regions contain 
+      <labelingDescription>retrogradely labeled 
+      neurons</labelingDescription> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s64">These include <labelingLocation>the contralateral 
+      posterior lateral hypothalamic area , the ipsilateral 
+      parafascicular thalamic nucleus , and the ipsilatera1 and 
+      contralateral peribrachial region including the pedunculopontine 
+      nucleus</labelingLocation> .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s65">Anterograde transport.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s66"><labelingDescription>Terminal 
+      labeling</labelingDescription> was identified in the following 
+      brain regions : ( 1 ) <labelingLocation>the ipsilateral 
+      striatum</labelingLocation> ; ( 2 ) <labelingLocation>ipsilateral 
+      globus pallidus</labelingLocation> ; ( 3 ) 
+      <labelingLocation>thalamic nuclei including the ipsilateral 
+      lateral dorsal nucleus , ipsilateral and contralateral 
+      paralamellar portion of the mediodorsal nucleus , the ipsilateral 
+      ventromedial nucleus in its entirety , the dorsal portion of the 
+      contralateral ventromedial nucleus , and the ipsilateral 
+      parafascicular nucleus</labelingLocation> ; ( 4 ) 
+      <labelingLocation>ipsilateral subthalamic 
+      nucleus</labelingLocation> ; ( 5 ) <labelingLocation>a discrete 
+      region of the rostral midbrain ventromedial to the medial 
+      longitudinal fasciculus</labelingLocation> ; ( 6 ) 
+      <labelingLocation>the ipsilateral dorsal midbrain 
+      tegmentum</labelingLocation> ; ( 7 ) <labelingLocation>the 
+      ipsilateral and contralateral superior 
+      colliculus</labelingLocation> ; ( 8 ) <labelingLocation>the 
+      central gray region , bilaterally</labelingLocation> ; and ( 9 ) 
+      <labelingLocation>the ipsilateral peribrachial - pedunculopontine 
+      area</labelingLocation> ( see Fig . 2 ) .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s67">Nigral afferents from <labelingLocation>the 
+      contralateral hypothalamus</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s68"><labelingDescription>Peroxidase - labeled 
+      neurons</labelingDescription> located in <labelingLocation>the 
+      contralateral posterior lateral hypothalamus</labelingLocation> 
+      were confined to a discrete area just lateral to 
+      <labelingLocation>the mammillothalamic tract</labelingLocation> ( 
+      Figs . 2F , G , 4, 6 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s69">The largest nigral <tracerChemical>WGA - 
+      HRP</tracerChemical> injection labeled a total of 120 of these 
+      neurons .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s70">Only <tracerChemical>WGA - HRP</tracerChemical> 
+      injections into <injectionLocation>the rostral half of the 
+      substantia nigra</injectionLocation> labeled these cells .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s71">To investigate the possibility that these neurons were 
+      labeled by uptake <labelingDescription>into fibers of 
+      passage</labelingDescription> running through the substantia 
+      nigra or by uptake of tracer that had spread outside the confines 
+      of the substantia nigra , despite the fact that the latter was 
+      not apparent , the control injections outlined in Figure 3 were 
+      made .</S>
+    </TTE>
+
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s72">Hypothalamic neurons labeled after control injections.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s73">Figure 4 shows a composite map of the location of 
+    hypothalamic neurons labeled after the control <tracerChemical>WGA 
+    - HRP</tracerChemical> injections outlined in Figure 3.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s74"><labelingLocation>The locations of posterior lateral 
+    hypothalamic neurons</labelingLocation> labeled after contralateral 
+    nigral injections are indicated by stars in Figure 4 for comparison 
+    .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s75">As is evident in Figure 4 the great majority of 
+    hypothalamic neurons labeled after control injections were not 
+    located in <labelingLocation>the contralateral posterior lateral 
+    hypothalamus</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s76">Two cases warrant further comment.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s77">First, supramammillary neurons have been reported to 
+    project bilaterally to the dentate gyrus (Pasquier and 
+    Reinoso-Suarez, &apos;76; Wyss et al., &apos;79), hence their 
+    labeling by injection c-t.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s78">However , <labelingDescription>labeled supramammillary 
+    neurons</labelingDescription> occupied a position ventromedial to 
+    the neurons labeled after injections into the substantia nigra .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s79">Second , <labelingLocation>posterior lateral hypothalamic 
+    neurons</labelingLocation> were labeled contralateral to control 
+    injections into the dorsal midbrain tegmentum .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s80">Although comparable in size to 
+    <injectionLocation>nigral</injectionLocation> injections , control 
+    injections labeled only three to four <labelingLocation>posterior 
+    lateral hypothalamic neurons</labelingLocation> as opposed to the 
+    120 labeled by nigral injections .</S>
+    <BR />
+
+    <S avgH="37" class="results.subtitle" format="CourierNewPS-BoldMT"
+     id="s81">Lateral hypothalamic injections</S>
+    <BR />
+
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s82">The pattern of labeling resulting from <exptLabel>an 
+      iontophoretic injection of <tracerChemical>WGA - 
+      HRP</tracerChemical> into <injectionLocation>the lateral 
+      hypothalamus</injectionLocation></exptLabel> is shown in Figure 
+      5.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s83">The injection spread between <injectionSpread>the 
+      cerebral peduncle and the mammillothalamic tract from the level 
+      of the subthalamic nucleus to the rostral part of the ventral 
+      tegmental area</injectionSpread> and included 
+      <injectionSpread>the medial zona incerta and medial edge of the 
+      cerebral peduncle</injectionSpread> .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s84">Crossed posterior lateral hypothalamonigral pathway.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s85"><labelingDescription>Numerous labeled 
+      fibers</labelingDescription> crossed in the supramammillary 
+      decussation and progressed laterally and caudally into 
+      <labelingLocation>the substantia nigra pars compacta and pars 
+      reticulata</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s86"><labelingDescription>Labeled 
+      fibers</labelingDescription> in <labelingLocation>the pars 
+      compacta</labelingLocation> were observed with collaterals which 
+      descended into <labelingLocation>the pars 
+      reticulata</labelingLocation> ( Fig . 6 0 .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s87"><labelingDescription>Numerous 
+      fibers</labelingDescription> were observed within 
+      <labelingLocation>the pars reticulata</labelingLocation>  within 
+      an area of <labelingDescription>moderately dense terminallike 
+      labeling</labelingDescription> ( Figs . 5D - F , 6D ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s88">This pattern of transport was most evident in 
+      <labelingLocation>the rostral and particularly lateral part of 
+      the substantia nigra</labelingLocation> and became progressively 
+      less apparent in more caudal sections .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s89"><labelingDescription>Labeled 
+      fibers</labelingDescription> were infrequently observed lateral 
+      or caudal to the substantia nigra indicating that once 
+      <labelingDescription>fibers</labelingDescription> entered 
+      <labelingLocation>the substantia nigra</labelingLocation> only 
+      rarely did they exit from that nucleus .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s90"><labelingModifier>Failure to label</labelingModifier> 
+      <labelingDescription>neurons</labelingDescription> in 
+      <labelingLocation>the contralateral posterior lateral 
+      hypothalamus</labelingLocation> after control injections 
+      <injectionLocation>caudal or lateral to the substantia 
+      nigra</injectionLocation> is consistent with this conclusion .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s91">Ipsiluteral nigral labeling after hypothalamic 
+      injections.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s92">Injections into <injectionLocation>the lateral 
+      hypothalamus</injectionLocation> labeled 
+      <labelingDescription>perikarya</labelingDescription> in 
+      <labelingLocation>the ipsilateral ventral tegmental area and 
+      substantia nigra pars compacta</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s93"><labelingLocation>The substantia nigra pars 
+      reticulata</labelingLocation> contained <labelingDescription>a 
+      moderate , homogeneous distribution of terminal - like 
+      labeling</labelingDescription> throughout its rostrocaudal extent 
+      .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s94">It would be difficult to attribute the origin of this 
+      <labelingLocation>nigral</labelingLocation> 
+      <labelingDescription>terminal labeling</labelingDescription> to 
+      perikarya within <injectionLocation>the hypothalamic injection 
+      area</injectionLocation>  since <labelingModifier>no 
+      perikarya</labelingModifier> were labeled within this area after 
+      <injectionLocation>nigral</injectionLocation> <tracerChemical>WGA 
+      - HRP</tracerChemical> injections .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s95">The corticonigral and striatonigral pathways course 
+      through <labelingLocation>the cerebral peduncle and the lateral 
+      hypothalamus</labelingLocation> in the former case ( Leonard , 
+      &apos; 69 ; Beckstead , &apos; 79 ) and through the cerebral 
+      peduncle in the latter case ( Nagy et al . , &apos; 78 ) before 
+      <labelingModifier>terminating</labelingModifier> in 
+      <labelingLocation>the substantia nigra pars 
+      reticulata</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s96">Uptake by fibers of these pathways may account for 
+      labeling in the ipsilateral substantia nigra .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s97">Labeling of neurons in the pars compacta may have been 
+      due to uptake by fibers of passage of the nigrostriatal bundle 
+      .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s98">Alternatively , the possibility is raised that the 
+      tracer was taken up through boutons en passant of nigrostriatal 
+      fibers in the posterior lateral hypothalamic area .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s99">Extranigral labeling after hypothalamic injections.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s100"><labelingDescription>Labeled 
+      fibers</labelingDescription> were observed ascending into 
+      <labelingLocation>the dorsal midbrain tegmentum ( both 
+      ipsilateral and contralateral to hypothalamic injections 
+      )</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s101">These fibers followed a course 
+      <labelingLocation>medial to, through, or lateral to the medial 
+      leminscus</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s102"><labelingDescription>Labeled terminals were more 
+      abundant</labelingDescription> in <labelingLocation>the 
+      ipsilateral midbrain tegmentum</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s103"><labelingDescription>Neurons</labelingDescription> 
+      that contribute to <labelingDescription>this 
+      labeling</labelingDescription> are most likely located in 
+      <injectionLocation>the zona incerta and lateral hypothalamic 
+      areas</injectionLocation> within the injection site ( Fig . 4 ) 
+      .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s104">For the most part these areas are distinct from 
+      <injectionLocation>the posterior lateral hypothalamic 
+      area</injectionLocation> from which the crossed hypothalamonigral 
+      projection originates .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s105">However, <labelingDescription>a small number of 
+      perikarya</labelingDescription> within this area are labeled 
+      contralateral to <injectionLocation>dorsal midbrain 
+      tegmentum</injectionLocation> 
+      <tracerChemical>WGAHRP</tracerChemical> injections (Fig. 4F).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s106">It is <labelingDescription>possible that 
+      neurons</labelingDescription> in <labelingLocation>the posterior 
+      lateral hypothalamus</labelingLocation> give rise to 
+      <labelingDescription>branched efferents</labelingDescription> to 
+      <labelingLocation>the dorsal midbrain tegmentum and substantia 
+      nigra</labelingLocation> .</S>
+    </TTE>
+
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s107"><labelingLocation>The entopeduncular , peribrachial - 
+    pedunculopontine , and lateral dorsal tegmental 
+    nuclei</labelingLocation> , in which <labelingDescription>labeled 
+    perikarya</labelingDescription> were observed after 
+    <injectionLocation>lateral hypothalamic</injectionLocation> 
+    injections , have been reported to project to the lateral 
+    hypothalamus ( Tohyama et al . , &apos; 78 ; Nauta , &apos; 79 ; 
+    Moon - Edley and Graybiel , &apos; 80 ) .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s108">However , the possible contribution of uptake and 
+    transport of peroxidase by fibers of passage ( Herkenham and Nauta 
+    , &apos; 77 ) to the pattern of labeling after these iontophoretic 
+    injections must be taken into consideration .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s109">Pathways which pass through the injection site , and are 
+    thus possibly involved , include the descending projections from 
+    the nucleus accumbens into the midbrain ( Nauta et al . , &apos; 78 
+    ) and the reciprocal connections between the entopeduncular nucleus 
+    and the peribrachial - pedunculopontine area ( Nauta , &apos; 79 ) 
+    .</S>
+    <BR />
+
+    <S avgH="26" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s110">Nigral connections with 
+    the peribrachialpedunculopontine area</S>
+    <BR />
+
+    <TTE><S avgH="26" class="results.body"
+     format="TimesNewRomanPS-BoldMT"
+     id="s111"><exptLabel><injectionLocation>Substantia 
+    nigra</injectionLocation> <tracerChemical>WGA - 
+    HRP</tracerChemical> injections</exptLabel> 
+    <labelingDescription>labeled neurons</labelingDescription> in 
+    <labelingLocation>the peribrachial - pedunculopontine 
+    area</labelingLocation> , bilaterally .</S><S avgH="26"
+     class="results.body" format="TimesNewRomanPS-BoldMT"
+     id="s112">While it is not possible to identify anterograde 
+    labeling with certainty when retrograde labeling is present in the 
+    same area , there also appeared to be <labelingDescription>terminal 
+    labeling</labelingDescription> of <labelingLocation>the 
+    ipsilateral</labelingLocation> but 
+    <labelingModifier>not</labelingModifier> 
+    <labelingLocation>contralateral area</labelingLocation> ( see Figs 
+    . 2K , L , 7 ) .</S><S avgH="26" class="results.body"
+     format="TimesNewRomanPS-BoldMT" id="s113">Injections of 
+    <tracerChemical>WGA - HRP</tracerChemical> into 
+    <injectionLocation>the peribrachial - pedunculopontine 
+    area</injectionLocation> resulted in <labelingDescription>labeling 
+    of perikarya</labelingDescription> in <labelingLocation>the 
+    ipsilateral but not contralateral substantia nigra pars 
+    reticulata</labelingLocation> .</S><S avgH="26" class="results.body"
+     format="TimesNewRomanPS-BoldMT" id="s114">Additionally , these 
+    injections resulted in apparent labeling of 
+    <labelingDescription>terminals</labelingDescription> in 
+    <labelingLocation>the substantia nigra and the subthalamic nucleus 
+    , bilaterally</labelingLocation> , as well as 
+    <labelingDescription>labeling of perikarya</labelingDescription> in 
+    <labelingLocation>the entopeduncular nucleus and 
+    hypothalamus</labelingLocation> .</S><S avgH="26"
+     class="results.body" format="TimesNewRomanPS-BoldMT"
+     id="s115">Injections of <tracerChemical>WGA - HRP</tracerChemical> 
+    into <labelingLocation>the subthalamic nucleus</labelingLocation> 
+    resulted in <labelingLocation>the bilateral labeling of perikarya 
+    in the periNigrothalamic</labelingLocation> connections</S></TTE>
+
+    <TTE>
+
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s116">Parafascicular nucleus.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s117"><exptLabel>Injections of <tracerChemical>WGA - 
+      HRP</tracerChemical> into <injectionLocation>the substantia 
+      nigra</injectionLocation></exptLabel> labeled 
+      <labelingDescription>a few neurons</labelingDescription> in 
+      <labelingLocation>the ipsilateral parafascicular 
+      nucleus</labelingLocation> ( Fig . 2F ) and 
+      <labelingDescription>apparently labeled 
+      terminals</labelingDescription> in <labelingLocation>the same 
+      area</labelingLocation> ( Fig . 8A ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s118">Injections into <injectionLocation>the parafascicular 
+      nucleus</injectionLocation> labeled in 
+      <labelingDescription>excess of 100 
+      perikarya</labelingDescription> in <labelingLocation>the 
+      ipsilateral substantia nigra pars reticulata</labelingLocation> ( 
+      Fig . 8B , E ) , located primarily in <labelingLocation>its most 
+      medial extent</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s119"><labelingDescription>A few 
+      neurons</labelingDescription> were labeled in 
+      <labelingLocation>the contralateral subthalamic 
+      nucleus</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s120"><labelingDescription>Terminal 
+      labeling</labelingDescription> was seen in <labelingLocation>the 
+      ipsilateral substantia nigra pars reticulata , striatum , 
+      subthalamic nucleus , and interpeduncular 
+      nucleus</labelingLocation> , and labeled perikarya were found 
+      bilaterally in <labelingLocation>the entopeduncular nucleus , 
+      hypothalamus , superior colliculus , and peribrachial - 
+      pedunculopontine area</labelingLocation> , and ipsilaterally in 
+      <labelingLocation>the lateral habenula and lateral dorsal 
+      tegmental nucleus</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s121">Previous studies have identified all of these 
+      connections with the exception of those implied by the labeling 
+      of the lateral habenula and interpeduncular nucleus ( Ahlenius , 
+      &apos; 78 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s122">As the tip of the injection cannula was located in the 
+      fasciculus retroflexus peroxidase labeling of these latter two 
+      areas probably represents transport of the tracer by intact or 
+      damaged fibers of passage.</S>
+    </TTE>
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s123">Of particular significance was the heterogeneous pattern 
+    of <labelingDescription>terminal labeling</labelingDescription> in 
+    <labelingLocation>the striatum</labelingLocation> after 
+    <exptLabel>injections into <injectionLocation>the parafascicular 
+    nucleus</injectionLocation></exptLabel> ( Fig . 8D ) .</S></TTE>
+
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s124">Ventromedial thalamic nucleus .</S>
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s125"><exptLabel>Injections of <tracerChemical>WGA - 
+      HRP</tracerChemical> into <injectionLocation>the substantia 
+      nigra</injectionLocation></exptLabel> resulted in 
+      <labelingDescription>dense terminal and fiber 
+      labeling</labelingDescription> in <labelingLocation>the 
+      ipsilateral ventromedial thalamic nucleus</labelingLocation> ( 
+      Fig . 9 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s126">Additionally , there was evidence of 
+      <labelingDescription>a sparse distribution of labeled 
+      terminals</labelingDescription> in <labelingLocation>the most 
+      dorsal portion of the contralateral ventromedial 
+      nucleus</labelingLocation> ( Fig . 2D , E , 9 ) .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s127">Mediodorsal thalamic nucleus .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s128">There was distinctive <labelingDescription>bilateral 
+      labeling of terminals</labelingDescription> in 
+      <labelingLocation>the paralamellar portion of the mediodorsal 
+      thalamic nucleus</labelingLocation> after <tracerChemical>WGA - 
+      HRP</tracerChemical> injections into <injectionLocation>the 
+      substantia nigra</injectionLocation> ( Figs . 2D , E , 9 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s129"><labelingDescription>Fibers</labelingDescription> 
+      appeared to enter <labelingLocation>the mediodorsal 
+      nuclei</labelingLocation> 
+      <labelingModifier>through</labelingModifier> 
+      <labelingLocation>the intralaminar nuclei</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s130">It was not possible to determine whether labeling 
+      within <labelingLocation>the intralaminar 
+      nuclei</labelingLocation> was due to the presence of 
+      <tracerChemical>peroxidase</tracerChemical> in preterminal axons 
+      or whether there were <labelingDescription>labeled 
+      terminals</labelingDescription> as well .</S>
+    </TTE>
+
+    <BR />
+
+    <TTE><S avgH="47" class="results.body" format="ArialMT"
+     id="s131"><exptLabel>Iontophoretic injections of 
+    <tracerChemical>WGA - HRP</tracerChemical> were made into 
+    <injectionLocation>the mediodorsal thalamic 
+    nucleus</injectionLocation></exptLabel> and included 
+    <labelingLocation>the central lateral intralaminar thalamic 
+    nucleus</labelingLocation> .</S><S avgH="47" class="results.body"
+     format="ArialMT" id="s132">One injection site was centered in 
+    <injectionLocation>the central and most ventral portion of the 
+    mediodorsal nucleus</injectionLocation> and included 
+    <injectionSpread>the central portion of the paralamellar portion of 
+    the nucleus</injectionSpread> ( Fig . 10, Case MD - M ) .</S>
+    <S avgH="47" class="results.body" format="ArialMT" id="s133">There 
+    was little detectable spread of the tracer into 
+    <injectionSpread yesNo="0">the intralaminar 
+    nuclei</injectionSpread> .</S><S avgH="47" class="results.body"
+     format="ArialMT" id="s134">In excess of <labelingDescription>400 
+    labeled perikarya</labelingDescription> were observed in 
+    <labelingLocation>the ipsilateral substantia nigra pars 
+    reticulata</labelingLocation> , located primarily in 
+    <labelingLocation>the ventral part of the nucleus throughout its 
+    rostrocaudal extent</labelingLocation> .</S><S avgH="47"
+     class="results.body" format="ArialMT" id="s135">In excess of 
+    <labelingDescription>80 labeled perikarya</labelingDescription> 
+    were observed in each of the following brain areas : ( 1 ) 
+    <labelingLocation>the contralateral posterior lateral hypothalamic 
+    area</labelingLocation> ; ( 2 ) <labelingLocation>the AId 
+    prefrontal cortex , bilaterally </labelingLocation>and 
+    <labelingLocation>the ipsilateral ventral agranular insular cortex 
+    ( AIv ) </labelingLocation>, ( 3  ) <labelingLocation>the medial 
+    precentral cortex , bilaterally</labelingLocation> ; ( 4 ) 
+    <labelingLocation>the magnocellular nuclei of the basal forebrain , 
+    bilaterally </labelingLocation> ; ( 5 ) <labelingLocation>the 
+    ipsilateral reticular thalamic nucleus</labelingLocation> ; ( 6 ) 
+    <labelingLocation>the ipsilateral nucleus of the posterior 
+    commissure</labelingLocation> ; ( 7 ) <labelingLocation>the 
+    superior colliculus, bilaterally</labelingLocation> ; ( 8 ) 
+    <labelingLocation>the dorsal midbrain tegmentum 
+    bilaterally</labelingLocation> ; ( 9 ) <labelingLocation>the 
+    peribrachial - peduncdopontine area , bilaterally ; 
+    </labelingLocation> and ( 10 ) <labelingLocation>the dorsal lateral 
+    tegmental nucleus, bilaterally</labelingLocation> .</S><S avgH="47"
+     class="results.body" format="ArialMT" id="s136">These findings are 
+    inclusive of those given in a recent report ( Sapawi and Divac , 
+    &apos; 78 ) .</S><S avgH="47" class="results.body" format="ArialMT"
+     id="s137"><labelingDescription>Labeled 
+    neurons</labelingDescription> in <labelingLocation>the 
+    contralateral posterior lateral hypothalamic 
+    area</labelingLocation> were localized to the same area as those 
+    labeled after injections into<injectionLocation> the substantia 
+    nigra</injectionLocation> .</S><S avgH="47" class="results.body"
+     format="ArialMT" id="s138"><labelingDescription>Collicular neurons 
+    were distributed bilaterally</labelingDescription> in 
+    <labelingLocation>the central portion of the intermediate and deep 
+    layers</labelingLocation> .</S><S avgH="47" class="results.body"
+     format="ArialMT" id="s139">A second injection into 
+    <injectionLocation>the mediodorsal nucleus</injectionLocation> 
+    labeled an area slightly lateral to that described above and 
+    included <labelingLocation>the central lateral intralaminar 
+    nucleus</labelingLocation> ( Fig . 10, Case MD - L ) .</S>
+    <S avgH="47" class="results.body" format="ArialMT"
+     id="s140"><labelingDescription>The retrograde 
+    labeling</labelingDescription> resulting from this second caae 
+    generally conformed with that described for the first case.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s142">Several differences were, however, noteworthy.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s143">First , only 
+    <labelingDescription>perikarya</labelingDescription> in 
+    <labelingLocation>the ipsilateral and contralateral AId prefrontal 
+    cortex</labelingLocation> were labeled , not those in 
+    <labelingLocation>the AIv prefrontal cortex</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s144"><labelingLocation>The medial precentral cortex and the 
+    medial aspect of the lateral precentral cortex</labelingLocation> 
+    contained labeled 
+    <labelingDescription>perikarya</labelingDescription> , 
+    <labelingModifier>bilaterally</labelingModifier> .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s145">Second , 
+    <labelingDescription>labeled collicular 
+    perikarya</labelingDescription> were situated in 
+    <labelingLocation>the most lateral aspect of the intermediate and 
+    deep layers , bilaterally</labelingLocation> , 
+    <labelingModifier>rather than</labelingModifier> in 
+    <labelingLocation>the central portion</labelingLocation> ( Fig . 10 
+    ) .</S><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s146">Third , while <labelingDescription>the number of labeled 
+    perikarya</labelingDescription> in <labelingLocation>the 
+    ipsilateral substantia nigra pars reticulata</labelingLocation> was 
+    roughly equivalent to those labeled after the more central 
+    injection , the more lateral injection into <injectionLocation>the 
+    mediodorsal nucleus</injectionLocation> labeled perikarya in 
+    <labelingLocation>the dorsal pars reticulata</labelingLocation> 
+    .</S><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s147">This same relationship was evident in 
+    <labelingLocation>the contralateral substantia 
+    nigra</labelingLocation> .</S></TTE>
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s148">These findings are depicted in Figure 10.</S>
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s149"><exptLabel>An injection into <injectionLocation>the 
+    central lateral intralaminar thalamic 
+    nucleus</injectionLocation></exptLabel> which included 
+    <injectionSpread>the most medial edge of the ventrolateral 
+    nucleus</injectionSpread> labeled <labelingDescription>very few 
+    perikarya</labelingDescription> in <labelingLocation>the substantia 
+    nigra and the most lateral aspect of the intermediate and deep 
+    layers of the superior colliculus</labelingLocation> .</S></TTE>
+
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s150">Lateral dorsal thulamic nucleus .</S>
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s151"><exptLabel>After <tracerChemical>WGA - 
+    HRP</tracerChemical> injections into <injectionLocation>the 
+    substania nigra</injectionLocation></exptLabel> , 
+    <labelingDescription>fibers</labelingDescription> were observed 
+    <labelingModifier>passing through</labelingModifier> 
+    <labelingLocation>the intralaminar nuclei</labelingLocation> in a 
+    laterodorsal direction .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s152">These fibers continued to 
+    <labelingLocation>the lateral dorsal thalamic 
+    nucleus</labelingLocation> within which <labelingDescription>a 
+    sparse terminal - like distribution of label</labelingDescription> 
+    was apparent ( Figs . 2, 9 ) .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s153">A similar, although 
+    <labelingDescription>more sparse pattern</labelingDescription>, was 
+    evident <labelingLocation>contralateral to the 
+    injection</labelingLocation>.</S></TTE>
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s154">To test the suggestion that this area receives nigral 
+    efferents , <exptLabel><tracerChemical>WGA - HRP</tracerChemical> 
+    was applied iontophoretically into <injectionLocation>the 
+    laterodorsal thalamic nucleus</injectionLocation></exptLabel> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s155">The injection site appeared to be confined to this 
+    nucleus with minimal spread to <injectionSpread yesNo="0">the 
+    adjacent intralaminar complex</injectionSpread> ( Fig . 8C ) .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s156">In excess of <labelingDescription>50 labeled 
+    perikarya</labelingDescription> were observed in 
+    <labelingLocation>the ipsilateral substantia nigra pars 
+    reticulata</labelingLocation> ( Fig . 8F ) .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s157">These 
+    <labelingDescription>neurons</labelingDescription> were located in 
+    <labelingLocation>the most ventral part of that nucleus immediately 
+    adjacent to the cerebral peduncle</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s158"><labelingDescription>Labeled 
+    perikarya</labelingDescription> <labelingModifier>were not 
+    observed</labelingModifier> in <labelingLocation>the contralateral 
+    substantia nigra</labelingLocation> .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT"
+     id="s159">Additionally , <labelingDescription>labeled 
+    perikarya</labelingDescription> were observed bilaterally in 
+    <labelingLocation>the pretectal nuclei , the lateral dorsal 
+    tegmental nuclei</labelingLocation> , and in 
+    <labelingLocation>ipsilateral brain regions including the zona 
+    incerta , lateral hypothalamus , and nucleus 
+    cuneiformis</labelingLocation> .</S></TTE>
+
+    <BR />
+
+    <S avgH="26" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s160">Nigrotectal 
+    connections</S>
+    <BR />
+
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s161">Following <exptLabel><tracerChemical>WGA - 
+      HRP</tracerChemical> injections into <injectionLocation>the 
+      substantia nigra</injectionLocation></exptLabel> 
+      <labelingDescription> labeled fibers</labelingDescription> were 
+      observed that exited from <labelingLocation>the lateral aspect of 
+      the nucleus</labelingLocation> and then curved medially into 
+      <labelingLocation>the dorsal midbrain 
+      tegmentum</labelingLocation> where characteristic  
+      <labelingDescription>terminal labeling</labelingDescription> was 
+      apparent .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s162"><labelingDescription>Two sets of 
+      fibers</labelingDescription> were seen to continue , one medially 
+      into <labelingLocation>the central gray</labelingLocation> and 
+      another dorsally and laterally into <labelingLocation>the 
+      superior colliculus</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s163">In coronal section the intermediate tectal layer 
+      stratum album intermediale , which is interposed between the 
+      stratum griseum intermediale above and the stratum griseum 
+      profundum below , is widest , in its dorsoventral dimension , in 
+      the most lateral part of the tectum and tapers toward the medial 
+      edge of the tectum .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s164"><labelingDescription>Ipsilateral nigrotectal terminal 
+      labeling</labelingDescription> occupied <labelingLocation>the 
+      full extent of the stratum album intermediale</labelingLocation> 
+      .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s165">In addition , in <labelingLocation>the lateral tectum 
+      the most dorsal portion of the stratum griseum profundum  and , 
+      throughout its lateromedial extent , the ventral portion of the 
+      stratum griseum intermediale</labelingLocation> were included in 
+      <labelingDescription>the terminally labeled 
+      area</labelingDescription> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s166">This pattern was evident throughout 
+      <labelingLocation>the rostrocaudal extent of the superior 
+      colliculus</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s167">The pufflike distribution of 
+      <labelingDescription>terminal labeling</labelingDescription> in 
+      this pathway , evident at low magnification , can , to some 
+      extent , be attributable to the absence of label in the bunched 
+      fiber fascicles interspersed within this layer .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s168">As these fascicles are more dispersed in 
+      <labelingLocation>the lateral edge of the 
+      tectum</labelingLocation> , <labelingDescription>terminal 
+      labeling</labelingDescription> in this region is more homogenous 
+      ( Fig .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s169"><labelingDescription>Numerous labeled 
+      fibers</labelingDescription> looped rostrally through 
+      <labelingLocation>the superior collicular 
+      decussation</labelingLocation> to terminate in 
+      <labelingLocation>the contralateral tectum</labelingLocation> ( 
+      Figs . 1, 2 H J , 11 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s170">In contrast to the distribution of 
+      <labelingDescription>terminals</labelingDescription> in 
+      <labelingLocation>the ipsilateral superior 
+      colliculus</labelingLocation> , that in <labelingLocation>the 
+      contralateral structure</labelingLocation> was restricted to 
+      <labelingLocation>the lateral part of the stratum griseum 
+      profundum</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s171">For the most part this labeling was homogeneous except 
+      for the slight inclusion of the ventral aspect of the stratum 
+      album intermediale in <labelingLocation>the 
+      area</labelingLocation> containing 
+      <labelingDescription>terminals</labelingDescription> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s172">In <labelingLocation>the rostral tectum the lateral 
+      half of the deep layer</labelingLocation> contained 
+      <labelingDescription>labeled terminals</labelingDescription> , 
+      this area being restricted laterally in progressively more caudal 
+      sections and absent altogether in the caudal third of the tectum 
+      .</S>
+    </TTE>
+
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s173">The lateral portion of the superior colliculus has been 
+    considered by some to be a part of the dorsal midbrain tegmentum 
+    (Veazey and Severin, &apos;80).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s174">However, on the basis of its morphologic continuity with 
+    the intermediate and deep layers of the superior colliculus 
+    (Tokunga and Otani, &apos;76) and the observation that it has been 
+    shown to contain cells of origin of the tectospinal pathway 
+    (Abrahams and Rose, &apos;75) this lateral continuation is 
+    considered by others to be part of the superior colliculus.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s175"><labelingDescription>The continuity of anterograde 
+    labeling</labelingDescription> after 
+    <injectionLocation>nigral</injectionLocation> injections and of 
+    <labelingDescription>retrograde labeling</labelingDescription> 
+    after injections into <injectionLocation>the mediodorsal nucleus of 
+    the thalamus</injectionLocation> ( see below ) provide further 
+    evidence that the area in question should be considered part of the 
+    superior colliculus .</S>
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s176">Tectal <tracerChemical>WGA - HRP</tracerChemical> 
+    injections .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s177"><exptLabel>Iontophoretic 
+    applications of <tracerChemical>WGA - HRP</tracerChemical> were 
+    made into either <injectionLocation>the rostral or caudal halves of 
+    the superior colliculus</injectionLocation></exptLabel> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s178">Both injections deposited tracer into 
+    <injectionLocation>the intermediate and deep layers of the lateral 
+    tectum and into the most dorsal aspect of the dorsal midbrain 
+    tegmentum</injectionLocation> .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s179">These injections resulted in 
+    distinctly different patterns of <labelingDescription>retrograde 
+    labeling</labelingDescription> in <labelingLocation>the substantia 
+    nigra pars reticulata</labelingLocation> ( Figs . 12,131.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s180">The caudal injection labeled <labelingDescription>a 
+    large number of neurons</labelingDescription> in 
+    <labelingLocation>the rostral half of the ipsilateral pars 
+    reticulata</labelingLocation> confined primarily to 
+    <labelingLocation>a ventral area just above the cerebral 
+    peduncle</labelingLocation> .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s181">Only two neurons were labeled 
+    in <labelingLocation>the contralateral substantia 
+    nigra</labelingLocation> .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s182">The rostral injection labeled 
+    an even greater number of neurons in <labelingLocation>the 
+    ipsilateral substantia nigra pars reticulata</labelingLocation> 
+    .</S><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s183">Again these neurons were located in 
+    <labelingLocation>the rostral half of the 
+    nucleus</labelingLocation> ; however , in this case 
+    <labelingDescription>labeled perikarya</labelingDescription> were 
+    located in <labelingLocation>the dorsal three - fourths of the 
+    nucleus</labelingLocation> .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s184"><labelingLocation>The 
+    contralateral substantia nigra pars reticulata</labelingLocation> 
+    contained in excess of 200 labeled perikarya , fewer than on the 
+    ipsilateral side , primarily confined to <labelingLocation>the 
+    rostral and dorsal portion of that nucleus</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s185">The possible inclusion of the dorsal midbrain tegmentum 
+    in the injection area precludes a strict identification of all 
+    neurons labeled after these injections as exclusively part of the 
+    nigrotectal pathway.</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s186">However , control injections 
+    into <injectionLocation>the dorsal midbrain 
+    tegmentum</injectionLocation> , which did not include 
+    <injectionSpread yesNo="0">the lateral tectal 
+    area</injectionSpread> , <labelingDescription>labeled a relatively 
+    small number of ipsilateral and no contralateral 
+    perikarya</labelingDescription> in <labelingLocation>the substantia 
+    nigra pars reticulata</labelingLocation> .</S></TTE>
+
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s187"><exptLabel>Injections into <injectionLocation>the 
+    rostral superior colliculus</injectionLocation></exptLabel> 
+    resulted in <labelingDescription>terminal 
+    labeling</labelingDescription> in <labelingLocation>the 
+    paralamellar mediodorsal , parafascicular , and ventromedial 
+    thalamic nuclei</labelingLocation> .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT"
+     id="s188">Conversely , as described above , injections into 
+    <injectionLocation>the mediodorsal nucleus</injectionLocation> 
+    labeled <labelingDescription>perikarya</labelingDescription> in 
+    <labelingLocation>the intermediate and deep layers of the superior 
+    colliculus</labelingLocation> , the medial injection labeling 
+    perikarya in <labelingLocation>the medial superior 
+    colliculus</labelingLocation>  and the lateral injection labeling 
+    perikarya in <labelingLocation>the lateral superior 
+    colliculus</labelingLocation> .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s189">This mediolateral topography 
+    of neurons in <labelingLocation>the superior 
+    colliculus</labelingLocation> extended into <labelingLocation>the 
+    lateroventral aspect of the intermediate and deep 
+    layers</labelingLocation> .</S></TTE>
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s190">Injections into <injectionLocation>the mediodorsal 
+    nucleus</injectionLocation> also labeled 
+    <labelingDescription>perikarya</labelingDescription> in 
+    <labelingLocation>the dorsal midbrain tegmentum</labelingLocation> 
+    that were located ventral to those in <labelingLocation>the 
+    intermediate and deep tectal layers</labelingLocation>  and did not 
+    appear to be part of the same topographic arrangement ( Fig . 10 ) 
+    .</S>
+  </Results>
+
+  <Discussion>
+
+    <S avgH="26" class="discussion.heading"
+     format="TimesNewRomanPS-BoldMT" id="s191">DISCUSSION</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s192">It is now well established that HRP is taken up by 
+    neuronal somata and transported to nerve terminals in amounta that 
+    can be visualized with the TMB method.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s193">The study of efferent connections using peroxidase is 
+    more convenient than radioamino acid techniques but the results 
+    must be interpreted with a greater measure of caution because of 
+    the possibility of fiber of passage artefacts (Walberg et al., 
+    &apos;80).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s194">The technique allows rapid confirmation of efferent 
+    connections by the complementary retrograde experiment, as has been 
+    done in many instances in the present study.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s195">In this report the designation of areas as containing 
+    anterogradely labeled terminals is made with some confidence 
+    although this will have to be verified by electron microscopy.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s196">The pattern of anterograde transport seen in the present 
+    study is in full accord with similar experiments using 
+    autoradiographic techniques (G.W.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s197">Arbuthnott and A.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s198">Wright, personal communication).</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s199">Hypothalamonigral 
+    connections</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s200">Perhaps most notable among the present findings was the 
+    demonstration of a crossed input to the substantia nigra from a 
+    discrete area of the posterior lateral hypothalamus, Retrograde 
+    transport of WGA-HRP following injections into the substantia nigra 
+    labeled as many as 120 neurons in the contralateral posterior 
+    lateral hypothalamus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s201">In the complementary experiment injections into the 
+    posterior lateral hypothalamus labeled fibers that appeared to 
+    terminate in the contralateral substantia nigra pars reticulata.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s202">This crossed hypothalamic input was restricted to the 
+    rostral substantia nigra.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s203">Additional significance is attributed to this finding in 
+    light of the observation that neurons in this same area of the 
+    posterior lateral hypothalamus project to the contralateral 
+    paralamellar mediodorsal thalamic nucleus, which itself receives 
+    nigral input.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s204">Preliminary findings in retrograde double-labeling 
+    experiments indicate that neurons in the posterior lateral 
+    hypothalamus send collateral branches to both the contralateral 
+    substantia nigra pars reticulata and the contralateral mediodorsal 
+    thalamic nucleus (Gerfen and Staines, unpublished observations).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s205">The crossed nigral afferents from the posterior lateral 
+    hypothalamus could participate in the reciprocal control of 
+    activity in one substantia nigra and its contralateral counterpart 
+    if it were demonstrated that this area receives afferents from the 
+    ipsilateral substantia nigra.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s206">As the ipsilateral nigrostriatal pathway passes through 
+    the region in question (Fig. 6B) it would be of interest to 
+    determine whether the dopaminergic fibers have boutons en passant 
+    within this area.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s207">Previous studies have described nigral afferents from 
+    the ipsilateral hypothalamus (Bunney and Aghajanian, &apos;76; 
+    Nauta and Domesick, &apos;76).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s208">In the present material, when WGA-HRP injections did not 
+    spread dorsal to the pars compacta, only two or three labeled 
+    perikarya were found in the ipsilateral lateral hypothalamus and 
+    these were at levels considerably more rostral than those on the 
+    contralateral side (Fig. 2D).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s209">More dorsally placed injections, including an area just 
+    dorsal to the substantia nigra pars compacta and the medial 
+    lemniscus, labeled a larger number of these anterior hypothalamic 
+    neurons.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s210">It should be emphasized that the contralateral and 
+    ipsilateral hypothalamic areas projecting to the substantia nigra 
+    are anatomically distinct.</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s211">Connections of the 
+    peribrachialpedunculopontine area with the substantia nigra</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s212">The present data suggest that while the substantia nigra 
+    receives afferents from the peribrachial-pedunculopontine area 
+    bilaterally, it in turn projects only to the ipsilateral 
+    peribrachial-pedunculopontine nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s213">This semireciprocal system has been reported previously 
+    in the cat (Graybiel, &apos;78; Moon-Edley and Graybiel, &apos;80; 
+    Nomura et al., &apos;80) and our data confirm the demonstration of 
+    an efferent connection to the ipsilateral pedunculopontine nucleus 
+    in the rat (Beckstead et al., &apos;79).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s214">The observation that peribrachial-pedunculopontine 
+    efferents to the subthalamic nucleus course through the substantia 
+    nigra (Moon-Edley and Graybiel, &apos;80; Nomura et al., &apos;80) 
+    somewhat compromises the conclusion that 
+    peribrachial-pedunculopontine efferents terminate within the 
+    substantia nigra, as has been suggested by this and previous 
+    studies.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s215">The definitive demonstration of terminal labeling of 
+    peribrachial-pedunculopontine efferents within the substantia nigra 
+    awaits electron microscopic analysis.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s216">The peribrachial-pedunculopontine area is particularly 
+    well connected with other components of the extrapyramidal 
+    system.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s217">It receives afferents from the substantia nigra pak 
+    reticulata, from the ipsilateral and possibly contralateral 
+    entopeduncular nucleus (Nauta, &apos;79; MoonEdley and Graybiel, 
+    &apos;BO), and from the ipsilateral and contralateral hypothalamus 
+    (Tohyama et al., &apos;78; Moon-Edley and Graybiel, &apos;80).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s218">Efferent projections of the peribrachialpedunculopontine 
+    nucleus include the substantia nigra, subthalamic nucleus, and 
+    hypothalamus, and all of these appear to be bilateral (Tohyama et 
+    al., &apos;78; Moon-Edley and Graybiel, &apos;80).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s219">These pathways provide a number of potential circuits 
+    that could mediate the interdependent control of activity in the 
+    right and left substantia nigra.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s220">The most obvious is the direct input from the substantia 
+    nigra pars reticulata to the ipsilateral 
+    peribrachial-pedunculopontine area, which in turn projects 
+    bilaterally to the substantia nigra.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s221">Another is suggested by the bilateral projection of the 
+    peribrachial-pedunculopontine nucleus onto the subthalamic nuclei, 
+    each of which projects to the ipsilateral substantia nigra and to 
+    the globus pallidus (Nauta and Cole, &apos;79; Van der Kooy and 
+    Hattori, &apos;80).</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s222">Nigrotectal 
+    connections</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s223">Using electrophysiological techniques, Deniau et al. 
+    (&apos;77) obtained evidence for a crossed nigrotectal projection 
+    in the rat.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s224">Anatomical techniques have been used to demonstrate 
+    bilateral innervation of the superior colliculus by nigral 
+    efferents in the cat and monkey (Hopkins and Niesen, &apos;76; 
+    Rinvik et al., &apos;76; Beckstead et al., &apos;81).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s225">However, previous HRP injections into the rat superior 
+    colliculus have been reported to result in the labeling of only a 
+    few (one or two) neurons in the contralateral substantia nigra pars 
+    reticulata (Beckstead et al., &apos;81).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s226">The present data, using complementary WGA-HRP injections 
+    into the superior colliculus and substantia nigra, indicate that 
+    the nigrotectal projection is bilateral in the rat.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s227">The innervation of the contralateral superior colliculus 
+    appears to be less extensive than the ipsilateral innervation, in 
+    terms of both its distribution and the number of neurons 
+    contributing to the pathway.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s228">However, the present observation of over 200 labeled 
+    neurons in the contralateral substantia nigra pars reticulata after 
+    superior colliculus WGAHRP injections suggests that this crossed 
+    pathway is much more extensive than previously suspected.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s229">The distribution of the crossed pathway primarily into 
+    the lateral and deep layers of the superior colliculus probably 
+    accounts for the failure of previous investigations, using more 
+    superficial and caudal injections, to label this pathway more 
+    completely.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s230">The suggestion of a topographic organization of the 
+    nigrotectal pathway is noteworthy.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s231">Neurons located in the dorsal substantia nigra pars 
+    reticulata project to the rostral superior colliculus and more 
+    ventrally located nigral neurons project to the caudal superior 
+    colliculus.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s232">For the most part previous studies have identified only 
+    ventrally located nigrotectal neurons (Faull and Mehler, &apos;78; 
+    Beckstead et al., &apos;81), consistent with the fact that only 
+    caudal injections of retrograde tracers were employed.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s233">A mediolateral topography for this pathway has also been 
+    suggested (Steindler and Deniau, &apos;80).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s234">The superficial collicular layers receive primarily 
+    retinal and visual cortical input and project to primary visual 
+    areas of the thalamus and midbrain.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s235">On the other hand, the intermediate and deep collicular 
+    layers are interconnected with nonvisual sensory and motor parts of 
+    the brain.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s236">These layers receive, in addition to nigral efferents, 
+    nonvisual sensory input from the dorsal column nuclei (Lund and 
+    Webster, &apos;67; Antonetty and Webster, &apos;75), trigeminal 
+    nuclei (Smith, &apos;73; Killackey and Erzurumlu, %1), and 
+    somatosensory cortex (Wise and Jones, &apos;77), motor input from 
+    the cerebellum (Faull and Carman, &apos;78) and frontal cortical 
+    eye fields (Leichnetz et al., &apos;81), and provide ascending 
+    projections to the thalamic nuclei interconnected with the frontal 
+    cortex and basal ganglia (Herkenham, &apos;79; Harting et al., 
+    &apos;80), and descending projections to the spinal cord, brainstem 
+    motor nuclei, and reticular formation (Holcombe and Hall, &apos;81 
+    a,b).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s237">Ascending crossed cerebellofugal projections innervate 
+    the lateral intermediate and deep tectal layers as well as thalamic 
+    nuclei including the parafascicular, ventromedial, and paralamellar 
+    mediodorsal nuclei (Faull and Carman, &apos;78).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s238">As demonstrated in the present study, the paralamellar 
+    mediodorsal nucleus receives a topographically ordered input, to 
+    some extent bilateral, from the intermediate and deep tectal 
+    layers.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s239">These layers provide inputs to the ventromedial and 
+    parafascicular nuclei as well (Herkenham, &apos;79; Harting et al., 
+    &apos;80).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s240">The association of these pathways, together with the 
+    thalamocortical and thalamostriatal pathways discussed below, with 
+    the substantia nigra, provide possible substrates for sensorimotor 
+    integration (Fig.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s241">Neurons in the intermediate layers provide crossed 
+    afferents to the paramedian reticular formation while those in the 
+    deep layer innervate primarily the ipsilateral lateral reticular 
+    nucleus (Holcombe and Hall, &apos;81a,b).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s242">As noted above, it appeared that ipsilateral nigrotectal 
+    fibers terminated more superficially in the intermediate layers 
+    while the crossed pathway terminated primarily in the deep layer 
+    (Fig. 11).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s243">Similarly, superior colliculus neurons projecting to the 
+    ipsilateral mediodorsal thalamic nucleus were most frequently 
+    located superficial to those providing crossed mediodorsal thalamic 
+    input (Fig. 10).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s244">Further elaboration of this organization awaits a more 
+    detailed analysis.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s245">The nonhomogeneous distribution of ipsilateral 
+    nigrotectal fibers and terminals observed presently and in previous 
+    studies (Graybiel, &apos;78; Beckstead et al., &apos;79) is similar 
+    to that of the trigeminotectal and somatosensory corticotectal 
+    afferents (Wise and Jones, &apos;77; Killackey and Erzurumlu, 
+    &apos;81).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s246">Killackey and Erzurumlu (&apos;81) have pointed out that 
+    the stratum album intermediale, the layer through which afferents 
+    distribute into the intermediate layers of the tectum, is laced 
+    with fascicular bunches of corticotectal fibers so that terminal 
+    labeling within this layer, while giving the appearance of 
+    nonhomogeneity, may in fact, with respect to the neuropil, be 
+    distributed evenly.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s247">In this context it is significant that in contrast to 
+    the ipsilateral nigrotectal pathway which distributed into the 
+    stratum album intermediale, with distinctive pufflike labeling, and 
+    stratum griseum intermediale, the contralateral nigrotectal 
+    terminal distribution primarily into the stratum griseum profundum 
+    was homogeneous.</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s248">Nigrothalamic 
+    connections</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s249">The present data revealed for the first time a nigral 
+    efferent pathway to the lateral dorsal thalamic nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s250">Evidence for this pathway was obtained both with 
+    injections of WGA-HRP into the substantia nigra and into the 
+    lateral dorsal thalamic nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s251">The lateral dorsal nucleus has been implicated in a 
+    system linking sensory areas, the pretectal nuclei, with limbic 
+    cortices including the cingulate, retrosplenial, and presubicular 
+    areas (Ryska and Heger, &apos;79; Robertson et al., &apos;80).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s252">Nigral input to this nucleus may convey not only 
+    additional sensory but also motor information to this circuit.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s253">Previous studies have demonstrated the existence of 
+    nigral inputs to the ipsilateral parafascicular, ventromedial, and 
+    both the ipsilateral and contralateral paralamellar mediodorsal 
+    thalamic nuclei (Faull and Carman, &apos;68; Carpenter and Peter, 
+    &apos;72; Carpenter et al., &apos;76; Clavier et al., &apos;76; 
+    Faull and Mehler, &apos;78; Beckstead et al., &apos;79; Herkenham, 
+    &apos;79; Bentivoglio et al., &apos;79).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s254">The present data confirm and extend these reports with 
+    the demonstration of a minor nigral afferent connection from the 
+    ipsilateral parafascicular thalamic nucleus and a bilateral nigral 
+    projection to the ventromedial thalamic nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s255">Pritzel and Huston (&apos;80) have reported that 
+    unilateral lesions of the substantia nigra induce the contralateral 
+    substantia nigra to innervate the ventromedial nucleus of the 
+    thalamus ipsilateral to the lesion.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s256">However, the present findings and those of Herkenham 
+    (&apos;79), who reported an occasional labeled neuron in the 
+    contralateral substantia nigra aRer HRP injections into the 
+    ventromedial nucleus of the thalamus, point to a crossed input, 
+    albeit minor, to the ventromedial nucleus from the substantia nigra 
+    in the intact animal.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s257">Thus the report of an induction of this crossed system 
+    after unilateral nigral lesions seems likely due to an expansion 
+    (sprouting) of an existing crossed projection.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s258">The connections of the thalamic nuclei receiving nigral 
+    input demonstrate not only possible pathways through which activity 
+    in the right and left substantia nigra may be linked, but also the 
+    complexity of the neuronal circuits which may influence and be 
+    influenced by nigral efferent activity.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s259">These circuits include ascending projections to the 
+    striatal and cortical regions that provide descending input to the 
+    substantia nigra and inputs to thalamic nuclei from the superior 
+    colliculus and peribrachial-pedunculopontine areas that receive 
+    nigral input (Fig. 15).</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s260">Nigrothalamocortical 
+    connections</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s261">Although not yet demonstrated by electron microscopic 
+    analysis, studies employing fiber degeneration staining (Leonard, 
+    &apos;69) and autoradiographic (Beckstead, &apos;79) techniques 
+    have revealed a frontocorticonigral pathway.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s262">The present data conform with previous studies 
+    suggesting that cortical input to the substantia nigra originates 
+    from the medial and lateral precentral cortices and from the AId 
+    prefrontal cortex (Bunney and Aghajanian, &apos;76).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s263">There is an intimate relationship between these cortical 
+    areas and those thalamic nuclei that receive input from the 
+    substantia nigra.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s264">The medial precentral cortex is reciprocally connected 
+    with that portion of the mediodorsal thalamic nucleus, the 
+    paralamellar, that receives nigral efferents (Leonard, &apos;69; 
+    Krettek and Price, &apos;77; Beckstead, &apos;79).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s265">The precentral motor cortex of the monkey, corresponding 
+    to the lateral precentral cortex of the rat, has also been reported 
+    to project to the paralamellar portion of the mediodorsal nucleus 
+    (Akert et al., &apos;79).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s266">The present data suggest a similar pathway in the rat, 
+    but more extensive investigations are needed to confirm this.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s267">The mediodorsal nucleus projection onto the AId 
+    prefrontal cortex overlaps with the medial aspect of the 
+    paralamellar segment which is innervated by the substantia nigra 
+    (Gerfen and Clavier, &apos;79).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s268">The present study suggests that the AId prefrontal 
+    cortex projects to the more rostral and lateral parts of the 
+    paralamellar mediodorsal nucleus as well.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s269">All of the pathways discussed above, with the notable 
+    exception of the corticonigral pathway, are to some extent 
+    bilateral.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s270">It is significant that this same type of association is 
+    seen in tectothalamocortical connections (Harting et al., &apos;80; 
+    Leichnetz et al., &apos;81).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s271">In the rat, the ventromedial thalamic nucleus projects 
+    widely to layer I of most of the neocortex (Krettek and Price, 
+    &apos;77; Herkenham, &apos;79, &apos;80).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s272">The AId prefrontal and the lateral precentral cortex 
+    receive additional input to layers I11 and V.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s273">These cortical regions, in addition to providing nigral 
+    afferents, also project back to the ventromedial thalamic 
+    nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s274">Like nigral efferents to the mediodorsal nucleus, nigral 
+    input to the ventromedial thalamic nucleus, by virtue of its 
+    crossed nature, provides potential for the multisynaptic connection 
+    between one substantia nigra and its contralateral counterpart.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s275">A similar feedback loop to the substantia nigra, 
+    although primarily an ipsilateral system, is provided by nigral 
+    input to the parafascicular thalamic nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s276">This nucleus also projects to the AId prefrontal cortex 
+    and to the lateral precentral cortex (Krettek and Price, &apos;77; 
+    Gerfen and Clavier, &apos;79).</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s277">Thalamostriatal and 
+    corticostriatonigral pathways</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s278">Each thalamic nuclear region receiving nigral efferents 
+    has been reported to project to the ipsilateral striatum.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s279">While striatal afferents originating in the mediodorsal 
+    and ventromedial thalamic nuclei are minor (Krettek and Price, 
+    &apos;77; Herkenham, &apos;791, the parafascicular nucleus provides 
+    a massive input to the striatum (Jones and Leavitt, &apos;74).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s280">The mosaic distribution of the parafascicular projection 
+    to the striatum reported by Herkenham and Pert (&apos;81) was 
+    confirmed in the present study (Fig. 8D).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s281">These projections provide, via the striatonigral 
+    pathway, an alternate feedback loop to the substantia nigra.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s282">The striatum also receives a significant input from the 
+    intralaminar nucleus but to date there is no clear evidence that 
+    this nucleus receives a nigral input (Carpenter and Peter, 
+    &apos;72).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s283">The cortical areas that project to the nigra and receive 
+    mediodorsal, ventromedial, or parafascicular thalamic input also 
+    project to the striatum (Beckstead, &apos;79).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s284">To some extent these are bilateral pathways with fibers 
+    crossing in the corpus callosum.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s285">The work of Nieoullon et al. (&apos;78) suggests that 
+    these pathways, together with crossed corticocortical connections, 
+    may provide a neuronal substrate linking activity in the two 
+    nigrostriatal DA systems.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s286">They reported that unilateral activation of the motor 
+    cortex resulted in activation of both nigrostriatal pathways and 
+    that transection of the rostral part of the corpus callosum 
+    abolished the contralateral but not the ipsilateral response.</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s287">Connections between the 
+    nigrotectal and nigrothalamic pathways</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s288">Collateralization of nigral efferents.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s289">Previous reports have suggested that collaterals of a 
+    large number of nigrothalamic neurons project to the ipsilateral 
+    tectum (Bentivoglio et al., &apos;79; Steindler and Deniau, 
+    &apos;80).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s290">Preliminary data (Gerfen and Staines, unpublished 
+    observations) suggest that some of the crossed nigrotectal fibers 
+    are collaterals of axons that provide ipsilateral nigrotectal 
+    input.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s291">Whether single neurons within the substantia nigra pars 
+    reticulata have axons with collaterals not only to the tectum and 
+    ventromedial thalamic nucleus, but additional collaterals to the 
+    mediodorsal, parafascicular, and the contralateral counterparts of 
+    each of these nuclei remains to be demonstrated.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s292">Topography of nigral efferents.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s293">Herkenham (&apos;79) reported an organization of nigral 
+    connections with the ventromedial nucleus in which mediolateral and 
+    dorsoventral topography is preserved.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s294">There was no apparent rostrocaudal axis to this 
+    organization.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s295">The present data suggest a topographical organization of 
+    nigromediodorsal and nigrotectal pathways as well.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s296">Medial and ventral segments of thepars reticulata appear 
+    to project to the medial paralamellar mediodorsal nucleus while 
+    dorsal and lateral segments of the pars reticulata project to its 
+    lateral part.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s297">Neurons projecting to the rostral tectum originate in 
+    the rostrodorsal aspect of the substantia nigra pars reticulata 
+    while rostroventral neurons within the pars reticulata project to 
+    the caudal superior colliculus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s298">A mediolateral nigrotectal topography has been reported 
+    previously (Steindler and Deniau, &apos;80).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s299">In the present study a similar mediolateral topography 
+    was apparent in the projection of the tectum onto the mediodorsal 
+    nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s300">Superior colliculus neurons formed a continuum within 
+    which medial and lateral tectal neurons projected to the medial and 
+    lateral portions, respectively, of the paralamellar division of the 
+    mediodorsal nucleus.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s301">Anterograde transport of WGA-HRP following tectal 
+    injections labeled terminals not only in the paralamellar 
+    mediodorsal nucleus but also confirmed previous reports of tectal 
+    input to the ventromedial and parafascicular thalamic nuclei 
+    (Ahlenius, &apos;78; Herkenham, &apos;79).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s302">These projections are to some extent bilateral.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s303">As discussed above, each of these thalamic nuclei have 
+    connections with cortical regions providing nigral afferents.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s304">Of note is the suggestion of a topographic organization, 
+    not only in the nigrotectal, nigrothalamic, and tectothalamic 
+    pathways discussed above, but of a topographic organization that is 
+    maintained between the thalamocortical and the corticonigral 
+    pathways as well.</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s305">Functional 
+    considerations</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s306">The connections of the substantia nigra with the 
+    ascending tectothalamocortical and striatal pathways are 
+    schematized in Figure 15.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s307">There is an emerging view that these pathways may have a 
+    functional role in sensory attentiveness.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s308">Physiological investigations have suggested that both 
+    the frontal cortical eye fields and the stratum griseum of the 
+    superior colliculus are responsive to somatosensory and auditory 
+    stimuli (Cynader and Berman, &apos;72; Gordon, &apos;73; Stein et 
+    al., &apos;76) and function in the regulation of saccadic eye 
+    movements (Bizzi, &apos;68; Koerner, &apos;72; Wurtz and Goldberg, 
+    &apos;72).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s309">Neuronal activity in the substantia nigra has been 
+    reported to be altered by stimulation of visual or motor cortices 
+    (Nieoullon et al., &apos;78) and by the presentation of a variety 
+    of peripheral stimuli (Nieoullon et al., &apos;77a,b; Chiodo et 
+    al., &apos;79).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s310">Thus, physiological evidence has suggested that these 
+    neuronal systems are involved in both sensory and motor function 
+    while lesion studies are suggestive of a role for these pathways in 
+    the integration of these functions.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s311">Lesions of the nigrostriatal DA system have been 
+    reported to produce contralateral neglect of visual or somesthetic 
+    stimuli and a facilitation of ipsilateral visual responsiveness 
+    (Marshall, &apos;78; Feeney and Wier, &apos;79).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s312">Similar behavioral effects are produced by collicular 
+    ablations (Marshall, &apos;78; Sprague et al., &apos;73).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s313">This report brings together and expands upon what can 
+    now be seen as the very complex anatomy of the substantia nigra.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s314">A summary of the efferent and afferent connections of 
+    the substantia nigra is provided in Figure 14.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s315">The role played by each of these connections in the 
+    observed nigral interplay awaits further study.</S>
+  </Discussion>
+
+  <Acknowledgements>
+
+    <S avgH="26" class="acknowledgements.heading"
+     format="TimesNewRomanPS-BoldMT" id="s316">ACKNOWLEDGMENTS</S>
+    <BR />
+
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s317">This research was supported 
+    by an M.R.C. grant to H.C.F.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s318">and by NIMH grant MH-33987 to 
+    R.M.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s319">Clavier.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s320">C.R.G. is supported by NIH 
+    postdoctoral fellowship 073182.</S>
+    <BR />
+
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s321">We wish to express our 
+    appreciation to S.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s322">Atmadja for her excellent 
+    technical assistance, and to P.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s323">Thomas for her excellent 
+    secretarial and editorial assistance.</S>
+  </Acknowledgements>
+
+  <References>
+
+    <S avgH="26" class="references.heading"
+     format="TimesNewRomanPS-BoldMT" id="s324">LITERATURE CITED</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s325">V.C., and P.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s326">Rose (1975) Projections of extraocular, neck and retinal 
+    afferents to superior colliculus in the cat: Their connections to 
+    cells of origin of techpinal tract.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s327">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s328">Neurophysiol. 38:lO18.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s329">Ahlenius, S. (1978) Potentiation by haloperidol of the 
+    catalepsy produced by lesions of the parafascicular nucleus of the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s330">Brain Res. 150:648652.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s331">Akert, K., K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s332">Hartmann-Von Monakow, and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s333">Kunzle (1979) Projections of precentral motor cortex 
+    upon nucleus medialis dorsalis thalami in the monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s334">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s335">Lett. 11 :103-106.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s336">Antonetty, C.M., and K.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s337">Webster (1975) The organization of the spinotectal 
+    projection.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s338">An experimental study in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s339">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s340">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s341">Neurol.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPS-BoldMT"
+     id="s342">163A49-466.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s343">Beckstead, R.M. (1979) An autoradiographic examination 
+    of corticortical and subcortical projections of the 
+    mediodorsal-projection (prefrontal) cortex in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s344">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s345">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s346">Neurol. 184:43-62.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s347">Beckstead, R.M., V.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s348">Domesick, and W.J.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s349">Nauta (1979) Efferent connections of the substantia 
+    nigra and ventral tegmental area in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s350">Brain Res. 175:191-217.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s351">Beckstead, R.M., S.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s352">Edwards, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s353">Frankfurter (1981) A comparison of the intranigral 
+    distribution of nigrotectal neurons labeled with horseradish 
+    peroxidase in the monkey, cat, and rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s354">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s355">Neurosci. 1:121-125.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s356">Bentivoglio, M., D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s357">Van der Kooy, and H.G.J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s358">Kuypers (1979) The organization of the efferent 
+    projections of the substantia nigra in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s359">A retrograde fluorescent double labeling study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s360">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s361">I74:383386.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s362">Bizzi, E. (1968) Discharges of frontal eye field neurons 
+    during saccadic and following eye movements in unanesthetized 
+    monkeys.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s363">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s364">Brain Res.</S>
+    <BR />
+
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s365">6:69-80.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s366">Bunney, B.S., and G.K.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s367">Aghajanian (1976) The precise localization of nigral 
+    afferents in the rat as determined by a retrograde tracing 
+    technique.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s368">Brain Res. 11 7:423435.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s369">Carpenter, M.B., and P.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s370">Peter (1972) Nigrostriatal and nigrothalamic fibers in 
+    the rhesus monkey.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s371">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s372">Comp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s373">Neurol. 144:93-116.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s374">Carpenter, M.B., K.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s375">Nakano, and R.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s376">Kim (1976) Nigrothalamic projections in the monkey 
+    demonstrated by autoradiographic technics.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s377">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s378">Comp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s379">Neurol. 165:401416.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s380">Cheramy, A,, V.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s381">Leviel, and J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s382">Glowinski (1981) Dendritic release of dopamine in the 
+    substantia nigra.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s383">Nature 289:537-542.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s384">Chiodo, L.A., A.R.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s385">Caggiula, S.M.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s386">Antelman, and C.G.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s387">Lineberry (1979) Reciprocal influences of activating and 
+    immobilizing stimuli on the activity of nigrostriatal dopamine 
+    neurons.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s388">Brain Res. 176:385-390.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s389">Clavier, R.M., S.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s390">Atmadja, and H.C.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s391">Fibiger (1976) Nigrothalamic projections in the rat as 
+    demonstrated by orthograde and retrograde tracing techniques.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s392">Brain Res.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s393">Bull. 1:379-384.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s394">Cynader, M., and N.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s395">Berman (1972) Receptive field organization ofmonkey 
+    superior colliculus.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s396">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s397">Neurophysiol. 35:187-201.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s398">Deniau, J.M., C.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s399">Hammond-LeGuyader, J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s400">Feger, and J.S.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s401">McKenzie (1977) Bilateral projections of 
+    nigro-collicular neurons: An electrophysiolog ical study in the 
+    rat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s402">Neurosci.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s403">Lett. 5:45-50.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s404">Faull, R.L.M., and J.B.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s405">Carman (1968) Ascending projections of the substantia 
+    nigra in the rat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s406">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s407">Comp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s408">Neurol. 13.2~73-92.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s409">Faull, R.L.M., and J.B.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s410">Carrnan (1978) The cerebellofugal projections in the 
+    brachium conjunctiuum of the rat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s411">I.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s412">The contralateral ascending pathway.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s413">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s414">Comp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s415">Neurol. 178:495-518.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s416">Faull, R.L.M., and W.R.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s417">Mehler (1978) The cells of origin of nigrotectal, 
+    nigrothalamic and nigrostriatal projections in the rat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s418">Neuroscience 3:989-1002.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s419">Feeney, D.M., and C.S.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s420">Wier (1979) Sensory neglect after lesions of substantia 
+    nigra or lateral hypothalamus: Differential severity and recovery 
+    of function.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s421">Brain Res. 178:329346.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s422">Gerfen, C.R., and R.M.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s423">Clavier (1979) Neural inputs to the prefrontal agranular 
+    insular cortex in the rat Horseradish peroxidase study.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s424">Brain Res.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s425">Bull. 4:347-353.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s426">Gordon, B. (1973) Receptive fields in deep layers of cat 
+    superior colliculus.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s427">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s428">Neurophysiol. 36:157-178.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s429">Graybiel, A.M. (1978) Organization of the nigrotectal 
+    connection: An experimental tracer study in the cat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s430">Brain Res. 143:339348.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s431">Harting, J.K., M.F.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s432">Huerta, A.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s433">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s434">Frankfurter, N.I.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s435">Strominger, and G.J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s436">Royce (1980) Ascending pathways from the monkey superior 
+    colliculus: An autoradiographic analysis.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s437">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s438">Comp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s439">Neurol. 192:853-882.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s440">Hattori, T., H.C.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s441">Fibiger, and P.L.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s442">McGeer (1975) Demonstration of a pallido-nigral 
+    projection innervating dopaminergic neurons.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s443">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s444">Comp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s445">Neurol. 162:487-504.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s446">Herkenham, M. 11979) The afferent and efferent 
+    connections of the ventromedial thalamic nucleus in the rat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s447">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s448">Comp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s449">Neurol. 183:487-518.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s450">Herkenham, M. (1980) Laminar organization of thalamic 
+    projections to the rat neocortex.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s451">Science 207:532-535.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s452">Herkenham, M., and W.J.H.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s453">Nauta (1977) Afferent connections of the habenular 
+    nuclei in the rat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s454">A horseradish peroxidase study, with a note on the 
+    fiber-of-passage problem.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s455">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s456">Comp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s457">Neurol. 173:123-176.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s458">Herkenham, M., and C.B.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s459">Pert (1981) Mosaic distribution of opiate receptors, 
+    parafascicular projections and acetylcholinesterase in rat 
+    striatum.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s460">Nature 291:415-418.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s461">Holcombe, V., and W.C.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s462">Hall i1981a) The laminar tectopontine pathway.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s463">Neuroscience 6:255-260.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s464">Holcombe, V., and W.C.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s465">Hall (1981b) The laminar origin and distribution of the 
+    crossed tectoreticular pathways.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s466">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s467">Neurosci. 1:1103-1112.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s468">Hopkins, D.A., and L.W.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s469">Niesen (1976) Substantia nigra projections to the 
+    reticular formation, superior colliculus and central gray in the 
+    rat, cat and monkey.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s470">Neurosci.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s471">Lett. 2:253-259.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s472">Jones, E.G., and R.Y.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s473">Leavitt (1974) Retrograde axonal transport and the 
+    demonstration of non-specific projections to the cerebral cortex 
+    and monkey.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s474">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s475">Comp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s476">Neurol. 154:349377.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s477">Killackey, H.P., and R.S.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s478">Erzurumlu (1981) Trigeminal projections to the superior 
+    colliculus of the rat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s479">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s480">Comp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s481">Neurol. 201:221-242.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s482">Kim, C.C., and P.L.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s483">Strick (1976) Critical factors involved in the 
+    demonstration of horseradish peroxidase retrograde transport.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s484">Brain Res. 103:356361.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s485">Koerner, F., and P.H.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s486">Schiller (1972) The optokinetic response under open and 
+    closed loop conditions in the monkey.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s487">Exp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s488">Brain Res. 14:31&amp;33G.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s489">Krettek, J.E., and J.L.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s490">Price (1977) The cortical projections of the mediodorsal 
+    nucleus and adjacent thalamic nuclei in the rat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s491">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s492">Comp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s493">Neurol. 1 71:157-192.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s494">Leichnetz, G.R., R.F.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s495">Spencer, S.G.P.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s496">Hardy, and J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s497">Astrul (1981) The prefrontal corticotectal projection in 
+    the monkey; an anterograde and retrograde horseradish peroxidase 
+    study.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s498">Neuroscience 6:1023-1041.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s499">Leonard, C.M. (1969) The prefrontal cortex of the 
+    rat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s500">I.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s501">Cortical projection of the mediodorsal nucleus. 11.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s502">Efferent connections.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s503">Brain Res. 12:321343.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s504">Leviel, V., A.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s505">Nieoullon, and J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s506">Glowinski (1979) Symmetric bilateral changes in dopamine 
+    release from the caudate nuclei of the cat induced by unilateral 
+    nigral application of glycine and GABA-related compounds.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s507">Brain Res. 175:259-270.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s508">Lund, R.D., and K.E.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s509">Webster (1967) Thalamic afferents from the dorsal column 
+    nuclei.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s510">An experimental anatomical study in the rat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s511">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s512">Comp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s513">Neurol. 130:301312.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s514">Marshall, J.F. (1978) Comparison of the sensorimotor 
+    dysfunctions produced by damage to the lateral hypothalamus and 
+    superior colliculus in the rat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s515">Exp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s516">Neurol. 58:203-217.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s517">Mesulam, M.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s518">-M. (1978) Tetramethyl benzidine for horseradish 
+    peroxidase neurohistoehemistry: A non-carcinogenic blue 
+    reaction-product with superior sensitivity for visualizing neural 
+    afferents and efferents.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s519">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s520">Histochem. 26:106-117.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s521">Moon-Edley, S., and A.M.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s522">Graybiel(1980) Connections of the nucleus tegmenti 
+    pedunculopontis, pars compacta (TPc) in cat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s523">Anat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s524">Rec. 196:129A.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s525">Nagy, J.I., D.A.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s526">Carter, and H.C.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s527">Fibiger (1978) Anterior striatal projections to the 
+    globus pallidus, entopeduncular nucleus and substantia nigra in the 
+    rat: The GABA connection.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s528">Brain Res. 158:15-29.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s529">Nauta, H.J.W. (1979) Projections of the pallidal 
+    complex: An autoradiographic study in the monkey and cat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s530">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s531">Comp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s532">Neural. 180:l-16.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s533">Nauta, H.J.W., and M.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s534">Cole (1979) Efferent projections of the subthalamic 
+    nucleus: An autoradiographic study in the monkey and cat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s535">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s536">Comp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s537">Neurol. 18O:l-16.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s538">Nauta, W.J.H., and V.B.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s539">Domesick (1976) Crossroads of limbic and striatal 
+    circuitry hypothalamo-nigral connections.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s540">In K.E.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s541">Livingston and 0.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s542">Hornykiewicz (eds): Limbic Mechanisms.New York Plenum 
+    Press, pp. 75-92.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s543">Nauta, W.J.H., G.P.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s544">Smith, R.L.M.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s545">Faull, and V.B.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s546">Domesick (1978) Efferent connections and nigral 
+    afferenta of the nucleus accumbens septi in the rat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s547">Neuroscience 3:385-401.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s548">Nieoullon, A,, A.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s549">Charamy, and J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s550">Glowinski (1977a) Interdependence of the nigrostriatal 
+    dopaminergic systems on the two sides of the brain in the cat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s551">Science 198:416418.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s552">Nieoullon: A,, A.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s553">Cheramy, and J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s554">Glowinski (1977b) Nigral and striatal dopamine release 
+    under sensory stimuli.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s555">Nature 269:340-342.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s556">Nieoullon, A,, A.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s557">Cheramy, and J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s558">Glowinski (1978) Release of dopamine evoked by 
+    electrical stimulation of the motor and visual areas of the 
+    cerebral cortex in both caudate nuclei and in the substantia nigra 
+    in the cat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s559">Brain Res. 145:69-83.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s560">Nomura, S., N.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s561">Mizuno, and T.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s562">Sugimoto (1980) Direct projections from the 
+    pedunclupontine tegmental nucleus to the subthalamic nucleus in the 
+    cat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s563">Brain Res. 196:223-227.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s564">Paaquier, D.A., and F.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s565">Reinoso-Suarez (1976) Direct projections from 
+    hypothalamus to hippocampus in the rat demonstrated by retrograde 
+    transport of horseradish peroxidase.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s566">Brain Res. 108:165-169.</S>
+    <BR />
+
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s567">Pritzel.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s568">M., and J.P.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s569">Huston (1980) Unilateral lesions in the substantia nigra 
+    induce projections from the contralateral substantia nigra to the 
+    ipsilateral thalamus.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s570">Sac.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s571">Neurosci.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s572">Abstr. 6:390.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s573">Rinvik, E., I.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s574">Grofova, and O.P.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s575">Ottersen (1976) Demonstration of nigrotectal and 
+    nigroreticular projections in the cat by axonal transport of 
+    proteins.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s576">Brain Res. 112:388-394.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s577">Robertson, R.T., S.S.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s578">Kaitz, and M.J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s579">Robards (1980) A subcortical pathway links sensory and 
+    limbic system of the forebrain.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s580">Neurosci.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s581">Lett. 17:161165.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s582">Rose, M. (1928) Die Inserlrinde Neurol.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s583">Lpz. 37:467-624.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s584">Ryska, A., and M.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s585">Heger (1979) Afferent connections of the laterdorsal 
+    thalamic nucleus in the rat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s586">Neurosci.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s587">Lett. 15:61-64.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s588">Sapawi, R.R., and I.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s589">Davic (1978) Connections of the mediodorsal nucleus of 
+    the thalamus in the tree shrew.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s590">I.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s591">Afferent connections.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s592">Neurosci.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s593">Lett. 7:183-189.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s594">Smith, R.L. (1973) The ascending fiber projections from 
+    the principal senwry trigeminal nucleus in the rat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s595">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s596">Comp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s597">Neurol. 127:423446.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s598">Sprague, J.M., G.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s599">Berlucchi, and A.D.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s600">Berandino (1973) The role of the superior colliculus and 
+    pretectum in vision and visually guided behavior.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s601">In R.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s602">Jung (ed): Handbook of Sensory Psychology.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s603">Vol. 7 VIU3B.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s604">New York Springer-Verlag, pp. 27-193.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s605">Staines, W.A., H.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s606">Kimura, H.C.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s607">Fibiger, and E.G.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s608">McGeer (1980) Peroxidase-labeled lectin as a 
+    neuroanatomical tracer: Evaluation in a CNS pathway.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s609">Brain h a . 197:485-490.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s610">Stein, B.E., B.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s611">Magalhaes-Castro, and L.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s612">Kruger (1976) Relationship between visual and tactile 
+    representations in cat superior colliculua.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s613">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s614">Neurophysiol. 39:401-419.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s615">Steindler, D.A., and J.M.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s616">Deniau (1980) Anatomical evidence for collateral 
+    branching of substantia nigra neurons a combined horseradish 
+    peroxidase and PH) wheat germ agglutinin axonal transport study in 
+    the rat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s617">Brain Res. 196:228-236.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s618">Tohyama, M., K.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s619">Satoh, T.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s620">Sakumoto, Y.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s621">Kimoto, Y.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s622">Takahashi, K.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s623">Yamamoto, and T.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s624">Itakura (1978) Organization and projections of the 
+    neurons in the dorsal tegmental area of the rat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s625">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s626">Hirnforsch. 19:165176.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s627">Tokunaga, A,, and K.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s628">Otani (1976) Dendritic patterns rat superior 
+    colliculus.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s629">Exp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s630">Neurol. 52:189-205.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s631">Van der Kooy, D., and T.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s632">Hattori (1980) Single subthalamic nucleus neurons 
+    project to both the globus pallidus and substantia nigra in rat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s633">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s634">Comp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s635">Neurol. 192:751-768.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s636">Veazey, R.B., and C.M.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s637">Severin (1980) Efferent projections of the deep 
+    mesencephalic nucleus (pars lateralis) in the rat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s638">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s639">Comp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s640">Neurol. 190:231-244.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s641">Walberg, F., T.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s642">Nordby, and E.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s643">Dietrichs (1980) A note on the anterograde transport of 
+    horseradish peroxidase within the olivocerebellar fibres.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s644">Exp.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s645">Brain Res. 40:233-236.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s646">Wise, S.P., and E.G.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s647">Jones (1977) Somatotopic and columnar organization in 
+    the corticotectal projection of the rat somatic sensory cortex.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s648">Brain Res. 133:223-235.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s649">Wurtz, R.H., and M.E.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s650">Goldberg (1972) Activity of superior colliculus in 
+    behaving monkey 3.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s651">Cells discharging before eye movements.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s652">J.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s653">Neurophysiol. 35:575-586.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s654">Wyss, J.M., L.W.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s655">Swanson, and W.M.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s656">Cowan (1979) Evidence for an input to the molecular 
+    layer of the stratum granulosum of the dentate gyrus from the 
+    supramammillary region of the hypothalamus.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s657">Anat.</S>
+    <S avgH="18" class="references.body" format="TimesNewRomanPSMT"
+     id="s658">Embryol. 156r165-176.</S>
+  </References>
+
+</File>
+

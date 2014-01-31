@@ -1,0 +1,8 @@
+*	Equiv T2 T3
+T6	Positive_regulation 649 657	mediates
+T7	Positive_regulation 680 690	activation
+T8	Entity 703 711	enhancer
+T9	Positive_regulation 859 868	increased
+E1	Positive_regulation:T6 Theme:E2
+E2	Positive_regulation:T7 Theme:T4 Site:T8
+E3	Positive_regulation:T9 Theme:T5

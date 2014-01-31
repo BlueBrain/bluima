@@ -1,0 +1,1528 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE article PUBLIC "-//ES//DTD journal article DTD version 5.0.2//EN//XML" "art502.dtd" [<!ENTITY gr1 SYSTEM "gr1" NDATA IMAGE><!ENTITY gr2a SYSTEM "gr2a" NDATA IMAGE><!ENTITY gr2bc SYSTEM "gr2bc" NDATA IMAGE><!ENTITY gr3 SYSTEM "gr3" NDATA IMAGE><!ENTITY gr4 SYSTEM "gr4" NDATA IMAGE>]>
+<article docsubtype="sco" xml:lang="en">
+	<ce:floats xmlns:ce="http://www.elsevier.com/xml/common/dtd">
+		<ce:figure id="fig1">
+			<ce:label>Fig. 1</ce:label>
+			<ce:caption>
+				<ce:simple-para>
+					Expression of MT5-MMP mRNA in NT2 and hNT cells. (A) Phase contrast
+					image of NT2 cells prior to differentiation. (B) Phase contrast
+					image of differentiated hNT neurons. (C) Verification of
+					differentiation by synaptophysin protein expression by western blot
+					analysis. Cyclophilin A was used as an internal control. (D)
+					MT5-MMP mRNA levels in NT2 and hNT cells. Primer sequences and
+					expected amplicon sizes listed in
+					<ce:cross-ref refid="tbl1">Table 1</ce:cross-ref>
+					, “Real Time PCR”. Results expressed as the ratio of MT5-MMP
+					expression over cyclophilin A (means
+					<ce:hsp sp="0.25" />
+					±
+					<ce:hsp sp="0.25" />
+					S.D.),
+					<ce:italic>n</ce:italic>
+					<ce:hsp sp="0.25" />
+					=
+					<ce:hsp sp="0.25" />
+					3.
+				</ce:simple-para>
+			</ce:caption>
+			<ce:link locator="gr1" />
+		</ce:figure>
+		<ce:figure id="fig2">
+			<ce:label>Fig. 2</ce:label>
+			<ce:caption>
+				<ce:simple-para>
+					Isolation of a novel human MT5-MMP transcript from NT2 cells. (A)
+					Visualization of 1779
+					<ce:hsp sp="0.25" />
+					bp PCR product obtained from cloning reaction (1% agarose, 0.5
+					<ce:hsp sp="0.25" />
+					μg/ml Ethidium Bromide). Primer sequences and expected amplicon
+					sizes listed in
+					<ce:cross-ref refid="tbl1">Table 1</ce:cross-ref>
+					, “full cDNA”. (B) 5′ end DNA alignment of MT5-MMP previously
+					reported and MT5-MMPvar. (C) Amino acid code with corresponding
+					schematic for published MT5-MMP (top panel) and MT5-MMPvar (bottom
+					panel). Underline, amino acids that are deleted from MT5-MMPvar.
+					<ce:sup loc="pre">∗</ce:sup>
+					, arginine residues found at deletion site; Box, peptide sequence
+					used for antibody production; Bold underline, Y to H amino acid
+					change.
+					<ce:italic>Protein domains: Si, signal; Pro, Propeptide; Cat,
+						Catalytic; H, Hinge; Pex, Hemopexin; S, Stem; T, Transmembrane; C,
+						Cytoplasmic tail.</ce:italic>
+				</ce:simple-para>
+			</ce:caption>
+			<ce:link locator="gr2" />
+		</ce:figure>
+		<ce:figure id="fig3">
+			<ce:label>Fig. 3</ce:label>
+			<ce:caption>
+				<ce:simple-para>
+					Analysis of the 5′ region of MT5-MMP cDNA in NT2, hNT and adult
+					human tissues. RT-PCR results show amplification of the divergent
+					region of the MT5-MMP gene. Primer sequences and expected amplicon
+					sizes listed in
+					<ce:cross-ref refid="tbl1">Table 1</ce:cross-ref>
+					, “5′ End”. H1–H4, independent hippocampal surgical samples.
+				</ce:simple-para>
+			</ce:caption>
+			<ce:link locator="gr3" />
+		</ce:figure>
+		<ce:figure id="fig4">
+			<ce:label>Fig. 4</ce:label>
+			<ce:caption>
+				<ce:simple-para>
+					Translation of MT5-MMPvar cDNA. (A) Schematic representation of
+					MT5-MMPvar cDNA fused with a C-terminal tag containing a V5
+					epitope. (B) IPTG (1
+					<ce:hsp sp="0.25" />
+					mM) induction of protein synthesis in bacteria containing
+					MT5-MMPvar/V5 fusion construct resulted in a ∼55
+					<ce:hsp sp="0.25" />
+					kDa protein species recognized by an antibody specific to the V5
+					epitope. (C) Western blot analysis of MT5-MMP in NT2 and hNT cells
+					using an antibody developed from a peptide specific to the region
+					which spans the deletion site. Antibody specificity was examined by
+					peptide competition experiments (C, right panel). Cyclophilin A (17
+					<ce:hsp sp="0.25" />
+					kDa) was used as an internal loading control. (D) Densitometric
+					analysis was performed to quantitate MT5-MMPvar protein levels in
+					NT2 and hNT samples normalized to cyclophilin A.
+				</ce:simple-para>
+			</ce:caption>
+			<ce:link locator="gr4" />
+		</ce:figure>
+		<ce:figure id="fig5">
+			<ce:label>Fig. 5</ce:label>
+			<ce:caption>
+				<ce:simple-para>
+					MT5-MMP protein expression in six independent adult human surgical
+					tissues. (A) Western blot analysis of proteins isolated from adult
+					hippocampus using the deletion-spanning MT5-MMPvar antibody
+					revealed expression of a ∼52
+					<ce:hsp sp="0.25" />
+					kDa protein in 5 of 6 samples. NT2 served as positive control for
+					MT5-MMP expression. (B) Antibody specificity was examined by
+					peptide competition. Cyclophilin A (17
+					<ce:hsp sp="0.25" />
+					kDa) was used as internal control. Lane assignments: 1–6,
+					independent surgical samples; 7, NT2 cells.
+				</ce:simple-para>
+			</ce:caption>
+			<ce:link locator="gr5" />
+		</ce:figure>
+		<ce:table frame="topbot" id="tbl1" rowsep="0" colsep="0">
+			<ce:label>Table 1</ce:label>
+			<ce:caption>
+				<ce:simple-para>Primer design, location and expected sizes for all
+					PCR experiments</ce:simple-para>
+			</ce:caption>
+			<tgroup cols="5">
+				<colspec colname="col1" align="left" />
+				<colspec colname="col2" align="left" />
+				<colspec colname="col3" align="left" />
+				<colspec colname="col4" align="left" />
+				<colspec colname="col5" align="left" />
+				<thead>
+					<row rowsep="1" valign="top">
+						<entry>Primer set</entry>
+						<entry>Primer set application</entry>
+						<entry>Sequence</entry>
+						<entry>Location</entry>
+						<entry>Expected amplicon size</entry>
+					</row>
+				</thead>
+				<tbody>
+					<row valign="top">
+						<entry morerows="1">A</entry>
+						<entry morerows="1">Real time PCR</entry>
+						<entry>
+							5′
+							<ce:monospace>tgagccatggacgctagga</ce:monospace>
+							3′
+						</entry>
+						<entry morerows="1">Spanning intron 4</entry>
+						<entry morerows="1">62</entry>
+					</row>
+					<row valign="top">
+						<entry>
+							5′
+							<ce:monospace>tgcacagccaccaggaaga</ce:monospace>
+							3′
+						</entry>
+					</row>
+					<row valign="top">
+						<entry morerows="1">B</entry>
+						<entry morerows="1">Full cDNA</entry>
+						<entry>
+							5′
+							<ce:monospace>acac</ce:monospace>
+							<ce:underline>
+								<ce:monospace>atg</ce:monospace>
+							</ce:underline>
+							<ce:monospace>ccgaggagccggggcg</ce:monospace>
+							3′
+						</entry>
+						<entry morerows="1">Start ATG terminating codon</entry>
+						<entry>1938 (MT5-MMP)</entry>
+					</row>
+					<row valign="top">
+						<entry>
+							5′
+							<ce:monospace>gcacccattcctggactggccgc</ce:monospace>
+							3′
+							<ce:cross-ref refid="tblfn1">
+								<ce:sup>a</ce:sup>
+							</ce:cross-ref>
+						</entry>
+						<entry>1779 (MT5-MMPvar)</entry>
+					</row>
+					<row valign="top">
+						<entry morerows="1">C</entry>
+						<entry morerows="1">5′ End</entry>
+						<entry>
+							5′
+							<ce:monospace>acac</ce:monospace>
+							<ce:underline>
+								<ce:monospace>atg</ce:monospace>
+							</ce:underline>
+							<ce:monospace>ccgaggagccggggcg</ce:monospace>
+							3′
+						</entry>
+						<entry morerows="1">Start ATG exon 2</entry>
+						<entry>1140 (MT5-MMP)</entry>
+					</row>
+					<row valign="top">
+						<entry>
+							5′
+							<ce:monospace>gttgggtttggtgcctggtgt</ce:monospace>
+							3′
+						</entry>
+						<entry>978 (MT5-MMPvar)</entry>
+					</row>
+				</tbody>
+			</tgroup>
+			<ce:table-footnote id="tblfn1">
+				<ce:label>a</ce:label>
+				<ce:note-para>
+					Ref.
+					<ce:cross-ref refid="bib12">[12]</ce:cross-ref>
+					.
+				</ce:note-para>
+			</ce:table-footnote>
+		</ce:table>
+	</ce:floats>
+	<head>
+		<ce:title xmlns:ce="http://www.elsevier.com/xml/common/dtd">Identification of a novel human MT5-MMP
+			transcript variant in multipotent NT2 cells</ce:title>
+		<ce:presented xmlns:ce="http://www.elsevier.com/xml/common/dtd">Edited by Takashi Gojobori</ce:presented>
+		<ce:author-group xmlns:ce="http://www.elsevier.com/xml/common/dtd">
+			<ce:author>
+				<ce:given-name>Heather H.</ce:given-name>
+				<ce:surname>Ross</ce:surname>
+				<ce:cross-ref refid="aff1">
+					<ce:sup>a</ce:sup>
+				</ce:cross-ref>
+				<ce:cross-ref refid="aff2">
+					<ce:sup>b</ce:sup>
+				</ce:cross-ref>
+			</ce:author>
+			<ce:author>
+				<ce:given-name>Helen L.</ce:given-name>
+				<ce:surname>Fillmore</ce:surname>
+				<ce:cross-ref refid="aff1">
+					<ce:sup>a</ce:sup>
+				</ce:cross-ref>
+				<ce:cross-ref refid="aff3">
+					<ce:sup>c</ce:sup>
+				</ce:cross-ref>
+				<ce:cross-ref refid="cor1">
+					<ce:sup>⁎</ce:sup>
+				</ce:cross-ref>
+				<ce:e-address type="email">hfillmore@mcvh-vcu.edu</ce:e-address>
+			</ce:author>
+			<ce:affiliation id="aff1">
+				<ce:label>a</ce:label>
+				<ce:textfn>Department of Anatomy and Neurobiology, Virginia
+					Commonwealth University Medical Center, Richmond, VA, United States</ce:textfn>
+			</ce:affiliation>
+			<ce:affiliation id="aff2">
+				<ce:label>b</ce:label>
+				<ce:textfn>Department of Anatomy and Cell Biology, University of
+					Florida, Gainesville, FL, United States</ce:textfn>
+			</ce:affiliation>
+			<ce:affiliation id="aff3">
+				<ce:label>c</ce:label>
+				<ce:textfn>Department of Neurosurgery, Harold F. Young Neurosurgical
+					Center, Virginia Commonwealth University Medical Center, Richmond,
+					VA, United States</ce:textfn>
+			</ce:affiliation>
+			<ce:correspondence id="cor1">
+				<ce:label>⁎</ce:label>
+				<ce:text>Corresponding author. Address: Harold F. Young
+					Neurosurgical Center, Virginia Commonwealth University Medical
+					Center, P.O. Box 980631, Richmond VA, United States. Fax: +1 804
+					827 1487.</ce:text>
+			</ce:correspondence>
+		</ce:author-group>
+		<ce:abstract class="author" xml:lang="en"
+			xmlns:ce="http://www.elsevier.com/xml/common/dtd">
+			<ce:section-title>Abstract</ce:section-title>
+			<ce:abstract-sec>
+				<ce:simple-para>
+					Membrane-type 5 matrix metalloproteinase (MT5-MMP) expression is
+					ubiquitous in brain development while restricted to regions of
+					neuroplasticity in adult. In the multipotent NT2 model of
+					neurogenesis and differentiation, MT5-MMP is differentially
+					expressed with significantly higher mRNA levels in the
+					differentiated neuronal hNT cells. MT5-MMP cDNA cloned from NT2
+					cells unexpectedly revealed a novel sequence (MT5-MMPvar)
+					characterized by a 162
+					<ce:hsp sp="0.25" />
+					bp deletion. Both transcripts were identified in NT2, hNT and adult
+					human hippocampus. In vitro, MT5-MMPvar translated into a ∼55
+					<ce:hsp sp="0.25" />
+					kDa protein. It was also detected in NT2, hNT and adult human
+					hippocampus. These results suggest more than one human MT5-MMP
+					transcript may exist in the central nervous system.
+				</ce:simple-para>
+			</ce:abstract-sec>
+		</ce:abstract>
+		<ce:keywords class="abr"
+			xmlns:ce="http://www.elsevier.com/xml/common/dtd">
+			<ce:section-title>Abbreviations</ce:section-title>
+			<ce:keyword>
+				<ce:text>CNS</ce:text>
+				<ce:keyword>
+					<ce:text>central nervous system</ce:text>
+				</ce:keyword>
+			</ce:keyword>
+			<ce:keyword>
+				<ce:text>MMP</ce:text>
+				<ce:keyword>
+					<ce:text>matrix metalloproteinase</ce:text>
+				</ce:keyword>
+			</ce:keyword>
+			<ce:keyword>
+				<ce:text>ECM</ce:text>
+				<ce:keyword>
+					<ce:text>extracellular matrix</ce:text>
+				</ce:keyword>
+			</ce:keyword>
+			<ce:keyword>
+				<ce:text>RA</ce:text>
+				<ce:keyword>
+					<ce:text>
+						<ce:italic>all-trans</ce:italic>
+						retinoic acid
+					</ce:text>
+				</ce:keyword>
+			</ce:keyword>
+		</ce:keywords>
+		<ce:keywords class="keyword"
+			xmlns:ce="http://www.elsevier.com/xml/common/dtd">
+			<ce:section-title>Keywords</ce:section-title>
+			<ce:keyword>
+				<ce:text>MT5-MMP</ce:text>
+			</ce:keyword>
+			<ce:keyword>
+				<ce:text>MMP24</ce:text>
+			</ce:keyword>
+			<ce:keyword>
+				<ce:text>NT2</ce:text>
+			</ce:keyword>
+			<ce:keyword>
+				<ce:text>CNS</ce:text>
+			</ce:keyword>
+			<ce:keyword>
+				<ce:text>Cloning</ce:text>
+			</ce:keyword>
+			<ce:keyword>
+				<ce:text>Variant</ce:text>
+			</ce:keyword>
+		</ce:keywords>
+	</head>
+	<body>
+		<ce:sections xmlns:ce="http://www.elsevier.com/xml/common/dtd">
+			<ce:section>
+				<ce:label>1</ce:label>
+				<ce:section-title>Introduction</ce:section-title>
+				<ce:para>
+					The matrix metalloproteinase (MMP) family of zinc-dependent
+					endopeptidases is comprised of 23 members, several of which are
+					known to be present in the physiological and pathological central
+					nervous system (CNS)
+					<ce:cross-refs refid="bib1 bib2">[1,2]</ce:cross-refs>
+					. In addition to their established role in extracellular matrix
+					(ECM) degradation, the MMP family has a wide range of influences on
+					biologic processes including the generation of bioactive proteins
+					<ce:cross-refs refid="bib3 bib4 bib5">[3–5]</ce:cross-refs>
+					. The most recently identified subfamily of the MMP family is the
+					membrane-type MMPs or MT-MMPs reviewed in
+					<ce:cross-ref refid="bib6">[6]</ce:cross-ref>
+					. MT5-MMP (MMP-24), the fifth cloned MT-MMP, is expressed in few
+					tissues including testes, liver, lung and kidney; however, it is
+					predominately found in the nervous system
+					<ce:cross-refs refid="bib7 bib8 bib9">[7–9]</ce:cross-refs>
+					. MT5-MMP expression is ubiquitously expressed during neural
+					development; while in the adult CNS, it is restricted to specific
+					regions, some of which are known to be neurogenic, such as the
+					hippocampus
+					<ce:cross-ref refid="bib7">[7]</ce:cross-ref>
+					. Previous work further indicates that neuronal MT5-MMP
+					participates in plasticity associated with neurite outgrowth
+					<ce:cross-ref refid="bib10">[10]</ce:cross-ref>
+					.
+				</ce:para>
+				<ce:para>
+					While existing studies have investigated the presence and function
+					of MT5-MMP in murine and rodent models, little data is available on
+					MT5-MMP expression in the human CNS and neurogenic regions. To
+					begin investigations on the role of MT5-MMP in human neurogenesis
+					and neural differentiation, we initiated studies using a
+					well-characterized neurogenic in vitro model, the NT2 cell line.
+					Stimulation of NT2 cells with
+					<ce:italic>all-trans</ce:italic>
+					retinoic acid (RA) leads to the differentiation of NT2 cells into a
+					99% purely post-mitotic neuronal population (hNT cells)
+					<ce:cross-ref refid="bib11">[11]</ce:cross-ref>
+					.
+				</ce:para>
+				<ce:para>
+					In this report, we show that MT5-MMP mRNA is significantly
+					increased in differentiated hNT cells. Analysis of MT5-MMP cDNA
+					cloned from NT2 cells resulted in the identification of a novel
+					transcript (herein referred to as MT5-MMPvar) differing from that
+					of the previously reported MT5-MMP human gene
+					<ce:cross-ref refid="bib12">[12]</ce:cross-ref>
+					. While 92% homologous to the reported sequence this transcript is
+					characterized by a 162
+					<ce:hsp sp="0.25" />
+					bp deletion within the signal and propeptide domains. Both the
+					MT5-MMP and MT5-MMPvar transcripts were identified in NT2 and hNT
+					cells and in adult human brain tissue. In vitro
+					transcription/translation studies demonstrated the translation of
+					an approximately 55
+					<ce:hsp sp="0.25" />
+					kDa protein from MT5-MMPvar. Western blot analysis using a deletion
+					spanning antibody revealed the presence of the corresponding
+					MT5-MMPvar protein in NT2 and hNT cells and in adult human
+					hippocampus. These results suggest that more than one human MT5-MMP
+					transcript may exist in the CNS.
+				</ce:para>
+			</ce:section>
+			<ce:section role="materials-methods">
+				<ce:label>2</ce:label>
+				<ce:section-title>Materials and methods</ce:section-title>
+				<ce:section>
+					<ce:label>2.1</ce:label>
+					<ce:section-title>NT2 cell culture and human tissue acquisition</ce:section-title>
+					<ce:para>
+						Undifferentiated NT2/D1 cells were obtained from ATCC (#CRL-1973)
+						and maintained in high-glucose DMEM supplemented with 10% FCS/1%
+						penicillin/streptomycin. Cells were differentiated according to an
+						established protocol
+						<ce:cross-ref refid="bib11">[11]</ce:cross-ref>
+						. Cells were treated with 10
+						<ce:hsp sp="0.25" />
+						μmol RA for four weeks. Cells tapped off the flasks were replated
+						onto matrigel in the presence of mitotic inhibitors (cytosine
+						arabinoside [1
+						<ce:hsp sp="0.25" />
+						μM], fluorodeoxyuridine [10
+						<ce:hsp sp="0.25" />
+						μM] and uridine [10
+						<ce:hsp sp="0.25" />
+						μM]) for 1 week. Cytosine arabinoside was discontinued and
+						cultures were maintained for an additional 4 weeks. Cells were
+						then replated onto poly-
+						<ce:small-caps>l</ce:small-caps>
+						-lysine coated six well plates and constituted a 99% pure neuronal
+						culture (hNT). Human adult brain tissue was obtained from temporal
+						lobe resections in accordance with an approved IRB protocol from
+						our institution. Tissue was acutely dissected at the time of
+						harvest into samples corresponding to parahippocampal gyrus or
+						hippocampal formation. Samples from hippocampal sections were
+						subjected to RNA or protein isolation.
+					</ce:para>
+				</ce:section>
+				<ce:section>
+					<ce:label>2.2</ce:label>
+					<ce:section-title>Quantitation of MT5-MMP mRNA levels (real time
+						PCR)</ce:section-title>
+					<ce:para>
+						Total RNA was isolated from NT2 cells, hNT cells and adult human
+						brain tissue using TRIzol reagent according to the manufacturer’s
+						protocol (Invitrogen, CA). RNA was quantitated using
+						spectrophotometry and treated with RQ1 DNase (Promega, Madison,
+						WI). A primer set complimentary to the human MT5-MMP coding
+						sequence (
+						<ce:cross-ref refid="tbl1">Table 1</ce:cross-ref>
+						<ce:float-anchor refid="tbl1" />
+						A) was designed for automated real time PCR (VCU Nucleic Acid
+						Research Facility). Cyclophilin A served as an internal control.
+						Results (
+						<ce:italic>n</ce:italic>
+						<ce:hsp sp="0.25" />
+						=
+						<ce:hsp sp="0.25" />
+						3) were analyzed by Student’s
+						<ce:italic>t</ce:italic>
+						-test.
+					</ce:para>
+				</ce:section>
+				<ce:section>
+					<ce:label>2.3</ce:label>
+					<ce:section-title>Western blot analysis, antibodies and peptide
+						competition assay</ce:section-title>
+					<ce:para>
+						Proteins were isolated from tissue samples as previously described
+						<ce:cross-ref refid="bib13">[13]</ce:cross-ref>
+						and from adherent cell lines by incubation of RIPA extraction
+						buffer including protease inhibitor cocktail (Calbiochem, San
+						Diego, CA) on flasks over an ice bath for 5
+						<ce:hsp sp="0.25" />
+						min followed by cell scraping. Western blot analysis was conducted
+						as previously described
+						<ce:cross-ref refid="bib13">[13]</ce:cross-ref>
+						. Briefly, proteins were quantified and loaded onto Bis-Tris 4–12%
+						density gradient gels for SDS–PAGE. Proteins were transferred onto
+						nitrocellulose and incubated with blocking buffer (5% bovine milk
+						in Tris buffered saline plus 0.05% Tween 20). Membranes were
+						probed with the following primary antibodies: anti-synaptophysin
+						(1:400, Sigma); anti-cyclophilin A (1:2000, Upstate Biotech); or
+						anti-MT5-MMPvar-produced for our laboratory and designed to be
+						antigenic only to the 5′ region of MT5-MMPvar (1:2000, Primm
+						Biotech). For peptide competition, anti-MT5-MMPvar antibody
+						(1:2000) was pre-incubated with or without a peptide used to
+						generate MT5-MMPvar antibody (1:200) in blocking buffer at 4
+						<ce:hsp sp="0.25" />
+						°C for 1
+						<ce:hsp sp="0.25" />
+						h prior to primary antibody incubation. Following incubation with
+						secondary antibody, immunopositive proteins were detected by
+						autoradiography using ECL reagents (Amersham Pharmacia Biotech,
+						Piscataway NJ) and quantitated with densitometry where indicated.
+					</ce:para>
+				</ce:section>
+				<ce:section>
+					<ce:label>2.4</ce:label>
+					<ce:section-title>Cloning of a novel MT5-MMP transcript</ce:section-title>
+					<ce:para>
+						Total RNA was isolated from NT2 cells (TRIzol reagent) and used (1
+						<ce:hsp sp="0.25" />
+						μg) as a template for reverse transcription (RT). RT product was
+						PCR amplified using primers specific for human MT5-MMP cDNA (
+						<ce:cross-ref refid="tbl1">Table 1</ce:cross-ref>
+						B) and Advantage GCII DNA polymerase system (Clontech, Mountain
+						View, CA) with the following cycling conditions: 1
+						<ce:hsp sp="0.25" />
+						min at 92
+						<ce:hsp sp="0.25" />
+						°C followed by 1
+						<ce:hsp sp="0.25" />
+						min at 92
+						<ce:hsp sp="0.25" />
+						°C, 1
+						<ce:hsp sp="0.25" />
+						min at 70
+						<ce:hsp sp="0.25" />
+						°C, 3
+						<ce:hsp sp="0.25" />
+						min at 72
+						<ce:hsp sp="0.25" />
+						°C for 35 cycles, and final extension for 10
+						<ce:hsp sp="0.25" />
+						min at 72
+						<ce:hsp sp="0.25" />
+						°C. PCR product was cloned into pTARGET eukaryotic expression
+						vector (Promega, Madison, Wisconsin) and sequenced (VCU Nucleic
+						Acid Research Facility and University of Iowa Sequencing
+						Facility). Sequence analysis and alignment was performed online
+						using available software and databases (Chromas, NCBI, Clustal).
+						The resultant sequence was submitted to the NCBI database (GenBank
+						Accession No.
+						<ce:inter-ref xlink:href="genbank:DQ300264"
+							xlink:type="simple" xmlns:xlink="http://www.w3.org/1999/xlink">DQ300264</ce:inter-ref>
+						).
+					</ce:para>
+				</ce:section>
+				<ce:section>
+					<ce:label>2.5</ce:label>
+					<ce:section-title>RT- PCR of the 5′ end of MT5-MMP</ce:section-title>
+					<ce:para>
+						Total RNA was obtained as described above and reverse
+						transcription (RT) performed (Invitrogen, Superscript II). RT
+						product was amplified (Clontech, Advantage GCII DNA Polymerase)
+						using primers specific for the 5′ end of the MT5-MMP gene (
+						<ce:cross-ref refid="tbl1">Table 1</ce:cross-ref>
+						C) and the following cycling conditions: 1
+						<ce:hsp sp="0.25" />
+						min at 92
+						<ce:hsp sp="0.25" />
+						°C followed by 30
+						<ce:hsp sp="0.25" />
+						s at 92
+						<ce:hsp sp="0.25" />
+						°C, 30
+						<ce:hsp sp="0.25" />
+						s at 69
+						<ce:hsp sp="0.25" />
+						°C, 1
+						<ce:hsp sp="0.25" />
+						min at 72
+						<ce:hsp sp="0.25" />
+						°C for 35 cycles, and final extension for 3
+						<ce:hsp sp="0.25" />
+						mins at 72
+						<ce:hsp sp="0.25" />
+						°C.
+					</ce:para>
+				</ce:section>
+				<ce:section>
+					<ce:label>2.6</ce:label>
+					<ce:section-title>In vitro transcription/translation</ce:section-title>
+					<ce:para>
+						MT5-MMPvar cDNA (sequence confirmed) was subcloned into pCRT7/CT
+						(Invitrogen, Carlsbad, CA), containing a 3–5
+						<ce:hsp sp="0.25" />
+						kDa C-terminal tag fusion protein (
+						<ce:cross-ref refid="fig4">Fig. 4</ce:cross-ref>
+						A). DNA constructs were transformed into BL21Dea3pLysS bacteria
+						and treated with 1
+						<ce:hsp sp="0.25" />
+						μM IPTG for 0–6
+						<ce:hsp sp="0.25" />
+						h to induce protein expression. Proteins were isolated and
+						prepared for Western blot analysis as described. An antibody
+						against the V5 epitope found on the C-terminal tag was used for
+						detection (1:2000, Invitrogen).
+					</ce:para>
+				</ce:section>
+			</ce:section>
+			<ce:section>
+				<ce:label>3</ce:label>
+				<ce:section-title>Results</ce:section-title>
+				<ce:section>
+					<ce:label>3.1</ce:label>
+					<ce:section-title>MT5-MMP mRNA levels are significantly increased
+						in NT2 cells following neuronal differentiation</ce:section-title>
+					<ce:para>
+						The temporal expression pattern of MT5-MMP in rodent neural
+						development and its expression in adult rodent hippocampal neurons
+						have been reported
+						<ce:cross-refs refid="bib7 bib9">[7,9]</ce:cross-refs>
+						. The purpose of our studies was to begin investigations into the
+						potential role of MT5-MMP in neurogenesis and to expand on
+						previous findings in adult human brain tissue
+						<ce:cross-ref refid="bib12">[12]</ce:cross-ref>
+						. We first examined MT5-MMP mRNA expression in an in vitro model
+						of adult neurogenesis and neuronal differentiation. Using an
+						established protocol, multipotent NT2 cells were differentiated
+						into neuronal (hNT) cells (
+						<ce:cross-ref refid="fig1">Fig. 1</ce:cross-ref>
+						<ce:float-anchor refid="fig1" />
+						A and B) verified by synaptophysin immunoblotting (
+						<ce:cross-ref refid="fig1">Fig. 1</ce:cross-ref>
+						C). Total RNA isolated from NT2 and hNT cells was subjected to
+						qPCR analysis using primers specific for MT5-MMP (
+						<ce:cross-ref refid="tbl1">Table 1</ce:cross-ref>
+						A). mRNA levels were modest in NT2 cells and significantly (
+						<ce:italic>P</ce:italic>
+						<ce:hsp sp="0.25" />
+						&lt;
+						<ce:hsp sp="0.25" />
+						0.003) higher in differentiated hNT cells (
+						<ce:cross-ref refid="fig1">Fig. 1</ce:cross-ref>
+						D). Relative values of NT2 and hNT RNA were normalized to the
+						housekeeping gene, cyclophilin A.
+					</ce:para>
+				</ce:section>
+				<ce:section>
+					<ce:label>3.2</ce:label>
+					<ce:section-title>An MT5-MMP transcript cloned from NT2 cells does
+						not share full sequence homology with the previously reported
+						sequence</ce:section-title>
+					<ce:para>
+						In order to perform functional and expression studies, we cloned
+						the full length cDNA of MT5-MMP (
+						<ce:cross-ref refid="fig2">Fig. 2</ce:cross-ref>
+						<ce:float-anchor refid="fig2" />
+						A) from NT2 cells using primers specific for the published human
+						MT5-MMP gene (
+						<ce:cross-ref refid="tbl1">Table 1</ce:cross-ref>
+						B). Once subcloned into pTARGET expression vector, the cDNA was
+						sequenced and alignment analysis was performed. Results from
+						sequence analysis showed that the obtained sequence (MT5-MMPvar)
+						had a 92% sequence homology with that of the published sequence of
+						human MT5-MMP (
+						<ce:cross-ref refid="fig2">Fig. 2</ce:cross-ref>
+						B). To determine the location and nature of the divergent DNA
+						sequence, differences in sequence identity were plotted to the
+						corresponding domain feature of the protein (
+						<ce:cross-ref refid="fig2">Fig. 2</ce:cross-ref>
+						C). Analysis of MT5-MMPvar revealed a 162
+						<ce:hsp sp="0.25" />
+						bp deletion corresponding to an area within the signal and
+						propeptide domains. A significant portion of the signal peptide
+						(39 amino acids of 52) was deleted as well as the first nine amino
+						acid residues of the propeptide. Additionally, a single amino acid
+						substitution in the hemopexin-like domain (Y to H) was observed.
+						Additional database analysis (PredictProtein program of ExPASy
+						Proteomic tools, SignalP, Phobius) indicated that while no
+						significant functional motif of the propeptide domain was deleted;
+						(1) the truncated signal domain was predicted to result in loss of
+						a signal peptide sequence for direction to the endoplasmic
+						reticulum and (2) MT5-MMPvar was predicted to associate with the
+						membrane in the correct orientation, as a type-1 transmembrane
+						protein.
+					</ce:para>
+				</ce:section>
+				<ce:section>
+					<ce:label>3.3</ce:label>
+					<ce:section-title>Two MT5-MMP transcripts can be identified in NT2
+						cells, hNT cells and adult human brain tissue</ce:section-title>
+					<ce:para>
+						To analyze further the 5′ region of the MT5-MMP gene sequence,
+						primers were designed to amplify the divergent region (
+						<ce:cross-ref refid="tbl1">Table 1</ce:cross-ref>
+						C). Expected bands at 978 and 1140
+						<ce:hsp sp="0.25" />
+						bp represented MT5-MMPvar and MT5-MMP transcripts, respectively.
+						Results from RT-PCR analysis demonstrated the presence of both
+						transcripts in NT2 cells, hNT cells, and in adult human brain
+						samples (
+						<ce:cross-ref refid="fig3">Fig. 3</ce:cross-ref>
+						<ce:float-anchor refid="fig3" />
+						).
+					</ce:para>
+				</ce:section>
+				<ce:section>
+					<ce:label>3.4</ce:label>
+					<ce:section-title>
+						MT5-MMPvar cDNA subcloned into a bacterial expression system
+						translates into a ∼55
+						<ce:hsp sp="0.25" />
+						kDa protein
+					</ce:section-title>
+					<ce:para>
+						In order to determine if the cDNA obtained was capable of
+						translating into a protein, MT5-MMPvar cDNA was subcloned into an
+						in vitro transcription/translation system to generate a fusion
+						protein containing a C-terminus tag (
+						<ce:cross-ref refid="fig4">Fig. 4</ce:cross-ref>
+						<ce:float-anchor refid="fig4" />
+						A). Induction of MT5-MMP protein expression in bacterial cells
+						with IPTG resulted in the translation of a ∼55
+						<ce:hsp sp="0.25" />
+						kDa protein, detected using an antibody directed against the V5
+						epitope, which adds 3–5
+						<ce:hsp sp="0.25" />
+						kDa to the protein (
+						<ce:cross-ref refid="fig4">Fig. 4</ce:cross-ref>
+						B). To confirm that the variant protein product could be detected
+						in the cells of origin, an antibody made using a peptide sequence
+						spanning the deleted region of MT5-MMPvar transcript (
+						<ce:cross-ref refid="fig2">Fig. 2</ce:cross-ref>
+						B, shaded box) was utilized. This sequence (PGPRRAVARADEAEA) was
+						designed and produced (Primm Biotech) to correspond to the four
+						amino acids before and the eleven amino acids following the region
+						deleted from MT5-MMP. Western blot analysis of NT2 and hNT protein
+						using this antibody confirmed the presence of the MT5-MMPvar
+						protein product (
+						<ce:cross-ref refid="fig4">Fig. 4</ce:cross-ref>
+						C, left panel). Antibody specificity was demonstrated by peptide
+						competition using the purified peptide corresponding to the
+						sequence of the MT5-MMPvar-specific antibody (
+						<ce:cross-ref refid="fig4">Fig. 4</ce:cross-ref>
+						C, right panel; 55
+						<ce:hsp sp="0.25" />
+						kDa bands). Densitometric quantitation revealed an increase in
+						MT5-MMPvar protein in hNT cells over NT2 levels (
+						<ce:cross-ref refid="fig4">Fig. 4</ce:cross-ref>
+						D). In all experiments, cyclophilin A was used as an internal
+						control (
+						<ce:cross-ref refid="fig4">Fig. 4</ce:cross-ref>
+						C, right panel; 17
+						<ce:hsp sp="0.25" />
+						kDa bands).
+					</ce:para>
+				</ce:section>
+				<ce:section>
+					<ce:label>3.5</ce:label>
+					<ce:section-title>MT5-MMPvar protein is expressed in adult human
+						neurogenic regions</ce:section-title>
+					<ce:para>
+						We next sought to determine the presence of MT5-MMPvar protein in
+						neurogenic adult human brain tissue. Western blot analysis, using
+						the above mentioned deletion spanning antibody, revealed the
+						presence of MT5-MMPvar protein in six independent hippocampi
+						obtained from temporal lobe resection (
+						<ce:cross-ref refid="fig5">Fig. 5</ce:cross-ref>
+						<ce:float-anchor refid="fig5" />
+						A, lanes 1–6, top panel). Peptide competition confirmed antibody
+						specificity by blocking the endogenous ∼52
+						<ce:hsp sp="0.25" />
+						kDa protein species (
+						<ce:cross-ref refid="fig5">Fig. 5</ce:cross-ref>
+						B). NT2 cell lysate was used as positive control (
+						<ce:cross-ref refid="fig5">Fig. 5</ce:cross-ref>
+						A, lane 7). Cyclophilin A was used as an internal control (
+						<ce:cross-ref refid="fig5">Fig. 5</ce:cross-ref>
+						).
+					</ce:para>
+				</ce:section>
+			</ce:section>
+			<ce:section>
+				<ce:label>4</ce:label>
+				<ce:section-title>Discussion</ce:section-title>
+				<ce:para>
+					Due to published reports on the temporal expression of MT5-MMP in
+					the rodent nervous system
+					<ce:cross-ref refid="bib7">[7]</ce:cross-ref>
+					, and the potential role of this gene in adult neuroplasticity
+					<ce:cross-ref refid="bib10">[10]</ce:cross-ref>
+					, we sought to clone this gene for functional as well as expression
+					studies relating to adult human neurogenesis. Levels of total
+					MT5-MMP mRNA in differentiated hNT cells are significantly higher
+					than that seen in NT2 cells (
+					<ce:cross-ref refid="fig1">Fig. 1</ce:cross-ref>
+					D). cDNA subsequently cloned from NT2 cells shares a 92% homology
+					to the reported MT5-MMP sequence (
+					<ce:cross-ref refid="fig2">Fig. 2</ce:cross-ref>
+					B). Compared to the reported MT5-MMP, this novel transcript
+					contains a deletion containing part of the signal peptide region
+					spanning into the propeptide domain. The cDNA amino terminus of
+					both the previously reported MT5-MMP transcript and this novel
+					MT5-MMP transcript were identified in NT2 cells, hNT cells, and in
+					adult human brain tissue (
+					<ce:cross-ref refid="fig3">Fig. 3</ce:cross-ref>
+					); however, in this cell line we were unable to clone the full cDNA
+					of the published MT5-MMP sequence (
+					<ce:cross-ref refid="fig2">Fig. 2</ce:cross-ref>
+					A). It should be noted that quantitative results in
+					<ce:cross-ref refid="fig1">Fig. 1</ce:cross-ref>
+					correspond to total MT5-MMP mRNA levels as the gene was probed
+					using primers to a region common to both transcripts. Quantitative
+					analysis of the relative expression levels of the two transcripts
+					using Taqman real-time PCR was not performed due to sequence
+					limitations surrounding the deleted region of MT5-MMPvar. This
+					flanking DNA sequence consists of a small intron-spanning region of
+					high GC content which was not adequate for the design of
+					quantitative real-time PCR primers. MT5-MMPvar cDNA was shown to
+					translate into a full length protein (
+					<ce:cross-ref refid="fig4">Fig. 4</ce:cross-ref>
+					B). Quantitation of the detected MT5-MMPvar protein using a custom
+					MT5-MMPvar antibody shows an increase in MT5-MMPvar protein in hNT
+					cells (
+					<ce:cross-ref refid="fig4">Fig. 4</ce:cross-ref>
+					D).
+				</ce:para>
+				<ce:para>
+					In this report, we used a start codon located upstream from that
+					which was previously reported for PCR-based cDNA cloning (12).
+					Kajita et al. have reported similar findings for variable MT4-MMP
+					transcripts, in which a second transcript was found to encode a
+					more highly transcribed sequence and the only translated protein
+					product
+					<ce:cross-ref refid="bib14">[14]</ce:cross-ref>
+					. The results presented here indicate that multiple gene products
+					from the human MT5-MMP gene may exist and that this newly described
+					transcript is expressed in human CNS tissue. Indeed, MT5-MMPvar
+					protein was found to be expressed in six independent human
+					hippocampal samples (
+					<ce:cross-ref refid="fig5">Fig. 5</ce:cross-ref>
+					). Our results demonstrating the over-expression of MT5-MMPvar in
+					differentiated human hNT neurons are in agreement with that of
+					Sekine-Aizawa et al.
+					<ce:cross-ref refid="bib9">[9]</ce:cross-ref>
+					in which the authors report the localization of MT5-MMP to neurons
+					in the rodent CNS. The significance of the 162
+					<ce:hsp sp="0.25" />
+					bp deletion is not known; however, it is interesting that this
+					deletion corresponds to a region of trinucleotide repeats
+					containing eight Pro, six Leu, and six Ala in the reported
+					sequence. It has been proposed that this area could give rise to
+					protein variants due to the instability known to be associated with
+					such repeats
+					<ce:cross-ref refid="bib12">[12]</ce:cross-ref>
+					. As database analysis predicts the loss of functional signal
+					peptide, future studies aim to empirically determine the functional
+					consequence of this loss. Taken together these studies support the
+					further characterization of this gene and its protein products.
+				</ce:para>
+			</ce:section>
+		</ce:sections>
+		<ce:acknowledgment xmlns:ce="http://www.elsevier.com/xml/common/dtd">
+			<ce:section-title>Acknowledgements</ce:section-title>
+			<ce:para>We are grateful for the excellent technical assistance of
+				Pam Gigliotti. In addition we are indebted to Dr. Harold Young for
+				his continued support of our research and to Dr. K. Holloway and the
+				Hirshler foundation for their financial support of this work.</ce:para>
+		</ce:acknowledgment>
+	</body>
+	<tail>
+		<ce:bibliography xmlns:ce="http://www.elsevier.com/xml/common/dtd">
+			<ce:section-title>References</ce:section-title>
+			<ce:bibliography-sec>
+				<ce:bib-reference id="bib1">
+					<ce:label>[1]</ce:label>
+					<sb:reference xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd">
+						<sb:contribution>
+							<sb:authors>
+								<sb:author>
+									<ce:given-name>V.W.</ce:given-name>
+									<ce:surname>Yong</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>C.A.</ce:given-name>
+									<ce:surname>Krekoski</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>P.A.</ce:given-name>
+									<ce:surname>Forsythe</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>R.</ce:given-name>
+									<ce:surname>Bell</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>D.R.</ce:given-name>
+									<ce:surname>Edwards</ce:surname>
+								</sb:author>
+							</sb:authors>
+							<sb:title>
+								<sb:maintitle>Matrix metalloproteinases and diseases of the CNS</sb:maintitle>
+							</sb:title>
+						</sb:contribution>
+						<sb:host>
+							<sb:issue>
+								<sb:series>
+									<sb:title>
+										<sb:maintitle>TINS</sb:maintitle>
+									</sb:title>
+									<sb:volume-nr>21</sb:volume-nr>
+								</sb:series>
+								<sb:issue-nr>2</sb:issue-nr>
+								<sb:date>1998</sb:date>
+							</sb:issue>
+							<sb:pages>
+								<sb:first-page>75</sb:first-page>
+								<sb:last-page>80</sb:last-page>
+							</sb:pages>
+						</sb:host>
+					</sb:reference>
+				</ce:bib-reference>
+				<ce:bib-reference id="bib2">
+					<ce:label>[2]</ce:label>
+					<sb:reference xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd">
+						<sb:contribution>
+							<sb:authors>
+								<sb:author>
+									<ce:given-name>A.</ce:given-name>
+									<ce:surname>Lukes</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>S.</ce:given-name>
+									<ce:surname>Mun-Bryce</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>M.</ce:given-name>
+									<ce:surname>Lukes</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>G.A.</ce:given-name>
+									<ce:surname>Rosenberg</ce:surname>
+								</sb:author>
+							</sb:authors>
+							<sb:title>
+								<sb:maintitle>Extracellular matrix degradation by
+									metalloproteinases and central nervous system diseases</sb:maintitle>
+							</sb:title>
+						</sb:contribution>
+						<sb:host>
+							<sb:issue>
+								<sb:series>
+									<sb:title>
+										<sb:maintitle>Mol. Neurobiol.</sb:maintitle>
+									</sb:title>
+									<sb:volume-nr>19</sb:volume-nr>
+								</sb:series>
+								<sb:issue-nr>3</sb:issue-nr>
+								<sb:date>1999</sb:date>
+							</sb:issue>
+							<sb:pages>
+								<sb:first-page>267</sb:first-page>
+								<sb:last-page>284</sb:last-page>
+							</sb:pages>
+						</sb:host>
+					</sb:reference>
+				</ce:bib-reference>
+				<ce:bib-reference id="bib3">
+					<ce:label>[3]</ce:label>
+					<sb:reference xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd">
+						<sb:contribution>
+							<sb:authors>
+								<sb:author>
+									<ce:given-name>M.</ce:given-name>
+									<ce:surname>Egeblad</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>Z.</ce:given-name>
+									<ce:surname>Werb</ce:surname>
+								</sb:author>
+							</sb:authors>
+							<sb:title>
+								<sb:maintitle>New functions for the matrix metalloproteinases in
+									cancer progression</sb:maintitle>
+							</sb:title>
+						</sb:contribution>
+						<sb:host>
+							<sb:issue>
+								<sb:series>
+									<sb:title>
+										<sb:maintitle>Nat. Rev. Cancer</sb:maintitle>
+									</sb:title>
+									<sb:volume-nr>2</sb:volume-nr>
+								</sb:series>
+								<sb:date>2002</sb:date>
+							</sb:issue>
+							<sb:pages>
+								<sb:first-page>161</sb:first-page>
+								<sb:last-page>174</sb:last-page>
+							</sb:pages>
+						</sb:host>
+					</sb:reference>
+				</ce:bib-reference>
+				<ce:bib-reference id="bib4">
+					<ce:label>[4]</ce:label>
+					<sb:reference xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd">
+						<sb:contribution>
+							<sb:authors>
+								<sb:author>
+									<ce:given-name>R.P.</ce:given-name>
+									<ce:surname>Somerville</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>S.A.</ce:given-name>
+									<ce:surname>Oblander</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>S.S.</ce:given-name>
+									<ce:surname>Apte</ce:surname>
+								</sb:author>
+							</sb:authors>
+							<sb:title>
+								<sb:maintitle>Matrix metalloproteinases: old dogs with new
+									tricks</sb:maintitle>
+							</sb:title>
+						</sb:contribution>
+						<sb:host>
+							<sb:issue>
+								<sb:series>
+									<sb:title>
+										<sb:maintitle>Genome Biol.</sb:maintitle>
+									</sb:title>
+									<sb:volume-nr>4</sb:volume-nr>
+								</sb:series>
+								<sb:issue-nr>3</sb:issue-nr>
+								<sb:date>2003</sb:date>
+							</sb:issue>
+							<sb:pages>
+								<sb:first-page>216</sb:first-page>
+							</sb:pages>
+						</sb:host>
+					</sb:reference>
+				</ce:bib-reference>
+				<ce:bib-reference id="bib5">
+					<ce:label>[5]</ce:label>
+					<sb:reference xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd">
+						<sb:contribution>
+							<sb:authors>
+								<sb:author>
+									<ce:given-name>L.</ce:given-name>
+									<ce:surname>McCawley</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>L.</ce:given-name>
+									<ce:surname>Matrisian</ce:surname>
+								</sb:author>
+							</sb:authors>
+							<sb:title>
+								<sb:maintitle>Matrix metalloproteinases: they’re not just for
+									matrix anymore!</sb:maintitle>
+							</sb:title>
+						</sb:contribution>
+						<sb:host>
+							<sb:issue>
+								<sb:series>
+									<sb:title>
+										<sb:maintitle>Curr. Opin. Cell Biol.</sb:maintitle>
+									</sb:title>
+									<sb:volume-nr>13</sb:volume-nr>
+								</sb:series>
+								<sb:date>2001</sb:date>
+							</sb:issue>
+							<sb:pages>
+								<sb:first-page>534</sb:first-page>
+								<sb:last-page>540</sb:last-page>
+							</sb:pages>
+						</sb:host>
+					</sb:reference>
+				</ce:bib-reference>
+				<ce:bib-reference id="bib6">
+					<ce:label>[6]</ce:label>
+					<sb:reference xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd">
+						<sb:contribution>
+							<sb:authors>
+								<sb:author>
+									<ce:given-name>H.L.</ce:given-name>
+									<ce:surname>Fillmore</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>T.</ce:given-name>
+									<ce:surname>Van Meter</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>W.C.</ce:given-name>
+									<ce:surname>Broaddus</ce:surname>
+								</sb:author>
+							</sb:authors>
+							<sb:title>
+								<sb:maintitle>Membrane-type matrix metalloproteinases (MT-MMPs):
+									expression and function during glioma invasion</sb:maintitle>
+							</sb:title>
+						</sb:contribution>
+						<sb:host>
+							<sb:issue>
+								<sb:series>
+									<sb:title>
+										<sb:maintitle>J. Neuro-Oncol.</sb:maintitle>
+									</sb:title>
+									<sb:volume-nr>53</sb:volume-nr>
+								</sb:series>
+								<sb:date>2001</sb:date>
+							</sb:issue>
+							<sb:pages>
+								<sb:first-page>187</sb:first-page>
+								<sb:last-page>202</sb:last-page>
+							</sb:pages>
+						</sb:host>
+					</sb:reference>
+				</ce:bib-reference>
+				<ce:bib-reference id="bib7">
+					<ce:label>[7]</ce:label>
+					<sb:reference xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd">
+						<sb:contribution>
+							<sb:authors>
+								<sb:author>
+									<ce:given-name>D.M.</ce:given-name>
+									<ce:surname>Jaworski</ce:surname>
+								</sb:author>
+							</sb:authors>
+							<sb:title>
+								<sb:maintitle>Developmental regulation of membrane-type 5 matrix
+									metalloproteinase (MT5-MMP) expression in the rat nervous
+									system</sb:maintitle>
+							</sb:title>
+						</sb:contribution>
+						<sb:host>
+							<sb:issue>
+								<sb:series>
+									<sb:title>
+										<sb:maintitle>Brain Res.</sb:maintitle>
+									</sb:title>
+									<sb:volume-nr>860</sb:volume-nr>
+								</sb:series>
+								<sb:date>2000</sb:date>
+							</sb:issue>
+							<sb:pages>
+								<sb:first-page>174</sb:first-page>
+								<sb:last-page>177</sb:last-page>
+							</sb:pages>
+						</sb:host>
+					</sb:reference>
+				</ce:bib-reference>
+				<ce:bib-reference id="bib8">
+					<ce:label>[8]</ce:label>
+					<sb:reference xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd">
+						<sb:contribution>
+							<sb:authors>
+								<sb:author>
+									<ce:given-name>D.</ce:given-name>
+									<ce:surname>Pei</ce:surname>
+								</sb:author>
+							</sb:authors>
+							<sb:title>
+								<sb:maintitle>Identification and characterization of the fifth
+									membrane-type matrix metalloproteinase MT5-MMP</sb:maintitle>
+							</sb:title>
+						</sb:contribution>
+						<sb:host>
+							<sb:issue>
+								<sb:series>
+									<sb:title>
+										<sb:maintitle>JBC</sb:maintitle>
+									</sb:title>
+									<sb:volume-nr>274</sb:volume-nr>
+								</sb:series>
+								<sb:issue-nr>13</sb:issue-nr>
+								<sb:date>1999</sb:date>
+							</sb:issue>
+							<sb:pages>
+								<sb:first-page>8925</sb:first-page>
+								<sb:last-page>8932</sb:last-page>
+							</sb:pages>
+						</sb:host>
+					</sb:reference>
+				</ce:bib-reference>
+				<ce:bib-reference id="bib9">
+					<ce:label>[9]</ce:label>
+					<sb:reference xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd">
+						<sb:contribution>
+							<sb:authors>
+								<sb:author>
+									<ce:given-name>Y.</ce:given-name>
+									<ce:surname>Sekine-Aizawa</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>E.</ce:given-name>
+									<ce:surname>Hama</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>K.</ce:given-name>
+									<ce:surname>Watanbe</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>S.</ce:given-name>
+									<ce:surname>Tsubuki</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>M.</ce:given-name>
+									<ce:surname>Kanai-Azuma</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>Y.</ce:given-name>
+									<ce:surname>Kanai</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>H.</ce:given-name>
+									<ce:surname>Arai</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>H.</ce:given-name>
+									<ce:surname>Aizawa</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>N.</ce:given-name>
+									<ce:surname>Iwata</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>T.C.</ce:given-name>
+									<ce:surname>Saido</ce:surname>
+								</sb:author>
+							</sb:authors>
+							<sb:title>
+								<sb:maintitle>Matrix metalloproteinase (MMP) system in brain:
+									identification and characterization of brain-specific MMP
+									highly expressed in cerebellum</sb:maintitle>
+							</sb:title>
+						</sb:contribution>
+						<sb:host>
+							<sb:issue>
+								<sb:series>
+									<sb:title>
+										<sb:maintitle>Eur. J. Neurosci.</sb:maintitle>
+									</sb:title>
+									<sb:volume-nr>13</sb:volume-nr>
+								</sb:series>
+								<sb:date>2001</sb:date>
+							</sb:issue>
+							<sb:pages>
+								<sb:first-page>935</sb:first-page>
+								<sb:last-page>948</sb:last-page>
+							</sb:pages>
+						</sb:host>
+					</sb:reference>
+				</ce:bib-reference>
+				<ce:bib-reference id="bib10">
+					<ce:label>[10]</ce:label>
+					<sb:reference xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd">
+						<sb:contribution>
+							<sb:authors>
+								<sb:author>
+									<ce:given-name>H.</ce:given-name>
+									<ce:surname>Hayashita-Kinoh</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>H.</ce:given-name>
+									<ce:surname>Kinoh</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>A.</ce:given-name>
+									<ce:surname>Okada</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>K.</ce:given-name>
+									<ce:surname>Komori</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>Y.</ce:given-name>
+									<ce:surname>Itoh</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>T.</ce:given-name>
+									<ce:surname>Chiba</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>M.</ce:given-name>
+									<ce:surname>Kajita</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>I.</ce:given-name>
+									<ce:surname>Yana</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>M.</ce:given-name>
+									<ce:surname>Seiki</ce:surname>
+								</sb:author>
+							</sb:authors>
+							<sb:title>
+								<sb:maintitle>Membrane-type 5 matrix metalloproteinase is
+									expressed in differentiated neurons and regulates axonal growth</sb:maintitle>
+							</sb:title>
+						</sb:contribution>
+						<sb:host>
+							<sb:issue>
+								<sb:series>
+									<sb:title>
+										<sb:maintitle>Cell Growth Differ.</sb:maintitle>
+									</sb:title>
+									<sb:volume-nr>12</sb:volume-nr>
+								</sb:series>
+								<sb:date>2001</sb:date>
+							</sb:issue>
+							<sb:pages>
+								<sb:first-page>573</sb:first-page>
+								<sb:last-page>580</sb:last-page>
+							</sb:pages>
+						</sb:host>
+					</sb:reference>
+				</ce:bib-reference>
+				<ce:bib-reference id="bib11">
+					<ce:label>[11]</ce:label>
+					<sb:reference xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd">
+						<sb:contribution>
+							<sb:authors>
+								<sb:author>
+									<ce:given-name>S.J.</ce:given-name>
+									<ce:surname>Pleasure</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>C.</ce:given-name>
+									<ce:surname>Page</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>V.M.</ce:given-name>
+									<ce:surname>Lee</ce:surname>
+								</sb:author>
+							</sb:authors>
+							<sb:title>
+								<sb:maintitle>Pure, postmitotic, polarized human neurons derived
+									from NTera 2 cells provide a system for expressing exogenous
+									proteins in terminally differentiated neurons</sb:maintitle>
+							</sb:title>
+						</sb:contribution>
+						<sb:host>
+							<sb:issue>
+								<sb:series>
+									<sb:title>
+										<sb:maintitle>J. Neurosci.</sb:maintitle>
+									</sb:title>
+									<sb:volume-nr>12</sb:volume-nr>
+								</sb:series>
+								<sb:issue-nr>5</sb:issue-nr>
+								<sb:date>1992</sb:date>
+							</sb:issue>
+							<sb:pages>
+								<sb:first-page>1802</sb:first-page>
+								<sb:last-page>1815</sb:last-page>
+							</sb:pages>
+						</sb:host>
+					</sb:reference>
+				</ce:bib-reference>
+				<ce:bib-reference id="bib12">
+					<ce:label>[12]</ce:label>
+					<sb:reference xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd">
+						<sb:contribution>
+							<sb:authors>
+								<sb:author>
+									<ce:given-name>E.</ce:given-name>
+									<ce:surname>Llano</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>A.M.</ce:given-name>
+									<ce:surname>Pendas</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>J.P.</ce:given-name>
+									<ce:surname>Freije</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>A.</ce:given-name>
+									<ce:surname>Nakano</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>V.</ce:given-name>
+									<ce:surname>Knauper</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>G.</ce:given-name>
+									<ce:surname>Murphy</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>C.</ce:given-name>
+									<ce:surname>Lopez-Otin</ce:surname>
+								</sb:author>
+							</sb:authors>
+							<sb:title>
+								<sb:maintitle>Identification and characterization of human
+									MT5-MMP, a new membrane-bound activator of progelatinase a
+									overexpressed in brain tumors</sb:maintitle>
+							</sb:title>
+						</sb:contribution>
+						<sb:host>
+							<sb:issue>
+								<sb:series>
+									<sb:title>
+										<sb:maintitle>Cancer Res.</sb:maintitle>
+									</sb:title>
+									<sb:volume-nr>59</sb:volume-nr>
+								</sb:series>
+								<sb:date>1999</sb:date>
+							</sb:issue>
+							<sb:pages>
+								<sb:first-page>2570</sb:first-page>
+								<sb:last-page>2576</sb:last-page>
+							</sb:pages>
+						</sb:host>
+					</sb:reference>
+				</ce:bib-reference>
+				<ce:bib-reference id="bib13">
+					<ce:label>[13]</ce:label>
+					<sb:reference xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd">
+						<sb:contribution>
+							<sb:authors>
+								<sb:author>
+									<ce:given-name>T.</ce:given-name>
+									<ce:surname>Tsukatani</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>H.L.</ce:given-name>
+									<ce:surname>Fillmore</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>H.R.</ce:given-name>
+									<ce:surname>Hamilton</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>E.H.</ce:given-name>
+									<ce:surname>Holbrook</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>R.M.</ce:given-name>
+									<ce:surname>Costanzo</ce:surname>
+								</sb:author>
+							</sb:authors>
+							<sb:title>
+								<sb:maintitle>Matrix metalloproteinase expression in the
+									olfactory epithelium</sb:maintitle>
+							</sb:title>
+						</sb:contribution>
+						<sb:host>
+							<sb:issue>
+								<sb:series>
+									<sb:title>
+										<sb:maintitle>Neuroreport</sb:maintitle>
+									</sb:title>
+									<sb:volume-nr>14</sb:volume-nr>
+								</sb:series>
+								<sb:issue-nr>8</sb:issue-nr>
+								<sb:date>2003</sb:date>
+							</sb:issue>
+							<sb:pages>
+								<sb:first-page>1135</sb:first-page>
+								<sb:last-page>1140</sb:last-page>
+							</sb:pages>
+						</sb:host>
+					</sb:reference>
+				</ce:bib-reference>
+				<ce:bib-reference id="bib14">
+					<ce:label>[14]</ce:label>
+					<sb:reference xmlns:sb="http://www.elsevier.com/xml/common/struct-bib/dtd">
+						<sb:contribution>
+							<sb:authors>
+								<sb:author>
+									<ce:given-name>M.</ce:given-name>
+									<ce:surname>Kajita</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>H.</ce:given-name>
+									<ce:surname>Kinoh</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>N.</ce:given-name>
+									<ce:surname>Ito</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>A.</ce:given-name>
+									<ce:surname>Takamura</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>Y.</ce:given-name>
+									<ce:surname>Itoh</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>A.</ce:given-name>
+									<ce:surname>Okada</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>H.</ce:given-name>
+									<ce:surname>Sato</ce:surname>
+								</sb:author>
+								<sb:author>
+									<ce:given-name>M.</ce:given-name>
+									<ce:surname>Seiki</ce:surname>
+								</sb:author>
+							</sb:authors>
+							<sb:title>
+								<sb:maintitle>Human membrane type-4 matrix metalloproteinase
+									(MT4-MMP) is encoded by a novel major transcript: isolation of
+									complementary DNA clones for human and mouse MT4-MMP
+									transcripts</sb:maintitle>
+							</sb:title>
+						</sb:contribution>
+						<sb:host>
+							<sb:issue>
+								<sb:series>
+									<sb:title>
+										<sb:maintitle>FEBS Lett.</sb:maintitle>
+									</sb:title>
+									<sb:volume-nr>457</sb:volume-nr>
+								</sb:series>
+								<sb:issue-nr>3</sb:issue-nr>
+								<sb:date>1999</sb:date>
+							</sb:issue>
+							<sb:pages>
+								<sb:first-page>353</sb:first-page>
+								<sb:last-page>356</sb:last-page>
+							</sb:pages>
+						</sb:host>
+					</sb:reference>
+				</ce:bib-reference>
+			</ce:bibliography-sec>
+		</ce:bibliography>
+	</tail>
+</article>

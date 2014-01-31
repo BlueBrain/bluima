@@ -1,0 +1,14 @@
+############################################
+#
+# using simple prefix
+#
+############################################
+
+ 
+
+cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+ inputDirectory: /Volumes/HDD2/ren_data/data_hdd/_papers_etc/bbp_people/people_extracted
+
+include: ../../includes/preprocess.incl
+
+ae: ch.epfl.bbp.uima.projects.misc.ExploreCellsAnnotator

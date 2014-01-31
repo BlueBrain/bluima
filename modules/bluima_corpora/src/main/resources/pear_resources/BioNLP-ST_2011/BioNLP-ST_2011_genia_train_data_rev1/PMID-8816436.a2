@@ -1,0 +1,47 @@
+*	Equiv T5 T4
+T24	Regulation 19 29	regulation
+T25	Transcription 208 219	transcribed
+T26	Regulation 254 261	through
+T27	Regulation 286 289	via
+T28	Positive_regulation 324 333	induction
+T29	Transcription 352 365	transcription
+T30	Negative_regulation 373 380	blocked
+T31	Regulation 450 454	role
+T32	Regulation 494 504	regulation
+T33	Binding 577 581	bind
+T34	Binding 667 672	bound
+T35	Regulation 829 838	regulated
+T36	Regulation 913 922	regulated
+T37	Binding 932 937	bound
+T38	Binding 994 998	bind
+T39	Binding 1043 1048	binds
+T40	Regulation 1199 1203	role
+T41	Positive_regulation 1253 1262	induction
+T42	Binding 1478 1483	binds
+T43	Binding 1579 1586	binding
+T44	Regulation 1673 1680	through
+T45	Regulation 1786 1795	regulated
+E1	Regulation:T24 Theme:T1 Cause:T3
+E2	Regulation:T24 Theme:T1 Cause:T2
+E3	Transcription:T25 Theme:T5
+E4	Regulation:T26 Theme:E3
+E5	Regulation:T27 Theme:E3 Cause:T6
+E6	Positive_regulation:T28 Theme:E7
+E7	Transcription:T29 Theme:T7
+E8	Negative_regulation:T30 Theme:E6
+E9	Regulation:T31 Theme:E10
+E10	Regulation:T32 Theme:T7
+E11	Binding:T33 Theme:T8
+E12	Binding:T34 Theme:T10
+E13	Regulation:T35 Theme:T11
+E14	Regulation:T36 Theme:T12 Cause:T13
+E15	Binding:T37 Theme:T13
+E16	Binding:T38 Theme:T14
+E17	Binding:T39 Theme:T15
+E18	Regulation:T40 Theme:E19
+E19	Positive_regulation:T41 Theme:T17
+E20	Binding:T42 Theme:T20
+E21	Binding:T43 Theme:T21 Theme2:T22
+E22	Regulation:T44 Theme:E23
+E23	Regulation:T45 Theme:T23
+M1	Negation E14

@@ -1,0 +1,26 @@
+Identification of genes expressed differently in salamander tail
+regeneration and rat spinal cord injury
+A bioinformatics approach was used to identify gene orthologs that
+are expressed similarly or differently after salamander tail amputation versus rat spinal cord injury. We used current (as of May 2006)
+human Entrez Gene IDs that were assigned to each annotated probe
+set on the Ambystoma GeneChip to identify all presumptive
+salamander orthologs on RatU34A, B, and C GeneChips. To
+accomplish this cross-referencing task, we used Resourcerer (Tsai
+et al. 2001), a database that allows orthologous genes to be
+identified among species-specific microarray resources. This yielded
+a list of 1036 probe sets between the Ambystoma and RatU34
+GeneChips that presumably correspond to 662 unique, orthologous
+genes. We compared the expression pattern of each of these genes
+using results from this study and published studies that profiled gene
+expression after SCI in rat, using RatU34 GeneChips (Carmel et al.
+2001; Song et al. 2001; Aimone et al. 2004; De Biase et al. 2005).
+De Biase et al. (2005) provide a table that compares specific details
+of these rat SCI microarray studies. The rat studies used thoracic T8-10 contusion models (MASCIS, OSU, and weight drop methods)
+and tissues were sampled at and flanking the impact site during the
+first 48 h post-injury; Aimone et al. (2004) also sampled 7 and
+35 days after injury. For each gene, we qualified gene expression as
+either significantly up, significantly down, or non-significant. We
+used statistical and fold-level criteria (FWER <0.01; >2-fold
+change) to score salamander genes for these criteria. If a gene was
+reported as significantly regulated in the rat studies, we recorded it
+as such; otherwise, we recorded it as non-significant.

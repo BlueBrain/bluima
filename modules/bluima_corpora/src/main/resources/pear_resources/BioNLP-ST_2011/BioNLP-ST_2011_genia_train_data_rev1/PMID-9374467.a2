@@ -1,0 +1,24 @@
+T6	Entity 0 7	Nuclear
+T7	Localization 8 20	accumulation
+T8	Negative_regulation 30 37	opposed
+T9	Phosphorylation 412 426	phosphorylates
+T10	Positive_regulation 499 505	caused
+T11	Entity 519 526	nuclear
+T12	Localization 527 539	localization
+T13	Positive_regulation 610 616	caused
+T14	Entity 617 624	nuclear
+T15	Localization 625 634	exclusion
+T16	Entity 674 681	nuclear
+T17	Localization 682 694	accumulation
+T18	Positive_regulation 704 712	promoted
+T19	Negative_regulation 731 738	opposed
+E1	Localization:T7 Theme:T1 AtLoc:T6
+E2	Negative_regulation:T8 Theme:E1
+E3	Phosphorylation:T9 Theme:T2
+E4	Positive_regulation:T10 Theme:E5
+E5	Localization:T12 Theme:T3 AtLoc:T11
+E6	Positive_regulation:T13 Theme:E7
+E7	Localization:T15 Theme:T4 AtLoc:T14
+E8	Localization:T17 Theme:T5 AtLoc:T16
+E9	Positive_regulation:T18 Theme:E8
+E10	Negative_regulation:T19 Theme:E9

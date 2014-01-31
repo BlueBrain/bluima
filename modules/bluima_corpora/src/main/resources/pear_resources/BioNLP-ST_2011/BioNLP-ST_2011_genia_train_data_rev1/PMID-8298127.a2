@@ -1,0 +1,15 @@
+*	Equiv T2 T3
+*	Equiv T4 T5
+*	Equiv T6 T7
+T15	Gene_expression 64 74	expression
+T16	Gene_expression 1616 1626	expression
+T17	Negative_regulation 1866 1876	inhibition
+T18	Positive_regulation 1891 1900	induction
+T19	Negative_regulation 2141 2151	inhibition
+T20	Positive_regulation 2161 2170	induction
+E1	Gene_expression:T15 Theme:T1
+E2	Gene_expression:T16 Theme:T12
+E3	Negative_regulation:T17 Theme:E4
+E4	Positive_regulation:T18 Theme:T13
+E5	Negative_regulation:T19 Theme:E6
+E6	Positive_regulation:T20 Theme:T14

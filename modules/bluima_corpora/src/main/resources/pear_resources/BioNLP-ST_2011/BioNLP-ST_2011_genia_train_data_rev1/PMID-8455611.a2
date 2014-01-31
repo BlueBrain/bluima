@@ -1,0 +1,32 @@
+T15	Positive_regulation 0 26	Transcriptional activation
+T16	Entity 50 58	promoter
+T17	Positive_regulation 403 435	behaved as an authentic enhancer
+T18	Entity 465 473	promoter
+T19	Positive_regulation 634 645	dispensable
+T20	Gene_expression 654 664	expression
+T21	Positive_regulation 701 709	required
+T22	Positive_regulation 733 741	mediated
+T23	Regulation 742 750	activity
+T24	Entity 772 780	promoter
+T25	Regulation 1133 1159	formed the functional core
+T26	Positive_regulation 1195 1205	activation
+T27	Entity 1227 1235	promoter
+T28	Transcription 2074 2089	transcriptional
+T29	Positive_regulation 2090 2100	activation
+T30	Positive_regulation 2181 2189	mediated
+E1	Positive_regulation:T15 Theme:T1 Site:T16
+E2	Positive_regulation:T17 Theme:T6 Site:T18
+E3	Positive_regulation:T19 Theme:E4
+E4	Gene_expression:T20 Theme:T7
+E5	Positive_regulation:T21 Theme:E6
+E6	Positive_regulation:T22 Theme:E7
+E7	Regulation:T23 Theme:T8 Site:T24
+E8	Regulation:T25 Theme:E9
+E9	Positive_regulation:T26 Theme:T12 Site:T27
+E10	Transcription:T28 Theme:T13
+E11	Transcription:T28 Theme:T14
+E12	Positive_regulation:T29 Theme:E10
+E13	Positive_regulation:T29 Theme:E11
+E14	Positive_regulation:T30 Theme:E12
+E15	Positive_regulation:T30 Theme:E13
+M1	Negation E3

@@ -1,0 +1,15 @@
+T11	Localization 41 53	mobilization
+T12	Localization 1007 1016	mobilized
+T13	Entity 1020 1042	naive Mono Mac 6 cells
+T14	Positive_regulation 1149 1157	increase
+T15	Positive_regulation 1194 1202	increase
+T16	Positive_regulation 1233 1262	transcriptional up-regulation
+T17	Positive_regulation 1773 1784	up-regulate
+E1	Localization:T11 Theme:T1
+E2	Localization:T12 Theme:T3 AtLoc:T13
+E3	Localization:T12 Theme:T5
+E4	Localization:T12 Theme:T4 AtLoc:T13
+E5	Positive_regulation:T14 Theme:T6
+E6	Positive_regulation:T15 Theme:T7
+E7	Positive_regulation:T16 Theme:T8
+E8	Positive_regulation:T17 Theme:T9

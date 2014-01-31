@@ -1,0 +1,58 @@
+########################################################################################
+# extract brain regions with 3 different methods
+#
+# $1 job id (for input and output files)
+#
+########################################################################################
+
+cr: FromFilelistReader
+ inputFile: /nfs4/bbp.epfl.ch/user/richarde/dev/bluebrain/release_20130704/pipelines/projects/extract_brainregions/20130703_extract_BAMS/filelist/$1
+ format__java: true
+
+ae: ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator
+
+ae: SentenceAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz
+
+# needed!
+ae: TokenAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/token/TokenizerGenia.bin.gz
+
+########################################################################################
+# 1) NEURONAMES
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/neuronames")
+
+ae: DeduplicatorAnnotator
+ annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.BrainRegionDictTerm"}
+
+ae: ExtractBrainregionsCoocurrences
+ outputDir: /nfs4/bbp.epfl.ch/scratch/richarde/20130704_brainregion_ft_400k_3ners/neuronames/$1
+
+ae: RemoveAnnotationsAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+
+########################################################################################
+# 2) BAMS
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("brainregions/bams2004")
+
+ae: DeduplicatorAnnotator
+ annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.BrainRegionDictTerm"}
+
+ae: ExtractBrainregionsCoocurrences
+ outputDir: /nfs4/bbp.epfl.ch/scratch/richarde/20130704_brainregion_ft_400k_3ners/bams/$1
+
+########################################################################################
+# 3) BraiNER
+ae: BrainRegionAnnotator
+ modelFile: $ROOT/modules/bluima_regions/resources/models/20130515_BrainRegion.model
+
+ae: DeduplicatorAnnotator
+ annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.BrainRegion"}
+
+ae: ExtractBrainregionsCoocurrences2
+ outputDir: /nfs4/bbp.epfl.ch/scratch/richarde/20130704_brainregion_ft_400k_3ners/brainer/$1
+
+
+########################################################################################
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

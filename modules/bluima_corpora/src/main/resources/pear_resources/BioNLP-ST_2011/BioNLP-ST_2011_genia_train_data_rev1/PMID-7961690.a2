@@ -1,0 +1,9 @@
+*	Equiv T2 T3
+*	Equiv T4 T5
+*	Equiv T6 T7
+T23	Transcription 600 611	mRNA levels
+T24	Transcription 605 611	levels
+T25	Positive_regulation 853 862	increased
+E1	Transcription:T23 Theme:T8
+E2	Transcription:T24 Theme:T8
+E3	Positive_regulation:T25 Theme:T14

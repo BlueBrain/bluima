@@ -1,0 +1,19 @@
+*	Equiv T3 T4
+*	Equiv T10 T11
+*	Equiv T6 T7
+T18	Regulation 40 49	regulates
+T19	Gene_expression 129 139	expression
+T20	Gene_expression 413 422	expressed
+T21	Positive_regulation 1257 1264	induces
+T22	Positive_regulation 1279 1288	dependent
+T23	Negative_regulation 1421 1428	lacking
+T24	Regulation 1551 1560	regulates
+T25	Gene_expression 1589 1599	expression
+E1	Regulation:T18 Theme:E2 Cause:T1
+E2	Gene_expression:T19 Theme:T2
+E3	Gene_expression:T20 Theme:T8
+E4	Positive_regulation:T21 Theme:T13
+E5	Positive_regulation:T22 Theme:T13
+E6	Negative_regulation:T23 Theme:T14
+E7	Regulation:T24 Theme:E8 Cause:T15
+E8	Gene_expression:T25 Theme:T16

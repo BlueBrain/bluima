@@ -1,0 +1,12 @@
+T9	Entity 42 49	nuclear
+T10	Localization 50 62	localization
+T11	Binding 187 191	bind
+T12	Localization 296 305	localized
+T13	Entity 313 320	nucleus
+T14	Positive_regulation 330 339	dependent
+T15	Binding 605 614	interacts
+E1	Localization:T10 Theme:T1 AtLoc:T9
+E2	Binding:T11 Theme:T2
+E3	Localization:T12 Theme:T3 AtLoc:T13
+E4	Positive_regulation:T14 Theme:E3
+E5	Binding:T15 Theme:T7

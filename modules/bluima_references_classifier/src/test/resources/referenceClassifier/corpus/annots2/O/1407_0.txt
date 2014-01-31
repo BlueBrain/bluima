@@ -1,0 +1,21 @@
+events versus baseline (Josephs and Henson, 1999; Henson, 2004); however, the purpose of the current study was not to assess hemodynamic
+responses to words per se but only to compare hemodynamic responses
+to words based on their later memory fate (remembered, primed, forgotten), and the absence of a fixation baseline does not limit conclusions
+about response differences across these word types (Josephs and Henson,
+1999; Henson, 2004). Assuming the BOLD impulse responses to successive events summate in a linear manner (as is assumed by nearly every
+analysis method used conventionally), there is no need for null events,
+because the fMRI time series is deconvolved with an assumed response
+shape; moreover, inclusion of null events would have reduced statistical
+power for comparisons between the different event types (Josephs and
+Henson, 1999; Henson, 2004). There is good evidence that the degree of
+nonlinearity is minimal for interstimulus intervals of approximately
+3000 ms, as used here (Henson, 2004).
+To examine a possible regional overlap of priming-related activity at
+study and test, the relevant SPM at test (i.e., correct rejections of nonstudied words minus primed words) (Fig. 1) (Schott et al., 2005) was
+used as an inclusive mask. This mask image was applied to the primedminus-forgotten and forgotten-minus-primed contrasts of the study
+phase, to identify activations and deactivations at study in brain regions
+that showed response decreases at test. The significance threshold for the
+mask was 0.001 (uncorrected, one tailed, extent threshold k 5 adjacent
+voxels) (Schott et al., 2005), but the threshold for the masking analysis
+was 0.005 (uncorrected, two tailed, extent threshold k 5 adjacent voxels), as in the other encoding contrasts. The theoretical purpose of this
+analysis was to test our hypothesis that priming-related response de-creases in the ventral visual stream at test would be mirrored by primingrelated response increases in the same regions at study.

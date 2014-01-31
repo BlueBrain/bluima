@@ -1,0 +1,28 @@
+T17	Positive_regulation 447 451	With
+T18	Gene_expression 511 519	produced
+T19	Gene_expression 609 619	production
+T20	Localization 833 842	secretion
+T21	Positive_regulation 847 856	increased
+T22	Gene_expression 913 923	production
+T23	Positive_regulation 968 979	enhancement
+T24	Transcription 993 1003	expression
+T25	Negative_regulation 1324 1331	reduced
+T26	Transcription 1342 1352	expression
+T27	Negative_regulation 1357 1366	deficient
+T28	Gene_expression 1372 1382	production
+T29	Positive_regulation 1422 1430	enhances
+E1	Positive_regulation:T17 Theme:E4
+E2	Positive_regulation:T17 Theme:E3
+E3	Gene_expression:T18 Theme:T5
+E4	Gene_expression:T19 Theme:T6
+E5	Localization:T20 Theme:T8
+E6	Positive_regulation:T21 Theme:E5
+E7	Gene_expression:T22 Theme:T10
+E8	Positive_regulation:T23 Theme:E9
+E9	Transcription:T24 Theme:T11
+E10	Negative_regulation:T25 Theme:E11
+E11	Transcription:T26 Theme:T13
+E12	Negative_regulation:T27 Theme:E13
+E13	Gene_expression:T28 Theme:T14
+E14	Positive_regulation:T29 Theme:T14
+M1	Negation E3

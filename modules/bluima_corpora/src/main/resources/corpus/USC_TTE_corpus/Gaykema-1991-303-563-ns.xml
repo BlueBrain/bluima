@@ -1,0 +1,1333 @@
+<?xml version='1.0'?>
+<!DOCTYPE File PUBLIC "NeuroScholar.DTD" "NeuroScholar.DTD">
+<?xml-stylesheet type="text/css" href="NeuroScholar.css"?>
+<File>
+
+  <Title>Prefrontal Cortical Projections to the Cholinergic Neurons in 
+  the Basal Forebrain</Title>
+
+  <Authors>RONALD P.A. GAYKEMA, ROB VAN WEEGHEL, LOUIS B. 
+  HERSH,</Authors>
+
+  <Authors>AND PAUL G.M. LUITEN</Authors>
+
+  <Abstract>
+
+    <S avgH="22" class="abstract.heading" format="TimesNewRomanPSMT"
+     id="s0">ABSTRACT</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s1">The prefrontal cortex (PFC) projections to the basal 
+    forebrain cholinergic cell groups in the medial septum (MS), 
+    vertical and horizontal limbs of the diagonal band of Broca (VDB 
+    and HDB), and the magnocellular basal nucleus (MBN) in the rat were 
+    investigated by anterograde transport of Phaseolus vulgaris 
+    leuco-agglutinin (PHA-L) combined with acetylcholinesterase (AChE) 
+    histochemistry or choline acetyltransferase (ChAT) 
+    immunocytochemistry.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s2">The experiments revealed rich PHA-Glabeled projections to 
+    discrete parts of the basal forebrain cholinergic system (BFChS) 
+    essentially originating from all prefrontal areas investigated.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s3">The PFC afTerents to the BFChS display a topographic 
+    organization, such that medial prefrontal areas project to the MS, 
+    VDB, and the medial part of the HDB, whereas the orbital and 
+    agranular insular areas predominantly innervate the HDB and MBN, 
+    respectively.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s4">Since the recurrent BFChS projection to the prefrontal 
+    cortex is arranged according to a similar topography, the 
+    relationship between the BFChS and the prefrontal cortex is 
+    characterized by reciprocal connections.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s5">Furthermore, tracer injections in the PFC resulted in 
+    anterograde labeling of numerous &quot;en passant&quot; and 
+    terminal boutons apposing perikarya and proximal dendrites of 
+    neurons in the basal forebrain, which were stained for the 
+    cholinergic marker enzymes.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s6">These results indicate that prefrontal cortical afferents 
+    make direct synaptic contacts upon the cholinergic neurons in the 
+    basal forebrain, although further analysis at the electron 
+    microscopic level will be needed to provide conclusive evidence.</S>
+    <BR />
+
+  </Abstract>
+
+  <Introduction>
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s7">The mammalian basal forebrain contains a continuous string 
+    of magnocellular cholinergic neurons being the major source of 
+    cholinergic innervation of the cerebral cortex, hippocampus, 
+    amygdala, and olfactory bulb.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s8">In the rodent brain, accumulations of these cholinergic 
+    neurons are present in the medial septum (MS) and the nuclei of the 
+    diagonal band of Broca (DB), forming the rostra1 portion of the 
+    basal forebrain cholinergic system (BFChS).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s9">More caudally, the cholinergic neurons are distributed 
+    throughout the ventral pallidum (W), substantia innominata (SI), 
+    and the ventral, medial, and caudal segments of the globus pallidus 
+    (GP), collectively termed the magnocellular basal nucleus (MBN) 
+    (Sofroniew et al., &apos;82; Mesulam et al., &apos;83b; Cuello and 
+    Sofroniew, &apos;84).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s10">In the primate brain, the main bulk of the magnocellular, 
+    cortically projecting, cholinergic neurons are aggregated in the 
+    infrapallidal basal nucleus of Meynert (Mesulam et al., &apos;83a; 
+    Saper and Chelimsky, &apos;84).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s11">Considerable knowledge has been gained on the overall 
+    topography of the cortical projections of the BFChS by using 
+    retrograde and anterograde tracing with horseradish peroxidase or 
+    tritiated amino acids (Mesulam et al., &apos;83a,b; Lamour et al., 
+    &apos;84; Rye et al., &apos;84; Saper, &apos;84; Woolf et al., 
+    &apos;84).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s12">Furthermore, detailed information on the topographic 
+    arrangement of the basal forebrain-cortical/hippocampal projection, 
+    and on the patterns of termination in the cortex and hippocampus, 
+    was obtained with anterograde tracing of the rat BFChS by using the 
+    plant lectin Phaseolus vulgaris leuco-agglutinin (PHA-L) (Luiten et 
+    al., &apos;85, &apos;87; Nyakas et al., &apos;87; Gaykema et al., 
+    &apos;90).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s13">Next to the wealth of data on the efferent connections of 
+    the BFChS, a flow of information on the sources of afferent input 
+    to the cholinergic neurons has started to emerge.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s14">Axonal transport studies in several animal species have 
+    provided information on projections from a number of brain areas 
+    that terminate in the cholinergic cell areas in the basal 
+    forebrain.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s15">Summarizing these results, it can be concluded that the 
+    BFChS receives input from brainstem monoaminergic systems (Semba et 
+    al., &apos;88; Vertes et al., &apos;88; Jones and Cuello, &apos;89) 
+    but also from cortical, hippocampal, and amygdaloid regions (Jones 
+    et al., &apos;76; Lemann and Saper, &apos;85; Mesulam and Mufson 
+    &apos;84; Russchen et al., &apos;85; Irle and Markowitsch, 
+    &apos;86; Aggleton et al., &apos;871, and in turn relays this 
+    information flow to the cortical mantle via the cholinergic 
+    projection.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s16">The cortical relationship of the forebrain cholinergic 
+    projection neurons is therefore most likely not limited to its 
+    efferent projections but is also determined by a recurrent cortical 
+    afferent input.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s17">Ample evidence has been gained that the cortical input to 
+    the BFChS particularly arises from several limbic and paralimbic 
+    cortices based on studies in rodents (Lemann and Saper, &apos;85), 
+    carnivores, and primates (Mesulam and Mufson, &apos;84; Russchen et 
+    al., &apos;85; Irle and Markowitsch, &apos;86; Aggleton et al., 
+    &apos;87).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s18">These findings are also essential for our understanding 
+    of the involvement of the BFChS in neurodegenerative processes and 
+    the deficiencies in information processing in Alzheimer&apos;s 
+    disease.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s19">This disease is consistently characterized by a severely 
+    decreased cortical cholinergic innervation and a concomitant 
+    degeneration of neurons within the basal nucleus of Meynert 
+    (Whitehouse et al., &apos;82; Coyle et al., &apos;83; Saper et al., 
+    &apos;85) and by the development of neuritic plaques and 
+    neurofibrillary tangles in particular within the limbic and 
+    paralimbic cortices (Hyman et al., &apos;84; Pearson et al., 
+    &apos;85; Rogers and Morrison, &apos;85).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s20">The aim of the present investigation is therefore to 
+    examine the organization of the cortical feedback to the BFChS in 
+    more detail.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s21">In this work we focussed on the overall distribution of 
+    the limbic prefrontal cortical projections to the basal forebrain 
+    using the PHA-L anterograde tracing method (Gerfen and Sawchenko, 
+    &apos;84) in combination with staining of the cholinergic cells by 
+    acetylcholinesterase (AChE) pharmacohistochemistry or choline 
+    acetyltransferase (ChAT) immunohistochemistry at the light 
+    microscopic level.</S>
+  </Introduction>
+
+  <Methods>
+
+    <S avgH="28" class="methods.heading" format="TimesNewRomanPS-BoldMT"
+     id="s22">MATERIALSANDMETHODS</S>
+    <BR />
+
+    <S avgH="28" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s23">PHA-L antemgrade 
+    tracing</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s24">Thirty-four young adult, male Wistar rats weighing 
+    between 250 and 300 g received injections of PHA-L in the various 
+    subdivisions of the prefrontal cortex.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s25">The animals were anesthetized with sodium pentobarbital 
+    (40 mg/kg b.w., i.p.) and Hypnorm (Duphar, 0.4 mlkg b.w., i.m.1 and 
+    placed in a stereotaxic apparatus.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s26">PHA-L (Vector, 2.5% in Tris-buffered saline, pH 7.4) was 
+    delivered iontophoretically through bevelled glass micropipettes 
+    (diameter 15-20 km) by a positive current of 6 FA which was 
+    generated by a Midgard CS3 constant current source.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s27">The delivery lasted for 30 minutes in a 
+    7-seconds-on/7-seconds-off cycle.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s28">The injection coordinates were calculated according to 
+    the rat cortex stereotaxic atlas of Zilles (&apos;85).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s29">Seven to ten days after the PHA-L delivery, one group of 
+    ten animals received an intramuscular injection of 
+    diisopropylfluorophosphate (DFP, Sigma Chemical Co., St.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s30">Louis, MO), dissolved in arachis oil (O.l%), at a dose of 
+    1.5 mVkg b.w. 5 hours prior to sacrifice for the 
+    pharmacohistochemical demonstration of AChE-rich neurons (Butcher 
+    et al., &apos;75).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s31">These animals were then deeply anesthetized with sodium 
+    pentobarbital (70 mg/kg b.w., ip.) and perfused through the heart 
+    with saline followed by a mixture of 2.5% glutaraldehyde (GA) and 
+    0.5 paraformaldehyde (PF) in 0.1 M phosphate buffer (PB).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s32">The other 24 animals were perfused without DFP 
+    pretreatment.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s33">Their brains were fixed by perfusion with 4% PF in 0.1 M 
+    PB for the simultaneous, immunohistochemical staining of PHA-L and 
+    ChAT.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s34">All fixed brains were immersed in buffered sucrose (30%) 
+    for cryoprotection, rapidly frozen, and cut into 30 pm thick, 
+    transverse sections on a cryostat microtome.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s35">The sections were serially collected in vials containing 
+    10 mM phosphate-buffered saline (PBS, pH 7.4).</S>
+    <BR />
+
+    <S avgH="27" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s36">Single PHA-L 
+    irnmunehemishy</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s37">Every third section of the forebrain was processed for 
+    single PHA-L staining by peroxidase immunohistochemistry as 
+    previously described (Luiten et al., &apos;87; &apos;88).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s38">Interrupted by washings in Tris-buffered saline (TBS, pH 
+    7.4), the sections were subsequently incubated in rabbit antiPHA-L 
+    (DAKO, 1:2,000) for 24-72 hours at 4&quot;C, goat anti-rabbit IgG 
+    (TAGO, 1:50) for 4 hours at room temperature, and rabbit peroxidase 
+    anti-peroxidase complex (PAP) (Dako, 1:400) for overnight at 
+    4°C.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s39">All antibodies were diluted in TBS containing 0.5% Triton 
+    X-100 (TBS-T).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s40">The sections were then processed in DAB (0.04%) and H,O, 
+    (0.01%) in Tris-HC1, pH 7.6, and a selection of them was 
+    counterstained with cresyl violet.</S>
+    <BR />
+
+    <S avgH="27" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s41">PHA-L 
+    immunocytmhem;stwcombinedwith AChE histochemistry</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s42">The following procedure was applied for the ten 
+    DFPtreated cases.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s43">Prior to the immunostaining of PHA-L (see above), 
+    selected sections, containing the basal forebrain cholinergic cell 
+    groups, were stained for AChE using silvernitrate 
+    intensification.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s44">The sections were incubated in an sodium acetate-buffered 
+    solution (50 mM, pH 5.0) containing 2 mM copper sulphate and 10 mM 
+    glycine, to which acetylthiocholine-iodide (Merck, 4 mM) and the 
+    nonspecific esterase-inhibitor ethopropazine (Sigma Chemical Co., 
+    St.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s45">Louis, MO, 0.2 mM) was added.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s46">The sections were subsequently reacted in sodium sulphide 
+    (l%, pH adjusted to 7.8) and silver nitrate (1%) for 40 seconds 
+    each, to reveal black staining of the AChE-rich neurons.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s47">After thorough washing in distilled water, the sections 
+    were transferred to TBS and processed for PHA-L 
+    immunocytochemistry.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s48">This latter procedure was performed as for the single 
+    PHA-L immunolabeling.</S>
+    <BR />
+
+    <S avgH="27" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s49">Combined immunohbeljngof 
+    PHA-L andChAT</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s50">A monoclonal rat anti-ChAT antibody (Boehringer, 
+    Mannheim, FRG) and a polyclonal goat anti-ChAT antiserum (Bruce et 
+    al., &apos;85) were used to visualize ChAT immunoreactivity.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s51">Every third section containing the basal forebrain was 
+    processed for double-immunolabeling of ChAT and PHA-L.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s52">The sections were subsequently incubated in pooled 
+    primary antisera, i.e., rabbit anti-PHA-L (Dako, 1:5,000) and rat 
+    anti-ChAT (1:lOO) for 48-72 hours at 4&quot;C, and in a mixture of 
+    swine anti-rabbit (Nordic, 1:50) and goat antirat IgG (Zymed, 
+    1:lOO) for 4 hours at room temperature, all diluted in TBS-T.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s53">Thereafter, the PHA-Glabeled fibers were stained black by 
+    incubation of the sections in rabbit PAP (Dako, 1:500) followed by 
+    a reaction with nickelenhanced DAB (Ni-DAB), according to a 
+    procedure described by Luiten et al. (&apos;88).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s54">The reaction consisted of 0.4% Nickel ammonium sulphate, 
+    0.015% DAB, and 0.01% H,O, in Tris-HC1 (pH = 8.0).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s55">The sections were then exposed to rat PAP (Sera-lab, 
+    1200) for 4 hours and processed in DAB to reveal brown staining of 
+    the cholinergic cell bodies.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s56">A similar, adapted protocol was followed for labeling 
+    ChAT using the polyclonal antibody.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s57">Here, sections were incubated in a mixture of goat 
+    anti-ChAT (1:1,000) and rabbit anti-PHA-L (1:5,000), followed by a 
+    mixture of swine anti-goat (TAGO, 1:50) and swine anti-rabbit 
+    (1:50).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s58">Black PHA-L-immunostaining was performed with rabbit PAP 
+    and reaction in Ni-DAB.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s59">Brown ChAT-immunolabeling was completed by using goat PAP 
+    (DAKO, 1:500) and processing in DAB.</S>
+    <BR />
+
+    <S avgH="27" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s60">Comments on the 
+    nomenclature</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s61">In the following account, the parcellation of the 
+    prefrontal cortex (PFC) used in this paper is largely adapted from 
+    Zilles (&apos;85).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s62">The nomenclature of the medial PFC sectors, however, is 
+    derived from Krettek and Price (&apos;78) and from Van Eden and 
+    Uylings (&apos;85).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s63">The ventral and lateral parts of the PFC comprise the 
+    orbital and sulcal, agranular insular cortical areas, and are 
+    parcellated according to Zilles (&apos;85).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s64">With regard to the ventral and ventrolateral orbital 
+    cortical areas (VO and VLO), this delineation is slightly different 
+    from the nomenclature as proposed by Groenewegen (&apos;88).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s65">In this study, the PFC covers a larger area than the 
+    &quot;mediodorsal projection cortex&quot; as originally defined by 
+    Leonard (&apos;69), and forms an uninterrupted area around the 
+    rostral pole (Uylings and Van Eden, &apos;90).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s66">The medial prefrontal areas subjected to investigation 
+    are the prelimbic (PL), infralimbic (IL), dorsal peduncular cortex 
+    (DPC), and the medial orbital (MO) cortices.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s67">The lateral prefrontal areas studied include the 
+    ventrolateral and lateral orbital cortex (VLO and LO), and the 
+    dorsal agranular insular cortex (AId).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s68">The ventral agranular insular cortex has been considered 
+    as a caudal extension of the LO (Van Eden and Uylings, &apos;85) 
+    and is not separately mentioned in this study.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s69">The nomenclature of the cholinergic nuclei in the basal 
+    forebrain is generally derived from Carlsen et al. (&apos;85) and 
+    Zaborszky et al. (&apos;86) with respect to the parcellation of the 
+    ventral pallidum (VP), substantia innominata (SI), and the nuclei 
+    of the diagonal band of Broca (DB).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s70">The area that is often called the magnocellular preoptic 
+    region (e.g., Swanson, &apos;76) forms the intermediate and lateral 
+    parts of the horizontal limb of the diagonal band of Broca (HDB) in 
+    this study.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s71">The vertical limb of the diagonal band of Broca (VDB) 
+    comprises the angular part of the diagonal band nuclei (cf.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s72">Gaykema et al., &apos;90).</S>
+  </Methods>
+
+  <Results>
+
+    <S avgH="44" class="results.heading" format="CourierNewPS-BoldMT"
+     id="s73">RESULTS</S>
+    <BR />
+
+    <S avgH="27" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s74">Survey of the PHA - L 
+    experiments</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s75">In twenty - five cases , the <tracerChemical>PHA - 
+    L</tracerChemical> deposits involved <injectionLocation>the deep 
+    cortical layers</injectionLocation> and resulted in abundant 
+    labeled PFC efferents in <labelingLocation>various foreand mid - 
+    brain areas</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s76">The location and extent of the injection sites are shown 
+    in Figure 1.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s77">Next to the distribution of <labelingDescription>the PHA 
+    - Glabeled neurons</labelingDescription> , two other criteria were 
+    used to determine whether <labelingDescription>the PHA - G labeled 
+    neurons</labelingDescription> are confined to a single or two 
+    adjacent cytoarchitectonically defined cortical areas : A ) the 
+    distribution of the crossed cortico - cortical projection , which 
+    is densest in <labelingLocation>the contralateral homotypic 
+    cortex</labelingLocation> ( Fig . 2a , b ) , and B ) the 
+    distribution of the labeled efferents in <labelingLocation>the 
+    thalamus</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s78">Thirteen injections were centered in 
+    <injectionLocation>the lateral PFC</injectionLocation> , of which 
+    ten injections were largely confined to <injectionLocation>the 
+    dorsal agranular insular cortex ( AId ) ( RG18, RG138, RJ2, RW8, 
+    and RW33 ) , posterior agranular insular cortex</injectionLocation> 
+    ( AIp ) ( RJ5 ) , <injectionLocation>lateral orbital 
+    cortex</injectionLocation> ( RG137, RJ1, and RW9 ) , or 
+    <injectionLocation>ventrolateral orbital cortex</injectionLocation> 
+    ( RG136 ) .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s79">One injection covered both VLO and LO (RG19).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s80">In two cases , <labelingDescription>PHA - L - labeled 
+    neurons</labelingDescription> were distributed in 
+    <labelingLocation>the AId and adjacent frontal neocortex ( RG14 and 
+    RG20 )</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s81">Seven of <injectionLocation>the twelve medial 
+    PFC</injectionLocation> injections were confined to one defined 
+    area , i . e . , <injectionLocation>prelimbic ( PL ) ( RJ6, RW5, 
+    and RWlZ ) , infralimbic ( IL ) ( RW19 and RW22 ) , or dorsal 
+    peduncular cortex ( DPC ) ( RG135 and RW16 )</injectionLocation> 
+    .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s82">In five other cases , more than one cortex area was 
+    involved ( RG15 and RG17 : <injectionLocation>PL and 
+    IL</injectionLocation> ; RW23 and RW31 : <injectionLocation>DPC and 
+    IL</injectionLocation> ; RG16 : <injectionLocation>MO , IL , and 
+    DPC</injectionLocation> ) .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s83">Another three injections were placed in 
+    <injectionLocation>the taenia tecta just ventral to the 
+    MO</injectionLocation> ( RG13 ) or <injectionLocation>the 
+    DPC</injectionLocation> ( RJ3 and RW32j .</S>
+    <BR />
+
+    <S avgH="27" class="results.subtitle" format="CourierNewPS-BoldMT"
+     id="s84">General pattern of the PFC efferents</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s85"><labelingDescription>PHA - Glabeled 
+    neurons</labelingDescription> in <labelingLocation>all PFC 
+    subdivisions</labelingLocation> gave rise to <labelingDescription>a 
+    massively labeled assembly</labelingDescription> of fascicles 
+    entering <labelingLocation>the anterior head of the 
+    striatum</labelingLocation> , traversing it in a caudal direction , 
+    and fusing with the ventromedial edge of the capsula interna ( ic ) 
+    ( Figs . 3E , 4E ) .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s86">From the ic , part of the labeled fascicles continued in 
+    <labelingLocation>the inferior thalamic peduncle</labelingLocation> 
+    .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s87"><labelingDescription>Other labeled 
+    fibers</labelingDescription> spreaded towards 
+    <labelingLocation>preoptic , hypothalamic , and amygdaloid 
+    areas</labelingLocation> .</S>
+    <BR />
+
+    <S avgH="27" class="results.body" format="TimesNewRomanPS-BoldMT"
+     id="s88">Depending on the PFC sector injected, a group of 
+    PHA-Llabeled fascicles appeared within a particular restricted part 
+    of the ventral half of the caudate putamen (CPu) just dorsal to the 
+    anterior commissure (Figs. 3B,C, 4B,C).</S>
+    <S avgH="27" class="results.body" format="TimesNewRomanPS-BoldMT"
+     id="s89">In addition , restricted parts of <labelingLocation>the 
+    CPu , accumbens nucleus ( Acb ) , fundus striati ( FSt ) , cell 
+    bridges of the ventral striatum ( CB ) , and olfactory tubercle ( 
+    Tu )</labelingLocation> contained <labelingDescription>dense 
+    networks of labeled projections</labelingDescription> , 
+    demonstrating <labelingDescription>a regional organization of the 
+    corticostriatal inputs</labelingDescription> .</S>
+    <S avgH="27" class="results.body" format="TimesNewRomanPS-BoldMT"
+     id="s90">The medial prefrontal projections are mainly aimed at 
+    <labelingLocation>the medial parts of the CPu and Acb , the FSt , 
+    and the entire mediolateral extent of the CB</labelingLocation> and 
+    Tu in an irregular , patchy pattern ( Fig . 3 ) .</S>
+    <S avgH="27" class="results.body" format="TimesNewRomanPS-BoldMT"
+     id="s91">Corticostriatal inputs from more lateral ( orbital and 
+    insular ) areas of the PFC are concentrated in progressively more 
+    lateral aspects of the ventral half of the CPu , Acb , and 
+    <labelingLocation>the ventral striatum</labelingLocation> ( 
+    including the Tu ) ( Fig . 4 ) .</S>
+    <S avgH="27" class="results.body" format="TimesNewRomanPS-BoldMT"
+     id="s92"><labelingDescription>PHA - L - labeled 
+    projections</labelingDescription> of the medial and lateral 
+    prefrontal areas were distributed in <labelingLocation>a variety of 
+    cortical and subcortical striatal , preoptic , thalamic , 
+    hypothalamic , and brainstem areas</labelingLocation> , generally 
+    in accordance with previously described results from anterograde 
+    tracing of PFC efferents in rat ( Beckstead , &apos; 79 ; 
+    Groenewegen , &apos; 88 ) and cat ( Room et Distribution of the 
+    AChEand CUT - positive Perikarya</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s93">The distribution of <labelingDescription>the AChE - 
+    stained cell bodies</labelingDescription> and that of 
+    <labelingDescription>the ChAT - immunoreactive 
+    neurons</labelingDescription> in <labelingLocation>the basal 
+    forebrain</labelingLocation> were observed to be generally similar 
+    and in concordance with previously published data ( Eckenstein and 
+    Sofroniew , &apos; 83 ; Levey et al . , &apos; 83 ; Wainer et al . 
+    , &apos; 84 ) .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s94">The AChE-stained perikarya contained black granular 
+    reaction product with variable intensity (Fig. 2d,e).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s95"><labelingDescription>A continuous string of strongly AChE 
+    - stained somata</labelingDescription> and , in a nearly identical 
+    fashion , <labelingDescription>ChAT - immunoreactive cell 
+    bodies</labelingDescription> was present in <labelingLocation>the 
+    MS , VDB , HDB , subcommissural ventral pallidum W ) , 
+    sublenticular SI , and the ventromedial and caudal globus pallidus 
+    ( GP )</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s96">Besides,<labelingDescription>AChEand ChATpositive 
+    neurons</labelingDescription> were similarly distributed throughout 
+    <labelingLocation>the striatal areas, i.e., the CPu, FSt, CB, Tu, 
+    and Acb</labelingLocation>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s97">In ,T,vW/?</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s98">-vHd a03 passa3oad sasm aqq uo paseq bIa3xeI aw Lpnqs 
+    quasaad aqq30 sqpsaa aqq suoanau @aauqoqa aqq a03 JayJeur 
+    snodrqureun ue s!</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s99">3q3v ueqq aaqqea ~,vq3 =??</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s100">eSau-,ww 611enqae s!</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s101">u!</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s102">eaqaao~ psaq aqq u!</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s103">suoanau y a p - 3 9 3 aqq ~ 30 qnd e saoqrlne 
+    pauoguaur-anoqe aqq bq pamappa sv gaH pde sm aqq u!</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s104">snoprdsuoa qsow SEM aaua.xagp q q sIIa3 ~ 
+    paIaqe1ounurur!</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s105">-Lvq3 aqq ueqq snoaaurnu aaow L~qqSqs aq oq pamadde 
+    suoanau q31.1-3143~ qeqq pauasqo aM ( 8,) ~ a p ~ o y o pue s u!</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s106">aqs -uay33 pue ( 8,) 1 qa Lana?</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s107">30 sSu!</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s108">puy aqq qq!</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s109">~ qxamoa guishable from the brown-colored, 
+    ChAT-immunoreactive neuronal cell bodies and proximal dendrites.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s110">Simultaneous <labelingDescription>PHA - L and AChE 
+    staining revealed brown fibers and presynaptic endings together 
+    with black , granular staining of neuronal 
+    profiles</labelingDescription> ( Fig . 2d , e ) .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s111">A disadvantage of the latter method is the irregular 
+    appearance of the black AChE reaction product yielding vague 
+    contours of the cell bodies and proximal dendrites.</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s112">Following tracer injections in <injectionLocation>the 
+    various parts of the PFC</injectionLocation> , 
+    <labelingDescription>considerable numbers of 
+    fibers</labelingDescription> became labeled which were present in 
+    discrete parts of <labelingLocation>the basal forebrain 
+    regions</labelingLocation> containing <labelingDescription>the 
+    magnocellular cholinergic neurons</labelingDescription> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s113">The prefrontal afferents in these cholinergic cell areas 
+    in <labelingLocation>the basal forebrain</labelingLocation> are 
+    topographically organized related to <injectionLocation>the PFC 
+    area of origin</injectionLocation> , as is the case with the 
+    corticostriatal projections ( cf .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s114">Figs. 3,4).</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s115">The <tracerChemical>PHA - L</tracerChemical> injections 
+    in <labelingLocation>the medial prefrontal areas</labelingLocation> 
+    , i . e . , <labelingLocation>the prelimbic , infralimbic , dorsal 
+    peduncular, and medial orbital cortices</labelingLocation> revealed 
+    generally similar distributions of <labelingDescription>anterograde 
+    labeling</labelingDescription> in <labelingLocation>the basal 
+    forebrain cholinergic nuclei</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s116">As will be described below, differences between labeling 
+    patterns from PL, IL, DPC, and MO are reflected mainly in variation 
+    in density of projections.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s117">In general , more ventrally placed injections labeled 
+    <labelingDescription>denser terminal networks</labelingDescription> 
+    throughout <labelingLocation>the MS , VDB , and 
+    HDB</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s118">The only profound difference 
+    between<labelingDescription>the anterograde 
+    labeling</labelingDescription> resulting from injections into 
+    <injectionLocation>the PL and IL on the one hand and the 
+    DPC</injectionLocation> on the other hand is 
+    <labelingDescription>the remarkably dense terminal 
+    field</labelingDescription> in <labelingLocation>the medial aspects 
+    of the lateral septum</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s119">This lateral septum projection becomes labeled after 
+    <tracerChemical>PHA - L</tracerChemical> injections in 
+    <injectionLocation>the DPC</injectionLocation> only ( compare Fig . 
+    3B , C with Fig . 6A , B ) .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s120"><tracerChemical>PHA - L</tracerChemical> injections into 
+    <injectionLocation>more lateral ( orbital and insular ) parts of 
+    the PFC</injectionLocation> resulted in 
+    <labelingDescription>anterograde labeling of fiber 
+    networks</labelingDescription> covering 
+    <labelingLocation>progressively more lateral parts of the basal 
+    forebrain cholinergic nuclei</labelingLocation>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s121">There is, however, a considerable overlap of the 
+    projection fields from neighbouring areas of the PFC.</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s122">The projections of each PFC sector to the BFChS will be 
+    described in detail with reference to representative cases.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s123">In each of these cases , <labelingDescription>PHA - L - 
+    labeled neurons</labelingDescription> were largely confined to a 
+    single topographically defined PFC area .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s124">Prelimbic cortex (case RJ6).</S>
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s125">Following<exptLabel><tracerChemical>PHA - 
+      L</tracerChemical> injections in <injectionLocation>the 
+      PL</injectionLocation></exptLabel>, <labelingDescription>a 
+      massive number of axons becomes labeled</labelingDescription> 
+      running into <labelingLocation>the forceps minor of the corpus 
+      callosum</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s126">Here, <labelingDescription>these 
+      fibers</labelingDescription> become arranged into tiny fascicles 
+      and traverse <labelingLocation>the medial CPu just dorsal to the 
+      anterior commissure in a caudal direction</labelingLocation> 
+      (Fig. 3B,C).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s127">Along their course , they give off 
+      <labelingDescription>a dense plexus of 
+      fibers</labelingDescription> terminating in <labelingLocation>the 
+      medial CPu , FSt , and in restricted parts of the 
+      Tu</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s128">After merging with the anteromedial segment of the ic 
+      , <labelingDescription>a contingent of labeled 
+      axons</labelingDescription> turn ventrally just caudal to the 
+      crossing of the anterior commissure and spread into 
+      <labelingLocation>the VP , the medial part of the sublenticular 
+      SI , the lateral preoptic area ( LPO ) , and the medial part of 
+      the horizontal limb of the diagonal band ( HDBm 
+      )</labelingLocation> ( Fig . 3B , C ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s129">Particularly in <labelingLocation>the LPO and 
+      HDBm</labelingLocation> , <labelingDescription>the 
+      fibers</labelingDescription> branch frequently and 
+      <labelingDescription>show numerous 
+      varicosities</labelingDescription> , which approach 
+      <labelingDescription>the most medially distributed AChE - 
+      containing or ChAT - immunopositive neurons</labelingDescription> 
+      in <labelingLocation>the VP and HDBm</labelingLocation> .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s130"><labelingDescription>A small number of labeled 
+      fibers</labelingDescription> runs into the anterior pole of 
+      <labelingLocation>the septal area</labelingLocation> and course 
+      through <labelingLocation>the medial part of the lateral septum ( 
+      LSm ) , MS , and vertical limb of the diagonal band ( VDB 
+      )</labelingLocation> , where they arborize into branches bearing 
+      varicosities ( Fig . 3B ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s131">These fibers intermingle with the CUT - labeled 
+      neuronal profiles in <labelingLocation>the lateral part of the 
+      MS</labelingLocation> and in <labelingLocation>the 
+      VDB</labelingLocation> in a similar fashion as , but 
+      <labelingDescription>less numerous</labelingDescription> than the 
+      efferents from the DPC do ( cf .</S>
+    </TTE>
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s132">Figs. 5a,b, 6).</S>
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s133"><exptLabel><injectionLocation>Infralimbic 
+    cortex</injectionLocation> (case RW19)</exptLabel>.</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s134">As is 
+    the case for the PL , the infralimbic prefrontal efferents reach 
+    <labelingLocation>the basal forebrain via the anterior septal pole 
+    and via the striatal fiber bundles</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s135">The pattern of 
+    <labelingDescription>termination</labelingDescription> in 
+    <labelingLocation>the striatum</labelingLocation> , however , is 
+    slightly different from that of the PL .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT"
+     id="s136"><labelingDescription>Dense clusters of terminating 
+    fibers</labelingDescription> are present in <labelingLocation>the 
+    medial halves of the Acb , FSt , CB , and Tu</labelingLocation> , 
+    but <labelingModifier>not</labelingModifier> in 
+    <labelingLocation>the CPu</labelingLocation> .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT"
+     id="s137"><labelingDescription>A larger number of 
+    projections</labelingDescription> to <labelingLocation>the LSm , 
+    lateral part of the MS , and the W B</labelingLocation> became 
+    labeled than after PL injections .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT"
+     id="s138"><labelingDescription>Numerous 
+    fibers</labelingDescription> traverse along the AChE / ChAT - 
+    containing neurons in <labelingLocation>the MS and 
+    VDB</labelingLocation> giving <labelingDescription>off terminal 
+    branches</labelingDescription> which appose the cholinergic 
+    profiles in a nearly identical fashion as the DPC efferents do ( cf 
+    .</S><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s139">Figs. 5a, 6a,b).</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s140"><labelingDescription>Another 
+    massive group of labeled axons</labelingDescription> emanates from 
+    the anteromedial segment of the capsula interna and runs ventrally 
+    <labelingModifier>to terminate densely</labelingModifier> in 
+    <labelingLocation>the medial parts of the VP and 
+    HDB</labelingLocation> ( Fig . 3 ) , and ventromedially 
+    <labelingModifier>to innervate</labelingModifier> 
+    <labelingLocation>the lateral and medial divisions of the preoptic 
+    area</labelingLocation> .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s141">As is the case after tracer 
+    injections in <labelingLocation>the DPC</labelingLocation> , 
+    <labelingDescription>numerous PHA - G labeled endings make intimate 
+    contacts to ChAT - positive cell bodies or 
+    dendrites</labelingDescription> in <labelingLocation>the 
+    HDBm</labelingLocation> ( Fig . 6C , D ) .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s142">More 
+    caudally , <labelingDescription>fibers</labelingDescription> spread 
+    into <labelingLocation>the medial part of the sublenticular SI 
+    reaching the ventral surface</labelingLocation> of the brain just 
+    <labelingLocation>lateral to the supraoptic 
+    nucleus</labelingLocation> , along which route they approach only 
+    the most medially located cholinergic neurons ( Fig . 6D ) 
+    .</S></TTE>
+
+    <TTE>
+
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s143"><exptLabel><injectionLocation>Dorsal peduncular 
+      cortex</injectionLocation> (case RG135)</exptLabel>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s144">The basal forebrain projections originating in the DPC 
+      differ from those emanating from the IL mainly with respect to 
+      <labelingDescription>a remarkably dense terminal 
+      field</labelingDescription> in <labelingLocation>a restricted 
+      zone of the LSm</labelingLocation> , which invade 
+      <labelingLocation>the lateral half of the MS ( Fig . 6A , B 
+      )</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s145">The dorsolaterally located <labelingDescription>ChAT - 
+      positive neurons</labelingDescription> of <labelingLocation>the 
+      MS and anterior pole of the VDB</labelingLocation> are embraced 
+      by the <labelingDescription>PHA - L - labeled terminal 
+      plexus</labelingDescription> ( Figs . 5b , IOb , c ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s146"><labelingDescription>A small number of labeled 
+      fibers</labelingDescription> reach the cholinergic cells in 
+      <labelingLocation>the medial raphe of the MS</labelingLocation> ( 
+      Figs . 6B , 10a ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s147">Like the efferents from <labelingLocation>the PL and 
+      IL</labelingLocation> , but <labelingDescription>larger in 
+      number</labelingDescription> , 
+      <labelingDescription>fibers</labelingDescription> from 
+      <injectionLocation>the DPC</injectionLocation> 
+      <labelingModifier>traverse</labelingModifier> 
+      <labelingLocation>the diagonal band area</labelingLocation> and 
+      <labelingModifier>abundantly innervate</labelingModifier> 
+      <labelingLocation>the W B and HDBm</labelingLocation> ( Figs . 5a 
+      , 6 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s148"><labelingDescription>A terminal 
+      plexus</labelingDescription> is prominent just ventral to 
+      <labelingLocation>the cholinergic cell region of the HDB and 
+      dorsal to the cell islands of Calleja in the 
+      Tu</labelingLocation> ( Fig . 6C ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s149">Again , numerous <tracerChemical>PHA - L - 
+      labeled</tracerChemical> endings contact <labelingLocation>the 
+      VDB and HDBm</labelingLocation> cholinergic neuronal profiles 
+      .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s150"><labelingDescription>A number of 
+      fibers</labelingDescription> emanating from the capsula interna 
+      turn ventrally <labelingModifier>to terminate</labelingModifier> 
+      in <labelingLocation>the medial half of the 
+      HDB</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s151">More caudally ,<labelingDescription> numerous 
+      fibers</labelingDescription> 
+      <labelingModifier>traverse</labelingModifier> 
+      <labelingLocation>the sublenticular SI</labelingLocation> , 
+      medially and ventrally passing the clusters of the MBN 
+      cholinergic neurons at some distance , whereas others run into 
+      <labelingLocation>the anterior amygdaloid nuclei and piriform 
+      cortex</labelingLocation> ( Fig . 6D ) .</S>
+    </TTE>
+
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s152">It should be noted that the striatal projections from 
+    the DPC are far more limited than those from the IL and PL and are 
+    mainly aimed at the Tu and the FSt .</S>
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s153"><exptLabel><injectionLocation>Medial orbital 
+    cortex</injectionLocation> (case RG16)</exptLabel>.</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s154">The 
+    pattern of basal forebrain projections from <injectionLocation>the 
+    medial orbital area</injectionLocation> is highly comparable to the 
+    distribution of the DPC efferents with respect to 
+    <labelingLocation>the septal area , diagonal band nuclei , and the 
+    medial part of the SI</labelingLocation> , although 
+    <labelingDescription>the terminal plexus</labelingDescription> in 
+    <labelingLocation>the LSm</labelingLocation> is 
+    <labelingDescription>far less prominent</labelingDescription> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s155">In addition , there is also <labelingDescription>a 
+    strong innervation</labelingDescription> of <labelingLocation>the 
+    medial segments of both the CPu and Acb</labelingLocation> in a 
+    similar fashion as the striatal projections originating in the PL 
+    and IL , respectively .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s156">It remains , however , to be 
+    established whether the input to the basal forebrain essentially 
+    originates in <labelingLocation>the MO</labelingLocation> , or 
+    arise from <labelingLocation>the adjacent IL , DPC , or taenia 
+    tecta </labelingLocation> , since these latter cortical areas 
+    contained <labelingDescription>some PHA - L - labeled 
+    neurons</labelingDescription> as well in this 
+    <injectionLocation>MO</injectionLocation> - injected case 
+    .</S></TTE>
+
+    <BR />
+
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s157"><exptLabel><injectionLocation>Ventrolateral orbital 
+      cortex</injectionLocation> (case RG136)</exptLabel>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s158">Bundles of <labelingDescription>PHA - Glabeled 
+      axons</labelingDescription> originating in <injectionLocation>the 
+      VLO</injectionLocation> course through <labelingLocation>the 
+      medial part of the ventral CPu</labelingLocation> and project 
+      intensely to circumscribed areas in <labelingLocation>the medial 
+      part of the CPu</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s159">A contingent of 
+      <injectionLocation>VLO</injectionLocation> efferents reaches 
+      <labelingLocation>the anteromedial segment of the 
+      ic</labelingLocation> , turns ventrally into 
+      <labelingLocation>the VP</labelingLocation> , and 
+      <labelingModifier>terminates abundantly</labelingModifier> in 
+      <labelingLocation>the medial and intermediate parts of the 
+      HDB</labelingLocation> ( Fig . 7C ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s160">Here, <labelingDescription>PHA-Glabeled 
+      endings</labelingDescription> contact many CUT-immunoreactive 
+      neuronal profiles (Fig. 1 lc).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s161">More caudally , labeled fascicles 
+      <labelingModifier>traverse</labelingModifier> 
+      <labelingLocation>the ventromedial part of the 
+      GP</labelingLocation> and diverge into <labelingLocation>the 
+      medial aspects of the sublenticular SI and GP</labelingLocation> 
+      , where <labelingDescription>a small number of 
+      fibers</labelingDescription> reaches <labelingLocation>the MBN 
+      cholinergic cells</labelingLocation> ( Fig . 7D ) .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s162">In <labelingLocation>the septa1 
+      area</labelingLocation> , <labelingDescription>a small number of 
+      labeled VLO efferents</labelingDescription> 
+      <labelingModifier>runs through</labelingModifier> 
+      <labelingLocation>the LSm and MS</labelingLocation> ( Fig . 7A ) 
+      , whereas <labelingDescription>a dense plexus of 
+      fibers</labelingDescription> is present in <labelingLocation>the 
+      ventral parts of the VDB and HDBm</labelingLocation> ( Fig . 7B ) 
+      .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s163">More caudally in <labelingLocation>the 
+      HDB</labelingLocation> , <labelingDescription>this plexus of 
+      fibers</labelingDescription> intermingle with 
+      <labelingDescription>labeled afferents</labelingDescription> 
+      emanating from <labelingLocation>the anterior pole of the 
+      internal capsule</labelingLocation> ( Fig . 7C , D ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s164">Like <labelingDescription>the anterograde 
+      labeling</labelingDescription> resulting from <tracerChemical>PHA 
+      - L</tracerChemical> injections in <injectionLocation>the 
+      DPC</injectionLocation> , <labelingDescription>this axonal 
+      plexus</labelingDescription> proceeds in <labelingLocation>a zone 
+      interstitiated between the HDB and Tu</labelingLocation> ( Fig . 
+      7C , lower side ) .</S>
+    </TTE>
+
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s165"><exptLabel><injectionLocation>Lateral orbital 
+    cortex</injectionLocation> (case RG137)</exptLabel>.</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT"
+     id="s166"><labelingDescription>Bundles of labeled 
+    fibers</labelingDescription> originating in <injectionLocation>the 
+    LO</injectionLocation> enter <labelingLocation>the anterior head of 
+    the CPu</labelingLocation> and 
+    <labelingModifier>traverse</labelingModifier>  
+    <labelingLocation>the central part of the ventral 
+    CPu</labelingLocation> in caudal direction .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s167">Along 
+    this route , <labelingDescription>labeled 
+    axons</labelingDescription> run <labelingLocation>ventrally to the 
+    FSt , VP , SI , and the lateral and intermediate aspects of the 
+    HDB</labelingLocation> ( Fig . 8A - C ) .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s168">These 
+    projections in <injectionLocation>particular</injectionLocation> 
+    give rise to <labelingDescription>abundant terminal 
+    labeling</labelingDescription> among the cholinergic cells of  
+    <labelingLocation>the lateral and intermediate aspects of the 
+    HDB</labelingLocation> ( Fig . lla , b ) .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT"
+     id="s169"><labelingDescription>A dense network of labeled 
+    fibers</labelingDescription> is present in <labelingLocation>a zone 
+    interstitiated in between the HDB and Tu</labelingLocation> , which 
+    continues in an anteromedial direction invading 
+    <labelingLocation>the ventral part of the caudal 
+    VDB</labelingLocation> ( Fig . 8A , B ) .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s170">At a 
+    more caudal level , <labelingDescription>labeled 
+    axons</labelingDescription> diverge from <labelingLocation>the 
+    ventromedial aspects of the GP</labelingLocation> and the capsula 
+    interna in a ventral direction .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s171">These 
+    fibers invade <labelingLocation>the sublenticular 
+    SI</labelingLocation> and <labelingLocation>the caudal part of the 
+    HDB</labelingLocation>, reaching the large CUT-positive neurons in 
+    these regions (Figs. 8C,D, 12c).</S></TTE>
+
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s172"><injectionLocation>Dorsal agranular insular 
+    cortex</injectionLocation> ( case JR2 ) .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s173">A 
+    contingent of fascicles of <labelingDescription>PHA - L - labeled 
+    fibers</labelingDescription> runs through <labelingLocation>the 
+    ventrolateral part of the CPu</labelingLocation> in a caudal 
+    direction and joins <labelingLocation>the ventral part of the 
+    ic</labelingLocation> ( Fig . 9C , D ) .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT"
+     id="s174"><labelingDescription>A dense plexus of 
+    fibers</labelingDescription> from <injectionLocation>the AId 
+    </injectionLocation> covers <labelingLocation>the FSt and the 
+    ventrolateral corner of the CPu along its entire rostrocaudal 
+    extent</labelingLocation> .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s175">From the capsula interna , 
+    <labelingDescription>a dense group of PHA - L - labeled 
+    fibers</labelingDescription> runs ventrolaterally into 
+    <labelingLocation>the ventral part of the GP and the lateral and 
+    intermediate parts of the SI</labelingLocation> .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s176">Here , 
+    <labelingDescription>terminal labeling</labelingDescription> was 
+    observed on the MBN cholinergic neuronal processes ( Figs . 9C , D 
+    , 12a , b ) .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s177">Furthermore , 
+    <labelingDescription>moderate terminal 
+    labeling</labelingDescription> is present in <labelingLocation>the 
+    subcommissural VP and the lateral part of the 
+    HDB</labelingLocation> , whereas <labelingLocation>the MS , VDB , 
+    and HDBm</labelingLocation> are essentially 
+    <labelingDescription>devoid of input</labelingDescription> ( Fig . 
+    9A , B ) .</S></TTE>
+
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s178"><exptLabel><injectionLocation>Posterior agranular 
+    insular cortex</injectionLocation> ( case JR5 )</exptLabel> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s179"><labelingDescription>A massive bundle of labeled 
+    axons</labelingDescription> originates from<labelingDescription> 
+    the PHA - Llabeled neurons</labelingDescription> in 
+    <labelingLocation>the AIp</labelingLocation> and enters 
+    <labelingLocation>the external capsule deep to the 
+    AIp</labelingLocation> to penetrate the ventral ridge of the CPu 
+    medially and anteriorly .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s180">A group of medially oriented 
+    fibers runs into <labelingLocation>the sublenticular SI and ventral 
+    GP</labelingLocation> , giving off <labelingDescription>short 
+    branches studded with varicosities</labelingDescription> , of which 
+    some contact the large CUT - immunopositive cells of the MBN .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s181"><labelingDescription>The anteriorly directed labeled 
+    axons</labelingDescription> reach <labelingLocation>the FSt and 
+    lateral half of the Acb and Tu</labelingLocation> , where they 
+    branch extensively .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s182"><labelingLocation>The HDB and 
+    subcommissural VP</labelingLocation> are only 
+    <labelingDescription>sparsely innervated</labelingDescription> by 
+    the AIp efferents.</S></TTE>
+
+  </Results>
+
+  <Discussion>
+
+    <S avgH="28" class="discussion.heading"
+     format="TimesNewRomanPS-BoldMT" id="s183">DISCUSSION</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s184">In this study the projections from the medial, orbital, 
+    and insular prefrontal cortex to the basal forebrain cholinergic 
+    nuclei were revealed by anterograde tracing with PHA-L combined 
+    with AChE histochemistry or ChAT immunocytochemistry.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s185">PHA-L-labeled varicosities could be observed in close 
+    proximity to the magnocellular cholinergic perikarya and proximal 
+    dendrites in all regions of the BFChS, except the posterior part of 
+    the GP, which contains the most caudal population of the MBN 
+    cholinergic neurons.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s186">The present findings are in concert with previous 
+    reports that the cholinergic nuclei in the basal forebrain receive 
+    afferent input from the prefrontal cortex (PFC) in a variety of 
+    species (rat: Beckstead &apos;79; Lemann and Saper, &apos;85; cat: 
+    Room et al., &apos;85; Irle and Markowitsch, &apos;86; monkey: 
+    Mesulam and Mufson, &apos;84; Russchen et al., &apos;85).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s187">Essentially all investigated prefrontal areas contribute 
+    to the innervation of the basal forebrain cholinergic cell 
+    areas.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s188">The present experiments clearly revealed a topographic 
+    differentiation of the afferents to the basal forebrain, related to 
+    the prefrontal area of origin.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s189">The most striking characteristic of the topography of 
+    the PFC input to the basal forebrain cholinergic nuclei is a 
+    differential projection from the medial, ventral (orbital) and 
+    lateral (insular) areas to the anteromedial (MS, VDB, and medial 
+    part of the HDB), ventral (HDB), and the posterolateral 
+    subdivisions of the BFChS (SINBN), respectively (Fig. 13).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s190">Merents to the MS, VDB, and the medial division of the 
+    HDB arise from the PL, IL, MO, and DPC.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s191">The medial part of the HDB receives additional input 
+    from the VLO.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s192">Prefrontal input to the lateral and intermediate aspects 
+    of the HDB finds its origin mainly in the orbital region (VLO and 
+    LO).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s193">The magnocellular, cholinergic cells of the MBN in the 
+    intermediate and lateral parts of the sublenticular SI and in the 
+    ventromedial corner of the GP receive prefrontal input from the LO, 
+    AId, and AIp.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s194">The distribution of the prefrontal efferents in the 
+    basal forebrain found in this study is highly comparable to the 
+    distribution of anterogradely transported tritiated amino acids 
+    arising from corresponding PFC areas as reported previously in 
+    various mammalian species (rat: Beckstead, &apos;79; cat: Room et 
+    al., &apos;85; monkey: Russchen et al., &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s195">Employing retrograde tracing with wheat germ 
+    agglutinin-horseradish peroxidase conjugate (WGA-HRP), Russchen et 
+    al. (&apos;85) demonstrated the following areas being the major 
+    prefrontal source of input to the nucleus basalis of Meynert (NBM) 
+    in the macaque: orbitofrontal (area 13), infralimbic (area 251, and 
+    the anteromedial portion of the agranular insular area.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s196">These results are in concert with the findings of 
+    Mesulam and Mufson (&apos;84) except for area 25, from which they 
+    did not reveal anterograde labeling in the nucleus basalis of 
+    Meynert of the rhesus monkey.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s197">Our experiments showed that, in addition to the diagonal 
+    band nuclei, only the most anteromedial portion of the rat SI/MBN 
+    region receives some input from the infralimbic prefrontal 
+    cortex.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s198">It is interesting to note that the topography of the PFC 
+    projection to the BFChS bears a strong resemblance to the pattern 
+    of the recurrent cholinergic basal forebrain projection to the PFC 
+    (Woolf et al., &apos;84; Saper, &apos;84; Luiten et al., &apos;85; 
+    &apos;87; Gaykema et al., &apos;90).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s199">Therefore, the prefrontal cortex-cholinergic basal 
+    forebrain connectivity displays a high degree of reciprocity.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s200">The cholinergic neurons of the MS, VDB, HDB, and MBN 
+    have in common that they are embedded within the fiber bundles of 
+    the main hippocampoand cortico-fugal pathways, such as the fiber 
+    bundles of the septum and diagonal band, the medial forebrain 
+    bundle through the HDB, the capsula interna, and the ventral 
+    amygdalopetal pathway traversing the SI (Saper and Chelimsky, 
+    &apos;84; Zaborszky et al., &apos;86).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s201">We indeed observed many prefrontal efferent fibers 
+    running through the BFChS reaching other targets in the preoptic 
+    region, thalamus, hypothalamus, and amygdala in concordance with 
+    previous reports (Beckstead, &apos;79; Room et al., &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s202">The presence of PHA-L-labeled presynaptic endings in all 
+    BFChS subdivisions after tracer injections in the PFC, however, 
+    strongly indicate actual projections within the basal forebrain 
+    cholinergic nuclei.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s203">Furthermore, major contingents of labeled efferents from 
+    the PFC clearly divert from the main corticofugal pathways to 
+    specifically innervate the BFChS.</S>
+    <BR />
+
+    <S avgH="28" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s204">Interaction of the PFC 
+    with the magnocellular</S>
+    <BR />
+
+    <S avgH="40" class="discussion.subtitle"
+     format="CourierNewPS-BoldMT" id="s205">chohergic neurons</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s206">The application of a double-labeling immunoperoxidase 
+    protocol to stain PHA-L and ChAT simultaneously has enabled us to 
+    demonstrate intercellular contacts between PHA-L-labeled 
+    varicosities and ChAT-immunoreactive neuronal cell bodies and 
+    dendrites at the light microscopic level.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s207">The widespread pattern of PFC projections to the basal 
+    forebrain region indicates that the cholinergic cell groups only 
+    form one of the components of the PFC targets.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s208">The light microscopic approach currently used, however, 
+    may only partially reveal the PFC-BFChS projection.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s209">It has been reported that the dendritic profiles of the 
+    magnocellular cholinergic neurons reach a distance of approximately 
+    600-900 km from the soma (Semba et al., &apos;87).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s210">These far distal dendritic branchlets were not 
+    detectably stained either with ChAT or AChE in our material.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s211">It is well known that there is a relative paucity of 
+    afferent input to the perikarya and proximal dendrites of the 
+    cholinergic neurons, and an increase of afferent synapses on more 
+    distal regions of the dendrites (Ingham et al., &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s212">Taking this into account, we may assume that afferent 
+    synaptic contacts will most likely be found on distal dendrites of 
+    the basal forebrain cholinergic neurons but cannot easily be 
+    visualized with the presently used methods.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s213">These results strongly suggest monosynaptic control of 
+    the basal forebrain cholinergic neurons by the prefrontal cortex 
+    but will require additional electron microscopic analysis to 
+    provide conclusive evidence for a monosynaptic connection.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s214">Applying similar techniques, Zaborszky and Cullinan 
+    (&apos;89) recently demonstrated a monosynaptic relationship 
+    between the lateral hypothalamus and the cholinergic cells in the 
+    substantia innominata at the ultrastructural level.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s215">The cortical input to the cholinergic cell body regions 
+    of the basal forebrain originates mainly from layer V pyramidal 
+    neurons (Russchen et d., &apos;851, which most likely utilize 
+    excitatory amino acids (glutamate, aspartate) as neurotransmitters 
+    (Streit, &apos;84; Campistron et al., &apos;86; Conti et al., 
+    &apos;87).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s216">There is biochemical evidence indeed for a glutamatergic 
+    innervation of the septal and diagonal band nuclei (Walaas and 
+    Fonnum, &apos;81), ventral pallidum (Fuller et al., &apos;85), and 
+    the SINBN region (Davies et al., &apos;841, substantiated by 
+    pharmacological evidence for the presence of glutamate receptors in 
+    the magnocellular cholinergic neurons (Wood, &apos;86).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s217">The sources of glutamatergic/aspartatergic fierents have 
+    only partly been revealed and may originate in other cortical areas 
+    than the PFC as well, e.g., the prepiriform, entorhinal, and 
+    temporal areas, which were identified as sources of input to the 
+    region of the basal nucleus of Meynert in the monkey (Mesulam and 
+    Mufson, &apos;84; Russchen et al., &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s218">Furthermore, Irle and Markowitsch (&apos;86) described a 
+    periamygdaloid and perirhinal cortex projection to the SIDIBN 
+    region in the cat and monkey.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s219">In the monkey, the medial septal and diagonal band 
+    nuclei have previously been reported to receive afferents from the 
+    hippocampal region (Mesulam and Mufson, &apos;84; Aggleton et al., 
+    &apos;87), which also has appeared to be the case in the rat 
+    (Gaykema et al., &apos;89; &apos;91).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s220">In addition to discrete regions of the cortex, also 
+    cells in the central and basolateral nuclei of the amygdala provide 
+    efferents to the basal forebrain in various mammalian species 
+    (Krettek and Price, &apos;78; Price and Amaral, &apos;81; Zaborszky 
+    et al., &apos;84; Russchen et al., &apos;85; Irle and Markowitsch, 
+    &apos;86; Aggleton et al., &apos;87).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s221">It was previously suggested that the cholinergic neurons 
+    in the rat basal forebrain receive input from all cortical areas 
+    (Saper, &apos;84; Lemann and Saper, &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s222">This suggestion was based on cortical injections of 
+    WGA-HRP resulting in anterograde axonal and retrograde soma 
+    labeling in the BFChS.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s223">No direct projections from any of the frontal, parietal, 
+    temporal, or occipital neocortical areas to the BFChS were, 
+    however, found using PHA-L as an anterograde tracer (Gaykema and 
+    Van Eden, in preparation).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s224">Although these findings are not in line with 
+    Saper&apos;s descriptions (&apos;841, they are in accordance with 
+    the data obtained in primates (for review: Uylings and Van Eden, 
+    &apos;90).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s225">The PFC including the anterior cingulate cortex, 
+    therefore, maintains an unique position with regard to its efferent 
+    (and reciprocal) connections with the BFChS.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s226">The present study provides evidence for an anatomical 
+    substrate of a direct and topographically differentiated prefrontal 
+    cortical influence on the basal forebrain regions and in particular 
+    their cholinergic neurons.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s227">Part of the prefrontal control on the cholinergic cells 
+    in the basal forebrain, and thus on the recurrent cholinergic 
+    projection to the cerebral cortex, hippocampus, olfactory bulb, and 
+    amygdala, may be exerted through a direct monosynaptic loop.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s228">The unique prefrontal cortex-basal forebrain 
+    relationship as outlined in the present study may be an important 
+    link in the complex circuitry involved in cognition.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s229">To date, the other limbic and associational cortical 
+    feedback projections to the cholinergic basal forebrain regions 
+    have not yet been systematically investigated.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s230">Detailed knowledge on these projections may further add 
+    to our understanding of the pathophysiological mechanisms of the 
+    cognitive decline in conditions like Alzheimer&apos;s disease that 
+    are probably transmitted through neuronal connections (Saper et 
+    al., &apos;87; Pearson and Powell, &apos;89), and in which the 
+    prefrontal and other association and limbic cortical areas, and the 
+    basal forebrain cholinergic neurons, have strongly been 
+    implicated.</S>
+  </Discussion>
+
+  <Acknowledgements>
+
+    <S avgH="45" class="acknowledgements.heading"
+     format="CourierNewPS-BoldMT" id="s231">ACKNOWLEDGMENTS</S>
+    <BR />
+
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s232">The authors are grateful to 
+    Professor Dr.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s233">B.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s234">Bohus for his cordial support 
+    of the research project.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s235">This research was partially 
+    supported by the NIH grants AGO5893 and AGO8013 to L.B.H.</S>
+  </Acknowledgements>
+
+</File>
+

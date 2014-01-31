@@ -1,0 +1,8 @@
+3.2 Probabilistic Latent Semantic Analysis
+The Probabilistic Latent Semantic Analysis (also called the
+aspect model) [11] is a generative statistical model for
+analyzing co-occurrence of data (originally for document
+and word analysis) which associates a latent variable z
+with an observation (i.e., each occurrence of the word w
+in the document d). The generative process of the pLSA is
+defined as:

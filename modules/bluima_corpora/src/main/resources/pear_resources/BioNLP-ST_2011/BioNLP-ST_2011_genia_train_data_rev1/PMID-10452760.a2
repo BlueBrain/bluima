@@ -1,0 +1,33 @@
+*	Equiv T1 T2
+T19	Binding 355 359	bind
+T20	Binding 702 714	cross-linked
+T21	Gene_expression 784 794	expression
+T22	Phosphorylation 979 994	phosphorylation
+T23	Protein_catabolism 999 1010	degradation
+T24	Binding 1160 1173	cross-linking
+T25	Positive_regulation 1193 1200	induced
+T26	Phosphorylation 1310 1325	phosphorylation
+T27	Protein_catabolism 1341 1352	degradation
+T28	Regulation 1531 1542	participate
+T29	Phosphorylation 1557 1572	phosphorylation
+T30	Protein_catabolism 1603 1614	degradation
+T31	Positive_regulation 1666 1692	transcriptional activation
+E1	Binding:T19 Theme:T3
+E2	Binding:T20 Theme:T5
+E3	Gene_expression:T21 Theme:T6
+E4	Phosphorylation:T22 Theme:T7
+E5	Protein_catabolism:T23 Theme:T7
+E6	Binding:T24 Theme:T8
+E7	Positive_regulation:T25 Theme:T10 Cause:T9
+E8	Positive_regulation:T25 Theme:T11 Cause:T9
+E9	Phosphorylation:T26 Theme:T12
+E10	Protein_catabolism:T27 Theme:T12
+E11	Regulation:T28 Theme:E12
+E12	Phosphorylation:T29 Theme:T14
+E13	Protein_catabolism:T30 Theme:T15
+E14	Positive_regulation:T31 Theme:T16
+E15	Positive_regulation:T31 Theme:T17
+M1	Speculation E3
+M2	Speculation E4
+M3	Speculation E5
+M4	Negation E11

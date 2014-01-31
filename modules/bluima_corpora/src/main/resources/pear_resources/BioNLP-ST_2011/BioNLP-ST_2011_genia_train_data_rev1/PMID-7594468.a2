@@ -1,0 +1,74 @@
+T13	Regulation 0 10	Regulation
+T14	Phosphorylation 24 39	phosphorylation
+T15	Positive_regulation 606 624	pathways synergize
+T16	Positive_regulation 628 640	accelerating
+T17	Protein_catabolism 645 656	degradation
+T18	Regulation 689 699	regulation
+T19	Phosphorylation 713 728	phosphorylation
+T20	Positive_regulation 772 778	result
+T21	Phosphorylation 786 801	phosphorylation
+T22	Protein_catabolism 823 834	degradation
+T23	Positive_regulation 908 919	accelerates
+T24	Phosphorylation 942 957	phosphorylation
+T25	Negative_regulation 962 969	results
+T26	Protein_catabolism 977 997	complete degradation
+T27	Positive_regulation 1052 1058	result
+T28	Phosphorylation 1066 1081	phosphorylation
+T29	Protein_catabolism 1089 1100	degradation
+T30	Negative_regulation 1208 1217	abrogates
+T31	Positive_regulation 1226 1233	induced
+T32	Phosphorylation 1244 1259	phosphorylation
+T33	Protein_catabolism 1260 1271	degradation
+T34	Phosphorylation 1341 1356	phosphorylation
+T35	Protein_catabolism 1361 1372	degradation
+T36	Positive_regulation 1386 1393	induced
+T37	Positive_regulation 1500 1509	synergize
+T38	Phosphorylation 1555 1570	phosphorylation
+T39	Protein_catabolism 1596 1607	degradation
+T40	Positive_regulation 1778 1787	synergize
+T41	Phosphorylation 1859 1874	phosphorylation
+T42	Protein_catabolism 1879 1890	degradation
+E1	Regulation:T13 Theme:E2
+E2	Phosphorylation:T14 Theme:T1
+E3	Positive_regulation:T15 Theme:E4
+E4	Positive_regulation:T16 Theme:E5
+E5	Protein_catabolism:T17 Theme:T2
+E6	Regulation:T18 Theme:E7
+E7	Phosphorylation:T19 Theme:T3
+E8	Positive_regulation:T20 Theme:E11
+E9	Positive_regulation:T20 Theme:E10
+E10	Phosphorylation:T21 Theme:T4
+E11	Protein_catabolism:T22 Theme:T4
+E12	Positive_regulation:T23 Theme:E13
+E13	Phosphorylation:T24 Theme:T5
+E14	Negative_regulation:T25 Theme:E15
+E15	Protein_catabolism:T26 Theme:T5
+E16	Positive_regulation:T27 Theme:E19
+E17	Positive_regulation:T27 Theme:E18
+E18	Phosphorylation:T28 Theme:T6
+E19	Protein_catabolism:T29 Theme:T6
+E20	Negative_regulation:T30 Theme:E30
+E21	Negative_regulation:T30 Theme:E31
+E22	Negative_regulation:T30 Theme:E24
+E23	Negative_regulation:T30 Theme:E25
+E24	Positive_regulation:T31 Theme:E27
+E25	Positive_regulation:T31 Theme:E26
+E26	Phosphorylation:T32 Theme:T7
+E27	Protein_catabolism:T33 Theme:T7
+E28	Phosphorylation:T34 Theme:T8
+E29	Protein_catabolism:T35 Theme:T8
+E30	Positive_regulation:T36 Theme:E28 Cause:T9
+E31	Positive_regulation:T36 Theme:E29 Cause:T9
+E32	Positive_regulation:T37 Theme:E34 Cause:T10
+E33	Positive_regulation:T37 Theme:E35 Cause:T10
+E34	Phosphorylation:T38 Theme:T11
+E35	Protein_catabolism:T39 Theme:T11
+E36	Positive_regulation:T40 Theme:E38
+E37	Positive_regulation:T40 Theme:E39
+E38	Phosphorylation:T41 Theme:T12
+E39	Protein_catabolism:T42 Theme:T12
+M1	Negation E16
+M2	Negation E17
+M3	Negation E20
+M4	Negation E21
+M5	Negation E32

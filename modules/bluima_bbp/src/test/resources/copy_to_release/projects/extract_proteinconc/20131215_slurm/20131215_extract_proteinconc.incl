@@ -1,0 +1,128 @@
+##############################################################################
+#
+# another rewrite of Phil's ProteinConcentrationCoocurrencesAnnotatorTest
+#
+# extract Prot x Concentration x Brainregion
+# using simple co-occurrence at Chunk level
+#
+# $1 base output,
+#   e.g. target, or /nfs4/bbp.epfl.ch/simulation/nlp/data/20131024_ic-X-subcell/
+# $2 %(job_name)s job id (for input and output files)
+#   e.g. 1 or 34
+#
+##############################################################################
+
+# CLEANUP *******************************************************
+# DELETE EXISTING DICTTERMS
+ae: RemoveAnnotationsAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.DictTerm
+# DELETE EXISTING COOCS
+ae: RemoveAnnotationsAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.Cooccurrence
+
+
+# NERS ############################################################
+# all ML-entities done, already!
+
+# SUBCELL
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/go/subcell")
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.SubcellDictTerm
+# NEURON
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/blueonto1/neuron")
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.NeuronDictTerm
+# CELL
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/cell")
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.CellDictTerm
+# ABA-SYN
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/aba-syn")
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+
+
+# chunk adapter to make the chunk as we need
+ae: ch.epfl.bbp.uima.ae.EnsureDocTextNotNullAnnotator
+ae: ch.epfl.bbp.nlp.ie.proteinconc.ae.ChunkAdapter
+ae: ch.epfl.bbp.nlp.ie.proteinconc.ae.MoleculeFilter
+
+# COOCCURRENCES ####################################################
+
+
+# Prot x Conc ##############
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ enclosingScope: de.julielab.jules.types.Chunk
+ annot1: ch.epfl.bbp.uima.types.Protein
+ annot2: ch.epfl.bbp.uima.types.Concentration
+ annot2IdField: value, unit, normalizedValue, normalizedUnit
+ cooccurrenceType: protein+concentration,
+ keepOnlyNearestNeighbors__java: true
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile2
+ outputFile: $1/$2_prot-conc_cooc.txt
+ annot1Type: protein
+ annot2Type: conc
+ cooccurrenceType: protein+concentration
+
+# Prot x Conc x BR ##############
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ annot1: ch.epfl.bbp.uima.types.Cooccurrence
+ annot1IdField: firstIds, secondIds
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+ cooccurrenceType: BR+protein+concentration
+ keepOnlyNearestNeighbors__java: true
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
+  maximumEnclosingScopeLength__java: 1000
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile2
+ outputFile: $1/$2_br-prot-conc_cooc.txt
+ annot1Type: protein_conc
+ annot2Type: brain_region
+ cooccurrenceType: BR+protein+concentration
+
+# Prot x Conc x CELL ##############
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ annot1: ch.epfl.bbp.uima.types.Cooccurrence
+ annot1IdField: firstIds, secondIds
+ annot2: ch.epfl.bbp.uima.types.CellDictTerm
+ annot2IdField: entityId
+ cooccurrenceType: cell+protein+concentration
+ keepOnlyNearestNeighbors__java: true
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
+  maximumEnclosingScopeLength__java: 1000
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile2
+ outputFile: $1/$2_cell-prot-conc_cooc.txt
+ annot1Type: protein_conc
+ annot2Type: cell
+ cooccurrenceType: cell+protein+concentration
+
+# Prot x Conc x NEURON ##############
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ annot1: ch.epfl.bbp.uima.types.Cooccurrence
+ annot1IdField: firstIds, secondIds
+ annot2: ch.epfl.bbp.uima.types.NeuronDictTerm
+ annot2IdField: entityId
+ cooccurrenceType: neuron+protein+concentration
+ keepOnlyNearestNeighbors__java: true
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
+  maximumEnclosingScopeLength__java: 1000
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile2
+ outputFile: $1/$2_neuron-prot-conc_cooc.txt
+ annot1Type: protein_conc
+ annot2Type: neuron
+ cooccurrenceType: neuron+protein+concentration
+
+# Prot x Conc x SUBCELL ##############
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ annot1: ch.epfl.bbp.uima.types.Cooccurrence
+ annot1IdField: firstIds, secondIds
+ annot2: ch.epfl.bbp.uima.types.SubcellDictTerm
+ annot2IdField: entityId
+ cooccurrenceType: subcell+protein+concentration
+ keepOnlyNearestNeighbors__java: true
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
+  maximumEnclosingScopeLength__java: 1000
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile2
+ outputFile: $1/$2_subcell-prot-conc_cooc.txt
+ annot1Type: protein_conc
+ annot2Type: subcell
+ cooccurrenceType: subcell+protein+concentration

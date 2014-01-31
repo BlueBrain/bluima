@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- ======================================================================
+     === XML Schema Definition for General Resources Unit Tests in 
+     ==    BBrain NLP Project 
+     === copyright: EPFL 2011
+     === created by: Jean-Cédric Chappelier
+     === creation date: November 9th 2011
+     === revision: $Revision: 30 $ ($Date: 2011-11-15 18:05:12 +0100 (Tue, 15 Nov 2011) $)
+     ====================================================================== -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- ======================================================================
+     === Defines :
+     ===   + unitTests       : set of resource unit tests.
+     ===   + result          : one (desired) result = one input and its corresponding outputs.
+     ===   + input           : an input sentence.
+     ===   + output          : a piece of desired output as raw text.
+     ====================================================================== -->
+
+  <!-- =++++ unitTests ++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="unitTests">
+    <xs:annotation>
+      <xs:documentation>
+        Top-level element that regroups several resource unit tests (input and corresponding output)
+        in a general, unformated/unconstrained format.
+        Attributes are an unique id and and version (both required and of type string).
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType> 
+      <xs:sequence>
+        <xs:element ref="result" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="id"      type="xs:string" use="required"/>
+      <xs:attribute name="version" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- =++++ result +++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="result">
+    <xs:annotation>
+      <xs:documentation>
+        A test expected result: an input and its corresponding outputs.
+        Can have an optional ID attribute.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType> 
+      <xs:sequence>
+        <xs:element ref="description" minOccurs="0" />
+        <xs:element ref="input"/>
+        <xs:element ref="output" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- =++++ description +++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="description">
+    <xs:annotation>
+      <xs:documentation>
+        A string describing the purpose of the test.
+        Can have an optional ID attribute.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="id" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- =++++ input +++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="input">
+    <xs:annotation>
+      <xs:documentation>
+        An input sentence. Shall contain an unambigous identification, its raw content
+        and its tokenized content. Tokenization is used to express the corresponding
+        output.
+        Can have an optional ID attribute.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="id" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- =++++ output +++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="output">
+    <xs:annotation>
+      <xs:documentation>
+        One possible (piece of) output for an input sentence as raw text content.
+        Can have an optional ID attribute.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType>
+      <xs:simpleContent>
+        <xs:extension base="xs:string">
+          <xs:attribute name="id" type="xs:string"/>
+        </xs:extension>
+      </xs:simpleContent>
+    </xs:complexType>
+  </xs:element>
+
+</xs:schema>

@@ -1,0 +1,7 @@
+cr: TextReader
+ input: this is a test sentence. here is another one.
+
+ae: DotSentenceSplitterAnnotator
+
+java:
+System.out.println(ch.epfl.bbp.uima.BlueCasUtil.getHeaderDocId(jCas)+ "\t" + jCas.getDocumentLanguage());

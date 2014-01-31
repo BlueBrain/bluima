@@ -1,0 +1,25 @@
+*	Equiv T8 T9
+T22	Negative_regulation 17 27	repression
+T23	Negative_regulation 312 327	down-regulation
+T24	Regulation 682 689	effects
+T25	Binding 1307 1311	bind
+T26	Binding 1438 1447	associate
+T27	Regulation 1460 1469	dependent
+T28	Binding 1548 1556	contacts
+T29	Entity 1576 1589	finger region
+T30	Entity 1598 1626	N-terminal activation domain
+T31	Regulation 1701 1711	modulating
+T32	Binding 1752 1763	interaction
+E1	Negative_regulation:T22 Theme:T1 Cause:T2
+E2	Negative_regulation:T23 Theme:T5
+E3	Negative_regulation:T23 Theme:T4
+E4	Negative_regulation:T23 Theme:T3
+E5	Regulation:T24 Theme:T6
+E6	Binding:T25 Theme:T13 Theme2:T14
+E7	Binding:T26 Theme:T15 Theme2:T16
+E8	Regulation:T27 Theme:E7
+E9	Binding:T28 Theme:T17 Theme2:T18 Site:T29
+E10	Binding:T28 Theme:T17 Theme2:T18 Site:T30
+E11	Regulation:T31 Theme:T20
+E12	Binding:T32 Theme:T20 Theme2:T21
+M1	Speculation E5

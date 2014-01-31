@@ -1,0 +1,38 @@
+T26	Regulation 1113 1119	effect
+T27	Positive_regulation 1269 1277	enhanced
+T28	Negative_regulation 1289 1298	inhibited
+T29	Gene_expression 1304 1314	expression
+T30	Negative_regulation 1319 1326	delayed
+T31	Negative_regulation 1332 1336	loss
+T32	Positive_regulation 1344 1363	had similar effects
+T33	Regulation 1390 1396	effect
+E1	Regulation:T26 Theme:T15 Cause:T11
+E2	Regulation:T26 Theme:T15 Cause:T10
+E3	Regulation:T26 Theme:T17 Cause:T11
+E4	Regulation:T26 Theme:T16 Cause:T10
+E5	Regulation:T26 Theme:T13 Cause:T10
+E6	Regulation:T26 Theme:T16 Cause:T11
+E7	Regulation:T26 Theme:T13 Cause:T11
+E8	Regulation:T26 Theme:T17 Cause:T10
+E9	Regulation:T26 Theme:T14 Cause:T11
+E10	Regulation:T26 Theme:T14 Cause:T10
+E11	Positive_regulation:T27 Theme:E13 Cause:T18
+E12	Negative_regulation:T28 Theme:E14 Cause:T19
+E13	Gene_expression:T29 Theme:T19
+E14	Gene_expression:T29 Theme:T20
+E15	Negative_regulation:T30 Theme:E16 Cause:T19
+E16	Negative_regulation:T31 Theme:T21
+E17	Positive_regulation:T32 Theme:T23 Cause:T22
+E18	Positive_regulation:T32 Theme:T24 Cause:T22
+E19	Regulation:T33 Theme:T25 Cause:T22
+M1	Speculation E1
+M2	Speculation E2
+M3	Speculation E3
+M4	Speculation E4
+M5	Speculation E5
+M6	Speculation E6
+M7	Speculation E7
+M8	Speculation E8
+M9	Speculation E9
+M10	Speculation E10
+M11	Negation E19

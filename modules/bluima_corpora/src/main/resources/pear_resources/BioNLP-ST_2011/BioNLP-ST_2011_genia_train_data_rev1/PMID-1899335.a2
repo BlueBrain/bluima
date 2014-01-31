@@ -1,0 +1,28 @@
+T13	Gene_expression 0 10	Expression
+T14	Transcription 158 165	express
+T15	Transcription 344 350	levels
+T16	Positive_regulation 394 403	increased
+T17	Positive_regulation 463 472	induction
+T18	Transcription 489 500	mRNA levels
+T19	Gene_expression 569 579	expression
+E1	Gene_expression:T13 Theme:T2
+E2	Gene_expression:T13 Theme:T3
+E3	Gene_expression:T13 Theme:T1
+E4	Transcription:T14 Theme:T6
+E5	Transcription:T14 Theme:T4
+E6	Transcription:T14 Theme:T5
+E7	Transcription:T15 Theme:T9
+E8	Transcription:T15 Theme:T7
+E9	Transcription:T15 Theme:T8
+E10	Positive_regulation:T16 Theme:E9
+E11	Positive_regulation:T16 Theme:E8
+E12	Positive_regulation:T16 Theme:E7
+E13	Positive_regulation:T17 Theme:T9
+E14	Positive_regulation:T17 Theme:T7
+E15	Positive_regulation:T17 Theme:T8
+E16	Transcription:T18 Theme:T7
+E17	Transcription:T18 Theme:T9
+E18	Transcription:T18 Theme:T8
+E19	Gene_expression:T19 Theme:T10
+E20	Gene_expression:T19 Theme:T11
+E21	Gene_expression:T19 Theme:T12

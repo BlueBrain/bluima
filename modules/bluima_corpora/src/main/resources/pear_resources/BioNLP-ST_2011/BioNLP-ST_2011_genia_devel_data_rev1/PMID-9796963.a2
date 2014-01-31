@@ -1,0 +1,63 @@
+T29	Negative_regulation 335 345	Diminished
+T30	Gene_expression 346 356	expression
+T31	Binding 390 400	associated
+T32	Negative_regulation 418 425	reduced
+T33	Entity 426 433	nuclear
+T34	Localization 434 446	localization
+T35	Negative_regulation 532 539	defects
+T36	Negative_regulation 822 829	altered
+T37	Gene_expression 830 840	expression
+T38	Gene_expression 1125 1131	levels
+T39	Positive_regulation 1691 1698	Changes
+T40	Gene_expression 1804 1812	detected
+T41	Negative_regulation 1880 1887	reduced
+T42	Negative_regulation 2044 2053	decreases
+T43	Positive_regulation 2258 2267	increased
+T44	Negative_regulation 2435 2440	lower
+T45	Negative_regulation 2996 3005	reduction
+T46	Gene_expression 3017 3027	expression
+T47	Gene_expression 3205 3212	express
+T48	Negative_regulation 3252 3266	reduced levels
+T49	Positive_regulation 3323 3331	increase
+E1	Negative_regulation:T29 Theme:E3
+E2	Negative_regulation:T29 Theme:E4
+E3	Gene_expression:T30 Theme:T1
+E4	Gene_expression:T30 Theme:T2
+E5	Binding:T31 Theme:T2
+E6	Binding:T31 Theme:T1
+E7	Negative_regulation:T32 Theme:E8
+E8	Localization:T34 Theme:T3 AtLoc:T33
+E9	Negative_regulation:T35 Theme:E1
+E10	Negative_regulation:T35 Theme:E2
+E11	Negative_regulation:T35 Theme:E7
+E12	Negative_regulation:T36 Theme:E14
+E13	Negative_regulation:T36 Theme:E15
+E14	Gene_expression:T37 Theme:T4
+E15	Gene_expression:T37 Theme:T5
+E16	Gene_expression:T38 Theme:T9
+E17	Gene_expression:T38 Theme:T8
+E18	Positive_regulation:T39 Theme:T8
+E19	Positive_regulation:T39 Theme:T9
+E20	Gene_expression:T40 Theme:T10
+E21	Gene_expression:T40 Theme:T11
+E22	Negative_regulation:T41 Theme:E20
+E23	Negative_regulation:T42 Theme:T14
+E24	Negative_regulation:T42 Theme:T13
+E25	Negative_regulation:T42 Theme:T12
+E26	Positive_regulation:T43 Theme:T17
+E27	Negative_regulation:T44 Theme:T20
+E28	Negative_regulation:T45 Theme:E29
+E29	Gene_expression:T46 Theme:T21
+E30	Gene_expression:T47 Theme:T24
+E31	Gene_expression:T47 Theme:T23
+E32	Negative_regulation:T48 Theme:T23
+E33	Negative_regulation:T48 Theme:T24
+E34	Positive_regulation:T49 Theme:E32
+E35	Positive_regulation:T49 Theme:E33
+M1	Speculation E12
+M2	Speculation E13
+M3	Speculation E16
+M4	Speculation E17
+M5	Speculation E18
+M6	Speculation E19
+M7	Negation E23

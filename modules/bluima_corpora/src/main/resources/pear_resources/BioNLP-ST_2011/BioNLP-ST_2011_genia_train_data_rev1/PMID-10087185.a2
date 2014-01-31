@@ -1,0 +1,24 @@
+T8	Positive_regulation 211 219	mediated
+T9	Protein_catabolism 220 231	degradation
+T10	Regulation 289 299	regulation
+T11	Protein_catabolism 411 422	degradation
+T12	Positive_regulation 494 501	induced
+T13	Phosphorylation 502 517	phosphorylation
+T14	Regulation 601 612	alterations
+T15	Positive_regulation 837 844	results
+T16	Protein_catabolism 867 874	degrade
+T17	Protein_catabolism 920 927	degrade
+E1	Positive_regulation:T8 Theme:E2
+E2	Protein_catabolism:T9 Theme:T1
+E3	Regulation:T10 Theme:T2
+E4	Protein_catabolism:T11 Theme:T4
+E5	Positive_regulation:T12 Theme:E6
+E6	Phosphorylation:T13 Theme:T5
+E7	Regulation:T14 Theme:E5
+E8	Positive_regulation:T15 Theme:E9
+E9	Protein_catabolism:T16 Theme:T6
+E10	Protein_catabolism:T17 Theme:T7
+M1	Speculation E3
+M2	Negation E7
+M3	Negation E9
+M4	Negation E10

@@ -1,0 +1,17 @@
+T12	Regulation 33 40	directs
+T13	Entity 147 155	promoter
+T14	Binding 160 165	binds
+T15	Gene_expression 417 427	expression
+T16	Regulation 453 462	regulated
+T17	Binding 1272 1280	contains
+T18	Regulation 1912 1934	in concert to regulate
+T19	Transcription 1953 1966	transcription
+E1	Regulation:T12 Theme:T1 Site:T13
+E2	Binding:T14 Theme:T2
+E3	Gene_expression:T15 Theme:T6
+E4	Regulation:T16 Theme:E3
+E5	Binding:T17 Theme:T9
+E6	Regulation:T18 Theme:E7 Cause:T10
+E7	Transcription:T19 Theme:T11
+M1	Speculation E1
+M2	Speculation E2

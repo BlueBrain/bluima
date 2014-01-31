@@ -1,0 +1,43 @@
+# evaluate BR NER on WhiteText, using features from a token based DCA topic model
+
+cr: WhiteTextCollectionReader
+
+
+include: ../../../includes/preprocess.incl
+
+#FIXME ae: Tokens2ShortestPathAnnotator
+
+# DCA #######################################
+
+#FIXME ae: FeatureTokensFilterAnnotator2
+# caseSensitive: false
+# tokenFrequencyFile: $ROOT/models/20130617_dca_pubmedabstracts/token_frequency_min100_s
+# minimumFrequency: 100
+# maximumFrequency__java: Integer.MAX_VALUE
+# stopwordsFilePath: $ROOT/modules/bluima_topic_models/src/main/resources/stoplists/mallet_stopwords_en.txt
+
+#FIXME ae: FeatureTokensExtractionAnnotator2
+
+ae: ch.epfl.bbp.uima.topicmodels.annotators.DCATopicModelsAnnotator
+ dcaDirectoryPath: $ROOT/models/20130617_dca_pubmedabstracts
+ dcaStem: dca
+ inferenceIterations: 100
+ inferenceBurnin: 20
+
+#ae: ch.epfl.bbp.uima.topicmodels.writers.exploitation.AnnotateTokensWithTopicWriter
+# outputDir: target
+# latexOutput: true
+
+#ae: ch.epfl.bbp.uima.topicmodels.writers.exploitation.TopicDistributionWriter
+# outputDir: target
+# command: R --vanilla --slave -f $ROOTmodules/bluima_topic_models/scripts/plot_doc_topic_distribution.R --args {input} {output}
+
+
+# MALLET BRAINREGION NER ##################################
+
+ae: BrainRegionAnnotator
+ mode: eval
+ trials__java: 10;
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

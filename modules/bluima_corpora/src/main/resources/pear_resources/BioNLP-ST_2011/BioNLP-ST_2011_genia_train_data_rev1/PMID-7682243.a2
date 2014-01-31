@@ -1,0 +1,76 @@
+T16	Regulation 66 76	regulation
+T17	Gene_expression 94 104	expression
+T18	Gene_expression 340 350	expression
+T19	Regulation 451 460	regulated
+T20	Positive_regulation 547 554	induced
+T21	Gene_expression 559 569	expression
+T22	Transcription 559 569	expression
+T23	Positive_regulation 636 643	induced
+T24	Gene_expression 656 666	expression
+T25	Transcription 656 666	expression
+T26	Negative_regulation 734 741	blocked
+T27	Positive_regulation 752 761	induction
+T28	Transcription 775 785	expression
+T29	Regulation 821 830	dependent
+T30	Positive_regulation 867 875	inducing
+T31	Gene_expression 881 891	expression
+T32	Negative_regulation 913 923	suppressed
+T33	Positive_regulation 948 957	inducible
+T34	Gene_expression 963 973	expression
+T35	Positive_regulation 1050 1059	increased
+T36	Transcription 1066 1076	expression
+T37	Gene_expression 1066 1076	expression
+T38	Gene_expression 1171 1181	expression
+T39	Transcription 1171 1181	expression
+T40	Positive_regulation 1219 1226	induced
+T41	Gene_expression 1232 1242	expression
+T42	Negative_regulation 1247 1256	inhibited
+T43	Positive_regulation 1257 1285	as a temporal consequence of
+T44	Regulation 1524 1531	effects
+T45	Gene_expression 1549 1564	gene expression
+E1	Regulation:T16 Theme:E3
+E2	Regulation:T16 Theme:E4
+E3	Gene_expression:T17 Theme:T1
+E4	Gene_expression:T17 Theme:T2
+E5	Gene_expression:T18 Theme:T3
+E6	Gene_expression:T18 Theme:T4
+E7	Regulation:T19 Theme:E5
+E8	Regulation:T19 Theme:E6
+E9	Positive_regulation:T20 Theme:E15
+E10	Positive_regulation:T20 Theme:E14
+E11	Positive_regulation:T20 Theme:E13
+E12	Positive_regulation:T20 Theme:E16
+E13	Gene_expression:T21 Theme:T5
+E14	Transcription:T22 Theme:T6
+E15	Transcription:T22 Theme:T5
+E16	Gene_expression:T21 Theme:T6
+E17	Positive_regulation:T23 Theme:E20
+E18	Positive_regulation:T23 Theme:E19
+E19	Gene_expression:T24 Theme:T7
+E20	Transcription:T25 Theme:T7
+E21	Negative_regulation:T26 Theme:E22
+E22	Positive_regulation:T27 Theme:E23
+E23	Transcription:T28 Theme:T8
+E24	Regulation:T29 Theme:E22
+E25	Positive_regulation:T30 Theme:E26
+E26	Gene_expression:T31 Theme:T9
+E27	Negative_regulation:T32 Theme:E30
+E28	Negative_regulation:T32 Theme:E29
+E29	Positive_regulation:T33 Theme:E30
+E30	Gene_expression:T34 Theme:T10
+E31	Positive_regulation:T35 Theme:E34
+E32	Positive_regulation:T35 Theme:E33
+E33	Transcription:T36 Theme:T11
+E34	Gene_expression:T37 Theme:T11
+E35	Gene_expression:T38 Theme:T12
+E36	Transcription:T39 Theme:T12
+E37	Positive_regulation:T40 Theme:E38
+E38	Gene_expression:T41 Theme:T13
+E39	Negative_regulation:T42 Theme:E37
+E40	Positive_regulation:T43 Theme:E39
+E41	Regulation:T44 Theme:E44
+E42	Regulation:T44 Theme:E43
+E43	Gene_expression:T45 Theme:T15
+E44	Gene_expression:T45 Theme:T14
+M1	Negation E35
+M2	Negation E36

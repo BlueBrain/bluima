@@ -1,0 +1,19 @@
+#
+# pre-processing step (sentence splitter, word tokenizer, POS and lemmatizer)
+#
+
+#ae: SentenceAnnotator
+# modelFile: $ROOT/modules/julielab_opennlp/src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+
+#ae: TokenAnnotator
+# modelFile: $ROOT/modules/julielab_opennlp/src/main/resources/pear_resources/models/token/TokenizerGenia.bin.gz
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+
+
+#ae: PosTagAnnotator
+# modelFile: $ROOT/modules/julielab_opennlp/src/main/resources/pear_resources/models/postag/Tagger_Genia.bin.gz
+# tagDict:   $ROOT/modules/julielab_opennlp/src/main/resources/pear_resources/models/postag/tagdict-genia
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
+
+ae: BlueBioLemmatizer

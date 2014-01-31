@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Organizing Principles for a Diversity of GABAergic Interneurons and Synapses in the Neocortex</title>
+			</titleStmt>
+			<publicationStmt>unknown</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Anirudh</forename>
+								<surname>Gupta</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Yun</forename>
+								<surname>Wang</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Henry</forename>
+								<surname>Markram</surname>
+							</persName>
+						</author>
+						<title level="a" type="main">Organizing Principles for a Diversity of GABAergic Interneurons and Synapses in the Neocortex</title>
+					</analytic>
+					<note>Diversity of GABAergic Synapses</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<front>
+			<div type="abstract">
+				<head>Abstract</head>
+<p>A puzzling feature of the neocortex is the rich array of inhibitory interneurons. Multiple neuron recordings revealed numerous electrophysiological-anatomical subclasses of neocortical 񮽙-aminobutyric acid– ergic (GABAergic) interneurons and three types of GABAergic synapses. The type of synapse used by each interneuron to influence its neighbors follows three functional organizing prin-ciples. These principles suggest that inhibitory synapses could shape the impact of different interneurons according to their specific spatiotemporal patterns of activity and that GABAergic interneuron and synapse diversity may enable combinatorial inhibitory effects in the neocortex. The difficulty in understanding the organization and function of the GABAergic system is due to the large diversity of anatomically and phys-iologically distinct neurons (1–4). GABAergic synaptic transmission in the neocortex has mostly been studied with extracellular electrical stimulation and in some cases by obtaining paired recordings (2, 5, 6). We recorded from a large number of interneuron connections and explored whether the nature of the synaptic outflow from interneurons could reveal the way in which the GABAergic system is organized and functions. Multiple whole-cell patch-clamp recordings were used to characterize key prop-erties of synapses formed by anatomically and physiologically distinct interneurons: (i) the ki-netics of GABAergic receptors used at syn-apses, (ii) the number and precise locations of putative synapses forming a connection, (iii) the absolute strength of connections, and (iv) the particular temporal dynamics of synaptic trans-mission that arise because of an interaction between the rate of neurotransmitter release [depending on probability of release (P) and the frequency of stimulation], the rate of recovery from release (synaptic depression), and the rate of recovery from facilitation of release (7, 8). Temporal dynamics of synapses may be partic-ularly important because this could determine the temporal impact on target neurons.</p>
+			</div>
+		</front>
+		<body>
+<p>Infrared differential interference contrast microscopy was used to visually select neurons for recording within layers II to IV of</p>
+		</body>
+		<back>
+			<div type="references">
+<listBibl>
+<biblStruct xml:id="b0"><monogr><title level="m" type="main">3D computer reconstruction of connected interneurons (IN) Red stars, putative synapses</title></monogr></biblStruct>
+<biblStruct xml:id="b1"><monogr><title level="m" type="main">formed by presynaptic ( yellow) BTC</title></monogr></biblStruct>
+<biblStruct xml:id="b2"><monogr></monogr></biblStruct>
+<biblStruct xml:id="b3"><analytic><title level="a" type="main">Average IPSPs [trials (t) 񮽙 30] recorded in SBC [upper trace, holding potential (V HOLD ), 񮽙75mV ] to stimulation of BTC (lower AP trace)</title></analytic><monogr><title level="j">SBC</title><imprint><date type="published" when="-1" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b4"><monogr><title level="m" type="main">Schematic representation of synaptic facilitation outlasting depression (arbitrary scales)</title></monogr></biblStruct>
+<biblStruct xml:id="b5"><monogr><title level="m" type="main">Average IPSCs (t 񮽙 30) to different stimulation frequencies. (E) Average IPSCs (t 񮽙 5) at different potentials</title></monogr></biblStruct></listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

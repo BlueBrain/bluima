@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?><typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>LinnaeusAnnotationTypes</name>
+  <description/>
+  <version>1.0</version>
+  <vendor>György Móra University of Szeged, Rgai</vendor>
+  <types>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.LinnaeusSpecies</name>
+      <description>Species annotation type holds information for Linnaeus species tagger's annotation.</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>mostProbableSpeciesId</name>
+          <description>This feature contains the value of the most probable NCBI Taxonomy Id for the annotated species occurence.</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>allIdsString</name>
+          <description>This feature contains all possible NCBI Taxonomy IDs.</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>ambigous</name>
+          <description>True if the species tagging is ambigous.</description>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.DocumentSpecies</name>
+      <description>the most probable species of a document</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>familyName</name>
+          <description>e.g. Homo_sapiens, or None</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

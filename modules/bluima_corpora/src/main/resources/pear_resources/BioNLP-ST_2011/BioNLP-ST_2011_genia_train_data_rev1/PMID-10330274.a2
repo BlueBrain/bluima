@@ -1,0 +1,28 @@
+*	Equiv T5 T4
+T25	Positive_regulation 223 241	led to an enhanced
+T26	Gene_expression 242 252	production
+T27	Positive_regulation 284 288	upon
+T28	Positive_regulation 506 514	enhanced
+T29	Gene_expression 527 534	produce
+T30	Positive_regulation 539 553	in response to
+T31	Positive_regulation 583 590	induced
+T32	Gene_expression 619 629	production
+T33	Positive_regulation 640 648	enhanced
+T34	Positive_regulation 884 892	enhanced
+T35	Localization 893 900	release
+T36	Positive_regulation 931 934	not
+E1	Positive_regulation:T25 Theme:E3
+E2	Gene_expression:T26 Theme:T5
+E3	Positive_regulation:T27 Theme:E2
+E4	Positive_regulation:T28 Theme:E6
+E5	Gene_expression:T29 Theme:T7
+E6	Positive_regulation:T30 Theme:E5
+E7	Positive_regulation:T31 Theme:E9
+E8	Gene_expression:T32 Theme:T10
+E9	Gene_expression:T32 Theme:T9
+E10	Positive_regulation:T33 Theme:E8
+E11	Positive_regulation:T33 Theme:E7
+E12	Positive_regulation:T34 Theme:E13
+E13	Localization:T35 Theme:T14
+E14	Positive_regulation:T36 Theme:E13
+M1	Negation E14

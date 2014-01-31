@@ -1,0 +1,23 @@
+directions. Figure 5a shows a projection of these computed
+trajectories onto a T2-weighted amplitude image of the
+brain at the level of the selected ROI. Figure 5b shows a 3D
+rendering of the computed trajectories with T2-weighted
+amplitude images displayed at slices below the ROI. Fiber
+trajectories within the body of the corpus callosum are
+consistent with the known anatomy of this structure. Fiber
+trajectories continuing beyond the external margins of the
+lateral ventricles appear to follow anatomically defined
+tracts (external capsule and pathways projecting to the
+occipital lobe); however, establishing if the apparent continuity of callosal fibers into these tracts is a true anatomical feature requires validation by histological techniques.
+Figure 6a also shows a 3D rendering of computed trajectories from human DT-MRI data. In this figure we map long
+projection pathways by launching trajectories from ROIs
+positioned in the internal capsule at the level of the globus
+pallidum, in the pyramidal tract at the level of the cerebral
+peduncles and the pons, and in the ascending sensory
+fibers (lemniscus medialis) at the level of the pons. Tracts
+are followed in both directions. Only regions within the
+imaging volume for which the lattice anisotropy index is
+greater than 0.3 are used. This is to ensure that fiber tracts
+are launched from regions of coherently organized white
+matter. Figure 6b shows a projection of these computed
+trajectories. This figure is obtained from the previous one

@@ -1,0 +1,39 @@
+T12	Positive_regulation 0 9	Induction
+T13	Positive_regulation 126 133	induces
+T14	Regulation 181 190	affecting
+T15	Positive_regulation 353 360	induces
+T16	Positive_regulation 656 666	stimulated
+T17	Transcription 730 739	induction
+T18	Positive_regulation 838 844	induce
+T19	Gene_expression 857 867	production
+T20	Positive_regulation 1223 1232	necessary
+T21	Positive_regulation 1241 1250	induction
+T22	Positive_regulation 1284 1293	induction
+T23	Regulation 1335 1344	regulated
+T24	Positive_regulation 1454 1460	induce
+T25	Gene_expression 1489 1499	production
+T26	Positive_regulation 1522 1525	due
+E1	Positive_regulation:T12 Theme:T1
+E2	Positive_regulation:T13 Theme:T2
+E3	Regulation:T14 Theme:T3
+E4	Regulation:T14 Theme:T4
+E5	Positive_regulation:T15 Theme:T5
+E6	Positive_regulation:T16 Theme:E7
+E7	Transcription:T17 Theme:T6
+E8	Positive_regulation:T18 Theme:E11
+E9	Positive_regulation:T18 Theme:E10
+E10	Gene_expression:T19 Theme:T8
+E11	Gene_expression:T19 Theme:T7
+E12	Positive_regulation:T20 Theme:E13
+E13	Positive_regulation:T21 Theme:T9
+E14	Positive_regulation:T22 Theme:T10
+E15	Regulation:T23 Theme:E14
+E16	Positive_regulation:T24 Theme:E17
+E17	Gene_expression:T25 Theme:T11
+E18	Positive_regulation:T26 Theme:E16
+M1	Negation E3
+M2	Negation E4
+M3	Negation E8
+M4	Negation E9
+M5	Negation E12
+M6	Negation E16

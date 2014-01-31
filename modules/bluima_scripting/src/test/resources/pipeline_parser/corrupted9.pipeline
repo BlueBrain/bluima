@@ -1,0 +1,10 @@
+## to test the pipeline parser
+## this is an INVALID pipeline
+
+## a comment
+cr: SingleAbstractReader
+ arg1: bla
+ arg2: bla
+ae: NaiveSentenceSplitterAnnotator
+ae: EnsureDocHasHeader
+arg1: blu 

@@ -1,0 +1,13 @@
+*	Equiv T1 T2
+*	Equiv T4 T3
+*	Equiv T6 T5
+T11	Positive_regulation 309 321	upregulation
+T12	Negative_regulation 479 487	suppress
+T13	Positive_regulation 488 497	induction
+T14	Transcription 815 825	expression
+E1	Positive_regulation:T11 Theme:T4 Cause:T6
+E2	Negative_regulation:T12 Theme:E4
+E3	Negative_regulation:T12 Theme:E5
+E4	Positive_regulation:T13 Theme:T7 Cause:T9
+E5	Positive_regulation:T13 Theme:T8 Cause:T9
+E6	Transcription:T14 Theme:T10

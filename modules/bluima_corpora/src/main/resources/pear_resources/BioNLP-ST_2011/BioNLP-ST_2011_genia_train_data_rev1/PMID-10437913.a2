@@ -1,0 +1,33 @@
+T19	Gene_expression 23 33	expression
+T20	Negative_regulation 43 50	reduced
+T21	Binding 61 77	binding activity
+T22	Positive_regulation 82 90	enhances
+T23	Gene_expression 105 115	expression
+T24	Negative_regulation 142 151	defective
+T25	Gene_expression 458 468	expression
+T26	Negative_regulation 656 665	defective
+T27	Gene_expression 676 686	expression
+T28	Positive_regulation 687 690	led
+T29	Phosphorylation 694 709	phosphorylation
+T30	Negative_regulation 787 794	repress
+T31	Entity 809 817	promoter
+T32	Negative_regulation 844 858	reduced levels
+T33	Binding 872 888	binding activity
+T34	Gene_expression 937 947	expression
+T35	Positive_regulation 951 957	higher
+E1	Gene_expression:T19 Theme:T1
+E2	Negative_regulation:T20 Theme:E3 Cause:E1
+E3	Binding:T21 Theme:T2
+E4	Positive_regulation:T22 Theme:E5 Cause:E1
+E5	Gene_expression:T23 Theme:T3
+E6	Negative_regulation:T24 Theme:T4
+E7	Gene_expression:T25 Theme:T9
+E8	Negative_regulation:T26 Theme:T11
+E9	Gene_expression:T27 Theme:T12
+E10	Positive_regulation:T28 Theme:E11 Cause:E9
+E11	Phosphorylation:T29 Theme:T13
+E12	Negative_regulation:T30 Theme:T15 Cause:T14 Site:T31
+E13	Negative_regulation:T32 Theme:E14
+E14	Binding:T33 Theme:T16
+E15	Gene_expression:T34 Theme:T18
+E16	Positive_regulation:T35 Theme:E15

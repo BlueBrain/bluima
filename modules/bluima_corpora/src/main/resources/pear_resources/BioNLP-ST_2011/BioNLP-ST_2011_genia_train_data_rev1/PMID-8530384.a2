@@ -1,0 +1,25 @@
+*	Equiv T1 T2
+*	Equiv T17 T18
+*	Equiv T9 T10
+*	Equiv T7 T8
+*	Equiv T19 T20
+*	Equiv T22 T23
+*	Equiv T24 T25
+*	Equiv T5 T6
+*	Equiv T13 T14
+T27	Entity 614 642	NH2-terminal 126 amino acids
+T28	Positive_regulation 667 691	essential and sufficient
+T29	Binding 696 707	interaction
+T30	Entity 717 728	POU domains
+T31	Positive_regulation 795 802	require
+T32	Binding 925 932	binding
+E1	Positive_regulation:T28 Theme:E4 Cause:T9 CSite:T27
+E2	Positive_regulation:T28 Theme:E3 Cause:T9 CSite:T27
+E3	Binding:T29 Theme:T9 Theme2:T11 Site2:T30
+E4	Binding:T29 Theme:T9 Theme2:T12 Site2:T30
+E5	Positive_regulation:T31 Theme:E4
+E6	Positive_regulation:T31 Theme:E3
+E7	Binding:T32 Theme:T13 Theme2:T15
+E8	Binding:T32 Theme:T13 Theme2:T16
+M1	Negation E5
+M2	Negation E6

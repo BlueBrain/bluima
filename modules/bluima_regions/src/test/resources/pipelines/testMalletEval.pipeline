@@ -1,0 +1,14 @@
+# evaluates the BR NER against WhiteText corpora, using Mallet's MultiSegmentationEvaluator
+
+cr: WhiteTextCollectionReader
+# maxNrResults__java: 50 
+ 
+include: preprocess.incl
+
+ae: BrainRegionAnnotator
+ mode: eval
+ trials__java: 5
+ 
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

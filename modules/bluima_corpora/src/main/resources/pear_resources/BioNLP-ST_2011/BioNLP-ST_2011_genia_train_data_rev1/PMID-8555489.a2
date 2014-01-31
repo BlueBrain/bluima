@@ -1,0 +1,31 @@
+*	Equiv T3 T4 T5
+T17	Regulation 39 50	controlling
+T18	Gene_expression 66 76	expression
+T19	Regulation 298 308	regulation
+T20	Transcription 527 536	initiated
+T21	Regulation 976 984	affected
+T22	Entity 989 1005	minimal promoter
+T23	Regulation 1148 1157	stimulate
+T24	Transcription 1162 1175	transcription
+T25	Regulation 1227 1233	effect
+T26	Entity 1260 1268	promoter
+T27	Positive_regulation 1317 1327	stimulated
+T28	Negative_regulation 1401 1406	block
+T29	Entity 1431 1447	minimal promoter
+T30	Gene_expression 1502 1512	expression
+T31	Regulation 1516 1526	controlled
+E1	Regulation:T17 Theme:E2
+E2	Gene_expression:T18 Theme:T1
+E3	Regulation:T19 Theme:T6
+E4	Transcription:T20 Theme:T7
+E5	Regulation:T21 Theme:T10 Site:T22
+E6	Regulation:T23 Theme:E7 Cause:T11
+E7	Transcription:T24 Theme:T13
+E8	Regulation:T25 Theme:T14 Site:T26
+E9	Positive_regulation:T27 Theme:E7
+E10	Negative_regulation:T28 Theme:T15 Site:T29
+E11	Gene_expression:T30 Theme:T16
+E12	Regulation:T31 Theme:E11
+M1	Speculation E3
+M2	Speculation E6
+M3	Negation E8

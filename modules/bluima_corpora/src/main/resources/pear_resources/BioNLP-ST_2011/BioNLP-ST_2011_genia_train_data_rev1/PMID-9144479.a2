@@ -1,0 +1,9 @@
+T17	Gene_expression 173 178	found
+T18	Gene_expression 258 267	expressed
+T19	Gene_expression 430 439	expressed
+T20	Positive_regulation 838 847	induction
+E1	Gene_expression:T17 Theme:T3
+E2	Gene_expression:T18 Theme:T4
+E3	Gene_expression:T19 Theme:T6
+E4	Positive_regulation:T20 Theme:T9
+E5	Positive_regulation:T20 Theme:T10

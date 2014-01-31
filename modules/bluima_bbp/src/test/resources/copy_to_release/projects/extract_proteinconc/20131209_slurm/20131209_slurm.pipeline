@@ -1,0 +1,32 @@
+##############################################################################
+#
+# Preprocessing
+# extract Brainregion x Brainregion
+#
+# had to redo some preprocessing
+# (based on 20131120_extract_proteinconc
+#
+# $1 base output,
+# $2 %(job_name)s job id (for input and output files)
+#   e.g. 1 or 34
+#
+##############################################################################
+
+
+cr: FromFilelistReader
+ # 250 pdfs each
+ inputFile: /nfs4/bbp.epfl.ch/scratch/richarde/pdfs/splits2/$2
+ format__java: true
+ pathPrefix: /nfs4/bbp.epfl.ch/scratch/richarde/pdfs/
+
+ae: ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator
+
+
+##############################################################################
+include: 20131209_preproc.incl
+
+include: ../20131205_slurm/20131205_extract_br-br.incl
+##############################################################################
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

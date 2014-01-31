@@ -1,0 +1,31 @@
+# 20130220
+#
+# for slurm / viz cluster
+
+#
+# $1,$2 from,to db
+# #$3 output dir
+#
+# for local, too
+# 22750000 to 23000000
+
+cr: PubmedDatabaseCR
+ between__java: new int[]{ $1 , $2 }
+ db_connection__java: new String[] { "localhost", "bb_pubmed", "root", "" }
+
+include: ../../preprocessing/20130327_preprocess_ft/20130327_preprocess_ft.include
+
+ae: ReferencesFinderAnnotator
+
+ae: ViterbiFilterAnnotator
+
+#FIXMEae: PruneAfterReferenceAnnotator
+
+ae: TokenFrequencyCounterWriter2
+ filepath: 20130417_token_frequency_22750000_to_23000000
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100
+
+# ~ 10/s
+

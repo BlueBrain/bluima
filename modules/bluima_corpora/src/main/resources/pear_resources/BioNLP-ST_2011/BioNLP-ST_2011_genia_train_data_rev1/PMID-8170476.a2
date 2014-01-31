@@ -1,0 +1,22 @@
+*	Equiv T3 T5
+*	Equiv T2 T4
+T24	Transcription 350 359	expressed
+T25	Gene_expression 639 649	expression
+T26	Gene_expression 899 909	expression
+T27	Binding 941 970	heteromeric complex formation
+T28	Gene_expression 1078 1095	comparable levels
+T29	Gene_expression 1135 1144	producing
+T30	Regulation 1237 1245	regulate
+T31	Gene_expression 1254 1264	expression
+T32	Gene_expression 1568 1574	detect
+E1	Transcription:T24 Theme:T6
+E2	Gene_expression:T25 Theme:T9
+E3	Gene_expression:T26 Theme:T12
+E4	Binding:T27 Theme:T12
+E5	Gene_expression:T28 Theme:T16
+E6	Gene_expression:T29 Theme:T17
+E7	Gene_expression:T29 Theme:T18
+E8	Regulation:T30 Theme:E9
+E9	Gene_expression:T31 Theme:T19
+E10	Gene_expression:T32 Theme:T23
+M1	Speculation E8

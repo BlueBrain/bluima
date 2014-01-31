@@ -1,0 +1,7 @@
+*	Equiv T2 T1
+T4	Negative_regulation 1200 1209	inhibited
+T5	Localization 1231 1240	secretion
+T6	Entity 1285 1305	mutated octamer site
+E1	Negative_regulation:T4 Theme:E3 Cause:T3 CSite:T6
+E2	Negative_regulation:T4 Theme:E3
+E3	Localization:T5 Theme:T2

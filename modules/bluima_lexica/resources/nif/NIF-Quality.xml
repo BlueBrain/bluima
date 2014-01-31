@@ -1,0 +1,538 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<synonym>
+<token canonical="Longitudinal" ref_id="sao430240391">
+  <variant base="Longitudinal" />
+</token>
+<token canonical="Differential expression" ref_id="nlx_qual_100810">
+  <variant base="Differential expression" />
+</token>
+<token canonical="Decreased expression" ref_id="nlx_qual_100812">
+  <variant base="Down regulated expression" />
+  <variant base="Down-regulated" />
+  <variant base="Decreased expression" />
+  <variant base="Down-regulated expression" />
+  <variant base="Down regulated" />
+</token>
+<token canonical="Increased expression" ref_id="nlx_qual_100811">
+  <variant base="Upregulated expression" />
+  <variant base="Up-regulated" />
+  <variant base="Upregulated" />
+  <variant base="Increased expression" />
+  <variant base="Up-regulated expression" />
+</token>
+<token canonical="Thin" ref_id="sao1643644091">
+  <variant base="Thin" />
+</token>
+<token canonical="Accumulated" ref_id="sao4531544124">
+  <variant base="Accumulated" />
+</token>
+<token canonical="Cell Body Referent Polarity" ref_id="sao311075036">
+  <variant base="Cell Body Referent Polarity" />
+</token>
+<token canonical="Increased staining" ref_id="nlx_qual_100814">
+  <variant base="Increased staining" />
+</token>
+<token canonical="No change in expression" ref_id="nlx_qual_100813">
+  <variant base="No change" />
+  <variant base="No change in expression" />
+</token>
+<token canonical="Differential staining" ref_id="nlx_qual_100816">
+  <variant base="Differential staining" />
+</token>
+<token canonical="Weak staining density" ref_id="nlx_qual_1010011">
+  <variant base="Low staining" />
+  <variant base="Scattered staining" />
+  <variant base="Weak staining density" />
+  <variant base="Diffuse staining" />
+  <variant base="Minimally dense staining" />
+  <variant base="Weak staining" />
+</token>
+<token canonical="Stacked" ref_id="sao3169628">
+  <variant base="Stacked" />
+</token>
+<token canonical="Decreased staining" ref_id="nlx_qual_100815">
+  <variant base="Decreased staining" />
+</token>
+<token canonical="No staining" ref_id="nlx_qual_1010010">
+  <variant base="Negative staining" />
+  <variant base="Undetectable staining" />
+  <variant base="Absent staining" />
+  <variant base="Not detectable staining" />
+  <variant base="No staining" />
+</token>
+<token canonical="Horizontal" ref_id="nifext_1">
+  <variant base="Horizontal" />
+</token>
+<token canonical="Spherical Lewy Body" ref_id="sao4459136323">
+  <variant base="Spherical Lewy Body" />
+</token>
+<token canonical="Width" ref_id="sao888175480">
+  <variant base="Width" />
+</token>
+<token canonical="No change in staining" ref_id="nlx_qual_100817">
+  <variant base="No change in staining" />
+</token>
+<token canonical="Bipolar" ref_id="nifext_2">
+  <variant base="Bipolar" />
+</token>
+<token canonical="Basket" ref_id="nifext_3">
+  <variant base="Basket" />
+</token>
+<token canonical="Density" ref_id="sao1510923311">
+  <variant base="Density" />
+</token>
+<token canonical="Chandelier" ref_id="nifext_4">
+  <variant base="Chandelier" />
+</token>
+<token canonical="Asymmetrical" ref_id="sao2047438300">
+  <variant base="Asymmetrical" />
+  <variant base="Gray's Type 1" />
+</token>
+<token canonical="Ubiquinated" ref_id="sao9291838256">
+  <variant base="Ubiquinated" />
+  <variant base="Ubiquitylation" />
+</token>
+<token canonical="Experimental Condition" ref_id="sao1960697157">
+  <variant base="Experimental Condition" />
+</token>
+<token canonical="Transverse" ref_id="sao679027665">
+  <variant base="Transverse" />
+</token>
+<token canonical="Lobulated" ref_id="sao301169922">
+  <variant base="Lobulated" />
+</token>
+<token canonical="Mitochondrial Quality" ref_id="sao1562245920">
+  <variant base="Mitochondrial Quality" />
+</token>
+<token canonical="Granule" ref_id="sao6934064108">
+  <variant base="Granule" />
+</token>
+<token canonical="Volume" ref_id="sao196989303">
+  <variant base="Volume" />
+</token>
+<token canonical="Minus To Plus" ref_id="sao675186109">
+  <variant base="Minus To Plus" />
+</token>
+<token canonical="Actin Based Motility" ref_id="sao656094176">
+  <variant base="Actin Based Motility" />
+</token>
+<token canonical="Connectivity" ref_id="sao1211239798">
+  <variant base="Connectivity" />
+</token>
+<token canonical="Apical" ref_id="sao1703115805">
+  <variant base="Apical" />
+</token>
+<token canonical="Condensed" ref_id="sao1152497626">
+  <variant base="Condensed" />
+</token>
+<token canonical="Fused Vesicle" ref_id="sao128105491">
+  <variant base="Omega profile" />
+  <variant base="Fused Vesicle" />
+</token>
+<token canonical="Clustered" ref_id="sao1475145503">
+  <variant base="Clustered" />
+</token>
+<token canonical="Bouton Quality" ref_id="sao1189513296">
+  <variant base="Bouton Quality" />
+</token>
+<token canonical="Motility" ref_id="sao1330317521">
+  <variant base="Motility" />
+</token>
+<token canonical="Synaptic Configuration" ref_id="sao1289583168">
+  <variant base="Synaptic Configuration" />
+</token>
+<token canonical="Pedunculated" ref_id="sao2045795635">
+  <variant base="Pedunculated" />
+</token>
+<token canonical="Smooth" ref_id="sao47950958">
+  <variant base="Smooth" />
+</token>
+<token canonical="Speed" ref_id="sao2102170307">
+  <variant base="Speed" />
+</token>
+<token canonical="Bundled" ref_id="sao296309608">
+  <variant base="Bundled" />
+</token>
+<token canonical="Fusiform" ref_id="sao542875575">
+  <variant base="Spindle" />
+  <variant base="Fusiform" />
+</token>
+<token canonical="Vesicle Quality" ref_id="sao1863391630">
+  <variant base="Vesicle Quality" />
+</token>
+<token canonical="Spatial Relationship" ref_id="sao723896903">
+  <variant base="Spatial Relationship" />
+</token>
+<token canonical="Cross Section Diameter Major" ref_id="sao824839913">
+  <variant base="Cross Section Diameter Major" />
+</token>
+<token canonical="Microtubule Mediated Motility" ref_id="sao1301290450">
+  <variant base="Microtubule Mediated Motility" />
+</token>
+<token canonical="Spacing" ref_id="sao2126482353">
+  <variant base="Spacing" />
+</token>
+<token canonical="Spine Quality" ref_id="sao1436578787">
+  <variant base="Spine Quality" />
+</token>
+<token canonical="Random" ref_id="sao1143221302">
+  <variant base="Random" />
+</token>
+<token canonical="Globular" ref_id="sao4253573122">
+  <variant base="Globular" />
+</token>
+<token canonical="Synaptic Connectivity" ref_id="sao223845603">
+  <variant base="Synaptic Connectivity" />
+</token>
+<token canonical="Tufted" ref_id="sao754373097">
+  <variant base="Tufted" />
+  <variant base="Tufted Dendrite Quality" />
+</token>
+<token canonical="Attachment" ref_id="sao1179195262">
+  <variant base="Attachment" />
+</token>
+<token canonical="Pyramidal" ref_id="sao-1465673360">
+  <variant base="Pyramidal" />
+</token>
+<token canonical="Sparsely Spiny Dendrite Quality" ref_id="sao1288413465">
+  <variant base="Sparsely Spiny Dendrite Quality" />
+  <variant base="Sparsely Spiny" />
+</token>
+<token canonical="Proximal End" ref_id="sao812067870">
+  <variant base="Proximal End" />
+</token>
+<token canonical="Nitrated" ref_id="sao8314803620">
+  <variant base="Nitrated" />
+</token>
+<token canonical="Basal" ref_id="sao-282380853">
+  <variant base="Basal" />
+</token>
+<token canonical="Fast Frozen Freeze Substituted" ref_id="sao1693353776">
+  <variant base="Fast Frozen Freeze Substituted" />
+</token>
+<token canonical="Lewy Body Quality" ref_id="sao9946511970">
+  <variant base="Lewy Body Quality" />
+</token>
+<token canonical="Chemical Synapse Quality" ref_id="sao1746643703">
+  <variant base="Chemical Synapse Quality" />
+</token>
+<token canonical="Pleomorphic" ref_id="sao854959971">
+  <variant base="Pleomorphic" />
+</token>
+<token canonical="Aspiny" ref_id="sao128827344">
+  <variant base="Aspiny" />
+  <variant base="Aspiny Dendrite Quality" />
+</token>
+<token canonical="Soma Quality" ref_id="sao-1126011106">
+  <variant base="Soma Quality" />
+</token>
+<token canonical="Molecular Quality" ref_id="sao5798413869">
+  <variant base="Molecular Quality" />
+</token>
+<token canonical="Living Animal" ref_id="sao1694199019">
+  <variant base="Living Animal" />
+</token>
+<token canonical="Axon Quality" ref_id="sao2088691397">
+  <variant base="Axon Quality" />
+</token>
+<token canonical="Filopodial" ref_id="sao1141340175">
+  <variant base="Filopodial" />
+</token>
+<token canonical="Oxidized molecular quality" ref_id="nlx_qual_090901">
+  <variant base="Oxidized molecular quality" />
+</token>
+<token canonical="Heavy staining density" ref_id="nlx_qual_1010008">
+  <variant base="Heavy staining" />
+  <variant base="Intense staining" />
+  <variant base="Strong staining" />
+  <variant base="Heavily dense staining" />
+  <variant base="Very dense staining" />
+  <variant base="Heavy staining density" />
+</token>
+<token canonical="Atlas Location" ref_id="sao2052625281">
+  <variant base="Atlas Location" />
+</token>
+<token canonical="Spherical" ref_id="sao957949983">
+  <variant base="Spherical" />
+</token>
+<token canonical="Staining density" ref_id="nlx_qual_1010007">
+  <variant base="Staining density" />
+</token>
+<token canonical="Increased co-expression" ref_id="nlx_qual_1010006">
+  <variant base="Increased co-expression" />
+</token>
+<token canonical="Junctional Continuity" ref_id="sao1374293695">
+  <variant base="Junctional Continuity" />
+</token>
+<token canonical="Decreased co-expression" ref_id="nlx_qual_1010005">
+  <variant base="Decreased co-expression" />
+</token>
+<token canonical="Co-expression" ref_id="nlx_qual_1010004">
+  <variant base="Co-expression" />
+</token>
+<token canonical="Expression level" ref_id="nlx_qual_1010003">
+  <variant base="Expression level" />
+</token>
+<token canonical="Single" ref_id="sao548826380">
+  <variant base="Single" />
+</token>
+<token canonical="En Passant" ref_id="sao809320003">
+  <variant base="En Passant" />
+</token>
+<token canonical="Increased co-staining" ref_id="nlx_qual_1010002">
+  <variant base="Increased co-staining" />
+</token>
+<token canonical="Decreased co-staining" ref_id="nlx_qual_1010001">
+  <variant base="Decreased co-staining" />
+</token>
+<token canonical="Evoked inhibitory postsynaptic potential" ref_id="nlx_qual_20090506">
+  <variant base="Evoked inhibitory post-synaptic potential" />
+  <variant base="Evoked inhibitory post synaptic potential" />
+  <variant base="Evoked inhibitory postsynaptic potential" />
+  <variant base="evoked IPSP" />
+</token>
+<token canonical="Spontaneous Excitatory post synaptic potential" ref_id="nlx_qual_20090505">
+  <variant base="mEPSP" />
+  <variant base="miniature EPSP" />
+  <variant base="Spontaneous Excitatory post synaptic potential" />
+  <variant base="mini" />
+</token>
+<token canonical="Radial" ref_id="sao2077793822">
+  <variant base="Radial" />
+</token>
+<token canonical="Event related potential" ref_id="nlx_qual_20090508">
+  <variant base="ERPs" />
+  <variant base="Event related potential" />
+</token>
+<token canonical="Spontaneous Inhibitory postsynaptic potential" ref_id="nlx_qual_20090507">
+  <variant base="mIPSP" />
+  <variant base="Spontaneous inhibitory post-synaptic potential" />
+  <variant base="sIPSP" />
+  <variant base="mini IPSP" />
+  <variant base="Spontaneous inhibitory post synaptic potential" />
+  <variant base="miniature IPSP" />
+  <variant base="Spontaneous Inhibitory postsynaptic potential" />
+</token>
+<token canonical="Co-staining" ref_id="nlx_66639">
+  <variant base="Co-staining" />
+</token>
+<token canonical="Inhibitory postsynaptic potential" ref_id="nlx_qual_20090502">
+  <variant base="IPSP" />
+  <variant base="Inhibitory postsynaptic potential" />
+  <variant base="Inhibitory post synaptic potential" />
+  <variant base="Inhibitory post-synaptic potential" />
+</token>
+<token canonical="Excitatory post synaptic potential" ref_id="nlx_qual_20090501">
+  <variant base="Excitatory post synaptic potential" />
+  <variant base="Excitatory post-synaptic potential" />
+  <variant base="Excitatory postsynaptic potential" />
+</token>
+<token canonical="Moderate staining density" ref_id="nlx_qual_1010009">
+  <variant base="Intermediate staining" />
+  <variant base="Moderate staining" />
+  <variant base="Moderate staining density" />
+  <variant base="Moderately dense staining" />
+</token>
+<token canonical="Evoked Excitatory post synaptic potential" ref_id="nlx_qual_20090504">
+  <variant base="Evoked Excitatory post synaptic potential" />
+  <variant base="Evoked EPSP" />
+</token>
+<token canonical="Resting Membrane potential" ref_id="nlx_qual_20090503">
+  <variant base="Resting Membrane potential" />
+</token>
+<token canonical="Adjacency" ref_id="sao542191739">
+  <variant base="Adjacency" />
+</token>
+<token canonical="Half Life" ref_id="sao124571525">
+  <variant base="Half Life" />
+</token>
+<token canonical="Varicose Axon" ref_id="sao1746802704">
+  <variant base="Varicose Axon" />
+</token>
+<token canonical="Orientation" ref_id="sao271899308">
+  <variant base="Orientation" />
+</token>
+<token canonical="Fragmented" ref_id="nlx_qual_20090303">
+  <variant base="Fragmented" />
+</token>
+<token canonical="In Vivo" ref_id="sao897115057">
+  <variant base="In Vivo" />
+</token>
+<token canonical="Functional State" ref_id="sao1802798922">
+  <variant base="Functional State" />
+</token>
+<token canonical="Polarity" ref_id="sao349337269">
+  <variant base="Polarity" />
+</token>
+<token canonical="Staining" ref_id="birnlex_2107">
+  <variant base="Staining" />
+</token>
+<token canonical="Smooth Membrane" ref_id="sao1845602529">
+  <variant base="Smooth Membrane" />
+</token>
+<token canonical="Indented" ref_id="sao1277586470">
+  <variant base="Indented" />
+</token>
+<token canonical="Demyelinated" ref_id="nlx_qual_20090301">
+  <variant base="Demyelinated" />
+</token>
+<token canonical="Microtubule Polarity" ref_id="sao107236050">
+  <variant base="Microtubule Polarity" />
+</token>
+<token canonical="Branched Spine" ref_id="sao268063700">
+  <variant base="Branched Spine" />
+</token>
+<token canonical="Mutated" ref_id="nlx_qual_20090302">
+  <variant base="Mutated" />
+</token>
+<token canonical="Electron-dense" ref_id="nlx_qual_20090101">
+  <variant base="Electron-dense" />
+</token>
+<token canonical="Length" ref_id="sao1217691568">
+  <variant base="Length" />
+</token>
+<token canonical="Molecular Configuration" ref_id="sao6450066368">
+  <variant base="Molecular Configuration" />
+</token>
+<token canonical="Oval" ref_id="sao1595237779">
+  <variant base="Oval" />
+</token>
+<token canonical="Rosette" ref_id="sao2082026326">
+  <variant base="Rosette" />
+</token>
+<token canonical="NIF-Quality Retired class" ref_id="sao-943768255">
+  <variant base="NIF-Quality Retired class" />
+</token>
+<token canonical="Anatomical Pattern" ref_id="sao732945962">
+  <variant base="Anatomical Pattern" />
+</token>
+<token canonical="Sessile" ref_id="sao941226261">
+  <variant base="Sessile" />
+</token>
+<token canonical="Terminal Bouton" ref_id="sao1757774791">
+  <variant base="Terminal Bouton" />
+</token>
+<token canonical="Acute Slice" ref_id="sao819188787">
+  <variant base="Acute Slice" />
+</token>
+<token canonical="Stellate" ref_id="sao9271919883">
+  <variant base="Stellate" />
+</token>
+<token canonical="Cell Morphological Quality" ref_id="sao1278200674">
+  <variant base="Cell Morphological Quality" />
+</token>
+<token canonical="In Vitro" ref_id="sao1649728317">
+  <variant base="In Vitro" />
+</token>
+<token canonical="Varicose Dendrite Quality" ref_id="sao1706854098">
+  <variant base="Varicose Dendrite Quality" />
+  <variant base="Varicose Dendrite" />
+</token>
+<token canonical="Flattened" ref_id="sao1785495506">
+  <variant base="Flattened" />
+</token>
+<token canonical="Nucleus Quality" ref_id="sao343486489">
+  <variant base="Nucleus Quality" />
+</token>
+<token canonical="Functional Quality for Microglia" ref_id="sao9222381184">
+  <variant base="Functional Quality for Microglia" />
+</token>
+<token canonical="Population Quality" ref_id="sao336034368">
+  <variant base="Population Quality" />
+</token>
+<token canonical="Radius" ref_id="sao632949619">
+  <variant base="Radius" />
+</token>
+<token canonical="Symmetrical" ref_id="sao1583093969">
+  <variant base="Symmetrical" />
+  <variant base="Gray's Type 2" />
+</token>
+<token canonical="Phosphorylated" ref_id="sao4985712724">
+  <variant base="Phosphorylated" />
+</token>
+<token canonical="Cross Section Diameter Minor" ref_id="sao136816674">
+  <variant base="Cross Section Diameter Minor" />
+</token>
+<token canonical="Branched" ref_id="sao497641585">
+  <variant base="Branched" />
+</token>
+<token canonical="Distal End" ref_id="sao783483540">
+  <variant base="Distal End" />
+</token>
+<token canonical="Measurement" ref_id="sao279801585">
+  <variant base="Measurement" />
+</token>
+<token canonical="Distance From Soma" ref_id="sao1779606731">
+  <variant base="Distance From Soma" />
+</token>
+<token canonical="Concentrated" ref_id="sao4152363223">
+  <variant base="Concentrated" />
+</token>
+<token canonical="Morphological Quality" ref_id="sao1057800815">
+  <variant base="Morphological Quality" />
+</token>
+<token canonical="Axocruciform" ref_id="sao1062287912">
+  <variant base="Axocruciform" />
+</token>
+<token canonical="Configuration" ref_id="sao18717211">
+  <variant base="Configuration" />
+</token>
+<token canonical="Activated" ref_id="sao5413665309">
+  <variant base="Activated" />
+</token>
+<token canonical="Continuity" ref_id="sao969067581">
+  <variant base="Continuity" />
+</token>
+<token canonical="Aggregated" ref_id="sao3710738764">
+  <variant base="Aggregated" />
+</token>
+<token canonical="Misfolded" ref_id="sao4092866126">
+  <variant base="Misfolded" />
+</token>
+<token canonical="Nonactivated" ref_id="sao6363641087">
+  <variant base="Nonactivated" />
+</token>
+<token canonical="Round Clear" ref_id="sao967304317">
+  <variant base="Round Clear" />
+</token>
+<token canonical="Plus To Minus" ref_id="sao2139310701">
+  <variant base="Plus To Minus" />
+</token>
+<token canonical="Orthodox" ref_id="sao358853874">
+  <variant base="Orthodox" />
+</token>
+<token canonical="Spiny" ref_id="sao638749545">
+  <variant base="Spiny Dendrite Quality" />
+  <variant base="Spiny" />
+</token>
+<token canonical="Filamentous" ref_id="sao5221865117">
+  <variant base="Filamentous" />
+</token>
+<token canonical="Lamellar" ref_id="sao1995010823">
+  <variant base="Lamellar" />
+</token>
+<token canonical="Simple" ref_id="sao614188547">
+  <variant base="Simple" />
+</token>
+<token canonical="Surface Area" ref_id="sao1788621392">
+  <variant base="Surface Area" />
+</token>
+<token canonical="Stubby" ref_id="sao1786354232">
+  <variant base="Stubby" />
+</token>
+<token canonical="Dendrite Quality" ref_id="sao1959705051">
+  <variant base="Dendrite Quality" />
+</token>
+<token canonical="Mushroom" ref_id="sao1983595164">
+  <variant base="Mushroom" />
+</token>
+<token canonical="Tubular" ref_id="sao2110170574">
+  <variant base="Tubular" />
+</token>
+<token canonical="Pathological" ref_id="sao74391158">
+  <variant base="Pathological" />
+</token>
+<token canonical="Cristae Quality" ref_id="sao1843037539">
+  <variant base="Cristae Quality" />
+</token>
+</synonym>

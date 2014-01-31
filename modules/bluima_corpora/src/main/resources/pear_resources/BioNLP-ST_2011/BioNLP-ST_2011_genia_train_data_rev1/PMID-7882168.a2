@@ -1,0 +1,8 @@
+T12	Entity 72 85	intracellular
+T13	Localization 86 98	localization
+T14	Entity 432 445	intracellular
+T15	Localization 446 458	localization
+T16	Gene_expression 690 700	expressing
+E1	Localization:T13 Theme:T1 AtLoc:T12
+E2	Localization:T15 Theme:T5 AtLoc:T14
+E3	Gene_expression:T16 Theme:T7

@@ -1,0 +1,6 @@
+T3	Negative_regulation 646 655	inhibited
+T4	Positive_regulation 667 676	dependent
+T5	Transcription 677 690	transcription
+E1	Negative_regulation:T3 Theme:E2
+E2	Positive_regulation:T4 Theme:E3
+E3	Transcription:T5 Theme:T2

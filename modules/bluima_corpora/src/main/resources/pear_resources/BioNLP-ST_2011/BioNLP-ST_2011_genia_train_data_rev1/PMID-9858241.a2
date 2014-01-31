@@ -1,0 +1,18 @@
+*	Equiv T2 T3
+T8	Positive_regulation 0 10	Activation
+T9	Entity 42 50	promoter
+T10	Positive_regulation 206 215	activates
+T11	Gene_expression 220 230	expression
+T12	Positive_regulation 541 550	increased
+T13	Gene_expression 569 579	expression
+T14	Positive_regulation 701 711	contribute
+T15	Negative_regulation 719 728	low level
+T16	Gene_expression 732 742	expression
+E1	Positive_regulation:T8 Theme:T1 Site:T9
+E2	Positive_regulation:T10 Theme:E3
+E3	Gene_expression:T11 Theme:T1
+E4	Positive_regulation:T12 Theme:E5
+E5	Gene_expression:T13 Theme:T5
+E6	Positive_regulation:T14 Theme:E7
+E7	Negative_regulation:T15 Theme:E8
+E8	Gene_expression:T16 Theme:T7

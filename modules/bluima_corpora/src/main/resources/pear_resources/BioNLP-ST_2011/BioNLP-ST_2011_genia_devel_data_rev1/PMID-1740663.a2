@@ -1,0 +1,14 @@
+*	Equiv T3 T4
+T7	Positive_regulation 759 768	increased
+T8	Transcription 825 838	transcription
+T9	Binding 1140 1150	interacted
+T10	Entity 1173 1198	symmetric NF-kappa B site
+T11	Transcription 1371 1383	Inducibility
+T12	Positive_regulation 1434 1443	increased
+E1	Positive_regulation:T7 Theme:E2
+E2	Transcription:T8 Theme:T2
+E3	Binding:T9 Theme:T3 Site:T10
+E4	Transcription:T11 Theme:T6
+E5	Transcription:T11 Theme:T5
+E6	Positive_regulation:T12 Theme:E4
+E7	Positive_regulation:T12 Theme:E5

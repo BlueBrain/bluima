@@ -1,0 +1,47 @@
+*	Equiv T1 T2
+*	Equiv T3 T4
+T11	Regulation 28 35	control
+T12	Protein_catabolism 36 47	degradation
+T13	Positive_regulation 72 86	in response to
+T14	Protein_catabolism 125 148	proteolytic degradation
+T15	Positive_regulation 196 210	in response to
+T16	Gene_expression 334 344	expression
+T17	Protein_catabolism 502 510	degraded
+T18	Positive_regulation 511 525	in response to
+T19	Positive_regulation 792 802	stabilizes
+T20	Phosphorylation 805 824	hyperphosphorylated
+T21	Positive_regulation 1012 1019	induced
+T22	Phosphorylation 1020 1035	phosphorylation
+T23	Protein_catabolism 1044 1055	degradation
+T24	Positive_regulation 1319 1328	inducible
+T25	Phosphorylation 1329 1344	phosphorylation
+T26	Negative_regulation 1495 1502	abolish
+T27	Positive_regulation 1510 1517	induced
+T28	Protein_catabolism 1518 1529	degradation
+T29	Negative_regulation 1572 1579	abolish
+T30	Positive_regulation 1580 1589	inducible
+T31	Phosphorylation 1590 1605	phosphorylation
+E1	Regulation:T11 Theme:E2
+E2	Protein_catabolism:T12 Theme:T1
+E3	Positive_regulation:T13 Theme:E2
+E4	Protein_catabolism:T14 Theme:T3
+E5	Positive_regulation:T15 Theme:E4
+E6	Gene_expression:T16 Theme:T5
+E7	Protein_catabolism:T17 Theme:T6
+E8	Positive_regulation:T18 Theme:E7
+E9	Positive_regulation:T19 Theme:T7
+E10	Phosphorylation:T20 Theme:T7
+E11	Positive_regulation:T21 Theme:E13
+E12	Positive_regulation:T21 Theme:E14
+E13	Phosphorylation:T22 Theme:T8
+E14	Protein_catabolism:T23 Theme:T8
+E15	Positive_regulation:T24 Theme:E16
+E16	Phosphorylation:T25 Theme:T10
+E17	Negative_regulation:T26 Theme:E19
+E18	Positive_regulation:T27 Theme:E19
+E19	Protein_catabolism:T28 Theme:T10
+E20	Negative_regulation:T29 Theme:E23
+E21	Negative_regulation:T29 Theme:E22
+E22	Positive_regulation:T30 Theme:E23
+E23	Phosphorylation:T31 Theme:T10
+M1	Speculation E6

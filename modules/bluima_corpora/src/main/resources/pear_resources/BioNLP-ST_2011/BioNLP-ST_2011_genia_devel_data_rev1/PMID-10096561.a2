@@ -1,0 +1,45 @@
+*	Equiv T25 T26
+*	Equiv T22 T23
+T31	Positive_regulation 0 11	Stimulation
+T32	Gene_expression 169 179	expression
+T33	Gene_expression 338 348	expression
+T34	Negative_regulation 352 366	down-regulated
+T35	Gene_expression 398 408	expression
+T36	Gene_expression 572 580	negative
+T37	Gene_expression 587 597	expression
+T38	Positive_regulation 607 615	enhanced
+T39	Binding 757 765	ligation
+T40	Positive_regulation 845 857	up-regulated
+T41	Gene_expression 864 874	expression
+T42	Localization 961 970	secretion
+T43	Binding 1169 1177	ligation
+T44	Binding 1337 1345	ligation
+T45	Binding 1432 1444	interactions
+E1	Positive_regulation:T31 Theme:T1
+E2	Gene_expression:T32 Theme:T2
+E3	Gene_expression:T33 Theme:T3
+E4	Negative_regulation:T34 Theme:E3
+E5	Gene_expression:T35 Theme:T4
+E6	Gene_expression:T36 Theme:T5
+E7	Gene_expression:T37 Theme:T6
+E8	Positive_regulation:T38 Theme:E7 Cause:T9
+E9	Positive_regulation:T38 Theme:E7 Cause:T10
+E10	Positive_regulation:T38 Theme:E7 Cause:T11
+E11	Positive_regulation:T38 Theme:E7 Cause:T8
+E12	Binding:T39 Theme:T12 Theme2:T14
+E13	Positive_regulation:T40 Theme:E18 Cause:E12
+E14	Positive_regulation:T40 Theme:E22 Cause:E12
+E15	Positive_regulation:T40 Theme:E20 Cause:E12
+E16	Positive_regulation:T40 Theme:E21 Cause:E12
+E17	Positive_regulation:T40 Theme:E19 Cause:E12
+E18	Gene_expression:T41 Theme:T15
+E19	Localization:T42 Theme:T18
+E20	Localization:T42 Theme:T17
+E21	Localization:T42 Theme:T19
+E22	Localization:T42 Theme:T16
+E23	Binding:T43 Theme:T20
+E24	Binding:T44 Theme:T27
+E25	Binding:T45 Theme:T28 Theme2:T29
+M1	Negation E6
+M2	Negation E9
+M3	Negation E10

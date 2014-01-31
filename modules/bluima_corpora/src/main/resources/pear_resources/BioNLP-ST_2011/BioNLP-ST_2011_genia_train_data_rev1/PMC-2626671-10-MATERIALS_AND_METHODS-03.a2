@@ -1,0 +1,20 @@
+T36	Negative_regulation 52 61	deficient
+T37	Negative_regulation 78 85	silence
+T38	Gene_expression 90 100	expression
+T39	Gene_expression 737 747	expression
+T40	Positive_regulation 877 890	up-regulation
+T41	Positive_regulation 953 964	up-regulate
+T42	Negative_regulation 1195 1203	silenced
+T43	Gene_expression 1208 1218	expression
+T44	Gene_expression 1549 1558	coexpress
+E1	Negative_regulation:T36 Theme:T2
+E2	Negative_regulation:T37 Theme:E3 Cause:E1
+E3	Gene_expression:T38 Theme:T3
+E4	Gene_expression:T39 Theme:T21
+E5	Positive_regulation:T40 Theme:T23
+E6	Positive_regulation:T40 Theme:T24
+E7	Positive_regulation:T41 Theme:T25
+E8	Negative_regulation:T42 Theme:E9
+E9	Gene_expression:T43 Theme:T29
+E10	Gene_expression:T44 Theme:T32
+M1	Negation E2

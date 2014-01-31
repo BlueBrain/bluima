@@ -1,0 +1,209 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2010//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_100301.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID>16205572</PMID>
+        <DateCreated>
+            <Year>2005</Year>
+            <Month>10</Month>
+            <Day>05</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2005</Year>
+            <Month>11</Month>
+            <Day>14</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2008</Year>
+            <Month>11</Month>
+            <Day>21</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">0275-004X</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>25</Volume>
+                    <Issue>7</Issue>
+                    <PubDate>
+                        <MedlineDate>2005 Oct-Nov</MedlineDate>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Retina (Philadelphia, Pa.)</Title>
+                <ISOAbbreviation>Retina (Philadelphia, Pa.)</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Expression of connective tissue growth factor and its potential role in choroidal neovascularization.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>911-8</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>BACKGROUND: To determine the expression of connective tissue growth factor (CTGF) in choroidal neovascularization. METHODS: Surgically excised choroidal neovascular membranes (CNVMs) were obtained at vitrectomy from eight eyes with age-related macular degeneration, five eyes with high myopia, and two eyes with angioid streaks. Light microscopic immunohistochemical analysis was performed to detect CTGF, transforming growth factor beta 1 (TGF-beta1), vascular endothelial growth factor (VEGF), pancytokeratin, and smooth muscle actin (SMA). RESULTS: CNVMs were classified by fibrotic status as cellular CNVM, moderate fibrous CNVM, and extensive fibrous CNVM. CTGF expression was found in vascular cells, stromal cells, and retinal pigment epithelium (RPE) cells. For the stromal cells, fibroblastlike cells were most strongly positive for CTGF. CTGF immunoreactivity in the stroma was stronger in the fibrous CNVMs than in the cellular CNVMs. Immunohistochemical analysis of serial sections revealed colocalization of CTGF with TGF-beta1 and VEGF; colocalization of CTGF with pancytokeratin and SMA was also found. CONCLUSION: Our findings suggest that transdifferentiated RPE cells and vascular cells possess remarkable CTGF expression in CNVMs. This expression of CTGF may stimulate fibroblasts to produce extracellular matrix and may promote angiogenesis in vascular cells. Colocalized TGF-beta1 and VEGF may also contribute the upregulation of CTGF.</AbstractText>
+            </Abstract>
+            <Affiliation>Department of Ophthalmology and Visual Sciences, Kyoto University Graduate School of Medicine, Kyoto, Japan.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Watanabe</LastName>
+                    <ForeName>Daisuke</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Takagi</LastName>
+                    <ForeName>Hitoshi</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Suzuma</LastName>
+                    <ForeName>Kiyoshi</ForeName>
+                    <Initials>K</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Oh</LastName>
+                    <ForeName>Hideyasu</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Ohashi</LastName>
+                    <ForeName>Hirokazu</ForeName>
+                    <Initials>H</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Honda</LastName>
+                    <ForeName>Yoshihito</ForeName>
+                    <Initials>Y</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Retina</MedlineTA>
+            <NlmUniqueID>8309919</NlmUniqueID>
+            <ISSNLinking>0275-004X</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>CTGF protein, human</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Immediate-Early Proteins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Intercellular Signaling Peptides and Proteins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>TGFB1 protein, human</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Transforming Growth Factor beta</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Transforming Growth Factor beta1</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Vascular Endothelial Growth Factor A</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>139568-91-5</RegistryNumber>
+                <NameOfSubstance>Connective Tissue Growth Factor</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Choroidal Neovascularization</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Connective Tissue Growth Factor</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Immediate-Early Proteins</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Immunoenzyme Techniques</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Intercellular Signaling Peptides and Proteins</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Membranes</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Transforming Growth Factor beta</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Transforming Growth Factor beta1</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Vascular Endothelial Growth Factor A</DescriptorName>
+                <QualifierName MajorTopicYN="N">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Vitrectomy</DescriptorName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2005</Year>
+                <Month>10</Month>
+                <Day>6</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2005</Year>
+                <Month>11</Month>
+                <Day>15</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2005</Year>
+                <Month>10</Month>
+                <Day>6</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">00006982-200510000-00015</ArticleId>
+            <ArticleId IdType="pubmed">16205572</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+</PubmedArticleSet>

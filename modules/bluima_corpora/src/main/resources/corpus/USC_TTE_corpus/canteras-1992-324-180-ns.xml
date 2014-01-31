@@ -1,0 +1,1987 @@
+<?xml version='1.0'?>
+<!DOCTYPE File PUBLIC "NeuroScholar.DTD" "NeuroScholar.DTD">
+<File>
+
+  <Title>Projections of the Ventral Subiculum to the Amygdala, Septum, 
+  and Hypothalamus: A PHAL Anterograde Tract-Tracing Study in the 
+  Rat</Title>
+
+  <Authors>N.S. CANTERAS AND L.W. SWANSON</Authors>
+
+  <Abstract>
+
+    <S avgH="22" class="abstract.heading" format="TimesNewRomanPSMT"
+     id="s0">ABSTRACT</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s1">The projections of the ventral subiculum are organized 
+    differentially along the dorsoventral (or septotemporal) axis of 
+    this cortical field, with more ventral regions playing a 
+    particularly important role in hippocampal communication with the 
+    amygdala, bed nuclei of the stria terminalis (BST), and rostral 
+    hypothalamus.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s2">In the present study we re-examined the projection of the 
+    ventral subiculum to these regions with the Phaseolus vulgaris 
+    leucoagglutinin (PHAL) method in the rat.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s3">The results confirm and extend earlier conclusions based 
+    primarily on the autoradiographic method.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s4">Projections from the ventral subiculum course either 
+    obliquely through the angular bundle to innervate the amygdala and 
+    adjacent parts of the temporal lobe, or follow the alveus and 
+    fimbria to the precommissural fornix and medial corticohypothalamic 
+    tract.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s5">The major amygdalar terminal field is centered in the 
+    posterior basomedial nucleus, while other structures that appear to 
+    be innervated include the piriformamygdaloid area, the posterior 
+    basolateral, posterior cortical, posterior, central, medial, and 
+    intercalated nuclei, and the nucleus of the lateral olfactory 
+    tract.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s6">Projections from the ventral subiculum reach the BST 
+    mainly by way of the precommissural fornix, and provide rather 
+    dense inputs to the anterodorsal area as well as the transverse and 
+    interfascicular nuclei.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s7">The medial corticohypothalamic tract is the main route 
+    taken by fibers from the ventral subiculum to the hypothalamus, 
+    where they innervate the medial preoptic area, shell of the 
+    ventromedial nucleus, dorsomedial nucleus, ventral premammillary 
+    nucleus, and cell-poor zone around the medial mammillary 
+    nucleus.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s8">We also observed a rather dense terminal field just dorsal 
+    to the suprachiasmatic nucleus that extends dorsally and caudally 
+    to fill the subparaventricular zone along the medial border of the 
+    anterior hypothalamic nucleus and ventrolateral border of the 
+    paraventricular nucleus.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s9">The general pattern of outputs to the hypothalamus and 
+    septum is strikingly similar for the ventral subiculum and 
+    suprachiasmatic nucleus, the endogenous circadian rhythm generator. 
+    o 1992 Wiley-Liss, Inc.</S>
+  </Abstract>
+
+  <Introduction>
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s10">The subiculum lies near the end of what is thought to be 
+    a largely unidirectional sequence of intracortical association 
+    projections that link the various subdivisions of the hippocampal 
+    formation.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s11">Briefly, the major flow of information through the 
+    hippocampal formation takes place through the transversely oriented 
+    trisynaptic circuit, which begins with the perforant path 
+    projection from the entorhinal area to the dentate gyrus, is 
+    relayed to field CA3 of Ammon s horn by the mossy fiber system, and 
+    then proceeds to field CAI by way of the Schaffer collateral 
+    system.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s12">The major intrahippocampal projections of field CAI are 
+    to the subiculum and to the entorhinal area (for review, see 
+    Swanson et al., 87).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s13">For its part, the subiculum has one of the most massive 
+    and divergent efferent projections of any part of the hippocampal 
+    formation, providing inputs to many regions of the telencephalon 
+    and diencephalon (see Swanson and Cowan, 75, 77; Meibach and 
+    Siegel, 77; Krettek and Price, 78a; Groenewegen et al., 87; Kohler, 
+    90; Witter and Groenewegen, 90; Witter et al., 90).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s14">It is clear that the projections of the subiculum are 
+    differentially organized along the dorsoventral (septotemporal, 
+    longitudinal) axis of the subiculum, with more ventral regions 
+    playing a more important role in hippocampal communication with the 
+    amygdala, bed nuclei of the stria terminalis (BST), and 
+    hypothalamus.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s15">Thus, for the hypothalamus, dorsal parts of the subiculum 
+    give rise to a massive projection that travels in the 
+    postcommissural fornix and tends to end preferentially in the 
+    mammillary complex, whereas efferent fibers from more ventral parts 
+    course through the medial corticohypothalamic tract and are 
+    distributed throughout the entire rostrocaudal extent of the medial 
+    zone of the hypothalamus, placing this cortical structure in a 
+    unique position to influence a wide range of hypothalamic 
+    mechanisms (Swanson and Cowan, &apos;75, &apos;77; Meibach and 
+    Siegel, &apos;77; Krettek and Price, &apos;78a; Kohler, &apos;90; 
+    Witter and Groenewegen, &apos;90; Witter et al., &apos;90).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s16">In addition, it seems likely that projections from the 
+    subiculum to the amygdala and bed nuclei of the stria terminalis 
+    arise predominantly if not exclusively from its more ventral 
+    regions (Swanson and Cowan, &apos;77; Groenewegen et al., &apos;87; 
+    Price et al., &apos;87; Witter and Groenewegen, &apos;90).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s17">Projections from the ventral subiculum to the bed nuclei 
+    of the stria terminalis and hypothalamus were originally described 
+    with the autoradiographic method in the rat (Swanson and Cowan, 
+    &apos;75, &apos;77; Meibach and Siegel, &apos;77; Krettek and 
+    Price, &apos;78a).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s18">However, these findings are limited because it is often 
+    difficult if not impossible to distinguish terminal fields from 
+    fibers-of-passage with the method, due to the fact that silver 
+    grains rather than axons themselves are actually observed.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s19">In addition, the projection from the subiculum to the 
+    amygdala has been thoroughly examined with the autoradiographic 
+    method in the monkey (Rosene and Van Hoesen, &apos;77; Aggleton, 
+    &apos;86), although no detailed study of this projection has been 
+    carried out in the rat.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s20">In view of these limitations, we have decided to 
+    re-examine, in the rat, the projection of the ventral subiculum to 
+    the amygdala, septum, and hypothalamus with the PHAL anterograde 
+    tracer method, which combines all of the advantages of the 
+    autoradiographic method with clearly defined injection sites and 
+    Golgi-like staining of labeled axons, so that terminal boutons and 
+    varicosities can readily be identified and distinguished (see 
+    Gerfen and Sawchenko, &apos;84; Wouterlood and Groenegewen, 
+    &apos;85).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s21">The results have been interpreted in light of a great 
+    deal of new cytoarchitectonic and connectional information that has 
+    become available since the original autoradiographic studies, and 
+    have also served to clarify differences between regions that lie in 
+    the junctional region between the temporal pole of the hippocampal 
+    formation and the caudal end of the amygdala (see the accompanying 
+    paper by Canteras et al., &apos;92a).</S>
+  </Introduction>
+
+  <Methods>
+
+    <S avgH="28" class="methods.heading" format="TimesNewRomanPS-BoldMT"
+     id="s22">MATERIALS AND METHODS</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s23">Eight adult male Sprague-Dawley rats received an 
+    injection of Phaseolus vulgaris leucoagglutinin (PHAL; Vector 
+    Laboratories) into ventral parts of the subiculum.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s24">Each animal was anesthetized with tribromoethanol, and a 
+    single iontophoretic injection of a 2.5% solution of PHAL in 0.01 M 
+    sodium phosphate-buffered saline (pH 7.4) was made through a 
+    stereotaxically positioned glass micropipette (tip diameter 10 km) 
+    by applying a +8 PA current, pulsed at 7-second intervals, and 
+    provided by a constant-current source (Midgard Electronics, Model 
+    CS3) for a period of 20 minutes.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s25">Postinjection survival times for all experiments ranged 
+    from 14 to 16 days.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s26">The animals were perfused and the brains were processed 
+    according to procedures described in detail elsewhere (Canteras et 
+    al., &apos;92a).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s27">Briefly, each animal was deeply anesthetized with 
+    tribromoethanol and perfused transcardially with a solution of 4.0% 
+    paraformaldehyde in 0.1 M sodium borate buffer at pH 9.5; the 
+    brains were removed immediately and postfixed overnight in the same 
+    fixative containing 10% sucrose.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s28">Four one-in-five series of 30-km-thick frozen sections 
+    were cut with a sliding microtome in the frontal plane and 
+    collected from the septa1 region rostrally to the middle of the 
+    midbrain caudally.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s29">An additional series of sections was collected through 
+    the level of the ventral subiculum, and 
+    &quot;quick-stained&apos;&apos; for confirmation of injection site 
+    placement (see Simerly and Swanson, &apos;88).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s30">One complete series of sections was processed for 
+    immunohistochemistry with an antiserum directed against PHAL (Dako 
+    Laboratories) at a dilution of 1:1,000.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s31">The antigen-antibody complex was localized by using a 
+    variation of the avidin-biotin complex system (ABC; Hsu and Raine, 
+    &apos;81; Hsu et al., &apos;811, with a commercially available kit 
+    (ABC Elite Kit, Vector Laboratories).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s32">The sections were mounted on gelatin-coated slides, and 
+    treated with osmium tetroxide to enhance the visibility of the 
+    reaction product.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s33">Slides were then dehydrated and coverslipped with DPX.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s34">An adjacent series was always stained with thionin to 
+    serve as a reference series for cytoarchitectonic purposes.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s35">Sections were examined with a Leitz Laborlux D microscope 
+    with both brightand darkfield illumination.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s36">The PHAL-labeled cells in the injection sites, as well as 
+    the distribution of anterograde labeled fibers were plotted with 
+    the aid of a camera lucida onto maps prepared from adjacent 
+    Nissl-stained sections.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s37">For illustration purposes, the distribution of 
+    anterogradely labeled fibers was transferred onto a series of 
+    standard drawings of the rat brain (Swanson, &apos;92).</S>
+  </Methods>
+
+  <Results>
+
+    <S avgH="28" class="results.heading" format="TimesNewRomanPS-BoldMT"
+     id="s38">RESULTS</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s39">The parameters used for making the iontophoretic 
+    injections described above resulted in discrete injection sites, 
+    typically with hundreds of clearly labeled (PHAL-immunoreactive) 
+    neurons.</S>
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s40"><exptLabel>In five experiments the injection was 
+      virtually confined to <injectionLocation>the temporal pole of the 
+      subiculum</injectionLocation></exptLabel>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s41">The location and approximate extent of each of these 
+      injection sites are plotted on an unfolded map of 
+      <neuroanatomicalLocation>the rat hippocampal 
+      formation</neuroanatomicalLocation> from Swanson et al. 
+      (&apos;78) (Fig. 1).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s42">Each of these five experiments labeled a similar 
+      pattern of projections.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s43">Since the injection site in <exptLabel>experiment 
+      SUB-16</exptLabel> encompassed <injectionLocation>a relatively 
+      broad extent of the ventral subiculum</injectionLocation> (Figs. 
+      1, 21, and a correspondingly <labelingDescription>dense pattern 
+      of fibers</labelingDescription> was labeled, this experiment was 
+      used to illustrate in detail the efferent projections of 
+      <connxOrigin>the ventral subiculum</connxOrigin> to 
+      <connxTermination>the amygdala, septum, and 
+      hypothalamus</connxTermination> (Fig. 3).</S>
+      <BR />
+
+      <S avgH="27" class="results.subtitle"
+       format="TimesNewRomanPS-BoldMT" id="s44">Projections to the 
+      amygdala</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s45"><labelingDescription>One group of labeled 
+      fibers</labelingDescription> courses directly from the injection 
+      site to <labelingLocation>the amygdala</labelingLocation> by 
+      crossing the angular bundle (Fig. 3P).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s46">At caudal levels of <neuroanatomicalLandmark>the 
+      amygdala</neuroanatomicalLandmark>, these fibers establish 
+      <labelingDescription>an impressive plexus</labelingDescription> 
+      in <labelingLocation>the posterior part of the basomedial 
+      nucleus</labelingLocation>, and <labelingDescription>a smaller 
+      group of labeled axons</labelingDescription> appears to end in 
+      <labelingLocation>the caudalmost parts of the posterior 
+      subdivision of the basolateral nucleus, the posterior nucleus, 
+      the posterior cortical nucleus, and the piriformamygdaloid 
+      area</labelingLocation> (Fig. 31-M; see Canteras et al., 
+      &apos;92a for subdivisions of <neuroanatomicalLocation>the 
+      amygdala</neuroanatomicalLocation> used here).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s47">It is important to emphasize that <labelingLocation>the 
+      posterior part of the basomedial nucleus</labelingLocation> is by 
+      far <labelingDescription>the most densely 
+      labeled</labelingDescription> region in <labelingLocation>the 
+      amygdala</labelingLocation> in any of our experiments.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s48">As <neuroanatomicalLocation>the stria 
+      terminalis</neuroanatomicalLocation> leaves <connxOrigin>the 
+      amygdala</connxOrigin>, <labelingDescription>a number of labeled 
+      fibers</labelingDescription> course dorsally to supply 
+      <labelingDescription>a dense terminal field</labelingDescription> 
+      to <labelingLocation>the caudalmost end of the central nucleus 
+      and adjacent regions of the caudoputamen</labelingLocation> (Fig. 
+      31-K).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s49">It is also interesting to note that <labelingLocation>a 
+      very small number of fibers</labelingLocation> in this area leave 
+      <connxOrigin>the amygdala</connxOrigin> by way of 
+      <labelingLocation>the stria terminalis</labelingLocation> (Fig. 
+      3J,K).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s50"><labelingDescription>A moderate number of 
+      fibers</labelingDescription> continue rostrally through 
+      <labelingLocation>the amygdala</labelingLocation>, providing 
+      along the way clear inputs to <labelingLocation>the central 
+      nucleus, the medial nucleus, the intercalated nuclei, and the 
+      nucleus of the lateral olfactory tract</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s51">Within <labelingLocation>the central 
+      nucleus</labelingLocation>, <labelingLocation>the caudalmost pole 
+      of the lateral subdivision</labelingLocation> receives 
+      <labelingDescription>a particularly dense plexus of 
+      fibers</labelingDescription>, and proceeding more rostrally, 
+      <labelingDescription>the labeled axons</labelingDescription> 
+      preferentially innervate <labelingLocation>the capsular 
+      subdivision</labelingLocation>, and <labelingDescription>to a 
+      lesser extent</labelingDescription> <labelingLocation>ventral 
+      parts of the medial subdivision</labelingLocation> (Fig. 
+      3F-K).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s52"><labelingLocation>The medial nucleus of the 
+      amygdala</labelingLocation> receives <labelingDescription>a 
+      moderate number of anterogradely labeled 
+      fibers</labelingDescription>, which are located mainly within 
+      <labelingLocation>the anterodorsal and posteroventral 
+      subdivisions</labelingLocation>, clearly tending to avoid 
+      <labelingLocation>the posterodorsal 
+      subdivision</labelingLocation> (Fig. 3F-K).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s53"><labelingLocation>The intercalated nuclei adjacent to 
+      the central and medial nuclei</labelingLocation> also receive 
+      <labelingDescription>a moderate number of 
+      axons</labelingDescription>, which display <labelingDescription>a 
+      highly branched pattern</labelingDescription> and give rise to 
+      <labelingDescription>a fairly large number of terminal 
+      boutons</labelingDescription> (Fig. 3F,G).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s54"><labelingDescription>Anterogradely labeled 
+      axons</labelingDescription> from <labelingLocation>the ventral 
+      subiculum</labelingLocation> appear to provide only 
+      <labelingDescription>a very sparse input</labelingDescription> to 
+      the lateral and basolateral nuclei (Fig. 3F-L).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s55">Furthermore, only <labelingDescription>a few labeled 
+      axons</labelingDescription> were observed in <labelingLocation>
+      the anterior part of the basomedial nucleus</labelingLocation> 
+      (Fig. 3E-I), in sharp contrast to <labelingDescription>the dense 
+      input</labelingDescription> to <labelingLocation>the posterior 
+      part of the nucleus</labelingLocation>.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s56">Throughout the entire extent of the amygdala, 
+      <labelingDescription>a small number of labeled 
+      fibers</labelingDescription> take a lateral course to 
+      <labelingLocation>the piriform area</labelingLocation> and 
+      especially to <labelingLocation>the dorsal endopiriform 
+      nucleus</labelingLocation> just deep to it (Fig. 3D-M).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s57">In addition, <labelingDescription>some labeled 
+      fibers</labelingDescription> also appear to end in 
+      <labelingLocation>the claustrum</labelingLocation> as well as in 
+      <labelingLocation>deep layers of the agranular insular and 
+      perirhinal areas</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s58">At rostral levels of the amygdala, 
+      <labelingDescription>a sparse contingent of labeled 
+      fibers</labelingDescription> enters <labelingLocation>the 
+      substantia innominata</labelingLocation> and courses toward 
+      <labelingLocation>caudal parts of the BST</labelingLocation>; in 
+      addition, <labelingDescription>a very few labeled 
+      axons</labelingDescription> were observed surrounding 
+      <labelingLocation>the dorsal border of the supraoptic 
+      nucleus</labelingLocation> on their way toward <labelingLocation>
+      the preoptic region</labelingLocation> (Fig. 3E-F).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s59">In none of our experiments with 
+      <tracerChemical>PHAL</tracerChemical> injections in 
+      <injectionLocation>the ventral subiculum</injectionLocation> were 
+      <labelingDescription>any labeled fibers</labelingDescription> 
+      observed in <labelingLocation>the contralateral 
+      amygdala</labelingLocation>.</S>
+      <BR />
+
+      <S avgH="27" class="results.subtitle"
+       format="TimesNewRomanPS-BoldMT" id="s60">Projections through the 
+      fimbria</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s61">The second major group of labeled axons that leaves 
+      <connxOrigin>the ventral subiculum</connxOrigin> courses through 
+      <neuroanatomicalLocation>the alveus and 
+      fimbria</neuroanatomicalLocation>, and on reaching 
+      <connxTermination>the septum</connxTermination> divides into two 
+      components, <neuroanatomicalLocation>the precommissural 
+      fornix</neuroanatomicalLocation> and <neuroanatomicalLocation>the 
+      medial corticohypothalamic tract</neuroanatomicalLocation>.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s62"><neuroanatomicalLocation>Precommissural 
+      fornix</neuroanatomicalLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s63">As <neuroanatomicalLocation>the 
+      fimbria</neuroanatomicalLocation> approaches 
+      <neuroanatomicalLandmark>the caudal end of the septal 
+      region</neuroanatomicalLandmark>, <labelingDescription>these 
+      axons</labelingDescription> fan out to run through (and give rise 
+      to <labelingDescription>many terminal 
+      boutons</labelingDescription> within) <labelingLocation>the 
+      ventral lateral septal nucleus and adjacent parts of the 
+      intermediate lateral septal and septofimbrial 
+      nuclei</labelingLocation> (Fig.3A-D).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s65">The rostral continuation of the pathway will be briefly 
+      described below.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s66">Here it is appropriate to point out that many of these 
+      fibers course in a more ventral direction to innervate 
+      <labelingLocation>the bed nuclei of the stria terminalis 
+      (BST)</labelingLocation> (Fig. 3B-D), although 
+      <labelingDescription>a very small number of 
+      fibers</labelingDescription> may reach <labelingLocation>this 
+      complex</labelingLocation> by way of <neuroanatomicalLocation>the 
+      stria terminalis</neuroanatomicalLocation> and/or 
+      <neuroanatomicalLocation>the ansa 
+      peduncularis</neuroanatomicalLocation> (see above).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s67">In addition, <labelingDescription>several labeled 
+      fibers</labelingDescription> from <neuroanatomicalLocation>the 
+      precommissural fornix</neuroanatomicalLocation> also take a 
+      ventral course just rostral <neuroanatomicalLandmark>the anterior 
+      commissure</neuroanatomicalLandmark> and appear to enter 
+      <connxTermination>the preoptic region</connxTermination> (Fig. 
+      3B), as discussed below.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s68">In the <labelingLocation>anterior division of the 
+      BST</labelingLocation> (for subdivisions see Ju and Swanson, 
+      &apos;891, <labelingDescription>the majority of labeled 
+      fibers</labelingDescription> end within <labelingLocation>the 
+      anterodorsal area adjacent to the ventral part of the lateral 
+      septal nucleus</labelingLocation> (Fig. 3B,C).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s69"><labelingDescription>Only a few 
+      axons</labelingDescription> continue laterally toward 
+      <labelingLocation>the anterolateral area</labelingLocation>, 
+      which contained <labelingDescription>only scattered fibers and 
+      terminal boutons</labelingDescription> i Fig. 3B-D).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s70"><labelingDescription>A moderate number of labeled 
+      axons</labelingDescription> also reach <labelingLocation>the 
+      anteroventral area of the BST</labelingLocation>, either by 
+      taking a ventromedial course rostral to 
+      <neuroanatomicalLandmark>the anterior 
+      commissure</neuroanatomicalLandmark> (Fig. 3B), or by running 
+      ventrolaterally through <labelingLocation>the anterodorsal 
+      area</labelingLocation>, immediately caudal to 
+      <neuroanatomicalLandmark>the anterior 
+      commissure</neuroanatomicalLandmark> (Fig. 3D).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s71">Within <labelingLocation>the anteroventral 
+      area</labelingLocation>, <labelingDescription>the labeled 
+      fibers</labelingDescription> appear to end primarily in 
+      <labelingLocation>the dorsomedial, dorsolateral, magnocellular, 
+      and ventral nuclei</labelingLocation> (Fig. 3C,D); interestingly, 
+      they tend to avoid <labelingLocation>the parastrial 
+      nucleus</labelingLocation>, which has been regarded as part of 
+      the preoptic region (Simerly et al., &apos;84; Ju and Swanson, 
+      &apos;89) and lies immediately ventral to 
+      <neuroanatomicalLandmark>the medial aspect of this part of the 
+      BST</neuroanatomicalLandmark> (Fig. 3B-D).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s72">At more caudal levels, <labelingDescription>a moderate 
+      number of labeled axons</labelingDescription> take a ventral 
+      route toward <labelingLocation>the posterior division of the 
+      BST</labelingLocation>, where they give rise to 
+      <labelingDescription>dense terminal fields</labelingDescription> 
+      within <labelingLocation>the interfascicular and transverse 
+      nuclei</labelingLocation>, but almost <labelingDescription>no 
+      fibers</labelingDescription> in <labelingLocation>the principal 
+      nucleus</labelingLocation> (Figs. 3E, 4A).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s73">It is important to point out that it is not possible in 
+      our material to be certain whether scattered fibers from 
+      <connxOrigin>the BST</connxOrigin> continue on to end in various 
+      parts of <connxTermination>the preoptic 
+      region</connxTermination>, as their orientation would suggest, or 
+      whether they are confined to <connxTermination>the 
+      BST</connxTermination>.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s74">Finally, <labelingDescription>a small number of labeled 
+      fibers</labelingDescription> were found in <labelingLocation>the 
+      contralateral BST</labelingLocation>, particularly in regions 
+      that are the most densely innervated ipsilaterally, including 
+      <labelingLocation>the anterodorsal area, and the interfascicular 
+      and transverse nuclei</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s75">These fibers reach the contralateral side of the brain 
+      by crossing through <neuroanatomicalLocation>the ventral 
+      hippocampal commissure</neuroanatomicalLocation> (Fig. 3E).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s76">The rostrally directed group of precommissural fibers 
+      continues on to the rostral pole of <labelingLocation>the septal 
+      region</labelingLocation> in <labelingLocation>the ventrolateral 
+      corner of the lateral septal nucleus</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s77"><labelingDescription>Many of these 
+      fibers</labelingDescription> course ventrally to innervate 
+      <labelingLocation>the nucleus accumbens</labelingLocation>, and 
+      <labelingDescription>to a much lesser 
+      extent</labelingDescription> <labelingLocation>the fundus of the 
+      striatum and olfactory tubercle</labelingLocation> (Fig. 3A), 
+      while rostral to <neuroanatomicalLandmark>the septal 
+      regon</neuroanatomicalLandmark> (not examined here; see Swanson 
+      and Cowan, &apos;79; Swanson, &apos;81; Jay and Witter, 
+      &apos;91), other 
+      <labelingDescription>fibers</labelingDescription> innervate parts 
+      of <labelingLocation>the cellular layer of the anterior olfactory 
+      nucleus, as well as the prelimbic, infralimbic, and medial 
+      orbital areas of the cortex</labelingLocation>.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s78"><neuroanatomicalLocation>Medial corticoh.ypypothalanzic 
+      tract</neuroanatomicalLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s79">These fibers diverge from <neuroanatomicalLocation>the 
+      fornix</neuroanatomicalLocation> in <neuroanatomicalLocation>the 
+      anterodorsomedial tip of the 
+      hypothalamus</neuroanatomicalLocation>, between 
+      <neuroanatomicalLandmark>the paraventricular nuclei of the 
+      thalamus and hypothalamus</neuroanatomicalLandmark> (Figs. 3E, 
+      4A).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s80"><labelingDescription>No labeled 
+      fibers</labelingDescription> were observed in 
+      <labelingLocation>the postcommissural fornix</labelingLocation> 
+      in any of our experiments with 
+      <tracerChemical>PHAL</tracerChemical> injections confined to 
+      <injectionLocation>the ventralmost part of the 
+      subiculum</injectionLocation>.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s81"><neuroanatomicalLocation>The medial corticohypothalamic 
+      tract</neuroanatomicalLocation>, whose only known source of 
+      fibers is <connxOrigin>the ventral subiculum</connxOrigin>, in 
+      fact gwes rise to two branches, one to <connxTermination>the 
+      thalamus</connxTermination> and the other to 
+      <connxTermination>the hypothalamus</connxTermination> (Swanson et 
+      al., &apos;87).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s82"><labelingDescription>Labeled 
+      fibers</labelingDescription> to <connxTermination>the 
+      thalamus</connxTermination> from <connxOrigin>the ventral tip of 
+      the subiculum</connxOrigin> end throughout <labelingLocation>the 
+      length of the paraventricular nucleus and nucleus 
+      reuniens</labelingLocation>, and <labelingDescription>a few 
+      axons</labelingDescription> also appear to innervate 
+      <labelingLocation>the parataenial nucleus and the lateral 
+      habenula</labelingLocation> (Fig. 3E-M).</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s83">The much larger hypothalamic branch of this tract 
+      predominantly innervates <labelingLocation>cell groups of the 
+      medial zone</labelingLocation>, contributing relatively 
+      <labelingDescription>few axons</labelingDescription> to 
+      <labelingLocation>the periventricular and lateral 
+      zones</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s84">At rostral levels of <neuroanatomicalLandmark>the 
+      preoptic region</neuroanatomicalLandmark>, 
+      <labelingDescription>labeled fibers</labelingDescription> are 
+      distributed mainly within <labelingLocation>undifferentiated 
+      parts of the medial preoptic area</labelingLocation> and to a 
+      lesser extent in <labelingLocation>the anteroventral preoptic 
+      nucleus</labelingLocation>; <labelingDescription>very few 
+      axons</labelingDescription> enter <labelingLocation>the 
+      anteroventral periventricular and the median preoptic 
+      nuclei</labelingLocation> (Fig. 3B,C).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s85">Proceeding caudally, one finds a somewhat more 
+      <labelingDescription>dense plexus of labeled 
+      fibers</labelingDescription> in <labelingLocation>
+      undifferentiated parts of the medial preoptic 
+      area</labelingLocation>, as well as in <labelingLocation>the 
+      lateral subdivision of the medial preoptic 
+      nucleus</labelingLocation> (Fig. 3D,E).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s86"><labelingLocation>This nucleus</labelingLocation> also 
+      contains <labelingLocation>a moderate number of labeled axons in 
+      ventral and caudal regions of the medial 
+      subdivision</labelingLocation>, whereas <labelingLocation>the 
+      central subdivision</labelingLocation> is 
+      <labelingDescription>virtually free of anterograde 
+      labeling</labelingDescription> (Fig. 3D,E).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s87"><labelingDescription>Fibers</labelingDescription> from 
+      <labelingLocation>the ventral subiculum</labelingLocation> tend 
+      to avoid <labelingLocation>the parastrial and anterodorsal 
+      preoptic nuclei</labelingLocation> (Fig. 3B-D).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s88">As noted above, <labelingDescription>a moderate 
+      contingent of fibers</labelingDescription> from 
+      <neuroanatomicalLocation>the precommissural 
+      fornix</neuroanatomicalLocation> also appears to project to 
+      <connxTermination>the preoptic region</connxTermination>, and the 
+      extent to which fibers in each of the preoptic cell groups 
+      travel, through <neuroanatomicalLocation>the medial 
+      corticohypothalamic tract and/or the precommissural 
+      fornix</neuroanatomicalLocation> could not be determined.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s89"><labelingLocation>In the anterior hypothalamic 
+      region</labelingLocation>, <labelingDescription>anterogradely 
+      labeled fibers</labelingDescription> from <connxOrigin>the 
+      ventral subiculum</connxOrigin> generate <labelingDescription>a 
+      dense terminal field</labelingDescription> just dorsal to 
+      <neuroanatomicalLandmark>the suprachiasmatic 
+      nucleus</neuroanatomicalLandmark> (Figs. 3E, 4B) that extends 
+      dorsally and caudally to fill <labelingLocation>the 
+      subparaventricular zone</labelingLocation> (of Watts et al., 87) 
+      along the medial border of <neuroanatomicalLandmark>the anterior 
+      hypothalamic nucleus</neuroanatomicalLandmark> and the 
+      ventrolateral border of <neuroanatomicalLandmark>the 
+      paraventricular nucleus</neuroanatomicalLandmark> (Figs. 3F,G, 
+      4C).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s90"><labelingLocation>The paraventricular 
+      nucleus</labelingLocation> itself (see Swanson and Simmons, 89 
+      for subdivisions) is traversed by small fascicles of 
+      <neuroanatomicalLocation>the medial corticohypothalamic 
+      tract</neuroanatomicalLocation> (Fig. 4C), which are also obvious 
+      within <labelingLocation>the anterior periventricular and 
+      suprachiasmatic nuclei</labelingLocation> (Fig. 4B).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s91">However, both the <labelingLocation>Paraventricular 
+      nucleus and the other periventricular nuclei</labelingLocation> 
+      appear to contain only <labelingDescription>a few fibers bearing 
+      terminal boutons</labelingDescription> (Figs. 3E-H, 4B,C).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s92">Caudal to <neuroanatomicalLandmark>the suprachiasmatic 
+      nucleus</neuroanatomicalLandmark>, <labelingLocation>the 
+      retrochiasmatic area</labelingLocation> receives 
+      <labelingDescription>a moderately dense 
+      projection</labelingDescription> from <connxOrigin>the ventral 
+      subiculum</connxOrigin>, and <labelingDescription>a sparse 
+      contingent of labeled fibers</labelingDescription> was also 
+      observed coursing more laterally through and to <labelingLocation>
+      the anterior hypothalamic area</labelingLocation> (Fig. 3F).</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s93"><labelingDescription>The dense plexus of labeled axons 
+      and terminal boutons</labelingDescription> in <labelingLocation>
+      the subparaventricular zone</labelingLocation> continues caudally 
+      toward <neuroanatomicalLocation>the tuberal 
+      region</neuroanatomicalLocation> to surround mainly 
+      <labelingLocation>dorsal and medial aspects of the ventromedial 
+      nucleus</labelingLocation> (Fig. 3G-K).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s94"><labelingDescription>A moderate number of these 
+      axons</labelingDescription> cross through <labelingLocation>
+      lateral parts of the arcuate nucleus</labelingLocation> (Fig. 
+      3H,I), although <labelingDescription>few of 
+      them</labelingDescription> actually give rise 
+      <labelingDescription>to terminal boutons</labelingDescription> 
+      within <labelingLocation>the nucleus</labelingLocation> 
+      itself.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s95">At the tuberal level, <labelingDescription>a number of 
+      fibers</labelingDescription> course dorsally to provide 
+      <labelingDescription>a moderately dense terminal 
+      plexus</labelingDescription> within <labelingLocation>the 
+      dorsomedial nucleus</labelingLocation> (Fig. 31-K).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s96"><labelingDescription>A smaller number of labeled 
+      axons</labelingDescription> at this level also run near 
+      <labelingLocation>the lateral and ventral borders of the 
+      ventromedial nucleus</labelingLocation>, as well as through 
+      rostral parts of <labelingLocation>the ventrolateral subdivision 
+      of this nucleus</labelingLocation> (Fig. 3H-J).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s97">In addition to innervating <labelingLocation>the 
+      cell-sparse shell around the ventromedial 
+      nucleus</labelingLocation>, <labelingDescription>some 
+      fibers</labelingDescription> from <connxOrigin>the ventral 
+      subiculum</connxOrigin> also appear to end in <labelingLocation>
+      caudal parts of both the central and the ventrolateral 
+      subdivisions of this nucleus</labelingLocation> (Figs. 3J,K, 
+      4D).</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s98"><labelingDescription>Labeled 
+      fibers</labelingDescription> from <labelingLocation>the medial 
+      corticohypothalamic tract</labelingLocation> continue on to 
+      <labelingLocation>the mammillary region</labelingLocation>, where 
+      they provide <labelingDescription>moderately dense 
+      inputs</labelingDescription> to <labelingLocation>the posterior 
+      periventricular nucleus, the ventral premammillary nucleus, 
+      ventral regions of the posterior nucleus, and the fiber capsule 
+      around the outside of the medial mammillary 
+      nucleus</labelingLocation> (Fig. 360).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s99">In fact, the results of our experiments indicate that 
+      <injectionLocation>the ventral subiculum</injectionLocation> 
+      innervates <labelingLocation>the posterior periventricular 
+      nucleus</labelingLocation> <labelingDescription>more 
+      densely</labelingDescription> than any other structure in 
+      <neuroanatomicalLocation>the periventricular 
+      zone</neuroanatomicalLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s100">In addition, we also observed at this level 
+      <labelingDescription>a few labeled fibers</labelingDescription> 
+      that appear to end in <labelingLocation>both the dorsal and 
+      ventral parts of the tuberomammillary nucleus</labelingLocation> 
+      (Fig. 3L,M).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s101">The caudalmost projection of <connxOrigin>the ventral 
+      subiculum</connxOrigin> appears to consist of 
+      <labelingDescription>a few axons</labelingDescription> coursing 
+      through <labelingLocation>the posterior hypothalamic 
+      nucleus</labelingLocation> that continue on to end in 
+      <labelingLocation>rostralmost parts of the periaqueductal gray, 
+      and the medial subdivision of the supramammillary 
+      nucleus</labelingLocation> (Fig. 3N,O).</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s102">Although the output of <connxOrigin>the ventral 
+      subiculum</connxOrigin> to <connxTermination>the 
+      hypothalamus</connxTermination> is largely ipsilateral, 
+      <labelingDescription>a small number of 
+      fibers</labelingDescription> were reliably found on 
+      <labelingLocation>the contralateral side of the 
+      brain</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s103">In general, the contralateral projections are directed 
+      to areas that contained the densest plexus of fibers 
+      ipsilaterally.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s104">Most of the labeled fibers cross the midline in 
+      <neuroanatomicalLocation>the ventral hippocampal commissure, the 
+      supraoptic commissures</neuroanatomicalLocation>, and in regions 
+      dorsal to the third ventricle, either through 
+      <neuroanatomicalLocation>the nucleus 
+      reuniens</neuroanatomicalLocation>, or more posteriorly, through 
+      <neuroanatomicalLocation>the supramammillary 
+      decussation</neuroanatomicalLocation>.</S>
+    </TTE>
+
+  </Results>
+
+  <Discussion>
+
+    <S avgH="27" class="discussion.heading" format="TimesNewRomanPSMT"
+     id="s105">DISCUSSION</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s106">The results of the present study confirm and extend what 
+    was previously known about projections from the ventral subiculum 
+    to the amygdala, septum, and hypothalamus, and are based on the 
+    PHAL method, whose now well-known advantages were referred to in 
+    the Introduction.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s107">Furthermore, they appear to be reliable to the extent 
+    that they were confirmed in all five experiments with injections 
+    centered in the ventral subiculum.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s108">Nevertheless, there are two major sources of confusion 
+    that render difficult the comparison of our results with the 
+    earlier literature: nomenclature and the geometry of the 
+    hippocampal formation.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s109">In a general way, it has been appreciated at least since 
+    the time of Lorente de NO (&apos;34) that there are clear 
+    differences in the cytoarchitecture of the subiculum along both the 
+    septotemporal and proximodistal (or mediolateral; transverse) axes, 
+    and it has since been shown that these differences are reflected in 
+    the connections of various regions of this cortical field (Swanson 
+    and Cowan, &apos;75, &apos;77; Swanson et al., &apos;87; Witter and 
+    Groenewegen, &apos;90; Witter et al., &apos;90).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s110">However, problems have arisen because different authors 
+    have defined in different ways the borders of the subiculum, with 
+    hippocampal field CAI on one side (proximally) and with the 
+    presubiculum on the other (distally); and because the relative 
+    positions of lesions or injection sites are difficult to appreciate 
+    in relation to the two cardinal axes, in sections cut in any of the 
+    standard planes of section, due to the highly folded nature of the 
+    hippocampal formation (see Swanson et al., &apos;87).</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s111">lherefore, it is important to point out that we have 
+    followed Blackstad&apos;s (&apos;56) definition of the borders of 
+    the subiculum, as have most workers since that time.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s112">There appears to be little remaining confusion about the 
+    distal border of the subiculum with the presubiculum (whose layer 
+    I1 is so distinct).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s113">It is the proximal border, with hippocampal field CAI, 
+    that is so problematic, especially ventrally where distinctions 
+    between the two cortical areas become progressively less clear as 
+    the temporal pole (and amygdala) is approached.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s114">Nevertheless, we have chosen to maintain the two 
+    criteria for the boundary that are relatively clear dorsally: the 
+    disappearance of the stratum oriens associated with field CAI at 
+    the proximal border of the subiculum, and the disappearance of the 
+    dense superficial layer of field CAI pyramidal cells at the 
+    proximal border of the subiculum (see Fig. 2 in Lorente de NO, 
+    &apos;34; and Fig. 2 in Blackstad, &apos;56).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s115">The &quot;prosubiculum&quot; as originally defined by 
+    the Vogts (&apos;19), Rose (&apos;261, and Lorente de NO (&apos;34) 
+    clearly falls within the subiculum as defined by Blackstad 
+    (&apos;56).</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s116">The second major problem associated with interpreting 
+    our results-the complex geometry of each hippocampal field-has been 
+    addressed by plotting the location of injection sites on an 
+    unfolded map of the hippocampal formation (Swanson et al., 
+    &apos;781, which allows topographical relationships to be 
+    appreciated much more clearly than in sections through the 
+    structure (see Fig. l), and by producing injection sites that were 
+    small enough to avoid spurious labeling of cell bodies in adjacent 
+    cortical (or amygdalar) areas that would label pathways not arising 
+    in the subiculum as defined here.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s117">With these caveats in mind, we can now discuss the 
+    relationship of our findings to the earlier literature, as well as 
+    their functional implications (Fig. 5 ) .</S>
+    <BR />
+
+    <S avgH="27" class="discussion.subtitle" format="TimesNewRomanPSMT"
+     id="s118">Input to the temporal lobe</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s119">Projections from the subiculum to the amygdala have been 
+    described in the rat (Ottersen, &apos;82; Groenewegen et al., 
+    &apos;87), cat (Russchen, &apos;821, and monkey (Rosene and Van 
+    Hoesen, &apos;77; Aggleton, &apos;86).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s120">In all three species, neurons located more ventrally 
+    appear to generate this projection.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s121">Our results indicate that efferent fibers from the 
+    ventral subiculum reach the amygdala by crossing obliquely through 
+    the angular bundle.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s122">These axons appear to innervate most densely caudal 
+    regions of the amygdala, where they provide a massive input to the 
+    posterior part of the basomedial nucleus, and a less dense input to 
+    nearby regions, including the caudal pole of the posterior part of 
+    the basolateral nucleus, the posterior nucleus, the posterior 
+    cortical nucleus, and the piriform-amygdaloid area.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s123">The present study is the first to document a projection 
+    to the posterior basomedial nucleus, by far the densest target of 
+    ventral subicular outputs within the amygdala.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s124">Using fluorogold as a retrograde tracer, we were able to 
+    confirm this projection, which also appears to contain fibers that 
+    may arise in adjacent, ventral parts of field CA1 (N.S.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s125">Canteras and L.W.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s126">Swanson, unpublished observations).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s127">A projection from the ventral subiculum to the posterior 
+    cortical nucleus has also been reported by Ottersen (&apos;821, in 
+    the rat, using horseradish peroxidase (HRP) as a retrograde tracer; 
+    according to this author ventral parts of field CA1 project more 
+    densely to this nucleus.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s128">A smaller number of efferent fibers from the ventral 
+    subiculum continue rostrally though the amygdala, providing inputs 
+    mainly to the central nucleus, the medial nucleus, the adjacent 
+    intercalated nuclei, and the nucleus of the lateral olfactory 
+    tract.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s129">In the central nucleus, a relatively dense terminal 
+    field was observed in the caudalmost pole of the lateral 
+    subdivision, whereas at more rostra1 levels labeled axons were 
+    preferentially located in the capsular subdivision.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s130">In the medial nucleus, the projection was mainly 
+    directed to the anterodorsal and the posteroventral 
+    subdivisions.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s131">In agreement with the present results, Ottersen 
+    (&apos;82) reported a few retrogradely labeled cells in the ventral 
+    subiculum following injections of HRP into the medial nucleus or 
+    the central nucleus of the rat amygdala.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s132">While a projection from the ventral subiculum to the 
+    nucleus of the lateral olfactory tract has not been specifically 
+    described in the past, Groenewegen et al. (&apos;87) did illustrate 
+    without comment anterogradely labeled fibers in this nucleus after 
+    injections of PHAL into the ventral subiculum of the rat.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s133">In all of the experiments analyzed in the present study, 
+    the basolateral and lateral nuclei of the amygdala received only a 
+    few labeled fibers, except for the caudal pole of the posterior 
+    basolateral nucleus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s134">In his studies on the connections of the amygdala in the 
+    rat, Ottersen (&apos;82) reported only a few retrogradely labeled 
+    neurons in the ventral subiculum after injections of HRP into the 
+    basolateral or lateral nuclei, although the temporal third of field 
+    CA1 in these experiments did contain a larger number of labeled 
+    neurons.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s135">A projection from the temporal third of field CAI to the 
+    basolateral nucleus has also been reported recently in the rat with 
+    the PHAL method (Van Groen and Wyss, &apos;90).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s136">In contrast to what has just been discussed for the rat, 
+    there is as yet no evidence in the monkey (Rosene and Van Hoesen, 
+    &apos;77; Aggleton, &apos;86) or cat (Russchen, &apos;82) for a 
+    direct projection from field CA1 to the amygdala.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s137">Another component of the hippocampal formation, the 
+    lateral entorhinal area, also provides a dense input to the 
+    amygdala that is especially directed to the lateral and basolateral 
+    nuclei (Wyss, &apos;81; Swanson and Kohler, &apos;86).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s138">In view of what has been discussed thus far, projections 
+    from the hippocampal formation to the amygdala appear to have a 
+    certain topographic organization in the rat.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s139">Thus, the lateral and basolateral nuclei receive inputs 
+    mainly from the lateral entorhinal area and/or temporal regions of 
+    field CA1, whereas the ventral subiculum projects especially 
+    densely to the posterior part of the basomedial nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s140">The latter also receives a very dense projection from 
+    the lateral nucleus of the amygdala (Krettek and Price, &apos;78b), 
+    and is thus in a position to integrate cortical information known 
+    to converge upon the lateral nucleus (see Ottersen, &apos;82; Price 
+    et al., &apos;87) with information processed in the hippocampal 
+    formation.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s141">It should also be pointed out that the posterior 
+    basomedial nucleus shares several targets in common with the 
+    ventral subiculum, including the nucleus accumbens, the bed nuclei 
+    of the stria terminalis, the ventromedial nucleus of the 
+    hypothalamus, and the ventral premammillary nucleus (Krettek and 
+    Price, &apos;78a).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s142">In view of evidence presented here that the posterior 
+    basomedial nucleus is an important relay for information generated 
+    in the hippocampal formation, a detailed analysis of the 
+    projections of this nucleus with the PHAL method would clearly be 
+    useful.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s143">Before we compare results on the projections of the 
+    ventral subiculum to the amygdala in the rat with what has been 
+    reported for the cat (Russchen, &apos;82) and monkey (Rosene and 
+    Van Hoesen, &apos;77; Aggleton, &apos;86), it is necessary to point 
+    out that correlations of this type should be viewed with some 
+    caution until homologies between various amygdalar cell groups are 
+    clarified more fully in different species.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s144">Be that as it may, in the cat, Russchen (&apos;82) found 
+    retrogradely labeled neurons in the ventral subiculum after tracer 
+    injections in the central nucleus, in the posterolateral part of 
+    the posterior cortical nucleus, or in the latter combined with the 
+    basomedial nucleus, in agreement with our PHAL studies in the 
+    rat.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s145">Furthermore, Russchen (&apos;82) found no evidence of 
+    retrograde labeling in the ventral subiculum following tracer 
+    injections in the lateral or basolateral nuclei of the amygdala, 
+    which is also in essential agreement with our results.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s146">Autoradiographic studies in the monkey (Rosene and Van 
+    Hoesen, &apos;77; Aggleton, &apos;86) indicate that the ventral 
+    subiculum projects most densely to medial and caudal regions of the 
+    parvicellular part of the basal nucleus, which has been said to 
+    correspond to what we call here in the rat the posterior 
+    basolateral nucleus (see Price et al., &apos;87).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s147">The autoradiographic evidence also indicates that the 
+    ventral subiculum in the monkey projects less densely to the 
+    central and medial nuclei of the amygdala, as well as to the 
+    periamygdaloid cortex, which corresponds to the piriformamygdaloid 
+    area plus the lateral part of the posterior cortical nucleus in the 
+    subdivision scheme we have adopted here for the rat (compare Price 
+    et al., &apos;87 with Canteras et al., &apos;92a).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s148">Based on our results, the projection of the ventral 
+    subiculum upon the amygdala is very similar in the monkey and rat 
+    if we regard (as seems plausible to us) medial areas of the 
+    parvicellular basal nucleus in the monkey as homologous to the 
+    posterior basomedial nucleus in the rat.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s149">However, Price et al. (&apos;87) suggested that the 
+    posterior basomedial nucleus of the present account corresponds to 
+    the accessory basal nucleus in the monkey.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s150">The present connectional information suggests that 
+    further work is needed to evaluate this homology.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s151">For the sake of completeness, it should be mentioned 
+    that we confirmed the well-known topographic input from the 
+    subiculum to the entorhinal area (for review see Swanson et al., 
+    &apos;87), as well as the recently described (Groenewegen et al., 
+    &apos;87; Witter et al., &apos;88) input to the dorsal endopiriform 
+    nucleus; in addition, labeled fibers that appear to be related in a 
+    general way to these projections were observed in the cellular 
+    layers of adjacent olfactory cortical regions, including the 
+    piriform area, and area TR, as well as in the claustrum, and deep 
+    layers of the agranular insular and perirhinal areas (see also Fig. 
+    3 in Groenewegen et al., &apos;87).</S>
+    <BR />
+
+    <S avgH="28" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s152">Input to the septum</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s153">Projections from the hippocampal formation to the bed 
+    nuclei of the stria terminalis appear to arise almost exclusively 
+    from neurons in more ventral parts of the subiculum (Swanson et 
+    al., &apos;871, and reach the BST mainly by way of the 
+    precommissural component of the fornix.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s154">The projection from the ventral subiculum to the BST 
+    described here is similar to our earlier observations in the rat 
+    (Swanson and Cowan, &apos;77) using the autoradiographic method.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s155">However, the PHAL study here provides a more thorough 
+    analysis in terms of inputs to the various subdivisions of the BST 
+    recently described by Ju and Swanson (&apos;89).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s156">In the anterior division of the BST, anterogradely 
+    labeled fibers and terminal boutons from the ventral subiculum were 
+    distributed preferentially to the anterodorsal area, and to a 
+    lesser extent the anteroventral area, whereas the anterolateral 
+    area contained only a few PHAL-immunoreactive axons.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s157">In the posterior division of the BST, the 
+    interfascicular and the transverse nuclei receive a dense plexus of 
+    fibers, which tend to avoid the adjoining principal nucleus, where 
+    only a very few anterogradely labeled fibers were observed.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s158">In addition, the contralateral BST contained a few 
+    labeled fibers that were particularly obvious in regions that 
+    appear to be more densely innervated on the ipsilateral side of the 
+    brain.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s159">The BST receives massive inputs from the ventral 
+    subiculum and from many parts of the amygdala (see Krettek and 
+    Price, &apos;78a; Canteras et al., &apos;92a).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s160">From this point of view, the ventral subiculum is more 
+    like adjacent parts of the amygdala than the rest of the 
+    hippocampal formation, especially when its projections to the 
+    hypothalamus are also taken into account (Swanson et al., 
+    &apos;87).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s161">However, it is important to note that the posterior 
+    nucleus of the amygdala, which lies directly adjacent to the 
+    ventral subiculum, gives rise to a distinct pattern of projections 
+    to the BST and hypothalamus (see Canteras et al., &apos;92a), as 
+    discussed below.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s162">Thus, the ventral subiculum projects massively to the 
+    transverse and interfascicular nuclei in the posterior division 
+    (like the posterior cortical nucleus, and several parts of the 
+    medial nucleus of the amygdala), whereas the posterior nucleus of 
+    the amygdala projects massively to the principal nucleus of the 
+    posterior division of the BST (like the posterodorsal part of the 
+    medial nucleus of the amygdala).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s163">It is thus interesting to note that specific populations 
+    of cells in the BST (such as the transverse and interfascicular 
+    nuclei) may be directly influenced by information processed within 
+    both the amygdala and the trisynaptic circuit of the hippocampal 
+    formation.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s164">As suggested by previous autoradiographic studies, the 
+    projections from the BST include a very widespread input to the 
+    hypothalamus, as well as inputs to the nucleus accumbens, to 
+    several parts of the thalamus, and to widespread parts of the 
+    brainstem (Swanson and Cowan, &apos;79; Holstege et al., 
+    &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s165">However, to provide reliable clues about the possible 
+    functional significance of the direct projection from the 
+    hippocampal formation to specific parts of the BST, it will be 
+    necessary to characterize the specific patterns of outputs from 
+    these particular cell groups in the BST.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s166">As illustrated in Figure 3, fibers from the 
+    precommissural fornix also continue rostrally to and through 
+    ventral and intermediate parts of the lateral septal nucleus as 
+    well as to the nucleus accumbens.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s167">This projection, along with its continuation to the 
+    anterior olfactory nucleus and the medial prefrontal region is well 
+    known (see Swanson and Cowan, &apos;77; Swanson, &apos;81; 
+    Groenewegen et al., &apos;87; Jay and Witter, &apos;91).</S>
+    <BR />
+
+    <S avgH="27" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s168">Input to the 
+    hypothalamus</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s169">Massive projections from the ventral subiculum to the 
+    hypothalamus have been reported with both anterograde (Swanson and 
+    Cowan, &apos;75, &apos;77; Meibach and Siegel, &apos;77; Krettek 
+    and Price, &apos;78a; Kohler, &apos;90; Witter and Groenewegen, 
+    &apos;90) and retrograde tracing techniques (Berk and Finkelstein, 
+    &apos;81; Zaborsky, &apos;82; Ono et al., &apos;85; Simerly and 
+    Swanson, &apos;86; Fahrbach et al., &apos;89).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s170">Efferent fibers from the ventral subiculum reach the 
+    hypothalamus primarily by way of the medial corticohypothalamic 
+    tract, and to a much lesser extent through the precommissural 
+    component of the fornix and the ansa peduncularis (after passing 
+    through the amygdala).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s171">In a study of subicular projections to the hypothalamus 
+    with the PHAL, method, Kohler (&apos;90) reported labeled axons in 
+    the postcommissural fornix as it passes through the lateral 
+    hypothalamic area.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s172">However, no labeled fibers coursing through the 
+    postcommissural fornix were observed in any of our experiments.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s173">This discrepancy would easily be explained if his 
+    injection sites spread to involve somewhat more dorsal parts of 
+    this cortical field, which are known to project to the hypothalamus 
+    by way of the postcommissural fornix (Swanson and Cowan, &apos;75, 
+    &apos;77; Meibach and Siegel, &apos;77; Witter and Groenewegen, 
+    &apos;90; Witter et al., &apos;90).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s174">This interpretation is strengthened by the fact that 
+    labeled fibers in the postcommissural fornix have not been reported 
+    in previous autoradiographic studies of the ventralmost parts of 
+    the subiculum (Swanson and Cowan, &apos;77; Meibach and Siegel, 
+    &apos;77; Krettek and Price, &apos;78a).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s175">We have confirmed an extensive, largely ipsilateral 
+    projection from the ventral subiculum to the entire rostrocaudal 
+    extent of the hypothalamus that appears to be mainly directed to 
+    regions lying in the medial zone (Swanson and Cowan, &apos;75, 
+    &apos;77; Meibach and Siegel, &apos;77; Krettek and Price, 
+    &apos;78a).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s176">In the preoptic region, undifferentiated parts of the 
+    medial preoptic area, as well as the lateral subdivision of the 
+    medial preoptic nucleus, receive a dense input, whereas a smaller 
+    number of labeled fibers end in the anteroventral periventricular 
+    nucleus and in the medial subdivision of the medial preoptic 
+    nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s177">As suggested by the results of previous retrograde 
+    tracer studies (Berk and Finkelstein, &apos;81; Simerly and 
+    Swanson, &apos;86), neurons in the temporal pole that project to 
+    the medial zone of the preoptic region lie chiefly in the medial 
+    and posterior nuclei of the amygdala, as well as in ventral parts 
+    of the subiculum.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s178">However, in contrast to what was just described for the 
+    subiculum, the posterodorsal part of the medial nucleus and the 
+    posterior nucleus of the amygdala appear to project much more 
+    heavily to the anteroventral periventricular nucleus, as well as to 
+    the medial subdivision of the medial preoptic nucleus (Simerly et 
+    al., &apos;89; Canteras et al., &apos;92a).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s179">This is important because each cell group in the medial 
+    preoptic region gives rise to a distinct pattern of projections.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s180">Thus, the medial subdivision of the medial preoptic 
+    nucleus and the anteroventral periventricular nucleus project 
+    heavily to all of the parvicellular neurosecretory regions of the 
+    periventricular zone of the hypothalamus, whereas the 
+    undifferentiated regions of the medial preoptic area and the 
+    lateral subdivision of the medial preoptic nucleus give rise to 
+    massive projections to the septal region and the brainstem (Simerly 
+    and Swanson, &apos;88).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s181">In the anterior hypothalamic region, the ventral 
+    subiculum provides a very dense plexus of fibers and terminal 
+    boutons to a narrow vertical region that lies between the anterior 
+    hypothalamic nucleus and the periventricular zone, a region that we 
+    had earlier referred to as the subparaventricular zone (Watts et 
+    al., &apos;87).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s182">Very few terminal boutons were found within the 
+    suprachiasmatic nucleus itself.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s183">As previously reported in the autoradiographic studies 
+    (Swanson and Cowan, &apos;75, &apos;77; Meibach and Siegel, 
+    &apos;77; Krettek and Price, &apos;78a), at the tuberal level of 
+    the hypothalamus, the ventral subiculum provides a dense terminal 
+    field to the cell-sparse &quot;shell&quot; surrounding the 
+    ventromedial nucleus, particularly in regions where this nucleus 
+    adjoins the dorsomedial nucleus and the periventricular zone.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s184">In addition, we found that a number of these fibers also 
+    end within the cellular &quot;core&quot; of caudal regions of the 
+    central and ventrolateral subdivisions of this nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s185">We also found at tuberal levels a moderate projection to 
+    all parts of the dorsomedial nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s186">This cell group may represent an important interface 
+    between the ventral subiculum and parvicellular neurons that 
+    secrete hormones into the hypophyseal portal system, since it 
+    provides a massive projection to neurosecretory regions of the 
+    paraventricular nucleus, the anterior periventricular nucleus, and 
+    the arcuate nucleus, which are known to contain most of the 
+    neurosecretory cells directly involved in neuroendocrine control 
+    mechanisms (see Swanson, &apos;871, and according to our 
+    observations appear to receive only a sparse direct innervation 
+    from the ventral subiculum itself.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s187">This implies that the ventral subiculum has little if 
+    any direct influence on the perikarya of neurosecretory 
+    motoneurons, although clearly, their dendrites may extend into the 
+    terminal fields described.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s188">Immediately caudal to the tuberal region we also found a 
+    moderately dense projection to the posterior periventricular 
+    nucleus, the ventral premammillary nucleus, and ventral parts of 
+    the posterior hypothalamic nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s189">The projection to the ventral premammillary nucleus has 
+    been reported previously with the autoradiographic method (Swanson 
+    and Cowan, &apos;77; Meibach and Siegel, &apos;77; Krettek and 
+    Price, &apos;78a), and we have shown recently that this nucleus in 
+    turn provides massive inputs to the periventricular subdivision of 
+    the paraventricular nucleus, all parts of the periventricular 
+    nucleus, and the arcuate nucleus (Canteras et al., &apos;92b).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s190">Therefore, it may represent another gateway for the 
+    ventral subiculum to influence neurosecretory motoneurons.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s191">In complete agreement with previous autoradiographic 
+    studies (Swanson and Cowan, &apos;77; Meibach and Siegel, ,771, we 
+    also observed at the level of the mammillary complex that the 
+    ventral subiculum gives rise to a dense plexus of fibers in the 
+    cell-free region surrounding the medial mammillary nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s192">On the other hand, the cellular &quot;core&quot; of this 
+    nucleus, which appears to receive very few labeled fibers in the 
+    experiments analyzed here, clearly is the major hypothalamic target 
+    of neurons in the dorsal subiculum (Swanson and Cowan, &apos;75, 
+    &apos;77; Meibach and Siegel, &apos;77; Witter and Groenewegen, 
+    &apos;90; Witter et al., &apos;90).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s193">Since the cell-free zone contains the distal dendrites 
+    of medial mammillary neurons (see Ramon y Cajal, &apos;111, the 
+    evidence suggests that the dorsal subiculum innervates the cell 
+    bodies of medial mammillary neurons whereas the ventral subiculum 
+    innervates distal parts of their dendrites.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s194">Hypothalamic regions that receive direct inputs from the 
+    ventral subiculum are thought to play an important role in the 
+    initiation of motivated or goal-oriented behavior and in the 
+    regulation of endocrine responses (see Swanson, &apos;87).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s195">The importance of these observations is further 
+    strengthened by the fact that this hippocampal field appears to 
+    relay information from widespread cortical areas (see 
+    Introduction), and is therefore in a position to modulate important 
+    anticipatory adjustments to endocrine and behavioral responses 
+    integrated at the level of the hypothalamus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s196">One example of the possible involvement of the ventral 
+    subiculum in anticipatory adjustments of hormone levels was 
+    reported by Fischette et al. ( 801, who disrupted the diurnal 
+    rhythm of plasma adrenal glucocorticoid levels after lesions that 
+    selectively interrupt the medial corticohypothalamic tract, which 
+    arises almost exclusively from the ventral subiculum.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s197">The diurnal rhythm of plasma glucocorticoids is also 
+    regulated by the suprachiasmatic nucleus, the endogenous circadian 
+    rhythm generator (for references see Watts et al., 87).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s198">One of the most interesting features to emerge from the 
+    present study is that the pattern of projections from the ventral 
+    subiculum to the septum and hypothalamus overlaps almost precisely 
+    with the efferent projections of the suprachiasmatic nucleus (Watts 
+    et al., 87).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s199">Thus, it is tempting to suggest that basal forebrain 
+    circuits controlling behavioral state and neuroendocrine responses 
+    receive convergent inputs from the suprachiasmatic nucleus and the 
+    ventral subiculum, the former concerned with providing a circadian 
+    bias, and the latter with anticipatory biases related to the 
+    previous experience of the animal.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s200">In conclusion, the present observations expand in a 
+    number of ways what has been reported previously about the 
+    projections of the ventral subiculum to the amygdala, septum, and 
+    hypothalamus, providing further insights into possible hippocampal 
+    influences on endocrine and behavioral responses.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s201">However, it is important to emphasize that our 
+    experimental observations are limited to the outputs of the 
+    temporal end (ventralmost pole) of the subiculum; thus, further 
+    work is required to provide a more complete picture of the 
+    projections of the cortical field examined in the present work.</S>
+  </Discussion>
+
+  <Acknowledgements>
+
+    <S avgH="28" class="acknowledgements.heading"
+     format="TimesNewRomanPS-BoldMT" id="s202">ACKNOWLEDGMENTS</S>
+    <BR />
+
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s203">We thank Mr.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s204">David Warren for document 
+    preparation, and Mr.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s205">Kris Trulock for photographic 
+    assistance.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s206">This work was supported in 
+    part by CNPq Fellowship 200969/ 90-0, FAPESP Fellowship 88/1289-0 
+    to N.S.C., and NINDS 2ROlNS16686 to L.W.S.</S>
+  </Acknowledgements>
+
+  <References>
+
+    <S avgH="28" class="references.heading"
+     format="TimesNewRomanPS-BoldMT" id="s207">LITERATURE CITED</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s208">Aggleton, J.P. (1986) A description of the 
+    amygdalo-hippocampal interconnections in the macaque monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s209">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s210">Brain Res. 64t515-526.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s211">Berk, M.L., and J.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s212">Finkelstein (1981) Afferent projections to the preoptic 
+    area and hypothalamic regions in the rat brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s213">Neuroscience 6:16011624.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s214">Blackstad, T.W. (1956) Commissural connections of the 
+    hippocampal region in the rat, with special reference to their mode 
+    of termination.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s215">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s216">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s217">Neurol. 105:417-438.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s218">Canteras, N.S., R.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s219">Simerly, and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s220">Swanson (1992a) The projections of the posterior nucleus 
+    of the amygdala.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s221">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s222">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s223">Neurol. 324: 143-179.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s224">Canteras, N.S., R.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s225">Simerly, and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s226">Swanson (1992b) The projections of the ventral 
+    premammillary nucleus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s227">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s228">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s229">Neurol. 324:195-212.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s230">Fahrbach, S.E., J.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s231">Morrell, and D.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s232">Pfaff (1989) Studies of ventromedial hypothalamic 
+    afferents in the rat using three methods of HRP application.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s233">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s234">Brain Res. 77:221-233.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s235">Fischette, C.T., B.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s236">Komisaruk, H.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s237">Edinger, H.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s238">Feder, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s239">Siegel (1980) Differential fornix ablations and the 
+    circadian rhythmicity of adrenal corticosteroid secretion.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s240">Brain Res. 195373-387.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s241">Gerfen, C.R., and P.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s242">Sawchenko (1984) An anterograde neuroanatomical tracing 
+    method that shows the detailed morphology of neurons, their axons 
+    and terminals: Immunohistochemical localization of an axonally 
+    transported plant lectin, Phaseolus uulgaris leucoagglutinin 
+    (PHA-L).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s243">Brain Res. 290:219-238.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s244">Groenewegen, H.J., E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s245">Vermeulen-Van der Zee, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s246">Te Kortschot, and M.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s247">Witter (1987) Organization of the projections from the 
+    subiculum to the ventral striatum in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s248">A study using anterograde transport of Phaseolus 
+    uulgaris leucoagglutinin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s249">Neuroscience 23: 103-120.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s250">Holstege, G., L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s251">Meiners, and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s252">Tan (1985) Projections of the bed nucleus of the stria 
+    terminalis to the mesencephalon, pons, and medulla oblongata in the 
+    cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s253">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s254">Brain Res. 58:379-391.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s255">Hsu, S.M., and L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s256">Raine (1981) Protein A, avidin and biotin in 
+    immunohistochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s257">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s258">Histochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s259">Cytochem. 29:1349-1353.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s260">Hsu, S.M., L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s261">Raine, and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s262">Fanger (1981) The use of avidin-biotinperoxidase complex 
+    (ABC) in immunoperoxidase techniques: A comparison between ABC and 
+    unlabeled antibody (PAP) procedures.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s263">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s264">Histochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s265">Cytochem. 29:577-580.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s266">Jay, T.M., and M.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s267">Witter (1991) Distribution of hippocampal CA1 and 
+    subicular efferents in the prefrontal cortex of the rat studied by 
+    means of anterograde transport of Phaseolus 
+    vulgaris-leucoagglutinin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s268">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s269">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s270">Neurol. 313:574-586.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s271">G., and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s272">Swanson (1989) Studies on the cellular architecture of 
+    the bed nuclei of the stria terminalis in the rat: I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s273">Cytoarchitecture.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s274">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s275">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s276">Neurol. 280:587-602.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s277">Kohler, C. (1990) Subicular projections to the 
+    hypothalamus and brainstem: Some novel aspects revealed in the rat 
+    by the anterograde Phaseolus uulgaris leukoagglutinin (PHA-L) 
+    tracing method.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s278">Prog.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s279">Brain Res. 83:59-69.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s280">Krettek, J.E., and J.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s281">Price (1978a) Amygdaloid projections to subcortical 
+    structures within the basal forebrain and brainstem in the rat and 
+    cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s282">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s283">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s284">Neurol. 178.225-254.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s285">Krettek, J.E., and J.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s286">Price (1978b) A description of the amygdaloid complex in 
+    the rat and cat with observations on intra-amygdaloid axonal 
+    connections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s287">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s288">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s289">Neurol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s290">I78:255-280.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s291">Lorente de NO, R. (1934) Studies on the structure of the 
+    cerebral cortex. 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s292">Continuation of the study of the Ammonic system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s293">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s294">Psychol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s295">Neurol. 46t113-177.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s296">Meibach, R.C., and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s297">Siegel (1977) Efferent connections of the hippocampal 
+    formation in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s298">Brain Res. 124:197-224.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s299">Ono, T., P.G.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s300">Luiten, H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s301">Nishijo, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s302">Fukuda, and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s303">Nishino Topographic organization of projections from the 
+    amygdala hypothalamus in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s304">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s305">Res. 2:221-239.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s306">Ottersen, O.P. (1982) Connections of the amygdala of the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s307">IV Corticoamygdaloid and intraamygdaloid connections as 
+    studied with axonal transport of horseradish peroxidase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s308">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s309">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s310">Neurol. 205:3048.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s311">Price, J.L., F.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s312">Russchen, and D.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s313">Amaral (1987) The limbic region. 11: The amygdaloid 
+    complex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s314">In T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s315">Hokfelt, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s316">Bjorklund, and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s317">Swanson (eds): Handbook of Chemical Neuroanatomy, Vol. 
+    5, Integrated Systems.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s318">Amsterdam: Elsevier, pp. 279-388.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s319">Ramon y Cajal, S. (1911) Histologie du Systeme Nerveux 
+    de I Homme et des Vertebres.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s320">Paris: A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s321">Maloine.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s322">Rose, M. (1926) Der Allocortex bei Tier und Neurol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s323">(Lpz.) 34:l-111.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s324">Rosene, D.L., and G.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s325">Van Hoesen (1977) Hippocampal efferents reach widespread 
+    areas of cerebral cortex and amygdala in the rhesus monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s326">Science 198:3 15-3 17.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s327">Russchen, F.T. (1982) Amygdalopetal projections in the 
+    cat: I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s328">Cortical afferent connections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s329">A study with retrograde and anterograde tracing 
+    techniques.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s330">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s331">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s332">Neurol. 206r159-179.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s333">Simerly, R.B., and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s334">Swanson (1986) The organization of neural inputs to the 
+    medial preoptic nucleus of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s335">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s336">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s337">Neurol. 246:312-342.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s338">Simerly, R.B., and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s339">Swanson (1988) Projections of the medial preoptic 
+    nucleus: A Phaseolus uulgaris leucoagglutinin anterograde 
+    tract-tracing study in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s340">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s341">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s342">Neurol. 270:209-242.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s343">Simerly, R.B., L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s344">Swanson, and R.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s345">Gorski (1984) Demonstration of a sexual dimorphism in 
+    the distribution of serotonin-imrnunoreactive fibers in the medial 
+    preoptic nucleus of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s346">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s347">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s348">Neurol. 225: 15 1-166.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s349">Simerly, R.B., B.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s350">Young, M.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s351">Capozza, and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s352">Swanson (1989) Estrogen differentially regulates 
+    neuropeptide gene expression in a sexually dimorphic olfactory 
+    pathway.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s353">Proc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s354">Natl.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s355">Acad.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s356">Sci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s357">U.S.A. 86:47664770.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s358">Swanson, L.W. (1981) A direct projection from Ammon s 
+    horn to prefrontal cortex in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s359">Brain Res. 21 7:150-154.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s360">Swanson, L.W. (1987) The hypothalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s361">In T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s362">Hokfelt, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s363">Bjorklund, and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s364">Swanson (eds): Handbook of Chemical Neuroanatomy, 
+    Integrated Systems.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s365">Amsterdam: Elsevier, pp. 1-124.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s366">Swanson, L.W. (1992) Brain Maps: Structure of the Rat 
+    Brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s367">Amsterdam: Elsevier, in press.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s368">Swanson, L.W., and W.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s369">Cowan (1975) Hippocampo-hypothalamic connections: Origin 
+    in subicular cortex not Ammon s horn.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s370">Science 189t303304.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s371">Swanson, L.W., and W.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s372">Cowan (1977) An autoradiographic study of the 
+    organization of the efferent connections of the hippocampal 
+    formation in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s373">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s374">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s375">Neurol. 172t49-84.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s376">Swanson, L.W., and W.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s377">Cowan (1979) The connections of the septal region in the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s378">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s379">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s380">Neurol. 186t621-656.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s381">Swanson, L.W., and C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s382">Kohler (1986) Anatomical evidence for direct projections 
+    from the enthorhinal area to the entire cortical mantle in the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s383">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s384">Neurosci. 6;3010-3023.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s385">Swanson, L.W., and D.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s386">Simmons (1989) Differential steroid hormone and neural 
+    influences on peptide mRNA levels in CRH cells of the 
+    paraventricular nucleus: A hybridization histochemical study in the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s387">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s388">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s389">Neurol. 285t413-435.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s390">Swanson, L.W., J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s391">Wyss, and W.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s392">Cowan (1978) An autoradiographic study of the 
+    organization of intrahippocampal association pathways in the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s393">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s394">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s395">Neurol. 181t681-716.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s396">Swanson, L.W., C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s397">Kohler, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s398">Bjorklund (1987) The limbic region.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s399">I: The septohippocampal system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s400">In T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s401">Hokfelt, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s402">Bjorklund, and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s403">Swanson (eds): Handbook of Chemical Neuroanatomy, vol. 
+    5, Integrated Systems.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s404">Amsterdam: Elsevier, pp. 125-277.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s405">Van Groen, T., and J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s406">Wyss (1990) Extrinsic projections from area CA1 of the 
+    rat hippocampus: Olfactory, cortical, subcortical, and bilateral 
+    hippocampal formation projections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s407">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s408">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s409">Neurol. 302t515-528.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s410">Vogt, C., and 0.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s411">Vogt (1919) Allgemeine Ergebnisse unserer 
+    Hirnforschung.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s412">Vierte Mitteilung: Die physiologische Bedeutung der 
+    architektonischen Rindenfelderung auf Grund neuer 
+    Rindenreizungen.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s413">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s414">Psychol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s415">Neurol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s416">(Lpz.) 25.279462.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s417">Watts, A.G., L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s418">Swanson, and G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s419">Sanchez-Watts (1987) Efferent projections of the 
+    suprachiasmatic nucleus: I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s420">Studies using anterograde transport of Phaseolus 
+    uulgaris leucoagglutinin in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s421">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s422">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s423">Neurol. 258t204-229.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s424">Witter, M.P., and H.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s425">Groenewegen (1990) The subiculum: Cytoarchitectonically 
+    a simple structure, but hodologically complex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s426">Prog.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s427">Brain Res.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s428">83t47-58.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s429">Witter, M.P., P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s430">Room, H.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s431">Groenewegen, and A.H.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s432">Lohman (1988) Reciprocal connections of the insular and 
+    piriform claustrum with limbic cortex: An anatomical study in the 
+    cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s433">Neuroscience 24t519-539.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s434">Witter, M.P., R.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s435">Ostendorf, and H.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s436">Groenewegen (1990) Heterogeneity in the dorsal subiculum 
+    of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s437">Distinct neuronal zones project to different cortical 
+    and subcortical targets.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s438">Eur.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s439">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s440">Neurosci. 2:71&amp;725.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s441">Wouterlood, F.G., and H.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s442">Groenewegen (1985) Neuroanatomical tracing by use of 
+    Phaseolus uulgaris-leucoagglutinin (PHA-L) electron microscopy of 
+    PHA-L filled neuronal somata, dendrites, axons, and axon 
+    terminals.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s443">Brain Res. 326t188-191.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s444">Wyss, J.M. (1981) An autoradiographic study of the 
+    efferent connections of the entorhinal cortex in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s445">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s446">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s447">Neurol. 199t495-512.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s448">Zaborszky, L. (1982) Afferent connections of the medial 
+    basal hypothalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s449">Adv.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s450">Anat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s451">Embryol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s452">Cell Biol. 69:l-107.</S>
+  </References>
+
+</File>
+

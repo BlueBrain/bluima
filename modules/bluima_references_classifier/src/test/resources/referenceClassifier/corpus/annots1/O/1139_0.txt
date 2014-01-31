@@ -1,0 +1,11 @@
+For classification, we use the support vector ma-chine as implemented in SVMlight (for the un-typed undirected task) and SVMmulticlass (for the
+typed directed task) by Joachims (1999). All
+experiments are performed using ten-fold crossvalidation. Examples are divided into ten sets on
+the basis of articles, avoiding the information leak
+between training and testing described by Sætre et
+al. (2007). For each of the ten folds, the classifier
+is trained on the union of eight of the sets. One
+set is used for a grid search for the optimal SVM
+regularization parameter C and the remaining set
+is the test set, separating parameter selection from
+testing.

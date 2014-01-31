@@ -1,0 +1,10 @@
+Figure 9. Spike-triggered averages of Vmd, synaptic currents, and channel currents. Spike-triggered averages were constructed for three sets of ISIs from 7 sec
+of simulation with 30 Hz gc and 1 Hz sc input. The ISI distribution for this level of input is shown in Figure 7C. Set 1 included 74 ISIs of 10 –13 msec, set 2 included
+32 ISIs of 16 –20 msec, and set 3 included 39 ISIs of 30 –50 msec. An upper and lower 95% confidence limit (1.7 SEs) is shown for each spike-triggered average
+as a pair of dashed traces. Vertical dashed lines denote the timing of dendritic traces with respect to the peak depolarization in the soma with each spike. Traces
+on the left are aligned to the initial spike in each ISI, and traces on the right are aligned to the terminating spike. A, Spike-triggered average of Vmd. B,
+Spike-triggered average of synaptic conductances summed for all gc inputs (G gc) and all sc inputs (G sc) in Siemens × 10e-9. Note that the total sc conductance
+is more than twice the amplitude of the gc conductance. C, Spike-triggered average of summed gc and sc currents (I syn). Note that the peak in synaptic current
+with each somatic spike is not a result of synaptic input but of the change in driving forces for gc and sc conductances with spike-related dendritic depolarization.
+D, Spike-triggered average of summed Ca and K currents (I chan). The inward peak of current after each somatic spike is a result of the activation of CaP
+conductance with spike-related dendritic depolarization.

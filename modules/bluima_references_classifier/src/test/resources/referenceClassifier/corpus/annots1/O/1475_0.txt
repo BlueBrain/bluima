@@ -1,0 +1,75 @@
+elegans were 8,930, 17,556, and 76,452 configurations for two-node
+permutations and 830,490, 2,299,836, and 21,024,300 configurations
+for three-node permutations, respectively.
+Similar simulating annealing approaches were employed to create
+benchmark networks in which components were rearranged for
+maximum total wiring length, or in which connections were rewired
+to minimize or maximize average path lengths across the network. In
+each case, 20 runs of simulated annealing were performed and the
+minimal or maximal values were chosen as lower or upper limit for
+the benchmark, respectively.
+Minimal rewiring of networks. To investigate the role of longdistance connections in neural systems, we also compared the
+original networks with networks of the same size (that is, with an
+identical number of nodes and connections) that had been rewired
+with the shortest possible connections. In order to generate such
+minimally rewired networks, possessing a greatly reduced proportion of long-distance connections, we employed the following
+procedure.
+Starting with the spatial configuration of nodes in the original
+networks, but without edges, a minimum spanning tree was
+generated, to ensure that the resulting network would be connected.
+The minimum spanning tree for N nodes consists of N  1 edges such
+that all nodes are part of the network and the total wiring length of
+all edges is minimal (compare [43]). The application of this initial step
+was required, since wiring of only the shortest available distances in C.
+elegans produced a fragmented network with multiple compartments.
+For the more densely connected cortical network of the primate, in
+contrast, the wiring of only the shortest distances already resulted in
+a connected network. However, for consistency, we started by
+creating the minimum spanning tree for both C. elegans and primate
+cortical networks. This constituted a conservative approach with
+regard to the subsequent computation of average path lengths.
+In the next step, all pairwise distances of nodes were calculated and
+sorted by length. Starting with the shortest distance between any two
+nodes, edges between these nodes were generated until the total
+number of edges matched those of the original C. elegans or cortical
+networks. Thus, the resulting minimally rewired networks represented a lower bound for the wiring length of a connected network
+with the same total number of edges and identical node positions as
+in the original neural networks.
+Network characterization measures. The following measures were
+used to characterize original and rearranged networks. Total wiring
+length was the sum of the metric length of all individual connections.
+In addition, total wiring volume included information about the
+anatomical strength of connections (as a first approximation of fibre
+diameter), as derived from tract-tracing experiments. The volume of
+an individual fibre was calculated as its metric length multiplied by its
+squared anatomical strength or density (as given by ordinal values 1,
+2, or 3; 1 being the sparsest), with the total wiring volume as the sum
+of the volume of all individual fibres.
+The average path length was the average number of connections
+that had to be passed on the shortest paths between all pairs of
+network nodes. It was calculated using Floyd's algorithm (compare
+[43]). The average metric path length described the metric distance
+that had to be travelled on average along the edges of the shortest
+path between any two network nodes. Therefore, it represented the
+average total wiring length of the shortest paths of the network. The
+clustering coefficient [19] was the proportion of actually present
+connections, out of all possible connections, among network nodes
+directly connected to a target node (i.e., the index measured the
+local connectivity among the target node's neighbours). The
+coefficient was calculated as the average over all individual nodes
+of the network.
+Control calculations for C. elegans network: Variations in connection site. One possible confound of the C. elegans analyses was that
+exact positions of synapses were not included in the data, so
+morphological differences between neurons may have influenced the
+actual length of projections between neurons. Therefore, we tested the
+effect of variations in the position of synapses, by varying the
+connection distances between individual neurons through shifts in
+soma positions. As the animal extends mainly in the horizontal
+direction, variations in the spatial positions of synapses and cell bodies
+matter most along the horizontal axis. The position of each neuron
+along the longitudinal axis was shifted randomly rostrally or caudally,
+following a normal distribution with the mean around the actual
+position and a standard deviation of 10% of the total length of the
+worm (0.12 mm). Twenty different networks with varied longitudinal
+position were tested for potential reductions of total wiring length. A
+reduction of total wiring length was found that was almost as large as for

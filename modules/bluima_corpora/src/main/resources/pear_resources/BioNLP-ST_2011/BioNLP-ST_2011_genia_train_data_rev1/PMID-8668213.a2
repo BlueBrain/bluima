@@ -1,0 +1,23 @@
+*	Equiv T1 T2
+T16	Gene_expression 1104 1113	expressed
+T17	Positive_regulation 1390 1397	mediate
+T18	Transcription 1398 1411	transcription
+T19	Positive_regulation 1575 1586	contributes
+T20	Transcription 1608 1621	transcription
+E1	Gene_expression:T16 Theme:T9
+E2	Positive_regulation:T17 Theme:E8
+E3	Positive_regulation:T17 Theme:E7
+E4	Positive_regulation:T17 Theme:E9
+E5	Positive_regulation:T17 Theme:E6
+E6	Transcription:T18 Theme:T14
+E7	Transcription:T18 Theme:T12
+E8	Transcription:T18 Theme:T13
+E9	Transcription:T18 Theme:T11
+E10	Positive_regulation:T19 Theme:E17 Cause:T15
+E11	Positive_regulation:T19 Theme:E15 Cause:T15
+E12	Positive_regulation:T19 Theme:E16 Cause:T15
+E13	Positive_regulation:T19 Theme:E14 Cause:T15
+E14	Transcription:T20 Theme:T14
+E15	Transcription:T20 Theme:T12
+E16	Transcription:T20 Theme:T13
+E17	Transcription:T20 Theme:T11

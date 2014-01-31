@@ -1,0 +1,47 @@
+#
+#
+#
+
+cr: PubmedDatabaseCR
+ db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" }
+ between__java: new int[]{126,150}
+
+include: ../../../includes/preprocess_full.incl
+
+
+
+
+ae: ViterbiFilterAnnotator
+
+ae: AnnotationHistogramAnnotator
+
+ae: BartWriter
+ batchPrefix: dca_1
+# debug__java: true
+
+
+
+
+
+ae: ch.epfl.bbp.uima.topicmodels.annotators.TokenFrequencyFilterAnnotator
+ tokenFrequencyFile: /Volumes/HDD2/ren_data/dev_hdd/bluebrain/9_lda/dca/20130129_replicate_marcs/20130127_dca-pubmed_abstracts_preproc/pubmed_preproc_done/token_frequency
+ minimumFrequency: 100
+ maximumFrequency__java: Integer.MAX_VALUE
+
+ae: ch.epfl.bbp.uima.topicmodels.annotators.StopwordsAnnotator
+ stopwordsFilePath: $ROOT/modules/bluima_topic_models/src/main/resources/stoplists/mallet_stopwords_en.txt
+
+ae: ch.epfl.bbp.uima.topicmodels.annotators.featureextraction.FeatureTokensFilterAnnotator
+
+ae: ch.epfl.bbp.uima.topicmodels.annotators.featureextraction.FeatureTokensExtractionAnnotator
+
+ae: ch.epfl.bbp.uima.topicmodels.writers.JCasWriterConsumer
+ outputDirectory: /Volumes/simulation/nlp/data/lda/20130212_preprocess_pubmed.pipeline-1
+ crossValidationFolds: 1
+ # 10 for 10-fold cross validation (test3.txt, test4.txt,...)
+ testSetFraction: 0.15
+ # split training.txt / test.txt
+ seed: 1352130938
+
+
+ae: StatsAnnotatorPlus

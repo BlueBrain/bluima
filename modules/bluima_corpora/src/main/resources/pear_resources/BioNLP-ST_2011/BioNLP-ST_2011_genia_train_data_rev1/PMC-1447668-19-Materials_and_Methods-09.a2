@@ -1,0 +1,8 @@
+T4	Binding 75 82	binding
+T5	Gene_expression 317 327	expression
+E1	Binding:T4 Theme:T1
+E2	Binding:T4 Theme:T2
+E3	Gene_expression:T5 Theme:T3
+M1	Speculation E1
+M2	Speculation E2
+M3	Speculation E3

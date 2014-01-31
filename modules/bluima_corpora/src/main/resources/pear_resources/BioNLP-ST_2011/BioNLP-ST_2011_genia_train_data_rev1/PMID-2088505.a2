@@ -1,0 +1,15 @@
+*	Equiv T2 T3
+T10	Binding 36 46	recognizes
+T11	Entity 49 80	phorbol ester-inducible element
+T12	Entity 143 151	promoter
+T13	Binding 155 165	recognized
+T14	Positive_regulation 306 313	leading
+T15	Gene_expression 322 332	production
+T16	Binding 556 566	recognizes
+T17	Positive_regulation 824 831	induced
+E1	Binding:T10 Theme:T1 Site:T11
+E2	Binding:T13 Theme:T2 Site:T12
+E3	Positive_regulation:T14 Theme:E4
+E4	Gene_expression:T15 Theme:T4
+E5	Binding:T16 Theme:T5
+E6	Positive_regulation:T17 Theme:T9

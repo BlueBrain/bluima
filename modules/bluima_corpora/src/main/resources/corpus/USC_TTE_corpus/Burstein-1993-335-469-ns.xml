@@ -1,0 +1,2565 @@
+<?xml version='1.0'?>
+<!DOCTYPE File PUBLIC "NeuroScholar.DTD" "NeuroScholar.DTD">
+<File>
+
+  <Title>Retrograde Labeling of Neurons in the Spinal Cord That Project 
+  Directly to the Amygdala or the Orbital Cortex in the Rat</Title>
+
+  <Authors>RAM1 BURSTEIN AND SONJA POTREBIC</Authors>
+
+  <Abstract>
+
+    <S avgH="22" class="abstract.heading" format="TimesNewRomanPSMT"
+     id="s0">ABSTRACT</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s1">The amygdala and orbital cortex are thought to play an 
+    important role in the regulation of autonomic functions, hormonal 
+    secretion, and behavioral expression in response to sensory 
+    stimulation.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s2">The responsiveness of neurons in these regions to 
+    stimulation of cutaneous and visceral organs indicates that sensory 
+    information reaches the amygdala and orbital cortex.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s3">In the past, a large number of studies have thoroughly 
+    documented multiple neural pathways by which sensory information 
+    can reach these regions via relay nuclei in the brainstem and 
+    diencephalon.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s4">Recent studies reported that the amygdala and orbital 
+    cortex also receive direct input from the spinal cord.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s5">The aim of this study was to determine the magnitude and 
+    the origin of these projections in the rat.</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s6">Injections of the retrograde tracer Fluoro-Gold (FG), 
+    restricted to the amygdala, labeled several hundred neurons 
+    bilaterally (60% contralateral) throughout the length of the spinal 
+    cord.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s7">More than 60% of labeled neurons were found in the lateral 
+    reticulated area of the deep dorsal horn and the gray matter 
+    surrounding the central canal.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s8">Many neurons were also found in the lateral spinal 
+    nucleus.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s9">Labeled neurons were concentrated in upper lumbar and 
+    upper cervical segments.</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s10">Injections of Fluoro-Gold that were centered in the 
+    orbital cortex labeled only a small number of neurons (73% 
+    contralateral) within the spinal cord.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s11">Most labeled neurons were found in the lateral 
+    reticulated area.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s12">Neurons located in the intermediate zone and the gray 
+    matter surrounding the central canal were found mainly in upper 
+    lumbar and upper cervical segments.</S>
+    <BR />
+
+  </Abstract>
+
+  <Introduction>
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s13">The amygdala (Ben-Ari, &apos;81; Kapp et al., &apos;81; 
+    Ursin et al., &apos;81) and the orbital cortex (Sterb and Smith, 
+    &apos;55; Holson, &apos;86; Sullivan and Henke, &apos;86) are 
+    components of the limbic system that have been associated with 
+    autonomic, neuroendocrine, and emotional regulation.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s14">For both the amygdala (MacLean and Delgado, &apos;53; 
+    Chapman et al., &apos;54; Anand and Dua, &apos;56; Hilton and 
+    Zbrozyna, &apos;63; Reis and Oliphant, &apos;64; Bonvallet and Gary 
+    Bobo, &apos;72; Kaada, &apos;72; Mogenson and Calaresu, &apos;73; 
+    Innes and Tansy, &apos;80; Applegate et al., &apos;82; Iwata et 
+    al., &apos;87; Ledoux, et al., &apos;90b; Davis, &apos;92) and the 
+    orbital cortex (Bailey and Sweet, &apos;40; Delgado and Livingston, 
+    &apos;48; Chapman et al., &apos;49; Grantham, &apos;51; Sterb and 
+    Smith, &apos;55; Anand and Dua, &apos;56; Cooper, &apos;75; Holson, 
+    &apos;86; Sullivan and Henke, &apos;861, electrical stimulation can 
+    evoke behavioral responses that resemble fear, stress, anxiety, 
+    rage, arousal, defense; and pain; and ablation can alter these 
+    responses.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s15">In animals, these types of behavior are usually 
+    accompanied by changes in heart rate, blood pressure, respiration, 
+    salivation, gagging, piloerection, and pupillary dilatation.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s16">These autonomic and endocrine responses may be evoked by 
+    activation of peripheral receptors in somatic, visceral, gustatory, 
+    olfactory, visual, and auditory systems.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s17">Amygdaloid and orbitocortical neurons are known to 
+    respond to stimulation of all these different sensory 
+    modalities.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s18">For example, noxious mechanical (pinch) and thermal (5 
+    and 50°C) stimuli applied to the skin, or electrical shock of tooth 
+    pulp changes the firing rate of neurons in the central nucleus of 
+    the amygdala (Machne and Segundo, &apos;56; Azuma et al., &apos;84; 
+    Bernard et al., &apos;90, &apos;92).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s19">Similarly, noxious mechanical (pinch of the skin) and 
+    thermal (40-60°C) stimuli, immersion of a limb in ice-cold water, 
+    or distension of the gall bladder modify the activity of neurons in 
+    the ventrolateral orbital cortex (El-Yassir and Dostrovsky, 
+    &apos;90; Backonja and Miletic, &apos;91; Snow et al., 
+    &apos;92).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s20">Innocuous thermal stimuli (Azuma et al., &apos;84; 
+    Bernard et al., &apos;90) or light mechanical contact with the 
+    surface of the body (Machne and Segundo, &apos;56; Sawa and 
+    Delgado, &apos;63; Ben-Ari et al., &apos;74; Azuma et al., 
+    &apos;84; Bernard et al., &apos;901, as well as stretching a muscle 
+    (Machne and Segundo, &apos;56) affect the activity of neurons in 
+    the anterior, basal, lateral, and central nuclei of the 
+    amygdala.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s21">Electrical stimulation of visceral nerves including the 
+    carotid sinus, aortic depressor and vagus, or chemical activation 
+    of baroand chemoreceptors induces a response in basal and central 
+    amygdaloid nuclei neurons that are thought to play a role in 
+    circulatory and cardiovascular control (Machne and Segundo, 
+    &apos;56; Radna and MacLean, &apos;81; Cechetto and Calaresu, 
+    &apos;83a, &apos;84, &apos;85).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s22">In addition, basic gustatory (taste of sucrose, saline, 
+    acids, and quinine) and olfactory (scent of food, salt, and 
+    tobacco) stimuli produce changes in the activity of amygdaloid 
+    neurons implicated with feeding and sexual behavior (Machne and 
+    Segundo, &apos;56; Sawa and Delgado, &apos;63; O&apos;Keefe and 
+    Bouma, &apos;69; Ben-Ari et al., &apos;74; Schwartzbaum and Morse, 
+    &apos;78; Azuma et al., &apos;84).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s23">Finally, simple (flash of light or auditory clicks) and 
+    complex (presentation of live animals or imitation of other 
+    animals) visual and auditory stimuli alter the firing of amygdaloid 
+    neurons that may subserve learning and conditioning (Machne and 
+    Segundo, &apos;56; Creutzfeldt et al., &apos;63; Sawa and Delgado, 
+    &apos;63; O&apos;Keefe and Bouma, &apos;69; Ben-Ari et al., 
+    &apos;74; Sanghera et al., &apos;79; Pascoe and Kapp, &apos;85; 
+    Bernard et al., &apos;90).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s24">A general conclusion from the response properties of 
+    neurons in the amygdala and orbital cortex, then, must be that 
+    these regions receive information from many sensory modalities.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s25">Of particular interest to us is the way in which sensory 
+    information originating from cutaneous and visceral structures 
+    reaches the amygdala and orbital cortex.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s26">Since the amygdala is located in the temporal lobe and 
+    the orbital cortex in the frontal lobe, both believed to be removed 
+    from major direct spinal ascending sensory pathways described 
+    previously, it has been generally believed that sensory spinal cord 
+    neurons ascend to these regions mainly via multisynaptic pathways 
+    in the brainstem, thalamus, and cortex (reviewed by Turner and 
+    Herkenham, &apos;91).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s27">This notion has been widely supported by a large number 
+    of studies demonstrating the involvement of the parabrachial 
+    nucleus (Norgen, &apos;76; Zemlan et al., &apos;78; Saper and 
+    Loewy, &apos;80; Cechetto and Calaresu, &apos;83b, &apos;85; 
+    Cechetto, et al., &apos;85; Ma and Peschanski, &apos;88; Bernard et 
+    al., &apos;89, &apos;90; Blomqvist et al., &apos;89; Ma et al., 
+    &apos;89; Hylden et al., &apos;89; Bernard and Besson, &apos;go), 
+    the nucleus tractus solitarius (Torvik, &apos;56; Miura and Reis, 
+    &apos;72; Loewy and Burton, &apos;78; Ricardo and Koh, &apos;78; 
+    Ciriello and Calaresu, &apos;81; Otterson, &apos;81; Hamilton and 
+    Norgen, &apos;84; Menetrey and Basbaum, &apos;87; Person, 
+    &apos;89), the reticular formation (Otterson, &apos;811, the 
+    central gray (Otterson, &apos;81) and the thalamic medial 
+    geniculate nucleus (LeDoux et al., &apos;85, &apos;87, &apos;90a) 
+    in processing and relaying visceral, tactile and nociceptive 
+    information to the amygdala.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s28">Somatosensory and nociceptive information was shown to 
+    reach the ventrolateral orbital cortex through a relay in the 
+    nucleus submedius (Craig and Burton, &apos;81; Dostrovsky and 
+    Guilbaud, &apos;88; Ma et al., &apos;88; Miletic and Coffield, 
+    &apos;89; Yoshida et al., &apos;92), a thalamic area that receives 
+    projections from the spinal cord and trigeminal nucleus caudalis 
+    (Craig and Burton, &apos;81; Peschenski, &apos;84; Dado and 
+    Giesler, &apos;90; Yoshida et al., &apos;91).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s29">Recently, however, two anatomical studies provided 
+    evidence for an additional, direct projection of spinal cord 
+    neurons to the amygdala and orbital cortex.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s30">In the first, Cliffer et al. (&apos;91) demonstrated that 
+    injections of the anterograde tracer Phaseolus 
+    vulgaris-leucoagglutinin (PHA-L) in the spinal cord labeled axons 
+    in the central nucleus of the amygdala and in the medial orbital 
+    cortex.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s31">In the second, Menetrey and de Pommery (&apos;91) 
+    reported that injections of the retrograde tracer protein-gold 
+    complex in the central nucleus of the amygdala labeled neurons in 
+    lower thoracic and lumbosacral segments of the spinal cord.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s32">In the present study, we attempted to quantitatively 
+    determine as precisely as possible the laminar and segmental 
+    distribution of neurons in all levels of the spinal cord that 
+    project directly to all regions of the amygdala and orbital cortex 
+    by: (1) using a retrograde tracer, Fluoro-Gold (FG), which has been 
+    found to be highly effective in labeling projecting neurons in the 
+    rat (Schmued and Fallon, &apos;86; Burstein et al., &apos;90a); (2) 
+    filling all amygdala and orbital cortex regions that have been 
+    shown to contain neurons responsive to somatosensory stimulation or 
+    to receive direct input from the spinal cord; (3) quantitatively 
+    examining the laminar distribution of retrogradely labeled neurons 
+    at all levels of the spinal cord; and (4) controlling for 
+    nonspecific labeling by injecting regions dorsolateral and medial 
+    to the amygdala.</S>
+  </Introduction>
+
+  <Methods>
+
+    <S avgH="27" class="methods.heading" format="TimesNewRomanPS-BoldMT"
+     id="s33">MATERIALS AND METHODS</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s34">Male Sprague-Dawley rats (300-550 g) were anesthetized 
+    with sodium pentobarbital (50 mgikg) and placed in a stereotaxic 
+    frame.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s35">Atropine was administered intraperitoneally (1 mgikg).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s36">Pressure injections were made with a glass micropipette 
+    (tip diameter = 15-25 pm) attached to a 5 p1 Hamilton 
+    microsyringe.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s37">Fluoro-Gold was used as the retrograde tracer in this 
+    study because of its effectiveness in labeling spinal cord neurons 
+    that project to the diencephalon (Burstein et al., &apos;90a,b), 
+    its ability to label both cell bodies and proximal dendrites 
+    (Schmued and Fallon, &apos;86), and its ability to remain confined 
+    within neurons following a long survival time (Schmued and Fallon, 
+    &apos;86).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s38">A 4% solution of FG was injected into either the amygdala 
+    (12 rats) or the orbital cortex (5 rats).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s39">Attempts were made to fill all amygdaloid nuclei that 
+    were found to contain neurons responsive to somatosensory stimuli 
+    (e.g., central, anterior, basal and lateral nuclei) or to receive 
+    direct input from the spinal cord (e.g., central nucleus).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s40">Since the amygdala extends over 3,500 ym rostrocaudally, 
+    small injections (100 nl each) were made at two anterior-posterior 
+    planes separated by 1,000 ym.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s41">Micropipettes were inserted into the amygdala on the 
+    right side at an angle of 36&quot; from vertical by using a 
+    temporal approach.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s42">This angled penetration into the brain prevented the 
+    spread of FG into the optic tract, internal capsule, hypothalamus, 
+    or thalamus.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s43">Because of the temporal approach to the amygdala, FG was 
+    also found in the parietal cortex and lateral area of 
+    caudateputamen.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s44">In control studies, similar injections (100 nl) were 
+    centered in these regions, dorsal and lateral to the amygdala.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s45">In the orbital cortex, attempts were made to inject FG 
+    into nuclei that were found to receive direct spinal projections 
+    (e.g., medial orbital) or to contain neurons responsive to 
+    somatosensory stimulation (e.g., ventrolateral orbital).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s46">In order to fill this region of the orbital cortex, six 
+    injections (50 nl each) were made in each animal.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s47">Stereotaxic penetrations for injections of FG were made 
+    at one rostrocaudal plane (5.2 mm anterior to Bregma), three 
+    mediolateral locations (0.7, 1.2, and 2.0 mm lateral to the 
+    midline), and two dorsoventral points (2.0 and 2.5 mrn below 
+    cortical surface).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s48">All cases in which injections of FG were restricted to 
+    the intended areas were further processed.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s49">The effectiveness of the amygdaloid injections was 
+    evaluated by examining the parabrachial nuclei, the periaqueductal 
+    gray, the raphe nuclei, and the nucleus of the solitary tract for 
+    FG-labeled neurons.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s50">These nuclei are known to project to the amygdala 
+    (Ricardo and Koh, &apos;78; Saper and Loewy, &apos;80; Otterson, 
+    &apos;81; Cechetto et al., &apos;83; Bernard et al., &apos;89).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s51">To evaluate the effectiveness and spread of 
+    orbitocortical injections, the thalamus was examined for 
+    retrogradely labeled neurons.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s52">Thalamic neurons in the submedius and dorsomedial nuclei 
+    are known to project to the ventral, lateral and ventrolateral 
+    regions of the orbital cortex (Krettek and Price, &apos;77; 
+    Coffield et al., &apos;92; Yoshida et al., &apos;92).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s53">Analysis of results was based on the five cases with the 
+    most labeled neurons in the spinal cord.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s54">Five to seven days following tracer injections, rats were 
+    anesthetized, flushed with physiological saline, and perfused with 
+    a 4% paraformaldehyde solution at low pH (6.5) followed by a 4% 
+    paraformaldehyde solution in high pH (9.2) (Berod et al., 
+    &apos;81).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s55">After perfusion, the brain and identified spinal cord 
+    segments were removed and postfixed (in the high pH fixative) for 
+    at least 12 hours.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s56">The tissue was then stored overnight in 20% sucrose in 
+    0.1 M phosphate buffer (pH 7.4) at 4°C.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s57">Brain and spinal cord sections were cut transversely on a 
+    freezing microtome at 100 and 40 pm, respectively, mounted serially 
+    on gelatin-coated slides and coverslipped with DPX.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s58">Injection sites were initially reconstructed using the 
+    combination of darkfield and reflected ultraviolet illumination 
+    microscopy.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s59">To better identify the location and boundaries of nuclei 
+    within the amygdala or orbital cortex, alternate sections of 
+    injection sites were counterstained with Neutral Red and examined 
+    under brightfield illumination.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s60">The cytoarchitectonic structure and divisions of the 
+    amygdala were identified from the detailed description of Krettek 
+    and Price (&apos;78) or Turner and Zimmer (&apos;841, and mapped 
+    according to the atlas of Paxinos and Watson (&apos;86).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s61">Divisions within the orbital cortex were also recognized 
+    from the atlas of Paxinos and Watson (&apos;86) and from Krettek 
+    and Price (&apos;77).</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s62">Retrogradely labeled neurons in the spinal cord were 
+    observed through a microscope equipped with epi-fluorescent 
+    illumination, and mapped through a camera lucida drawing 
+    attachment.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s63">In all cases, labeled neurons were counted from every 
+    other section of 18 spinal cord segments: C1-2, C4-5, C7-8, T4,T6, 
+    T8, T12, L1-6, and S1-2.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s64">In order to analyze rostrocaudal distribution of labeled 
+    neurons in the spinal cord, segments were grouped into upper 
+    cervical (C1-2), lower cervical ((24-5 and 7-81, thoracic (T4,6, 8 
+    and 12), lumbar (Ll-51, or sacral (L6-S2) (Burstein et al., 
+    &apos;90a).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s65">Locations of labeled neurons were described according to 
+    the nomenclature of Burstein et al. (&apos;90a): superficial dorsal 
+    horn (SDH); deep dorsal horn (DDH) including the lateral 
+    reticulated area (LRA); area around the central canal (ACCI; 
+    intermediate zonelventral horn (IZIVH); and lateral spinal nucleus 
+    (LSN).</S>
+  </Methods>
+
+  <Results>
+
+    <S avgH="27" class="results.heading" format="TimesNewRomanPS-BoldMT"
+     id="s66">RESULTS</S>
+    <BR />
+
+    <S avgH="26" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s67">Injections of FG into the 
+    amygdala</S>
+    <BR />
+
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s68">In nine cases, injections of 
+      <tracerChemical>FG</tracerChemical> into <injectionLocation>the 
+      amygdala</injectionLocation> did not spread to 
+      <injectionSpread yesNo="0">the thalamus, hypothalamus, internal 
+      capsule, supraoptic decussation, optic tract, diagonal band of 
+      Broca, bed nucleus of stria terminalis, nucleus accumbens, or 
+      septa1 nuclei</injectionSpread>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s69">An attempt was made to fill <injectionLocation>the 
+      central amygdaloid nucleus</injectionLocation> since spinal cord 
+      neurons were found to send axons directly into this region 
+      (Cliffer et al., &apos;91).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s70">To verify that <tracerChemical>FG</tracerChemical> 
+      injections spread to <injectionSpread>the central nucleus of the 
+      amygdala</injectionSpread>, <labelingLocation>the nucleus of the 
+      solitary tract</labelingLocation> was examined for 
+      <labelingDescription>retrogradely labeled 
+      neurons</labelingDescription>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s71">In all cases, <labelingDescription>FGlabeled 
+      neurons</labelingDescription> were found in <labelingLocation>the 
+      nucleus of the solitary tract</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s72">Neurons in this nucleus project to the central, but not 
+      to any other amygdaloid nuclei (Ricardo and Koh, &apos;78; 
+      Otterson, &apos;81).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s73">The spread of <tracerChemical>FG</tracerChemical> 
+      following injections into <injectionLocation>the 
+      amygdala</injectionLocation> is described in Table 1 for the five 
+      cases with the most labeled neurons in the spinal cord.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s74">In these cases, <exptLabel>330,284,263,172, and 
+      104</exptLabel> neurons were counted in the 18 examined spinal 
+      cord segments of Amyg 1, 2, 3, 4, and 5, respectively.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s75">In the other four cases, large injections that 
+      virtually filled <injectionLocation>the 
+      amygdala</injectionLocation> labeled only 
+      <labelingDescription>small number of 
+      neurons</labelingDescription> (40-80) in <labelingLocation>the 
+      spinal cord</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s76">Based on <labelingDescription>the poor 
+      labeling</labelingDescription> in <labelingLocation>the spinal 
+      cord</labelingLocation>, these cases were not analyzed 
+      further.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s77">Since most pressure injections of FG result in tissue 
+      damage (Dado et al., &apos;go), we have used local necrosis to 
+      indicate the center of each injection (++) and the extracellular 
+      FG halo to denote regions of tracer spread (+ 1.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s78">Photomicrographs of the center of three injections of 
+      FG into <injectionLocation>the amygdala</injectionLocation> 
+      (<exptLabel>Amyg 1, 2, and 3</exptLabel>) are shown in Figure 
+      1A-C.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s79">Reconstructions of the areas containing the injections 
+      of FG in the amygdala are illustrated in Figure 2.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s80">In three cases, <tracerChemical>FG</tracerChemical> 
+      injections spread 95, 150, and 300 pm into <injectionSpread>the 
+      ventrolateral part of the internal capsule</injectionSpread>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s81">In all of these cases, there was an increase in the 
+      number of <labelingDescription>labeled 
+      neurons</labelingDescription> found in <labelingLocation>the 
+      spinal cord</labelingLocation> (429, 573, and 654 cells, 
+      respectively).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s82">Some of these <labelingDescription>retrogradely labeled 
+      neurons</labelingDescription> were located within 
+      <labelingLocation>gray matter regions</labelingLocation> where 
+      <labelingDescription>very few cells</labelingDescription> were 
+      labeled following injections restricted to <injectionLocation>the 
+      amygdala</injectionLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s83">For example, in the three cases where 
+      <tracerChemical>FG</tracerChemical> spread to <injectionSpread>
+      the internal capsule</injectionSpread>, <labelingLocation>the 
+      superficial dorsal horn</labelingLocation> contained 
+      <labelingDescription>70 labeled neurons</labelingDescription> (an 
+      average of 23.3 cells per animal) while in the nine cases where 
+      FG was restricted to the amygdala, a total of 13 neurons (an 
+      average of 1.4 cells per animal) were retrogradely labeled in 
+      this region.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s84">Thus, it is possible that the FG that spread to the 
+      internal capsule labeled spinal cord neurons that project to the 
+      hypothalamus through this region (Burstein et al., &apos;91; 
+      Cliffer et al., &apos;91).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s85">Therefore, cases in which FG spread to the internal 
+      capsule were not included in this study.</S>
+      <BR />
+
+      <S avgH="27" class="results.subtitle"
+       format="TimesNewRomanPS-BoldMT" id="s86">Neurons labeled by 
+      injections of FG into the amygdala</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s87">Following injections of 
+      <tracerChemical>FG</tracerChemical> into <injectionLocation>the 
+      amygdala</injectionLocation>, <labelingDescription>retrogradely 
+      labeled neurons</labelingDescription> were found 
+      <labelingDescription>bilaterally</labelingDescription> in 
+      <labelingLocation>all examined segments of the spinal 
+      cord</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s88">Figure 1 shows photomicrographs of FG-labeled neurons 
+      in the various levels of the spinal cord.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s89">Reconstructions of the injections of FG and the 
+      locations of the retrogradely labeled neurons in Amyg 1 are 
+      depicted in Figure 2.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s90">In our best case, 3 <labelingDescription>30 labeled 
+      neurons</labelingDescription> were found in <labelingLocation>
+      alternate sections of the 18 examined spinal 
+      segments</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s91">For this case (Amyg I), the numbers of spinoamygdaloid 
+      tract neurons counted in each region of the spinal gray matter 
+      and in each segment are given in Table 2.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s92">The histograms in Figure 3 illustrate the means (n = 5) 
+      of the percentages of <labelingDescription>FG-labeled 
+      neurons</labelingDescription> found in <labelingLocation>each 
+      region of the spinal gray matter throughout the length of the 
+      spinal cord</labelingLocation> (Fig. 3A), and in <labelingLocation
+      >each segmental group</labelingLocation> (Fig. 3B).</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s93">Following injections of 
+      <tracerChemical>FG</tracerChemical> into <injectionLocation>the 
+      amygdala</injectionLocation>, <labelingDescription>retrogradely 
+      labeled neurons</labelingDescription> were found in 
+      <labelingLocation>several regions of the spinal gray 
+      matter</labelingLocation> (Figs. 1, 2 and Table 2).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s94"><labelingDescription>Approximately half (51 5 lo%, mean 
+      2 S.D.) of the labeled neurons</labelingDescription> were found 
+      in <labelingLocation>the deep dorsal horn</labelingLocation> 
+      (Fig. 3A).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s95">Most of these neurons were located in <labelingLocation>
+      the dorsal half of the lateral reticulated area in cervical 
+      segments</labelingLocation>, and near <labelingLocation>the 
+      ventral half in lower thoracic and upper lumbar 
+      segments</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s96">Photomicrographs show <labelingDescription>labeled 
+      neurons</labelingDescription> in <labelingLocation>the lateral 
+      reticulated area</labelingLocation> (Fig. lF-H,J) and just 
+      ventral to it within <labelingLocation>the deep dorsal 
+      horn</labelingLocation> (Fig. lK,N).</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s97"><labelingLocation>The area around the central 
+      canal</labelingLocation> contained on average 
+      <labelingDescription>13 +1.5% of the labeled 
+      neurons</labelingDescription> (Fig. 3A).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s98"><labelingDescription>The majority (approximately 60%) 
+      of labeled neurons</labelingDescription> around the central canal 
+      were located in <labelingLocation>the upper lumbar 
+      segments</labelingLocation> (Table 2).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s99">Examples of FG-labeled neurons located within 300 km 
+      from the central canal (asterisk) are illue.trated in Figure lL, 
+      M and 0.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s100"><labelingLocation>The intermediate zone/ventral 
+      horn</labelingLocation> contained 
+      <labelingDescription>approximately 10% (9.4 -+ 2.0%) of the 
+      labeled neurons</labelingDescription> (Fig. 3A).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s101">Within this region, <labelingDescription>most 
+      neurons</labelingDescription> were found in <labelingLocation>
+      upper cervical and lumbar segments</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s102"><labelingDescription>Only few spinoamygdaloid 
+      neurons</labelingDescription> were found in this area at 
+      <labelingLocation>lower cervical, thoracic and sacral 
+      segments</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s103">A labeled neuron in the intermediate zone is 
+      illustrated in Figure 1K.</S>
+      <BR />
+
+      <S avgH="23" class="results.subtitle" format="ArialMT" id="s104">
+      The lateral spinal nucleus contained 25 t 10% of the total number 
+      of labeled neurons found in the spinal cord UC LC T L S</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s105">following the injections into <injectionLocation>the 
+      amygdala</injectionLocation> (Fig. 3A).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s106">In this region,<labelingDescription>FG-labeled 
+      neurons</labelingDescription> were <labelingDescription>evenly 
+      distributed</labelingDescription> throughout the length of 
+      <labelingLocation>the spinal cord</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s107">Each spinal segment contained about 
+      <labelingDescription>2-3 neurons</labelingDescription> within 
+      <labelingLocation>the LSN</labelingLocation> on each side.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s108">A photomicrograph of FG-labeled neurons in the dorsal 
+      half of the lateral funiculus is presented in Figure 11.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s109"><labelingLocation>The superficial dorsal 
+      horn</labelingLocation> contained <labelingDescription>almost no 
+      ( &amp;lt; 19%) labeled neurons</labelingDescription> at any of 
+      <labelingLocation>the examined spinal cord 
+      segments</labelingLocation> (Fig. 3A).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s110">The number of labeled neurons in <labelingLocation>
+      this region</labelingLocation> was largest (6 cells) in the case 
+      of the injection with the greatest spread into <injectionSpread>
+      the globus pallidus ventrallis</injectionSpread> (Table 1).</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s111">The distribution of <labelingDescription>labeled 
+      neurons</labelingDescription> throughout <labelingLocation>the 
+      length of the spinal cord</labelingLocation> was similar for each 
+      of the 5 cases analyzed (Amyg 1-5).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s112">The percentages of labeled neurons found in each 
+      segmental group are shown in Figure 3B.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s113">Photomicrographs of <labelingDescription>FG-labeled 
+      neurons</labelingDescription> in <labelingLocation>cervical 
+      (Fig.1F-I), thoracic (Fig. lJ), and lumbar (Fig. 1K-0) 
+      segments</labelingLocation> are shown.</S>
+    </TTE>
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s115">In general, almost half (49.2 i 5.4%) of the neurons in 
+    <connxOrigin>the spinal cord</connxOrigin> that project to 
+    <connxTermination>the amygdala</connxTermination> originate from 
+    <connxOrigin>the upper cervical (C1-2,24.6 ?10.5%) and the upper 
+    lumbar (L1-3,24.6 2 4.1%) segments</connxOrigin>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s117"><neuroanatomicalLocation>The lower cervical (C4-5 and 
+    7-8) and all 4 thoracic (T4,6, 8 and 12) 
+    segments</neuroanatomicalLocation> contain about 18% of the labeled 
+    neurons (18 _t 2.2 and 18 +1.4%, respectively).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s118"><neuroanatomicalLocation>Lower lumbar segments 
+    (L4-5)</neuroanatomicalLocation> contained 8.7 &amp; 1.5%, and the 
+    segments caudal to it 
+    (<neuroanatomicalLocation>L6-S2</neuroanatomicalLocation>) 7.7 2 
+    1.5%.</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s119">In all cases (<exptLabel>Amyg 1-51</exptLabel>, FG 
+    injections were unilateral, restricted to the right side.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s120">Following unilateral amygdaloid injections, 60.4 r 
+    <labelingDescription>4.9% of the labeled 
+    neurons</labelingDescription> were found in <labelingLocation>the 
+    contralateral spinal cord</labelingLocation>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s121">Within <labelingLocation>the DDH, ACC and 
+    IZIVH</labelingLocation>, more neurons were located contralateral 
+    to the injected side (68%, 615% and 65%, respectively).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s122">In <labelingLocation>the LSN</labelingLocation>, 
+    <labelingLocation>labeled neurons</labelingLocation> were evenly 
+    distributed (47% contralateral, 53% ipsilateral) on both sides.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s123">Along <labelingLocation>the length of the spinal 
+    cord</labelingLocation>, more neurons were located contralateral to 
+    the injected side within <labelingLocation>lower cervical, 
+    thoracic, and lumbar segments</labelingLocation> (67%, 66%, and 
+    66%/, respectively).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s124">However, the percentages of contralaterally located 
+    neurons in <labelingLocation>the upper cervical and sacral 
+    segments</labelingLocation> were lower (47% and 52%,, 
+    respectively).</S>
+    <BR />
+
+    <S avgH="27" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s125">Control injections</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s126">In all cases, injections of 
+    <tracerChemical>FG</tracerChemical> into <injectionLocation>the 
+    amygdala</injectionLocation> spread to <injectionSpread>the 
+    parietal cortex and the lateral region of the caudal end of 
+    caudate-putamen</injectionSpread> (Table 1 and Fig. 2).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s127">This spread raises the possibility that 
+    <labelingDescription>some retrogradely labeled 
+    neurons</labelingDescription> in <labelingLocation>the spinal 
+    cord</labelingLocation> were neurons that project to 
+    <connxTermination>the parietal cortex or lateral 
+    caudate-putamen</connxTermination> but not to <connxTermination>the 
+    amygdala</connxTermination>.</S>
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s128">To test this possibility, 
+    <exptLabel><tracerChemical>FG</tracerChemical> was injected 
+    exclusively into the same regions</exptLabel> in <injectionLocation>
+    the parietal cortex</injectionLocation> and <injectionLocation>
+    lateral caudateputamen</injectionLocation> that were found to 
+    contain FG following <injectionLocation>the 
+    amygdaloid</injectionLocation> injections (Table 1 ).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s129">Reconstructions of a control injection that resulted in 
+    <labelingDescription>the greatest number of labeled neurons (44 
+    cells)</labelingDescription> in <labelingLocation>the spinal 
+    cord</labelingLocation> are illustrated in Figure 4.</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s130">These 
+    neurons were found mainly in <labelingLocation>the deep dorsal horn 
+    and the lateral spinal nucleus</labelingLocation>.</S></TTE>
+
+    <BR />
+
+    <S avgH="27" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s131">Injections of FG into 
+    the orbital cortex</S>
+    <BR />
+
+    <TTE>
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s132"><exptLabel>In five cases</exptLabel>, injections of 
+      <tracerChemical>FG</tracerChemical> into <injectionLocation>the 
+      orbital cortex</injectionLocation> did not spread caudally or 
+      ventrally into <injectionSpread yesNo="0">the globus pallidus, 
+      nucleus accumbens, nucleus of the diagonal band of Broca, septa1 
+      nuclei, or any other telencephalic region known to receive direct 
+      projections from the spinal cord</injectionSpread>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s133">An attempt was made to fill <injectionLocation>the 
+      medial and ventral region of the orbital 
+      cortex</injectionLocation> since it was found to contain 
+      PHA-L-labeled axons of <connxOrigin>spinal</connxOrigin> origin 
+      (Cliffer et al., &apos;91).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s134">The spread of <tracerChemical>FG</tracerChemical> in 
+      <injectionSpread>the various areas of the orbital cortex and in 
+      neighboring cortical regions</injectionSpread> following 
+      injections into the orbital cortex is described in Table 3.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s135">In all cases, <tracerChemical>FG</tracerChemical> 
+      spread caudally to <injectionSpread>the anterior portion of the 
+      ventrolateral orbital nucleus</injectionSpread>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s136">Photomicrographs of the center of three injections of 
+      <tracerChemical>FG</tracerChemical> into <injectionLocation>the 
+      orbital cortex</injectionLocation> (OC-3, 1 and 2) are shown in 
+      Figure 5A-C.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s137">Reconstructions of the areas containing the center of 
+      the five (OC 1-5) injections of 
+      <tracerChemical>FG</tracerChemical> into <injectionLocation>the 
+      orbital cortex</injectionLocation> are illustrated in Figure 
+      6.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s138">In these cases, 70,61,44,33, and 31 labeled neurons 
+      were counted in the 18 examined <labelingLocation>spinal cord 
+      segments</labelingLocation> of OC 1-5, respectively (Table 3).</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s139">To verify that <tracerChemical>FG</tracerChemical> 
+      injections spread to regions in <labelingLocation>the orbital 
+      cortex</labelingLocation> that receive thalamic input, the 
+      thalamus was examined for retrogradely labeled neurons.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s140">In all cases, <labelingDescription>FG-labeled 
+      neurons</labelingDescription> were found in <labelingLocation>the 
+      thalamic nucleus submedius, dorsomedial, ventrolateral, 
+      ventromedial, rhomboid and reuniens</labelingLocation>, 
+      ipsilateral to the injection site.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s141">The presence of <labelingDescription>labeled 
+      neurons</labelingDescription> in <labelingLocation>these 
+      nuclei</labelingLocation> suggests that <injectionSpread>the 
+      ventral, lateral, and ventrolateral regions of the orbital 
+      cortex</injectionSpread> were included in the injection (Krettek 
+      and Price, &apos;77; Coffield et al., &apos;92; Yoshida et al., 
+      &apos;92).</S>
+      <BR />
+
+      <S avgH="27" class="results.subtitle"
+       format="TimesNewRomanPS-BoldMT" id="s142">Neurons labeled by 
+      injections of FG into the orbital cortex</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s143">Following injections of 
+      <tracerChemical>FG</tracerChemical> into <injectionLocation>the 
+      orbital cortex</injectionLocation>, <labelingDescription>a small 
+      number of retrogradely labeled neurons</labelingDescription> was 
+      consistently found throughout <labelingLocation>the length of the 
+      spinal cord</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s144">Figure 5 illustrates <labelingDescription>retrogradely 
+      labeled neurons</labelingDescription> in <labelingLocation>
+      cervical, thoracic, and lumbar segments</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s145">Reconstructions of the locations of the 
+      <labelingDescription>FG-labeled neurons</labelingDescription> 
+      found in <labelingLocation>the spinal cord</labelingLocation> of 
+      all five cases (OC 1-5) are shown in Figure 6.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s146">In the 18 examined segments, 239 labeled neurons were 
+      counted in alternate sections (Fig. 6).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s147">The histograms in Figure 7 illustrate the means (n = 
+      5) of the percentages of FGlabeled neurons counted in the various 
+      regions of the gray matter (Fig. 7A), and in each segmental group 
+      (Fig. 7B).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s148">Figure 8 illustrates the rostrocaudal spread of 
+      <tracerChemical>FG</tracerChemical> in <injectionLocation>the 
+      orbital cortex</injectionLocation> and the labeling it produced 
+      in the spinal cord of a single case.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s149">For this case (OCl), the numbers of 
+      spinoorbitocortical tract neurons counted in each region of the 
+      spinal gray matter and in each segment are given in Table 4.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s150">Following injections of 
+      <tracerChemical>FG</tracerChemical> into <injectionLocation>the 
+      orbital cortex</injectionLocation>, the majority (62 2 11%) of 
+      <labelingDescription>labeled neurons</labelingDescription> in 
+      <labelingLocation>the spinal cord</labelingLocation> were found 
+      in <labelingLocation>the lateral reticulated area and the deep 
+      dorsal horn</labelingLocation> (Fig. 7A).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s151">In cervical segments, 
+      <labelingDescription>neurons</labelingDescription> were primarily 
+      located in <labelingLocation>the lateral reticulated 
+      area</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s152">In contrast, in thoracic and lumbar segments, these 
+      neurons were located just ventral to, or within <labelingLocation>
+      the ventromedial region of the lateral reticulated 
+      area</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s153">Photomicrographs of <labelingDescription>FGlabeled 
+      neurons</labelingDescription> in <labelingLocation>the lateral 
+      reticulated area</labelingLocation> (Fig. 5D-G and I) and deep 
+      dorsal horn (Fig. 5H, J and K-M) are shown.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s154">Following all injections of 
+      <tracerChemical>FG</tracerChemical> into <injectionLocation>the 
+      orbital cortex</injectionLocation>, only <labelingDescription>a 
+      few labeled neurons</labelingDescription> were found in 
+      <labelingLocation>the gray matter surrounding the central 
+      canal</labelingLocation> (10.4 2 6.5%), in <labelingLocation>the 
+      intermediate zone/ventral horn</labelingLocation> (12.6 2 10%) or 
+      in <labelingLocation>the lateral spinal 
+      nucleus</labelingLocation> (15.2 t 10.7%).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s155"><labelingDescription>Labeled 
+      neurons</labelingDescription> in <labelingLocation>the ACC and 
+      IZiVH</labelingLocation> were found in <labelingLocation>upper 
+      cervical (Cl-21, lower thoracic and upper lumbar (T12-L3) 
+      segments</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s156">Figure 1N and 1K illustrates 
+      <labelingDescription>FG-labeled neurons</labelingDescription> in 
+      <labelingLocation>the area around the central 
+      canal</labelingLocation> and in <labelingLocation>the lateral 
+      spinal nucleus</labelingLocation>, respectively.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s157">Throughout the length of <labelingLocation>the spinal 
+      cord</labelingLocation>, <labelingDescription>retrogradely 
+      labeled neurons</labelingDescription> were evenly distributed in 
+      <labelingLocation>upper cervical (18.6 2 6%), lower cervical (16 
+      t 6.5%) and thoracic (18 t 1.4%) segments</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s158"><labelingDescription>Almost half (47 2 11%) of the 
+      labeled neurons</labelingDescription> were found in 
+      <labelingLocation>the lumbar cord</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s159">Of these, the majority were located within 
+      <labelingLocation>the first and second lumbar 
+      segments</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s160">The distribution of labeled neurons in each segmental 
+      group is shown in Figure 7B.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s161">Photomicrographs of labeled neurons in the upper 
+      cervical (Fig. 5D), lower cervical (Fig. 5E,F), thoracic (Fig. 
+      5G-I, and K), and lumbar (Fig. 55 and L-N) segments are 
+      illustrated.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s162">In all cases, injections of 
+      <tracerChemical>FG</tracerChemical> were restricted to 
+      <injectionLocation>one side of the orbital 
+      cortex</injectionLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s163">Following these injections, <labelingDescription>73% t 
+      9.0 of the labeled neurons</labelingDescription> in 
+      <labelingLocation>the spinal cord</labelingLocation> were found 
+      contralatera1 to the injection site.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s164">Within the various areas of the gray matter 76%,85%, 
+      76%, and 41% of <labelingDescription>the labeled 
+      neurons</labelingDescription> were found in <labelingLocation>the 
+      contralateral DDH, IZIVH, ACC, and LSN</labelingLocation>, 
+      respectively.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s165">In the different segmental groups, 41%, 81%, 86%, and 
+      77% of <labelingDescription>the neurons</labelingDescription> 
+      were counted in <labelingLocation>the contralateral UC, LC, T, 
+      and L</labelingLocation>, respectively.</S>
+    </TTE>
+
+  </Results>
+
+  <Discussion>
+
+    <S avgH="28" class="discussion.heading"
+     format="TimesNewRomanPS-BoldMT" id="s166">DISCUSSION</S>
+    <BR />
+
+    <S avgH="27" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s167">Technical 
+    considerations</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s168">The present study extends previous observations of 
+    direct spinal projections to the amygdala and orbital cortex in the 
+    rat by describing the locations of spinal cord neurons at the 
+    origin of these pathways through the use of the retrograde tracer 
+    FG.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s169">At present, direct projections from the spinal cord to 
+    the telencephalon and cortex are only documented in the rat and 
+    thus, the discussion is limited to findings in this species.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s170">Fluoro-Gold (hydroxystilbamidine) is a fluorescent weak 
+    base that can be taken up by nerve terminals, accumulated by 
+    lysosomes and transported to the cell body by passive diffusion 
+    (Wessendorf, &apos;91).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s171">During the past five years, it has been widely used in 
+    neuroanatomical studies as a highly effective retrograde axonal 
+    tracer that can label somata and proximal dendrites (Schmued and 
+    Fallon, &apos;86).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s172">However, FG can also be transported by axons passing 
+    through, but not terminating in, the injected regions (Dado et al., 
+    &apos;90).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s173">It is possible, therefore, that our injections of FG in 
+    the amygdala and orbital cortex resulted in nonspecific labeling of 
+    spinal cord neurons.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s174">We believe that such labeling has not affected our 
+    results significantly as spinal cord axons have not been found to 
+    ascend through the amygdala to more rostral or dorsal regions of 
+    the brain, and no axons of spinal origin were observed rostral to 
+    the orbital cortex.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s175">However, if in the future spinal axons are found to 
+    cross the amygdala en route to other brain regions, or rostral to 
+    the orbital cortex, our results will have to be reinterpreted.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s176">To control for nonspecific labeling of spinoamygdaloid 
+    tract neurons, FG was injected into the regions in the parietal 
+    cortex and lateral caudate-putamen that were found to contain the 
+    spread of injection in all cases.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s177">The labeling in the spinal cord, although minimal, is 
+    surprising as previous studies didn&apos;t show direct spinal 
+    projection to these regions.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s178">Although this finding must be confirmed with other 
+    anatomical and physiological techniques, it raises the possibility 
+    that about 10% of the labeling in the spinal cord may arise from 
+    projections to regions outside the amygdala.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s179">A great concern in this study was the potential spread 
+    of FG into the supraoptic decussation and internal capsule, regions 
+    known to contain a large number of ascending spinohypothalamic 
+    tract axons (Burstein et al., &apos;91; Cliffer et al., 
+    &apos;91).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s180">Such spread could have contributed to the labeling of 
+    spinal cord neurons.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s181">However, the virtual lack of labeling in the superficial 
+    dorsal horn, an area known to contain neurons projecting to the 
+    hypothalamus (Burstein et al., &apos;goal, suggests that uptake of 
+    FG by spinohypothalamic tract axons did not occur.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s182">In two cases (Amyg 1 and 21, minor spread of FG (less 
+    than 400 Fm) was found in the transition zone between the amygdala 
+    and the globus pallidus ventralis.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s183">This region includes the ventral pallidum, nucleus 
+    basalis of Meynert, and the substantia innominata.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s184">Since the borders between these nuclei and the central 
+    amygdaloid nucleus are unclear, and since neurons located in the 
+    central amygdaloid nucleus and in the adjacent dorsomedial region 
+    receive similar afferent input (De Olmos et al., &apos;85; Grove, 
+    &apos;88) and respond similarly to nociceptive stimuli (Bernard et 
+    al., &apos;92) we included the two cases with spread to globus 
+    pallidus ventralis in the study.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s185">The labeling in the spinal cord following amygdaloid 
+    injections that did not spread to globus pallidus ventralis was 
+    slightly smaller.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s186">This suggests that, the spread of FG into this region 
+    did not contribute much to the labeling in the spinal cord.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s187">Nevertheless, it should be noted that spinal cord 
+    neurons were found to project to the ventral pallidum, nucleus 
+    basalis of Meynert, and the substantia innominata (Cliffer et al., 
+    &apos;91), and thus it is possible that some of the labeled neurons 
+    in the spinal cord project to these nuclei.</S>
+    <BR />
+
+    <S avgH="27" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s188">Distributions of spinal 
+    cord neurons that project to the amygdala and orbital cortex, and 
+    comparison with other spinal projections to the telencephalon</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s189">In our best case, FG injections into the amygdala 
+    labeled 330 neurons in alternate sections of the 18 examined spinal 
+    cord segments.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s190">This number is similar to the number of spinal cord 
+    neurons that project to the septa1 nuclei and nucleus accumbens in 
+    the telencephalon (Burstein et al., &apos;89) of the rat.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s191">However, considering the size of the amygdala, this 
+    number is surprisingly small.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s192">It should be noted that in an attempt to prevent the 
+    spread of FG into the internal capsule and supraoptic decussation, 
+    our injections did not completely fill the central nucleus of the 
+    amygdala.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s193">Since this nucleus receives the densest input from the 
+    spinal cord (Cliffer et al., &apos;91) it is possible that the 
+    number of spinal cord neurons that project directly to the amygdala 
+    is actually larger.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s194">Nevertheless, since injections that filled the central 
+    nucleus and spread minimally to the internal capsule labeled only 
+    100 more neurons in the spinal cord, and since in all cases FG was 
+    effectively transported from the central amygdaloid nucleus, as 
+    evident by the labeling in the nucleus of the solitary tract (see 
+    Materials andMethods), it is likely that the failure to fill the 
+    central nucleus completely did not greatly reduce the number of 
+    labeled neurons in the spinal cord.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s195">Regarding the orbital cortex, fewer than 100 labeled 
+    neurons were counted in the examined spinal cord segments.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s196">The paucity of labeling in the spinal cord can raise a 
+    question about the effectiveness of the injections in the orbital 
+    cortex.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s197">The locations of retrogradely labeled neurons in the 
+    thalamus, however, suggest that the injections included, and were 
+    effective in labeling neurons that project to the ventral, lateral 
+    and ventrolateral orbital cortex.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s198">Since the labeling of thalamic neurons with FG was 
+    similar to the labeling that was found in previous studies (Krettek 
+    and Price, &apos;77; Coffield et al., &apos;92; Yoshida et al., 
+    &apos;92) in the rat, it is li$ely that the small number of labeled 
+    neurons in the spinal cord is indicative of the size of this 
+    projection rather than a technical inability to label neurons.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s199">In no case were injections of FG restricted to areas 
+    known to receive thalamic input only (e.g., ventrolateral orbital 
+    cortex) or spinal input only (e.g., medial orbital cortex); 
+    therefore, we cannot correlate the size and spread of injections 
+    with the labeling in the spinal cord.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s200">Within the various regions of the gray matter, most 
+    spinoamygdaloid (approximately 65%) and spino-orbitocortical (more 
+    than 70%) tract neurons were found in the lateral reticulated area 
+    (lamina V), the deep dorsal horn and the area around the central 
+    canal (lamina X).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s201">Neurons in these laminae have been implicated in the 
+    transmission of sensory and nociceptive information as they receive 
+    input from primary afferent nociceptors (Light and Perl, &apos;79; 
+    Sugiura et al., &apos;861, respond to noxious stimulation (Hillman 
+    and Wall, &apos;69; Christensen and Perl, &apos;70; Nahin et al., 
+    &apos;83; Coghill et al., &apos;91), and project to the brainstem 
+    (Chaouch et al., &apos;83; Menetrey et al., &apos;82; Menetrey and 
+    Basbaum, &apos;87), diencephalon (Giesler et al., &apos;76; 
+    Kevetter and Willis, &apos;83; Granum, &apos;86; Kemplay and 
+    Webster, &apos;86; Hylden et al., &apos;89; Lima and Coimbra, 
+    &apos;88; Craig et al., &apos;89; Burstein et al., &apos;90a,b; 
+    Carstens et al., &apos;90; Menetrey and de Pommery, &apos;91), and 
+    telencephalon (Burstein and Giesler, &apos;89; Menetrey and de 
+    Pommery, &apos;91).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s202">The presence of these neurons at all levels of the 
+    spinal cord suggests that sensory and nociceptive information 
+    arising from the entire body may reach the amygdala and orbital 
+    cortex, at least in part, directly via the spinoamygdaloid and 
+    spino-orbitocortical tracts.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s203">About 10% of the labeled neurons were located in the 
+    intermediate zone and ventral horn at C1-2 and thoracolumbar 
+    regions.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s204">Intermediate zone neurons in the thoracolumbar region 
+    are known to receive input from visceral and cutaneous primary 
+    afferent axons (Ciriello and Calaresu, &apos;83; Sugiura et al., 
+    &apos;86, &apos;89), and to respond to noxious visceral (Ness and 
+    Gebhart, &apos;88; Menetrey et al., &apos;89) and proprioceptive 
+    (Giesler et al., &apos;76; Menetrey et al., &apos;84) stimuli.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s205">Therefore, it is possible that spinoamygdaloid and 
+    spino-orbitocortical tract neurons may also be involved in carrying 
+    noxious visceral and proprioceptive information.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s206">Twenty-five percent of spinoamygdaloid and 15% of 
+    spino-orbitocortical tract neurons were located in the lateral 
+    spinal nucleus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s207">The role of this nucleus is not clear; its neurons do 
+    not respond to sensory stimulation (Giesler et al., &apos;79, 
+    Menetrey et al., &apos;80) and hence are unlikely to carry sensory 
+    information to the amygdala or orbital cortex.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s208">Of special interest is the finding that neurons in the 
+    superficial dorsal horn (lamina I) of the spinal cord were not 
+    found to project directly into the amygdala or orbital cortex.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s209">Instead, they are believed to project to the amygdala 
+    mainly through a relay in the parabrachial nucleus (Cechetto et 
+    al., &apos;83; Blomqvist et al., &apos;89; Bernard et al., 
+    &apos;891, and to the orbital cortex through a relay in the 
+    thalamic nucleus submedius (Craig and Burton, &apos;81; Dostrovsky 
+    and Guilbaud, &apos;88; Miletic and Coffield, &apos;89; Yoshida et 
+    al., &apos;91).</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s210">However, at least in the rat, direct projections of 
+    lamina I neurons to the nucleus submedius are confined to the 
+    trigeminal nucleus caudalis (Dado and Giesler, &apos;go), and thus 
+    its role in relaying information from spinal cord lamina I neurons 
+    to the orbital cortex is unlikely.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s211">Nevertheless, the lack of labeled neurons in lamina I 
+    distinguishes the spinoamygdaloid and the spino-orbitocortical 
+    tracts from the spinothalamic (Giesler et al., &apos;76; Kevetter 
+    and Willis, &apos;83; Granum, &apos;86; Kemplay and Webster, 
+    &apos;86; Lima and Coimbra, &apos;88; Hylden et al., &apos;89; 
+    Burstein et al., &apos;gob), spinohypothalamic (Burstein et al., 
+    &apos;90a; Carstens et al., &apos;90; Menetrey and de Pommery, 
+    &apos;91), spinomesencephalic (Menetrey et al., &apos;82; Swett et 
+    al., &apos;85; Hylden et al., &apos;89), spinoreticular (Chaouch et 
+    al., &apos;831, and spinosolitary (Menetrey and Basbaum, &apos;87) 
+    tracts in the rat.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s212">In the lack, or paucity, of labeling in the SDH, the 
+    spinoamygdaloid and spino-orbitocortical projections resemble the 
+    projections from the spinal cord to the nucleus accumbens and 
+    septal nuclei (Burstein and Giesler, &apos;89).</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s213">In general, the location of spinal cord neurons that 
+    project to the amygdala or orbital cortex is similar to the 
+    location of spinal cord neurons that project to the nucleus 
+    accumbens and septal nuclei.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s214">The lateral reticulated area of all examined segments 
+    and the deep dorsal horn and intermediate zone of lower thoracic 
+    and upper lumbar segments contain the majority of neurons that 
+    project to each of these telencephalic nuclei (Burstein and 
+    Giesler, &apos;89).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s215">This distribution suggests preferential input to these 
+    regions from the cervical, thoracic, lumbar, and sacral dermatomes 
+    and from visceral organs in the lower abdomen, pelvis, and 
+    perineum.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s216">As mentioned, the projections from the spinal cord to 
+    the amygdala are similar in magnitude to the projections to the 
+    septal nuclei and nucleus accumbens, while the projections to the 
+    orbital cortex are smaller.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s217">Using the same retrograde tracer and examining the 
+    identical segments, we counted 330, 70, 430, and 273 neurons in the 
+    spinal cord following the most effective injections of FG into the 
+    amygdala, orbital cortex, nucleus accumbens, and septal nuclei 
+    (Burstein and Giesler, &apos;891, respectively.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s218">By comparing these numbers with the number of counted 
+    neurons in the spinal cord (4,127) following injection of FG into 
+    the hypothalamus (Burstein et al., &apos;goal, we calculated that 
+    the projections to areas rostra1 and lateral to the hypothalamus 
+    may constitute about 25% of the spinohypothalamic tract.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s219">Currently, we do not know how many spinal cord neurons 
+    project to more than one target and along what pathway these 
+    neurons reach their target nuclei in the telencephalon.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s220">If each neuron projects to only one target and its axon 
+    passes through the hypothalamus but does not terminate there, it is 
+    possible that the number of spinohypothalamic tract neurons is 
+    smaller than previously estimated.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s221">To answer this, further studies must examine whether 
+    spinal cord neurons project to only one or to several regions in 
+    the teiencephalon, and demonstrate the actual termination of spinal 
+    cord neurons in the hypothalamus.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s222">The results of the present study characterize pathways 
+    through which somatosensory and nociceptive information from the 
+    spinal cord might reach the amygdala and orbital cortex directly, 
+    bypassing the brainstem, thalamus and cortex.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s223">Although minor, these projections can theoretically 
+    transmit sensory information to the amygdala and orbital cortex 
+    earlier, as they do not synapse on the way, and hence may 
+    contribute to more rapid processing of somatosensory information, 
+    including pain.</S>
+  </Discussion>
+
+  <Acknowledgements>
+
+    <S avgH="27" class="acknowledgements.heading"
+     format="TimesNewRomanPS-BoldMT" id="s224">ACKNOWLEDGMENTS</S>
+    <BR />
+
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s225">This work was supported by 
+    Dr.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s226">R.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s227">Maciewicz and the Department 
+    of Neurology, the Ruth Freeman Fund for Pain Research, the Kaneb 
+    Fellowship, and the Boston Foundation.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s228">We thank Dr.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s229">A.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s230">Strassman, Dr.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s231">D.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s232">Borsook, and Dr.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s233">A.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s234">Zagon for critical comments 
+    on the manuscript; Dr. 0.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s235">Falkowski for technical 
+    assistance, and Dr.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s236">B.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s237">Vos for help with 
+    illustrations.</S>
+  </Acknowledgements>
+
+  <References>
+
+    <S avgH="27" class="references.heading"
+     format="TimesNewRomanPS-BoldMT" id="s238">LITERATURE</S>
+    <BR />
+
+    <S avgH="27" class="references.heading"
+     format="TimesNewRomanPS-BoldMT" id="s239">CITED</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s240">Anand, B.K., and S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s241">Dua (1956) Circulatory and respiratory changes induced 
+    by electrical stimulation of limbic system (visceral brain).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s242">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s243">Neurophysiol. 19.393-400.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s244">Applegate, C.D., R.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s245">Frysinger, B.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s246">Kapp, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s247">Gallagher (1982) Multiple unit activity recorded from 
+    amygdala central nucleus during Pavlovian heart rate conditioning 
+    in rabbit.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s248">Brain Res. 238.457-462.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s249">Azuma, S., T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s250">Yaniamoto, and Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s251">Kawamura (1984) Studies on gustatory responses 
+    ofamygdaloid neurons in rats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s252">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s253">Brain Res. 56:12-22.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s254">Backonja, M., and V.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s255">Miletic (1991) Responses of neurons in the rat 
+    ventrolateral orbital cortex to phasic and tonic nociceptive 
+    stimulation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s256">Brain Res. 557:353-355.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s257">Bailey, P., and W.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s258">Sweet 11940) Effects on respiration, blood pressure and 
+    gastric motility of stimulation of orbital surface of frontal 
+    lobe.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s259">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s260">Neurophysiol. 3276-282.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s261">Ben-Ari, Y. (1981) The Amygdaloid Complex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s262">Amsterdam: Holland, pp. 227-237,317-330,355-366.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s263">Ben-Ari, Y., G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s264">Le Gal La Salle, and J.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s265">Champagnat (1974) Lateral amygdala unit activity: I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s266">Relationship between spontaneous and evoked activity.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s267">Electroencephal.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s268">Clin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s269">Neurophysiol. 37:449-461, Bernard, J.F., and J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s270">Besson (1990) The spino(Trigemin0)pontoamygdaloid 
+    pathway: Electrophysiological evidence for an involvement in pain 
+    processes.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s271">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s272">Neurophysiol. 63t473-490.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s273">Bernard, J.F., G.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s274">Hung, and J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s275">Besson (1990) Effect of somesthetic stimulation on the 
+    activity of neurons of the centralis of the amygdala.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s276">Brain Res. 523:347-350.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s277">Bernard, J.F., G.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s278">Hung, and J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s279">Besson (1992) Nucleus centralis of the amygdala and 
+    glonus pallidus ventralis: Electrophysiological evidence for 
+    involvement in pain processes.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s280">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s281">Neurophysiol. 68:551-569.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s282">Bernard, J.F., M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s283">Peschanski, and J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s284">Besson (1989) A possible spino 
+    (trigeminol-ponto-amygdaloid pathway for pain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s285">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s286">Lett. 100.8388.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s287">Berod, A., B.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s288">Hatman, and J.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s289">Pujol (1981) Importance of fixation in 
+    immunohistochemistry: Use of formaldehyde at variable pH for the 
+    localization of tyrosin hydroxylase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s290">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s291">Histochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s292">Cytochem. 293344850.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s293">Blomqvist, A., W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s294">Ma, and K.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s295">Berkley (1989) Spinal input chial nucleus in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s296">Brain Res. 480:29-36.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s297">Bonvallet, M., and E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s298">Gary Bob0 (1972) Changes in phrenic activity and heart 
+    rate elicited by localized stimulation of the amygdala and adjacent 
+    structures.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s299">Electroencephal.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s300">Clin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s301">Neurophysiol. 32: 1-16.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s302">Burstein, R., and G.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s303">Giesler, Jr. (1989) Retrograde labeling of neurons in 
+    the spinal cord that project directly to nucleus accumbens or the 
+    septa1 nuclei in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s304">Brain Kes. 497.149-154, Burstein, R., K.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s305">Cliffer, and G.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s306">Giesler, Jr. (1990a) Cells of origin of the 
+    spinohypothalamic tract in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s307">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s308">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s309">Neurol. 291:329-344.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s310">Burstein, R., R.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s311">Dado, and G.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s312">Giesler, Jr. (1990bj The cells of origin of the 
+    spinothalamic tract of the rat: A quantitative reexamination.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s313">Brain Res. 51 1:329-337.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s314">Burstein, R., R.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s315">Dado, K.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s316">Cliffer, and G.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s317">Giesler, Jr. (1991) Physiological characterization of 
+    spinohypothalamic tract neurons in the lumbar enlargement of 
+    rats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s318">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s319">Neurophysiol. 66.261-284.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s320">Carstens, E., J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s321">Leah, J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s322">Lechner, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s323">Zimmerman (1990) Demonstration of extensive brainstem 
+    projections to medial and lateral thalamus and hypothalamus in the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s324">Neuroscience 35.609-626.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s325">Cechetto, D.F., and F.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s326">Calaresu (1983a) Response of single units in the 
+    amygdala to stimulation of buffer nerves in cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s327">Am.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s328">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s329">Physiol. 244:R646-R65 1.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s330">Cechetto, D.F., and F.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s331">Calaresu (1983bl Parabrachial units responding to 
+    stimulation of buffer nerves and forebrain in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s332">Am.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s333">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s334">Physiol. 245tR811-RS19.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s335">Cechetto, D.F., and F.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s336">Calaresu (1984) Units in the amygdala responding to 
+    activation of carotid baroand chemoreceptors.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s337">Am.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s338">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s339">Physiol. 246:R832-R836.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s340">Cechetto, D.F., and F.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s341">Calaresu (1985) Central pathways relaying cardiovascular 
+    afferent information to amygdala.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s342">Am.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s343">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s344">Physiol. 248:R38R45.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s345">Cechetto, D.F., J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s346">Ciriello, and F.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s347">Calarrsu (1983) Afferent connections to cardiovascular 
+    sites in the amygdala: A horseradish peroxidase study in thecat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s348">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s349">Auton.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s350">New.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s351">Syst. 8:97-110.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s352">Cechetto, D.F., D.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s353">Standaert, and C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s354">Saper (1985) Spinal and trigeminal dorsal horn 
+    projections to the parabrachial nucleus of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s355">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s356">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s357">Neurol. 240.153-160.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s358">Chaouch, A., D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s359">Menetrey, D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s360">Binder, and J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s361">Besson (1983) Neurons at the origin of the medial 
+    component of the bulbopontine spinoreticular tract in the rat: An 
+    anatomical study using horseradish peroxidase retrograde 
+    transport.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s362">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s363">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s364">Neurol. 214:309-320.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s365">Chapman, W.P., R.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s366">Livingston, and K.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s367">Livingston (1949) Frontal lobotomy and electrical 
+    stimulation of orbital surface of frontal lobes.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s368">Arch.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s369">Neurol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s370">Psychiat. 62:701-716.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s371">Chapman, W.P., H.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s372">Chroeder, G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s373">Guyer, M.A.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s374">Brazier, C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s375">Fager, J.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s376">Poppen, H.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s377">Solomon, and P.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s378">Yakolev (1954) Physiological evidence concerning the 
+    importance of the amygdaloid nuclear region in the integration of 
+    circulating function and emotion in man.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s379">Science 129.949950.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s380">Christensen, B.N., and E.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s381">Per1 (1970) Spinal neurons specifically excited by 
+    noxious or thermal stimuli: Marginal zone of the dorsal horn.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s382">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s383">Neurophysiol. 33:293-307.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s384">Ciriello, J., and F.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s385">Calaresu (1981) Projections from buffer nerves to the , 
+    nucleus of the solitary tract: An anatomical and 
+    electrophysiological &apos; study in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s386">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s387">Auton.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s388">Nerv.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s389">Syst. 3.299-310.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s390">Ciriello, J., and F.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s391">Calaresu (1983) Central projections of afferent renal 
+    fibers in the rat: An anterograde transport study of horseradish 
+    peroxidase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s392">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s393">Auton.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s394">New.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s395">Syst. 8:273-285.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s396">Cliffer, K.D., R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s397">Burstein, and G.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s398">Giesler, Jr. (1991) Distributions of spinothalamic, 
+    spinohypothalamic, and spinotelencephalic fibers revealed by 
+    anterograde transport of PHA-L in rats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s399">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s400">Neurosci. 11.852868.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s401">Coffield, J.A., K.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s402">Bowen, and V.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s403">Miletic (1992) RetroLTade tracing of projections between 
+    the nucleus submedius, the ventrolateral orbital cortex, and the 
+    midbrain in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s404">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s405">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s406">Neurol. 321t488-499.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s407">Coghill, R.C., D.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s408">Price, R.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s409">Hayes, and D.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s410">Mayer (1991) Spatial distribution of nociceptive 
+    processing in the rat spinal cord.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s411">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s412">Neurophysiol. 65:133-140.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s413">Cooper, S.J. (1975) Anaesthetisation of prefrontal 
+    noxious stimulation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s414">Nature 254.439-440.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s415">Craig, A.D., and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s416">Burton (1981) Spinal and medullary lamina I projection 
+    to nucleus submedius in medial thalamus: A possible pain center.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s417">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s418">Neurophysiol. 45443466.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s419">Craig, A.D., A.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s420">Linington, and K.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s421">Kniffki (1989) Cells of origin of spinothalamic tract 
+    projections to the medial and lateral thalamus in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s422">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s423">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s424">Neurol. 289:568-585.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s425">Creutzfeldt, O.D., F.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s426">Bell, and W.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s427">Adey (1963) The activityof neurons in the amygdala of 
+    the cat following afferent stimulation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s428">Prog.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s429">Brain Res., 3:3 1-49.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s430">Dado, R.J., and G.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s431">Giesler, Jr. (1990) Afferent input to nucleus submedius 
+    in rats: Retrograde labeling of neurons in the spinal cord and 
+    caudal medulla.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s432">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s433">Neurosci. 10~2672-2686.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s434">Dado, K.J., R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s435">Burstein, K.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s436">Cliffer, and G.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s437">Giesler, Jr. (1990) Evidence that Fluoro-Gold can be 
+    transported avidly through axons of passage.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s438">Brain Res. 533:329-333.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s439">Davis, M. (1992) The role of the amygdala in fear and 
+    anxiety.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s440">Ann.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s441">Rev.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s442">Neurosci. 15r353-375.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s443">Olmos, J., G.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s444">Alheiol, and C.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s445">Beltramino (1985) Amygdala.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s446">In: The Rat Nervous System (G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s447">Paxinos, edj.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s448">Sydney: Academic, Val. 1, pp. 223-334.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s449">Delgado, J.M.R., and R.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s450">Livingston (1948) Some respiratory, vascular, and 
+    thermal responses to stimulation of orbital surface of frontal 
+    lobe.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s451">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s452">Neurophysiol. 11:39-55.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s453">Dostrovsky, J.O., and G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s454">Guilbaud (1988) Noxious stimuli excite neurons in 
+    nucleus submedius of the normal and arthritic rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s455">Brain Res. 460:269280.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s456">El-Yassir, N., and J.O.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s457">Dostrovsky (1990) Activation of neurons in the orbital 
+    region of rat cortex hy noxious stimulation and by stimulation of 
+    nucleus submedius.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s458">Soc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s459">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s460">Abstr. 16:706.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s461">Giesler, G.J., Jr., D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s462">Menetrey, G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s463">Guilbaud, and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s464">-M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s465">Besson (1976) Lumbar cord neurons at the origin of the 
+    spinothalamic tract in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s466">Brain Res. 118:320-324.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s467">Giesler, G.J., Jr., G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s468">Urca, J.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s469">Cannon, and J.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s470">Lieheskind (1979) Response properties of neurons of the 
+    lateral cervical nucleus in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s471">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s472">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s473">Neurol. 186:65-78.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s474">Grantham, E.G. (1951) Prefrontal lobotomy for relief of 
+    pain with a report of a new operative technique.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s475">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s476">Neurosurg. 8:405-410.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s477">Granum, S.L. (1986) The spinothalamic system of the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s478">I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s479">Locations of cells of origin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s480">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s481">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s482">Neurol. 247:159-180.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s483">Grove, E.A. (1988) Efferent connections of the 
+    substantia rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s484">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s485">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s486">Neurol. 277:347-364.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s487">Hamilton, R.B., and R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s488">Norgen (1984) Central projections nerves in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s489">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s490">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s491">Neurol. 222560-577.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s492">Hillman, P., and P.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s493">Wall (1969) Inhibitory and excitatory factors 
+    influencing the receptive fields of lamina V spinal cord cells.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s494">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s495">Brain Res. 9:284-306.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s496">Hilton, S.M., and reactions and 165:160-173.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s497">Holson, R. (1986) Mesial prefrontal cortical lesions and 
+    timidity Reactivity to aversive stimuli.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s498">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s499">Behav. 37221-230.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s500">Hylden, J.L.K., F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s501">Anton, and R.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s502">Nahin (1989) Spinal lamina I projection neurons in the 
+    rat: Collateral innervation of parabrachial area and thalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s503">Neuroscience 28:27-37.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s504">Innes, D., and M.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s505">Tansy (1980) Gastric mucosal ulceration associated with 
+    electrochemical stimulation of the limbic system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s506">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s507">Bull. 533-36.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s508">Iwata, J., K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s509">Chida, and J.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s510">LeDoux (1987) Cardiovascular responses elicited by 
+    stimulation of neurons in the central amygdaloid nucleus in awake 
+    but not anesthetized rats resemble conditioned emotional 
+    responses.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s511">Brain Res. 418;183-188.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s512">Kaada, B.R. (1972) Stimulation and regional ablation of 
+    the amygdaloid complex with reference to functional 
+    representations.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s513">In B.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s514">Eleftheriou (edj: The Neurobiology of the Amygdala.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s515">New York: Plenum, pp. 205-282.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s516">Kapp, B.S., M.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s517">Gallagher, R.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s518">Frysinger, and C.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s519">Applegate (1981) The amygdala, emotion and 
+    cardiovascular conditioning.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s520">In Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s521">Ben-Ari (ed): The Amygdaloid Complex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s522">Amsterdam: Elsevier, North Holland, pp. 355-366.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s523">Kemplay, S.K., and K.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s524">Wehster (1986) A qualitative and quantitative analysis 
+    of the distributions of cells in the spinal cord and spinomedullary 
+    junction projecting to the thalamus of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s525">Neuroscience 17:769-789.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s526">Kevetter, G.A., and W.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s527">Willis (1983) Collaterals cells in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s528">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s529">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s530">Neurol. 215:453-464.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s531">Krettek, J.E., and J.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s532">Price (1977) The cortical projections of the mediodorsal 
+    nucleus and adjacent thalamic nuclei in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s533">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s534">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s535">Neurol. 171:157-192.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s536">Krettek, J.E., and J.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s537">Price (1978) A description of the amygdaloid complex in 
+    the rat and cat with observations on intra-amygdaloid axonal 
+    connections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s538">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s539">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s540">Neurol. 178:255-280.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s541">LeDoux, J.E., D.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s542">Ruggiero, and D.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s543">Rcis (1985) Projections subcortical forebrain from 
+    anatomically defined regions of the geniculate body in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s544">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s545">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s546">Neurol. 242182-213.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s547">LeDoux, J.E., D.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s548">Ruggiero, R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s549">Forest, R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s550">Stornetta, and D.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s551">Reis (1987) Topographic organization of convergent 
+    projections to the thalamus from the inferior colliculus and spinal 
+    cord in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s552">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s553">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s554">Neurol. 264:123-146.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s555">LeDoux, J.E., C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s556">Farb, and D.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s557">Ruggiero (1990a) Topographic organization of neurons in 
+    the acoustic thalamus that project to the amygdala.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s558">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s559">Neurosci. lOr1043-1054.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s560">LeDoux, J.E., P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s561">Cicchetti, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s562">Xagoraris, and L.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s563">Romanski (1990h) The lateral amygdaloid nucleus: Sensory 
+    interface of the amygdala in fear conditioning.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s564">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s565">Neurosci. 10: 1062-1069.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s566">Light, A.R., and E.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s567">Per1 (1979) Spinal termination of functionally 
+    identified prima17 afferent neurons with slowly conducting 
+    myelinated fibers.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s568">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s569">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s570">Neurol. 186133-150.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s571">Lima, D., and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s572">Coimbra (19881 The spinothalamic system of the rat: 
+    Structural types of retrogradely labeled neurons in the marginal 
+    zone (lamina I).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s573">Neuroscience 27,215-230.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s574">Loewy, A.D., and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s575">Burton (1978) Nuclei of the solitary tract: Efferent 
+    connections to the lower brain-stem and spinal cord of the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s576">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s577">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s578">Neurol. 181:421450.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s579">Ma, W., and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s580">Peschanski (1988) Spinal and trigeminal projections to 
+    the parabrachial nucleus in the rat: Electron-microscopic evidence 
+    of a spino-ponto-amygdalian somatosensory pathway.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s581">Somatosens.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s582">Res. 5,247-257.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s583">Ma, W., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s584">Blomqvist, and K.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s585">Berkley (1989) Spino-diencephalic relays through the 
+    parabrachial nucleus in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s586">Brain Res. 480:37-50.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s587">Ma, W., M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s588">Peschanski, and P.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s589">Ohara (1988) Fine structure of the dorsal part of the 
+    nucleus submedius of the rat thalamus: An anatomical study with 
+    reference to possible pain pathways.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s590">Neuroscience 26:147-159.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s591">Machne, X., and J.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s592">Segundo (1956) Unitary responses to afferent volleys in 
+    amygdaloid complex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s593">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s594">Neurophysiol. 19:232-240.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s595">MacLean, P.D., and J.M.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s596">Delgado (1953) Electrical and chemical stimulation of 
+    frontotemporal portion of limbic system in the waking animal.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s597">Electroencephal.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s598">Clin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s599">Neurophysiol. 5:91-100.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s600">Menetrey, D., and A.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s601">Basbaum (1987) Spinal and trigeminal projections to the 
+    nucleus of the solitary tract: A possible substrate for 
+    somatovisceral and viscerovisceral reflex activation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s602">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s603">Camp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s604">Neurol. 255:439-450.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s605">Menetrey, D., and J. de Pommery (1991) Origins of spinal 
+    ascending pathways that reach central areas involved in 
+    visceroception and visceronociception in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s606">Euro.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s607">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s608">Neurosci. 3:249-259.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s609">Menetrey, D., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s610">Chaouch, and J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s611">Besson (1980) Location and properties of dorsal horn 
+    neurons at origin of spinoreticular tract in lumbar enlargement of 
+    the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s612">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s613">Neurophysiol. 443362-877.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s614">Menetrey, D., J. de Pommery, and F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s615">Roudier (1984) Properties of deep spinothalamic tract 
+    cells in the rat, with special reference to ventralmedial zone of 
+    lumbar dorsal horn.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s616">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s617">Neurophysiol. 52:612-624.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s618">Menetrey, D., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s619">Chaouch, D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s620">Binder, and J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s621">Besson (1982) The origin of the spinomesencephalic tract 
+    in the rat: An anatomical study using the retrograde transport of 
+    horseradish peroxidase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s622">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s623">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s624">Neurol. 206: 193-207.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s625">Menetrey, D., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s626">Gannon, J.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s627">Levine, and A.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s628">Basbaum (1989) The expression of c-fos protein in 
+    interneurons and projection neurons of the rat spinal cord in 
+    response to noxious somatic, articular and visceral stimulation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s629">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s630">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s631">Neurol. 285:177-195.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s632">Miletic, V., and J.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s633">Coffield (1989) Responses of neurons in the rat nucleus 
+    submedius to noxious and innocuous mechanical cutaneous 
+    stimulation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s634">Somatosens.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s635">Motor Res. 6:567-587.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s636">Miura, M., and D.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s637">Reis (1972) The role of the solitary and paramedian 
+    reticular nuclei in mediating cardiovascular reflex responses from 
+    carotid baroand chemoreceptors.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s638">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s639">Physiol. 223:525-548.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s640">Mogenson, G.J., and F.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s641">Calaresu (19731 Cardiovascular responses to electrical 
+    stimulation of the amygdala in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s642">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s643">Neurol. 39166180.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s644">Nahin, R.L., A.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s645">Madsen, and G.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s646">Giesler, Jr. (1983) Anatomical and physiological studies 
+    of the gray matter surrounding the spinal cord central canal.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s647">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s648">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s649">Neurol. 220:321-335.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s650">Ness, T.J., and G.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s651">Gebhart (1988) Characterization of neurons responsive to 
+    noxious colorectal distension in the T13-L2 spinal cord of the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s652">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s653">Neurophysiol. 60: 1419-1438.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s654">Norgen, R. (1976) Taste pathways to hypothalamus Neurol. 
+    166:17-30.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s655">O Keefe, J., and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s656">Houma (1969) Complex sensory properties of certain 
+    amygdala units in the freely moving cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s657">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s658">Neurol. 23:384-398.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s659">Otterson, O.P. (1981) Afferent connections to the 
+    amygdaloid complex of the rat with some observations in the cat. 
+    111.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s660">Afferents from the lower brainstem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s661">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s662">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s663">Neurol. 202t335-356.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s664">Pascoe, J.P., and B.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s665">Kapp (1985) Electrophysiological characteristics of d 
+    amygdala central nucleus neurons in the awake rabbit.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s666">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s667">Bull. 24r331-338.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s668">Paxinos, G., and C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s669">Watson (1986) The Rat Brain in Stereotaxic 
+    Coordinates.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s670">New York: Academic.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s671">Person, R.J. (1989) Somatic and vagal afferent 
+    convergence on solitary tract neurons in cat: Electrophysiological 
+    characteristics.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s672">Neuroscience 30:283295.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s673">Peschanski, M. (1984) Trigeminal Neuroscience 
+    12:465-487.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s674">Radna, R.J., and P.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s675">MacLean (1981) Vagal elicitation of respiratory-type and 
+    other unit responses in basal limbic structures of squirrel 
+    monkeys.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s676">Brain Res. 213:45-61.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s677">Reis, D.J., and M.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s678">Oliphant (19641 Bradycardia and tachycardia following 
+    electrical stimulation of the amygdaloid region in monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s679">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s680">Neurophysiol . 2 73.893-9 12.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s681">Ricardo, J.A., and E.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s682">Koh (1978) Anatomical evidence of direct projections 
+    from the nucleus of the solitary tract to the hypothalamus, 
+    amygdala, and other forebrain structures in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s683">Brain Res. 153.1-26.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s684">Sanghera, M.K., E.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s685">Rolls, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s686">Roper-Hall (1979) Visual responses of neurons in the 
+    dorsolateral amygdala of the alert monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s687">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s688">Neurol. 633.610-626.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s689">Saper, C.B., and A.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s690">Loewy (1980) Efferent connections of the parabrachial 
+    nucleus in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s691">Brain Xes. 197:291-317.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s692">Sawa, M., and J.M.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s693">Delgado (1963) Amygdala unitary activity in unrestrained 
+    cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s694">Electroencephal.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s695">Clin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s696">Neurophysiol. 15:637-650.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s697">Schmued, L.C., and J.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s698">Fallon (1986) A new fluorescent retrograde axonal tracer 
+    with numerous unique properties.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s699">Brain Res. 377:147-154.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s700">Schwartzbaum, J.S., and J.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s701">Morse (1978) Taste responsivity of amygdaloid units in 
+    behaving rabbit: A methodological report.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s702">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s703">Bull. 3:131-141.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s704">Snow, P.J., B.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s705">Lumb, and F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s706">Cervero (1992) The representation of prolonged and 
+    intense, noxious somatic and visceral stimuli in the ventrolateral 
+    orbital cortex of the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s707">Pain 48:89-99.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s708">Sterh, J.M., and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s709">Smith (1955) Frontal lobotomy and the anxiety in rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s710">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s711">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s712">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s713">Psychol. 48:126129.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s714">Sugiura, Y., C.1,.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s715">Lee, and E.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s716">Per1 (1986) Central projections of identified 
+    unmyelinated 234:358-361.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s717">Sugiura, Y., N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s718">Terui, and Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s719">Hosoya (1989) Difference in distribution of central 
+    terminals between visceral and somatic unmyelinated iC) primary 
+    afferent fibers.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s720">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s721">Neurophysiol. 62834-840.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s722">Sullivan, R.M., and P.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s723">Henke (1986) The anterior midline cortex and adaptation 
+    to stress ulcer in rats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s724">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s725">Bull. 17:493-496.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s726">Swett, J.E., S.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s727">McMahon, and P.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s728">Wall i 1985) Long ascendingprojections to the midbrain 
+    from cells of lamina I and nucleus of the dorsal lateral funiculus 
+    of the rat spinal card.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s729">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s730">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s731">Neurol. 238:401-416.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s732">Torvik, A. (1956) AtTerent connections to the sensory 
+    trigeminal nuclei, the nucleus of the solitary tract and adjacent 
+    structures.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s733">An experimental study in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s734">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s735">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s736">Neurol. 106:51-141.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s737">Turner, B.H., and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s738">Zimmer (1984) The architecture interconnections of the 
+    rat s amygdala and lateral Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s739">Neurol. 227:540-557.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s740">Turner, B.H., and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s741">Herkenham (199 1) l halamoamygdaloid projections in the 
+    rat: A test of the amygdala s role in sensory processing.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s742">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s743">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s744">Neurol. 313:295-325.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s745">Ursin, H., F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s746">Jellestad, and I.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s747">Cabrera i 1981) The amygdala, exploration and fear.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s748">In Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s749">Ben-Ari (edi: The Arnygdaloid Complex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s750">Amsterdam: Elsevier, pp. 317-329.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s751">Wessendorf, M.W. (1991) Fluoro-Gold: uptake.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s752">Brain Res. 553:135-148.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s753">Yoshida, A,, J.O.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s754">Dostrovsky, and C.Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s755">Chiang (19921 The afferent and efferent connections of 
+    the nucleus submedius in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s756">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s757">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s758">Neurol. 324: 115-133.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s759">Yoshida, A,, J.O.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s760">Dostrovsky, B.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s761">Sessle, and C.Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s762">Chiang 11991) Trigeminal projections to the nucleus 
+    submedius of the thalamus in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s763">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s764">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s765">Neurol. 3073.609-625.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s766">Zemlan, F.P., C.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s767">Leonard, L.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s768">Kow, and D.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s769">Pfaff (1978) Ascending tracts of the lateral column of 
+    the rat spinal cord: A study using silver impregnation and 
+    horseradish peroxidase technique.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s770">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s771">Neurol. 62298334.</S>
+  </References>
+
+</File>
+

@@ -1,0 +1,42 @@
+*	Equiv T7 T6
+T29	Positive_regulation 0 9	Induction
+T30	Gene_expression 22 32	expression
+T31	Positive_regulation 33 35	by
+T32	Gene_expression 123 136	transfectants
+T33	Gene_expression 293 303	expression
+T34	Negative_regulation 400 411	deprivation
+T35	Gene_expression 538 548	expression
+T36	Negative_regulation 651 662	deprivation
+T37	Gene_expression 684 693	expressed
+T38	Entity 747 755	promoter
+T39	Positive_regulation 760 774	transactivated
+T40	Positive_regulation 801 808	effects
+T41	Positive_regulation 1159 1174	transactivation
+T42	Entity 1188 1196	promoter
+T43	Negative_regulation 1206 1216	diminished
+T44	Gene_expression 1332 1342	expression
+T45	Positive_regulation 1355 1362	induced
+T46	Positive_regulation 1363 1365	by
+T47	Negative_regulation 1470 1481	deprivation
+E1	Positive_regulation:T29 Theme:E2
+E2	Gene_expression:T30 Theme:T1
+E3	Positive_regulation:T31 Theme:E1 Cause:T2
+E4	Gene_expression:T32 Theme:T3
+E5	Gene_expression:T33 Theme:T5
+E6	Negative_regulation:T34 Theme:T7
+E7	Gene_expression:T35 Theme:T12
+E8	Gene_expression:T35 Theme:T13
+E9	Gene_expression:T35 Theme:T14
+E10	Gene_expression:T35 Theme:T11
+E11	Gene_expression:T35 Theme:T15
+E12	Gene_expression:T35 Theme:T10
+E13	Negative_regulation:T36 Theme:T16
+E14	Gene_expression:T37 Theme:T17
+E15	Positive_regulation:T39 Theme:T18 Cause:T19 Site:T38
+E16	Positive_regulation:T40 Theme:T18 Site:T38
+E17	Positive_regulation:T41 Theme:T24 Cause:T23 Site:T42
+E18	Negative_regulation:T43 Theme:E17 Cause:T25
+E19	Gene_expression:T44 Theme:T26
+E20	Positive_regulation:T45 Theme:E19
+E21	Positive_regulation:T46 Theme:E20 Cause:T27
+E22	Negative_regulation:T47 Theme:T28

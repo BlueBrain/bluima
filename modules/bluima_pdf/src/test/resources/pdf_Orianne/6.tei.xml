@@ -1,0 +1,2941 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">R E V I E W S</title>
+			</titleStmt>
+			<publicationStmt>unknown</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<title level="a" type="main">R E V I E W S</title>
+					</analytic>
+					<idno type="doi">10.1038/nrn1519</idno>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<front>
+			<div type="abstract">
+				<head>Abstract</head>
+<p>NATURE REVIEWS | NEUROSCIENCE VOLUME 5 | OCTOBER 2004 | 7 9 3 Neocortical neurons are not randomly distributed in the cortical sheet, but are arranged in layers (layers I–VI) that connect to different cortical and subcortical regions 1–3 . In rodents, a neocortical column of about 0.3 mm in diameter contains roughly 7,500 neurons 4,5 (100 neurons in layer I; 2,150 in layer II/III; 1,500 in layer IV; 1,250 in layer V and 2,500 in layer VI). Most neocortical neurons (70–80%) are excitatory pyramidal neurons 1,3,6,7 , which have relatively stereotyped anat-omical, physiological and molecular properties 1,8 . The remaining 20–30% of neocortical neurons are interneurons, mostly inhibitory interneurons, which have diverse morphological, physiological, molecular and synaptic characteristics 3,6,8–16 . Despite this diversity, inhibitory interneurons have many common features, some of which distinguish them from pyramidal neurons. First, most mature inhibitory interneurons have aspiny dendrites 3,6,17 . Second, interneurons can receive both excitatory and inhibitory synapses onto their somata 3,17,18 . Third, the axons of inhibitory neurons usually arborize within a cortical column and can project laterally across columns, but do not typically project down into the white matter to contact distant brain regions 19 . Indeed, neocortical interneurons in general are also called &apos;local circuit neurons&apos; to reflect the restriction of their axonal and dendritic arbours to the neocortex 20 . Fourth, different types of inhibitory neuron seem to be especially capable of targeting different subdomains of neurons (dendritic regions, soma or axon) 14, 21 . Interneurons can also be excitatory. The spiny stellate cell (SSC) is an important type of excitatory (glutamater-gic) interneuron that has a star-like dendritic arboriza-tion with a high density of spines around its soma. These cells are found only in layer IV of primary sensory areas 22,23 ; receive excitatory inputs from specific thalamic nuclei 3 ; and relay this information to layer II/III 24–26 , indi-cating that they are specialized to process thalamic input. SSCs share many characteristics with pyramidal neurons, but lack a prominent apical dendrite 27 ; instead, they have only a partial apical-like dendrite that can reach layer III. There are also excitatory peptidergic interneurons, including a subgroup of bipolar interneurons — small, oval cells with axons and dendrites that stretch vertically in a narrow band across all layers. Inhibitory interneurons, which use GABA (γ-amino-butyric acid) as their transmitter, vary greatly in their somatic, dendritic and axonal morphologies (FIG. 1). Dendritic morphology is the most variable feature and cannot reliably define the type of interneuron. However, the axonal aborization can reveal the anatomical identity of an interneuron because interneurons seem to be part-icularly specialized to target different domains of neu-rons, different layers of a column and different columns. INTERNEURONS OF THE NEOCORTICAL INHIBITORY SYSTEM</p>
+			</div>
+		</front>
+		<body>
+<p>Henry Markram*, Maria Toledo-Rodriguez*, Yun Wang , Anirudh Gupta*, Gilad Silberberg* and Caizhi Wu</p>
+<p>Abstract | Mammals adapt to a rapidly changing world because of the sophisticated cognitive functions that are supported by the neocortex. The neocortex, which forms almost 80% of the human brain, seems to have arisen from repeated duplication of a stereotypical microcircuit template with subtle specializations for different brain regions and species. The quest to unravel the blueprint of this template started more than a century ago and has revealed an immensely intricate design. The largest obstacle is the daunting variety of inhibitory interneurons that are found in the circuit. This review focuses on the organizing principles that govern the diversity of inhibitory interneurons and their circuits.</p>
+<p>*Laboratory of Neural Microcircuitry, Brain Mind Institute, Ecole Polytechnique Fédérale de Lausanne, 1015 Lausanne, Switzerland.</p>
+			<table>
+				<head>Bitufted cells. Bitufted cells (BTCs) are similar to BPCs and DBCs in that they usually have ovoid somata and give rise to primary dendrites from opposite poles to form a bitufted morphology (FIG. 1). However, unlike the narrow vertical axonal projection of BPCs, and the &apos;horse-tail&apos; axonal cluster of DBCs, BTC axons have wider horizontal axonal spans, even across a cortical column (see online supplementary information S1 (table)). The vertical projection is also less extensive and crosses mostly to neighboring layers. BTCs are dendritic-targeting cells 14 that are found in layers II–VI. They can express CB, CR, NPY, VIP, SOM and CCK, but not PV (FIG. 3).</head>
+			</table>
+<p>Figure 2 | Different types of interneuron in the layers of somatosensory cortex of juvenile rats. Note that the percentage of neurogliaform cells might be artificially small because very small somata were often overlooked during recording.</p>
+<p>Electrical properties of interneurons</p>
+<p>Neocortical neurons have various active and passive properties, so they respond differently when excited with a depolarizing step current pulse 69–72 . The classification of these responses has been refined over the past decade. Originally, all inhibitory interneurons were described as fast spiking (FS) 69,71 , but subsequent recordings revealed other discharge patterns 11,73 , such as those of low-threshold-spiking (LTS) cells, also known as burst-spiking non-pyramidal (BSNP) cells 11,73,74 . These show typical burst-like discharges after a hyperpolarizing pre-pulse and are found in layer V (which also contains many bursting pyramidal cells). Some of these interneurons have been anatomically identified as MCs and DBCs. Regular-spiking non-pyramidal (RSNP) cells discharge in a manner that resembles regular-spiking pyramidal cells 11,75,76 . These cells have been recorded in layers II/III and V, and some have been identified as MCs, DBCs and BPCs. Late-spiking (LS) cells, which discharge with a considerable delay after a depolarizing step, have also been reported. These cells were found in layers II/III and V, and some were identified as NGCs 11,75 . Irregular-spiking (IS) cells fire an initial burst of action potentials followed by irregularly spaced action potentials , and form a small fraction of interneurons with bipolar morphology in layers II/III and V 9,77 . IS cells have been further divided, according to the duration of the initial burst, into IS1 and IS2 cells 77 . The characteristics of these bursts differ from those of intrinsically bursting pyramidal cells (TABLE 1). An attempt to map synapse types between pairs of different types of neuron led to the conclusion that the resolution of these classification schemes was not sufficient to uniquely identify inhibitory interneurons. A classification scheme was therefore recently developed that is based on both the onset and the steady-state response to a step current injection into the soma 15 .</p>
+			<table>
+				<head>Steady-state response types. When divided according to their steady-state response, interneurons fall into five groups (TABLE 1; FIG. 5): non-accommodating (NAC); accommodating (AC); stuttering (STUT); irregular spiking (IS); and bursting (BST). NACs fire repetitively without frequency adaptation in response to a wide range of sustained somatic current injections. The interspike intervals of consecutive action potentials during the steady state either do not change or change minimally , and the discharge frequency increases steeply as a function of the injected current amplitude. Their single action potentials are very brief and characteristically have a deep fast afterhyperpolarization (fAHP). ACs fire repetitively with frequency adaptation and therefore do not reach such high firing rates as NACs, but some could be classified as fast spiking (TABLE 1). STUT cells fire high-frequency clusters of action potentials intermingled with unpredictable periods of silence (&apos;Morsecode&apos;-like discharges) for a wide range of sustained somatic current injections. The action potentials in a cluster show hardly any accommodation, and the silent periods between clusters vary unpredictably in duration.</head>
+			</table>
+			<figure>
+				<head>Neurogliaform cells. Neurogliaform cells (NGCs) are small, &apos;button-type&apos; cells with many fine, radiating dendrites that are short, aspiny, finely beaded and rarely branched 3,39,64 . They form a highly symmetrical and spherical dendritic field. The axon can arise from any part of the soma or from the base of a dendrite, and shortly after its origin, it breaks up into a dense, intertwined arborization of ultra-thin axons with as many as ten orders of branching (FIG. 1). Fine boutons are distributed on the axonal collaterals to form GABA synapses onto the dendrites of target cells 39 . The molecular characteristics of NGCs are not well studied.</head>
+			</figure>
+			<figure>
+				<head>Layer I interneurons. Virtually all layer I neurons are inhibitory 65,66 , and they fall into two categories, which might reflect different origins 65–68 .The first comprises large neurons with horizontal processes, known as Cajal Retzius cells, which seem to be present mostly during development , and are unique to layer I. These multipolar cells can have various soma shapes, which probably arise from adaptations to different locations in layer I. Their axons, which are confined to layer I, can be extensive and typically have a horizontal trajectory from which extend many short ascending and some descending terminal fibrils that are believed to target the terminal tufts of pyramidal cells (FIG. 1). The second category is a heterogeneous group of small, multipolar interneurons with varying axonal arborizations (poor and rich axonal plexus cells).</head>
+			</figure>
+<p>CCK c-IS</p>
+<p>d-STUT</p>
+<p>c-STUT</p>
+<p>d-NAC</p>
+<p>Figure 3 | Expression of calcium-binding proteins (CBPs) and neuropeptides in interneurons. Expression profiles of the CBPs calbindin (CB), parvalbumin (PV) and calretinin (CR) and the neuropeptides neuropeptide Y (NPY), vasoactive intestinal peptide (VIP), somatostatin (SOM) and cholecystokinin (CCK) by different morphological and electrophysiological classes of interneuron. AC, accommodating; b, burst subtype; c, classic subtype; d, delay subtype; IS, irregular spiking; NAC, non-accomodating; STUT, stuttering.</p>
+<p>cells in supragranular layers; t-BST cells produce a powerful burst only once at the onset of the depolarization followed by complete cessation of spiking after the initial burst due to a powerful sAHP; and i-BST cells initially burst and then switch to slow accommodation after the initial burst response, like some pyramidal neurons (FIG. 5; TABLE 1).</p>
+			<table>
+				<head>Electrophysiological–anatomical relationship. Originally, it was assumed that a given firing pattern reflected a certain anatomical type of interneuron. However, detailed examination of many of the neocortical interneuron types has shown that a morphologically identified interneuron can have many discharge behaviours 8,11,15,38,73,78 . TABLE 1 shows the mapping between the different classification schemes, and FIG. 6 shows the mapping between the electrical and anatomical types. A principal component analysis using many specific electrical parameters can generate clusters that map differently onto pyramidal cells, MCs and basket cells (M.T.-R., B. Blumenfeld and H.M., unpublished observations ), indicating that higher-order statistics of the electrical properties of interneurons might, however, correspond to specific morphologies.</head>
+			</table>
+<p>Classes or a continuum? Electrical classifications provide a useful means to refer to different types of response. The proof that these responses represent distinct classes and that each class maps onto anatomically and molecularly distinct types of interneuron is still lacking. Extrapolating these types to the in vivo situation or assigning them greater significance than a &apos;marker&apos; might also be misleading, because the different responses are characteristic for highly standardized experimental conditions — that is, brain slices perfused with artificial cerebrospinal fluid. In vivo neurons also receive greater synaptic bombardment and are subject to neuromodulatory control, which could profoundly alter their discharge properties 79 . Nevertheless, under controlled conditions the response types are useful markers for describing the microcircuit and understanding the relationships between electrical behaviour and the morphological, molecular and synaptic properties of the microcircuit, regardless of whether these are distinct classes or specific ranges of responses.</p>
+<p>Ion-channel composition</p>
+<p>Electrophysiological diversity results from the combined activity of different combinations of ion channels on a neuron&apos;s membrane (active properties) 80 and from the morphology of the neuron (passive properties) 81 . Electrophysiology , pharmacology, immunohistochemistry, in situ hybridization and gene-expression studies in neocortical regions or single cells have shown that many ion channels are involved in generating electrical behaviour in neocortical neurons. Each type of neuron expresses a specific combination of ion channels, produces certain amounts of each channel, uniquely modifies each channel and distributes them in a characteristic pattern across the membrane surface to generate a specific type of electrical behaviour.</p>
+<p>IS cells discharge single action potentials randomly throughout the &apos;steady-state&apos; phase of sustained current injections and have been found only occasionally in layers II–V 77 . IS cells tend to show marked accommodation . BST cells characteristically fire a cluster of 3 to 5 action potentials riding on a slow depolarizing wave, followed by a strong slow afterhyperpolarization (sAHP). This burst is similar to the classic burst found in pyramidal cells and not like the transient bursts found in other interneurons (see below). ACs and NACs are the most common response types encountered in the juvenile somatosensory cortex. Stuttering behaviour is less common, but has been observed in all layers (II–VI). BST cells have been observed in layers II–V, but are most commonly found in layer V.</p>
+			<table>
+				<head>Onset response types. Neurons can be divided into three subclasses according to the type of onset that their response to a step depolarization shows. b-NAC cells initially discharge a cluster of three or more action potentials, d-NAC cells show a delay before discharge onset and c-NAC cells have neither bursts nor delays at the onset (the &apos;onset&apos; phase is indistinguishable from the &apos;steady-state&apos; phase). These responses are referred to as classical responses (TABLE 1; FIG. 5). All three of these initial response subclasses are also seen in AC and STUT cells, and the b-and c-subclasses have also been found for IS cells. b-IS cells have been further subdivided into those with brief bursts and those with prolonged bursts (IS1 and IS2 subtypes) 77 . The BST subclasses are named differently: r-BST cells repetitively burst in a manner similar to the &apos;chattering&apos; response of some pyramidal</head>
+			</table>
+<p>Figure 4 | Contact numbers of interneurons onto and from pyramidal cells. Top, the number of synapses onto pyramidal cells made by the various interneuron types; bottom, the number of synapses each type of interneuron receives from pyramidal cells. Error bars correspond to the standard deviation.</p>
+<p>Revealing candidate genes. The correlation map revealed many candidate genes that underlie different electrical properties. For example, in addition to Kv3.1, Kv3.2 and PV, the expression of another delayed rectifier , Kv1.6, and of the high-threshold Ca 2+ channel gene Caα1G and its auxiliary subunit, Caβ4, is also highly correlated with fast spiking, whereas the expression of CR, Caα1I, Kv2.2, HCN4 and SK2 is negatively correlated with fast spiking. The precise pacing of spiking to minimize accommodation in fast-spiking neurons is also mostly correlated with the expression of the hyperpolarization-activated channels HCN1 and HCN2 and of Kvβ1 — an auxiliary subunit of the Kv1 gene family that transforms these delayed rectifiers into transient A-type channels with important pacemaker properties.</p>
+			<figure>
+				<head>Three gene clusters. A cluster analysis of co-expression also revealed three main classes of ion-channel expression , which surprisingly mapped around the three calcium-binding proteins (PV, CB and CR) that are expressed in neocortical neurons 8,10,11 (FIG. 3). The ionchannel genes that are co-expressed with CR (the &apos;CR cluster&apos;) include SK2, Kv3.4, CR and Caα1B; the &apos;CB cluster&apos; includes CB, Caβ4, HCN3, Kv1.4, Caα1G, Caβ1, HCN4, Kv3.3 and Caβ3; and the &apos;PV cluster&apos; includes HCN2, Kv3.1, Kv1.2, Kv1.6, Kv1.1, PV, Kv3.2, HCN1, Kvβ1 and Caα1A. The biophysical properties of the ion channels in each cluster are consistent with and might complement each other to generate the three broad classes of discharge behaviour: ion channels in the CR cluster are associated with accommodation 86 ; those in the CB cluster are associated with bursting 87 ; and those in the PV cluster are associated with highfrequency discharge 82,83,88 .</head>
+			</figure>
+<p>Four co-expression principles. These clusters seem to arise because of specific constraints on the types of gene that can be co-expressed. The constraints seem to be governed by four principles: a synergizing principle, whereby certain gene pairs, such as SK2–CR, that predict the same electrical phenotype are expressed in the same cells; an antagonizing principle, whereby certain gene pairs, such as Kv1.2–Kv3.1 and Kv1.2–Kv3.2, that predict opposite phenotypes are co-expressed; a homogenizing principle, whereby certain gene pairs, such as Kv1.1– Kv1.4 and PV–Kv1.4, that predict the same phenotype are expressed in different cells; and a heterogenizing principle, whereby certain gene pairs, such as HCN4– PV, Kcn4–Kvβ1, Caβ4–SK2 and Caβ4–CR, that predict opposite phenotypes are expressed in different cells. These four ion-channel co-expression constraints could govern the generation of electrical diversity in interneurons.</p>
+<p>Inversion of expression. Specific gene-expression profiles map onto different discharge response types. The most striking example is a near-perfect inversion of the expression profile between cells that discharge initially with a burst onset (b-subtype) and those with a delayed onset (d-subtype) 85 . So, even cells that are normally</p>
+<p>The gene-expression rules that govern such &apos;forward engineering&apos; of electrical behaviour are becoming clear. The powerful delayed rectifying, voltage-gated potassium channels Kv3.1 and Kv3.2 are typically expressed in PV-containing, fast-spiking neocortical interneurons 82–84 , although Kv3.1 is also expressed in PV-negative interneurons and pyramidal neurons. In a recent study, the mRNA expression of 26 ion channels and 3 calcium-binding proteins was tested in single neurons 85 .</p>
+			<table>
+				<head>The correlation map. This recent study found a significant correlation between the ion-channel genes expressed in an interneuron and its electrical phenotype . FIGURE 7 shows the correlation map from this study, which relates different ion-channel genes to specific electrical properties (see online supplementary information S3 (table) for electrophysiological parameters ). The correlation map provides a coefficient of correlation for each gene with respect to the value of each electrophysiological parameter. In other words, red predicts high electrophysiological parameter values if the gene is expressed, and blue predicts low values. The sum of the colours for all those genes expressed in a neuron predicts the value of any of the measured electrophysiological parameters (such as the amplitude or duration of the action potential or the rate of accommodation ). The accuracy with which electrophysiological parameters can be predicted is surprisingly high, given the false negatives and the lack of knowledge about the quantities of mRNA or protein produced by each gene, the extent to which each channel is modified and the distribution patterns of ion channels. The correlation coefficients are also independent of morphology as they were derived using a training data set that included neurons from multiple morphological types. So, merely knowing whether a gene is switched on is highly informative, and knowing the profile of expression for only a few genes allows the electrical phenotype of an interneuron to be predicted.</head>
+			</table>
+<p>AC, accommodating; b, burst subtype; BSNP, burst spiking non-pyramidal; BST, bursting; c, classical subtype; d, delay subtype; FS, fast spiking; i, initial; IS, irregular spiking; LS, late spiking; NAC, nonaccommodating ; r, repetitive; RSNP, regular spiking non-pyramidal; STUT, stuttering; t, transient.</p>
+			<figure>
+				<head>Calcium-binding proteins. The three CBPs (CB, PV and CR) tend to be expressed in three separate populations of interneurons 90,91 (see also REFS 8–11,85,89,92), which indicates that an exclusion principle might operate in the expression of CBPs. However, there is some overlap in expression, especially between CB and PV 11,38 and to a lesser extent between CB and CR 11,89 . These three populations correspond approximately to the three broad discharge response classes: CR in accommodating or irregular-spiking interneurons 77 ; CB in bursting interneurons 74,85 ; and PV in fast-spiking interneurons 74,85,88 . As there are more than three anatomical, electrical and combined anatomical–electrical types, it is of course not possible for any one CBP alone to map onto any one type of interneuron (FIG. 3). Even the most commonly accepted notion — that PV is a marker for basket cells — is not strictly correct, as PV is expressed in only about half of basket cells and can also be expressed in ChCs 53 . The common use of PV to isolate fast-spiking cells is also not entirely correct because not all PV-expressing cells are fast spiking and not all fast-spiking cells express PV (FIG. 3). Ultimately, the combined expression of other markers is required to identify any one of the anatomical– electrophysiological types of interneuron.</head>
+			</figure>
+			<figure>
+				<head>Neuropeptides. Other common interneuronal markers include the neuropeptides SOM,VIP, CCK and NPY 93–99 . As with CBPs, no single neuropeptide correlates with a single anatomical or electrophysiological type of interneuron 11,38,76 . However, some expression patterns are striking, such as SOM expression in MCs 100 and VIP expression in SBCs 34 , DBCs 11 and BPCs 96 . Although some combinations of neuropeptides map better onto specific subtypes, they still do not map perfectly 9,11,38 . For example, MCs always express SOM and never VIP 11,95 (see also REF. 56), but this pattern can also be seen in some BTCs 101 . Expression patterns, used with caution, are nevertheless important general indicators of anatomical and electrophysiological types of interneuron (FIG. 3).</head>
+			</figure>
+			<figure>
+				<head>Combined CBP–neuropeptide expression. An interneuron can co-express up to five of the seven different neuropeptides and CBPs 38 . FIGURE 3 shows different types of neuron that express neuropeptides and CBPs. At the protein level, PV, SOM and VIP are found in separate populations of neurons 11 , illustrating another exclusion principle. However, this exclusion is not perfect at the mRNA level 9,38,85 . There might also be an inclusion principle , as SOM–NPY 11 ,VIP–CCK 102 , VIP–CR 77 and CR– CCK 102 co-expression has been detected. Lastly, many of the markers seem to be expressed independently of each other, providing evidence for an independence principle. For example, CB is promiscously co-expressed with many neuropeptides and even other CBPs (see above).</head>
+			</figure>
+<p>Other markers. Neocortical cells also express distinct cell-surface molecules (membrane proteins or lipids with characteristic carbohydrate moieties that can be identified using antibodies or lectins) 10 . Futhermore, pyramidal cells and different types of interneuron differ classified in the same broad class, such as fast spiking, can have diametrically opposite expression profiles depending on the onset response. This finding also indicates that only a few transcription factors might control the expression of entire sets of ion-channel genes, in which case it is probable that different combinations of transcription factors would give rise to a finite number of distinct electrical classes.</p>
+<p>Molecular properties</p>
+<p>Whereas excitatory cells (co-) express only a limited set of the commonly probed CBPs and neuropeptides, inhibitory interneurons have more diverse (co-) expression profiles 89 (see also REFS 8–11).</p>
+<p>c-NAC b-NAC d-NAC</p>
+<p>c-AC b-AC d-AC</p>
+<p>c-STUT b-STUT d-STUT</p>
+<p>i-BST r-BST t-BST</p>
+<p>c-IS b-IS RS</p>
+<p>Figure 5 | Different electrophysiological classes of inhibitory interneurons. Five classes have been observed, based on the steady-state response to a sustained current injection in the soma: non-accommodating (NAC); accommodating (AC); stuttering (STUT); bursting (BST); and irregular spiking (IS). Most classes contain three subclasses: delay (d); classic (c) and burst (b). For bursting interneurons, the three types are repetitive (r), initial (i) and transient (t). RS (regular spiking) is an example of a classic discharge of a pyramidal cell. See also main text.</p>
+<p>5-methyl-4-isoxazole propionic acid) receptor subunits 119 , lack a significant NMDA (N-methyl-D-aspartate) receptor component 120 and often have frequency-dependent facilitation 120–122 . These features are found even in some interneurons with different types of electrophysiological behaviour (classic FS and LTS/BSNP cells) 121–123 and indicate that the glutamatergic system might have a functional dichotomy, with different modes for recruiting pyramidal neurons and interneurons 25,120,123,124 . Differential synaptic transmission was confirmed by simultaneous recordings from a pyramidal neuron that formed depressing synapses onto other pyramidal neurons and facilitating synapses onto interneurons 125 . Interestingly, the static (quantal) and dynamic (depression and facilitation) properties of facilitating synapses from single pyramidal neurons onto interneurons vary across layers 126 , which might cause targeted inhibitory cells in deep cortical layers to discharge before those in supragranular layers. Such layer-specific differences in the recruitment of interneurons could influence the direction of information flow in the cortical column.</p>
+<p>Differential synaptic transmission. Although many connections from pyramidal cells onto interneurons in neocortical layers II–V show frequency-dependent facilitation 123,125,126 , some interneurons receive depressing synapses from pyramidal neurons 121,123,126 . Simultaneous recordings from the same presynaptic pyramidal neuron and different types of interneuron showed that there was differential glutamatergic transmission onto interneurons 126,127 ; accommodating interneurons with bitufted dendritic morphologies received facilitating synapses, whereas non-accommodating interneurons with multipolar dendritic morphologies (presumably basket cells) received depressing synapses. Depressing synapses have also been observed for connections from pyramidal neurons onto DBCs in layers II/III 114 (see also REF. 128), onto fast-spiking basket cells in layer V 129 and onto irregular-spiking BPCs in layers II/III and V 77 , indicating that these synapses are more common than was previously thought.</p>
+<p>in their expression of neurotransmitter receptors 103–106 (see also REF. 107). Interneurons are therefore diverse in terms of their molecular properties, and the molecular profile is a tangential dimension that spans interneurons with different classification rules.</p>
+<p>Excitatory synapses on interneurons</p>
+<p>Identifying synapses. The first recordings of synaptically connected neurons in the neocortex were performed by Thomson 108 . Physiological recordings are the most direct method for isolating synaptic connections, but it is important to obtain estimates of the numbers and distributions of synapses at the anatomical level. Most estimates are based on light microscopic analyses and should be considered estimates of putative synapses until verified at the electron microscope level. Nevertheless, comparisons between light and electron microscope estimates 109–114 and between light microscope and</p>
+<p>BINOMIAL ESTIMATES</p>
+<p>15 show a reasonable correspondence. As it is impossible to verify all synapses at the electron microscope level, light microscopy will remain central in the study of neuronal microcircuits.</p>
+			<table>
+				<head>Anatomical properties. Glutamatergic neurons form multiple synapses onto interneurons. These synapses typically form in clusters on a small fraction of dendrites 114,115 , in contrast to the highly distributed innervation of glutamatergic synapses on excitatory cells. Most synapses are formed on dendrites, but glutamatergic synapses can also form on the somata of interneurons 3,116 . For example, pyramidal neurons form about six synapses onto a basket cell 38,117 (FIG. 4; online supplementary information S2 (table)), with around 60% on &apos;basal&apos; dendrites, 30% on the main dendrite and 10% on the soma. There is a correlation between synapse numbers and interneuron types in the cat, ferret 114,118 and rat neocortices (FIG. 4; online supplementary information S2 (table)).</head>
+			</table>
+<p>Physiological properties. Unlike glutamatergic synapses on excitatory neurons, glutamatergic synapses on inhibitory cells use different AMPA (</p>
+<p>BINOMIAL ESTIMATES</p>
+<p>The number of functional release sites is referred to as binomial n because it is estimated in a quantal analysis using binomial statistics.</p>
+<p>ChC LBC NBC SBC DBC BPC NGC BTC MC</p>
+<p>Figure 6 | Anatomical–electrophysiological diversity of neocortical inhibitory neurons. Electrophysiological classification of interneurons: main classes and subclasses are defined according to discharge responses at steady-state and onset phase to somatic current injections, respectively. Any given anatomically defined interneuron in general has several distinct discharge behaviours, and, conversely, a given discharge behaviour can be found in several anatomically defined interneuron types. AC, accommodating; b, burst subtype; BPC, bipolar cell; BTC, bitufted cell; BST, bursting; c, classic subtype; ChC, chandelier cell; d, delay subtype; DBC, double bouquet cell; IS, irregular spiking; LBC, large basket cell; MC, Martinotti cell; NAC, non-accommodating; NBC, nest basket cell; NGC, neurogliaform cell; r, repetitive; SBC, small basket cell; STUT, stuttering.</p>
+<p>the gain of summated potentials and thereby the action potential discharge of target cells 38,50,131 . These interneurons are involved in phasing and synchronizing neuronal activity 132–134 . Neurons that preferentially innervate the dendritic domain are positioned to influence the dendritic processing and integration of synaptic inputs 135,136 ; to influence synaptic plasticity either locally or by interacting with back-propagating action potentials 137 ; and to affect the generation and propagation of dendritic calcium spikes 138,139 . Finally, the preferential innervation of distal dendritic and tuft regions could allow neurons to affect local dendritic integration.</p>
+			<table>
+				<head>Anatomical properties. In general, inhibitory neurons form more synapses onto their target cells than excitatory neurons do (as many as 30 synapses per target, with an average of around 15) 14,15,38 . Inhibitory synapses are highly distributed across the dendritic surface of target cells and are mainly formed onto dendritic shafts. Occasionally, synapses cluster on target cell dendrites 112 . The most commonly studied inhibitory neocortical connections are synapses from basket cells onto pyramidal neurons. Basket cells in layers II–IV form many putative synapses onto neighbouring pyramidal neurons (LBC: 14.5 ± 1.7 synapses; SBC: 20.5 ± 10.5 synapses; NBC: 15.8 ± 4.1; REF. 38; FIG. 4; online supplementary information S2 (table)). NBCs in layers II/III and IV did not show layer-specific differences 38 , which indicates that the innervation rules remain consistent across layers. Synaptic innervation differs for other types of interneuron , as well as in different cortical areas, species and developmental ages 112 (FIG. 4; online supplementary information S2 (table)).</head>
+			</table>
+			<figure>
+				<head>Determinants of synaptic dynamics. Although it is tempting to assume that the physiological properties of glutamatergic synapses are determined purely by the postsynaptic target 127,128,130 , not all multipolar interneurons or FS cells receive depressing synapses, and not all BTCs, including classic BTCs, receive facilitating synapses 38,123,126 . The multipolar–bitufted distinction has led to many confusing reports and the idea that dendritic-targeting interneurons receive facilitating synapses, whereas soma-targeting interneurons receive depressing synapses, is also mistaken (FIG. 8a). Furthermore , a single neocortical neuron can receive both depressing and facilitating GABA synapses 15 , indicating that the target cell does not determine the dynamics of all incoming synapses. The type of glutamatergic synapse formed also depends on the electrophysiology of the target cell; if the interneuron has a delayed onset response, synapses tend to be depressing, and if the onset response is classic or bursting, synapses tend to be facilitating (A.G., G.S. and H.M., unpublished observations ). FIG. 8a shows the mapping of glutamatergic synapse types onto different interneurons.</head>
+			</figure>
+<p>Strategic innervation. Each type of interneuron innervates its target cell by preferentially distributing multiple synapses in a characteristic manner onto selected membrane domains (axon initial segments, somata, proximal and distal dendritic shafts and spines, and dendritic tufts) 3,14,21 . Neurons that preferentially target axon initial segments are optimally positioned to &apos;edit&apos; a neuron&apos;s output by affecting the generation and timing of action potentials. The preferential innervation of the (peri-) somatic domain allows presynaptic neurons to control</p>
+<p>E61 E60 E59 E58 E57 E56 E55 E54 E53 E52 E51 E50 E49 E48 E47 E46 E45 E44 E43 E42 E41 E40 E39 E38 E37 E36 E35 E34 E33 E32 E31 E30 E29 E28 E27 E26 E25 E24 E23 E22 E21 E20 E19 E18 E17 E16 E15 E14 E13 E12 E11 E10 E9 E8 E7 E6 E5 E4 E3 E2 E1</p>
+<p>–1 –0.5 0 0.5 1</p>
+<p>Figure 7 | Correlation map relating the different ion-channel genes with specific electrical parameters. Ion-channel genes are indicated on the right, electrical parameters along the top. See online supplementary information S3 (table) for identities of electrical parameters. The colour indicates the value of the coefficient for each gene, which represents the sign and magnitude of the correlation between the gene and the value of each electrical parameter. Red indicates that if the gene is expressed, the value of the electrical parameter will be towards the maximal value recorded in the 203 cells, and vice versa for blue. The value of the electrical parameter can be calculated by summing the &apos;colours&apos; (coefficients) horizontally for all those genes that were detected in a neuron. Modified, with permission, from REF. 85 © (2004) Oxford University Press.</p>
+		</body>
+		<back>
+			<div type="acknowledgements">
+			</div>
+			<div type="references">
+<listBibl>
+<biblStruct xml:id="b0"><analytic><title level="a" type="main">The pyramidal neuron of the cerebral cortex: morphological and chemical characteristics of the synaptic inputs</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Defelipe</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">I</forename>
+				<surname>Farinas</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Prog. Neurobiol</title><imprint><biblScope type="vol">39</biblScope><biblScope type="fpage">563</biblScope><biblScope type="lpage">607</biblScope><date type="published" when="1992" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b1"><monogr><title level="m" type="main">in Cellular Components of the Cerebral Cortex</title>		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">G</forename>
+				<surname>Jones</surname>
+			</persName>
+		</author>
+<editor>Peters, A. &amp; Jones, E. G.</editor><imprint><date type="published" when="1984" /><publisher>Plenum</publisher><biblScope type="fpage">521</biblScope><biblScope type="lpage">554</biblScope><pubPlace>New York</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b2"><monogr><title level="m" type="main">Synaptic Organization of the Cerebral Cortex</title>		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">L</forename>
+				<surname>White</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Cortical</surname>
+			</persName>
+		</author>
+<imprint><date type="published" when="1989" /><publisher>Birkhauser</publisher><pubPlace>Boston</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b3"><analytic><title level="a" type="main">Quantitative analysis of neurons and glial cells in the rat somatosensory cortex, with special reference to GABAergic neurons and parvalbumin-containing neurons Careful estimates of neuron and synapse numbers</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">Q</forename>
+				<surname>Ren</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Aika</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<forename type="middle">W</forename>
+				<surname>Heizmann</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<surname>Kosaka</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Exp. Brain Res</title><imprint><biblScope type="vol">92</biblScope><biblScope type="fpage">1</biblScope><biblScope type="lpage">14</biblScope><date type="published" when="1992" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b4"><analytic><title level="a" type="main">Numerical data on neocortical neurons in adult rat, with special reference to the GABA population</title>		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Beaulieu</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Brain Res</title><imprint><biblScope type="vol">609</biblScope><biblScope type="fpage">284</biblScope><biblScope type="lpage">292</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b5"><analytic>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Peters</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">G</forename>
+				<surname>Jones</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="m">Cellular Components of the Cerebral Cortex</title><meeting><address>New York</address></meeting><imprint><publisher>Plenum</publisher><date type="published" when="1984" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b6"><analytic><title level="a" type="main">Organization of pyramidal neurons in area 17 of monkey visual cortex</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Peters</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Sethares</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comp. Neurol</title><imprint><biblScope type="vol">306</biblScope><biblScope type="fpage">1</biblScope><biblScope type="lpage">23</biblScope><date type="published" when="1991" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b7"><analytic>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Toledo-Rodriguez</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Gupta</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Wang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<forename type="middle">Z</forename>
+				<surname>Wu</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="m">The Handbook of Brain Theory and Neural Networks</title><editor>ed. Arbib, M. A.</editor><meeting><address>Cambridge, Massachusetts.</address></meeting><imprint><publisher>MIT Press</publisher><date type="published" when="2003" /><biblScope type="fpage">719</biblScope><biblScope type="lpage">725</biblScope></imprint></monogr></biblStruct>
+<biblStruct xml:id="b8"><analytic><title level="a" type="main">Molecular and physiological diversity of cortical non pyramidal cells</title>		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Cauli</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">17</biblScope><biblScope type="fpage">3894</biblScope><biblScope type="lpage">3906</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b9"><analytic><title level="a" type="main">Neocortical neuronal diversity: chemical heterogeneity revealed by co-localization studies of classic neurotransmitters, neuropeptides, calcium-binding proteins, and cell surface molecules A key review that reveals different chemical subpopulations of neocortical neurons</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Defelipe</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Cereb. Cortex</title><imprint><biblScope type="vol">3</biblScope><biblScope type="fpage">273</biblScope><biblScope type="lpage">289</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b10"><analytic><title level="a" type="main">Cortical interneurons: from Cajal to 2001 An excellent review on the history of discovery of different cortical neurons</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Defelipe</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Prog. Brain Res</title><imprint><biblScope type="vol">136</biblScope><biblScope type="fpage">215</biblScope><biblScope type="lpage">238</biblScope><date type="published" when="2002" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b11"><analytic>		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<forename type="middle">R</forename>
+				<surname>Houser</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">E</forename>
+				<surname>Vaughn</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<forename type="middle">H</forename>
+				<surname>Hendry</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">G</forename>
+				<surname>Jones</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Peters</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="m">Cerebral Cortex: Functional Properties of Cortical Cells</title><editor>Jones, E. G. &amp; Peters, A.</editor><meeting><address>New York</address></meeting><imprint><publisher>Plenum</publisher><date type="published" when="1984" /><biblScope type="fpage">63</biblScope><biblScope type="lpage">90</biblScope></imprint></monogr></biblStruct>
+<biblStruct xml:id="b12"><analytic><title level="a" type="main">Salient features of synaptic organisation in the cerebral cortex</title>		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Somogyi</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Tamas</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Lujan</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">H</forename>
+				<surname>Buhl</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Brain Res. Brain Res. Rev</title><imprint><biblScope type="vol">26</biblScope><biblScope type="fpage">113</biblScope><biblScope type="lpage">135</biblScope><date type="published" when="1998" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b13"><analytic><title level="a" type="main">Temporal and spatial properties of local circuits in neocortex</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">M</forename>
+				<surname>Thomson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Deuchars</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Trends Neurosci</title><imprint><biblScope type="vol">17</biblScope><biblScope type="fpage">119</biblScope><biblScope type="lpage">126</biblScope><date type="published" when="1994" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b14"><monogr><title level="m" type="main">in The Synaptic Organization of the Brain 459–511</title>		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Douglas</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<forename type="middle">A</forename>
+				<surname>Martin</surname>
+			</persName>
+		</author>
+<imprint><date type="published" when="1998" /><publisher>Oxford Univ. Press</publisher><pubPlace>New York</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b15"><monogr><title level="m" type="main">in Synaptic Functions</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Peters</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<forename type="middle">M</forename>
+				<surname>Edelman</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<forename type="middle">E</forename>
+				<surname>Gall</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<forename type="middle">M</forename>
+				<surname>Cowan</surname>
+			</persName>
+		</author>
+<imprint><date type="published" when="1987" /><publisher>Wiley</publisher><biblScope type="fpage">373</biblScope><biblScope type="lpage">397</biblScope><pubPlace>New York</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b16"><monogr><title level="m" type="main">in Cellular Components of the Cerebral Cortex</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Fairen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Defelipe</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Regidor</surname>
+			</persName>
+		</author>
+<editor>Peters, A. &amp; Jones, E. G.</editor><imprint><date type="published" when="1984" /><publisher>Plenum</publisher><biblScope type="fpage">206</biblScope><biblScope type="lpage">241</biblScope><pubPlace>New York</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b17"><analytic><title level="a" type="main">Origin of GABAergic neurons in the human neocortex</title>		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<surname>Letinic</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Zoncu</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Rakic</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">417</biblScope><biblScope type="fpage">645</biblScope><biblScope type="lpage">649</biblScope><date type="published" when="2002" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b18"><analytic><title level="a" type="main">Types of neurons, synaptic connections and chemical characteristics of cells immunoreactive for calbindin-D28K, parvalbumin and calretinin in the neocortex</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Defelipe</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Chem. Neuroanat</title><imprint><biblScope type="vol">14</biblScope><biblScope type="fpage">1</biblScope><biblScope type="lpage">19</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b19"><analytic><title level="a" type="main">Organization of neurons in the visual cortex, area 17, of the monkey (Macaca mulatta)</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">S</forename>
+				<surname>Lund</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comp. Neurol</title><imprint><biblScope type="vol">147</biblScope><biblScope type="fpage">455</biblScope><biblScope type="lpage">496</biblScope><date type="published" when="1973" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b20"><analytic><title level="a" type="main">Synaptic patterns in the visual cortex of the cat and monkey. Electron microscopy of Golgi preparations</title>		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Levay</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comp. Neurol</title><imprint><biblScope type="vol">150</biblScope><biblScope type="fpage">53</biblScope><biblScope type="lpage">85</biblScope><date type="published" when="1973" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b21"><analytic><title level="a" type="main">Activity-dependent properties of synaptic transmission at two classes of connections made by rat neocortical pyramidal axons in vitro</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">M</forename>
+				<surname>Thomson</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol. (Lond.)</title><imprint><biblScope type="vol">502</biblScope><biblScope type="fpage">131</biblScope><biblScope type="lpage">147</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b22"><analytic><title level="a" type="main">Synaptic connections and small circuits involving excitatory and inhibitory neurons in layers 2–5 of adult rat and cat neocortex: triple intracellular recordings and biocytin labelling in vitro</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">M</forename>
+				<surname>Thomson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<forename type="middle">C</forename>
+				<surname>West</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Wang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">P</forename>
+				<surname>Bannister</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Cereb. Cortex</title><imprint><biblScope type="vol">12</biblScope><biblScope type="fpage">936</biblScope><biblScope type="lpage">953</biblScope><date type="published" when="2002" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b23"><monogr><title level="m" type="main">in Cellular Components of the Cerebral Cortex</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">S</forename>
+				<surname>Lund</surname>
+			</persName>
+		</author>
+<editor>Peters, A. &amp; Jones, E. G.</editor><imprint><date type="published" when="1984" /><publisher>Plenum</publisher><biblScope type="fpage">255</biblScope><biblScope type="lpage">308</biblScope><pubPlace>New York</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b24"><monogr><title level="m" type="main">Histology Due Systeme Nerveux de Homme et des Vertebrates</title>		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<forename type="middle">R</forename>
+				<surname>Cajal</surname>
+			</persName>
+		</author>
+<imprint><date type="published" when="1909" /><pubPlace>Maloine, Paris</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b25"><analytic><title level="a" type="main">Local circuits in primary visual cortex of the macaque monkey</title>		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">M</forename>
+				<surname>Callaway</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Annu. Rev. Neurosci</title><imprint><biblScope type="vol">21</biblScope><biblScope type="fpage">47</biblScope><biblScope type="lpage">74</biblScope><date type="published" when="1998" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b26"><analytic><title level="a" type="main">Varieties and distribution of non-pyramidal cells in the somatic sensory cortex of the squirrel monkey</title>		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">G</forename>
+				<surname>Jones</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comp. Neurol</title><imprint><biblScope type="vol">160</biblScope><biblScope type="fpage">205</biblScope><biblScope type="lpage">267</biblScope><date type="published" when="1975" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b27"><analytic><title level="a" type="main">Circuitry, architecture, and functional dynamics of visual cortex</title>		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<forename type="middle">D</forename>
+				<surname>Gilbert</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Cereb. Cortex</title><imprint><biblScope type="vol">3</biblScope><biblScope type="fpage">373</biblScope><biblScope type="lpage">386</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b28"><analytic><title level="a" type="main">Intrinsic synaptic organization of the motor cortex</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Keller</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Cereb. Cortex</title><imprint><biblScope type="vol">3</biblScope><biblScope type="fpage">430</biblScope><biblScope type="lpage">441</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b29"><analytic><title level="a" type="main">Anatomical organization of macaque monkey striate visual cortex</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Lund</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Annu. Rev. Neurosci</title><imprint><biblScope type="vol">11</biblScope><biblScope type="fpage">253</biblScope><biblScope type="lpage">288</biblScope><date type="published" when="1988" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b30"><analytic><title level="a" type="main">Intrinsic neocortical organization: some comparative aspects</title>		<author>
+			<persName>
+				<forename type="first">F</forename>
+				<surname>Valverde</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuroscience</title><imprint><biblScope type="vol">18</biblScope><biblScope type="fpage">1</biblScope><biblScope type="lpage">23</biblScope><date type="published" when="1986" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b31"><analytic><title level="a" type="main">The forms of non-pyramidal neurons in the visual cortex of the rat</title>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">L</forename>
+				<surname>Feldman</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Peters</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comp. Neurol</title><imprint><biblScope type="vol">179</biblScope><biblScope type="fpage">761</biblScope><biblScope type="lpage">793</biblScope><date type="published" when="1978" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b32"><analytic><title level="a" type="main">Form, function and intracortical projections of spiny neurons in the striate visual cortex of the cat</title>		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<forename type="middle">A</forename>
+				<surname>Martin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<surname>Whitteridge</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol. (Lond.)</title><imprint><biblScope type="vol">353</biblScope><biblScope type="fpage">463</biblScope><biblScope type="lpage">504</biblScope><date type="published" when="1984" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b33"><analytic><title level="a" type="main">Smooth and sparsely-spined stellate cells in the visual cortex of the rat: a study using a combined Golgi-electron microscopic technique</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Peters</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Fairen</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comp. Neurol</title><imprint><biblScope type="vol">181</biblScope><biblScope type="fpage">129</biblScope><biblScope type="lpage">171</biblScope><date type="published" when="1978" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b34"><analytic><title level="a" type="main">Anatomical, physiological, molecular and circuit properties of nest basket cells in the developing somatosensory cortex The first study to define the nest basket cell as a distinct subclass of basket cell</title>		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Wang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Gupta</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Toledo-Rodriguez</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<forename type="middle">Z</forename>
+				<surname>Wu</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Cereb. Cortex</title><imprint><biblScope type="vol">12</biblScope><biblScope type="fpage">395</biblScope><biblScope type="lpage">410</biblScope><date type="published" when="2002" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b35"><analytic><title level="a" type="main">in Neuronal Mechanisms of Visual Perception</title>		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Somogyi</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Proc. Retina Res. Found. Symp</title><editor>Lamm, D. K. &amp; Gilbert, C. D.</editor><imprint><biblScope type="vol">2</biblScope><biblScope type="fpage">35</biblScope><biblScope type="lpage">62</biblScope><date type="published" when="1989" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b36"><analytic><title level="a" type="main">Origin of the pericellular baskets of the pyramidal cells of the human motor cortex: a Golgi study</title>		<author>
+			<persName>
+				<surname>Marin-</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Padilla</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Brain Res</title><imprint><biblScope type="vol">14</biblScope><biblScope type="fpage">633</biblScope><biblScope type="lpage">646</biblScope><date type="published" when="1969" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b37"><analytic><title level="a" type="main">Cellular organization of reciprocal patchy networks in layer III of cat visual cortex (area 17)</title>		<author>
+			<persName>
+				<forename type="first">Z</forename>
+				<forename type="middle">F</forename>
+				<surname>Kisvarday</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">U</forename>
+				<forename type="middle">T</forename>
+				<surname>Eysel</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuroscience</title><imprint><biblScope type="vol">46</biblScope><biblScope type="fpage">275</biblScope><biblScope type="lpage">286</biblScope><date type="published" when="1992" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b38"><monogr><title level="m" type="main">in Central Processing of Visual Information, B. Visual Centers in the Brain</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Szentagothai</surname>
+			</persName>
+		</author>
+<editor>ed. Jung, R.</editor><imprint><date type="published" when="1973" /><publisher>Springer</publisher><biblScope type="fpage">269</biblScope><biblScope type="lpage">324</biblScope><pubPlace>Berlin</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b39"><analytic><title level="a" type="main">Synaptic connections of intracellularly filled clutch cells: a type of small basket cell in the visual cortex of the cat</title>		<author>
+			<persName>
+				<forename type="first">Z</forename>
+				<forename type="middle">F</forename>
+				<surname>Kisvarday</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<forename type="middle">A</forename>
+				<surname>Martin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<surname>Whitteridge</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Somogyi</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comp. Neurol</title><imprint><biblScope type="vol">241</biblScope><biblScope type="fpage">111</biblScope><biblScope type="lpage">137</biblScope><date type="published" when="1985" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b40"><analytic><title level="a" type="main">A type of basket cell in superficial layers of the cat visual cortex. A Golgi-electron microscope study</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Defelipe</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Fairen</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Brain Res</title><imprint><biblScope type="vol">244</biblScope><biblScope type="fpage">9</biblScope><biblScope type="lpage">16</biblScope><date type="published" when="1982" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b41"><monogr><title level="m" type="main">in Cellular Components of the Cerebral Cortex</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Peters</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">G</forename>
+				<surname>Jones</surname>
+			</persName>
+		</author>
+<editor>Peters, A. &amp; Jones, E. G.</editor><imprint><date type="published" when="1984" /><publisher>Plenum</publisher><biblScope type="fpage">107</biblScope><biblScope type="lpage">122</biblScope><pubPlace>New York</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b42"><analytic><title level="a" type="main">Local circuit neurons of developing and mature macaque prefrontal cortex: Golgi and immunocytochemical characteristics</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">S</forename>
+				<surname>Lund</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<forename type="middle">A</forename>
+				<surname>Lewis</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comp. Neurol</title><imprint><biblScope type="vol">328</biblScope><biblScope type="fpage">282</biblScope><biblScope type="lpage">312</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b43"><analytic><title level="a" type="main">A specific &apos;axo-axonal&apos; interneuron in the visual cortex of the rat This paper describes the seminal discovery of the axon-targeting interneurons</title>		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Somogyi</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Brain Res</title><imprint><biblScope type="vol">136</biblScope><biblScope type="fpage">345</biblScope><biblScope type="lpage">350</biblScope><date type="published" when="1977" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b44"><analytic><title level="a" type="main">A specialized type of neuron in the visual cortex of cat: a Golgi and electron microscope study of chandelier cells</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Fairen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">F</forename>
+				<surname>Valverde</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comp. Neurol</title><imprint><biblScope type="vol">194</biblScope><biblScope type="fpage">761</biblScope><biblScope type="lpage">779</biblScope><date type="published" when="1980" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b45"><analytic><title level="a" type="main">Diverse sources of hippocampal unitary inhibitory postsynaptic potentials and the number of synaptic release sites</title>		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">H</forename>
+				<surname>Buhl</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<surname>Halasy</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Somogyi</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">368</biblScope><biblScope type="fpage">823</biblScope><biblScope type="lpage">828</biblScope><date type="published" when="1994" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b46"><analytic><title level="a" type="main">Differences between somatic and dendritic inhibition in the hippocampus Important differences in the functional impact of somatic-and dendritic-targeting interneurons were revealed by this study</title>		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Miles</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<surname>Toth</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">I</forename>
+				<surname>Gulyas</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">N</forename>
+				<surname>Hajos</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<forename type="middle">F</forename>
+				<surname>Freund</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuron</title><imprint><biblScope type="vol">16</biblScope><biblScope type="fpage">815</biblScope><biblScope type="lpage">823</biblScope><date type="published" when="1996" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b47"><analytic><title level="a" type="main">Chandelier cells control excessive cortical excitation: characteristics of whiskerevoked synaptic responses of layer 2/3 nonpyramidal and pyramidal neurons</title>		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Zhu</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">L</forename>
+				<surname>Stornetta</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">J</forename>
+				<surname>Zhu</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">24</biblScope><biblScope type="fpage">5101</biblScope><biblScope type="lpage">5108</biblScope><date type="published" when="2004" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b48"><analytic><title level="a" type="main">The axo-axonic interneuron in the cerebral cortex of the rat, cat and monkey</title>		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Somogyi</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<forename type="middle">F</forename>
+				<surname>Freund</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Cowey</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuroscience</title><imprint><biblScope type="vol">7</biblScope><biblScope type="fpage">2577</biblScope><biblScope type="lpage">2607</biblScope><date type="published" when="1982" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b49"><analytic><title level="a" type="main">Chandelier cells and epilepsy</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Defelipe</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Brain</title><imprint><biblScope type="vol">122</biblScope><biblScope type="fpage">1807</biblScope><biblScope type="lpage">1822</biblScope><date type="published" when="1999" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b50"><analytic><title level="a" type="main">Visualization of chandelier cell axons by parvalbumin immunoreactivity in monkey cerebral cortex</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Defelipe</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<forename type="middle">H</forename>
+				<surname>Hendry</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">G</forename>
+				<surname>Jones</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="m">Proc. Natl Acad. Sci. USA 86</title><meeting>. Natl Acad. Sci. USA 86</meeting><imprint><date type="published" when="1989" /><biblScope type="fpage">2093</biblScope><biblScope type="lpage">2097</biblScope></imprint></monogr></biblStruct>
+<biblStruct xml:id="b51"><analytic><title level="a" type="main">Properties of horizontal axo-axonic cells in stratum oriens of the hippocampal CA1 area of rats in vitro</title>		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Ganter</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Szucs</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">O</forename>
+				<surname>Paulsen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Somogyi</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Hippocampus</title><imprint><biblScope type="vol">14</biblScope><biblScope type="fpage">232</biblScope><biblScope type="lpage">243</biblScope><date type="published" when="2004" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b52"><analytic><title level="a" type="main">Anatomical, physiological and molecular properties of Martinotti cells in the somatosensory cortex of the juvenile rat</title>		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Wang</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol. (Lond.)</title><imprint><biblScope type="vol">26</biblScope><date type="published" when="2004-8" /></imprint></monogr><note>epub. ahead of print]</note></biblStruct>
+<biblStruct xml:id="b53"><monogr><title level="m" type="main">Cortex: Statistics and Geometry of Neural Connectivity</title>		<author>
+			<persName>
+				<forename type="first">V</forename>
+				<surname>Braitenberg</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Schüz</surname>
+			</persName>
+		</author>
+<imprint><date type="published" when="1998" /><publisher>Springer</publisher><pubPlace>Heidelberg</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b54"><monogr><title level="m" type="main">in Cellular Components of the Cerebral Cortex</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">A</forename>
+				<surname>Peters</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">G</forename>
+				<surname>Jones</surname>
+			</persName>
+		</author>
+<imprint><date type="published" when="1984" /><publisher>Plenum</publisher><biblScope type="fpage">381</biblScope><biblScope type="lpage">408</biblScope><pubPlace>New York</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b55"><analytic><title level="a" type="main">Enigmatic bipolar cell of rat visual cortex</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Peters</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<forename type="middle">M</forename>
+				<surname>Harriman</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comp. Neurol</title><imprint><biblScope type="vol">267</biblScope><biblScope type="fpage">409</biblScope><biblScope type="lpage">432</biblScope><date type="published" when="1988" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b56"><analytic><title level="a" type="main">The axon terminals of vasoactive intestinal polypeptide (VIP)-containing bipolar cells in rat visual cortex</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Peters</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurocytol</title><imprint><biblScope type="vol">19</biblScope><biblScope type="fpage">672</biblScope><biblScope type="lpage">685</biblScope><date type="published" when="1990" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b57"><analytic><title level="a" type="main">Combined Golgi and electron microscopic study on the synapses formed by double bouquet cells in the visual cortex of the cat and monkey</title>		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Somogyi</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Cowey</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comp. Neurol</title><imprint><biblScope type="vol">195</biblScope><biblScope type="fpage">547</biblScope><biblScope type="lpage">166</biblScope><date type="published" when="1981" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b58"><monogr><title level="m" type="main">in Cellular Components of the Cerebral Cortex 806 | OCTOBER 2004 | VOLUME 5 www.nature.com/reviews/neuro R</title>		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Somogyi</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">A</forename>
+				<surname>Cowey</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">G E</forename>
+				<surname>Jones</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">I</forename>
+			</persName>
+		</author>
+<imprint><date type="published" when="1984" /><publisher>Plenum</publisher><biblScope type="fpage">337</biblScope><biblScope type="lpage">360</biblScope><pubPlace>New York</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b59"><analytic><title level="a" type="main">A microcolumnar structure of monkey cerebral cortex revealed by immunocytochemical studies of double bouquet cell axons</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Defelipe</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<forename type="middle">H</forename>
+				<surname>Hendry</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<surname>Hashikawa</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Molinari</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">G</forename>
+				<surname>Jones</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuroscience</title><imprint><biblScope type="vol">37</biblScope><biblScope type="fpage">655</biblScope><biblScope type="lpage">673</biblScope><date type="published" when="1990" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b60"><monogr><title level="m" type="main">in Cellular Components of the Cerebral Cortex</title>		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">G</forename>
+				<surname>Jones</surname>
+			</persName>
+		</author>
+<editor>Peters, A. &amp; Jones, E. G.</editor><imprint><date type="published" when="1984" /><publisher>Plenum</publisher><biblScope type="fpage">409</biblScope><biblScope type="lpage">418</biblScope><pubPlace>New York</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b61"><monogr><title level="m" type="main">in Cellular Components of the Cerebral Cortex</title>		<author>
+			<persName>
+				<surname>Marin-</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Padilla</surname>
+			</persName>
+		</author>
+<editor>Peters, A. &amp; Jones, E. G.</editor><imprint><date type="published" when="1984" /><publisher>Plenum</publisher><biblScope type="fpage">447</biblScope><biblScope type="lpage">478</biblScope><pubPlace>New York</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b62"><analytic><title level="a" type="main">Morphology and physiology of cortical neurons in layer I</title>		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Hestrin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<forename type="middle">E</forename>
+				<surname>Armstrong</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">16</biblScope><biblScope type="fpage">5290</biblScope><biblScope type="lpage">5300</biblScope><date type="published" when="1996" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b63"><analytic><title level="a" type="main">The neurons in layer 1 of cat visual cortex</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">C</forename>
+				<surname>Anderson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<forename type="middle">A</forename>
+				<surname>Martin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Picanco-</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<forename type="middle">W</forename>
+				<surname>Diniz</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Proc. R. Soc. Lond. B</title><imprint><biblScope type="vol">248</biblScope><biblScope type="fpage">27</biblScope><biblScope type="lpage">33</biblScope><date type="published" when="1992" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b64"><analytic><title level="a" type="main">Morphological properties of intracellularly labeled layer I neurons in rat neocortex</title>		<author>
+			<persName>
+				<forename type="first">F</forename>
+				<forename type="middle">M</forename>
+				<surname>Zhou</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">J</forename>
+				<surname>Hablitz</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comp. Neurol</title><imprint><biblScope type="vol">376</biblScope><biblScope type="fpage">198</biblScope><biblScope type="lpage">213</biblScope><date type="published" when="1996" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b65"><analytic><title level="a" type="main">Comparative electrophysiology of pyramidal and sparsely spiny stellate neurons of the neocortex The pioneering study that revealed basic differences in discharge between pyramidal neurons and interneurons</title>		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<forename type="middle">A</forename>
+				<surname>Mccormick</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<forename type="middle">W</forename>
+				<surname>Connors</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">W</forename>
+				<surname>Lighthall</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<forename type="middle">A</forename>
+				<surname>Prince</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurophysiol</title><imprint><biblScope type="vol">54</biblScope><biblScope type="fpage">782</biblScope><biblScope type="lpage">806</biblScope><date type="published" when="1985" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b66"><monogr><title level="m" type="main">in The Cortical Neuron</title>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">J</forename>
+				<surname>Gutnick</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<forename type="middle">E</forename>
+				<surname>Crill</surname>
+			</persName>
+		</author>
+<editor>Gutnick, M. J. &amp; Mody, I.</editor><imprint><date type="published" when="1995" /><publisher>Oxford Univ. Press</publisher><biblScope type="fpage">33</biblScope><biblScope type="lpage">51</biblScope><pubPlace>New York</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b67"><analytic><title level="a" type="main">Intrinsic firing patterns of diverse neocortical neurons</title>		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<forename type="middle">W</forename>
+				<surname>Connors</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">J</forename>
+				<surname>Gutnick</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Trends Neurosci</title><imprint><biblScope type="vol">13</biblScope><biblScope type="fpage">99</biblScope><biblScope type="lpage">104</biblScope><date type="published" when="1990" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b68"><analytic>		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Amitai</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<forename type="middle">W</forename>
+				<surname>Connors</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">G</forename>
+				<surname>Jones</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">I</forename>
+				<surname>Diamond</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Cerebral Cortex</title><imprint><publisher>Plenum</publisher><biblScope type="fpage">299</biblScope><biblScope type="lpage">331</biblScope><date type="published" when="1995" /><publisher>Plenum</publisher></imprint></monogr></biblStruct>
+<biblStruct xml:id="b69"><analytic><title level="a" type="main">Groupings of nonpyramidal and pyramidal cells with specific physiological and morphological characteristics in rat frontal cortex</title>		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Kawaguchi</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurophysiol</title><imprint><biblScope type="vol">69</biblScope><biblScope type="fpage">416</biblScope><biblScope type="lpage">431</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b70"><analytic><title level="a" type="main">Correlation of physiological subgroupings of nonpyramidal cells with parvalbumin-and calbindinD28k-immunoreactive neurons in layer V of rat frontal cortex</title>		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Kawaguchi</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Kubota</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurophysiol</title><imprint><biblScope type="vol">70</biblScope><biblScope type="fpage">387</biblScope><biblScope type="lpage">396</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b71"><analytic><title level="a" type="main">Physiological and morphological identification of somatostatin-or vasoactive intestinal polypeptide-containing cells among GABAergic cell subtypes in rat frontal cortex</title>		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Kawaguchi</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Kubota</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">16</biblScope><biblScope type="fpage">2701</biblScope><biblScope type="lpage">2715</biblScope><date type="published" when="1996" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b72"><analytic><title level="a" type="main">Neurochemical features and synaptic connections of large physiologically-identified GABAergic cells in the rat frontal cortex</title>		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Kawaguchi</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Kubota</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuroscience</title><imprint><biblScope type="vol">85</biblScope><biblScope type="fpage">677</biblScope><biblScope type="lpage">701</biblScope><date type="published" when="1998" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b73"><analytic><title level="a" type="main">Properties of bipolar VIPergic interneurons and their excitation by pyramidal neurons in the rat neocortex</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">T</forename>
+				<surname>Porter</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Eur. J. Neurosci</title><imprint><biblScope type="vol">10</biblScope><biblScope type="fpage">3617</biblScope><biblScope type="lpage">3628</biblScope><date type="published" when="1998" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b74"><analytic><title level="a" type="main">Physiological subgroups of nonpyramidal cells with specific morphological characteristics in layer II/III of rat frontal cortex</title>		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Kawaguchi</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">15</biblScope><biblScope type="fpage">2638</biblScope><biblScope type="lpage">2655</biblScope><date type="published" when="1995" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b75"><analytic><title level="a" type="main">Corticothalamic resonance, states of vigilance and mentation</title>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Steriade</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuroscience</title><imprint><biblScope type="vol">101</biblScope><biblScope type="fpage">243</biblScope><biblScope type="lpage">276</biblScope><date type="published" when="2000" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b76"><analytic><title level="a" type="main">The intrinsic electrophysiological properties of mammalian neurons: insights into central nervous system function</title>		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Llinas</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Science</title><imprint><biblScope type="vol">242</biblScope><biblScope type="fpage">1654</biblScope><biblScope type="lpage">1664</biblScope><date type="published" when="1988" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b77"><analytic><title level="a" type="main">Influence of dendritic structure on firing pattern in model neocortical neurons</title>		<author>
+			<persName>
+				<forename type="first">Z</forename>
+				<forename type="middle">F</forename>
+				<surname>Mainen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<forename type="middle">J</forename>
+				<surname>Sejnowski</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">382</biblScope><biblScope type="fpage">363</biblScope><biblScope type="lpage">366</biblScope><date type="published" when="1996" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b78"><analytic><title level="a" type="main">Kv3 channels: voltage-gated K + channels designed for high-frequency repetitive firing</title>		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Rudy</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<forename type="middle">J</forename>
+				<surname>Mcbain</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Trends Neurosci</title><imprint><biblScope type="vol">24</biblScope><biblScope type="fpage">517</biblScope><biblScope type="lpage">526</biblScope><date type="published" when="2001" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b79"><analytic><title level="a" type="main">Functional and molecular differences between voltagegated K + channels of fast-spiking interneurons and pyramidal neurons of rat hippocampus The first combined patch-clamp reverse transcription PCR study, showing differences in ion channels in pyramidal neurons and interneurons</title>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Martina</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">H</forename>
+				<surname>Schultz</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Ehmke</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Monyer</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Jonas</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">18</biblScope><biblScope type="fpage">8111</biblScope><biblScope type="lpage">8125</biblScope><date type="published" when="1998" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b80"><analytic><title level="a" type="main">Function of specific K + channels in sustained high-frequency firing of fast-spiking neocortical interneurons</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Erisir</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<surname>Lau</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Rudy</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<forename type="middle">S</forename>
+				<surname>Leonard</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurophysiol</title><imprint><biblScope type="vol">82</biblScope><biblScope type="fpage">2476</biblScope><biblScope type="lpage">2489</biblScope><date type="published" when="1999" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b81"><analytic><title level="a" type="main">Calcium-activated potassium channels</title>		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Vergara</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Latorre</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">N</forename>
+				<forename type="middle">V</forename>
+				<surname>Marrion</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Adelman</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Curr. Opin. Neurobiol</title><imprint><biblScope type="vol">8</biblScope><biblScope type="fpage">321</biblScope><biblScope type="lpage">329</biblScope><date type="published" when="1998" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b82"><analytic><title level="a" type="main">Low-voltage-activated T-type Ca 2+ channels</title>		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Ertel</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<surname>Ertel</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Trends Pharmacol. Sci</title><imprint><biblScope type="vol">18</biblScope><biblScope type="fpage">37</biblScope><biblScope type="lpage">42</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b83"><analytic><title level="a" type="main">K + channel expression distinguishes subpopulations of parvalbumin-and somatostatincontaining neocortical interneurons</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Chow</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">19</biblScope><biblScope type="fpage">9332</biblScope><biblScope type="lpage">9345</biblScope><date type="published" when="1999" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b84"><analytic><title level="a" type="main">Three distinct subpopulations of GABAergic neurons in rat frontal agranular cortex A seminal study showing that three distinct subpopulations of interneurons express parvalbumin</title>		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Kubota</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Hattori</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Yui</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Brain Res</title><imprint><biblScope type="vol">649</biblScope><biblScope type="fpage">159</biblScope><biblScope type="lpage">173</biblScope><date type="published" when="1994" /></imprint></monogr><note>calretinin. or somatostatin</note></biblStruct>
+<biblStruct xml:id="b85"><analytic><title level="a" type="main">Calbindin D-28K and parvalbumin immunoreactivity is confined to two separate neuronal subpopulations in the cat visual cortex, whereas partial coexistence is shown in the dorsal lateral geniculate nucleus</title>		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Demeulemeester</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">F</forename>
+				<surname>Vandesande</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<forename type="middle">A</forename>
+				<surname>Orban</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<forename type="middle">W</forename>
+				<surname>Heizmann</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Pochet</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neurosci. Lett</title><imprint><biblScope type="vol">99</biblScope><biblScope type="fpage">6</biblScope><biblScope type="lpage">11</biblScope><date type="published" when="1989" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b86"><analytic><title level="a" type="main">Calretinin and calbindin-D28k in rat brain: patterns of partial co-localization References 90 and 91 revealed the differential expression of calcium-binding proteins in GABA neurons</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">H</forename>
+				<surname>Rogers</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Resibois</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuroscience</title><imprint><biblScope type="vol">51</biblScope><biblScope type="fpage">843</biblScope><biblScope type="lpage">865</biblScope><date type="published" when="1992" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b87"><analytic><title level="a" type="main">Classification of fusiform neocortical interneurons based on unsupervised clustering</title>		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Cauli</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="m">Proc. Natl Acad. Sci. USA 97</title><meeting>. Natl Acad. Sci. USA 97</meeting><imprint><date type="published" when="2000" /><biblScope type="fpage">6144</biblScope><biblScope type="lpage">6149</biblScope></imprint></monogr></biblStruct>
+<biblStruct xml:id="b88"><analytic><title level="a" type="main">Morphology, distribution, and synaptic relations of somatostatin-and neuropeptide Y-immunoreactive neurons in rat and monkey neocortex</title>		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<forename type="middle">H</forename>
+				<surname>Hendry</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">G</forename>
+				<surname>Jones</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<forename type="middle">C</forename>
+				<surname>Emson</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">4</biblScope><biblScope type="fpage">2497</biblScope><biblScope type="lpage">2517</biblScope><date type="published" when="1984" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b89"><analytic><title level="a" type="main">Immunohistochemical markers in rat cortex: co-localization of calretinin and calbindin-D28k with neuropeptides and GABA</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">H</forename>
+				<surname>Rogers</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Brain Res</title><imprint><biblScope type="vol">587</biblScope><biblScope type="fpage">147</biblScope><biblScope type="lpage">157</biblScope><date type="published" when="1992" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b90"><analytic><title level="a" type="main">Heterogeneity of GABAergic cells in cat visual cortex</title>		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Demeulemeester</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">F</forename>
+				<surname>Vandesande</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<forename type="middle">A</forename>
+				<surname>Orban</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Brandon</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">J</forename>
+				<surname>Vanderhaeghen</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">8</biblScope><biblScope type="fpage">988</biblScope><biblScope type="lpage">1000</biblScope><date type="published" when="1988" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b91"><analytic><title level="a" type="main">The distribution and morphological characteristics of the intracortical VIP-positive cell: an immunohistochemical analysis</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">H</forename>
+				<surname>Morrison</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<forename type="middle">J</forename>
+				<surname>Magistretti</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Benoit</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">F</forename>
+				<forename type="middle">E</forename>
+				<surname>Bloom</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Brain Res</title><imprint><biblScope type="vol">292</biblScope><biblScope type="fpage">269</biblScope><biblScope type="lpage">282</biblScope><date type="published" when="1984" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b92"><analytic><title level="a" type="main">Peptide-containing neurons of the primate cerebral cortex</title>		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">G</forename>
+				<surname>Jones</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<forename type="middle">H</forename>
+				<surname>Hendry</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Res. Publ. Assoc. Res. Nerv. Ment. Dis</title><imprint><biblScope type="vol">64</biblScope><biblScope type="fpage">163</biblScope><biblScope type="lpage">178</biblScope><date type="published" when="1986" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b93"><analytic><title level="a" type="main">Different populations of GABAergic neurons in the visual cortex and hippocampus of cat contain somatostatin-or cholecystokinin-immunoreactive material</title>		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Somogyi</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">4</biblScope><biblScope type="fpage">2590</biblScope><biblScope type="lpage">2603</biblScope><date type="published" when="1984" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b94"><analytic><title level="a" type="main">Neuropeptide-containing neurons of the cerebral cortex are also GABAergic References 98 and 99 reported the differential expression of intestinal peptides in GABA neurons</title>		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<forename type="middle">H</forename>
+				<surname>Hendry</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="m">Proc. Natl Acad. Sci. USA 81</title><meeting>. Natl Acad. Sci. USA 81</meeting><imprint><date type="published" when="1984" /><biblScope type="fpage">6526</biblScope><biblScope type="lpage">6530</biblScope></imprint></monogr></biblStruct>
+<biblStruct xml:id="b95"><analytic><title level="a" type="main">Differential regulation of substance P and somatostatin in Martinotti cells of the developing cat visual cortex</title>		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Wahle</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comp. Neurol</title><imprint><biblScope type="vol">329</biblScope><biblScope type="fpage">519</biblScope><biblScope type="lpage">538</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b96"><analytic><title level="a" type="main">Somatostatin immunoreactive neurons in rat visual cortex: a light and electron microscopic study</title>		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<forename type="middle">L</forename>
+				<surname>Meinecke</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Peters</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurocytol</title><imprint><biblScope type="vol">15</biblScope><biblScope type="fpage">121</biblScope><biblScope type="lpage">136</biblScope><date type="published" when="1986" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b97"><analytic><title level="a" type="main">Two distinct subgroups of cholecystokinin-immunoreactive cortical interneurons</title>		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Kubota</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Kawaguchi</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Brain Res</title><imprint><biblScope type="vol">752</biblScope><biblScope type="fpage">175</biblScope><biblScope type="lpage">183</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b98"><analytic><title level="a" type="main">Differences in Ca 2+ permeability of AMPA-type glutamate receptor channels in neocortical neurons caused by differential GluR-B subunit expression</title>		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Jonas</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Racca</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Sakmann</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<forename type="middle">H</forename>
+				<surname>Seeburg</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Monyer</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuron</title><imprint><biblScope type="vol">12</biblScope><biblScope type="fpage">1281</biblScope><biblScope type="lpage">1289</biblScope><date type="published" when="1994" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b99"><analytic><title level="a" type="main">Muscarine modulates Ca 2+ channel currents in rat sensorimotor pyramidal cells via two distinct pathways</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">E</forename>
+				<surname>Stewart</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Z</forename>
+				<surname>Yan</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<forename type="middle">J</forename>
+				<surname>Surmeier</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">C</forename>
+				<surname>Foehring</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurophysiol</title><imprint><biblScope type="vol">81</biblScope><biblScope type="fpage">72</biblScope><biblScope type="lpage">84</biblScope><date type="published" when="1999" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b100"><analytic><title level="a" type="main">Subunit composition, kinetic, and permeation properties of AMPA receptors in single neocortical nonpyramidal cells</title>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">C</forename>
+				<surname>Angulo</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Lambolez</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<surname>Audinat</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Hestrin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Rossier</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">17</biblScope><biblScope type="fpage">6685</biblScope><biblScope type="lpage">6696</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b101"><analytic><title level="a" type="main">NR2A subunit expression shortens NMDA receptor synaptic currents in developing neocortex</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">C</forename>
+				<surname>Flint</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">U</forename>
+				<forename type="middle">S</forename>
+				<surname>Maisch</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">H</forename>
+				<surname>Weishaupt</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">R</forename>
+				<surname>Kriegstein</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Monyer</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">17</biblScope><biblScope type="fpage">2469</biblScope><biblScope type="lpage">2476</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b102"><analytic><title level="a" type="main">Interneuron diversity series: molecular and genetic tools to study GABAergic interneuron diversity and function</title>		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Monyer</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Trends Neurosci</title><imprint><biblScope type="vol">27</biblScope><biblScope type="fpage">90</biblScope><biblScope type="lpage">97</biblScope><date type="published" when="2004" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b103"><analytic><title level="a" type="main">Voltagedependent currents prolong single-axon postsynaptic potentials in layer III pyramidal neurons in rat neocortical slices This paper reported the first dual recordings of synaptically connected neurons in the neocortex</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">M</forename>
+				<surname>Thomson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<surname>Girdlestone</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<forename type="middle">C</forename>
+				<surname>West</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurophysiol</title><imprint><biblScope type="vol">60</biblScope><biblScope type="fpage">1896</biblScope><biblScope type="lpage">1907</biblScope><date type="published" when="1988" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b104"><analytic><title level="a" type="main">Frequency and dendritic distribution of autapses established by layer 5 pyramidal neurons in the developing rat neocortex: comparison with synaptic innervation of adjacent neurons of the same class</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Lubke</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Frotscher</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Sakmann</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">16</biblScope><biblScope type="fpage">3209</biblScope><biblScope type="lpage">3218</biblScope><date type="published" when="1996" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b105"><analytic><title level="a" type="main">Physiology and anatomy of synaptic connections between thick tufted pyramidal neurons in the developing rat neocortex</title>		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Lubke</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Frotscher</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Roth</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Sakmann</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol</title><imprint><biblScope type="vol">500</biblScope><biblScope type="fpage">409</biblScope><biblScope type="lpage">440</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b106"><analytic><title level="a" type="main">Highprobability uniquantal transmission at excitatory synapses in barrel cortex</title>		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">A</forename>
+				<surname>Silver</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Lubke</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Sakmann</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<surname>Feldmeyer</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Science</title><imprint><biblScope type="vol">302</biblScope><date type="published" when="1981" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b107"><analytic><title level="a" type="main">Fast IPSPs elicited via multiple synaptic release sites by different types of GABAergic neuron in the cat visual cortex</title>		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Tamas</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">H</forename>
+				<surname>Buhl</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Somogyi</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol</title><imprint><biblScope type="vol">500</biblScope><biblScope type="fpage">715</biblScope><biblScope type="lpage">738</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b108"><analytic><title level="a" type="main">Differentially interconnected networks of GABAergic interneurons in the visual cortex of the cat</title>		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Tamas</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Somogyi</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">H</forename>
+				<surname>Buhl</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">18</biblScope><biblScope type="fpage">4255</biblScope><biblScope type="lpage">4270</biblScope><date type="published" when="1998" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b109"><analytic><title level="a" type="main">Effect, number and location of synapses made by single pyramidal cells onto aspiny interneurons of cat visual cortex An elegant multi-dimensional study of a key glutamatergic pathway</title>		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">H</forename>
+				<surname>Buhl</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol. (Lond.)</title><imprint><biblScope type="vol">500</biblScope><biblScope type="fpage">689</biblScope><biblScope type="lpage">713</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b110"><analytic><title level="a" type="main">Map of the synapses onto layer 4 basket cells of the primary visual cortex of the cat</title>		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Ahmed</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">C</forename>
+				<surname>Anderson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<forename type="middle">A</forename>
+				<surname>Martin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Nelson</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comp. Neurol</title><imprint><biblScope type="vol">380</biblScope><biblScope type="fpage">230</biblScope><biblScope type="lpage">242</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b111"><monogr><title level="m" type="main">The Fine Structure of the Nervous System</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Peters</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<forename type="middle">L</forename>
+				<surname>Palay</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<forename type="middle">D</forename>
+				<surname>Webster</surname>
+			</persName>
+		</author>
+<imprint><date type="published" when="1991" /><publisher>Oxford Univ. Press</publisher><pubPlace>New York</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b112"><analytic><title level="a" type="main">Innervation of burst firing spiny interneurons by pyramidal cells in deep layers of rat somatomotor cortex: paired intracellular recordings with biocytin filling</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Deuchars</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">M</forename>
+				<surname>Thomson</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuroscience</title><imprint><biblScope type="vol">69</biblScope><biblScope type="fpage">739</biblScope><biblScope type="lpage">755</biblScope><date type="published" when="1995" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b113"><analytic><title level="a" type="main">Prefrontal microcircuits: membrane properties and excitatory input of local, medium, and wide arbor interneurons</title>		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<forename type="middle">S</forename>
+				<surname>Krimer</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Goldman-</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<forename type="middle">S</forename>
+				<surname>Rakic</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">21</biblScope><biblScope type="fpage">3788</biblScope><biblScope type="lpage">3796</biblScope><date type="published" when="2001" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b114"><analytic><title level="a" type="main">Different glutamate receptor channels mediate fast excitatory synaptic currents in inhibitory and excitatory cortical neurons</title>		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Hestrin</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuron</title><imprint><biblScope type="vol">11</biblScope><biblScope type="fpage">1083</biblScope><biblScope type="lpage">1091</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b115"><analytic><title level="a" type="main">Neocortical local synaptic circuitry revealed with dual intracellular recordings and biocytin-filling</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">M</forename>
+				<surname>Thomson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Deuchars</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<forename type="middle">C</forename>
+				<surname>West</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol. (Paris)</title><imprint><biblScope type="vol">90</biblScope><biblScope type="fpage">211</biblScope><biblScope type="lpage">215</biblScope><date type="published" when="1996" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b116"><analytic><title level="a" type="main">Properties of single axon excitatory postsynaptic potentials elicited in spiny interneurons by action potentials in pyramidal neurons in slices of rat neocortex</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">M</forename>
+				<surname>Thomson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<forename type="middle">C</forename>
+				<surname>West</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Deuchars</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuroscience</title><imprint><biblScope type="vol">69</biblScope><biblScope type="fpage">727</biblScope><biblScope type="lpage">738</biblScope><date type="published" when="1995" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b117"><analytic><title level="a" type="main">Single axon excitatory postsynaptic potentials in neocortical interneurons exhibit pronounced paired pulse facilitation The first demonstration of strongly facilitating glutamatergic synapses</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">M</forename>
+				<surname>Thomson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Deuchars</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<forename type="middle">C</forename>
+				<surname>West</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuroscience</title><imprint><biblScope type="vol">54</biblScope><biblScope type="fpage">347</biblScope><biblScope type="lpage">360</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b118"><analytic><title level="a" type="main">Synaptic interactions in neocortical local circuits: dual intracellular recordings in vitro</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">M</forename>
+				<surname>Thomson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Deuchars</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Cereb. Cortex</title><imprint><biblScope type="vol">7</biblScope><biblScope type="fpage">510</biblScope><biblScope type="lpage">522</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b119"><analytic><title level="a" type="main">More than just frequency detectors?</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">M</forename>
+				<surname>Thomson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Neuroscience</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Science</title><imprint><biblScope type="vol">275</biblScope><biblScope type="fpage">179</biblScope><biblScope type="lpage">180</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b120"><analytic><title level="a" type="main">Differential signaling via the same axon of neocortical pyramidal neurons The first direct demonstration that the same axon from a neocortical neuron can form both depressing and facilitating synapses</title>		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Wang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Tsodyks</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="m">Proc. Natl Acad. Sci. USA 95</title><meeting>. Natl Acad. Sci. USA 95</meeting><imprint><date type="published" when="1998" /><biblScope type="fpage">5323</biblScope><biblScope type="lpage">5328</biblScope></imprint></monogr></biblStruct>
+<biblStruct xml:id="b121"><analytic><title level="a" type="main">Anatomical and functional differentiation of glutamatergic synaptic innervation in the neocortex</title>		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Wang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Gupta</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol. (Paris)</title><imprint><biblScope type="vol">93</biblScope><biblScope type="fpage">305</biblScope><biblScope type="lpage">317</biblScope><date type="published" when="1999" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b122"><analytic><title level="a" type="main">Target-cell-specific facilitation and depression in neocortical circuits</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Reyes</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature Neurosci</title><imprint><biblScope type="vol">1</biblScope><biblScope type="fpage">279</biblScope><biblScope type="lpage">285</biblScope><date type="published" when="1998" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b123"><analytic><title level="a" type="main">AMPA receptor channels with long-lasting desensitization in bipolar interneurons contribute to synaptic depression in a novel feedback circuit in layer 2/3 of rat neocortex</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Rozov</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Jerecic</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Sakmann</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">N</forename>
+				<surname>Burnashev</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">21</biblScope><biblScope type="fpage">8062</biblScope><biblScope type="lpage">8071</biblScope><date type="published" when="2001" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b124"><analytic><title level="a" type="main">Frequency-dependent synaptic depression and the balance of excitation and inhibition in the neocortex</title>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Galaretta</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Hestrin</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature Neurosci</title><imprint><biblScope type="vol">1</biblScope><biblScope type="fpage">587</biblScope><biblScope type="lpage">594</biblScope><date type="published" when="1998" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b125"><analytic><title level="a" type="main">Transmitter release modulation by intracellular Ca 2+ buffers in facilitating and depressing nerve terminals of pyramidal cells in layer 2/3 of the rat neocortex indicates a target cellspecific difference in presynaptic calcium dynamics</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Rozov</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">N</forename>
+				<surname>Burnashev</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Sakmann</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<surname>Neher</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol</title><imprint><biblScope type="vol">531</biblScope><biblScope type="fpage">807</biblScope><biblScope type="lpage">826</biblScope><date type="published" when="2001" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b126"><analytic><title level="a" type="main">Properties of unitary IPSPs evoked by anatomically identified basket cells in the rat hippocampus</title>		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">H</forename>
+				<surname>Buhl</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<forename type="middle">R</forename>
+				<surname>Cobb</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<surname>Halasy</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<forename type="middle">E</forename>
+				<surname>Somogyi</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">I</forename>
+			</persName>
+		</author>
+</analytic><monogr><title level="m">NATURE REVIEWS | NEUROSCIENCE VOLUME 5 | OCTOBER 2004</title><imprint><date type="published" when="1989" /><biblScope type="fpage">0</biblScope><biblScope type="lpage">7</biblScope></imprint></monogr></biblStruct>
+<biblStruct xml:id="b127"><analytic><title level="a" type="main">Enforcement of temporal fidelity in pyramidal cells by somatic feed-forward inhibition</title>		<author>
+			<persName>
+				<forename type="first">F</forename>
+				<surname>Pouille</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Scanziani</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Science</title><imprint><biblScope type="vol">293</biblScope><biblScope type="fpage">1159</biblScope><biblScope type="lpage">1163</biblScope><date type="published" when="2001" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b128"><analytic><title level="a" type="main">Synchronization of neuronal activity in hippocampus by individual GABAergic interneurons An excellent paper that revealed the functional impact of different types of interneuron</title>		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<forename type="middle">R</forename>
+				<surname>Cobb</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">H</forename>
+				<surname>Buhl</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<surname>Halasy</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">O</forename>
+				<surname>Paulsen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Somogyi</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">378</biblScope><biblScope type="fpage">75</biblScope><biblScope type="lpage">78</biblScope><date type="published" when="1995" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b129"><analytic><title level="a" type="main">Synaptic interactions between smooth and spiny neurons in layer 4 of cat visual cortex in vitro</title>		<author>
+			<persName>
+				<surname>Tarczy-</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<surname>Hornoch</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<forename type="middle">A</forename>
+				<surname>Martin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">J</forename>
+				<surname>Jack</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<forename type="middle">J</forename>
+				<surname>Stratford</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol</title><imprint><biblScope type="vol">508</biblScope><biblScope type="fpage">351</biblScope><biblScope type="lpage">363</biblScope><date type="published" when="1998" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b130"><analytic>		<author>
+			<persName>
+				<forename type="first">I</forename>
+				<surname>Segev</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Burke</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="m">Methods in Neuronal Modeling</title><editor>Koch, C. &amp; Segev, I.</editor><meeting><address>Cambridge, Massachusetts</address></meeting><imprint><publisher>MIT Press</publisher><date type="published" when="1998" /><biblScope type="fpage">93</biblScope><biblScope type="lpage">136</biblScope></imprint></monogr></biblStruct>
+<biblStruct xml:id="b131"><monogr>		<author>
+			<persName>
+				<forename type="first">I</forename>
+				<surname>Segev</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>London</surname>
+			</persName>
+		</author>
+<editor>Stuart, G., Spruston, N. &amp; Hausser, M.</editor><imprint><date type="published" when="1999" /><publisher>Oxford Univ. Press</publisher></imprint></monogr></biblStruct>
+<biblStruct xml:id="b132"><analytic><title level="a" type="main">A synaptically controlled, associative signal for Hebbian plasticity in hippocampal neurons</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">C</forename>
+				<surname>Magee</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<surname>Johnston</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Science</title><imprint><biblScope type="vol">275</biblScope><biblScope type="fpage">209</biblScope><biblScope type="lpage">213</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b133"><analytic><title level="a" type="main">Calcium electrogenesis in distal apical dendrites of layer 5 pyramidal cells at a critical frequency of back-propagating action potentials</title>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">E</forename>
+				<surname>Larkum</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<forename type="middle">M</forename>
+				<surname>Kaiser</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Sakmann</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="m">Proc. Natl Acad. Sci. USA 96</title><meeting>. Natl Acad. Sci. USA 96</meeting><imprint><date type="published" when="1999" /><biblScope type="fpage">14600</biblScope><biblScope type="lpage">14604</biblScope></imprint></monogr></biblStruct>
+<biblStruct xml:id="b134"><analytic><title level="a" type="main">Model of synchronized population bursts in electrically coupled interneurons containing active dendritic conductances</title>		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">D</forename>
+				<surname>Traub</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comput. Neurosci</title><imprint><biblScope type="vol">2</biblScope><biblScope type="fpage">283</biblScope><biblScope type="lpage">289</biblScope><date type="published" when="1995" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b135"><analytic><title level="a" type="main">Identified sources and targets of slow inhibition in the neocortex</title>		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Tamas</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Lorincz</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Simon</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Szabadics</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Science</title><imprint><biblScope type="vol">299</biblScope><biblScope type="fpage">1902</biblScope><biblScope type="lpage">1905</biblScope><date type="published" when="2003" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b136"><analytic><title level="a" type="main">Dual intracellular recordings and computational models of slow inhibitory postsynaptic potentials in rat neocortical and hippocampal slices</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">M</forename>
+				<surname>Thomson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Destexhe</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuroscience</title><imprint><biblScope type="vol">92</biblScope><biblScope type="fpage">1193</biblScope><biblScope type="lpage">1215</biblScope><date type="published" when="1999" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b137"><analytic><title level="a" type="main">Separate activation of fast and slow inhibitory postsynaptic potentials in rat neocortex in vitro</title>		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<forename type="middle">S</forename>
+				<surname>Benardo</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol. (Lond.)</title><imprint><biblScope type="vol">476</biblScope><biblScope type="fpage">203</biblScope><biblScope type="lpage">215</biblScope><date type="published" when="1994" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b138"><analytic><title level="a" type="main">Double immunofluorescence, peroxidase labelling and ultrastructural analysis of interneurons following prolonged electrophysiological recordings in vitro</title>		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<forename type="middle">I</forename>
+				<surname>Hughes</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">P</forename>
+				<surname>Bannister</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Pawelzik</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">M</forename>
+				<surname>Thomson</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci. Meth</title><imprint><biblScope type="vol">101</biblScope><biblScope type="fpage">107</biblScope><biblScope type="lpage">116</biblScope><date type="published" when="2000" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b139"><analytic><title level="a" type="main">Network of GABAergic large basket cells in cat visual cortex (area 18): implication for lateral disinhibition</title>		<author>
+			<persName>
+				<forename type="first">Z</forename>
+				<forename type="middle">F</forename>
+				<surname>Kisvarday</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Beaulieu</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">U</forename>
+				<forename type="middle">T</forename>
+				<surname>Eysel</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comp. Neurol</title><imprint><biblScope type="vol">327</biblScope><biblScope type="fpage">398</biblScope><biblScope type="lpage">415</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b140"><analytic><title level="a" type="main">Gap junctions linking the dendritic network of GABAergic interneurons in the hippocampus</title>		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<surname>Fukuda</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<surname>Kosaka</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">20</biblScope><biblScope type="fpage">1519</biblScope><biblScope type="lpage">1528</biblScope><date type="published" when="2000" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b141"><analytic><title level="a" type="main">Proximally targeted GABAergic synapses and gap junctions synchronize cortical interneurons</title>		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Tamas</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">H</forename>
+				<surname>Buhl</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Lorincz</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Somogyi</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature Neurosci</title><imprint><biblScope type="vol">3</biblScope><biblScope type="fpage">366</biblScope><biblScope type="lpage">371</biblScope><date type="published" when="2000" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b142"><analytic><title level="a" type="main">Extensive dye coupling between rat neocortical neurons during the period of circuit formation</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Peinado</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Yuste</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<surname>Katz</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuron</title><imprint><biblScope type="vol">10</biblScope><biblScope type="fpage">103</biblScope><biblScope type="lpage">114</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b143"><analytic><title level="a" type="main">A network of fast-spiking cells in the neocortex connected by electrical synapses</title>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Galarreta</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Hestrin</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">402</biblScope><biblScope type="fpage">72</biblScope><biblScope type="lpage">75</biblScope><date type="published" when="1999" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b144"><analytic><title level="a" type="main">Two networks of electrically coupled inhibitory neurons in neocortex</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">R</forename>
+				<surname>Gibson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Beierlein</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<forename type="middle">W</forename>
+				<surname>Connors</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">402</biblScope><biblScope type="fpage">75</biblScope><biblScope type="lpage">79</biblScope><date type="published" when="1999" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b145"><analytic><title level="a" type="main">Functional and structural topography of horizontal inhibitory connections in cat visual cortex</title>		<author>
+			<persName>
+				<forename type="first">Z</forename>
+				<forename type="middle">F</forename>
+				<surname>Kisvarday</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">U</forename>
+				<forename type="middle">T</forename>
+				<surname>Eysel</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Eur. J. Neurosci</title><imprint><biblScope type="vol">5</biblScope><biblScope type="fpage">1558</biblScope><biblScope type="lpage">1572</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b146"><analytic><title level="a" type="main">Visual input evokes transient and strong shunting inhibition in visual cortical neurons</title>		<author>
+			<persName>
+				<surname>Borg-</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<forename type="middle">J</forename>
+				<surname>Graham</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Monier</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Fregnac</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">393</biblScope><biblScope type="fpage">369</biblScope><biblScope type="lpage">373</biblScope><date type="published" when="1998" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b147"><analytic><title level="a" type="main">Orientation and direction selectivity of synaptic inputs in visual cortical neurons: a diversity of combinations produces spike tuning</title>		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Monier</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">F</forename>
+				<surname>Chavane</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Baudot</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<forename type="middle">J</forename>
+				<surname>Graham</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Fregnac</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuron</title><imprint><biblScope type="vol">37</biblScope><biblScope type="fpage">663</biblScope><biblScope type="lpage">680</biblScope><date type="published" when="2003" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b148"><analytic><title level="a" type="main">Balanced inhibition underlies tuning and sharpens spike timing in auditory cortex</title>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Wehr</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">M</forename>
+				<surname>Zador</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">426</biblScope><biblScope type="fpage">442</biblScope><biblScope type="lpage">446</biblScope><date type="published" when="2003" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b149"><analytic>		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<forename type="middle">J</forename>
+				<surname>Mcbain</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Fisahn</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Interneurons</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature Rev. Neurosci</title><imprint><biblScope type="vol">2</biblScope><biblScope type="fpage">11</biblScope><biblScope type="lpage">23</biblScope><date type="published" when="2001" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b150"><analytic><title level="a" type="main">Synaptic integration in striate cortical simple cells</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">A</forename>
+				<surname>Hirsch</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">M</forename>
+				<surname>Alonso</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">C</forename>
+				<surname>Reid</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<forename type="middle">M</forename>
+				<surname>Martinez</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">18</biblScope><biblScope type="fpage">9517</biblScope><biblScope type="lpage">9528</biblScope><date type="published" when="1998" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b151"><analytic><title level="a" type="main">Orientation tuning of input conductance, excitation, and inhibition in cat primary visual cortex</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">S</forename>
+				<surname>Anderson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Carandini</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<surname>Ferster</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurophysiol</title><imprint><biblScope type="vol">84</biblScope><biblScope type="fpage">909</biblScope><biblScope type="lpage">926</biblScope><date type="published" when="2000" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b152"><analytic><title level="a" type="main">Tone-evoked excitatory and inhibitory synaptic conductances of primary auditory cortex neurons</title>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">Y</forename>
+				<surname>Tan</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<forename type="middle">I</forename>
+				<surname>Zhang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">M</forename>
+				<surname>Merzenich</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<forename type="middle">E</forename>
+				<surname>Schreiner</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurophysiol</title><imprint><biblScope type="vol">92</biblScope><biblScope type="fpage">630</biblScope><biblScope type="lpage">643</biblScope><date type="published" when="2004" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b153"><analytic><title level="a" type="main">Synaptic dynamics control the timing of neuronal excitation in the activated neocortical microcircuit The first study to show that subthreshold voltage cross-correlations correspond to the form of synaptic dynamics</title>		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Silberberg</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Wu</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol. (Lond.)</title><imprint><biblScope type="vol">556</biblScope><biblScope type="fpage">19</biblScope><biblScope type="lpage">27</biblScope><date type="published" when="2004" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b154"><analytic><title level="a" type="main">Properties of GABA A receptors underlying inhibitory synaptic currents in neocortical pyramidal neurons</title>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Galarreta</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Hestrin</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">17</biblScope><biblScope type="fpage">7220</biblScope><biblScope type="lpage">7227</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b155"><analytic><title level="a" type="main">Differential depression at excitatory and inhibitory synapses in visual cortex</title>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">A</forename>
+				<surname>Varela</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Song</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<forename type="middle">G</forename>
+				<surname>Turrigiano</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<forename type="middle">B</forename>
+				<surname>Nelson</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">19</biblScope><biblScope type="fpage">4293</biblScope><biblScope type="lpage">4304</biblScope><date type="published" when="1999" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b156"><analytic><title level="a" type="main">Synaptic background activity influences spatiotemporal integration in single pyramidal cells</title>		<author>
+			<persName>
+				<forename type="first">O</forename>
+				<surname>Bernander</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">J</forename>
+				<surname>Douglas</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<forename type="middle">A</forename>
+				<surname>Martin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Koch</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="m">Proc. Natl Acad. Sci. USA 88</title><meeting>. Natl Acad. Sci. USA 88</meeting><imprint><date type="published" when="1991" /><biblScope type="fpage">11569</biblScope><biblScope type="lpage">11573</biblScope></imprint></monogr></biblStruct>
+<biblStruct xml:id="b157"><analytic><title level="a" type="main">Integrator or coincidence detector? The role of the cortical neuron revisited</title>		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Konig</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">K</forename>
+				<surname>Engel</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<surname>Singer</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Trends Neurosci</title><imprint><biblScope type="vol">19</biblScope><biblScope type="fpage">130</biblScope><biblScope type="lpage">137</biblScope><date type="published" when="1996" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b158"><analytic><title level="a" type="main">Reability of spike timing in neocortical neurons</title>		<author>
+			<persName>
+				<forename type="first">Z</forename>
+				<forename type="middle">F</forename>
+				<surname>Mainen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<forename type="middle">J</forename>
+				<surname>Sejnowski</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Science</title><imprint><biblScope type="vol">268</biblScope><biblScope type="fpage">1503</biblScope><biblScope type="lpage">1506</biblScope><date type="published" when="1995" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b159"><analytic><title level="a" type="main">Cellular mechanisms contributing to response variability of cortical neurons in vivo</title>		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Azouz</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<forename type="middle">M</forename>
+				<surname>Gray</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">19</biblScope><biblScope type="fpage">2209</biblScope><biblScope type="lpage">2223</biblScope><date type="published" when="1999" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b160"><analytic><title level="a" type="main">Dynamics of population rate codes in ensembles of neocortical neurons</title>		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Silberberg</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Bethge</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<surname>Pawelzik</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Tsodyks</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurophysiol</title><imprint><biblScope type="vol">91</biblScope><biblScope type="fpage">704</biblScope><biblScope type="lpage">709</biblScope><date type="published" when="2004" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b161"><analytic><title level="a" type="main">Stereotypy in neocortical microcircuits</title>		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Silberberg</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Gupta</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Trends Neurosci</title><imprint><biblScope type="vol">25</biblScope><biblScope type="fpage">227</biblScope><biblScope type="lpage">230</biblScope><date type="published" when="2002" /></imprint></monogr></biblStruct></listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

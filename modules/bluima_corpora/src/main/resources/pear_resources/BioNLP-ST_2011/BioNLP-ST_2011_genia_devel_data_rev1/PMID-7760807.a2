@@ -1,0 +1,20 @@
+*	Equiv T7 T8
+*	Equiv T2 T3
+*	Equiv T9 T10
+T13	Positive_regulation 104 111	crucial
+T14	Transcription 116 129	transcription
+T15	Localization 339 347	Secreted
+T16	Positive_regulation 400 407	derived
+T17	Regulation 690 697	control
+T18	Gene_expression 702 712	expression
+T19	Regulation 850 856	affect
+T20	Entity 867 875	promoter
+T21	Positive_regulation 1000 1009	induction
+E1	Positive_regulation:T13 Theme:E2
+E2	Transcription:T14 Theme:T1
+E3	Localization:T15 Theme:T7
+E4	Positive_regulation:T16 Theme:T7
+E5	Regulation:T17 Theme:E6
+E6	Gene_expression:T18 Theme:T9
+E7	Regulation:T19 Theme:T11 Site:T20
+E8	Positive_regulation:T21 Theme:T12

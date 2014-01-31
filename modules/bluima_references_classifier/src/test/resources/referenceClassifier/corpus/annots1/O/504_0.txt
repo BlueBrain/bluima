@@ -1,0 +1,37 @@
+structure in auto-correlations — this will also be degraded by
+pooling. Third, since the origin of each spike is lost, crosscorrelations (and any information they might convey) no longer
+exist. Since these three mechanisms correspond to separate
+terms of the series expansion, we were able to consider the
+effect of pooling on correlation-dependent information. Previous work on labeled line and pooled decoding schemes (Reich
+et al., 2001) considered mainly the first mechanism. Results are
+shown, averaged across all pairs of cells, in Figure 4. For cell
+pairs within the same column, the information loss due to
+pooling was nearly entirely attributable to the individual spike
+component of the code. The results were similar for pairs located
+in different columns: for D1–D2 pairs individual spikes
+accounted for 92 ± 9% of total pooling loss; for D1–D3 pairs the
+result was 83 ± 12%. These results are consistent with our
+previous report that the fundamental coding unit in this system
+is the individual spike (Panzeri et al., 2001; Petersen et al.,
+2001).
+The total amount of individual spike information lost due to
+pooling depended on the relative locations of the neurons. At 40
+ms post-stimulus, the loss was 0.03 ± 0.01 bits for D2-D2 pairs,
+0.08 ± 0.02 bits for D1–D2 pairs and 0.13 ± 0.03 bits for D1–D3
+pairs. This finding can be explained by the fact that neurons in
+different columns differ more in their PSTH profiles across
+stimuli than do neurons within the same column. Hence pooling
+destroys more PSTH structure for cross-column neuron pairs
+than for within-column neuron pairs.
+Although small compared to the role of individual spikes, a
+significant (15%) contribution to the information conveyed by
+barrel cortex populations about stimulus location comes from
+within-cell spike patterns, provided that neuronal `labels' are
+conser ved (Petersen et al., 2001). This effect is due to a negative
+dip in the auto-correlation, perhaps ref lecting refractoriness or
+inhibitory feedback (Berry and Meister, 1998) (Petersen et al.
+give a detailed examination (Petersen et al., 2001)]. Figure 4
+shows that for D2–D2 pairs part of this within-cell pattern
+information is lost by pooling. This type of information loss was
+smaller than that due to pooling independent spikes in all cases.
+Cross-columnar pooling led to a greater loss of within-cell spike

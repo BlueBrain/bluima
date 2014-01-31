@@ -1,0 +1,37 @@
+*	Equiv T17 T18
+T29	Regulation 0 10	Regulation
+T30	Gene_expression 50 60	expression
+T31	Gene_expression 119 129	expression
+T32	Negative_regulation 157 166	deficient
+T33	Gene_expression 317 327	expression
+T34	Transcription 461 476	mRNA expression
+T35	Negative_regulation 492 501	deficient
+T36	Gene_expression 592 602	expressing
+T37	Gene_expression 876 886	expression
+T38	Gene_expression 997 1007	production
+E1	Regulation:T29 Theme:E2 Cause:T4
+E3	Regulation:T29 Theme:E2 Cause:T5
+E4	Regulation:T29 Theme:E5 Cause:T4
+E6	Regulation:T29 Theme:E5 Cause:T5
+E7	Regulation:T29 Theme:E8 Cause:T4
+E9	Regulation:T29 Theme:E8 Cause:T5
+E2	Gene_expression:T30 Theme:T1
+E5	Gene_expression:T30 Theme:T2
+E8	Gene_expression:T30 Theme:T3
+E10	Gene_expression:T31 Theme:T6
+E11	Negative_regulation:T32 Theme:T8
+E12	Gene_expression:T33 Theme:T11
+E13	Transcription:T34 Theme:T13
+E14	Transcription:T34 Theme:T14
+E15	Negative_regulation:T35 Theme:T15
+E16	Gene_expression:T36 Theme:T17
+E17	Gene_expression:T37 Theme:T20
+E18	Gene_expression:T37 Theme:T21
+E19	Gene_expression:T38 Theme:T24
+M1	Speculation E10
+M2	Speculation E12
+M3	Speculation E13
+M4	Speculation E14
+M5	Speculation E17
+M6	Speculation E18
+M7	Speculation E19

@@ -1,0 +1,6 @@
+T6	Positive_regulation 0 4	High
+T7	Gene_expression 10 20	Expression
+T8	Gene_expression 70 80	expression
+E1	Positive_regulation:T6 Theme:E2
+E2	Gene_expression:T7 Theme:T1
+E3	Gene_expression:T8 Theme:T2

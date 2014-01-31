@@ -1,0 +1,5 @@
+*	Equiv T2 T3
+T9	Gene_expression 457 467	expression
+T10	Gene_expression 907 917	expressing
+E1	Gene_expression:T9 Theme:T5
+E2	Gene_expression:T10 Theme:T6

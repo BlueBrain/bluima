@@ -1,0 +1,20 @@
+*	Equiv T1 T2
+*	Equiv T7 T8
+T23	Positive_regulation 149 164	transactivation
+T24	Entity 219 236	N-terminal domain
+T25	Positive_regulation 637 648	transfected
+T26	Gene_expression 637 648	transfected
+T27	Gene_expression 749 759	expression
+T28	Gene_expression 1561 1571	expression
+T29	Positive_regulation 1659 1666	induced
+T30	Positive_regulation 1819 1828	induction
+E1	Positive_regulation:T23 Theme:T1 Site:T24
+E2	Positive_regulation:T25 Theme:E3
+E3	Gene_expression:T26 Theme:T6
+E4	Gene_expression:T26 Theme:T5
+E5	Positive_regulation:T25 Theme:E4
+E6	Gene_expression:T27 Theme:T9
+E7	Gene_expression:T28 Theme:T16
+E8	Positive_regulation:T29 Theme:T17 Cause:T18
+E9	Positive_regulation:T29 Theme:T17 Cause:T19
+E10	Positive_regulation:T30 Theme:T21

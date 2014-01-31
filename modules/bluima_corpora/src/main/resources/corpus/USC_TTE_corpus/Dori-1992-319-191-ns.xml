@@ -1,0 +1,1985 @@
+<?xml version='1.0'?>
+<!DOCTYPE File PUBLIC "NeuroScholar.DTD" "NeuroScholar.DTD">
+<?xml-stylesheet type="text/css" href="NeuroScholar.css"?>
+<File>
+
+  <Title>Proportion of Glutamate- and Aspartate-Immunoreactive Neurons 
+  in the Efferent Pathways of the Rat Visual Cortex Varies According to 
+  the Target</Title>
+
+  <Authors>I. DORI, A. DINOPOULOS, M.E. CAVANAGH, AND J.G. 
+  PARNAVELAS</Authors>
+
+  <Abstract>
+
+    <S avgH="22" class="abstract.heading" format="TimesNewRomanPSMT"
+     id="s0">ABSTRACT</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s1">Immunohistochemistry, with antisera directed against 
+    glutamate (Glu) or aspartate (Asp), was combined with wheat germ 
+    agglutinin-horseradish peroxidase (WGA-HRP) histochemistry to 
+    examine the distribution, morphology, and proportions of Gluand 
+    Asp-containing neurons that give rise to corticofugal and callosal 
+    projections of the rat visual cortex.</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s2">WGA-HRP injections in the dorsal lateral geniculate 
+    nucleus resulted in retrograde labelling of small and medium-sized 
+    cells throughout layer VI of the visual cortex.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s3">Of these cells, 60% were also Glu-immunoreactive and 6 1% 
+    Asp-positive.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s4">WGA-HRP injections in the superior colliculus labelled 
+    large and medium-sized neurons in the upper portion of layer V of 
+    the visual cortex.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s5">Of these cells, 46% were also stained for Glu and 66% for 
+    Asp.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s6">Injections in the pontine nuclei resulted in retrograde 
+    labelling of cells in the deeper part of cortical layer V.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s7">Retrogradely labelled cells, which were also 
+    immunoreactive for Glu or Asp, were large pyramidal cells.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s8">Corticopontine neurons, which were also Glu-positive, 
+    accounted for 42% of the total number of WGA-HRP labelled cells, 
+    whilst for Asp-positive neurons this percentage was 51%.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s9">Finally, after injections in the visual cortex, 
+    retrogradely labelled small and medium-sized cells were found 
+    throughout layers 11-VI in the contralateral visual cortex.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s10">Of these neurons, 38% were also labelled for Glu while 
+    49% were also Asp-immunoreactive.</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s11">The present results demonstrate that substantial 
+    proportions of projection neurons in the rat visual cortex are 
+    immunoreactive for Glu or Asp, suggesting that these excitatory 
+    amino acids are the major transmitters used by the cortical 
+    efferent systems examined.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s12">Furthermore, the proportions of these immunoreactive 
+    neurons in the efferent pathways vary according to the target. e 
+    1992 Wiley-Liss, Inc.</S>
+    <BR />
+
+  </Abstract>
+
+  <Introduction>
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s13">Extensive investigations during the past 30 years have 
+    shown that the amino acids L-glutamate (Glu) and L-aspartate (Asp) 
+    have excitatory actions on many neurons in the central nervous 
+    system.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s14">The excitatory effects of these amino acids on cerebral 
+    cortical neurons were first demonstrated by Krnjevic and Phillis 
+    (&apos;63) and later confirmed by others (Hess and Murata, 
+    &apos;74).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s15">Since then, a plethora of neurochemical, pharmacological, 
+    physiological, and morphological studies have provided a 
+    substantial body of evidence suggesting that these amino acids may 
+    be involved in cortical transmission (see Fagg and Foster, 
+    &apos;83; Ottersen and Storm-Mathisen, &apos;84a; Streit, &apos;84, 
+    for reviews).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s16">Until recently, the direct demonstration of neurons 
+    likely to use these substances as neurotransmitters has proved very 
+    difficult as Glu and Asp, being key metabolites in the brain, are 
+    present in all cells.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s17">Thus, earlier investigations have used indirect 
+    approaches to demonstrate that Glu and Asp are present within 
+    cortical projection neurons or in cortical efferent pathways.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s18">Lesions of various cortical efferent systems including 
+    the corticopontine, corticocollicular, corticothalamic, and 
+    corticostriatal pathways, resulted in decreases in the endogenous 
+    level, release, and high-affinity uptake of Glu and Asp in the 
+    respective subcortical targets.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s19">Injections of the tritiated D-forms of Glu and Asp in 
+    subcortical and callosal termination sites of cortical projections 
+    resulted in retrograde labelling of pyramidal neurons (see Fagg and 
+    Foster, &apos;83; Streit, &apos;84, for reviews).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s20">Furthermore, iontophoretic application of specific amino 
+    acid antagonists at termination sites of various corticofugal 
+    fibers blocked excitation in the postsynaptic neurons (Spencer, 
+    &apos;76; Stone, &apos;76, &apos;79).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s21">The direct demonstration of cortical neurons that may use 
+    excitatory amino acids as neurotransmitters has been achieved as a 
+    result of the production of antibodies directed against these amino 
+    acids conjugated to protein carriers that specifically demonstrate 
+    Glu and Asp in perfusionfixed tissue (Storm-Mathisen et al., 
+    &apos;83; Campistron et al., &apos;86; Mad1 et al., &apos;86, 
+    &apos;87; Hepler et al., &apos;88).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s22">Using these antibodies, investigators have provided 
+    descriptions of the morphology and distribution of amino 
+    acid-containing neurons in the neocortex of a number of mammalian 
+    species (Ottersen and Storm-Mathisen, &apos;84b; Conti et al., 
+    &apos;87b, &apos;89).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s23">In a recent immunocytochemical study at the light and 
+    electron microscopic level, we reported that in the visual cortex 
+    of the rat Gluand Asp-immunoreactivity was found in pyramidal 
+    cells, which are regarded as the projection neurons of the cortex, 
+    distributed throughout layers 11-VI.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s24">The Glu-immunoreactive cells were exclusively pyramidal, 
+    but of those positive for Asp 10% were nonpyramidal (Dori et al., 
+    &apos;89).</S>
+    <BR />
+
+  </Introduction>
+
+  <Methods>
+
+    <S avgH="27" class="methods.heading" format="TimesNewRomanPS-BoldMT"
+     id="s25">MATERIALS AND METHODS</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s26">Twenty-five adult pigmented and Sprague Dawley albino 
+    rats, weighing 250-300 g each, were used in this study.</S>
+    <BR />
+
+    <S avgH="25" class="methods.subtitle" format="CourierNewPS-BoldMT"
+     id="s27">peroxidase-antiperoxidase</S>
+    <BR />
+
+    <S avgH="27" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s28">Surgery and WGA-HRP 
+    injections</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s29">The animals were deeply anaesthetized with Sagatal(25 
+    mg/kg) prior to being mounted on a stereotaxic apparatus.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s30">The skull was opened and the dura removed under a 
+    surgical microscope.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s31">WGA-HRP (Sigma; 4% in sterile saline) was injected under 
+    pressure by means of a 1 ~1 Hamilton microsyringe.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s32">The needle was slowly directed to the appropriate 
+    injection site, whose stereotaxic coordinates were determined with 
+    reference to the atlas of the rat brain by Paxinos and Watson 
+    (&apos;86).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s33">For injections into the dorsal lateral geniculate nucleus 
+    (dLGN), a glass micropipette glued to the Hamilton microsyringe was 
+    used in order to achieve a restricted delivery of the tracer.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s34">Seven rats each received 0.02 pl of the WGA-HRP solution 
+    in the dLGN.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s35">The micropipette tip was directed to the target through 
+    the contralateral hemisphere.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s36">Another three animals each received 0.10 pl WGA-HRP in 
+    the superior colliculus (SC).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s37">In these animals, the needle-tip was directed to the 
+    target through the contralateral hemisphere in order to avoid the 
+    ipsilateral cortex.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s38">A group of five rats each received a total of 0.25 p1 
+    WGA-HRP solution in four separate sites in the pontine nuclei.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s39">In these injections the needle was angled towards the 
+    brain stem via the cerebellum.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s40">Finally, in each of 10 rats, a total of 0.50 p1 of the 
+    tracer was injected unilaterally in four sites at the borders of 
+    cortical area 17 with areas 18 and 18a.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s41">In all animals, WGA-HRP was delivered over a period of 
+    10-15 minutes, and the needle remained in place for 10 minutes 
+    following completion of each injection.</S>
+    <BR />
+
+    <S avgH="27" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s42">Perfusion and tissue 
+    preparation</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s43">The animals were allowed to survive for 48 hours, after 
+    which they were deeply reanaesthetized with ether and perfused 
+    through the ascending aorta with 200 ml of fixative solution 
+    containing 4% paraformaldehyde and 0.2% glutaraldehyde in 0.1 M 
+    phosphate buffer, pH 7.4 (PB), followed by 300 ml of the same 
+    fixative without glutaraldehyde.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s44">This schedule was selected after preliminary experiments 
+    to determine the optimal fixation conditions for staining of Gluand 
+    Asp-containing neurons and is very similar to that recommended by 
+    Hepler et al. (&apos;881, who raised and characterized the antisera 
+    used in the present study.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s45">The brains were immediately removed from the skulls, 
+    postfixed in 4% paraformaldehyde in PB for 1 hour, and then 
+    transferred into PB or 30% sucrose in PB for approximately 18 hours 
+    at 4°C.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s46">Serial sections were cut from the occipital cortex at 40 
+    km in the coronal plane, with either a Vibratome or a freezing 
+    microtome.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s47">Sections through the visual cortex were collected in PB 
+    in groups of three.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s48">The first and second sections of each group were first 
+    processed for WGA-HRP-histochemistry and subsequently every first 
+    section was processed for Glu and every second one for Asp 
+    immunohistochemistry.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s49">The third section of each group was stained with 
+    toluidine blue.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s50">Control sections were kept for WGA-HRP histochemistry or 
+    immunohistochemistry alone.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s51">Sections through each of the injection sites were cut and 
+    processed for WGA-HRP histochemistry .</S>
+    <BR />
+
+    <S avgH="27" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s52">WGA-HRP histochemistry 
+    and amino acid immunohistochemistry</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s53">Free-floating sections were processed according to the 
+    protocol of Horn and Hoffman (&apos;87).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s54">The sections were rinsed six times in ice-cold distilled 
+    water and then preincubated in a mixture of two solutions 
+    containing 100 mg sodium nitroferricyanide, 92.5 ml distilled 
+    water, and 5 ml of 0.2 M citrate buffer, pH 3.3 (solution A), and 5 
+    mg tetramethyl benzidine (TMB) dissolved in 2.5 ml absolute alcohol 
+    (solution B) for 20 minutes.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s55">They were then incubated for 40 minutes in a fresh 
+    solution of 100 ml preincubation medium to which 200 mg 
+    P-D-glucose, 0.5 mg glucose oxidase, and 40 mg ammonium chloride 
+    were added.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s56">Sections were subsequently incubated in an icecooled 
+    stabilization medium of 5% ammonium heptamolybdate in distilled 
+    water for 20 minutes.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s57">They were then rinsed in PB for 30 seconds and incubated 
+    for 8 minutes in a solution of 33&apos;-diaminobenzidine 
+    tetrahydrochloride (DAB; Sigma; 0.05% in PB) to which 2.5 m1/100 ml 
+    of 1% cobalt acetate was added dropwise, followed by the addition 
+    of 1% H,O, to give a final concentration of 0.01%.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s58">Sections were finally rinsed five times in cold 0.1 M 
+    phosphate buffered saline, pH 7.4 (PBS).</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s59">After completion of the WGA-HRP-histochemical procedure, 
+    the sections were incubated in a 10% methanol/3% H,O, solution for 
+    20 minutes to destroy the residual activity of HRP and endogenous 
+    peroxidase.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s60">Sections processed for WGA-HRP histochemistry alone were 
+    rinsed in PB, mounted on gelatinized slides, air-dried, dehydrated 
+    through an ascending series of alcohols, and, finally, coverslipped 
+    with DPX.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s61">Sections used for combined WGA-HRP 
+    histochemistryimmunohistochemistry were rinsed in PBS and 
+    subsequently incubated in normal goat serum (NGS; 2% in PBS) for 15 
+    minutes.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s62">They were then transferred into primary antiserum to Glu 
+    or Asp (used at a dilution of 1:3,000 in PBS with 2% NGS) and 
+    incubated for 1 hour at room temperature, followed by 36-40 hours 
+    at 4&quot;C, and returned to room temperature for an additional 1 
+    hour.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s63">These sections were subsequently rinsed in PBS, incubated 
+    again in NGS for 15 minutes, and then processed with the 
+    peroxidase-antiperoxidase (PAP) immunohistochemical technique.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s64">Sections were incubated in sheep anti-rabbit IgG (150) in 
+    PBS with 2% NGS for 45 minutes, washed in PBS, and transferred into 
+    rabbit PAP (1:80) in PBS with 2% NGS for 30 minutes.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s65">The incubations in IgG and PAP were subsequently 
+    repeated.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s66">Following the second incubation in PAP, the sections were 
+    washed in Tris-buffered saline, pH 7.4 (TBS), and placed in a 
+    solution of DAB (0.04% in Tris/HCl buffer) for 10 minutes.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s67">They were then transferred to a fresh solution of DAB 
+    containing 0.01% H,O, for 10 minutes and finally rinsed in 0.1 M 
+    Tris/HCl buffer and then in PB.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s68">After completion of the immunohistochemical procedure, 
+    sections were mounted on gelatinized slides, air-dried, dehydrated, 
+    and coverslipped with DPX.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s69">The antisera to the amino acids used in the present study 
+    were raised in rabbits against Glu or Asp conjugated to keyhole 
+    limpet hemocyanin with glutaraldehyde.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s70">Detailed methods of the preparation and characterization 
+    of both antisera by immunoabsorption and immunohistochemistry have 
+    been published earlier (Hepler et al., &apos;88).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s71">In addition, details of the method and antisera 
+    specificity in the neocortex have been reported previously (Conti 
+    et al., &apos;87b, &apos;89; Dori et al., &apos;89).</S>
+    <BR />
+
+    <S avgH="27" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s72">Data analysis</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s73">Sections were examined with a Zeiss light microscope.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s74">For every section examined, the cytoarchitectonic borders 
+    of area 17 and the extent of the cortical layers were determined 
+    from adjacent Nissl-stained sections.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s75">Counts of cells in this visual cortical area were made, 
+    with a x25 objective, in two animals from every group of rats 
+    injected with WGA-HRP, and the percentages of double 
+    (WGA-HRPlabelled and immunoreactive)versus single 
+    (WGA-HRPstained)-labelled cells were calculated.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s76">In order to show the overall distribution of each group 
+    of cells, Gluor Aspimmunoreactive, WGA-HRP-labelled, and 
+    double-labelled cells were plotted with a drawing tube attached to 
+    the microscope.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s77">Profiles of both singleand double-labelled cells were 
+    drawn with a camera lucida at x40, and crosssectional areas of cell 
+    somata were measured with a digitizing tablet linked to a 
+    microcomputer.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s78">In order to avoid underestimating cell size, only 
+    profiles that showed a nucleus and/or apical dendrite were 
+    measured.</S>
+  </Methods>
+
+  <Results>
+
+    <S avgH="28" class="results.heading" format="TimesNewRomanPS-BoldMT"
+     id="s79">RESULTS</S>
+    <BR />
+
+    <S avgH="27" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s80">Gluand 
+    Asp-immunohistochemistry</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s81">Consistent with our earlier light and electron 
+    microscopic investigation in the visual cortex of the rat ( Dori et 
+    al . , &apos; 89 ) , the present observations suggest that both 
+    Gluand Aspimmunoreactive neurons were 
+    <labelingDescription>pyramidal cells</labelingDescription> 
+    distributed in <labelingLocation>layers 11 - VI of 
+    area</labelingLocation> 17, with <labelingDescription>an increased 
+    concentration</labelingDescription> in <labelingLocation>layers I1 
+    and 111</labelingLocation>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s82"><labelingDescription>Aspartate - labelled 
+    neurons</labelingDescription> differed from Glu - labelled in that 
+    <labelingDescription>a few</labelingDescription> were nonpyramidal 
+    and they were additionally found in <labelingLocation>layer 
+    I</labelingLocation> <labelingDescription>in very small 
+    numbers</labelingDescription> .</S>
+    <BR />
+
+    <S avgH="27" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s83">Double-labelling 
+    experiments</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s84">In sections processed for both <tracerChemical>WGA - 
+    HRP</tracerChemical> histochemistry and <tracerChemical>amino 
+    acid</tracerChemical> immunohistochemistry , three types of 
+    labelling in cells were readily identified : 1 ) Cells that were 
+    Gluor Asp - immunoreactive displayed an intense fine granular brown 
+    reaction product evenly distributed throughout the perikarya and 
+    proximal dendrites . 2 ) Neurons that had effectively transported 
+    <tracerChemical>WGA - HRP</tracerChemical> displayed a black coarse 
+    granular reaction product in their somata and proximal dendrites . 
+    3 ) Neurons that were Gluor Aspimmunoreactive and WGA - HRP - 
+    positive ( double labelled ) demonstrated an easily distinguished 
+    combination of both brown reaction product and black 
+    <tracerChemical>WGA - HRP</tracerChemical> granules in their somata 
+    and proximal dendrites .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s85">The patterns of distribution of <labelingDescription>WGA 
+    - HRP - positive cells</labelingDescription> in 
+    <labelingLocation>the visual cortex</labelingLocation> corresponded 
+    to those described in previous tracing studies in rats in which 
+    <injectionLocation>subcortical and cortical target 
+    areas</injectionLocation> were injected with 
+    <tracerChemical>HRP</tracerChemical> ( Sefton et al . , &apos; 81 ; 
+    Wiesendanger and Wiesendanger , &apos; 82 ; Miller and Vogt , 
+    &apos; 84 ; Olavarria and Van Sluyters , &apos; 85 ; Hallman et al 
+    . , &apos; 88 ; Legg et al . , &apos; 89 ) .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s86">Counts of <tracerChemical>WGA - HRP</tracerChemical> - 
+    <labelingDescription>labelled cells</labelingDescription> in 500 pm 
+    strips of sections through the visual cortex processed for 
+    <tracerChemical>WGA - HRP</tracerChemical> histochemistry alone , 
+    as well as in adjacent sections processed for both 
+    <tracerChemical>WGA - HRP</tracerChemical> histochemistry and 
+    immunohistochemistry , <labelingDescription>revealed comparable 
+    numbers of retrogradely labelled cells</labelingDescription> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s87">This control suggested that the immunohistochemical 
+    procedure did not result in the masking or loss of the WGA - HRP 
+    reaction product .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s88">In addition , comparison of the distributions and 
+    staining intensity of <labelingDescription>Gluor Asp - 
+    immunoreactive cells</labelingDescription> between sections 
+    processed for both <tracerChemical>WGA - HRP</tracerChemical> 
+    histochemistiy and immunohistochemistry , and adjacent sections 
+    processed for immunohistochemistry alone , showed similar 
+    frequencies as well as staining intensities of immunoreactive 
+    neurons .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s89">This suggested that the immunohistochemical reaction 
+    product was unaffected by the preceding histochemical procedure.</S>
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s90"><exptLabel><tracerChemical>WGA - HRP</tracerChemical> 
+    injections in <injectionLocation>the dorsal lateral geniculate 
+    nucleus</injectionLocation></exptLabel> .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s91">These 
+    injections resulted in either restricted labelling within 
+    <labelingLocation>the boundaries of the nucleus</labelingLocation> 
+    ( Fig . lB ) , or in labelling of <labelingLocation>the dLGN and 
+    the ventral lateral geniculate nucleus ( vLGN )</labelingLocation> 
+    as well ( Fig . 1A ) .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s92">Analysis was restricted to 
+    <labelingLocation>layer VI</labelingLocation> , since it has been 
+    established that cortical afferents to the dLGN arise exclusively 
+    in <labelingLocation>this layer of the rat visual 
+    cortex</labelingLocation> ( Sefton et al . , 31 ) , whereas 
+    afferents to the vLGN arise from layer V ( Cosenza and Moore , 
+    &apos; 84 ) .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s93"><tracerChemical>WGA - 
+    HRP</tracerChemical> granules were localized in 
+    <labelingDescription>neurons</labelingDescription> throughout 
+    <labelingLocation>layer VI of the ipsilateral visual areas 
+    17</labelingLocation> ( Figs . 4D , 5D ) and 18.</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT"
+     id="s94"><labelingDescription>WGA-HRP-positive 
+    neurons</labelingDescription>, which were also immunoreactive for 
+    Asp (Fig. 1C) or Glu (Fig. lD), were restricted to small and 
+    medium-sized pyramids, but the Asp-immunoreactive neurons 
+    projecting to the dLGN were smaller on average (Table I).</S></TTE>
+
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s95">In a sample of 797 <tracerChemical>WGA - 
+    HRP</tracerChemical> - stained cells in <labelingLocation>layer 
+    VI</labelingLocation> , from <exptLabel>two rats with injections 
+    that spread in both <injectionLocation>the dLGN and 
+    vLGN</injectionLocation></exptLabel> , 60% were also Glu - 
+    immunoreactive ( Table 2 ) .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s96">In a separate sample of 762 
+    corticothalamic neurons from the same animals, 61% contained Asp 
+    (Table 3).</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s97">When counts were made in two 
+    animals with <tracerChemical>WGA - HRP</tracerChemical> injections 
+    restricted to the dLGN , <labelingDescription>the double - labelled 
+    neurons</labelingDescription> were 60% and 62% , respectively 
+    .</S></TTE>
+
+    <BR />
+
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s98"><tracerChemical>WGA - HRP</tracerChemical> injections 
+      in <injectionLocation>the superior colliculus</injectionLocation> 
+      .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s99">WGAHRP injections in <labelingLocation>the SC resulted 
+      in intense labelling of its superficial layers</labelingLocation> 
+      ( Fig . 2A ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s100"><labelingDescription>Retrogradely labelled 
+      cells</labelingDescription> were located primarily in 
+      <labelingLocation>the upper half of layer V of area 
+      17</labelingLocation> ( Figs . 4C , 5C ) as well as the borders 
+      of area 17 with areas 18 and 18a ipsilateral to the injected 
+      hemisphere .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s101"><labelingDescription>WGA-HRPstained 
+      neurons</labelingDescription> that were also immunoreactive for 
+      Glu (Fig. 2B,C) or Asp were medium or large pyramids (Table 
+      1).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s102">The Asp neurons projecting to the SC were on average 
+      larger than the Glu neurons , but the large Meynert cells which 
+      were Asp - immunoreactive ( Dori et al . , &apos; 89 ) 
+      <labelingDescription>were not retrogradely 
+      labelled</labelingDescription> .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s103">In sections processed for both <tracerChemical>WGA - 
+      HRP</tracerChemical> histochemistry and immunohistochemistry for 
+      Glu , <labelingDescription>a total of 634 retrogradely labelled 
+      neurons</labelingDescription> from two animals were counted .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s104">Of these, 46% were also Glu-immunoreactive (Table 
+      2).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s105">In double - labelled sections stained with the 
+      antiserum to Asp , 544 
+      <labelingDescription>neurons</labelingDescription> that project 
+      to the SC were counted , 66% of which were also Asp - positive ( 
+      Table 3 ) .</S>
+    </TTE>
+
+    <BR />
+
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s106"><exptLabel><tracerChemical>WGA - HRP</tracerChemical> 
+      injections in <injectionLocation>the pontine 
+      nuclei</injectionLocation></exptLabel> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s107"><tracerChemical>WGA - HRP</tracerChemical> injections 
+      in <labelingLocation>the pons</labelingLocation> ( P ) resulted 
+      in complete and intense labelling throughout 
+      <injectionLocation>the rostrocaudal extent of the pontine 
+      nuclei</injectionLocation> , with minor diffusion into 
+      <injectionSpread>the neighbouring reticular formation or into the 
+      contralateral side</injectionSpread> ( Fig . 3A ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s108">The <tracerChemical>WGA - HRP</tracerChemical> was 
+      retrogradely transported into cell bodies in 
+      <labelingLocation>area 17</labelingLocation>, ipsilateral to the 
+      injection .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s109">Perikarya filled with <tracerChemical>WGA - 
+      HRP</tracerChemical> were located in <labelingLocation>layer 
+      V</labelingLocation> , almost exclusively in 
+      <labelingLocation>its deeper portion ( Vb ) </labelingLocation>( 
+      Figs . 4B , 5B ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s110"><labelingDescription>Retrogradely labelled 
+      cells</labelingDescription> that were also immunoreactive for Glu 
+      or Asp included <labelingDescription>the largest cortical 
+      neurons</labelingDescription> that were stained with either of 
+      the two antisera , although these were <labelingDescription>very 
+      few in number</labelingDescription> ( Table 1 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s111">The Asp-labelled corticopontine cell population 
+      included the large Meynert cells (Fig. 3B,C) as well as small to 
+      medium-sized neurons located at the border between layers Va and 
+      Vb.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s112">The presence of these small cells reduced the mean 
+      size below that of Glu-immunoreactive neurons (Table 1).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s113">The Glu - immunoreactive projection 
+      <labelingDescription>cells</labelingDescription> were almost 
+      exclusively <labelingDescription>the largest 
+      neurons</labelingDescription> labelled with the Glu antiserum ( 
+      Fig . 3D ) .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s114">In sections processed for <tracerChemical>WGA - 
+      HRP</tracerChemical> histochemistry and immunohistochemistry for 
+      Glu , <labelingDescription>a total of 513 retrogradely labelled 
+      neurons</labelingDescription> was counted .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s115">Of these cells, 216 (42%) were also Glu-immunoreactive 
+      (Table 2), a proportion very similar to that reported in an 
+      earlier study of Glucontaining cortical projection neurons 
+      (Dinopoulos et al., &apos;89).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s116">In sections processed for visualization of both WGAHRP 
+      and Asp - immunoreactivity , <labelingDescription>a total of 667 
+      neurons</labelingDescription> labelled with the retrograde tracer 
+      was counted .</S>
+    </TTE>
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s117">Of these, 337 (51%) were also Asp-immunoreactive (Table 
+    3).</S>
+    <BR />
+
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s118"><exptLabel><tracerChemical>WGA - HRP</tracerChemical> 
+      injections in <injectionLocation>the visual 
+      cortex</injectionLocation></exptLabel> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s119">After WGAHRP injections in <labelingLocation>the 
+      visual cortex</labelingLocation> , staining was observed 
+      throughout <labelingLocation>area 17 but more intensely at the 
+      border regions between area 17 and areas 18 and 
+      18a</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s120"><labelingDescription>Retrogradely labelled 
+      cells</labelingDescription> were observed predominantly in 
+      <labelingLocation>two &quot; columns &quot; around the boundaries 
+      of area 17 and areas 18 and 18a of the contralateral 
+      hemisphere</labelingLocation> , but a substantial number was also 
+      found throughout area 17.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s121">WGA - HRP - <labelingDescription>positive 
+      neurons</labelingDescription> were distributed 
+      <labelingLocation>throughout layers 11 - VI</labelingLocation> ( 
+      Figs . 4A , 5A ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s122">Analysis restricted to <injectionLocation>the border 
+      of area 17 with 18a showed</injectionLocation> that cells with 
+      callosal connections that were also Gluor Asp - immunoreactive 
+      were small or mediumsized pyramidal neurons ( Table 1 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s123">Large cells in <labelingLocation>layer 
+      V</labelingLocation> , which were immunoreactive for Glu or Asp , 
+      <labelingDescription>were not retrogradely 
+      labelled</labelingDescription> .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s124"><labelingDescription>In a sample of 1,165 retrogradely 
+      labelled neurons</labelingDescription> that were counted through 
+      <labelingLocation>layers 11 - VI , 447 ( 38% )</labelingLocation> 
+      were also Glu - positive ( Table 2 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s125">However, this percentage increased to 50% when counts 
+      were restricted to layers 11-111.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s126">In a sample of 952 WGA - HRP - positive neurons 
+      through <labelingLocation>layers 11 - VI , 466 ( 49% 
+      )</labelingLocation> were also Asp - immunoreactive ( Table 3 ) 
+      .</S>
+    </TTE>
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s127">This percentage increased to 51% when layers 11-111 were 
+    considered alone.</S>
+  </Results>
+
+  <Discussion>
+
+    <S avgH="27" class="discussion.heading"
+     format="TimesNewRomanPS-BoldMT" id="s128">DISCUSSION</S>
+    <BR />
+
+    <S avgH="20" class="discussion.body" format="Arial-BoldMT"
+     id="s129">The antisera to Glu and Asp used in the present 
+    investigation have been characterized by immunoblots and 
+    immunoabsorption tests on sections of various parts of the nervous 
+    system including the cerebral cortex.</S>
+    <S avgH="20" class="discussion.body" format="Arial-BoldMT"
+     id="s130">In these tests each antiserum showed a high degree of 
+    specificity for its respective antigen (Conti et al., &apos;87b; 
+    Battaglia and Rustioni, &apos;88; Hepler et al., &apos;88).</S>
+    <S avgH="20" class="discussion.body" format="Arial-BoldMT"
+     id="s131">A number of recently published reports have provided 
+    strong evidence that the antisera used here stain the 
+    neurotransmitter rather than the metabolic pool of individual 
+    neurons: 1) All Gluand the vast majority of Asp-immunoreactive 
+    neurons in the rat visual cortex were identified at the light and 
+    electron microscopic level as pyramidal cells, which reflects 
+    remarkable selectivity of the antisera (Dori et al., &apos;89).</S>
+    <S avgH="20" class="discussion.body" format="Arial-BoldMT"
+     id="s132">This selectivity may be a consequence of the higher rate 
+    of synthesis of the neurotransmitter pool of Glu or Asp when 
+    compared to the metabolic pool (Storm-Mathisen and Ottersen, 
+    &apos;86). 2) The distribution of Gluand Asp-labelled neurons in 
+    various areas of the cerebral cortex (Conti et al., &apos;87a,b; 
+    Dori et al., &apos;89) did not correspond to the pattern of 
+    labelling produced with metabolic markers, e.g., cytochrome oxidase 
+    histochemistry (Conti et al., &apos;87b). 3) Gluand Asp-containing 
+    cells were located in layers that previous indirect methods, such 
+    as the autoradiographic localization of retrogradely transported 
+    D-L3Hl-Asp, have suggested to contain glutamergic or aspartergic 
+    neurons.</S>
+    <S avgH="20" class="discussion.body" format="Arial-BoldMT"
+     id="s133">In addition, Glu-positive neurons were not localized in 
+    layer I, which lacks pyramidal cells (Dori et al., &apos;89). 4) 
+    Gluor Asp-immunoreactive axon terminals in the rat visual cortex 
+    moo 0 a a 0</S>
+    <BR />
+
+    <S avgH="21" class="discussion.subtitle" format="Arial-BoldMT"
+     id="s134">Qo a</S>
+    <BR />
+
+    <S avgH="20" class="discussion.subtitle" format="ArialMT" id="s135">
+    Q o QO a0</S>
+    <BR />
+
+    <S avgH="32" class="discussion.subtitle"
+     format="CourierNewPS-BoldMT" id="s136">e 0 VI a</S>
+    <BR />
+
+    <S avgH="33" class="discussion.subtitle"
+     format="CourierNewPS-BoldMT" id="s137">e o</S>
+    <BR />
+
+    <S avgH="23" class="discussion.subtitle"
+     format="CourierNewPS-ItalicMT" id="s138">8 II o b 0 0 * o</S>
+    <BR />
+
+    <S avgH="23" class="discussion.subtitle"
+     format="CourierNewPS-ItalicMT" id="s139">0 @ o o * o</S>
+    <BR />
+
+    <S avgH="23" class="discussion.subtitle"
+     format="CourierNewPS-ItalicMT" id="s140">o o @ o</S>
+    <BR />
+
+    <S avgH="21" class="discussion.subtitle" format="Arial-BoldMT"
+     id="s141">0 a $ e m</S>
+    <BR />
+
+    <S avgH="23" class="discussion.subtitle"
+     format="CourierNewPS-ItalicMT" id="s142">o o o 0 o o o</S>
+    <BR />
+
+    <S avgH="21" class="discussion.subtitle" format="Arial-ItalicMT"
+     id="s143">0 e o 0</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s144">(Dori et al., &apos;89), cat neocortex (DeFelipe et al., 
+    &apos;88; Conti et al., &apos;89) and rat spinal cord (Weinberg et 
+    al., &apos;87; De Biasi and Rustioni, &apos;88) appeared to engage 
+    only in asymmetrical synapses, which are associated with the 
+    release of an excitatory neurotransmitter.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s145">Previous investigations of the neurotransmitters used by 
+    cortical efferent pathways often employed the autoradiographic 
+    localization of retrogradely transported, radiolabelled 
+    transmitter-related compounds.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s146">The most widely used compound has been C3H1-D-Asp, as 
+    this can act as a false transmitter being selectively taken up by 
+    synaptic terminals that release Glu and/or Asp, without being 
+    readily metabolized after uptake (see Streit, &apos;84).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s147">Therefore, this compound has the advantage of being a 
+    neuronal tracer and a selective neurotransmitter marker.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s148">However, the use of this technique results in labelling 
+    of only a limited number of projection neurons depending on their 
+    high affinity uptake system and, thus, may produce &quot;false 
+    positive&quot; or &quot;false negative&quot; results (see Cuenod et 
+    al., &apos;83).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s149">In addition, this method does not allow one to 
+    distinguish between glutamatergic and aspartergic neurons, as they 
+    share the same high affinity uptake system.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s150">The advantage of WGA-HRP as a neuronal tracer is that it 
+    is nonselectively taken up by terminals and transported 
+    retrogradely to the somata of projection neurons irrespective of 
+    their biochemical properties.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s151">The combination of WGA-HRP histochemistry with 
+    Glu-/Asp-immunohistochemistry used here allows the simultaneous 
+    visualization of the two distinct types of labelling within the 
+    same cell.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s152">The results of the control experiments performed in this 
+    study suggest that the immunohistochemical procedure does not cause 
+    the masking or loss of the WGA-HRP reaction product, and also that 
+    the immunohistochemical reaction product is unaffected by the 
+    preceding WGA-HRP histochemical procedure.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s153">The data presented here demonstrate that both Gluand 
+    Asp-immunoreactive neurons in the rat visual cortex give rise to 
+    afFerents to the dLGN, SC, pontine nuclei, and contralateral visual 
+    cortex, thus confirming and extending results from earlier indirect 
+    studies that proposed a neurotransmitter role for these two amino 
+    acids in the four pathways examined.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s154">These results also suggest that the roles of Glu and Asp 
+    as transmitters are not identical or interchangeable.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s155">Aspartate differs from Glu in that it is additionally 
+    present in a few nonpyramidal cells and that it is occasionally 
+    found in layer I.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s156">Within each pathway the proportions of the two amino 
+    acids differ (Fig. 6), and the consistency of the results from the 
+    individual animals (see Tables 2, 3) suggest that these proportions 
+    are not the consequence of metabolic variations.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s157">The sizes of the two types of cell also vary in that 
+    Asp-immunoreactive neurons projecting to the dLGN and pontine 
+    nuclei tend to be smaller than the corresponding Glu-immunoreactive 
+    cells, whereas those projecting to the SC are larger.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s158">The different neuronal sizes could reflect differing 
+    axonal projections, and thus subtly different functions within the 
+    target site.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s159">This suggests that the two transmitters may indicate two 
+    subclasses of projection neurons that might be distinguishable on 
+    morphological criteria if examined in sufficient detail.</S>
+    <BR />
+
+    <S avgH="28" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s160">cortical projecting to 
+    the dorsal lateral geniculate nucleus</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s161">The present results demonstrate that 60% of neurons in 
+    the rat visual cortex that project to the dLGN were 
+    Glu-immunoreactive, while 61% were Asp-immunoreactive, suggesting 
+    that Glu and Asp are the major neurotransmitters in the 
+    corticogeniculate pathway.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s162">The similarity of percentages of Gluand Asp-labelled 
+    corticothalamic neurons raised the question of whether these two 
+    amino acids are colocalized in the same projection neurons.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s163">This was not examined directly in the present study, but 
+    the issue of coexistence has been investigated by Giuffrida and 
+    Rustioni (&apos;88).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s164">These authors, using the same antisera as those used 
+    here, estimated that in the rat sensorimotor cortex 57-60% of 
+    cortieothalamic neurons were Glu-positive and 56-59% were labelled 
+    for Asp, percentages very similar to the ones presented here.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s165">Furthermore, they demonstrated that in sections 
+    processed with both antisera, the majority of corticothalamic 
+    neurons were either Gluor Asp-immunoreactive, and only a minority 
+    (25%) was positive for both amino acids.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s166">These data are also in agreement with other reports, 
+    suggesting that Glu and Asp are colocalized in a small percentage 
+    of neurons in the somatosensory cortex of the rat (Conti et al., 
+    &apos;87a).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s167">In addition, partial coexistence of the two amino acids 
+    has been reported to occur in other cortical projection systems 
+    examined (Giuffrida and Rustioni, &apos;89a,b).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s168">Indirect evidence from this study that the two amino 
+    acids are localized in largely separate populations comes from the 
+    measurement of neuronal areas.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s169">These measurements have shown that the mean 
+    cross-sectional area for Asp-labelled neurons is 98.3 pm2 and that 
+    for Glu-labelled neurons is 117.9 pm2.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s170">Our results demonstrating the involvement of these two 
+    amino acids in the corticothalamic projection system concur with 
+    experiments in which the visual cortex was ablated in rats.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s171">These studies showed a decrease in the level of the 
+    endogenous L-Glu and in the high affinity uptake of Glu and Asp in 
+    the dLGN (Lund-Karlsen and Fonnum, &apos;78; Fosse and Fonnum, 
+    &apos;87).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s172">Similar results have been obtained in the cat (Young et 
+    al., &apos;81; Fosse et al., &apos;84).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s173">Direct evidence for the involvement of Glu in 
+    corticothalamic projections in the cat comes from a recent 
+    immunogold analysis of corticogeniculate terminals (Montero, 
+    &apos;90).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s174">The present findings also concur with studies in which 
+    injections of the tritiated D-forms of Glu and Asp were made in the 
+    rat dLGN.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s175">Such injections resulted in retrograde labelling of 
+    cells in layer VI of the visual cortex (Baughman and Gilbert, 
+    &apos;81).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s176">The reports from these studies favour Glu as the major 
+    transmitter in these pathways.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s177">However, Glu and Asp share the same high affinity uptake 
+    system and, therefore, a distinction between the two is not 
+    possible.</S>
+    <BR />
+
+    <S avgH="28" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s178">Cortical neurons 
+    projecting to the superior colliculus</S>
+    <BR />
+
+    <S avgH="34" class="discussion.subtitle" format="Arial-BoldMT"
+     id="s179">Earlier studies have established the involvement of both 
+    Glu and Asp in the corticocollicular pathway.</S>
+    <S avgH="34" class="discussion.subtitle" format="Arial-BoldMT"
+     id="s180">A decrease in the level of the endogenous L-Glu and in 
+    the high affinity uptake of Glu and Asp has been measured in the SC 
+    and the dLGN after visual cortex ablations in rats (Lund-Karlsen 
+    and Fonnum, &apos;78; Fosse and Fonnum, &apos;87).</S>
+    <S avgH="34" class="discussion.subtitle" format="Arial-BoldMT"
+     id="s181">Although in one study retrograde labelling was not 
+    observed in the visual cortex after injecting D-[3H]-Asp in the SC 
+    (Baughman and Gilbert, &apos;81), a more recent report (Matute and 
+    Streit, &apos;85) found retrogradely labelled cells in layer V of 
+    the visual cortex of the rat, cat, and rabbit following injections 
+    of the tritiated D-forms of Glu and Asp in the SC.</S>
+    <S avgH="34" class="discussion.subtitle" format="Arial-BoldMT"
+     id="s182">This discrepancy may be due to the different fixatives 
+    used in these two studies (see Matute and Streit, &apos;85).</S>
+    <S avgH="34" class="discussion.subtitle" format="Arial-BoldMT"
+     id="s183">The present estimation of the proportions of 
+    corticocollicular neurons that were d</S>
+    <BR />
+
+    <S avgH="34" class="discussion.subtitle" format="Arial-BoldMT"
+     id="s184">LGN</S>
+    <BR />
+
+    <S avgH="43" class="discussion.subtitle" format="ArialMT" id="s185">
+    sc</S>
+    <BR />
+
+    <S avgH="33" class="discussion.subtitle" format="Arial-BoldMT"
+     id="s186">- 6111 4 2 7 o - A ~ ~ 51%</S>
+    <BR />
+
+    <S avgH="33" class="discussion.subtitle" format="Arial-BoldMT"
+     id="s187">L GIu 3 f i Y o - A ~ ~ 49% c v c</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s188">also immunoreactive for Glu (46%) or Asp (66%) leads to 
+    the suggestion that Asp may be a more important neurotransmitter in 
+    this corticofugal system than Glu, and that Glu and Asp may be 
+    colocalized in a small proportion of these projection neurons.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s189">With respect to their morphology it has been shown that 
+    corticocollicular neurons are long pyramids, i.e., their apical 
+    dendrites extend all the way to layer I and that they are 
+    predominantly found in the upper part of layer V (Schofield et al., 
+    &apos;87).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s190">The present study also demonstrates that 
+    corticocollicular neurons that contain Glu or Asp are large or 
+    medium-sized pyramidal cells, mainly located in the upper stratum 
+    of layer V of the visual cortex.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s191">However, since the reaction product is confined to the 
+    perikarya and proximal dendrites, the morphological detail of the 
+    labelled neurons was not sufficient to confirm the observations of 
+    Schofield et al. (&apos;871, which were based on a study of 
+    retrogradely or intracellularly stained corticocollicular neurons 
+    in the visual cortex of the rat.</S>
+    <BR />
+
+    <S avgH="27" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s192">Cortical neurons 
+    projecting to the pontine nuclei</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s193">The role of Glu or Asp as neurotransmitters in the 
+    corticopontine pathway of the rat was first suggested following the 
+    demonstration of high affinity uptake of Glu and Asp by synaptic 
+    terminals of corticopontine fibers (Thangnipon et al., &apos;80), 
+    and a Ca2+-dependent K+-evoked release of [3H]-D-Asp from these 
+    terminals (Thangnipon and Storm-Mathisen, &apos;81).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s194">Transection of the fibers in the crus cerebri resulted 
+    in a severe reduction of high affinity uptake for radiolabelled Glu 
+    and Asp in the pontine nuclei (Thangnipon and Storm-Mathisen, 
+    &apos;81; Thangnipon et al., &apos;83).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s195">Forty-two percent of corticopontine neurons counted here 
+    were Gluand 51% were Asp-immunoreactive.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s196">This suggests that Asp and Glu may be the major 
+    excitatory amino acid transmitters in the corticopontine pathway, 
+    with Asp being a more common candidate.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s197">However, the percentages of immunoreactive projection 
+    neurons suggest that these two are not the only transmitters used 
+    by corticopontine neurons.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s198">Similar double labelling studies in other corticofugal 
+    systems have shown that a number of cortical projection neurons 
+    remains unlabelled in sections incubated in a mixture of antisera 
+    for both Asp and Glu (Giuffrida and Rustioni, &apos;88, 
+    &apos;89b).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s199">This study concurs with the earlier retrograde tracing 
+    study of Wiesendanger and Wiesendanger (&apos;82) that 
+    corticopontine neurons are located almost exclusively in the deeper 
+    portion of layer V in rat visual cortex, but disagrees with a later 
+    report that finds them in the upper middle part of layer V (Hallman 
+    et al., &apos;88).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s200">These authors also find that corticpontine neurons share 
+    many morphological features with corticocollicular neurons, whereas 
+    the present study concludes that each projection system has its own 
+    morphology and intralaminar distribution in addition to a 
+    characteristic transmitter proportion (Fig. 6).</S>
+    <BR />
+
+    <S avgH="27" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s201">Cortical neurons 
+    projecting to the contralateral visual cortex</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s202">Although the amino acid-containing neurons that give 
+    rise to callosal connections are distributed throughout layers 
+    11-VI, analysis suggests that they are more concentrated in the 
+    supragranular layers.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s203">In addition, quantitative evidence is provided in favour 
+    of Asp as a major transmitter in this projection system.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s204">These results conflict somewhat with estimates from 
+    similar studies in the sensorimotor cortex of rats (Giuffrida and 
+    Rustioni, &apos;89a).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s205">These authors reported that the percentages of 
+    association and callosal neurons in the primary motor and the 
+    somatosensory cortex that are immunoreactive for Glu are similar to 
+    those labelled for Asp.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s206">The discrepancies in the relative proportions of Gluand 
+    Asp-immunoreactive callosal neurons may be due to the different 
+    cortical areas examined.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s207">The same authors also examined the possible coexistence 
+    of Glu and Asp in corticocortical projection neurons by incubating 
+    sections in a mixture of the two antisera.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s208">Their findings suggested that callosal and association 
+    neurons are either glutamatergic or aspartergic, and only a small 
+    proportion of them are immunoreactive for both amino acids.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s209">Other investigators have concluded that Glu and not Asp 
+    is the main transmitter of corticocortical neurons in the cat, as 
+    the former amino acid was immunohistochemically localized in 50-73% 
+    of these neurons (Conti et al., &apos;88).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s210">Although this may indeed be the case for the 
+    corticocortical system in the cat somatosensory cortex, it should 
+    be noted that in their study the proportions of putative 
+    aspartergic projection neurons in the corticocortical system were 
+    not investigated.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s211">Considered together, the present results provide 
+    numerical evidence in favour of Asp as the neurotransmitter used 
+    most commonly by neurons in the visual cortex that project to the 
+    dLGN, SC, P, and contralateral visual cortex (Fig. 6).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s212">Although evidence to support a transmitter role for Asp 
+    has been less compelling than for Glu, it has been generally 
+    considered as an excitatory neurotransmitter used by various 
+    cortical efferent systems (see Fagg and Foster, &apos;83; Streit, 
+    &apos;84; Hicks, &apos;87, for reviews).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s213">The present results also demonstrate that the 
+    proportions of Gluand Asp-immunoreactive neurons in each projection 
+    system examined vary among callosal and different corticofugal 
+    systems.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s214">This is in accordance with previous reports in other 
+    corticofugal systems (Dinopoulos et al., &apos;89, &apos;91; 
+    Giuffrida and Rustioni, &apos;89a,b).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s215">In addition to the neurochemical heterogeneity among 
+    cortical projection neurons, this study also demonstrates a 
+    morphological heterogeneity among Gluand Asp-labelled cells 
+    projecting to subcortical and cortical sites.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s216">This morphological heterogeneity reflects differences in 
+    sizes of projection neurons, as well as in their cytological 
+    features.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s217">For example, the Meynert cells in layer V, which are the 
+    largest cells in the visual cortex with a distinct cytology, are 
+    exclusively Asp-immunoreactive (Dori et al., &apos;89) and project 
+    to the pontine nuclei, but not to the SC or the contralateral 
+    visual cortex.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s218">The chemical and morphological heterogeneity between 
+    excitatory amino acid systems reported here is consistent with the 
+    functional heterogeneity of these systems at the level of receptors 
+    and physiological response (Ascher and Nowak, &apos;87; MacDermott 
+    and Dale, &apos;87).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s219">At present, only limited 
+    information is available on other putative neurotransmitters used 
+    by cortical efferent pathways.</S>
+    <S avgH="22" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s220">There is evidence that 
+    some cortical projection neurons may use the dipeptide 
+    N-acetyl-aspartyl-glutamate (NAAG) as a transmitter (Tieman et al., 
+    &apos;87).</S>
+    <S avgH="22" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s221">Other candidates include 
+    the sulfur-containing amino acids (SCAAs).</S>
+    <S avgH="22" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s222">It has been shown that 
+    these substances exert strong excitatory effects on mammalian 
+    neurons (Curtis and Watkins, &apos;63; Mewett et al., &apos;83).</S>
+    <S avgH="22" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s223">In addition, a 
+    K+-evoked, Ca2+dependent release of SCAAs has been demonstrated in 
+    the rat neocortex (Do et al., &apos;86).</S>
+    <S avgH="22" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s224">Most recently a study 
+    combining in situ hybridization with retrograde tracing using 
+    flurogold has demonstrated neurons in the rat cerebral cortex that 
+    express the gene for cholecystokinin and project extensively to the 
+    striatum and to some extent to the thalamus (Burgunder and Young, 
+    &apos;90).</S>
+  </Discussion>
+
+  <Acknowledgements>
+
+    <S avgH="28" class="acknowledgements.heading"
+     format="TimesNewRomanPS-BoldMT" id="s225">ACKNOWLEDGMENTS</S>
+    <BR />
+
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPS-BoldMT" id="s226">We are grateful to 
+    Dr.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPS-BoldMT" id="s227">A.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPS-BoldMT" id="s228">Rustioni for the gift of 
+    the antiglutamate and antiaspartate antisera.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPS-BoldMT" id="s229">The work was supported 
+    by the Medical Research Council.</S>
+  </Acknowledgements>
+
+  <References>
+
+    <S avgH="28" class="references.heading"
+     format="TimesNewRomanPS-BoldMT" id="s230">LITERATURE CITED</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s231">Ascher, P., and L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s232">Nowak (1987) Electrophysiological studies receptors.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s233">Trends Neurosci. 1Or284-288.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s234">Battaglia, G., and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s235">Rustioni (1988) Co-existence of glutamate and substance 
+    P in dorsal root ganglion neurons of the rat and monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s236">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s237">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s238">Neurol. 278:302-3 12.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s239">Baughman, R.W., and C.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s240">Gilbert (1981) Aspartate and glutamate as possible 
+    neurotransmitters in the visual cortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s241">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s242">Neurosci. 1:427439.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s243">Burgunder, J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s244">-M., and W.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s245">Young, 111 (1990) Cortical neurons expressing the 
+    cholecystokinin gene in the rat: Distribution in the adult brain, 
+    ontogeny, and some of their projections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s246">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s247">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s248">Neurol. 300r26-46.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s249">Campistron, G., R.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s250">Buijs, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s251">Geffard (1986) Specific antibodies against aspartate and 
+    their immunocytochemical application in the rat brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s252">Brain Res. 365r179-184.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s253">Conti, F., J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s254">DeFelipe, I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s255">Faririas, and T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s256">Manzoni (1989) Glutamate-positive neurons and axon 
+    terminals in cat sensory cortex: A correlative light and electron 
+    microscopic study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s257">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s258">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s259">Neurol. 290:141-153.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s260">Conti, F., M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s261">Fabri, and T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s262">Manzoni (1988) Glutamate-positive corticocortical 
+    neurons in the somatic sensory areas I and I1 of cats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s263">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s264">Neurosci. 8:294a2960.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s265">Conti, F., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s266">Rustioni, and P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s267">Petrusz (1987a) Co-localization of glutamate and 
+    aspartate immunoreactivity in neurons of the rat somatic sensory 
+    cortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s268">In T.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s269">Hicks, D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s270">Lodge, and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s271">McLennan (eds): Excitatory Amino Acid Transmission.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s272">New York: Alan R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s273">Liss, pp. 169-172.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s274">Conti, F., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s275">Rustioni, P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s276">Petrusz, and A.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s277">Towle 61987b) Glutamatepositive neurons in the somatic 
+    sensory cortex of rats and monkeys.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s278">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s279">Neurosci. 7r1887-1901.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s280">Cosenza, R.M., and R.Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s281">Moore (1984) Afferent connections of the ventral lateral 
+    geniculate nucleus in the rat: An HRP study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s282">Brain Res. 310:367-370.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s283">Cuenod, M., P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s284">Bagnoli, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s285">Beaudet, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s286">Rustioni, L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s287">Wicklund, and P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s288">Streit (1983) Transmitter-specific retrograde labelling 
+    of neurons.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s289">In V.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s290">ChanPalay and S.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s291">Palay (eds): Cytochemical Methods in Neuroanatomy.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s292">New York: Alan R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s293">Liss, pp. 1744.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s294">Curtis, D.R., and J.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s295">Watkins (1963) Acidic amino acids with strong excitatory 
+    actions on mammalian neurones.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s296">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s297">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s298">(Lond.) 166rl14.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s299">Biasi, S., and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s300">Rustioni (1988) Glutamate and substance P coexist in 
+    primary afferent terminals in the superficial laminae of spinal 
+    cord.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s301">Proc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s302">Natl.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s303">Acad.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s304">Sci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s305">USA 85:7820-7824.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s306">DeFelipe, J., F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s307">Conti, S.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s308">Van Eyck, and T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s309">Manzoni (1988) Demonstration of glutamate-positive axon 
+    terminals forming asymmetric synapses in cat neocortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s310">Brain Res. 455162-165.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s311">Dinopoulos, A,, I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s312">Dori, S.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s313">Davies, and J.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s314">Parnavelas (1989) Neurochemical heterogeneity among 
+    corticofugal and callosal projections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s315">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s316">Neurol. 105:3&amp;amp;44.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s317">Dinopoulos, A., I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s318">Dori, and J.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s319">Parnavelas (1991) Immunohistochemical localization of 
+    aspartate in corticofugal pathways.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s320">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s321">Lett. 121:2528.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s322">K.Q., M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s323">Mattenberger, P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s324">Streit, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s325">Cuenod (1986) In vitro release of endogenous excitatory 
+    sulfur-containing amino acids from various rat brain regions.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s326">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s327">Neurochem. 46:779-786.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s328">Don, I., M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s329">Petrou, and J.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s330">Parnavelas (1989) Excitatory transmitter amino 
+    acid-containing neurons in the rat visual cortex: A light and 
+    electron microscopic immunocytochemical study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s331">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s332">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s333">Neurol. 290: 169-184.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s334">Fagg, G.E., and A.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s335">Foster (1983) Amino acid neurotransmitters and their 
+    pathways in the mammalian central nervous system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s336">Neuroscience 9:701-719.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s337">Fosse, V.M., and F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s338">Fonnum (1987) Biochemical evidence for glutamate and/or 
+    aspartate as neurotransmitters in fibers from the visual cortex to 
+    the lateral posterior thalamic nucleus (pulvinar) in rats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s339">Brain Res.</S>
+    <BR />
+
+    <S avgH="18" class="references.body" format="TimesNewRomanPS-BoldMT"
+     id="s340">400:219-224.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s341">Fosse, V.M., P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s342">Heggelund, E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s343">Iversen, and F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s344">Fonnum (1984) Effects of area 17 ablation on 
+    neurotransmitter parameters in efferents in area 18, the lateral 
+    geniculate body, pulvinar and superior colliculus in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s345">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s346">Lett. 52:323-328.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s347">Giuffrida, R., and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s348">Rustioni (1988) Glutamate and aspartate immunoreactivity 
+    in corticothalamic neurons of rats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s349">In M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s350">Bentivoglio and R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s351">Spreafico (eds): Cellular Thalamic Mechanisms.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s352">Amsterdam: Elsevier, pp. 311-320.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s353">Giuffrida, R., and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s354">Rustioni (1989a) Glutamate and aspartate 
+    immunoreactivity in cortico-cortical neurons of the sensorimotor 
+    cortex of rats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s355">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s356">Brain Res. 74:4146.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s357">Giuffrida, R., and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s358">Rustioni (1989b) Glutamate and aspartate 
+    immunoreactivity in corticospinal neurons of rats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s359">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s360">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s361">Neurol. 288:154-164.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s362">Hallman, L.E., B.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s363">Schofield, and C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s364">-S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s365">Lin (1988) Dendritic morphology and axon collaterals of 
+    corticotectal, corticopontine, and callosal neurons in layer V of 
+    primary visual cortex of the hooded rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s366">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s367">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s368">Neurol. 272: 149-160.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s369">Hepler, J.R., C.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s370">Toomin, K.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s371">McCarthy, F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s372">Conti, G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s373">Battaglia, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s374">Rustioni, and P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s375">Petrusz (1988) Characterization of antisera to glutamate 
+    and aspartate.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s376">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s377">Histochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s378">Cytochem. 36:13-22.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s379">Hess, R., and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s380">Murata (1974) Effects of glutamate and GABA on specific 
+    response properties of neurones in the visual cortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s381">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s382">Brain Res.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s383">21:285-297.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s384">Hicks, T.P. (1987) Excitatory amino acid pathways in 
+    cerebral cortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s385">In T.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s386">Hicks, D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s387">Lodge, and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s388">McLennan (eds): Neurology and Neurobiology, Vol. 24: 
+    Excitatory Amino Acid Transmission.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s389">New York: Alan R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s390">Liss, pp. 373-380.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s391">Horn, A.K.E., and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s392">-P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s393">Hoffman (1987) Combined GABA-immunocytochemistry and 
+    TMB-HRP histochemistry of pretectal nuclei projecting to the 
+    inferior olive in rats, cats and monkeys.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s394">Brain Res. 409:133-138.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s395">Kmjevic, K., and J.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s396">Phillis (1963) Iontophoretic studies of neurones in the 
+    mammalian cerebral cortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s397">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s398">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s399">(Lond.) 165274-304.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s400">Legg, C.R., B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s401">Mercier, B., and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s402">Glickstein (1989) Corticopontine projection in the rat: 
+    The distribution of labelled cortical cells after large injections 
+    of horseradish peroxidase in the pontine nuclei.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s403">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s404">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s405">Neurol. 286:427441.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s406">Lund-Karlsen, R., and F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s407">Fonnum (1978) Evidence for glutamate as a 
+    neurotransmitter in the corticofugal fibres to the dorsal lateral 
+    geniculate body and the superior colliculus in rats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s408">Brain Res. 151:457-467.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s409">MacDermott, A.B., and N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s410">Dale (1987) Receptors, ion channels and synaptic 
+    potentials underlying the integrative actions of excitatory amino 
+    acids.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s411">Trends Neurosci. 10:280-284.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s412">Madl, J.E., A.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s413">Beitz, R.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s414">Johnson, and A.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s415">Larson (1987) Monoclonal antibodies specific for 
+    fixative-modified aspartate: Immunocytochemical localization in the 
+    rat CNS.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s416">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s417">Neurosci. 73639-2650.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s418">Madl, J.E., A.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s419">Larson, and A.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s420">Beitz (1986) Monoclonal antibody specific for 
+    carbodiimide-fixed glutamate: Immunocytochemical localization in 
+    the rat CNS.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s421">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s422">Histochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s423">Cytochem. 34:317-326.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s424">Matute, C., and P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s425">Streit (1985) Selective retrograde labelling with 
+    D-f3H1aspartate in afferents to the mammalian superior 
+    collicullus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s426">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s427">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s428">Neurol. 241r34-49.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s429">Mewett, K.N., D.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s430">Oakes, H.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s431">Olverman, D.A.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s432">Smith, and J.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s433">Watkins (1983) Pharmacology of the excitatory actions of 
+    sulfonic and sulfinic amino acids.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s434">In P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s435">Mandel and F.V.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s436">Defeudis (eds): CNS ReceptorsFrom Molecular Pharmacology 
+    to Behaviour.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s437">New York: Raven Press, pp. 163-174.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s438">Miller, M.W., and B.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s439">Vogt (1984) Heterotopic and homotopic callosal 
+    connections in rat visual cortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s440">Brain Res. 297:75-89.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s441">Montero, V.M. (1990) Quantitative immunogold analysis 
+    reveals high glutamate levels in synaptic terminals of 
+    retino-geniculate, corticogeniculate, and geniculo-cortical axons 
+    in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s442">Visual Neurosci.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s443">4:437443.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s444">Olavarria, J., and R.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s445">Van Sluyters (1985) Organization and postnatal 
+    development of callosal connections in the visual cortex of the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s446">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s447">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s448">Neurol. 239:l-26.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s449">Ottersen, O.P., and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s450">Storm-Mathisen (1984a) Neurons containing or 
+    accumulating transmitter amino acids.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s451">In A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s452">Bjorklund, T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s453">Hokfelt, and M.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s454">Kuhar (eds): Handbook of Chemical Neuroanatomy, Vol. 3: 
+    Classical Transmitters and Transmitter Receptors in the CNS, Part 
+    11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s455">Amsterdam: Elsevier, pp. 141-246.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s456">Ottersen, O.P., and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s457">Storm-Mathisen (1984b) Glutamateand GABAcontaining 
+    neurons in the mouse and rat brain, as demonstrated with a new 
+    immunocytochemical technique.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s458">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s459">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s460">Neurol. 229:374-392.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s461">Paxinos, G., and C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s462">Watson (1986) The Rat Brain in Stereotaxic 
+    Coordinates.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s463">Sydney: Academic Press.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s464">Schofield, B.R., L.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s465">Hallman, and C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s466">-S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s467">Lin (1987) Morphology of corticotectal cells in the 
+    primary visual cortex of hooded rats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s468">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s469">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s470">Neurol.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s471">261:85-97.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s472">Sefton, A.J., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s473">Mackay-Sim, L.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s474">Baur, and L.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s475">Cottee (1981) Cortical projections to visual centres in 
+    the rat: An HRP study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s476">Brain Res. 21 5: 1-13.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s477">Spencer, H.J. (1976) Antagonism of cortical excitation 
+    of striatal neurons by glutamic acid diethylester: Evidence for 
+    glutamic acid as an excitatory transmitter in the rat striatum.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s478">Brain Res. 102:91-101.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s479">Stone, T.W. (1976) Blockade by amino acid antagonists of 
+    neuronal excitation mediated by the pyramidal tract.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s480">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s481">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s482">(Lond.) 257:187-198.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s483">Stone, T.W. (1979) Amino acids as neurotransmitters of 
+    corticofugal neurones in the rat: A comparison of glutamate and 
+    aspartate.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s484">Br.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s485">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s486">Pharmacol. 67:454-551.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s487">Storm-Mathisen, J., A.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s488">Leknes, A.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s489">Bore, J.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s490">Vaaland, P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s491">Edminson, F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s492">-M.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s493">Haug, and O.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s494">Ottersen (1983) First visualization of glutamate and 
+    GABA in neurones by immunocytochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s495">Nature 301:517-520.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s496">Storm-Mathisen, J., and O.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s497">Ottersen (1986) Antibodies against amino acid 
+    neurotransmitters.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s498">In P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s499">Panula, H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s500">Paivarinta, and S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s501">Soinila (eds): Neurohistochemistry: Modern Methods and 
+    Applications.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s502">New York Alan R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s503">Liss, pp. 107-136.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s504">Streit, P. (1984) Glutamate and aspartate as transmitter 
+    candidates for systems of the cerebral cortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s505">In E.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s506">Jones and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s507">Peters (eds): Cerebral Cortex, Vol. 2: Functional 
+    Properties of Cortical Cells.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s508">New York: Plenum Press, pp. 119-143.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s509">Thangnipon, W., P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s510">Brodal, and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s511">Storm-Mathisen (1980) High affinityuptake of glutamate 
+    in terminals of the corticopontine pathways.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s512">Acta Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s513">Scand. 109:29a.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s514">Thangnipon, W., and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s515">Storm-Mathisen (1981) K+-evoked Ca -dependent release of 
+    D-VH1-aspartate from terminals of the cortico-pontine pathway.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s516">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s517">Lett. 23:181-186.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s518">Thangnipon, W., T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s519">Taxt, P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s520">Brodal, and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s521">Storm-Mathisen (1983) The corticopontine projection: 
+    Axotomy-induced loss of high afmity L-glutamate and D-aspartate 
+    uptake, but not of y-aminobutyrate uptake, glutamate decarboxylase 
+    or choline acetyltransferase, in the pontine nuclei.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s522">Neuroscience 8:449-457.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s523">Tieman, S.B., C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s524">Cangro, and J.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s525">Neale (1987) N-acetylaspartylglutamate immunoreactivity 
+    in neurons of cat s visual system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s526">Brain Res.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s527">420:188-193.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s528">Weinberg, R.J., F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s529">Conti, S.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s530">Van Eyck, P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s531">Petrusz, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s532">Rustioni (1987) Glutamate immunoreactivity in 
+    superficial laminae of rat dorsal horn and spinal trigeminal 
+    nucleus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s533">In T.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s534">Hicks, D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s535">Lodge, and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s536">McLennan (eds): Neurology and Neurobiology, Vol. 24: 
+    Excitatory Amino Acid Transmission.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s537">NewYork: Alan R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s538">Liss, pp. 173-176.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s539">Wiesendanger, R., and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s540">Wiesendanger (1982) The corticopontine system in the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s541">I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s542">Mapping of corticopontine neurons.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s543">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s544">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s545">Neurol.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s546">208:215-226.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s547">Young, A.B., M.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s548">Bromberg, and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s549">Penney, Jr. (1981) Decreased glutamate uptake in 
+    subcortical areas deafferented by sensorimotor cortical ahlation in 
+    the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s550">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s551">Neurosci. 1:241-249.</S>
+  </References>
+
+</File>
+

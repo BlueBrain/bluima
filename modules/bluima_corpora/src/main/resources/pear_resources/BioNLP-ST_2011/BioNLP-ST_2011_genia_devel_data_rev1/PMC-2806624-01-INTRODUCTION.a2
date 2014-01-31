@@ -1,0 +1,50 @@
+*	Equiv T1 T2 T3
+*	Equiv T23 T26 T24 T25
+*	Equiv T27 T29 T30 T28
+T55	Gene_expression 40 50	expressing
+T56	Gene_expression 395 405	expression
+T57	Regulation 931 941	regulation
+T58	Negative_regulation 1374 1382	inhibits
+T59	Gene_expression 1389 1399	expression
+T60	Binding 1429 1434	binds
+T61	Entity 1448 1456	promoter
+T62	Negative_regulation 1465 1472	repress
+T63	Positive_regulation 1483 1499	trans-activation
+T64	Negative_regulation 1641 1647	oppose
+T65	Positive_regulation 1659 1668	induction
+T66	Positive_regulation 1733 1742	dependent
+T67	Gene_expression 1883 1893	expression
+T68	Binding 3418 3432	heterodimerize
+T69	Binding 3683 3690	binding
+T70	Binding 4080 4091	interaction
+T71	Regulation 4127 4133	impact
+T72	Gene_expression 4160 4170	expression
+T73	Positive_regulation 4291 4298	induced
+E1	Gene_expression:T55 Theme:T1
+E2	Gene_expression:T56 Theme:T4
+E3	Regulation:T57 Theme:T6
+E4	Negative_regulation:T58 Theme:E5 Cause:T8
+E5	Gene_expression:T59 Theme:T9
+E6	Binding:T60 Theme:T10 Theme2:T11 Site2:T61
+E7	Negative_regulation:T62 Theme:E8 Cause:E6
+E8	Positive_regulation:T63 Theme:T12
+E9	Negative_regulation:T64 Theme:E10 Cause:T13
+E11	Negative_regulation:T64 Theme:E10 Cause:T14
+E10	Positive_regulation:T65 Theme:T15
+E12	Positive_regulation:T66 Theme:E9 Cause:T16
+E13	Positive_regulation:T66 Theme:E9 Cause:T17
+E14	Positive_regulation:T66 Theme:E9 Cause:T18
+E15	Positive_regulation:T66 Theme:E11 Cause:T16
+E16	Positive_regulation:T66 Theme:E11 Cause:T17
+E17	Positive_regulation:T66 Theme:E11 Cause:T18
+E18	Gene_expression:T67 Theme:T19
+E19	Binding:T68 Theme:T41
+E20	Binding:T69 Theme:T43
+E21	Binding:T70 Theme:T46 Theme2:T47
+E22	Regulation:T71 Theme:E23 Cause:T48
+E24	Regulation:T71 Theme:E23 Cause:T49
+E23	Gene_expression:T72 Theme:T50
+E25	Positive_regulation:T73 Theme:T51 Cause:T53
+E26	Positive_regulation:T73 Theme:T52 Cause:T53
+M1	Speculation E22
+M2	Speculation E24

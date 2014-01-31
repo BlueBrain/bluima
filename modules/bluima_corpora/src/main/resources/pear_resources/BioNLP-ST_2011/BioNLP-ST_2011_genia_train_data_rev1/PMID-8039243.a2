@@ -1,0 +1,18 @@
+*	Equiv T3 T4
+*	Equiv T5 T6
+T8	Localization 93 102	secretion
+T9	Positive_regulation 1132 1139	induced
+T10	Localization 1144 1154	appearance
+T11	Positive_regulation 1144 1154	appearance
+T12	Entity 1270 1277	nucleus
+T13	Localization 1409 1418	secretion
+E1	Localization:T8 Theme:T1
+E2	Positive_regulation:T9 Theme:E6
+E3	Positive_regulation:T9 Theme:E8
+E4	Positive_regulation:T9 Theme:E9
+E5	Positive_regulation:T9 Theme:E7
+E6	Localization:T10 Theme:T5 AtLoc:T12
+E7	Localization:T10 Theme:T3 AtLoc:T12
+E8	Positive_regulation:T11 Theme:T2
+E9	Localization:T10 Theme:T2 AtLoc:T12
+E10	Localization:T13 Theme:T7

@@ -1,0 +1,16 @@
+identifies UMLS metathesaurus terms in text, is
+generally used as the gold standard for evaluating
+these tools. Our choice for Mgrep was made based on
+criteria for flexibility, speed and scalability as
+described before. Note that CONANN is very similar
+to OBA and is also available online. CONNAN aims
+to identify the best possible matches, whereas Mgrep
+in the OBA identifies the greatest number of
+concepts. Plus, CONANN uses term frequency to
+filter results. However, CONNAN is limited to
+UMLS and does not perform any semantic expansion
+step. Indeed, the knowledge contained in ontologies
+is rarely used to expand annotations, which gives to
+OBA a significant advantage. Note that the use of
+ontology semantics to enhance search is an active
+area of research.[5,,18]

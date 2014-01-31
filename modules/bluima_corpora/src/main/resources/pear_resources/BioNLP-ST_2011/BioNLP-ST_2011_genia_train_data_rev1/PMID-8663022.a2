@@ -1,0 +1,28 @@
+*	Equiv T1 T2
+*	Equiv T4 T3
+*	Equiv T12 T13 T14
+*	Equiv T15 T16 T17
+T20	Positive_regulation 50 58	activate
+T21	Entity 83 91	promoter
+T22	Gene_expression 174 183	expressed
+T23	Entity 512 520	promoter
+T24	Positive_regulation 610 619	activates
+T25	Binding 795 799	bind
+T26	Gene_expression 1149 1158	expressed
+T27	Positive_regulation 1226 1239	transactivate
+T28	Entity 1249 1257	promoter
+T29	Positive_regulation 1327 1338	responsible
+T30	Gene_expression 1363 1373	expression
+T31	Positive_regulation 1382 1390	mediated
+E1	Positive_regulation:T20 Theme:T1 Site:T21
+E2	Gene_expression:T22 Theme:T4
+E3	Positive_regulation:T24 Theme:T5 Cause:T6 Site:T23
+E4	Binding:T25 Theme:T8
+E5	Binding:T25 Theme:T9
+E6	Gene_expression:T26 Theme:T12
+E7	Positive_regulation:T27 Theme:T18 Cause:T15 Site:T28
+E8	Positive_regulation:T29 Theme:E10 Cause:T15
+E9	Gene_expression:T30 Theme:T19
+E10	Positive_regulation:T31 Theme:E9
+M1	Negation E6
+M2	Speculation E8

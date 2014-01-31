@@ -1,0 +1,42 @@
+Roughly speaking, the goal of the BioNLP shared task
+is to extract biological events from literature, given their
+raw text and protein annotations. The BioNLP shared
+task defines “txt”, “a1” and “a2” formats for this event
+extraction task. A “txt” format file contains raw text of a
+biomedical paper, while the corresponding “a1” format
+file includes protein named entity boundaries annotated
+on that paper. Participants of the shared task were
+required to submit “a2” format files, which define
+extracted events and may refer to protein annotations in
+the corresponding “a1” files. In the shared task evaluation, submitted “a2” files were compared with the gold
+standard “a2” files which were manually annotated by
+human curators.
+Our services are interoperable with other UIMA/U-Compare services, which allow users to create customized
+workflows easily. UIMA, Unstructured Information Management Architecture, is an interoperability framework for
+unstructured information in general. UIMA is provided as
+an Apache open source project and is widely used in the
+NLP domain. A UIMA component can either be a local
+service or a web service, and both types can be freely
+mixed to create a UIMA workflow.
+U-Compare provides a broad range of UIMA compliant
+components including BioNLP components such as protein taggers and annotated corpus readers. Compatibility
+of these components is guaranteed by sharing data type
+definitions. U-Compare also provides a UIMA compliant
+integrated NLP platform. The U-Compare platform provides direct access to the U-Compare components, where
+local components are automatically downloaded and executed on demand. A local component has the advantage
+of portability although users are required to install the original tool in case of a non-Java implementation. On the
+other hand, a web service component can have limitations
+in its computational capacities. The U-Compare platform
+allows easy workflow creation from these components or
+any third party UIMA components. Additionally, U-Compare provides a comparison and evaluation feature implemented in a UIMA compliant way [8]. U-Compare shows
+the results of workflow runs both statistically and visually.
+All of these features are available without any programming necessity.
+We have integrated the bio-event meta-service, which
+we describe in this paper, to the U-Compare platform.
+This integration could accelerate developments of text
+mining in the bioinformatics area. The most straightforward usage of our system would be to combine a few text
+mining tools and run the resulting pipeline on any text
+relevant to a specific biological use-case. Our system
+makes such a usage dramatically easier compared with the
+existing systems.
+While our ready-to-use services themselves are very useful especially for the end users of text mining, comparison

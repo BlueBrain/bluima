@@ -1,0 +1,13 @@
+T7	Binding 452 456	bind
+T8	Regulation 656 662	affect
+T9	Binding 669 676	binding
+T10	Binding 765 769	bind
+T11	Entity 842 850	enhancer
+E1	Binding:T7 Theme:T1
+E2	Binding:T7 Theme:T2
+E3	Regulation:T8 Theme:E6
+E4	Regulation:T8 Theme:E5
+E5	Binding:T9 Theme:T2
+E6	Binding:T9 Theme:T1
+E7	Binding:T10 Theme:T4 Theme2:T5 Site2:T11
+E8	Binding:T10 Theme:T3 Theme2:T5 Site2:T11

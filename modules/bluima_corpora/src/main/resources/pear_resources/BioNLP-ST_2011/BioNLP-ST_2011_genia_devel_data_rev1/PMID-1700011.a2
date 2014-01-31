@@ -1,0 +1,19 @@
+T10	Binding 801 808	complex
+T11	Gene_expression 850 855	exist
+T12	Binding 873 877	form
+T13	Binding 882 886	bind
+T14	Negative_regulation 989 999	repression
+T15	Gene_expression 1012 1022	expression
+E1	Binding:T10 Theme:T3 Theme2:T4
+E2	Gene_expression:T11 Theme:T6
+E3	Gene_expression:T11 Theme:T5
+E4	Binding:T12 Theme:T5 Theme2:T6
+E5	Binding:T13 Theme:T5
+E6	Binding:T13 Theme:T6
+E7	Negative_regulation:T14 Theme:E9 Cause:T8
+E8	Negative_regulation:T14 Theme:E9 Cause:T7
+E9	Gene_expression:T15 Theme:T9
+M1	Negation E2
+M2	Negation E3
+M3	Speculation E7
+M4	Speculation E8

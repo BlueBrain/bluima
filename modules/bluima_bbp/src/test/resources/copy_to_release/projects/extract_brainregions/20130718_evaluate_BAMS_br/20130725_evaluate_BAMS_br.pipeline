@@ -1,0 +1,40 @@
+########################################################################################
+#
+# extracts BR with !ALL! lex-ner, then evaluate against gold BR from BAMS ontology
+# (that were created with ch.epfl.bbp.uima.xml.bams.BamsOntologyTest.testExtractPmiIdsRegions())
+#
+# based on 20130703_extract_brainregions2.pipeline
+#
+########################################################################################
+
+cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+ inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/
+ #inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/manually_crawled_bams_pdfs
+ # since they are in 2 different dirs
+ isRecursive__java: true
+
+ae: SentenceAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz
+
+ae: TokenAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/token/TokenizerGenia.bin.gz
+
+########################################################################################
+# BAMS lex-ner
+
+include: ../../../includes/brainregion-lex-based-ners.incl
+
+ae: BrainRegionAnnotator
+ modelFile: $ROOT/modules/bluima_regions/resources/models/20130515_BrainRegion.model
+
+
+ae: DeduplicatorAnnotator
+ annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.BrainRegionDictTerm"}
+
+ae: BamsEvaluateBrainregionsExtraction
+ inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/bams_GOLD_refs
+
+
+########################################################################################
+#ae: StatsAnnotatorPlus
+# printEvery__java: 10

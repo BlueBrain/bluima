@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>julie-semantics-stemnet-types</name>
+  <description>The type system contains types of the StemNet project.</description>
+  <version>2.1</version>
+  <vendor/>
+  <imports>
+    <import location="julie-semantics-biology-types.xml"/>
+  </imports>
+  <types>
+    <typeDescription>
+      <name>de.julielab.jules.types.stemnet.Cytokine</name>
+      <description>Cytokine</description>
+      <supertypeName>de.julielab.jules.types.Gene</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.stemnet.Chemokine</name>
+      <description>Chemokine</description>
+      <supertypeName>de.julielab.jules.types.Gene</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.stemnet.CytokineReceptor</name>
+      <description>Cytokine Receptor</description>
+      <supertypeName>de.julielab.jules.types.Gene</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.stemnet.ChemokineReceptor</name>
+      <description>Chemokine Receptor</description>
+      <supertypeName>de.julielab.jules.types.Gene</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.stemnet.Variation</name>
+      <description>Variation</description>
+      <supertypeName>de.julielab.jules.types.BioEntityMention</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.stemnet.VariationLocation</name>
+      <description>Variation Location</description>
+      <supertypeName>de.julielab.jules.types.stemnet.Variation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.stemnet.VariationStateOriginal</name>
+      <description>original state of the variation</description>
+      <supertypeName>de.julielab.jules.types.stemnet.Variation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.stemnet.VariationStateAltered</name>
+      <description>altered state of the variation</description>
+      <supertypeName>de.julielab.jules.types.stemnet.Variation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.stemnet.VariationStateGeneric</name>
+      <description>generic state of the variation</description>
+      <supertypeName>de.julielab.jules.types.stemnet.Variation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.stemnet.VariationProcess</name>
+      <description>super type for processes in variation event</description>
+      <supertypeName>de.julielab.jules.types.stemnet.Variation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.stemnet.VariationEvent</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.stemnet.VariationProcess</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.stemnet.VariationType</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.stemnet.VariationProcess</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.stemnet.CD_antigens</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.BioEntityMention</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.stemnet.MinorHA</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.BioEntityMention</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.stemnet.HematopoieticProgenitorCell</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.BioEntityMention</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.stemnet.LymphoidLeukocyte</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.BioEntityMention</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.stemnet.MyeloidLeukocyte</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.BioEntityMention</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.stemnet.Erythrocyte</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.BioEntityMention</supertypeName>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

@@ -1,0 +1,40 @@
+*	Equiv T1 T2
+*	Equiv T15 T14
+*	Equiv T20 T21
+*	Equiv T4 T5
+*	Equiv T7 T6
+T23	Negative_regulation 599 607	impaired
+T24	Entity 608 615	nuclear
+T25	Localization 616 629	translocation
+T26	Entity 699 706	nuclear
+T27	Localization 707 717	appearance
+T28	Negative_regulation 734 744	unaffected
+T29	Negative_regulation 809 817	prevents
+T30	Positive_regulation 822 831	inducible
+T31	Protein_catabolism 832 843	degradation
+T32	Negative_regulation 1028 1039	"stabilize"
+T33	Protein_catabolism 1098 1106	degraded
+T34	Negative_regulation 1177 1187	interferes
+T35	Protein_catabolism 1232 1243	degradation
+E1	Negative_regulation:T23 Theme:E5
+E2	Negative_regulation:T23 Theme:E4
+E3	Negative_regulation:T23 Theme:E6
+E4	Localization:T25 Theme:T4 ToLoc:T24
+E5	Localization:T25 Theme:T3 ToLoc:T24
+E6	Localization:T25 Theme:T7 ToLoc:T24
+E7	Localization:T27 Theme:T8 AtLoc:T26
+E8	Negative_regulation:T28 Theme:E7
+E9	Negative_regulation:T29 Theme:E13
+E10	Negative_regulation:T29 Theme:E14
+E11	Positive_regulation:T30 Theme:E14
+E12	Positive_regulation:T30 Theme:E13
+E13	Protein_catabolism:T31 Theme:T9
+E14	Protein_catabolism:T31 Theme:T10
+E15	Negative_regulation:T32 Theme:E16
+E16	Protein_catabolism:T33 Theme:T15
+E17	Negative_regulation:T34 Theme:E20
+E18	Negative_regulation:T34 Theme:E19
+E19	Protein_catabolism:T35 Theme:T18
+E20	Protein_catabolism:T35 Theme:T19
+M1	Negation E8
+M2	Negation E15

@@ -1,0 +1,78 @@
+*	Equiv T34 T35
+*	Equiv T8 T9
+*	Equiv T24 T25
+*	Equiv T2 T3
+*	Equiv T18 T19
+*	Equiv T32 T33
+*	Equiv T28 T29
+*	Equiv T16 T17
+*	Equiv T21 T22
+*	Equiv T15 T14
+*	Equiv T30 T31
+*	Equiv T4 T5
+*	Equiv T12 T13
+*	Equiv T26 T27
+*	Equiv T10 T11
+*	Equiv T36 T37
+T38	Regulation 124 134	regulating
+T39	Gene_expression 261 270	expressed
+T40	Positive_regulation 271 285	in response to
+T41	Negative_regulation 467 477	diminished
+T42	Negative_regulation 493 501	replaced
+T43	Regulation 521 530	sensitive
+T44	Regulation 760 768	regulate
+T45	Transcription 796 809	transcription
+T46	Positive_regulation 855 863	increase
+T47	Positive_regulation 1001 1028	transcriptional stimulation
+T48	Positive_regulation 1213 1240	transcriptionally activated
+T49	Transcription 1306 1319	transcription
+T50	Positive_regulation 1320 1337	remained constant
+T51	Positive_regulation 1363 1371	increase
+T52	Positive_regulation 1424 1435	consequence
+T53	Positive_regulation 1444 1457	stabilization
+T54	Positive_regulation 1487 1496	increases
+T55	Positive_regulation 1637 1646	increased
+T56	Regulation 1782 1790	regulate
+T57	Positive_regulation 1949 1959	increasing
+T58	Positive_regulation 1972 1991	without stimulating
+T59	Transcription 2019 2032	transcription
+T60	Positive_regulation 2082 2087	leads
+T61	Positive_regulation 2091 2103	accumulation
+T62	Positive_regulation 2142 2153	stimulating
+T63	Transcription 2181 2194	transcription
+T64	Negative_regulation 2269 2279	maintained
+E1	Regulation:T38 Theme:T2
+E2	Gene_expression:T39 Theme:T4
+E3	Positive_regulation:T40 Theme:E2
+E4	Negative_regulation:T41 Theme:T6
+E5	Negative_regulation:T42 Theme:E4
+E6	Regulation:T43 Theme:E5
+E7	Regulation:T44 Theme:E8
+E8	Transcription:T45 Theme:T8
+E9	Positive_regulation:T46 Theme:T10
+E10	Positive_regulation:T47 Theme:T12
+E11	Positive_regulation:T48 Theme:T15
+E12	Transcription:T49 Theme:T16
+E13	Positive_regulation:T50 Theme:E12
+E14	Positive_regulation:T51 Theme:T18
+E15	Positive_regulation:T52 Theme:E14 Cause:E16
+E16	Positive_regulation:T53 Theme:T18
+E17	Positive_regulation:T54 Theme:T21
+E18	Positive_regulation:T54 Theme:T20
+E19	Positive_regulation:T55 Theme:T23
+E20	Positive_regulation:T55 Theme:T24
+E21	Regulation:T56 Theme:T26
+E22	Positive_regulation:T57 Theme:T28
+E23	Positive_regulation:T58 Theme:E24
+E24	Transcription:T59 Theme:T30
+E25	Positive_regulation:T60 Theme:E26
+E26	Positive_regulation:T61 Theme:T32
+E27	Positive_regulation:T62 Theme:E28
+E28	Transcription:T63 Theme:T34
+E29	Negative_regulation:T64 Theme:T36
+M1	Negation E13
+M2	Negation E15
+M3	Negation E20
+M4	Speculation E22
+M5	Negation E23
+M6	Negation E27

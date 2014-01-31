@@ -1,0 +1,33 @@
+Decoding the Information About Nine Whiskers
+Analyses were carried out to find out how information might be
+decoded from the activity of groups of neurons responding to
+stimulation of nine individual whiskers. The question was
+how neuronal activity specifies stimulus site among these nine
+whiskers (C1, C2, C3, D1, D2, D3, E1, E2, E3). To elucidate what
+aspects of neuronal population firing are important for decoding
+the location of the stimulated whisker, we computed how much
+information the spike emission times of neuronal groups transmitted according to two decoding schemes: (i) labeled line,
+which conser ved the identity of which neuron fired each spike,
+and (ii) pooling, which ignored which neuron fired each spike.
+We quantified the efficiency of pooling as a decoding mechanism by computing the difference between the labeled line and
+the pooled information. Since labeled line decoding is an upper
+bound on the information transmitted by a neuronal population,
+this difference must be positive or zero (Cover and Thomas,
+1991). This is analogous to the way in which Nirenberg and
+co-workers (Nirenberg et al., 2001) recently assessed the in-formation cost of neglecting cross-correlations in the retina.
+Results for a typical pair of cells recorded from barrel column
+D2 are illustrated in Figure 1a. The left panel shows the times at
+which spikes occurred for each of 50 def lections of whiskers
+D1, D2 and D3 (here and in the following, stimulus onset was
+defined as time = 0 ms). Both cells responded strongly and
+rapidly to the principal whisker D2, but weakly and with longer
+latency to non-principal whiskers D1 and D3. This obser vation is
+consistent with the well-known functional properties of barrel
+cortex (Armstrong-James and Fox, 1987). Since the individual
+cells have similar response properties, the pooled response
+maintains these characteristics. Pooled decoding was thus only
+marginally less informative than labeled decoding for the
+nine-whisker set.
+Figure 1b illustrates results for a pair of cells recorded from
+different barrel-columns, one neuron in barrel-column D1, the
+other in barrel-column D3. Again (lef t panel), both neurons

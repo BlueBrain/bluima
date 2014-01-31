@@ -1,0 +1,11 @@
+*	Equiv T4 T3
+T13	Positive_regulation 157 183	transcriptional activation
+T14	Binding 888 892	bind
+T15	Entity 1448 1456	promoter
+T16	Positive_regulation 1461 1472	participate
+T17	Regulation 1480 1506	transcriptional regulation
+E1	Positive_regulation:T13 Theme:T4
+E2	Binding:T14 Theme:T6
+E3	Positive_regulation:T16 Theme:E4
+E4	Regulation:T17 Theme:T12 Site:T15
+M1	Speculation E3

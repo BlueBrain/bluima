@@ -1,0 +1,36 @@
+*	Equiv T17 T16
+*	Equiv T5 T4
+T30	Binding 324 334	aggregated
+T31	Positive_regulation 505 514	activated
+T32	Binding 525 536	associating
+T33	Binding 626 637	associating
+T34	Entity 653 665	death domain
+T35	Binding 666 677	interacting
+T36	Binding 753 764	association
+T37	Positive_regulation 793 803	activation
+T38	Positive_regulation 844 854	activation
+T39	Phosphorylation 912 927	phosphorylation
+T40	Phosphorylation 960 975	phosphorylation
+T41	Entity 979 985	Ser-32
+T42	Entity 990 996	Ser-36
+T43	Positive_regulation 1000 1008	followed
+T44	Protein_catabolism 1016 1027	degradation
+E1	Binding:T30 Theme:T5
+E2	Positive_regulation:T31 Theme:T6
+E3	Binding:T32 Theme:T7
+E4	Binding:T32 Theme:T8
+E5	Binding:T33 Theme:T9 Theme2:T11
+E6	Binding:T33 Theme:T11
+E7	Binding:T35 Theme:T10 Theme2:T11 Site:T34
+E8	Binding:T36 Theme:T12 Theme2:T15
+E9	Binding:T36 Theme:T12 Theme2:T13
+E10	Binding:T36 Theme:T12 Theme2:T14
+E11	Positive_regulation:T37 Theme:T17
+E12	Positive_regulation:T38 Theme:T19
+E13	Positive_regulation:T38 Theme:T18
+E14	Phosphorylation:T39 Theme:T20
+E15	Phosphorylation:T40 Theme:T21 Site:T42
+E16	Phosphorylation:T40 Theme:T21 Site:T41
+E17	Positive_regulation:T43 Theme:E19 Cause:E15
+E18	Positive_regulation:T43 Theme:E19 Cause:E16
+E19	Protein_catabolism:T44 Theme:T21

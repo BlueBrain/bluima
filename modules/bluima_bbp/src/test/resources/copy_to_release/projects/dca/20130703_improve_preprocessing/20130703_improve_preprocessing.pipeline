@@ -1,0 +1,13 @@
+# to analyze preprocessing
+
+
+cr: PubmedDatabaseCR
+ between__java: new int[]{0,50000}
+
+include: ../../../includes/preprocess.incl
+
+ae: ch.epfl.bbp.uima.ae.output.DumpTokensWriter
+ outputDir: /Users/richarde/dev/bluebrain/svn_nlp/UIMA/bluima/trunk/modules/bluima/output/20130703_improve_preprocessing
+
+ae: StatsAnnotatorPlus
+ #printEvery__java: 1000

@@ -1,0 +1,13 @@
+*	Equiv T2 T3
+T8	Binding 51 60	interacts
+T9	Entity 81 91	P sequence
+T10	Entity 188 198	P sequence
+T11	Regulation 262 280	responsive element
+T12	Binding 592 597	bound
+T13	Binding 1126 1134	detected
+E1	Binding:T8 Theme:T1 Site:T9
+E2	Regulation:T11 Theme:T2 Site:T10
+E3	Binding:T12 Theme:T5
+E4	Binding:T12 Theme:T6
+E5	Binding:T12 Theme:T4
+E6	Binding:T13 Theme:T7

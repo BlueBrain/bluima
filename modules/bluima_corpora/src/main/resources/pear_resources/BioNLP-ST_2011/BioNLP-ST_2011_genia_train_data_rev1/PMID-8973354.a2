@@ -1,0 +1,8 @@
+T10	Transcription 372 388	expression level
+T11	Negative_regulation 451 459	declined
+T12	Regulation 1056 1067	controlling
+T13	Gene_expression 1081 1091	expression
+E1	Transcription:T10 Theme:T4
+E2	Negative_regulation:T11 Theme:E1
+E3	Regulation:T12 Theme:E4
+E4	Gene_expression:T13 Theme:T9

@@ -1,0 +1,38 @@
+*	Equiv T5 T4
+T17	Entity 2 20	regulatory element
+T18	Binding 67 74	binding
+T19	Positive_regulation 125 135	Activation
+T20	Positive_regulation 328 338	contribute
+T21	Entity 367 375	promoter
+T22	Binding 636 643	binding
+T23	Gene_expression 720 729	expressed
+T24	Positive_regulation 763 772	inducible
+T25	Localization 845 852	secrete
+T26	Binding 868 873	binds
+T27	Positive_regulation 899 909	stimulated
+T28	Localization 915 924	secreting
+T29	Positive_regulation 935 944	inducible
+T30	Positive_regulation 1029 1038	activator
+T31	Gene_expression 1053 1063	expression
+T32	Positive_regulation 1116 1124	required
+T33	Entity 1142 1150	promoter
+T34	Regulation 1194 1198	role
+T35	Entity 1224 1232	promoter
+E1	Binding:T18 Theme:T1 Theme2:T3 Site:T17
+E2	Binding:T18 Theme:T1 Theme2:T2 Site:T17
+E3	Positive_regulation:T19 Theme:T5
+E4	Positive_regulation:T20 Theme:T6 Site:T21
+E5	Binding:T22 Theme:T9
+E6	Binding:T22 Theme:T8
+E7	Gene_expression:T23 Theme:T8
+E8	Positive_regulation:T24 Theme:T9
+E9	Localization:T25 Theme:T10
+E10	Binding:T26 Theme:T11
+E11	Positive_regulation:T27 Theme:E12
+E12	Localization:T28 Theme:T12
+E13	Positive_regulation:T29 Theme:T13
+E14	Positive_regulation:T30 Theme:E15
+E15	Gene_expression:T31 Theme:T14
+E16	Positive_regulation:T32 Theme:T15 Site:T33
+E17	Regulation:T34 Theme:T16 Site:T35
+M1	Negation E9

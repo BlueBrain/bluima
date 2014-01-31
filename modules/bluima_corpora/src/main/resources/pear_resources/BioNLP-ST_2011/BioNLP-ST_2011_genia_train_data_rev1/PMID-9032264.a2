@@ -1,0 +1,20 @@
+*	Equiv T3 T4 T5
+*	Equiv T7 T8
+T19	Gene_expression 540 549	expressed
+T20	Positive_regulation 604 613	inducible
+T21	Transcription 1864 1874	expression
+T22	Positive_regulation 1893 1902	strongest
+T23	Binding 2267 2274	binding
+T24	Gene_expression 2678 2689	tranfection
+T25	Positive_regulation 2678 2689	tranfection
+T26	Negative_regulation 2806 2815	antisense
+T27	Gene_expression 2806 2815	antisense
+E1	Gene_expression:T19 Theme:T6
+E2	Positive_regulation:T20 Theme:E1
+E3	Transcription:T21 Theme:T6
+E4	Positive_regulation:T22 Theme:E3
+E5	Binding:T23 Theme:T14
+E6	Gene_expression:T24 Theme:T17
+E7	Positive_regulation:T25 Theme:E6
+E8	Negative_regulation:T26 Theme:T18
+E9	Gene_expression:T27 Theme:T18

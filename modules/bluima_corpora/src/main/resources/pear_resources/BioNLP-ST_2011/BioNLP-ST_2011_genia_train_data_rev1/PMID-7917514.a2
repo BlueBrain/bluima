@@ -1,0 +1,45 @@
+T15	Gene_expression 18 28	expression
+T16	Positive_regulation 219 230	transfected
+T17	Gene_expression 242 252	expression
+T18	Localization 261 270	Secretion
+T19	Binding 331 347	binding activity
+T20	Positive_regulation 392 400	response
+T21	Regulation 517 525	modified
+T22	Gene_expression 533 543	expression
+T23	Phosphorylation 719 734	phosphorylation
+T24	Entity 738 744	Thr-15
+T25	Binding 752 768	binding activity
+E1	Gene_expression:T15 Theme:T1
+E2	Positive_regulation:T16 Theme:E3
+E3	Gene_expression:T17 Theme:T5
+E4	Localization:T18 Theme:T6
+E5	Localization:T18 Theme:T7
+E6	Binding:T19 Theme:T9
+E7	Binding:T19 Theme:T8
+E8	Positive_regulation:T20 Theme:E5
+E9	Positive_regulation:T20 Theme:E7
+E10	Positive_regulation:T20 Theme:E4 Cause:T10
+E11	Positive_regulation:T20 Theme:E6 Cause:T10
+E12	Positive_regulation:T20 Theme:E7 Cause:T10
+E13	Positive_regulation:T20 Theme:E6
+E14	Positive_regulation:T20 Theme:E5 Cause:T10
+E15	Positive_regulation:T20 Theme:E4
+E16	Regulation:T21 Theme:E4 Cause:E20
+E17	Regulation:T21 Theme:E6 Cause:E20
+E18	Regulation:T21 Theme:E5 Cause:E20
+E19	Regulation:T21 Theme:E7 Cause:E20
+E20	Gene_expression:T22 Theme:T11
+E21	Phosphorylation:T23 Theme:T13 Site:T24
+E22	Binding:T25 Theme:T13
+M1	Speculation E8
+M2	Speculation E9
+M3	Speculation E10
+M4	Speculation E11
+M5	Speculation E12
+M6	Speculation E13
+M7	Speculation E14
+M8	Speculation E15
+M9	Negation E16
+M10	Negation E17
+M11	Negation E18
+M12	Negation E19

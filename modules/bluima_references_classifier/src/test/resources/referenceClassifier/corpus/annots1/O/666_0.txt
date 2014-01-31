@@ -1,0 +1,17 @@
+3.4.1 Word Sense Disambiguation
+
+Word Sense Disambiguation (WSD) is the problem of determining which meaning of a word is be-ing used in a particular context (e.g., “hard” in the
+sense of a challenging task vs. a marble floor). We
+asked a user to employ DUALIST for 10 minutes
+for each of three benchmark WSD corpora (Mohammad and Pedersen, 2004): Hard (3 senses), Line
+(6 senses), and Serve (4 senses). Each instance represents a sentence using the ambiguous word, and
+features are lowercased unigram and bigram terms
+from the surrounding context in the sentence. The
+learned models' prediction accuracies (on the sentences not labeled by the user) were: 83.0%, 78.4%,
+and 78.7% for Hard, Line, and Serve (respectively),
+which appears to be comparable to recent supervised
+learning results in the WSD literature on these data
+sets. However, our results were achieved in less than
+10 minutes of effort each, by labeling an average of
+76 sentences and 32 words or phrases per task (compared to the thousands of labeled training sentences
+used in previous work).

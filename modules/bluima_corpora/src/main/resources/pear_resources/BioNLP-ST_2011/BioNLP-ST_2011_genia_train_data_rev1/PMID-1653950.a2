@@ -1,0 +1,19 @@
+*	Equiv T8 T7
+T16	Binding 144 149	binds
+T17	Binding 323 330	Binding
+T18	Binding 496 506	recognized
+T19	Binding 587 594	binding
+T20	Negative_regulation 746 753	reduced
+T21	Binding 762 769	binding
+T22	Phosphorylation 796 811	phosphorylation
+T23	Positive_regulation 827 836	essential
+T24	Binding 845 852	binding
+E1	Binding:T16 Theme:T3
+E2	Binding:T17 Theme:T5
+E3	Binding:T18 Theme:T8
+E4	Binding:T19 Theme:T9
+E5	Negative_regulation:T20 Theme:E6
+E6	Binding:T21 Theme:T12
+E7	Phosphorylation:T22 Theme:T13
+E8	Positive_regulation:T23 Theme:E9 Cause:E7
+E9	Binding:T24 Theme:T13

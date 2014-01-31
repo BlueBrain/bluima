@@ -1,0 +1,32 @@
+*	Equiv T3 T4
+T14	Transcription 29 39	transcript
+T15	Regulation 49 58	regulated
+T16	Positive_regulation 499 510	upregulated
+T17	Transcription 546 556	transcript
+T18	Positive_regulation 557 571	levels peaking
+T19	Transcription 608 619	transcripts
+T20	Positive_regulation 628 637	inducible
+T21	Positive_regulation 827 834	induced
+T22	Positive_regulation 845 853	increase
+T23	Transcription 865 871	levels
+T24	Transcription 876 887	transcripts
+T25	Entity 1168 1176	promoter
+T26	Regulation 1287 1298	sensitivity
+T27	Regulation 1385 1391	target
+T28	Positive_regulation 1400 1409	activated
+E1	Transcription:T14 Theme:T1
+E2	Regulation:T15 Theme:E1 Cause:T2
+E3	Positive_regulation:T16 Theme:T5
+E4	Transcription:T17 Theme:T5
+E5	Positive_regulation:T18 Theme:E4
+E6	Transcription:T19 Theme:T6
+E7	Positive_regulation:T20 Theme:E6
+E8	Positive_regulation:T21 Theme:E9
+E9	Positive_regulation:T22 Theme:E10
+E10	Transcription:T23 Theme:T9
+E11	Transcription:T24 Theme:T10
+E12	Regulation:T26 Theme:T11 Site:T25
+E13	Regulation:T27 Theme:T12 Cause:T13
+E14	Positive_regulation:T28 Theme:T13
+M1	Negation E7
+M2	Negation E11

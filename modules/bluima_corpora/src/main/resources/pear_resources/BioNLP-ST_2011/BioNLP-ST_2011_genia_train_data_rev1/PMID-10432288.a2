@@ -1,0 +1,48 @@
+*	Equiv T8 T9
+T24	Negative_regulation 59 67	blocking
+T25	Positive_regulation 117 124	induced
+T26	Transcription 136 149	transcription
+T27	Binding 339 349	dimerizing
+T28	Positive_regulation 679 693	overexpression
+T29	Gene_expression 679 693	overexpression
+T30	Negative_regulation 694 717	leads to the prevention
+T31	Positive_regulation 747 754	induced
+T32	Gene_expression 755 765	expression
+T33	Binding 1004 1011	binding
+T34	Positive_regulation 1129 1136	Without
+T35	Transcription 1186 1197	transcribed
+T36	Positive_regulation 1322 1331	induction
+T37	Negative_regulation 1474 1484	preventing
+T38	Gene_expression 1490 1500	expression
+T39	Phosphorylation 1568 1583	phosphorylation
+T40	Phosphorylation 1594 1608	Phosphorylated
+T41	Negative_regulation 1615 1621	cannot
+T42	Binding 1622 1626	bind
+T43	Gene_expression 1666 1676	expression
+T44	Positive_regulation 1702 1707	after
+T45	Phosphorylation 1714 1729	phosphorylation
+E1	Negative_regulation:T24 Theme:E2 Cause:T1
+E2	Positive_regulation:T25 Theme:E3
+E3	Transcription:T26 Theme:T2
+E4	Binding:T27 Theme:T4 Theme2:T5
+E5	Binding:T27 Theme:T4 Theme2:T6
+E6	Positive_regulation:T28 Theme:E7
+E7	Gene_expression:T29 Theme:T11
+E8	Negative_regulation:T30 Theme:E9 Cause:E6
+E9	Positive_regulation:T31 Theme:E10
+E10	Gene_expression:T32 Theme:T12
+E11	Binding:T33 Theme:T13
+E12	Positive_regulation:T34 Theme:E13
+E13	Transcription:T35 Theme:T14
+E14	Positive_regulation:T36 Theme:T15
+E15	Negative_regulation:T37 Theme:E16
+E16	Gene_expression:T38 Theme:T17
+E17	Phosphorylation:T39 Theme:T19
+E18	Phosphorylation:T40 Theme:T20
+E19	Negative_regulation:T41 Theme:E20 Cause:E18
+E20	Binding:T42 Theme:T20 Theme2:T21
+E21	Gene_expression:T43 Theme:T22
+E22	Positive_regulation:T44 Theme:E21 Cause:E23
+E23	Phosphorylation:T45 Theme:T23
+M1	Negation E13
+M2	Negation E20

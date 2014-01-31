@@ -1,0 +1,6 @@
+*	Equiv T1 T2
+*	Equiv T3 T4
+T11	Positive_regulation 829 843	overexpression
+T12	Gene_expression 829 843	overexpression
+E1	Positive_regulation:T11 Theme:E2
+E2	Gene_expression:T12 Theme:T10

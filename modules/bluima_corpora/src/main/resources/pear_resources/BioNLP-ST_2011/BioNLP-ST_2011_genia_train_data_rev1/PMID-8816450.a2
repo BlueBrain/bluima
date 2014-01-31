@@ -1,0 +1,11 @@
+T10	Binding 23 30	binding
+T11	Positive_regulation 1549 1565	significant role
+T12	Binding 1576 1583	binding
+T13	Negative_regulation 1702 1714	interference
+T14	Positive_regulation 1739 1754	transactivation
+E1	Binding:T10 Theme:T1
+E2	Positive_regulation:T11 Theme:E3
+E3	Binding:T12 Theme:T8
+E4	Negative_regulation:T13 Theme:E5
+E5	Positive_regulation:T14 Theme:T9
+M1	Speculation E1

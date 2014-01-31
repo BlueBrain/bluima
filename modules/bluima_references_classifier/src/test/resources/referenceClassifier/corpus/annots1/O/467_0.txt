@@ -1,0 +1,32 @@
+ous Open IE systems return the uninformative
+(Faust, made, a deal)
+instead of
+(Faust, made a deal with, the devil).
+This type of error is caused by improper handling
+of relation phrases that are expressed by a combination of a verb with a noun, such as light verb
+constructions (LVCs). An LVC is a multi-word ex-pression composed of a verb and a noun, with the
+noun carrying the semantic content of the predicate (Grefenstette and Teufel, 1995; Stevenson et al.,
+2004; Allerton, 2002). Table 2 illustrates the wide
+range of relations expressed this way, which are not
+captured by existing open extractors. Our syntactic
+constraint leads the extractor to include nouns in the
+relation phrase, solving this problem.
+Although the syntactic constraint significantly re-duces incoherent and uninformative extractions, it
+allows overly-specific relation phrases such as is of-fering only modest greenhouse gas reduction targets
+at. To avoid overly-specific relation phrases, we in-troduce an intuitive lexical constraint: a binary relation phrase ought to appear with at least a minimal
+number of distinct argument pairs in a large corpus.
+In summary, this paper articulates two simple but
+surprisingly powerful constraints on how binary re-lationships are expressed via verbs in English sentences, and implements them in the REVERB Open
+IE system. We release REVERB and the data used in
+our experiments to the research community.
+The rest of the paper is organized as follows. Section 2 analyzes previous work. Section 3 defines our
+constraints precisely. Section 4 describes REVERB,
+our implementation of the constraints. Section 5 re-ports on our experimental results. Section 6 concludes with a summary and discussion of future
+work.
+2 Previous Work
+Open IE systems like TEXTRUNNER (Banko et al.,
+2007), WOEpos, and WOEparse (Wu and Weld, 2010)
+focus on extracting binary relations of the form
+(arg1, relation phrase, arg2) from text. These systems all use the following three-step method:
+1. Label: Sentences are automatically labeled
+with extractions using heuristics or distant su-pervision.

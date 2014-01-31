@@ -1,0 +1,14 @@
+Figure 7. Reproduction of SAP and DC potential in a single-compartment NL neuron model. A, Schematic drawing for the
+formation of SAP. The convergence of phase-locked synaptic inputs from NM generates both SAP and DC potential in NL. B, Circuit
+diagram of the model. Note that no somatic Na channels are included. C, Amplitude of SAP and DC potential plotted with respect
+to half-peak width ( W) of unitary inputs from NM. The vertical dotted line indicates the value used in the model (also in F and H,
+simulated sound frequency 4 kHz unless otherwise mentioned). D, Examples of voltage traces of the model with three different
+W values (0.1, 0.25, 0.4 ms). Note that very small value of W (0.1 ms) is needed to reproduce similar amplitudes of SAP observed in
+vivo experiments. E, Schematic drawings for the effects of spontaneous inputs of NM. Left, Low spontaneous NM spiking rate.
+Right, High spontaneous NM spiking rate. As the spontaneous rate increases, sound-induced DC shift decreases, while SAP is not
+affected. F, SAP (solid line) and DC (broken line) potentials plotted with respect to NM spontaneous spike rate. G, Schematic
+drawings for the effects of sound-induced suppression mechanisms. Left, No suppression in the EPSC amplitude. Right, With
+suppression in the EPSC amplitude. Sound-induced suppression reduces DC shift more than SAP amplitude. H, SAP (solid line) and
+DC (broken line) potentials plotted with respect to the sound-induced EPSC suppression ratio. Note that DC decreases more steeply
+than SAP due to the high spontaneous inputs from NM. I, Comparison of voltage traces with (thin black line) and without (thick gray
+line) NM spontaneous activity and sound-induced EPSC suppression.

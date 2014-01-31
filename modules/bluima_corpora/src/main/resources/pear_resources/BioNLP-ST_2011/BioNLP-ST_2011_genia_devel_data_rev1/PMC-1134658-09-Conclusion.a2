@@ -1,0 +1,4 @@
+T7	Positive_regulation 135 146	consecutive
+T8	Gene_expression 147 157	production
+E1	Positive_regulation:T7 Theme:E2
+E2	Gene_expression:T8 Theme:T2

@@ -1,0 +1,5 @@
+*	Equiv T1 T2
+*	Equiv T5 T6 T7
+T11	Positive_regulation 1354 1364	activation
+E1	Positive_regulation:T11 Theme:T8
+E2	Positive_regulation:T11 Theme:T5

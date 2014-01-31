@@ -1,0 +1,46 @@
+trials, for which it was 10 s). The signal was a
+sinusoid waveform. In most sessions, stimulation was applied through 3 stimulating electrodes (3-poles), such that the same polarity
+was applied to both hemispheres (side) versus
+the opposite polarity applied to the center
+(frontal) electrode (Fig. 1 Aa,d). This configuration yielded synchronous electric fields in
+both hemispheres. In a few experiments, bipolar stimulation was used (Fig. 1 Ab,c). Trials
+using the same stimulation protocol were combined for statistical analysis.
+To assess the effect of stimulation on unit firing, each spike was assigned to the instantaneous
+phase of the reference TES signal obtained by Hilbert transformation. The significance of phasemodulation was evaluated using Kuiper's test of
+random deviation from uniformity on circular
+data (Fisher, 1993). This omnibus test was preferred over the more standard Rayleigh test, since
+our findings (such as bimodal phase preference)
+precluded having a predefined assumption re-garding the modality of the TES-induced phase
+entrainment and thus the application of conventional (unimodal) phase entrainment measures
+(e.g., Rayleigh statistic). Since omnibus tests re-quire a sufficiently large sample of data, we ap-plied 2 criteria a) a minimum number of spikes
+(at least 250 per stimulation protocol) and b) a
+minimum number of trials (at least 5) for a given
+stimulation intensity, frequency and configuration. Because both multiunits and single units
+had different number of spikes and both were
+tested against the same uniformity hypothesis, we
+examined whether the number of spikes biased
+our results. A fixed number of spikes (n 600,
+n 1000) was randomly chosen from a given
+TES session and tested against uniformity. Such
+subsampling did not show any particular trend
+substantially different from the case when all
+spikes were included. Probabilities 0.01 were
+regarded as significant.
+For the color-coded population display, the
+spike count of each unit was normalized by subtracting the mean spike count of that unit from
+the spike count of each bin and dividing by the SD
+(20° phase bins across one period of TES signal).
+To examine the relationship between spikes
+and the intrinsic slow oscillation, the peak spectral power of LFP (peakF) within the 0.4 –10 Hz
+frequency range was computed in 3.2 s windows.
+The original LFP signal was bandpass filtered
+around peakF, between [0.75 peakF and 1.25
+peakF] Hz, using second order, Butterworth Filter (a built-in Matlab function). The phase of the
+bandpass filtered LFP was then derived by Hilbert
+transformation. Phase-modulation of units by
+the slow oscillation was evaluated by Rayleigh circular statistics, since the unimodal phase modulation by the intrinsic slow oscillation could be
+safely assumed from previous experimental evidence (Steriade et al., 1993). For the display of
+cycle-by-cycle unit firing, peri-event time histograms of spike times around the first/last troughs
+of the reference TES signal were constructed.
+For the analysis of the intracellular signal
+( 1250 Hz, low-pass), the signal was bandpassed filtered (0.5–10 Hz) to remove the ac-tion potentials. The relationship between the

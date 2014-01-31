@@ -1,0 +1,14 @@
+T5	Negative_regulation 837 846	depletion
+T6	Positive_regulation 897 905	increase
+T7	Negative_regulation 990 999	prevented
+T8	Negative_regulation 1031 1040	depletion
+T9	Negative_regulation 1079 1089	inhibition
+T10	Gene_expression 1128 1138	expression
+E1	Negative_regulation:T5 Theme:T1
+E2	Positive_regulation:T6 Theme:T1
+E3	Negative_regulation:T7 Theme:E4
+E4	Negative_regulation:T8 Theme:T2
+E5	Negative_regulation:T9 Theme:E7
+E6	Negative_regulation:T9 Theme:E8
+E7	Gene_expression:T10 Theme:T4
+E8	Gene_expression:T10 Theme:T3

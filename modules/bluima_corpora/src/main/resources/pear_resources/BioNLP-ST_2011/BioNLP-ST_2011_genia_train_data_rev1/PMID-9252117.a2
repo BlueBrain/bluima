@@ -1,0 +1,23 @@
+*	Equiv T3 T4
+T18	Gene_expression 311 322	transfected
+T19	Positive_regulation 311 322	transfected
+T20	Gene_expression 447 451	lack
+T21	Positive_regulation 494 500	induce
+T22	Gene_expression 511 521	expression
+T23	Regulation 817 823	target
+E1	Gene_expression:T18 Theme:T6
+E2	Gene_expression:T18 Theme:T7
+E3	Positive_regulation:T19 Theme:E2
+E4	Positive_regulation:T19 Theme:E1
+E5	Gene_expression:T20 Theme:T7
+E6	Gene_expression:T20 Theme:T6
+E7	Positive_regulation:T21 Theme:E11 Cause:T8
+E8	Positive_regulation:T21 Theme:E12 Cause:T9
+E9	Positive_regulation:T21 Theme:E11 Cause:T9
+E10	Positive_regulation:T21 Theme:E12 Cause:T8
+E11	Gene_expression:T22 Theme:T10
+E12	Gene_expression:T22 Theme:T11
+E13	Regulation:T23 Theme:T15 Cause:T8
+E14	Regulation:T23 Theme:T15 Cause:T9
+M1	Negation E5
+M2	Negation E6

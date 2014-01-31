@@ -1,0 +1,19 @@
+cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+ inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/
+ isRecursive__java: true
+
+include: ../../../includes/preprocess.incl
+
+#FIXMEae: AddDkproMetadata
+
+#FIXME
+#ae: de.tudarmstadt.ukp.dkpro.core.io.bincas.BinaryCasWriter
+# # 1) uncompressed:
+# format: 0
+# targetLocation: target/binaryy
+# # 2) compressed
+# #format: 4
+# #targetLocation: target/binaryy_comp
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

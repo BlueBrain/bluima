@@ -1,0 +1,16 @@
+Prediction of calcium-dependent changes in synaptic filtering
+paradigm and its test in hippocampal slices
+To validate the model's prediction, we took advantage of the fact
+that lowering the extracellular calcium concentration reduces the
+basal vesicle fusion probability , thus reducing vesicle use and
+depletion (Zucker and Regehr, 2002). The model predicts that
+under these conditions of reduced depression, synaptic response
+continuously increases during high-frequency stimulation (Fig.
+6). The model also predicts large calcium-dependent changes in
+the synaptic filtering pattern during natural stimulus trains; synaptic strength during discharges at reduced extracellular calcium
+is expected to not rapidly saturate like that observed at standard
+calcium concentration but rather to continue to increase, reaching much more elevated strength levels.
+To computationally reproduce the decrease in vesicle depletion at reduced extracellular calcium, we modified a single model
+parameter, the basal vesicle fusion probability , which was re-duced to 0.0002 (Fig. 7A). The synaptic dynamics during stimulus trains was then determined without free parameters, solely
+based on the timing of stimuli during the train. As predicted, the
+reduced led to a much larger continuous increase in synaptic

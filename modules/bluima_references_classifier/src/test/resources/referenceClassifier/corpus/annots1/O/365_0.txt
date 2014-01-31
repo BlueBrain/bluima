@@ -1,0 +1,38 @@
+Temporal versus rate coding
+The random nature of stimulus-evoked action potential trains in
+neocortical neurons in vivo does not result from noise within the
+spike generation mechanism (Mainen and Sejnowski, 1995; Holt et
+al., 1996; Nowak et al., 1997; Stevens and Zador, 1998). Variability
+must, therefore, arise from the temporal pattern of synaptic inputs
+and the postsynaptic mechanisms used to integrate them. Neocortical neurons have been suggested to employ one of two methods of
+synaptic integration, described as (1) coincidence detection, and
+(2) random walk, that in simple and complex neuronal models are
+capable of reproducing the irregular firing patterns observed in
+vivo (for review, see Shadlen and Newsome, 1994; Softky, 1995;
+Konig et al., 1996). Coincidence detection integrates temporally
+correlated synaptic inputs over short time periods (<2 msec) to
+produce irregular action potential trains, where the timing of each
+action potential precisely reflects the temporal synchrony of specific synaptic inputs (Softky and Koch, 1993; Stevens and Zador,
+1998; Harsch and Robinson, 2000). Random walk integration, on
+the other hand, describes integration of excitatory and inhibitory
+synaptic inputs over time scales defined by the membrane time
+constant, where the timing of each action potential is determined
+stochastically and information is represented as noisy average firing
+rates that are typically measured over hundreds of milliseconds
+(Shadlen and Newsome, 1994).
+We have bypassed the integration of synaptic inputs in the
+present investigation to explore if the precise timing of action
+potentials has a specific dendritic signaling role. The observed
+reliance of effective dendritic action potential backpropagation on
+the timing and pattern of action potential initiation during physiological spike trains suggests that spike timing contains important
+signaling information. Previous work has indicated that the irregularity of in vivo firing patterns may be reproduced in neocortical
+neurons in vitro, if, and only if, neurons are driven with simulated
+excitatory and inhibitory synaptic inputs that contain a significant
+synchrony in their pattern of occurrence (Stevens and Zador, 1998;
+Harsch and Robinson, 2000), as suggested from modeling studies
+(Shadlen and Newsome, 1994; Softky, 1995). A consequence of
+input synchrony is to produce periods of high-frequency action
+potential firing that lend the spike train its variable frequency
+content and so apparent randomness (Stevens and Z ador, 1998).
+Our results indicate that this synchronous synaptic input is transduced into powerful dendritic electrogenesis in neocortical layer 5
+pyramidal neurons, implying a causal relationship between input

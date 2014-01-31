@@ -1,0 +1,25 @@
+*	Equiv T3 T4
+T14	Positive_regulation 0 10	Activation
+T15	Positive_regulation 92 100	mediated
+T16	Positive_regulation 883 885	to
+T17	Localization 886 893	release
+T18	Positive_regulation 950 958	inducers
+T19	Gene_expression 972 982	expression
+T20	Positive_regulation 1032 1041	inducible
+T21	Entity 1047 1055	promoter
+T22	Negative_regulation 1595 1604	abolished
+T23	Positive_regulation 1605 1617	inducibility
+T24	Entity 1626 1634	promoter
+T25	Positive_regulation 1714 1721	mediate
+T26	Positive_regulation 1727 1736	induction
+E1	Positive_regulation:T14 Theme:T1
+E2	Positive_regulation:T15 Theme:E1 Cause:T2
+E3	Positive_regulation:T16 Theme:E4
+E4	Localization:T17 Theme:T5
+E5	Positive_regulation:T18 Theme:E6
+E6	Gene_expression:T19 Theme:T6
+E7	Positive_regulation:T20 Theme:T7 Site:T21
+E8	Negative_regulation:T22 Theme:E9
+E9	Positive_regulation:T23 Theme:T11 Site:T24
+E10	Positive_regulation:T25 Theme:E11
+E11	Positive_regulation:T26 Theme:T13

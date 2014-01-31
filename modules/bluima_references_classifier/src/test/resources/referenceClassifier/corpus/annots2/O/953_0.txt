@@ -1,0 +1,14 @@
+Introduction
+Guided only by reward and penalty information, animals can
+adapt their behaviors so that maximal rewards are obtained in the
+long run, even in unfamiliar and stochastic environments. This
+reward-based behavioral learning problem has been modeled in
+several ways (Sutton and Barto, 1998; Breiter et al., 2001). The
+central learning algorithm in the reinforcement learning models
+changes behaviors in proportion to reward prediction errors.
+Some computational models have proposed that the signal transmission in the striatum is modified by synaptic plasticity for be-havioral learning, while being guided by reward prediction error
+conveyed by midbrain dopamine neurons (Houk et al., 1995). In
+their pioneering work, Hollerman and Schultz (1998) have accumulated compelling evidence that dopamine neurons in the
+monkey midbrain encode reward prediction errors. Human im-aging studies have revealed that the activity in the ventral striatum and putamen (Berns et al., 2001; Breiter et al., 2001; McClure
+et al., 2003; O'Doherty et al., 2003) is correlated with the reward
+prediction errors in classical conditioning tasks.

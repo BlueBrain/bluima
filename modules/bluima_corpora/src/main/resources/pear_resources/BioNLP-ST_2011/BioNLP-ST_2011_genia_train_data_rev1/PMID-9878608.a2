@@ -1,0 +1,7 @@
+T4	Gene_expression 82 92	expression
+T5	Regulation 585 596	deregulated
+T6	Gene_expression 597 607	expression
+E1	Gene_expression:T4 Theme:T1
+E2	Regulation:T5 Theme:E3
+E3	Gene_expression:T6 Theme:T3
+M1	Negation E2

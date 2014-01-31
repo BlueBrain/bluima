@@ -1,0 +1,28 @@
+T11	Negative_regulation 48 58	inhibiting
+T12	Phosphorylation 78 93	phosphorylation
+T13	Binding 300 307	complex
+T14	Positive_regulation 376 382	induce
+T15	Phosphorylation 383 398	phosphorylation
+T16	Protein_catabolism 409 420	degradation
+T17	Phosphorylation 831 846	phosphorylation
+T18	Protein_catabolism 851 862	degradation
+T19	Positive_regulation 922 940	in the presence of
+T20	Negative_regulation 1018 1026	blockade
+T21	Positive_regulation 1039 1046	leading
+T22	Phosphorylation 1054 1069	phosphorylation
+E1	Negative_regulation:T11 Theme:E2
+E2	Phosphorylation:T12 Theme:T1
+E3	Binding:T13 Theme:T2
+E4	Positive_regulation:T14 Theme:E6
+E5	Positive_regulation:T14 Theme:E7 Cause:E4
+E6	Phosphorylation:T15 Theme:T3
+E7	Protein_catabolism:T16 Theme:T3
+E8	Phosphorylation:T17 Theme:T8
+E9	Protein_catabolism:T18 Theme:T8
+E10	Positive_regulation:T19 Theme:E9
+E11	Positive_regulation:T19 Theme:E8
+E12	Negative_regulation:T20 Theme:E13
+E13	Positive_regulation:T21 Theme:E14
+E14	Phosphorylation:T22 Theme:T10
+M1	Negation E10
+M2	Negation E11

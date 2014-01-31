@@ -1,0 +1,26 @@
+cr: TextArrayReader
+ input__java: new String[]{"The pontine gray is connected to the nucleus prepositus."}
+
+
+
+include: ../../../includes/preprocess.incl
+
+ae: BrainRegionAnnotator
+ modelFile: $ROOT/modules/bluima_regions/resources/models/20131116_BrainRegion.model
+
+
+########################################################################################
+include: 20131120_extract_br-br.incl
+########################################################################################
+
+ae: TestAnnotator
+ expects: ch.epfl.bbp.uima.types.BrainRegionDictTerm 2
+
+
+ae: TestAnnotator
+ expects: ch.epfl.bbp.uima.types.BrainRegion 2
+
+
+ae: TestAnnotator
+ expects: ch.epfl.bbp.uima.types.Cooccurrence 3
+

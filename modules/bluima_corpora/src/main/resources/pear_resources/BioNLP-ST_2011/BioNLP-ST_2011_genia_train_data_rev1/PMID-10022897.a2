@@ -1,0 +1,56 @@
+*	Equiv T7 T6
+*	Equiv T5 T4
+T30	Positive_regulation 11 20	dependent
+T31	Regulation 37 47	regulation
+T32	Entity 65 73	promoter
+T33	Positive_regulation 74 82	requires
+T34	Positive_regulation 101 112	recruitment
+T35	Binding 156 188	interacting receptor-ligand pair
+T36	Positive_regulation 259 271	upregulation
+T37	Gene_expression 279 289	expression
+T38	Positive_regulation 366 378	upregulation
+T39	Positive_regulation 556 563	induced
+T40	Positive_regulation 568 580	upregulation
+T41	Gene_expression 653 663	expression
+T42	Gene_expression 834 841	express
+T43	Positive_regulation 860 867	induced
+T44	Positive_regulation 1089 1097	required
+T45	Positive_regulation 1124 1136	upregulation
+T46	Binding 1417 1424	binding
+T47	Positive_regulation 1468 1477	inducible
+T48	Binding 1478 1485	binding
+T49	Binding 1581 1588	binding
+T50	Negative_regulation 1605 1623	mutually exclusive
+T51	Entity 1786 1794	promoter
+T52	Positive_regulation 1795 1805	activation
+T53	Positive_regulation 2103 2117	essential role
+T54	Entity 2159 2167	promoter
+T55	Positive_regulation 2168 2177	induction
+E1	Positive_regulation:T30 Theme:E2
+E2	Regulation:T31 Theme:T1 Site:T32
+E3	Positive_regulation:T33 Theme:E2 Cause:E5
+E4	Positive_regulation:T33 Theme:E2 Cause:E6
+E5	Positive_regulation:T34 Theme:T2
+E6	Positive_regulation:T34 Theme:T3
+E7	Binding:T35 Theme:T5 Theme2:T7
+E8	Positive_regulation:T36 Theme:E9
+E9	Gene_expression:T37 Theme:T8
+E10	Positive_regulation:T38 Theme:T10
+E11	Positive_regulation:T39 Theme:E12
+E12	Positive_regulation:T40 Theme:T11
+E13	Gene_expression:T41 Theme:T11
+E14	Gene_expression:T42 Theme:T13
+E15	Positive_regulation:T43 Theme:T14
+E16	Positive_regulation:T44 Theme:E17
+E17	Positive_regulation:T45 Theme:T16
+E18	Binding:T46 Theme:T18
+E19	Positive_regulation:T47 Theme:E21
+E20	Positive_regulation:T47 Theme:E22
+E21	Binding:T48 Theme:T20
+E22	Binding:T48 Theme:T19
+E23	Binding:T49 Theme:T21
+E24	Negative_regulation:T50 Theme:E23
+E25	Positive_regulation:T52 Theme:T25 Site:T51
+E26	Positive_regulation:T53 Theme:E27
+E27	Positive_regulation:T55 Theme:T29 Site:T54
+M1	Speculation E13

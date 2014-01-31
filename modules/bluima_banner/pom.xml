@@ -1,0 +1,65 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>ch.epfl.bbp.nlp</groupId>
+    <artifactId>bluima_parent</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+    <relativePath>../../pom.xml</relativePath>
+  </parent>
+
+	<artifactId>bluima_banner</artifactId>
+	<name>Bluima BANNER Protein NER</name>
+	<description>Wrapper for BANNER Protein NER</description>
+
+	<dependencies>
+		<dependency>
+			<groupId>${project.groupId}</groupId>
+			<artifactId>bluima_utils</artifactId>
+			<version>0.1.0-SNAPSHOT</version>
+		</dependency>
+		<!-- <dependency> <groupId>banner</groupId> <artifactId>banner</artifactId>
+			<version>20111108-SNAPSHOT</version> </dependency> -->
+		<dependency>
+			<groupId>banner</groupId>
+			<artifactId>heptag</artifactId>
+			<version>20111108-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>banner</groupId>
+			<artifactId>medpost</artifactId>
+			<version>20111108-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>banner</groupId>
+			<artifactId>dragontool</artifactId>
+			<version>20111108-SNAPSHOT</version>
+		</dependency>
+		<dependency>
+			<groupId>mallet</groupId>
+			<artifactId>mallet</artifactId>
+			<version>0.4</version>
+		</dependency>
+		<!-- FIXME causes trouble, e.g. because it contains Lucene -->
+		<dependency>
+			<groupId>mallet</groupId>
+			<artifactId>mallet-deps</artifactId>
+			<version>0.4</version>
+		</dependency>
+	</dependencies>
+
+	<repositories>
+		<repository>
+			<name>Github personal repo (renaudr)</name>
+			<id>renaudr</id>
+			<url>https://github.com/renaud/maven_repo/raw/master/snapshots</url>
+		</repository>
+		<repository>
+			<name>Github personal repo (renaudr)</name>
+			<id>renaudr2</id>
+			<url>https://raw.github.com/renaud/maven_repo/master/snapshots</url>
+		</repository>
+	</repositories>
+
+</project>

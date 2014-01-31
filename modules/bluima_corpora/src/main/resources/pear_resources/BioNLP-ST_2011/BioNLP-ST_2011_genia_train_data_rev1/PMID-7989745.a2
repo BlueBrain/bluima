@@ -1,0 +1,49 @@
+T19	Regulation 13 23	regulation
+T20	Binding 134 139	binds
+T21	Positive_regulation 364 374	activation
+T22	Binding 403 411	ligation
+T23	Binding 528 541	cross-linking
+T24	Positive_regulation 584 589	leads
+T25	Positive_regulation 596 605	elevation
+T26	Positive_regulation 639 649	activation
+T27	Gene_expression 659 669	expression
+T28	Positive_regulation 686 695	induction
+T29	Gene_expression 705 715	expression
+T30	Positive_regulation 716 724	requires
+T31	Regulation 772 778	depend
+T32	Positive_regulation 903 912	elevation
+T33	Positive_regulation 949 957	mediated
+T34	Regulation 979 988	stability
+T35	Gene_expression 1023 1033	expression
+T36	Binding 1156 1164	ligation
+E1	Regulation:T19 Theme:T2
+E2	Regulation:T19 Theme:T1
+E3	Binding:T20 Theme:T4
+E4	Positive_regulation:T21 Theme:T5 Cause:E5
+E5	Binding:T22 Theme:T6
+E6	Binding:T23 Theme:T9
+E7	Binding:T23 Theme:T8
+E8	Binding:T23 Theme:T7
+E9	Positive_regulation:T24 Theme:E13 Cause:E7
+E10	Positive_regulation:T24 Theme:E13 Cause:E8
+E11	Positive_regulation:T24 Theme:E13
+E12	Positive_regulation:T24 Theme:E13 Cause:E6
+E13	Positive_regulation:T25 Theme:T10
+E14	Positive_regulation:T26 Theme:E15 Cause:E8
+E15	Gene_expression:T27 Theme:T11
+E16	Positive_regulation:T28 Theme:E17 Cause:T12
+E17	Gene_expression:T29 Theme:T13
+E18	Positive_regulation:T30 Theme:E16
+E19	Regulation:T31 Theme:E16
+E20	Positive_regulation:T32 Theme:T15 Cause:T14
+E21	Positive_regulation:T33 Theme:E20 Cause:E22
+E22	Regulation:T34 Theme:T15
+E23	Gene_expression:T35 Theme:T17
+E24	Gene_expression:T35 Theme:T16
+E25	Binding:T36 Theme:T18
+M1	Negation E9
+M2	Negation E11
+M3	Negation E12
+M4	Negation E19
+M5	Negation E21
+M6	Speculation E21

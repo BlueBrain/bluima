@@ -1,0 +1,9 @@
+*	Equiv T2 T3
+*	Equiv T5 T6
+T11	Gene_expression 334 347	overexpressed
+T12	Positive_regulation 334 347	overexpressed
+T13	Binding 456 464	affinity
+E1	Gene_expression:T11 Theme:T2
+E2	Positive_regulation:T12 Theme:E1
+E3	Binding:T13 Theme:T4
+M1	Speculation E3

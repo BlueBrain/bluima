@@ -1,0 +1,73 @@
+########################################################################################
+#
+# extract Prot x {cell, subcell, br}
+# using simple co-occurrence
+#
+# $1 base output,
+#   e.g. target, or /nfs4/bbp.epfl.ch/simulation/nlp/data/20131024_ic-X-subcell/
+# $2 %(job_name)s job id (for input and output files)
+#   e.g. 1 or 34
+#
+########################################################################################
+
+
+#SUBCELL
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/go/subcell")
+
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.SubcellDictTerm
+
+#NEURON
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/blueonto1/neuron")
+
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.NeuronDictTerm
+
+
+# COOCCURENCES ###########################################################################
+
+# PROT x SUBCELL
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.Protein
+ annot1IdField: coveredText
+ annot2: ch.epfl.bbp.uima.types.SubcellDictTerm
+ cooccurrenceType: prot-subcell
+
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile2
+ outputFile: $1/$2_prot-subcell_cooc.txt
+ annot1Type: protein
+ annot2Type: subcell
+ cooccurrenceType: prot-subcell
+
+
+# PROT x NEURON
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.Protein
+ annot1IdField: coveredText
+ annot2: ch.epfl.bbp.uima.types.NeuronDictTerm
+ cooccurrenceType: prot-neuron
+
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile2
+ outputFile: $1/$2_prot-neuron_cooc.txt
+ annot1Type: protein
+ annot2Type: cell
+ cooccurrenceType: prot-neuron
+
+
+# PROTEIN x BR
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.Protein
+ annot1IdField: coveredText
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+ annot2IdField: coveredText
+ cooccurrenceType: prot-br
+
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile2
+ outputFile: $1/$2_prot-br_cooc.txt
+ annot1Type: 1
+ annot2Type: 4
+ cooccurrenceType: prot-br
+

@@ -1,0 +1,16 @@
+cr: TextReader
+ input: this is a test sentence. here is another one.
+
+ae: DotSentenceSplitterAnnotator
+
+ae: WhitespaceTokenizerAnnotator
+
+ae: PunctuationAnnotator
+
+ae: GeneralEnglishAnnotator
+
+ae: AnnotationHistogramAnnotator
+
+
+
+    

@@ -1,0 +1,39 @@
+*	Equiv T3 T2
+T9	Regulation 39 49	regulation
+T10	Entity 176 184	promoter
+T11	Positive_regulation 185 194	necessary
+T12	Positive_regulation 203 228	transcriptional induction
+T13	Positive_regulation 450 457	mediate
+T14	Positive_regulation 492 501	induction
+T15	Positive_regulation 569 581	requirements
+T16	Positive_regulation 629 636	mediate
+T17	Positive_regulation 637 646	induction
+T18	Entity 712 719	kappa 1
+T19	Entity 721 728	kappa 2
+T20	Entity 734 741	kappa 3
+T21	Binding 756 760	bind
+T22	Positive_regulation 842 851	induction
+T23	Positive_regulation 1063 1075	inducibility
+T24	Positive_regulation 1110 1119	induction
+T25	Positive_regulation 1137 1146	induction
+T26	Positive_regulation 1182 1190	mediated
+E1	Regulation:T9 Theme:T1
+E2	Positive_regulation:T11 Theme:E3 Cause:T3 CSite:T10
+E3	Positive_regulation:T12 Theme:T3
+E4	Positive_regulation:T13 Theme:E5
+E5	Positive_regulation:T14 Theme:T3
+E6	Positive_regulation:T15 Theme:E3
+E7	Positive_regulation:T16 Theme:E8
+E8	Positive_regulation:T17 Theme:T3
+E9	Binding:T21 Theme:T4 Site:T20
+E10	Binding:T21 Theme:T4 Site:T18
+E11	Binding:T21 Theme:T4 Site:T19
+E12	Positive_regulation:T22 Theme:T5
+E13	Positive_regulation:T23 Theme:T6
+E14	Positive_regulation:T24 Theme:T7
+E15	Positive_regulation:T25 Theme:T7
+E16	Positive_regulation:T26 Theme:E15
+E17	Positive_regulation:T26 Theme:E14
+M1	Speculation E4
+M2	Negation E16
+M3	Negation E17

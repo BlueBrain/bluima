@@ -1,0 +1,7 @@
+T6	Positive_regulation 25 33	required
+T7	Transcription 46 59	transcription
+T8	Positive_regulation 826 836	activation
+T9	Entity 849 857	promoter
+E1	Positive_regulation:T6 Theme:E2
+E2	Transcription:T7 Theme:T1
+E3	Positive_regulation:T8 Theme:T5 Site:T9

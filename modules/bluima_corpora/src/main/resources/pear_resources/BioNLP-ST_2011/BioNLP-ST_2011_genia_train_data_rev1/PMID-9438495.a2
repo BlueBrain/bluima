@@ -1,0 +1,17 @@
+T15	Gene_expression 551 559	produced
+T16	Negative_regulation 646 658	neutralizing
+T17	Negative_regulation 697 704	reduced
+T18	Localization 717 724	release
+T19	Regulation 1089 1095	affect
+T20	Negative_regulation 1100 1110	inhibition
+T21	Localization 1130 1137	release
+T22	Localization 1453 1462	secretion
+E1	Gene_expression:T15 Theme:T4
+E2	Negative_regulation:T16 Theme:T5
+E3	Negative_regulation:T17 Theme:E4
+E4	Localization:T18 Theme:T6
+E5	Regulation:T19 Theme:E6 Cause:T9
+E6	Negative_regulation:T20 Theme:E7
+E7	Localization:T21 Theme:T11
+E8	Localization:T22 Theme:T14
+M1	Negation E5

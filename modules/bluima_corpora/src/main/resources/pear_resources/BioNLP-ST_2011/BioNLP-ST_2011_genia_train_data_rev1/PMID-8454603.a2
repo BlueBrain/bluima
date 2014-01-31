@@ -1,0 +1,48 @@
+*	Equiv T2 T1
+*	Equiv T5 T4
+T19	Transcription 0 15	Transcriptional
+T20	Regulation 16 26	regulation
+T21	Regulation 82 86	Role
+T22	Regulation 128 135	control
+T23	Gene_expression 148 158	expression
+T24	Positive_regulation 222 232	activation
+T25	Gene_expression 261 271	expression
+T26	Positive_regulation 334 345	stimulation
+T27	Positive_regulation 349 359	activation
+T28	Positive_regulation 665 682	play a major role
+T29	Transcription 686 701	transcriptional
+T30	Positive_regulation 702 712	activation
+T31	Binding 739 750	interaction
+T32	Positive_regulation 952 961	necessary
+T33	Gene_expression 978 988	expression
+T34	Positive_regulation 1047 1057	activation
+T35	Positive_regulation 1130 1137	augment
+T36	Gene_expression 1154 1164	expression
+T37	Regulation 1282 1292	regulation
+T38	Gene_expression 1305 1315	expression
+E1	Transcription:T19 Theme:T2
+E2	Regulation:T20 Theme:E1
+E3	Regulation:T21 Theme:E4
+E4	Regulation:T22 Theme:E5
+E5	Gene_expression:T23 Theme:T3
+E6	Positive_regulation:T24 Theme:E9 Cause:E11
+E7	Positive_regulation:T24 Theme:E9
+E8	Positive_regulation:T24 Theme:E9 Cause:E10
+E9	Gene_expression:T25 Theme:T5
+E10	Positive_regulation:T26 Theme:T6
+E11	Positive_regulation:T27 Theme:T7
+E12	Positive_regulation:T28 Theme:E16
+E13	Positive_regulation:T28 Theme:E16 Cause:E18
+E14	Positive_regulation:T28 Theme:E16 Cause:E17
+E15	Transcription:T29 Theme:T10
+E16	Positive_regulation:T30 Theme:E15
+E17	Binding:T31 Theme:T9
+E18	Binding:T31 Theme:T8
+E19	Positive_regulation:T32 Theme:E20
+E20	Gene_expression:T33 Theme:T14
+E21	Positive_regulation:T34 Theme:T15
+E22	Positive_regulation:T35 Theme:E23
+E23	Gene_expression:T36 Theme:T17
+E24	Regulation:T37 Theme:E25
+E25	Gene_expression:T38 Theme:T18
+M1	Speculation E19

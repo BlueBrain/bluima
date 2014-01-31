@@ -1,0 +1,11 @@
+For the current versions of Protégé, the above properties can be
+set as the default set of properties for NIFSTD. NIFSTD has other
+annotation properties associated with version control which will
+bedescribedinSection“Versioningpolicy.”Whenextractingexternal sources using MIREOT principles, NIFSTD keeps the identical
+source URIs along with the original identifier fragments unaltered. This approach allows NIF to avoid extra mapping efforts
+with the community sources. Prior to the MIREOT approach,
+the practice was simply to assign new class ID for any externally
+sourced classes which led to maintenance difficulty due to too
+many mapping annotations. We still have some mappings from
+the BIRNLex vocabularies, as we did not have the MIREOT tool
+when we started.

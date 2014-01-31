@@ -1,0 +1,6 @@
+*	Equiv T2 T3
+T8	Positive_regulation 698 705	enhance
+T9	Protein_catabolism 746 757	degradation
+E1	Positive_regulation:T8 Theme:E2
+E2	Protein_catabolism:T9 Theme:T5
+M1	Speculation E1

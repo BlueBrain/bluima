@@ -1,0 +1,21 @@
+T8	Positive_regulation 683 693	activation
+T9	Binding 712 719	binding
+T10	Protein_catabolism 853 861	degraded
+T11	Positive_regulation 871 880	following
+T12	Regulation 962 967	alter
+T13	Negative_regulation 1022 1030	suppress
+T14	Entity 1037 1044	nuclear
+T15	Localization 1045 1057	localization
+E1	Positive_regulation:T8 Theme:E2
+E2	Binding:T9 Theme:T1 Theme2:T2
+E3	Protein_catabolism:T10 Theme:T3
+E4	Positive_regulation:T11 Theme:E3
+E5	Regulation:T12 Theme:T4
+E6	Regulation:T12 Theme:T5
+E7	Negative_regulation:T13 Theme:E9
+E8	Negative_regulation:T13 Theme:E10
+E9	Localization:T15 Theme:T5 ToLoc:T14
+E10	Localization:T15 Theme:T4 ToLoc:T14
+M1	Negation E1
+M2	Negation E5
+M3	Negation E6

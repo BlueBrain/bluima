@@ -1,0 +1,40 @@
+*	Equiv T3 T2
+T12	Gene_expression 566 576	expression
+T13	Binding 582 589	binding
+T14	Positive_regulation 863 871	resulted
+T15	Binding 879 888	formation
+T16	Positive_regulation 1197 1218	resulted in increased
+T17	Binding 1236 1243	binding
+T18	Positive_regulation 1289 1298	increased
+T19	Gene_expression 1299 1309	expression
+T20	Negative_regulation 1356 1365	inhibited
+T21	Positive_regulation 1373 1383	stimulated
+T22	Binding 1410 1422	heterodimers
+T23	Positive_regulation 1424 1432	favoring
+T24	Binding 1441 1448	binding
+T25	Negative_regulation 1474 1483	inhibited
+T26	Gene_expression 1488 1498	expression
+T27	Positive_regulation 1665 1672	induced
+T28	Gene_expression 1682 1692	expression
+T29	Negative_regulation 1697 1707	suppressed
+E1	Gene_expression:T12 Theme:T3
+E2	Binding:T13 Theme:T3
+E3	Positive_regulation:T14 Theme:E4
+E4	Binding:T15 Theme:T4
+E5	Positive_regulation:T16 Theme:E6
+E6	Binding:T17 Theme:T5
+E7	Positive_regulation:T18 Theme:E8
+E8	Gene_expression:T19 Theme:T6
+E9	Negative_regulation:T20 Theme:E10
+E10	Positive_regulation:T21 Theme:E11
+E11	Binding:T22 Theme:T7
+E12	Positive_regulation:T23 Theme:E13 Cause:E8
+E13	Binding:T24 Theme:T8
+E14	Negative_regulation:T25 Theme:E16
+E15	Negative_regulation:T25 Theme:E17
+E16	Gene_expression:T26 Theme:T10
+E17	Gene_expression:T26 Theme:T9
+E18	Positive_regulation:T27 Theme:E19
+E19	Gene_expression:T28 Theme:T11
+E20	Negative_regulation:T29 Theme:E19
+M1	Negation E20

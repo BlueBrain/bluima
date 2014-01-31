@@ -1,0 +1,16 @@
+T12	Positive_regulation 107 116	induction
+T13	Positive_regulation 190 196	occurs
+T14	Positive_regulation 785 794	activated
+T15	Positive_regulation 844 867	expression of activated
+T16	Negative_regulation 1272 1282	reductions
+T17	Transcription 1291 1306	gene expression
+E1	Positive_regulation:T12 Theme:T2
+E2	Positive_regulation:T12 Theme:T4
+E3	Positive_regulation:T12 Theme:T3
+E4	Positive_regulation:T13 Theme:E1
+E5	Positive_regulation:T13 Theme:E2
+E6	Positive_regulation:T13 Theme:E3
+E7	Positive_regulation:T14 Theme:T7
+E8	Positive_regulation:T15 Theme:T8
+E9	Negative_regulation:T16 Theme:E10
+E10	Transcription:T17 Theme:T10

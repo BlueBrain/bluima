@@ -1,0 +1,24 @@
+*	Equiv T1 T2
+T28	Positive_regulation 1054 1063	Increased
+T29	Gene_expression 1088 1098	expression
+T30	Negative_regulation 1659 1683	had a negative influence
+T31	Negative_regulation 1752 1773	antagonistic activity
+T32	Positive_regulation 1765 1773	activity
+T33	Positive_regulation 1801 1805	high
+T34	Gene_expression 1812 1822	expression
+T35	Gene_expression 1950 1964	overexpression
+T36	Positive_regulation 1950 1964	overexpression
+E1	Positive_regulation:T28 Theme:E5
+E2	Positive_regulation:T28 Theme:E4
+E3	Positive_regulation:T28 Theme:E6
+E4	Gene_expression:T29 Theme:T9
+E5	Gene_expression:T29 Theme:T8
+E6	Gene_expression:T29 Theme:T10
+E7	Negative_regulation:T30 Theme:T21 Cause:T20
+E8	Negative_regulation:T31 Theme:T22
+E9	Positive_regulation:T32 Theme:T22
+E10	Positive_regulation:T33 Theme:E11
+E11	Gene_expression:T34 Theme:T23
+E12	Gene_expression:T35 Theme:T24
+E13	Positive_regulation:T36 Theme:E12
+M1	Negation E10

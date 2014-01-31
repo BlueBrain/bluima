@@ -1,0 +1,17 @@
+T17	Gene_expression 222 231	induction
+T18	Gene_expression 449 458	expresses
+T19	Positive_regulation 529 537	inactive
+T20	Positive_regulation 566 576	importance
+T21	Gene_expression 602 612	expression
+T22	Gene_expression 697 707	expressing
+T23	Positive_regulation 803 814	transfected
+T24	Gene_expression 803 814	transfected
+E1	Gene_expression:T17 Theme:T3
+E2	Gene_expression:T18 Theme:T5
+E3	Positive_regulation:T19 Theme:T6
+E4	Positive_regulation:T20 Theme:E5
+E5	Gene_expression:T21 Theme:T3
+E6	Gene_expression:T22 Theme:T8
+E7	Positive_regulation:T23 Theme:E8
+E8	Gene_expression:T24 Theme:T9
+M1	Negation E3

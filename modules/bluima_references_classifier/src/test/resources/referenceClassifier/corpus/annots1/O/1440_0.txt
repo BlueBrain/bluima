@@ -1,0 +1,9 @@
+Optimization of Motif Number
+We hypothesized that high functional motif number and
+diversity represent important ingredients in the global
+organization of cortical networks, and that a selective
+advantage for these two properties might contribute to the
+generation of other significant structural properties. To test
+this hypothesis we applied an evolutionary algorithm (Sporns
+et al. 2000) that selects for networks with high functional
+motif number, while rewiring their connectivity. All simulations were carried out with networks of size N = 30, K =

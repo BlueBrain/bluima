@@ -1,0 +1,26 @@
+T11	Positive_regulation 308 317	induction
+T12	Positive_regulation 682 690	increase
+T13	Positive_regulation 895 902	induces
+T14	Transcription 909 922	transcription
+T15	Gene_expression 943 953	expression
+T16	Positive_regulation 1160 1169	induction
+T17	Gene_expression 1210 1220	expression
+T18	Positive_regulation 1242 1251	induction
+T19	Positive_regulation 1370 1377	induced
+T20	Gene_expression 1442 1452	expression
+T21	Negative_regulation 1456 1466	attenuated
+E1	Positive_regulation:T11 Theme:T1
+E2	Positive_regulation:T12 Theme:T2
+E3	Positive_regulation:T13 Theme:E6
+E4	Positive_regulation:T13 Theme:E5
+E5	Transcription:T14 Theme:T3
+E6	Gene_expression:T15 Theme:T4
+E7	Positive_regulation:T16 Theme:E8
+E8	Gene_expression:T17 Theme:T5
+E9	Positive_regulation:T18 Theme:T6
+E10	Positive_regulation:T19 Theme:T8
+E11	Positive_regulation:T19 Theme:T7
+E12	Gene_expression:T20 Theme:T9
+E13	Negative_regulation:T21 Theme:E12
+M1	Negation E2
+M2	Negation E7

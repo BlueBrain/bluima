@@ -1,0 +1,16 @@
+T18	Entity 0 7	Nuclear
+T19	Localization 61 72	distributed
+T20	Positive_regulation 900 910	activation
+T21	Gene_expression 969 976	present
+T22	Gene_expression 1089 1095	higher
+T23	Gene_expression 1172 1177	found
+E1	Localization:T19 Theme:T2 AtLoc:T18
+E2	Localization:T19 Theme:T1 AtLoc:T18
+E3	Positive_regulation:T20 Theme:T8
+E4	Positive_regulation:T20 Theme:T7
+E5	Gene_expression:T21 Theme:T10
+E6	Gene_expression:T21 Theme:T9
+E7	Gene_expression:T22 Theme:T11
+E8	Gene_expression:T23 Theme:T12
+E9	Gene_expression:T23 Theme:T14
+E10	Gene_expression:T23 Theme:T13

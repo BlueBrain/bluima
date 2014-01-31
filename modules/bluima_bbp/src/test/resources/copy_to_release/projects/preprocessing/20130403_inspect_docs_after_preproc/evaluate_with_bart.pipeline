@@ -1,0 +1,19 @@
+cr: ch.epfl.bbp.uima.mongo.MongoCollectionReader
+ db_connection__java: new String[]{  "128.178.187.248", "preprocessed_2", "20130327_preprocess_ft", "", ""} 
+ query: {pmid:{ $gt: 2000000 }}
+
+
+#ae: BartWriter
+# batchPrefix: ev_amb_
+# debug_java: true
+             
+ae: ViterbiFilterAnnotator
+
+ae: HtmlViewerWriter
+
+#ae: BartWriter
+# batchPrefix: ev_
+# debug_java: true
+ 
+ae: StatsTextAnnotator 
+ printEvery__java: 10

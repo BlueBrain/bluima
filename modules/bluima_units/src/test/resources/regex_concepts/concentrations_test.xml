@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unitTests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	id="concentration_test" version="Ressource Unit Tests ($Revision$ $Date$)"
+	xsi:noNamespaceSchemaLocation="resource_unit_test.xsd">
+
+	<!-- White list - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - White list -->
+	<result>
+		<description>[WHITE] Simple standard case.</description>
+		<input>40 nM</input>
+		<output id="textValue">40 nM</output>
+		<output id="value">40</output>
+		<output id="unit">nM</output>
+	</result>
+
+	<result>
+		<description>[WHITE] Dot inside value and no separator before unit.</description>
+		<input>123.123microM</input>
+		<output id="textValue">123.123microM</output>
+		<output id="value">123.123</output>
+		<output id="unit">microM</output>
+	</result>
+
+	<result>
+		<description>[WHITE] Simple case after some number not part of the concentration.</description>
+		<input>12 12 nM</input>
+		<output id="textValue">12 nM</output>
+		<output id="value">12</output>
+		<output id="unit">nM</output>
+	</result>
+
+	<!-- Ratio units - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Ratio units -->
+	<result>
+		<description>[WHITE] Ratio units.</description>
+		<input>12 g/l</input>
+		<output id="textValue">12 g/l</output>
+		<output id="value">12</output>
+		<output id="unit">g/l</output>
+	</result>
+	
+	<result>
+		<description>[WHITE] Ratio units.</description>
+		<input>12.3 µg/m3</input>
+		<output id="textValue">12.3 µg/m3</output>
+		<output id="value">12.3</output>
+		<output id="unit">µg/m3</output>
+	</result>
+
+	<!-- Distribution - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Distribution -->
+	<result>
+		<description>[WHITE] Distribution: Mean ± SE (Standard Error).</description>
+		<input>330 ± 80 copies</input>
+		<output id="textValue">330 ± 80 copies</output>
+		<output id="meanValue">330</output>
+		<output id="standardErrorValue">80</output>
+		<output id="unit">copies</output>
+	</result>
+	
+	<!-- Approximation - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Approximation -->
+	<result>
+		<description>[WHITE] Estimation (copy number).</description>
+		<input>~330 copies</input>
+		<output id="textValue">~330 copies</output>
+		<output id="accuracy">~</output>
+		<output id="value">330</output>
+		<output id="unit">copies</output>
+	</result>
+	
+	<result>
+		<description>[WHITE] Estimation (with noise and with space).</description>
+		<input>halli hallo ~ 330 copies byebye</input>
+		<output id="textValue">~ 330 copies</output>
+		<output id="accuracy">~</output>
+		<output id="value">330</output>
+		<output id="unit">copies</output>
+	</result>
+	
+	<result>
+		<description>[WHITE] Approximation.</description>
+		<input>approximately 220 copies</input>
+		<output id="textValue">approximately 220 copies</output>
+		<output id="accuracy">approximately</output>
+		<output id="value">220</output>
+		<output id="unit">copies</output>
+	</result>
+	
+	<result>
+		<description>[WHITE] Approximation (start with capital letter).</description>
+		<input>Approximately 220 copies</input>
+		<output id="textValue">Approximately 220 copies</output>
+		<output id="accuracy">Approximately</output>
+		<output id="value">220</output>
+		<output id="unit">copies</output>
+	</result>
+	
+	<result>
+		<description>[WHITE] Approximation (use of abbreviation).</description>
+		<input>approx. 220 copies</input>
+		<output id="textValue">approx. 220 copies</output>
+		<output id="accuracy">approx.</output>
+		<output id="value">220</output>
+		<output id="unit">copies</output>
+	</result>
+	
+	<result>
+		<description>[WHITE] Approximation (abbreviation without separator).</description>
+		<input>approx.220 copies</input>
+		<output id="textValue">approx.220 copies</output>
+		<output id="accuracy">approx.</output>
+		<output id="value">220</output>
+		<output id="unit">copies</output>
+	</result>
+	
+	<result>
+		<description>[WHITE] Approximation (with a lot of space).</description>
+		<input>approx.   220 copies</input>
+		<output id="textValue">approx.   220 copies</output>
+		<output id="accuracy">approx.</output>
+		<output id="value">220</output>
+		<output id="unit">copies</output>
+	</result>
+	
+	<!-- No Approximation - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - No Approximation -->
+	<result>
+		<description>[WHITE] Approximation too far apart (for instance at the end of the previous paragraph).</description>
+		<!-- Annotate copy number only! 'approx.' should be treated as noise -->
+		<input>approx. &#xA;&#xA; 220 copies</input>
+		<output id="textValue">220 copies</output>
+		<output id="value">220</output>
+		<output id="unit">copies</output>
+	</result>
+	
+	<result>
+		<description>[WHITE] No valid approximation (abbreviation without dot).</description>
+		<!-- Annotate copy number only! 'Approx' should be treated as noise -->
+		<input>Approx 220 copies</input>
+		<output id="textValue">220 copies</output>
+		<output id="value">220</output>
+		<output id="unit">copies</output>
+	</result>
+	
+	<result>
+		<description>[WHITE] No valid approximation (could belong to previous sentence).</description>
+		<!-- Annotate copy number only! 'approximately.' should be treated as noise -->
+		<input>approximately. 220 copies</input>
+		<output id="textValue">220 copies</output>
+		<output id="value">220</output>
+		<output id="unit">copies</output>
+	</result>
+	
+	<!-- Range - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Range -->
+	<result>
+		<description>[WHITE] Range: Range Start - Range End (without space).</description>
+		<input>40-55 nM</input>
+		<output id="textValue">40-55 nM</output>
+		<output id="rangeStartValue">40</output>
+		<output id="rangeEndValue">55</output>
+		<output id="unit">nM</output>
+	</result>
+	
+	<result>
+		<description>[WHITE] Range: Range Start - Range End (with space).</description>
+		<input>40 - 55 nM</input>
+		<output id="textValue">40 - 55 nM</output>
+		<output id="rangeStartValue">40</output>
+		<output id="rangeEndValue">55</output>
+		<output id="unit">nM</output>
+	</result>
+	
+	<result>
+		<description>[WHITE] Range: Range Start - Range End (with irregular space).</description>
+		<input>40- 55 nM</input>
+		<output id="textValue">40- 55 nM</output>
+		<output id="rangeStartValue">40</output>
+		<output id="rangeEndValue">55</output>
+		<output id="unit">nM</output>
+	</result>
+	
+	<!-- Black list - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Black list -->
+	<result>
+		<description>[BLACK] Misspelled unit name.</description>
+		<input>40 mcroM</input>
+		<output />
+	</result>
+	
+	<result>
+		<description>[BLACK] No space before number.</description>
+		<input>aaa40 nM</input>
+		<output />
+	</result>
+	
+	<result>
+		<description>[BLACK] No space after unit name.</description>
+		<input>40 nMblabla</input>
+		<output />
+	</result>
+	
+	<result>
+		<description>[BLACK] Comma instead of dot inside value.</description>
+		<input>123,123 microM</input>
+		<output />
+	</result>
+	
+	<!-- Ratio units - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Ratio units -->
+	<result>
+		<description>[BLACK] Wrong ratio sign.</description>
+		<input>12 g\l</input>
+		<output />
+	</result>
+	
+	<!-- Distribution - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Distribution -->
+	<result>
+		<description>[BLACK] Incomplete distribution: Mean is missing.</description>
+		<input>±80 copies</input>
+		<output />
+	</result>
+	
+	<result>
+		<description>[BLACK] Incomplete distribution: SE (Standard Error) is missing.</description>
+		<input>330± copies</input>
+		<output />
+	</result>
+	
+	<result>
+		<description>[BLACK] Incomplete distribution: SE (Standard Error) is missing (with separator).</description>
+		<input>330 ± copies</input>
+		<output />
+	</result>
+	
+	<!-- Approximation - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Approximation -->
+	<result>
+		<description>[BLACK] Wrong order.</description>
+		<input>330~ copies</input>
+		<output />
+	</result>
+	
+	<result>
+		<description>[BLACK] Missing number.</description>
+		<input>~ copies</input>
+		<output />
+	</result>
+	
+	<result>
+		<description>[BLACK] Wrong order.</description>
+		<input>220 approx. copies</input>
+		<output />
+	</result>
+	
+	<result>
+		<description>[BLACK] Too many dots after abbreviation and no space.</description>
+		<input>approx...220 copies</input>
+		<output />
+	</result>	
+		
+	<!-- Range - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - Range -->
+	<result>
+		<description>[BLACK] Incomplete range: Range Start is missing (and we don't allow negative numbers).</description>
+		<input>-55 nM</input>
+		<output />
+	</result>
+	
+	<result>
+		<description>[BLACK] Incomplete range: Range End is missing.</description>
+		<input>40- nM</input>
+		<output />
+	</result>
+
+</unitTests>

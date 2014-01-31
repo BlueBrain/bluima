@@ -1,0 +1,20 @@
+T18	Binding 7 18	interaction
+T19	Positive_regulation 422 432	activation
+T20	Gene_expression 440 450	expression
+T21	Negative_regulation 638 658	decline in the level
+T22	Binding 835 844	interacts
+T23	Binding 942 953	Interaction
+T24	Positive_regulation 978 986	requires
+T25	Gene_expression 1283 1293	expression
+T26	Binding 1604 1615	interacting
+T27	Negative_regulation 1620 1628	opposing
+E1	Binding:T18 Theme:T1 Theme2:T2
+E2	Positive_regulation:T19 Theme:E3
+E3	Gene_expression:T20 Theme:T4
+E4	Negative_regulation:T21 Theme:T5
+E5	Binding:T22 Theme:T8 Theme2:T9
+E6	Binding:T23 Theme:T10 Theme2:T11
+E7	Positive_regulation:T24 Theme:E6
+E8	Gene_expression:T25 Theme:T15
+E9	Binding:T26 Theme:T16 Theme2:T17
+E10	Negative_regulation:T27 Theme:T17 Cause:T16

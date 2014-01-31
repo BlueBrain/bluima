@@ -1,0 +1,18 @@
+T16	Positive_regulation 241 247	induce
+T17	Localization 253 262	secretion
+T18	Gene_expression 273 283	expression
+T19	Gene_expression 368 378	expression
+T20	Binding 647 655	ligation
+T21	Localization 800 809	secretion
+T22	Positive_regulation 1141 1150	induction
+E1	Positive_regulation:T16 Theme:E3 Cause:T2
+E2	Positive_regulation:T16 Theme:E4 Cause:T2
+E3	Localization:T17 Theme:T3
+E4	Gene_expression:T18 Theme:T4
+E5	Gene_expression:T19 Theme:T5
+E6	Binding:T20 Theme:T7
+E7	Localization:T21 Theme:T11
+E8	Localization:T21 Theme:T10
+E9	Localization:T21 Theme:T8
+E10	Localization:T21 Theme:T9
+E11	Positive_regulation:T22 Theme:T12

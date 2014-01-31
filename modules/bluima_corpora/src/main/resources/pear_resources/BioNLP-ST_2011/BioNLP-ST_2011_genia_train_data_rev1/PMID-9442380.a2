@@ -1,0 +1,44 @@
+*	Equiv T2 T3
+T16	Positive_regulation 113 124	upregulated
+T17	Gene_expression 248 258	expression
+T18	Negative_regulation 312 315	low
+T19	Gene_expression 374 381	express
+T20	Binding 485 492	binding
+T21	Binding 774 778	bind
+T22	Positive_regulation 805 816	upregulated
+T23	Binding 867 874	is true
+T24	Binding 1062 1069	binding
+T25	Positive_regulation 1094 1105	upregulated
+T26	Binding 1170 1177	binding
+T27	Entity 1246 1258	GGGGACTTTCCG
+T28	Binding 1281 1285	bind
+T29	Negative_regulation 1373 1381	detected
+T30	Positive_regulation 1454 1465	upregulated
+T31	Regulation 1506 1515	dependent
+E1	Positive_regulation:T16 Theme:T1
+E2	Gene_expression:T17 Theme:T2
+E3	Negative_regulation:T18 Theme:E2
+E4	Gene_expression:T19 Theme:T4
+E5	Binding:T20 Theme:T5
+E6	Binding:T20 Theme:T6
+E7	Binding:T21 Theme:T7
+E8	Positive_regulation:T22 Theme:T7
+E9	Binding:T23 Theme:T7
+E10	Binding:T24 Theme:T8
+E11	Binding:T24 Theme:T9
+E12	Positive_regulation:T25 Theme:T9
+E13	Positive_regulation:T25 Theme:T8
+E14	Binding:T26 Theme:T10
+E15	Binding:T26 Theme:T11
+E16	Binding:T28 Theme:T12 Theme2:T13 Site:T27
+E17	Binding:T28 Theme:T12 Theme2:T14 Site:T27
+E18	Negative_regulation:T29 Theme:E16
+E19	Negative_regulation:T29 Theme:E17
+E20	Positive_regulation:T30 Theme:T15
+E21	Regulation:T31 Theme:E20
+M1	Negation E7
+M2	Negation E9
+M3	Negation E14
+M4	Negation E15
+M5	Negation E16
+M6	Negation E17

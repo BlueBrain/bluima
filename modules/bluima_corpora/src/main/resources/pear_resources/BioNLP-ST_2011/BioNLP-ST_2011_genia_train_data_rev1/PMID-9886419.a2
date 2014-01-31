@@ -1,0 +1,76 @@
+T31	Regulation 0 10	Regulation
+T32	Gene_expression 19 28	synthesis
+T33	Regulation 242 249	effects
+T34	Gene_expression 276 291	gene expression
+T35	Localization 296 313	protein secretion
+T36	Regulation 429 435	effect
+T37	Gene_expression 443 453	expression
+T38	Localization 457 466	secretion
+T39	Positive_regulation 485 489	when
+T40	Positive_regulation 572 579	enhance
+T41	Localization 585 592	release
+T42	Regulation 782 786	role
+T43	Positive_regulation 811 822	enhancement
+T44	Positive_regulation 844 851	induced
+T45	Gene_expression 857 867	production
+T46	Regulation 915 924	influence
+T47	Regulation 977 984	effects
+T48	Gene_expression 1000 1010	production
+T49	Regulation 1015 1026	independent
+T50	Positive_regulation 1121 1129	enhanced
+T51	Positive_regulation 1134 1141	induced
+T52	Negative_regulation 1207 1214	blocked
+T53	Positive_regulation 1308 1316	mediated
+E1	Regulation:T31 Theme:E3 Cause:T3
+E2	Regulation:T31 Theme:E3 Cause:T2
+E3	Gene_expression:T32 Theme:T1
+E4	Regulation:T33 Theme:E11 Cause:T8
+E5	Regulation:T33 Theme:E11 Cause:T6
+E6	Regulation:T33 Theme:E10 Cause:T8
+E7	Regulation:T33 Theme:E10 Cause:T6
+E8	Regulation:T33 Theme:E10 Cause:T5
+E9	Regulation:T33 Theme:E11 Cause:T5
+E10	Gene_expression:T34 Theme:T7
+E11	Localization:T35 Theme:T7
+E12	Regulation:T36 Theme:E17 Cause:T10
+E13	Regulation:T36 Theme:E17 Cause:T9
+E14	Regulation:T36 Theme:E16 Cause:T10
+E15	Regulation:T36 Theme:E16 Cause:T9
+E16	Gene_expression:T37 Theme:T11
+E17	Localization:T38 Theme:T11
+E18	Positive_regulation:T39 Theme:E20
+E19	Positive_regulation:T39 Theme:E21
+E20	Positive_regulation:T40 Theme:E22 Cause:T13
+E21	Positive_regulation:T40 Theme:E22 Cause:T14
+E22	Localization:T41 Theme:T15
+E23	Regulation:T42 Theme:E24
+E24	Positive_regulation:T43 Theme:E27 Cause:T17
+E25	Positive_regulation:T44 Theme:E27 Cause:T18
+E26	Positive_regulation:T44 Theme:E27
+E27	Gene_expression:T45 Theme:T19
+E28	Regulation:T46 Theme:E24
+E29	Regulation:T47 Theme:E30 Cause:T21
+E30	Gene_expression:T48 Theme:T22
+E31	Regulation:T49 Theme:E29
+E32	Positive_regulation:T50 Theme:E34 Cause:T24
+E33	Positive_regulation:T50 Theme:E34 Cause:T23
+E34	Positive_regulation:T51 Theme:T25
+E35	Negative_regulation:T52 Theme:E33
+E36	Negative_regulation:T52 Theme:E32
+E37	Positive_regulation:T53 Theme:E33
+E38	Positive_regulation:T53 Theme:E32
+M1	Speculation E4
+M2	Speculation E5
+M3	Speculation E6
+M4	Speculation E7
+M5	Speculation E8
+M6	Speculation E9
+M7	Speculation E10
+M8	Speculation E11
+M9	Negation E12
+M10	Negation E13
+M11	Negation E14
+M12	Negation E15
+M13	Speculation E23
+M14	Negation E28
+M15	Negation E31

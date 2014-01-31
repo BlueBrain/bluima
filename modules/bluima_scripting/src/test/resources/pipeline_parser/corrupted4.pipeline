@@ -1,0 +1,24 @@
+## to test the pipeline parser
+## this is an INVALID pipeline
+
+
+## a comment
+cr: SingleAbstractReader
+ arg1: bla\\
+bli bli on second line
+# another comment MUST BE INDENTED
+ arg2: bla
+
+
+ae: EnsureDocHasHeader
+ arg1: bla
+ arg2: bla
+ arg3: bla
+
+ae: EnsureDocHasHeader
+ arg1: bla
+
+java:
+System.out.println("hello");
+// a comment
+System.out.println("world");

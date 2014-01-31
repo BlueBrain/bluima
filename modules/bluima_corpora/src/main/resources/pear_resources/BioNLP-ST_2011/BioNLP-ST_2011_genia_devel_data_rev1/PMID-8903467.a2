@@ -1,0 +1,19 @@
+T12	Gene_expression 905 914	expressed
+T13	Transcription 1034 1041	absence
+T14	Transcription 1392 1400	detected
+T15	Transcription 1439 1443	lack
+T16	Transcription 1529 1538	expressed
+T17	Negative_regulation 1801 1816	Down-regulation
+E1	Gene_expression:T12 Theme:T1
+E2	Gene_expression:T12 Theme:T3
+E3	Gene_expression:T12 Theme:T2
+E4	Transcription:T13 Theme:T4
+E5	Transcription:T14 Theme:T8
+E6	Transcription:T14 Theme:T7
+E7	Transcription:T15 Theme:T9
+E8	Transcription:T16 Theme:T7
+E9	Transcription:T16 Theme:T8
+E10	Negative_regulation:T17 Theme:T11
+E11	Negative_regulation:T17 Theme:T10
+M1	Negation E4
+M2	Negation E7

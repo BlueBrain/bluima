@@ -1,0 +1,5 @@
+## to test the pipeline parser
+## this is an INVALID pipeline
+
+ ## a comment MUST START AT BEG OF LINE
+cr: SingleAbstractReader

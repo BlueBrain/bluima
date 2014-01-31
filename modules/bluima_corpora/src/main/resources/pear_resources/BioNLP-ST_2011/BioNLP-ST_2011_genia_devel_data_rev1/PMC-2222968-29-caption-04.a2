@@ -1,0 +1,12 @@
+T14	Positive_regulation 6 15	Induction
+T15	Gene_expression 297 307	expression
+T16	Gene_expression 404 412	staining
+E1	Positive_regulation:T14 Theme:T1
+E2	Gene_expression:T15 Theme:T8
+E3	Gene_expression:T15 Theme:T9
+E4	Gene_expression:T16 Theme:T10
+E5	Gene_expression:T16 Theme:T11
+M1	Speculation E2
+M2	Speculation E3
+M3	Speculation E4
+M4	Speculation E5

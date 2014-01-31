@@ -1,0 +1,52 @@
+*	Equiv T5 T6
+T28	Negative_regulation 27 34	Inhibit
+T29	Positive_regulation 45 52	Induced
+T30	Gene_expression 59 69	Expression
+T31	Regulation 482 492	regulating
+T32	Gene_expression 497 507	expression
+T33	Negative_regulation 719 727	inhibits
+T34	Gene_expression 827 841	overexpressing
+T35	Negative_regulation 883 892	deficient
+T36	Positive_regulation 934 942	mediated
+T37	Positive_regulation 949 958	induction
+T38	Positive_regulation 979 987	mediated
+T39	Binding 998 1005	binding
+T40	Entity 1028 1036	promoter
+T41	Regulation 1299 1305	target
+T42	Negative_regulation 2074 2082	inhibits
+T43	Positive_regulation 2087 2096	induction
+T44	Positive_regulation 2182 2189	induced
+T45	Positive_regulation 2196 2204	mediates
+T46	Negative_regulation 2211 2221	inhibition
+T47	Binding 2234 2241	binding
+T48	Entity 2247 2259	GATA element
+T49	Negative_regulation 2331 2343	neutralizing
+T50	Positive_regulation 2599 2608	induction
+T51	Binding 2625 2630	binds
+T52	Negative_regulation 2647 2656	represses
+T53	Entity 2667 2675	promoter
+E1	Negative_regulation:T28 Theme:E2
+E2	Positive_regulation:T29 Theme:E3 Cause:T2
+E3	Gene_expression:T30 Theme:T3
+E4	Regulation:T31 Theme:E5
+E5	Gene_expression:T32 Theme:T4
+E6	Negative_regulation:T33 Theme:T7 Cause:T5
+E7	Gene_expression:T34 Theme:T8
+E8	Negative_regulation:T35 Theme:E9
+E9	Positive_regulation:T36 Theme:E10 Cause:T9
+E10	Positive_regulation:T37 Theme:T10
+E11	Positive_regulation:T38 Theme:E8 Cause:E12
+E12	Binding:T39 Theme:T11 Theme2:T12 Site2:T40
+E13	Regulation:T41 Theme:T14
+E14	Regulation:T41 Theme:T15
+E15	Negative_regulation:T42 Theme:E16 Cause:T18
+E16	Positive_regulation:T43 Theme:T19
+E17	Positive_regulation:T44 Theme:T21 Cause:T20
+E18	Positive_regulation:T45 Theme:E19 Cause:E20
+E19	Negative_regulation:T46 Theme:T22
+E20	Binding:T47 Theme:T21 Theme2:T23 Site2:T48
+E21	Negative_regulation:T49 Theme:T24
+E22	Positive_regulation:T50 Theme:T26 Cause:T25
+E23	Binding:T51 Theme:T26 Theme2:T27 Site2:T53
+E24	Negative_regulation:T52 Theme:T27 Cause:E23 Site:T53
+M1	Speculation E4

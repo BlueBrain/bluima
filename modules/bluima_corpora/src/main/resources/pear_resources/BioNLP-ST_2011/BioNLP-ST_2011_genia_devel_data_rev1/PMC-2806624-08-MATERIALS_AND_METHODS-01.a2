@@ -1,0 +1,116 @@
+T253	Negative_regulation 388 397	deficient
+T254	Gene_expression 595 605	expression
+T255	Negative_regulation 2437 2446	depletion
+T256	Binding 4094 4101	binding
+T257	Binding 4194 4201	binding
+T258	Gene_expression 4894 4903	expressed
+T259	Negative_regulation 5822 5827	siRNA
+T260	Gene_expression 6561 6571	expression
+T261	Regulation 8571 8577	effect
+T262	Gene_expression 8581 8595	overexpression
+T263	Gene_expression 8813 8824	transfected
+T264	Gene_expression 8965 8975	expression
+T265	Negative_regulation 9337 9343	siRNAs
+T266	Negative_regulation 9407 9413	siRNAs
+T267	Transcription 11179 11183	mRNA
+T268	Transcription 11766 11770	mRNA
+T269	Positive_regulation 11780 11788	mediated
+T270	Negative_regulation 11794 11803	knockdown
+T271	Gene_expression 12089 12099	expression
+T272	Gene_expression 12909 12922	protein level
+T273	Gene_expression 13866 13877	transfected
+T274	Gene_expression 15087 15098	transfected
+T275	Localization 18664 18673	secretion
+T276	Positive_regulation 19000 19009	induction
+T277	Transcription 19037 19041	mRNA
+T278	Negative_regulation 19128 19137	decreased
+T279	Transcription 19154 19158	mRNA
+T280	Positive_regulation 19194 19202	mediated
+T281	Negative_regulation 19203 19212	knockdown
+T282	Negative_regulation 19217 19226	decreased
+T283	Gene_expression 19233 19243	expression
+T284	Negative_regulation 19288 19297	knockdown
+T285	Negative_regulation 19430 19435	siRNA
+T286	Positive_regulation 19594 19603	induction
+T287	Gene_expression 19627 19641	overexpression
+T288	Regulation 19740 19746	effect
+T289	Gene_expression 19753 19763	expression
+E1	Negative_regulation:T253 Theme:T15
+E2	Gene_expression:T254 Theme:T18
+E3	Negative_regulation:T255 Theme:T48
+E4	Binding:T256 Theme:T75
+E5	Binding:T257 Theme:T76
+E6	Gene_expression:T258 Theme:T82
+E7	Negative_regulation:T259 Theme:T101
+E8	Negative_regulation:T259 Theme:T102
+E9	Gene_expression:T260 Theme:T109
+E10	Regulation:T261 Theme:T126 Cause:E11
+E12	Regulation:T261 Theme:T126 Cause:E13
+E11	Gene_expression:T262 Theme:T124
+E13	Gene_expression:T262 Theme:T125
+E14	Gene_expression:T263 Theme:T130
+E15	Gene_expression:T263 Theme:T131
+E16	Gene_expression:T264 Theme:T132
+E17	Negative_regulation:T265 Theme:T136
+E18	Negative_regulation:T266 Theme:T137
+E19	Transcription:T267 Theme:T153
+E20	Transcription:T267 Theme:T154
+E21	Transcription:T268 Theme:T157
+E22	Positive_regulation:T269 Theme:E23
+E23	Negative_regulation:T270 Theme:T158
+E24	Gene_expression:T271 Theme:T159
+E25	Gene_expression:T272 Theme:T166
+E26	Gene_expression:T272 Theme:T167
+E27	Gene_expression:T273 Theme:T171
+E28	Gene_expression:T273 Theme:T172
+E29	Gene_expression:T274 Theme:T176
+E30	Gene_expression:T274 Theme:T177
+E31	Localization:T275 Theme:T200
+E32	Localization:T275 Theme:T201
+E33	Localization:T275 Theme:T202
+E34	Localization:T275 Theme:T203
+E35	Localization:T275 Theme:T204
+E36	Localization:T275 Theme:T205
+E37	Localization:T275 Theme:T206
+E38	Positive_regulation:T276 Theme:E39
+E40	Positive_regulation:T276 Theme:E41
+E42	Positive_regulation:T276 Theme:E43
+E39	Transcription:T277 Theme:T207
+E41	Transcription:T277 Theme:T208
+E43	Transcription:T277 Theme:T209
+E44	Negative_regulation:T278 Theme:E45 Cause:E46
+E47	Negative_regulation:T278 Theme:E45 Cause:E48
+E49	Negative_regulation:T278 Theme:E45 Cause:E50
+E51	Negative_regulation:T278 Theme:E52 Cause:E46
+E53	Negative_regulation:T278 Theme:E52 Cause:E48
+E54	Negative_regulation:T278 Theme:E52 Cause:E50
+E45	Transcription:T279 Theme:T215
+E52	Transcription:T279 Theme:T216
+E55	Positive_regulation:T280 Theme:E46
+E46	Negative_regulation:T281 Theme:E56
+E48	Negative_regulation:T282 Theme:E56 Cause:E57
+E50	Negative_regulation:T282 Theme:E56 Cause:E58
+E56	Gene_expression:T283 Theme:T217
+E57	Negative_regulation:T284 Theme:T219
+E58	Negative_regulation:T284 Theme:T220
+E59	Negative_regulation:T285 Theme:T226
+E60	Negative_regulation:T285 Theme:T227
+E61	Positive_regulation:T286 Theme:T230 Cause:E62
+E63	Positive_regulation:T286 Theme:T230 Cause:E64
+E62	Gene_expression:T287 Theme:T231
+E64	Gene_expression:T287 Theme:T232
+E65	Regulation:T288 Theme:E66 Cause:T234
+E67	Regulation:T288 Theme:E66 Cause:T235
+E66	Gene_expression:T289 Theme:T236
+M1	Speculation E10
+M2	Speculation E12
+M3	Speculation E16
+M4	Speculation E31
+M5	Speculation E32
+M6	Speculation E33
+M7	Speculation E34
+M8	Speculation E35
+M9	Speculation E36
+M10	Speculation E37
+M11	Negation E65
+M12	Negation E67

@@ -1,0 +1,43 @@
+*	Equiv T18 T17
+T24	Transcription 226 239	transcription
+T25	Regulation 433 441	involved
+T26	Binding 584 588	bind
+T27	Entity 589 606	response elements
+T28	Binding 719 726	binding
+T29	Binding 766 773	binding
+T30	Entity 860 868	enhancer
+T31	Entity 926 934	enhancer
+T32	Gene_expression 1046 1057	transfected
+T33	Positive_regulation 1046 1057	transfected
+T34	Regulation 1187 1204	under the control
+T35	Gene_expression 1295 1305	expression
+T36	Regulation 1306 1314	directed
+T37	Negative_regulation 1400 1405	lower
+T38	Gene_expression 1465 1475	expression
+T39	Negative_regulation 1547 1557	equivalent
+E1	Transcription:T24 Theme:T1
+E2	Transcription:T24 Theme:T3
+E3	Transcription:T24 Theme:T4
+E4	Transcription:T24 Theme:T2
+E5	Regulation:T25 Theme:E4
+E6	Binding:T26 Theme:T13 Site:T27
+E7	Binding:T28 Theme:T13 Site:T27
+E8	Binding:T28 Theme:T13 Theme2:T14 Site:T27
+E9	Binding:T29 Theme:T15 Site:T30
+E10	Binding:T29 Theme:T16 Site:T31
+E11	Gene_expression:T32 Theme:T18
+E12	Positive_regulation:T33 Theme:E11
+E13	Regulation:T34 Theme:T18
+E14	Gene_expression:T35 Theme:T20
+E15	Regulation:T36 Theme:E14
+E16	Negative_regulation:T37 Theme:E14
+E17	Gene_expression:T38 Theme:T22
+E18	Negative_regulation:T39 Theme:E17
+M1	Negation E1
+M2	Negation E2
+M3	Negation E3
+M4	Negation E4
+M5	Speculation E5
+M6	Speculation E6
+M7	Speculation E11
+M8	Negation E18

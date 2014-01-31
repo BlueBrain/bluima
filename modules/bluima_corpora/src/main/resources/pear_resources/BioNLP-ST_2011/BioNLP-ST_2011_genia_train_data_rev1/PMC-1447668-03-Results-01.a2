@@ -1,0 +1,21 @@
+T27	Positive_regulation 429 443	overexpression
+T28	Gene_expression 672 682	expression
+T29	Transcription 848 863	mRNA expression
+T30	Gene_expression 895 908	concentration
+T31	Positive_regulation 941 950	increases
+T32	Gene_expression 1107 1117	expression
+T33	Transcription 1471 1486	mRNA expression
+T34	Gene_expression 1689 1699	expression
+T35	Positive_regulation 1833 1847	overexpression
+T36	Positive_regulation 1973 1987	overexpression
+E1	Positive_regulation:T27 Theme:T8
+E2	Gene_expression:T28 Theme:T10
+E3	Transcription:T29 Theme:T13
+E4	Gene_expression:T30 Theme:T14
+E5	Positive_regulation:T31 Theme:E4
+E6	Gene_expression:T32 Theme:T16
+E7	Transcription:T33 Theme:T18
+E8	Gene_expression:T34 Theme:T21
+E9	Positive_regulation:T35 Theme:T22
+E10	Positive_regulation:T36 Theme:T23
+M1	Speculation E3

@@ -1,0 +1,358 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- created with go_fetch_subcell.py -->
+<!-- from Severine's list, then GO syononyms -->
+
+<synonym>
+
+<token canonical="neurofilament" ref_id="subcell:5883">
+   <variant base="neurofilament" />
+   <variant base="type IV intermediate filament" />
+</token>
+<token canonical="postsynaptic density" ref_id="subcell:14069">
+   <variant base="postsynaptic density" />
+   <variant base="post synaptic density" />
+   <variant base="post-synaptic density" />
+</token>
+<token canonical="neuron projection" ref_id="subcell:43005">
+   <variant base="neuron projection" />
+   <variant base="neuron protrusion" />
+   <variant base="neuronal cell projection" />
+   <variant base="neurite" />
+   <variant base="neuron process" />
+</token>
+<token canonical="axon" ref_id="subcell:30424">
+   <variant base="axon" />
+</token>
+<token canonical="dendrite" ref_id="subcell:30425">
+   <variant base="dendrite" />
+</token>
+<token canonical="growth cone" ref_id="subcell:30426">
+   <variant base="growth cone" />
+</token>
+<token canonical="axolemma" ref_id="subcell:30673">
+   <variant base="axolemma" />
+   <variant base="axonal membrane" />
+</token>
+<token canonical="growth cone membrane" ref_id="subcell:32584">
+   <variant base="growth cone membrane" />
+</token>
+<token canonical="neuron projection membrane" ref_id="subcell:32589">
+   <variant base="neuron projection membrane" />
+</token>
+<token canonical="dendrite membrane" ref_id="subcell:32590">
+   <variant base="dendrite membrane" />
+</token>
+<token canonical="dendritic spine membrane" ref_id="subcell:32591">
+   <variant base="dendritic spine membrane" />
+</token>
+<token canonical="neuronal cell body membrane" ref_id="subcell:32809">
+   <variant base="neuronal cell body membrane" />
+   <variant base="neuronal cell soma membrane" />
+   <variant base="neuron cell body membrane" />
+</token>
+<token canonical="dendrite cytoplasm" ref_id="subcell:32839">
+   <variant base="dendrite cytoplasm" />
+   <variant base="dendritic cytoplasm" />
+</token>
+<token canonical="axon part" ref_id="subcell:33267">
+   <variant base="axon part" />
+</token>
+<token canonical="node of Ranvier" ref_id="subcell:33268">
+   <variant base="node of Ranvier" />
+</token>
+<token canonical="internode region of axon" ref_id="subcell:33269">
+   <variant base="internode region of axon" />
+   <variant base="internode" />
+</token>
+<token canonical="paranode region of axon" ref_id="subcell:33270">
+   <variant base="paranode region of axon" />
+   <variant base="paranode" />
+</token>
+<token canonical="presynaptic membrane" ref_id="subcell:42734">
+   <variant base="presynaptic membrane" />
+   <variant base="pre-synaptic membrane" />
+</token>
+<token canonical="neuronal cell body" ref_id="subcell:43025">
+   <variant base="neuronal cell body" />
+   <variant base="neuron cell body" />
+   <variant base="neuronal cell soma" />
+</token>
+<token canonical="axon initial segment" ref_id="subcell:43194">
+   <variant base="axon initial segment" />
+   <variant base="initial segment" />
+</token>
+<token canonical="terminal bouton" ref_id="subcell:43195">
+   <variant base="terminal bouton" />
+   <variant base="presynaptic bouton" />
+   <variant base="synaptic bouton" />
+   <variant base="bouton" />
+   <variant base="terminal button" />
+</token>
+<token canonical="varicosity" ref_id="subcell:43196">
+   <variant base="varicosity" />
+</token>
+<token canonical="dendritic spine" ref_id="subcell:43197">
+   <variant base="dendritic spine" />
+   <variant base="sessile dendritic spine" />
+   <variant base="mushroom dendritic spine" />
+   <variant base="stubby dendritic spine" />
+   <variant base="thin dendritic spine" />
+   <variant base="dendrite spine" />
+   <variant base="branched dendritic spine" />
+</token>
+<token canonical="dendritic shaft" ref_id="subcell:43198">
+   <variant base="dendritic shaft" />
+   <variant base="trunk" />
+</token>
+<token canonical="axon hillock" ref_id="subcell:43203">
+   <variant base="axon hillock" />
+</token>
+<token canonical="perikaryon" ref_id="subcell:43204">
+   <variant base="perikaryon" />
+   <variant base="cell soma cytoplasm" />
+</token>
+<token canonical="axon terminus" ref_id="subcell:43679">
+   <variant base="axon terminus" />
+   <variant base="nerve ending" />
+   <variant base="axon terminal" />
+   <variant base="axon terminal specialization" />
+   <variant base="motor endplate" />
+</token>
+<token canonical="juxtaparanode region of axon" ref_id="subcell:44224">
+   <variant base="juxtaparanode region of axon" />
+   <variant base="juxtaparanodal region" />
+   <variant base="juxtaparanode" />
+</token>
+<token canonical="apical pole of neuron" ref_id="subcell:44225">
+   <variant base="apical pole of neuron" />
+</token>
+<token canonical="basal pole of neuron" ref_id="subcell:44226">
+   <variant base="basal pole of neuron" />
+</token>
+<token canonical="subplasmalemmal coating" ref_id="subcell:44280">
+   <variant base="subplasmalemmal coating" />
+</token>
+<token canonical="dendrite terminus" ref_id="subcell:44292">
+   <variant base="dendrite terminus" />
+   <variant base="dendrite terminal specialization" />
+   <variant base="terminal specialization" />
+   <variant base="terminal specialization of a dendrite" />
+   <variant base="dendrite terminal" />
+</token>
+<token canonical="dendriole" ref_id="subcell:44293">
+   <variant base="dendriole" />
+</token>
+<token canonical="dendritic growth cone" ref_id="subcell:44294">
+   <variant base="dendritic growth cone" />
+   <variant base="dendrite growth cone" />
+</token>
+<token canonical="axonal growth cone" ref_id="subcell:44295">
+   <variant base="axonal growth cone" />
+   <variant base="axon growth cone" />
+</token>
+<token canonical="dendritic tuft" ref_id="subcell:44296">
+   <variant base="dendritic tuft" />
+   <variant base="dendrite tuft" />
+</token>
+<token canonical="cerebellar mossy fiber" ref_id="subcell:44300">
+   <variant base="cerebellar mossy fiber" />
+   <variant base="cerebellar mossy fibre" />
+</token>
+<token canonical="climbing fiber" ref_id="subcell:44301">
+   <variant base="climbing fiber" />
+   <variant base="climbing fibre" />
+</token>
+<token canonical="dentate gyrus mossy fiber" ref_id="subcell:44302">
+   <variant base="dentate gyrus mossy fiber" />
+   <variant base="dentate gyrus mossy fibre" />
+   <variant base="granule cell axon" />
+</token>
+<token canonical="axon collateral" ref_id="subcell:44303">
+   <variant base="axon collateral" />
+</token>
+<token canonical="main axon" ref_id="subcell:44304">
+   <variant base="main axon" />
+   <variant base="axon trunk" />
+</token>
+<token canonical="calyx of Held" ref_id="subcell:44305">
+   <variant base="calyx of Held" />
+</token>
+<token canonical="neuron projection terminus" ref_id="subcell:44306">
+   <variant base="neuron projection terminus" />
+   <variant base="neuron projection terminal" />
+   <variant base="neuron terminal specialization" />
+</token>
+<token canonical="dendritic branch" ref_id="subcell:44307">
+   <variant base="dendritic branch" />
+   <variant base="dendrite branch" />
+</token>
+<token canonical="axonal spine" ref_id="subcell:44308">
+   <variant base="axonal spine" />
+   <variant base="axon spine" />
+</token>
+<token canonical="neuron spine" ref_id="subcell:44309">
+   <variant base="neuron spine" />
+   <variant base="spine" />
+</token>
+<token canonical="cone cell pedicle" ref_id="subcell:44316">
+   <variant base="cone cell pedicle" />
+   <variant base="cone pedicle" />
+</token>
+<token canonical="rod spherule" ref_id="subcell:44317">
+   <variant base="rod spherule" />
+   <variant base="rod photoreceptor spherule" />
+   <variant base="rod cell spherule" />
+</token>
+<token canonical="dendritic spine neck" ref_id="subcell:44326">
+   <variant base="dendritic spine neck" />
+</token>
+<token canonical="dendritic spine head" ref_id="subcell:44327">
+   <variant base="dendritic spine head" />
+</token>
+<token canonical="presynaptic active zone" ref_id="subcell:48786">
+   <variant base="presynaptic active zone" />
+   <variant base="pre-synaptic active zone" />
+</token>
+<token canonical="presynaptic active zone membrane" ref_id="subcell:48787">
+   <variant base="presynaptic active zone membrane" />
+   <variant base="pre-synaptic active zone membrane" />
+   <variant base="active zone presynaptic plasma membrane" />
+   <variant base="active zone pre-synaptic plasma membrane" />
+   <variant base="active zone plasma membrane" />
+</token>
+<token canonical="presynaptic cytoskeletal matrix assembled at active zones" ref_id="subcell:48788">
+   <variant base="presynaptic cytoskeletal matrix assembled at active zones" />
+   <variant base="CAZ" />
+   <variant base="presynaptic cytomatrix assembled at active zones" />
+   <variant base="T-bar ribbon" />
+   <variant base="presynaptic dense body" />
+   <variant base="T-bar" />
+   <variant base="synaptic ribbon" />
+   <variant base="pre-synaptic ribbon" />
+   <variant base="pre-synaptic cytoskeletal matrix assembled at active zones" />
+   <variant base="active zone cytomatrix" />
+   <variant base="pre-synaptic dense body" />
+   <variant base="presynaptic ribbon" />
+   <variant base="ribbon" />
+</token>
+<token canonical="neurofilament cytoskeleton" ref_id="subcell:60053">
+   <variant base="neurofilament cytoskeleton" />
+</token>
+<token canonical="type I terminal bouton" ref_id="subcell:61174">
+   <variant base="type I terminal bouton" />
+   <variant base="type I terminal button" />
+</token>
+<token canonical="type II terminal bouton" ref_id="subcell:61175">
+   <variant base="type II terminal bouton" />
+   <variant base="type II terminal button" />
+</token>
+<token canonical="type Ib terminal bouton" ref_id="subcell:61176">
+   <variant base="type Ib terminal bouton" />
+   <variant base="type Ib terminal button" />
+</token>
+<token canonical="type Is terminal bouton" ref_id="subcell:61177">
+   <variant base="type Is terminal bouton" />
+   <variant base="type Is terminal button" />
+</token>
+<token canonical="cell body fiber" ref_id="subcell:70852">
+   <variant base="cell body fiber" />
+   <variant base="cell body fibre" />
+   <variant base="primary neurite" />
+</token>
+<token canonical="subsynaptic reticulum" ref_id="subcell:71212">
+   <variant base="subsynaptic reticulum" />
+   <variant base="SSR" />
+</token>
+<token canonical="neuronal ribonucleoprotein granule" ref_id="subcell:71598">
+   <variant base="neuronal ribonucleoprotein granule" />
+   <variant base="neuronal RNA granule" />
+   <variant base="neuronal RNP granule" />
+</token>
+<token canonical="sensory dendrite" ref_id="subcell:71683">
+   <variant base="sensory dendrite" />
+</token>
+<token canonical="apical dendrite" ref_id="subcell:97440">
+   <variant base="apical dendrite" />
+</token>
+<token canonical="basilar dendrite" ref_id="subcell:97441">
+   <variant base="basilar dendrite" />
+</token>
+<token canonical="CA3 pyramidal cell dendrite" ref_id="subcell:97442">
+   <variant base="CA3 pyramidal cell dendrite" />
+</token>
+<token canonical="presynaptic active zone dense projection" ref_id="subcell:97445">
+   <variant base="presynaptic active zone dense projection" />
+   <variant base="pre-synaptic active zone dense projection" />
+   <variant base="active zone dense projection" />
+</token>
+<token canonical="dendritic tree" ref_id="subcell:97447">
+   <variant base="dendritic tree" />
+</token>
+<token canonical="hippocampal mossy fiber" ref_id="subcell:97457">
+   <variant base="hippocampal mossy fiber" />
+</token>
+<token canonical="gemmule" ref_id="subcell:97463">
+   <variant base="gemmule" />
+</token>
+<token canonical="thorny excrescence" ref_id="subcell:97464">
+   <variant base="thorny excrescence" />
+</token>
+<token canonical="somatic spine" ref_id="subcell:97465">
+   <variant base="somatic spine" />
+</token>
+<token canonical="type III terminal bouton" ref_id="subcell:97467">
+   <variant base="type III terminal bouton" />
+   <variant base="type III terminal button" />
+</token>
+<token canonical="dendritic microtubule" ref_id="subcell:1901588">
+   <variant base="dendritic microtubule" />
+   <variant base="microtubulus of dendrite" />
+   <variant base="microtubule of dendrite" />
+</token>
+<token canonical="axon microtubule bundle" ref_id="subcell:1901589">
+   <variant base="axon microtubule bundle" />
+   <variant base="axon microtubule fascicle" />
+   <variant base="microtubule bundle of axon" />
+   <variant base="microtubule fascicle of axon" />
+</token>
+<token canonical="presynaptic grid" ref_id="subcell:1990013">
+   <variant base="presynaptic grid" />
+   <variant base="pre-synaptic grid" />
+</token>
+<token canonical="recurrent axon collateral" ref_id="subcell:1990020">
+   <variant base="recurrent axon collateral" />
+   <variant base="recurrent collateral" />
+</token>
+<token canonical="Schaffer axon collateral" ref_id="subcell:1990021">
+   <variant base="Schaffer axon collateral" />
+   <variant base="Schaffer collateral" />
+</token>
+<token canonical="C bouton" ref_id="subcell:1990024">
+   <variant base="C bouton" />
+</token>
+<token canonical="hippocampal mossy fiber expansion" ref_id="subcell:1990026">
+   <variant base="hippocampal mossy fiber expansion" />
+   <variant base="dentate gyrus mossy fiber expansion" />
+   <variant base="dentate gyrus granule cell axonal bouton" />
+   <variant base="mossy fiber expansion" />
+</token>
+<token canonical="pericellular basket" ref_id="subcell:1990030">
+   <variant base="pericellular basket" />
+   <variant base="peri-cellular basket" />
+   <variant base="peri cellular basket" />
+</token>
+<token canonical="pinceau fiber" ref_id="subcell:1990031">
+   <variant base="pinceau fiber" />
+</token>
+<token canonical="parallel fiber" ref_id="subcell:1990032">
+   <variant base="parallel fiber" />
+</token>
+<token canonical="dendritic branch point" ref_id="subcell:1990033">
+   <variant base="dendritic branch point" />
+   <variant base="branch point of dendrite" />
+</token>
+<token canonical="neuronal postsynaptic density" ref_id="subcell:97481">
+   <variant base="neuronal postsynaptic density" />
+   <variant base="neuron postsynaptic density" />
+</token>
+</synonym>

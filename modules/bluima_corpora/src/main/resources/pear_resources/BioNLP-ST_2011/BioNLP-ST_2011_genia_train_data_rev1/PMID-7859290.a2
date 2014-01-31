@@ -1,0 +1,22 @@
+*	Equiv T5 T4
+T16	Binding 100 111	association
+T17	Binding 525 535	associates
+T18	Binding 622 629	binding
+T19	Binding 643 653	recognizes
+T20	Entity 658 669	POU domains
+T21	Transcription 742 751	expressed
+T22	Gene_expression 899 909	expression
+E1	Binding:T16 Theme:T1
+E2	Binding:T17 Theme:T5 Theme2:T7
+E3	Binding:T17 Theme:T5 Theme2:T6
+E4	Binding:T18 Theme:T8
+E5	Binding:T19 Theme:T8 Theme2:T9 Site2:T20
+E6	Binding:T19 Theme:T8 Theme2:T10 Site2:T20
+E7	Binding:T19 Theme:T8 Theme2:T12 Site2:T20
+E8	Binding:T19 Theme:T8 Theme2:T11 Site2:T20
+E9	Transcription:T21 Theme:T13
+E10	Gene_expression:T22 Theme:T14
+M1	Negation E4
+M2	Negation E7
+M3	Negation E8
+M4	Negation E9

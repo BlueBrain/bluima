@@ -1,0 +1,13 @@
+FIG. 6. Temporal information encoded by facilitating synapses. A: information contained in the PSR of a facilitating synapse about the presynaptic
+ISIs, plotted as a function of the presynaptic firing rate. A probabilistic synapse
+with 5 release sites was modeled. Optimal frequency is obtained at about 20
+Hz. B: information contained in the PSR of a probabilistic facilitating synapse
+as a function of the number of release sites. Dotted line is for the optimal
+frequency of 20 Hz, whereas the continuous line is for input frequency of 2 Hz.
+C: the number of preceding spike times represented in the PSR. Mutual
+information between a PSR and the timing of a preceding spike, plotted as a
+function of the sequential number of the preceding presynaptic spike (larger
+numbers for spikes that occurred further back in time). A probabilistic facilitating synapse with 15 release sites was simulated. Model parameters: U1
+0.03, 300 ms, 1,800 ms (see METHODS). The average frequency
+rec facil
+of the presynaptic spike train was 2 Hz.

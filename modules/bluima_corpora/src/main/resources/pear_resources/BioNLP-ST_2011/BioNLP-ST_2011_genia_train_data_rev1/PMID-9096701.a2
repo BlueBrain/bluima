@@ -1,0 +1,33 @@
+*	Equiv T1 T2
+*	Equiv T11 T12
+*	Equiv T9 T10
+*	Equiv T3 T4
+*	Equiv T7 T8
+*	Equiv T5 T6
+*	Equiv T13 T14
+*	Equiv T15 T16
+T17	Gene_expression 0 10	Expression
+T18	Regulation 147 168	resulting in abnormal
+T19	Gene_expression 169 179	expression
+T20	Gene_expression 310 320	expression
+T21	Gene_expression 524 534	expression
+T22	Transcription 630 635	found
+T23	Gene_expression 773 783	expression
+T24	Gene_expression 947 957	expression
+T25	Positive_regulation 958 966	confined
+T26	Gene_expression 1009 1019	expression
+T27	Gene_expression 1097 1107	expression
+E1	Gene_expression:T17 Theme:T1
+E2	Regulation:T18 Theme:E3
+E3	Gene_expression:T19 Theme:T3
+E4	Gene_expression:T20 Theme:T5
+E5	Gene_expression:T21 Theme:T7
+E6	Transcription:T22 Theme:T9
+E7	Gene_expression:T23 Theme:T11
+E8	Gene_expression:T24 Theme:T13
+E9	Positive_regulation:T25 Theme:E8
+E10	Gene_expression:T26 Theme:T13
+E11	Gene_expression:T27 Theme:T15
+M1	Speculation E4
+M2	Speculation E5
+M3	Negation E7

@@ -1,0 +1,14 @@
+T9	Gene_expression 185 195	expression
+T10	Gene_expression 862 870	negative
+T11	Gene_expression 1052 1060	positive
+T12	Gene_expression 1179 1187	positive
+T13	Transcription 1391 1404	transcription
+T14	Gene_expression 1547 1555	negative
+E1	Gene_expression:T9 Theme:T2
+E2	Gene_expression:T10 Theme:T4
+E3	Gene_expression:T11 Theme:T5
+E4	Gene_expression:T12 Theme:T6
+E5	Transcription:T13 Theme:T7
+E6	Gene_expression:T14 Theme:T8
+M1	Negation E2
+M2	Negation E6

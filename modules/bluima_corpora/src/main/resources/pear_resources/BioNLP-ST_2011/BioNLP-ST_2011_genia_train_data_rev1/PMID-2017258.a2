@@ -1,0 +1,4 @@
+T7	Protein_catabolism 1239 1246	process
+T8	Positive_regulation 1239 1246	process
+E1	Protein_catabolism:T7 Theme:T6
+E2	Positive_regulation:T8 Theme:E1 Cause:T5

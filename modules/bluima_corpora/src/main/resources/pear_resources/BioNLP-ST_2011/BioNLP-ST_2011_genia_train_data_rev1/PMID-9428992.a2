@@ -1,0 +1,45 @@
+T12	Transcription 13 23	expression
+T13	Positive_regulation 96 109	up-regulation
+T14	Transcription 709 724	mRNA expression
+T15	Gene_expression 709 724	mRNA expression
+T16	Transcription 905 914	expressed
+T17	Positive_regulation 1082 1107	resulted in up-regulation
+T18	Localization 1177 1186	secretion
+T19	Positive_regulation 1257 1264	blunted
+T20	Positive_regulation 1430 1438	increase
+T21	Positive_regulation 1453 1465	accumulation
+T22	Regulation 1583 1591	regulate
+T23	Binding 1682 1689	binding
+T24	Entity 1733 1741	promoter
+E1	Transcription:T12 Theme:T2
+E2	Transcription:T12 Theme:T1
+E3	Positive_regulation:T13 Theme:T3
+E4	Positive_regulation:T13 Theme:T4
+E5	Transcription:T14 Theme:T7
+E6	Gene_expression:T15 Theme:T5
+E7	Transcription:T14 Theme:T6
+E8	Transcription:T14 Theme:T5
+E9	Transcription:T16 Theme:T6
+E10	Transcription:T16 Theme:T5
+E11	Transcription:T16 Theme:T7
+E12	Positive_regulation:T17 Theme:T9
+E13	Positive_regulation:T17 Theme:T8
+E14	Localization:T18 Theme:T10
+E15	Positive_regulation:T19 Theme:E14
+E16	Positive_regulation:T20 Theme:E18
+E17	Positive_regulation:T20 Theme:E19
+E18	Positive_regulation:T21 Theme:T8
+E19	Positive_regulation:T21 Theme:T9
+E20	Regulation:T22 Theme:T9
+E21	Regulation:T22 Theme:T8
+E22	Binding:T23 Theme:T8 Theme2:T11 Site2:T24
+E23	Binding:T23 Theme:T9 Theme2:T11 Site2:T24
+M1	Speculation E5
+M2	Speculation E6
+M3	Speculation E7
+M4	Speculation E8
+M5	Negation E15
+M6	Speculation E20
+M7	Speculation E21
+M8	Speculation E22
+M9	Speculation E23

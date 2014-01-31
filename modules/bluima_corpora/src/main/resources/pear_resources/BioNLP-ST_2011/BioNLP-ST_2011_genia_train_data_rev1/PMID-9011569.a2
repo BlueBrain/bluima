@@ -1,0 +1,32 @@
+*	Equiv T11 T10 T12 T13
+T15	Negative_regulation 220 227	decline
+T16	Localization 239 248	secretion
+T17	Regulation 576 583	effects
+T18	Transcription 600 613	transcription
+T19	Entity 812 820	promoter
+T20	Negative_regulation 834 838	lost
+T21	Negative_regulation 952 960	decrease
+T22	Negative_regulation 1114 1122	decrease
+T23	Binding 1134 1150	binding activity
+T24	Negative_regulation 1276 1285	prevented
+T25	Positive_regulation 1450 1468	serve as mediators
+T26	Negative_regulation 1613 1623	suppresses
+T27	Transcription 1637 1650	transcription
+E1	Negative_regulation:T15 Theme:E2
+E2	Localization:T16 Theme:T3
+E3	Regulation:T17 Theme:E4
+E4	Transcription:T18 Theme:T4
+E5	Negative_regulation:T20 Theme:T7 Site:T19
+E6	Negative_regulation:T21 Theme:T9
+E7	Negative_regulation:T21 Theme:T8
+E8	Negative_regulation:T22 Theme:E9
+E9	Binding:T23 Theme:T7 Theme2:T11 Site:T19
+E10	Negative_regulation:T24 Theme:E7
+E11	Negative_regulation:T24 Theme:E5
+E12	Negative_regulation:T24 Theme:E8
+E13	Negative_regulation:T24 Theme:E6
+E14	Positive_regulation:T25 Theme:E9
+E15	Negative_regulation:T26 Theme:E16
+E16	Transcription:T27 Theme:T14
+M1	Speculation E3
+M2	Speculation E14

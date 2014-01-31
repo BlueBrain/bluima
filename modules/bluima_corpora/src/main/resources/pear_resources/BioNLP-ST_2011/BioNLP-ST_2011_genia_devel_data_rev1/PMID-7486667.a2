@@ -1,0 +1,15 @@
+T8	Transcription 99 123	transcriptional activity
+T9	Positive_regulation 145 153	requires
+T10	Regulation 259 270	participate
+T11	Entity 279 287	promoter
+T12	Positive_regulation 288 298	activation
+T13	Phosphorylation 1131 1145	phosphorylates
+T14	Positive_regulation 1551 1557	induce
+T15	Phosphorylation 1656 1671	phosphorylation
+E1	Transcription:T8 Theme:T1
+E2	Positive_regulation:T9 Theme:E1
+E3	Regulation:T10 Theme:E4
+E4	Positive_regulation:T12 Theme:T3 Site:T11
+E5	Phosphorylation:T13 Theme:T5
+E6	Positive_regulation:T14 Theme:E7
+E7	Phosphorylation:T15 Theme:T7

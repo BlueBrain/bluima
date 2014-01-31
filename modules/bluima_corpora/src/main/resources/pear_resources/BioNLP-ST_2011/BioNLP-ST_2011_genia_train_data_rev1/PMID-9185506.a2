@@ -1,0 +1,37 @@
+T12	Negative_regulation 880 887	reduced
+T13	Transcription 1016 1025	synthesis
+T14	Negative_regulation 1062 1071	decreased
+T15	Gene_expression 1077 1087	expression
+T16	Negative_regulation 1105 1115	unaffected
+T17	Positive_regulation 1148 1158	activation
+T18	Negative_regulation 1493 1500	deplete
+T19	Gene_expression 1512 1520	products
+T20	Transcription 1637 1650	transcription
+T21	Negative_regulation 1655 1664	abrogated
+T22	Transcription 1694 1703	synthesis
+T23	Regulation 1716 1725	resistant
+T24	Negative_regulation 1731 1742	persistence
+T25	Transcription 1756 1768	transcribing
+E1	Negative_regulation:T12 Theme:T2
+E2	Negative_regulation:T12 Theme:T1
+E3	Negative_regulation:T12 Theme:T3
+E4	Transcription:T13 Theme:T4
+E5	Negative_regulation:T14 Theme:E4
+E6	Gene_expression:T15 Theme:T5
+E7	Negative_regulation:T16 Theme:E6
+E8	Positive_regulation:T17 Theme:T6
+E9	Negative_regulation:T18 Theme:E11
+E10	Negative_regulation:T18 Theme:E12
+E11	Gene_expression:T19 Theme:T7
+E12	Gene_expression:T19 Theme:T8
+E13	Transcription:T20 Theme:T9
+E14	Negative_regulation:T21 Theme:E13
+E15	Transcription:T22 Theme:T10
+E16	Regulation:T23 Theme:E15
+E17	Negative_regulation:T24 Theme:E18
+E18	Transcription:T25 Theme:T11
+M1	Negation E7
+M2	Speculation E9
+M3	Speculation E10
+M4	Negation E16
+M5	Negation E17

@@ -1,0 +1,49 @@
+*	Equiv T13 T12
+*	Equiv T3 T4
+T25	Negative_regulation 6 14	inhibits
+T26	Entity 35 43	promoter
+T27	Localization 324 333	secreting
+T28	Regulation 391 401	controlled
+T29	Transcription 402 431	at the level of transcription
+T30	Regulation 622 626	role
+T31	Regulation 630 640	regulating
+T32	Transcription 646 659	transcription
+T33	Binding 664 672	interact
+T34	Entity 689 721	sequences (termed P0 through P4)
+T35	Positive_regulation 783 790	induces
+T36	Gene_expression 791 801	expression
+T37	Positive_regulation 852 861	activated
+T38	Positive_regulation 945 953	required
+T39	Binding 997 1006	interacts
+T40	Entity 1050 1058	promoter
+T41	Regulation 1174 1178	role
+T42	Regulation 1191 1201	regulating
+T43	Transcription 1207 1220	transcription
+T44	Gene_expression 1455 1465	expressing
+T45	Entity 1502 1510	promoter
+T46	Negative_regulation 1515 1524	repressed
+T47	Regulation 1600 1609	dependent
+T48	Positive_regulation 1651 1659	promotes
+T49	Gene_expression 1665 1680	gene expression
+E1	Negative_regulation:T25 Theme:T2 Cause:T1 Site:T26
+E2	Localization:T27 Theme:T5
+E3	Regulation:T28 Theme:E4
+E4	Transcription:T29 Theme:T6
+E5	Regulation:T30 Theme:E6
+E6	Regulation:T31 Theme:E7
+E7	Transcription:T32 Theme:T7
+E8	Binding:T33 Theme:T8 Site:T34
+E9	Positive_regulation:T35 Theme:E10 Cause:T9
+E10	Gene_expression:T36 Theme:T10
+E11	Positive_regulation:T37 Theme:T13 Cause:T11
+E12	Positive_regulation:T38 Theme:E9 Cause:E11
+E13	Binding:T39 Theme:T14 Theme2:T15 Site2:T40
+E14	Regulation:T41 Theme:E15 Cause:T16
+E15	Regulation:T42 Theme:E16
+E16	Transcription:T43 Theme:T17
+E17	Gene_expression:T44 Theme:T21
+E18	Negative_regulation:T46 Theme:T22 Cause:T20 Site:T45
+E19	Regulation:T47 Theme:T23
+E20	Positive_regulation:T48 Theme:E21 Cause:T23
+E21	Gene_expression:T49 Theme:T24
+M1	Speculation E14

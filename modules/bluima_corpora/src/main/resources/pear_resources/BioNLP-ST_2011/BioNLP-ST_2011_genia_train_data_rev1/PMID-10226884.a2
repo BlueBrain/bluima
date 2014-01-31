@@ -1,0 +1,9 @@
+T9	Gene_expression 428 435	produce
+T10	Gene_expression 474 481	produce
+E1	Gene_expression:T9 Theme:T2
+E2	Gene_expression:T9 Theme:T3
+E3	Gene_expression:T10 Theme:T6
+E4	Gene_expression:T10 Theme:T4
+E5	Gene_expression:T10 Theme:T5
+E6	Gene_expression:T10 Theme:T8
+E7	Gene_expression:T10 Theme:T7

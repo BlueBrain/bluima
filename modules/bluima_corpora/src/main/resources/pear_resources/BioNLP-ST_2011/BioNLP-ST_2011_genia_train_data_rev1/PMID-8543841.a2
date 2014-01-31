@@ -1,0 +1,5 @@
+T21	Positive_regulation 133 141	elevated
+T22	Positive_regulation 1139 1148	induction
+E1	Positive_regulation:T21 Theme:T3
+E2	Positive_regulation:T22 Theme:T15
+E3	Positive_regulation:T22 Theme:T14

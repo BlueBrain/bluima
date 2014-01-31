@@ -1,0 +1,20 @@
+*	Equiv T8 T7
+T20	Binding 379 384	binds
+T21	Binding 405 415	homodimers
+T22	Binding 427 439	heterodimers
+T23	Binding 502 523	binding specificities
+T24	Binding 528 538	affinities
+T25	Binding 608 621	high affinity
+T26	Entity 667 680	kappa B sites
+T27	Binding 698 709	association
+T28	Binding 947 957	recognizes
+E1	Binding:T20 Theme:T4
+E2	Binding:T21 Theme:T4
+E3	Binding:T22 Theme:T4 Theme2:T5
+E4	Binding:T23 Theme:T4
+E5	Binding:T24 Theme:T4
+E6	Binding:T25 Theme:T6 Theme2:T9 Site2:T26
+E7	Binding:T25 Theme:T6 Theme2:T8 Site2:T26
+E8	Binding:T27 Theme:T10 Theme2:T13
+E9	Binding:T27 Theme:T10
+E10	Binding:T28 Theme:T13

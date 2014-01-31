@@ -1,0 +1,11 @@
+*	Equiv T1 T2
+*	Equiv T11 T12
+*	Equiv T9 T10
+*	Equiv T6 T7
+T13	Gene_expression 259 269	expression
+T14	Positive_regulation 291 298	induced
+T15	Binding 479 484	binds
+E1	Gene_expression:T13 Theme:T4
+E2	Positive_regulation:T14 Theme:E1
+E3	Binding:T15 Theme:T9
+E4	Binding:T15 Theme:T8

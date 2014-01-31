@@ -1,0 +1,4 @@
+is the distance of the point ( x', y') from the j-th landmark point on I'.
+It can be shown that the functions fx and fy have the
+minimum bending energy among the functions that
+interpolate x and y, ie, they minimize the following in-tegral:

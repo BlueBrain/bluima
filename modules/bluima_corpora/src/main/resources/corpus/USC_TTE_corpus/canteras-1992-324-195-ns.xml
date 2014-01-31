@@ -1,0 +1,2659 @@
+<?xml version='1.0'?>
+<!DOCTYPE File PUBLIC "NeuroScholar.DTD" "NeuroScholar.DTD">
+<File>
+
+  <Title>Projections of the Ventral Premammillary Nucleus</Title>
+
+  <Authors>N.S. CANTERAS, R.B. SIMERLY, AND L.W. SWANSON</Authors>
+
+  <Abstract>
+
+    <S avgH="22" class="abstract.heading" format="TimesNewRomanPSMT"
+     id="s0">ABSTRACT</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s1">The projections of the ventral premammillary nucleus (PMv) 
+    have been examined with the Phaseolus vulgaris leucoagglutinin 
+    (PHAL) method in adult male rats.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s2">The results indicate that the nucleus gives rise to two 
+    major ascending pathways and a smaller descending pathway.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s3">One large ascending pathway terminates densely in most 
+    regions of the periventricular zone of the hypothalamus, with the 
+    notable exception of the suprachiasmatic, suprachiasmatic preoptic, 
+    and median preoptic nuclei.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s4">This pathway is in a position to influence directly many 
+    cell groups known to regulate anterior pituitary function.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s5">The second large pathway ascends through the medial zone 
+    of the hypothalamus and densely innervates the ventrolateral part 
+    of the ventromedial nucleus and adjacent basal parts of the lateral 
+    hypothalamic area, medial preoptic nucleus, principal nucleus of 
+    the bed nuclei of the stria terminalis, ventral lateral septal 
+    nucleus, posterodorsal part of the medial nucleus of the amygdala, 
+    posterior nucleus, and immediately adjacent regions of the 
+    posterior cortical nucleus of the amygdala.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s6">It is already known that these regions are major 
+    components of the sexually dimorphic circuit, and, interestingly, 
+    that they provide the major neural inputs to the PMv.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s7">The smaller descending projection from the PMv seems to 
+    innervate preferentially the posterior hypothalamic nucleus, 
+    although a small number of fibers appear to end in the 
+    tuberomammillary nucleus, supramammillary nucleus, specific regions 
+    of the medial mammillary nucleus, interfascicular nucleus, 
+    interpeduncular nucleus, periaqueductal gray, dorsal nucleus of the 
+    raphe, laterodorsal tegmental nucleus, Barrington&apos;s nucleus, 
+    and locus coeruleus.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s8">Relatively sparse terminal fields associated with 
+    ascending fibers were also observed in the dorsomedial nucleus of 
+    the hypothalamus; in the nucleus reuniens, parataenial nucleus, 
+    paraventricular nucleus of the thalamus, and mediodorsal nucleus; 
+    in the central nucleus of the amygdala, anterodorsal part of the 
+    medial nucleus of the amygdala, posterior part of the basomedial 
+    nucleus of the amygdala; and in the ventral subiculum and adjacent 
+    parts of hippocampal field CAI, and the infralimbic and prelimbic 
+    areas of the medial prefrontal cortex.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s9">Taken as a whole, the evidence suggests that the PMv 
+    receives two major inputs-one from the sexually dimorphic circuit, 
+    and the other from the blood in the form of gonadal steroid 
+    hormones-and gives rise to two major outputs: one (perhaps 
+    feed-forward) to the neuroendocrine (periventricular) zone of the 
+    hypothalamus, and the other (perhaps feed-back) to the sexually 
+    dimorphic circuit. o 19% wiey-Lis, Inc.</S>
+    <BR />
+
+  </Abstract>
+
+  <Introduction>
+
+    <S avgH="22" class="introduction.subtitle"
+     format="TimesNewRomanPSMT" id="s10">motivated behavior</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s11">The ventral premammillary nucleus (PMv) was first 
+    recognized by Gurdjian (&apos;27) in the rat as a distinct, compact 
+    group of neurons in the medial zone of the hypothalamus, surrounded 
+    by the ventromedial, dorsal premammillary, and medial mammillary 
+    nuclei.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s12">Previous anatomical observations indicate that the PMv is 
+    strongly influenced by areas related to the sexually dimorphic 
+    circuit, and as a corollary of this appears to be dominated by 
+    sensory inputs relayed from the accessory olfactory bulb by way of 
+    the medial and posterior cortical nuclei of the amygdala, as well 
+    as by the principal (encapsulated) nucleus of the bed nuclei of the 
+    stria terminalis (Krettek and Price, &apos;78; Swanson and Cowan, 
+    &apos;79; Post and Mai, &apos;80; Kevetter and Winnans, &apos;81; 
+    Luiten et al., &apos;85; Simerly and Swanson, &apos;88; Canteras et 
+    al., &apos;92; N.S.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s13">Canteras, R.B.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s14">Simerly, and L.W.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s15">Swanson, unpublished observations).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s16">In addition to these neuronal inputs, the PMv may be 
+    influenced directly by fluctuating levels of gonadal steroid 
+    hormones, since it contains a very high density of neurons that 
+    concentrate circulating gonadal steroids (Pfaff and Keiner, 
+    &apos;73; Sar and Stumpf, &apos;75a,b; Stumpf et al., &apos;75), 
+    and express high levels of mRNA encoding the androgen receptor, and 
+    moderate levels of mRNA encoding the estrogen receptor (Simerly et 
+    al., &apos;90).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s17">Previous functional studies indicate that the PMv may be 
+    involved in the expression of aggressive behavior (van den Berg et 
+    al., &apos;831, thermoregulation (Shiraishi and Mager, 
+    &apos;80a,b), and gonadotropin secretion (Beltramino and Taleisnik, 
+    &apos;84, &apos;85).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s18">However, just how these and perhaps other responses may 
+    be mediated remains largely unknown, partly because the anatomical 
+    relationships of the nucleus have yet to be critically analyzed.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s19">Thus, a comprehensive description of the organization of 
+    the projections of the PMv should at least facilitate a general 
+    understanding of its role in these mechanisms, as well as provide 
+    insights into other possible roles played by this structure.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s20">Some information regarding the projections of the PMv can 
+    be gleaned from the earlier work of Saper et al. (&apos;76) and 
+    Krieger et al. (&apos;791, who reported the results of 
+    autoradiographic experiments with 3H-amino acid injections at the 
+    level of the PMv.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s21">However, these observations are rather limited because 
+    the injection sites always involved surrounding areas.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s22">On the other hand, labeled neurons within the PMv have 
+    been reported after injections of retrograde tracers in the septum 
+    (Luiten et al., &apos;82; Staiger and Nurnberger, &apos;891, 
+    amygdala Weening, &apos;78; Ottersen, &apos;80; Russchen, &apos;82; 
+    Luiten et al., &apos;85; Volz et al., &apos;901, thalamus 
+    (Herkenham, &apos;78; Cornwall and Phillipson, &apos;88; Chen and 
+    Su, &apos;go), hypothalamus (Shiosaka et al., &apos;80; Kita and 
+    Oomura, &apos;82; Sawchenko and Swanson, &apos;83; Chiba and 
+    Murata, &apos;85; Simerly and Swanson, &apos;86; Fahrbach et al., 
+    &apos;891, and brainstem (Contestabile and Flumerfelt, &apos;81; 
+    Morrell et al., &apos;81; Satoh and Fibiger, &apos;86).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s23">In the present report we describe the results of a series 
+    of pathway-tracing experiments in which the anterogradely 
+    transported lectin, Phaseolus uulgaris leucoagglutinin (PHAL), was 
+    injected into the PMv, and the distribution of labeled axons 
+    throughout the forebrain and brainstem was determined.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s24">As is now well known, this method has a number of 
+    advantages.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s25">It is very sensitive, does not appear to label 
+    fibers-of-passage, and has very clear injection sites since the 
+    dendrites and somata of neurons that give rise to labeled 
+    projections are filled.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s26">In addition, projections are labeled with the clarity of 
+    a Golgi impregnation, thus allowing the identification of terminal 
+    boutons and varicosities along axons as well as at their ends (see 
+    Gerfen and Sawchenko, &apos;84; Wouterlood and Groenewegen, 
+    &apos;85; Canteras et al., &apos;92).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s27">The results of the present report are compared with our 
+    observations on the projections of the nearby ventromedial and 
+    dorsal premammillary nuclei (Canteras and Swanson, &apos;92b).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s28">A preliminary account of this work has been presented 
+    elsewhere (Canteras et al., &apos;90).</S>
+  </Introduction>
+
+  <Methods>
+
+    <S avgH="28" class="methods.heading" format="TimesNewRomanPS-BoldMT"
+     id="s29">MATERIALS AND METHODS</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s30">Ten adult male Sprague-Dawley rats (275-340 g) received 
+    an injection of PHAL (Vector Laboratories) into the region of the 
+    ventral premammillary nucleus.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s31">Each animal was anesthetized with tribromoethanol (0.25 
+    g/kg b.w., dissolved in 9O:lO saline/ethanol, v/v), and a single 
+    iontophoretic injection of a 2.5% solution of PHAL in 0.01 M sodium 
+    phosphate-buffered saline (pH 7.4) was made through a 
+    stereotaxically positioned glass micropipette (tip diameter 10 pm) 
+    by applying a +4 pA current pulsed at 7-second intervals, provided 
+    by a constant-current source (Midgard Electronics, model CS3), for 
+    a period of 15 minutes.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s32">Postinjection survival times for all experiments ranged 
+    from 14 to 16 days.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s33">The animals were perfused and the brains were processed 
+    according to procedures described in detail elsewhere (Canteras et 
+    al., &apos;92).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s34">Briefly, each animal was deeply anesthetized with 
+    tribromoethanol and perfused transcardially with a solution of 4.0% 
+    paraformaldehyde in 0.1 M sodium borate buffer at pH 9.5; the 
+    brains were removed immediately and postfixed overnight in the same 
+    fixative containing 10% sucrose.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s35">Three series of 30-pm-thick frozen sections were cut in 
+    the frontal plane on a sliding microtome and collected at the 
+    following frequencies: one-in-ten through the olfactory bulbs and 
+    forebrain rostral to the vascular organ of the lamina terminalis, 
+    one-in-four through the hypothalamus and rostral half of the 
+    midbrain, and one-in-ten through the caudal midbrain and 
+    hindbrain.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s36">Additional sections were collected through levels 
+    containing the PMv and &quot;quickstained&quot; for confirmation of 
+    the injection site location (see Simerly and Swanson, &apos;88).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s37">One complete series of sections was processed for 
+    immunohistochemistry with an antiserum directed against PHAL (Dako 
+    Laboratories) at a dilution of 1: 1,000.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s38">The antigen-antibody complex was localized by using a 
+    variation of the avidin-biotin complex system (ABC; Hsu and Raine, 
+    &apos;81; Hsu et al., &apos;811, with a commercially available kit 
+    (ABC Elite Kit, Vector Laboratories).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s39">The sections were mounted on gelatin-coated slides, and 
+    treated with osmium tetroxide to enhance visibility of the reaction 
+    product.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s40">Slides were then dehydrated and coverslipped with DPX.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s41">An adjacent series was always stained with thionin to 
+    serve as a reference series for cytoarchitectonic purposes.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s42">Sections were examined with a Leitz Laborlux D microscope 
+    with both brightand darkfield illumination.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s43">PHALlabeled cells in the injection sites, as well as the 
+    distribution of the anterogradely labeled fibers, were plotted with 
+    the aid of a camera lucida on maps prepared from the adjacent 
+    Nissl-stained sections.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s44">For the purposes of illustration, the distribution of 
+    anterogradely labeled fibers was transposed onto a series of 
+    standard drawings of the rat brain (Swanson, &apos;92).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s45">Finally, it should be noted that we generated six 
+    experiments with an iontophoretic deposit of the retrograde tracer 
+    fluorogold (Schmued and Fallon, &apos;86) centered in the PMv, 
+    using procedures described in detail elsewhere (Canteras et al., 
+    &apos;92).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s46">These experiments were carried out to determine possible 
+    sources of afferents to the PMv.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s47">However, since the results almost entirely confirmed 
+    information in the literature, we have chosen not to describe these 
+    results, although they are occasionally referred to in the 
+    Discussion, where they help to clarify an issue or add a seemingly 
+    minor detail.</S>
+  </Methods>
+
+  <Results>
+
+    <S avgH="28" class="results.heading" format="TimesNewRomanPS-BoldMT"
+     id="s48">RESULTS</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s49">The parameters used for iontophoretic injections 
+    described above resulted in very discrete injection sites, usually 
+    with hundreds of neurons that were clearly labeled with PHAL.</S>
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s50">As shown in Figure 1, <exptLabel>five experiments 
+      labeled neurons that were fairly confined to <injectionLocation>
+      the PMv</injectionLocation></exptLabel>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s51">Although a few neurons outside the limits of 
+      <neuroanatomicalLandmark>the PMv</neuroanatomicalLandmark> were 
+      labeled in each case, in all of these experiments a very similar 
+      pattern of anterogradely labeled fibers was observed.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s52"><exptLabel>Experiment PMv-8</exptLabel> (Figs. 2 and 3) 
+      was chosen as a prototype to illustrate our results, since the 
+      injection here labeled the most extensive population of cells in 
+      <injectionLocation>the PMv</injectionLocation>.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s53"><labelingDescription>Labeled 
+      axons</labelingDescription> from <injectionLocation>the 
+      PMv</injectionLocation> may be divided into an ascending group 
+      that innervates targets rostral to <neuroanatomicalLandmark>the 
+      nucleus</neuroanatomicalLandmark> in <neuroanatomicalLocation>the 
+      diencephalon and telencephalon</neuroanatomicalLocation>, and a 
+      much smaller descending group that ends in <connxTermination>the 
+      brainstem central gray</connxTermination>.</S>
+      <BR />
+
+      <S avgH="25" class="results.subtitle" format="TimesNewRomanPSMT"
+       id="s54">Ascending projections</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s55">
+      <neuroanatomicalLocation>Hypothalamus</neuroanatomicalLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s56">The greater part of <labelingDescription>the labeled 
+      fibers</labelingDescription> that arise from injection sites in 
+      <injectionLocation>the PMv</injectionLocation> course rostrally 
+      through <labelingLocation>the periventricular and medial zones of 
+      the hypothalamus</labelingLocation>, while a smaller group of 
+      <labelingDescription>axons</labelingDescription> was also 
+      observed coursing through <labelingLocation>the medial forebrain 
+      bundle</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s57">From the injection site in <exptLabel>experiment 
+      PMv-8</exptLabel> (Fig. 3K,L), <labelingDescription>a rather 
+      large number of fibers</labelingDescription> course medially and 
+      then rostrally to ascend within <labelingLocation>the 
+      periventricular zone of the hypothalamus</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s58"><labelingDescription>The density of fibers and terminal 
+      boutons</labelingDescription> within <labelingLocation>this 
+      zone</labelingLocation> indicates that the PMv supplies 
+      relatively strong inputs to <labelingLocation>all parts of the 
+      periventricular nucleus of the hypothalamus</labelingLocation>, 
+      as well as <labelingLocation>the related arcuate and 
+      paraventricular nuclei</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s59">Within <labelingLocation>the arcuate 
+      nucleus</labelingLocation>, we observed <labelingDescription>a 
+      terminal field that was particularly dense 
+      laterally</labelingDescription> (Figs. 3 H 4 , 4E).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s60">It is important to note that, in spite of massive 
+      inputs to nearby areas, <labelingLocation>the median 
+      eminence</labelingLocation> was <labelingDescription>virtually 
+      free of anterograde labeling</labelingDescription> (Figs. 3H4, 
+      4E).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s61">Within <labelingLocation>the paraventricular 
+      nucleus</labelingLocation>, <labelingDescription>labeled fibers 
+      and terminal boutons</labelingDescription> were 
+      <labelingDescription>particularly numerous</labelingDescription> 
+      in <labelingLocation>the periventricular and anterior 
+      parvicellular parts</labelingLocation>, whereas <labelingLocation>
+      the rest of the parvicellular division</labelingLocation>, as 
+      well as <labelingLocation>the anterior part of the magnocellular 
+      division</labelingLocation>, appears to receive 
+      <labelingDescription>a sparser innervation</labelingDescription> 
+      (Figs. 3F-I, 4D).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s62"><labelingDescription>Only an occasional labeled 
+      fiber</labelingDescription> was observed in <labelingLocation>the 
+      posterior part of the magnocellular division</labelingLocation> 
+      or in <labelingLocation>the supraoptic nucleus</labelingLocation> 
+      (see Swanson and Simmons, &apos;89, for subdivision of 
+      <neuroanatomicalLocation>the paraventricular 
+      nucleus</neuroanatomicalLocation>).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s63">Rostrally, at the level of <neuroanatomicalLandmark>the 
+      preoptic region</neuroanatomicalLandmark>, 
+      <labelingDescription>axons</labelingDescription> from 
+      <injectionLocation>the PMv</injectionLocation> coursing through 
+      <labelingLocation>the periventricular zone</labelingLocation> 
+      provide <labelingDescription>a remarkably dense terminal 
+      field</labelingDescription> within <labelingLocation>the 
+      anteroventral periventricular nucleus</labelingLocation> (Figs. 
+      3C,D, 4A).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s64">Some of <labelingDescription>these 
+      fibers</labelingDescription> continue farther rostrally to end in 
+      <labelingLocation>a region just lateral to the vascular organ of 
+      the lamina terminalis</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s65">Thus, <injectionLocation>the PMv</injectionLocation> 
+      projects densely to <labelingLocation>most regions within the 
+      periventricular zone of the hypothalamus</labelingLocation>; 
+      curious~y, the Only in this &apos;One that do not Seem to receive 
+      a significant input are <labelingLocation>the suprachiasmatic, 
+      suprachiasmatic preoptic, and median preoptic 
+      nuclei</labelingLocation> (Fig. 3C-G).</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s66">Another <labelingDescription>massive contingent of 
+      labeled fibers</labelingDescription> ascends from the injection 
+      site through <labelingLocation>the medial zone of the 
+      hypothalamus</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s67">Just rostral to <neuroanatomicalLandmark>the 
+      PMv</neuroanatomicalLandmark>, these fibers give rise to 
+      <labelingDescription>an exceedingly dense terminal 
+      field</labelingDescription> that fills <labelingLocation>the 
+      ventrolateral part of the ventromedial nucleus and ventrally 
+      adjacent parts of the basal lateral hypothalamic 
+      area</labelingLocation> (Fig. 35).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s68"><labelingLocation>The dorsomedial and central parts of 
+      ventromedial nucleus</labelingLocation> were virtually 
+      <labelingDescription>free of anterograde 
+      labeling</labelingDescription>, although <labelingLocation>the 
+      cell-poor zone surrounding dorsal aspects of the 
+      nucleus</labelingLocation> appears to receive 
+      <labelingDescription>a moderate number of labeled 
+      axons</labelingDescription> (Fig. 3H-J).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s69">At this level, <labelingDescription>some labeled 
+      fibers</labelingDescription> continue dorsally to end in 
+      <labelingLocation>the dorsomedial nucleus</labelingLocation>, 
+      particularly medially near the periventricular zone (Fig. 35).</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s70">Toward the rostral end of <neuroanatomicalLandmark>the 
+      tuberal region</neuroanatomicalLandmark>, most of the fibers 
+      coursing through <neuroanatomicalLocation>the medial 
+      zone</neuroanatomicalLocation> tend to display 
+      <labelingDescription>few branches and terminal 
+      boutons</labelingDescription>, appearing more like 
+      <labelingDescription>fibers-of-passage</labelingDescription> 
+      (Fig. 3H,I).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s71">These axons continue rostrally through <labelingLocation
+      >the anterior hypothalamic area</labelingLocation> (Fig. 3G-I), 
+      where they also give rise to <labelingDescription>few terminal 
+      boutons</labelingDescription>, to reach <labelingLocation>the 
+      medial preoptic area</labelingLocation>, which (in contrast) is 
+      filled by <labelingDescription>a dense plexus of highly branched 
+      axons</labelingDescription> displaying <labelingDescription>an 
+      overwhelming number of terminal boutons</labelingDescription> 
+      (Fig. 3E,F).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s72">Within this area, <labelingLocation>the medial preoptic 
+      nucleus</labelingLocation> receives <labelingDescription>a 
+      particularly dense input</labelingDescription> that is somewhat 
+      <labelingDescription>more dense</labelingDescription> in 
+      <labelingLocation>the medial as compared to the lateral 
+      part</labelingLocation> and is <labelingDescription>very 
+      sparse</labelingDescription> in <labelingLocation>the central 
+      part</labelingLocation> (Figs. 3E,F, 4B).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s73"><labelingLocation>The anterodorsal and anteroventral 
+      preoptic nuclei</labelingLocation>, as well as <labelingLocation>
+      the parastrial nucleus</labelingLocation>, appear to receive only 
+      <labelingDescription>a very sparse input</labelingDescription> 
+      from the PMv (Fig. 3C-E).</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s74"><labelingDescription>A small group of 
+      fibers</labelingDescription> from <connxOrigin>the 
+      PMv</connxOrigin> courses dorsally and then laterally to ascend 
+      through <labelingLocation>the dorsal half of the medial forebrain 
+      bundle</labelingLocation> (Fig. 3F-L).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s75">As they travel through <labelingLocation>the lateral 
+      hypothalamic area</labelingLocation>, <labelingDescription>very 
+      few terminal boutons</labelingDescription> can be seen on these 
+      axons.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s76">At the level of <labelingLocation>the anterior 
+      hypothalamic area</labelingLocation>, some of these fibers turn 
+      medially, dorsal to <neuroanatomicalLandmark>the descending 
+      column of the fornix</neuroanatomicalLandmark>, and provide 
+      <labelingDescription>a relatively sparse 
+      input</labelingDescription> to <labelingLocation>rostral parts of 
+      the zona incerta and ventral parts of the nucleus 
+      reuniens</labelingLocation>, in <labelingLocation>a region dorsal 
+      to the paraventricular nucleus</labelingLocation> (Fig. 3G,H).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s77">At the rostral end of <neuroanatomicalLandmark>the 
+      lateral hypothalamic area</neuroanatomicalLandmark>, the 
+      remaining fibers in this pathway enter <labelingLocation>caudal 
+      regions of the bed nuclei of the stria terminalis and the 
+      substantia innominata</labelingLocation>, joining a larger group 
+      of fibers from <connxOrigin>the PMv</connxOrigin> that leaves 
+      <neuroanatomicalLocation>the medial preoptic 
+      area</neuroanatomicalLocation> at this level (Fig. 3F), as 
+      described below.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s78">
+      <neuroanatomicalLocation>Thalamus</neuroanatomicalLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s79"><labelingDescription>A moderate number of labeled 
+      fibers</labelingDescription> from <connxOrigin>the 
+      PMv</connxOrigin> that ascend through 
+      <neuroanatomicalLocation>the 
+      hypothalamus</neuroanatomicalLocation> take a dorsal course to 
+      provide <labelingDescription>inputs</labelingDescription> to 
+      <connxTermination>several parts of the 
+      thalamus</connxTermination>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s80"><labelingLocation>The paraventricular 
+      nucleus</labelingLocation> receives <labelingDescription>a 
+      moderate plexus of fibers</labelingDescription> that also appears 
+      to extend somewhat to adjacent parts of <labelingLocation>the 
+      paratenial nucleus and the medial part of the mediodorsal 
+      nucleus</labelingLocation> (Fig. 3F-L).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s81">In addition, we observed <labelingDescription>sparse 
+      anterograde labeling</labelingDescription> throughout the length 
+      of <labelingLocation>the nucleus reuniens</labelingLocation>; 
+      <labelingDescription>these fibers</labelingDescription> were 
+      especially common in <labelingLocation>ventral regions of the 
+      nucleus</labelingLocation> (Fig. 3G-J).</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s82">
+      <neuroanatomicalLocation>Septum</neuroanatomicalLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s83"><labelingDescription>A group of 
+      fibers</labelingDescription> from <connxOrigin>the 
+      PMv</connxOrigin> that ascends through <labelingLocation>the 
+      medial zone</labelingLocation>, and perhaps, to a much lesser 
+      extent, through <labelingLocation>the periventricular zone of the 
+      hypothalamus</labelingLocation> appears to provide 
+      <labelingDescription>massive inputs</labelingDescription> to 
+      <labelingLocation>the bed nuclei of the stria terminalis (BST), 
+      the lateral septal nucleus, and certain parts of the 
+      amygdala</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s84">At 
+      <neuroanatomicalLandmark>preoptic</neuroanatomicalLandmark> 
+      levels these axons leave <labelingLocation>the medial zone of the 
+      hypothalamus</labelingLocation>, taking either a dorsolateral 
+      route toward <labelingLocation>caudal regions of the 
+      BST</labelingLocation> (Fig. 3E,F) or a dorsal route rostral to 
+      <neuroanatomicalLandmark>the anterior 
+      commissure</neuroanatomicalLandmark> (Fig. 30.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s85"><labelingLocation>Parts of the posterior division of 
+      the BST</labelingLocation> (see Ju and Swanson, &apos;89 for 
+      subdivision of the BST) are filled with <labelingDescription>a 
+      dense plexus of fibers</labelingDescription>, and at this level 
+      some <labelingDescription>labeled fibers</labelingDescription> 
+      enter <labelingLocation>the stria terminalis</labelingLocation> 
+      or, to a much lesser extent, <labelingLocation>the substantia 
+      innominata (ansa peduncularis)</labelingLocation> to gain access 
+      to <labelingLocation>the amygdala</labelingLocation> (Fig. 
+      3E,F).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s86">Within <labelingLocation>the posterior division of the 
+      BST</labelingLocation>, <labelingDescription>the labeled 
+      fibers</labelingDescription> running through 
+      <labelingDescription>the interfascicular and transverse 
+      nuclei</labelingDescription> display <labelingDescription>many 
+      fewer ramifications and terminal boutons</labelingDescription> as 
+      compared to axons lying more medially within <labelingLocation>
+      the principal nucleus</labelingLocation>, where 
+      <labelingDescription>a rather dense terminal 
+      field</labelingDescription> was observed, particularly around the 
+      periphery of the nucleus (Figs. 3E,F, 4C).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s87">Within <labelingLocation>the anterior division of the 
+      BST</labelingLocation>, <labelingDescription>labeled 
+      fibers</labelingDescription> are widely distributed throughout 
+      <labelingLocation>the anterodorsal and anteroventral 
+      areas</labelingLocation>, while obviously tending to avoid 
+      <labelingLocation>the anterolateral area</labelingLocation> (Fig. 
+      3C-E).</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s88"><labelingDescription>Many fibers</labelingDescription> 
+      from <connxOrigin>the PMv</connxOrigin> also end in 
+      <labelingLocation>the lateral septal nucleus</labelingLocation>, 
+      where they form <labelingLocation>a particularly dense terminal 
+      field</labelingLocation> in <labelingLocation>the caudal 
+      two-thirds of the ventral part and adjacent regions of the 
+      intermediate part</labelingLocation> (Fig. 3B-D).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s89">At more rostral levels, 
+      <labelingDescription>considerably fewer labeled axons and 
+      terminal boutons</labelingDescription> were found, and these were 
+      located primarily within <labelingLocation>the intermediate part 
+      of the nucleus</labelingLocation> (Fig. 3B).</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s90"><neuroanatomicalLocation>Prefrontal 
+      cortex</neuroanatomicalLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s91"><labelingDescription>A few labeled 
+      fibers</labelingDescription> continue rostrally from 
+      <labelingLocation>the lateral septal nucleus</labelingLocation> 
+      and appear to end in <labelingLocation>the infralimbic and 
+      prelimbic areas</labelingLocation> (Fig. 3A).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s92">These axons, which display <labelingDescription>a few 
+      varicosities and terminal boutons</labelingDescription>, do not 
+      form a strikingly laminar input to these regions of 
+      <labelingLocation>the medial prefrontal 
+      cortex</labelingLocation>, and <labelingDescription>labeled 
+      fibers</labelingDescription> were not observed in 
+      <labelingLocation>other nearby parts of the cortical 
+      mantle</labelingLocation>.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s93">
+      <neuroanatomicalLocation>Amygdala</neuroanatomicalLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s94"><connxTermination>This part of the 
+      telencephalon</connxTermination> receives <labelingDescription>a 
+      very dense input</labelingDescription> from <connxOrigin>the 
+      PMv</connxOrigin>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s95"><labelingDescription>Labeled 
+      fibers</labelingDescription> from the injection site reach 
+      <labelingLocation>the amygdala</labelingLocation> primarily by 
+      way of <labelingLocation>the stria terminalis</labelingLocation>, 
+      although <labelingDescription>a few axons</labelingDescription> 
+      also appear to run through <labelingLocation>the lateral 
+      hypothalamic area and the substantia 
+      innominata</labelingLocation> in <labelingLocation>the ansa 
+      peduncularis</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s96"><labelingLocation>The medial part, and ventral regions 
+      of the capsular part, of the central nucleus</labelingLocation>, 
+      as well as <labelingLocation>the anterodorsal part of the medial 
+      nucleus of the amygdala</labelingLocation>, appear to receive 
+      <labelingDescription>moderate inputs</labelingDescription> from 
+      <connxOrigin>the PMv</connxOrigin>, which at these levels also 
+      seems to provide <labelingDescription>a much sparser 
+      input</labelingDescription> to adjacent regions such as 
+      <labelingLocation>the intercalated nuclei and the anterior part 
+      of the basomedial nucleus</labelingLocation> (Fig. 3G-I).</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s97">At caudal levels of <neuroanatomicalLandmark>the 
+      amygdala</neuroanatomicalLandmark> (for parcellation see Canteras 
+      et al., &apos;921, <connxOrigin>the PMv</connxOrigin> gives rise 
+      to <labelingDescription>very dense 
+      projections</labelingDescription> to <labelingLocation>the 
+      posterodorsal part of the medial nucleus</labelingLocation>, to 
+      <labelingLocation>the posterior nucleus</labelingLocation>, and 
+      to <labelingLocation>adjacent regions of the posterior cortical 
+      nucleus</labelingLocation> (Fig. 3J-M).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s98"><labelingDescription>Labeled 
+      fibers</labelingDescription> from <connxOrigin>the 
+      PMv</connxOrigin> form <labelingDescription>a particularly dense 
+      terminal field</labelingDescription> in <labelingLocation>deeper 
+      parts of the posterodorsal part of the medial 
+      nucleus</labelingLocation> (Fig. 35).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s99">Specifically, <labelingDescription>these 
+      fibers</labelingDescription> appear to innervate selectively a 
+      distinct rod-shaped cell aggregate in <labelingLocation>deeper 
+      parts of the nucleus</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s100">As pointed out elsewhere, <connxOrigin>the 
+      PMv</connxOrigin> represents by far the main source of afferent 
+      fibers to the <connxTermination>posterior 
+      nucleus</connxTermination> (Canteras et al., &apos;921, which, in 
+      all of the experiments analyzed in the present study, is filled 
+      with <labelingDescription>a remarkably dense plexus of 
+      fibers</labelingDescription> that spreads to include 
+      <labelingLocation>adjacent deep parts and medialmost regions of 
+      the molecular layer of the posterior cortical 
+      nucleus</labelingLocation> (Figs. 3K-M, 4F).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s101">At these levels of the amygdala we also observed 
+      <labelingDescription>a smaller number of labeled 
+      fibers</labelingDescription> that appear to end in 
+      <labelingLocation>the posterior part of the basomedial nucleus 
+      and the posterior part of the basolateral 
+      nucleus</labelingLocation> (Fig. 3J-M).</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s102"><neuroanatomicalLocation>Hippoearnpal 
+      formation</neuroanatomicalLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s103">At the caudal pole of <neuroanatomicalLandmark>the 
+      amygdala</neuroanatomicalLandmark>, <labelingDescription>a 
+      moderate number of labeled axons</labelingDescription> take a 
+      medial course to end in <labelingLocation>the ventral tip of the 
+      subiculum and adjacent parts of hippocampal field 
+      CAI</labelingLocation> (Fig. 3L-N).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s104"><labelingDescription>A few labeled 
+      axons</labelingDescription> could also be followed to 
+      <labelingLocation>area TK</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s105">(Fig. 3M,N), <labelingLocation>the ventral part of the 
+      medial entorhinal area</labelingLocation> (Fig. 3N, area 
+      28M&apos; of Haug, &apos;761, and <labelingLocation>ventral 
+      regions of the lateral entorhinal area</labelingLocation> (not 
+      illustrated).</S>
+      <BR />
+
+      <S avgH="26" class="results.subtitle"
+       format="TimesNewRomanPS-BoldMT" id="s106">Descending 
+      projections</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s107">The descending projections of <connxOrigin>the 
+      PMv</connxOrigin> are considerably less extensive than the 
+      ascending projections.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s108">From the injection site, <labelingDescription>labeled 
+      fibers</labelingDescription> travel dorsally to enter 
+      <labelingLocation>the posterior hypothalamic 
+      nucleus</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s109">The majority of these fibers course dorsally, just 
+      rostra1 to <labelingLocation>the dorsal premammillary 
+      nucleus</labelingLocation>; only <labelingDescription>a few axons 
+      with very sparse terminal boutons</labelingDescription> pass 
+      through <labelingLocation>this nucleus</labelingLocation> (Fig. 
+      3K,L).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s110"><labelingDescription>Labeled 
+      fibers</labelingDescription> give rise to <labelingDescription>a 
+      rather dense terminal field</labelingDescription> in 
+      <labelingLocation>ventral parts of the posterior hypothalamic 
+      nucleus</labelingLocation> (Fig. 3K,L), and 
+      <labelingDescription>at least some of them</labelingDescription> 
+      continue on caudally either toward <labelingLocation>the 
+      mammillary complex</labelingLocation> or into <labelingLocation>
+      the periaqueductal gray</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s111">In <labelingLocation>the mammillary 
+      complex</labelingLocation>, <connxOrigin>the PMv</connxOrigin> 
+      provides <labelingDescription>a sparse 
+      projection</labelingDescription> to <labelingLocation>the medial 
+      and lateral parts of the supramammillary 
+      nucleus</labelingLocation> and to <labelingLocation>the cell-poor 
+      zone that surrounds the medial mammillary 
+      nucleus</labelingLocation> (Fig. 3M,N).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s112"><labelingDescription>A very few of these 
+      fibers</labelingDescription> continue on to end in 
+      <labelingLocation>the interfascicular and interpeduncular 
+      nuclei</labelingLocation> and perhaps <labelingLocation>the 
+      ventral tegmental area</labelingLocation> (Fig. 3N,O).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s113">In addition, at caudal levels of 
+      <neuroanatomicalLandmark>the PMv</neuroanatomicalLandmark>, 
+      <labelingLocation>a sparse number of labeled 
+      fibers</labelingLocation> were also observed projecting to 
+      <labelingLocation>the ventral part of the tuberomammillary 
+      nucleus</labelingLocation> (Fig. 3L).</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s114"><labelingDescription>Labeled 
+      fibers</labelingDescription> in <labelingLocation>the midbrain 
+      periventricular system</labelingLocation> appear to provide 
+      <labelingDescription>inputs</labelingDescription> primarily to 
+      <labelingLocation>ventrolateral parts of the periaqueductal 
+      gray</labelingLocation> (Fig. 30,P).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s115">In addition, <labelingDescription>a few labeled 
+      axons</labelingDescription> also appear to innervate 
+      <labelingLocation>the dorsal nucleus of the raphe and the 
+      laterodorsal tegmental nucleus</labelingLocation> (Fig. 30,P).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s116">At still more caudal levels, <labelingDescription>the 
+      periventricular fibers</labelingDescription> course chiefly 
+      through <labelingLocation>lateral parts of the pontine central 
+      gray</labelingLocation>, near the ependymal wall of the fourth 
+      ventricle (Fig. 3Q-S).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s117"><labelingDescription>A very few of these 
+      fibers</labelingDescription> arch laterally to end in 
+      <labelingLocation>the lateral part of the parabrachial 
+      nucleus</labelingLocation> (Fig. 3Q,R).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s118">Although <labelingDescription>labeled 
+      fibers</labelingDescription> were observed 
+      <labelingDescription>only rarely</labelingDescription> within 
+      <labelingLocation>the nuclear borders of the locus 
+      coeruleus</labelingLocation> (Fig. 3S), <labelingDescription>some 
+      labeled fibers and terminal boutons</labelingDescription> were 
+      observed <labelingLocation>immediately rostral to 
+      it</labelingLocation>; these fibers appear to innervate 
+      <labelingLocation>the so-called Barrington&apos;s 
+      nucleus</labelingLocation> (Fig. 3R), which is the most caudal 
+      structure to receive significant projections from 
+      <connxOrigin>the PMv</connxOrigin>.</S>
+      <BR />
+
+      <S avgH="28" class="results.subtitle"
+       format="TimesNewRomanPS-BoldMT" id="s119">Crossed projections</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s120">In general, the contralateral projection is a mirror 
+      image of the ipsilateral projection, but much less dense.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s121">In <labelingLocation>the forebrain</labelingLocation>, 
+      <labelingDescription>labeled fibers</labelingDescription> appear 
+      to cross the midline through <labelingLocation>the supraoptic 
+      commissures and the supramammillary 
+      decussation</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s122">It is important to point out here that the latter 
+      fibers, in addition to other contralateral targets, provide 
+      <labelingLocation>a moderate projection</labelingLocation> to 
+      <labelingLocation>the contralateral PMv</labelingLocation>.</S>
+    </TTE>
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s123">Curiously, the density of contralateral labeled fibers 
+    is relatively greater in <labelingLocation>the midbrain and 
+    pons</labelingLocation> than in <labelingLocation>the 
+    forebrain</labelingLocation>.</S>
+  </Results>
+
+  <Discussion>
+
+    <S avgH="28" class="discussion.heading"
+     format="TimesNewRomanPS-BoldMT" id="s124">DISCUSSION</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s125">The major conclusion that can be drawn from the 
+    experiments reported here is that the PMv supplies a dense input to 
+    the medial and periventricular zones of the hypothalamus, to the 
+    septal region, and to the amygdala.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s126">In view of the advantages of the PHAL method referred to 
+    in the Introduction, and the fact that there is little disagreement 
+    as to the location and boundaries of the PMv, our description of 
+    its projections would appear to be rather reliable.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s127">Nevertheless, our results are limited in a number of 
+    ways, since, for example, they do not address the issue of whether 
+    the projections of the PMv arise from a homogeneous population of 
+    cells or whether they arise from multiple cell types, and they do 
+    not address the issue of neurotransmitter specificity.</S>
+    <BR />
+
+    <S avgH="28" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s128">Projections of the 
+    PMv</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s129">Because the projections of the PMv itself have never 
+    been examined with anterograde tracing methods, our discussion of 
+    the literature must rely primarily on earlier retrograde tracer 
+    studies.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s130">Our results indicate that the great majority of fibers 
+    from the PMv take a rostral course, through both the 
+    periventricular and medial zones of the hypothalamus, whereas much 
+    smaller groups of axons ascend through the medial forebrain bundle, 
+    or descend through caudal parts of the hypothalamus and central 
+    gray.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s131">The medialmost projections from the PMv ascend through 
+    the periventricular zone of the hypothalamus, which is densely 
+    innervated throughout, except for the suprachiasmatic, 
+    suprachiasmatic preoptic, and median preoptic nuclei, where 
+    virtually no labeled fibers were observed.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s132">Inputs to the paraventricular nucleus from the PMv have 
+    been identified previously with retrograde tracers (Sawchenko and 
+    Swanson, &apos;831, and Luiten et al. (&apos;87) reported such a 
+    projection with the PHAL, method, although the terminal field they 
+    described differs substantially from our observations.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s133">They illustrate (their Fig. 12; Luiten et al., &apos;87) 
+    a moderate terminal field centered in the medial parvicellular part 
+    of the paraventricular nucleus after an injection site that appears 
+    to involve the rostral tip of the PMv.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s134">All of our experiments that involved the PMv, including 
+    the region illustrated for their injection site, labeled a massive 
+    terminal field in the periventricular zone of the paraventricular 
+    nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s135">The reason for this discrepancy is not apparent.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s136">Fibers from the PMv that ascend through the medial zone 
+    of the hypothalamus give rise to a particularly dense projection to 
+    the ventrolateral part of the ventromedial nucleus and surrounding 
+    parts of the basal lateral hypothalamic area, as well as to the 
+    medial preoptic nucleus, as suggested by earlier retrograde tracer 
+    studies (Kita and Oomura, &apos;82; Chiba and Murata, &apos;85; 
+    Simerly and Swanson, &apos;86; Fahrbach et al., &apos;89).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s137">A somewhat weaker projection was found to the 
+    dorsomedial nucleus, and to the cell-poor region surrounding the 
+    dorsomedial subdivision of the ventromedial nucleus; the PMv does 
+    not appear to provide a substantial input to the cellular 
+    &quot;core&quot; regions of the dorsomedial and central parts of 
+    the ventromedial nucleus, or to cell groups in the anterior 
+    hypothalamic area.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s138">A projection from the PMv to the dorsomedial nucleus was 
+    reported by Kita and Oomura (&apos;82) using retrograde tracer 
+    methods.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s139">Previous retrograde and anterograde studies suggested 
+    that a projection from the PMv travels through the medial forebrain 
+    bundle (Shiosaka et al., &apos;80; Veening et al., &apos;821, and 
+    here we were able to confirm that a small number of such fibers 
+    course through the dorsal half of the medial forebrain bundle, 
+    where they give rise to very few terminal boutons and have the 
+    appearance of fibers-of-passage.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s140">These axons seem to provide a sparse input to rostral 
+    parts of the zona incerta and the ventral part of the nucleus 
+    reuniens, while at more rostral levels the remaining fibers enter 
+    the posterior subdivision of the BST and the substantia 
+    innominata.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s141">The nucleus reuniens also seems to receive an input from 
+    fibers ascending from the injection site through the medial and 
+    periventricular zones of the hypothalamus, fibers that also provide 
+    a rather substantial input to the paraventricular nucleus of the 
+    thalamus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s142">Evidence for a projection from the PMv to these thalamic 
+    nuclei was also reported in earlier retrograde tracer studies 
+    (Herkenham, &apos;78; Cornwall and Phillipson, &apos;88; Chen and A 
+    large group of fibers from the PMv ascending mainly through the 
+    medial zone of the hypothalamus ultimately ends in the BST, lateral 
+    septal nucleus, and amygdala.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s143">Within the BST, axons from the PMv give rise to a 
+    particularly dense terminal field in the principal nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s144">Weller and Smith (&apos;82) reported the presence of 
+    retrogradely labeled cells in the premammillary region after 
+    injections of horseradish peroxidase (HRP) in the BST, although 
+    they did not state that these cells were within the PMv itself.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s145">Inputs to the lateral septal nucleus were also suggested 
+    in previous retrograde tracer studies (Luiten et al., &apos;82; 
+    Staiger and Nurnberger, &apos;891, and have been confirmed more 
+    directly here; we observed a particularly dense projection to the 
+    caudal two-thirds of the ventral part, and adjacent regions of the 
+    intermediate part, of this nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s146">A few axons from the PMv continue through the rostral 
+    pole of the lateral septal nucleus to end in the infralimbic and 
+    prelimbic areas of the medial prefrontal cortex.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s147">The majority of fibers from the PMv that project to the 
+    amygdala travel through the stria terminalis, whereas only a few 
+    course through the ansa peduncularis.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s148">Within the amygdala, these fibers provide a massive 
+    input to the posterodorsal part of the medial nucleus, to the 
+    posterior nucleus, and to immediately adjacent regions of the 
+    posterior cortical nucleus, as well as a sparser input to other 
+    parts of the amygdala, including the medial and capsular parts of 
+    the central nucleus, and the anterodorsal part of the medial 
+    nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s149">Tracer injections centered in (but not necessarily 
+    restricted to) each of the above-mentioned parts of the amygdala 
+    retrogradely label cells in the vicinity of the PMv (Veening, 
+    &apos;78; Ottersen, &apos;80; Russchen, &apos;82; Luiten et al., 
+    &apos;85; Volz et al., &apos;90).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s150">Furthermore, recent observations using fluorogold as a 
+    retrograde tracer indicate that the PMv is by far the main source 
+    of projections to the posterior nucleus of the amygdala (Canteras 
+    et al., &apos;92).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s151">Finally, ascending fibers from the PMv also end in 
+    limited parts of the cortex adjacent to the amygdala, particularly 
+    in the ventral tip of the subiculum and adjacent parts of 
+    hippocampal field CAI.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s152">Descending projections from the PMv give rise to a 
+    substantial input to ventral regions of the posterior hypothalamic 
+    nucleus and a few axons continue on to the mammillary complex and 
+    to the midbrain periventricular system.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s153">Within the mammillary complex, the PMv appears to 
+    innervate the supramammillary nucleus and the cell-poor zone 
+    surrounding the medial mammillary nucleus, with a very few fibers 
+    continuing even farther to end in the interfascicular and 
+    interpeduncular nuclei.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s154">A sparse projection from the PMv to the interpeduncular 
+    nucleus was suggested by Contestabile and Flumerfelt (&apos;81) 
+    using HRP as a retrograde tracer.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s155">The fibers coursing through the midbrain periventricular 
+    system form a distinct terminal field in ventrolateral regions of 
+    the periaqueductal gray.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s156">At this level, a somewhat weaker input was also found to 
+    the laterodorsal tegmental nucleus and the dorsal nucleus of the 
+    raphe.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s157">In agreement with our observations, injections of 
+    retrograde tracers in the periaqueductal gray (Morrell et al., 
+    &apos;811, and in the laterodorsal tegmental nucleus (Satoh and 
+    Fibiger, &apos;861, labeled only a few cells within the PMv.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s158">At pontine levels, we observed a small number of fibers 
+    coursing caudally, near the wall of the fourth ventricle.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s159">These axons provide a distinctive innervation to a 
+    region just rostral to the locus coeruleus that is thought to 
+    correspond to Barrington&apos;s nucleus, as discussed further 
+    below.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s160">Finally, occasional PHAL-labeled fibers were observed 
+    within the boundaries of the locus coeruleus, which appears to be 
+    the caudalmost target of efferents from the PMv.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s161">It may be of interest at this point to summarize what 
+    little is known about possible neurotransmitters utilized by the 
+    pathways just described.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s162">Previous immunohistochemical studies have provided some 
+    information about neuropeptides that may be synthesized by neurons 
+    of the PMv.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s163">Thus, it has been shown that at least some PMv neurons 
+    may express met-enkephalin (Wamsley et al., &apos;80; Abe et al., 
+    &apos;871, substance P (Tsuruo et al., &apos;84; Akesson and 
+    Micevych, &apos;881, atrial natriuretic peptide (Jacobowitz et al., 
+    &apos;85; Standaert et al., &apos;86; Bidmon et al., &apos;go), and 
+    galanin (Skofitsch and Jacobowitz, &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s164">Clearly, a great deal remains to be learned about 
+    neurotransmission in the terminal fields established by the PMv.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s165">In addition to these peptides, other neurotransmitters 
+    are likely to be utilized by neurons located within the PMv, 
+    although further studies are needed to clarify this issue.</S>
+    <BR />
+
+    <S avgH="28" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s166">Comparison between 
+    projections of the PMv and adjacent nuclei in the medial 
+    hypothalamus As mentioned in the Introduction, the PMv lies in 
+    the</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s167">medial zone of the hypothalamus, just caudal to the 
+    ventromedial nucleus, and at more caudal levels it lies just 
+    ventral to the dorsal premammillary nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s168">There are two major reasons for comparing what we now 
+    know about the projections from these three regions.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s169">First, since all of our PHAL injection sites labeled at 
+    least a few neurons outside the limits of the PMv, it is important 
+    to consider the pattern of efferents from adjacent cell groups.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s170">Second, it is clearly important to determine whether the 
+    PMv plays a unique role in circuits associated with the caudal 
+    hypothalamus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s171">The following comparisons are based on the work of Saper 
+    et al. (&apos;76), Krieger et al. (&apos;791, and our own 
+    unpublished observations (with the PHAL method) for the 
+    ventromedial nucleus, and our paper on the dorsal premammillary 
+    nucleus (Canteras and Swanson, &apos;92b).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s172">To begin with, in contrast to the PMv, the ventromedial 
+    nucleus provides a massive input to the anterior hypothalamic 
+    nucleus, but a much less dense projection to nuclei within the 
+    periventricular zone.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s173">In addition, we have observed in our PHAL experiments 
+    that the projection from the ventromedial nucleus to the preoptic 
+    region, which arises chiefly from cell bodies in the ventrolateral 
+    subdivision (see Simerly and Swanson, &apos;86), is mainly directed 
+    toward the lateral subdivision of the medial preoptic nucleus, in 
+    contrast to the medial part of this nucleus, which receives a very 
+    small input.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s174">It will be recalled that the PMv projects densely to 
+    both the medial and lateral parts of the medial preoptic nucleus, 
+    with slightly more fibers in the medial part.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s175">Similarly, the PMv provides a strong input to the 
+    anteroventral periventricular nucleus, whereas only a few labeled 
+    fibers are found in this structure following injections of PHAL 
+    centered in the ventromedial nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s176">Like the PMv, a group of fibers from the ventromedial 
+    nucleus gives rise to a dense terminal field in the BST that tends 
+    to avoid the principal nucleus, unlike inputs from the PMv that end 
+    heavily within the principal nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s177">Furthermore, cells in the ventromedial nucleus project 
+    less densely to the septum, where inputs tend to be more uniformly 
+    distributed in the ventral and intermediate parts of the lateral 
+    septal nucleus, than is the case for inputs from the PMv.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s178">There are remarkable differences between the projections 
+    of the ventromedial nucleus and the PMv to the amygdala.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s179">Thus, fibers arising in the ventromedial nucleus project 
+    to the amygdala by way of the ansa peduncularis and end primarily 
+    in the central nucleus and in the lateral nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s180">In contrast, most projections from the PMv to the 
+    amygdala course through the stria terminalis and end primarily in 
+    the posterodorsal part of the medial nucleus and in the posterior 
+    nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s181">Finally, the descending projections from the 
+    ventromedial nucleus to the brainstem appear to be more extensive 
+    than those from the PMv and give rise to particularly dense inputs 
+    to the central gray and the peripenduncular nucleus.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s182">Our recent findings on the projections of the dorsal 
+    premammillary nucleus (PMd) using the PHAL, method clearly indicate 
+    that the overall pattern of efferents arising from this nucleus is 
+    quite distinct from that of the PMv and the ventromedial nucleus 
+    (Canteras and Swanson, &apos;92b).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s183">Thus, the PMd gives rise to a characteristic projection 
+    to the ventral part of the anteromedial nucleus of the thalamus, as 
+    well as dense projections to the anterior hypothalamic nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s184">In contrast to the PMv, only a few axons from the PMd 
+    innervate the periventricular zone of the hypothalamus, the medial 
+    preoptic area, the bed nuclei of the stria terminalis, the septum, 
+    and the amygdala.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s185">Finally, the PMd innervates rather densely a 
+    characteristic dorsolatera1 zone of the periaqueductal gray.</S>
+    <BR />
+
+    <S avgH="28" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s186">Inputs to the PMv</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s187">Since we have characterized the distribution of 
+    projections from the PMv, and compared the pattern of projections 
+    from this nucleus with those arising from surrounding regions in 
+    the medial zone of the hypothalamus, it is now appropriate to 
+    review what is known about the afferent control of the PMv.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s188">As mentioned in the Introduction, the PMv is thought to 
+    receive dense inputs from the medial nucleus of the amygdala 
+    (especially its posterodorsal part), the posterior nucleus and 
+    adjacent deep regions of the posterior cortical nucleus of the 
+    amygdala, the principal nucleus of the BST, and the medial preoptic 
+    nucleus (particularly from the central part and adjacent regions of 
+    the medial part) (Krettek and Price, &apos;78; Swanson and Cowan, 
+    &apos;79; Post and Mai, &apos;80; Kevetter and Winnans, &apos;81; 
+    Luiten et al., &apos;85; Simerly and Swanson, &apos;88; Canteras et 
+    al., &apos;92; N.S.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s189">Canteras, R.B.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s190">Simerly, and L.W.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s191">Swanson, unpublished observations; see Materials and 
+    Methods).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s192">Perhaps the most obvious features common to all of the 
+    sources of afferents to the PMv just listed is that they are in a 
+    position to relay information from the vomeronasal organ (for 
+    references see Canteras et al., &apos;92).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s193">Other classes of sensory information may well reach the 
+    PMv by way of the ventral subiculum and ventral part of the lateral 
+    septal nucleus (see Swanson et al., &apos;871, where we found 
+    labeled cells after fluorogold deposits in the region of the PMv, 
+    although only the projection from the ventral subiculum has been 
+    reported with anterograde tracing methods (Swanson and Cowan, 
+    &apos;77; Meibach and Siegel, &apos;77; Krettek and Price, 
+    &apos;78; Canteras and Swanson, &apos;92a).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s194">The PMv may also receive relatively sparse inputs from 
+    the infralimbic area (Brittain, &apos;88; Hurley et al., &apos;91), 
+    the posterior part of the basomedial nucleus of the amygdala 
+    (Krettek and Price, &apos;78), and the ventromedial nucleus of the 
+    hypothalamus (N.S.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s195">Canteras, R.B.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s196">Simerly, and L.W.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s197">Swanson, unpublished observations).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s198">Finally, our fluorogold experiments revealed at least a 
+    few labeled cells in other areas of the forebrain and brainstem for 
+    which anterograde tracing data are not available, including area 
+    TR, the arcuate nucleus of the hypothalamus, the periaqueductal 
+    gray, the laterodorsal tegmental nucleus, the dorsal nucleus of the 
+    raphe, the nucleus incertus, and the locus coeruleus.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s199">Recently, it has been suggested (Perez-Clause11 et al., 
+    &apos;89) that the massive projection from posterior nucleus of the 
+    amygdala to the PMv contains high levels of zinc, which are 
+    presumably associated with pools of excitatory amino acid 
+    neurotransmitters (Frederickson and Danscher, &apos;90).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s200">In addition, the PMv receives a substantial number of 
+    fibers that cross-react with antisera to met-enkephalin (Abe et 
+    al., &apos;87), atrial natriuretic peptide (Standaert et al., 
+    &apos;861, and neuropeptide Y (DeQuidt et al., &apos;90).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s201">The distribution of neuropeptide Y-immunoreactive axons 
+    is commonly rather similar to that of fibers stained with antisera 
+    to tyrosine hydroxylase and dopamine-P-hydroxylase (see Sawchenko 
+    et al., &apos;85; Simerly et al., &apos;86).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s202">This does not seem to be the case in the region of the 
+    PMv, however, where very few axons containing these 
+    catecholamine-synthesizing enzymes have been identified (Swanson 
+    and Hartman, &apos;75).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s203">The PMv also appears to receive sparse serotonergic and 
+    cholinergic inputs (Steinbusch, &apos;81; Rao et al., &apos;87).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s204">Further studies that combine retrograde tracing with 
+    immunohistochemistry are needed to determine the location of cell 
+    bodies that give rise to each of these neurochemically defined 
+    inputs to the PMv.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s205">For the sake of completeness, it should be noted that 
+    high concentrations of NK3 receptors, which apparently bind 
+    specifically neurokinin B (NKB), have been reported in the PMv 
+    (Mussap and Burcher, &apos;90).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s206">However, a precise &quot;matching&quot; of NK3 binding 
+    sites to NKB-immunoreactive terminals, as well as the location of 
+    cell bodies that synthesize this peptide, is not possible at this 
+    time due to the absence of specific NKB antibodies (see Mussap and 
+    Burcher, &apos;90).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s207">In addition to these neural inputs, the PMv may be 
+    influenced directly by fluctuating levels of gonadal steroid 
+    hormones, since it contains a very high density of neurons that 
+    concentrate estrogen, progesterone, and testosterone (Pfaff and 
+    Keiner, &apos;73; Sar and Stumpf, &apos;75a,b; Stumpf et al., 
+    &apos;751, and mRNAs encoding the androgen and estrogen receptors 
+    are expressed at relatively high levels in the PMv (Simerly et al., 
+    &apos;90).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s208">In general, there appears to be a considerable degree of 
+    overlap between the cells that concentrate each of these gonadal 
+    steroids, although the extent to which individual neurons express 
+    more than one steroid hormone receptor is unclear.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s209">Michael et al. (&apos;89) have suggested that, in male 
+    macaques, most of the testosterone that is taken up by neurons in 
+    the PMv is not converted to estradiol, whereas in the rat, only a 
+    small population of neurons within the PMv does not seem to 
+    aromatize androgen to estrogen (Sheridan, &apos;79).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s210">Considering the evidence that these hormones may 
+    regulate cellular levels of neuropeptides (for references see 
+    Simerly et al., &apos;901, it will be of interest to characterize 
+    the neurotransmitterspecificity of the PMv neurons that expresses 
+    androgen andlor estrogen receptors, and to determine whether 
+    gonadal steroids influence their rate of synthesis.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s211">It is also important to point out that the strongest 
+    projections from the PMv end in nuclei that also contain high 
+    densities of gonadal steroid-concentrating neurons (PfafF and 
+    Keiner, &apos;73; Sar and Stumpf, &apos;75a,b; Stumpf et al., 
+    &apos;751, express mRNAs encoding the androgen and/or estrogen 
+    receptors (Simerly et al., &apos;901, and display structural sexual 
+    dimorphisms (see for references see Simerly and Swanson, 
+    &apos;88).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s212">Furthermore, almost all these regions innervate densely 
+    the PMv.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s213">These remarkable hodological relationships between the 
+    PMv and the sexually dimorphic cell groups suggests that the PMv 
+    plays an important role in the function of this neuronal 
+    network.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s214">In addition, it has been shown that the PMv itself may 
+    be sexually dimorphic with respect to the number of 
+    tachykinin-immunoreactive cells, which are more numerous in males 
+    (Akesson and Micevych, &apos;91).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s215">We have not in the present study examined the 
+    projections of the PMv in female animals.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s216">However, the results of previous anatomical studies in 
+    the medial preoptic nucleus and elsewhere suggests that the 
+    sexually dimorphic circuit is qualitatively similar in both sexes, 
+    while presenting quantitative differences within particular 
+    terminal fields (see Simerly and Swanson, &apos;88).</S>
+    <BR />
+
+    <S avgH="27" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s217">Functional 
+    implications</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s218">At the most basic level, the PMv appears to integrate 
+    neuronal influences from other forebrain regions, particularly 
+    those related to the sexually dimorphic circuit, receiving but 
+    sparse direct inputs from other centers in the brainstem.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s219">Remarkably, with the exception of the ventral subiculum 
+    and adjacent parts of hippocampal field CAI (and the central part 
+    of the medial preoptic nucleus), the main sources of projections to 
+    the PMv in turn receive a massive input from the PMv.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s220">In addition, the PMv provides massive unidirectional 
+    projections to most parts of the periventricular zone of the 
+    hypothalamus, which is known to be the major central regulator of 
+    anterior pituitary function.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s221">In short, the PMv establishes massive bidirectional 
+    connections with the sexually dimorphic circuit, and projects 
+    massively to the neuroendocrine zone of the hypothalamus, in 
+    addition to expressing high levels of gonadal steroid hormone 
+    receptors (see Fig. 5).</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s222">Electrolytic lesions in the region of the PMv reportedly 
+    induce a premature onset of the proestrous surge of luteinizing 
+    hormone (LH), while electrochemical stimulation applied to the 
+    nucleus at noon on the day of proestrus prevented ovulation and the 
+    preovulatory surge of LH (Beltramino and Taleisnik, &apos;84).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s223">The PMv has also been implicated in the regulation of LH 
+    secretion by pheromonal stimuli (Beltramino and Taleisnik, 
+    &apos;85).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s224">Our results indicate that the PMv may not provide a 
+    substantial direct input to neurons that express 
+    gonadotropin-releasing hormone (Barry, &apos;79; King et al., 
+    &apos;821, although it may indirectly influence the secretion of LH 
+    or follicle-stimulating hormone by way of its massive inputs to the 
+    anteroventral periventricular nucleus of the preoptic region and 
+    the arcuate nucleus, which are thought to be involved in the 
+    regulation of these hormones (Wiegand and Terasawa, &apos;82; Kalra 
+    and Kalra, &apos;83).</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s225">Our results also suggest that the PMv may influence the 
+    secretion of prolactin and growth hormone as well, through its 
+    dense projections to the arcuate nucleus, where the majority of 
+    neurosecretory cells containing dopamine (see Bjorklund and 
+    Lindvall, &apos;84) and growth hormone-releasing hormone (Sawchenko 
+    and Swanson, &apos;90) are found.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s226">Furthermore, the PMv projects massively to the 
+    periventricular region (the anterior periventricular nucleus) that 
+    contains the majority of neurosecretory somatostatin cells (see 
+    Swanson, &apos;87).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s227">Other parvicellular neurosecretory regions of the 
+    periventricular zone of the hypothalamus appear to be considerably 
+    less densely innervated and very few axons from the PMv are 
+    associated with magnocellular neurosecretory neurons.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s228">Marked hypothermic responses have been reported after 
+    the injection of low concentrations of 2-deoxy-d-glucose (2-DG) 
+    into the region of the PMv, and it has been suggested that this 
+    effect is related in some way to vagal stimulation and subsequent 
+    lowering of peripheral heat production (Shiraishi and Mager, 
+    &apos;80a,b).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s229">The PMv does not appear to provide direct inputs to 
+    preganglionic autonomic neurons, but does project to cell groups 
+    that are known to project in turn to both sympathetic and 
+    parasympathetic preganglionic cell groups.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s230">Thus, the PMv provides direct inputs to the posterior 
+    hypothalamic nucleus and the retrochiasmatic area, as well as to 
+    the tuberal zone of the hypothalamus, all of which contain at least 
+    a few neurons that project to the dorsal vagal complex and/or the 
+    spinal cord, presumably to the intermediolateral cell column; 
+    however, it is not clear where in the spinal cord most of these 
+    hypothalamic neurons end, and the density of cells that project to 
+    lower autonomic centers in these hypothalamic regions is quite low 
+    (see Swanson, &apos;87, for review).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s231">The dorsal parvicellular part of the paraventricular 
+    nucleus, which projects preferentially to preganglionic sympathetic 
+    neurons in the spinal cord, as well as the ventral medial 
+    parvicellular part of the nucleus, which projects more or less 
+    equally to the dorsal vagal complex and to the spinal cord (see 
+    Swanson and Sawchenko, &apos;831, also receives a sparse projection 
+    from the PMv.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s232">In addition, the PMv sends rather substantial 
+    projections to lateral regions of the BST and also less dense 
+    inputs to the medial part of the central nucleus of the amygdala, 
+    both of which are known to provide direct, massive inputs to the 
+    dorsal vagal complex (Sofroniew, &apos;83; Holstege et al., 
+    &apos;85; see Price et al., &apos;87 for reviews).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s233">A final way that the PMv may influence parasympathetic 
+    outflow is via a direct projection to Barrington&apos;s nucleus, 
+    which provides a direct input to the region of sacral 
+    parasympathetic preganglionic neurons (Loewy et al., &apos;791, and 
+    appears to correspond to the &quot;micturition reflex center&quot; 
+    in the dorsolateral pontine tegmentum that was described by 
+    Barrington (see Satoh et al., &apos;78).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s234">It is important to point out here that, apart from all 
+    of these regions that may provide direct inputs to autonomic cell 
+    groups, the PMv gives rise to a very dense projection to the medial 
+    preoptic nucleus, which is thought to provide an important 
+    influence on a variety of responses that involve the autonomic 
+    nervous system (see Simerly and Swanson, &apos;88 for review).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s235">It has also been suggested that the PMv plays a role in 
+    central mechanisms that underlie aggressive behavior, in view of 
+    the fact that small bilateral electrolytic lesions in the region of 
+    this nucleus led to marked increases in attack behavior (van den 
+    Berg et al., &apos;83).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s236">Perhaps this result should not be surprising in view of 
+    strong bidirectional connections between the PMv and several 
+    regions thought to be involved in the control of antagonistic 
+    behavior, including the medial nucleus of the amygdala, the bed 
+    nuclei of the stria terminalis, the lateral septa1 nucleus, and the 
+    medial preoptic nucleus (see Luiten et al., &apos;85; Swanson, 
+    &apos;87).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s237">Considering the possible involvement of the PMv in the 
+    expression of aggressive behavior, it is important to recall that 
+    thresholds for the activation of this type of behavior are 
+    modulated by circulating levels of gonadal steroid hormones (see 
+    Floody and Pfaff, &apos;74).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s238">Finally, the anatomical results presented here strongly 
+    imply that the PMv is involved in at least some aspects of 
+    reproductive physiology and behavior, although clearly, further 
+    work is needed to explore this possibility.</S>
+  </Discussion>
+
+  <Acknowledgements>
+
+    <S avgH="28" class="acknowledgements.heading"
+     format="TimesNewRomanPS-BoldMT" id="s239">ACKNOWLEDGMENTS</S>
+    <BR />
+
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s240">We thank Mr.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s241">David Warren for document 
+    preparation, and Mr.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s242">Kris Trulock for photographic 
+    assistance.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s243">This work was supported in 
+    part by CNPq Fellowship 2009691 90-0, FAF&apos;ESP Fellowship 
+    88/1289-0 to N.S.C., and NINDS 2ROlNS16686 to L.W.S.</S>
+  </Acknowledgements>
+
+  <References>
+
+    <S avgH="28" class="references.heading"
+     format="TimesNewRomanPS-BoldMT" id="s244">LITERATURE CITED</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s245">Abe, J., H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s246">Okamura, S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s247">Makino, N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s248">Yanaihara, and Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s249">Ibata (1987) Immunocytochemical distribution of 
+    [Metlenkephalin-Arg-Gly-Leu immunoreactivity in the rat 
+    diencephalon.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s250">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s251">Bull. 19:735-741.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s252">Akesson, T.R., and P.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s253">Micevych (1988) Estrogen concentration by substance 
+    P-immunoreactive neurons in the medial basal hypothalamus of the 
+    female rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s254">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s255">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s256">Res. 19:412419.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s257">Akesson, T.R., and P.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s258">Micevych (1991) Tachykinin immunoreactive cells in the 
+    rat ventral premammillary nucleus: Sex differences, castration 
+    effects, and gonadal steroid binding.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s259">SOC.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s260">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s261">Abstr. 17:418.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s262">Barry, J. (1979) Immunohistochemistry of luteinizing 
+    hormone-releasing hormone-producing neurons of the vertebrates.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s263">Int.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s264">Rev.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s265">Cytol. 60t179220.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s266">Beltramino, C., and S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s267">Taleisnik (1984) Inhibitory influence of the nuclei of 
+    the posterior hypothalamus on the pro-oestrus surge of LH.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s268">Acta Endocrinol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s269">(Copenh.) 105:433440.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s270">Beltramino, C., and S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s271">Taleisnik (1985) Ventral premammillary nuclei mediate 
+    pheromonal-induced LH release stimuli in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s272">Neuroendocrinology 41:119-124.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s273">Bidmon, H.J., W.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s274">Stumpf, S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s275">Kawamata, K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s276">Shirasu, J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s277">Gutkowska,andM.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s278">Sar (1990) Colocalization of atrial natriuretic factor 
+    (ANF) and estradiol in hypothalamic neurons by combined 
+    autoradiography-immunohistochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s279">Histochemistry 94:505-508.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s280">Bjorklund, A,, and 0.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s281">Lindvall (1984) Dopamine-containing systems in the 
+    CNS.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s282">In A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s283">Bjorklund and T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s284">Hokfelt (eds): Handbook of Chemical Neuroanatomy, Vol. 
+    2, Classical Transmitters in the CNS, Part I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s285">Amsterdam: Elsevier, pp. 55-122.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s286">Brittain, D.A. (1988) The Efferent Connections of the 
+    Infralimbic Cortex in the Rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s287">Doctoral dissertation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s288">University of California, San Diego.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s289">Canteras, N.S., and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s290">Swanson (1992a) Projections of the ventral subiculum to 
+    the amygdala, septum, and hypothalamus: A PHAL anterograde 
+    tract-tracing study in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s291">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s292">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s293">Neurol. 324:180194.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s294">Canteras, N.S., and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s295">Swanson (1992b) The dorsal premammillary nucleus: A 
+    novel component of the mammillary nuclei. in preparation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s296">Canteras, N.S., R.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s297">Simerly, and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s298">Swanson (1990) The efferent connections of the ventral 
+    premamrnillary nucleus: A Phaseolus uulguris leucoagglutinin 
+    tract-tracing study in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s299">SOC.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s300">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s301">Abstr.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s302">16~576.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s303">Canteras, N.S., R.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s304">Simerly, and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s305">Swanson (1992) The projections of the posterior nucleus 
+    of the amygdala.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s306">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s307">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s308">Neurol. 324: 143-179.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s309">Chen, S., and H.3.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s310">Su (1990) Afferent connections of the thalamic 
+    paraventricular and parataenial nuclei in the rat-a retrograde 
+    tracing study with iontophoretic application of Fluoro-Gold.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s311">Brain Res. 522:l-6.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s312">Chiba, T., and Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s313">Murata (1985) Afferent and efferent connections of the 
+    medial preoptic area in the rat: A WGA-HRP study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s314">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s315">Bull.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s316">14:261-272.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s317">Contestabile, A,, and B.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s318">Flumerfelt (1981) Afferent connections of the 
+    interpeduncular nucleus and the topographic organization of the 
+    habenulo-interpeduncular pathway: An HRP study in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s319">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s320">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s321">Neurol.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s322">196:253-270.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s323">Cornwall, J., and O.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s324">Phillipson (1988) Afferent projections to the dorsal 
+    thalamus of the rat as shown by retrograde lectin transport. 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s325">The midline nuclei.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s326">Brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s327">Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s328">Bull. 21:147-161.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s329">Quidt, M.E., H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s330">Kiyama, and P.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s331">Emson (1990) Pancreatic polypeptide, neuropeptide Y and 
+    peptide YY in central neurons.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s332">In A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s333">Bjorklund, T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s334">Hokfelt, and M.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s335">Kuhar (eds): Handbook of Chemical Neuroanatomy, vol. 9, 
+    Neuropeptides in the CNS, Part 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s336">Amsterdam: Elsevier, pp. 287-357.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s337">Fahrbach, S.E., J.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s338">Morrell, and D.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s339">Pfaff (1989) Studies of ventromedial hypothalamic 
+    afferents in the rat using three methods of HRP application.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s340">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s341">Brain Res. 77:221-233.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s342">Floody, D.R., and D.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s343">Pfaff (1974) Steroid hormones and aggressive behavior: 
+    Approaches to the study of hormone-sensitive brain mechanisms for 
+    behavior.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s344">Proc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s345">Assoc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s346">Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s347">Nervous Mental Dis. 52149-185.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s348">Frederickson, C.J., and G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s349">Danscher (1990) Zinc-containing neurons in hippocampus 
+    and related CNS structures.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s350">Prog.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s351">Brain Res. 83:71-84.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s352">Gerfen, C.R., and P.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s353">Sawchenko (1984) An anterograde neuroanatomical tracing 
+    method that shows the detailed morphology of neurons, their axons 
+    and terminals: Immunohistochemical localization of an axonally 
+    transported plant lectin, Phuseolus uulguris leucoagglutinin 
+    (PHA-L).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s354">Brain Res. 290:219-238.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s355">Gurdjian, E.S. (1927) The diencephalon of the albino 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s356">brain of the rat, No. 2.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s357">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s358">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s359">Neurol. 4311-114.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s360">Haug, F.M.S. (1976) Sulphide silver pattern and 
+    cytoarchitectonics of parahippocampal areas in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s361">Special reference to the subdivision of area 
+    entorhinalis (area 28) and its demarcation from the pyriform 
+    cortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s362">Adv.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s363">Anat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s364">Embryol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s365">Cell Biol. 521-73.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s366">Herkenham, M. (1978) The connections of the nucleus 
+    reuniens thalami: Evidence for a direct thalamo-hippocampal pathway 
+    in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s367">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s368">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s369">Neurol. 177:589-610.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s370">Holstege, G., L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s371">Meiners, and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s372">Tan (1985) Projections of the bed nucleus of the stria 
+    terminalis to the mesencephalon, pons, and medulla oblongata in the 
+    cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s373">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s374">Brain Res. 58:379-391.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s375">Hsu, S.M., and L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s376">Raine (1981) Protein A, avidin and biotin in 
+    immunohistochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s377">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s378">Histochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s379">Cytochem. 29: 1349-1353.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s380">Hsu, S.M., L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s381">Raine, and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s382">Fanger (1981) The use of avidin-biotinperoxidase complex 
+    (ABC) in immunoperoxidase techniques: A comparison between ABC and 
+    unlabeled antibody (PAP) procedures.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s383">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s384">Histochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s385">Cytochem. 29:577-580.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s386">Hurley, K.M., H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s387">Herbert, M.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s388">Moga, and C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s389">Saper (1991) Efferent the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s390">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s391">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s392">Neurol.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s393">projections of the infralimbic cortex of 308:249-276.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s394">Jacobowitz, D.M., G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s395">Skofitsch, H.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s396">Keiser, R.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s397">Eskay, and N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s398">Zamir (1985) Evidence for the existence of atrial 
+    natriuretic factor-containing neurons in the rat brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s399">Neuroendocrinology 4Ot92-94.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s400">G., and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s401">Swanson (1989) Studies on the cellular architecture of 
+    the bed nuclei of the stria terminalis in the rat: I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s402">Cytoarchitecture.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s403">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s404">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s405">Neurol. 280t587-602.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s406">Kalra, S.P., and P.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s407">Kalra (1983) Neural regulation of luteinizing hormone 
+    secretion in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s408">Endocrinol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s409">Rev. 4:311-351.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s410">Kevetter, G.A., and S.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s411">Winans (1981) Connections of the corticomedial amygdala 
+    in the golden hamster.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s412">I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s413">Efferents of the vomeronasal amygdala.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s414">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s415">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s416">Neurol. 197t81-98.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s417">King, J.C., S.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s418">Tobet, F.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s419">Snavely, and A.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s420">Arimura (1982) LHRH immunopositive cells and their 
+    projections to the median eminence and organum vasculosum.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s421">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s422">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s423">Neurol. 209:287-300.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s424">Kita, H., and Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s425">Oomura (1982) An HRP study of the afferent connections 
+    to rat medial hypothalamic region.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s426">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s427">Bull. 8:53-62.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s428">Krettek, J.E., and J.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s429">Price (1978) Amygdaloid projections to subcortical 
+    structures within the basal forebrain and brainstem in the rat and 
+    cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s430">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s431">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s432">Neurol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s433">I78:225-254.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s434">Krieger, M.S., L.C.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s435">Conrad, and D.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s436">Pfaff (1979) An autoradiographic study of the efferent 
+    connections of the ventromedial nucleus of the hypothalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s437">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s438">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s439">Neurol. 183t785-816.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s440">Loewy, A.D., C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s441">Saper, and R.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s442">Baker (1979) Descendingprojections the pontine 
+    micturition center.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s443">Brain Res. 172533-538.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s444">Luiten, P.G.M., F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s445">Kuipers, and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s446">Schuitmaker (1982) Organization of diencephalic and 
+    brainstem afferent projections to the lateral septum in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s447">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s448">Lett. 30:211-216.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s449">Luiten, P.G.M., J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s450">Koolhaas, S. de Boer, and S.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s451">Koopmans (1985) The corticomedial amygdala in the 
+    central nervous system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s452">Organization of agonistic behavior.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s453">Brain Res. 332283-297.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s454">Luiten, P.G.M., G.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s455">Ter Horst, and A.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s456">Steffens (19871 The hypothalamus, intrinsic connections 
+    and outflow pathways to the endocrine system in relation to the 
+    control of feeding and metabolism.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s457">Prog.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s458">Neurobiol.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s459">28:l-54.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s460">Meibach, R.C., and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s461">Siege1 (1977) Efferent connections of the hippocampal 
+    formation in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s462">Brain Res. 124t197-224.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s463">Michael, R.P., H.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s464">Rees, and R.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s465">Bonsall(1989) Sites in the male primate brain at which 
+    testosterone acts as an androgen.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s466">Brain Res. 50211-20.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s467">Morrell, J.I., L.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s468">Greenberger, and D.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s469">Pfaff (1981) Hypothalamic, other diencephalic, and 
+    telencephalic neurons that project to the dorsal midbrain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s470">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s471">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s472">Neurol. 201t589-620.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s473">Mussap, C.J., and E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s474">Burcher (1990) [12511-Bolton-Hunter Scyliorhinin 11: A 
+    novel, selective radioligand for the tachykinin NK3 receptor in rat 
+    brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s475">Peptides 11:827-836.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s476">Ottersen, O.P. (1980) Afferent connections of the 
+    amygdaloid complex of the rat and cat: 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s477">Afferents from the hypothalamus and the basal 
+    telencephdon.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s478">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s479">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s480">Neurol. 194:267-289.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s481">Perez-Clausell, J., C.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s482">Frederickson, and G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s483">Danscher (1989) Amygdaloid efferents through the stria 
+    terminalis in the rat gives origin to zinccontaining boutons.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s484">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s485">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s486">Neurol. 290:201-212.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s487">Pfaff, D.W., and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s488">Keiner (1973) Atlas of estradiol-concentrating cells in 
+    the central nervous system of the female rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s489">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s490">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s491">Neurol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s492">I51t121-158.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s493">Post, S., and J.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s494">Mai (1980) Contribution to the amygdaloid projection 
+    field in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s495">A quantitative autoradiographic study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s496">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s497">Hirnforsch. 21: 199225.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s498">Price, J.L., F.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s499">Russchen, and D.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s500">Amaral (1987) The limbic region. 11: The amygdaloid 
+    complex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s501">In T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s502">Hokfelt, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s503">Bjorklund, and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s504">Swanson (eds): Handbook of Chemical Neuroanatomy, vol. 
+    5, Integrated Systems.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s505">Amsterdam: Elsevier, pp. 279-388.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s506">Rao, Z.R., M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s507">Yamano, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s508">Wanaka, T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s509">Tatehata, S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s510">Shiosaka, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s511">Tohyama (1987) Distribution of cholinergic neurons and 
+    fibers in the hypothalamus of the rat using choline 
+    acetyltransferase as a marker.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s512">Neuroscience 20t923-934.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s513">Russchen, F.T. (1982) Amygdalopetal projections in the 
+    cat. 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s514">Subcortical afferent connections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s515">A study with retrograde tracing techniques.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s516">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s517">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s518">Neurol. 207t157-176.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s519">Saper, C.B., L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s520">Swanson, W.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s521">Cowan (1976) The efferent connections of the 
+    ventromedial nucleus of the hypothalamus of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s522">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s523">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s524">Neurol. 169t409442.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s525">Sar, M., and W.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s526">Stumpf (1975a) Distribution of androgen-concentrating 
+    neurons in rat brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s527">In W.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s528">Stumpf and L.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s529">Grant (eds): Anatomical Neuroendocrinology.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s530">Basel: Karger, pp. 120-133.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s531">Sar, M., and W.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s532">Stumpf (197513) Cellular localization of progestin and 
+    estrogen in guinea pig hypothalamus by autoradiography.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s533">In W.E.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s534">Stumpf and L.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s535">Grant Karger, pp. 142-155.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s536">Satoh, K., and H.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s537">Fibiger (1986) Cholinergic neurons of the laterodorsal 
+    tegmental nucleus: Efferent and afferent connections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s538">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s539">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s540">Neurol.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s541">253t277-302.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s542">Satoh, K., N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s543">Shimizu, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s544">Tohyama, and T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s545">Maeda (1978) Localization of the micturition reflex 
+    center at the dorsolateral pontine tegmentum of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s546">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s547">Lett. 8:27-33.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s548">Sawchenko, P.E., and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s549">Swanson (1983) The organization of forebrain afferents 
+    to the paraventricular and supraoptic nuclei of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s550">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s551">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s552">Neurol. 218:121-144.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s553">Sawchenko, P.E., and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s554">Swanson (1990) Growth hormone releasing hormone.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s555">In A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s556">Bjorklund, T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s557">Hokfelt, and M.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s558">Kuhar (eds): Handbook of Chemical Neuroanatomy, vol. 9, 
+    Neuropeptides in the CNS, Part 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s559">Amsterdam: Elsevier, pp. 131-163.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s560">Sawchenko, P.E., L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s561">Swanson, R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s562">Grzanna, P.R.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s563">Howe, J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s564">Polak, and S.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s565">Bloom (1985) Co-localization of neuropeptide 
+    Y-immunoreactivity in brainstem catecholaminergic neurons that 
+    project to the paraventricular nucleus of the hypothalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s566">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s567">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s568">Neurol. 241t138-153.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s569">Schmued, L.C., and J.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s570">Fallon (1986) Fluoro-Gold: A new fluorescent retrograde 
+    axonal tracer with numerous unique properties.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s571">Brain Res.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s572">377:147-154.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s573">Sheridan, P.J. (1979) The nucleus interstitialis striae 
+    terminalis and the nucleus amygdaloideus medialis: Prime targets 
+    for androgen in the rat forebrain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s574">Endocrinology 104:130-136.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s575">Shiosaka, S., M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s576">Tohyama, H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s577">Takagi, Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s578">Takahashi, Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s579">Saitoh, T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s580">Sakumoto, H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s581">Nakagawa, and N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s582">Shimizu (1980) Ascending and descending components of 
+    the medial forebrain bundle in the rat as demonstrated by the 
+    horseradish peroxidase-blue reaction.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s583">I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s584">Forebrain and upper brain stem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s585">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s586">Brain Res. 39t377-388.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s587">Shiraishi, T., and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s588">Mager (1980a) Hypothermia following injection of 
+    2-deoxy-D-glucose into selected hypothalamic sites.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s589">Am.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s590">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s591">Physiol.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPS-BoldMT"
+     id="s592">239:R265-R269.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s593">Shiraishi, T., and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s594">Mager (1980b) 2-Deoxy-D-glucose-induced hypothermia: 
+    Thermoregulatory pathways in rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s595">Am.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s596">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s597">Physiol. 239tR270R276.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s598">Simerly, R.B., and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s599">Swanson (1986) The organization of neural inputs to the 
+    medial preoptic nucleus of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s600">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s601">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s602">Neurol. 246:312-342.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s603">Simerly, R.B., and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s604">Swanson (1988) Projections of the medial preoptic 
+    nucleus: A Phaseolus vulgaris leucoagglutinin anterograde 
+    tract-tracing study in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s605">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s606">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s607">Neurol. 270:209-242.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s608">Simerly, R.B., R.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s609">Gorski, and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s610">Swanson (1986) Neurotransmitter specificity of cells and 
+    fibers in the medial preoptic nucleus: An immunohistochemical study 
+    in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s611">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s612">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s613">Neurol. 246:343-363.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s614">Simerly, R.B., C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s615">Chang, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s616">Muramatsu, and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s617">Swanson (1990) Distribution of androgen and estrogen 
+    receptor mRNA-containing cells in the rat brain: An in situ 
+    hybridization study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s618">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s619">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s620">Neurol. 294t7E-95.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s621">Skofitsch, G., and D.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s622">Jacobowitz (1985) Immunohistochemical mapping of 
+    galanin-like neurons in the rat central nervous system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s623">Peptides 6t509546.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s624">Sofroniew, M.V. (1983) Direct reciprocal connections 
+    between the bed nucleus of the stria terminalis and dorsomedial 
+    medulla oblongata: Evidence from immunohistochemical detection of 
+    tracer proteins.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s625">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s626">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s627">Neurol. 213:399-405.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s628">Staiger, J.F., and F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s629">Nurnberger (1989) Pattern of afferents septum in the 
+    guinea pig.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s630">Cell Tissue Res. 275t471-490.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s631">Standaert, D.G., P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s632">Needleman, and C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s633">Saper (1986) Organization of atriopeptin-like 
+    immunoreactive neurons in the central nervous system of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s634">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s635">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s636">Neurol. 253:315-341.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s637">Steinbusch, H.W.M. (1981) Distribution of serotonin 
+    immunoreactivity in the central nervous system of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s638">Cell bodies and terminals.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s639">Neuroscience 4t557-618.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s640">Stumpf, W.E., M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s641">Sar, and D.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s642">Keefer (1975) Atlas of estrogen target cells in rat 
+    brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s643">In W.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s644">Stumpf and L.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s645">Grant (edsj: Anatomical Neuroendocrinology.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s646">Basel: Karger, pp. 104-119.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s647">Swanson, L.W. (1992) Brain maps: Structure Elsevier, in 
+    press.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s648">Swanson, L.W. (1987) The hypothalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s649">In T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s650">Hokfelt, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s651">Bjorklund, and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s652">Swanson (eds): Handbook of Chemical Neuroanatomy, vol. 
+    5, Integrated Systems.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s653">Amsterdam: Elsevier, pp. 1-124.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s654">Swanson, L.W., and B.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s655">Hartman (1975) The central adrenergic system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s656">An Immunofluorescence study of the location of cell 
+    bodies and their efferent connections in the rat utilizing 
+    dopamine-P-hydroxylase as a marker.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s657">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s658">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s659">Neurol. 163:467-506.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s660">Swanson, L.W., and W.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s661">Cowan (1977) An autoradiographic organization of the 
+    efferent connections of the hippocampal formation in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s662">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s663">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s664">Neurol. 17249-84.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s665">Swanson, L.W., and W.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s666">Cowan (1979) The connections of the septa1 region in the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s667">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s668">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s669">Neurol. 186:621-656.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s670">Swanson, L.W., and P.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s671">Sawchenko (1983) Hypothalamic integration: Organization 
+    of the paraventricular and supraoptic nuclei.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s672">Annu.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s673">Rev.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s674">Neurosci. 6,275-325.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s675">Swanson, L.W., and D.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s676">Simmons (1989) Differential steroid hormone and neural 
+    influences on peptide mRNA levels in CRH cells of the 
+    paraventricular nucleus: A hybridization histochemical study in the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s677">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s678">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s679">Neurol. 285t413-435.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s680">Swanson, L.W., C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s681">Kohler, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s682">Bjorklund (1987) The limbic region.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s683">I: The septohippocampal system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s684">In T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s685">Hokfelt, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s686">Bjorklund, and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s687">Swanson (eds): Handbook of Chemical Neuroanatomy, vol. 
+    5, Integrated Systems.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s688">Amsterdam: Elsevier, pp. 125-277.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s689">Tsuruo, Y., S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s690">Hisano, Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s691">Okamura, N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s692">Tsukamoto, and S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s693">Daikoku (1984) Hypothalamic substance P-containing 
+    neurons.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s694">Sex-dependent topographical differences and 
+    ultrastructural transformations associated with stages of the 
+    estrous cycle.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s695">Brain Res. 305331-341.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s696">Van den Berg, M.J., G.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s697">Ter Horst, and J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s698">Koolhaas (1983) The nucleus premammillaris ventralis 
+    (PMV) and aggressive behavior in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s699">Aggress.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s700">Behav. 9t41-47.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s701">Veening, J.G. (1978) Subcortical afferents to the 
+    amygdaloid complex in the rat: An HRP study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s702">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s703">Lett. 8t197-202.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s704">Veening, J.G., L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s705">Swanson, W.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s706">Cowan, R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s707">Nieuwenhuys, and L.M.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s708">Geeraedts (1982) The medial forebrain bundle of the rat. 
+    11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s709">An autoradiographic study of the topography of the major 
+    descending and ascending components.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s710">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s711">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s712">Neurol. 206t82-108.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s713">Volz, H.P., G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s714">Rehbein, J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s715">Triepel, M.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s716">Knuepfer, H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s717">Stumpf, and G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s718">Stock (1990) Merent connections of the nucleus centralis 
+    amygdalae.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s719">A horseradish peroxidase study and literature survey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s720">Anat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s721">Embryol. 18lt177-194.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s722">Wamsley, J.K., W.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s723">Young 111, and M.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s724">Kuhar (1980) Immunohistochemical localization of 
+    enkephalin in rat forebrain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s725">Brain Res. 190:153-174.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s726">Weller, K.L., and D.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s727">Smith (1982) Afferent connections to the bed nucleus of 
+    the stria terminalis.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s728">Brain Res. 232:255-270.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s729">Wiegand, S.J., and E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s730">Terasawa (1982) Discrete lesions reveal functional 
+    heterogeneity of suprachiasmatic structures in regulation of 
+    gonadotropin secretion in the female rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s731">Neuroendocrinology 34t395-404.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s732">Wouterlood, F.G., and H.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s733">Groenewegen (1985) Neuroanatomical tracing by use of 
+    Phaseolus uulgaris-leucoagglutinin (PHA-L) electron microscopy of 
+    PHA-L filled neuronal somata, dendrites, axons, and axon 
+    terminals.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s734">Brain Res. 326:188-191.</S>
+  </References>
+
+</File>
+

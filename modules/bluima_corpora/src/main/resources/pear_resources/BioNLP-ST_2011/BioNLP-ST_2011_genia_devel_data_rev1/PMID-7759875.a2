@@ -1,0 +1,30 @@
+T12	Regulation 0 19	Abnormal regulation
+T13	Entity 32 40	promoter
+T14	Positive_regulation 272 281	inability
+T15	Gene_expression 300 307	produce
+T16	Positive_regulation 540 551	high levels
+T17	Entity 575 583	tyrosine
+T18	Phosphorylation 584 599	phosphorylation
+T19	Positive_regulation 692 699	results
+T20	Positive_regulation 703 729	transcriptional activation
+T21	Positive_regulation 776 786	activation
+T22	Positive_regulation 1878 1885	account
+T23	Negative_regulation 1894 1900	defect
+T24	Gene_expression 1909 1919	production
+E1	Regulation:T12 Theme:T1 Site:T13
+E2	Positive_regulation:T14 Theme:E3
+E3	Gene_expression:T15 Theme:T4
+E4	Positive_regulation:T16 Theme:E7
+E5	Positive_regulation:T16 Theme:E6
+E6	Phosphorylation:T18 Theme:T6 Site:T17
+E7	Phosphorylation:T18 Theme:T5 Site:T17
+E8	Positive_regulation:T19 Theme:E9
+E9	Positive_regulation:T20 Theme:T7
+E10	Positive_regulation:T21 Theme:T8
+E11	Positive_regulation:T22 Theme:E13
+E12	Negative_regulation:T23 Theme:E13
+E13	Gene_expression:T24 Theme:T11
+M1	Negation E2
+M2	Negation E3
+M3	Speculation E10
+M4	Speculation E11

@@ -1,0 +1,14 @@
+T9	Negative_regulation 738 745	inhibit
+T10	Localization 746 755	secretion
+T11	Negative_regulation 859 874	down-regulation
+T12	Transcription 887 902	mRNA expression
+T13	Regulation 920 930	regulation
+T14	Entity 947 955	promoter
+T15	Positive_regulation 1061 1098	leading to transcriptional repression
+E1	Negative_regulation:T9 Theme:E2
+E2	Localization:T10 Theme:T3
+E3	Negative_regulation:T11 Theme:E4
+E4	Transcription:T12 Theme:T4
+E5	Regulation:T13 Theme:T5 Site:T14
+E6	Positive_regulation:T15 Theme:T8
+M1	Speculation E5

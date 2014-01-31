@@ -1,0 +1,43 @@
+T11	Positive_regulation 49 61	insufficient
+T12	Entity 71 79	promoter
+T13	Positive_regulation 80 90	activation
+T14	Positive_regulation 92 103	requirement
+T15	Transcription 148 161	transcription
+T16	Positive_regulation 173 181	requires
+T17	Entity 223 231	promoter
+T18	Positive_regulation 232 242	activation
+T19	Positive_regulation 316 324	requires
+T20	Positive_regulation 330 340	activation
+T21	Negative_regulation 374 380	blocks
+T22	Binding 386 393	binding
+T23	Negative_regulation 425 434	decreased
+T24	Entity 440 448	promoter
+T25	Positive_regulation 449 459	activation
+T26	Positive_regulation 639 651	insufficient
+T27	Entity 661 669	promoter
+T28	Positive_regulation 670 680	activation
+T29	Positive_regulation 755 766	requirement
+T30	Entity 784 792	promoter
+T31	Positive_regulation 793 803	activation
+T32	Regulation 818 821	due
+E1	Positive_regulation:T11 Theme:E2
+E2	Positive_regulation:T13 Theme:T1 Site:T12
+E3	Positive_regulation:T14 Theme:E2
+E4	Transcription:T15 Theme:T3
+E5	Positive_regulation:T16 Theme:E4
+E6	Positive_regulation:T18 Theme:T4 Site:T17
+E7	Positive_regulation:T19 Theme:E6 Cause:E8
+E8	Positive_regulation:T20 Theme:T5
+E9	Negative_regulation:T21 Theme:E10
+E10	Binding:T22 Theme:T6
+E11	Negative_regulation:T23 Theme:E12
+E12	Positive_regulation:T25 Theme:T7 Site:T24
+E13	Positive_regulation:T26 Theme:E14
+E14	Positive_regulation:T28 Theme:T8 Site:T27
+E15	Positive_regulation:T29 Theme:E16 Cause:T9
+E16	Positive_regulation:T31 Theme:T10 Site:T30
+E17	Regulation:T32 Theme:E15
+M1	Negation E1
+M2	Negation E13
+M3	Negation E17
+M4	Speculation E17

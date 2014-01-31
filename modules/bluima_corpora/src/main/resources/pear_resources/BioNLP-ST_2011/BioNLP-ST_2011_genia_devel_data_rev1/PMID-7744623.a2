@@ -1,0 +1,23 @@
+T8	Positive_regulation 580 591	up-regulate
+T9	Transcription 592 605	transcription
+T10	Positive_regulation 627 641	in consequence
+T11	Gene_expression 649 656	produce
+T12	Regulation 1026 1034	regulate
+T13	Gene_expression 1051 1061	expression
+T14	Binding 1124 1131	binding
+T15	Gene_expression 1286 1295	expressed
+T16	Regulation 1515 1524	regulates
+T17	Transcription 1535 1548	transcription
+E1	Positive_regulation:T8 Theme:E2
+E2	Transcription:T9 Theme:T2
+E3	Positive_regulation:T10 Theme:E4 Cause:E1
+E4	Gene_expression:T11 Theme:T3
+E5	Regulation:T12 Theme:E6
+E6	Gene_expression:T13 Theme:T4
+E7	Binding:T14 Theme:T5
+E8	Gene_expression:T15 Theme:T6
+E9	Regulation:T16 Theme:E10
+E10	Transcription:T17 Theme:T7
+M1	Negation E1
+M2	Negation E4
+M3	Negation E8

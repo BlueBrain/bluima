@@ -1,0 +1,24 @@
+cr: TextReader
+ input: hello my name is calbindin
+
+ae: NaiveSentenceSplitterAnnotator
+
+ae: WhitespaceTokenizerAnnotator
+
+python: 
+# Python imports. for now, only Python std library is possible
+import re
+# importing Java packages 
+# see http://wiki.python.org/jython/UserGuide#accessing-java-from-jython
+from ch.epfl.bbp.uima.types import Protein
+# jcas object is made available to this script. use it like any python object.
+text = jcas.getDocumentText();
+regex = re.compile("calbindin");
+match = regex.search(text);
+if (match):
+  # Create annotation and add it to jcas. This is then accessible from UIMA
+  prot = Protein(jcas, match.start(), match.end());
+  prot.addToIndexes();
+
+ae: TestAnnotator
+ expects: ch.epfl.bbp.uima.types.Protein 1

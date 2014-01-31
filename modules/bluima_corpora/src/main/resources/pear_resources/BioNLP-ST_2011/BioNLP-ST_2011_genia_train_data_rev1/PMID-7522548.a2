@@ -1,0 +1,56 @@
+*	Equiv T2 T3
+*	Equiv T7 T8
+*	Equiv T5 T4
+T26	Negative_regulation 42 53	suppressing
+T27	Positive_regulation 94 103	induction
+T28	Positive_regulation 289 298	induction
+T29	Regulation 624 634	regulatory
+T30	Positive_regulation 667 676	induction
+T31	Negative_regulation 816 823	reduced
+T32	Positive_regulation 828 835	induced
+T33	Transcription 936 946	expression
+T34	Gene_expression 936 946	expression
+T35	Positive_regulation 1169 1178	induction
+T36	Regulation 1183 1193	controlled
+T37	Positive_regulation 1278 1285	induces
+T38	Positive_regulation 1347 1356	induction
+T39	Negative_regulation 1361 1371	unaffected
+T40	Negative_regulation 1442 1452	suppressed
+T41	Positive_regulation 1460 1469	induction
+T42	Regulation 1548 1558	regulation
+T43	Negative_regulation 1826 1833	reduced
+T44	Positive_regulation 1841 1850	induction
+E1	Negative_regulation:T26 Theme:E2
+E2	Positive_regulation:T27 Theme:T1
+E3	Positive_regulation:T28 Theme:T5
+E4	Regulation:T29 Theme:E7
+E5	Regulation:T29 Theme:E6
+E6	Positive_regulation:T30 Theme:T10 Cause:T11
+E7	Positive_regulation:T30 Theme:T9 Cause:T11
+E8	Negative_regulation:T31 Theme:E15
+E9	Negative_regulation:T31 Theme:E13
+E10	Negative_regulation:T31 Theme:E14
+E11	Negative_regulation:T31 Theme:E12
+E12	Positive_regulation:T32 Theme:E19 Cause:T12
+E13	Positive_regulation:T32 Theme:E16 Cause:T12
+E14	Positive_regulation:T32 Theme:E17 Cause:T12
+E15	Positive_regulation:T32 Theme:E18 Cause:T12
+E16	Transcription:T33 Theme:T13
+E17	Gene_expression:T34 Theme:T13
+E18	Transcription:T33 Theme:T14
+E19	Gene_expression:T34 Theme:T14
+E20	Positive_regulation:T35 Theme:T16
+E21	Regulation:T36 Theme:E20
+E22	Positive_regulation:T37 Theme:T18
+E23	Positive_regulation:T38 Theme:T19 Cause:T12
+E24	Negative_regulation:T39 Theme:E23
+E25	Negative_regulation:T40 Theme:E26
+E26	Positive_regulation:T41 Theme:T20 Cause:T21
+E27	Regulation:T42 Theme:E26
+E28	Negative_regulation:T43 Theme:E29
+E29	Positive_regulation:T44 Theme:T25 Cause:T12
+M1	Speculation E4
+M2	Speculation E5
+M3	Negation E8
+M4	Negation E11
+M5	Negation E24

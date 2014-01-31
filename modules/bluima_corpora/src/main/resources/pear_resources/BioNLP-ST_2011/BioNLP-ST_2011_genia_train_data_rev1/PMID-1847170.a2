@@ -1,0 +1,6 @@
+T5	Positive_regulation 1445 1453	inducing
+T6	Transcription 1454 1467	transcription
+E1	Positive_regulation:T5 Theme:E3
+E2	Positive_regulation:T5 Theme:E4
+E3	Transcription:T6 Theme:T1
+E4	Transcription:T6 Theme:T2

@@ -1,0 +1,34 @@
+T13	Positive_regulation 0 8	Increase
+T14	Gene_expression 18 28	expression
+T15	Gene_expression 178 188	expression
+T16	Positive_regulation 599 609	activation
+T17	Transcription 619 632	transcription
+T18	Transcription 728 741	transcription
+T19	Positive_regulation 746 753	induced
+T20	Positive_regulation 846 855	increased
+T21	Transcription 935 946	transcripts
+T22	Gene_expression 1213 1221	positive
+T23	Regulation 1277 1283	effect
+T24	Gene_expression 1293 1303	expression
+T25	Positive_regulation 1386 1395	increased
+T26	Transcription 1406 1416	mRNA level
+T27	Regulation 1502 1509	control
+T28	Gene_expression 1516 1526	expression
+E1	Positive_regulation:T13 Theme:E2
+E2	Gene_expression:T14 Theme:T1
+E3	Gene_expression:T15 Theme:T2
+E4	Positive_regulation:T16 Theme:E5
+E5	Transcription:T17 Theme:T4
+E6	Transcription:T18 Theme:T5
+E7	Positive_regulation:T19 Theme:E6
+E8	Positive_regulation:T20 Theme:E6
+E9	Transcription:T21 Theme:T6
+E10	Gene_expression:T22 Theme:T8
+E11	Regulation:T23 Theme:E12
+E12	Gene_expression:T24 Theme:T9
+E13	Positive_regulation:T25 Theme:E14
+E14	Transcription:T26 Theme:T10
+E15	Regulation:T27 Theme:E16
+E16	Gene_expression:T28 Theme:T11
+M1	Negation E11
+M2	Speculation E15

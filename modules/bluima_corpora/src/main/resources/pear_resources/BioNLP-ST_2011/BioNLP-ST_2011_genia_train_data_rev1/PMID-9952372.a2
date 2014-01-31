@@ -1,0 +1,10 @@
+T6	Positive_regulation 678 687	increased
+T7	Gene_expression 736 746	production
+T8	Positive_regulation 790 799	increased
+T9	Gene_expression 827 837	production
+E1	Positive_regulation:T6 Theme:E3
+E2	Positive_regulation:T6 Theme:E4
+E3	Gene_expression:T7 Theme:T4
+E4	Gene_expression:T7 Theme:T3
+E5	Positive_regulation:T8 Theme:E6
+E6	Gene_expression:T9 Theme:T5

@@ -1,0 +1,25 @@
+*	Equiv T5 T4
+T15	Regulation 190 199	regulates
+T16	Gene_expression 400 410	expression
+T17	Positive_regulation 420 429	activates
+T18	Entity 438 446	promoter
+T19	Positive_regulation 447 454	through
+T20	Binding 557 563	target
+T21	Binding 578 593	complex binding
+T22	Gene_expression 694 701	product
+T23	Positive_regulation 711 722	High levels
+T24	Gene_expression 730 740	expression
+T25	Gene_expression 891 905	Overexpression
+T26	Positive_regulation 891 905	Overexpression
+E1	Regulation:T15 Theme:T5 Cause:T3
+E2	Gene_expression:T16 Theme:T7
+E3	Positive_regulation:T17 Theme:T8 Cause:E2 Site:T18
+E4	Positive_regulation:T19 Theme:E3
+E5	Binding:T20 Theme:T9
+E6	Binding:T20 Theme:T10
+E7	Binding:T21 Theme:T9 Theme2:T10
+E8	Gene_expression:T22 Theme:T11
+E9	Positive_regulation:T23 Theme:E10
+E10	Gene_expression:T24 Theme:T12
+E11	Gene_expression:T25 Theme:T13
+E12	Positive_regulation:T26 Theme:E11

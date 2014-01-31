@@ -1,0 +1,40 @@
+*	Equiv T6 T5
+T20	Regulation 117 121	role
+T21	Gene_expression 189 199	expression
+T22	Gene_expression 262 271	expressed
+T23	Gene_expression 447 457	expression
+T24	Positive_regulation 619 655	contain functional promoter activity
+T25	Gene_expression 838 848	expressing
+T26	Gene_expression 860 874	non-expressing
+T27	Gene_expression 1019 1029	expression
+T28	Positive_regulation 1253 1270	promoter activity
+T29	Negative_regulation 1416 1423	reduced
+T30	Positive_regulation 1432 1449	promoter activity
+T31	Regulation 1520 1526	affect
+T32	Binding 1836 1843	binding
+T33	Regulation 2030 2040	contribute
+T34	Positive_regulation 2030 2040	contribute
+T35	Gene_expression 2066 2076	expression
+E1	Regulation:T20 Theme:E4 Cause:T2
+E2	Regulation:T20 Theme:E4 Cause:T4
+E3	Regulation:T20 Theme:E4 Cause:T3
+E4	Gene_expression:T21 Theme:T1
+E5	Gene_expression:T22 Theme:T6
+E6	Gene_expression:T23 Theme:T7
+E7	Positive_regulation:T24 Theme:T7
+E8	Gene_expression:T25 Theme:T8
+E9	Gene_expression:T26 Theme:T8
+E10	Gene_expression:T27 Theme:T8
+E11	Positive_regulation:T28 Theme:T8
+E12	Negative_regulation:T29 Theme:E13
+E13	Positive_regulation:T30 Theme:T8
+E14	Regulation:T31 Theme:E13
+E15	Binding:T32 Theme:T17
+E16	Regulation:T33 Theme:E18
+E17	Positive_regulation:T34 Theme:E18
+E18	Gene_expression:T35 Theme:T8
+M1	Negation E2
+M2	Negation E3
+M3	Speculation E7
+M4	Negation E9
+M5	Negation E14

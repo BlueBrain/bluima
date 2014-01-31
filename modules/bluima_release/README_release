@@ -1,0 +1,81 @@
+BlueUima release
+================
+
+## About
+BlueUima is a natural language processing (NLP) pipeline focused on extraction 
+of neuroscientific content and based on the UIMA framework. BlueUima builds 
+upon models from biomedical NLP (BioNLP) like specialized tokenizers and 
+lemmatizers. It adds further models and tools specific to neuroscience and 
+provides collection readers for neuroscientific corpora.
+
+## Structure
+- bin: executable scripts 
+- pipelines: place to store pipelines; see the examples there
+- repo: BlueUima libraries
+- resources: BlueUima config files, and models
+
+## Requirements
+- a Java runtime > 1.6
+- 4G of RAM to run the complete pipeline examples
+
+## Supported platforms
+- Linux (tested on Ubuntu)
+- OS X  (tested on 10.8)
+- TODO Windows 7  
+ 
+## Run a pipeline
+Execute the `run_pipeline` script to launch a UIMA pipeline. You need to provide
+a pipeline script, e.g.
+```
+./bin/run_pipeline pipelines/examples/1_simple/simple.pipeline
+```
+
+## Pipeline script format (.pipeline)
+
+Pipeline scripts allow rapid and flexible development of UIMA pipelines. 
+**To get started, check the examples (in `pipelines/example`) and the DOCUMENTATION.html**
+
+A pipeline script begins with the definition of a collection reader (CR), 
+followed by several annotation engines (AE). Definitions must be separated by an empty line. 
+For example:
+
+    cr: TextReader
+     input: this is a test sentence. here is another one with p18.
+    
+    ae: DotSentenceSplitterAnnotator
+    
+    ae: WhitespaceTokenizerAnnotator
+
+A CR definition starts with `cr:` followed by a space, followed by the java 
+class of the collection reader (if the CR is in the namespace 
+ch.epfl.bbp.uima.cr, you do not need to provide it). See the DOCUMENTATION.html 
+for a list of the available collection readers. 
+CR parameters are defined on the next following lines, starting with a space and following 
+a key-column-space-value format. Optionally, you can instantiate parameters 
+with java code, by adding __java to the parameter name, e.g. 
+
+     input__java: new String[]{"an", "array"};
+
+The definition of AEs is similar, except they start with `ae:` and the 
+default namespace is ch.epfl.bbp.uima.ae. Optionally, you can define an AE by
+using `ae_java: ` followed by a call to a (static) java function that returns 
+an AnalysisEngineDescription.
+You can use inline Java or Python code (this one's for Martin) inside the pipeline script, e.g. 
+
+    python: 
+    from ch.epfl.bbp.uima.types import Protein
+    # Create annotation and add it to jcas. This is then accessible from UIMA
+    prot = Protein(jcas, 12, 19);
+    prot.addToIndexes();
+
+Python scripts are terminated by a new line. See the examples for more information. 
+
+
+## Feedback
+... is welcomed. Report errors to renaud.richardet@epfl.ch
+
+## License
+- TODO
+
+### TODOs
+- allow to use C++ UIMA components (this one will be for for Jean-Cédric)

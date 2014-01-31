@@ -1,0 +1,21 @@
+*	Equiv T2 T3
+T19	Positive_regulation 224 233	generates
+T20	Binding 806 816	associated
+T21	Binding 1018 1026	interact
+T22	Positive_regulation 1191 1200	undergoes
+T23	Protein_catabolism 1201 1212	degradation
+T24	Protein_catabolism 1292 1303	degradation
+T25	Gene_expression 1336 1346	generation
+T26	Protein_catabolism 1425 1436	degradation
+T27	Regulation 1449 1473	differentially regulated
+E1	Positive_regulation:T19 Theme:T4
+E2	Binding:T20 Theme:T8
+E3	Binding:T21 Theme:T10 Theme2:T13
+E4	Binding:T21 Theme:T11 Theme2:T13
+E5	Binding:T21 Theme:T12 Theme2:T13
+E6	Positive_regulation:T22 Theme:E7
+E7	Protein_catabolism:T23 Theme:T15
+E8	Protein_catabolism:T24 Theme:T16
+E9	Gene_expression:T25 Theme:T17
+E10	Protein_catabolism:T26 Theme:T18
+E11	Regulation:T27 Theme:E10

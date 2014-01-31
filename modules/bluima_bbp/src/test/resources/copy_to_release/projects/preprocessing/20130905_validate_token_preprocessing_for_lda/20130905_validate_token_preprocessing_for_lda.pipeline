@@ -1,0 +1,30 @@
+#
+# evaluates quality of preprocessing, esp. tokenization
+#
+
+
+cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+ # inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/
+ # 113 pdfs
+ # inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/crawled_bams_pdfs
+ # 8500 pdfs, 10GB
+ inputDirectory: /Volumes/HDD2/ren_data/data_hdd/_papers_etc/bbp_people/people
+ isRecursive__java: true
+
+
+#cr: FromFilelistReader
+# inputFile: /nfs4/bbp.epfl.ch/user/richarde/dev/bluebrain/release_20130704/pipelines/projects/extract_brainregions/20130703_extract_BAMS/filelist/$1
+# format__java: true
+#ae: ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+
+
+
+ae: ch.epfl.bbp.uima.projects.preprocessing.PreprocessingStatsAnnotator
+
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

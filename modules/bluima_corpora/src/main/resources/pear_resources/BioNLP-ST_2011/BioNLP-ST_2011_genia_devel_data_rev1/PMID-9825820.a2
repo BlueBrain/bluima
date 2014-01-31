@@ -1,0 +1,29 @@
+*	Equiv T10 T9
+*	Equiv T3 T4
+T18	Gene_expression 910 924	co-transfected
+T19	Positive_regulation 910 924	co-transfected
+T20	Positive_regulation 1297 1304	induced
+T21	Entity 1305 1312	nuclear
+T22	Localization 1313 1326	translocation
+T23	Gene_expression 1418 1426	presence
+T24	Localization 1520 1528	secreted
+T25	Positive_regulation 1551 1566	Co-transfection
+T26	Gene_expression 1551 1566	Co-transfection
+T27	Positive_regulation 1851 1858	leading
+T28	Transcription 1898 1911	transcription
+E1	Gene_expression:T18 Theme:T3
+E2	Positive_regulation:T19 Theme:E1
+E3	Positive_regulation:T20 Theme:E6
+E4	Positive_regulation:T20 Theme:E5
+E5	Localization:T22 Theme:T8 ToLoc:T21
+E6	Localization:T22 Theme:T7 ToLoc:T21
+E7	Gene_expression:T23 Theme:T11
+E8	Gene_expression:T23 Theme:T10
+E9	Localization:T24 Theme:T12
+E10	Positive_regulation:T25 Theme:E11
+E11	Gene_expression:T26 Theme:T13
+E12	Positive_regulation:T27 Theme:E15
+E13	Positive_regulation:T27 Theme:E14
+E14	Transcription:T28 Theme:T15
+E15	Transcription:T28 Theme:T16
+M1	Negation E7

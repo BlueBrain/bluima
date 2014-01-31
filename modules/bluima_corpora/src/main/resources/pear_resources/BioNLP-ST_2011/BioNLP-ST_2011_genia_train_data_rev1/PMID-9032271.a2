@@ -1,0 +1,40 @@
+T13	Protein_catabolism 905 913	degraded
+T14	Positive_regulation 920 926	result
+T15	Negative_regulation 933 940	absence
+T16	Phosphorylation 952 967	phosphorylation
+T17	Entity 971 988	serines 32 and 36
+T18	Positive_regulation 1113 1125	accounts for
+T19	Positive_regulation 1166 1177	culminating
+T20	Phosphorylation 1195 1210	phosphorylation
+T21	Positive_regulation 1489 1495	induce
+T22	Protein_catabolism 1511 1522	degradation
+T23	Regulation 1801 1808	operate
+T24	Protein_catabolism 1956 1964	degraded
+T25	Positive_regulation 1988 1997	following
+T26	Positive_regulation 2260 2267	trigger
+T27	Protein_catabolism 2320 2331	degradation
+E1	Protein_catabolism:T13 Theme:T1
+E2	Positive_regulation:T14 Theme:E1 Cause:E3
+E3	Negative_regulation:T15 Theme:E4
+E4	Phosphorylation:T16 Theme:T1 Site:T17
+E5	Positive_regulation:T18 Theme:E3
+E6	Positive_regulation:T19 Theme:E7
+E7	Phosphorylation:T20 Theme:T5
+E8	Positive_regulation:T21 Theme:E9
+E9	Protein_catabolism:T22 Theme:T6
+E10	Regulation:T23 Theme:E4 Cause:T7
+E11	Protein_catabolism:T24 Theme:T8
+E12	Protein_catabolism:T24 Theme:T9
+E13	Positive_regulation:T25 Theme:E12
+E14	Positive_regulation:T25 Theme:E11
+E15	Positive_regulation:T26 Theme:E19
+E16	Positive_regulation:T26 Theme:E18
+E17	Positive_regulation:T26 Theme:E20
+E18	Protein_catabolism:T27 Theme:T12
+E19	Protein_catabolism:T27 Theme:T10
+E20	Protein_catabolism:T27 Theme:T11
+M1	Negation E1
+M2	Negation E5
+M3	Negation E10
+M4	Negation E13
+M5	Negation E14

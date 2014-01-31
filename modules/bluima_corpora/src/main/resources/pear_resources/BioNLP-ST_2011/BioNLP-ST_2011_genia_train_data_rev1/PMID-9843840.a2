@@ -1,0 +1,20 @@
+T9	Gene_expression 633 639	source
+T10	Negative_regulation 1287 1296	prevented
+T11	Localization 1334 1343	secretion
+T12	Positive_regulation 1394 1401	induced
+T13	Localization 1421 1430	secretion
+T14	Gene_expression 1555 1562	produce
+T15	Positive_regulation 1568 1582	in response to
+E1	Gene_expression:T9 Theme:T1
+E2	Gene_expression:T9 Theme:T3
+E3	Gene_expression:T9 Theme:T4
+E4	Gene_expression:T9 Theme:T2
+E5	Negative_regulation:T10 Theme:E8
+E6	Negative_regulation:T10 Theme:E7
+E7	Localization:T11 Theme:T5
+E8	Localization:T11 Theme:T6
+E9	Positive_regulation:T12 Theme:E10
+E10	Localization:T13 Theme:T7
+E11	Gene_expression:T14 Theme:T8
+E12	Positive_regulation:T15 Theme:E11
+M1	Negation E11

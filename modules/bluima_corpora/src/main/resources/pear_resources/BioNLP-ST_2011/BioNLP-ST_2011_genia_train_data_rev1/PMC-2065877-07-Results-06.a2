@@ -1,0 +1,84 @@
+*	Equiv T16 T17
+T69	Positive_regulation 113 121	requires
+T70	Positive_regulation 122 132	activation
+T71	Positive_regulation 168 177	activated
+T72	Positive_regulation 478 487	increased
+T73	Positive_regulation 638 646	increase
+T74	Binding 668 674	target
+T75	Negative_regulation 712 723	inactivated
+T76	Positive_regulation 753 762	increased
+T77	Phosphorylation 763 777	phosphorylated
+T78	Binding 931 937	target
+T79	Positive_regulation 941 950	activated
+T80	Positive_regulation 1021 1031	activation
+T81	Phosphorylation 1047 1062	phosphorylation
+T82	Positive_regulation 1168 1177	activated
+T83	Phosphorylation 1206 1220	phosphorylated
+T84	Regulation 1294 1304	regulation
+T85	Binding 1347 1354	targets
+T86	Positive_regulation 1402 1411	Activated
+T87	Positive_regulation 1427 1436	increased
+T88	Regulation 1523 1531	affected
+T89	Positive_regulation 1540 1547	induced
+T90	Positive_regulation 1552 1562	activation
+T91	Regulation 1923 1930	targets
+T92	Negative_regulation 2098 2107	decreased
+T93	Positive_regulation 2310 2320	activation
+T94	Positive_regulation 2329 2335	induce
+T95	Negative_regulation 2342 2353	degradation
+T96	Regulation 2406 2415	regulator
+T97	Gene_expression 2580 2590	expression
+T98	Positive_regulation 3023 3031	enhanced
+T99	Positive_regulation 3231 3234	led
+T100	Positive_regulation 3238 3247	increased
+T101	Positive_regulation 3278 3289	high levels
+T102	Negative_regulation 3303 3312	decreased
+T103	Negative_regulation 3471 3475	loss
+T104	Negative_regulation 3489 3498	decreased
+E1	Positive_regulation:T69 Theme:E2
+E2	Positive_regulation:T70 Theme:T5
+E3	Positive_regulation:T71 Theme:T6
+E4	Positive_regulation:T72 Theme:T12
+E5	Positive_regulation:T73 Theme:T14
+E6	Binding:T74 Theme:T15 Theme2:T16
+E7	Negative_regulation:T75 Theme:E6
+E8	Positive_regulation:T76 Theme:E9
+E9	Phosphorylation:T77 Theme:T18
+E10	Binding:T78 Theme:T19 Theme2:T20
+E11	Positive_regulation:T79 Theme:T20
+E12	Positive_regulation:T80 Theme:T22
+E13	Phosphorylation:T81 Theme:T23
+E14	Positive_regulation:T82 Theme:T24
+E15	Phosphorylation:T83 Theme:T25
+E16	Regulation:T84 Theme:T26
+E17	Binding:T85 Theme:T27
+E18	Positive_regulation:T86 Theme:T29
+E19	Positive_regulation:T87 Theme:E18
+E20	Regulation:T88 Theme:E18 Cause:E21
+E21	Positive_regulation:T89 Theme:E22 Cause:T31
+E22	Positive_regulation:T90 Theme:T32
+E23	Regulation:T91 Theme:T35
+E24	Negative_regulation:T92 Theme:T38
+E25	Positive_regulation:T93 Theme:T41
+E26	Positive_regulation:T94 Theme:E27 Cause:E25
+E27	Negative_regulation:T95 Theme:T42
+E28	Regulation:T96 Theme:T45 Cause:T44
+E29	Gene_expression:T97 Theme:T46
+E30	Positive_regulation:T98 Theme:T58
+E31	Positive_regulation:T98 Theme:T60
+E32	Positive_regulation:T99 Theme:E33
+E33	Positive_regulation:T100 Theme:T62
+E34	Positive_regulation:T101 Theme:T63
+E35	Negative_regulation:T102 Theme:T64
+E36	Negative_regulation:T103 Theme:T67
+E37	Negative_regulation:T104 Theme:T68
+M1	Negation E5
+M2	Negation E8
+M3	Negation E10
+M4	Negation E14
+M5	Speculation E17
+M6	Negation E19
+M7	Negation E20
+M8	Negation E26
+M9	Negation E28
+M10	Speculation E28

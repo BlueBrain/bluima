@@ -1,0 +1,24 @@
+Modeling the effect of DA
+Dopaminergic SNc neurons project to several BG nuclei (for review, see
+Graybiel, 2000), but these projections and the dopaminergic receptors
+are more numerous in the striatum (Haber and Fudge, 1997). Thus, we
+have assumed that the DA primarily affects the BG dynamics via its effects
+in the striatum. The effects of DA on synaptic and cellular properties in
+the striatum is still a topic of debate (for review, see Calabresi et al., 2000;
+O'Donnell, 2003; Nicola et al., 2004). Most of the available data regarding
+the presynaptic and postsynaptic effects of DA were obtained in vitro.
+These data are often contradictory, presumably because of the different
+experimental conditions under which they were obtained, and whether
+the changes in DA concentration are phasic and/or attributable to local
+fluctuations or whether they are pathological. Here, we focus on the
+pathological changes in the dynamics of the cortex–BG network induced
+by a depletion in the average extracellular DA concentration. Previous in
+vitro studies suggest that the threshold of striatal neurons increases with
+DA (Calabresi et al., 2000; O'Donnell, 2003). Consistent with this idea, in
+vivo studies have shown that the activity of striatal projection neurons
+increases after DA depletion both in anesthetized and awake animals
+(Kish et al., 1999; Tseng et al., 2001). We modeled this increase in activity
+after DA depletion phenomenologically by the following dependence of
+the average threshold of striatal neurons, T , on the level of DA as
+Str
+follows:

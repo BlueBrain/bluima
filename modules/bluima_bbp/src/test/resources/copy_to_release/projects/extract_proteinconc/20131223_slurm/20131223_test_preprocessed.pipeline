@@ -1,0 +1,65 @@
+##############################################################################
+
+
+# get data from https://db.tt/cyj25tZy (this is a sample of the data that we
+#  already preprocessed in 20131120_slurm)
+# and unzip it right here.
+
+#cr: ch.epfl.bbp.uima.ae.serialization.RangeBinaryCasReader
+# inputDirectory: /Volumes/simulation/nlp/data/20131120_preprocessed/
+# inputDirectory: /Users/philemonfavrod/Desktop/asdasd/
+# between__java: new int[]{ 20002000, 20003000}
+
+
+###########################################################################
+####    THE FOLLOWING PART MUST BE REPLACED BY PREPROCESS DATA #############
+###########################################################################
+
+
+#cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+# inputDirectory: /Users/philemonfavrod/Documents/shared/temp__/
+# isRecursive__java: true
+
+
+# PREPROC ######################################################
+include: ../../../includes/preprocess.incl
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getChunker();
+
+
+# NERS ############################################################
+
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+
+ae: PruneMeasuresAnnotator
+
+ae: ch.epfl.bbp.nlp.ie.proteinconc.ae.NormalizedConcentrationAnnotator
+
+ae: ch.epfl.bbp.nlp.ie.proteinconc.ae.BannerMAnnotator
+ max_length__java: 200
+
+ae: ch.epfl.bbp.nlp.ie.proteinconc.ae.FigureTitleAnnotator
+
+ae: ch.epfl.bbp.nlp.ie.proteinconc.ae.AnnotOverlapFilter
+ protectedAnnotationClassName: ch.epfl.bbp.uima.types.Protein
+ filteredAnnotationsClassNames__java: new String[]{"ch.epfl.bbp.uima.types.Figure"}
+
+ae: BrainRegionAnnotator
+ modelFile: $ROOT/modules/bluima_regions/resources/models/20131116_BrainRegion.model
+
+ae: ch.epfl.bbp.nlp.ie.proteinconc.ae.AnnotOverlapFilter
+ protectedAnnotationClassName: ch.epfl.bbp.uima.types.BrainRegion
+ filteredAnnotationsClassNames__java: new String[]{"ch.epfl.bbp.uima.types.Measure", "ch.epfl.bbp.uima.types.Protein", "ch.epfl.bbp.uima.types.Cooccurrence"}
+
+
+###########################################################################
+###########################################################################
+###########################################################################
+
+include: 20131223_extract_proteinconc.incl
+#include: 20131215_extract_br-br.incl
+#include: 20131215_elasticsearch.incl
+
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

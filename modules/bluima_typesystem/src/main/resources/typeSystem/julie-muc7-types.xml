@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+<name>ACE Semantics Type System</name>
+<description></description>
+<version>2.0</version>
+<vendor></vendor>
+<imports>
+<import location="julie-document-meta-types.xml"/>
+<import location="julie-semantics-mention-types.xml"/>
+</imports>
+<types>
+<typeDescription>
+<name>de.julielab.jules.types.muc7.Coref</name>
+<description></description>
+<supertypeName>uima.tcas.Annotation</supertypeName>
+<features>
+<featureDescription>
+<name>id</name>
+<description></description>
+<rangeTypeName>uima.cas.Integer</rangeTypeName>
+</featureDescription>
+<featureDescription>
+<name>corefType</name>
+<description></description>
+<rangeTypeName>uima.cas.String</rangeTypeName>
+</featureDescription>
+<featureDescription>
+<name>ref</name>
+<description></description>
+<rangeTypeName>de.julielab.jules.types.muc7.Coref</rangeTypeName>
+</featureDescription>
+<featureDescription>
+<name>min</name>
+<description></description>
+<rangeTypeName>uima.cas.String</rangeTypeName>
+</featureDescription>
+</features>
+</typeDescription>
+<typeDescription>
+<name>de.julielab.jules.types.muc7.MUC7Header</name>
+<description>the MUC7Header has the storyID as additional type</description>
+<supertypeName>de.julielab.jules.types.Header</supertypeName>
+<features>
+<featureDescription>
+<name>storyID</name>
+<description>the storyID of the MUC7 documents</description>
+<rangeTypeName>uima.cas.String</rangeTypeName>
+</featureDescription>
+</features>
+</typeDescription>
+<typeDescription>
+<name>de.julielab.jules.types.muc7.ENAMEX</name>
+<description>the ENAMAX entities that can be found in MUC7; have their particular types as attribute</description>
+<supertypeName>de.julielab.jules.types.EntityMention</supertypeName>
+<features>
+<featureDescription>
+<name>typeOfNE</name>
+<description>the type of the entity (e.g., ORGANIZATION, PERSON)</description>
+<rangeTypeName>uima.cas.String</rangeTypeName>
+</featureDescription>
+<featureDescription>
+<name>min</name>
+<description>the head of the NE</description>
+<rangeTypeName>uima.cas.String</rangeTypeName>
+</featureDescription>
+</features>
+</typeDescription>
+<typeDescription>
+<name>de.julielab.jules.types.muc7.TIMEX</name>
+<description>the temporal entities from MUC7; their particular type is stored in the attribure</description>
+<supertypeName>uima.tcas.Annotation</supertypeName>
+<features>
+<featureDescription>
+<name>typeOfNE</name>
+<description>the type of the NE (e.g., DATE, LOCATION etc.)</description>
+<rangeTypeName>uima.cas.String</rangeTypeName>
+</featureDescription>
+<featureDescription>
+<name>min</name>
+<description>the minimal head of the named entity</description>
+<rangeTypeName>uima.cas.String</rangeTypeName>
+</featureDescription>
+</features>
+</typeDescription>
+<typeDescription>
+<name>de.julielab.jules.types.muc7.NUMEX</name>
+<description>the NUMEX NE in MUC7</description>
+<supertypeName>de.julielab.jules.types.EntityMention</supertypeName>
+<features>
+<featureDescription>
+<name>min</name>
+<description>the head (min) of the NUMED</description>
+<rangeTypeName>uima.cas.String</rangeTypeName>
+</featureDescription>
+<featureDescription>
+<name>typeOfNE</name>
+<description>the type of the NUMEX</description>
+<rangeTypeName>uima.cas.String</rangeTypeName>
+</featureDescription>
+</features>
+</typeDescription>
+</types>
+</typeSystemDescription>

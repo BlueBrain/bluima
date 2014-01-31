@@ -1,0 +1,22 @@
+*	Equiv T8 T9
+T15	Gene_expression 512 519	express
+T16	Positive_regulation 864 870	caused
+T17	Positive_regulation 871 881	activation
+T18	Binding 960 968	Blocking
+T19	Positive_regulation 1329 1337	inducing
+T20	Positive_regulation 1392 1400	inducing
+T21	Positive_regulation 1472 1480	inducing
+T22	Positive_regulation 1507 1514	induced
+E1	Gene_expression:T15 Theme:T4
+E2	Gene_expression:T15 Theme:T3
+E3	Gene_expression:T15 Theme:T2
+E4	Gene_expression:T15 Theme:T1
+E5	Positive_regulation:T16 Theme:E6
+E6	Positive_regulation:T17 Theme:T5
+E7	Binding:T18 Theme:T7
+E8	Binding:T18 Theme:T6
+E9	Positive_regulation:T19 Theme:T10
+E10	Positive_regulation:T20 Theme:T11
+E11	Positive_regulation:T21 Theme:T12
+E12	Positive_regulation:T22 Theme:T12
+M1	Negation E5

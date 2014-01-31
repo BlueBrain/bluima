@@ -1,0 +1,1441 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">R Factors influencing lysis time stochasticity in bacteriophage l</title>
+			</titleStmt>
+			<publicationStmt>unknown</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">E</forename>
+								<forename type="middle">S</forename>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">John</forename>
+								<forename type="middle">J</forename>
+								<surname>Dennehy</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Ing-Nang</forename>
+								<surname>Wang</surname>
+							</persName>
+						</author>
+						<title level="a" type="main">R Factors influencing lysis time stochasticity in bacteriophage l</title>
+					</analytic>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<front>
+			<div type="abstract">
+				<head>Abstract</head>
+<p>Background: Despite identical genotypes and seemingly uniform environments, stochastic gene expression and other dynamic intracellular processes can produce considerable phenotypic diversity within clonal microbes. One trait that provides a good model to explore the molecular basis of stochastic variation is the timing of host lysis by bacteriophage (phage).</p>
+			</div>
+		</front>
+		<body>
+<p>Results: Individual lysis events of thermally-inducible l lysogens were observed using a temperature-controlled perfusion chamber mounted on an inverted microscope. Both mean lysis time (MLT) and its associated standard deviation (SD) were estimated. Using the SD as a measure of lysis time stochasticity, we showed that lysogenic cells in controlled environments varied widely in lysis times, and that the level of lysis time stochasticity depended on allelic variation in the holin sequence, late promoter (p R &apos;) activity, and host growth rate. In general, the MLT was positively correlated with the SD. Both lower p R &apos; activities and lower host growth rates resulted in larger SDs. Results from premature lysis, induced by adding KCN at different time points after lysogen induction, showed a negative correlation between the timing of KCN addition and lysis time stochasticity. Conclusions: Taken together with results published by others, we conclude that a large fraction of l lysis time stochasticity is the result of random events following the expression and diffusion of the holin protein. Consequently, factors influencing the timing of reaching critical holin concentrations in the cell membrane, such as holin production rate, strongly influence the mean lysis time and the lysis time stochasticity.</p>
+
+			<div>
+				<head>Background</head>
+<p>Some phenotypic variation arises from randomness in cellular processes despite identical environments and genotypes [1] [2] [3] [4] [5] [6] [7] [8] [9]. Population heterogeneity, resulting from such molecular stochasticity, has been documented in many microbial organisms including bacteriophage (phage) l [10] [11] [12] [13], Escherichia coli [14] [15] [16], Bacillus subtilis [17] [18] and Saccharomyces cerevisiae [19] [20] [21] [22] [23] [24]. This within-population variation can have far reaching life history consequences. For example, experimentally reducing noise in the expression of ComK decreased the number of competent B. subtilis cells in one study [18]. In another study, mutants of S. cerevisiae showing greater heterogeneity in survival had higher rates of occasional-cell survival during high stress conditions than did wild-type cells [25].</p>
+<p>Because of their simplicity and ease of manipulation, phages are excellent models to explore the life history consequences of molecular stochasticity. Many phages use a &quot;holin-endolysin&quot; system to compromise two physical barriers, the cell membrane and the peptidoglycan layer, in order to lyse an infected host cell [26] [27]. Although there are some variations on the theme, holin usually forms a hole(s) in the inner membrane, thus either allowing soluble endolysin into the periplasmic space [28] [29] or activating the membrane-tethered endolysin already translocated to the periplasm [30] [31] [32]. Endolysin then digests the peptidoglycan, causing host cell lysis. The most extensively studied lysis system is that of phage l, which consists of four genes: S (encodes holin and antiholin), R (encodes endolysin), Rz, and Rz1 (encode an integral inner membrane protein and an outer membrane lipoprotein, respectively). All genes are co-transcribed from the late promoter p R &apos; during the late phase of the lytic cycle [26] [27] [33] [34]. Under typical</p>
+<p>* Correspondence: john.dennehy@qc.cuny.edu</p>
+<p>Department of Biological Sciences, University at Albany, 1400 Washington Avenue, Albany, NY 12222, USA Full list of author information is available at the end of the article</p>
+<p>Dennehy and Wang BMC Microbiology 2011, 11:174 http://www.biomedcentral.com/1471-2180/11/174</p>
+<p>© 2011 Dennehy and Wang; licensee BioMed Central Ltd. This is an Open Access article distributed under the terms of the Creative Commons Attribution License (http://creativecommons.org/licenses/by/2.0), which permits unrestricted use, distribution, and reproduction in any medium, provided the original work is properly cited.</p>
+<p>laboratory conditions, only S and R are needed for host lysis, though both Rz and Rz1 are essential in the presence of high concentrations of divalent cations [33] [34] [35]. The lytic pathway of phage l is commonly divided into the early, delayed early, and late phases. Transitions between stages are triggered by well-characterized molecular actions involving gene transcription and translation [36]. Consequently, the timing of when individual cells enter each phase greatly influences the length of individual lysis times. A recent study by Amir et al. [10] showed that 69% of the total lysis time variance is due to variation in the time interval between the onset of the p R &apos; promoter and the eventual lysis (see APPENDIX A). This observation suggests that a large portion of the observed lysis time stochasticity is a de novo phenomenon , confined to the production and accumulation of holin proteins in the cell membrane, rather than a direct carryover from the various upstream stochastic events. The formation of the l holin hole in the membrane is hypothesized to be a multi-step process that starts with the transcription of the late mRNA and the translation of the S holin protein. The resulting holin monomers are then inserted into the cell membrane, where they dimerize , then oligomerize [37], eventually leading to the formation of higher-order holin aggregates, or rafts, in the cell membrane. At a time that is specific to the holin protein sequence, the holin rafts are transformed into a membrane lesion(s) &gt; 300 nm across [38], which is large enough for the passage of a 500 KDa protein [28] [29]. Lysis ensues after endolysin digests the peptidoglycan. Thus, by regulating endolysin&apos;s access to the peptidoglycan, holin controls the timing of lysis [26] [27]. To formalize the heuristic model of holin hole formation described by Wang et al. [28], Ryan and Rutenberg [39] proposed a two-stage nucleation model, in which the production rate of the holin monomers and holin self-affinity contribute to the aggregation of holin rafts. Raft aggregation is opposed by thermal Brownian motion which tends to disintegrate rafts into their holin constituents. As the rafts grow and then exceed a certain critical size (the first stage of nucleation), the probability of a second stage nucleation (triggering to hole formation) increases (Figure 1). According to this model, lysis time stochasticity is the inevitable outcome of each infected cell in the population following its own time course of growth in holin raft size. However, a recent study [40] using C-terminus GFP-fused l S holin protein showed that, for most of the latent period , holin proteins are distributed uniformly in a relatively mobile state in the cell membrane. At a time that coincided with the triggering time, large immobile holin rafts suddenly appeared in the membrane. The transition from uniformly distributed holin to holin rafts occurred in less than a minute. Although it is not clear whether these large rafts correspond to the membrane holes observed by cryoelectron microscopy [38], this study nevertheless casts doubt on the previously hypothesized importance of holin raft size growth as the determining factor in lysis timing [28] [39]. Rather, it is proposed that the lysis time is determined by when a critical holin concentration is reached in the cell membrane (Figure 1). According to this model, lysis time stochasticity is mainly the result of variation in</p>
+<p>Figure 1 Schematic presentation of two models of holin hole formation. Holin monomers (shaded circles) are produced in the cytoplasm, and then transported to the cell membrane (a top-down view of the cell membrane thereafter) where they dimerize. A previous model (open arrows) [28] [39] hypothesized that the growth of the holin aggregates (&quot;rafts&quot;) to a critical size that is responsible for the collapse of the proton motive force (pmf), thus resulting in hole formation. The current model [40] (filled arrows) suggests that the holin proteins are mostly in a mobile state, then quite suddenly, aggregates are formed, leading to the formation of holin holes. Addition of the energy poison KCN halts further holin production and abolishes the pmf. This figure is adapted from Wang et al. [28] and White et al. [40].</p>
+<p>Dennehy and Wang BMC Microbiology 2011, 11:174 http://www.biomedcentral.com/1471-2180/11/174</p>
+<p>the timing of reaching the critical holin concentration in the membrane. Typically, the lysis time of a phage is estimated using a one-step growth curve [41] [42] [43]. In the case of phage l, however, the availability of thermally-inducible E. coli l lysogens allows a more precise determination of the lysis time by following the decline of culture turbidity [26] [44]. Direct observation of the lysis of individual l lysogenic cells [45] confirmed that the precipitous decline of culture turbidity, commonly observed among thermallyinduced l lysogen cultures, is a reflection of the saltatory nature of individual lysis events at the microscopic level. However, it is not clear to what extent the seemingly high synchronicity of lysis is influenced by various aspects of phage biology and host growth conditions. In this study, we used a simple experimental setup to assess how lysis time stochasticity is affected by allelic variation in the S protein, late promoter p R &apos; activity, host growth rate, and the timing of energy poison KCN addition. Our</p>
+			<table>
+				<head>results establish the ranges and limits of lysis time stochasticity under various conditions.</head>
+			</table>
+			</div>
+
+			<div>
+				<head>Results</head>
+<p>Using a microscope-mounted, temperature-controlled perfusion chamber, we observed and recorded individual lysis events of thermally-induced Escherichia coli l lysogens (Figure 2A). These observations revealed a considerable amount of variation in lysis time for the wildtype (WT) l phage (Table 1; Figure 2B). Although the mean lysis time for the WT l phage was 65.1 min, lysis times for individual lysogenic cells ranged from 45.4 to 74.5 min. Given that phage progeny accumulate linearly at ~7.7 phage per minute beginning ~28 min after lysis induction [46], the ~30 min range of lysis times could result in a three-fold difference in burst size between phages that lyse early and those that lyse late. This result motivated further exploration of variation in lysis time among other l strains.</p>
+<p>Figure 2 Samples of a lysis recording and frequency distributions of various experimental treatments. (A) Sample recordings from strain IN63. It takes about 5 sec for the upper left cell to disappear from view. (B) Sample frequency distributions of lysis times from strains IN56, IN67, IN68, SYP028, IN56 with KCN added at 55 min after thermal induction, and IN56 grown in glycerol minimal salts medium. The bin size was 2 min. Additional data are shown in Tables 1 and 2.</p>
+<p>Dennehy and Wang BMC Microbiology 2011, 11:174 http://www.biomedcentral.com/1471-2180/11/174</p>
+<p>Effect of allelic variation in holin sequence</p>
+<p>It has long been known that different holin alleles show different lysis times [37] [46] [47]. However, it is not clear to what extent allelic differences in holin protein would affect the lysis timing of individual cells. To gain further insight, we determined the MLTs (mean lysis times) and SDs (standard deviations) of lysis time for 14 isogenic l lysogens differing in their S holin sequences (see APPENDIX B for our rationale for using SD as the measure for lysis time stochasticity). The directly observed MLTs (Table 1) were longer than those reported previously [46]. This discrepancy was mainly due to the fact that, in previous work, lysis time was defined by the time point when the turbidity of the lysogen culture began to decline, whereas in our current measurement, it was the mean of all individual lysis times observed for a particular phage strain. Figure 3A revealed a significant positive relationship between MLT and SD (F [1] [12] = 8.42, p = 0.0133). However , we did not observe a significant relationship</p>
+<p>Figure 3 Factors influencing l lysis time stochasticity. (A) Effect of allelic variation in holin proteins on mean lysis times (MLTs) and standard deviations (SDs). (B) Effect of l&apos;s late promoter p R &apos; activity [50] on MLTs, SDs and CVs (coefficients of variation). Solid curve is SD = 3.05 (72.73 + P)/P, where P was the p R &apos; activity. (C) Effects of p R &apos; activity and host growth rate on lysis time stochasticity. The regression line was obtained by fitting all data points from the late promoter activity (filled diamonds) and lysogen growth rate (open squares) treatments, except for the datum with the longest MLT and largest SD (from SYP028 in Table 2). (D) Effect of lysogen growth rate on MLT, SD, and CV. The fitted solid line shows the relationship between the growth rate and SD. All data are from Tables 1 and 2. Symbols: open circles, MLT; close circles, SD; closed triangles, CV.</p>
+			<table>
+				<head>Table 1 Effects of holin allelic sequences on the stochasticity of lysis time</head>
+			</table>
+			<table>
+				<head>across several days. Detailed information can be found in Table S1 of additional file 1.</head>
+			</table>
+			<table>
+				<head>Glc, glucose; Gly, glycerol. C In some cases, the sample size n is the pooled number of cells observed across several days. Detailed information can be found in Table S2 of the addition file 1.</head>
+			</table>
+			</div>
+
+			<div>
+				<head>Discussion</head>
+<p>our current result that host physiology (which is presumably somewhat perturbed in their lysogen strains carrying the medium-copy reporter plasmids) would affect the overall MLTs and SDs of lysis time.</p>
+<p>Manipulation of holin protein sequence</p>
+<p>Barring potential post-translational modifications due to differences in holin protein sequence (e.g., differential rate in proteolysis), isogenic l strains expressing different holin sequences would have a similar average rate of holin accumulation in the membrane and consequently the same distribution of holin proteins among the cells across different lysogen populations. That is, at any given moment, we would expect a certain proportion of cells to accumulate a certain number of holin molecules in the membrane, irrespective of the holin sequences. The observed differences in MLTs, as the result of differences in holin sequence, can be seen as a reflection of different set-points for critical concentrations in an increasingly crowded cell membrane [40]. Presumably, a sequence with a lower set-point would not only result in a shorter MLT, but also a smaller SD as well. However , the existence of similar MLTs, but very different SDs, suggests that missense mutations in the holin sequence not only affect the set-point for spontaneous triggering, but also impact the robustness of the setpoint . For example, some mutations may be relatively insensitive to the critical holin concentration, thus resulting in proportionally more cells that are triggered earlier and later than expected, hence greater lysis time stochasticity.</p>
+<p>Effect of energy poison KCN</p>
+<p>It is well known that addition of the energy poison, KCN, to induced lysogen cultures will accelerate the onset of lysis [44]. Our results also confirmed this observation (see Table 2). However, it is not clear how this accelerated lysis would affect the lysis time stochasticity . From anecdotal observations, the addition of KCN seems to synchronize lysis, thus resulting in a precipitous decline of lysogen culture turbidity. Our study showed that the timing of KCN addition was inversely related to lysis time stochasticity (see Figure 4B). In fact, the smallest SD (1.45 min) was achieved by adding KCN at 55 min after thermal induction (see Table 2), a time where normally only about 1% of the cells have lysed. The almost synchronous lysis when KCN was added 55 min post thermal induction suggests that most cells would have already accumulated enough holin proteins in the cell membrane to form a hole. Besides collapsing the PMF, the addition of KCN should also halt the production of holin protein, thus &quot;fixes&quot; the amount of holin proteins on the cell membrane at the time of addition. The progressive decline in lysis time</p>
+<p>Dennehy and Wang BMC Microbiology 2011, 11:174 http://www.biomedcentral.com/1471-2180/11/174</p>
+<p>stochasticity as KCN was added later in time (see Figure 4B) strongly suggests that a larger supply of holin protein is a key factor in ensuring synchronous lysis. As more holin proteins are inserted into the cell membrane, the kinetics of raft formation gradually shifts from stochastic to deterministic and synchronous. In fact, there was a nearly five-fold decrease in lysis time stochasticity when the PMF was collapsed at 55 min after lysogen induction when compared to collapse at 25 min (see Table 2). It is also noted that the properties of the normally triggered and the prematurely triggered holin holes are quite distinct , with the prematurely triggered holes being much smaller than the normally triggered holes [28].</p>
+<p>Evolutionary implication of lysis time stochasticity</p>
+<p>Both theoretical and experimental studies have demonstrated the importance of lysis timing on phage fitness [46] [57] [58] [59] [60] [61]. However, it is not clear if lysis time stochasticity would have any impact on phage fitness. All else being equal, genotypes with reduced variances in offspring number would, in the long run, have higher fitness than genotypes that have the same mean offspring number, but larger variances [62] [63]. Overall, this suggests that natural selection would tend to minimize stochasticity in phenotypes that are closely linked to Darwinian fitness. If the phage burst size is positively linked with the lysis time, as has been shown previously [46], then selection for reduced burst size stochasticity should lead to reduced lysis time stochasticity as well. Presumably, this hypothesis can be tested by competing two isogenic phage strains that have the same MLTs but very different lysis time SDs. Interestingly, inspection of Table 1 revealed that mutations introduced into WT l holin sequence usually result in increased stochasticity , except in one case. It is not clear if this observation implies that the WT holin sequences have already been selected for reduced stochasticity in the wild as well. Experiments with more phage holins should provide some hints in this respect.</p>
+			</div>
+
+			<div>
+				<head>Conclusions</head>
+<p>Even in a seemingly uniform environment, the lysis time can vary greatly among individual l lysogenic cells (lysis time stochasticity). The extent of stochasticity, as quantified by the standard deviation, depends on the quality (due to isogenic l lysogens expressing different S protein alleles) and quantity (manipulated by having different p R &apos; activities and lysogen growth rates) of the holin protein, the major determinant of lysis timing in largegenome phages. There is a general positive trend between the mean lysis time and the degree of stochasticity . However, this positive relationship is much tighter when difference in mean lysis time is due to holin quantity rather than quality. The pattern of lysis time stochasticity obtained by addition of KCN at various time points after lysogen induction showed a negative relationship between the timing of KCN addition and the level of lysis time stochasticity.</p>
+			</div>
+
+			<div>
+				<head>Appendix A</head>
+<p>This section provides the rationale for partitioning lysis time variance found in the study by Amir et al. [10]. For each UV-induced l lysogenic cell, the lysis time T can be divided into three time intervals: (1) t 1 , the time interval between lysogen induction and the onset of p R promoter, (2) t 2 , the time interval between the onset of the p R promoter and the onset of the p R &apos; promoter, and (3) t 3 , the time interval between the onset of the p R &apos; promoter and the eventual lysis. The following relationships describe the above time intervals and the empirically determined time intervals by Amir et al. [10]: t 1 = t pR , t 1 + t 2 = t pR&apos;-tR&apos; , t 1 + t 2 + t 3 = t lysis , and t 3 = Δt = t lysis - t pR&apos;-tR&apos; . For, T = t 1 + t 2 + t 3 , the variance for the lysis time can be expressed as VAR(T) = VAR(t 1 ) + VAR(t 2 ) + VAR(t 3 ) + 2COV (t 1 , t 2 ) + 2COV (t 2 , t 3 ) + 2COV (t 1 , t 3 ). While the authors did not provide all possible combinations of covariance, it is empirically determined that COV(t 1 + t 2 , t 3 ) = 0, as shown in their figure seven E (i. e., no correlation between t pR&apos;-tR&apos; and Δt). That is, COV (t 1 + t 2 , t 3 ) = COV(t 1 , t 3 ) + COV(t 2 , t 3 ) = 0. Although not empirically demonstrated, it seems unlikely that the timing of turning on either the p R or p R &apos; promoter would have a positive or negative effect on the assembly of lysis apparatus such that their effects would cancel each other out, resulting in the observed COV(t 1 , t 3 ) + COV(t 2 , t 3 ) = 0. Most likely, time intervals are mutually independent, i.e., COV(t 1 , t 3 ) = COV(t 2 , t 3 ) = 0. The standard deviations (&quot;absolute noise&quot; in their terminology ) for t pR&apos;-tR&apos; and t lysis can be extracted from their figure six A using data determined from cells carrying the pR&apos;-tR&apos;-GFP plasmid. The estimated SDs for t pR&apos;-tR&apos; and t lysis are ~10 min and ~18 min, respectively; therefore, VAR(t pR&apos;-tR&apos; ) = ~100 and VAR(t lysis ) = ~324. The SD for t pR can be estimated by extrapolating the line connecting between lysis and p R &apos; onset to the 20 min mean time at the x-axis (based on the result from cells carrying the pR-GFP plasmid in their figure six A). The corresponding SD for t pR is ~7 min, thus VAR(t pR ) = ~49. Taken together, VAR(t 1 ) = 49, VAR(t 2 ) = 51 (= VAR(t 1 + t 2 ) - VAR(t 1 ) = 100 -49 ), and VAR(t 3 ) = 224 (= VAR(t 1 + t 2 + t 3 ) - VAR(t 1 + t 2 ) = 324 -100). That is, VAR(t 1 ), VAR(t 2 ), and VAR(t 3 ) contributed to 15%, 16%, and 69% of total lysis time variance, respectively.</p>
+			</div>
+
+			<div>
+				<head>Appendix B</head>
+<p>Studies of molecular stochasticity typically use the coefficient of variation (CV) as the measurement for the</p>
+<p>Dennehy and Wang BMC Microbiology 2011, 11:174 http://www.biomedcentral.com/1471-2180/11/174</p>
+<p>degree of stochasticity [15] [25] [48] [49]. Since CV is a composite statistic (defined as standard deviation/mean), it is sometimes difficult to discern whether an increase in the observed stochasticity (as quantified by CV) is due to decrease in mean or increase in SD. In some cases, a different metric, such as phenotypic noise strength (defined as variance/mean) [17] [20], or a slight variant of it (defined as variance/squared mean) [19], has been used as well. Many times, it is not clear why a particular metric is used, except in the instance where the phenotypic noise strength is used to test against an a priori expectation of a Poisson distribution, for which variance/mean = 1. It is understandable why the CV, or a variant, is used in certain situations. For example, if the means are drastically different from each other or a comparison is made between measurements using different units [[56], pp. 57-59.]. In our study, however, the means were not very different and the same measuring unit (i.e., min) was used. Therefore, we presented our means and SDs separately and then jointly as CVs. Except in one instance where presenting stochasticity as SD or CV makes a difference (i.e., effect of genotype on SD or CV vs. MLT), all the other results showed that SD and CV followed the same trend. Since CV can be derived from SD and mean, no information is lost by presenting them separately. Furthermore, when the stochasticity (or noise distribution) is not apparent, it may be advisable to present results as means and SDs (and if necessary, higher moments like skewness and kurtosis) separately, so that the impact of various experimental treatments on the noise distribution can be fully appreciated.</p>
+			</div>
+
+			<div>
+				<head>Methods</head>
+			<table>
+				<head>All bacteria and phage strains used in this study are listed in Table 3. The copy number of l genome was checked by PCR following the method of Powell et al. [64].</head>
+			</table>
+<p>E. coli cells lysogenic for l phage were induced and observed to lyse in a temperature-controlled perfusion chamber. The experimental apparatus consisted of a 250 mL side-arm (on bottom) medium bottle clamped to an elevated support with tubing leading to an inline heater (SH-27B, Warner Instruments, New Haven, CT) that was controlled by a dual channel heater controller (TC-344B, Warner Instruments, New Haven, CT). The growth medium, flowing at a rate of ~1 mL/min (driven by gravity) and heated by the inline heater to the desired temperature, was introduced to a 358 μL perfusion chamber (RC-21B, Warner Instruments, New Haven, CT) mounted on a heating platform (PM2, Warner Instruments, New Haven, CT) that was controlled by the same dual channel heater controller to maintain the desired temperature. The internal temperature of the perfusion chamber was independently monitored by a thermistor. Waste flowed out of the perfusion chamber, pooled in a reservoir, and was siphoned into a 2 L bottle by a vacuum source. Both the perfusion chamber and the heating platform were placed on the stage of an inverted microscope (TS100, Nikon) for observation at 400× magnification. One of the microscope&apos;s ocular lenses was replaced with a 10X MiniVID™ microscope camera (LW Scientific, Norcross, GA) to record individual lysis events onto a laptop computer at the rate of 1 frame per second. All data were collected in unit of seconds , though the results were presented in minutes.</p>
+<p>Sample preparation and lysis time determination</p>
+<p>Lysogens were cultured overnight in LB or minimal salts media (see below) at 30°C on a rolling drum. Stationary phase cultures were diluted 100-fold in LB or minimal salts media, then grown to A 550 ~ 0.2. 200 μL of exponentially growing cells were immobilized on a 22 mm square glass coverslip that has been pretreated with</p>
+			<table>
+				<head>Table 3 Bacterial strains used in this study</head>
+			</table>
+<p>IN69 MC4100 (l cI857 S C51S/L14C ) [46] IN70 MC4100 (l cI857 S C51S/F78C ) unpublished strain IN71 MC4100 (l cI857 S105 C51S/F78C ) unpublished strain IN160 MC4100 (l cI857 S A52G Cam) unpublished strain</p>
+<p>SYP026 MC4100 (l cI857 p R &apos;-M2), with p R &apos; mutations</p>
+<p>SYP027 MC4100 (l cI857 p R &apos;-M1), with p R &apos; mutations</p>
+<p>SYP028 MC4100 (l cI857 p R &apos;-M5), with p R &apos; mutations</p>
+<p>SYP043 MC4100 (l cI857 p R &apos;-M4), with p R &apos; mutations</p>
+			</div>
+		</body>
+		<back>
+			<div type="acknowledgements">
+			</div>
+			<div type="references">
+<listBibl>
+<biblStruct xml:id="b0"><analytic><title level="a" type="main">Microbial cell individuality and the underlying sources of heterogeneity</title>		<author>
+			<persName>
+				<surname>Avery</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nat Rev Microbiol</title><imprint><biblScope type="vol">4</biblScope><biblScope type="fpage">577</biblScope><biblScope type="lpage">587</biblScope><date type="published" when="2006" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b1"><analytic><title level="a" type="main">Dynamics of single-cell gene expression</title>		<author>
+			<persName>
+				<forename type="middle">D</forename>
+				<surname>Longo</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">J</forename>
+				<surname>Hasty</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Mol Syst Biol</title><imprint><biblScope type="vol">2</biblScope><biblScope type="pp">64</biblScope><date type="published" when="2006" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b2"><analytic><title level="a" type="main">Stochasticity and cell fate</title>		<author>
+			<persName>
+				<forename type="middle">R</forename>
+				<surname>Losick</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Desplan</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Science</title><imprint><biblScope type="vol">320</biblScope><biblScope type="fpage">65</biblScope><biblScope type="lpage">68</biblScope><date type="published" when="2008" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b3"><analytic><title level="a" type="main">Control, exploitation and tolerance of intracellular noise</title>		<author>
+			<persName>
+				<forename type="middle">Cv</forename>
+				<surname>Rao</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Dm</forename>
+				<surname>Wolf</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Arkin</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">420</biblScope><biblScope type="fpage">231</biblScope><biblScope type="lpage">237</biblScope><date type="published" when="2002" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b4"><analytic><title level="a" type="main">Noise in gene expression: origins, consequences, and control</title>		<author>
+			<persName>
+				<forename type="first">O</forename>
+				<forename type="middle">Jm</forename>
+				<surname>Raser</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Shea</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Science</title><imprint><biblScope type="vol">309</biblScope><biblScope type="fpage">2010</biblScope><biblScope type="lpage">2013</biblScope><date type="published" when="2005" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b5"><analytic><title level="a" type="main">Individuality in bacteria</title>		<author>
+			<persName>
+				<forename type="middle">Cj</forename>
+				<surname>Davidson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Surette</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Annu Rev Genet</title><imprint><biblScope type="vol">42</biblScope><biblScope type="fpage">253</biblScope><biblScope type="lpage">268</biblScope><date type="published" when="2008" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b6"><analytic><title level="a" type="main">A chance at survival: gene expression noise and phenotypic diversification strategies</title>		<author>
+			<persName>
+				<forename type="middle">D</forename>
+				<surname>Fraser</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Kaern</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Mol Microbiol</title><imprint><biblScope type="vol">71</biblScope><biblScope type="fpage">1333</biblScope><biblScope type="lpage">1340</biblScope><date type="published" when="2009" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b7"><analytic><title level="a" type="main">It&apos;s a noisy business! Genetic regulation at the nanomolar scale</title>		<author>
+			<persName>
+				<forename type="middle">Hh</forename>
+				<surname>Mcadams</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Arkin</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Trends Genet</title><imprint><biblScope type="vol">15</biblScope><biblScope type="fpage">65</biblScope><biblScope type="lpage">69</biblScope><date type="published" when="1999" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b8"><analytic><title level="a" type="main">Bistability, epigenetics, and bethedging in bacteria</title>		<author>
+			<persName>
+				<forename type="middle">Jw</forename>
+				<surname>Veening</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Smits</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Kuipers</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Annu Rev Microbiol</title><imprint><biblScope type="vol">62</biblScope><biblScope type="fpage">193</biblScope><biblScope type="lpage">210</biblScope><date type="published" when="2008" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b9"><analytic><title level="a" type="main">Noise in timing and precision of gene activities in a genetic cascade</title>		<author>
+			<persName>
+				<forename type="middle">A</forename>
+				<surname>Amir</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">O</forename>
+				<surname>Kobiler</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">A</forename>
+				<surname>Rokney</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Ab</forename>
+				<surname>Oppenheim</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">J</forename>
+				<surname>Stavans</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Mol Syst Biol</title><imprint><biblScope type="vol">3</biblScope><biblScope type="pp">71</biblScope><date type="published" when="2007" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b10"><analytic><title level="a" type="main">Stochastic kinetic analysis of developmental pathway bifurcation in phage λ-infected Escherichia coli cells</title>		<author>
+			<persName>
+				<forename type="middle">A</forename>
+				<surname>Arkin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">J</forename>
+				<surname>Ross</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Mcadams</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Genetics</title><imprint><biblScope type="vol">149</biblScope><biblScope type="fpage">1633</biblScope><biblScope type="lpage">1648</biblScope><date type="published" when="1998" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b11"><analytic><title level="a" type="main">Nongenetic individuality in the host-phage interaction</title>		<author>
+			<persName>
+				<forename type="middle">S</forename>
+				<surname>Pearl</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">C</forename>
+				<surname>Gabay</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">R</forename>
+				<surname>Kishony</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">A</forename>
+				<surname>Oppenheim</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Balaban</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">PLoS Biol</title><imprint><biblScope type="vol">6</biblScope><biblScope type="pp">120</biblScope><date type="published" when="2008" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b12"><analytic><title level="a" type="main">Determination of cell fate selection during phage lambda infection</title>		<author>
+			<persName>
+				<forename type="middle">F</forename>
+				<surname>St-Pierre</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Endy</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Proc Natl Acad Sci</title><imprint><biblScope type="vol">105</biblScope><biblScope type="fpage">20705</biblScope><biblScope type="lpage">20710</biblScope><date type="published" when="2008" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b13"><analytic><title level="a" type="main">Stochastic protein expression in individual cells at the single molecule level</title>		<author>
+			<persName>
+				<forename type="middle">L</forename>
+				<surname>Cai</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">N</forename>
+				<surname>Friedman</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Xie</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">440</biblScope><biblScope type="fpage">358</biblScope><biblScope type="lpage">362</biblScope><date type="published" when="2006" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b14"><analytic><title level="a" type="main">Stochastic gene expression in a single cell</title>		<author>
+			<persName>
+				<forename type="middle">Mb</forename>
+				<surname>Elowitz</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Aj</forename>
+				<surname>Levine</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Ed</forename>
+				<surname>Siggia</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Swain</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Science</title><imprint><biblScope type="vol">297</biblScope><biblScope type="fpage">1183</biblScope><biblScope type="lpage">1186</biblScope><date type="published" when="2002" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b15"><analytic><title level="a" type="main">How selection affects phenotypic fluctuation</title>		<author>
+			<persName>
+				<forename type="middle">Y</forename>
+				<surname>Ito</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">H</forename>
+				<surname>Toyota</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">K</forename>
+				<surname>Kaneko</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Yomo</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Mol Syst Biol</title><imprint><biblScope type="vol">5</biblScope><biblScope type="pp">264</biblScope><date type="published" when="2009" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b16"><analytic><title level="a" type="main">Regulation of noise in the expression of a single gene</title>		<author>
+			<persName>
+				<forename type="middle">Em</forename>
+				<surname>Ozbudak</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">M</forename>
+				<surname>Thattai</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">I</forename>
+				<surname>Kurtser</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Ad</forename>
+				<surname>Grossman</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">A</forename>
+				<surname>Oudenaarden</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nat Genet</title><imprint><biblScope type="vol">31</biblScope><biblScope type="fpage">69</biblScope><biblScope type="lpage">73</biblScope><date type="published" when="2002" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b17"><analytic><title level="a" type="main">Noise in gene expression determines cell fate in Bacillus subtilis</title>		<author>
+			<persName>
+				<forename type="middle">H</forename>
+				<surname>Maamar</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">A</forename>
+				<surname>Raj</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Dubnau</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Science</title><imprint><biblScope type="vol">317</biblScope><biblScope type="fpage">526</biblScope><biblScope type="lpage">529</biblScope><date type="published" when="2007" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b18"><analytic><title level="a" type="main">Noise in protein expression scales with natural protein abundance</title>		<author>
+			<persName>
+				<forename type="middle">A</forename>
+				<surname>Bar-Even</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">J</forename>
+				<surname>Paulsson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">N</forename>
+				<surname>Maheshri</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">O</forename>
+				<forename type="middle">M</forename>
+				<surname>Carmi</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">E</forename>
+				<surname>Shea</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Y</forename>
+				<surname>Pilpel</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Barkai</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nat Genet</title><imprint><biblScope type="vol">38</biblScope><biblScope type="fpage">636</biblScope><biblScope type="lpage">643</biblScope><date type="published" when="2006" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b19"><analytic><title level="a" type="main">Noise in eukaryotic gene expression</title>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">Wj</forename>
+				<surname>Blake</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Ka</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Cr</forename>
+				<surname>Cantor</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Collins</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">422</biblScope><biblScope type="fpage">633</biblScope><biblScope type="lpage">637</biblScope><date type="published" when="2003" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b20"><analytic><title level="a" type="main">Noise minimization in eukaryotic gene expression</title>		<author>
+			<persName>
+				<forename type="middle">Hb</forename>
+				<surname>Fraser</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Ae</forename>
+				<surname>Hirsh</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">G</forename>
+				<surname>Giaever</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">J</forename>
+				<surname>Kumm</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Eisen</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">PLoS Biol</title><imprint><biblScope type="vol">2</biblScope><biblScope type="pp">137</biblScope><date type="published" when="2004" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b21"><analytic><title level="a" type="main">Stochastic switching as a survival strategy in fluctuating environments</title>		<author>
+			<persName>
+				<forename type="middle">M</forename>
+				<surname>Acar</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Jt</forename>
+				<surname>Mettetal</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">A</forename>
+				<surname>Oudenaarden</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nat Genet</title><imprint><biblScope type="vol">40</biblScope><biblScope type="fpage">471</biblScope><biblScope type="lpage">475</biblScope><date type="published" when="2008" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b22"><analytic><title level="a" type="main">Cell-to-cell stochastic variation in gene expression is a complex genetic trait</title>		<author>
+			<persName>
+				<forename type="middle">J</forename>
+				<surname>Ansel</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">H</forename>
+				<surname>Bottin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Rodriguez</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">C</forename>
+				<surname>Beltran</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">C</forename>
+				<surname>Damon</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">M</forename>
+				<surname>Nagarajan</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">S</forename>
+				<surname>Fehrmann</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">J</forename>
+				<surname>Francois</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Yvert</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">PLoS Genet</title><imprint><biblScope type="vol">4</biblScope><biblScope type="pp">1000049</biblScope><date type="published" when="2008" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b23"><analytic><title level="a" type="main">Phenotypic consequences of promoter-mediated transcriptional noise</title>		<author>
+			<persName>
+				<forename type="middle">Wj</forename>
+				<surname>Blake</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">G</forename>
+				<surname>Balazsi</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Ma</forename>
+				<surname>Kohanski</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Fj</forename>
+				<surname>Isaacs</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Kf</forename>
+				<surname>Murphy</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Y</forename>
+				<surname>Kuang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Cr</forename>
+				<surname>Cantor</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Dr</forename>
+				<surname>Walt</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Collins</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Mol Cell</title><imprint><biblScope type="vol">24</biblScope><biblScope type="fpage">853</biblScope><biblScope type="lpage">865</biblScope><date type="published" when="2006" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b24"><analytic><title level="a" type="main">Phenotypic heterogeneity can enhance rare-cell survival in &apos;stress-sensitive&apos; yeast populations</title>		<author>
+			<persName>
+				<forename type="middle">Al</forename>
+				<surname>Bishop</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Fa</forename>
+				<surname>Rab</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Er</forename>
+				<surname>Sumner</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Avery</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Mol Microbiol</title><imprint><biblScope type="vol">63</biblScope><biblScope type="fpage">507</biblScope><biblScope type="lpage">520</biblScope><date type="published" when="2007" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b25"><analytic><title level="a" type="main">HOLINS: The Protein Clocks of Bacteriophage Infections</title>		<author>
+			<persName>
+				<forename type="middle">In</forename>
+				<surname>Wang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Dl</forename>
+				<surname>Smith</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Young</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Annu Rev Microbiol</title><imprint><biblScope type="vol">54</biblScope><biblScope type="fpage">799</biblScope><biblScope type="lpage">825</biblScope><date type="published" when="2000" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b26"><analytic><title level="a" type="main">Phages will out: strategies of host cell lysis</title>		<author>
+			<persName>
+				<forename type="middle">R</forename>
+				<surname>Young</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">In</forename>
+				<surname>Wang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Roof</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Trends Microbiol</title><imprint><biblScope type="vol">8</biblScope><biblScope type="fpage">120</biblScope><biblScope type="lpage">128</biblScope><date type="published" when="2000" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b27"><analytic><title level="a" type="main">Sizing the holin lesion with an endolysin-βgalactosidase fusion</title>		<author>
+			<persName>
+				<forename type="middle">In</forename>
+				<surname>Wang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">J</forename>
+				<surname>Deaton</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Young</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J Bacteriol</title><imprint><biblScope type="vol">185</biblScope><biblScope type="fpage">779</biblScope><biblScope type="lpage">787</biblScope><date type="published" when="2003" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b28"><analytic><title level="a" type="main">The holin of bacteriophage lambda forms rings with large diameter</title>		<author>
+			<persName>
+				<forename type="middle">Cg</forename>
+				<surname>Savva</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Js</forename>
+				<surname>Dewey</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">J</forename>
+				<surname>Deaton</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Rl</forename>
+				<surname>White</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Dk</forename>
+				<surname>Struck</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">A</forename>
+				<surname>Holzenburg</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Young</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Mol Microbiol</title><imprint><biblScope type="vol">69</biblScope><biblScope type="fpage">784</biblScope><biblScope type="lpage">793</biblScope><date type="published" when="2008" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b29"><analytic><title level="a" type="main">The pinholin of lambdoid phage 21: control of lysis by membrane depolarization</title>		<author>
+			<persName>
+				<forename type="middle">T</forename>
+				<surname>Park</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Dk</forename>
+				<surname>Struck</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Ca</forename>
+				<surname>Dankenbring</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Young</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J Bacteriol</title><imprint><biblScope type="vol">189</biblScope><biblScope type="fpage">9135</biblScope><biblScope type="lpage">9139</biblScope><date type="published" when="2007" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b30"><analytic><title level="a" type="main">Disulfide isomerization after membrane release of its SAR domain activates P1 lysozyme</title>		<author>
+			<persName>
+				<forename type="middle">M</forename>
+				<surname>Xu</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">A</forename>
+				<surname>Arulandu</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Dk</forename>
+				<surname>Struck</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">S</forename>
+				<surname>Swanson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Jc</forename>
+				<surname>Sacchettini</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Young</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Science</title><imprint><biblScope type="vol">307</biblScope><biblScope type="fpage">113</biblScope><biblScope type="lpage">117</biblScope><date type="published" when="2005" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b31"><analytic><title level="a" type="main">Young R: A signal-arrest-release sequence mediates export and control of the phage P1 endolysin</title>		<author>
+			<persName>
+				<forename type="middle">M</forename>
+				<surname>Xu</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Dk</forename>
+				<surname>Struck</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">J</forename>
+				<surname>Deaton</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Wang</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Proc Natl Acad Sci</title><imprint><biblScope type="vol">101</biblScope><biblScope type="fpage">6415</biblScope><biblScope type="lpage">6420</biblScope><date type="published" when="2004" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b32"><analytic><title level="a" type="main">Complementation and characterization of the nested Rz and Rz1 reading frames in the genome of bacteriophage lambda</title>		<author>
+			<persName>
+				<forename type="middle">N</forename>
+				<surname>Zhang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Young</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Mol Gen Genet</title><imprint><biblScope type="vol">262</biblScope><biblScope type="fpage">659</biblScope><biblScope type="lpage">667</biblScope><date type="published" when="1999" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b33"><analytic><title level="a" type="main">The final step in the phage infection cycle: the Rz and Rz1 lysis proteins link the inner and outer membranes</title>		<author>
+			<persName>
+				<forename type="middle">J</forename>
+				<surname>Berry</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Ej</forename>
+				<surname>Summer</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Dk</forename>
+				<surname>Struck</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Young</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Mol Microbiol</title><imprint><biblScope type="vol">70</biblScope><biblScope type="fpage">341</biblScope><biblScope type="lpage">351</biblScope><date type="published" when="2008" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b34"><analytic><title level="a" type="main">Transposition mutagenesis of bacteriophage lambda: a new gene affecting cell lysis</title>		<author>
+			<persName>
+				<forename type="middle">R</forename>
+				<surname>Young</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">J</forename>
+				<surname>Way</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">S</forename>
+				<surname>Way</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">J</forename>
+				<surname>Yin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Syvanen</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J Mol Biol</title><imprint><biblScope type="vol">132</biblScope><biblScope type="fpage">307</biblScope><biblScope type="lpage">322</biblScope><date type="published" when="1979" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b35"><analytic><title level="a" type="main">Lytic mode of lambda development In Lambda II Edited by</title>		<author>
+			<persName>
+				<forename type="middle">Di</forename>
+				<surname>Friedman</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Gottesman</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Rw</forename>
+				<surname>Hendrix</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Jw</forename>
+				<surname>Roberts</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Stahl</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Weisberg</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Cold Spring Harbor Cold Spring Harbor Laboratory</title><imprint><biblScope type="vol">1983</biblScope><biblScope type="fpage">21</biblScope><biblScope type="lpage">51</biblScope></imprint></monogr></biblStruct>
+<biblStruct xml:id="b36"><analytic><title level="a" type="main">Genetic and biochemical analysis of dimer and oligomer interactions of the lambda S holin</title>		<author>
+			<persName>
+				<forename type="middle">A</forename>
+				<surname>Gründling</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">U</forename>
+				<surname>Bläsi</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Young</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J Bacteriol</title><imprint><biblScope type="vol">182</biblScope><biblScope type="fpage">6082</biblScope><biblScope type="lpage">6090</biblScope><date type="published" when="2000" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b37"><analytic><title level="a" type="main">Micronscale holes terminate the phage infection cycle</title>		<author>
+			<persName>
+				<forename type="middle">Js</forename>
+				<surname>Dewey</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Cg</forename>
+				<surname>Savva</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Rl</forename>
+				<surname>White</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">S</forename>
+				<surname>Vitha</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">A</forename>
+				<surname>Holzenburg</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Young</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Proc Natl Acad Sci</title><imprint><biblScope type="vol">107</biblScope><biblScope type="fpage">2219</biblScope><biblScope type="lpage">2223</biblScope><date type="published" when="2010" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b38"><analytic><title level="a" type="main">Clocking out: modeling phage-induced lysis of Escherichia coli</title>		<author>
+			<persName>
+				<forename type="middle">Gl</forename>
+				<surname>Ryan</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Rutenberg</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J Bacteriol</title><imprint><biblScope type="vol">189</biblScope><biblScope type="fpage">4749</biblScope><biblScope type="lpage">4755</biblScope><date type="published" when="2007" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b39"><analytic><title level="a" type="main">Holin triggering in real time</title>		<author>
+			<persName>
+				<forename type="middle">R</forename>
+				<surname>White</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">S</forename>
+				<surname>Chiba</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">T</forename>
+				<surname>Pang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Js</forename>
+				<surname>Dewey</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Cg</forename>
+				<surname>Savva</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">A</forename>
+				<surname>Holzenburg</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">K</forename>
+				<surname>Pogliano</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Young</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Proc Natl Acad Sci</title><imprint><biblScope type="vol">108</biblScope><biblScope type="fpage">798</biblScope><biblScope type="lpage">803</biblScope><date type="published" when="2010" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b40"><analytic><title level="a" type="main">The growth of bacteriophage</title>		<author>
+			<persName>
+				<forename type="middle">El</forename>
+				<surname>Ellis</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Delbrück</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J Gen Physiol</title><imprint><biblScope type="vol">22</biblScope><biblScope type="fpage">365</biblScope><biblScope type="lpage">384</biblScope><date type="published" when="1939" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b41"><analytic><title level="a" type="main">The growth of bacteriophage and lysis of the host</title>		<author>
+			<persName>
+				<surname>Delbrück</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J Gen Physiol</title><imprint><biblScope type="vol">23</biblScope><biblScope type="fpage">643</biblScope><biblScope type="lpage">660</biblScope><date type="published" when="1940" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b42"><analytic><title level="a" type="main">The intracellular growth of bacteriophages. I. Liberation of intracellular bacteriophage T4 by premature lysis with another phage or with cyanide</title>		<author>
+			<persName>
+				<surname>Doermann</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J Gen Physiol</title><imprint><biblScope type="vol">35</biblScope><biblScope type="fpage">645</biblScope><biblScope type="lpage">656</biblScope><date type="published" when="1952" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b43"><analytic><title level="a" type="main">Bacteriophage lysis: mechanism and regulation</title>		<author>
+			<persName>
+				<surname>Young</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Microbiol Rev</title><imprint><biblScope type="vol">56</biblScope><biblScope type="fpage">430</biblScope><biblScope type="lpage">481</biblScope><date type="published" when="1992" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b44"><analytic><title level="a" type="main">Holins kill without warning</title>		<author>
+			<persName>
+				<forename type="middle">A</forename>
+				<surname>Gründling</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Md</forename>
+				<surname>Manson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Young</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Proc Natl Acad Sci</title><imprint><biblScope type="vol">98</biblScope><biblScope type="fpage">9348</biblScope><biblScope type="lpage">9352</biblScope><date type="published" when="2001" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b45"><analytic><title level="a" type="main">Lysis timing and bacteriophage fitness</title>		<author>
+			<persName>
+				<surname>Wang</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Genetics</title><imprint><biblScope type="vol">172</biblScope><biblScope type="fpage">17</biblScope><biblScope type="lpage">26</biblScope><date type="published" when="2006" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b46"><analytic><title level="a" type="main">Mutational analysis of bacteriophage lambda lysis gene S</title>		<author>
+			<persName>
+				<forename type="middle">R</forename>
+				<surname>Raab</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">G</forename>
+				<surname>Neal</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">J</forename>
+				<surname>Garrett</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">R</forename>
+				<surname>Grimaila</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">R</forename>
+				<surname>Fusselman</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Young</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J Bacteriol</title><imprint><biblScope type="vol">167</biblScope><biblScope type="fpage">1035</biblScope><biblScope type="lpage">1042</biblScope><date type="published" when="1986" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b47"><analytic><title level="a" type="main">Intrinsic and extrinsic contributions to stochasticity in gene expression</title>		<author>
+			<persName>
+				<forename type="middle">Ps</forename>
+				<surname>Swain</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Mb</forename>
+				<surname>Elowitz</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Siggia</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Proc Natl Acad Sci</title><imprint><biblScope type="vol">99</biblScope><biblScope type="fpage">12795</biblScope><biblScope type="lpage">12800</biblScope><date type="published" when="2002" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b48"><analytic><title level="a" type="main">Stochastic mRNA synthesis in mammalian cells</title>		<author>
+			<persName>
+				<forename type="middle">A</forename>
+				<surname>Raj</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Cs</forename>
+				<surname>Peskin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">D</forename>
+				<surname>Tranchina</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Dy</forename>
+				<surname>Vargas</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Tyagi</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">PLoS Biol</title><imprint><biblScope type="vol">4</biblScope><biblScope type="fpage">1707</biblScope><biblScope type="lpage">1719</biblScope><date type="published" when="2006" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b49"><analytic><title level="a" type="main">Effect of late promoter activity on bacteriophage λ fitness http://www.biomedcentral.com/1471-2180/11</title>		<author>
+			<persName>
+				<forename type="middle">Y</forename>
+				<surname>Shao</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Wang</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Genetics Dennehy and Wang BMC Microbiology</title><imprint><biblScope type="vol">181174</biblScope><biblScope type="issue">11</biblScope><biblScope type="fpage">1467</biblScope><biblScope type="lpage">1475174</biblScope><date type="published" when="2009" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b50"><analytic><title level="a" type="main">Exact stochastic simulation of coupled chemical reactions</title>		<author>
+			<persName>
+				<surname>Gillespie</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J Phys Chem</title><imprint><biblScope type="vol">81</biblScope><biblScope type="fpage">2340</biblScope><biblScope type="lpage">2361</biblScope><date type="published" when="1977" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b51"><analytic><title level="a" type="main">Stochastic mechanisms in gene expression</title>		<author>
+			<persName>
+				<forename type="middle">Hh</forename>
+				<surname>Mcadams</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Arkin</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Proc Natl Acad Sci</title><imprint><biblScope type="vol">94</biblScope><biblScope type="fpage">814</biblScope><biblScope type="lpage">819</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b52"><monogr><title level="m" type="main">Modulation of chemical composition and other parameters of the cell by growth rate In Escherichia coli and Salmonella typhimurium Cellular and Molecular Biology. Volume 2</title>		<author>
+			<persName>
+				<forename type="middle">H</forename>
+				<surname>Bremer</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Dennis</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Jl</forename>
+				<surname>Ingraham</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Low</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Kb</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">B</forename>
+				<surname>Magasanik</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">M</forename>
+				<surname>Schaechter</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Umbarger</surname>
+			</persName>
+		</author>
+<imprint><publisher>American Society for Microbiology</publisher><biblScope type="fpage">1527</biblScope><biblScope type="lpage">1542</biblScope><pubPlace>Washington, D.C.</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b53"><analytic><title level="a" type="main">Bacteriophage T4 development depends on the physiology of its host Escherichia coli</title>		<author>
+			<persName>
+				<forename type="middle">H</forename>
+				<surname>Hadas</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">M</forename>
+				<surname>Einav</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">I</forename>
+				<surname>Fishov</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Zaritsky</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Microbiology</title><imprint><biblScope type="vol">143</biblScope><biblScope type="fpage">179</biblScope><biblScope type="lpage">185</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b54"><analytic><title level="a" type="main">Lysogeny at mid-twentieth century: P1, P2, and other experimental systems</title>		<author>
+			<persName>
+				<surname>Bertani</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J Bacteriol</title><imprint><biblScope type="vol">186</biblScope><biblScope type="fpage">595</biblScope><biblScope type="lpage">600</biblScope><date type="published" when="2004" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b55"><analytic>		<author>
+			<persName>
+				<forename type="middle">Rr</forename>
+				<surname>Sokal</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Fj</forename>
+				<surname>Rohlf</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Biometry</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">H. Freeman and Company</title><imprint><biblScope type="vol">3</biblScope><date type="published" when="1995" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b56"><analytic><title level="a" type="main">Selection for bacteriophage latent period length by bacterial density: A theoretical examination</title>		<author>
+			<persName>
+				<surname>Abedon</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Microb Ecol</title><imprint><biblScope type="vol">18</biblScope><biblScope type="fpage">79</biblScope><biblScope type="lpage">88</biblScope><date type="published" when="1989" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b57"><analytic><title level="a" type="main">Bacteriophage latent-period evolution as a response to resource availability</title>		<author>
+			<persName>
+				<forename type="middle">St</forename>
+				<surname>Abedon</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">Td</forename>
+				<surname>Herschler</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Stopar</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Appl Environ Microbiol</title><imprint><biblScope type="vol">67</biblScope><biblScope type="fpage">4233</biblScope><biblScope type="lpage">4241</biblScope><date type="published" when="2001" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b58"><analytic><title level="a" type="main">Testing optimality with experimental evolution: lysis time in a bacteriophage</title>		<author>
+			<persName>
+				<forename type="middle">Rh</forename>
+				<surname>Heineman</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Bull</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Evolution</title><imprint><biblScope type="vol">61</biblScope><biblScope type="fpage">1695</biblScope><biblScope type="lpage">1709</biblScope><date type="published" when="2007" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b59"><analytic><title level="a" type="main">Bacteriophage adsorption rate and optimal lysis time</title>		<author>
+			<persName>
+				<forename type="middle">Y</forename>
+				<surname>Shao</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Wang</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Genetics</title><imprint><biblScope type="vol">180</biblScope><biblScope type="fpage">471</biblScope><biblScope type="lpage">482</biblScope><date type="published" when="2008" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b60"><analytic><title level="a" type="main">The evolution of phage lysis timing</title>		<author>
+			<persName>
+				<forename type="middle">In</forename>
+				<surname>Wang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="middle">De</forename>
+				<surname>Dykhuizen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Slobodkin</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Evol Ecol</title><imprint><biblScope type="vol">10</biblScope><biblScope type="fpage">545</biblScope><biblScope type="lpage">558</biblScope><date type="published" when="1996" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b61"><analytic><title level="a" type="main">Nautural selection for within-generation variance in offspring number</title>		<author>
+			<persName>
+				<surname>Gillespie</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Genetics</title><imprint><biblScope type="vol">76</biblScope><biblScope type="fpage">601</biblScope><biblScope type="lpage">606</biblScope><date type="published" when="1974" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b62"><analytic><title level="a" type="main">Natural selection for variances in offspring numbers: a new evolutionary principle</title>		<author>
+			<persName>
+				<surname>Gillespie</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Am Nat</title><imprint><biblScope type="vol">111</biblScope><biblScope type="fpage">1010</biblScope><biblScope type="lpage">1014</biblScope><date type="published" when="1977" /></imprint></monogr></biblStruct></listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,23 @@
+T27	Gene_expression 83 92	generates
+T28	Positive_regulation 83 92	generates
+T29	Gene_expression 426 435	generates
+T30	Positive_regulation 426 435	generates
+T31	Localization 891 896	found
+T32	Entity 909 918	cytoplasm
+T33	Entity 923 930	nucleus
+T34	Entity 975 982	nuclear
+T35	Binding 1245 1253	specific
+T36	Positive_regulation 1517 1525	generate
+T37	Regulation 1556 1563	respond
+E1	Gene_expression:T27 Theme:T2
+E2	Positive_regulation:T28 Theme:E1
+E3	Gene_expression:T29 Theme:T7
+E4	Positive_regulation:T30 Theme:E3
+E5	Localization:T31 Theme:T14 AtLoc:T34
+E6	Localization:T31 Theme:T13 AtLoc:T32
+E7	Localization:T31 Theme:T13 AtLoc:T33
+E8	Binding:T35 Theme:T20 Theme2:T22
+E9	Binding:T35 Theme:T21 Theme2:T22
+E10	Positive_regulation:T36 Theme:T26
+E11	Regulation:T37 Theme:T26
+M1	Speculation E10

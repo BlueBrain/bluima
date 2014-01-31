@@ -1,0 +1,39 @@
+# GridSearchConfiguration to evaluate features
+# vizcluster
+# needs hack in BrainRegionAnnotator
+# ->                     if (f>2) break;//FIXME
+#                    }
+#                    experiment.add(trail);
+#                }
+#                LOG.error("RRReport ", experiment.getReport());
+# ->             LOG.error("Done here, forcing exit");
+# ->             System.exit(0);//FIXME
+
+cr: WhiteTextCollectionReader
+ corpusFile: $ROOT/modules/bluima_corpora/src/main/resources/pear_resources/whitetext/WhiteText.1.3.xml
+
+
+ae: GridSearchConfiguration
+ # 0-95
+ combinaisonIndex__java: $1
+ o1: Window integer 0 1 2
+ o2: Lemma bool
+ o3: TextPipe bool
+ o4: SubstringRegexPipes bool
+ o5: SmallLexicons_TextPressoPipes_BrainRegionLexicons_AbbreviationLexiconPipes_AreaLexicons bool
+ o6: HandMadeRegexPipes_MalletNEPipes bool
+
+
+# same as includes/preprocess.incl
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
+
+ae: BlueBioLemmatizer
+
+
+ae: BrainRegionAnnotator
+ mode: eval
+ #trials__java: 4 too long on vizcluster!

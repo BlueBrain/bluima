@@ -1,0 +1,56 @@
+T27	Negative_regulation 231 238	lacking
+T28	Entity 243 253	FKH domain
+T29	Localization 414 423	localizes
+T30	Entity 450 457	nucleus
+T31	Binding 466 470	bind
+T32	Localization 557 565	localize
+T33	Entity 573 580	nucleus
+T34	Binding 597 605	interact
+T35	Entity 719 726	nuclear
+T36	Localization 727 739	localization
+T37	Binding 874 885	interaction
+T38	Binding 999 1003	bind
+T39	Negative_regulation 1038 1045	prevent
+T40	Localization 1046 1058	localization
+T41	Entity 1066 1073	nucleus
+T42	Positive_regulation 1074 1083	following
+T43	Positive_regulation 1108 1122	Overexpression
+T44	Positive_regulation 1303 1312	expressed
+T45	Positive_regulation 1333 1342	following
+T46	Gene_expression 1775 1785	expression
+T47	Negative_regulation 1832 1837	block
+T48	Gene_expression 1887 1897	expression
+T49	Entity 2051 2058	nuclear
+T50	Localization 2059 2071	localization
+T51	Localization 2196 2208	localization
+E1	Negative_regulation:T27 Theme:T2 Site:T28
+E2	Localization:T29 Theme:T5 ToLoc:T30
+E3	Binding:T31 Theme:T5
+E4	Localization:T32 Theme:T6 ToLoc:T33
+E5	Binding:T34 Theme:T6
+E6	Localization:T36 Theme:T8 ToLoc:T35
+E7	Binding:T37 Theme:T9
+E8	Binding:T38 Theme:T10
+E9	Negative_regulation:T39 Theme:E10 Cause:E8
+E10	Localization:T40 Theme:T10 ToLoc:T41
+E11	Positive_regulation:T42 Theme:E10
+E12	Positive_regulation:T43 Theme:T11
+E13	Positive_regulation:T43 Theme:T12
+E14	Positive_regulation:T44 Theme:T13
+E15	Positive_regulation:T44 Theme:T14
+E16	Positive_regulation:T45 Theme:E14
+E17	Positive_regulation:T45 Theme:E15
+E18	Gene_expression:T46 Theme:T19
+E19	Negative_regulation:T47 Theme:E20 Cause:T20
+E21	Negative_regulation:T47 Theme:E20 Cause:T21
+E20	Gene_expression:T48 Theme:T22
+E22	Localization:T50 Theme:T24 ToLoc:T49
+E23	Localization:T51 Theme:T25
+M1	Negation E4
+M2	Negation E5
+M3	Speculation E8
+M4	Speculation E9
+M5	Speculation E18
+M6	Negation E19
+M7	Negation E21
+M8	Speculation E23

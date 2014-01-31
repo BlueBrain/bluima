@@ -1,0 +1,71 @@
+T65	Positive_regulation 0 4	Role
+T66	Gene_expression 23 32	induction
+T67	Regulation 214 222	involved
+T68	Positive_regulation 230 239	induction
+T69	Negative_regulation 303 314	inactivated
+T70	Gene_expression 334 344	expression
+T71	Positive_regulation 396 405	synergize
+T72	Gene_expression 413 422	induction
+T73	Positive_regulation 498 506	mediated
+T74	Gene_expression 507 516	induction
+T75	Positive_regulation 529 538	dependent
+T76	Gene_expression 546 556	expression
+T77	Gene_expression 868 878	expression
+T78	Positive_regulation 889 896	induced
+T79	Negative_regulation 983 990	reduced
+T80	Positive_regulation 1031 1039	enhanced
+T81	Gene_expression 1046 1056	expression
+T82	Gene_expression 1205 1214	induction
+T83	Negative_regulation 1248 1253	lower
+T84	Binding 1363 1370	binding
+T85	Regulation 1378 1385	affects
+T86	Positive_regulation 1399 1408	induction
+T87	Regulation 1458 1468	difference
+T88	Gene_expression 1476 1485	induction
+T89	Negative_regulation 1535 1546	neutralized
+T90	Gene_expression 1945 1955	expression
+T91	Gene_expression 2051 2061	expression
+T92	Positive_regulation 2226 2238	significance
+T93	Gene_expression 2272 2282	generation
+E1	Positive_regulation:T65 Theme:E2 Cause:T1
+E2	Gene_expression:T66 Theme:T2
+E3	Regulation:T67 Theme:E4 Cause:T5
+E4	Positive_regulation:T68 Theme:T6
+E5	Negative_regulation:T69 Theme:T7
+E6	Gene_expression:T70 Theme:T8
+E7	Positive_regulation:T71 Theme:E8 Cause:T9
+E8	Gene_expression:T72 Theme:T10
+E9	Positive_regulation:T73 Theme:E10 Cause:T11
+E10	Gene_expression:T74 Theme:T12
+E11	Positive_regulation:T75 Theme:E10 Cause:E12
+E12	Gene_expression:T76 Theme:T13
+E13	Gene_expression:T77 Theme:T23
+E14	Gene_expression:T77 Theme:T24
+E15	Positive_regulation:T78 Theme:T26 Cause:T25
+E16	Negative_regulation:T79 Theme:E15
+E17	Positive_regulation:T80 Theme:E18 Cause:T32
+E18	Gene_expression:T81 Theme:T31
+E19	Gene_expression:T82 Theme:T38
+E20	Negative_regulation:T83 Theme:E19
+E21	Binding:T84 Theme:T42
+E22	Regulation:T85 Theme:E23 Cause:E21
+E23	Positive_regulation:T86 Theme:T44 Cause:T43
+E24	Regulation:T87 Theme:E25 Cause:E26
+E27	Regulation:T87 Theme:E25 Cause:E28
+E25	Gene_expression:T88 Theme:T45
+E26	Negative_regulation:T89 Theme:T46
+E28	Negative_regulation:T89 Theme:T47
+E29	Gene_expression:T90 Theme:T57
+E30	Gene_expression:T91 Theme:T59
+E31	Positive_regulation:T92 Theme:E32 Cause:T62
+E33	Positive_regulation:T92 Theme:E34 Cause:T62
+E32	Gene_expression:T93 Theme:T63
+E34	Gene_expression:T93 Theme:T64
+M1	Speculation E1
+M2	Speculation E3
+M3	Speculation E11
+M4	Speculation E13
+M5	Speculation E14
+M6	Negation E24
+M7	Negation E27
+M8	Speculation E29

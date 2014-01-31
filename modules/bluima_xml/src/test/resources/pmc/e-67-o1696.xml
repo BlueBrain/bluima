@@ -1,0 +1,2841 @@
+<!DOCTYPE article
+  PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v3.0 20080202//EN" "archivearticle3.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:mml="http://www.w3.org/1998/Math/MathML"
+	article-type="research-article"><?properties open_access?><?DTDIdentifier.IdentifierValue -//NLM//DTD Journal Publishing DTD v2.3 20070202//EN?><?DTDIdentifier.IdentifierType public?><?SourceDTD.DTDName journalpublishing.dtd?><?SourceDTD.Version 2.3?><?ConverterInfo.XSLTName jp2nlmx2.xsl?><?ConverterInfo.Version 2?>
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">Acta Crystallogr Sect E Struct
+				Rep Online</journal-id>
+			<journal-id journal-id-type="publisher-id">Acta Cryst. E</journal-id>
+			<journal-title-group>
+				<journal-title>Acta Crystallographica Section E: Structure Reports
+					Online</journal-title>
+			</journal-title-group>
+			<issn pub-type="epub">1600-5368</issn>
+			<publisher>
+				<publisher-name>International Union of Crystallography</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="pmc">3151773</article-id>
+			<article-id pub-id-type="pmid">21837093</article-id>
+			<article-id pub-id-type="publisher-id">lh5268</article-id>
+			<article-id pub-id-type="doi">10.1107/S160053681102263X</article-id>
+			<article-id pub-id-type="coden">ACSEBH</article-id>
+			<article-id pub-id-type="pii">S160053681102263X</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Organic Papers</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>
+					1,1&#x02032;-[1,4-Phenyl&#x000ad;enebis(methyl&#x000ad;ene)]bis&#x000ad;(2-methyl-1
+					<italic>H</italic>
+					-imidazol-3-ium)
+					2,4-dicarb&#x000ad;oxy&#x000ad;benzene-1,5-dicarboxyl&#x000ad;ate
+					monohydrate
+				</article-title>
+				<alt-title>
+					<italic>
+						C
+						<sub>16</sub>
+						H
+						<sub>20</sub>
+						N
+						<sub>4</sub>
+						<sup>2+</sup>
+						&#x000b7;C
+						<sub>10</sub>
+						H
+						<sub>4</sub>
+						O
+						<sub>8</sub>
+						<sup>2&#x02212;</sup>
+						&#x000b7;H
+						<sub>2</sub>
+						O
+					</italic>
+				</alt-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Dong</surname>
+						<given-names>Gui-Ying</given-names>
+					</name>
+					<xref ref-type="aff" rid="a">a</xref>
+					<xref ref-type="corresp" rid="cor">*</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Liu</surname>
+						<given-names>Tong-Fei</given-names>
+					</name>
+					<xref ref-type="aff" rid="a">a</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>He</surname>
+						<given-names>Cui-Hong</given-names>
+					</name>
+					<xref ref-type="aff" rid="a">a</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Deng</surname>
+						<given-names>Xiao-Chen</given-names>
+					</name>
+					<xref ref-type="aff" rid="b">b</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Shi</surname>
+						<given-names>Xiao-Ge</given-names>
+					</name>
+					<xref ref-type="aff" rid="b">b</xref>
+				</contrib>
+				<aff id="a">
+					<label>a</label>
+					College of Chemical Engineering, Hebei United University, Tangshan
+					063009,
+					<country>People&#x02019;s Republic of China</country>
+				</aff>
+				<aff id="b">
+					<label>b</label>
+					Qian&#x02019;an College, Hebei United University, Tangshan 063009,
+					<country>People&#x02019;s Republic of China</country>
+				</aff>
+			</contrib-group>
+			<author-notes>
+				<corresp id="cor">
+					Correspondence e-mail:
+					<email>tsdgying@126.com</email>
+				</corresp>
+			</author-notes>
+			<pub-date pub-type="collection">
+				<day>01</day>
+				<month>7</month>
+				<year>2011</year>
+			</pub-date>
+			<pub-date pub-type="epub">
+				<day>18</day>
+				<month>6</month>
+				<year>2011</year>
+			</pub-date>
+			<pub-date pub-type="pmc-release">
+				<day>18</day>
+				<month>6</month>
+				<year>2011</year>
+			</pub-date><!-- PMC Release delay is 0 months and 0 days and was based 
+				on the <pub-date pub-type="epub"/>. -->
+			<volume>67</volume>
+			<issue>Pt 7</issue>
+			<issue-id pub-id-type="publisher-id">e110700</issue-id>
+			<fpage>o1696</fpage>
+			<lpage>o1696</lpage>
+			<history>
+				<date date-type="received">
+					<day>07</day>
+					<month>6</month>
+					<year>2011</year>
+				</date>
+				<date date-type="accepted">
+					<day>11</day>
+					<month>6</month>
+					<year>2011</year>
+				</date>
+			</history>
+			<permissions>
+				<copyright-statement>&#x000a9; Dong et al. 2011</copyright-statement>
+				<copyright-year>2011</copyright-year>
+				<license license-type="open-access"
+					xlink:href="http://creativecommons.org/licenses/by/2.0/uk/">
+					<license-p>This is an open-access article distributed under the
+						terms of the Creative Commons Attribution Licence, which permits
+						unrestricted use, distribution, and reproduction in any medium,
+						provided the original authors and source are cited.</license-p>
+				</license>
+			</permissions>
+			<self-uri xlink:type="simple"
+				xlink:href="http://dx.doi.org/10.1107/S160053681102263X">A full version of this article is available from
+				Crystallography Journals Online.</self-uri>
+			<abstract>
+				<p>
+					In the dication of the title compound, C
+					<sub>16</sub>
+					H
+					<sub>20</sub>
+					N
+					<sub>4</sub>
+					<sup>2+</sup>
+					&#x000b7;C
+					<sub>10</sub>
+					H
+					<sub>4</sub>
+					O
+					<sub>8</sub>
+					<sup>2&#x02212;</sup>
+					&#x000b7;H
+					<sub>2</sub>
+					O, the dihedral angles formed by mean planes of the imidazolium
+					rings and the benzene ring are 69.05&#x02005;(18) and
+					89.1&#x02005;(2)&#x000b0;. In the crystal, the components are
+					linked into a three-dimensional network by inter&#x000ad;molecular
+					N&#x02014;H&#x022ef;O and O&#x02014;H&#x022ef;O hydrogen bonds.
+				</p>
+			</abstract>
+		</article-meta>
+	</front>
+	<body>
+		<sec id="sec1">
+			<title>Related literature</title>
+			<p>
+				For the synthesis of 1,4-bis&#x000ad;(2-methyl-1
+				<italic>H</italic>
+				-imidazole-3-ium)benzene, see: Hoskins
+				<italic>et al.</italic>
+				(1997
+				<xref ref-type="bibr" rid="bb3"> &#x025b6;</xref>
+				). For related complexes, see: Liu Wu, Wan
+				<italic>et al.</italic>
+				(2011
+				<xref ref-type="bibr" rid="bb4"> &#x025b6;</xref>
+				); Liu, Wu, Zhang &#x00026; Cui (2011
+				<xref ref-type="bibr" rid="bb5"> &#x025b6;</xref>
+				).
+				<chem-struct id="scheme1">
+					<graphic xlink:href="e-67-o1696-scheme1.jpg" position="float" />
+				</chem-struct>
+			</p>
+		</sec>
+		<sec sec-type="" id="sec2">
+			<title>Experimental</title>
+			<sec id="sec2.1">
+				<title />
+				<sec id="sec2.1.1">
+					<title>Crystal data</title>
+					<p>
+						<list list-type="simple">
+							<list-item>
+								<p>
+									C
+									<sub>16</sub>
+									H
+									<sub>20</sub>
+									N
+									<sub>4</sub>
+									<sup>2+</sup>
+									&#x000b7;C
+									<sub>10</sub>
+									H
+									<sub>4</sub>
+									O
+									<sub>8</sub>
+									<sup>2&#x02212;</sup>
+									&#x000b7;H
+									<sub>2</sub>
+									O
+								</p>
+							</list-item>
+							<list-item>
+								<p>
+									<italic>M</italic>
+									<italic>
+										<sub>r</sub>
+									</italic>
+									= 538.51
+								</p>
+							</list-item>
+							<list-item>
+								<p>
+									Monoclinic,
+									<inline-formula>
+										<inline-graphic xlink:href="e-67-o1696-efi1.jpg"
+											mimetype="image" mime-subtype="gif" />
+									</inline-formula>
+								</p>
+							</list-item>
+							<list-item>
+								<p>
+									<italic>a</italic>
+									= 9.7139 (19) &#x000c5;
+								</p>
+							</list-item>
+							<list-item>
+								<p>
+									<italic>b</italic>
+									= 19.428 (4) &#x000c5;
+								</p>
+							</list-item>
+							<list-item>
+								<p>
+									<italic>c</italic>
+									= 13.856 (3) &#x000c5;
+								</p>
+							</list-item>
+							<list-item>
+								<p>&#x003b2; = 97.39 (3)&#x000b0;</p>
+							</list-item>
+							<list-item>
+								<p>
+									<italic>V</italic>
+									= 2593.3 (9) &#x000c5;
+									<sup>3</sup>
+								</p>
+							</list-item>
+							<list-item>
+								<p>
+									<italic>Z</italic>
+									= 4
+								</p>
+							</list-item>
+							<list-item>
+								<p>
+									Mo
+									<italic>K</italic>
+									&#x003b1; radiation
+								</p>
+							</list-item>
+							<list-item>
+								<p>
+									&#x003bc; = 0.11 mm
+									<sup>&#x02212;1</sup>
+								</p>
+							</list-item>
+							<list-item>
+								<p>
+									<italic>T</italic>
+									= 295 K
+								</p>
+							</list-item>
+							<list-item>
+								<p>0.22 &#x000d7; 0.18 &#x000d7; 0.16 mm</p>
+							</list-item>
+						</list>
+					</p>
+				</sec>
+				<sec id="sec2.1.2">
+					<title>Data collection</title>
+					<p>
+						<list list-type="simple">
+							<list-item>
+								<p>Bruker SMART CCD area-detector diffractometer</p>
+							</list-item>
+							<list-item>
+								<p>
+									Absorption correction: multi-scan (
+									<italic>SADABS</italic>
+									; Sheldrick, 1996
+									<xref ref-type="bibr" rid="bb6"> &#x025b6;</xref>
+									)
+									<italic>T</italic>
+									<sub>min</sub>
+									= 0.968,
+									<italic>T</italic>
+									<sub>max</sub>
+									= 0.971
+								</p>
+							</list-item>
+							<list-item>
+								<p>20668 measured reflections</p>
+							</list-item>
+							<list-item>
+								<p>4571 independent reflections</p>
+							</list-item>
+							<list-item>
+								<p>
+									3075 reflections with
+									<italic>I</italic>
+									&#x0003e; 2&#x003c3;(
+									<italic>I</italic>
+									)
+								</p>
+							</list-item>
+							<list-item>
+								<p>
+									<italic>R</italic>
+									<sub>int</sub>
+									= 0.078
+								</p>
+							</list-item>
+						</list>
+					</p>
+				</sec>
+				<sec id="sec2.1.3">
+					<title>Refinement</title>
+					<p>
+						<list list-type="simple">
+							<list-item>
+								<p>
+									<italic>R</italic>
+									[
+									<italic>F</italic>
+									<sup>2</sup>
+									&#x0003e; 2&#x003c3;(
+									<italic>F</italic>
+									<sup>2</sup>
+									)] = 0.073
+								</p>
+							</list-item>
+							<list-item>
+								<p>
+									<italic>wR</italic>
+									(
+									<italic>F</italic>
+									<sup>2</sup>
+									) = 0.144
+								</p>
+							</list-item>
+							<list-item>
+								<p>
+									<italic>S</italic>
+									= 1.10
+								</p>
+							</list-item>
+							<list-item>
+								<p>4571 reflections</p>
+							</list-item>
+							<list-item>
+								<p>356 parameters</p>
+							</list-item>
+							<list-item>
+								<p>H-atom parameters constrained</p>
+							</list-item>
+							<list-item>
+								<p>
+									&#x00394;&#x003c1;
+									<sub>max</sub>
+									= 0.30 e &#x000c5;
+									<sup>&#x02212;3</sup>
+								</p>
+							</list-item>
+							<list-item>
+								<p>
+									&#x00394;&#x003c1;
+									<sub>min</sub>
+									= &#x02212;0.25 e &#x000c5;
+									<sup>&#x02212;3</sup>
+								</p>
+							</list-item>
+						</list>
+					</p>
+				</sec>
+			</sec>
+			<sec id="d5e560">
+				<title />
+				<p>
+					Data collection:
+					<italic>SMART</italic>
+					(Bruker, 1998
+					<xref ref-type="bibr" rid="bb1"> &#x025b6;</xref>
+					); cell refinement:
+					<italic>SAINT</italic>
+					(Bruker, 1999
+					<xref ref-type="bibr" rid="bb2"> &#x025b6;</xref>
+					); data reduction:
+					<italic>SAINT</italic>
+					; program(s) used to solve structure:
+					<italic>SHELXS97</italic>
+					(Sheldrick, 2008
+					<xref ref-type="bibr" rid="bb7"> &#x025b6;</xref>
+					); program(s) used to refine structure:
+					<italic>SHELXL97</italic>
+					(Sheldrick, 2008
+					<xref ref-type="bibr" rid="bb7"> &#x025b6;</xref>
+					); molecular graphics:
+					<italic>SHELXTL</italic>
+					(Sheldrick, 2008
+					<xref ref-type="bibr" rid="bb7"> &#x025b6;</xref>
+					); software used to prepare material for publication:
+					<italic>SHELXTL</italic>
+					.
+				</p>
+			</sec>
+		</sec>
+		<sec sec-type="supplementary-material">
+			<title>Supplementary Material</title>
+			<supplementary-material content-type="local-data"
+				xlink:href="e-67-o1696-sup1.cif" position="float" xlink:type="simple">
+				<p>
+					Crystal structure: contains datablock(s) I, global. DOI:
+					<ext-link ext-link-type="uri" xlink:type="simple"
+						xlink:href="http://dx.doi.org/10.1107/S160053681102263X/lh5268sup1.cif">10.1107/S160053681102263X/lh5268sup1.cif</ext-link>
+				</p>
+				<media mimetype="chemical" mime-subtype="x-cif" xlink:href="e-67-o1696-sup1.cif"
+					position="float" xlink:type="simple" />
+			</supplementary-material>
+			<supplementary-material content-type="local-data"
+				xlink:href="e-67-o1696-Isup2.hkl" position="float" xlink:type="simple">
+				<p>
+					Structure factors: contains datablock(s) I. DOI:
+					<ext-link ext-link-type="uri" xlink:type="simple"
+						xlink:href="http://dx.doi.org/10.1107/S160053681102263X/lh5268Isup2.hkl">10.1107/S160053681102263X/lh5268Isup2.hkl</ext-link>
+				</p>
+				<media mimetype="text" mime-subtype="plain" xlink:href="e-67-o1696-Isup2.hkl"
+					position="float" xlink:type="simple" />
+			</supplementary-material>
+			<supplementary-material content-type="local-data"
+				xlink:href="e-67-o1696-Isup3.cml" mimetype="chemical" mime-subtype="x-cml"
+				position="float" xlink:type="simple">
+				<p>
+					Supplementary material file. DOI:
+					<ext-link ext-link-type="uri" xlink:type="simple"
+						xlink:href="http://dx.doi.org/10.1107/S160053681102263X/lh5268Isup3.cml">10.1107/S160053681102263X/lh5268Isup3.cml</ext-link>
+				</p>
+			</supplementary-material>
+			<supplementary-material position="float"
+				xlink:type="simple">
+				<p>
+					Additional supplementary materials:
+					<ext-link ext-link-type="uri"
+						xlink:href="http://scripts.iucr.org/cgi-bin/sendsupfiles?lh5268&#x00026;file=lh5268sup0.html&#x00026;mime=text/html"
+						xlink:type="simple"> crystallographic information</ext-link>
+					;
+					<ext-link ext-link-type="uri"
+						xlink:href="http://scripts.iucr.org/cgi-bin/sendcif?lh5268sup1&#x00026;Qmime=cif"
+						xlink:type="simple">3D view</ext-link>
+					;
+					<ext-link ext-link-type="uri"
+						xlink:href="http://scripts.iucr.org/cgi-bin/paper?lh5268&#x00026;checkcif=yes"
+						xlink:type="simple">checkCIF report</ext-link>
+				</p>
+			</supplementary-material>
+		</sec>
+	</body>
+	<back>
+		<fn-group>
+			<fn id="fnu1">
+				<p>
+					Supplementary data and figures for this paper are available from
+					the IUCr electronic archives (Reference:
+					<ext-link ext-link-type="uri"
+						xlink:href="http://scripts.iucr.org/cgi-bin/sendsup?lh5268">LH5268</ext-link>
+					).
+				</p>
+			</fn>
+		</fn-group>
+		<ack>
+			<p>The authors thank Hebei United University for supporting this
+				work.</p>
+		</ack>
+		<app-group>
+			<app>
+				<title>supplementary crystallographic
+					information</title>
+				<sec id="comment">
+					<title>
+						Comment </title>
+					<p>
+						1,4-bis(2-methylimidazole-1-methyl)benzene is a flexible bridging
+						ligand, which
+						can participate in the construction of coordination polymers and can
+						provide
+						information on the influences of 2-substituted derivatives
+						of imidazole on the structures and properties of resulting complexes
+						(Liu
+						<italic>et al.</italic>
+						, 2011
+						<italic>a</italic>
+						,2011
+						<italic>b</italic>
+						). In our attempt to
+						synthesize a
+						zinc complex with this ligand, we unexpectedly obtained the title
+						compound
+						(I) and report herein its synthesis and crystal structure
+						determination.
+					</p>
+					<p>
+						The asymmetric unit of (I) is shown in (Fig. 1).
+						Bond distances and angles are as found in other structures (Liu Wu,
+						Wan
+						<italic>et al.</italic>
+						, 2011);
+						Liu, Wu, Zhang &#x00026; Cui, 2011).
+						In the dication, the dihedral angles formed by the
+						mean-planes of the imidazole rings and the benzene ring (C11-C16) are
+						69.05&#x000a0;(18)&#x000b0; (N1/N2/C18/C19/C20) and
+						89.1&#x000a0;(2)&#x000b0; (N3/N4/C23/C24/C25). In the
+						crystal, the components are linked into a three-dimensional network by
+						intermolecular N&#x02014;H&#x000b7;&#x000b7;&#x000b7;O and
+						O&#x02014;H&#x000b7;&#x000b7;&#x000b7;O hydrogen bonds.
+					</p>
+				</sec>
+				<sec id="experimental">
+					<title>
+						Experimental </title>
+					<p>
+						1,4-Bis(2-methylimidazole-1-methyl)benzene was prepared by the
+						method of
+						Hoskins
+						<italic>et al.</italic>
+						(1997).
+						A mixture of Zn(NO
+						<sub>3</sub>
+						)
+						<sub>2</sub>
+						.6H
+						<sub>2</sub>
+						O (298 mg,1 mmol),
+						1,4-bis(2-methylimidazole-1-methyl)benzene (1.0 mmol, 266.4 mg),
+						1,2,4,5-benzenetetracarboxylic acid (1.0 mmol, 254.2 mg) and H
+						<sub>2</sub>
+						O (12 mL) was
+						placed in a Teflon-lined stainless vessel and heated to 393 K for 4 days
+						under
+						autogenous pressure, and then cooled to room temperature in 24 h.
+						block-shaped colourless crystals of (I) suitable for
+						single-crystal X-ray
+						diffraction analysis were obtained.
+					</p>
+				</sec>
+				<sec id="refinement">
+					<title>
+						Refinement </title>
+					<p>
+						H atoms bonded to C atoms and hydroxy H atoms were placed in
+						calculated
+						positions with C&#x02013;H = 0.93 or 0.97 &#x000c5;, O-H = 0.82&#x000c5;
+						and refined using a
+						riding-model approximation with
+						<italic>U</italic>
+						<sub>iso</sub>
+						(H) = 1.2
+						<italic>U</italic>
+						<sub>eq</sub>
+						(C) or
+						<italic>U</italic>
+						<sub>iso</sub>
+						(H) = 1.5
+						<italic>U</italic>
+						<sub>eq</sub>
+						(O, C
+						<sub>methyl</sub>
+						). Water H atoms and N-bound
+						H atoms were located in a difference Fourier map and included in
+						their
+						'as found' positions with
+						<italic>U</italic>
+						<sub>iso</sub>
+						(H) = 1.5
+						<italic>U</italic>
+						<sub>eq</sub>
+						(O, N).
+					</p>
+				</sec>
+				<sec id="figures">
+					<title>Figures</title>
+					<fig id="Fap1">
+						<label>Fig. 1.</label>
+						<caption>
+							<p>Fig. 1. The molecular structure of (I), showing displacement
+								ellipsoids at the 30% probability levels.</p>
+						</caption>
+						<graphic xmlns:xlink="http://www.w3.org/1999/xlink"
+							xlink:href="e-67-o1696-fig1" />
+					</fig>
+				</sec>
+				<sec id="tablewrapcrystaldatalong">
+					<title>Crystal data</title>
+					<table-wrap position="anchor" id="d1e151">
+						<table rules="all" frame="box" style="table-layout:fixed"
+							summary="">
+							<colgroup span="2">
+								<col span="1" />
+								<col span="1" />
+							</colgroup>
+							<tr>
+								<td rowspan="1" colspan="1">
+									C
+									<sub>16</sub>
+									H
+									<sub>20</sub>
+									N
+									<sub>4</sub>
+									<sup>2+</sup>
+									&#x000b7;C
+									<sub>10</sub>
+									H
+									<sub>4</sub>
+									O
+									<sub>8</sub>
+									<sup>2</sup>
+									<sup>&#x02212;</sup>
+									&#x000b7;H
+									<sub>2</sub>
+									O
+								</td>
+								<td rowspan="1" colspan="1">
+									<italic>F</italic>
+									(000) = 1128
+								</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">
+									<italic>M</italic>
+									<italic>
+										<sub>r</sub>
+									</italic>
+									= 538.51
+								</td>
+								<td rowspan="1" colspan="1">
+									<italic>D</italic>
+									<sub>x</sub>
+									= 1.379 Mg m
+									<sup>&#x02212;</sup>
+									<sup>3</sup>
+								</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">
+									Monoclinic,
+									<italic>P</italic>
+									2
+									<sub>1</sub>
+									/
+									<italic>c</italic>
+								</td>
+								<td rowspan="1" colspan="1">
+									Mo
+									<italic>K</italic>
+									&#x003b1; radiation, &#x003bb; = 0.71073 &#x000c5;
+								</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">Hall symbol: -P 2ybc</td>
+								<td rowspan="1" colspan="1">Cell parameters from 2963 reflections</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">
+									<italic>a</italic>
+									= 9.7139 (19) &#x000c5;
+								</td>
+								<td rowspan="1" colspan="1">&#x003b8; = 4.6&#x02013;23.5&#x000b0;</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">
+									<italic>b</italic>
+									= 19.428 (4) &#x000c5;
+								</td>
+								<td rowspan="1" colspan="1">
+									&#x000b5; = 0.11 mm
+									<sup>&#x02212;</sup>
+									<sup>1</sup>
+								</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">
+									<italic>c</italic>
+									= 13.856 (3) &#x000c5;
+								</td>
+								<td rowspan="1" colspan="1">
+									<italic>T</italic>
+									= 295 K
+								</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">&#x003b2; = 97.39 (3)&#x000b0;</td>
+								<td rowspan="1" colspan="1">Block, colourless</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">
+									<italic>V</italic>
+									= 2593.3 (9) &#x000c5;
+									<sup>3</sup>
+								</td>
+								<td rowspan="1" colspan="1">0.22 &#x000d7; 0.18 &#x000d7; 0.16 mm</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">
+									<italic>Z</italic>
+									= 4
+								</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+						</table>
+					</table-wrap>
+				</sec>
+				<sec id="tablewrapdatacollectionlong">
+					<title>Data collection</title>
+					<table-wrap position="anchor" id="d1e299">
+						<table rules="all" frame="box" style="table-layout:fixed"
+							summary="">
+							<colgroup span="2">
+								<col span="1" />
+								<col span="1" />
+							</colgroup>
+							<tr>
+								<td rowspan="1" colspan="1">Bruker SMART CCD area-detector
+									diffractometer</td>
+								<td rowspan="1" colspan="1">4571 independent reflections</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">Radiation source: fine&#x02013;focus
+									sealed tube</td>
+								<td rowspan="1" colspan="1">
+									3075 reflections with
+									<italic>I</italic>
+									&#x0003e; 2&#x003c3;(
+									<italic>I</italic>
+									)
+								</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">graphite</td>
+								<td rowspan="1" colspan="1">
+									<italic>R</italic>
+									<sub>int</sub>
+									= 0.078
+								</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">&#x003c6; and &#x003c9; scans</td>
+								<td rowspan="1" colspan="1">
+									&#x003b8;
+									<sub>max</sub>
+									= 25.0&#x000b0;, &#x003b8;
+									<sub>min</sub>
+									= 3.0&#x000b0;
+								</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">
+									Absorption correction: multi-scan (
+									<italic>SADABS</italic>
+									; Sheldrick, 1996)
+								</td>
+								<td rowspan="1" colspan="1">
+									<italic>h</italic>
+									= &#x02212;11&#x02192;11
+								</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">
+									<italic>T</italic>
+									<sub>min</sub>
+									= 0.968,
+									<italic>T</italic>
+									<sub>max</sub>
+									= 0.971
+								</td>
+								<td rowspan="1" colspan="1">
+									<italic>k</italic>
+									= &#x02212;23&#x02192;23
+								</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">20668 measured reflections</td>
+								<td rowspan="1" colspan="1">
+									<italic>l</italic>
+									= &#x02212;16&#x02192;16
+								</td>
+							</tr>
+						</table>
+					</table-wrap>
+				</sec>
+				<sec id="tablewraprefinementdatalong">
+					<title>Refinement</title>
+					<table-wrap position="anchor" id="d1e416">
+						<table rules="all" frame="box" style="table-layout:fixed"
+							summary="">
+							<colgroup span="2">
+								<col span="1" />
+								<col span="1" />
+							</colgroup>
+							<tr>
+								<td rowspan="1" colspan="1">
+									Refinement on
+									<italic>F</italic>
+									<sup>2</sup>
+								</td>
+								<td rowspan="1" colspan="1">Primary atom site location:
+									structure-invariant direct methods</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">Least-squares matrix: full</td>
+								<td rowspan="1" colspan="1">Secondary atom site location:
+									difference Fourier map</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">
+									<italic>R</italic>
+									[
+									<italic>F</italic>
+									<sup>2</sup>
+									&#x0003e; 2&#x003c3;(
+									<italic>F</italic>
+									<sup>2</sup>
+									)] = 0.073
+								</td>
+								<td rowspan="1" colspan="1">Hydrogen site location: inferred from
+									neighbouring sites</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">
+									<italic>wR</italic>
+									(
+									<italic>F</italic>
+									<sup>2</sup>
+									) = 0.144
+								</td>
+								<td rowspan="1" colspan="1">H-atom parameters constrained</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">
+									<italic>S</italic>
+									= 1.10
+								</td>
+								<td rowspan="1" colspan="1">
+									<italic>w</italic>
+									= 1/[&#x003c3;
+									<sup>2</sup>
+									(
+									<italic>F</italic>
+									<sub>o</sub>
+									<sup>2</sup>
+									) + (0.0452
+									<italic>P</italic>
+									)
+									<sup>2</sup>
+									+ 1.9004
+									<italic>P</italic>
+									] where
+									<italic>P</italic>
+									= (
+									<italic>F</italic>
+									<sub>o</sub>
+									<sup>2</sup>
+									+ 2
+									<italic>F</italic>
+									<sub>c</sub>
+									<sup>2</sup>
+									)/3
+								</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">4571 reflections</td>
+								<td rowspan="1" colspan="1">
+									(&#x00394;/&#x003c3;)
+									<sub>max</sub>
+									= 0.001
+								</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">356 parameters</td>
+								<td rowspan="1" colspan="1">
+									&#x00394;&#x003c1;
+									<sub>max</sub>
+									= 0.30 e &#x000c5;
+									<sup>&#x02212;</sup>
+									<sup>3</sup>
+								</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">0 restraints</td>
+								<td rowspan="1" colspan="1">
+									&#x00394;&#x003c1;
+									<sub>min</sub>
+									= &#x02212;0.25 e &#x000c5;
+									<sup>&#x02212;</sup>
+									<sup>3</sup>
+								</td>
+							</tr>
+						</table>
+					</table-wrap>
+				</sec>
+				<sec id="specialdetails">
+					<title>Special details</title>
+					<table-wrap position="anchor" id="d1e573">
+						<table rules="all" frame="box" style="table-layout:fixed">
+							<tr>
+								<td rowspan="1" colspan="1">Geometry. All e.s.d.'s (except the
+									e.s.d. in the dihedral angle between two l.s. planes)
+									are estimated using the full covariance matrix. The cell e.s.d.'s
+									are taken
+									into account individually in the estimation of e.s.d.'s in
+									distances, angles
+									and torsion angles; correlations between e.s.d.'s in cell
+									parameters are only
+									used when they are defined by crystal symmetry. An approximate
+									(isotropic)
+									treatment of cell e.s.d.'s is used for estimating e.s.d.'s involving
+									l.s.
+									planes.</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">
+									Refinement. Refinement of
+									<italic>F</italic>
+									<sup>2</sup>
+									against ALL reflections. The weighted
+									<italic>R</italic>
+									-factor
+									<italic>wR</italic>
+									and goodness of fit
+									<italic>S</italic>
+									are based on
+									<italic>F</italic>
+									<sup>2</sup>
+									, conventional
+									<italic>R</italic>
+									-factors
+									<italic>R</italic>
+									are based on
+									<italic>F</italic>
+									, with
+									<italic>F</italic>
+									set to zero for
+									negative
+									<italic>F</italic>
+									<sup>2</sup>
+									. The threshold expression of
+									<italic>F</italic>
+									<sup>2</sup>
+									&#x0003e;
+									&#x003c3;(
+									<italic>F</italic>
+									<sup>2</sup>
+									) is used only for calculating
+									<italic>R</italic>
+									-factors(gt)
+									<italic>etc</italic>
+									.
+									and is not relevant to the choice of reflections for refinement.
+									<italic>R</italic>
+									-factors based on
+									<italic>F</italic>
+									<sup>2</sup>
+									are statistically about twice as large
+									as those based on
+									<italic>F</italic>
+									, and
+									<italic>R</italic>
+									- factors based on ALL data will be
+									even larger.
+								</td>
+							</tr>
+						</table>
+					</table-wrap>
+				</sec>
+				<sec id="tablewrapcoords">
+					<title>
+						Fractional atomic coordinates and isotropic or equivalent
+						isotropic displacement parameters (&#x000c5;
+						<sup>2</sup>
+						)
+					</title>
+					<table-wrap position="anchor" id="d1e672">
+						<table rules="all" frame="box" style="table-layout:fixed"
+							summary="">
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">
+									<italic>x</italic>
+								</td>
+								<td rowspan="1" colspan="1">
+									<italic>y</italic>
+								</td>
+								<td rowspan="1" colspan="1">
+									<italic>z</italic>
+								</td>
+								<td rowspan="1" colspan="1">
+									<italic>U</italic>
+									<sub>iso</sub>
+									*/
+									<italic>U</italic>
+									<sub>eq</sub>
+								</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O1</td>
+								<td rowspan="1" colspan="1">1.3527 (2)</td>
+								<td rowspan="1" colspan="1">0.26814 (12)</td>
+								<td rowspan="1" colspan="1">0.7753 (2)</td>
+								<td rowspan="1" colspan="1">0.0460 (7)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H1</td>
+								<td rowspan="1" colspan="1">1.4361</td>
+								<td rowspan="1" colspan="1">0.2598</td>
+								<td rowspan="1" colspan="1">0.7806</td>
+								<td rowspan="1" colspan="1">0.069*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C1</td>
+								<td rowspan="1" colspan="1">1.1278 (3)</td>
+								<td rowspan="1" colspan="1">0.21981 (14)</td>
+								<td rowspan="1" colspan="1">0.7695 (2)</td>
+								<td rowspan="1" colspan="1">0.0211 (7)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O6</td>
+								<td rowspan="1" colspan="1">0.6182 (2)</td>
+								<td rowspan="1" colspan="1">0.25426 (12)</td>
+								<td rowspan="1" colspan="1">0.78948 (16)</td>
+								<td rowspan="1" colspan="1">0.0389 (6)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N2</td>
+								<td rowspan="1" colspan="1">0.0283 (3)</td>
+								<td rowspan="1" colspan="1">0.27283 (15)</td>
+								<td rowspan="1" colspan="1">1.00182 (19)</td>
+								<td rowspan="1" colspan="1">0.0370 (7)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C6</td>
+								<td rowspan="1" colspan="1">1.0713 (3)</td>
+								<td rowspan="1" colspan="1">0.28578 (15)</td>
+								<td rowspan="1" colspan="1">0.7517 (2)</td>
+								<td rowspan="1" colspan="1">0.0241 (7)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H6</td>
+								<td rowspan="1" colspan="1">1.1309</td>
+								<td rowspan="1" colspan="1">0.3232</td>
+								<td rowspan="1" colspan="1">0.7512</td>
+								<td rowspan="1" colspan="1">0.029*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C5</td>
+								<td rowspan="1" colspan="1">0.9277 (3)</td>
+								<td rowspan="1" colspan="1">0.29696 (14)</td>
+								<td rowspan="1" colspan="1">0.7346 (2)</td>
+								<td rowspan="1" colspan="1">0.0215 (7)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C2</td>
+								<td rowspan="1" colspan="1">1.0382 (3)</td>
+								<td rowspan="1" colspan="1">0.16286 (15)</td>
+								<td rowspan="1" colspan="1">0.7718 (2)</td>
+								<td rowspan="1" colspan="1">0.0228 (7)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O3</td>
+								<td rowspan="1" colspan="1">1.0942 (3)</td>
+								<td rowspan="1" colspan="1">0.04591 (11)</td>
+								<td rowspan="1" colspan="1">0.73740 (17)</td>
+								<td rowspan="1" colspan="1">0.0466 (7)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C10</td>
+								<td rowspan="1" colspan="1">0.8718 (3)</td>
+								<td rowspan="1" colspan="1">0.36897 (15)</td>
+								<td rowspan="1" colspan="1">0.7201 (2)</td>
+								<td rowspan="1" colspan="1">0.0280 (7)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O7</td>
+								<td rowspan="1" colspan="1">0.7529 (2)</td>
+								<td rowspan="1" colspan="1">0.38125 (12)</td>
+								<td rowspan="1" colspan="1">0.6872 (2)</td>
+								<td rowspan="1" colspan="1">0.0552 (8)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C4</td>
+								<td rowspan="1" colspan="1">0.8365 (3)</td>
+								<td rowspan="1" colspan="1">0.23966 (15)</td>
+								<td rowspan="1" colspan="1">0.7314 (2)</td>
+								<td rowspan="1" colspan="1">0.0211 (7)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C9</td>
+								<td rowspan="1" colspan="1">0.6773 (3)</td>
+								<td rowspan="1" colspan="1">0.24479 (15)</td>
+								<td rowspan="1" colspan="1">0.7138 (2)</td>
+								<td rowspan="1" colspan="1">0.0280 (7)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C3</td>
+								<td rowspan="1" colspan="1">0.8944 (3)</td>
+								<td rowspan="1" colspan="1">0.17407 (15)</td>
+								<td rowspan="1" colspan="1">0.7510 (2)</td>
+								<td rowspan="1" colspan="1">0.0251 (7)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H3</td>
+								<td rowspan="1" colspan="1">0.8351</td>
+								<td rowspan="1" colspan="1">0.1364</td>
+								<td rowspan="1" colspan="1">0.7501</td>
+								<td rowspan="1" colspan="1">0.030*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N3</td>
+								<td rowspan="1" colspan="1">0.4318 (3)</td>
+								<td rowspan="1" colspan="1">0.51795 (13)</td>
+								<td rowspan="1" colspan="1">0.63373 (19)</td>
+								<td rowspan="1" colspan="1">0.0311 (7)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O5</td>
+								<td rowspan="1" colspan="1">0.6155 (2)</td>
+								<td rowspan="1" colspan="1">0.23446 (14)</td>
+								<td rowspan="1" colspan="1">0.62994 (17)</td>
+								<td rowspan="1" colspan="1">0.0487 (7)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N1</td>
+								<td rowspan="1" colspan="1">0.2118 (3)</td>
+								<td rowspan="1" colspan="1">0.33609 (14)</td>
+								<td rowspan="1" colspan="1">1.03805 (19)</td>
+								<td rowspan="1" colspan="1">0.0341 (7)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C7</td>
+								<td rowspan="1" colspan="1">1.2841 (3)</td>
+								<td rowspan="1" colspan="1">0.21099 (16)</td>
+								<td rowspan="1" colspan="1">0.7850 (2)</td>
+								<td rowspan="1" colspan="1">0.0269 (7)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O4</td>
+								<td rowspan="1" colspan="1">1.1014 (3)</td>
+								<td rowspan="1" colspan="1">0.07904 (12)</td>
+								<td rowspan="1" colspan="1">0.89343 (18)</td>
+								<td rowspan="1" colspan="1">0.0526 (7)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C18</td>
+								<td rowspan="1" colspan="1">0.0723 (4)</td>
+								<td rowspan="1" colspan="1">0.33800 (18)</td>
+								<td rowspan="1" colspan="1">1.0185 (2)</td>
+								<td rowspan="1" colspan="1">0.0359 (8)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O2</td>
+								<td rowspan="1" colspan="1">1.3390 (2)</td>
+								<td rowspan="1" colspan="1">0.15570 (12)</td>
+								<td rowspan="1" colspan="1">0.8038 (2)</td>
+								<td rowspan="1" colspan="1">0.0622 (9)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C8</td>
+								<td rowspan="1" colspan="1">1.0850 (3)</td>
+								<td rowspan="1" colspan="1">0.08958 (16)</td>
+								<td rowspan="1" colspan="1">0.8028 (3)</td>
+								<td rowspan="1" colspan="1">0.0291 (8)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C14</td>
+								<td rowspan="1" colspan="1">0.4739 (3)</td>
+								<td rowspan="1" colspan="1">0.47375 (16)</td>
+								<td rowspan="1" colspan="1">0.8037 (2)</td>
+								<td rowspan="1" colspan="1">0.0303 (8)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O8</td>
+								<td rowspan="1" colspan="1">0.9640 (3)</td>
+								<td rowspan="1" colspan="1">0.41682 (12)</td>
+								<td rowspan="1" colspan="1">0.7470 (3)</td>
+								<td rowspan="1" colspan="1">0.0736 (10)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H8</td>
+								<td rowspan="1" colspan="1">0.9268</td>
+								<td rowspan="1" colspan="1">0.4547</td>
+								<td rowspan="1" colspan="1">0.7415</td>
+								<td rowspan="1" colspan="1">0.110*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C23</td>
+								<td rowspan="1" colspan="1">0.3679 (4)</td>
+								<td rowspan="1" colspan="1">0.47019 (17)</td>
+								<td rowspan="1" colspan="1">0.5734 (2)</td>
+								<td rowspan="1" colspan="1">0.0355 (8)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C25</td>
+								<td rowspan="1" colspan="1">0.3698 (4)</td>
+								<td rowspan="1" colspan="1">0.58156 (17)</td>
+								<td rowspan="1" colspan="1">0.6113 (3)</td>
+								<td rowspan="1" colspan="1">0.0398 (9)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H25</td>
+								<td rowspan="1" colspan="1">0.3942</td>
+								<td rowspan="1" colspan="1">0.6232</td>
+								<td rowspan="1" colspan="1">0.6419</td>
+								<td rowspan="1" colspan="1">0.048*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C17</td>
+								<td rowspan="1" colspan="1">0.3073 (4)</td>
+								<td rowspan="1" colspan="1">0.39578 (18)</td>
+								<td rowspan="1" colspan="1">1.0599 (3)</td>
+								<td rowspan="1" colspan="1">0.0445 (9)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H17A</td>
+								<td rowspan="1" colspan="1">0.3840</td>
+								<td rowspan="1" colspan="1">0.3821</td>
+								<td rowspan="1" colspan="1">1.1079</td>
+								<td rowspan="1" colspan="1">0.053*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H17B</td>
+								<td rowspan="1" colspan="1">0.2579</td>
+								<td rowspan="1" colspan="1">0.4327</td>
+								<td rowspan="1" colspan="1">1.0877</td>
+								<td rowspan="1" colspan="1">0.053*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C11</td>
+								<td rowspan="1" colspan="1">0.3644 (4)</td>
+								<td rowspan="1" colspan="1">0.42225 (17)</td>
+								<td rowspan="1" colspan="1">0.9695 (2)</td>
+								<td rowspan="1" colspan="1">0.0369 (9)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N4</td>
+								<td rowspan="1" colspan="1">0.2683 (3)</td>
+								<td rowspan="1" colspan="1">0.50177 (15)</td>
+								<td rowspan="1" colspan="1">0.5137 (2)</td>
+								<td rowspan="1" colspan="1">0.0436 (8)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C22</td>
+								<td rowspan="1" colspan="1">0.5378 (3)</td>
+								<td rowspan="1" colspan="1">0.50329 (17)</td>
+								<td rowspan="1" colspan="1">0.7177 (2)</td>
+								<td rowspan="1" colspan="1">0.0357 (8)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H22A</td>
+								<td rowspan="1" colspan="1">0.5868</td>
+								<td rowspan="1" colspan="1">0.5454</td>
+								<td rowspan="1" colspan="1">0.7377</td>
+								<td rowspan="1" colspan="1">0.043*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H22B</td>
+								<td rowspan="1" colspan="1">0.6047</td>
+								<td rowspan="1" colspan="1">0.4708</td>
+								<td rowspan="1" colspan="1">0.6981</td>
+								<td rowspan="1" colspan="1">0.043*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C19</td>
+								<td rowspan="1" colspan="1">0.1416 (4)</td>
+								<td rowspan="1" colspan="1">0.22940 (18)</td>
+								<td rowspan="1" colspan="1">1.0100 (3)</td>
+								<td rowspan="1" colspan="1">0.0411 (9)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H19</td>
+								<td rowspan="1" colspan="1">0.1395</td>
+								<td rowspan="1" colspan="1">0.1819</td>
+								<td rowspan="1" colspan="1">1.0015</td>
+								<td rowspan="1" colspan="1">0.049*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C20</td>
+								<td rowspan="1" colspan="1">0.2568 (4)</td>
+								<td rowspan="1" colspan="1">0.26881 (18)</td>
+								<td rowspan="1" colspan="1">1.0327 (2)</td>
+								<td rowspan="1" colspan="1">0.0388 (9)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H20</td>
+								<td rowspan="1" colspan="1">0.3482</td>
+								<td rowspan="1" colspan="1">0.2535</td>
+								<td rowspan="1" colspan="1">1.0427</td>
+								<td rowspan="1" colspan="1">0.047*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C13</td>
+								<td rowspan="1" colspan="1">0.5502 (4)</td>
+								<td rowspan="1" colspan="1">0.4301 (2)</td>
+								<td rowspan="1" colspan="1">0.8693 (3)</td>
+								<td rowspan="1" colspan="1">0.0532 (11)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H13</td>
+								<td rowspan="1" colspan="1">0.6392</td>
+								<td rowspan="1" colspan="1">0.4174</td>
+								<td rowspan="1" colspan="1">0.8586</td>
+								<td rowspan="1" colspan="1">0.064*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C24</td>
+								<td rowspan="1" colspan="1">0.2675 (4)</td>
+								<td rowspan="1" colspan="1">0.57139 (19)</td>
+								<td rowspan="1" colspan="1">0.5368 (3)</td>
+								<td rowspan="1" colspan="1">0.0476 (10)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H24</td>
+								<td rowspan="1" colspan="1">0.2079</td>
+								<td rowspan="1" colspan="1">0.6047</td>
+								<td rowspan="1" colspan="1">0.5068</td>
+								<td rowspan="1" colspan="1">0.057*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C16</td>
+								<td rowspan="1" colspan="1">0.2873 (5)</td>
+								<td rowspan="1" colspan="1">0.4638 (2)</td>
+								<td rowspan="1" colspan="1">0.9035 (3)</td>
+								<td rowspan="1" colspan="1">0.0718 (14)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H16</td>
+								<td rowspan="1" colspan="1">0.1973</td>
+								<td rowspan="1" colspan="1">0.4755</td>
+								<td rowspan="1" colspan="1">0.9134</td>
+								<td rowspan="1" colspan="1">0.086*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C12</td>
+								<td rowspan="1" colspan="1">0.4964 (4)</td>
+								<td rowspan="1" colspan="1">0.4048 (2)</td>
+								<td rowspan="1" colspan="1">0.9512 (3)</td>
+								<td rowspan="1" colspan="1">0.0556 (11)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H12</td>
+								<td rowspan="1" colspan="1">0.5504</td>
+								<td rowspan="1" colspan="1">0.3758</td>
+								<td rowspan="1" colspan="1">0.9940</td>
+								<td rowspan="1" colspan="1">0.067*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C15</td>
+								<td rowspan="1" colspan="1">0.3412 (4)</td>
+								<td rowspan="1" colspan="1">0.4890 (2)</td>
+								<td rowspan="1" colspan="1">0.8213 (3)</td>
+								<td rowspan="1" colspan="1">0.0677 (14)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H15</td>
+								<td rowspan="1" colspan="1">0.2857</td>
+								<td rowspan="1" colspan="1">0.5167</td>
+								<td rowspan="1" colspan="1">0.7775</td>
+								<td rowspan="1" colspan="1">0.081*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O1W</td>
+								<td rowspan="1" colspan="1">0.7588 (2)</td>
+								<td rowspan="1" colspan="1">0.24523 (16)</td>
+								<td rowspan="1" colspan="1">0.97416 (18)</td>
+								<td rowspan="1" colspan="1">0.0651 (9)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C26</td>
+								<td rowspan="1" colspan="1">0.4009 (4)</td>
+								<td rowspan="1" colspan="1">0.39518 (18)</td>
+								<td rowspan="1" colspan="1">0.5750 (3)</td>
+								<td rowspan="1" colspan="1">0.0522 (11)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H26A</td>
+								<td rowspan="1" colspan="1">0.3520</td>
+								<td rowspan="1" colspan="1">0.3725</td>
+								<td rowspan="1" colspan="1">0.6219</td>
+								<td rowspan="1" colspan="1">0.078*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H26B</td>
+								<td rowspan="1" colspan="1">0.4990</td>
+								<td rowspan="1" colspan="1">0.3889</td>
+								<td rowspan="1" colspan="1">0.5923</td>
+								<td rowspan="1" colspan="1">0.078*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H26C</td>
+								<td rowspan="1" colspan="1">0.3731</td>
+								<td rowspan="1" colspan="1">0.3759</td>
+								<td rowspan="1" colspan="1">0.5117</td>
+								<td rowspan="1" colspan="1">0.078*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C21</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0224 (4)</td>
+								<td rowspan="1" colspan="1">0.3989 (2)</td>
+								<td rowspan="1" colspan="1">1.0153 (3)</td>
+								<td rowspan="1" colspan="1">0.0587 (11)</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H21A</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0020</td>
+								<td rowspan="1" colspan="1">0.4250</td>
+								<td rowspan="1" colspan="1">1.0742</td>
+								<td rowspan="1" colspan="1">0.088*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H21B</td>
+								<td rowspan="1" colspan="1">&#x02212;0.1170</td>
+								<td rowspan="1" colspan="1">0.3835</td>
+								<td rowspan="1" colspan="1">1.0089</td>
+								<td rowspan="1" colspan="1">0.088*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H21C</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0089</td>
+								<td rowspan="1" colspan="1">0.4274</td>
+								<td rowspan="1" colspan="1">0.9606</td>
+								<td rowspan="1" colspan="1">0.088*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H1C</td>
+								<td rowspan="1" colspan="1">0.2174</td>
+								<td rowspan="1" colspan="1">0.4787</td>
+								<td rowspan="1" colspan="1">0.4575</td>
+								<td rowspan="1" colspan="1">0.088*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H2</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0820</td>
+								<td rowspan="1" colspan="1">0.2658</td>
+								<td rowspan="1" colspan="1">0.9924</td>
+								<td rowspan="1" colspan="1">0.088*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H1A</td>
+								<td rowspan="1" colspan="1">0.7048</td>
+								<td rowspan="1" colspan="1">0.2485</td>
+								<td rowspan="1" colspan="1">0.9205</td>
+								<td rowspan="1" colspan="1">0.088*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">H1B</td>
+								<td rowspan="1" colspan="1">0.6895</td>
+								<td rowspan="1" colspan="1">0.2529</td>
+								<td rowspan="1" colspan="1">1.0044</td>
+								<td rowspan="1" colspan="1">0.088*</td>
+								<td rowspan="1" colspan="1" />
+							</tr>
+						</table>
+					</table-wrap>
+				</sec>
+				<sec id="tablewrapadps">
+					<title>
+						Atomic displacement parameters (&#x000c5;
+						<sup>2</sup>
+						)
+					</title>
+					<table-wrap position="anchor" id="d1e1503">
+						<table rules="all" frame="box" style="table-layout:fixed"
+							summary="">
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1">
+									<italic>U</italic>
+									<sup>11</sup>
+								</td>
+								<td rowspan="1" colspan="1">
+									<italic>U</italic>
+									<sup>22</sup>
+								</td>
+								<td rowspan="1" colspan="1">
+									<italic>U</italic>
+									<sup>33</sup>
+								</td>
+								<td rowspan="1" colspan="1">
+									<italic>U</italic>
+									<sup>12</sup>
+								</td>
+								<td rowspan="1" colspan="1">
+									<italic>U</italic>
+									<sup>13</sup>
+								</td>
+								<td rowspan="1" colspan="1">
+									<italic>U</italic>
+									<sup>23</sup>
+								</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O1</td>
+								<td rowspan="1" colspan="1">0.0160 (11)</td>
+								<td rowspan="1" colspan="1">0.0409 (15)</td>
+								<td rowspan="1" colspan="1">0.0811 (19)</td>
+								<td rowspan="1" colspan="1">0.0003 (11)</td>
+								<td rowspan="1" colspan="1">0.0055 (13)</td>
+								<td rowspan="1" colspan="1">0.0144 (13)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C1</td>
+								<td rowspan="1" colspan="1">0.0194 (16)</td>
+								<td rowspan="1" colspan="1">0.0217 (16)</td>
+								<td rowspan="1" colspan="1">0.0228 (17)</td>
+								<td rowspan="1" colspan="1">0.0016 (13)</td>
+								<td rowspan="1" colspan="1">0.0051 (13)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0015 (13)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O6</td>
+								<td rowspan="1" colspan="1">0.0169 (11)</td>
+								<td rowspan="1" colspan="1">0.0709 (17)</td>
+								<td rowspan="1" colspan="1">0.0295 (13)</td>
+								<td rowspan="1" colspan="1">0.0036 (11)</td>
+								<td rowspan="1" colspan="1">0.0052 (10)</td>
+								<td rowspan="1" colspan="1">0.0011 (12)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N2</td>
+								<td rowspan="1" colspan="1">0.0357 (17)</td>
+								<td rowspan="1" colspan="1">0.0423 (18)</td>
+								<td rowspan="1" colspan="1">0.0331 (17)</td>
+								<td rowspan="1" colspan="1">0.0002 (14)</td>
+								<td rowspan="1" colspan="1">0.0045 (14)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0022 (13)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C6</td>
+								<td rowspan="1" colspan="1">0.0203 (16)</td>
+								<td rowspan="1" colspan="1">0.0203 (16)</td>
+								<td rowspan="1" colspan="1">0.0315 (18)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0035 (13)</td>
+								<td rowspan="1" colspan="1">0.0025 (14)</td>
+								<td rowspan="1" colspan="1">0.0007 (13)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C5</td>
+								<td rowspan="1" colspan="1">0.0186 (16)</td>
+								<td rowspan="1" colspan="1">0.0220 (16)</td>
+								<td rowspan="1" colspan="1">0.0241 (17)</td>
+								<td rowspan="1" colspan="1">0.0036 (13)</td>
+								<td rowspan="1" colspan="1">0.0037 (13)</td>
+								<td rowspan="1" colspan="1">0.0022 (13)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C2</td>
+								<td rowspan="1" colspan="1">0.0222 (16)</td>
+								<td rowspan="1" colspan="1">0.0205 (16)</td>
+								<td rowspan="1" colspan="1">0.0258 (17)</td>
+								<td rowspan="1" colspan="1">0.0003 (13)</td>
+								<td rowspan="1" colspan="1">0.0034 (13)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0019 (13)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O3</td>
+								<td rowspan="1" colspan="1">0.0692 (18)</td>
+								<td rowspan="1" colspan="1">0.0224 (13)</td>
+								<td rowspan="1" colspan="1">0.0476 (16)</td>
+								<td rowspan="1" colspan="1">0.0054 (12)</td>
+								<td rowspan="1" colspan="1">0.0056 (13)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0041 (12)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C10</td>
+								<td rowspan="1" colspan="1">0.0247 (18)</td>
+								<td rowspan="1" colspan="1">0.0238 (18)</td>
+								<td rowspan="1" colspan="1">0.035 (2)</td>
+								<td rowspan="1" colspan="1">0.0001 (15)</td>
+								<td rowspan="1" colspan="1">0.0030 (15)</td>
+								<td rowspan="1" colspan="1">0.0039 (14)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O7</td>
+								<td rowspan="1" colspan="1">0.0304 (15)</td>
+								<td rowspan="1" colspan="1">0.0345 (15)</td>
+								<td rowspan="1" colspan="1">0.097 (2)</td>
+								<td rowspan="1" colspan="1">0.0101 (11)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0081 (14)</td>
+								<td rowspan="1" colspan="1">0.0086 (14)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C4</td>
+								<td rowspan="1" colspan="1">0.0175 (15)</td>
+								<td rowspan="1" colspan="1">0.0250 (17)</td>
+								<td rowspan="1" colspan="1">0.0206 (16)</td>
+								<td rowspan="1" colspan="1">0.0013 (13)</td>
+								<td rowspan="1" colspan="1">0.0016 (13)</td>
+								<td rowspan="1" colspan="1">0.0034 (13)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C9</td>
+								<td rowspan="1" colspan="1">0.0210 (17)</td>
+								<td rowspan="1" colspan="1">0.0278 (18)</td>
+								<td rowspan="1" colspan="1">0.035 (2)</td>
+								<td rowspan="1" colspan="1">0.0005 (14)</td>
+								<td rowspan="1" colspan="1">0.0019 (16)</td>
+								<td rowspan="1" colspan="1">0.0033 (15)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C3</td>
+								<td rowspan="1" colspan="1">0.0207 (16)</td>
+								<td rowspan="1" colspan="1">0.0234 (17)</td>
+								<td rowspan="1" colspan="1">0.0312 (18)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0071 (13)</td>
+								<td rowspan="1" colspan="1">0.0029 (14)</td>
+								<td rowspan="1" colspan="1">0.0013 (14)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N3</td>
+								<td rowspan="1" colspan="1">0.0331 (15)</td>
+								<td rowspan="1" colspan="1">0.0300 (16)</td>
+								<td rowspan="1" colspan="1">0.0306 (16)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0048 (13)</td>
+								<td rowspan="1" colspan="1">0.0059 (13)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0040 (13)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O5</td>
+								<td rowspan="1" colspan="1">0.0243 (13)</td>
+								<td rowspan="1" colspan="1">0.086 (2)</td>
+								<td rowspan="1" colspan="1">0.0335 (15)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0021 (13)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0040 (11)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0098 (13)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N1</td>
+								<td rowspan="1" colspan="1">0.0387 (17)</td>
+								<td rowspan="1" colspan="1">0.0352 (17)</td>
+								<td rowspan="1" colspan="1">0.0283 (16)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0049 (14)</td>
+								<td rowspan="1" colspan="1">0.0037 (13)</td>
+								<td rowspan="1" colspan="1">0.0000 (13)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C7</td>
+								<td rowspan="1" colspan="1">0.0249 (17)</td>
+								<td rowspan="1" colspan="1">0.0249 (18)</td>
+								<td rowspan="1" colspan="1">0.0303 (19)</td>
+								<td rowspan="1" colspan="1">0.0020 (15)</td>
+								<td rowspan="1" colspan="1">0.0015 (15)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0041 (14)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O4</td>
+								<td rowspan="1" colspan="1">0.0766 (19)</td>
+								<td rowspan="1" colspan="1">0.0400 (15)</td>
+								<td rowspan="1" colspan="1">0.0376 (16)</td>
+								<td rowspan="1" colspan="1">0.0118 (13)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0067 (14)</td>
+								<td rowspan="1" colspan="1">0.0096 (12)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C18</td>
+								<td rowspan="1" colspan="1">0.041 (2)</td>
+								<td rowspan="1" colspan="1">0.040 (2)</td>
+								<td rowspan="1" colspan="1">0.0267 (19)</td>
+								<td rowspan="1" colspan="1">0.0029 (17)</td>
+								<td rowspan="1" colspan="1">0.0053 (16)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0015 (16)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O2</td>
+								<td rowspan="1" colspan="1">0.0251 (13)</td>
+								<td rowspan="1" colspan="1">0.0291 (14)</td>
+								<td rowspan="1" colspan="1">0.130 (3)</td>
+								<td rowspan="1" colspan="1">0.0091 (11)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0012 (15)</td>
+								<td rowspan="1" colspan="1">0.0043 (15)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C8</td>
+								<td rowspan="1" colspan="1">0.0228 (17)</td>
+								<td rowspan="1" colspan="1">0.0228 (18)</td>
+								<td rowspan="1" colspan="1">0.041 (2)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0009 (14)</td>
+								<td rowspan="1" colspan="1">0.0020 (16)</td>
+								<td rowspan="1" colspan="1">0.0040 (16)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C14</td>
+								<td rowspan="1" colspan="1">0.0293 (18)</td>
+								<td rowspan="1" colspan="1">0.0299 (18)</td>
+								<td rowspan="1" colspan="1">0.0314 (19)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0041 (15)</td>
+								<td rowspan="1" colspan="1">0.0023 (15)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0035 (15)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O8</td>
+								<td rowspan="1" colspan="1">0.0444 (16)</td>
+								<td rowspan="1" colspan="1">0.0205 (14)</td>
+								<td rowspan="1" colspan="1">0.146 (3)</td>
+								<td rowspan="1" colspan="1">0.0020 (12)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0264 (18)</td>
+								<td rowspan="1" colspan="1">0.0019 (17)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C23</td>
+								<td rowspan="1" colspan="1">0.040 (2)</td>
+								<td rowspan="1" colspan="1">0.032 (2)</td>
+								<td rowspan="1" colspan="1">0.034 (2)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0040 (16)</td>
+								<td rowspan="1" colspan="1">0.0042 (17)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0010 (16)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C25</td>
+								<td rowspan="1" colspan="1">0.049 (2)</td>
+								<td rowspan="1" colspan="1">0.0268 (19)</td>
+								<td rowspan="1" colspan="1">0.043 (2)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0006 (17)</td>
+								<td rowspan="1" colspan="1">0.0027 (19)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0008 (17)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C17</td>
+								<td rowspan="1" colspan="1">0.052 (2)</td>
+								<td rowspan="1" colspan="1">0.043 (2)</td>
+								<td rowspan="1" colspan="1">0.038 (2)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0125 (19)</td>
+								<td rowspan="1" colspan="1">0.0045 (18)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0023 (17)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C11</td>
+								<td rowspan="1" colspan="1">0.040 (2)</td>
+								<td rowspan="1" colspan="1">0.033 (2)</td>
+								<td rowspan="1" colspan="1">0.038 (2)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0066 (17)</td>
+								<td rowspan="1" colspan="1">0.0048 (17)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0026 (16)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N4</td>
+								<td rowspan="1" colspan="1">0.0488 (19)</td>
+								<td rowspan="1" colspan="1">0.0444 (19)</td>
+								<td rowspan="1" colspan="1">0.0342 (18)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0055 (15)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0076 (15)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0051 (14)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C22</td>
+								<td rowspan="1" colspan="1">0.0316 (19)</td>
+								<td rowspan="1" colspan="1">0.036 (2)</td>
+								<td rowspan="1" colspan="1">0.038 (2)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0015 (15)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0029 (16)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0011 (16)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C19</td>
+								<td rowspan="1" colspan="1">0.048 (2)</td>
+								<td rowspan="1" colspan="1">0.034 (2)</td>
+								<td rowspan="1" colspan="1">0.042 (2)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0005 (18)</td>
+								<td rowspan="1" colspan="1">0.0113 (18)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0044 (17)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C20</td>
+								<td rowspan="1" colspan="1">0.040 (2)</td>
+								<td rowspan="1" colspan="1">0.041 (2)</td>
+								<td rowspan="1" colspan="1">0.037 (2)</td>
+								<td rowspan="1" colspan="1">0.0061 (17)</td>
+								<td rowspan="1" colspan="1">0.0092 (17)</td>
+								<td rowspan="1" colspan="1">0.0013 (17)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C13</td>
+								<td rowspan="1" colspan="1">0.043 (2)</td>
+								<td rowspan="1" colspan="1">0.061 (3)</td>
+								<td rowspan="1" colspan="1">0.059 (3)</td>
+								<td rowspan="1" colspan="1">0.016 (2)</td>
+								<td rowspan="1" colspan="1">0.015 (2)</td>
+								<td rowspan="1" colspan="1">0.015 (2)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C24</td>
+								<td rowspan="1" colspan="1">0.055 (3)</td>
+								<td rowspan="1" colspan="1">0.040 (2)</td>
+								<td rowspan="1" colspan="1">0.044 (2)</td>
+								<td rowspan="1" colspan="1">0.0078 (19)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.006 (2)</td>
+								<td rowspan="1" colspan="1">0.0033 (18)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C16</td>
+								<td rowspan="1" colspan="1">0.055 (3)</td>
+								<td rowspan="1" colspan="1">0.093 (4)</td>
+								<td rowspan="1" colspan="1">0.073 (3)</td>
+								<td rowspan="1" colspan="1">0.030 (3)</td>
+								<td rowspan="1" colspan="1">0.034 (2)</td>
+								<td rowspan="1" colspan="1">0.032 (3)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C12</td>
+								<td rowspan="1" colspan="1">0.050 (3)</td>
+								<td rowspan="1" colspan="1">0.061 (3)</td>
+								<td rowspan="1" colspan="1">0.057 (3)</td>
+								<td rowspan="1" colspan="1">0.014 (2)</td>
+								<td rowspan="1" colspan="1">0.010 (2)</td>
+								<td rowspan="1" colspan="1">0.021 (2)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C15</td>
+								<td rowspan="1" colspan="1">0.055 (3)</td>
+								<td rowspan="1" colspan="1">0.084 (3)</td>
+								<td rowspan="1" colspan="1">0.068 (3)</td>
+								<td rowspan="1" colspan="1">0.030 (2)</td>
+								<td rowspan="1" colspan="1">0.022 (2)</td>
+								<td rowspan="1" colspan="1">0.045 (3)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O1W</td>
+								<td rowspan="1" colspan="1">0.0330 (14)</td>
+								<td rowspan="1" colspan="1">0.123 (3)</td>
+								<td rowspan="1" colspan="1">0.0385 (16)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0012 (15)</td>
+								<td rowspan="1" colspan="1">0.0002 (12)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0064 (16)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C26</td>
+								<td rowspan="1" colspan="1">0.059 (3)</td>
+								<td rowspan="1" colspan="1">0.036 (2)</td>
+								<td rowspan="1" colspan="1">0.059 (3)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0044 (18)</td>
+								<td rowspan="1" colspan="1">0.000 (2)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.0091 (19)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C21</td>
+								<td rowspan="1" colspan="1">0.059 (3)</td>
+								<td rowspan="1" colspan="1">0.054 (3)</td>
+								<td rowspan="1" colspan="1">0.063 (3)</td>
+								<td rowspan="1" colspan="1">0.014 (2)</td>
+								<td rowspan="1" colspan="1">0.007 (2)</td>
+								<td rowspan="1" colspan="1">&#x02212;0.004 (2)</td>
+							</tr>
+						</table>
+					</table-wrap>
+				</sec>
+				<sec id="tablewrapgeomlong">
+					<title>Geometric parameters (&#x000c5;, &#x000b0;)</title>
+					<table-wrap position="anchor" id="d1e2222">
+						<table rules="all" frame="box" style="table-layout:fixed"
+							summary="">
+							<colgroup span="4">
+								<col span="1" />
+								<col span="1" />
+								<col span="1" />
+								<col span="1" />
+							</colgroup>
+							<tr>
+								<td rowspan="1" colspan="1">O1&#x02014;C7</td>
+								<td rowspan="1" colspan="1">1.311&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C14&#x02014;C22</td>
+								<td rowspan="1" colspan="1">1.524&#x000a0;(5)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O1&#x02014;H1</td>
+								<td rowspan="1" colspan="1">0.8200</td>
+								<td rowspan="1" colspan="1">O8&#x02014;H8</td>
+								<td rowspan="1" colspan="1">0.8200</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C1&#x02014;C6</td>
+								<td rowspan="1" colspan="1">1.404&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C23&#x02014;N4</td>
+								<td rowspan="1" colspan="1">1.338&#x000a0;(4)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C1&#x02014;C2</td>
+								<td rowspan="1" colspan="1">1.411&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C23&#x02014;C26</td>
+								<td rowspan="1" colspan="1">1.492&#x000a0;(5)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C1&#x02014;C7</td>
+								<td rowspan="1" colspan="1">1.516&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C25&#x02014;C24</td>
+								<td rowspan="1" colspan="1">1.352&#x000a0;(5)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O6&#x02014;C9</td>
+								<td rowspan="1" colspan="1">1.272&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C25&#x02014;H25</td>
+								<td rowspan="1" colspan="1">0.9300</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N2&#x02014;C18</td>
+								<td rowspan="1" colspan="1">1.347&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C17&#x02014;C11</td>
+								<td rowspan="1" colspan="1">1.523&#x000a0;(5)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N2&#x02014;C19</td>
+								<td rowspan="1" colspan="1">1.380&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C17&#x02014;H17A</td>
+								<td rowspan="1" colspan="1">0.9700</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N2&#x02014;H2</td>
+								<td rowspan="1" colspan="1">1.0718</td>
+								<td rowspan="1" colspan="1">C17&#x02014;H17B</td>
+								<td rowspan="1" colspan="1">0.9700</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C6&#x02014;C5</td>
+								<td rowspan="1" colspan="1">1.402&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C11&#x02014;C16</td>
+								<td rowspan="1" colspan="1">1.369&#x000a0;(5)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C6&#x02014;H6</td>
+								<td rowspan="1" colspan="1">0.9300</td>
+								<td rowspan="1" colspan="1">C11&#x02014;C12</td>
+								<td rowspan="1" colspan="1">1.381&#x000a0;(5)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C5&#x02014;C4</td>
+								<td rowspan="1" colspan="1">1.420&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">N4&#x02014;C24</td>
+								<td rowspan="1" colspan="1">1.390&#x000a0;(4)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C5&#x02014;C10</td>
+								<td rowspan="1" colspan="1">1.505&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">N4&#x02014;H1C</td>
+								<td rowspan="1" colspan="1">0.9761</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C2&#x02014;C3</td>
+								<td rowspan="1" colspan="1">1.406&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C22&#x02014;H22A</td>
+								<td rowspan="1" colspan="1">0.9700</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C2&#x02014;C8</td>
+								<td rowspan="1" colspan="1">1.539&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C22&#x02014;H22B</td>
+								<td rowspan="1" colspan="1">0.9700</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O3&#x02014;C8</td>
+								<td rowspan="1" colspan="1">1.253&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C19&#x02014;C20</td>
+								<td rowspan="1" colspan="1">1.359&#x000a0;(5)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C10&#x02014;O7</td>
+								<td rowspan="1" colspan="1">1.210&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C19&#x02014;H19</td>
+								<td rowspan="1" colspan="1">0.9300</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C10&#x02014;O8</td>
+								<td rowspan="1" colspan="1">1.312&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C20&#x02014;H20</td>
+								<td rowspan="1" colspan="1">0.9300</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C4&#x02014;C3</td>
+								<td rowspan="1" colspan="1">1.405&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C13&#x02014;C12</td>
+								<td rowspan="1" colspan="1">1.398&#x000a0;(5)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C4&#x02014;C9</td>
+								<td rowspan="1" colspan="1">1.538&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C13&#x02014;H13</td>
+								<td rowspan="1" colspan="1">0.9300</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C9&#x02014;O5</td>
+								<td rowspan="1" colspan="1">1.253&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C24&#x02014;H24</td>
+								<td rowspan="1" colspan="1">0.9300</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C3&#x02014;H3</td>
+								<td rowspan="1" colspan="1">0.9300</td>
+								<td rowspan="1" colspan="1">C16&#x02014;C15</td>
+								<td rowspan="1" colspan="1">1.402&#x000a0;(5)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N3&#x02014;C23</td>
+								<td rowspan="1" colspan="1">1.346&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C16&#x02014;H16</td>
+								<td rowspan="1" colspan="1">0.9300</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N3&#x02014;C25</td>
+								<td rowspan="1" colspan="1">1.392&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C12&#x02014;H12</td>
+								<td rowspan="1" colspan="1">0.9300</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N3&#x02014;C22</td>
+								<td rowspan="1" colspan="1">1.479&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C15&#x02014;H15</td>
+								<td rowspan="1" colspan="1">0.9300</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N1&#x02014;C18</td>
+								<td rowspan="1" colspan="1">1.349&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">O1W&#x02014;H1A</td>
+								<td rowspan="1" colspan="1">0.8558</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N1&#x02014;C20</td>
+								<td rowspan="1" colspan="1">1.383&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">O1W&#x02014;H1B</td>
+								<td rowspan="1" colspan="1">0.8509</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N1&#x02014;C17</td>
+								<td rowspan="1" colspan="1">1.492&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C26&#x02014;H26A</td>
+								<td rowspan="1" colspan="1">0.9600</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C7&#x02014;O2</td>
+								<td rowspan="1" colspan="1">1.212&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C26&#x02014;H26B</td>
+								<td rowspan="1" colspan="1">0.9600</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O4&#x02014;C8</td>
+								<td rowspan="1" colspan="1">1.262&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">C26&#x02014;H26C</td>
+								<td rowspan="1" colspan="1">0.9600</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C18&#x02014;C21</td>
+								<td rowspan="1" colspan="1">1.496&#x000a0;(5)</td>
+								<td rowspan="1" colspan="1">C21&#x02014;H21A</td>
+								<td rowspan="1" colspan="1">0.9600</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C14&#x02014;C15</td>
+								<td rowspan="1" colspan="1">1.374&#x000a0;(5)</td>
+								<td rowspan="1" colspan="1">C21&#x02014;H21B</td>
+								<td rowspan="1" colspan="1">0.9600</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C14&#x02014;C13</td>
+								<td rowspan="1" colspan="1">1.386&#x000a0;(5)</td>
+								<td rowspan="1" colspan="1">C21&#x02014;H21C</td>
+								<td rowspan="1" colspan="1">0.9600</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C7&#x02014;O1&#x02014;H1</td>
+								<td rowspan="1" colspan="1">109.5</td>
+								<td rowspan="1" colspan="1">N1&#x02014;C17&#x02014;C11</td>
+								<td rowspan="1" colspan="1">112.2&#x000a0;(3)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C6&#x02014;C1&#x02014;C2</td>
+								<td rowspan="1" colspan="1">119.5&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">N1&#x02014;C17&#x02014;H17A</td>
+								<td rowspan="1" colspan="1">109.2</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C6&#x02014;C1&#x02014;C7</td>
+								<td rowspan="1" colspan="1">119.4&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C11&#x02014;C17&#x02014;H17A</td>
+								<td rowspan="1" colspan="1">109.2</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C2&#x02014;C1&#x02014;C7</td>
+								<td rowspan="1" colspan="1">121.2&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">N1&#x02014;C17&#x02014;H17B</td>
+								<td rowspan="1" colspan="1">109.2</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C18&#x02014;N2&#x02014;C19</td>
+								<td rowspan="1" colspan="1">109.2&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C11&#x02014;C17&#x02014;H17B</td>
+								<td rowspan="1" colspan="1">109.2</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C18&#x02014;N2&#x02014;H2</td>
+								<td rowspan="1" colspan="1">115.5</td>
+								<td rowspan="1" colspan="1">H17A&#x02014;C17&#x02014;H17B</td>
+								<td rowspan="1" colspan="1">107.9</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C19&#x02014;N2&#x02014;H2</td>
+								<td rowspan="1" colspan="1">134.9</td>
+								<td rowspan="1" colspan="1">C16&#x02014;C11&#x02014;C12</td>
+								<td rowspan="1" colspan="1">117.6&#x000a0;(3)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C5&#x02014;C6&#x02014;C1</td>
+								<td rowspan="1" colspan="1">122.0&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C16&#x02014;C11&#x02014;C17</td>
+								<td rowspan="1" colspan="1">121.5&#x000a0;(3)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C5&#x02014;C6&#x02014;H6</td>
+								<td rowspan="1" colspan="1">119.0</td>
+								<td rowspan="1" colspan="1">C12&#x02014;C11&#x02014;C17</td>
+								<td rowspan="1" colspan="1">120.9&#x000a0;(3)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C1&#x02014;C6&#x02014;H6</td>
+								<td rowspan="1" colspan="1">119.0</td>
+								<td rowspan="1" colspan="1">C23&#x02014;N4&#x02014;C24</td>
+								<td rowspan="1" colspan="1">109.2&#x000a0;(3)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C6&#x02014;C5&#x02014;C4</td>
+								<td rowspan="1" colspan="1">119.2&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C23&#x02014;N4&#x02014;H1C</td>
+								<td rowspan="1" colspan="1">122.3</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C6&#x02014;C5&#x02014;C10</td>
+								<td rowspan="1" colspan="1">120.1&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C24&#x02014;N4&#x02014;H1C</td>
+								<td rowspan="1" colspan="1">127.8</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C4&#x02014;C5&#x02014;C10</td>
+								<td rowspan="1" colspan="1">120.8&#x000a0;(2)</td>
+								<td rowspan="1" colspan="1">N3&#x02014;C22&#x02014;C14</td>
+								<td rowspan="1" colspan="1">112.0&#x000a0;(3)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C3&#x02014;C2&#x02014;C1</td>
+								<td rowspan="1" colspan="1">118.2&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">N3&#x02014;C22&#x02014;H22A</td>
+								<td rowspan="1" colspan="1">109.2</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C3&#x02014;C2&#x02014;C8</td>
+								<td rowspan="1" colspan="1">116.8&#x000a0;(2)</td>
+								<td rowspan="1" colspan="1">C14&#x02014;C22&#x02014;H22A</td>
+								<td rowspan="1" colspan="1">109.2</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C1&#x02014;C2&#x02014;C8</td>
+								<td rowspan="1" colspan="1">124.8&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">N3&#x02014;C22&#x02014;H22B</td>
+								<td rowspan="1" colspan="1">109.2</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O7&#x02014;C10&#x02014;O8</td>
+								<td rowspan="1" colspan="1">123.5&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C14&#x02014;C22&#x02014;H22B</td>
+								<td rowspan="1" colspan="1">109.2</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O7&#x02014;C10&#x02014;C5</td>
+								<td rowspan="1" colspan="1">123.0&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">H22A&#x02014;C22&#x02014;H22B</td>
+								<td rowspan="1" colspan="1">107.9</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O8&#x02014;C10&#x02014;C5</td>
+								<td rowspan="1" colspan="1">113.5&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C20&#x02014;C19&#x02014;N2</td>
+								<td rowspan="1" colspan="1">107.4&#x000a0;(3)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C3&#x02014;C4&#x02014;C5</td>
+								<td rowspan="1" colspan="1">118.2&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C20&#x02014;C19&#x02014;H19</td>
+								<td rowspan="1" colspan="1">126.3</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C3&#x02014;C4&#x02014;C9</td>
+								<td rowspan="1" colspan="1">117.3&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">N2&#x02014;C19&#x02014;H19</td>
+								<td rowspan="1" colspan="1">126.3</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C5&#x02014;C4&#x02014;C9</td>
+								<td rowspan="1" colspan="1">124.4&#x000a0;(2)</td>
+								<td rowspan="1" colspan="1">C19&#x02014;C20&#x02014;N1</td>
+								<td rowspan="1" colspan="1">106.8&#x000a0;(3)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O5&#x02014;C9&#x02014;O6</td>
+								<td rowspan="1" colspan="1">125.1&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C19&#x02014;C20&#x02014;H20</td>
+								<td rowspan="1" colspan="1">126.6</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O5&#x02014;C9&#x02014;C4</td>
+								<td rowspan="1" colspan="1">119.2&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">N1&#x02014;C20&#x02014;H20</td>
+								<td rowspan="1" colspan="1">126.6</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O6&#x02014;C9&#x02014;C4</td>
+								<td rowspan="1" colspan="1">115.4&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C14&#x02014;C13&#x02014;C12</td>
+								<td rowspan="1" colspan="1">121.6&#x000a0;(3)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C4&#x02014;C3&#x02014;C2</td>
+								<td rowspan="1" colspan="1">122.9&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C14&#x02014;C13&#x02014;H13</td>
+								<td rowspan="1" colspan="1">119.2</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C4&#x02014;C3&#x02014;H3</td>
+								<td rowspan="1" colspan="1">118.6</td>
+								<td rowspan="1" colspan="1">C12&#x02014;C13&#x02014;H13</td>
+								<td rowspan="1" colspan="1">119.2</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C2&#x02014;C3&#x02014;H3</td>
+								<td rowspan="1" colspan="1">118.6</td>
+								<td rowspan="1" colspan="1">C25&#x02014;C24&#x02014;N4</td>
+								<td rowspan="1" colspan="1">107.0&#x000a0;(3)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C23&#x02014;N3&#x02014;C25</td>
+								<td rowspan="1" colspan="1">108.8&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C25&#x02014;C24&#x02014;H24</td>
+								<td rowspan="1" colspan="1">126.5</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C23&#x02014;N3&#x02014;C22</td>
+								<td rowspan="1" colspan="1">125.1&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">N4&#x02014;C24&#x02014;H24</td>
+								<td rowspan="1" colspan="1">126.5</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C25&#x02014;N3&#x02014;C22</td>
+								<td rowspan="1" colspan="1">125.7&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C11&#x02014;C16&#x02014;C15</td>
+								<td rowspan="1" colspan="1">121.3&#x000a0;(4)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C18&#x02014;N1&#x02014;C20</td>
+								<td rowspan="1" colspan="1">109.4&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C11&#x02014;C16&#x02014;H16</td>
+								<td rowspan="1" colspan="1">119.4</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C18&#x02014;N1&#x02014;C17</td>
+								<td rowspan="1" colspan="1">127.0&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C15&#x02014;C16&#x02014;H16</td>
+								<td rowspan="1" colspan="1">119.4</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C20&#x02014;N1&#x02014;C17</td>
+								<td rowspan="1" colspan="1">123.6&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C11&#x02014;C12&#x02014;C13</td>
+								<td rowspan="1" colspan="1">121.0&#x000a0;(4)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O2&#x02014;C7&#x02014;O1</td>
+								<td rowspan="1" colspan="1">123.9&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C11&#x02014;C12&#x02014;H12</td>
+								<td rowspan="1" colspan="1">119.5</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O2&#x02014;C7&#x02014;C1</td>
+								<td rowspan="1" colspan="1">122.4&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C13&#x02014;C12&#x02014;H12</td>
+								<td rowspan="1" colspan="1">119.5</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O1&#x02014;C7&#x02014;C1</td>
+								<td rowspan="1" colspan="1">113.8&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C14&#x02014;C15&#x02014;C16</td>
+								<td rowspan="1" colspan="1">121.7&#x000a0;(4)</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N2&#x02014;C18&#x02014;N1</td>
+								<td rowspan="1" colspan="1">107.3&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C14&#x02014;C15&#x02014;H15</td>
+								<td rowspan="1" colspan="1">119.1</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N2&#x02014;C18&#x02014;C21</td>
+								<td rowspan="1" colspan="1">124.0&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C16&#x02014;C15&#x02014;H15</td>
+								<td rowspan="1" colspan="1">119.1</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N1&#x02014;C18&#x02014;C21</td>
+								<td rowspan="1" colspan="1">128.8&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">H1A&#x02014;O1W&#x02014;H1B</td>
+								<td rowspan="1" colspan="1">88.8</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O3&#x02014;C8&#x02014;O4</td>
+								<td rowspan="1" colspan="1">126.8&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C23&#x02014;C26&#x02014;H26A</td>
+								<td rowspan="1" colspan="1">109.5</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O3&#x02014;C8&#x02014;C2</td>
+								<td rowspan="1" colspan="1">118.0&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C23&#x02014;C26&#x02014;H26B</td>
+								<td rowspan="1" colspan="1">109.5</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O4&#x02014;C8&#x02014;C2</td>
+								<td rowspan="1" colspan="1">115.0&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">H26A&#x02014;C26&#x02014;H26B</td>
+								<td rowspan="1" colspan="1">109.5</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C15&#x02014;C14&#x02014;C13</td>
+								<td rowspan="1" colspan="1">116.7&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C23&#x02014;C26&#x02014;H26C</td>
+								<td rowspan="1" colspan="1">109.5</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C15&#x02014;C14&#x02014;C22</td>
+								<td rowspan="1" colspan="1">122.9&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">H26A&#x02014;C26&#x02014;H26C</td>
+								<td rowspan="1" colspan="1">109.5</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C13&#x02014;C14&#x02014;C22</td>
+								<td rowspan="1" colspan="1">120.4&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">H26B&#x02014;C26&#x02014;H26C</td>
+								<td rowspan="1" colspan="1">109.5</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C10&#x02014;O8&#x02014;H8</td>
+								<td rowspan="1" colspan="1">109.5</td>
+								<td rowspan="1" colspan="1">C18&#x02014;C21&#x02014;H21A</td>
+								<td rowspan="1" colspan="1">109.5</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N4&#x02014;C23&#x02014;N3</td>
+								<td rowspan="1" colspan="1">107.9&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C18&#x02014;C21&#x02014;H21B</td>
+								<td rowspan="1" colspan="1">109.5</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N4&#x02014;C23&#x02014;C26</td>
+								<td rowspan="1" colspan="1">126.4&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">H21A&#x02014;C21&#x02014;H21B</td>
+								<td rowspan="1" colspan="1">109.5</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N3&#x02014;C23&#x02014;C26</td>
+								<td rowspan="1" colspan="1">125.7&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">C18&#x02014;C21&#x02014;H21C</td>
+								<td rowspan="1" colspan="1">109.5</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C24&#x02014;C25&#x02014;N3</td>
+								<td rowspan="1" colspan="1">107.1&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">H21A&#x02014;C21&#x02014;H21C</td>
+								<td rowspan="1" colspan="1">109.5</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">C24&#x02014;C25&#x02014;H25</td>
+								<td rowspan="1" colspan="1">126.4</td>
+								<td rowspan="1" colspan="1">H21B&#x02014;C21&#x02014;H21C</td>
+								<td rowspan="1" colspan="1">109.5</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">N3&#x02014;C25&#x02014;H25</td>
+								<td rowspan="1" colspan="1">126.4</td>
+								<td rowspan="1" colspan="1" />
+								<td rowspan="1" colspan="1" />
+							</tr>
+						</table>
+					</table-wrap>
+				</sec>
+				<sec id="tablewraphbondslong">
+					<title>Hydrogen-bond geometry (&#x000c5;, &#x000b0;)</title>
+					<table-wrap position="anchor" id="d1e3022">
+						<table rules="all" frame="box" style="table-layout:fixed"
+							summary="">
+							<colgroup span="5">
+								<col span="1" />
+								<col span="1" />
+								<col span="1" />
+								<col span="1" />
+								<col span="1" />
+							</colgroup>
+							<tr>
+								<td rowspan="1" colspan="1">
+									<italic>D</italic>
+									&#x02014;H&#x000b7;&#x000b7;&#x000b7;
+									<italic>A</italic>
+								</td>
+								<td rowspan="1" colspan="1">
+									<italic>D</italic>
+									&#x02014;H
+								</td>
+								<td rowspan="1" colspan="1">
+									H&#x000b7;&#x000b7;&#x000b7;
+									<italic>A</italic>
+								</td>
+								<td rowspan="1" colspan="1">
+									<italic>D</italic>
+									&#x000b7;&#x000b7;&#x000b7;
+									<italic>A</italic>
+								</td>
+								<td rowspan="1" colspan="1">
+									<italic>D</italic>
+									&#x02014;H&#x000b7;&#x000b7;&#x000b7;
+									<italic>A</italic>
+								</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">
+									O1&#x02014;H1&#x000b7;&#x000b7;&#x000b7;O6
+									<sup>i</sup>
+								</td>
+								<td rowspan="1" colspan="1">0.82</td>
+								<td rowspan="1" colspan="1">1.76</td>
+								<td rowspan="1" colspan="1">2.575&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">172</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">O1W&#x02014;H1A&#x000b7;&#x000b7;&#x000b7;O6</td>
+								<td rowspan="1" colspan="1">0.86</td>
+								<td rowspan="1" colspan="1">1.90</td>
+								<td rowspan="1" colspan="1">2.747&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">168</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">
+									O1W&#x02014;H1B&#x000b7;&#x000b7;&#x000b7;O5
+									<sup>ii</sup>
+								</td>
+								<td rowspan="1" colspan="1">0.85</td>
+								<td rowspan="1" colspan="1">1.98</td>
+								<td rowspan="1" colspan="1">2.743&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">149</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">
+									N4&#x02014;H1C&#x000b7;&#x000b7;&#x000b7;O4
+									<sup>iii</sup>
+								</td>
+								<td rowspan="1" colspan="1">0.98</td>
+								<td rowspan="1" colspan="1">1.75</td>
+								<td rowspan="1" colspan="1">2.679&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">158</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">
+									N2&#x02014;H2&#x000b7;&#x000b7;&#x000b7;O1W
+									<sup>iv</sup>
+								</td>
+								<td rowspan="1" colspan="1">1.07</td>
+								<td rowspan="1" colspan="1">1.59</td>
+								<td rowspan="1" colspan="1">2.651&#x000a0;(4)</td>
+								<td rowspan="1" colspan="1">172</td>
+							</tr>
+							<tr>
+								<td rowspan="1" colspan="1">
+									O8&#x02014;H8&#x000b7;&#x000b7;&#x000b7;O3
+									<sup>v</sup>
+								</td>
+								<td rowspan="1" colspan="1">0.82</td>
+								<td rowspan="1" colspan="1">1.81</td>
+								<td rowspan="1" colspan="1">2.586&#x000a0;(3)</td>
+								<td rowspan="1" colspan="1">157</td>
+							</tr>
+						</table>
+					</table-wrap>
+					<p>
+						Symmetry codes: (i)
+						<italic>x</italic>
+						+1,
+						<italic>y</italic>
+						,
+						<italic>z</italic>
+						; (ii)
+						<italic>x</italic>
+						, &#x02212;
+						<italic>y</italic>
+						+1/2,
+						<italic>z</italic>
+						+1/2; (iii)
+						<italic>x</italic>
+						&#x02212;1, &#x02212;
+						<italic>y</italic>
+						+1/2,
+						<italic>z</italic>
+						&#x02212;1/2; (iv)
+						<italic>x</italic>
+						&#x02212;1,
+						<italic>y</italic>
+						,
+						<italic>z</italic>
+						; (v) &#x02212;
+						<italic>x</italic>
+						+2,
+						<italic>y</italic>
+						+1/2, &#x02212;
+						<italic>z</italic>
+						+3/2.
+					</p>
+				</sec>
+			</app>
+		</app-group>
+		<ref-list>
+			<title>References</title>
+			<ref id="bb1">
+				<mixed-citation publication-type="other">
+					Bruker (1998).
+					<italic>SMART</italic>
+					Bruker AXS Inc., Madison, Wisconsin, USA.
+				</mixed-citation>
+			</ref>
+			<ref id="bb2">
+				<mixed-citation publication-type="other">
+					Bruker (1999).
+					<italic>SAINT</italic>
+					Bruker AXS Inc., Madison, Wisconsin, USA.
+				</mixed-citation>
+			</ref>
+			<ref id="bb3">
+				<mixed-citation publication-type="other">
+					Hoskins, B. F., Robson, R. &#x00026; Slizys, D. A. (1997).
+					<italic>J. Am. Chem. Soc.</italic>
+					<bold>119</bold>
+					, 2952&#x02013;2953.
+				</mixed-citation>
+			</ref>
+			<ref id="bb4">
+				<mixed-citation publication-type="other">
+					Liu, T.-F., Wu, W.-F., Wan, C.-Q., He, C.-H., Jiao, C.-H. &#x00026;
+					Cui, G.-H. (2011).
+					<italic>J. Coord. Chem.</italic>
+					<bold>64</bold>
+					, 975&#x02013;986.
+				</mixed-citation>
+			</ref>
+			<ref id="bb5">
+				<mixed-citation publication-type="other">
+					Liu, T.-F., Wu, W.-F., Zhang, W.-G. &#x00026; Cui, G.-H. (2011).
+					<italic>Z. Anorg. Allg. Chem.</italic>
+					<bold>637</bold>
+					, 148&#x02013;153.
+				</mixed-citation>
+			</ref>
+			<ref id="bb6">
+				<mixed-citation publication-type="other">
+					Sheldrick, G. M. (1996).
+					<italic>SADABS</italic>
+					University of G&#x000f6;ttingen, Germany.
+				</mixed-citation>
+			</ref>
+			<ref id="bb7">
+				<mixed-citation publication-type="other">
+					Sheldrick, G. M. (2008).
+					<italic>Acta Cryst.</italic>
+					A
+					<bold>64</bold>
+					, 112&#x02013;122.
+				</mixed-citation>
+			</ref>
+		</ref-list>
+	</back>
+	<floats-group>
+		<table-wrap id="table1" position="float">
+			<label>Table 1</label>
+			<caption>
+				<title>Hydrogen-bond geometry (&#x000c5;, &#x000b0;)</title>
+			</caption>
+			<table frame="hsides" rules="groups">
+				<thead valign="bottom">
+					<tr>
+						<th style="border-bottom:1px solid black;" rowspan="1" colspan="1"
+							align="left" valign="bottom">
+							<italic>D</italic>
+							&#x02014;H&#x022ef;
+							<italic>A</italic>
+						</th>
+						<th style="border-bottom:1px solid black;" rowspan="1" colspan="1"
+							align="left" valign="bottom">
+							<italic>D</italic>
+							&#x02014;H
+						</th>
+						<th style="border-bottom:1px solid black;" rowspan="1" colspan="1"
+							align="left" valign="bottom">
+							H&#x022ef;
+							<italic>A</italic>
+						</th>
+						<th style="border-bottom:1px solid black;" rowspan="1" colspan="1"
+							align="left" valign="bottom">
+							<italic>D</italic>
+							&#x022ef;
+							<italic>A</italic>
+						</th>
+						<th style="border-bottom:1px solid black;" rowspan="1" colspan="1"
+							align="left" valign="bottom">
+							<italic>D</italic>
+							&#x02014;H&#x022ef;
+							<italic>A</italic>
+						</th>
+					</tr>
+				</thead>
+				<tbody valign="top">
+					<tr>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">
+							O1&#x02014;H1&#x022ef;O6
+							<sup>i</sup>
+						</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">0.82</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">1.76</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">2.575
+							(3)</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">172</td>
+					</tr>
+					<tr>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">
+							O1
+							<italic>W</italic>
+							&#x02014;H1
+							<italic>A</italic>
+							&#x022ef;O6
+						</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">0.86</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">1.90</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">2.747
+							(3)</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">168</td>
+					</tr>
+					<tr>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">
+							O1
+							<italic>W</italic>
+							&#x02014;H1
+							<italic>B</italic>
+							&#x022ef;O5
+							<sup>ii</sup>
+						</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">0.85</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">1.98</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">2.743
+							(3)</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">149</td>
+					</tr>
+					<tr>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">
+							N4&#x02014;H1
+							<italic>C</italic>
+							&#x022ef;O4
+							<sup>iii</sup>
+						</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">0.98</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">1.75</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">2.679
+							(4)</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">158</td>
+					</tr>
+					<tr>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">
+							N2&#x02014;H2&#x022ef;O1
+							<italic>W</italic>
+							<sup>iv</sup>
+						</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">1.07</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">1.59</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">2.651
+							(4)</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">172</td>
+					</tr>
+					<tr>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">
+							O8&#x02014;H8&#x022ef;O3
+							<sup>v</sup>
+						</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">0.82</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">1.81</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">2.586
+							(3)</td>
+						<td style="" rowspan="1" colspan="1" align="left" valign="top">157</td>
+					</tr>
+				</tbody>
+			</table>
+			<table-wrap-foot>
+				<p>
+					Symmetry codes: (i)
+					<inline-formula>
+						<inline-graphic xlink:href="e-67-o1696-efi2.jpg"
+							mimetype="image" mime-subtype="gif" />
+					</inline-formula>
+					; (ii)
+					<inline-formula>
+						<inline-graphic xlink:href="e-67-o1696-efi3.jpg"
+							mimetype="image" mime-subtype="gif" />
+					</inline-formula>
+					; (iii)
+					<inline-formula>
+						<inline-graphic xlink:href="e-67-o1696-efi4.jpg"
+							mimetype="image" mime-subtype="gif" />
+					</inline-formula>
+					; (iv)
+					<inline-formula>
+						<inline-graphic xlink:href="e-67-o1696-efi5.jpg"
+							mimetype="image" mime-subtype="gif" />
+					</inline-formula>
+					; (v)
+					<inline-formula>
+						<inline-graphic xlink:href="e-67-o1696-efi6.jpg"
+							mimetype="image" mime-subtype="gif" />
+					</inline-formula>
+					.
+				</p>
+			</table-wrap-foot>
+		</table-wrap>
+	</floats-group>
+</article>

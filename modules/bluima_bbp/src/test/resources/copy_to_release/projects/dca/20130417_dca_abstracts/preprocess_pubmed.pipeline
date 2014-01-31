@@ -1,0 +1,33 @@
+
+cr: PubmedDatabaseCR
+ between__java: new int[]{ 22750000 , 23000000 }
+ db_connection__java: new String[] { "localhost", "bb_pubmed", "root", "" }
+
+include: ../../preprocessing/20130327_preprocess_ft/20130327_preprocess_ft.include
+
+#FIXMEae: ReferencesFinderAnnotator
+
+ae: ViterbiFilterAnnotator
+
+#FIXMEae: PruneAfterReferenceAnnotator
+
+
+#FIXME
+#ae: FeatureTokensFilterAnnotator2
+# caseSensitive: false
+# tokenFrequencyFile: /Users/richarde/dev/bluebrain/svn_nlp/UIMA/bluima/trunk/models/20130418_preprocess_abstracts/20130417_token_frequency_22750000_to_23000000
+# minimumFrequency: 30
+# maximumFrequency__java: Integer.MAX_VALUE
+# stopwordsFilePath: $ROOT/modules/bluima_topic_models/src/main/resources/stoplists/mallet_stopwords_en.txt
+#ae: FeatureTokensExtractionAnnotator2
+
+ae: ch.epfl.bbp.uima.topicmodels.writers.JCasWriterConsumer
+ outputDirectory: /Users/richarde/dev/bluebrain/svn_nlp/UIMA/bluima/trunk/models/20130418_preprocess_abstracts/
+ crossValidationFolds: 1
+ # 10 for 10-fold cross validation (test3.txt, test4.txt,...)
+ testSetFraction: 0.15
+ # split training.txt / test.txt
+ seed: 1352130938
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

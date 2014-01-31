@@ -1,0 +1,15 @@
+T12	Gene_expression 667 674	express
+T13	Negative_regulation 719 731	inactivation
+T14	Positive_regulation 885 894	increases
+T15	Transcription 902 912	expression
+T16	Positive_regulation 1004 1013	dependent
+T17	Negative_regulation 1017 1029	inactivation
+E1	Gene_expression:T12 Theme:T3
+E2	Negative_regulation:T13 Theme:T4
+E3	Positive_regulation:T14 Theme:E6
+E4	Positive_regulation:T14 Theme:E5
+E5	Transcription:T15 Theme:T7
+E6	Transcription:T15 Theme:T8
+E7	Positive_regulation:T16 Theme:E3 Cause:E9
+E8	Positive_regulation:T16 Theme:E4 Cause:E9
+E9	Negative_regulation:T17 Theme:T9

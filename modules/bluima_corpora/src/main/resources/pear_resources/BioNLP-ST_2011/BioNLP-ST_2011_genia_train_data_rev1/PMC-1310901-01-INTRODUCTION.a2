@@ -1,0 +1,41 @@
+*	Equiv T2 T3
+*	Equiv T4 T5
+*	Equiv T8 T10 T11 T9 T12
+T32	Positive_regulation 374 381	leading
+T33	Gene_expression 385 395	expression
+T34	Negative_regulation 656 664	impaired
+T35	Gene_expression 665 675	expression
+T36	Negative_regulation 806 815	silencing
+T37	Gene_expression 1217 1227	expression
+T38	Gene_expression 1292 1300	positive
+T39	Gene_expression 1336 1346	expression
+T40	Positive_regulation 1366 1373	induced
+T41	Negative_regulation 1570 1578	deletion
+T42	Gene_expression 1681 1691	expression
+T43	Regulation 2488 2496	regulate
+T44	Gene_expression 2497 2507	expression
+T45	Gene_expression 3165 3175	expression
+T46	Negative_regulation 3176 3185	silencing
+T47	Gene_expression 3301 3309	positive
+T48	Gene_expression 3315 3323	negative
+E1	Positive_regulation:T32 Theme:E2
+E2	Gene_expression:T33 Theme:T1
+E3	Negative_regulation:T34 Theme:E4
+E4	Gene_expression:T35 Theme:T4
+E5	Negative_regulation:T36 Theme:T7
+E6	Gene_expression:T37 Theme:T8
+E7	Gene_expression:T38 Theme:T13
+E8	Gene_expression:T39 Theme:T14
+E9	Positive_regulation:T40 Theme:E8
+E10	Negative_regulation:T41 Theme:T15
+E11	Gene_expression:T42 Theme:T16
+E12	Regulation:T43 Theme:E13
+E14	Regulation:T43 Theme:E15
+E13	Gene_expression:T44 Theme:T26
+E15	Gene_expression:T44 Theme:T27
+E16	Gene_expression:T45 Theme:T29
+E17	Negative_regulation:T46 Theme:E16
+E18	Gene_expression:T47 Theme:T31
+E19	Gene_expression:T48 Theme:T31
+M1	Negation E9
+M2	Negation E19

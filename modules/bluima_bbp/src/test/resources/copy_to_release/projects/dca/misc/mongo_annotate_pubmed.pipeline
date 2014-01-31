@@ -1,0 +1,15 @@
+#
+#  annotates pubmed abstracts in MongoDb with basic pre-processing
+#
+
+cr: ch.epfl.bbp.uima.mongo.MongoCollectionReader
+ db_connection__java: new String[]{  "128.178.187.248", "dca", "pubmed_abstracts_20120225", "", "" }
+ query: {pmid: { $gt: $1, $lt: $2 }}
+
+
+include: ../../../includes/preprocess_full.incl
+
+ae: SkipSomePosAnnotator
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

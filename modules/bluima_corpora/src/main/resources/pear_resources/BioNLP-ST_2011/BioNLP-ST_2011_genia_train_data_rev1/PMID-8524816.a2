@@ -1,0 +1,62 @@
+*	Equiv T3 T2
+T20	Gene_expression 256 264	produced
+T21	Gene_expression 367 378	synthesized
+T22	Positive_regulation 446 455	dependent
+T23	Positive_regulation 478 486	key role
+T24	Positive_regulation 494 503	inducible
+T25	Transcription 504 517	transcription
+T26	Gene_expression 569 579	expression
+T27	Positive_regulation 580 588	requires
+T28	Positive_regulation 672 682	activation
+T29	Transcription 696 709	transcription
+T30	Negative_regulation 750 760	diminished
+T31	Positive_regulation 831 837	due to
+T32	Binding 857 864	binding
+T33	Gene_expression 1162 1176	overexpressing
+T34	Positive_regulation 1162 1176	overexpressing
+T35	Positive_regulation 1234 1248	overexpression
+T36	Gene_expression 1234 1248	overexpression
+T37	Regulation 1258 1264	affect
+T38	Entity 1293 1301	promoter
+T39	Binding 1344 1364	higher-affinity site
+T40	Binding 1382 1401	lower-affinity site
+T41	Binding 1418 1429	competition
+T42	Negative_regulation 1418 1429	competition
+T43	Positive_regulation 1495 1503	mediates
+T44	Negative_regulation 1508 1518	inhibitory
+T45	Gene_expression 1565 1575	expression
+E1	Gene_expression:T20 Theme:T3
+E2	Gene_expression:T21 Theme:T4
+E3	Positive_regulation:T22 Theme:T5
+E4	Positive_regulation:T23 Theme:E6 Cause:T5
+E5	Positive_regulation:T23 Theme:E7 Cause:T5
+E6	Positive_regulation:T24 Theme:E8
+E7	Positive_regulation:T24 Theme:E9
+E8	Transcription:T25 Theme:T4
+E9	Transcription:T25 Theme:T3
+E10	Gene_expression:T26 Theme:T6
+E11	Positive_regulation:T27 Theme:E10
+E12	Positive_regulation:T28 Theme:E13
+E13	Transcription:T29 Theme:T7
+E14	Negative_regulation:T30 Theme:E12
+E15	Positive_regulation:T31 Theme:E14
+E16	Positive_regulation:T31 Theme:E14 Cause:E17
+E17	Binding:T32 Theme:T8
+E18	Gene_expression:T33 Theme:T12
+E19	Positive_regulation:T34 Theme:E18
+E20	Positive_regulation:T35 Theme:E21
+E21	Gene_expression:T36 Theme:T13
+E22	Regulation:T37 Theme:T14 Site:T38
+E23	Regulation:T37 Theme:T14 Cause:E20 Site:T38
+E24	Binding:T39 Theme:T15
+E25	Binding:T40 Theme:T16
+E26	Binding:T41 Theme:T18
+E27	Negative_regulation:T42 Theme:E26 Cause:T17
+E28	Binding:T41 Theme:T17
+E29	Negative_regulation:T42 Theme:E28 Cause:T18
+E30	Positive_regulation:T43 Theme:E32 Cause:E29
+E31	Positive_regulation:T43 Theme:E32 Cause:E27
+E32	Negative_regulation:T44 Theme:E33
+E33	Gene_expression:T45 Theme:T19
+M1	Negation E22
+M2	Negation E23

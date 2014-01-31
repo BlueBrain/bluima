@@ -1,0 +1,35 @@
+T20	Binding 8 18	associated
+T21	Binding 275 283	ligation
+T22	Positive_regulation 411 418	induces
+T23	Entity 419 427	tyrosine
+T24	Phosphorylation 428 443	phosphorylation
+T25	Positive_regulation 448 458	activation
+T26	Binding 511 521	associated
+T27	Positive_regulation 554 562	requires
+T28	Entity 565 586	proline-rich sequence
+T29	Negative_regulation 654 663	abolishes
+T30	Positive_regulation 688 694	induce
+T31	Gene_expression 695 705	expression
+T32	Regulation 858 862	role
+E1	Binding:T20 Theme:T1 Theme2:T2
+E2	Binding:T21 Theme:T5
+E3	Positive_regulation:T22 Theme:E7 Cause:T7
+E4	Positive_regulation:T22 Theme:E10 Cause:T7
+E5	Positive_regulation:T22 Theme:E8 Cause:T7
+E6	Positive_regulation:T22 Theme:E9 Cause:T7
+E7	Phosphorylation:T24 Theme:T8 Site:T23
+E8	Phosphorylation:T24 Theme:T9 Site:T23
+E9	Positive_regulation:T25 Theme:T8 Cause:E7
+E10	Positive_regulation:T25 Theme:T9 Cause:E8
+E11	Binding:T26 Theme:T10 Theme2:T11
+E12	Positive_regulation:T27 Theme:E11 Cause:T12 CSite:T28
+E13	Negative_regulation:T29 Theme:E16
+E14	Negative_regulation:T29 Theme:E17
+E15	Negative_regulation:T29 Theme:E18
+E16	Positive_regulation:T30 Theme:E20 Cause:T13
+E17	Positive_regulation:T30 Theme:E19 Cause:T13
+E18	Positive_regulation:T30 Theme:E21 Cause:T13
+E19	Gene_expression:T31 Theme:T16
+E20	Gene_expression:T31 Theme:T15
+E21	Gene_expression:T31 Theme:T14
+E22	Regulation:T32 Theme:E20

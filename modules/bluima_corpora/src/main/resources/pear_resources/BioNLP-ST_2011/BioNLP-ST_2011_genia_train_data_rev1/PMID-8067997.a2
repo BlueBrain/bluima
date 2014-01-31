@@ -1,0 +1,11 @@
+*	Equiv T4 T3
+T13	Positive_regulation 163 173	activation
+T14	Gene_expression 262 272	production
+T15	Positive_regulation 278 286	increase
+T16	Gene_expression 300 310	expression
+T17	Binding 680 690	engagement
+E1	Positive_regulation:T13 Theme:T2
+E2	Gene_expression:T14 Theme:T4
+E3	Positive_regulation:T15 Theme:E4 Cause:T6
+E4	Gene_expression:T16 Theme:T5
+E5	Binding:T17 Theme:T10

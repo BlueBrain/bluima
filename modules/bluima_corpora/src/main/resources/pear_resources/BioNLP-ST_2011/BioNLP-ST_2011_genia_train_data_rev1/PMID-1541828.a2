@@ -1,0 +1,18 @@
+T9	Negative_regulation 16 35	negative regulation
+T10	Transcription 39 52	transcription
+T11	Localization 87 95	secreted
+T12	Binding 599 606	binding
+T13	Entity 855 863	promoter
+T14	Negative_regulation 885 899	down-regulated
+T15	Regulation 1021 1028	control
+T16	Gene_expression 1037 1047	expression
+E1	Negative_regulation:T9 Theme:E2
+E2	Transcription:T10 Theme:T1
+E3	Localization:T11 Theme:T2
+E4	Binding:T12 Theme:T6
+E5	Binding:T12 Theme:T5
+E6	Negative_regulation:T14 Theme:T7 Site:T13
+E7	Regulation:T15 Theme:E8
+E8	Gene_expression:T16 Theme:T8
+M1	Speculation E6
+M2	Speculation E7

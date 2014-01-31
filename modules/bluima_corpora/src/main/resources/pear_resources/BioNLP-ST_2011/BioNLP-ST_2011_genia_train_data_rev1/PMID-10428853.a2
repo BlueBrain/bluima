@@ -1,0 +1,15 @@
+*	Equiv T11 T12
+T18	Regulation 16 26	regulation
+T19	Entity 55 63	promoter
+T20	Regulation 65 69	Role
+T21	Positive_regulation 107 116	mediating
+T22	Negative_regulation 117 127	repression
+T23	Transcription 377 387	expression
+T24	Binding 1169 1176	binding
+E1	Regulation:T18 Theme:T1 Site:T19
+E2	Regulation:T20 Theme:E3
+E3	Positive_regulation:T21 Theme:E4
+E4	Negative_regulation:T22 Theme:T1 Site:T19
+E5	Transcription:T23 Theme:T5
+E6	Binding:T24 Theme:T15
+E7	Binding:T24 Theme:T16

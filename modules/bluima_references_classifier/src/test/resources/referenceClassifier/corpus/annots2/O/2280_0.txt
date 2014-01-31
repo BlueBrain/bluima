@@ -1,0 +1,26 @@
+The resultant model of striate cortex was encoded in computer memory
+as a set of coordinates for the vertices of all 6000 compartments in the
+visual fields (x,y space) and a set of coordinates for the corresponding
+compartments in the cortex (u,u space). These data arrays formed the
+basis for projecting ocular dominance stripes onto the visual field. The
+first step was to enter the outlines of all stripes onto computer disk
+memory using a grpahics tablet. (The minimum spacing between data
+points correspond to 0.3 mm in the cortex, and the complete set of
+stripes was represented by approximately 10” points.) A separate computer program treated each data point from the ocular dominance
+outline as a pair of U,U coordinates, identified the cortical compartment
+within which the point was contained, and determined the location of
+the point relative to the vertices of the compartment. The point was
+then assigned visual field (x,y) coordinates on the basis of this information about its location within an identified compartment. Points
+belonging to the same outline were connected together, and the resultant back-transformed stripes were displayed on a graphics plotter.
+Because of the wide range (50-fold) in dimensions of the back-transformed stripes, it was necessary to make several partial plots at different magnifications and then combine the images after appropriate
+photographic enlargement.
+Other hemispheres. The right hemisphere from the main experimental animal was sectioned tangential to the opercular cortex, and photographic montages were prepared of the pattern of stripes over much
+of the operculum and the roof of the calcarine fissure. These montages
+are in effect planar projections, and to avoid marked distortions they
+were not extended to regions of high curvature.
+Besides the one monkey used for the detailed reconstruction, several
+other monkeys that had received eye injections of [“Hlproline were
+studied. In order to confirm our observations about the layout of ocular
+dominance stripes in the representation of the peripheral visual field,
+photographic montages of the labeling pattern in the roof of the
+calcarine fissure were prepared from one of these monkeys.

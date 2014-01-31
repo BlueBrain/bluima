@@ -1,0 +1,293 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2010//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_100301.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID>16170308</PMID>
+        <DateCreated>
+            <Year>2005</Year>
+            <Month>11</Month>
+            <Day>02</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2006</Year>
+            <Month>09</Month>
+            <Day>20</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2009</Year>
+            <Month>11</Month>
+            <Day>18</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">1469-221X</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>6</Volume>
+                    <Issue>11</Issue>
+                    <PubDate>
+                        <Year>2005</Year>
+                        <Month>Nov</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>EMBO reports</Title>
+                <ISOAbbreviation>EMBO Rep.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>The c15 ring of the Spirulina platensis F-ATP synthase: F1/F0 symmetry mismatch is not obligatory.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1040-4</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>The oligomeric c ring of the F-ATP synthase from the alkaliphilic cyanobacterium Spirulina platensis was isolated and characterized. Mass spectroscopy analysis indicated a mass of 8,210 Da, reflecting that of a c monomer. The mass increased by 206 Da after treatment with the c-subunit-specific inhibitor dicyclohexylcarbodiimide (DCCD), which indicated modification of the ion-binding carboxylate by DCCD. Atomic force microscopy topographs of c rings from S. platensis showed 15 symmetrically assembled subunits. The c15-mer reported here is the largest c ring that is isolated and does not show the classical c-ring mismatch to the three-fold symmetry of the F1 domain.</AbstractText>
+            </Abstract>
+            <Affiliation>Institute of Microbiology, Eidgenössische Technische Hochschule, Wolfgang-Pauli Strasse 10, Zurich 8093, Switzerland.</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Pogoryelov</LastName>
+                    <ForeName>Denys</ForeName>
+                    <Initials>D</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Yu</LastName>
+                    <ForeName>Jinshu</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Meier</LastName>
+                    <ForeName>Thomas</ForeName>
+                    <Initials>T</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Vonck</LastName>
+                    <ForeName>Janet</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dimroth</LastName>
+                    <ForeName>Peter</ForeName>
+                    <Initials>P</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Muller</LastName>
+                    <ForeName>Daniel J</ForeName>
+                    <Initials>DJ</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>England</Country>
+            <MedlineTA>EMBO Rep</MedlineTA>
+            <NlmUniqueID>100963049</NlmUniqueID>
+            <ISSNLinking>1469-221X</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Protein Subunits</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 3.6.3.14</RegistryNumber>
+                <NameOfSubstance>Proton-Translocating ATPases</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <CommentsCorrectionsList>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Biochem. 1999 Apr;261(2):459-67</RefSource>
+                <PMID>10215857</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochemistry. 1998 Jun 23;37(25):8817-24</RefSource>
+                <PMID>9636021</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 1999 Nov 26;286(5445):1700-5</RefSource>
+                <PMID>10576729</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Exp Biol. 2000 Jan;203(Pt 1):29-33</RefSource>
+                <PMID>10600670</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 2000 May 25;405(6785):418-9</RefSource>
+                <PMID>10839529</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>EMBO Rep. 2001 Mar;2(3):229-33</RefSource>
+                <PMID>11266365</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2001 Apr 24;98(9):4966-71</RefSource>
+                <PMID>11320246</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>FEBS Lett. 2001 Aug 31;504(3):152-60</RefSource>
+                <PMID>11532447</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>FEBS Lett. 2001 Aug 31;504(3):219-22</RefSource>
+                <PMID>11532457</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>FEBS Lett. 2001 Sep 21;505(3):353-6</RefSource>
+                <PMID>11576527</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Trends Biochem Sci. 2002 Mar;27(3):154-60</RefSource>
+                <PMID>11893513</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 2002 Aug 9;321(2):307-16</RefSource>
+                <PMID>12144787</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Mol Biol. 2003 Jan 10;325(2):389-97</RefSource>
+                <PMID>12488103</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Mol Cell Proteomics. 2002 Dec;1(12):956-66</RefSource>
+                <PMID>12543932</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biol Chem. 2003 May 16;278(20):18544-9</RefSource>
+                <PMID>12624095</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>FEBS Lett. 2003 May 22;543(1-3):47-50</RefSource>
+                <PMID>12753903</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Structure. 2003 Dec;11(12):1469-73</RefSource>
+                <PMID>14656431</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Bioenerg Biomembr. 2003 Oct;35(5):427-37</RefSource>
+                <PMID>14740891</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>EMBO J. 2004 Aug 18;23(16):3206-15</RefSource>
+                <PMID>15297878</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Proc Natl Acad Sci U S A. 2004 Aug 17;101(33):12159-64</RefSource>
+                <PMID>15302927</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2005 Apr 29;308(5722):654-9</RefSource>
+                <PMID>15802565</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Science. 2005 Apr 29;308(5722):659-62</RefSource>
+                <PMID>15860619</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Anal Biochem. 1985 Oct;150(1):76-85</RefSource>
+                <PMID>3843705</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>J Biochem Biophys Methods. 1994 Apr;28(3):239-42</RefSource>
+                <PMID>8064118</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Nature. 1994 Aug 25;370(6491):621-8</RefSource>
+                <PMID>8065448</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochem Biophys Res Commun. 1994 Apr 29;200(2):884-92</RefSource>
+                <PMID>8179623</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Biochim Biophys Acta. 1993 Jan 8;1140(3):215-50</RefSource>
+                <PMID>8417777</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>Eur J Biochem. 1993 May 1;213(3):957-64</RefSource>
+                <PMID>8504834</PMID>
+            </CommentsCorrections>
+            <CommentsCorrections RefType="Cites">
+                <RefSource>EMBO J. 1999 Aug 2;18(15):4118-27</RefSource>
+                <PMID>10428951</PMID>
+            </CommentsCorrections>
+        </CommentsCorrectionsList>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Crystallization</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Cyanobacteria</DescriptorName>
+                <QualifierName MajorTopicYN="Y">enzymology</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Mass Spectrometry</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Microscopy, Atomic Force</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Protein Subunits</DescriptorName>
+                <QualifierName MajorTopicYN="N">chemistry</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Proton-Translocating ATPases</DescriptorName>
+                <QualifierName MajorTopicYN="Y">chemistry</QualifierName>
+                <QualifierName MajorTopicYN="N">isolation &amp; purification</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+        <OtherID Source="NLM">PMC1371026</OtherID>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="received">
+                <Year>2005</Year>
+                <Month>5</Month>
+                <Day>02</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="revised">
+                <Year>2005</Year>
+                <Month>5</Month>
+                <Day>31</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="accepted">
+                <Year>2005</Year>
+                <Month>8</Month>
+                <Day>03</Day>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2005</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2006</Year>
+                <Month>9</Month>
+                <Day>21</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2005</Year>
+                <Month>9</Month>
+                <Day>20</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">7400517</ArticleId>
+            <ArticleId IdType="doi">10.1038/sj.embor.7400517</ArticleId>
+            <ArticleId IdType="pubmed">16170308</ArticleId>
+            <ArticleId IdType="pmc">PMC1371026</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+</PubmedArticleSet>

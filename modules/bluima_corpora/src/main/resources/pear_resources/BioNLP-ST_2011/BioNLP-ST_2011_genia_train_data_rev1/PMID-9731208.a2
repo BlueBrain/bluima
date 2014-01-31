@@ -1,0 +1,10 @@
+T3	Negative_regulation 95 105	prevention
+T4	Entity 109 116	nuclear
+T5	Localization 117 130	translocation
+T6	Negative_regulation 804 812	inhibits
+T7	Entity 813 820	nuclear
+T8	Localization 821 834	translocation
+E1	Negative_regulation:T3 Theme:E2
+E2	Localization:T5 Theme:T1 ToLoc:T4
+E3	Negative_regulation:T6 Theme:E4
+E4	Localization:T8 Theme:T2 ToLoc:T7

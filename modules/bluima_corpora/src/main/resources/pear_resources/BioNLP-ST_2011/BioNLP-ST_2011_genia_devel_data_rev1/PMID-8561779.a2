@@ -1,0 +1,22 @@
+T10	Regulation 547 563	promoter element
+T11	Gene_expression 592 601	induction
+T12	Binding 667 695	formation of a tight complex
+T13	Negative_regulation 758 778	inhibitory mechanism
+T14	Positive_regulation 784 792	involves
+T15	Localization 797 810	sequestration
+T16	Positive_regulation 931 945	overexpression
+T17	Gene_expression 931 945	overexpression
+T18	Negative_regulation 988 997	depletion
+T19	Negative_regulation 1167 1175	blocking
+T20	Binding 1176 1219	formation of the catalytically active dimer
+E1	Regulation:T10 Theme:E2
+E2	Gene_expression:T11 Theme:T4
+E3	Binding:T12 Theme:T5
+E4	Negative_regulation:T13 Theme:T6
+E5	Positive_regulation:T14 Theme:E4 Cause:E6
+E6	Localization:T15 Theme:T6
+E7	Positive_regulation:T16 Theme:E8
+E8	Gene_expression:T17 Theme:T7
+E9	Negative_regulation:T18 Theme:T7
+E10	Negative_regulation:T19 Theme:E11
+E11	Binding:T20 Theme:T8 Theme2:T9

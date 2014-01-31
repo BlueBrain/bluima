@@ -1,0 +1,6 @@
+T2	Positive_regulation 681 689	required
+T3	Regulation 693 701	regulate
+T4	Phosphorylation 708 723	phosphorylation
+E1	Positive_regulation:T2 Theme:E2
+E2	Regulation:T3 Theme:E3
+E3	Phosphorylation:T4 Theme:T1

@@ -1,0 +1,9 @@
+dicted using a component-based PET count rate model (20). The
+above geometry was modeled, including 1 “bucket” per head, which
+combines positioning, energy, and timing data from each of the
+18 blocks. We assumed a typical block integration time of 80 ns, a
+coincidence time window of 12 ns, and a coincidence processor
+with bandwidth of 2.6 MHz. Given the absolute sensitivity and
+count rate performance of the scanner, we calculated the effective
+sensitivity as a function of activity in the field of view. Effective
+sensitivity is defined as (1):

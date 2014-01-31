@@ -1,0 +1,2001 @@
+<?xml version='1.0'?>
+<!DOCTYPE File PUBLIC "NeuroScholar.DTD" "NeuroScholar.DTD">
+<File>
+
+  <Title>Are There Connections Between the Thalamic Reticular Nucleus 
+  and the Brainstem Reticular Formation?</Title>
+
+  <Authors>D.J. BERRY, P.T. OHARA, G. JEFFERY, AND A.R. 
+  LIEBERMAN</Authors>
+
+  <Abstract>
+
+    <S avgH="22" class="abstract.heading" format="TimesNewRomanPSMT"
+     id="s0">ABSTRACT</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s1">Increasing awareness that the thalamic reticular nucleus 
+    (TRN) plays an important role in controlling the output of 
+    cortically projecting cells in nuclei of the dorsal thalamus has 
+    focused attention on the question of whether there exist ascending 
+    projections to the TRN from the mesencephalic or other parts of the 
+    brainstem reticular formation (BRF).</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s2">We have examined this and the related question of whether 
+    the neurons of TRN project to the BRF, by anterograde and 
+    retrograde tracing experiments with horseradish peroxidase (HRP) 
+    and HRP conjugated to wheat germ agglutinin.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s3">Injections of tracer were placed stereotaxically in the 
+    BRF at various depths and rostrocaudal and mediolateral 
+    coordinates, and the TRN and adjacent nuclei were examined in 
+    serial coronal sections, using tetramethylbenzidine as the 
+    principal chromogen.</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s4">Retrogradely labelled cell bodies were consistently seen 
+    in hypothalamus and zona incerta but never in TRN, suggesting that, 
+    in the rat, TRN neurons do not project caudal to the thalamus.</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s5">After 54 out of 60 injections, no terminal label was 
+    detected in any part of the TRN although such label was present in 
+    other parts of the thalamus, including the intralaminar nuclei, in 
+    the same sections.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s6">We therefore conclude that direct projections from the BRF 
+    to the TRN must be extremely sparse, and that those effects of BRF 
+    stimulation upon thalamocortical transmission that are mediated by 
+    the TRN (rather than by direct projections to dorsal thalamic 
+    nuclei) probably depend chiefly on indirect polysynaptic 
+    pathways.</S>
+  </Abstract>
+
+  <Introduction>
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s7">It has long been believed that the brainstem reticular 
+    formation (BRF) is involved in determining states of 
+    consciousness.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s8">Moruzzi and Magoun ( 49) stimulated the BRF of encephale 
+    isole cats and found that this evoked a change in the 
+    electroencephalogram (EEG) from a pattern of highvoltage slow waves 
+    to one of low-voltage fast waves.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s9">This desynchronization of the EEG was found to duplicate 
+    the change in the EEG obtained on arousal (for reviews and 
+    references see Rossi and Zanchetti, 57; Singer, 77).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s10">Directly related to cortical desynchronization is 
+    facilitation of transmission through the thalamic relay nuclei 
+    (see, for example, Steriade, 70; Singer, 77).</S>
+    <BR />
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s11">The subset of neurons that brings about these effects on 
+    the EEG afbr stimulation of the BRF has been termed the ascending 
+    activating system.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s12">It has long been thought that the thalamic reticular 
+    nucleus (TRN) has an important role in this system, and for many 
+    years it was believed that the TRN represented the final common 
+    pathway of the ascending system from the BRF to the cerebral cortex 
+    (Jasper, 49).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s13">Now, however, it is known that the TRN projects to the 
+    dorsal thalamus and that there is no direct projection from the TRN 
+    to cerebral cortex (Minderhoud, 71; Jones, 75).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s14">Nevertheless, a role for the TRN in determining the 
+    pattern and extent of cortical activity remains very probable, for 
+    it has been shown in a number of studies that projections from the 
+    TRN to the dorsal thalamus exert an inhibitory effect on 
+    thalamocortical projection cells (e.g., Schlag and Waszak, 
+    &apos;71; Frigyesi and Schwartz, &apos;72; Waszak, &apos;74; French 
+    et al., &apos;841 and thus, indirectly, on the activity of cortical 
+    neurons.</S>
+    <BR />
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s15">The last few years have also seen the accumulation of 
+    much additional information about the organization of the TRN.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s16">Evidence for the inhibitory effect of neurons in the TRN 
+    on thalamocortical projection cells has been supported by 
+    anatomical evidence that the axons of these cells (reticulothalamic 
+    axons) terminate by establishing Gray type 2 (symmetrical) synapses 
+    with the dendrites of thalamocortical projection cells (Ohara et 
+    al., &apos;80; Montero and Scott, &apos;81; Peschanski et al., 
+    &apos;83) and by immunohistochemicaI evidence that the transmitter 
+    at these endings is GABA mouser et al., &apos;80; Ohara et al., 
+    &apos;83).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s17">It is also now established from both physiological and 
+    anatomical studies that reticulothalamic neurons are 
+    monosynaptically excited by thalamic and cortical inputs, both 
+    almost certainly in the form of collaterals of thalamocortical and 
+    corticothalamic projection cells (Schlag and Waszak, &apos;71; 
+    Ohara and Lieberman, &apos;81, &apos;85).</S>
+    <BR />
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s18">In addition, it is also now apparent that the 
+    reticulothalamic projections may be more highly organized than 
+    would appear to be the case from the studies of Scheibel and 
+    Scheibel(&apos;66) and Jones (&apos;75).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s19">Thus small injections of horseradish peroxidase (HRP) or 
+    fluorescent tracers into the dorsal thalamus label only small 
+    patches of adjacent neurons in the ipsilateral TRN (O&apos;Connell 
+    et al., &apos;82, rat; Frassoni et al., &apos;84, rat; Steriade et 
+    al., &apos;84, cat), suggesting that such cells project discretely 
+    to the small regions of dorsal thalamus from which they receive 
+    input.</S>
+    <BR />
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s20">In the light of findings such as these, and of evidence 
+    that the activity of TRN neurons is closely linked to the firing 
+    pattern of thalamocortical projection cells, it can now be accepted 
+    as established that although the circuitry may be very different 
+    from that originally envisaged, the TRN does indeed influence 
+    cortical physiology, functioning as part of a feedback circuit by 
+    which thalamocortical cell activity is regulated.</S>
+    <BR />
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s21">But there remains the question of the precise nature of 
+    the relationship between the TRN and the BRF.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s22">There is some anatomical evidence for projections from 
+    the BRF to the TRN (e.g., Scheibel and Scheibel, &apos;58; Shute 
+    and Lewis, &apos;67; Edwards and De Olmos, &apos;76; Kromer and 
+    Moore, &apos;80; Robertson and Feiner, &apos;82; Mackay-Sim et al., 
+    &apos;83; Cropper et al, &apos;84; Peschanski and Besson, 
+    &apos;841, but the evidence is sparse and not entirely satisfactory 
+    (see Discussion).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s23">The physiological evidence is more extensive and supports 
+    more strongly than the anatomical evidence the existence of 
+    projections, but it is no less difficult to interpret.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s24">There are several studies that strongly suggest that in 
+    the cat there is a direct input to the TRN from the mesencephalic 
+    reticular formation (MRF) that is both inhibitory and cholinergic 
+    (Ben-hi et al., &apos;76; Dingeldine and Kelly, &apos;77; Godfraind 
+    and Veraart, &apos;781, and evidence such as this leads to the 
+    conclusion that the facilitation of thalamocortical transmission 
+    underlying cortical arousal following BRF stimulation depends upon 
+    a disinhibition of the thalamocortical projection cells brought 
+    about by ascending input from the BRF to the TRN that reduces the 
+    inhibitory output of the latter (Singer, &apos;77).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s25">Plausible though this suggestion may be (Fig. lA), there 
+    are other data that suggest that the facilitatory effects of BRF 
+    stimulation may be mediated by direct excitatory inputs to 
+    thalamocortical projection cells (Kayama et al., &apos;82) (Fig. 
+    lB), or by disinhibition involving intrathalamic inhibitory 
+    interneurons (e.g., Fukuda and Iwama, &apos;71) (Fig. 1C).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s26">Furthermore, the anatomical evidence fur direct 
+    projections from the BRF to the specific nuclei of the dorsal 
+    thalamus is more extensive and less open to doubts than is the 
+    evidence for direct projections to the TRN (e.g., Kromer and Moore, 
+    &apos;80; Pasquier and Villar, &apos;82; Ahlsen and Lo, &apos;82; 
+    Hughes and Mullikin, &apos;84, Sofroniew et al., &apos;85).</S>
+    <BR />
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s27">The present study, undertaken against this confused and 
+    uncertain background, is an attempt to establish if projections 
+    from the BRF to the TRN are present in the rat, and if so to 
+    determine their origins more precisely.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s28">A second question we were interested in clarifying is 
+    that of whether there are projections from TRN that descend caudal 
+    to the diencephalon.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s29">Axons extending from the TRN to the midbrain are 
+    described by Scheibel and Scheibel(&apos;66) in Golgi material from 
+    various species, by Grofova et al. (&apos;78) on the basis of 
+    retrograde HRP labelling studies in the cat, and by Parent and 
+    Steriade (&apos;84) on the basis of electrophysiological and 
+    retrograde labelling studies in cat and squirrel monkey.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s30">On the other hand, Minderhoud (&apos;71), in experimental 
+    degeneration studies in the rat, Jones (&apos;79, in 
+    autoradiographic studies in various species after injection of 
+    labelled amino acids into the TRN, and others in retrograde HRP 
+    labelling studies (Morel1 et al., &apos;81; Shammah-Lagnado et al., 
+    &apos;83; Frassoni et al., &apos;84) found no such projections.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s31">We have employed anterograde and retrograde tracing 
+    methods, using both HRP and HRP conjugated to wheat germ 
+    agglutinin, to examine these questions in adult albino rats.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s32">A preliminary report of the findings has been published 
+    (Berry et al., &apos;83).</S>
+  </Introduction>
+
+  <Methods>
+
+    <S avgH="25" class="methods.heading" format="TimesNewRomanPS-BoldMT"
+     id="s33">MATERIALS AND METHODS</S>
+    <BR />
+
+    <S avgH="25" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s34">Animals</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s35">Albino rats of the Wistar strain, 170-200 g in weight, 
+    were used.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s36">In thirty-five of these animals injections of HRP or of 
+    HRP conjugated with wheat germ agglutinin (WGAHRP) were made into 
+    various parts of the BRF.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s37">Five animals were used to prepare reference series of 
+    coronal sections stained to show the presence of 
+    acetylcholinesterase (AChE).</S>
+    <BR />
+
+    <S avgH="25" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s38">Injection procedures</S>
+    <BR />
+
+    <S avgH="31" class="methods.body" format="Arial-BoldMT" id="s39">
+    The rats were lightly anaesthetized with ether and placed in a 
+    David Kopf small-animal stereotaxic frame.</S>
+    <S avgH="31" class="methods.body" format="Arial-BoldMT" id="s40">
+    Deep anaesthesia was then induced and maintained with either a 
+    mixture of halothane, nitrous oxide, and oxygen or an 
+    intraperitoneal injection of Chlor-Nembutal (3.0 ml/kg of 2.1 g 
+    chloral hydrate and 0.5 g sodium pentabarbital in 50 ml of water) 
+    or of chloral hydrate alone.</S>
+    <S avgH="31" class="methods.body" format="Arial-BoldMT" id="s41">A 
+    total of 60 injections (ten unilateral or midline and 50 bilateral) 
+    were made into the brainstem of the thirty-five animals.</S>
+    <S avgH="31" class="methods.body" format="Arial-BoldMT" id="s42">
+    Forty-one injections were with HRP and 19 with WGA-HRP.</S>
+    <S avgH="31" class="methods.body" format="Arial-BoldMT" id="s43">In 
+    33 injections HRP (Sigma type VI) was used as a 15% solution in 
+    TRIS buffer and was injected by iontophoresis using stereotaxically 
+    positioned micropipettes with tip diameters of 50-70 pm and 
+    currents of 5-15 pA over periods of 2.5-5 minutes.</S>
+    <S avgH="31" class="methods.body" format="Arial-BoldMT" id="s44">
+    Eight injections of HRP (0.1 pl of 30% HRP in normal saline) were 
+    made by using a pressure system and a stereotaxically positioned 
+    1-pl Hamilton microsyringe with an outside diameter of 1 mm.</S>
+    <S avgH="31" class="methods.body" format="Arial-BoldMT" id="s45">
+    Nine of the WGA-HRP injections were made iontophoretically by using 
+    a 3% sohA</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s46">tion of WGA-HRP in TRIS buffer, stereotaxically 
+    positioned micropipettes with tip diameters of 50-70 pm, and 
+    currents of 5-15 pA for 2.5-5 minutes.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s47">The other ten injections were of 10% (six injections) and 
+    4% (four injections) WGA-HRP in TRIS buffer with a pressure 
+    ejection system.</S>
+    <BR />
+
+    <S avgH="26" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s48">Preparation of tissue</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s49">Twenty-four to 48 hours after injection, animals were 
+    again deeply anaesthetized (with ether) and killed by transcardiac 
+    perfusion of 50 ml of 0.1 M phosphate buffer followed by 200 ml of 
+    a solution of 1% glutaraldehyde and 1% paraformaldehyde in 0.1 M 
+    phosphate buffer (pH 7.3; room temperature).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s50">The brains were removed and stored in fresh fixative 
+    solution for 5-12 hours at 4°C.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s51">Brains to be cut on the freezing microtome were stored in 
+    0.1 M phosphate buffer containing 20% sucrose overnight at 4°C 
+    prior to sectioning.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s52">Serial coronal sections 50 pm thick were cut on a 
+    freezing microtome with solid carbon dioxide as a refrigerant or in 
+    a Vibratome (Oxford Instruments) and were collected in 0.1 M 
+    phosphate buffer.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s53">Alternate sections were processed by using 
+    diaminobenzidine (DAB) or tetramethylbenzidine (TMB) as chromogens 
+    (LaVail and LaVail, &apos;74; Mesulam, &apos;78) and mounted on 
+    gelatinized slides.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s54">Some sections treated with TMB were counterstained with 
+    neutral red and DAB sections were counterstained with cresyl 
+    violet.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s55">In some experiments only TMB was used and alternate 
+    sections were counterstained with neutral red.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s56">The slides were coverslipped and examined by light 
+    microscopy in both brightfield and darkfield illumination.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s57">Sections treated with DAB and TMB were used to identify 
+    the injection sites and the extent of spread of the HRP.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s58">Labelling of cell bodies, fibres, and terminals at levels 
+    rostral to the superior colliculus was assessed only in TMB 
+    sections.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s59">The results were recorded on line drawings of frontal 
+    sections of the brain.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s60">Special attention was paid to the area of, and adjacent 
+    to, the TRN, where labelling was recorded in detail with the aid of 
+    a camera lucida.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s61">The atlases of Pellegrino et al. (&apos;671, Konig and 
+    Klippel (&apos;63), and Paxinos and Watson (&apos;82) were used.</S>
+    <BR />
+
+    <S avgH="26" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s62">AChE staining</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s63">The animals were perfused as described above.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s64">Serial coronal sections of the brains, 25 pm thick, were 
+    cut on a freezing microtome and stained for AChE according to 
+    Hanker et al. (&apos;73).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s65">Some sections were counterstained with cresyl violet.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s66">The boundaries of the TRN were traced from these series 
+    of sections with a camera lucida.</S>
+  </Methods>
+
+  <Results>
+
+    <S avgH="25" class="results.heading" format="TimesNewRomanPS-BoldMT"
+     id="s67">RESULTS</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s68">Injections were placed throughout <injectionLocation>the 
+    brainstem</injectionLocation>, from <neuroanatomicalLocation>the 
+    medulla</neuroanatomicalLocation> caudally to 
+    <neuroanatomicalLocation>the midbrain</neuroanatomicalLocation> at 
+    the level of <neuroanatomicalLandmark>the superior 
+    colliculus</neuroanatomicalLandmark> rostrally.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s69">Although many injections were centred on nuclear groups 
+    which have been implicated as possible sources of ascending 
+    projections to <connxTermination>the TRN</connxTermination> 
+    (viz.<neuroanatomicalLocation>locus coeruleus, raphe nuclei, 
+    nucleus cuneiformis, and other parts of the 
+    MRF</neuroanatomicalLocation>) few parts of 
+    <neuroanatomicalLocation>the BRF and MRF</neuroanatomicalLocation> 
+    were not included within at least some injection sites.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s71">The coordinates used for the injections are summarized in 
+    Table 1 and representative injection sites into 
+    <injectionLocation>the MRF</injectionLocation> at the level of 
+    <neuroanatomicalLandmark>the superior 
+    colliculus</neuroanatomicalLandmark>, into <injectionLocation>the 
+    periaqueductal gray PAG</injectionLocation>) at the level of 
+    <neuroanatomicalLandmark>the inferior 
+    colliculus</neuroanatomicalLandmark>, into <injectionLocation>the 
+    lateral BRF</injectionLocation> at the level of 
+    <neuroanatomicalLandmark>the facial nerve 
+    nucleus</neuroanatomicalLandmark>, and into the midline at the 
+    level of transition between <neuroanatomicalLandmark>pons and 
+    midbrain</neuroanatomicalLandmark> are shown in Figure 2.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s72">Further details of the structures included within 
+    individual injection sites are given where appropriate in the 
+    text.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s73">For convenience of description, the findings are 
+    presented in three groups according to the rostrocaudal level of 
+    the injections.</S>
+    <BR />
+
+    <S avgH="26" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s74">Injections into the MRF 
+    at the level of the superior colliculus</S>
+    <BR />
+
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s75"><exptLabel>Thirteen injections-ten of 
+      <tracerChemical>HRP</tracerChemical> and three of 
+      <tracerChemical>WGA-HRP</tracerChemical> were placed in 
+      <injectionLocation>the MRF at the level of the superior 
+      colliculus</injectionLocation></exptLabel>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s76">Sections treated with DAB showed that the diffusion 
+      zone extended ventrally beyond <injectionSpread>the deepest layer 
+      of the superior colliculus (stratum album 
+      profundum)</injectionSpread> in all 13 injections, involved the 
+      MRF in eight injections and <injectionSpread>the 
+      PAG</injectionSpread> in three out of 13 injections (Figs. 2A, 
+      3).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s77">In TMB sections the diffusion zone included 
+      <injectionSpread>the MRF and adjacent PAG</injectionSpread> in 
+      every case.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s78">One centrally placed injection included both 
+      <injectionLocation>rostral dorsal raphe and raphe 
+      medianus</injectionLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s79">Figure 5 summarises the pattern of diencephalic 
+      labelling in one experiment following an injection very similar 
+      to the one depicted in Figure 3.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s80">These findings and the findings from all other animals 
+      in this group are summarised in Table 1.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s81">Labelling within <labelingLocation>the 
+      TRN</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s82"><labelingDescription>No labelled 
+      cells</labelingDescription> were observed within <labelingLocation
+      >the TRN</labelingLocation> after any injections.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s83"><labelingDescription>Sparse fibre 
+      labelling</labelingDescription> within <labelingLocation>the 
+      TRN</labelingLocation> was seen after three injections of 
+      <tracerChemical>HRP</tracerChemical> in three different 
+      animals.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s84">All of these injections were centred at approximately 
+      <injectionLocation>the midrostrocaudal level of the superior 
+      colliculus</injectionLocation> and in every case involved 
+      <injectionSpread>deep superior colliculus (to the level of the 
+      stratum album profundum) and the dorsal MRF</injectionSpread>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s85">In every case the labelled fibres ran diagonally and 
+      roughly horizontally from <neuroanatomicalLandmark>the 
+      ventrolateral part of the ventral 
+      thalamus</neuroanatomicalLandmark>, through
+      <neuroanatomicalLocation>the TRN</neuroanatomicalLocation>, to 
+      enter <connxTermination>the internal capsule</connxTermination> 
+      laterally.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s86"><labelingDescription>The fibres were 
+      sparse</labelingDescription> and confined to <labelingLocation>
+      the ventral part of the caudal TRN</labelingLocation> (A/p t 3.9 
+      to A/P +4.1), just dorsal to <neuroanatomicalLandmark>the 
+      junction of the latter with the zona incerta 
+      (ZI)</neuroanatomicalLandmark> as determined by comparison of TMB 
+      treated sections with AChE-stained sections cut at the same level 
+      (Fig. 4).</S>
+      <BR />
+
+      <S avgH="50" class="results.body" format="ArialMT" id="s87">
+      <labelingDescription>Sparse terminal 
+      labelling</labelingDescription> within <labelingLocation>
+      TRN</labelingLocation> was seen after five injections-two of 
+      <tracerChemical>WGA-HRP</tracerChemical> and three of 
+      <tracerChemical>HRP</tracerChemical> alone.</S>
+      <S avgH="50" class="results.body" format="ArialMT" id="s88">The 
+      injection sites involved both <injectionLocation>dorsal and 
+      ventral levels in the MRF</injectionLocation> and included none 
+      of the injections after which <labelingDescription>sparse fibre 
+      labelling</labelingDescription> was seen in <labelingLocation>
+      TRN</labelingLocation>.</S>
+      <S avgH="50" class="results.body" format="ArialMT" id="s89">The 
+      terminal label consisted of fine granules of reaction product 
+      over the neuropil and cell islands of <labelingLocation>the 
+      caudal half of the TRN</labelingLocation> (ALP +3.9 to A/P +4.6) 
+      in the interstices of the fibre bundles running between 
+      <neuroanatomicalLandmark>thalamus</neuroanatomicalLandmark> and 
+      <neuroanatomicalLandmark>internal 
+      capsule</neuroanatomicalLandmark>.</S>
+      <S avgH="50" class="results.body" format="ArialMT" id="s90">In 
+      all five 2 cases there was evidence of leakage of HRP into 
+      <injectionSpread>the cerebral cortex</injectionSpread> from the 
+      pipette track, and in four of the five cases there were labelled 
+      cell bodies in <labelingLocation>the ipsilateral dorsal lateral 
+      geniculate nucleus</labelingLocation>.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s92">Labelling in other sites. (1) After almost every 
+      injection, <labelingDescription>cell, fibre, and terminal 
+      labelling</labelingDescription> was seen within <labelingLocation>
+      the ZI</labelingLocation> (Table 1, Fig. 5).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s93"><labelingDescription>Terminal 
+      labelling</labelingDescription> within <labelingLocation>the 
+      ZI</labelingLocation>, the lateral boundary of which was defined 
+      by the AChE technique (Fig. 41, was most obvious in 
+      <labelingLocation>the dorsal part of the 
+      nucleus</labelingLocation>, whereas <labelingDescription>labelled 
+      cell bodies</labelingDescription> were seen predominantly in 
+      <labelingLocation>the ventral half of the 
+      ZI</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s94"><labelingDescription>Cell body 
+      labelling</labelingDescription> was granular in nature and 
+      extended into the dendrites to reveal that many of the labelled 
+      cells were bipolar with processes emerging at either end of an 
+      elongate soma (Fig. 6).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s95">In most cases it was apparent that 
+      <labelingDescription>heavily labelled cells</labelingDescription> 
+      within <labelingLocation>the ZI</labelingLocation> were arranged 
+      as two bands parallel to one another and to 
+      <neuroanatomicalLandmark>the dorsal edge of the crus 
+      cerebri</neuroanatomicalLandmark>.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s96"><labelingDescription>Labelled 
+      fibres</labelingDescription> were seen throughout 
+      <labelingLocation>the ZI</labelingLocation> running parallel with 
+      the cells in <labelingLocation>the ventral 
+      half</labelingLocation> and forming a plexus in <labelingLocation>
+      the dorsal half</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s97">This plexus consisted of fibres running horizontally, 
+      and perpendicular to <neuroanatomicalLandmark>the medial border 
+      of the medial lemniscus</neuroanatomicalLandmark>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s98">In <labelingLocation>the area H1 of Forel s 
+      field</labelingLocation>, <labelingDescription>the horizontally 
+      running fibres</labelingDescription> passed dorsally into 
+      <labelingLocation>the medial thalamus</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s99">Labelling disappeared from <labelingLocation>the 
+      ZI</labelingLocation> approximately one-third of the distance 
+      along the caudorostral axis of <neuroanatomicalLandmark>the 
+      TRN</neuroanatomicalLandmark>.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s100">(2) In all but two cases,<labelingDescription>terminal 
+      labelling</labelingDescription> was observed within 
+      <labelingLocation>the intralaminar nuclear complex (nucleus 
+      medialis thalami, pars lateralis of Konig and Klippel, 
+      63)</labelingLocation> (Figs. 5, 7) (Table 1).</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s101">(3) In all but two cases, in one of which labelling 
+      was <labelingDescription>generally weak</labelingDescription>, 
+      <labelingDescription>labelled cell bodies</labelingDescription> 
+      were present within <labelingLocation>the 
+      hypothalamus</labelingLocation> (Figs. 5, 8) (Table 1).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s102">Such <labelingDescription>cells</labelingDescription> 
+      were located in <labelingLocation>both the posterior and middle 
+      groups of hypothalamic nuclei</labelingLocation> as described by 
+      Christ ( 69).</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s103">(4) In most cases, <labelingDescription>labelled 
+      fibres</labelingDescription> could be seen running vertically and 
+      dorsomedially through <labelingLocation>the ventral lateral 
+      geniculate nucleus and dorsal lateral geniculate 
+      nucleus</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s104"><labelingDescription>Labelled 
+      cells</labelingDescription> were seen in <labelingLocation>the 
+      ventral part of the ventral lateral geniculate 
+      nucleus</labelingLocation> in several cases.</S>
+    </TTE>
+
+    <BR />
+
+    <S avgH="25" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s105">Injections into the PAG 
+    and caudal MRF</S>
+    <BR />
+
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s106"><exptLabel>Eight injections of 
+      <tracerChemical>HRP</tracerChemical> and two of 
+      <tracerChemical>WGA-HRP</tracerChemical> were placed in 
+      <injectionLocation>the PAG</injectionLocation></exptLabel> at 
+      levels between <neuroanatomicalLandmark>the caudal superior 
+      colliculus</neuroanatomicalLandmark> and <neuroanatomicalLandmark>
+      the inferior colliculus</neuroanatomicalLandmark>, and in all 
+      cases the diffusion zone around the site of the injection 
+      extended into <injectionSpread>the medial part of the adjacent 
+      MRF</injectionSpread> (Figs. 2B, 9).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s107">Four injections of 
+      <tracerChemical>WGA-HRP</tracerChemical> were made into 
+      <injectionLocation>the lateral MRF</injectionLocation>, and one 
+      into <injectionLocation>the midline</injectionLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s108">In the anteroposterior dimension the injections 
+      extended from the level of <neuroanatomicalLandmark>the caudal 
+      superior colliculus</neuroanatomicalLandmark> to the level of 
+      <neuroanatomicalLandmark>the caudal inferior 
+      colliculus</neuroanatomicalLandmark> (Table 1).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s109">Four injections were made into <injectionLocation>the 
+      most caudal part of the PAG</injectionLocation> and into its 
+      caudal extension, <injectionLocation>the periventricular 
+      gray,</injectionLocation> at approximately the midlevel of 
+      <neuroanatomicalLandmark>the locus 
+      coerulus</neuroanatomicalLandmark>: two of 
+      <tracerChemical>HRP</tracerChemical> alone, two of 
+      <tracerChemical>WGA-HRP</tracerChemical>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s110">The diffusion zones of the midline injection (Fig. 2D) 
+      and of the two most medial and rostral injections into 
+      <injectionLocation>the pons</injectionLocation> involved 
+      <injectionLocation>the dorsal raphe nucleus and nucleus raphe 
+      medianus</injectionLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s111">Diencephalic labelling following this group of 
+      injections is summarised in Table 1 and Figure 13 shows the 
+      labelling pattern on the left side in the case of the experiment 
+      illustrated in Figure 2D.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s112">Labelling within <labelingLocation>the 
+      TRN</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s113"><labelingDescription>No cell, fibre, or terminal 
+      labelling</labelingDescription> was observed within 
+      <labelingLocation>the TRN</labelingLocation> after any of these 
+      injections.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s114">In Figure 10 <labelingDescription>the absence of 
+      label</labelingDescription> in <labelingLocation>the 
+      TRN</labelingLocation> may be contrasted with 
+      <labelingDescription>the adjacent terminal 
+      labe1</labelingDescription> in <labelingLocation>the thalamic 
+      ventrobasal complex</labelingLocation> following the injection 
+      illustrated in Figure 2D, which involved <injectionLocation>a 
+      substantial caudorostral extent of the raphe nuclei (including 
+      raphe medianus) and adjacent parts of the MRF and 
+      BRF</injectionLocation>.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s115">Labelling in other sites.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s116">In nine cases <labelingDescription>labelled 
+      fibres</labelingDescription> were seen in <labelingLocation>the 
+      dorsal ZI</labelingLocation> (Table 1) passing rostromedially 
+      toward <labelingLocation>the medial thalamus</labelingLocation> 
+      through <labelingLocation>the fields of Forel</labelingLocation>, 
+      in which <labelingDescription>fibre 
+      labelling</labelingDescription> was seen after 11 injections.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s117"><labelingDescription>Terminal 
+      labelling</labelingDescription> was seen in <labelingLocation>the 
+      intralaminar nuclei</labelingLocation> after 14 injections (Table 
+      1, Figs. 11, 13) and sporadically in <labelingLocation>the ZI and 
+      lateral geniculate nuclei</labelingLocation>.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s118"><labelingDescription>Cell 
+      labelling</labelingDescription> was found consistently in 
+      <labelingLocation>the dorsocaudal part of the 
+      ZI</labelingLocation> and <labelingDescription>to a lesser 
+      extent</labelingDescription> in <labelingLocation>the central 
+      part of the ZI</labelingLocation> along its entire rostrocaudal 
+      length (Table 1, Figs. 12,13).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s119"><labelingDescription>Cell bodies</labelingDescription> 
+      were labelled in <labelingLocation>the 
+      hypothalamus</labelingLocation> after 17 of the 19 injections 
+      (Table 1).</S>
+    </TTE>
+
+    <BR />
+
+    <S avgH="25" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s120">Injections into the 
+    pontomedullary reticular formation</S>
+    <BR />
+
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s121"><exptLabel>Twenty-eight injections were made into 
+      <injectionLocation>the pontomedullary reticular 
+      formation</injectionLocation></exptLabel>, seven with 
+      <tracerChemical>WGA-HRP</tracerChemical>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s122">Injection sites (e.g., Fig. 2C) ranged from 
+      <injectionLocation>the midline to the lateral 
+      BRF</injectionLocation> and from <injectionLocation>the most 
+      rostral part of the facial nucleus</injectionLocation> to 
+      <injectionLocation>the inferior cerebellar 
+      peduncle</injectionLocation>, and were at a range of heights such 
+      that <injectionLocation>both ventral and dorsal 
+      BRF</injectionLocation> were included in the injections (Table 
+      1).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s123">One injection of 
+      <tracerChemical>WGAHRP</tracerChemical> was centered on 
+      <injectionLocation>the locus coeruleus</injectionLocation> and 
+      the diffusion zone of HRP in DAB-treated sections after two other 
+      injections included <injectionSpread>the locus 
+      coeruleus</injectionSpread> (Fig. 14).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s124">Six midline injections involved <injectionLocation>the 
+      nucleus raphe magnus</injectionLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s125">Seven injection tracks passed through <injectionSpread>
+      the brachium conjuctivum</injectionSpread>, and the larger of 
+      these injections produced a diffusion zone that extended to 
+      <injectionSpread>the spinal tract of the trigeminal 
+      nerve</injectionSpread> in TMBtreated sections.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s126">Six injections were made at the level of 
+      <neuroanatomicalLandmark>the inferior cerebellar 
+      peduncle</neuroanatomicalLandmark>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s127">The findings for this group of injections are 
+      summarized in Table 1 and Figure 16 shows the pattern of 
+      diencephalic labelling for an experiment in which the injection 
+      site (HRP alone) was in <injectionLocation>the 
+      pons</injectionLocation> caudal to the level of 
+      <neuroanatomicalLandmark>the inferior 
+      colliculi.</neuroanatomicalLandmark></S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s128">Labelling in <labelingLocation>
+      TRN</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s129"><labelingDescription>No 
+      labelling</labelingDescription> was seen within <labelingLocation>
+      the TRN</labelingLocation> except for <labelingDescription>very 
+      sparse terminal labelling</labelingDescription> within 
+      <labelingLocation>the most rostral part of TRN</labelingLocation> 
+      after the <tracerChemical>WGA-HRP</tracerChemical> injection 
+      centred on <injectionLocation>the locus 
+      coeruleus</injectionLocation>.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s130">Labelling in other sites.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s131"><labelingDescription>Fibre 
+      labelling</labelingDescription> was seen in <labelingLocation>the 
+      ZI</labelingLocation> in 19 cases and in <labelingLocation>the HI 
+      area of the fields of Forel</labelingLocation> in nine cases 
+      (Table 1, Fig. 16).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s132"><labelingDescription>Labelled 
+      fibres</labelingDescription> in <labelingLocation>the 
+      ZI</labelingLocation> passed medially and dorsally within 
+      <labelingLocation>the field of Forel H1</labelingLocation> toward 
+      <labelingLocation>the medial part of the 
+      thalamus</labelingLocation> (Figs. 15, 16).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s133"><labelingDescription>Sporadic fibre 
+      labelling</labelingDescription> was also seen in <labelingLocation
+      >the lateral geniculate nuclei and 
+      hypothalamus</labelingLocation>, and in the case of three 
+      injections that involved <injectionSpread>the locus 
+      coeruleus</injectionSpread> <labelingDescription>sparse terminal 
+      label</labelingDescription> was seen within <labelingLocation>the 
+      dorsal and ventral lateral geniculate 
+      nuclei</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s134">In 17 cases <labelingDescription>terminal 
+      labelling</labelingDescription> was also seen within 
+      <labelingLocation>the intralaminar nuclei</labelingLocation> 
+      (Fig. 16), in eight cases in <labelingLocation>the 
+      ZI</labelingLocation>, and in six cases in <labelingLocation>the 
+      hypothalamus</labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s135"><labelingDescription>Cell 
+      labelling</labelingDescription> was found in only two sites: 
+      <labelingLocation>the hypothalamus (ten cases) and the 
+      21</labelingLocation> (ten cases).</S>
+    </TTE>
+
+  </Results>
+
+  <Discussion>
+
+    <S avgH="26" class="discussion.heading"
+     format="TimesNewRomanPS-BoldMT" id="s136">DISCUSSION</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s137">question of descending 
+    efferents from TRN</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s138">to the brainstem</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s139">Scheibel and Scheibel ( 66) reported that in their Golgi 
+    material (chiefly rodent brains) 20% of all axons of TRN neurons 
+    could be traced to the mesencephalic tegmentum, where they were 
+    lost among the cells of the MRF.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s140">These findings are difficult to evaluate because Golgi 
+    material is not ideal for tracing axonal projections and because 
+    the Scheibels relied heavily on very young animals in which the 
+    spread of axonal arbors of TRN neurons may have been more extensive 
+    than in adult animals.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s141">Nevertheless, support for such a projection has emerged 
+    from more recent experimental studies.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s142">Thus Grofova et al. ( 78) have reported that labelled 
+    cells are consistently found in the TRN of cats, following 
+    injection of HRP into the deep layers of the superior colliculus, 
+    into the PAG, and into the MRF.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s143">More recently, Parent and Steriade ( 84) have reported 
+    antidromic activation of cells in the TRN of cats following 
+    electrical stimulation of the MRF, and retrograde cell labelling in 
+    the rostra1 pole and lateral part of TRN in cats and squirrel 
+    monkeys, following injection of HRP or fluorescent tracers in the 
+    MRF, and in the posteroventral part of the TRN following injection 
+    into the superior colliculus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s144">These authors also present evidence, based on double 
+    labelling experiments with fluorescent dyes injected into both MRF 
+    and dorsal thalamus, that the axons projecting to the MRF do not 
+    arise, for the most part, from the same neurons that send axons to 
+    the dorsal thalamus.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s145">However, other data in the recent literature raise 
+    doubts about the extent and ubiquity of axonal projections from the 
+    TRN to the MRF.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s146">Thus in an earlier study Steriade et al. ( 82) also made 
+    HRP injections into the MRF of cats but found very few labelled 
+    cells in the TRN: they concluded that the projection described by 
+    Grofova et al. ( 78) must be directed chiefly to the PAG, which had 
+    not been included in their injections.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s147">This conclusion, however, seems not to be entirely in 
+    keeping with the findings of Grofova et al. ( 781, who did indeed 
+    find labelled cells in the TRN after injections into the PAG, but 
+    concluded that the projections to the MRF were stronger.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s148">Furthermore, Mantyh ( 82) found few if any labelled 
+    cells in the TRN of cat, rat, or monkey following small injections 
+    of HRP confined to the PAG.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s149">In other recent HRP studies, no labelled cells were 
+    found in the TRN of rats after injections into a number of MRF 
+    sites (Morrell et al., 81; Shammah-Lagnado et al., 83; Frassoni et 
+    al., 84).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s150">Finally, in other experimental studies, Minderhoud ( 71) 
+    found no retrograde changes in TRN neurons of rat following large 
+    lesions of the midbrain and no terminal degeneration in the latter 
+    after lesions of the TRN, while Jones (&apos;75) found no sign of 
+    terminal label caudal to the thalamus following injections of 
+    labelled amino acids into the TRN in cat and monkey.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s151">Thus a considerable body of previously published work, 
+    and our own findings, are difficult to reconcile with other 
+    evidence favouring the existence of a substantial descending 
+    projection from the TRN to the midbrain (or to more caudal levels 
+    of the brainstem).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s152">Since most of the evidence in favour of the existence of 
+    such projections derives from studies on cats and monkeys (Grofova 
+    et al., &apos;78; Parent and Steriade, &apos;84) whereas many of 
+    the negative findings reported relate to work on rodents 
+    (Minderhoud, &quot;71; Morel1 et al., &apos;81; Shammah-Lagnado et 
+    al., &apos;83; Frassoni et al., &apos;84; present study), it would 
+    seem reasonable to suppose that there may be differences between 
+    species in the organization of efferents from the TRN.</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s153">The question of 
+    afferents to the TRN from the BRF</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s154">The evidence for projections from the BRF to the TRN is 
+    extensive and some of it reasonably strong.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s155">One of the most widely cited studies is that of Edwards 
+    and De Olmos (&apos;76), who reported terminal labelling in the TRN 
+    of the cat after injection of tritiated leucine into the nucleus 
+    cuneiformis, a nucleus of the MRF that has also been identified in 
+    the rat (Valverde, &apos;621, and described as the &quot;deep 
+    mesencephalic nucleus&quot; by others (Veazey and Severin, 
+    &apos;80).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s156">The findings of Edwards and De Olmos (&apos;76) have 
+    been influential because they fit very well with histochemical 
+    evidence for an AChE-rich projection arising from the nucleus 
+    cuneiformis and extending to or through the TRN (Shute and Lewis, 
+    &apos;67; Hoover and Jacobowitz, &apos;79), with 
+    immunohistochemical evidence for cholinergic cell bodies in the 
+    mesencephalic (and pontine) tegmentum (Armstrong et al., &apos;83) 
+    and for projections from such cells to the thalamus (Sofroniew et 
+    al, &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s157">These findings are also consonant with 
+    electrophysiological and pharmacological evidence for the existence 
+    of a cholinergic inhibitory input to the TRN from the midbrain in 
+    the cat (Ben-Ari et al., &apos;76; Dingeldine and Kelly, 
+    &quot;77).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s158">There is also evidence for projections to the TRN from 
+    more caudal levels of the BRF.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s159">Scheibel and Scheibel (&apos;58), in one of the earliest 
+    studies providing anatomical evidencc for such projections, 
+    reported that axons of neurons in thc BRF at the level of the 
+    caudal pons, and in the rostra medulla (magnocellular medullary 
+    area), reached the TRN There is also evidence for a noradrenergic 
+    input to the TRN from the locus coeruleus: Kromer and Moore 
+    (&apos;80) reported that ascending noradrenergic axons from the 
+    locus coeruleus in the rat displayed terminallike varicosities 
+    within the caudal TRN, adjacent to the lateral geniculate nucleus, 
+    and noradrenergic axons within the TRN have also been identified by 
+    Lindvall et al. (&apos;74) and Swanson and Hartman (&apos;75).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s160">We found no terminal labelling in this part of the TRN 
+    and sparse terminal label was identified only in the rostra1 part 
+    of the TRN after an injection of WGA-HRP centred on the locus 
+    coeruleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s161">No terminal or fibre labelling was seen in the TRN after 
+    any of the injections involving raph6 nuclei, although a serotonin 
+    input to the TRN from the raph6 nuclei has also been described 
+    (Chan-Palay, &apos;77; Moore et al., &apos;78; Cropper et al., 
+    &apos;841, which, according to Bobillier et al. (&apos;76), in the 
+    cat arises only in the nucleus raph6 pontis.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s162">More recently Peschanski and Besson (&apos;84) have 
+    demonstrated sparse anterograde labelling in the TRN following 
+    iontophoretic injections of 10% WGA-HRP into the nucleus raph6 
+    medianus of the rat.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s163">However, it is not clear from the data presented whether 
+    the label identified in the TRN was in fibres of passage or in 
+    terminals, and the possibility that the label may have been 
+    transneuronal will be considered below.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s164">Finally, Robertson and Feiner (&apos;82) reported sparse 
+    fibre and terminal labelling in the ventral TRN (extending into the 
+    ZI and fields of Forel) after injections of tritiated leucine into 
+    the pontine BRF in the cat.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s165">All of the above findings have been made with 
+    anterograde labelling methods: there are also some important data 
+    based on retrograde labelling studies, the interpretation of which, 
+    however, is bedevilled by the shape and size of the TRN, which 
+    makes it difficult to be certain that injections centred on the TRN 
+    result in labelling of only axom terminating in this nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s166">Recently, Mackay-Sim et al. (&apos;83) have reported on 
+    the results of making small injections of HRP and WGA-HRP into the 
+    visual portion of the TRN of the rat.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s167">They found sparse cell labelling in the deep, lateral 
+    MRF, in the PAG, and in the dorsal tegmental nucleus, but, 
+    curiously, not in the locus coeruleus (cf.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s168">Kromer and Moore, &apos;80) or raphe (cf.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s169">Cropper et al., &apos;84; Peschanski and Besson, 
+    &apos;84).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s170">It is also relevant to point out that Ahlsen and Lo 
+    (&apos;82) have presented evidence for the existence, in the cat, 
+    of a projection from the MRF and raphe nuclei to the perigeniculate 
+    nucleus (PGN).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s171">The latter nucleus is a thin sheet of cells and neuropil 
+    overlying the lateral geniculate nucleus intercalated between the 
+    latter and the TRN, and regarded by some authors as a specialized 
+    protion of the TRN with specifically visual system associations 
+    (e.g., Szentagothai, &apos;72; Singer, &apos;77).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s172">Small injections of HRP into the PGN produced labelled 
+    cells in the deep MRF at the border between midbrain and pons 
+    (Ahlsen and Lo &apos;82).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s173">Our findings, however, are difficult to reconcile with 
+    these results, and indicate that there are few, if any, major 
+    direct projections from the brainstem reticular core to the TRN in 
+    the albino rat.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s174">In only six out of 60 injections was convincing terminal 
+    label seen in the TRN, and such labelling was sparse.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s175">One of these injections was into locus coeruleus 
+    (WGA-HRP) and produced sparse terminal label in the rostral TRN 
+    (see comments above).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s176">The other five involved injections at the level of the 
+    superior colliculus, with injection tracks traversing the occipital 
+    cortex.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s177">Since other injections at the same or similar 
+    rostrocaudal coordinates did not result in terminal labelling in 
+    the TRN we consider that the five positive cases are better 
+    explained either as the result of spread of HRP to the pretectal 
+    region and nucleus of the optic tract (Weber and Harting, &apos;80; 
+    Holstege and Collewijn, &apos;82), or as the result of leakage of 
+    HRP within the cerebral cortex with subsequent labelling of 
+    collaterals to the TRN of corticofugal axons (cf.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s178">Jones, &apos;75; Ohara and Lieberman, &apos;79, 
+    &apos;81), than as evidence for a projection to the TRN from this 
+    part of the midbrain.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s179">The presence of labelled cell bodies in the dorsal 
+    lateral geniculate nucleus in four of these five cases supports the 
+    latter interpretation.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s180">This general conclusion is consistent with several other 
+    studies, notably those of Veazey and Severin (&apos;801, Sotgiu et 
+    al. (&apos;811, and Frassoni et al. (&apos;84).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s181">Sotgiu et al. (&apos;81) found no cell labelling in any 
+    part of the BRF after injection of HRP into various regions of TRN 
+    in the cat.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s182">Veazey and Severin (&apos;80), working with rats, 
+    injected tritiated leucine into what they refer to as the deep 
+    mesencephalic nucleus, pars lateralis (equivalent to the lateral 
+    MRF in the present study and including the region of the MRF 
+    containing labelled cells in the study of Mackay-Sim et al. 
+    (&apos;83)) and observed no terminal labelling within the TRN: 
+    furthermore, they also refer to a single experiment in which 
+    injection of HRP into the TRN was not followed by cell labelling in 
+    the deep mesencephalic nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s183">Frassoni et al. (&apos;84) found no anterograde 
+    labelling in the rat TRN after injection of HRP into the 
+    brainstem.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s184">There are other degeneration and autoradiographic 
+    studies in the cat and rat that reinforce these negative findings 
+    (e.g., Chi, &apos;70; Bowsher, &apos;75).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s185">The disagreements in the anatomical literature as to 
+    whether the TRN receives an input or inputs from the BRF, and if so 
+    from precisely where, are very considerable.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s186">We believe that it is impossible to explain the 
+    discrepancies in terms of species differences, and difficult to 
+    reconcile them in terms of differences in the sites injected in the 
+    various anterograde and retrograde tracing experiments.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s187">Although there is a natural tendency for positive 
+    findings to weigh more heavily than negative ones, the evidence for 
+    such projections rests most heavily on three studies: the 
+    autoradiographic study of anterogradely labelled terminals after 
+    injections of tritiated leucine in the cat MRF by Edwards and De 
+    Olmos (&apos;76); the anterograde tracing study of Peschanski and 
+    Besson (&apos;84) with WGA-HRP and the retrograde HRP (WGA-HRP) 
+    transport study of Mackay-Sim et al. (&apos;83).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s188">So far as the study of Edwards and De Olmos (&apos;76) 
+    is concerned, (1) Jones (&apos;81) has already drawn attention to 
+    the possibility that spread of injected label to the pretectal 
+    region-which projects to the TRN in the cat (Berman, &apos;77bmight 
+    complicate interpretation of their findings, and (2) the 3H-leucine 
+    injections of Veazey and Severin (&apos;80) and our HRP and WGA-HRP 
+    injections in the rat certainly included the region of the MRF 
+    corresponding to the nucleus cuneiformis.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s189">Peschanski and Besson (&apos;84) used 10% WGA-HRP in 
+    their injections of the raphe nuclei and the animals were allowed 
+    to survive for 48 hours.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s190">The propensity for WGA-HRP to be transneuronally 
+    transported is now well documented, and given the high 
+    concentration of WGA-HRP and the long survival time used by 
+    Peschanski and Beson ( 84) it seems to us possible that at least 
+    some of the diffuse label found throughout much of the thalamus in 
+    their study may have been transneuronal in origin.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s191">None of our four injections into the raphe medianus 
+    resulted in terminal or fibre labelling in TRN.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s192">Why Mackay-Sim et al. ( 83) were able to label cells in 
+    the PAG, MRF, and dorsal tegmental nucleus while Veazey and Severin 
+    ( 80), Sotgiu et al. ( 811, we, and others have failed to find 
+    evidence for such projections is not clear.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s193">Mackay-Sim et al. ( 83) consider but discount the 
+    possibility that the labelling they obtained might be due to spread 
+    of injectate beyond the confines of the visual TRN-for example, to 
+    the dorsal lateral geniculate nucleus-for they found no labelling 
+    in the retina, optic tract, or brachium of the superior colliculus 
+    after such injections.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s194">However, they do not adequately dispose of the question 
+    of possible labelling of damaged axons of passage in a region of 
+    the brain where such possibilities cannot be readily discounted, 
+    and it is relevant to point out that in similarly designed studies 
+    of the brainstem projections to the PGN in the cat, Ahlsen and Lo ( 
+    82) were unable to be certain that the PGN could be injected 
+    without involvement of the superficial part of the subjacent 
+    lateral geniculate nucleus.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s195">The existence of a body of experimental anatomical 
+    evidence for projections from the BRF to the TRN, supported by 
+    physiological evidence for effects on TRN neurons and on 
+    thalamocortical transmission of BRF stimulation (e.g., Singer, 77), 
+    reinforces the general uncertainty associated with negative 
+    findings in a study such as this.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s196">Nevertheless, we believe that our findings merit serious 
+    consideration, not only because of some of the conflicts and 
+    weaknesses in the antecedent literature (reviewed above), but also 
+    in view of the facts that (1) we used sensitive tracing methods 
+    (HRP and WGA-HRP with TMB); (2) the injections were large, some 
+    were placed specifically in the regions thought to give rise to 
+    ascending derents to the TRN, and in total covered a large 
+    proportion of the BRF; and (3) the presence of terminal labelling 
+    in areas of the diencephalon other than the TRN codirmed that 
+    absence of label in the latter was unlikely to be due to general 
+    technical factors.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s197">We are therefore led to conclude that, in the rat, 
+    direct ascending pathways from the BRF to the TRN are absent or at 
+    best extremely sparse.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s198">We suggest that if the physiological effects on cortical 
+    activity of brainstem stimulation are mediated by the TRN rather 
+    than by direct routes to dorsal thalamic nuclei (Introduction) or 
+    to the cortex itself, then such effects must depend primarily upon 
+    indirect, polysynaptic pathways to the TRN.</S>
+  </Discussion>
+
+  <Acknowledgements>
+
+    <S avgH="26" class="acknowledgements.heading"
+     format="TimesNewRomanPS-BoldMT" id="s199">ACKNOWLEDGMENTS</S>
+    <BR />
+
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s200">We thank the Medical Research 
+    Council and Wellcome Trust for financial support, M.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s201">Gilbert and A.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s202">Meier for printing the 
+    photographs, K.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s203">Wiedemann for drawing Figure 
+    1, and s.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s204">Thomsen, s.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s205">Jayasuriya, and s.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s206">Lester for secretarial 
+    help.</S>
+  </Acknowledgements>
+
+  <References>
+
+    <S avgH="26" class="references.heading"
+     format="TimesNewRomanPS-BoldMT" id="s207">LITERATURE CITED</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s208">Ahlsen, G., and F-S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s209">Lo (1982) Projection of brainstem neurons to the 
+    perigeniculate nucleus and the lateral geniculate nucleus in the 
+    cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s210">Brain Res. 238:433-438.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s211">Armstrong, D.M., C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s212">Saper, A.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s213">Levey, B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s214">Wainer, and R.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s215">Terry (1983).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s216">Distribution of cholinergic neurons in rat brain 
+    demonstrated by the immunocytochemical localization of choline 
+    acetyltransferase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s217">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s218">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s219">Neurol. 21653-68.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s220">Ben-Ari, Y., R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s221">Dingledine, I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s222">Kanazawa, and J.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s223">Kelly (1976) Inhibitory effects of acetylcholine on 
+    neurones in the feline nucleus reticularis thalami.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s224">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s225">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s226">(Lond.) 261.647-671.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s227">Berman, N. (1977) Connections of the pretectun 
+    174:227-254.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s228">Berry, D.J., G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s229">Jeffery, A.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s230">Lieberman, and P.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s231">Ohara (1983) Relationships between the thalamic 
+    reticular nucleus and the brainstem reticular formation in the r a 
+    t A retrograde and anterograde tracing study using horseradish 
+    peroxidase (HRP) and wheat germ agglutinin-HRP (WGAHRP). 3.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s232">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s233">(Lond.) 34154P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s234">Bobillier, P., S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s235">Seguin, F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s236">Petitjean, D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s237">Salvert, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s238">Touret, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s239">Jouvet (1976) The raphe nuclei of the cat brainstem: A 
+    topographical atlas of their efferent projections as revealed by 
+    autoradiography.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s240">Brain Res.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s241">113:449-486.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s242">Bowsher, D. (1975) Diencephalic projections from the 
+    formation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s243">Brain Res. 9.5211-220.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s244">Chan-Palay, V. (1977) Indoleamine neurons and their 
+    processes in the normal rat brain and in chronic diet-induced 
+    thiamine deficiency demonstrated by uptake of 3H-serotonin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s245">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s246">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s247">Neurol. 176:467-494.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s248">Chi, C.C. (1970) An experimental silver study of the 
+    ascending projections of the central gray substance and adjacent 
+    tegmentum in the rat with observations in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s249">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s250">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s251">Neurol. 139t259-272.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s252">Christ, J.F. (1969) Derivation and boundaries of the 
+    hypothalamus, with atlas of hypothalamic grisea.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s253">In W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s254">Haymaker, E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s255">Anderson, and W.J.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s256">Nauta (edsf: The Hypothalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s257">Illinois: Charles C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s258">Thomas, pp. 13-60.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s259">Cropper, E.C., J.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s260">Eisenman, and E.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s261">Azmitia (1984) An immunocytochemical study of the 
+    serotonergic innervation of the thalamus of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s262">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s263">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s264">Neurol. 224:38-50.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s265">Dingledine, R., and J.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s266">Kelly (1977) Brain stem stimulation and the 
+    acetylcholine-evoked inhibition of neurons in the feline nucleus 
+    reticularis thalami.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s267">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s268">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s269">(Lond.) 271:135-154.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s270">Edwards, S.B., and J.S. de Olmos (1976) Autoradiographic 
+    studies of the projections of the midbrain reticular formation: 
+    Ascending projections of nucleus cuneiformis.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s271">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s272">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s273">Neurol. 165:417-432.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s274">Frassoni, C., Spreafico, R., and G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s275">Baltaglia (1984) Afferent and efferent connections of 
+    the nucleus reticularis thalami of the rat: An HRP study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s276">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s277">Lett.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s278">[Suppl] 18:S51.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s279">French, C.R., A.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s280">Sefton, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s281">Mackay - Sim (1984) The inhibitory role of the visually 
+    responsive region of the thalamic reticular nucleus in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s282">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s283">Brain Res. 57:471-479.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s284">Frigyesi, T.L., and D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s285">Schwartz (1972) Cortical control of thalamic 
+    sensorimotor relay activities in the cat and squirrel monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s286">In Frigyesi, T.L., E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s287">Rinvik, and M.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s288">Yahr (eds): Corticothalamic Projections and Sensorimotor 
+    Activities.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s289">New York Raven Press, pp. 161-191.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s290">Fukuda, Y., and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s291">Iwama (1971) Reticular inhibition of internuncial in the 
+    rat lateral geniculate body.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s292">Brain Res. 35:107-118.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s293">Godfraind, J-M, and C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s294">Veraart (1978) Possible role of acetylcholine in the 
+    mediation of non-retinal input to the lateral geniculate nucleus 
+    region.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s295">Arch.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s296">Ital.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s297">Biol. 116,262-272, Grofova, I., O.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s298">Ottersen, and E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s299">Rinvik (1978) Mesencephalic and diencephalic afferents 
+    to the superior colliculus and periaqueductal grey substance 
+    demonstrated by retrograde axonal transport of horseradish 
+    peroxidase in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s300">Brain Res. 146:205-220.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s301">Hanker, J.S., L.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s302">Thornburg, P.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s303">Yates, and H.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s304">Moore 111 (1975) The demonstration of cholinesterases by 
+    the formation of osmium blacks at the sites of Hatchett s brown.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s305">Histochemistry 37:223-242.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s306">Holstege, G., and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s307">Collewijn (1982) The efferent connections of the nucleus 
+    of the optic tract and the superior colliculus in the rabbit.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s308">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s309">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s310">Neurol. 209:139-175.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s311">Hoover, D.B., and D.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s312">Jacobowitz (1979) Neurochemical and histological studies 
+    of the effect of a lesion of the nucleus cuneiformis on the 
+    cholinergic innervation of discrete areas of the rat brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s313">Brain Res. 170r113122.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s314">Houser, C.R., J.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s315">Vaughn, R.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s316">Barber, and E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s317">Roberts (1980) GABA neurones are the major cell type of 
+    the nucleus reticularis thalami.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s318">Brain Res. 2OOr341-354.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s319">Hughes, H.C., and W.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s320">Mullikin (1984) Brainstem afferents to the lateral 
+    geniculate nucleus of the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s321">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s322">Brain Res. 54t253-258.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s323">Jasper, H. (1949) Diffuse projection systems: The 
+    integrative action of the thalamic reticular system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s324">Electroencephalogr.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s325">Clin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s326">Neurophysiol. 1:405-420.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s327">Jones, E.G. (1975) Some aspects of the organization of 
+    the thalamic reticular nucleus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s328">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s329">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s330">Neurol. 262t285-308.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s331">Jones, E.G. (1981) Functional subdivision and synaptic 
+    organisation of the mammalian thalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s332">In R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s333">Porter (ed): International Review of Physiology, Volume 
+    25 NeurophysioZogy IV: Baltimore: University Park Press, pp. 
+    173-245.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s334">Kayama, Y., T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s335">Negi, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s336">Sugitani, and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s337">Iwama (1982) Effects of locus coeruleus stimulation on 
+    neuronal activities of dorsal lateral geniculate nucleus and 
+    perigeniculate reticular nucleus of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s338">Neuroscience 7t655-666.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s339">Konig, J.F.R., and R.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s340">Klippel (1963) The Rat Brain: A Stereotaxic Atlas of the 
+    Forebrain and Lower Parts of the Brain Stem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s341">New York: R.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s342">Krieger Publishing Co.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s343">Inc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s344">Kromer, L.F., and R..Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s345">Moore (1980) A study of the organisation of the locus 
+    coeruleus projections to the lateral geniculate nuclei in the 
+    albino rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s346">Neuroscience 5255-271.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s347">LaVail, J.H., and M.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s348">LaVail(1974) The retrograde intraaxonal transport of 
+    horseradish peroxidase in the chick visual system: A light and 
+    electron microscopic study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s349">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s350">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s351">Neurol. 157:303-358.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s352">Lindvall, O., A Bjorklund, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s353">Nobin, and U.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s354">Stenevi (1974) The adrenergic innervation of the rat 
+    thalamus as revealed by the glyoxylic acid fluorescence method.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s355">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s356">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s357">Neurol. 154,317-348.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s358">Mackay-Sim, A., A.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s359">Sefton, and P.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s360">Martin (1983) Subcortical projections to lateral 
+    geniculate and thalamic reticular nucleus in the hooded rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s361">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s362">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s363">Neurol. 21324-35.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s364">Mantyh, P.W. (1982) Forebrain projections to the 
+    periaqueductal grey in the monkey, with observations in the cat and 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s365">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s366">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s367">Neurol. 206:146158.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s368">Mesulam, M-M. (1978) Tetramethyl benzidine for 
+    horseradish peroxidase neurohistochemistry: A non-carcinogenic blue 
+    reaction-product with superior sensitivity for visualizing neural 
+    afferents and efferents.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s369">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s370">Histochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s371">Cytochem. 26:106-117.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s372">Minderhoud, J.M. (1971) An anatomical study of the 
+    efferent connections of the thalamic reticular nucleus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s373">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s374">Brain Res. 12:435-446.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s375">Montero, V.M., and G.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s376">Scott (1981) Synaptic terminals in the dorsal lateral 
+    geniculate nucleus from neurones of the thalamic reticular nucleus: 
+    A light and electron microscope autoradiographic study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s377">Neuroscience 6:2561-2577.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s378">Moore, R.Y., A.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s379">Halaris, and B.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s380">Jones (1978) Serotonin neurones of the midbrain raphe: 
+    Ascending projections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s381">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s382">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s383">Neurol. 180:417-438.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s384">Morrell, J.I., L.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s385">Greenberger, and D.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s386">F&apos;faff (1981) Hypothalamic, other diencephalic, and 
+    telencephalic neurons that project to the dorsal midbrain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s387">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s388">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s389">Neurol. 201:589-620.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s390">Moruzzi, G., and H.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s391">Magoun (1949) Brain stem reticular formation and 
+    activation of the EEG.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s392">Electroencephalogr.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s393">Clin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s394">Neurophysiol. 2:455473.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s395">OConnell, M., P.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s396">Ohara, and A.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s397">Lieberman (1982) Connections of the thalamic reticular 
+    nucleus in the adult rat: A study using horseradish peroxidase 
+    (HRP) techniques.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s398">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s399">Anat. 134.610 (Abstract).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s400">Ohara, P.T., and A.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s401">Lieberman (1979) Experimental identification and 
+    synaptic relationships of terminals of corticofugal afferents to 
+    the visual portion of the thalamic reticular nucleus in the albino 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s402">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s403">Anat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s404">I29:863 (Abstract).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s405">Ohara, P.T., and A.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s406">Lieberman (1981) Thalamic reticular tomical evidence 
+    that cortico-reticular axons establish contact with 
+    reticulo-geniculate projection cells.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s407">Brain 156.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s408">Ohara, P.T., and A.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s409">Lieberman (1985) The thalamic reticular nucleus of the 
+    adult rat: Experimental anatomical studies.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s410">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s411">Neurocytol. 14:365411.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s412">Ohara, P.T., A.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s413">Sefton, and A.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s414">Lieberman (1980) Mode of termination of afferents from 
+    the thalamic reticular nucleus in the dorsal lateral genicdate 
+    nucleus of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s415">Brain Res. 197:503-506.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s416">Ohara, P.T., A.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s417">Lieberman, S.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s418">Hunt, and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s419">-Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s420">Wu (1983) Neural elements containing glutamic acid 
+    decarboxylase (GAD) in the dorsal lateral geniculate nucleus of the 
+    rat; immunohistochemical studies by light and electron 
+    microscopy.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s421">Neuroscience 8:189-211.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s422">Parent, A,, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s423">Steriade (1984) Midbrain tegmental projections of 
+    nucleus reticularis thalami of cat and monkey: A retrograde 
+    transport and antidromic invasion study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s424">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s425">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s426">Neurol. 229:548-558.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s427">Pasquier, D.A., and M.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s428">Villar (1982) Subcortical projections to the lateral 
+    geniculate body in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s429">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s430">Brain Res. 48:409-419.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s431">Paxinos, G., and Watson, C. (1982) The Rat Brain in 
+    Stereotaxic nates.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s432">Sydney: Academic Press.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s433">Pellegrino, L.J., A.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s434">Pellegrino, and A.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s435">Cushman Atlas of the Rat Brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s436">New York Plenum Press.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s437">Peschanski, M., and J-M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s438">Besson (1984) Diencephalic connections of the raphe 
+    nuclei of the rat brainstem: An anatomical study with reference to 
+    the somatosensory system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s439">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s440">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s441">Neurol. 224:509-534.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s442">Peschanski, M., H.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s443">Ralston, and F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s444">Roudier (1983) Reticularis thalami afferents to the 
+    ventrobasal complex of the rat thalamus: An electron microscope 
+    study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s445">Brain Res. 270:325-329.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s446">Robertson, R.T., and A.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s447">Feiner (1982) Diencephalic projections from the pontine 
+    reticular formation: autoradiographic studies in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s448">Brain Res. 239:3-16.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s449">Rossi, G.F., and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s450">Zanchetti (1957) The brain Arch.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s451">Ital.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s452">Biol. 95199-435.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s453">Scheibel, M.E., and A.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s454">Scheibel(1958) Structural substrates for integrating 
+    patterns in the brain stem reticular core.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s455">In H.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s456">Jasper, L.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s457">Proctor, R.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s458">Knighton, W.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s459">Noshay, and R.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s460">Costello (eds): Reticular Formation of the Brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s461">London: Churchill, pp. 31-68.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s462">Scheibel, M.E., and A.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s463">Scheibel (1966) The organization reticularis thalami: A 
+    Golgi study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s464">Brain Res. 2:43-62.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s465">Schlag, J., and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s466">Waszak (1971) Electrophysiological properties of units 
+    of the thalamic reticular complex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s467">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s468">Neurol. 32:79-97.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s469">Shammah-Lagnado, S.J., J.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s470">Ricardo, N.T.M.N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s471">Sakamoto, and N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s472">Negrao (1983) Afferent connections of the mesencephalic 
+    reticular formation: A horseradish peroxidase study in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s473">Neuroscience 9:391-409.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s474">Shute, C.C.D., and P.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s475">Lewis (1967) The ascending cholinergic reticular system: 
+    Neocortical, olfactory and subcortical projections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s476">Brain 90:497520.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s477">Singer, W. (1977) Control of thalamic transmission by 
+    corticofugal and ascending reticular pathways in the visual 
+    system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s478">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s479">Rev. 57:386420.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s480">Sofroniew, M.V., J.V.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s481">Priestley, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s482">Consolazione, F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s483">Eckenstein, and A.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s484">Cuello (1985) Cholinergic projections from the midbrain 
+    and pons to the thalamus in the rat, identified by combined 
+    retrograde tracing and choline acetyltransferase 
+    immunohistochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s485">Brain Res. 329213223.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s486">Sotgiu, M.L., G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s487">Marini, D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s488">Eposti, and E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s489">Fava (1981) A horseradish idase study of afferent 
+    projections to nucleus reticularis thalami cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s490">Arch.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s491">Ital.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s492">Biol. 119:151-159.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s493">Steriade, M. (1970) Ascending control of thalamic 
+    ness.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s494">Int.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s495">Rev.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s496">Neurobiol. 1237-144.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s497">Steriade, M., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s498">Parent, N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s499">Ropert, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s500">Kitsikis (1982) Zona incerta and lateral hypothalamic 
+    afferents to the midbrain reticular core of cat-an HRP and 
+    electrophysiological study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s501">Brain Res. 238:13-28.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s502">Steriade, M., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s503">Parent, and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s504">Hada (1984) Thalamic projections of nucleus reticularis 
+    thalami of cat: A study using retrograde transport of horseradish 
+    peroxidase and fluorescent tracers.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s505">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s506">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s507">Neurol. 229:531547.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s508">Swanson, L.J., and B.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s509">Hartman (1975) The central adrenergic system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s510">An immunofluorescence study of the location of cell 
+    bodies and their efferent connections in the rat utilizing 
+    dopamine-hydroxylase as a marker.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s511">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s512">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s513">Neurol. 163:467-506.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s514">Szentagothai, J. (1972) Lateral geniculate ment.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s515">Bibl.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s516">Ophthalmol. 82t178-188.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s517">Valverde, F. (1962) Reticular formation of the albino 
+    rat&apos;s brain stem: Cytoarchitecture and corticofugal 
+    connections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s518">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s519">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s520">Neurol. 219:2553.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s521">Veazey, R.B., and C.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s522">Severin (1980) Efferent projections of the mesencephalic 
+    nucleus (pars lateralis) in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s523">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s524">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s525">rol. 190231-244, Waszak, M. (1974) Firing patterns of 
+    neurons in the rostra1 and ventral part of nucleus reticularis 
+    thalami during EEG spindles.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s526">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s527">Neurol. 43:3859.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s528">Weber, J.T., and J.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s529">Harting (1980) The efferent projections of the pretectal 
+    complex: An autoradiographic and horseradish peroxidase 
+    analysis.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s530">Brain Res. 194:l-28.</S>
+  </References>
+
+</File>
+

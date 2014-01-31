@@ -1,0 +1,18 @@
+T18	Gene_expression 387 397	expression
+T19	Negative_regulation 890 899	reduction
+T20	Positive_regulation 971 980	induction
+T21	Localization 1224 1232	secreted
+T22	Positive_regulation 1293 1305	upregulation
+T23	Positive_regulation 1306 1313	induced
+T24	Gene_expression 1314 1324	expression
+E1	Gene_expression:T18 Theme:T2
+E2	Negative_regulation:T19 Theme:T9
+E3	Positive_regulation:T20 Theme:T10
+E4	Localization:T21 Theme:T12
+E5	Positive_regulation:T22 Theme:T13
+E6	Positive_regulation:T23 Theme:E9 Cause:E5
+E7	Positive_regulation:T23 Theme:E8 Cause:E5
+E8	Gene_expression:T24 Theme:T15
+E9	Gene_expression:T24 Theme:T14
+M1	Speculation E1
+M2	Negation E7

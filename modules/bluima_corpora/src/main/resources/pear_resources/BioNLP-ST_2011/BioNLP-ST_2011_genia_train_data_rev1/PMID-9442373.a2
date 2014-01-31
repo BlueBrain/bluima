@@ -1,0 +1,38 @@
+T17	Protein_catabolism 72 81	stability
+T18	Positive_regulation 810 819	increased
+T19	Positive_regulation 1259 1264	leads
+T20	Negative_regulation 1276 1285	depletion
+T21	Gene_expression 1351 1364	resynthesized
+T22	Gene_expression 1388 1403	levels stay low
+T23	Negative_regulation 1521 1528	removal
+T24	Phosphorylation 1613 1624	phosphoform
+T25	Gene_expression 1634 1645	synthesized
+T26	Positive_regulation 1673 1677	when
+T27	Protein_catabolism 1678 1689	degradation
+T28	Positive_regulation 1690 1692	by
+T29	Negative_regulation 1711 1720	inhibited
+T30	Phosphorylation 1784 1799	phosphorylation
+T31	Protein_catabolism 1804 1815	degradation
+T32	Positive_regulation 1816 1830	in response to
+T33	Gene_expression 1976 1987	resynthesis
+E1	Protein_catabolism:T17 Theme:T2
+E2	Protein_catabolism:T17 Theme:T1
+E3	Positive_regulation:T18 Theme:T5
+E4	Positive_regulation:T18 Theme:T6
+E5	Positive_regulation:T19 Theme:E6
+E6	Negative_regulation:T20 Theme:T9
+E7	Gene_expression:T21 Theme:T10
+E8	Gene_expression:T22 Theme:T11
+E9	Negative_regulation:T23 Theme:T12
+E10	Phosphorylation:T24 Theme:T13
+E11	Gene_expression:T25 Theme:T13
+E12	Positive_regulation:T26 Theme:E10 Cause:E15
+E13	Protein_catabolism:T27 Theme:T13
+E14	Positive_regulation:T28 Theme:E13
+E15	Negative_regulation:T29 Theme:E13
+E16	Phosphorylation:T30 Theme:T14
+E17	Protein_catabolism:T31 Theme:T14
+E18	Positive_regulation:T32 Theme:E17
+E19	Positive_regulation:T32 Theme:E16
+E20	Gene_expression:T33 Theme:T16
+M1	Negation E8

@@ -1,0 +1,27 @@
+T9	Gene_expression 0 19	Paternal expression
+T10	Gene_expression 167 186	maternal expression
+T11	Gene_expression 240 266	allele-specific expression
+T12	Gene_expression 405 415	expression
+T13	Gene_expression 549 568	paternal expression
+T14	Gene_expression 667 693	allele-specific expression
+T15	Gene_expression 867 887	biallelic expression
+T16	Gene_expression 877 887	expression
+T17	Gene_expression 978 998	biallelic expression
+T18	Gene_expression 988 998	expression
+T19	Regulation 1041 1067	allele-specific regulatory
+T20	Regulation 1103 1113	controlled
+E1	Gene_expression:T9 Theme:T1
+E2	Gene_expression:T10 Theme:T2
+E3	Gene_expression:T11 Theme:T3
+E4	Gene_expression:T12 Theme:T3
+E5	Gene_expression:T13 Theme:T4
+E6	Gene_expression:T14 Theme:T6
+E7	Gene_expression:T14 Theme:T5
+E8	Gene_expression:T15 Theme:T7
+E9	Gene_expression:T16 Theme:T7
+E10	Gene_expression:T17 Theme:T7
+E11	Gene_expression:T18 Theme:T7
+E12	Regulation:T19 Theme:T8
+E13	Regulation:T20 Theme:E12
+M1	Speculation E3
+M2	Speculation E13

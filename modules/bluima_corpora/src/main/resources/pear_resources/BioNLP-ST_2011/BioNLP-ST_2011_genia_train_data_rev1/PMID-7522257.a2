@@ -1,0 +1,47 @@
+T18	Regulation 0 10	Regulation
+T19	Gene_expression 19 29	expression
+T20	Regulation 280 290	regulation
+T21	Gene_expression 299 309	expression
+T22	Positive_regulation 475 488	up-regulation
+T23	Gene_expression 497 507	expression
+T24	Regulation 544 553	regulated
+T25	Positive_regulation 568 573	level
+T26	Transcription 582 595	transcription
+T27	Positive_regulation 631 639	required
+T28	Positive_regulation 649 658	induction
+T29	Positive_regulation 993 1002	induction
+T30	Gene_expression 1011 1021	expression
+T31	Binding 1048 1055	binding
+T32	Negative_regulation 1152 1162	eliminates
+T33	Binding 1167 1178	interaction
+T34	Negative_regulation 1189 1198	abolishes
+T35	Positive_regulation 1217 1226	induction
+T36	Gene_expression 1235 1245	expression
+T37	Binding 1312 1323	interaction
+T38	Positive_regulation 1489 1496	through
+T39	Positive_regulation 1537 1550	critical role
+E1	Regulation:T18 Theme:E2
+E2	Gene_expression:T19 Theme:T1
+E3	Regulation:T20 Theme:E4
+E4	Gene_expression:T21 Theme:T3
+E5	Positive_regulation:T22 Theme:E6
+E6	Gene_expression:T23 Theme:T4
+E7	Regulation:T24 Theme:E5 Cause:E8
+E8	Positive_regulation:T25 Theme:E9
+E9	Transcription:T26 Theme:T4
+E10	Positive_regulation:T27 Theme:E11
+E11	Positive_regulation:T28 Theme:T5
+E12	Positive_regulation:T29 Theme:E13
+E13	Gene_expression:T30 Theme:T8
+E14	Binding:T31 Theme:T9
+E15	Negative_regulation:T32 Theme:E16
+E16	Binding:T33 Theme:T11
+E17	Negative_regulation:T34 Theme:E18
+E18	Positive_regulation:T35 Theme:E19
+E19	Gene_expression:T36 Theme:T12
+E20	Binding:T37 Theme:T15
+E21	Positive_regulation:T38 Theme:T16
+E22	Positive_regulation:T39 Theme:T17
+M1	Speculation E3
+M2	Speculation E4
+M3	Negation E20

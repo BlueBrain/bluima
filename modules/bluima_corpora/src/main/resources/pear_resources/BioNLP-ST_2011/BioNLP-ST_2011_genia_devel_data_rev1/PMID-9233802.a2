@@ -1,0 +1,8 @@
+T12	Binding 302 307	binds
+T13	Negative_regulation 775 781	blocks
+T14	Negative_regulation 851 870	synergize to resist
+T15	Regulation 1275 1303	positive/negative regulation
+E1	Binding:T12 Theme:T3
+E2	Negative_regulation:T13 Theme:T7 Cause:T6
+E3	Negative_regulation:T14 Theme:E2 Cause:T7
+E4	Regulation:T15 Theme:T11

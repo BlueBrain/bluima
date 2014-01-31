@@ -1,0 +1,32 @@
+
+cr: TextArrayReader
+ input__java: new String[]{"Biochemical evidence for 7- aminobutyrate containing fibers from the nucleus accumbens to the substantia nigra and ventral tegmental area in the rat.", " Afferent fibres project from the nucleus accumbens and ventral pallidum to the ventral tegmental area."}
+
+
+#PREPROC
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
+#ae: BlueBioLemmatizer
+
+#ABA
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/aba")
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+
+#COOCS
+ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
+ annot1: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ annot2: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ annot1IdField: entityId
+ annot2IdField: entityId
+ cooccurrenceType: br-aba-syn
+ keepOnlyNearestNeighbors__java: true
+
+
+# ES
+ae: ch.epfl.bbp.uima.elasticsearch.ElasticIndexer
+ indexName: test
+ #host: 128.178.187.248
+
+ 

@@ -1,0 +1,7 @@
+*	Equiv T8 T9
+*	Equiv T3 T4
+T24	Gene_expression 465 476	coexpressed
+E1	Gene_expression:T24 Theme:T5
+E2	Gene_expression:T24 Theme:T7
+M1	Negation E1
+M2	Negation E2

@@ -1,0 +1,76 @@
+T27	Regulation 0 10	Regulation
+T28	Gene_expression 27 37	expression
+T29	Positive_regulation 58 67	Induction
+T30	Positive_regulation 91 102	enhancement
+T31	Gene_expression 289 298	expressed
+T32	Regulation 437 447	regulation
+T33	Gene_expression 464 474	expression
+T34	Positive_regulation 519 525	induce
+T35	Gene_expression 539 549	expression
+T36	Positive_regulation 692 698	induce
+T37	Gene_expression 712 722	expression
+T38	Positive_regulation 751 758	enhance
+T39	Positive_regulation 771 780	induction
+T40	Gene_expression 811 821	expression
+T41	Positive_regulation 826 836	functional
+T42	Positive_regulation 932 942	regulation
+T43	Transcription 973 983	mRNA level
+T44	Positive_regulation 1078 1083	level
+T45	Positive_regulation 1100 1111	enhancement
+T46	Gene_expression 1128 1138	expression
+T47	Binding 1174 1180	potent
+T48	Regulation 1348 1358	regulation
+T49	Gene_expression 1375 1385	expression
+T50	Positive_regulation 1390 1398	mediated
+T51	Gene_expression 1631 1638	express
+T52	Positive_regulation 1702 1709	inducer
+T53	Gene_expression 1726 1736	expression
+T54	Positive_regulation 1786 1794	enhanced
+E1	Regulation:T27 Theme:E2
+E2	Gene_expression:T28 Theme:T1
+E3	Positive_regulation:T29 Theme:E1
+E4	Positive_regulation:T30 Theme:E1
+E5	Positive_regulation:T30 Theme:E1 Cause:T4
+E6	Positive_regulation:T30 Theme:E1 Cause:T2
+E7	Positive_regulation:T30 Theme:E1 Cause:T3
+E8	Gene_expression:T31 Theme:T5
+E9	Regulation:T32 Theme:E10
+E10	Gene_expression:T33 Theme:T6
+E11	Positive_regulation:T34 Theme:E12
+E12	Gene_expression:T35 Theme:T7
+E13	Positive_regulation:T36 Theme:E17 Cause:T9
+E14	Positive_regulation:T36 Theme:E17 Cause:T10
+E15	Positive_regulation:T36 Theme:E17 Cause:T8
+E16	Positive_regulation:T36 Theme:E17
+E17	Gene_expression:T37 Theme:T11
+E18	Positive_regulation:T38 Theme:E22 Cause:T9
+E19	Positive_regulation:T38 Theme:E22 Cause:T8
+E20	Positive_regulation:T38 Theme:E22 Cause:T10
+E21	Positive_regulation:T38 Theme:E22
+E22	Positive_regulation:T39 Theme:T12
+E23	Gene_expression:T40 Theme:T13
+E24	Positive_regulation:T41 Theme:E23
+E25	Positive_regulation:T42 Theme:E26
+E26	Transcription:T43 Theme:T13
+E27	Positive_regulation:T44 Theme:E28
+E28	Positive_regulation:T45 Theme:E29
+E29	Gene_expression:T46 Theme:T14
+E30	Binding:T47 Theme:T16
+E31	Binding:T47 Theme:T15
+E32	Binding:T47 Theme:T17
+E33	Regulation:T48 Theme:E34
+E34	Gene_expression:T49 Theme:T21
+E35	Positive_regulation:T50 Theme:E33 Cause:T22
+E36	Positive_regulation:T50 Theme:E33 Cause:T23
+E37	Gene_expression:T51 Theme:T24
+E38	Positive_regulation:T52 Theme:E39
+E39	Gene_expression:T53 Theme:T25
+E40	Positive_regulation:T54 Theme:E38
+E41	Positive_regulation:T54 Theme:E38 Cause:T26
+M1	Speculation E9
+M2	Speculation E10
+M3	Negation E13
+M4	Negation E14
+M5	Negation E15
+M6	Negation E16
+M7	Negation E36

@@ -1,0 +1,56 @@
+T32	Positive_regulation 1347 1356	increased
+T33	Binding 1549 1557	ligation
+T34	Binding 1562 1579	heterodimerzation
+T35	Binding 1784 1792	ligation
+T36	Positive_regulation 1911 1915	lead
+T37	Phosphorylation 1923 1938	phosphorylation
+T38	Binding 2009 2023	form complexes
+T39	Localization 2057 2069	translocated
+T40	Entity 2079 2086	nucleus
+T41	Gene_expression 2402 2412	expression
+T42	Positive_regulation 2440 2447	induced
+T43	Regulation 2506 2516	regulation
+T44	Gene_expression 2623 2632	producing
+E1	Positive_regulation:T32 Theme:T13
+E2	Binding:T33 Theme:T14
+E3	Binding:T34 Theme:T14
+E4	Binding:T35 Theme:T15 Theme2:T16
+E5	Binding:T35 Theme:T15 Theme2:T17
+E6	Binding:T35 Theme:T15 Theme2:T18
+E7	Binding:T35 Theme:T15 Theme2:T19
+E8	Binding:T35 Theme:T15 Theme2:T20
+E9	Binding:T35 Theme:T15 Theme2:T21
+E10	Positive_regulation:T36 Theme:E11 Cause:E4
+E12	Positive_regulation:T36 Theme:E11 Cause:E5
+E13	Positive_regulation:T36 Theme:E11 Cause:E6
+E14	Positive_regulation:T36 Theme:E11 Cause:E7
+E15	Positive_regulation:T36 Theme:E11 Cause:E8
+E16	Positive_regulation:T36 Theme:E11 Cause:E9
+E17	Positive_regulation:T36 Theme:E18 Cause:E4
+E19	Positive_regulation:T36 Theme:E18 Cause:E5
+E20	Positive_regulation:T36 Theme:E18 Cause:E6
+E21	Positive_regulation:T36 Theme:E18 Cause:E7
+E22	Positive_regulation:T36 Theme:E18 Cause:E8
+E23	Positive_regulation:T36 Theme:E18 Cause:E9
+E24	Positive_regulation:T36 Theme:E25 Cause:E4
+E26	Positive_regulation:T36 Theme:E25 Cause:E5
+E27	Positive_regulation:T36 Theme:E25 Cause:E6
+E28	Positive_regulation:T36 Theme:E25 Cause:E7
+E29	Positive_regulation:T36 Theme:E25 Cause:E8
+E30	Positive_regulation:T36 Theme:E25 Cause:E9
+E11	Phosphorylation:T37 Theme:T22
+E18	Phosphorylation:T37 Theme:T23
+E25	Phosphorylation:T37 Theme:T24
+E31	Binding:T38 Theme:T22 Theme2:T25
+E32	Binding:T38 Theme:T23 Theme2:T25
+E33	Binding:T38 Theme:T24 Theme2:T25
+E34	Localization:T39 Theme:T22 ToLoc:T40
+E35	Localization:T39 Theme:T23 ToLoc:T40
+E36	Localization:T39 Theme:T24 ToLoc:T40
+E37	Gene_expression:T41 Theme:T28
+E38	Positive_regulation:T42 Theme:E39 Cause:E37
+E40	Positive_regulation:T42 Theme:E41 Cause:E37
+E39	Regulation:T43 Theme:T29
+E41	Regulation:T43 Theme:T30
+E42	Gene_expression:T44 Theme:T31
+M1	Speculation E42

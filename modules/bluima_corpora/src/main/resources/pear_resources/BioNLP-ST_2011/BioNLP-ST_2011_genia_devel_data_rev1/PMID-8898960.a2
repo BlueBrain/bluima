@@ -1,0 +1,45 @@
+*	Equiv T3 T2
+T12	Positive_regulation 0 6	Active
+T13	Negative_regulation 7 18	suppression
+T14	Negative_regulation 664 667	act
+T15	Transcription 736 749	transcription
+T16	Positive_regulation 1073 1080	express
+T17	Transcription 1096 1107	transcripts
+T18	Gene_expression 1109 1121	Transfection
+T19	Positive_regulation 1109 1121	Transfection
+T20	Regulation 1175 1192	under the control
+T21	Positive_regulation 1562 1573	transfected
+T22	Gene_expression 1562 1573	transfected
+T23	Regulation 1682 1694	attributable
+T24	Negative_regulation 1698 1702	lack
+T25	Transcription 1731 1744	transcription
+T26	Gene_expression 1776 1783	present
+T27	Positive_regulation 1797 1808	transfected
+T28	Gene_expression 1797 1808	transfected
+T29	Negative_regulation 1830 1844	reduced levels
+E1	Positive_regulation:T12 Theme:E2
+E2	Negative_regulation:T13 Theme:T1
+E3	Negative_regulation:T14 Theme:E4
+E4	Transcription:T15 Theme:T3
+E5	Positive_regulation:T16 Theme:E6
+E6	Transcription:T17 Theme:T5
+E7	Gene_expression:T18 Theme:T6
+E8	Positive_regulation:T19 Theme:E9
+E9	Regulation:T20 Theme:E7
+E10	Positive_regulation:T21 Theme:E11
+E11	Gene_expression:T22 Theme:T7
+E12	Regulation:T23 Theme:E14
+E13	Regulation:T23 Theme:E15
+E14	Negative_regulation:T24 Theme:E17
+E15	Negative_regulation:T24 Theme:E16
+E16	Transcription:T25 Theme:T8
+E17	Transcription:T25 Theme:T9
+E18	Gene_expression:T26 Theme:T8
+E19	Gene_expression:T26 Theme:T9
+E20	Positive_regulation:T27 Theme:E21
+E21	Gene_expression:T28 Theme:T10
+E22	Negative_regulation:T29 Theme:E17 Cause:E20
+E23	Negative_regulation:T29 Theme:E16 Cause:E20
+M1	Negation E5
+M2	Negation E12
+M3	Negation E13

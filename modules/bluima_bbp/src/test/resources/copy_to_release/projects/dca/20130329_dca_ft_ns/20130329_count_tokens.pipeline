@@ -1,0 +1,11 @@
+# preprocessed from ft ns with everything lex ners up to viterbi 
+cr: ch.epfl.bbp.uima.mongo.MongoCollectionReader
+ db_connection__java: new String[]{  "128.178.187.248", "preprocessed_2", "20130327_preprocess_ft", "", ""} 
+
+ae: ViterbiFilterAnnotator
+
+ae: TokenFrequencyCounterWriter2
+ filepath: 20130329_token_frequency
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

@@ -1,0 +1,44 @@
+T11	Negative_regulation 18 25	inhibit
+T12	Gene_expression 57 67	production
+T13	Negative_regulation 342 352	inhibitors
+T14	Gene_expression 360 370	production
+T15	Regulation 964 970	affect
+T16	Gene_expression 975 985	production
+T17	Negative_regulation 1035 1042	inhibit
+T18	Positive_regulation 1048 1055	induced
+T19	Gene_expression 1056 1066	production
+T20	Negative_regulation 1301 1310	inhibited
+T21	Transcription 1311 1324	transcription
+T22	Negative_regulation 1531 1540	decreased
+T23	Gene_expression 1545 1551	levels
+E1	Negative_regulation:T11 Theme:E5
+E2	Negative_regulation:T11 Theme:E6
+E3	Negative_regulation:T11 Theme:E4
+E4	Gene_expression:T12 Theme:T2
+E5	Gene_expression:T12 Theme:T3
+E6	Gene_expression:T12 Theme:T1
+E7	Negative_regulation:T13 Theme:E10
+E8	Negative_regulation:T13 Theme:E11
+E9	Negative_regulation:T13 Theme:E12
+E10	Gene_expression:T14 Theme:T5
+E11	Gene_expression:T14 Theme:T6
+E12	Gene_expression:T14 Theme:T4
+E13	Regulation:T15 Theme:E18
+E14	Regulation:T15 Theme:E16
+E15	Regulation:T15 Theme:E17
+E16	Gene_expression:T16 Theme:T4
+E17	Gene_expression:T16 Theme:T6
+E18	Gene_expression:T16 Theme:T5
+E19	Negative_regulation:T17 Theme:E20
+E20	Positive_regulation:T18 Theme:E21
+E21	Gene_expression:T19 Theme:T7
+E22	Negative_regulation:T20 Theme:E23
+E23	Transcription:T21 Theme:T8
+E24	Negative_regulation:T22 Theme:E27
+E25	Negative_regulation:T22 Theme:E26
+E26	Gene_expression:T23 Theme:T10
+E27	Gene_expression:T23 Theme:T9
+M1	Negation E13
+M2	Negation E14
+M3	Negation E15
+M4	Negation E19

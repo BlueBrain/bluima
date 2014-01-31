@@ -1,0 +1,32 @@
+T9	Regulation 0 7	Control
+T10	Entity 18 25	nuclear
+T11	Localization 26 39	translocation
+T12	Gene_expression 292 301	expressed
+T13	Binding 534 541	binding
+T14	Positive_regulation 595 604	dependent
+T15	Positive_regulation 651 677	transcriptional activation
+T16	Negative_regulation 682 689	reduced
+T17	Binding 1095 1105	associated
+T18	Positive_regulation 1443 1448	leads
+T19	Entity 1456 1463	nuclear
+T20	Localization 1464 1477	translocation
+T21	Positive_regulation 1478 1489	independent
+T22	Regulation 1654 1664	regulating
+T23	Entity 1669 1682	intracellular
+T24	Localization 1683 1695	localization
+T25	Regulation 1696 1703	through
+E1	Regulation:T9 Theme:E2
+E2	Localization:T11 Theme:T1 ToLoc:T10
+E3	Gene_expression:T12 Theme:T2
+E4	Binding:T13 Theme:T4
+E5	Positive_regulation:T14 Theme:E4
+E6	Positive_regulation:T15 Theme:T4
+E7	Negative_regulation:T16 Theme:E6
+E8	Binding:T17 Theme:T5
+E9	Positive_regulation:T18 Theme:E10
+E10	Localization:T20 Theme:T7 ToLoc:T19
+E11	Positive_regulation:T21 Theme:E10
+E12	Regulation:T22 Theme:E13
+E13	Localization:T24 Theme:T8 AtLoc:T23
+E14	Regulation:T25 Theme:E12
+M1	Negation E11

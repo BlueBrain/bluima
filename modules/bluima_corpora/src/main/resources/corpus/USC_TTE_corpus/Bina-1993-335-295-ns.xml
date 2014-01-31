@@ -1,0 +1,1877 @@
+<?xml version='1.0'?>
+<!DOCTYPE File PUBLIC "NeuroScholar.DTD" "NeuroScholar.DTD">
+<File>
+
+  <Title>Localization of Cholinergic Neurons in the Forebrain and 
+  Brainstem That Project to the Suprachiasmatic Nucleus of the 
+  Hypothalamus in Rat</Title>
+
+  <Authors>KESHAVAN G. BINA, BENJAMIN RUSAK, AND KAZUE SEMBA</Authors>
+
+  <Abstract>
+
+    <S avgH="21" class="abstract.heading" format="TimesNewRomanPSMT"
+     id="s0">ABSTRACT</S>
+    <BR />
+
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s1">In mammals, the suprachiasmatic nucleus is responsible for 
+    the generation of most circadian rhythms and their entrainment to 
+    environmental cues.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s2">Cholinergic agents can alter circadian rhythm phase, and 
+    fibres immunoreactive for choline acetyltransferase, the 
+    biosynthetic enzyme for acetylcholine, are present in the 
+    suprachiasmatic nucleus.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s3">Since there are no cholinergic somata in the 
+    suprachiasmatic nucleus, these fibres must represent the terminals 
+    of cholinergic neurons whose cell bodies are located elsewhere in 
+    the brain.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s4">This study was aimed at locating the cholinergic neurons 
+    that project to the suprachiasmatic nucleus by retrograde and 
+    anterograde tract-tracing and immunohistochemistry for choline 
+    acetyltransferase in the rat.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s5">After injection of fluorogold, a retrograde tracer, into 
+    the suprachiasmatic nucleus, retrogradely labelled neurons that 
+    were immunopositive for choline acetyltransferase were located 
+    throughout the rostrocaudal extent of the cholinergic basal nuclear 
+    complex, with highest densities in the substantia innominata and 
+    the nucleus basalis magnocellularis.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s6">A few cells were also located in the medial septum and in 
+    the vertical and horizontal limbs of the diagonal band of Broca.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s7">In the brainstem, double-labelled neurons were located in 
+    the laterodorsal tegmental nucleus, pedunculopontine tegmental 
+    nucleus and the parabigeminal nucleus.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s8">Injections of the anterograde tracer biocytin in these 
+    three brainstem nuclei resulted in fibre labelling in the 
+    suprachiasmatic nucleus, consistent with the retrograde 
+    findings.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s9">No clearly double-labelled cells were located in the 
+    retina.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s10">These results suggest that the suprachiasmatic nucleus 
+    receives cholinergic afferents from both the basal forebrain and 
+    mesopontine tegmentum which may mediate cholinergic effects on 
+    circadian rhythms. c 1993 Wiley-Liss, Inc.</S>
+  </Abstract>
+
+  <Introduction>
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s11">Circadian rhythms are endogenously generated rhythms with 
+    a period of about 24 hours.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s12">Under natural conditions these circadian rhythms are 
+    synchronized to environmental cues such as illumination and 
+    temperature cycles.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s13">In mammals, the generation of circadian rhythms in 
+    behaviour and physiology and their synchronization to environmental 
+    cues are regulated by neural mechanisms centered in the 
+    suprachiasmatic nucleus (SCN) of the hypothalamus.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s14">Evidence supporting this role for the SCN comes from a 
+    variety of approaches (for reviews see Meijer and Rietveld, 
+    &apos;89; Rusak, &apos;89; Hastings et al., &apos;91).</S>
+    <BR />
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s15">Brief light pulses administered to animals maintained in 
+    continuous darkness are capable of shifting the phase of their 
+    behavioural and physiological rhythms in a direction which depends 
+    on the time of administration of the pulse.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s16">Light exposure in the early subjective night delays, and 
+    in the late subjective night advances, the onset of activity 
+    rhythms (DeCoursey, &apos;64; Daan and Pittendrigh, &apos;76; 
+    Pittendrigh and Daan, &apos;76).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s17">Such phase-dependent responses can be summarized as a 
+    phase response curve, plotting the type of phase shift produced 
+    against the circadian phase of application.</S>
+    <BR />
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s18">The phase response curve for intraventricularly 
+    administered carbachol, a nonspecific cholinergic agonist, has been 
+    shown to mimic partially the pattern of sensitivity to the phase 
+    shifting effects of light in rats, mice and hamsters (Zatz and 
+    Brownstein, &apos;79; Zatz and Herkenham, &apos;81; Earnest and 
+    Turek, &apos;83,&apos;85; Meijer et al., &apos;88; Bina and Rusak, 
+    &apos;91), suggesting that acetylcholine (ACh) may play a role in 
+    the photic entrainment pathway.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s19">Additional evidence for a cholinergic role comes from 
+    evidence that nicotinic receptor antagonists block the phase 
+    shifting effects of light on pineal serotonin N-acetyltransferase 
+    (Zatz and Brownstein, &apos;81) and locomotor activity (Keefe et 
+    al., &apos;87).</S>
+    <BR />
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s20">Electrophysiological studies have shown that cells in the 
+    SCN are responsive to iontophoretically applied ACh, both in vivo 
+    and in vitro (Nishino and Koizumi, &apos;77; Kow and Pfaff, 
+    &apos;84; Miller et al., &apos;871, implicating the existence of 
+    cholinergic receptors within the SCN.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s21">However, evidence against the presence of such receptors 
+    exists (for review, see Rusak and Bina, &apos;90).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s22">In brief, the rat SCN itself is not labelled with either 
+    3H-acetylcholine or 3H-nicotine (Segal et al., &apos;78; Clarke et 
+    al., &apos;85; van der Zee et al., &apos;911, but a-bungarotoxin 
+    binds to sites in a region dorsal and lateral to the SCN (Segal et 
+    al., &apos;78; Block and Billiar, &apos;81; Miller et al., 
+    &apos;82; Fuchs and Hoppens, &apos;87).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s23">It is known, however, that a-bungarotoxin binds strongly 
+    to nicotinic receptors in the peripheral nervous system (Martin et 
+    al., &apos;89) but not to those in the central nervous system 
+    (Clarke et al., &apos;85).</S>
+    <BR />
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s24">Fibres containing choline acetyltransferase (CUT), the 
+    biosynthetic enzyme for ACh, have been localized in the rat SCN 
+    (van den Pol and Tsujimoto, &apos;85; Ichikawa and Hirata, 
+    &apos;86).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s25">In the absence of evidence for ChAT in SCN neurons, these 
+    fibres can be assumed to derive from sources extrinsic to the 
+    SCN.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s26">However, the location of the neurons which contribute 
+    these fibres is not known.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s27">The SCN receives a projection from cells in the basal 
+    forebrain (Pickard, &apos;821, a region that is known to contain 
+    cholinergic neurons.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s28">Therefore, this region appears to be a likely source of 
+    the cholinergic projection to the SCN.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s29">Consistent with this possibility, Fuller et al. 
+    (&apos;89) reported in an abstract that neurons in the diagonal 
+    band of Broca project to the SCN and also contain 
+    acetylcholinesterase (AChE), an enzyme involved in the degradation 
+    of ACh.</S>
+    <BR />
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s30">The present study was carried out in rats to clarify the 
+    anatomy of cholinergic input to the SCN.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s31">The study involved visualization of fibres and fibre 
+    terminals immunopositive for ChAT in the SCN by means of a 
+    sensitive immunocytochemical technique (Ojima et al., &apos;88) to 
+    confirm the presence of cholinergic fibres in the SCN.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s32">Then a retrograde tracer, fluorogold, was injected into 
+    the SCN, in combination with immunohistochemistry for CUT, to 
+    identify cholinergic neurons in the forebrain and brainstem (major 
+    brain areas containing cholinergic projection neurons) as afferent 
+    sources of these fibres.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s33">These projections were further confirmed by injecting an 
+    anterograde tracer, biocytin, into the brainstem cholinergic nuclei 
+    and visualizing biocytin-labelled fibres and terminals in the 
+    SCN.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s34">A preliminary report of this study has been presented 
+    (Bina et al., &apos;90a).</S>
+  </Introduction>
+
+  <Methods>
+
+    <S avgH="27" class="methods.heading" format="TimesNewRomanPS-BoldMT"
+     id="s35">MATERIALS AND METHODS</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s36">Three separate sets of experiments were carried out to 
+    identify cholinergic cells which project to the SCN.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s37">The first study used a sensitive immunocytochemical 
+    method to visualize fibres and terminals expressing ChAT 
+    immunoreactivity in the SCN.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s38">The second study involved retrograde tracing with 
+    fluorogold (Fluorochrome, Englewood, CO) as the tracer, injected 
+    into the SCN, and evaluation of both forebrain and brainstem 
+    cholinergic cell regions as potential sources of the cholinergic 
+    projections.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s39">The third set of studies used biocytin (Sigma Chemical 
+    Co., St.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s40">Louis, MO) as an anterograde tracer, which was injected 
+    into brainstem cholinergic nuclei.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s41">Anterograde studies were not performed for projections 
+    from the forebrain because, in comparison to cholinergic neurons in 
+    the brainstem, forebrain cholinergic neurons are more diffusely 
+    distributed, and very large injections spanning, but also 
+    restricted to, the entire rostrocaudal extent of the cholinergic 
+    basal nuclear complex would have been very difficult to produce.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s42">In addition, the cholinergic nature of the anterogradely 
+    labelled fibres could not be confirmed because although the 
+    combination of ChAT immunofluorescence and fluorescence-conjugated 
+    avidin for biocytin would be a most suitable method for this 
+    purpose, the immunofluorescence of ChAT-positive fibres in the SCN 
+    was not sufficiently intense to permit clear identification of 
+    double labelling, with the protocol used in the present study (see 
+    below).</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s43">Two different antibodies to ChAT were used in the present 
+    study: a monoclonal antibody (Boehringer Mannheim, Montreal), and a 
+    polyclonal antibody raised in rabbit (Chemicon International, 
+    Temecula, CA).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s44">The specificity of both antibodies has previously been 
+    documented (Eckenstein and Thoenen, &apos;82; Bruce et al., 
+    &apos;85).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s45">It was also initially confirmed in a double 
+    immunofluorescence experiment that the two antibodies label 
+    identical cell populations.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s46">In some cases where both antibodies were tried in 
+    conjunction with retrograde labelling, the pattern of labelling was 
+    the same.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s47">However, background staining with the two antibodies 
+    varied to some extent depending on the tissue under investigation, 
+    as well as the protocol used.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s48">Thus, for the best results, in the experiment which 
+    examined CUT-immunoreactive fibres, the monoclonal antibody was 
+    used preferentially, because the protocol used in this experiment, 
+    originally developed by Ojima et al. (&apos;881, specifically 
+    required the use of this antibody for visualizing fibres.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s49">In the retrograde labelling study, the polyclonal 
+    antibody was usually used to process brain sections because it 
+    appeared to provide slightly clearer staining with less background, 
+    especially for immunofluorescence.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s50">For retinal sections, however, the monoclonal antibody 
+    was used preferentially because the use of this antibody in our 
+    protocol resulted in clearer staining with less background in 
+    retinal tissues.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s51">It should be noted, however, that despite these slight 
+    differences, the two antibodies clearly identified the same 
+    populations of cholinergic neurons.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s52">All control sections which were incubated with the 
+    omission of the primary antibodies showed no specific labelling.</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s53">Male Sprague Dawley rats weighing 200-250 g, obtained 
+    from Charles River Canada (St.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s54">Constant, Quebec), were housed under a 12: 12 light-dark 
+    schedule, with free access to food and water.</S>
+    <BR />
+
+    <S avgH="27" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s55">ChAT-immunoreactive fibre 
+    localization in the SCN</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s56">The protocol for perfusion and immunohistochemistry was 
+    as described by Ojima et al. (&apos;88).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s57">This protocol was developed specifically for visualizing 
+    ChAT-immunoreactive fibres and terminals with the monoclonal 
+    antibody against ChAT from Boehringer-Mannheim.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s58">Two rats were deeply anaesthetized by an intraperitoneal 
+    (i.p.1 injection of sodium pentobarbital (65 mgikg) and perfused 
+    for a few seconds with 0.1 M phosphate buffer (PB; pH 7.4) 
+    containing 0.002% calcium chloride followed by an ice cold fixative 
+    consisting of 4% paraformaldehyde and 0.2% glutaraldehyde in PB, 
+    for 3 minutes and then for a further 10 minutes by 4% 
+    paraformaldehyde alone; all perfusions were done at a rate of 10 
+    mlimin.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s59">The brain was immediately removed, blocked and postfixed 
+    in 4% paraformaldehyde at 4°C for 12 hours.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s60">The brain was transferred to buffered 30% sucrose at 4°C 
+    overnight, rapidly frozen with dry ice and cut on a cryostat into 
+    40 pm sections.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s61">The sections were collected in 0.1 M Tris-buffered saline 
+    (TBS; pH 7.3), rinsed in three TBS washes of 20 minutes each and 
+    incubated in TBS containing 0.1% Triton X-100 for 20 minutes.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s62">The sections were then treated with normal goat serum 
+    (1:30) in TBS for 1 hour at room temperature and incubated in a 
+    monoclonal antibody against ChAT (1:2.5; Boehringer-Mannheim) with 
+    1:30 normal goat serum and 0.1% Triton X-100 at 37°C on a shaker 
+    for 2 days.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s63">Subsequently, the sections were rinsed in TBS and 
+    incubated for 1 hour in goat anti-rat IgG (1:50) in TBS containing 
+    1.8% bovine serum albumin, 1:30 normal goat serum and 0.1% Triton 
+    X-100.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s64">The sections were then rinsed, incubated for 1 hour in 
+    rat peroxidase-antiperoxidase complex (1230) in TBS containing 1.8% 
+    bovine serum albumin, rinsed again and incubated in 0.06% 
+    diaminobenzidine in 0.1 M phosphate-buffered saline (pH 7.4) for 10 
+    minutes and labelling was subsequently visualized with 0.006% 
+    hydrogen peroxide.</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s65">The sections were mounted on gelatinized slides, 
+    airdried, dehydrated through an ascending alcohol series, 
+    coverslipped with Permount and viewed through an Olympus 
+    microscope.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s66">Immunoreactive fibres in selected sections were drawn 
+    with the aid of a drawing tube attached to the microscope.</S>
+    <BR />
+
+    <S avgH="27" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s67">Retrograde tracing</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s68">Injection and perfusion.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s69">Animals were anaesthetized with sodium pentobarbital (65 
+    mg/kg, i.p.) and positioned in a Kopf stereotaxic holder with the 
+    incisor bar set 5 mm above the interaural line.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s70">Unilateral injections of 8% fluorogold (in distilled 
+    water) were made into the SCN through a glass microelectrode 
+    (outside tip diameter of 25-35 km) positioned at 1.2 mm anterior to 
+    bregma and 0.2 mm lateral to the midline and lowered 9.8 mm ventral 
+    to the dura.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s71">Fluorogold was delivered iontophoretically with a 
+    positive current of 2 FA administered over 10 minutes with a duty 
+    cycle of 5 seconds on and 5 seconds off.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s72">At the end of the injection, the micropipette was kept in 
+    place for 5-10 minutes.</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s73">After one week survival in their normal lighting cycle, 
+    animals were deeply anaesthetized with sodium pentobarbital.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s74">The descending aorta was clamped and the animal perfused 
+    intracardially with 60 ml of 0.9% saline followed by 400 ml of ice 
+    cold 4% paraformaldehyde made in 0.1 M PB (pH 7.4).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s75">Brains were postfixed for 4-5 hours in the same fixative 
+    solution.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s76">Coronal sections 50 Fm thick were cut from the forebrain 
+    and the brainstem on a microslicer.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s77">After confirmation of injection sites, every sixth 
+    section was washed in 0.05 M TBS and then processed for 
+    immunohistochemistry for ChAT.</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s78">Eyeballs with the retina attached were removed after 
+    perfusion and cryoprotected in 30% sucrose for 24 hours.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s79">Coronal sections 50 Frn thick were cut perpendicular to 
+    the anteroposterior axis of the eyeball on a cryostat and collected 
+    directly onto glass slides.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s80">Sections were washed in TBS and processed for 
+    immunohistochemistry for CUT.</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s81">Immunocytochemistry.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s82">Forebrain and brainstem sections were incubated for 48 
+    hours at 4&quot;C, in a polyclonal antibody raised in rabbit 
+    against ChAT (Chemicon), diluted to 1:lOO in antisera diluent (0.3% 
+    Triton X-100, 2.0% normal goat serum and 0.01% sodium azide added 
+    to 0.05 M TBS).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s83">Subsequent to 3 x 20 minute rinses in TBS, the tissue was 
+    incubated in 1:20 dilution of Texas red conjugated goat anti-rabbit 
+    IgG (Jackson Immunoresearch, West Grove, PA) in TBS and 1% normal 
+    goat serum.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s84">Sections were mounted on slides, and dried overnight.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s85">Retinal sections mounted on slides were processed with 
+    the monoclonal antibody to ChAT ( l : l O , Boehringer-Mannheim) 
+    and a Texas red-conjugated goat anti-rat IgG (Jackson 
+    Immunoresearch) as a secondary antibody.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s86">All sections were coverslipped with either 1:9 
+    concentration of ethylene diamine (Sigma) in glycerol or 
+    Fluoromount and examined with an Olympus epifluorescence 
+    microscope.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s87">Fluorogold labelling was examined with an ultraviolet 
+    filter cube, and Texas red using a green filter cube.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s88">All retrogradely labelled cells which were also labelled 
+    with ChAT were mapped by using standardized section drawings 
+    modified from Paxinos and Watson (&apos;861, and selected examples 
+    were photographed.</S>
+    <BR />
+
+    <S avgH="27" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s89">Anterograde tracing</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s90">Biocytin was used as the anterograde tracer.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s91">This tracer is transported rapidly and allows the 
+    placement of discrete injections as well as visualization of 
+    Golgi-like terminal morphology.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s92">It was also originally claimed not to be taken up by 
+    fibres of passage (King et al., &apos;89; Izzo, &apos;91).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s93">After the completion of the present study, however, a 
+    paper questioning this claim has been published (Chevalier et al., 
+    &apos;92).</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s94">Rats were anaesthetized as described above and placed on 
+    a Kopf stereotaxic holder with the incisor bar 3.3 mm below the 
+    interaural line.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s95">Injections of 50 nl of biocytin (5% in 0.05 M Tris 
+    buffer, pH 7.6) were made into the pedunculopontine tegmental 
+    nucleus (PPT; coordinates: 7.3 mm posterior to bregma, 1.8 mm 
+    lateral to the midline and 5.5 mm ventral to the dura), the 
+    parabigeminal nucleus (PBg; coordinates: 7.7 mm posterior, 2.9 mm 
+    lateral and 6.5 mm ventral to surface of the skull) or the 
+    laterodorsal tegmental nucleus (LDT; coordinates: 8.5 mm posterior, 
+    0.9 mm lateral and 6.5 mm ventral to dura) through a glass 
+    micropipette (tip diameter 30 pm) attached to a 1 p1 Hamilton 
+    syringe.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s96">The injections were made over a period of 10 minutes and 
+    the pipette was left in place for a further 5 minutes following the 
+    injection.</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s97">After survival periods ranging from 12 to 20 hours, the 
+    animals were given a lethal dose of pentobarbital and perfused 
+    transcardially with an initial rinse of 0.9% physiological saline 
+    followed by a mixture of 4% paraformaldehyde and 1% glutaraldehyde 
+    in 0.1 M phosphate buffer (pH 7.4).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s98">Brains were rapidly removed and postfixed overnight in 4% 
+    paraformaldehyde.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s99">Coronal sections of the forebrain 50 pm thick containing 
+    the SCN region and the brainstem (to localize the injection site) 
+    were cut on a microslicer.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s100">The sections were thoroughly washed in TBS (pH 7.4) and 
+    processed for histochemistry to visualize biocytin.</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s101">Histochemistry.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s102">Free floating sections were incubated in 0.5% hydrogen 
+    peroxide for 30 minutes in order to decrease nonspecific 
+    labelling.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s103">Sections were washed in TBS for 30 minutes and 
+    subsequently preincubated in 1% Triton X-100 in TBS for 60 minutes 
+    followed by incubation in Extravidin-peroxidase conjugate (Sigma) 
+    at a concentration of 1:20 for 2 hours.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s104">The reaction product was visualized by preincubating the 
+    tissue in diaminobenzidine (0.5 mgiml) for 5 minutes followed by 
+    incubation in a mixture of diaminobenzidine and hydrogen peroxide 
+    (0.5 ml /ml of a 30% solution) for about 10 minutes or until the 
+    brown reaction product was visible.</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s105">Since dihydro nicotinamide adenine dinucleotide 
+    phosphate (NADPH) diaphorase activity has been shown to be a 
+    selective marker for cholinergic neurons in the PPT and LDT 
+    (Vincent et al., &apos;831, this quick histochemical method was 
+    used to process the tissue further to determine whether the 
+    biocytin injection site in the brainstem overlapped with 
+    cholinergic neurons.</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s106">NADPH-diaphorase histochemistry.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s107">Following biocytin histochemistry, the brainstem 
+    sections were processed for NADPH-diaphorase histochemistry 
+    (Scherer-Singler et al., &apos;83) to examine the relationship 
+    between injection sites and cholinergic cell populations in the 
+    brainstem.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s108">The sections were incubated in a mixture of P-NADPH 
+    (Sigma; 10 mg/10 ml) and nitroblue tetrazolium (Sigma; 1 mg/10 ml) 
+    in Tris buffer (pH 8.0) at 37°C for 5-10 minutes.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s109">This reaction was performed in the dark, since nitroblue 
+    tetrazolium is light sensitive.</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s110">In cases where the injection site was acceptable, all 
+    sections were mounted on gelatinized slides, air dried, dehydrated 
+    in an ascending series of alcohols and coverslipped in Permount.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s111">The sections were viewed through an Olympus microscope 
+    and in selected cases photographed.</S>
+  </Methods>
+
+  <Results>
+
+    <S avgH="27" class="results.heading" format="TimesNewRomanPS-BoldMT"
+     id="s112">RESULTS</S>
+    <BR />
+
+    <S avgH="27" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s113">
+    <labelingDescription>ChAT-immunoreactive 
+    fibres</labelingDescription> in <labelingLocation>the 
+    SCN</labelingLocation></S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s114"><labelingDescription>Scattered ChAT-immunoreactive 
+    fibres and terminals</labelingDescription> were found throughout 
+    <labelingLocation>the entire rostrocaudal extent of the 
+    SCN</labelingLocation> (Fig. 1).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s115">These fibres displayed occasional varicosities.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s116">Most of <labelingDescription>the fibre 
+    labelling</labelingDescription> was localized to 
+    <labelingLocation>the ventral aspects of the 
+    SCN</labelingLocation>, but <labelingDescription>a few 
+    fibres</labelingDescription> were also found in 
+    <labelingLocation>the dorsal SCN</labelingLocation>.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s117">In addition, <labelingDescription>CUT-immunoreactive 
+    fibres</labelingDescription> were found in <labelingLocation>the 
+    optic chiasm</labelingLocation> ventral to 
+    <neuroanatomicalLandmark>the SCN</neuroanatomicalLandmark> as well 
+    as between <neuroanatomicalLandmark>the two 
+    SCN</neuroanatomicalLandmark>.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s118"><labelingDescription>No CUT-immunoreactive 
+    fibres</labelingDescription> were observed in 
+    <labelingLocation>anterior hypothalamic and preoptic 
+    regions</labelingLocation> surrounding <neuroanatomicalLandmark>the 
+    SCN</neuroanatomicalLandmark>.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s119">Figure 1B-D shows the location of<labelingDescription> 
+    ChAT-immunoreactive fibres</labelingDescription> at three levels 
+    (rostral, middle and caudal) of <labelingLocation>the 
+    SCN</labelingLocation>.</S>
+    <BR />
+
+    <S avgH="27" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s120">ChAT-immunoreactive 
+    neurons retrogradely labelled with fluorogold</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s121">
+    <neuroanatomicalLocation>Forebrain</neuroanatomicalLocation>.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s122">Separate animals were used for the studies of 
+    <neuroanatomicalLocation>the forebrain, brainstem, and the 
+    retina</neuroanatomicalLocation> because these experiments were 
+    conducted at different times.</S>
+    <TTE>
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s123">For the forebrain study, 3<exptLabel>of the 12 rats 
+      had <tracerChemical>fluorogold</tracerChemical> injections 
+      localized in <injectionLocation>the 
+      SCN</injectionLocation></exptLabel>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s124">All three injection sites were mainly unilateral with 
+      some diffusion into <injectionSpread>the contralateral 
+      SCN</injectionSpread> as well as <injectionSpread>the optic 
+      chiasm</injectionSpread>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s125">An example of a 
+      <tracerChemical>fluorogold</tracerChemical> injection site is 
+      shown in Figure 2A; the retrogradely labelled cholinergic neurons 
+      in this case are mapped in Figures 3 and 4.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s126">Figure 2 shows an example of <labelingDescription>a 
+      neuron</labelingDescription> located in <labelingLocation>the 
+      substantia innominata region</labelingLocation> of the 
+      cholinergic basal nuclear complex that was retrogradely labelled 
+      with fluorogold and immunopositive for ChAT.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s127">ChAT-positive neurons that were retrogradely labelled 
+      from the SCN were typically large and multipolar.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s128"><labelingDescription>These double-labelled 
+      neurons</labelingDescription> were observed bilaterally in 
+      <labelingLocation>the entire rostrocaudal extent of the 
+      cholinergic basal nuclear complex</labelingLocation>, but there 
+      were regional differences in the density of these double-labelled 
+      cells (Figs. 3 and 4).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s129"><labelingDescription>The largest numbers of 
+      double-labelled neurons</labelingDescription> were located in 
+      <labelingLocation>the substantia innominata and nucleus basalis 
+      magnocellularis of the cholinergic basal nuclear 
+      complex</labelingLocation> (Fig. 4A-C).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s130"><labelingDescription>Scattered double-labelled 
+      cells</labelingDescription> were localized in <labelingLocation>
+      the medial septum</labelingLocation> as well as <labelingLocation>
+      the vertical and horizontal limbs of the diagonal band of 
+      Broca</labelingLocation> (Figs. 3B-D, 4A).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s131">The double-labelled neurons were intermingled with 
+      ChAT-positive neurons without the retrograde marker, as well as 
+      singly retrogradely labelled immunonegative neurons in these 
+      regions, and no obvious topography of doublelabelled neurons was 
+      seen within subregions of the cholinergic basal nuclear 
+      complex.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s132">Within the cholinergic complex, single retrogradely 
+      labelled neurons without ChAT immunoreactivity occurred more 
+      frequently at rostral than caudal levels, and at caudal levels 
+      almost all retrogradely labelled neurons were 
+      ChAT-immunoreactive.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s133">In addition to the cholinergic basal nuclear complex, 
+      consistent with previous reports (Pickard, &apos;821, 
+      <labelingDescription>neurons</labelingDescription> that were not 
+      ChAT-immunoreactive but <labelingDescription>retrogradely 
+      labelled with fluorogold</labelingDescription> were found in 
+      <labelingLocation>the lateral septum (Fig. 3A,B), medial preoptic 
+      area (Figs. 3D,4A,B), contralatera1 SCN (Fig. 4C), zona incerta 
+      (Fig. 4D), and intergeniculate leaflet of the lateral geniculate 
+      nucleus</labelingLocation>.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s134">
+      <neuroanatomicalLocation>Bminstem</neuroanatomicalLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s135">Two rats used in the brainstem study had their 
+      injection sites in <injectionLocation>the 
+      SCN</injectionLocation>, but with some diffusion to 
+      <injectionSpread>the contralateral SCN</injectionSpread>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s136">An example is shown in Figure 5; the diffusion into 
+      the contralateral side was greater in this case than the case 
+      shown in Figure 2A.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s137"><labelingDescription>Neurons</labelingDescription> 
+      that were <labelingDescription>retrogradely labelled with 
+      fluorogold</labelingDescription> and were also ChAT-positive were 
+      seen in <labelingLocation>the PPT (Fig. 6A,D), LDT (Fig. 6B,E) 
+      and PBg (Fig. 6C,F)</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s138">Some neurons singly labelled with fluorogold were also 
+      present in these three nuclei.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s139">No obvious topographic differences were seen between 
+      <labelingDescription>double and single retrogradely labelled 
+      neurons</labelingDescription> within <labelingLocation>the PPT, 
+      LDT or PBg</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s140">Figure 7 illustrates the distribution of 
+      <labelingDescription>retrogradely labelled 
+      neurons</labelingDescription> in <labelingLocation>the 
+      brainstem</labelingLocation>.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s141">In addition to double-labelled neurons, consistent 
+      with previous findings (Pickard, &apos;821, 
+      <labelingDescription>retrogradely labelled immunonegative 
+      neurons</labelingDescription> were found occasionally in 
+      <labelingLocation>the dorsal and median raphe nuclei (Fig. 7B,C), 
+      superior colliculus (Fig. 7A,B), dorsal tegmental nucleus (Fig. 
+      7E), and parabrachial nucleus (Fig. 7D-F)</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s142"><labelingDescription>No double-labelled 
+      neurons</labelingDescription> were observed in <labelingLocation>
+      any of these nuclei</labelingLocation>.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s143">
+      <neuroanatomicalLocation>Retina</neuroanatomicalLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s144">In the 3 rats used in the retina study, injection 
+      sites were unilateral but included <injectionLocation>the SCN as 
+      well as part of the optic chiasm ventral to 
+      it</injectionLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s145">Most of <labelingDescription>the ChAT-immunoreactive 
+      cells</labelingDescription> in <labelingLocation>the 
+      retina</labelingLocation> were located in <labelingLocation>the 
+      inner nuclear layer</labelingLocation>, most likely corresponding 
+      to a subpopulation of amacrine cells.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s146"><labelingDescription>Scattered 
+      cells</labelingDescription> in <labelingLocation>the ganglion 
+      cell layer</labelingLocation> were also 
+      <labelingDescription>immunopositive for 
+      CUT</labelingDescription>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s147"><labelingDescription>Many cells</labelingDescription> 
+      <labelingDescription>singly labelled with 
+      fluorogold</labelingDescription> were seen in <labelingLocation>
+      the ganglion cell layer</labelingLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s148">However, although there were a few ambiguous cases, 
+      there were no unequivocal cases of retinal cells that were 
+      retrogradely labelled with fluorogold and were also 
+      immunopositive for CUT.</S>
+    </TTE>
+
+    <BR />
+
+    <S avgH="27" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s149">Anterograde labelling 
+    with biocytin</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s150"><tracerChemical>Biocytin</tracerChemical> injections 
+    directed at <injectionLocation>PPT, PBg, and 
+    LDT</injectionLocation> were made in two animals each.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s151">Figure 8A-C shows examples of 
+    <tracerChemical>biocytin</tracerChemical> injections placed in 
+    <injectionLocation>PPT, PBg, and LDT</injectionLocation>, 
+    respectively.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s152">The location of the injection sites overlapped with 
+    NADPH-diaphorase positive (thus cholinergic; Vincent et al., 
+    &apos;83) neurons in <labelingLocation>the PPT and 
+    LDT</labelingLocation> (not shown).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s153">Cholinergic PBg neurons are not NADPH-diaphorase 
+    positive; therefore, anatomical landmarks were used to determine 
+    the location of the injection site.</S>
+    <BR />
+
+    <TTE><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s154"><labelingDescription>Scattered 
+    anterogradely</labelingDescription> labelled 
+    <labelingDescription>fibres and terminals</labelingDescription> 
+    were detected in <labelingLocation>the SCN</labelingLocation> after 
+    <exptLabel><tracerChemical>biocytin</tracerChemical> injections 
+    into <injectionLocation>PPT, (Fig. 8A, D), LDT (Fig. 8B, E), and 
+    PBg (Fig. 8C, F)</injectionLocation></exptLabel>.</S><S avgH="21"
+     class="results.body" format="TimesNewRomanPSMT" id="s155">In each 
+    case, <labelingDescription>these fibres</labelingDescription> were 
+    found throughout <labelingLocation>the entire rostrocaudal extent 
+    of the SCN</labelingLocation>, and their density was usually 
+    greater than that seen with CUT-immunoreactive fibres (Fig. 
+    1).</S></TTE>
+
+    <TTE><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s156">Following <exptLabel>injections into <injectionLocation>
+    PBg and PPT</injectionLocation></exptLabel>, 
+    <labelingDescription>fine fibres</labelingDescription> could be 
+    seen entering <labelingLocation>the SCN</labelingLocation> through 
+    the optic chiasm (Fig. 8E,F).</S></TTE>
+
+    <TTE><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s157">In <exptLabel>the case of <injectionLocation>
+    PPT</injectionLocation> injections</exptLabel>, 
+    <labelingDescription>thicker fibres</labelingDescription> could 
+    also be seen coursing through <labelingLocation>the optic 
+    chiasm</labelingLocation> at the level of the caudal SCN, and 
+    <labelingDescription>a few scattered fibres</labelingDescription> 
+    were also observed in <labelingLocation>the lateral 
+    hypothalamus</labelingLocation>.</S></TTE>
+
+    <TTE><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s158"><labelingDescription>Extensive fibre 
+    labelling</labelingDescription> was also observed in 
+    <labelingLocation>the basal forebrain area</labelingLocation> 
+    following both <exptLabel><injectionLocation>PPT and 
+    LDT</injectionLocation> injections</exptLabel>.</S></TTE>
+
+  </Results>
+
+  <Discussion>
+
+    <S avgH="27" class="discussion.heading"
+     format="TimesNewRomanPS-BoldMT" id="s159">DISCUSSION</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s160">ChAT-immunoreactive fibres were detected in the SCN, 
+    suggesting the existence of cholinergic input into the SCN.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s161">Cholinergic fibers appeared to enter the SCN from the 
+    ventral aspect via the optic chiasm.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s162">These results are consistent with txevious findings (van 
+    den Pol and Tsujimoto, 85; Ichikawa and Hiratay 86).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s163">Ichikawa and Hirata ( 86) Observed very dense C 
+    hAT-positive fibres in the ventromedial aspect of the rat SCN with 
+    fine mesh-like CUT-positive fibres distributed elsewhere within the 
+    SCN.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s164">In the present study, although we observed many fibres 
+    in the ventromedial aspects of the SCN, we did not find the dense 
+    labelling observed by Ichikawa and Hirata (&apos;86).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s165">This disparity in the findings may be due to the 
+    different sources of antibodies as well as different 
+    immunohistochemical techniques used in the two studies.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s166">Neurons retrogradely labelled from the SCN were found in 
+    both the basal forebrain and the brainstem.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s167">In the basal forebrain, cells labelled with fluorogold 
+    and immunopositive for C U T were found in the entire rostrocaudal 
+    extent of the cholinergic basal nuclear complex with highest 
+    densities occurring in the caudal nuclei, including the nucleus 
+    basalis magnocellularis and substantia innominata.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s168">Noncholinergic retrogradely labelled cells were observed 
+    in the lateral septum, lateral geniculate nucleus, and zona 
+    incerta.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s169">Although no cholinergic cells were found in the lateral 
+    septum in the present study, a small cluster of weakly 
+    CUT-immunoreactive neurons has been localized in the lateral septum 
+    (Kimura et al., &apos;91).</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s170">Retrogradely labelled neurons projecting to the SCN have 
+    been reported in hamsters using free horseradish peroxidase as a 
+    retrograde tracer (Pickard, &apos;82).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s171">That study reported retrogradely labelled neurons in 
+    lateral septum, medial septum, and the vertical limb of the 
+    diagonal band of Broca.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s172">No labelled cells were found in the horizontal limb of 
+    the diagonal band of Broca, magnocellular preoptic area, or any of 
+    the caudal nuclei of the cholinergic basal nuclear complex.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s173">In the present study, however, many retrogradely 
+    labelled cells were found not only in the medial septum but also 
+    throughout the cholinergic basal nuclear complex.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s174">The differences between the results of these two studies 
+    may be due to the type of tracer used.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s175">Fluorogold has been shown to be superior to horseradish 
+    peroxidase as a retrograde tracer, and its sensitivity is 
+    reportedly comparable to that of wheat germ agglutinin-horseradish 
+    peroxidase (Schmued and Fallon, &apos;86).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s176">It has also been reported that fluorogold is not taken 
+    up by undamaged fibres of passage, and that there is little or no 
+    transsynaptic labelling, since long survival times do not appear to 
+    result in increased cell labelling (Schmued and Fallon, 
+    &apos;86).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s177">Another possible explanation for the disparity between 
+    the two studies is species differences, since the study by Pickard 
+    (&apos;82) was done using Syrian hamsters rather than rats.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s178">Although not identified in the present study, the 
+    presence of short cholinergic projections to the SCN arising in an 
+    anterior hypothalamic region lateral to the SCN has previously been 
+    reported in two abstracts.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s179">Fuller et al. (&apos;89) used AChE histochemistry as a 
+    marker for cholinergic cells and horseradish peroxidase as a 
+    retrograde tracer, and reported double-labelled cells in the 
+    diagonal band and an area lateral to and beyond the boundary of the 
+    SCN (referred to as &apos;LASCN,&apos; not to be confused with the 
+    lateral SCN) in the rat.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s180">Although AChE is not a selective marker for cholinergic 
+    neurons (Satoh et al., &apos;831, a similar result was found by 
+    Dwyer et al. (&apos;90) in the hamster, by using 
+    immunohistochemistry with a polyclonal antibody to ChAT and 
+    rhodamine-conjugated latex microspheres as the retrograde 
+    tracer.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s181">The presence of cholinergic neurons in the regions 
+    surrounding the SCN is controversial, because although these 
+    regions appear to contain ChAT-immunoreactive neurons (Tago et al., 
+    &apos;871, no neurons containing mRNA for ChAT are present (Oh et 
+    al., &apos;92).</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s182">In the present study, no ChAT-labelled neurons were 
+    found in the area lateral to the SCN.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s183">This difference between our results and those of Fuller 
+    et al. (&apos;89) and Dwyer et al. (&apos;90) may be attributable 
+    to species differences or differences in the sensitivity of the 
+    antibodies used.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s184">On the other hand, while neurons bearing cholinergic 
+    markers may exist lateral to the SCN, we found no evidence of 
+    retrograde labelling in this region.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s185">Since our fluorogold tracing identified other 
+    projections to the SCN that had been described previously, the 
+    sensitivity of the retrograde tracer does not appear to be a 
+    problem.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s186">On the basis of these data, therefore, it seems unlikely 
+    to us that the rat SCN receives a projection from neurons in this 
+    region lateral to the SCN.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s187">In the brainstem, retrogradely labelled cholinergic 
+    neurons were localized in three distinct nuclei, namely the PPT, 
+    PBg and LDT.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s188">As previously reported (Tago et al., &apos;89), the PPT 
+    and LDT contain strongly ChAT-positive neurons, whereas neurons in 
+    the PBg are only weakly ChAT-immunoreactive.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s189">A recent study using in situ hybridization has reported 
+    high levels of mRNA for ChAT in the PPT and LDT, but very low 
+    levels in the PBg (Oh et al., &apos;92).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s190">Previous studies do not report fibre labelling in the 
+    SCN following injections of the anterograde tracers wheat germ 
+    agglutinin-horseradish peroxidase or Phaseolus 
+    uulgaris-leucoagglutinin into the LDT (Satoh and Fibiger, &apos;86; 
+    Cornwall et al., &apos;go), whereas following the injection of 
+    Phaseolus uulgaris-leucoagglutinin into the PPT, although not noted 
+    by the authors, labelled fibres appear to be present in the SCN 
+    (Hallanger and Wainer, &apos;88; their Fig. 3D).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s191">Consistent with the latter observation, retrogradely 
+    labelled neurons have been observed in the PPT region following 
+    horseradish peroxidase injections into the retrochiasmatic area and 
+    caudal part of the SCN (Zaborszky et al., &apos;84).</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s192">The present retrograde labelling data also suggest that 
+    in addition to cholinergic projections from the PPT and LDT 
+    regions, there are also projections arising from noncholinergic 
+    neurons that are mixed with cholinergic neurons in the same 
+    regions.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s193">This provides one explanation for the fact that the 
+    density of fibres anterogradely labelled with biocytin from the 
+    PPT, LDT, or PBg was greater than that of ChAT-immunoreactive 
+    fibres in the SCN.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s194">An alternate but not mutually exclusive explanation is 
+    that the immunohistochemical procedures used in the present study 
+    were not sensitive enough to reveal all cholinergic fibres in the 
+    SCN.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s195">At present, the neurotransmitter content of these 
+    noncholinergic projections from the PPT, LDT, and PBg regions is 
+    not known.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s196">Retrogradely labelled neurons in the PBg have been 
+    visualized in the cat following horseradish peroxidase injections 
+    into the optic chiasm with diffusion of the tracer into the SCN 
+    (Baleydier and Magnin, &apos;79).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s197">The PBg is known to innervate the contralateral superior 
+    colliculus (Mufson et al., &apos;86) through a long loop which 
+    ascends along the optic tract, crosses the midline in Gudden&apos;s 
+    supraoptic commissure, and returns along the contralateral optic 
+    tract (Graybiel, &apos;78).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s198">It is most likely that some of these fibres reach the 
+    SCN at the most rostra1 level of this loop.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s199">It is, however, also possible that the labelling in the 
+    PBg in the present study is, in part, due to leakage of the tracer 
+    into the optic tract and its uptake by potential damaged fibres.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s200">This possibility is suggested by the observation of a 
+    few retrogradely labelled cells in the superior colliculus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s201">Since the superior colliculus projects to the lateral 
+    posterior nucleus of the thalamus through the supraoptic 
+    commissure, the observation of retrogradely labelled cells in the 
+    superior colliculus suggests that there was some leakage of the 
+    tracer into the supraoptic commissure.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s202">Therefore some of the PBg neurons labelled by fluorogold 
+    may be the neurons projecting to the superior colliculus via the 
+    optic tracts.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s203">Anterogradely labelled fibres were observed in the SCN 
+    following biocytin injections into PPT, PBg and LDT.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s204">In view of a recent report of the uptake of this tracer 
+    by passing fibres (Chevalier et al., &apos;921, the possibility 
+    exists that these labelled fibers in the SCN actually represented 
+    fibres which passed through these brainstem regions but arose from 
+    neurons whose cell bodies were located further caudally.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s205">This is particularly a concern for injections in the 
+    PPT, which is located amongst various fibre tracts.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s206">Despite this caveat, however, these anterograde 
+    labelling results confirm that the retrogradely labelled neurons 
+    observed in these brainstem nuclei following fluorogold injections 
+    into the SCN were not entirely due to the tracer being taken up by 
+    damaged fibres of passage.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s207">With all three injections, thin biocytin labelled fibres 
+    and terminals were observed in the entire rostrocaudal extent of 
+    the SCN with the highest density being found in the ventral SCN.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s208">Observation of labelled fibres in the basal forebrain 
+    area in the cases of PPT and LDT injections and in the lateral 
+    hypothalamus in the case of PPT injections are consistent with 
+    previous findings (Satoh and Fibiger, &apos;86; Hallanger and 
+    Wainer, &apos;88; Cornwall et al., &apos;90).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s209">Although it was not technically feasible to confirm the 
+    cholinergic nature of fibres anterogradely labelled from the 
+    brainstem, the presence of ChATimmunoreactive fibres in the SCN 
+    combined with the retrograde and anterograde tracing data provide 
+    strong support for the presence of cholinergic projections from the 
+    basal forebrain and mesopontine tegmentum to the SCN.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s210">The absence of clearly double-labelled cells in the 
+    retina indicates that few, if any, retinal ganglion cells 
+    projecting to the SCN are cholinergic.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s211">This conclusion does not imply that cholinergic effects 
+    on rhythms cannot be mediated in part via the retina, since 
+    noncholinergic ganglion cells projecting to the SCN could readily 
+    be influenced by connections from retinal cholinergic neurons.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s212">Cholinergic neurons in the cholinergic basal nuclear 
+    complex and in the mesopontine tegmentum have been implicated in 
+    the regulation of sleep and arousal (Steriade and McCarley, 
+    &apos;90; Semba, &apos;91).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s213">In addition, carbachol has been shown to produce phase 
+    shifts in circadian rhythms in rodents.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s214">These findings and the present results taken together 
+    suggest that ACh released from the cholinergic neurons in the basal 
+    forebrain and brainstem influence the resetting of the circadian 
+    clock.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s215">The basal forebrain area containing cholinergic neurons 
+    has been shown to receive retinal terminals in both hamsters and 
+    rats (Youngstrom et al., &apos;91; Bina, &apos;92).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s216">Thus, it is possible that photic input reaching the 
+    cholinergic basal nuclear complex activates these cholinergic 
+    cells, resulting in the release of ACh in the SCN.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s217">This ACh could then act either directly on pacemaker 
+    cells, or indirectly through interneurons that make synaptic 
+    connections with pacemaker cells, to alter clock mechanisms, 
+    thereby contributing to a phase shift of circadian rhythms.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s218">The new phase of the clock would be transmitted to the 
+    forebrain, brainstem and thalamic nuclei involved in the generation 
+    and maintenance of sleep and arousal and to autonomic nuclei, 
+    presumably via polysynaptic pathways from the SCN.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s219">This model proposes a feedback loop in which neural 
+    mechanisms involved in the regulation of sleep and wakefulness are 
+    linked to the area responsible for circadian timing of these 
+    processes.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s220">One missing link to this hypothesis is that it is not 
+    known whether the retinal fibres entering the basal forebrain 
+    terminate on cholinergic neurons.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s221">In addition, there are no direct efferent projections 
+    from the SCN to the cholinergic basal nuclear complex, to the 
+    aminergic (the dorsal raphe and the locus coeruleus) and 
+    cholinergic brainstem nuclei involved in sleep and arousal, or to 
+    any of the autonomic nuclei.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s222">Indirect and amplified connections to these nuclei made 
+    via the paraventricular nucleus of the hypothalamus, the major 
+    target of SCN efferents, do however, remain a possibility (Watts et 
+    al., &apos;87).</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s223">These studies and previously published results provide 
+    strong evidence to suggest that cholinergic cells located in 
+    several distinct cholinergic nuclei in the basal forebrain and in 
+    the PPT, LDT and PBg of the brainstem project to and terminate 
+    throughout the SCN.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s224">There are populations of both M1 and M2 muscarinic 
+    receptors in the SCN on which ACh released from these terminals may 
+    act (Bina et al., &apos;90b).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s225">The cellular components on which these receptors are 
+    localized have yet to be identified.</S>
+  </Discussion>
+
+  <Acknowledgements>
+
+    <S avgH="27" class="acknowledgements.heading"
+     format="TimesNewRomanPSMT" id="s226">ACKNOWLEDGEMENTS</S>
+    <BR />
+
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s227">The authors thank Dr.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s228">Wolfgang Hartig for help with 
+    biocytin tracing techniques and Joan Burns, Janette Nason, Donna 
+    Goguen, and Heather Grant for excellent technical assistance.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s229">This work was supported by 
+    grants from the US Air Force Office of Scientific Research (901041, 
+    MRC of Canada (MA89291 and NSERC of Canada (A0305) to B.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s230">Rusak, and from MRC of Canada 
+    (MT113121, Alzheimer Society, and Scottish Rite Charitable 
+    Foundation of Canada to K.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s231">Semba.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s232">K.G.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s233">Bina was supported by a 
+    Dalhousie Killam Graduate Fellowship.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s234">K.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s235">Semba is an MRC scholar.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s236">This study was included as 
+    part of a dissertation submitted by K.G.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s237">Bina in partial fulfillment 
+    of the requirements for a Ph.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s238">D. degree at Dalhousie 
+    University.</S>
+  </Acknowledgements>
+
+  <References>
+
+    <S avgH="27" class="references.heading" format="TimesNewRomanPSMT"
+     id="s239">LITERATURE CITED</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s240">Baleydier, C., and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s241">Magnin (1979) Afferent and efferent connections of the 
+    parabigeminal nucleus in cat revealed by retrograde axonal 
+    transport of horseradish peroxidase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s242">Brain Res. 161 :187-198.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s243">Bina, K.G. (1992) Anatomical and behavioural analysis of 
+    the role of acetylcholine and nerve growth factor in the mammalian 
+    circadian system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s244">Ph.D. dissertation, Dalhousie University, Halifax, Nova 
+    Scotia, Canada.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s245">Bina, K.G., and B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s246">Rusak (1991) Intracranial nerve growth factor injections 
+    phase shift activity rhythms in Syrian hamsters.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s247">SOC.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s248">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s249">Abstr. 17:669.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s250">Bina, K.G., K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s251">Semba, and B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s252">Rusak (1990a) Localization of cholinergic and nerve 
+    growth factor-receptor neurons projecting to the suprachiasmatic 
+    nucleus of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s253">SOC.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s254">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s255">Abstr.16:601.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s256">Bina, K.G., M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s257">Wilkinson, and B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s258">Rusak (1990b) Circadian variation in muscarinic binding 
+    sites in the cortex and hypothalamus of the golden hamster.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s259">SOC.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s260">Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s261">Biol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s262">Rhythms Abstr. 2:102.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s263">Block, G.A., and R.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s264">Billiar (1981) Properties and regional distribution of 
+    nicotinic cholinergic receptors in the rat hypothalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s265">Brain Res. 212: 152-158.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s266">Bruce, G., B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s267">Wainer, and L.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s268">Hersh (1985) Immuno-affinity purification of human 
+    choline acetyltransferase: Comparison of the brain and placental 
+    enzymes.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s269">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s270">Neurochem. 45:611-620.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s271">Chevalier, G., J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s272">Deniau, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s273">Menetrey (1992) Evidence that biocytin is taken up by 
+    axons.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s274">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s275">Lett. 140:197-199.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s276">Clarke, P.B.S., R.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s277">Schwartz, S.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s278">Paul, C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s279">Pert, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s280">Pert (1985) Nicotinic binding in rat brain: 
+    Autoradiographic comparison of PHI acetylcholine, nicotine, and 
+    ~&apos;25111-a-bungarotoxin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s281">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s282">Neurosci. 5: 1307-1315.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s283">Cornwall, J., J.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s284">Cooper, and O.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s285">Phillipson (1990) Afferent and efferent connections of 
+    the laterodorsal tegmental nucleus in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s286">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s287">Bull. 25:271-284.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s288">Daan, S., and C.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s289">Pittendrigh (1976) A functional analysis of circadian 
+    pacemakers in nocturnal rodents. 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s290">The variability of phase response curves, J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s291">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s292">Physiol. 106:253-266.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s293">DeCoursey, P.J. (1964) Function of a light response 
+    rhythm in hamsters.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s294">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s295">Cell.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s296">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s297">Physiol. 63:189-196.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s298">Dwyer, M.R., M.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s299">Harrington, and T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s300">Rahmani (1990) Localization of choline acetyltransferase 
+    immunoreactive (CAT-I) cells afferent to the suprachiasmatic nuclei 
+    (SCN) in the golden hamster.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s301">SOC.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s302">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s303">Abstr. 16:602.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s304">Eckenstein, F., and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s305">Thoenen (1982) Production of specific antisera and 
+    monoclonal antibodies to choline acetyltransferase: 
+    Characterization and use for identification of cholinergic 
+    neurons.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s306">EMBO J. 1 :363-368.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s307">Earnest, D.J., and F.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s308">Turek (1983) Role for acetylcholine in mediating effects 
+    of light on reproduction.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s309">Science 219:77-79.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s310">Earnest, D.J., and F.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s311">Turek (1985) Neurochemical basis for the photic control 
+    of circadian rhythms and seasonal reproductive cycles: Role for 
+    acetylcholine.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s312">Proc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s313">Natl.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s314">Acad.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s315">Sci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s316">USA 8242774281.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s317">Fuchs, J.L., and K.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s318">Hoppens (1987) a-bungarotoxin binding in relation to 
+    functional organization of the rat suprachiasmatic nucleus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s319">Brain Res. 407:9-16.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s320">Fuller, C.A., R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s321">Nayduch, and D.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s322">Murakami (1989) AChE positive neurons that project to 
+    the SCN.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s323">Soc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s324">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s325">Abstr. 151059 Graybiel, A.M. (1978) A satellite of the 
+    superior colliculus: The parabigeminal nucleus and its projections 
+    to the superficial collicular layers.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s326">Brain Res. 145:365-374.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s327">Hallanger, A.E., and B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s328">Wainer (1988) Ascending projections from the 
+    pedunculopontine and laterodorsal tegmental nuclei.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s329">Neuroscience 28: 61 1-623.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s330">Hastings, J.W., B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s331">Rusak, and Z.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s332">Boulos (1991) Circadian rhythms: physiology of 
+    biological timing.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s333">In C.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s334">Prosser (ed.): Neural Integrative Animal Physiology.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s335">New York: Wiley-Liss, pp. 435-546.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s336">Ichikawa, T., and Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s337">Hirata (1986) Organization of choline 
+    acetyltransferasecontaining structures in the forebrain of the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s338">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s339">Neurosci. 6:281-292.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s340">Izzo, P.N. (1991)A note on the use ofbiocytin in 
+    anterograde tracing studies in the central nervous system: 
+    Application at both light and electron microscopic level.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s341">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s342">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s343">Methods 36155-166.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s344">Keefe, D.L., D.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s345">Earnest, D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s346">Nelson, J.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s347">Takahashi, and F.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s348">Turek (1987) A cholinergic antagonist, mecamylamine, 
+    blocks the phase-shifting effects of light on the circadian rhythm 
+    of locomotor activity in the golden hamster.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s349">Brain Res. 4031308-312.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s350">Kimura, H., H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s351">Tago, H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s352">Akiyama, L.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s353">Hersh, L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s354">Tooyama, and P.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s355">McGeer (1991) Choline acetyltransferase immunopositive 
+    neurons in the lateral septum.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s356">Brain Res. 533:165-170.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s357">King, M.A., P.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s358">Louis, B.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s359">Hunter, and D.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s360">Walker (1989) Biocytin: A versatile anterograde 
+    neuroanatomical tract-tracing alternative.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s361">Brain Res. 497:361-367.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s362">Kow, L., and D.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s363">Pfaff (1984) Suprachiasmatic neurons in tissue slices 
+    from ovariectomized rats: Electrophysiological and 
+    neuropharmacological characterization and effects of estrogen 
+    treatment.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s364">Brain Res. 297:275-286.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s365">Martin, B.R., E.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s366">Onaivi, and T.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s367">Martin (1989) What is the nature of mecamylamine&apos;s 
+    antagonism of the central effects of nicotine?</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s368">Biochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s369">Pharmacol. 38:339 1-3397.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s370">Meijer, J.H., and W.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s371">Rietveld (1989) The neurophysiology of the 
+    suprachiasmatic circadian pacemaker in rodents.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s372">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s373">Rev. 69:671-707.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s374">Meijer, J.H., E. van der Zee, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s375">Dietz (1988) The effects of intraventricular carbachol 
+    injections on the free-running activity rhythm of the hamster.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s376">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s377">Biol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s378">Rhythms. 4:333-348.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s379">Miller, J.D., D.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s380">Murakami, and C.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s381">Fuller (1987) The response of suprachiasmatic neurons of 
+    the rat hypothalamus to photic and nicotinic stimuli.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s382">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s383">Neurosci. 7:978-986.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s384">Miller, M.M., J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s385">Silver, and R.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s386">Billiar (1982) Effects of ovariectomy on the binding of 
+    [&apos;2s11-a-bungarotoxin (2.2 and 3.3) to the suprachiasmatic 
+    nucleus of the hypothalamus: An in vivo autoradiographic 
+    analysis.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s387">Brain Res. 24 7:355-364.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s388">Mufson, E.J., T.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s389">Martin, D.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s390">Mash, B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s391">Wainer, and M.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s392">Mesulam (1986) Cholinergic projections from the 
+    parahigeminal nucleus (Ch8) to the superior colliculus in the 
+    mouse: a combined analysis of horseradish peroxidase transport and 
+    choline acetyltransferase immunohistochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s393">Brain Res. 370:144-148.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s394">Nishino, H., and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s395">Koizumi (1977) Responses of neurons in the 
+    suprachiasmatic nuclei of the hypothalamus to putative 
+    transmitters.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s396">Brain Res. 120:167-172.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s397">J.D., N.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s398">Woolf, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s399">Roghani, R.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s400">Edwards, and L.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s401">Butcher (1992) Cholinergic neurons in the rat central 
+    nervous system demonstrated by in situ hybridization of choline 
+    acetyltransferase mRNA.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s402">Neuroscience 47807-822.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s403">Ojima, H., T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s404">Yamasaki, H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s405">Kojima, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s406">Akashi (1988) Immunohistochemical conditions for 
+    staining choline acetyitransferase-containing terminals in the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s407">Stain Technol. 63:137-143.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s408">Paxinos, G., and C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s409">Watson (1986) The Rat Brain in Stereotaxic 
+    Coordinates.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s410">Second ed.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s411">Sydney: Academic Press.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s412">Pickard, G.E. (1982) The afferent connections of the 
+    suprachiasmatic nucleus of the golden hamster with emphasis on the 
+    retinohypothalamic projection.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s413">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s414">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s415">Neurol. 21 155-83.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s416">Pittendrigh, C.S., and S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s417">Daan (1976) A functional analysis of circadian 
+    pacemakers in nocturnal rodents IV.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s418">Entrainment: Pacemaker as clock.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s419">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s420">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s421">Physiol. 106:291-331.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s422">Rusak, B. (1989) The mammalian J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s423">Biol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s424">Rhythms4:121-134.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s425">Rusak, B., and K.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s426">Bina (1990) Neurotransmitters circadian system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s427">Ann.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s428">Rev.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s429">Neurosci. 13:387-401.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s430">Satoh, K., D.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s431">Armstrong, and H.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s432">Fibiger (1983) A comparison of the distribution of 
+    central cholinergic neurons as demonstrated byacetyicholinesterase 
+    pharmacohistocheniistry and choline acetyltransferase 
+    immunohistochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s433">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s434">Bull. 11:693-720.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s435">Satoh, K, and H.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s436">Fibiger (1986) Cholinergic neurons of the laterodorsal 
+    tegniental nucleus: Efferent and afferent connections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s437">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s438">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s439">Neurol. 253:277-302.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s440">Scherer-Singler, U., S.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s441">Vincent, H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s442">Kimura, and E.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s443">McGeer (1983) Demonstration of a unique population of 
+    neuron with NADPHdiaphorase histochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s444">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s445">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s446">Methods 9:229-234.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s447">Schmued, L.C., and J.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s448">Fallon (1986) Fluoro-Gold: A new fluorescent retrograde 
+    axonal tracer with numerous unique properties.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s449">Brain Res. 377: 147-154.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s450">Segal, M., Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s451">Dudai, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s452">Amsterdam (1978) Distribution of an 
+    a-bungarotoxin-binding cholinergic nicotinic rtsceptor in rat 
+    brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s453">Brain Res. 148:105-119.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s454">Semba, K. (1991) The cholinergic basal forebrain: A 
+    critical role in cortical arousal.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s455">In T.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s456">Napier, P.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s457">Kalivas, and I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s458">Hanin (eds.): The Basal Forebrain: Anatomy to 
+    Function.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s459">New York: Plenum, pp. 197-218.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s460">Steriade, M., and R.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s461">McCarley (1990) Brainstem Control of Wakefulness and 
+    Sleep.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s462">New York: Plenum.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s463">Tago, H., P.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s464">McGeer, G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s465">Bruce, and L.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s466">Hersh (1987) Distribution of choline 
+    acetyltransferase-containing neurons of the hypothalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s467">Brain Res. 415:49-62.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s468">Tago, H., P.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s469">McGeer, E.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s470">McGeer, H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s471">Akiyama, and L.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s472">Hersh (1989) Distribution of choline acetyltransferase 
+    immunopositive structures in the rat brainstem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s473">Brain Res. 495:271-297.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s474">den Pol, A.N. and K.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s475">Tsujimoto (1985) Neurotransmitters of the hypothalamic 
+    suprachiasmatic nucleus: Immunocytochemical analysis of 25 
+    antigens.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s476">Neuroscience 151049-1086.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s477">der Zee, E.A., C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s478">Streefland, A.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s479">Strosberg, H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s480">Schroder, and P.G.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s481">Luiten (1991) Colocalization of muscarinic and nicotinic 
+    receptors in cholinoceptive neurons of the suprachiasmatic region 
+    in young and aged rats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s482">Brain Res. 542348-352.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s483">Vincent, S.R., K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s484">Satoh, D.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s485">Armstrong, and H.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s486">Fibiger (1983) NADPHdiaphorase: a selective 
+    histochemical marker for the cholinergic neurons of the pontine 
+    reticular formation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s487">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s488">Lett. 43:31-36.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s489">Watts, A.G., L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s490">Swanson, and G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s491">Sanchez-Watts (19871 Efferent projections of the 
+    suprachiasmatic nucleus. 1.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s492">Studies using anterograde transport of phaseolus 
+    vulgaris leucoagglutinin in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s493">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s494">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s495">Neurol. 255:204-229.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s496">Youngstrom, T.G, M.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s497">Weiss, and A.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s498">Nunez (1991) Retinofugal projections to the 
+    hypothalamus, anterior thalamus and basal forebrain in hamsters.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s499">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s500">Bull. 26:403-411.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s501">Zahorszky, L., L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s502">Csuha, B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s503">Rosdy, E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s504">MrzeyandM.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s505">Palkovits (1984) Cells of origin of fibres to the 
+    retrochiasmatic area: A horseradish peroxidase study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s506">Acta Morphol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s507">Hungar. 32251-278.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s508">Zatz, M., and M.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s509">Brownstein (1979) Intraventricular carbachol mimics the 
+    effects of light on the circadian rhythm in the rat pineal 
+    gland.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s510">Science 203:358-360.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s511">Zatz, M., and M.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s512">Brownstein (1981) Injection of alpha-bungarotoxin near 
+    the suprachiasmatic nucleus blocks the effects of light on 
+    nocturnal pineal enzyme activity.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s513">Brain Res. 2131438-442.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s514">Zatz, M., and M.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s515">Herkenham (19811 Intraventricular the phase-shifting 
+    effects of light on the circadian running activity.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s516">Brain Res. 212:234-238.</S>
+  </References>
+
+</File>
+

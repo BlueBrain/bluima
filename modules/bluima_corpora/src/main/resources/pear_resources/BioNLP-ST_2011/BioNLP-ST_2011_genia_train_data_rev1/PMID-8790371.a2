@@ -1,0 +1,12 @@
+T12	Protein_catabolism 50 58	cleavage
+T13	Gene_expression 70 80	Expression
+T14	Protein_catabolism 189 197	cleavage
+T15	Negative_regulation 419 427	reducing
+T16	Negative_regulation 582 590	depletes
+T17	Protein_catabolism 782 789	cleaved
+E1	Protein_catabolism:T12 Theme:T2
+E2	Gene_expression:T13 Theme:T3
+E3	Protein_catabolism:T14 Theme:T4
+E4	Negative_regulation:T15 Theme:T6 Cause:T5
+E5	Negative_regulation:T16 Theme:T7
+E6	Protein_catabolism:T17 Theme:T8

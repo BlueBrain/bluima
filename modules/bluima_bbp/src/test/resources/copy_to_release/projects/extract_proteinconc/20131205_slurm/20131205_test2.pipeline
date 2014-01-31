@@ -1,0 +1,16 @@
+##############################################################################
+
+
+
+cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+ inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/
+ isRecursive__java: true
+
+
+include: ../20131204_slurm/20131204_preprocess.incl
+
+include: 20131205_extract_br-br.incl
+
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

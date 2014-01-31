@@ -1,0 +1,8 @@
+T12	Gene_expression 103 112	deficient
+T13	Negative_regulation 670 677	lacking
+T14	Protein_catabolism 997 1008	degradation
+E1	Gene_expression:T12 Theme:T1
+E2	Negative_regulation:T13 Theme:T5
+E3	Negative_regulation:T13 Theme:T6
+E4	Protein_catabolism:T14 Theme:T8
+M1	Negation E1

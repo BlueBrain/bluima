@@ -1,0 +1,53 @@
+to intermediate configurations (Fig. 6 B, inset, middle
+configuration).
+We ran several simulations using the model from Figure 2,
+with initial Gsyn,i as in Figure 2 B, for various spatial potentiation
+patterns with different spatial dispersion indices (SDj 0, 0.5, 1)
+and with different numbers of synapses initially potentiated to
+p 0 150% (np/N 0.1, 0.25, and 0.5). Figure 6, B and C, depicts
+the residual potentiations after g-HSP for these simulations. The
+residual potentiation under g-HSP was indeed larger with in-creased spatial dispersion (Fig. 6 B). At the same time, an increase
+in np/N reduced the size of the residual potentiation. Thus, both
+the number of potentiated synapses and their spatial distribution
+throughout the entire dendritic tree will determine the size of the
+residual potentiation after g-HSP. In Figure 6C, we plotted the
+residual potentiation as a function of the number of potentiated
+synapses for each spatial dispersion pattern and compared these
+plots with the theoretical curve for the isopotential case (dotted
+black line; reproduced from Fig. 1C, for the p 0 150% case). The
+extremely peripheral potentiation patterns (SDj 1; cyan filled
+circles) showed larger residual potentiations than the corresponding potentiations of the same number of synapses in an
+isopotential neuron (black filled circles). The extremely somatocentric potentiation patterns (SDj 0, red filled circles) had
+smaller residual potentiations than in the corresponding isopotential case. The intermediate potentiation patterns (SDj 0.5,
+turquoise filled circles) resulted in residual potentiations that
+were very similar to isopotential levels. We ran an additional set
+of simulations for the somato-centric distribution (SDj 0) in
+which AP generation was blocked (Fig. 6C, red open circles and
+dotted line). This revealed the significant contribution that the
+increased AP firing rate (attributable to the potentiation of proximal synapses) had to the weakening of the residual potentiations
+in the control simulation (Fig. 6C, solid red line). However, even
+in the absence of APs, the residual potentiation of the somatocentric potentiation patterns was still distinguishable from that of
+the peripheral patterns (compare red open circles with cyan filled
+circles). The lack of APs had no significant impact on the residual
+potentiations for the intermediate (SDj 0.5) and peripheral
+(SDj 1) configurations (data not shown).
+We conclude that a g-HSP mechanism, based on activity at the
+soma, will weaken synaptic potentiations according to their spatial distribution throughout the dendrites. np potentiated synapses spatially distributed in a somato-centric pattern will be
+weakened more than an equal number of potentiated synapses in
+the corresponding isopotential neuron. Indeed, in an electrically
+distributed dendritic tree, the influence of proximal potentiated
+synapses, relative to the other nonpoteniated ones, is greater than
+in the corresponding isopotential case. For the same reasons, a
+peripheral pattern of potentiated synapses will be weakened less
+than in an isopotential neuron.
+Under l-HSP, as we have seen (Figs. 4, 5A, middle, 5B, middle), the amount of weakening of potentiated synapses is mainly
+determined at the level of the dendritic branch, according to the
+degree of sparseness of the potentiated synapses on that branch.
+As a first approximation for this branch-specific sparseness, we
+chose the probability of potentiation, pLTPk, of synapses on
+branch k. This measure is related to the ratio of the number of
+potentiated synapses to the total number of synapses, np,k/Nk,
+used to analytically predict the residual potentiation in the isopotential case (Fig. 1C). In dendritic trees, the pLTPk we applied also
+reflects the spatial distribution of the potentiated synapses (e.g.,
+with low pLTPk, the chances that the potentiated synapses will be
+spatially segregated is high). In Figure 6 D, we plotted the average

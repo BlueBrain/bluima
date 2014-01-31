@@ -1,0 +1,32 @@
+
+cr: TextArrayReader
+ input__java: new String[]{"The cerebellum contains 1 mM albumin."}
+
+# TODO Phil this should work:
+# input__java: new String[]{"The cerebellum contains 1 mM of albumin."}
+
+
+#cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+# inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/
+# isRecursive__java: true
+
+
+########################################################################################
+include: 20131116_extract_proteinconc.incl
+########################################################################################
+
+ae: TestAnnotator
+ expects: ch.epfl.bbp.uima.types.Concentration 1
+
+ae: TestAnnotator
+ expects: ch.epfl.bbp.uima.types.Protein 1
+
+ae: TestAnnotator
+ expects: ch.epfl.bbp.uima.types.BrainRegion 1
+
+
+#1 prot - conc
+#2 br - prot - conc
+ae: TestAnnotator
+ expects: ch.epfl.bbp.uima.types.Cooccurrence 2
+

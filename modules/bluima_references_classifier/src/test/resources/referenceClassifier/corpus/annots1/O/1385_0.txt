@@ -1,0 +1,20 @@
+2.2.1. Central Linear Medialness
+
+An example of a central linear medialness function is the linear convolution
+
+M(x,y, )=K(x,y; ) I(x,y),wherethekernelisthenormalizedLaplacianofaGaussian*G(x,y; ):
+R2
+2 - R2 - x y
+=- 2 + =- 2 = 2+ 2
+K(x,y,)(GxxGyy)e,whereR()().Fig.2.2showsarendered
+2
+
+
+
+graph of the kernel and medialness of a binary object at small, medium, and large scale. This medialness
+
+is extensively used in [16, 17] for extracting anatomic objects with nonparallel sides, approximately
+
+uniform interiors, edges of fixed contrast polarity, and possibly low signal to noise ratio in portal
+
+radiographs, CT scans, MR images, and other medical images.

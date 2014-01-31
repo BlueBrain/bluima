@@ -1,0 +1,9 @@
+*	Equiv T3 T2
+T5	Positive_regulation 477 489	upregulation
+T6	Negative_regulation 572 580	inhibits
+T7	Positive_regulation 589 597	mediated
+T8	Transcription 598 607	induction
+E1	Positive_regulation:T5 Theme:T3
+E2	Negative_regulation:T6 Theme:E4
+E3	Positive_regulation:T7 Theme:E4
+E4	Transcription:T8 Theme:T4

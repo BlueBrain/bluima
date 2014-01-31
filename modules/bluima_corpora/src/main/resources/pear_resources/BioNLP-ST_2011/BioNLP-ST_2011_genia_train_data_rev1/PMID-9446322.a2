@@ -1,0 +1,13 @@
+*	Equiv T2 T1
+T6	Regulation 168 179	stimulating
+T7	Gene_expression 201 216	gene expression
+T8	Positive_regulation 496 507	stimulation
+T9	Transcription 524 533	synthesis
+T10	Negative_regulation 604 621	protective effect
+T11	Transcription 651 660	synthesis
+E1	Regulation:T6 Theme:E2
+E2	Gene_expression:T7 Theme:T2
+E3	Positive_regulation:T8 Theme:E4
+E4	Transcription:T9 Theme:T4
+E5	Negative_regulation:T10 Theme:E6
+E6	Transcription:T11 Theme:T5

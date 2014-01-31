@@ -1,0 +1,47 @@
+T21	Negative_regulation 42 68	transcriptional inhibitors
+T22	Binding 201 208	complex
+T23	Entity 221 229	promoter
+T24	Positive_regulation 233 242	essential
+T25	Transcription 252 265	transcription
+T26	Positive_regulation 395 403	screened
+T27	Negative_regulation 408 418	inhibitors
+T28	Positive_regulation 429 437	mediated
+T29	Negative_regulation 517 527	inhibitors
+T30	Negative_regulation 550 559	inhibited
+T31	Transcription 584 590	levels
+T32	Gene_expression 698 709	transfected
+T33	Positive_regulation 698 709	transfected
+T34	Negative_regulation 809 818	inhibited
+T35	Transcription 841 847	levels
+T36	Gene_expression 841 847	levels
+T37	Negative_regulation 1034 1043	inhibited
+T38	Gene_expression 1049 1059	production
+T39	Positive_regulation 1060 1067	induced
+T40	Positive_regulation 1173 1180	induced
+T41	Gene_expression 1186 1196	production
+T42	Regulation 1227 1234	altered
+T43	Binding 1246 1269	transcriptional complex
+E1	Negative_regulation:T21 Theme:T1
+E2	Binding:T22 Theme:T3 Theme2:T4 Site2:T23
+E3	Positive_regulation:T24 Theme:E4 Cause:E2
+E4	Transcription:T25 Theme:T5
+E5	Positive_regulation:T26 Theme:E6
+E6	Negative_regulation:T27 Theme:T9
+E7	Positive_regulation:T28 Theme:T9 Cause:T8
+E8	Negative_regulation:T29 Theme:T9
+E9	Negative_regulation:T30 Theme:E10
+E10	Transcription:T31 Theme:T10
+E11	Gene_expression:T32 Theme:T12
+E12	Positive_regulation:T33 Theme:E11
+E13	Negative_regulation:T34 Theme:E16
+E14	Negative_regulation:T34 Theme:E15
+E15	Transcription:T35 Theme:T13
+E16	Gene_expression:T36 Theme:T13
+E17	Negative_regulation:T37 Theme:E18
+E18	Gene_expression:T38 Theme:T17
+E19	Positive_regulation:T39 Theme:E18
+E20	Positive_regulation:T40 Theme:E21
+E21	Gene_expression:T41 Theme:T18
+E22	Regulation:T42 Theme:E23
+E23	Binding:T43 Theme:T19
+M1	Speculation E5

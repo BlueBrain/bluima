@@ -1,0 +1,52 @@
+T57	Positive_regulation 714 728	overexpression
+T58	Positive_regulation 979 992	overexpressed
+T59	Gene_expression 1251 1265	overexpression
+T60	Positive_regulation 1708 1722	overexpression
+T61	Gene_expression 1749 1761	transfection
+T62	Binding 1965 1973	interact
+T63	Positive_regulation 2000 2014	overexpression
+T64	Negative_regulation 2217 2232	down-regulating
+T65	Gene_expression 2237 2247	expression
+T66	Binding 2368 2377	interacts
+T67	Localization 2503 2515	localization
+T68	Entity 2523 2530	nucleus
+T69	Binding 2715 2726	associating
+T70	Positive_regulation 3185 3199	overexpression
+T71	Negative_regulation 3317 3328	interfacing
+T72	Transcription 3800 3810	expression
+T73	Transcription 3937 3948	synthesized
+T74	Negative_regulation 3962 3976	down-regulated
+T75	Transcription 4024 4032	produced
+T76	Regulation 4108 4114	affect
+T77	Gene_expression 4122 4132	expression
+T78	Negative_regulation 4179 4189	repressing
+T79	Gene_expression 4194 4204	expression
+E1	Positive_regulation:T57 Theme:T8
+E2	Positive_regulation:T58 Theme:T12
+E3	Positive_regulation:T58 Theme:T13
+E4	Positive_regulation:T58 Theme:T14
+E5	Gene_expression:T59 Theme:T16
+E6	Gene_expression:T59 Theme:T17
+E7	Positive_regulation:T60 Theme:T21
+E8	Gene_expression:T61 Theme:T22
+E9	Binding:T62 Theme:T25
+E10	Positive_regulation:T63 Theme:T26
+E11	Negative_regulation:T64 Theme:E12 Cause:T29
+E12	Gene_expression:T65 Theme:T30
+E13	Binding:T66 Theme:T31
+E14	Localization:T67 Theme:T31 ToLoc:T68
+E15	Binding:T69 Theme:T33 Theme2:T34
+E16	Positive_regulation:T70 Theme:T41
+E17	Positive_regulation:T70 Theme:T42
+E18	Negative_regulation:T71 Theme:T45 Cause:T43
+E19	Transcription:T72 Theme:T50
+E20	Transcription:T73 Theme:T51
+E21	Negative_regulation:T74 Theme:E20 Cause:T52
+E22	Transcription:T75 Theme:T51
+E23	Regulation:T76 Theme:E24 Cause:T53
+E24	Gene_expression:T77 Theme:T54
+E25	Negative_regulation:T78 Theme:E26 Cause:T55
+E26	Gene_expression:T79 Theme:T56
+M1	Speculation E13
+M2	Speculation E15
+M3	Negation E23

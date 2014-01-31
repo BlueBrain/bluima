@@ -1,0 +1,7 @@
+T11	Gene_expression 490 500	expression
+T12	Negative_regulation 665 669	lack
+T13	Negative_regulation 896 918	displayed lower levels
+E1	Gene_expression:T11 Theme:T5
+E2	Negative_regulation:T12 Theme:T7
+E3	Negative_regulation:T13 Theme:T9
+M1	Negation E1

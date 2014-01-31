@@ -1,0 +1,15 @@
+#
+# prints tokens for analysis 
+#
+
+cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+ inputDirectory: /Users/richarde/Desktop/BBP_experiments/9_LDA/20130608_fix_preprocessing/TooMuchOOV_check_files
+ isRecursive__java: true 
+
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+
+
+ae: ch.epfl.bbp.uima.projects.preprocessing.PrintTokensAnnotator

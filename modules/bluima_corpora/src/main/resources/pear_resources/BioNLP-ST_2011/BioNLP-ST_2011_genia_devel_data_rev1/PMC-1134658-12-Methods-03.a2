@@ -1,0 +1,8 @@
+T21	Gene_expression 670 687	Expression levels
+T22	Negative_regulation 770 777	blocked
+E1	Gene_expression:T21 Theme:T14
+E2	Gene_expression:T21 Theme:T15
+E3	Negative_regulation:T22 Theme:E1
+E4	Negative_regulation:T22 Theme:E2
+M1	Speculation E1
+M2	Speculation E2

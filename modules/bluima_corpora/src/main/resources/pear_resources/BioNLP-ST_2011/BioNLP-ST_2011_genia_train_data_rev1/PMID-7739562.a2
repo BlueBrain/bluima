@@ -1,0 +1,27 @@
+T13	Phosphorylation 504 518	phosphorylated
+T14	Protein_catabolism 523 531	degraded
+T15	Positive_regulation 532 546	in response to
+T16	Negative_regulation 1143 1152	prevented
+T17	Positive_regulation 1157 1164	induced
+T18	Phosphorylation 1165 1180	phosphorylation
+T19	Protein_catabolism 1182 1198	degradative loss
+T20	Phosphorylation 1787 1802	phosphorylation
+T21	Protein_catabolism 1814 1825	proteolytic
+T22	Regulation 1977 1985	controls
+T23	Positive_regulation 2044 2058	in response to
+E1	Phosphorylation:T13 Theme:T2
+E2	Protein_catabolism:T14 Theme:T2
+E3	Positive_regulation:T15 Theme:E2 Cause:T3
+E4	Positive_regulation:T15 Theme:E1 Cause:T3
+E5	Positive_regulation:T15 Theme:E2
+E6	Positive_regulation:T15 Theme:E1
+E7	Negative_regulation:T16 Theme:E10 Cause:T5
+E8	Negative_regulation:T16 Theme:E9 Cause:T5
+E9	Positive_regulation:T17 Theme:E11
+E10	Positive_regulation:T17 Theme:E12
+E11	Phosphorylation:T18 Theme:T7
+E12	Protein_catabolism:T19 Theme:T7
+E13	Phosphorylation:T20 Theme:T7
+E14	Protein_catabolism:T21 Theme:T7
+E15	Regulation:T22 Theme:T12
+E16	Positive_regulation:T23 Theme:E15

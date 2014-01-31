@@ -1,0 +1,13 @@
+*	Equiv T8 T7
+T13	Positive_regulation 846 855	induction
+T14	Regulation 996 1005	dependent
+T15	Gene_expression 1015 1029	overexpression
+T16	Positive_regulation 1015 1029	overexpression
+T17	Positive_regulation 1039 1046	results
+T18	Positive_regulation 1054 1064	activation
+E1	Positive_regulation:T13 Theme:T8
+E2	Regulation:T14 Theme:E1 Cause:T10
+E3	Gene_expression:T15 Theme:T11
+E4	Positive_regulation:T16 Theme:E3
+E5	Positive_regulation:T17 Theme:E6 Cause:E4
+E6	Positive_regulation:T18 Theme:T12

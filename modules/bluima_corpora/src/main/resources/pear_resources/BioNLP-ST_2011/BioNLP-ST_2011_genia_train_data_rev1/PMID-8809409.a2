@@ -1,0 +1,15 @@
+T13	Regulation 0 10	Regulation
+T14	Transcription 26 39	transcription
+T15	Positive_regulation 77 87	activation
+T16	Entity 232 240	promoter
+T17	Entity 245 253	enhancer
+T18	Binding 269 276	binding
+T19	Binding 555 562	binding
+T20	Regulation 1501 1513	dysregulated
+E1	Regulation:T13 Theme:E2
+E2	Transcription:T14 Theme:T1
+E3	Positive_regulation:T15 Theme:T2
+E4	Binding:T18 Theme:T4 Site:T16
+E5	Binding:T18 Theme:T4 Site:T17
+E6	Binding:T19 Theme:T5
+E7	Regulation:T20 Theme:T12

@@ -1,0 +1,18 @@
+Dendritic Na current reduces synaptic threshold but does
+not contribute to the NMDA spike once it is initiated
+Although experiments using laser uncaging of glutamate in TTX
+(Schiller et al., 2000) have established that NMDA spikes do not
+depend on Na current, it remains possible that the Na channels that populate the basal dendrites of layer 5 pyramidal cells
+(Rhodes and Gray, 1994; Antic, 2003) could be involved in driving the event under control conditions. To test this possibility,
+superthreshold paired-pulse stimulation was applied in control
+conditions, and the response was compared with that after all
+Na channels were turned off. The results indicated that dendritic Na current reduces the threshold stimulation level, which
+is consistent with the behavior of this system in vitro (Schiller et
+al., 2000). In simulations, a 20% threshold increase was typical,
+remarkably similar to the 29% increase in threshold observed
+in TTX in vitro by Schiller et al. (2000). This correspondence
+indicates that the contribution of dendritic Na current to the
+initiation of an NMDA spike in the simulation was close to
+that observed physiologically and supports the plausibility of
+the Na conductance density chosen for the basal dendrites in
+the model cell.

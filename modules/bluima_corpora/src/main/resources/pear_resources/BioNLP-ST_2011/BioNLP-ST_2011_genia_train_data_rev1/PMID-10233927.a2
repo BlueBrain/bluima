@@ -1,0 +1,18 @@
+T9	Positive_regulation 446 455	induction
+T10	Positive_regulation 474 483	dependent
+T11	Regulation 519 529	alteration
+T12	Regulation 562 573	independent
+T13	Positive_regulation 611 620	occurring
+T14	Binding 681 686	binds
+T15	Gene_expression 969 979	expression
+T16	Regulation 1014 1023	regulated
+E1	Positive_regulation:T9 Theme:T1
+E2	Positive_regulation:T10 Theme:E1
+E3	Regulation:T11 Theme:T2
+E4	Regulation:T12 Theme:E3
+E5	Positive_regulation:T13 Theme:E3
+E6	Binding:T14 Theme:T3
+E7	Gene_expression:T15 Theme:T4
+E8	Gene_expression:T15 Theme:T5
+E9	Regulation:T16 Theme:T6
+M1	Negation E4

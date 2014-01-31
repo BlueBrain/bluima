@@ -1,0 +1,41 @@
+T24	Negative_regulation 0 12	Inactivation
+T25	Binding 247 259	interactions
+T26	Phosphorylation 409 423	phosphorylated
+T27	Protein_catabolism 444 452	degraded
+T28	Positive_regulation 453 455	by
+T29	Gene_expression 661 671	expressing
+T30	Positive_regulation 789 796	targets
+T31	Protein_catabolism 817 845	ubiquitin-proteasome pathway
+T32	Regulation 1017 1023	acting
+T33	Positive_regulation 1142 1150	mediated
+T34	Protein_catabolism 1151 1160	breakdown
+T35	Gene_expression 1179 1190	transfected
+T36	Positive_regulation 1179 1190	transfected
+T37	Negative_regulation 1208 1215	blocked
+T38	Positive_regulation 1468 1478	stimulates
+T39	Positive_regulation 1489 1497	directed
+T40	Transcription 1498 1511	transcription
+T41	Gene_expression 1572 1582	expression
+T42	Negative_regulation 1598 1611	downregulated
+T43	Gene_expression 1760 1770	expressing
+E1	Negative_regulation:T24 Theme:T1 Cause:T2
+E2	Binding:T25 Theme:T3
+E3	Binding:T25 Theme:T4
+E4	Phosphorylation:T26 Theme:T5
+E5	Protein_catabolism:T27 Theme:T5
+E6	Positive_regulation:T28 Theme:E5
+E7	Gene_expression:T29 Theme:T6
+E8	Positive_regulation:T30 Theme:E9 Cause:T7
+E9	Protein_catabolism:T31 Theme:T8
+E10	Regulation:T32 Theme:T9 Cause:T10
+E11	Positive_regulation:T33 Theme:E12 Cause:T13
+E12	Protein_catabolism:T34 Theme:T14
+E13	Gene_expression:T35 Theme:T13
+E14	Positive_regulation:T36 Theme:E13
+E15	Negative_regulation:T37 Theme:E13
+E16	Positive_regulation:T38 Theme:E17 Cause:T19
+E17	Positive_regulation:T39 Theme:E18
+E18	Transcription:T40 Theme:T20
+E19	Gene_expression:T41 Theme:T21
+E20	Negative_regulation:T42 Theme:E19
+E21	Gene_expression:T43 Theme:T23

@@ -1,0 +1,22 @@
+*	Equiv T6 T5
+T10	Positive_regulation 634 642	promoted
+T11	Localization 647 657	appearance
+T12	Entity 725 732	nucleus
+T13	Protein_catabolism 903 914	proteolysis
+T14	Positive_regulation 940 947	induced
+T15	Positive_regulation 1343 1355	treated with
+T16	Localization 1369 1377	released
+T17	Localization 1468 1475	release
+T18	Positive_regulation 1922 1932	subsequent
+T19	Localization 1943 1950	release
+E1	Positive_regulation:T10 Theme:E3
+E2	Positive_regulation:T10 Theme:E4
+E3	Localization:T11 Theme:T1 AtLoc:T12
+E4	Localization:T11 Theme:T2 AtLoc:T12
+E5	Protein_catabolism:T13 Theme:T3
+E6	Positive_regulation:T14 Theme:E5
+E7	Positive_regulation:T15 Theme:E8
+E8	Localization:T16 Theme:T6
+E9	Localization:T17 Theme:T7
+E10	Positive_regulation:T18 Theme:E11
+E11	Localization:T19 Theme:T9

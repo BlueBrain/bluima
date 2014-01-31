@@ -1,0 +1,25 @@
+#
+# stemming NeuroNames
+#
+
+cr: TextLineReader
+ inputFile: /Users/richarde/Desktop/BBP_experiments/21_NLP_morphology_brainregions/neuronames_aggregated.txt
+
+# preprocessing
+include: ../../includes/preprocess.incl
+
+#python:
+#import re
+# importing Java packages
+# see http://wiki.python.org/jython/UserGuide#accessing-java-from-jython
+#from ch.epfl.bbp.uima.types import Protein
+# jcas object is made available to this script. use it like any python object.
+#tokens = org.uimafit.util.JCasUtil.select(jcas, de.julielab.jules.types.Token)
+
+
+
+
+ae: SentenceDumpAnnotator
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 30

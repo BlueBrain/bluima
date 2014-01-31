@@ -1,0 +1,6 @@
+T8	Negative_regulation 1596 1615	decreased or absent
+T9	Positive_regulation 1657 1681	transcriptionally active
+E1	Negative_regulation:T8 Theme:T5
+E2	Positive_regulation:T9 Theme:T6
+E3	Positive_regulation:T9 Theme:T7
+M1	Negation E3

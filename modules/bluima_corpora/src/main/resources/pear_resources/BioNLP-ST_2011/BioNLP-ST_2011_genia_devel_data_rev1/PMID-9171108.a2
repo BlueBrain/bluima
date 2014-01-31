@@ -1,0 +1,15 @@
+*	Equiv T2 T1
+*	Equiv T5 T6
+T15	Binding 35 44	interacts
+T16	Negative_regulation 691 729	displays a dominant negative phenotype
+T17	Entity 736 753	activation domain
+T18	Binding 763 772	interacts
+T19	Negative_regulation 954 961	reduced
+T20	Binding 962 969	binding
+T21	Binding 999 1011	interactions
+E1	Binding:T15 Theme:T2 Theme2:T4
+E2	Negative_regulation:T16 Theme:T8
+E3	Binding:T18 Theme:T9 Theme2:T10 Site:T17
+E4	Negative_regulation:T19 Theme:E5
+E5	Binding:T20 Theme:T11 Theme2:T12
+E6	Binding:T21 Theme:T13 Theme2:T14

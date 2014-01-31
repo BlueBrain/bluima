@@ -1,0 +1,47 @@
+T17	Negative_regulation 0 11	Stimulation
+T18	Gene_expression 58 68	production
+T19	Negative_regulation 120 130	inhibitors
+T20	Negative_regulation 296 306	inhibitors
+T21	Positive_regulation 374 382	increase
+T22	Positive_regulation 387 404	mRNA accumulation
+T23	Gene_expression 409 428	cytokine production
+T24	Positive_regulation 534 544	because of
+T25	Positive_regulation 681 692	stimulation
+T26	Positive_regulation 808 817	increased
+T27	Localization 895 904	secretion
+T28	Positive_regulation 966 977	stimulation
+T29	Positive_regulation 1007 1019	accumulation
+T30	Positive_regulation 1025 1036	stimulation
+T31	Gene_expression 1060 1070	production
+T32	Phosphorylation 1149 1164	phosphorylation
+T33	Positive_regulation 1215 1224	increased
+E1	Negative_regulation:T17 Theme:E5 Cause:T4
+E2	Negative_regulation:T17 Theme:E6 Cause:T3
+E3	Negative_regulation:T17 Theme:E5 Cause:T3
+E4	Negative_regulation:T17 Theme:E6 Cause:T4
+E5	Gene_expression:T18 Theme:T2
+E6	Gene_expression:T18 Theme:T1
+E7	Negative_regulation:T19 Theme:T4
+E8	Negative_regulation:T19 Theme:T3
+E9	Negative_regulation:T20 Theme:T6
+E10	Negative_regulation:T20 Theme:T5
+E11	Positive_regulation:T21 Theme:E15
+E12	Positive_regulation:T21 Theme:E16
+E13	Positive_regulation:T21 Theme:E18
+E14	Positive_regulation:T21 Theme:E17
+E15	Positive_regulation:T22 Theme:T8
+E16	Positive_regulation:T22 Theme:T7
+E17	Gene_expression:T23 Theme:T7
+E18	Gene_expression:T23 Theme:T8
+E19	Positive_regulation:T24 Theme:E12
+E20	Positive_regulation:T24 Theme:E11
+E21	Positive_regulation:T25 Theme:T9
+E22	Positive_regulation:T26 Theme:E23
+E23	Localization:T27 Theme:T10
+E24	Positive_regulation:T28 Theme:E25
+E25	Positive_regulation:T29 Theme:T11
+E26	Positive_regulation:T30 Theme:E27
+E27	Gene_expression:T31 Theme:T12
+E28	Gene_expression:T31 Theme:T13
+E29	Phosphorylation:T32 Theme:T14
+E30	Positive_regulation:T33 Theme:E29

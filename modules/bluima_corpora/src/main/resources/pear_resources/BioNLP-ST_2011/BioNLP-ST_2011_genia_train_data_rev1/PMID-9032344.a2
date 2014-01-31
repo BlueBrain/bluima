@@ -1,0 +1,23 @@
+T14	Gene_expression 13 23	expression
+T15	Negative_regulation 77 86	decreases
+T16	Gene_expression 788 797	expressed
+T17	Negative_regulation 860 869	decreased
+T18	Positive_regulation 891 902	in favor of
+T19	Gene_expression 998 1007	expressed
+T20	Positive_regulation 1098 1104	induce
+E1	Gene_expression:T14 Theme:T1
+E2	Negative_regulation:T15 Theme:E1
+E3	Gene_expression:T16 Theme:T2
+E4	Negative_regulation:T17 Theme:E3
+E5	Positive_regulation:T18 Theme:T4
+E6	Positive_regulation:T18 Theme:T5
+E7	Positive_regulation:T18 Theme:T6
+E8	Positive_regulation:T18 Theme:T3
+E9	Gene_expression:T19 Theme:T7
+E10	Gene_expression:T19 Theme:T9
+E11	Gene_expression:T19 Theme:T8
+E12	Gene_expression:T19 Theme:T10
+E13	Positive_regulation:T20 Theme:T11
+E14	Positive_regulation:T20 Theme:T12
+M1	Negation E13
+M2	Negation E14

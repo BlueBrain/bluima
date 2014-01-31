@@ -1,0 +1,31 @@
+T11	Positive_regulation 344 354	stimulated
+T12	Gene_expression 404 414	expression
+T13	Positive_regulation 603 613	stimulated
+T14	Gene_expression 656 666	expression
+T15	Negative_regulation 852 861	decreased
+T16	Positive_regulation 886 895	increases
+T17	Positive_regulation 925 934	increased
+T18	Negative_regulation 978 985	blocked
+T19	Positive_regulation 1045 1055	stimulated
+T20	Gene_expression 1063 1073	expression
+T21	Positive_regulation 1089 1099	stimulated
+T22	Gene_expression 1100 1110	expression
+T23	Positive_regulation 1237 1246	increased
+T24	Positive_regulation 1582 1592	upregulate
+E1	Positive_regulation:T11 Theme:E2
+E2	Gene_expression:T12 Theme:T1
+E3	Positive_regulation:T13 Theme:E4
+E4	Gene_expression:T14 Theme:T3
+E5	Negative_regulation:T15 Theme:E6
+E6	Positive_regulation:T16 Theme:T4
+E7	Positive_regulation:T17 Theme:T5
+E8	Negative_regulation:T18 Theme:E7
+E9	Positive_regulation:T19 Theme:E10
+E10	Gene_expression:T20 Theme:T6
+E11	Positive_regulation:T21 Theme:E13
+E12	Positive_regulation:T21 Theme:E14
+E13	Gene_expression:T22 Theme:T7
+E14	Gene_expression:T22 Theme:T8
+E15	Positive_regulation:T23 Theme:T9
+E16	Positive_regulation:T24 Theme:T10
+M1	Negation E9

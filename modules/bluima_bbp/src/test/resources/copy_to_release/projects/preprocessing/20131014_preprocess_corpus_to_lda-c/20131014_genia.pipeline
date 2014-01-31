@@ -1,0 +1,34 @@
+#####################
+##################################
+# Outputs the preprocessed
+# Genia corpus in LDA-C format
+##################################
+
+cr: GeniaCorpusCollectionReader
+
+# TOKENIZE
+include: ../../../includes/preprocess.incl
+
+# FILTERING FRAMEWORK
+ae: ch.epfl.bbp.uima.filter.Tokens2KeepAnnotator
+
+
+ae: BioLemmatizerNormalizerAnnotator
+
+ae: ch.epfl.bbp.uima.filter.MeasureNormalizerAnnotator
+
+ae: ch.epfl.bbp.uima.filter.StopwordFilterAnnotator
+
+ae: ch.epfl.bbp.uima.filter.PunctuationFilterAnnotator
+
+
+
+# OUTPUT in LDA-C format
+ae: ch.epfl.bbp.uima.ae.output.LdaCWriter
+ outputFile: target/genia.lda-c
+ vocabularyOutputFile: target/genia.lda-c.vocab
+
+#ae: ch.epfl.bbp.uima.filter.KeepsDumper
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

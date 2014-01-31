@@ -1,0 +1,16 @@
+Similarly, more upstream in the signal flow, the desired
+force FiD is also calculated as the algebraic sum of two
+signals: (1) the premotor signal .i which is the desired
+D
+
+
+velocity .D with the appropriate sign (see below); and (2)
+the output signals QGi issued from the side-circuit which
+computes an approximate inverse function of Gi.
+The input signal received by the internal model Gi* is
+an internal estimate FiD* of the desired force which acts on
+Gi itself. It is calculated by adding QGi and .i , the desired
+D
+
+
+angular velocity of the movement of the articulation.

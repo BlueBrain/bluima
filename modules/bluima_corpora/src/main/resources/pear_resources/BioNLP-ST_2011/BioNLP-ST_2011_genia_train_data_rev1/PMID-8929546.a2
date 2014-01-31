@@ -1,0 +1,4 @@
+T2	Positive_regulation 302 310	inducing
+T3	Gene_expression 343 353	expression
+E1	Positive_regulation:T2 Theme:E2
+E2	Gene_expression:T3 Theme:T1

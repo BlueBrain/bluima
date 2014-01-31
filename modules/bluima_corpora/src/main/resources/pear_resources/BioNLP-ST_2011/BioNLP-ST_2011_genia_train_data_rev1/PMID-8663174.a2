@@ -1,0 +1,33 @@
+*	Equiv T2 T3
+T12	Positive_regulation 35 43	required
+T13	Positive_regulation 48 58	activation
+T14	Positive_regulation 147 158	responsible
+T15	Gene_expression 195 205	expression
+T16	Gene_expression 334 344	expression
+T17	Regulation 348 358	controlled
+T18	Gene_expression 641 651	expression
+T19	Gene_expression 746 756	expression
+T20	Positive_regulation 828 851	as the minimum sequence
+T21	Gene_expression 880 890	expression
+T22	Positive_regulation 1045 1065	play a critical role
+T23	Entity 1079 1087	promoter
+T24	Binding 1210 1214	bind
+T25	Negative_regulation 1309 1318	abolished
+T26	Positive_regulation 1466 1475	essential
+T27	Gene_expression 1490 1500	expression
+E1	Positive_regulation:T12 Theme:E2
+E2	Positive_regulation:T13 Theme:T1
+E3	Positive_regulation:T14 Theme:E4
+E4	Gene_expression:T15 Theme:T2
+E5	Gene_expression:T16 Theme:T4
+E6	Regulation:T17 Theme:E5
+E7	Gene_expression:T18 Theme:T6
+E8	Gene_expression:T19 Theme:T7
+E9	Positive_regulation:T20 Theme:E10
+E10	Gene_expression:T21 Theme:T8
+E11	Positive_regulation:T22 Theme:T9 Site:T23
+E12	Binding:T24 Theme:T10
+E13	Negative_regulation:T25 Theme:E12
+E14	Positive_regulation:T26 Theme:E15 Cause:T10
+E15	Gene_expression:T27 Theme:T11
+M1	Speculation E3

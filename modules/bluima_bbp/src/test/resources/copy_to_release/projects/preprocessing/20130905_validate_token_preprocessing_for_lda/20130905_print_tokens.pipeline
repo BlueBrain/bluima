@@ -1,0 +1,17 @@
+#
+# prints tokens for analysis 
+#
+
+cr: SingleFileReader
+ #inputFile: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/crawled_bams_pdfs/$1.pdf
+ inputFile:  /Volumes/HDD2/ren_data/data_hdd/_papers_etc/bbp_people/people/$1
+
+ae: ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator
+
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+
+
+ae: ch.epfl.bbp.uima.projects.preprocessing.PrintTokensAnnotator

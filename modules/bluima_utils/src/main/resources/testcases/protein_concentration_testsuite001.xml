@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSuiteCorpus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BBRelMine"
+         version="ProtConc001 ($Revision: 58 $ $Date: 2011-11-29 18:00:59 +0100 (Tue, 29 Nov 2011) $)"
+         xsi:noNamespaceSchemaLocation="protein_concentration_testsuite.xsd">
+  <!-- ====================================================================== -->
+  <result>
+    <input>
+      <sentencesId>
+        <corpusId>PubMed</corpusId>
+        <documentId>15659591</documentId>
+        <paragraphId>1</paragraphId>
+        <sentenceNo>6</sentenceNo>
+      </sentencesId>
+      <rawContent>Using this calibration procedure, we find that mature granule cells (doublecortin-) contain approximately 40 microm, and newborn granule cells (doublecortin+) contain 0-20 microm calbindin-D28k.</rawContent>
+      <tokenization>
+        <token id="1"><from>0</from><to>5</to></token>              <!-- Using -->
+        <token id="2"><from>6</from><to>10</to></token>             <!-- this -->
+        <token id="3"><from>11</from><to>22</to></token>            <!-- calibration -->
+        <token id="4"><from>23</from><to>32</to></token>            <!-- procedure -->
+        <token id="5"><from>32</from></token>                       <!-- , -->
+        <token id="6"><from>34</from><to>36</to></token>            <!-- we -->
+        <token id="7"><from>37</from><to>41</to></token>            <!-- find -->
+        <token id="8"><from>42</from><to>46</to></token>            <!-- that -->
+        <token id="9"><from>47</from><to>53</to></token>            <!-- mature -->
+        <token id="10"><from>54</from><to>61</to></token>           <!-- granule -->
+        <token id="11"><from>62</from><to>67</to></token>           <!-- cells -->
+        <token id="12"><from>68</from></token>                      <!-- ( -->
+        <token id="13"><from>69</from><to>82</to></token>           <!-- doublecortin- -->
+        <token id="14"><from>82</from></token>                      <!-- ) -->
+        <token id="15"><from>84</from><to>91</to></token>           <!-- contain -->
+        <token id="16"><from>92</from><to>105</to></token>          <!-- approximately -->
+        <token id="17"><from>106</from><to>108</to></token>         <!-- 40 -->
+        <token id="18"><from>109</from><to>115</to></token>         <!-- microm -->
+        <token id="19"><from>115</from></token>                     <!-- , -->
+        <token id="20"><from>117</from><to>120</to></token>         <!-- and -->
+        <token id="21"><from>121</from><to>128</to></token>         <!-- newborn -->
+        <token id="22"><from>129</from><to>136</to></token>         <!-- granule -->
+        <token id="23"><from>137</from><to>142</to></token>         <!-- cells -->
+        <token id="24"><from>143</from></token>                     <!-- ( -->
+        <token id="25"><from>144</from><to>157</to></token>         <!-- doublecortin+ -->
+        <token id="26"><from>157</from></token>                     <!-- ) -->
+        <token id="27"><from>159</from><to>166</to></token>         <!-- contain -->
+        <token id="28"><from>167</from><to>171</to></token>         <!-- 0-20 -->
+        <token id="29"><from>172</from><to>178</to></token>         <!-- microm -->
+        <token id="30"><from>179</from><to>193</to></token>         <!-- calbindin-D28k -->
+        <token id="31"><from>193</from></token>                     <!-- . -->
+      </tokenization>
+    </input>
+    <output>
+      <protein id="swissprot:xxx">
+        <proteinName>calbindin-D28k</proteinName>
+        <tokens>
+          <tokenId>30</tokenId>
+        </tokens>
+      </protein>
+      <cellType id="???">
+        <cellTypeName>mature granule</cellTypeName>
+        <tokens>
+          <tokenId>9</tokenId>
+          <tokenId>10</tokenId>
+          <tokenId>11</tokenId>
+          <tokenId>12</tokenId>
+          <tokenId>13</tokenId>
+          <tokenId>14</tokenId>
+          <tokenId>15</tokenId>
+        </tokens>
+      </cellType>
+      <concentration>
+        <value>approximately 40 microM</value>
+        <tokens>
+          <tokenId>16</tokenId>
+          <tokenId>17</tokenId>
+          <tokenId>18</tokenId>
+        </tokens>
+      </concentration>
+    </output>
+    <output>
+      <protein id="swissprot:xxx">
+        <proteinName>calbindin-D28k</proteinName>
+        <tokens>
+          <tokenId>30</tokenId>
+        </tokens>
+      </protein>
+      <cellType id="???">
+        <cellTypeName>newborn granule</cellTypeName>
+        <tokens>
+          <tokenId>21</tokenId>
+          <tokenId>22</tokenId>
+          <tokenId>23</tokenId>
+          <tokenId>24</tokenId>
+          <tokenId>25</tokenId>
+          <tokenId>26</tokenId>
+        </tokens>
+      </cellType>
+      <concentration>
+        <value>0-20 microM</value>
+        <tokens>
+          <tokenId>28</tokenId>
+          <tokenId>29</tokenId>
+        </tokens>
+      </concentration>
+    </output>
+  </result>
+
+  <!-- ====================================================================== -->
+  <result>
+    <input>
+      <sentencesId>
+        <corpusId>PubMed</corpusId>
+        <documentId>12137779</documentId>
+        <paragraphId>Discussion/SNARE membrane density</paragraphId>
+        <sentenceNo>1</sentenceNo>
+        <sentenceNo>2</sentenceNo>
+      </sentencesId>
+      <rawContent>On average, each CV contains ∼5450, 710, and 330 copies of VAMP, SNAP-25, and syntaxin, respectively. For an ~1µm-diameter CV, these values correspond to average densities of ∼1700, ∼200, and ~100 copies/μm², respectively.</rawContent>
+      <tokenization>
+        <token id="1"><from>0</from><to>2</to></token>              <!-- On -->
+        <token id="2"><from>3</from><to>10</to></token>             <!-- average -->
+        <token id="3"><from>10</from></token>                       <!-- , -->
+        <token id="4"><from>12</from><to>16</to></token>            <!-- each -->
+        <token id="5"><from>17</from><to>19</to></token>            <!-- CV -->
+        <token id="6"><from>20</from><to>28</to></token>            <!-- contains -->
+        <token id="7"><from>29</from></token>                       <!-- ∼ -->
+        <token id="8"><from>30</from><to>34</to></token>            <!-- 5450 -->
+        <token id="9"><from>34</from></token>                       <!-- , -->
+        <token id="10"><from>36</from><to>39</to></token>           <!-- 710 -->
+        <token id="11"><from>39</from></token>                      <!-- , -->
+        <token id="12"><from>41</from><to>44</to></token>           <!-- and -->
+        <token id="13"><from>45</from><to>48</to></token>           <!-- 330 -->
+        <token id="14"><from>49</from><to>55</to></token>           <!-- copies -->
+        <token id="15"><from>56</from><to>58</to></token>           <!-- of -->
+        <token id="16"><from>59</from><to>63</to></token>           <!-- VAMP -->
+        <token id="17"><from>63</from></token>                      <!-- , -->
+        <token id="18"><from>65</from><to>72</to></token>           <!-- SNAP-25 -->
+        <token id="19"><from>72</from></token>                      <!-- , -->
+        <token id="20"><from>74</from><to>77</to></token>           <!-- and -->
+        <token id="21"><from>78</from><to>86</to></token>           <!-- syntaxin -->
+        <token id="22"><from>86</from></token>                      <!-- , -->
+        <token id="23"><from>88</from><to>100</to></token>          <!-- respectively -->
+        <token id="24"><from>100</from></token>                     <!-- . -->
+        <token id="25"><from>102</from><to>105</to></token>         <!-- For -->
+        <token id="26"><from>106</from><to>108</to></token>         <!-- an -->
+        <token id="27"><from>109</from></token>                     <!-- ~ -->
+        <token id="28"><from>110</from><to>122</to></token>         <!-- 1µm-diameter -->
+        <token id="29"><from>123</from><to>125</to></token>         <!-- CV -->
+        <token id="30"><from>125</from></token>                     <!-- , -->
+        <token id="31"><from>127</from><to>132</to></token>         <!-- these -->
+        <token id="32"><from>133</from><to>139</to></token>         <!-- values -->
+        <token id="33"><from>140</from><to>150</to></token>         <!-- correspond -->
+        <token id="34"><from>151</from><to>153</to></token>         <!-- to -->
+        <token id="35"><from>154</from><to>161</to></token>         <!-- average -->
+        <token id="36"><from>162</from><to>171</to></token>         <!-- densities -->
+        <token id="37"><from>172</from><to>174</to></token>         <!-- of -->
+        <token id="38"><from>175</from></token>                     <!-- ∼ -->
+        <token id="39"><from>176</from><to>180</to></token>         <!-- 1700 -->
+        <token id="40"><from>180</from></token>                     <!-- , -->
+        <token id="41"><from>182</from></token>                     <!-- ∼ -->
+        <token id="42"><from>183</from><to>186</to></token>         <!-- 200 -->
+        <token id="43"><from>186</from></token>                     <!-- , -->
+        <token id="44"><from>188</from><to>191</to></token>         <!-- and -->
+        <token id="45"><from>192</from></token>                     <!-- ~ -->
+        <token id="46"><from>193</from><to>196</to></token>         <!-- 100 -->
+        <token id="47"><from>197</from><to>203</to></token>         <!-- copies -->
+        <token id="48"><from>203</from></token>                     <!-- / -->
+        <token id="49"><from>204</from><to>207</to></token>         <!-- μm2 -->
+        <token id="50"><from>207</from></token>                     <!-- , -->
+        <token id="51"><from>209</from><to>221</to></token>         <!-- respectively -->
+        <token id="52"><from>221</from></token>                     <!-- . -->
+      </tokenization>
+    </input>
+    <output>
+      <protein id="swissprot:xxx">
+        <proteinName>VAMP</proteinName>
+        <tokens>
+          <tokenId>16</tokenId>
+        </tokens>
+      </protein>
+      <cellType id="???">
+        <cellTypeName>cortical vesicles</cellTypeName>
+        <tokens>
+          <tokenId>26</tokenId>
+          <tokenId>27</tokenId>
+          <tokenId>28</tokenId>
+        </tokens>
+      </cellType>
+      <concentration>
+        <value>approximately 1700 copies/µm²</value>
+        <tokens>
+          <tokenId>38</tokenId>
+          <tokenId>39</tokenId>
+          <tokenId>47</tokenId>
+          <tokenId>48</tokenId>
+          <tokenId>49</tokenId>
+        </tokens>
+      </concentration>
+    </output>
+    <output>
+      <protein id="swissprot:xxx">
+        <proteinName>SNAP-25</proteinName>
+        <tokens>
+          <tokenId>18</tokenId>
+        </tokens>
+      </protein>
+      <cellType id="???">
+        <cellTypeName>cortical vesicles</cellTypeName>
+        <tokens>
+          <tokenId>26</tokenId>
+          <tokenId>27</tokenId>
+          <tokenId>28</tokenId>
+        </tokens>
+      </cellType>
+      <concentration>
+        <value>approximately 200 copies/µm²</value>
+        <tokens>
+          <tokenId>41</tokenId>
+          <tokenId>42</tokenId>
+          <tokenId>47</tokenId>
+          <tokenId>48</tokenId>
+          <tokenId>49</tokenId>
+        </tokens>
+      </concentration>
+    </output>
+    <output>
+      <protein id="swissprot:xxx">
+        <proteinName>syntaxin</proteinName>
+        <tokens>
+          <tokenId>21</tokenId>
+        </tokens>
+      </protein>
+      <cellType id="???">
+        <cellTypeName>cortical vesicles</cellTypeName>
+        <tokens>
+          <tokenId>26</tokenId>
+          <tokenId>27</tokenId>
+          <tokenId>28</tokenId>
+        </tokens>
+      </cellType>
+      <concentration>
+        <value>approximately 100 copies/µm²</value>
+        <tokens>
+          <tokenId>45</tokenId>
+          <tokenId>46</tokenId>
+          <tokenId>47</tokenId>
+          <tokenId>48</tokenId>
+          <tokenId>49</tokenId>
+        </tokens>
+      </concentration>
+    </output>
+  </result>
+
+  <!-- ====================================================================== -->
+  <result>
+    <input>
+      <sentencesId>
+        <corpusId>PubMed</corpusId>
+        <documentId>12137779</documentId>
+        <paragraphId>Discussion/SNARE membrane density</paragraphId>
+        <sentenceNo>3</sentenceNo>
+      </sentencesId>
+      <rawContent>For synaptic vesicles, native densities are estimated to be ∼2800, ∼500, and ~500 copies/μm², for VAMP, SNAP-25, and syntaxin, respectively, assuming a vesicle diameter of 45 nm [26].</rawContent>
+      <tokenization>
+        <token id="1"><from>0</from><to>3</to></token>              <!-- For -->
+        <token id="2"><from>4</from><to>12</to></token>             <!-- synaptic -->
+        <token id="3"><from>13</from><to>21</to></token>            <!-- vesicles -->
+        <token id="4"><from>21</from></token>                       <!-- , -->
+        <token id="5"><from>23</from><to>29</to></token>            <!-- native -->
+        <token id="6"><from>30</from><to>39</to></token>            <!-- densities -->
+        <token id="7"><from>40</from><to>43</to></token>            <!-- are -->
+        <token id="8"><from>44</from><to>53</to></token>            <!-- estimated -->
+        <token id="9"><from>54</from><to>56</to></token>            <!-- to -->
+        <token id="10"><from>57</from><to>59</to></token>           <!-- be -->
+        <token id="11"><from>60</from></token>                      <!-- ∼ -->
+        <token id="12"><from>61</from><to>65</to></token>           <!-- 2800 -->
+        <token id="13"><from>65</from></token>                      <!-- , -->
+        <token id="14"><from>67</from></token>                      <!-- ∼ -->
+        <token id="15"><from>68</from><to>71</to></token>           <!-- 500 -->
+        <token id="16"><from>71</from></token>                      <!-- , -->
+        <token id="17"><from>73</from><to>76</to></token>           <!-- and -->
+        <token id="18"><from>77</from></token>                      <!-- ~ -->
+        <token id="19"><from>78</from><to>81</to></token>           <!-- 500 -->
+        <token id="20"><from>82</from><to>88</to></token>           <!-- copies -->
+        <token id="21"><from>88</from></token>                      <!-- / -->
+        <token id="22"><from>89</from><to>92</to></token>           <!-- μm² -->
+        <token id="23"><from>92</from></token>                      <!-- , -->
+        <token id="24"><from>94</from><to>97</to></token>           <!-- for -->
+        <token id="25"><from>98</from><to>102</to></token>          <!-- VAMP -->
+        <token id="26"><from>102</from></token>                     <!-- , -->
+        <token id="27"><from>104</from><to>111</to></token>         <!-- SNAP-25 -->
+        <token id="28"><from>111</from></token>                     <!-- , -->
+        <token id="29"><from>113</from><to>116</to></token>         <!-- and -->
+        <token id="30"><from>117</from><to>125</to></token>         <!-- syntaxin -->
+        <token id="31"><from>125</from></token>                     <!-- , -->
+        <token id="32"><from>127</from><to>139</to></token>         <!-- respectively -->
+        <token id="33"><from>139</from></token>                     <!-- , -->
+        <token id="34"><from>141</from><to>149</to></token>         <!-- assuming -->
+        <token id="35"><from>150</from></token>                     <!-- a -->
+        <token id="36"><from>152</from><to>159</to></token>         <!-- vesicle -->
+        <token id="37"><from>160</from><to>168</to></token>         <!-- diameter -->
+        <token id="38"><from>169</from><to>171</to></token>         <!-- of -->
+        <token id="39"><from>172</from><to>174</to></token>         <!-- 45 -->
+        <token id="40"><from>175</from><to>177</to></token>         <!-- nm -->
+        <token id="41"><from>178</from><to>182</to></token>         <!-- [26] -->
+        <token id="44"><from>182</from></token>                     <!-- . -->
+      </tokenization>
+    </input>
+    <output>
+      <protein id="swissprot:xxx">
+        <proteinName>VAMP</proteinName>
+        <tokens>
+          <tokenId>25</tokenId>
+        </tokens>
+      </protein>
+      <cellType id="???">
+        <cellTypeName>synaptic vesicles</cellTypeName>
+        <tokens>
+          <tokenId>2</tokenId>
+          <tokenId>3</tokenId>
+        </tokens>
+      </cellType>
+      <concentration>
+        <value>approximately 2800 copies/µm²</value>
+        <tokens>
+          <tokenId>11</tokenId>
+          <tokenId>12</tokenId>
+          <tokenId>20</tokenId>
+          <tokenId>21</tokenId>
+          <tokenId>22</tokenId>
+        </tokens>
+      </concentration>
+    </output>
+    <output>
+      <protein id="swissprot:xxx">
+        <proteinName>SNAP-25</proteinName>
+        <tokens>
+          <tokenId>27</tokenId>
+        </tokens>
+      </protein>
+      <cellType id="???">
+        <cellTypeName>synaptic vesicles</cellTypeName>
+        <tokens>
+          <tokenId>2</tokenId>
+          <tokenId>3</tokenId>
+        </tokens>
+      </cellType>
+      <concentration>
+        <value>approximately 500 copies/µm²</value>
+        <tokens>
+          <tokenId>14</tokenId>
+          <tokenId>15</tokenId>
+          <tokenId>20</tokenId>
+          <tokenId>21</tokenId>
+          <tokenId>22</tokenId>
+        </tokens>
+      </concentration>
+    </output>
+    <output>
+      <protein id="swissprot:xxx">
+        <proteinName>syntaxin</proteinName>
+        <tokens>
+          <tokenId>30</tokenId>
+        </tokens>
+      </protein>
+      <cellType id="???">
+        <cellTypeName>synaptic vesicles</cellTypeName>
+        <tokens>
+          <tokenId>2</tokenId>
+          <tokenId>3</tokenId>
+        </tokens>
+      </cellType>
+      <concentration>
+        <value>approximately 500 copies/µm²</value>
+        <tokens>
+          <tokenId>18</tokenId>
+          <tokenId>19</tokenId>
+          <tokenId>20</tokenId>
+          <tokenId>21</tokenId>
+          <tokenId>22</tokenId>
+        </tokens>
+      </concentration>
+    </output>
+  </result>
+
+</testSuiteCorpus>

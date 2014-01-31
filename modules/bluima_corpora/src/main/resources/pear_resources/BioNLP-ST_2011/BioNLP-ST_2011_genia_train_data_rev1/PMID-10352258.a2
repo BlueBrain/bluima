@@ -1,0 +1,25 @@
+T10	Negative_regulation 398 407	inhibited
+T11	Gene_expression 443 453	expression
+T12	Gene_expression 509 519	expression
+T13	Gene_expression 729 739	expression
+T14	Negative_regulation 832 840	abnormal
+T15	Gene_expression 841 851	expression
+T16	Gene_expression 881 891	expression
+T17	Negative_regulation 935 944	inhibited
+E1	Negative_regulation:T10 Theme:T1 Cause:E3
+E2	Negative_regulation:T10 Theme:T2 Cause:E3
+E3	Gene_expression:T11 Theme:T3
+E4	Gene_expression:T12 Theme:T3
+E5	Gene_expression:T13 Theme:T5
+E6	Gene_expression:T13 Theme:T4
+E7	Negative_regulation:T14 Theme:E9
+E8	Negative_regulation:T14 Theme:E10
+E9	Gene_expression:T15 Theme:T4
+E10	Gene_expression:T15 Theme:T5
+E11	Gene_expression:T16 Theme:T7
+E12	Gene_expression:T16 Theme:T6
+E13	Gene_expression:T16 Theme:T8
+E14	Negative_regulation:T17 Theme:E12
+E15	Negative_regulation:T17 Theme:E11
+M1	Speculation E5
+M2	Speculation E6

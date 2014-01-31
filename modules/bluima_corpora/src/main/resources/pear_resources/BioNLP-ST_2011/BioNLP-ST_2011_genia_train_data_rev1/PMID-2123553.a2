@@ -1,0 +1,11 @@
+*	Equiv T1 T2
+T7	Negative_regulation 880 896	needed to revert
+T8	Negative_regulation 912 922	inhibition
+T9	Gene_expression 931 941	production
+T10	Positive_regulation 1034 1043	necessary
+T11	Positive_regulation 1058 1068	activation
+E1	Negative_regulation:T7 Theme:E2
+E2	Negative_regulation:T8 Theme:E3
+E3	Gene_expression:T9 Theme:T3
+E4	Positive_regulation:T10 Theme:E5
+E5	Positive_regulation:T11 Theme:T4

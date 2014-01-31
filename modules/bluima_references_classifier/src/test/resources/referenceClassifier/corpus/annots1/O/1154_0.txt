@@ -1,0 +1,30 @@
+with peptidyl whether they modify other sequence words or
+not. The concept transgenic (SO:0000781) was not used at
+all, instead annotating all transgene mentions, modifying or
+not, with the corresponding independent entity transgene
+(SO:0000902).
+If not modifying sequences or biological entities containing sequences, textual mentions annotated with wild_type
+(SO:0000817) are also annotated with independent_continuant (see annotation with GO MF, above) to indicate that
+this refers to some unmentioned type of entity with some
+specified wild-type sequence. For example, for “as seen in
+the wild-type”, where “wild-type” refers to organisms with
+some specified wild-type sequence, “wild-type” would also
+be annotated with independent_continuant. Similarly,
+where “transgenic” indicates unmentioned organisms, it is
+annotated with both transgene and independent_continuant; the same applies to sequence_alteration where, e.g.,
+unmentioned mutant organisms are being referenced.
+However, users may want to ignore these independent_continuant annotations and not attempt to distinguish these
+cases, as this is a tricky ontological issue.
+This version of the SO contains basic types of sequence
+variations and their corresponding processes (e.g., substitution (SO:1000002) and substitute (SO:0000048)) that are
+often challenging to differentiate as nominalizations in text.
+We have decided to annotate such a nominalization as the
+former except where it is reasonably clear that it is referring
+to the process, particularly when the nominalization is not
+preceded by an article, e.g., “by substitution”. Finally, the
+concepts of the sequence_variant_effect (SO:1000132) and
+chromosome_variation (SO:0000240) subgraphs of the SO
+were not used, as their representation and definition were
+problematic, which hindered their use toward annotation.
+However, we have begun collaborative work with the developers of the SO toward an improved representation of se-quence variation [78], along with other representational
+refinements [79].

@@ -1,0 +1,5 @@
+T30	Gene_expression 396 406	espression
+T31	Positive_regulation 833 843	increasing
+E1	Gene_expression:T30 Theme:T8
+E2	Positive_regulation:T31 Theme:T20
+M1	Speculation E1

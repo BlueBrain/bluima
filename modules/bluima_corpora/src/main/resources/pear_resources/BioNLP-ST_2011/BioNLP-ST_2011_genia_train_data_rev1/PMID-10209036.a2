@@ -1,0 +1,14 @@
+*	Equiv T1 T2
+*	Equiv T3 T4
+T16	Gene_expression 504 513	expressed
+T17	Entity 536 544	tyrosine
+T18	Phosphorylation 545 560	phosphorylation
+T19	Positive_regulation 561 563	by
+T20	Gene_expression 730 744	Overexpression
+T21	Binding 1011 1018	binding
+E1	Gene_expression:T16 Theme:T5
+E2	Phosphorylation:T18 Theme:T8 Site:T17
+E3	Positive_regulation:T19 Theme:E2 Cause:T6
+E4	Positive_regulation:T19 Theme:E2 Cause:T7
+E5	Gene_expression:T20 Theme:T10
+E6	Binding:T21 Theme:T12 Theme2:T13

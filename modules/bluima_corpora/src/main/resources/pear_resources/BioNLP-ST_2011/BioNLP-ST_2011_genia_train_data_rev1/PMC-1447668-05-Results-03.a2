@@ -1,0 +1,10 @@
+T15	Positive_regulation 194 208	overexpression
+T16	Positive_regulation 672 686	Overexpression
+T17	Binding 1104 1116	interactions
+T18	Positive_regulation 1539 1553	overexpression
+E1	Positive_regulation:T15 Theme:T3
+E2	Positive_regulation:T16 Theme:T5
+E3	Positive_regulation:T16 Theme:T6
+E4	Binding:T17 Theme:T9
+E5	Positive_regulation:T18 Theme:T11
+M1	Speculation E4

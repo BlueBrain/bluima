@@ -1,0 +1,48 @@
+T22	Positive_regulation 0 26	Transcriptional activation
+T23	Gene_expression 90 100	expressing
+T24	Gene_expression 652 662	expressing
+T25	Positive_regulation 663 674	high levels
+T26	Gene_expression 793 803	identified
+T27	Gene_expression 897 906	expressed
+T28	Regulation 1078 1082	role
+T29	Positive_regulation 1131 1140	induction
+T30	Gene_expression 1178 1187	detection
+T31	Gene_expression 1245 1255	expressing
+T32	Regulation 1274 1280	effect
+T33	Transcription 1303 1316	transcription
+T34	Positive_regulation 1600 1616	trans activating
+T35	Entity 1628 1636	promoter
+T36	Binding 1637 1640	via
+T37	Entity 1645 1660	NF-kappaB sites
+T38	Positive_regulation 1740 1748	required
+T39	Positive_regulation 1761 1768	induced
+T40	Gene_expression 1769 1779	expression
+T41	Positive_regulation 1970 1977	induced
+T42	Gene_expression 1985 1995	expressing
+T43	Regulation 2014 2023	dependent
+T44	Positive_regulation 2101 2108	induced
+T45	Gene_expression 2109 2119	expression
+E1	Positive_regulation:T22 Theme:T1
+E2	Gene_expression:T23 Theme:T2
+E3	Gene_expression:T24 Theme:T4
+E4	Positive_regulation:T25 Theme:E3
+E5	Gene_expression:T26 Theme:T4
+E6	Gene_expression:T27 Theme:T4
+E7	Regulation:T28 Theme:E8 Cause:T6
+E8	Positive_regulation:T29 Theme:T7
+E9	Gene_expression:T30 Theme:T7
+E10	Gene_expression:T31 Theme:T8
+E11	Regulation:T32 Theme:E12 Cause:T9
+E12	Transcription:T33 Theme:T10
+E13	Positive_regulation:T34 Theme:T15 Cause:E14 Site:T35
+E14	Binding:T36 Theme:T14 Theme2:T16 Site2:T37
+E15	Positive_regulation:T38 Theme:E16 Cause:T16 CSite:T37
+E16	Positive_regulation:T39 Theme:E17 Cause:T17
+E17	Gene_expression:T40 Theme:T16
+E18	Positive_regulation:T41 Theme:T18
+E19	Gene_expression:T42 Theme:T19
+E20	Regulation:T43 Theme:E18
+E21	Positive_regulation:T44 Theme:E22 Cause:T20
+E22	Gene_expression:T45 Theme:T21
+M1	Negation E6
+M2	Speculation E7

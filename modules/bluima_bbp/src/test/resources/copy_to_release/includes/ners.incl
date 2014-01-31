@@ -1,0 +1,18 @@
+#
+# NERs not based on lexica
+#
+
+ae: PunctuationAnnotator
+
+ae: WordnetAnnotator
+
+ae: GeneralEnglishAnnotator
+
+ae_java: ch.epfl.bbp.uima.ae.BannerHelper.getBanner()
+
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+ae: PruneMeasuresAnnotator
+
+ae: LinnaeusAnnotator
+
+ae: OscarAnnotator

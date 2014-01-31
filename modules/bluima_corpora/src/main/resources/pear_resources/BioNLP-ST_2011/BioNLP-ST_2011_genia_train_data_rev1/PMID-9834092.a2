@@ -1,0 +1,37 @@
+T9	Regulation 0 10	Regulation
+T10	Entity 48 55	nuclear
+T11	Localization 56 62	import
+T12	Positive_regulation 685 694	inducible
+T13	Entity 695 702	nuclear
+T14	Localization 703 709	import
+T15	Negative_regulation 788 797	inhibited
+T16	Negative_regulation 895 905	disruption
+T17	Entity 913 920	nuclear
+T18	Localization 921 927	import
+T19	Negative_regulation 970 980	inhibition
+T20	Gene_expression 1014 1024	expression
+T21	Regulation 1036 1045	dependent
+T22	Gene_expression 1276 1285	expressed
+T23	Positive_regulation 1350 1359	inducible
+T24	Entity 1360 1367	nuclear
+T25	Localization 1368 1374	import
+T26	Regulation 1437 1446	regulated
+E1	Regulation:T9 Theme:E2
+E2	Localization:T11 Theme:T1 ToLoc:T10
+E3	Positive_regulation:T12 Theme:E4
+E4	Localization:T14 Theme:T3 ToLoc:T13
+E5	Negative_regulation:T15 Theme:E4
+E6	Negative_regulation:T16 Theme:E7
+E7	Localization:T18 Theme:T3 ToLoc:T17
+E8	Negative_regulation:T19 Theme:E13 Cause:E6
+E9	Negative_regulation:T19 Theme:E12
+E10	Negative_regulation:T19 Theme:E12 Cause:E6
+E11	Negative_regulation:T19 Theme:E13
+E12	Gene_expression:T20 Theme:T6
+E13	Gene_expression:T20 Theme:T5
+E14	Regulation:T21 Theme:E12
+E15	Regulation:T21 Theme:E13
+E16	Gene_expression:T22 Theme:T7
+E17	Positive_regulation:T23 Theme:E18
+E18	Localization:T25 Theme:T8 ToLoc:T24
+E19	Regulation:T26 Theme:E18

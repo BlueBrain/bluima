@@ -1,0 +1,5 @@
+
+# IMPORTANT: should be put at the end of the pipeline! (but before Viterbi)
+
+ae: AbbreviationsAnnotator
+ae: AbbreviationsExpanderAnnotator

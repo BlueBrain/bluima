@@ -1,0 +1,25 @@
+pdf	hasMM	has MM, but no MM title	comment
+1	0		not a neuroscience article, though
+4	0		same article as 5.pdf but only 1st page
+5	0
+6	0		review article, so no MM usually
+9	0		only 2.5 pages long
+1508244	1		has 'METHODS'
+2822206	1		has 'METHOD' title (singular, not methodS)
+3011189	0	1	has section 'The methods employed were similar to those….'
+6180150	1		has 'Materials and Methods' title
+6664902	0
+7378833	0
+7534346	1		has 'Materials and Methods' title
+7688647	0	1	Short Communications,  so no explicit MM title usually, but has section 'Experiments were performed in sagittal cerebellar…'
+8094962	0		review article, so no MM usually
+8124085	0
+8608000	1		MM section called 'Experimental Procedures', on last pages
+8845165	1		MM section called 'Experimental Procedures', on last pages
+9187344	0	1	it has a MM section, but without title (Normal cycling, adult female Sprague-Dawley rats Ž200–250 g b.w.. were used in this experiment. ….)
+9357741	0		not a neuroscience article, though
+9457440	0		only 1 pages long
+9457640	1		has 'METHODS'
+TOTAL	7	3
+
+review articles may contain <PublicationType>Review</PublicationType>

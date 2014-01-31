@@ -1,0 +1,15 @@
+T15	Binding 137 146	associate
+T16	Binding 753 758	bound
+T17	Positive_regulation 1164 1172	augments
+T18	Binding 1173 1184	association
+T19	Negative_regulation 1561 1570	decreased
+T20	Entity 1571 1578	nuclear
+T21	Localization 1579 1591	localization
+T22	Binding 1905 1916	association
+E1	Binding:T15 Theme:T1 Theme2:T3
+E2	Binding:T16 Theme:T8
+E3	Positive_regulation:T17 Theme:E4
+E4	Binding:T18 Theme:T1 Theme2:T12
+E5	Negative_regulation:T19 Theme:E6
+E6	Localization:T21 Theme:T1 AtLoc:T20
+E7	Binding:T22 Theme:T14

@@ -1,0 +1,21 @@
+*	Equiv T1 T2
+*	Equiv T4 T5
+T6	Binding 185 190	binds
+T7	Entity 232 240	promoter
+T8	Positive_regulation 270 281	responsible
+T9	Positive_regulation 306 318	inducibility
+T10	Gene_expression 327 337	expression
+T11	Binding 410 426	binding activity
+T12	Positive_regulation 441 448	induced
+T13	Positive_regulation 540 548	activate
+T14	Transcription 549 562	transcription
+E1	Binding:T6 Theme:T1 Site:T7
+E2	Positive_regulation:T8 Theme:E3
+E3	Positive_regulation:T9 Theme:E4
+E4	Gene_expression:T10 Theme:T3
+E5	Binding:T11 Theme:T1 Site:T7
+E6	Positive_regulation:T12 Theme:E5
+E7	Positive_regulation:T13 Theme:E8
+E8	Transcription:T14 Theme:T4
+M1	Speculation E2
+M2	Negation E7

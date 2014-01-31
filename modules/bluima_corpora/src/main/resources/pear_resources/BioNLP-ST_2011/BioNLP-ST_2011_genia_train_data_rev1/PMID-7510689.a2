@@ -1,0 +1,25 @@
+T24	Positive_regulation 92 101	synergize
+T25	Gene_expression 134 144	expression
+T26	Gene_expression 163 173	production
+T27	Transcription 1533 1543	expression
+T28	Negative_regulation 1711 1721	inhibition
+T29	Transcription 1748 1758	expression
+T30	Positive_regulation 1857 1865	enhanced
+T31	Gene_expression 1871 1881	expression
+T32	Gene_expression 1900 1910	production
+T33	Positive_regulation 1911 1918	induced
+E1	Positive_regulation:T24 Theme:E5
+E2	Positive_regulation:T24 Theme:E6 Cause:T1
+E3	Positive_regulation:T24 Theme:E5 Cause:T1
+E4	Positive_regulation:T24 Theme:E6
+E5	Gene_expression:T25 Theme:T2
+E6	Gene_expression:T26 Theme:T3
+E7	Transcription:T27 Theme:T16
+E8	Negative_regulation:T28 Theme:E9
+E9	Transcription:T29 Theme:T18
+E10	Positive_regulation:T30 Theme:E15 Cause:T20
+E11	Positive_regulation:T30 Theme:E14
+E12	Gene_expression:T31 Theme:T21
+E13	Gene_expression:T32 Theme:T22
+E14	Positive_regulation:T33 Theme:E13
+E15	Positive_regulation:T33 Theme:E12

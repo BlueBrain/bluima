@@ -1,0 +1,106 @@
+
+Building the Scala Code
+=======================
+
+To build it, you need to run mvn install in the parent Blue Uima
+project, i.e.
+
+cd blue_uima_trunk
+mvn install -Dmaven.test.skip=true
+
+Then, to build the actual code:
+
+cd projects/blue_uima_topic_models
+sbt compile
+
+Notes regarding the Scala Code
+==============================
+
+Refer to the report for some high-level view on the code developed.
+
+In general, the code was developed in a rather experimental
+environment, i.e it has not been thoroughly tested. Also, there are
+few flaws in the code, coming from the fact that many features have
+quickly been added to test a concept. Despite all, the code has been
+successfully used for the purposes of this project and the core code
+should work well.
+
+There is, however, some potential for improvement especially with 
+"App" object (i.e. classes containing a "main method"), where a lot of
+configuration (e.g. of processing chains) has to be done. Some
+refactoring could be done there (there was a lot of copy-paste) and
+the handling of common parameters (e.g. stopword lists, corpora
+roots...) should be improved (a few parameters are managed by a
+property file).
+
+Note, that the parameters for annotators are most often documented in
+the companion object, where the names of the parameters passed via the
+UIMA framework are defined. 
+
+
+Scripts
+=======
+
+Scripts, as with for App classes in the Scala code, are not really
+portable, as many parameters are hard-coded. But generally, the
+scripts are structured well enough and should be easily adaptable to
+a new environment.
+
+Also here there has been quite some copy-paste. Therefore, a redesign is
+STRONGLY advised for the new deployment and the scripts should be used
+as source of inspiration only.
+
+There are also many R scripts, most of which were used to plot results
+for the report. The input data for the scripts are stored separately
+in a folder "data" (not provided here). The scripts then usually
+generate plots in pdf formats which are stored in the "plots"
+directory (also not provided).
+Most R scripts won't usable as is, but should be easily adaptable.
+
+A few comments regarding the scripts:
+  * cluster (scripts used to execute things on cluster)
+    Generally, a log file is generated for all experiments.
+    * run*.sh - small scripts to run dca/PLDA/VW. 
+      	      	More for initial* tests
+    * pilot - scripts for pilot study (cross-validation parts)
+      * dca_topics_special.sh -> same as dca_topics.sh but only
+      			      doing fold 0 (forgot in dca_topics.sh)
+    * evaluation - scripts for software evaluation   
+       * *eval.sh: for DCA/Mallet/PLDA/VW there is a main script
+       	 parametrized by the corpus root and the number of topics.
+       * *20.sh: scripts for 20 Newsgroups
+       * *pubmed.sh: scripts for PubMed abstracts (100'000 subset)
+       * *scale.sh: Does scaling experiments (running time with
+       	 	     * different number of threads)
+    * inference - inference tests (topic distributions for unseen documents)
+      		  for Mallet and PLDA
+    * large - experiments on (full) PubMed corpora
+       * prepareTokens.sh - Generates frequency statistics of tokens
+    	 		    in corpus
+       * preprocessPubmed.sh - Invokes scala code to preprocess PubMed
+       * pubmed_topics_cv.sh - Attempt to CV on subset of PubMed
+       	 		       corpus to find K (doubtful, as subset
+			       too small, not continued)
+       * run_dca*.sh	     - runs DCA on some particular corpus. Ft
+       	 		       stands for fulltext (neuroscience), sv
+			       and lv for "small vocabulary" and
+ 			       "large vocabulary". These refer to
+			       experiments on PubMed fulltext with
+  			       different vocabulary.
+    * meshs - scripts to invoke code to do mesh/topics co-occurrence statistics
+    * online - scripts for experiments of online deployment for VowpalWabbit
+ * dca_tutorial_script.sh - Script fragments for an entire
+   			    training cycle with DCA.
+ * mallet - relatively well documented scripts to use mallet (import,
+   	    training, inference, likelihood estimation including score
+  	    plots)
+
+TODO
+====
+
+* Come up with some configuration management (parameters, such as
+  corpora locations, stopword lists...)
+* Rewrite/Redesign entry points to the tools ("main" objects)
+  * lots of copy paste
+  * many parameters hard-coded within code -> need to recompile after
+  every change, cannot parametrize things in a script.

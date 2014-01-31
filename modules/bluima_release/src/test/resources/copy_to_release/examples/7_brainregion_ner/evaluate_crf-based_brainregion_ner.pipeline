@@ -1,0 +1,34 @@
+########################################################################################################
+# evaluates the performance of the CRF-based (Mallet) BrainRegion NER against the WhiteText corpus
+########################################################################################################
+
+
+####################################################
+# 1) read corpus, prepare annotations
+####################################################
+include: start.include
+
+
+####################################################
+# 2) annotate with CRF
+####################################################
+ae: BrainRegionAnnotator
+ modelFile: $ROOT/modules/bluima_regions/src/main/resources/models/20130515_BrainRegion.model
+ mode: infer
+
+
+####################################################
+# 3) evaluate and print annotated documents
+####################################################
+# compare BrainRegion annotations btw gold (WhiteText corpus) and system (CRF-NER) 
+ae: EvaluationAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.BrainRegion
+ system_annotation: ch.epfl.bbp.uima.types.BrainRegion
+
+# print progress
+ae: StatsAnnotatorPlus
+ printEvery__java: 10
+
+# create files for Brat viewer
+ae: BartWriter
+ batchPrefix: crf_brainregions_ner

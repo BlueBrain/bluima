@@ -1,0 +1,48 @@
+#
+#
+#
+### Banner
+#
+#
+#      Duration        %  Type               Component Name
+#        9630ms   38.26%  Process            ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader                 
+#         229ms    0.91%  Analysis           ch.epfl.bbp.uima.ae.TokenAnnotator                          
+#        1621ms    6.44%  Analysis           ch.epfl.bbp.uima.ae.PosTagAnnotator                         
+#        4082ms   16.22%  Analysis           ch.epfl.bbp.uima.ae.BlueBioLemmatizer                       
+#        9561ms   37.99%  Analysis           ch.epfl.bbp.uima.ae.BannerAnnotator                         
+#       25170ms   TOTAL TIME (25 seconds)
+#
+#
+### BannerMAnnotator
+#
+#      Duration        %  Type               Component Name
+#       11193ms   37.22%  Process            ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader                 
+#         243ms    0.81%  Analysis           ch.epfl.bbp.uima.ae.TokenAnnotator                          
+#        1641ms    5.46%  Analysis           ch.epfl.bbp.uima.ae.PosTagAnnotator                         
+#        5327ms   17.72%  Analysis           ch.epfl.bbp.uima.ae.BlueBioLemmatizer                       
+#       11631ms   38.68%  Analysis           ch.epfl.bbp.nlp.ie.proteinconc.ae.BannerMAnnotator          
+#       30069ms   TOTAL TIME (30 seconds)
+#
+#
+#
+
+
+cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+ inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/4_pdfs
+ #inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/
+ isRecursive__java: true
+
+include: ../../includes/preprocess.incl
+
+
+
+
+
+ae: ch.epfl.bbp.nlp.ie.proteinconc.ae.BannerMAnnotator
+ max_length__java: 200
+
+#ae_java: ch.epfl.bbp.uima.ae.BannerHelper.getBanner()
+
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 2

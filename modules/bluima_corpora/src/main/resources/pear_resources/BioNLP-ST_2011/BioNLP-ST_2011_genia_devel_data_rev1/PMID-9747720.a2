@@ -1,0 +1,16 @@
+*	Equiv T2 T3
+T19	Gene_expression 287 297	expression
+T20	Regulation 650 660	importance
+T21	Positive_regulation 691 704	up-regulation
+T22	Gene_expression 785 795	expression
+T23	Positive_regulation 1014 1026	up-regulated
+E1	Gene_expression:T19 Theme:T4
+E2	Regulation:T20 Theme:E4
+E3	Regulation:T20 Theme:E5
+E4	Positive_regulation:T21 Theme:T6 Cause:T8
+E5	Positive_regulation:T21 Theme:T7 Cause:T8
+E6	Gene_expression:T22 Theme:T9
+E7	Positive_regulation:T23 Theme:T14 Cause:T15
+E8	Positive_regulation:T23 Theme:T13 Cause:T15
+M1	Speculation E2
+M2	Speculation E3

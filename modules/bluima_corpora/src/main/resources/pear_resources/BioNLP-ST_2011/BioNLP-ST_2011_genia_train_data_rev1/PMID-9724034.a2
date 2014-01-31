@@ -1,0 +1,7 @@
+T4	Positive_regulation 1160 1168	increase
+T5	Binding 1398 1407	complexed
+T6	Positive_regulation 1487 1496	induction
+E1	Positive_regulation:T4 Theme:T1
+E2	Binding:T5 Theme:T2
+E3	Positive_regulation:T6 Theme:T3
+M1	Negation E1

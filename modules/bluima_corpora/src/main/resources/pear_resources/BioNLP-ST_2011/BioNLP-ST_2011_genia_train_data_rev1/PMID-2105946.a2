@@ -1,0 +1,41 @@
+T13	Gene_expression 61 71	expression
+T14	Binding 179 189	recognizes
+T15	Binding 194 199	binds
+T16	Regulation 387 394	effects
+T17	Regulation 409 419	regulation
+T18	Gene_expression 434 444	expression
+T19	Transcription 514 525	transcripts
+T20	Positive_regulation 577 586	increased
+T21	Positive_regulation 701 710	induction
+T22	Positive_regulation 1055 1064	increased
+T23	Gene_expression 1071 1081	expression
+T24	Positive_regulation 1149 1179	associated with superinduction
+T25	Transcription 1189 1200	transcripts
+T26	Transcription 1263 1276	transcription
+T27	Positive_regulation 1328 1337	increases
+T28	Positive_regulation 1422 1428	effect
+T29	Transcription 1451 1464	transcription
+T30	Positive_regulation 1736 1744	increase
+T31	Positive_regulation 1815 1823	mediated
+E1	Gene_expression:T13 Theme:T1
+E2	Binding:T14 Theme:T2
+E3	Binding:T15 Theme:T2
+E4	Regulation:T16 Theme:E5
+E5	Regulation:T17 Theme:E6
+E6	Gene_expression:T18 Theme:T3
+E7	Transcription:T19 Theme:T4
+E8	Positive_regulation:T20 Theme:E7
+E9	Positive_regulation:T21 Theme:T5
+E10	Positive_regulation:T22 Theme:E11
+E11	Gene_expression:T23 Theme:T6
+E12	Positive_regulation:T24 Theme:E13
+E13	Transcription:T25 Theme:T7
+E14	Transcription:T26 Theme:T8
+E15	Positive_regulation:T27 Theme:E14
+E16	Positive_regulation:T28 Theme:E17
+E17	Transcription:T29 Theme:T9
+E18	Positive_regulation:T30 Theme:T12
+E19	Positive_regulation:T31 Theme:E18
+M1	Speculation E4
+M2	Negation E16
+M3	Speculation E19

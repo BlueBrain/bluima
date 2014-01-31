@@ -1,0 +1,26 @@
+*	Equiv T1 T2
+T8	Regulation 761 768	directs
+T9	Transcription 769 782	transcription
+T10	Positive_regulation 871 876	leads
+T11	Gene_expression 910 920	expression
+T12	Gene_expression 941 948	express
+T13	Gene_expression 972 979	express
+T14	Positive_regulation 980 991	high levels
+T15	Regulation 1027 1036	accounted
+T16	Regulation 1480 1484	show
+T17	Gene_expression 1493 1503	expression
+T18	Positive_regulation 1520 1529	induction
+E1	Regulation:T8 Theme:E2
+E2	Transcription:T9 Theme:T3
+E3	Positive_regulation:T10 Theme:E7
+E4	Positive_regulation:T10 Theme:E6
+E5	Gene_expression:T11 Theme:T4
+E6	Gene_expression:T12 Theme:T5
+E7	Gene_expression:T13 Theme:T5
+E8	Positive_regulation:T14 Theme:E7
+E9	Regulation:T15 Theme:E5
+E10	Regulation:T16 Theme:E11
+E11	Gene_expression:T17 Theme:T7
+E12	Positive_regulation:T18 Theme:E11
+M1	Negation E6
+M2	Negation E9

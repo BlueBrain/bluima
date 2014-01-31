@@ -1,0 +1,9 @@
+T19	Binding 193 204	association
+T20	Binding 312 321	interacts
+T21	Positive_regulation 585 593	enhances
+T22	Binding 598 609	association
+E1	Binding:T19 Theme:T5 Theme2:T6
+E2	Binding:T20 Theme:T8 Theme2:T9
+E3	Positive_regulation:T21 Theme:E4 Cause:T14
+E4	Binding:T22 Theme:T15
+M1	Negation E2

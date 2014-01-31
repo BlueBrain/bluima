@@ -1,0 +1,67 @@
+*	Equiv T4 T3
+*	Equiv T7 T6
+T25	Negative_regulation 0 26	Transcriptional repression
+T26	Negative_regulation 75 85	inhibition
+T27	Binding 100 117	complex formation
+T28	Negative_regulation 296 304	decrease
+T29	Negative_regulation 557 574	repressive effect
+T30	Transcription 583 593	expression
+T31	Negative_regulation 670 680	repression
+T32	Positive_regulation 684 693	activated
+T33	Gene_expression 699 709	expression
+T34	Gene_expression 713 727	cotransfecting
+T35	Regulation 857 867	conferring
+T36	Binding 877 884	binding
+T37	Binding 1051 1056	bound
+T38	Binding 1135 1150	binding mutants
+T39	Negative_regulation 1206 1213	repress
+T40	Negative_regulation 1303 1310	repress
+T41	Gene_expression 1316 1326	expression
+T42	Binding 1360 1367	binding
+T43	Positive_regulation 1378 1417	necessary but not sufficient to mediate
+T44	Negative_regulation 1423 1433	repression
+T45	Negative_regulation 1502 1506	loss
+T46	Binding 1514 1519	bound
+T47	Negative_regulation 1690 1696	blocks
+T48	Binding 1708 1725	complex formation
+T49	Binding 1742 1752	associates
+T50	Positive_regulation 1835 1861	transcriptional activators
+E1	Negative_regulation:T25 Theme:T1
+E2	Negative_regulation:T26 Theme:E3
+E3	Binding:T27 Theme:T2
+E4	Negative_regulation:T28 Theme:T4
+E5	Negative_regulation:T29 Theme:E6 Cause:T7
+E6	Transcription:T30 Theme:T5
+E7	Negative_regulation:T31 Theme:E10 Cause:E12
+E8	Negative_regulation:T31 Theme:E10 Cause:E11
+E9	Positive_regulation:T32 Theme:T8
+E10	Gene_expression:T33 Theme:T8
+E11	Gene_expression:T34 Theme:T10
+E12	Gene_expression:T34 Theme:T9
+E13	Regulation:T35 Theme:E14
+E14	Binding:T36 Theme:T10
+E15	Binding:T37 Theme:T11 Theme2:T12
+E16	Binding:T37 Theme:T11
+E17	Binding:T38 Theme:T13
+E18	Negative_regulation:T39 Theme:E20 Cause:E17
+E19	Negative_regulation:T40 Theme:E20
+E20	Gene_expression:T41 Theme:T15
+E21	Binding:T42 Theme:T16
+E22	Positive_regulation:T43 Theme:E23 Cause:E21
+E23	Negative_regulation:T44 Theme:T17
+E24	Negative_regulation:T45 Theme:E26 Cause:T20
+E25	Negative_regulation:T45 Theme:E26 Cause:T19
+E26	Binding:T46 Theme:T18
+E27	Negative_regulation:T47 Theme:E28 Cause:T21
+E28	Binding:T48 Theme:T22
+E29	Binding:T49 Theme:T21 Theme2:T23
+E30	Positive_regulation:T50 Theme:T24
+M1	Speculation E5
+M2	Speculation E7
+M3	Speculation E8
+M4	Negation E17
+M5	Negation E18
+M6	Negation E19
+M7	Speculation E24
+M8	Speculation E25
+M9	Speculation E26

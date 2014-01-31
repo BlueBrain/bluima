@@ -1,0 +1,2219 @@
+<?xml version='1.0'?>
+<!DOCTYPE File PUBLIC "NeuroScholar.DTD" "NeuroScholar.DTD">
+<File>
+
+  <Title>A Cholinergic Projection to the Rat Superior Colliculus 
+  Demonstrated by Retrograde Transport of Horseradish Peroxidase and 
+  Choline Acetyltransferase Immunohistochemistry</Title>
+
+  <Authors>M. BENINATO AND R.F. SPENCER</Authors>
+
+  <Abstract>
+
+    <S avgH="22" class="abstract.heading" format="TimesNewRomanPSMT"
+     id="s0">ABSTRACT</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s1">Acetylcholinesterase (AChE) has been localized by 
+    histochemistry in the superior colliculus and in the tegmentum of 
+    the caudal midbrain and rostra1 pons of the rat.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s2">The pattern of AChE localization in the superior 
+    colliculus was characterized by homogeneous staining in the 
+    superficial layers and patchlike staining in the intermediate gray 
+    layer.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s3">In the tegmentum, AChE was localized in the 
+    pedunculopontine nucleus (PPN), beginning rostrally at the caudal 
+    pole of the substantia nigra and extending caudally to the level of 
+    the parabrachial nuclei, and in the lateral dorsal tegmental 
+    nucleus (LDTN) of the central gray.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s4">The localization of AChE in these nuclei overlapped the 
+    distribution of neurons stained by immunohistochemistry using an 
+    antibody to choline acetyltransferase (ChAT), the synthesizing 
+    enzyme of the neurotransmitter acetylcholine.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s5">Other neighboring areas that were stained with AChE, but 
+    that did not contain ChAT-immunoreactive neurons, included the 
+    microcellular tegmental nucleus and the ventral tegmental 
+    nucleus.</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s6">Neurons in the PPN and LDTN were determined to be 
+    potential sources of the cholinergic projection to the intermediate 
+    gray layer of the rat superior colliculus by double labelling with 
+    retrograde transport of horseradish peroxidase (HRP) combined with 
+    the immunohistochemical localization of ChAT.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s7">Three populations of neurons were identified.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s8">A predominantly ipsilateral ChAT-immunoreactive population 
+    was located in the pars compacta subdivision of PPN (PPNpc).</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s9">Retrograde HRP-labelled neurons in the pars dissipata 
+    subdivison of the PPN (PPNpd), located ventral to the superior 
+    cerebellar peduncle (SCP) at the level of the inferior colliculus, 
+    composed a second population that was predominantly contralateral 
+    but was not ChAT immunoreactive.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s10">A third population of retrogradely labelled neurons was 
+    predominantly ipsilateral and ChAT immunoreactive and was located 
+    in the LDTN.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s11">These findings compared favorably with the full extent of 
+    the projection from this tegmental region revealed by retrograde 
+    transport of HRP from the superior colliculus when more compatible 
+    fixation and chromogen procedures were used.</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s12">The results suggest that the PPN and the LDTN are two 
+    sources of the cholinergic input to the superior colliculus.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s13">Since the PPN also has extensive efferent, and afferent, 
+    connections with basal-ganglia-related structures, this cholinergic 
+    excitatory input to the superior colliculus, like the GABAergic 
+    inhibitory input from the substantia nigra pars reticulata, may 
+    provide the basis for an additional influence of the basal ganglia 
+    on visuomotor behavior.</S>
+  </Abstract>
+
+  <Introduction>
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s14">Histochemical studies have demonstrated a 
+    laminar-specific staining pattern of acetylcholinesterase in the 
+    superior colliculus in a variety of species (Shute and Lewis, 
+    &apos;67; Graybiel, &apos;78a, &apos;79; Harvey and MacDonald, 
+    &apos;85; Illing and Graybiel, &apos;85).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s15">The distribution of AChE in the superior colliculus is 
+    similar in all species, being characterized by homogeneous staining 
+    in the superficial layers and periodic bands or patches in the 
+    intermediate layer that are most Drominent in the caudal one-half 
+    of the colliculus.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s16">The superior colliculus is known to have laminar-specific 
+    afferent and efferent connections (see Huerta and Harting, 
+    &apos;84, for review), The staining pattern of AChE in the superior 
+    colliculus may be related to these connections.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s17">It is unclear, however, whether the source of AChE 
+    staining in the superior colliculus is from intrinsic or extrinsic 
+    neurons, since the histochemical procedure for the localization of 
+    the enzyme does not distinguish between neurons that are 
+    cholinergic and/or cholinoceptive.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s18">Recent immunohistochemical studies of CUT localization in 
+    the central nervous System have not revealed any cholinergc neurons 
+    in the superior colliculus (Kimura et al., &apos;81, &apos;84; 
+    Armstrong et al., &apos;83; Mesulam et al., &apos;83, &apos;84; 
+    Satoh and Fibiger, &apos;85aM.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s19">The laminar pattern Of AChE staining in the Superior 
+    COlliCUlUS is, therefore, possibly attributable to cholinoceptive 
+    neurons and/or to the synaptic termination Of extrinsic cholinergic 
+    neurons that project to the superior colliculus.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s20">The brainstem has 10% been considered the major Source of 
+    AChE in the intermediate layer of the superior colliculus.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s21">Lesions of the midbrain tegmentum, in particular, have 
+    Produced decreased levels of AChE in the rat superior COllicuh3 
+    (Shute and Lewis, &apos;67; Hoover and Jacobowitz, &apos;79).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s22">Key words: pedunculopontine tegmental nucleus (Ch5), 
+    lateral dorsal tegmental Histochemical studies have demonstrated a 
+    laminar-specific staining pattern of acetylcholinesterase in the 
+    superior colliculus in a variety of species (Shute and Lewis, 
+    &apos;67; Graybiel, &apos;78a, &apos;79; Harvey and MacDonald, 
+    &apos;85; Illing and Graybiel, &apos;85).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s23">The distribution of AChE in the superior colliculus is 
+    similar in all species, being characterized by homogeneous staining 
+    in the superficial layers and periodic bands or patches in the 
+    intermediate layer that are most Drominent in the caudal one-half 
+    of the colliculus.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s24">The superior colliculus is known to have laminar-specific 
+    afferent and efferent connections (see Huerta and Harting, 
+    &apos;84, for review), The staining pattern of AChE in the superior 
+    colliculus may be related to these connections.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s25">It is unclear, however, whether the source of AChE 
+    staining in the superior colliculus is from intrinsic or extrinsic 
+    neurons, since the histochemical procedure for the localization of 
+    the enzyme does not distinguish between neurons that are 
+    cholinergic and/or cholinoceptive.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s26">Recent immunohistochemical studies of CUT localization in 
+    the central nervous System have not revealed any cholinergc neurons 
+    in the superior colliculus (Kimura et al., &apos;81, &apos;84; 
+    Armstrong et al., &apos;83; Mesulam et al., &apos;83, &apos;84; 
+    Satoh and Fibiger, &apos;85aM.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s27">The laminar pattern Of AChE staining in the Superior 
+    COlliCUlUS is, therefore, possibly attributable to cholinoceptive 
+    neurons and/or to the synaptic termination Of extrinsic cholinergic 
+    neurons that project to the superior colliculus.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s28">horseradish peroxidase (HRP) combined with CUT 
+    immunohistochemistry.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s29">The findings indicate that a major source of the 
+    cholinergic afferent projection to the superior colliculus arises 
+    from a collection of neurons in the caudal midbrain and rostra1 
+    pons that corresponds, at least in part, to the pedunculopontine 
+    tegmental nucleus and the lateral dorsal tegmental nucleus 
+    (Olszewski and Baxter, &apos;541, or cholinergic cell groups Ch5 
+    and Ch6 of Mesulam et al., (&apos;83, &apos;84).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s30">Several sources of brainstem afferents to the superior 
+    colliculus terminate in the intermediate and deep layers in a AChE 
+    and HRP histochemistry patchlike fashion similar me to the 
+    distribution of AChE.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s31">These fixative solution consisted of 1.0% 
+    paraformaldehyde Several sources of brainstem afferents to the 
+    superior colliculus terminate in the intermediate and deep layers 
+    in a patchlike fashion similar to the distribution of AChE.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s32">These include the substantia nigra, the trigeminal 
+    complex7 the pretectum, the the nucleus of the Posterior 
+    commissure, the dorsal nucleus of the lateral lemniscus, the 
+    inferior colliculus, the deep nuclei of the cerebellum, the lateral 
+    cervical nucleus, and the spinal cord (Huerta and Harting, 
+    &apos;84).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s33">Projections from the substantia nigra and frontal cortex 
+    furthermore converge On the Patches of high AChE activity in the 
+    intermediate gray layer (Illing and Graybiel, &apos;85).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s34">In addition, several afferent structures demonstrate 
+    AChE-positive staining including the substantia nigra, the locus 
+    coeruleus, the pedunculopontine tegmental nucleus, the lateral 
+    dorsal tegmental nucleus, and the trigeminal complex (Shute and 
+    Lewis, &apos;67; Satoh et al., &apos;83; Butcher and WoOlf, 
+    &apos;84; Smith and Parent, &apos;84; Wilson, &apos;85).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s35">Based on ChAT immunoreactivity, however, only the 
+    pedunculopontine tegmental nucleus and the lateral dorsal tegmental 
+    nucleus appear to be cholinergic (Kimura et al., &apos;81, 
+    &apos;84; Amstrong et al., &apos;83; Mesulam et al., &apos;83, 
+    &apos;84; Satoh and Fibiger, &apos;85a,b).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s36">These nuclei, therefore, may be sources of cholinergic 
+    input to the superior colliculus and may be at least partially 
+    responsible for the patchlike AChE staining pattern in the 
+    intermediate layer of this structure.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s37">include the substantia nigra, the trigeminal complex7 the 
+    and 1.25% glutaraldehyde (TUB) in 0.1 M phosphate buffer pretectum, 
+    the the nucleus of the Posterior with 0.002% calcium chloride, pH 
+    7.2.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s38">For the histochemical commissure, the dorsal nucleus of 
+    the lateral lemniscus, loca~ization of AChE, a modification of the 
+    copper thimhothe inferior colliculus, the deep nuclei of the 
+    cerebellum, line technique cewis and Shute, &apos;66) was employed 
+    with the lateral cervical nucleus, and the spinal cord (Huerta 
+    acetylthiocholine iodide (Sigma) as the substrate and and Harting, 
+    &apos;84).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s39">Projections from the substantia nigra 
+    tetrai~opropy~pyrophosphoramide (isO-o~p~, 10-5 M; and frontal 
+    cortex furthermore converge On the Patches of Sigma) as an 
+    inhibitor of nonspecific (pseudo-, butmi-) high AChE activity in 
+    the intermediate gray layer (Illing and Graybiel, &apos;85).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s40">In addition, several afferent structures demonstrate 
+    AChE-positive staining including the substantia nigra, the locus 
+    coeruleus, the pedunculopontine tegmental nucleus, the lateral 
+    dorsal tegmental nucleus, and the trigeminal complex (Shute and 
+    Lewis, &apos;67; Satoh et al., &apos;83; Butcher and WoOlf, 
+    &apos;84; Smith and Parent, &apos;84; Wilson, &apos;85).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s41">Based on ChAT immunoreactivity, however, only the 
+    pedunculopontine tegmental nucleus and the lateral dorsal tegmental 
+    nucleus appear to be cholinergic (Kimura et al., &apos;81, 
+    &apos;84; Amstrong et al., &apos;83; Mesulam et al., &apos;83, 
+    &apos;84; Satoh and Fibiger, &apos;85a,b).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s42">These nuclei, therefore, may be sources of cholinergic 
+    input to the superior colliculus and may be at least partially 
+    responsible for the patchlike AChE staining pattern in the 
+    intermediate layer of this structure.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s43">The Present study has examined the localization and 
+    distribution Of cholinergic brainstem afferent neurons to the rat 
+    superior colliculus labelled by retrograde transport of 
+    tetramethylbenzidine (TMB) as the chromogen.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s44">Following the reaction with hydrogen peroxide, sections 
+    were washed in acetate buffer, placed on pretreated microscope 
+    slides, counterstained with neutral red, dehydrated, and mounted 
+    with Permount.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s45">Sections were examined and photographed by light 
+    microscopy with brightfield and darkfield illumination.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s46">The locations of retrogradely labelled neurons were 
+    charted by using a microcomputer-controlled digitizer (Minnesota 
+    Datametrics) connected to the X and Y stage axes of a light 
+    microscope.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s47">The locations of labelled neurons were determined by 
+    reference to the atlas of Paxinos and Watson (&apos;82), with 
+    additional descriptions provided by Paxinos and Butcher 
+    (&apos;85).</S>
+    <BR />
+
+    <S avgH="24" class="introduction.subtitle"
+     format="TimesNewRomanPSMT" id="s48">ChAT immunohistochemistry</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s49">The fixative solution consisted of 2.0% paraformaldehyde 
+    and 0.1% glutaraldehyde (TAAB) in 0.1 M phosphate buffer with 
+    0.002% calcium chloride, pH 7.2.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s50">Alternate sections first were processed for the 
+    histochemical demonstration of retrogradely transported HRP by 
+    incubation for 10-15 minutes in 0.05% diaminobenzidine 
+    tetrahydrochloride (DAB; Fluka) and 0.01% hydrogen peroxide 
+    containing 0.005% cobalt acetate and 0.005% nickel chloride in 0.1 
+    M sodium phosphate buffer, pH 7.2.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s51">This chromogen produced a black granular reaction 
+    product.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s52">After washing through several changes of 0.1 M sodium 
+    phosphate buffer over 4-18 hours, sections were processed for the 
+    immunohistochemical localization of ChAT by using a rat monoclonal 
+    antibody (Boehringer-Mannheim) prepared from a rat-mouse hybridoma 
+    (Eckenstein and Thoenen, &apos;82).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s53">Sections were immersed for 1 hour in 10% normal rabbit 
+    serum (NRS) in phosphatebuffered saline (0.01 M; PBS) containing 
+    0.3% Triton X-100 and then incubated in primary antibody (1:4 
+    dilution; 2 pgl ml) containing 1% NRS and 0.1% Triton X-100 in PBS 
+    for 18-24 hours at 4°C with constant agitation.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s54">As a control, some sections were incubated in the same 
+    solution without the addition of primary antibody.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s55">After incubation, sections were washed for 30 minutes in 
+    three changes of PBS and immersed in biotinylated anti-rat IgG 
+    (1:200; Vector) in PBS with 1% NRS for 90 minutes at room 
+    temperature with constant agitation.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s56">Following the secondary antibody incubation, sections 
+    were washed in PBS and immersed in an avidin:biotinylated 
+    horseradish peroxidase complex (ABC, Vector; 1:lOO) for 90 
+    minutes.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s57">Sections then were washed through three changes of PBS 
+    over 30 minutes followed by two changes of 0.1 M Tris-HC1 buffer, 
+    pH 7.6, for 20 minutes.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s58">For the demonstration of HRP, sections were immersed in 
+    0.05% DAB (Polysciences) and 0.01% hydrogen peroxide in 0.1 M 
+    Tris-HC1 buffer, pH 7.6, for 1015 minutes.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s59">This chromogen produced a brown diffuse reaction 
+    product.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s60">Sections were rinsed through several changes of 0.1 M 
+    Tris-HC1 buffer, washed overnight in 0.1 M sodium phosphate buffer, 
+    and then placed on pretreated microscope slides, dehydrated, and 
+    mounted with Permount.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s61">Untreated adjacent sections also were placed on 
+    pretreated slides and counterstained with cresyl violet to provide 
+    a reference for the cytoarchitedural localization of the labelled 
+    neurons.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s62">Sections were examined and photographed by light 
+    microscopy with brightfield illumination, and the locations of 
+    single-labelled (immunoreactive ChAT or retrograde HRP) or 
+    double-labelled (CUT and HRP) neurons were charted as described 
+    above.</S>
+  </Introduction>
+
+  <Results>
+
+    <S avgH="25" class="results.heading" format="TimesNewRomanPSMT"
+     id="s63">RESULTS</S>
+    <BR />
+
+    <S avgH="24" class="results.subtitle" format="TimesNewRomanPSMT"
+     id="s64">Distribution of AChE</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s65">The distribution of AChE in <neuroanatomicalLocation>the 
+    superior colliculus</neuroanatomicalLocation> of the rat was 
+    similar to that described previously in a variety of species (Shute 
+    and Lewis, &apos;67; Graybiel, &apos;78a, &apos;79; Harvey and 
+    MacDonald, &apos;85).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s66"><labelingDescription>Dense homogeneous 
+    staining</labelingDescription> characterized the neuropil of 
+    <neuroanatomicalLocation>the superficial 
+    layer</neuroanatomicalLocation>, extending from 
+    <neuroanatomicalLandmark>the stratum 
+    zonale</neuroanatomicalLandmark> to <neuroanatomicalLandmark>the 
+    ventral border of the stratum griseum 
+    superficiale</neuroanatomicalLandmark> (Fig. 1B).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s67">In <neuroanatomicalLocation>the stratum griseum 
+    intermediale</neuroanatomicalLocation>, 
+    <labelingDescription>AChE</labelingDescription> was present 
+    throughout much of <labelingLocation>the rostral-caudal extent of 
+    the superior colliculus</labelingLocation>, but was 
+    <labelingDescription>more intense</labelingDescription> in 
+    <labelingLocation>the caudal half</labelingLocation>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s68">At this location,<labelingDescription> the AChE 
+    staining</labelingDescription> exhibited <labelingDescription>the 
+    characteristic patchlike distribution with transverse 
+    bands</labelingDescription> following the dorsal and ventral 
+    margins of <labelingLocation>the intermediate gray 
+    layer</labelingLocation>, interconnected by radially oriented 
+    columns (Fig. 1B).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s69">The ventral band and radial columns had a coarse 
+    appearence that was more consistent with axonal labelling.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s70">The transverse bands of AChE staining occupied 
+    <labelingLocation>the entire mediolateral extent of the 
+    intermediate gray</labelingLocation>, being wider laterally and 
+    narrower and more intense medially (Fig. 1B).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s71">The ventral band of AChE staining overlapped the 
+    distribution of large neurons that characterize this region of 
+    <labelingLocation>the intermediate gray layer</labelingLocation> in 
+    Nissl-stained sections (Fig. 1A) and appeared to highlight 
+    <labelingDescription>the apparent absence of 
+    staining</labelingDescription> in<labelingLocation> the stratum 
+    griseum profundum</labelingLocation>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s72"><labelingLocation>The stratum opticum</labelingLocation> 
+    also was <labelingDescription>devoid of AChE 
+    staining</labelingDescription>.</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s73">Shute and Lewis (&apos;67) speculated 
+    that<labelingDescription> the AChE staining</labelingDescription> 
+    in<labelingLocation> the superior colliculus</labelingLocation> was 
+    attributable to cholinergic derents and that the source of this 
+    input was <connxOrigin>the AChEstained pedunculopontine nucleus 
+    (PPN)</connxOrigin>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s74">In the present study, <labelingDescription>AChE-stained 
+    neurons</labelingDescription> were located in <labelingLocation>the 
+    PPN</labelingLocation>, as well as in <labelingLocation>the lateral 
+    dorsal tegmental nucleus (LDTN)</labelingLocation>, throughout 
+    their rostral-caudal extent.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s75">Other neighboring structures also displayed 
+    <labelingDescription>AChE staining</labelingDescription>, including 
+    <labelingLocation>the parabigeminal nucleus, the microcellular 
+    tegmental nucleus, and the ventral tegmental 
+    nucleus</labelingLocation> (Fig. 2A-C).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s76">In these regions, however, the pattern of staining 
+    appeared to be associated with axons and the neuropil.</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s77">The specificity of <labelingDescription>AChE 
+    staining</labelingDescription> in <labelingLocation>the superior 
+    colliculus, and in the PPN and LDTN</labelingLocation>, was 
+    demonstrated in control sections processed for the histochemical 
+    localization of BuChE.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s78">In these sections, staining was completely absent, 
+    indicating that the AChE localization was not attributable to the 
+    hydrolysis of the substrate by nonspecific (or pseudo-) 
+    cholinesterase.</S>
+    <BR />
+
+    <S avgH="25" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s79">Location and extent of 
+    HRP injections</S>
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s80"><exptLabel>In experiments in which <injectionLocation>the 
+    superior colliculus</injectionLocation> was injected with 
+    <tracerChemical>HRP</tracerChemical></exptLabel>, sections were 
+    processed by using DAB as the chromogen to determine the location 
+    of the injection site and the potential extent of effective 
+    uptake.</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s81">In order to counteract the 
+    reduced enzyme activity with paraformaldehyde fixation and the 
+    lower sensitivity of the DAB chromogen in detecting HRP-labelled 
+    neurons, injections in experiments processed for 
+    immunohistochemistry were larger than those that were used for 
+    retrograde labelling with TMB as the chromogen.</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s82">All but 
+    two injections were centered in <injectionLocation>the intermediate 
+    layer of the superior colliculus</injectionLocation>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s83">The injections were positioned at various levels 
+    throughout the rostral-caudal extent of the superior colliculus and 
+    usually involved spread to<injectionSpread>the superficial 
+    layers</injectionSpread> but did not extend beyond the deep layers 
+    (Fig. 1C).</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s84">These experiments produced 
+    <labelingDescription>moderate to dense retrograde labelling of 
+    neurons</labelingDescription> in <labelingLocation>the PPN and 
+    LDTN</labelingLocation>, the number of which appeared to be 
+    correlated with the sue of the injection site.</S></TTE>
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s85"><exptLabel>In two other experiments, in which the 
+    injection was confined <injectionLocation>primarily to the 
+    superficial layers</injectionLocation></exptLabel> with only slight 
+    spread into <injectionSpread>the intermediate 
+    layers</injectionSpread>, <labelingDescription>dense retrograde 
+    labelling of neurons</labelingDescription> was observed in 
+    <labelingLocation>the contralateral parabigeminal 
+    nucleus</labelingLocation>.</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT"
+     id="s86"><labelingDescription>Neurons</labelingDescription> in 
+    <labelingLocation>the PPN and LDTN</labelingLocation>, however, 
+    were only <labelingDescription>sparsely and lightly 
+    labelled</labelingDescription> in these experiments.</S></TTE>
+
+    <BR />
+
+    <S avgH="25" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s87">Distribution of 
+    retrograde HRP-labelled and/or CUT-immunoreactive neurons</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s88">In sections processed for the colocalization of ChAT and 
+    retrogradely transported HRP, the distribution of 
+    <labelingDescription>ChATimmunoreactive 
+    neurons</labelingDescription> was similar to that described 
+    previously (Armstrong et al., &apos;83; Mesulam et al., 
+    &apos;83).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s89"><labelingDescription>ChATimmunoreactive 
+    neurons</labelingDescription>, identified on the basis of a diffuse 
+    brown staining of the soma and dendrites, first appeared rostrally 
+    at the level of <neuroanatomicalLandmark>the trochlear 
+    nucleus</neuroanatomicalLandmark>, dorsolateral to 
+    <neuroanatomicalLandmark>the most caudal extent of the substantia 
+    nigra</neuroanatomicalLandmark> and ventromedial to 
+    <neuroanatomicalLandmark>the parabigeminal 
+    nucleus</neuroanatomicalLandmark> (Figs. 2D, 3A).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s90">This most rostral portion of the cell group corresponds 
+    to <neuroanatomicalLocation>the pars dissipata subdivision of the 
+    pedunculopontine tegmental nucleus 
+    (PPNpd)</neuroanatomicalLocation>, as described by Olszewski and 
+    Baxter ( 54).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s91">Further caudally, t<labelingDescription>his 
+    ChAT-immunoreactive</labelingDescription> cell group migrates 
+    dorsomedially to eventually surround <neuroanatomicalLandmark>the 
+    superior cerebellar peduncle (SCP)</neuroanatomicalLandmark> at the 
+    level of <neuroanatomicalLandmark>the midinferior 
+    colliculus</neuroanatomicalLandmark> (Figs. 2E, 3D).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s92"><labelingDescription>The dense cluster of 
+    ChATimmunoreactive neurons</labelingDescription> lateral to 
+    <neuroanatomicalLandmark>the SCP</neuroanatomicalLandmark> at this 
+    level corresponds to <labelingLocation>the pars compacta 
+    subdivision of the pedunculopontine nucleus 
+    (PPNpc</labelingLocation>; Olszewski and Baxter, 54).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s93"><labelingDescription>The ring of ChAT-immunoreactive 
+    neurons</labelingDescription> that circumscribes 
+    <labelingLocation>the SCP</labelingLocation> at this level is 
+    completed dorsomedially by <labelingLocation>the 
+    ChAT-immunoreactive LDTN</labelingLocation> (Fig. 2E).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s94">The immunoreactive neurons of <labelingLocation>the 
+    PPN</labelingLocation> extend further caudally into 
+    <neuroanatomicalLandmark>the rostral pons</neuroanatomicalLandmark> 
+    where, at the level of <neuroanatomicalLandmark>the lateral and 
+    medial parabrachial nuclei</neuroanatomicalLandmark>, 
+    <neuroanatomicalLocation>the PPNpd</neuroanatomicalLocation> is 
+    medial to <neuroanatomicalLandmark>the 
+    SCP</neuroanatomicalLandmark> and extends dorsomedially into 
+    <neuroanatomicalLocation>the subcoeruleus 
+    region</neuroanatomicalLocation> to become contiguous with 
+    <neuroanatomicalLocation>the LDTN</neuroanatomicalLocation> (Figs. 
+    2F, 3F).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s95"><labelingDescription>ChAT-immunoreactive 
+    neurons</labelingDescription> of <neuroanatomicalLocation>the 
+    LDTN</neuroanatomicalLocation> occupy the entire rostral-caudal 
+    extent of the nucleus, extending as far caudally as 
+    <neuroanatomicalLocation>the locus 
+    coeruleus</neuroanatomicalLocation> and 
+    <neuroanatomicalLocation>the trigeminal motor 
+    nucleus</neuroanatomicalLocation> (Figs.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s96">ZF, 3H).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s97">The locations of <labelingDescription>ChAT-immunoreactive 
+    neurons</labelingDescription> in <neuroanatomicalLocation>the 
+    PPN</neuroanatomicalLocation> and <neuroanatomicalLocation>the 
+    LDTN</neuroanatomicalLocation> correspond to 
+    <neuroanatomicalLocation>the cholinergic cell groups Ch5 and 
+    Ch6</neuroanatomicalLocation> of Mesulam et al. ( 83, 84).</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s98"><labelingDescription>Neurons that were both 
+    ChAT-immunoreactive and labelled retrogradely with 
+    HRP</labelingDescription> were found throughout the region of 
+    <labelingLocation>the PPN and the LDTN</labelingLocation>.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s99">These neurons were identified on the basis of the 
+    presence of immunoreactive staining that appeared as diffuse brown 
+    soma-dendritic staining of the cell with distinct black granules 
+    distributed throughout the soma attributable to the retrograde 
+    transport of HRP (Fig. 4A,B).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s100">In <labelingLocation>the rostral portion of the 
+    PPNpd</labelingLocation>, <labelingDescription>a few 
+    double-labelled neurons</labelingDescription> were found 
+    bilaterally (Fig. 3A,B).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s101">At <neuroanatomicalLandmark>caudal 
+    midbrain</neuroanatomicalLandmark> levels, 
+    <labelingDescription>double-labelled neurons</labelingDescription> 
+    were found bilaterally in <labelingLocation>the 
+    PPNpc</labelingLocation> with ipsilateral predominance (Fig. 
+    3C,D).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s102">While the majority of 
+    <labelingDescription>double-labelled neurons</labelingDescription> 
+    were found in <labelingLocation>the PPNpc</labelingLocation>, 
+    <labelingDescription>a few</labelingDescription> were scattered in 
+    <labelingLocation>the PPNpd</labelingLocation> bilaterally 
+    throughout <labelingLocation>the rostralcaudal extent of this cell 
+    group</labelingLocation>.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s103"><labelingDescription>Numerous ChAT-immunoreactive 
+    neurons</labelingDescription> of <labelingLocation>the 
+    LDTN</labelingLocation> were also <labelingDescription>labelled 
+    with retrogradely transported HRP</labelingDescription>.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s104">These neurons were present bilaterally with a marked 
+    ipsilateral predominance (Fig. 3D-F).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s105"><labelingDescription>Double-labelled 
+    neurons</labelingDescription> of <labelingLocation>the 
+    LDTN</labelingLocation> were located primarily in 
+    <labelingLocation>the rostral portion of the 
+    nucleu</labelingLocation>s.</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s106"><labelingDescription>Some neurons</labelingDescription> 
+    of <labelingLocation>the PPN</labelingLocation> were labelled only 
+    with <labelingDescription>retrogradely transported 
+    HRP</labelingDescription>, which appeared as black granules in the 
+    cytoplasm of the nonimmunoreactive soma (Fig. 4C).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s107">A prominent cluster of these HRP-labelled neurons was 
+    located in <labelingLocation>the caudal midbrain</labelingLocation> 
+    ventral to <neuroanatomicalLandmark>the 
+    SCP</neuroanatomicalLandmark> in <labelingLocation>the 
+    contralateral PPNpd</labelingLocation> (Fig. 3D,E).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s108">A similar group of tightly clustered neurons was present 
+    on the ipsilateral side, but these were only 
+    <labelingDescription>lightly labelled</labelingDescription>.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s109">Other retrograde <labelingDescription>HRP singly 
+    labelled neurons</labelingDescription> were found scattered 
+    throughout <labelingLocation>the region of the 
+    PPN</labelingLocation> but were <labelingDescription>few in 
+    number</labelingDescription> and were present primarily at the 
+    level of <neuroanatomicalLandmark>the rostral 
+    pons</neuroanatomicalLandmark>.</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s110">Neurons of <labelingLocation>the PPN and 
+    LDTN</labelingLocation> that were 
+    <labelingDescription>ChAT-immunoreactive and 
+    HRP-labelled</labelingDescription> and those ventral to 
+    <neuroanatomicalLandmark>the SCP</neuroanatomicalLandmark> labelled 
+    only with <labelingDescription>retrogradely transported 
+    HRP</labelingDescription> could be distinguished from each other on 
+    the basis of their distinct soma-dendritic morphologies.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s111"><labelingDescription>The ChAT-immunoreactive 
+    neurons</labelingDescription> of <labelingLocation>the 
+    PPN</labelingLocation> were multipolar with dendrites that 
+    gradually emerged from the soma, thus producing an irregular 
+    appearance (Fig. 4B).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s112"><labelingDescription>The ChAT-immunoreactive 
+    neurons</labelingDescription> of <labelingLocation>the 
+    LDTN</labelingLocation>, by contrast, had a circular or oval 
+    appearance with dendrites that emerged abruptly from the Soma (Fig. 
+    4A).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s113">The neurons located in <labelingLocation>the 
+    region</labelingLocation> ventral to <neuroanatomicalLandmark>the 
+    SCP</neuroanatomicalLandmark>, which were labelled only with 
+    retrogradely transported HRP, displayed a characteristic slender 
+    fusiform profile whose plane of elongation was parallel to the 
+    trajectory of axons that composed the SCP (Fig. 4 0 A single 
+    dendrite usually emanated gradually from each pole of the soma.</S>
+    <BR />
+
+    <S avgH="25" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s114">Distribution of 
+    retrograde HRP-labelled neurons with TMB as chromogen</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s115">In order to determine the full extent of the projection 
+    to the superior colliculus from the region of the PPN and LDTN, 
+    sections were processed with TMB as the chromogen for the 
+    localization of retrogradely transported HRP.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s116">The following description of the pattern of labelled 
+    neurons is limited to this region and adjacent nuclei.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s117">It is not intended to be a complete description of the 
+    brainstem afferents to the rat superior colliculus.</S>
+    <BR />
+
+    <TTE>
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s118">Injections of <tracerChemical>HRP</tracerChemical> 
+      centered in <injectionLocation>the intermediate gray layer of the 
+      superior colliculus</injectionLocation> produced 
+      <labelingDescription>extensive retrograde labelling of 
+      neurons</labelingDescription> in <labelingLocation>the rostral 
+      portion of the substantia nigra pars 
+      reticulata</labelingLocation> (Fig. 6A).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s119">In the same experiments, 
+      <labelingDescription>HRP-labelled neurons</labelingDescription> 
+      in <labelingLocation>the PPNpd</labelingLocation> first appeared 
+      bilaterally dorsolateral to <neuroanatomicalLandmark>the caudal 
+      extent of the substantia nigra</neuroanatomicalLandmark> at the 
+      level of <neuroanatomicalLandmark>the trochlear 
+      nucleus</neuroanatomicalLandmark>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s120">The full extent of the ipsilateral neuronal labelling 
+      could not be determined because of <labelingDescription>heavy 
+      fiber labelling</labelingDescription>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s121">At this level, <labelingDescription>the labelled 
+      neurons</labelingDescription>of <labelingLocation>the 
+      PPNpd</labelingLocation> were medial to <labelingDescription>the 
+      labelled neurons</labelingDescription> of <labelingLocation>the 
+      paralemniscal nuclei</labelingLocation>, and were bounded 
+      dorsolaterally by <neuroanatomicalLandmark>the parabigeminal 
+      nucleus</neuroanatomicalLandmark> and dorsomedially by 
+      <neuroanatomicalLandmark>the nucleus 
+      cuneiformis</neuroanatomicalLandmark> (Figs. 5A-C, 6B).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s122">Because of involvement of <injectionSpread>the 
+      superficial layers</injectionSpread> at the injection site, 
+      <labelingDescription>neuronal labelling</labelingDescription> in 
+      <labelingLocation>the parabigeminal nucleus</labelingLocation> 
+      was bilateral with a marked contralateral predominance.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s123"><labelingDescription>Bilateral neuronal 
+      labelling</labelingDescription> was also present throughout 
+      <labelingLocation>the nucleus cuneiformis</labelingLocation> 
+      (Figs. 5A, B, 6B).</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s124">At levels through the rostral one-third of 
+      <neuroanatomicalLandmark>the inferior 
+      colliculus</neuroanatomicalLandmark>, <labelingDescription>the 
+      labelled neurons</labelingDescription> of <labelingLocation>the 
+      PPNpd</labelingLocation> assumed a position more medial and 
+      dorsal in <neuroanatomicalLocation>the 
+      tegmentum</neuroanatomicalLocation>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s125">At this level <neuroanatomicalLocation>the 
+      PPNpd</neuroanatomicalLocation> was clearly segregated from the 
+      laterally located nuclei of <labelingLocation>the lateral 
+      lemniscus</labelingLocation> and <labelingLocation>the dorsally 
+      located nucleus cuneiformis</labelingLocation>, both of which 
+      also contained <labelingDescription>labelled neurons 
+      bilaterally</labelingDescription>.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s126"><labelingDescription>The ipsilateral fiber 
+      labelling</labelingDescription> that obscured 
+      <labelingDescription>labelled neurons</labelingDescription> at 
+      more rostral levels decreased, and <labelingDescription>an 
+      ipsilateral predominance of labelled 
+      neurons</labelingDescription> in <labelingLocation>the 
+      PPNpd</labelingLocation> was apparent (Figs. 5D, 6C,D).</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s127"><labelingDescription>Labelled 
+      neurons</labelingDescription> of <labelingLocation>the 
+      PPNpc</labelingLocation> were present lateral to 
+      <neuroanatomicalLandmark>the SCP</neuroanatomicalLandmark> at 
+      <neuroanatomicalLandmark>the mid-inferior 
+      colliculus</neuroanatomicalLandmark> level with a definite 
+      ipsilateral predominance (Fig. 5D,E).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s128"><labelingDescription>Scattered labelled 
+      neurons</labelingDescription> were also present in 
+      <labelingLocation>the PPNpd</labelingLocation> dorsal and ventral 
+      to <neuroanatomicalLandmark>the SCP</neuroanatomicalLandmark> 
+      with a prominent cluster of neurons located just ventral to 
+      <neuroanatomicalLandmark>the SCP</neuroanatomicalLandmark> 
+      contralaterally (Figs. 5E,F, 6C,D).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s129">From the level of <neuroanatomicalLandmark>the caudal 
+      inferior colliculus</neuroanatomicalLandmark> to 
+      <neuroanatomicalLandmark>the rostral 
+      pons</neuroanatomicalLandmark> at the level of 
+      <neuroanatomicalLandmark>the parabrachial 
+      nuclei</neuroanatomicalLandmark>, <labelingDescription>labelled 
+      neurons</labelingDescription> of <labelingLocation>
+      PPN</labelingLocation> gradually became confined to 
+      <labelingLocation>the region</labelingLocation> ventromedial to 
+      <neuroanatomicalLandmark>the SCP</neuroanatomicalLandmark>, just 
+      lateral to <neuroanatomicalLandmark>the central 
+      gray</neuroanatomicalLandmark> with a continued ipsilateral 
+      predominance (Fig. 5H-4.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s130">In <labelingLocation>the central 
+      gray</labelingLocation>, <labelingDescription>labelled 
+      neurons</labelingDescription> were found in <labelingLocation>the 
+      dorsal nucleus of the raphe</labelingLocation>, particularly in 
+      its rostral portion.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s131"><labelingLocation>The lateral dorsal tegmental 
+      nucleus</labelingLocation> also contained 
+      <labelingDescription>HRP-labelled neurons</labelingDescription> 
+      throughout its rostral-caudal extent with a marked ipsilateral 
+      predominance (Fig. 5E-4.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s132"><labelingLocation>The LDTN</labelingLocation> extended 
+      more caudally in <neuroanatomicalLocation>the 
+      brainstem</neuroanatomicalLocation> than 
+      <neuroanatomicalLocation>the PPN</neuroanatomicalLocation>, 
+      ending at the level of <neuroanatomicalLandmark>the rostral 
+      trigeminal motor nucleus and locus 
+      coeruleus</neuroanatomicalLandmark>.</S>
+      <BR />
+
+    </TTE>
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s133">The distributions and types of neurons that were 
+    retrogradely labelled in these areas were similar to those that had 
+    been identified in the immunohistochemical experiments (Fig. 
+    4D-F).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s134">The characteristic fusiform shape of the contralateral 
+    neurons ventral to the SCP, in particular, was accentuated by the 
+    extensive soma-dendritic labelling produced by the TMB chromogen 
+    (Fig. 4F).</S>
+  </Results>
+
+  <Discussion>
+
+    <S avgH="26" class="discussion.heading"
+     format="TimesNewRomanPS-BoldMT" id="s135">DISCUSSION</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s136">This study identifies the pedunculopontine tegmental 
+    (PPN) and the lateral dorsal tegmental (LDTN) nuclei as sources of 
+    the cholinergic projection to the rat superior colliculus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s137">A cholinergic input to the superior colliculus has been 
+    suspected on the basis of its AChE activity (Shute and Lewis, 
+    &apos;67; Graybiel, &apos;78a, &apos;79; Harvey and MacDonald, 
+    &apos;85).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s138">Regions of the brainstem caudal to the superior 
+    colliculus have been considered to be the source of this 
+    innervation since lesions of the midbrain tegmentum have produced 
+    decreased levels of AChE and ChAT in the intermediate gray layer 
+    (Shute and Lewis, &apos;67; Hoover and Jacobowitz, &apos;79).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s139">In the present study, bilateral labelling of 
+    ChAT-immunoreactive neurons was observed in the rostra1 portion of 
+    the PPNpd beginning at the level of the trochlear nucleus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s140">At the midlevel of the inferior colliculus, where the 
+    pars compacta portion of PPN is located lateral to the SCP, neurons 
+    projecting the superior colliculus were labelled bilaterally with 
+    an ipsilateral predominance.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s141">Most of the retrograde HRP-labelled neurons in the PPNpc 
+    were ChATimmunoreactive.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s142">At this level, the neurons of the PPNpd were also 
+    labelled bilaterally with a contralateral predominance, including a 
+    prominent cluster of noncholinergic neurons located ventral to the 
+    SCP.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s143">All of the neurons of the LDTN that were labelled with 
+    retrograde HRP were also ChAT-immunoreactive but were predominantly 
+    ipsilateral.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s144">Other studies also have implicated the region of the PPN 
+    as a source of subcortical afferents to the superior colliculus in 
+    the cat (Graybiel, &apos;77, &apos;78b; Edwards et al., 
+    &apos;79).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s145">Edwards et al. (&apos;79) referred to the PPN as the 
+    parabrachial nuclei, which were labelled bilaterally without note 
+    of any ipsilatera1 or contralateral predominance.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s146">Autoradiographic studies of the efferent projections of 
+    the PPN, however, have demonstrated only sparse labelling in the 
+    superior colliculus (Graybiel, &apos;77; Moon-Edley and Graybiel, 
+    &apos;83).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s147">This may be due to the fact that the injections in these 
+    studies were discrete and did not involve a large number of neurons 
+    in this region that project to the superior colliculus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s148">In order to visualize the full extent of this 
+    projection, injections would have to involve every level of the PPN 
+    since, as demonstrated in the present study, neurons of the PPN 
+    that project to the superior colliculus are widely distributed 
+    throughout the rostral-caudal extent of the nucleus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s149">The predominantly ipsilateral projection from the LDTN 
+    and projections from the nucleus cuneiformis, dorsal raphe nucleus, 
+    and dorsal nucleus of the lateral lemniscus, as observed in the 
+    present study, have also been previously noted (Edwards et al., 
+    &apos;79; Tanaka et al., &apos;85).</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s150">Based on the bilaminar AChE staining pattern in the 
+    superior colliculus, both the superficial and intermediate layers 
+    may be sites for the termination of cholinergic afferent 
+    projections.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s151">This study has determined the PPN and LDTN to be sources 
+    of the cholinergic projection to the intermediate gray layer.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s152">Large injections of HRP in the superior colliculus, 
+    involving spread to the superficial layers, labelled neurons in the 
+    PPN, LDTN, and parabigeminal nucleus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s153">Injections confined to the superficial layers produced 
+    heavy labelling of the parabigeminal nucleus but only sparse 
+    labelling in the PPN and LDTN.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s154">By contrast, in one experiment where the injection was 
+    centered in the intermediate and deep layers with minimal 
+    superficial layer involvement, there was virtually no retrograde 
+    neuronal labelling in the parabigeminal nucleus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s155">The laminar-specific projections of the parabigeminal 
+    nucleus to the superficial laver and the PPN to the intermediate 
+    layer have - .</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s156">I demonstrated previously in other studies (Graybiel, 
+    &apos;78b; Edwards et al., &apos;79; Watanabe and Kawana, &apos;79; 
+    Stevenson and Lund, &apos;82; Sefton and Martin, &apos;84).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s157">The AChE staining pattern in the intermediate gray layer 
+    therefore may be attributable, at least in part, to a cholinergic 
+    projection arising from the PPN and LDTN.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s158">The function associated with the AChE staining pattern 
+    in the superficial layers, however, is somewhat obscure.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s159">Low levels of ChAT, relative to the intermediate gray 
+    layer, have been found in the superficial layers of the superior 
+    colliculus (Ross and Godfrey, &apos;85).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s160">In addition to the previously defined brainstem 
+    cholinergic cell groups Ch5 and Ch6, which correspond, at least in 
+    part, to the PPN and LDTN, respectively (Mesulam et al., &apos;83, 
+    &apos;841, ChAT-immunoreactive neurons recently have been observed 
+    in the parabigeminal nucleus with the designation as cholinergic 
+    cell group Ch8, and these neurons also have been labelled by 
+    retrograde transport of HRP from the superior colliculus (Mufson et 
+    al., &apos;86).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s161">This finding thus suggests the possibility of a 
+    cholinergic projection to the superficial layers of the superior 
+    colliculus that is different from the projection to the 
+    intermediate layer.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s162">In the present study, the density of retrograde HRP 
+    labelling of neurons in the parabigeminal nucleus precluded 
+    assessment of whether most of these also were 
+    ChAT-immunoreactive.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s163">The distribution of parabigeminal neurons labelled by 
+    retrograde transport of HRP from the superior colliculus, however, 
+    did not appear to be coextensive with the region of this nucleus 
+    that either displayed intense AChE staining (cf.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s164">Fig. 3A,D) or contained neurons that exhibited only weak 
+    ChAT-immunoreactive staining compared to that of neurons in the 
+    PPN, LDTN, and cranial nerve motor nuclei.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s165">As a result of this relatively weak staining, these 
+    neurons in the parabigeminal nucleus were not interpreted to be 
+    ChAT-immunoreactive.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s166">These qualitatively disparate results, however, also may 
+    reflect differences in either the sensitivities of the antibodies 
+    used or the immunohistochemical procedures themselves.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s167">In addition to a possible role in cholinergic 
+    mechanisms, the localization of AChE in the superficial and 
+    perhaps, to a certain extent, in the intermediate layers may be 
+    related to other functions of the enzyme such as hydrolysis of 
+    substance P or leuand met-enkephalin (Chubb et al., &apos;80, 
+    &apos;81, &apos;83).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s168">The latter have been demonstrated to have 
+    laminarspecific patterns of localization in the superior colliculus 
+    (Graybiel et al., &apos;84).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s169">In addition, substance P has been colocalized in 
+    approximately one-third of the ChAT-immunoreactive neurons in the 
+    PPN (Vincent et al., &apos;83), although it is unknown whether 
+    these neurons project to the superior colliculus.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s170">The projection from the LDTN to the superior colliculus, 
+    as demonstrated in the present study, confirms previous findings of 
+    an anterograde tracing study (Groenewegen and Van Dijk, 
+    &apos;84).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s171">In the rat, the LDTN also projects to other regions of 
+    the brain such as the substantia nigra, lateral geniculate nucleus, 
+    and the medial frontal cortex (MackeySim et al., &apos;83; 
+    Groenewegen and Van Dijk, &apos;84).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s172">In addition, a cholinergic projection from both the PPN 
+    and LDTN to the interpeduncular nucleus and limbic telencephalon 
+    has been demonstrated (Woolf et al., &apos;84; Woolf and Butcher, 
+    &apos;85).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s173">Indeed, the LDTN and PPN have many of the same efferent 
+    connections, including the thalamus and frontal cortex (Jones and 
+    Yang, &apos;85), although clear differences are apparent in at 
+    least some of their efferent connections, notably in relation to 
+    the basal ganglia.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s174">The projection from the PPN to the superior colliculus 
+    Dotentiallv reDresents another comuonent of the complex system b i 
+    which the basal ganglia may influence the-visuomotor functions of 
+    the superior colliculus (Fig. 7).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s175">The extensive connections of the PPN with the basal 
+    ganglia include afferents from the neostriatum (Jackson and 
+    Crossman, &apos;81a; Saper and Loewy, &apos;82), the entopeduncular 
+    nucleus or its homologous medial pallidal segment (Nauta and 
+    Mehler, &apos;66; Kim et al., &apos;76; Hopkins, &apos;77; Jackson 
+    and Crossman, &apos;81a; Saper and Loewy, &apos;82; Moon-Edley and 
+    Graybiel, &apos;83; Rye et al., &apos;85), the lateral pallidal 
+    segment (Hopkins, &apos;77; Jackson and Crossman, &apos;81a), the 
+    subthalamic nucleus (Nauta and Cole, &apos;78; Graybiel and 
+    Ragsdale, &apos;79; Carpenter et al., &apos;81b; Jackson and 
+    Crossman, &apos;81a,b; Saper and Loewy, &apos;82; Moon-Edley and 
+    Graybiel, &apos;83), the substantia nigra pars reticulata (sN~; 
+    Hopkins and ~ i sen, &apos;76; Hopkins, &apos;77; Nauta et al., 
+    &apos;78; Beckstead et al., &apos;79; Graybiel and Rags&amp;amp;+, 
+    &apos;79; Jackson and Crossman, &apos;81a; Beckstead and 
+    Frankfurter, &apos;82; Saper and L ~ &apos;82; Beckstead, &apos;83; 
+    Moon-Edley and Graybiel, &apos;83; Rye et al., &apos;85), and 
+    possibly the substantia nigra pars compacta (SNc; Hopkins and 
+    Niessen, &apos;76; Beckstead &amp;amp; al., &apos;79).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s176">In addition, the PPN also receives afferents from the 
+    motor cortex (Graybiel and Ragsdale, &apos;79; Moon-Edley and 
+    Graybiel, &apos;83).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s177">The efferents of the PpN indicate reciprocal connections 
+    with several basal ganglia structures such as the neostriatum 
+    (Saper and Loewy, &apos;82; Parent et al., &apos;83), the 
+    entopeduncular nucleus (Graybiel, &apos;77, Graybiel and Ragsdale, 
+    &apos;79; Carpenter et al., &apos;81a; Saper and Loewy, &apos;821, 
+    the lateral pallidal segment (Graybiel, &apos;77; saper and L ~ 
+    &apos;82), and the subthalamic nucleus (Graybiel, &apos;77; 
+    Graybiel and Ragsdale, &apos;79; Saper and Loev, &apos;82; 
+    Mmn-Edley and Graybiel, &apos;83; Sugimoto and Hattori, 
+    &apos;84).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s178">The PPN also projects to the SNc (Graybiel &apos;77; 
+    Graybiel and Ragsdale, &apos;79; Saper and Loewy, &apos;82; 
+    Moon-Edley and Graybie,, 733; Sugimoto and Hattori, &apos;84).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s179">In addition, the ppN projects to the motor cortex (Saper 
+    and Loewy, &apos;82) and spinal cord (Stevens et al., &apos;81; 
+    Holstege and Kuypers, &apos;8%.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s180">A more widesuread influence of the PPN mav be mediated 
+    bv efferent connections with the intralaminar and reticular nuclei 
+    of the thalamus (Sofroniew et al., &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s181">Some of these connections have been confirmed 
+    electrophysiologically and indicate that the PPN receives an 
+    inhibitory input from the subthalamic nucleus and substantia nigra 
+    Wammond et al., &apos;83; Noda and Oka, &apos;84, &apos;86) and has 
+    an excitatory effect on the same structures (Hammond et al., 83; 
+    Scarnati et al., &apos;84).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s182">The PPN also has excitatory synaptic connections with 
+    neurons in the entopeduncular nucleus and the globus pallidus 
+    (Gonya-Magee and Anderson, &apos;83).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s183">In addition to extrapyramidal motor-related structures, 
+    the PPN also projects to structures related to the visual system 
+    such as the superior colliculus, as demonstrated in the present 
+    study, and the lateral geniculate nucleus (Graybiel, &apos;77; 
+    Moon-Edley and Graybiel, &apos;83).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s184">The basal ganglia is known to influence the visual 
+    system by means of its connections with the superior colliculus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s185">The SNr, considered a major outflow structure of the 
+    basal ganglia, has direct efferent projections to both the superior 
+    colliculus and PPN, which are to some extent by axon collaterals 
+    (Mifi et al., &apos;70; Hopkins and Niessen, &apos;76; Faull and 
+    Mehler, &apos;78; Anderson and Yoshida, &apos;80; Beckstead et al., 
+    &apos;81; Niijima and Yoshida, &apos;82; Beckstead, &apos;83).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s186">Although the SNr does not receive a direct projection 
+    from the PPN, it could be influenced indirectly by the neostriatum 
+    and subthalamic nucleus, both of which receive afferents from the 
+    PPN.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s187">The neostriatum and subthalamic nucleus are also 
+    influenced by other structures by means of a complex loop system 
+    within the basal ganglia (see Graybiel and Ragsdale, &apos;79).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s188">While the inhibitory effect of SNr neurons on the 
+    superior co~liculus is well established (Chevalier et al., 
+    &apos;84; Hikosaka and w~rtz, &apos;85; Karabelas and Moschovakis, 
+    &apos;85), the effect of the PPN on the neurons of the superior 
+    collicU h S is unknown.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s189">Based on the evidence of an excitatory influence on the 
+    substantia nigra, subthalamic nucleus, entopeduncular nucleus, and 
+    the globus pallidus (GonyaMagee and Anderson, &apos;83; Hammond et 
+    al., &apos;83; Scarnati et al., &apos;841, the synaptic effect of 
+    the PPN on the superior CO~liCU~US presumably is the same.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s190">If so, the projections from the SNr and PPN could 
+    represent complementary systems of inhibitory and excitatory inputs 
+    to the superior c o ~ ~ l i ~ c from ~ l - ~ structures ~ that are 
+    functionally related to ganglia.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s191">the Various extrapyramidal motor disorders are 
+    associated with ~ degenerative ~ , neUrOna1 changes in structures 
+    related to the basal ganglia.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s192">For example, Huntington&apos;s and Parkinson&apos;s 
+    diseases are characterized by cell loss in the striat U and 
+    substantia nigra, respectively.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s193">There is evidence that the PPN also may be involved in 
+    diseases of the basal ganglia.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s194">Cell loss has been observed in this region in 
+    encephalitic Parkinson&apos;s disease (Papez, &apos;42).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s195">The PI&quot; has also been implicated as the source of 
+    resting tremors associated with Parkinson&apos;s disease (Folkerts 
+    and Spiegel, &apos;53; Poirer, &apos;60; Aronson et al., &apos;62; 
+    Kaelber, &apos;63; Jasper and Bertrand, &apos;66).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s196">Oculomotor disturbances in Huntington&apos;s and 
+    Parkinson&apos;s ~ diseases ~ include ~ increased , saccadic 
+    latency, hypometric saccades, decreased velocity of saccades, and 
+    saccadic jerks (Leigh et al., &apos;83; White et al., &apos;83).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s197">These deficits might be attributed to alteration of 
+    tonic nigrocollicular inhibition (Hikosaka and wurtz, &apos;85) and 
+    may represent an imbalance between the SNr GABAergic inhibitory and 
+    PPN cholinergic excitatory inputs that converge in the intermediate 
+    layer ofthe superior COlliCUlUS.</S>
+  </Discussion>
+
+  <Acknowledgements>
+
+    <S avgH="26" class="acknowledgements.heading"
+     format="TimesNewRomanPS-BoldMT" id="s198">ACKNOWLEDGEMENTS</S>
+    <BR />
+
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s199">This study was supported by 
+    U.S.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s200">Public Health Service 
+    research grant EY02191.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s201">The technical assistance of 
+    Ms.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s202">Leslie Hide and Ms.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s203">Lynn Davis i s greatly 
+    appreciated.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s204">We also should like to thank 
+    Dr.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s205">John G.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s206">McHafEe for helpful 
+    suggestions regarding the manuscript and figures and Dr.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s207">Barry E.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s208">Stein for the use of the 
+    microscope plotting system.</S>
+  </Acknowledgements>
+
+  <References>
+
+    <S avgH="26" class="references.heading"
+     format="TimesNewRomanPS-BoldMT" id="s209">LITERATURE CITED</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s210">Afifi, A.K., N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s211">Bahuth, and S.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s212">Jabbur (1970) The nigrotectal tract.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s213">An experimental study of its site of origin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s214">Acta Anat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s215">(Basel) 77t66-77.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s216">Anderson, M.E., and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s217">Yoshida (1980) Axonal branching patterns and location of 
+    nigrothalamic and nigrocollicular neurons in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s218">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s219">Neurophysiol. 43t883-895.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s220">Armstrong, D.E., C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s221">Saper, A.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s222">Levey, B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s223">Wainer, andR.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s224">Teny(1983) Distribution of cholinergic neurons in rat 
+    brain: Demonstrated by the immunocytochemical localization of 
+    choline acetyltransferase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s225">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s226">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s227">Neurol. 216t53-68.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s228">Aronson, N.I., B.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s229">Becker, and W.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s230">McGovern (1962) A study in experimental tremor.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s231">Confin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s232">Neurol. 22t397-429.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s233">Beckstead, R.M. (1983) Long collateral branches of 
+    substantia nigra pars reticulata axon6 to thalamus, superior 
+    colliculus and reticular formation in monkey and cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s234">Multiple retrograde neuronal labeling with fluorescent 
+    dyes.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s235">Neuroscience 10t767-779.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s236">Beckstead, R.M., and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s237">Frankfurter (1982) The distribution and some 
+    morphological features of substantia nigra neurons that project to 
+    the thalamus, superior colliculus and pedunculopontine nucleus in 
+    the monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s238">Neuroscience 7~2377-2388.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s239">Beckstead, R.M., V.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s240">Domesick, and W.J.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s241">Nauta (1979) Efferent connections of the substantia 
+    nigra and ventral tegmental area in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s242">Brain Res. 175191-217.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s243">Beckstead, R.M., S.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s244">Edwards, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s245">Frankfurter (1981) A comparison of the intranigral 
+    distribution of nigrotectal neurons labeled with horseradish 
+    peroxidase in the monkey, cat, and rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s246">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s247">Neurosci. lt121-125.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s248">Butcher, L.L., and N.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s249">Woolf (1984) Histochemical distribution of 
+    acetylcholinesterase in the central nervous system: Clues to the 
+    localization of cholinergic neurons.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s250">In A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s251">Bjorklund, T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s252">Hokfelt, and M.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s253">Kuhar (eds): Handbook of Chemical Neuroanatomy, Vol. 3: 
+    Classical Transmitters and Transmitter Receptors in the CNS, Part 
+    11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s254">Amsterdam: Elsevier, pp. 1-50.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s255">Carpenter, M.B., R.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s256">Batton, 111, S.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s257">Carleton, and J.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s258">Keller (1981a) Interconnections and organization of 
+    pallidal and subthalamic nucleus neurons in the monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s259">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s260">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s261">Neurol. 197:579-603.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s262">Carpenter, M.B., S.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s263">Carleton, J.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s264">Keller, and P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s265">Conte (1981b) Connections of the subthalamic nucleus in 
+    the monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s266">Brain Res. 224~1-29.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s267">Chevalier, G., S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s268">Vacher, and J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s269">Deniau (1984) Inhibitory nigral influence on tectospinal 
+    neurons, a possible implication of basal ganglia in orienting 
+    behavior.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s270">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s271">Brain Res. 53:320-326.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s272">Chubb, I.W., A.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s273">Hodgson, and G.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s274">White (1980) Acetylcholinesterase hydrolyzes substance 
+    P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s275">Neuroscience 52065-2072.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s276">Chubb, I.W., E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s277">Ranier, A.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s278">Hodgson, and G.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s279">White (1981) The hydrolysis of leuand met-enkephalin by 
+    acetylcholinesterase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s280">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s281">Lett.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s282">[Suppl.] 8:39.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s283">Chubb, LW., E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s284">Ranier, G.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s285">White, and A.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s286">Hodgson (1983) The enkephalins are amongst the peptides 
+    hydrolyzed by purified acetylcholinesterase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s287">Neuroscience IOt1369-1377.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s288">DeJong, J.D., and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s289">Jones (1971) Akinesia, hypokinesia, and bradykinesia in 
+    the oculomotor system of patients with Parkinson s disease.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s290">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s291">Neurol. 32:58-68.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s292">Eckenstein, F., and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s293">Tboenen (1982) Production of specific antisera and 
+    monoclonal antibodies to choline acetyltransferase: 
+    Characterization and use for identification of cholinergic 
+    neurons.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s294">EMBO J. 1:363-368.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s295">Edwards, S.B., and E.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s296">Shalna (1974) Microinjector for use in the 
+    autoradiographic neuroanatomical tracing method.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s297">Pharmacol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s298">Biochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s299">Behav. 2111-113.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s300">Edwards, S.B., C.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s301">Ginsburgh, C.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s302">Henkel, and B.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s303">Stein (1979) Sources of subcortical projections to the 
+    superior colliculus in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s304">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s305">Cornp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s306">Neurol. 184t309-330.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s307">Faull, R.L.M., and W.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s308">Mehler (1978) The cells of origin of nigrotectal, 
+    nigrothalamic and nigrostriatal projections in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s309">Neuroscience 3t989-1002.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s310">Folkerts, J.F., and E.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s311">Spiegel (1953) Tremor on stimulation brain tegmentum.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s312">Confin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s313">Neurol. 23~193-200.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s314">Gonya-Magee, T., and M.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s315">Anderson (1983) An electrophysiological characterization 
+    of projections from the pedunculopontine area to entopeduncular 
+    nucleus and globus pallidus in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s316">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s317">Brain Res. 49t269279.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s318">Graybiel, A.M. (1977) Direct and indirect preoculomotor 
+    pathways of the brainstem: An autoradiographic study of the pontine 
+    reticular formation in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s319">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s320">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s321">Neurol. 175t37-78.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s322">Graybiel, A.M. (1978a) A steriometric pattern of 
+    distribution of acetylcholinesterase in the deep layers of the 
+    superior colliculus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s323">Nature 272539541.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s324">Graybiel, A.M. (197813) A satellite system of the 
+    superior colliculus: The parabigeminal nucleus and its projections 
+    to the superficial collicular layers.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s325">Brain Res. 145365-374.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s326">Graybiel, A.M. (1979) Periodic-compartmental 
+    distribution of acetylcholinesterase in the superior colliculus of 
+    the human brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s327">Neuroscience 4:643-650.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s328">Graybiel, A.M., and C.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s329">Ragsdale, Jr. (1979) Fiber connections of the basal 
+    ganglia.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s330">In M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s331">Cuenod, G.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s332">Kreutzberg, and F.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s333">Bloom (eds): Progress in Brain Research.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s334">Amsterdam: Elsevier, pp. 239-283.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s335">Graybiel, A.M., N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s336">Brecha, and H.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s337">Karten (1984) Cluster-and-sheet pattern of 
+    enkephalin-like immunoreactivity in the superior colliculus of the 
+    cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s338">Neuroscience 22~191-214.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s339">Groenewegen, H.J., and C.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s340">Van Dijk (1984) Efferent connections of the dorsal 
+    tegmental region in the rat, studied by means of anterograde 
+    transport of the lectin Phaseolus vulgaris-leucoagglutinin 
+    (PHA-L).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s341">Brain Res. 304t367-371.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s342">Hammond, C., B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s343">Rouzaire-Dubois, J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s344">Feger, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s345">Jackson, and A.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s346">Crossman (1983) Anatomical and electrophysiological 
+    studies on the reciprocal projections between the subthalamic 
+    nucleus and nucleus tegmenti pedunculopontinus in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s347">Neuroscience 9t41-52.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s348">Harvey, A.R., and A.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s349">MacDonald (1985) The development of acetylcholinesterase 
+    activity in normal and transplanted superior colliculus in rats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s350">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s351">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s352">Neurol. 24Ot117-127.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s353">Hikosaka, O., and R.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s354">Wurtz (1985) Modification of saccadic eye movements by 
+    GABA-related substances. 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s355">Effects of muscimol in monkey substantia nigra pars 
+    reticulata.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s356">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s357">Neurophysiol. 53t292-307.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s358">Holstege, G., and H.G.J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s359">Kuypers (1982) The anatomy of brain stem pathways to the 
+    spinal cord in cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s360">A labeled amino acid tracing study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s361">In H.G.J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s362">Kuypers and G.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s363">Martin (eds): Progress in Brain Research, Vol. 57.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s364">Amsterdam: Elsevier, pp. 145-175.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s365">Hoover, D.B., and D.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s366">Jacobowitz (1979) Neurochemical and histochemical 
+    studies of the effect of a lesion of the nucleus cuneiformis on the 
+    cholinergic innervation of discrete areas of the rat brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s367">Brain Res. 170:113122.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s368">Hopkins, D.A. (1977) Basal ganglia projections to the 
+    brain stem in the rat, cat and monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s369">Excerpta Med. 429:ll-24.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s370">Hopkins, D.A., and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s371">Niessen (1976) Substantia nigra projections to the 
+    reticular formation, superior colliculus and central gray in the 
+    rat, cat and monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s372">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s373">Lett. 2253-259.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s374">Huerta, M.F., and J.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s375">Harting (1984) The mammalian superior colliculus: 
+    Studies of its morphology and connections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s376">In H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s377">Vanegas (ed): Comparative Neurology of the Optic 
+    Tectum.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s378">Plenum: New York, pp. 687-773.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s379">Illing, R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s380">-B., and A.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s381">Graybiel(1985) Convergence of afferents from frontal 
+    cortex and substantia nigra onto acetylcholinesterase-rich patches 
+    of the cat s superior colliculus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s382">Neuroscience 14:455-482.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s383">Jackson, A,, and A.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s384">Crossman (1981a) Basal ganglia and other afferent 
+    projections to the peribrachial region in the rat: A study using 
+    retrograde and anterograde transport of horseradish peroxidase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s385">Neuroscience 6tl537-1549.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s386">Jackson, A,, and A.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s387">Crossman (1981b) Subthalamic projection to nucleus 
+    tegmenti pedunculopontinus in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s388">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s389">Lett. 22~17-22.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s390">Jasper, H.H., and G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s391">Bertrand (1966) Thalamic units involved in somatic 
+    sensation and voluntary and involuntary movements in man.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s392">In D.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s393">Purpura and M.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s394">Yahr (eds): The Thalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s395">New York Columbia University Press, pp. 363-390.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s396">Jones, B.E., and T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s397">-Z.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s398">Yang (1985) The efferent projections from the reticular 
+    formation and the locus coeruleus studied by anterograde axonal 
+    transport in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s399">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s400">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s401">Neurol. 24256-92.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s402">Kaelbar, W.W. (1963) Tremor at rest from tegmental J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s403">Neuropathol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s404">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s405">Neurol. 22t695-701.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s406">Karabelas, A.B., and A.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s407">Moschovakis (1985) Nigral inhibitory termination on 
+    efferent neurons of the superior colliculus: An intracellular 
+    horseradish peroxidase study in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s408">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s409">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s410">Neurol. 239~309-329.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s411">Kim, R., K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s412">Nakano, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s413">Jayaraman, and M.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s414">Carpenter (1976) Projections of the globus pallidus and 
+    adjacent structures: An autoradiographic study in the monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s415">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s416">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s417">Neurol. 169~263-290.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s418">Kimura, H., P.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s419">McGeer, J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s420">-H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s421">Peng, and E.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s422">McGeer (1981) The central cholinergic system studied by 
+    cboline acetyltransferase immunobistochemistry in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s423">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s424">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s425">Neurol. 200~151-201.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s426">Kimura, H., P.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s427">McGeer, and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s428">-H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s429">Peng (1984) Choline acetyltransferasecontaining neurons 
+    in the rat brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s430">In A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s431">Bjorklund, T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s432">Hokfelt, and M.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s433">Kuhar (eds): Handbook of Chemical Neuroanatomy, Vol. 3: 
+    Classical Transmitters and Transmitter Receptors in the CNS, Part 
+    11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s434">Amsterdam: Elsevier, pp. 51-67.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s435">Leigh, R.J., S.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s436">Newman, S.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s437">Folstein, A.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s438">Lasker, and B.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s439">Jensen (1983) Abnormal ocular motor control in 
+    Huntington s disease.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s440">Neurology (NY) 33.1268-1275.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s441">Lewis, P.R., and C.C.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s442">Shute (1966) The distribution of cholinesterase in 
+    cholinergic neurons demonstrated with the electron microscope.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s443">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s444">Cell Sci. 1~381-390.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s445">Mackay-Sim, A,, A.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s446">Sefton, and P.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s447">Martin (1983) Subcortical projections to lateral 
+    geniculate and thalamic reticular nuclei in the hooded rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s448">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s449">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s450">Neurol. 213:24-35.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s451">Mesulam, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s452">-M. (1978) Tetramethylbemidine for horseradish 
+    peroxidase neurohistochemistry: A noncarcinogenic blue 
+    reaction-product with superior sensitivity for visualizing neural 
+    afYerents and efferents.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s453">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s454">Histochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s455">Cytochem. 26:106-117.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s456">Mesulam, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s457">-M., E.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s458">Mufson, B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s459">Wainer, and A.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s460">Levey (1983) Central cholinergic pathways in the rat: An 
+    overview based on an alternative nomenclature (Chl-Ch6).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s461">Neuroscience 10r1185-1201.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s462">Mesulam, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s463">-M., E.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s464">Mufson, A.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s465">Levey, and B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s466">Wainer (1984) Atlas of cholinergic neurons in the 
+    forebrain and upper brainstem of the macaque based on monoclonal 
+    choline acetyltransferase immunohistochemistry and 
+    acetylcholinesterase histochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s467">Neuroscience 12:669-686.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s468">Moon-Edley, S., and A.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s469">Graybiel(1983) The afferent and efferent connections of 
+    the feline nucleus tegmenti pedunculopontinus, pars compacta.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s470">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s471">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s472">Neurol. 217~187-215.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s473">Mufson, E.J., T.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s474">Martin, D.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s475">Mash, B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s476">Wainer, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s477">-M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s478">Mesulam (1986) Cholinergic projections from the 
+    parabigeminal nucleus (Ch8) to the superior colliculus in the 
+    mouse: A combined analysis of horseradish peroxidase transport and 
+    choline acetyltransferase immunohistochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s479">Brain Res. 370,144-148.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s480">Nauta, W.J.H., and W.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s481">Mehler (1966) Projections of the lentiform nucleus in 
+    the monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s482">Brain Res. 1:3-42.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s483">Nauta, W.J.H., and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s484">Cole (1978) Efferent projections of the subthalamic 
+    nucleus: An autoradiographic study in monkey and cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s485">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s486">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s487">Neurol. 18O:l-16.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s488">Nauta, W.J.H., G.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s489">Smith, R.L.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s490">Faull, and V.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s491">Domesick (1978) Efferent connections and nigral 
+    afferents of the nucleus accumbens septi in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s492">Neuroscience 3:385-401.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s493">Niijima, K., and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s494">Yoshida (1982) Electrophysiological evidence for 
+    branching nigral projections to pontine reticular formation, 
+    superior colliculus and thalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s495">Brain Res. 239:279-282.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s496">Noda, T., and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s497">Oka (1984) Nigral inputs to the pedunculopontine region: 
+    Intracellular analysis.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s498">Brain Res. 322~332-336.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s499">Noda, T., and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s500">Oka (1986) Distribution and morphology of tegmental 
+    neurons receiving nigral inhibitory inputs in the cat: An 
+    intracellular HRP study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s501">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s502">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s503">Neurol. 244t254-266.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s504">Olszewski, J., and D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s505">Baxter (1954) Cytoarchitecture of the Human 
+    Brainstem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s506">Philadelphia: J.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s507">Lippincott Co., pp. 44-53.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s508">Papez, J.W. (1942) The summary of fiber connections of 
+    the basal ganglia with each other and other portions of the 
+    brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s509">Assoc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s510">Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s511">Nerv.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s512">Ment.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s513">Dis.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s514">Proc. 21.21-68.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s515">Parent, A., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s516">Mackey, and L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s517">De Bellefeuille (1983) The subcortical afferents to 
+    caudate nucleus and putamen in primate: A fluorescence retrograde 
+    double labeling study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s518">Neuroscience 10~1137-1150.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s519">Paxinos, G., and C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s520">Watson (1982) The Rat Brain in Stereotaxic 
+    Coordinates.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s521">New York: Academic Press.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s522">Paxinos, G., and L.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s523">Butcher (1985) Organizational principles of the brain as 
+    revealed by cboline acetyltransferase and acetylcholinesterase 
+    distribution and projections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s524">In G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s525">Paxinos (ed): The Rat Nervous System.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s526">Vol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s527">I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s528">Forebrain and Midbrain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s529">Sydney: Academic Press, pp. 487-521.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s530">Poirier, L.J. (1960) Experimental and histological study 
+    of midbrain dyskinesias.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s531">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s532">Neurophysiol. 23.534-551.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s533">Ross, C.D., and D.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s534">Godfrey (1985) Distributions of choline 
+    acetyltransferase and acetylcholinesterase activities in layers of 
+    rat superior colliculus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s535">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s536">Histochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s537">Cytochem. 33~631-641.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s538">Rye, D.B., C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s539">Saper, and B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s540">Wainer (1985) Cytoarchitectonic/cytochemical features of 
+    the nucleus tegmenti pedunculo-pontinus (NTPP) in the rat are 
+    distinct from extrapyramidal projections to the mesopontine 
+    tegmentum.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s541">Soc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s542">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s543">Abstr. 11.1024.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s544">Saper, C.B., and A.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s545">Loewy (1982) Projections of the pedunculopontlne 
+    tegmental nucleus in the rat: Evidence for additional 
+    extrapyramidal circuitry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s546">Brain Res. 252:367-372.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s547">Satoh, K., and H.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s548">Fibiger (1985a) Distribution of central cholinergic 
+    neurons in the baboon (Pupio pupio).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s549">I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s550">General morphology.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s551">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s552">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s553">Neurol. 236:197-214.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s554">Satoh, K., and H.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s555">Fibiger (198513) Distribution of central cholinergic 
+    neurons in the baboon (Pupio pupio).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s556">II.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s557">A topographic atlas correlated with catecholamine 
+    neurons.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s558">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s559">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s560">Neurol. 236:215-233.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s561">Satoh, K., D.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s562">Armstrong, and H.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s563">Fibiger (1983) A comparison of the distribution of 
+    central cholinergic neurons as demonstrated by acetylcholinesterase 
+    pharmacohistochemistry and choline acetyltransferase 
+    immunohistochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s564">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s565">Bull. 11~693-720.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s566">Scarnati, E., E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s567">Campana, and C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s568">Pacitti (1984) Pedunculopontineevoked excitation of 
+    substantia nigra neurons in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s569">Brain Res. 304:351361.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s570">Sefton, A.J., and P.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s571">Martin (1984) Relation of the parabigeminal nucleus to 
+    the superior colliculus and dorsal lateral geniculate nucleus in 
+    the hooded rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s572">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s573">Brain Res. 56:144-148.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s574">Shute, C.C.D., and P.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s575">Lewis (1967) The ascending cholinergic reticular system: 
+    Neocortical, olfactory and subcortical projections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s576">Brain 90:497520.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s577">Smith, Y., and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s578">Parent (1984) Distribution of 
+    acetylcholinesterase-containing neurons in the basal forebrain and 
+    upper brainstem of the squirrel monkey (Suimiri sciureus).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s579">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s580">Bull. 12:95-104.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s581">Sofroniew, M.V., J.V.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s582">Priestley, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s583">Consolazione, F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s584">Eckenstein, and A.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s585">Cuello (1985) Cholinergic projections from the midbrain 
+    and pons to the thalamus in the rat, identified by combined 
+    retrograde tracing and choline acetyltransferase 
+    immunohistochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s586">Brain Res. 329~213223.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s587">Stevenson, J.A., and R.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s588">Lund (1982) Alterations of the crossed 
+    parabigeminotectal projection induced by neonatal eye removal in 
+    rats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s589">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s590">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s591">Neurol. 207:191-202.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s592">Sugimoto, T., and T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s593">Hattori (1984) Organization and efferent projections of 
+    nucleus tegmenti pedunculopontinus pars compacta with special 
+    reference to its cholinergic aspects.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s594">Neuroscience 11: 931-946.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s595">Tanaka, K., K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s596">Otani, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s597">Tokunaga, and S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s598">Sugita (1985) The organization of neurons in the nucleus 
+    of the lateral lemniscus projecting to the superior and inferior 
+    colliculi in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s599">Brain Res. 341~252-260.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s600">Vincent, S.R., K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s601">Satoh, D.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s602">Armstrong, and H.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s603">Fibiger (1983) Substance P in the ascending cholinergic 
+    reticular system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s604">Nature 306~668-691.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s605">Watanabe, K., and E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s606">Kawana (1979) Efferent projections of the parabigeminal 
+    nucleus in rats: A horseradish peroxidase (HRP) study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s607">Brain Res. 168tl-11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s608">White, O.B., J.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s609">Saint-Cyr, R.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s610">Tomlinson, and J.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s611">Sharpe (1983) Ocular motor deficits in Parkinson s 
+    disease. 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s612">Control of the saccadic and smooth pursuit systems.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s613">Brain 106t571-587.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s614">Wilson, P.M. (1985) A photographic perspective on the 
+    origins, form, course and relations of the 
+    acetylcholinesterase-containing fibers of the dorsal tegmental 
+    pathway in the rat brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s615">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s616">Rev. 10:85-118.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s617">Woolf, N.J., and L.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s618">Butcher (1985) Cholinergic systems in the rat brain: 
+    11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s619">Projections to the interpeduncular nucleus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s620">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s621">Bull. 14~6383.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s622">Woolf, N.J., F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s623">Eckenstein, and L.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s624">Butcher (1984) Cholinergic systems in the rat brain: 
+    I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s625">Projections to the limbic telencephalon.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s626">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s627">Bull. 13351-784.</S>
+  </References>
+
+</File>
+

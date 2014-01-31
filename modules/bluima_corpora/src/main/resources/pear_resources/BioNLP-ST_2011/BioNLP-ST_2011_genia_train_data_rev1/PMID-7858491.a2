@@ -1,0 +1,45 @@
+*	Equiv T4 T3
+*	Equiv T6 T5
+T18	Gene_expression 0 10	Expression
+T19	Gene_expression 381 391	expression
+T20	Gene_expression 488 498	expression
+T21	Gene_expression 677 687	expression
+T22	Gene_expression 1107 1116	expressed
+T23	Gene_expression 1165 1174	expressed
+T24	Gene_expression 1292 1301	expressed
+T25	Regulation 1344 1351	changes
+E1	Gene_expression:T18 Theme:T2
+E2	Gene_expression:T18 Theme:T4
+E3	Gene_expression:T18 Theme:T6
+E4	Gene_expression:T18 Theme:T1
+E5	Gene_expression:T18 Theme:T7
+E6	Gene_expression:T19 Theme:T10
+E7	Gene_expression:T19 Theme:T11
+E8	Gene_expression:T19 Theme:T9
+E9	Gene_expression:T19 Theme:T8
+E10	Gene_expression:T20 Theme:T12
+E11	Gene_expression:T21 Theme:T11
+E12	Gene_expression:T21 Theme:T12
+E13	Gene_expression:T21 Theme:T10
+E14	Gene_expression:T21 Theme:T8
+E15	Gene_expression:T21 Theme:T9
+E16	Gene_expression:T22 Theme:T13
+E17	Gene_expression:T23 Theme:T15
+E18	Gene_expression:T23 Theme:T14
+E19	Gene_expression:T24 Theme:T16
+E20	Gene_expression:T24 Theme:T17
+E21	Regulation:T25 Theme:T9
+E22	Regulation:T25 Theme:T12
+E23	Regulation:T25 Theme:T11
+E24	Regulation:T25 Theme:T10
+E25	Regulation:T25 Theme:T8
+M1	Speculation E6
+M2	Speculation E7
+M3	Speculation E8
+M4	Speculation E9
+M5	Speculation E10
+M6	Negation E21
+M7	Negation E22
+M8	Negation E23
+M9	Negation E24
+M10	Negation E25

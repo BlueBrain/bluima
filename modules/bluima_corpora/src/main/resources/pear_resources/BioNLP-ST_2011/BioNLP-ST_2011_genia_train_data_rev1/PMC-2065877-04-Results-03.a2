@@ -1,0 +1,23 @@
+T35	Binding 112 120	ligation
+T36	Negative_regulation 581 585	lack
+T37	Binding 594 602	ligation
+T38	Negative_regulation 683 690	absence
+T39	Negative_regulation 837 844	absence
+T40	Gene_expression 2017 2027	expression
+T41	Gene_expression 2135 2145	expression
+T42	Negative_regulation 2482 2490	negative
+T43	Gene_expression 2585 2592	express
+T44	Positive_regulation 2598 2602	high
+T45	Positive_regulation 2638 2641	low
+E1	Binding:T35 Theme:T2
+E2	Negative_regulation:T36 Theme:E3
+E3	Binding:T37 Theme:T7
+E4	Negative_regulation:T38 Theme:T9
+E5	Negative_regulation:T39 Theme:T12
+E6	Gene_expression:T40 Theme:T24
+E7	Gene_expression:T41 Theme:T25
+E8	Negative_regulation:T42 Theme:T27
+E9	Gene_expression:T43 Theme:T31
+E10	Positive_regulation:T44 Theme:E9
+E11	Positive_regulation:T45 Theme:E9
+M1	Negation E11

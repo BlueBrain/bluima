@@ -1,0 +1,10 @@
+T6	Regulation 9 16	control
+T7	Gene_expression 29 39	expression
+T8	Regulation 232 242	regulation
+T9	Regulation 403 418	functional role
+T10	Gene_expression 431 441	expression
+E1	Regulation:T6 Theme:E2
+E2	Gene_expression:T7 Theme:T1
+E3	Regulation:T8 Theme:T2
+E4	Regulation:T9 Theme:E5
+E5	Gene_expression:T10 Theme:T4

@@ -1,0 +1,11 @@
+*	Equiv T11 T10
+*	Equiv T4 T5
+T20	Gene_expression 1232 1242	production
+T21	Positive_regulation 1283 1291	enhanced
+T22	Transcription 1590 1597	express
+E1	Gene_expression:T20 Theme:T11
+E2	Positive_regulation:T21 Theme:E1
+E3	Transcription:T22 Theme:T16
+E4	Transcription:T22 Theme:T17
+E5	Transcription:T22 Theme:T15
+M1	Negation E2

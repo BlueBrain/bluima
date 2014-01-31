@@ -1,0 +1,11 @@
+T20	Gene_expression 173 181	presence
+T21	Gene_expression 331 341	expression
+T22	Gene_expression 804 814	expression
+E1	Gene_expression:T20 Theme:T6
+E2	Gene_expression:T21 Theme:T10
+E3	Gene_expression:T22 Theme:T18
+E4	Gene_expression:T22 Theme:T19
+M1	Speculation E1
+M2	Speculation E2
+M3	Speculation E3
+M4	Speculation E4

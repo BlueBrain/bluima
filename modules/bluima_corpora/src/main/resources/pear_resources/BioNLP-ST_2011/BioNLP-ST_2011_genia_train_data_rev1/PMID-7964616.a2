@@ -1,0 +1,53 @@
+*	Equiv T12 T11
+*	Equiv T10 T9
+*	Equiv T2 T1
+*	Equiv T4 T5
+T33	Binding 4 11	binding
+T34	Positive_regulation 336 351	trans-activates
+T35	Positive_regulation 458 474	Trans-activation
+T36	Entity 486 494	promoter
+T37	Entity 514 522	promoter
+T38	Positive_regulation 581 589	mediated
+T39	Positive_regulation 712 726	trans-activate
+T40	Gene_expression 731 741	expression
+T41	Entity 817 836	cis-acting elements
+T42	Positive_regulation 878 886	mediates
+T43	Positive_regulation 938 953	trans-activates
+T44	Entity 962 970	promoter
+T45	Binding 990 1002	interactions
+T46	Binding 1159 1166	binding
+T47	Entity 1185 1193	promoter
+T48	Binding 1357 1368	interaction
+T49	Binding 1412 1424	interactions
+T50	Binding 1594 1601	binding
+T51	Entity 1624 1632	promoter
+T52	Entity 1742 1750	promoter
+T53	Binding 1751 1758	binding
+T54	Binding 1973 1978	bound
+T55	Entity 1990 1998	promoter
+E1	Binding:T33 Theme:T2
+E2	Positive_regulation:T34 Theme:T8 Cause:T6
+E3	Positive_regulation:T34 Theme:T10 Cause:T6
+E4	Positive_regulation:T34 Theme:T7 Cause:T6
+E5	Positive_regulation:T34 Theme:T12 Cause:T6
+E6	Positive_regulation:T35 Theme:T13 Site:T36
+E7	Positive_regulation:T35 Theme:T14 Site:T37
+E8	Positive_regulation:T38 Theme:E6
+E9	Positive_regulation:T38 Theme:E7
+E10	Positive_regulation:T39 Theme:E11 Cause:T16
+E11	Gene_expression:T40 Theme:T17
+E12	Positive_regulation:T42 Theme:T18 Cause:T19 Site:T41
+E13	Positive_regulation:T43 Theme:T21 Cause:E14 Site:T44
+E14	Binding:T45 Theme:T20
+E15	Binding:T46 Theme:T23 Site:T47
+E16	Binding:T48 Theme:T24
+E17	Binding:T49 Theme:T24
+E18	Binding:T50 Theme:T27 Theme2:T28 Site2:T51
+E19	Binding:T53 Theme:T29 Site:T52
+E20	Binding:T54 Theme:T32 Site:T55
+M1	Speculation E1
+M2	Speculation E8
+M3	Negation E9
+M4	Speculation E9
+M5	Speculation E13
+M6	Speculation E20

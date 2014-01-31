@@ -1,0 +1,86 @@
+#
+# 20130309 preprocess with NS abstracts only
+#
+
+#cr: PubmedDatabaseCR
+#between__java: new int[]{126,150}
+
+cr: PubmedWholeDatabaseCR
+ db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" }
+ and_query: AND pubmed_id IN (SELECT id FROM neuroscience_ids_from_journals)
+
+include: ../../../includes/preprocess.incl
+
+# lexicon-based from MT
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/age")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/disease")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/ionchannel")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/method")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/molecule")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/organism")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/region")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/sex")
+
+# lexicon-based from Biolexicon, OBO & co
+#ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/biolexicon/biolexicon_senses")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/neuronames")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/cell")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/disease")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/protein")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/verb")
+
+
+
+ae: PunctuationAnnotator
+
+ae: WordnetAnnotator
+
+ae: GeneralEnglishAnnotator
+
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+
+ae: PruneMeasuresAnnotator
+
+
+
+
+ae: SkipSomePosAnnotator
+
+ae: ViterbiFilterAnnotator
+
+
+#FIXME
+#ae: FeatureTokensFilterAnnotator2
+# caseSensitive: false
+# tokenFrequencyFile: /Volumes/HDD2/ren_data/dev_hdd/bluebrain/9_lda/dca/20130129_replicate_marcs/20130127_dca-pubmed_abstracts_preproc/pubmed_preproc_done/token_frequency
+# #tokenFrequencyFile: /nfs4/bbp.epfl.ch/simulation/nlp/data/lda/20130214_preprocess_pubmed3.pipeline/token_frequency
+# minimumFrequency: 100
+# maximumFrequency__java: Integer.MAX_VALUE
+# stopwordsFilePath: $ROOT/modules/bluima_topic_models/src/main/resources/stoplists/mallet_stopwords_en.txt
+
+#FIXME
+#ae: FeatureTokensExtractionAnnotator2
+
+ae: ch.epfl.bbp.uima.topicmodels.writers.JCasWriterConsumer
+ outputDirectory: /Volumes/HDD2/ren_data/dev_hdd/bluebrain/9_lda/dca/20130309_preprocess_pubmed_ns.pipeline
+ crossValidationFolds: 1
+ # 10 for 10-fold cross validation (test3.txt, test4.txt,...)
+ testSetFraction: 0.15
+ # split training.txt / test.txt
+ seed: 1352130938
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 1000
+

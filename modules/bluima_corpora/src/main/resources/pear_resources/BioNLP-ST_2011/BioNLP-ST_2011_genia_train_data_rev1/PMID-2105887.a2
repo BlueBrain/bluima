@@ -1,0 +1,10 @@
+T4	Gene_expression 1533 1542	expressed
+T5	Positive_regulation 1828 1834	active
+T6	Binding 1895 1899	bind
+E1	Gene_expression:T4 Theme:T3
+E2	Gene_expression:T4 Theme:T2
+E3	Positive_regulation:T5 Theme:T1
+E4	Binding:T6 Theme:T1
+M1	Negation E1
+M2	Negation E2
+M3	Negation E4

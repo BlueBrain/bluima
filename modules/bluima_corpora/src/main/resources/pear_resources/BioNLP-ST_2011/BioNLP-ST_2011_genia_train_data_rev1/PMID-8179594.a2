@@ -1,0 +1,42 @@
+T9	Regulation 0 7	Effects
+T10	Gene_expression 55 65	expression
+T11	Transcription 392 407	gene expression
+T12	Positive_regulation 415 422	induced
+T13	Regulation 489 500	involvement
+T14	Positive_regulation 571 578	leading
+T15	Transcription 582 592	expression
+T16	Regulation 637 641	role
+T17	Regulation 684 691	effects
+T18	Transcription 772 782	expression
+T19	Positive_regulation 822 826	When
+T20	Transcription 888 898	expression
+T21	Negative_regulation 917 927	suppressed
+T22	Positive_regulation 984 998	in the case of
+T23	Positive_regulation 1067 1075	enhanced
+T24	Regulation 1148 1160	plays a role
+T25	Transcription 1168 1178	expression
+E1	Regulation:T9 Theme:E2
+E2	Gene_expression:T10 Theme:T1
+E3	Transcription:T11 Theme:T2
+E4	Transcription:T11 Theme:T3
+E5	Positive_regulation:T12 Theme:E4
+E6	Positive_regulation:T12 Theme:E3
+E7	Regulation:T13 Theme:E10
+E8	Regulation:T13 Theme:E9
+E9	Positive_regulation:T14 Theme:E12
+E10	Positive_regulation:T14 Theme:E11
+E11	Transcription:T15 Theme:T4
+E12	Transcription:T15 Theme:T5
+E13	Regulation:T16 Theme:E15
+E14	Regulation:T17 Theme:E15
+E15	Transcription:T18 Theme:T6
+E16	Positive_regulation:T19 Theme:E18
+E17	Transcription:T20 Theme:T7
+E18	Negative_regulation:T21 Theme:E17
+E19	Positive_regulation:T22 Theme:E20
+E20	Positive_regulation:T23 Theme:E17
+E21	Regulation:T24 Theme:E22
+E22	Transcription:T25 Theme:T8
+M1	Speculation E13
+M2	Speculation E14
+M3	Speculation E21

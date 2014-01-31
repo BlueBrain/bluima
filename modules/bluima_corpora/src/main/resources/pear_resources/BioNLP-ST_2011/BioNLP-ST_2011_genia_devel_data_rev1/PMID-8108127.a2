@@ -1,0 +1,40 @@
+*	Equiv T1 T2
+*	Equiv T10 T11
+T26	Gene_expression 0 14	Overproduction
+T27	Positive_regulation 0 14	Overproduction
+T28	Positive_regulation 381 390	increases
+T29	Transcription 391 404	transcription
+T30	Gene_expression 730 743	overexpressed
+T31	Positive_regulation 730 743	overexpressed
+T32	Gene_expression 987 997	expression
+T33	Positive_regulation 1064 1073	induction
+T34	Binding 1192 1202	associated
+T35	Gene_expression 1275 1284	synthesis
+T36	Positive_regulation 1300 1306	allows
+T37	Entity 1318 1325	nuclear
+T38	Localization 1326 1336	expression
+T39	Gene_expression 1398 1412	overexpression
+T40	Positive_regulation 1398 1412	overexpression
+E1	Gene_expression:T26 Theme:T1
+E2	Positive_regulation:T27 Theme:E4
+E3	Positive_regulation:T27 Theme:E1
+E4	Gene_expression:T26 Theme:T3
+E5	Positive_regulation:T28 Theme:E9 Cause:T5
+E6	Positive_regulation:T28 Theme:E10 Cause:T5
+E7	Positive_regulation:T28 Theme:E8 Cause:T5
+E8	Transcription:T29 Theme:T6
+E9	Transcription:T29 Theme:T7
+E10	Transcription:T29 Theme:T8
+E11	Gene_expression:T30 Theme:T12
+E12	Gene_expression:T30 Theme:T10
+E13	Positive_regulation:T31 Theme:E12
+E14	Positive_regulation:T31 Theme:E11
+E15	Gene_expression:T32 Theme:T16
+E16	Positive_regulation:T33 Theme:T19
+E17	Binding:T34 Theme:T20 Theme2:T22
+E18	Binding:T34 Theme:T20 Theme2:T21
+E19	Gene_expression:T35 Theme:T23
+E20	Positive_regulation:T36 Theme:E21 Cause:E19
+E21	Localization:T38 Theme:T23 AtLoc:T37
+E22	Gene_expression:T39 Theme:T24
+E23	Positive_regulation:T40 Theme:E22

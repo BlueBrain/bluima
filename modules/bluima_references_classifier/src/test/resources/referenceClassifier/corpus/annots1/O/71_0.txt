@@ -1,0 +1,29 @@
+shown here to be a crucial factor that requires that the cell use
+a buffer that is either very mobile or very concentrated if it is
+to be effective at sites of large calcium influx. The three main
+goals of the present study were (1) to provide a general understanding of the possibilities and limitations of buffered diffusion
+from point sources, (2) to provide the theoretical basis for the
+interpretation of experimental data, and (3) to incorporate previous physiological and anatomical data into a model of the
+presynaptic calcium concentration in frog saccular hair cells.
+Materials and Methods
+Geometrical assumptions
+Two models of the cytoplasmic space were used, one using simple
+geometrical assumptions (diffusion from a single point into a large volume), the other incorporating more spatial details. There were two main
+reasons for beginning with the simple model. On a conceptual level, it
+allows one to understand the basic principles of buffered diffusion without introducing unnecessary complexity. On a computational level, it
+makes the calculation of the complete time course of changes in [Ca?+],
+tractable. This model is useful for understanding the effect of a mobile
+buffer on [Ca*+], near a single channel, or far enough from a cluster of
+channels that they appear as a single point source. The second model
+was needed to investigate the spatial variations in [Ca*+], within a cluster
+of channels, and to relate the simulations to previous experimental data.
+The price ofthe greater spatial detail in the second model was the greatly
+increased computation time, which made it impractical to calculate the
+time course of changes in [Cal+],. Instead, only the steady-state [Caz+],
+was calculated. As will be shown below, this steady-state calculation is
+useful for understanding the calcium concentration profile within an
+array of channels during maintained depolarizations. No attempt was
+made to incorporate the hair cell's overall shape or size into either model
+because, on the distance scale of interest here, the hair cell's plasma
+membrane is nearly flat and the cytoplasmic volume nearly infinite (see
+below).

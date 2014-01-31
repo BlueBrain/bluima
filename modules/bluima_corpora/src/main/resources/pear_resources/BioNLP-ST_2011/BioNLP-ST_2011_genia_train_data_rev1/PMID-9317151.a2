@@ -1,0 +1,10 @@
+*	Equiv T1 T2
+*	Equiv T7 T8
+T18	Negative_regulation 1208 1218	inhibition
+T19	Positive_regulation 1226 1233	induced
+T20	Localization 1296 1305	secretion
+T21	Positive_regulation 1408 1418	stimulated
+E1	Negative_regulation:T18 Theme:E3
+E2	Positive_regulation:T19 Theme:E3
+E3	Localization:T20 Theme:T13
+E4	Positive_regulation:T21 Theme:E2

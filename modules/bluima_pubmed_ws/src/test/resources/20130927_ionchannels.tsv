@@ -1,0 +1,211 @@
+# 20130824_channelpedia_dump
+# select name, synonyms from ionchannels
+# removed NULL, replaced ; with tab
+Kv1.1	Kv1.1	kcna1	kcpvd
+Kv1.2	Kv1.2	kcna2	BK2	NGK1
+Kv1.3	Kv1.3	kcna3
+Kv1.4	Kv1.4	kcna4	kv4	RK3	RHK1	KCHAN
+Kv1.5	Kv1.5	kcna5	
+Kv1.6	Kv1.6	kcna6	MK1.6
+Kv1.7	Kv1.7	kcna7	HAK6
+Kv1.8	Kv1.8	kcna8	kcna10
+Kv2.1	Kv2.1	kcnb1	kcr1-1	drk1pc	shab
+Kv2.2	Kv2.2	kcnb2	kcnb2-A
+Kv3.1	Kv4	Kv3.1	KShIIIB	NGK2-KV4	Kcnc1
+Kv3.2	Kv3.2	kcnc2	KShIIIA
+Kv3.3	Kv3.3	kcnc3	Kcr2-3	KShIIID
+Kv3.4	Kv3.4	kcnc4	Kcr2-4	KSHIIIC
+Kv4.1	Kv4.1	kcnd1	Kca2-1	mShal1	Shal
+Kv4.2	Kv4.2	kcnd2	Shal1	RK5
+Kv4.3	Kv4.3	kcnd3	Kncd3
+Kv5.1	Kv5.1	kcnf1	kh1	ik8	kcnf
+Kv6.1	Kv6.1	kcng1	kh2	kcng	k13
+Kv6.2	Kv6.2	kcng2
+Kv6.3	Kv6.3	kcng3	kv10.1
+Kv6.4	Kv6.4	kcng4
+Kv7.1	Kv7.1	LQT	RWS	WRS	LQT1	SQT2	ATFB1	ATFB3	JLNS1	KCNA8	KCNA9	Kv1.9	KVLQT1	KCNQ1
+Kv7.2	KV7.2	EBN	BFNC	EBN1	ENB1	HNSPC	KCNA11	KVEBN1	KCNQ2
+Kv7.3	KV7.3	EBN2	BFNC2	KCNQ3
+Kv7.4	KV7.4	DFNA2	KV7.4	DFNA2A	KCNQ4
+Kv7.5	Kv7.5	KCNQ5
+Kv8.1	Kv8.1	kcnv1	HNKA
+Kv8.2	Kv8.2	kcnv2	Kv11.1	RCD3B
+Kv9.1	Kv9.1	kcns1
+Kv9.2	Kv9.2	kcns2
+Kv9.3	Kv9.3	kcns3
+Kv10.1	Kv10.1	EAG	EAG1	h-eag	MGC142269	KCNH1
+Kv10.2	Kv10.2	eag2	h-eag2	kcnh5
+Kv11.1	Kv11.1	ERG1	HERG	LQT2	SQT1	HERG1	KCNH2
+Kv11.2	Kv11.2	ERG2	HERG2	KCNH6
+Kv11.3	Kv11.3	erg3	kcnh7	HERG3
+Kv12.1	Kv12.1	ELK	ELK1	elk3	KCNH8
+Kv12.2	Kv12.2
+Kv12.3	Kv12.3
+Kir1.1	Kir1.1	ROMK	Romk2	Kcnj1
+Kir2.1	Kir2.1	IRK1	LQT7	SQT3	HHIRK1	HHBIRK1	KCNJ2
+Kir2.2	Kir2.2	KCNJ12	IRK2	MB-IRK2
+Kir2.3	Kir2.3	HIR	HRK1	IRK3	HIRK2
+Kir2.4	Kir2.4	IRK4	Kcnj14
+Kir3.1	Kir3.1	GIRK1	Kcnf3	Kcnj3
+Kir3.2	Kir3.2	BIR1	GIRK2	KATP2	KCNJ7	Kcnj6
+Kir3.3	Kir3.3	Girk3	Kcnj9
+Kir3.4	Kir3.4	Girk4	kcnj5
+Kir4.1	Kir4.1	kcnj10	BIR10	BIRK-1
+Kir4.2	Kir4.2	kcnj15	irkk
+Kir5.1	Kir5.1	kcnj16	BIR9
+Kir6.1	Kir6.1	kcnj8	sltr	gnite	slmbr
+Kir6.2	Kir6.2	kcnj11	BIR	 HHF2	PHHI	IKATP	TNDM3
+Kir7.1	Kir7.1	kcnj13
+KCNQ1	Kv7.1	LQT	RWS	WRS	LQT1	SQT2	ATFB1	ATFB3	JLNS1	KCNA8	KCNA9	Kv1.9	KVLQT1	KCNQ1
+KCNQ2	KV7.2	EBN	BFNC	EBN1	ENB1	HNSPC	KCNA11	KVEBN1	KCNQ2
+KCNQ3	KV7.3	EBN2	BFNC2	KCNQ3
+KCNQ4	KV7.4	DFNA2	KV7.4	DFNA2A	KCNQ4
+KCNQ5	KCNQ5	Kv7.5
+HCN1	HCN1	BCNG1	HAC-2	BCNG-1, ih1
+HCN2	HCN2	HAC1	BCNG2	ih2
+HCN3	HCN3	Hac3	Hcn4	Bcng4	BCNG-4	ih3
+HCN4	HCN4	Hac3	HCN3	Bcng4	BCNG-4	ih4
+SK1	SK1	kcnn1
+SK2	SK2	hSK2	SKCA2	KCa2.2	Kcnn2
+SK3	SK3	hSK3	SKCA3	KCa2.3	KCNN3
+Slo1	Slo1	Slo	BKCa	mSlo	MaxiK	mSlo1	kcnma1
+Slo2	Slo2	kcnt1	KCa4.1	SLACK
+Slo2b	Slo2b	kcnt2
+Slo3	Slo3	kcnu1	Slo3	Kcnma3	KCa5
+BkB1	SLO-BETA	hslo-beta	K(VCA)beta	KCNMB1
+BKB2	Kcmb2	Kcnmb2
+BKB3	kcnmb3
+BKB4	kcnmb4
+KChip1	kchip1	kcnip1
+KChip2a	Kchip2	kcnip2	KChIP2a	KChIP2b
+Cav2.1	ca2.1	EA2	FHM	MHP	rkr	APCA	HPCA	MHP1	SCA6	Caca1a	Cav2.1	Ccha1a	Cacnl1a4	Cacna1a
+Cav2.2	ca2.2	BIII	CACNN	Cav2.2	CACNL1A5	CACNA1B
+Cav1.2	cacna1c	cav1.2	ca1.2
+Cav1.3	cacna1d	cav1.3	ca1.3
+Cav2.3	cacna1e	cav2.3	ca2.3
+Cav1.4	cacna1f	cav1.4	ca1.4
+Cav1.1	cacna1s	cav1.1	ca1.1	MHS5	HOKPP	hypoPP	CCHL1A3	CACNL1A3
+Cav3.1	cacna1g	cav3.1	ca3.1	Ca(v)3.1
+Cav3.2	cacna1h	cav3.2	ca3.2	Ca(v)3.2
+Cav3.3	cacna1i	cav3.3	ca3.3	Ca(v)3.3
+cacnb1	cacnb1	CAB1	CACNLB1	CCHLB1
+cacnb2	cacnb2	CACNLB2	CAVB2	Cavbeta2
+cacnb3	cacnb3
+cacnb4	cacnb4	CAB4	CACNLB4	EA5	EIG9	EJM	EJM4	EJM6
+cacng1	cacng1	cacnlg
+cacng2	cacng2
+cacng3	cacng3
+cacng4	cacng4
+cacng5	cacng5
+cacng6	cacng6
+cacng7	cacng7
+cacng8	cacng8
+cacna2d1	cacna2d1
+cacna2d2	cacna2d2
+cacna2d3	cacna2d3
+ClvC1	clc1	clc-1	clcn1
+ClvC2	clc2	clc-2	clcn2
+ClvC3	clc3	clc-3	clcn3
+ClvC4	clc	clc4	clc-4	clcn4
+ClvC5	clc-5	clcn5
+ClvC6	clc-6	clcn6
+ClvC7	clc-7	clcn7
+ClCa1	clca1	rbclca
+ClCa2	clca2	rbclca2
+ClCa3	clca3
+ClCa4	clca4
+ClCK1	clc-k1
+ClCK2	clck2	clcnkb	clc-k2L
+ClIC1	clic1
+ClIC2	clic2
+ClIC3	clic3
+ClIC4	clic4
+Nav1.1	nav1.1	scn1a1
+Nav1.2	nav1.2	scn2a1
+Nav1.3	nav1.3	scn3a
+Nav1.4	nav1.4	scn4a
+Nav1.5	nav1.5	scn5a
+Nav1.6	nav1.6	scn8a
+Nav1.7	nav1.7	scn9a
+Nav1.8	nav1.8	scn10a
+Nav1.9	nav3.1	nav1.9	scn11a
+Nav2.1	nav2.1	scn6a	nav2.3
+Nav2.2	nav2.2
+Nav2.3	nav2.3
+Nav2.4	nav2.4
+Nav3.1	nav3.1
+Nav3.1a	nav3.1a
+IMG	Generic IM
+Kcnab1	kcnab1
+Kcnab2	kcnab2
+TRP	TRP
+TRPC	TRPC
+TRPN	TRPN
+TRPM	TRPM
+TRPV	TRPV
+TRPA	TRPA
+TRPP	TRPP
+TRPML	TRPML
+TRPC1	TRPC1
+TRPC2	TRPC2
+TRPC3	TRPC3
+TRPC4	TRPC4
+TRPC5	TRPC5
+TRPC6	TRPC6
+TRPC7	TRPC7
+TRPN1	zTRPN1
+NOMPC	NOMPC
+cNOMPC	cNOMPC
+TRPM1	TRPM1
+TRPM2	TRPM2
+TRPM3	TRPM3
+TRPM4	TRPM4
+TRPM5	TRPM5
+TRPM6	TRPM6
+TRPM7	TRPM7
+TRPM8	TRPM8
+TRPV1	TRPV1
+TRPV2	TRPV2
+TRPV3	TRPV3
+TRPV4	TRPV4
+TRPV5	TRPV5
+TRPV6	TRPV6
+TRPA1	TRPA1
+cTRPA1	cTRPA1
+dTRPA1	dTRPA1
+TRPP2	TRPP2
+TRPP3	TRPP3
+TRPP5	TRPP5
+TRPML1	TRPML1
+TRPML2	TRPML2
+TRPML3	TRPML3
+#K	
+Na	
+Ca	
+Cl	
+Kv1	
+Kv2	
+Kv3	
+Kv4	
+Kv5	
+Kv6	
+Kv7	
+Kv8	
+Kv9	
+Kv10	
+Kv11	
+Kv12	
+Kir	
+KCNQ	
+Ih	
+KCa	
+SK	
+BK	
+CavL	
+#A	
+#L	
+#M	
+KvBeta	
+Kcnab3	KCNAB3	AKR6A9	KCNA3.1B	KCNA3B	KV-BETA-3
+Nav1	Nav1
+Nav2	Nav2

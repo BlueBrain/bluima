@@ -1,0 +1,51 @@
+*	Equiv T2 T1
+*	Equiv T9 T8
+T21	Negative_regulation 278 286	impaired
+T22	Localization 298 309	translocate
+T23	Positive_regulation 327 336	following
+T24	Gene_expression 423 429	levels
+T25	Negative_regulation 469 490	abnormally low levels
+T26	Positive_regulation 702 711	increased
+T27	Gene_expression 712 722	expression
+T28	Negative_regulation 841 850	interfere
+T29	Positive_regulation 860 870	activation
+T30	Negative_regulation 1289 1296	despite
+T31	Negative_regulation 1297 1305	impaired
+T32	Localization 1312 1325	translocation
+T33	Transcription 1351 1363	transcribing
+T34	Negative_regulation 1370 1381	Impairments
+T35	Localization 1389 1402	translocation
+T36	Regulation 1498 1506	required
+T37	Transcription 1515 1528	transcription
+E1	Negative_regulation:T21 Theme:E3
+E2	Negative_regulation:T21 Theme:E4
+E3	Localization:T22 Theme:T2
+E4	Positive_regulation:T23 Theme:E3
+E5	Gene_expression:T24 Theme:T4
+E6	Negative_regulation:T25 Theme:T7
+E7	Negative_regulation:T25 Theme:T6
+E8	Negative_regulation:T25 Theme:T5
+E9	Positive_regulation:T26 Theme:E10
+E10	Gene_expression:T27 Theme:T9
+E11	Negative_regulation:T28 Theme:E13
+E12	Negative_regulation:T28 Theme:E14
+E13	Positive_regulation:T29 Theme:T12
+E14	Positive_regulation:T29 Theme:T11
+E15	Negative_regulation:T30 Theme:E18 Cause:E16
+E16	Negative_regulation:T31 Theme:E17
+E17	Localization:T32 Theme:T13
+E18	Transcription:T33 Theme:T14
+E19	Negative_regulation:T34 Theme:E22
+E20	Negative_regulation:T34 Theme:E21
+E21	Localization:T35 Theme:T16
+E22	Localization:T35 Theme:T15
+E23	Regulation:T36 Theme:E26 Cause:T17
+E24	Regulation:T36 Theme:E26 Cause:T18
+E25	Regulation:T36 Theme:E26 Cause:T19
+E26	Transcription:T37 Theme:T20
+M1	Speculation E11
+M2	Speculation E12
+M3	Negation E15
+M4	Negation E23
+M5	Negation E24
+M6	Negation E25

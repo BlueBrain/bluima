@@ -1,0 +1,5 @@
+T5	Gene_expression 161 170	expressed
+T6	Transcription 974 981	express
+E1	Gene_expression:T5 Theme:T1
+E2	Transcription:T6 Theme:T4
+M1	Speculation E2

@@ -1,0 +1,42 @@
+*	Equiv T9 T10
+*	Equiv T5 T4
+T23	Regulation 54 63	regulates
+T24	Entity 84 92	promoter
+T25	Gene_expression 101 110	producing
+T26	Gene_expression 188 196	produced
+T27	Transcription 333 340	express
+T28	Entity 373 379	region
+T29	Regulation 423 432	regulates
+T30	Transcription 443 456	transcription
+T31	Binding 724 733	interacts
+T32	Entity 743 756	-70 GATA site
+T33	Positive_regulation 989 998	necessary
+T34	Entity 1012 1020	promoter
+T35	Positive_regulation 1021 1031	activation
+T36	Positive_regulation 1037 1048	requirement
+T37	Gene_expression 1173 1180	express
+T38	Binding 1284 1288	bind
+T39	Binding 1435 1469	forms specific DNA-protein complex
+T40	Binding 1614 1646	has the highest binding affinity
+T41	Regulation 1846 1850	role
+T42	Regulation 1868 1894	transcriptional regulation
+E1	Regulation:T23 Theme:T2 Cause:T1 Site:T24
+E2	Gene_expression:T25 Theme:T3
+E3	Gene_expression:T26 Theme:T5
+E4	Transcription:T27 Theme:T6
+E5	Regulation:T29 Theme:E6 Cause:T7 CSite:T28
+E6	Transcription:T30 Theme:T8
+E7	Binding:T31 Theme:T11 Theme2:T12 Site2:T32
+E8	Positive_regulation:T33 Theme:E9 Cause:T13
+E9	Positive_regulation:T35 Theme:T14 Site:T34
+E10	Positive_regulation:T36 Theme:E9
+E11	Gene_expression:T37 Theme:T17
+E12	Gene_expression:T37 Theme:T15
+E13	Gene_expression:T37 Theme:T16
+E14	Binding:T38 Theme:T15
+E15	Binding:T38 Theme:T17
+E16	Binding:T38 Theme:T16
+E17	Binding:T39 Theme:T18
+E18	Binding:T40 Theme:T19
+E19	Regulation:T41 Theme:E20 Cause:T21
+E20	Regulation:T42 Theme:T22

@@ -1,0 +1,2058 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<synonym>
+<token canonical="Image description and standard sequence name" ref_id="nlx_inv_20090242">
+  <variant base="Image description and standard sequence name" />
+</token>
+<token canonical="3D T1 Weighted Scan" ref_id="nlx_inv_20090243">
+  <variant base="3D T1 Weighted Scan" />
+</token>
+<token canonical="With online motion correction" ref_id="nlx_inv_20090240">
+  <variant base="With online motion correction" />
+</token>
+<token canonical="Image description and protocol name" ref_id="nlx_inv_20090241">
+  <variant base="Image description and protocol name" />
+  <variant base="Protocol" />
+</token>
+<token canonical="DTI imaging protocol attribute" ref_id="nlx_inv_20090246">
+  <variant base="DTI imaging protocol attribute" />
+</token>
+<token canonical="Total number of b-values / volume" ref_id="nlx_inv_20090247">
+  <variant base="Total number of b-values / volume" />
+</token>
+<token canonical="Defaced T1 scan" ref_id="nlx_inv_20090244">
+  <variant base="Defaced T1 scan" />
+</token>
+<token canonical="Diffusion weighted direction set name" ref_id="nlx_inv_20090245">
+  <variant base="Diffusion weighted direction set name" />
+</token>
+<token canonical="Number of dummy acquisitionsd" ref_id="nlx_inv_20090227">
+  <variant base="Number of dummy acquisitionsd" />
+  <variant base="Number of Dummy Acquisitions" />
+</token>
+<token canonical="Matrix" ref_id="nlx_inv_20090226">
+  <variant base="Matrix" />
+</token>
+<token canonical="Number of time points" ref_id="nlx_inv_20090229">
+  <variant base="Number of time points" />
+</token>
+<token canonical="Number of Slices" ref_id="nlx_inv_20090228">
+  <variant base="Number of Slices" />
+</token>
+<token canonical="Phase direction" ref_id="nlx_inv_20090230">
+  <variant base="Phase direction" />
+</token>
+<token canonical="Read direction" ref_id="nlx_inv_20090231">
+  <variant base="readout direction" />
+  <variant base="Read direction" />
+</token>
+<token canonical="Scanner model" ref_id="nlx_inv_20090232">
+  <variant base="Scanner model" />
+</token>
+<token canonical="Scanner operating system" ref_id="nlx_inv_20090233">
+  <variant base="Scanner operating system" />
+</token>
+<token canonical="Slew rate" ref_id="nlx_inv_20090234">
+  <variant base="Slew rate" />
+</token>
+<token canonical="Slice order" ref_id="nlx_inv_20090235">
+  <variant base="Slice order" />
+</token>
+<token canonical="Slice thickness" ref_id="nlx_inv_20090236">
+  <variant base="Slice thickness" />
+</token>
+<token canonical="Flip Angle" ref_id="nlx_inv_20090219">
+  <variant base="Flip Angle" />
+  <variant base="Flip angle" />
+</token>
+<token canonical="Field Strength" ref_id="nlx_inv_20090218">
+  <variant base="Field Strength" />
+  <variant base="Field strength" />
+</token>
+<token canonical="Field of View" ref_id="nlx_inv_20090217">
+  <variant base="Field of View" />
+  <variant base="Field of view" />
+</token>
+<token canonical="MRI coil" ref_id="nlx_inv_20090216">
+  <variant base="MRI coil" />
+</token>
+<token canonical="Bandwidth" ref_id="nlx_inv_20090215">
+  <variant base="Bandwidth" />
+</token>
+<token canonical="Image orientation" ref_id="nlx_inv_20090224">
+  <variant base="Image orientation" />
+</token>
+<token canonical="K-space trajectory type" ref_id="nlx_inv_20090225">
+  <variant base="K-space trajectory type" />
+  <variant base="k-space traversal" />
+</token>
+<token canonical="Gradient strength" ref_id="nlx_inv_20090222">
+  <variant base="Gradient strength" />
+</token>
+<token canonical="Gap between slices (slice gap)" ref_id="nlx_inv_20090220">
+  <variant base="Gap between slices (slice gap)" />
+</token>
+<token canonical="Scanner vendor" ref_id="nlx_inv_20090221">
+  <variant base="Scanner vendor" />
+</token>
+<token canonical="Instructions to subject" ref_id="nlx_inv_20090205">
+  <variant base="Instruction" />
+  <variant base="Instructions to subject" />
+</token>
+<token canonical="B0 field map" ref_id="nlx_inv_20090204">
+  <variant base="B0 field map" />
+</token>
+<token canonical="Dummy visit protocol" ref_id="nlx_inv_20090207">
+  <variant base="Dummy visit protocol" />
+</token>
+<token canonical="Localizer scan" ref_id="nlx_inv_20090206">
+  <variant base="Localizer scan" />
+</token>
+<token canonical="Magnitude images from a B0 field map" ref_id="nlx_inv_20090211">
+  <variant base="Magnitude image from a B0 field mapping protocol" />
+  <variant base="Magnitude images from a B0 field map" />
+</token>
+<token canonical="Phase images from a B0 field map" ref_id="nlx_inv_20090212">
+  <variant base="Phase images from a B0 field map" />
+  <variant base="Phase image from a B0 field mapping protocol" />
+</token>
+<token canonical="Sagittal localizer scan" ref_id="nlx_inv_20090213">
+  <variant base="Sagittal localizer scan" />
+</token>
+<token canonical="Acceleration factors" ref_id="nlx_inv_20090214">
+  <variant base="Acceleration factors" />
+</token>
+<token canonical="MRI imaging protocol attribute" ref_id="nlx_inv_20090210">
+  <variant base="MRI imaging protocol attribute" />
+</token>
+<token canonical="Chemical compositional analysis instrument" ref_id="birnlex_2397">
+  <variant base="Chemical compositional analysis instrument" />
+</token>
+<token canonical="Chemical separation instrument" ref_id="birnlex_2398">
+  <variant base="Chemical separation instrument" />
+</token>
+<token canonical="End page" ref_id="birnlex_2395">
+  <variant base="End page" />
+</token>
+<token canonical="Serial title" ref_id="birnlex_2396">
+  <variant base="Journal title" />
+  <variant base="Serial title" />
+</token>
+<token canonical="Gel electrophoresis instrument" ref_id="birnlex_2399">
+  <variant base="Gel electrophoresis instrument" />
+</token>
+<token canonical="Primary key" ref_id="birnlex_2298">
+  <variant base="Primary key" />
+</token>
+<token canonical="Life Science Indenfier" ref_id="birnlex_2299">
+  <variant base="Life Science Indenfier" />
+</token>
+<token canonical="Indentifying value" ref_id="birnlex_2296">
+  <variant base="Indentifying value" />
+</token>
+<token canonical="Accession number" ref_id="birnlex_2297">
+  <variant base="Accession number" />
+  <variant base="Accession" />
+</token>
+<token canonical="Single electrode extracellular recording protocol" ref_id="birnlex_2276">
+  <variant base="Single electrode extracellular recording protocol" />
+</token>
+<token canonical="Grid electrode recording protocol" ref_id="birnlex_2277">
+  <variant base="Grid electrode recording protocol" />
+</token>
+<token canonical="Ion channel recording protocol" ref_id="birnlex_2274">
+  <variant base="Ion channel recording protocol" />
+</token>
+<token canonical="Amperometric electrode  recording protocol" ref_id="birnlex_2275">
+  <variant base="Amperometric electrode  recording protocol" />
+  <variant base="Amperometric electrode recording protocol" />
+</token>
+<token canonical="Current clamp voltage recording protocol" ref_id="birnlex_2278">
+  <variant base="Current clamp voltage recording protocol" />
+</token>
+<token canonical="Voltage clamp current recording protocol" ref_id="birnlex_2279">
+  <variant base="Voltage clamp current recording protocol" />
+</token>
+<token canonical="Single-electrode voltage clamp recording protocol" ref_id="birnlex_2280">
+  <variant base="Single-electrode voltage clamp recording protocol" />
+</token>
+<token canonical="Cell-detached single-channel recording protocol" ref_id="birnlex_2284">
+  <variant base="Cell-detached single-channel recording protocol" />
+</token>
+<token canonical="Cell-attached single-channel recording protocol" ref_id="birnlex_2283">
+  <variant base="Cell-attached single-channel recording protocol" />
+</token>
+<token canonical="Multiple-electrode voltage clamp recording protocol" ref_id="birnlex_2282">
+  <variant base="Multiple-electrode voltage clamp recording protocol" />
+</token>
+<token canonical="Whole-cell voltage clamp recording protocol" ref_id="birnlex_2281">
+  <variant base="Whole-cell voltage clamp recording protocol" />
+</token>
+<token canonical="Cell-detached inside-out single-channel recording protocol" ref_id="birnlex_2285">
+  <variant base="Cell-detached inside-out single-channel recording protocol" />
+</token>
+<token canonical="Cell-detached outside-out single-channel recording protocol" ref_id="birnlex_2286">
+  <variant base="Cell-detached inside-out single-channel recording protocol" />
+  <variant base="Cell-detached outside-out single-channel recording protocol" />
+</token>
+<token canonical="Reconstituted bilayer single-channel patch recording protocol" ref_id="birnlex_2287">
+  <variant base="Reconstituted bilayer single-channel patch recording protocol" />
+</token>
+<token canonical="Reconstituted bilayer electrical recording protocol" ref_id="birnlex_2288">
+  <variant base="Reconstituted bilayer electrical recording protocol" />
+</token>
+<token canonical="Ion-sensitive electrode  recording protocol" ref_id="birnlex_2289">
+  <variant base="Ion-sensitive electrode recording protocol" />
+  <variant base="Ion-sensitive electrode  recording protocol" />
+</token>
+<token canonical="b value(s)" ref_id="nlx_inv_20090248">
+  <variant base="b value(s)" />
+</token>
+<token canonical="Diffusion-weighted imaging protocol" ref_id="nlx_inv_20090249">
+  <variant base="Diffusion-weighted imaging protocol" />
+</token>
+<token canonical="Cuff-electrode recording protocol" ref_id="birnlex_2291">
+  <variant base="Suction electrode recording protocol" />
+  <variant base="Cuff-electrode recording protocol" />
+</token>
+<token canonical="pH-sensitive electrode recording protocol" ref_id="birnlex_2290">
+  <variant base="pH-sensitive electrode  recording protocol" />
+  <variant base="pH-sensitive electrode recording protocol" />
+</token>
+<token canonical="Electroencephalography recording protocol" ref_id="birnlex_2293">
+  <variant base="Electroencephalography recording protocol" />
+</token>
+<token canonical="Fractional anisotropy" ref_id="nlx_inv_20090252">
+  <variant base="Fractional anisotropy" />
+</token>
+<token canonical="Field electrode recording protocol" ref_id="birnlex_2292">
+  <variant base="Surface electrode recording protocol" />
+  <variant base="Field electrode recording protocol" />
+</token>
+<token canonical="Anisotropy characteristic value" ref_id="nlx_inv_20090251">
+  <variant base="Anisotropy characteristic value" />
+</token>
+<token canonical="In-situ hybridization protocol" ref_id="birnlex_2295">
+  <variant base="In-situ hybridization protocol" />
+</token>
+<token canonical="Eigenvalue" ref_id="nlx_inv_20090254">
+  <variant base="Eigenvalue" />
+</token>
+<token canonical="Electrocardiography recording protocol" ref_id="birnlex_2294">
+  <variant base="Electrocardiography recording protocol" />
+</token>
+<token canonical="Relative anisotropy" ref_id="nlx_inv_20090253">
+  <variant base="Relative anisotropy" />
+</token>
+<token canonical="Eigenvector" ref_id="nlx_inv_20090250">
+  <variant base="Eigenvector" />
+</token>
+<token canonical="Standard specification" ref_id="birnlex_2360">
+  <variant base="Standard specification" />
+  <variant base="standard spec" />
+  <variant base="standards document" />
+</token>
+<token canonical="National standard specification" ref_id="birnlex_2361">
+  <variant base="National standard specification" />
+  <variant base="government standard specification" />
+</token>
+<token canonical="Liquid scintillation detection instrument" ref_id="birnlex_2454">
+  <variant base="Liquid scintillation counter" />
+  <variant base="Liquid scintillation detection instrument" />
+</token>
+<token canonical="Fluorescence resonance energy transfer imaging protocol" ref_id="birnlex_2260">
+  <variant base="FRET protocol" />
+  <variant base="Fluorescence resonance energy transfer imaging protocol" />
+</token>
+<token canonical="Differential interference contrast imaging protocol" ref_id="birnlex_2261">
+  <variant base="Differential interference contrast microscopy" />
+  <variant base="Nomarski optical imaging protocol" />
+  <variant base="Differential interference contrast imaging protocol" />
+</token>
+<token canonical="Phase contrast imaging protocol" ref_id="birnlex_2262">
+  <variant base="Phase contrast microscopy" />
+  <variant base="Phase contrast imaging protocol" />
+</token>
+<token canonical="X-Ray crystallography instrument" ref_id="birnlex_2450">
+  <variant base="X-Ray crystallography instrument" />
+  <variant base="X-Ray diffraction instrument" />
+</token>
+<token canonical="Chemical quantification instrument" ref_id="birnlex_2451">
+  <variant base="Chemical quantification instrument" />
+</token>
+<token canonical="Radiation detection instrument" ref_id="birnlex_2452">
+  <variant base="Radiation detection instrument" />
+  <variant base="Radioassay instrument" />
+</token>
+<token canonical="Scintillation detection instrument" ref_id="birnlex_2453">
+  <variant base="Scintillation counter" />
+  <variant base="Scintillation detection instrument" />
+</token>
+<token canonical="Multiphoton imaging protocol" ref_id="birnlex_2257">
+  <variant base="Multiphoton microscopy" />
+  <variant base="Multiphoton imaging" />
+  <variant base="Multiphoton imaging protocol" />
+</token>
+<token canonical="Government publication" ref_id="birnlex_2359">
+  <variant base="Government publication" />
+</token>
+<token canonical="Dark-field imaging protocol" ref_id="birnlex_2256">
+  <variant base="Dark-field imaging protocol" />
+</token>
+<token canonical="Laser scanning confocal imaging protocol" ref_id="birnlex_2259">
+  <variant base="Laser scanning confocal imaging protocol" />
+</token>
+<token canonical="Confocal imaging protocol" ref_id="birnlex_2258">
+  <variant base="Confocal imaging protocol" />
+  <variant base="confocal imaging" />
+  <variant base="confocal microscopy" />
+</token>
+<token canonical="Light transmission optical imaging protocol" ref_id="birnlex_2253">
+  <variant base="Light transmission optical imaging protocol" />
+</token>
+<token canonical="Optical imaging protocol" ref_id="birnlex_2252">
+  <variant base="Light microscopy imaging protocol" />
+  <variant base="Optical imaging protocol" />
+</token>
+<token canonical="Bright-field imaging protocol" ref_id="birnlex_2255">
+  <variant base="Bright-field imaging protocol" />
+</token>
+<token canonical="Light emitting optical imaging protocol" ref_id="birnlex_2254">
+  <variant base="Light emitting optical imaging protocol" />
+  <variant base="fluorescence/chemiluminescence/phosphorescence optical imaging protocol" />
+</token>
+<token canonical="Closed-source license" ref_id="birnlex_2352">
+  <variant base="Closed-source license" />
+  <variant base="Closed source license" />
+  <variant base="Restricted license" />
+</token>
+<token canonical="MIT License" ref_id="birnlex_2351">
+  <variant base="MIT License" />
+</token>
+<token canonical="Book" ref_id="birnlex_2354">
+  <variant base="Book" />
+</token>
+<token canonical="Commercial license" ref_id="birnlex_2353">
+  <variant base="Commercial license" />
+</token>
+<token canonical="Personal communication" ref_id="birnlex_2356">
+  <variant base="Informal communication" />
+  <variant base="Personal communication" />
+</token>
+<token canonical="Book series volume" ref_id="birnlex_2355">
+  <variant base="Book series volume" />
+</token>
+<token canonical="Discussion" ref_id="birnlex_2358">
+  <variant base="Discussion" />
+</token>
+<token canonical="Conference proceeding" ref_id="birnlex_2357">
+  <variant base="Conference proceeding" />
+</token>
+<token canonical="Wide-field fluorescence imaging protocol" ref_id="birnlex_3077">
+  <variant base="Wide-field fluorescence imaging protocol" />
+</token>
+<token canonical="Topical portal" ref_id="birnlex_2371">
+  <variant base="Information portal" />
+  <variant base="Topical portal" />
+</token>
+<token canonical="Disease-related portal" ref_id="birnlex_2372">
+  <variant base="Disease-related portal" />
+</token>
+<token canonical="Laboratory portal" ref_id="birnlex_2370">
+  <variant base="Laboratory portal" />
+</token>
+<token canonical="Extracellular electrode recording protocol" ref_id="birnlex_2272">
+  <variant base="Extracellular electrode recording protocol" />
+</token>
+<token canonical="Intracellular electrode recording protocol" ref_id="birnlex_2273">
+  <variant base="Intracellular electrode recording protocol" />
+</token>
+<token canonical="National Institutes of Health granting agency" ref_id="birnlex_2468">
+  <variant base="National Institutes of Health agency" />
+  <variant base="National Institutes of Health granting agency" />
+  <variant base="National Institutes of Health granting institution" />
+</token>
+<token canonical="Micro-electrode recording protocol" ref_id="birnlex_2270">
+  <variant base="Micro-electrode recording protocol" />
+</token>
+<token canonical="Macro-electrode recording protocol" ref_id="birnlex_2271">
+  <variant base="Macro-electrode recording protocol" />
+</token>
+<token canonical="Electrical recording protocol" ref_id="birnlex_2269">
+  <variant base="Electrical recording protocol" />
+</token>
+<token canonical="Computer Axial Tomography imaging protocol" ref_id="birnlex_2268">
+  <variant base="CAT imaging protocol" />
+  <variant base="CT Imaging protocol" />
+  <variant base="Computer Axial Tomography imaging protocol" />
+</token>
+<token canonical="Electron Energy Loss Spectroscopy imaging protocol" ref_id="birnlex_2267">
+  <variant base="Electron Energy Loss Spectroscopy" />
+  <variant base="Electron Energy Loss Spectroscopy imaging protocol" />
+</token>
+<token canonical="Spectroscopic imaging protocol" ref_id="birnlex_2266">
+  <variant base="Spectroscopic imaging protocol" />
+  <variant base="Spectroscopic microscopy" />
+</token>
+<token canonical="Intrinsic emission imaging protocol" ref_id="birnlex_2265">
+  <variant base="Intrinsic emission microscopy" />
+  <variant base="Intrinsic emission imaging protocol" />
+</token>
+<token canonical="Total internal reflection imaging protocol" ref_id="birnlex_2264">
+  <variant base="Total internal reflection microscopy" />
+  <variant base="Total internal reflection imaging protocol" />
+</token>
+<token canonical="Polarization contrast imaging protocol" ref_id="birnlex_2263">
+  <variant base="Polarization microscopy" />
+  <variant base="Polarization contrast imaging protocol" />
+</token>
+<token canonical="Thesis" ref_id="birnlex_2365">
+  <variant base="Thesis" />
+</token>
+<token canonical="Patent" ref_id="birnlex_2364">
+  <variant base="Patent" />
+</token>
+<token canonical="Listserve" ref_id="birnlex_2363">
+  <variant base="Listserve" />
+  <variant base="Listserv" />
+</token>
+<token canonical="International standard specification" ref_id="birnlex_2362">
+  <variant base="International standard specification" />
+  <variant base="consortium standard specification" />
+</token>
+<token canonical="Department portal" ref_id="birnlex_2369">
+  <variant base="Department portal" />
+</token>
+<token canonical="Organization portal" ref_id="birnlex_2368">
+  <variant base="Organization portal" />
+  <variant base="Institutional portal" />
+  <variant base="Institution portal" />
+  <variant base="Organizational portal" />
+</token>
+<token canonical="Portal" ref_id="birnlex_2367">
+  <variant base="Portal" />
+</token>
+<token canonical="Website" ref_id="birnlex_2366">
+  <variant base="Website" />
+</token>
+<token canonical="Title" ref_id="birnlex_2380">
+  <variant base="primary title" />
+  <variant base="Title" />
+</token>
+<token canonical="Socio-Economic Status" ref_id="birnlex_3048">
+  <variant base="Socio-Economic Status" />
+</token>
+<token canonical="Alternative title" ref_id="birnlex_2381">
+  <variant base="secondary title" />
+  <variant base="alt title" />
+  <variant base="Alternative title" />
+</token>
+<token canonical="Cardinality value" ref_id="birnlex_3049">
+  <variant base="Cardinality value" />
+</token>
+<token canonical="Author" ref_id="birnlex_2382">
+  <variant base="Author" />
+</token>
+<token canonical="Author affiliation" ref_id="birnlex_2383">
+  <variant base="Author affiliation" />
+  <variant base="author adress" />
+</token>
+<token canonical="Structured clinical interview for DSM-IV Axis I Disorders - patient" ref_id="birnlex_3044">
+  <variant base="Structured clinical interview for DSM-IV Axis I Disorders - patient" />
+</token>
+<token canonical="Scale for the Assessment of Positive Symptoms" ref_id="birnlex_3045">
+  <variant base="Scale for the Assessment of Positive Symptoms" />
+</token>
+<token canonical="Self-rating Anxiety Scale" ref_id="birnlex_3046">
+  <variant base="Self-rating Anxiety Scale" />
+</token>
+<token canonical="Simpson Angus Rating Scale" ref_id="birnlex_3047">
+  <variant base="Simpson Angus Rating Scale" />
+</token>
+<token canonical="Granting agency" ref_id="birnlex_2430">
+  <variant base="Granting agency" />
+  <variant base="Granting institution" />
+</token>
+<token canonical="Government granting agency" ref_id="birnlex_2431">
+  <variant base="Government granting agency" />
+  <variant base="Government granting institution" />
+</token>
+<token canonical="United States Department of Health and Human Services granting agency" ref_id="birnlex_2432">
+  <variant base="United States Department of Health and Human Services granting agency" />
+  <variant base="United States Department of Health and Human Services granting institution" />
+</token>
+<token canonical="STEM imaging protocol" ref_id="birnlex_2240">
+  <variant base="Scanning transmission electron microscopy imaging protocol" />
+  <variant base="STEM imaging protocol" />
+</token>
+<token canonical="Camberwell FamilyInterview" ref_id="birnlex_3017_2">
+  <variant base="Camberwell FamilyInterview" />
+</token>
+<token canonical="Data access protocol" ref_id="birnlex_2231">
+  <variant base="Data access protocol" />
+</token>
+<token canonical="Registration software" ref_id="birnlex_2230">
+  <variant base="Image Alignment software" />
+  <variant base="Registration software" />
+</token>
+<token canonical="Dynamic HTML document" ref_id="birnlex_2233">
+  <variant base="Dynamic HTML document" />
+</token>
+<token canonical="Static HTML document" ref_id="birnlex_2232">
+  <variant base="Static HTML document" />
+</token>
+<token canonical="Application programming interface" ref_id="birnlex_2235">
+  <variant base="Application programming interface" />
+</token>
+<token canonical="Web service" ref_id="birnlex_2234">
+  <variant base="Web service" />
+</token>
+<token canonical="EM imaging protocol" ref_id="birnlex_2237">
+  <variant base="Electron microscopy imaging protocol" />
+  <variant base="EM imaging protocol" />
+</token>
+<token canonical="SPECT imaging protocol" ref_id="birnlex_2236">
+  <variant base="Single Photon Emission Computed Tomography imaging protocol" />
+  <variant base="SPECT imaging protocol" />
+</token>
+<token canonical="Abstract" ref_id="birnlex_2378">
+  <variant base="Abstract" />
+</token>
+<token canonical="TEM imaging protocol" ref_id="birnlex_2239">
+  <variant base="Transmission electron microscopy imaging protocol" />
+  <variant base="TEM imaging protocol" />
+</token>
+<token canonical="Number b=0 volumes" ref_id="birnlex_3052">
+  <variant base="Number b=0 volumes" />
+</token>
+<token canonical="Title set" ref_id="birnlex_2377">
+  <variant base="Title set" />
+</token>
+<token canonical="SEM imaging protocol" ref_id="birnlex_2238">
+  <variant base="SEM imaging protocol" />
+  <variant base="Scanning electron microscopy imaging protocol" />
+</token>
+<token canonical="Number of diffusion-weighted directions" ref_id="birnlex_3051">
+  <variant base="Number of diffusion-weighted directions" />
+</token>
+<token canonical="Event-related design" ref_id="birnlex_3054">
+  <variant base="Event-related design" />
+</token>
+<token canonical="Author set" ref_id="birnlex_2379">
+  <variant base="Author set" />
+</token>
+<token canonical="Number of b NE 0 volumes" ref_id="birnlex_3053">
+  <variant base="Number of b NE 0 volumes" />
+</token>
+<token canonical="Research forum portal" ref_id="birnlex_2374">
+  <variant base="Research forum portal" />
+</token>
+<token canonical="Patient-support portal" ref_id="birnlex_2373">
+  <variant base="Patient-advocate portal" />
+  <variant base="Patient-support portal" />
+</token>
+<token canonical="Citation record element" ref_id="birnlex_2376">
+  <variant base="Citation record element" />
+</token>
+<token canonical="Number of b values" ref_id="birnlex_3050">
+  <variant base="Number of b values" />
+</token>
+<token canonical="Link aggregation site" ref_id="birnlex_2375">
+  <variant base="A web site containing a curated set of links typically focussed on a particular topic or set of related topics." />
+  <variant base="Link aggregation site" />
+  <variant base="Link classification site" />
+  <variant base="Link clustering site" />
+</token>
+<token canonical="Serial number" ref_id="birnlex_2393">
+  <variant base="Serial number" />
+  <variant base="number" />
+</token>
+<token canonical="Start page" ref_id="birnlex_2394">
+  <variant base="Start page" />
+</token>
+<token canonical="Volume" ref_id="birnlex_2391">
+  <variant base="Volume" />
+</token>
+<token canonical="Statistical Parametric Mapping" ref_id="birnlex_3059">
+  <variant base="Statistical Parametric Mapping" />
+</token>
+<token canonical="Issue" ref_id="birnlex_2392">
+  <variant base="Issue" />
+</token>
+<token canonical="Gaussian Random Field" ref_id="birnlex_3057">
+  <variant base="Gaussian Random Field" />
+</token>
+<token canonical="Serial publication element" ref_id="birnlex_2390">
+  <variant base="Serial publication element" />
+</token>
+<token canonical="Region of Interest" ref_id="birnlex_3058">
+  <variant base="Region of Interest" />
+</token>
+<token canonical="Independent Components Analysis" ref_id="birnlex_3055">
+  <variant base="Independent Components Analysis" />
+</token>
+<token canonical="General Linear Model" ref_id="birnlex_3056">
+  <variant base="General Linear Model" />
+</token>
+<token canonical="Functional MRI protocol" ref_id="birnlex_2250">
+  <variant base="Functional MRI protocol" />
+  <variant base="fMRI" />
+</token>
+<token canonical="Structural MRI protocol" ref_id="birnlex_2251">
+  <variant base="MRI" />
+  <variant base="Structural MRI protocol" />
+</token>
+<token canonical="Immunocytochemistry protocol" ref_id="birnlex_2244">
+  <variant base="Immunocytochemistry protocol" />
+</token>
+<token canonical="Golgi staining protocol" ref_id="birnlex_2243">
+  <variant base="Golgi staining protocol" />
+</token>
+<token canonical="Fluorescence labeling protocol" ref_id="birnlex_2242">
+  <variant base="Fluorescence labeling protocol" />
+</token>
+<token canonical="Immunohistochemical protocol" ref_id="birnlex_2241">
+  <variant base="Immunohistochemical protocol" />
+</token>
+<token canonical="Myelin staining protocol" ref_id="birnlex_2248">
+  <variant base="Myelin staining protocol" />
+</token>
+<token canonical="Nissl staining protocol" ref_id="birnlex_2247">
+  <variant base="Nissl staining protocol" />
+</token>
+<token canonical="Version source control system" ref_id="birnlex_2246">
+  <variant base="Source control" />
+  <variant base="Version control (system)" />
+  <variant base="Version source control system" />
+  <variant base="(source) code management" />
+  <variant base="Revision control" />
+</token>
+<token canonical="network graph visualization software" ref_id="birnlex_2245">
+  <variant base="network graph visualization software" />
+</token>
+<token canonical="International Standard Serial Number" ref_id="birnlex_2389">
+  <variant base="International Standard Serial Number" />
+</token>
+<token canonical="International Standard Book Number" ref_id="birnlex_2388">
+  <variant base="International Standard Book Number" />
+</token>
+<token canonical="Radiolabeling protocol" ref_id="birnlex_2249">
+  <variant base="Radiolabeling protocol" />
+</token>
+<token canonical="Voxel" ref_id="birnlex_3062">
+  <variant base="Voxel" />
+</token>
+<token canonical="Citation record" ref_id="birnlex_2387">
+  <variant base="Citation record" />
+</token>
+<token canonical="Pixel" ref_id="birnlex_3061">
+  <variant base="Pixel" />
+</token>
+<token canonical="Grant sponsor" ref_id="birnlex_2386">
+  <variant base="Grant sponsor" />
+</token>
+<token canonical="Spatial value" ref_id="birnlex_3060">
+  <variant base="Spatial value" />
+</token>
+<token canonical="Grant number" ref_id="birnlex_2385">
+  <variant base="Grant number" />
+</token>
+<token canonical="Group author" ref_id="birnlex_2384">
+  <variant base="collaborative author" />
+  <variant base="Group author" />
+</token>
+<token canonical="Reaction time test" ref_id="nlx_inv_20090201">
+  <variant base="Reaction time test" />
+</token>
+<token canonical="Sensory motor task scan" ref_id="nlx_inv_20090203">
+  <variant base="Sensory motor task scan" />
+</token>
+<token canonical="Resting state scan" ref_id="nlx_inv_20090202">
+  <variant base="Resting state scan" />
+</token>
+<token canonical="Mother's education" ref_id="birnlex_3023">
+  <variant base="Mother's education" />
+</token>
+<token canonical="Father's occupation" ref_id="birnlex_3022">
+  <variant base="Father's occupation" />
+</token>
+<token canonical="Favorites assessment" ref_id="birnlex_3025">
+  <variant base="Favorites assessment" />
+  <variant base="favorites" />
+</token>
+<token canonical="Father's occupation" ref_id="birnlex_3024">
+  <variant base="Father's occupation" />
+</token>
+<token canonical="Hallucination assessment" ref_id="birnlex_3027">
+  <variant base="Hallucination assessment" />
+  <variant base="hallucination" />
+</token>
+<token canonical="Gender assessment" ref_id="birnlex_3026">
+  <variant base="gender" />
+  <variant base="Gender assessment" />
+</token>
+<token canonical="InterSePT Scale for Suicidal Thinking" ref_id="birnlex_3029">
+  <variant base="InterSePT Scale for Suicidal Thinking" />
+</token>
+<token canonical="Handedness assessment" ref_id="birnlex_3028">
+  <variant base="Handedness assessment" />
+</token>
+<token canonical="Structural model" ref_id="birnlex_2310">
+  <variant base="Structural model" />
+</token>
+<token canonical="Macroscopic anatomical structure model" ref_id="birnlex_2311">
+  <variant base="anatomical model" />
+  <variant base="Macroscopic anatomical structure model" />
+</token>
+<token canonical="1D Time-series analysis software" ref_id="birnlex_2216">
+  <variant base="1D Time-series analysis software" />
+</token>
+<token canonical="Multi-cell  model" ref_id="birnlex_2312">
+  <variant base="Multi-cell  model" />
+  <variant base="tissue model" />
+  <variant base="Multi-cell model" />
+</token>
+<token canonical="Living arrangement assessment" ref_id="birnlex_3030">
+  <variant base="Living arrangement assessment" />
+  <variant base="living arrangement" />
+</token>
+<token canonical="2D Time-series analysis software" ref_id="birnlex_2217">
+  <variant base="2D Time-series analysis software" />
+</token>
+<token canonical="Neural circuit model" ref_id="birnlex_2313">
+  <variant base="circuit model" />
+  <variant base="nerve cell circuit model" />
+  <variant base="neural network model" />
+  <variant base="Neural circuit model" />
+</token>
+<token canonical="Marital status assessment" ref_id="birnlex_3031">
+  <variant base="marital status" />
+  <variant base="Marital status assessment" />
+</token>
+<token canonical="3D Time-series analysis software" ref_id="birnlex_2218">
+  <variant base="3D Time-series analysis software" />
+  <variant base="4D analysis software" />
+</token>
+<token canonical="Body system model" ref_id="birnlex_2314">
+  <variant base="Body system model" />
+</token>
+<token canonical="Positive and Negative Symptom Scale" ref_id="birnlex_3032">
+  <variant base="Positive and Negative Symptom Scale" />
+</token>
+<token canonical="Network analysis software" ref_id="birnlex_2219">
+  <variant base="Network analysis software" />
+  <variant base="pathway analysis software" />
+</token>
+<token canonical="Sequence-based model" ref_id="birnlex_2315">
+  <variant base="Sequence-based model" />
+</token>
+<token canonical="Image acquisition software" ref_id="birnlex_2212">
+  <variant base="Image acquisition software" />
+</token>
+<token canonical="Sequence homology model" ref_id="birnlex_2316">
+  <variant base="homology model" />
+  <variant base="Sequence homology model" />
+</token>
+<token canonical="Data visualization software" ref_id="birnlex_2213">
+  <variant base="Data visualization software" />
+</token>
+<token canonical="Hydrophobicity model" ref_id="birnlex_2317">
+  <variant base="hydrophobicity plot" />
+  <variant base="Hydrophobicity model" />
+  <variant base="hydrophobicity analysis" />
+</token>
+<token canonical="Sequence analysis software" ref_id="birnlex_2214">
+  <variant base="1D correlative analysis software" />
+  <variant base="sequence pattern analysis software" />
+  <variant base="Sequence analysis software" />
+</token>
+<token canonical="Protein structure classification" ref_id="birnlex_2318">
+  <variant base="protein classification" />
+  <variant base="Protein structure classification" />
+</token>
+<token canonical="Time-series analysis software" ref_id="birnlex_2215">
+  <variant base="Time-series analysis software" />
+</token>
+<token canonical="Signal processing software" ref_id="birnlex_2319">
+  <variant base="Signal processing software" />
+</token>
+<token canonical="Data processing software" ref_id="birnlex_2210">
+  <variant base="Data operations software" />
+  <variant base="Data processing software" />
+</token>
+<token canonical="Data analysis software" ref_id="birnlex_2211">
+  <variant base="Data analysis software" />
+</token>
+<token canonical="Occupation assessment" ref_id="birnlex_3036">
+  <variant base="occupation" />
+  <variant base="Occupation assessment" />
+</token>
+<token canonical="Offspring cardinality assessment" ref_id="birnlex_3035">
+  <variant base="Offspring cardinality assessment" />
+  <variant base="number of children" />
+</token>
+<token canonical="North American Adult Reading Test" ref_id="birnlex_3034">
+  <variant base="North American Adult Reading Test" />
+</token>
+<token canonical="Modified Positive and Negative Symptom Scale" ref_id="birnlex_3033">
+  <variant base="Modified Positive and Negative Symptom Scale" />
+</token>
+<token canonical="Quick mood scale" ref_id="birnlex_3039">
+  <variant base="Quick mood scale" />
+</token>
+<token canonical="Premorbid Adjustment Scale" ref_id="birnlex_3038">
+  <variant base="Premorbid Adjustment Scale" />
+</token>
+<token canonical="Developmental assessment" ref_id="birnlex_3037">
+  <variant base="Developmental assessment" />
+</token>
+<token canonical="Signal processing algorithm" ref_id="birnlex_2320">
+  <variant base="Digital signal processing algorithm" />
+  <variant base="Signal processing algorithm" />
+  <variant base="DSP algorithm" />
+</token>
+<token canonical="Pipeline processing software" ref_id="birnlex_2321">
+  <variant base="workflow processing software" />
+  <variant base="Pipeline processing software" />
+</token>
+<token canonical="GRID computing software" ref_id="birnlex_2324">
+  <variant base="GRID computing software" />
+</token>
+<token canonical="Image alignment software" ref_id="birnlex_2229">
+  <variant base="Image alignment software" />
+  <variant base="Alignment software" />
+  <variant base="image registration software" />
+</token>
+<token canonical="Structured clinical interview for DSM-IV Axis I Disorders" ref_id="birnlex_3042">
+  <variant base="Structured clinical interview for DSM-IV Axis I Disorders" />
+</token>
+<token canonical="Portlet component" ref_id="birnlex_2325">
+  <variant base="Portlet component" />
+</token>
+<token canonical="Structured clinical interview for DSM-IV Axis I Disorders - non-patient" ref_id="birnlex_3043">
+  <variant base="Structured clinical interview for DSM-IV Axis I Disorders - non-patient" />
+</token>
+<token canonical="Graphical pipeline construction software" ref_id="birnlex_2322">
+  <variant base="Graphical pipeline construction software" />
+</token>
+<token canonical="Code testing framework" ref_id="birnlex_2227">
+  <variant base="Code testing framework" />
+</token>
+<token canonical="Race assessment" ref_id="birnlex_3040">
+  <variant base="Race assessment" />
+  <variant base="race" />
+</token>
+<token canonical="Systems interoperability software" ref_id="birnlex_2323">
+  <variant base="Systems interoperability software" />
+</token>
+<token canonical="Segmentation software" ref_id="birnlex_2228">
+  <variant base="Segmentation software" />
+</token>
+<token canonical="Scale for the Assessment of Negative Symptoms" ref_id="birnlex_3041">
+  <variant base="Scale for the Assessment of Negative Symptoms" />
+</token>
+<token canonical="Human subject report" ref_id="birnlex_2328">
+  <variant base="Human subject report" />
+  <variant base="patient report" />
+</token>
+<token canonical="Compiler" ref_id="birnlex_2225">
+  <variant base="Compiler" />
+</token>
+<token canonical="Literature corpus" ref_id="birnlex_2329">
+  <variant base="literature" />
+  <variant base="Literature corpus" />
+</token>
+<token canonical="Code Profiler" ref_id="birnlex_2226">
+  <variant base="Code Profiler" />
+</token>
+<token canonical="Data compression software" ref_id="birnlex_2223">
+  <variant base="Data compression software" />
+</token>
+<token canonical="Subject report" ref_id="birnlex_2327">
+  <variant base="Subject report" />
+</token>
+<token canonical="Software development environment" ref_id="birnlex_2224">
+  <variant base="Software development environment" />
+  <variant base="Integrated Software development environment" />
+</token>
+<token canonical="4D visualization software" ref_id="birnlex_2221">
+  <variant base="4D visualization software" />
+</token>
+<token canonical="Software development tool" ref_id="birnlex_2222">
+  <variant base="Software development tool" />
+</token>
+<token canonical="3D visualization software" ref_id="birnlex_2220">
+  <variant base="3D visualization software" />
+</token>
+<token canonical="Anterograde tracing role" ref_id="nlx_inv_101202">
+  <variant base="Anterograde tracing role" />
+</token>
+<token canonical="Tracing role" ref_id="nlx_inv_101201">
+  <variant base="Tracing role" />
+</token>
+<token canonical="Retrograde tracing role" ref_id="nlx_inv_101204">
+  <variant base="Retrograde tracing role" />
+</token>
+<token canonical="A-10 cell" ref_id="birnlex_2475">
+  <variant base="A-10" />
+  <variant base="A-10 cell" />
+</token>
+<token canonical="Post mortem tract tracing role" ref_id="nlx_inv_101203">
+  <variant base="Post mortem tract tracing role" />
+</token>
+<token canonical="Beck Depression Inventory" ref_id="birnlex_3009">
+  <variant base="Beck Depression Inventory" />
+</token>
+<token canonical="Barnes Akathisia Rating Scale" ref_id="birnlex_3008">
+  <variant base="Barnes Akathisia Rating Scale" />
+</token>
+<token canonical="Movement control assessment" ref_id="birnlex_3005">
+  <variant base="Movement control assessment" />
+</token>
+<token canonical="Mental state assessment" ref_id="birnlex_3004">
+  <variant base="Mental state assessment" />
+</token>
+<token canonical="Anxiety Status Inventory" ref_id="birnlex_3007">
+  <variant base="Anxiety Status Inventory" />
+</token>
+<token canonical="Abnormal Involuntary Movement Scale" ref_id="birnlex_3006">
+  <variant base="Abnormal Involuntary Movement Scale" />
+</token>
+<token canonical="Genetic assessment" ref_id="birnlex_3001">
+  <variant base="Genetic assessment" />
+</token>
+<token canonical="Transneuronal tracing role" ref_id="nlx_inv_101205">
+  <variant base="Transneuronal tracing role" />
+</token>
+<token canonical="Affective assessment" ref_id="birnlex_3000">
+  <variant base="Affective assessment" />
+</token>
+<token canonical="Socio-demographic assessment" ref_id="birnlex_3003">
+  <variant base="Socio-demographic assessment" />
+</token>
+<token canonical="Bibliographic database" ref_id="birnlex_2333">
+  <variant base="Bibliographic database" />
+</token>
+<token canonical="Structured knowledge resource" ref_id="birnlex_2334">
+  <variant base="Structured data resource" />
+  <variant base="Structured knowledge resource" />
+</token>
+<token canonical="Controlled vocabulary" ref_id="birnlex_2335">
+  <variant base="controllled terminology" />
+  <variant base="Controlled vocabulary" />
+  <variant base="terminology" />
+</token>
+<token canonical="Classification scheme" ref_id="birnlex_2336">
+  <variant base="Classification scheme" />
+</token>
+<token canonical="Calgary Depression Scale" ref_id="birnlex_3010">
+  <variant base="Calgary Depression Scale" />
+</token>
+<token canonical="Lexical processing algorithm" ref_id="birnlex_2330">
+  <variant base="Lexical processing algorithm" />
+  <variant base="Text-mining algorithm" />
+</token>
+<token canonical="Natural language processing algorithm" ref_id="birnlex_2331">
+  <variant base="Natural language processing algorithm" />
+</token>
+<token canonical="Animation software" ref_id="nlx_inv_090901">
+  <variant base="Animation software" />
+</token>
+<token canonical="Part-of-speech tagging algorithm" ref_id="birnlex_2332">
+  <variant base="Part-of-speech tagging algorithm" />
+</token>
+<token canonical="Data distribution software" ref_id="nlx_inv_090902">
+  <variant base="Data distribution software" />
+</token>
+<token canonical="Data storage software" ref_id="nlx_inv_090903">
+  <variant base="Data storage software" />
+</token>
+<token canonical="Toxin" ref_id="birnlex_2103_2">
+  <variant base="Toxin" />
+</token>
+<token canonical="Data transfer software" ref_id="nlx_inv_090904">
+  <variant base="Data transfer software" />
+</token>
+<token canonical="Community building portal" ref_id="nlx_inv_090905">
+  <variant base="Community portal" />
+  <variant base="Community building portal" />
+</token>
+<token canonical="Rendering software" ref_id="nlx_inv_090906">
+  <variant base="Rendering software" />
+</token>
+<token canonical="Taxonomy" ref_id="birnlex_2337">
+  <variant base="Taxonomy" />
+</token>
+<token canonical="Software library" ref_id="nlx_inv_090907">
+  <variant base="Software library" />
+</token>
+<token canonical="Thesaurus" ref_id="birnlex_2338">
+  <variant base="Thesaurus" />
+</token>
+<token canonical="Electrical recording assay" ref_id="nlx_inv_090908">
+  <variant base="Electrical recording assay" />
+  <variant base="Electrical recording" />
+</token>
+<token canonical="Ontology" ref_id="birnlex_2339">
+  <variant base="Ontology" />
+</token>
+<token canonical="Radiographic imaging protocol" ref_id="birnlex_2481">
+  <variant base="Radiographic imaging protocol" />
+</token>
+<token canonical="Micro-electrode recording assay" ref_id="nlx_inv_090909">
+  <variant base="Microelectrode recording" />
+  <variant base="Micro-electrode recording assay" />
+  <variant base="micro-electrode recording" />
+</token>
+<token canonical="Ultrasonographic imaging protocol" ref_id="birnlex_2482">
+  <variant base="Ultrasonographic imaging protocol" />
+  <variant base="Sonography" />
+  <variant base="Echography" />
+  <variant base="Ultrasonic imaging protocol" />
+  <variant base="Ultrasound imaging procedure" />
+  <variant base="Ultrasonography" />
+  <variant base="Ultrasound imaging protocol" />
+</token>
+<token canonical="Cross-sectional nuclear imaging protocol" ref_id="birnlex_2485">
+  <variant base="Cross-sectional nuclear imaging protocol" />
+</token>
+<token canonical="Planar imaging protocol" ref_id="birnlex_2484">
+  <variant base="Planar imaging protocol" />
+</token>
+<token canonical="Nuclear medicine imaging protocol" ref_id="birnlex_2483">
+  <variant base="Nuclear medicine imaging protocol" />
+  <variant base="NMR" />
+</token>
+<token canonical="Paternal assessment" ref_id="birnlex_3019">
+  <variant base="Paternal assessment" />
+</token>
+<token canonical="BSD License" ref_id="birnlex_2350">
+  <variant base="BSD License" />
+</token>
+<token canonical="Familial member assessment" ref_id="birnlex_3018">
+  <variant base="Familial member assessment" />
+</token>
+<token canonical="Family Interview for Genetics Studies" ref_id="birnlex_3017">
+  <variant base="Family Interview for Genetics Studies" />
+</token>
+<token canonical="Ethnicity" ref_id="birnlex_3016">
+  <variant base="Ethnicity" />
+</token>
+<token canonical="Ethnicity assessment" ref_id="birnlex_3015">
+  <variant base="Ethnicity assessment" />
+  <variant base="ethnicity" />
+</token>
+<token canonical="Education assessment" ref_id="birnlex_3014">
+  <variant base="Education assessment" />
+  <variant base="education" />
+</token>
+<token canonical="Edinburgh Handedness Inventory" ref_id="birnlex_3013">
+  <variant base="Edinburgh Handedness Inventory" />
+</token>
+<token canonical="Demographic assessment" ref_id="birnlex_3012">
+  <variant base="Demographic assessment" />
+</token>
+<token canonical="Deficit Syndrome Score Sheet" ref_id="birnlex_3011">
+  <variant base="Deficit Syndrome Score Sheet" />
+</token>
+<token canonical="Simulation software" ref_id="birnlex_2346">
+  <variant base="Simulation software" />
+</token>
+<token canonical="Maternal assessment" ref_id="birnlex_3020">
+  <variant base="Maternal assessment" />
+</token>
+<token canonical="Relational database" ref_id="birnlex_2207">
+  <variant base="Relational database" />
+</token>
+<token canonical="Text-mining software" ref_id="birnlex_2347">
+  <variant base="Text-mining software" />
+</token>
+<token canonical="Father's education" ref_id="birnlex_3021">
+  <variant base="Father's education" />
+</token>
+<token canonical="Data acquisition software" ref_id="birnlex_2208">
+  <variant base="Data acquisition software" />
+</token>
+<token canonical="GNU General Public License" ref_id="birnlex_2344">
+  <variant base="GNU General Public License" />
+</token>
+<token canonical="Echo planar imaging protocol" ref_id="birnlex_2205">
+  <variant base="EPI" />
+  <variant base="Echo planar imaging protocol" />
+</token>
+<token canonical="GNU Lesser General Public License" ref_id="birnlex_2345">
+  <variant base="GNU Lesser General Public License" />
+</token>
+<token canonical="Transverse magnetization" ref_id="birnlex_2206">
+  <variant base="Transverse magnetization" />
+</token>
+<token canonical="License" ref_id="birnlex_2342">
+  <variant base="License" />
+</token>
+<token canonical="Magnetic resonance imaging assay" ref_id="nlx_inv_090912">
+  <variant base="MRI imaging" />
+  <variant base="MRI" />
+  <variant base="Magnetic resonance imaging assay" />
+  <variant base="magnetic resonance imaging" />
+  <variant base="MRI assay" />
+</token>
+<token canonical="Open-source license" ref_id="birnlex_2343">
+  <variant base="Open source license" />
+  <variant base="Open-source license" />
+</token>
+<token canonical="Diffusion magnetic resonance imaging" ref_id="nlx_inv_090913">
+  <variant base="Diffusion magnetic resonance imaging" />
+</token>
+<token canonical="Research knowledgebase" ref_id="birnlex_2340">
+  <variant base="Knowledgebase" />
+  <variant base="Basic research knowledge base" />
+  <variant base="Research knowledge base" />
+  <variant base="Knowledge base" />
+  <variant base="Research knowledgebase" />
+</token>
+<token canonical="Intracellular electrode recording assay" ref_id="nlx_inv_090910">
+  <variant base="Intracellular electrode recording assay" />
+  <variant base="Intracellular electrode recording" />
+</token>
+<token canonical="Documentation generation software" ref_id="birnlex_2209">
+  <variant base="Documentation generation software" />
+</token>
+<token canonical="Clinical knowledgebase" ref_id="birnlex_2341">
+  <variant base="Clinical knowledgebase" />
+  <variant base="Clinical knowledge base" />
+  <variant base="Clinical research knowledge base" />
+  <variant base="Clinical research translational knowledge base" />
+  <variant base="Clinical research (translational) knowledge base" />
+</token>
+<token canonical="Intrathecal" ref_id="nlx_inv_090911">
+  <variant base="Intrathecal" />
+</token>
+<token canonical="Diffusion weighted magnetic resonance imaging assay" ref_id="nlx_inv_090916">
+  <variant base="Diffusion weighted magnetic resonance imaging assay" />
+  <variant base="Diffusion weighted imaging" />
+</token>
+<token canonical="High angular resolution diffusion imaging" ref_id="nlx_inv_090917">
+  <variant base="High angular resolution diffusion imaging" />
+</token>
+<token canonical="Imaging platform" ref_id="birnlex_2200">
+  <variant base="Imaging platform" />
+</token>
+<token canonical="Functional MRI assay" ref_id="nlx_inv_090914">
+  <variant base="functional magnetic resonance imaging assay" />
+  <variant base="Functional MRI assay" />
+  <variant base="functional magnetic resonance imaging" />
+  <variant base="fMRI" />
+</token>
+<token canonical="Mass spectrometry assay" ref_id="OBI_0000470">
+  <variant base="Mass spectrometry" />
+  <variant base="mass spectroscopy" />
+  <variant base="Mass spectrometry assay" />
+</token>
+<token canonical="Diffusion tensor imaging assay" ref_id="nlx_inv_090915">
+  <variant base="DTI" />
+  <variant base="Diffusion tensor imaging" />
+  <variant base="Diffusion tensor imaging assay" />
+</token>
+<token canonical="Eating paradigm" ref_id="birnlex_2203">
+  <variant base="Eating paradigm" />
+</token>
+<token canonical="Magnetic resonance imaging platform" ref_id="birnlex_2204">
+  <variant base="Magnetic resonance imaging platform" />
+</token>
+<token canonical="Mozilla Public License" ref_id="birnlex_2348">
+  <variant base="Mozilla Public License" />
+</token>
+<token canonical="Magnetoencephalography" ref_id="nlx_inv_090918">
+  <variant base="Magnetoencephalography" />
+  <variant base="MEG" />
+</token>
+<token canonical="Control group" ref_id="birnlex_2201">
+  <variant base="Control group" />
+</token>
+<token canonical="Apache License" ref_id="birnlex_2349">
+  <variant base="Apache License" />
+</token>
+<token canonical="Tract tracing assay" ref_id="nlx_inv_090919">
+  <variant base="Tract tracing assay" />
+  <variant base="axonal tract tracing" />
+</token>
+<token canonical="Image reconstruction algorithm" ref_id="birnlex_2202">
+  <variant base="Image reconstruction algorithm" />
+</token>
+<token canonical="Nucleic acid sequencing instrument" ref_id="birnlex_2408">
+  <variant base="sequencer" />
+  <variant base="Nucleic acid sequencing instrument" />
+</token>
+<token canonical="Action observation paradigm" ref_id="birnlex_2003">
+  <variant base="Action Observation" />
+  <variant base="Action observation paradigm" />
+</token>
+<token canonical="Polyacrylamide gel electrophoresis instrument" ref_id="birnlex_2407">
+  <variant base="Polyacrylamide gel electrophoresis instrument" />
+</token>
+<token canonical="Sample sectioning" ref_id="birnlex_2004">
+  <variant base="Sample sectioning" />
+</token>
+<token canonical="Episodic recall paradigm" ref_id="birnlex_2005">
+  <variant base="Episodic recall paradigm" />
+</token>
+<token canonical="Affinity chromotography instrument" ref_id="birnlex_2409">
+  <variant base="Affinity chromotography instrument" />
+</token>
+<token canonical="Difference" ref_id="birnlex_2006">
+  <variant base="Difference" />
+</token>
+<token canonical="Size exclusion chromotography instrument" ref_id="birnlex_2404">
+  <variant base="Size exclusion chromotography instrument" />
+  <variant base="Size exclusion liquid chromotography instrument" />
+</token>
+<token canonical="Nerve cell model" ref_id="birnlex_2301">
+  <variant base="Nerve cell model" />
+  <variant base="Computational neuronal model" />
+</token>
+<token canonical="Gravity-driven liquid chromotography instrument" ref_id="birnlex_2403">
+  <variant base="Gravity-driven liquid chromotography instrument" />
+</token>
+<token canonical="Computational model" ref_id="birnlex_2300">
+  <variant base="Computational model" />
+</token>
+<token canonical="R-weighted back projection" ref_id="birnlex_2000">
+  <variant base="R-weighted back projection" />
+</token>
+<token canonical="Agarose gel electrophoresis instrument" ref_id="birnlex_2406">
+  <variant base="Agarose gel electrophoresis instrument" />
+</token>
+<token canonical="Nerve cell functional model" ref_id="birnlex_2303">
+  <variant base="computational neuronal model" />
+  <variant base="neuronal physiological model" />
+  <variant base="Nerve cell functional model" />
+</token>
+<token canonical="Normal control group" ref_id="birnlex_2001">
+  <variant base="Normal control group" />
+</token>
+<token canonical="Ion-exchange chromotography instrument" ref_id="birnlex_2405">
+  <variant base="Ion-exchange chromotography instrument" />
+  <variant base="Ion-exchange liquid chromotography instrument" />
+</token>
+<token canonical="Nerve cell structural model" ref_id="birnlex_2302">
+  <variant base="Nerve cell structural model" />
+  <variant base="neuronal structure model" />
+</token>
+<token canonical="Structural MRI platform" ref_id="birnlex_2002">
+  <variant base="MRI platform" />
+  <variant base="Structural MRI platform" />
+</token>
+<token canonical="High-pressure liquid chromotography instrument" ref_id="birnlex_2400">
+  <variant base="High-pressure liquid chromotography instrument" />
+</token>
+<token canonical="Protein folding model" ref_id="birnlex_2305">
+  <variant base="Protein folding model" />
+</token>
+<token canonical="Genome-wide association study" ref_id="nlx_inv_20090407">
+  <variant base="Genome-wide association study" />
+</token>
+<token canonical="Drawing paradigm" ref_id="birnlex_2142">
+  <variant base="Drawing paradigm" />
+</token>
+<token canonical="Ionic current model" ref_id="birnlex_2304">
+  <variant base="Membrane current model" />
+  <variant base="Ionic current model" />
+</token>
+<token canonical="Benchmarking dataset" ref_id="nlx_inv_20090406">
+  <variant base="Benchmarking dataset" />
+</token>
+<token canonical="Glutaraldehyde fixative" ref_id="birnlex_2143">
+  <variant base="glutaral" />
+  <variant base="Glutaraldehyde fixative" />
+  <variant base="pentanedial" />
+  <variant base="glutardialdehyde" />
+</token>
+<token canonical="Chromotography instrument" ref_id="birnlex_2402">
+  <variant base="Chromotography instrument" />
+</token>
+<token canonical="Pathway model" ref_id="birnlex_2307">
+  <variant base="signaling pathway model" />
+  <variant base="enzyme network model" />
+  <variant base="regulatory network model" />
+  <variant base="Pathway model" />
+</token>
+<token canonical="In-situ hybridization" ref_id="nlx_inv_20090610">
+  <variant base="In-situ hybridization" />
+  <variant base="in situ hybridization" />
+</token>
+<token canonical="Intraperotineal injection" ref_id="birnlex_2144">
+  <variant base="Intraperotineal injection" />
+</token>
+<token canonical="Liquid chromotography instrument" ref_id="birnlex_2401">
+  <variant base="Liquid chromotography instrument" />
+</token>
+<token canonical="Network interaction model" ref_id="birnlex_2306">
+  <variant base="Network interaction model" />
+</token>
+<token canonical="T2* relaxation time" ref_id="birnlex_2145">
+  <variant base="T-two-star" />
+  <variant base="T2* relaxation time" />
+</token>
+<token canonical="Physiological model" ref_id="birnlex_2309">
+  <variant base="Physiological model" />
+  <variant base="Physiological system model" />
+</token>
+<token canonical="Rigid image registration" ref_id="nlx_inv_20090403">
+  <variant base="Rigid image registration" />
+</token>
+<token canonical="Breathhold paradigm" ref_id="birnlex_2007">
+  <variant base="Breathhold paradigm" />
+</token>
+<token canonical="Data analyzer" ref_id="birnlex_2146">
+  <variant base="Data analyzer" />
+</token>
+<token canonical="Gene regulatory network model" ref_id="birnlex_2308">
+  <variant base="Gene network model" />
+  <variant base="Gene regulatory network model" />
+</token>
+<token canonical="Image registration" ref_id="nlx_inv_20090402">
+  <variant base="Image registration" />
+</token>
+<token canonical="TR" ref_id="birnlex_2008">
+  <variant base="Repetition time" />
+  <variant base="MRI repetition time" />
+</token>
+<token canonical="Light microscopic imaging assay" ref_id="birnlex_2147">
+  <variant base="Light microscopic imaging assay" />
+</token>
+<token canonical="Data role" ref_id="nlx_inv_20090405">
+  <variant base="Data role" />
+</token>
+<token canonical="Sham control group" ref_id="birnlex_2009">
+  <variant base="Sham control group" />
+</token>
+<token canonical="Phenotype attribute" ref_id="birnlex_2148">
+  <variant base="Phenotype attribute" />
+</token>
+<token canonical="Electronic laboratory notebook" ref_id="nlx_inv_20090404">
+  <variant base="Electronic lab notebook" />
+  <variant base="Electronic laboratory notebook" />
+</token>
+<token canonical="Specimen fixation" ref_id="birnlex_2149">
+  <variant base="Specimen fixation" />
+</token>
+<token canonical="Biosensor" ref_id="nlx_inv_20090604">
+  <variant base="Biosensor" />
+</token>
+<token canonical="Histochemical protocol" ref_id="nlx_inv_20090605">
+  <variant base="Histochemical protocol" />
+  <variant base="Histochemistry" />
+</token>
+<token canonical="High-pressure liquid chromotography protocol" ref_id="nlx_inv_20090606">
+  <variant base="HPLC protocol" />
+  <variant base="High-pressure liquid chromotography protocol" />
+</token>
+<token canonical="Immunolabeling" ref_id="nlx_inv_20090607">
+  <variant base="Immunolabeling" />
+</token>
+<token canonical="Intrathecal injection" ref_id="birnlex_2150">
+  <variant base="Intrathecal injection" />
+</token>
+<token canonical="Chromagen" ref_id="nlx_inv_20090601">
+  <variant base="Chromagen" />
+</token>
+<token canonical="Fluorescence resonance energy transfer" ref_id="nlx_inv_20090602">
+  <variant base="Förster resonance energy transfer" />
+  <variant base="Fluorescence resonance energy transfer" />
+</token>
+<token canonical="Principal investigator" ref_id="birnlex_2152">
+  <variant base="Principal investigator" />
+</token>
+<token canonical="Calcium indicator dye" ref_id="nlx_inv_20090603">
+  <variant base="Calcium indicator dye" />
+  <variant base="Calcium dye" />
+</token>
+<token canonical="Tannic acid fixative" ref_id="birnlex_2151">
+  <variant base="Tannic acid fixative" />
+</token>
+<token canonical="Immunocytochemistry" ref_id="nlx_inv_20090608">
+  <variant base="Immunocytochemistry" />
+</token>
+<token canonical="Immunohistochemistry" ref_id="nlx_inv_20090609">
+  <variant base="Immunohistochemistry" />
+</token>
+<token canonical="T2 relaxation time" ref_id="birnlex_2139">
+  <variant base="Transverse relaxation time" />
+  <variant base="Spin-spin relaxation time" />
+  <variant base="T2 relaxation time" />
+</token>
+<token canonical="Gene expression phenotype" ref_id="birnlex_2133">
+  <variant base="Gene expression phenotype" />
+</token>
+<token canonical="T1 weighted protocol" ref_id="birnlex_2134">
+  <variant base="T1 weighted protocol" />
+  <variant base="T1 weighted scan" />
+</token>
+<token canonical="Immersion" ref_id="birnlex_2131">
+  <variant base="Immersion" />
+</token>
+<token canonical="Preparative role" ref_id="birnlex_2132">
+  <variant base="Preparative role" />
+</token>
+<token canonical="Instrument operator" ref_id="birnlex_2137">
+  <variant base="Instrument operator" />
+</token>
+<token canonical="Fixative" ref_id="birnlex_2138">
+  <variant base="Fixative" />
+</token>
+<token canonical="Injection" ref_id="birnlex_2135">
+  <variant base="Injection" />
+</token>
+<token canonical="Intracellular injection" ref_id="birnlex_2136">
+  <variant base="Intracellular injection" />
+</token>
+<token canonical="Quantitative organism attribute" ref_id="birnlex_2141">
+  <variant base="Quantitative organism attribute" />
+</token>
+<token canonical="Microscopic imaging assay" ref_id="birnlex_2140">
+  <variant base="Microscopic imaging assay" />
+</token>
+<token canonical="Differential scanning calorimetry instrument" ref_id="birnlex_2426">
+  <variant base="Differential scanning calorimeter" />
+  <variant base="Differential scanning calorimetry instrument" />
+</token>
+<token canonical="Cognitive assessment" ref_id="birnlex_2021">
+  <variant base="Cognitive assessment" />
+</token>
+<token canonical="Constant-volume calorimetry instrument" ref_id="birnlex_2425">
+  <variant base="Constant-volume calorimeter" />
+  <variant base="Constant-volume calorimetry instrument" />
+</token>
+<token canonical="Talairach-Tournoux Atlas" ref_id="birnlex_2022">
+  <variant base="Talairach-Tournoux Atlas" />
+</token>
+<token canonical="Respirometry instrument" ref_id="birnlex_2428">
+  <variant base="Metabolic rate meter" />
+  <variant base="Respirometer" />
+  <variant base="Respiratory rate meter" />
+  <variant base="Respirometry instrument" />
+</token>
+<token canonical="Genotype" ref_id="birnlex_2023">
+  <variant base="Genotype" />
+</token>
+<token canonical="Isothermal titration calorimetry instrument" ref_id="birnlex_2427">
+  <variant base="Isothermal titration calorimeter" />
+  <variant base="Isothermal titration calorimetry instrument" />
+</token>
+<token canonical="Serial item recognition paradigm" ref_id="birnlex_2024">
+  <variant base="Serial item recognition paradigm" />
+</token>
+<token canonical="Behavioral assessment" ref_id="birnlex_2025">
+  <variant base="Behavioral assessment" />
+</token>
+<token canonical="Ingestion" ref_id="birnlex_2128">
+  <variant base="Ingestion" />
+</token>
+<token canonical="Chemical structural analysis instrument" ref_id="birnlex_2429">
+  <variant base="Chemical structural analysis instrument" />
+</token>
+<token canonical="Verbal fluency assessment" ref_id="birnlex_2026">
+  <variant base="Verbal fluency assessment" />
+</token>
+<token canonical="Convolution" ref_id="birnlex_2129">
+  <variant base="Convolution" />
+</token>
+<token canonical="Monoclonal antibody" ref_id="birnlex_2027">
+  <variant base="Monoclonal antibodies" />
+  <variant base="Monoclonal antibody" />
+  <variant base="Monoclonal" />
+</token>
+<token canonical="2D spatial image" ref_id="birnlex_2028">
+  <variant base="2D spatial image" />
+</token>
+<token canonical="Confocal microscope" ref_id="birnlex_2029">
+  <variant base="Confocal microscope" />
+</token>
+<token canonical="Agent delivery process" ref_id="birnlex_2124">
+  <variant base="Agent delivery process" />
+</token>
+<token canonical="MNI Atlas" ref_id="birnlex_2125">
+  <variant base="MNI Atlas" />
+</token>
+<token canonical="Fraction collection instrument" ref_id="birnlex_2420">
+  <variant base="Fraction collection instrument" />
+</token>
+<token canonical="Imaging protocol" ref_id="birnlex_2126">
+  <variant base="Imaging protocol" />
+</token>
+<token canonical="fMRI beta" ref_id="birnlex_2127">
+  <variant base="fMRI beta" />
+  <variant base="BETA" />
+</token>
+<token canonical="Electrophoresis instrument" ref_id="birnlex_2422">
+  <variant base="Electrophoresis instrument" />
+</token>
+<token canonical="Non smoking" ref_id="birnlex_2120">
+  <variant base="Non smoking" />
+</token>
+<token canonical="Calorimetry instrument" ref_id="birnlex_2421">
+  <variant base="Calorimetry instrument" />
+  <variant base="Calorimeter" />
+</token>
+<token canonical="Digital aggregate entity" ref_id="birnlex_2121">
+  <variant base="Digital aggregate entity" />
+</token>
+<token canonical="Constant-pressure calorimetry instrument" ref_id="birnlex_2424">
+  <variant base="Constant-pressure calorimetry instrument" />
+  <variant base="Constant-pressure calorimeter" />
+</token>
+<token canonical="Block design" ref_id="birnlex_2122">
+  <variant base="Block design" />
+  <variant base="Box_car_design" />
+</token>
+<token canonical="Microcalorimetry instrument" ref_id="birnlex_2423">
+  <variant base="Microcalorimeter" />
+  <variant base="Microcalorimetry instrument" />
+</token>
+<token canonical="Specimen preparation protocol" ref_id="birnlex_2123">
+  <variant base="Specimen preparation protocol" />
+</token>
+<token canonical="Vascular perfusion" ref_id="birnlex_2130">
+  <variant base="Vascular perfusion" />
+</token>
+<token canonical="Sternberg paradigm" ref_id="birnlex_2031">
+  <variant base="Sternberg paradigm" />
+  <variant base="delayed match-to-sample paradigm" />
+</token>
+<token canonical="Neuropsychological assessment" ref_id="birnlex_2030">
+  <variant base="Neuropsychological assessment" />
+</token>
+<token canonical="Mass spectrometry instrument" ref_id="birnlex_2417">
+  <variant base="Mass spectrometry instrument" />
+</token>
+<token canonical="Sample dissection" ref_id="birnlex_2012">
+  <variant base="Sample dissection" />
+</token>
+<token canonical="Thin-layer chromotography instrument" ref_id="birnlex_2416">
+  <variant base="Thin-layer chromotography instrument" />
+</token>
+<token canonical="Divided auditory attention paradigm" ref_id="birnlex_2013">
+  <variant base="Divided auditory attention paradigm" />
+</token>
+<token canonical="Reverse-phase high-pressure liquid chromotography instrument" ref_id="birnlex_2415">
+  <variant base="Reverse-phase high-pressure liquid chromotography instrument" />
+</token>
+<token canonical="Functional MRI platform" ref_id="birnlex_2010">
+  <variant base="Functional MRI platform" />
+  <variant base="fMRI platform" />
+</token>
+<token canonical="Paper chromotography instrument" ref_id="birnlex_2414">
+  <variant base="Paper chromotography instrument" />
+</token>
+<token canonical="Acupuncture paradigm" ref_id="birnlex_2011">
+  <variant base="Acupuncture paradigm" />
+</token>
+<token canonical="Investigator role" ref_id="birnlex_2016">
+  <variant base="Investigator role" />
+</token>
+<token canonical="Anatomical data set" ref_id="birnlex_2119">
+  <variant base="Anatomical data set" />
+</token>
+<token canonical="Classical conditioning paradigm" ref_id="birnlex_2017">
+  <variant base="Classical conditioning paradigm" />
+</token>
+<token canonical="Nuclear magnetic resonance instrument" ref_id="birnlex_2419">
+  <variant base="NMR instrument" />
+  <variant base="Nuclear magnetic resonance instrument" />
+</token>
+<token canonical="Encoding paradigm" ref_id="birnlex_2014">
+  <variant base="Encoding paradigm" />
+</token>
+<token canonical="Experiment" ref_id="birnlex_2117">
+  <variant base="Experiment" />
+</token>
+<token canonical="Microdialysis tubing" ref_id="birnlex_2418">
+  <variant base="Microdialysis tubing" />
+</token>
+<token canonical="Unit" ref_id="birnlex_2015">
+  <variant base="Unit" />
+</token>
+<token canonical="T2 weighted 2D image" ref_id="birnlex_2118">
+  <variant base="T2 weighted 2D image" />
+</token>
+<token canonical="Phalloidin" ref_id="birnlex_2115">
+  <variant base="Phalloidin" />
+</token>
+<token canonical="Multiphoton microscope" ref_id="birnlex_2116">
+  <variant base="Multiphoton microscope" />
+  <variant base="Multi-photon microscope" />
+</token>
+<token canonical="Assessment" ref_id="birnlex_2018">
+  <variant base="Assessment" />
+  <variant base="test" />
+</token>
+<token canonical="Past smoking behavior" ref_id="birnlex_2113">
+  <variant base="ex smoking behavior" />
+  <variant base="former smoking behavior" />
+  <variant base="Past smoking behavior" />
+</token>
+<token canonical="Tesla" ref_id="birnlex_2019">
+  <variant base="Tesla" />
+</token>
+<token canonical="Anatomical atlas data set" ref_id="birnlex_2114">
+  <variant base="Anatomical atlas data set" />
+  <variant base="Atlas" />
+</token>
+<token canonical="Planar liquid chromotography instrument" ref_id="birnlex_2413">
+  <variant base="Planar liquid chromotography instrument" />
+</token>
+<token canonical="Mini mental state examination" ref_id="birnlex_2111">
+  <variant base="Mini mental state examination" />
+</token>
+<token canonical="2D polyacrylamide gel electrophoresis instrument" ref_id="birnlex_2412">
+  <variant base="2D polyacrylamide gel electrophoresis instrument" />
+</token>
+<token canonical="Optical microscope" ref_id="birnlex_2112">
+  <variant base="Optical microscope" />
+</token>
+<token canonical="1D polyacrylamide gel electrophoresis instrument" ref_id="birnlex_2411">
+  <variant base="1D polyacrylamide gel electrophoresis instrument" />
+</token>
+<token canonical="Gas chromotography instrument" ref_id="birnlex_2410">
+  <variant base="Gas chromotography instrument" />
+</token>
+<token canonical="Antibody" ref_id="birnlex_2110">
+  <variant base="Antibody" />
+  <variant base="antibodies" />
+</token>
+<token canonical="Client program" ref_id="birnlex_2825">
+  <variant base="Client program" />
+  <variant base="software client" />
+</token>
+<token canonical="Sham operated control group" ref_id="birnlex_2020">
+  <variant base="Sham operated control group" />
+</token>
+<token canonical="Relaxation time" ref_id="birnlex_2101">
+  <variant base="Relaxation time" />
+</token>
+<token canonical="Magnetic resonance imaging scanner" ref_id="birnlex_2100">
+  <variant base="MRI scanner" />
+  <variant base="Magnetic resonance imaging scanner" />
+</token>
+<token canonical="Toxin" ref_id="birnlex_2103">
+  <variant base="Toxin" />
+</token>
+<token canonical="Smoking behavior" ref_id="birnlex_2102">
+  <variant base="Smoking behavior" />
+</token>
+<token canonical="Trail making test" ref_id="birnlex_2105">
+  <variant base="Trail making test" />
+</token>
+<token canonical="Electromyography surface recording protocol" ref_id="nlx_inv_20090501">
+  <variant base="Electromyography surface recording protocol" />
+  <variant base="Electromyography" />
+</token>
+<token canonical="Staining" ref_id="birnlex_2107">
+  <variant base="Staining" />
+</token>
+<token canonical="Fear conditioning paradigm" ref_id="nlx_inv_20090502">
+  <variant base="Fear conditioning paradigm" />
+</token>
+<token canonical="Microscope" ref_id="birnlex_2106">
+  <variant base="Microscope" />
+</token>
+<token canonical="Smoking" ref_id="birnlex_2109">
+  <variant base="Smoking" />
+</token>
+<token canonical="T1 relaxation time" ref_id="birnlex_2108">
+  <variant base="Spin-lattice relaxation time" />
+  <variant base="T1 relaxation time" />
+</token>
+<token canonical="Long term potentiation" ref_id="nlx_inv_20081204">
+  <variant base="Long term facilitation" />
+  <variant base="Long-term potentiation" />
+  <variant base="Long lasting potentiation" />
+  <variant base="Long term potentiation" />
+</token>
+<token canonical="Long term depression" ref_id="nlx_inv_20081205">
+  <variant base="Long term depression" />
+</token>
+<token canonical="Longitudinal study design" ref_id="nlx_inv_20081203">
+  <variant base="Longitudinal study design" />
+</token>
+<token canonical="Unfiltered R-weighted back projection" ref_id="nlx_inv_20081207">
+  <variant base="Unfiltered R-weighted back projection" />
+</token>
+<token canonical="Filtered R-weighted back projection" ref_id="nlx_inv_20081206">
+  <variant base="Filtered R-weighted back projection" />
+</token>
+<token canonical="Immunoprecipitation assay" ref_id="OBI_0000690">
+  <variant base="Immunoprecipitation" />
+  <variant base="Immunoprecipitation assay" />
+</token>
+<token canonical="Journal" ref_id="nlx_inv_20090401">
+  <variant base="Journal" />
+</token>
+<token canonical="RNA specific probe" ref_id="birnlex_2097">
+  <variant base="RNA specific probe" />
+</token>
+<token canonical="Collaborating institution" ref_id="birnlex_2096">
+  <variant base="Collaborating institution" />
+</token>
+<token canonical="Behavioral phenotype" ref_id="birnlex_2095">
+  <variant base="Behavioral phenotype" />
+</token>
+<token canonical="Imaging instrument" ref_id="birnlex_2094">
+  <variant base="Imaging instrument" />
+</token>
+<token canonical="Cardinal part of imaging instrument" ref_id="birnlex_2093">
+  <variant base="Cardinal part of imaging instrument" />
+</token>
+<token canonical="Transmission electron microscopic imaging assay" ref_id="birnlex_2091">
+  <variant base="Transmission electron microscopic imaging assay" />
+</token>
+<token canonical="Lead institution" ref_id="birnlex_2090">
+  <variant base="Lead institution" />
+</token>
+<token canonical="DNA specific probe" ref_id="birnlex_2089">
+  <variant base="DNA specific probe" />
+</token>
+<token canonical="Phenotype" ref_id="birnlex_2087">
+  <variant base="Phenotype" />
+</token>
+<token canonical="Delayed matching to sample paradigm" ref_id="birnlex_2088">
+  <variant base="Delayed matching to sample paradigm" />
+</token>
+<token canonical="Algorithm" ref_id="birnlex_2084">
+  <variant base="Algorithm" />
+</token>
+<token canonical="Item recognition paradigm" ref_id="birnlex_2083">
+  <variant base="Item recognition paradigm" />
+</token>
+<token canonical="Institution" ref_id="birnlex_2085">
+  <variant base="Institution" />
+</token>
+<token canonical="Vector" ref_id="birnlex_2080">
+  <variant base="Vector" />
+</token>
+<token canonical="Protein specific probe" ref_id="birnlex_2082">
+  <variant base="Protein specific probe" />
+</token>
+<token canonical="Molecular phenotype" ref_id="birnlex_2081">
+  <variant base="Molecular phenotype" />
+</token>
+<token canonical="Gene specific probe" ref_id="birnlex_2076">
+  <variant base="Gene specific probe" />
+</token>
+<token canonical="Reagent" ref_id="birnlex_2077">
+  <variant base="Reagent" />
+</token>
+<token canonical="Polynomial coefficient" ref_id="birnlex_2078">
+  <variant base="Polynomial coefficient" />
+  <variant base="proportionality coefficient" />
+  <variant base="scaling coefficient" />
+</token>
+<token canonical="AFNI" ref_id="birnlex_2079">
+  <variant base="AFNI" />
+</token>
+<token canonical="Chromatin immunoprecipitation assay" ref_id="OBI_0000716">
+  <variant base="Chromatin immunoprecipitation assay" />
+  <variant base="Chromatin immunoprecipitation" />
+</token>
+<token canonical="Scanning electron microscopic imaging assay" ref_id="nlx_82779">
+  <variant base="Scanning electron microscopy" />
+  <variant base="Scanning electron microscopic imaging assay" />
+</token>
+<token canonical="Cardinal part of microscope" ref_id="birnlex_2099">
+  <variant base="Cardinal part of microscope" />
+</token>
+<token canonical="Diffusion tensor imaging protocol" ref_id="birnlex_2197">
+  <variant base="DTI" />
+  <variant base="Diffusion tensor imaging protocol" />
+</token>
+<token canonical="Reading paradigm" ref_id="birnlex_2198">
+  <variant base="Reading paradigm" />
+</token>
+<token canonical="Co-investigator" ref_id="birnlex_2199">
+  <variant base="Co-investigator" />
+</token>
+<token canonical="Duration" ref_id="birnlex_2052">
+  <variant base="Duration" />
+</token>
+<token canonical="Free recall ability" ref_id="birnlex_2053">
+  <variant base="Free recall ability" />
+</token>
+<token canonical="Verbal fluency" ref_id="birnlex_2050">
+  <variant base="Verbal fluency" />
+</token>
+<token canonical="Intracellular injection protocol" ref_id="birnlex_2051">
+  <variant base="Intracellular injection protocol" />
+</token>
+<token canonical="Image processing software" ref_id="birnlex_2191">
+  <variant base="Image processing software" />
+</token>
+<token canonical="Ultrahigh voltage electron microscope" ref_id="birnlex_2192">
+  <variant base="Ultrahigh voltage electron microscope" />
+</token>
+<token canonical="Software toolkit" ref_id="birnlex_2190">
+  <variant base="Software toolkit" />
+</token>
+<token canonical="Image analysis software" ref_id="birnlex_2195">
+  <variant base="Image analysis software" />
+</token>
+<token canonical="Electron tomography software" ref_id="birnlex_2196">
+  <variant base="Electron tomography software" />
+</token>
+<token canonical="T2 weighted protocol" ref_id="birnlex_2193">
+  <variant base="T2 weighted protocol" />
+  <variant base="T2 weighted scan" />
+</token>
+<token canonical="Eye Saccade paradigm" ref_id="birnlex_2194">
+  <variant base="Eye Saccade paradigm" />
+</token>
+<token canonical="Longitudinal relaxation time" ref_id="birnlex_2189">
+  <variant base="Longitudinal relaxation time" />
+</token>
+<token canonical="Deductive reasoning paradigm" ref_id="birnlex_2188">
+  <variant base="Deductive reasoning paradigm" />
+</token>
+<token canonical="High voltage electron microscope" ref_id="birnlex_2187">
+  <variant base="High voltage electron microscope" />
+</token>
+<token canonical="Image reconstruction software" ref_id="birnlex_2186">
+  <variant base="Image reconstruction software" />
+</token>
+<token canonical="Intramuscular injection" ref_id="birnlex_2049">
+  <variant base="Intramuscular injection" />
+</token>
+<token canonical="Transmission electron microscope" ref_id="birnlex_2048">
+  <variant base="Transmission electron microscope" />
+</token>
+<token canonical="Sensorimotor paradigm" ref_id="birnlex_2047">
+  <variant base="Sensorimotor paradigm" />
+</token>
+<token canonical="Immunolabeling protocol" ref_id="birnlex_2046">
+  <variant base="Immunolabeling protocol" />
+</token>
+<token canonical="Cognitive phenotype" ref_id="birnlex_2045">
+  <variant base="Cognitive phenotype" />
+</token>
+<token canonical="Scanning electron microscope" ref_id="birnlex_2044">
+  <variant base="Scanning electron microscope" />
+</token>
+<token canonical="Fixation protocol" ref_id="birnlex_2043">
+  <variant base="Fixation protocol" />
+</token>
+<token canonical="MRI 2D image" ref_id="birnlex_2040">
+  <variant base="MRI 2D image" />
+</token>
+<token canonical="Electron microscope" ref_id="birnlex_2041">
+  <variant base="Electron microscope" />
+</token>
+<token canonical="Ambidextrous" ref_id="birnlex_2042">
+  <variant base="Ambidextrous" />
+</token>
+<token canonical="Specimen preparation" ref_id="birnlex_2180">
+  <variant base="Specimen preparation" />
+</token>
+<token canonical="Mismatch negativity paradigm" ref_id="birnlex_2181">
+  <variant base="Mismatch negativity paradigm" />
+</token>
+<token canonical="Intermediate voltage electron microscope" ref_id="birnlex_2182">
+  <variant base="Intermediate voltage electron microscope" />
+</token>
+<token canonical="Longitudinal magnetization" ref_id="birnlex_2183">
+  <variant base="Longitudinal magnetization" />
+</token>
+<token canonical="Right handedness" ref_id="birnlex_2184">
+  <variant base="Right handedness" />
+</token>
+<token canonical="Covert braille reading paradigm" ref_id="birnlex_2185">
+  <variant base="Covert braille reading paradigm" />
+</token>
+<token canonical="Oddball discrimination paradigm" ref_id="birnlex_2176">
+  <variant base="Oddball discrimination paradigm" />
+</token>
+<token canonical="Temporal characteristic value" ref_id="birnlex_2175">
+  <variant base="Temporal characteristic value" />
+</token>
+<token canonical="Handedness" ref_id="birnlex_2178">
+  <variant base="Handedness" />
+</token>
+<token canonical="MRI protocol" ref_id="birnlex_2177">
+  <variant base="MRI protocol" />
+  <variant base="MRI" />
+</token>
+<token canonical="Covert visual reading paradigm" ref_id="birnlex_2179">
+  <variant base="Covert visual reading paradigm" />
+</token>
+<token canonical="Contrast agent" ref_id="birnlex_2037">
+  <variant base="Contrast agent" />
+</token>
+<token canonical="Serial block face scanning electron microscopic imaging assay" ref_id="nlx_69410">
+  <variant base="Serial block face scanning electron microscopic imaging assay" />
+  <variant base="serial block face scanning electron microscopy" />
+  <variant base="serial block face imaging" />
+  <variant base="serial block face SEM" />
+</token>
+<token canonical="Visual oddball paradigm" ref_id="birnlex_2036">
+  <variant base="Visual oddball paradigm" />
+</token>
+<token canonical="Microscopy contrast enhancement protocol" ref_id="birnlex_2039">
+  <variant base="Microscopy contrast enhancement protocol" />
+</token>
+<token canonical="Left handedness" ref_id="birnlex_2038">
+  <variant base="Left handedness" />
+</token>
+<token canonical="MRI 3D image" ref_id="birnlex_2033">
+  <variant base="MRI 3D image" />
+</token>
+<token canonical="Polyclonal antibody" ref_id="birnlex_2032">
+  <variant base="Polyclonal" />
+  <variant base="Polyclonal antibodies" />
+  <variant base="Polyclonal antibody" />
+</token>
+<token canonical="Laser scanning confocal microscope" ref_id="birnlex_2035">
+  <variant base="Laser scanning confocal microscope" />
+</token>
+<token canonical="Biochemical specimen preparation protocol" ref_id="birnlex_2034">
+  <variant base="Biochemical specimen preparation protocol" />
+</token>
+<token canonical="TE" ref_id="birnlex_2070">
+  <variant base="Echo time" />
+  <variant base="MRI echo time" />
+</token>
+<token canonical="Working memory phenotype" ref_id="birnlex_2071">
+  <variant base="Working memory phenotype" />
+</token>
+<token canonical="Vendor" ref_id="birnlex_12832">
+  <variant base="Vendor" />
+</token>
+<token canonical="Experimenter" ref_id="birnlex_2074">
+  <variant base="Experimenter" />
+</token>
+<token canonical="Behavioral paradigm" ref_id="birnlex_2075">
+  <variant base="Behavioral paradigm" />
+</token>
+<token canonical="Gender phenotype" ref_id="birnlex_2072">
+  <variant base="Gender phenotype" />
+</token>
+<token canonical="Organism characteristic" ref_id="birnlex_2073">
+  <variant base="Organism characteristic" />
+</token>
+<token canonical="Anti saccade paradigm" ref_id="birnlex_2173">
+  <variant base="Anti saccade paradigm" />
+  <variant base="Anti-saccades paradigm" />
+</token>
+<token canonical="Algorithm execution" ref_id="birnlex_2174">
+  <variant base="Algorithm execution" />
+</token>
+<token canonical="PET imaging protocol" ref_id="birnlex_2171">
+  <variant base="Positron Emission Tomography imaging protocol" />
+  <variant base="PET imaging protocol" />
+</token>
+<token canonical="Behavioral laterality" ref_id="birnlex_2172">
+  <variant base="Behavioral laterality" />
+</token>
+<token canonical="T1 weighted 2D image" ref_id="birnlex_2170">
+  <variant base="T1 weighted 2D image" />
+</token>
+<token canonical="Tissue section" ref_id="birnlex_2169">
+  <variant base="Tissue section" />
+</token>
+<token canonical="Laser capture" ref_id="birnlex_2168">
+  <variant base="Laser capture" />
+</token>
+<token canonical="Never has smoked" ref_id="birnlex_2167">
+  <variant base="Never has smoked" />
+</token>
+<token canonical="Simple saccade paradigm" ref_id="birnlex_2166">
+  <variant base="Simple saccade paradigm" />
+</token>
+<token canonical="3D spatial image" ref_id="birnlex_2165">
+  <variant base="3D spatial image" />
+</token>
+<token canonical="In column energy filter" ref_id="birnlex_2164">
+  <variant base="In column energy filter" />
+</token>
+<token canonical="Project leader" ref_id="birnlex_2068">
+  <variant base="Project leader" />
+</token>
+<token canonical="FMRIB Software Library" ref_id="birnlex_2067">
+  <variant base="FMRIB Software Library" />
+  <variant base="FSL" />
+</token>
+<token canonical="Experimental paradigm" ref_id="birnlex_2066">
+  <variant base="Experimental paradigm" />
+</token>
+<token canonical="Protein expression phenotype" ref_id="birnlex_2065">
+  <variant base="Protein expression phenotype" />
+</token>
+<token canonical="Dynamic causal modeling" ref_id="birnlex_2069">
+  <variant base="Dynamic causal modeling" />
+</token>
+<token canonical="Organism attribute" ref_id="birnlex_2060">
+  <variant base="Organism attribute" />
+</token>
+<token canonical="Mild cognitive impairment" ref_id="birnlex_2061">
+  <variant base="Mild cognitive impairment" />
+</token>
+<token canonical="TA" ref_id="birnlex_2062">
+  <variant base="MRI acquitision time" />
+</token>
+<token canonical="Sham operated role" ref_id="birnlex_2063">
+  <variant base="Sham operated role" />
+</token>
+<token canonical="Physical phenotype" ref_id="birnlex_2064">
+  <variant base="Physical phenotype" />
+</token>
+<token canonical="Gross dissection" ref_id="birnlex_2160">
+  <variant base="Gross dissection" />
+</token>
+<token canonical="Multiple electrode extracellular recording protocol" ref_id="birnlex_2865">
+  <variant base="Multiple electrode extracellular recording protocol" />
+</token>
+<token canonical="Auditory oddball paradigm" ref_id="birnlex_2161">
+  <variant base="Auditory oddball paradigm" />
+</token>
+<token canonical="California Verbal Learning Test" ref_id="birnlex_2162">
+  <variant base="California Verbal Learning Test" />
+</token>
+<token canonical="Microdissection" ref_id="birnlex_2163">
+  <variant base="Microdissection" />
+</token>
+<token canonical="Energy filter" ref_id="birnlex_2158">
+  <variant base="Energy filter" />
+</token>
+<token canonical="Nicotine use assessment" ref_id="birnlex_2157">
+  <variant base="Nicotine use assessment" />
+</token>
+<token canonical="Fagerstrom test for nicotine dependence" ref_id="birnlex_2159">
+  <variant base="Fagerstrom test for nicotine dependence" />
+</token>
+<token canonical="Tissue dissection" ref_id="birnlex_2154">
+  <variant base="Tissue dissection" />
+</token>
+<token canonical="Electron microscopic imaging assay" ref_id="birnlex_2153">
+  <variant base="Electron microscopic imaging assay" />
+</token>
+<token canonical="Tissue sectioning" ref_id="birnlex_2156">
+  <variant base="Tissue sectioning" />
+</token>
+<token canonical="Paraformaldehyde fixative" ref_id="birnlex_2155">
+  <variant base="Paraformaldehyde fixative" />
+</token>
+<token canonical="Staining protocol" ref_id="birnlex_2055">
+  <variant base="Staining protocol" />
+</token>
+<token canonical="Memory phenotype" ref_id="birnlex_2054">
+  <variant base="Memory phenotype" />
+</token>
+<token canonical="Subthelial injection" ref_id="birnlex_2057">
+  <variant base="Subthelial injection" />
+</token>
+<token canonical="Body weight" ref_id="birnlex_2056">
+  <variant base="Body weight" />
+</token>
+<token canonical="Collaborator" ref_id="birnlex_2059">
+  <variant base="Collaborator" />
+</token>
+<token canonical="Blood Oxygenation Level Dependent signal" ref_id="birnlex_2058">
+  <variant base="BOLD" />
+  <variant base="Blood Oxygenation Level Dependent signal" />
+</token>
+</synonym>

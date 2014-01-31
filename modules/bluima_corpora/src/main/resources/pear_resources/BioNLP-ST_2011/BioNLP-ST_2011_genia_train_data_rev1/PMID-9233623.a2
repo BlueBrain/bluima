@@ -1,0 +1,14 @@
+T13	Gene_expression 100 109	expressed
+T14	Binding 133 146	Cross-linking
+T15	Gene_expression 1055 1064	expressed
+T16	Binding 1095 1102	binding
+T17	Positive_regulation 1158 1171	up-regulation
+T18	Gene_expression 1364 1374	expression
+E1	Gene_expression:T13 Theme:T1
+E2	Binding:T14 Theme:T2
+E3	Gene_expression:T15 Theme:T9
+E4	Binding:T16 Theme:T9
+E5	Binding:T16 Theme:T9 Theme2:T10
+E6	Positive_regulation:T17 Theme:T11
+E7	Gene_expression:T18 Theme:T12
+M1	Negation E4

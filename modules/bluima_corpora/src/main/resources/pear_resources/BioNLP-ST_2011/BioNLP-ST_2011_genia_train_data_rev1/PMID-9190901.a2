@@ -1,0 +1,25 @@
+*	Equiv T4 T3
+T14	Positive_regulation 23 52	synergistically transactivate
+T15	Entity 70 78	promoter
+T16	Positive_regulation 342 351	increased
+T17	Gene_expression 352 362	expression
+T18	Positive_regulation 383 392	increases
+T19	Transcription 396 409	transcription
+T20	Entity 411 430	Cis-acting elements
+T21	Positive_regulation 550 572	important or essential
+T22	Transcription 577 601	transcriptional activity
+T23	Positive_regulation 602 611	following
+T24	Gene_expression 688 697	expressed
+T25	Positive_regulation 749 762	transactivate
+T26	Gene_expression 946 955	expressed
+E1	Positive_regulation:T14 Theme:T2 Cause:T1 Site:T15
+E2	Positive_regulation:T16 Theme:E3 Cause:E4
+E3	Gene_expression:T17 Theme:T4
+E4	Positive_regulation:T18 Theme:E5
+E5	Transcription:T19 Theme:T4
+E6	Positive_regulation:T21 Theme:E8 Cause:T5 CSite:T20
+E7	Transcription:T22 Theme:T5
+E8	Positive_regulation:T23 Theme:E7
+E9	Gene_expression:T24 Theme:T6
+E10	Positive_regulation:T25 Theme:T8 Cause:T7
+E11	Gene_expression:T26 Theme:T9

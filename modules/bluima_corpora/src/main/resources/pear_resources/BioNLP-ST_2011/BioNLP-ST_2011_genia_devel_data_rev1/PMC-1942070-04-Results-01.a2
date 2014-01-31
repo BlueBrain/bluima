@@ -1,0 +1,83 @@
+T37	Negative_regulation 0 4	Loss
+T38	Phosphorylation 14 29	phosphorylation
+T39	Gene_expression 100 107	express
+T40	Negative_regulation 219 223	lack
+T41	Gene_expression 224 234	expression
+T42	Gene_expression 378 387	expressed
+T43	Gene_expression 514 524	expression
+T44	Negative_regulation 535 550	double knockout
+T45	Negative_regulation 1124 1133	defective
+T46	Phosphorylation 1134 1149	phosphorylation
+T47	Entity 1162 1171	serine 82
+T48	Regulation 1241 1251	regulation
+T49	Phosphorylation 1261 1276	phosphorylation
+T50	Negative_regulation 1309 1316	lacking
+T51	Positive_regulation 1420 1429	increased
+T52	Phosphorylation 1450 1465	phosphorylation
+T53	Entity 1469 1472	S82
+T54	Positive_regulation 1548 1556	increase
+T55	Phosphorylation 1563 1578	phosphorylation
+T56	Negative_regulation 1602 1610	knockout
+T57	Positive_regulation 1667 1674	induced
+T58	Phosphorylation 1675 1690	phosphorylation
+T59	Entity 1703 1706	S82
+T60	Negative_regulation 1711 1720	abolished
+T61	Negative_regulation 1737 1743	lacked
+T62	Positive_regulation 1801 1808	induced
+T63	Gene_expression 1809 1819	expression
+T64	Positive_regulation 1880 1901	sufficient to restore
+T65	Regulation 1909 1919	regulation
+T66	Phosphorylation 1929 1944	phosphorylation
+T67	Gene_expression 1969 1979	expression
+T68	Negative_regulation 1992 2001	deficient
+T69	Positive_regulation 2067 2074	restore
+T70	Positive_regulation 2097 2104	induced
+T71	Phosphorylation 2111 2126	phosphorylation
+T72	Regulation 2170 2178	regulate
+T73	Phosphorylation 2185 2200	phosphorylation
+E1	Negative_regulation:T37 Theme:E2
+E2	Phosphorylation:T38 Theme:T1
+E3	Gene_expression:T39 Theme:T2
+E4	Gene_expression:T39 Theme:T3
+E5	Negative_regulation:T40 Theme:E6
+E7	Negative_regulation:T40 Theme:E8
+E6	Gene_expression:T41 Theme:T4
+E8	Gene_expression:T41 Theme:T5
+E9	Gene_expression:T42 Theme:T8
+E10	Gene_expression:T43 Theme:T9
+E11	Negative_regulation:T44 Theme:T10
+E12	Negative_regulation:T44 Theme:T11
+E13	Negative_regulation:T45 Theme:E14
+E14	Phosphorylation:T46 Theme:T17 Site:T47
+E15	Regulation:T48 Theme:E16
+E16	Phosphorylation:T49 Theme:T19
+E17	Negative_regulation:T50 Theme:T20
+E18	Negative_regulation:T50 Theme:T21
+E19	Positive_regulation:T51 Theme:E20
+E20	Phosphorylation:T52 Theme:T22 Site:T53
+E21	Positive_regulation:T54 Theme:E22
+E22	Phosphorylation:T55 Theme:T23
+E23	Negative_regulation:T56 Theme:T24
+E24	Negative_regulation:T56 Theme:T25
+E25	Positive_regulation:T57 Theme:E26
+E26	Phosphorylation:T58 Theme:T26 Site:T59
+E27	Negative_regulation:T60 Theme:E25 Cause:E28
+E29	Negative_regulation:T60 Theme:E25 Cause:E30
+E28	Negative_regulation:T61 Theme:T27
+E30	Negative_regulation:T61 Theme:T28
+E31	Positive_regulation:T62 Theme:E32
+E32	Gene_expression:T63 Theme:T29
+E33	Positive_regulation:T64 Theme:E34 Cause:E31
+E34	Regulation:T65 Theme:E35
+E35	Phosphorylation:T66 Theme:T30
+E36	Gene_expression:T67 Theme:T31
+E37	Negative_regulation:T68 Theme:T31
+E38	Positive_regulation:T69 Theme:E39 Cause:E36
+E39	Positive_regulation:T70 Theme:E40
+E40	Phosphorylation:T71 Theme:T32
+E41	Regulation:T72 Theme:E42 Cause:T33
+E43	Regulation:T72 Theme:E42 Cause:T34
+E42	Phosphorylation:T73 Theme:T35
+M1	Speculation E1
+M2	Speculation E15
+M3	Negation E38

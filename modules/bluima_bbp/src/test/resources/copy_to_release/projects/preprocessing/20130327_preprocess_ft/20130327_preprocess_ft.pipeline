@@ -1,0 +1,20 @@
+# $1 from
+# $2 to
+
+cr: ch.epfl.bbp.uima.mongo.MongoCollectionReader
+ db_connection__java: new String[]{  "128.178.187.248", "pubmed_uima", "pm_ft", "", ""} 
+ query: {ftr.ns:1, pmid: { $gt: $1, $lt: $2 }}
+
+
+include: 20130327_preprocess_ft.include
+
+
+ae: ch.epfl.bbp.uima.mongo.MongoWriter
+ db_connection__java: new String[]{  "128.178.187.248", "preprocessed_2", "20130327_preprocess_ft", "", ""} 
+
+
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 10
+ 
+ae: StatsTextAnnotator 

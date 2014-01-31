@@ -1,0 +1,4 @@
+T2	Regulation 533 540	effects
+T3	Gene_expression 562 572	expression
+E1	Regulation:T2 Theme:E2
+E2	Gene_expression:T3 Theme:T1

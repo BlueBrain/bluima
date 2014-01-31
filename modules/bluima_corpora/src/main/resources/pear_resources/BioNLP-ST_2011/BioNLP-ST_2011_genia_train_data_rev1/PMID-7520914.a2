@@ -1,0 +1,8 @@
+T14	Regulation 459 467	receptor
+T15	Binding 595 602	binding
+T16	Gene_expression 911 923	transfection
+T17	Positive_regulation 911 923	transfection
+E1	Regulation:T14 Theme:T2
+E2	Binding:T15 Theme:T3
+E3	Gene_expression:T16 Theme:T5
+E4	Positive_regulation:T17 Theme:E3

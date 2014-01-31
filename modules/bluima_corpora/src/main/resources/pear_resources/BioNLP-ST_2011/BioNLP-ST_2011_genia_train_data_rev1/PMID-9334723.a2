@@ -1,0 +1,18 @@
+T16	Negative_regulation 821 831	suppresses
+T17	Gene_expression 832 842	expression
+T18	Regulation 914 923	dependent
+T19	Negative_regulation 953 961	reversed
+E1	Negative_regulation:T16 Theme:E5 Cause:T8
+E2	Negative_regulation:T16 Theme:E8 Cause:T8
+E3	Negative_regulation:T16 Theme:E6 Cause:T8
+E4	Negative_regulation:T16 Theme:E7 Cause:T8
+E5	Gene_expression:T17 Theme:T10
+E6	Gene_expression:T17 Theme:T11
+E7	Gene_expression:T17 Theme:T12
+E8	Gene_expression:T17 Theme:T9
+E9	Regulation:T18 Theme:E7
+E10	Regulation:T18 Theme:E6
+E11	Regulation:T18 Theme:E8
+E12	Regulation:T18 Theme:E5
+E13	Negative_regulation:T19 Theme:T13
+M1	Speculation E13

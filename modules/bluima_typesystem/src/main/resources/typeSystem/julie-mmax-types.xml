@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>julie-mmax-types</name>
+  <description>The type system contains types for the import of MMAX annotations.</description>
+  <version>1.1</version>
+  <vendor/>
+  <types>
+    <typeDescription>
+      <name>de.julielab.jules.types.mmax.MMAXAnnotation</name>
+      <description>Type to represent MMAX annotation.</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>annotationLevel</name>
+          <description>The MMAX annotation level.</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>isContinuous</name>
+          <description>Tells if the MMAX annotation is continuous (true) or discontinuous (false).
+Could be also detected by checking if segmentList has length = 1.</description>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>segmentList</name>
+          <description>List of MMAX annotation segements that make up the MMAX annotation.</description>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>de.julielab.jules.types.mmax.AnnotationSegment</elementType>
+          <multipleReferencesAllowed>false</multipleReferencesAllowed>
+        </featureDescription>
+        <featureDescription>
+          <name>attributeList</name>
+          <description>List of attributes of the MMAX annotation.</description>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>de.julielab.jules.types.mmax.MMAXAttribute</elementType>
+          <multipleReferencesAllowed>false</multipleReferencesAllowed>
+        </featureDescription>
+        <featureDescription>
+          <name>pointerList</name>
+          <description>The list of MMAX pointers of the MMAX annotation.</description>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>de.julielab.jules.types.mmax.MMAXPointer</elementType>
+          <multipleReferencesAllowed>false</multipleReferencesAllowed>
+        </featureDescription>
+        <featureDescription>
+          <name>adaptedCoveredText</name>
+          <description>Text covered by the annotation. This feature is helpful if the annotations is discontinuous...</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>id</name>
+          <description>Original markable id from MMAX2 tool. Unique only on a given annotation level.</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.mmax.AnnotationSegment</name>
+      <description>Annotation segment of an MMAX annotation. Helps to represent discontinuous annotations.</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>id</name>
+          <description>Number of the segment. First segment has number 1.</description>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.mmax.MMAXAttribute</name>
+      <description>MMAX annotation attribute.</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>name</name>
+          <description>Name of the MMAX attribute.</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>value</name>
+          <description>Value of the MMAX attribute</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.mmax.MMAXPointer</name>
+      <description>MMAX pointers specify a relation between two MMAX annotations.</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>name</name>
+          <description>Name of the MMAX pointer.</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>targetList</name>
+          <description>The MMAX annotations the pointer points at.</description>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>de.julielab.jules.types.mmax.MMAXAnnotation</elementType>
+          <multipleReferencesAllowed>false</multipleReferencesAllowed>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

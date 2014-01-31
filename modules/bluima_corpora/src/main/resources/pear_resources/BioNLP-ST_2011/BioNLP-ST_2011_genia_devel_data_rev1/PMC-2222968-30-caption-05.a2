@@ -1,0 +1,14 @@
+T24	Regulation 0 6	Effect
+T25	Positive_regulation 24 33	Induction
+T26	Positive_regulation 486 496	increasing
+T27	Phosphorylation 796 810	phosphorylated
+T28	Gene_expression 913 921	staining
+E1	Regulation:T24 Theme:E2 Cause:T1
+E2	Positive_regulation:T25 Theme:T2
+E3	Positive_regulation:T26 Theme:T8
+E4	Phosphorylation:T27 Theme:T15
+E5	Phosphorylation:T27 Theme:T16
+E6	Gene_expression:T28 Theme:T19
+E7	Gene_expression:T28 Theme:T20
+M1	Speculation E4
+M2	Speculation E5

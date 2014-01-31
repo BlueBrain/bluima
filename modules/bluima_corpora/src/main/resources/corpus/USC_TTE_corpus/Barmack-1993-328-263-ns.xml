@@ -1,0 +1,1998 @@
+<?xml version='1.0'?>
+<!DOCTYPE File PUBLIC "NeuroScholar.DTD" "NeuroScholar.DTD">
+<File>
+
+  <Title>Cholinergic Projection to the Dorsal Cap of the Inferior Olive 
+  of the Rat, Rabbit, and Monkey</Title>
+
+  <Authors>N.H. BARMACK, M. FAGERSON, AND P. ERRICO</Authors>
+
+  <Abstract>
+
+    <S avgH="21" class="abstract.heading" format="TimesNewRomanPSMT"
+     id="s0">ABSTRACT</S>
+    <BR />
+
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s1">The inferior olive is divided into several subnuclei that 
+    receive specific sensory information.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s2">The caudal dorsal cap of the medial accessory subdivision 
+    of the inferior olive receives horizontal optokinetic information 
+    from the nucleus of the optic tract.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s3">The immediately subjacent p-nucleus receives vertical 
+    vestibular information mediated by a GABAergc pathway originating 
+    from the ipsilateral descending and medial vestibular nuclei.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s4">None of the transmitters to the dorsal cap have been 
+    identified.</S>
+    <BR />
+
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s5">Using choline acetyltransferase (CUT) 
+    immunohistochemistry, we have identified a cholinergic pathway that 
+    terminates exclusively in the dorsal cap of rats and monkeys.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s6">No other division of the inferior olive received a 
+    significant cholinergic innervation.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s7">In the rabbit, immunostaining for ChAT reveals a weaker 
+    and more diffuse cholinergic innervation of both the dorsal cap and 
+    the subjacent p-nucleus.</S>
+    <BR />
+
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s8">In rats and rabbits we injected iontophoretically the 
+    orthograde tracer Phaseolus vulgaris Ieucoagglutinin (PHA-L) into 
+    the medial and descending vestibular nuclei (MVN, DVN) as well as 
+    the nucleus prepositus hypoglossi (NPH) in order to trace the 
+    possible origin of the cholinergic projection.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s9">PHA-L injections into the NPH and medial aspect of the MVN 
+    labeled terminals within the contralateral dorsal cap.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s10">PHA-L injections in the central and lateral aspects of 
+    the MVN as well as the DVN labeled the ipsilateral p-nucleus.</S>
+    <BR />
+
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s11">Pressure injections of wheat germ agglutinin-horseradish 
+    peroxidase (WGA-HRP) in the caudal dorsal cap of the rabbit 
+    inferior olive demonstrated a predominantly contralateral 
+    projection to the dorsal cap from the lateral aspect of the NPH.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s12">However, pressure injections of HRP into the caudal 
+    dorsal cap combined with ChAT immunohistochemistry in the rabbit 
+    demonstrated that most of the neurons of the NPH that projected to 
+    the dorsal cap were not cholinergic, and that most of the 
+    CUT-positive neurons within the NPH occupied a more ventral 
+    location than the neurons within the NPH that were retrogradely 
+    labeled from the HRP injection into the contralateral dorsal 
+    cap.</S>
+    <BR />
+
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s13">In the rat, we made lesions in the MVN, DVN and NPH by 
+    injection of ibotenic acid (0.3-0.5 blj, in an attempt to deplete 
+    the dorsal cap of the inferior olive of its cholinergic input.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s14">Lesions confined to the NPH and medial aspect of the MVN 
+    of the rat caused a loss of ChAT staining in the contralateral 
+    dorsal cap.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s15">Lesions placed more laterally within the MVN or DVN 
+    failed to deplete ChAT-positive terminals in the contralateral or 
+    ipsilateral dorsal caps.</S>
+    <BR />
+
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s16">The dorsal cap of the rat and monkey receives a discrete 
+    cholinergic projection.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s17">In the rat, this projection originates from the 
+    contralateral NPH.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s18">In the rabbit, the caudal inferior olive receives a weak 
+    cholinergc projection.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s19">The dorsal cap receives a projection from the 
+    contralateral NPH.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s20">However, this projection is mediated by a non-cholinergic 
+    transmitter.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s21">a 19% fi&apos;iiileyLiss.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s22">Inc.</S>
+    <BR />
+
+  </Abstract>
+
+  <Introduction>
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s23">The inferior olivary complex, the exclusive source of 
+    climbing fibers to the cerebellum, is characterized by a 
+    topographic organization of sensory inputs from visual (Maekawa and 
+    Simpson, &apos;73; Alley et al., &apos;75; Frankfurter et al., 
+    &apos;76; Weber et al., &apos;78; Maekawa and Takeda, &apos;79; 
+    Takeda and Maekawa, &apos;80; Saint-Cyr and Courdle, &apos;82; 
+    Kawamura and Onodera, &apos;84; Leonard et al., &apos;88; Kyuhou 
+    and Matsuzaki, &apos;911, vestibular (Walberg, &apos;74; Saint-Cyr 
+    and Courville, &apos;791, and somatosensory (Martin et al., 
+    &apos;75; Berkley and Hand, &apos;78a,b; Gellman et al., &apos;83; 
+    Huerta et al., &apos;85; Molinari et al., &apos;91) systems.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s24">One class of visual input originates from the ipsilateral 
+    accessory optic system as well as the ipsilateral nucleus of the 
+    optic tract.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s25">It consists of physiologically characterized 
+    directionally-selective velocity-sensitive visual information and 
+    it terminates in the dorsal cap of Kooy and ventrolateral outgrowth 
+    of the inferior olive (Kooy, &apos;16; Maekawa and Simpson, 
+    &apos;73; Alley et al., &apos;75; Maekawa and Takeda, &apos;79; 
+    Takeda and Maekawa, &apos;80; Kawamura and Onodera, &apos;84; 
+    Leonard et al., &apos;88).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s26">This class of visual input appears to be organized about 
+    a visual coordinate system that is congruent with the axes of 
+    rotation of the semicircular canals.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s27">Each axis of rotation is represented in a different 
+    rostral-caudal region within the dorsal cap (Leonard et al., 
+    &apos;88).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s28">A second visually related input, less well characterized 
+    physiologically, originates from the contralateral superior 
+    colliculus and terminates within the caudal third of the medial 
+    accessory olive just ventral and lateral to the p-nucleus 
+    (Frankfurter et al., &apos;76; Weber et al., &apos;78; Saint-Cyr 
+    and Courville, &apos;82; Kyuhou and Matsuzaki, &apos;91).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s29">The vestibular input to the inferior olive appears to 
+    arise from the ipsilateral medial vestibular and descending 
+    vestibular nuclei (MVN, DVN).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s30">This vestibular input terminates in the ipsilateral 
+    p-nucleus (Walberg, &apos;74; Saint-Cyr and Courville, &apos;79) 
+    and bilaterally in the dorsal medial cell column (Saint-Cyr and 
+    Courville, &apos;79) Immunohistochemical investigations have 
+    demonstrated that the vestibular input to the p-nucleus is 
+    GABAergic (Nelson et al., &apos;86, &apos;89; Fredette and 
+    Mugnaini, &apos;91).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s31">The activity of neurons in the p-nucleus of the rabbit is 
+    modulated by vestibular stimulation that activates both the 
+    vertical semicircular canals and utricular otoliths (Barmack et 
+    al., &apos;89).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s32">The polarity of this vestibularly-modulated activity is 
+    consistent with the histochemically defined GABAergic 
+    vestibulo-olivary pathway.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s33">Activity is decreased during ipsilateral roll and 
+    increased during contralateral roll (Barmack et al., &apos;89).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s34">The inferior olive offers an attractive opportunity for 
+    studying the influence of specific neurotransmitters on the 
+    processing of sensory information by specific cerebellar pathways 
+    for three reasons: 1) The inferior olive is composed of 
+    functionally discrete groups of neurons located in physiologically 
+    accessible reeons within the inferior olive (Barmack and Hess.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s35">&apos;Sob; Leonard et al., &apos;88; Barmack et al., 
+    &apos;89). 2) It is possible to modulate systematically the 
+    discharge of these groups of neurons by parametrically varying the 
+    sensory stimuli (see above). 3) The groups of olivary neurons that 
+    receive either visual (Barmack and Hess, &apos;80b; Leonard et al., 
+    &apos;88) or vestibular (Barmack et al., &apos;89) information 
+    project to the cerebellar flocculus (Alley et al., &apos;75) and 
+    nodulus (Balaban and Henry, &apos;88; Takeda and Maekawa, 
+    &apos;89a).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s36">These cerebellar regions have obvious functional 
+    importance for both short-term and long-term control of reflexive 
+    movements (Fernandez and Fredrickson, &apos;64; Singleton, 
+    &apos;67; Barmack, &apos;79; Ito, &apos;84).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s37">Recently we have studied the distribution of a 
+    cholinergic mossy fiber pathway to the cerebellum of several 
+    mammals (Barmack et al., &apos;92b).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s38">We have shown that this cholinergic pathway arises 
+    predominantly from secondary vestibular neurons whose cell bodies 
+    are located bilaterally in the medial vestibular nucleus (MNV) and 
+    the descending vestibular nucleus (DVN), as well as the nucleus 
+    prepositus hypoglossi (NPH) (Barmack et al., &apos;92c).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s39">In the present experiment we have investigated the 
+    cholinergic innervation of the dorsal cap of rat, rabbit and 
+    monkey.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s40">In the rat we have traced the origin of this cholinergic 
+    projection to the contralateral nucleus prepositus hypoglossi and 
+    the medial aspect of the contralateral MVN.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s41">In the rabbit, the cholinergic innervation of the 
+    inferior olive is more diffuse and not restricted to the dorsal 
+    cap.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s42">In the monkey, like the rat, the cholinergic innervation 
+    is restricted to the dorsal cap.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s43">In the rat and rabbit we have used orthograde tracers to 
+    demonstrate a projection to the contralateral dorsal cap from the 
+    NPH.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s44">In the rat, this projection is cholinergic.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s45">In the rabbit, it probably is not.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s46">A preliminary report of these findings, in which the 
+    projection from the NPH to the dorsal cap was incorrectly described 
+    as an ipsilateral projection has been published previously (Barmack 
+    et al., &apos;91).</S>
+  </Introduction>
+
+  <Methods>
+
+    <S avgH="27" class="methods.heading" format="TimesNewRomanPS-BoldMT"
+     id="s47">METHODS</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s48">Fifteen rats, two monkeys, and seven rabbits were used in 
+    these experiments.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s49">Some of these animals were also used in previous 
+    investigations of the cholinergic innervation of the cerebellum 
+    (Barmack et al., &apos;92a-c).</S>
+    <BR />
+
+    <S avgH="27" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s50">Choline acetyltransferase 
+    (ChAT) immunohistochemistry</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s51">The protocol for CMT imrnunohistochemistry was similar to 
+    that reported previously (Eckenstein et al., &apos;88; Barmack et 
+    al., &apos;92c).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s52">A mouse antiserum to rat CUT, Mouse-aRat-CUT, was used to 
+    examine the cholinergic projection to the inferior olive of the rat 
+    and a rat antiserum to pig CUT, Rat-aPig-ChAT, was used for 
+    immunostaining of the inferior olives of rabbits and monkeys.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s53">These antibodies were prepared and characterized 
+    previously and have been shown to stain cholinergic neurons 
+    specifically (Eckenstein et al., &apos;81: &apos;88).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s54">Deep anesthesia was induced in rats and rabbits with an 
+    intramuscular injection of a mixture of ketamine hydrochloride (50 
+    mgikg), xylazine (6 mgikg), and acepromazine maleate (1.2 
+    mgikg).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s55">Anesthesia was induced in monkeys with an intraperitoneal 
+    injection of sodium pentobarbital (60 mgikg).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s56">Following the induction of anesthesia, the heart was 
+    exposed and the descending aorta was clamped.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s57">A cannula was inserted from the apex of the left 
+    ventricle into the dorsal aorta, and the right atrium was 
+    opened.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s58">The blood was rinsed with 250-500 ml of saline at 100 cm 
+    pressure.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s59">The rinse was followed by perfusion with 500-1,000 ml of 
+    4% paraformaldehyde, 0.159 saturated picric acid, in 0.1 M 
+    phosphate buffered saline (PBS), pH = 7.2.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s60">The fixative was given over a period of 30 minutes and 
+    was followed by a rinse with cold 0.1 M phosphate buffer (PB), pH = 
+    7.2 (4°C).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s61">The brain was then removed and cryoprotected in lo%), 
+    2094 and 30% sucrose in 0.1 M PB, pH = 7.2.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s62">The brainstem was cut into a block that was attached to 
+    thin pieces of cork with embedding compound and then frozen by 
+    immersion into isopentane cooled with liquid nitrogen.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s63">Frozen sections (30-40 KM) were cut and collected in cold 
+    0.1 M PB, pH 7.4, in a small plastic grid divided into separate 
+    collection baskets with a floor of nylon mesh.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s64">ChAT immunohistochemistry was performed on free floating 
+    sections as follows: 1) Sections were washed overnight at room 
+    temperature in 0.1 M PR, pH = 7.4. 2) Sections were washed with 
+    three 5 minute changes of 0.1 M Tris buffered saline (TBS, 0.1 M 
+    Tris, 0.15 M sodium chloride, pH = 7.6) and transferred to 96-well 
+    microplate tissue wells with a polished glass rod.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s65">These microplate tissue wells were used for primary 
+    antibody, secondary antibody and PAP incubations.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s66">The sections were pretreated at room temperature in a 
+    10%&apos; normal rabbit serum, 2% bovine serum albumin (BSA), 0.5% 
+    Triton X-100 in TBS for 2 hours followed by three 10-minute rinses 
+    in TBS.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s67">They were gently agitated on an orbital shaker during 
+    this and subsequent procedures. 3) Brainstem sections were 
+    incubated overnight in the primary antiserum, diluted 
+    1:1,000-1:2,000 in TBS containing 2% BSA, 10% normal rat serum, 
+    0.5% Triton X-100, and 0.1% sodium azide. 4) Sections were 
+    transferred to the larger collection baskets and washed with three 
+    10-minute changes of TBS. 5 ) Sections were transferred to the 
+    microplate tissue wells and incubated for 60 minutes in freshly 
+    prepared rabbit or goat a-mouse or a-rat secondary antibodies 
+    (Organon Teknika Gorp., Durham, NC) diluted 1:50 in TBS, containing 
+    2% BSA, 10% rat serum, and 0.2% Triton X-100. 6 ) Sections were 
+    transferred to the larger collection baskets and washed in three 
+    10-minute changes of TBS. 7) Sections were then transferred to the 
+    microplate tissue wells and incubated for 90 minutes in freshly 
+    prepared mouse or rat peroxidaseantiperoxidase (PAP, 
+    Sternberger-Meyer Immunocytochemicals, Jnc., Baltimore, MD) diluted 
+    1:50 in TBS. 8) Sections were transferred to the larger collection 
+    baskets and washed in three 10-minute changes of TBS. 9) Steps 5-8 
+    were repeated. 10) Sections were treated for 15 minutes with 
+    diaminobenzidine (DAB) 1 mgiml in 0.1 M TBS, pH = 7.6, containing 
+    0.01% HzOz.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s68">Sections were then rinsed in 0.1 M PB (pH = 7.41, 
+    mounted, dried, cleared, and coverslipped.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s69">The specificities of the primary and secondary antibodies 
+    were tested by processing control sections in which these 
+    antibodies were omitted.</S>
+    <BR />
+
+    <S avgH="27" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s70">Orthograde transport of 
+    phaseolus leucoagglutinin (PHA-L)</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s71">Rats and rabbits were anesthetized with intramuscular 
+    injections of ketamine hydrochloride (50 mgikg), xylazine (6 
+    mgikg), and acepromazine maleate (1.2 mgikg).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s72">The brainsterns of both rats and rabbits were exposed by 
+    making an opening through the dura mater overlying the cisterna 
+    magna.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s73">A micropipette containing a solution of 2.5% PHA-L in 0.1 
+    M PBS (pH = 7.4), was inserted under direct vision into the NPH, 
+    MVN, or DVN.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s74">PHA-L was iontophoretically injected into the brainstem 
+    by means of 10 FA cathodal pulses lasting 10 seconds, with a 50% 
+    duty cycle (Gerfen and Sawchenko, &apos;84; Ter Horst et al., 
+    &apos;84).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s75">Each injection lasted 10 minutes.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s76">Several (3-5) injections were made along the 
+    medial-lateral and rostral-caudal extent of the brainstem.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s77">After a 3-6 day survival period, the animals were 
+    anesthetized (see above) and transcardially perfused.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s78">A brief saline flush was followed by a 4% 
+    paraformaldehyde, 0.15% picric acid solution in 0.1 M PBS, pH = 
+    7.2.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s79">The perfusion was terminated, cryoprotected, and frozen 
+    sections (30-40 bm) were cut and collected as described above.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s80">A double PAP immunohistochemical procedure, with DAB as 
+    the chromagen as described above, was used to identify the presence 
+    of orthogradely transported PHA-L.</S>
+    <BR />
+
+    <S avgH="27" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s81">Retrograde transport of 
+    horseradish peroxidase (HRP) and wheat germ agglutinin-HRP 
+    (WGA-HRP)</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s82">Four pigmented rabbits (weight 0.8-1.7 kg) were 
+    anesthetized intravenously with a-chloralose (50 mgikg) and 
+    urethane (500 mgikg).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s83">Rectal temperature was also monitored and maintained at 
+    37°C.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s84">The brainstems of the rabbits were exposed by making an 
+    opening through the dura mater overlying the cisterna magna.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s85">A micropipette containing a 30% solution of horseradish 
+    peroximdase (HRP) or a 3% solution of wheat-germ 
+    agglutinin-horseradish peroxidase (WGA-HRPI NaCl was inserted into 
+    the brainstem.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s86">The electrode was advanced toward the dorsal cap of the 
+    inferior olive.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s87">The characteristic optokinetically evoked activity of the 
+    neurons in the caudal aspect of the dorsal cap was used to localize 
+    the tip of the microelectrode (Barmack and Hess, &apos;Sob).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s88">Subsequently, a pressure injection of HRP or WGAHRP 
+    (20-100 nl) was made in the dorsal cap over a period of 10 
+    minutes.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s89">Following a 2-3 day postoperative survival, the rabbits 
+    were deeply anesthetized with sodium pentobarbital (60 mgikg).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s90">For single label experiments, the rabbits were 
+    subsequently perfused transcardially with 0.9% saline, followed by 
+    1.0% paraformaldehyde and 1.25% glutaraldehyde in 0.1 M PBS (pH = 
+    7.4), lasting 20-30 minutes.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s91">For combined ChAT-HRP double-label experiments, rabbits 
+    were perfused with 0.9% saline, followed by a fixing solution 
+    containing 2.5% paraformaldehyde, 0.15% picric acid, and 0.20% 
+    glutaraldehyde in 0.1 M PBS, pH = 7.4.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s92">The perfusions were terminated with a rinse of 0.1 M PBS, 
+    pH = 7.4.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s93">The brains were removed and cryoprotected with lo%, 20%, 
+    and 30% sucrose in 0.1 M PBS, pH = 7.4.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s94">The brainstem was cut, mounted onto cork with OCT 
+    compound, and frozen in isopentane cooled with liquid nitrogen.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s95">Frozen sections (30-40 km) were cut and collected in cold 
+    0.1 M PBS; pH = 7.4.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s96">A DAB-stabilized, CoC12intensified, tetramethylbenzidine 
+    (TMB) reaction (Rye et a]., &apos;84; Olucha et al., &apos;85) was 
+    used to demonstrate the presence of retrogradely transported 
+    tracers.</S>
+    <BR />
+
+    <S avgH="27" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s97">Lesions of the vestibular 
+    complex</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s98">Rats were anesthetized (as above) and the brainstems were 
+    exposed through the cisterna magna.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s99">A glass micropipette with a tip diameter of approximately 
+    10 km was advanced under direct vision towards different regions of 
+    the vestibular complex without penetrating the cerebellum.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s100">A total of 0.3-0.5 kl of ibotenic acid (20-40 kgiml) was 
+    injected at three separate sites in the MVN andior NPH.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s101">Alternatively, electrolytic lesions were made in these 
+    nuclei (50 PA, 60 seconds, electrode negative).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s102">Electrolytic lesions were made in a triangular pattern 
+    more laterally into the medial and descending vestibular nuclei.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s103">After a survival period of 5-7 days the rats were 
+    reanesthetized and transcardially perfused (as above).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s104">The brainstem was removed, cryoprotected, and cut on a 
+    cryostat.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s105">Sections were processed with a double PAP protocol for 
+    ChAT immunohistochemistry as described above.</S>
+    <BR />
+
+    <S avgH="27" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s106">Histological 
+    reconstruction</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s107">For each histological procedure involving ChAT 
+    immunohistochemistry, orthograde and retrograde tracers, and 
+    lesion-induced ChAT depletion, the distribution of labeled cells or 
+    tracer injections within the vestibular complex was plotted on maps 
+    of the vestibular complex and inferior olive.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s108">The map of the vestibular complex follows the 
+    designation ofMeessen and Olszewski (&apos;49).</S>
+  </Methods>
+
+  <Results>
+
+    <S avgH="27" class="results.heading" format="TimesNewRomanPS-BoldMT"
+     id="s109">RESULTS</S>
+    <BR />
+
+    <S avgH="27" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s110">ChAT-immunoreactivity in 
+    the dorsal cap of the inferior olive of the rat, rabbit, and 
+    monkey</S>
+    <BR />
+
+    <S avgH="22" class="results.subtitle" format="TimesNewRomanPSMT"
+     id="s111">l h e entire caudal-rostra1 extent of 
+    <neuroanatomicalLocation>the dorsal cap</neuroanatomicalLocation> 
+    of the caudal-rostra1 extent of the dorsal cap of the ChAT-positive 
+    terminals (Fig. 1A).</S>
+    <S avgH="22" class="results.subtitle" format="TimesNewRomanPSMT"
+     id="s112">The CUT-</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s113">rat contained ChAT-positive terminals (Fig. 1A).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s114">The <labelingDescription>CUTpositive 
+    immunoreactivity</labelingDescription> was restricted to 
+    <labelingLocation>the dorsal cap</labelingLocation> from its most 
+    caudal extent to the most rostral aspect where 
+    <neuroanatomicalLocation>the dorsal cap</neuroanatomicalLocation> 
+    merges with <neuroanatomicalLocation>the principal 
+    olive</neuroanatomicalLocation> via <neuroanatomicalLocation>the 
+    ventrolateral outgrowth</neuroanatomicalLocation> (Fig. 1A-D).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s115"><neuroanatomicalLocation>The ventrolateral 
+    outgrowth</neuroanatomicalLocation> contained only 
+    <labelingDescription>a few CUT-positive 
+    terminals</labelingDescription>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s116">No <labelingLocation>olivary</labelingLocation> neurons 
+    were ChAT-positive.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s117">In the rat, <labelingLocation>dorsal 
+    cap</labelingLocation> neurons were distributed heterogeneously.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s118">Regions of <labelingLocation>the dorsal 
+    cap</labelingLocation> were <labelingDescription>free of 
+    neurons</labelingDescription> and therefore were 
+    <labelingDescription>without ChAT-labeled 
+    terminals</labelingDescription> (Fig. lB-D).</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s119">Unlike the cholinergic innervation of 
+    <connxTermination>the dorsal cap</connxTermination> of the rat, the 
+    cholinergic innervation of <connxTermination>the dorsal 
+    cap</connxTermination> of the rabbit was difficult to 
+    differentiate.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s120">It was composed of fine beaded axonal branches.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s121">These axons were present along the entire caudal 
+    asp&amp; of <labelingLocation>the inferior 
+    olive</labelingLocation>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s122">A greater concentration of <labelingDescription>these 
+    beaded axonal terminals</labelingDescription> could be observed in 
+    <labelingLocation>the dorsal cap</labelingLocation>, but also 
+    within <labelingLocation>the p-nucleus </labelingLocation>(Fig. 
+    2).</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s123">In the monkey, <labelingDescription>a discrete 
+    cholinergic projection</labelingDescription> was observed 
+    throughout <labelingLocation>the rostral-caudal extent of the 
+    dorsal cap</labelingLocation>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s124">Figure 3A illustrates the location and extent of 
+    <labelingDescription>ChATpositive terminals</labelingDescription> 
+    in <labelingLocation>the monkey inferior 
+    olive</labelingLocation>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s125">These 
+    <labelingDescription>terminals</labelingDescription> were found in 
+    <labelingLocation>the medial aspect of the dorsal 
+    cap</labelingLocation> at its most rostral extent.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s126">Throughout the remaining rostral-caudal extent of 
+    <labelingLocation>the dorsal 
+    cap</labelingLocation>,<labelingDescription> the 
+    terminals</labelingDescription> were found in <labelingLocation>the 
+    ventral third of the dorsal cap</labelingLocation>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s127">This corresponds to <labelingLocation>the region of the 
+    inferior olive</labelingLocation> that was retrogradely labeled 
+    following <tracerChemical>HRP</tracerChemical> injections into 
+    <injectionLocation>the flocculus</injectionLocation> of the monkey 
+    (Langer et al., &apos;85).</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s128"><labelingDescription>The heterogeneous cell 
+    distribution</labelingDescription> within<labelingLocation> the 
+    dorsal cap</labelingLocation> of the monkey was less apparent than 
+    in the rat.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s129">However, in the monkey there were 
+    <labelingDescription>ChAT-positive bands of varying 
+    width</labelingDescription>, alternately spaced with bands of 
+    terminals that were not stained (Fig. 3C,D).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s130">In both the rat and monkey no other areas of 
+    <labelingLocation>the inferior olive</labelingLocation> other than 
+    <labelingLocation>the dorsal cap</labelingLocation> contained 
+    <labelingDescription>ChAT-positive 
+    terminals</labelingDescription>.</S>
+    <BR />
+
+    <S avgH="27" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s131">Brainstem projections to 
+    the dorsal cap as revealed by the orthograde transport of PHA-L 
+    iontophoretically injected into the nucleus prepositus hypoglossi 
+    and the medial and descending vestibular nuclei in the rat and 
+    rabbit</S>
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s132"><exptLabel>Iontophoretic injections of 
+    <tracerChemical>PHA-L</tracerChemical> into <injectionLocation>the 
+    NPH, MVN and DVN</injectionLocation></exptLabel> resulted in 
+    orthograde transport of PHA-L to 
+    <labelingDescription>terminals</labelingDescription> in 
+    <labelingLocation>the dorsal cap and the beta 
+    nucleus</labelingLocation>.</S></TTE>
+
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s133"><exptLabel>A large injection into <injectionLocation>the 
+    NPH, MVN and DVN</injectionLocation></exptLabel> of rat labeled 
+    <labelingDescription>terminals</labelingDescription> in both 
+    <labelingLocation>the dorsal cap and the 
+    p-nucleus</labelingLocation> (Fig. 4A-C,E).</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT"
+     id="s134"><labelingDescription>Some 
+    terminals</labelingDescription> were also labeled in 
+    <labelingLocation>the lateral aspect of the medial accessory 
+    olive</labelingLocation> (Fig. 4B,D).</S></TTE>
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s135"><exptLabel><tracerChemical>PHA-L</tracerChemical> 
+    injections restricted to <injectionLocation>the MVN and the 
+    DVN</injectionLocation></exptLabel> labeled 
+    <labelingDescription>terminals</labelingDescription> in 
+    <labelingLocation>the p-nucleus</labelingLocation> without labeling 
+    <labelingDescription>neurons</labelingDescription> in 
+    <labelingLocation>the dorsal cap</labelingLocation> (Fig. 
+    5).</S></TTE>
+
+    <TTE>
+
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s136">However,<exptLabel>small iontophoretic injections of 
+      <tracerChemical>PHA-L</tracerChemical> restricted to 
+      <injectionLocation>the medial aspect of the MVN and lateral 
+      aspect of the NPH</injectionLocation></exptLabel> resulted in 
+      labeling of <labelingDescription>terminals</labelingDescription> 
+      confined to <labelingLocation>the dorsal cap</labelingLocation> 
+      (Fig. 6).</S>
+    </TTE>
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s137">Thus, the evidence from these orthograde tracer 
+    experiments suggests that the cholinergic input to the dorsal cap 
+    arises from the NPH, with a possible, but lesser contribution from 
+    the most medial aspect of the MVN.</S>
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s138"><exptLabel>Iontophoretic injections of 
+    <tracerChemical>PHA-L</tracerChemical> into <injectionLocation>the 
+    NPH</injectionLocation></exptLabel> of the rabbit resulted in 
+    orthograde transport of <tracerChemical>PHA-L</tracerChemical> to 
+    <labelingDescription>terminals</labelingDescription> in 
+    <labelingLocation>the dorsal cap that were contralateral to the 
+    injection site</labelingLocation> (Fig 7).</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s139">In 
+    Figure 7A an experiment is illustrated in which a 
+    <tracerChemical>PHA-L</tracerChemical> injection was largely 
+    restricted to <injectionLocation>the right 
+    NPH</injectionLocation>.</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s140">It was difficult to confine 
+    the injection of a midline structure to just one side and a small 
+    amount of the <tracerChemical>PHA-L</tracerChemical> also diffused 
+    into <injectionSpread>the left NPH</injectionSpread> (Fig. 
+    7&amp;).</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s141">Some of the tracer diffused 
+    laterally into <injectionSpread>the right MVN</injectionSpread>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s142">The <tracerChemical>PHA-L</tracerChemical> injections 
+    labeled <labelingDescription>axons</labelingDescription> that 
+    descended towards <neuroanatomicalLandmark>the inferior 
+    olive</neuroanatomicalLandmark> primarily to the right of the 
+    midline (Fig. 7B).</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s143">These fibers crossed the 
+    midline just above <neuroanatomicalLandmark>the inferior 
+    olive</neuroanatomicalLandmark> to provide <labelingDescription>a 
+    dense innervation</labelingDescription> of <connxTermination>the 
+    left dorsal cap</connxTermination> (Fig. 7B,C).</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s144">This 
+    midline crossing point is indicated by an arrow in Fig. 7B.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s145"><labelingDescription>A less dense 
+    innervation</labelingDescription> could be observed in 
+    <connxTermination>the right dorsal cap</connxTermination> (Fig. 
+    7B).</S><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s146"><labelingDescription>A sparse 
+    innervation</labelingDescription> of <connxTermination>the right 
+    p-nucleus and medial accessory olive</connxTermination> could be 
+    seen as a result of the lateral spread of the injected 
+    <tracerChemical>PHA-L</tracerChemical> into <injectionSpread>the 
+    right MVN</injectionSpread> (Fig. 7B).</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s147">The 
+    projection from <connxOrigin>the MVN</connxOrigin> to 
+    <connxTermination>the olive</connxTermination> was predominantly 
+    ipsilateral.</S></TTE>
+
+    <BR />
+
+    <S avgH="27" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s148">Brainstem projections to 
+    the dorsal cap as revealed by the retrograde transport of WGA-HRP 
+    injected in the dorsal cap of the inferior olive of the rabbit</S>
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s149">In two rabbits <exptLabel>a 3% solution of 
+    <tracerChemical>WGA-HRP</tracerChemical> (20-50 nl) was pressure 
+    injected into <injectionLocation>the caudal dorsal 
+    cap</injectionLocation></exptLabel>.</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s150">This 
+    injection labeled two major sources of afferents to 
+    <connxTermination>the dorsal cap</connxTermination>: 1) 
+    <labelingLocation>the ipsilateral nucleus of the optic 
+    tract</labelingLocation>, the source of visual directionally 
+    specific input to <connxTermination>the caudal dorsal 
+    cap</connxTermination>; and 2) <labelingLocation>The contralateral 
+    nucleus prepositus hypoglossi (NPH)</labelingLocation>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s151"><labelingDescription>The retrograde labeling of 
+    cells</labelingDescription> in <labelingLocation>the lateral aspect 
+    of the NPH</labelingLocation> is illustrated in Figure 8.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s152">The schematic illustration in Figure 8A maps the 
+    distribution of<labelingDescription>labeled 
+    neurons</labelingDescription> within<labelingLocation>the 
+    NPH</labelingLocation>.</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s153">This distribution extends 
+    slightly into <labelingLocation>the medial aspect of the 
+    MVN</labelingLocation> (Fig. 8A).</S></TTE>
+
+    <BR />
+
+    <S avgH="27" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s154">ChATand HRP-labeled 
+    neurons in the nucleus prepositus hypoglossi (NPH) following 
+    pressure injections of HRP into the dorsal cap of the rabbit</S>
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s155">In one rabbit 
+    <exptLabel><tracerChemical>HRP</tracerChemical> (100 nl) was 
+    injected into <injectionLocation>the caudal inferior 
+    olive</injectionLocation></exptLabel>.</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s156">The 
+    injection site was large.</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s157">It included both 
+    <injectionSpread>the right dorsal cap and right 
+    p-nucleus</injectionSpread>.</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s158">Smaller amounts of the 
+    injected HRP also labeled <injectionSpread>the left dorsal cap and 
+    left p-nucleus</injectionSpread> (Fig. 9A).</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT"
+     id="s159"><labelingDescription>Retrograde labeling of 
+    cells</labelingDescription> in <labelingLocation>the ipsilateral 
+    MVN and DVN</labelingLocation> as well as both <labelingLocation>
+    the ipsilateral and contralateral NPH</labelingLocation> was 
+    observed (Fig. 9).</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT"
+     id="s160"><labelingDescription>Retrograde 
+    labeling</labelingDescription> in <labelingLocation>the ipsilateral 
+    MVN</labelingLocation> was observed more caudally (Fig. 9C4,5).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s161"><labelingDescription>Retrograde 
+    labeling</labelingDescription> in <labelingLocation>the ipsilateral 
+    DVN</labelingLocation> was observed more rostrally (Fig. 9C1-3).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s162">In agreement with a previous investigation, 
+    <labelingDescription>ChA&apos;l&apos;-labeled 
+    neurons</labelingDescription> in <labelingLocation>the vestibular 
+    complex</labelingLocation> were observed primarily in 
+    <labelingLocation>the caudal aspect of the MVN</labelingLocation> 
+    (Barmack et al., &apos;92c).</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s163">While the HRP injection in 
+    this experiment was too large to permit conclusion concerning the 
+    ipsilateral or contralateral origins of the projection 
+    to<connxTermination> the inferior olive</connxTermination> from 
+    <connxOrigin>the vestibular complex</connxOrigin>, it did permit us 
+    to determine whether any of the projection from <connxOrigin>the 
+    NPH</connxOrigin> to <connxTermination>the dorsal 
+    cap</connxTermination> was cholinergic.</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s164">A total 
+    of <labelingDescription>only two cells</labelingDescription> in 
+    <labelingLocation>the NPH</labelingLocation> were double labeled 
+    for both ChAT and HRP.</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s165">None of the 
+    <labelingDescription>HRP-labeled cells</labelingDescription> in 
+    <labelingLocation>the right MVN, DVN, and NPH</labelingLocation> 
+    was also labeled for ChAT.</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s166">These data agree with the 
+    relative paucity of the ChAT innervation of <connxTermination>the 
+    dorsal cap</connxTermination> in the rabbit and suggest that the 
+    projection to <connxTermination>the dorsal cap</connxTermination> 
+    from <connxOrigin>the contralateral NPH</connxOrigin> and the 
+    projection to <connxTermination>the p-nucleus</connxTermination> 
+    from <connxOrigin>the ipsilateral MVN and DVN</connxOrigin> must be 
+    mediated by another transmitter.</S></TTE>
+
+    <BR />
+
+    <S avgH="27" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s167">Degeneration of the 
+    cholinergic projection to the dorsal cap caused by lesions of the 
+    nucleus prepositus hypoglossi and medial vestibular nucleus in the 
+    rat</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s168">Unilateral pressure injections of ibotenic acid or 
+    electrolytic lesions were made in the region of 
+    <neuroanatomicalLocation>the NPH and MVN</neuroanatomicalLocation> 
+    in four rats (Fig. 10).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s169">Figure 10A indicates the extent of an ibotenic acid 
+    lesion in <neuroanatomicalLocation>the NPH and 
+    MVN</neuroanatomicalLocation> in one of these rats.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s170">The black area indicates the complete absence of neurons 
+    while the shaded area indicates partial cell loss.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s171">Most of <neuroanatomicalLocation>the 
+    NPH</neuroanatomicalLocation> was destroyed while only a small 
+    portion of <neuroanatomicalLocation>the 
+    MVN</neuroanatomicalLocation> was affected.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s172">This lesion resulted in <labelingDescription>reduced 
+    ChAT-immunoreactivity</labelingDescription> ipsilateral to the 
+    lesion (Fig.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s173">IOC).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s174">This decrease in <labelingDescription>ChAT positive 
+    terminals</labelingDescription> within <labelingLocation>the dorsal 
+    cap</labelingLocation> was observed only if a lesion encroached 
+    upon <neuroanatomicalLocation>the NPH</neuroanatomicalLocation>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s175">In two rats, electrolytic lesions restricted to 
+    <neuroanatomicalLocation>the lateral aspect of the MVN and the 
+    medial aspect of the DVN</neuroanatomicalLocation> caused no 
+    detectable loss of <labelingDescription>ChAT-positive 
+    immunoreactivity</labelingDescription> in <labelingLocation>the 
+    ipsilatcral dorsal cap</labelingLocation>.</S>
+  </Results>
+
+  <Discussion>
+
+    <S avgH="27" class="discussion.heading"
+     format="TimesNewRomanPS-BoldMT" id="s176">DISCUSSION</S>
+    <BR />
+
+    <S avgH="27" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s177">the cholinergic 
+    projection to the dorsal cap</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s178">The immunohistochemical findings of the present 
+    experiment demonstrate a discrete cholinergic projection to the 
+    dorsal cap in the inferior olive of both the rat and monkey.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s179">In the rat the region of cholinergc innervation 
+    corresponds to a subset of olivary neurons that project to the 
+    flocculus (Blanks et al., &apos;83; Ruigrok et al., &apos;92).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s180">However the ventrolateral outgrowth also projects to the 
+    flocculus, but received only a small cholinergic input (Ruigrok et 
+    al., &apos;92).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s181">In the rabbit, there is a weak and diffuse cholinergic 
+    innervation of the entire caudal aspect of the inferior olive, 
+    including the dorsal cap and p-nucleus (Fig. 2).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s182">Interestingly, both the rat and monkey have a well 
+    defined cholinerpic projection to the uvula-nodulus of the 
+    cerebellum originating from the caudal aspect of the MVN (Barmack 
+    et al., &apos;92b,c).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s183">In the rabbit, there is only a weak cholinergc 
+    projection to these same regions, although there is a very strong 
+    cholinergic innervation of the ventral paraflocculus (Barmack et 
+    al., &apos;92b:c).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s184">The origin of the cholinergic projection from the NPH in 
+    the rat was supported by both the orthograde transport of PHA-L 
+    (Figs. 5,6) and by the reduction of ChAT staining in the 
+    contralateral dorsal cap following subtotal unilateral lesions 
+    placed in the NPH and MVN (Fig. 10).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s185">In the rabbit, although both orthograde and retrograde 
+    transport experiments revealed a projection from the NPH to the 
+    contralateral dorsal cap (Figs. 7-91, both the paucity of ChAT 
+    labeling of terminals within the dorsal cap and the lack of HRP 
+    retrograde labeling of ChAT-positive neurons within the NPH 
+    suggested that this projection is not cholinergic (Figs. 7-9).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s186">The projection from the NPH to the contralateral dorsal 
+    cap of both rat and rabbit agrees with previous anatomical studies, 
+    using orthograde tracers, that demonstrated this same projection in 
+    cat (Gerrits et al., &apos;85; McCrea and Baker, &apos;85).</S>
+    <BR />
+
+    <S avgH="27" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s187">Co-expression of 
+    acetylcholine and GABA in NPH neurons?</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s188">It seems reasonable to conclude that in the rabbit the 
+    NPH projection to the contralateral dorsal cap is mediated 
+    primarily by a non-cholinergic transmitter system.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s189">A likely alternative transmitter is GABA.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s190">In the rabbit, there is a dense GABAergic innervation of 
+    the dorsal cap as revealed by immunohistochemical staining for 
+    glutamic acid decarboxylase (GAD) (Nelson et al., &apos;89).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s191">Recently, it has been shown that the NPH projection to 
+    the contralateral dorsal cap of the rabbit is at least in part 
+    GABAergic (De Zeeuw et al., &apos;92).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s192">This raises the interesting possibility that the same 
+    anatomical projection in the rat and rabbit is mediated by two 
+    different neurotransmitters: acetylcholine in the rat and GABA in 
+    the rabbit.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s193">However, it is possible that both transmitters are 
+    co-expressed in NPH neurons in both species.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s194">Such co-expression of acetylcholine and GABA has been 
+    described in amacrine cells of the retina (O&apos;Malley et al., 
+    &apos;92).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s195">Therefore it is possible that the weak ChAT staining of 
+    fiber terminals in the dorsal cap of the rabbit and the apparent 
+    lack of double-labeled cells in the NPH reflects a low expression 
+    of ChAT in NPH neurons in the rabbit.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s196">The question of co-expression of acetylcholine and GABA 
+    by NPH neurons could be addressed directly in the rat by the use of 
+    markers for both ChAT and GAD.</S>
+    <BR />
+
+    <S avgH="27" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s197">Vestibular projections 
+    to the p-nucleus</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s198">Previous retrograde transport studies in the rat and 
+    rabbit demonstrated that the medial aspect of the DVN gives rise to 
+    a GABAergic projection to the p-nucleus (Nelson et al., &apos;86, 
+    &apos;89).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s199">These results are confirmed by the present retrograde 
+    transport studies in the rabbit (Fig. 9) and further supported by 
+    the orthograde transport of PHA-L in both rat and rabbit (Figs. 4, 
+    5, 7).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s200">The present results suggest that there is also a 
+    vestibular projection to the p-nucleus that originates from the 
+    caudal and lateral aspect of the MVN.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s201">However, we do not know if this MVN projection to the 
+    p-nucleus is GABAergic.</S>
+    <BR />
+
+    <S avgH="27" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s202">Receptors for the 
+    cholinergic and GABAergic inputs to the inferior olive</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s203">Presently the cholinergic receptors on olivary neurons 
+    are not well characterized.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s204">However, we have obtained preliminary 
+    immunohistochemical evidence in both rat and rabbit for the 
+    presence of the M2 subclass of muscarinic receptors (Barmack, 
+    unpublished observations).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s205">In the cerebellum there is both pharmacological and 
+    irnmunological evidence that indicates that there are M2 receptors 
+    on granule cells, the cells that receive the cholinergic 
+    innervation from the vestibular complex (Giraldo et al., &apos;87; 
+    Ehlert and Tran, &apos;90; Fukamauchi et al., &apos;91; Li et al., 
+    &apos;91).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s206">In other systems, M2 receptors are coupled via a 
+    pertussis toxin-sensitive G protein to a potassium conductance (Ito 
+    et al., &apos;91; Lai et al., &apos;91; Richards, &apos;91; Bonner, 
+    &apos;92).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s207">Functionally, this means that activation of M2 receptors 
+    hyperpularizes the neurons on which they are located, by driving 
+    the membrane potential towards the potassium equilibrium 
+    potential.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s208">If the same transduction mechanism is found for the M2 
+    receptors on dorsal cap neurons, then it is possible that the 
+    optokinetic sensitivity of dorsal cap neurons contralateral to the 
+    NPH could be reduced by the activation of the NPH cholinergic 
+    neurons.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s209">Presently, the distribution of GABAergic receptor 
+    subtypes within the inferior olive is not known.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s210">In the rabbit inferior olive, it is possible that the 
+    GAEiAergic projection to the dorsal cap would have the same 
+    inhibitory effect as would the cholinergic projection in the 
+    rat.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s211">Namely, if dorsal cap neurons expressed GABAA receptors 
+    similar in subunit composition to the GABAA receptors expressed on 
+    cerebellar granule cells, the GABAergic pathway from NPH to the 
+    dorsal cap could be functionally inhibitory since GABAA receptors 
+    are coupled to a chloride conductance (Engblom et al., 
+    &apos;89).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s212">The cholinergic projection would be functionally 
+    inhibitory, coupled by an M2 receptor through a G protein to a 
+    potassium conductance.</S>
+    <BR />
+
+    <S avgH="27" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s213">Functional importance of 
+    the cholinergic projection to the dorsal cap</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s214">The dorsal cap has been implicated functionally in an 
+    optokinetic circuit that projects to both the flocculus and nodulus 
+    (Maekawa and Simpson, &apos;73; Alley et al., &apos;75; Graf et 
+    al., &apos;88; Leonard et al., &apos;88; Barmack and Shojaku, 
+    &apos;89, &apos;92; Takeda and Maekawa, &apos;89b).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s215">This circuitry when activated by optokinetic stimulation 
+    of the contralateral eye in the posterior-anterior direction 
+    (Barmack, &apos;79; Barmack and Hess, &apos;Sob; Barmack and 
+    Simpson, &apos;80) evokes conjugate eye movements that have a slow 
+    phase in the same direction as the optokinetic stimulus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s216">These optokinetically evoked eye movements null the 
+    retinal slip caused by the optokinetic stimulus and consequently 
+    reduce the evoked activity in the contralateral dorsal cap.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s217">Microstimulation of the dorsal cap, in the absence of 
+    visual feedback, evokes eye movements whose slow phase is towards 
+    the stimulated dorsal cap (Barmack and Hess, &apos;80a).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s218">Optokinetic stimulation of the left eye in the 
+    posterior-anterior direction evokes activity in the right dorsal 
+    cap.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s219">This activity evokes an increase in climbing fiber 
+    responses and a decrease in simple spike responses in both the left 
+    nodulus and flocculus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s220">This reduction in simple spike activity of the left 
+    flocculus and nodulus reduces Purkinje cell inhibition of the left 
+    vestibular complex, thereby evoking compensatory eye movements in 
+    the rightward direction (Barmack and Pettorossi, &apos;81).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s221">This horizontal optokinetic reflex is impaired by a 
+    unilateral lesion of the left flocculus without reducing the gain 
+    of the horizontal vestibuloocular reflex (Barmack and Pettorossi, 
+    &apos;85).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s222">Eye movements evoked by either optokinetic stimulation 
+    or by electrical stimulation of the dorsal cap can also outlast the 
+    natural or electrical stimulus, leading to an afternystagmus 
+    (Barmack, &apos;79; Barmack and Hess, &apos;80a; Barmack and 
+    Nelson, &apos;87).</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s223">The cholinergic pathway to the dorsal cap from the NPH 
+    and the medial aspect of the MVN could provide a more centralized 
+    control of visual information mediated by the dorsal cap.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s224">The signal that originates from the NPH includes 
+    vestibular and eye movement-related information (Blanks et al., 
+    &apos;77; Lopez-Barneo et al., &apos;82) rather than the purely 
+    optokinetic information that originates from the nucleus of the 
+    optic tract.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s225">In the monkey, the signal from neurons in the NPH 
+    appears to represent eye position exclusively since NPH neurons are 
+    not modulated by either vestibular or optokinetic stimulation when 
+    a monkey is trained to maintain fixation during such stimulation 
+    (McFarland and Fuchs, &apos;92).</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s226">It is possible that a better understanding of the 
+    importance of this pathway will be revealed by both 
+    micropharmacological experiments that further delineate the 
+    specific receptor subtypes present on dorsal cap neurons and by 
+    behavioral experiments in which it is possible to specify and 
+    control the activity of NPH neurons that project to the 
+    contralateral dorsal cap.</S>
+  </Discussion>
+
+  <Acknowledgements>
+
+    <S avgH="27" class="acknowledgements.heading"
+     format="TimesNewRomanPS-BoldMT" id="s227">ACKNOWLEDGMENTS</S>
+    <BR />
+
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s228">We gratefully acknowledge the 
+    participation of Ann Burleigh during the early phase of this 
+    experiment.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s229">We also appreciate the expert 
+    technical assistance of Leta Guptill.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s230">This research was supported 
+    by National Institutes of Health Grant EY-04778, the Oregon Lions 
+    Sight, and Hearing Foundation and the Consiglio Nazionale delle 
+    Ricerche of Italy.</S>
+  </Acknowledgements>
+
+  <References>
+
+    <S avgH="27" class="references.heading"
+     format="TimesNewRomanPS-BoldMT" id="s231">LITERATURE CITED</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s232">Alley, K., R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s233">Baker, and J.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s234">Simpson (1975) Afferents to the vestibulocerehellum and 
+    the origin of the visual climbing fibers in the rabbit.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s235">Brain Res. 99:582-589.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s236">Balaban.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s237">C.D.. and R.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s238">Henry (1988) Zonal organization projeccions in albino 
+    rahhits.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s239">Neurosci, Res. 5409423.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s240">Barmack, N.H. (1979) Immediate and sustained influences 
+    ofvisual olivocerebellar activity on eye movement.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s241">In R.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s242">Talbott and D.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s243">Humphrey (eds): Posture and Movement.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s244">New York: Raven Press, pp. 123-167.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s245">Barmack, N.H., E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s246">Mugnaini, and B.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s247">Nelson (1989) Vestibularly-evoked activity of single 
+    neurons in the beta nucleus of the inferior olive.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s248">In P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s249">Strata (ed): The Olivocerebellar System in motor 
+    control.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s250">Berlin: SpringerVerlag, pp. 313 322.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s251">Barmack.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s252">N.H., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s253">Burleigh.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s254">P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s255">Errico, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s256">Fagerson (19911 Acholinergic pathway to the dorsal cap 
+    of the inferior olive of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s257">Soc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s258">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s259">Abst. 17:919.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s260">(Abstract) Barmack, N.H., R.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s261">Uaughman, and F.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s262">Eckenstein (1992a) Cholinergic innervation of the 
+    cerebellum of the rat by secondary vestibular afferents.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s263">In B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s264">Cohcn, D.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s265">Tomko, and F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s266">Guedry (edsj: Sensing and Controlling Motion: Vestibular 
+    and Sensorimotor Function.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s267">New York: New York Academy of Sciences, pp. 566-579.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s268">Rarmack, N.H., R.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s269">Baughman, and F.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s270">Eckcnstein (1992bl Cholinergic rebellum of rat, rabbit, 
+    cat and monkey as revealed by cholinc acctyltransfcrase activity 
+    and immunohistochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s271">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s272">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s273">Neurol. 31 7.233-249.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s274">Barmack, N.H..</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s275">R.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s276">Baughman, F.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s277">Sckenstein, and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s278">Shojaku (1992~) Secondary vestihular cholinergic 
+    projection to the cerebellum of rabbit and rat as revealed hy 
+    choline acetyltransferase immunohistochemistry, retrograde and 
+    orthograde tracers.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s279">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s280">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s281">Ncurol. 31 7:250-270.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s282">Barmack.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s283">N.H., and D.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s284">Hess (1980a) Eye movements evoked hy microstimulation of 
+    dorsal cap of inferior olive in the rabbit.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s285">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s286">Neurophysiol. 43: 166-18 1.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s287">Barmack, N.H., and D.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s288">Hess i1980bj Multiple-unit activity evoked in dorsal cap 
+    of inferior olive of the rabbit by visual stimulation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s289">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s290">Neurophysiol. 43: 15 1-1 64.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s291">I&amp;lt;armack, N.H., and H.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s292">Nelson (1987) Infiuence of long-term optokinetic 
+    stimulation on eye movements of the rahbit.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s293">Brain Kes. 437.111-120.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s294">Barmack, N.H.. andV.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s295">Pettorossi (1981 I Infiuence ofvisualolivocerebellar 
+    inactivation on the optokinetic properties of neurons in the 
+    vestibular nuclei of rabbits.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s296">In A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s297">Fuchs and Becker (eds): Progress in Oculomotor 
+    Research.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s298">Amsterdam: Elsevier North Holland, Inc., pp. 455-464.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s299">Rarmack, N.H.: and V.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s300">Pcttorossi (19851 Effects of unilateral lesions of the 
+    flocculus on optokinetic and vestibuloocular reflexes of the 
+    rabbit.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s301">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s302">Neurophysiol. 53:481496.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s303">Barmack, N.H., and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s304">Shojaku (1989) Topography andanalysis ofvcstibularvisual 
+    climbing fiber signals in the rabbit cerehellar nodulus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s305">Soc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s306">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s307">Ahst. 15: 180.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s308">Barmack, N.H., and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s309">Shqjaku (1992) Representation of a postural coordinate 
+    system in the nodulus of the rabbit cerebellum by vestibular 
+    climbing fiber signals.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s310">In H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s311">Shimazu and Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s312">Shinoda (eds): Vestibular and Brain Stem Control of Eye, 
+    Head and Body Movements.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s313">Tokyo and Basel: Japan Scientific Societies Press and 
+    Karger, pp. 331-338.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s314">Barmack, N.H., and J.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s315">Simpson (1980) Effects of microlesions of dorsal cap of 
+    inferior olive ofrahhits on optokinetic and vest,ibulo-ocular 
+    reflexes.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s316">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s317">Neurophysiol. 43: 182-205.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s318">Berkley, K.J., and P.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s319">Hand (1978a) Projections to the inferior olive of the 
+    cat 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s320">Comparisons or input from the gracile, cuneate and the 
+    spinal trigeminal nuclei.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s321">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s322">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s323">Neurol. 180r253-264.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s324">Berkley, K.J., and P.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s325">Hand (1978b!</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s326">Projections to the inferior olive of the cat I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s327">Comparisons of input from the dorsal column nuclei, the 
+    lateral cervical nucleus, the spino-olivary pathways, the cerebral 
+    cortex and the cerebellum.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s328">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s329">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s330">Neurol. 180237-252.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s331">Blanks, R.H.I., R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s332">Volkind, W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s333">Precht, and R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s334">Baker (1977) Responses of cat prepositus hypoglossi 
+    neurons to horizontal angular acceleration.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s335">Neuroscience 2391403.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s336">Blanks.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s337">R.H.I., W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s338">Prccht, and Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s339">Torigoe (1983) Afferent projections to the cerebellar 
+    flocculus in the pigmented rat demonstrated by retrograde transport 
+    of horseradish peroxidase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s340">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s341">Brain Res. 52:293-306.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s342">Bonner, T.I. (1992) Domains of muscarinic acetylcholine 
+    receptors confer specificity of G protein coupling.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s343">TINS 13:48-50.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s344">Zecuw, C.I., P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s345">Wentzel, and E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s346">Mugnaini (1992) Fine structurc of the dorsal cap of the 
+    inferior olive and its GABAergic and non-GAUAergic input from the 
+    nucleus prcpositus hypoglossi in rat and rabbit.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s347">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s348">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s349">Neurol. iin press).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s350">Eckenstein, F., Y.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s351">Barde, and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s352">Thoenen (1981) Production of specific antibodies to 
+    choline acetyltransferase purified from pig brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s353">Neuroscience 6:993-1000.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s354">Eckenstein, F.P., R.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s355">Baughman, and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s356">Quinn (1988) An anatomical study of cholinergic 
+    innervation in rat cerebral cortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s357">Neuroscience 2.5:457474.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s358">Ehlert, F.J., and L.L.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s359">Tran (1990) Regional distribution of M1, M2 and non-MI, 
+    nun-A12 subtype of musmrinic binding sites in rat brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s360">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s361">Pharmacol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s362">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s363">Ther. 2551148-1157.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s364">Engblom, A.C., I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s365">Holopainen, and K.E.O. kerman (1989) Determination of 
+    GABA receptor-linked C1 fluxes in rat cerebellar granule cells 
+    using a fluorescent probe SPQ.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s366">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s367">Lett. 204:326-330.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s368">Fernandez, C., and J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s369">Fredrickson (1964) Experimental cerebellar lesions and 
+    their effect on vestibular function.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s370">Acta Otolaryngol. iSuppl.1 (Stockh.) 192:52-62.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s371">Frankfurter, A,, J.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s372">Weber, G.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s373">Royce, N.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s374">Strominger, and J.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s375">Harting (1976) An autoradiographic analysis of the 
+    tecto-olivary projection in primates.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s376">Brain Res. 118245-257.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s377">Fredette, B.J., and E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s378">Mugnaini (1991) The GABAergic cerebello-olivary 
+    projection in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s379">Anat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s380">Emhryol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s381">(Bed) 184:225-243.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s382">Fukamauchi, F., C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s383">Hough, and D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s384">-M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s385">Chuang (1991) Expression and agonist-induced 
+    down-regulation of mRNAs of m2and m3-muscarinic acetylcholine 
+    receptors in cultured cerebellar granule cells.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s386">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s387">Neurochem. 56:716-719.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s388">Gellman, R., J.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s389">Houk, andA.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s390">Gibson (1983) Somatosensory properties of the inferior 
+    olive ofthe cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s391">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s392">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s393">Neurnl. 215:228-243.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s394">Gerfen, C.R., and P.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s395">Sawchenko (19841 An anterograde neuroanatomical tracing 
+    method that shows the detailed morphology of neurons, their axons 
+    and terminals: Immunohistochemical localization of an axonally 
+    transported plant lectin, Phaseolus vnlgaris leucoagglutinin 
+    (PHA-L!.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s396">Brain Res. 290r219-238.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s397">Gerrits, N.M., J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s398">Voogd, and 1.N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s399">Magras (1985) Vestibular fierents of the inferior olive 
+    and the vestibulo-olivo-cerebellar climbing fiber pathway to the 
+    flocculus in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s400">Brain Res. 332:325 -336.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s401">Giraldo, E., R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s402">Hammer, and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s403">Ladinsky (1987) Distribution of muscarinic receptor 
+    subtypes in rat brain as determined in binding studies with AF-DX 
+    116 and pirenzepine.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s404">Life Sci. 40:833-840.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s405">Graf, W., J.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s406">Simpson, and C.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s407">Leonard i1988) Spatial organization of visual messages 
+    of the rabbit s cerebellar flocculus. 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s408">Complex and simple spike responses of Purkinje cells.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s409">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s410">Neurophysiol. 60:2091-2121.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s411">Huerta, M.F., T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s412">Hashikawa, M.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s413">Gayoso, and J.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s414">Harting (1985) The trigemino-olivary projection in the 
+    cat: Contributions of individual subnuclei.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s415">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s416">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s417">Neurol. 241:180-190.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s418">H., T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s419">Sugimoto, I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s420">Kobayashi, K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s421">Takahashi, T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s422">Katada, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s423">Ui, and Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s424">Kurachi (1991) On the mechanism of basal and 
+    agonist-induced activation of the G protein-gated muscarinic K 
+    channel in atrial myocytes of guinea pig heart.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s425">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s426">Gen.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s427">Physiol. 98:517-533.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s428">Ito, AT. (1984) The Cerebellum and Neural Control.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s429">New York: Haven Press.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s430">Kawamura, K., and S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s431">Onodera 11984) Olivary projections from the pretectal 
+    region in the cat studied with horseradish peroxidase and 
+    tritiat,ed amino acids zonal transport.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s432">Arch.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s433">Ital.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s434">Biol. 122t155-168.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s435">Folia Neurobiol.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s436">Kooy, F.H. (1916) The inferior olive in vertebrates. 
+    10t205-369.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s437">Kwhou, S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s438">-I., and R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s439">Matsuzaki (1991) Topographical organization of climbing 
+    fiber pathway from the superior colliculus to cerebellar vermal 
+    lobules W-VII in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s440">Neuroscience 45:691-699.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s441">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s442">,S.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s443">Waite, J.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s444">Bloom.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s445">H.I.Yamamura, andW.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s446">Roeske (19913 The m2 muscarinic acetylcholine receptors 
+    are coupled to multiple signaling pathways via pertussis 
+    toxin-sensitive guanine nucleotide regulatory proteins.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s447">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s448">Pharmacol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s449">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s450">Ther. 258:938-944.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s451">Langer, T., A.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s452">Fuchs, C.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s453">Scudder, and M.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s454">Chubb (1985) Merents to the fiocculus of the cerebellum 
+    in the Rhesus macaque as revealed by retrograde transport of 
+    horseradish peroxidase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s455">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s456">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s457">Neurol, 235: 125.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s458">Leonard, C.S., J.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s459">Simpson, and W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s460">Graf (1988) Spatial organization of visual messages of 
+    the rabbit s cerebellar flocculus. 1.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s461">Typology of inferior olive neurons of the dorsal cap of 
+    Kooy.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s462">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s463">Neurophysiol. 60:2073--2090.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s464">M., R.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s465">Yasuda, S.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s466">Wall, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s467">Wellstein, and B.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s468">Wolfe (1991) Distribution of m2 muscarinic receptors in 
+    rat brain using antisera selective for m2 receptors.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s469">Mol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s470">Pharmacol. 40:28-35.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s471">I)opz-Barneo, 6., C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s472">Darlot, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s473">Berthoz. and R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s474">Baker (1982) Neuronal activity in prepositus nucleus 
+    correlated with eye movement in the alert cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s475">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s476">Neurophysiol. 47:329-352.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s477">Maekawa, K., and J.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s478">Simpson (1973) Climbing fiber responses evoked in 
+    vestibulocerebellum of rabbit from visual system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s479">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s480">Neurophysiol. 36:649-666.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s481">Maekawa, K., and T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s482">Takeda (1979) Origin of descending af erents to the 
+    rostra1 part of dorsal cap of inferior olivc which transfers 
+    contralateral optic activities to the flocculus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s483">A horseradish peroxidase study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s484">Brain Res. 172393-405.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s485">Martin, G.F., R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s486">Dom, J.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s487">King, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s488">Robards, and C.R.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s489">Watson (1975) The inferior olivary nucleus of the 
+    opossum (Didelphis marsupialis virginiana), its organization and 
+    connections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s490">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s491">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s492">Neurol. 160:507-534.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s493">McCrea, R.A., and R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s494">Baker (19853 Anatoniical connections of the nucleus 
+    prepositus of the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s495">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s496">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s497">Neurol. 237:377-407.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s498">McFarland, J.L., and A.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s499">Fuchs (1992) Discharge patterns in nucleus prepositus 
+    hypoglossi and adjacent medial vestibular nucleus during horizontal 
+    eye movement in behaving Macaques.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s500">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s501">Neurophysiol. 68:319-332.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s502">Mecsscn, H., and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s503">Olszcwski (1949) A cytoarchitectonic rhombencephalon on 
+    the rabbit.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s504">New York: S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s505">Karger.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s506">Molinari, H.H., K.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s507">Starr, and R.N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s508">Sluyters (1991) Gracile projection to the cat medial 
+    accessory olive: Ultrastructural termination patterns and 
+    convergence with spino-olivm projection.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s509">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s510">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s511">Neurol. 309363374 Nelson, B., N.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s512">Barmack, and E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s513">Mugnaini (1986) A GAEAergic vestibular projection to rat 
+    inferior olive.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s514">Sac.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s515">Neurosci. i\bst. 12255.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s516">Nelson, B.J., J.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s517">Adam, N.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s518">Barmack, and E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s519">Mugnaini (1989) A comparative study of glutamate 
+    decarboxylase immunoreactive boutons in the mammalian inferior 
+    olive.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s520">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s521">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s522">Neurol. 286:.514-539.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s523">O Malley, D.M., J.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s524">Sandell, and R.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s525">Masland (1992) Co-release of acetylcholine and GABA by 
+    the starburst amacrine cells.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s526">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s527">Neurosci. 12:1394-1408.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s528">Olucha, F., F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s529">Martinez-Garcia. and C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s530">Lopez-Garcia (19853 A new stabilizing agent for the 
+    tetramethyl benzidine iTMB) reaction product in the histochemical 
+    detection of horseradish peroxidase (HRP).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s531">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s532">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s533">Meth. 13:131-138.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s534">Richards, M.H. (1991) Pharmacology and second messenger 
+    interactions cloned muscarinic receptors.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s535">Uiochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s536">Pharmacol. 42: 1645-1653.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s537">Ruigrok, T.J.H., R.4.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s538">Osse, and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s539">Voogd (1992) Organization of inferior olivary 
+    projections to the flocculus and ventral paraflocculus of the rat 
+    cerebellum.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s540">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s541">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s542">Neurol. 31 6 : 129-150.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s543">Rye, D.B., C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s544">Saper. and B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s545">Wainer (1984) Stabilization of tetramethylbenzidine 
+    (TMB) reaction product: Application of retrograde and anterograde 
+    tracing, and combination with immunohistochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s546">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s547">Histochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s548">Cytochem. 32: 1145-1 153.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s549">Saint-Cyr, J.A., and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s550">Courville (1979) Projection from the vestibular nuclei 
+    to the inferior olive in the cat: An autoradiographic and 
+    horseradish peroxidase study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s551">Brain Res. 165: 189-200.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s552">Saint-Cyr, cJ.A., and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s553">Courville (19821 Descending projections to the inferior 
+    olive from the mesencephalon and superior colliculus in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s554">An autoradiographic study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s555">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s556">Brain Res. 45:333-348.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s557">Singleton, G.T. (1967) Relationships of the cerebellar 
+    nodulus to vestibular function: A study of the effects of 
+    nodulectomy on habituation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s558">Laryngoscope 77:1579-1619.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s559">Takeda, T., and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s560">Maekawa (1980) Bilateral visual inputs to the dorsal cap 
+    of inferior olive: Differential localization and inhihitory 
+    interactions, Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s561">Brain Res. 39:461471.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s562">Takeda, T., and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s563">Maekawa (1989aJ Olivary branching projections to the 
+    flocculus, nodulus and uvula in the rabbit.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s564">I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s565">An electrophysiological study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s566">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s567">Brain Res. 74:4742.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s568">Takeda, T., and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s569">Maekawa (198913) Olivary branching projections to the 
+    flocculus, nodulus and uvula in the rabbit. 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s570">Retrograde double labeling study with fluorescent 
+    dyes.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s571">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s572">Brain Res. 76.323-332.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s573">Horst, G.J., H.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s574">Groenewegen, H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s575">Karst, and P.G.M.</S>
+    <BR />
+
+  </References>
+
+</File>
+

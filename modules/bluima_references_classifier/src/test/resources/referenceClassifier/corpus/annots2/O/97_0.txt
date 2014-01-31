@@ -1,0 +1,18 @@
+The majority of functional neuroimaging studies have been based
+on the assumption of fixed experimental effects. Under this
+model, an experiment is designed so that a variable, or set of
+variables, is explicitly controlled by the experimenter. The resulting data are then analyzed in terms of these explanatory variables, typically using a form of the general linear model (GL M).
+Although this is a powerf ul approach for both the design and
+analysis of functional neuroimaging experiments, it places stringent constraints on the types of experiments that can be performed. Because this type of analysis is hypothesis-driven, it can
+only yield answers specific to those questions that are asked.
+Often this results in a set of static activation maps that reach some
+threshold of significance regarding a particular null hypothesis. In
+this report, we describe the use of an alternative analysis (Mc-Keown et al., 1998a,b) that reveals the complex spatiotemporal
+dynamics of a finger-tapping task.
+One aspect of the GL M that may be problematic for brain
+imaging is the requirement of linearity. By definition, the GL M is
+a linear combination of explanatory variables, which can be added
+to or taken away from a given model in a modular manner.
+Although “nonlinear” terms can be added to these models by
+specifying higher-order effects (e.g., x2, or xy in the case of two
+variables), the hypothesized shape of these effects must be spec-

@@ -1,0 +1,3336 @@
+<?xml version='1.0'?>
+<!DOCTYPE File PUBLIC "NeuroScholar.DTD" "NeuroScholar.DTD">
+<?xml-stylesheet type="text/css" href="NeuroScholar.css"?>
+<File>
+
+  <Title>The Spinothalamic System of the Rat. I. Locations of Cells of 
+  Origin</Title>
+
+  <Authors>SHERRY L. GRANUM</Authors>
+
+  <Abstract>
+
+    <S avgH="21" class="abstract.heading" format="TimesNewRomanPSMT"
+     id="s0">ABSTRACT</S>
+    <BR />
+
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s1">Horseradish peroxidase retrograde transport has been used 
+    to locate neurons of the rat spinal cord and lower medulla that 
+    project to the thalamus, Eight groups of spinothalamic cells are 
+    identified, some of which are anatomically continuous with 
+    thalamically projecting groups in the lower medulla.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s2">Most of the groups are seen only at the highest cervical 
+    levels, and several of them have not been previously recognised as 
+    spinothalamic relays.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s3">They are marginal layer (M), ventral border of the 
+    substantia gelatinosa (SGu), neck of the dorsal horn (N), lateral 
+    cervical nucleus (LO, ventromedial portion of the dorsal horn 
+    (DHum), intermediate gray zone (ZGZ), dorsal portion of the ventral 
+    horn (VHd, and ventral portion of the ventral horn (VHu).</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s4">Most of the cell bodies are contralateral to their 
+    thalamic terminations; only the VHd group is ipsilateral.</S>
+    <BR />
+
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s5">The major finding conflicts with traditional concepts of 
+    the spinothalamic system, and concerns the rostrocaudal 
+    distribution of the cells of origin.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s6">With the sole exception of the DHum group, the great 
+    majority of the thalamically projecting neurons of the rat are 
+    confined to the most rostra1 spinal levels (medulldcord junction 
+    through C4).</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s7">BeIow C4, most of the spinothalamic cells are concentrated 
+    in a single DHum group between levels T9 and L4, probably concerned 
+    with hindlimb proprioception.</S>
+    <BR />
+
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s8">The spinothalamic groups at high cervical levels may be 
+    relays for information ascending from lower regions.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s9">This might help to explain why, in man, surgical 
+    destruction of fibres crossing the midline in a single high 
+    cervical segment can cause a loss of pain sensation over most of 
+    the body.</S>
+    <BR />
+
+  </Abstract>
+
+  <Introduction>
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s10">The concept of the spinothalamic tract is 100 years old, 
+    but still presents important puzzles.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s11">Surprisingly, perhaps, it is still not clear precisely 
+    which cells in the spinal cord project directly to the thalamus, or 
+    what their functions are.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s12">According to the classical view, cells projecting 
+    directly to the somatosensory thalamus are present throughout the 
+    length of the spinal cord, with their somata in the contralateral 
+    gray matter and their axons crossing the midline to ascend in the 
+    anterolateral quadrant; and these neurons play an essential part in 
+    pain and temperature transmission (e.g., Edinger, 1889, &apos;11; 
+    Mott, 1892, 1895; Spiller, &apos;05; May, &apos;06; Foerster and 
+    Gagel, &apos;31; Le Gros Clark, &apos;36; Kuru, &apos;49; Morin et 
+    al., &apos;51; Smith, &apos;76; reviewed by Willis and Coggeshall, 
+    &apos;78).</S>
+    <BR />
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s13">Parts of the classical view, which was based largely on 
+    observations of sensory deficits and patterns of neuronal 
+    degeneration resulting from spinal cord lesions, have always been 
+    open to question.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s14">From the beginning, it was clear that the vast majority 
+    of ascending axons in the spinal cord did not reach as far as the 
+    thalamus, but ended propriospinally or in the bulbar brainstem 
+    (e.g., May, &apos;06, for early review).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s15">In particular, many of the fibres in the anterolateral 
+    quadrant, quite possibly including those concerned with pain and 
+    temperature, were reported to end in the brainstem reticular 
+    formation (e.g., May, &apos;06; Kuru, &apos;49; Morin et al., 
+    &apos;51; Bowsher, &apos;57; Nauta and Kuypers, &apos;58; Anderson 
+    and Berry, &apos;59; Mehler et al., &apos;60; Mehler, &apos;62; 
+    Breazile and Kitchell, &apos;68; Bowsher and Westman, &apos;70; 
+    Schroeder and Jane, &apos;71; Kerr and Lippman, &apos;74; Kerr, 
+    &apos;75b; reviewed by Willis and Coggeshall, &apos;78).</S>
+    <BR />
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s16">In more recent times, two methods have been chiefly used 
+    to locate the cells of origin of the spinothalamic tract: 
+    electrophysiology, using antidromic activation with stimulating 
+    electrodes in the brain and recording electrodes in the spinal cord 
+    (Dilly et al., &apos;68; Trevino et al., &apos;72, &apos;73; 
+    AlbeFessard et al., &apos;74a,b; and Giesler et al., &apos;76); and 
+    retrograde labelling with horseradish peroxidase (HRP) (Carstens 
+    and Trevino, &apos;78a,b; Giesler et al., &apos;78, &apos;79a; 
+    Willis et al., &apos;79; Granum and Webster, &apos;81, &apos;82; 
+    Granum, &apos;83).</S>
+    <BR />
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s17">The information gleaned so far by these methods, while 
+    more precise than the older findings, is nevertheless incomplete in 
+    some important respects.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s18">With the electrophysiological approach, it is impossible 
+    to be sure that one has a full or unbiased sampling of the 
+    spinothalamic population, and it is difficult to locate sites of 
+    origin and termination accurately.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s19">HRP studies using large injections to fill the thalamus 
+    are liable to suffer from spread of HRP to adjacent regions, 
+    especially brainstem, leading to the labelling of cells that do not 
+    in fact project to the thalamus.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s20">For reasons only partly to do with these technical 
+    problems, we have still only fragmentary information about the 
+    detailed topography of the spinothalamic projection-that is, about 
+    the differences between the various regions of the somatosensory 
+    thalamus as to the sources of their spinal input (Carstens and 
+    Trevino, &apos;78a; Willis et al., &apos;79; Giesler et al., 
+    &apos;79a, &apos;81a,b; Granum, &apos;83; Peschanski et al., 
+    &apos;83; Kevetter and Willis, &apos;83, &apos;84; Menetrey et al., 
+    &apos;84b; Peschanski and Besson, &apos;84).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s21">Furthermore, the current picture of the distribution of 
+    spinothalamic cells along the length of the spinal cord is 
+    incomplete; most of the previous studies have foccussed attention 
+    on a few selected levels-typically high cervical, cervical 
+    enlargement, and/or lumbar enlargement-instead of systematically 
+    examining the whole rostrocaudal extent.</S>
+    <BR />
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s22">The present paper describes experiments using small 
+    localised injections of HRP into the somatosensory regions of the 
+    thalamus of the rat.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s23">The aim at the outset was to discover the precise 
+    locations of the cells of origin of the spinothalamic 
+    projection.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s24">It was decided to plot the rostrocaudal distribution of 
+    the spinothalamic cells very fully, saving and examining every 
+    section of the spinal cord from the medulla down to the coccyx.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s25">As a first step in the analysis of the data, the results 
+    from all the thalamic injections were superimposed so as to display 
+    the total population of cells projecting to the thalamus.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s26">These composite data, with which the present paper is 
+    chiefly concerned, reveal some interesting and unexpected features 
+    of the distribution of spinothalamic cells, especially along the 
+    rostrocaudal axis.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s27">It appears that relatively few cells project directly to 
+    the thalamus from the lower levels of the spinal cord, but large 
+    numbers do so from the high cervical levels, where they are 
+    arranged in eight distinct groups.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s28">By analogy with known groups in the brainstem, the high 
+    cervical groups may perhaps be relays for somatosensory information 
+    ascending from the lower part of the spinal cosd.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s29">If one may extrapolate from rat to man, this may help to 
+    explain some remarkable clinical observations, in which a small 
+    lesion of the commissural fibres at a high cervical level abolished 
+    pain sensation over most of the body (Hitchcock, &apos;70, 
+    &apos;74; Pap0 and Luongo, &apos;76; Schvarcz, &apos;77, &apos;78; 
+    Cook et al., &apos;84).</S>
+  </Introduction>
+
+  <Methods>
+
+    <S avgH="26" class="methods.heading" format="TimesNewRomanPS-BoldMT"
+     id="s30">METHODS</S>
+    <BR />
+
+    <S avgH="25" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s31">HRP injections</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s32">Adult Wistar albino rats of 270-320-g body weight were 
+    used.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s33">Following initial ether anaesthesia, the animals were 
+    placed in a stereotaxic head holder and anaesthesia was maintained 
+    with an inhaled COz/O&amp;alothane mixture.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s34">Injections were made (through small holes drilled in the 
+    skull) via a 30-gauge needle held in a micromanipulator and 
+    connected via polythene tubing to a 1.00-pl Hamilton syringe, the 
+    dead space in the hydraulic system being filled with silicone 
+    fluid.</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s35">Thalamic injections of 30% HRP (Boehringer lyophilised 
+    grade I, in sterile water) were made in 16 rats, in the following 
+    manner: (1) Fourteen rats received single injections into specific 
+    thalamic targets. (2) One rat received two injections across the 
+    anterior zone of transition (anterior ventrobasal/posterior 
+    ventrolateral area) on one side. (3) One rat received eight 
+    separate injections that were intended to cover the somatosensory 
+    thalamus, but in the event lay partly outside it, in anterior 
+    thalamic regions that probably do not receive any spinal input.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s36">The precise sites of injection and the extent of 
+    diffusion of the HRP were determined at the end of the experiment 
+    by analysis of the sectioned tissue.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s37">The intended volume of HRP administered was between 0.02 
+    and 0.06 pl per injection and was given over a period of 20-30 
+    minutes, by means of a motorized apparatus (B.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s38">Braun, Melsungen) to drive the plunger of the Hamilton 
+    syringe slowly.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s39">After each injection, the needle was left in situ for 
+    5-10 minutes and then slowly retracted.</S>
+    <BR />
+
+    <S avgH="25" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s40">Processing and 
+    histochemistry</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s41">Following the HRP injections, the animals were allowed to 
+    survive for 48 hours, and were then reanaesthetised with ether and 
+    killed by transcardiac perfusion with 200 ml of 0.9% saline, 
+    followed by 200 ml of 1% glutaraldehyde in 0.1 M phosphate buffer 
+    (pH 7.3), followed finally by 500 ml of 4% glutaraldehyde in the 
+    same buffer.</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s42">The brainstem and spinal cord were dissected out 
+    immediately after perfusion and immersed in the weaker fixative.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s43">Transverse 60-pm-thick serial sections were cut on a 
+    freezing microtome, from the level of the anterior commissure 
+    through the entire length of the brainstem and spinal cord.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s44">There were about 2,000 sections in the complete serial 
+    set for each animal; with minor exceptions, all of them were saved 
+    and processed.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s45">(Some sections of rats R90 and R91 between T4 and T10 
+    were lost, as were the sacrococcygeal regions of rats R61, R62, 
+    R64, and R90.)</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s46">The sections were collected in phosphate buffer and 
+    reacted for HRP using the o-dianisidine method (slightly modified 
+    from Colman et al., &apos;76) at room temperature.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s47">The serial sections were then mounted alternately on two 
+    sets of gelatinized slides: one set was counterstained with thionin 
+    and one was left unstained.</S>
+    <BR />
+
+    <S avgH="25" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s48">Analysis of material</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s49">From the brains of a separate set of control animals, 
+    thionin-stained sections were prepared and photographed and a 
+    series of 85 standard diagrams of successive levels of the 
+    thalamus, brainstem, and spinal cord were made; the region from the 
+    medulldcord junction down to the coccyx was spanned by a series of 
+    26 of the atlas diagrams (see Fig. lD, 3C,D).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s50">On these diagrams, the extent of the thalamic injection 
+    site in each animal was mapped, as well as all HRP-labelled cells 
+    throughout the lower medulla and spinal cord.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s51">Faintly labelled cells were more easily visible in the 
+    uncounterstained series of sections, and they could be localised 
+    accurately by darkfield illumination (which helps to clarify 
+    cytoarchitectural boundaries) and comparison with the paired 
+    section in the counterstained series.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s52">Each labelled cell observed was recorded as a single dot 
+    in the appropriate position relative to standard landmarks on the 
+    atlas diagram for the appropriate level of the spinal cord this was 
+    done for each animal separately.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s53">Figure 1 illustrates the complete data recorded in this 
+    way from a single animal (R104).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s54">To get quantitative data, the dots were then counted in 
+    each atlas diagram for each animal.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s55">In a few specimens, the concentration of labeled cells in 
+    certain regions was so high that dots on the record diagram 
+    overlapped.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s56">In these cases, the counts represent estimates rather 
+    than exact figures.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s57">As a check on the magnitude of the error from this cause, 
+    the counts for the specimen with the largest number of labelled 
+    cells-R90-were repeated by an exact method, in which the labelled 
+    cells were recorded tissue section by tissue section, as well as 
+    atlas level by atlas level.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s58">The total counts obtained by the two methods were, 
+    respectively, 975 and 941-a negligible discrepancy.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s59">A further slight systematic error in the counts may 
+    result from double counting of cells split by the microtome knife 
+    into two parts on adjacent sections.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s60">No attempt was made to apply the usual Abercrombie ( 46) 
+    correction for this, since the correction factor depends on the 
+    average cell diameter as measured perpendicular to the plane of 
+    section, which, for non-spherical cells such as neurons, cannot be 
+    deduced from the dimensions seen in the plane of section.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s61">A rough estimate of the magnitude of the correction 
+    factor can, however, be made: for a section thickness of 60pm, the 
+    counts should be scaled down ~ 0 . 8 for 6 neurons with an average 
+    diameter of lOpm, and scaled down x0.67 for a diameter of 30pm.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s62">These diameters roughly encompass the range of sizes 
+    encountered when one compares the different groups of labelled 
+    neurons identified in this study.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s63">Thus the ratios of the counts of neurons in the different 
+    groups are not likely to be distorted by a factor of more than 
+    0.8610.67, i.e., 1.28.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s64">In fact, the error from double counting is probably even 
+    less than this, since profiles obviously identifiable as fragments 
+    of cells whose main bodies lay in adjacent sections were not 
+    included in the counts.</S>
+  </Methods>
+
+  <Results>
+
+    <S avgH="25" class="results.heading" format="TimesNewRomanPS-BoldMT"
+     id="s65">RESULTS</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s66">The distribution of 
+    <tracerChemical>thalamic</tracerChemical> injection sites is shown 
+    graphically in Figure 2.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s67">It can be seen that the injection sites are distributed 
+    widely throughout <injectionLocation>the somatosensory 
+    thalamus</injectionLocation> , although there is a larger 
+    concentration of injections in some regions than in others .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s68">Thus , when all the retrograde tracing results are 
+    considered together , they should provide a reasonably complete 
+    picture of the population of cells projecting to the somatosensory 
+    thalamus , even though the picture may give somewhat exaggerated 
+    weight to those populations of 
+    <labelingDescription>cells</labelingDescription> that project to 
+    the more densely sampled regions of thalamus ( see also the 
+    Discussion below ) .</S>
+    <BR />
+
+    <S avgH="26" class="results.body" format="TimesNewRomanPS-BoldMT"
+     id="s69">In the account that follows , all 
+    <labelingDescription>cells</labelingDescription> projecting from 
+    the spinal cord to the thalamus will be counted as belonging to the 
+    spinothalamic system , including those of <labelingLocation>the 
+    lateral cervical nucleus ( LCN ) and the small spinal extensions of 
+    the gracile and cuneate nuclei ( GN and CUM )</labelingLocation> 
+    .</S>
+    <S avgH="26" class="results.body" format="TimesNewRomanPS-BoldMT"
+     id="s70">The term spinothalamic system in this paper, therefore, 
+    will denote a broader class of cells than those of the traditional 
+    spinothalamic tract.</S>
+    <S avgH="26" class="results.body" format="TimesNewRomanPS-BoldMT"
+     id="s71">Eight spinothalamic cell groups can be distinguished</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s72">To obtain a picture of the total population of 
+    spinothalamic cells seen in this study, the data from all the 
+    separate HRP experiments were superimposed on a single set of 
+    composite diagrams (Fig. 3A-C).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s73">Figure 4 reproduces the cervical levels of Figure 3C ( 
+    but with all cells plotted on the same side of the cord ) and 
+    depicts schematically on cross sections of the spinal cord the 
+    anatomical boundaries of the spinothalamic groups that can be 
+    identified in <labelingLocation>this rostra1 
+    region</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s74">Figure 5 shows a graph of the distribution of 
+    spinothalamic cells along the rostrocaudal axis.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s75">It can be seen from these figures that the population of 
+    cells projecting from the spinal cord to the thalamus consists of a 
+    number of distinct groups , and that there are dramatic differences 
+    in the distribution of labelled cells between different levels of 
+    <labelingLocation>the spinal cord</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s76">While the spinothalamic cells fall into eight groups with 
+    respect to their location in the transverse plane , none of these 
+    eight groups is present at every cord level : all are distinct at 
+    high cervical levels , but only <labelingLocation>the ventromedial 
+    dorsal horn group</labelingLocation> , DHum , and to a much smaller 
+    extent the marginal group , M , are clearly represented in lower 
+    spinal cord segments ( Fig . 3C ) .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s77">Apart from the DHvm group , <labelingDescription>the 
+    labelled neurons</labelingDescription> in <labelingLocation>the 
+    lower spinal cord</labelingLocation> are few in number and 
+    diffusely scattered : it is difficult to assign them to specific 
+    groups .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s78">A still larger family of thalamically projecting nuclei 
+    are found in <labelingLocation>the brainstem proper ( see below 
+    )</labelingLocation> , and the eight groups of spinothalamic cells 
+    clustered in <labelingLocation>high cervical 
+    segments</labelingLocation> may be the most caudal members of this 
+    constellation .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s79">Indeed , at the highest cervical levels , 
+    <labelingLocation>the spinal extensions of the medullary gracile 
+    and cuneate nuclei ( GN and CUM )</labelingLocation> are also 
+    evident , in addition to the eight groups to be described below 
+    .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s80">Of the eight groups , seven are found on the side of the 
+    spinal cord contralateral to the thalamis 
+    <tracerChemical>HRP</tracerChemical> injections , and only one , in 
+    <labelingLocation>the dorsal portion of the ventral horn , VHd 
+    </labelingLocation>, is ipsilateral .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s81">Five of the eight groups are laminar in arrangement and 
+    roughly parallel to <labelingLocation>the superficial border of the 
+    dorsal horn , occupying regions from the marginal layer to the 
+    ventral horn</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s82">In addition, there are three groups that are nuclear 
+    rather than laminar in transverse outline.</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s83">Because an exact assignment of labelled neurons to Rexed 
+    ( 52, 54 ) laminae often cannot be made with certainty , and the 
+    laminae formed by thalamically projecting cells do not correspond 
+    exactly with Rexed laminae , the Rexed terminology will for the 
+    most part be avoided in this report .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s84">It is , however , convenient for general orientation , as 
+    follows : <labelingLocation>The marginal group</labelingLocation> , 
+    M , lies in <labelingLocation>lamina I ; the group at the ventral 
+    border of the substantia gelatinosa , SGu , lies at the junction 
+    between laminae 11 and 111 ; the group in the neck of the dorsal 
+    horn</labelingLocation> , N , is in <labelingLocation>lamina IV and 
+    the most superficial part of lamina V ; the lateral cervical 
+    nucleus</labelingLocation> , LCN , is in the dorsolateral part of 
+    the lateral white fasciculus ; the group in <labelingLocation>the 
+    ventromedial part of the dorsal horn</labelingLocation> , DHum , is 
+    in <labelingLocation>the most medial part of lamina VI ; and the 
+    smaller</labelingLocation> and more laterally placed group in 
+    <labelingLocation>the intermediate gray zone</labelingLocation> , 
+    IGZ , lies in <labelingLocation>dorsal lamina 
+    VII</labelingLocation> ( and perhaps includes <labelingLocation>the 
+    most ventral part of lamina VI )</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s85">The two groups found in <labelingLocation>the ventral 
+    horn</labelingLocation> are partially overlapping : the more dorsal 
+    one , VHd , lies diagonally across <labelingLocation>the middle of 
+    lamina VII ; and the more ventral group</labelingLocation> , VHu , 
+    is in <labelingLocation>the deeper part of lamina VII and ( in the 
+    upper cervical cord</labelingLocation> ) in <labelingLocation>the 
+    upper parts of lamina VIII</labelingLocation> .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s86">Descriptions of the eight spinothalamic groups , shown in 
+    Figures 3C and 4, and short statements regarding their relationship 
+    to the medullothalamic groups seen in <labelingLocation>the lower 
+    brainstem , follow : Marginal group</labelingLocation> ( MI .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s87"><labelingDescription>This group of labelled 
+    cells</labelingDescription> lies in <labelingLocation>the most 
+    superficial lamina of the dorsal horn</labelingLocation> , capping 
+    the substantia gelatinosa , and is continuous rostrally with 
+    <labelingDescription>a similarly placed labelled 
+    subdivision</labelingDescription> of <labelingLocation>the nucleus 
+    of the trigeminal spinal tract pars caudalis</labelingLocation> ( 
+    NTSTc ; see below ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s88">Labelling is most common at <labelingLocation>the 
+    medullaryicord junction</labelingLocation> and in 
+    <labelingLocation>the first and second cervical 
+    segments</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s89"><labelingDescription>Cells</labelingDescription> are 
+    often clustered medially near the entry point of the dorsal 
+    roots.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s90">A second concentration is clustered near 
+    <labelingLocation>the apex of the dorsal horn</labelingLocation> , 
+    in <labelingLocation>C6 - T4</labelingLocation>, but in 
+    <labelingLocation>the remainder of the spinal 
+    cord</labelingLocation> <labelingDescription>labelled marginal 
+    cells are extremely rare</labelingDescription> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s91"><labelingDescription>Occasionally 
+    cells</labelingDescription> are seen embedded in the white matter , 
+    quite close to the pial surface .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s92">Many, though not all, labelled M cells have the classic 
+    Waldeyer fusiform profile, with the long axis usually lying 
+    parallel to the gelatinosa surface.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s93"><labelingDescription>About 94% of labelled 
+    cells</labelingDescription> in this lamina are contralateral to the 
+    injection site ; about 6% are ipsilateral .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s94"><labelingLocation>Ventral border of the substantia 
+    gelatinosa (SGv)</labelingLocation>.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s95">This laminar group of labelled cells is found just 
+    ventral to the hyaline substantia gelatinosa and is continuous with 
+    a similar group within the nucleus of the trigeminal spinal tract , 
+    pars caudalis , NTSTc .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s96">In <labelingLocation>the cord</labelingLocation> , 
+    <labelingDescription>SGv neurons</labelingDescription> are 
+    prominent only at <labelingLocation>the most rostra1 two 
+    segments</labelingLocation> , and are extremely rare in the 
+    remaining cord levels .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s97">(The bulk of the SGv group lies in fact in the 
+    medulla.)</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s98">Even in <labelingDescription>Cl - C2, labelled 
+    cells</labelingDescription> belonging to this group are not common 
+    , but when present , they are often in close proximity to ( and 
+    just across the substantia gelatinosa from ) <labelingDescription>a 
+    labelled M neuron</labelingDescription> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s99">With very rare exceptions , <labelingDescription>SGv 
+    cells</labelingDescription> are contralateral .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s100"><labelingLocation>Neck of the dorsal horn ( N 
+    )</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s101">This group of labelled cells stretches across most of 
+    the neck of the dorsal horn, roughly parallel to the M and SGv 
+    groups described above.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s102">Labelled <labelingLocation>N</labelingLocation> 
+    <labelingDescription>cells</labelingDescription> are most frequent 
+    from <labelingLocation>the medulldcord junction to the fourth 
+    cervical segment</labelingLocation> , but are very occasionally 
+    seen throughout <labelingLocation>the rest of the spinal 
+    cord</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s103">Cells are frequently grouped in <labelingLocation>the 
+    lateral half of the lamina , and the boundary of this group with 
+    the lateral cervical nucleus ( LCN )</labelingLocation> is 
+    sometimes indistinct .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s104"><labelingDescription>The cells</labelingDescription> are 
+    almost all contralateral .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s105">These three groups - M , SGU , and possibly N - are all 
+    anatomically continuous with labelled 
+    <labelingLocation>subdivisions of the nucleus of the trigeminal 
+    spinal tract</labelingLocation> , pars caudalis , NTSTc .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s106">Together they account for approximately 16% of the total 
+    number of spinothalamic cells seen in these experiments.</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s107"><labelingLocation>Lateral cervical nucleus ( ZCN ) and 
+    interstitial nucleus of the lateral funiculus ( INLF 
+    )</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s108">This is <labelingDescription>a well - known group of 
+    labelled cells</labelingDescription> in <labelingLocation>the 
+    dorsal part of the lateral white matter</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s109">At high cervical levels this group is termed 
+    <labelingLocation>the lateral cervical nucleus ( LCN ) 
+    </labelingLocation> ; at lower levels it has been termed variously 
+    the interstitial nucleus of the lateral fasciculus ( ZNLF ) , the 
+    nucleus of the dorsolateral fasciculus ( NDLF ) , or the lateral 
+    spinal nucleus ( LSN ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s110"><labelingDescription>The labelled 
+    neurons</labelingDescription> are most numerous at the most rostra1 
+    levels - i . e . , in <labelingLocation>the LCN 
+    proper</labelingLocation> - but <labelingDescription>a very sparse 
+    population of thalamically projecting ZNLF 
+    neurons</labelingDescription> extends in fact throughout 
+    <labelingLocation>the full length of the cord</labelingLocation> 
+    .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s111">Many of <labelingDescription>the labelled 
+    cells</labelingDescription> are in <labelingLocation>the peripheral 
+    extreme of the white matter</labelingLocation> , close to the pial 
+    surface ( Fig . 3C ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s112"><labelingDescription>Other cells</labelingDescription> 
+    are more medial , and the LCN merges with the lateral part of the N 
+    lamina described above .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s113">Most neurons of LCN (and ZNLF) are small to moderate, 
+    rounded or ovoid, averaging approximately 30 pm in their longest 
+    diameter.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s114"><labelingDescription>Larger labelled 
+    neurons</labelingDescription> tend to lie more laterally and 
+    smaller ones lie more medially , where the nucleus merges with the 
+    neck of the dorsal horn .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s115">In these experiments, this entire LCNIINLF system 
+    accounts for about 13% of the total number of labelled cells 
+    seen.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s116">More than 90% of <labelingDescription>the labelled LCN 
+    cells</labelingDescription> were contralateral to the injection 
+    .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s117">Ventmmedial portion of the dorsal horn (DHvm).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s118"><labelingDescription>This group of labelled 
+    cells</labelingDescription> lies in <labelingLocation>the 
+    ventromedial extreme of the dorsal horn</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s119">It is bordered medially by the central gray area, with 
+    whose dorsolateral part it may merge, and dorsally by the dorsal 
+    fasciculus.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s120">Dorsolaterally it overlaps <labelingLocation>the 
+    intermediate basilar nucleus ( ZBN )</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s121">Ventrolaterally it becomes continuous with the 
+    intermediate gray zone (ZGZ).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s122">As with all of the spinothalamic groups , DHvm is 
+    distinct at high cervical levels , but in striking contrast to all 
+    other groups it is also prominent at <labelingLocation>lower 
+    thoracic and upper lumbar levels</labelingLocation> , from T9 to 
+    L4.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s123">At lower cord levels , the group of labelled DHvm cells 
+    extends ventromedially well into <labelingLocation>the central gray 
+    area</labelingLocation> : it is possible that this extension could 
+    represent a separate group .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s124"><labelingDescription>Labelled DHvm 
+    neurons</labelingDescription> are usually moderate in size ( 30 - 
+    40 pm ) , and although they are not strictly fusiform , their 
+    dendrites are often aligned dorsolaterally - ventromedially .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s125">This profile is most common in cells nearest the 
+    junction between the spinal gray and the dorsal fasciculus.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s126">In <labelingLocation>the very highest cervical 
+    segments</labelingLocation> occasional thalamically projecting DHvm 
+    neurons are seen within <labelingLocation>the intermediate basilar 
+    nucleus ( ZBN ; the convexity on the medial border of the dorsal 
+    horn</labelingLocation> - compare Giesler et al . , &apos; 79a ) 
+    .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s127">More typically , <labelingDescription>the labelled 
+    cells</labelingDescription> cluster just ventromedially to ZBN .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s128">The more dorsolateral portion of IBN, by contrast, is 
+    populated by cells that appear to represent the caudalmost limits 
+    of the medial cuneate nucleus (CUM, see Fig. 3C).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s129"><labelingDescription>At least 90% of labelled DHvm 
+    cells</labelingDescription> are contralateral to the injection site 
+    : one or two <labelingDescription>ipsilateral 
+    cells</labelingDescription> are present , however , even in 
+    <labelingLocation>thoracic and lumbar cord</labelingLocation> .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s130"><labelingLocation>Intermediate gray zone ( IGZ 
+    )</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s131">This group of cells lies in <labelingLocation>the 
+    transition zone between dorsal and ventral horns</labelingLocation> 
+    .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s132">It is clearly seen from <labelingLocation>the 
+    medulldcord junction down to lower C3 or upper C4, and is most 
+    prominent in C1</labelingLocation> and C2.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s133"><labelingDescription>Occasional 
+    cells</labelingDescription> are seen in <labelingLocation>this 
+    lamina in the thoracic and lumbar cord</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s134">Labelled cells of IGZ vary greatly in size and shape.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s135">The border between this zone and DHvm is not clear at 
+    any level, but as the DHvm and ZGZ groups may label independently 
+    after separate injections (Granum, in preparation; also Menetrey et 
+    al., &apos;84b), the two regions are considered separately.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s136"><labelingDescription>The great majority of labelled 
+    cells</labelingDescription> are contralateral to the injection site 
+    .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s137">Dorsal portion of the ventral horn (VHd).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s138">This group of <tracerChemical>HRP</tracerChemical> - 
+    filled cells lies diagonally across the upper part of the ventral 
+    horn , ventral and slightly caudal to IGZ , but ipsilateral to the 
+    site of injection .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s139"><labelingDescription>Labelled 
+    cells</labelingDescription> are most numerous in 
+    <labelingLocation>the lateral region</labelingLocation> , and some 
+    cells spill over the graylwhite boundary into <labelingLocation>the 
+    lateral funiculus</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s140"><labelingLocation>The group</labelingLocation> is 
+    present from the medulldcord junction to the fifth cervical segment 
+    and is most prominent in C1 - C3.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s141">Rare members of the group are seen as far caudally as 
+    <labelingLocation>lower thoracic and upper lumbar 
+    segments</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s142">VHd is parallel to the other four spinothalamic laminae 
+    (M, SGv, N, and IGZ), but it differs from all the other 
+    spinothalamic groups in that it is ipsilateral to the site of 
+    injection.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s143">The sizes and shapes of spinothalamic cells in this 
+    lamina vary greatly from narrow fusiform to large multipolar: some 
+    of the latter may be as large as the motor neurons of the ventral 
+    horn.</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s144">Ventral part of the ventral horn (VHu).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s145"><labelingDescription>Labelled 
+    cells</labelingDescription> in this group are in 
+    <labelingLocation>the deepest part of the ventral 
+    horn</labelingLocation> .</S>
+  </Results>
+
+  <Results>
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s146">The lateral portions of VHv partly overlap the region 
+    covered  Fig. 5.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s147">Graph of the total number of spinothalamic cells ( 
+    except R59 for which <injectionLocation>the lower cord 
+    segments</injectionLocation> were not by VHd .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s148">The VHu group is seen clearly from the medulla/ cord 
+    junction to the fourth cervical segment and is most prominent in 
+    Cl-C3.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s149">Rare spinothalamic cells are seen deep in 
+    <labelingLocation>the ventral horn as far caudally as lower 
+    thoracic and upper lumbar segments</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s150">However , as with every other group except DHurn , 
+    <labelingDescription>labelled VHu cells</labelingDescription> are 
+    not only <labelingDescription>far less common</labelingDescription> 
+    in <labelingLocation>the lower cord</labelingLocation> but are more 
+    randomly arranged .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s151"><labelingDescription>Labelled 
+    neurons</labelingDescription> in this group are usually moderately 
+    large multipolar cells , <labelingDescription>whose 
+    axons</labelingDescription> may sometimes be seen in the same 
+    section as the soma , following a steep dorsomedial trajectory - 
+    possibly toward the anterior white commissure .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s152"><labelingDescription>Most cells</labelingDescription> 
+    are contralateral to the site of injection : occasional ipsilateral 
+    members are seen at upper cervical levels , and 
+    <labelingDescription>very rarely in lower thoracic 
+    segments</labelingDescription> .</S>
+    <BR />
+
+    <S avgH="25" class="results.body" format="TimesNewRomanPS-BoldMT"
+     id="s155">The set of spinothalamic groups is continuous with a set 
+    of medullothalamic groups</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s156"><labelingLocation>The division between brainstem and 
+    spinal cord</labelingLocation> is not anatomically abrupt , and 
+    some of the spinothalamic groups appear to be continuous across the 
+    cordlmedulla junction with lower brainstem nuclei ( see Fig . 3B , 
+    C ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s157">Numerous groups of <labelingDescription>labelled 
+    neurons</labelingDescription> were seen in <labelingLocation>the 
+    lower medulla</labelingLocation> , some of which ( e . g . , 
+    <labelingLocation>the trigeminal and dorsal column nuclei 
+    )</labelingLocation> are well - known sources of thalamic afTerents 
+    ( Fig . 3A , B ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s158">Brief mention will be made here regarding only those 
+    medullothalamic groups that are particularly relevant to the 
+    spinothalamic study.</S>
+    <BR />
+
+    <S avgH="22" class="results.subtitle"
+     format="TimesNewRomanPS-BoldItalicMT" id="s159">
+    <labelingLocation>Dorsolateral reticular formation ( DLRF ) ( 
+    nucleus Z ? )</labelingLocation> .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s160">It is possible that this group represents the rodent 
+    counterpart of the feline nucleus Z (Brodal and Pompeiano, 
+    &apos;57).</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s161"><labelingDescription>The labelled 
+    cells</labelingDescription> lie just medial to 
+    <labelingLocation>the inferior cerebellar peduncle in the dorsal 
+    and lateral regions of the medullary gray</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s162"><labelingLocation>The group</labelingLocation> is 
+    already present at the most rostral level examined ( level 80 - 81 
+    of Pellegrino et al . , &apos; 79 ; level 45 in Fig . 3A ) and may 
+    extend more rostrally still .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s163">At this level it occupies the territory normally 
+    ascribed to <injectionLocation>the spinal vestibular 
+    nucleus</injectionLocation> , but more caudally the labelled 
+    population shifts ventral to <labelingLocation>the spinal 
+    vestibular nucleus</labelingLocation> , ending just rostral to 
+    <labelingLocation>the medial cuneate nucleus</labelingLocation> , 
+    or possibly shifting more ventrally to become continuous with 
+    <labelingLocation>the dorsomedial border of the nucleus of the 
+    trigeminal spinal tract</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s164">More than 90% of the cells in this nucleus are 
+    contralateral to the injection site.</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s165"><labelingLocation>Ventrolateral reticular formation ( 
+    VLRF ) </labelingLocation>.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s166">This group may be what is termed by others 
+    <labelingLocation>the lateral reticular formation, 
+    LRF</labelingLocation>  .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s167">It is in <labelingLocation>the most ventral region of 
+    the lower medulla</labelingLocation> , lateral to 
+    <labelingLocation>the pyramidal tract and olive</labelingLocation> 
+    .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s168">From level 46 to level 49 ( Fig . 3A ) 
+    <labelingDescription>the labelled cells</labelingDescription> form 
+    a relatively compact group ; from level 50 to level 60 ( Fig . 3A , 
+    B , <labelingLocation>the medulldcord junction )</labelingLocation> 
+    , it continues as <labelingDescription>a sparse 
+    population</labelingDescription> , and finally appears to be 
+    continuous into the spinal cord with a second concentration of 
+    ventrally placed <labelingDescription>cells</labelingDescription> - 
+    the group in <labelingLocation>the ventral part of the spinal 
+    ventral horn, VHu </labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s169"><labelingDescription>About 85 - 90% of these labelled 
+    cells</labelingDescription> are contralateral to the injection .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s170"><labelingLocation>Nucleus of the trigeminal spinal tract 
+    ( NTST )</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s171">This nucleus shows <labelingDescription>a dense 
+    concentration of labelled perikarya</labelingDescription> , which 
+    extends caudally to become continuous with <labelingLocation>the 
+    dorsal laminae of the dorsal horn of the spinal 
+    cord</labelingLocation> ( Fig . 3AC ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s172"><labelingLocation>The subdivisions of the 
+    nucleus</labelingLocation> show different degrees of labelling : 
+    <labelingLocation>subnucleus oralis fNTSTo )</labelingLocation> 
+    shows <labelingDescription>sparse labelling</labelingDescription> 
+    at its rostra1 end , increasing caudally ; 
+    <labelingLocation>subnucleus interpolaris ( NTSTi ) 
+    </labelingLocation>is <labelingDescription>extremely densely 
+    labelled</labelingDescription>  ; and <labelingLocation>subnucleus 
+    caudalis ( NTSTc )</labelingLocation> shows 
+    <labelingDescription>moderate to light 
+    labelling</labelingDescription> .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s173">Within <labelingLocation>NTSTc</labelingLocation>, 
+    lamination of labelled cells becomes apparent, and a number of 
+    subgroups can be defined that are continuous through the 
+    medulldcord junction with HRPlabelled dorsal horn laminae.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s174">For instance , <labelingDescription>labelled 
+    cells</labelingDescription> in <labelingLocation>the marginal layer 
+    capping the medullary substantia gelatinosa </labelingLocation> 
+    form a group that is continuous caudally with the spinal M group ; 
+    and cells within <labelingLocation>NTSTc</labelingLocation> that 
+    are just ventral to the medullary substantia gelatinosa compose a 
+    group that is continuous with the spinal SGU group .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s175"><labelingDescription>Other labelled 
+    cells</labelingDescription> within 
+    <labelingLocation>NTSTc</labelingLocation> are in a group that 
+    continues into <labelingLocation>the neck group ( N ) of the dorsal 
+    horn</labelingLocation> .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s176"><labelingLocation>Gracile nucleus ( GN 
+    )</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s177"><labelingDescription>Labelled 
+    cells</labelingDescription> are present throughout this nucleus , 
+    extending down through the medulldcord junction into upper cervical 
+    levels .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s178">Almost all <labelingDescription>the labelled 
+    neurons</labelingDescription> are contralateral .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s179"><labelingLocation>Lateral cuneate nucleus ( CUL 
+    )</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s180"><labelingDescription>Although a number of 
+    cells</labelingDescription> are seen that appear to be within the 
+    boundaries of CUL , the impression from the plotted data is that 
+    these really represent an overflow population of cells from GN or 
+    CUM ( see Fig . 3B , C ) .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s181"><labelingLocation>Medial cuneate nucleus ( CUM 
+    )</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s182">This nucleus also contains <labelingDescription>labelled 
+    cells</labelingDescription> throughout its length in 
+    <labelingLocation>the medulla</labelingLocation> , and labelling 
+    extends through <labelingLocation>the medulldcord junction to the 
+    upper cervical segments</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s183">As in GN and NTST , more than 98% of 
+    <labelingDescription>the labelled cells</labelingDescription> are 
+    contralateral .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s184">The thalamically projecting populations in 
+    <labelingLocation>the trigeminal and dorsal column 
+    nuclei</labelingLocation> are more strictly contralateral than any 
+    others within <labelingLocation>the medulla and spinal 
+    cord</labelingLocation> .</S>
+    <BR />
+
+    <S avgH="25" class="results.body" format="TimesNewRomanPS-BoldMT"
+     id="s185"><labelingDescription>The number of 
+    neurons</labelingDescription> projecting to thalamus in 
+    <labelingLocation>Cl - C4</labelingLocation> is much greater than 
+    the number projecting to thalamus in <labelingLocation>the whole of 
+    the rest of the spinal cord</labelingLocation></S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s186">From Table 1, summarising <labelingDescription>the 
+    counts of labelled cells</labelingDescription> in different regions 
+    , it can be seen that in every individual animal analysed , 
+    <labelingDescription>the number of labelled 
+    cells</labelingDescription> projecting to the thalamus from the 
+    four uppermost spinal segments , from the medulldcord junction 
+    through C4, is greater than the number projecting from the whole of 
+    the lower part of the spinal cord , consisting of the 27 segments 
+    from C5 down to the coccyx .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s187"><labelingDescription>The maximum proportion of labelled 
+    cells</labelingDescription> in <labelingLocation>the lower part of 
+    the cord</labelingLocation> was seen in rat R64, and amounted to 
+    only 44% of the total , or 191 cells out of 439.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s188">If one adds together the counts for all the specimens 
+    analysed , one finds that the number for the lower part of the cord 
+    amounts to only 25% of the total ( or 28% if we exclude the cells 
+    of the gracile and cuneate nuclei from the total ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s189">Admittedly, combining the data in this fashion may 
+    introduce some distortion of the figures since the various 
+    injection sites do not represent a uniform sampling of the 
+    thalamus.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s190">Nevertheless , the full set of specimens does represent 
+    a sampling of practically every region of <labelingLocation>the 
+    somatosensory thalamus</labelingLocation> , and the finding for 
+    each individual animal is qualitatively similar , whether one looks 
+    at , for example , rat R90 ( large injection into 
+    <injectionLocation>centre of thalamus</injectionLocation> and 
+    spanning practically <injectionSpread>the whole thalamus 
+    )</injectionSpread> , R99 ( injection into 
+    <injectionLocation>posteromedial pole</injectionLocation> ) , or 
+    R106 ( injection into <injectionLocation>anterior zone of 
+    transition , i . e . , anterolateral pole</injectionLocation> ) ; 
+    these three specimens have , respectively , 11% , 21% , and 34% of 
+    their <labelingDescription>labelled neurons</labelingDescription> 
+    in <labelingLocation>the lower part of the spinal 
+    cord</labelingLocation> .</S>
+    <BR />
+
+    <S avgH="25" class="results.body" format="TimesNewRomanPS-BoldMT"
+     id="s191">Most of <labelingDescription>the labelled 
+    neurons</labelingDescription> in <labelingLocation>the lower part 
+    of the spinal cord</labelingLocation> lie in a single group ( DHum 
+    ) in <labelingLocation>the ventromedial part of the dorsal 
+    horn</labelingLocation> , and are confined to 
+    <labelingLocation>segments T9 - L4</labelingLocation></S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s192">Focussing on the relatively small proportion of 
+    spinothalamic neurons detected in <injectionLocation>the lower part 
+    of the spinal cord</injectionLocation> , from C5 down to the coccyx 
+    , one finds that the great majority of these are concentrated in a 
+    single group in <labelingLocation>the ventromedial part of the 
+    dorsal horn , DHum</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s193">Aggregating the counts from all the specimens, as 
+    before, we find that 68% of the total c5-co population lie in DHvm, 
+    and that 90% of those DHum cells are concentrated in just eight 
+    segments, from T9 to L4.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s194">Again, these figures may be somewhat distorted by uneven 
+    sampling of the thalamus, but a qualitatively similar phenomenon is 
+    seen in practically every animal.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s195"><labelingDescription>The largest number of non - DHum 
+    cells</labelingDescription> detected in any single animal in 
+    <labelingLocation>the whole of the lower part of the 
+    cord</labelingLocation> was 87 out of a total c5 - co population of 
+    172 ( in R107 ) , while <labelingDescription>the largest number of 
+    DHum cells</labelingDescription> detected in any single animal in 
+    <labelingLocation>the lower part of the cord</labelingLocation> was 
+    168, out of a total c5 - co population of 191 ( in R64 ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s196">In no specimen were more than 21 DHum cells detected in 
+    <injectionLocation>the lower part of the cord outside the segments 
+    T9 -</injectionLocation> L4.</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s197">It should be noted that besides the DHvm group in 
+    segments T9 - L4, there is a large DHvm group in 
+    <labelingLocation>the upper part of the cord</labelingLocation> , 
+    in C4 and above .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s198">The total number of DHvm cells amounts to 35% of the 
+    total spinothalamic population, as judged from the composite data, 
+    and with the same provisos as before as to possible bias due to 
+    nonuniform sampling of the thalamus.</S>
+  </Results>
+
+  <Discussion>
+
+    <S avgH="25" class="discussion.heading"
+     format="TimesNewRomanPS-BoldMT" id="s199">DISCUSSION</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s200">The chief observation to emerge from these experiments 
+    is that in the rat the large majority of all monosynaptic 
+    projections from the spinal cord to the thalamus are made by 
+    neurons whose cell bodies are in the most rostral four segments of 
+    the cervical cord, and that the relatively small number of cells 
+    projecting to the thalamus from the lower part of the cord lie 
+    mostly in a single highly localised group apparently associated 
+    with the hindlimbs.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s201">This point about the craniocaudal distribution of 
+    spinothalamic cells will be discussed last, after considering three 
+    other observationsnamely, that spinothalamic cells are arranged in 
+    eight discrete groups, or nuclei; that most spinothalamic cells are 
+    contralateral to the thalamus on which they project, with one 
+    clearly ipsilateral group; and that the spinothalamic projections 
+    from individual groups are widespread but not uniform in 
+    distribution.</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s202">Spinothalamic cells are 
+    arranged into several distinct groups, or nuclei</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s203">The finding of so large a number as eight anatomically 
+    distinct groups of cells projecting from spinal cord to thalamus 
+    (Figs. 3C, 4) was unexpected, and suggests that there may be a 
+    similar diversity of functionally distinct spinothalamic 
+    pathways.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s204">The spinothalamic neurons are not confined to the dorsal 
+    horn (which is the traditional sensory domain of the spinal cord): 
+    as previous studies (reviewed below) have also shown, some of them 
+    are located in deep gray areas and even in the very deepest part of 
+    the ventral horn.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s205">The relatively discrete groups into which thalamically 
+    projecting cells are arranged for the most part do not fit easily 
+    into Rexed&apos;s (&apos;52, &apos;54) laminar classification.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s206">And particularly since results here indicate that upper 
+    cervical segments contain groups not present at other levels in the 
+    cord, it seems inappropriate to use a classification designed as a 
+    uniform description for the entire spinal cord.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s207">By the same token, in speculating about the functions of 
+    the individual groups described here, one must be cautious: it 
+    would be rash to assume, for example, that all the lamina I cells 
+    in the marginal layer of Cl-C4 have the same functional properties 
+    as the lamina I cells of the lumbar cord.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s208">This is an important point, since electrophysiological 
+    studies have tended to concentrate on the lower levels of the 
+    spinal cord, which are more easily accessible.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s209">A detailed discussion of the likely functions of the 
+    individual groups will be presented in another paper, in connection 
+    with their differential projections to the various regions of the 
+    thalamus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s210">There are, however, some general comments to be made 
+    here on the relations between the present and previous findings.</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s211">Findings of others</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s212">The major previous studies of the distribution of 
+    spinothalamic and trigeminothalamic cells in the rat have been 
+    those of Dilly et al. (&apos;681, Giesler et al. (&apos;76, 
+    &apos;79a), Fukushima and Kerr (&apos;79), Kevetter and Willis 
+    (&apos;831, and Men&amp; trey et al. (&apos;84b).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s213">These studies describe the pattern seen in the 
+    transverse plane at selected levels.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s214">The present work is, however, the first to record 
+    systematically the distribution throughout the whole length of the 
+    spinal cord.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s215">The previous findings as to the distribution of 
+    spinothalamic cells in the transverse plane, as seen at rostral 
+    levels, are basically in accord with the present results: no groups 
+    of cells were seen in regions where the present study saw none, nor 
+    does the present study find spinothalamic cells where none were 
+    found before.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s216">However, the arrangement of the spinothalamic cells into 
+    eight relatively discrete groups, clear when the data from many 
+    animals are superimposed, as here, is not generally apparent in the 
+    previous studies.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s217">While some groups, such as LEN, VHd, and (in certain 
+    figures) M and DHum, were obvious, others, more sparsely populated, 
+    were not resolved as separate, but appeared merged into a single 
+    diffuse distribution.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s218">Moreover, the previous studies offer a somewhat 
+    different view of the rostrocaudal distribution of the 
+    spinothalamic cells (see below).</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s219">Much work has been done on the laminar arrangement of 
+    spinothalamic neurons, as seen in transverse sections, in other 
+    species besides the rat (cat: Carstens and Trevino, &apos;78a,b; 
+    Dilly et al., &apos;68; Trevino, &apos;76; Trevino and Carstens, 
+    &apos;75a,b; monkey: Albe-Fessard et al., &apos;75; Giesler et al., 
+    &apos;81b; Levante et al., &apos;73; Trevino, &apos;76; Trevino and 
+    Carstens, &apos;75a,b; Willis et al., &apos;78, &apos;79).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s220">The most comprehensive studies-those of Trevino and 
+    Carstens (&apos;75a,b) on cat and monkey, of Carstens and Trevino 
+    (&apos;78a) on cat, and of Willis et al. (&apos;79) on the 
+    monkey-show many similarities with the present results.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s221">Moreover, if, instead of following the Rexed laminar 
+    classifications used by these authors, comparison is made between 
+    original figures, it becomes clear that some of the apparent 
+    species differences are largely a matter of nomenclature.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s222">All the groups seen here in the upper cervical segments 
+    of the spinal cord have counterparts in similar locations in the 
+    cat (see, for example, Carstens and Trevino, &apos;78a), except 
+    that no distinct SGU group is apparent.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s223">At upper cervical levels in the monkey, the groups 
+    reported here for the rat again have similar counterparts, except 
+    for SGu, DHum, and IGZ (see, for example, Trevino, &apos;76; 
+    Trevino and Carstens, &apos;75a,b).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s224">At lumbar levels, the apparent species differences are 
+    more marked: in cat, as in rat, DHvm is the most prominent group; 
+    but more cells are also seen in the marginal zonehubstantia 
+    gelatinosa (M and possibly SGv) and the neck of the dorsal horn (N) 
+    (Trevino and Carstens, &apos;75a,b; Willis et al., &apos;79).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s225">In the monkey there does not seem to be a DHvm group, 
+    but a possible counterpart is visible in a more diffuse and 
+    slightly more ventral group of spinothalamic cells in the 
+    dorsomedial part of the ventral horn.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s226">The DHvm group is of special interest, since it is the 
+    only major spinothalamic group in the lower part of the cord of the 
+    rat, and also contains a major part of the spinothalamic population 
+    in the upper part of the cord.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s227">Menetrey et al. (&apos;84b) have shown that at lumbar 
+    levels it deals with information from the hindlimbs, and that its 
+    cells are driven by a combination of proprioceptive and cutaneous 
+    inputs in a manner that suggests a role in the monitoring or 
+    control of hindlimb movement.</S>
+    <BR />
+
+    <S avgH="25" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s228">Most spinothalamic cells 
+    are contralateral to the thalamus on which they project; one group 
+    in the dorsal part of the ventral horn, VHd, is ipsilateral</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s229">In agreement with previous accounts of the spinothalamic 
+    tract, and with traditional spinothalamic tract concepts, most of 
+    the spinothalamic cells seen in this study are contralateral to the 
+    thalamus on which they project.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s230">Both clinical (e.g., French and Peyton, 48; Voris, 51; 
+    Nathan and Smith, 59; White and Sweet, 69) and experimental (e.g., 
+    Basbaum, 73; Albe-Fessard and Fessard, 75) observations have 
+    indicated, however, that there must also be ipsilateral (though not 
+    necessarily monosynaptic) cord-tothalamus routes for sensory 
+    information.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s231">VHd is the only prominent ipsilateral group in the 
+    spinal cord (though there are several others in the medulla).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s232">This group, which is largely confined to the high 
+    cervical levels, is evidently the same as the ipsilateral 
+    spinothalamic group identified by Trevino ( 76) in the monkey, and 
+    by Carstens and Trevino ( 78a,b) in the cat, and noted also by 
+    Giesler et al. ( 79a) in the rat.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s233">The function of these ipsilateral cells remains 
+    something of a mystery.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s234">Carstens and Trevino ( 78b) found that in the cat many 
+    of them were unresponsive to all the somatosensory stimuli that 
+    were tried, while others had enormous receptive fields, sometimes 
+    bilaterally symmetrical and extending over almost the entire body 
+    surface, and responded to a wide range of different types of 
+    cutaneous stimulation.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s235">The account given by Giesler et al. ( 79a) conveys the 
+    impression that there is a bilaterally projecting group of celIs in 
+    the intermediate gray zone and ventral horn of the rat at high 
+    cervical levels; but the present findings indicate that there are 
+    three different groups, closely neighbouring but in distinct 
+    locations-IGZ projecting primarily contralaterally, VHd projecting 
+    primarily ipsilaterally, and VHu projecting primarily 
+    contralaterally.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s236">It is easy to confirm that VHd and VHu only partially 
+    overlap by superimposing the composite diagram of Figure 3C on its 
+    mirror image (as is done in Fig. 4), thereby bringing the 
+    contralateral and ipsilateral populations together on the same side 
+    of the cord for comparison.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s237">Although every thalamically projecting group seen in the 
+    present experiments projects primarily to just the thalamus of one 
+    side (usually contralateral, rarely ipsilateral), small numbers of 
+    nonconformist cells are also seen.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s238">That is, in every group that projects to one thalamus, 
+    there are occasional cells projecting to the other thalamus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s239">Several of the medullary reticular formation groups have 
+    a significantly larger proportion of such cells, but as a rule in 
+    the spinal cord, such cells are few in number (less than 3%).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s240">If there are any truly bilateral connections, they may 
+    be likely to be found among these nonconformist cells.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s241">In fact, Kevetter and Willis ( 83) report, from double 
+    labelling experiments, that less than 2% of spinothalamic cells 
+    project bilaterally.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s242">It is impossible to say at present whether the smaII 
+    numbers of cells projecting atypically in each group have important 
+    functions, or merely represent developmental anomalies or 
+    superfluous connections.</S>
+    <BR />
+
+    <S avgH="25" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s243">Spinothalamic 
+    projections are widespread yet nonuniform in distribution</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s244">The composite presentation obscures the conclusions that 
+    have to do with differential projections of individual spinal 
+    groups to the various thalamic targets (studied also by Giesler et 
+    al., 76, 79a).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s245">To get that differential information, one must look at 
+    each experiment individually and compare the results of injecting 
+    HRP into different regions of the thalamus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s246">The general finding from the present experiments is that 
+    the different thalamic targets-the three somatosensory complexes, 
+    ventrobasal WB), posterolateral (LP), and intralaminar (1L)-do 
+    receive different proportions of their spinal input from the 
+    various spinal groups.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s247">And yet, most of the spinal groups project quite widely 
+    throughout the somatosensory thalamus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s248">A short way of expressing this is to say that the 
+    thalamic projection of an individual group is widespread but 
+    differential, or widespread but not uniform.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s249">Previous studies of the differential projections of 
+    spinothalamic cells in the rodent have concluded that the lateral 
+    thalamic areas receive most of their direct spinal input from the 
+    more superficial dorsal horn laminae, while the medial thalamus 
+    receives most of its spinal input from deeper laminae (Giesler et 
+    al., 76, 79a).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s250">The present experiments led basically to the same 
+    conclusion, but only for the caudal half of the thalamus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s251">In the anterior portion, the picture is somewhat 
+    different.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s252">The far anterior pole of the ventrobasal complex-the 
+    anterior zone of transition-receives most of its spinal input from 
+    DHum, and appears to receive none from M or SGU groups.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s253">DHvm projects to other areas in the anterior and middle 
+    portions of the VB, LP, and IL complexes, but probably not to the 
+    far posterior poles of either VB or K.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s254">The far posterior pole of VB receives most of its spinal 
+    input from M, SGu, N, and LCN and the far posteromedial pole of the 
+    somatosensory thalamus-the intralaminar parafascicular nucleus 
+    (IUPf)) and/or the overlying pretectal area-receives most of its 
+    spinal input from IGZ, VHd, and VHu.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s255">Most of the details of differential projections will be 
+    presented in a future paper.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s256">Just one aspect of the differential projections will be 
+    highlighted here: namely, that the anterior zone of the thalamus 
+    receives most of its spinal input from the group in the 
+    ventromedial portion of the dorsal horn, DHum; that is, from the 
+    only group that has a large representation at lower as well as 
+    higher levels of the spinal cord.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s257">Thus the three animals with the most anterior thalamic 
+    injections-R106, R63, and R64-had, respectively, 63%, 64%, and 60% 
+    of their labelled spinal cells in DHum.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s258">By comparison, the two animals with the most posterior 
+    injection sites-R99 and R105had, respectively, only 8% and 5% of 
+    their labelled spinal cells in DHum.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s259">Injections placed halfway between these poles, such as 
+    the very large injection of R90, mostly give an intermediate 
+    figure-in the case of R90,25%.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s260">The present results tally in an informative way with the 
+    findings of Lund and Webster ( 67).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s261">Their degeneration study serves to reinforce the present 
+    finding that most spinothalamic cells lie in the most rostra1 part 
+    of the cord (see below); and the present study serves to explain a 
+    main conclusion of theirs, the significance of which was previously 
+    unclear: namely, the statement that most of the rodent 
+    spinothalamic tract ends in the anterior one-third of the 
+    somatosensory thalamus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s262">To find where within the rat thalamus the spinothalamic 
+    fibres projected, those authors hemisected the spinal cord and 
+    looked for the terminal degeneration in the thalamus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s263">They observed that a hemisection at almost any level of 
+    the spinal cord resulted in thalamic degeneration that was confined 
+    mainly to the most anterior part of the somatosensory thalamus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s264">It was only when they hemisected the cord at the very 
+    highest cervical levels that they found much degeneraton extending 
+    back through the rest of the somatosensory thalamus.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s265">This is just what the present results would lead one to 
+    expect: hemisection anywhere below C3 or C4 should provoke terminal 
+    degeneration chiefly in the region of the thalamus where the 
+    projection from DHvm predominates, since this would be the only 
+    major projection that was severed; hemisection well above C3 might 
+    sever also the axons from all the other seven spinothalamic groups, 
+    and so should provoke widespread degeneration in thalamus.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s266">Lund and Webster tentatively attributed the degeneration 
+    that was seen only after high cervical hemisection to involvement 
+    of fibres coming from the lateral cervical nucleus, LCN.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s267">The present results show that LCN is only one of a 
+    family of high cervical spinothalamic groups that must contribute 
+    to the degeneration and have widespread projections in the 
+    somatosensory thalamus.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s268">A chain of evidence points to anatomical and functional 
+    connections relating group Ia afferent signals from the periphery, 
+    through the DHvm group, to the anterior zone of transition in the 
+    ventrobasal complex, and to cortical area 3a.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s269">Brown s morphological work ( 81) indicates that group Ia 
+    muscle spindle afferents have terminals in the vicinity of the DHum 
+    somata.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s270">And Menetrey et al. ( 84b) show that DHvm cells receive 
+    both cutaneous and propriospinal input from the periphery.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s271">The results reported here indicate that the DHvm group 
+    provides the major input (in terms of numbers of spinothalamic 
+    cells) to the anterior zone of transition of the ventrobasal 
+    complex.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s272">This fits with other observations that group Ia muscle 
+    afferents relay in rostral VB in the cat (Andersson et al., 66), 
+    and input from deep tissues relays in rostral VB in the monkey 
+    (Poggio and Mountcastle, 63; Albe-Fessard, 67).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s273">In the monkey at least, the most anterior portion of the 
+    ventrobasal complex (the so-called ventroposterolateral nucleus 
+    pars oralis, VPLo) has been shown by Jones and Powell ( 70) to 
+    provide the most intense input to cortical area 3a, which is the 
+    transitional area between sensory and motor cortex and receives, 
+    among other inputs, information from group I muscle afferents in 
+    the cat and baboon (Oscarsson and Rosen, 66; Landgren et al., 67; 
+    Landgren and Silfvenius, 69; Phillips et al., 71) and unspecified 
+    deep stimuli in the rhesus monkey (Powell and Mountcastle, 59; 
+    cited in Jones and Powell, 73).</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s274">The majority of 
+    spinothalamic cells are in the highest four cervical segments</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s275">Perhaps the most important finding of the present study 
+    is the observation that the large majority of spinothalamic cells 
+    in the rat are found in the very most rostral levels of the cord, 
+    rostral even to the cervical enlargement proper.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s276">Moreover, the more caudal spinothalamic neurons (those 
+    below C4) lie mostly in a single group, DHvm, confined primarily to 
+    segments T9-L4, and are apparently involved in proprioceptive 
+    sensation in the hindlimbs (Menetrey et al., 84a).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s277">Setting aside the DHvm group in segments T9L4, the 
+    largest number of spinothalamic neurons detected in the whole of 
+    the spinal cord below C4 in any single animal was 94 (in R107).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s278">In terms of the aggregated data for all the animals, the 
+    cells in the 27 segments below C4 that do not belong to the DHvm 
+    group in T9-L4 add up to only 10% of the total spinothalamic 
+    population.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s279">Even allowing for uneven representaton of different 
+    parts of the rat s body, it seems unlikely that so small a 
+    population of cells could play more than a minor part in relaying 
+    the sensations of pain and temperature from the whole of the body, 
+    from the neck down, or that they could contribute more than a tiny 
+    proportion of the tens of thousands of axons that constitute the 
+    anterolateral funiculus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s280">It seems that the traditional simple conception of the 
+    human spinothalamic tract, as presented in elementary textbooks, 
+    can scarcely be regarded as even an approximation to the truth for 
+    the rat; for according to this conception, the major spinothalamic 
+    projection, conveying pain and temperature information, should be 
+    made from cells distributed along the whole length of the spinal 
+    cord, with their somata close to the sites of entry of the 
+    associated primary afferents, and their axons in the anterolateral 
+    fasciculus contralateral to the primary afferents.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s281">The present observations suggest that, in the rat at 
+    least, one must invoke other pathways, such as the well-established 
+    spinoreticulothalamic, not merely as a supplement to the 
+    traditional spinothalamic tract, but as a substitute for it.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s282">Validity of the observations (technical 
+    considerations).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s283">In view of the apparent conflict with tradition, and 
+    before pursuing this line of argument further, the present findings 
+    must be scrutinised with respect to two questions of experimental 
+    technique.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s284">First, is the experimental method efficient for 
+    detecting caudally placed spinal neurons projecting to the thalamic 
+    injection sites?</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s285">The speed of retrograde axonal transport in mammals is 
+    of the order of 200 mm or more per day (Grafstein and Forman, go), 
+    so that the 48-hour survival time used in these experiments should 
+    certainly have been sufficient-long enough for transport of HRP 
+    over a distance of at least 400 mm, which is three or four times 
+    the distance from thalamus to coccyx.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s286">In any case, although most of the spinothalamic cells 
+    that were detected lay at high cervical levels, a second major 
+    concentration (the DHvm group) was also seen regularly at lower 
+    thoracichpper lumbar levels.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s287">This argues against the possibility that the relatively 
+    low numbers of labelled cells in the thoracic and lumbar segments 
+    might have been due to a technical artifact related to tissue 
+    processing or insufficient survival times.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s288">Variation of the order in which the tissue was cut and 
+    processed (i.e., caudal to rostral vs. rostral to caudal) made no 
+    apparent difference in the craniocaudal distribution of labelled 
+    cells (personal observations).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s289">Admittedly, it is conceivable that some parts of the 
+    spinothalamic population might be underrepresented in consequence 
+    of a feeble capacity for uptake of HRP from the injection site; but 
+    there is no reason to expect that this would affect the lower 
+    levels of the spinal cord more than the higher.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s290">Thus, it is likely that the present findings are a fair 
+    reflection of the relative paucity of neurons at thoracic and 
+    lumbar levels projecting to the thalamic injection sites.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s291">The second technical question is whether one can be sure 
+    that the injections adequately sampled the somatosensory 
+    thalamus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s292">The target areas were (1) the ventrobasal complex (VB); 
+    (2) the posterolateral complex (LP) (now usually called the 
+    posterior (PO) or posteromedial (POm) complex, although the terms 
+    are not exactly synonymous); and (3) the intralaminar complex 
+    (IL).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s293">All of these areas were sampled in the present work, as 
+    shown by Figure 2 and the isometric diagram in Figure 1A.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s294">But do these areas constitute the entire somatosensory 
+    thalamus?</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s295">The question is complicated by lack of consistency in 
+    the nomenclature of different authors.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s296">This is particularly true concerning PO and/or POm, 
+    which is now widely recognised as a major thalamic sensory nucleus, 
+    but previously was not.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s297">The terms posterior thalamic region, posterior nuclear 
+    complex, posterior nucleus, or posterior group (all abbreviated 
+    PO); and posteromedial nucleus, or medial division of the posterior 
+    group (both abbreviated POm), have been used by different authors 
+    in confusingly different senses (see Lund and Webster, 67; Mehler, 
+    69; Jones and Burton, 74; Burton and Jones, 76; Boivie, 78).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s298">Emmers ( 65) believes the rat PO homologue is actually 
+    within the lateral part of the ventrobasal complex.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s299">Mehler ( 69) holds that it is probably caudal to the 
+    ventroposterolateral nucleus, but certainly consists of very few 
+    cells.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s300">Lund and Webster ( 67) state that it appears to comprise 
+    the medial geniculate complex pars suprageniculata . . . and may 
+    include the nucleus posterior parabrachialis (but compare Mehler, 
+    69).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s301">Scheibel and Scheibel( 66) label as rodent PO a large 
+    area caudal to the ventrobasal complex and assert that this area 
+    receives a large amount of spinal input.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s302">Thus, by some authors definition, the rat somatosensory 
+    thalamus will have been wholly sampled in the thalamic target areas 
+    injected in this study; and by other authors definitions, the most 
+    caudal part of the rat PO (or POm) may have been missed.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s303">Slightly more widespread regions have been sampled by 
+    S.K.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s304">Kemplay and K.E.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s305">Webster (personal communication) in a later repetition 
+    of the experiments reported here, using animals that were given 
+    multiple HRP injections; by any author s definition, these covered 
+    all of PO (or POm) and yielded the same qualitative finding-namely, 
+    a relative paucity of spinothalamic cells in the lower cord.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s306">Thus one can be reasonably confident that these 
+    procedures have indeed detected a representative sample of 
+    essentially all the cells projecting directly from the spinal cord 
+    to the somatosensory thalamus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s307">Hence one can probably trust the conclusion that only a 
+    minority of these spinothalamic neurons lie at thoracic or lumbar 
+    levels, and that of that minority, only a small proportion lie 
+    outside the DHvm group.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s308">The findings of others.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s309">If this picture is accurate, why has it not been 
+    reported before?</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s310">The reason seems to lie chiefly in the way the different 
+    rostrocaudal levels have been sampled.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s311">Several of the previous studies of the distribution of 
+    spinothalamic cells in the rat focus only on the most rostral 
+    (Fukushima and Kerr, 79) or only on the lumbosacral (Kevetter and 
+    Willis 82; Menetrey et al., 84b) part of the spinal cord.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s312">None of the previous HRP studies recorded the 
+    distribution of labelled cells in every section, throughout the 
+    entire length of the spinal cord, as has been done here.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s313">Thus Kevetter and Willis ( 83) apparently examined only 
+    the upper cervical levels and the cervical and lumbar enlargements, 
+    while Giesler et al. ( 79a) show data only for spinal segments C1, 
+    C2, C7, T6, L3, and L6.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s314">For the most part these earlier findings, though they 
+    convey at first sight a different emphasis, do not conflict with 
+    the present, more complete, data.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s315">Just one of the animals illustrated by Giesler et al. ( 
+    79a) shows a concentration of cells in the neck of the dorsal horn 
+    at lumbar levels, where they were rarely seen in the present 
+    study.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s316">But this was an animal that had received six injections 
+    of HRP intended to fill the entire thalamus, and some of the HRP 
+    may have diffused beyond the boundaries of the thalamus, and in 
+    particular into brainstem areas known to receive afferents from the 
+    spinal cord, such as the zona incerta, pretectum, and superior 
+    colliculus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s317">Kevetter and Willis ( 83) also show a noticeable 
+    concentration of cells in the neck region at lumbar levels, but 
+    this may have a similar explanation, since the volume of tracer 
+    that they injected was ten times greater than in the present 
+    study.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s318">It is striking that they found the neck region at lumbar 
+    levels to contain very large numbers of labelled cells when they 
+    injected their tracer into the medullary reticular formation.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s319">Essentially similar comments apply to the published HRP 
+    studies of the distribution of spinothalamic cells in cat and 
+    monkey (cited above).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s320">In these species, too, attention has generally been 
+    focussed on a few selected rostrocaudal levels-most often high 
+    cervical, cervical enlargement, andor lumbar enlargement-and, as 
+    for the rat, it appears that through spread of the tracer some of 
+    the cells classed as spinothalamic may have been spinoreticular.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s321">It is possible that the true picture of the rostrocaudal 
+    distribution of spinothalamic cells may be roughly similar in rat, 
+    cat, and monkey.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s322">Some evidence in regard to man will be considered 
+    below.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s323">Implications.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s324">The traditional simple conception of the spinothalamic 
+    tract was developed at the end of the last century, largely on the 
+    basis of two classes of observations, attested by many 
+    investigators.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s325">First, when the anterolateral funiculus was severed, 
+    sensory deficits, especially but not exclusively with regard to 
+    pain and temperature, were seen caudal to the lesion and on the 
+    opposite side of the body; and second, after the same lesion, at 
+    least some anterograde degeneration was seen to extend up into the 
+    thalamus on the same side as the lesion (reviewed: May, 06; Willis 
+    and Coggeshall, 78).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s326">Hence it was proposed that sensations of pain and 
+    temperature were carried by neurons whose axons crossed the spinal 
+    cord close to the site of entry of the primary afferents, and ran 
+    in the anterolateral funiculus to terminate in the thalamus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s327">But it was clear from the beginning that the 
+    observations did not force this conclusion: it could not be assumed 
+    that all the axons in the anterolateral funiculus ascend as far as 
+    the thalamus; nor could it be assumed that the axons that did 
+    ascend to the thalamus were the ones carrying pain and temperature 
+    sensations.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s328">Indeed, degeneration studies (cited above, in the 
+    beginning of this paper) indicated that most spinal cord neurons 
+    with long ascending axons did not ascend as far as the thalamus, 
+    but appeared to end in the brainstem reticular formation.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s329">Thus it could be argued that routes from the spinal cord 
+    to the thalamus might be mostly polysynaptic, via a chain of relays 
+    (e.g., Ranson, 43; Basbaum, 73).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s330">And, interestingly, Rothmann ( 04- 05, cited in May, 
+    06), during the debate at the turn of the century over whether any 
+    fibres reach from the spinal cord all the way to the thalamus, 
+    affirmed that although some did, it was possible that they did so 
+    only from the most rostral cervical segments.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s331">Subsequent studies (e.g., Mehler et al., 60; Bowsher, 
+    61; Mehler, 69; Boivie, 71, 791, using the more reliable silver 
+    impregnation degeneration techniques, as well as 
+    electrophysiological studies (e.g., Trevino et al., 72, 73; 
+    AlbeFessard et al., 74; Giesler et al., 76), have shown that this 
+    speculation went too far: there are certainly some fibres that 
+    project directly to the thalamus from the more caudal parts of the 
+    spinal cord.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s332">Yet if these fibres represent only a small part of the 
+    projection ascending from the spinal cord, Rothmann s suggestion 
+    may be close to the truth.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s333">The present findings demonstrate that it is so for the 
+    rat at least: apart from the DHvm system, very few neurons project 
+    to the thalamus from the lower part of the cord; much larger 
+    numbers do so from the highest cervical levels; and it is tempting 
+    to suggest that these high cervical cells represent relays for 
+    information ascending from the lower levels.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s334">Although degeneration studies cannot give firm 
+    quantitative information, and there may well be some significant 
+    species differences, it has been repeatedly noted, by different 
+    workers and in a variety of species including man, that most of the 
+    fibres in the anterolateral funiculus appear to terminate in the 
+    reticular formation and in other regions of the brainstem, rather 
+    than in the thalamus: at least, when the funiculus is cut, most of 
+    the terminal degeneration is seen in those sites (e.g., Kuru, 
+    &apos;49; Morin et al., &apos;51; Anderson and Berry, &apos;59; 
+    Mehler et al., &apos;60; Mehler,&apos;62; Kerr, &apos;75b; Zemlan 
+    et al., &apos;78).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s335">It is well established (Purpura and Yahr, &apos;66; 
+    Iggo, &apos;73; Bonica, &apos;74; and Bonica et al., &apos;79, for 
+    reviews), and also clear from the present observations, that the 
+    thalamus in turn receives projections from many of these brainstem 
+    cell groups.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s336">The present study shows that there is no obvious 
+    dividing line between the set of cell groups projecting to the 
+    thalamus from the brainstem and those projecting from the most 
+    rostral part of the spinal cord: they all appear to belong to a 
+    single archipelago.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s337">Moreover, at least three of the groups of cells seen at 
+    high cervical levels in this study-the gracile, cuneate, and 
+    lateral cervical nuclei-are well known from previous work to be 
+    rostral relays for information ascending from caudal regions 
+    (Nathan and Smith, &apos;59; and Willis and Coggeshall, &apos;78, 
+    for reviews).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s338">The experiments of Carstens and Trevino (&apos;78b) on 
+    the VHd group in the cat suggest that the same may be true of 
+    it.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s339">In general, there is very little evidence as to the 
+    functions of the other high cervical groups seen in this study, and 
+    little to contradict the suggestion that they follow the precedent 
+    set by the gracile, cuneate, and lateral cervical nuclei.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s340">While there have been physiological investigations of 
+    cells in the appropriate Rexed laminae, such as those of 
+    Christensen and Per1 (&apos;70) on the nociceptive cells of the 
+    marginal zone, these have mostly concentrated on more caudal 
+    regions of the spinal cord (Brown, &apos;81; Willis and Coggeshall, 
+    &apos;78, for review).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s341">The one necessary qualification to the present 
+    suggestion that the high cervical groups are relays for much more 
+    caudal afferents concerns the trigeminal system: it may be that 
+    some of the cells seen in this study, especially in the groups M, 
+    SGv, and N, are relaying trigeminal input, but probably only to a 
+    very small extent if at all (Kerr, &apos;70a,b); these three groups 
+    in any case represent only a small proportion of the total high 
+    cervical spinothalamic population detected here.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s342">If it is true that the spinothalamic groups identified 
+    in this work receive input from neurons located more caudally in 
+    the spinal cord, then an obvious area of future study would be the 
+    anatomical identification of these lower links in the chain, i.e., 
+    the links between the primary afferents and the directly 
+    spinothalamic (or medullothalamic) fibres.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s343">Such identification has already been made in the case of 
+    spinal input to dorsal column nuclei (which also receive primary 
+    afferent input) (e.g., Rustioni, &apos;73, &apos;74; Rustioni and 
+    Kaufman, &apos;77; and for reviews, Nathan and Smith, &apos;59; and 
+    Willis and Coggeshall, &apos;78), and to the lateral cervical 
+    nucleus (e.g., Hongo et al., &apos;68; Bryan et al., &apos;73, 
+    &apos;74; Jankowska, &apos;75; Brown et al., &apos;76; Craig, 
+    &apos;76; Jankowska et al., &apos;76 Snow et al., &apos;76; Cervero 
+    et al., &apos;77; Willis and Coggeshall, &apos;78, for review; 
+    Giesler et al., &apos;79b, in the rat).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s344">But very little is known specifically as to the possible 
+    spinal input to the other cervical spinothalamic groups-especially 
+    those in the deeper laminae (the intermediate gray, IGZ, the 
+    ipsilaterally projecting dorsal area of the ventral horn, VHd, and 
+    the ventral extreme of the ventral horn, VHv).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s345">Certainly the idea that there are polyneuronal 
+    (multisynaptic) routes by which sensory information ascends through 
+    the spinal cord toward the brainstem, and that propriospinal and 
+    spinobulbar systems are crucial to pain sensibility, is very old 
+    (e.g., May, &apos;06; Karplus and Kreidl, &apos;25; Nathan and 
+    Smith, &apos;59; Noordenbos, &apos;59; Poggio and Mountcastle, 
+    &apos;60; Melzack and Wall, &apos;65; Basbaum, &apos;73; Kerr, 
+    &apos;75a; Wall, &apos;78; Bowsher &apos;79; Cook et al., &apos;84; 
+    Peschanski and Besson, &apos;84; and or reviews, Bonica and 
+    AlbeFessard, &apos;76; Willis and Coggeshall, &apos;78).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s346">More recently, the importance of reticular formation 
+    relays, including those in the lower medulla, in transmitting 
+    ascending sensory messages has been emphasized (Herrick and Bishop, 
+    &apos;58; Nauta and Kuypers, &apos;58; Albe-Fessard et al., 
+    &apos;74a,b; Kerr, &apos;75a,b; Nauta, &apos;75; Kevetter and 
+    Willis, &apos;82-&apos;84; Levante et al., &apos;83; Peschanski and 
+    Besson, &apos;84; Menhtrey et al., &apos;84a; Wiberg and Blomqvist, 
+    &apos;84).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s347">And Basbaum (&apos;73) has demonstrated that a short 
+    fibre, polysynaptic, propriospinal system is capable of conveying 
+    nociceptive information rostrally in the absence of the long 
+    ascending systems (Basbaum, &apos;73).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s348">Thus while the more caudal parts of the spinal cord do 
+    contain cells that project directly to the thalamus, and this 
+    projection may well play some part in the perception of pain and 
+    temperature, its role may be small compared with that of the 
+    polysynaptic pathways.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s349">Neither degeneration experiments nor 
+    electrophysiological studies, with their uncertainties of 
+    measurement, sampling, and localization, can decide quantitative 
+    questions about the relative importance of the different modes of 
+    ascent to the thalamus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s350">There are certainly species differences in the 
+    spinothalamic system (see, for example, Mehler &apos;69); but it is 
+    entirely possible that other mammals may resemble rats at least to 
+    the extent that cells projecting to the thalamus from the more 
+    caudal regions of the spinal cord are few by comparison with those 
+    projecting from the uppermost cervical segments.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s351">Relevance to man.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s352">There is some remarkable clinical evidence, first 
+    reported by Hitchcock (&apos;70, &apos;74) and since confirmed by 
+    others (Papo and Luongo, &apos;76; Nathan, &apos;77; Schvarcz, 
+    &apos;77, &apos;78; Cook et al., &apos;84), which cannot be 
+    explained by traditional views of the human spinothalamic tract, 
+    but for which the present findings suggest a straightforward 
+    interpretation.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s353">The clinical observations have to do with the 
+    consequences of commissural myelotomy, an operation in which a 
+    lesion in the midline of the spinal cord is employed to interrupt 
+    pain pathways in patients suffering from intractable pain.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s354">The rationale of the surgery is as follows: Pain, 
+    temperature, and crude touch primary efferents terminate in the 
+    cord at or close to their level of dorsal root entry; and 
+    second-order pain and temperature fibres, arising from cells in the 
+    dorsal horn, then cross the midline close to the segment in which 
+    their cell bodies lie, before ascending in the anterolateral 
+    funiculus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s355">Primary afferents for discriminative fine touch and 
+    proprioception, by contrast, ascend through the dorsal fasciculi 
+    without crossing the midline, to synapse with the gracile and 
+    cuneate nuclei in the medulla; and it is from there that 
+    second-order neurons cross the midline to ascend to the 
+    thalamus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s356">Thus, it is hoped, by interrupting only commissural 
+    fibres of the spinal levels corresponding to the painful body 
+    region, that one should selectively abolish the pain at those body 
+    levels without losing fine touch and proprioception (and without 
+    losing the ability to feel pain at other body levels both above and 
+    below the lesion).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s357">This operation is an advance on the older technique of 
+    employing an anterolateral cordotomy (a transverse cut through all 
+    the anterolateral fibres at a particular cord level), which is 
+    necessarily more invasive and, predictably, results in loss of pain 
+    sensation at every level below and contralateral to the cordotomy, 
+    as well as interrupting all other pathways in the anterolateral 
+    funiculus.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s358">Commissural myelotomies performed at most cord levels, 
+    like anterolateral cordotomies, result in sensory deficits largely 
+    in accord with expectations.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s359">But in patients in which a commissural myelotomy is 
+    performed at the highest cervical levels or just at the medulldcord 
+    junction, sensory deficits are observed far lower in the trunk and 
+    periphery than predicted.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s360">A C1 commissural myelotomy, even one so short as to 
+    extend less than a whole segment, may be observed to result in 
+    sensory deficits over virtually the entire body-sparing perhaps 
+    only a small muzzle area of the face (Nathan, 77, and personal 
+    communication; Cook et al., 84).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s361">These findings cannot be explained by traditional 
+    concepts of the anatomy of the spinothalamic tract, and are at 
+    least consistent with a specialised rostra1 cord system of 
+    somatosensory nuclei that receive and relay sensory information to 
+    the thalamus from lower (mainly ipsilateral) levels of the 
+    neuraxis, as is proposed in the present study.</S>
+  </Discussion>
+
+  <Acknowledgements>
+
+    <S avgH="25" class="acknowledgements.heading"
+     format="TimesNewRomanPS-BoldMT" id="s362">ACKNOWLEDGMENTS</S>
+    <BR />
+
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s363">These experiments were done 
+    at King s College London, and I thank King s College and the 
+    Medical Research Council for financial support.</S>
+    <BR />
+
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s364">I am indebted to Dr.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s365">G.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s366">Vrbova and Professor G.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s367">Burnstock for their support, 
+    and to Dr.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s368">P.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s369">Nathan for helpful 
+    discussions regarding the commissural myelotomy observations, and 
+    constructive comments on the text.</S>
+    <BR />
+
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s370">I am grateful especially to 
+    Dr.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s371">J.H.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s372">Lewis for his comments and 
+    generous help with the preparation of the present paper: it owes 
+    much to him both in wording and substance.</S>
+  </Acknowledgements>
+
+  <References>
+
+    <S avgH="25" class="references.heading"
+     format="TimesNewRomanPS-BoldMT" id="s373">LITERATURE CITED</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s374">of nuclear population from microtome Abercrombie, M. 
+    (1946) Estimation sections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s375">Anat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s376">Rec. 94.239-247.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s377">Albe-Fessard, D. (1967) Organization brib.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s378">Sensory Physiol. 2:lOl-177.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s379">of somatic central projections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s380">ConAlbe-Fessard, D., and F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s381">Fessard (1975) Recent advances on the neurophysiological 
+    basis of pain sensation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s382">Acta Neurobiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s383">Exp. 35:715-740.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s384">Albe-Fessard, D., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s385">Levante, and Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s386">Lamour (1974a) Origin of spinothalamic and 
+    spinoreticular pathways in cats and monkeys.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s387">In J.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s388">Bonica (ed): Advances in Neurology, vol 4: International 
+    Symposium on Pain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s389">New York Raven Press, pp. 157-166.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s390">Albe-Fessard, D., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s391">Levante, and Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s392">Lamour (1974b) Origin of spinothalamic tract in 
+    monkeys.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s393">Brain Res. 65:503-509.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s394">Albe-Fessard, D., J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s395">Boivie, G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s396">Grant, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s397">Levante (1975) Labelling of cells in the medulla 
+    oblongata and the spinal cord of the monkey after injections of 
+    horseradish peroxidase in the thalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s398">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s399">Letts.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s400">1:75-80.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s401">Anderson, F.D., and C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s402">M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s403">Berry (1959) Degeneration studies of long ascending 
+    fibre systems in the cat brain stem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s404">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s405">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s406">Neurol. 111:195-229.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s407">Andersson, S.A., S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s408">Landgren, and D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s409">Wolsk (1966) The thalamic relay and cortical projection 
+    of group I muscle afferents from the forelimb of the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s410">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s411">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s412">(Lond.) 183576-591, Basbaum, A.I. (1973) Conduction of 
+    the effects of noxious stimulation by short-fiber multisynaptic 
+    systems of the spinal cord in rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s413">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s414">Neurol.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s415">40~699-716.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s416">Boivie, J. (1971) The termination of the spinothalamic 
+    tract in the cat: An experimental study with silver impregnation 
+    methods.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s417">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s418">Brain Res.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s419">12:331-353.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s420">Boivie, J. (1978) Anatomical observations on the dorsal 
+    column nuclei.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s421">Their thalamic projection and the cytoarchitecture of 
+    some somatosensory thalamic nuclei in the monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s422">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s423">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s424">Neurol. 178:17-48.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s425">Boivie, J. (1979) An anatomical reinvestigation of the 
+    termination of the spinothalamic tract in the monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s426">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s427">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s428">Neurol. 186~343-370.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s429">Bonica, J.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s430">(ed) (1974) Advances in Neurology, vol. 4; International 
+    Symposium on Pain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s431">New York: Raven Press.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s432">Bonica, J.J., J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s433">Lieheskind, and D.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s434">Albe-Fessard (eds) (1979) Advances in Pain Research and 
+    Therapy, vol. 3.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s435">New York Raven Press.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s436">Bowsher, D. (1957) Termination of the central pain 
+    pathway in man: The conscious appreciation of pain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s437">Brain 80:606-622.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s438">Bowsher, D. (1979) Central mechanisms of orofacial 
+    pain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s439">Br.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s440">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s441">Oral Surg. 17:185-197.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s442">Bowsher, D., and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s443">Westman (1970) The gigantocellular region and its spinal 
+    afferents: A light and electron microscope study in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s444">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s445">Anat. 10623-36.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s446">Breazile, J.E., and R.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s447">Kitchell (1968) Ventrolateral spinal cord afferents to 
+    the brain stem in the domestic pig.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s448">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s449">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s450">Neurol. 133~363-372.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s451">Brodal, A., and 0.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s452">Pompeiano (1957) The vestibular nuclei in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s453">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s454">Anat. 91:438-454.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s455">Brown, A.G. (1981) Organization Verlag.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s456">Brown, A.G., C.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s457">House, P.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s458">Rose, and P.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s459">Snow (19761 The morphology of spinocervical tract 
+    neurones in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s460">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s461">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s462">(Lond.) 260:719738.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s463">Bryan, R.N., D.1,.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s464">Trevino, J.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s465">Coulter, and W.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s466">Willis (1973) Location and somatotopic organization of 
+    the cells of origin of the spinocervical tract.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s467">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s468">Brain Res. 17:177-189.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s469">Bryan, R.N., J.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s470">Coulter, and W.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s471">Willis (1974) Cells of origin spinocervical tract in the 
+    monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s472">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s473">Weurol. 42574-586.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s474">Burton, H., and E.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s475">Jones (1976) The posterior thalamic region and its 
+    cortical projection in new and old world monkeys. 3.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s476">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s477">Neurol.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s478">168:249-302.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s479">Carstens, E., and D.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s480">Trevino (1978a) Laminar origins of spinothalamic 
+    projections in the cat as determined by the retrograde transport of 
+    horseradish peroxidase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s481">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s482">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s483">Neurol. 182151-166.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s484">Carstens, E., and D.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s485">Trevino (1978b) Anatomical and physiolgical properties 
+    of ipsilaterally projecting spinothalamic neurons in the second 
+    cervical segment of the cat s spinal cord.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s486">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s487">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s488">Neurol. 182:167-184.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s489">Cervero, F., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s490">Iggo, and V.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s491">Molony (1977) Responses of spinocervical tract neurones 
+    to noxious stimulation of the skin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s492">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s493">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s494">(Lond.) 267~537558.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s495">Christensen, B.H., and E.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s496">Per1 (1970) Spinal neurons specifically excited by 
+    noxious or thermal stimuli: Marginal zone of the dorsal horn.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s497">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s498">Neurophysiol. 33:293-307.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s499">Colman, D.R., F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s500">Scalia, and E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s501">Cahales (1976) Ligbt and electron microscope 
+    observations on the anterograde transport of horseradish peroxidase 
+    in the optic pathway in mouse and rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s502">Brain Res. 102156-163.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s503">Cook, A.W., P.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s504">Nathan, and M.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s505">Smith (1984) Sensory consequences of commissural 
+    myelotomy.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s506">A challenge to traditional anatomical concepts.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s507">Brain 107:547-568.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s508">Craig, A.D. (1976) Spinocervical tract retrograde 
+    transport of horseradish 117.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s509">Dilly, P.N., P.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s510">Wall, and K.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s511">Wehster (1968) Cells of origin of the spinothalamic 
+    tract in cat and rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s512">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s513">Neurol. 21:550-562.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s514">Edinger, L. (1889) 
+    Vergleichend-entwicklungsgeschichtliche und anatomische Studien im 
+    Bereiche des Centralnervensystems. 2.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s515">Uber die Forsetzung der hinteren Riickenmarkswurzeln zum 
+    Gehirn.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s516">Anat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s517">Anz. 4:121-128.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s518">Edinger, L. (1911) Vorlesungen uher den Bau der Nervosen 
+    Zentralorgane.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s519">F.C.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s520">Vogel, Leipzig.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s521">Emmers, R. (1965) Organisation of the first and the 
+    second somesthetic regions (SI and SII) in the rat thalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s522">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s523">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s524">Neurol. 124r215-227.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s525">Foerster, O., and 0.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s526">Gage1 (1931) Die Vorderseitenstrangdurchschneidung heim 
+    Menschen.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s527">Eine klinisch-patho-physiologisch-anatomische Studie.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s528">Z.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s529">Ges.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s530">Neurol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s531">Psychiat. 138:l-92.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s532">French, L.A., and W.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s533">Peyton (1948) Ipsilateral cordotomy.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s534">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s535">Neurosurg. 5:403-404.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s536">Fukushima, T., and F.W.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s537">Kerr (1979) Organization of trigeminal tracts and other 
+    thalamic afferent systems of the hrainstem in the rat: Presence of 
+    gelatinosa neurons with thalamic connections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s538">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s539">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s540">Neurol. 183:169-184.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s541">Giesler, G.J.Jr., D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s542">Menetrey, G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s543">Guilhaud, and J-M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s544">Besson (1976) Lumbar cord neurons at the origin of the 
+    spinothalamic tract in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s545">Brain Res. 118,320-324.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s546">Giesler, G.J.Jr., J.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s547">Cannon, G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s548">Urca, and J.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s549">Liebeskind (1978) Long ascending projections from 
+    substantia gelatinosa Rolandi and the subjacent dorsal horn in the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s550">Science 202984-986.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s551">Giesler, G.J.Jr., D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s552">MenBtrey, and A.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s553">Bashaum (1979a) Differential origins of spinothalamic 
+    tract projections to medial and lateral thalamus in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s554">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s555">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s556">Neurol. 184:107-126.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s557">Giesler, G.J.Jr., G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s558">Urca, J.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s559">Cannon, and J.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s560">Liebeskind (1979h) Response properties of neurons of the 
+    lateral cervical nucleus in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s561">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s562">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s563">Neurol. 186:65-78.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s564">Giesler, G.J.Jr., H.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s565">Spiel, and W.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s566">Willis (1981a) Organization of spinothalamic tract axons 
+    within the rat spinal cord.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s567">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s568">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s569">Neurol. 195:243-252.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s570">Giesler, G.J.Jr., R.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s571">Yezierski, K.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s572">Gerhardt, and W.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s573">Willis (1981b) Spinothalamic tract neurons that project 
+    to medial and/or lateral thalamic nuclei: Evidence for a 
+    physiologically novel population of spinal cord neurons.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s574">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s575">Neurophysiol. 46:1285-1308.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s576">Grafstein, B., and D.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s577">Forman (1980) Intracellular Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s578">Rev. 60:1167-1283.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s579">Granum, S.L. (1983) Spinothalamic and Bulhothalamic 
+    Somatosensory Connections in the Rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s580">Ph.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s581">Thesis, King s College London, University of London.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s582">Granum, S.L., and K.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s583">Wehster (1981) The lateral cervical nucleus of the rat: 
+    Its extent in the central nervous system and its connection with 
+    the thalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s584">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s585">Anat. 133:655.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s586">Granum, S.L., and K.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s587">Wehster (1982) The spinothalamic origin in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s588">Neuroscience 7:(suppl):S87.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s589">Herrick, C.J., and G.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s590">Bishop (1958) A comparative survey of the spinal 
+    lemniscus systems.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s591">In L.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s592">Proctor (ed): The Reticular Formation of the Brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s593">Boston: Little, Brown &amp;amp; Co., pp. 353-360.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s594">Hitchcock, E. (1970) Stereotactic cervical myelotomy.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s595">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s596">Neuro.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s597">Neurosurg.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s598">Psychiatry 33:224-230.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s599">Hitchcock, E. (1974) Stereotactic myelotomy.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s600">Proc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s601">SOC.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s602">Med. 67t771-772.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s603">Hongo, T., E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s604">Jankowska, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s605">Lundberg (1968) Post-synaptic excitation and inhibition 
+    from primary afferents in neurones of the spinocervical tract.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s606">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s607">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s608">CLond.) 199:569-592.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s609">Iggo, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s610">(ed) (1973) Handbook of Sensory Physiology, vol. 2: 
+    Somatosensory System.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s611">New York: Springer-Verlag.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s612">Jankowska, E. (1975) Identification of interiieurons 
+    interposed in different spinal reflex pathways.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s613">In M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s614">Santini (ed): Golgi Centennial Symposium.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s615">New York: Raven Press, pp. 235-246.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s616">Jankowska, E., J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s617">Rastad, and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s618">Westman (1976) Intracellular application of horseradish 
+    peroxidase and its light and electron microscopical appearance in 
+    spinocervical tract cells.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s619">Brain Res. 105,557-562.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s620">Jones, E.G., and T.P.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s621">Powell (1970) Connections of the somatic sensory cortex 
+    of the rhesus monkey. 111.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s622">Thalamic connections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s623">Brain 93:37-56.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s624">Jones, E.G., and T.P.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s625">Powell (1973) Anatomical organization of the 
+    somatosensory cortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s626">In A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s627">Iggo (ed): Handbook of Sensory Physiology, vol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s628">I1 The Somatosensory System.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s629">New York Springer-Verlag, pp. 579-620.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s630">Jones, E.G., and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s631">Burton (1974) Cytoarchitecture and somatic sensory 
+    connectivity of thalamic nuclei other than the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s632">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s633">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s634">Neurol. 154t395-432.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s635">Karplus, J.P., and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s636">Kreidl (1925) Ein Beitrag zur Kenntnis der 
+    Schmerzleitung im Ruckenmark. 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s637">Mitteilung.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s638">Pflugers Arch. 207t134-139.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s639">Kerr, F.W.L. (1970a) The fine structure of the 
+    suhnucleus caudalis of the trigeminal nerve.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s640">Brain Res. 23:129-145.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s641">Kerr, F.W.L. (1970h) The organization of primary 
+    afferents in the subnucleus caudalis of the trigeminal: A light and 
+    electron microscopic study of degeneration Brain Res. 
+    23t147-165.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s642">Kerr, F.W.L. (1975a) Neuroanatomical substrates cord.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s643">Pain 1.325-356.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s644">Kerr, F.W.L. (1975b) The ventral spinothalamic tract and 
+    other ascending systems of the ventral funiculus of the spinal 
+    cord.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s645">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s646">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s647">Neurol. 159:335-356.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s648">Kerr, F.W.L., and H.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s649">Lippman (1974) The primate spinothalamic tract as 
+    demonstrated by anterolateral cordotomy and commissural 
+    myelotomy.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s650">In J.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s651">Bonica (ed): Advances in Neurology, vol. 4.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s652">International Symposium on Pain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s653">New York: Raven, pp. 147-156.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s654">Kevetter, G.A., and W.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s655">Willis (1982) Spinothalamic cells in the rat lumhar cord 
+    with collaterals to the medullary reticular formation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s656">Brain Res. 238:181-185.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s657">Kevetter, G.A., and W.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s658">Willis (1983) Collaterals the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s659">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s660">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s661">Neurol. 215:453-464.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s662">Kevetter, G.A., and W.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s663">Willis (1984) Collateralization in the spinothalamic 
+    tract: New methodology to support or deny phylogenetic theories.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s664">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s665">Rev. 7tl-14.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s666">Kuru, M. (1949) Sensory Paths Tokyo: Sogensya.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s667">Landgren, S., and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s668">Silfvenius (1969) Projection to the cerebral cortex in 
+    Group I muscle afferents from the cat s hind limb.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s669">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s670">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s671">(Lond.) 200~353-372.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s672">Landgren, S., H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s673">Silfvenius, and D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s674">Wolsk (1967) Somato-sensory paths to the second cortical 
+    projection area of the group I muscle afferents.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s675">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s676">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s677">(Lond.) 191t543-559.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s678">Gros Clark, W.E. (1936) The termination of ascending 
+    thalamus of the macaque monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s679">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s680">Anat. 7It7-40.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s681">Levante, A,, Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s682">Lamour, and D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s683">Alhe-Fessard (1973) Localisation dans la couche V de 
+    Rexed des cellules dorigine dun faisceau spino-thalamique croise 
+    chez le Macaque.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s684">C.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s685">Acad.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s686">Sci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s687">Paris 276:1589-1592.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s688">Lund, R.D., and K.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s689">Webster (1967) Thalamic afferents from the cord and 
+    trigeminal nuclei.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s690">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s691">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s692">Neurol. 130313-328.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s693">May, W.P. (1906) The afferent path.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s694">Brain 293 42-803.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s695">Mehler, W.R. (1962) The anatomy of the so-called pain 
+    tract in man: An analysis of the course and distribution of the 
+    ascending fibers of the fasciculus anterolateralis.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s696">In J.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s697">Porter and R.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s698">French (eds): Basic Research in Paraplegia.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s699">Springfield Thomas, pp. 26-55.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s700">Mehler, W.R. (1969) Some neurological species 
+    differences-- a posteriori .</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s701">Ann.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s702">N.Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s703">Acad.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s704">Sci. 167t424-468.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s705">Mehler, W.R., M.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s706">Feferman, and W.J.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s707">Nauta (1960) Ascending axon degeneration following 
+    anterolateral cordotomy.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s708">An experimental study in the monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s709">Brain 83r718-750.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s710">Melzack, R., and P.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s711">Wall (1965) Pain mechanisms: 150:971-979.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s712">Menetrey, D., J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s713">De Pommery, and J-M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s714">Besson (1984a) Electrophysiological characteristics of 
+    lumhar spinal cord neurons backfired from lateral reticular nucleus 
+    in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s715">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s716">Neurophysiol. 52:595-611.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s717">Menetrey, D., J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s718">De Pommery, and F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s719">Roudier (1984b) Properties of deep spinothalamic tract 
+    cells in the rat, with spinal reference to ventromedial zone of 
+    lumhar dorsal horn.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s720">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s721">Neurophysiol. 52:612-624.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s722">Morin, F., H.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s723">Schartz, and J.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s724">O Leary (1951) Experimental study of the spinothalamic 
+    and related tracts.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s725">Acta Psychiatr.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s726">Neurol. 26:371-396.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s727">Mott, F.W. (1892) Ascending degenerations resulting from 
+    lesions of the spinal cord in monkeys.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s728">Brain 15:215.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s729">Mott, F.W. (1895) Experimental enquiry upon the afferent 
+    tracts of the CNS of the monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s730">Brain 18:1-20.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s731">Nahin, R.L., A.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s732">Madsen, and G.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s733">Giesler Jr. (1983) Anatomical and physiological studies 
+    of the grey matter surrounding the spinal cord central canal.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s734">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s735">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s736">Neurol. 22Ot321-335.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s737">Nathan, P.W. (1977) Pain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s738">Br.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s739">Med.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s740">Bull. 33t149-156.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s741">Nathan, P.W., and M.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s742">Smith (1959) Fasculii proprii of the spinal cord in man: 
+    Review of the present knowledge.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s743">Brain 82;610-668.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s744">Nauta, W.J.H. (1975) Anatomical organization of pain 
+    pathways in the central nervous system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s745">In S.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s746">Snyder and S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s747">Matthysse (eds): Opiate Receptor Mechanisms.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s748">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s749">Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s750">Prog.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s751">Bull. 13:84-87.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s752">Nauta, W.J.H., and H.G.J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s753">Kuypers (1958) Some ascending pathways in the brain stem 
+    reticular formation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s754">In H.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s755">Jasper et al.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s756">(eds): Reticular Formation of the Brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s757">Henry Ford Hospital Interational Symposium.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s758">Boston: Little, Brown and Co., pp. 3-30.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s759">Noordenbos, W. (1959) Pain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s760">Amsterdam: Elsevier.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s761">Oscarsson, O., and I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s762">Rosen (1966) Short-latency projections to the cat s 
+    cerebral cortex from skin and muscle afferents in the contralateral 
+    forelimb.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s763">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s764">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s765">(Lond.) 182162-184.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s766">Papo, I., and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s767">Luongo (1976) High cervical commissural myelotomy in the 
+    treatment of pain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s768">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s769">Neurol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s770">Neurosurg.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s771">Psychiatr. 39t705-710.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s772">Pellegrino, L.J., AS.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s773">Pellegrino, and A.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s774">Cushman (1979) A Stereotaxic Atlas of the Rat Brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s775">New York: Plenum.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s776">Peschanski, M., and J-M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s777">Besson (1984) A spino-reticulothalamic pathway in the 
+    rat: An anatomical study with reference to pain transmission.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s778">Neuroscience 12: 165-178.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s779">Peschanski, M., P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s780">Mantyh, and J-M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s781">Besson (1983) Spinal afferents to the ventrobasal 
+    thalamic complex in the rat: An anatomical study using wheatgerm 
+    agglutinin conjugated to horseradish peroxidase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s782">Brain Res. 2782.40-244.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s783">Phillips, C.G., T.P.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s784">Powell, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s785">Wiesendanger (1971) Projection from low-threshold muscle 
+    afferents of hand and forearm to area 3a of baboon s cortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s786">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s787">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s788">(Lond). 217:419-446.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s789">Poggio, G.F., and V.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s790">Mountcastle (1960) A study of the functional 
+    contributions of the lemmscal and spinothalamic systems to somatic 
+    sensibility.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s791">Bull.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s792">Johns Hopkins Hosp. 106226-316.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s793">Poggio, G.F., and V.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s794">Mountcastle (1963) The functional trobassal thalamic 
+    neurons studied in unanesthetized rophysiol. 26,775-806.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s795">Powell, T.P.S., and V.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s796">Mountcastle (1959) Some aspects of the functional 
+    organization of the cortex of the post-central gyrus of the monkey: 
+    A correlation of findings obtained in a single unit analysis with 
+    cytoarchitecture.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s797">Bull.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s798">Johns Hopkins Hosp. 105133-162.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s799">Purpura, D.P., and M.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s800">Yahr (eds) (1966) The Thalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s801">London: Columbia University Press.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s802">Ranson, S.W. (1943) The Anatomy of the Saunders.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s803">Rexed, B. (1952) The cytoarchitectonic cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s804">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s805">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s806">Neurol. 96t415-495.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s807">Rexed, B. (1954) A cytoarchitectonic atlas Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s808">Neurol. 100:297-379.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s809">Rothmann, M. (1904-5) iiber kombinierte Auschaltung 
+    centripetaler tungshahnen im Riickenmark.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s810">Berlin: Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s811">Gesellsch., no.13.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s812">Rustioni, A. (1973) Non-primary afferents to the nucleus 
+    gracilis from the lumbar cord of the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s813">Brain Res. 51:81-95.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s814">Rustioni, A. (1974) Non-primary afferents to the cuneate 
+    lumbar cord of the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s815">Brain Res. 75247-259.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s816">Rustioni, A., and A.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s817">Kaufman (1977) Identification of cells of origin of 
+    non-primary afferents to the dorsal column nuclei of the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s818">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s819">Brain Res. 27.1-14.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s820">Scheibel, M.E., and A.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s821">Scheibel(1966) Patterns of organization in specific and 
+    nonspecific thalamic fields.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s822">In D.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s823">Purpura and M.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s824">Yahr (eds): The Thalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s825">New York and London: Columbia Univ.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s826">Press, pp. 1346.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s827">Schroeder, D.M., and J.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s828">Jane (1971) Projection of dorsal column and spinal cord 
+    to brainstem and thalamus in the tree shrew, glis.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s829">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s830">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s831">Neurol. 142t309-350.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s832">Schroeder, D.M., and J.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s833">Jane (1971) Projection of dorsal column nuclei and 
+    spinal cord to brainstem and thalamus in the tree shrew, Tupia 
+    glis.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s834">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s835">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s836">Neurol. 142309-350.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s837">Schvarcz, J.R. (1977) Functional exploration of the 
+    tion.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s838">Acta Neurochirurg.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s839">Suppl. 24t179-185.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s840">Schvarcz, J.R. (1978) Spinal cord stereotactic 
+    techniques re trigeminal nucleotomy and extralemniscal 
+    myelotomy.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s841">Appl.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s842">Neurophysiol. 41r99112.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s843">Smith, M.C. (1976) Retrograde cell changes in human 
+    spinal cord after anterolateral cordotomies.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s844">Location and identification after different periods of 
+    survival.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s845">In J.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s846">Bonica and D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s847">Albe-Fessard (eds): Advances in Pain Research and 
+    Therapy, vol 1.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s848">New York: Raven Press. pp. 9198.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s849">Snow, P.J., P.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s850">Rose, and A.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s851">Brown (1976) Tracing axons and axon collaterals of 
+    spinal neurons using intracellular injection of horseradish 
+    peroxidase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s852">Science 191:312-313.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s853">Spiller, W.G. (1905) The location within the spinal cord 
+    of fibres for temperature and pain sensation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s854">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s855">Nerv.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s856">Ment.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s857">Dis. 32:318-320.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s858">Trevino, D.L. (1976) The origin and projections of a 
+    spinal nociceptive and thermoreciptive pathway.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s859">In Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s860">Zotterman (ed): Sensory Functions of the Skin in 
+    Primates, With Special Reference to Man.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s861">Oxford: Pergamon Press, pp. 367-377.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s862">Trevino, D.L., and E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s863">Carstens (1975a) Confirmation of the location of 
+    spinothalamic neurons in the cat and monkey by the retrograde 
+    transport of HRP.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s864">Brain Res. 9:177-182.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s865">Trevino, D.L., and E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s866">Carstens (1975b) Location of the cells of origin of the 
+    spinothalamic tract in the cat and rhesus monkey as determined by 
+    the retrograde transport of HRP.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s867">Anat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s868">Rec. 181:494-495.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s869">Trevino, D.L., R.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s870">Maunz, R.N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s871">Bryan, and W.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s872">Willis (1972) Location of cells of origin of the 
+    spinothalamic tract in the lumbar enlargment of cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s873">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s874">Neurol. 34:64-77.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s875">Trevino, D.L., J.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s876">Coulter, and W.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s877">Willis (1973) Location of cells of origin of 
+    spinothalamic tract in lumbar enlargement of the monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s878">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s879">Neurophysiol. 36:750-761.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s880">Voris, H.C. (1951) Ipsilateral sensory loss following 
+    cordotomy: A report of a case.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s881">Arch.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s882">Neurol Psychiatr. 65:95-96.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s883">Wall, P.D. (1978) The gate control theory of pain 
+    mechanisms.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s884">A reexmination and restatement.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s885">Brain I01:1-18.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s886">Wall, P.D., and R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s887">Dubner (1972) Somatosensory pathways.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s888">Ann.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s889">Rev.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s890">Neurophysiology 34:315-336.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s891">White, J.C., and W.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s892">Sweet (1969) Pain and the neurosurgeon.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s893">Springfield: Thomas.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s894">Wiherg, M., and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s895">Blomqvist (1984) The spinomesencephalic tract in the 
+    cat: Its cells of origin and termination pattern as demonstrated by 
+    the intraaxonal transport method.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s896">Brain Res. 291:l-18.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s897">Willis, W.D., and R.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s898">Coggeshall(1978) Sensory Mechanisms of the Spinal 
+    Cord.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s899">New York: Plenum Press.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s900">Willis, W.D., R.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s901">Leonard, and D.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s902">Kenshalo Jr. (1978) Spinothalamic tract neurons in the 
+    substantia gelatinosa.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s903">Science 202986-988.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s904">Willis, W.D., D.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s905">Kenshalo Jr., and R.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s906">Leonard (1979) The cells of origin of the spinothalamic 
+    tract.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s907">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s908">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s909">Neurol. 188543-574.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s910">Zemlan, F.P., C.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s911">Leonard, L-M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s912">Kow, and D.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s913">F faff (1978) Ascending tracts of the lateral columns of 
+    the rat spinal cord: A study using the silver impregnation and HRP 
+    techniques.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s914">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s915">Neurol. 62298-334.</S>
+  </References>
+
+</File>
+

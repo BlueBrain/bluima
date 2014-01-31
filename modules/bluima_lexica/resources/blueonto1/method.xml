@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<synonym>
+<token canonical="FIELD POTENTIAL" ref_id="method:FIELD POTENTIAL">
+  <variant base="field potential" />
+</token>
+<token canonical="REFLEX BEHAVIOR" ref_id="method:REFLEX BEHAVIOR">
+  <variant base="eyeblink" />
+  <variant base="reflex" />
+</token>
+<token canonical="PROTEIN LOCALIZATION" ref_id="method:PROTEIN LOCALIZATION">
+  <variant base="Microdialysis" />
+  <variant base="immuno histochemistry" />
+  <variant base="two-photon microscopy" />
+  <variant base="Wester blot" />
+  <variant base="Westerblot" />
+  <variant base="histochemistry" />
+</token>
+<token canonical="GENERAL ELECTROPHYSIOLOGICAL PROPERTIES" ref_id="method:GENERAL ELECTROPHYSIOLOGICAL PROPERTIES">
+  <variant base="stimulus pulse" />
+  <variant base="resistance" />
+  <variant base="shunt level" />
+  <variant base="conductance" />
+</token>
+<token canonical="VOLTAGE CLAMP" ref_id="method:VOLTAGE CLAMP">
+  <variant base="voltage clamp" />
+</token>
+<token canonical="LIFE CYCLE BEHAVIOR" ref_id="method:LIFE CYCLE BEHAVIOR">
+  <variant base="sleep pattern" />
+</token>
+<token canonical="PATCH CLAMP" ref_id="method:PATCH CLAMP">
+  <variant base="patch clamp" />
+</token>
+<token canonical="LEARNING BEHAVIOR" ref_id="method:LEARNING BEHAVIOR">
+  <variant base="fear conditioning" />
+  <variant base="startle" />
+  <variant base="maze" />
+  <variant base="Morris water maze" />
+  <variant base="Morris water task" />
+  <variant base="fear response" />
+</token>
+<token canonical="PROTEIN INTERACTION" ref_id="method:PROTEIN INTERACTION">
+  <variant base="bindings assay" />
+</token>
+<token canonical="MEMORY BEHAVIOR" ref_id="method:MEMORY BEHAVIOR">
+  <variant base="fear response" />
+</token>
+<token canonical="CURRENT CLAMP" ref_id="method:CURRENT CLAMP">
+  <variant base="current clamp" />
+</token>
+<token canonical="AMPEROMETRY" ref_id="method:AMPEROMETRY">
+  <variant base="amperometry" />
+</token>
+<token canonical="SHARP ELECTRODE" ref_id="method:SHARP ELECTRODE">
+  <variant base="sharp electrode" />
+</token>
+<token canonical="SINGLE-UNIT RECORDING" ref_id="method:SINGLE-UNIT RECORDING">
+  <variant base="single-unit recording" />
+</token>
+<token canonical="SEQUENCING" ref_id="method:SEQUENCING">
+  <variant base="sequencing" />
+</token>
+<token canonical="CELLULAR RECONSTRUCTION" ref_id="method:CELLULAR RECONSTRUCTION">
+  <variant base="reconstruction" />
+  <variant base="tracing" />
+  <variant base="golgi stain" />
+  <variant base="golgi staining" />
+  <variant base="stain" />
+  <variant base="biocytin" />
+</token>
+<token canonical="MOLECULE BINDING" ref_id="method:MOLECULE BINDING">
+  <variant base="bindings assay" />
+  <variant base="ELISA" />
+</token>
+<token canonical="GENE PROFILING" ref_id="method:GENE PROFILING">
+  <variant base="gene profile" />
+  <variant base="gene screening" />
+</token>
+<token canonical="EXPLORATORY BEHAVIOR" ref_id="method:EXPLORATORY BEHAVIOR">
+  <variant base="elevated plus maze" />
+  <variant base="maze" />
+</token>
+<token canonical="PROTEIN IDENTIFICATION" ref_id="method:PROTEIN IDENTIFICATION">
+  <variant base="2D electrophysiology" />
+  <variant base="proteomics" />
+</token>
+</synonym>

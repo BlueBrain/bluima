@@ -1,0 +1,45 @@
+MATERIALS AND METHODS
+SLICE PREPARATION AND ELECTROPHYSIOLOGY
+350 μm thick coronal slices from 14-day-old C57BL/6 mouse
+visual cortex were prepared using a Leica VT1000-S vibratome
+with a cutting solution containing (in mM): 27 NaHCO ,
+3
+
+1.5 NaH PO , 222 Sucrose, 2.6 KCl, 3 MgSO , 0.5 CaCl . Slices
+24 4 2
+were incubated at 32°C for 30 min and then kept at room temperature for at least 30 min before transferring them to the
+recording chamber. The recording chamber was bathed in ACSF
+(pH 7.4), kept at room temperature and saturated with 95% O
+2
+
+and 5% CO , containing (in mM): 126 NaCl, 3 KCl, 2 MgSO ,
+24
+2 CaCl , 1.1 NaH PO , 26 NaHCO , and 10 dextrose. For volt-2 24 3
+age-clamp recordings, 2 μM TTX, 10 μM NBQX, and 20 μM
+APV were added to the ACSF in most cases. Unless indicated,
+neurons were held at 0 mV membrane potential. Whole-cell
+electrodes (5–7 MΩ) were used. All voltage-clamp recordings,
+except those shown in Figures 2C,D were performed with
+intracellular solution (pH 7.25), containing (in mM): 115 Cs-methanesulfonate, 20 CsCl, 10 HEPES, 2.5 MgCl , 4 Na -ATP,
+22
+0.4 Na-GTP, 10 Na -phosphocreatine, 0.6 EGTA, and 0.1 Alexa
+2
+
+Fluor 594. The voltage-clamp recordings shown in Figures 2C,D
+were done with intracellular solution (pH 7.25), containing (in
+mM): 135 K-methylsulfate, 10 KCl, 10 HEPES, 5 NaCl, 2.5 Mg-ATP, 0.3 Na-GTP, and 0.1 Alexa Fluor 594. For current clamp
+recordings, no drugs were added to the ACSF, and pipettes were
+filled with intracellular solution (pH 7.25) containing (in mM):
+128 K-methylsulfate, 10 HEPES, 4 MgCl , 4 Na-ATP, 0.4 Na-GTP,
+2
+
+10 Na-phosphocreatine, 3 ascorbic acid, and 0.1 Alexa Fluor 594.
+We performed recordings from layer 2/3 pyramidal cells
+using MultiClamp 700B (Molecular Devices) amplifiers, and
+acquired the signals through a National Instruments PCI 6259
+board with custom Matlab and C++ software. All the analysis
+was done using custom Matlab-based software.
+mIPSCs were recorded at 0 mV of holding potential in cells
+voltage-clamped with cesium-based intracellular solution.
+Sucrose-evoked mIPSCs were recorded during the 2 s following a 50 ms 1 M sucrose puff delivered with a 2.5 MΩ patch
+pipette placed at the surface of the slice, ∼20 μm away from the

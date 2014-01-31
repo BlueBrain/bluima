@@ -1,0 +1,9 @@
+T8	Gene_expression 42 52	expression
+T9	Gene_expression 981 991	expression
+T10	Gene_expression 1031 1041	expression
+E1	Gene_expression:T8 Theme:T1
+E2	Gene_expression:T9 Theme:T4
+E3	Gene_expression:T10 Theme:T6
+M1	Speculation E1
+M2	Speculation E2
+M3	Speculation E3

@@ -1,0 +1,31 @@
+*	Equiv T25 T24
+T27	Positive_regulation 73 82	activates
+T28	Entity 116 124	enhancer
+T29	Binding 673 677	bind
+T30	Entity 695 703	enhancer
+T31	Entity 711 720	promoters
+T32	Positive_regulation 711 720	promoters
+T33	Gene_expression 739 748	expressed
+T34	Positive_regulation 1129 1136	derived
+T35	Positive_regulation 1978 1986	required
+T36	Entity 2001 2009	enhancer
+T37	Transcription 2376 2400	transcriptional activity
+T38	Positive_regulation 2427 2433	depend
+T39	Entity 2553 2561	enhancer
+E1	Positive_regulation:T27 Theme:T2 Cause:T1 Site:T28
+E2	Binding:T29 Theme:T4 Theme2:T5 Site2:T31
+E3	Binding:T29 Theme:T4 Theme2:T5 Site2:T30
+E4	Positive_regulation:T32 Theme:E5
+E5	Gene_expression:T33 Theme:T7
+E6	Gene_expression:T33 Theme:T8
+E7	Gene_expression:T33 Theme:T6
+E8	Positive_regulation:T34 Theme:T12
+E9	Positive_regulation:T35 Theme:T18 Site:T36
+E10	Transcription:T37 Theme:T22
+E11	Positive_regulation:T38 Theme:E10 Cause:T23
+E12	Positive_regulation:T38 Theme:E10 Cause:T26 CSite:T39
+E13	Positive_regulation:T38 Theme:E10 Cause:T25
+M1	Negation E9
+M2	Speculation E11
+M3	Speculation E12
+M4	Speculation E13

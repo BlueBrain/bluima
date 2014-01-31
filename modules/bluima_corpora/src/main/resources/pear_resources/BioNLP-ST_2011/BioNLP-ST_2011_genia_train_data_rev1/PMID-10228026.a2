@@ -1,0 +1,47 @@
+*	Equiv T5 T6
+*	Equiv T19 T18
+T30	Positive_regulation 9 16	induced
+T31	Binding 31 38	binding
+T32	Positive_regulation 85 93	mediates
+T33	Gene_expression 113 123	expression
+T34	Localization 226 234	released
+T35	Positive_regulation 287 294	induces
+T36	Gene_expression 309 319	expression
+T37	Positive_regulation 414 423	increases
+T38	Gene_expression 456 466	expression
+T39	Negative_regulation 900 909	prevented
+T40	Positive_regulation 914 924	activation
+T41	Entity 935 943	promoter
+T42	Positive_regulation 1422 1429	induced
+T43	Binding 1430 1437	binding
+T44	Entity 1466 1492	downstream NF-kappa B site
+T45	Positive_regulation 1684 1692	inducing
+T46	Gene_expression 1700 1710	expression
+T47	Positive_regulation 1746 1755	activates
+T48	Gene_expression 1775 1785	expression
+T49	Binding 1844 1851	binding
+T50	Entity 1896 1904	promoter
+T51	Positive_regulation 1905 1910	after
+T52	Positive_regulation 1948 1958	activation
+E1	Positive_regulation:T30 Theme:E2 Cause:T1
+E2	Binding:T31 Theme:T2
+E3	Positive_regulation:T32 Theme:E4 Cause:E1
+E4	Gene_expression:T33 Theme:T3
+E5	Localization:T34 Theme:T4
+E6	Positive_regulation:T35 Theme:E7 Cause:T4
+E7	Gene_expression:T36 Theme:T5
+E8	Positive_regulation:T37 Theme:E10
+E9	Positive_regulation:T37 Theme:T8
+E10	Gene_expression:T38 Theme:T8
+E11	Negative_regulation:T39 Theme:E12
+E12	Positive_regulation:T40 Theme:T12 Site:T41
+E13	Positive_regulation:T42 Theme:E14 Cause:T17
+E14	Binding:T43 Theme:T19 Theme2:T20 Site2:T44
+E15	Positive_regulation:T45 Theme:E17
+E16	Positive_regulation:T45 Theme:E17 Cause:T23
+E17	Gene_expression:T46 Theme:T24
+E18	Positive_regulation:T47 Theme:E19 Cause:T25
+E19	Gene_expression:T48 Theme:T26
+E20	Binding:T49 Theme:T27 Theme2:T28 Site2:T50
+E21	Positive_regulation:T51 Theme:E20 Cause:E22
+E22	Positive_regulation:T52 Theme:T29

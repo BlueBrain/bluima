@@ -1,0 +1,6 @@
+T5	Transcription 214 225	transcribed
+T6	Positive_regulation 226 231	after
+T7	Gene_expression 289 299	expression
+E1	Transcription:T5 Theme:T2
+E2	Positive_regulation:T6 Theme:E1
+E3	Gene_expression:T7 Theme:T3

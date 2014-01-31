@@ -1,0 +1,10 @@
+2.2. Deriving a macroscopic cable equation of a composite
+myelinated axon
+
+Keller illustrated the use of the two-space method [4] to calculate the effective thermal conductivity of a composite medium from the steady-state heat equation. Here,
+it is used to derive a time-varying macroscopic cable equation of a composite, myelinated axon. In Keller's example [4], the thermal conductivity is varied as a function
+of axial length while the transverse conductivity remained constant. In this example,
+the axial electrical conductivity is constant but the membrane impedance varies as
+a function of axial distance.
+First, two length scales are identified: x , which describes the large-scale
+variations on the order of the applied field, and y(x ) = x /ε, which describes variations on the scale of the nodal width, δ. For example, in electromagnetic stimulation, 0 < ε ∼ O(10-5) 1 for an axon with an outer diameter of 0.001 cm. The

@@ -1,0 +1,16 @@
+*	Equiv T2 T3
+T15	Transcription 359 368	abundance
+T16	Gene_expression 919 928	expressed
+T17	Transcription 1221 1231	expression
+T18	Transcription 1502 1515	concentration
+T19	Regulation 1771 1777	affect
+T20	Transcription 1782 1791	abundance
+E1	Transcription:T15 Theme:T4
+E2	Gene_expression:T16 Theme:T8
+E3	Transcription:T17 Theme:T10
+E4	Transcription:T18 Theme:T11
+E5	Regulation:T19 Theme:E6
+E6	Transcription:T20 Theme:T14
+M1	Speculation E1
+M2	Negation E2
+M3	Negation E5

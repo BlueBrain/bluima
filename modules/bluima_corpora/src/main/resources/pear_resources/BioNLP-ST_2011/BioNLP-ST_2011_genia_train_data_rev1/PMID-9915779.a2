@@ -1,0 +1,15 @@
+*	Equiv T2 T1
+T9	Negative_regulation 1032 1042	Inhibition
+T10	Gene_expression 1190 1199	contained
+T11	Positive_regulation 1228 1237	inducible
+T12	Negative_regulation 1327 1337	inhibition
+T13	Negative_regulation 1727 1737	Inhibition
+T14	Regulation 2047 2073	transcriptional regulation
+E1	Negative_regulation:T9 Theme:T2
+E2	Gene_expression:T10 Theme:T3
+E3	Positive_regulation:T11 Theme:T4
+E4	Negative_regulation:T12 Theme:T5
+E5	Negative_regulation:T13 Theme:T7
+E6	Regulation:T14 Theme:T8
+M1	Negation E3
+M2	Speculation E6

@@ -1,0 +1,57 @@
+the local cortical architecture, especially if the stronger
+connections are distributed uniformly among neurons.
+Naturally, this description is not complete, and future studies
+should investigate whether stronger synaptic connections are
+distributed among neurons uniformly or belong preferentially to ``hub'' neurons. Also, studies involving larger
+networks of neurons will be needed to provide a more
+complete understanding of the network structure and
+function.
+Although broad distribution of synaptic connections
+strength has been seen in the cortex [6,11] and in the
+cerebellum [39], heavy-tailed distributions have not been
+suggested as suitable fits previously. For example, in the feedforward projection from granule to Purkinje cells in the
+cerebellum, the distribution was fitted by a truncated
+Gaussian distribution, argued to be optimal for information
+storage [40]. It would be interesting to see if analogous theory
+could be developed to explain the lognormal distribution
+seen among the layer 5 pyramid recurrent connections.
+Another relevant observation is that of mini-EPSC amplitudes [41], which were fitted by a Poisson distribution based
+on a binomial model of the data. In this case, however, we are
+looking at direct unitary connections between pairs of
+neurons rather than individual synapses, and such direct
+connections between nearby cortical neurons are typically
+comprised of multiple individual synapses [6,21,34,42].
+Evoked and spontaneous release may also produce different
+synaptic strength distributions because the underlying
+molecular mechanisms are different. Alternatively, the
+lognormal distribution could depend on network activity
+patterns not present in dissociated cultures.
+To illustrate the possible impact of the skeleton of strong
+connections on the network dynamics, let us consider a local
+network of layer 5 neurons occupying the 300 lm × 300 lm
+area. According to Peters et al. [43], there are 4,480 thick
+tufted layer 5 neurons under 1 mm2 of cortex, and therefore
+400 thick tufted neurons in the considered network. With a
+connection probability of 0.11, each neuron receives inputs
+from 44 others. If distribution of connection strength is
+uniform among neurons, then each neuron has only about
+2–3 connections in the greater than 2-mV range. If the
+corresponding 2–3 presynaptic neurons fire simultaneously,
+they may drive the postsynaptic neuron to fire. This suggests
+that a sparse skeleton of strong connections may drive the
+dynamics of the network. An exceptionally strong connection
+(>10 mV) may alone drive a postsynaptic neuron to fire.
+Suprathreshold EPSPs have been observed previously with
+paired recordings [37,44,45] and with calcium imaging [46].
+However, such connections occur with a very low probability
+(about 1/1000, estimated from lognormal distribution), meaning that there are only about 20 of such connections in the
+considered network and that therefore most neurons do not
+have them. Finally, inhibitory neurons may make it more
+difficult to drive a postsynaptic neuron to fire and need to be
+investigated.
+Because the highly influential, strong, and reliable (Figure
+S8) synaptic connections in the network are few in number,
+their exact connectivity pattern and properties might therefore be important and make firing patterns of the involved
+cortical neurons highly reproducible. This may be manifested
+in the simultaneous activation of several neurons in
+organized patterns during spontaneous and evoked activity

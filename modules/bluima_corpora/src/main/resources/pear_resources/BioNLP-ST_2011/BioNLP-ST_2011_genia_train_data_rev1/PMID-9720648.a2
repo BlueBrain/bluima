@@ -1,0 +1,9 @@
+T10	Regulation 864 874	regulation
+T11	Positive_regulation 899 907	mediated
+T12	Protein_catabolism 908 919	degradation
+T13	Negative_regulation 1000 1008	impaired
+E1	Regulation:T10 Theme:T7
+E2	Positive_regulation:T11 Theme:E3 Cause:T8
+E3	Protein_catabolism:T12 Theme:T9
+E4	Negative_regulation:T13 Theme:E3
+M1	Speculation E1

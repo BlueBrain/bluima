@@ -1,0 +1,8 @@
+
+
+cr: ZipXmiCollectionReader
+ directoryIterator: LargeDirectoryIterator
+ inputDirectory: /Volumes/HDD2/ren_data/data_hdd/experiments/evaluate_mongo/20130501_writeto_zipxcas
+ xmlSchemeName: XCAS
+
+ae: StatsAnnotatorPlus

@@ -1,0 +1,34 @@
+*	Equiv T2 T1
+T9	Positive_regulation 354 363	increased
+T10	Gene_expression 364 374	expression
+T11	Positive_regulation 515 536	induce an enhancement
+T12	Transcription 544 557	transcription
+T13	Transcription 705 723	transcription rate
+T14	Regulation 743 752	unchanged
+T15	Positive_regulation 878 897	increased stability
+T16	Regulation 945 966	affect the half-lives
+T17	Positive_regulation 1307 1316	increased
+E1	Positive_regulation:T9 Theme:E2
+E2	Gene_expression:T10 Theme:T2
+E3	Positive_regulation:T11 Theme:E8
+E4	Positive_regulation:T11 Theme:E7
+E5	Positive_regulation:T11 Theme:E6
+E6	Transcription:T12 Theme:T3
+E7	Transcription:T12 Theme:T4
+E8	Transcription:T12 Theme:T5
+E9	Transcription:T13 Theme:T5
+E10	Transcription:T13 Theme:T4
+E11	Transcription:T13 Theme:T3
+E12	Regulation:T14 Theme:E11
+E13	Regulation:T14 Theme:E9
+E14	Regulation:T14 Theme:E10
+E15	Positive_regulation:T15 Theme:T6
+E16	Positive_regulation:T15 Theme:T7
+E17	Regulation:T16 Theme:T6
+E18	Regulation:T16 Theme:T7
+E19	Positive_regulation:T17 Theme:T8
+M1	Negation E12
+M2	Negation E13
+M3	Negation E14
+M4	Negation E18
+M5	Negation E19

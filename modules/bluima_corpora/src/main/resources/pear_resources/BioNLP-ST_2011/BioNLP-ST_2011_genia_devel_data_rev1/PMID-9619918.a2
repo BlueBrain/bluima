@@ -1,0 +1,28 @@
+*	Equiv T4 T3
+T19	Gene_expression 121 131	expression
+T20	Binding 138 145	binding
+T21	Positive_regulation 204 211	induces
+T22	Positive_regulation 269 279	activation
+T23	Gene_expression 574 583	expressed
+T24	Positive_regulation 665 673	increase
+T25	Gene_expression 688 698	expression
+T26	Transcription 765 771	detect
+T27	Positive_regulation 1036 1045	increased
+T28	Transcription 1050 1068	abundance of mRNAs
+T29	Binding 1139 1146	binding
+E1	Gene_expression:T19 Theme:T2
+E2	Binding:T20 Theme:T4
+E3	Positive_regulation:T21 Theme:E4 Cause:E2
+E4	Positive_regulation:T22 Theme:T5
+E5	Gene_expression:T23 Theme:T7
+E6	Gene_expression:T23 Theme:T6
+E7	Positive_regulation:T24 Theme:E8 Cause:T9
+E8	Gene_expression:T25 Theme:T8
+E9	Transcription:T26 Theme:T10
+E10	Positive_regulation:T27 Theme:E13 Cause:T13
+E11	Positive_regulation:T27 Theme:E12 Cause:T13
+E12	Transcription:T28 Theme:T14
+E13	Transcription:T28 Theme:T15
+E14	Binding:T29 Theme:T16
+M1	Negation E9
+M2	Speculation E14

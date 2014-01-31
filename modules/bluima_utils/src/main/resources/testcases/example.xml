@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testSuiteCorpus xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BBRelMine"
+         version="ProtConc001 ($Revision: 58 $ $Date: 2011-11-29 18:00:59 +0100 (Tue, 29 Nov 2011) $)"
+         xsi:noNamespaceSchemaLocation="protein_concentration_testsuite.xsd">
+
+  <!-- Simplest version -->
+  <result>
+    <input>
+      <sentencesId>
+        <corpusId>PubMed</corpusId>
+        <documentId>15659591</documentId>
+        <paragraphId>1</paragraphId>
+        <sentenceNo>6</sentenceNo>
+      </sentencesId>
+      <rawContent>Using this calibration procedure, we find that mature granule cells (doublecortin-) contain approximately 40 microm, and newborn granule cells (doublecortin+) contain 0-20 microm calbindin-D28k.</rawContent>
+    </input>
+    <output>
+      <protein id="swissprot:xxx">
+        <proteinName>calbindin-D28k</proteinName>
+      </protein>
+      <cellType id="???">
+        <cellTypeName>mature granule</cellTypeName>
+        <rawContent>mature granule cells (doublecortin-)</rawContent>
+      </cellType>
+      <concentration>
+        <value>approximately 40 microM</value>
+      </concentration>
+    </output>
+    <output>
+      <protein id="swissprot:xxx">
+        <proteinName>calbindin-D28k</proteinName>
+      </protein>
+      <cellType id="???">
+        <cellTypeName>newborn granule</cellTypeName>
+        <rawContent>newborn granule cells (doublecortin+)</rawContent>
+      </cellType>
+      <concentration>
+        <value>0-20 microM</value>
+      </concentration>
+    </output>
+  </result>
+
+  <!-- Version with tokens -->
+  <result>
+    <input>
+      <sentencesId>
+        <corpusId>PubMed</corpusId>
+        <documentId>15659591</documentId>
+        <paragraphId>1</paragraphId>
+        <sentenceNo>6</sentenceNo>
+      </sentencesId>
+      <rawContent>Using this calibration procedure, we find that mature granule cells (doublecortin-) contain approximately 40 microm, and newborn granule cells (doublecortin+) contain 0-20 microm calbindin-D28k.</rawContent>
+      <tokenization>
+        <token id="1"><from>0</from><to>5</to></token>              <!-- Using -->
+        <token id="2"><from>6</from><to>10</to></token>             <!-- this -->
+        <token id="3"><from>11</from><to>22</to></token>            <!-- calibration -->
+        <token id="4"><from>23</from><to>32</to></token>            <!-- procedure -->
+        <token id="5"><from>32</from></token>                       <!-- , -->
+        <token id="6"><from>34</from><to>36</to></token>            <!-- we -->
+        <token id="7"><from>37</from><to>41</to></token>            <!-- find -->
+        <token id="8"><from>42</from><to>46</to></token>            <!-- that -->
+        <token id="9"><from>47</from><to>53</to></token>            <!-- mature -->
+        <token id="10"><from>54</from><to>61</to></token>           <!-- granule -->
+        <token id="11"><from>62</from><to>67</to></token>           <!-- cells -->
+        <token id="12"><from>68</from></token>                      <!-- ( -->
+        <token id="13"><from>69</from><to>82</to></token>           <!-- doublecortin- -->
+        <token id="14"><from>82</from></token>                      <!-- ) -->
+        <token id="15"><from>84</from><to>91</to></token>           <!-- contain -->
+        <token id="16"><from>92</from><to>105</to></token>          <!-- approximately -->
+        <token id="17"><from>106</from><to>108</to></token>         <!-- 40 -->
+        <token id="18"><from>109</from><to>115</to></token>         <!-- microm -->
+        <token id="19"><from>115</from></token>                     <!-- , -->
+        <token id="20"><from>117</from><to>120</to></token>         <!-- and -->
+        <token id="21"><from>121</from><to>128</to></token>         <!-- newborn -->
+        <token id="22"><from>129</from><to>136</to></token>         <!-- granule -->
+        <token id="23"><from>137</from><to>142</to></token>         <!-- cells -->
+        <token id="24"><from>143</from></token>                     <!-- ( -->
+        <token id="25"><from>144</from><to>157</to></token>         <!-- doublecortin+ -->
+        <token id="26"><from>157</from></token>                     <!-- ) -->
+        <token id="27"><from>159</from><to>166</to></token>         <!-- contain -->
+        <token id="28"><from>167</from><to>171</to></token>         <!-- 0-20 -->
+        <token id="29"><from>172</from><to>178</to></token>         <!-- microm -->
+        <token id="30"><from>179</from><to>193</to></token>         <!-- calbindin-D28k -->
+        <token id="31"><from>193</from></token>                     <!-- . -->
+      </tokenization>
+    </input>
+    <output>
+      <protein id="swissprot:xxx">
+        <proteinName>calbindin-D28k</proteinName>
+        <tokens>
+          <tokenId>30</tokenId>
+        </tokens>
+      </protein>
+      <cellType id="???">
+        <cellTypeName>mature granule</cellTypeName>
+        <tokens>
+          <tokenId>9</tokenId>
+          <tokenId>10</tokenId>
+          <tokenId>11</tokenId>
+          <tokenId>12</tokenId>
+          <tokenId>13</tokenId>
+          <tokenId>14</tokenId>
+          <tokenId>15</tokenId>
+        </tokens>
+      </cellType>
+      <concentration>
+        <value>approximately 40 microM</value>
+        <tokens>
+          <tokenId>16</tokenId>
+          <tokenId>17</tokenId>
+          <tokenId>18</tokenId>
+        </tokens>
+      </concentration>
+    </output>
+    <output>
+      <protein id="swissprot:xxx">
+        <proteinName>calbindin-D28k</proteinName>
+        <tokens>
+          <tokenId>30</tokenId>
+        </tokens>
+      </protein>
+      <cellType id="???">
+        <cellTypeName>newborn granule</cellTypeName>
+        <tokens>
+          <tokenId>21</tokenId>
+          <tokenId>22</tokenId>
+          <tokenId>23</tokenId>
+          <tokenId>24</tokenId>
+          <tokenId>25</tokenId>
+          <tokenId>26</tokenId>
+        </tokens>
+      </cellType>
+      <concentration>
+        <value>0-20 microM</value>
+        <tokens>
+          <tokenId>28</tokenId>
+          <tokenId>29</tokenId>
+        </tokens>
+      </concentration>
+    </output>
+  </result>
+
+</testSuiteCorpus>

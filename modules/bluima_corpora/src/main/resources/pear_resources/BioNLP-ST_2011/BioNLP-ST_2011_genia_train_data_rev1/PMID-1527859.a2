@@ -1,0 +1,11 @@
+T11	Regulation 998 1004	affect
+T12	Binding 1013 1020	binding
+T13	Positive_regulation 1377 1385	underlie
+T14	Negative_regulation 1392 1424	negative transcriptional effects
+T15	Entity 1456 1465	promoters
+E1	Regulation:T11 Theme:E2 Cause:T4
+E2	Binding:T12 Theme:T5
+E3	Positive_regulation:T13 Theme:E4
+E4	Negative_regulation:T14 Theme:T9 Site:T15
+M1	Negation E1
+M2	Speculation E3

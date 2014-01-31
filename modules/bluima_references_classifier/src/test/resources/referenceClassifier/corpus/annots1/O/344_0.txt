@@ -1,0 +1,25 @@
+gCa, gK, gL 0.3, 0.3, 0.2 mS/cm2 Yes
+VCa, VK, VL 100,-80,-60 mV No
+Vsyn(excite), Vsyn(inhib) 0, -65 mV No
+C 1 μF/cm2 No
+Iext 1 μA /cm2 Yes
+Vthresh -50 mV Yes
+Vslope 10 mV No
+gsyn(2A 3 1A, 1B) 0.1 mS/cm2 Yes
+gsyn(1A, 1B 3 2A) 0.05 mS/cm2 Yes
+fN 0.006 msec-1 Yes
+V1 -25 mV Yes
+V2 20 mV Yes
+V3 -30 mV Yes
+V4 15 mV Yes
+tS 500 msec Yes
+ginter.syn(2A 3 1A, asc) 0.03 mS/cm2 Yes
+ginter.syn(2A 3 1B, asc) 0.02 mS/cm2 Yes
+ginter.syn(1A 3 1A, desc) 0.03 mS/cm2 Yes
+ginter.syn(1A 3 2A, desc) 0.01 mS/cm2 Yes
+SMT threshold -30 mV No
+α 4 msec-1·mM-1 No
+β 2 msec-1 No
+T 1 mM No
+Spike duration 2.5 msec No
+Interspike interval 10 msec No

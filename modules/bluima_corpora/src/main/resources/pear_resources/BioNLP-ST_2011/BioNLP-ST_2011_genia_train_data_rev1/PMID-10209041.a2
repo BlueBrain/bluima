@@ -1,0 +1,29 @@
+*	Equiv T8 T9
+*	Equiv T20 T21
+*	Equiv T5 T4
+T30	Binding 38 47	interacts
+T31	Binding 264 273	interacts
+T32	Gene_expression 389 399	expression
+T33	Gene_expression 590 600	Expression
+T34	Binding 728 748	coimmunoprecipitated
+T35	Binding 838 858	coimmunoprecipitated
+T36	Entity 909 917	tyrosine
+T37	Phosphorylation 918 932	phosphorylated
+T38	Binding 1008 1018	associated
+E1	Binding:T30 Theme:T1 Theme2:T3
+E2	Binding:T31 Theme:T5 Theme2:T6
+E3	Gene_expression:T32 Theme:T5
+E4	Gene_expression:T33 Theme:T10
+E5	Binding:T34 Theme:T12 Theme2:T14
+E6	Binding:T34 Theme:T12 Theme2:T15
+E7	Binding:T34 Theme:T12 Theme2:T13
+E8	Binding:T35 Theme:T16 Theme2:T17
+E9	Binding:T35 Theme:T16 Theme2:T19
+E10	Binding:T35 Theme:T16 Theme2:T18
+E11	Phosphorylation:T37 Theme:T20 Site:T36
+E12	Binding:T38 Theme:T20 Theme2:T22
+E13	Binding:T38 Theme:T20 Theme2:T23
+M1	Negation E5
+M2	Negation E6
+M3	Negation E9
+M4	Negation E13

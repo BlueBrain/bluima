@@ -1,0 +1,68 @@
+T22	Positive_regulation 194 202	activate
+T23	Binding 291 298	binding
+T24	Positive_regulation 338 347	activator
+T25	Negative_regulation 374 383	repressor
+T26	Negative_regulation 631 638	repress
+T27	Entity 648 656	promoter
+T28	Positive_regulation 697 701	over
+T29	Gene_expression 701 711	expression
+T30	Positive_regulation 794 802	activate
+T31	Negative_regulation 813 822	inhibited
+T32	Gene_expression 827 837	expression
+T33	Positive_regulation 912 921	activated
+T34	Entity 1025 1033	promoter
+T35	Negative_regulation 1035 1045	repression
+T36	Entity 1148 1156	promoter
+T37	Regulation 1202 1212	responsive
+T38	Binding 1217 1222	binds
+T39	Positive_regulation 1327 1336	activated
+T40	Positive_regulation 1348 1358	responsive
+T41	Entity 1366 1374	promoter
+T42	Positive_regulation 1444 1451	induced
+T43	Positive_regulation 1531 1540	activated
+T44	Binding 1561 1568	binding
+E1	Positive_regulation:T22 Theme:E2
+E2	Binding:T23 Theme:T1
+E3	Positive_regulation:T24 Theme:T3 Cause:T2
+E4	Positive_regulation:T24 Theme:T4 Cause:T2
+E5	Negative_regulation:T25 Theme:T3 Cause:T2
+E6	Negative_regulation:T25 Theme:T4 Cause:T2
+E7	Negative_regulation:T26 Theme:T6 Site:T27
+E8	Negative_regulation:T26 Theme:E12
+E9	Negative_regulation:T26 Theme:E11
+E10	Negative_regulation:T26 Theme:E13
+E11	Positive_regulation:T28 Theme:E16
+E12	Positive_regulation:T28 Theme:E14
+E13	Positive_regulation:T28 Theme:E15
+E14	Gene_expression:T29 Theme:T3
+E15	Gene_expression:T29 Theme:T4
+E16	Gene_expression:T29 Theme:T7
+E17	Positive_regulation:T30 Theme:T8
+E18	Negative_regulation:T31 Theme:E30
+E19	Negative_regulation:T31 Theme:E34
+E20	Negative_regulation:T31 Theme:E31
+E21	Negative_regulation:T31 Theme:E32
+E22	Negative_regulation:T31 Theme:E33
+E23	Negative_regulation:T31 Theme:E35
+E24	Gene_expression:T32 Theme:T12
+E25	Gene_expression:T32 Theme:T11
+E26	Gene_expression:T32 Theme:T14
+E27	Gene_expression:T32 Theme:T13
+E28	Gene_expression:T32 Theme:T9
+E29	Gene_expression:T32 Theme:T10
+E30	Positive_regulation:T33 Theme:E29
+E31	Positive_regulation:T33 Theme:E24
+E32	Positive_regulation:T33 Theme:E25
+E33	Positive_regulation:T33 Theme:E26
+E34	Positive_regulation:T33 Theme:E27
+E35	Positive_regulation:T33 Theme:E28
+E36	Negative_regulation:T35 Theme:T15 Site:T34
+E37	Regulation:T37 Theme:T16 Site:T36
+E38	Binding:T38 Theme:T16 Theme2:T17 Site:T36
+E39	Positive_regulation:T39 Theme:T18 Site:T41
+E40	Positive_regulation:T40 Theme:T18 Site:T41
+E41	Positive_regulation:T42 Theme:T19
+E42	Positive_regulation:T43 Theme:E43
+E43	Binding:T44 Theme:T20
+M1	Negation E37
+M2	Negation E39

@@ -1,0 +1,23 @@
+Morphology and passive properties
+A TC cell from rat ventrobasal nucleus (shown in Fig. 1 A) (also
+see Huguenard and Prince, 1992) was reconstructed using a
+three-dimensional tracing system. The reconstructed TC cell is
+shown in Fig. 1 B (see Materials and Methods for details concerning the tracing of the cell). There were 11 primary dendrites,
+having a total length of 7095 μm; the total membrane area of the
+cell was 23,980.5 μm 2, including 2625 μm 2 for the soma, which
+was ;20 –25 μm in diameter (assuming that a 0.1 μm error on
+diameters leads to approximately 69% error on the total membrane area). The dendritic arborizations tended to be organized
+in a bush-like structure, similar to previous morphological observations (Jones, 1985).
+Voltage-clamp recordings of passive responses obtained in that
+cell are shown in Fig. 1 A. These recordings were used to estimate
+the passive parameters by fitting the model to the data (Fig. 1C).
+Because model and data correspond to the exact same cellular
+geometry, this procedure leads to a unique set of passive parameters if they are uniform (Rall et al., 1992).
+To perform passive fitting, leak currents were inserted in all
+compartments of the reconstructed cell model. The values of the
+passive parameters [leak conductance ( gL ), leak reversal potential (EL ), axial resistivity (Ra ), and specific membrane capacitance (Cm )] and the electrode series resistance (Rs ) were ob-tained by fitting the simulations to experimental data using a
+simplex algorithm (Press et al., 1986). At each iteration of the
+simplex algorithm, the model was run, and the root mean squared
+(rms) error between the experimental recording and the model
+was minimized. This procedure was repeated from different initial conditions to avoid unstable values of parameters. The values
+of passive parameters were considered uniform and were consistent with the values estimated from the recordings. Approxi-

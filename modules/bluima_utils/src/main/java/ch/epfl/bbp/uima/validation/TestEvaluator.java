@@ -1,0 +1,148 @@
+package ch.epfl.bbp.uima.validation;
+
+import java.util.Collection;
+
+import org.apache.uima.jcas.tcas.Annotation;
+
+public class TestEvaluator<T extends Annotation, U extends Annotation> {
+
+    private final Comparator<T, U> comparator;
+
+    private int expectedCnt = 0, actualCnt = 0, truePositives = 0,
+            falseNegatives = 0, falsePositives = 0;
+
+    public TestEvaluator(Comparator<T, U> comparator) {
+        this.comparator = comparator;
+    }
+
+    public Comparator<T, U> getComparator() {
+        return comparator;
+    }
+
+    public String add(Collection<T> expecteds, Collection<U> actuals) {
+        StringBuilder sb = new StringBuilder();
+
+        int _truePositives = 0;
+        int _falseNegatives = 0;
+        // int _falsePositives = 0;
+        for (T expected : expecteds) {
+            boolean _localFN = true;
+            for (U actual : actuals) {
+                if (comparator.areTheSame(expected, actual)) {
+                    _truePositives++;
+                    _localFN = false;
+                    break;// external_loop;
+                }
+            }
+            if (_localFN) {// false negative
+                _falseNegatives++;
+                sb.append("fn: " + expected.getCoveredText() + "\n");
+            }
+        }
+        int _falsePositives = 0;
+        for (U actual : actuals) {
+            boolean _localFP = false;
+            for (T expected : expecteds) {
+                if (comparator.areTheSame(expected, actual)) {
+                    _localFP = true;
+                    break;// external_loop;
+                }
+            }
+            if (!_localFP == true) {
+                _falsePositives++;
+                sb.append("fp: " + actual.getCoveredText() + "\n");
+            }
+        }
+
+        truePositives += _truePositives;
+        falsePositives += _falsePositives;
+        falseNegatives += _falseNegatives;
+        expectedCnt += expecteds.size();
+        actualCnt += actuals.size();
+        sb.append("tp:" + _truePositives + " fp:" + _falsePositives + " fn:"
+                + _falseNegatives + "\n");
+        return sb.toString();
+    }
+
+    public TestResult compare() {
+        if (expectedCnt == 0 || actualCnt == 0) {
+            return new TestResult(0, 0, 0, 0);
+        }
+
+        double precision = (truePositives + 0d)
+                / (truePositives + falsePositives + 0d);
+        double recall = (truePositives + 0d) / (expectedCnt + 0d);
+
+        return new TestResult(expectedCnt, actualCnt, precision, recall);
+    }
+
+    /**
+     * Compares the start/end on the same annotation.
+     * 
+     * @param annotation
+     * @return
+     */
+    public static <A extends Annotation> TestEvaluator<A, A> getSimpleEvaluator() {
+
+        Comparator<A, A> simpleComparator = new Comparator<A, A>() {
+            @Override
+            public boolean areTheSame(A expected, A actual) {
+                if (expected.getBegin() == actual.getBegin()
+                        && expected.getEnd() == actual.getEnd()) {
+                    return true;
+                }
+                return false;
+            }
+        };
+        return new TestEvaluator<A, A>(simpleComparator);
+    }
+
+    /**
+     * Compares the start/end on the same annotation.
+     * 
+     * @param annotation
+     * @return
+     */
+    public static <A extends Annotation, B extends Annotation> TestEvaluator<A, B> getExactEvaluator() {
+
+        Comparator<A, B> simpleComparator = new Comparator<A, B>() {
+            @Override
+            public boolean areTheSame(A expected, B actual) {
+                if (expected.getBegin() == actual.getBegin()
+                        && expected.getEnd() == actual.getEnd()) {
+                    return true;
+                }
+                return false;
+            }
+        };
+        return new TestEvaluator<A, B>(simpleComparator);
+    }
+
+    public static <A extends Annotation, B extends Annotation> TestEvaluator<A, B> getAtLeastCoveredEvaluator() {
+        Comparator<A, B> simpleComparator = new Comparator<A, B>() {
+            @Override
+            public boolean areTheSame(A expected, B actual) {
+                if (expected.getBegin() >= actual.getBegin()
+                        && expected.getEnd() <= actual.getEnd()) {
+                    return true;
+                }
+                return false;
+            }
+        };
+        return new TestEvaluator<A, B>(simpleComparator);
+    }
+
+    public static <A extends Annotation, B extends Annotation> TestEvaluator<A, B> getOverlapEvaluator() {
+        Comparator<A, B> simpleComparator = new Comparator<A, B>() {
+            @Override
+            public boolean areTheSame(A gold, B system) {
+                if (gold.getBegin() < system.getEnd()
+                        && gold.getEnd() > system.getBegin()) {
+                    return true;
+                }
+                return false;
+            }
+        };
+        return new TestEvaluator<A, B>(simpleComparator);
+    }
+}

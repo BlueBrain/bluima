@@ -1,0 +1,37 @@
+*	Equiv T3 T2
+*	Equiv T26 T27
+*	Equiv T10 T11
+T28	Regulation 357 366	regulated
+T29	Gene_expression 460 470	expression
+T30	Gene_expression 545 555	expression
+T31	Transcription 921 930	expressed
+T32	Binding 965 981	binding activity
+T33	Transcription 1002 1011	expressed
+T34	Gene_expression 1379 1388	expressed
+T35	Gene_expression 1485 1494	expressed
+T36	Gene_expression 1655 1665	detectable
+T37	Transcription 2327 2336	expressed
+T38	Regulation 2346 2354	affected
+E1	Regulation:T28 Theme:T3 Cause:T4
+E2	Gene_expression:T29 Theme:T5
+E3	Gene_expression:T30 Theme:T8
+E4	Gene_expression:T30 Theme:T7
+E5	Transcription:T31 Theme:T13
+E6	Binding:T32 Theme:T13
+E7	Transcription:T33 Theme:T14
+E8	Gene_expression:T34 Theme:T10
+E9	Gene_expression:T35 Theme:T17
+E10	Gene_expression:T35 Theme:T18
+E11	Gene_expression:T36 Theme:T20
+E12	Gene_expression:T36 Theme:T21
+E13	Gene_expression:T36 Theme:T19
+E14	Transcription:T37 Theme:T23
+E15	Transcription:T37 Theme:T22
+E16	Regulation:T38 Theme:E14
+E17	Regulation:T38 Theme:E15
+M1	Negation E8
+M2	Negation E11
+M3	Negation E12
+M4	Negation E13
+M5	Negation E16
+M6	Negation E17

@@ -1,0 +1,32 @@
+*	Equiv T7 T6
+T11	Negative_regulation 53 62	inhibitor
+T12	Positive_regulation 159 168	promotion
+T13	Protein_catabolism 185 196	degradation
+T14	Negative_regulation 321 329	inhibits
+T15	Positive_regulation 359 366	induced
+T16	Transcription 367 380	transcription
+T17	Negative_regulation 636 645	hindrance
+T18	Phosphorylation 661 676	phosphorylation
+T19	Positive_regulation 885 893	promotes
+T20	Protein_catabolism 898 921	proteolytic degradation
+T21	Negative_regulation 1108 1117	reduction
+T22	Regulation 1202 1211	modulated
+E1	Negative_regulation:T11 Theme:T1
+E2	Positive_regulation:T12 Theme:E3
+E3	Protein_catabolism:T13 Theme:T2
+E4	Negative_regulation:T14 Theme:E5
+E5	Positive_regulation:T15 Theme:E7
+E6	Positive_regulation:T15 Theme:E8
+E7	Transcription:T16 Theme:T4
+E8	Transcription:T16 Theme:T5
+E9	Negative_regulation:T17 Theme:E10
+E10	Phosphorylation:T18 Theme:T7
+E11	Positive_regulation:T19 Theme:E14
+E12	Positive_regulation:T19 Theme:E13
+E13	Protein_catabolism:T20 Theme:T8
+E14	Protein_catabolism:T20 Theme:T9
+E15	Negative_regulation:T21 Theme:T10
+E16	Regulation:T22 Theme:E15
+M1	Negation E11
+M2	Negation E14
+M3	Negation E16

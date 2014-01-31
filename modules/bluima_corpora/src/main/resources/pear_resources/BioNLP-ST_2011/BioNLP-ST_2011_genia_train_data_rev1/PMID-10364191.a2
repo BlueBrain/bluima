@@ -1,0 +1,14 @@
+T8	Protein_catabolism 57 68	proteolysis
+T9	Protein_catabolism 988 999	proteolysis
+T10	Negative_regulation 1000 1009	resistant
+T11	Gene_expression 1090 1100	expressing
+T12	Negative_regulation 1168 1178	attenuated
+T13	Positive_regulation 1352 1363	maintenance
+E1	Protein_catabolism:T8 Theme:T1
+E2	Protein_catabolism:T9 Theme:T3
+E3	Negative_regulation:T10 Theme:E2
+E4	Gene_expression:T11 Theme:T5
+E5	Negative_regulation:T12 Theme:E4
+E6	Positive_regulation:T13 Theme:T6
+M1	Negation E1
+M2	Negation E2

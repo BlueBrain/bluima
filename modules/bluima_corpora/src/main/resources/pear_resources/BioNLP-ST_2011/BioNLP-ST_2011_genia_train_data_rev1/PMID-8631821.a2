@@ -1,0 +1,20 @@
+T10	Binding 204 213	interacts
+T11	Gene_expression 391 401	expression
+T12	Regulation 648 655	control
+T13	Transcription 660 673	transcription
+T14	Negative_regulation 1405 1415	diminished
+T15	Regulation 1420 1424	role
+T16	Transcription 1470 1483	transcription
+T17	Regulation 1633 1659	transcriptional regulation
+T18	Regulation 1806 1816	regulation
+T19	Entity 1834 1842	promoter
+E1	Binding:T10 Theme:T2
+E2	Gene_expression:T11 Theme:T2
+E3	Regulation:T12 Theme:E4
+E4	Transcription:T13 Theme:T4
+E5	Negative_regulation:T14 Theme:E6
+E6	Regulation:T15 Theme:E7
+E7	Transcription:T16 Theme:T7
+E8	Regulation:T17 Theme:T8
+E9	Regulation:T18 Theme:T9 Site:T19
+M1	Speculation E3

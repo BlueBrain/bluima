@@ -1,0 +1,51 @@
+T24	Positive_regulation 0 9	Induction
+T25	Gene_expression 51 61	expression
+T26	Binding 328 335	binding
+T27	Gene_expression 490 498	appeared
+T28	Gene_expression 608 617	expressed
+T29	Gene_expression 687 697	detectable
+T30	Positive_regulation 726 735	increased
+T31	Positive_regulation 845 851	higher
+T32	Positive_regulation 898 910	upregulation
+T33	Gene_expression 930 939	synthesis
+T34	Gene_expression 955 965	appearance
+T35	Positive_regulation 1087 1094	results
+T36	Gene_expression 1102 1112	expression
+T37	Positive_regulation 1217 1226	induction
+T38	Gene_expression 1246 1255	synthesis
+T39	Positive_regulation 1260 1265	allow
+T40	Entity 1299 1310	cytoplasmic
+T41	Localization 1311 1320	reservoir
+E1	Positive_regulation:T24 Theme:E4
+E2	Positive_regulation:T24 Theme:E3
+E3	Gene_expression:T25 Theme:T3
+E4	Gene_expression:T25 Theme:T1
+E5	Binding:T26 Theme:T4
+E6	Gene_expression:T27 Theme:T6
+E7	Gene_expression:T27 Theme:T5
+E8	Gene_expression:T27 Theme:T7
+E9	Gene_expression:T28 Theme:T8
+E10	Gene_expression:T29 Theme:T9
+E11	Positive_regulation:T30 Theme:T9
+E12	Positive_regulation:T31 Theme:T13
+E13	Positive_regulation:T32 Theme:E14
+E14	Gene_expression:T33 Theme:T15
+E15	Gene_expression:T34 Theme:T16
+E16	Positive_regulation:T35 Theme:E19
+E17	Positive_regulation:T35 Theme:E21
+E18	Positive_regulation:T35 Theme:E20
+E19	Gene_expression:T36 Theme:T17
+E20	Gene_expression:T36 Theme:T19
+E21	Gene_expression:T36 Theme:T18
+E22	Positive_regulation:T37 Theme:E23
+E23	Gene_expression:T38 Theme:T20
+E24	Positive_regulation:T39 Theme:E29 Cause:E22
+E25	Positive_regulation:T39 Theme:E28 Cause:E22
+E26	Positive_regulation:T39 Theme:E27 Cause:E22
+E27	Localization:T41 Theme:T23 AtLoc:T40
+E28	Localization:T41 Theme:T21 AtLoc:T40
+E29	Localization:T41 Theme:T22 AtLoc:T40
+M1	Negation E10
+M2	Speculation E24
+M3	Speculation E25
+M4	Speculation E26

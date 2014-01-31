@@ -1,0 +1,33 @@
+*	Equiv T2 T1
+*	Equiv T11 T10
+T12	Binding 732 741	multimers
+T13	Positive_regulation 1166 1190	resulted in an increased
+T14	Entity 1191 1198	surface
+T15	Localization 1199 1209	expression
+T16	Negative_regulation 1381 1390	inhibited
+T17	Negative_regulation 1531 1538	reduced
+T18	Gene_expression 1551 1561	expression
+T19	Positive_regulation 1802 1810	increase
+T20	Phosphorylation 1870 1885	phosphorylation
+T21	Negative_regulation 1905 1912	blocked
+E1	Binding:T12 Theme:T2
+E2	Positive_regulation:T13 Theme:E7
+E3	Positive_regulation:T13 Theme:E6
+E4	Positive_regulation:T13 Theme:E5
+E5	Localization:T15 Theme:T4 AtLoc:T14
+E6	Localization:T15 Theme:T3 AtLoc:T14
+E7	Localization:T15 Theme:T5 AtLoc:T14
+E8	Negative_regulation:T16 Theme:E3 Cause:T7
+E9	Negative_regulation:T16 Theme:E2
+E10	Negative_regulation:T16 Theme:E2 Cause:T7
+E11	Negative_regulation:T16 Theme:E4 Cause:T7
+E12	Negative_regulation:T16 Theme:E3 Cause:T6
+E13	Negative_regulation:T16 Theme:E3
+E14	Negative_regulation:T16 Theme:E4
+E15	Negative_regulation:T16 Theme:E2 Cause:T6
+E16	Negative_regulation:T16 Theme:E4 Cause:T6
+E17	Negative_regulation:T17 Theme:E18
+E18	Gene_expression:T18 Theme:T9
+E19	Positive_regulation:T19 Theme:E20
+E20	Phosphorylation:T20 Theme:T11
+E21	Negative_regulation:T21 Theme:E19

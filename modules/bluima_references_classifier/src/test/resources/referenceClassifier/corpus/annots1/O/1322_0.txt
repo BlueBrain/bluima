@@ -1,0 +1,9 @@
+acoustic spectrum extracted by the LIN is encoded not
+uniformly, but rather at discrete points (samples) near the
+extrema of the wavelet transform. This, in turn, is directly
+responsible for the suppression and enhancement effects which
+endow the auditory representations V, with superior robustness in noise (Appendix B). Such waveform compression, as
+a way of suppressing interference, has long been used in
+amplifier design [40]. Note, however, that the auditory system is able to employ compression only because it preserves
+the wavelet transform from its analysis filters through the
+phase-locked activity on the auditory nerve.

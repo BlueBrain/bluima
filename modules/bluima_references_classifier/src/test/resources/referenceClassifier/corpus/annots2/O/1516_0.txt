@@ -1,0 +1,19 @@
+concave regions on the other hand get squeezed with a decreased fluid content, e.g. the constriction
+in the peanut-, cross and bone shape. This characteristic distribution of fluid content corresponds very
+well to the location of oedema in hydrocephalic brains, which form especially at the strongly convex
+ventricular horns.
+Also the fluid velocity can be seen to be the highest near the protuberances, owing partly to the
+stronger dilation and hence higher permeability in those regions and partly to the shorter distance to the
+subarachnoid space and thus steeper pressure gradient.
+While the simulation of the hydrocephalic state of the human brain is valuable for its explanations
+and its predictions, which can be compared to real hydrocephalus, it is practically more relevant to
+treat the reverse problem of recovering the original, undistorted brain configuration from the deformed
+ventricle shape and ventricular and subarachnoid pressure. Even more important is the simulation of
+treatment given a particular ventricle geometry (Sivaloganathan, personal communication): this allows
+one to predict the time evolution of brain displacement and pressure for each individual patient and might
+be used to adjust the treatment procedure, e.g. the shunt placement. In our linearly elastic model, this is
+particularly simple: due to the assumption that the deformed and undeformed configuration sufficiently
+coincide we may use the same pressure–displacement iteration that we use to compute the hydrocephalic
+state, only that the displacement is solved for in the deformed domain and that the pressures in the
+Dirichlet conditions (2.11) and (2.12) are given from measurements. If now the computed displacement
+is subtracted from the deformed brain shape, we recover the original, undistorted brain.2

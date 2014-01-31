@@ -1,0 +1,16 @@
+T10	Gene_expression 141 149	produces
+T11	Positive_regulation 202 227	by the alternative use of
+T12	Positive_regulation 344 352	activity
+T13	Entity 367 385	erythroid promoter
+T14	Binding 739 744	binds
+T15	Positive_regulation 1119 1124	drive
+T16	Gene_expression 1155 1165	expression
+T17	Positive_regulation 1284 1299	transactivation
+T18	Entity 1312 1320	promoter
+E1	Gene_expression:T10 Theme:T3
+E2	Positive_regulation:T11 Theme:E1
+E3	Positive_regulation:T12 Theme:T4 Site:T13
+E4	Binding:T14 Theme:T6
+E5	Positive_regulation:T15 Theme:E6
+E6	Gene_expression:T16 Theme:T7
+E7	Positive_regulation:T17 Theme:T9 Cause:T8 Site:T18

@@ -1,0 +1,20 @@
+T12	Positive_regulation 773 781	increase
+T13	Transcription 782 798	mRNA transcripts
+T14	Negative_regulation 1089 1097	inhibits
+T15	Positive_regulation 1102 1111	induction
+T16	Positive_regulation 1249 1257	inducing
+T17	Transcription 1264 1277	transcription
+E1	Positive_regulation:T12 Theme:E7
+E2	Positive_regulation:T12 Theme:E8
+E3	Positive_regulation:T12 Theme:E10
+E4	Positive_regulation:T12 Theme:E9
+E5	Positive_regulation:T12 Theme:E6
+E6	Transcription:T13 Theme:T6
+E7	Transcription:T13 Theme:T3
+E8	Transcription:T13 Theme:T2
+E9	Transcription:T13 Theme:T4
+E10	Transcription:T13 Theme:T5
+E11	Negative_regulation:T14 Theme:E12
+E12	Positive_regulation:T15 Theme:T7
+E13	Positive_regulation:T16 Theme:E14
+E14	Transcription:T17 Theme:T9

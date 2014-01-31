@@ -1,0 +1,22 @@
+T10	Positive_regulation 23 32	activates
+T11	Transcription 47 60	transcription
+T12	Positive_regulation 604 614	activation
+T13	Entity 636 644	promoter
+T14	Negative_regulation 671 678	abolish
+T15	Binding 725 734	homodimer
+T16	Binding 787 792	binds
+T17	Entity 797 804	B2 site
+T18	Binding 854 868	heterotetramer
+T19	Positive_regulation 956 966	activation
+T20	Entity 988 996	promoter
+T21	Positive_regulation 1000 1008	mediated
+E1	Positive_regulation:T10 Theme:E2
+E2	Transcription:T11 Theme:T1
+E3	Positive_regulation:T12 Theme:T4 Site:T13
+E4	Negative_regulation:T14 Theme:E3
+E5	Binding:T15 Theme:T5
+E6	Binding:T16 Theme:T6 Site:T17
+E7	Binding:T18 Theme:T7 Theme2:T8
+E8	Positive_regulation:T19 Theme:T9 Site:T20
+E9	Positive_regulation:T21 Theme:E8
+M1	Speculation E9

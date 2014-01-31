@@ -1,0 +1,9 @@
+T11	Positive_regulation 852 858	induce
+T12	Protein_catabolism 875 886	degradation
+T13	Positive_regulation 1198 1204	induce
+T14	Positive_regulation 1209 1219	activation
+E1	Positive_regulation:T11 Theme:E2 Cause:T5
+E2	Protein_catabolism:T12 Theme:T6
+E3	Positive_regulation:T13 Theme:E4 Cause:T8
+E4	Positive_regulation:T14 Theme:T9
+M1	Negation E1

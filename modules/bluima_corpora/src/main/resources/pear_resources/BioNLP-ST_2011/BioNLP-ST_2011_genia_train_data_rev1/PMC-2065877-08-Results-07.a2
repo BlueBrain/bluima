@@ -1,0 +1,91 @@
+T57	Negative_regulation 285 295	inhibitors
+T58	Negative_regulation 756 764	inhibits
+T59	Positive_regulation 769 779	activation
+T60	Positive_regulation 1022 1032	activation
+T61	Phosphorylation 1201 1215	phosphorylated
+T62	Negative_regulation 1312 1319	blocked
+T63	Phosphorylation 1320 1335	phosphorylation
+T64	Phosphorylation 1348 1362	phosphorylated
+T65	Positive_regulation 1381 1389	detected
+T66	Phosphorylation 1402 1416	Phosphorylated
+T67	Regulation 1523 1530	targets
+T68	Positive_regulation 1548 1558	activation
+T69	Phosphorylation 2024 2038	Phosphorylated
+T70	Positive_regulation 2085 2092	present
+T71	Positive_regulation 2145 2153	detected
+T72	Regulation 2308 2315	effects
+T73	Positive_regulation 2319 2329	activation
+T74	Negative_regulation 2363 2371	inhibits
+T75	Positive_regulation 2372 2382	activation
+T76	Positive_regulation 2524 2533	activated
+T77	Phosphorylation 2750 2764	Phosphorylated
+T78	Positive_regulation 2809 2819	detectable
+T79	Negative_regulation 2883 2892	decreased
+T80	Negative_regulation 2966 2975	inhibitor
+T81	Regulation 3099 3107	affected
+T82	Negative_regulation 3148 3158	inhibition
+T83	Negative_regulation 3251 3261	inhibition
+T84	Negative_regulation 3540 3549	inhibitor
+T85	Negative_regulation 4192 4201	inhibitor
+T86	Regulation 4317 4325	targeted
+E1	Negative_regulation:T57 Theme:T6
+E2	Negative_regulation:T57 Theme:T7
+E3	Negative_regulation:T57 Theme:T8
+E4	Negative_regulation:T58 Theme:E5
+E5	Positive_regulation:T59 Theme:T10
+E6	Positive_regulation:T60 Theme:T12
+E7	Phosphorylation:T61 Theme:T14
+E8	Phosphorylation:T61 Theme:T15
+E9	Negative_regulation:T62 Theme:E10
+E10	Phosphorylation:T63 Theme:T17
+E11	Phosphorylation:T64 Theme:T18
+E12	Positive_regulation:T65 Theme:E11
+E13	Phosphorylation:T66 Theme:T19
+E14	Phosphorylation:T66 Theme:T20
+E15	Regulation:T67 Theme:T21
+E16	Positive_regulation:T68 Theme:T22
+E17	Phosphorylation:T69 Theme:T24
+E18	Phosphorylation:T69 Theme:T25
+E19	Positive_regulation:T70 Theme:E17
+E20	Positive_regulation:T70 Theme:E18
+E21	Positive_regulation:T70 Theme:T26
+E22	Positive_regulation:T71 Theme:E17
+E23	Positive_regulation:T71 Theme:E18
+E24	Positive_regulation:T71 Theme:T26
+E25	Regulation:T72 Theme:E26
+E27	Regulation:T72 Theme:E28
+E26	Positive_regulation:T73 Theme:T28
+E28	Positive_regulation:T73 Theme:T29
+E29	Negative_regulation:T74 Theme:E30
+E30	Positive_regulation:T75 Theme:T30
+E31	Positive_regulation:T76 Theme:T32
+E32	Phosphorylation:T77 Theme:T34
+E33	Phosphorylation:T77 Theme:T35
+E34	Positive_regulation:T78 Theme:T34
+E35	Positive_regulation:T78 Theme:T35
+E36	Positive_regulation:T78 Theme:T36
+E37	Negative_regulation:T79 Theme:T34
+E38	Negative_regulation:T79 Theme:T35
+E39	Negative_regulation:T79 Theme:T36
+E40	Negative_regulation:T80 Theme:T37
+E41	Regulation:T81 Theme:T40
+E42	Negative_regulation:T82 Theme:T41
+E43	Negative_regulation:T83 Theme:T43
+E44	Negative_regulation:T84 Theme:T47
+E45	Negative_regulation:T84 Theme:T48
+E46	Negative_regulation:T85 Theme:T53
+E47	Regulation:T86 Theme:T54
+M1	Negation E12
+M2	Speculation E15
+M3	Negation E22
+M4	Negation E23
+M5	Negation E24
+M6	Negation E25
+M7	Speculation E25
+M8	Negation E27
+M9	Speculation E27
+M10	Negation E34
+M11	Negation E35
+M12	Negation E36
+M13	Negation E41
+M14	Negation E47

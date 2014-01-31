@@ -1,0 +1,19 @@
+T4	Entity 236 244	promoter
+T5	Regulation 245 255	regulation
+T6	Positive_regulation 1220 1229	necessary
+T7	Binding 1234 1241	binding
+T8	Negative_regulation 1306 1313	abolish
+T9	Binding 1318 1325	binding
+T10	Negative_regulation 1697 1706	abolishes
+T11	Positive_regulation 1711 1737	transcriptional activation
+T12	Positive_regulation 1787 1791	role
+E1	Regulation:T5 Theme:T1 Site:T4
+E2	Positive_regulation:T6 Theme:E4
+E3	Positive_regulation:T6 Theme:T3
+E4	Binding:T7 Theme:T3
+E5	Negative_regulation:T8 Theme:E6
+E6	Binding:T9 Theme:T3
+E7	Negative_regulation:T10 Theme:E8
+E8	Positive_regulation:T11 Theme:T3
+E9	Positive_regulation:T12 Theme:E8
+M1	Speculation E1

@@ -1,0 +1,12 @@
+# trains the BR NER using the WhiteText corpora
+
+cr: WhiteTextCollectionReader
+
+include: preprocess.incl
+
+ae: BrainRegionAnnotator
+ mode: train
+ modelFile: target/BrainRegionPipesTest.model
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<synonym>
+<token canonical="spatiotemporal_instant" ref_id="SpatiotemporalInstant">
+  <variant base="spatiotemporal_instant" />
+</token>
+<token canonical="connected_spatiotemporal_region" ref_id="ConnectedSpatiotemporalRegion">
+  <variant base="connected_spatiotemporal_region" />
+</token>
+<token canonical="spatiotemporal_region" ref_id="SpatiotemporalRegion">
+  <variant base="spatiotemporal_region" />
+</token>
+<token canonical="occurrent" ref_id="Occurrent">
+  <variant base="occurrent" />
+</token>
+<token canonical="fiat_process_part" ref_id="FiatProcessPart">
+  <variant base="fiat_process_part" />
+</token>
+<token canonical="temporal_instant" ref_id="TemporalInstant">
+  <variant base="temporal_instant" />
+</token>
+<token canonical="processual_context" ref_id="ProcessualContext">
+  <variant base="processual_context" />
+</token>
+<token canonical="process aggregate" ref_id="ProcessAggregate">
+  <variant base="process aggregate" />
+  <variant base="process_aggregate" />
+</token>
+<token canonical="connected_temporal_region" ref_id="ConnectedTemporalRegion">
+  <variant base="connected_temporal_region" />
+</token>
+<token canonical="scattered_temporal_region" ref_id="ScatteredTemporalRegion">
+  <variant base="scattered_temporal_region" />
+</token>
+<token canonical="temporal_interval" ref_id="TemporalInterval">
+  <variant base="temporal_interval" />
+</token>
+<token canonical="temporal_region" ref_id="TemporalRegion">
+  <variant base="temporal_region" />
+</token>
+<token canonical="process_boundary" ref_id="ProcessBoundary">
+  <variant base="process_boundary" />
+</token>
+<token canonical="process" ref_id="Process">
+  <variant base="process" />
+</token>
+<token canonical="spatiotemporal_interval" ref_id="SpatiotemporalInterval">
+  <variant base="spatiotemporal_interval" />
+</token>
+<token canonical="processual_entity" ref_id="ProcessualEntity">
+  <variant base="processual_entity" />
+</token>
+<token canonical="scattered_spatiotemporal_region" ref_id="ScatteredSpatiotemporalRegion">
+  <variant base="scattered_spatiotemporal_region" />
+</token>
+</synonym>

@@ -1,0 +1,11 @@
+## to test the pipeline parser
+## this is an INVALID pipeline
+
+
+## a comment
+cr: SingleAbstractReader
+
+## an ae MUST START AT BEG OF LINE
+ ae: EnsureDocHasHeader
+
+ae: EnsureDocHasHeader

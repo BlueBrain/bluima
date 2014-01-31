@@ -1,0 +1,32 @@
+# $1 from
+# $2 to
+# $3 outdir
+
+
+cr: ch.epfl.bbp.uima.mongo.MongoCollectionReader
+ db_connection__java: new String[]{  "128.178.187.248", "pubmed_uima", "pm_ft", "", ""}
+ #query: {ftr.ns:1}
+ query: {ftr.ns:1, pmid: { $gt: $1, $lt: $2 }}
+
+ae: SentenceAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz
+
+ae: TokenAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/token/TokenizerGenia.bin.gz
+
+
+
+#ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/method")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/method", new String[]{ "Stemmer", "ch.epfl.bbp.uima.BiolemmatizerStemmer" })
+
+#ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/neuronames")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/neuronames", new String[]{ "Stemmer", "ch.epfl.bbp.uima.BiolemmatizerStemmer" })
+
+
+
+ae: ch.epfl.bbp.uima.projects.bluesearch.WriteResultsToFile
+ outputDir: $3
+
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

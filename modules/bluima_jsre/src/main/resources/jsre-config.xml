@@ -1,0 +1,232 @@
+<?xml version="1.0"?>
+
+<jsre-config>
+
+  <mapping-list>
+
+    <mapping>
+      <mapping-name>DIST</mapping-name>
+      <mapping-class>org.itc.irst.tcc.sre.kernel.expl.DistanceContextMapping
+      </mapping-class>
+    </mapping>
+
+    <mapping>
+      <mapping-name>ET</mapping-name>
+      <mapping-class>org.itc.irst.tcc.sre.kernel.expl.EntityMapping
+      </mapping-class>
+    </mapping>
+
+
+    <mapping>
+      <mapping-name>GC</mapping-name>
+      <mapping-class>org.itc.irst.tcc.sre.kernel.expl.GlobalContextMapping
+      </mapping-class>
+
+      <init-param>
+        <param-name>n-gram</param-name>
+        <param-value>3</param-value>
+      </init-param>
+    </mapping>
+
+    <mapping>
+      <mapping-name>LC</mapping-name>
+      <mapping-class>org.itc.irst.tcc.sre.kernel.expl.LocalContextMapping
+      </mapping-class>
+
+      <init-param>
+        <param-name>window-size</param-name>
+        <param-value>1</param-value>
+      </init-param>
+    </mapping>
+
+    <!--
+      <mapping>
+      <mapping-name>SL</mapping-name>
+      <mapping-class>org.itc.irst.tcc.sre.kernel.expl.ShallowLinguisticMapping</mapping-class>
+
+      <init-param>
+      <param-name>window-size</param-name>
+      <param-value>2</param-value>
+      </init-param>
+      <init-param>
+      <param-name>n-gram</param-name>
+      <param-value>3</param-value>
+      </init-param>
+      </mapping>
+    -->
+
+    <mapping>
+      <mapping-name>BOW</mapping-name>
+      <mapping-class>org.itc.irst.tcc.sre.kernel.expl.BagOfWordsMapping
+      </mapping-class>
+
+      <init-param>
+        <param-name>n-gram</param-name>
+        <param-value>3</param-value>
+      </init-param>
+
+    </mapping>
+
+    <!--
+      <mapping>
+      <mapping-name>CO</mapping-name>
+      <mapping-class>org.itc.irst.tcc.sre.kernel.expl.CooccurrenceMapping</mapping-class>
+
+
+      <init-param>
+      <param-name>cooccurrence-threshold</param-name>
+      <param-value>3</param-value>
+      </init-param>
+
+      <init-param>
+      <param-name>cooccurrence-file</param-name>
+      <param-value>tmp/all.kill.cooccurrence</param-value>
+      </init-param>
+
+      </mapping>
+    -->
+
+    <mapping>
+      <mapping-name>WN</mapping-name>
+      <mapping-class>org.itc.irst.tcc.sre.kernel.expl.WordNetMapping
+      </mapping-class>
+
+      <init-param>
+        <param-name>wordnet-file</param-name>
+        <param-value>bk/content-container.map.old</param-value>
+      </init-param>
+
+    </mapping>
+
+    <!--
+      <mapping>
+      <mapping-name>CSL</mapping-name>
+      <mapping-class>org.itc.irst.tcc.sre.kernel.expl.CooccurrenceShallowLinguisticMapping</mapping-class>
+
+
+      <init-param>
+      <param-name>cooccurrence-threshold</param-name>
+      <param-value>100</param-value>
+      </init-param>
+
+      <init-param>
+      <param-name>cooccurrence-file</param-name>
+      <param-value>tmp/all.kill.cooccurrence</param-value>
+      </init-param>
+
+      <init-param>
+      <param-name>window-size</param-name>
+      <param-value>2</param-value>
+      </init-param>
+      <init-param>
+      <param-name>n-gram</param-name>
+      <param-value>3</param-value>
+      </init-param>
+
+      </mapping>
+
+
+      <mapping>
+      <mapping-name>ML</mapping-name>
+      <mapping-class>org.itc.irst.tcc.sre.kernel.expl.MiddleLinguisticMapping</mapping-class>
+
+
+      <init-param>
+      <param-name>wordnet-file</param-name>
+      <param-value>bk/content-container.map.old</param-value>
+      </init-param>
+
+      <init-param>
+      <param-name>window-size</param-name>
+      <param-value>2</param-value>
+      </init-param>
+      <init-param>
+      <param-name>n-gram</param-name>
+      <param-value>3</param-value>
+      </init-param>
+
+      </mapping>
+    -->
+
+    <mapping>
+      <mapping-name>SL</mapping-name>
+      <mapping-class>org.itc.irst.tcc.sre.kernel.expl.ComboMapping
+      </mapping-class>
+      <init-param>
+        <param-name>arg1</param-name>
+        <param-value>GC</param-value>
+      </init-param>
+
+      <init-param>
+        <param-name>arg2</param-name>
+        <param-value>LC</param-value>
+      </init-param>
+    </mapping>
+
+    <mapping>
+      <mapping-name>COMBO1</mapping-name>
+      <mapping-class>org.itc.irst.tcc.sre.kernel.expl.ComboMapping
+      </mapping-class>
+      <init-param>
+        <param-name>arg1</param-name>
+        <param-value>GC</param-value>
+      </init-param>
+
+      <init-param>
+        <param-name>arg2</param-name>
+        <param-value>LC</param-value>
+      </init-param>
+
+      <init-param>
+        <param-name>arg3</param-name>
+        <param-value>DIST</param-value>
+      </init-param>
+    </mapping>
+
+    <mapping>
+      <mapping-name>COMBO2</mapping-name>
+      <mapping-class>org.itc.irst.tcc.sre.kernel.expl.ComboMapping
+      </mapping-class>
+      <init-param>
+        <param-name>arg1</param-name>
+        <param-value>GC</param-value>
+      </init-param>
+
+      <init-param>
+        <param-name>arg2</param-name>
+        <param-value>LC</param-value>
+      </init-param>
+
+      <init-param>
+        <param-name>arg3</param-name>
+        <param-value>DIST</param-value>
+      </init-param>
+
+      <init-param>
+        <param-name>arg4</param-name>
+        <param-value>ET</param-value>
+      </init-param>
+    </mapping>
+
+    <mapping>
+      <mapping-name>LSA</mapping-name>
+      <mapping-class>org.itc.irst.tcc.sre.kernel.expl.LSAMapping
+      </mapping-class>
+      <init-param>
+        <param-name>lsa-matrix-file</param-name>
+        <param-value>dir/file</param-value>
+      </init-param>
+    </mapping>
+
+  </mapping-list>
+  <!--
+    <stemmer-list>
+    <stemmer>
+    <stemmer-name>Porter</stemmer-name>
+    <stemmer-class>org.itc.irst.tcc.sre.util.PorterStemmer</stemmer-class>
+    </stemmer>
+    </stemmer-list>
+  -->
+
+</jsre-config>
+

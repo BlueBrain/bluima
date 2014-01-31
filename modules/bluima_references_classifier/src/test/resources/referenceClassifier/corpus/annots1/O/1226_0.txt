@@ -1,0 +1,20 @@
+(Figure 4C) is less pronounced than that of the dark green model trace
+(Figure 4D). This is the reflection of the fact that the error value for
+accommodation of the dark green model is smaller than that of the light
+green model. On the other hand, in the light green model, more weight was
+given to the spike rate feature. Indeed, the light green trace has 14 APs
+(exactly corresponding to the experimental mean rate of seven spikes per
+second) while the dark green has only 13 APs. Note that similar variability
+as depicted in these two model-generated green traces may be found in
+the experimental traces for the same cell and same depolarizing step. The
+light green model trace is more reminiscent of the first experimental trace
+of the accommodating cell (Figure 1A upper-left) whereas the dark green
+trace is more similar to the second (Figure 1A upper-right).
+Figure 5 portrays the spread of model parameter values at the end
+of the fitting for both electrical classes (red – accommodating; blue –
+fast-spiking). Each of the 300 parameter sets (each set composed of 12
+parameters – the maximal conductance of the different ion channels)
+at the final iteration of a fitting that passes a quality criterion is represented as a circle. The criterion in this case was an error of less than
+2 SD in each feature. The circle is plotted at a point corresponding to
+the value of the selected channel conductance normalized by the range
+allowed for that conductance (see Methods). Since there are 12 parameters, it is difficult to visualize their location in the full 12-dimensional

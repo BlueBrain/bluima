@@ -1,0 +1,13 @@
+T10	Negative_regulation 479 488	decreased
+T11	Entity 489 497	promoter
+T12	Gene_expression 516 524	positive
+T13	Gene_expression 626 634	positive
+T14	Negative_regulation 684 694	abrogation
+T15	Entity 698 706	promoter
+T16	Gene_expression 725 733	negative
+E1	Negative_regulation:T10 Theme:T4 Site:T11
+E2	Gene_expression:T12 Theme:T5
+E3	Gene_expression:T13 Theme:T6
+E4	Negative_regulation:T14 Theme:T7 Site:T15
+E5	Gene_expression:T16 Theme:T7
+M1	Negation E5

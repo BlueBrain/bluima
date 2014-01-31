@@ -1,0 +1,20 @@
+*	Equiv T8 T7
+*	Equiv T6 T5
+T25	Localization 682 690	secreted
+T26	Positive_regulation 841 848	inducer
+T27	Positive_regulation 916 948	acts as a cofactor by sustaining
+T28	Gene_expression 953 963	expression
+T29	Gene_expression 1182 1192	production
+T30	Gene_expression 1522 1532	expressing
+T31	Gene_expression 2065 2072	present
+E1	Localization:T25 Theme:T6
+E2	Localization:T25 Theme:T8
+E3	Positive_regulation:T26 Theme:T11 Cause:T9
+E4	Positive_regulation:T26 Theme:T10 Cause:T9
+E5	Positive_regulation:T27 Theme:E6 Cause:T12
+E6	Gene_expression:T28 Theme:T13
+E7	Gene_expression:T29 Theme:T16
+E8	Gene_expression:T30 Theme:T18
+E9	Gene_expression:T31 Theme:T24
+M1	Negation E7
+M2	Speculation E9

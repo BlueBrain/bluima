@@ -1,0 +1,58 @@
+ties in vivo and in vitro: the applied corrections reduced the original in vitro F/F of
+OGB-1 (light gray trace) as expected, and
+the obtained curve (dark gray trace)
+matches the in vivo data (black trace) over
+the full range of [Ca 2 ]. The maximum
+fluorescence change is thus identical under
+both conditions. However, because the
+calibration was done using OGB-1 in vitro,
+effects of the cellular environment on the
+KD of OGB-1 may be hidden (see
+Discussion).
+From the data described so far, the KD
+value and the Hill coefficient of the different GECIs were calculated (supplemental
+Fig. 1 B, C, available at www.jneurosci.org
+as supplemental material; Table 1). For all
+GECIs that we measured under both conditions, the KD was significantly decreased
+in vivo (supplemental Fig. 1 B, available at
+www.jneurosci.org as supplemental material). Moreover, the differences in the KD
+values of the individual GECIs were less
+pronounced in vivo. Thus, as a rule of
+thumb, the in vivo KD of GECIs appears to
+be shifted toward higher affinity compared
+with our in vitro calibration [with YC2.60
+and GC2 being the only exception, because Figure 4. In vivo versus in vitro: quantitative comparison of fractional fluorescence changes of GECIs and OGB-1 at steady state.
+they were not calibrated in cuvettes in our GECI and OGB-1 fluorescence changes were analyzed at the end of stimulus trains in presynaptic boutons of transgenic larvae
+(black traces) and compared with the purified protein and OGB-1 in solution in the cuvette. A, YC3.60; B, TN-L15; C, D3cpv; D,
+lab, and the in vitro KD values were taken
+TN-XL; E, GC1.6; F, OGB-1. Fractional fluorescence changes ( R/R and F/F ) in vivo (black traces) are compared with in vitro R/R
+from literature (Nagai et al., 2004; Tallini
+and F/F calculated from spectrophotometer data either directly (light gray traces) or after applying corrections (dark gray traces;
+et al., 2006)]. For the Hill coefficient (supsee Materials and Methods). Correction was done for the resting calcium concentration and the width of the bandpass filters in the
+plemental Fig. 1C, available at www. detection pathway of the 2PLSM. Both corrections significantly reduce F , which is most obvious for the synthetic indicator
+max
+jneurosci.org as supplemental material), OGB-1 (F ). Applying these corrections, the fluorescence change of OGB-1 in vivo matches perfectly the one observed in vitro. All
+the picture is slightly more complex. How- GECIs show significant deviations of in vivo from in vitro (A–E), the origin of which remains to be investigated. However, the
+ever, there is a systematic change too. In applied corrections cancel out effects of the applied imaging conditions, and the remaining differences between GECIs probably
+vivo, the Hill coefficient of GECIs based on represent interactions with the chemical environment.
+wild-type calmodulin (GC1.6, YC2.60,
+and YC3.60; no data available on YC3.3) is decreased. This find- In a first set of experiments, we chose TN-XL for its fast decay
+ing is in line with [Ca 2 ]-dependent interactions of GECI pro- time constant (Fig. 3D) and evoked APs at 10, 20, and 40 Hz over
+teins with native wild-type proteins: at higher [Ca 2 ] concentra- a period of 4 s. The power spectra of the fractional fluorescence
+tions, such interactions are favored, interfering with GECI changes did in no case reveal significant peaks corresponding to
+function. In contrast, D3cpv and the troponin-C-based indica- the action potential frequency (supplemental Fig. 2 A, available at
+tors TN-L15 and TN-XL showed higher Hill coefficients in vivo, www.jneurosci.org as supplemental material). Similar measureindicative of increased cooperativity of calcium binding to the ments in OGB-1 filled boutons revealed clear stimulus-related
+indicator. peaks for 10 and 20 Hz experiments (supplemental Fig. 2 B, C,
+available at www.jneurosci.org as supplemental material),
+Fluorescence changes of GECIs and OGB-1 in response to whereas individual APs at 40 Hz and higher activity rates were
+short Ca 2 transients in vivo masked by the rather slow time constant for the fluorescence
+The combination of concentration, sensitivity, and speed of the decay of OGB-1 (supplemental Fig. 2 D, available at www.
+fluorescence transition kinetics determines how well transient jneurosci.org as supplemental material).
+calcium fluctuations can be resolved by a fluorescent indicator. Next, we evoked brief volleys of 2, 5, and 10 APs (Fig. 5) (APs
+The favorable combination of backward binding rate (Kb) and separated by 10 ms, volleys by 500 ms). OGB-1 reported even
+forward binding rate (Kf) allows some synthetic Ca 2 indicators single action potentials with 43.6 2.5% F/F and SNR 15
+to report neuronal activity with single action potential resolution (Fig. 6 A). Volleys of 2, 5, and 10 APs were reported with increas-(Schiller et al., 1995; Helmchen et al., 1996, 1997; Maravall et al., ing F/F and SNR (Fig. 5B). SNRs were calculated for each indi-2000). In contrast, cytosolic GECIs were reported to lack suffi- vidual burst and given as the average of all bursts from the four
+cient SNR and Ca 2 binding kinetics to report individual APs traces. In contrast to OGB-1, no GECI responded to transient
+(Pologruto et al., 2004; Reiff et al., 2005) (but see D ́ıez-Garc ́ıa et [Ca 2 ]i associated with single spikes. Spike doublets were re-al., 2007). We assessed the capacity of cytosolic GECIs and ported with SNR 3 only by YC3.60 and YC2.60. D3cpv proOGB-1 to signal a transient increase in [Ca 2 ]i in presynaptic vided SNR of 2.2. Only YC3.3 and GC2 failed to report volleys of
+boutons of transgenic Drosophila by 2PLSM fluorescence record- five APs. Volleys of 10 APs were reported by all GECIs, although
+ings at high temporal resolution. with widely differing amplitudes, SNRs, and rise times (Figs.

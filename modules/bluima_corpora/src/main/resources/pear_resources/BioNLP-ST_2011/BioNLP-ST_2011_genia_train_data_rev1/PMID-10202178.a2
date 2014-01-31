@@ -1,0 +1,38 @@
+*	Equiv T3 T2
+T13	Positive_regulation 13 22	induction
+T14	Positive_regulation 64 73	following
+T15	Gene_expression 528 543	gene expression
+T16	Positive_regulation 624 633	augmented
+T17	Gene_expression 801 811	expression
+T18	Positive_regulation 993 1000	induced
+T19	Positive_regulation 1080 1089	increased
+T20	Positive_regulation 1101 1110	induction
+T21	Positive_regulation 1119 1122	due
+T22	Positive_regulation 1201 1210	Increased
+T23	Transcription 1211 1221	expression
+T24	Positive_regulation 1234 1241	induced
+T25	Positive_regulation 1301 1309	mediated
+T26	Positive_regulation 1321 1330	augmented
+T27	Positive_regulation 1331 1355	transcriptional activity
+T28	Regulation 1540 1549	determine
+T29	Positive_regulation 1565 1577	inducibility
+E1	Positive_regulation:T13 Theme:T1
+E2	Positive_regulation:T14 Theme:E1
+E3	Gene_expression:T15 Theme:T3
+E4	Positive_regulation:T16 Theme:E3 Cause:T4
+E5	Gene_expression:T17 Theme:T5
+E6	Positive_regulation:T18 Theme:E5 Cause:T6
+E7	Positive_regulation:T19 Theme:E8
+E8	Positive_regulation:T20 Theme:T7
+E9	Positive_regulation:T21 Theme:E7
+E10	Positive_regulation:T22 Theme:E12
+E11	Transcription:T23 Theme:T10
+E12	Positive_regulation:T24 Theme:E11 Cause:T9
+E13	Positive_regulation:T25 Theme:E10 Cause:E14
+E14	Positive_regulation:T26 Theme:E15
+E15	Positive_regulation:T27 Theme:T10
+E16	Regulation:T28 Theme:E17
+E17	Positive_regulation:T29 Theme:T12 Cause:T11
+M1	Negation E4
+M2	Negation E9
+M3	Speculation E16

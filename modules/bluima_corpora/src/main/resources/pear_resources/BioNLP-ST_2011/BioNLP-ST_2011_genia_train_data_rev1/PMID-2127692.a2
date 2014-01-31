@@ -1,0 +1,35 @@
+T6	Negative_regulation 16 31	down-regulation
+T7	Gene_expression 41 51	expression
+T8	Transcription 241 251	expression
+T9	Gene_expression 241 251	expression
+T10	Negative_regulation 255 269	down-regulated
+T11	Regulation 465 476	responsible
+T12	Negative_regulation 481 490	decreased
+T13	Transcription 497 510	transcription
+T14	Negative_regulation 521 540	negative regulation
+T15	Positive_regulation 580 584	when
+T16	Negative_regulation 664 670	effect
+T17	Negative_regulation 674 681	blocked
+T18	Negative_regulation 756 767	suppression
+T19	Positive_regulation 787 795	requires
+T20	Regulation 899 909	regulation
+E1	Negative_regulation:T6 Theme:E2
+E2	Gene_expression:T7 Theme:T1
+E3	Transcription:T8 Theme:T2
+E4	Gene_expression:T9 Theme:T2
+E5	Negative_regulation:T10 Theme:E4
+E6	Negative_regulation:T10 Theme:E3
+E7	Regulation:T11 Theme:E8
+E8	Negative_regulation:T12 Theme:E9
+E9	Transcription:T13 Theme:T3
+E10	Negative_regulation:T14 Theme:E3
+E11	Negative_regulation:T14 Theme:E4
+E12	Positive_regulation:T15 Theme:E10
+E13	Positive_regulation:T15 Theme:E11
+E14	Negative_regulation:T16 Theme:E3
+E15	Negative_regulation:T16 Theme:E4
+E16	Negative_regulation:T17 Theme:E14
+E17	Negative_regulation:T17 Theme:E15
+E18	Negative_regulation:T18 Theme:T4
+E19	Positive_regulation:T19 Theme:E18
+E20	Regulation:T20 Theme:T5

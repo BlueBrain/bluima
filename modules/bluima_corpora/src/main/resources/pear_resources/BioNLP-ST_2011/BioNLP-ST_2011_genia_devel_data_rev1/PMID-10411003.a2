@@ -1,0 +1,25 @@
+*	Equiv T12 T11
+*	Equiv T8 T7
+*	Equiv T2 T3
+T18	Positive_regulation 221 233	up-regulated
+T19	Negative_regulation 559 573	reduced levels
+T20	Negative_regulation 661 671	diminished
+T21	Positive_regulation 672 685	up-regulation
+T22	Regulation 748 754	affect
+T23	Regulation 926 932	affect
+T24	Negative_regulation 1211 1221	diminished
+T25	Gene_expression 1222 1232	production
+T26	Negative_regulation 1251 1258	reduced
+T27	Positive_regulation 1259 1272	up-regulation
+E1	Positive_regulation:T18 Theme:T4
+E2	Negative_regulation:T19 Theme:T8
+E3	Negative_regulation:T20 Theme:E4
+E4	Positive_regulation:T21 Theme:T9
+E5	Regulation:T22 Theme:T12 Cause:T10
+E6	Regulation:T23 Theme:T12 Cause:T13
+E7	Negative_regulation:T24 Theme:E8
+E8	Gene_expression:T25 Theme:T16
+E9	Negative_regulation:T26 Theme:E10
+E10	Positive_regulation:T27 Theme:T17
+M1	Negation E5
+M2	Negation E6

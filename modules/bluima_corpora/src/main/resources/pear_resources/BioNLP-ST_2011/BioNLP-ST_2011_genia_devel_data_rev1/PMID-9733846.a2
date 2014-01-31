@@ -1,0 +1,19 @@
+T19	Gene_expression 112 122	expressing
+T20	Gene_expression 553 562	expressed
+T21	Gene_expression 666 675	expressed
+T22	Gene_expression 692 702	expressing
+T23	Binding 733 742	associate
+T24	Binding 1281 1286	binds
+T25	Binding 1471 1482	interaction
+T26	Binding 1744 1755	interaction
+T27	Binding 1836 1848	dimerization
+E1	Gene_expression:T19 Theme:T1
+E2	Gene_expression:T20 Theme:T4
+E3	Gene_expression:T21 Theme:T5
+E4	Gene_expression:T22 Theme:T7
+E5	Binding:T23 Theme:T6
+E6	Binding:T24 Theme:T10
+E7	Binding:T25 Theme:T11 Theme2:T12
+E8	Binding:T26 Theme:T15 Theme2:T16
+E9	Binding:T27 Theme:T18
+M1	Negation E5

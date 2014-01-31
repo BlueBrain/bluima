@@ -1,0 +1,16 @@
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
+	xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns:xlink="http://www.w3.org/1999/xlink" elementFormDefault="qualified">
+
+	<!--
+		<xs:any minOccurs="0"/>
+	-->
+	<xs:element name="article">
+		<xs:complexType>
+			<xs:sequence>
+				<xs:any minOccurs="0" />
+			</xs:sequence>
+		</xs:complexType>
+	</xs:element>
+
+</xs:schema>

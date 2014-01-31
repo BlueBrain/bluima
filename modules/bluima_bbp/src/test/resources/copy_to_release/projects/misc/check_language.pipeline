@@ -1,0 +1,7 @@
+cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+ inputDirectory: /Users/richarde/Desktop/pdfs
+
+ae: LanguageDetectionAnnotator
+
+java:
+System.out.println(ch.epfl.bbp.uima.BlueCasUtil.getHeaderDocId(jCas)+ "\t" + jCas.getDocumentLanguage());

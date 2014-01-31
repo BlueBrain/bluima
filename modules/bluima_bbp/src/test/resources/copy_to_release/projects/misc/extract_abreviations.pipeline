@@ -1,0 +1,18 @@
+#
+# extracts abreviations using BioAdi
+#
+
+# use fulltext articles from PMC open subset 
+#cr: PubmedCentralCollectionReader
+# inputDirectory: /Volumes/HDD2/ren_data/data_hdd/_papers_etc/test/sample_from_ff
+
+cr: PubmedWholeDatabaseCR
+ db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" }
+
+# NO preprocessing
+ae: BioAdiAbreviationAnnotator
+
+ae: PrintAbreviationsAnnotator
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 1000

@@ -1,0 +1,27 @@
+T11	Negative_regulation 85 95	inhibition
+T12	Gene_expression 458 463	level
+T13	Regulation 488 497	regulated
+T14	Transcription 552 558	levels
+T15	Gene_expression 552 558	levels
+T16	Positive_regulation 670 679	induction
+T17	Negative_regulation 695 704	inhibited
+T18	Negative_regulation 829 837	inhibits
+T19	Positive_regulation 842 851	induction
+T20	Regulation 1168 1178	modulation
+T21	Gene_expression 1195 1205	expression
+E1	Negative_regulation:T11 Theme:T1
+E2	Gene_expression:T12 Theme:T4
+E3	Regulation:T13 Theme:E2
+E4	Transcription:T14 Theme:T5
+E5	Gene_expression:T15 Theme:T5
+E6	Positive_regulation:T16 Theme:T6
+E7	Negative_regulation:T17 Theme:E6 Cause:T7
+E8	Negative_regulation:T17 Theme:E6 Cause:T8
+E9	Negative_regulation:T18 Theme:E10
+E10	Positive_regulation:T19 Theme:T9
+E11	Regulation:T20 Theme:E12
+E12	Gene_expression:T21 Theme:T10
+M1	Speculation E4
+M2	Speculation E5
+M3	Negation E7
+M4	Negation E8

@@ -1,0 +1,13 @@
+T6	Entity 28 34	serine
+T7	Regulation 65 73	regulate
+T8	Phosphorylation 182 197	phosphorylation
+T9	Regulation 1006 1016	regulating
+T10	Phosphorylation 1021 1036	phosphorylation
+T11	Entity 1049 1058	serine 82
+T12	Regulation 1094 1100	target
+E1	Regulation:T7 Theme:E2
+E2	Phosphorylation:T8 Theme:T1 Site:T6
+E3	Regulation:T9 Theme:E4
+E4	Phosphorylation:T10 Theme:T2 Site:T11
+E5	Regulation:T12 Theme:T2 Site:T11
+M1	Speculation E1

@@ -1,0 +1,470 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>julie-document-meta-types</name>
+  <description>The type system contains types for the annotation of document meta information (bibliographical and content information).</description>
+  <version>2.4.2</version>
+  <vendor/>
+  <imports>
+    <import location="julie-basic-types.xml"/>
+  </imports>
+  <types>
+    <typeDescription>
+      <name>de.julielab.jules.types.DocumentAnnotation</name>
+      <description>The super-type for the document annotation types (Header, Descriptor)</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Header</name>
+      <description>The Header type stores the bibliographical document information.</description>
+      <supertypeName>de.julielab.jules.types.DocumentAnnotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>docType</name>
+          <description>The type of the document (e.g. abstract, fulltext, randomized), C</description>
+          <rangeTypeName>de.julielab.jules.types.DocType</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>source</name>
+          <description>The source of the document (e.g. WWW, Database), C</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>docId</name>
+          <description>The identifier of the document with respect to its source. E.g.: PMID in PubMed. In combination with the source, this is a unique identifier for a document, C</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>copyright</name>
+          <description>Copyright information, C</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>truncated</name>
+          <description>Indicates whether the document is truncated, C</description>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>authors</name>
+          <description>The authors of the document, O</description>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>de.julielab.jules.types.AuthorInfo</elementType>
+          <multipleReferencesAllowed>true</multipleReferencesAllowed>
+        </featureDescription>
+        <featureDescription>
+          <name>title</name>
+          <description>The title of the document, C</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>pubTypeList</name>
+          <description>The list of the publication types, O</description>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>de.julielab.jules.types.PubType</elementType>
+        </featureDescription>
+        <featureDescription>
+          <name>language</name>
+          <description>The language of the document, O</description>
+          <rangeTypeName>de.julielab.jules.types.Language</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>doi</name>
+          <description>document object identifier</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.pubmed.Header</name>
+      <description>The special Header for PubMed  (http://www.pubmed.org) documents</description>
+      <supertypeName>de.julielab.jules.types.Header</supertypeName>
+      <features>
+        <featureDescription>
+          <name>citationStatus</name>
+          <description>Indicates the status of citation of a PubMed document, O</description>
+          <rangeTypeName>de.julielab.jules.types.CitationStatus</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.PubType</name>
+      <description>An abstract type which should be used to store information on the publication. See subtypes Journal and an accumulative type (OtherPub)</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>name</name>
+          <description>The name of the publication type (e.g. journal, technical report, book), C</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>pubDate</name>
+          <description>The date on which the document was published, O</description>
+          <rangeTypeName>de.julielab.jules.types.Date</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Journal</name>
+      <description>This type contains attributes to describe a journal publication.</description>
+      <supertypeName>de.julielab.jules.types.PubType</supertypeName>
+      <features>
+        <featureDescription>
+          <name>ISSN</name>
+          <description>The international standard serial number, O</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>volume</name>
+          <description>The volume number of the journal in which the article was published, O</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>title</name>
+          <description>Full journal title, C</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>impactFactor</name>
+          <description>The impact factor of the journal at the time of publication, O</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>shortTitle</name>
+          <description>the short title of the Journal (e.g. "Nicotine Tob Res" for "Nicotine &amp; tobacco research : official journal of the Society for Research on Nicotine and Tobacco")</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>issue</name>
+          <description>Issue of Journal</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>pages</name>
+          <description>Pages of Journal</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Date</name>
+      <description>Type to store dates</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>day</name>
+          <description>day of the month, C</description>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>month</name>
+          <description>month of the year, C</description>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>year</name>
+          <description>full year (e.g. 2006 and NOT 06), C</description>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.OtherPub</name>
+      <description>Accumulative type for all other types of publications</description>
+      <supertypeName>de.julielab.jules.types.PubType</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Descriptor</name>
+      <description>An abstract type for the document descriptors, there are two subclasses: one for automatically acquired meta information and one for meta information that was added manually (such as e.g. MeSH term lists)</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.AutoDescriptor</name>
+      <description>The descriptor type for automatically (i.e. algorithmically) acquired meta information. It can be refined and extended.</description>
+      <supertypeName>de.julielab.jules.types.Descriptor</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.ManualDescriptor</name>
+      <description>The descriptor type for the manually added information.</description>
+      <supertypeName>de.julielab.jules.types.Descriptor</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.MeshHeading</name>
+      <description>Medical Subject Headings, see NLM's MeSH for a detailed description.</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>descriptorName</name>
+          <description>see MeSH</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>qualifierName</name>
+          <description>see MeSH</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>descriptorNameMajorTopic</name>
+          <description>see MeSH</description>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>qualifierNameMajorTopic</name>
+          <description>see MeSH</description>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Chemical</name>
+      <description>A chemical type</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>registryNumber</name>
+          <description>A unique 5 to 9 digit number in hyphenated format assigned by the Chemical Abstract Service to specify chemical substances, a zero is a valid number when an actual number cannot be located or is not yet available., C</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>nameOfSubstance</name>
+          <description>The name of the substance that the registry number or the E.C. number identifies, C</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.DBInfo</name>
+      <description>References to other databases, e.g. SwissProt, INTERPRO e.g.</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>name</name>
+          <description>The name of the DB referred to</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>acList</name>
+          <description>A list of accession numbers for this DB, C</description>
+          <rangeTypeName>uima.cas.StringArray</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Keyword</name>
+      <description>A term of a controlled keyword list to describe the content of the publication.</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>name</name>
+          <description>The name of the keyword, C</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>source</name>
+          <description>Tthe keyword source (terminology), O</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.DocType</name>
+      <description>The document type</description>
+      <supertypeName>uima.cas.String</supertypeName>
+      <allowedValues>
+        <value>
+          <string>abstract</string>
+          <description>abstract</description>
+        </value>
+        <value>
+          <string>fulltext</string>
+          <description>fulltext</description>
+        </value>
+        <value>
+          <string>randomized</string>
+          <description>randomized</description>
+        </value>
+        <value>
+          <string>article</string>
+          <description>used for Wikipedia articles</description>
+        </value>
+        <value>
+          <string>disambiguation-page</string>
+          <description>used for Wikipedia disambiguation-pages</description>
+        </value>
+      </allowedValues>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Language</name>
+      <description>The language of the document. Possible values: based on ISO-639-1 language codes; we start with a first selection (which might be extended later).</description>
+      <supertypeName>uima.cas.String</supertypeName>
+      <allowedValues>
+        <value>
+          <string>de</string>
+          <description>German</description>
+        </value>
+        <value>
+          <string>en</string>
+          <description>English</description>
+        </value>
+        <value>
+          <string>es</string>
+          <description>Espagnol</description>
+        </value>
+        <value>
+          <string>fr</string>
+          <description>French</description>
+        </value>
+        <value>
+          <string>it</string>
+          <description>Italian</description>
+        </value>
+        <value>
+          <string>pt</string>
+          <description>Portuguese</description>
+        </value>
+        <value>
+          <string>other</string>
+          <description>Other languages</description>
+        </value>
+        <value>
+          <string>eng</string>
+          <description>English</description>
+        </value>
+        <value>
+          <string>ger</string>
+          <description>German</description>
+        </value>
+        <value>
+          <string>fre</string>
+          <description>Französisch</description>
+        </value>
+        <value>
+          <string>ita</string>
+          <description>Italienisch</description>
+        </value>
+      </allowedValues>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.CitationStatus</name>
+      <description>A citation status (PubMed relevant)</description>
+      <supertypeName>uima.cas.String</supertypeName>
+      <allowedValues>
+        <value>
+          <string>Completed</string>
+          <description>completed</description>
+        </value>
+        <value>
+          <string>In-Process</string>
+          <description>in-process</description>
+        </value>
+        <value>
+          <string>PubMed-not-MEDLINE</string>
+          <description>pubmed-not-medline</description>
+        </value>
+        <value>
+          <string>In-Data-Review</string>
+          <description>in-data-review</description>
+        </value>
+        <value>
+          <string>Publisher</string>
+          <description>publisher</description>
+        </value>
+        <value>
+          <string>MEDLINE</string>
+          <description>medline</description>
+        </value>
+        <value>
+          <string>OLDMEDLINE</string>
+          <description>oldmedline</description>
+        </value>
+      </allowedValues>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.AuthorInfo</name>
+      <description>AuthorInfo Type annotates the text segments containing the information about an author and his/her affiliation information.</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>foreName</name>
+          <description>An authors forename</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>affiliation</name>
+          <description>Affiliation of the author</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>contact</name>
+          <description>Contact information (emails, phones, etc.), O</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>lastName</name>
+          <description>The last name of the author.</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>initials</name>
+          <description>Initials</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.RelatedArticle</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>relatedArticle</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.RelatedArticleList</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>relatedArticles</name>
+          <description/>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>de.julielab.jules.types.RelatedArticle</elementType>
+          <multipleReferencesAllowed>true</multipleReferencesAllowed>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.FullTextLink</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>url</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>iconUrl</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.FullTextLinkList</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>fullTextLinks</name>
+          <description/>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>de.julielab.jules.types.FullTextLink</elementType>
+          <multipleReferencesAllowed>true</multipleReferencesAllowed>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

@@ -1,0 +1,14 @@
+
+
+cr: ch.epfl.bbp.uima.ae.serialization.RangeBinaryCasReader
+ inputDirectory: /nfs4/bbp.epfl.ch/simulation/nlp/data/20131120_preprocessed
+ between__java: new int[]{ $3, $4 }
+
+##############################################################################
+
+include: 20131223_extract_proteinconc.incl
+
+##############################################################################
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

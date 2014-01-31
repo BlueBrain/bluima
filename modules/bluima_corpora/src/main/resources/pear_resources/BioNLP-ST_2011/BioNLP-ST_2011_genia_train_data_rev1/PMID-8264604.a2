@@ -1,0 +1,32 @@
+T17	Positive_regulation 41 48	directs
+T18	Gene_expression 65 75	expression
+T19	Gene_expression 192 201	expressed
+T20	Regulation 231 235	from
+T21	Positive_regulation 517 525	activate
+T22	Binding 932 937	binds
+T23	Positive_regulation 942 951	activates
+T24	Entity 971 979	promoter
+T25	Binding 1067 1071	bind
+T26	Entity 1077 1090	specific site
+T27	Entity 1113 1121	promoter
+T28	Negative_regulation 1211 1220	eliminate
+T29	Binding 1226 1233	binding
+T30	Negative_regulation 1234 1242	decrease
+T31	Entity 1258 1266	promoter
+T32	Positive_regulation 1339 1353	transactivates
+T33	Entity 1373 1381	promoter
+E1	Positive_regulation:T17 Theme:E2 Cause:T1
+E2	Gene_expression:T18 Theme:T2
+E3	Gene_expression:T19 Theme:T3
+E4	Regulation:T20 Theme:E3
+E5	Positive_regulation:T21 Theme:T4
+E6	Binding:T22 Theme:T7 Theme2:T8 Site2:T24
+E7	Positive_regulation:T23 Theme:T8 Cause:T7 Site:T24
+E8	Binding:T25 Theme:T10 Theme2:T11 Site2:T27
+E9	Binding:T25 Theme:T9 Theme2:T11 Site2:T27
+E10	Negative_regulation:T28 Theme:E11
+E11	Binding:T29 Theme:T11 Theme2:T12 Site:T26
+E12	Negative_regulation:T30 Theme:T13 Cause:E10 Site:T31
+E13	Positive_regulation:T32 Theme:T15 Cause:T14 Site:T33
+M1	Speculation E6
+M2	Speculation E7

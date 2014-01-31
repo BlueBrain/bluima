@@ -1,0 +1,23 @@
+# evaluate BR NER on WhiteText, using features from a token based DCA topic model  
+
+cr: WhiteTextCollectionReader
+ maxNrResults__java: 4
+# moving BrainRegion annotations to Gold-sofa
+ae: EvaluationPreprocessorAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.BrainRegion
+
+
+include: ../../../includes/preprocess_full.incl
+
+ae: SkipSomePosAnnotator
+#ae: ViterbiFilterAnnotator
+
+
+
+ae: BrainRegionAnnotator
+ mode: eval
+ trials__java: 10; 
+
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

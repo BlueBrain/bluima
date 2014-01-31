@@ -1,0 +1,12 @@
+*	Equiv T1 T2
+T8	Positive_regulation 614 623	activated
+T9	Regulation 678 685	targets
+T10	Positive_regulation 733 756	trigger signal cascades
+E1	Positive_regulation:T8 Theme:T3
+E2	Positive_regulation:T8 Theme:T4
+E3	Regulation:T9 Theme:T3
+E4	Regulation:T9 Theme:T4
+E5	Positive_regulation:T10 Theme:T3
+E6	Positive_regulation:T10 Theme:T4
+M1	Speculation E3
+M2	Speculation E4

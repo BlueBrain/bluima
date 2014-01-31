@@ -1,0 +1,5 @@
+*	Equiv T2 T3
+T15	Positive_regulation 269 277	increase
+T16	Gene_expression 293 303	production
+E1	Positive_regulation:T15 Theme:E2 Cause:T4
+E2	Gene_expression:T16 Theme:T5

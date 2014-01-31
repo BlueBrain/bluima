@@ -1,0 +1,24 @@
+*	Equiv T3 T4
+T11	Negative_regulation 0 10	Inhibition
+T12	Gene_expression 31 41	expression
+T13	Negative_regulation 826 835	inhibited
+T14	Positive_regulation 966 974	produced
+T15	Negative_regulation 1001 1011	inhibition
+T16	Gene_expression 1029 1039	expression
+T17	Negative_regulation 1306 1314	decrease
+T18	Gene_expression 1324 1334	expression
+T19	Negative_regulation 1658 1663	block
+T20	Gene_expression 1695 1705	expression
+T21	Gene_expression 1848 1858	expression
+E1	Negative_regulation:T11 Theme:E2
+E2	Gene_expression:T12 Theme:T1
+E3	Negative_regulation:T13 Theme:T6
+E4	Positive_regulation:T14 Theme:E5
+E5	Negative_regulation:T15 Theme:E6
+E6	Gene_expression:T16 Theme:T7
+E7	Negative_regulation:T17 Theme:E8
+E8	Gene_expression:T18 Theme:T8
+E9	Negative_regulation:T19 Theme:E10
+E10	Gene_expression:T20 Theme:T8
+E11	Gene_expression:T21 Theme:T10
+M1	Negation E4

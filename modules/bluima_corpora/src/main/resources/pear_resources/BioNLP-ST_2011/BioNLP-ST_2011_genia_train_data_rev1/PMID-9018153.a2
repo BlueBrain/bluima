@@ -1,0 +1,14 @@
+T12	Binding 0 11	Interaction
+T13	Binding 554 558	bind
+T14	Negative_regulation 696 705	prevented
+T15	Binding 716 723	binding
+T16	Binding 760 764	bind
+T17	Binding 798 809	heterodimer
+E1	Binding:T12 Theme:T2
+E2	Binding:T12 Theme:T1
+E3	Binding:T13 Theme:T3
+E4	Negative_regulation:T14 Theme:E5
+E5	Binding:T15 Theme:T4
+E6	Binding:T16 Theme:T5
+E7	Binding:T17 Theme:T5 Theme2:T6
+M1	Speculation E7

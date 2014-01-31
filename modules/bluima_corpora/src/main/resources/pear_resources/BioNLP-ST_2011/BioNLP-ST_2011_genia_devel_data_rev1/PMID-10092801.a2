@@ -1,0 +1,8 @@
+*	Equiv T2 T1
+T7	Gene_expression 271 278	express
+T8	Regulation 809 824	appeared normal
+T9	Gene_expression 851 861	expression
+E1	Gene_expression:T7 Theme:T2
+E2	Regulation:T8 Theme:E3
+E3	Gene_expression:T9 Theme:T6
+M1	Negation E2

@@ -1,0 +1,10 @@
+T3	Negative_regulation 909 917	decrease
+T4	Positive_regulation 947 954	induced
+T5	Phosphorylation 955 970	phosphorylation
+T6	Negative_regulation 1124 1132	decrease
+T7	Gene_expression 1140 1150	expression
+E1	Negative_regulation:T3 Theme:E3
+E2	Positive_regulation:T4 Theme:E3
+E3	Phosphorylation:T5 Theme:T1
+E4	Negative_regulation:T6 Theme:E5
+E5	Gene_expression:T7 Theme:T2

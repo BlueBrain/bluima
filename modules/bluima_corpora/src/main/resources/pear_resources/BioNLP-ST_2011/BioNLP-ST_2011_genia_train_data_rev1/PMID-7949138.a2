@@ -1,0 +1,23 @@
+T16	Transcription 64 77	transcription
+T17	Positive_regulation 137 146	activated
+T18	Gene_expression 204 213	expressed
+T19	Regulation 359 366	control
+T20	Gene_expression 373 383	expression
+T21	Transcription 537 550	transcription
+T22	Gene_expression 609 618	expresses
+T23	Gene_expression 1061 1068	express
+T24	Positive_regulation 1075 1079	from
+T25	Positive_regulation 1252 1266	cis-activation
+T26	Entity 1276 1287	promoter 1b
+T27	Transcription 1429 1442	transcription
+E1	Transcription:T16 Theme:T2
+E2	Positive_regulation:T17 Theme:T3
+E3	Gene_expression:T18 Theme:T3
+E4	Regulation:T19 Theme:E5
+E5	Gene_expression:T20 Theme:T4
+E6	Transcription:T21 Theme:T7
+E7	Gene_expression:T22 Theme:T8
+E8	Gene_expression:T23 Theme:T12
+E9	Positive_regulation:T24 Theme:E8
+E10	Positive_regulation:T25 Theme:T13 Site:T26
+E11	Transcription:T27 Theme:T14

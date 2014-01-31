@@ -1,0 +1,17 @@
+
+#TestResult:
+#    precision:  0.08507540587314233
+#    recall:     1.0 <-- EXPECTED!
+#    F1:         0.15681012658227847
+
+cr: WhiteTextConnectionsCollectionReader
+
+ae: EvaluationPreprocessorAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.Cooccurrence
+
+ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.BrainRegion
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator 

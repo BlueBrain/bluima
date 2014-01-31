@@ -1,0 +1,40 @@
+
+
+#TestResult:
+#    precision:  0.16001033324722294
+#    recall:     1.0
+#    F1:     0.275877427400677
+#
+# WARNING: not cross-validated!!
+#
+#TestResult:
+#    precision:  0.7833163784333672
+#    recall:     0.9945108169195996
+#    F1:     0.8763693270735524
+
+
+cr: WhiteTextConnectionsCollectionReader
+ # addNegativePairs__java: true
+
+ae: EvaluationPreprocessorAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.Cooccurrence
+ 
+
+# PRE-PROC
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
+ae: BlueBioLemmatizer
+
+# CO_OCCS
+ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.BrainRegion
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+
+
+# EVAL
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator 
+
+# PREDICT (FILTER) & EVAL
+ae: ch.epfl.bbp.uima.jsre.JsreFilterAnnotator
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator 

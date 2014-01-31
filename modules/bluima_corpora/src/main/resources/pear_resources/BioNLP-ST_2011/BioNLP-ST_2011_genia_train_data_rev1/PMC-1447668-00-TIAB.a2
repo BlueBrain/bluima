@@ -1,0 +1,17 @@
+T15	Positive_regulation 393 407	Overexpression
+T16	Negative_regulation 577 585	Deletion
+T17	Entity 593 632	carboxyl-terminal forkhead (FKH) domain
+T18	Positive_regulation 634 642	critical
+T19	Entity 647 654	nuclear
+T20	Localization 655 667	localization
+T21	Binding 676 683	binding
+T22	Positive_regulation 1386 1390	high
+T23	Gene_expression 1397 1407	expression
+E1	Positive_regulation:T15 Theme:T4
+E2	Negative_regulation:T16 Theme:T6 Site:T17
+E3	Positive_regulation:T18 Theme:E4 Cause:T6 CSite:T17
+E5	Positive_regulation:T18 Theme:E6 Cause:T6 CSite:T17
+E4	Localization:T20 Theme:T6 ToLoc:T19
+E6	Binding:T21 Theme:T6
+E7	Positive_regulation:T22 Theme:E8
+E8	Gene_expression:T23 Theme:T13

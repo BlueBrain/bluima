@@ -1,0 +1,23 @@
+*	Equiv T10 T9
+T12	Positive_regulation 527 537	activation
+T13	Positive_regulation 618 626	increase
+T14	Entity 630 638	tyrosine
+T15	Phosphorylation 639 654	phosphorylation
+T16	Gene_expression 841 851	expression
+T17	Positive_regulation 1122 1132	stimulated
+T18	Transcription 1133 1146	transcription
+T19	Positive_regulation 1169 1181	accumulation
+T20	Gene_expression 1272 1282	expression
+E1	Positive_regulation:T12 Theme:T1
+E2	Positive_regulation:T12 Theme:T2
+E3	Positive_regulation:T13 Theme:E4
+E4	Phosphorylation:T15 Theme:T3 Site:T14
+E5	Gene_expression:T16 Theme:T4
+E6	Positive_regulation:T17 Theme:E12
+E7	Positive_regulation:T17 Theme:E13
+E8	Positive_regulation:T17 Theme:E10
+E9	Positive_regulation:T17 Theme:E11
+E10	Transcription:T18 Theme:T7
+E11	Positive_regulation:T19 Theme:T7
+E12	Gene_expression:T20 Theme:T10
+E13	Gene_expression:T20 Theme:T8

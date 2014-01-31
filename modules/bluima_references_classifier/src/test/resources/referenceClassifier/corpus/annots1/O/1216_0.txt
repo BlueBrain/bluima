@@ -1,0 +1,8 @@
+arguments and simulation (Sections A.2.2 and A.2.4 of the supplementary material available at Biostatistics
+online).
+Apart from modeling and point estimation, this paper also focuses on hypothesis testing in studies where an end point of interest is change in neural branching, such as neurodegenerative diseases
+(Wearne and others, 2005), neurodevelopmental studies (Charych and others, 2006), and basic science
+(Chen and others, 2005). We develop a general format for likelihood ratio testing for neuronal branching
+data whereby primary level treatment effects are tested using a GLM, whereas higher-level effects are
+tested using a likelihood ratio methodology (Section 2.3). This hybrid procedure allows comparisons to
+be made at each branching order. The hybrid procedure is illustrated by application to a 2 factor designed

@@ -1,0 +1,5 @@
+T2	Binding 1479 1486	binding
+T3	Positive_regulation 1558 1566	affected
+E1	Binding:T2 Theme:T1
+E2	Positive_regulation:T3 Theme:E1
+M1	Negation E2

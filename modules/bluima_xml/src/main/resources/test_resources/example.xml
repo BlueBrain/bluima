@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unitTests xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" id="BBPUIMA"
+         version="Ressource Unit Tests ($Revision: 30 $ $Date: 2011-11-15 18:05:12 +0100 (Tue, 15 Nov 2011) $)"
+         xsi:noNamespaceSchemaLocation="resource_unit_test.xsd">
+
+  <!-- White list -->
+  <result>
+    <description>[WHITE] Simple standard case.</description>
+    <input>40 nM</input>
+    <output id="value">40</output>
+    <output id="unit">nM</output>
+  </result>
+
+  <result>
+    <description>[WHITE] Dot inside value and no separator before unit.</description>
+    <input>123.123microM</input>
+    <output id="value">123.123</output>
+    <output id="unit">microM</output>
+  </result>
+
+  <result>
+    <description>[WHITE] Simple case after some number not part of the concentration.</description>
+    <input>12 12 nM</input>
+    <output id="value">12</output>
+    <output id="unit">nM</output>
+  </result>
+
+  <!-- Black list -->
+  <result>
+    <description>[BLACK] Misspelled unit name.</description>
+    <input>40 mcroM</input>
+    <output/>
+  </result>
+
+</unitTests>

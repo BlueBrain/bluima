@@ -1,0 +1,79 @@
+*	Equiv T15 T14
+*	Equiv T13 T12
+*	Equiv T8 T7
+*	Equiv T10 T9
+*	Equiv T5 T4
+T25	Gene_expression 109 122	gene transfer
+T26	Positive_regulation 109 122	gene transfer
+T27	Positive_regulation 505 514	following
+T28	Gene_expression 515 528	gene transfer
+T29	Positive_regulation 515 528	gene transfer
+T30	Gene_expression 607 621	overexpression
+T31	Positive_regulation 607 621	overexpression
+T32	Negative_regulation 691 700	prevented
+T33	Positive_regulation 741 748	induced
+T34	Protein_catabolism 749 760	degradation
+T35	Negative_regulation 782 792	suppressed
+T36	Positive_regulation 797 809	upregulation
+T37	Transcription 941 951	expression
+T38	Gene_expression 941 951	expression
+T39	Positive_regulation 960 972	upregulation
+T40	Transcription 976 987	transcripts
+T41	Negative_regulation 1137 1146	reduction
+T42	Localization 1168 1177	secretion
+T43	Localization 1192 1206	immobilization
+T44	Gene_expression 1409 1423	overexpression
+T45	Positive_regulation 1409 1423	overexpression
+T46	Positive_regulation 1687 1695	transfer
+T47	Gene_expression 1687 1695	transfer
+T48	Negative_regulation 1780 1790	inhibition
+T49	Positive_regulation 1805 1814	induction
+T50	Gene_expression 1907 1915	transfer
+T51	Positive_regulation 1907 1915	transfer
+E1	Gene_expression:T25 Theme:T1
+E2	Positive_regulation:T26 Theme:E1
+E3	Positive_regulation:T27 Theme:E4
+E4	Gene_expression:T28 Theme:T2
+E5	Positive_regulation:T29 Theme:E4
+E6	Gene_expression:T30 Theme:T3
+E7	Positive_regulation:T31 Theme:E6
+E8	Negative_regulation:T32 Theme:E10 Cause:E7
+E9	Positive_regulation:T33 Theme:E10 Cause:T5
+E10	Protein_catabolism:T34 Theme:T6
+E11	Negative_regulation:T35 Theme:E20 Cause:E6
+E12	Negative_regulation:T35 Theme:E22 Cause:E6
+E13	Negative_regulation:T35 Theme:E24 Cause:E6
+E14	Negative_regulation:T35 Theme:E19 Cause:E6
+E15	Negative_regulation:T35 Theme:E32 Cause:E6
+E16	Negative_regulation:T35 Theme:E31 Cause:E6
+E17	Negative_regulation:T35 Theme:E23 Cause:E6
+E18	Negative_regulation:T35 Theme:E21 Cause:E6
+E19	Positive_regulation:T36 Theme:E25
+E20	Positive_regulation:T36 Theme:E30
+E21	Positive_regulation:T36 Theme:E29
+E22	Positive_regulation:T36 Theme:E27
+E23	Positive_regulation:T36 Theme:E28
+E24	Positive_regulation:T36 Theme:E26
+E25	Transcription:T37 Theme:T8
+E26	Gene_expression:T38 Theme:T11
+E27	Gene_expression:T38 Theme:T8
+E28	Transcription:T37 Theme:T10
+E29	Transcription:T37 Theme:T11
+E30	Gene_expression:T38 Theme:T10
+E31	Positive_regulation:T39 Theme:E34 Cause:T16
+E32	Positive_regulation:T39 Theme:E33 Cause:T16
+E33	Transcription:T40 Theme:T15
+E34	Transcription:T40 Theme:T13
+E35	Negative_regulation:T41 Theme:E36
+E36	Localization:T42 Theme:T17
+E37	Localization:T43 Theme:T18
+E38	Gene_expression:T44 Theme:T20
+E39	Positive_regulation:T45 Theme:E38
+E40	Positive_regulation:T46 Theme:E41
+E41	Gene_expression:T47 Theme:T21
+E42	Negative_regulation:T48 Theme:E43
+E43	Positive_regulation:T49 Theme:T23
+E44	Gene_expression:T50 Theme:T24
+E45	Positive_regulation:T51 Theme:E44
+M1	Speculation E3
+M2	Negation E37

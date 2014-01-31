@@ -1,0 +1,40 @@
+
+
+
+#NXML: Generate java classes
+#not working: xjc -dtd -d src/main/java/ -p ch.epfl.bbp.uima.xml.archivearticle src/main/resources/DTDs/archivearticle.dtd
+#not working: xjc  -d src/main/java/ -p ch.epfl.bbp.uima.xml.archivearticle src/main/xsd/archive/archivearticle3.xsd
+#1) move everything out of dtds into main folder (ugly)
+2)
+#using newest jaxb
+sh ~/.myscripts/bin/xjc/jaxb-ri-20110601/bin/xjc.sh -b pmcOa.xjb -d src/main/java -p ch.epfl.bbp.uima.xml.archivearticle3  src/main/resources/xsds/nxml-3.0/archivearticle3.xsd 
+3)
+perl -p -i -e 's/, required = false//g' src/main/java/ch/epfl/bbp/nlp/xml/archivearticle3/*
+
+
+#MEDLINE: Generate java classes
+xjc -dtd -d src/main/java/ -p ch.epfl.bbp.uima.xml.pubmed src/main/resources/dtd/pubmed_100301.dtd
+
+
+#TestSuiteCorpusParse:
+xjc -d src/main/java/ -p ch.epfl.bbp.uima.xml.testcase ../blue_uima_utils/src/main/resources/testcases/protein_concentration_testsuite.xsd
+
+#GENIA
+#xjc -dtd -d src/main/java/ -p ch.epfl.bbp.uima.xml.genia src/main/resources/GENIAcorpus3.02/gpml.dtd
+xjc -d src/main/java/ -p ch.epfl.bbp.uima.xml.genia src/main/resources/GENIAcorpus3.02/gpml.xsd
+
+#BIOCREATIVE 2.5 Elsevier
+#xjc -dtd -d src/main/java/ -p ch.epfl.bbp.uima.xml.elsevier src/main/resources/elsevier_dtd/art502.dtd
+
+
+#MeSH
+xjc -dtd -d src/main/java/ -p ch.epfl.bbp.uima.xml.mesh src/main/resources/dtd/mesh/desc2012.dtd
+
+
+#test_resources
+xjc -d src/main/java/ -p ch.epfl.bbp.uima.xml.testresources src/main/resources/test_resources/resource_unit_test.xsd
+
+
+#Elsevier
+xjc -dtd -d src/main/java/ -p ch.epfl.bbp.uima.xml.elsevier src/main/resources/elsevier/art520/art520.dtd
+

@@ -1,0 +1,17 @@
+T19	Gene_expression 13 22	Producing
+T20	Negative_regulation 29 33	Lack
+T21	Gene_expression 90 100	expression
+T22	Gene_expression 202 212	expression
+T23	Gene_expression 642 651	secreting
+T24	Gene_expression 692 699	stained
+E1	Gene_expression:T19 Theme:T1
+E2	Negative_regulation:T20 Theme:T2
+E3	Gene_expression:T21 Theme:T3
+E4	Gene_expression:T21 Theme:T4
+E5	Gene_expression:T22 Theme:T6
+E6	Gene_expression:T22 Theme:T7
+E7	Gene_expression:T23 Theme:T15
+E8	Gene_expression:T24 Theme:T17
+E9	Gene_expression:T24 Theme:T18
+M1	Speculation E3
+M2	Speculation E4

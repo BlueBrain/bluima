@@ -1,0 +1,36 @@
+*	Equiv T3 T4
+*	Equiv T17 T16
+T20	Phosphorylation 77 92	phosphorylation
+T21	Protein_catabolism 97 108	degradation
+T22	Gene_expression 744 754	expression
+T23	Positive_regulation 755 760	leads
+T24	Gene_expression 789 799	expression
+T25	Phosphorylation 1109 1124	phosphorylation
+T26	Protein_catabolism 1147 1158	degradation
+T27	Binding 1303 1313	associated
+T28	Protein_catabolism 1374 1385	degradation
+T29	Positive_regulation 1497 1506	induction
+T30	Gene_expression 1524 1534	expression
+T31	Positive_regulation 1538 1547	activated
+T32	Positive_regulation 1595 1604	activates
+T33	Transcription 1605 1618	transcription
+T34	Positive_regulation 1716 1728	accumulation
+T35	Negative_regulation 1754 1761	inhibit
+T36	Gene_expression 1780 1790	production
+E1	Phosphorylation:T20 Theme:T2
+E2	Protein_catabolism:T21 Theme:T2
+E3	Gene_expression:T22 Theme:T8
+E4	Positive_regulation:T23 Theme:E5 Cause:E3
+E5	Gene_expression:T24 Theme:T9
+E6	Phosphorylation:T25 Theme:T12
+E7	Protein_catabolism:T26 Theme:T12
+E8	Binding:T27 Theme:T13
+E9	Protein_catabolism:T28 Theme:T13
+E10	Positive_regulation:T29 Theme:E11 Cause:T14
+E11	Gene_expression:T30 Theme:T15
+E12	Positive_regulation:T31 Theme:E10 Cause:T17
+E13	Positive_regulation:T32 Theme:E14 Cause:T18
+E14	Transcription:T33 Theme:T18
+E15	Positive_regulation:T34 Theme:T19
+E16	Negative_regulation:T35 Theme:E17 Cause:E15
+E17	Gene_expression:T36 Theme:T19

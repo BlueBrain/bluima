@@ -1,0 +1,55 @@
+*	Equiv T3 T2
+*	Equiv T7 T6
+T21	Negative_regulation 159 168	reduction
+T22	Positive_regulation 472 479	induces
+T23	Gene_expression 484 494	expression
+T24	Transcription 571 581	expression
+T25	Positive_regulation 1116 1124	enhanced
+T26	Transcription 1125 1140	mRNA expression
+T27	Transcription 1173 1183	expression
+T28	Positive_regulation 1221 1228	induced
+T29	Positive_regulation 1489 1495	induce
+T30	Positive_regulation 1564 1572	required
+T31	Transcription 1591 1601	expression
+T32	Binding 1611 1618	binding
+T33	Positive_regulation 1669 1677	required
+T34	Transcription 1706 1716	expression
+T35	Positive_regulation 1721 1729	enhanced
+T36	Transcription 1744 1754	expression
+T37	Protein_catabolism 1779 1790	degradation
+T38	Positive_regulation 1841 1853	demonstrated
+E1	Negative_regulation:T21 Theme:T1
+E2	Positive_regulation:T22 Theme:E9
+E3	Positive_regulation:T22 Theme:E10
+E4	Positive_regulation:T22 Theme:E7
+E5	Positive_regulation:T22 Theme:E8
+E6	Positive_regulation:T22 Theme:E11
+E7	Gene_expression:T23 Theme:T3
+E8	Gene_expression:T23 Theme:T4
+E9	Gene_expression:T23 Theme:T5
+E10	Transcription:T24 Theme:T8
+E11	Transcription:T24 Theme:T7
+E12	Positive_regulation:T25 Theme:E13
+E13	Transcription:T26 Theme:T9
+E14	Transcription:T27 Theme:T10
+E15	Transcription:T27 Theme:T11
+E16	Positive_regulation:T28 Theme:E14
+E17	Positive_regulation:T29 Theme:T12
+E18	Positive_regulation:T29 Theme:T14
+E19	Positive_regulation:T29 Theme:T13
+E20	Positive_regulation:T30 Theme:E21
+E21	Transcription:T31 Theme:T15
+E22	Binding:T32 Theme:T16
+E23	Positive_regulation:T33 Theme:E26 Cause:E22
+E24	Positive_regulation:T33 Theme:E25 Cause:E22
+E25	Transcription:T34 Theme:T17
+E26	Transcription:T34 Theme:T18
+E27	Positive_regulation:T35 Theme:E28 Cause:E22
+E28	Transcription:T36 Theme:T19
+E29	Protein_catabolism:T37 Theme:T20
+E30	Positive_regulation:T38 Theme:E29
+M1	Negation E3
+M2	Negation E6
+M3	Negation E17
+M4	Negation E18
+M5	Negation E19

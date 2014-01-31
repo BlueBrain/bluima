@@ -1,0 +1,29 @@
+########################################################################################
+#
+# extracts BR with NName lex-ner or BrainNER
+# the print each BR token with its POS
+#
+########################################################################################
+
+cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+ #inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/
+ inputDirectory: /Volumes/HDD2/ren_data/data_hdd/_papers_etc/bbp_people/people_extracted
+ # since they are in 2 different dirs
+ isRecursive__java: true
+
+ae: SentenceAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz
+
+ae: TokenAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/token/TokenizerGenia.bin.gz
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
+
+########################################################################################
+# NNames lex-ner
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/neuronames");
+
+ae: DeduplicatorAnnotator
+ annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.BrainRegionDictTerm"}
+
+ae: StudyMorphology

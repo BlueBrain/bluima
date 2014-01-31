@@ -1,0 +1,44 @@
+T19	Negative_regulation 13 23	suppressed
+T20	Entity 74 101	proximal binding element P0
+T21	Binding 83 90	binding
+T22	Positive_regulation 139 147	enhanced
+T23	Transcription 158 171	transcription
+T24	Gene_expression 268 277	producing
+T25	Positive_regulation 289 298	promoting
+T26	Gene_expression 303 312	synthesis
+T27	Positive_regulation 349 358	increased
+T28	Gene_expression 369 379	expression
+T29	Regulation 424 434	regulation
+T30	Regulation 446 454	involves
+T31	Negative_regulation 621 636	inhibitory role
+T32	Regulation 659 666	control
+T33	Binding 1008 1017	complexes
+T34	Binding 1169 1178	complexes
+T35	Positive_regulation 1193 1202	inducible
+T36	Positive_regulation 1540 1548	elevated
+T37	Gene_expression 1559 1565	levels
+T38	Positive_regulation 1620 1630	high-level
+T39	Gene_expression 1636 1646	production
+E1	Negative_regulation:T19 Theme:T1 Cause:E2
+E2	Binding:T21 Theme:T1 Theme2:T2 Site2:T20
+E3	Positive_regulation:T22 Theme:E4
+E4	Transcription:T23 Theme:T3
+E5	Gene_expression:T24 Theme:T4
+E6	Positive_regulation:T25 Theme:E7 Cause:E5
+E7	Gene_expression:T26 Theme:T5
+E8	Positive_regulation:T27 Theme:E9
+E9	Gene_expression:T28 Theme:T6
+E10	Regulation:T29 Theme:T7
+E11	Regulation:T30 Theme:E10 Cause:T9
+E12	Regulation:T30 Theme:E10 Cause:T8
+E13	Negative_regulation:T31 Theme:E14 Cause:T10
+E14	Regulation:T32 Theme:T11
+E15	Binding:T33 Theme:T13
+E16	Binding:T34 Theme:T14
+E17	Positive_regulation:T35 Theme:E16
+E18	Positive_regulation:T36 Theme:E19
+E19	Gene_expression:T37 Theme:T15
+E20	Positive_regulation:T38 Theme:E21
+E21	Gene_expression:T39 Theme:T16
+M1	Negation E15
+M2	Negation E18

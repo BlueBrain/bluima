@@ -1,0 +1,31 @@
+Test Data for BioNLP Shared Task 2011 - GENIA event extraction (GE)
+
+
+- Contains the followings
+  - 260 PubMed abstracts and event annotations to them, which are exactly
+    the same as the data for BioNLP Shared Task 2009.
+  - 4 PMC full papers and event annotations to them.
+
+- For license information, please refer to the file, LICENSE.
+
+- For format details, please refer to the shared task homepage.
+  http://sites.google.com/site/bionlpst/
+
+
+File Descriptions:
+
+*.txt	files containing the target text.
+
+*.a1	files contain standoff annotations for proteins.
+
+
+History:
+
+ 1 Mar. 2011: the initial version released.
+
+
+Authors:
+
+BioNLP Shared Task 2011 organizers,
+bionlp-st@googlegroups.com
+http://sites.google.com/site/bionlpst/

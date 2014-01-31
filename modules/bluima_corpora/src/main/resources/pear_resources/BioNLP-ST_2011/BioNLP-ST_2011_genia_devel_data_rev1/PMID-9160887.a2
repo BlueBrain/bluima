@@ -1,0 +1,11 @@
+T10	Gene_expression 51 61	transduced
+T11	Positive_regulation 51 61	transduced
+T12	Binding 277 288	interaction
+T13	Gene_expression 598 608	introduced
+T14	Positive_regulation 598 608	introduced
+E1	Gene_expression:T10 Theme:T1
+E2	Positive_regulation:T11 Theme:E1
+E3	Binding:T12 Theme:T2 Theme2:T3
+E4	Binding:T12 Theme:T2
+E5	Gene_expression:T13 Theme:T6
+E6	Positive_regulation:T14 Theme:E5

@@ -1,0 +1,340 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!-- ======================================================================
+     === XML Schema Definition for Protein Concentration Test Suites in 
+     ==    BBrain NLP Project 
+     === copyright: EPFL 2011
+     === created by: Jean-Cédric Chappelier
+     === creation date: October 25th 2011
+     === revision: $Revision: 58 $ ($Date: 2011-11-29 18:00:59 +0100 (Tue, 29 Nov 2011) $)
+     ====================================================================== -->
+
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+
+<!-- ======================================================================
+     === Defines :
+     ===   + testSuiteCorpus : set of reference tests.
+     ===   + result          : one (desired) result = one input and its corresponding outputs.
+     ===   + input           : an input sentence.
+     ===   + output          : desired output : protein + cell type + concentration.
+     ===   + sentencesId     : Identification of a group of sentences : 
+     ===                           corpus, document, paragraph, sentences positions.
+     ===   + corpusIdType    : List of known corpora (e.g. PubMed).
+     ===   + documentId      : document ID in some corpus.
+     ===   + paragraphId     : paragraph ID in some document.
+     ===   + sentenceNo      : sentence number in some paragraph/document.
+     ===   + rawContent      : raw piece of text as its appears in corpus.
+     ===   + tokenizateion   : a list of tokens.
+     ===   + token           : a token in a sentence (rawContent).
+     ===   + tokens          : a list of tokens references.
+     ===   + protein         : a reference to a protein in some document.
+     ===   + proteinName     : a name of a protein, as referenced.
+     ===   + cellType        : a reference to a cell type in some document.
+     ===   + cellTypeName    : a name of a cell type, as referenced.
+     ===   + concentration   : a extracted concentration from the document.
+     ===   + value           : simply a piece of text that can be understood as a value.
+     ====================================================================== -->
+
+  <!-- =++++ testSuiteCorpus ++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="testSuiteCorpus">
+    <xs:annotation>
+      <xs:documentation>
+        Top-level element that regroups several reference tests (input and corresponding output).
+        Attributes are an unique id and and version (both required and of type string).
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType> 
+      <xs:sequence>
+        <xs:element ref="result" maxOccurs="unbounded"/>
+      </xs:sequence>
+      <xs:attribute name="id"      type="xs:string" use="required"/>
+      <xs:attribute name="version" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- =++++ result +++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="result">
+    <xs:annotation>
+      <xs:documentation>
+        A test expected result: an input and its corresponding outputs.
+
+        Can have an optional ID attribute.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType> 
+      <xs:sequence>
+        <xs:element ref="input"/>
+        <xs:element ref="output" maxOccurs="unbounded" />
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- =++++ input +++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="input">
+    <xs:annotation>
+      <xs:documentation>
+        An input sentence. Shall contain an unambigous identification,
+        its raw content and, optionaly, its tokenized content.
+
+        Can have an optional ID attribute.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType> 
+      <xs:sequence>
+        <xs:element ref="sentencesId"/>
+        <xs:element ref="rawContent" />
+        <xs:element ref="tokenization" minOccurs="0" />
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- =++++ sentencesId ++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="sentencesId">
+    <xs:annotation>
+      <xs:documentation>
+        Identification of a group of sentences : corpus, document, paragraph, sentences positions (ids).
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType> 
+      <xs:sequence>
+        <xs:element name="corpusId" type="corpusIdType"/>
+        <xs:element ref="documentId"/>
+        <xs:element ref="paragraphId"/>
+        <xs:element ref="sentenceNo" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+ <!-- +++++ corpusIdType ++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:simpleType name="corpusIdType">
+    <xs:annotation>
+      <xs:documentation>
+        This element indicates the corpus the sample was coming from.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:restriction base="xs:string">
+      <xs:enumeration value="PubMed"/>
+    </xs:restriction>
+  </xs:simpleType>
+
+  <!-- =++++ documentId ++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="documentId" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>
+        This element indicates the document the sample was coming from.
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+
+  <!-- =++++ paragraphId ++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="paragraphId" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>
+        The identification of a paragraph in a document.
+        [ a string for the moment... could be an integer in the future. ]
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+
+  <!-- =++++ sentenceNo ++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="sentenceNo" type="xs:integer">
+    <xs:annotation>
+      <xs:documentation>
+        The identification of a sentence in a paragraph.
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+
+  <!-- =++++ rawContent ++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="rawContent" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>
+        The raw content (i.e. untransformed) of some text.
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+
+  <!-- =++++ tokenization +++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="tokenization">
+    <xs:annotation>
+      <xs:documentation>
+        A list of tokens.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType> 
+      <xs:sequence>
+        <xs:element ref="token" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- =++++ token ++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="token">
+    <xs:annotation>
+      <xs:documentation>
+        A token in a sentence indicated as [from, to) (i.e. from
+        included, to excluded), where from and to are char positions
+        in the input string.
+
+        When 'to' is missing, it means "to=from+1".
+
+        Must have an ID attribute.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType> 
+      <xs:sequence>
+        <xs:element name="from" type="xs:integer" />
+        <xs:element name="to" type="xs:integer" minOccurs="0" />
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- =++++ tokens +++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="tokens">
+    <xs:annotation>
+      <xs:documentation>
+        A list of tokens references (IDs).
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType> 
+      <xs:sequence>
+        <xs:element name="tokenId" type="xs:integer" maxOccurs="unbounded"/>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- =++++ output +++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="output">
+    <xs:annotation>
+      <xs:documentation>
+        One possible output for an input sentence: indicates a
+        protein, a cell type and a concentration.
+
+        Can have an optional ID attribute.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType> 
+      <xs:sequence>
+        <xs:element ref="protein"/>
+        <xs:element ref="cellType" />
+        <xs:element ref="concentration" />
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string"/>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- =++++ protein +++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="protein">
+    <xs:annotation>
+      <xs:documentation>
+        A reference to a protein in some text. Contains a name, which
+        maybe any suited string to described this protein (not
+        necessarily corresponding to the input text. Should be some
+        "reference name") and a list of tokens or the corresponding
+        raw content, which do refer to the way this protein is
+        described in the corresponding input text. This extra
+        information is optional and usefull only when the value of
+        proteinName does not correspond to the raw input (= surface
+        form).
+
+        Shall have an ID attribute referencing some database/ontology.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType> 
+      <xs:sequence>
+        <xs:element ref="proteinName"/>
+        <xs:choice minOccurs="0">
+          <xs:element ref="tokens"/>
+          <xs:element ref="rawContent"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- =++++ proteinName ++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="proteinName" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>
+        A name of a protein, as referenced. This type is a(n open) string for the
+        moment, but could turn to a restricted (enumeration) type in the future.
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+
+  <!-- =++++ cellType +++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="cellType">
+    <xs:annotation>
+      <xs:documentation>
+        A reference to a cell type in some text. Contains a name,
+        which maybe any suited string to described this cell type (not
+        necessarily corresponding to the input text. Should be some
+        "reference name") and a list of tokens or the corresponding
+        raw content, which do refer to the way this cell type is
+        described in the corresponding input text. This extra
+        information is optional and usefull only when the value of
+        proteinName does not correspond to the raw input (= surface
+        form).
+
+        Shall have an ID attribute referencing some database/ontology.
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType> 
+      <xs:sequence>
+        <xs:element ref="cellTypeName"/>
+        <xs:choice minOccurs="0">
+          <xs:element ref="tokens"/>
+          <xs:element ref="rawContent"/>
+        </xs:choice>
+      </xs:sequence>
+      <xs:attribute name="id" type="xs:string" use="required"/>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- =++++ cellTypeName ++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="cellTypeName" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>
+        A name of a protein, as referenced. This type is a(n open) string for the
+        moment, but could turn to a restricted (enumeration) type in the future.
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+
+  <!-- =++++ concentration +++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="concentration">
+    <xs:annotation>
+      <xs:documentation>
+        A extracted concentration from the input. Contains the
+        extracted string corresponding to a "value" (in the broad
+        sense, e.g. "approx. 40 mmol") and a list of tokens or the
+        corresponding raw content, which do refer to the way this
+        concentration is described in the corresponding input text.
+        This extra information is optional and usefull only when the
+        value of proteinName does not correspond to the raw input (=
+        surface form).
+      </xs:documentation>
+    </xs:annotation>
+    <xs:complexType> 
+      <xs:sequence>
+        <xs:element ref="value"/>
+        <xs:choice minOccurs="0">
+          <xs:element ref="tokens"/>
+          <xs:element ref="rawContent"/>
+        </xs:choice>
+      </xs:sequence>
+    </xs:complexType>
+  </xs:element>
+
+  <!-- =++++ value ++++++++++++++++++++++++++++++++++++++++++++++++++++++= -->
+  <xs:element name="value" type="xs:string">
+    <xs:annotation>
+      <xs:documentation>
+        Simply a piece of text that can be understood as a value.
+      </xs:documentation>
+    </xs:annotation>
+  </xs:element>
+
+</xs:schema>

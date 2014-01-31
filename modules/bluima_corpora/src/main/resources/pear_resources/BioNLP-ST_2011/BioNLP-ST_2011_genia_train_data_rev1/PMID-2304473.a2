@@ -1,0 +1,7 @@
+T10	Gene_expression 975 979	made
+T11	Positive_regulation 1162 1177	transactivation
+E1	Gene_expression:T10 Theme:T4
+E2	Positive_regulation:T11 Theme:T5
+E3	Positive_regulation:T11 Theme:T6
+M1	Speculation E2
+M2	Speculation E3

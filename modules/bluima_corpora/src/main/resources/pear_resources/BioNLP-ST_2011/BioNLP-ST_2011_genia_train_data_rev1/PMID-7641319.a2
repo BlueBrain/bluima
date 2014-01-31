@@ -1,0 +1,33 @@
+*	Equiv T10 T11
+T19	Regulation 140 150	regulating
+T20	Gene_expression 151 161	expression
+T21	Positive_regulation 235 246	upregulated
+T22	Regulation 333 362	under transcriptional control
+T23	Transcription 738 742	mRNA
+T24	Positive_regulation 1119 1136	Promoter function
+T25	Entity 1144 1162	5' flanking region
+T26	Entity 1373 1381	promoter
+T27	Gene_expression 1411 1421	expression
+T28	Positive_regulation 1465 1473	enhanced
+T29	Gene_expression 1996 2006	expression
+T30	Regulation 2014 2023	regulated
+T31	Positive_regulation 2183 2192	mechanism
+T32	Positive_regulation 2218 2230	upregulation
+T33	Positive_regulation 2302 2311	increased
+T34	Transcription 2338 2351	transcription
+E1	Regulation:T19 Theme:E2
+E2	Gene_expression:T20 Theme:T1
+E3	Positive_regulation:T21 Theme:T2
+E4	Regulation:T22 Theme:T3
+E5	Transcription:T23 Theme:T6
+E6	Positive_regulation:T24 Theme:T8 Site:T25
+E7	Gene_expression:T27 Theme:T13
+E8	Positive_regulation:T28 Theme:T12 Site:T26
+E9	Gene_expression:T29 Theme:T16
+E10	Regulation:T30 Theme:E9
+E11	Positive_regulation:T31 Theme:E12 Cause:E13
+E12	Positive_regulation:T32 Theme:T17
+E13	Positive_regulation:T33 Theme:E14
+E14	Transcription:T34 Theme:T18
+M1	Speculation E4
+M2	Speculation E6

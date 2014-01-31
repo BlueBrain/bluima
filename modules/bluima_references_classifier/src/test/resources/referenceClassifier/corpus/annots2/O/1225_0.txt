@@ -1,0 +1,54 @@
+Materials and Methods
+Subjects. Fourteen adults, five males and nine
+females, 20 –35 years of age, (mean age, 25
+Figure 1. Group activation for the spelling and rhyming tasks compared with baseline. Extent threshold, 50 voxels.
+years), participated in this study. All participants were right-handed, native Englishspeaking university students with no diagnosed neurological/psychiatric
+disorders or language/reading disabilities.
+Stimuli and tasks. The stimuli and tasks were described in detail previously (Booth et al., 2002). In both the spelling and rhyming tasks, three
+words were presented sequentially, and the participant had to determine
+whether the final word matched either of the two previous words according to a predefined rule. In the spelling task, participants determined
+whether the final word had the same rhyme spelling as either of the first
+two words. The rhyme included all letters after the first consonant or
+consonant cluster (Bowey, 1990). In the rhyming task, participants de-termined whether the final word rhymed with either of the first two
+words. Participants indicated their judgment by pressing one of two
+Figure 2. Center of ROIs in individual subjects. Pink, IFG; orange, FG; yellow, LTC; blue, IPS.
+buttons. For both the spelling and rhyming tasks, one-half of the target
+trials contained a target word that rhymed and was orthographically
+similar to one of the preceding two words [i.e., had the same rhyme (like
+based design, with the two tasks (spelling and rhyming) as the conditions
+hold– cold)]. The other half contained a target word that rhymed but was
+of interest. Images from the two separate runs were entered as a single
+orthographically dissimilar to one of the preceding two words (e.g.,
+session to form a single time series for each individual, and two regressors
+hope–soap). In addition, one-half of the correct trials involved a match to
+of no interest were added to account for the session effect. A high-pass
+the first stimulus, and one-half involved a match to the second stimulus.
+filter with a cutoff period of 256 s was applied. Group results were ob-Sixty percent of the trials involved a match, and 40% involved a nontained using random-effects analyses by combining subject-specific
+match. In the perceptual control task, the experimental setup and timing summary statistics across the group as implemented in SPM2 (Penny and
+for the control blocks was exactly the same as for the word blocks, except Holmes, 2003). The group results were then used for choosing the re-the three stimuli were abstract, nonlinguistic symbols consisting of gions of interest (ROIs) for the effective connectivity analysis. To simstraight lines (e.g., //). The subjects were asked to determine whether the plify the network, and because of the strong asymmetry in the activation
+final line matched either of the first two lines. clusters and well documented laterality of language processes, only leftExperimental procedure. The spelling and the rhyming tasks were each hemisphere clusters larger than 50 voxels were included. This process
+administered in a separate 9 min run, which was preceded by written resulted in four ROIs in the left hemisphere: FG, IFG, IPS, and LTC. Two
+instructions to the subject. Each task procedure consisted of 10 blocks of regions were active in both tasks (i.e., FG and IFG), whereas the other two
+54 s, in which five experimental blocks of either the spelling or the rhym- ROIs were each selectively active in one of the tasks (i.e., the IPS in the
+ing task alternated with five control blocks. In each trial for the experi- spelling task and the LTC in the rhyming task) (Fig. 1, Table 1).
+mental blocks, three consecutive words were presented, each word for Effective connectivity. Four regions of interest were specified in the left
+800 ms followed by a 200 ms blank interval. Participants had 2000 ms to hemisphere for each individual: FG, IFG, IPS, and LTC. Regional re-respond. Each trial lasted a total of 5000 ms. Each block began with a 4 s sponses were summarized as the principal eigenvariates of responses
+instruction followed by 10 trials. within a sphere centered on the most significant voxel for each subject.
+Functional magnetic resonance imaging data acquisition. Images were For the task-specific regions (LTC and IPS), this was a 6 mm sphere, to
+acquired using a 1.5 tesla General Electric (Milwaukee, WI) scanner with minimize the number of inactive voxels included. For the task-common
+echo planar imaging method. The scanning parameters were the follow- regions (IFG and FG), we used a 10 mm sphere to include active voxels
+ing: repetition time (TR), 3000 ms; echo time (TE), 40 ms; flip angle, 90 o; from both the spelling and rhyming tasks to enable the direct comparison
+matrix size, 64 64; field of view, 22 cm; slice thickness, 4 mm; number of the effects of the two tasks in a single DCM model. Subject-specific
+of slices, 32. These scanning parameters resulted in a 3.437 3.437 4 maxima were defined operationally as the most significant voxels within
+mm voxel size. Two runs of 9 min (180 images) were acquired, one with 22 mm of the group maximum in the appropriate SPM. The SPMs for the
+each experimental task. A high-resolution, T1-weighted three- task-specific regions (LTC and IPS) tested for rhyming and spelling,
+dimensional image was also acquired (spoiled gradient-recalled acquisi- respectively. For the IFG and FG, the maxima across both tasks were
+tion in a steady state; TR, 21 ms; TE, 8 ms; flip angle, 20 o; matrix size, averaged in each individual. Two subjects were excluded, because there
+256 256; field of view, 22 cm; slice thickness, 1 mm). were no significant clusters within 22 mm from the group-reference
+Image data analysis. Data analysis was performed using statistical para- voxel (in IFG and LTC). Figure 2 (and Table 2, available at www.jneurometric mapping (SPM2) (http://www.fil.ion.ucl.ac.uk/spm). The images sci.org as supplemental material) presents the location of the centers of
+were spatially realigned to the first volume to correct for head move- the individual ROIs.
+ments. No individual runs had 2.5 mm maximum displacement. Sinc Effective connectivity analysis was performed using the DCM tool in
+interpolation was used to minimize timing errors between slices (Henson SPM2 (Friston et al., 2003; Penny et al., 2004). In DCM, three sets of
+et al., 1999). The functional images were coregistered with the anatomi- parameters are estimated: the direct influence of stimuli on regional
+cal image and normalized to the standard T1 template volume (Montreal activity, the intrinsic or latent connections between regions (i.e., the
+Neurological Institute, Montreal, Quebec, Canada). The data were then interregional influences in the absence of modulating experimental ef-smoothed with a 7 mm isotropic Gaussian kernel. fects), and the changes in the intrinsic connectivity between regions in- Statistical analyses at the first level were calculated using an epoch- duced by the experimental design (modulatory effects) (Mechelli et al.,

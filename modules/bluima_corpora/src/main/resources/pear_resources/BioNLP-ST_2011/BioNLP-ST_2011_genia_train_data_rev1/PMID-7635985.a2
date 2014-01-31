@@ -1,0 +1,16 @@
+*	Equiv T11 T12
+*	Equiv T16 T15
+T25	Positive_regulation 1204 1211	induced
+T26	Positive_regulation 1265 1279	Cotransfection
+T27	Gene_expression 1265 1279	Cotransfection
+T28	Binding 1420 1430	comigrated
+T29	Positive_regulation 1542 1551	activated
+T30	Positive_regulation 1560 1574	in response to
+E1	Positive_regulation:T25 Theme:T16 Cause:T14
+E2	Positive_regulation:T26 Theme:E5
+E3	Positive_regulation:T26 Theme:E4
+E4	Gene_expression:T27 Theme:T18
+E5	Gene_expression:T27 Theme:T17
+E6	Binding:T28 Theme:T20
+E7	Positive_regulation:T29 Theme:T21 Cause:T23
+E8	Positive_regulation:T30 Theme:E7

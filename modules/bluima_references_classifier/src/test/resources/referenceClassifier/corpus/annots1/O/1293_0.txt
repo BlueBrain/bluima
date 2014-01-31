@@ -1,0 +1,9 @@
+We have developed a spiking neural network simulator, which is both easy to use and computationally efficient, for the generation of large-scale computational neuroscience models.
+The simulator implements current or conductance based Izhikevich neuron networks, having spike-timing dependent plasticity and short-term plasticity. It uses a standard network
+construction interface. The simulator allows for execution on either GPUs or CPUs. The
+simulator, which is written in C/C++, allows for both fine grain and coarse grain specificity
+of a host of parameters. We demonstrate the ease of use and computational efficiency of
+this model by implementing a large-scale model of cortical areas V1, V4, and area MT. The
+complete model, which has 138,240 neurons and approximately 30 million synapses, runs
+in real-time on an off-the-shelf GPU. The simulator source code, as well as the source code
+for the cortical model examples is publicly available.

@@ -1,0 +1,29 @@
+T17	Binding 315 326	association
+T18	Protein_catabolism 527 551	proteolytically degraded
+T19	Binding 700 710	associated
+T20	Protein_catabolism 747 755	degraded
+T21	Positive_regulation 756 770	in response to
+T22	Phosphorylation 917 931	phosphorylated
+T23	Negative_regulation 984 991	absence
+T24	Localization 995 1015	slow migrating forms
+T25	Phosphorylation 1074 1089	phosphorylation
+T26	Positive_regulation 1153 1160	targets
+T27	Protein_catabolism 1178 1189	proteolysis
+E1	Binding:T17 Theme:T2 Theme2:T4
+E2	Binding:T17 Theme:T2 Theme2:T5
+E3	Binding:T17 Theme:T3 Theme2:T5
+E4	Binding:T17 Theme:T3 Theme2:T4
+E5	Protein_catabolism:T18 Theme:T8
+E6	Protein_catabolism:T18 Theme:T7
+E7	Binding:T19 Theme:T9 Theme2:T11
+E8	Binding:T19 Theme:T10 Theme2:T11
+E9	Protein_catabolism:T20 Theme:T12
+E10	Positive_regulation:T21 Theme:E9 Cause:T13
+E11	Phosphorylation:T22 Theme:T15
+E12	Phosphorylation:T22 Theme:T14
+E13	Negative_regulation:T23 Theme:E14
+E14	Localization:T24 Theme:T16
+E15	Phosphorylation:T25 Theme:T16
+E16	Positive_regulation:T26 Theme:E17
+E17	Protein_catabolism:T27 Theme:T16
+M1	Negation E12

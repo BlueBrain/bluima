@@ -1,0 +1,10 @@
+T6	Regulation 1 11	Regulation
+T7	Transcription 15 28	transcription
+T8	Positive_regulation 134 141	induced
+T9	Gene_expression 145 152	produce
+T10	Binding 516 521	binds
+E1	Regulation:T6 Theme:E2
+E2	Transcription:T7 Theme:T1
+E3	Positive_regulation:T8 Theme:E4
+E4	Gene_expression:T9 Theme:T2
+E5	Binding:T10 Theme:T4

@@ -1,0 +1,45 @@
+*	Equiv T3 T4
+T25	Regulation 732 738	effect
+T26	Positive_regulation 819 829	stimulated
+T27	Positive_regulation 862 871	increased
+T28	Positive_regulation 955 966	stimulation
+T29	Binding 1137 1148	association
+T30	Positive_regulation 1266 1269	led
+T31	Binding 1332 1345	disappearance
+T32	Binding 1355 1365	reassembly
+T33	Regulation 1424 1432	remained
+T34	Binding 1441 1451	associated
+T35	Phosphorylation 1464 1477	phosphorylate
+T36	Positive_regulation 1464 1477	phosphorylate
+E1	Regulation:T25 Theme:T8
+E2	Regulation:T25 Theme:T7
+E3	Positive_regulation:T26 Theme:T9
+E4	Positive_regulation:T27 Theme:E3
+E5	Positive_regulation:T28 Theme:T10
+E6	Positive_regulation:T28 Theme:T11
+E7	Binding:T29 Theme:T13
+E8	Binding:T29 Theme:T12
+E9	Binding:T29 Theme:T14
+E10	Positive_regulation:T30 Theme:E15
+E11	Positive_regulation:T30 Theme:E14
+E12	Positive_regulation:T30 Theme:E16
+E13	Positive_regulation:T30 Theme:E17
+E14	Binding:T31 Theme:T15
+E15	Binding:T31 Theme:T16
+E16	Binding:T32 Theme:T16
+E17	Binding:T32 Theme:T15
+E18	Regulation:T33 Theme:E22
+E19	Regulation:T33 Theme:E21
+E20	Regulation:T33 Theme:E23
+E21	Binding:T34 Theme:T18
+E22	Binding:T34 Theme:T17
+E23	Binding:T34 Theme:T19
+E24	Phosphorylation:T35 Theme:T21
+E25	Positive_regulation:T36 Theme:E24 Cause:T20
+M1	Negation E14
+M2	Negation E15
+M3	Negation E18
+M4	Negation E19
+M5	Negation E20
+M6	Negation E24
+M7	Negation E25

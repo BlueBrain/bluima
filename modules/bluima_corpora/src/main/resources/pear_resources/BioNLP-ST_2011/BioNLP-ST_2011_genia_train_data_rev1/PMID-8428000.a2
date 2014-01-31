@@ -1,0 +1,27 @@
+*	Equiv T3 T2
+T10	Gene_expression 14 24	expression
+T11	Gene_expression 161 170	expressed
+T12	Regulation 239 249	controlled
+T13	Entity 406 429	ACT-1-activating region
+T14	Binding 464 469	binds
+T15	Positive_regulation 539 548	necessary
+T16	Gene_expression 557 567	expression
+T17	Binding 639 644	binds
+T18	Positive_regulation 921 931	activating
+T19	Entity 932 943	ARRE-1 site
+T20	Positive_regulation 1127 1136	important
+T21	Gene_expression 1161 1171	expression
+E1	Gene_expression:T10 Theme:T1
+E2	Gene_expression:T11 Theme:T3
+E3	Regulation:T12 Theme:T3
+E4	Binding:T14 Theme:T4 Site:T13
+E5	Positive_regulation:T15 Theme:E6
+E6	Gene_expression:T16 Theme:T5
+E7	Binding:T17 Theme:T4 Site:T13
+E8	Positive_regulation:T18 Theme:T7 Site:T19
+E9	Positive_regulation:T20 Theme:E12
+E10	Positive_regulation:T20 Theme:E11
+E11	Gene_expression:T21 Theme:T8
+E12	Gene_expression:T21 Theme:T9
+M1	Speculation E9
+M2	Speculation E10

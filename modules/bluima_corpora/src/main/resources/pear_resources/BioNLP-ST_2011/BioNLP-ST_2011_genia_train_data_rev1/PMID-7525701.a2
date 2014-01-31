@@ -1,0 +1,17 @@
+*	Equiv T8 T9
+T14	Binding 0 13	Cross-linking
+T15	Binding 157 170	Cross-linking
+T16	Positive_regulation 191 195	lead
+T17	Gene_expression 229 239	production
+T18	Binding 354 364	engagement
+T19	Binding 447 460	cross-linking
+T20	Binding 614 627	cross-linking
+T21	Binding 958 971	cross-linking
+E1	Binding:T14 Theme:T1
+E2	Binding:T15 Theme:T3
+E3	Positive_regulation:T16 Theme:E4 Cause:E2
+E4	Gene_expression:T17 Theme:T4
+E5	Binding:T18 Theme:T3
+E6	Binding:T19 Theme:T5
+E7	Binding:T20 Theme:T6
+E8	Binding:T21 Theme:T11

@@ -1,0 +1,14 @@
+cr: ZipXmiCollectionReader
+ inputDirectory: target
+
+ae: VerbsCleanerAnnotator
+
+ae: ch.epfl.bbp.uima.ae.cleanup.SkipSomePosAnnotator2
+
+ae: AnnotationHistogramAnnotator
+          
+ae: ViterbiFilterAnnotator
+
+ae: AnnotationHistogramAnnotator
+
+ae: BartWriter

@@ -1,0 +1,21 @@
+
+cr: PubmedWholeDatabaseCR
+ db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" }
+ between__java: new int[]{126,150}
+
+#include: ../../includes/preprocess.incl
+
+ae: SentenceAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz
+
+ae: TokenAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/token/TokenizerGenia.bin.gz
+
+
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+
+ae: PruneMeasuresAnnotator
+
+ae: CountMeasuresAnnotator
+
+ae: StatsAnnotatorPlus

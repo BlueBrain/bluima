@@ -1,0 +1,36 @@
+T9	Regulation 12 21	regulated
+T10	Gene_expression 22 32	expression
+T11	Positive_regulation 66 74	mediated
+T12	Entity 529 538	promoters
+T13	Negative_regulation 570 576	failed
+T14	Regulation 589 599	regulation
+T15	Entity 693 710	E2F-like sequence
+T16	Regulation 740 750	cooperates
+T17	Gene_expression 816 826	expression
+T18	Regulation 984 993	regulated
+T19	Gene_expression 994 1004	expression
+T20	Regulation 1086 1095	regulated
+T21	Binding 1111 1118	binding
+E1	Regulation:T9 Theme:E4
+E2	Regulation:T9 Theme:E3
+E3	Gene_expression:T10 Theme:T1
+E4	Gene_expression:T10 Theme:T2
+E5	Positive_regulation:T11 Theme:E4
+E6	Positive_regulation:T11 Theme:E3
+E7	Negative_regulation:T13 Theme:E10
+E8	Negative_regulation:T13 Theme:E9
+E9	Regulation:T14 Theme:T3 Site:T12
+E10	Regulation:T14 Theme:T4 Site:T12
+E11	Regulation:T16 Theme:E10 Cause:T5 CSite:T15
+E12	Regulation:T16 Theme:E9 Cause:T5 CSite:T15
+E13	Gene_expression:T17 Theme:T6
+E14	Regulation:T18 Theme:E17
+E15	Regulation:T18 Theme:E16
+E16	Gene_expression:T19 Theme:T7
+E17	Gene_expression:T19 Theme:T8
+E18	Regulation:T20 Theme:E17 Cause:E23
+E19	Regulation:T20 Theme:E16 Cause:E22
+E20	Regulation:T20 Theme:E16 Cause:E23
+E21	Regulation:T20 Theme:E17 Cause:E22
+E22	Binding:T21 Theme:T8
+E23	Binding:T21 Theme:T7

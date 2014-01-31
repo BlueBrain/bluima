@@ -1,0 +1,49 @@
+# $1 from
+# $2 to
+# $3 outdir
+
+
+cr: ch.epfl.bbp.uima.mongo.MongoCollectionReader
+ db_connection__java: new String[]{  "128.178.187.248", "pubmed_uima", "pm_ft", "", ""} 
+ query: {ftr.ns:1, pmid: { $gt: $1, $lt: $2 }}
+#cr: PubmedWholeDatabaseCR
+# db_connection__java: new String[] { "localhost", "bb_pubmed", "root", "" } 
+
+
+#include: ../../../includes/preprocess_full.incl
+include: ../../../includes/preprocess.incl
+
+include: ../../../includes/lex-based-ners.incl
+
+ae: PunctuationAnnotator
+
+ae: WordnetAnnotator
+
+ae: GeneralEnglishAnnotator
+
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+
+ae: PruneMeasuresAnnotator
+
+ae: LinnaeusAnnotator
+
+
+
+
+ae: SkipSomePosAnnotator
+
+ae: ViterbiFilterAnnotator
+
+
+
+
+#ae: ch.epfl.bbp.uima.mongo.MongoUpdateWriter
+# db_connection__java: new String[]{  "128.178.187.248", "preprocessed", "20130317_pm_ft", "", ""} 
+# update_annotations__java: new String[]{ "ch.epfl.bbp.uima.types.Verb",  "ch.epfl.bbp.uima.types.BiolexiconDictTerm",  "ch.epfl.bbp.uima.types.ProteinDictTerm",  "ch.epfl.bbp.uima.types.VerbDictTerm",  "de.julielab.jules.types.Chemical",  "ch.epfl.bbp.uima.types.MoleculeDictTerm",  "ch.epfl.bbp.uima.types.MethodDictTerm",  "ch.epfl.bbp.uima.types.SexDictTerm",  "ch.epfl.bbp.uima.types.CellDictTerm",  "ch.epfl.bbp.uima.types.DiseaseDictTerm",  "ch.epfl.bbp.uima.types.RegionDictTerm",  "ch.epfl.bbp.uima.types.BrainRegionDictTerm",  "ch.epfl.bbp.uima.types.LinnaeusSpecies",  "ch.epfl.bbp.uima.types.Measure",  "ch.epfl.bbp.uima.types.Protein",  "ch.epfl.bbp.uima.types.OrganismDictTerm",  "ch.epfl.bbp.uima.types.IonchannelDictTerm",  "ch.epfl.bbp.uima.types.AgeDictTerm",  "ch.epfl.bbp.uima.types.POSVerb" }
+
+ae: ch.epfl.bbp.uima.projects.bluesearch.WriteResultsToFile
+ outputDir: $3
+ 
+ 
+ae: StatsAnnotatorPlus
+ printEvery__java: 2

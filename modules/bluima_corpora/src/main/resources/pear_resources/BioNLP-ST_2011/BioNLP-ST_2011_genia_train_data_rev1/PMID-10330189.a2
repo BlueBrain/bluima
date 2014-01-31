@@ -1,0 +1,46 @@
+T19	Entity 0 7	Nuclear
+T20	Localization 8 20	localization
+T21	Binding 78 87	complexes
+T22	Positive_regulation 143 157	In response to
+T23	Localization 212 223	accumulates
+T24	Entity 231 238	nucleus
+T25	Positive_regulation 410 419	undergoes
+T26	Localization 554 562	imported
+T27	Entity 572 579	nucleus
+T28	Binding 605 612	binding
+T29	Localization 633 641	exported
+T30	Negative_regulation 726 734	disrupts
+T31	Binding 735 742	binding
+T32	Localization 1013 1022	localizes
+T33	Entity 1030 1037	nucleus
+T34	Localization 1263 1266	are
+T35	Entity 1267 1274	nuclear
+T36	Localization 1282 1294	localization
+T37	Entity 1318 1325	nucleus
+T38	Positive_regulation 1379 1385	Excess
+E1	Localization:T20 Theme:T2 AtLoc:T19
+E2	Localization:T20 Theme:T1 AtLoc:T19
+E3	Binding:T21 Theme:T1 Theme2:T2
+E4	Positive_regulation:T22 Theme:E5
+E5	Localization:T23 Theme:T3 AtLoc:T24
+E6	Positive_regulation:T25 Theme:E4
+E7	Localization:T26 Theme:T5 ToLoc:T27
+E8	Binding:T28 Theme:T5
+E9	Localization:T29 Theme:T5
+E10	Negative_regulation:T30 Theme:E15
+E11	Negative_regulation:T30 Theme:E17
+E12	Negative_regulation:T30 Theme:E16
+E13	Negative_regulation:T30 Theme:E14
+E14	Binding:T31 Theme:T6 Theme2:T10
+E15	Binding:T31 Theme:T6 Theme2:T7
+E16	Binding:T31 Theme:T6 Theme2:T8
+E17	Binding:T31 Theme:T6 Theme2:T9
+E18	Localization:T32 Theme:T12 AtLoc:T33
+E19	Localization:T34 Theme:T13 AtLoc:T35
+E20	Localization:T34 Theme:T14 AtLoc:T35
+E21	Localization:T36 Theme:T13 ToLoc:T37
+E22	Localization:T36 Theme:T14 ToLoc:T37
+E23	Positive_regulation:T38 Theme:T15
+M1	Speculation E6
+M2	Speculation E9
+M3	Negation E13

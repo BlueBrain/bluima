@@ -1,0 +1,6 @@
+T4	Regulation 14 23	regulates
+T5	Positive_regulation 1704 1714	importance
+T6	Gene_expression 1722 1732	expression
+E1	Regulation:T4 Theme:T1
+E2	Positive_regulation:T5 Theme:E3
+E3	Gene_expression:T6 Theme:T1

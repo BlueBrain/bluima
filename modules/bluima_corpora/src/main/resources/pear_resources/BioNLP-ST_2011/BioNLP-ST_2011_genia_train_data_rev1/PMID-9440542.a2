@@ -1,0 +1,10 @@
+T18	Positive_regulation 685 694	activated
+T19	Negative_regulation 1488 1497	abolished
+T20	Positive_regulation 1511 1523	upregulation
+T21	Positive_regulation 1536 1544	promoted
+T22	Positive_regulation 1545 1557	upregulation
+E1	Positive_regulation:T18 Theme:T4 Cause:T3
+E2	Negative_regulation:T19 Theme:E3
+E3	Positive_regulation:T20 Theme:T13 Cause:T12
+E4	Positive_regulation:T21 Theme:E5 Cause:T12
+E5	Positive_regulation:T22 Theme:T14

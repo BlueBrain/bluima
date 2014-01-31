@@ -1,0 +1,12 @@
+T19	Negative_regulation 6 15	Represses
+T20	Entity 32 40	Promoter
+T21	Gene_expression 501 511	expression
+T22	Gene_expression 1226 1233	amounts
+T23	Binding 1486 1493	binding
+T24	Entity 1507 1515	promoter
+E1	Negative_regulation:T19 Theme:T2 Cause:T1 Site:T20
+E2	Gene_expression:T21 Theme:T9
+E3	Gene_expression:T22 Theme:T15
+E4	Binding:T23 Theme:T17 Theme2:T18 Site2:T24
+M1	Speculation E3
+M2	Speculation E4

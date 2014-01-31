@@ -1,0 +1,26 @@
+et al., 2001) used in this study consists of a standard pairing protocol in which the frequency of
+the pairing has been changed. We also considered a hippocampal culture data set (Wang et
+al., 2005) which consists of pair, triplet, and
+quadruplet protocols. Because both data sets
+disagree on some specific protocols (at low frequency of the pairing protocol, no potentiation
+is elicited in Sjo ̈ stro ̈ m's data, whereas a large
+amount of potentiation is present in Wang's
+data) and because the preparations are different, we fitted our models with different parameters for each data set.
+Synaptic learning rule. Our new triplet-based
+model of STDP is an extension of classical pairbased STDP models. Traditional mechanistic
+models of STDP involve a small number of variables that are updated by presynaptic and
+postsynaptic firing events (Kistler and van
+Hemmen, 2000; Abarbanel et al., 2002; Gerstner and Kistler, 2002; Karmarkar and Buonomano, 2002). The new triplet rule is formulated
+in such a framework.
+To introduce the variables used in our
+model, we considered the process of synaptic
+transmission. Whenever a presynaptic spike ar-rives at an excitatory synapse, glutamate is re-leased into the synaptic cleft and binds to glutamate receptors. Let r denote the amount of
+1
+
+glutamate bound to a postsynaptic receptor.
+The variable r increases whenever there is a
+1
+
+presynaptic spike and decreases back to zero
+otherwise with a time constant of . This can
+be written as follows:

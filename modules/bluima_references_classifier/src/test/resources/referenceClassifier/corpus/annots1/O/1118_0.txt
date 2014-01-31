@@ -1,0 +1,11 @@
+where S c1; c2 is the set of concepts that subsume both c1 and c2. A class that achieves the
+maximum value in Equation 1 will be termed a most informative subsumer; most often there
+is a unique most informative subsumer, although this need not be true in the general case.
+Taking the maximum with respect to information content is analogous to taking the rst
+intersection in semantic network marker-passing or the shortest path with respect to edge
+distance cf. Quillian, 1968; Rada et al., 1989 ; a generalization from taking the maximum
+to taking a weighted average is introduced in Section 3.4.
+Notice that although similarity is computed by considering all upper bounds for the two
+concepts, the information measure has the e ect of identifying minimal upper bounds, since
+no class is less informative than its superordinates. For example, in Figure 1, coin, cash,
+etc. are all members of S nickel; dime , but the concept that is structurally the minimal

@@ -1,0 +1,10 @@
+*	Equiv T2 T3
+T7	Transcription 514 518	have
+T8	Gene_expression 685 697	transfection
+T9	Positive_regulation 685 697	transfection
+T10	Gene_expression 754 764	expression
+E1	Transcription:T7 Theme:T4
+E2	Gene_expression:T8 Theme:T5
+E3	Positive_regulation:T9 Theme:E2
+E4	Gene_expression:T10 Theme:T6
+M1	Negation E1

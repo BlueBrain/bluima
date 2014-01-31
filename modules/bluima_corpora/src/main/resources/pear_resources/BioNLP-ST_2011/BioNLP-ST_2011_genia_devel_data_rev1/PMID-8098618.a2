@@ -1,0 +1,42 @@
+*	Equiv T5 T6
+*	Equiv T16 T17
+*	Equiv T9 T8
+T29	Gene_expression 437 447	expression
+T30	Regulation 518 527	regulated
+T31	Positive_regulation 584 592	Increase
+T32	Transcription 613 626	transcription
+T33	Positive_regulation 640 648	enhanced
+T34	Binding 649 656	binding
+T35	Transcription 835 848	transcription
+T36	Positive_regulation 1019 1029	activation
+T37	Positive_regulation 1152 1162	identified
+T38	Binding 1185 1196	heterodimer
+T39	Binding 1216 1225	homodimer
+T40	Binding 1239 1250	heterodimer
+T41	Positive_regulation 1408 1418	activation
+T42	Negative_regulation 1739 1748	inhibited
+T43	Localization 1754 1763	secretion
+T44	Gene_expression 1790 1800	expression
+E1	Gene_expression:T29 Theme:T9
+E2	Regulation:T30 Theme:E1
+E3	Positive_regulation:T31 Theme:E4
+E4	Transcription:T32 Theme:T10
+E5	Positive_regulation:T33 Theme:E6
+E6	Binding:T34 Theme:T11
+E7	Transcription:T35 Theme:T12
+E8	Positive_regulation:T36 Theme:T14
+E9	Positive_regulation:T36 Theme:T15
+E10	Positive_regulation:T37 Theme:E13
+E11	Positive_regulation:T37 Theme:E14
+E12	Positive_regulation:T37 Theme:E15
+E13	Binding:T38 Theme:T18 Theme2:T19
+E14	Binding:T39 Theme:T20
+E15	Binding:T40 Theme:T21 Theme2:T22
+E16	Positive_regulation:T41 Theme:T23
+E17	Positive_regulation:T41 Theme:T24
+E18	Negative_regulation:T42 Theme:E21
+E19	Negative_regulation:T42 Theme:E20
+E20	Localization:T43 Theme:T25
+E21	Gene_expression:T44 Theme:T26
+M1	Speculation E14
+M2	Speculation E15

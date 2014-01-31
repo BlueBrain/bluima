@@ -1,0 +1,9 @@
+*	Equiv T2 T1
+T7	Binding 271 282	interaction
+T8	Entity 1039 1046	nuclear
+T9	Localization 1047 1059	localization
+T10	Binding 1182 1191	interacts
+E1	Binding:T7 Theme:T2
+E2	Localization:T9 Theme:T5 AtLoc:T8
+E3	Binding:T10 Theme:T6
+M1	Speculation E1

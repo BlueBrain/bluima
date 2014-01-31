@@ -1,0 +1,14 @@
+T16	Positive_regulation 177 184	confers
+T17	Regulation 185 199	responsiveness
+T18	Binding 1180 1189	recognize
+T19	Entity 1194 1204	P sequence
+T20	Positive_regulation 1577 1589	requirements
+T21	Gene_expression 1599 1609	expression
+T22	Binding 1842 1851	recognize
+E1	Positive_regulation:T16 Theme:E2
+E2	Regulation:T17 Theme:T2
+E3	Binding:T18 Theme:T9 Site:T19
+E4	Positive_regulation:T20 Theme:E5
+E5	Gene_expression:T21 Theme:T10
+E6	Binding:T22 Theme:T15
+E7	Binding:T22 Theme:T14

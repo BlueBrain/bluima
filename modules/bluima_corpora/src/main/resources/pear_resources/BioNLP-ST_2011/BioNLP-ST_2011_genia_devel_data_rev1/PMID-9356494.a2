@@ -1,0 +1,17 @@
+*	Equiv T7 T6
+*	Equiv T3 T4
+T18	Binding 66 73	engages
+T19	Positive_regulation 425 434	activated
+T20	Binding 1236 1247	interacting
+T21	Binding 1376 1386	interacted
+T22	Binding 1451 1461	associated
+T23	Binding 1564 1574	associated
+E1	Binding:T18 Theme:T1
+E2	Positive_regulation:T19 Theme:T5
+E3	Binding:T20 Theme:T7
+E4	Binding:T21 Theme:T8
+E5	Binding:T22 Theme:T9 Theme2:T10
+E6	Binding:T22 Theme:T9 Theme2:T11
+E7	Binding:T23 Theme:T12 Theme2:T13
+M1	Negation E4
+M2	Negation E6

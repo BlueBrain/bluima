@@ -1,0 +1,18 @@
+*	Equiv T11 T12
+T19	Negative_regulation 62 72	deficiency
+T20	Regulation 703 712	regulated
+T21	Negative_regulation 758 770	continued to
+T22	Gene_expression 774 783	expressed
+T23	Positive_regulation 1593 1600	leading
+T24	Localization 1608 1621	precipitation
+T25	Positive_regulation 1625 1631	excess
+T26	Entity 1660 1672	Heinz bodies
+E1	Negative_regulation:T19 Theme:T2
+E2	Regulation:T20 Theme:T7
+E3	Negative_regulation:T21 Theme:E4
+E4	Gene_expression:T22 Theme:T7
+E5	Positive_regulation:T23 Theme:E6
+E6	Localization:T24 Theme:T16 AtLoc:T26
+E7	Positive_regulation:T25 Theme:T16
+M1	Negation E2
+M2	Negation E3

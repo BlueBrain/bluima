@@ -1,0 +1,53 @@
+T17	Regulation 0 10	Regulation
+T18	Gene_expression 26 41	gene expression
+T19	Regulation 344 351	effects
+T20	Regulation 393 402	involving
+T21	Gene_expression 403 413	expression
+T22	Transcription 475 486	transcripts
+T23	Positive_regulation 492 502	detectable
+T24	Positive_regulation 657 666	increases
+T25	Transcription 681 687	levels
+T26	Regulation 762 771	regulates
+T27	Gene_expression 778 788	expression
+T28	Positive_regulation 800 808	increase
+T29	Transcription 812 825	transcription
+T30	Positive_regulation 837 866	prolongation in the half-life
+T31	Positive_regulation 938 947	induction
+T32	Gene_expression 976 986	expression
+T33	Positive_regulation 1004 1013	prolonged
+T34	Positive_regulation 1075 1084	increases
+T35	Positive_regulation 1206 1215	induction
+T36	Positive_regulation 1291 1298	induced
+T37	Gene_expression 1299 1309	expression
+E1	Regulation:T17 Theme:E4
+E2	Regulation:T17 Theme:E3
+E3	Gene_expression:T18 Theme:T1
+E4	Gene_expression:T18 Theme:T2
+E5	Regulation:T19 Theme:E8
+E6	Regulation:T19 Theme:E7
+E7	Regulation:T20 Theme:E9
+E8	Regulation:T20 Theme:E10
+E9	Gene_expression:T21 Theme:T3
+E10	Gene_expression:T21 Theme:T4
+E11	Transcription:T22 Theme:T5
+E12	Positive_regulation:T23 Theme:E11
+E13	Positive_regulation:T24 Theme:E14
+E14	Transcription:T25 Theme:T6
+E15	Regulation:T26 Theme:E16
+E16	Gene_expression:T27 Theme:T7
+E17	Positive_regulation:T28 Theme:E18
+E18	Transcription:T29 Theme:T8
+E19	Positive_regulation:T30 Theme:T8
+E20	Positive_regulation:T31 Theme:T9
+E21	Gene_expression:T32 Theme:T9
+E22	Gene_expression:T32 Theme:T10
+E23	Positive_regulation:T33 Theme:E21
+E24	Positive_regulation:T34 Theme:T11
+E25	Positive_regulation:T35 Theme:T13
+E26	Positive_regulation:T35 Theme:T12
+E27	Positive_regulation:T36 Theme:E30
+E28	Gene_expression:T37 Theme:T16
+E29	Gene_expression:T37 Theme:T15
+E30	Gene_expression:T37 Theme:T14
+M1	Speculation E5
+M2	Speculation E6

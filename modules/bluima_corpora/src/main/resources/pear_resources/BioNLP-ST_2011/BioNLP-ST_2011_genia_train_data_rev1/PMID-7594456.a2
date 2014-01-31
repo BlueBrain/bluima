@@ -1,0 +1,6 @@
+T8	Binding 172 183	interaction
+T9	Regulation 210 218	followed
+T10	Positive_regulation 1265 1274	activated
+E1	Binding:T8 Theme:T2
+E2	Regulation:T9 Theme:E1
+E3	Positive_regulation:T10 Theme:T6

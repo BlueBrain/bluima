@@ -1,0 +1,16 @@
+value implies that on average, only NCA1 × prAPICA1mean [HD(P1 , P2 )]/2 - 3290 - 5640/2 - 470 out of 3290
+CA1 CA1
+spiking neurons spike in both of two randomly selected CA1
+patterns. Note also that the mean Hamming distance 5640
+is much closer to its maximal value 2 × 3290 - 6580, which
+corresponds to the case when there is no overlap between two
+patterns, than to the minimal Hamming distance, which is equal
+to zero and corresponds to the case when the two patterns are
+identical.
+Similar analysis holds for spiking activity patterns in
+CA3 and EC. Hamming distances between pairs of random CA3 activity patterns with the probability of CA3
+spiking equal to 0.055 are binomially distributed with the
+parameters NCA3 - 28,009 and prHDCA3 - 2 × 0.055 × (1 -0.055) - 0.10. The distribution has the mean 2910 and standard deviation 51. In the case of EC input patterns, the
+binomial distribution has the parameters NEC - 45,073 and
+prHDEC - 2 × 0.0685 × (1 - 0.0685) - 0.13. It has the mean
+5750 and standard deviation 71.

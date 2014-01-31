@@ -1,0 +1,39 @@
+T22	Gene_expression 78 87	Producing
+T23	Regulation 124 134	regulating
+T24	Gene_expression 141 151	production
+T25	Positive_regulation 492 499	induced
+T26	Gene_expression 520 530	production
+T27	Gene_expression 556 566	production
+T28	Positive_regulation 571 579	enhanced
+T29	Gene_expression 778 787	producing
+T30	Negative_regulation 830 839	deficient
+T31	Gene_expression 946 956	expression
+T32	Negative_regulation 998 1005	reduced
+T33	Negative_regulation 1014 1034	completely abrogated
+T34	Regulation 1213 1219	effect
+T35	Gene_expression 1229 1239	production
+T36	Negative_regulation 1331 1340	deficient
+E1	Gene_expression:T22 Theme:T2
+E2	Regulation:T23 Theme:E3
+E3	Gene_expression:T24 Theme:T3
+E4	Positive_regulation:T25 Theme:E5
+E6	Positive_regulation:T25 Theme:E7
+E5	Gene_expression:T26 Theme:T6
+E7	Gene_expression:T26 Theme:T7
+E8	Gene_expression:T27 Theme:T8
+E9	Positive_regulation:T28 Theme:E8 Cause:T9
+E10	Gene_expression:T29 Theme:T12
+E11	Negative_regulation:T30 Theme:T13
+E12	Negative_regulation:T30 Theme:T14
+E13	Gene_expression:T31 Theme:T16
+E14	Gene_expression:T31 Theme:T17
+E15	Negative_regulation:T32 Theme:E13
+E16	Negative_regulation:T32 Theme:E14
+E17	Negative_regulation:T33 Theme:E13
+E18	Negative_regulation:T33 Theme:E14
+E19	Regulation:T34 Theme:E20
+E20	Gene_expression:T35 Theme:T20
+E21	Negative_regulation:T36 Theme:T21
+M1	Negation E17
+M2	Negation E18
+M3	Negation E19

@@ -1,0 +1,45 @@
+T13	Entity 174 182	promoter
+T14	Regulation 183 193	regulation
+T15	Transcription 481 496	mRNA expression
+T16	Gene_expression 511 519	positive
+T17	Gene_expression 525 533	negative
+T18	Transcription 602 613	mRNA levels
+T19	Transcription 659 669	expression
+T20	Gene_expression 789 797	positive
+T21	Gene_expression 803 811	negative
+T22	Transcription 863 876	transcription
+E1	Regulation:T14 Theme:T2 Site:T13
+E2	Transcription:T15 Theme:T3
+E3	Transcription:T15 Theme:T4
+E4	Transcription:T15 Theme:T5
+E5	Transcription:T15 Theme:T6
+E6	Transcription:T15 Theme:T7
+E7	Transcription:T15 Theme:T8
+E8	Transcription:T15 Theme:T9
+E9	Gene_expression:T16 Theme:T10
+E10	Gene_expression:T17 Theme:T10
+E11	Transcription:T18 Theme:T3
+E12	Transcription:T18 Theme:T4
+E13	Transcription:T18 Theme:T5
+E14	Transcription:T18 Theme:T6
+E15	Transcription:T18 Theme:T7
+E16	Transcription:T18 Theme:T8
+E17	Transcription:T18 Theme:T9
+E18	Transcription:T19 Theme:T3
+E19	Transcription:T19 Theme:T4
+E20	Transcription:T19 Theme:T5
+E21	Transcription:T19 Theme:T6
+E22	Transcription:T19 Theme:T7
+E23	Transcription:T19 Theme:T8
+E24	Transcription:T19 Theme:T9
+E25	Gene_expression:T20 Theme:T12
+E26	Gene_expression:T21 Theme:T12
+E27	Transcription:T22 Theme:T3
+E28	Transcription:T22 Theme:T4
+E29	Transcription:T22 Theme:T5
+E30	Transcription:T22 Theme:T6
+E31	Transcription:T22 Theme:T7
+E32	Transcription:T22 Theme:T8
+E33	Transcription:T22 Theme:T9
+M1	Negation E10
+M2	Negation E26

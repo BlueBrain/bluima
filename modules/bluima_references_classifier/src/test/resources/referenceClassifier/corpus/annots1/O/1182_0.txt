@@ -1,0 +1,12 @@
+a recall of 0.633. This compares favourably with the
+manually constructed heuristic rules reported in [66],
+which achieved precision and recall values of 0.730 and
+0.657, respectively.
+For the purposes of the BioLexicon construction, we
+generated 1,000 normalization rules, using the gene/protein names gathered from existing databases as the dictionary for normalization rule generation (given that these
+names represented an updated set compared to those of
+the BioThesaurus). Terms that could not be mapped to
+any accession number were omitted. Further control of
+the quality of new term variants was assured by filtering
+out highly ambiguous terms - those that were mapped to
+more than 10 accession numbers were discarded.

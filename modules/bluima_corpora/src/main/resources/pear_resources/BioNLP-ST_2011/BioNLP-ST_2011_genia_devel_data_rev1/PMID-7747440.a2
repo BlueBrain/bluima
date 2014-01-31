@@ -1,0 +1,25 @@
+T13	Gene_expression 115 125	expression
+T14	Gene_expression 577 587	appearance
+T15	Gene_expression 682 692	appearance
+T16	Gene_expression 851 861	identified
+T17	Transcription 986 997	transcribed
+T18	Positive_regulation 998 1002	from
+T19	Positive_regulation 1020 1031	rather than
+T20	Transcription 1100 1111	Transcripts
+T21	Transcription 1216 1229	transcription
+E1	Gene_expression:T13 Theme:T2
+E2	Gene_expression:T13 Theme:T1
+E3	Gene_expression:T14 Theme:T4
+E4	Gene_expression:T15 Theme:T5
+E5	Gene_expression:T16 Theme:T8
+E6	Transcription:T17 Theme:T9
+E7	Positive_regulation:T18 Theme:E6
+E8	Positive_regulation:T19 Theme:E6
+E9	Transcription:T20 Theme:T10
+E10	Transcription:T21 Theme:T11
+E11	Transcription:T21 Theme:T12
+M1	Negation E8
+M2	Negation E10
+M3	Speculation E10
+M4	Negation E11
+M5	Speculation E11

@@ -1,0 +1,12 @@
+*	Equiv T4 T5
+*	Equiv T8 T7
+T15	Binding 0 12	Interactions
+T16	Positive_regulation 415 424	functions
+T17	Binding 440 447	recruit
+T18	Binding 540 560	binding interactions
+T19	Negative_regulation 859 869	squelching
+E1	Binding:T15 Theme:T1 Theme2:T2
+E2	Positive_regulation:T16 Theme:E3 Cause:T6
+E3	Binding:T17 Theme:T8
+E4	Binding:T18 Theme:T9 Theme2:T10
+E5	Negative_regulation:T19 Theme:T12 Cause:T13

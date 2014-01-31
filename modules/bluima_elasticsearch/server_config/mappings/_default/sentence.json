@@ -1,0 +1,41 @@
+{
+
+    "sentence": {
+        "properties": {
+            "pmId": { "type": "integer" },
+            "sentenceId": { "type": "integer" },
+            "text": {
+                "type": "string",
+                "term_vector": "with_positions_offsets"
+            },
+            "cooccurrences" : {
+                "type": "nested",
+                "properties": {
+                    "id1":    { "type": "long" },
+                    "type1":  { "type": "string", "index": "not_analyzed" },
+                    "start1": { "type": "long", "index": "no" },
+                    "end1":   { "type": "long", "index": "no" },
+
+                    "id2":    { "type": "long" },
+                    "type2":  { "type": "string", "index": "not_analyzed" },
+                    "start2": { "type": "long", "index": "no" },
+                    "end2":   { "type": "long", "index": "no" },
+
+                    "confidence": { "type": "double", "index": "no" },
+                    "type_":  { "type": "string", "index": "not_analyzed" }
+                }
+            },
+            "entities": {
+                "type": "nested",
+                "properties": {
+                    "id":        { "type": "long" },
+                    "id_string": { "type": "string", "index": "not_analyzed" },
+                    "type_":     { "type": "string", "index": "not_analyzed" },
+                    "start":     { "type": "long", "index": "no"  },
+                    "end":       { "type": "long", "index": "no"  }
+                }
+            }
+
+        }
+    }
+}

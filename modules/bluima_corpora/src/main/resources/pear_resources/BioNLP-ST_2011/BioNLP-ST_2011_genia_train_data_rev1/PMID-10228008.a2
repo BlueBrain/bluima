@@ -1,0 +1,22 @@
+*	Equiv T12 T13
+T32	Regulation 512 516	role
+T33	Positive_regulation 606 616	activation
+T34	Binding 1016 1026	engagement
+T35	Binding 1125 1135	engagement
+T36	Positive_regulation 1458 1470	inducibility
+T37	Positive_regulation 1563 1570	induced
+T38	Binding 1608 1612	bind
+E1	Regulation:T32 Theme:E2
+E2	Positive_regulation:T33 Theme:T5
+E3	Binding:T34 Theme:T11 Theme2:T12
+E4	Binding:T35 Theme:T15 Theme2:T16
+E5	Positive_regulation:T36 Theme:T21
+E6	Positive_regulation:T37 Theme:T24 Cause:T26
+E7	Positive_regulation:T37 Theme:T23 Cause:T26
+E8	Positive_regulation:T37 Theme:T25 Cause:T27
+E9	Positive_regulation:T37 Theme:T22 Cause:T26
+E10	Binding:T38 Theme:T24
+E11	Binding:T38 Theme:T23
+E12	Binding:T38 Theme:T22
+E13	Binding:T38 Theme:T25
+M1	Speculation E1

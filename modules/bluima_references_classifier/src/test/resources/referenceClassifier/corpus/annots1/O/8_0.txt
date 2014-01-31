@@ -1,0 +1,24 @@
+the cortex and to the striatum during preparation and execution
+of an action are modeled as in the reduced model, except that now
+a noisy nonselective component is added to both inputs (see
+Materials and Methods). They are shown in Figure 8 A.
+The response of the network is depicted in Figure 8 B. Before
+the input onset (at t 500 ms), the activities in the various
+populations are at their spontaneous level and the network is in a
+symmetric state. After this onset, the activities in the cortical
+populations of the two circuits begin to increase. The transient
+selective external input to the striatum induces an asymmetry
+first between the GPi of the two circuits and after a short while in
+all of the other populations of the network. In particular, the
+activity in the cortical population in one of the circuits becomes
+significantly larger than its rest level, whereas it is reduced in the
+other network. This asymmetry persists even after the transient
+striatal input is over. Only when the network is back to rest does
+the state become symmetric again. Hence, as in the reduced
+model, the cortex–BG network can perform action selection. The
+action that is selected is the one implemented by the circuit in
+which the transient striatal input is the largest. In the example
+shown in Figure 8 B, the state of the network is also selected
+according to this rule.
+As in the reduced model, the GPi populations in the two circuits respond with opposite polarity to the
+additional input. However, the random

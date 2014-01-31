@@ -1,0 +1,32 @@
+*	Equiv T3 T4
+*	Equiv T8 T7
+T14	Regulation 0 10	Regulation
+T15	Gene_expression 78 88	expression
+T16	Negative_regulation 778 798	mediated a reduction
+T17	Transcription 839 849	expression
+T18	Gene_expression 839 849	expression
+T19	Negative_regulation 891 901	suppressed
+T20	Gene_expression 965 975	expression
+T21	Entity 1025 1033	promoter
+T22	Positive_regulation 1037 1046	activated
+T23	Positive_regulation 1086 1095	induction
+T24	Gene_expression 1112 1122	expression
+T25	Negative_regulation 1200 1207	reduced
+E1	Regulation:T14 Theme:E4
+E2	Regulation:T14 Theme:E3
+E3	Gene_expression:T15 Theme:T2
+E4	Gene_expression:T15 Theme:T1
+E5	Negative_regulation:T16 Theme:E8
+E6	Negative_regulation:T16 Theme:E7
+E7	Transcription:T17 Theme:T5
+E8	Gene_expression:T18 Theme:T5
+E9	Negative_regulation:T19 Theme:E12
+E10	Negative_regulation:T19 Theme:E11
+E11	Gene_expression:T20 Theme:T6
+E12	Gene_expression:T20 Theme:T8
+E13	Positive_regulation:T22 Theme:T9 Site:T21
+E14	Positive_regulation:T23 Theme:E15 Cause:T10
+E15	Gene_expression:T24 Theme:T9
+E16	Negative_regulation:T25 Theme:E14
+M1	Negation E9
+M2	Negation E13

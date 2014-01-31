@@ -1,0 +1,10 @@
+T4	Negative_regulation 249 259	inhibiting
+T5	Gene_expression 264 274	expression
+T6	Binding 680 689	formation
+T7	Entity 839 847	enhancer
+T8	Negative_regulation 852 861	inhibited
+E1	Negative_regulation:T4 Theme:E2
+E2	Gene_expression:T5 Theme:T1
+E3	Binding:T6 Theme:T2 Theme2:T3 Site2:T7
+E4	Negative_regulation:T8 Theme:E3
+M1	Speculation E1

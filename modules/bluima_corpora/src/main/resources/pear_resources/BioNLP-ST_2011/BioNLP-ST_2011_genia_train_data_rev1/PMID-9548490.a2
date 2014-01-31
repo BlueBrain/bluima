@@ -1,0 +1,41 @@
+T19	Binding 64 77	cross-linking
+T20	Gene_expression 155 164	expressed
+T21	Binding 270 281	interaction
+T22	Binding 318 331	Cross-linking
+T23	Positive_regulation 368 375	induces
+T24	Binding 434 441	complex
+T25	Entity 443 451	tyrosine
+T26	Phosphorylation 452 467	phosphorylation
+T27	Phosphorylation 611 626	phosphorylation
+T28	Positive_regulation 761 770	following
+T29	Binding 776 789	cross-linking
+T30	Binding 1014 1026	cross-linked
+T31	Positive_regulation 1037 1044	induced
+T32	Phosphorylation 1052 1067	phosphorylation
+T33	Phosphorylation 1116 1131	phosphorylation
+T34	Positive_regulation 1156 1164	occurred
+T35	Binding 1189 1201	cross-linked
+T36	Binding 1461 1474	cross-linking
+T37	Binding 1631 1644	cross-linking
+E1	Binding:T19 Theme:T1
+E2	Gene_expression:T20 Theme:T2
+E3	Binding:T21 Theme:T2
+E4	Binding:T22 Theme:T3
+E5	Positive_regulation:T23 Theme:E7 Cause:E4
+E6	Positive_regulation:T23 Theme:E8 Cause:E4
+E7	Binding:T24 Theme:T4
+E8	Phosphorylation:T26 Theme:T5 Site:T25
+E9	Phosphorylation:T27 Theme:T7
+E10	Positive_regulation:T28 Theme:E9 Cause:E11
+E11	Binding:T29 Theme:T8
+E12	Binding:T30 Theme:T9
+E13	Positive_regulation:T31 Theme:E14 Cause:E12
+E14	Phosphorylation:T32 Theme:T10
+E15	Phosphorylation:T33 Theme:T11
+E16	Positive_regulation:T34 Theme:E15 Cause:E17
+E17	Binding:T35 Theme:T12
+E18	Binding:T36 Theme:T13
+E19	Binding:T37 Theme:T17
+M1	Speculation E9
+M2	Speculation E10
+M3	Negation E16

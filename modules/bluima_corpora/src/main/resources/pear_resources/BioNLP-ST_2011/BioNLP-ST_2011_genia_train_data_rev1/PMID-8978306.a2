@@ -1,0 +1,30 @@
+*	Equiv T1 T2
+*	Equiv T9 T8
+T16	Positive_regulation 189 198	increased
+T17	Gene_expression 199 209	expression
+T18	Positive_regulation 553 560	induced
+T19	Localization 571 578	release
+T20	Positive_regulation 735 743	increase
+T21	Transcription 770 774	mRNA
+T22	Positive_regulation 850 859	increased
+T23	Transcription 891 895	mRNA
+T24	Regulation 915 921	change
+T25	Transcription 963 967	mRNA
+T26	Positive_regulation 1209 1218	increased
+T27	Regulation 1581 1587	affect
+E1	Positive_regulation:T16 Theme:E3
+E2	Positive_regulation:T16 Theme:E4
+E3	Gene_expression:T17 Theme:T4
+E4	Gene_expression:T17 Theme:T3
+E5	Positive_regulation:T18 Theme:E6
+E6	Localization:T19 Theme:T6
+E7	Positive_regulation:T20 Theme:E8
+E8	Transcription:T21 Theme:T7
+E9	Positive_regulation:T22 Theme:E10
+E10	Transcription:T23 Theme:T9
+E11	Regulation:T24 Theme:E12
+E12	Transcription:T25 Theme:T10
+E13	Positive_regulation:T26 Theme:T13
+E14	Regulation:T27 Theme:T15
+M1	Negation E11
+M2	Negation E14

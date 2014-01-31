@@ -1,0 +1,19 @@
+*	Equiv T13 T14
+T28	Gene_expression 150 160	expression
+T29	Transcription 166 179	transcription
+T30	Transcription 233 246	transcription
+T31	Transcription 355 368	transcription
+T32	Positive_regulation 590 599	Activated
+T33	Regulation 618 624	target
+T34	Positive_regulation 911 918	induced
+T35	Phosphorylation 925 940	phosphorylation
+E1	Gene_expression:T28 Theme:T5
+E2	Transcription:T29 Theme:T6
+E3	Transcription:T30 Theme:T7
+E4	Transcription:T31 Theme:T8
+E5	Positive_regulation:T32 Theme:T13
+E6	Regulation:T33 Theme:T13
+E7	Positive_regulation:T34 Theme:E8 Cause:T18
+E8	Phosphorylation:T35 Theme:T19
+M1	Speculation E2
+M2	Negation E4

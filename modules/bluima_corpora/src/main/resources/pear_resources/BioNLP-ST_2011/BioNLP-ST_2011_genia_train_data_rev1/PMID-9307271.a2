@@ -1,0 +1,6 @@
+*	Equiv T3 T4
+T18	Gene_expression 249 258	expressed
+T19	Positive_regulation 328 337	activated
+E1	Gene_expression:T18 Theme:T1
+E2	Positive_regulation:T19 Theme:T2
+M1	Negation E1

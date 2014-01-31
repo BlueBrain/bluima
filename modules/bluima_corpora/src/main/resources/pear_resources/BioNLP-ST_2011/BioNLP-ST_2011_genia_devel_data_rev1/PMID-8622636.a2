@@ -1,0 +1,27 @@
+*	Equiv T2 T3
+T15	Negative_regulation 63 71	suppress
+T16	Gene_expression 100 110	generation
+T17	Transcription 750 763	transcription
+T18	Regulation 767 777	controlled
+T19	Entity 806 814	promoter
+T20	Positive_regulation 1323 1332	necessary
+T21	Positive_regulation 1337 1346	induction
+T22	Transcription 1360 1373	transcription
+T23	Binding 1543 1548	bound
+T24	Positive_regulation 1656 1678	play an important role
+T25	Gene_expression 1702 1712	expression
+T26	Negative_regulation 1933 1942	inhibited
+T27	Protein_catabolism 1943 1954	degradation
+E1	Negative_regulation:T15 Theme:E2
+E2	Gene_expression:T16 Theme:T1
+E3	Transcription:T17 Theme:T2
+E4	Regulation:T18 Theme:E3 Cause:T4 CSite:T19
+E5	Positive_regulation:T20 Theme:E6
+E6	Positive_regulation:T21 Theme:E7
+E7	Transcription:T22 Theme:T9
+E8	Binding:T23 Theme:T10
+E9	Binding:T23 Theme:T11
+E10	Positive_regulation:T24 Theme:E11
+E11	Gene_expression:T25 Theme:T12
+E12	Negative_regulation:T26 Theme:E13
+E13	Protein_catabolism:T27 Theme:T14

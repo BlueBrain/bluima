@@ -1,0 +1,2209 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<synonym>
+<token canonical="PRIMARY AUDITORY CORTEX" ref_id="region:PRIMARY AUDITORY CORTEX">
+  <variant base="primary auditory cortex" />
+</token>
+<token canonical="SUPRACHIASMATIC NUCLEUS" ref_id="region:SUPRACHIASMATIC NUCLEUS">
+  <variant base="Suprachiasmatic nucleus" />
+</token>
+<token canonical="AUTONOMIC NERVOUS SYSTEM" ref_id="region:AUTONOMIC NERVOUS SYSTEM">
+  <variant base="autonomic nervous system" />
+</token>
+<token canonical="PYRAMIDAL OR CORTICOSPINAL TRACT" ref_id="region:PYRAMIDAL OR CORTICOSPINAL TRACT">
+  <variant base="pyramidal or corticospinal tract" />
+</token>
+<token canonical="SEBACEOUS GLAND CELL" ref_id="region:SEBACEOUS GLAND CELL">
+  <variant base="Sebaceous gland cell" />
+</token>
+<token canonical="EXTERNAL HAIR ROOT SHEATH CELL" ref_id="region:EXTERNAL HAIR ROOT SHEATH CELL">
+  <variant base="External hair root sheath cell" />
+</token>
+<token canonical="MICROGLIAL CELL" ref_id="region:MICROGLIAL CELL">
+  <variant base="Microglial cell" />
+  <variant base="microglial cells" />
+</token>
+<token canonical="VENTRICLE" ref_id="region:VENTRICLE">
+  <variant base="ventricular" />
+</token>
+<token canonical="CEREBRAL PEDUNCLE" ref_id="region:CEREBRAL PEDUNCLE">
+  <variant base="cerebral peduncle" />
+</token>
+<token canonical="FRONTAL ASSOCIATION CORTEX" ref_id="region:FRONTAL ASSOCIATION CORTEX">
+  <variant base="Frontal association cortex" />
+</token>
+<token canonical="NONSTRIATED DUCT CELL" ref_id="region:NONSTRIATED DUCT CELL">
+  <variant base="Nonstriated duct cell" />
+</token>
+<token canonical="GALL BLADDER EPITHELIAL CELL" ref_id="region:GALL BLADDER EPITHELIAL CELL">
+  <variant base="Gall bladder epithelial cell" />
+</token>
+<token canonical="CORTEX" ref_id="region:CORTEX">
+  <variant base="cortex" />
+  <variant base="cortecies" />
+  <variant base="cortexes" />
+  <variant base="cortical" />
+  <variant base="Cortex" />
+</token>
+<token canonical="CISTERN OF LAMINA TERMINALIS" ref_id="region:CISTERN OF LAMINA TERMINALIS">
+  <variant base="cistern of lamina terminalis" />
+</token>
+<token canonical="PRIMARY SOMESTHETIC AREA" ref_id="region:PRIMARY SOMESTHETIC AREA">
+  <variant base="Primary somesthetic area" />
+</token>
+<token canonical="ACCESSORY OLFACTORY SYSTEM" ref_id="region:ACCESSORY OLFACTORY SYSTEM">
+  <variant base="accessory olfactory system" />
+</token>
+<token canonical="BODY OF LATERAL VENTRICLE" ref_id="region:BODY OF LATERAL VENTRICLE">
+  <variant base="Body of lateral ventricle" />
+</token>
+<token canonical="SYNOVIAL CELL" ref_id="region:SYNOVIAL CELL">
+  <variant base="Synovial cell" />
+</token>
+<token canonical="NATURAL KILLER CELL" ref_id="region:NATURAL KILLER CELL">
+  <variant base="Natural killer cell" />
+</token>
+<token canonical="CORTICAL COLUMN" ref_id="region:CORTICAL COLUMN">
+  <variant base="cortical column" />
+</token>
+<token canonical="PARAHIPPOCAMPAL GYRUS" ref_id="region:PARAHIPPOCAMPAL GYRUS">
+  <variant base="Parahippocampal gyrus" />
+</token>
+<token canonical="PONTINE NUCLEUS OF THE TRIGEMINAL NERVE" ref_id="region:PONTINE NUCLEUS OF THE TRIGEMINAL NERVE">
+  <variant base="Pontine Nucleus of the Trigeminal Nerve" />
+</token>
+<token canonical="VENTRAL ORBITAL CORTEX" ref_id="region:VENTRAL ORBITAL CORTEX">
+  <variant base="ventral orbital cortex" />
+</token>
+<token canonical="ANTERIOR PART OF LATERAL NUCLEUS" ref_id="region:ANTERIOR PART OF LATERAL NUCLEUS">
+  <variant base="Anterior part of Lateral nucleus" />
+</token>
+<token canonical="CEREBRAL AQUEDUCT" ref_id="region:CEREBRAL AQUEDUCT">
+  <variant base="Cerebral Aqueduct" />
+</token>
+<token canonical="STAR PYRAMIDAL CELL" ref_id="region:STAR PYRAMIDAL CELL">
+  <variant base="SPC" />
+  <variant base="star pyramidal cells" />
+  <variant base="star pyramidal cell" />
+</token>
+<token canonical="NAIL BED BASAL CELL" ref_id="region:NAIL BED BASAL CELL">
+  <variant base="Nail bed basal cell" />
+</token>
+<token canonical="MEDIAL ENTORHINAL CORTEX" ref_id="region:MEDIAL ENTORHINAL CORTEX">
+  <variant base="Medial entorhinal cortex" />
+</token>
+<token canonical="INTERMEDIATE SKELETAL MUSCLE CELL" ref_id="region:INTERMEDIATE SKELETAL MUSCLE CELL">
+  <variant base="Intermediate skeletal muscle cell" />
+</token>
+<token canonical="CENTROMEDIAL NUCLEUS" ref_id="region:CENTROMEDIAL NUCLEUS">
+  <variant base="centromedial nucleus" />
+</token>
+<token canonical="FASTIGIAL NUCLEUS" ref_id="region:FASTIGIAL NUCLEUS">
+  <variant base="fastigial nucleus" />
+</token>
+<token canonical="PIGMENTED CILIARY EPITHELIUM CELL OF EYE" ref_id="region:PIGMENTED CILIARY EPITHELIUM CELL OF EYE">
+  <variant base="Pigmented ciliary epithelium cell of eye" />
+</token>
+<token canonical="MYELENCEPHALON" ref_id="region:MYELENCEPHALON">
+  <variant base="Myelencephalon" />
+</token>
+<token canonical="HPA AXIS" ref_id="region:HPA AXIS">
+  <variant base="Hpa Axis" />
+</token>
+<token canonical="TENIA THALAMUS" ref_id="region:TENIA THALAMUS">
+  <variant base="Tenia Thalamus" />
+</token>
+<token canonical="BASOPHIL GRANULOCYTE" ref_id="region:BASOPHIL GRANULOCYTE">
+  <variant base="Basophil granulocyte" />
+</token>
+<token canonical="INSULAR CORTEX" ref_id="region:INSULAR CORTEX">
+  <variant base="Insular cortex" />
+</token>
+<token canonical="ENDOTHELIAL FENESTRATED CELL" ref_id="region:ENDOTHELIAL FENESTRATED CELL">
+  <variant base="endothelial fenestrated cell" />
+</token>
+<token canonical="B CELL" ref_id="region:B CELL">
+  <variant base="B cell" />
+</token>
+<token canonical="VENTRAL STRIATUM" ref_id="region:VENTRAL STRIATUM">
+  <variant base="Ventral striatum" />
+</token>
+<token canonical="INTRALAMINAR NUCLEAR GROUP" ref_id="region:INTRALAMINAR NUCLEAR GROUP">
+  <variant base="intralaminar nuclear group" />
+</token>
+<token canonical="FIBROCARTILAGE CHONDROCYTE" ref_id="region:FIBROCARTILAGE CHONDROCYTE">
+  <variant base="Fibrocartilage chondrocyte" />
+</token>
+<token canonical="ACTIVE ZONE" ref_id="region:ACTIVE ZONE">
+  <variant base="active zone" />
+  <variant base="active zones" />
+</token>
+<token canonical="CENTROACINAR CELL" ref_id="region:CENTROACINAR CELL">
+  <variant base="centroacinar cell" />
+</token>
+<token canonical="PAIN-SENSITIVE PRIMARY SENSORY NEURON" ref_id="region:PAIN-SENSITIVE PRIMARY SENSORY NEURON">
+  <variant base="Pain-sensitive primary sensory neuron" />
+</token>
+<token canonical="PRIMARY AUDITORY CORTEXINFERIOR TEMPORAL CORTEX" ref_id="region:PRIMARY AUDITORY CORTEXINFERIOR TEMPORAL CORTEX">
+  <variant base="Primary auditory cortexInferior temporal cortex" />
+</token>
+<token canonical="ANTERODORSAL NUCLEUS" ref_id="region:ANTERODORSAL NUCLEUS">
+  <variant base="anterodorsal nucleus" />
+</token>
+<token canonical="ADENO HYPOPHYSIS" ref_id="region:ADENO HYPOPHYSIS">
+  <variant base="Adeno Hypophysis" />
+</token>
+<token canonical="SECONDARY MOTOR CORTEX" ref_id="region:SECONDARY MOTOR CORTEX">
+  <variant base="secondary motor cortex" />
+</token>
+<token canonical="PUTAMEN" ref_id="region:PUTAMEN">
+  <variant base="Putamen" />
+</token>
+<token canonical="ECTOORHINAL CORTEX" ref_id="region:ECTOORHINAL CORTEX">
+  <variant base="ectoorhinal cortex" />
+</token>
+<token canonical="ANTERIOR LOBE" ref_id="region:ANTERIOR LOBE">
+  <variant base="anterior lobe" />
+</token>
+<token canonical="MEDIAL AREA" ref_id="region:MEDIAL AREA">
+  <variant base="Medial area" />
+</token>
+<token canonical="POSTERIOR HORN" ref_id="region:POSTERIOR HORN">
+  <variant base="Posterior horn" />
+</token>
+<token canonical="FRONTAL LOBE" ref_id="region:FRONTAL LOBE">
+  <variant base="Frontal lobe" />
+  <variant base="Frontal Lobe" />
+</token>
+<token canonical="SMALL BASKET CELL" ref_id="region:SMALL BASKET CELL">
+  <variant base="SBC" />
+  <variant base="Small Basket Cells" />
+  <variant base="Small Basket Cell" />
+</token>
+<token canonical="NUCLEAR BAG CELL OF MUSCLE SPINDLE" ref_id="region:NUCLEAR BAG CELL OF MUSCLE SPINDLE">
+  <variant base="nuclear bag cell of muscle spindle" />
+</token>
+<token canonical="SUPRAOPTIC NUCLEUSMAINLY" ref_id="region:SUPRAOPTIC NUCLEUSMAINLY">
+  <variant base="Supraoptic nucleusmainly" />
+</token>
+<token canonical="TUFTED NEURON" ref_id="region:TUFTED NEURON">
+  <variant base="tufted neuron" />
+</token>
+<token canonical="KERATINOCYTE" ref_id="region:KERATINOCYTE">
+  <variant base="Keratinocyte" />
+</token>
+<token canonical="INTERPEDUNCULAR CISTERN" ref_id="region:INTERPEDUNCULAR CISTERN">
+  <variant base="interpeduncular cistern" />
+</token>
+<token canonical="CORPUS LUTEUM CELL" ref_id="region:CORPUS LUTEUM CELL">
+  <variant base="Corpus luteum cell" />
+</token>
+<token canonical="OUTER PILLAR CELL" ref_id="region:OUTER PILLAR CELL">
+  <variant base="Outer pillar cell" />
+</token>
+<token canonical="UNIPOLAR NEURON" ref_id="region:UNIPOLAR NEURON">
+  <variant base="unipolar neuron" />
+</token>
+<token canonical="STRIA VASCULARIS BASAL CELL" ref_id="region:STRIA VASCULARIS BASAL CELL">
+  <variant base="Stria vascularis basal cell" />
+</token>
+<token canonical="TECTUM" ref_id="region:TECTUM">
+  <variant base="Tectum" />
+</token>
+<token canonical="PERICYTE" ref_id="region:PERICYTE">
+  <variant base="Pericyte" />
+</token>
+<token canonical="CENTRAL LATERAL NUCLEUS" ref_id="region:CENTRAL LATERAL NUCLEUS">
+  <variant base="central lateral nucleus" />
+</token>
+<token canonical="PEPTIDERGIC NEURAL CELL" ref_id="region:PEPTIDERGIC NEURAL CELL">
+  <variant base="Peptidergic neural cell" />
+</token>
+<token canonical="CEMENTOBLAST" ref_id="region:CEMENTOBLAST">
+  <variant base="Cementoblast" />
+</token>
+<token canonical="SUBCORTICAL" ref_id="region:SUBCORTICAL">
+  <variant base="Subcortical" />
+</token>
+<token canonical="PRIMARY SOMATOSENSORY CORTEX TRUNK REGION" ref_id="region:PRIMARY SOMATOSENSORY CORTEX TRUNK REGION">
+  <variant base="Primary somatosensory cortex Trunk region" />
+</token>
+<token canonical="CISTERNA MAGNA" ref_id="region:CISTERNA MAGNA">
+  <variant base="cisterna magna" />
+</token>
+<token canonical="CHANDELIER CELL" ref_id="region:CHANDELIER CELL">
+  <variant base="ChC" />
+  <variant base="Chandelier Cells" />
+</token>
+<token canonical="APICAL DISTAL DENDRITE" ref_id="region:APICAL DISTAL DENDRITE">
+  <variant base="apical distal dendrite" />
+</token>
+<token canonical="FOURTH VENTRICLE" ref_id="region:FOURTH VENTRICLE">
+  <variant base="fourth ventricle" />
+</token>
+<token canonical="COLUMNAR CELL OF ENDOLYMPHATIC SAC WITHOUT MICROVILLI" ref_id="region:COLUMNAR CELL OF ENDOLYMPHATIC SAC WITHOUT MICROVILLI">
+  <variant base="Columnar cell of endolymphatic sac without microvilli" />
+</token>
+<token canonical="VESTIBULAR APPARATUS SUPPORTING CELL" ref_id="region:VESTIBULAR APPARATUS SUPPORTING CELL">
+  <variant base="Vestibular apparatus supporting cell" />
+</token>
+<token canonical="MEDIAN PREOPTIC NUCLEUS" ref_id="region:MEDIAN PREOPTIC NUCLEUS">
+  <variant base="median preoptic nucleus" />
+</token>
+<token canonical="CORNU AMMONIS " ref_id="region:CORNU AMMONIS ">
+  <variant base="Cornu ammonis " />
+</token>
+<token canonical="BRUNNER'S GLAND CELL" ref_id="region:BRUNNER'S GLAND CELL">
+  <variant base="Brunner's gland cell" />
+</token>
+<token canonical="INFRALIMBIC CORTEX" ref_id="region:INFRALIMBIC CORTEX">
+  <variant base="infralimbic cortex" />
+</token>
+<token canonical="TYPE I CAROTID BODY CELL" ref_id="region:TYPE I CAROTID BODY CELL">
+  <variant base="Type I carotid body cell" />
+</token>
+<token canonical="NEUROGLIAFORM CELL" ref_id="region:NEUROGLIAFORM CELL">
+  <variant base="Neurogliaform cell" />
+  <variant base="NGC" />
+  <variant base="Neurogliaform cells" />
+</token>
+<token canonical="RED SKELETAL MUSCLE CELL" ref_id="region:RED SKELETAL MUSCLE CELL">
+  <variant base="Red skeletal muscle cell" />
+</token>
+<token canonical="NEST BASKET CELL" ref_id="region:NEST BASKET CELL">
+  <variant base="Nest Basket Cell" />
+  <variant base="Nest Basket Cells" />
+  <variant base="NBC" />
+</token>
+<token canonical="TYPE I TASTE BUD CELL" ref_id="region:TYPE I TASTE BUD CELL">
+  <variant base="Type I taste bud cell" />
+</token>
+<token canonical="COLUMNAR CELL OF ENDOLYMPHATIC SAC WITH MICROVILLI" ref_id="region:COLUMNAR CELL OF ENDOLYMPHATIC SAC WITH MICROVILLI">
+  <variant base="Columnar cell of endolymphatic sac with microvilli" />
+</token>
+<token canonical="CORTICOTHALAMIC NEURON" ref_id="region:CORTICOTHALAMIC NEURON">
+  <variant base="corticothalamic neuron" />
+  <variant base="CTPC" />
+  <variant base="corticothalamic neurons" />
+</token>
+<token canonical="MESENCEPHALIC DUCT" ref_id="region:MESENCEPHALIC DUCT">
+  <variant base="Mesencephalic Duct" />
+</token>
+<token canonical="SUPERIOR FRONTAL GYRUS" ref_id="region:SUPERIOR FRONTAL GYRUS">
+  <variant base="Superior frontal gyrus" />
+</token>
+<token canonical="INFERIOR HORN" ref_id="region:INFERIOR HORN">
+  <variant base="Inferior horn" />
+</token>
+<token canonical="APNEUSTIC CENTRE" ref_id="region:APNEUSTIC CENTRE">
+  <variant base="apneustic centre" />
+</token>
+<token canonical="DORSAL STRIATUM" ref_id="region:DORSAL STRIATUM">
+  <variant base="Dorsal striatum" />
+</token>
+<token canonical="BASAL GANGLIA" ref_id="region:BASAL GANGLIA">
+  <variant base="Basal ganglia" />
+</token>
+<token canonical="HINDGUT" ref_id="region:HINDGUT">
+  <variant base="hindgut" />
+  <variant base="hindguts" />
+  <variant base="hind-gut" />
+  <variant base="hind-guts" />
+</token>
+<token canonical="OLFACTORY BULB" ref_id="region:OLFACTORY BULB">
+  <variant base="Olfactory bulb" />
+</token>
+<token canonical="EPENDYMOCYTE" ref_id="region:EPENDYMOCYTE">
+  <variant base="ependymocytes" />
+  <variant base="ependymoctye" />
+</token>
+<token canonical="HELPER T CELL" ref_id="region:HELPER T CELL">
+  <variant base="Helper T cell" />
+</token>
+<token canonical="URINARY EPITHELIUM CELL" ref_id="region:URINARY EPITHELIUM CELL">
+  <variant base="Urinary epithelium cell" />
+</token>
+<token canonical="RADIAL GLION" ref_id="region:RADIAL GLION">
+  <variant base="radial glia" />
+  <variant base="radial glion" />
+</token>
+<token canonical="OSTEOBLAST" ref_id="region:OSTEOBLAST">
+  <variant base="osteoblast" />
+</token>
+<token canonical="NEUROHYPOPHYSIS" ref_id="region:NEUROHYPOPHYSIS">
+  <variant base="neurohypophysis" />
+</token>
+<token canonical="DORSAL NUCLEUS OF VAGUS NERVE" ref_id="region:DORSAL NUCLEUS OF VAGUS NERVE">
+  <variant base="Dorsal nucleus of vagus nerve" />
+</token>
+<token canonical="PONTINE CRANIAL NERVE NUCLEUS" ref_id="region:PONTINE CRANIAL NERVE NUCLEUS">
+  <variant base="Pontine cranial nerve nucleus" />
+</token>
+<token canonical="CUTICULAR HAIR ROOT SHEATH CELL" ref_id="region:CUTICULAR HAIR ROOT SHEATH CELL">
+  <variant base="Cuticular hair root sheath cell" />
+</token>
+<token canonical="CERUMINOUS GLAND CELL IN EAR" ref_id="region:CERUMINOUS GLAND CELL IN EAR">
+  <variant base="Ceruminous gland cell in ear" />
+</token>
+<token canonical="BITUFTED CELL" ref_id="region:BITUFTED CELL">
+  <variant base="BTC" />
+  <variant base="Bitufted cells" />
+  <variant base="Bitufted cell" />
+</token>
+<token canonical="DIFFERENTIATING EPIDERMAL CELL" ref_id="region:DIFFERENTIATING EPIDERMAL CELL">
+  <variant base="differentiating epidermal cell" />
+</token>
+<token canonical="ENDOPLASMIC RETICULUM" ref_id="region:ENDOPLASMIC RETICULUM">
+  <variant base="endoplasmic reticulum" />
+  <variant base="endoplasmic reticula" />
+  <variant base="endoplasmic reticulums" />
+  <variant base="endoplasmic reticular" />
+</token>
+<token canonical="HYPOGLOSSAL NUCLEUS" ref_id="region:HYPOGLOSSAL NUCLEUS">
+  <variant base="Hypoglossal nucleus" />
+</token>
+<token canonical="CYTOTOXIC T CELL" ref_id="region:CYTOTOXIC T CELL">
+  <variant base="Cytotoxic T cell" />
+</token>
+<token canonical="INNER PILLAR CELL" ref_id="region:INNER PILLAR CELL">
+  <variant base="Inner pillar cell" />
+</token>
+<token canonical="HYPOTHALAMUS" ref_id="region:HYPOTHALAMUS">
+  <variant base="Hypothalamus" />
+</token>
+<token canonical="ZONAL LAYER OF THE SUPERIOR COLLICULUS" ref_id="region:ZONAL LAYER OF THE SUPERIOR COLLICULUS">
+  <variant base="Zonal layer of the superior colliculus" />
+</token>
+<token canonical="PRETECTUM" ref_id="region:PRETECTUM">
+  <variant base="Pretectum" />
+</token>
+<token canonical="PANCREATIC STELLATE CELL" ref_id="region:PANCREATIC STELLATE CELL">
+  <variant base="Pancreatic stellate cell" />
+</token>
+<token canonical="INFERIOR SALIVATORY NUCLEUS" ref_id="region:INFERIOR SALIVATORY NUCLEUS">
+  <variant base="Inferior salivatory nucleus" />
+</token>
+<token canonical="PRIMARY SOMATOSENSORY CORTEX FORELIMB REGION" ref_id="region:PRIMARY SOMATOSENSORY CORTEX FORELIMB REGION">
+  <variant base="Primary somatosensory cortex forelimb region" />
+</token>
+<token canonical="TYPE I HAIR CELL OF VESTIBULAR APPARATUS OF EAR" ref_id="region:TYPE I HAIR CELL OF VESTIBULAR APPARATUS OF EAR">
+  <variant base="Type I hair cell of vestibular apparatus of ear" />
+</token>
+<token canonical="PANCREATIC ACINAR CELL" ref_id="region:PANCREATIC ACINAR CELL">
+  <variant base="Pancreatic acinar cell" />
+</token>
+<token canonical="DISTAL DENDRITE" ref_id="region:DISTAL DENDRITE">
+  <variant base="distal dendrite" />
+  <variant base="distal dendrites" />
+  <variant base="distal dendritic" />
+</token>
+<token canonical="NATURAL KILLER T CELL" ref_id="region:NATURAL KILLER T CELL">
+  <variant base="Natural Killer T cell" />
+</token>
+<token canonical="STRIA VASCULARIS MARGINAL CELL" ref_id="region:STRIA VASCULARIS MARGINAL CELL">
+  <variant base="Stria vascularis marginal cell" />
+</token>
+<token canonical="HAIR MATRIX CELL" ref_id="region:HAIR MATRIX CELL">
+  <variant base="Hair matrix cell" />
+</token>
+<token canonical="FOREBRAIN" ref_id="region:FOREBRAIN">
+  <variant base="Forebrain" />
+</token>
+<token canonical="PERIVENTRICULAR PREOPTIC NUCLEUS" ref_id="region:PERIVENTRICULAR PREOPTIC NUCLEUS">
+  <variant base="periventricular preoptic nucleus" />
+</token>
+<token canonical="SERTOLI CELL" ref_id="region:SERTOLI CELL">
+  <variant base="Sertoli cell" />
+</token>
+<token canonical="DENDRITE" ref_id="region:DENDRITE">
+  <variant base="dendrite" />
+  <variant base="dendrites" />
+  <variant base="dendritic" />
+</token>
+<token canonical="GYRUS" ref_id="region:GYRUS">
+  <variant base="Gyrus" />
+</token>
+<token canonical="ODONTOCYTE" ref_id="region:ODONTOCYTE">
+  <variant base="odontocyte" />
+</token>
+<token canonical="RETROSPLENIAL CORTEX" ref_id="region:RETROSPLENIAL CORTEX">
+  <variant base="Retrosplenial cortex" />
+</token>
+<token canonical="TROCHLEAR NERVE" ref_id="region:TROCHLEAR NERVE">
+  <variant base="Trochlear nerve" />
+</token>
+<token canonical="DENTATE NUCLEUS" ref_id="region:DENTATE NUCLEUS">
+  <variant base="Dentate Nucleus" />
+</token>
+<token canonical="ORGAN OF CORTI INTERDENTAL EPITHELIAL CELL" ref_id="region:ORGAN OF CORTI INTERDENTAL EPITHELIAL CELL">
+  <variant base="Organ of Corti interdental epithelial cell" />
+</token>
+<token canonical="VENTRICULAR SYSTEM" ref_id="region:VENTRICULAR SYSTEM">
+  <variant base="ventricular system" />
+</token>
+<token canonical="MAGNOCELLULAR NEUROSECRETORY CELL" ref_id="region:MAGNOCELLULAR NEUROSECRETORY CELL">
+  <variant base="Magnocellular neurosecretory cell" />
+</token>
+<token canonical="CELL" ref_id="region:CELL">
+  <variant base="cell" />
+  <variant base="cells" />
+  <variant base="cellular" />
+</token>
+<token canonical="CORPUS CALLOSUM" ref_id="region:CORPUS CALLOSUM">
+  <variant base="corpus callosum" />
+</token>
+<token canonical="MIDLINE NUCLEAR GROUP" ref_id="region:MIDLINE NUCLEAR GROUP">
+  <variant base="midline nuclear group" />
+</token>
+<token canonical="INTERMEDIATE PITUITARY CELL" ref_id="region:INTERMEDIATE PITUITARY CELL">
+  <variant base="Intermediate pituitary cell" />
+</token>
+<token canonical="HENSEN CELL" ref_id="region:HENSEN CELL">
+  <variant base="Hensen cell" />
+</token>
+<token canonical="POSTCENTRAL GYRUS " ref_id="region:POSTCENTRAL GYRUS ">
+  <variant base="Postcentral gyrus " />
+</token>
+<token canonical="SYNAPSE" ref_id="region:SYNAPSE">
+  <variant base="synapse" />
+  <variant base="synapses" />
+  <variant base="synaptic" />
+  <variant base="synaptal" />
+</token>
+<token canonical="ITO CELL" ref_id="region:ITO CELL">
+  <variant base="Ito cell" />
+</token>
+<token canonical="PERIPOLAR CELL" ref_id="region:PERIPOLAR CELL">
+  <variant base="Peripolar cell" />
+</token>
+<token canonical="SPINAL CORD" ref_id="region:SPINAL CORD">
+  <variant base="Spinal cord" />
+</token>
+<token canonical="CLARA CELL" ref_id="region:CLARA CELL">
+  <variant base="Clara cell" />
+</token>
+<token canonical="CAUDATE NUCLEUS" ref_id="region:CAUDATE NUCLEUS">
+  <variant base="Caudate nucleus" />
+</token>
+<token canonical="MENINGEAL COVERINGS" ref_id="region:MENINGEAL COVERINGS">
+  <variant base="meningeal coverings" />
+</token>
+<token canonical="PERIVENTRICULAR NUCLEUS" ref_id="region:PERIVENTRICULAR NUCLEUS">
+  <variant base="periventricular nucleus" />
+</token>
+<token canonical="ANTERIOR NUCLEAR GROUP" ref_id="region:ANTERIOR NUCLEAR GROUP">
+  <variant base="anterior nuclear group" />
+</token>
+<token canonical="ZONA INCERTA" ref_id="region:ZONA INCERTA">
+  <variant base="Zona Incerta" />
+</token>
+<token canonical="ALPHA SYSTEM" ref_id="region:ALPHA SYSTEM">
+  <variant base="alpha system" />
+</token>
+<token canonical="RETROSPLENIAL GRANULAR B CORTEX" ref_id="region:RETROSPLENIAL GRANULAR B CORTEX">
+  <variant base="Retrosplenial granular b cortex" />
+</token>
+<token canonical="EPIDERMAL BASAL CELL" ref_id="region:EPIDERMAL BASAL CELL">
+  <variant base="Epidermal basal cell" />
+</token>
+<token canonical="PANETH CELL OF" ref_id="region:PANETH CELL OF">
+  <variant base="Paneth cell of" />
+</token>
+<token canonical="CEREBRAL CORTEX" ref_id="region:CEREBRAL CORTEX">
+  <variant base="Cerebral Cortex" />
+</token>
+<token canonical="DOPAMINE SYSTEM" ref_id="region:DOPAMINE SYSTEM">
+  <variant base="Dopamine System" />
+</token>
+<token canonical="LARGE BASKET CELL" ref_id="region:LARGE BASKET CELL">
+  <variant base="LBC" />
+  <variant base="Large Basket Cells" />
+  <variant base="Large Basket Cell" />
+</token>
+<token canonical="SUBSTANTIA NIGRA" ref_id="region:SUBSTANTIA NIGRA">
+  <variant base="Substantia Nigra" />
+</token>
+<token canonical="EPIDERMAL LANGERHANS CELL" ref_id="region:EPIDERMAL LANGERHANS CELL">
+  <variant base="Epidermal Langerhans cell" />
+</token>
+<token canonical="STEM CELL" ref_id="region:STEM CELL">
+  <variant base="stem cell" />
+</token>
+<token canonical="PROSTATE GLAND CELL" ref_id="region:PROSTATE GLAND CELL">
+  <variant base="Prostate gland cell" />
+</token>
+<token canonical="EMBOLIFORM NUCLEUS" ref_id="region:EMBOLIFORM NUCLEUS">
+  <variant base="emboliform nucleus" />
+</token>
+<token canonical="AUDITORY INNER HAIR CELL" ref_id="region:AUDITORY INNER HAIR CELL">
+  <variant base="Auditory inner hair cell" />
+</token>
+<token canonical="PRECENTRAL GYRUS" ref_id="region:PRECENTRAL GYRUS">
+  <variant base="Precentral gyrus" />
+</token>
+<token canonical="LAYER 5 PYRAMIDAL CELL" ref_id="region:LAYER 5 PYRAMIDAL CELL">
+  <variant base="L5PC" />
+  <variant base="Layer 5 Pyramidal cell" />
+  <variant base="Layer 5 Pyramidal cells" />
+</token>
+<token canonical="NUCLEAR CHAIN CELL OF MUSCLE SPINDLE" ref_id="region:NUCLEAR CHAIN CELL OF MUSCLE SPINDLE">
+  <variant base="nuclear chain cell of muscle spindle" />
+</token>
+<token canonical="PURKINJE FIBER CELL" ref_id="region:PURKINJE FIBER CELL">
+  <variant base="Purkinje fiber cell" />
+</token>
+<token canonical="LATERAL AREA" ref_id="region:LATERAL AREA">
+  <variant base="Lateral area" />
+</token>
+<token canonical="LATERAL POSTERIOR NUCLEUS" ref_id="region:LATERAL POSTERIOR NUCLEUS">
+  <variant base="lateral posterior nucleus" />
+</token>
+<token canonical="SATELLITE CELL" ref_id="region:SATELLITE CELL">
+  <variant base="satellite cells" />
+  <variant base="Satellite cell" />
+</token>
+<token canonical="BOWMAN'S GLAND CELL" ref_id="region:BOWMAN'S GLAND CELL">
+  <variant base="Bowman's gland cell" />
+</token>
+<token canonical="LIVER CELL" ref_id="region:LIVER CELL">
+  <variant base="liver cell" />
+</token>
+<token canonical="KIDNEY COLLECTING DUCT CELL" ref_id="region:KIDNEY COLLECTING DUCT CELL">
+  <variant base="Kidney collecting duct cell" />
+</token>
+<token canonical="FORGUT" ref_id="region:FORGUT">
+  <variant base="forgut" />
+  <variant base="forguts" />
+  <variant base="for-gut" />
+  <variant base="for-guts" />
+</token>
+<token canonical="TUBERO INFUNDIBULAR PATHWAY" ref_id="region:TUBERO INFUNDIBULAR PATHWAY">
+  <variant base="Tubero Infundibular Pathway" />
+</token>
+<token canonical="MAMMILLARY BODIES" ref_id="region:MAMMILLARY BODIES">
+  <variant base="mammillary bodies" />
+</token>
+<token canonical="SPINE" ref_id="region:SPINE">
+  <variant base="spine" />
+</token>
+<token canonical="FUSIFORM GYRUS" ref_id="region:FUSIFORM GYRUS">
+  <variant base="Fusiform gyrus" />
+</token>
+<token canonical="CAJAL-RETZIUS CELL" ref_id="region:CAJAL-RETZIUS CELL">
+  <variant base="Cajal-Retzius cells" />
+  <variant base="CRC" />
+  <variant base="Cajal-Retzius cell" />
+</token>
+<token canonical="LIMBIC LOBE" ref_id="region:LIMBIC LOBE">
+  <variant base="limbic lobe" />
+</token>
+<token canonical="RETE TESTIS CILIATED CELL" ref_id="region:RETE TESTIS CILIATED CELL">
+  <variant base="Rete testis ciliated cell" />
+</token>
+<token canonical="SPINAL SUBARACHNOID SPACE" ref_id="region:SPINAL SUBARACHNOID SPACE">
+  <variant base="spinal subarachnoid space" />
+</token>
+<token canonical="HYALOCYTE" ref_id="region:HYALOCYTE">
+  <variant base="Hyalocyte" />
+</token>
+<token canonical="LATERAL GENICULATE BODY" ref_id="region:LATERAL GENICULATE BODY">
+  <variant base="lateral geniculate body" />
+</token>
+<token canonical="HAIR ROOT SHEATH CELL" ref_id="region:HAIR ROOT SHEATH CELL">
+  <variant base="Hair root sheath cell" />
+</token>
+<token canonical="PRIMARY SOMATOSENSORY CORTEX UPPER LIP REGION" ref_id="region:PRIMARY SOMATOSENSORY CORTEX UPPER LIP REGION">
+  <variant base="Primary somatosensory cortex upper lip region" />
+</token>
+<token canonical="SUPERIOR SALIVATORY NUCLEUS" ref_id="region:SUPERIOR SALIVATORY NUCLEUS">
+  <variant base="Superior Salivatory Nucleus" />
+</token>
+<token canonical="CHIASMATIC CISTERN" ref_id="region:CHIASMATIC CISTERN">
+  <variant base="chiasmatic cistern" />
+</token>
+<token canonical="PEG CELL" ref_id="region:PEG CELL">
+  <variant base="Peg cell" />
+</token>
+<token canonical="SURFACE EPITHELIAL CELL" ref_id="region:SURFACE EPITHELIAL CELL">
+  <variant base="Surface epithelial cell" />
+</token>
+<token canonical="BRAIN-CEREBROSPINAL FLUID BARRIER" ref_id="region:BRAIN-CEREBROSPINAL FLUID BARRIER">
+  <variant base="Brain-Cerebrospinal Fluid Barrier" />
+</token>
+<token canonical="SOMA" ref_id="region:SOMA">
+  <variant base="soma" />
+  <variant base="somata" />
+  <variant base="somal" />
+</token>
+<token canonical="PYRAMIDAL CELL" ref_id="region:PYRAMIDAL CELL">
+  <variant base="pyramidal cell" />
+  <variant base="PC" />
+  <variant base="pyramidal cells" />
+</token>
+<token canonical="OLFACTORY TRACT" ref_id="region:OLFACTORY TRACT">
+  <variant base="Olfactory tract" />
+</token>
+<token canonical="CEMENTOCYTE" ref_id="region:CEMENTOCYTE">
+  <variant base="cementocyte" />
+</token>
+<token canonical="CORNEAL FIBROBLAST" ref_id="region:CORNEAL FIBROBLAST">
+  <variant base="Corneal fibroblast" />
+</token>
+<token canonical="TELENCEPHALON" ref_id="region:TELENCEPHALON">
+  <variant base="Telencephalon" />
+</token>
+<token canonical="SECONDARY AUDITORY CORTEX DORSAL AREA" ref_id="region:SECONDARY AUDITORY CORTEX DORSAL AREA">
+  <variant base="Secondary auditory cortex dorsal area" />
+</token>
+<token canonical="UTERUS ENDOMETRIUM CELL" ref_id="region:UTERUS ENDOMETRIUM CELL">
+  <variant base="Uterus endometrium cell" />
+</token>
+<token canonical="BASAL PROXIMAL DENDRITE" ref_id="region:BASAL PROXIMAL DENDRITE">
+  <variant base="basal proximal dendrite" />
+</token>
+<token canonical="ENDOTHELIAL CONTINUOUS CELL" ref_id="region:ENDOTHELIAL CONTINUOUS CELL">
+  <variant base="endothelial continuous cell" />
+</token>
+<token canonical="ORDINARY HEART MUSCLE CELL" ref_id="region:ORDINARY HEART MUSCLE CELL">
+  <variant base="Ordinary heart muscle cell" />
+</token>
+<token canonical="UNCINATE FASCICULUS" ref_id="region:UNCINATE FASCICULUS">
+  <variant base="Uncinate Fasciculus" />
+</token>
+<token canonical="RETINAL PIGMENTED EPITHELIAL CELL" ref_id="region:RETINAL PIGMENTED EPITHELIAL CELL">
+  <variant base="Retinal pigmented epithelial cell" />
+</token>
+<token canonical="THALAMIC RETICULAR NUCLEUS" ref_id="region:THALAMIC RETICULAR NUCLEUS">
+  <variant base="Thalamic Reticular Nucleus" />
+</token>
+<token canonical="OLFACTORY EPITHELIUM SUPPORTING CELL" ref_id="region:OLFACTORY EPITHELIUM SUPPORTING CELL">
+  <variant base="Olfactory epithelium supporting cell" />
+</token>
+<token canonical="OLFACTORY RECEPTOR NEURON" ref_id="region:OLFACTORY RECEPTOR NEURON">
+  <variant base="Olfactory receptor neuron" />
+</token>
+<token canonical="PNEUMOTACTIC CENTRE" ref_id="region:PNEUMOTACTIC CENTRE">
+  <variant base="pneumotactic centre" />
+</token>
+<token canonical="SUPERIOR CISTERN" ref_id="region:SUPERIOR CISTERN">
+  <variant base="superior cistern" />
+</token>
+<token canonical="LATERAL VENTRICLE" ref_id="region:LATERAL VENTRICLE">
+  <variant base="Lateral Ventricle" />
+</token>
+<token canonical="INTESTINAL BRUSH BORDER CELL" ref_id="region:INTESTINAL BRUSH BORDER CELL">
+  <variant base="Intestinal brush border cell" />
+</token>
+<token canonical="ROD CELL" ref_id="region:ROD CELL">
+  <variant base="rod cell" />
+</token>
+<token canonical="VENTRAL LATERAL NUCLEUS" ref_id="region:VENTRAL LATERAL NUCLEUS">
+  <variant base="ventral lateral nucleus" />
+</token>
+<token canonical="LATERAL AND BASOLATERAL NUCLEUS " ref_id="region:LATERAL AND BASOLATERAL NUCLEUS ">
+  <variant base="Lateral and basolateral nucleus " />
+</token>
+<token canonical="LOOSE CONNECTIVE TISSUE FIBROBLAST" ref_id="region:LOOSE CONNECTIVE TISSUE FIBROBLAST">
+  <variant base="Loose connective tissue fibroblast" />
+</token>
+<token canonical="NEURAL CELL" ref_id="region:NEURAL CELL">
+  <variant base="neural cell" />
+  <variant base="neural cells" />
+</token>
+<token canonical="DURAL MENINGEAL SYSTEM" ref_id="region:DURAL MENINGEAL SYSTEM">
+  <variant base="Dural Meningeal System" />
+</token>
+<token canonical="EPIDURAL SPACE" ref_id="region:EPIDURAL SPACE">
+  <variant base="epidural space" />
+</token>
+<token canonical="INNER PHALANGEAL CELL" ref_id="region:INNER PHALANGEAL CELL">
+  <variant base="Inner phalangeal cell" />
+</token>
+<token canonical="MIDDLE TEMPORAL GYRUS" ref_id="region:MIDDLE TEMPORAL GYRUS">
+  <variant base="Middle temporal gyrus" />
+</token>
+<token canonical="PRECUNEUS" ref_id="region:PRECUNEUS">
+  <variant base="Precuneus" />
+</token>
+<token canonical="OSTEOCLAST" ref_id="region:OSTEOCLAST">
+  <variant base="Osteoclast" />
+</token>
+<token canonical="PERIRHINAL CORTEX" ref_id="region:PERIRHINAL CORTEX">
+  <variant base="Perirhinal cortex" />
+</token>
+<token canonical="KIDNEY PROXIMAL TUBULE BRUSH BORDER CELL" ref_id="region:KIDNEY PROXIMAL TUBULE BRUSH BORDER CELL">
+  <variant base="Kidney proximal tubule brush border cell" />
+</token>
+<token canonical="INFERIOR FRONTAL GYRUS" ref_id="region:INFERIOR FRONTAL GYRUS">
+  <variant base="Inferior frontal gyrus" />
+</token>
+<token canonical="PRESYNAPTIC" ref_id="region:PRESYNAPTIC">
+  <variant base="presynaptic" />
+</token>
+<token canonical="CYTOSOL" ref_id="region:CYTOSOL">
+  <variant base="cytosol" />
+  <variant base="cytosolic" />
+</token>
+<token canonical="HABENULAR NUCLEUS" ref_id="region:HABENULAR NUCLEUS">
+  <variant base="habenular nucleus" />
+</token>
+<token canonical="MAMMARY GLAND CELL" ref_id="region:MAMMARY GLAND CELL">
+  <variant base="Mammary gland cell" />
+</token>
+<token canonical="PSEUDOUNIPOLAR NEURON" ref_id="region:PSEUDOUNIPOLAR NEURON">
+  <variant base="pseudounipolar neuron" />
+</token>
+<token canonical="SKELETAL MUSCLE CELL" ref_id="region:SKELETAL MUSCLE CELL">
+  <variant base="Skeletal muscle cell" />
+</token>
+<token canonical="MULTIPOLAR NEURON" ref_id="region:MULTIPOLAR NEURON">
+  <variant base="multipolar neuron" />
+</token>
+<token canonical="MEDIUM SPINY NEURON" ref_id="region:MEDIUM SPINY NEURON">
+  <variant base="Medium spiny neuron" />
+  <variant base="medium spiny neurons" />
+</token>
+<token canonical="CINGULATE CORTEX" ref_id="region:CINGULATE CORTEX">
+  <variant base="Cingulate cortex" />
+</token>
+<token canonical="SUBGENUAL AREA 25" ref_id="region:SUBGENUAL AREA 25">
+  <variant base="Subgenual area 25" />
+</token>
+<token canonical="INTERCALATED CELL" ref_id="region:INTERCALATED CELL">
+  <variant base="Intercalated cell" />
+</token>
+<token canonical="VON EBNER'S GLAND CELL" ref_id="region:VON EBNER'S GLAND CELL">
+  <variant base="Von Ebner's gland cell" />
+</token>
+<token canonical="PROXIMAL DENDRITE" ref_id="region:PROXIMAL DENDRITE">
+  <variant base="proximal dendrite" />
+  <variant base="proximal dendrites" />
+  <variant base="proximal dendritic" />
+</token>
+<token canonical="CHINESE HAMSTER OVARY CELL" ref_id="region:CHINESE HAMSTER OVARY CELL">
+  <variant base="CHO" />
+  <variant base="chinese hamster ovary cells" />
+  <variant base="chinese hamster ovary cell" />
+</token>
+<token canonical="BRAINSTEM WHITE MATTER" ref_id="region:BRAINSTEM WHITE MATTER">
+  <variant base="brainstem White matter" />
+</token>
+<token canonical="SENSORY NUCLEUS" ref_id="region:SENSORY NUCLEUS">
+  <variant base="Sensory Nucleus" />
+</token>
+<token canonical="POSTERIOR INFERIOR TEMPORAL CORTEX" ref_id="region:POSTERIOR INFERIOR TEMPORAL CORTEX">
+  <variant base="Posterior inferior temporal cortex" />
+</token>
+<token canonical="APOCRINE SWEAT GLAND CELL" ref_id="region:APOCRINE SWEAT GLAND CELL">
+  <variant base="Apocrine sweat gland cell" />
+</token>
+<token canonical="SUBTHALAMUS" ref_id="region:SUBTHALAMUS">
+  <variant base="Subthalamus" />
+</token>
+<token canonical="COLUMN" ref_id="region:COLUMN">
+  <variant base="column" />
+  <variant base="columns" />
+  <variant base="columnar" />
+</token>
+<token canonical="APICAL DENDRITE" ref_id="region:APICAL DENDRITE">
+  <variant base="apical dendrite" />
+  <variant base="apical dendrites" />
+  <variant base="apical dendritic" />
+</token>
+<token canonical="PARAFOLLICULAR CELL" ref_id="region:PARAFOLLICULAR CELL">
+  <variant base="parafollicular cell" />
+</token>
+<token canonical="MESOCORTICAL PATHWAY" ref_id="region:MESOCORTICAL PATHWAY">
+  <variant base="mesocortical pathway" />
+</token>
+<token canonical="BRAIN" ref_id="region:BRAIN">
+  <variant base="brain" />
+  <variant base="brains" />
+</token>
+<token canonical="ARCUATE NUCLEUS" ref_id="region:ARCUATE NUCLEUS">
+  <variant base="Arcuate nucleus" />
+</token>
+<token canonical="MOTONEURON" ref_id="region:MOTONEURON">
+  <variant base="motoneuron" />
+  <variant base="motoneurons" />
+</token>
+<token canonical="CIRCLE OF WILLISARTERIAL SYSTEM" ref_id="region:CIRCLE OF WILLISARTERIAL SYSTEM">
+  <variant base="circle of Willisarterial system" />
+</token>
+<token canonical="TOUCH-SENSITIVE PRIMARY SENSORY NEURON" ref_id="region:TOUCH-SENSITIVE PRIMARY SENSORY NEURON">
+  <variant base="Touch-sensitive primary sensory neuron" />
+</token>
+<token canonical="HEPATIC STELLATE CELL" ref_id="region:HEPATIC STELLATE CELL">
+  <variant base="Hepatic stellate cell" />
+</token>
+<token canonical="ANTERIOR" ref_id="region:ANTERIOR">
+  <variant base="Anterior" />
+</token>
+<token canonical="TYPE II HAIR CELL OF VESTIBULAR APPARATUS OF EAR" ref_id="region:TYPE II HAIR CELL OF VESTIBULAR APPARATUS OF EAR">
+  <variant base="Type II hair cell of vestibular apparatus of ear" />
+</token>
+<token canonical="MAST CELL" ref_id="region:MAST CELL">
+  <variant base="Mast cell" />
+</token>
+<token canonical="TYPE II PNEUMOCYTE" ref_id="region:TYPE II PNEUMOCYTE">
+  <variant base="Type II pneumocyte" />
+</token>
+<token canonical="AGRANULAR INSULAR CORTEX POSTERIOR PART" ref_id="region:AGRANULAR INSULAR CORTEX POSTERIOR PART">
+  <variant base="Agranular insular cortex posterior part" />
+</token>
+<token canonical="GAMMA SYSTEM NERVES" ref_id="region:GAMMA SYSTEM NERVES">
+  <variant base="gamma system Nerves" />
+</token>
+<token canonical="DORSOMEDIAL HYPOTHALAMIC NUCLEUS" ref_id="region:DORSOMEDIAL HYPOTHALAMIC NUCLEUS">
+  <variant base="Dorsomedial hypothalamic nucleus" />
+</token>
+<token canonical="REUNIENS NUCLEUS" ref_id="region:REUNIENS NUCLEUS">
+  <variant base="reuniens nucleus" />
+</token>
+<token canonical="SUPERIOR TEMPORAL GYRUS" ref_id="region:SUPERIOR TEMPORAL GYRUS">
+  <variant base="Superior temporal gyrus" />
+</token>
+<token canonical="BLOOD-BRAIN BARRIER" ref_id="region:BLOOD-BRAIN BARRIER">
+  <variant base="blood-brain barrier" />
+</token>
+<token canonical="DORSAL PEDUNCULAR CORTEX" ref_id="region:DORSAL PEDUNCULAR CORTEX">
+  <variant base="dorsal peduncular cortex" />
+</token>
+<token canonical="CENTRAL MEDIAL NUCLEUS" ref_id="region:CENTRAL MEDIAL NUCLEUS">
+  <variant base="central medial nucleus" />
+</token>
+<token canonical="CORTICAL AND BASOMEDIAL NUCLEUS" ref_id="region:CORTICAL AND BASOMEDIAL NUCLEUS">
+  <variant base="Cortical and Basomedial Nucleus" />
+</token>
+<token canonical="CELL OF BOETTCHER" ref_id="region:CELL OF BOETTCHER">
+  <variant base="Cell of Boettcher" />
+</token>
+<token canonical="POSTERIOR CINGULATE" ref_id="region:POSTERIOR CINGULATE">
+  <variant base="Posterior cingulate" />
+</token>
+<token canonical="CONTINUOUS ADAPTING" ref_id="region:CONTINUOUS ADAPTING">
+  <variant base="continuous adapting" />
+  <variant base="continually-adapting" />
+  <variant base="continuous-adapting" />
+  <variant base="continually adapting" />
+</token>
+<token canonical="INTERSTITIAL KIDNEY CELL" ref_id="region:INTERSTITIAL KIDNEY CELL">
+  <variant base="Interstitial kidney cell" />
+</token>
+<token canonical="LATERAL VENTRICLES" ref_id="region:LATERAL VENTRICLES">
+  <variant base="lateral ventricles" />
+</token>
+<token canonical="DIENCEPHALON" ref_id="region:DIENCEPHALON">
+  <variant base="Diencephalon" />
+</token>
+<token canonical="ECCRINE SWEAT GLAND CLEAR CELL" ref_id="region:ECCRINE SWEAT GLAND CLEAR CELL">
+  <variant base="Eccrine sweat gland clear cell" />
+</token>
+<token canonical="POSTERIOR PART OF LATERAL NUCLEUS" ref_id="region:POSTERIOR PART OF LATERAL NUCLEUS">
+  <variant base="Posterior part of Lateral nucleus" />
+</token>
+<token canonical="LATERAL PREOPTIC NUCLEUS" ref_id="region:LATERAL PREOPTIC NUCLEUS">
+  <variant base="Lateral preoptic nucleus" />
+</token>
+<token canonical="CORNEAL KERATOCYTE" ref_id="region:CORNEAL KERATOCYTE">
+  <variant base="corneal keratocyte" />
+</token>
+<token canonical="FRONTOTEMPORAL CORTICAL SYSTEM" ref_id="region:FRONTOTEMPORAL CORTICAL SYSTEM">
+  <variant base="frontotemporal cortical system" />
+</token>
+<token canonical="ARACHNOID SEPTUM" ref_id="region:ARACHNOID SEPTUM">
+  <variant base="arachnoid septum" />
+</token>
+<token canonical="ARACHNOID MATER" ref_id="region:ARACHNOID MATER">
+  <variant base="arachnoid mater" />
+</token>
+<token canonical="GUT" ref_id="region:GUT">
+  <variant base="gut" />
+  <variant base="guts" />
+</token>
+<token canonical="LATERAL DORSAL NUCLEUS" ref_id="region:LATERAL DORSAL NUCLEUS">
+  <variant base="lateral dorsal nucleus" />
+</token>
+<token canonical="EPIDIDYMAL PRINCIPAL CELL" ref_id="region:EPIDIDYMAL PRINCIPAL CELL">
+  <variant base="Epididymal principal cell" />
+</token>
+<token canonical="PHOTORECEPTOR CELL" ref_id="region:PHOTORECEPTOR CELL">
+  <variant base="Photoreceptor cell" />
+</token>
+<token canonical="EPITHALAMUS" ref_id="region:EPITHALAMUS">
+  <variant base="Epithalamus" />
+</token>
+<token canonical="TRIGEMINAL NERVE " ref_id="region:TRIGEMINAL NERVE ">
+  <variant base="Trigeminal nerve " />
+</token>
+<token canonical="EXOCRINE GLAND STRIATED DUCT CELL" ref_id="region:EXOCRINE GLAND STRIATED DUCT CELL">
+  <variant base="Exocrine gland striated duct cell" />
+</token>
+<token canonical="OSTEOPROGENITOR CELL" ref_id="region:OSTEOPROGENITOR CELL">
+  <variant base="Osteoprogenitor cell" />
+</token>
+<token canonical="MEDULLARY CRANIAL NERVE NUCLEUS" ref_id="region:MEDULLARY CRANIAL NERVE NUCLEUS">
+  <variant base="Medullary cranial nerve nucleus" />
+</token>
+<token canonical="AMYGDALOPIRIFORM TRANSITION AREA" ref_id="region:AMYGDALOPIRIFORM TRANSITION AREA">
+  <variant base="Amygdalopiriform Transition area" />
+</token>
+<token canonical="CHANDELIERR CELL" ref_id="region:CHANDELIERR CELL">
+  <variant base="Chandelier Cell" />
+</token>
+<token canonical="SALIVARY GLAND MUCOUS CELL" ref_id="region:SALIVARY GLAND MUCOUS CELL">
+  <variant base="Salivary gland mucous cell" />
+</token>
+<token canonical="MICROSOME" ref_id="region:MICROSOME">
+  <variant base="microsomal" />
+</token>
+<token canonical="CORNEAL ENDOTHELIAL CELL" ref_id="region:CORNEAL ENDOTHELIAL CELL">
+  <variant base="Corneal endothelial cell" />
+</token>
+<token canonical="PRIMARY SOMATOSENSORY CORTEX BARREL FIELD" ref_id="region:PRIMARY SOMATOSENSORY CORTEX BARREL FIELD">
+  <variant base="Primary somatosensory cortex barrel field" />
+</token>
+<token canonical="MEMBRANE" ref_id="region:MEMBRANE">
+  <variant base="membrane" />
+  <variant base="membranes" />
+  <variant base="membranal" />
+  <variant base="membranic" />
+</token>
+<token canonical="BULBOURETHRAL GLAND CELL" ref_id="region:BULBOURETHRAL GLAND CELL">
+  <variant base="Bulbourethral gland cell" />
+</token>
+<token canonical="BRODMANN AREA" ref_id="region:BRODMANN AREA">
+  <variant base="Brodmann area" />
+</token>
+<token canonical="CORONA RADIATA" ref_id="region:CORONA RADIATA">
+  <variant base="Corona radiata" />
+</token>
+<token canonical="CINGULATE CORTEX AREA 2" ref_id="region:CINGULATE CORTEX AREA 2">
+  <variant base="cingulate cortex area 2" />
+</token>
+<token canonical="CINGULATE CORTEX AREA 1" ref_id="region:CINGULATE CORTEX AREA 1">
+  <variant base="cingulate cortex area 1" />
+</token>
+<token canonical="ABDUCENS NERVE" ref_id="region:ABDUCENS NERVE">
+  <variant base="Abducens nerve" />
+</token>
+<token canonical="CORTEX AMYGDALA TRANSITION ZONE" ref_id="region:CORTEX AMYGDALA TRANSITION ZONE">
+  <variant base="cortex amygdala transition zone" />
+</token>
+<token canonical="VESTIBULOCOCHLEAR NERVE" ref_id="region:VESTIBULOCOCHLEAR NERVE">
+  <variant base="Vestibulocochlear nerve" />
+</token>
+<token canonical="PONTINE CISTERN" ref_id="region:PONTINE CISTERN">
+  <variant base="pontine cistern" />
+</token>
+<token canonical="GLION" ref_id="region:GLION">
+  <variant base="glial" />
+  <variant base="glion" />
+  <variant base="glia" />
+</token>
+<token canonical="PRIMARY SOMATOSENSORY CORTEX DYSGRANULAR ZONE" ref_id="region:PRIMARY SOMATOSENSORY CORTEX DYSGRANULAR ZONE">
+  <variant base="Primary somatosensory cortex dysgranular zone" />
+</token>
+<token canonical="CORTICOCORTICAL NEURON" ref_id="region:CORTICOCORTICAL NEURON">
+  <variant base="CCPC" />
+  <variant base="corticocortical neurons" />
+  <variant base="corticocortical neuron" />
+</token>
+<token canonical="BIPOLAR NEURON" ref_id="region:BIPOLAR NEURON">
+  <variant base="bipolar neuron" />
+</token>
+<token canonical="CEREBRUM" ref_id="region:CEREBRUM">
+  <variant base="Cerebrum" />
+</token>
+<token canonical="EPITHELIAL CELL" ref_id="region:EPITHELIAL CELL">
+  <variant base="epithelial cell" />
+</token>
+<token canonical="CELL WALL" ref_id="region:CELL WALL">
+  <variant base="cell wall" />
+  <variant base="cell walls" />
+</token>
+<token canonical="CYTOSKELETON" ref_id="region:CYTOSKELETON">
+  <variant base="cytoskeleton" />
+  <variant base="cytoskeleta" />
+  <variant base="cytoskeletons" />
+  <variant base="cytoskeletal" />
+</token>
+<token canonical="MESANGIAL CELL" ref_id="region:MESANGIAL CELL">
+  <variant base="Mesangial cell" />
+</token>
+<token canonical="PROPRIOCEPTIVE PRIMARY SENSORY NEURON" ref_id="region:PROPRIOCEPTIVE PRIMARY SENSORY NEURON">
+  <variant base="Proprioceptive primary sensory neuron" />
+</token>
+<token canonical="NODAL HEART MUSCLE CELL" ref_id="region:NODAL HEART MUSCLE CELL">
+  <variant base="Nodal heart muscle cell" />
+</token>
+<token canonical="INTERNAL CAPSULE" ref_id="region:INTERNAL CAPSULE">
+  <variant base="Internal capsule" />
+</token>
+<token canonical="RESPIRATORY CENTRES" ref_id="region:RESPIRATORY CENTRES">
+  <variant base="Respiratory centres" />
+</token>
+<token canonical="COLD-SENSITIVE PRIMARY SENSORY NEURON" ref_id="region:COLD-SENSITIVE PRIMARY SENSORY NEURON">
+  <variant base="Cold-sensitive primary sensory neuron" />
+</token>
+<token canonical="RHINENCEPHALON " ref_id="region:RHINENCEPHALON ">
+  <variant base="Rhinencephalon " />
+</token>
+<token canonical="PRELIMBIC CORTEX" ref_id="region:PRELIMBIC CORTEX">
+  <variant base="prelimbic cortex" />
+</token>
+<token canonical="SECONDARY AUDITORY CORTEX VENTRAL AREA" ref_id="region:SECONDARY AUDITORY CORTEX VENTRAL AREA">
+  <variant base="Secondary auditory cortex ventral area" />
+</token>
+<token canonical="CRYSTALLIN-CONTAINING LENS FIBER CELL" ref_id="region:CRYSTALLIN-CONTAINING LENS FIBER CELL">
+  <variant base="Crystallin-containing lens fiber cell" />
+  <variant base="Crystallin-containing lens fiber cells" />
+</token>
+<token canonical="PRIMARY MOTOR CORTEX" ref_id="region:PRIMARY MOTOR CORTEX">
+  <variant base="Primary motor cortex" />
+</token>
+<token canonical="GLOSSOPHARYNGEAL NERVE " ref_id="region:GLOSSOPHARYNGEAL NERVE ">
+  <variant base="Glossopharyngeal nerve " />
+</token>
+<token canonical="MITOCHONDRION OUTER MEMBRANE" ref_id="region:MITOCHONDRION OUTER MEMBRANE">
+  <variant base="outer membrane of mitochondria" />
+</token>
+<token canonical="VASCULAR SYSTEMSVENOUS SYSTEMS" ref_id="region:VASCULAR SYSTEMSVENOUS SYSTEMS">
+  <variant base="Vascular systemsvenous systems" />
+</token>
+<token canonical="BRAIN STEM" ref_id="region:BRAIN STEM">
+  <variant base="brain stem" />
+</token>
+<token canonical="VENTRAL ANTERIOR NUCLEUS" ref_id="region:VENTRAL ANTERIOR NUCLEUS">
+  <variant base="ventral anterior nucleus" />
+</token>
+<token canonical="TUBERAL NUCLEUS" ref_id="region:TUBERAL NUCLEUS">
+  <variant base="tuberal nucleus" />
+</token>
+<token canonical="PIA MATER" ref_id="region:PIA MATER">
+  <variant base="pia mater" />
+</token>
+<token canonical="ADRENAL GLAND CELL" ref_id="region:ADRENAL GLAND CELL">
+  <variant base="Adrenal gland cell" />
+</token>
+<token canonical="WHITE FAT CELL" ref_id="region:WHITE FAT CELL">
+  <variant base="White fat cell" />
+</token>
+<token canonical="PIRIFORM CORTEX" ref_id="region:PIRIFORM CORTEX">
+  <variant base="Piriform Cortex" />
+</token>
+<token canonical="CENTRIOLE" ref_id="region:CENTRIOLE">
+  <variant base="centriole" />
+  <variant base="centrioles" />
+  <variant base="centriolar" />
+</token>
+<token canonical="SEMINAL VESICLE CELL" ref_id="region:SEMINAL VESICLE CELL">
+  <variant base="Seminal vesicle cell" />
+</token>
+<token canonical="NEUTROPHIL GRANULOCYTE" ref_id="region:NEUTROPHIL GRANULOCYTE">
+  <variant base="Neutrophil granulocyte" />
+</token>
+<token canonical="NUCLEUS PULPOSUS CELL" ref_id="region:NUCLEUS PULPOSUS CELL">
+  <variant base="Nucleus pulposus cell" />
+</token>
+<token canonical="OLIGODENDROCYTE" ref_id="region:OLIGODENDROCYTE">
+  <variant base="oligodendroctyes" />
+  <variant base="oligodendrocyte" />
+</token>
+<token canonical="ANTERIOR COMMISSURE" ref_id="region:ANTERIOR COMMISSURE">
+  <variant base="Anterior Commissure" />
+</token>
+<token canonical="POSTSYNAPTIC" ref_id="region:POSTSYNAPTIC">
+  <variant base="postsynaptic" />
+</token>
+<token canonical="STRIA MEDULLARES" ref_id="region:STRIA MEDULLARES">
+  <variant base="stria medullares" />
+</token>
+<token canonical="DORSAL TRANSITION ZONE" ref_id="region:DORSAL TRANSITION ZONE">
+  <variant base="dorsal transition zone" />
+</token>
+<token canonical="PARTS OF PREOPTIC AREA" ref_id="region:PARTS OF PREOPTIC AREA">
+  <variant base="Parts of preoptic area" />
+</token>
+<token canonical="CELL OF CLAUDIUS" ref_id="region:CELL OF CLAUDIUS">
+  <variant base="Cell of Claudius" />
+</token>
+<token canonical="SUBICULUM" ref_id="region:SUBICULUM">
+  <variant base="Subiculum" />
+</token>
+<token canonical="DUCTULUS EFFERENS NONCILIATED CELL" ref_id="region:DUCTULUS EFFERENS NONCILIATED CELL">
+  <variant base="Ductulus efferens nonciliated cell" />
+</token>
+<token canonical="RETROSPLENIAL AREA" ref_id="region:RETROSPLENIAL AREA">
+  <variant base="retrosplenial area" />
+</token>
+<token canonical="ANTERIOR LENS EPITHELIAL CELL" ref_id="region:ANTERIOR LENS EPITHELIAL CELL">
+  <variant base="Anterior lens epithelial cells" />
+  <variant base="Anterior lens epithelial cell" />
+</token>
+<token canonical="POSTSUBICULUM" ref_id="region:POSTSUBICULUM">
+  <variant base="postsubiculum" />
+</token>
+<token canonical="LIVER LIPOCYTE" ref_id="region:LIVER LIPOCYTE">
+  <variant base="Liver lipocyte" />
+</token>
+<token canonical="LIMBIC SYSTEM" ref_id="region:LIMBIC SYSTEM">
+  <variant base="limbic system" />
+  <variant base="Limbic System" />
+</token>
+<token canonical="DORSAL SPINOCEREBELLAR TRACT" ref_id="region:DORSAL SPINOCEREBELLAR TRACT">
+  <variant base="dorsal spinocerebellar tract" />
+</token>
+<token canonical="SQUAMOUS CELL" ref_id="region:SQUAMOUS CELL">
+  <variant base="Squamous cell" />
+</token>
+<token canonical="TEMPORAL ASSOCIATION CORTEX" ref_id="region:TEMPORAL ASSOCIATION CORTEX">
+  <variant base="temporal Association cortex" />
+</token>
+<token canonical="STELLATE CELL" ref_id="region:STELLATE CELL">
+  <variant base="Stellate cell" />
+</token>
+<token canonical="PRIMARY SOMATOSENSORY CORTEX JAW REGION" ref_id="region:PRIMARY SOMATOSENSORY CORTEX JAW REGION">
+  <variant base="Primary somatosensory cortex jaw region" />
+</token>
+<token canonical="STRIATUM" ref_id="region:STRIATUM">
+  <variant base="striatum" />
+  <variant base="Striatum" />
+</token>
+<token canonical="SPERMATID" ref_id="region:SPERMATID">
+  <variant base="Spermatid" />
+</token>
+<token canonical="LACRIMAL GLAND CELL" ref_id="region:LACRIMAL GLAND CELL">
+  <variant base="Lacrimal gland cell" />
+</token>
+<token canonical="PREFRONTAL CORTEX" ref_id="region:PREFRONTAL CORTEX">
+  <variant base="Prefrontal cortex" />
+</token>
+<token canonical="SPERMATOGONIUM CELL" ref_id="region:SPERMATOGONIUM CELL">
+  <variant base="Spermatogonium cell" />
+</token>
+<token canonical="MYOEPITHELIAL CELL" ref_id="region:MYOEPITHELIAL CELL">
+  <variant base="Myoepithelial cell" />
+</token>
+<token canonical="INFERIOR COLLICULI" ref_id="region:INFERIOR COLLICULI">
+  <variant base="inferior colliculi" />
+</token>
+<token canonical="SUPERIOR COLLICULI" ref_id="region:SUPERIOR COLLICULI">
+  <variant base="superior colliculi" />
+</token>
+<token canonical="NUCLEUS ACCUMBENS" ref_id="region:NUCLEUS ACCUMBENS">
+  <variant base="Nucleus accumbens" />
+</token>
+<token canonical="OPTIC NERVE " ref_id="region:OPTIC NERVE ">
+  <variant base="Optic nerve " />
+</token>
+<token canonical="PRESUBICULUM" ref_id="region:PRESUBICULUM">
+  <variant base="presubiculum" />
+</token>
+<token canonical="SUPPRESSOR T CELL" ref_id="region:SUPPRESSOR T CELL">
+  <variant base="Suppressor T cell" />
+</token>
+<token canonical="NEUROENDOCRINE SYSTEM" ref_id="region:NEUROENDOCRINE SYSTEM">
+  <variant base="Neuroendocrine System" />
+</token>
+<token canonical="NEURON" ref_id="region:NEURON">
+  <variant base="neurons" />
+  <variant base="neuronal" />
+  <variant base="neuron" />
+</token>
+<token canonical="PROSENCEPHALON" ref_id="region:PROSENCEPHALON">
+  <variant base="Prosencephalon" />
+</token>
+<token canonical="ATRIUM" ref_id="region:ATRIUM">
+  <variant base="atrial" />
+</token>
+<token canonical="GRANULE CELL" ref_id="region:GRANULE CELL">
+  <variant base="Granule cell" />
+  <variant base="granule cells" />
+</token>
+<token canonical="EXTERNAL CAPSULE" ref_id="region:EXTERNAL CAPSULE">
+  <variant base="External capsule" />
+</token>
+<token canonical="HYPOGLOSSAL NERVE" ref_id="region:HYPOGLOSSAL NERVE">
+  <variant base="Hypoglossal Nerve" />
+</token>
+<token canonical="FORMS NUCLEUS LENTIFORMIS WITH PUTAMEN" ref_id="region:FORMS NUCLEUS LENTIFORMIS WITH PUTAMEN">
+  <variant base="forms nucleus lentiformis with putamen" />
+</token>
+<token canonical="RAPHE NUCLEUS" ref_id="region:RAPHE NUCLEUS">
+  <variant base="Raphe nucleus" />
+</token>
+<token canonical="AFFERENT NEURON" ref_id="region:AFFERENT NEURON">
+  <variant base="afferent neuron" />
+</token>
+<token canonical="RED BLOOD CELL" ref_id="region:RED BLOOD CELL">
+  <variant base="red blood cell" />
+</token>
+<token canonical="SOLITARY NUCLEUS" ref_id="region:SOLITARY NUCLEUS">
+  <variant base="Solitary Nucleus" />
+</token>
+<token canonical="PARIETAL LOBE" ref_id="region:PARIETAL LOBE">
+  <variant base="parietal lobe" />
+  <variant base="Parietal lobe" />
+</token>
+<token canonical="POSTERIOR" ref_id="region:POSTERIOR">
+  <variant base="Posterior" />
+</token>
+<token canonical="RED NUCLEUS" ref_id="region:RED NUCLEUS">
+  <variant base="Red Nucleus" />
+</token>
+<token canonical="POST SYNAPTIC DENSITY MEMBRANE" ref_id="region:POST SYNAPTIC DENSITY MEMBRANE">
+  <variant base="post synapstic density membrane" />
+  <variant base="post synaptic density membrane" />
+</token>
+<token canonical="VAGUS NERVE" ref_id="region:VAGUS NERVE">
+  <variant base="Vagus nerve" />
+</token>
+<token canonical="ISOLATED GOBLET CELL" ref_id="region:ISOLATED GOBLET CELL">
+  <variant base="Isolated goblet cell" />
+</token>
+<token canonical="PARIETAL ASSOCIATION CORTEX" ref_id="region:PARIETAL ASSOCIATION CORTEX">
+  <variant base="Parietal association cortex" />
+</token>
+<token canonical="NEOPALLIUM" ref_id="region:NEOPALLIUM">
+  <variant base="neopallium" />
+</token>
+<token canonical="THYMUS EPITHELIAL CELL" ref_id="region:THYMUS EPITHELIAL CELL">
+  <variant base="Thymus epithelial cell" />
+</token>
+<token canonical="TYPE I PNEUMOCYTE" ref_id="region:TYPE I PNEUMOCYTE">
+  <variant base="Type I pneumocyte" />
+</token>
+<token canonical="RESPIRATORY TRACT CILIATED CELL" ref_id="region:RESPIRATORY TRACT CILIATED CELL">
+  <variant base="Respiratory tract ciliated cell" />
+</token>
+<token canonical="MEDULLARY HAIR SHAFT CELL" ref_id="region:MEDULLARY HAIR SHAFT CELL">
+  <variant base="Medullary hair shaft cell" />
+</token>
+<token canonical="PINEAL BODY" ref_id="region:PINEAL BODY">
+  <variant base="pineal body" />
+</token>
+<token canonical="LATERAL ENTORHINAL CORTEX" ref_id="region:LATERAL ENTORHINAL CORTEX">
+  <variant base="Lateral entorhinal cortex" />
+</token>
+<token canonical="VENTRAL POSTERIOR LATERAL NUCLEUS" ref_id="region:VENTRAL POSTERIOR LATERAL NUCLEUS">
+  <variant base="Ventral posterior lateral nucleus" />
+</token>
+<token canonical="TUBERAL PART OF LATERAL NUCLEUS" ref_id="region:TUBERAL PART OF LATERAL NUCLEUS">
+  <variant base="Tuberal part of Lateral nucleus" />
+</token>
+<token canonical="PARAVENTRICULAR NUCLEUS" ref_id="region:PARAVENTRICULAR NUCLEUS">
+  <variant base="Paraventricular nucleus" />
+</token>
+<token canonical="PIA-ARACHNOID SQUAMOUS CELL" ref_id="region:PIA-ARACHNOID SQUAMOUS CELL">
+  <variant base="Pia-arachnoid squamous cell" />
+</token>
+<token canonical="ANTERIOR HORN" ref_id="region:ANTERIOR HORN">
+  <variant base="Anterior horn" />
+</token>
+<token canonical="DARK CELL" ref_id="region:DARK CELL">
+  <variant base="Dark cell" />
+</token>
+<token canonical="MAMMILLARY NUCLEUS" ref_id="region:MAMMILLARY NUCLEUS">
+  <variant base="Mammillary Nucleus" />
+</token>
+<token canonical="PRIMARY SOMATOSENSORX CORTEX HINDLIMB REGION" ref_id="region:PRIMARY SOMATOSENSORX CORTEX HINDLIMB REGION">
+  <variant base="Primary somatosensorx cortex Hindlimb region" />
+</token>
+<token canonical="CONTINUOUS STUTTERING" ref_id="region:CONTINUOUS STUTTERING">
+  <variant base="continuous stuttering" />
+  <variant base="continually stuttering" />
+</token>
+<token canonical="MITOCHONDRION INNER MEMBRANE" ref_id="region:MITOCHONDRION INNER MEMBRANE">
+  <variant base="inner membrane of mitochondria" />
+</token>
+<token canonical="RHOMBOIDAL NUCLEUS" ref_id="region:RHOMBOIDAL NUCLEUS">
+  <variant base="rhomboidal nucleus" />
+</token>
+<token canonical="SECONDARY VISUAL CORTEX MEDIOLATERAL AREA" ref_id="region:SECONDARY VISUAL CORTEX MEDIOLATERAL AREA">
+  <variant base="secondary visual cortex mediolateral area" />
+</token>
+<token canonical="EOSINOPHIL GRANULOCYTE" ref_id="region:EOSINOPHIL GRANULOCYTE">
+  <variant base="Eosinophil granulocyte" />
+</token>
+<token canonical="EPIDERMAL KERATINOCYTE " ref_id="region:EPIDERMAL KERATINOCYTE ">
+  <variant base="Epidermal keratinocyte " />
+</token>
+<token canonical="SOMATOSENSORY CORTEX" ref_id="region:SOMATOSENSORY CORTEX">
+  <variant base="somatosensory cortex" />
+</token>
+<token canonical="LAYER SPECIFIC PYRAMIDAL CELL" ref_id="region:LAYER SPECIFIC PYRAMIDAL CELL">
+  <variant base="layer specific pyramidal cell" />
+  <variant base="layer specific pyramidal cells" />
+  <variant base="LPCs" />
+</token>
+<token canonical="VENTRAL NUCLEAR GROUP" ref_id="region:VENTRAL NUCLEAR GROUP">
+  <variant base="ventral nuclear group" />
+</token>
+<token canonical="PLANUM SEMILUNATUM EPITHELIAL CELL" ref_id="region:PLANUM SEMILUNATUM EPITHELIAL CELL">
+  <variant base="Planum semilunatum epithelial cell" />
+</token>
+<token canonical="PURKINJE CELL" ref_id="region:PURKINJE CELL">
+  <variant base="Purkinje cells" />
+  <variant base="Purkinje cell" />
+</token>
+<token canonical="VESTIBULAR NUCLEUS AND COCHLEAR NUCLEUS" ref_id="region:VESTIBULAR NUCLEUS AND COCHLEAR NUCLEUS">
+  <variant base="Vestibular Nucleus and Cochlear Nucleus" />
+</token>
+<token canonical="LAYER 1" ref_id="region:LAYER 1">
+  <variant base="l1" />
+  <variant base="L1" />
+  <variant base="layer I" />
+  <variant base="layer 1" />
+</token>
+<token canonical="LAYER 2" ref_id="region:LAYER 2">
+  <variant base="l2" />
+  <variant base="L2" />
+  <variant base="layer II" />
+  <variant base="layer II/III" />
+  <variant base="layer 2" />
+  <variant base="layer 2/3" />
+  <variant base="l2/3" />
+  <variant base="L2/3" />
+</token>
+<token canonical="LAYER 3" ref_id="region:LAYER 3">
+  <variant base="L3" />
+  <variant base="l3" />
+  <variant base="layer III" />
+  <variant base="layer II/III" />
+  <variant base="layer 3" />
+  <variant base="layer 2/3" />
+</token>
+<token canonical="LAYER 4" ref_id="region:LAYER 4">
+  <variant base="l4" />
+  <variant base="L4" />
+  <variant base="layer IV" />
+  <variant base="layer 4" />
+</token>
+<token canonical="LAYER 5" ref_id="region:LAYER 5">
+  <variant base="l5" />
+  <variant base="L5" />
+  <variant base="layer V" />
+  <variant base="layer 5" />
+</token>
+<token canonical="LAYER 6" ref_id="region:LAYER 6">
+  <variant base="l6" />
+  <variant base="L6" />
+  <variant base="layer VI" />
+  <variant base="layer 6" />
+</token>
+<token canonical="SMOOTH MUSCLE CELL" ref_id="region:SMOOTH MUSCLE CELL">
+  <variant base="Smooth muscle cell" />
+</token>
+<token canonical="OSTEOCYTE" ref_id="region:OSTEOCYTE">
+  <variant base="osteocyte" />
+</token>
+<token canonical="DENTATE GYRUS" ref_id="region:DENTATE GYRUS">
+  <variant base="Dentate gyrus" />
+</token>
+<token canonical="EPIDIDYMAL BASAL CELL" ref_id="region:EPIDIDYMAL BASAL CELL">
+  <variant base="Epididymal basal cell" />
+</token>
+<token canonical="DURA MATER" ref_id="region:DURA MATER">
+  <variant base="dura mater" />
+</token>
+<token canonical="SUBARACHNOID SPACE" ref_id="region:SUBARACHNOID SPACE">
+  <variant base="subarachnoid space" />
+</token>
+<token canonical="SPINDLE NEURON" ref_id="region:SPINDLE NEURON">
+  <variant base="Spindle neuron" />
+</token>
+<token canonical="MACULA DENSA CELL" ref_id="region:MACULA DENSA CELL">
+  <variant base="Macula densa cell" />
+</token>
+<token canonical="HEART MUSCLE CELL" ref_id="region:HEART MUSCLE CELL">
+  <variant base="Heart muscle cell" />
+</token>
+<token canonical="ADRENERGIC NEURAL CELL" ref_id="region:ADRENERGIC NEURAL CELL">
+  <variant base="Adrenergic neural cell" />
+</token>
+<token canonical="PULVINAR" ref_id="region:PULVINAR">
+  <variant base="pulvinar" />
+</token>
+<token canonical="GLOBUS PALLIDUS " ref_id="region:GLOBUS PALLIDUS ">
+  <variant base="Globus pallidus " />
+</token>
+<token canonical="MIDDLE FRONTAL GYRUS" ref_id="region:MIDDLE FRONTAL GYRUS">
+  <variant base="Middle frontal gyrus" />
+</token>
+<token canonical="SECONDARY VISUAL CORTEX LATERAL AREA" ref_id="region:SECONDARY VISUAL CORTEX LATERAL AREA">
+  <variant base="secondary visual cortex lateral area" />
+</token>
+<token canonical="BLUE-SENSITIVE CONE CELL OF EYE" ref_id="region:BLUE-SENSITIVE CONE CELL OF EYE">
+  <variant base="blue-sensitive cone cell of eye" />
+</token>
+<token canonical="OVARIAN FOLLICLE CELL" ref_id="region:OVARIAN FOLLICLE CELL">
+  <variant base="Ovarian follicle cell" />
+</token>
+<token canonical="THIRD VENTRICLE" ref_id="region:THIRD VENTRICLE">
+  <variant base="third ventricle" />
+  <variant base="Third Ventricle" />
+</token>
+<token canonical="AUDITORY OUTER HAIR CELL" ref_id="region:AUDITORY OUTER HAIR CELL">
+  <variant base="Auditory outer hair cell" />
+</token>
+<token canonical="AGRANULAR INSULAR CORTEX DORSAL PART" ref_id="region:AGRANULAR INSULAR CORTEX DORSAL PART">
+  <variant base="Agranular insular cortex Dorsal part" />
+</token>
+<token canonical="VACUOLE" ref_id="region:VACUOLE">
+  <variant base="vacuole" />
+  <variant base="vacuoles" />
+  <variant base="vacuolar" />
+  <variant base="vacuolic" />
+</token>
+<token canonical="SUPPLEMENTARY MOTOR CORTEX" ref_id="region:SUPPLEMENTARY MOTOR CORTEX">
+  <variant base="Supplementary motor cortex" />
+</token>
+<token canonical="TENDON FIBROBLAST" ref_id="region:TENDON FIBROBLAST">
+  <variant base="Tendon fibroblast" />
+</token>
+<token canonical="LATERAL OCCIPITAL GYRUS" ref_id="region:LATERAL OCCIPITAL GYRUS">
+  <variant base="Lateral occipital gyrus" />
+</token>
+<token canonical="DYSGRANULAR INSULAR CORTEX" ref_id="region:DYSGRANULAR INSULAR CORTEX">
+  <variant base="dysgranular insular cortex" />
+</token>
+<token canonical="AXON HORIZONTAL CELL" ref_id="region:AXON HORIZONTAL CELL">
+  <variant base="AHC" />
+  <variant base="axon horizontal cell" />
+</token>
+<token canonical="EXTREME CAPSULE" ref_id="region:EXTREME CAPSULE">
+  <variant base="Extreme capsule" />
+</token>
+<token canonical="VESTIBULAR MEMBRANE CELL" ref_id="region:VESTIBULAR MEMBRANE CELL">
+  <variant base="Vestibular membrane cell" />
+</token>
+<token canonical="BONE MARROW RETICULAR TISSUE FIBROBLAST" ref_id="region:BONE MARROW RETICULAR TISSUE FIBROBLAST">
+  <variant base="Bone marrow reticular tissue fibroblast" />
+</token>
+<token canonical="OPTIC CHIASM" ref_id="region:OPTIC CHIASM">
+  <variant base="optic chiasm" />
+</token>
+<token canonical="SPLENIUM OF THE CORPUS CALLOSUM" ref_id="region:SPLENIUM OF THE CORPUS CALLOSUM">
+  <variant base="splenium of the corpus callosum" />
+</token>
+<token canonical="EFFERENT NEURON" ref_id="region:EFFERENT NEURON">
+  <variant base="efferent neuron" />
+</token>
+<token canonical="PANCREATIC DUCT CELL" ref_id="region:PANCREATIC DUCT CELL">
+  <variant base="Pancreatic duct cell" />
+</token>
+<token canonical="PONS" ref_id="region:PONS">
+  <variant base="pons" />
+</token>
+<token canonical="MEGAKARYOCYTE" ref_id="region:MEGAKARYOCYTE">
+  <variant base="Megakaryocyte" />
+</token>
+<token canonical="DUCTULUS EFFERENS CILIATED CELL" ref_id="region:DUCTULUS EFFERENS CILIATED CELL">
+  <variant base="Ductulus efferens ciliated cell" />
+</token>
+<token canonical="MEDIAL GENICULATE BODY" ref_id="region:MEDIAL GENICULATE BODY">
+  <variant base="medial geniculate body" />
+</token>
+<token canonical="SEROTONIN PATHWAYS SEROTONIN SYSTEM" ref_id="region:SEROTONIN PATHWAYS SEROTONIN SYSTEM">
+  <variant base="Serotonin Pathways serotonin system" />
+</token>
+<token canonical="GUT AND RESPIRATORY TRACT CELL" ref_id="region:GUT AND RESPIRATORY TRACT CELL">
+  <variant base="Gut and respiratory tract cell" />
+</token>
+<token canonical="NUCLEUS AMBIGUUS" ref_id="region:NUCLEUS AMBIGUUS">
+  <variant base="Nucleus ambiguus" />
+</token>
+<token canonical="ANTERIOR OLFACTORY NUCLEUS" ref_id="region:ANTERIOR OLFACTORY NUCLEUS">
+  <variant base="Anterior olfactory nucleus" />
+</token>
+<token canonical="BLOOD-CEREBROSPINAL FLUID BARRIER" ref_id="region:BLOOD-CEREBROSPINAL FLUID BARRIER">
+  <variant base="blood-cerebrospinal fluid barrier" />
+</token>
+<token canonical="AMYGDALA" ref_id="region:AMYGDALA">
+  <variant base="amygdala" />
+</token>
+<token canonical="OVIDUCT CILIATED CELL" ref_id="region:OVIDUCT CILIATED CELL">
+  <variant base="Oviduct ciliated cell" />
+</token>
+<token canonical="TUBERAL REGION" ref_id="region:TUBERAL REGION">
+  <variant base="tuberal region" />
+</token>
+<token canonical="PITUITARY GLAND" ref_id="region:PITUITARY GLAND">
+  <variant base="Pituitary Gland" />
+</token>
+<token canonical="CEREBROSPINAL FLUID" ref_id="region:CEREBROSPINAL FLUID">
+  <variant base="cerebrospinal fluid" />
+</token>
+<token canonical="PERIPOLAR NEURON" ref_id="region:PERIPOLAR NEURON">
+  <variant base="peripolar neuron" />
+</token>
+<token canonical="LOOP OF HENLE THIN SEGMENT CELL" ref_id="region:LOOP OF HENLE THIN SEGMENT CELL">
+  <variant base="Loop of Henle thin segment cell" />
+</token>
+<token canonical="PREMOTOR CORTEX" ref_id="region:PREMOTOR CORTEX">
+  <variant base="Premotor cortex" />
+</token>
+<token canonical="SUBDURAL SPACE" ref_id="region:SUBDURAL SPACE">
+  <variant base="subdural space" />
+</token>
+<token canonical="THYROID EPITHELIAL CELL" ref_id="region:THYROID EPITHELIAL CELL">
+  <variant base="thyroid epithelial cell" />
+</token>
+<token canonical="HEPATOCYTE" ref_id="region:HEPATOCYTE">
+  <variant base="Hepatocyte" />
+</token>
+<token canonical="UTERINE ENDOMETRIAL CILIATED CELL" ref_id="region:UTERINE ENDOMETRIAL CILIATED CELL">
+  <variant base="Uterine endometrial ciliated cell" />
+</token>
+<token canonical="JUXTAGLOMERULAR CELL" ref_id="region:JUXTAGLOMERULAR CELL">
+  <variant base="Juxtaglomerular cell" />
+</token>
+<token canonical="VENTROMEDIAL NUCLEUS" ref_id="region:VENTROMEDIAL NUCLEUS">
+  <variant base="Ventromedial nucleus" />
+</token>
+<token canonical="TUBEROMAMILLARY NUCLEUS" ref_id="region:TUBEROMAMILLARY NUCLEUS">
+  <variant base="tuberomamillary nucleus" />
+</token>
+<token canonical="CELL COMPARTMENT" ref_id="region:CELL COMPARTMENT">
+  <variant base="cell compartment" />
+</token>
+<token canonical="PRIMARY SOMESTHETIC AREAOCCIPITAL LOBE" ref_id="region:PRIMARY SOMESTHETIC AREAOCCIPITAL LOBE">
+  <variant base="Primary somesthetic areaOccipital lobe" />
+</token>
+<token canonical="SPERMATOZOON" ref_id="region:SPERMATOZOON">
+  <variant base="Spermatozoon" />
+</token>
+<token canonical="SPERMATOCYTE" ref_id="region:SPERMATOCYTE">
+  <variant base="Spermatocyte" />
+</token>
+<token canonical="BORDER CELL" ref_id="region:BORDER CELL">
+  <variant base="Border cell" />
+</token>
+<token canonical="AGRANULAR INSULAR CORTEX" ref_id="region:AGRANULAR INSULAR CORTEX">
+  <variant base="Agranular insular cortex" />
+</token>
+<token canonical="OCCIPITAL LOBE" ref_id="region:OCCIPITAL LOBE">
+  <variant base="occipital lobe" />
+</token>
+<token canonical="ARCHIPALLIUM" ref_id="region:ARCHIPALLIUM">
+  <variant base="archipallium" />
+</token>
+<token canonical="MOLL CELL" ref_id="region:MOLL CELL">
+  <variant base="Moll cell" />
+</token>
+<token canonical="AQUEDUCT OF SYLVIUS" ref_id="region:AQUEDUCT OF SYLVIUS">
+  <variant base="Aqueduct of Sylvius" />
+</token>
+<token canonical="RETROSPLENIAL GRANULAR A CORTEX" ref_id="region:RETROSPLENIAL GRANULAR A CORTEX">
+  <variant base="Retrosplenial granular a cortex" />
+</token>
+<token canonical="ASTROCYTE" ref_id="region:ASTROCYTE">
+  <variant base="astrocytes" />
+  <variant base="Astrocyte" />
+  <variant base="astroglion" />
+  <variant base="astroglia" />
+</token>
+<token canonical="CONTINUOUS FAST SPIKING" ref_id="region:CONTINUOUS FAST SPIKING">
+  <variant base="Continuous Fast Spiking" />
+  <variant base="continually Fastspiking" />
+  <variant base="continually Fast-Spiking" />
+  <variant base="Continuous-Fast-Spiking" />
+  <variant base="Continuous Fastspiking" />
+</token>
+<token canonical="MUSCLE CELL" ref_id="region:MUSCLE CELL">
+  <variant base="muscle cell" />
+</token>
+<token canonical="INFERIOR TEMPORAL GYRUS" ref_id="region:INFERIOR TEMPORAL GYRUS">
+  <variant base="Inferior temporal gyrus" />
+</token>
+<token canonical="VESTIBULOCOCHLEAR NUCLEUS" ref_id="region:VESTIBULOCOCHLEAR NUCLEUS">
+  <variant base="Vestibulocochlear Nucleus" />
+</token>
+<token canonical="KIDNEY GLOMERULUS PARIETAL CELL" ref_id="region:KIDNEY GLOMERULUS PARIETAL CELL">
+  <variant base="Kidney glomerulus parietal cell" />
+</token>
+<token canonical="CEREBELLAR VERMIS" ref_id="region:CEREBELLAR VERMIS">
+  <variant base="cerebellar vermis" />
+</token>
+<token canonical="CYTOPLASMA" ref_id="region:CYTOPLASMA">
+  <variant base="cytoplasma" />
+  <variant base="cytoplasmae" />
+  <variant base="cytoplasmas" />
+  <variant base="cytoplasmic" />
+  <variant base="cytoplasmal" />
+</token>
+<token canonical="GREEN-SENSITIVE CONE CELL OF EYE" ref_id="region:GREEN-SENSITIVE CONE CELL OF EYE">
+  <variant base="green-sensitive cone cell of eye" />
+</token>
+<token canonical="EXTRAPYRAMIDAL SYSTEM" ref_id="region:EXTRAPYRAMIDAL SYSTEM">
+  <variant base="extrapyramidal system" />
+</token>
+<token canonical="HINDBRAINRHOMBENCEPHALON" ref_id="region:HINDBRAINRHOMBENCEPHALON">
+  <variant base="HindbrainRhombencephalon" />
+</token>
+<token canonical="TEMPORAL LOBE" ref_id="region:TEMPORAL LOBE">
+  <variant base="temporal lobe" />
+  <variant base="Temporal lobe" />
+</token>
+<token canonical="BASAL DENDRITE" ref_id="region:BASAL DENDRITE">
+  <variant base="basal dendrite" />
+</token>
+<token canonical="BRAIN REGION" ref_id="region:BRAIN REGION">
+  <variant base="brain region" />
+</token>
+<token canonical="SEROSAL CELL" ref_id="region:SEROSAL CELL">
+  <variant base="Serosal cell" />
+</token>
+<token canonical="CEREBRAL HEMISPHERE" ref_id="region:CEREBRAL HEMISPHERE">
+  <variant base="Cerebral Hemisphere" />
+</token>
+<token canonical="ELASTIC CARTILAGE CHONDROCYTE" ref_id="region:ELASTIC CARTILAGE CHONDROCYTE">
+  <variant base="Elastic cartilage chondrocyte" />
+</token>
+<token canonical="TUBERAL" ref_id="region:TUBERAL">
+  <variant base="Tuberal" />
+</token>
+<token canonical="ANTERIOR CINGULATE" ref_id="region:ANTERIOR CINGULATE">
+  <variant base="Anterior cingulate" />
+</token>
+<token canonical="RETICULOCYTE" ref_id="region:RETICULOCYTE">
+  <variant base="Reticulocyte" />
+</token>
+<token canonical="DUCT CELL" ref_id="region:DUCT CELL">
+  <variant base="Duct cell" />
+</token>
+<token canonical="PARATENIAL NUCLEUS" ref_id="region:PARATENIAL NUCLEUS">
+  <variant base="paratenial nucleus" />
+</token>
+<token canonical="CONE CELL" ref_id="region:CONE CELL">
+  <variant base="cone cell" />
+</token>
+<token canonical="CLAUSTRUM" ref_id="region:CLAUSTRUM">
+  <variant base="Claustrum" />
+</token>
+<token canonical="BASAL DISTAL DENDRITE" ref_id="region:BASAL DISTAL DENDRITE">
+  <variant base="basal distal dendrite" />
+</token>
+<token canonical="MOTOR SYSTEM" ref_id="region:MOTOR SYSTEM">
+  <variant base="motor system" />
+  <variant base="Motor systems" />
+</token>
+<token canonical="CHOROID PLEXUS CELL" ref_id="region:CHOROID PLEXUS CELL">
+  <variant base="Choroid plexus cell" />
+</token>
+<token canonical="DENDRITIC CELL" ref_id="region:DENDRITIC CELL">
+  <variant base="Dendritic cell" />
+</token>
+<token canonical="THECA LUTEIN CELL" ref_id="region:THECA LUTEIN CELL">
+  <variant base="Theca lutein cell" />
+</token>
+<token canonical="CA FIELD" ref_id="region:CA FIELD">
+  <variant base="CA field" />
+</token>
+<token canonical="OLFACTORY TUBERCLE" ref_id="region:OLFACTORY TUBERCLE">
+  <variant base="Olfactory tubercle" />
+</token>
+<token canonical="MESOLIMBIC PATHWAY" ref_id="region:MESOLIMBIC PATHWAY">
+  <variant base="mesolimbic pathway" />
+</token>
+<token canonical="DORSAL RAPHE NUCLEUS" ref_id="region:DORSAL RAPHE NUCLEUS">
+  <variant base="dorsal raphe nucleus" />
+</token>
+<token canonical="DELAYED FAST SPIKING" ref_id="region:DELAYED FAST SPIKING">
+  <variant base="delayed Fastspiking" />
+  <variant base="delayed Fast-Spiking" />
+  <variant base="delayed-Fast-Spiking" />
+  <variant base="delayed Fast Spiking" />
+</token>
+<token canonical="MELANOCYTE" ref_id="region:MELANOCYTE">
+  <variant base="Melanocyte" />
+</token>
+<token canonical="MEDIAL ORBITAL CORTEX" ref_id="region:MEDIAL ORBITAL CORTEX">
+  <variant base="medial orbital cortex" />
+</token>
+<token canonical="STOMACH LINING MUCOUS CELL" ref_id="region:STOMACH LINING MUCOUS CELL">
+  <variant base="Stomach lining mucous cell" />
+</token>
+<token canonical="BETZ CELL" ref_id="region:BETZ CELL">
+  <variant base="Betz cell" />
+  <variant base="betz cells" />
+</token>
+<token canonical="HYALINE CARTILAGE CHONDROCYTE" ref_id="region:HYALINE CARTILAGE CHONDROCYTE">
+  <variant base="Hyaline cartilage chondrocyte" />
+</token>
+<token canonical="OLFACTORY NERVE" ref_id="region:OLFACTORY NERVE">
+  <variant base="Olfactory nerve" />
+</token>
+<token canonical="CHOLINERGIC NEURAL CELL" ref_id="region:CHOLINERGIC NEURAL CELL">
+  <variant base="Cholinergic neural cell" />
+</token>
+<token canonical="ORIENS LAYER" ref_id="region:ORIENS LAYER">
+  <variant base="oriens layer" />
+</token>
+<token canonical="RETROSPLENIAL AGRANULAR CORTEX" ref_id="region:RETROSPLENIAL AGRANULAR CORTEX">
+  <variant base="Retrosplenial agranular cortex" />
+</token>
+<token canonical="ENTERIC GLIAL CELL" ref_id="region:ENTERIC GLIAL CELL">
+  <variant base="enteric glion" />
+  <variant base="Enteric glial cell" />
+  <variant base="enteric glia" />
+  <variant base="enteric glial cells" />
+</token>
+<token canonical="PRIMARY VISUAL CORTEXGYRUS" ref_id="region:PRIMARY VISUAL CORTEXGYRUS">
+  <variant base="Primary visual cortexGyrus" />
+</token>
+<token canonical="INFUNDIBULUM" ref_id="region:INFUNDIBULUM">
+  <variant base="infundibulum" />
+</token>
+<token canonical="OTHER NONEPITHELIAL FIBROBLAST" ref_id="region:OTHER NONEPITHELIAL FIBROBLAST">
+  <variant base="Other nonepithelial fibroblast" />
+</token>
+<token canonical="TYPE II CAROTID BODY CELL" ref_id="region:TYPE II CAROTID BODY CELL">
+  <variant base="Type II carotid body cell" />
+</token>
+<token canonical="GRANULAR INSULAR CORTEX" ref_id="region:GRANULAR INSULAR CORTEX">
+  <variant base="granular insular cortex" />
+</token>
+<token canonical="AMYGDALALIMBIC SYSTEM" ref_id="region:AMYGDALALIMBIC SYSTEM">
+  <variant base="Amygdalalimbic system" />
+</token>
+<token canonical="GASTRIC GLAND ZYMOGENIC CELL" ref_id="region:GASTRIC GLAND ZYMOGENIC CELL">
+  <variant base="Gastric gland zymogenic cell" />
+</token>
+<token canonical="MERKEL CELL OF EPIDERMIS" ref_id="region:MERKEL CELL OF EPIDERMIS">
+  <variant base="Merkel cell of epidermis" />
+</token>
+<token canonical="ANTEROMEDIAL NUCLEUS" ref_id="region:ANTEROMEDIAL NUCLEUS">
+  <variant base="anteromedial nucleus" />
+</token>
+<token canonical="CRUS CEREBRI" ref_id="region:CRUS CEREBRI">
+  <variant base="crus cerebri" />
+</token>
+<token canonical="PARAFASCICULAR NUCLEUS" ref_id="region:PARAFASCICULAR NUCLEUS">
+  <variant base="parafascicular nucleus" />
+</token>
+<token canonical="MEDIAL NUCLEUS " ref_id="region:MEDIAL NUCLEUS ">
+  <variant base="Medial nucleus " />
+</token>
+<token canonical="FLOCCULONODULAR LOBE" ref_id="region:FLOCCULONODULAR LOBE">
+  <variant base="flocculonodular lobe" />
+</token>
+<token canonical="GRANULOSA LUTEIN CELL" ref_id="region:GRANULOSA LUTEIN CELL">
+  <variant base="Granulosa lutein cell" />
+</token>
+<token canonical="KIDNEY DISTAL TUBULE CELL" ref_id="region:KIDNEY DISTAL TUBULE CELL">
+  <variant base="Kidney distal tubule cell" />
+</token>
+<token canonical="ANTERIOR HYPOTHALAMIC NUCLEUS" ref_id="region:ANTERIOR HYPOTHALAMIC NUCLEUS">
+  <variant base="Anterior hypothalamic nucleus" />
+</token>
+<token canonical="CORTICAL HAIR SHAFT CELL" ref_id="region:CORTICAL HAIR SHAFT CELL">
+  <variant base="Cortical hair shaft cell" />
+</token>
+<token canonical="AXON DISTAL CELL" ref_id="region:AXON DISTAL CELL">
+  <variant base="axon distal cell" />
+  <variant base="ADC" />
+</token>
+<token canonical="TASTE BUD SUPPORTING CELL" ref_id="region:TASTE BUD SUPPORTING CELL">
+  <variant base="Taste bud supporting cell" />
+</token>
+<token canonical="RENSHAW CELL" ref_id="region:RENSHAW CELL">
+  <variant base="renshaw cells" />
+  <variant base="Renshaw cell" />
+</token>
+<token canonical="BROWN FAT CELL" ref_id="region:BROWN FAT CELL">
+  <variant base="Brown fat cell" />
+</token>
+<token canonical="CEREBELLAR NUCLEUS" ref_id="region:CEREBELLAR NUCLEUS">
+  <variant base="cerebellar nucleus" />
+</token>
+<token canonical="HEAT-SENSITIVE PRIMARY SENSORY NEURON" ref_id="region:HEAT-SENSITIVE PRIMARY SENSORY NEURON">
+  <variant base="Heat-sensitive primary sensory neuron" />
+</token>
+<token canonical="MIDBRAIN" ref_id="region:MIDBRAIN">
+  <variant base="Midbrain" />
+</token>
+<token canonical="CUTICULAR HAIR SHAFT CELL" ref_id="region:CUTICULAR HAIR SHAFT CELL">
+  <variant base="Cuticular hair shaft cell" />
+</token>
+<token canonical="INTERNEURON" ref_id="region:INTERNEURON">
+  <variant base="interneuron" />
+</token>
+<token canonical="PARATHYROID GLAND CELL" ref_id="region:PARATHYROID GLAND CELL">
+  <variant base="Parathyroid gland cell" />
+</token>
+<token canonical="SCHWANN CELL" ref_id="region:SCHWANN CELL">
+  <variant base="Schwann cell" />
+</token>
+<token canonical="OUTER PHALANGEAL CELL" ref_id="region:OUTER PHALANGEAL CELL">
+  <variant base="Outer phalangeal cell" />
+</token>
+<token canonical="GASTRIC GLAND OXYNTIC CELL" ref_id="region:GASTRIC GLAND OXYNTIC CELL">
+  <variant base="Gastric gland oxyntic cell" />
+</token>
+<token canonical="NUCLEUS FOR THE TRIGEMINAL NERVE ABDUCENS " ref_id="region:NUCLEUS FOR THE TRIGEMINAL NERVE ABDUCENS ">
+  <variant base="nucleus for the trigeminal nerve abducens " />
+</token>
+<token canonical="ECCRINE SWEAT GLAND DARK CELL" ref_id="region:ECCRINE SWEAT GLAND DARK CELL">
+  <variant base="Eccrine sweat gland dark cell" />
+</token>
+<token canonical="THALAMUS" ref_id="region:THALAMUS">
+  <variant base="Thalamus" />
+</token>
+<token canonical="MIDBRAIN TEGMENTUM" ref_id="region:MIDBRAIN TEGMENTUM">
+  <variant base="midbrain tegmentum" />
+</token>
+<token canonical="MAJOR DOPAMINE PATHWAYS" ref_id="region:MAJOR DOPAMINE PATHWAYS">
+  <variant base="Major Dopamine Pathways" />
+</token>
+<token canonical="PARATHYROID CHIEF CELL" ref_id="region:PARATHYROID CHIEF CELL">
+  <variant base="Parathyroid chief cell" />
+</token>
+<token canonical="BASE HEAD " ref_id="region:BASE HEAD ">
+  <variant base="base head " />
+</token>
+<token canonical="PARAMEDIAN PONTINE RETICULAR FORMATION" ref_id="region:PARAMEDIAN PONTINE RETICULAR FORMATION">
+  <variant base="paramedian pontine reticular formation" />
+</token>
+<token canonical="CONNECTIVE TISSUE MACROPHAGE" ref_id="region:CONNECTIVE TISSUE MACROPHAGE">
+  <variant base="Connective tissue macrophage" />
+</token>
+<token canonical="CILIATED EPENDYMAL CELL" ref_id="region:CILIATED EPENDYMAL CELL">
+  <variant base="Ciliated ependymal cell" />
+</token>
+<token canonical="AXON" ref_id="region:AXON">
+  <variant base="axon" />
+  <variant base="axons" />
+  <variant base="axonal" />
+  <variant base="axonic" />
+</token>
+<token canonical="PARACENTRAL NUCLEUS" ref_id="region:PARACENTRAL NUCLEUS">
+  <variant base="paracentral nucleus" />
+</token>
+<token canonical="GOLGI APPARATUS" ref_id="region:GOLGI APPARATUS">
+  <variant base="golgi apparatus" />
+  <variant base="golgi apparati" />
+  <variant base="golgi body" />
+  <variant base="golgi bodies" />
+  <variant base="golgi complex" />
+  <variant base="golgi complexes" />
+</token>
+<token canonical="CRANIAL NERVE," ref_id="region:CRANIAL NERVE,">
+  <variant base="Cranial nerve" />
+</token>
+<token canonical="PARASUBICULUM" ref_id="region:PARASUBICULUM">
+  <variant base="Parasubiculum" />
+</token>
+<token canonical="ODONTOBLAST" ref_id="region:ODONTOBLAST">
+  <variant base="Odontoblast" />
+</token>
+<token canonical="NUCLEUS" ref_id="region:NUCLEUS">
+  <variant base="nucleus" />
+  <variant base="nuclei" />
+  <variant base="nucleic" />
+</token>
+<token canonical="NIGROSTRIATAL PATHWAY" ref_id="region:NIGROSTRIATAL PATHWAY">
+  <variant base="nigrostriatal pathway" />
+</token>
+<token canonical="BASKET CELL" ref_id="region:BASKET CELL">
+  <variant base="basket cells" />
+  <variant base="BC" />
+  <variant base="basket cell" />
+</token>
+<token canonical="AGRANULAR INSULAR CORTEX VENTRAL PART" ref_id="region:AGRANULAR INSULAR CORTEX VENTRAL PART">
+  <variant base="Agranular insular cortex ventral part" />
+</token>
+<token canonical="LATERAL NUCLEAR GROUP" ref_id="region:LATERAL NUCLEAR GROUP">
+  <variant base="lateral nuclear group" />
+</token>
+<token canonical="GLOBUS PALLIDUS" ref_id="region:GLOBUS PALLIDUS">
+  <variant base="globus pallidus" />
+</token>
+<token canonical="GLAND CELL" ref_id="region:GLAND CELL">
+  <variant base="gland cell" />
+</token>
+<token canonical="METABOLISM AND STORAGE CELL" ref_id="region:METABOLISM AND STORAGE CELL">
+  <variant base="Metabolism and storage cell" />
+</token>
+<token canonical="LATERAL ORBITAL CORTEX" ref_id="region:LATERAL ORBITAL CORTEX">
+  <variant base="Lateral orbital cortex" />
+</token>
+<token canonical="CUNEUS" ref_id="region:CUNEUS">
+  <variant base="Cuneus" />
+</token>
+<token canonical="LEYDIG CELL" ref_id="region:LEYDIG CELL">
+  <variant base="Leydig cell" />
+</token>
+<token canonical="ANTERIOR HORN CELL" ref_id="region:ANTERIOR HORN CELL">
+  <variant base="anterior horn cell" />
+  <variant base="anterior horn cells" />
+</token>
+<token canonical="ORGANELLE" ref_id="region:ORGANELLE">
+  <variant base="organelle" />
+  <variant base="organelles" />
+  <variant base="organellar" />
+</token>
+<token canonical="FACIAL NERVE " ref_id="region:FACIAL NERVE ">
+  <variant base="Facial nerve " />
+</token>
+<token canonical="MEDULLARY PYRAMIDS" ref_id="region:MEDULLARY PYRAMIDS">
+  <variant base="medullary pyramids" />
+</token>
+<token canonical="TUBER CINEREUM" ref_id="region:TUBER CINEREUM">
+  <variant base="tuber cinereum" />
+</token>
+<token canonical="SUBFORNICAL ORGAN" ref_id="region:SUBFORNICAL ORGAN">
+  <variant base="subfornical organ" />
+</token>
+<token canonical="PLASMA MEMBRANE" ref_id="region:PLASMA MEMBRANE">
+  <variant base="plasma membrane" />
+  <variant base="plasma membranes" />
+  <variant base="plasma membranal" />
+  <variant base="plasma membralic" />
+</token>
+<token canonical="CEREBELLUM" ref_id="region:CEREBELLUM">
+  <variant base="cerebellum" />
+  <variant base="cerebellum" />
+</token>
+<token canonical="OOCYTE" ref_id="region:OOCYTE">
+  <variant base="Oocyte" />
+</token>
+<token canonical="PRIMARY SENSORY NEURON" ref_id="region:PRIMARY SENSORY NEURON">
+  <variant base="primary sensory neuron" />
+</token>
+<token canonical="GLOBOSE NUCLEUS" ref_id="region:GLOBOSE NUCLEUS">
+  <variant base="globose nucleus" />
+</token>
+<token canonical="ACCESSORY NERVE" ref_id="region:ACCESSORY NERVE">
+  <variant base="Accessory nerve" />
+</token>
+<token canonical="BIPOLAR CELL" ref_id="region:BIPOLAR CELL">
+  <variant base="BPC" />
+  <variant base="Bipolar Cell" />
+  <variant base="Bipolar Cells" />
+</token>
+<token canonical="PYRAMIDAL TRACT" ref_id="region:PYRAMIDAL TRACT">
+  <variant base="pyramidal tract" />
+</token>
+<token canonical="MEDIAL DORSAL NUCLEUS" ref_id="region:MEDIAL DORSAL NUCLEUS">
+  <variant base="medial dorsal nucleus" />
+</token>
+<token canonical="MESENCEPHALON" ref_id="region:MESENCEPHALON">
+  <variant base="Mesencephalon" />
+</token>
+<token canonical="SECONDARY SOMATOSENSORY CORTEX" ref_id="region:SECONDARY SOMATOSENSORY CORTEX">
+  <variant base="Secondary somatosensory cortex" />
+</token>
+<token canonical="BARTHOLIN'S GLAND CELL" ref_id="region:BARTHOLIN'S GLAND CELL">
+  <variant base="Bartholin's gland cell" />
+</token>
+<token canonical="DORSOLATERAL ORBITAL CORTEX" ref_id="region:DORSOLATERAL ORBITAL CORTEX">
+  <variant base="dorsolateral orbital cortex" />
+</token>
+<token canonical="MEDULLA OBLONGATA" ref_id="region:MEDULLA OBLONGATA">
+  <variant base="medulla oblongata" />
+</token>
+<token canonical="SPINY STALETTE CELL" ref_id="region:SPINY STALETTE CELL">
+  <variant base="spiny stalette cell" />
+  <variant base="SSC" />
+  <variant base="spiny stalette cells" />
+</token>
+<token canonical="ADIPOCYTE" ref_id="region:ADIPOCYTE">
+  <variant base="Adipocyte" />
+</token>
+<token canonical="APICAL PROXIMAL DENDRITE" ref_id="region:APICAL PROXIMAL DENDRITE">
+  <variant base="apical proximal dendrite" />
+</token>
+<token canonical="PART OF SUPRAOPTIC NUCLEUS" ref_id="region:PART OF SUPRAOPTIC NUCLEUS">
+  <variant base="Part of supraoptic nucleus" />
+</token>
+<token canonical="SUBTHALAMIC NUCLEUS" ref_id="region:SUBTHALAMIC NUCLEUS">
+  <variant base="Subthalamic nucleus" />
+</token>
+<token canonical="METATHALAMUS" ref_id="region:METATHALAMUS">
+  <variant base="metathalamus" />
+</token>
+<token canonical="PRIMARY SOMATOSENSORY CORTEX JAW REGION ORAL SURFACE" ref_id="region:PRIMARY SOMATOSENSORY CORTEX JAW REGION ORAL SURFACE">
+  <variant base="Primary somatosensory cortex jaw region oral surface" />
+</token>
+<token canonical="POST SYNAPTIC DENSITY VOLUME" ref_id="region:POST SYNAPTIC DENSITY VOLUME">
+  <variant base="post synapstic density volume" />
+</token>
+<token canonical="CHLOROPLAST" ref_id="region:CHLOROPLAST">
+  <variant base="chloroplast" />
+  <variant base="chloroplasts" />
+  <variant base="chloroplastic" />
+  <variant base="chloroplastal" />
+</token>
+<token canonical="OXYPHIL CELL" ref_id="region:OXYPHIL CELL">
+  <variant base="Oxyphil cell" />
+</token>
+<token canonical="MEDIAL NUCLEAR GROUP" ref_id="region:MEDIAL NUCLEAR GROUP">
+  <variant base="medial nuclear group" />
+</token>
+<token canonical="PRIMARY VISUAL CORTEX" ref_id="region:PRIMARY VISUAL CORTEX">
+  <variant base="primary visual cortex" />
+</token>
+<token canonical="ANTEROVENTRAL NUCLEUS" ref_id="region:ANTEROVENTRAL NUCLEUS">
+  <variant base="anteroventral nucleus" />
+</token>
+<token canonical="DOUBLE BOUQET CELL" ref_id="region:DOUBLE BOUQET CELL">
+  <variant base="Double Bouqet Cell" />
+  <variant base="Double Bouqet Cells" />
+  <variant base="DBC" />
+</token>
+<token canonical="INDUSIUM GRISEUM" ref_id="region:INDUSIUM GRISEUM">
+  <variant base="indusium griseum" />
+</token>
+<token canonical="MITOCHONDRION" ref_id="region:MITOCHONDRION">
+  <variant base="mitochondrion" />
+  <variant base="mitochondrions" />
+  <variant base="mitochondrial" />
+  <variant base="mitochondrial" />
+</token>
+<token canonical="THALAMIC NUCLEUS" ref_id="region:THALAMIC NUCLEUS">
+  <variant base="thalamic nucleus" />
+</token>
+<token canonical="INTERMEDIATE PITUITARY" ref_id="region:INTERMEDIATE PITUITARY">
+  <variant base="intermediate pituitary" />
+</token>
+<token canonical="CRANIAL NERVES" ref_id="region:CRANIAL NERVES">
+  <variant base="cranial nerves" />
+</token>
+<token canonical="GLAND OF LITTRE CELL" ref_id="region:GLAND OF LITTRE CELL">
+  <variant base="Gland of Littre cell" />
+</token>
+<token canonical="VENTRAL TEGMENTAL AREA" ref_id="region:VENTRAL TEGMENTAL AREA">
+  <variant base="ventral tegmental area" />
+</token>
+<token canonical="THYROID GLAND CELL" ref_id="region:THYROID GLAND CELL">
+  <variant base="Thyroid gland cell" />
+</token>
+<token canonical="LYSOSOME" ref_id="region:LYSOSOME">
+  <variant base="lysosome" />
+  <variant base="lysosomes" />
+  <variant base="lysosomal" />
+  <variant base="lysosomic" />
+</token>
+<token canonical="MARTINOTTI CELL" ref_id="region:MARTINOTTI CELL">
+  <variant base="Martinotti Cell" />
+  <variant base="MC" />
+  <variant base="Martinotti Cells" />
+</token>
+<token canonical="THECA INTERNA CELL" ref_id="region:THECA INTERNA CELL">
+  <variant base="Theca interna cell" />
+</token>
+<token canonical="SECONDARY VISUAL CORTEX MEDIOMEDIAL AREA" ref_id="region:SECONDARY VISUAL CORTEX MEDIOMEDIAL AREA">
+  <variant base="secondary visual cortex mediomedial area" />
+</token>
+<token canonical="SALIVARY GLAND SEROUS CELL" ref_id="region:SALIVARY GLAND SEROUS CELL">
+  <variant base="Salivary gland serous cell" />
+</token>
+<token canonical="ARCUATE FASCICULUS" ref_id="region:ARCUATE FASCICULUS">
+  <variant base="Arcuate fasciculus" />
+  <variant base="arcuate fasciculus" />
+</token>
+<token canonical="PRIMARY VISUAL CORTEX MONOCULAR REGION" ref_id="region:PRIMARY VISUAL CORTEX MONOCULAR REGION">
+  <variant base="primary visual cortex monocular region" />
+</token>
+<token canonical="MAIN OLFACTORY SYSTEM" ref_id="region:MAIN OLFACTORY SYSTEM">
+  <variant base="Main Olfactory System" />
+</token>
+<token canonical="PALEOPALLIUM" ref_id="region:PALEOPALLIUM">
+  <variant base="paleopallium" />
+</token>
+<token canonical="CEREBELLAR HEMISPHERES" ref_id="region:CEREBELLAR HEMISPHERES">
+  <variant base="cerebellar hemispheres" />
+</token>
+<token canonical="RIBOSOME" ref_id="region:RIBOSOME">
+  <variant base="ribosome" />
+  <variant base="ribosomes" />
+  <variant base="ribosomal" />
+</token>
+<token canonical="WHITE SKELETAL MUSCLE CELL" ref_id="region:WHITE SKELETAL MUSCLE CELL">
+  <variant base="White skeletal muscle cell" />
+</token>
+<token canonical="PRIMARY VISUAL CORTEX BINOCULAR AREA" ref_id="region:PRIMARY VISUAL CORTEX BINOCULAR AREA">
+  <variant base="Primary visual cortex binocular area" />
+</token>
+<token canonical="PRINCIPAL CELL" ref_id="region:PRINCIPAL CELL">
+  <variant base="principal cell" />
+</token>
+<token canonical="OOGONIUM" ref_id="region:OOGONIUM">
+  <variant base="Oogonium" />
+</token>
+<token canonical="POSTERIOR LOBE" ref_id="region:POSTERIOR LOBE">
+  <variant base="posterior lobe" />
+</token>
+<token canonical="RED-SENSITIVE CONE CELL OF EYE" ref_id="region:RED-SENSITIVE CONE CELL OF EYE">
+  <variant base="red-sensitive cone cell of eye" />
+</token>
+<token canonical="PRIMARY SOMATOSENSORY CORTEXPOSTERIOR PARIETAL CORTEX" ref_id="region:PRIMARY SOMATOSENSORY CORTEXPOSTERIOR PARIETAL CORTEX">
+  <variant base="Primary somatosensory cortexPosterior parietal cortex" />
+</token>
+<token canonical="VENTRAL POSTERIOR NUCLEUS" ref_id="region:VENTRAL POSTERIOR NUCLEUS">
+  <variant base="ventral posterior nucleus" />
+</token>
+<token canonical="LATERAL TUBERAL NUCLEUS" ref_id="region:LATERAL TUBERAL NUCLEUS">
+  <variant base="Lateral tuberal nucleus" />
+</token>
+<token canonical="CENTRAL NUCLEUS " ref_id="region:CENTRAL NUCLEUS ">
+  <variant base="Central nucleus " />
+</token>
+<token canonical="MEDIAL PREOPTIC NUCLEUS" ref_id="region:MEDIAL PREOPTIC NUCLEUS">
+  <variant base="Medial preoptic nucleus" />
+</token>
+<token canonical="MONOCYTE" ref_id="region:MONOCYTE">
+  <variant base="Monocyte" />
+</token>
+<token canonical="ERYTHROCYTE" ref_id="region:ERYTHROCYTE">
+  <variant base="Erythrocyte" />
+</token>
+<token canonical="BASAL CELL" ref_id="region:BASAL CELL">
+  <variant base="basal cell" />
+  <variant base="Basal cell" />
+</token>
+<token canonical="METENCEPHALON" ref_id="region:METENCEPHALON">
+  <variant base="Metencephalon" />
+</token>
+<token canonical="POST SYNAPTIC DENSITY" ref_id="region:POST SYNAPTIC DENSITY">
+  <variant base="PSD" />
+  <variant base="post synaptic density" />
+  <variant base="post synaptic-density" />
+</token>
+<token canonical="LAYER" ref_id="region:LAYER">
+  <variant base="layer" />
+  <variant base="layers" />
+</token>
+<token canonical="MYOCARDIAL CELL" ref_id="region:MYOCARDIAL CELL">
+  <variant base="myocardial cells" />
+</token>
+<token canonical="OCULOMOTOR NERVE" ref_id="region:OCULOMOTOR NERVE">
+  <variant base="Oculomotor nerve" />
+</token>
+<token canonical="VENTRAL POSTERIOR MEDIAL NUCLEUS" ref_id="region:VENTRAL POSTERIOR MEDIAL NUCLEUS">
+  <variant base="Ventral posterior medial nucleus" />
+</token>
+<token canonical="NUCLEUS FACIAL NERVE NUCLEUS" ref_id="region:NUCLEUS FACIAL NERVE NUCLEUS">
+  <variant base="Nucleus Facial Nerve Nucleus" />
+</token>
+<token canonical="POSTERIOR NUCLEUS" ref_id="region:POSTERIOR NUCLEUS">
+  <variant base="Posterior nucleus" />
+</token>
+<token canonical="KIDNEY GLOMERULUS PODOCYTE" ref_id="region:KIDNEY GLOMERULUS PODOCYTE">
+  <variant base="Kidney glomerulus podocyte" />
+</token>
+<token canonical="EPENDYMAL CELL" ref_id="region:EPENDYMAL CELL">
+  <variant base="Ependymal cell" />
+  <variant base="ependymal cells" />
+</token>
+<token canonical="ENDOTHELIAL SPLENIC CELL" ref_id="region:ENDOTHELIAL SPLENIC CELL">
+  <variant base="endothelial splenic cell" />
+</token>
+<token canonical="AMELOBLAST EPITHELIAL CELL" ref_id="region:AMELOBLAST EPITHELIAL CELL">
+  <variant base="Ameloblast epithelial cell" />
+</token>
+<token canonical="CHROMAFFIN CELL" ref_id="region:CHROMAFFIN CELL">
+  <variant base="chromaffin cell" />
+</token>
+</synonym>

@@ -1,0 +1,40 @@
+#
+# evaluates quality of filtering 
+# with all NERs and full preprocessing
+
+cr: SingleFileReader
+ #inputFile: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/crawled_bams_pdfs/10842230.pdf
+ inputFile: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/crawled_bams_pdfs/11069955.pdf
+
+ae: ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator
+
+
+#cr: SingleAbstractReader
+
+#cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+# inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/crawled_bams_pdfs
+# inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/
+# isRecursive__java: true
+ 
+#cr: FromFilelistReader
+# inputFile: /nfs4/bbp.epfl.ch/user/richarde/dev/bluebrain/release_20130704/pipelines/projects/extract_brainregions/20130703_extract_BAMS/filelist/$1
+# format__java: true
+#ae: ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator
+
+
+# PREPROCESSING & NERS
+include: ../20130327_preprocess_ft/20130327_preprocess_ft.include
+
+
+include: ../../../includes/filtering.incl
+
+
+
+# OUTPUT in LDA-C format
+ae: ch.epfl.bbp.uima.ae.output.LdaCWriter
+ outputFile: target/bams.lda-c
+ vocabularyOutputFile: target/bams.lda-c.vocab
+
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

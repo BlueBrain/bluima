@@ -1,0 +1,5 @@
+There are many approaches to deconvolving microscope imagery, but all re-quire knowledge of the PSF. One method
+is to use a theoretical PSF based upon a
+computational model of the optical system used to obtain the image. This as-sumes that the microscope is operating
+optimally and that the specimen is ideally mounted. To more accurately characterize the performance of the microscope, it is typical to use a measured PSF,
+whereby a fluorescent bead smaller

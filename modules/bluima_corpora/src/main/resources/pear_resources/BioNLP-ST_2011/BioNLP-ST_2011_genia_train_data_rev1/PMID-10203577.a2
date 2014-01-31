@@ -1,0 +1,35 @@
+*	Equiv T1 T2
+*	Equiv T9 T8
+*	Equiv T6 T5
+*	Equiv T10 T11
+T18	Gene_expression 388 398	expression
+T19	Gene_expression 1080 1090	expression
+T20	Positive_regulation 1269 1279	activation
+T21	Positive_regulation 1930 1937	induced
+T22	Gene_expression 1938 1948	expression
+T23	Positive_regulation 2034 2041	induced
+T24	Gene_expression 2048 2058	expression
+T25	Positive_regulation 2090 2099	induction
+T26	Positive_regulation 2364 2370	induce
+T27	Positive_regulation 2676 2683	inducer
+T28	Gene_expression 2693 2703	expression
+T29	Negative_regulation 2788 2803	down-regulation
+T30	Gene_expression 2813 2823	expression
+E1	Gene_expression:T18 Theme:T4
+E2	Gene_expression:T19 Theme:T7
+E3	Gene_expression:T19 Theme:T6
+E4	Positive_regulation:T20 Theme:T9
+E5	Positive_regulation:T21 Theme:E6
+E6	Gene_expression:T22 Theme:T12
+E7	Positive_regulation:T23 Theme:E8
+E8	Gene_expression:T24 Theme:T13
+E9	Positive_regulation:T25 Theme:T14
+E10	Positive_regulation:T26 Theme:T15
+E11	Positive_regulation:T27 Theme:E12
+E12	Gene_expression:T28 Theme:T16
+E13	Negative_regulation:T29 Theme:E14
+E14	Gene_expression:T30 Theme:T17
+M1	Speculation E2
+M2	Speculation E3
+M3	Speculation E4
+M4	Negation E7

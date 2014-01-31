@@ -1,0 +1,12 @@
+T6	Negative_regulation 16 44	dominant negative regulation
+T7	Gene_expression 58 68	expression
+T8	Negative_regulation 132 156	transcriptional blockade
+T9	Positive_regulation 1438 1443	exert
+T10	Negative_regulation 1457 1492	dominant negative regulatory effect
+T11	Positive_regulation 1500 1516	trans-activation
+E1	Negative_regulation:T6 Theme:E2
+E2	Gene_expression:T7 Theme:T1
+E3	Negative_regulation:T8 Theme:T2
+E4	Positive_regulation:T9 Theme:E5
+E5	Negative_regulation:T10 Theme:E6
+E6	Positive_regulation:T11 Theme:T5

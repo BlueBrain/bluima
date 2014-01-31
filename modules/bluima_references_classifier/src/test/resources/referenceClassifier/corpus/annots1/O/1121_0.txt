@@ -1,0 +1,14 @@
+5.3 Evaluation At Scale
+Section 5.1 shows that REVERB outperforms ex-isting Open IE systems when evaluated on a sample of sentences. Previous work has shown that
+the frequency of an extraction in a large corpus is
+useful for assessing the correctness of extractions
+(Downey et al., 2005). Thus, it is possible a priori that REVERB's gains over previous systems will
+diminish when extraction frequency is taken into ac-count.
+In fact, we found that REVERB's advantage over
+TEXTRUNNER when run at scale is qualitatively
+similar to its advantage on single sentences. We ran
+both REVERB and TEXTRUNNER on Banko and Et-zioni's corpus of 500 million Web sentences and ex-amined the effect of redundancy on precision.
+As Downey's work predicts, precision increased
+in both systems for extractions found multiple
+times, compared with extractions found only once.
+However, REVERB had higher precision than

@@ -1,0 +1,4 @@
+T22	Gene_expression 183 193	expression
+T23	Gene_expression 2980 2990	expression
+E1	Gene_expression:T22 Theme:T3
+E2	Gene_expression:T23 Theme:T21

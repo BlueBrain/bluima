@@ -1,0 +1,81 @@
+##############################################################################
+#
+# extract Brain Region co-occurrences,
+# using ABA-SYN
+# using simple co-occurrence and nearest-neighbour
+#
+# $1 base output,
+#   e.g. target, or /nfs4/bbp.epfl.ch/simulation/nlp/data/2013...
+# $2 %(job_name)s job id (for input and output files)
+#   e.g. 1 or 34
+#
+##############################################################################
+
+
+
+
+
+
+#TODO
+#ae: AbbreviationsAnnotator
+#ae: AbbreviationsExpanderAnnotator
+
+
+ae: AnnotationInstanceHistogramAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ annotationField: entityId
+
+#################################################################
+# NearestNeighbors ##############################################
+#################################################################
+# CO-OCCURRENCE: SAME, NEAREST_NEIGHBOUR!
+ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
+ annot1: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ annot2: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ annot1IdField: entityId
+ annot2IdField: entityId
+ cooccurrenceType: br-aba-syn
+ keepOnlyNearestNeighbors__java: true
+
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
+ maximumEnclosingScopeLength__java: 1000
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesIfTooManyEntities
+ maximumEntities__java: 8
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesByStopwords
+
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile2
+ outputFile: $1/$2_br-aba-syn_cooc_nearestn.txt
+ cooccurrenceType: br-aba-syn
+
+
+#################################################################
+# JSRE ##########################################################
+#################################################################
+
+ae: RemoveAnnotationsAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.Cooccurrence
+
+# CO-OCCURRENCE: SAME ###########################################
+ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
+ annot1: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ annot2: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ annot1IdField: entityId
+ annot2IdField: entityId
+ cooccurrenceType: br-aba-syn-jsre
+
+# PRE_FILTERING #################################################
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
+ maximumEnclosingScopeLength__java: 1000
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesIfTooManyEntities
+ maximumEntities__java: 10
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesByStopwords
+
+# JSRE FILTERING ################################################
+ae: ch.epfl.bbp.uima.jsre.JsreFilterAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile2
+ outputFile: $1/$2_br-aba-syn_cooc_jsre.txt
+ cooccurrenceType: br-aba-syn-jsre

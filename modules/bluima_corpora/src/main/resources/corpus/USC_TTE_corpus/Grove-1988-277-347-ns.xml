@@ -1,0 +1,2989 @@
+<?xml version='1.0'?>
+<!DOCTYPE File PUBLIC "NeuroScholar.DTD" "NeuroScholar.DTD">
+<?xml-stylesheet type="text/css" href="NeuroScholar.css"?>
+<File>
+
+  <Title>Efferent Connections of the Substantia Innominata in the 
+  Rat</Title>
+
+  <Authors>ELIZABETH A. GROVE</Authors>
+
+  <Abstract>
+
+    <S avgH="22" class="abstract.heading" format="TimesNewRomanPSMT"
+     id="s0">ABSTRACT</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s1">The efferent connections of the substantia innominata (SI) 
+    were investigated employing the anterograde axonal transport of 
+    Phaseolus vulgaris leucoagglutinin (PHA-L) and the retrograde 
+    transport of wheat germ agglutinin conjugated to horseradish 
+    peroxidase (WGA-HRP).</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s2">The projections of the SI largely reciprocate the afferent 
+    connections described by Grove (J Comp.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s3">NeuroL 277:315-346, &apos;88) and thus further distinguish 
+    a dorsal and a ventral division in the SI.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s4">Efferents from both the dorsal and ventral divisions of 
+    the SI descend as far caudal as the ventral tegmental area, 
+    substantia nigra, and peripeduncular area, but projections to 
+    pontine and medullary structures appear to originate mainly from 
+    the dorsal SI.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s5">Within the amygdala and hypothalamus, which receive 
+    widespread innervation from the SI, the dorsal SI projects 
+    preferentially to the lateral part of the bed nucleus of the stria 
+    terminalis; the lateral, basolateral, and central nuclei of the 
+    amygdala; the lateral preoptic area; paraventricular nucleus of the 
+    hypothalamus; and certain parts of the lateral hypothalamus, 
+    prominently including the perifornical and caudolateral zones 
+    described previously.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s6">The ventral SI projects more heavily to the medial part of 
+    the bed nucleus of the stria terminalis; the anterior amygdaloid 
+    area; a ventromedial amygdaloid region that includes but is not 
+    limited to the medial nucleus; the lateral and medial preoptic 
+    areas; and the anterior hypothalamus.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s7">Modest projections reach the lateral hypothalamus, with at 
+    least a slight preference for the medial part of the region, and 
+    the ventromedial and arcuate hypothalamic nuclei.</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s8">Both SI divisions appear to innervate the dorsomedial and 
+    posterior hypothalamus and the supramammillary region.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s9">In the thalamus, the subparafascicular, gustatory, and 
+    midline nuclei receive a light innervation from the SI, which 
+    projects more densely to the medial part of the mediodorsal nucleus 
+    and the reticular nucleus.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s10">Cortical efferents from at least the midrostrocaudal part 
+    of the SI are distributed primarily in piriform, infralimbic, 
+    prelimbic, anterior cingulate, granular and agranular insular, 
+    perirhinal, and entorhinal cortices as well as in the main and 
+    accessory olfactory bulbs.</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s11">The cells of origin for many projections arising from the 
+    SI were identified as cholinergic or noncholinergic by combining 
+    the retrograde transport of WGA-HRP with histochemical and 
+    immunohistochemical procedures to demonstrate acetylcholinesterase 
+    activity or choline acetyltransferase immunoreactivity.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s12">Most of the descending efferents of the SI appear to 
+    arise primarily or exclusively from noncholinergic cells.</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s13">Overall, the subcortical projections of the dorsal 
+    division of the SI were found to be strikingly reminiscent of those 
+    reported previously for two adjoining structures: the lateral part 
+    of the bed nucleus of the stria terminalis and the central nucleus 
+    of the amygdala.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s14">A second tissue continuum with common subcortical 
+    efferents appears to be formed by the medial part of the bed 
+    nucleus, ventral SI, and the rostra1 parts of both the medial 
+    nucleus of the amygdala and an amygdaloid region that lies ventral 
+    to the central nucleus and dorsal to the cortical nuclei (Krettek 
+    and Price: J.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s15">Comp.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s16">Neurol. 178:225-254, &apos;78; Price and Amaral: J.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s17">Neurosci. 1:1242-1359, &apos;81; Holstege et al.: Exp.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s18">Brain Res. 58:379-391, &apos;85; Grove: J.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s19">Comp.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s20">Neurol. 277:315-346, &apos;88).</S>
+    <BR />
+
+  </Abstract>
+
+  <Introduction>
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s21">The substantia innominata (SI) is an amorphous region of 
+    the mammalian basal forebrain that stretches along the ventral 
+    aspect of the corpus striatum.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s22">An extension of the globus pallidus (GP), the ventral 
+    pallidum (VP) of Heirner and Wilson (&apos;754 has been shown to 
+    occupy roughly the rostra1 third of the region as historically 
+    defined (Heimer and Wilson, &apos;75; Switzer et al., &apos;82; 
+    Haber and Nauta, &apos;83), and the term &quot;substantia 
+    innominata&quot; is now generally reserved for the area caudal to 
+    the VP (Paxinos and Watson, &apos;82, &apos;86).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s23">The connectivity of this comparatively poorly 
+    characterized basal forebrain district is the subject of the 
+    present pair of companion studies.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s24">The first of these two studies showed that the afferent 
+    connections of the SI strongly resemble those of the amygdala and 
+    that innervation is provided by widespread cell groups in many of 
+    the main subdivisions of the brain (Grove, &apos;88).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s25">Further, the distribution of fibers afferent to the SI 
+    (de Olmos, &apos;72; de Olmos et al., &apos;85; Grove, &apos;88) 
+    and of certain neurochemical and histochemical markers (de Olmos, 
+    &apos;72; de Olmos et al., &apos;85; Lind et al., &apos;85; Grove, 
+    &apos;88) indicates that the SI, which appears uniform in material 
+    stained to reveal Nissl substance or myelin, is in fact organized 
+    into a dorsal and a ventral division.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s26">To date, the efferent connections of the SI have not been 
+    examined in a single comprehensive study, nor have previous 
+    investigations noted whether projections with different targets 
+    arise from different subregions within the SI.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s27">Of the known projections of the SI, those to the amygdala 
+    and cerebral cortex, originating from both cholinergic and 
+    noncholinergic neurons, have received the greatest recent attention 
+    (Lehmann et al., &apos;80; Big1 et al., &apos;82; Woolf and 
+    Butcher, &apos;82; Grove et al., &apos;83; McKinney et al., 
+    &apos;83; Mesulam et al., &apos;83a,b; Rye et al., &apos;84b; 
+    Saper, &apos;84; Carlsen et al., &apos;85; Luiten et al., &apos;85, 
+    &apos;87; Fisher et al., &apos;86; Woolf et al., &apos;86).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s28">Subcortical projections from the SI have been suggested 
+    in retrograde tracing studies of the afferent connections of 
+    several structures. including the thalamus (Young et al., &apos;84; 
+    Levey et al., &apos;87; Russchen et al., &apos;871, ventra&apos;i 
+    tegmental area Phillipson, &apos;79), and dorsomedial medulla 
+    (Schwaber et al., &apos;82).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s29">Finally, efferents from the VP and adjacent SI to the 
+    hypothalamus, midbrain, and pons have been identified with both 
+    electrophysiological and anterograde tracing techniques (Swanson et 
+    al., &apos;84; Haber et al., &apos;85; Mogenson et al., 
+    &apos;85).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s30">Because much information regarding the efferent 
+    connections of the SI is still lacking, it is unclear how, or 
+    whether, the well-known cholinergic and noncholinergic projections 
+    from the SI to the cortex and amygdala are integrated into a more 
+    comprehensive set of the region&apos;s efferent connections.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s31">Indeed, it might be suggested that the cholinergic cells 
+    in the SI represent an invading cell population, also distributed 
+    in the GP, nucleus of the diagonal band, and medial septum, a 
+    population whose connections could be unrelated to those of the SI 
+    as a whole.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s32">However, some evidence suggests that the cholinergic cell 
+    group may participate in the afferent circuitry of other neurons in 
+    the SI (for review see Grove, &apos;88).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s33">Thus, the direct and indirect involvement of this cell 
+    group in the other efferent connections of the SI is worth further 
+    investigation.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s34">In the present study, both the cortical and subcortical 
+    projections of the SI were investigated, employing the anterograde 
+    axonal transport of PHA-L (Gerfen and Sawchenko, &apos;84) and the 
+    retrograde transport of WGA-HRP.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s35">The cells of origin for many projections arising from the 
+    SI were further identified as cholinergic or noncholinergic by 
+    combining the retrograde transport of WGA-HRP with histochemical 
+    and immunohistochemical procedures to locate acetylcholinesterase 
+    activity or choline acetyltransferase immunoreactivity.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s36">Findings from the present study suggested three main 
+    generalizations.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s37">First, the projections of the SI generally reciprocate 
+    the afferent connections described by Grove (&apos;88).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s38">As a consequence, a dorsal and a ventral division can be 
+    distinguished within the SI on the basis of both afferent and 
+    efferent connections.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s39">Second, the efferent projections of the SI, like its 
+    afferent connections, strongly resemble those of neighboring 
+    components of the amygdala.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s40">This similarity embraces not only efferents to caudal 
+    brainstem sites as previously reported (Schwaber et al., &apos;82; 
+    Holstege et al., &apos;85) but appears to incorporate virtually the 
+    entire set of SI projections.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s41">Third, cholinergic cells in the SI do not seem to 
+    contribute significantly to most of the descending efferents of the 
+    region.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s42">Nonetheless, several observations indicate that the 
+    cholinergic cell group in the SI may play an integral part in the 
+    overall efferent circuitry of the region rather than maintaining a 
+    wholly distinct set of projections.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s43">For example, findings described below suggest that 
+    several noncholinergic projections from the SI lead indirectly over 
+    their subcortical targets to the cortex.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s44">If so, the region&apos;s cholinergic corticopetal 
+    efferents may be viewed as part of a set of direct and indirect 
+    pathways leading - to the cortical mantle.</S>
+  </Introduction>
+
+  <Methods>
+
+    <S avgH="26" class="methods.heading" format="TimesNewRomanPS-BoldMT"
+     id="s45">MATERIALS AND METHODS</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s46">For all experiments in the present study, adult female 
+    albino rats (CD strain) were obtained from Charles River 
+    Laboratories.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s47">During surgical procedures and before transcardial 
+    perfusion of fixatives the animals were deeply anesthetized with 
+    Chloropent, a veterinary anesthetic containing chloral hydrate and 
+    pentobarbital (obtained previously from Ft.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s48">Dodge Labs, but no longer available from this source).</S>
+    <BR />
+
+    <S avgH="25" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s49">Anterograde tracing 
+    experiments</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s50">In nine rats, PHA-L deposits were placed either in the 91 
+    or in the nucleus of the horizontal limb of the diagonal band 
+    (NHDB) (cases RPSI1-3 and RPDB1-6).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s51">Additionally available for comparison were eight cases 
+    described in a previous report (Grove, &apos;88) in which PHA-L 
+    deposits had been made adjacent to the SI in the bed nucleus of the 
+    stria terminalis (cases RPBNS2, RPGP4) and amygdala (cases RPAA1, 
+    RPAB1, RPACE8, RPBLS, RPBM1, RPBM3) (Grove, &apos;88, Figs. 8, 
+    9).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s52">PHA-L, obtained from Vector Labs, was reconstituted and 
+    injected into the brain as previously described (Grove, 
+    &apos;88).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s53">After 4-8 days, the rats were perfused transcardially 
+    with 50 ml of saline, followed by fixative (up to 500 ml in 15-20 
+    minutes) consisting of 2% paraformaldehyde and 0.1% glutaraldehyde 
+    in 0.1 M phosphate buffer, pH 7.4.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s54">The brains were stored in phosphate buffer, and sectioned 
+    at 50 pm into six series with an Oxford Vibratome.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s55">PHA-L was then localized in two series of sections from 
+    each brain with a peroxidase-antiperoxidase (PAP) procedure (Grove, 
+    &apos;88).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s56">One of the two series stained for PHA-L was 
+    counterstained with Cresyl Violet.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s57">A third series from each brain was processed to reveal 
+    both PHA-L and choline acetyltransferase (ChAT) in the same 
+    sections, and a fourth was processed to locate met-enkephalin 
+    immunoreactivity (ENK-IR) (see Grove, &apos;88).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s58">Rabbit anti-ENK antiserum was donated by Dr.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s59">R.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s60">Elde.</S>
+    <BR />
+
+    <S avgH="25" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s61">Retrograde tracing 
+    experiments</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s62">In a total of 30 animals, injections of wheat germ 
+    agglutinin conjugated to horseradish peroxidase (WGA-HRP) were 
+    centered in the nucleus accumbens, amygdala, lateral hypothalamus, 
+    mediodorsal nucleus of the thalamus, habenular nucleus, substantia 
+    nigra, ventral tegmental area, peripeduncular area, dorsal raphe, 
+    parabrachial nucleus, dorsomedial medulla, or neocortex.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s63">Several of these injection sites are illustrated in 
+    Figure 7.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s64">WGA-HRP (Sigma) was prepared and injected into the brain 
+    as described previously (Grove, &apos;88).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s65">Twenty-four to 72 hours after surgery the animals were 
+    perfused transcardially with 50 ml saline, followed by 500 ml of 2% 
+    paraformaldehyde and 0.1% glutaraldehyde in 0.1 M phosphate buffer, 
+    pH 7.4, and a final rinse of 100 ml3% sucrose in the same 
+    buffer.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s66">After rinsing overnight in a 30% sucrose solution made up 
+    in phosphate buffer, the brains were cut on a freezing microtome 
+    into six series of 50-pm-thick transverse sections.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s67">Two standard procedures were employed to demonstrate HRP 
+    with tetramethylbemidine (TMB) as the chromagen (Mesulam, &apos;78; 
+    de Olmos et al., &apos;78).</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s68">At least two of the six series of sections from each 
+    brain were processed to locate both WGA-HRP and a cholinergic 
+    marker: acetylcholinesterase (AChE) activity in one series and 
+    choline acetyltransferase (ChAT) immunoreactivity in the other.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s69">Intense AChE reactivity seen after pretreating animals 
+    with diisopropylfluorophosphate (DFP) is considered a reliable 
+    marker of cholinergic neurons in the GP, SI, and diagonal 
+    band-medial septum continuum (Levey et al., &apos;83; Eckenstein 
+    and Sofroniew, &apos;83).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s70">Accordingly, 4-6 hours before perfusion, the rats were 
+    injected intramuscularly with DFP (1 mgkg) (Calbiochem) dissolved 
+    in peanut oil.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s71">Sections to be double-labelled were processed to locate 
+    WGA-HRP with the TMB technique of de Olmos et al. (&apos;781, and 
+    the TMB reaction product was stabilized to prevent fading (Rye et 
+    al., &apos;84a).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s72">Next, tissue sections were treated to reveal either AChE 
+    activity (Geneser-Jensen and Blackstad, &apos;71) or ChAT 
+    immunoreactivity (following the same PAP procedure described by 
+    Grove, &apos;88).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s73">From each brain, control sections were prepared to 
+    demonstrate AChE activity or ChAT immunoreactivity alone.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s74">Tissue sections processed only for WGA-HRP were 
+    counterstained with Neutral Red.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s75">Two additional, unoperated rats were perfused 
+    transcardially, following the fixation procedure described by 
+    Baughman, Eckenstein, and their colleagues (see Graybiel et al., 
+    &apos;86) to optimize staining for ChAT-IR fibers and their 
+    terminals within the basal forebrain.</S>
+  </Methods>
+
+  <Results>
+
+    <S avgH="27" class="results.heading" format="TimesNewRomanPS-BoldMT"
+     id="s76">RESULTS</S>
+    <BR />
+
+    <S avgH="25" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s77">Cortical and subcortical 
+    projections of the substantia innominata</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s78">Case RPSI3.</S>
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s79">In case RPSI3, <exptLabel>a <tracerChemical>PHA - 
+      L</tracerChemical> deposit was centered in <injectionLocation>the 
+      dorsal SI</injectionLocation></exptLabel> but intruded into 
+      <injectionSpread>the ventral division</injectionSpread> as well ( 
+      Fig .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s80">I).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s81">The injection site did not spread into 
+      <injectionSpread yesNo="0">the amygdala</injectionSpread> , which 
+      is laterally contiguous with the SI .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s82">About half of the <tracerChemical>PHA - 
+      L</tracerChemical> deposit lay in <injectionLocation>the most 
+      dorsal part of the SI</injectionLocation> , which , like the 
+      overlying GP , is marked by the presence of an enkephalin 
+      immunoreactive &quot; woolly fiber &quot; plexus ( Grove , &apos; 
+      88 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s83">However , PHA - L did not appear to have been taken up 
+      by cells lying dorsal to the SI in <injectionSpread yesNo="0">the 
+      GP</injectionSpread> itself or by neurons in 
+      <injectionSpread yesNo="0">the VP</injectionSpread> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s84">Criteria used to delineate <neuroanatomicalLocation>the 
+      SI</neuroanatomicalLocation> from <neuroanatomicalLocation>the 
+      adjacent GP and VP</neuroanatomicalLocation> are discussed more 
+      fully in Grove ( &apos; 88 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s85">Briefly , <neuroanatomicalLocation>the border between 
+      the SI and GP</neuroanatomicalLocation> , marked by a dotted line 
+      in Figure 1, was drawn with reference to the dorsalmost extent of 
+      <labelingDescription>a dense band of ansa peduncularis 
+      fibers</labelingDescription>  , whose passage characterizes 
+      <neuroanatomicalLocation>the SI</neuroanatomicalLocation> ( Grove 
+      , &apos; 88 ) .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s86">Figure 1 illustrates the distribution of 
+      <labelingDescription>PHA - L - labelled 
+      fibers</labelingDescription> in this case .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s87"><labelingDescription>Labelled axons displaying en 
+      passant and terminal varicosities</labelingDescription> ( 
+      putative synaptic boutons ) were found in numerous structures 
+      whose common characteristic is their position along 
+      <labelingLocation>the course of the ansa peduncularis ( AP ) or 
+      medial forebrain bundle ( MFB )</labelingLocation> .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s88">To reach <labelingLocation>the 
+      cortex</labelingLocation> , <labelingDescription>labelled 
+      fibers</labelingDescription> followed the AP or traveled in 
+      <labelingLocation>the internal capsule</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s89">Most <labelingDescription>cortical fiber 
+      labelling</labelingDescription> was confined to areas surrounding 
+      or ventral to the rhinal sulcus : <labelingLocation>piriform 
+      cortex</labelingLocation> ( Fig . 1B - F ) , 
+      <labelingLocation>agranular and granular insular 
+      cortices</labelingLocation> ( divisions according to Paxinos and 
+      Watson , &apos; 86 ) ( Fig . 1A - C ) , and 
+      <labelingLocation>perirhinal and entorhinal 
+      cortex</labelingLocation> ( Fig . 1D - G ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s90">However , at levels rostral to the genu of the corpus 
+      callosum ( Fig . lA ) , <labelingDescription>PHA - L - filled 
+      varicose axons</labelingDescription> also appeared along the 
+      medial face of the hemisphere <labelingLocation>in prelimbic , 
+      infralimbic , and rostral cingulate cortex</labelingLocation> ( 
+      divisions according to Beckstead , &apos; 79 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s91">Farther rostrally still , such 
+      <labelingDescription>fibers</labelingDescription> extended into 
+      <labelingLocation>the olfactory bulb</labelingLocation> .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s92">In the amygdala , <labelingDescription>PHA - L - filled 
+      varicose axons</labelingDescription> spread out widely .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s93">From the injection site , <labelingDescription>labelled 
+      fibers</labelingDescription> <labelingModifier>streamed 
+      through</labelingModifier> <labelingLocation>the dorsal and 
+      ventral SI</labelingLocation> into <labelingLocation>the rostral 
+      portion of the central nucleus ( Ace ) and the anterior 
+      amygdaloid area</labelingLocation> , only 
+      <labelingModifier>avoiding</labelingModifier>  <labelingLocation>
+      the nucleus of the lateral olfactory tract</labelingLocation> ( 
+      NLOT ) ( Fig . 1C ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s94"><labelingDescription>Numerous labelled varicose 
+      axons</labelingDescription> appeared in <labelingLocation>the 
+      medial segment of the central nucleus</labelingLocation> and 
+      in<labelingLocation> a region ventral to Ace</labelingLocation> ( 
+      Fig . lD , E ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s95"><labelingDescription>Additional 
+      fibers</labelingDescription> 
+      <labelingModifier>crossed</labelingModifier> 
+      <labelingLocation>the lateral Ace</labelingLocation> , displaying 
+      <labelingDescription>few terminal 
+      varicosities</labelingDescription> , to reach <labelingLocation>
+      the basolateral nucleus ( ABL ) and lateral nucleus ( AL 
+      )</labelingLocation> , <labelingDescription>where moderate to 
+      dense terminal fields</labelingDescription> were apparent ( Fig . 
+      1D - F ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s96"><labelingLocation>The medial and cortical 
+      nuclei</labelingLocation> contained <labelingDescription>only 
+      sparse fiber labelling</labelingDescription> ( Fig . 1D - F ) 
+      .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s97">Rostromedially directed fibers spread into 
+      <labelingLocation>the bed nucleus of the stria terminalis ( BNS 
+      )</labelingLocation> , distributing almost entirely in its 
+      lateral sector ( divisions according to Paxinos and Watson , 
+      &apos; 82 ) ( Fig . 1B ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s98"><labelingDescription>A few axons</labelingDescription> 
+      reaching more laterally <labelingDescription>traversed and 
+      terminated</labelingDescription> within <labelingLocation>the 
+      ventral pallidum and ventralmost striatum</labelingLocation> or 
+      coursed in and around <labelingLocation>the nucleus of the 
+      horizontal limb of the diagonal band</labelingLocation> ( Fig 
+      .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s99">lB,C).</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s100">In <labelingLocation>the 
+      hypothalamus</labelingLocation> , fibers spread into 
+      <labelingLocation>the lateral preoptic area</labelingLocation> ( 
+      Fig . lB ) , <labelingLocation>anterior 
+      hypothalamus</labelingLocation> ( Fig . 1C , D ) , 
+      <labelingLocation>paraventricular nucleus</labelingLocation> ( 
+      Fig . lD ) , and <labelingLocation>lateral ( Fig . lC - F ) , 
+      dorsal , and posterior hypothalamus</labelingLocation> ( Fig . 1F 
+      ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s101">Although <labelingDescription>fiber 
+      labelling</labelingDescription> was widespread in 
+      <labelingLocation>the lateral hypothalamus</labelingLocation> , 
+      concentrations of <labelingDescription>PHA - L - filled varicose 
+      axons</labelingDescription> appeared in <labelingLocation>a 
+      perifornical zone of the lateral hypothalamus</labelingLocation> 
+      ( Fig . lE ) , largely lateral and dorsal to the fornix ; in 
+      <labelingLocation>a triangular , caudolateral zone adjacent to 
+      the subthalamic nucleus</labelingLocation> ( Fig . 1F ) ; and in 
+      <labelingLocation>a district ventral to the 
+      fornix</labelingLocation> ( Fig . lE , F ) .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s102">Some <labelingDescription>PHA - L - filled 
+      fibers</labelingDescription> followed the ansa peduncularis 
+      dorsally from the hypothalamus into thalamic structures close to 
+      the midline .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s103">Thus , at least <labelingDescription>sparse varicose 
+      fibers</labelingDescription> were labelled 
+      <labelingModifier>traversing</labelingModifier> 
+      <labelingLocation>the reuniens , rhomboid , and centromedial 
+      nuclei</labelingLocation> ( Fig . lD , E ) , and 
+      <labelingDescription>a denser terminal 
+      field</labelingDescription> was evident in <labelingLocation>the 
+      medial part of the mediodorsal nucleus</labelingLocation> ( Fig . 
+      1D ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s104">In <labelingDescription>the lateral habenula labelled 
+      fibers</labelingDescription> formed small puffs in both 
+      <labelingLocation>the lateral and medial parts of the 
+      nucleus</labelingLocation> ( Fig . 1F ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s105"><labelingDescription>Several 
+      axons</labelingDescription> were also labelled in 
+      <labelingLocation>a region transitional between the midline 
+      thalamus and the central gray of the midbrain</labelingLocation> 
+      ( Fig . 1F ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s106">Elsewhere in the thalamus , PHA - L - filled 
+      <labelingDescription>varicose axons</labelingDescription> 
+      appeared in <labelingLocation>the reticular 
+      nucleus</labelingLocation> ( Fig . 1C - E ) , in the region 
+      termed the gustatory nucleus by Paxinos and Watson ( 86 ) , and 
+      just ventral to that in what may be <labelingLocation>the rostra1 
+      tip of the parvocellular portion of the subparafascicular 
+      nucleus</labelingLocation> ( Grove , 88 ) ( Fig . 1F ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s107">(The structure labelled %pf in Fig. 1F is the 
+      magnocellular part of the same nucleus.)</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s108"><labelingDescription>A moderate number of both smooth 
+      and varicose PHA - Lfilled fibers</labelingDescription> could be 
+      traced along <labelingLocation>the bifurcating route of the 
+      medial forebrain bundle through the midbrain and 
+      pons</labelingLocation> , appearing in <labelingLocation>the 
+      ventral tegmental area , linear nucleus of the raphe , substantia 
+      nigra pars compacta , peripeduncular area ( Fig . lG ) , pontine 
+      tegmentum</labelingLocation>  ( including 
+      <labelingDescription>sparse varicose fiber 
+      labelling</labelingDescription> within <labelingLocation>
+      cholinergic cell group Ch5 of Mesulam and his colleagues , 83b ) 
+      , central gray , and dorsal raphe nucleus</labelingLocation> ( 
+      Fig . 1H ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s109">More caudally , <labelingDescription>PHA - L - filled 
+      varicose axons</labelingDescription> were evident in 
+      <labelingLocation>both the medial and lateral segments of the 
+      parabrachial nucleus</labelingLocation> and in <labelingLocation>
+      the locus coeruleus and subcoeruleus</labelingLocation> ( Fig . 
+      11 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s110">Perhaps because of a relatively short postinjection 
+      survival time , <labelingDescription>few labelled 
+      fibers</labelingDescription> could be followed caudal to the pons 
+      in this case : only <labelingDescription>one or two labelled 
+      fibers</labelingDescription> were seen in <labelingLocation>the 
+      region of the nucleus of the solitary tract and dorsal motor 
+      nucleus of the vagus</labelingLocation> .</S>
+    </TTE>
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s111">Case RPSI2.</S>
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s112">In a contrasting case , RPSIZ , <exptLabel>an 
+      injection of <tracerChemical>PHA - L</tracerChemical> was 
+      centered in <injectionLocation>the ventral division of the SI , 
+      intruding into the dorsal SI</injectionLocation></exptLabel> , 
+      but not into the dorsalmost portion that is pervaded by ENK - IR 
+      woolly fibers and not spreading ventrally into 
+      <injectionSpread yesNo="0">the nucleus of the horizontal limb of 
+      the diagonal band</injectionSpread> ( Fig . 1, bottom panel ) 
+      .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s113"><labelingDescription>Axon 
+      labelling</labelingDescription> was evident in <labelingLocation>
+      the same caudal brainstem regions</labelingLocation> as in case 
+      RPSI3 but appeared <labelingDescription>only very 
+      sparsely</labelingDescription> caudal to <labelingLocation>the 
+      ventral tegmental area</labelingLocation> .</S>
+      <BR />
+
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s114"><labelingDescription>In cortical structures fiber 
+      labelling</labelingDescription> was primarily confined to 
+      <labelingLocation>the entorhinal and piriform 
+      cortex</labelingLocation> ( Fig .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s115">ZB-IS).</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s116"><labelingDescription>Sparse 
+      labelling</labelingDescription> appeared in <labelingLocation>the 
+      main olfactory bulb</labelingLocation> , and , unlike case RPSIS 
+      , <labelingDescription>a few PHA - L - filled 
+      fibers</labelingDescription> could also be traced to 
+      <labelingLocation>the accessory olfactory bulb ( AOB 
+      )</labelingLocation> , where <labelingDescription>varicose 
+      axons</labelingDescription> were identified in <labelingLocation>
+      the granule cell layer</labelingLocation> ( Fig . 2A ) .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s117">The last finding appears consistent with previous 
+      observations by de Olmos and Beltramino (cited in de Olmos et 
+      al., 851.</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s118">In <labelingLocation>the amygdala</labelingLocation> , 
+      by contrast with case RPSIS , <labelingDescription>very little 
+      fiber labelling</labelingDescription> was found in 
+      <labelingLocation>the basolateral or lateral 
+      nu</labelingLocation> de Olmos and Beltramino noted that neurons 
+      retrogradely labelled from <labelingLocation>the AOB did not fill 
+      the entire SI</labelingLocation> but were confined to 
+      <labelingLocation>a band of tissue linking the medial nucleus of 
+      the amygdala with the medial part of the BNS</labelingLocation> 
+      .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s119">clei.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s120">In <labelingLocation>the central 
+      nucleus</labelingLocation> , <labelingDescription>significant 
+      numbers of PHA - Lfilled axons</labelingDescription> appeared 
+      only at its outer rim ( Fig . 2C ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s121"><labelingDescription>Varicose fiber labelling was far 
+      more profuse</labelingDescription> , however , in 
+      <labelingLocation>a large ventromedial sector of the 
+      amygdala</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s122">Numerous <labelingDescription>labelled 
+      axons</labelingDescription> appeared in <labelingLocation>the 
+      anterior amygdaloid area</labelingLocation> and in a region that 
+      lies ventral to <labelingLocation>the central nucleus , lateral 
+      to the medial nucleus and dorsal to the cortical 
+      nuclei</labelingLocation> ( Fig . 2C ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s123">Most of this latter region has been left unlabelled in 
+      the present pair of studies (see Grove, 88).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s124">It appears to include a district designated 
+      <labelingLocation>the intraamygdaloid division of the bed nucleus 
+      of the stria terminalis by Paxinos and Watson ( 86 ) , and the 
+      anterior part of the basomedial nucleus</labelingLocation> as 
+      identified in the rat by other authors ( Krettek and Price , 78b 
+      ; de Olmos et al . , 85 ; Paxinos and Watson , 86 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s125">More caudally , varicose axon labelling continued into 
+      <labelingLocation>the amygdalohippocampal area and the posterior 
+      part of the basomedial nucleus</labelingLocation> ( Fig . 2D ) 
+      .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s126"><labelingDescription>Additional moderately dense fiber 
+      labelling</labelingDescription> could be seen in <labelingLocation>
+      the rostral part of the medial nucleus</labelingLocation> , 
+      diminishing caudally ( Fig . 2C ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s127"><labelingDescription>A small number of PHA - L - 
+      filled varicose axons</labelingDescription> entered 
+      <labelingLocation>the nucleus of the lateral olfactory tract and 
+      the cortical amygdaloid nuclei</labelingLocation> ( Fig . 2C , D 
+      ) .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s128">A further marked contrast with case RPSIS was evident 
+      in <labelingLocation>the bed nucleus of the stria 
+      terminalis</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s129"><labelingDescription>Many PHA - Lfilled 
+      fibers</labelingDescription> appeared in <labelingLocation>medial 
+      and intermediate districts of the BNS</labelingLocation> , but 
+      few in <labelingLocation>the most lateral part of the 
+      nucleus</labelingLocation> ( Fig . 2B ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s130"><labelingDescription>Additional 
+      fibers</labelingDescription> reached dorsal to the BNS into 
+      <labelingLocation>the lateral septum</labelingLocation> ( Fig . 
+      2B ) .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s131">In <labelingLocation>the rostral SI</labelingLocation> 
+      , <labelingDescription>PHA - L - filled 
+      axons</labelingDescription> occupied <labelingLocation>a 
+      relatively ventral position</labelingLocation> ( Fig . 2B ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s132">As in case RPSIS , however , only 
+      <labelingDescription>a few labelled varicose 
+      fibers</labelingDescription> spread into <labelingLocation>the 
+      horizontal limb of the diagonal band</labelingLocation> , and 
+      still fewer in <labelingLocation>the nucleus of the vertical 
+      limb</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s133">Rather more <labelingDescription>PHA - L - filled 
+      fibers</labelingDescription> coursed around <labelingLocation>the 
+      NHDB</labelingLocation> , particularly ventrally , close to the 
+      base of the brain ( Fig . 2B ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s134"><tracerChemical>PHA - L</tracerChemical> deposits in 
+      <injectionLocation>the NHDB</injectionLocation> itself ( for 
+      example , cases RPDBl and RPDB5, Fig . 1 ) filled cell bodies and 
+      dendrites within <labelingLocation>this 
+      nucleus</labelingLocation> and disclosed that the dendrites of 
+      NHDB neurons may sometimes extend almost to the ventral surface 
+      of the brain .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s135">Thus, axon terminals ventral to the NHDB proper could, 
+      nonetheless, potentially provide innervation to cells within that 
+      nucleus.</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s136"><labelingDescription>Denser axon 
+      labelling</labelingDescription> than in case RPSIS was evident in 
+      <labelingLocation>several parts of the medial 
+      hypothalamus</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s137">This was most prominent in <labelingLocation>the 
+      medial preoptic area and anterior hypothalamus</labelingLocation> 
+      ( Fig . 2B ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s138">However , <labelingDescription>a few PHA - L - filled 
+      sons</labelingDescription> entered <labelingLocation>the 
+      ventromedial and arcuate nuclei</labelingLocation> ( Fig . 2C , D 
+      ) , which were unlabelled in case RPSIS .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s139"><labelingDescription>Denser fiber 
+      labelling</labelingDescription> than was seen in the previous 
+      case was also evident in <labelingLocation>the dorsomedial 
+      hypothalamus</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s140">By contrast , several hypothalamic regions that 
+      contained <labelingDescription>many PHA - L - filled 
+      axons</labelingDescription> in case RPSI3 were comparatively 
+      <labelingDescription>sparsely labelled here</labelingDescription> 
+      .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s141"><labelingDescription>Only sporadic labelled 
+      fibers</labelingDescription> could be identified in 
+      <labelingLocation>the paraventricular nucleus</labelingLocation> 
+      , although axon labelling appeared around and especially dorsal 
+      to this nucleus .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s142">In <labelingLocation>the lateral preoptic area and 
+      lateral hypothalamus</labelingLocation> , 
+      <labelingDescription>PHA - L - filled 
+      fibers</labelingDescription> spread out diffusely , 
+      <labelingModifier>without apparent 
+      concentrations</labelingModifier> in <labelingLocation>the 
+      perifornical or caudolateral zones</labelingLocation> ( Fig . 2B 
+      - D ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s143">As in case RPSI3, however , <labelingDescription>PHA - 
+      L - filled fibers</labelingDescription> reached through 
+      <labelingLocation>the dorsal and posterior 
+      hypothalamus</labelingLocation> ( Fig . 2C , D ) , to course 
+      along <labelingLocation>the midline thalamus</labelingLocation> 
+      into <labelingLocation>the medial part of the mediodorsal 
+      nucleus</labelingLocation> ( Fig . 2C , D ) .</S>
+    </TTE>
+
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s144">Cases RPDBI and RPDBS.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s145">Like the region referred to here as the SI , 
+    <labelingLocation>the nucleus of the horizontal limb of the 
+    diagonal band contains cholinergic perikarya</labelingLocation> and 
+    is traversed by fibers of the ansa peduncularis .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s146">Nonetheless , the NHDB is not conventionally included as 
+    part of the SI in the rat ( Paxinos and Watson , &apos; 82, &apos; 
+    86 ) .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s147">A thorough determination of the efferent connections of 
+    the NHDB was not attempted in the present study, since the nucleus 
+    is composed of several subdivisions (Zaborszky et al., &apos;86a), 
+    not all of which were injected with PaA-L.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s148">Available cases ( RPDB1 - RPDBG ) allowed , however , 
+    some comparisons of the efferent connections of <connxOrigin>the 
+    NHDB and the overlying SI amygdala , hypothalamus , and cauda . 1 
+    with the cortex , brainstem</connxOrigin> .</S>
+    <BR />
+
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s149">In the case that displayed the most dense and 
+      widespread fiber labelling ( RPDBl ) , <exptLabel>a large deposit 
+      of <tracerChemical>PHA - L</tracerChemical> was centered in 
+      <injectionLocation>the NHDB but spread into parts of the VP and 
+      rostra1 SI</injectionLocation></exptLabel> as well ( Fig . 1, 
+      bottom panel ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s150">Several marked differences between RPDBl and previous 
+      cases appear, however, to be attributable to the involvement of 
+      the NHDH in the injection site.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s151">The general distribution of 
+      <labelingDescription>labelled fibers</labelingDescription> in 
+      case RPDBl accorded quite well with that reported by Domesick ( 
+      &apos; 76 ) following <tracerChemical>tritiated amino 
+      acid</tracerChemical> injections into <injectionLocation>the 
+      NHDB</injectionLocation> .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s152">In <labelingLocation>the amygdala</labelingLocation> , 
+      by contrast with cases RPSI2 and RPSI3, <labelingDescription>a 
+      profusion of PHA - L - filled fibers</labelingDescription> 
+      distinguished the nucleus of <labelingLocation>the lateral 
+      olfactory tract</labelingLocation> ( Fig . 3A ) and 
+      <labelingLocation>the posterolateral cortical 
+      nucleus</labelingLocation> ( Fig . 3B ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s153"><labelingDescription>More modest fiber 
+      labelling</labelingDescription> appeared in <labelingLocation>the 
+      anterior amygdaloid area , the anterior cortical , posteromedial 
+      cortical , and medial nuclei</labelingLocation> , and in  
+      <labelingLocation>the amygdaloid region that lies dorsal to the 
+      cortical nuclei and ventral to the central 
+      nucleus</labelingLocation> ( Fig . 3A , B ) .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s154">In addition , <labelingDescription>a patch of richly 
+      varicose fibers</labelingDescription> was labelled in 
+      <labelingLocation>the ventromedial portion of the basolateral 
+      nucleus</labelingLocation> ( Fig . 3B ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s155">However , such labelling may have been due to the 
+      spread of the <tracerChemical>PHA - L</tracerChemical> deposit 
+      into <injectionLocation>the rostral SI and ventral 
+      pallidum</injectionLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s156">Consistent with this possibility , retrograde tracer 
+      injections confined to <injectionLocation>the basolateral 
+      nucleus</injectionLocation> fail to fill many cells in 
+      <labelingLocation>the NHDB</labelingLocation> ( Carlsen et al . , 
+      85, and see below ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s157">Further , no <labelingDescription>PHA - L - filled 
+      axons</labelingDescription> appeared in the basolateral nucleus 
+      when a small PHA - L deposit was confined to the NHDB ( case 
+      RPDB5, Fig . 1, bottom panel ) .</S>
+      <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s158">Suggesting a possible topographical organization in 
+      the projection from the SI to the basolateral nucleus , it is 
+      worth noting that a <tracerChemical>PHA - L</tracerChemical> 
+      deposit in <injectionLocation>the midcaudal 
+      SI</injectionLocation> ( case RPSI3, above ) 
+      <labelingDescription>labelled axons most 
+      densely</labelingDescription> in <labelingLocation>the lateral 
+      part of the basolateral nucleus</labelingLocation> .</S></TTE>
+
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s159"><labelingDescription>Sparse to moderate axon 
+      labelling</labelingDescription> appeared in both <labelingLocation>
+      the lateral and medial segments of the bed nucleus of the stria 
+      terminalis</labelingLocation> and in <labelingLocation>the 
+      lateral , dorsal , and posterior hypothalamus</labelingLocation> 
+      ( Fig . 3A , B ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s160">Within <labelingLocation>the lateral 
+      hypothalamus</labelingLocation> , <labelingDescription>PHA - L - 
+      filled axons</labelingDescription> , both smooth and varicose , 
+      filled a triangular region medial to the zone marked in case 
+      RPSI3 ( compare Figs . 1F and 3B ) .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s161"><labelingDescription>A much larger labelled fiber 
+      contingent</labelingDescription> than in case RPSI2 ( ventral SI 
+      ) reached caudal to the diencephalon .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s162">Many <labelingDescription>PHA - L - filled smooth and 
+      varicose axons</labelingDescription> were evident in 
+      <labelingLocation>the ventral tegmental area</labelingLocation> ( 
+      Fig . 3C ) and elsewhere along <labelingLocation>the route of the 
+      medial forebrain bundle through the midbrain and 
+      pons</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s163">It cannot be discounted that some of this labelling - 
+      for example , part or all of that seen in <labelingLocation>the 
+      substantia nigra , pars compacta</labelingLocation> ( Fig . 
+      3Cbwas due to the involvement of <injectionSpread>the ventral 
+      pallidum or rostral SI</injectionSpread> in the 
+      <tracerChemical>PHA - L</tracerChemical> injection site .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s164">In <labelingLocation>the pons</labelingLocation> , 
+      however , the distribution of <labelingDescription>fiber 
+      labelling</labelingDescription> was strikingly different from 
+      that seen in previous cases and seems likely to have resulted 
+      from PHAL transport from the NHDB .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s165"><labelingDescription>Varicose 
+      axons</labelingDescription> were labelled in <labelingLocation>
+      the median , as well as dorsal , raphe</labelingLocation> , and 
+      in <labelingLocation>the laterodorsal tegmental 
+      nucleus</labelingLocation> ( Fig . 3D ) , but 
+      <labelingModifier>none were labelled</labelingModifier> in 
+      <labelingLocation>the parabrachial nucleus or locus 
+      coeruleus</labelingLocation> .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s166">Finally , <labelingDescription>cortical 
+      labelling</labelingDescription> was observed in <labelingLocation>
+      the olfactory bulb and piriform cortex</labelingLocation> ( Fig . 
+      3A , B ) , which contained <labelingDescription>numerous labelled 
+      varicose axons</labelingDescription> , and in <labelingLocation>
+      infralimbic and entorhinal cortex</labelingLocation> where 
+      <labelingDescription>lighter fiber 
+      labelling</labelingDescription> was evident .</S>
+      <BR />
+
+      <S avgH="26" class="results.subtitle"
+       format="TimesNewRomanPS-BoldMT" id="s167">Local connections 
+      within <neuroanatomicalLocation>the SI</neuroanatomicalLocation> 
+      and with <neuroanatomicalLocation>other parts of the cholinergic 
+      basal forebrain</neuroanatomicalLocation></S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s168">The neuropil immediately surrounding any PHA - L 
+      injection site in <injectionLocation>the SI</injectionLocation> 
+      contained numerous <labelingDescription>PHA - L - filled axonal 
+      swellings</labelingDescription> , indicating 
+      <labelingDescription>a moderately dense local terminal 
+      field</labelingDescription> ( Fig . 4A , B ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s169">Occasionally , juxtapositions could be seen between 
+      such varicosities and the <tracerChemical>PHA - 
+      L</tracerChemical> - filled dendrite of a neuron that had taken 
+      up the lectin ( Fig . 4B ) , perhaps reflecting axodendritic 
+      synaptic contacts .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s170"><labelingDescription>Axon 
+      terminals</labelingDescription> were also labelled in 
+      <labelingLocation>more distant parts of the SI</labelingLocation> 
+      ; indeed , wherever <tracerChemical>PHA - L</tracerChemical> 
+      deposits were placed in <injectionLocation>the 
+      SI</injectionLocation> , <labelingDescription>lectin - filled 
+      varicose axons</labelingDescription> stretched throughout its 
+      rostrocaudal extent .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s171"><labelingDescription>Most labelled axon 
+      swellings</labelingDescription> in <labelingLocation>the 
+      SI</labelingLocation> appeared to represent 
+      <labelingDescription>en passant terminals</labelingDescription> , 
+      often lying along fibers that crossed into <labelingLocation>the 
+      amygdala , bed nucleus of the stria terminalis , or 
+      hypothalamus</labelingLocation> .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s172"><connxOrigin>The nucleus of the horizontal limb of the 
+      diagonal band on one side of the brain</connxOrigin> is known to 
+      project to <connxTermination>its contralatera1 
+      counterpart</connxTermination> ( Fuller et al . , 86 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s173">Consequently, <labelingLocation>the 
+      SI</labelingLocation> contralateral to that injected in cases 
+      RPSI1-3 was carefully examined.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s174"><labelingDescription>Only a few labelled varicose 
+      fibers</labelingDescription> were found , suggesting , 
+      nonetheless , at least some interconnection between the SI on 
+      each side of the brain .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s175">Larger or differently placed injections might well 
+      have revealed <labelingDescription>a denser 
+      projection</labelingDescription> .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s176"><neuroanatomicalLocation>The 
+      SI</neuroanatomicalLocation> shares a striking feature , the 
+      presence of <labelingDescription>cholinergic 
+      perikarya</labelingDescription> , with <labelingLocation>the 
+      medial septum , nucleus of the diagonal band , and parts of the 
+      globus pallidus</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s177">To what extent is the SI affiliated by direct 
+      connections with other components of the cholinergic basal 
+      forebrain?</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s178">From <tracerChemical>PHAL</tracerChemical> deposits in 
+      <injectionLocation>the SI</injectionLocation> , at least 
+      <labelingDescription>a few labelled varicose 
+      fibers</labelingDescription> could be traced dorsally along 
+      <labelingLocation>the lateral face of the internal 
+      capsule</labelingLocation> where many intrapallidal cholinergic 
+      cells are found ( Fig . lC , D ) or followed ventrally into 
+      <labelingLocation>the nucleus of the horizontal limb of the 
+      diagonal band</labelingLocation> ( Figs . 1B , 2B ) .</S>
+      <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s179">In turn , the <tracerChemical>PHA - L</tracerChemical> 
+      deposit in case RPDB1, centered in <injectionLocation>the 
+      NHDB</injectionLocation> , filled <labelingDescription>several 
+      varicose axons</labelingDescription> in <labelingLocation>the 
+      SI</labelingLocation> ( Fig . 3A ) , although such labelling may 
+      have resulted in part from the involvement of 
+      <injectionSpread>the rostral SI</injectionSpread> in the 
+      injection site .</S></TTE>
+
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s180">By contrast , there may be only a minor direct 
+      communication between <connxOrigin>the medial septum and nucleus 
+      of the vertical limb of the diagonal band</connxOrigin> on the 
+      one hand , and <connxTermination>the SI</connxTermination> on the 
+      other .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s181">As noted above , <tracerChemical>PHA - 
+      L</tracerChemical> injections into <injectionLocation>the 
+      SI</injectionLocation> labelled  <labelingDescription>almost no 
+      axons</labelingDescription> in <labelingLocation>the nucleus of 
+      the ventral limb of the diagonal band or the medial 
+      septum</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s182">Similarly , <labelingDescription>no PHA - L - filled 
+      fibers</labelingDescription> were evident in 
+      <labelingLocation>the SI</labelingLocation> following an 
+      injection ( not shown ) involving these structures in turn .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s183"><connxOrigin>The NHDB</connxOrigin>, however, does 
+      maintain a heavy projection to <connxTermination>the rest of the 
+      diagonal band-medial septum continuum</connxTermination>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s184"><labelingDescription>A profusion of labelled varicose 
+      fibers</labelingDescription> <labelingModifier>swept 
+      through</labelingModifier> <labelingLocation>the vertical limb of 
+      the diagonal band</labelingLocation> into <labelingLocation>the 
+      medial septum</labelingLocation> after injections of 
+      <tracerChemical>PHA - L</tracerChemical> into 
+      <injectionLocation>the NHDB</injectionLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s185">This projection appears to be reciprocated : a deposit 
+      involving <injectionLocation>parts of the medial septum and 
+      ventral limb of the diagonal band</injectionLocation> filled 
+      <labelingDescription>many varicose axons</labelingDescription> in 
+      <labelingLocation>the most medial portion of the 
+      NHDB</labelingLocation>  , and <labelingDescription>a 
+      few</labelingDescription> in <labelingLocation>more lateral parts 
+      of the nucleus</labelingLocation>.</S>
+    </TTE>
+
+    <BR />
+
+    <S avgH="26" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s186">The cells of origin for 
+    SI projections</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s187">Brains with <exptLabel><tracerChemical>WGA - 
+    HRP</tracerChemical> deposits in <injectionLocation>the efferent 
+    targets of the SI</injectionLocation></exptLabel> provided 
+    additional evidence regarding the subdivision of the region .</S>
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s188">For example , after <exptLabel>tracer deposits in 
+    <injectionLocation>the central or basolateral nuclei ( RHBL2, 
+    RHCE2, Fig . 7 ) of the amygdala</injectionLocation></exptLabel> , 
+    <labelingLocation>the dorsal SI</labelingLocation> contained 
+    <labelingDescription> numerous retrogradely filled 
+    cells</labelingDescription> embedded in <labelingDescription>a 
+    dense band of axons</labelingDescription> that appeared to have 
+    transported <tracerChemical>WGA - HRP</tracerChemical> in the 
+    anterograde direction from  <labelingLocation>the 
+    amygdala</labelingLocation> ( Fig . 5A ) .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT"
+     id="s189"><labelingDescription>Far fewer perikarya or 
+    fibers</labelingDescription> were labelled in <labelingLocation>the 
+    ventral SI</labelingLocation> .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s190">A modest number of 
+    <labelingDescription>WGA - HRP - filled cells</labelingDescription> 
+    were also found in <labelingLocation>the ventral 
+    pallidum</labelingLocation> in cases RHBL2 and RHCE2, but 
+    <labelingDescription>both labelled cells and fibers were 
+    sparse</labelingDescription> in <labelingLocation>the nucleus of 
+    the horizontal limb of the diagonal band</labelingLocation> 
+    .</S></TTE>
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s191"><exptLabel>By contrast , <tracerChemical>WGA - 
+    HRP</tracerChemical> injections that mainly involved 
+    <injectionLocation>the medial nucleus of the amygdala ( RHBM1, Fig 
+    . 7 ) , or a large amygdaloid region ventral to the central 
+    nucleus</injectionLocation></exptLabel> ( RHBMB , not shown ) , 
+    <labelingDescription>labelled many cells</labelingDescription> in 
+    <labelingLocation>the ventral SI</labelingLocation> but only 
+    <labelingDescription>a few</labelingDescription> in 
+    <labelingLocation>the dorsal division</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s192">Again , <labelingDescription>WGA - HRP - filled 
+    perikarya lay among numerous anterogradely labelled 
+    axons</labelingDescription> that , in these cases , 
+    <labelingModifier>streamed through</labelingModifier> 
+    <labelingLocation>the anterior amygdaloid area and ventral 
+    SI</labelingLocation> ( Fig . 5B ) .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT"
+     id="s193">Additional <labelingDescription>labelled 
+    cells</labelingDescription> appeared in <labelingLocation>the 
+    nucleus of the horizontal limb of the diagonal 
+    band</labelingLocation> , particularly in the caudal part of that 
+    structure .</S></TTE>
+
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s194"><exptLabel><tracerChemical>WGA - HRP</tracerChemical> 
+    injections placed in <injectionLocation>progressively more caudal 
+    sites in the brainstem</injectionLocation></exptLabel> labelled  
+    <labelingDescription>an increasing proportion of 
+    cells</labelingDescription> in <labelingLocation>the dorsal 
+    SI</labelingLocation> as compared with <labelingLocation>the 
+    ventral division</labelingLocation> .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s195">Thus , a 
+    large <tracerChemical>WGA - HRP</tracerChemical> deposit in 
+    <injectionLocation>the ventral tegmental area</injectionLocation> , 
+    spreading into <injectionSpread>the supramammillary 
+    area</injectionSpread> ( RHVT2, Fig . 7 ) , 
+    <labelingDescription>labelled cells</labelingDescription> 
+    throughout <labelingLocation>the SI ( Fig . 6A )</labelingLocation> 
+    .</S></TTE>
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s196"><exptLabel>A tracer deposit involving <injectionLocation>
+    the dorsal raphe nucleus and central 
+    gray</injectionLocation></exptLabel> ( RHDR1, Fig . 7 ) 
+    <labelingDescription>labelled cells</labelingDescription> in 
+    <labelingLocation>the SI</labelingLocation> that appeared slightly 
+    more numerous in <labelingLocation>the dorsal 
+    division</labelingLocation> ( Fig . 6B ) .</S></TTE>
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s197">Finally , when <exptLabel><tracerChemical>WGA - 
+    HRP</tracerChemical> injections were centered either in 
+    <injectionLocation>the parabrachial nucleus</injectionLocation> 
+    CRHPB6, Fig . 7 ) or in <injectionLocation>the dorsomedial medulla 
+    , involving the nucleus of the solitary tract and the dorsal motor 
+    nucleus of the vagus</injectionLocation></exptLabel> ( RHM1, Fig . 
+    7 ) , the majority of labelled perikarya in the SI appeared in 
+    <labelingLocation>the dorsal division</labelingLocation> ( Fig . 6C 
+    ) .</S><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s198">Interestingly , <labelingDescription>a few such 
+    cells</labelingDescription> were evident even in 
+    <labelingLocation>the dorsalmost strip of the SI</labelingLocation> 
+    that is marked by enkephalin - immunoreactive woolly fibers .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s199">No backfilled 
+    <labelingDescription>cells</labelingDescription> could be 
+    identified , however , in <labelingLocation>the GP or VP 
+    themselves</labelingLocation> , or in <labelingLocation>the nucleus 
+    of the horizontal limb of the diagonal band</labelingLocation> 
+    .</S></TTE>
+
+    <BR />
+
+    <S avgH="26" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s200">Participation of 
+    cholinergic cells in SI projections</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s201">The double - labelling procedure employed to reveal both 
+    <tracerChemical>WGA - HRP</tracerChemical> and choline 
+    acetyltransferase immunoreactivity slightly reduced the number of 
+    ChAT - immunoreactive cells that could be identified in 
+    <neuroanatomicalLocation>the basal 
+    forebrain</neuroanatomicalLocation> compared with control sections 
+    stained for ChAT alone .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s202">By contrast, the technique used to demonstrate both 
+    WGAHRP and acetylcholinesterase activity did not appear to decrease 
+    the number of cells staining strongly for AChE.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s203">In both instances , <tracerChemical>WGA - 
+    HRP</tracerChemical> was marked by a granular reaction product ( 
+    Fig . 4C , D ) that was blue - black in color .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s204">ChAT immunoreactivity or strong AChE reactivity was 
+    evident as a smooth, midbrown background stain filling the cell
+    soma and proximal dendrites (Fig. 4D).</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s205">The double - labelling procedures employed were 
+    sufficiently sensitive to reveal a major involvement of cholinergic 
+    cells in a given projection .</S>
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s206">For example , after<exptLabel> 
+    <tracerChemical>WGAHRP</tracerChemical> injections in 
+    <injectionLocation>the cortex or the basolateral nucleus of the 
+    amygdala</injectionLocation></exptLabel> , at least 
+    <labelingDescription>one - half to almost all of the retrogradely 
+    labelled cells</labelingDescription> in <labelingLocation>the 
+    SI</labelingLocation> could be identified as immunoreactive for 
+    ChAT or as strongly AChE positive .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s207">( In the 
+    case of <labelingLocation>the basolateral 
+    nucleus</labelingLocation> , <labelingDescription>a few additional 
+    double labelled neurons</labelingDescription> were observed in 
+    <labelingLocation>the lateral part of the bed nucleus of the stria 
+    terminalis and the medial segment of the central nucleus of the 
+    amygdala .</labelingLocation> )</S></TTE>
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s208">One or two doublelabelled cells were also found in each 
+    50 - pm tissue section through <labelingLocation>the 
+    SI</labelingLocation> following <exptLabel>tracer injections 
+    centered in <injectionLocation>the medial nucleus of the 
+    amygdala</injectionLocation> ( RHBMl , Figs . 5, 7 ) or in 
+    <injectionLocation>the amygdaloid region ventral to the central 
+    nucleus</injectionLocation></exptLabel> ( case RHBMB , not shown ) 
+    , without spread into <injectionSpread>the basolateral 
+    nucleus</injectionSpread> .</S></TTE>
+
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s209"><exptLabel><tracerChemical>WGA - HRP</tracerChemical> 
+    deposits involving <injectionLocation>the lateral hypothalamus , 
+    habenular nuclei , ventral tegmental area , peripeduncular area , 
+    dorsal raphe , central gray , or parabrachial 
+    nucleus</injectionLocation></exptLabel> backfilled many cells in 
+    <labelingLocation>the SI and / or adjacent basal forebrain 
+    regions</labelingLocation> , but none were strongly AChE positive 
+    or immunoreactive for ChAT .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s210">Thus, no evidence was 
+    obtained that cholinergic cells contribute significantly to 
+    projections to the former sites from the SI, ventral pallidum, or 
+    diagonal band-septa1 continuum.</S></TTE>
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s211">Ventral pallidal cells , unlike neurons in 
+    <labelingLocation>the SI</labelingLocation> , were also labelled 
+    after <exptLabel>tracer injections in <injectionLocation>the 
+    nucleus accumbens</injectionLocation></exptLabel> .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s212">None of 
+    these was seen to contain cholinergic markers.</S></TTE>
+
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s213">In two cases , RHMDl and RHPN3, with 
+    <exptLabel><tracerChemical>WGA - HRP</tracerChemical> injections 
+    centered , respectively , in <injectionLocation>the mediodorsal 
+    nucleus of the thalamus , and in the substantia 
+    nigra</injectionLocation></exptLabel> , <labelingDescription>a few 
+    doublelabelled cells</labelingDescription> could be identified in 
+    <labelingLocation>the basal forebrain</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s214">In case RHMDZ , one or two such cells appeared in 
+    <labelingLocation>the nuclei of the vertical</labelingLocation> and 
+    horizontal limbs of the diagonal band in each 5O - wm section 
+    through these structures .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s215">In RHPN3, a comparable small 
+    number of cells staining for both WGAHRP and ChAT appeared in 
+    <labelingLocation>the globus pallidus and SI</labelingLocation> 
+    .</S><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s216">In both cases , <labelingLocation>the basal forebrain 
+    structures</labelingLocation> in question contained 
+    <labelingDescription>numerous WGA - HRP - labelled 
+    perikarya</labelingDescription> that were negative for ChAT 
+    .</S></TTE>
+
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s217">Levey and Hallanger and their colleagues ( Levey et al . 
+    , &apos; 87 ; Hallanger et al . , &apos; 87 ) have reported 
+    significant cholinergic projections to <connxTermination>the 
+    reticular nucleus of the thalamus from basal forebrain districts 
+    that include the cholinergic cell - rich region of the 
+    GP</connxTermination> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s218">It is possible that the injection site in case RHPN3 
+    intruded upon <injectionSpread>the most caudal part of the 
+    reticular nucleus or some other caudal thalamic 
+    structure</injectionSpread> and that this accounts for the handful 
+    of double - labelled basal forebrain cells seen in this brain .</S>
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s219">However , <exptLabel>a <tracerChemical>WGA - 
+    HRP</tracerChemical> deposit of comparable size centered in 
+    <injectionLocation>the peripeduncular 
+    area</injectionLocation></exptLabel> ( RHPNZ ) should have involved 
+    the same caudal thalamic structures , if anything , to a greater 
+    extent ; yet none of <labelingDescription>the WGA - HRP - filled 
+    cells</labelingDescription> observed in <labelingLocation>the SI or 
+    GP</labelingLocation> in this case was also immunoreactive for ChAT 
+    .</S></TTE>
+
+    <BR />
+
+  </Results>
+
+  <Discussion>
+
+    <S avgH="26" class="discussion.heading"
+     format="TimesNewRomanPS-BoldMT" id="s220">DISCUSSION</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s221">projections of the SI 
+    reciprocate its afferent connections</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s222">A principal finding of the present study is that the 
+    efferent projections of the SI largely reciprocate its afferent 
+    connections.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s223">A second observation follows from the first, namely, 
+    that ventral and dorsal divisions can be distinguished in the SI on 
+    the basis of its efferent as well as afferent connections.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s224">In no case was a PHA-L injection entirely confined to 
+    either the dorsal or the ventral SI.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s225">However, a comparison of available PHA-L cases, together 
+    with findings from WGAHRP experiments, established that descending 
+    efferents that reach caudal to the mesodiencephalic border, 
+    including projections to the parabrachial nucleus and medulla 
+    (Schwaber et al., &apos;82), arise primarily from the dorsal SI.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s226">Among these target cell groups, the nucleus of the 
+    solitary tract, parabrachial nucleus, and dorsal raphe have been 
+    shown previously to innervate more heavily the dorsal division of 
+    the SI (Grove, &apos;88).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s227">Findings from both PHA-L and WGA-HRP experiments further 
+    indicate that the efferents of the dorsal and ventral SI are 
+    distributed preferentially in different regions of the hypothalamus 
+    and amygdala, reciprocating equally selective afferentation from 
+    these areas (Grove, &apos;88).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s228">In summary, the dorsal SI projects heavily to the 
+    lateral part of the bed nucleus of the stria terminalis and to the 
+    lateral: basolateral, and central nuclei of the amygdala; it 
+    projects more sparsely to an amygdaloid region that lies ventral to 
+    the central nucleus and dorsal to the cortical nuclei.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s229">This ventral amygdaloid district, however, which may 
+    include at least parts of the intraamygdaloid division of the bed 
+    nucleus of the stria terminalis (Paxinos and Watson, &apos;86) and 
+    the basomedial nucleus (Krettek and Price, &apos;78b; de Olmos et 
+    al., &apos;85; Paxinos and Watson, &apos;861, receives a heavy 
+    innervation from the ventral SI.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s230">The ventral division of the SI also projects in at least 
+    moderate density to the medial nucleus, anterior amygdaloid area, 
+    and medial portions of the bed nucleus of the stria terminalis.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s231">In the hypothalamus, efferents from the dorsal SI are 
+    distributed most heavily over the lateral preoptic area, 
+    paraventricular nucleus, and certain parts of the lateral 
+    hypothalamus, prominently including the perifornical and 
+    caudolateral zones described previously (Grove, &apos;88).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s232">Projections from the ventral SI terminate most densely 
+    in the medial preoptic area and anterior hypothalamus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s233">At least light projections to the lateral preoptic area, 
+    lateral hypothalamus (including its most medial district), and the 
+    ventromedial and arcuate hypothalamic nuclei also arise from the 
+    ventral SI.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s234">The dorsomedial and posterior hypothalamus seem to be 
+    innervated by both divisions of the SI but perhaps more heavily by 
+    the ventral SI.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s235">Widespread projections from the SI to the hypothalamus, 
+    with a similar overall pattern to that reported here, were 
+    previously noted by Mogenson et al. (&apos;851, who, however, did 
+    not describe differences between the projections of dorsal and 
+    ventral parts of the SI.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s236">Within the thalamus, some divergence from the principle 
+    of reciprocal connections is apparent.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s237">Findings described in a previous report (Grove, 
+    &apos;88) suggest that the SI receives innervation from the 
+    paratenial, paraventricular, central medial, rhomboid and reuniens 
+    nuclei of the thalamus.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s238">Present observations indicate that the SI also projects 
+    to this group of midline thalamic nuclei.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s239">However, the SI additionally innervates the medial part 
+    of the mediodorsal nucleus and the reticular nucleus of the 
+    thalamus, neither of which appears to send efferents to the SI 
+    (Grove, &apos;88).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s240">In its connection with the mediodorsal nucleus the SI 
+    resembles the amygdala, which also maintains a projection to the 
+    mediodorsal nucleus that is not reciprocated (Krettek and Price, 
+    &apos;78a; Ottersen and Ben-Ari, &apos;79).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s241">The projection to the reticular nucleus of the thalamus 
+    represents part of a cholinergic and noncholinergic innervation of 
+    that nucleus reported to arise from several basal forebrain 
+    regions, including the SI (Hallanger et al., &apos;87; Levey et 
+    al., &apos;87).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s242">The present PHA-L experiments provided no evidence that 
+    the projection to the SI and the cholinergic cell-rich region of 
+    the globus pallidus that arises from a continuum of cells in the 
+    parvocellular part of the subparafascicular nucleus of the thalamus 
+    and peripeduncular area (Jones et al., &apos;76; Grove, &apos;88) 
+    is returned in comparably high volume.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s243">A WGA-HRP injection involving the PPA and adjacent 
+    substantia nigra (case RHPN2) labelled a few cells in the 2Note, 
+    however, that no evidence was obtained in a previous WGA-HRP study 
+    (Grove, &apos;88) that the lateral nucleus of the amyg dala 
+    innervates the SI.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s244">globus pallidus, SI, and the medial part of the central 
+    nucleus of the amygdala.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s245">However, many more cells were labelled, particularly in 
+    the GP and central nucleus, after an injection of comparable size 
+    restricted to the lateral third of the substantia nigra (case 
+    RHPN3), suggesting that this nucleus may be the primary target.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s246">The central nucleus of the amygdala has been reported 
+    previously to project to both the lateral part of the substantia 
+    nigra and the peripeduncular nucleus (Krettek and Price, 78a; Price 
+    and Amaral, 81).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s247">The cortical projections of the SI, however, again 
+    appear to reciprocate closely the afferent connections of the 
+    region.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s248">Findings described elsewhere (Grove, 88) indicate that 
+    prominent cortical afferents to the SI arise from medial 
+    prefrontal, insular, perirhinal and entorhinal cortices.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s249">Efferents from at least the mid-rostrocaudal part of the 
+    SI that was injected with PHA-L in cases RPSI2 and RPSI3 terminate 
+    most heavily in the same cortical areas as well as innervating 
+    piriform cortex and the main and accessory olfactory bulbs.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s250">Projections to the cortex from the SI also display some 
+    dorsal to ventral organization.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s251">That is, efferents from the ventral SI that were 
+    labelled in the present study appeared to be distributed 
+    preferentially in the most ventrally placed cortices, namely, 
+    piriform and entorhinal cortex.</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s252">The rough 
+    dorsal-to-ventral organization of cortical projections from the SI 
+    also appears to apply to some extent to efferents from the 
+    ventrally contiguous nucleus of the horizontal limb of the diagonal 
+    band and the dorsally adjacent, cholinergic cell-rich region of the 
+    globus pallidus.</S>
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s253">Further, the 
+    organization may have the effect of associating these regions with 
+    cortices that are connectionally and functionally appropriate.</S>
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s254">Thus, the PHA-L deposit 
+    in NHDB in case RPDBl produced heavy varicose fiber labelling in 
+    the amygdaloid nuclei defined by Scalia and Winans ( 75) as 
+    components of the olfactory amygdala, as well as in the olfactory 
+    bulb and primary olfactory cortex.</S>
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s255">The PHA-L injection in 
+    case RPSI3 densely labelled fibers in widespread areas of the 
+    amygdala, prominently including the basolateral and lateral nuclei, 
+    and, as will be discussed further below, in cortical areas that are 
+    themselves in direct contact with the basolateral amygdaloid group 
+    in the rat (Krettek and Price, 77b; Turner and Zimmer, 84; and for 
+    review, see de Olmos et al., 85).</S>
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s256">Finally, the cholinergic 
+    cell-rich region of the globus pallidus contains relatively few 
+    cells that innervate the amygdala, and is invaded by only sparse 
+    amygdalofugal fibers.</S>
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s257">Several studies in which 
+    anterograde tracers have been placed in this region, dorsal to the 
+    SI injection sites described in the present study, have indicated 
+    substantial projections to cortices on the convexity of the 
+    hemisphere (Saper, 84; Haber et al., 85; Luiten et al., 85, 87) 
+    that have not been reported in the rat to be heavily connected with 
+    the amygdala.</S>
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s258">(For a review of 
+    corticoamygdaloid relations in the rat, see de Olmos et al., 
+    85.)</S>
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s259">Pallidal-type cells may 
+    contribute to projections from the SI</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s260">Tissue with features that are characteristic of the 
+    neuropi1 of the ventral pallidum and globus pallidus appears to 
+    overflow into part, though not all, of the adjacent dorsal division 
+    of the SI.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s261">That is, the dorsalmost portion of the region that can 
+    be defined as substantia innominata by the passage of a high volume 
+    of fibers belonging to the ansa peduncularis is also invaded by 
+    enkephalin-immunoreactive woolly fibers (Grove, 88), a 
+    configuration of axon terminals characteristic of the 
+    striatopallidal projection (Haber and Elde, 81; Switzer et al., 82; 
+    Haber and Nauta, 83).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s262">In addition, this part of the SI maintains reciprocal 
+    connections with the fundus of the striatum (present study; Grove, 
+    These observations raise questions that are pertinent to any 
+    account of the SI and its connections, although it is important to 
+    emphasize that they do not concern the entire dorsal division of 
+    the SI as defined here-only the most dorsal strip that displays 
+    pallidal features.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s263">Should this strip of the SI properly be viewed as an 
+    extension of the globus pallidus, or, at least, as mixed with 
+    pallidal tissue?</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s264">If so, which of the efferents of the SI demonstrated in 
+    the present study might be expected to represent the projections of 
+    pallidal cells?</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s265">At present the answers to these questions are 
+    unclear.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s266">The dorsalmost part of the SI is a complex tissue that 
+    displays both pallidal and nonpallidal attributes.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s267">Considering these in turn: 1.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s268">The ENK-IR woolly fiber configuration appears when 
+    nonimmunoreactive dendrites or cell bodies are densely invested 
+    with ENK-IR axon terminals.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s269">Thus, their presence in the dorsalmost SI strongly 
+    suggests the presence of a category of cell that is common in the 
+    ventral pallidum and globus pallidus, whose dendritic and somatic 
+    surface is studded with numerous striatofugal axon terminals (Fox 
+    et al., 74; Heimer and Wilson, 75; Heimer et al., 87; Zahm et al., 
+    87).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s270">It should be noted that such cells appear to be 
+    projection neurons in the ventral pallidum (Zahm et al., 87).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s271">However, the ENK-IR axons that compose the woolly fibers 
+    in the SI have not been directly shown to originate from the 
+    striatum as they have in the VP and GP (Zaborszky et al., 82; Haber 
+    and Nauta, 83), and such axons could originate from other 
+    structures (see Grove, 88).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s272">Ultimately, whether pallidal-type cells are present in 
+    the dorsal SI and what their connections may be will be determined 
+    only by studies similar to those of the VP cited above in which the 
+    source of ENK-IR axons was determined (Zaborszky et al., 82; Haber 
+    and Nauta, 83) and the connections and morphological features of 
+    cells were examined in the light and electron microscope (Fox et 
+    al., 74; Heimer and Wilson, 75; Heimer et al., 87; Zahm et al., 
+    87).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s273">2.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s274">The tissue that makes up the dorsalmost strip of the SI 
+    can also be differentiated histochemically from the adjacent 
+    ventral pallidum and globus pallidus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s275">Whereas the VP and GP display a patchy appearance in 
+    Timm-stained material, the whole of the SI is characterized by 
+    modest, even staining (de Olmos et al., 85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s276">Further, the entire dorsal division of the SI is 
+    distinguished by the selective termination of fibers immunoreactive 
+    for tyrosine hydroxylase (Grove, 88) and by the argyrophilia it 
+    exhibits in cupric-silver preparations (de Olmos, 72; de Olmos et 
+    al., 85).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s277">At present it seems most likely that the dorsalmost part 
+    of the SI is a heterogeneous tissue, containing several 
+    intermingled cell populations.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s278">Such cell groups would appear to include not only 
+    cholinergic and noncholinergic cells that innervate the cortex and 
+    amygdala but also other cell types characteristic of the SI as a 
+    whole.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s279">For example, WGA-HRP deposits involving the parabrachial 
+    nucleus or the nucleus of the solitary tract and dorsal motor 
+    nucleus of the vagus backfill many cells in the dorsal SI, 
+    including a few in the part invaded by ENK-IR woolly fibers.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s280">Given the visceroceptive and visceromotor associations 
+    of the parabrachial nucleus and dorsomedial medulla, these 
+    structures appear improbable targets of pallidal cells, at least 
+    given our present conception of the role of the globus pallidus in 
+    somatomotor function.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s281">It is tempting to assume that the projections from the 
+    dorsal SI to the amygdala, diencephalon, midbrain, and pons, 
+    because they appear to be part of a general system of 
+    topographically organized connections linking the two subdivisions 
+    of the SI to a diversity of cell groups lying along the ansa 
+    peduncularis and medial forebrain bundle, must also arise entirely 
+    from cells characteristic of the SI as a whole.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s282">Certainly, both WGA-HRP and PHA-L experiments indicate 
+    that such projections arise fiom cells in that part of the dorsal 
+    SI division that exhibits no pallidal features, and thus, at least 
+    in that region, from cells typical of the SI.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s283">However, the ansa peduncularis and medial forebrain 
+    bundle are common routes for efferents from several basal forebrain 
+    structures, including the nucleus accumbens (Nauta et al., 
+    &apos;78) and the region here called ventral pallidum (Swanson et 
+    al., &apos;84; Haber et al., &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s284">All of these distribute efferents over an apparently 
+    similar set of hypothalamic and midbrain targets.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s285">Fibers from the ventral pallidum continue into the pons, 
+    innervating the pedunculopontine nucleus (Swanson et al., &apos;84; 
+    Haber et al., &apos;85), which lies just rostral to the 
+    parabrachial nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s286">Thus, some fiber contingents arising from the dorsalmost 
+    SI may receive contributions from both pallidal-type cells and 
+    neurons more characteristic of the entire SI.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s287">Further work will be needed to determine if this is so 
+    and whether efferents arising from different cell types might 
+    distribute over slightly different targets along the route of the 
+    AP and MFB.</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s288">The efferent projections 
+    of the SI resemble those of the amygdala</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s289">The subcortical projections of the dorsal SI determined 
+    in the present study are reminiscent of those previously reported 
+    for the central nucleus of the amygdala and the lateral part of the 
+    bed nucleus of the stria terminalis (Krettek and Price, &apos;78a; 
+    Price, &apos;81; Price and Amaral, &apos;81; Holstege et al., 
+    &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s290">Similarly, the efferent connections of the ventral SI 
+    resemble those of the medial amygdaloid nucleus (Krettek and Price, 
+    &apos;78a).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s291">Available for direct comparison with the cases described 
+    in the present study were several others, previously described 
+    (Grove, &apos;88) in which PHA-L had been deposited adjacent to the 
+    SI in the bed nucleus of the stria terminalis or amygdala.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s292">Examination of these cases demonstrated that the 
+    distribution of PHA-L-filled fibers in subcortical structures is 
+    indeed strikingly similar whether the lectin injection is placed in 
+    a division of the SI itself or in contiguous parts of the BNS or 
+    amygdala.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s293">Specifically, PHA-L injections involving the lateral BNS 
+    (RPGP4, RPBNSB), dorsal SI (RPSI1 and RPSI3), or central nucleus of 
+    the amygdala (RPAA1, RPACe8) (see Fig. 1 and Grove, &apos;88, Figs. 
+    8,9) label axons in the same set of subcortical forebrain 
+    structures: the lateral BNS, dorsal SI, central nucleus of the 
+    amygdala, lateral preoptic area, paraventricular nucleus of the 
+    hypothalamus, perifornical and caudolateral zones of the lateral 
+    hypothalamus, dorsomedial and posterior hypothalamus, and midline 
+    thalamic cell groups, prominently including the medial part of the 
+    mediodorsal nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s294">The lateral nucleus of the amygdala is also innervated 
+    by the lateral BNS as well as by the dorsal SI.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s295">Observations from WGA-HRP experiments additionally 
+    indicate that projections to the basolateral nucleus of the 
+    amygdala arise not only from the dorsal SI but also from a few 
+    cholinergic and noncholinergic cells in the lateral BNS and medial 
+    part of the central nucleus.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s296">Similarly, when PHA-L injection sites involve the medial 
+    portion of the bed nucleus of the stria terminalis (RPBNSB), 
+    ventral SI (RPSI1 and 2), rostral part of the medial nucleus of the 
+    amygdala (RPABl), or rostral part of the amygdaloid region ventral 
+    to the central nucleus (RPBMl), axons are labelled in each of the 
+    other regions, as well as in the medial and lateral preoptic areas, 
+    anterior hypothalamus, medialmost district of the lateral 
+    hypothalamus, dorsomedial and posterior hypothalamus, and 
+    mediodorsal nucleus of the thalamus (see Grove, &apos;88, Figs. 8, 
+    9, and text).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s297">The ventromedial nucleus of the hypothalamus, which 
+    receives a prominent projection from the medial nucleus (Krettek 
+    and Price, &apos;78a, Price, &apos;811, is also at least lightly 
+    innervated by the ventral SI.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s298">Finally, moderately dense fiber labelling appears caudal 
+    to the diencephalon in a distribution similar to that shown in 
+    Figure 1G-I (case RPSI3) whenever the lateral BNS, dorsal SI, or 
+    central nucleus of the amygdala are involved in the PHA-L injection 
+    site (cases RPSI1, RPGP4, RPBNSB, RPAA1, and RPACe8).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s299">Some differences appear in the density and topography of 
+    subcortical projections from different parts of the two 
+    BNSSI-amygdala continua.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s300">For example, as PHA-L injections are placed more 
+    rostromedially in the two continua, progressively denser fiber 
+    labelling appears in many parts of the hypothalamus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s301">Heavier and more widespread axon labelling appears in 
+    the amygdala when PHA-L deposits are placed in the SI than when 
+    deposits are made in the BNS or in the central nucleus of the 
+    amygdala.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s302">A few differences appear also in projections to the 
+    brainstem, reflecting a rostrocaudal ordering of efferents.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s303">For example, the lateral BNS projects most heavily to a 
+    more rostral part of the parabrachial nucleus than does the dorsal 
+    SI, although the same parabrachial subnuclei (Fulwiler and Saper, 
+    &apos;84) appear to be involved.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s304">Previous studies have established two distinctive 
+    efferent pathways leading to a different set of subcortical 
+    structures from the central nucleus on one hand, and a ventromedial 
+    region of the amygdala, prominently including the medial nucleus, 
+    on the other (Krettek and Price, &apos;78a; Price, &apos;81; Price 
+    and Amaral, &apos;81; de Olmos et al., &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s305">Although other amygdaloid nuclei, including the 
+    basolateral and basomedial nuclei, maintain at least modest 
+    projections to the hypothalamus and other subcortical sites, the 
+    central and medial nuclei appear to represent output 
+    &quot;staging&quot; areas of the amygdala, receiving projections 
+    from other amygdaloid nuclei (Krettek and Price, &apos;78b; 
+    Aggleton, &apos;85) and projecting heavily to diencephalic and 
+    caudal brainstem structures (Krettek and Price, &apos;78a; Price, 
+    &apos;81).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s306">Earlier investigations have demonstrated strong 
+    similarities between the lateral part of the bed nucleus of the 
+    stria terminalis and the medial part of the central amygdaloid 
+    nucleus in their projections to brainstem structures (Schwaber et 
+    al., &apos;82; Holstege et al., &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s307">Further, a continuum of cells stretching between these 
+    two structures through the SI has been labelled by retrograde 
+    tracer injections involving the parabrachial nucleus, the nucleus 
+    of the solitary tract and dorsal motor nucleus of the vagus, or the 
+    nucleus raphe magnus and adjoining midline reticular formation 
+    (Schwaber et al., &apos;82; Holstege et al., &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s308">Findings from the present study augment these 
+    observations and establish that the two &quot;staging areas&quot; 
+    of the amygdala extend from the medial and central nuclei into, 
+    respectively, the ventral and dorsal SI and medial and lateral 
+    BNS.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s309">The most striking difference between the efferent 
+    connections of the SI and immediately adjacent parts of the 
+    amygdala and BNS is that the SI projects widely to the cortex.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s310">Only sparse fibers were labelled in piriform and insular 
+    cortices in case RPSI1, which contained a PHA-L deposit in the 
+    transitional area between the SI and bed nucleus of the stria 
+    terminalis.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s311">No cortical labelling followed injections into the BNS 
+    itself or the central nucleus of the amygdala.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s312">PHA-L deposits in the rostroventromedial amygdala 
+    labelled fibers only in piriform cortex (Grove, &apos;88, Fig. 
+    9).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s313">However, consistent with previous reports (Krettek and 
+    Price, &apos;77b; for review, see de Olmos et al., &apos;851, a 
+    PHA-L injection into the basolateral nucleus (case RPBL2, Grove, 
+    &apos;88, Fig. 9), which is interconnected with the central 
+    nucleus, dorsal SI, and lateral BNS, labelled varicose fibers in 
+    the medial prefrontal, agranular insular, piriform, perirhinal, and 
+    entorhinal cortices.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s314">Of those cortical areas that contained PHA-L-filled 
+    varicose axons in case RPSI3, only granular insular cortex appeared 
+    free of labelled fibers.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s315">Thus, the cortical projections of at least the midcaudal 
+    portion of the SI also closely resemble those of a neighboring 
+    amygdaloid nucleus.</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s316">Cholinergic projections 
+    to the amygdala and cortex may be integrated into the efferent 
+    circuitry of the SI</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s317">It has been proposed that the population of cholinergic 
+    cells that reaches from the medial septum and the nucleus of the 
+    diagonal band through the SI and into the caudal globus pallidus 
+    may form a single anatomical and functional entity (Schwaber et 
+    al., &apos;87).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s318">Thus, it is plausible that cholinergic neurons invade 
+    the SI but are not part of it, maintaining afferent and efferent 
+    connections that are typical of the cholinergic cell continuum but 
+    wholly unrelated to those of other SI cells.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s319">Several observations from the present pair of studies 
+    appear pertinent to this issue.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s320">Findings reported by Grove (&apos;88) suggested that the 
+    cholinergic cell group in the SI (like other cells in the region) 
+    may receive some innervation from the hypothalamus, peripeduncular 
+    area, ventral tegmental area, and dorsal raphe nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s321">Nonetheless, the present study provides no evidence that 
+    the cholinergic cells of the SI innervate these areas in return or 
+    contribute significantly to any extrinsic projections of the SI 
+    other than those previously described to the cortex, basolateral 
+    nucleus of the amygdala, and reticular nucleus of the thalamus.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s322">Some intrinsic connections within the SI may arise, 
+    however, from local cholinergic neurons.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s323">A procedure developed for labelling cholinergic fibers 
+    has demonstrated ChATimmunoreactive axonal varicosities, probably 
+    representing synaptic terminals, in the SI and ventromedial globus 
+    pallidus (this study).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s324">ChAT-IR synaptic boutons have previously been observed 
+    in the electron microscope in the ventral pallidum (Zaborszky et 
+    al., &apos;86b) and globus pallidus (Ingham, personal 
+    communication).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s325">Both Ingham (personal communication) and Zaborszky et 
+    al. (&apos;86b) noted that synaptic contacts were formed between 
+    ChAT-IR boutons and nonimmunoreactive elements.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s326">If noncholinergic projection neurons are among those 
+    innervated, cholinergic cells in the SI could have a significant 
+    influence over a range of subcortical SI projections.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s327">A more fundamental observation is that the cholinergic 
+    projections that arise from cells within the SI appear to fit with 
+    the overall character of SI connections.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s328">Both the afferents and efferents of the region associate 
+    it strongly with much of the amygdala and with structures that are 
+    themselves directly connected with the amygdala.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s329">Thus, the cholinergic (and non-cholinergic) projection 
+    from the SI to the basolateral amygdaloid nucleus is only part of a 
+    voluminous system of SI efferents that distributes over most of the 
+    amygdala (present study; Russchen, &apos;82; Aggleton et al., 
+    &apos;87).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s330">It is notable, too, that the cholinergic cells 
+    innervating the basolateral nucleus are mainly confined to the 
+    dorsal division of the SI, obeying the general topography of 
+    SI-amygdala connections.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s331">The projections from cholinergic cells in the SI to the 
+    cortex may also conform to the pattern.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s332">Medial prefrontal, insular, perirhinal, entorhinal, and 
+    piriform cortices seem to receive a preferentially heavy 
+    innervation from the SI, most of which is likely to be cholinergic 
+    (Rye et al., &apos;84).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s333">The same cortical areas have been reported to be 
+    directly interconnected with the &quot;basolateral&quot; amygdaloid 
+    group in the rat (Krettek and Price, &apos;77b; Turner and Zimmer, 
+    &apos;84; and for review, see de Olmos et al., &apos;85).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s334">More generally, cholinergic corticopetal projections may 
+    be only one element of a set of direct and indirect pathwa;ys 
+    leading from the SI to the cortical mantle, which appear to 
+    converge upon similar cortical sites.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s335">Saper (&apos;85) has d.escribed projections to the 
+    cortex arising from scattered cel Is in the lateral 
+    hypothalamus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s336">In particular, cells in the caudolateral zone of the LH, 
+    which is reciprocally connected with the dorsal SI, innervate 
+    insular and medial prefrontal cortex.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s337">The medial part of the mediodorsal nucleus, which 
+    receives a projection from noncholinergic SI neurons, innervates 
+    rostra1 insular cortex (Krettek and Price, &apos;77a).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s338">Finally, the medial division of the parabrachial 
+    nucleus, also reciprocally connected with the SI, projects to 
+    ventral infralimbic cortex and both anterior and posterior granular 
+    and agranular insular cortex (Saper and Loewy, &apos;80; Saper, %2; 
+    Fulwiler and Saper, &apos;84).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s339">Further study is needed to answer questions about the 
+    circuitry that might coordinate these cortical infiuences-whether, 
+    for example, SI efferents synapse directly on cortically projecting 
+    neurons in the amyg dala, lateral hypothalamus, thalamus, or 
+    parabrachial nucleus.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s340">In summary, the findings of the present study support 
+    three generalizations that may be of use in designing behavioral 
+    and physiological studies of the SI.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s341">First, the SI appears to be strongly affiliated with the 
+    amygdala (see also de Olmos, &apos;72; Schwaber et al., &apos;82; 
+    de Olmos et al., &apos;85; Grove, &apos;88).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s342">Second, the SI is organized into a ventral and a dorsal 
+    division, suggesting functional heterogeneity.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s343">Swh an organization is indicated by both the afferent 
+    and efferent connections of the SI, as well as by histochemical 
+    features (de Olmos, &apos;72; de Olmos et al., &apos;85; Grove, 
+    &apos;88; present study).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s344">Finally, although the cholinergic neurons in the SI 
+    belong to a cell type that is dispersed rather widely in the basal 
+    forebrain, those within the SI may be integrated into the overall 
+    afferent and efferent circuitry of the region, and thus into 
+    whatever functional roles the SI may subserve.</S>
+  </Discussion>
+
+  <Acknowledgements>
+
+    <S avgH="26" class="acknowledgements.heading"
+     format="TimesNewRomanPS-BoldMT" id="s345">ACKNOWLEDGMENTS</S>
+    <BR />
+
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s346">I am indebted to Doctor Walle 
+    J.H.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s347">Nauta for his encouragement 
+    and guidance throughout the course of this study, In addition, I 
+    wish to thank Cliff Ragsdale for his constructive criticism of the 
+    manuscripts.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s348">This study was made possible 
+    by NSF grant BNS 8306284, PHS grants 1 R01 NS 19945 and 5 PO1 MH 
+    31154, and a predoctoral fellowship from the Scottish Rite 
+    Schizophrenia Research Progr&amp; (N.M.J., U.S.A.).</S>
+  </Acknowledgements>
+
+  <References>
+
+    <S avgH="26" class="references.heading"
+     format="TimesNewRomanPS-BoldMT" id="s349">LITERATURE CITED</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s350">Aggleton, J.P. (1985) A description of intra-amygdaloid 
+    world monkeys.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s351">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s352">Brain Res. 57:390-399.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s353">Aggleton, J.P, D.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s354">Friedman, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s355">Mishkin (1987) A comparison between the connections of 
+    the amygdala and hippocampus with the basal forebrain of the 
+    macaque.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s356">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s357">Brain Res. 67356-568.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s358">Beckstead, R.M. (1979) An autoradiographic examination 
+    of cortico-cortical and subcortical projections of the 
+    mediodorsal-projection (prefrontal) cortex in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s359">J Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s360">Neurol. 184:43-62.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s361">Bigl, V., N.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s362">Woolf, and L.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s363">Butcher (1982) Cholinergic projections from the basal 
+    forebrain to frontal, parietal, temporal, occipital and cingulate 
+    cortices: A combined fluorescent tracer and acetylcholinesterase 
+    analysis.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s364">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s365">Bull. 8.727-749.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s366">Carlsen, J., L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s367">Zaborszky, and L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s368">Heimer (1985) Cholinergic projections from the basal 
+    forebrain to the basolateral amygdaloid complex: A combined 
+    retrograde fluorescent and immunohistochemical study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s369">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s370">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s371">Neurol. 234t155-167.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s372">Olmos, J.S. (1972) The amygdaloid projection field in 
+    the rat as studied with the cupric-silver method.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s373">In B.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s374">Eleftheriou (ed): The Neurobiology of the Amygdala.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s375">New York: Plenum Press, pp. 145-204.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s376">Olmos, J., H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s377">Hardy, and L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s378">Heimer (1978) The afferent connections of the main and 
+    accessory olfactory bulb formations in the rat: An experimental HRP 
+    study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s379">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s380">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s381">Neurol. 181:213-244.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s382">Olmos, J., G.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s383">Alheid, and C.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s384">Beltramino (1985) Amygdala.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s385">In G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s386">Paxinos (ed): The Rat Nervous System.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s387">Vol. 1.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s388">Australia: Academic Press, pp. 223-334.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s389">Domesick, V.B. (1976) Projections of the nucleus Broca 
+    in rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s390">Anat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s391">Rec. 184:391-392.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s392">Eckenstein, F., and M.V.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s393">Sofroniew (1983) Identification of central cholinergic 
+    neurons containing both choline acetyltransferase and 
+    acetylcholinesterase and of central neurons containing only 
+    acetylcholinesterase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s394">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s395">Neurosci. 3:2286-2291.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s396">Fisher, R.S., J.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s397">Asai, B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s398">Wainer, N.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s399">Buchwald, and M.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s400">Levine(1986) Cholinergic and gabaergic projections from 
+    pallidal and peripallidal regions to the neocortex of the cat: 
+    Demonstration by double peroxidase labeling of their neurons of 
+    origin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s401">Soc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s402">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s403">Abstr: 12:1467.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s404">Fox, C.A., A.N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s405">Andrade.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s406">I.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s407">LuQui. and J.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s408">Rafols (1974) The primate globus pallidus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s409">A Golgi and electron microscopic study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s410">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s411">Hirnforsch. 15:75-93.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s412">Fuller, T.A., K.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s413">Carnes, and J.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s414">Price (1986) Afferents to the diagonal band of rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s415">SOC.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s416">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s417">Abstr.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s418">I2r351.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s419">Fulwiler, C.E., and C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s420">Saper (1984) Subnuclear organization of the efferent 
+    connections of the parabrachial nucleus in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s421">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s422">Rev.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s423">7t229-259.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s424">Geneser-Jensen, F.A., and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s425">W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s426">Blackstad (1971) Distribution of acetylcholinesterase in 
+    the hippocampal region of the guinea pig.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s427">I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s428">Entorhinal area, parasubiculum and presubiculum.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s429">Z.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s430">Zellforsch.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s431">Mikrosk.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s432">Anat.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s433">114:460-481.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s434">Gerfen, C.R., and P.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s435">Sawchenko (1984) An anterograde neuroanatomical tracing 
+    method that shows the detailed morphology of neurons, their axons 
+    and terminals: Immunohistochemical localization of an axonally 
+    transported plant lectin, Phaseolus vulgaris leucoagglutinin 
+    (PHA-L).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s436">Brain Res. 29Ot219-238.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s437">Graybiel, A.M., R.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s438">Baughman, and F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s439">Eckenstein (1986) Cholinergic neuropil of the striatum 
+    observes striosomal boundaries.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s440">Nature 323:625-627.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s441">Grove, E.A. (1988) Neural associations of the substantia 
+    innominata rat: Afferent connections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s442">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s443">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s444">Neurol. 277:315-346.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s445">Grove, E.A., S.N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s446">Haber, V.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s447">Domesick, and W.J.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s448">Nauta (1983) Differential projections from AChE-positive 
+    and AChE-negative ventral pallidum cells in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s449">Soc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s450">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s451">Abstr. lOr16.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s452">Haber, S., and R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s453">Elde (1981) Correlation between met-enkephalin and 
+    substance P immunoreactivity in the primate globus pallidus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s454">Neuroscience 6r1291-1297.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s455">Haber, S.N., and W.J.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s456">Nauta (19831 Ramifications of the globus pallidus in the 
+    rat as indicated by patterns of immunohistochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s457">Neuroscience 9t245-260.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s458">Haber, S.N., H.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s459">Groenewegen, E.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s460">Grove, and W.J.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s461">Nauta (1985) Efferent connections of the ventral 
+    pallidum: Evidence of a dual striatopallidofugal pathway.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s462">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s463">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s464">Neurol. 235:322-335.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s465">Hallanger, A.E., A.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s466">Levey, H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s467">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s468">Lee, D.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s469">Rye, and B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s470">Wainer (1987) The origins of cholinergic and other 
+    subcortical afferents to the thalamus in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s471">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s472">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s473">Neurol. 262:105-124.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s474">Heimer, L., and R.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s475">Wilson (1975) The subcortical projections of the 
+    allocortex: Similarities in the neural associations of the 
+    hippocampus, the piriform cortex, and the neocortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s476">In M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s477">Santini (ed): Golgi Centennial Symposium.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s478">New York Raven Press, pp. 177-193.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s479">Heimer, L., L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s480">Zaborszky, D.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s481">Zahm, and G.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s482">Alheid (1987) The ventral striatopallidothalamic 
+    projection: I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s483">The striatopallidal link originating in the striatal 
+    parts of the olfactory tubercle.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s484">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s485">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s486">Neurol. 255:571591.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s487">Holstege, G., L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s488">Meiners, and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s489">Tan (1985) Projections of the bed nucleus of the stria 
+    terminalis to the mesencephalon, pons, and medulla oblongata in the 
+    cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s490">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s491">Brain Res. 58:379-391.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s492">Jones, E.G., H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s493">Burton, C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s494">Saper, and L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s495">Swanson (1976) Midbrain, diencephalic and cortical 
+    relationships of the basal nucleus of Meynert and associated 
+    structures in primates.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s496">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s497">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s498">Neurol. 167:385-420.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s499">Krettek, J.E., and J.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s500">Price (1977a) The cortical projections of the 
+    mediodorsal nucleus and adjacent thalamic nuclei in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s501">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s502">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s503">Neurol.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPS-BoldMT"
+     id="s504">171: 157-192.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s505">Krettek, J.E., and J.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s506">Price (1977b) Projections from the amygdaloid complex to 
+    the cerebral cortex and thalamus in the rat and cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s507">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s508">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s509">Neurol. 172~687-722.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s510">Krettek, J.E., and J.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s511">Price (1978a) Amygdaloid projections to subcortical 
+    structures within the basal forebrain and brainstem in the rat and 
+    cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s512">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s513">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s514">Neurol. 178:225-254.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s515">Krettek, J.E., and J.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s516">Price (1978b) A description of the amygdaloid complex in 
+    the rat and cat, with observations on intra-amygdaloid axonal 
+    connections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s517">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s518">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s519">Neurol. 178t255-280.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s520">Lehmann, J., J.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s521">Nagy, S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s522">Atmadja, and H.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s523">Fibiger (1980) The nucleus basalis magnocellularis: The 
+    origin of a cholinergic projection to the neocortex of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s524">Neuroscience 51161-1174.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s525">Levey, A.L, B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s526">Wainer, E.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s527">Mufson, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s528">-M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s529">Mesuiam (1983) Colocalization of acetylcholinesterase 
+    and choline acetyltransferase in the rat cerebrum.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s530">Neuroscience 9:9-22.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s531">Levey, A.I., A.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s532">Hallanger, and B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s533">Wainer (1987) Cholinergic nucleus basalis neurons may 
+    influence the cortex via the thalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s534">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s535">Lett: 74:7-13.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s536">Lind, R.W., L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s537">Swanson, and D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s538">Ganten (1985) Organization of angiotensin I1 
+    immunoreactive cells and fibers in the rat central nervous 
+    system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s539">Neuroendocrinology 4Ut2-24.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s540">Luiten, P.G.M., D.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s541">Spencer, Jr., J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s542">Traber, and R.P.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s543">Gaykema (1985) The pattern of cortical projections from 
+    the intermediate parts of the magnocellular nucleus basalis in the 
+    rat demonstrated by tracing with Phaseolus vulgaris 
+    leucoagglutinin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s544">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s545">Lett. 57:137-142.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s546">Luiten, P.G.M., R.P.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s547">Gaykema, J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s548">Traber, and D.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s549">Spencer, Jr. (1987) Cortical projection patterns of 
+    magnocellular basal nucleus subdivisions as revealed by 
+    anterogradely transported Phaseolus vulgaris leucoagglutinin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s550">Brain Res. 413:229-250.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s551">McKinney, M., J.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s552">Coyle, and J.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s553">Hedreen (1983) Topographical analysis of the innervation 
+    of the rat neocortex and hippocampus by the basal forebrain 
+    cholinergic system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s554">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s555">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s556">Neurol. 217:103-121.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s557">Mesulam, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s558">-M. (1978) Tetramethyl benzidine for horseradish 
+    peroxidase neurohistochemistry: A non-carcinogenic blue reaction 
+    product with superior sensitivity for visualizing neural afferents 
+    and efferents.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s559">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s560">Histochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s561">Cytochem. 26t106-117.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s562">Mesulam, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s563">-M., E.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s564">Mufson, A.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s565">Levey, and B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s566">Wainer (1983a) Cholinergic innervation of cortex by the 
+    basal forebrain: Cytochemistry and cortical connections of the 
+    septa1 area, diagonal hand nuclei, nucleus basalis (substantia 
+    innominata), and hypothalamus in the rhesus monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s567">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s568">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s569">Neurol. 214t170-197.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s570">Mesulam, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s571">-M., E.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s572">Mufson, B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s573">Wainer, and A.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s574">Levey (1983b) Central cholinergic pathways in the rat: 
+    An overview based on an alternative nomenclature (Chl-Ch6).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s575">Neuroscience 1Ot1185-1201.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s576">Mogenson, G.J., L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s577">Swanson, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s578">Wu (1985) Evidence that projections from substantia 
+    innominata to zona incerta and mesencephalic locomotor region 
+    contribute to locomotor activity.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s579">Brain Res. 334:65-76.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s580">Nauta, W.J.H., G.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s581">Smith, R.L.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s582">Faull, and V.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s583">Domesick (1978) Efferent connections and nigral 
+    afferents of the nucleus accumbens in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s584">Neuroscience 3t385-401.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s585">Ottersen, O.P., and Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s586">Ben-Ari (1979) Afferent connections to the amygdaloid 
+    complex of the rat and cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s587">I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s588">Projections from the thalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s589">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s590">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s591">Neurol. 187t401-424.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s592">Paxinos, G., and C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s593">Watson (1982) The Rat Brain in Stereotaxic Coordinates: 
+    1st edition Australia: Academic Press.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s594">Paxinos, G., and C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s595">Watson (1986) The Rat Brain in Stereotaxic Coordinates. 
+    2nd edition Australia: Academic Press.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s596">Phillipson, O.T. (1979) Afferent projections to the 
+    ventral tegmental area of Tsai and interfascicular nucleus: A 
+    horseradish peroxidase study in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s597">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s598">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s599">Neurol. 187:117-144.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s600">Price, J.L. (1981) The efferent projections of the 
+    amygdaloid complex in the rat, cat and monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s601">In Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s602">Ben-Ari (ed): The Amygdaloid Complex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s603">Elsevier, Amsterdam: pp. 13-18.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s604">Rice, J.L., and D.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s605">Amaral(1981) An autoradiographic study of the 
+    projections of the central nucleus of the monkey amygdala.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s606">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s607">Neurosci.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s608">1:1242-1259.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s609">Russchen, F.T. (1982) Amygdalopetal projections in the 
+    cat: 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s610">Subcortical afferent connections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s611">A study with retrograde tracing techniques.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s612">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s613">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s614">Neurol. 207:157-176.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s615">Russchen, F.T., D.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s616">Amaral, and J.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s617">Price (1987) The afferent input to the magnocellular 
+    division of the mediodorsal thalamic nucleus in the mankey, macaca 
+    fascicularis.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s618">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s619">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s620">Neurol. 256:175-210.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s621">Rye, D.B., C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s622">Saper, and B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s623">Wainer (1984a) Stabilization of the tetramethylbenzidine 
+    (TMB) reaction product: Application for retrograde and anterograde 
+    tracing, and combination with immunohistochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s624">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s625">Histochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s626">Cytochem. 321145-1153.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s627">Rye, D.B., B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s628">Wainer, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s629">-M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s630">Mesulam, E.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s631">Mufson, and C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s632">Saper (1984b) Cortical projections arising from the 
+    basal forebrain: A study of cholinergic and non-cholinergic 
+    components employing combined retrograde tracing and 
+    immunohistochemical localization of choline acetYltransferase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s633">Neuroscience f3:627-644.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s634">Saper, C.B. (1982) Reciprocal parabrachial-cortical 
+    Brain Res. 24233-40.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s635">Saper, C.B. (1984) Organization of cerebral cortical 
+    afferent systems in the rat, I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s636">Magnocellular basal nucleus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s637">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s638">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s639">Neurol. 221:313-342.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s640">Saper, C.B. (1985) Organization of cerebral cortical 
+    afferent systems in the rat. 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s641">Hypothalamocortical projections. 3.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s642">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s643">Neurol. 2372-46.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s644">Sapcr, C.B., and A.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s645">Loewy (1980) Efferent connections ofthe parabracllial 
+    nucleus in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s646">Brain Res. 197:291-317.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s647">Scalia, F., and S.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s648">Winans (1975) The differential projections of the 
+    olfactory bulb and accessory hulh in mammals.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s649">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s650">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s651">Neurol. 161:31-56.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s652">Schwaber, J.S..</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s653">B.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s654">Kapp, G.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s655">Higgins, and P.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s656">RaPP (1982) AmYgdaIoid and basal forebrain direct 
+    connections with the nucleus ofthe solitary tract and the dorsal 
+    motor nucleus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s657">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s658">Neurosci. 2.1424-1438.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s659">Schwaher *J.S., W.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s660">Rogers, K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s661">Satoh, and H.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s662">Fibiger (1987) Distribution and organization of 
+    cholinergic neurons in the rat forebrain demonstrated hy 
+    computer-aided data acquisition and three dimensional 
+    reconstruction.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s663">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s664">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s665">Neurol. 2fi3:309-325.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s666">Swanson, L.W., G.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s667">Mogenson, C.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s668">Gerfen, and P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s669">Robinson (1984) Evidence for a projection from the 
+    lateral preoptic area and substantia innominata to the 
+    &apos;mesencephalic locomotor region&apos; in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s670">Brain Res. 295161-178.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s671">Schwaber, J.S., B.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s672">Kapp, G.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s673">Higgins, and P.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s674">Rapp (1982) Amygdalciid and basal forebrain direct 
+    connections with the nucleus of the solitary tract and the dorsal 
+    motor nucleus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s675">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s676">Neurosci. 21424-1438, Switzer, R.C., J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s677">Hill, and L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s678">Heimer (1982) The globus pallidus and its rostroventral 
+    extension into the olfactory tubercle ofthe rat: A cyto. and 
+    chemoarchitectural study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s679">Neuroscience 7: 1891-1904.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s680">Turner, B.H., and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s681">Zimmer (1984) The architecture and some of the 
+    interconnections of the rat&apos;s amygdala and lateral 
+    periallocortex, J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s682">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s683">Neurol. 227:540-557.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s684">WOOlf, N.J., and L.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s685">Butcher (1982) Cholinergic projections to the 
+    basolat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s686">era1 amygdala: A combined Evans Blue and 
+    acetylcholinesterase anal.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s687">ysis: Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s688">Bull. 8:751-763.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s689">Woolf, N.J., M.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s690">Hernit, and L.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s691">Butcher (1986) Cholinergic and noncholinergic 
+    projections from the rat basal forebrain revealed by con&quot;.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s692">bind choline acetyltransferase and Phaseolus vulgaris 
+    leucoagglutinjn immunohistochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s693">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s694">Lett. 66281-286.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s695">Young, W.S., G.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s696">Alheid, and L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s697">Heimer (1984) The ventral pallidal projec.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s698">tion to the medicdorsal thalamus: A study with 
+    fluorescent retrograde tracers and immunohistofluorescence.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s699">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s700">Neurosci. 4:1626-1638.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s701">Zaborszky, L., J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s702">Carlsen, H.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s703">Brashear, and L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s704">Heimer (1986a) Cholinergic and GABAergic afferent$ to 
+    the olfactory bulb in the rat with special emphasis on the 
+    projection neurons in the nucleus of the horizontal limb Of the 
+    hand.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s705">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s706">Ncurol. 24&apos;3&apos;488-509.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s707">ZahorszkY, L., L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s708">Hcimer, F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s709">Eckenstein, and C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s710">Leranth (1986b) GABAergic input to cholinergic forebrain 
+    neurons: An Ultrastructural study using retrob&apos;ade tracing of 
+    HRP and double immunolabelling.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s711">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s712">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s713">Neu.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s714">rol. 250282-295.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s715">Zaborsky, L., G.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s716">Alheid, V.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s717">Alone% W.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s718">Oertel, D.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s719">Schmeckel, and L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s720">Heimer (1982) AfYerents of the ventral pallidum studied 
+    with i( combined immunohistochcmical-anteroaade degeneration 
+    method. sot.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s721">N ~ ~ ~ Abstr. . ~ 8:218, ~ ~ , .</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s722">Zahm, D.S., L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s723">Zaborszky, G.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s724">Alheid, and L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s725">Heimer (1987) The ventral striatopallidothalamic 
+    projection: 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s726">The ventral pallidothalamic link.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s727">J: Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s728">Neurol. 255.592-605.</S>
+  </References>
+
+</File>
+

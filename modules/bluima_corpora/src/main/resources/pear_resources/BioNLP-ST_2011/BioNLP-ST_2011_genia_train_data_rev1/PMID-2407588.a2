@@ -1,0 +1,5 @@
+T6	Gene_expression 556 563	present
+T7	Gene_expression 629 634	found
+E1	Gene_expression:T6 Theme:T1
+E2	Gene_expression:T7 Theme:T3
+E3	Gene_expression:T7 Theme:T2

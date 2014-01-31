@@ -1,0 +1,17 @@
+T14	Gene_expression 451 461	expression
+T15	Phosphorylation 937 952	Phosphorylation
+T16	Positive_regulation 986 994	resulted
+T17	Positive_regulation 1000 1004	high
+T18	Gene_expression 1005 1015	expression
+T19	Entity 1025 1033	Tyrosine
+T20	Phosphorylation 1034 1049	phosphorylation
+T21	Positive_regulation 1080 1087	induced
+T22	Negative_regulation 1247 1256	inhibited
+E1	Gene_expression:T14 Theme:T5
+E2	Phosphorylation:T15 Theme:T10
+E3	Positive_regulation:T16 Theme:E2 Cause:E4
+E4	Positive_regulation:T17 Theme:E5
+E5	Gene_expression:T18 Theme:T12
+E6	Phosphorylation:T20 Theme:T10 Site:T19
+E7	Positive_regulation:T21 Theme:E6
+E8	Negative_regulation:T22 Theme:E6

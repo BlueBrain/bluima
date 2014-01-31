@@ -1,0 +1,1256 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v2.3 20070202//EN" "archivearticle.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink"
+	article-type="research-article">
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">J Exp Med</journal-id>
+			<journal-title>The Journal of Experimental Medicine</journal-title>
+			<issn pub-type="ppub">0022-1007</issn>
+			<issn pub-type="epub">1540-9538</issn>
+			<publisher>
+				<publisher-name>The Rockefeller University Press</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="pmc">2193563</article-id>
+			<article-id pub-id-type="publisher-id">020408</article-id>
+			<article-id pub-id-type="doi">10.1084/jem.20020408</article-id>
+			<article-id pub-id-type="pmid">12070292</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>Brief Definitive Report</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>Protein Kinase C &#x003b2; Controls Nuclear Factor
+					&#x003ba;B Activation in B Cells Through Selective Regulation of
+					the I&#x003ba;B Kinase &#x003b1;</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Saijo</surname>
+						<given-names>Kaoru</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1">1</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Mecklenbr&#x000e4;uker</surname>
+						<given-names>Ingrid</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1">1</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Santana</surname>
+						<given-names>Angela</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1">1</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Leitger</surname>
+						<given-names>Michael</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff2">2</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Schmedt</surname>
+						<given-names>Christian</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1">1</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Tarakhovsky</surname>
+						<given-names>Alexander</given-names>
+					</name>
+					<xref ref-type="aff" rid="aff1">1</xref>
+				</contrib>
+			</contrib-group>
+			<aff id="aff1">
+				<label>1</label>
+				Laboratory of Lymphocyte Signaling, Rockefeller University, New
+				York, NY 10021
+			</aff>
+			<aff id="aff2">
+				<label>2</label>
+				Max-Plank-Institut f&#x000fc;r Experimentelle Endokrinologie,
+				Fedor-Lynen-Str. 7, 30625 Hannover, Germany
+			</aff>
+			<author-notes>
+				<fn>
+					<p>
+						Address correspondence to Kaoru Saijo or Alexander Tarakhovsky,
+						Laboratory of Lymphocyte Signaling, Rockefeller University, 1230
+						York Ave., New York, NY 10021. Phone: 212-327-8265 (K. Saijo) or
+						8256 (A. Tarakhovsky)&#x0003b; Fax: 212-327-8258&#x0003b; E-mail:
+						<email>saijok@mail.rockefeller.edu</email>
+						or
+						<email>tarakho@mail.rockefeller.edu</email>
+					</p>
+				</fn>
+			</author-notes>
+			<pub-date pub-type="ppub">
+				<day>17</day>
+				<month>6</month>
+				<year>2002</year>
+			</pub-date>
+			<volume>195</volume>
+			<issue>12</issue>
+			<fpage>1647</fpage>
+			<lpage>1652</lpage>
+			<history>
+				<date date-type="received">
+					<day>13</day>
+					<month>3</month>
+					<year>2002</year>
+				</date>
+				<date date-type="rev-recd">
+					<day>23</day>
+					<month>4</month>
+					<year>2002</year>
+				</date>
+				<date date-type="accepted">
+					<day>9</day>
+					<month>5</month>
+					<year>2002</year>
+				</date>
+			</history>
+			<permissions>
+				<copyright-statement>Copyright &#x000a9; 2002, The Rockefeller
+					University Press</copyright-statement>
+			</permissions>
+			<abstract>
+				<p>Activation of the nuclear factor (NF)-&#x003ba;B transcription
+					complex by signals derived from the surface expressed B cell
+					antigen receptor controls B cell development, survival, and
+					antigenic responses. Activation of NF-&#x003ba;B is critically
+					dependent on serine phosphorylation of the I&#x003ba;B protein by
+					the multi-component I&#x003ba;B kinase (IKK) containing two
+					catalytic subunits (IKK&#x003b1; and IKK&#x003b2;) and one
+					regulatory subunit (IKK&#x003b3;). Using mice deficient for protein
+					kinase C &#x003b2; (PKC&#x003b2;) we show an essential role of
+					PKC&#x003b2; in the phosphorylation of IKK&#x003b1; and the
+					subsequent activation of NF-&#x003ba;B in B cells. Defective
+					IKK&#x003b1; phosphorylation correlates with impaired B cell
+					antigen receptor&#x02013;mediated induction of the pro-survival
+					protein Bcl-xL. Lack of IKK&#x003b1; phosphorylation and defective
+					NF-&#x003ba;B induction in the absence of PKC&#x003b2; explains the
+					similarity in immunodeficiencies caused by PKC&#x003b2; or
+					IKK&#x003b1; ablation in B cells. Furthermore, the well established
+					functional cooperation between the protein tyrosine kinase Bruton's
+					tyrosine kinase (Btk), which regulates the activity of
+					NF-&#x003ba;B and PKC&#x003b2;, suggests PKC&#x003b2; as a likely
+					serine/threonine kinase component of the Btk-dependent
+					NF-&#x003ba;B activating signal transduction chain downstream of
+					the BCR.</p>
+			</abstract>
+			<kwd-group>
+				<kwd>B cell survival</kwd>
+				<kwd>B cell receptor</kwd>
+				<kwd>signal transduction</kwd>
+				<kwd>I&#x003ba;B kinase complex</kwd>
+				<kwd>Btk</kwd>
+			</kwd-group>
+		</article-meta>
+	</front>
+	<body>
+		<sec>
+			<title>Introduction</title>
+			<p>
+				Efficient B cell immunity requires mechanisms that guarantee the
+				representation of a diverse immunoglobulin repertoire within the
+				peripheral B cell pool (
+				<xref ref-type="bibr" rid="bib1">1</xref>
+				). A key feature of peripheral B cells in this context is their
+				ability to persist in the absence of antigenic stimulation. The
+				relatively long life of mature naive B cells in peripheral lymphoid
+				organs of mice and man increases the likelihood for an individual B
+				cell to encounter an antigen and initiate an effective humoral
+				immune response (
+				<xref ref-type="bibr" rid="bib2">2</xref>
+				). Conversely, reduced peripheral B cell survival is frequently
+				associated with naturally occurring or genetically engineered
+				immunodeficiencies (
+				<xref ref-type="bibr" rid="bib3">3</xref>
+				,
+				<xref ref-type="bibr" rid="bib4">4</xref>
+				).
+			</p>
+			<p>
+				Survival of peripheral B cells is critically dependent on the
+				surface expression of the B cell antigen receptor (BCR) and its
+				ability to generate a signal. Ablation of surface expressed BCR on
+				peripheral B cells by Cre recombinase-mediated modification of the
+				Ig locus or inducible inactivation of Syk protein kinase gene lead
+				to rapid B cell death (
+				<xref ref-type="bibr" rid="bib5">5</xref>
+				&#x0003b; and unpublished data). These observations suggest a
+				BCR-dependent signaling cascade responsible for B cell survival in
+				the absence of antigenic stimulation. Furthermore, reduction in the
+				expression level of Bcl-2 protein after the BCR ablation and the
+				rescue from apoptosis of BCR-deficient B cells by Bcl-2
+				overexpression point to the existence of a signaling axis connecting
+				the BCR and transcription of anti-apoptotic Bcl-2 family of proteins
+				(
+				<xref ref-type="bibr" rid="bib5">5</xref>
+				). A likely link between the BCR and expression of the
+				anti-apoptotic proteins is suggested by the ability of the BCR to
+				trigger the activation of nuclear factor (NF)-&#x003ba;B, which is
+				known to control the expression of Bcl-2 and Bcl-xL (
+				<xref ref-type="bibr" rid="bib6">6</xref>
+				). Successful activation of NF-&#x003ba;B and hence transcription of
+				the NF-&#x003ba;B&#x02013;dependent genes by various ligands
+				requires the phosphorylation of the inhibitory protein I&#x003ba;B.
+				Unphosphorylated I&#x003ba;B is bound to the complex of the
+				transcription activating Rel-subunits and retains these within the
+				cytoplasm. Upon cellular activation, I&#x003ba;B is phosphorylated
+				on serine residues by the multicomponent I&#x003ba;B kinase (IKK)
+				containing two catalytic subunits (IKK&#x003b1; and IKK&#x003b2;)
+				and one regulatory subunit (IKK&#x003b3;). Phosphorylation of
+				I&#x003ba;B targets it for ubiquitination and subsequent degradation
+				by the proteasome (
+				<xref ref-type="bibr" rid="bib7">7</xref>
+				,
+				<xref ref-type="bibr" rid="bib8">8</xref>
+				).
+			</p>
+			<p>
+				Recent studies demonstrated that phosphorylation of
+				I&#x003ba;B&#x003b1; downstream of BCR triggering is regulated by
+				the Bruton's tyrosine kinase (Btk&#x0003b; references
+				<xref ref-type="bibr" rid="bib9">9</xref>
+				and
+				<xref ref-type="bibr" rid="bib10">10</xref>
+				). Mutation of Btk results in X-linked agammaglobulinemia (XLA) in
+				humans and X-linked immunodeficiency (Xid) in mice (
+				<xref ref-type="bibr" rid="bib11">11</xref>
+				). BCR cross-linking induces I&#x003ba;B&#x003b1; phosphorylation in
+				wild-type B cells, whereas Btk-deficient B cells or Xid B cells are
+				unable to support I&#x003ba;B&#x003b1; phosphorylation and efficient
+				activation of NF-&#x003ba;B. Combined with the short life-span and
+				inefficient Bcl-xL induction of Btk-deficient/Xid B cells, these
+				data support an important role of Btk-mediated NF-&#x003ba;B
+				activation in BCR-dependent B cell survival (
+				<xref ref-type="bibr" rid="bib9">9</xref>
+				,
+				<xref ref-type="bibr" rid="bib10">10</xref>
+				,
+				<xref ref-type="bibr" rid="bib12">12</xref>
+				).
+			</p>
+			<p>
+				The substrate specificity of Btk as a tyrosine kinase precludes its
+				direct involvement in the phosphorylation of IKKs or I&#x003ba;Bs on
+				serine residues. This, in turn, implies the existence of a
+				Btk-dependent serine kinase involved in the regulation of IKK
+				activity, I&#x003ba;B phosphorylation, and NF-&#x003ba;B activation
+				(
+				<xref ref-type="bibr" rid="bib9">9</xref>
+				,
+				<xref ref-type="bibr" rid="bib10">10</xref>
+				).
+			</p>
+			<p>
+				Recently, a functional link between Btk and the Ca
+				<sup>2+</sup>
+				/diacylglycerol (DAG)-dependent serine/threonine protein kinase C
+				&#x003b2; (PKC&#x003b2;) was demonstrated. B cells of mice deficient
+				for PKC&#x003b2; display a signaling phenotype similar to Xid B
+				cells (
+				<xref ref-type="bibr" rid="bib13">13</xref>
+				&#x02013;
+				<xref ref-type="bibr" rid="bib15">15</xref>
+				). We therefore hypothesized that PKC&#x003b2; may be involved in
+				the Btk-mediated NF-&#x003ba;B activation in B cells.
+			</p>
+			<p>Here we demonstrate that PKC&#x003b2; selectively controls
+				phosphorylation of IKK&#x003b1; in mature B cells and is required
+				for the efficient BCR-induced I&#x003ba;B&#x003b1; phosphorylation,
+				degradation, and subsequent NF-&#x003ba;B induction. Furthermore,
+				impaired phosphorylation of IKK&#x003b1; and compromised activation
+				of NF-&#x003ba;B correlate with defective BCR-mediated induction of
+				Bcl-xL in B cells, thus providing a mechanistic explanation for the
+				reduced life-span of PKC&#x003b2;-deficient B cells.</p>
+		</sec>
+		<sec sec-type="materials|methods">
+			<title>Materials and Methods</title>
+			<sec>
+				<title>Mice.</title>
+				<p>
+					PKC&#x003b2;
+					<sup>&#x02212;/&#x02212;</sup>
+					mice on C57BL/6 or 129/Sv genetic background were used for analysis
+					(
+					<xref ref-type="bibr" rid="bib13">13</xref>
+					). Mice were kept in the animal facility of the Institute for
+					Genetics at the University of Cologne or in the SPF facility of the
+					Laboratory Animal Research Center at The Rockefeller University
+					following the university guide lines. Wild-type C57BL/6 or 129/Sv
+					mice were purchased from The Jackson Laboratory or Charles River
+					Laboratories, respectively.
+				</p>
+			</sec>
+			<sec>
+				<title>B Cell Proliferation.</title>
+				<p>
+					Splenic B cells of &#x0003e;95% purity were isolated as described
+					previously (
+					<xref ref-type="bibr" rid="bib16">16</xref>
+					). Splenic B cells were stimulated in vitro with 1.2 &#x003bc;g/ml
+					goat anti&#x02013;mouse IgM F(ab&#x02032;)
+					<sub>2</sub>
+					(Jackson ImmunoResearch Laboratories), 7.5 &#x003bc;g/ml anti-CD38
+					(
+					<xref ref-type="bibr" rid="bib17">17</xref>
+					), or 5.25 &#x003bc;g/ml anti-RP105 (
+					<xref ref-type="bibr" rid="bib18">18</xref>
+					) alone or in combination with 25 U/ml recombinant mouse IL-4
+					(Genzyme) as described previously (
+					<xref ref-type="bibr" rid="bib16">16</xref>
+					). Labeling of cells with 5-(and 6-)-carboxyfluorescein diacetate,
+					succinimidyl ester (CFDA-SE&#x0003b; Molecular Probes) for
+					measurement of the proliferative responses was performed as
+					described (
+					<xref ref-type="bibr" rid="bib19">19</xref>
+					). The decline in CFSE fluorescence as measure of B cell
+					proliferation was determined by FACS
+					<sup>&#x000ae;</sup>
+					analysis.
+				</p>
+			</sec>
+			<sec>
+				<title>Cell Survival Assay.</title>
+				<p>
+					Purified splenic B cells were cultured in the absence or presence
+					of 25 U/ml recombinant mouse IL-4 (Genzyme) for various times.
+					Cells were washed once with ice-cold Annexin V binding buffer (10
+					mM Hepes, pH 7.5, 140 mM NaCl, 5 mM KCl, 1 mM MgCl
+					<sub>2</sub>
+					, 1.8 mM CaCl
+					<sub>2</sub>
+					) and cell pellets were stained with Annexin V (Roche) and
+					7-aminoactinomycin D (7AAD&#x0003b; Sigma-Aldrich) as described (
+					<xref ref-type="bibr" rid="bib5">5</xref>
+					).
+				</p>
+			</sec>
+			<sec>
+				<title>Western Blotting Analysis and EMSA.</title>
+				<p>
+					The expression level of Bcl-2 and Bcl-xL proteins were analyzed by
+					Western blotting. Splenic B cells were purified as described
+					previously (
+					<xref ref-type="bibr" rid="bib16">16</xref>
+					). 2 &#x000d7; 10
+					<sup>6</sup>
+					purified B cells were cultured with 10 &#x003bc;g/ml F(ab&#x02032;)
+					<sub>2</sub>
+					fragment goat anti-IgM (Jackson ImmunoResearch Laboratories) for
+					indicated time. Cells were harvested and lysed by 1% NP-40
+					containing buffer as described previously (
+					<xref ref-type="bibr" rid="bib16">16</xref>
+					). Anti-Bcl-2 (Neomarkers) and anti-Bcl-xL (Cell Signaling
+					Technology) were used for this analysis. The loading of the protein
+					was controlled by Western blotting of anti-&#x003b1;-Actin
+					(Oncogene Research Products).
+				</p>
+				<p>
+					For the analysis of Rel family protein expression, the protein
+					lysate of purified splenic B cells from PKC&#x003b2;
+					<sup>&#x02212;/&#x02212;</sup>
+					and control mice were analyzed by Western blotting with antibodies
+					against RelA, RelB, c-Rel, and p52 (Santa Cruz Biotechnology,
+					Inc.). To analyze the IKK&#x003b1;/IKK&#x003b2;/IKK&#x003b3;
+					complex, purified splenic B cells were lysed 1% CHAPS containing
+					buffer. After the centrifugation and removal of the insoluble
+					fraction, the protein lysates were precleared by rabbit Ig and
+					protein A-sepharose. The IKK complex was immunoprecipitated with
+					anti-IKK&#x003b1; antibody (Cell Signaling Technology) or control
+					rabbit Ig followed by the incubation with protein
+					A&#x02013;sepharose. Sepharose beads were washed three times with
+					lysis buffer and subjected to SDS-PAGE and transferred onto PVDF
+					membrane. The membrane was incubated with anti-IKK&#x003b1;
+					(Upstate Biotechnology), anti-IKK&#x003b2; (Upstate Biotechnology),
+					or anti-IKK&#x003b3; antibodies (Santa Cruz Biotechnology, Inc.).
+				</p>
+				<p>
+					NF-&#x003ba;B activation was studied after the stimulation with 20
+					&#x003bc;g/ml goat anti&#x02013;mouse IgM F(ab&#x02032;)
+					<sub>2</sub>
+					(Jackson ImmunoResearch Laboratories) or 10 &#x003bc;g/ml anti-CD40
+					(3/23&#x0003b; BD PharMingen) using cytoplasmic and nuclear
+					extracts prepared as described (
+					<xref ref-type="bibr" rid="bib19">19</xref>
+					). Degradation and phosphorylation of I&#x003ba;B&#x003b1; protein
+					were measured by Western blotting with anti-I&#x003ba;B&#x003b1;
+					antibody (Santa Cruz Biotechnology, Inc.) and anti-phospho
+					I&#x003ba;B&#x003b1; (Ser32&#x0003b; Cell Signaling Technology).
+					The phosphorylation of IKK&#x003b1; and IKK&#x003b2; was analyzed
+					by the antibody against phospho-specific form of IKK&#x003b1;
+					(Ser180) and IKK&#x003b2; (Ser181&#x0003b; Cell Signaling
+					Technology). For the loading control, the membranes were stripped
+					and reprobed with anti-IKK&#x003b1; and anti-IKK&#x003b2;
+					antibodies (Upstate Biotechnology). DNA-binding activity of
+					NF-&#x003ba;B was analyzed by electrophoretic mobility shift assay
+					(EMSA) as described (
+					<xref ref-type="bibr" rid="bib19">19</xref>
+					). For the supershift, antibodies against p50, RelA and c-Rel
+					(Santa Cruz Biotechnology, Inc.) were added before the binding
+					reaction with DNA. A mutant oligonucleotide was used to test the
+					specificity of DNA binding. The protein loading was determined by
+					Oct-1 EMSA. All quantifications were done with NIH image software.
+				</p>
+			</sec>
+		</sec>
+		<sec>
+			<title>Results and Discussion</title>
+			<p>
+				B cells deficient for Btk or expressing a mutant form of the Btk
+				protein are characterized by drastically reduced life-span in vitro
+				and in vivo (
+				<xref ref-type="bibr" rid="bib12">12</xref>
+				). Similar properties are characteristic for PKC&#x003b2;-deficient
+				B cells. Incubation of ex vivo isolated splenic
+				PKC&#x003b2;-deficient B cells in vitro in the absence of
+				exogenously added agonists of B cell survival is accompanied by a
+				rapid decline of cell viability (
+				<xref rid="fig1" ref-type="fig">Fig. 1</xref>
+				A). Similar to B cells with impaired Btk function, the
+				PKC&#x003b2;-deficient B cells are characterized by drastically
+				decreased proliferative responses to the antibody-mediated
+				cross-linking of BCR, or to the polyclonal activation by anti-CD38
+				or anti-RP105 antibodies (
+				<xref rid="fig1" ref-type="fig">Fig. 1</xref>
+				B). Addition of the general B cell survival factor IL-4 (
+				<xref ref-type="bibr" rid="bib20">20</xref>
+				) to the culture medium promotes B cell survival (
+				<xref rid="fig1" ref-type="fig">Fig. 1</xref>
+				C) and increases the fraction of dividing cells (
+				<xref rid="fig1" ref-type="fig">Fig. 1</xref>
+				B). These data suggest that accelerated death of
+				PKC&#x003b2;-deficient B cells in vitro is likely causing defective
+				proliferative responses of PKC&#x003b2;-deficient B cells to various
+				stimuli in vitro.
+			</p>
+			<fig position="float" id="fig1">
+				<label>Figure 1.</label>
+				<caption>
+					<p>
+						Impaired survival and proliferation of PKC&#x003b2;-deficient B
+						cells in vitro. (A) Accelerated cell death of PKC&#x003b2;
+						<sup>&#x02212;/&#x02212;</sup>
+						B cells cultured without stimulation. Percentage of cell viability
+						of purified splenic B cells is plotted for wild-type (129/Sv)
+						control (open circles) and PKC&#x003b2;
+						<sup>&#x02212;/&#x02212;</sup>
+						(filled circles) B cells. Each dot represents cells isolated from
+						an individual mouse. (B) Impaired proliferative responses of
+						PKC&#x003b2;
+						<sup>&#x02212;/&#x02212;</sup>
+						B cells in vitro in the absence of IL-4 survival signal. Purified
+						splenic B cells of wild-type (left column) or PKC&#x003b2;
+						<sup>&#x02212;/&#x02212;</sup>
+						mice (right column) were labeled with CFSE and incubated for 3 d
+						in the presence or absence of the indicated stimuli (see Materials
+						and Methods for details). The thick line indicates the level of
+						CFSE florescence in cells upon stimulation, whereas the thin line
+						indicates the CFSE label of nonstimulated cells. Reduction in the
+						CFSE fluorescence is proportional to the number of cell divisions.
+						(C) IL-4 promotes survival of both wild-type and PKC&#x003b2;
+						<sup>&#x02212;/&#x02212;</sup>
+						B cells. FACS
+						<sup>&#x000ae;</sup>
+						analysis of Annexin-V in combination of 7AAD staining of wild-type
+						(left column) and PKC&#x003b2;
+						<sup>&#x02212;/&#x02212;</sup>
+						(right column) B cells cultured in complete RPMI with or without
+						IL-4. Note the increase of live cells annexin-V and 7AAD negative
+						in the presence of IL-4. Numbers indicate percentages of gated
+						cells.
+					</p>
+				</caption>
+				<graphic xlink:href="020408f1"></graphic>
+			</fig>
+			<p>
+				Poor survival of PKC&#x003b2;-deficient B cells in vitro correlates
+				with their inability to up-regulate expression of the anti-apoptotic
+				protein Bcl-xL upon stimulation with anti-IgM (
+				<xref rid="fig2" ref-type="fig">Fig. 2</xref>
+				) . Incubation of wild-type splenic B cells with anti-IgM results in
+				progressive increase in the expression levels of the Bcl-xL (
+				<xref rid="fig2" ref-type="fig">Fig. 2</xref>
+				). Similar treatment of the PKC&#x003b2;-deficient B cells has a
+				negative impact on the Bcl-xL expression level (
+				<xref rid="fig2" ref-type="fig">Fig. 2</xref>
+				). The inability of the surface expressed BCR to promote the
+				expression of the anti-apoptotic Bcl-xL and Bcl-2 proteins likely
+				causes the rapid death of the PKC&#x003b2;-deficient B cells.
+			</p>
+			<fig position="float" id="fig2">
+				<label>Figure 2.</label>
+				<caption>
+					<p>
+						Reduced expression of Bcl-xL and Bcl-2 after IgM cross-linking on
+						B cells of PKC&#x003b2;
+						<sup>&#x02212;/&#x02212;</sup>
+						compared with control mice. Splenic B cells were isolated from
+						PKC&#x003b2;
+						<sup>&#x02212;/&#x02212;</sup>
+						and PKC&#x003b2;
+						<sup>+/+</sup>
+						mice and incubated with 10 &#x003bc;g/ml anti-IgM for the
+						indicated time (h). Bcl-xL and Bcl-2 protein expression was
+						analyzed by Western blot analysis. Equal protein loading was
+						controlled by anti-actin Western blotting. For quantification,
+						band intensities were first normalized to the respective actin
+						signal and then calculated as fold-change relative to unstimulated
+						PKC&#x003b2;
+						<sup>+/+</sup>
+						, which was set to 1.0.
+					</p>
+				</caption>
+				<graphic xlink:href="020408f2"></graphic>
+			</fig>
+			<p>
+				Expression of Bcl-xL in B cells is dependent on the activity of the
+				NF-&#x003ba;B transcription factor (
+				<xref ref-type="bibr" rid="bib6">6</xref>
+				,
+				<xref ref-type="bibr" rid="bib21">21</xref>
+				,
+				<xref ref-type="bibr" rid="bib22">22</xref>
+				), thus suggesting a possible involvement of PKC&#x003b2; in
+				NF-&#x003ba;B regulation. Members of the NF-&#x003ba;B/Rel family of
+				proteins include RelA, c-Rel, RelB p50/NF-&#x003ba;B1, and
+				p52/NF-&#x003ba;B2 (
+				<xref ref-type="bibr" rid="bib7">7</xref>
+				). Deficiency in PKC&#x003b2; does not affect expression levels of
+				RelA, c-Rel, and RelB in splenic B cells (
+				<xref rid="fig3" ref-type="fig">Fig. 3</xref>
+				A). NF-&#x003ba;B2 is synthesized as a large precursor (p100) that
+				requires proteolytic processing to produce p52 (
+				<xref ref-type="bibr" rid="bib7">7</xref>
+				). The relative amount of unprocessed p100 NF-&#x003ba;B2 precursors
+				is increased in PKC&#x003b2;-deficient B cells compared with control
+				B cells (
+				<xref rid="fig3" ref-type="fig">Fig. 3</xref>
+				A).
+			</p>
+			<fig position="float" id="fig3">
+				<label>Figure 3.</label>
+				<caption>
+					<p>
+						Expression of Rel family proteins and
+						IKK&#x003b1;/IKK&#x003b2;/IKK&#x003b3; complex in splenic B cells
+						of PKC&#x003b2;
+						<sup>&#x02212;/&#x02212;</sup>
+						(&#x02212;/&#x02212;) and PKC&#x003b2;
+						<sup>+/+</sup>
+						(+/+) mice. (A) The amount of RelA, RelB, and c-Rel (left panel)
+						as well as NF-&#x003ba;B2 (p100 and p52, right panel) were
+						examined by sequential Western blotting. The actin blot (left
+						panel, bottom) was used for quantification as described in
+						<xref rid="fig2" ref-type="fig">Fig. 2</xref>
+						. For NF-&#x003ba;B2 both p100 and p52 are quantified in relation
+						to p52 of +/+ lysates. The asterisk (*) indicates a nonspecific
+						band. (B) Normal composition of the
+						IKK&#x003b1;/IKK&#x003b2;/IKK&#x003b3; signalosome complex in
+						PKC&#x003b2;
+						<sup>&#x02212;/&#x02212;</sup>
+						B cells. CHAPS lysates of splenic B cells from PKC&#x003b2;
+						<sup>&#x02212;/&#x02212;</sup>
+						and PKC&#x003b2;
+						<sup>+/+</sup>
+						mice were immunoprecipitated with anti-IKK&#x003b1; antibody
+						(IKK&#x003b1;) or control rabbit immunoglobulin (RIg). Whole cell
+						lysates (WCL) are shown as blotting control. Membranes were
+						sequentially probed with IKK&#x003b1; (top), IKK&#x003b2;
+						(middle), and IKK&#x003b3; (bottom) antibodies.
+					</p>
+				</caption>
+				<graphic xlink:href="020408f3a"></graphic>
+				<graphic xlink:href="020408f3b"></graphic>
+			</fig>
+			<p>
+				Defective NF-&#x003ba;B2 processing has been previously found in B
+				cells deficient for IKK&#x003b1; or expressing a catalytically
+				inactive form of IKK&#x003b1;, which is a component of the
+				tri-member I&#x003ba;B kinase complex
+				IKK&#x003b1;/IKK&#x003b2;/IKK&#x003b3; (
+				<xref ref-type="bibr" rid="bib23">23</xref>
+				). To test whether PKC&#x003b2; controls NF-&#x003ba;B2 processing
+				through the regulation of IKK&#x003b1; expression or activation we
+				have analyzed the expression and activation state of IKKs in
+				PKC&#x003b2;-deficient splenic B cells. Both IKK&#x003b1; and
+				IKK&#x003b2;, as well as the regulatory component of the I&#x003ba;B
+				kinase complex, IKK&#x003b3;, are expressed in
+				PKC&#x003b2;-deficient B cells at wild-type levels (
+				<xref rid="fig3" ref-type="fig">Fig. 3</xref>
+				B, WCL lanes). Immunoprecipitation of IKK&#x003b1; or IKK&#x003b2;
+				from PKC&#x003b2;-deficient and control B cell lysates results in
+				coprecipitation of IKK&#x003b2;/IKK&#x003b3; or
+				IKK&#x003b1;/IKK&#x003b3;, respectively (
+				<xref rid="fig3" ref-type="fig">Fig. 3</xref>
+				B, and data not shown). These data suggest that expression of
+				IKK&#x003b1; and formation of the I&#x003ba;B kinase complex is not
+				controlled by PKC&#x003b2; in B cells.
+			</p>
+			<p>
+				Activation of IKK&#x003b1; and IKK&#x003b2; is controlled by their
+				phosphorylation in the activation loop of the kinase domain at
+				serine residues 176/180 and 177/181, respectively (
+				<xref ref-type="bibr" rid="bib24">24</xref>
+				). Hence, the levels of phospho-IKK&#x003b1; (Ser-180) and
+				phospho-IKK&#x003b2; (Ser-181) reflect indirectly the fraction of
+				activated IKKs within a cell. In wild-type B cells more
+				phospho-IKK&#x003b1; than phospho-IKK&#x003b2; can be detected.
+				Incubation of the wild-type B cells with anti-IgM results in a
+				drastic increase of the amount of phospho-IKK&#x003b2; while the
+				phospho-IKK&#x003b1; levels remain relatively stable in the course
+				of B cell stimulation (
+				<xref rid="fig4" ref-type="fig">Fig. 4</xref>
+				A, top panel). Deficiency in PKC&#x003b2; has a dramatic impact on
+				the phosphorylation state of IKK&#x003b1; and to a lesser extent on
+				IKK&#x003b2;. Phospho-IKK&#x003b1; is virtually absent both in
+				nonstimulated and anti-IgM treated PKC&#x003b2;-deficient B cells (
+				<xref rid="fig4" ref-type="fig">Fig. 4</xref>
+				A, top panel). Moreover, the duration of IgM-mediated
+				phosphorylation of IKK&#x003b2; is diminished in
+				PKC&#x003b2;-deficient B cells compared with the wild-type B cells (
+				<xref rid="fig4" ref-type="fig">Fig. 4</xref>
+				A, top panel). Considering the essential role of serine
+				phosphorylation in IKK&#x003b1; and IKK&#x003b2; activation, these
+				results reveal PKC&#x003b2; as a key regulatory serine/threonine
+				kinase connecting the BCR and IKK activation.
+			</p>
+			<fig position="float" id="fig4">
+				<label>Figure 4.</label>
+				<caption>
+					<p>
+						Impaired activation and NF-&#x003ba;B signaling in PKC&#x003b2;
+						<sup>&#x02212;/&#x02212;</sup>
+						B cells after BCR cross-linking. Absence of IKK&#x003b1;
+						activation and shortened IKK&#x003b2; activation in PKC&#x003b2;
+						<sup>&#x02212;/&#x02212;</sup>
+						B cells. Splenic B cells of PKC&#x003b2;
+						<sup>&#x02212;/&#x02212;</sup>
+						and PKC&#x003b2;
+						<sup>+/+</sup>
+						mice were stimulated with 20 &#x003bc;g/ml of anti-IgM antibody
+						(A, top panel) or 10 &#x003bc;g/ml anti-CD40 (B, top panel) for
+						the indicated time (min). Western blot analysis of cytoplasmic
+						extracts were done simultaneously with antibodies specific for
+						phospho-Ser180 and phospho-Ser181 of IKK&#x003b1; and
+						IKK&#x003b2;, respectively (top panel). The membrane was stripped
+						and reprobed with antibodies recognizing nonphosphorylated
+						IKK&#x003b1; and IKK&#x003b2;. For quantification, band
+						intensities of the phosphorylation site&#x02013;specific blots
+						were first normalized to the respective signal of unphosphorylated
+						protein and then calculated as fold-change relative to
+						unstimulated PKC&#x003b2;
+						<sup>+/+</sup>
+						, which was set to 1.0. Inefficient degradation and
+						phosphorylation of I&#x003ba;B&#x003b1; after IgM cross-linking on
+						PKC&#x003b2;
+						<sup>&#x02212;/&#x02212;</sup>
+						B cells (A, middle panel) and no alteration in IkBa
+						phosphorylation and degradation after CD40 stimulation (B, middle
+						panel). Splenic B cells were treated as in A. I&#x003ba;B&#x003b1;
+						expression (top) and Ser32 phosphorylation (middle) were analyzed
+						by Western blotting. Equal protein loading was controlled by
+						anti-actin Western blotting (bottom). Quantification was done as
+						in
+						<xref rid="fig2" ref-type="fig">Fig. 2</xref>
+						. Reduced DNA binding activity of NF-&#x003ba;B in PKC&#x003b2;
+						<sup>&#x02212;/&#x02212;</sup>
+						B cells after BCR cross-linking (A, bottom panel) and no
+						alteration after CD40 stimulation (B, bottom panel). EMSA was
+						performed with nuclear extracts of splenic B cells treated as in
+						above. The specificity of NF-&#x003ba;B shift was confirmed by
+						supershift with antibodies for p50, RelA, and c-Rel (Ab) and by
+						using mutant oligonucleotides (m). For quantification, signal
+						intensities were first normalized to the respective signal of an
+						Oct-1 EMSA done with the same nuclear lysates and then calculated
+						as fold-change relative to unstimulated PKC&#x003b2;
+						<sup>+/+</sup>
+						, which was set to 1.0.
+					</p>
+				</caption>
+				<graphic xlink:href="020408f4a"></graphic>
+				<graphic xlink:href="020408f4b"></graphic>
+			</fig>
+			<p>
+				In wild-type B cells, the BCR-mediated activation of IKK&#x003b1; is
+				followed by phosphorylation of I&#x003ba;B&#x003b1;. This in turn
+				leads to I&#x003ba;B&#x003b1; degradation and translocation of the
+				Rel proteins to the nucleus. Deficiency in PKC&#x003b2; and ensuing
+				defective IKK&#x003b1; and IKK&#x003b2; phosphorylation result in
+				impaired I&#x003ba;B&#x003b1; phosphorylation and degradation (
+				<xref rid="fig4" ref-type="fig">Fig. 4</xref>
+				A, middle panel). Congruently, activation of NF-&#x003ba;B is
+				reduced in PKC&#x003b2;-deficient B cells (
+				<xref rid="fig4" ref-type="fig">Fig. 4</xref>
+				A, bottom panel).
+			</p>
+			<p>
+				To test whether impaired NF-&#x003ba;B activation in
+				PKC&#x003b2;-deficient B cells is specific for BCR-mediated signals,
+				we tested stimulation of PKC&#x003b2;-deficient B cells through
+				CD40, which in wild-type B cells also leads to NF-&#x003ba;B
+				activation. The analysis of IKK&#x003b1; and IKK&#x003b2;
+				phosphorylation in PKC&#x003b2;-deficient B cells stimulated through
+				CD40 reveals a paucity in IKK&#x003b1; phosphorylaytion similar to
+				that observed after BCR engagement (
+				<xref rid="fig4" ref-type="fig">Fig. 4</xref>
+				B, top panel). However, the CD40-mediated phosphorylation and
+				degradation of I&#x003ba;B&#x003b1;, as well as the induction of
+				NF-&#x003ba;B DNA-binding activity, are not impaired in
+				PKC&#x003b2;-deficient B cells (
+				<xref rid="fig4" ref-type="fig">Fig. 4</xref>
+				B, middle and bottom panel). As a member of the TNF receptor family,
+				CD40-mediated NF-&#x003ba;B activation is thought to require a
+				different set of signaling molecules compared with BCR-mediated
+				NF-&#x003ba;B activation, namely TRAF2, 3, 5, and 6 (
+				<xref ref-type="bibr" rid="bib25">25</xref>
+				). Possibly in CD40/TRAF-mediated NF-&#x003ba;B activation
+				IKK&#x003b2; activation by itself is sufficient, or other kinases,
+				like NIK, can substitute for IKK&#x003b1; (
+				<xref ref-type="bibr" rid="bib26">26</xref>
+				). In agreement with the normal induction of Rel family proteins
+				CD40 stimulation alone improves the survival of
+				PKC&#x003b2;-deficient B cells to wild-type levels (data not shown).
+				This is also consistent with the finding that the CD40-mediated
+				induction of anti-apoptotic A1 is not impaired in
+				IKK&#x003b1;-deficient B cells (
+				<xref ref-type="bibr" rid="bib27">27</xref>
+				). In contrast to IgM stimulation, CD40-mediated proliferative
+				responses are only mildly impaired in PKC&#x003b2;-deficient B cells
+				(
+				<xref ref-type="bibr" rid="bib13">13</xref>
+				), which is also seen in IKK&#x003b1;-deficient B cells (
+				<xref ref-type="bibr" rid="bib27">27</xref>
+				). In conclusion, the PKC&#x003b2;-mediated regulation of
+				NF-&#x003ba;B activation is largely specific for BCR-mediated
+				signaling and has only a minor impact on CD40 mediated B cell
+				activation.
+			</p>
+			<p>
+				The pattern of defective NF-&#x003ba;B activation is very similar in
+				B cells of PKC&#x003b2;-deficient and Xid mice (
+				<xref ref-type="bibr" rid="bib9">9</xref>
+				,
+				<xref ref-type="bibr" rid="bib10">10</xref>
+				). As PKC&#x003b2; can act as a negative regulator of Btk, the
+				similar effect of both mutations on NF-&#x003ba;B activation appears
+				paradoxical. However, increased or decreased Btk-mediated signaling
+				may have the same outcome, as shown by the severe Xid-like phenotype
+				of mice expressing a constitutively active Btk mutant (
+				<xref ref-type="bibr" rid="bib28">28</xref>
+				,
+				<xref ref-type="bibr" rid="bib29">29</xref>
+				). We think that in addition to its inhibitory role for Btk
+				activation, PKC&#x003b2; may also act downstream of Btk to mediate
+				the activation of IKKs. It remains to be seen whether PKC&#x003b2;
+				regulates IKKs through direct phosphorylation. As the activation
+				loop serine residues of IKK&#x003b1; or IKK&#x003b2; are not part of
+				a PKC consensus phosphorylation site, other serine/threonine
+				residues of IKK&#x003b1; and IKK&#x003b2; may serve as direct
+				substrates for PKC&#x003b2;. Interestingly, a low stringency scan
+				for common PKC phosphorylation sites returns several potential sites
+				for IKK&#x003b1;, but none for IKK&#x003b2; (
+				<xref ref-type="bibr" rid="bib30">30</xref>
+				). Alternatively, PKC&#x003b2; may regulate IKKs indirectly through
+				an intermediate kinase that would be directly controlled by
+				PKC&#x003b2;. Regardless of the exact mechanism of the PKC&#x003b2;
+				involvement in IKKs phosphorylation, the data presented reveal
+				PKC&#x003b2; as a novel component of the NF-&#x003ba;B signaling
+				axis responsible for the survival and activation of B cells after
+				BCR cross-linking.
+			</p>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<p>We thank Michel Nussenzweig and Tsuneyasu Kaisho for the valuable
+				discussion.</p>
+			<p>This study was supported by grants from Systemic Lupus
+				Erythematosus foundation (K. Saijo), The Rockefeller University's
+				Women &#x00026; Science Fellowship Program (I.
+				Mecklenbr&#x000e4;uker), The Rockefeller University Presidential
+				Fellowship (C. Schmedt), National Institutes of Health (C. Schmedt,
+				A. Santana, A. Tarakhovsky), and The Irene Diamond Fund (A.
+				Tarakhovsky).</p>
+		</ack>
+		<ref-list>
+			<ref id="bib1">
+				<label>1</label>
+				<citation citation-type="journal">
+					Rajewsky, K.
+					<year>1996</year>
+					. Clonal selection and learning in the antibody system.
+					<source>Nature.</source>
+					<volume>381</volume>
+					:
+					<fpage>751</fpage>
+					&#x02013;758.
+					<pub-id pub-id-type="pmid">8657279</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib2">
+				<label>2</label>
+				<citation citation-type="journal">
+					Fulcher, D.A., and A. Basten.
+					<year>1997</year>
+					. B cell life span: a review.
+					<source>Immunol. Cell Biol.</source>
+					<volume>75</volume>
+					:
+					<fpage>446</fpage>
+					&#x02013;455.
+					<pub-id pub-id-type="pmid">9429891</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib3">
+				<label>3</label>
+				<citation citation-type="journal">
+					Conley, M.E., and M.D. Cooper.
+					<year>1998</year>
+					. Genetic basis of abnormal B cell development.
+					<source>Curr. Opin. Immunol.</source>
+					<volume>10</volume>
+					:
+					<fpage>399</fpage>
+					&#x02013;406.
+					<pub-id pub-id-type="pmid">9722915</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib4">
+				<label>4</label>
+				<citation citation-type="journal">
+					Satterthwaite, A., and O. Witte.
+					<year>1996</year>
+					. Genetic analysis of tyrosine kinase function in B cell
+					development.
+					<source>Annu. Rev. Immunol.</source>
+					<volume>14</volume>
+					:
+					<fpage>131</fpage>
+					&#x02013;154.
+					<pub-id pub-id-type="pmid">8717510</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib5">
+				<label>5</label>
+				<citation citation-type="journal">
+					Lam, K.P., R. Kuhn, and K. Rajewsky.
+					<year>1997</year>
+					. In vivo ablation of surface immunoglobulin on mature B cells by
+					inducible gene targeting results in rapid cell death.
+					<source>Cell.</source>
+					<volume>90</volume>
+					:
+					<fpage>1073</fpage>
+					&#x02013;1083.
+					<pub-id pub-id-type="pmid">9323135</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib6">
+				<label>6</label>
+				<citation citation-type="journal">
+					Karin, M., and A. Lin.
+					<year>2002</year>
+					. NF-&#x003ba;B at the crossroads of life and death.
+					<source>Nat. Immunol.</source>
+					<volume>3</volume>
+					:
+					<fpage>221</fpage>
+					&#x02013;227.
+					<pub-id pub-id-type="pmid">11875461</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib7">
+				<label>7</label>
+				<citation citation-type="journal">
+					Karin, M., and Y. Ben-Neriah.
+					<year>2000</year>
+					. Phosphorylation meets ubiquitination: the control of
+					NF-&#x003ba;B activity.
+					<source>Annu. Rev. Immunol.</source>
+					<volume>18</volume>
+					:
+					<fpage>621</fpage>
+					&#x02013;663.
+					<pub-id pub-id-type="pmid">10837071</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib8">
+				<label>8</label>
+				<citation citation-type="journal">
+					Silverman, N., and T. Maniatis.
+					<year>2001</year>
+					. NF-&#x003ba;B signaling pathways in mammalian and insect innate
+					immunity.
+					<source>Genes Dev.</source>
+					<volume>15</volume>
+					:
+					<fpage>2321</fpage>
+					&#x02013;2342.
+					<pub-id pub-id-type="pmid">11562344</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib9">
+				<label>9</label>
+				<citation citation-type="journal">
+					Petro, J.B., S.M. Rahman, D.W. Ballard, and W.N. Khan.
+					<year>2000</year>
+					. Bruton's tyrosine kinase is required for activation of
+					I&#x003ba;B kinase and nuclear factor &#x003ba;B in response to B
+					cell receptor engagement.
+					<source>J. Exp. Med.</source>
+					<volume>191</volume>
+					:
+					<fpage>1745</fpage>
+					&#x02013;1754.
+					<pub-id pub-id-type="pmid">10811867</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib10">
+				<label>10</label>
+				<citation citation-type="journal">
+					Bajpai, U.D., K. Zhang, M. Teutsch, R. Sen, and H.H. Wortis.
+					<year>2000</year>
+					. Bruton's tyrosine kinase links the B cell receptor to nuclear
+					factor &#x003ba;B activation.
+					<source>J. Exp. Med.</source>
+					<volume>191</volume>
+					:
+					<fpage>1735</fpage>
+					&#x02013;1744.
+					<pub-id pub-id-type="pmid">10811866</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib11">
+				<label>11</label>
+				<citation citation-type="journal">
+					Khan, W.N.
+					<year>2001</year>
+					. Regulation of B lymphocyte development and activation by Bruton's
+					tyrosine kinase.
+					<source>Immunol. Res.</source>
+					<volume>23</volume>
+					:
+					<fpage>147</fpage>
+					&#x02013;156.
+					<pub-id pub-id-type="pmid">11444380</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib12">
+				<label>12</label>
+				<citation citation-type="journal">
+					Anderson, J.S., M. Teutsch, Z. Dong, and H.H. Wortis.
+					<year>1996</year>
+					. An essential role for Bruton's tyrosine kinase in the regulation
+					of B-cell apoptosis.
+					<source>Proc. Natl. Acad. Sci. USA.</source>
+					<volume>93</volume>
+					:
+					<fpage>10966</fpage>
+					&#x02013;10971.
+					<pub-id pub-id-type="pmid">8855292</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib13">
+				<label>13</label>
+				<citation citation-type="journal">
+					Leitges, M., C. Schmedt, R. Guinamard, J. Davoust, S. Schaal, S.
+					Stabel, and A. Tarakhovsky.
+					<year>1996</year>
+					. Immunodeficiency in protein kinase Cbeta-deficient mice.
+					<source>Science.</source>
+					<volume>273</volume>
+					:
+					<fpage>788</fpage>
+					&#x02013;791.
+					<pub-id pub-id-type="pmid">8670417</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib14">
+				<label>14</label>
+				<citation citation-type="journal">
+					Chan, V.W., I. Mecklenbrauker, I. Su, G. Texido, M. Leitges, R.
+					Carsetti, C.A. Lowell, K. Rajewsky, K. Miyake, and A. Tarakhovsky.
+					<year>1998</year>
+					. The molecular mechanism of B cell activation by toll-like
+					receptor protein RP-105.
+					<source>J. Exp. Med.</source>
+					<volume>188</volume>
+					:
+					<fpage>93</fpage>
+					&#x02013;101.
+					<pub-id pub-id-type="pmid">9653087</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib15">
+				<label>15</label>
+				<citation citation-type="journal">
+					Kang, S.W., M.I. Wahl, J. Chu, J. Kitaura, Y. Kawakami, R.M. Kato,
+					R. Tabuchi, A. Tarakhovsky, T. Kawakami, C.W. Turck, et al.
+					<year>2001</year>
+					. PKCbeta modulates antigen receptor signaling via regulation of
+					Btk membrane localization.
+					<source>EMBO J.</source>
+					<volume>20</volume>
+					:
+					<fpage>5692</fpage>
+					&#x02013;5702.
+					<pub-id pub-id-type="pmid">11598012</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib16">
+				<label>16</label>
+				<citation citation-type="journal">
+					Texido, G., I.H. Su, I. Mecklenbrauker, K. Saijo, S.N. Malek, S.
+					Desiderio, K. Rajewsky, and A. Tarakhovsky.
+					<year>2000</year>
+					. The B-cell-specific Src-family kinase Blk is dispensable for
+					B-cell development and activation.
+					<source>Mol. Cell. Biol.</source>
+					<volume>20</volume>
+					:
+					<fpage>1227</fpage>
+					&#x02013;1233.
+					<pub-id pub-id-type="pmid">10648608</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib17">
+				<label>17</label>
+				<citation citation-type="journal">
+					Yamashita, Y., K. Miyake, Y. Kikuchi, K. Takatsu, S. Noda, A.
+					Kosugi, and M. Kimoto.
+					<year>1995</year>
+					. A monoclonal antibody against a murine CD38 homologue delivers a
+					signal to B cells for prolongation of survival and protection
+					against apoptosis in vitro: unresponsiveness of X-linked
+					immunodeficient B cells.
+					<source>Immunology.</source>
+					<volume>85</volume>
+					:
+					<fpage>248</fpage>
+					&#x02013;255.
+					<pub-id pub-id-type="pmid">7642213</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib18">
+				<label>18</label>
+				<citation citation-type="journal">
+					Miyake, K., Y. Yamashita, M. Ogata, T. Sudo, and M. Kimoto.
+					<year>1995</year>
+					. RP105, a novel B cell surface molecule implicated in B cell
+					activation, is a member of the leucine-rich repeat protein family.
+					<source>J. Immunol.</source>
+					<volume>154</volume>
+					:
+					<fpage>3333</fpage>
+					&#x02013;3340.
+					<pub-id pub-id-type="pmid">7897216</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib19">
+				<label>19</label>
+				<citation citation-type="journal">
+					Meclenbr&#x000e4;uker, I., K. Saijo, N.Y. Zheng, M. Leitges, and A.
+					Tarakhovsky.
+					<year>2002</year>
+					. Protein kinase C&#x003b4; controls self-antigen&#x02013;induced
+					B-cell tolerance.
+					<source>Nature</source>
+					.
+					<volume>416</volume>
+					:
+					<fpage>860</fpage>
+					&#x02013;865.
+					<pub-id pub-id-type="pmid">11976686</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib20">
+				<label>20</label>
+				<citation citation-type="journal">
+					Mori, M., S.C. Morris, T. Orekhova, M. Marinaro, E. Giannini, and
+					F.D. Finkelman.
+					<year>2000</year>
+					. IL-4 promotes the migration of circulating B cells to the spleen
+					and increases splenic B cell survival.
+					<source>J. Immunol.</source>
+					<volume>164</volume>
+					:
+					<fpage>5704</fpage>
+					&#x02013;5712.
+					<pub-id pub-id-type="pmid">10820247</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib21">
+				<label>21</label>
+				<citation citation-type="journal">
+					Baichwal, V.R., and P.A. Baeuerle.
+					<year>1997</year>
+					. Activate NF-kappa B or die?
+					<source>Curr. Biol.</source>
+					<volume>7</volume>
+					:
+					<fpage>R94</fpage>
+					&#x02013;R96.
+					<pub-id pub-id-type="pmid">9081673</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib22">
+				<label>22</label>
+				<citation citation-type="journal">
+					Wu, M., H. Lee, R.E. Bellas, S.L. Schauer, M. Arsura, D. Katz, M.J.
+					FitzGerald, T.L. Rothstein, D.H. Sherr, and G.E. Sonenshein.
+					<year>1996</year>
+					. Inhibition of NF-kappaB/Rel induces apoptosis of murine B cells.
+					<source>EMBO J.</source>
+					<volume>15</volume>
+					:
+					<fpage>4682</fpage>
+					&#x02013;4690.
+					<pub-id pub-id-type="pmid">8887559</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib23">
+				<label>23</label>
+				<citation citation-type="journal">
+					Senftleben, U., Y. Cao, G. Xiao, F.R. Greten, G. Krahn, G. Bonizzi,
+					Y. Chen, Y. Hu, A. Fong, S.C. Sun, and M. Karin.
+					<year>2001</year>
+					. Activation by IKK&#x003b1; of a second, evolutionary conserved,
+					NF-&#x003ba; B signaling pathway.
+					<source>Science.</source>
+					<volume>293</volume>
+					:
+					<fpage>1495</fpage>
+					&#x02013;1499.
+					<pub-id pub-id-type="pmid">11520989</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib24">
+				<label>24</label>
+				<citation citation-type="journal">
+					Delhase, M., M. Hayakawa, Y. Chen, and M. Karin.
+					<year>1999</year>
+					. Positive and negative regulation of I&#x003ba;B kinase activity
+					through IKK&#x003b2; subunit phosphorylation.
+					<source>Science.</source>
+					<volume>284</volume>
+					:
+					<fpage>309</fpage>
+					&#x02013;313.
+					<pub-id pub-id-type="pmid">10195894</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib25">
+				<label>25</label>
+				<citation citation-type="journal">
+					Arch, R.H., R.W. Gedrich, and C.B. Thompson.
+					<year>1998</year>
+					. Tumor necrosis factor receptor-associated factors
+					(TRAFs)&#x02014;a family of adapter proteins that regulates life
+					and death.
+					<source>Genes Dev.</source>
+					<volume>12</volume>
+					:
+					<fpage>2821</fpage>
+					&#x02013;2830.
+					<pub-id pub-id-type="pmid">9744859</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib26">
+				<label>26</label>
+				<citation citation-type="journal">
+					Garceau, N., Y. Kosaka, S. Masters, J. Hambor, R. Shinkura, T.
+					Honjo, and R.J. Noelle.
+					<year>2000</year>
+					. Lineage-restricted function of nuclear factor &#x003ba;B-inducing
+					kinase (NIK) in transducing signals via CD40.
+					<source>J. Exp. Med.</source>
+					<volume>191</volume>
+					:
+					<fpage>381</fpage>
+					&#x02013;386.
+					<pub-id pub-id-type="pmid">10637282</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib27">
+				<label>27</label>
+				<citation citation-type="journal">
+					Kaisho, T., K. Takeda, T. Tsujimura, T. Kawai, F. Nomura, N.
+					Terada, and S. Akira.
+					<year>2001</year>
+					. I&#x003ba;B kinase &#x003b1; is essential for mature B cell
+					development and function.
+					<source>J. Exp. Med.</source>
+					<volume>193</volume>
+					:
+					<fpage>417</fpage>
+					&#x02013;426.
+					<pub-id pub-id-type="pmid">11181694</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib28">
+				<label>28</label>
+				<citation citation-type="journal">
+					Dingjan, G.M., A. Maas, M.C. Nawijn, L. Smit, J.S. Voerman, F.
+					Grosveld, and R.W. Hendriks.
+					<year>1998</year>
+					. Severe B cell deficiency and disrupted splenic architecture in
+					transgenic mice expressing the E41K mutated form of Bruton's
+					tyrosine kinase.
+					<source>EMBO J.</source>
+					<volume>17</volume>
+					:
+					<fpage>5309</fpage>
+					&#x02013;5320.
+					<pub-id pub-id-type="pmid">9736610</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib29">
+				<label>29</label>
+				<citation citation-type="journal">
+					Maas, A., G.M. Dingjan, F. Grosveld, and R.W. Hendriks.
+					<year>1999</year>
+					. Early arrest in B cell development in transgenic mice that
+					express the E41K Bruton's tyrosine kinase mutant under the control
+					of the CD19 promoter region.
+					<source>J. Immunol.</source>
+					<volume>162</volume>
+					:
+					<fpage>6526</fpage>
+					&#x02013;6533.
+					<pub-id pub-id-type="pmid">10352268</pub-id>
+				</citation>
+			</ref>
+			<ref id="bib30">
+				<label>30</label>
+				<citation citation-type="journal">
+					Yaffe, M.B., G.G. Leparc, J. Lai, T. Obata, S. Volinia, and L.C.
+					Cantley.
+					<year>2001</year>
+					. A motif-based profile scanning approach for genome-wide
+					prediction of signaling pathways.
+					<source>Nat. Biotechnol.</source>
+					<volume>19</volume>
+					:
+					<fpage>348</fpage>
+					&#x02013;353.
+					<pub-id pub-id-type="pmid">11283593</pub-id>
+				</citation>
+			</ref>
+		</ref-list>
+	</back>
+</article>
+
+

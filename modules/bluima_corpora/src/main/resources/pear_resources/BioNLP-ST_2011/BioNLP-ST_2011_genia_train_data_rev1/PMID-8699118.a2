@@ -1,0 +1,6 @@
+T5	Gene_expression 157 167	expression
+T6	Gene_expression 1024 1032	produced
+E1	Gene_expression:T5 Theme:T1
+E2	Gene_expression:T5 Theme:T2
+E3	Gene_expression:T6 Theme:T4
+E4	Gene_expression:T6 Theme:T3

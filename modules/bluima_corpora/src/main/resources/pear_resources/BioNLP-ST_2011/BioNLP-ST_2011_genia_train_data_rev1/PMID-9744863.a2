@@ -1,0 +1,11 @@
+T10	Binding 12 31	binding specificity
+T11	Positive_regulation 242 250	required
+T12	Positive_regulation 261 271	activation
+T13	Positive_regulation 315 324	essential
+T14	Binding 470 478	interact
+E1	Binding:T10 Theme:T2
+E2	Binding:T10 Theme:T1
+E3	Positive_regulation:T11 Theme:E4
+E4	Positive_regulation:T12 Theme:T5
+E5	Positive_regulation:T13 Theme:E4
+E6	Binding:T14 Theme:T6

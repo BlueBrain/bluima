@@ -1,0 +1,35 @@
+*	Equiv T1 T2
+*	Equiv T4 T3 T5
+T30	Positive_regulation 83 93	activation
+T31	Entity 126 134	promoter
+T32	Binding 476 489	binding sites
+T33	Binding 687 692	binds
+T34	Entity 730 738	promoter
+T35	Positive_regulation 764 773	important
+T36	Entity 782 790	promoter
+T37	Binding 887 907	physically interacts
+T38	Entity 917 942	paired DNA-binding domain
+T39	Positive_regulation 1029 1038	important
+T40	Regulation 1059 1069	regulation
+T41	Binding 1087 1107	Physical interaction
+T42	Positive_regulation 1227 1235	activate
+T43	Transcription 1249 1262	transcription
+T44	Binding 1335 1347	interactions
+T45	Positive_regulation 1398 1414	important factor
+T46	Regulation 1419 1429	regulating
+E1	Positive_regulation:T30 Theme:T6 Cause:T4 Site:T31
+E2	Positive_regulation:T30 Theme:T6 Cause:T1 Site:T31
+E3	Binding:T32 Theme:T10
+E4	Binding:T33 Theme:T14 Theme2:T15 Site2:T34
+E5	Positive_regulation:T35 Theme:T16 Site:T36
+E6	Binding:T37 Theme:T18 Site:T38
+E7	Positive_regulation:T39 Theme:E8 Cause:T19
+E8	Regulation:T40 Theme:T20
+E9	Binding:T41 Theme:T21 Theme2:T22
+E10	Positive_regulation:T42 Theme:E12 Cause:T24
+E11	Positive_regulation:T42 Theme:E12 Cause:T23
+E12	Transcription:T43 Theme:T25
+E13	Binding:T44 Theme:T26 Theme2:T27
+E14	Positive_regulation:T45 Theme:E15 Cause:T28
+E15	Regulation:T46 Theme:T29
+M1	Speculation E3

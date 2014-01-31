@@ -1,0 +1,37 @@
+# estimate size of docs on Mongo if i don't disambiguate
+
+cr: ch.epfl.bbp.uima.mongo.MongoCollectionReader
+ db_connection__java: new String[]{  "128.178.187.248", "pubmed_uima", "pm_ft", "", ""}  
+ query: {ftr.ns:1, pmid: { $gt: 15250000, $lt: 15260000 }}
+
+#cr: PubmedDatabaseCR
+# db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" } 
+# between__java: new int[]{126,150}
+
+include: ../../../includes/preprocess.incl
+
+include: ../../../includes/lex-based-ners.incl
+
+ae: PunctuationAnnotator
+
+ae: WordnetAnnotator
+
+ae: GeneralEnglishAnnotator
+
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+
+ae: PruneMeasuresAnnotator
+
+ae: LinnaeusAnnotator
+
+ae: SkipSomePosAnnotator
+
+ae: DeduplicatorAnnotator
+ annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.BiolexiconDictTerm"}
+
+ae: ch.epfl.bbp.uima.mongo.MongoWriter
+ db_connection__java: new String[]{  "128.178.187.248", "test2", "20130328_bs2_ft_estimate_size", "", ""} 
+
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 1

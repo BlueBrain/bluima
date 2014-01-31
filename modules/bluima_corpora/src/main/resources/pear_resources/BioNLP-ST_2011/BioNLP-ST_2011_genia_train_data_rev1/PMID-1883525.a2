@@ -1,0 +1,23 @@
+*	Equiv T4 T3
+T21	Regulation 0 10	Regulation
+T22	Gene_expression 20 30	expression
+T23	Binding 265 272	binding
+T24	Gene_expression 422 432	expression
+T25	Positive_regulation 495 498	act
+T26	Positive_regulation 574 580	induce
+T27	Gene_expression 585 595	expression
+T28	Negative_regulation 1084 1093	abolishes
+T29	Positive_regulation 1094 1103	induction
+T30	Positive_regulation 1386 1395	induction
+E1	Regulation:T21 Theme:E2 Cause:T2
+E2	Gene_expression:T22 Theme:T1
+E3	Binding:T23 Theme:T4
+E4	Gene_expression:T24 Theme:T7
+E5	Gene_expression:T24 Theme:T8
+E6	Positive_regulation:T25 Theme:T9
+E7	Positive_regulation:T26 Theme:E8 Cause:T10
+E8	Gene_expression:T27 Theme:T10
+E9	Negative_regulation:T28 Theme:E10
+E10	Positive_regulation:T29 Theme:T16 Cause:T17
+E11	Positive_regulation:T30 Theme:T20 Cause:T19
+M1	Speculation E6

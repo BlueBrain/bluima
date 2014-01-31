@@ -1,0 +1,5 @@
+As the problem was raised in connection with the calibration on straight edges and
+on a coordinate measuring machine it was an obvious choise to implement the
+above described algorithm within the calibration software. It is written in Visual
+Basic and receives data from an Excel table. The output is the final calibration
+certificate while the data values and the evaluation result are archived.

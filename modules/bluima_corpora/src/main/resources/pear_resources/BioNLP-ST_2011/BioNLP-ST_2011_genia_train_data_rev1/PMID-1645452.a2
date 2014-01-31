@@ -1,0 +1,31 @@
+*	Equiv T3 T2
+T10	Positive_regulation 129 140	enhancement
+T11	Positive_regulation 163 173	stimulated
+T12	Transcription 207 213	levels
+T13	Positive_regulation 607 619	accumulation
+T14	Regulation 733 743	regulation
+T15	Gene_expression 799 808	expressed
+T16	Positive_regulation 836 845	increased
+T17	Positive_regulation 932 941	augmented
+T18	Regulation 1398 1404	effect
+T19	Transcription 1442 1452	appearance
+T20	Positive_regulation 1453 1467	in response to
+T21	Positive_regulation 1522 1531	increased
+E1	Positive_regulation:T10 Theme:E2
+E2	Positive_regulation:T11 Theme:E3
+E3	Transcription:T12 Theme:T1
+E4	Positive_regulation:T13 Theme:T3
+E5	Positive_regulation:T13 Theme:T4
+E6	Regulation:T14 Theme:E5
+E7	Regulation:T14 Theme:E4
+E8	Gene_expression:T15 Theme:T5
+E9	Positive_regulation:T16 Theme:T6
+E10	Positive_regulation:T17 Theme:T7
+E11	Regulation:T18 Theme:E13
+E12	Transcription:T19 Theme:T8
+E13	Positive_regulation:T20 Theme:E12
+E14	Positive_regulation:T21 Theme:T9
+M1	Speculation E4
+M2	Speculation E5
+M3	Speculation E6
+M4	Speculation E7

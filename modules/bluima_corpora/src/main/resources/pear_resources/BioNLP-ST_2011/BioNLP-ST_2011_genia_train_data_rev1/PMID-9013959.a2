@@ -1,0 +1,23 @@
+*	Equiv T9 T10
+*	Equiv T7 T8
+T17	Localization 220 228	secreted
+T18	Regulation 539 550	responsible
+T19	Gene_expression 571 581	expression
+T20	Binding 671 678	binding
+T21	Gene_expression 1135 1144	producing
+T22	Regulation 1485 1489	role
+T23	Regulation 1510 1520	regulation
+T24	Gene_expression 1534 1544	expression
+E1	Localization:T17 Theme:T3
+E2	Regulation:T18 Theme:E3
+E3	Gene_expression:T19 Theme:T5
+E4	Binding:T20 Theme:T6
+E5	Gene_expression:T21 Theme:T13
+E6	Regulation:T22 Theme:E7
+E7	Regulation:T23 Theme:E8
+E8	Gene_expression:T24 Theme:T16
+M1	Negation E1
+M2	Speculation E2
+M3	Speculation E3
+M4	Speculation E4
+M5	Speculation E6

@@ -1,0 +1,66 @@
+########################################################################################
+#
+# extract IonChannels x SubcellLocation, using simple co-occurrence
+#
+# $1 job id (for input and output files)
+# 
+########################################################################################
+
+#cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+# inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/crawled_bams_pdfs
+
+
+cr: FromFilelistReader
+ inputFile: /nfs4/bbp.epfl.ch/user/richarde/dev/bluebrain/release_20131003/pipelines/projects/extract_IC/20130930_slurm/inputFiles/$1.txt
+ format__java: true
+ pathPrefix: /nfs4/bbp.epfl.ch/scratch/richarde/pdfs/
+
+ae: ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+
+ 
+########################################################################################
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/blueonto1/region")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/blueonto1/ionchannel")
+
+ae: DeduplicatorAnnotator
+ annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.RegionDictTerm", "ch.epfl.bbp.uima.types.IonchannelDictTerm"}
+
+
+########################################################################################
+# NO DISTANCE
+
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence 
+ firstAnnotation: ch.epfl.bbp.uima.types.RegionDictTerm
+ secondAnnotation: ch.epfl.bbp.uima.types.IonchannelDictTerm
+
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile
+ #outputFile: target/cooc.txt
+ outputFile: /nfs4/bbp.epfl.ch/simulation/nlp/data/20131003_ic-X-subcell/$1_cooc.txt
+ writeSnippets__java: false
+
+########################################################################################
+# DISTANCE
+
+ae: RemoveAnnotationsAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.Cooccurrence
+
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrencesFilterDistance
+ enclosingScope: de.julielab.jules.types.Sentence 
+ firstAnnotation: ch.epfl.bbp.uima.types.RegionDictTerm
+ secondAnnotation: ch.epfl.bbp.uima.types.IonchannelDictTerm
+ maximumDistance__java: 50
+
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile
+ outputFile: /nfs4/bbp.epfl.ch/simulation/nlp/data/20131003_ic-X-subcell/$1_cooc_50.txt
+ #outputFile: target/cooc_50.txt
+
+########################################################################################
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

@@ -1,0 +1,16 @@
+# 20130220
+#
+# for slurm / viz cluster
+#
+# $1,$2 from,to db
+# $3 output dir
+#
+
+cr: PubmedDatabaseCR
+ between__java: new int[]{ $1 , $2 }
+
+include: ../../includes/preprocess_full.incl
+
+ae: SkipSomePosAnnotator
+
+ae: ViterbiFilterAnnotator

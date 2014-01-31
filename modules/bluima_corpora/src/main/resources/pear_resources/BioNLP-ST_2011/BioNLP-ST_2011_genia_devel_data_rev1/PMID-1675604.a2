@@ -1,0 +1,34 @@
+T18	Binding 135 140	binds
+T19	Entity 148 158	enhancer A
+T20	Binding 415 435	binds as a homodimer
+T21	Binding 449 466	form heterodimers
+T22	Binding 690 694	bind
+T23	Binding 714 724	form homo-
+T24	Binding 728 740	heterodimers
+T25	Negative_regulation 777 797	reduces or abolishes
+T26	Binding 815 822	binding
+E1	Binding:T18 Theme:T1 Theme2:T2 Site2:T19
+E2	Binding:T20 Theme:T4
+E3	Binding:T20 Theme:T5
+E4	Binding:T21 Theme:T4 Theme2:T6
+E5	Binding:T21 Theme:T5 Theme2:T7
+E6	Binding:T21 Theme:T5 Theme2:T6
+E7	Binding:T21 Theme:T4 Theme2:T7
+E8	Binding:T22 Theme:T11
+E9	Binding:T22 Theme:T10
+E10	Binding:T23 Theme:T11
+E11	Binding:T23 Theme:T10
+E12	Binding:T24 Theme:T6 Theme2:T11
+E13	Binding:T24 Theme:T7 Theme2:T11
+E14	Binding:T24 Theme:T6 Theme2:T10
+E15	Binding:T24 Theme:T7 Theme2:T10
+E16	Negative_regulation:T25 Theme:E22 Cause:T11
+E17	Negative_regulation:T25 Theme:E21 Cause:T11
+E18	Negative_regulation:T25 Theme:E20 Cause:T11
+E19	Negative_regulation:T25 Theme:E23 Cause:T11
+E20	Binding:T26 Theme:T15
+E21	Binding:T26 Theme:T13
+E22	Binding:T26 Theme:T12
+E23	Binding:T26 Theme:T14
+M1	Negation E8
+M2	Negation E9

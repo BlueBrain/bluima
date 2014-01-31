@@ -1,0 +1,26 @@
+T35	Gene_expression 253 265	coexpressing
+T36	Positive_regulation 377 389	costimulated
+T37	Transcription 395 408	transcription
+T38	Transcription 413 428	mRNA expression
+T39	Positive_regulation 454 462	increase
+T40	Transcription 471 484	transcription
+T41	Regulation 545 551	effect
+T42	Regulation 1703 1710	effects
+T43	Gene_expression 1749 1759	expression
+E1	Gene_expression:T35 Theme:T6
+E2	Gene_expression:T35 Theme:T5
+E3	Positive_regulation:T36 Theme:E7 Cause:T7
+E4	Positive_regulation:T36 Theme:E8 Cause:T7
+E5	Positive_regulation:T36 Theme:E8 Cause:T8
+E6	Positive_regulation:T36 Theme:E7 Cause:T8
+E7	Transcription:T37 Theme:T9
+E8	Transcription:T38 Theme:T9
+E9	Positive_regulation:T39 Theme:E10
+E10	Transcription:T40 Theme:T11
+E11	Regulation:T41 Theme:E10 Cause:T14
+E12	Regulation:T41 Theme:E10 Cause:T15
+E13	Regulation:T42 Theme:E14
+E14	Gene_expression:T43 Theme:T34
+M1	Negation E5
+M2	Negation E6
+M3	Speculation E13

@@ -1,0 +1,20 @@
+T12	Positive_regulation 20 29	induction
+T13	Positive_regulation 529 536	induces
+T14	Positive_regulation 753 762	induction
+T15	Positive_regulation 812 819	induced
+T16	Positive_regulation 1021 1030	induction
+T17	Positive_regulation 1032 1041	Increased
+T18	Transcription 1042 1048	levels
+T19	Positive_regulation 1136 1145	induction
+T20	Positive_regulation 1216 1234	Positive induction
+E1	Positive_regulation:T12 Theme:T1
+E2	Positive_regulation:T13 Theme:T4
+E3	Positive_regulation:T14 Theme:T6
+E4	Positive_regulation:T15 Theme:T7
+E5	Positive_regulation:T16 Theme:T8
+E6	Positive_regulation:T17 Theme:E7
+E7	Transcription:T18 Theme:T9
+E8	Positive_regulation:T19 Theme:T10
+E9	Positive_regulation:T20 Theme:T11
+M1	Negation E2
+M2	Speculation E3

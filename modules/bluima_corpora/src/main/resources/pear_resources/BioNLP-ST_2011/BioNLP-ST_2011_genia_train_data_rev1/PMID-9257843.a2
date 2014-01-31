@@ -1,0 +1,28 @@
+*	Equiv T3 T2 T4
+T15	Gene_expression 188 197	expressed
+T16	Entity 570 578	promoter
+T17	Entity 591 600	initiator
+T18	Regulation 601 611	specifying
+T19	Entity 623 634	5' terminus
+T20	Entity 696 707	C/EBP motif
+T21	Binding 884 892	interact
+T22	Binding 968 973	bound
+T23	Binding 1135 1140	bound
+T24	Binding 1195 1203	replaced
+T25	Positive_regulation 1400 1426	exert a stimulatory effect
+T26	Regulation 1480 1491	controlling
+T27	Entity 1501 1509	promoter
+T28	Regulation 1574 1584	regulation
+E1	Gene_expression:T15 Theme:T3
+E2	Regulation:T18 Theme:T7 Cause:T6 Site:T19 CSite:T17
+E3	Binding:T21 Theme:T6 Site:T20
+E4	Binding:T21 Theme:T6 Site:T17
+E5	Binding:T22 Theme:T8
+E6	Binding:T23 Theme:T9
+E7	Binding:T24 Theme:T10
+E8	Binding:T24 Theme:T11
+E9	Binding:T24 Theme:T12
+E10	Positive_regulation:T25 Theme:T6 Cause:T13 Site:T16
+E11	Regulation:T26 Theme:T14 Site:T27
+E12	Regulation:T28 Theme:T14 Site:T27
+M1	Speculation E10

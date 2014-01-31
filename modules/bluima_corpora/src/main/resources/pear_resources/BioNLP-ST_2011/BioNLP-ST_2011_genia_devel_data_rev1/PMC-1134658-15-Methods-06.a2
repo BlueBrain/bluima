@@ -1,0 +1,31 @@
+T12	Transcription 39 49	expression
+T13	Gene_expression 61 71	expression
+T14	Transcription 576 591	mRNA expression
+T15	Gene_expression 926 936	expression
+T16	Gene_expression 1131 1141	expression
+T17	Gene_expression 1203 1222	have low expression
+E1	Transcription:T12 Theme:T3
+E2	Transcription:T12 Theme:T4
+E3	Transcription:T12 Theme:T5
+E4	Transcription:T12 Theme:T6
+E5	Gene_expression:T13 Theme:T2
+E6	Transcription:T14 Theme:T3
+E7	Transcription:T14 Theme:T4
+E8	Transcription:T14 Theme:T5
+E9	Transcription:T14 Theme:T6
+E10	Gene_expression:T15 Theme:T8
+E11	Gene_expression:T15 Theme:T9
+E12	Gene_expression:T16 Theme:T10
+E13	Gene_expression:T17 Theme:T11
+M1	Speculation E1
+M2	Speculation E2
+M3	Speculation E3
+M4	Speculation E4
+M5	Speculation E5
+M6	Speculation E6
+M7	Speculation E7
+M8	Speculation E8
+M9	Speculation E9
+M10	Speculation E10
+M11	Speculation E11
+M12	Speculation E12

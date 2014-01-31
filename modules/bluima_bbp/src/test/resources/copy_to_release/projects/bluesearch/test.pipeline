@@ -1,0 +1,12 @@
+
+cr: TextArrayReader
+ input__java: new String[]{"All these effects indicate a postsynaptic inhibitory action of these amino acids."}
+
+include: ../../includes/preprocess.incl
+
+ae: WordnetAnnotator
+
+
+ae: ch.epfl.bbp.uima.mongo.MongoUpdateWriter
+ db_connection__java: new String[]{  "128.178.187.248", "preprocessed", "20130317_pubmed_abstracts", "", ""} 
+ update_annotations__java: new String[]{ "ch.epfl.bbp.uima.types.WordnetDictTerm" }

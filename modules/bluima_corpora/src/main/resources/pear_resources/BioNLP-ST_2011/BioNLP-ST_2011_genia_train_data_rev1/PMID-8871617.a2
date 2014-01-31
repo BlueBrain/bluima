@@ -1,0 +1,38 @@
+T19	Gene_expression 555 564	expressed
+T20	Gene_expression 777 786	expressed
+T21	Positive_regulation 787 791	upon
+T22	Gene_expression 856 866	expression
+T23	Positive_regulation 892 900	modified
+T24	Positive_regulation 1192 1198	induce
+T25	Positive_regulation 1210 1222	accumulation
+T26	Positive_regulation 1260 1267	induces
+T27	Gene_expression 1274 1284	expression
+T28	Gene_expression 1393 1403	expression
+T29	Gene_expression 1528 1538	expression
+E1	Gene_expression:T19 Theme:T2
+E2	Gene_expression:T20 Theme:T4
+E3	Gene_expression:T20 Theme:T5
+E4	Positive_regulation:T21 Theme:E2
+E5	Positive_regulation:T21 Theme:E3
+E6	Gene_expression:T22 Theme:T8
+E7	Gene_expression:T22 Theme:T7
+E8	Positive_regulation:T23 Theme:E7
+E9	Positive_regulation:T23 Theme:E6 Cause:T6
+E10	Positive_regulation:T23 Theme:E7 Cause:T6
+E11	Positive_regulation:T23 Theme:E6
+E12	Positive_regulation:T24 Theme:E14 Cause:T10
+E13	Positive_regulation:T24 Theme:E14
+E14	Positive_regulation:T25 Theme:T11
+E15	Positive_regulation:T26 Theme:E16 Cause:T12
+E16	Gene_expression:T27 Theme:T13
+E17	Gene_expression:T28 Theme:T16
+E18	Gene_expression:T28 Theme:T14
+E19	Gene_expression:T28 Theme:T15
+E20	Gene_expression:T29 Theme:T17
+M1	Negation E1
+M2	Negation E4
+M3	Negation E5
+M4	Negation E8
+M5	Negation E9
+M6	Negation E10
+M7	Negation E11

@@ -1,0 +1,19 @@
+T5	Positive_regulation 192 198	induce
+T6	Gene_expression 203 215	biosynthesis
+T7	Regulation 455 461	effect
+T8	Entity 556 564	tyrosine
+T9	Phosphorylation 565 580	phosphorylation
+T10	Transcription 790 798	detected
+T11	Binding 888 895	binding
+T12	Entity 938 953	promoter region
+T13	Positive_regulation 1012 1021	expressed
+E1	Positive_regulation:T5 Theme:E2
+E2	Gene_expression:T6 Theme:T1
+E3	Regulation:T7 Theme:E4
+E4	Phosphorylation:T9 Theme:T2 Site:T8
+E5	Transcription:T10 Theme:T3
+E6	Binding:T11 Theme:T4 Site:T12
+E7	Positive_regulation:T13 Theme:E6
+M1	Negation E1
+M2	Negation E3
+M3	Negation E5

@@ -1,0 +1,33 @@
+*	Equiv T2 T1
+T13	Positive_regulation 361 370	activated
+T14	Transcription 648 655	express
+T15	Positive_regulation 711 718	induced
+T16	Regulation 848 858	modulation
+T17	Negative_regulation 949 958	inhibited
+T18	Gene_expression 964 974	expression
+T19	Regulation 1004 1012	modulate
+T20	Gene_expression 1018 1028	expression
+T21	Positive_regulation 1073 1080	induced
+T22	Transcription 1101 1111	expression
+T23	Positive_regulation 1198 1204	induce
+T24	Transcription 1324 1331	express
+T25	Gene_expression 1324 1331	express
+E1	Positive_regulation:T13 Theme:T2
+E2	Transcription:T14 Theme:T3
+E3	Positive_regulation:T15 Theme:T5
+E4	Regulation:T16 Theme:T6
+E5	Regulation:T16 Theme:T7
+E6	Negative_regulation:T17 Theme:E7
+E7	Gene_expression:T18 Theme:T8
+E8	Regulation:T19 Theme:E9
+E9	Gene_expression:T20 Theme:T9
+E10	Positive_regulation:T21 Theme:E11
+E11	Transcription:T22 Theme:T10
+E12	Positive_regulation:T23 Theme:T11
+E13	Transcription:T24 Theme:T12
+E14	Gene_expression:T25 Theme:T12
+M1	Negation E2
+M2	Speculation E4
+M3	Speculation E5
+M4	Negation E8
+M5	Negation E12

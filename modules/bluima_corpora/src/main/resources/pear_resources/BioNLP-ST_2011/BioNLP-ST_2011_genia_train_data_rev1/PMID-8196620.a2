@@ -1,0 +1,47 @@
+*	Equiv T4 T3
+T33	Binding 96 103	binding
+T34	Positive_regulation 292 301	induction
+T35	Binding 527 532	bound
+T36	Entity 538 555	kappa B-like site
+T37	Positive_regulation 693 702	induction
+T38	Binding 774 779	bound
+T39	Binding 1061 1068	migrate
+T40	Binding 1112 1122	comigrated
+T41	Binding 1239 1247	presence
+T42	Binding 1273 1280	absence
+T43	Binding 1365 1370	bound
+T44	Binding 1586 1593	binding
+T45	Positive_regulation 1649 1657	mediated
+T46	Positive_regulation 1662 1671	induction
+T47	Gene_expression 1683 1693	expression
+E1	Binding:T33 Theme:T1
+E2	Binding:T33 Theme:T2
+E3	Positive_regulation:T34 Theme:T4
+E4	Binding:T35 Theme:T6 Site:T36
+E5	Positive_regulation:T37 Theme:T7
+E6	Binding:T38 Theme:T13
+E7	Binding:T38 Theme:T9
+E8	Binding:T38 Theme:T11
+E9	Binding:T38 Theme:T10
+E10	Binding:T38 Theme:T12
+E11	Binding:T39 Theme:T15 Theme2:T16
+E12	Binding:T39 Theme:T15 Theme2:T17
+E13	Binding:T40 Theme:T15 Theme2:T19
+E14	Binding:T40 Theme:T15 Theme2:T18
+E15	Binding:T41 Theme:T20 Theme2:T23
+E16	Binding:T41 Theme:T21 Theme2:T23
+E17	Binding:T42 Theme:T22 Theme2:T23
+E18	Binding:T43 Theme:T24
+E19	Binding:T43 Theme:T25
+E20	Binding:T44 Theme:T31
+E21	Binding:T44 Theme:T30
+E22	Positive_regulation:T45 Theme:E24 Cause:E21
+E23	Positive_regulation:T45 Theme:E24 Cause:E20
+E24	Positive_regulation:T46 Theme:E25
+E25	Gene_expression:T47 Theme:T32
+M1	Negation E6
+M2	Negation E8
+M3	Negation E10
+M4	Negation E11
+M5	Negation E12
+M6	Negation E17

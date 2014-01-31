@@ -1,0 +1,1736 @@
+<?xml version='1.0'?>
+<!DOCTYPE File PUBLIC "NeuroScholar.DTD" "NeuroScholar.DTD">
+<?xml-stylesheet type="text/css" href="NeuroScholar.css"?>
+<File>
+
+  <Title>Distribution of Locus Coeruleus Axons Within the Rat Brainstem 
+  Demonstrated by PhaseoZus uuZgaris Leucoagglutinin Anterograde 
+  Tracing in Combination With Dopamine-@-Hy droxylase 
+  Immunofluorescence</Title>
+
+  <Authors>JEAN-MARC FRITSCHY AND REINHARD GRZANNA</Authors>
+
+  <Abstract>
+
+    <S avgH="21" class="abstract.heading" format="TimesNewRomanPSMT"
+     id="s0">ABSTRACT</S>
+    <BR />
+
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s1">Projections of the locus coeruleus (LC) to the midbrain 
+    and hindbrain were analyzed by anterograde transport of the lectin 
+    Phaseolus uulgaris leucoagglutinin (PHA-I,).</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s2">Following iontophoretic application of PHA-L into the LC, 
+    the distribution of labeled axons was analyzed in sections 
+    processed for the immunoperoxidase method and in sections processed 
+    for double-immunofluorescence staining using antibodies to PHA-L 
+    and to dopamine-/-hydroxylase.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s3">This combined staining approach proved to be necessary for 
+    the unequivocal identification of I,C axons in the brainstem since 
+    all injections labeled many non-noradrenergic axons whose 
+    distribution was different from that of LC fibers.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s4">The major new finding of the present study was the 
+    observation that large territories of the brainstem that receive a 
+    dense noradrenergic input are very sparsely innervated by the 
+    LC.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s5">Numerous labeled LC axons were observed in somatic 
+    afferent nuclei, tectum, pontine nuclei, interpeduncular nucleus, 
+    and inferior olivary complex.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s6">In contrast. very few labeled fibers were observed in 
+    autonomic and motor nuclei, and throughout the brainstem reticular 
+    formation, including raphe nuclei.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s7">Our data show that the distribution of LC axons in the 
+    brainstem is far less prominent than the projections of this 
+    nucleus to the forebrain and spinal cord.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s8">Our findings suggest that the dense NA projections to the 
+    core of the brainstem originate principally in non-LC NA 
+    neurons.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s9">On the basis of the present anatomical findings, a 
+    prominent role of the LA2 in motor and integrative functions of the 
+    brainstem appears unlikely.</S>
+  </Abstract>
+
+  <Introduction>
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s10">The locus coeruleus (LC) is the principal source of 
+    ascending noradrenergic (NA) projections to the forebrain, 
+    including the cerebral cortex, hippocampus, thalamus, and olfactory 
+    bulb (Ungerstedt, &apos;71; Iindvall and Bjdrklund, &apos;74; Ross 
+    and Reis, &apos;74; Swanson and Hartman, &apos;74; Levitt and 
+    Moore. &apos;78; Morrison et al., &apos;79. &apos;81; see 
+    Bjiirklund and Lindvall, &apos;86, for review).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s11">Prominent descending projections from the LC to the 
+    spinal cord have also been described (Rjorklund and Skagerherg, 
+    &apos;82; Lyons et al., &apos;89; Fritschy and Grzanna, 
+    &apos;90).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s12">While LC efferents to the forebrain and spinal cord have 
+    been characterized in considerable detail, LC projections to the 
+    brainstem have received much less attention.</S>
+    <BR />
+
+    <S avgH="20" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s13">The distribution of&apos; catecholamine axon terminals 
+    within the brainstem was initially described by Fuxe (&apos;65).</S>
+    <S avgH="20" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s14">Ungerstedt (&apos;71) concluded that these terminals 
+    originate from the LC and from the A l , A2, A5, and A7 groups of 
+    Dahlstriim and Fuxe (&apos;64).</S>
+    <S avgH="20" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s15">While acknowledging the lack of details ahout the origin 
+    of NA terminals, LJngerstedt (&apos;71) suspected that projections 
+    of LC and non-LC NA neurons overlap in the hindbrain and that most 
+    NA terminals in the midbrain originate in non-LC NA cells.</S>
+    <S avgH="20" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s16">Later studies involving lesions of the LC suggested that 
+    this nucleus distributes axons to widespread areas of the 
+    brainstem, including the tectum, mesencephalic central gray, dorsal 
+    motor nucleus of the vagus nerve, nucleus of the solitary tract, 
+    commissural nucleus, hypoglossal nucleus, and raphe nuclei (Loizou, 
+    &apos;69; Chu and Bloom, &apos;74; Kobayashi et, al., &apos;74; 
+    Ross and Reis, &apos;74).</S>
+    <S avgH="20" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s17">Early studies of T,C projections with the newly 
+    introduced method of anterograde transport of tritiated amino acids 
+    made only brief references to the distribution of LC axons within 
+    the brainstem (Pickel et al., &apos;74; McBride and S u h , 
+    &apos;76; Jones and Moore, &apos;77; Bowden et al., &apos;78).</S>
+    <S avgH="20" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s18">The resulk of recent studies using this method support 
+    the conclusion that LC neurons have widespread projections to 
+    numerous brainstem areas (Westlund and Coulter, &apos;80; Jones and 
+    Yang, &apos;85).</S>
+    <BR />
+
+    <S avgH="20" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s19">A rather different pattern of LC axon distribution was 
+    described by Levitt and Moore (&apos;79), who conducted the first 
+    comprehensive study of the organization of NA projections to the 
+    brainstem.</S>
+    <S avgH="20" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s20">These authors observed that bilateral destruction of the 
+    LC resulted in decreases in norepinephrine levels in the brainstem 
+    with a rather distinct regional pattern.</S>
+    <S avgH="20" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s21">They concluded that the LC supplies NA axons primarily to 
+    sensory and association nuclei of the brainstem, whereas non-LC NA 
+    neurons innervate motor nuclei and autonomic areas.</S>
+    <S avgH="20" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s22">Their results showed that most of the NA innervation of 
+    the medulla originates from nonLC NA neurons.</S>
+    <S avgH="20" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s23">The differential origin of NA axons in sensory and motor 
+    nuclei was subsequently confirmed by several retrograde transport 
+    studies (Kromer and Moore, &apos;80; Senba et al., &apos;81; 
+    Travers and Norgren, &apos;83; Vornov and Sutin, &apos;83; Grzanna 
+    et al., &apos;87; 1,yons and Grzanna, &apos;88).</S>
+    <BR />
+
+    <S avgH="20" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s24">The description by Levitt and Moore (&apos;79) of the LC 
+    axon distribution within the brainstem differs substantially from 
+    that provided by the results of anterograde transport studies with 
+    tritiated amino acids.</S>
+    <S avgH="20" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s25">Detailed knowledge of the anatomic distribution of LC 
+    axons within the brainstem is essential for an understanding of the 
+    role of this nucleus in functions such as sleep or cardiovascular 
+    regulation.</S>
+    <S avgH="20" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s26">Recently, a new and powerful tracing method was 
+    introduced by Gerfen and Sawchenko (&apos;84), which employs 
+    anterograde transport of the lectin Phaseolus vulgaris 
+    leucoagglutinin.</S>
+    <S avgH="20" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s27">This method is extremely sensitive and offers the unique 
+    advantage that it can readily be combined with immunohistochemical 
+    identification of NA axons (Gerfen and Sawchenko, &apos;85; 
+    Fritschy et al., &apos;87; Fritschy and Grzanna, &apos;90).</S>
+    <S avgH="20" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s28">In the present study, we have used the PHA-L method in 
+    combination with dopamine-p-hydroxylase (DRH) immunohistochemistry 
+    (Hartman, &apos;73; Grzanna et al., &apos;77) to provide a 
+    comprehensive description of the distribution of LC axons within 
+    the brainstem.</S>
+    <S avgH="20" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s29">A preliminary report of this study has been presented 
+    (Grzanna and Fritschy, &apos;87).</S>
+  </Introduction>
+
+  <Methods>
+
+    <S avgH="26" class="methods.heading" format="TimesNewRomanPS-BoldMT"
+     id="s30">METHODS</S>
+    <BR />
+
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s31">Male Sprague-Dawley rats weighing 170-180 g were 
+    employed.</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s32">A detailed protocol of the PHA-L method used here is 
+    given in a previous report (Fritschy and Grzanna, &apos;90).</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s33">To study the distribution of LC axons in the brainstem 
+    (midbrain and hindbrain) small deposits of PHA-L were made 
+    iontophoretically under stereotaxic guidance into t.he LC.</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s34">After a survival period of 2-3 weeks, rats were 
+    anesthetized with chloral hydrate and perfused according to a 
+    modification of the pH-shift method of Berod et al. (&apos;81).</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s35">Following postfixation and cryoprotection, 30 wm 
+    transverse sections were cut from frozen blocks by using a sliding 
+    microt,ome.</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s36">Three sets of brainstem sections were collected in PBS 
+    and processed separately: one set was processed for the 
+    immunoperoxidase method of Hsu et al.</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s37">(&apos;Sl), using antibodies against PHA-L (Fritschy and 
+    Grzanna, &apos;90).</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s38">In these sections we studied the distribution of PHA-L 
+    labeled axons in darkfield at low power.</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s39">The second set of sections was processed for 
+    double-immunofluorescence (Gerfen and Sawchenko, &apos;85) by using 
+    antibodies against PHA-L raised in rabbits and antibodies against 
+    DBH raised in guinea pigs (Grzanna and Coyle, &apos;76).</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s40">These sections were examined at high magnification to 
+    recognize LC axons from other PHAL labeled fibers.</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s41">Since the LC comprises NA neurons entirely (Swanson, 
+    &apos;76), only those PHA-L labeled fibers that were also 
+    DBH-positive were considered as LC axons.</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s42">The third set of sections was stained with Cresyl violet 
+    and used for cytoarchitectonic reference purposes.</S>
+    <BR />
+
+    <S avgH="26" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s43">PHA-L immunohis 
+    tochemistry</S>
+    <BR />
+
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s44">For staining of PHA-L with the immunoperoxidase method, 
+    sections were incubated overnight in antibodies against PHA-L 
+    (1:2,000) and processed by using the Vectastain kit (Vector 
+    Laboratories) (Hsu et al., &apos;81).</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s45">The sections were processed in a solution of 0.05 % 
+    diaminobenzidine and 0.005&apos;:b hydrogen peroxide in &apos;his 
+    buffer (0.05 M, pH 7.7) for 10-20 minutes, rinsed, and mounted onto 
+    gelatin-coated slides.</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s46">The staining was enhanced with osmium tetroxide according 
+    to the procedure of Gerfen (&apos;85).</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s47">The immunoperoxidase method offers the advantage of 
+    yielding permanent sections in which large microscopic fields can 
+    be screened at low power.</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s48">However, since in every case the tracer was also 
+    incorporated by some non-NA cells in the vicinity of the LC (see 
+    below), labeling with PHA-L was not considered sufficient for 
+    identification of LC axons.</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s49">To overcome the problem, we analyzed a second set of 
+    sections stained wit,h the double-immunofluorescence method to 
+    recognize specifically LC axons from other PHA-L labeled fibers.</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s50">The combination of these two methods made it possible to 
+    establish an accurate picture of the distribution of LC axons in 
+    the brainstem.</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s51">For data presentation, the distribution of labeled LC 
+    axons was plotted with the aid of a cornputer-assisted mapping 
+    system.</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s52">Contours of sections were recorded by using a low 
+    magnification (4x) lens.</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s53">PHA-L labeled axons in these sections were subsequently 
+    mapped in darkfield at higher magnification (16 or 25x).</S>
+    <BR />
+
+    <S avgH="26" class="methods.subtitle" format="CourierNewPS-BoldMT"
+     id="s54">Double-immunofluorescence of PHA-I, and</S>
+    <BR />
+
+    <S avgH="26" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s55">DBH</S>
+    <BR />
+
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s56">Sections processed for double-immunofluorescence staining 
+    were incubated free-floating overnight with a mixture of anti-PHA-L 
+    antiserum (1:1,000) and anti-DBH antiserum (1:1,000) in PRS 
+    containing 1% normal goat serum and 0.2&quot;s Triton X-100; 
+    sections were then rinsed in PRS and incubated for 1 hour with 
+    fluorescein isothiocyanate(FITC) -conjugated goat anti-rabbit 
+    immunoglobulins (IgG) (150, Zymed) and rhodamine-labeled goat 
+    anti-guinea pig 1gG (1:100, Kirkegaard and Perry).</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s57">Sections were rinsed, mounted onto gelatin-coated slides, 
+    air-dried, and coverslipped with buffered glycerol (pH 8.5).</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s58">Cross-reactivity between antibodies was abolished by 
+    affinity purification of the secondary antisera.</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s59">Antibody affinity columns were prepared according to the 
+    method of Cuatrecasas (&apos;70).</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s60">Goat anti-guinea pig antibodies were passed over an 
+    affinity column containing rabbit IgG covalently linked to 
+    Sepharose 4R; goat anti-rabbit antibodies were passed over an 
+    affinity column containing guinea pig IgG covalently linked to 
+    Sepharose 4B.</S>
+    <BR />
+
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s61">To determine whether PHA-L labeled axons were LC axons, 
+    sections were examined in a Leitz fluorescence microscope with 
+    different filter combinations for FITC and rhodamine (Kosofsky and 
+    Molliver, &apos;87; Fritschy et al., &apos;87; Fritschy and 
+    Grzanna, &apos;90).</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s62">Double-labeled axons could be identiried reliably only at 
+    high magnification (1OOx Neofluoar lens) because of the high 
+    density of DBH immunoreactive fibers in some brainstem regions (see 
+    Fig. 1).</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s63">Individual PHA-L labeled fibers were first identified by 
+    using a filter combination for FITC; the filter setting was then 
+    switched to the rhodamine filter combination to determine whether 
+    that fiber was also DRH-immunoreactive.</S>
+    <BR />
+
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s64">This analysis was conducted systematically in a 1 in 6 
+    series rif sections in all areas of the brainstem containing PHA-L 
+    labeled axons to evaluate the proportion of laheled axons that were 
+    noradrenergic.</S>
+    <BR />
+
+    <S avgH="26" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s65">DBH 
+    immunohistochemistry</S>
+    <BR />
+
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s66">To visualize the distribution of NA axons within the 
+    brainstem, a one in six series of sections through the midbrain 
+    arid hindbrain was stained with antibodies to rat DBH according to 
+    the immunoperoxidase method.</S>
+    <S avgH="20" class="methods.body" format="TimesNewRomanPSMT"
+     id="s67">This protocol has been described in detail elsewhere 
+    (Fritschy and Grzanna, &apos;89).</S>
+  </Methods>
+
+  <Results>
+
+    <S avgH="26" class="results.heading" format="TimesNewRomanPS-BoldMT"
+     id="s68">RESULTS</S>
+    <BR />
+
+    <S avgH="26" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s69">Distribution of NA axons 
+    within the brainstem</S>
+    <BR />
+
+    <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+     id="s70"><labelingDescription>NA axons</labelingDescription> 
+    visualized with anti - DBH were observed throughout the brainstem , 
+    with striking regional differences in density .</S>
+    <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+     id="s71"><labelingLocation>Raphe nuclei , the midbrain central 
+    gray , the nucleus of the solitary tract , and the principal 
+    nucleus of the inferior olivary complex</labelingLocation> are 
+    among the regions which receive <labelingDescription>the highest 
+    density of NA axons</labelingDescription> ( Fig .</S>
+    <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+     id="s72">I).</S>
+    <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+     id="s73">Except for oculomotor nuclei , <labelingLocation>motor 
+    nuclei of the brainstem</labelingLocation> also receive 
+    <labelingDescription>a very dense NA input</labelingDescription> 
+    .</S>
+    <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+     id="s74"><labelingDescription>An extensive plexus of &apos; NA 
+    axons</labelingDescription> was observed throughout 
+    <labelingLocation>the brainstem reticular 
+    formation</labelingLocation> ( Fig . 1 ) .</S>
+    <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+     id="s75">By comparison , somatic afferent nuclei receive 
+    <labelingDescription>a lower density of NA 
+    axons</labelingDescription> , particularly <labelingLocation>the 
+    vestibular nuclei and dorsal column nuclei</labelingLocation> .</S>
+    <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+     id="s76"><labelingDescription>Many NA axons</labelingDescription> 
+    , mostly oriented within the plane of section , were observed in 
+    <labelingLocation>the inferior and superior 
+    colliculi</labelingLocation> .</S>
+    <BR />
+
+    <S avgH="26" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s77">Injection sites of 
+    <tracerChemical>PHA - L</tracerChemical></S>
+    <BR />
+
+    <TTE>
+
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s78">The results of this study are based on the analysis of 
+      <exptLabel>18 cases</exptLabel>.</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s79">The location of each injection was determined by 
+      staining sections for both <tracerChemical>PHA - 
+      L</tracerChemical> and DBH immunofluorescence .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s80">Only those cases were analyzed in which iontophoresis 
+      of <tracerChemical>PHA - L</tracerChemical> resulted in a small 
+      deposit of lectin ( 50 - 200 pm in diameter ) within 
+      <injectionLocation>the confines of the LC</injectionLocation> 
+      .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s81">In these cases , <labelingDescription>most labeled 
+      neurons</labelingDescription> were identified as 
+      <labelingDescription>DBH immunoreactive</labelingDescription> , i 
+      . e . as NA neurons of the LC ( Fig . 2 ) .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s82">In addition , some <labelingDescription>PHA - L labeled 
+      non - NA cells</labelingDescription> were found up to several 
+      hundred microns away from the center of the injection .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s83">The number of labeled 
+      <labelingLocation>LC</labelingLocation> neurons typically ranged 
+      from 20 to 100.</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s84">The use of &apos; pipets with large diameter tips ( 15 
+      - 25 pm ) led to large deposits of lectin at the site of the 
+      injection but did not increase the number of 
+      <labelingDescription>labeled axons</labelingDescription> in the 
+      brainstem .</S>
+      <BR />
+
+      <S avgH="26" class="results.subtitle"
+       format="TimesNewRomanPS-BoldMT" id="s85">Distribution of 
+      <tracerChemical>pm - L</tracerChemical> labeled locus coedeus</S>
+      <BR />
+
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s86">To compare the density of <tracerChemical>PHA - 
+      I</tracerChemical> , labeled <labelingDescription>LC 
+      axons</labelingDescription> in the brainstem to that in 
+      <labelingLocation>brain regions</labelingLocation> which receive 
+      a prominent projection from the LC , a representative set of 
+      sections through the cerebral cortex and the cerebellum was 
+      analyzed .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s87">All our injections labeled 
+      <labelingDescription>numerous LC axons</labelingDescription> in 
+      <labelingLocation>these regions</labelingLocation> , as 
+      illustrated in Figure 3, which depicts labeling typically seen in 
+      <labelingLocation>the cerebral cortex</labelingLocation> .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s88">In comparison , labeling was <labelingDescription>much 
+      less extensive</labelingDescription> in <labelingLocation>the 
+      brainstern</labelingLocation> , where large territories appeared 
+      virtually <labelingDescription>devoid of labeled 
+      axons</labelingDescription> .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s89">When injections of tracer were almost entirely confined 
+      to <labelingLocation>the LC</labelingLocation> ( Fig . 2 ) , 
+      <labelingDescription>PHA - L labeled axons</labelingDescription> 
+      were observed only in <labelingLocation>a few areas of the 
+      brainstem</labelingLocation> ( see below ) .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s90">In contrast , injections of <tracerChemical>PHA - 
+      L</tracerChemical> extending <injectionSpread>laterally or 
+      ventrally beyond the limits of the LC</injectionSpread> resulted 
+      in <labelingDescription>widespread axonal 
+      labeling</labelingDescription> throughout <labelingLocation>the 
+      brainstem</labelingLocation> .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s91">This difference in labeling was striking in 
+      <labelingLocation>the mesencephalic and medullary reticular 
+      formation</labelingLocation> , notably in <labelingLocation>the 
+      midbrain raphe nuclei</labelingLocation> and in 
+      <labelingLocation>the ventro - lateral medulla</labelingLocation> 
+      .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s92">In <labelingLocation>all these 
+      regions</labelingLocation> injections confined to 
+      <injectionLocation>the LC</injectionLocation> produce 
+      <labelingDescription>very little axonal 
+      labeling</labelingDescription> .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s93">Double - immunofluorescence staining revealed 
+      unequivocally that the extensive labeling observed in 
+      <labelingLocation>the core of the brainstem</labelingLocation> 
+      consisted almost , exclusively of <labelingDescription>non - NA 
+      axons</labelingDescription> .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s94">As expected , in regions which receive a Drominent LC 
+      innut . such as the tectum or 1 , the cochlear nuclei , 
+      <labelingDescription>the vast majority of PHA - L labeled 
+      axons</labelingDescription> could be identified as LC axons ( Fig 
+      . 4 ) .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s95"><labelingLocation>The interpeduncular nucleus , 
+      midbrain central uav . and facial nucleus</labelingLocation> I 
+      &quot; typically contained <labelingDescription>a mixture of 
+      singleand double - labeled fibers</labelingDescription> .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s96">The following description of <labelingDescription>YHA - 
+      L labeled LC axons</labelingDescription> in <labelingLocation>the 
+      brainstem</labelingLocation> ( Fig . 5 ) is based upon their 
+      definitive identification by double - immunofluorescence .</S>
+      <BR />
+
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s97">At the level of the injection sites ( Fig . 5C ) , 
+      <labelingDescription>PHA - L labeled LC 
+      axons</labelingDescription> were present bilaterally .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s98">On the side of the injection axons could be followed in 
+      several directions : laterally towards <labelingLocation>the 
+      cochlear nucleus and the principal trigeminal 
+      nucleus</labelingLocation> , rostrally into <labelingLocation>the 
+      ascending dorsal bundle</labelingLocation> , ventrally into 
+      <labelingLocation>a region just medial to the motor trigeminal 
+      nucleus</labelingLocation> , and caudally into 
+      <labelingLocation>the vestibular nuclear 
+      complex</labelingLocation> .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s99"><labelingDescription>Labeled LC 
+      axons</labelingDescription> were also observed crossing the 
+      midline .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s100">At this level , <labelingLocation>the principal 
+      nucleus of the trigeminal nerve and the dorsal corhlear 
+      nucleus</labelingLocation> contained <labelingDescription>the 
+      highest numbers of labeled fibers</labelingDescription> .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s101"><labelingLocation>The contralateral 
+      LC</labelingLocation> contained <labelingDescription>a moderate 
+      number of labeled axons</labelingDescription> .</S>
+      <BR />
+
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s102">In the midbrain ( Figs . 5A , B ) , 
+      <labelingDescription>LC axons</labelingDescription> were 
+      distributed <labelingLocation>bilaterally to the superior and 
+      inferior colliculi</labelingLocation> ( Figs . 6, 7 ) , 
+      <labelingLocation>central gray and interpeduncular 
+      nucleus</labelingLocation> ( Fig . 8 ) .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s103"><labelingDescription>Most labeled LC 
+      axons</labelingDescription> in <labelingLocation>the central 
+      gray</labelingLocation> were seen lateral and dorsal to 
+      <labelingLocation>the aqueduct</labelingLocation> ; only 
+      occasionally did we observe <labelingDescription>LC 
+      axons</labelingDescription> in <labelingLocation>the dorsal raphe 
+      nucleus or in its vicinity</labelingLocation> .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s104">In <labelingLocation>the interpeduncular 
+      nucleus</labelingLocation> , <labelingDescription>labeled 
+      axons</labelingDescription> were observed only following 
+      injections of <tracerChemical>PHA - 1,</tracerChemical> involving 
+      <injectionSpread>the rostral part of the LC</injectionSpread> 
+      .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s105"><labelingDescription>Labeled LC 
+      axons</labelingDescription> were consistently found in 
+      <labelingLocation>the ascending dorsal bundle . ventrolateral to 
+      the central gray</labelingLocation> ( Fig . 5B ) .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s106">In contrast to <labelingDescription>extensive 
+      labeling</labelingDescription> in <labelingLocation>tectum and 
+      central gray</labelingLocation> , few T , <labelingDescription>C 
+      axons</labelingDescription> were observed in 
+      <labelingLocation>the midbrain tegmentum</labelingLocation> .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s107">Of notice , <labelingDescription>no LC 
+      axons</labelingDescription> were present in <labelingLocation>the 
+      median raphe</labelingLocation> , 
+      <labelingModifier>nor</labelingModifier> in <labelingLocation>the 
+      dopaminergic cell groups of the substantia nigra and ventral 
+      tegmental area</labelingLocation> .</S>
+      <BR />
+
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s108">In <labelingLocation>the pons and 
+      medulla</labelingLocation> ( Figs . 5D - F ) , 
+      <labelingDescription>labeled LC axons</labelingDescription> were 
+      primarily distributed bilaterally to sensory nuclei .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s109">For example , labeled <labelingDescription>LC 
+      axons</labelingDescription> were found in <labelingLocation>all 
+      subdivisions of the cochlear nucleus</labelingLocation> ( Fig . 9 
+      ) and in <labelingLocation>the entire trigeminal sensory 
+      complex</labelingLocation> ( Fig .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s110">LO).</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s111">Occasionally , <labelingDescription>LC 
+      axons</labelingDescription> were observed in 
+      <labelingLocation>the dorsal column nuclei</labelingLocation> 
+      .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s112">In contrast to somatic afferent nuclei , 
+      <labelingDescription>very few LC axons</labelingDescription> were 
+      observed in <labelingLocation>the nucleus of the solitary tract 
+      and commissural nucleus</labelingLocation> .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s113"><labelingDescription>Labeled LC 
+      axons</labelingDescription> were also observed in 
+      <labelingLocation>the pontine nuclei</labelingLocation> , in 
+      <labelingLocation>the nucleus praepositus 
+      hypoglossi</labelingLocation> and in <labelingLocation>the 
+      inferior olivary complex</labelingLocation> .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s114"><labelingLocation>The principal nucleus of the 
+      inferior olive</labelingLocation> contained 
+      <labelingDescription>a high density of labeled 
+      fibers</labelingDescription> bilaterally ( Fig . 11 ) .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s115"><labelingLocation>Motor nuclei of the 
+      brainstem</labelingLocation> were <labelingDescription>almost 
+      devoid of LC axons</labelingDescription> .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s116">The only exception is <labelingLocation>the facial 
+      nucleus</labelingLocation> , in which all our injections labeled 
+      <labelingDescription>a few LC axons</labelingDescription> .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s117">In <labelingLocation>the rostral 
+      medulla</labelingLocation> , descending <labelingDescription>LC 
+      axons</labelingDescription> could be seen travelling mainly 
+      ipsilaterally through <labelingLocation>the vestibular nuclear 
+      complex</labelingLocation> ( Fig . 5D ) .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s118">In <labelingLocation>the caudal 
+      medulla</labelingLocation> , <labelingDescription>only few 
+      descending axons</labelingDescription> were observed in 
+      <labelingLocation>the position of the descending catecholamine 
+      bundle</labelingLocation>  ( Jones and Friedman , &apos; 83 ) 
+      .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s119">Except around the inject , ion site , 
+      <labelingLocation>the pontine and medullary reticular 
+      formation</labelingLocation> contained <labelingDescription>few 
+      labeled LC axons</labelingDescription> ( Fig . 10 ) .</S>
+      <S avgH="20" class="results.body" format="TimesNewRomanPSMT"
+       id="s120">Most notably , <labelingLocation>pontine and medullary 
+      raphe nuclei</labelingLocation> were virtually 
+      <labelingDescription>devoid of LC axons</labelingDescription> ( 
+      Fig . 5D - F ) .</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s121">The overall density of labeling in the brainstem 
+      appeared to depend on the location of the injections of 
+      <tracerChemical>PHA - L</tracerChemical> within 
+      <labelingLocation>the LC</labelingLocation> : injections into 
+      <injectionLocation>the dorsal LC</injectionLocation> labeled , 
+      <labelingDescription>more fibers</labelingDescription> in 
+      <labelingLocation>the mesencephalon</labelingLocation> than did 
+      injections into <injectionLocation>the ventral 
+      LC</injectionLocation> .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s122">The reverse was observed for <labelingDescription>LC 
+      axons</labelingDescription> distribution in <labelingLocation>the 
+      medulla</labelingLocation> .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s123">In addition , <labelingDescription>PHA - L labeled LC 
+      axons</labelingDescription> were <labelingDescription>not 
+      uniformly distributed</labelingDescription> in 
+      <labelingLocation>sensory nuclei and tectum</labelingLocation> , 
+      but <labelingDescription>appeared in 
+      patches</labelingDescription> .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s124">In <labelingLocation>the spinal trigeminal 
+      nucleus</labelingLocation> . for example , 
+      <labelingDescription>patches of dense 
+      labeling</labelingDescription> alternated irregularly with 
+      regions <labelingDescription>almost devoid of 
+      labeling</labelingDescription> .</S>
+    </TTE>
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s125">The location of the patches varied from case to case, 
+    although no consistent pattern could be identified.</S>
+  </Results>
+
+  <Discussion>
+
+    <S avgH="26" class="discussion.heading"
+     format="TimesNewRomanPS-BoldMT" id="s126">DISCUSSION</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s127">In the present study we have analyzed the distribution 
+    of T,C axons within the brainstem by using PHA-L as an anterograde 
+    tracer.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s128">The principal new finding is that LC efferents in the 
+    brainstem are largely restricted to somatic afferent nuclei and the 
+    tectum.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s129">In contrast, the core of the brainstem receives little 
+    input from the LC.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s130">These findings suggest that the influence of&apos;the LC 
+    on brainstem functions is more specific than was previously 
+    suspected.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s131">The use of PHA-L as tracer permits visualization of the 
+    axonal tree of labeled neurons with extraordinary sensitivity and 
+    resolution.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s132">The advantages of the PHA-T, method to trace LC 
+    projections over conventional tracing methods have been discussed 
+    in a previous report (Fritschy and Grzanna, &apos;90).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s133">The present results show that identification of the NA 
+    nature of PHA-I, laheled axons is critical to determine 
+    unambiguously the distribution of LC efferents to the brainstem.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s134">Most injections labeled non-NA neurons in the vicinity 
+    of the LC and hence resulted in labeling of non-NA axons.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s135">The distribution of these fibers within the brainstem 
+    was quite different from that of LC axons, in that they were most, 
+    numerous in regions almost devoid of LC axons, notahly in raphe 
+    nuclei, the reticular formation and the dorsal motor nucleus of the 
+    vagus nerve.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s136">Our observations that many non-NA axons were labeled 
+    following tracer injections into the LC may account for the major 
+    discrepancies between the results of this and previous anterograde 
+    tracing studies which reported LC projections to raphe nuclei, 
+    medullary reticular formation and the dorsal nucleus of the vagus 
+    nerve (Pickel et al., &apos;74; McRride and Sulin, &apos;76; 
+    Westlund and Coult,er, &apos;80; Jones and Yang, &apos;85; Cowan 
+    and Park, Due to the small size of iontophoretic injections of 
+    PHAL, only a fraction of all LC neurons was labeled in each 
+    case.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s137">To verify that the sparse labeling of axons in the core 
+    of the brainstem did not result from a failure of LC neurons to 
+    incorporate or transport the tracer, we also examined sections 
+    through the cerebral cortex (Fig. 3), cerebellum. and spinal cord 
+    (Fritschy and Grzanna, &apos;90).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s138">In these sections, our injections typically labeled 
+    numerous axons, indicating that the comparatively sparse labeling 
+    in the brainstem reflects a paucity of LC axons terminals rather 
+    than a lack of labeling.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s139">There is evidence ftm a topographical organization 
+    within the LC with respect to its forebrain and spinal cord 
+    projections (Mason and Fibiger, &apos;79; Loughlin et al., 
+    &apos;86).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s140">To avoid a sampling bias in our analysis of the LC 
+    projections to the brainstem, we studied a large number of cases in 
+    which the injections of PHA-L were placed in different parts of the 
+    LC.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s141">Our cases include all parts of the LC proper, except the 
+    rostra1 tip of the nucleus, which is composed of neurons scattered 
+    through the ventrolateral central gray (Grzanna and Molliver, 
+    &apos;80).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s142">We are therefore confident that the results reported 
+    here provide a representative summary of the distribution of LC 
+    axons within the brainstem.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s143">The LC is a major contributor to the NA innervation of 
+    the spinal cord and most of the forebrain (Ungerstedt, &apos;71; 
+    Lindvall and Bjorklund, &apos;74; Ross and Reis, &apos;74; Swanson 
+    and Hartman, &apos;74; Levitt and Moore, &apos;78; Morrison et al., 
+    &apos;79, &apos;81; Bjiirklund and Skagerberg, &apos;82; Lyons et 
+    al., &apos;89; Fritschy and Grzanna, &apos;90).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s144">The most unexpected result of this study is the modest 
+    contribution of the LC to the dense NA innervation of the 
+    brainstem.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s145">The paucity of LC input to the core of the brainstem is 
+    particularly striking.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s146">This finding is at variance with the results of previous 
+    studies which used anterograde transport of tritiated amino acids 
+    to characterize brainstem projections of the LC (Westlund and 
+    Coulter, &apos;80; ?</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s147">Jones and Yang, &apos;85).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s148">These studies concluded that the LC has widespread 
+    projections to numerous brainstem areas, including the reticular 
+    formation, cranial nerve nuclei, and several monoaminergic cell 
+    groups.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s149">We have not been able to trace LC axons into the ventral 
+    tegmental area and the substantia nigra pars compacta, regions 
+    which have been reported to receive an input from the LC (Pasquier 
+    et al., &apos;77; Phillipson, &apos;79; Simon et al., &apos;79; 
+    Geyer and Lee, &apos;84).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s150">Previous studies also suspected the LC to provide a 
+    prominent input to the dorsal raphe nucleus (Chu and Bloom, 
+    &apos;74; Sakai et al.. &apos;77; Geyer and Lee, &apos;84; Cowan 
+    and Park, &apos;86).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s151">Our data indicate that the LC does not project to raphe 
+    nuclei. except for a small input to the dorsal raphe nucleus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s152">Thus, the extensive NA input to raphe nuclei and 
+    brainstem reticular formation (Fig. 1) appears to originate from 
+    nonLC NA neurons.</S>
+    <BR />
+
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s153">Our findings support the results of several retrograde 
+    transport studies which concluded that the dense NA innervation of 
+    brainstem motor nuclei does not originate in the LC (Traverc, and 
+    Norgren, &apos;83; Vornov and Sutin, &apos;83; Grzanna et al., 
+    &apos;87; Lyons and Grzanna, &apos;88).</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s154">Our results also agree with previous findings ihat 
+    oisceral afferent nuclei are not innervated by the LC (Takahashi et 
+    al., &apos;79; Thor and Helke. &apos;88), although these autonomic 
+    centers are characterized by a very dense NA input (Kalia et al., 
+    &apos;85).</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s155">Most notably, no LC axons could be traced to brainstem 
+    areas involved in cardiovascular functions.</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s156">Our observations do not support the hypothesis that the 
+    LC controls directly cardiovascular functions such as arterial 
+    pressure or heart rate by means of projections to brainstem 
+    visceromotor nuclei (set.</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s157">Olpe et al., &apos;85 for review).</S>
+    <BR />
+
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s158">Our results confirm the projections of the LC to 
+    afferent nuclei in the brainstem reported in previous studies 
+    (Levitt and Moore, &apos;79; Kromer and Moore, &apos;130; Senba et 
+    al., &apos;81; Crr~anna et al., &apos;87).</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s159">We observed numerous labeled axons in the cochlear 
+    nucleus, trigeminal complex, and throughout the tectum.</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s160">A few labeled axons were found in the vestibular complex 
+    and in the dorsal column nuclei.</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s161">This is consistent with the fact that these regions 
+    receive a sparse NA input.</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s162">Thus, our data indicate that the LC innervates all 
+    brainstem somatic afferent nuclei.</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s163">Whether other NA subgroups also project to these regions 
+    remains to be determined.</S>
+    <BR />
+
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s164">We observed that in the mesencephalon, ascending LC 
+    axons are localized ventrolateral to the central gray, in the 
+    position of the dorsal bundle (Lindvall and Rjorklund, &apos;74; 
+    Swanson and Hartman, &apos;74; ,Jones and Friedman, &apos;83).</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s165">In the pons, descending LC axons were observed traveling 
+    through the vestibular nuclear complex, as described by Jones and 
+    Friedman (&apos;83) for the cat.</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s166">These authors suggested that descending LC axons travel 
+    the length of the medulla within the longitudinal catecholamine 
+    bundle, and enter the lateral funiculus of the spinal cord (Jones 
+    and Friedman, &apos;83) In the present study, we were unable to 
+    follow labeled LC axons through the medulla up to their entry into 
+    the spinal cord.</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s167">The number of labeled axons in the catecholamine bundle 
+    decreased markedly from rostral to caudal medullary levels.</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s168">We have recently shown that descend ing LC axons travel 
+    the length of the spinal cord within the superficial layers of the 
+    dorsal horn (Fritschy and Grzanna, &apos;90).</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s169">We suspect that LC axons en route to the spinal cord 
+    leave the catecholamine bundle rostral to the bulbo-spinal junction 
+    and reach the superficial layers of the dorsal horn by passing 
+    through the spinal trigeminal nucleus pars caudalis.</S>
+    <BR />
+
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s170">Although the PHA-T, anterograde transport method is not 
+    ideally suited to uncover topographic projections of the IAC, our 
+    data suggest the existence of a crude topographic order in 
+    brainstem projections of IL!</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s171">neurons.</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s172">We observed consistent variations in labeling density in 
+    the midbrain and medulla depending upon the location of the 
+    injection sites within the 1,C.</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s173">Descending projections to the medulla appear to 
+    originate in more ventrally located cells of the LC, while 
+    projections to the midbrain arise from more dorsally placed neurons 
+    (Fig. 5).</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s174">A similar differential origin along the dorso-ventral 
+    axis holds for the coeruleo-spinal and coeruleo-cortical 
+    projections (Satoh et al., &apos;77; Mason and Fibiger, &apos;79; 
+    Guyenet, &apos;80; Westlund et al., &apos;83; Loughlin et al., 
+    &apos;86; Lyons and Grzanna, &apos;88).</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s175">Further studies using retrograde transport methods will 
+    be needed for a more detailed characterization of the topographic 
+    organization of LC efferents to brainstem nuclei.</S>
+    <BR />
+
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s176">The paucity of LC projections to large portions of the 
+    brainstem. most notably the reticular core. described in this 
+    report suggests that LC efferents are not as ubiquitous as 
+    previously suspected (Moore and Bloom, &apos;79; Moore, 
+    &apos;82).</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s177">In contrast to the widespread distribution of LC axons 
+    in the forebrain and spinal cord, the majority of NA axons in the 
+    brainstem are of non-LC origin.</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s178">This sets the LC apart from neurons in the immediately 
+    adjacent reticular formation which are characterized by prominent 
+    interconnections with different levels of the brainstem and by 
+    projcctions to motor nuclei (Jones and Yang, &apos;85).</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s179">Our data support the conclusion that LC axons, while 
+    following similar paths to those of reticular neurons, appear to 
+    project most extensively to distant targets beyond the 
+    brainstem.</S>
+    <BR />
+
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s180">By virtue of its widespread projections, the LC has 
+    often been portrayed as a nucleus subserving very global 
+    functions.</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s181">This view is based heavily on neuroanatomical data and 
+    has only recently been challenged by the results of more refined 
+    tracing studies (Sawchenko and Swanson, &apos;82; Grzanna et al.. 
+    &apos;87; Lyons and Grzanna, &apos;88; Fritschy and Grzanna, 
+    &apos;90), and by the results of several electrophysiological 
+    studies (Aston-Jones and Bloom, &apos;81; Aston-Jones et al., 
+    &apos;84; Foote and Morrison, &apos;87).</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s182">The data presented here show that the brainstem contains 
+    large territories only sparsely supplied by LC axons.</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s183">These anatomical findings call into doubt the notion 
+    that the LC exerts a global influence over brainstem functions.</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s184">In particular, a direct role of the LC in motor 
+    functions of the brainstem and the integrative [unctions of the 
+    reticular core appears unlikely.</S>
+    <S avgH="20" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s185">The anatomical maps of the brainstem projections of the 
+    LC provided here should facilitate future studies into the role of 
+    the LC in brainstem functions.</S>
+  </Discussion>
+
+  <Acknowledgements>
+
+    <S avgH="26" class="acknowledgements.heading"
+     format="TimesNewRomanPS-BoldMT" id="s186">ACKNOWLEDGMENTS</S>
+    <BR />
+
+    <S avgH="20" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s187">We thank Dr.</S>
+    <S avgH="20" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s188">M.E.</S>
+    <S avgH="20" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s189">Molliver for generously 
+    providing the computer-mapping system used for data collection in 
+    this study (USPHS grant NS-16654).</S>
+    <S avgH="20" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s190">This work was supported by 
+    USPHS grant NIMH MH-41977.</S>
+  </Acknowledgements>
+
+  <References>
+
+    <S avgH="26" class="references.heading"
+     format="TimesNewRomanPS-BoldMT" id="s191">LITERATURE CITED</S>
+    <BR />
+
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s192">Aston-Jones, G., and F.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s193">Bloom (1981) Norepinephrine-containing locus coeruleus 
+    neurons in behaving rats exhibit pronounced responses to nonnoxious 
+    environmental stimuli.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s194">J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s195">Neurosci. 1:887-900.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s196">Aston-Jones, G..</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s197">S.L.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s198">Foote, and F.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s199">Bloom (1Y84) Anatomy and physiology of locus coeruleus 
+    neurons: functional implications.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s200">In M.G.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s201">Ziegler and C.R.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s202">Lake (eds): Frontiers of Clinical Neuroscience.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s203">Vol. 2.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s204">Norepinephrine.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s205">Raltimore: Williams and Wilkins, pp. 92-116.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s206">Berod, A,, R.K.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s207">Hartman, and J.F.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s208">Pujol (1981) Importance of fixation in 
+    immunohistochemistry: use of formaldehyde solutions at variable pH 
+    for the localization of tyrosine hydroxylase.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s209">J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s210">Histochem.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s211">Cytochem. 29:844850.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s212">Bjiirklund, A,, and 0.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s213">Lindvall (1986) Catecholaminergic brain stem regulatory 
+    systems.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s214">In V.B.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s215">Mountcastle, F.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s216">Bloom and S.R.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s217">Geiger (eds): Handbook of Physiology.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s218">Sertion 1, Vol.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s219">IV The Nervous System.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s220">Bethesda: American Physiological Society, pp. 
+    155-235.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s221">Rjiirklund, A,, and G.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s222">Skagerherg (1982) Descending monoaminergic projections 
+    t~ the spinal cord.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s223">In R.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s224">Sjolund, and A.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s225">Bjorklund (eds): Brain Stem Control of Spinal 
+    Mechanisms.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s226">Amsterdam: Elsevier, pp. 55-88.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s227">Rowden, D.M., D.C.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s228">German, and W.D.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s229">Poynter (1978) An autoradiographic, sernistereotaxic 
+    mapping of major projections from locus coeruleus and adjacent 
+    nuclei in .Wacaca rnulatta Brain Res. 145257-276.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s230">Chu, N.S., and F.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s231">Bloom (1974) The catecholamine-containing neurons in the 
+    cat dorsolateral pontine tegmentum: distribution of the cell bodies 
+    and some axonal projections.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s232">Brain Res. 66:1-21.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s233">Cowan, R.I.., and M.R.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s234">Park (1986) PHAL mapping of the locus coeruleus to 
+    dorsal raphe nucleus projection in the rat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s235">SOC.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s236">Neurosci.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s237">Abst. 12139.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s238">Cuatrecasas, P. (1 970) Protein purification by affinity 
+    chromatography.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s239">Derivatizations of agarose and polyacrylamide heads.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s240">J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s241">B i d Chem. 245:3059-3065.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s242">Dahlstrorn, A,, and K.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s243">Fuxe (1964) Evidence for the existence of 
+    monoaminecontaining neurons in the central nervous system.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s244">I.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s245">Demonstration of monoamines in the cell bodies Scand. 
+    62, suppl. 232.1.55.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s246">Foote, S.L., and J.H.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s247">Morrison (1987) Extrathalamic function.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s248">Annu.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s249">Rev.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s250">Neurosci. 10:67-96.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s251">Fritschy, J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s252">-M., and R.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s253">Grzanna (1 989) Immunohistochemical analysis of the 
+    neurotoxic efferts of DSP-4 identifies two populations of 
+    noradrenergic axon terminals.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s254">Neuroscience 3Or181-197.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s255">Fritschy, d.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s256">-M., and R.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s257">Grzanna (1990) Demonstration of two separate descending 
+    noradrenergic pathways to the rat spinal cord: evidence for an 
+    intragriseal trajectory of locus coeruleus axons in the superficial 
+    layers of the dorsal horn.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s258">J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s259">Comp.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s260">Neurol., 291.533-582.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s261">Fritschy, J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s262">-M., W.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s263">Lyons, C.A.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s264">Mullen, B.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s265">Kosofsky, M.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s266">Molliver, and R.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s267">Grzanna (1987) Distribution of locus coeruleus axons in 
+    the rat spinal cord: a combined anterograde transport and 
+    immunohistochemical study.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s268">Brain Res. 437:176-180.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s269">Fuxe, K. (1965) Evidence for the existence of monoamine 
+    neurons in the central nervous system.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s270">IV Distribution of monoamine nerve terminals in the 
+    central nervous system.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s271">Acta Physiol.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s272">Scand. 64, suppl. 2473-85.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s273">Gerfen, C.R. (1 985) The neostriatal mosaic.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s274">I.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s275">Compartmental organization of projections from the 
+    striatum to the substantia nigra in the rat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s276">J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s277">Comp.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s278">Neurol. 236r454-476.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s279">Gerfen, C.R., and P.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s280">Sawchenko (1984) An anterograde neuroanatomical tracing 
+    method that shows the detailed morphology of neurons, their axons 
+    and terminals: immunohistochemical localization of an axonally 
+    transported plant lectin, Phaseolus uulgaris leucoagglutinin 
+    (PHA-L).</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s281">Brain Res. 29Or219-238.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s282">Gerfen, C.R., and P.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s283">Sawchenko (1985) A method for anterograde axonal tracing 
+    of chemically specified circuits in the central nervous system: 
+    combined Phaseolus uulgaris-leucoagglutinin (PHA-L) tract tracing 
+    and immunohistochemistry.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s284">Brain Res. .?</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s285">43:144-150.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s286">Geyer, M.A., and E.H.Y.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s287">Lee (1984) Effects of clonidine, piperoxane and locus 
+    coeruleus lesion on the serotonergic and dopaminergic systems in 
+    raphe and caudate nucleus.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s288">Biochem.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s289">Pharmacol. 323399-3404.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s290">Grzanna, R., W.K.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s291">Chee, and E.W.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s292">Akeyson (1987) Noradrenergic projections to brainstem 
+    nuclei: evidence for differential projections from noradrenergic 
+    subgroups. .J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s293">Comp.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s294">Neurol. 263.76-91.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s295">Grzanna, R., and J.T.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s296">Coyle (1976) Rat adrenal purification and immunologic 
+    characteristics. 1096.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s297">Grzanna, R., and J-M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s298">Fritschy (1987) Projections of the locus coeruleus to 
+    brainstem nuclei: an anterograde transport study in the rat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s299">SOC.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s300">Neurosci.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s301">Abstracts 17.60.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s302">Grzanna, R., and M.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s303">Molliver (1980) The locus coeruleus immunohistochemical 
+    delineation.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s304">Neuroscience 52-40.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s305">Grzanna, R., J.H.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s306">Morrison, J.T.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s307">Coyle, and M.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s308">Molliver (1977) The immunohistochemical demonstration of 
+    noradrenergic neurons in the rat brain: the use of homologous 
+    antiserum to dopamine-8-hydroxylase.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s309">Neurosci.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s310">Lett. 4,127-134.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s311">Giiyenet, P.G. (1980) The coeruleospinal noradrenergic 
+    neurons: anatomical and electrophysiological studies in the rat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s312">Brain Res. 189:121-133.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s313">Hartman, R.K. (1973) Immunofluorescence of 
+    dopamine-8-hydroxylase.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s314">Application of improved methodology to the localization 
+    of the peripheral and central noradrenergic nervous system.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s315">J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s316">Histochem.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s317">Cytochem. 21:312-332.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s318">Hsu, S.M., L.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s319">Raine, and H.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s320">Fanger (1981) Use of avidin-biotin-peroxidase complex 
+    (ABC) in immunoperoxidase techniques: a comparison between ARC and 
+    unlabeled antibody (PAP) procedures.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s321">J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s322">Histochem.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s323">Cytochem. 29.577-580.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s324">Jones, B.E., and L.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s325">Friedman (1983) Atlas of catecholamine perikarya, 
+    varicosities and pathways in the hrainstem of the cat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s326">*J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s327">Comp.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s328">Neurol. 215382-396.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s329">Jones, B.E., and R.Y.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s330">Moore (1977) Ascending projections of the locus 
+    coeruleus in the rat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s331">I1 Autoradiographic study.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s332">Brain Res. 127:25-53.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s333">Jones, B.E., and T.Z.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s334">Yang (1985) The efferent projections from the reticular 
+    formation and the locus coeruleus studied by anterograde and 
+    retrograde axonal transport in the rat. 3.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s335">Comp.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s336">Neurol. 24256-92.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s337">Kalia, M., K.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s338">Fuxe, and M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s339">Goldstein (1985) Rat medulla oblongata. 11.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s340">Dopaminergic, noradrenergic (A1 and A2) and adrenergic 
+    neurons, nerve fibers, and presumptive terminal processes.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s341">J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s342">Cnmp.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s343">Neurol. 233:3W Kobayashi, R.M., M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s344">Palkovits, T..I.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s345">Kopin, and D.M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s346">Jacohowitz (1974) ~ i chemical mapping of noradrenergic 
+    nerves arising from the rat locus toe.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s347">ruleus.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s348">Brain Reu. 77r269-279.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s349">Kosofsky, R.E., and M.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s350">Molliver (1987) The serotoninergic innervation of 
+    cerebral cortex: different classes axon terminals arise from dorsal 
+    and median raphe nuclei.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s351">Synapse 1 153-168.</S>
+    <BR />
+
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s352">Kromer, L.F., and R.Y.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s353">Moore (1980) Norepinephrine innervation of the cochlear 
+    nuclei by locus coeruleus neurons in the rat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s354">Anat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s355">Embryo].</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s356">I58r227-244.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s357">-Levitt, P., and R.Y.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s358">Moore (1978) Noradrenaline neorortex of the rat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s359">Brain Res. 139.219-231, Levitk, P., and R.Y.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s360">Moore (1979) Origin and organization of brainstem 
+    catecholamine innervation in the rat. d.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s361">Comp.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s362">Neurol. 186:505-528.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s363">Lindvall, O., and A.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s364">Bjorklund (1974) The organization of the ascending 
+    caterholamine neuron systems in the rat brain as revealed by the 
+    glyoxylic acid fluorescence method.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s365">Acta Physiol.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s366">Scand.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s367">Suppl. 412:l-48.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s368">T,oizou, L.A. (1969) Projections of the nucleus locus 
+    coeruleus in the albino rat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s369">Brain Res. 15:563 -566.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s370">Loughlin, S.E., S.L.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s371">Foote, and F.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s372">Bloom (1986) Efferent projections or nucleus locus 
+    coeruleus: topographic organization of cells of origin demonstrated 
+    by three-dimensional reconstruction.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s373">Neuroscience 18:291306.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s374">Lyons, W.E., J.M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s375">Fritschy, and R.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s376">Grzanna (1989) The noradrenergic neurntoxin DSP-4 
+    eliminates the coeruleospinal projection hut spares projections of 
+    the A5 and A7 groups to the ventral horn of the spinal cord. d.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s377">Neurosci. 9:1481-1489.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s378">Lyons, W.E., and R.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s379">Grzanna (1988) Noradrenergic neurons with divergent 
+    projections to the motor trigeminal nucleus and the spinal cord: a 
+    double retrograde neuronal labeling study.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s380">Neuroscience 26:681493.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s381">Mason, S.T., and H.C.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s382">Fibiger (1979) Regional topography within noradrenergic 
+    locus coeruleus as revealed by retrograde transport of horseradish 
+    peroxidase.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s383">J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s384">Comp.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s385">Neurol. 187r703-724.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s386">McBride, R.L., and J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s387">Sutin (1976) Projections of the locus coeruleus and 
+    adjacent pontine tegmentum in the cat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s388">J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s389">Comp.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s390">Neurol. 16.5:265-284.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s391">Moore, R.Y. (1982) Catecholamine neuron systems in 
+    brain.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s392">Ann.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s393">Neurol. 12321 -327.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s394">Moore, R.Y., and F.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s395">Bloom (1979) Central catecholamine neuron systems: 
+    anatomy and physiology of the norepinephrine and epinephrine 
+    systems.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s396">Annu.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s397">Rev.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s398">Neurosci. 2:113-168.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s399">Morrison, J.H., M.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s400">Molliver, and R.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s401">Grzanna (1979) Noradrenergic innervation of cerebral 
+    cortex: widespread effects of local cortical lesions.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s402">Science 20.5.313-316.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s403">Morrison, .J.H., M.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s404">Molliver.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s405">R.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s406">Grzanna, and J.T.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s407">Coyle (1981) The intracortical trajectory of the 
+    coeruleo-cortical projection in the rat: a tangentially organized 
+    cortical afferent.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s408">Neuroscience 6:139-158.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s409">Olpe, H.R., M.W.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s410">Steinmann, and K.S.G.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s411">Jones (1985) Electrophysiological perspectives on locus 
+    coeruleus: its role in cognitive versus vegetative functions.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s412">Physiol.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s413">Psychol. 13.179-187.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s414">Pasquier, D.A., T.L.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s415">Kempcr, W.B.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s416">Forbes, and P.J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s417">Morgane (1977) Dorsal raphe, substantia nigra and locus 
+    coeruleus: interconnections with each other and the neostriatum.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s418">Brain Res.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s419">Bull. 2:323-339.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s420">Phillipson, O.T. (1979) Afferent projections lo the 
+    ventral tegmental area of Tsai and irrterfascicular nucleus: a 
+    horseradish peroxidase study in the rat. .J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s421">Comp.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s422">Neurol. 187:117-144.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s423">Pickel, V.M., M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s424">Segal, and F.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s425">Bloom (1974) A radioautographic study of the efferents 
+    pathways of the nucleus locus coeruleus.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s426">J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s427">Comp.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s428">Neurol. 155:15-42.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s429">Ross, R.A., and D.J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s430">Reis (1974) Effects of lesions of locus coeruleus on 
+    regional distribution of dopamine-(3-hydroxylase activity in rat 
+    brain.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s431">Brain Res. 73.161-166.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s432">Sakai, K., D.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s433">Salvert, M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s434">Touret, and M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s435">Jouvet (1977) Afferent connections of&apos; the nucleus 
+    raphe dorsalis in the cat as visualized by the horseradish 
+    peroxidase technique.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s436">Brain Res. 137:11-35.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s437">Satoh, K., M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s438">Tohyama, K.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s439">Yamamoto, T.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s440">Sakumoto, and N.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s441">Shimizu (1977) Noradrenaline innervation of the spinal 
+    cord studied by the horseradish peroxidase method combined with 
+    monoamine oxidase staining.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s442">Exp.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s443">Brain Res. .?</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s444">0:175-186.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s445">Sawchenko, P.E., and L.W.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s446">Swanson (1982) The organization of noradrener.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s447">gic pathways from the brainstem to the paraventricular 
+    and supraoptic nuclei in the rat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s448">Brain Res.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s449">Rev. 4.275-325.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s450">Senba, E., M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s451">Tohyama, S.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s452">Shiosaka, H.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s453">Takagi, M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s454">Sakanaka, T.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s455">Matsuzaki, Y.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s456">Takahashi, and N.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s457">Shimizu (1981) Experimental and morphological studies of 
+    the noradrenaline innervations in the nucleus tractus spinalis 
+    nervi trigemini of the rat with special reference to their fine 
+    structures.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s458">Brain Res. 206:39-50.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s459">~ Simon, .</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s460">H., M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s461">Le MoaL and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s462">Calas (1979) Efferents and afferents of the ventral 
+    tegmental-A10 region studied after local injection of 
+    [&apos;H]Ieucine and horseradish peroxidase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s463">Brain Res. 178r17-40.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s464">Swanson, L.W. (1976) The b C U S coedeus: a 
+    cyto=chitectonic, Goki immunohistochemical study in the albino 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s465">Brain Hes. 110.39-56.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s466">Swanson, L.W., and B.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s467">Hartman (1974) The central adrenergic system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s468">An immunofluorescence study of the location of cell 
+    bcdies and their efferent connections in the rat utilizing 
+    dopamine-8-hydroxylae as a marker.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s469">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s470">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s471">Neurol. 163:467-506.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s472">Takahashi, Y., K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s473">Satoh, T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s474">Sakumoto, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s475">Tohyama, and N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s476">Shimizu (1979) A major source of catecholamine terminals 
+    in the nucleus tractus solitarii.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s477">Brain Res. 172:372-377.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s478">Thor, K.B., and C.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s479">Helke (1988) Catecholamine-synthesizing neuronal 
+    projections to the nucleus tractus solitarii of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s480">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s481">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s482">Neurol. 268:264-280.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s483">Travers, d.B., and R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s484">Norgren (1983) Afferent projections to the oral motor 
+    nuclei in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s485">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s486">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s487">Neurol. 220280-298.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s488">Ungerstedt, U. (1971) Stereotaxic mapping of the 
+    monoamine pathways in the rat brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s489">Acta Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s490">Scand. suppl. 367:149.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s491">Vornov, J.J., and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s492">Sutin (1983) Brainstem projections to the normal and 
+    noradrenergically hyperinnervated trigemind motor nucleus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s493">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s494">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s495">Neurol. 214:19%208.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s496">Westlund, K.N., R.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s497">Bowker, M.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s498">Ziegler, and J.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s499">Coulter (1983) Noradrenergic projections to the spinal 
+    cord of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s500">Brain Res. 263:1531.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s501">Westlund, K.N., and J.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s502">Coulter (1980) Descending projections of the locus 
+    coeruleus and subcoeruleus/medial parabrachial nuclei in monkey: 
+    axonal transport studies and dopamine-0-hydroxylase 
+    immunocytochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s503">Brain Res. 2:235-364.</S>
+  </References>
+
+</File>
+

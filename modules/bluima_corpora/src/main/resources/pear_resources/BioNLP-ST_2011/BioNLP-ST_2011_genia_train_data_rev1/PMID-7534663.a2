@@ -1,0 +1,50 @@
+*	Equiv T2 T1
+*	Equiv T5 T4
+*	Equiv T11 T10
+T21	Positive_regulation 131 140	induction
+T22	Positive_regulation 242 250	mediated
+T23	Positive_regulation 768 777	Induction
+T24	Entity 803 810	surface
+T25	Localization 811 821	expression
+T26	Negative_regulation 850 857	reduced
+T27	Positive_regulation 896 905	induction
+T28	Regulation 963 971	affected
+T29	Negative_regulation 993 1000	prevent
+T30	Transcription 1008 1021	transcription
+T31	Negative_regulation 1049 1058	inhibited
+T32	Positive_regulation 1059 1068	induction
+T33	Negative_regulation 1212 1223	suppression
+T34	Positive_regulation 1249 1261	upregulation
+T35	Regulation 1374 1385	ineffective
+T36	Negative_regulation 1430 1438	inhibits
+T37	Positive_regulation 1464 1473	induction
+E1	Positive_regulation:T21 Theme:T3 Cause:T5
+E2	Positive_regulation:T21 Theme:T2 Cause:T5
+E3	Positive_regulation:T22 Theme:E2
+E4	Positive_regulation:T22 Theme:E1
+E5	Positive_regulation:T23 Theme:E8 Cause:T9
+E6	Positive_regulation:T23 Theme:E7 Cause:T9
+E7	Localization:T25 Theme:T8 AtLoc:T24
+E8	Localization:T25 Theme:T7 AtLoc:T24
+E9	Negative_regulation:T26 Theme:E6
+E10	Negative_regulation:T26 Theme:E5
+E11	Positive_regulation:T27 Theme:T11
+E12	Regulation:T28 Theme:E11
+E13	Negative_regulation:T29 Theme:E14
+E14	Transcription:T30 Theme:T12
+E15	Negative_regulation:T31 Theme:E16
+E16	Positive_regulation:T32 Theme:T13 Cause:T14
+E17	Negative_regulation:T33 Theme:E19
+E18	Negative_regulation:T33 Theme:E20
+E19	Positive_regulation:T34 Theme:T16
+E20	Positive_regulation:T34 Theme:T17
+E21	Regulation:T35 Theme:E17
+E22	Regulation:T35 Theme:E18
+E23	Negative_regulation:T36 Theme:E25
+E24	Negative_regulation:T36 Theme:E26
+E25	Positive_regulation:T37 Theme:T18
+E26	Positive_regulation:T37 Theme:T19
+M1	Negation E12
+M2	Speculation E13
+M3	Negation E21
+M4	Negation E22

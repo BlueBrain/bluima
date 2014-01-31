@@ -1,0 +1,6 @@
+T10	Gene_expression 948 955	present
+T11	Negative_regulation 998 1011	downmodulated
+T12	Gene_expression 1142 1156	cotransfection
+E1	Gene_expression:T10 Theme:T3
+E2	Negative_regulation:T11 Theme:E1
+E3	Gene_expression:T12 Theme:T5

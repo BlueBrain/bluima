@@ -1,0 +1,60 @@
+T24	Positive_regulation 15 23	enhances
+T25	Gene_expression 34 44	expression
+T26	Positive_regulation 144 152	enhances
+T27	Gene_expression 157 167	expression
+T28	Gene_expression 429 439	expression
+T29	Positive_regulation 588 597	increases
+T30	Positive_regulation 602 612	activation
+T31	Regulation 613 622	dependent
+T32	Binding 623 633	engagement
+T33	Entity 641 643	P0
+T34	Entity 648 672	P1 NFAT-binding elements
+T35	Entity 685 693	promoter
+T36	Positive_regulation 732 741	essential
+T37	Entity 759 767	promoter
+T38	Gene_expression 807 814	contain
+T39	Positive_regulation 815 819	more
+T40	Gene_expression 1023 1033	expression
+T41	Positive_regulation 1067 1076	increases
+T42	Entity 1082 1090	promoter
+T43	Negative_regulation 1149 1157	limiting
+T44	Gene_expression 1167 1182	gene expression
+T45	Negative_regulation 1270 1278	reducing
+T46	Entity 1284 1292	promoter
+T47	Regulation 1343 1353	importance
+T48	Positive_regulation 1376 1385	increased
+T49	Gene_expression 1391 1406	gene expression
+T50	Regulation 1477 1488	responsible
+T51	Positive_regulation 1505 1514	increased
+T52	Gene_expression 1515 1525	expression
+E1	Positive_regulation:T24 Theme:E2
+E2	Gene_expression:T25 Theme:T1
+E3	Positive_regulation:T26 Theme:E6
+E4	Positive_regulation:T26 Theme:E5
+E5	Gene_expression:T27 Theme:T2
+E6	Gene_expression:T27 Theme:T3
+E7	Gene_expression:T28 Theme:T6
+E8	Positive_regulation:T29 Theme:E14
+E9	Positive_regulation:T29 Theme:E13
+E10	Positive_regulation:T30 Theme:T7 Site:T35
+E11	Regulation:T31 Theme:E13 Cause:E10
+E12	Regulation:T31 Theme:E14 Cause:E10
+E13	Binding:T32 Theme:T7 Site:T34
+E14	Binding:T32 Theme:T7 Site:T33
+E15	Positive_regulation:T36 Theme:T8 Cause:T7 Site:T37 CSite:T34
+E16	Positive_regulation:T36 Theme:T8 Cause:T7 Site:T37 CSite:T33
+E17	Gene_expression:T38 Theme:T10
+E18	Positive_regulation:T39 Theme:E17
+E19	Gene_expression:T40 Theme:T12
+E20	Positive_regulation:T41 Theme:T13 Cause:E19 Site:T42
+E21	Negative_regulation:T43 Theme:E22 Cause:T15
+E22	Gene_expression:T44 Theme:T13
+E23	Negative_regulation:T45 Theme:T18 Site:T46
+E24	Regulation:T47 Theme:E25
+E25	Positive_regulation:T48 Theme:E26
+E26	Gene_expression:T49 Theme:T20
+E27	Regulation:T50 Theme:E28 Cause:T21
+E28	Positive_regulation:T51 Theme:E29
+E29	Gene_expression:T52 Theme:T22
+M1	Negation E3
+M2	Speculation E21

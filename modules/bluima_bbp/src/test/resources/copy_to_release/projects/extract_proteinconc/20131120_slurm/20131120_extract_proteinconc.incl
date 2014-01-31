@@ -1,0 +1,82 @@
+########################################################################################
+#
+# another rewrite of Phil's ProteinConcentrationCoocurrencesAnnotatorTest
+#
+# extract Prot x Concentration x Brainregion
+# using simple co-occurrence at Chunk level
+#
+# $1 base output,
+#   e.g. target, or /nfs4/bbp.epfl.ch/simulation/nlp/data/20131024_ic-X-subcell/
+# $2 %(job_name)s job id (for input and output files)
+#   e.g. 1 or 34
+#
+########################################################################################
+
+
+# PREPROC ######################################################
+include: ../../../includes/preprocess.incl
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getChunker();
+
+
+# NERS ############################################################
+
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+
+ae: PruneMeasuresAnnotator
+
+ae: ch.epfl.bbp.nlp.ie.proteinconc.ae.NormalizedConcentrationAnnotator
+
+ae: ch.epfl.bbp.nlp.ie.proteinconc.ae.BannerMAnnotator
+ max_length__java: 200
+
+ae: ch.epfl.bbp.nlp.ie.proteinconc.ae.FigureTitleAnnotator
+
+ae: ch.epfl.bbp.nlp.ie.proteinconc.ae.AnnotOverlapFilter
+ protectedAnnotationClassName: ch.epfl.bbp.uima.types.Protein
+ filteredAnnotationsClassNames__java: new String[]{"ch.epfl.bbp.uima.types.Figure"}
+
+ae: BrainRegionAnnotator
+ modelFile: $ROOT/modules/bluima_regions/resources/models/20131116_BrainRegion.model
+
+ae: ch.epfl.bbp.nlp.ie.proteinconc.ae.AnnotOverlapFilter
+ protectedAnnotationClassName: ch.epfl.bbp.uima.types.BrainRegion
+ filteredAnnotationsClassNames__java: new String[]{"ch.epfl.bbp.uima.types.Measure", "ch.epfl.bbp.uima.types.Protein", "ch.epfl.bbp.uima.types.Cooccurrence"}
+
+# save/tee data for later processing
+ae: ch.epfl.bbp.uima.ae.serialization.BinaryCasWriter
+ outputDir: /nfs4/bbp.epfl.ch/simulation/nlp/data/20131120_preprocessed/
+
+
+# COOCCURRENCES ####################################################
+
+# Prot x Conc
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ enclosingScope: de.julielab.jules.types.Chunk
+ annot1: ch.epfl.bbp.uima.types.Protein
+ annot1IdField: coveredText
+ annot2: ch.epfl.bbp.uima.types.Concentration
+ annot2IdField: value, unit, normalizedValue, normalizedUnit
+ cooccurrenceType: protein+concentration
+
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile2
+ outputFile: $1/$2_prot-conc_cooc.txt
+ annot1Type: protein
+ annot2Type: conc
+ cooccurrenceType: protein+concentration
+
+# Prot x Conc x BR
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.Cooccurrence
+ annot1IdField: firstIds, secondIds
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+ annot2IdField: coveredText
+ cooccurrenceType: BR+protein+concentration
+
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile2
+ outputFile: $1/$2_br-prot-conc_cooc.txt
+ annot1Type: protein_conc
+ annot2Type: brain_region
+ cooccurrenceType: BR+protein+concentration
+

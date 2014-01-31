@@ -1,0 +1,31 @@
+T16	Regulation 56 60	role
+T17	Gene_expression 105 120	gene expression
+T18	Regulation 632 641	important
+T19	Transcription 652 665	transcription
+T20	Positive_regulation 741 751	contribute
+T21	Entity 761 769	promoter
+T22	Gene_expression 885 892	express
+T23	Gene_expression 1008 1018	expression
+T24	Positive_regulation 1056 1068	inducibility
+T25	Gene_expression 1078 1088	expression
+T26	Binding 1180 1188	interact
+T27	Positive_regulation 1316 1324	increase
+T28	Positive_regulation 1346 1355	induction
+T29	Gene_expression 1365 1375	expression
+T30	Transcription 1440 1453	transcription
+E1	Regulation:T16 Theme:E2
+E2	Gene_expression:T17 Theme:T2
+E3	Regulation:T18 Theme:E4
+E4	Transcription:T19 Theme:T5
+E5	Positive_regulation:T20 Theme:T6 Site:T21
+E6	Gene_expression:T22 Theme:T7
+E7	Gene_expression:T23 Theme:T8
+E8	Positive_regulation:T24 Theme:E9
+E9	Gene_expression:T25 Theme:T9
+E10	Binding:T26 Theme:T11
+E11	Binding:T26 Theme:T10
+E12	Positive_regulation:T27 Theme:T12
+E13	Positive_regulation:T28 Theme:E14
+E14	Gene_expression:T29 Theme:T13
+E15	Transcription:T30 Theme:T15
+M1	Speculation E1

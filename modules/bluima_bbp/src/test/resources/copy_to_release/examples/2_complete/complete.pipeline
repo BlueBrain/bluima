@@ -1,0 +1,69 @@
+cr: TextArrayReader
+ input__java: new String[]{"An automated clean up and concentration method by column switching is described for the assay of mitoxantrone, an antitumour drug in plasma.", "The system uses a YWG-CN short precolumn for on-line clean up and concentration and a Shimpack CLC-ODS analytical column for separation.", "Water is used as pretreat mobile phase and 48% methanol in ammonium acetate (0.2 mol/L pH 1.9) is used as analytical mobile phase.", "The plasma sample is treated with methanol and ultrasonated for 10 min.", "The supernatant of treated sample is directly injected to precolumn.", "The recovery of clean up is 85%.", "The wavelength used for detection is 658 nm and the concentration of detection limit is 6 ng/ml in plasma.", "The procedure is simple and the method is sensitive."}
+
+ae: SentenceAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz
+
+ae: TokenAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/token/TokenizerGenia.bin.gz
+
+ae: PosTagAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/postag/Tagger_Genia.bin.gz
+ tagDict:   $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/postag/tagdict-genia
+
+ae: BlueBioLemmatizer
+
+ae: PunctuationAnnotator
+
+ae: WordnetAnnotator
+
+ae: GeneralEnglishAnnotator
+
+# lexicon-based from MT
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/age")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/disease")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/ionchannel")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/method")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/molecule")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/organism")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/region")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/sex")
+
+# lexicon-based from Biolexicon, OBO & co
+#ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/biolexicon/biolexicon_senses")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/neuronames")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/cell")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/disease")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/protein")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/verb")
+
+ae_java: ch.epfl.bbp.uima.ae.BannerHelper.getBanner()
+
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+
+ae: PruneMeasuresAnnotator
+
+ae: LinnaeusAnnotator
+
+ae: OscarAnnotator
+
+ae: VerbsCleanerAnnotator
+
+ae: ViterbiFilterAnnotator
+
+ae: AnnotationHistogramAnnotator
+
+ae: BartWriter
+ batchPrefix: 2_complete_pipeline_2_

@@ -1,0 +1,17 @@
+cr: TextArrayReader
+ input__java: new String[]{"The cerebellar tissues were homogenized in 3.0 ml of ice-cold medium containing 0.32 M sucrose, 10 mM Tris-HCl (pH 7.0), 1 mM sodium EDTA and protease inhibitors (1 mM phenylmethylsulfonyl fluoride, 1 µg/ml aprotinin and 1 µg/ml leupeptin)."}
+
+##############################################################################
+include: 20131204_preprocess.incl
+include: 20131204_extract_proteinconc.incl
+##############################################################################
+
+ae: TestAnnotator
+ expects: ch.epfl.bbp.uima.types.Protein 2
+
+#   2 x protein-concentration co-occurrences
+# + 2 x protein-concentration-brain_region co-occurrences
+
+ae: TestAnnotator
+ expects: ch.epfl.bbp.uima.types.Cooccurrence 4
+

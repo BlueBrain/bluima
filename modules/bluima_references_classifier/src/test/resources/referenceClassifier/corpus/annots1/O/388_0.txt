@@ -1,0 +1,6 @@
+rather than the client side. In retrospect, it would have
+been a cleaner approach to write web service wrappers for
+each of the remote NLP components before integrating
+them into UIMA, but this would have taken additional
+programmer time before a working prototype would have
+been achieved.

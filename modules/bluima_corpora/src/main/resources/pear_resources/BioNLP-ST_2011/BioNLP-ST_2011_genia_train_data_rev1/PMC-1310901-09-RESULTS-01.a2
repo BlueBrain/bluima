@@ -1,0 +1,39 @@
+T14	Negative_regulation 0 7	Absence
+T15	Gene_expression 17 27	expression
+T16	Positive_regulation 53 56	due
+T17	Negative_regulation 115 119	lack
+T18	Gene_expression 129 139	expression
+T19	Gene_expression 240 250	expression
+T20	Gene_expression 341 349	positive
+T21	Gene_expression 380 387	positve
+T22	Gene_expression 460 467	positve
+T23	Gene_expression 513 521	positive
+T24	Gene_expression 616 624	positive
+T25	Negative_regulation 724 731	absence
+T26	Gene_expression 741 751	expression
+T27	Gene_expression 916 924	positive
+T28	Gene_expression 946 954	negative
+T29	Regulation 1248 1254	affect
+T30	Gene_expression 1261 1271	expression
+E1	Negative_regulation:T14 Theme:E2
+E2	Gene_expression:T15 Theme:T1
+E3	Positive_regulation:T16 Theme:E1
+E4	Negative_regulation:T17 Theme:E5
+E5	Gene_expression:T18 Theme:T2
+E6	Gene_expression:T19 Theme:T3
+E7	Gene_expression:T20 Theme:T4
+E8	Gene_expression:T21 Theme:T5
+E9	Gene_expression:T22 Theme:T6
+E10	Gene_expression:T23 Theme:T7
+E11	Gene_expression:T24 Theme:T8
+E12	Negative_regulation:T25 Theme:E13
+E13	Gene_expression:T26 Theme:T10
+E14	Gene_expression:T27 Theme:T11
+E15	Gene_expression:T28 Theme:T12
+E16	Regulation:T29 Theme:E17
+E17	Gene_expression:T30 Theme:T13
+M1	Negation E3
+M2	Negation E6
+M3	Negation E15
+M4	Negation E16
+M5	Speculation E16

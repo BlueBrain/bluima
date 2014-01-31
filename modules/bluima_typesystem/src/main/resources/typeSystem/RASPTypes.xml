@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>RASPTypes</name>
+  <description/>
+  <version>1.1</version>
+  <vendor/>
+  <types>
+    <typeDescription>
+      <name>com.digitalpebble.rasp.Token</name>
+      <description>A token for Rasp</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>wordForms</name>
+          <description>A Token is related to one or more WordForm</description>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>com.digitalpebble.rasp.WordForm</elementType>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>com.digitalpebble.rasp.Sentence</name>
+      <description>Annotation for a Sentence</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>com.digitalpebble.rasp.WordForm</name>
+      <description>A WordForm consists of a POS tag, a lemma and possibly a probability. There is one or more WordForm per Token (as in the MAF ISO Norm)</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>lemma</name>
+          <description>lemma of the Form</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>POS</name>
+          <description>POS tag for a given form</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>probability</name>
+          <description/>
+          <rangeTypeName>uima.cas.Double</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>suffix</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>com.digitalpebble.rasp.Dependency</name>
+      <description>A dependency between two word forms</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>deptype</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>subtype</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>head</name>
+          <description/>
+          <rangeTypeName>com.digitalpebble.rasp.WordForm</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>dep</name>
+          <description/>
+          <rangeTypeName>com.digitalpebble.rasp.WordForm</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>com.digitalpebble.rasp.Clause</name>
+      <description>A clause as returned by the RASP analyser. It can contain one or more word forms or clauses</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>rule</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>subclauses</name>
+          <description>array of subelements. contains WordForms or Clauses</description>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>uima.tcas.Annotation</elementType>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

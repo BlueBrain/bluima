@@ -1,0 +1,44 @@
+T28	Gene_expression 1105 1114	expressed
+T29	Entity 1478 1492	leucine zipper
+T30	Positive_regulation 1505 1514	important
+T31	Binding 1535 1547	interactions
+T32	Entity 1555 1594	carboxyl-terminal forkhead (FKH) domain
+T33	Positive_regulation 1595 1603	required
+T34	Entity 1608 1615	nuclear
+T35	Localization 1616 1628	localization
+T36	Binding 1637 1644	binding
+T37	Negative_regulation 1674 1686	inactivation
+T38	Regulation 1717 1726	affecting
+T39	Entity 1737 1750	coding region
+T40	Negative_regulation 1780 1790	repression
+T41	Gene_expression 1800 1810	expression
+T42	Negative_regulation 2329 2336	inhibit
+T43	Positive_regulation 2337 2363	transcriptional activation
+T44	Binding 2378 2389	interacting
+T45	Entity 2538 2546	promoter
+T46	Binding 2833 2840	binding
+T47	Binding 3133 3145	interactions
+T48	Binding 3195 3202	binding
+T49	Positive_regulation 3397 3406	formation
+T50	Binding 3447 3459	interactions
+E1	Gene_expression:T28 Theme:T3
+E2	Positive_regulation:T30 Theme:E3 Cause:T6 CSite:T29
+E3	Binding:T31 Theme:T6
+E4	Positive_regulation:T33 Theme:E5 Cause:T6 CSite:T32
+E6	Positive_regulation:T33 Theme:E7 Cause:T6 CSite:T32
+E5	Localization:T35 Theme:T6 ToLoc:T34
+E7	Binding:T36 Theme:T6
+E8	Negative_regulation:T37 Theme:T7 Cause:E9
+E9	Regulation:T38 Theme:T8 Site:T39
+E10	Negative_regulation:T40 Theme:E11 Cause:T10
+E11	Gene_expression:T41 Theme:T9
+E12	Negative_regulation:T42 Theme:E13 Cause:E14
+E13	Positive_regulation:T43 Theme:T17 Site:T45
+E14	Binding:T44 Theme:T16
+E15	Binding:T46 Theme:T19
+E16	Binding:T47 Theme:T21
+E17	Binding:T48 Theme:T22
+E18	Positive_regulation:T49 Theme:E19
+E19	Binding:T50 Theme:T23
+M1	Speculation E12
+M2	Speculation E18

@@ -1,0 +1,27 @@
+cr: TextArrayReader
+ input__java: new String[]{"All these effects indicate a postsynaptic inhibitory action of these amino acids."}
+
+include: ../../includes/preprocess.incl
+
+ae: PunctuationAnnotator
+
+ae: WordnetAnnotator
+
+ae: GeneralEnglishAnnotator
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/verb")
+
+
+ae: VerbsCleanerAnnotator
+
+ae: ViterbiFilterAnnotator
+
+ae: AnnotationHistogramAnnotator
+
+ae: TestAnnotator
+ expects: de.julielab.jules.types.Token 12, ch.epfl.bbp.uima.types.GeneralEnglish 2
+
+#TODO test more
+
+ae: BartWriter
+ batchPrefix: test_

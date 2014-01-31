@@ -1,0 +1,5 @@
+T2	Negative_regulation 1270 1278	decrease
+T3	Negative_regulation 1380 1407	returned to baseline levels
+E1	Negative_regulation:T2 Theme:T1
+E2	Negative_regulation:T3 Theme:E1
+M1	Negation E2

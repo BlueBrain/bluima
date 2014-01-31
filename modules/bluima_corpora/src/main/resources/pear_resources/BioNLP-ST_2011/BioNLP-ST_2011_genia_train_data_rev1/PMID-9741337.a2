@@ -1,0 +1,39 @@
+*	Equiv T4 T3
+T18	Positive_regulation 13 20	induced
+T19	Gene_expression 35 45	production
+T20	Localization 169 176	secrete
+T21	Gene_expression 249 259	production
+T22	Regulation 299 304	using
+T23	Positive_regulation 449 456	induced
+T24	Localization 580 589	secretion
+T25	Negative_regulation 608 624	was undetectable
+T26	Gene_expression 641 649	produced
+T27	Negative_regulation 650 661	low amounts
+T28	Positive_regulation 763 772	increased
+T29	Gene_expression 778 788	production
+T30	Regulation 1024 1031	control
+T31	Gene_expression 1040 1050	expression
+T32	Localization 1753 1762	secretion
+T33	Negative_regulation 1789 1796	reduced
+T34	Gene_expression 1802 1812	production
+T35	Regulation 1836 1844	specific
+E1	Positive_regulation:T18 Theme:E2 Cause:T1
+E2	Gene_expression:T19 Theme:T2
+E3	Localization:T20 Theme:T4
+E4	Gene_expression:T21 Theme:T5
+E5	Regulation:T22 Theme:E4
+E6	Positive_regulation:T23 Theme:T7
+E7	Localization:T24 Theme:T8
+E8	Negative_regulation:T25 Theme:E7
+E9	Gene_expression:T26 Theme:T9
+E10	Negative_regulation:T27 Theme:E9
+E11	Positive_regulation:T28 Theme:E12
+E12	Gene_expression:T29 Theme:T11
+E13	Regulation:T30 Theme:E14
+E14	Gene_expression:T31 Theme:T13
+E15	Localization:T32 Theme:T15
+E16	Negative_regulation:T33 Theme:E17
+E17	Gene_expression:T34 Theme:T16
+E18	Regulation:T35 Theme:E16
+M1	Speculation E4
+M2	Speculation E5

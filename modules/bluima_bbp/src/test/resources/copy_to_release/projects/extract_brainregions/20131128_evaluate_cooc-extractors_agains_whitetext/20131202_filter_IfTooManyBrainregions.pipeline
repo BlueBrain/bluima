@@ -1,0 +1,78 @@
+#TestResult:
+#    precision:  0.086
+#    recall: 1.000
+#    F1: 0.159
+#TestResult:
+#    precision:  0.105
+#    recall: 0.898
+#    F1: 0.188
+#TestResult:
+#    precision:  0.116
+#    recall: 0.658
+#    F1: 0.197
+#TestResult:
+#    precision:  0.275
+#    recall: 0.507
+#    F1: 0.357
+#TestResult:
+#    precision:  0.271
+#    recall: 0.467
+#    F1: 0.343
+#TestResult:
+#    precision:  0.261
+#    recall: 0.383
+#    F1: 0.310
+#TestResult:
+#    precision:  0.261
+#    recall: 0.383
+#    F1: 0.310
+
+
+cr: WhiteTextConnectionsCollectionReader
+ae: EvaluationPreprocessorAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.Cooccurrence
+
+
+# 1: base
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.BrainRegion
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+# 2: FilterCoocurrencesIfTooManyBrainregions 10
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesIfTooManyEntities
+ maximumEntities__java: 10
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+# 3: FilterCoocurrencesIfTooManyBrainregions 5 
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesIfTooManyEntities
+ maximumEntities__java: 5
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+
+
+# 4: NearestNeighbors
+ae: RemoveAnnotationsAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.Cooccurrence
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.BrainRegion
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+ keepOnlyNearestNeighbors__java: true
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+
+# 5: FilterCoocurrencesIfTooManyBrainregions 10
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesIfTooManyEntities
+ maximumEntities__java: 10
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+# 6: FilterCoocurrencesIfTooManyBrainregions 5 
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesIfTooManyEntities
+ maximumEntities__java: 5
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+# 7: long sentences
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator

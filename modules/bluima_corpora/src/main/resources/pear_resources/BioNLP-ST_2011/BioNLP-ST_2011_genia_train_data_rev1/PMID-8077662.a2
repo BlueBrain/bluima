@@ -1,0 +1,38 @@
+T17	Positive_regulation 0 9	Induction
+T18	Gene_expression 18 28	expression
+T19	Positive_regulation 40 44	uses
+T20	Localization 187 195	secreted
+T21	Positive_regulation 243 254	Stimulation
+T22	Gene_expression 490 498	produced
+T23	Positive_regulation 588 596	resulted
+T24	Positive_regulation 602 623	synergistic induction
+T25	Localization 632 641	secretion
+T26	Entity 749 773	NF-kappa B-like sequence
+T27	Regulation 828 836	response
+T28	Negative_regulation 893 900	blocked
+T29	Positive_regulation 905 926	synergistic induction
+T30	Gene_expression 935 945	expression
+T31	Positive_regulation 1002 1013	involvement
+T32	Positive_regulation 1048 1057	induction
+T33	Gene_expression 1066 1076	expression
+T34	Positive_regulation 1198 1207	increased
+T35	Gene_expression 1208 1214	levels
+E1	Positive_regulation:T17 Theme:E2
+E2	Gene_expression:T18 Theme:T1
+E3	Positive_regulation:T19 Theme:E1
+E4	Localization:T20 Theme:T3
+E5	Positive_regulation:T21 Theme:T4
+E6	Gene_expression:T22 Theme:T6
+E7	Positive_regulation:T23 Theme:E8
+E8	Positive_regulation:T24 Theme:E9
+E9	Localization:T25 Theme:T8
+E10	Regulation:T27 Theme:T10 Cause:T11 Site:T26
+E11	Negative_regulation:T28 Theme:E12
+E12	Positive_regulation:T29 Theme:E13
+E13	Gene_expression:T30 Theme:T12
+E14	Positive_regulation:T31 Theme:E15
+E15	Positive_regulation:T32 Theme:E16
+E16	Gene_expression:T33 Theme:T15
+E17	Positive_regulation:T34 Theme:E18
+E18	Gene_expression:T35 Theme:T16
+M1	Negation E11

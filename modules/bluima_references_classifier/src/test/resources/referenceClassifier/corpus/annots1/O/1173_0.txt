@@ -1,0 +1,21 @@
+ambiguity for the tagged document sets before and after
+the disambiguation step by LINNAEUS are shown in
+Table 3. Ambiguity levels are calculated as the number
+of ambiguous mentions divided by the total number of
+mentions, where an ambiguous mention is counted
+when a mention maps to several species. The disambiguation method “none” shows values prior to any disambiguation; “earlier” disambiguates by scanning for
+explicit mentions earlier in the document and, for comparison, “whole” disambiguates by scanning for explicit
+mentions in the whole document. “Strict” disambiguation does not consider the associated probabilities of
+correct species mentions, whereas “approximate” represents the disambiguation of any mentions where a single
+species has higher than 99% probability, or the sum of
+all species probabilities is lower than 1%.
+Scanning for explicit species mentions elsewhere in
+the text leads to roughly a two-fold reduction in ambiguity for abstracts, but nearly a five-fold reduction for
+full text. Approximate tagging based on probabilities of
+correct species usage leads to roughly a two-fold reduction in levels of ambiguity, in both abstracts and full
+text. Overall, less than 2.9% of mentions in full-text
+documents remain ambiguous when explicit mentions
+are sought elsewhere in the text and, combined with
+approximate disambiguation based on probabilities of
+correct species usage, levels of ambiguity drop to less
+than 1.5%.

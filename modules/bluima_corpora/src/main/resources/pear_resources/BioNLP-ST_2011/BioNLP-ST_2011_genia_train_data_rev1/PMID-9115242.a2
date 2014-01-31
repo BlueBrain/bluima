@@ -1,0 +1,39 @@
+*	Equiv T8 T9
+T13	Positive_regulation 0 25	Transcriptional induction
+T14	Regulation 91 100	regulated
+T15	Regulation 223 231	regulate
+T16	Positive_regulation 232 257	transcriptional induction
+T17	Entity 765 773	promoter
+T18	Positive_regulation 814 829	transactivation
+T19	Positive_regulation 1125 1139	potential role
+T20	Regulation 1172 1182	regulating
+T21	Transcription 1197 1210	transcription
+T22	Positive_regulation 1291 1295	role
+T23	Regulation 1389 1399	regulating
+T24	Transcription 1400 1413	transcription
+T25	Regulation 1552 1559	control
+T26	Gene_expression 1560 1570	expression
+T27	Positive_regulation 1648 1657	induction
+T28	Transcription 1675 1688	transcription
+T29	Regulation 1692 1702	controlled
+T30	Regulation 1718 1747	distinct from that regulating
+T31	Gene_expression 1762 1772	expression
+E1	Positive_regulation:T13 Theme:T1
+E2	Regulation:T14 Theme:E1
+E3	Regulation:T15 Theme:E4
+E4	Positive_regulation:T16 Theme:T3
+E5	Positive_regulation:T18 Theme:T6 Site:T17
+E6	Positive_regulation:T19 Theme:E7
+E7	Regulation:T20 Theme:E8
+E8	Transcription:T21 Theme:T7
+E9	Positive_regulation:T22 Theme:E10
+E10	Regulation:T23 Theme:E11
+E11	Transcription:T24 Theme:T10
+E12	Regulation:T25 Theme:E13
+E13	Gene_expression:T26 Theme:T11
+E14	Positive_regulation:T27 Theme:E15
+E15	Transcription:T28 Theme:T12
+E16	Regulation:T29 Theme:E14
+E17	Regulation:T30 Theme:E18
+E18	Gene_expression:T31 Theme:T12
+M1	Negation E17

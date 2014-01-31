@@ -1,0 +1,8 @@
+This module allows to write UIMA annotators in Python.
+
+1. write a Python script. 
+   see the example in src/test/resources/jython_script/dave_annotator.py
+   you can import any module from the Python standard library
+   
+2. use the Jython Annotation Engine (JythonAE.java) within any UIMA pipeline.
+   see the example in src/test/java

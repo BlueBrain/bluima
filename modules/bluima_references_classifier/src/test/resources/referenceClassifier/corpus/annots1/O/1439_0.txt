@@ -1,0 +1,29 @@
+Results
+Simulation of growth cone migration and guidance
+Various random walk models capable of capturing crucial
+stochastic [5,27,28] and deterministic [5,27,29] aspects of
+growth cone movement have been adapted to simulate
+growth cone migration [9,30-32]. We use the simplest of
+these models. Migration is simulated in 2-dimensions,
+and correspondingly two equations are used. One equation models migration in the direction of axonal outgrowth (∆y ); the second models migration in the
+ct
+orthogonal direction (∆x ) [30]. Explicitly,
+ct
+
+
+∆xct = ext (1)
+
+∆y = e + ∆y (2)
+ct yt avg
+
+
+where ∆x and ∆y equal the change in the growth cone
+ct ct
+centroid coordinates, x and y respectively, over a time
+cc
+interval τ. The e and e terms are drawn from independxt yt
+ent and normal random distributions with zero means
+
+and constant standard deviations σdx τ and σdy τ
+respectively. These deviations are explicitly normalized
+with respect to time step τ [33] to generate behaviors

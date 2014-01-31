@@ -1,0 +1,7 @@
+*	Equiv T2 T3
+T8	Regulation 0 26	Transcriptional regulation
+T9	Transcription 0 26	Transcriptional regulation
+T10	Regulation 989 1015	transcriptional regulation
+E1	Regulation:T8 Theme:E2
+E2	Transcription:T9 Theme:T1
+E3	Regulation:T10 Theme:T6

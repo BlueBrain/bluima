@@ -1,0 +1,37 @@
+T15	Binding 126 133	binding
+T16	Binding 228 235	binding
+T17	Binding 578 588	recognized
+T18	Regulation 847 853	effect
+T19	Binding 902 909	binding
+T20	Binding 951 959	liganded
+T21	Negative_regulation 1117 1126	inhibited
+T22	Binding 1141 1148	binding
+T23	Regulation 1154 1160	effect
+T24	Binding 1176 1183	binding
+T25	Binding 1331 1338	complex
+T26	Binding 1359 1366	complex
+T27	Binding 1449 1461	cross-linked
+T28	Negative_regulation 1509 1522	still able to
+T29	Regulation 1523 1528	react
+T30	Binding 1641 1648	binding
+T31	Binding 2001 2008	binding
+E1	Binding:T15 Theme:T1
+E2	Binding:T16 Theme:T3
+E3	Binding:T17 Theme:T6
+E4	Binding:T17 Theme:T5
+E5	Regulation:T18 Theme:E6
+E6	Binding:T19 Theme:T8
+E7	Binding:T20 Theme:T9
+E8	Negative_regulation:T21 Theme:E9
+E9	Binding:T22 Theme:T10
+E10	Regulation:T23 Theme:E11
+E11	Binding:T24 Theme:T10
+E12	Binding:T25 Theme:T11
+E13	Binding:T26 Theme:T12
+E14	Binding:T27 Theme:T13 Theme2:T14
+E15	Negative_regulation:T28 Theme:E16 Cause:E14
+E16	Regulation:T29 Theme:T14
+E17	Binding:T30 Theme:T10
+E18	Binding:T31 Theme:T10
+M1	Speculation E5
+M2	Negation E15

@@ -1,0 +1,63 @@
+*	Equiv T3 T4
+*	Equiv T9 T8
+*	Equiv T6 T5
+T28	Positive_regulation 15 25	stabilizes
+T29	Negative_regulation 184 194	inhibition
+T30	Gene_expression 220 230	production
+T31	Protein_catabolism 502 513	degradation
+T32	Binding 521 531	associated
+T33	Negative_regulation 620 628	prevents
+T34	Positive_regulation 669 678	resultant
+T35	Gene_expression 689 699	production
+T36	Positive_regulation 703 716	stabilization
+T37	Regulation 782 788	effect
+T38	Positive_regulation 826 833	induced
+T39	Gene_expression 859 869	production
+T40	Protein_catabolism 911 922	degradation
+T41	Regulation 1099 1107	measured
+T42	Gene_expression 1217 1223	levels
+T43	Positive_regulation 1310 1319	increased
+T44	Negative_regulation 1371 1381	attenuated
+T45	Positive_regulation 1386 1396	stimulated
+T46	Gene_expression 1407 1417	production
+T47	Negative_regulation 1528 1537	decreased
+T48	Negative_regulation 1595 1604	prevented
+T49	Negative_regulation 1617 1626	decreases
+T50	Positive_regulation 1749 1759	preserving
+T51	Negative_regulation 1803 1812	reduction
+T52	Localization 1826 1833	release
+E1	Positive_regulation:T28 Theme:T2 Cause:T1
+E2	Negative_regulation:T29 Theme:E3
+E3	Gene_expression:T30 Theme:T6
+E4	Protein_catabolism:T31 Theme:T9
+E5	Binding:T32 Theme:T9
+E6	Negative_regulation:T33 Theme:E7 Cause:E9
+E7	Positive_regulation:T34 Theme:E8
+E8	Gene_expression:T35 Theme:T11
+E9	Positive_regulation:T36 Theme:T12 Cause:T10
+E10	Regulation:T37 Theme:E15 Cause:T13
+E11	Regulation:T37 Theme:E14 Cause:T13
+E12	Positive_regulation:T38 Theme:E15
+E13	Positive_regulation:T38 Theme:E14
+E14	Gene_expression:T39 Theme:T14
+E15	Protein_catabolism:T40 Theme:T15
+E16	Regulation:T41 Theme:E18
+E17	Regulation:T41 Theme:T17
+E18	Gene_expression:T42 Theme:T18
+E19	Positive_regulation:T43 Theme:T19
+E20	Negative_regulation:T44 Theme:E21 Cause:T20
+E21	Positive_regulation:T45 Theme:E22
+E22	Gene_expression:T46 Theme:T21
+E23	Negative_regulation:T47 Theme:T22
+E24	Negative_regulation:T48 Theme:E25
+E25	Negative_regulation:T49 Theme:T24
+E26	Positive_regulation:T50 Theme:T26 Cause:T25
+E27	Negative_regulation:T51 Theme:E28
+E28	Localization:T52 Theme:T27
+M1	Speculation E6
+M2	Speculation E9
+M3	Speculation E10
+M4	Speculation E11
+M5	Speculation E16
+M6	Speculation E17
+M7	Speculation E18

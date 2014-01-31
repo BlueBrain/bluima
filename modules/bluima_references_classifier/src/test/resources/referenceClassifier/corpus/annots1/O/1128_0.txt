@@ -1,0 +1,12 @@
+For the PPI task, the MINT and IntAct interaction database
+provided the data collections. For both databases, trained
+domain experts manually extract relevant interaction information from the literature to fill in structured database
+records, after detailed reading of full text articles. In general,
+there are three basic strategies for selection of articles for
+annotation: recommendation-based curation, where annotated article citations are mainly derived from other resources
+or databases; exhaustive curation of a specific set of journals
+of interest, where each article is examined in detail to derive
+potential annotations; and thematic curation, where articles
+are selected primarily based on a keyword search (for example, for cancer or cell cycle related papers). The IAS training
+data consisted of 3,536 protein abstracts that had been judged
+to be relevant for interaction annotation (according to any of

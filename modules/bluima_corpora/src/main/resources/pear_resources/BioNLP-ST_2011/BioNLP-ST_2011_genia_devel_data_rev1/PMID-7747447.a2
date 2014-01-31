@@ -1,0 +1,18 @@
+T11	Positive_regulation 0 9	Induction
+T12	Phosphorylation 17 32	phosphorylation
+T13	Positive_regulation 704 711	induced
+T14	Phosphorylation 720 735	phosphorylation
+T15	Gene_expression 946 956	expression
+T16	Phosphorylation 1034 1049	phosphorylation
+T17	Positive_regulation 1050 1057	induced
+T18	Positive_regulation 1130 1141	facilitates
+T19	Binding 1175 1182	complex
+E1	Positive_regulation:T11 Theme:E2
+E2	Phosphorylation:T12 Theme:T1
+E3	Positive_regulation:T13 Theme:E4
+E4	Phosphorylation:T14 Theme:T3
+E5	Gene_expression:T15 Theme:T6
+E6	Phosphorylation:T16 Theme:T7
+E7	Positive_regulation:T17 Theme:E6
+E8	Positive_regulation:T18 Theme:E9 Cause:E7
+E9	Binding:T19 Theme:T9 Theme2:T10

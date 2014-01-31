@@ -1,0 +1,60 @@
+########################################################################################
+# extract brain regions with 3 different methods
+#
+# 15/s
+# 25/s with 3 threads
+#
+########################################################################################
+
+threads: 3
+
+cr: PubmedWholeDatabaseCR
+ db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" }
+
+
+ae: SentenceAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz
+
+
+# needed!
+ae: TokenAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/token/TokenizerGenia.bin.gz
+
+########################################################################################
+# 1) NEURONAMES
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/neuronames")
+
+ae: DeduplicatorAnnotator
+ annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.BrainRegionDictTerm"}
+
+ae: ExtractBrainregionsCoocurrences
+ outputDir: target/neuronames/
+
+ae: RemoveAnnotationsAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+
+########################################################################################
+# 2) BAMS
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("brainregions/bams2004")
+
+ae: DeduplicatorAnnotator
+ annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.BrainRegionDictTerm"}
+
+ae: ExtractBrainregionsCoocurrences
+ outputDir: target/bams/
+
+########################################################################################
+# 3) BraiNER
+ae: BrainRegionAnnotator
+ modelFile: $ROOT/modules/bluima_regions/resources/models/20130515_BrainRegion.model
+
+ae: DeduplicatorAnnotator
+ annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.BrainRegion"}
+
+ae: ExtractBrainregionsCoocurrences2
+ outputDir: target/brainer/
+
+
+########################################################################################
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

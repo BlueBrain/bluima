@@ -1,0 +1,9 @@
+
+
+
+mvn process-classes
+(see http://code.google.com/p/activejdbc/wiki/GettingStarted)
+
+
+if error: "activejdbc InstrumentationException class is frozen" 
+mvn clean install, NOT mvn clean test install

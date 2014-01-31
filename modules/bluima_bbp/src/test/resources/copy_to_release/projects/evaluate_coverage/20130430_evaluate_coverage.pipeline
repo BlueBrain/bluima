@@ -1,0 +1,61 @@
+#
+# evaluate coverage of extraction 
+#
+
+# use fulltext articles from PMC open subset 
+#cr: PubmedCentralCollectionReader
+# inputDirectory: /Volumes/HDD2/ren_data/data_hdd/_papers_etc/test/sample_from_ff/0a
+
+#cr: PubmedDatabaseCR
+# db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" } 
+# between__java: new int[]{126,150}
+# between__java: new int[]{15000000,15005000}
+
+cr: PubmedFromListDatabaseCR
+ db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" } 
+ ids__java: new int[]{ $1 }
+
+include: ../../includes/preprocess.incl
+
+ae: PunctuationAnnotator
+
+ae: WordnetAnnotator
+
+ae: GeneralEnglishAnnotator
+
+include: ../../includes/lex-based-ners.incl
+
+
+ae_java: ch.epfl.bbp.uima.ae.BannerHelper.getBanner()
+
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+
+ae: PruneMeasuresAnnotator
+
+ae: LinnaeusAnnotator
+
+ae: OscarAnnotator
+
+ae: DeduplicatorAnnotator
+ annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.BiolexiconDictTerm"}
+
+
+ae: SkipSomePosAnnotator
+
+
+
+
+ae: VerbsCleanerAnnotator
+
+
+
+ae: EvaluateCoverageAnnotator
+
+
+#ae: BartWriter
+# batchPrefix: eval_coverage_
+# debug_java: true
+
+ 
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

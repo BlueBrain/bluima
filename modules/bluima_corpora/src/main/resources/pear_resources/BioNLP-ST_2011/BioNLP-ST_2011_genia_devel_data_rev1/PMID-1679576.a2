@@ -1,0 +1,18 @@
+T10	Gene_expression 38 48	expressing
+T11	Gene_expression 140 150	expression
+T12	Gene_expression 369 379	expressing
+T13	Gene_expression 739 749	expressing
+T14	Gene_expression 837 847	Expression
+T15	Positive_regulation 877 885	resulted
+T16	Transcription 889 902	transcription
+T17	Positive_regulation 932 941	dependent
+T18	Gene_expression 1190 1200	expression
+E1	Gene_expression:T10 Theme:T1
+E2	Gene_expression:T11 Theme:T2
+E3	Gene_expression:T12 Theme:T4
+E4	Gene_expression:T13 Theme:T6
+E5	Gene_expression:T14 Theme:T7
+E6	Positive_regulation:T15 Theme:E8 Cause:E5
+E7	Transcription:T16 Theme:T8
+E8	Positive_regulation:T17 Theme:E7
+E9	Gene_expression:T18 Theme:T9

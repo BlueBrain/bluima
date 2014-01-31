@@ -1,0 +1,26 @@
+
+cr: PubmedWholeDatabaseCR
+ db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" }
+
+
+
+
+ae: LinnaeusAnnotator
+
+ae: DatabaseAnnotationWriter
+ db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" }
+ createTableStatement: CREATE TABLE IF NOT EXISTS `species` (\
+  `id` int(11) unsigned NOT NULL AUTO_INCREMENT,\
+  `pmid` int(11) DEFAULT NULL,\
+  `species_id` varchar(255) DEFAULT NULL,\
+  `species` varchar(255) DEFAULT NULL,\
+  `begin` int(6) DEFAULT NULL,\
+  `end` int(6) DEFAULT NULL,\
+  PRIMARY KEY (`id`)\
+  ) ENGINE=InnoDB AUTO_INCREMENT=4 DEFAULT CHARSET=utf8;
+ insertStatement: INSERT INTO `species` (`pmid`, `species_id`, `species`, `begin`, `end`) VALUES (?,?,?,?,?)
+ annotationClass: ch.epfl.bbp.uima.types.LinnaeusSpecies
+ annotationFields__java: new String[]{"mostProbableSpeciesId", "coveredText", "begin", "end"} 
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 50000

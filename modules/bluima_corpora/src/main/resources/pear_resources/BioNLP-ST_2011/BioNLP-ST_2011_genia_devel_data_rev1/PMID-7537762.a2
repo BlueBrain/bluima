@@ -1,0 +1,29 @@
+*	Equiv T6 T5
+*	Equiv T8 T7
+T16	Regulation 33 42	regulates
+T17	Localization 106 115	secretion
+T18	Gene_expression 459 468	expressed
+T19	Positive_regulation 499 508	increased
+T20	Localization 513 522	secretion
+T21	Positive_regulation 627 631	when
+T22	Negative_regulation 777 785	prevents
+T23	Binding 802 809	binding
+T24	Positive_regulation 1018 1026	required
+T25	Gene_expression 1031 1041	expression
+E1	Regulation:T16 Theme:E4
+E2	Regulation:T16 Theme:E3
+E3	Localization:T17 Theme:T3
+E4	Localization:T17 Theme:T2
+E5	Gene_expression:T18 Theme:T4
+E6	Positive_regulation:T19 Theme:E9
+E7	Positive_regulation:T19 Theme:E8
+E8	Localization:T20 Theme:T8
+E9	Localization:T20 Theme:T6
+E10	Positive_regulation:T21 Theme:E8
+E11	Positive_regulation:T21 Theme:E9
+E12	Negative_regulation:T22 Theme:E13
+E13	Binding:T23 Theme:T10 Theme2:T11
+E14	Positive_regulation:T24 Theme:E16
+E15	Positive_regulation:T24 Theme:E17
+E16	Gene_expression:T25 Theme:T13
+E17	Gene_expression:T25 Theme:T14

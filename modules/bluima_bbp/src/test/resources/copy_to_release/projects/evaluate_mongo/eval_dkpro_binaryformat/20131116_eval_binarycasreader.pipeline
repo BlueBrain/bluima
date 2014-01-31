@@ -1,0 +1,10 @@
+#FIXME
+#cr: de.tudarmstadt.ukp.dkpro.core.io.bincas.BinaryCasReader
+# #sourceLocation: target/binaryy
+# sourceLocation: target/binaryy_comp
+# patterns__java: new String[]{"[+]*.bin" };
+
+#FIXMEae: AddHeaderFromDkproMetadata
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

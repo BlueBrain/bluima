@@ -1,0 +1,59 @@
+T23	Regulation 33 41	regulate
+T24	Gene_expression 46 56	expression
+T25	Gene_expression 148 155	produce
+T26	Positive_regulation 266 277	in response
+T27	Gene_expression 336 343	produce
+T28	Positive_regulation 363 367	when
+T29	Positive_regulation 415 423	augments
+T30	Positive_regulation 428 437	dependent
+T31	Gene_expression 443 453	production
+T32	Positive_regulation 531 539	required
+T33	Positive_regulation 552 562	activation
+T34	Entity 575 583	promoter
+T35	Negative_regulation 621 630	inhibited
+T36	Positive_regulation 649 659	activation
+T37	Entity 721 729	promoter
+T38	Positive_regulation 776 796	positively regulated
+T39	Negative_regulation 817 825	opposite
+T40	Regulation 891 900	regulates
+T41	Regulation 905 913	response
+T42	Entity 926 934	promoter
+T43	Entity 1006 1016	P sequence
+T44	Regulation 1035 1066	defined as a responsive element
+T45	Binding 1445 1450	bound
+T46	Regulation 1862 1872	regulation
+E1	Regulation:T23 Theme:E4
+E2	Regulation:T23 Theme:E3
+E3	Gene_expression:T24 Theme:T2
+E4	Gene_expression:T24 Theme:T1
+E5	Gene_expression:T25 Theme:T3
+E6	Gene_expression:T25 Theme:T4
+E7	Gene_expression:T25 Theme:T6
+E8	Gene_expression:T25 Theme:T7
+E9	Gene_expression:T25 Theme:T5
+E10	Positive_regulation:T26 Theme:E6
+E11	Positive_regulation:T26 Theme:E8
+E12	Positive_regulation:T26 Theme:E5
+E13	Positive_regulation:T26 Theme:E7
+E14	Positive_regulation:T26 Theme:E9
+E15	Gene_expression:T27 Theme:T8
+E16	Positive_regulation:T28 Theme:E15
+E17	Positive_regulation:T29 Theme:E18
+E18	Positive_regulation:T30 Theme:E19
+E19	Gene_expression:T31 Theme:T9
+E20	Positive_regulation:T32 Theme:E21
+E21	Positive_regulation:T33 Theme:T10 Site:T34
+E22	Negative_regulation:T35 Theme:E24
+E23	Negative_regulation:T35 Theme:E25
+E24	Positive_regulation:T36 Theme:T11
+E25	Positive_regulation:T36 Theme:T12 Site:T37
+E26	Positive_regulation:T38 Theme:T13
+E27	Negative_regulation:T39 Theme:T14
+E28	Regulation:T40 Theme:E29
+E29	Regulation:T41 Theme:T15 Site:T42
+E30	Regulation:T44 Theme:T16 Site:T43
+E31	Binding:T45 Theme:T17
+E32	Binding:T45 Theme:T19
+E33	Binding:T45 Theme:T18
+E34	Regulation:T46 Theme:T22
+E35	Regulation:T46 Theme:T21

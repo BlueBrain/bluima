@@ -1,0 +1,33 @@
+T14	Regulation 11 18	control
+T15	Regulation 374 381	control
+T16	Negative_regulation 569 584	double-negative
+T17	Positive_regulation 655 670	double-positive
+T18	Positive_regulation 832 840	required
+T19	Gene_expression 854 864	expression
+T20	Negative_regulation 956 964	inhibits
+T21	Gene_expression 974 984	expression
+T22	Negative_regulation 1132 1145	down-regulate
+T23	Gene_expression 1155 1165	expression
+T24	Positive_regulation 1289 1297	required
+T25	Negative_regulation 1301 1307	resume
+T26	Gene_expression 1312 1322	expression
+T27	Positive_regulation 1376 1385	regulated
+T28	Negative_regulation 1376 1385	regulated
+E1	Regulation:T14 Theme:T1
+E2	Regulation:T15 Theme:T3
+E3	Negative_regulation:T16 Theme:T4
+E4	Positive_regulation:T17 Theme:T4
+E5	Positive_regulation:T18 Theme:E6
+E6	Gene_expression:T19 Theme:T6
+E7	Negative_regulation:T20 Theme:E8
+E8	Gene_expression:T21 Theme:T8
+E9	Negative_regulation:T22 Theme:E10
+E10	Gene_expression:T23 Theme:T9
+E11	Positive_regulation:T24 Theme:E12
+E12	Negative_regulation:T25 Theme:E13
+E13	Gene_expression:T26 Theme:T12
+E14	Positive_regulation:T27 Theme:T13
+E15	Negative_regulation:T28 Theme:T13
+M1	Speculation E9
+M2	Speculation E11
+M3	Negation E12

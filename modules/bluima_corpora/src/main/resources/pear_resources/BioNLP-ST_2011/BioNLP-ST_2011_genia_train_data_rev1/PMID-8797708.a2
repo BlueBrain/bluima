@@ -1,0 +1,19 @@
+T19	Binding 0 11	Interaction
+T20	Binding 680 684	bind
+T21	Positive_regulation 1086 1090	Upon
+T22	Phosphorylation 1131 1145	phosphorylated
+T23	Protein_catabolism 1170 1178	degraded
+T24	Binding 1609 1629	physical interaction
+T25	Binding 1732 1752	physical association
+T26	Binding 1829 1840	interaction
+E1	Binding:T19 Theme:T1
+E2	Binding:T20 Theme:T5
+E3	Positive_regulation:T21 Theme:E6
+E4	Positive_regulation:T21 Theme:E5
+E5	Phosphorylation:T22 Theme:T7
+E6	Protein_catabolism:T23 Theme:T7
+E7	Binding:T24 Theme:T11 Theme2:T12
+E8	Binding:T25 Theme:T13 Theme2:T14
+E9	Binding:T26 Theme:T15 Theme2:T16 Theme3:T18
+E10	Binding:T26 Theme:T15 Theme2:T17 Theme3:T18
+M1	Negation E2

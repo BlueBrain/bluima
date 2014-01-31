@@ -1,0 +1,8 @@
+T12	Phosphorylation 1546 1561	phosphorylation
+T13	Entity 1565 1575	serine 186
+T14	Regulation 1608 1617	influence
+T15	Binding 1629 1640	recognition
+E1	Phosphorylation:T12 Theme:T11 Site:T13
+E2	Regulation:T14 Theme:E3 Cause:E1
+E3	Binding:T15 Theme:T11
+M1	Speculation E2

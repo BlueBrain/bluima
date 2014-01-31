@@ -1,0 +1,21 @@
+*	Equiv T3 T2
+T10	Negative_regulation 0 9	Reduction
+T11	Gene_expression 42 52	expression
+T12	Negative_regulation 480 489	decreases
+T13	Negative_regulation 865 872	reduces
+T14	Positive_regulation 955 964	enhancing
+T15	Negative_regulation 969 981	inactivation
+T16	Binding 990 997	binding
+T17	Positive_regulation 1145 1153	involved
+T18	Transcription 1177 1190	transcription
+T19	Negative_regulation 1289 1297	impaired
+E1	Negative_regulation:T10 Theme:E2
+E2	Gene_expression:T11 Theme:T1
+E3	Negative_regulation:T12 Theme:T3
+E4	Negative_regulation:T13 Theme:T5
+E5	Positive_regulation:T14 Theme:E6 Cause:E7
+E6	Negative_regulation:T15 Theme:T6
+E7	Binding:T16 Theme:T6
+E8	Positive_regulation:T17 Theme:E9
+E9	Transcription:T18 Theme:T7
+E10	Negative_regulation:T19 Theme:T9

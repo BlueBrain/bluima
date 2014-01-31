@@ -1,0 +1,12 @@
+T24	Binding 306 317	heterodimer
+T25	Protein_catabolism 513 521	degraded
+T26	Positive_regulation 523 530	forming
+T27	Gene_expression 623 633	generation
+T28	Binding 1640 1651	conjugation
+T29	Protein_catabolism 1656 1667	degradation
+E1	Binding:T24 Theme:T7 Theme2:T8
+E2	Protein_catabolism:T25 Theme:T2
+E3	Positive_regulation:T26 Theme:T10 Cause:E2
+E4	Gene_expression:T27 Theme:T11
+E5	Binding:T28 Theme:T18
+E6	Protein_catabolism:T29 Theme:T18

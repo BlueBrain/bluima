@@ -1,0 +1,7 @@
+T4	Binding 623 630	binding
+T5	Regulation 1626 1633	utilize
+E1	Binding:T4 Theme:T2
+E2	Binding:T4 Theme:T1
+E3	Regulation:T5 Theme:T3
+M1	Negation E3
+M2	Speculation E3

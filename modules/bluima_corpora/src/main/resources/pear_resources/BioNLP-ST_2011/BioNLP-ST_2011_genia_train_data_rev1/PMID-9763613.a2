@@ -1,0 +1,17 @@
+*	Equiv T1 T2
+*	Equiv T6 T5
+T11	Positive_regulation 183 191	enhanced
+T12	Gene_expression 192 202	production
+T13	Gene_expression 565 575	production
+T14	Regulation 859 879	evolve independently
+T15	Positive_regulation 1058 1066	enhanced
+T16	Gene_expression 1076 1086	production
+E1	Positive_regulation:T11 Theme:E2
+E2	Gene_expression:T12 Theme:T6
+E3	Gene_expression:T13 Theme:T7
+E4	Regulation:T14 Theme:E3 Cause:T9
+E5	Regulation:T14 Theme:E3
+E6	Regulation:T14 Theme:E3 Cause:T8
+E7	Positive_regulation:T15 Theme:E8
+E8	Gene_expression:T16 Theme:T10
+M1	Negation E5

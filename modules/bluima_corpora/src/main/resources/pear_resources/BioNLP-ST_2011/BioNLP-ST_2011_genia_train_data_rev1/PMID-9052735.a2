@@ -1,0 +1,15 @@
+*	Equiv T2 T3
+*	Equiv T12 T11
+T13	Regulation 260 270	regulation
+T14	Gene_expression 294 304	expression
+T15	Negative_regulation 447 466	negative regulation
+T16	Gene_expression 479 489	expression
+T17	Negative_regulation 1212 1221	repressed
+T18	Gene_expression 1262 1272	production
+E1	Regulation:T13 Theme:E2
+E2	Gene_expression:T14 Theme:T4
+E3	Negative_regulation:T15 Theme:E4
+E4	Gene_expression:T16 Theme:T5
+E5	Negative_regulation:T17 Theme:E6
+E6	Gene_expression:T18 Theme:T12
+M1	Negation E5

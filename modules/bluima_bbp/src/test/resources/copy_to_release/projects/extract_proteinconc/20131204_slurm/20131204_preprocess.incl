@@ -1,0 +1,27 @@
+# use this if you need to replicate the preprocessing
+# slurm pipeline does not need it, as it is already included in the "BinaryCasReader" corpus
+
+# PREPROC ######################################################
+include: ../../../includes/preprocess.incl
+ae: ch.epfl.bbp.uima.ae.EnsureDocTextNotNullAnnotator
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getChunker();
+
+# NERS ############################################################
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+ae: PruneMeasuresAnnotator
+ae: ch.epfl.bbp.nlp.ie.proteinconc.ae.NormalizedConcentrationAnnotator
+ae: ch.epfl.bbp.nlp.ie.proteinconc.ae.BannerMAnnotator
+ max_length__java: 150
+ae: ch.epfl.bbp.nlp.ie.proteinconc.ae.FigureTitleAnnotator
+ae: ch.epfl.bbp.nlp.ie.proteinconc.ae.AnnotOverlapFilter
+ protectedAnnotationClassName: ch.epfl.bbp.uima.types.Protein
+ filteredAnnotationsClassNames__java: new String[]{"ch.epfl.bbp.uima.types.Figure"}
+ae: BrainRegionAnnotator
+ modelFile: $ROOT/modules/bluima_regions/resources/models/20131116_BrainRegion.model
+ae: ch.epfl.bbp.nlp.ie.proteinconc.ae.AnnotOverlapFilter
+ protectedAnnotationClassName: ch.epfl.bbp.uima.types.BrainRegion
+ filteredAnnotationsClassNames__java: new String[]{"ch.epfl.bbp.uima.types.Measure", "ch.epfl.bbp.uima.types.Protein", "ch.epfl.bbp.uima.types.Cooccurrence"}
+
+# save/tee data for later processing
+# ae: ch.epfl.bbp.uima.ae.serialization.BinaryCasWriter
+# outputDir: /nfs4/bbp.epfl.ch/simulation/nlp/data/20131120_preprocessed/

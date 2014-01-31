@@ -1,0 +1,45 @@
+*	Equiv T4 T3
+T27	Gene_expression 40 50	production
+T28	Positive_regulation 171 180	stimulate
+T29	Gene_expression 200 210	production
+T30	Positive_regulation 280 290	stimulated
+T31	Localization 295 302	release
+T32	Localization 417 424	release
+T33	Positive_regulation 425 434	increased
+T34	Gene_expression 631 641	production
+T35	Positive_regulation 647 657	stimulated
+T36	Positive_regulation 665 674	increases
+T37	Negative_regulation 746 753	blocked
+T38	Positive_regulation 1031 1054	prolonged the stability
+T39	Positive_regulation 1096 1105	increases
+T40	Positive_regulation 1190 1199	stimulate
+T41	Localization 1204 1211	release
+T42	Localization 1351 1358	release
+T43	Localization 1409 1416	release
+T44	Positive_regulation 1512 1519	induced
+T45	Localization 1520 1527	release
+E1	Gene_expression:T27 Theme:T1
+E2	Positive_regulation:T28 Theme:E3 Cause:T4
+E3	Gene_expression:T29 Theme:T5
+E4	Positive_regulation:T30 Theme:E5 Cause:T6
+E5	Localization:T31 Theme:T7
+E6	Localization:T32 Theme:T9
+E7	Positive_regulation:T33 Theme:E6 Cause:T8
+E8	Gene_expression:T34 Theme:T12
+E9	Positive_regulation:T35 Theme:E10 Cause:T13
+E10	Positive_regulation:T36 Theme:T14
+E11	Negative_regulation:T37 Theme:E9
+E12	Positive_regulation:T38 Theme:T17
+E13	Positive_regulation:T39 Theme:T20 Cause:T18
+E14	Positive_regulation:T39 Theme:T19 Cause:T18
+E15	Positive_regulation:T40 Theme:E17 Cause:T18
+E16	Positive_regulation:T40 Theme:E18 Cause:T18
+E17	Localization:T41 Theme:T19
+E18	Localization:T41 Theme:T20
+E19	Localization:T42 Theme:T22
+E20	Localization:T43 Theme:T23
+E21	Positive_regulation:T44 Theme:E22 Cause:T25
+E22	Localization:T45 Theme:T26
+M1	Speculation E2
+M2	Negation E15
+M3	Negation E16

@@ -1,0 +1,20 @@
+T20	Negative_regulation 0 6	Relief
+T21	Negative_regulation 24 50	transcriptional inhibition
+T22	Transcription 147 160	transcription
+T23	Regulation 175 184	regulated
+T24	Positive_regulation 189 196	induced
+T25	Binding 347 359	interactions
+T26	Transcription 623 631	observed
+T27	Positive_regulation 742 751	effective
+T28	Binding 951 955	bind
+E1	Negative_regulation:T20 Theme:E2
+E2	Negative_regulation:T21 Theme:T1
+E3	Transcription:T22 Theme:T4
+E4	Regulation:T23 Theme:E3
+E5	Positive_regulation:T24 Theme:E3
+E6	Binding:T25 Theme:T5
+E7	Transcription:T26 Theme:T8
+E8	Positive_regulation:T27 Theme:E3
+E9	Binding:T28 Theme:T13
+M1	Speculation E6
+M2	Negation E8

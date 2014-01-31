@@ -1,0 +1,37 @@
+*	Equiv T3 T2
+T18	Regulation 0 10	Regulation
+T19	Transcription 32 45	transcription
+T20	Regulation 68 76	involves
+T21	Gene_expression 357 366	expressed
+T22	Regulation 395 404	influence
+T23	Gene_expression 446 456	expression
+T24	Positive_regulation 509 521	up-regulated
+T25	Positive_regulation 647 660	up-regulation
+T26	Positive_regulation 690 698	mediated
+T27	Gene_expression 1474 1484	expression
+T28	Positive_regulation 1514 1517	led
+T29	Positive_regulation 1521 1531	activation
+T30	Binding 1565 1572	binding
+T31	Entity 1586 1594	promoter
+T32	Positive_regulation 1632 1643	up-regulate
+T33	Gene_expression 1653 1663	expression
+E1	Regulation:T18 Theme:E2
+E2	Transcription:T19 Theme:T1
+E3	Regulation:T20 Theme:E1
+E4	Gene_expression:T21 Theme:T3
+E5	Regulation:T22 Theme:E6
+E6	Gene_expression:T23 Theme:T4
+E7	Positive_regulation:T24 Theme:T5
+E8	Positive_regulation:T25 Theme:T6
+E9	Positive_regulation:T26 Theme:E8 Cause:T8
+E10	Positive_regulation:T26 Theme:E8 Cause:T9
+E11	Positive_regulation:T26 Theme:E8 Cause:T11
+E12	Positive_regulation:T26 Theme:E8 Cause:T10
+E13	Positive_regulation:T26 Theme:E8 Cause:T7
+E14	Gene_expression:T27 Theme:T15
+E15	Positive_regulation:T28 Theme:E16 Cause:E14
+E16	Positive_regulation:T29 Theme:E17
+E17	Binding:T30 Theme:T16 Site:T31
+E18	Positive_regulation:T32 Theme:E19
+E19	Gene_expression:T33 Theme:T17
+M1	Speculation E5

@@ -1,0 +1,1988 @@
+<?xml version='1.0'?>
+<!DOCTYPE File PUBLIC "NeuroScholar.DTD" "NeuroScholar.DTD">
+<File>
+
+  <Title>Functional and Anatomical Organization of Cardiovascular 
+  Pressor and Depressor Sites in the Lateral Hypothalamic Area. 11. 
+  Ascending Projections</Title>
+
+  <Authors>GARY V. ALLEN AND DAVID F. CECHETTO</Authors>
+
+  <Abstract>
+
+    <S avgH="22" class="abstract.heading" format="TimesNewRomanPSMT"
+     id="s0">ABSTRACT</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s1">Microinjections of L-glutamate or D,L-homocysteic acid 
+    were used to stimulate cell bodies in the region of the lateral 
+    hypothalamic area (LHA) selectively.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s2">Subsequent iontophoretic injections of Phaseolus 
+    vulgaris-leucoagglutinin or pressure injections of wheat germ 
+    agglutininhorseradish peroxidase were made into regions containing 
+    identified pressor and depressor sites and their connections with 
+    the forebrain and cerebral cortex were traced.</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s3">The results indicate that decreases in blood pressure 
+    (10-45 mm Hg) and heart rate (20-70 bpm) could be elicited from 
+    tuberal (LHAt) and posterior (LHApj sites in the LHA and that these 
+    regions have ascending projections to the insular cortex, the 
+    ventral forebrain including the septal-diagonal band of Broca 
+    complex, the ventral palladium, substantia innominata, amygdala, 
+    and the lateral preoptic area.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s4">In contrast, increases in blood pressure (10-40 mm Hg) and 
+    heart rate (20-70 bpm) were elicited primarily from neurons located 
+    adjacent to the fornix in the perifornical area (PFA).</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s5">Injections of tract tracers into this region produced 
+    terminal labeling that differed markedly from the pattern seen 
+    following injections of tracer into depressor sites in the LHA.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s6">In addition, the pattern of anterograde labeling seen 
+    following injections of tracer into the anterior PFA differed from 
+    that seen following injections of tracer into the posterior PFA.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s7">Injections of tracer into the anterior PFA resulted in 
+    dense terminal labeling in the medial preoptic area and the 
+    parvicellular paraventricular nucleus of the hypothalamus whereas 
+    injections into the posterior PFA resulted in dense terminal 
+    labeling in the lateral septa1 nucleus, nucleus accumbens, bed 
+    nucleus of the stria terminalis, as well as the medial preoptic 
+    area and the parvocellular paraventricular nucleus of the 
+    hypothalamus.</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s8">The results demonstrate that the posterolateral 
+    hypothalamus of the rat contains two regions with specific 
+    cardiovascular function and highly organized connections with 
+    diencephalic, forebrain, and cortical structures. c1 1993 
+    WiIey-Liss, Inc.</S>
+  </Abstract>
+
+  <Introduction>
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s9">This study is part of a continuing investigation of the 
+    functional anatomical organization of the lateral hypothalamic area 
+    (LHA).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s10">Recently we have described the anatomical organization of 
+    descending projections from regions in the LHA with specific 
+    cardiovascular responses (Allen and Cechetto, &apos;91).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s11">In this study, we extend these findings by describing the 
+    anatomical organization of ascending projections from portions of 
+    the LHA with specific cardiovascular responses.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s12">The LHA is an important site for the processing of 
+    ascending information from the periphery.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s13">Anatomical and physiological investigations have 
+    demonstrated projections to the LHA from viscero-autonomic 
+    structures in the brain stem including the parabrachial nucleus, 
+    nucleus of the solitary tract, and the ventral lateral medulla 
+    (Berk and Finkelstein, &apos;81; Kita and Oomura, &apos;82; ter 
+    Horst et al., &apos;89; Allen and Cechetto, &apos;91) and the 
+    spinal cord (Yamada and Otani, &apos;78; Burstein et al., &apos;87; 
+    Katter et al., &apos;91).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s14">Extracellular recording studies have mapped the locations 
+    of neurons in the lateral hypothalamic area responding to baroand 
+    cherno-receptors in the cat (Thomas and Calaresu, &apos;72) and rat 
+    (Allen and Cechetto, &apos;90a).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s15">In addition, gustatory stimulation elicits changes in 
+    firing frequency of LHA neurons (Norgren, &apos;70).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s16">The LHA is reciprocally connected to many forebrain and 
+    cortical areas including the paraventricular nucleus of the 
+    hypothalamus, anterior hypothalamic nucleus, rostra1 portion of the 
+    LH.4, medial and lateral preoptic areas, bed nucleus of the stria 
+    terminalis, central and basomedial nuclei of the amygdala, lateral 
+    septal nucleus, septddiagonal band of Broca complex, nucleus 
+    accumbens, ventral striatum, and insular and medial prefrontal 
+    cortices (Saper et al., &apos;79; Berk and Finkelstein, 
+    &apos;82).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s17">These investigations considered the LHA as a whole 
+    without regard for specific functional regions within the LHA.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s18">Thus, the possible function of most, if not all, of these 
+    connections is not known.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s19">It is possible that forebrain or cortical projections to 
+    the LHA represent the first stage for autonomic outflow to the 
+    periphery.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s20">Projections from cardiovascular pressor and depressor 
+    sites in the insular cortex are topographically organized in the 
+    tuberal and posterior portions of the LHA (Yasui et al., 
+    &apos;91).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s21">Furthermore, microinjection of the presynaptic blocker, 
+    cobaltous chloride, into the LHA completely blocks cardiovascular 
+    and sympathetic nerve responses elicited by stimulation of the 
+    posterior insular cortex (Cechetto and Chen, &apos;90).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s22">This suggests that one function of the LHA is to mediate 
+    cardiovascular and sympathetic responses elicited from the insular 
+    cortex and possibly from other forebrain and cortical sites.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s23">Thus, the LHA receives visceral afferent information, 
+    projects to forebrain and cortical sites involved in autonomic 
+    control, and mediates descending autonomic signals from the 
+    forebrain and cerebral cortex.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s24">It is suggested that these connections of the LHA may be 
+    part of long-loop reflexes involved in integration of autonomic and 
+    behavioral mechanisms.</S>
+  </Introduction>
+
+  <Methods>
+
+    <S avgH="28" class="methods.heading" format="TimesNewRomanPS-BoldMT"
+     id="s25">MATERIALS AND METHODS</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s26">Sixty-five adult male, Wistar rats (250-400 g) were 
+    anesthetized with intraperitoneal injections of chloralose (100 
+    mg/kg) or chloral hydrate (350 mgikg).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s27">The femoral artery was cannulated and arterial blood 
+    pressure was monitored using a Statham P23D pressure transducer and 
+    continuously recorded on a Grass model 7 polygraph.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s28">Mean arterial pressure was monitored by filtering the 
+    pulsatile arterial pressure with a 0.5 Hz high frequency filter.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s29">Heart rate was determined from the pulse pressure using a 
+    Grass 7P44 tachograph and was continuously recorded on the 
+    polygraph.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s30">The femoral vein was cannulated for the administration of 
+    drugs.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s31">Rectal temperature was maintained at 37 ?</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s32">0.5&quot;C with a heatingpad.</S>
+    <BR />
+
+    <S avgH="27" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s33">Chemical stimulation of 
+    the LHA</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s34">In 44 animals, the LHA was systematically mapped for 
+    arterial blood pressure responses following microinjections of 
+    small volumes (5-50 nl) of the excitatory amino acid 
+    D,L-homocysteate (0.01-1.0 M) or L-glutamate (0.1-1.0 M) in 
+    phosphate-buffered saline solution (pH 7.4).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s35">It was found In the present study, we identified 
+    cardiovascular responsive sites in the LHA and described their 
+    afferent and efferent connections with structures in the forebrain 
+    and cerebral cortex.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s36">Cell bodies in the LHA were selectively stimulated by 
+    small injections of the excitatory amino acids, L-glutamate, or 
+    D,L-homocysteate.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s37">The anatomical connections of cardiovascular responsive 
+    regions were traced following iontophoretic injections of Phaseolus 
+    uulgarisleucoagglutinin (PHA-L) or pressure injections of wheat 
+    germ agglutinin conjugated to horseradish peroxidase (WGA-HRP), 
+    Preliminary results of this investigation have been presented 
+    (Allen and Cechetto, &apos;90b).</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s38">that reproducible changes in blood pressure and heart 
+    rate could be elicited following smaller, 5-10 nl, injections of 
+    D,L-homocysteate (0.1 M) or L-glutamate (0.5 M) and these volumes 
+    were routinely used in most of the cases to systematically map 
+    cardiovascular responsive sites in the posterolateral 
+    hypothalamus.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s39">Single injections of excitatory amino acid were made at 
+    200 to 250 pm steps along each track.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s40">Each track in the LHA (Bregma coordinates: 
+    anteriorposterior -3.3 to -3.8; medial-lateral 0.0 to 2.0; 
+    dorsalventral 7.5 to 9.5; from Paxinos and Watson, &apos;86) was 
+    placed 250-500 pm apart.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s41">Control injections of phosphate buffered saline (pH 7.4) 
+    were made into the same sites.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s42">The bottom of the micropipette track was marked either by 
+    an electrolytic lesion (1 second onioff cycle, 100 PA, 10 minutes) 
+    or by a small injection (10-30 nl) of rhodamine latex microspheres 
+    (Lumofluor).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s43">At the end of the experiment.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s44">the animals that were not used in the tract tracing 
+    studies were perfused with physiological saline (250 ml) followed 
+    by a solution of 10% formal saline (500 ml).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s45">Frozen sections (50 km) were cut, stained with 0.1% 
+    thionin, and camera lucida drawings were made of sections through 
+    the LHA and the injections sites were identified and plotted.</S>
+    <BR />
+
+    <S avgH="27" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s46">Tract tracing studies of 
+    the LHA</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s47">In preliminary experiments a marked reduction was found 
+    in the degree of anterograde transport of both WGA-IIRP and PHA-L 
+    from sites in the LHA that had previously received injections of 
+    excitatory amino acids, especially D,L-homocysteate This is likely 
+    due to the excitotoxic efects of excitatory amino acids on the 
+    uptake or transport of tracer substances by neurons in the LHA 
+    (Olney, &apos;78).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s48">Therefore, the ascending projections of regions that 
+    contain identified cardiovascular sites in the LHA were examined by 
+    placing tracer substances into the contralatera1 LHA, without 
+    removing the micropipette from the stereotaxic manipulator, at the 
+    exact coordinates which produced maximal pressor or depressor 
+    responses.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s49">This procedure provided the best approximation for the 
+    placement of tracer substances into brain sites that were 
+    contralateral to the cardiovascular responsive sites.</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s50">Injection of retrograde and anterograde tracers were made 
+    in 21 rats.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s51">Iontophoretic injections (7 seconds onioff cycle, 5 FA, 
+    positive current, 30 minutes) of 2.5% PHA-L (n = 11) or pressure 
+    injections of 5% WGA-HRP (n = 10) were made into the LHA 
+    contralateral to identified cardiovascular responsive sites.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s52">Animals that received injections of PHA-L were 
+    reanesthetized after 7 days and perfused with phosphate buffered 
+    saline (pH 7.4, 250 ml), followed by 250 ml of 4% paraformaldehyde 
+    in sodium acetate (pH 6.5) and 250 ml of 4% paraformaldehyde in 
+    sodium borate (pH 11.0; Berod et al., &apos;81).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s53">The brains were removed and postfixed in the last 
+    perfusate for 4-10 hours and then stored in 30% sucrose in 
+    phosphate buffer.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s54">Transverse sections (40-50 km) were cut into three series 
+    with a freezing microtome.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s55">One series of sections was processed for the 
+    immunohistochemical demonstration of PHA-L according to the 
+    technique of Gerfen and Sawchenko (&apos;84) with diaminobenzidine, 
+    a second series was incubated in a diaminobenzidine-nickel ammonium 
+    complex (Hancock, &apos;841, and a third series of sections was 
+    counterstained with 0.1% thionin.</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s56">Animals that received injections of WGA-HRP were 
+    sacrificed after 1-3 days and perfused with 250 ml physiological 
+    saline, followed by a mixture of 1% paraformaldehyde and 0.5% 
+    glutaraldehyde in phosphate buffer (500 ml, pH 7.4).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s57">The brains were removed and placed in 30% sucrose in 
+    phosphate buffer overnight.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s58">Transverse sections (50 pm) were cut into series with a 
+    freezing microtome and processed by the tetramethylbenzidine method 
+    of Mesulam (&apos;78).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s59">One series of sections was lightly stained with 0.1% 
+    thionin and a second series was left unstained.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s60">The WGAHRP tracer experiments were necessary to confirm 
+    the results of the PHA-L experiments and the retrograde labeling 
+    observed in the WGA-HRP studies provided information regarding the 
+    sources of afferent input to cardiovascular pressor and depressor 
+    cell groups in the LHA.</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s61">Camera lucida drawings were made of PHA-L and WGAHRP 
+    injection sites and of the distribution of anterograde and 
+    retrograde labeling in the forebrain and cerebral cortex.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s62">The PHA-L injection sites were small compared to the 
+    WGA-HRP sites and were characterized by Golgi-like filling of cell 
+    bodies and their processes.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s63">Labeled processes that exhibited a uniform diameter were 
+    assumed to be axonlike fibers whereas varicosities along the path 
+    of axons and at the ends of axons and thin stalked-like appendages 
+    were assumed to be axon terminals.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s64">The WGA-HRP injection sites were characterized by a dark 
+    staining central core surrounded by a lighter staining halo 
+    region.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s65">Based on the results of the present study and previous 
+    WGA-HRP tract tracing studies (Allen and Hopkins, &apos;89, 
+    &apos;901, the central core region was assumed to be the effective 
+    site of transport of tracer.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s66">The fine punctate labeling observed in the WGAHRP 
+    material was assumed to be terminal labeling and could be readily 
+    differentiated from retrogradely filled cell bodies.</S>
+  </Methods>
+
+  <Results>
+
+    <S avgH="28" class="results.heading" format="TimesNewRomanPS-BoldMT"
+     id="s67">RESULTS</S>
+    <BR />
+
+    <S avgH="27" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s68">Excitatory amino acid 
+    stimulation of the LHA</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s69">the cardiovascular responses elicited following selective 
+    stimulation of cell bodies in the lha with small injections of 
+    excitatory amino acids were described in detail in a precedingpaper 
+    ( see allen and cechetto , &apos; 91 ) and are briefly described 
+    here .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s70">Although we used a few 50 nl injections to locate 
+    responsive regions, we routinely used only 5-10 nl injections to 
+    identify two distinct groups of cells that elicit specific 
+    cardiovascular responses when stimulated with the excitatory amino 
+    acids L-glutamate or D,L-homocysteate.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s71">stimulation of cells located in the tuberal ( lhat ) and 
+    posterior ( lhap ) regions of the lha elicited primarily decreases 
+    in blood pressure and heart rate , whereas stimulation of cells 
+    located in the perifornical area ( pfa ) elicited primarily 
+    increases in blood pressure and heart rate ( fig . 1 ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s72">in many instances , injection of excitatory amino acids 
+    200 to 250 km distal to the initial site resulted in no response or 
+    the opposite response to the original .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s73">most microinjections of excitatory amino acids medial to 
+    the pfa , in the region of the dorsal medial hypothalamus , did not 
+    elicit changes in blood pressure and heart rate .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s74">a few of these sites in the lateral edge of the dorsal 
+    hypothalamic area evoked small decreases in blood pressure and 
+    heart rate .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s75">thus , it can be seen that the pressor responses observed 
+    in the pfa are specific to this region and are not a result of 
+    spread of chemical stimulant into the adjacent structures such as 
+    the dorsal medial hypothalamic region ( fig . 1 ) .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s76">the magnitude and duration of the responses appeared be 
+    directly related to the volume , concentration , and site injection 
+    of excitatory amino acid .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s77">The responses to D,L-homocysteate were, in most cases, 
+    more brisk than those of similar volume and concentration of 
+    L-glutamate.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s78">the decreases in blood pressure ( 1045 mm hg ) occurred 
+    within 5 to 60 seconds of the injection of excitatory amino acid 
+    and returned to baseline within 20 to 180 seconds .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s79">The decreases in blood pressure were usually accompanied 
+    by a decrease in heart rate (20-70 bpm).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s80">increases in blood pressure ( 10 - 40 mm hg ) and heart 
+    rate ( 20 - 70 bpm ) occurred within 5 to 60 seconds of the 
+    injection of excitatory amino acid and returned to baseline within 
+    20 to 130 seconds .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s81">In 3 of 39 pressor responses, an increase in blood 
+    pressure was accompanied by a decrease in heart rate (20-40 
+    bpm).</S>
+    <BR />
+
+    <S avgH="26" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s82">Ascending projections 
+    from a region containing depressor sites</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s83">the ascending projections of <labelingLocation>cell 
+    groups in cardiovascular responsive regions of the 
+    lha</labelingLocation> were traced following iontophoresis of 
+    <tracerChemical>pha - l</tracerChemical> or microinjection of 
+    <tracerChemical>wga - hrp</tracerChemical> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s84">preliminary studies indicated that microinjection of 
+    <tracerChemical>excitatory amino acids</tracerChemical> may inhibit 
+    the uptake or transport of the neuroanatomical tract tracers 
+    <tracerChemical>pha - l</tracerChemical> and <tracerChemical>wga - 
+    hrp</tracerChemical> ( see allen and cechetto , &apos; 91 ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s85">Thus the tracer injections were made contralateral to the 
+    sites where maximal depressor and pressor cardiovascular responses 
+    were elicited.</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s86">figure 2 ( case a351 shows a representative case 
+    illustrating the organization of anterograde labeling following an 
+    iontophoretic injection of <tracerChemical>pha - l</tracerChemical> 
+    into a region containing a depressor site ( see response fig . 2f ) 
+    in <injectionLocation>the lha</injectionLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s87">the injection site ( fig . 2e ) contains 
+    <labelingDescription>a dense cluster of pha - lfilled 
+    cells</labelingDescription> located medial to the zona incerta and 
+    immediately dorsal to the medial border of the internal capsule at 
+    the level of the lhat .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s88">the <tracerChemical>pha - l</tracerChemical> injection 
+    site is characterized by golgi - like staining of cell bodies and a 
+    dense brown staining of the adjacent neuropil .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s89">The degree of neuropil staining can be varied by the 
+    length of time the sections incubate in the DAB-hydrogen peroxide 
+    solution.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s90">we have found that the actual effective injection site 
+    involves only the pha - l - stained cells and there is 
+    <labelingDescription>no detectable 
+    anterograde</labelingDescription> transport from the diffuse brown 
+    staining of the tissue around the dab stained cells .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s91"><labelingDescription>the anterograde 
+    labeling</labelingDescription> observed in this case was 
+    predominately ipsilateral .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s92"><labelingDescription>many labeled 
+    fibers</labelingDescription> swept medially and ventrally from the 
+    injection site into <injectionLocation>the 
+    ipsilateral</injectionLocation> pfa and <labelingDescription>a few 
+    labeled fibers</labelingDescription> extended into <labelingLocation
+    >the dorsal and ventral medial hypothalamic 
+    nuclei</labelingLocation> ( fig . 2e ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s93"><labelingDescription>labeled fibers</labelingDescription> 
+    coursed laterally and caudally into <labelingLocation>the zona 
+    incerta , lhap , posterior hypothalamic nucleus , medial and 
+    lateral mamillary nuclei , supramamillary nucleus , and 
+    tuberomamillary nucleus</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s94"><labelingDescription>a few labeled 
+    axons</labelingDescription> passed through the dorsal hypothalamic 
+    region to enter <labelingLocation>the contralateral 
+    pfa</labelingLocation> and lhat .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s95"><labelingDescription>labeled fibers</labelingDescription> 
+    also extended dorsally into thalamic structures .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s96"><labelingDescription>moderate to light terminal 
+    labeling</labelingDescription> was seen in <labelingLocation>
+    reuniens , mediodorsal , paraventricular , lateral dorsal , and 
+    posterior nuclei of the thalamus</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s97"><labelingDescription>a few labeled 
+    fibers</labelingDescription> also entered <labelingLocation>the 
+    lateral habenula</labelingLocation> ( fig . 2e ) .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s98">rostrally , <labelingDescription>dense terminal 
+    labeling</labelingDescription> was observed extending mcdially from 
+    the lha into <labelingLocation>the pfa</labelingLocation> and a 
+    region dorsal to <labelingLocation>the paraventricular nucleus of 
+    the hypothalamus</labelingLocation> and extending laterally into 
+    <labelingLocation>the substantia innominata</labelingLocation> ( 
+    fig . 2d ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s99"><labelingDescription>moderate to light 
+    labeling</labelingDescription> was present in <labelingLocation>the 
+    parvocellular portions of the paraventricular nucleus , anterior 
+    hypothalamic nucleus , anterior portion of the lateral hypothalamic 
+    area</labelingLocation> ( figs .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s100">zd , 3b ) , and in <labelingLocation>the central nucleus 
+    of the amygdala</labelingLocation> ( fig . 2d ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s101"><labelingDescription>light terminal 
+    labeling</labelingDescription> was seen in <labelingLocation>
+    midline thalamic structures and basolateral and ventral portions of 
+    the amygdala</labelingLocation> .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s102">at the level of the crossing of the anterior commissure 
+    ( fig . 2c ) , <labelingDescription>dense terminal 
+    labeling</labelingDescription> was present in <labelingLocation>the 
+    lateral preoptic area</labelingLocation> ( see figs . 2c , 8b ) , 
+    <labelingLocation>ventral palladium , and horizontal limb of the 
+    diagonal band of broca</labelingLocation> ( fig . 2c ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s103"><labelingDescription>light terminal 
+    labeling</labelingDescription> was found in <labelingLocation>the 
+    bed nucleus of the stria terminalis , septohypothalamic nucleus , 
+    and medial</labelingLocation> ( fig . 4b ) and <labelingLocation>
+    lateral septal nuclei</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s104">more rostrally , <labelingDescription>terminal 
+    labeling</labelingDescription> was predominant in <labelingLocation>
+    the medial septal nucleus and dorsomedial part of the lateral 
+    septal nucleus</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s105"><labelingDescription>terminal 
+    labeling</labelingDescription> was observed in <labelingLocation>
+    the cerebral cortex</labelingLocation> , especially 
+    <labelingLocation>layer v of the agranular and dysgranular portions 
+    of the insular cortex</labelingLocation> and more lightly in 
+    <labelingLocation>layer v of the somatosensory cortex ( areas i and 
+    11 )</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s106"><labelingDescription>very light terminal 
+    labeling</labelingDescription> was observed in <labelingLocation>
+    the somatomotor and frontal cortex</labelingLocation> ( fig . 2a , 
+    b ) , including <labelingLocation>prelimbic and infralimbic ( fig . 
+    4a ) areas</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s107">the patterns of labeling seen in <labelingLocation>the 
+    forebrain and cerebral cortex</labelingLocation> following 
+    injections of tracer into depressor sites in the lhat and lhap 
+    showed no obvious differences .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s108">figure 5 ( rat a10 ) shows the distribution of 
+    <labelingDescription>anterograde and retrograde 
+    labeling</labelingDescription> in <labelingLocation>the forebrain 
+    and cerebral cortex</labelingLocation> following a representative 
+    injection of <tracerChemical>wga - hrp</tracerChemical> into 
+    <injectionLocation>the lha</injectionLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s109">The injection site (Fig. 5E) consists of a central core 
+    (black zone) surrounded by a diffuse spread of the tracer (diagonal 
+    lines).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s110">The central core is considered to be the effective site 
+    for transport of the tracer.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s111">the core of the injection was centered in 
+    <injectionLocation>the lhap</injectionLocation> and extended 
+    rostrally into <injectionSpread>the lhat and caudally into the 
+    ventral tegmental area and medial portion of the substantia 
+    nigra</injectionSpread> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s112">the pattern of <labelingDescription>anterograde 
+    labeling</labelingDescription> observed in <labelingLocation>the 
+    forebrain and cerebral cortex</labelingLocation> was similar to 
+    that seen following iontophuretic injections of <tracerChemical>pha 
+    - l</tracerChemical> into similar sites in <injectionLocation>the 
+    lha</injectionLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s113"><labelingDescription>the anterograde and retrograde 
+    labeling</labelingDescription> was predominately ipsilateral 
+    although there was <labelingDescription>moderate to light labeling 
+    contralaterally</labelingDescription> .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s114">at the level of the injection site , 
+    <labelingDescription>anterograde and retrograde 
+    labeling</labelingDescription> was found extending dorsally into 
+    <labelingLocation>the midline and intralaminar thalamic nuclei 
+    including the parafascicular nucleus and the lateral 
+    habenula</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s115">at <labelingLocation>the level of the paraventricular 
+    nucleus of the hypothalamus</labelingLocation> ( fig . 5d ) , 
+    <labelingDescription>dense anterograde 
+    labeling</labelingDescription> was present in <labelingLocation>the 
+    lateral hypothalamic area , substantia innominata , the amygdala , 
+    caudate - putamen , and the insular cortex</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s116"><labelingDescription>moderate to light anterograde 
+    labeling</labelingDescription> was located in <labelingLocation>the 
+    paraventricular nucleus of the hypothalamus</labelingLocation> ( 
+    figs . 5d , 6c ) and in <labelingLocation>the mediodorsal and 
+    anterior paraventricular nuclei of the thalamus</labelingLocation> 
+    .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s117"><labelingDescription>retrogradely labeled 
+    neurons</labelingDescription> were widely scattered in 
+    <labelingLocation>the hypothalamus including the paraventricular , 
+    anterior , and lateral hypothalamic nuclei</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s118">in <labelingLocation>the amygdala</labelingLocation> , 
+    <labelingDescription>dense anterograde and retrograde 
+    labeling</labelingDescription> was found in <labelingLocation>the 
+    central , medial , and anterior cortical nuclei</labelingLocation> 
+    and <labelingDescription>moderate to light anterograde 
+    labeling</labelingDescription> was observed in <labelingLocation>
+    the ventral and basolateral nuclei</labelingLocation> ( figs . 5d , 
+    6d ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s119">in <labelingLocation>the insular 
+    cortex</labelingLocation> , <labelingDescription>dense anterograde 
+    labeling</labelingDescription> was present primarily in 
+    <labelingLocation>layers v and vi uf the dysgranular and agranular 
+    regions</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s120"><labelingDescription>heavy retrograde 
+    labeling</labelingDescription> was present primarily in 
+    <labelingLocation>layer v of dysgranular and agranular 
+    cortices</labelingLocation> with <labelingDescription>lighter 
+    anterograde and retrograde labeling</labelingDescription> extending 
+    dorsally into <labelingLocation>the granular insular cortex and 
+    somatosensory areas i and i1 and ventromedially into the claustrum 
+    , endopiriform nucleus , and piriform cortex</labelingLocation> ( 
+    figs . 5a - d , 6a ) .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s121">at the level of the anterior commissure ( fig . 5c ) , 
+    <labelingDescription>dense anterograde and retrograde 
+    labeling</labelingDescription> was present in <labelingLocation>the 
+    bed nucleus of the stria terminalis , particularly the lateral and 
+    ventral regions</labelingLocation> , and in <labelingLocation>the 
+    ventral palladium and insular cortex</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s122"><labelingDescription>moderate to light anterograde and 
+    retrograde labeling</labelingDescription> was present in 
+    <labelingLocation>the medial and lateral preoptic area and medial 
+    and lateral septal complex</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s123"><labelingDescription>dense anterograde 
+    labeling</labelingDescription> seen in <labelingLocation>the 
+    caudate</labelingLocation> putamen most likely originated from 
+    spread of the injection site caudally into <injectionSpread>the 
+    medial portion of the substantia nigra</injectionSpread> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s124">rostrally , <labelingDescription>dense anterograde and 
+    retrograde labeling</labelingDescription> was located in 
+    <labelingLocation>the nucleus accumbens and medial prefrontal 
+    cortex especially the prelimbic , infralimbic and dorsal peduncular 
+    areas</labelingLocation> ( figs . 5a - b , 6b ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s125"><labelingDescription>moderate anterograde and retrograde 
+    labeling</labelingDescription> was also found in <labelingLocation>
+    the anterior olfactory nucleus and ventral lateral orbital frontal 
+    cortex</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s126"><labelingDescription>moderate to light anterograde 
+    labeling</labelingDescription> was present in <labelingLocation>the 
+    lateral frontal cortex</labelingLocation> .</S>
+    <BR />
+
+    <S avgH="26" class="results.subtitle" format="TimesNewRomanPSMT"
+     id="s127">Ascending projections from a region containing pressor 
+    sites</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s128">figure 7 ( case a371 shows a representative case of an 
+    injection of <tracerChemical>pha - l</tracerChemical> into a region 
+    containing a pressor site ( see response fig . 7f ) in 
+    <injectionLocation>the pfa at the level of the 
+    lhat</injectionLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s129">the injection site consists of <labelingDescription>a 
+    dense group of pha - l - filled cells</labelingDescription> located 
+    dorsal , medial , and ventral to the fornix ( fig . 7e ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s130"><labelingDescription>pha - l - labeled 
+    fibers</labelingDescription> extended from the injection site 
+    medially and dorsally into <labelingLocation>the dorsomedial 
+    hypothalamic nucleus and dorsal hypothalamic 
+    region</labelingLocation> and <labelingDescription>labeled 
+    fibers</labelingDescription> passed laterally into the lhat and 
+    ventrally and caudally along the third ventricle to terminate in 
+    <labelingLocation>the posterior hypothalamic , supramamillary , and 
+    tuberomamillary nuclei</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s131">These projections are predominately ipsilateral.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s132"><labelingDescription>labeled 
+    fibers</labelingDescription> extended rostrally in <labelingLocation
+    >the medial forebrain</labelingLocation> bundle to terminate in 
+    <labelingLocation>the anterior portion of the 
+    lha</labelingLocation> , while <labelingDescription>other labeled 
+    fibers</labelingDescription> swept medially and dorsally to 
+    terminate in <labelingLocation>the parvocellular portion of the 
+    paraventricular nucleus of the hypothalamus</labelingLocation> ( 
+    figs . 7d , 3a ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s133"><labelingDescription>light anterograde 
+    labeling</labelingDescription> was also seen projecting laterally 
+    to terminate in <labelingLocation>the substantia innominata and the 
+    central nucleus of the amygdala</labelingLocation> and coursing 
+    dorsally to terminate in <labelingLocation>the anterior and 
+    posterior paraventricular nuclei of the thalamus</labelingLocation> 
+    .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s134">at the level of the crossing of the anterior commissure 
+    ( fig . 7c ) , <labelingDescription>dense terminal 
+    labeling</labelingDescription> was present in <labelingLocation>the 
+    lateral portion of the medial preoptic nucleus and ventral and 
+    lateral portions of the bed nucleus of the stria t , 
+    wminalis</labelingLocation> ( fig . 8a ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s135"><labelingDescription>moderate 
+    labeling</labelingDescription> was found in <labelingLocation>the 
+    medial portion of the nucleus accumbens</labelingLocation> ( fig . 
+    7b ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s136"><labelingDescription>very light 
+    labeling</labelingDescription> was present in <labelingLocation>the 
+    lateral and medial septa1 complex , septohypothalamic nucleus , and 
+    infralimbic cortex</labelingLocation> ( fig . 7a , b ) .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s137">figure 9 ( case a40 ) shows the typical pattern of 
+    <labelingDescription>anterograde labeling</labelingDescription> 
+    seen following injections of <tracerChemical>pha - 
+    l</tracerChemical> into  <injectionLocation>a region containing a 
+    pressor site ( see response fig . 9f ) located more posteriorly in 
+    the pfa at the level of the lhap</injectionLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s138"><labelingDescription>pha - l - filled 
+    cells</labelingDescription> in the injection site were located 
+    mainly <labelingLocation> ventral to the fornix and extended medial 
+    and dorsal to the fornix</labelingLocation> ( fig . 9e ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s139"><labelingDescription>anterograde 
+    labeling</labelingDescription> coursed from the injection site 
+    medially and caudally to 
+    <labelingModifier>terminate</labelingModifier> in <labelingLocation>
+    the posterior hypothalamic , arcuate , supramamillay , and 
+    tuberomamillary nuclei</labelingLocation> and coursed laterally 
+    into <labelingLocation>the lhap</labelingLocation> and dorsally 
+    into <labelingLocation>the mediodorsal and paraventricular nuclei 
+    of the thalamus</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s140">at the level of the paraventricular nucleus of the 
+    hypothalamus ( fig . 9d ) , <labelingDescription>labeled 
+    fibers</labelingDescription> ascended in <labelingLocation>the 
+    medial forebrain</labelingLocation> bundle to terminate in 
+    <labelingLocation>the parvocellular portion of the paraventricular 
+    nucleus of the hypothalamus and the adjacent periventricular region 
+    and the anterior hypothalamic nucleus</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s141"><labelingDescription>labeled 
+    fibers</labelingDescription> extended laterally in <labelingLocation
+    >the substantia innominata</labelingLocation> to terminate in 
+    <labelingLocation>the central nucleus of the 
+    amygdala</labelingLocation> and swept dorsally to terminate in 
+    <labelingLocation>the midline thalamic region</labelingLocation> 
+    .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s142">at the level of the anterior commissure ( fig . 9 0 , 
+    <labelingDescription>dense terminal labeling</labelingDescription> 
+    was found in <labelingLocation>the medial and lateral portions of 
+    the medial preoptic nucleus</labelingLocation> ( figs . 8c , 9c ) 
+    and in <labelingLocation>the bed nucleus of the stria 
+    terminalis</labelingLocation> ( fig . 9c ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s143">more rostrally , <labelingDescription>dense terminal 
+    labeling</labelingDescription> was found in <labelingLocation>the 
+    medial portion of the nucleus accumbens and the lateral septal 
+    nucleus</labelingLocation> ( fig . 9b ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s144">in <labelingLocation>the lateral septal 
+    nucleus</labelingLocation> the labeling was concentrated mainly in 
+    <labelingLocation>the intermediate and ventral 
+    subnuclei</labelingLocation> ( fig . 8d ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s145"><labelingDescription>light terminal 
+    labeling</labelingDescription> was present in <labelingLocation>the 
+    medial septal - diagonal band of broca complex and the infralimbic 
+    cortex</labelingLocation> ( fig . 9a , b ) .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s146">there are several exceptions in the distribution of 
+    labeling observed following injections in <injectionLocation>the 
+    posterior pfa</injectionLocation> compared with the labeling 
+    resulting from injections more anteriorly in <injectionLocation>the 
+    pfa</injectionLocation> , as described above .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s147">compared to the ascending projections from anterior 
+    portions of the pfa , projections from the posterior pfa were 
+    <labelingDescription>more dense</labelingDescription> in 
+    <labelingLocation>the lateral septum , septohypothalamic nucleus , 
+    nucleus accumbens , bed nucleus of the stria terminalis , medial 
+    part of the medial preoptic area , anterior hypothalamus , central 
+    nucleus of the amygdala , and the thalamic paraventricular 
+    nucleus</labelingLocation> .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s148">figure 10 ( case a361 shows a representative case of the 
+    distribution of <labelingDescription>anterograde and retrograde 
+    labeling</labelingDescription> in <labelingLocation>the 
+    forebrain</labelingLocation> following an injection of 
+    <tracerChemical>wga - hrp</tracerChemical> into 
+    <injectionLocation>a region containing a pressor site ( see 
+    response fig . 10f ) in the pfa</injectionLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s149">the injection site was characterized by a darkly stained 
+    dense core and <labelingDescription>a lighter stained halo 
+    region</labelingDescription> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s150">the central core of the injection site involved 
+    <injectionLocation>most of the dorsal - medial and anterior - 
+    posterior</injectionLocation> portions of the pfa and spread 
+    rostromedially into <injectionSpread>the lateral portion of the 
+    dorsomedial hypothalamic nucleus</injectionSpread> , laterally into 
+    <injectionSpread>the medial portion of the lhat and 
+    lhap</injectionSpread> , caudoventrally into <injectionSpread>the 
+    dorsal and ventral premamillary nuclei</injectionSpread> , and 
+    caudomedially into <injectionSpread>the posterior hypothalamic and 
+    medial supramamillary nuclei</injectionSpread> ( fig . 10e ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s151">as both anterior and posterior portions of the pfa were 
+    involved in the injection , the distribution , but not 
+    concentration , of <labelingDescription>anterograde 
+    labeling</labelingDescription> seen in <labelingLocation>the 
+    forebrain</labelingLocation> was similar to that seen with both 
+    <tracerChemical>pha - l</tracerChemical> injections previously 
+    described ( see cases a37 , fig . 7 , and a40 , fig . 9 ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s152"><labelingDescription>dense anterograde 
+    labeling</labelingDescription> extended rostrally from the 
+    injection site in the medial forebrain bundle to terminate in 
+    <labelingLocation>the parvocellular portion of the paraventricular 
+    nucleus of the hypothalamus and the anterior hypothalamic 
+    nucleus</labelingLocation> ( fig . 10d ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s153"><labelingDescription>very light anterograde 
+    labeling</labelingDescription> was present in <labelingLocation>the 
+    medial and central nuclei of the amygdala</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s154"><labelingDescription>light anterograde 
+    labeling</labelingDescription> was present in <labelingLocation>the 
+    paraventricular nucleus of the thalamus</labelingLocation> and 
+    <labelingDescription>moderate retrograde 
+    labeling</labelingDescription> was found in <labelingLocation>the 
+    anterior hypothalamic nucleus</labelingLocation> .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s155">more rostrally , <labelingDescription>moderate to light 
+    anterograde labeling</labelingDescription> was found in 
+    <labelingLocation>the medial and lateral preoptic area , bed 
+    nucleus of the stria terminalis , and medial and lateral septal 
+    complex</labelingLocation> ( fig . 10b , c ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s156">labeling was concentrated mainly in <labelingLocation>
+    the intermediate and ventral subnuclei of the lateral septal 
+    nucleus</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s157"><labelingDescription>moderate to light retrograde 
+    labeling</labelingDescription> was present in <labelingLocation>the 
+    lateral preoptic area , septohypothalamic , and lateral septal 
+    nuclei</labelingLocation> ( fig . 10b , c ) .</S>
+  </Results>
+
+  <Discussion>
+
+    <S avgH="28" class="discussion.heading"
+     format="TimesNewRomanPS-BoldMT" id="s158">DISCUSSION</S>
+    <BR />
+
+    <S avgH="27" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s159">Excitatory amino acid 
+    injections</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s160">Determination of the effective stimulation zone 
+    following microinjection of excitatory amino acids into brain 
+    regions is a potential problem.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s161">Other investigators have injected similar volumes of 
+    radiolabeled substances and relied upon autoradiographic labeling 
+    techniques to determine the limits of diffusion of the 
+    microinjected substances (Spencer et al., &apos;88, &apos;89, 
+    &apos;90).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s162">However, this technique does not indicate the region 
+    where sufficient concentration of excitatory amino acids are 
+    present to induce excitation of neuronal elements.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s163">Another approach to this problem is to microinject small 
+    volumes of chemical stimulant at different locations in brain sites 
+    and to map the distribution of the various responses.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s164">A measure of the distances between sites that give 
+    opposing responses or where the response is lost will give an 
+    indication of the effective stimulation zone of an injection 
+    site.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s165">We routinely used only 5-10 nl injections of low 
+    concentrations of D,L-homocysteic acid (0.1 M) or L-glutamate (0.5 
+    M).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s166">These were the smallest volumes of excitatory amino 
+    acids, in our experimental conditions, that could be injected and 
+    still elicit a cardiovascular response.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s167">These volumes and concentrations are less than those 
+    used by Sun and Guyenet (40 nl; &apos;861, Gelsema et al. (50-100 
+    nl; &apos;871, and Hinrichsen (50-100 nl; &apos;88) and compare 
+    favorably with recent chemical stimulation studies by Spencer et 
+    al. (4-15 nl; &apos;88, &apos;89, &apos;90).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s168">The close proximity of different cardiovascular 
+    responsive sites allowed us to estimate to some degree of accuracy 
+    the effective spread zone of the excitatoiy amino acid injection 
+    sites.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s169">An opposite response or loss of response was often 
+    produced by a similar injection only 200-250 p,m distal to the 
+    initial site.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s170">Movement of the pipette back to the original site and 
+    injection of excitatory amino acid would then reproduce the 
+    original response.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s171">Thus, it appears that diffusion of the chemical 
+    stimulant is limited to a range of 200-250 p,m or less and we were 
+    able to systematically stimulate and map the distribution and 
+    functional characteristics of small groups of cells throughout the 
+    posterolateral hypothalamus.</S>
+    <BR />
+
+    <S avgH="27" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s172">Cardiovascular responses 
+    from the posterolateral hypothalamus</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s173">The results indicate that distinct groups of cells exist 
+    in the LHA and PFA with specific cardiovascular functions.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s174">Injections of small volumes of excitatory amino acids in 
+    the posterolateral hypothalamus elicits decreases in blood pressure 
+    and heart rate mainly in the LHAt and LHAp, whereas increases in 
+    blood pressure and heart rate were primarily elicited more medially 
+    in the perifornical region.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s175">In our previous discussion of these cardiovascular 
+    responses (Allen and Cechetto, &apos;91), we indicated that the 
+    cardiovascular responses can be reconciled with previous reports 
+    and for the first time demonstrate the range of responses that can 
+    be obtained from a systematic stimulation of all of the LHA 
+    including the PFA.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s176">Briefly, our findings are in agreement with those of Sun 
+    and Guyenet (&apos;86), who used small injections of L-glutamate to 
+    stimulate cells in the PFA of halothane-anesthetized rats.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s177">They are also in agreement with Spencer et al. 
+    (&apos;89) who showed significant decreases in arterial blood 
+    pressure and heart rate following discrete injections of 
+    L-glutamate into the LHAt.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s178">We also observed a few small depressor responses in the 
+    lateral portion of the dorsal hypothalamic region that are likely 
+    on the lateral edge of a depressor region that has been identified 
+    in the dorsal hypothalamic area (Spencer et al., &apos;90).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s179">We did not investigate efferent projections from cells 
+    in this site.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s180">We recently demonstrated dense projections from a region 
+    containing depressor cells in the LHA to the rostral, middle, and 
+    commissural portions of the nucleus of the solitary tract, the 
+    lateral tegmental field, and the ventral lateral medulla, as well 
+    as the ventrolateral central gray, pedunculopontine tegmental 
+    nucleus, and medial and lateral parabrachial nuclei (Allen and 
+    Cechetto, &apos;91).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s181">In contrast, projections from a region containing 
+    pressor cells in the PFA terminate primarily in the ventrolateral 
+    central gray and laterodorsal tegmental region, especially 
+    Barrington&apos;s nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s182">These findings indicate that a region with depressor 
+    responses in the LHA may influence cardiovascular activity by 
+    direct projections to viscerosensory and visceromotor nuclei of the 
+    brain stem whereas the descending projections of the YFA to the 
+    central gray suggest a possible role in neural processing for pain 
+    (Bausbaum and Fields, &apos;84) and defence behavior (Bandler, 
+    &apos;82; Depaulis et a]., &apos;89).</S>
+    <BR />
+
+    <S avgH="27" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s183">Ascending 
+    functional-anatomical connections of the LHA</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s184">The ascending projections to the forebrain and cerebral 
+    cortex from regions containing pressor and depressor sites in the 
+    PFA and LHA were determined following iontophoretic injections of 
+    PHA-L or pressure injections of WGAHRP into these regions.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s185">The results confirm and extend the findings of previous 
+    studies that have demonstrated ascending projections from the LHA 
+    to the forebrain and cerebral cortex (Saper et al., &apos;79; 
+    Ottersen, &apos;80; Berk and Finkelstein, &apos;82; ter Horst and 
+    Luiten, &apos;86).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s186">Figure 11 summarizes the anatomical organization of 
+    projections from a region with pressor sites in the PFA and the 
+    region containing depressor sites in the LHA.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s187">Major differences were noted in the organization of 
+    these projections to the cerebral cortex, ventral basal forebrain, 
+    and diencephalon.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s188">The LHA showed widespread ascending cortical projections 
+    especially to the insular cortex and the somatosensory, 
+    somatomotor. medial prefrontal, and ventral orbital frontal 
+    cortices (Allen et al., &apos;9lJ.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s189">In contrast, the PFA showed only a light projection to 
+    the infralimbic region of the medial prefrontal cortex.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s190">In the ventral basal forebrain, ascending projections 
+    from the region containing depressor sites in the LHA were more 
+    dense than those from the region with pressor sites in the PFA.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s191">More specifically, dense terminal labeling from the 
+    tuberal and posterior portions of the LHA was observed in the 
+    septal-diagonal band of Broca complex, ventral palladium, 
+    substantia innominata, and the amygdala.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s192">Injections of PHA-L into the LHA revealed an extensive 
+    projection to the amygdala, including dense terminations in the 
+    central nucleus and moderate to light labeling in the medial, 
+    ventral, and basolateral subnuclei.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s193">In contrast, Berk and Finkelstein (&apos;82) described a 
+    limited projection from the LHA to the capsule of the central 
+    nucleus of the amygdala in their autoradiographic studies.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s194">The dense labeling observed in the amygdala in the 
+    present study suggests that the PHA-L technique may be more 
+    sensitive than autoradiographic tract tracing.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s195">Ascending projections from anterior and posterior 
+    portions of the PFA differed from each other and differed from that 
+    of the LHA.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s196">Ascending projections to the ventral forebrain from the 
+    anterior PFA were light to moderate whereas projections from the 
+    posterior PFA were dense in the lateral septal nucleus, nucleus 
+    accumbens, and the bed nucleus of the stria terminalis.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s197">The LHA, on the other hand, had dense projections to 
+    more lateral and ventral structures such as the substantia 
+    innominata and ventral palladium.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s198">In the septal complex, the posterior but not the 
+    anterior PFA had dense terminations in the ventral and intermediate 
+    portions of the lateral septal nucleus, whereas the LHA had dense 
+    terminations in the medial septaldiagonal band of Broca complex and 
+    the dorsomedial portion of the lateral septal nucleus.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s199">In the diencephalon, ascending projections from the PFA 
+    region containing pressor sites were very dense in the medial 
+    preoptic area and were light in the lateral preoptic area, whereas 
+    those from the LHA were more pronounced in the lateral preoptic 
+    area.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s200">In the anterior hypothalamic nucleus, moderate afferent 
+    inputs originated from the posterior PFA and only light inputs 
+    originated from the anterior PFA and the LHA.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s201">Both anterior and posterior portions of the PFA showed 
+    dense projections to the parvocellular paraventricular nucleus of 
+    the hypothalamus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s202">In contrast, the LHA showed dense terminations more 
+    laterally in the perifornical area and in the anterior portion of 
+    the LHA.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s203">It is interesting to note that, no apparent differences 
+    were observed in the organization of projections to the brain stem 
+    from the region containing pressor cell groups in the anterior and 
+    posterior parts of the PFA whereas descending projections from 
+    tuberal and posterior portions of the LHA did show significant 
+    differences (Allen and Cechetto, &apos;91).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s204">Although the PHA-L injection sites in the region of the 
+    fornix were small, it is possible that there may have been some 
+    anterograde transport from cells located in the dorsal medial 
+    hypothalamic region.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s205">Previous PHA-L transport studies have shown that the 
+    dorsal medial hypothalamic nucleus has a moderate to dense 
+    projection to the ventromedial hypothalamic nucleus and the 
+    paraventricular nucleus of the thalamus (ter Horst and Luiten, 
+    &apos;86, &apos;87).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s206">However, our PHA-L injections in the PFA region produced 
+    little or no anterograde labeling in these regions.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s207">In addition, the premamillary nuclei have also been 
+    shown to have a dense projection to the ventromedial hypothalamic 
+    nucleus (ter Horst and Luiten, &apos;87; Luiten and Room, 
+    &apos;80).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s208">In the present study, there was little anterograde 
+    labeling in the ventromedial hypothalamic nucleus following 
+    injections of PHA-L into the posterior portions of the PFA.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s209">This suggests that the anterograde transport from the 
+    PFA described in this study originates primarily from a group of 
+    cells in the region of the PFA with little or no involvement of 
+    adjacent cells in the dorsal medial hypothalamus or premamillary 
+    region.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s210">The WGA-HRP injections in the LHA or PFA appear to be 
+    large and overlap with cell groups in adjacent regions.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s211">However, our drawings indicate both the effective uptake 
+    region as well as the diffusion zone of the injection and in most 
+    cases the effective injection site is located within a particular 
+    functionally defined region.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s212">The distribution of anterograde labeling compares with 
+    that seen in cases with PHA-L injections into similar regions.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s213">Furthermore, the WGA-HRP injections are important 
+    because they are necessary for determining the possible sources of 
+    afferent input to the specific cardiovascular responsive regions of 
+    the posterolateral hypothalamus.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s214">The region containing pressor sites in the PFA and the 
+    region with depressor sites in the LHAdiffer significantly in the 
+    organization of afferent inputs.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s215">The retrograde labeling seen in the WGA-HRP tract 
+    tracing studies indicates that the LHA receives input from the 
+    medial prefrontal cortex, insular cortex, nucleus accumbens, septal 
+    complex, bed nucleus of the stria terminalis, medial and lateral 
+    preoptic area, amygdala, anterior and paraventricular hypothalamic 
+    nuclei, and the lateral habenular nucleus, whereas the PFA receives 
+    a more restricted input mainly from the anterior hypothalamic 
+    nucleus, the lateral preoptic nucleus, and the ventral and 
+    intermediate portions of the lateral septal nucleus (Swanson and 
+    Cowan, &apos;79; Berk and Finkelstein, &apos;81; Kita and Oomura, 
+    &apos;82; Luiten et al., &apos;87; Allen et d., &apos;91).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s216">The differential projections from the regions containing 
+    pressor and depressor sites in the posterolatcral hypothalamus to 
+    cortical and forebrain regions may indicate their functional 
+    significance.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s217">The results indicate that the region with depressor 
+    sites in the LHA have extensive projections to cortical regions 
+    such as the insular, lateral, and medial prefrontal, somatomotor, 
+    and somatosensory cortices.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s218">The somatomotor and medial prefrontal cortical regions 
+    have been considered likely autonomic control sites in the cortex 
+    and have been implicated in integrating behavioral and autonomic 
+    responses (Hoff et al., &apos;63; Cechetto and Saper, &apos;90).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s219">The insular cortex, in particular, has been shown to be 
+    a locus of integration of behavioral and autonomic responses (Allen 
+    et al., &apos;91).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s220">The insula receives visceral information from the 
+    periphery (Cechetto and Saper, &apos;871, diffuse association 
+    sensory cortical information (Robinson and Burton, &apos;80a,b; 
+    Horster and Ettlinger, &apos;87) and, in turn, sends very specific 
+    command signals to the autonomic nervous system (Yasui et al., 
+    &apos;91).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s221">We have recently demonstrated that the region containing 
+    depressor sites in the LHA has direct descending pathways to brain 
+    stem autonomic control sites such as the parabrachial nucleus, 
+    nucleus of the solitary tract, ventral lateral medulla, and 
+    sympathetic output regions of the spinal cord (Allen and Cechetto, 
+    &apos;91) and it has been demonstrated to mediate sympathetic 
+    responses originating in the insular cortex (Cechetto and Chen, 
+    &apos;90).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s222">However, recent functionalanatomical studies (Yasui et 
+    al., &apos;91) have indicated that descending projections from 
+    pressor and depressor sites in the insula have topographical 
+    terminations in the LHA with little or no input to the PFA.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s223">It is possible that pressor responses from the insula 
+    may involve activation of a select group of cells in the LHA that 
+    have local projections to the PFA whereas depressor responses from 
+    the insula may involve activation of depressor cells in the LHA.</S>
+    <BR />
+
+    <S avgH="24" class="discussion.subtitle" format="Arial-BoldMT"
+     id="s224">The present results indicate that the region containing 
+    depressor sites in the LHA is also extensively connected with 
+    limbic forebrain regions such as the arnygdala, substanLs MS DBB s% 
+    A BNST VP SI AMYG</S>
+    <BR />
+
+    <S avgH="24" class="discussion.subtitle" format="Arial-BoldMT"
+     id="s225">MPC LF SCIAI IC -Ls - MS -t DBB - s% + A --., BNST -VP 
+    +sI AMYG --t + - MPO LPO -AH + PVH - M A L</S>
+    <BR />
+
+    <S avgH="25" class="discussion.subtitle" format="Arial-BoldMT"
+     id="s226">MPO LPO AH PVH</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s227">tia innominata, and the medial septal-diagonal band of 
+    Broca complex.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s228">The amygdala, in particular, has been considered to be a 
+    critical site for the integration of cortical exteroceptive 
+    information with interoceptive afferents to generate descending 
+    signals for coordination of autonomic control (Cechetto and 
+    Calaresu, &apos;83, &apos;84).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s229">Thus, it may be concluded that the region containing 
+    depressor sites in the LHA is more generally involved in the 
+    coordination of signals from cortical and forebrain stem sites that 
+    have been demonstrated to be involved in the integration of 
+    emotional, behavioral, and autonomic responses.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s230">The LHA, most likely, relays the autonomic signals to 
+    the periphery via direct connections with medullary and spinal cord 
+    autonomic control sites.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s231">In contrast, the region containing pressor sites in the 
+    PFA do not have widespread connections with cortical and forebrain 
+    limbic structures but have more extensive connections with 
+    hypothalamic regulatory areas such as the medial preoptic-anterior 
+    hypothalamic region and the parvocellular paraventricular nucleus 
+    of the hypothalamus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s232">Many investigations have indicated the role of the 
+    medial preoptic-anterior hypothalamic region in regulation of fluid 
+    balance using knife cuts and lesions (Buggy and Johnson, &apos;77; 
+    Johnson and Buggy, &apos;78; Brody and Johnson, &apos;81; Gardiner 
+    et al., &apos;85) and anatomical studies have shown that 
+    angiotensin-stained fibers from the subfornical organ terminate in 
+    the region of the medial preoptic area (Miselis, &apos;81; Lind et 
+    al.. &apos;84).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s233">The paraventricular nucleus of the hypothalamus is known 
+    to be involved in integrating the endocrine-autonomic responses of 
+    fluid balance as well as other endocrine-autonomic responses 
+    associated with homeostasis (Swanson and Sawchenko, &apos;83).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s234">In addition, the region containing pressor sites in the 
+    PFA have limited descending projections that terminate for the most 
+    part in the central gray and the dorsolateral tegmental region, 
+    especially the pontine micturition center, Barrington&apos;s 
+    nucleus (Allen and Cechetto, 91).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s235">This suggests that the PFA may be involved in the 
+    integration of cardiovascular and fluid regulation in hypothalamic 
+    and forebrain sites.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s236">This information may be relayed from the PFA to sites in 
+    the midbrain and pons, which mediate defence and pain responses.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s237">The present findings indicate that specific regions in 
+    the posterolateral hypothalamus are functionally distinct and have 
+    differential connections with forebrain and cortical sites.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s238">The evidence suggests that a region containing depressor 
+    sites in the LHA may influence cardiovascular function by direct 
+    connections with brain stem autonomic nuclei and that the 
+    widespread limbic cortical and forebrain reciprocal connections may 
+    be involved in the integration of the autonomic aspects of 
+    emotions.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s239">On the other hand, the region containing pressor sites 
+    in the PFA may reflect the cardiovascular component of pain and 
+    defence responses through connections with the central gray and 
+    dorsolateral tegmental region as well as limbic-autonomic 
+    structures in the hypothalamus and forebrain.</S>
+  </Discussion>
+
+  <Acknowledgements>
+
+    <S avgH="27" class="acknowledgements.heading"
+     format="TimesNewRomanPS-BoldMT" id="s240">ACKNOWLEDGMENTS</S>
+    <BR />
+
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s241">This research was supported 
+    by Heart and Stroke Foundation of Ontario grant B.1417 (DFC).</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s242">GVA is a recipient of a Heart 
+    and Stroke Foundation of Canada Fellowship and DFC is a Career 
+    Investigator with the Heart and Stroke Foundation of Ontario.</S>
+  </Acknowledgements>
+
+  <References>
+
+    <S avgH="27" class="references.heading"
+     format="TimesNewRomanPS-BoldMT" id="s243">LITERATURE CITED</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s244">Allen, G.V., and D.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s245">Hopkins (1989) Mamillary body in the rat: Topography and 
+    synaptology of projections from the subicular complex, prefrontal 
+    cortex, and midbrain tegmentum.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s246">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s247">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s248">Neurol. 286:311-336.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s249">Allen, G.V., and D.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s250">Hopkins (19901 Topography and synaptology uf mamillary 
+    body projections to the mesencephalon and pons in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s251">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s252">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s253">Neurol. 301:214-231.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s254">Allen.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s255">G.V., and D.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s256">Cechetto (1990ai Baroand chemorereptor activation of 
+    single unik in the posterior hypothalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s257">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s258">Can. 21:212.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s259">Allen, G.V., and D.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s260">Ccchettn (1990h) Functional and anatomical organization 
+    or posterior hypothalamic cardiovascular pressor and depressor 
+    sites.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s261">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s262">Ahstr. 16:556.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s263">Allen; G.V., and D.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s264">Cechetto (1991) Functional and anatomical organization 
+    of cardiovascular pressor and depressor sites in the lateral 
+    hypothalamic area.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s265">I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s266">Descending projections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s267">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s268">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s269">Neurol. 314:1-20.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s270">Allen.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s271">G.V., C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s272">Saper, K.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s273">Hurley, and D.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s274">Cechetto (1991) Organization of visceral and limbic 
+    connections in the insular cortex of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s275">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s276">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s277">Neurol. 31O:l-16.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s278">Bandler, R. (1982) Induction mate into midbrain but 
+    30:183-188.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s279">Bausbaum, A.I., and H.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s280">Fields (1984) Endogenous pain control systems: Brainstem 
+    spinal pathways and endorphin circuitry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s281">Annu.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s282">Rev.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s283">Neurosci. 7:309-338.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s284">Berk, M.L., and J.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s285">Finkelstein (1981) Merent projections to che preoptic 
+    area and hypothalamic regions in the rat brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s286">Neuroscience 6:16011624.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s287">Berk, M.L., and J.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s288">Finkelstein (1982) Efferent connections of the lateral 
+    hypothalamic area of the rat: An autoradiographic investigation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s289">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s290">Bull. 8:511-526.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s291">Berod, A., B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s292">Hartman, and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s293">Pujol (1981) Importance of fixation in 
+    immunohistochemistry: Use of formaldehyde solutions at variable pH 
+    for the localization of tyrosine hydroxylase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s294">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s295">Histochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s296">Cytochem. 29:844-850.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s297">Brody, M.J., and A.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s298">Johnson (1981) Role of forebrain structures in models of 
+    experimental hypertension.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s299">In F.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s300">Abboud, H.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s301">Fozzard, J.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s302">Gilmore and D.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s303">Reis (eds): Disturbances in Ncurogenic Control of the 
+    Circulation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s304">Baltimore: Williams and Wilkins, pp. 105-117.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s305">Buggy, J., and A.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s306">Johnson (1977) Preoptic-hypothalamic periventricular 
+    lesions: Thirst deficits and hypernatrernia.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s307">Am.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s308">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s309">Physiol. 253 (Regulatory Integrative Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s310">Physiol. 21:R44-R52.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s311">Burstein, R., K.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s312">Cliffer, and G.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s313">Giesler, Jr. (1987) Direct somatusensory projections 
+    from the spinal cord to the hypothalamus and telencephalon.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s314">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s315">Neurosci. 7:4159-4164.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s316">Cechetto, D.F., and F.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s317">Calaresu (1983) Response of single units in the amygdala 
+    to stirnulation of buffer nerves in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s318">Am.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s319">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s320">Physiol. 244 (Regulatory Integrative Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s321">Physiol. 13):Rti46-R651.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s322">Cechetto, D.F., and F.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s323">Calaresu (1984) Units in the amygdala responding to 
+    selective activation of carotid baroand chemoreceptors.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s324">Am.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s325">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s326">Physiol. 248 (Regulatory Integrative Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s327">Physiol. 14j:R832-R836.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s328">Cechetto, D.F., and C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s329">Saper (19871 Evidence for a viscerotopic sensory 
+    representation in the cortex and thalamus in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s330">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s331">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s332">Neurol. 262:2745.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s333">Cechetto, D.F., and S.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s334">Chen (1990) Subcartical sites mediating sympathetic 
+    responses from insular cortex in rats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s335">Am.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s336">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s337">Physiol. 258:R245R255.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s338">Cechetto, D.F., and C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s339">Saper (1990) Role of the cerebral cortex in autonomic 
+    function.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s340">In A.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s341">Loewy, K.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s342">Spyer (eds).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s343">The Autonomic Nervous System: Central Regulation of 
+    Autonomic Function.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s344">Oxford: Oxford University Press, pp. 208-223.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s345">Depaulis, A,, R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s346">Bandler, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s347">Vergnes (1989) Characterization of pretentorial 
+    periaqueductal matter neurons mediating intraspecific defensive 
+    behaviors in the rat by microinjections of kainic acid.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s348">Brain Res. 486: 12 1-132.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s349">Gardiner, T.W., J.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s350">Verbalis, and E.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s351">Stricker (1985) Impaired secretion of vasopressin and 
+    oxytocin in rats after lesions of nucleus medianus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s352">Am.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s353">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s354">Physiol. 249 (Regulatory Integrative Comp. physiol. 
+    18i):R681R688.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s355">Gelsema, A.J., D.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s356">McKitiick, and F.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s357">Calaresu (1987) Cardiovascular responses to chemical and 
+    electrical stimulation of amygdala in rats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s358">Am.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s359">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s360">Physiol. 263 (Regulatory Integrative Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s361">Physiol. 22):R712-R718.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s362">Gerfen, C.R., and P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s363">Sawchenko (1984) An anterograde neuroanatomical tracing 
+    method that shows the detailed morphology of neurons, their axons, 
+    and terminals: Immunohistochemical localization of an axonally 
+    transported plant lectin, Phaseo1u.s uulgari.s leucoagglutinin 
+    (PHAL).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s364">Brain Res. 290:219-238.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s365">Hancock, M.B. (1984) Visualization of 
+    peptide-immunorcactive processes on serotonin-imrriunoreactive 
+    cells using two-color imrnunoperoxidase staining.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s366">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s367">Histochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s368">Cytochem. 32:311-314.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s369">Hinrichsen, C.F.L. (19881 Projections of the midlateral 
+    posterior hJpothalamic area influencing cardiorespiratory function 
+    in rats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s370">Brain Behav.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s371">Evol. 32:10&amp;amp;118.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s372">Hoff, E.C., J.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s373">Kell, Jr., and M.N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s374">Carroll, Jr. (1963) Effects of cortical stimulation and 
+    lesions on cardiovascular function.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s375">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s376">Rev. 43:68114.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s377">Horster, W., and G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s378">Ettlinger (1987) Unilateral removal of the posterior 
+    insula or of area SII: Inconsistent effects on tactile, visual and 
+    auditory performance in the monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s379">Behav.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s380">Brain Res. 26.1-17.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s381">Johnson, A.K., and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s382">Buggy (1978) Periventricular preoptic-hypothalamus is 
+    vital for thirst and normal water economy.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s383">Am.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s384">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s385">Physiol. 234 (Regulatory Integrative Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s386">Physiol. 3):K122-R129.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s387">Katter, J.T., R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s388">Burstein, and C.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s389">Giesler, Jr. (1991) The cells of origin of the 
+    spinohypothalamic tract in cats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s390">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s391">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s392">Neurol. 303:lOl-112.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s393">Kita, H., andY.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s394">Oomura (1982) An HRP study of the afferent connections 
+    to rat lateral h,ypothalamic region.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s395">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s396">Bull.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s397">Rfi.7-71.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s398">Lind, R.W., L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s399">Swanson, and D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s400">Ganten (1984) Angiotcnsin I1 immurioreactivity in the 
+    neural afferents and efferents of the subfornical organ of the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s401">Brain Res. 321:209-215.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s402">Iditen, P.G.M.; andP.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s403">Room (1980) Interrelations between lateral; dorsomedial 
+    and ventromedial hypothalamic nuclei in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s404">An HRP study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s405">Brain Res. 190:321-332.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s406">Luiten, P.G.M., G.J. ter Horst, and A.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s407">Steffens (1987) The hypothalamus, intrinsic Connections 
+    and outflow pathways to the endocrine system in relation to the 
+    control of feeding and metabolism.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s408">Prog.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s409">Neurobiol. 28:1-54.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s410">Mesulam, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s411">-M. (1978) Tetramethyl benzidine for horseradish 
+    peroxidase neurochemistry: A non-carcinogenic blue reaction-product 
+    with superior sensitivity for visualizing neural afferents and 
+    effcrents.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s412">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s413">Histochern.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s414">Cytochem. 26:106-117.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s415">Miselis, R.R. (1981) The efferent prqjections of the 
+    suhfnrnical organ of the rat: A circumventricular organ within a 
+    neural network subserving water halance.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s416">Brain Res. 230:1-23.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s417">Norgren, R. (1970) Gustatory refiponses in the 
+    21:63-77.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s418">Olney.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s419">J.W. (1978) Keurotoxicity Olney, and McGeer (eds).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s420">Kainic Acid as a Tool in Neurobiology York: Raven 
+    Press.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s421">Ottersen, O.P. (1980) Afferent connections to the 
+    amygdaloid complex of the rat and cat. 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s422">Afferents from the hypothalamus and the basal 
+    telencephalon.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s423">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s424">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s425">Neurol. 194267-289.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s426">Paxinos, G., and C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s427">Watson (1986) The Rat Brain in Stereotaxic 
+    Coordinates.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s428">Australia: Academic Press Inc., Harcourt Brace 
+    Jovanovich, Publishers.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s429">Robinson, C.J.!</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s430">and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s431">Burton (1980a) Organization of somatosensory receptive 
+    fields in cortical areas 7b, retroinsula, postauditory and granular 
+    insula ofM. fasciculans.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s432">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s433">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s434">Neurol. 192;069-092.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s435">Robinson, C.J., and H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s436">Burton (1980hl Somatic submodality distribution within 
+    the second somatosensory (SII), 7b, retroinsular, postauditory, and 
+    granular insular cortical areas of M. fascicularis.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s437">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s438">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s439">Neurol. 192093-108.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s440">Saper, C.B., L.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s441">Swansun, and W.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s442">Cowan (1979) An autoradiographic study of the eKerent 
+    connections of the lateral hypothalamic area in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s443">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s444">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s445">Neurol. 183:689-706.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s446">Spencer, S.E., W.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s447">Sawyer, and A.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s448">Loewy (1988) L-Glutamate stimulation of the zona incerla 
+    in Ihe rat decreases herat rate and blood pressure.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s449">Brain Res. 458:72-81.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s450">Spencer, S.E., W.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s451">Sawyer, and AD.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s452">Locwy (1989) Cardiovascular effects produced by 
+    L-glutamate stimulation of the lateral hypothalamic area.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s453">Am.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s454">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s455">Physiol. 257 (Heart Circ.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s456">Physiol. 26):H540-H522.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s457">Spencer, S.E., W.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s458">Sawyer, and A.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s459">Loewy (1990) L-Glutamate mapping of cardioreactive areas 
+    in the rat posterior hypothalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s460">Brain Res. 511:149-157.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s461">Sun, M.K.. and P.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s462">Guyenet (1986) Hypothalamic glutamergic input to 
+    medullary sympathoexcilatory neu runs in rats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s463">Am.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s464">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s465">Physiol. 251:R79% R810.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s466">Swanson, L.W., al1dW.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s467">Cowan (1979) The Connections of the septal region in the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s468">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s469">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s470">Neurol. 186:621-656.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s471">Swanson, L.W.. and P.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s472">Sawchenko (1983) Hypothalamic integration: Organization 
+    of the paraventricular and supraoptic nuclei.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s473">Annu.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s474">Rev.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s475">Neurosci. 6:269-324.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s476">Horst, G.J., and P.G.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s477">Luiten (1986) The projections of the dorsomedial 
+    hypothalamus in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s478">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s479">Bull. 16:231-248.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s480">Horst, G.J., P. de Boer, P.G.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s481">Luiten, and J.D. van Willigen (1989) Ascending 
+    projections from the solitary tract nucleus to the hypothalamus: A 
+    Phmseolus uulgurzs lectin tracing study in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s482">Neuroscience Yl:785-797.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s483">Horst, G.J., and P.G.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s484">Luiten (1987!</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s485">Phaseolus vulgaris leucoagglutinin tracing of 
+    intrahypothalamic connections of the lateral, ventromedial, 
+    dorsomedial and paraventricular hypothalamic nuclei in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s486">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s487">Bull. 18:191-203.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s488">Thomas, H.R., and F.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s489">Calaresu (19721 Responses of single units in the medial 
+    hypothalamus to electrical stimulation of the carotid sinus nerve 
+    in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s490">Brain Res. 44:4942.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s491">Yamada, J., and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s492">Otani i1978) The spinoperiventricular rabbit, rat and 
+    cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s493">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s494">Neurol. 61r395-406.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s495">Yasui, Y., C.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s496">Breder, C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s497">Saper, and D.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s498">Cechetto 11991) Autonomic responses and efferent 
+    pathways from the insular cortex in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s499">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s500">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s501">Neurol. 303355-374.</S>
+  </References>
+
+</File>
+

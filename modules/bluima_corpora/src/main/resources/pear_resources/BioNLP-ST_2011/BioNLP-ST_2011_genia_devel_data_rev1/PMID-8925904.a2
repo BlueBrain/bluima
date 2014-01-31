@@ -1,0 +1,17 @@
+*	Equiv T2 T1
+*	Equiv T4 T5
+T9	Regulation 186 212	transcriptional regulation
+T10	Positive_regulation 251 254	via
+T11	Positive_regulation 389 400	upregulated
+T12	Binding 619 631	interactions
+T13	Regulation 658 666	regulate
+T14	Transcription 675 688	transcription
+T15	Negative_regulation 725 729	lost
+E1	Regulation:T9 Theme:T2
+E2	Positive_regulation:T10 Theme:E1
+E3	Positive_regulation:T11 Theme:T3
+E4	Binding:T12 Theme:T7
+E5	Regulation:T13 Theme:E6
+E6	Transcription:T14 Theme:T8
+E7	Negative_regulation:T15 Theme:E5
+M1	Negation E3

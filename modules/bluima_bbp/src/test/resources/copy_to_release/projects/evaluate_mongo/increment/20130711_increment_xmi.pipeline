@@ -1,0 +1,11 @@
+cr: XCollectionReader
+ directoryIterator: LargeDirectoryIterator
+ inputDirectory: /Volumes/HDD2/ren_data/data_hdd/experiments/evaluate_mongo_5k/20130501_writeto_xmi
+ xmlSchemeName: XMI
+
+include: add_annot.include
+
+ae: XWriter
+ outputDir: /Volumes/HDD2/ren_data/data_hdd/experiments/evaluate_mongo_5k/20130711_increment_xmi
+ xmlSchemeName: XMI
+ fileNamerClassName: ch.epfl.bbp.uima.uimafit.HeaderDocIdFileNamer

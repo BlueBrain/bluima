@@ -1,0 +1,46 @@
+*	Equiv T2 T3
+T15	Positive_regulation 4 11	Induced
+T16	Localization 47 54	release
+T17	Positive_regulation 296 301	leads
+T18	Localization 368 375	release
+T19	Positive_regulation 494 501	induced
+T20	Gene_expression 537 547	production
+T21	Positive_regulation 1144 1153	increased
+T22	Localization 1190 1197	release
+T23	Negative_regulation 1256 1265	inhibited
+T24	Localization 1301 1308	release
+T25	Regulation 1356 1362	effect
+T26	Positive_regulation 1370 1377	induced
+T27	Localization 1413 1420	release
+T28	Negative_regulation 1446 1456	attenuated
+T29	Positive_regulation 1466 1473	induced
+T30	Gene_expression 1510 1520	production
+T31	Positive_regulation 1575 1582	induced
+T32	Gene_expression 1623 1633	production
+T33	Positive_regulation 1698 1705	induced
+T34	Localization 1741 1748	release
+T35	Positive_regulation 1872 1879	induced
+T36	Localization 1915 1922	release
+E1	Positive_regulation:T15 Theme:E2
+E2	Localization:T16 Theme:T1
+E3	Positive_regulation:T17 Theme:E4
+E4	Localization:T18 Theme:T4
+E5	Positive_regulation:T19 Theme:E6
+E6	Gene_expression:T20 Theme:T5
+E7	Positive_regulation:T21 Theme:E8
+E8	Localization:T22 Theme:T8
+E9	Negative_regulation:T23 Theme:E10
+E10	Localization:T24 Theme:T9
+E11	Regulation:T25 Theme:E12
+E12	Positive_regulation:T26 Theme:E13
+E13	Localization:T27 Theme:T10
+E14	Negative_regulation:T28 Theme:E15
+E15	Positive_regulation:T29 Theme:E16
+E16	Gene_expression:T30 Theme:T11
+E17	Positive_regulation:T31 Theme:E18
+E18	Gene_expression:T32 Theme:T12
+E19	Positive_regulation:T33 Theme:E20
+E20	Localization:T34 Theme:T13
+E21	Positive_regulation:T35 Theme:E22
+E22	Localization:T36 Theme:T14
+M1	Negation E11

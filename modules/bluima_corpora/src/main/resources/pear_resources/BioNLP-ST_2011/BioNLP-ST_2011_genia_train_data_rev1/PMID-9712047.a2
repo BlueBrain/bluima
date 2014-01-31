@@ -1,0 +1,32 @@
+T6	Regulation 14 23	resistant
+T7	Positive_regulation 24 39	transactivation
+T8	Entity 52 60	promoter
+T9	Positive_regulation 61 69	requires
+T10	Gene_expression 137 147	Expression
+T11	Positive_regulation 165 173	requires
+T12	Positive_regulation 520 529	necessary
+T13	Gene_expression 538 548	expression
+T14	Negative_regulation 681 688	blocked
+T15	Transcription 689 717	at the transcriptional level
+T16	Binding 768 770	at
+T17	Entity 780 788	promoter
+T18	Positive_regulation 882 897	transactivation
+T19	Negative_regulation 963 972	abrogated
+T20	Positive_regulation 980 995	transactivation
+T21	Positive_regulation 1022 1030	enhanced
+E1	Regulation:T6 Theme:E2
+E2	Positive_regulation:T7 Theme:T1 Site:T8
+E3	Positive_regulation:T9 Theme:E2
+E4	Gene_expression:T10 Theme:T2
+E5	Positive_regulation:T11 Theme:E4
+E6	Positive_regulation:T12 Theme:E7
+E7	Gene_expression:T13 Theme:T3
+E8	Negative_regulation:T14 Theme:E9
+E9	Transcription:T15 Theme:T4
+E10	Binding:T16 Theme:T5 Site:T17
+E11	Positive_regulation:T18 Theme:T5 Site:T17
+E12	Negative_regulation:T19 Theme:E11
+E13	Positive_regulation:T20 Theme:T5 Site:T17
+E14	Positive_regulation:T21 Theme:E13
+M1	Negation E1
+M2	Speculation E6

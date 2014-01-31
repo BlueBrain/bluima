@@ -1,0 +1,29 @@
+*	Equiv T8 T9
+*	Equiv T10 T11
+*	Equiv T18 T19
+T35	Negative_regulation 491 498	deleted
+T36	Gene_expression 1824 1831	express
+T37	Binding 1852 1872	form heteromultimers
+T38	Localization 1908 1916	localize
+T39	Entity 1920 1946	mRNA processing (P) bodies
+T40	Gene_expression 2073 2082	expressed
+T41	Regulation 2167 2177	regulation
+T42	Positive_regulation 2256 2267	upregulates
+T43	Gene_expression 2272 2283	mRNA levels
+T44	Entity 2443 2451	promoter
+T45	Regulation 2473 2483	regulation
+T46	Entity 2855 2861	GC-box
+T47	Binding 2872 2882	recognized
+E1	Negative_regulation:T35 Theme:T10
+E2	Gene_expression:T36 Theme:T23
+E3	Gene_expression:T36 Theme:T24
+E4	Binding:T37 Theme:T23 Theme2:T25
+E5	Localization:T38 Theme:T23 ToLoc:T39
+E6	Localization:T38 Theme:T24 ToLoc:T39
+E7	Gene_expression:T40 Theme:T26
+E8	Regulation:T41 Theme:T26
+E9	Positive_regulation:T42 Theme:E10
+E10	Gene_expression:T43 Theme:T27
+E11	Regulation:T45 Theme:T29 Site:T44
+E12	Binding:T47 Theme:T31 Theme2:T33 Site:T46
+E13	Binding:T47 Theme:T31 Theme2:T34 Site:T46

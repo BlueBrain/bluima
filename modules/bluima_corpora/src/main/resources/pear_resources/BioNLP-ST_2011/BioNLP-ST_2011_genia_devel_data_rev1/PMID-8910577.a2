@@ -1,0 +1,17 @@
+T10	Positive_regulation 793 804	High levels
+T11	Transcription 824 832	detected
+T12	Transcription 915 920	level
+T13	Positive_regulation 989 998	increased
+T14	Localization 1126 1135	localized
+T15	Entity 1143 1145	NB
+T16	Localization 1188 1196	location
+T17	Entity 1213 1215	NB
+T18	Gene_expression 1221 1231	expression
+E1	Positive_regulation:T10 Theme:E2
+E2	Transcription:T11 Theme:T5
+E3	Transcription:T12 Theme:T6
+E4	Positive_regulation:T13 Theme:E3
+E5	Localization:T14 Theme:T7 ToLoc:T15
+E6	Localization:T16 Theme:T8 AtLoc:T17
+E7	Gene_expression:T18 Theme:T8
+M1	Negation E2

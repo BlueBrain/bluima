@@ -1,0 +1,43 @@
+T9	Negative_regulation 0 17	Inhibitory effect
+T10	Localization 49 58	secretion
+T11	Localization 439 447	secreted
+T12	Negative_regulation 448 465	depressed amounts
+T13	Positive_regulation 479 490	in response
+T14	Negative_regulation 581 598	inhibitory effect
+T15	Localization 612 621	secretion
+T16	Negative_regulation 661 670	abolished
+T17	Negative_regulation 719 736	inhibitory effect
+T18	Negative_regulation 818 828	Inhibition
+T19	Gene_expression 842 852	production
+T20	Regulation 919 928	dependent
+T21	Negative_regulation 962 972	inhibition
+T22	Gene_expression 986 996	production
+T23	Negative_regulation 1059 1069	Inhibition
+T24	Localization 1083 1092	secretion
+T25	Negative_regulation 1228 1238	to inhibit
+T26	Positive_regulation 1243 1250	induced
+T27	Gene_expression 1261 1271	production
+T28	Positive_regulation 1317 1324	leading
+T29	Gene_expression 1338 1348	production
+E1	Negative_regulation:T9 Theme:E2
+E2	Localization:T10 Theme:T1
+E3	Localization:T11 Theme:T2
+E4	Negative_regulation:T12 Theme:E5
+E5	Positive_regulation:T13 Theme:E3
+E6	Negative_regulation:T14 Theme:E7
+E7	Localization:T15 Theme:T3
+E8	Negative_regulation:T16 Theme:E6
+E9	Negative_regulation:T17 Theme:E7
+E10	Negative_regulation:T18 Theme:E11
+E11	Gene_expression:T19 Theme:T4
+E12	Regulation:T20 Theme:E10
+E13	Negative_regulation:T21 Theme:E14
+E14	Gene_expression:T22 Theme:T5
+E15	Negative_regulation:T23 Theme:E16
+E16	Localization:T24 Theme:T6
+E17	Negative_regulation:T25 Theme:T7
+E18	Positive_regulation:T26 Theme:E19
+E19	Gene_expression:T27 Theme:T7
+E20	Positive_regulation:T28 Theme:E21
+E21	Gene_expression:T29 Theme:T8
+M1	Negation E13

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<synonym>
+<token canonical="Neuron with circuit role" ref_id="nlx_cell_1003111">
+  <variant base="Neuron with circuit role" />
+</token>
+<token canonical="Motor neuron" ref_id="nlx_cell_101215">
+  <variant base="Motor neuron" />
+</token>
+<token canonical="Motor role of nerve cell" ref_id="nlx_subcell_101278">
+  <variant base="Motor role of nerve cell" />
+</token>
+<token canonical="Principal neuron" ref_id="nlx_cell_1003112">
+  <variant base="Projection neuron" />
+  <variant base="Principal neuron" />
+  <variant base="principal cell" />
+</token>
+<token canonical="Intrinsic neuron" ref_id="nlx_cell_1003113">
+  <variant base="local circuit neuron" />
+  <variant base="interneuron" />
+  <variant base="Intrinsic neuron" />
+</token>
+</synonym>

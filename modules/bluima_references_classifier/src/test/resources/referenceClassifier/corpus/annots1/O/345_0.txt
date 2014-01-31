@@ -1,0 +1,15 @@
+where N is the total number of branches of an order, and i is the order number.
+Theoretically, values of R may range from a minimum of 2 up to infinity.
+In addition to stepwise bifurcation ratios, three different overall bifurcation
+ratios were calculated for each branch in order to compare the different methods
+for calculating the bifurcation ratio that have been used in past botanical studies.
+First, a least-squares regression was performed on the logarithm of number of
+branches versus order, in which the bifurcation ratio (Rbr) is equal to the
+antilogarithm of the absolute value of the slope of the regression line (Tomlinson
+1978). Secondly, a geometric mean bifurcation ratio was calculated by taking
+(Rbg)
+the (s- 1)th root of the number of first-order branches, where s is the highest-order
+number (Holland 1969). Third, a bifurcation ratio (RbM) was calculated from
+Motomura's formula (Whitney 1976), such that
+
+RbM = (NT- Ns)/(NT- N),

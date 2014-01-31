@@ -1,0 +1,35 @@
+SUMMARY AND CONCLUSIONS
+1. We tested several hypotheses with respect to the mechanisms
+and processes that control the firing characteristics and determine
+the spatial and temporal dynamics of intracellular Ca”' in CA3
+hippocampal neurons. In particular, we were interested to know
+1) whether bursting and nonbursting behavior of CA3 neurons
+could be accounted for in a morphologically realistic model using
+a number of the known ionic conductances; 2) whether such a
+model is robust across different cell morphologies; 3) whether
+some particular nonuniform distribution of Ca2+ channels is re-quired for bursting; and 4) whether such a model can reproduce the
+magnitude and spatial distribution of intracellular Ca2+ transients
+determined from fluorescence imaging studies and can predict reasonable intracellular Ca2+ concentration ( [ Ca2']J distribution for
+CA3 neurons.
+2. For this purpose we have developed a highly detailed model
+of the distribution and densities of membrane ion channels in hippocampal CA3 bursting and nonbursting pyramidal neurons. This
+model reproduces both the experimentally observed firing modes
+and the dynamics of intracellular Ca2+.
+3. The kinetics of the membrane ionic conductances are based
+on available experimental data. This model incorporates a single
+Na+ channel, three Ca2' channels (Ca,, Ca,, and Ca, ), three
+Ca2+-independent K+ channels ( KDR, &, and KM), two Ca2+dependent I(+ channels (Kc and KAHP) , and intracellular Ca2+related processes such as bufffering, pumping, and radial diffusion.
+4. To test the robustness of the model, we applied it to six
+different morphologically accurate reconstructions of CA3 hippocampal pyramidal neurons. In every neuron, Ca2' channels, Ca2+related processes, and Ca2'-dependent K+ channels were uniformly distributed over the entire cell. Ca2+-independent K+ channels were placed on the soma and the proximal apical dendrites.
+For each reconstructed cell we were able to reproduce bursting
+and nonbursting firing characteristics as well as Ca2+ transients
+and distributions for both somatic and synaptic stimulations.
+5. Our simulation results suggest that CA3 pyramidal cell bursting behavior does not require any special distribution of Ca”-dependent channels and mechanisms. Furthermore, a simple in-crease in the Ca2+ -independent K+ conductances is sufficient to
+change the firing mode of our CA3 neurons from bursting to nonbursting.
+6. The model also displays [ Ca2+li transients and distributions
+that are consistent with fluorescent imaging data. Peak [Ca2+]i
+distribution for synaptic stimulation of the nonbursting model is
+broader when compared with somatic stimulation. Somatic stimulation of the bursting model shows a broader distribution in [Ca2'li
+when compared with the nonbursting model. Synaptic stimulation
+in both models produces a [Ca”]i distribution that has a peak
+around the site of stimulation.

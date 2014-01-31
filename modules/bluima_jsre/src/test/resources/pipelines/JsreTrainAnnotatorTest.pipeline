@@ -1,0 +1,14 @@
+
+
+cr: WhiteTextConnectionsCollectionReader
+ addNegativePairs__java: true
+ 
+
+# PRE-PROC
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
+ae: BlueBioLemmatizer
+
+
+# TRAIN
+ae: ch.epfl.bbp.uima.jsre.JsreTrainAnnotator

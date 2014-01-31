@@ -1,0 +1,835 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<styleMap>
+  <!--
+    <rule>
+    <pattern>de.julielab.jules.types.Annotation</pattern>
+    <label>Annotation</label>
+    <style>color:black; background:lightblue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.DiscontinuousAnnotation</pattern>
+    <label>DiscontinuousAnnotation</label>
+    <style>color:black; background:lightgreen;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.ResourceEntry</pattern>
+    <label>ResourceEntry</label>
+    <style>color:black; background:orange;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.pubmed.Header</pattern>
+    <label>Header</label>
+    <style>color:black; background:yellow;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.pubmed.ManualDescriptor</pattern>
+    <label>ManualDescriptor</label>
+    <style>color:black; background:pink;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.DocumentAnnotation</pattern>
+    <label>DocumentAnnotation</label>
+    <style>color:black; background:salmon;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Header</pattern>
+    <label>Header</label>
+    <style>color:black; background:cyan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.pubmed.Header</pattern>
+    <label>Header</label>
+    <style>color:black; background:violet;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.PubType</pattern>
+    <label>PubType</label>
+    <style>color:black; background:tan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Journal</pattern>
+    <label>Journal</label>
+    <style>color:white; background:brown;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Date</pattern>
+    <label>Date</label>
+    <style>color:white; background:blue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.OtherPub</pattern>
+    <label>OtherPub</label>
+    <style>color:white; background:green;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Descriptor</pattern>
+    <label>Descriptor</label>
+    <style>color:white; background:red;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.AutoDescriptor</pattern>
+    <label>AutoDescriptor</label>
+    <style>color:white; background:mediumpurple;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.ManualDescriptor</pattern>
+    <label>ManualDescriptor</label>
+    <style>color:black; background:lightblue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.MeshHeading</pattern>
+    <label>MeshHeading</label>
+    <style>color:black; background:lightgreen;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Chemical</pattern>
+    <label>Chemical</label>
+    <style>color:black; background:orange;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.DBInfo</pattern>
+    <label>DBInfo</label>
+    <style>color:black; background:yellow;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Keyword</pattern>
+    <label>Keyword</label>
+    <style>color:black; background:pink;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.DocType</pattern>
+    <label>DocType</label>
+    <style>color:black; background:salmon;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Language</pattern>
+    <label>Language</label>
+    <style>color:black; background:cyan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.CitationStatus</pattern>
+    <label>CitationStatus</label>
+    <style>color:black; background:violet;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.AuthorInfo</pattern>
+    <label>AuthorInfo</label>
+    <style>color:black; background:tan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.RelatedArticle</pattern>
+    <label>RelatedArticle</label>
+    <style>color:white; background:brown;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.RelatedArticleList</pattern>
+    <label>RelatedArticleList</label>
+    <style>color:white; background:blue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.FullTextLink</pattern>
+    <label>FullTextLink</label>
+    <style>color:white; background:green;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.FullTextLinkList</pattern>
+    <label>FullTextLinkList</label>
+    <style>color:white; background:red;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Paragraph</pattern>
+    <label>Paragraph</label>
+    <style>color:white; background:mediumpurple;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Section</pattern>
+    <label>Section</label>
+    <style>color:black; background:lightblue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Zone</pattern>
+    <label>Zone</label>
+    <style>color:black; background:lightgreen;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Title</pattern>
+    <label>Title</label>
+    <style>color:black; background:orange;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Caption</pattern>
+    <label>Caption</label>
+    <style>color:black; background:yellow;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.TextObject</pattern>
+    <label>TextObject</label>
+    <style>color:black; background:pink;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.AbstractText</pattern>
+    <label>AbstractText</label>
+    <style>color:black; background:salmon;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Style</pattern>
+    <label>Style</label>
+    <style>color:black; background:cyan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.StyleName</pattern>
+    <label>StyleName</label>
+    <style>color:black; background:violet;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Encoding</pattern>
+    <label>Encoding</label>
+    <style>color:black; background:tan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.List</pattern>
+    <label>List</label>
+    <style>color:white; background:brown;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.ListItem</pattern>
+    <label>ListItem</label>
+    <style>color:white; background:blue;</style>
+    </rule>
+  -->
+
+  <!-- TODO
+    <rule>
+    <pattern>de.julielab.jules.types.Token</pattern>
+    <label>Token</label>
+    <style>color:white; background:green;</style>
+    </rule>
+  -->
+
+  <!--
+    <rule>
+    <pattern>de.julielab.jules.types.POSTag</pattern>
+    <label>POSTag</label>
+    <style>color:white; background:red;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.PennPOSTag</pattern>
+    <label>PennPOSTag</label>
+    <style>color:white; background:mediumpurple;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.GeniaPOSTag</pattern>
+    <label>GeniaPOSTag</label>
+    <style>color:black; background:lightblue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.PennBioIEPOSTag</pattern>
+    <label>PennBioIEPOSTag</label>
+    <style>color:black; background:lightgreen;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Lemma</pattern>
+    <label>Lemma</label>
+    <style>color:black; background:orange;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.StemmedForm</pattern>
+    <label>StemmedForm</label>
+    <style>color:black; background:yellow;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Simplex</pattern>
+    <label>Simplex</label>
+    <style>color:black; background:pink;</style>
+    </rule>
+
+  -->
+  <rule>
+    <pattern>de.julielab.jules.types.Abbreviation</pattern>
+    <label>Abbreviation</label>
+    <style>color:black; background:green;</style>
+  </rule>
+
+  <!--
+    <rule>
+    <pattern>de.julielab.jules.types.Acronym</pattern>
+    <label>Acronym</label>
+    <style>color:black; background:cyan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.GrammaticalFeats</pattern>
+    <label>GrammaticalFeats</label>
+    <style>color:black; background:violet;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.NounFeats</pattern>
+    <label>NounFeats</label>
+    <style>color:black; background:tan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.VerbFeats</pattern>
+    <label>VerbFeats</label>
+    <style>color:white; background:brown;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.AdjectiveFeats</pattern>
+    <label>AdjectiveFeats</label>
+    <style>color:white; background:blue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.PronounFeats</pattern>
+    <label>PronounFeats</label>
+    <style>color:white; background:green;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Gender</pattern>
+    <label>Gender</label>
+    <style>color:white; background:red;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Case</pattern>
+    <label>Case</label>
+    <style>color:white; background:mediumpurple;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Number</pattern>
+    <label>Number</label>
+    <style>color:black; background:lightblue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Tense</pattern>
+    <label>Tense</label>
+    <style>color:black; background:lightgreen;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Person</pattern>
+    <label>Person</label>
+    <style>color:black; background:orange;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Voice</pattern>
+    <label>Voice</label>
+    <style>color:black; background:yellow;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Aspect</pattern>
+    <label>Aspect</label>
+    <style>color:black; background:pink;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Degree</pattern>
+    <label>Degree</label>
+    <style>color:black; background:salmon;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Orthography</pattern>
+    <label>Orthography</label>
+    <style>color:black; background:cyan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Chunk</pattern>
+    <label>Chunk</label>
+    <style>color:black; background:violet;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.ChunkNP</pattern>
+    <label>ChunkNP</label>
+    <style>color:black; background:tan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.ChunkVP</pattern>
+    <label>ChunkVP</label>
+    <style>color:white; background:brown;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.ChunkPP</pattern>
+    <label>ChunkPP</label>
+    <style>color:white; background:blue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.ChunkADJP</pattern>
+    <label>ChunkADJP</label>
+    <style>color:white; background:green;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.ChunkADVP</pattern>
+    <label>ChunkADVP</label>
+    <style>color:white; background:red;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.ChunkLST</pattern>
+    <label>ChunkLST</label>
+    <style>color:white; background:mediumpurple;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.ChunkSBAR</pattern>
+    <label>ChunkSBAR</label>
+    <style>color:black; background:lightblue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.ChunkCONJP</pattern>
+    <label>ChunkCONJP</label>
+    <style>color:black; background:lightgreen;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.ChunkPRT</pattern>
+    <label>ChunkPRT</label>
+    <style>color:black; background:orange;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.DependencyRelation</pattern>
+    <label>DependencyRelation</label>
+    <style>color:black; background:yellow;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Constituent</pattern>
+    <label>Constituent</label>
+    <style>color:black; background:pink;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.PTBConstituent</pattern>
+    <label>PTBConstituent</label>
+    <style>color:black; background:salmon;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.GENIAConstituent</pattern>
+    <label>GENIAConstituent</label>
+    <style>color:black; background:cyan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.PennBioIEConstituent</pattern>
+    <label>PennBioIEConstituent</label>
+    <style>color:black; background:violet;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Coordination</pattern>
+    <label>Coordination</label>
+    <style>color:black; background:tan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.EEE</pattern>
+    <label>EEE</label>
+    <style>color:white; background:brown;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.CoordinationElement</pattern>
+    <label>CoordinationElement</label>
+    <style>color:white; background:blue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.CoordinationElement_Value</pattern>
+    <label>CoordinationElement_Value</label>
+    <style>color:white; background:green;</style>
+    </rule>
+  -->
+
+  <!-- TODO
+    <rule>
+    <pattern>de.julielab.jules.types.Sentence</pattern>
+    <label>Sentence</label>
+    <style>color:white; background:red;</style>
+    </rule>
+  -->
+  <rule>
+    <pattern>de.julielab.jules.types.BioEntityMention</pattern>
+    <label>BioEntityMention</label>
+    <style>color:white; background:mediumpurple;</style>
+  </rule>
+  <!--
+    <rule>
+    <pattern>de.julielab.jules.types.Gene</pattern>
+    <label>Gene</label>
+    <style>color:black; background:lightblue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Disease</pattern>
+    <label>Disease</label>
+    <style>color:black; background:lightgreen;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Organism</pattern>
+    <label>Organism</label>
+    <style>color:black; background:orange;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.UnspecifiedOrganism</pattern>
+    <label>UnspecifiedOrganism</label>
+    <style>color:black; background:yellow;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.OrganismAttribute</pattern>
+    <label>OrganismAttribute</label>
+    <style>color:black; background:pink;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.BioEventMention</pattern>
+    <label>BioEventMention</label>
+    <style>color:black; background:salmon;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.BioRelationMention</pattern>
+    <label>BioRelationMention</label>
+    <style>color:black; background:cyan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Chemicals</pattern>
+    <label>Chemicals</label>
+    <style>color:black; background:violet;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Cell</pattern>
+    <label>Cell</label>
+    <style>color:black; background:tan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.MeshMention</pattern>
+    <label>MeshMention</label>
+    <style>color:white; background:brown;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Protein</pattern>
+    <label>Protein</label>
+    <style>color:white; background:blue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.GOMention</pattern>
+    <label>GOMention</label>
+    <style>color:white; background:green;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.EntityMention</pattern>
+    <label>EntityMention</label>
+    <style>color:white; background:red;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.RelationMention</pattern>
+    <label>RelationMention</label>
+    <style>color:white; background:mediumpurple;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.EventMention</pattern>
+    <label>EventMention</label>
+    <style>color:black; background:lightblue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.ArgumentMention</pattern>
+    <label>ArgumentMention</label>
+    <style>color:black; background:lightgreen;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Timex2Mention</pattern>
+    <label>Timex2Mention</label>
+    <style>color:black; background:orange;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.ConceptMention</pattern>
+    <label>ConceptMention</label>
+    <style>color:black; background:yellow;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.ValueMention</pattern>
+    <label>ValueMention</label>
+    <style>color:black; background:pink;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.EventTrigger</pattern>
+    <label>EventTrigger</label>
+    <style>color:black; background:salmon;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.OntClassMention</pattern>
+    <label>OntClassMention</label>
+    <style>color:black; background:cyan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.OntRelationMention</pattern>
+    <label>OntRelationMention</label>
+    <style>color:black; background:violet;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.bootstrep.Ligand</pattern>
+    <label>Ligand</label>
+    <style>color:black; background:tan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.bootstrep.Polymerase</pattern>
+    <label>Polymerase</label>
+    <style>color:white; background:brown;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.bootstrep.ProteinSubstructure</pattern>
+    <label>ProteinSubstructure</label>
+    <style>color:white; background:blue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.bootstrep.Regulation</pattern>
+    <label>Regulation</label>
+    <style>color:white; background:green;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.bootstrep.GeneExpression</pattern>
+    <label>GeneExpression</label>
+    <style>color:white; background:red;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.bootstrep.ExperimentalIntervention</pattern>
+    <label>ExperimentalIntervention</label>
+    <style>color:white; background:mediumpurple;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.bootstrep.RegulationOfGeneExpression</pattern>
+    <label>RegulationOfGeneExpression</label>
+    <style>color:black; background:lightblue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.bootstrep.GeneTranscription</pattern>
+    <label>GeneTranscription</label>
+    <style>color:black; background:lightgreen;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.bootstrep.Promoter</pattern>
+    <label>Promoter</label>
+    <style>color:black; background:orange;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.bootstrep.Mutant</pattern>
+    <label>Mutant</label>
+    <style>color:black; background:yellow;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.bootstrep.InvestigationTechnique</pattern>
+    <label>InvestigationTechnique</label>
+    <style>color:black; background:pink;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.bootstrep.CellGrowthCondition</pattern>
+    <label>CellGrowthCondition</label>
+    <style>color:black; background:salmon;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.bootstrep.GeneRegulationTemplate</pattern>
+    <label>GeneRegulationTemplate</label>
+    <style>color:black; background:cyan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Entity</pattern>
+    <label>Entity</label>
+    <style>color:black; background:violet;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Relation</pattern>
+    <label>Relation</label>
+    <style>color:black; background:tan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Event</pattern>
+    <label>Event</label>
+    <style>color:white; background:brown;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Timex2</pattern>
+    <label>Timex2</label>
+    <style>color:white; background:blue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Concept</pattern>
+    <label>Concept</label>
+    <style>color:white; background:green;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.Value</pattern>
+    <label>Value</label>
+    <style>color:white; background:red;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.stemnet.Cytokine</pattern>
+    <label>Cytokine</label>
+    <style>color:white; background:mediumpurple;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.stemnet.Chemokine</pattern>
+    <label>Chemokine</label>
+    <style>color:black; background:lightblue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.stemnet.CytokineReceptor</pattern>
+    <label>CytokineReceptor</label>
+    <style>color:black; background:lightgreen;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.stemnet.ChemokineReceptor</pattern>
+    <label>ChemokineReceptor</label>
+    <style>color:black; background:orange;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.stemnet.Variation</pattern>
+    <label>Variation</label>
+    <style>color:black; background:yellow;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.stemnet.VariationLocation</pattern>
+    <label>VariationLocation</label>
+    <style>color:black; background:pink;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.stemnet.VariationStateOriginal</pattern>
+    <label>VariationStateOriginal</label>
+    <style>color:black; background:salmon;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.stemnet.VariationStateAltered</pattern>
+    <label>VariationStateAltered</label>
+    <style>color:black; background:cyan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.stemnet.VariationStateGeneric</pattern>
+    <label>VariationStateGeneric</label>
+    <style>color:black; background:violet;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.stemnet.VariationProcess</pattern>
+    <label>VariationProcess</label>
+    <style>color:black; background:tan;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.stemnet.VariationEvent</pattern>
+    <label>VariationEvent</label>
+    <style>color:white; background:brown;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.stemnet.VariationType</pattern>
+    <label>VariationType</label>
+    <style>color:white; background:blue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.stemnet.CD_antigens</pattern>
+    <label>CD_antigens</label>
+    <style>color:white; background:green;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.stemnet.MinorHA</pattern>
+    <label>MinorHA</label>
+    <style>color:white; background:red;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.stemnet.HematopoieticProgenitorCell</pattern>
+    <label>HematopoieticProgenitorCell</label>
+    <style>color:white; background:mediumpurple;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.stemnet.LymphoidLeukocyte</pattern>
+    <label>LymphoidLeukocyte</label>
+    <style>color:black; background:lightblue;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.stemnet.MyeloidLeukocyte</pattern>
+    <label>MyeloidLeukocyte</label>
+    <style>color:black; background:lightgreen;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.stemnet.Erythrocyte</pattern>
+    <label>Erythrocyte</label>
+    <style>color:black; background:orange;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.GoodEntityMention</pattern>
+    <label>GoodEntityMention</label>
+    <style>color:black; background:yellow;</style>
+    </rule>
+    <rule>
+    <pattern>de.julielab.jules.types.BadEntityMention</pattern>
+    <label>BadEntityMention</label>
+    <style>color:black; background:pink;</style>
+    </rule>
+  -->
+  <rule>
+    <pattern>ch.epfl.bbp.uima.types.Protein</pattern>
+    <label>Protein</label>
+    <style>color:black; background:yellow;</style>
+  </rule>
+  <rule>
+    <pattern>ch.epfl.bbp.uima.types.CellType</pattern>
+    <label>CellType</label>
+    <style>color:black; background:cyan;</style>
+  </rule>
+  <rule>
+    <pattern>ch.epfl.bbp.uima.types.Concentration</pattern>
+    <label>Concentration</label>
+    <style>color:black; background:salmon;</style>
+  </rule>
+  <rule>
+    <pattern>ch.epfl.bbp.uima.types.Measure</pattern>
+    <label>Measure</label>
+    <style>color:black; background:orange;</style>
+  </rule>
+  <rule>
+    <pattern>ch.epfl.bbp.uima.types.CellTypeProteinConcentration
+    </pattern>
+    <label>CellTypeProteinConcentration</label>
+    <style>color:black; background:tan;</style>
+  </rule>
+  <rule>
+    <pattern>ch.epfl.bbp.uima.types.POSVerb</pattern>
+    <label>Verb</label>
+    <style>color:black; background:salmon;</style>
+  </rule>
+  <rule>
+    <pattern>ch.epfl.bbp.uima.types.BioVerb</pattern>
+    <label>BioVerb</label>
+    <style>color:black; background:salmon;</style>
+  </rule>
+  <rule>
+    <pattern>ch.epfl.bbp.uima.types.SurfaceForm</pattern>
+    <label>SurfaceForm</label>
+    <style>border-bottom: 2px solid blue;</style>
+  </rule>
+  <rule>
+    <pattern>de.julielab.jules.types.GeniaPOSTag</pattern>
+    <label>POS</label>
+    <style></style>
+  </rule>
+  
+  <!-- FROM CONCEPT_MAPPER -->
+  <rule>
+    <pattern>ch.epfl.bbp.uima.types.AgeDictTerm</pattern>
+    <label>Age</label>
+    <style>color:black; background:yellow</style>
+  </rule>
+  <rule>
+    <pattern>ch.epfl.bbp.uima.types.CellDictTerm</pattern>
+    <label>Cell</label>
+    <style>color:black; background:cyan</style>
+  </rule>
+  <rule>
+    <pattern>ch.epfl.bbp.uima.types.OrganismDictTerm</pattern>
+    <label>Organism</label>
+    <style>color:black; background:green</style>
+  </rule>
+  <rule>
+    <pattern>ch.epfl.bbp.uima.types.RegionDictTerm</pattern>
+    <label>Region</label>
+    <style>color:black; background:pink</style>
+  </rule>
+  <rule>
+    <pattern>ch.epfl.bbp.uima.types.SexDictTerm</pattern>
+    <label>Sex</label>
+    <style>color:black; background:blue</style>
+  </rule>
+  <rule>
+    <pattern>ch.epfl.bbp.uima.types.SubcellDictTerm</pattern>
+    <label>Subcell</label>
+    <style>color:black; background:cyan</style>
+  </rule>
+  <rule>
+    <pattern>ch.epfl.bbp.uima.types.UniprotDictTerm</pattern>
+    <label>Uniprot</label>
+    <style>color:black; background:brown</style>
+  </rule>
+  <rule>
+    <pattern>ch.epfl.bbp.uima.types.TheontologyDictTerm</pattern>
+    <label>Theontology</label>
+    <style>color:black; background:lightblue</style>
+  </rule>
+
+</styleMap>
+

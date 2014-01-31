@@ -1,0 +1,42 @@
+*	Equiv T9 T8
+*	Equiv T11 T10
+*	Equiv T7 T6
+T29	Positive_regulation 0 10	Triggering
+T30	Regulation 114 134	involves cooperation
+T31	Positive_regulation 274 283	induction
+T32	Positive_regulation 456 465	induction
+T33	Entity 524 532	promoter
+T34	Regulation 615 621	action
+T35	Positive_regulation 1077 1087	activation
+T36	Positive_regulation 1129 1138	induction
+T37	Positive_regulation 1204 1212	involved
+T38	Positive_regulation 1414 1424	activation
+T39	Positive_regulation 1463 1472	increased
+T40	Binding 1473 1489	binding activity
+T41	Phosphorylation 1494 1509	phosphorylation
+T42	Positive_regulation 1515 1523	mediated
+E1	Positive_regulation:T29 Theme:T1 Cause:T2
+E2	Positive_regulation:T29 Theme:T1 Cause:T3
+E3	Regulation:T30 Theme:E2 Cause:T5
+E4	Regulation:T30 Theme:E1 Cause:T4
+E5	Positive_regulation:T31 Theme:T11 Cause:T7
+E6	Positive_regulation:T31 Theme:T11 Cause:T9
+E7	Positive_regulation:T32 Theme:T11
+E8	Regulation:T34 Theme:T12 Cause:T13 Site:T33
+E9	Regulation:T34 Theme:T12 Cause:T14 Site:T33
+E10	Positive_regulation:T35 Theme:T20
+E11	Positive_regulation:T35 Theme:T19
+E12	Positive_regulation:T36 Theme:T21 Cause:T22
+E13	Positive_regulation:T36 Theme:T21 Cause:T23
+E14	Positive_regulation:T37 Theme:E12 Cause:T25
+E15	Positive_regulation:T37 Theme:E13 Cause:T25
+E16	Positive_regulation:T37 Theme:E13 Cause:T24
+E17	Positive_regulation:T37 Theme:E12 Cause:T24
+E18	Positive_regulation:T38 Theme:T27
+E19	Positive_regulation:T39 Theme:E20
+E20	Binding:T40 Theme:T27
+E21	Phosphorylation:T41 Theme:T27
+E22	Positive_regulation:T42 Theme:E21 Cause:T28
+E23	Positive_regulation:T42 Theme:E19 Cause:T28
+M1	Speculation E5
+M2	Speculation E6

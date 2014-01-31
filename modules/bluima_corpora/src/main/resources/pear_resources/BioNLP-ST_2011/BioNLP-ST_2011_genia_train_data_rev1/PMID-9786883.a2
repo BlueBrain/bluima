@@ -1,0 +1,27 @@
+T16	Positive_regulation 76 83	directs
+T17	Gene_expression 84 94	expression
+T18	Positive_regulation 350 356	confer
+T19	Gene_expression 397 407	expression
+T20	Gene_expression 782 792	expression
+T21	Negative_regulation 805 812	reduced
+T22	Gene_expression 870 880	expression
+T23	Regulation 885 895	unaffected
+T24	Regulation 938 944	target
+T25	Gene_expression 1068 1077	deficient
+E1	Positive_regulation:T16 Theme:E2
+E2	Gene_expression:T17 Theme:T3
+E3	Positive_regulation:T18 Theme:E4
+E4	Gene_expression:T19 Theme:T5
+E5	Gene_expression:T20 Theme:T10
+E6	Negative_regulation:T21 Theme:E5
+E7	Gene_expression:T22 Theme:T12
+E8	Regulation:T23 Theme:E7
+E9	Regulation:T24 Theme:T13 Cause:T14
+E10	Regulation:T24 Theme:T13
+E11	Regulation:T24 Theme:T13 Cause:T15
+E12	Gene_expression:T25 Theme:T15
+E13	Gene_expression:T25 Theme:T14
+M1	Negation E5
+M2	Negation E8
+M3	Negation E12
+M4	Negation E13

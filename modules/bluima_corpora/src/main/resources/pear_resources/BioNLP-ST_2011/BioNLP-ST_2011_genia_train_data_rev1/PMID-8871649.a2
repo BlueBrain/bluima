@@ -1,0 +1,38 @@
+*	Equiv T7 T6
+T15	Regulation 11 15	role
+T16	Gene_expression 90 100	expression
+T17	Regulation 194 202	involved
+T18	Regulation 206 232	transcriptional regulation
+T19	Gene_expression 503 513	expressing
+T20	Regulation 578 586	directed
+T21	Positive_regulation 719 728	exhibited
+T22	Positive_regulation 795 803	produced
+T23	Binding 1053 1058	bound
+T24	Negative_regulation 1187 1191	less
+T25	Regulation 1251 1261	importance
+T26	Gene_expression 1316 1326	expression
+T27	Regulation 1435 1443	resulted
+T28	Negative_regulation 1464 1473	reduction
+T29	Regulation 1604 1615	responsible
+T30	Gene_expression 1633 1643	expression
+E1	Regulation:T15 Theme:E2
+E2	Gene_expression:T16 Theme:T2
+E3	Regulation:T17 Theme:E4
+E4	Regulation:T18 Theme:T3
+E5	Gene_expression:T19 Theme:T5
+E6	Regulation:T20 Theme:T7
+E7	Positive_regulation:T21 Theme:T8
+E8	Positive_regulation:T22 Theme:T9
+E9	Binding:T23 Theme:T10
+E10	Negative_regulation:T24 Theme:T11
+E11	Regulation:T25 Theme:E12
+E12	Gene_expression:T26 Theme:T12
+E13	Regulation:T27 Theme:E14
+E14	Negative_regulation:T28 Theme:T13
+E15	Regulation:T29 Theme:E16
+E16	Gene_expression:T30 Theme:T14
+M1	Speculation E3
+M2	Speculation E4
+M3	Speculation E11
+M4	Speculation E12
+M5	Speculation E15

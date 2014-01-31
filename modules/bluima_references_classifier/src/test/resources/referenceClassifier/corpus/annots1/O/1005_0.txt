@@ -1,0 +1,52 @@
+phaSim (http://afni.nimh.nih.gov/pub/dist/doc/manual/AlphaSim.pdf)
+to achieve a corrected cluster-level 0.05 (Forman et al., 1995). The
+Monte Carlo simulation estimates the probability of generating a cluster
+with 680 voxels based on randomly computed images with the same
+dimensions, voxel probability threshold, and smoothness parameters as
+MRI images inputted for analysis, which can be used as a threshold to
+remove small clusters likely to be significant only by chance. Although
+violation of nonstationarity is a concern for cluster correction of imaging
+data, our use of a 4 mm full-width at half-maximum kernel does not
+appreciably bias the true when using this permutational estimate of
+cluster size (Hayasaka et al., 2004).
+Motor performance testing. We used an automated monkey movement
+assessment panel (mMAP) testing system (Gash et al., 1999) to test the
+motor performance times of the animals retrieving small food items from
+a receptacle chamber. A day's testing session consisted of 12 trials, with
+equal trials between the right and left hand. The trial was initiated when
+the tester placed a small food item (e.g., a piece of cereal) into the center
+of the food receptacle. The trial was completed when the monkey re-moved the food from the receptacle and withdrew its hand back into the
+home cage. There was a 30 s delay before the next trial was initiated. The
+process was repeated until six trials had been completed with each hand.
+Monkeys were given 45 s to retrieve food before the trial was aborted.
+Three tests of increasing level of difficulty were evaluated for each
+animal. The platform task (level I difficulty) required the removal of a
+small food item from a level platform in the food receptacle. The straight
+rod task (level II) involved maneuvering the food item up a straight rod.
+The q-mark task (level III) required the animal to thread the food item
+over a question mark-shaped rod in the receptacle. Each task was tested
+for 10 d before progressing to the next level of difficulty. Mean manual
+performance speed was computed for each session for the amount of
+time it took a subject to initially move its hand into the outer testing
+chamber [reaction time (RT)], the time spent in the outer chamber
+(“coarse” movement), and the time spent removing the object from the
+inner chamber and withdrawing the hand (“fine” movement). Motor
+performance of a given animal for each task, was divided into an “acquisition” phase during which the animals learned the task and improved
+their performance with each trial and a subsequent “proficiency”
+phase during which the animals' performance reached an asymptote.
+Task proficiency was determined by examining when a subjectspecific asymptote in performance occurred throughout the consecutive series of 12 trials per session; a scree test was used for this
+determination (Cattell, 1966).
+Behavioral and peripheral iron statistics. Multivariate repeated measures analyses of covariance (MANCOVA) were used as omnibus analyses to test RT, coarse, and fine motor performance for each of the tasks
+(platform, rod, q-mark). ANCOVA was used for post hoc testing between
+controls and CR monkeys. ANOVA tested differences in dietary iron
+intake, peripheral serum iron, and hematology variables. To explore
+whether CR-induced changes in central iron and motor performance
+were related, one-tailed split-level correlations were conducted between
+motor performance indices and regional R2 signal changes that were
+statistically different between CR and control monkeys. Maximal values
+of clusters generated from the diet group or age diet group analyses
+were used as regressors to test for associations between regional iron
+deposition and behavior. We predicted that controls would show slower
+motor performance as central iron increased in these maximal cluster
+values, whereas CR animals would not show this relationship. All behavioral analyses included age and sex as covariates. Alpha was set at 0.05.
+Analyses were conducted using SPSS 16.0.

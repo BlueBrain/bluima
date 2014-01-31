@@ -1,0 +1,39 @@
+*	Equiv T5 T4
+T30	Regulation 0 10	Regulation
+T31	Transcription 14 27	transcription
+T32	Binding 207 214	binding
+T33	Gene_expression 802 812	expression
+T34	Binding 1079 1083	bind
+T35	Positive_regulation 1113 1123	increasing
+T36	Positive_regulation 1175 1188	transactivate
+T37	Entity 1199 1207	promoter
+T38	Positive_regulation 1397 1406	resulting
+T39	Negative_regulation 1419 1427	decrease
+T40	Entity 1437 1445	promoter
+T41	Positive_regulation 1465 1472	restore
+T42	Positive_regulation 1574 1587	transactivate
+T43	Entity 1597 1605	promoter
+T44	Gene_expression 1631 1641	expression
+T45	Positive_regulation 1651 1657	depend
+T46	Transcription 1689 1702	transcription
+T47	Positive_regulation 1712 1719	depends
+T48	Positive_regulation 1848 1866	provide high level
+E1	Regulation:T30 Theme:E2
+E2	Transcription:T31 Theme:T1
+E3	Binding:T32 Theme:T5 Theme2:T6
+E4	Gene_expression:T33 Theme:T11
+E5	Binding:T34 Theme:T14
+E6	Positive_regulation:T35 Theme:T16
+E7	Positive_regulation:T36 Theme:T17 Cause:E6 Site:T37
+E8	Positive_regulation:T38 Theme:E9
+E9	Negative_regulation:T39 Theme:T20 Site:T40
+E10	Positive_regulation:T41 Theme:T20 Site:T40
+E11	Positive_regulation:T42 Theme:T23 Cause:T22 Site:T43
+E12	Gene_expression:T44 Theme:T24
+E13	Positive_regulation:T45 Theme:E12 Cause:T25
+E14	Transcription:T46 Theme:T26
+E15	Positive_regulation:T47 Theme:E14
+E16	Positive_regulation:T48 Theme:E12
+M1	Speculation E5
+M2	Negation E7
+M3	Negation E13

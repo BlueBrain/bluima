@@ -1,0 +1,4 @@
+T3	Negative_regulation 995 1002	blocked
+T4	Positive_regulation 1018 1027	increases
+E1	Negative_regulation:T3 Theme:E2
+E2	Positive_regulation:T4 Theme:T2

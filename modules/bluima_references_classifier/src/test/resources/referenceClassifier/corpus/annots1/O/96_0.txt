@@ -1,0 +1,43 @@
+DISCUSSION
+We created an OWL ontology representing the subcellular anatomy of the
+nervous system to provide the necessary scaffold for integrating molecular
+and anatomical data through accurate description of mesoscale anatomy.
+By codifying it in OWL, we have enabled algorithmic query and analysis of that knowledge. Moreover, we have enabled the use of formalized
+knowledge as a standard for making connections between data formats,
+making connections between other ontologies, and as a data exchange
+format for image annotation tools. This scaffold is amenable both to tool
+development and to semantically driven information exchange across the
+field. It also provides individual researchers a means to perform reasonerbased quality control and inferential analysis of annotated neuroimages.
+Applying formal semantic representation techniques to neuroanatomical
+structure has been preliminarily addressed in the macroscopic domain
+(Martin et al., 2001; Mechouche et al., 2006); little exists in the mesoscopic neuroanatomical domain as yet. A Synapse Ontology was recently
+constructed (Zhang et al., 2007), but it does not situate synapses in their
+cellular and tissue contexts, nor is it built on top of community-shared foundational ontologies. Our motivation for creating the SAO was to provide the
+necessary tools for describing the types of subcellular and supracellular
+entities located in the dimensional range now termed the mesoscale. The
+SAO is designed as a reference ontology, defined by Brinkley et al. (2006)
+in the following way: “Unlike application ontologies, reference ontologies are not designed for any specific application, but are intended to be
+re-used in multiple application contexts [. . .] Reference ontologies are
+designed according to strict ontological principles, whereas application
+ontologies are designed according to the viewpoint of an end-user in a
+particular domain.” We elected to tackle the more difficult task of creating a reference ontology with formal semantics, because we believe
+that such resources are needed to build models of mesoscale structures
+that combine information from multiple domains and to be able to utilize information obtained at the mesoscale at coarser and finer scales
+of granularity. Through application of the ontology, researchers can work
+in a narrow dimensional range, but their observations are immediately
+linked across scales. For example, a researcher segmenting a reconstruction derived from electron tomography may make the observation
+that an endoplasmic reticulum of a dendritic spine from a Purkinje cells
+expresses the IP3 receptor. Through the SAO, the following inferences
+can be made: There exists a Purkinje cell dendrite that expresses the IP3
+receptor; the cell class Purkinje cell expresses the IP3 receptor; the cerebellar cortex expresses the IP3 receptor; and the cerebellum expresses
+the IP3 receptor.
+The SAO is meant to describe structure, not function nor dynamic processes, following the parcellation of biomedical reality established by the
+BFO. However, although we try to adhere as much as possible to this distinction within the formal class structure of the ontology, as can be seen
+by the labels assigned to SAO classes, many labels that are applied to
+our SAO entities have a functional flavor to them, for example, “chemical
+synapse”. Where possible, we tried to remove entities that mixed a structure with a function, for example, myelinating oligodendrocyte or with a
+physiological state, for example, activated microglia. However, we also felt
+in some cases that it was important to assign the labels that are commonly
+employed by the community. Although these labels appear in the figures
+and text provided in this paper, SAO classes are actually identified using
+semantically neutral numeric labels (e.g., SAO class sao1507566336 has

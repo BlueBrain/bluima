@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<set xmlns="http://www.w3.org/namespace/"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="gpml.xsd">
+
+	<import resource="GENIAontology.daml" prefix="G"></import>
+
+	<article>
+		<articleinfo>
+			<bibliomisc>MEDLINE:95369245</bibliomisc>
+		</articleinfo>
+		<title>
+			<sentence>
+				<cons lex="IL-2_gene_expression" sem="G#other_name">
+					<cons lex="IL-2_gene" sem="G#DNA_domain_or_region">IL-2 gene</cons>
+					expression
+				</cons>
+				and
+				<cons lex="NF-kappa_B_activation" sem="G#other_name">
+					<cons lex="NF-kappa_B" sem="G#protein_molecule">NF-kappa B</cons>
+					activation
+				</cons>
+				through
+				<cons lex="CD28" sem="G#protein_molecule">CD28</cons>
+				requires reactive oxygen production by
+				<cons lex="5-lipoxygenase" sem="G#protein_molecule">5-lipoxygenase</cons>
+				.
+			</sentence>
+		</title>
+		<abstract>
+			<sentence>
+				Activation of the
+				<cons lex="CD28_surface_receptor" sem="G#protein_family_or_group">
+					<cons lex="CD28" sem="G#protein_molecule">CD28</cons>
+					surface receptor
+				</cons>
+				provides a major costimulatory signal for
+				<cons lex="T_cell_activation" sem="G#other_name">T cell activation</cons>
+				resulting in enhanced production of
+				<cons lex="interleukin-2" sem="G#protein_molecule">interleukin-2</cons>
+				(
+				<cons lex="IL-2" sem="G#protein_molecule">IL-2</cons>
+				) and
+				<cons lex="cell_proliferation" sem="G#other_name">cell proliferation</cons>
+				.
+			</sentence>
+			<sentence>
+				In
+				<cons lex="primary_T_lymphocyte" sem="G#cell_type">primary T lymphocytes
+				</cons>
+				we show that
+				<cons lex="CD28" sem="G#protein_molecule">CD28</cons>
+				ligation leads to the rapid intracellular formation of
+				<cons lex="reactive_oxygen_intermediate" sem="G#inorganic">reactive oxygen
+					intermediates</cons>
+				(
+				<cons lex="ROI" sem="G#inorganic">ROIs</cons>
+				) which are required for
+				<cons lex="CD28-mediated_activation" sem="G#other_name">
+					<cons lex="CD28" sem="G#protein_molecule">CD28</cons>
+					-mediated activation
+				</cons>
+				of the
+				<cons lex="NF-kappa_B" sem="G#protein_molecule">NF-kappa B</cons>
+				/
+				<cons lex="CD28-responsive_complex" sem="G#protein_complex">
+					<cons lex="CD28" sem="G#protein_molecule">CD28</cons>
+					-responsive complex
+				</cons>
+				and
+				<cons lex="IL-2_expression" sem="G#other_name">
+					<cons lex="IL-2" sem="G#protein_molecule">IL-2</cons>
+					expression
+				</cons>
+				.
+			</sentence>
+			<sentence>
+				Delineation of the
+				<cons lex="CD28_signaling_cascade" sem="G#other_name">
+					<cons lex="CD28" sem="G#protein_molecule">CD28</cons>
+					signaling cascade
+				</cons>
+				was found to involve
+				<cons lex="protein_tyrosine_kinase_activity" sem="G#other_name">
+					<cons lex="protein_tyrosine_kinase" sem="G#protein_family_or_group">protein tyrosine
+						kinase</cons>
+					activity
+				</cons>
+				, followed by the activation of
+				<cons lex="phospholipase_A2" sem="G#protein_molecule">phospholipase A2</cons>
+				and
+				<cons lex="5-lipoxygenase" sem="G#protein_molecule">5-lipoxygenase</cons>
+				.
+			</sentence>
+			<sentence>
+				Our data suggest that
+				<cons lex="lipoxygenase_metabolite" sem="G#protein_family_or_group">
+					<cons lex="lipoxygenase" sem="G#protein_molecule">lipoxygenase</cons>
+					metabolites
+				</cons>
+				activate
+				<cons lex="ROI_formation" sem="G#other_name">
+					<cons lex="ROI" sem="G#inorganic">ROI</cons>
+					formation
+				</cons>
+				which then induce
+				<cons lex="IL-2" sem="G#protein_molecule">IL-2</cons>
+				expression via
+				<cons lex="NF-kappa_B_activation" sem="G#other_name">
+					<cons lex="NF-kappa_B" sem="G#protein_molecule">NF-kappa B</cons>
+					activation
+				</cons>
+				.
+			</sentence>
+			<sentence>
+				These findings should be useful for
+				<cons lex="therapeutic_strategies" sem="G#other_name">therapeutic strategies
+				</cons>
+				and the development of
+				<cons lex="immunosuppressants" sem="G#other_name">immunosuppressants</cons>
+				targeting the
+				<cons lex="CD28_costimulatory_pathway" sem="G#other_name">
+					<cons lex="CD28" sem="G#protein_molecule">CD28</cons>
+					costimulatory pathway
+				</cons>
+				.
+			</sentence>
+		</abstract>
+	</article>
+</set>

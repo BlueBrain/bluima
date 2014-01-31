@@ -1,0 +1,69 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+
+  <parent>
+    <groupId>ch.epfl.bbp.nlp</groupId>
+    <artifactId>bluima_parent</artifactId>
+    <version>0.1.0-SNAPSHOT</version>
+    <relativePath>../../pom.xml</relativePath>
+  </parent>
+
+  <artifactId>bluima_oscar4</artifactId>
+  <name>Oscar Chemical NER</name>
+
+  <dependencies>
+    <dependency>
+      <groupId>${project.groupId}</groupId>
+      <artifactId>bluima_utils</artifactId>
+      <version>0.1.0-SNAPSHOT</version>
+    </dependency>
+    <dependency>
+      <groupId>uk.ac.cam.ch.wwmm.oscar</groupId>
+      <artifactId>oscar4-api</artifactId>
+      <version>4.1</version>
+      <exclusions>
+        <exclusion>
+          <groupId>org.slf4j</groupId>
+          <artifactId>slf4j-simple</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+
+    <!--
+      <dependency>
+      <groupId>uk.ac.cam.ch.wwmm.oscar</groupId>
+      <artifactId> oscar4-uima-tokenizer</artifactId>
+      <version>4.0.1</version>
+      </dependency>
+      <dependency>
+      <groupId>uk.ac.cam.ch.wwmm.oscar</groupId>
+      <artifactId> oscar4-uima-memmrecogniser</artifactId>
+      <version>4.0.1</version>
+      </dependency>
+      <dependency>
+      <groupId>uk.ac.cam.ch.wwmm.oscar</groupId>
+      <artifactId> oscar4-uima-patternrecogniser</artifactId>
+      <version>4.0.1</version>
+      </dependency>
+      <dependency>
+      <groupId>ch.unibe.jexample</groupId>
+      <artifactId>jexample</artifactId>
+      <version>4.4-378</version>
+      <scope>test</scope>
+      </dependency>
+      <dependency>
+      <groupId>com.google.guava</groupId>
+      <artifactId>guava-collections</artifactId>
+      <version>r03</version>
+      </dependency> -->
+  </dependencies>
+  <repositories>
+    <repository>
+      <name>OSCAR repo</name>
+      <id>ucc-repo</id>
+      <url>http://maven.ch.cam.ac.uk/m2repo</url>
+    </repository>
+  </repositories>
+
+</project>

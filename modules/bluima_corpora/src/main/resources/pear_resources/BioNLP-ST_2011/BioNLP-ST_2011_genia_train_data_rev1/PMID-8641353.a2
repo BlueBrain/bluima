@@ -1,0 +1,46 @@
+*	Equiv T8 T9
+*	Equiv T5 T4
+*	Equiv T7 T6
+T26	Gene_expression 0 10	Expression
+T27	Transcription 480 497	at the mRNA level
+T28	Gene_expression 554 562	presence
+T29	Gene_expression 651 659	presence
+T30	Localization 1073 1078	found
+T31	Entity 1079 1086	nuclear
+T32	Positive_regulation 1640 1648	constant
+T33	Entity 1650 1656	Nuclei
+T34	Localization 1699 1708	expressed
+T35	Positive_regulation 1882 1894	augmentation
+T36	Gene_expression 1907 1917	expression
+T37	Gene_expression 1980 1987	present
+T38	Gene_expression 2063 2071	detected
+T39	Gene_expression 2141 2149	detected
+E1	Gene_expression:T26 Theme:T2
+E2	Gene_expression:T26 Theme:T1
+E3	Transcription:T27 Theme:T5
+E4	Transcription:T27 Theme:T7
+E5	Gene_expression:T28 Theme:T7
+E6	Gene_expression:T28 Theme:T5
+E7	Gene_expression:T29 Theme:T5
+E8	Gene_expression:T29 Theme:T7
+E9	Localization:T30 Theme:T10 AtLoc:T31
+E10	Localization:T30 Theme:T11 AtLoc:T31
+E11	Positive_regulation:T32 Theme:T16
+E12	Positive_regulation:T32 Theme:T15
+E13	Localization:T34 Theme:T17 AtLoc:T33
+E14	Localization:T34 Theme:T18 AtLoc:T33
+E15	Positive_regulation:T35 Theme:E16
+E16	Gene_expression:T36 Theme:T20
+E17	Gene_expression:T37 Theme:T22
+E18	Gene_expression:T37 Theme:T21
+E19	Gene_expression:T38 Theme:T24
+E20	Gene_expression:T39 Theme:T25
+M1	Speculation E3
+M2	Speculation E4
+M3	Speculation E5
+M4	Speculation E6
+M5	Speculation E7
+M6	Speculation E8
+M7	Negation E11
+M8	Negation E12
+M9	Negation E19

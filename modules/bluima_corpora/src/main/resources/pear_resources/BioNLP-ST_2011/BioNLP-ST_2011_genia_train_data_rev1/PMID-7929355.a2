@@ -1,0 +1,75 @@
+*	Equiv T4 T3
+T23	Negative_regulation 116 126	preventing
+T24	Positive_regulation 127 137	activation
+T25	Gene_expression 188 197	expressed
+T26	Positive_regulation 225 235	exposed to
+T27	Binding 328 335	binding
+T28	Entity 367 384	kappa B-like site
+T29	Entity 405 412	Nuclear
+T30	Localization 413 426	translocation
+T31	Positive_regulation 510 518	requires
+T32	Protein_catabolism 536 559	proteolytic degradation
+T33	Negative_regulation 781 791	preventing
+T34	Protein_catabolism 792 803	degradation
+T35	Negative_regulation 854 863	inhibited
+T36	Positive_regulation 868 877	induction
+T37	Gene_expression 884 894	expression
+T38	Negative_regulation 1047 1056	inhibited
+T39	Positive_regulation 1061 1070	induction
+T40	Entity 1101 1109	promoter
+T41	Negative_regulation 1177 1186	prevented
+T42	Protein_catabolism 1187 1198	degradation
+T43	Entity 1222 1229	nuclear
+T44	Localization 1230 1243	translocation
+T45	Negative_regulation 1306 1311	block
+T46	Positive_regulation 1312 1321	induction
+T47	Negative_regulation 1433 1443	inhibiting
+T48	Entity 1444 1451	nuclear
+T49	Localization 1452 1465	translocation
+T50	Negative_regulation 1492 1501	prevented
+T51	Positive_regulation 1506 1515	induction
+T52	Transcription 1527 1540	transcription
+E1	Negative_regulation:T23 Theme:E3
+E2	Negative_regulation:T23 Theme:E4
+E3	Positive_regulation:T24 Theme:T1
+E4	Positive_regulation:T24 Theme:T2
+E5	Gene_expression:T25 Theme:T4
+E6	Positive_regulation:T26 Theme:E5
+E7	Binding:T27 Theme:T5 Theme2:T7 Site2:T28
+E8	Binding:T27 Theme:T6 Theme2:T7 Site2:T28
+E9	Localization:T30 Theme:T8 ToLoc:T29
+E10	Localization:T30 Theme:T9 ToLoc:T29
+E11	Positive_regulation:T31 Theme:E10
+E12	Positive_regulation:T31 Theme:E9 Cause:E15
+E13	Positive_regulation:T31 Theme:E10 Cause:E15
+E14	Positive_regulation:T31 Theme:E9
+E15	Protein_catabolism:T32 Theme:T10
+E16	Negative_regulation:T33 Theme:E17
+E17	Protein_catabolism:T34 Theme:T11
+E18	Negative_regulation:T35 Theme:E19
+E19	Positive_regulation:T36 Theme:E20
+E20	Gene_expression:T37 Theme:T12
+E21	Negative_regulation:T38 Theme:E26
+E22	Negative_regulation:T38 Theme:E25
+E23	Negative_regulation:T38 Theme:E24
+E24	Positive_regulation:T39 Theme:T14
+E25	Positive_regulation:T39 Theme:T15 Site:T40
+E26	Positive_regulation:T39 Theme:T13
+E27	Negative_regulation:T41 Theme:E32
+E28	Negative_regulation:T41 Theme:E30
+E29	Negative_regulation:T41 Theme:E31
+E30	Protein_catabolism:T42 Theme:T16
+E31	Localization:T44 Theme:T17 ToLoc:T43
+E32	Localization:T44 Theme:T18 ToLoc:T43
+E33	Negative_regulation:T45 Theme:E34
+E34	Positive_regulation:T46 Theme:T19
+E35	Negative_regulation:T47 Theme:E37
+E36	Negative_regulation:T47 Theme:E38
+E37	Localization:T49 Theme:T21 ToLoc:T48
+E38	Localization:T49 Theme:T20 ToLoc:T48
+E39	Negative_regulation:T50 Theme:E41 Cause:E35
+E40	Negative_regulation:T50 Theme:E41 Cause:E36
+E41	Positive_regulation:T51 Theme:E42
+E42	Transcription:T52 Theme:T22
+M1	Speculation E18
+M2	Negation E33

@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>julie-wikipedia-types</name>
+  <description>The type system contains types for the annotation of meta information of Wikipedia pages.</description>
+  <version>1.1</version>
+  <vendor/>
+  <imports>
+    <import location="julie-document-structure-types.xml"/>
+    <import location="julie-document-meta-types.xml"/>
+  </imports>
+  <types>
+    <typeDescription>
+      <name>de.julielab.jules.types.wikipedia.PageType</name>
+      <description>Type of Wikipedia page (article, redirect, or disambiguation page)</description>
+      <supertypeName>uima.cas.String</supertypeName>
+      <allowedValues>
+        <value>
+          <string>article</string>
+          <description>Wikipedia article.</description>
+        </value>
+        <value>
+          <string>redirect</string>
+          <description>Wikipedia redirection page.</description>
+        </value>
+        <value>
+          <string>disambiguation-page</string>
+          <description>Wikipedia disambiguation page.</description>
+        </value>
+      </allowedValues>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.wikipedia.Descriptor</name>
+      <description>Descriptor for Wikipedia pages. It covers a list of Wikipedia categories associated with the page, a list of incoming and outgoing links, and a list of associated redirects.</description>
+      <supertypeName>de.julielab.jules.types.Descriptor</supertypeName>
+      <features>
+        <featureDescription>
+          <name>categories</name>
+          <description>List of Wikipedia categories associated with a Wikipedia page.</description>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>de.julielab.jules.types.wikipedia.Title</elementType>
+          <multipleReferencesAllowed>true</multipleReferencesAllowed>
+        </featureDescription>
+        <featureDescription>
+          <name>incomingLinks</name>
+          <description>List of incoming links (from other Wikipedia pages) associated with a Wikipedia page.</description>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>de.julielab.jules.types.wikipedia.Title</elementType>
+          <multipleReferencesAllowed>true</multipleReferencesAllowed>
+        </featureDescription>
+        <featureDescription>
+          <name>outgoingLinks</name>
+          <description>List of outgoing links pointing to other Wikipedia pages starting at a Wikipedia page.</description>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>de.julielab.jules.types.wikipedia.Title</elementType>
+          <multipleReferencesAllowed>true</multipleReferencesAllowed>
+        </featureDescription>
+        <featureDescription>
+          <name>redirects</name>
+          <description>List of redirects pointing to a Wikipedia page.</description>
+          <rangeTypeName>uima.cas.StringArray</rangeTypeName>
+          <multipleReferencesAllowed>true</multipleReferencesAllowed>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.wikipedia.Title</name>
+      <description>Combined full form and short form of the title of a Wikipedia page (the short form does not include disambiguation strings such as the expression in brackets in 'Ontologies (Informatics)').</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>name</name>
+          <description>Title of a Wikipedia page excluding disambiguation strings (such as the expression in brackets in 'Ontologies (Informatics)').</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>fullname</name>
+          <description>Full title of a Wikipedia page including disambiguation strings (such as the expression in brackets in 'Ontologies (Informatics)').</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.wikipedia.Link</name>
+      <description>Link to another Wikipedia page.</description>
+      <supertypeName>de.julielab.jules.types.Zone</supertypeName>
+      <features>
+        <featureDescription>
+          <name>target</name>
+          <description>Title of the Wikipedia page to which the link is pointing to.</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.wikipedia.ArticleText</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Zone</supertypeName>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

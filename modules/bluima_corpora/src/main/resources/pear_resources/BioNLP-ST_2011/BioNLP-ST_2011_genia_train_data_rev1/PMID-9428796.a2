@@ -1,0 +1,30 @@
+*	Equiv T3 T4
+T18	Negative_regulation 18 28	diminishes
+T19	Binding 33 51	binding activities
+T20	Regulation 338 360	involved in regulating
+T21	Gene_expression 365 375	expression
+T22	Binding 725 743	binding activities
+T23	Regulation 764 776	not affected
+T24	Binding 784 791	Binding
+T25	Positive_regulation 834 842	enhanced
+T26	Positive_regulation 907 916	necessary
+T27	Negative_regulation 924 935	to diminish
+T28	Binding 944 960	binding activity
+T29	Positive_regulation 1024 1033	necessary
+T30	Negative_regulation 1202 1214	interference
+T31	Binding 1222 1240	binding activities
+E1	Negative_regulation:T18 Theme:E2 Cause:T1
+E2	Binding:T19 Theme:T2
+E3	Regulation:T20 Theme:E4
+E4	Gene_expression:T21 Theme:T7
+E5	Binding:T22 Theme:T9
+E6	Regulation:T23 Theme:E5 Cause:T10
+E7	Binding:T24 Theme:T11
+E8	Positive_regulation:T25 Theme:E7
+E9	Positive_regulation:T26 Theme:E10
+E10	Negative_regulation:T27 Theme:E11 Cause:T13
+E11	Binding:T28 Theme:T13
+E12	Positive_regulation:T29 Theme:T14
+E13	Negative_regulation:T30 Theme:E14
+E14	Binding:T31 Theme:T16
+M1	Negation E6

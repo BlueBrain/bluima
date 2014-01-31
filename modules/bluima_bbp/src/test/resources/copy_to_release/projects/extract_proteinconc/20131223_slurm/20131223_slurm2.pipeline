@@ -1,0 +1,12 @@
+cr: FromFilelistReader
+ # 250 pdfs each
+ inputFile: /nfs4/bbp.epfl.ch/scratch/richarde/pdfs/splits/$2
+ format__java: true
+ pathPrefix: /nfs4/bbp.epfl.ch/scratch/richarde/pdfs/
+
+ae: ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator
+
+
+
+#20131223_test_preprocessed.pipeline
+

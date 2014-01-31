@@ -1,0 +1,18 @@
+*	Equiv T1 T2
+*	Equiv T4 T3
+T12	Localization 422 434	distribution
+T13	Binding 447 451	bind
+T14	Positive_regulation 485 495	stabilized
+T15	Binding 570 577	complex
+T16	Positive_regulation 585 593	required
+T17	Regulation 642 648	change
+T18	Binding 657 664	binding
+E1	Localization:T12 Theme:T4
+E2	Binding:T13 Theme:T4
+E3	Positive_regulation:T14 Theme:T5 Cause:T4
+E4	Binding:T15 Theme:T6 Theme2:T7
+E5	Positive_regulation:T16 Theme:E4
+E6	Regulation:T17 Theme:E7 Cause:E4
+E7	Binding:T18 Theme:T9
+M1	Negation E2
+M2	Negation E6

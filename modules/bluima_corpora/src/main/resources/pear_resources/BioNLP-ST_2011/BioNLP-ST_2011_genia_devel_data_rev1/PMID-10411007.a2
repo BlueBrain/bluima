@@ -1,0 +1,20 @@
+*	Equiv T2 T3
+T10	Regulation 26 34	regulate
+T11	Gene_expression 282 290	activity
+T12	Positive_regulation 291 295	when
+T13	Positive_regulation 409 435	resulted in an enhancement
+T14	Negative_regulation 473 483	eliminated
+T15	Binding 791 796	bound
+T16	Positive_regulation 1028 1037	inducible
+T17	Regulation 1056 1060	role
+T18	Gene_expression 1098 1108	production
+E1	Regulation:T10 Theme:T1
+E2	Gene_expression:T11 Theme:T4
+E3	Positive_regulation:T12 Theme:E2
+E4	Positive_regulation:T13 Theme:T6
+E5	Negative_regulation:T14 Theme:E4
+E6	Binding:T15 Theme:T7
+E7	Positive_regulation:T16 Theme:E6 Cause:T8
+E8	Regulation:T17 Theme:E9
+E9	Gene_expression:T18 Theme:T9
+M1	Speculation E8

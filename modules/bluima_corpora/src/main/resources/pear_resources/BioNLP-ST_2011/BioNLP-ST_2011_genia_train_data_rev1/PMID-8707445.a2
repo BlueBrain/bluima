@@ -1,0 +1,10 @@
+T9	Negative_regulation 639 648	inhibited
+T10	Gene_expression 653 663	production
+E1	Negative_regulation:T9 Theme:E7
+E2	Negative_regulation:T9 Theme:E6
+E3	Negative_regulation:T9 Theme:E5
+E4	Negative_regulation:T9 Theme:E8
+E5	Gene_expression:T10 Theme:T4
+E6	Gene_expression:T10 Theme:T5
+E7	Gene_expression:T10 Theme:T2
+E8	Gene_expression:T10 Theme:T3

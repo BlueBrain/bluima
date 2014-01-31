@@ -1,0 +1,18 @@
+T6	Negative_regulation 1707 1716	inversion
+T7	Positive_regulation 1728 1742	responsiveness
+T8	Positive_regulation 1755 1762	turning
+T9	Gene_expression 1771 1781	expression
+T10	Positive_regulation 2056 2062	induce
+T11	Gene_expression 2075 2085	expression
+T12	Gene_expression 2243 2253	expression
+T13	Negative_regulation 2314 2323	deficient
+E1	Negative_regulation:T6 Theme:E2
+E2	Positive_regulation:T7 Theme:E3
+E3	Positive_regulation:T8 Theme:E4
+E4	Gene_expression:T9 Theme:T1
+E5	Positive_regulation:T10 Theme:E6
+E6	Gene_expression:T11 Theme:T2
+E7	Gene_expression:T12 Theme:T4
+E8	Negative_regulation:T13 Theme:T5
+M1	Negation E2
+M2	Speculation E8

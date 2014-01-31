@@ -1,0 +1,10 @@
+*	Equiv T3 T2
+T6	Regulation 467 473	effect
+T7	Binding 896 901	binds
+T8	Negative_regulation 1010 1020	diminished
+T9	Gene_expression 1131 1143	coexpression
+E1	Regulation:T6 Theme:T1
+E2	Binding:T7 Theme:T3
+E3	Negative_regulation:T8 Theme:E2
+E4	Gene_expression:T9 Theme:T5
+M1	Negation E1

@@ -1,0 +1,56 @@
+#TestResult:
+#    precision:  0.086
+#    recall: 1.000
+#    F1: 0.159
+#TestResult:
+#    precision:  0.146
+#    recall: 0.528
+#    F1: 0.229
+#TestResult:
+#    precision:  0.170
+#    recall: 0.528
+#    F1: 0.257
+#TestResult:
+#    precision:  0.218
+#    recall: 0.523
+#    F1: 0.307
+#TestResult:
+#    precision:  0.288
+#    recall: 0.482
+#    F1: 0.360
+
+cr: WhiteTextConnectionsCollectionReader
+ae: EvaluationPreprocessorAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.Cooccurrence
+
+
+# 1: base
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.BrainRegion
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+ #keepOnlyNearestNeighbors__java: true
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+
+# 2: filter trigger
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesByTriggerword
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+
+# 3: filter distance 200
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesByDistance
+ maximumDistance__java: 200
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+
+# 4: filter distance 100
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesByDistance
+ maximumDistance__java: 100
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+
+# 5: filter distance 50
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesByDistance
+ maximumDistance__java: 50
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator

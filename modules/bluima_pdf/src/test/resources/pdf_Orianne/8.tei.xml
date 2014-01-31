@@ -1,0 +1,664 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Differential signaling via the same axon of neocortical pyramidal neurons</title>
+			</titleStmt>
+			<publicationStmt>
+				<date type="published" when="1998-4">April 1998 . 1998</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Henry</forename>
+								<surname>Markram</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Yun</forename>
+								<surname>Wang</surname>
+							</persName>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Misha</forename>
+								<surname>Tsodyks</surname>
+							</persName>
+						</author>
+						<affiliation>
+							<orgName type="department">Department of Neurobiology</orgName>
+							<orgName type="institution">The Weizmann Institute for Science</orgName>
+							<address>
+								<postCode>76100</postCode>
+								<settlement>Rehovot</settlement>
+							</address>
+						</affiliation>
+						<affiliation>
+							<orgName type="institution" key="instit1">Israel Edited by Charles F. Stevens</orgName>
+							<orgName type="institution" key="instit2">The Salk Institute for Biological Studies</orgName>
+							<address>
+								<settlement>La Jolla</settlement>
+								<region>CA</region>
+							</address>
+						</affiliation>
+						<title level="a" type="main">Differential signaling via the same axon of neocortical pyramidal neurons</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Neurobiology and approved February</title>
+						<imprint>
+							<biblScope type="vol">95</biblScope>
+							<biblScope type="issue">26</biblScope>
+							<biblScope type="fpage">5323</biblScope>
+							<biblScope type="lpage">5328</biblScope>
+							<date type="published" when="1998-4">April 1998 . 1998</date>
+						</imprint>
+					</monogr>
+					<note type="submission">received for review September 23, 1998)</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<front>
+			<div type="abstract">
+				<head>ABSTRACT</head>
+<p>The nature of information stemming from a single neuron and conveyed simultaneously to several hun-dred target neurons is not known. Triple and quadruple neuron recordings revealed that each synaptic connection established by neocortical pyramidal neurons is potentially unique. Specifically, synaptic connections onto the same mor-phological class differed in the numbers and dendritic loca-tions of synaptic contacts, their absolute synaptic strengths, as well as their rates of synaptic depression and recovery from depression. The same axon of a pyramidal neuron innervating another pyramidal neuron and an interneuron mediated frequency-dependent depression and facilitation, respectively, during high frequency discharges of presynaptic action po-tentials, suggesting that the different natures of the target neurons underlie qualitative differences in synaptic proper-ties. Facilitating-type synaptic connections established by three pyramidal neurons of the same class onto a single interneuron, were all qualitatively similar with a combination of facilitation and depression mechanisms. The time courses of facilitation and depression, however, differed for these convergent connections, suggesting that different pre-postsynaptic interactions underlie quantitative differences in synaptic properties. Mathematical analysis of the transfer functions of frequency-dependent synapses revealed supra-linear, linear, and sub-linear signaling regimes in which mixtures of presynaptic rates, integrals of rates, and deriva-tives of rates are transferred to targets depending on the precise values of the synaptic parameters and the history of presynaptic action potential activity. Heterogeneity of synap-tic transfer functions therefore allows multiple synaptic rep-resentations of the same presynaptic action potential train and suggests that these synaptic representations are regulated in a complex manner. It is therefore proposed that differential signaling is a key mechanism in neocortical information processing, which can be regulated by selective synaptic modifications. Neuronal signaling in the neocortex has been the subject of extensive debate (1–3). One approach to this problem is to determine how frequency-dependent changes in synaptic transmission dictate which features of action potentials (APs) trains are transmitted effectively to the postsynaptic neuron (4–6). This characterization of the input (AP) and the output (synaptic response) properties allows assessment of the trans-fer function of synaptic connections. It has been reported in several nonmammalian systems that synaptic responses via the same axon onto different types of targets can display different frequency-dependent properties (7–12). Dual recordings in the neocortex have revealed that synaptic connections from pyramidal neurons onto some classes of interneurons can display frequency-dependent facilitation whereas transmission onto pyramidal neurons typically displays depression (13–14), suggesting that differential transmission is also likely in mam-malian neocortex. Differential transmission to potentially thousands of target neurons could mean that different features of the same AP train are transmitted to each of the targets, which alludes to a computational complexity that has not been considered and that could be fundamental to neocortical information processing. It is therefore important (i) to estab-lish the degree of heterogeneity of the synaptic properties that characterize frequency-dependent synapses, (ii) to establish a general approach toward a potential mosaic of different types of synaptic properties, and (iii) to assess the transfer functions of different synapses and determine how they depend on specific synaptic properties. To achieve these aims, we ob-tained simultaneous triple and quadruple neuron recordings in rat neocortex to compare responses generated in different target neurons and to compare those synapses from the same morphological class onto a single target neuron. The synaptic properties were analyzed with a phenomenological model, which then was used to derive mathematical descriptions of the features of AP trains transmitted by these synapses.</p>
+			</div>
+		</front>
+		<body>
+<p>MATERIALS AND METHODS</p>
+<p>Slice Preparation. Sagittal slices (300 񮽙M) were cut from the somatosensory cortex of Wistar rats (13–15 days) (15). Experiments were performed at 32–34°C with extracellular solution (in mM): 125 NaCl, 2.5 KCl, 25 glucose, 25 NaHCO 3 , 1.25 NaH 2 PO 4 , 2 mM CaCl 2 , and 1 mM MgCl 2 . Neurons were preselected by using infrared differential interference contrast video-microscopy on an upright microscope (Zeiss-Axioskop-FS, fitted with a 񮽙40-W񮽙0.75 numerical aperture objective) (15). Somatic whole-cell recordings (10–20 M񮽙 access resistances ) were obtained, and signals were amplified by using Axoclamp-2B amplifiers (Axon Instruments), captured on computer by using PULSE CONTROL (by R. Bookman, Miami University), and analyzed using programs written in IGOR (Igor Wavemetrics, Lake Oswego, OR). Pipette solution contained (in mM): 100 K-gluconate, 20 KCl, 4 ATP-Mg, 10 phosphocreatine , 0.3 GTP, 10 Hepes, and 0.5% biocytin (pH 7.3, 310 mOsm). Resting membrane potential levels for pyramidal neurons were 񮽙62 񮽙 2 mV and for interneurons were below 񮽙74 mV. Input resistances for pyramidal neurons were 80–150 M񮽙 and for interneurons were 600-1000 M񮽙. Recording connection probability between layer 5 pyramidal neurons was 񮽙1:10 (as in ref. 15) and between close neighbor layer 5 pyramidal neurons and interneurons was 񮽙1:50. Connection</p>
+<p>The publication costs of this article were defrayed in part by page charge payment. This article must therefore be hereby marked &apos;&apos;advertisement&apos;&apos; in accordance with 18 U.S.C. 1734 solely to indicate this fact.</p>
+<p>© 1998 by The National Academy of Sciences 0027-8424񮽙98񮽙955323-6$2.00񮽙0 PNAS is available online at http:񮽙񮽙www.pnas.org.</p>
+<p>This paper was submitted directly (Track II) to the Proceedings office. Abbreviations: AP, action potential; EPSP, excitatory postsynaptic potential; A, absolute synaptic efficacy; U, utilization of synaptic efficacy; 񮽙rec, recovery time constant; 񮽙facil, facilitation time constant; R recovered synaptic efficacy; Pr, probability of release. *To whom reprint requests should be addressed. e-mail: bnmark@ weizmann.weizmann.ac.il.</p>
+<p>probabilities between pyramidal neurons and interneurons in layers 2–3 and 4 were 񮽙1:5. Anatomical Analysis. Biocytin-filled neurons were drawn by using a camera lucida (Olympus, Düsseldorf, Germany) and were computer reconstructed by using Neurolucida (Micro- BrightField, Colchester, VT). Morphological analysis was performed by using MORPH (Neurolucida) on an Olympus microscope (BX-50). Dendritic locations were grouped into apical dendrites, tuft dendrites, 1st to nth order basal dendrites, or apical oblique dendrites. Bipolar-like interneuron morphology is readily distinguishable from other neurons and was confirmed by subsequent reconstructions of dendritic and axonal arbors, but without knowledge of the location of their postsynaptic synapses, a definitive classification is not possible. Potential synapses were identified by apposition of a bouton [identified as an axonal swelling twice (񮽙10%) the normal axonal diameter] and a dendrite in the same focal plane by using a 1.25 numerical aperture, 񮽙63, oil immersion lens. An electron microscopically derived error margin of 80% was established previously for layer 5 pyramidal neurons (15). An estimated 20–25% of the dendritic tree is cut in these slices (neurons, 60–80 񮽙m below surface; average dendritic length, 񮽙150 񮽙m). Steady-state electrotonic distances (X) were computed according to: X 񮽙 L ⁄񮽙 and 񮽙 R m 񮽙 r񮽙2R i where L is the geometric length, r the mean dendritic radius, R i , the internal resistivity (155 񮽙 cm), and R m the membrane resistance (70 000 񮽙 cm 2 ). The sum of X for all dendritic segments from the soma to the synaptic location was determined. Phenomenological Model of Frequency-Dependent Synapses . Our previous model of synaptic depression (6) was formulated with three parameters [absolute synaptic efficacy (A); utilization of synaptic efficacy (U) and recovery from depression (񮽙 rec )]. The model is based on earlier concepts of the refractoriness of the release process (16) (17) (18) (19), which can be rephrased by stating that the fraction (U) of the synaptic efficacy used by an AP becomes instantaneously unavailable for subsequent use and recovers with a time constant of 񮽙 rec . The fraction of available synaptic efficacy is termed &apos;&apos;R.&apos;&apos; A facilitating mechanism is included in the model as a pulsed increase in U by each AP. The running value of U is referred to as u and U remains a parameter that applies to the first AP in a train. u decays with a single exponential, 񮽙 facil , to its resting value U. Biophysical models of synaptic transmission, in which facilitation may have several time constants with different amplitudes (19) (20) (21), were further simplified by assigning the amplitude of the pulsed change in u the value U (1-u), which also ensures that u 񮽙 1. From a resting state of the synapse, all of the synaptic efficacy is available, and the fraction that remains immediately after the first AP in a train is</p>
+<p>R 1 񮽙 1 񮽙 U [1]</p>
+<p>During the AP train, each presynaptic AP uses further fractions of R at the time of its arrival. R therefore constantly changes because of subsequent use by APs, recovery of the unavailable synaptic efficacy with a time constant of 񮽙 rec , and the pulsed increase in u caused by each AP. R for consecutive APs in the train is then</p>
+<p>R n񮽙1 񮽙 R n 񮽙1 񮽙 u n񮽙1 񮽙exp񮽙 񮽙񮽙t 񮽙 rec</p>
+<p>񮽙 񮽙 1 񮽙 exp񮽙 񮽙񮽙t</p>
+<p>񮽙 [2]</p>
+<p>where 񮽙t is the time interval between nth and (n 񮽙 1)th AP and where</p>
+<p>u n񮽙1 񮽙 u n exp񮽙 񮽙񮽙t 񮽙 facil</p>
+<p>񮽙 񮽙 U񮽙 1 񮽙 u n exp񮽙 񮽙񮽙t</p>
+<p>񮽙񮽙 [3]</p>
+<p>The synaptic response that is generated by any AP in a train is therefore given by</p>
+<p>EPSP n 񮽙 A񮽙R n 񮽙u n [4]</p>
+<p>Synaptic connections displaying depression are characterized by negligible values of 񮽙 facil and hence u n 񮽙 U. The steady-state value of R (R st ) for a given frequency (r) of stimulation is given by</p>
+<p>R st 񮽙r񮽙 񮽙 1 񮽙 exp񮽙񮽙1񮽙r񮽙 rec 񮽙 1 񮽙 񮽙1 񮽙 u st 񮽙r񮽙񮽙exp񮽙񮽙1񮽙r񮽙 rec 񮽙 [5]</p>
+<p>where</p>
+<p>u st 񮽙r񮽙 񮽙 U 1 񮽙 񮽙1 񮽙 U񮽙exp񮽙񮽙1񮽙r񮽙 facil 񮽙 [6]</p>
+<p>The Quantal Model of Transmitter Release. U partly or completely is determined by the probability of release (Pr) depending on the mechanism of frequency dependence. The value of the parameter A is equivalent to the product of the quantal size, number of release sites, and an electrotonic attenuation factor. We recorded neurons in current-clamp to determine A in the soma, which is the functionally relevant synaptic strength in the context of this study aimed at examining differential signaling of target neurons. For depolarizations below 񮽙55 mV, the relative amplitudes of excitatory postsynaptic potentials (EPSPs) and hence U, 񮽙 rec , and 񮽙 facil are not significantly affected by activation of voltage-dependent conductances (23). Membrane potentials of interneurons also were held between 񮽙74 mV and 񮽙90 mV to minimize activation of voltage-dependent conductances. Even if these conductances are activated, the phenomenological formulation is advantageous because it avoids assumptions of the biophysical mechanism(s) of frequency dependence and hence allows the determination of the functionally relevant U parameter, time constants of depression, and facilitation. This phenomenological approach is based on the mean output behavior of synaptic connections and therefore requires analyzing only averaged responses compared with traditional quantal analysis, which requires statistical analyses of fluctuations in responses (see ref. 24). Deriving Values of Model Parameters. EPSP amplitudes were measured after correction for the decaying voltage of previous EPSPs. The model was iterated with the average amplitudes of EPSPs generated by 6–16 APs and a recovery response 500 ms after the end of the AP train (20–100 sweeps), to derive the values for A, U, 񮽙 rec , and 񮽙 facil . Voltage responses were simulated in a &apos;&apos;point neuron,&apos;&apos; arbitrary input resistance, and experimentally determined membrane time constant (30–60 ms). Fitting: each EPSP in a train was weighted to produce a contribution to an error function defined as the percent difference in EPSP experiment and EPSP predicted . Total E 񮽙 񮽙 E 1</p>
+<p>񮽙. . . . . E n</p>
+<p>RESULTS</p>
+<p>Differential Synaptic Innervation and Transmission onto the Same Class of Pyramidal Neuron. We began by comparing the properties of synaptic connections formed onto two pyramidal target neurons of the same morphological and electrophysiological class by the same axon emerging from a thick</p>
+<p>5324 Neurobiology: Markram et al. Proc. Natl. Acad. Sci. USA 95 (1998)</p>
+<p>tufted layer 5 pyramidal neuron. Anatomical reconstructions of the dendritic and axonal arbors (Fig. 1 A and B) revealed that the number of putative contacts varied 1.61 񮽙 0.3-fold (range 1-to 5-fold; 3.3 񮽙 1.5 putative synaptic contacts per connection; mean 񮽙 SD; 6 triples reconstructed). The dendritic branch location of 40 putative contacts examined also differed in all but one triple, where a putative contact was located on the same order of dendritic branch as in the other target neuron. Fig. 1 (A-C) illustrates an example in which the dendritic locations of putative contacts were strikingly different and in which different responses were recorded in the somata. Electrotonic distances differed on average 1.47 񮽙 0.77-fold (range, 1–3; mean X, 0.15 񮽙 0.08). For 55% of putative contacts, the same axon collateral was involved in placing the putative contacts on different types of branches. Paired pyramidal targets also displayed different degrees of synaptic depression (Fig. 1D). To compare frequencydependent synaptic connections quantitatively, we determined the values of three synaptic parameters from averaged experimental traces by using a model of synaptic depression (6; see Materials and Methods). The absolute synaptic efficacy (A) of</p>
+<p>a connection represents the maximum potential synaptic response (frequency-independent) that can be produced by an AP in the soma (i.e., if Pr were 1 at all contacts). The utilization of synaptic efficacy parameter, U, represents the average fraction of synaptic efficacy used by an AP (analogous to Pr). The third parameter is the time constant for recovery from depression 񮽙 rec . For divergent connections, A varied 5.72 񮽙 7.27-fold (range, 1.06–21.03; A, 2.71 񮽙 1.72 mV; 6 triples), U varied 1.28 񮽙 0.15-fold (range 1.08-1.45; U, 0.59 񮽙 0.16), and 񮽙 rec varied 1.63 񮽙 0.79-fold (range 1.13–3.01; 񮽙 rec , 813 񮽙 240 ms), indicating that the values for all three parameters are heterogeneous for synapses formed by the same axon onto the same class of target neuron. A was weakly correlated with the number of putative contacts per connection (r 񮽙 0.48; 10 connections), which was only slightly improved after normalization for differences in steady-state electrotonic distances (r 񮽙 0.52), perhaps alluding to a heterogeneity in quantal size, but this could also be partly due to the difficulty of determining the precise number of synaptic contacts and accurately determining A. Differential Synaptic Transmission onto Pyramidal Neurons and Interneurons. In contrast to responses generated in homogeneous pairs of pyramidal targets, divergent connections onto a neighboring pyramidal neuron and a bipolar interneuron displayed synaptic depression onto the pyramidal neuron and facilitation onto the interneuron (4 triples in layer 5; Fig. 2). Responses facilitated to discharge the interneuron in 2 of 4 triples indicating that these synapses in layer 5 can be powerful (A was 20 mV and 34 mV; the largest EPSP recorded in a single trial was 18.3 mV). This result is consistent with frequent recordings of polysynaptic excitation or inhibition produced by these layer 5 neurons (25), which is not the case in the upper neocortical layers 2–3 and 4 (A. Gupta &amp; H.M., unpublished data). It is not presently feasible to examine the heterogeneity of facilitating synaptic connections onto the same class of interneurons because an unambiguous classification of interneurons is not possible.</p>
+<p>FIG. 1. Differential synaptic innervation and transmission onto two thick tufted layer 5 pyramidal neurons. (A) Camera lucida anatomical reconstructions of three neurons. Putative light microscopically derived contacts are marked: from red to brown cell (brown circles) and to blue cell (blue circles). (B) Light microscopic psuedocolor image of somatic regions. (C) Averaged (30 sweeps) EPSPs (30 Hz) recorded in two postsynaptic neurons shown in A and B in response to APs in the presynaptic neuron (red cell). 5 ms, 500 pA current pulses used to enable time-controlled depolarizations to generate APs. Average electrotonic distances differed 3-fold. (D) Responses shown for a different pair of targets illustrating another example in which the mean steady-state electrotonic distances of the contacts were equivalent.</p>
+<p>FIG. 2. Differential synaptic facilitation and depression via the same axon innervating two different targets. (A) A light microscopic psuedocolor image of three biocytin-filled neurons. The pyramidal neuron on the left innervated the pyramidal neuron on the right and the bipolar interneuron on the right. (B) Single trial responses (30 Hz) to same AP train. Failure rate for first EPSP: interneurons, 24%; pyramidal neuron, 0% (60 sweeps). Coefficient of variation (CV; as in ref. 15) for first EPSP: interneuron, 1.12; pyramidal neuron, 0.15. CV for 6th EPSP: interneuron, 0.32; pyramidal neuron, 0.68.</p>
+			<figure>
+				<head>Heterogeneity in Synaptic Properties of Convergent Connections from the Same Class of Neuron. Heterogeneity of synaptic properties could be determined by using only paired recordings (6, 13–15), but it is not clear whether this heterogeneity could reflect an underlying potential for plasticity because it is not known how strongly the various postsynaptic targets dictate these synaptic properties. Similarly, although the data from the triple recordings indicate heterogeneity in the values of synaptic parameters formed by the same axon, it is still possible that subtypes of target neurons or specific dendritic branches dictate these values. To determine the extent to which the postsynaptic neuron dictates synaptic properties, we examined the properties of synaptic connections from the same morphological class of neuron onto a single target neuron. Two or three presynaptic pyramidal neurons and one postsynaptic target interneuron were recorded in layers 2–3 and 4 where such convergence appears common (Fig. 3A). These experiments showed that all responses facilitated , but the time courses of facilitation were different (Fig. 3B). An average of 64 񮽙 37.8% of the putative synapses of one</head>
+			</figure>
+<p>connection was on the same dendritic branch as those formed by the other convergent input (71 putative synapses examined). To compare facilitating synaptic connections quantitatively, the model for synaptic depression was extended. An incorporation of a pulse-like increase in U by APs (the running value of U is referred to as u) and an exponential decay with a time constant 񮽙 facil between APs allowed the simulation of both depressing (not shown) and facilitating synaptic connections for all frequencies (Fig. 4 A1, A2, and B). A comparison of pairs of convergent inputs onto a single postsynaptic neuron revealed a 1.97 񮽙 1.12-fold difference in A (range, 1.12–4; A, 11.4 񮽙 7.2 mV; 7 paired convergent inputs), a 2.38 񮽙 1.16-fold difference in U (range, 1–4; U, 0.049 񮽙 0.037), a 9.5 񮽙 9.8-fold difference in 񮽙 rec (range, 1–20; 񮽙 rec , 399 񮽙 295 ms), and a 2.23 񮽙 0.79-fold difference in 񮽙 facil (range, 1.3–3; 񮽙 facil , 1797 񮽙 1247</p>
+<p>FIG. 3. Convergent input to an interneuron from the same class of pyramidal neuron. (A) A Neurolucida computerized reconstruction of three pyramidal neurons presynaptic to one interneuron in layer 2–3. The light-microscopically identified putative contacts are marked as white stars. (B) The average (30 sweeps) synaptic response produced by each synaptic connection. For cell 1, A was 2.5 mV, U was 0.1, 񮽙rec was 30 ms, and 񮽙facil was 1,700 ms. The number of putative contacts established was 3. For cell 2, the value of these parameters were, 10 mV, 0.03, 600 ms, and 3,000 ms, respectively, and the number of putative contacts was 6. For cell 3, the values were 3.2 mV, 0.12, 30 ms, and 3,900 ms, and the number of putative contacts was 5.</p>
+<p>FIG. 4. Frequency dependence, signaling regimes, and synaptic transfer functions of facilitating synapses. (A1) Average EPSPs (4 sweeps) recorded in interneuron (30 Hz). Membrane potential, 񮽙89 mV. (A2) Simulated synaptic response (30 Hz). Postsynaptic potential is computed by using a passive membrane mechanism 񮽙mem񮽙dV񮽙dt 񮽙 񮽙V 񮽙 (Rin񮽙Isyn(t)) with Rin of 1 G񮽙 and 񮽙mem 񮽙 60 ms (V 񮽙 voltage, Isyn 񮽙 synaptic current). (B) Steady-state EPSP amplitudes vs. presynaptic AP frequency. Each point represents average of 20–30 EPSPst. Solid line, model prediction (membrane nonlinearity not accounted for). Same synaptic connection as in A. Dashed line, inverse relationship with frequency. Peak frequency marked as 񮽙, limiting frequency as 񮽙. 񮽙 is determined when the model fit of the experimental data deviates 10% from the 1񮽙f curve. (C) Net depolarization as a function of presynaptic frequency (product of EPSPst, presynaptic frequency and membrane time constant, 60 ms) illustrating the continuum of signaling regimes from supra-linear to sub-linear. (D) Simulated postsynaptic current (Im) generated by Poisson AP trains with a sequence of instantaneous transitions from 0 to 80 Hz. Model parameters, Ase 񮽙 1,540 pA, U 񮽙 0.03, 񮽙rec 񮽙 130 ms, 񮽙facil 񮽙 530 ms. The trace represents the average of 500 &apos;&apos;sweeps.&apos;&apos;</p>
+<p>5326 Neurobiology: Markram et al. Proc. Natl. Acad. Sci. USA 95 (1998)</p>
+<p>ms), indicating large heterogeneity in the values of all of these synaptic parameters. One consequence of this heterogeneity is illustrated in Fig. 3B, where cell 2 generates a deceptively small response for the test frequency because of a low value of U and a high value of 񮽙 rec . A was actually more than three times greater than for the other two connections. Frequency Dependence of Facilitating Synaptic Connections . The heterogeneity of synaptic properties subserves heterogeneity in frequency-dependent transmission characteristics . Frequency-dependent characteristics of connections therefore were quantified. When facilitating synapses are stimulated at progressively higher frequencies, the steady-state amplitude of EPSPs for a given frequency (termed &apos;&apos;EPSP st &apos;&apos;) first increases and then decreases, resulting in a bell-shaped curve (Fig. 4B). This behavior differs from the frequency dependence of depressing synapses [where EPSP st decreases as the frequency increases (6)] because of simultaneous facilitation of u and growing depression at higher values of u (see Eqs. 5 and 6). The peak of the bell-shaped curve is a characteristic feature of a particular facilitating synapse and can be derived from the model equations by finding the frequency where the product of the steady-state values of u and R is at a maximum (see Eqs. 5 and 6). A general description of the dependence of this frequency (defined here as the &apos;&apos;peak frequency,&apos;&apos; 񮽙) on the model parameters also can be used to approximate this characteristic frequency for any facilitating synapse</p>
+<p>񮽙 񮽙 1</p>
+<p>񮽙U񮽙񮽙 facil 񮽙񮽙 rec</p>
+<p>Peak frequencies for convergent pairs varied 2.3 񮽙 1.48-fold (range, 1.1–5.4; 񮽙, 11.6 񮽙 6.6 Hz with a range from 3.9 to 21.5 Hz). Another characteristic property, previously found for depressing synapses (6), that also applies to facilitating synapses is the limiting frequency (񮽙). The limiting frequency is the frequency of stimulation where EPSP st begin to decrease inversely proportional to the frequency (Fig. 4B). 񮽙 is a characteristic property of synapses because it reflects a specific relationship between U and recovery from depression and, if present, facilitation. 񮽙 typically ranges from 5 to 30 Hz for depressing synaptic connections (6), and for those synaptic contacts formed by the same axon onto two pyramidal targets, 񮽙 differed 1.77 񮽙 0.68-fold (range, 1.2–3; average 񮽙, 20 񮽙 16 H 2 ). 񮽙 values for facilitating synapses are considerably higher and also range as much as 2-fold (70–130 Hz). Heterogeneity of Synaptic Transfer Functions. The model was used to examine mathematically which features of presynaptic APs are transmitted to the postsynaptic neuron to assess the transfer functions of the synaptic connections. The frequency dependence of EPSP st illustrated in Fig. 4B indicates that the transmission properties of neocortical synapses are very different depending on the rate of presynaptic AP discharge . When the net steady-state postsynaptic membrane potential was plotted against the presynaptic frequency (by using Eqs. 5 and 6), a sigmoidal relationship was revealed that points to three frequency regimes defined as supra-linear, linear, and sub-linear signaling regimes (Fig. 4C). To characterize the features of the presynaptic AP train transmitted within these signaling regimes, the model was used to compute the average postsynaptic response at various times after arbitrary changes in presynaptic discharge rates of a Poisson AP train (by using Eqs. 2–4) and the linearity of the response with respect to the increment in discharge rate was assessed. Fig. 4D illustrates a particular example of responses generated by instantaneous frequency transitions. This analysis revealed that, in the sub-linear regime (at rates near and above 񮽙), the steady-state response is insensitive to the presynaptic frequency because of synaptic depression (see also refs. 4–6). More precisely, the product of EPSP st and frequency saturates.</p>
+<p>The main feature that is transmitted to the postsynaptic neuron in this signaling regime is changes in frequencies (derivatives of discharge rates) (see Fig. 4D, sub). The linear signaling regime begins below 񮽙, where the postsynaptic response reflects a progressively higher contribution of the absolute discharge rate of the presynaptic neuron as the frequency decreases toward 񮽙. Near 񮽙, the postsynaptic response is proportional to the discharge rate (see Fig. 4D, linear). Both the sub-linear and linear signaling regimes exist as well for depressing synapses (4) (5) (6), but their linear regime is in a narrow range of low frequencies. The novel supra-linear regime for facilitating synapses begins below 񮽙 and extends toward 0 Hz. In this regime, the postsynaptic response reflects not only the presynaptic discharge rate but also the total number of APs. More precisely, the presynaptic rate is amplified by a facilitating factor equivalent to the integral of rates weighted with a decaying kernel of time constant, 񮽙 facil . In this signaling regime therefore, the postsynaptic response is proportional to:</p>
+<p>r񮽙t񮽙 񮽙</p>
+<p>r񮽙t񮽙񮽙 exp񮽙 񮽙 t 񮽙 t񮽙 񮽙 facil</p>
+		</body>
+		<back>
+			<div type="references">
+<listBibl>
+<biblStruct xml:id="b0"><analytic>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Abeles</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Corticonics</title><imprint><publisher>Cambridge Univ. Press</publisher><date type="published" when="1991" /><publisher>Cambridge Univ. Press</publisher></imprint></monogr></biblStruct>
+<biblStruct xml:id="b1"><analytic>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">N</forename>
+				<surname>Shadlen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<forename type="middle">T</forename>
+				<surname>Newsome</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Curr. Opin. Neurobiol</title><imprint><biblScope type="vol">4</biblScope><biblScope type="fpage">569</biblScope><biblScope type="lpage">579</biblScope><date type="published" when="1994" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b2"><analytic>		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<forename type="middle">R</forename>
+				<surname>Softky</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Curr. Opin. Neurobiol</title><imprint><biblScope type="vol">5</biblScope><biblScope type="fpage">239</biblScope><biblScope type="lpage">247</biblScope><date type="published" when="1995" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b3"><analytic>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Tsodyks</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Lect. Notes Comput. Sci</title><imprint><biblScope type="vol">1112</biblScope><biblScope type="fpage">445</biblScope><biblScope type="lpage">450</biblScope><date type="published" when="1996" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b4"><analytic>		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<forename type="middle">F</forename>
+				<surname>Abbott</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">A</forename>
+				<surname>Varela</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<surname>Sen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<forename type="middle">B</forename>
+				<surname>Nelson</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Science</title><imprint><biblScope type="vol">275</biblScope><biblScope type="fpage">220</biblScope><biblScope type="lpage">224</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b5"><analytic>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Tsodyks</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="m">Proc. Natl. Acad. Sci. USA 94</title><meeting>. Natl. Acad. Sci. USA 94</meeting><imprint><date type="published" when="1997" /><biblScope type="fpage">719</biblScope><biblScope type="lpage">723</biblScope></imprint></monogr></biblStruct>
+<biblStruct xml:id="b6"><analytic>		<author>
+			<persName>
+				<forename type="first">I</forename>
+				<surname>Parnas</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<forename type="middle">L</forename>
+				<surname>Atwood</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Biochem. Physiol</title><imprint><biblScope type="vol">18</biblScope><biblScope type="fpage">701</biblScope><biblScope type="lpage">723</biblScope><date type="published" when="1966" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b7"><analytic>		<author>
+			<persName>
+				<forename type="first">I</forename>
+				<surname>Parnas</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurophysiol</title><imprint><biblScope type="vol">35</biblScope><biblScope type="fpage">903</biblScope><biblScope type="lpage">914</biblScope><date type="published" when="1972" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b8"><analytic>		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Laurent</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Sivaramakrishnan</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">12</biblScope><biblScope type="fpage">2370</biblScope><biblScope type="lpage">2380</biblScope><date type="published" when="1992" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b9"><analytic>		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<forename type="middle">S</forename>
+				<surname>Katz</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">A</forename>
+				<surname>Kirk</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<forename type="middle">K</forename>
+				<surname>Govind</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">13</biblScope><biblScope type="fpage">3075</biblScope><biblScope type="lpage">3089</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b10"><analytic>		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<forename type="middle">W</forename>
+				<surname>Davis</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">K</forename>
+				<surname>Murphey</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">13</biblScope><biblScope type="fpage">3827</biblScope><biblScope type="lpage">3838</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b11"><analytic>		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">L</forename>
+				<surname>Cooper</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<surname>Marin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<forename type="middle">L</forename>
+				<surname>Atwood</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">15</biblScope><biblScope type="fpage">4209</biblScope><biblScope type="lpage">4222</biblScope><date type="published" when="1995" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b12"><analytic>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">M</forename>
+				<surname>Thomson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Deuchars</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<forename type="middle">C</forename>
+				<surname>West</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurophysiol</title><imprint><biblScope type="vol">70</biblScope><biblScope type="fpage">2354</biblScope><biblScope type="lpage">2368</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b13"><analytic>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">M</forename>
+				<surname>Thomson</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol</title><imprint><biblScope type="vol">502</biblScope><biblScope type="fpage">131</biblScope><biblScope type="lpage">147</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b14"><analytic>		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Lübke</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Frotscher</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Roth</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Sakmann</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol</title><imprint><biblScope type="vol">500</biblScope><biblScope type="fpage">409</biblScope><biblScope type="lpage">440</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b15"><analytic>		<author>
+			<persName>
+				<forename type="first">Del</forename>
+				<surname>Castillo</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Katz</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol (London)</title><imprint><biblScope type="vol">124</biblScope><biblScope type="fpage">560</biblScope><biblScope type="lpage">573</biblScope><date type="published" when="1954" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b16"><analytic>		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">E J</forename>
+				<surname>Thies</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurophysiol</title><imprint><biblScope type="vol">28</biblScope><biblScope type="fpage">427</biblScope><biblScope type="lpage">442</biblScope><date type="published" when="1965" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b17"><analytic>		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<forename type="middle">J</forename>
+				<surname>Betz</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol</title><imprint><biblScope type="vol">206</biblScope><biblScope type="fpage">629</biblScope><biblScope type="lpage">644</biblScope><date type="published" when="1970" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b18"><analytic>		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">S</forename>
+				<surname>Zucker</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Annu. Rev. Neurosci</title><imprint><biblScope type="vol">12</biblScope><biblScope type="fpage">13</biblScope><biblScope type="lpage">31</biblScope><date type="published" when="1981" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b19"><analytic>		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<forename type="middle">L</forename>
+				<surname>Magleby</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol (London)</title><imprint><biblScope type="vol">234</biblScope><biblScope type="fpage">327</biblScope><biblScope type="lpage">352</biblScope><date type="published" when="1973" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b20"><analytic>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">E</forename>
+				<surname>Zengel</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<forename type="middle">L</forename>
+				<surname>Magleby</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Gen. Physiol</title><imprint><biblScope type="vol">80</biblScope><biblScope type="fpage">583</biblScope><biblScope type="lpage">611</biblScope><date type="published" when="1982" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b21"><analytic>		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<forename type="middle">L</forename>
+				<surname>Magleby</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">E</forename>
+				<surname>Zengel</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol</title><imprint><biblScope type="vol">257</biblScope><biblScope type="fpage">471</biblScope><biblScope type="lpage">494</biblScope><date type="published" when="1976" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b22"><analytic>		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Cereb. Cortex</title><imprint><biblScope type="vol">7</biblScope><biblScope type="fpage">523</biblScope><biblScope type="lpage">533</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b23"><analytic>		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<forename type="middle">S</forename>
+				<surname>Faber</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Korn</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Biophys. J</title><imprint><biblScope type="vol">60</biblScope><biblScope type="fpage">1288</biblScope><biblScope type="lpage">1294</biblScope><date type="published" when="1991" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b24"><analytic>		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Tsodyks</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Lect. Notes Comput. Sci</title><imprint><biblScope type="vol">1327</biblScope><biblScope type="fpage">13</biblScope><biblScope type="lpage">25</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b25"><analytic>		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<forename type="middle">L</forename>
+				<surname>Atwood</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">M</forename>
+				<surname>Wojtowicz</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Int. Rev. Neurobiol</title><imprint><biblScope type="vol">28</biblScope><biblScope type="fpage">275</biblScope><biblScope type="lpage">362</biblScope><date type="published" when="1986" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b26"><analytic>		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<surname>Gardner</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurophysiol</title><imprint><biblScope type="vol">66</biblScope><biblScope type="fpage">2150</biblScope><biblScope type="lpage">2154</biblScope><date type="published" when="1991" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b27"><analytic>		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<forename type="middle">W</forename>
+				<surname>Davis</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">K</forename>
+				<surname>Murphey</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">13</biblScope><biblScope type="fpage">3827</biblScope><biblScope type="lpage">3838</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b28"><analytic>		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Grossman</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">E</forename>
+				<surname>Spira</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">I</forename>
+				<surname>Parnas</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Brain Res</title><imprint><biblScope type="vol">64</biblScope><biblScope type="fpage">379</biblScope><biblScope type="lpage">386</biblScope><date type="published" when="1973" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b29"><analytic>		<author>
+			<persName>
+				<forename type="first">V</forename>
+				<forename type="middle">N</forename>
+				<surname>Murthy</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<forename type="middle">J</forename>
+				<surname>Sejnowski</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<forename type="middle">F</forename>
+				<surname>Stevens</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuron</title><imprint><biblScope type="vol">18</biblScope><biblScope type="fpage">599</biblScope><biblScope type="lpage">612</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b30"><analytic>		<author>
+			<persName>
+				<forename type="first">N</forename>
+				<forename type="middle">A</forename>
+				<surname>Hessler</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">M</forename>
+				<surname>Shirke</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Malinow</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">366</biblScope><biblScope type="fpage">569</biblScope><biblScope type="lpage">572</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b31"><analytic>		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Rosenmund</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">D</forename>
+				<surname>Clements</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<forename type="middle">L</forename>
+				<surname>Westbrook</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Science</title><imprint><biblScope type="vol">262</biblScope><biblScope type="fpage">754</biblScope><biblScope type="lpage">757</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b32"><analytic>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">E</forename>
+				<surname>Dimanond</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<forename type="middle">E</forename>
+				<surname>Jahr</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuron</title><imprint><biblScope type="vol">15</biblScope><biblScope type="fpage">1097</biblScope><biblScope type="lpage">1107</biblScope><date type="published" when="1995" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b33"><analytic>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">V</forename>
+				<surname>Jones</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<forename type="middle">L</forename>
+				<surname>Westbrook</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Trends Neurosci</title><imprint><biblScope type="vol">19</biblScope><biblScope type="fpage">96</biblScope><biblScope type="lpage">101</biblScope><date type="published" when="1996" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b34"><analytic>		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Lübke</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Frotscher</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Sakmann</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Science</title><imprint><biblScope type="vol">275</biblScope><biblScope type="fpage">213</biblScope><biblScope type="lpage">215</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b35"><analytic>		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Tsodyks</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="m">5328 Neurobiology: Markram et al. Proc. Natl. Acad. Sci. USA 95</title><meeting><address>London</address></meeting><imprint><date type="published" when="1996" /><biblScope type="fpage">807</biblScope><biblScope type="lpage">810</biblScope></imprint></monogr></biblStruct></listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

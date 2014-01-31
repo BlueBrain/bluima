@@ -1,0 +1,17 @@
+T10	Binding 298 309	combination
+T11	Regulation 767 773	affect
+T12	Binding 783 790	binding
+T13	Binding 941 948	binding
+E1	Binding:T10 Theme:T1 Theme2:T2
+E2	Regulation:T11 Theme:E6
+E3	Regulation:T11 Theme:E5
+E4	Regulation:T11 Theme:E7
+E5	Binding:T12 Theme:T5
+E6	Binding:T12 Theme:T3
+E7	Binding:T12 Theme:T4
+E8	Binding:T13 Theme:T8
+E9	Binding:T13 Theme:T7
+E10	Binding:T13 Theme:T6
+M1	Negation E2
+M2	Negation E3
+M3	Negation E4

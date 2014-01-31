@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bindings xmlns="http://java.sun.com/xml/ns/jaxb" xmlns:xsd="http://www.w3.org/2001/XMLSchema" version="2.0">
+
+  <bindings schemaLocation="src/main/resources/xsds/nxml-3.0/archivearticle3.xsd"
+    node="/xsd:schema/xsd:element[@name='bio']//xsd:element[@ref='title']">
+    <property name="biotitle" />
+  </bindings>
+
+
+<bindings schemaLocation="src/main/resources/xsds/nxml-3.0/ncbi-mathml2/presentation/scripts.xsd"
+    node="/xsd:schema/xsd:group[@name='mmultiscripts.content']">
+    <property name="content" />
+  </bindings>
+  
+
+</bindings>

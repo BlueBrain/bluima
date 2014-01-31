@@ -1,0 +1,9 @@
+The amount of data available for data-driven Natural Language Processing (NLP) continues to grow.
+For some languages, language models (LM) are now
+being trained on many billions of words, and parallel corpora available for building statistical ma-chine translation (SMT) systems can run into tens
+of millions of sentence pairs. This wealth of data
+allows the construction of bigger, more comprehensive models, often without changes to the fundamental model design, for example by simply increasing
+the n-gram size in language modeling or the phrase
+length in phrase tables for SMT.
+The large sizes of the resulting models pose an en-gineering challenge. They are often too large to fit
+entirely in main memory. What is the best way to

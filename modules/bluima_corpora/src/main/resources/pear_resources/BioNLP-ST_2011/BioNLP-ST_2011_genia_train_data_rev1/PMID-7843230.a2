@@ -1,0 +1,72 @@
+*	Equiv T14 T15
+T26	Binding 327 332	bound
+T27	Positive_regulation 449 454	after
+T28	Binding 514 521	binding
+T29	Binding 533 545	heterodimers
+T30	Binding 570 582	heterodimers
+T31	Binding 602 607	bound
+T32	Entity 791 798	nuclear
+T33	Localization 799 812	translocation
+T34	Positive_regulation 883 890	induced
+T35	Transcription 915 924	synthesis
+T36	Negative_regulation 1059 1068	inhibited
+T37	Negative_regulation 1178 1187	prevented
+T38	Localization 1206 1219	translocation
+T39	Binding 1263 1275	heterodimers
+T40	Negative_regulation 1316 1324	impaired
+T41	Negative_regulation 1408 1417	prevented
+T42	Regulation 1758 1769	controlling
+T43	Localization 1775 1788	translocation
+T44	Transcription 1815 1829	mRNA synthesis
+E1	Binding:T26 Theme:T2
+E2	Positive_regulation:T27 Theme:E5
+E3	Positive_regulation:T27 Theme:E4
+E4	Binding:T28 Theme:T4
+E5	Binding:T28 Theme:T5
+E6	Binding:T29 Theme:T4 Theme2:T5
+E7	Binding:T30 Theme:T6 Theme2:T7
+E8	Binding:T31 Theme:T7
+E9	Binding:T31 Theme:T6
+E10	Localization:T33 Theme:T8 ToLoc:T32
+E11	Localization:T33 Theme:T9 ToLoc:T32
+E12	Positive_regulation:T34 Theme:E15
+E13	Positive_regulation:T34 Theme:E17
+E14	Positive_regulation:T34 Theme:E16
+E15	Transcription:T35 Theme:T10
+E16	Transcription:T35 Theme:T13
+E17	Transcription:T35 Theme:T12
+E18	Negative_regulation:T36 Theme:E10
+E19	Negative_regulation:T36 Theme:E9
+E20	Negative_regulation:T36 Theme:E8
+E21	Negative_regulation:T36 Theme:E11
+E22	Negative_regulation:T36 Theme:E5
+E23	Negative_regulation:T36 Theme:E4
+E24	Negative_regulation:T37 Theme:E28
+E25	Negative_regulation:T37 Theme:E27
+E26	Negative_regulation:T37 Theme:E29
+E27	Localization:T38 Theme:T16
+E28	Localization:T38 Theme:T17
+E29	Binding:T39 Theme:T16 Theme2:T17
+E30	Negative_regulation:T40 Theme:E11
+E31	Negative_regulation:T40 Theme:E8
+E32	Negative_regulation:T40 Theme:E4
+E33	Negative_regulation:T40 Theme:E5
+E34	Negative_regulation:T40 Theme:E9
+E35	Negative_regulation:T40 Theme:E10
+E36	Negative_regulation:T41 Theme:E34 Cause:T18
+E37	Negative_regulation:T41 Theme:E32 Cause:T18
+E38	Negative_regulation:T41 Theme:E30 Cause:T18
+E39	Negative_regulation:T41 Theme:E31 Cause:T18
+E40	Negative_regulation:T41 Theme:E35 Cause:T18
+E41	Negative_regulation:T41 Theme:E33 Cause:T18
+E42	Regulation:T42 Theme:E46 Cause:T20
+E43	Regulation:T42 Theme:E47 Cause:T20
+E44	Regulation:T42 Theme:E49 Cause:T20
+E45	Regulation:T42 Theme:E48 Cause:T20
+E46	Localization:T43 Theme:T21
+E47	Localization:T43 Theme:T22
+E48	Transcription:T44 Theme:T25
+E49	Transcription:T44 Theme:T23
+M1	Negation E14
+M2	Negation E22
+M3	Negation E23

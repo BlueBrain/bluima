@@ -1,0 +1,34 @@
+# preprocessed from ft-ns for DCA
+
+cr: ch.epfl.bbp.uima.mongo.MongoCollectionReader
+ db_connection__java: new String[]{  "128.178.187.248", "preprocessed_2", "20130327_preprocess_ft", "", ""}
+ #query: {pmid:{ $gt: 8, $lt: 20000 }}
+
+ae: ch.epfl.bbp.uima.filter.ReferencesFinderAnnotator
+
+ae: ViterbiFilterAnnotator
+
+#TODO ae: PruneAfterReferenceAnnotator
+
+
+
+#FIXME
+#ae: FeatureTokensFilterAnnotator2
+# caseSensitive: false
+# tokenFrequencyFile: /nfs4/bbp.epfl.ch/simulation/nlp/data/lda/20130406_preprocess_ft_ns/20130405_token_frequency
+# minimumFrequency: 100
+# maximumFrequency__java: Integer.MAX_VALUE
+# stopwordsFilePath: $ROOT/modules/bluima_topic_models/src/main/resources/stoplists/mallet_stopwords_en.txt
+
+ae: FeatureTokensExtractionAnnotator2
+
+ae: ch.epfl.bbp.uima.topicmodels.writers.JCasWriterConsumer
+ outputDirectory: /nfs4/bbp.epfl.ch/simulation/nlp/data/lda/20130406_preprocess_ft_ns/dca
+ crossValidationFolds: 1
+ # 10 for 10-fold cross validation (test3.txt, test4.txt,...)
+ testSetFraction: 0.15
+ # split training.txt / test.txt
+ seed: 1352130938
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

@@ -1,0 +1,30 @@
+T27	Negative_regulation 248 256	inhibits
+T28	Positive_regulation 282 292	stimulated
+T29	Gene_expression 293 303	production
+T30	Regulation 799 807	affected
+E1	Negative_regulation:T27 Theme:E5
+E2	Negative_regulation:T27 Theme:E8
+E3	Negative_regulation:T27 Theme:E6
+E4	Negative_regulation:T27 Theme:E7
+E5	Positive_regulation:T28 Theme:E12
+E6	Positive_regulation:T28 Theme:E9
+E7	Positive_regulation:T28 Theme:E10
+E8	Positive_regulation:T28 Theme:E11
+E9	Gene_expression:T29 Theme:T6
+E10	Gene_expression:T29 Theme:T7
+E11	Gene_expression:T29 Theme:T5
+E12	Gene_expression:T29 Theme:T8
+E13	Regulation:T30 Theme:T13 Cause:T18
+E14	Regulation:T30 Theme:T12 Cause:T18
+E15	Regulation:T30 Theme:T15 Cause:T18
+E16	Regulation:T30 Theme:T16 Cause:T18
+E17	Regulation:T30 Theme:T14 Cause:T18
+E18	Regulation:T30 Theme:T11 Cause:T18
+E19	Regulation:T30 Theme:T17 Cause:T18
+M1	Negation E13
+M2	Negation E14
+M3	Negation E15
+M4	Negation E16
+M5	Negation E17
+M6	Negation E18
+M7	Negation E19

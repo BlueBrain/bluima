@@ -1,0 +1,11 @@
+T7	Binding 580 584	bind
+T8	Binding 805 821	binding affinity
+T9	Binding 1008 1013	binds
+E1	Binding:T7 Theme:T2
+E2	Binding:T7 Theme:T1
+E3	Binding:T8 Theme:T4
+E4	Binding:T8 Theme:T3
+E5	Binding:T9 Theme:T5
+E6	Binding:T9 Theme:T6
+M1	Speculation E3
+M2	Speculation E4

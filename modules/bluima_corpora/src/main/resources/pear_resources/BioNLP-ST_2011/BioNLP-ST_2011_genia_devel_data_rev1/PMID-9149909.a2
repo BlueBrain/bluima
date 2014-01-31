@@ -1,0 +1,38 @@
+*	Equiv T3 T2
+T14	Regulation 45 54	modulates
+T15	Localization 83 90	release
+T16	Positive_regulation 266 274	enhanced
+T17	Localization 279 286	release
+T18	Positive_regulation 520 526	induce
+T19	Localization 537 544	release
+T20	Localization 601 608	release
+T21	Positive_regulation 609 615	peaked
+T22	Positive_regulation 680 688	preceded
+T23	Positive_regulation 695 703	increase
+T24	Localization 773 781	Secreted
+T25	Localization 1064 1072	released
+T26	Localization 1324 1331	release
+T27	Positive_regulation 1342 1347	after
+T28	Localization 1425 1443	levels of released
+T29	Localization 1583 1591	secreted
+T30	Positive_regulation 1712 1721	mediating
+T31	Localization 1732 1739	release
+E1	Regulation:T14 Theme:E2
+E2	Localization:T15 Theme:T1
+E3	Positive_regulation:T16 Theme:E4
+E4	Localization:T17 Theme:T3
+E5	Positive_regulation:T18 Theme:E6
+E6	Localization:T19 Theme:T4
+E7	Localization:T20 Theme:T5
+E8	Positive_regulation:T21 Theme:E7
+E9	Positive_regulation:T22 Theme:E7 Cause:E10
+E10	Positive_regulation:T23 Theme:T6
+E11	Localization:T24 Theme:T7
+E12	Localization:T25 Theme:T9
+E13	Localization:T26 Theme:T10
+E14	Positive_regulation:T27 Theme:E13
+E15	Localization:T28 Theme:T11
+E16	Localization:T29 Theme:T12
+E17	Positive_regulation:T30 Theme:E18
+E18	Localization:T31 Theme:T13
+M1	Negation E5

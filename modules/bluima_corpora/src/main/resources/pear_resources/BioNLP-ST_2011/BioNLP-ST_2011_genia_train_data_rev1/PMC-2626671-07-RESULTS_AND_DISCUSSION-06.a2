@@ -1,0 +1,153 @@
+T81	Gene_expression 295 302	present
+T82	Negative_regulation 352 361	represses
+T83	Positive_regulation 372 391	has a positive role
+T84	Positive_regulation 399 408	induction
+T85	Binding 462 467	binds
+T86	Entity 471 480	promoters
+T87	Entity 494 512	regulatory regions
+T88	Regulation 560 566	effect
+T89	Gene_expression 575 585	expression
+T90	Binding 674 680	target
+T91	Positive_regulation 718 729	contributed
+T92	Gene_expression 745 755	expression
+T93	Positive_regulation 826 837	requirement
+T94	Negative_regulation 848 856	subsides
+T95	Negative_regulation 930 941	derepressed
+T96	Positive_regulation 994 1002	required
+T97	Gene_expression 1017 1027	expression
+T98	Regulation 1066 1070	role
+T99	Positive_regulation 1078 1087	induction
+T100	Gene_expression 1097 1107	expression
+T101	Positive_regulation 1210 1222	up-regulated
+T102	Positive_regulation 1400 1406	needed
+T103	Gene_expression 1467 1474	produce
+T104	Positive_regulation 1572 1579	induced
+T105	Regulation 1589 1609	functions downstream
+T106	Positive_regulation 1648 1657	promoting
+T107	Gene_expression 1668 1678	expression
+T108	Positive_regulation 1747 1757	contribute
+T109	Gene_expression 1770 1780	expression
+T110	Positive_regulation 1812 1819	induces
+T111	Positive_regulation 2057 2063	induce
+T112	Regulation 2166 2176	regulating
+T113	Gene_expression 2201 2211	expression
+T114	Positive_regulation 2227 2240	up-regulation
+T115	Positive_regulation 2285 2293	preceded
+T116	Positive_regulation 2294 2307	up-regulation
+T117	Regulation 2363 2374	had no role
+T118	Gene_expression 2387 2397	expression
+T119	Regulation 2448 2454	affect
+T120	Gene_expression 2466 2476	expression
+T121	Gene_expression 2482 2491	expressed
+T122	Negative_regulation 2550 2559	deficient
+T123	Negative_regulation 2673 2682	deficient
+T124	Negative_regulation 2776 2785	deficient
+T125	Positive_regulation 2855 2861	induce
+T126	Gene_expression 2871 2881	expression
+T127	Positive_regulation 3000 3007	induced
+T128	Regulation 3161 3172	interaction
+T129	Positive_regulation 3326 3333	induced
+T130	Positive_regulation 3376 3383	induces
+T131	Positive_regulation 3458 3466	required
+T132	Positive_regulation 3470 3476	induce
+E1	Gene_expression:T81 Theme:T3
+E2	Negative_regulation:T82 Theme:T5 Cause:T3
+E3	Positive_regulation:T83 Theme:E4 Cause:T3
+E5	Positive_regulation:T83 Theme:E6 Cause:T3
+E7	Positive_regulation:T83 Theme:E8 Cause:T3
+E9	Positive_regulation:T83 Theme:E10 Cause:T3
+E4	Positive_regulation:T84 Theme:T6
+E6	Positive_regulation:T84 Theme:T7
+E8	Positive_regulation:T84 Theme:T8
+E10	Positive_regulation:T84 Theme:T9
+E11	Binding:T85 Theme:T7 Theme2:T10 Site:T86
+E12	Binding:T85 Theme:T8 Theme2:T10 Site:T86
+E13	Binding:T85 Theme:T9 Theme2:T10 Site:T86
+E14	Binding:T85 Theme:T7 Theme2:T10 Site:T87
+E15	Binding:T85 Theme:T8 Theme2:T10 Site:T87
+E16	Binding:T85 Theme:T9 Theme2:T10 Site:T87
+E17	Regulation:T88 Theme:E18 Cause:T10
+E19	Regulation:T88 Theme:E20 Cause:T10
+E21	Regulation:T88 Theme:E22 Cause:T10
+E18	Gene_expression:T89 Theme:T7
+E20	Gene_expression:T89 Theme:T8
+E22	Gene_expression:T89 Theme:T9
+E23	Binding:T90 Theme:T11 Theme2:T13
+E24	Binding:T90 Theme:T12 Theme2:T13
+E25	Positive_regulation:T91 Theme:E26 Cause:T14
+E27	Positive_regulation:T91 Theme:E28 Cause:T14
+E29	Positive_regulation:T91 Theme:E30 Cause:T14
+E26	Gene_expression:T92 Theme:T15
+E28	Gene_expression:T92 Theme:T16
+E30	Gene_expression:T92 Theme:T17
+E31	Positive_regulation:T93 Theme:T18 Cause:T20
+E32	Positive_regulation:T93 Theme:T19 Cause:T20
+E33	Negative_regulation:T94 Theme:E31 Cause:T21
+E34	Negative_regulation:T94 Theme:E32 Cause:T21
+E35	Negative_regulation:T95 Theme:T21
+E36	Positive_regulation:T96 Theme:E37 Cause:T23
+E37	Gene_expression:T97 Theme:T24
+E38	Regulation:T98 Theme:E39 Cause:T23
+E39	Positive_regulation:T99 Theme:E40
+E40	Gene_expression:T100 Theme:T25
+E41	Positive_regulation:T101 Theme:T26
+E42	Positive_regulation:T101 Theme:T27
+E43	Positive_regulation:T102 Theme:E44 Cause:T29
+E44	Gene_expression:T103 Theme:T31
+E45	Positive_regulation:T104 Theme:T32
+E46	Regulation:T105 Theme:T32 Cause:T33
+E47	Positive_regulation:T106 Theme:E48 Cause:T32
+E49	Positive_regulation:T106 Theme:E48 Cause:T34
+E48	Gene_expression:T107 Theme:T35
+E50	Positive_regulation:T108 Theme:E51 Cause:T36
+E52	Positive_regulation:T108 Theme:E51 Cause:T37
+E51	Gene_expression:T109 Theme:T38
+E53	Positive_regulation:T110 Theme:T40 Cause:T39
+E54	Positive_regulation:T110 Theme:T40 Cause:T41
+E55	Positive_regulation:T111 Theme:T44 Cause:T42
+E56	Positive_regulation:T111 Theme:T44 Cause:T43
+E57	Positive_regulation:T111 Theme:T45 Cause:T42
+E58	Positive_regulation:T111 Theme:T45 Cause:T43
+E59	Regulation:T112 Theme:E60 Cause:T46
+E61	Regulation:T112 Theme:E62 Cause:T47
+E60	Gene_expression:T113 Theme:T48
+E62	Gene_expression:T113 Theme:T49
+E63	Positive_regulation:T114 Theme:T50
+E64	Positive_regulation:T114 Theme:T51
+E65	Positive_regulation:T115 Theme:E66 Cause:E63
+E67	Positive_regulation:T115 Theme:E68 Cause:E64
+E66	Positive_regulation:T116 Theme:T52
+E68	Positive_regulation:T116 Theme:T53
+E69	Regulation:T117 Theme:E70 Cause:T54
+E70	Gene_expression:T118 Theme:T55
+E71	Regulation:T119 Theme:E72 Cause:T56
+E72	Gene_expression:T120 Theme:T57
+E73	Gene_expression:T121 Theme:T56
+E74	Negative_regulation:T122 Theme:T60
+E75	Negative_regulation:T123 Theme:T61
+E76	Negative_regulation:T124 Theme:T63
+E77	Positive_regulation:T125 Theme:E78 Cause:T65
+E79	Positive_regulation:T125 Theme:E78 Cause:T66
+E78	Gene_expression:T126 Theme:T67
+E80	Positive_regulation:T127 Theme:T69
+E81	Positive_regulation:T127 Theme:T70
+E82	Regulation:T128 Theme:T72 Cause:T72
+E83	Regulation:T128 Theme:T72 Cause:T73
+E84	Regulation:T128 Theme:T73 Cause:T72
+E85	Regulation:T128 Theme:T73 Cause:T73
+E86	Positive_regulation:T129 Theme:T75 Cause:T76
+E87	Positive_regulation:T130 Theme:T77 Cause:T75
+E88	Positive_regulation:T131 Theme:E89 Cause:T79
+E89	Positive_regulation:T132 Theme:T80
+M1	Speculation E17
+M2	Speculation E19
+M3	Speculation E21
+M4	Speculation E23
+M5	Speculation E24
+M6	Negation E35
+M7	Speculation E38
+M8	Speculation E47
+M9	Speculation E49
+M10	Negation E71
+M11	Speculation E77
+M12	Speculation E79

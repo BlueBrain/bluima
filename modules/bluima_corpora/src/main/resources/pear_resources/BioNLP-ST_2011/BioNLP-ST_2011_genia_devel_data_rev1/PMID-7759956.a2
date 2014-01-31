@@ -1,0 +1,33 @@
+*	Equiv T8 T9
+*	Equiv T5 T4
+T22	Regulation 48 62	in response to
+T23	Positive_regulation 665 673	requires
+T24	Regulation 755 762	respond
+T25	Transcription 1009 1027	gene transcription
+T26	Positive_regulation 1071 1081	activation
+T27	Positive_regulation 1136 1146	activation
+T28	Entity 1238 1246	promoter
+T29	Positive_regulation 1448 1456	increase
+T30	Gene_expression 1464 1474	expression
+T31	Positive_regulation 1535 1565	acts as a costimulatory signal
+T32	Transcription 1586 1604	gene transcription
+T33	Positive_regulation 1691 1700	activates
+T34	Entity 1712 1720	promoter
+T35	Regulation 2148 2155	respond
+E1	Regulation:T22 Theme:T1
+E2	Regulation:T22 Theme:T2
+E3	Positive_regulation:T23 Theme:E4
+E4	Regulation:T24 Theme:T3
+E5	Transcription:T25 Theme:T6
+E6	Transcription:T25 Theme:T5
+E7	Positive_regulation:T26 Theme:T7
+E8	Positive_regulation:T27 Theme:T8 Cause:E7 Site:T28
+E9	Positive_regulation:T29 Theme:E10
+E10	Gene_expression:T30 Theme:T10
+E11	Positive_regulation:T31 Theme:E13 Cause:T11
+E12	Positive_regulation:T31 Theme:E14 Cause:T11
+E13	Transcription:T32 Theme:T13
+E14	Transcription:T32 Theme:T12
+E15	Positive_regulation:T33 Theme:T15 Cause:T14 Site:T34
+E16	Regulation:T35 Theme:T21
+E17	Regulation:T35 Theme:T20

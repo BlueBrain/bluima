@@ -1,0 +1,22 @@
+*	Equiv T3 T2
+T9	Negative_regulation 53 59	blocks
+T10	Positive_regulation 60 70	activation
+T11	Entity 97 105	enhancer
+T12	Negative_regulation 189 197	inhibits
+T13	Gene_expression 218 228	production
+T14	Negative_regulation 260 268	blocking
+T15	Positive_regulation 273 285	accumulation
+T16	Negative_regulation 324 330	blocks
+T17	Transcription 351 364	transcription
+T18	Localization 1060 1067	present
+E1	Negative_regulation:T9 Theme:E2
+E2	Positive_regulation:T10 Theme:T1 Site:T11
+E3	Negative_regulation:T12 Theme:E4 Cause:E5
+E4	Gene_expression:T13 Theme:T3
+E5	Negative_regulation:T14 Theme:E6
+E6	Positive_regulation:T15 Theme:T4
+E7	Negative_regulation:T16 Theme:E8
+E8	Transcription:T17 Theme:T5
+E9	Localization:T18 Theme:T7
+E10	Localization:T18 Theme:T8
+M1	Speculation E7

@@ -1,0 +1,10 @@
+cr: SingleFileReader
+ inputFile: $1
+
+ae: ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+
+ae: TooMuchOOVFilterAnnotator

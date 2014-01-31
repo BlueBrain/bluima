@@ -1,0 +1,13 @@
+T14	Regulation 0 8	Function
+T15	Entity 106 114	promoter
+T16	Regulation 118 127	dependent
+T17	Binding 1134 1151	binding complexes
+T18	Binding 1236 1244	presence
+T19	Binding 1562 1570	presence
+T20	Binding 1644 1652	presence
+E1	Regulation:T14 Theme:T1 Site:T15
+E2	Regulation:T16 Theme:E1
+E3	Binding:T17 Theme:T3 Theme2:T4 Theme3:T5 Theme4:T6
+E4	Binding:T18 Theme:T7
+E5	Binding:T19 Theme:T8 Theme2:T9 Theme3:T10 Theme4:T11
+E6	Binding:T20 Theme:T12 Theme2:T13

@@ -1,0 +1,14 @@
+*	Equiv T4 T3
+T9	Positive_regulation 189 199	activating
+T10	Gene_expression 226 236	expression
+T11	Gene_expression 572 582	expression
+T12	Positive_regulation 729 738	activated
+T13	Gene_expression 884 894	production
+T14	Positive_regulation 903 909	during
+E1	Positive_regulation:T9 Theme:E2
+E2	Gene_expression:T10 Theme:T4
+E3	Gene_expression:T11 Theme:T6
+E4	Positive_regulation:T12 Theme:T7
+E5	Gene_expression:T13 Theme:T8
+E6	Positive_regulation:T14 Theme:E5
+M1	Speculation E1

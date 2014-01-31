@@ -1,0 +1,55 @@
+*	Equiv T4 T5
+T23	Regulation 53 60	control
+T24	Transcription 82 95	transcription
+T25	Positive_regulation 96 103	induced
+T26	Transcription 173 178	level
+T27	Regulation 227 232	under
+T28	Positive_regulation 272 281	increases
+T29	Positive_regulation 423 433	stimulated
+T30	Regulation 607 613	effect
+T31	Positive_regulation 633 643	stimulated
+T32	Entity 672 679	nuclear
+T33	Localization 680 692	accumulation
+T34	Positive_regulation 837 845	increase
+T35	Positive_regulation 911 922	stimulation
+T36	Transcription 931 944	transcription
+T37	Regulation 1024 1031	control
+T38	Positive_regulation 1063 1070	induced
+T39	Transcription 1076 1089	transcription
+T40	Negative_regulation 1279 1287	impaired
+T41	Transcription 1292 1302	expression
+T42	Negative_regulation 1417 1426	abolished
+T43	Transcription 1431 1441	expression
+T44	Regulation 1493 1499	affect
+T45	Regulation 1591 1599	controls
+T46	Transcription 1605 1618	transcription
+T47	Positive_regulation 1641 1652	by means of
+E1	Regulation:T23 Theme:E2
+E2	Transcription:T24 Theme:T1
+E3	Positive_regulation:T25 Theme:E2 Cause:T2
+E4	Transcription:T26 Theme:T3
+E5	Regulation:T27 Theme:E4
+E6	Positive_regulation:T28 Theme:T7 Cause:T6
+E7	Positive_regulation:T29 Theme:T8 Cause:T9
+E8	Regulation:T30 Theme:T10 Cause:T11
+E9	Positive_regulation:T31 Theme:E10 Cause:E8
+E10	Localization:T33 Theme:T12 AtLoc:T32
+E11	Positive_regulation:T34 Theme:T14 Cause:E13
+E12	Positive_regulation:T34 Theme:T15 Cause:E13
+E13	Positive_regulation:T35 Theme:E14 Cause:T13
+E14	Transcription:T36 Theme:T16
+E15	Regulation:T37 Theme:E16
+E16	Positive_regulation:T38 Theme:E17 Cause:T17
+E17	Transcription:T39 Theme:T18
+E18	Negative_regulation:T40 Theme:E19
+E19	Transcription:T41 Theme:T19
+E20	Negative_regulation:T42 Theme:E21
+E21	Transcription:T43 Theme:T20
+E22	Regulation:T44 Theme:E21
+E23	Regulation:T45 Theme:E24 Cause:T21
+E24	Transcription:T46 Theme:T22
+E25	Positive_regulation:T47 Theme:E23
+M1	Speculation E4
+M2	Speculation E5
+M3	Negation E18
+M4	Negation E22

@@ -1,0 +1,15 @@
+*	Equiv T8 T9
+T14	Gene_expression 327 336	expressed
+T15	Localization 341 350	localized
+T16	Entity 358 365	nucleus
+T17	Binding 460 464	bind
+T18	Gene_expression 616 623	express
+T19	Gene_expression 681 690	expresses
+T20	Gene_expression 1125 1135	expression
+E1	Gene_expression:T14 Theme:T4
+E2	Localization:T15 Theme:T4 AtLoc:T16
+E3	Binding:T17 Theme:T4
+E4	Gene_expression:T18 Theme:T6
+E5	Gene_expression:T19 Theme:T7
+E6	Gene_expression:T20 Theme:T13
+E7	Gene_expression:T20 Theme:T12

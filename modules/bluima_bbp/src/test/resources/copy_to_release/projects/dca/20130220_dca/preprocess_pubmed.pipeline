@@ -1,0 +1,37 @@
+# 20130220
+#
+# for slurm / viz cluster
+#
+# $1,$2 from,to db
+# $3 output dir
+#
+
+cr: PubmedDatabaseCR
+ between__java: new int[]{ $1 , $2 }
+
+include: ../../includes/preprocess_full.incl
+
+ae: SkipSomePosAnnotator
+
+ae: ViterbiFilterAnnotator
+
+ae: FeatureTokensFilterAnnotator2
+ caseSensitive: false
+ tokenFrequencyFile: /nfs4/bbp.epfl.ch/simulation/nlp/data/lda/20130220_preprocess_pubmed.pipeline/token_frequency
+ minimumFrequency: 100
+ maximumFrequency__java: Integer.MAX_VALUE
+ stopwordsFilePath: $ROOT/modules/bluima_topic_models/src/main/resources/stoplists/mallet_stopwords_en.txt
+
+ae: FeatureTokensExtractionAnnotator2
+
+ae: ch.epfl.bbp.uima.topicmodels.writers.JCasWriterConsumer
+ outputDirectory: /nfs4/bbp.epfl.ch/simulation/nlp/data/lda/20130220_preprocess_pubmed.pipeline/$3
+ crossValidationFolds: 1
+ # 10 for 10-fold cross validation (test3.txt, test4.txt,...)
+ testSetFraction: 0.15
+ # split training.txt / test.txt
+ seed: 1352130938
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100
+ 

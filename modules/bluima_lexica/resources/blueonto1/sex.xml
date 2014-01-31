@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<synonym>
+<token canonical="MALE" ref_id="sex:MALE">
+  <variant base="male" />
+  <variant base="males" />
+  <variant base="man" />
+  <variant base="men" />
+</token>
+<token canonical="FEMALE" ref_id="sex:FEMALE">
+  <variant base="female" />
+  <variant base="females" />
+  <variant base="woman" />
+  <variant base="women" />
+</token>
+<token canonical="SEX" ref_id="sex:SEX">
+  <variant base="sex" />
+  <variant base="sexes" />
+</token>
+</synonym>

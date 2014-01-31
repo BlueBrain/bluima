@@ -1,0 +1,32 @@
+*	Equiv T4 T3
+T20	Positive_regulation 14 25	upregulates
+T21	Transcription 93 121	at the transcriptional level
+T22	Regulation 270 274	role
+T23	Regulation 345 355	regulation
+T24	Gene_expression 384 394	Production
+T25	Regulation 403 411	requires
+T26	Regulation 451 459	involved
+T27	Regulation 477 487	regulation
+T28	Positive_regulation 854 862	enhanced
+T29	Positive_regulation 873 885	accumulation
+T30	Transcription 943 956	transcription
+T31	Positive_regulation 965 974	increased
+T32	Positive_regulation 1031 1039	mediated
+T33	Regulation 1506 1514	involved
+T34	Positive_regulation 1522 1532	activation
+E1	Positive_regulation:T20 Theme:E2
+E2	Transcription:T21 Theme:T2
+E3	Regulation:T22 Theme:E4 Cause:T4
+E4	Regulation:T23 Theme:T5
+E5	Gene_expression:T24 Theme:T6
+E6	Regulation:T25 Theme:E5
+E7	Regulation:T26 Theme:E8
+E8	Regulation:T27 Theme:T7
+E9	Positive_regulation:T28 Theme:E10
+E10	Positive_regulation:T29 Theme:T12
+E11	Transcription:T30 Theme:T13
+E12	Positive_regulation:T31 Theme:E11
+E13	Positive_regulation:T32 Theme:E11 Cause:T14
+E14	Regulation:T33 Theme:E15
+E15	Positive_regulation:T34 Theme:T18
+M1	Speculation E3

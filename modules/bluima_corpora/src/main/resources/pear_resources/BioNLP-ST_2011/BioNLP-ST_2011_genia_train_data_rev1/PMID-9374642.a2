@@ -1,0 +1,36 @@
+*	Equiv T10 T9
+*	Equiv T2 T3
+T12	Positive_regulation 8 16	enhances
+T13	Positive_regulation 17 26	induction
+T14	Regulation 413 421	regulate
+T15	Gene_expression 422 432	expression
+T16	Gene_expression 582 592	expression
+T17	Positive_regulation 646 652	induce
+T18	Positive_regulation 696 704	enhanced
+T19	Gene_expression 743 753	expression
+T20	Positive_regulation 1072 1080	enhanced
+T21	Regulation 1092 1101	dependent
+T22	Entity 1117 1124	nuclear
+T23	Localization 1125 1137	localization
+T24	Regulation 1400 1409	dependent
+T25	Positive_regulation 1410 1418	stimulus
+T26	Positive_regulation 1430 1439	induction
+E1	Positive_regulation:T12 Theme:E2
+E2	Positive_regulation:T13 Theme:T1
+E3	Regulation:T14 Theme:E4
+E4	Gene_expression:T15 Theme:T4
+E5	Gene_expression:T16 Theme:T5
+E6	Positive_regulation:T17 Theme:T6
+E7	Positive_regulation:T18 Theme:E8
+E8	Gene_expression:T19 Theme:T7
+E9	Positive_regulation:T20 Theme:E11
+E10	Regulation:T21 Theme:E11
+E11	Localization:T23 Theme:T10 ToLoc:T22
+E12	Regulation:T24 Theme:E13
+E13	Positive_regulation:T25 Theme:E14
+E14	Positive_regulation:T26 Theme:T11
+M1	Speculation E3
+M2	Speculation E5
+M3	Negation E6
+M4	Speculation E13
+M5	Speculation E14

@@ -1,0 +1,14 @@
+standard pipeline as well, but during training they
+would have to be extracted using the gold standard
+instead of the actual predictions made by the classifiers,
+as they would be extracted during testing. While it is
+possible to use cross-validation to train a pipeline on its
+own predictions, however this is rarely done in practice.
+Finally, SEARN can be adapted to learn a pipeline of
+independently trained classifiers. To achieve this, b must
+be set to 1 so that there is only one iteration, the features that are dependent on previous actions must be
+removed, and the cost for each action must be set to 0
+if it follows from the gold standard, or to 1 otherwise.
+This adaptation allows for a fair comparison between
+SEARN and a pipeline of independently learned
+classifiers.

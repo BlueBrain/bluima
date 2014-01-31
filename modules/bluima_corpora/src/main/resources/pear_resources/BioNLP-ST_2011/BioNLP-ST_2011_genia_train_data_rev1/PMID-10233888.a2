@@ -1,0 +1,57 @@
+*	Equiv T15 T14
+*	Equiv T21 T20
+*	Equiv T16 T17
+T36	Gene_expression 1217 1232	gene expression
+T37	Gene_expression 1444 1453	expressed
+T38	Gene_expression 1496 1503	express
+T39	Positive_regulation 1676 1685	induction
+T40	Gene_expression 1676 1685	induction
+T41	Gene_expression 1740 1750	expression
+T42	Positive_regulation 1808 1819	upregulated
+T43	Gene_expression 1878 1886	detected
+T44	Transcription 1955 1971	mRNA transcripts
+T45	Negative_regulation 2110 2124	downmodulation
+E1	Gene_expression:T36 Theme:T1
+E2	Gene_expression:T36 Theme:T4
+E3	Gene_expression:T36 Theme:T5
+E4	Gene_expression:T36 Theme:T3
+E5	Gene_expression:T36 Theme:T6
+E6	Gene_expression:T36 Theme:T2
+E7	Gene_expression:T37 Theme:T9
+E8	Gene_expression:T37 Theme:T11
+E9	Gene_expression:T37 Theme:T10
+E10	Gene_expression:T37 Theme:T12
+E11	Gene_expression:T38 Theme:T16
+E12	Gene_expression:T38 Theme:T15
+E13	Gene_expression:T38 Theme:T19
+E14	Gene_expression:T38 Theme:T18
+E15	Gene_expression:T38 Theme:T13
+E16	Gene_expression:T38 Theme:T21
+E17	Positive_regulation:T39 Theme:T22
+E18	Positive_regulation:T39 Theme:T24
+E19	Positive_regulation:T39 Theme:T23
+E20	Gene_expression:T40 Theme:T25
+E21	Gene_expression:T41 Theme:T26
+E22	Positive_regulation:T42 Theme:T27
+E23	Gene_expression:T43 Theme:T30
+E24	Gene_expression:T43 Theme:T29
+E25	Gene_expression:T43 Theme:T28
+E26	Gene_expression:T43 Theme:T31
+E27	Transcription:T44 Theme:T32
+E28	Negative_regulation:T45 Theme:T35
+M1	Speculation E1
+M2	Speculation E2
+M3	Speculation E3
+M4	Speculation E4
+M5	Speculation E5
+M6	Speculation E6
+M7	Negation E11
+M8	Negation E12
+M9	Negation E13
+M10	Negation E14
+M11	Negation E15
+M12	Negation E16
+M13	Negation E23
+M14	Negation E24
+M15	Negation E25
+M16	Negation E26

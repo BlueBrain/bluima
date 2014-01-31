@@ -1,0 +1,6 @@
+*	Equiv T2 T3
+T10	Gene_expression 851 861	expression
+T11	Gene_expression 1066 1076	detectable
+E1	Gene_expression:T10 Theme:T6
+E2	Gene_expression:T11 Theme:T8
+M1	Negation E2

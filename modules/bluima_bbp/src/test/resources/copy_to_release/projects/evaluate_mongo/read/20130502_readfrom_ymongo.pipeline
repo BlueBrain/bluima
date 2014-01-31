@@ -1,0 +1,6 @@
+
+
+cr: ch.epfl.bbp.uima.mongo.MongoCollectionReader
+ db_connection__java: new String[]{  "localhost", "writetomongo", "writetomongo", "", ""} 
+
+ae: StatsAnnotatorPlus

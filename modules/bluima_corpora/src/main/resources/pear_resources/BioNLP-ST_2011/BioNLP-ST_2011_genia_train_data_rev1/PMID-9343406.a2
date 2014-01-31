@@ -1,0 +1,24 @@
+*	Equiv T2 T1
+*	Equiv T9 T8
+T11	Negative_regulation 490 499	inhibited
+T12	Gene_expression 526 535	synthesis
+T13	Positive_regulation 664 674	activation
+T14	Gene_expression 714 724	expression
+T15	Regulation 1294 1302	targeted
+T16	Positive_regulation 1503 1511	promoted
+T17	Localization 1534 1543	shuttling
+T18	Positive_regulation 1564 1592	leading to their accelerated
+T19	Localization 1593 1599	export
+T20	Phosphorylation 1954 1969	phosphorylating
+T21	Positive_regulation 1954 1969	phosphorylating
+E1	Negative_regulation:T11 Theme:E2
+E2	Gene_expression:T12 Theme:T2
+E3	Positive_regulation:T13 Theme:E4
+E4	Gene_expression:T14 Theme:T3
+E5	Regulation:T15 Theme:T5
+E6	Positive_regulation:T16 Theme:E7
+E7	Localization:T17 Theme:T7
+E8	Positive_regulation:T18 Theme:E9 Cause:E6
+E9	Localization:T19 Theme:T7
+E10	Phosphorylation:T20 Theme:T10
+E11	Positive_regulation:T21 Theme:E10 Cause:T9

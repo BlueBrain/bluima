@@ -1,0 +1,18 @@
+5 EXPERIMENTS
+We have tested our system on a corpus of 145,316 documents (445 MB) from the CNN Web site.7 We have used the
+KIM domain ontology and KB [20], publicly available as
+part of the KIM Platform, developed by Ontotext Lab,8 with
+minor extensions and adjustments to conform to our toplevel metamodel described in Section 3. We have also
+manually added classes and instances in areas where the
+KIM KB fell short (such as the Sports domain), in order to
+support a larger testbed for experimentation. Only one
+classification taxonomy is used, based on the categories of
+the CNN archive (such as Business, Politics, Sports, etc., and
+subcategories thereof), with which all documents and
+domain classes are classified, as explained in Section 3.1.
+Our current implementation is compatible with both RDF
+and OWL. The complete KB includes 281 classes, 138 properties, 35,689 instances, and 465,848 sentences, taking a total
+of 71 MB in RDF text format. For efficiency, the KB has been
+stored on a MySQL backend using Jena 2.2. Based on the
+concept-keyword mapping available in the KIM KB, over
+3  106 annotations (i.e., over 25 per document on average)

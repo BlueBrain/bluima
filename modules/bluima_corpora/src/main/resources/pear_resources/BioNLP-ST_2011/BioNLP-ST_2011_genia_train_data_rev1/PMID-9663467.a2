@@ -1,0 +1,15 @@
+*	Equiv T3 T4
+T18	Binding 63 84	its specific receptor
+T19	Positive_regulation 592 599	induced
+T20	Entity 600 608	tyrosine
+T21	Phosphorylation 609 624	phosphorylation
+T22	Binding 737 744	binding
+E1	Binding:T18 Theme:T1 Theme2:T2
+E2	Positive_regulation:T19 Theme:E4 Cause:T8
+E3	Positive_regulation:T19 Theme:E5 Cause:T8
+E4	Phosphorylation:T21 Theme:T9 Site:T20
+E5	Phosphorylation:T21 Theme:T10 Site:T20
+E6	Binding:T22 Theme:T11 Theme2:T13
+E7	Binding:T22 Theme:T12 Theme2:T13
+M1	Negation E3
+M2	Negation E6

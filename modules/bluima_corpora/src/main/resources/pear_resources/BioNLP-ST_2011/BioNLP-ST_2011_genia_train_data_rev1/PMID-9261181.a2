@@ -1,0 +1,44 @@
+*	Equiv T4 T3
+T21	Gene_expression 46 55	expressed
+T22	Regulation 88 96	controls
+T23	Gene_expression 110 120	expression
+T24	Gene_expression 180 188	produced
+T25	Positive_regulation 572 585	critical role
+T26	Entity 630 638	promoter
+T27	Positive_regulation 639 649	activation
+T28	Positive_regulation 766 774	critical
+T29	Gene_expression 779 789	expression
+T30	Negative_regulation 868 877	abolished
+T31	Entity 912 920	promoter
+T32	Positive_regulation 921 931	activation
+T33	Gene_expression 954 964	expression
+T34	Gene_expression 1019 1028	producing
+T35	Positive_regulation 1039 1048	activated
+T36	Entity 1058 1066	promoter
+T37	Gene_expression 1178 1188	expression
+T38	Positive_regulation 1193 1205	up-regulated
+T39	Negative_regulation 1239 1253	down-regulated
+T40	Gene_expression 1329 1338	expressed
+T41	Negative_regulation 1463 1473	Inhibition
+E1	Gene_expression:T21 Theme:T1
+E2	Regulation:T22 Theme:E3 Cause:T1
+E3	Gene_expression:T23 Theme:T2
+E4	Gene_expression:T24 Theme:T4
+E5	Positive_regulation:T25 Theme:E6 Cause:T7
+E6	Positive_regulation:T27 Theme:T8 Site:T26
+E7	Positive_regulation:T28 Theme:E8 Cause:T9
+E8	Gene_expression:T29 Theme:T10
+E9	Negative_regulation:T30 Theme:E10
+E10	Positive_regulation:T32 Theme:T12 Site:T31
+E11	Gene_expression:T33 Theme:T13
+E12	Gene_expression:T34 Theme:T14
+E13	Positive_regulation:T35 Theme:T15 Site:T36
+E14	Positive_regulation:T35 Theme:T15 Cause:E11 Site:T36
+E15	Gene_expression:T37 Theme:T17
+E16	Positive_regulation:T38 Theme:E15
+E17	Negative_regulation:T39 Theme:E15
+E18	Gene_expression:T40 Theme:T18
+E19	Negative_regulation:T41 Theme:T20
+M1	Negation E4
+M2	Negation E12
+M3	Negation E17

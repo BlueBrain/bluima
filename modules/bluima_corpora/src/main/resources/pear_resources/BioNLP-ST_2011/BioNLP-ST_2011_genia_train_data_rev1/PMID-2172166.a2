@@ -1,0 +1,6 @@
+T24	Gene_expression 758 767	expressed
+T25	Gene_expression 1005 1015	expressing
+E1	Gene_expression:T24 Theme:T10
+E2	Gene_expression:T25 Theme:T14
+E3	Gene_expression:T25 Theme:T13
+M1	Negation E2

@@ -1,0 +1,20 @@
+T17	Positive_regulation 50 58	required
+T18	Gene_expression 280 289	expressed
+T19	Positive_regulation 596 610	overexpression
+T20	Gene_expression 596 610	overexpression
+T21	Regulation 705 713	involved
+T22	Gene_expression 731 741	expression
+T23	Positive_regulation 944 958	overexpression
+T24	Gene_expression 944 958	overexpression
+T25	Positive_regulation 1717 1731	overexpression
+T26	Gene_expression 1717 1731	overexpression
+E1	Positive_regulation:T17 Theme:T1
+E2	Gene_expression:T18 Theme:T2
+E3	Positive_regulation:T19 Theme:E4
+E4	Gene_expression:T20 Theme:T4
+E5	Regulation:T21 Theme:E6
+E6	Gene_expression:T22 Theme:T5
+E7	Positive_regulation:T23 Theme:E8
+E8	Gene_expression:T24 Theme:T8
+E9	Positive_regulation:T25 Theme:T15
+E10	Gene_expression:T26 Theme:T15

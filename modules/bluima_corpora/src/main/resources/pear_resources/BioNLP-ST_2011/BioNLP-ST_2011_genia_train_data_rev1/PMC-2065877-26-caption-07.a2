@@ -1,0 +1,16 @@
+T17	Regulation 242 249	targets
+T18	Positive_regulation 261 272	inactivated
+T19	Positive_regulation 298 307	activated
+T20	Positive_regulation 568 577	activated
+E1	Regulation:T17 Theme:T8
+E2	Regulation:T17 Theme:T9
+E3	Positive_regulation:T18 Theme:T8
+E4	Positive_regulation:T18 Theme:T9
+E5	Positive_regulation:T19 Theme:T10
+E6	Positive_regulation:T20 Theme:T14
+M1	Negation E3
+M2	Speculation E3
+M3	Negation E4
+M4	Speculation E4
+M5	Speculation E5
+M6	Speculation E6

@@ -1,0 +1,219 @@
+Citation {
+display: block;
+text-align: right;
+font-size: 12px;
+font-style: italic;
+}
+
+Title {
+display: block;
+text-align: center;
+font-size: 14px;
+font-weight: bold;
+}
+
+Authors {
+display: block;
+text-align: center;
+font-size: 14px;
+}
+
+Abstract {
+display: block;
+text-align: center;
+font-size: 12px;
+margin-top: 10pt;
+margin-bottom: 10pt;
+margin-left: 30pt;
+margin-right: 30pt;
+}
+
+Introduction {
+display: block;
+font-size: 12px;
+margin-top: 10pt;
+margin-bottom: 10pt;
+margin-left: 10pt;
+margin-right: 10pt;
+}
+
+Methods {
+display: block;
+font-size: 12px;
+margin-top: 10pt;
+margin-bottom: 10pt;
+margin-left: 10pt;
+margin-right: 10pt;
+}
+
+Results {
+display: block;
+font-size: 12px;
+margin-top: 10pt;
+margin-bottom: 10pt;
+margin-left: 10pt;
+margin-right: 10pt;
+}
+
+Discussion {
+display: block;
+font-size: 12px;
+margin-top: 10pt;
+margin-bottom: 10pt;
+margin-left: 10pt;
+margin-right: 10pt;
+}
+
+Conclusions {
+display: block;
+font-size: 12px;
+margin-top: 10pt;
+margin-bottom: 10pt;
+margin-left: 10pt;
+margin-right: 10pt;
+}
+
+Acknowledgements{
+display: block;
+font-size: 12px;
+margin-top: 10pt;
+margin-bottom: 10pt;
+margin-left: 10pt;
+margin-right: 10pt;
+}
+
+References{
+display: block;
+font-size: 10px;
+margin-top: 10pt;
+margin-bottom: 10pt;
+margin-left: 10pt;
+margin-right: 10pt;
+}
+
+S {
+display: none;
+}
+
+S[class="introduction.subtitle"] {
+font-weight: bold;
+}
+
+S[class="methods.subtitle"] {
+font-weight: bold;
+}
+
+S[class="results.subtitle"] {
+font-weight: bold;
+}
+
+S[class="discussion.subtitle"] {
+font-weight: bold;
+}
+
+S[class="conclusions.subtitle"] {
+font-weight: bold;
+}
+
+S[class="acknowledgements.subtitle"] {
+font-weight: bold;
+}
+
+S[class="references.subtitle"] {
+font-weight: bold;
+}
+
+S[class="introduction.heading"] {
+font-weight: bold;
+}
+
+S[class="methods.heading"] {
+font-weight: bold;
+}
+
+S[class="results.heading"] {
+font-weight: bold;
+}
+
+S[class="discussion.heading"] {
+font-weight: bold;
+}
+
+S[class="conclusions.heading"] {
+font-weight: bold;
+}
+
+S[class="acknowledgements.heading"] {
+font-weight: bold;
+}
+
+S[class="references.heading"] {
+font-weight: bold;
+}
+
+BR {
+display: block; 	
+}
+
+TTE {
+display: block;
+border-width:thin;
+border-style:dashed;
+border-color:blue;
+margin-top: 5pt;
+margin-bottom: 5pt;
+margin-left: 5pt;
+margin-right: 5pt;
+}
+
+injectionLocation {
+	display: inline;
+	background-color: yellow;
+}
+
+injectionSpread {
+	display: inline;
+	background-color: lime;
+}
+
+labelingLocation {
+	display: inline;
+	background-color: red;
+}
+
+tracerChemical {
+	display: inline;
+	background-color: silver;
+}
+
+labelingDescription {
+	display: inline;
+	background-color: fuchsia;
+}
+
+labelingModifier {
+	display: inline;
+	background-color: aqua;
+}
+exptLabel {
+	display: inline;
+	background-color: olive;
+}
+connxOrigin {
+	display: inline;
+	background-color: #6666FF;
+}
+connxTermination {
+	display: inline;
+	background-color: #AAAAFF;;
+}
+
+neuroanatomicalLandmark {
+	display: inline;
+	background-color: #BBDDFF;
+}
+
+neuroanatomicalLocation {
+	display: inline;
+	background-color: #DDDDFF;
+}

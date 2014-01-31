@@ -1,0 +1,4 @@
+T3	Positive_regulation 54 68	overexpression
+T4	Gene_expression 297 307	expression
+E1	Positive_regulation:T3 Theme:T1
+E2	Gene_expression:T4 Theme:T2

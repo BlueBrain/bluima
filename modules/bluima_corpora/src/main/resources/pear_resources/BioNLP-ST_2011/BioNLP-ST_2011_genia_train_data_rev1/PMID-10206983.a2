@@ -1,0 +1,22 @@
+*	Equiv T1 T2
+*	Equiv T4 T3
+T13	Gene_expression 378 392	Overexpression
+T14	Positive_regulation 378 392	Overexpression
+T15	Positive_regulation 544 554	activation
+T16	Binding 580 587	binding
+T17	Regulation 749 753	acts
+T18	Negative_regulation 838 845	reduces
+T19	Positive_regulation 882 902	catalytic activation
+T20	Binding 1070 1090	physical association
+E1	Gene_expression:T13 Theme:T4
+E2	Positive_regulation:T14 Theme:T4
+E3	Positive_regulation:T15 Theme:E4
+E4	Binding:T16 Theme:T5
+E5	Regulation:T17 Theme:T9 Cause:T7
+E6	Regulation:T17 Theme:T8 Cause:T7
+E7	Negative_regulation:T18 Theme:E9 Cause:T7
+E8	Negative_regulation:T18 Theme:E10 Cause:T7
+E9	Positive_regulation:T19 Theme:T9
+E10	Positive_regulation:T19 Theme:T8
+E11	Binding:T20 Theme:T11
+M1	Negation E11

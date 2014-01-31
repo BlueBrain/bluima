@@ -1,0 +1,8 @@
+
+
+cr: XCollectionReader
+ directoryIterator: LargeDirectoryIterator
+ inputDirectory: /Volumes/HDD2/ren_data/data_hdd/experiments/evaluate_mongo/20130501_writeto_xcas
+ xmlSchemeName: XCAS
+
+ae: StatsAnnotatorPlus

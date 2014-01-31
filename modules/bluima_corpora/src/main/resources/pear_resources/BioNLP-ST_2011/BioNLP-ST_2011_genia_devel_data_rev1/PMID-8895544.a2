@@ -1,0 +1,46 @@
+*	Equiv T5 T4
+*	Equiv T3 T2
+T16	Positive_regulation 12 18	induce
+T17	Positive_regulation 316 339	results in an increased
+T18	Transcription 340 350	expression
+T19	Positive_regulation 486 511	Transcriptional induction
+T20	Positive_regulation 567 578	parallelled
+T21	Positive_regulation 585 593	increase
+T22	Positive_regulation 625 638	Up-regulation
+T23	Gene_expression 670 680	expression
+T24	Positive_regulation 742 751	induction
+T25	Positive_regulation 766 775	dependent
+T26	Regulation 930 937	effects
+T27	Regulation 964 974	regulation
+T28	Positive_regulation 1040 1048	increase
+T29	Gene_expression 1063 1069	levels
+T30	Positive_regulation 1244 1252	observed
+E1	Positive_regulation:T16 Theme:T1
+E2	Positive_regulation:T17 Theme:E4
+E3	Positive_regulation:T17 Theme:E5
+E4	Transcription:T18 Theme:T5
+E5	Transcription:T18 Theme:T3
+E6	Positive_regulation:T19 Theme:T6
+E7	Positive_regulation:T19 Theme:T7
+E8	Positive_regulation:T20 Theme:E10 Cause:E6
+E9	Positive_regulation:T20 Theme:E11 Cause:E7
+E10	Positive_regulation:T21 Theme:T6
+E11	Positive_regulation:T21 Theme:T7
+E12	Positive_regulation:T22 Theme:E15
+E13	Positive_regulation:T22 Theme:E14
+E14	Gene_expression:T23 Theme:T8
+E15	Gene_expression:T23 Theme:T9
+E16	Positive_regulation:T24 Theme:T10
+E17	Positive_regulation:T24 Theme:T11
+E18	Positive_regulation:T25 Theme:T11
+E19	Positive_regulation:T25 Theme:T10
+E20	Regulation:T26 Theme:E23
+E21	Regulation:T26 Theme:E22
+E22	Regulation:T27 Theme:T13
+E23	Regulation:T27 Theme:T12
+E24	Positive_regulation:T28 Theme:E25
+E25	Gene_expression:T29 Theme:T14
+E26	Positive_regulation:T30 Theme:T14
+M1	Negation E20
+M2	Negation E21
+M3	Negation E26

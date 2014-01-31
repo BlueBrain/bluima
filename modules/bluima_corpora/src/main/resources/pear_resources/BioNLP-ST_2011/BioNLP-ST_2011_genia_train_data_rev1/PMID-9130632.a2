@@ -1,0 +1,48 @@
+*	Equiv T8 T9
+T22	Positive_regulation 43 51	required
+T23	Positive_regulation 92 102	activation
+T24	Positive_regulation 259 270	Stimulation
+T25	Binding 356 369	cross-linking
+T26	Positive_regulation 370 377	induced
+T27	Entity 378 386	tyrosine
+T28	Phosphorylation 387 402	phosphorylation
+T29	Positive_regulation 421 428	maximal
+T30	Entity 603 611	promoter
+T31	Positive_regulation 621 631	stimulated
+T32	Binding 635 648	cross-linking
+T33	Negative_regulation 709 716	reduced
+T34	Gene_expression 730 740	expression
+T35	Negative_regulation 814 822	decrease
+T36	Entity 826 834	tyrosine
+T37	Phosphorylation 835 850	phosphorylation
+T38	Positive_regulation 880 891	Stimulation
+T39	Positive_regulation 1009 1017	included
+T40	Entity 1035 1043	promoter
+T41	Gene_expression 1089 1099	expression
+T42	Regulation 1154 1166	plays a role
+T43	Gene_expression 1175 1185	production
+E1	Positive_regulation:T22 Theme:E2 Cause:T1
+E2	Positive_regulation:T23 Theme:T3 Cause:T2
+E3	Positive_regulation:T24 Theme:T5 Cause:E4
+E4	Binding:T25 Theme:T5
+E5	Positive_regulation:T26 Theme:E7
+E6	Positive_regulation:T26 Theme:E7 Cause:E3
+E7	Phosphorylation:T28 Theme:T6 Site:T27
+E8	Positive_regulation:T29 Theme:E5
+E9	Positive_regulation:T29 Theme:E6
+E10	Positive_regulation:T31 Theme:T8 Cause:E13 Site:T30
+E11	Positive_regulation:T31 Theme:T8 Site:T30
+E12	Positive_regulation:T31 Theme:T8 Cause:E14 Site:T30
+E13	Binding:T32 Theme:T11
+E14	Binding:T32 Theme:T10
+E15	Negative_regulation:T33 Theme:E10 Cause:E18
+E16	Negative_regulation:T33 Theme:E12 Cause:E18
+E17	Negative_regulation:T33 Theme:E11 Cause:E18
+E18	Gene_expression:T34 Theme:T12
+E19	Negative_regulation:T35 Theme:E20
+E20	Phosphorylation:T37 Theme:T13 Site:T36
+E21	Positive_regulation:T38 Theme:T14
+E22	Positive_regulation:T39 Theme:T15 Site:T40
+E23	Gene_expression:T41 Theme:T16
+E24	Regulation:T42 Theme:E25 Cause:T17
+E25	Gene_expression:T43 Theme:T18

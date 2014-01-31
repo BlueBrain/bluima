@@ -1,0 +1,10 @@
+cr: TextArrayReader
+ input__java: new String[]{"Briefly, cells or tissue from mice developing cerebral cortex were lysed in a RIPA buffer (50 mM HEPES, pH 7.4, 150 mM NaCL, 5 mM MgCL2, 5 mM DTT, 1 mM PMSF, 1 mM EDTA, 1% Triton X-100, 0.1% SDS, and protease inhibitor mixture)."}
+########################################################################################
+include: 20131204_preprocess.incl
+include: 20131204_extract_proteinconc.incl
+########################################################################################
+
+ae: TestAnnotator
+ expects: ch.epfl.bbp.uima.types.Cooccurrence 0
+

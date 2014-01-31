@@ -1,0 +1,17 @@
+# to check job duration
+
+cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+ inputDirectory: /Users/philemonfavrod/Documents/Dev/BachelorProject/temp___/
+ #inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/4_pdfs
+ #inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/
+ isRecursive__java: true
+
+
+########################################################################################
+include: 20131120_extract_proteinconc.incl
+
+include: 20131120_extract_prot_x_subcell-cell-br.incl
+########################################################################################
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 2

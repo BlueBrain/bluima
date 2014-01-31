@@ -1,0 +1,6 @@
+T20	Negative_regulation 0 9	Silencing
+T21	Gene_expression 682 693	coexpressed
+E1	Negative_regulation:T20 Theme:T1
+E2	Negative_regulation:T20 Theme:T2
+E3	Gene_expression:T21 Theme:T18
+E4	Gene_expression:T21 Theme:T19

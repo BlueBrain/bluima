@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<synonym>
+<token canonical="spatial_region" ref_id="SpatialRegion">
+  <variant base="spatial_region" />
+</token>
+<token canonical="site" ref_id="Site">
+  <variant base="site" />
+</token>
+<token canonical="two_dimensional_region" ref_id="TwoDimensionalRegion">
+  <variant base="two_dimensional_region" />
+</token>
+<token canonical="material_entity" ref_id="MaterialEntity">
+  <variant base="material_entity" />
+</token>
+<token canonical="quality" ref_id="Quality">
+  <variant base="quality" />
+</token>
+<token canonical="zero_dimensional_region" ref_id="ZeroDimensionalRegion">
+  <variant base="zero_dimensional_region" />
+</token>
+<token canonical="function" ref_id="Function">
+  <variant base="function" />
+</token>
+<token canonical="dependent_continuant" ref_id="DependentContinuant">
+  <variant base="dependent_continuant" />
+</token>
+<token canonical="disposition" ref_id="Disposition">
+  <variant base="disposition" />
+</token>
+<token canonical="generically_dependent_continuant" ref_id="GenericallyDependentContinuant">
+  <variant base="generically_dependent_continuant" />
+</token>
+<token canonical="continuant" ref_id="Continuant">
+  <variant base="continuant" />
+</token>
+<token canonical="three_dimensional_region" ref_id="ThreeDimensionalRegion">
+  <variant base="three_dimensional_region" />
+</token>
+<token canonical="Fiat Object Part" ref_id="FiatObjectPart">
+  <variant base="fiat_object_part" />
+  <variant base="Fiat Object Part" />
+</token>
+<token canonical="one_dimensional_region" ref_id="OneDimensionalRegion">
+  <variant base="one_dimensional_region" />
+</token>
+<token canonical="specifically_dependent_continuant" ref_id="SpecificallyDependentContinuant">
+  <variant base="specifically_dependent_continuant" />
+</token>
+<token canonical="role" ref_id="Role">
+  <variant base="role" />
+</token>
+<token canonical="realizable_entity" ref_id="RealizableEntity">
+  <variant base="realizable_entity" />
+</token>
+<token canonical="ObjectAggregate" ref_id="ObjectAggregate">
+  <variant base="ObjectAggregate" />
+  <variant base="object_aggregate" />
+</token>
+<token canonical="independent_continuant" ref_id="IndependentContinuant">
+  <variant base="independent_continuant" />
+</token>
+<token canonical="object" ref_id="Object">
+  <variant base="object" />
+</token>
+<token canonical="object_boundary" ref_id="ObjectBoundary">
+  <variant base="object_boundary" />
+</token>
+</synonym>

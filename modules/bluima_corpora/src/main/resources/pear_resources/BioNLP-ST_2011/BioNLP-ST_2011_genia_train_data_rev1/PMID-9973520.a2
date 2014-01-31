@@ -1,0 +1,36 @@
+T20	Positive_regulation 51 63	up-regulates
+T21	Binding 414 427	cross-linking
+T22	Binding 432 439	binding
+T23	Positive_regulation 454 463	augmented
+T24	Gene_expression 471 481	expression
+T25	Gene_expression 589 598	expressed
+T26	Binding 608 621	cross-linking
+T27	Positive_regulation 655 664	augmented
+T28	Gene_expression 672 682	expression
+T29	Transcription 696 709	transcription
+T30	Positive_regulation 801 813	up-regulated
+T31	Positive_regulation 830 839	activated
+T32	Binding 978 991	cross-linking
+T33	Positive_regulation 1110 1121	up-regulate
+T34	Gene_expression 1129 1139	expression
+E1	Positive_regulation:T20 Theme:T2
+E2	Binding:T21 Theme:T5
+E3	Binding:T22 Theme:T5
+E4	Positive_regulation:T23 Theme:E5 Cause:E3
+E5	Gene_expression:T24 Theme:T7
+E6	Gene_expression:T25 Theme:T8
+E7	Binding:T26 Theme:T9
+E8	Positive_regulation:T27 Theme:E14 Cause:E7
+E9	Positive_regulation:T27 Theme:E16 Cause:E7
+E10	Positive_regulation:T27 Theme:E12 Cause:E7
+E11	Positive_regulation:T27 Theme:E15 Cause:E7
+E12	Gene_expression:T28 Theme:T10
+E13	Gene_expression:T28 Theme:T11
+E14	Transcription:T29 Theme:T10
+E15	Transcription:T29 Theme:T11
+E16	Transcription:T29 Theme:T12
+E17	Positive_regulation:T30 Theme:T13
+E18	Positive_regulation:T31 Theme:T15 Cause:T14
+E19	Binding:T32 Theme:T16
+E20	Positive_regulation:T33 Theme:E21
+E21	Gene_expression:T34 Theme:T18

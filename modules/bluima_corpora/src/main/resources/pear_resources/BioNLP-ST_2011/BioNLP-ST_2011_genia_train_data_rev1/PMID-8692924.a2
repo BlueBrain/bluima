@@ -1,0 +1,5 @@
+T11	Regulation 186 196	deregulate
+T12	Gene_expression 201 211	expression
+E1	Regulation:T11 Theme:E2
+E2	Gene_expression:T12 Theme:T2
+M1	Negation E1

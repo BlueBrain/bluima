@@ -1,0 +1,10 @@
+T6	Binding 141 151	associates
+T7	Positive_regulation 528 540	up-regulated
+T8	Gene_expression 549 559	expression
+E1	Binding:T6 Theme:T1
+E2	Positive_regulation:T7 Theme:E7
+E3	Positive_regulation:T7 Theme:E6
+E4	Positive_regulation:T7 Theme:E5
+E5	Gene_expression:T8 Theme:T5
+E6	Gene_expression:T8 Theme:T3
+E7	Gene_expression:T8 Theme:T4

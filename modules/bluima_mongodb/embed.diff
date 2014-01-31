@@ -1,0 +1,306 @@
+Index: src/test/java/ch/epfl/bbp/uima/mongo/MongoUtilsTest.java
+===================================================================
+--- src/test/java/ch/epfl/bbp/uima/mongo/MongoUtilsTest.java	(revision 1054)
++++ src/test/java/ch/epfl/bbp/uima/mongo/MongoUtilsTest.java	(working copy)
+@@ -2,42 +2,97 @@
+ 
+ import static ch.epfl.bbp.uima.BlueCasUtil.asList;
+ import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
++import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
+ import static org.junit.Assert.assertEquals;
+-import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
+ 
+ import java.util.List;
+ 
+ import org.apache.uima.jcas.JCas;
++import org.junit.After;
++import org.junit.Before;
+ import org.junit.Test;
+ 
+ import ch.epfl.bbp.uima.BlueUima;
+ 
++import com.mongodb.DB;
++import com.mongodb.DBCollection;
++import com.mongodb.Mongo;
++import com.mongodb.MongoClient;
++
++import de.flapdoodle.embed.mongo.MongodExecutable;
++import de.flapdoodle.embed.mongo.MongodProcess;
++import de.flapdoodle.embed.mongo.MongodStarter;
++import de.flapdoodle.embed.mongo.config.MongodConfigBuilder;
++import de.flapdoodle.embed.mongo.config.Net;
++import de.flapdoodle.embed.mongo.distribution.Version;
++import de.flapdoodle.embed.process.runtime.Network;
++
+ /**
+  * @author renaud.richardet@epfl.ch
+  */
+ public class MongoUtilsTest {
+ 
++    private MongodExecutable _mongodExe;
++    private MongodProcess _mongod;
++
++    private MongoClient _mongo;
++    private DBCollection coll;
++
++    @Before
++    public void setUp() throws Exception {
++
++        MongodStarter runtime = MongodStarter.getDefaultInstance();
++        _mongodExe = runtime.prepare(new MongodConfigBuilder()
++                .version(Version.Main.PRODUCTION)
++                .net(new Net(8234, Network.localhostIsIPv6())).build());
++        _mongod = _mongodExe.start();
++
++        _mongo = new MongoClient(Network.getLocalHost().getHostAddress(), 8234);
++    }
++
++    @After
++    public void tearDown() throws Exception {
++
++        _mongod.stop();
++        _mongodExe.stop();
++    }
++
++    public Mongo getMongo() {
++        return _mongo;
++    }
++
++    public MongoConnection getTestMongoConnection(String testName) {
++
++        Mongo mongo = getMongo();
++        String collectionName = "test_" + testName + "_"
++                + System.currentTimeMillis();
++
++        DB db = mongo.getDB("uima_testing");
++        coll = db.getCollection(collectionName);
++        return new MongoConnection(mongo.getAddress().getHost(),
++                "uima_testing", collectionName, "raoul", "", mongo, db, coll);
++    }
++
+     @Test
+     public void testAddFlag() throws Exception {
+-        String[] conn = MongoTest.getTestConn("MongoAddFlag");
+ 
+-        MongoConnection mongo = new MongoConnection(conn);
++        MongoConnection mongo = getTestMongoConnection("addFlag");
+         MongoUtils.addFlag(17, "blih", mongo);
+         MongoUtils.addFlag(18, "blih", mongo);
+         MongoUtils.addFlag(19, "blih", mongo);
+ 
+         String query = "{ftr.blih:1}";
+-        List<JCas> l = asList(createReader(
+-                MongoCollectionReader.class, JULIE_TSD,
+-                BlueUima.PARAM_DB_CONNECTION, conn, BlueUima.PARAM_QUERY, query));
++        List<JCas> l = asList(createReader(MongoCollectionReader.class,
++                JULIE_TSD, BlueUima.PARAM_DB_CONNECTION, mongo.getConn(),
++                BlueUima.PARAM_QUERY, query));
+         assertEquals("there should be 3 docs with flag 'blih'", 3, l.size());
+ 
+         MongoUtils.addFlag(17, "blah", mongo);
+         MongoUtils.addFlag(28, "blah", mongo);
+ 
+         query = "{ftr.blah:1}";
+-        l = asList(createReader(MongoCollectionReader.class,
+-                JULIE_TSD, BlueUima.PARAM_DB_CONNECTION, conn,
++        l = asList(createReader(MongoCollectionReader.class, JULIE_TSD,
++                BlueUima.PARAM_DB_CONNECTION, mongo.getConn(),
+                 BlueUima.PARAM_QUERY, query));
+         assertEquals("there should be 2 docs with flag 'blah'", 2, l.size());
+     }
+@@ -55,9 +110,9 @@
+         MongoUtils.addFlag(22, "blih", mongo);
+ 
+         String query = "{ftr.blih:1}";
+-        List<JCas> l = asList(createReader(
+-                MongoCollectionReader.class, JULIE_TSD,
+-                BlueUima.PARAM_DB_CONNECTION, conn, BlueUima.PARAM_QUERY, query));
++        List<JCas> l = asList(createReader(MongoCollectionReader.class,
++                JULIE_TSD, BlueUima.PARAM_DB_CONNECTION, conn,
++                BlueUima.PARAM_QUERY, query));
+         assertEquals("there should be 2 docs with flag 'blah'", 6, l.size());
+ 
+         MongoUtils.addFlag(118, "asdfasdfblah", mongo);
+@@ -69,15 +124,13 @@
+         MongoUtils.addFlag(20, "bluh", mongo);
+ 
+         query = "{ $and: [ { ftr.blah: 1 }, { ftr.bluh: 1} ] }";
+-        l = asList(createReader(MongoCollectionReader.class,
+-                JULIE_TSD, BlueUima.PARAM_DB_CONNECTION, conn,
+-                BlueUima.PARAM_QUERY, query));
++        l = asList(createReader(MongoCollectionReader.class, JULIE_TSD,
++                BlueUima.PARAM_DB_CONNECTION, conn, BlueUima.PARAM_QUERY, query));
+         assertEquals("there should be 1 docs", 1, l.size());
+ 
+         query = "{ $and: [ { ftr.blah: { $ne: 1 } }, { ftr.bluh: 1} ] }";
+-        l = asList(createReader(MongoCollectionReader.class,
+-                JULIE_TSD, BlueUima.PARAM_DB_CONNECTION, conn,
+-                BlueUima.PARAM_QUERY, query));
++        l = asList(createReader(MongoCollectionReader.class, JULIE_TSD,
++                BlueUima.PARAM_DB_CONNECTION, conn, BlueUima.PARAM_QUERY, query));
+         assertEquals("there should be 2 docs", 2, l.size());
+ 
+     }
+Index: src/main/java/ch/epfl/bbp/uima/mongo/MongoConnection.java
+===================================================================
+--- src/main/java/ch/epfl/bbp/uima/mongo/MongoConnection.java	(revision 1050)
++++ src/main/java/ch/epfl/bbp/uima/mongo/MongoConnection.java	(working copy)
+@@ -18,61 +18,77 @@
+  */
+ public class MongoConnection {
+ 
+-	final public String host, dbName, collectionName, user, pw;
+-	final public Mongo m;
+-	final public DB db;
+-	final public DBCollection coll;
++    final public String host, dbName, collectionName, user, pw;
++    final public Mongo m;
++    final public DB db;
++    final public DBCollection coll;
+ 
+-	/**
+-	 * @param db_connection
+-	 *            an array {host, dbName, collectionName, user, pw}. Leave user
+-	 *            and pw empty ("") to skip authentication
+-	 */
+-	public MongoConnection(String[] db_connection) throws UnknownHostException,
+-			MongoException {
+-		this(db_connection, true);
+-	}
++    /**
++     * @param db_connection
++     *            an array {host, dbName, collectionName, user, pw}. Leave user
++     *            and pw empty ("") to skip authentication
++     */
++    public MongoConnection(String[] db_connection) throws UnknownHostException,
++            MongoException {
++        this(db_connection, true);
++    }
+ 
+-	/**
+-	 * @param db_connection
+-	 *            an array {host, dbName, collectionName, user, pw}. Leave user
+-	 *            and pw empty ("") to skip authentication
+-	 */
+-	public MongoConnection(String[] db_connection, boolean safe)
+-			throws UnknownHostException, MongoException {
++    /**
++     * @param db_connection
++     *            an array {host, dbName, collectionName, user, pw}. Leave user
++     *            and pw empty ("") to skip authentication
++     */
++    public MongoConnection(String[] db_connection, boolean safe)
++            throws UnknownHostException, MongoException {
+ 
+-		checkArgument(db_connection.length == 5,
+-				"Should be: host, dbname, collectionname, user, pw but lengh = "
+-						+ db_connection.length);
++        checkArgument(db_connection.length == 5,
++                "Should be: host, dbname, collectionname, user, pw but lengh = "
++                        + db_connection.length);
+ 
+-		host = db_connection[0];
+-		dbName = db_connection[1];
+-		collectionName = db_connection[2];
+-		user = db_connection[3];
+-		pw = db_connection[4];
++        host = db_connection[0];
++        dbName = db_connection[1];
++        collectionName = db_connection[2];
++        user = db_connection[3];
++        pw = db_connection[4];
+ 
+-		checkNotNull(host, "host is NULL");
+-		checkNotNull(dbName, "dbName is NULL");
+-		checkNotNull(collectionName, "collectionName is NULL");
+-		checkNotNull(user, "user is NULL");
+-		checkNotNull(pw, "pw is NULL");
++        checkNotNull(host, "host is NULL");
++        checkNotNull(dbName, "dbName is NULL");
++        checkNotNull(collectionName, "collectionName is NULL");
++        checkNotNull(user, "user is NULL");
++        checkNotNull(pw, "pw is NULL");
+ 
+-		m = new Mongo(host, 27017);
+-		if (safe)
+-			m.setWriteConcern(WriteConcern.SAFE);
+-		m.getDatabaseNames();// to test connection
+-		db = m.getDB(dbName);
+-		if (user.length() > 0) {
+-			if (!db.authenticate(user, pw.toCharArray())) {
+-				throw new MongoException(-1, "cannot login with user " + user);
+-			}
+-		}
+-		coll = db.getCollection(collectionName);
+-	}
++        m = new Mongo(host, 27017);
++        if (safe)
++            m.setWriteConcern(WriteConcern.SAFE);
++        m.getDatabaseNames();// to test connection
++        db = m.getDB(dbName);
++        if (user.length() > 0) {
++            if (!db.authenticate(user, pw.toCharArray())) {
++                throw new MongoException(-1, "cannot login with user " + user);
++            }
++        }
++        coll = db.getCollection(collectionName);
++    }
+ 
+-	@Override
+-	public String toString() {
+-		return "MongoConnection: " + host + ":" + dbName + "::"
+-				+ collectionName;
+-	}
++    public MongoConnection(String host, String dbName, String collectionName,
++            String user, String pw, Mongo mongo, DB db, DBCollection coll) {
++        this.host = host;
++        this.dbName = dbName;
++        this.collectionName = collectionName;
++        this.user = user;
++        this.pw = pw;
++        this.m = mongo;
++        this.db = db;
++        this.coll = coll;
++    }
++
++    String[] getConn() {
++        return new String[] { host, dbName, collectionName, user, pw };
++    }
++
++    @Override
++    public String toString() {
++        return "MongoConnection: " + host + ":" + dbName + "::"
++                + collectionName;
++    }
+ }
+Index: pom.xml
+===================================================================
+--- pom.xml	(revision 1050)
++++ pom.xml	(working copy)
+@@ -18,14 +18,21 @@
+       <artifactId>blue_uima_utils</artifactId>
+       <version>0.1.0-SNAPSHOT</version>
+     </dependency>
+-  
+-    
++
++
+     <!-- MONGO -->
+     <dependency>
+       <groupId>org.mongodb</groupId>
+       <artifactId>mongo-java-driver</artifactId>
+-      <version>2.8.0</version>
++      <version>2.11.3</version>
++      <optional>true</optional>
+     </dependency>
++
++    <dependency>
++      <groupId>de.flapdoodle.embed</groupId>
++      <artifactId>de.flapdoodle.embed.mongo</artifactId>
++      <version>1.40</version>
++      <scope>test</scope>
++    </dependency>
+   </dependencies>
+-
+ </project>
+\ No newline at end of file

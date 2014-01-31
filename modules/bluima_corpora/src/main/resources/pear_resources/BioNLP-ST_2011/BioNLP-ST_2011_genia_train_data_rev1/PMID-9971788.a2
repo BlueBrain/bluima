@@ -1,0 +1,8 @@
+T6	Positive_regulation 1223 1237	cotransfection
+T7	Gene_expression 1223 1237	cotransfection
+T8	Localization 1646 1654	secreted
+T9	Gene_expression 1932 1940	provides
+E1	Positive_regulation:T6 Theme:E2
+E2	Gene_expression:T7 Theme:T3
+E3	Localization:T8 Theme:T4
+E4	Gene_expression:T9 Theme:T5

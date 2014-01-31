@@ -1,0 +1,6 @@
+T4	Negative_regulation 961 968	blocked
+T5	Gene_expression 973 983	production
+E1	Negative_regulation:T4 Theme:E4
+E2	Negative_regulation:T4 Theme:E3
+E3	Gene_expression:T5 Theme:T3
+E4	Gene_expression:T5 Theme:T2

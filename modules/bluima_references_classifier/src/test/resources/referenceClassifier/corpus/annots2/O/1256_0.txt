@@ -1,0 +1,28 @@
+We used the Cavalieri principle of stereological volume measurements (Gundersen, 1988 ; West and
+Gundersen, 1990). The Cavalieri principle refers to a
+method of obtaining an unbiased estimate of the
+volume of a structure by superimposing a randomly
+offset 3D grid on the data and counting the number of
+equally sized cubes within a structure. This principle
+was incorporated in software developed in our laboratory (Barta et al., 1997). The cubes were defined by
+the distance between the same points across slices.
+Each cube had sides of equal length. All points (intersection of grid lines) which fall within the object of
+interest are selected, and the total number of selected
+points provides an estimate of the volume of the object.
+In order to enhance grey/white matter contrast
+proton and T2 images were added together. T2 images
+were subtracted from proton images to enhance CSF to
+brain contrast (Schlaepfer et al., 1994, 1995). A 3D
+Cavalieri grid (12r12r12 voxels) was randomly
+placed on the image. Each dot, which was placed by
+the program on a grey-matter pixel, was selected to
+measure total grey matter, including all brain, cerebellum, and brainstem down to and including the
+level of the base of the cerebellum. Each white-matter
+dot in the same area was (in a separate measurement)
+selected on the same grid to measure total white matter. A smaller (6r6r1 voxel) grid and the same technique were used to measure grey and white matter in
+the frontal lobe (Figure 1). A 2r2r1 voxel Cavalieri
+grid placed on the difference image was used to
+measure the lateral ventricles. All grids, which fell on
+CSF in either lateral ventricle, were selected for this
+measurement. Choroid plexus was not included in the
+CSF measurement.

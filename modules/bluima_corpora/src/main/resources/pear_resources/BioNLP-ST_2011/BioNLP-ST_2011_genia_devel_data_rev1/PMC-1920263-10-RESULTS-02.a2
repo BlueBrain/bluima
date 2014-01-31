@@ -1,0 +1,10 @@
+T9	Positive_regulation 750 759	increased
+T10	Transcription 760 784	transcriptional activity
+T11	Entity 792 808	1025 bp sequence
+T12	Regulation 967 974	altered
+T13	Negative_regulation 1068 1072	drop
+E1	Positive_regulation:T9 Theme:E2 Cause:T6 CSite:T11
+E2	Transcription:T10 Theme:T5
+E3	Regulation:T12 Theme:E1
+E4	Negative_regulation:T13 Theme:E2
+M1	Negation E3

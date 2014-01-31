@@ -1,0 +1,25 @@
+T73	Negative_regulation 114 123	deficient
+T74	Negative_regulation 141 149	impaired
+T75	Positive_regulation 150 159	induction
+T76	Negative_regulation 2108 2113	siRNA
+T77	Negative_regulation 2321 2333	knocked down
+T78	Positive_regulation 2574 2583	important
+T79	Gene_expression 2625 2634	induction
+T80	Negative_regulation 3083 3090	reduced
+T81	Gene_expression 3097 3107	expression
+T82	Negative_regulation 3128 3138	inhibition
+E1	Negative_regulation:T73 Theme:T6
+E2	Negative_regulation:T74 Theme:E3 Cause:E1
+E3	Positive_regulation:T75 Theme:T8
+E4	Negative_regulation:T76 Theme:T58
+E5	Negative_regulation:T76 Theme:T59
+E6	Negative_regulation:T77 Theme:T62
+E7	Negative_regulation:T77 Theme:T63
+E8	Positive_regulation:T78 Theme:E9 Cause:T66
+E10	Positive_regulation:T78 Theme:E9 Cause:T67
+E9	Gene_expression:T79 Theme:T68
+E11	Negative_regulation:T80 Theme:E12 Cause:E13
+E14	Negative_regulation:T80 Theme:E12 Cause:E15
+E12	Gene_expression:T81 Theme:T70
+E13	Negative_regulation:T82 Theme:T71
+E15	Negative_regulation:T82 Theme:T72

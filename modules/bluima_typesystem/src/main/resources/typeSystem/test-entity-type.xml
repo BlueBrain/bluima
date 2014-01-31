@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>test-entity-type.xml</name>
+  <description>A mini type system with one type only, used for testing consistency preservation</description>
+  <version>2.1</version>
+  <vendor/>
+  <imports>
+    <import location="julie-semantics-mention-types.xml"/>
+  </imports>
+  <types>
+    <typeDescription>
+      <name>de.julielab.jules.types.GoodEntityMention</name>
+      <description>A test entity mention</description>
+      <supertypeName>de.julielab.jules.types.EntityMention</supertypeName>
+    </typeDescription>
+        <typeDescription>
+      <name>de.julielab.jules.types.BadEntityMention</name>
+      <description>A test entity mention</description>
+      <supertypeName>de.julielab.jules.types.EntityMention</supertypeName>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

@@ -1,0 +1,74 @@
+*	Equiv T6 T5
+*	Equiv T8 T7
+T29	Positive_regulation 20 28	increase
+T30	Positive_regulation 79 88	increases
+T31	Positive_regulation 420 431	culminating
+T32	Positive_regulation 446 455	increased
+T33	Positive_regulation 661 669	increase
+T34	Positive_regulation 717 725	increase
+T35	Positive_regulation 765 773	increase
+T36	Regulation 804 813	dependent
+T37	Negative_regulation 836 845	abrogated
+T38	Positive_regulation 921 929	increase
+T39	Regulation 950 959	unaltered
+T40	Positive_regulation 973 991	in the presence of
+T41	Regulation 1115 1121	effect
+T42	Positive_regulation 1138 1150	accumulation
+T43	Positive_regulation 1156 1165	increased
+T44	Positive_regulation 1229 1238	increases
+T45	Positive_regulation 1351 1359	increase
+T46	Negative_regulation 1408 1417	abrogated
+T47	Positive_regulation 1479 1499	results in increases
+T48	Positive_regulation 1558 1567	increases
+T49	Regulation 1600 1606	depend
+T50	Regulation 1638 1648	Modulation
+E1	Positive_regulation:T29 Theme:T1
+E2	Positive_regulation:T30 Theme:T4
+E3	Positive_regulation:T30 Theme:T2
+E4	Positive_regulation:T30 Theme:T3
+E5	Positive_regulation:T31 Theme:E7
+E6	Positive_regulation:T31 Theme:E8
+E7	Positive_regulation:T32 Theme:T8
+E8	Positive_regulation:T32 Theme:T6
+E9	Positive_regulation:T33 Theme:T9
+E10	Positive_regulation:T34 Theme:T10
+E11	Positive_regulation:T35 Theme:T11
+E12	Regulation:T36 Theme:E11
+E13	Negative_regulation:T37 Theme:E11
+E14	Positive_regulation:T38 Theme:T12
+E15	Regulation:T39 Theme:E14
+E16	Positive_regulation:T40 Theme:E15
+E17	Regulation:T41 Theme:E18
+E18	Positive_regulation:T42 Theme:T14
+E19	Positive_regulation:T43 Theme:T15
+E20	Positive_regulation:T44 Theme:T17
+E21	Positive_regulation:T44 Theme:T18
+E22	Positive_regulation:T44 Theme:T16
+E23	Positive_regulation:T45 Theme:T21
+E24	Positive_regulation:T45 Theme:T19
+E25	Positive_regulation:T45 Theme:T20
+E26	Negative_regulation:T46 Theme:E23
+E27	Negative_regulation:T46 Theme:E25
+E28	Negative_regulation:T46 Theme:E24
+E29	Positive_regulation:T47 Theme:T22
+E30	Positive_regulation:T47 Theme:T24
+E31	Positive_regulation:T47 Theme:T23
+E32	Positive_regulation:T47 Theme:T25
+E33	Positive_regulation:T48 Theme:T26
+E34	Positive_regulation:T48 Theme:T28
+E35	Positive_regulation:T48 Theme:T27
+E36	Regulation:T49 Theme:E33
+E37	Regulation:T49 Theme:E35
+E38	Regulation:T49 Theme:E34
+E39	Regulation:T50 Theme:E35
+E40	Regulation:T50 Theme:E33
+E41	Regulation:T50 Theme:E34
+M1	Negation E10
+M2	Negation E15
+M3	Negation E17
+M4	Negation E23
+M5	Negation E26
+M6	Speculation E36
+M7	Speculation E37
+M8	Speculation E38
+M9	Speculation E40

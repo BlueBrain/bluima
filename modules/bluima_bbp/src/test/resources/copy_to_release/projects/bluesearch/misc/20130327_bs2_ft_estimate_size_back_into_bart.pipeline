@@ -1,0 +1,17 @@
+# checks that the roundtrip works as expected
+
+cr: ch.epfl.bbp.uima.mongo.MongoCollectionReader
+ db_connection__java: new String[]{  "128.178.187.248", "test2", "20130328_bs2_ft_estimate_size", "", ""} 
+
+
+
+ae: BartWriter
+ batchPrefix: bs2_roundtrip_mongo_amb_
+            
+ae: ViterbiFilterAnnotator
+
+ae: BartWriter
+ batchPrefix: bs2_roundtrip_mongo_
+ 
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

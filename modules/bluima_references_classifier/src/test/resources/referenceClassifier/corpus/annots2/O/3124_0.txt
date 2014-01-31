@@ -1,0 +1,19 @@
+Figure 12. One- and two-dimensional models illustrating possible effects of scanning velocity on RF geometry. The purpose of these models is to show
+how inhibition can be delayed relative to excitation but result in either no shift of the center of inhibition relative to the center of excitation as scanning
+velocity varies (as in A) or only a minimal shift (as in B). The illustrative models assume inhibition whose origins on the skin overlap the region giving
+rise to excitation perfectly but whose effect is delayed by 20 msec relative to the excitation. Profiles above (below) the line in each panel represent profiles
+of excitation (inhibition). The horizontal axis in each panel represents the location on the skin surface where the excitation or inhibition appears to have
+arisen. When the stimulus moves at a constant velocity and there is an unknown delay between the stimulus event on the skin and the effect on the
+neuronal discharge, then the effect appears to have arisen from a location that is displaced from the true location by an amount proportional to the delay
+and the scanning velocity (see Appendix A). When the delay to inhibition is 20 msec greater than the delay to excitation, then the skin region giving rise
+to inhibition appears to be displaced by 0.02*velocity mm relative to the apparent location of the excitation (0.4 mm at 20 mm/sec, 1.6 mm at 80 mm/sec).
+A, The top row illustrates this effect at scanning velocities of 20 and 80 mm/sec in both the proximal and distal scanning directions. The second row
+illustrates the net effect (i.e., the observed RF) after accounting for the canceling effects of overlapping excitation and inhibition (assumed to be additive).
+Rectangular profiles, 3 mm wide, are illustrated for simplicity. Note how the offset between the observed centers of excitation and inhibition is unaffected
+by changes in scanning velocity (compare Fig. 8) and how the observed excitatory and inhibitory volumes (masses) increase in intensity (compare Fig.
+9). B, Same effects with Gaussian excitatory and inhibitory profiles meant to simulate more closely the RF profiles observed in this study. The inhibitory
+peak value is 10% less than the excitatory peak value, but its width is increased relative to the excitatory width so that they have equal mass. As in the
+simpler case illustrated above, the relative displacement between observed excitation and inhibition is affected little by changes in scanning velocity, and
+both excitation and inhibition become more intense with increasing velocity. C, Gray scale plots of the RFs that would be observed in B. The correlation
+of the RFs illustrated at 20 and 80 mm/sec is 0.95. The offset of the inhibition from the excitation is 2.3 mm at both 20 and 80 mm/sec, indicating apparent
+synchrony with the excitation (compare Fig. 8), whereas the actual relative delay was 20 msec.

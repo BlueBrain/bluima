@@ -1,0 +1,8 @@
+T5	Transcription 581 594	transcription
+T6	Positive_regulation 747 753	active
+E1	Transcription:T5 Theme:T3
+E2	Transcription:T5 Theme:T2
+E3	Positive_regulation:T6 Theme:T3
+E4	Positive_regulation:T6 Theme:T2
+M1	Negation E3
+M2	Negation E4

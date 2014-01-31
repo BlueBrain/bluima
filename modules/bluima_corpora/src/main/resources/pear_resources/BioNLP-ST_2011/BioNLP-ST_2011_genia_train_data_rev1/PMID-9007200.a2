@@ -1,0 +1,46 @@
+T24	Negative_regulation 1302 1309	blocked
+T25	Binding 1328 1335	binding
+T26	Regulation 1358 1366	affected
+T27	Entity 1367 1374	tyrosyl
+T28	Phosphorylation 1375 1390	phosphorylation
+T29	Positive_regulation 1473 1480	induced
+T30	Positive_regulation 1519 1527	enhanced
+T31	Positive_regulation 1533 1540	induced
+T32	Transcription 1541 1556	mRNA expression
+T33	Binding 1599 1606	binding
+T34	Entity 1610 1617	V3 loop
+E1	Negative_regulation:T24 Theme:E2
+E2	Binding:T25 Theme:T10
+E3	Regulation:T26 Theme:E16
+E4	Regulation:T26 Theme:E15
+E5	Regulation:T26 Theme:E17
+E6	Regulation:T26 Theme:E13
+E7	Regulation:T26 Theme:E14
+E8	Phosphorylation:T28 Theme:T11 Site:T27
+E9	Phosphorylation:T28 Theme:T12 Site:T27
+E10	Phosphorylation:T28 Theme:T13 Site:T27
+E11	Phosphorylation:T28 Theme:T15 Site:T27
+E12	Phosphorylation:T28 Theme:T14 Site:T27
+E13	Positive_regulation:T29 Theme:E9 Cause:T16
+E14	Positive_regulation:T29 Theme:E10 Cause:T16
+E15	Positive_regulation:T29 Theme:E11 Cause:T16
+E16	Positive_regulation:T29 Theme:E12 Cause:T16
+E17	Positive_regulation:T29 Theme:E8 Cause:T16
+E18	Positive_regulation:T30 Theme:E23
+E19	Positive_regulation:T30 Theme:E21
+E20	Positive_regulation:T30 Theme:E22
+E21	Positive_regulation:T31 Theme:E25 Cause:T17
+E22	Positive_regulation:T31 Theme:E24 Cause:T17
+E23	Positive_regulation:T31 Theme:E26 Cause:T17
+E24	Transcription:T32 Theme:T19
+E25	Transcription:T32 Theme:T18
+E26	Transcription:T32 Theme:T20
+E27	Binding:T33 Theme:T21 Site:T34
+M1	Negation E1
+M2	Negation E3
+M3	Negation E4
+M4	Negation E5
+M5	Negation E6
+M6	Negation E7
+M7	Negation E18
+M8	Negation E20

@@ -1,0 +1,12 @@
+T4	Regulation 0 7	Effects
+T5	Gene_expression 90 100	production
+T6	Gene_expression 805 815	production
+T7	Positive_regulation 826 834	enhanced
+T8	Positive_regulation 931 938	induced
+T9	Gene_expression 944 954	production
+E1	Regulation:T4 Theme:E2
+E2	Gene_expression:T5 Theme:T1
+E3	Gene_expression:T6 Theme:T2
+E4	Positive_regulation:T7 Theme:E3
+E5	Positive_regulation:T8 Theme:E6
+E6	Gene_expression:T9 Theme:T3

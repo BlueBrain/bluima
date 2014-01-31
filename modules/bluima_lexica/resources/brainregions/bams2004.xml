@@ -1,0 +1,968 @@
+<?xml version="1.0" encoding="UTF-8" ?><synonym>
+
+<!-- based on Swanson 2004-->
+
+<token canonical="Brain" ref_id="20"><variant base="Brain"></variant></token>
+<token canonical="Spinal Cord" ref_id="21"><variant base="Spinal Cord"></variant></token>
+<token canonical="Cerebrum" ref_id="22"><variant base="Cerebrum"></variant></token>
+<token canonical="Cerebellum" ref_id="23"><variant base="Cerebellum"></variant></token>
+<token canonical="Brainstem" ref_id="24"><variant base="Brainstem"></variant></token>
+<token canonical="Interbrain" ref_id="25"><variant base="Interbrain"></variant></token>
+<token canonical="Cerebral cortex" ref_id="28"><variant base="Cerebral cortex"></variant></token>
+<token canonical="Cerebral cortex, layers1-6a [cortical plate]" ref_id="29"><variant base="Cerebral cortex, layers1-6a [cortical plate]"></variant></token>
+<token canonical="Olfactory areas" ref_id="30"><variant base="Olfactory areas"></variant></token>
+<token canonical="Main olfactory bulb" ref_id="31"><variant base="Main olfactory bulb"></variant></token>
+<token canonical="Main olfactory bulb, glomerular layer" ref_id="32"><variant base="Main olfactory bulb, glomerular layer"></variant></token>
+<token canonical="Main olfactory bulb, outer plexiform layer" ref_id="33"><variant base="Main olfactory bulb, outer plexiform layer"></variant></token>
+<token canonical="Main olfactory bulb, mitral layer" ref_id="34"><variant base="Main olfactory bulb, mitral layer"></variant></token>
+<token canonical="Main olfactory bulb, inner plexiform layer" ref_id="35"><variant base="Main olfactory bulb, inner plexiform layer"></variant></token>
+<token canonical="Main olfactory bulb, granule layer" ref_id="36"><variant base="Main olfactory bulb, granule layer"></variant></token>
+<token canonical="Accessory olfactory bulb" ref_id="37"><variant base="Accessory olfactory bulb"></variant></token>
+<token canonical="Accessory olfactory bulb, glomerular layer" ref_id="38"><variant base="Accessory olfactory bulb, glomerular layer"></variant></token>
+<token canonical="Accessory olfactory bulb, mitral layer" ref_id="39"><variant base="Accessory olfactory bulb, mitral layer"></variant></token>
+<token canonical="Accessory olfactory bulb, granular layer" ref_id="40"><variant base="Accessory olfactory bulb, granular layer"></variant></token>
+<token canonical="Hippocampal formation" ref_id="41"><variant base="Hippocampal formation"></variant></token>
+<token canonical="Retrohippocampal region" ref_id="42"><variant base="Retrohippocampal region"></variant></token>
+<token canonical="Entorhinal area" ref_id="43"><variant base="Entorhinal area"></variant></token>
+<token canonical="Entorhinal area, lateral part" ref_id="44"><variant base="Entorhinal area, lateral part"></variant></token>
+<token canonical="Entorhinal area, lateral part layers 1-6" ref_id="45"><variant base="Entorhinal area, lateral part layers 1-6"></variant></token>
+<token canonical="Entorhinal area medial part, dorsal zone" ref_id="46"><variant base="Entorhinal area medial part, dorsal zone"></variant></token>
+<token canonical="Entorhinal area medial part, dorsal zone layers 1-6" ref_id="47"><variant base="Entorhinal area medial part, dorsal zone layers 1-6"></variant></token>
+<token canonical="Entorhinal area medial part, ventral zone" ref_id="48"><variant base="Entorhinal area medial part, ventral zone"></variant></token>
+<token canonical="Presubiculum" ref_id="49"><variant base="Presubiculum"></variant></token>
+<token canonical="Presubiculum, layers 1-6" ref_id="50"><variant base="Presubiculum, layers 1-6"></variant></token>
+<token canonical="Postsubiculum" ref_id="51"><variant base="Postsubiculum"></variant></token>
+<token canonical="Postsubiculum layers 1-6" ref_id="52"><variant base="Postsubiculum layers 1-6"></variant></token>
+<token canonical="Thalamus" ref_id="53"><variant base="Thalamus"></variant></token>
+<token canonical="Dorsal Thalamus" ref_id="54"><variant base="Dorsal Thalamus"></variant></token>
+<token canonical="Anterior group of the dorsal thalamus" ref_id="55"><variant base="Anterior group of the dorsal thalamus"></variant></token>
+<token canonical="Anteroventral nucleus of thalamus" ref_id="56"><variant base="Anteroventral nucleus of thalamus"></variant></token>
+<token canonical="Anteromedial nucleus of thalamus" ref_id="57"><variant base="Anteromedial nucleus of thalamus"></variant></token>
+<token canonical="Anteromedial nucleus of thalamus dorsal part" ref_id="58"><variant base="Anteromedial nucleus of thalamus dorsal part"></variant></token>
+<token canonical="Anteromedial nucleus of thalamus ventral part" ref_id="59"><variant base="Anteromedial nucleus of thalamus ventral part"></variant></token>
+<token canonical="Anterodorsal nucleus of the thalamus" ref_id="60"><variant base="Anterodorsal nucleus of the thalamus"></variant></token>
+<token canonical="Interanteromedial nucleus of the thalamus" ref_id="61"><variant base="Interanteromedial nucleus of the thalamus"></variant></token>
+<token canonical="Interanterodorsal nucleus of the thalamus" ref_id="62"><variant base="Interanterodorsal nucleus of the thalamus"></variant></token>
+<token canonical="Lateral dorsal nucleus of thalamus" ref_id="63"><variant base="Lateral dorsal nucleus of thalamus"></variant></token>
+<token canonical="Medial group of the dorsal thalamus" ref_id="64"><variant base="Medial group of the dorsal thalamus"></variant></token>
+<token canonical="Mediodorsal nucleus of the thalamus" ref_id="65"><variant base="Mediodorsal nucleus of the thalamus"></variant></token>
+<token canonical="Mediodorsal nucleus of the thalamus medial part" ref_id="66"><variant base="Mediodorsal nucleus of the thalamus medial part"></variant></token>
+<token canonical="Mediodorsal nucleus of the thalamus central part" ref_id="67"><variant base="Mediodorsal nucleus of the thalamus central part"></variant></token>
+<token canonical="Mediodorsal nucleus of the thalamus lateral part" ref_id="68"><variant base="Mediodorsal nucleus of the thalamus lateral part"></variant></token>
+<token canonical="Intermediodorsal nucleus of the thalamus" ref_id="69"><variant base="Intermediodorsal nucleus of the thalamus"></variant></token>
+<token canonical="Submedial nucleus of the thalamus" ref_id="70"><variant base="Submedial nucleus of the thalamus"></variant></token>
+<token canonical="Perireunensis nucleus" ref_id="71"><variant base="Perireunensis nucleus"></variant></token>
+<token canonical="Midline group of the dorsal thalamus" ref_id="72"><variant base="Midline group of the dorsal thalamus"></variant></token>
+<token canonical="Paraventricular nucleus of the thalamus" ref_id="73"><variant base="Paraventricular nucleus of the thalamus"></variant></token>
+<token canonical="Parataenial nucleus" ref_id="74"><variant base="Parataenial nucleus"></variant></token>
+<token canonical="Nucleus reuniens" ref_id="75"><variant base="Nucleus reuniens"></variant></token>
+<token canonical="Nucleus reuniens rostral division" ref_id="76"><variant base="Nucleus reuniens rostral division"></variant></token>
+<token canonical="Nucleus reuniens rostral division rostral part" ref_id="77"><variant base="Nucleus reuniens rostral division rostral part"></variant></token>
+<token canonical="Nucleus reuniens rostral division dorsal part" ref_id="78"><variant base="Nucleus reuniens rostral division dorsal part"></variant></token>
+<token canonical="Nucleus reuniens rostral division ventral part" ref_id="79"><variant base="Nucleus reuniens rostral division ventral part"></variant></token>
+<token canonical="Nucleus reuniens rostral division lateral part" ref_id="80"><variant base="Nucleus reuniens rostral division lateral part"></variant></token>
+<token canonical="Nucleus reuniens rostral division median part" ref_id="81"><variant base="Nucleus reuniens rostral division median part"></variant></token>
+<token canonical="Nucleus reuniens caudal division" ref_id="82"><variant base="Nucleus reuniens caudal division"></variant></token>
+<token canonical="Nucleus reuniens caudal division caudal part" ref_id="83"><variant base="Nucleus reuniens caudal division caudal part"></variant></token>
+<token canonical="Nucleus reuniens caudal division dorsal part" ref_id="84"><variant base="Nucleus reuniens caudal division dorsal part"></variant></token>
+<token canonical="Nucleus reuniens caudal division median part" ref_id="85"><variant base="Nucleus reuniens caudal division median part"></variant></token>
+<token canonical="Intralaminar nuclei of the dorsal thalamus" ref_id="86"><variant base="Intralaminar nuclei of the dorsal thalamus"></variant></token>
+<token canonical="Rhomboid nucleus" ref_id="87"><variant base="Rhomboid nucleus"></variant></token>
+<token canonical="Central medial nucleus of the thalamus" ref_id="88"><variant base="Central medial nucleus of the thalamus"></variant></token>
+<token canonical="Paracentral nucleus of the thalamus" ref_id="89"><variant base="Paracentral nucleus of the thalamus"></variant></token>
+<token canonical="Central lateral nucleus of the thalamus" ref_id="90"><variant base="Central lateral nucleus of the thalamus"></variant></token>
+<token canonical="Parafascicular nucleus" ref_id="91"><variant base="Parafascicular nucleus"></variant></token>
+<token canonical="Lateral group of the dorsal thalamus" ref_id="92"><variant base="Lateral group of the dorsal thalamus"></variant></token>
+<token canonical="Lateral posterior nucleus of the thalamus" ref_id="93"><variant base="Lateral posterior nucleus of the thalamus"></variant></token>
+<token canonical="Posterior complex of the thalamus" ref_id="94"><variant base="Posterior complex of the thalamus"></variant></token>
+<token canonical="Suprageniculate nucleus" ref_id="95"><variant base="Suprageniculate nucleus"></variant></token>
+<token canonical="Posterior limiting nucleus of the thalamus" ref_id="96"><variant base="Posterior limiting nucleus of the thalamus"></variant></token>
+<token canonical="Ventral group of the dorsal thalamus" ref_id="97"><variant base="Ventral group of the dorsal thalamus"></variant></token>
+<token canonical="Ventral anterior-lateral complex of the thalamus" ref_id="98"><variant base="Ventral anterior-lateral complex of the thalamus"></variant></token>
+<token canonical="Ventral medial nucleus of the thalamus" ref_id="99"><variant base="Ventral medial nucleus of the thalamus"></variant></token>
+<token canonical="Ventral posterior complex of the thalamus" ref_id="100"><variant base="Ventral posterior complex of the thalamus"></variant></token>
+<token canonical="Basal Nuclei" ref_id="101"><variant base="Basal Nuclei"></variant></token>
+<token canonical="Striatum" ref_id="102"><variant base="Striatum"></variant></token>
+<token canonical="Pallidum rostral region" ref_id="103"><variant base="Pallidum rostral region"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis" ref_id="104"><variant base="Bed nuclei of the stria terminalis"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis anterior division" ref_id="105"><variant base="Bed nuclei of the stria terminalis anterior division"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis anterior division anterodorsal area" ref_id="106"><variant base="Bed nuclei of the stria terminalis anterior division anterodorsal area"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis anterolateral area" ref_id="107"><variant base="Bed nuclei of the stria terminalis anterolateral area"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis anterior division anteroventral area" ref_id="108"><variant base="Bed nuclei of the stria terminalis anterior division anteroventral area"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis oval nucleus" ref_id="109"><variant base="Bed nuclei of the stria terminalis oval nucleus"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis juxtacapsular nucleus" ref_id="110"><variant base="Bed nuclei of the stria terminalis juxtacapsular nucleus"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis rhomboid nucleus" ref_id="111"><variant base="Bed nuclei of the stria terminalis rhomboid nucleus"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis anterior division dorsomedial nucleus" ref_id="112"><variant base="Bed nuclei of the stria terminalis anterior division dorsomedial nucleus"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis anterior division dorsolateral nucleus" ref_id="113"><variant base="Bed nuclei of the stria terminalis anterior division dorsolateral nucleus"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis anterior division fusiform nucleus" ref_id="114"><variant base="Bed nuclei of the stria terminalis anterior division fusiform nucleus"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis anterior division ventral nucleus" ref_id="115"><variant base="Bed nuclei of the stria terminalis anterior division ventral nucleus"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis anterior division magnocellular nucleus" ref_id="116"><variant base="Bed nuclei of the stria terminalis anterior division magnocellular nucleus"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis posterior division" ref_id="117"><variant base="Bed nuclei of the stria terminalis posterior division"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis posterior division principal nucleus" ref_id="118"><variant base="Bed nuclei of the stria terminalis posterior division principal nucleus"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis posterior division interfascicular  nucleus" ref_id="119"><variant base="Bed nuclei of the stria terminalis posterior division interfascicular  nucleus"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis posterior division transverse nucleus" ref_id="120"><variant base="Bed nuclei of the stria terminalis posterior division transverse nucleus"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis posterior division premedullary nucleus" ref_id="121"><variant base="Bed nuclei of the stria terminalis posterior division premedullary nucleus"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis posterior division dorsal nucleus" ref_id="122"><variant base="Bed nuclei of the stria terminalis posterior division dorsal nucleus"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis posterior division strial extension" ref_id="123"><variant base="Bed nuclei of the stria terminalis posterior division strial extension"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis posterior division cell-sparse zone" ref_id="124"><variant base="Bed nuclei of the stria terminalis posterior division cell-sparse zone"></variant></token>
+<token canonical="Bed nucleus of the anterior commissure" ref_id="125"><variant base="Bed nucleus of the anterior commissure"></variant></token>
+<token canonical="Bed nucleus of the stria medularis" ref_id="126"><variant base="Bed nucleus of the stria medularis"></variant></token>
+<token canonical="Pallidum" ref_id="127"><variant base="Pallidum"></variant></token>
+<token canonical="Striatum dorsal region" ref_id="128"><variant base="Striatum dorsal region"></variant></token>
+<token canonical="Caudoputamen" ref_id="129"><variant base="Caudoputamen"></variant></token>
+<token canonical="Striatum ventral region" ref_id="130"><variant base="Striatum ventral region"></variant></token>
+<token canonical="Nucleus accumbens" ref_id="131"><variant base="Nucleus accumbens"></variant></token>
+<token canonical="Hypothalamus" ref_id="132"><variant base="Hypothalamus"></variant></token>
+<token canonical="Epithalamus" ref_id="133"><variant base="Epithalamus"></variant></token>
+<token canonical="Lateral forebrain bundle system" ref_id="134"><variant base="Lateral forebrain bundle system"></variant></token>
+<token canonical="Corpus callosum" ref_id="135"><variant base="Corpus callosum"></variant></token>
+<token canonical="Corpus callosum anterior forceps" ref_id="136"><variant base="Corpus callosum anterior forceps"></variant></token>
+<token canonical="Corpus callosum external capsule" ref_id="137"><variant base="Corpus callosum external capsule"></variant></token>
+<token canonical="Corpus callosum extreme capsule" ref_id="138"><variant base="Corpus callosum extreme capsule"></variant></token>
+<token canonical="Genu of corpus callosum" ref_id="139"><variant base="Genu of corpus callosum"></variant></token>
+<token canonical="Corpus callosum posterior forceps" ref_id="140"><variant base="Corpus callosum posterior forceps"></variant></token>
+<token canonical="Rostrum of corpus callosum" ref_id="141"><variant base="Rostrum of corpus callosum"></variant></token>
+<token canonical="Splenium of corpus callosum" ref_id="142"><variant base="Splenium of corpus callosum"></variant></token>
+<token canonical="Medial forebrain bundle system" ref_id="143"><variant base="Medial forebrain bundle system"></variant></token>
+<token canonical="Amygdalar capsule" ref_id="144"><variant base="Amygdalar capsule"></variant></token>
+<token canonical="Ansa peduncularis" ref_id="145"><variant base="Ansa peduncularis"></variant></token>
+<token canonical="Anterior commissure, temporal limb" ref_id="146"><variant base="Anterior commissure, temporal limb"></variant></token>
+<token canonical="Fornix system" ref_id="147"><variant base="Fornix system"></variant></token>
+<token canonical="Alveus of fornix" ref_id="148"><variant base="Alveus of fornix"></variant></token>
+<token canonical="Dorsal fornix" ref_id="149"><variant base="Dorsal fornix"></variant></token>
+<token canonical="Fimbria" ref_id="150"><variant base="Fimbria"></variant></token>
+<token canonical="Precommissural fornix" ref_id="151"><variant base="Precommissural fornix"></variant></token>
+<token canonical="Postcommissural fornix" ref_id="153"><variant base="Postcommissural fornix"></variant></token>
+<token canonical="Medial corticohypothalamic tract" ref_id="154"><variant base="Medial corticohypothalamic tract"></variant></token>
+<token canonical="Columns of the fornix" ref_id="155"><variant base="Columns of the fornix"></variant></token>
+<token canonical="Hippocampal commissures" ref_id="156"><variant base="Hippocampal commissures"></variant></token>
+<token canonical="Dorsal hippocampal commissure" ref_id="157"><variant base="Dorsal hippocampal commissure"></variant></token>
+<token canonical="Dorsal hippocampal commissure angular bundle" ref_id="158"><variant base="Dorsal hippocampal commissure angular bundle"></variant></token>
+<token canonical="Ventral hippocampal commissure" ref_id="159"><variant base="Ventral hippocampal commissure"></variant></token>
+<token canonical="Perforant path" ref_id="160"><variant base="Perforant path"></variant></token>
+<token canonical="Lateral ventricle" ref_id="161"><variant base="Lateral ventricle"></variant></token>
+<token canonical="Rhinocele" ref_id="162"><variant base="Rhinocele"></variant></token>
+<token canonical="Subependymal zone" ref_id="163"><variant base="Subependymal zone"></variant></token>
+<token canonical="Interventricular foramen" ref_id="164"><variant base="Interventricular foramen"></variant></token>
+<token canonical="Third ventricle" ref_id="165"><variant base="Third ventricle"></variant></token>
+<token canonical="Third ventricle preoptic recess" ref_id="166"><variant base="Third ventricle preoptic recess"></variant></token>
+<token canonical="Third ventricle periventricular recess" ref_id="167"><variant base="Third ventricle periventricular recess"></variant></token>
+<token canonical="Third ventricle mamillary recess" ref_id="168"><variant base="Third ventricle mamillary recess"></variant></token>
+<token canonical="Cerebral aqueduct" ref_id="169"><variant base="Cerebral aqueduct"></variant></token>
+<token canonical="Cerebral aqueduct collicular recess" ref_id="170"><variant base="Cerebral aqueduct collicular recess"></variant></token>
+<token canonical="Cerebral aqueduct subcommissural organ" ref_id="171"><variant base="Cerebral aqueduct subcommissural organ"></variant></token>
+<token canonical="Fourth ventricle" ref_id="172"><variant base="Fourth ventricle"></variant></token>
+<token canonical="Fourth ventricle median aperture" ref_id="173"><variant base="Fourth ventricle median aperture"></variant></token>
+<token canonical="Fourth ventricle lateral aperture" ref_id="174"><variant base="Fourth ventricle lateral aperture"></variant></token>
+<token canonical="Fourth ventricle lateral recess" ref_id="175"><variant base="Fourth ventricle lateral recess"></variant></token>
+<token canonical="Rostral medullary velum" ref_id="176"><variant base="Rostral medullary velum"></variant></token>
+<token canonical="Caudal medullary velum" ref_id="177"><variant base="Caudal medullary velum"></variant></token>
+<token canonical="Corticospinal tract" ref_id="178"><variant base="Corticospinal tract"></variant></token>
+<token canonical="Internal capsule" ref_id="179"><variant base="Internal capsule"></variant></token>
+<token canonical="Cerebral peduncle" ref_id="180"><variant base="Cerebral peduncle"></variant></token>
+<token canonical="Thalamic peduncles" ref_id="181"><variant base="Thalamic peduncles"></variant></token>
+<token canonical="Corticotectal tract" ref_id="182"><variant base="Corticotectal tract"></variant></token>
+<token canonical="Corticorubral tract" ref_id="183"><variant base="Corticorubral tract"></variant></token>
+<token canonical="Corticopontine tract" ref_id="184"><variant base="Corticopontine tract"></variant></token>
+<token canonical="Corticobulbar tract" ref_id="185"><variant base="Corticobulbar tract"></variant></token>
+<token canonical="Pyramidal decussation" ref_id="186"><variant base="Pyramidal decussation"></variant></token>
+<token canonical="Pyramidal tract, crossed" ref_id="187"><variant base="Pyramidal tract, crossed"></variant></token>
+<token canonical="Retina" ref_id="208"><variant base="Retina"></variant></token>
+<token canonical="Periventricular zone of the hypothalamus" ref_id="227"><variant base="Periventricular zone of the hypothalamus"></variant></token>
+<token canonical="Vascular organ of the lamina terminalis" ref_id="228"><variant base="Vascular organ of the lamina terminalis"></variant></token>
+<token canonical="Suprachiasmatic preoptic nucleus" ref_id="229"><variant base="Suprachiasmatic preoptic nucleus"></variant></token>
+<token canonical="Median preoptic nucleus" ref_id="230"><variant base="Median preoptic nucleus"></variant></token>
+<token canonical="Anteroventral periventricular nucleus" ref_id="231"><variant base="Anteroventral periventricular nucleus"></variant></token>
+<token canonical="Preoptic periventricular nucleus" ref_id="232"><variant base="Preoptic periventricular nucleus"></variant></token>
+<token canonical="Supraoptic nucleus" ref_id="233"><variant base="Supraoptic nucleus"></variant></token>
+<token canonical="Supraoptic nucleus, retrochiasmatic part" ref_id="234"><variant base="Supraoptic nucleus, retrochiasmatic part"></variant></token>
+<token canonical="Supraoptic nucleus, accessory supraoptic group" ref_id="235"><variant base="Supraoptic nucleus, accessory supraoptic group"></variant></token>
+<token canonical="Supraoptic nucleus, accessory supraoptic group, nucleus circularis" ref_id="236"><variant base="Supraoptic nucleus, accessory supraoptic group, nucleus circularis"></variant></token>
+<token canonical="Paraventricular nucleus of the hypothalamus" ref_id="238"><variant base="Paraventricular nucleus of the hypothalamus"></variant></token>
+<token canonical="Paraventricular nucleus of the hypothalamus, descending division" ref_id="239"><variant base="Paraventricular nucleus of the hypothalamus, descending division"></variant></token>
+<token canonical="Paraventricular nucleus of the hypothalamus, descending division, medial parvicellular part, ventral zone" ref_id="240"><variant base="Paraventricular nucleus of the hypothalamus, descending division, medial parvicellular part, ventral zone"></variant></token>
+<token canonical="Paraventricular nucleus of the hypothalamus, descending division, dorsal parvicellular part" ref_id="241"><variant base="Paraventricular nucleus of the hypothalamus, descending division, dorsal parvicellular part"></variant></token>
+<token canonical="Paraventricular nucleus of the hypothalamus, descending division, lateral parvicellular part" ref_id="242"><variant base="Paraventricular nucleus of the hypothalamus, descending division, lateral parvicellular part"></variant></token>
+<token canonical="Paraventricular nucleus of the hypothalamus, descending division, forniceal part" ref_id="243"><variant base="Paraventricular nucleus of the hypothalamus, descending division, forniceal part"></variant></token>
+<token canonical="Paraventricular nucleus of the hypothalamus, magnocellular division" ref_id="244"><variant base="Paraventricular nucleus of the hypothalamus, magnocellular division"></variant></token>
+<token canonical="Paraventricular nucleus of the hypothalamus, magnocellular division, anterior magnocellular part" ref_id="245"><variant base="Paraventricular nucleus of the hypothalamus, magnocellular division, anterior magnocellular part"></variant></token>
+<token canonical="Paraventricular nucleus of the hypothalamus, magnocellular division, medial magnocellular part" ref_id="246"><variant base="Paraventricular nucleus of the hypothalamus, magnocellular division, medial magnocellular part"></variant></token>
+<token canonical="Paraventricular nucleus of the hypothalamus, magnocellular division, posterior magnocellular part" ref_id="247"><variant base="Paraventricular nucleus of the hypothalamus, magnocellular division, posterior magnocellular part"></variant></token>
+<token canonical="Paraventricular nucleus of the hypothalamus, magnocellular division, posterior magnocellular part, medial zone" ref_id="248"><variant base="Paraventricular nucleus of the hypothalamus, magnocellular division, posterior magnocellular part, medial zone"></variant></token>
+<token canonical="Paraventricular nucleus of the hypothalamus, magnocellular division, posterior magnocellular part, lateral zone" ref_id="249"><variant base="Paraventricular nucleus of the hypothalamus, magnocellular division, posterior magnocellular part, lateral zone"></variant></token>
+<token canonical="Paraventricular nucleus of the hypothalamus, parvicellular division" ref_id="250"><variant base="Paraventricular nucleus of the hypothalamus, parvicellular division"></variant></token>
+<token canonical="Paraventricular nucleus of the hypothalamus, parvicellular division, anterior parvicellular part" ref_id="251"><variant base="Paraventricular nucleus of the hypothalamus, parvicellular division, anterior parvicellular part"></variant></token>
+<token canonical="Paraventricular nucleus of the hypothalamus, parvicellular division, medial parvicellular part, dorsal zone" ref_id="252"><variant base="Paraventricular nucleus of the hypothalamus, parvicellular division, medial parvicellular part, dorsal zone"></variant></token>
+<token canonical="Paraventricular nucleus of the hypothalamus, parvicellular division, periventricular part" ref_id="253"><variant base="Paraventricular nucleus of the hypothalamus, parvicellular division, periventricular part"></variant></token>
+<token canonical="Striatum caudal (amygdalar) region" ref_id="254"><variant base="Striatum caudal (amygdalar) region"></variant></token>
+<token canonical="Anterior amygdaloid area" ref_id="255"><variant base="Anterior amygdaloid area"></variant></token>
+<token canonical="Central nucleus of amygdala" ref_id="256"><variant base="Central nucleus of amygdala"></variant></token>
+<token canonical="Central nucleus of amygdala medial part" ref_id="257"><variant base="Central nucleus of amygdala medial part"></variant></token>
+<token canonical="Central nucleus of amygdala lateral part" ref_id="258"><variant base="Central nucleus of amygdala lateral part"></variant></token>
+<token canonical="Central nucleus of amygdala capsular part" ref_id="259"><variant base="Central nucleus of amygdala capsular part"></variant></token>
+<token canonical="Medial nucleus of the amygdala" ref_id="260"><variant base="Medial nucleus of the amygdala"></variant></token>
+<token canonical="Medial nucleus of the amygdala anterodorsal part" ref_id="261"><variant base="Medial nucleus of the amygdala anterodorsal part"></variant></token>
+<token canonical="Medial nucleus of the amygdala anteroventral part" ref_id="262"><variant base="Medial nucleus of the amygdala anteroventral part"></variant></token>
+<token canonical="Medial nucleus of the amygdala posterodorsal part" ref_id="263"><variant base="Medial nucleus of the amygdala posterodorsal part"></variant></token>
+<token canonical="Medial nucleus of the amygdala posterodorsal part,sublayer a" ref_id="264"><variant base="Medial nucleus of the amygdala posterodorsal part,sublayer a"></variant></token>
+<token canonical="Medial nucleus of the amygdala posterodorsal part,sublayer b" ref_id="265"><variant base="Medial nucleus of the amygdala posterodorsal part,sublayer b"></variant></token>
+<token canonical="Medial nucleus of the amygdala posterodorsal part,sublayer c" ref_id="266"><variant base="Medial nucleus of the amygdala posterodorsal part,sublayer c"></variant></token>
+<token canonical="Medial nucleus of the amygdala posteroventral part" ref_id="267"><variant base="Medial nucleus of the amygdala posteroventral part"></variant></token>
+<token canonical="Bed nucleus of the accessory olfactory part" ref_id="268"><variant base="Bed nucleus of the accessory olfactory part"></variant></token>
+<token canonical="Intercalated nuclei of the amygdala" ref_id="269"><variant base="Intercalated nuclei of the amygdala"></variant></token>
+<token canonical="Anterior periventricular nucleus of the hypothalamus" ref_id="271"><variant base="Anterior periventricular nucleus of the hypothalamus"></variant></token>
+<token canonical="Dorsomedial nucleus of the hypothalamus" ref_id="272"><variant base="Dorsomedial nucleus of the hypothalamus"></variant></token>
+<token canonical="Dorsomedial nucleus of the hypothalamus anterior part" ref_id="273"><variant base="Dorsomedial nucleus of the hypothalamus anterior part"></variant></token>
+<token canonical="Dorsomedial nucleus of the hypothalamus posterior part" ref_id="274"><variant base="Dorsomedial nucleus of the hypothalamus posterior part"></variant></token>
+<token canonical="Dorsomedial nucleus of the hypothalamus ventral part" ref_id="275"><variant base="Dorsomedial nucleus of the hypothalamus ventral part"></variant></token>
+<token canonical="Intermediate periventricular nucleus of the hypothalamus" ref_id="276"><variant base="Intermediate periventricular nucleus of the hypothalamus"></variant></token>
+<token canonical="Arcuate nucleus of the hypothalamus" ref_id="277"><variant base="Arcuate nucleus of the hypothalamus"></variant></token>
+<token canonical="Posterior periventricular nucleus of the hypothalamus" ref_id="278"><variant base="Posterior periventricular nucleus of the hypothalamus"></variant></token>
+<token canonical="Medial zone of the hypothalamus" ref_id="279"><variant base="Medial zone of the hypothalamus"></variant></token>
+<token canonical="Medial preoptic area" ref_id="280"><variant base="Medial preoptic area"></variant></token>
+<token canonical="Medial preoptic nucleus" ref_id="281"><variant base="Medial preoptic nucleus"></variant></token>
+<token canonical="Medial preoptic nucleus lateral part" ref_id="282"><variant base="Medial preoptic nucleus lateral part"></variant></token>
+<token canonical="Medial preoptic nucleus medial part" ref_id="283"><variant base="Medial preoptic nucleus medial part"></variant></token>
+<token canonical="Medial preoptic nucleus central part" ref_id="284"><variant base="Medial preoptic nucleus central part"></variant></token>
+<token canonical="Anterodorsal preoptic nucleus" ref_id="285"><variant base="Anterodorsal preoptic nucleus"></variant></token>
+<token canonical="Anteroventral preoptic nucleus" ref_id="286"><variant base="Anteroventral preoptic nucleus"></variant></token>
+<token canonical="Posterodorsal preoptic nucleus" ref_id="287"><variant base="Posterodorsal preoptic nucleus"></variant></token>
+<token canonical="Parastrial nucleus" ref_id="288"><variant base="Parastrial nucleus"></variant></token>
+<token canonical="Anterior hypothalamic area" ref_id="289"><variant base="Anterior hypothalamic area"></variant></token>
+<token canonical="Anterior hypothalamic nucleus" ref_id="290"><variant base="Anterior hypothalamic nucleus"></variant></token>
+<token canonical="Anterior hypothalamic nucleus anterior part" ref_id="291"><variant base="Anterior hypothalamic nucleus anterior part"></variant></token>
+<token canonical="Anterior hypothalamic central part" ref_id="292"><variant base="Anterior hypothalamic central part"></variant></token>
+<token canonical="Anterior hypothalamic posterior part" ref_id="293"><variant base="Anterior hypothalamic posterior part"></variant></token>
+<token canonical="Anterior hypothalamic dorsal part" ref_id="294"><variant base="Anterior hypothalamic dorsal part"></variant></token>
+<token canonical="Suprachiasmatic nucleus" ref_id="295"><variant base="Suprachiasmatic nucleus"></variant></token>
+<token canonical="Suprachiasmatic nucleus dorsomedial part" ref_id="296"><variant base="Suprachiasmatic nucleus dorsomedial part"></variant></token>
+<token canonical="Suprachiasmatic nucleus ventrolateral part" ref_id="297"><variant base="Suprachiasmatic nucleus ventrolateral part"></variant></token>
+<token canonical="Subparaventricular zone" ref_id="298"><variant base="Subparaventricular zone"></variant></token>
+<token canonical="Retrochiasmatic area" ref_id="299"><variant base="Retrochiasmatic area"></variant></token>
+<token canonical="Tuberal area of the hypothalamus" ref_id="300"><variant base="Tuberal area of the hypothalamus"></variant></token>
+<token canonical="Ventromedial nucleus of the hypothalamus" ref_id="301"><variant base="Ventromedial nucleus of the hypothalamus"></variant></token>
+<token canonical="Ventromedial nucleus of the hypothalamus anterior part" ref_id="302"><variant base="Ventromedial nucleus of the hypothalamus anterior part"></variant></token>
+<token canonical="Ventromedial nucleus of the hypothalamus dorsomedial part" ref_id="303"><variant base="Ventromedial nucleus of the hypothalamus dorsomedial part"></variant></token>
+<token canonical="Ventromedial nucleus of the hypothalamus central part" ref_id="304"><variant base="Ventromedial nucleus of the hypothalamus central part"></variant></token>
+<token canonical="Ventromedial nucleus of the hypothalamus ventrolateral part" ref_id="305"><variant base="Ventromedial nucleus of the hypothalamus ventrolateral part"></variant></token>
+<token canonical="Ventral premammillary nucleus" ref_id="306"><variant base="Ventral premammillary nucleus"></variant></token>
+<token canonical="Mammillary body" ref_id="307"><variant base="Mammillary body"></variant></token>
+<token canonical="Tuberomammillary nucleus" ref_id="308"><variant base="Tuberomammillary nucleus"></variant></token>
+<token canonical="Tuberomammillary nucleus dorsal part" ref_id="309"><variant base="Tuberomammillary nucleus dorsal part"></variant></token>
+<token canonical="Tuberomammillary nucleus ventral part" ref_id="310"><variant base="Tuberomammillary nucleus ventral part"></variant></token>
+<token canonical="Supramammillary nucleus" ref_id="311"><variant base="Supramammillary nucleus"></variant></token>
+<token canonical="Supramammillary nucleus lateral part" ref_id="312"><variant base="Supramammillary nucleus lateral part"></variant></token>
+<token canonical="Supramammillary nucleus medial part" ref_id="313"><variant base="Supramammillary nucleus medial part"></variant></token>
+<token canonical="Dorsal premammillary nucleus" ref_id="314"><variant base="Dorsal premammillary nucleus"></variant></token>
+<token canonical="Medial mammillary nucleus" ref_id="315"><variant base="Medial mammillary nucleus"></variant></token>
+<token canonical="Medial mammillary nucleus median part" ref_id="316"><variant base="Medial mammillary nucleus median part"></variant></token>
+<token canonical="Lateral mammillary nucleus" ref_id="317"><variant base="Lateral mammillary nucleus"></variant></token>
+<token canonical="Posterior hypothalamic nucleus" ref_id="318"><variant base="Posterior hypothalamic nucleus"></variant></token>
+<token canonical="Lateral zone of the hypothalamus" ref_id="319"><variant base="Lateral zone of the hypothalamus"></variant></token>
+<token canonical="Lateral preoptic area" ref_id="320"><variant base="Lateral preoptic area"></variant></token>
+<token canonical="Lateral hypothalamic area" ref_id="321"><variant base="Lateral hypothalamic area"></variant></token>
+<token canonical="Tuberal nucleus" ref_id="322"><variant base="Tuberal nucleus"></variant></token>
+<token canonical="Subthalamic nucleus" ref_id="323"><variant base="Subthalamic nucleus"></variant></token>
+<token canonical="Ventral posterolateral nucleus of the thalamus" ref_id="324"><variant base="Ventral posterolateral nucleus of the thalamus"></variant></token>
+<token canonical="Ventral posterolateral nucleus of the thalamus parvicellular part" ref_id="325"><variant base="Ventral posterolateral nucleus of the thalamus parvicellular part"></variant></token>
+<token canonical="Ventral posteromedial nucleus of the thalamus" ref_id="326"><variant base="Ventral posteromedial nucleus of the thalamus"></variant></token>
+<token canonical="Ventral posteromedial nucleus of the thalamus parvicellular part" ref_id="327"><variant base="Ventral posteromedial nucleus of the thalamus parvicellular part"></variant></token>
+<token canonical="Geniculate group of the dorsal thalamus" ref_id="328"><variant base="Geniculate group of the dorsal thalamus"></variant></token>
+<token canonical="Medial geniculate complex" ref_id="329"><variant base="Medial geniculate complex"></variant></token>
+<token canonical="Medial geniculate complex dorsal part" ref_id="330"><variant base="Medial geniculate complex dorsal part"></variant></token>
+<token canonical="Medial geniculate complex ventral part" ref_id="331"><variant base="Medial geniculate complex ventral part"></variant></token>
+<token canonical="Medial geniculate complex medial part" ref_id="332"><variant base="Medial geniculate complex medial part"></variant></token>
+<token canonical="Dorsal part of the lateral geniculate complex" ref_id="333"><variant base="Dorsal part of the lateral geniculate complex"></variant></token>
+<token canonical="Subfornical organ" ref_id="334"><variant base="Subfornical organ"></variant></token>
+<token canonical="Medial habenula" ref_id="335"><variant base="Medial habenula"></variant></token>
+<token canonical="Medial habenula dorsal part" ref_id="336"><variant base="Medial habenula dorsal part"></variant></token>
+<token canonical="Medial habenula ventral part" ref_id="338"><variant base="Medial habenula ventral part"></variant></token>
+<token canonical="Lateral habenula" ref_id="339"><variant base="Lateral habenula"></variant></token>
+<token canonical="Ventral thalamus" ref_id="340"><variant base="Ventral thalamus"></variant></token>
+<token canonical="Reticular nucleus of the thalamus" ref_id="341"><variant base="Reticular nucleus of the thalamus"></variant></token>
+<token canonical="Geniculate group of the ventral thalamus" ref_id="342"><variant base="Geniculate group of the ventral thalamus"></variant></token>
+<token canonical="Intergeniculate leaflet of the lateral geniculate complex" ref_id="343"><variant base="Intergeniculate leaflet of the lateral geniculate complex"></variant></token>
+<token canonical="Ventral part of the lateral geniculate complex" ref_id="344"><variant base="Ventral part of the lateral geniculate complex"></variant></token>
+<token canonical="Ventral part of the lateral geniculate complex lateral zone" ref_id="345"><variant base="Ventral part of the lateral geniculate complex lateral zone"></variant></token>
+<token canonical="Ventral part of the lateral geniculate complex medial zone" ref_id="346"><variant base="Ventral part of the lateral geniculate complex medial zone"></variant></token>
+<token canonical="Zona incerta" ref_id="347"><variant base="Zona incerta"></variant></token>
+<token canonical="Zona incerta dopaminergic group" ref_id="348"><variant base="Zona incerta dopaminergic group"></variant></token>
+<token canonical="Fields of Forel" ref_id="349"><variant base="Fields of Forel"></variant></token>
+<token canonical="Zona incerta proper" ref_id="350"><variant base="Zona incerta proper"></variant></token>
+<token canonical="Peripeduncular nucleus" ref_id="351"><variant base="Peripeduncular nucleus"></variant></token>
+<token canonical="Subparafascicular nucleus" ref_id="352"><variant base="Subparafascicular nucleus"></variant></token>
+<token canonical="Subparafascicular nucleus magnocellular part" ref_id="353"><variant base="Subparafascicular nucleus magnocellular part"></variant></token>
+<token canonical="Subparafascicular nucleus parvicellular part" ref_id="354"><variant base="Subparafascicular nucleus parvicellular part"></variant></token>
+<token canonical="Fundus of the striatum" ref_id="355"><variant base="Fundus of the striatum"></variant></token>
+<token canonical="Olfactory tubercle" ref_id="357"><variant base="Olfactory tubercle"></variant></token>
+<token canonical="Olfactory tubercle molecular layer" ref_id="358"><variant base="Olfactory tubercle molecular layer"></variant></token>
+<token canonical="Olfactory tubercle pyramidal layer" ref_id="359"><variant base="Olfactory tubercle pyramidal layer"></variant></token>
+<token canonical="Olfactory tubercle polymorph layer" ref_id="360"><variant base="Olfactory tubercle polymorph layer"></variant></token>
+<token canonical="Islands of Calleja" ref_id="361"><variant base="Islands of Calleja"></variant></token>
+<token canonical="Major island of Calleja" ref_id="362"><variant base="Major island of Calleja"></variant></token>
+<token canonical="Striatum medial (septal) region" ref_id="363"><variant base="Striatum medial (septal) region"></variant></token>
+<token canonical="Lateral septal complex" ref_id="364"><variant base="Lateral septal complex"></variant></token>
+<token canonical="Lateral septal nucleus" ref_id="365"><variant base="Lateral septal nucleus"></variant></token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part" ref_id="366"><variant base="Lateral septal nucleus caudal (caudodorsal) part"></variant></token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part dorsal zone" ref_id="367"><variant base="Lateral septal nucleus caudal (caudodorsal) part dorsal zone"></variant></token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part dorsal zone rostral region" ref_id="369"><variant base="Lateral septal nucleus caudal (caudodorsal) part dorsal zone rostral region"></variant></token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part dorsal zone dorsal region" ref_id="370"><variant base="Lateral septal nucleus caudal (caudodorsal) part dorsal zone dorsal region"></variant></token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part dorsal zone lateral region" ref_id="371"><variant base="Lateral septal nucleus caudal (caudodorsal) part dorsal zone lateral region"></variant></token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part dorsal zone ventral region" ref_id="372"><variant base="Lateral septal nucleus caudal (caudodorsal) part dorsal zone ventral region"></variant></token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part ventral zone" ref_id="373"><variant base="Lateral septal nucleus caudal (caudodorsal) part ventral zone"></variant></token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part ventral zone medial region" ref_id="374"><variant base="Lateral septal nucleus caudal (caudodorsal) part ventral zone medial region"></variant></token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part ventral zone medial region dorsal domain" ref_id="375"><variant base="Lateral septal nucleus caudal (caudodorsal) part ventral zone medial region dorsal domain"></variant></token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part ventral zone medial region ventral domain" ref_id="376"><variant base="Lateral septal nucleus caudal (caudodorsal) part ventral zone medial region ventral domain"></variant></token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part ventral zone intermediate region" ref_id="377"><variant base="Lateral septal nucleus caudal (caudodorsal) part ventral zone intermediate region"></variant></token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part ventral zone lateral region" ref_id="378"><variant base="Lateral septal nucleus caudal (caudodorsal) part ventral zone lateral region"></variant></token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part ventral zone lateral region dorsal domain" ref_id="379"><variant base="Lateral septal nucleus caudal (caudodorsal) part ventral zone lateral region dorsal domain"></variant></token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part ventral zone lateral region ventral domain" ref_id="380"><variant base="Lateral septal nucleus caudal (caudodorsal) part ventral zone lateral region ventral domain"></variant></token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part" ref_id="381"><variant base="Lateral septal nucleus rostral (rostroventral) part"></variant></token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part medial zone" ref_id="382"><variant base="Lateral septal nucleus rostral (rostroventral) part medial zone"></variant></token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part medial zone dorsal region" ref_id="383"><variant base="Lateral septal nucleus rostral (rostroventral) part medial zone dorsal region"></variant></token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part medial zone ventral region" ref_id="384"><variant base="Lateral septal nucleus rostral (rostroventral) part medial zone ventral region"></variant></token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part medial zone ventral region rostral domain" ref_id="385"><variant base="Lateral septal nucleus rostral (rostroventral) part medial zone ventral region rostral domain"></variant></token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part medial zone ventral region caudal domain" ref_id="386"><variant base="Lateral septal nucleus rostral (rostroventral) part medial zone ventral region caudal domain"></variant></token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part ventrolateral zone" ref_id="387"><variant base="Lateral septal nucleus rostral (rostroventral) part ventrolateral zone"></variant></token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part ventrolateral zone dorsal region" ref_id="388"><variant base="Lateral septal nucleus rostral (rostroventral) part ventrolateral zone dorsal region"></variant></token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part ventrolateral zone dorsal region medial domain" ref_id="389"><variant base="Lateral septal nucleus rostral (rostroventral) part ventrolateral zone dorsal region medial domain"></variant></token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part ventrolateral zone dorsal region lateral domain" ref_id="390"><variant base="Lateral septal nucleus rostral (rostroventral) part ventrolateral zone dorsal region lateral domain"></variant></token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part ventrolateral zone ventral region" ref_id="391"><variant base="Lateral septal nucleus rostral (rostroventral) part ventrolateral zone ventral region"></variant></token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone" ref_id="392"><variant base="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone"></variant></token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone medial region" ref_id="393"><variant base="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone medial region"></variant></token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone medial region dorsal domain" ref_id="394"><variant base="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone medial region dorsal domain"></variant></token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone medial region ventral domain" ref_id="395"><variant base="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone medial region ventral domain"></variant></token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone lateral region" ref_id="396"><variant base="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone lateral region"></variant></token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone lateral region dorsal domain" ref_id="397"><variant base="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone lateral region dorsal domain"></variant></token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone lateral region ventral domain" ref_id="398"><variant base="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone lateral region ventral domain"></variant></token>
+<token canonical="Lateral septal nucleus ventral part" ref_id="399"><variant base="Lateral septal nucleus ventral part"></variant></token>
+<token canonical="Septofimbrial nucleus" ref_id="400"><variant base="Septofimbrial nucleus"></variant></token>
+<token canonical="Septohippocampal nucleus" ref_id="401"><variant base="Septohippocampal nucleus"></variant></token>
+<token canonical="Pallidum dorsal region" ref_id="402"><variant base="Pallidum dorsal region"></variant></token>
+<token canonical="Globus pallidus" ref_id="403"><variant base="Globus pallidus"></variant></token>
+<token canonical="Globus pallidus lateral segment" ref_id="404"><variant base="Globus pallidus lateral segment"></variant></token>
+<token canonical="Globus pallidus medial segment" ref_id="405"><variant base="Globus pallidus medial segment"></variant></token>
+<token canonical="Pallidum ventral region" ref_id="406"><variant base="Pallidum ventral region"></variant></token>
+<token canonical="Substantia innominata" ref_id="407"><variant base="Substantia innominata"></variant></token>
+<token canonical="Magnocellular preoptic nucleus" ref_id="408"><variant base="Magnocellular preoptic nucleus"></variant></token>
+<token canonical="Medial septal complex" ref_id="409"><variant base="Medial septal complex"></variant></token>
+<token canonical="Medial septal nucleus" ref_id="410"><variant base="Medial septal nucleus"></variant></token>
+<token canonical="Nucleus of the diagonal band" ref_id="411"><variant base="Nucleus of the diagonal band"></variant></token>
+<token canonical="Triangular nucleus of the septum" ref_id="412"><variant base="Triangular nucleus of the septum"></variant></token>
+<token canonical="Midbrain-Hindbrain" ref_id="413"><variant base="Midbrain-Hindbrain"></variant></token>
+<token canonical="Midbrain-Hindbrain, Sensory" ref_id="414"><variant base="Midbrain-Hindbrain, Sensory"></variant></token>
+<token canonical="Midbrain-Hindbrain, Sensory, Visual" ref_id="415"><variant base="Midbrain-Hindbrain, Sensory, Visual"></variant></token>
+<token canonical="Superior colliculus" ref_id="416"><variant base="Superior colliculus"></variant></token>
+<token canonical="Superior colliculus zonal layer" ref_id="417"><variant base="Superior colliculus zonal layer"></variant></token>
+<token canonical="Superior colliculus superficial gray layer" ref_id="418"><variant base="Superior colliculus superficial gray layer"></variant></token>
+<token canonical="Superior colliculus optic layer" ref_id="419"><variant base="Superior colliculus optic layer"></variant></token>
+<token canonical="Superior colliculus intermediate gray layer" ref_id="420"><variant base="Superior colliculus intermediate gray layer"></variant></token>
+<token canonical="Superior colliculus intermediate gray layer sublayer a" ref_id="421"><variant base="Superior colliculus intermediate gray layer sublayer a"></variant></token>
+<token canonical="Superior colliculus intermediate gray layer sublayer b" ref_id="422"><variant base="Superior colliculus intermediate gray layer sublayer b"></variant></token>
+<token canonical="Superior colliculus intermediate gray layer sublayer c" ref_id="423"><variant base="Superior colliculus intermediate gray layer sublayer c"></variant></token>
+<token canonical="Superior colliculus intermediate white layer" ref_id="424"><variant base="Superior colliculus intermediate white layer"></variant></token>
+<token canonical="Superior colliculus intermediate deep gray layer" ref_id="425"><variant base="Superior colliculus intermediate deep gray layer"></variant></token>
+<token canonical="Superior colliculus intermediate deep white layer" ref_id="426"><variant base="Superior colliculus intermediate deep white layer"></variant></token>
+<token canonical="Parageminal nucleus" ref_id="427"><variant base="Parageminal nucleus"></variant></token>
+<token canonical="Pretectal region" ref_id="428"><variant base="Pretectal region"></variant></token>
+<token canonical="Olivary pretectal nucleus" ref_id="429"><variant base="Olivary pretectal nucleus"></variant></token>
+<token canonical="Nucleus of the optic tract" ref_id="430"><variant base="Nucleus of the optic tract"></variant></token>
+<token canonical="Posterior pretectal nucleus" ref_id="431"><variant base="Posterior pretectal nucleus"></variant></token>
+<token canonical="Nucleus of the posterior commissure" ref_id="432"><variant base="Nucleus of the posterior commissure"></variant></token>
+<token canonical="Anterior pretectal nucleus" ref_id="433"><variant base="Anterior pretectal nucleus"></variant></token>
+<token canonical="Medial pretectal area" ref_id="434"><variant base="Medial pretectal area"></variant></token>
+<token canonical="Medial terminal nucleus of the accessory optic tract" ref_id="435"><variant base="Medial terminal nucleus of the accessory optic tract"></variant></token>
+<token canonical="Lateral terminal nucleus of the accessory optic tract" ref_id="436"><variant base="Lateral terminal nucleus of the accessory optic tract"></variant></token>
+<token canonical="Dorsal terminal nucleus of the accessory optic tract" ref_id="437"><variant base="Dorsal terminal nucleus of the accessory optic tract"></variant></token>
+<token canonical="Midbrain-Hindbrain, Sensory, Somatosensory" ref_id="438"><variant base="Midbrain-Hindbrain, Sensory, Somatosensory"></variant></token>
+<token canonical="Trigeminal ganglion" ref_id="439"><variant base="Trigeminal ganglion"></variant></token>
+<token canonical="Mesencephalic nucleus of the trigeminal" ref_id="440"><variant base="Mesencephalic nucleus of the trigeminal"></variant></token>
+<token canonical="Principal sensory nucleus of the trigeminal" ref_id="441"><variant base="Principal sensory nucleus of the trigeminal"></variant></token>
+<token canonical="Spinal nucleus of the trigeminal" ref_id="442"><variant base="Spinal nucleus of the trigeminal"></variant></token>
+<token canonical="Spinal nucleus of the trigeminal oral part" ref_id="443"><variant base="Spinal nucleus of the trigeminal oral part"></variant></token>
+<token canonical="Spinal nucleus of the trigeminal oral part ventrolateral part" ref_id="444"><variant base="Spinal nucleus of the trigeminal oral part ventrolateral part"></variant></token>
+<token canonical="Spinal nucleus of the trigeminal oral part rostral dorsomedial part" ref_id="445"><variant base="Spinal nucleus of the trigeminal oral part rostral dorsomedial part"></variant></token>
+<token canonical="Spinal nucleus of the trigeminal oral part middle dorsomedial part, dorsal zone" ref_id="446"><variant base="Spinal nucleus of the trigeminal oral part middle dorsomedial part, dorsal zone"></variant></token>
+<token canonical="Spinal nucleus of the trigeminal oral part middle dorsomedial part, ventral zone" ref_id="447"><variant base="Spinal nucleus of the trigeminal oral part middle dorsomedial part, ventral zone"></variant></token>
+<token canonical="Spinal nucleus of the trigeminal oral part caudal dorsomedial part" ref_id="448"><variant base="Spinal nucleus of the trigeminal oral part caudal dorsomedial part"></variant></token>
+<token canonical="Spinal nucleus of the trigeminal interpolar part" ref_id="449"><variant base="Spinal nucleus of the trigeminal interpolar part"></variant></token>
+<token canonical="Spinal nucleus of the trigeminal caudal part" ref_id="450"><variant base="Spinal nucleus of the trigeminal caudal part"></variant></token>
+<token canonical="Paratrigeminal nucleus" ref_id="451"><variant base="Paratrigeminal nucleus"></variant></token>
+<token canonical="Dorsal column nuclei" ref_id="452"><variant base="Dorsal column nuclei"></variant></token>
+<token canonical="Gracile nucleus" ref_id="453"><variant base="Gracile nucleus"></variant></token>
+<token canonical="Gracile nucleus median part" ref_id="454"><variant base="Gracile nucleus median part"></variant></token>
+<token canonical="Gracile nucleus proper" ref_id="455"><variant base="Gracile nucleus proper"></variant></token>
+<token canonical="Cuneate nucleus" ref_id="456"><variant base="Cuneate nucleus"></variant></token>
+<token canonical="Nucleus z" ref_id="457"><variant base="Nucleus z"></variant></token>
+<token canonical="External cuneate nucleus" ref_id="458"><variant base="External cuneate nucleus"></variant></token>
+<token canonical="Midbrain-Hindbrain, Sensory, Auditory" ref_id="459"><variant base="Midbrain-Hindbrain, Sensory, Auditory"></variant></token>
+<token canonical="Cochlear nuclei" ref_id="460"><variant base="Cochlear nuclei"></variant></token>
+<token canonical="Dorsal coclear nucleus" ref_id="461"><variant base="Dorsal coclear nucleus"></variant></token>
+<token canonical="Ventral coclear nucleus" ref_id="462"><variant base="Ventral coclear nucleus"></variant></token>
+<token canonical="Ventral coclear nucleus anterior part" ref_id="463"><variant base="Ventral coclear nucleus anterior part"></variant></token>
+<token canonical="Ventral coclear nucleus posterior part" ref_id="464"><variant base="Ventral coclear nucleus posterior part"></variant></token>
+<token canonical="Subpeduncular granular region of the cochlear nuclei" ref_id="465"><variant base="Subpeduncular granular region of the cochlear nuclei"></variant></token>
+<token canonical="Granular lamina of the cochlear nuclei" ref_id="466"><variant base="Granular lamina of the cochlear nuclei"></variant></token>
+<token canonical="Interstitial nucleus of the auditory nerve" ref_id="467"><variant base="Interstitial nucleus of the auditory nerve"></variant></token>
+<token canonical="Nucleus of the trapezoid body" ref_id="468"><variant base="Nucleus of the trapezoid body"></variant></token>
+<token canonical="Superior olivary complex" ref_id="469"><variant base="Superior olivary complex"></variant></token>
+<token canonical="Superior olivary complex medial part" ref_id="470"><variant base="Superior olivary complex medial part"></variant></token>
+<token canonical="Superior olivary complex lateral part" ref_id="471"><variant base="Superior olivary complex lateral part"></variant></token>
+<token canonical="Superior olivary complex periolivary region" ref_id="472"><variant base="Superior olivary complex periolivary region"></variant></token>
+<token canonical="Nucleus of the lateral lemniscus" ref_id="473"><variant base="Nucleus of the lateral lemniscus"></variant></token>
+<token canonical="Inferior colliculus" ref_id="474"><variant base="Inferior colliculus"></variant></token>
+<token canonical="Inferior colliculus external nucleus" ref_id="475"><variant base="Inferior colliculus external nucleus"></variant></token>
+<token canonical="Inferior colliculus dorsal nucleus" ref_id="476"><variant base="Inferior colliculus dorsal nucleus"></variant></token>
+<token canonical="Inferior colliculus central nucleus" ref_id="477"><variant base="Inferior colliculus central nucleus"></variant></token>
+<token canonical="Nucleus of the brachium of the inferior colliculus" ref_id="478"><variant base="Nucleus of the brachium of the inferior colliculus"></variant></token>
+<token canonical="Nucleus sagulum" ref_id="479"><variant base="Nucleus sagulum"></variant></token>
+<token canonical="Midbrain-Hindbrain, Sensory, Vestibular" ref_id="480"><variant base="Midbrain-Hindbrain, Sensory, Vestibular"></variant></token>
+<token canonical="Vestibular nuclei" ref_id="481"><variant base="Vestibular nuclei"></variant></token>
+<token canonical="Medial vestibular nucleus" ref_id="482"><variant base="Medial vestibular nucleus"></variant></token>
+<token canonical="Lateral vestibular nucleus" ref_id="483"><variant base="Lateral vestibular nucleus"></variant></token>
+<token canonical="Superior vestibular nucleus" ref_id="484"><variant base="Superior vestibular nucleus"></variant></token>
+<token canonical="Spinal vestibular nucleus" ref_id="485"><variant base="Spinal vestibular nucleus"></variant></token>
+<token canonical="Perihypoglossal nuclei" ref_id="486"><variant base="Perihypoglossal nuclei"></variant></token>
+<token canonical="Nucleus intercalatus" ref_id="487"><variant base="Nucleus intercalatus"></variant></token>
+<token canonical="Nucleus prepositus" ref_id="488"><variant base="Nucleus prepositus"></variant></token>
+<token canonical="Nucleus of Roller" ref_id="489"><variant base="Nucleus of Roller"></variant></token>
+<token canonical="Interstitial nucleus of the vestibular nerve" ref_id="490"><variant base="Interstitial nucleus of the vestibular nerve"></variant></token>
+<token canonical="Nucleus x" ref_id="491"><variant base="Nucleus x"></variant></token>
+<token canonical="Nucleus y" ref_id="492"><variant base="Nucleus y"></variant></token>
+<token canonical="Infracerebellar nucleus" ref_id="493"><variant base="Infracerebellar nucleus"></variant></token>
+<token canonical="Midbrain-Hindbrain, Sensory, Gustatory-Visceral" ref_id="494"><variant base="Midbrain-Hindbrain, Sensory, Gustatory-Visceral"></variant></token>
+<token canonical="Nucleus of the solitary tract" ref_id="495"><variant base="Nucleus of the solitary tract"></variant></token>
+<token canonical="Nucleus of the solitary tract central part" ref_id="496"><variant base="Nucleus of the solitary tract central part"></variant></token>
+<token canonical="Nucleus of the solitary tract commissural part" ref_id="497"><variant base="Nucleus of the solitary tract commissural part"></variant></token>
+<token canonical="Nucleus of the solitary tract gelatinous part" ref_id="498"><variant base="Nucleus of the solitary tract gelatinous part"></variant></token>
+<token canonical="Nucleus of the solitary tract lateral part" ref_id="499"><variant base="Nucleus of the solitary tract lateral part"></variant></token>
+<token canonical="Nucleus of the solitary tract medial part" ref_id="500"><variant base="Nucleus of the solitary tract medial part"></variant></token>
+<token canonical="Nucleus of the solitary tract medial part rostral zone" ref_id="501"><variant base="Nucleus of the solitary tract medial part rostral zone"></variant></token>
+<token canonical="Nucleus of the solitary tract medial part caudal zone" ref_id="502"><variant base="Nucleus of the solitary tract medial part caudal zone"></variant></token>
+<token canonical="Area postrema" ref_id="503"><variant base="Area postrema"></variant></token>
+<token canonical="Parabrachial nucleus" ref_id="504"><variant base="Parabrachial nucleus"></variant></token>
+<token canonical="Parabrachial nucleus lateral division" ref_id="505"><variant base="Parabrachial nucleus lateral division"></variant></token>
+<token canonical="Parabrachial nucleus lateral division central lateral part" ref_id="506"><variant base="Parabrachial nucleus lateral division central lateral part"></variant></token>
+<token canonical="Parabrachial nucleus lateral division dorsal lateral part" ref_id="507"><variant base="Parabrachial nucleus lateral division dorsal lateral part"></variant></token>
+<token canonical="Parabrachial nucleus lateral division external lateral part" ref_id="508"><variant base="Parabrachial nucleus lateral division external lateral part"></variant></token>
+<token canonical="Parabrachial nucleus lateral division extreme lateral part" ref_id="509"><variant base="Parabrachial nucleus lateral division extreme lateral part"></variant></token>
+<token canonical="Parabrachial nucleus lateral division internal lateral part" ref_id="510"><variant base="Parabrachial nucleus lateral division internal lateral part"></variant></token>
+<token canonical="Parabrachial nucleus lateral division superior lateral part" ref_id="511"><variant base="Parabrachial nucleus lateral division superior lateral part"></variant></token>
+<token canonical="Parabrachial nucleus lateral division ventral lateral part" ref_id="512"><variant base="Parabrachial nucleus lateral division ventral lateral part"></variant></token>
+<token canonical="Kolliker-Fuse subnucleus" ref_id="513"><variant base="Kolliker-Fuse subnucleus"></variant></token>
+<token canonical="Parabrachial nucleus medial division" ref_id="514"><variant base="Parabrachial nucleus medial division"></variant></token>
+<token canonical="Parabrachial nucleus medial division medial medial part" ref_id="515"><variant base="Parabrachial nucleus medial division medial medial part"></variant></token>
+<token canonical="Parabrachial nucleus medial division external medial part" ref_id="516"><variant base="Parabrachial nucleus medial division external medial part"></variant></token>
+<token canonical="Parabrachial nucleus medial division ventral medial part" ref_id="517"><variant base="Parabrachial nucleus medial division ventral medial part"></variant></token>
+<token canonical="Midbrain-Hindbrain, Motor" ref_id="518"><variant base="Midbrain-Hindbrain, Motor"></variant></token>
+<token canonical="Midbrain-Hindbrain, Motor, Eye" ref_id="519"><variant base="Midbrain-Hindbrain, Motor, Eye"></variant></token>
+<token canonical="Oculomotor nucleus" ref_id="520"><variant base="Oculomotor nucleus"></variant></token>
+<token canonical="Medial accessory nucleus" ref_id="521"><variant base="Medial accessory nucleus"></variant></token>
+<token canonical="Oculomotor nucleus proper" ref_id="522"><variant base="Oculomotor nucleus proper"></variant></token>
+<token canonical="Trochlear nucleus" ref_id="523"><variant base="Trochlear nucleus"></variant></token>
+<token canonical="Abducens nucleus" ref_id="524"><variant base="Abducens nucleus"></variant></token>
+<token canonical="Accesory abducens nucleus" ref_id="525"><variant base="Accesory abducens nucleus"></variant></token>
+<token canonical="Abducens nucleus proper" ref_id="526"><variant base="Abducens nucleus proper"></variant></token>
+<token canonical="Midbrain-Hindbrain, Motor, Jaw" ref_id="527"><variant base="Midbrain-Hindbrain, Motor, Jaw"></variant></token>
+<token canonical="Motor nucleus of the trigeminal" ref_id="528"><variant base="Motor nucleus of the trigeminal"></variant></token>
+<token canonical="Motor nucleus of the trigeminal parvicellular part" ref_id="529"><variant base="Motor nucleus of the trigeminal parvicellular part"></variant></token>
+<token canonical="Motor nucleus of the trigeminal proper" ref_id="530"><variant base="Motor nucleus of the trigeminal proper"></variant></token>
+<token canonical="Midbrain-Hindbrain, Motor, Extrapyramidal" ref_id="531"><variant base="Midbrain-Hindbrain, Motor, Extrapyramidal"></variant></token>
+<token canonical="Substantia nigra" ref_id="532"><variant base="Substantia nigra"></variant></token>
+<token canonical="Substantia nigra compact part" ref_id="533"><variant base="Substantia nigra compact part"></variant></token>
+<token canonical="Substantia nigra reticular part" ref_id="534"><variant base="Substantia nigra reticular part"></variant></token>
+<token canonical="Ventral tegmental area" ref_id="535"><variant base="Ventral tegmental area"></variant></token>
+<token canonical="Reticular core" ref_id="536"><variant base="Reticular core"></variant></token>
+<token canonical="Central gray of the brain" ref_id="538"><variant base="Central gray of the brain"></variant></token>
+<token canonical="Periaqueductal gray" ref_id="539"><variant base="Periaqueductal gray"></variant></token>
+<token canonical="Precommissural nucleus" ref_id="540"><variant base="Precommissural nucleus"></variant></token>
+<token canonical="Commissural nucleus" ref_id="541"><variant base="Commissural nucleus"></variant></token>
+<token canonical="Periaqueductal gray rostromedial division" ref_id="542"><variant base="Periaqueductal gray rostromedial division"></variant></token>
+<token canonical="Periaqueductal gray rostrolateral division" ref_id="543"><variant base="Periaqueductal gray rostrolateral division"></variant></token>
+<token canonical="Periaqueductal gray medial division" ref_id="544"><variant base="Periaqueductal gray medial division"></variant></token>
+<token canonical="Periaqueductal gray dorsal division" ref_id="545"><variant base="Periaqueductal gray dorsal division"></variant></token>
+<token canonical="Periaqueductal gray ventrolateral division" ref_id="546"><variant base="Periaqueductal gray ventrolateral division"></variant></token>
+<token canonical="Periaqueductal gray dorsolateral division" ref_id="547"><variant base="Periaqueductal gray dorsolateral division"></variant></token>
+<token canonical="Interstitial nucleus of Cajal" ref_id="548"><variant base="Interstitial nucleus of Cajal"></variant></token>
+<token canonical="Nucleus of Darkschewitsch" ref_id="549"><variant base="Nucleus of Darkschewitsch"></variant></token>
+<token canonical="Dorsal tegmental nucleus" ref_id="551"><variant base="Dorsal tegmental nucleus"></variant></token>
+<token canonical="Ventral tegmental nucleus" ref_id="552"><variant base="Ventral tegmental nucleus"></variant></token>
+<token canonical="Anterior tegmental nucleus" ref_id="553"><variant base="Anterior tegmental nucleus"></variant></token>
+<token canonical="Lateral tegmental nucleus" ref_id="554"><variant base="Lateral tegmental nucleus"></variant></token>
+<token canonical="Laterodorsal tegmental nucleus" ref_id="555"><variant base="Laterodorsal tegmental nucleus"></variant></token>
+<token canonical="Sublaterodorsal nucleus" ref_id="556"><variant base="Sublaterodorsal nucleus"></variant></token>
+<token canonical="Locus coeruleus" ref_id="557"><variant base="Locus coeruleus"></variant></token>
+<token canonical="Subcoeruleus nucleus" ref_id="558"><variant base="Subcoeruleus nucleus"></variant></token>
+<token canonical="Barrington nucleus" ref_id="559"><variant base="Barrington nucleus"></variant></token>
+<token canonical="Supargenual nucleus" ref_id="560"><variant base="Supargenual nucleus"></variant></token>
+<token canonical="Pontine central gray" ref_id="561"><variant base="Pontine central gray"></variant></token>
+<token canonical="Raphe of mesenchephalon" ref_id="562"><variant base="Raphe of mesenchephalon"></variant></token>
+<token canonical="Interfascicular nucleus raphe" ref_id="563"><variant base="Interfascicular nucleus raphe"></variant></token>
+<token canonical="Rostral linear nucleus raphe" ref_id="564"><variant base="Rostral linear nucleus raphe"></variant></token>
+<token canonical="Central linear nucleus raphe" ref_id="565"><variant base="Central linear nucleus raphe"></variant></token>
+<token canonical="Superior central nucleus raphe" ref_id="566"><variant base="Superior central nucleus raphe"></variant></token>
+<token canonical="Superior central nucleus raphe medial part" ref_id="567"><variant base="Superior central nucleus raphe medial part"></variant></token>
+<token canonical="Superior central nucleus raphe lateral part" ref_id="568"><variant base="Superior central nucleus raphe lateral part"></variant></token>
+<token canonical="Dorsal nucleus raphe" ref_id="569"><variant base="Dorsal nucleus raphe"></variant></token>
+<token canonical="Nucleus incertus" ref_id="570"><variant base="Nucleus incertus"></variant></token>
+<token canonical="Nucleus incertus compact part" ref_id="571"><variant base="Nucleus incertus compact part"></variant></token>
+<token canonical="Nucleus incertus diffuse part" ref_id="572"><variant base="Nucleus incertus diffuse part"></variant></token>
+<token canonical="Nucleus raphe pontis" ref_id="573"><variant base="Nucleus raphe pontis"></variant></token>
+<token canonical="Nucleus raphe magnus" ref_id="574"><variant base="Nucleus raphe magnus"></variant></token>
+<token canonical="Nucleus raphe pallidus" ref_id="575"><variant base="Nucleus raphe pallidus"></variant></token>
+<token canonical="Nucleus raphe obscurus" ref_id="576"><variant base="Nucleus raphe obscurus"></variant></token>
+<token canonical="Interpeduncular nucleus" ref_id="577"><variant base="Interpeduncular nucleus"></variant></token>
+<token canonical="Interpeduncular nucleus rostral subnucleus" ref_id="578"><variant base="Interpeduncular nucleus rostral subnucleus"></variant></token>
+<token canonical="Interpeduncular nucleus apical subnucleus" ref_id="579"><variant base="Interpeduncular nucleus apical subnucleus"></variant></token>
+<token canonical="Interpeduncular nucleus dorsomedial subnucleus" ref_id="580"><variant base="Interpeduncular nucleus dorsomedial subnucleus"></variant></token>
+<token canonical="Interpeduncular nucleus lateral subnucleus" ref_id="581"><variant base="Interpeduncular nucleus lateral subnucleus"></variant></token>
+<token canonical="Interpeduncular nucleus lateral subnucleus dorsal part" ref_id="582"><variant base="Interpeduncular nucleus lateral subnucleus dorsal part"></variant></token>
+<token canonical="Interpeduncular nucleus lateral subnucleus intermediate part" ref_id="583"><variant base="Interpeduncular nucleus lateral subnucleus intermediate part"></variant></token>
+<token canonical="Interpeduncular nucleus lateral subnucleus ventral part" ref_id="584"><variant base="Interpeduncular nucleus lateral subnucleus ventral part"></variant></token>
+<token canonical="Interpeduncular nucleus lateral subnucleus rostral part" ref_id="585"><variant base="Interpeduncular nucleus lateral subnucleus rostral part"></variant></token>
+<token canonical="Interpeduncular nucleus intermediate subnucleus" ref_id="586"><variant base="Interpeduncular nucleus intermediate subnucleus"></variant></token>
+<token canonical="Interpeduncular nucleus central subnucleus" ref_id="587"><variant base="Interpeduncular nucleus central subnucleus"></variant></token>
+<token canonical="Reticular formation" ref_id="588"><variant base="Reticular formation"></variant></token>
+<token canonical="Mesencephalic reticular nucleus" ref_id="589"><variant base="Mesencephalic reticular nucleus"></variant></token>
+<token canonical="Retrorubral area" ref_id="590"><variant base="Retrorubral area"></variant></token>
+<token canonical="Pedunculopontine nucleus" ref_id="591"><variant base="Pedunculopontine nucleus"></variant></token>
+<token canonical="Cuneiform nucleus" ref_id="592"><variant base="Cuneiform nucleus"></variant></token>
+<token canonical="Pontine reticular nucleus" ref_id="593"><variant base="Pontine reticular nucleus"></variant></token>
+<token canonical="Pontine reticular nucleus caudal part" ref_id="594"><variant base="Pontine reticular nucleus caudal part"></variant></token>
+<token canonical="Pontine reticular nucleus rostral part" ref_id="595"><variant base="Pontine reticular nucleus rostral part"></variant></token>
+<token canonical="Gigantocellular reticular nucleus" ref_id="596"><variant base="Gigantocellular reticular nucleus"></variant></token>
+<token canonical="Paragigantocellular reticular nucleus" ref_id="597"><variant base="Paragigantocellular reticular nucleus"></variant></token>
+<token canonical="Paragigantocellular reticular nucleus dorsal part" ref_id="598"><variant base="Paragigantocellular reticular nucleus dorsal part"></variant></token>
+<token canonical="Paragigantocellular reticular nucleus lateral part" ref_id="599"><variant base="Paragigantocellular reticular nucleus lateral part"></variant></token>
+<token canonical="Parapyramidal nucleus" ref_id="600"><variant base="Parapyramidal nucleus"></variant></token>
+<token canonical="Parapyramidal nucleus deep part" ref_id="601"><variant base="Parapyramidal nucleus deep part"></variant></token>
+<token canonical="Parapyramidal nucleus superficial part" ref_id="602"><variant base="Parapyramidal nucleus superficial part"></variant></token>
+<token canonical="Magnocellular reticular nucleus" ref_id="603"><variant base="Magnocellular reticular nucleus"></variant></token>
+<token canonical="Supratrigeminal nucleus" ref_id="604"><variant base="Supratrigeminal nucleus"></variant></token>
+<token canonical="Medullary reticular nucleus" ref_id="605"><variant base="Medullary reticular nucleus"></variant></token>
+<token canonical="Medullary reticular nucleus dorsal part" ref_id="606"><variant base="Medullary reticular nucleus dorsal part"></variant></token>
+<token canonical="Medullary reticular nucleus ventral part" ref_id="607"><variant base="Medullary reticular nucleus ventral part"></variant></token>
+<token canonical="Dorsal horn of the spinal cord" ref_id="608"><variant base="Dorsal horn of the spinal cord"></variant></token>
+<token canonical="Marginal zone of the spinal cord" ref_id="609"><variant base="Marginal zone of the spinal cord"></variant></token>
+<token canonical="Substantia gelatinosa of the spinal cord" ref_id="610"><variant base="Substantia gelatinosa of the spinal cord"></variant></token>
+<token canonical="Nucleus proprius of the spinal cord" ref_id="611"><variant base="Nucleus proprius of the spinal cord"></variant></token>
+<token canonical="Reticular nucleus of the spinal cord" ref_id="612"><variant base="Reticular nucleus of the spinal cord"></variant></token>
+<token canonical="Basal nucleus of the dorsal horn" ref_id="613"><variant base="Basal nucleus of the dorsal horn"></variant></token>
+<token canonical="Lateral cervical nucleus" ref_id="614"><variant base="Lateral cervical nucleus"></variant></token>
+<token canonical="Lateral spinal nucleus" ref_id="615"><variant base="Lateral spinal nucleus"></variant></token>
+<token canonical="Intermediate Gray of the Spinal Cord" ref_id="616"><variant base="Intermediate Gray of the Spinal Cord"></variant></token>
+<token canonical="Central cervical nucleus" ref_id="617"><variant base="Central cervical nucleus"></variant></token>
+<token canonical="Dorsal nucleus of the spinal cord" ref_id="618"><variant base="Dorsal nucleus of the spinal cord"></variant></token>
+<token canonical="Dorsal nucleus of the spinal cord caudal part" ref_id="619"><variant base="Dorsal nucleus of the spinal cord caudal part"></variant></token>
+<token canonical="Intermediomedial column of the spinal cord" ref_id="620"><variant base="Intermediomedial column of the spinal cord"></variant></token>
+<token canonical="Intermediolateral column of the spinal cord" ref_id="621"><variant base="Intermediolateral column of the spinal cord"></variant></token>
+<token canonical="Dorsal commissural nucleus" ref_id="622"><variant base="Dorsal commissural nucleus"></variant></token>
+<token canonical="Intercalated nucleus of the spinal cord" ref_id="623"><variant base="Intercalated nucleus of the spinal cord"></variant></token>
+<token canonical="Intermediolateral column of the spinal cord sympathetic column" ref_id="624"><variant base="Intermediolateral column of the spinal cord sympathetic column"></variant></token>
+<token canonical="Intermediolateral column of the spinal cord parasympathetic column" ref_id="625"><variant base="Intermediolateral column of the spinal cord parasympathetic column"></variant></token>
+<token canonical="Central gray of the spinal cord" ref_id="626"><variant base="Central gray of the spinal cord"></variant></token>
+<token canonical="Ventral horn of the spinal cord" ref_id="627"><variant base="Ventral horn of the spinal cord"></variant></token>
+<token canonical="Nucleus of the bulbocavernosus" ref_id="628"><variant base="Nucleus of the bulbocavernosus"></variant></token>
+<token canonical="Onuf nucleus" ref_id="629"><variant base="Onuf nucleus"></variant></token>
+<token canonical="Phrenic nucleus" ref_id="630"><variant base="Phrenic nucleus"></variant></token>
+<token canonical="Somatic motor areas" ref_id="631"><variant base="Somatic motor areas"></variant></token>
+<token canonical="Primary motor area" ref_id="632"><variant base="Primary motor area"></variant></token>
+<token canonical="Secondary motor area" ref_id="633"><variant base="Secondary motor area"></variant></token>
+<token canonical="Auditory areas" ref_id="634"><variant base="Auditory areas"></variant></token>
+<token canonical="Primary auditory area" ref_id="635"><variant base="Primary auditory area"></variant></token>
+<token canonical="Dorsal auditory areas" ref_id="636"><variant base="Dorsal auditory areas"></variant></token>
+<token canonical="Ventral auditory areas" ref_id="637"><variant base="Ventral auditory areas"></variant></token>
+<token canonical="Gustatory areas" ref_id="638"><variant base="Gustatory areas"></variant></token>
+<token canonical="Anterior olfactory nucleus" ref_id="639"><variant base="Anterior olfactory nucleus"></variant></token>
+<token canonical="Anterior olfactory nucleus dorsal part" ref_id="640"><variant base="Anterior olfactory nucleus dorsal part"></variant></token>
+<token canonical="Anterior olfactory nucleus dorsal part molecular layer" ref_id="641"><variant base="Anterior olfactory nucleus dorsal part molecular layer"></variant></token>
+<token canonical="Anterior olfactory nucleus dorsal part pyramidal layer" ref_id="642"><variant base="Anterior olfactory nucleus dorsal part pyramidal layer"></variant></token>
+<token canonical="Anterior olfactory nucleus external part" ref_id="643"><variant base="Anterior olfactory nucleus external part"></variant></token>
+<token canonical="Anterior olfactory nucleus external part molecular layer" ref_id="644"><variant base="Anterior olfactory nucleus external part molecular layer"></variant></token>
+<token canonical="Anterior olfactory nucleus external part pyramidal layer" ref_id="645"><variant base="Anterior olfactory nucleus external part pyramidal layer"></variant></token>
+<token canonical="Anterior olfactory nucleus lateral part" ref_id="646"><variant base="Anterior olfactory nucleus lateral part"></variant></token>
+<token canonical="Anterior olfactory nucleus lateral part molecular layer" ref_id="647"><variant base="Anterior olfactory nucleus lateral part molecular layer"></variant></token>
+<token canonical="Anterior olfactory nucleus lateral part pyramidal layer" ref_id="648"><variant base="Anterior olfactory nucleus lateral part pyramidal layer"></variant></token>
+<token canonical="Anterior olfactory nucleus medial part" ref_id="649"><variant base="Anterior olfactory nucleus medial part"></variant></token>
+<token canonical="Anterior olfactory nucleus medial part molecular layer" ref_id="650"><variant base="Anterior olfactory nucleus medial part molecular layer"></variant></token>
+<token canonical="Anterior olfactory nucleus medial part pyramidal layer" ref_id="651"><variant base="Anterior olfactory nucleus medial part pyramidal layer"></variant></token>
+<token canonical="Anterior olfactory nucleus posteroventral part" ref_id="652"><variant base="Anterior olfactory nucleus posteroventral part"></variant></token>
+<token canonical="Anterior olfactory nucleus posteroventral part molecular layer" ref_id="653"><variant base="Anterior olfactory nucleus posteroventral part molecular layer"></variant></token>
+<token canonical="Anterior olfactory nucleus posteroventral part pyramidal layer" ref_id="654"><variant base="Anterior olfactory nucleus posteroventral part pyramidal layer"></variant></token>
+<token canonical="Taenia tecta" ref_id="656"><variant base="Taenia tecta"></variant></token>
+<token canonical="Taenia tecta dorsal part" ref_id="657"><variant base="Taenia tecta dorsal part"></variant></token>
+<token canonical="Taenia tecta dorsal part layer 1" ref_id="658"><variant base="Taenia tecta dorsal part layer 1"></variant></token>
+<token canonical="Taenia tecta dorsal part layer 2" ref_id="659"><variant base="Taenia tecta dorsal part layer 2"></variant></token>
+<token canonical="Taenia tecta dorsal part layer 3" ref_id="660"><variant base="Taenia tecta dorsal part layer 3"></variant></token>
+<token canonical="Taenia tecta dorsal part layer 4" ref_id="661"><variant base="Taenia tecta dorsal part layer 4"></variant></token>
+<token canonical="Taenia tecta ventral part" ref_id="662"><variant base="Taenia tecta ventral part"></variant></token>
+<token canonical="Taenia tecta ventral part layer1" ref_id="663"><variant base="Taenia tecta ventral part layer1"></variant></token>
+<token canonical="Taenia tecta ventral part layer2" ref_id="664"><variant base="Taenia tecta ventral part layer2"></variant></token>
+<token canonical="Taenia tecta ventral part layer3" ref_id="665"><variant base="Taenia tecta ventral part layer3"></variant></token>
+<token canonical="Piriform area" ref_id="666"><variant base="Piriform area"></variant></token>
+<token canonical="Piriform area molecular layer" ref_id="667"><variant base="Piriform area molecular layer"></variant></token>
+<token canonical="Piriform area pyramidal layer" ref_id="668"><variant base="Piriform area pyramidal layer"></variant></token>
+<token canonical="Piriform area polymorph layer" ref_id="669"><variant base="Piriform area polymorph layer"></variant></token>
+<token canonical="Postpiriform transition area" ref_id="670"><variant base="Postpiriform transition area"></variant></token>
+<token canonical="Piriform-amygdaloid area" ref_id="671"><variant base="Piriform-amygdaloid area"></variant></token>
+<token canonical="Nucleus of the lateral olfactory tract" ref_id="672"><variant base="Nucleus of the lateral olfactory tract"></variant></token>
+<token canonical="Nucleus of the lateral olfactory tract molecular layer" ref_id="673"><variant base="Nucleus of the lateral olfactory tract molecular layer"></variant></token>
+<token canonical="Nucleus of the lateral olfactory tract pyramidal layer" ref_id="674"><variant base="Nucleus of the lateral olfactory tract pyramidal layer"></variant></token>
+<token canonical="Nucleus of the lateral olfactory tract dorsal cap" ref_id="675"><variant base="Nucleus of the lateral olfactory tract dorsal cap"></variant></token>
+<token canonical="Cortical nucleus of the amygdala" ref_id="676"><variant base="Cortical nucleus of the amygdala"></variant></token>
+<token canonical="Cortical nucleus of the amygdala anterior part" ref_id="677"><variant base="Cortical nucleus of the amygdala anterior part"></variant></token>
+<token canonical="Cortical nucleus of the amygdala posterior part" ref_id="678"><variant base="Cortical nucleus of the amygdala posterior part"></variant></token>
+<token canonical="Cortical nucleus of the amygdala posterior part lateral zone" ref_id="679"><variant base="Cortical nucleus of the amygdala posterior part lateral zone"></variant></token>
+<token canonical="Cortical nucleus of the amygdala posterior part medial zone" ref_id="680"><variant base="Cortical nucleus of the amygdala posterior part medial zone"></variant></token>
+<token canonical="Somatosensory areas" ref_id="681"><variant base="Somatosensory areas"></variant></token>
+<token canonical="Primary somatosensory area" ref_id="682"><variant base="Primary somatosensory area"></variant></token>
+<token canonical="Primary somatosensory area barrel field" ref_id="683"><variant base="Primary somatosensory area barrel field"></variant></token>
+<token canonical="Primary somatosensory area lower limb" ref_id="684"><variant base="Primary somatosensory area lower limb"></variant></token>
+<token canonical="Primary somatosensory area mouth" ref_id="685"><variant base="Primary somatosensory area mouth"></variant></token>
+<token canonical="Primary somatosensory area nose" ref_id="686"><variant base="Primary somatosensory area nose"></variant></token>
+<token canonical="Primary somatosensory area trunk" ref_id="687"><variant base="Primary somatosensory area trunk"></variant></token>
+<token canonical="Primary somatosensory area upper limb" ref_id="688"><variant base="Primary somatosensory area upper limb"></variant></token>
+<token canonical="Supplemental somatosensory area" ref_id="689"><variant base="Supplemental somatosensory area"></variant></token>
+<token canonical="Visceral area" ref_id="690"><variant base="Visceral area"></variant></token>
+<token canonical="Visual areas" ref_id="691"><variant base="Visual areas"></variant></token>
+<token canonical="Anterior laterolateral visual area" ref_id="692"><variant base="Anterior laterolateral visual area"></variant></token>
+<token canonical="Anterolateral visual area" ref_id="693"><variant base="Anterolateral visual area"></variant></token>
+<token canonical="Anteromedial visual area" ref_id="694"><variant base="Anteromedial visual area"></variant></token>
+<token canonical="Intermediolateral visual area" ref_id="695"><variant base="Intermediolateral visual area"></variant></token>
+<token canonical="Laterolateral visual area" ref_id="696"><variant base="Laterolateral visual area"></variant></token>
+<token canonical="Mediolateral visual area" ref_id="697"><variant base="Mediolateral visual area"></variant></token>
+<token canonical="Posterolateral visual area" ref_id="698"><variant base="Posterolateral visual area"></variant></token>
+<token canonical="Primary visual area" ref_id="699"><variant base="Primary visual area"></variant></token>
+<token canonical="Rostrolateral visual area" ref_id="700"><variant base="Rostrolateral visual area"></variant></token>
+<token canonical="Agranular insular area" ref_id="701"><variant base="Agranular insular area"></variant></token>
+<token canonical="Agranular insular area dorsal part" ref_id="702"><variant base="Agranular insular area dorsal part"></variant></token>
+<token canonical="Agranular insular area ventral part" ref_id="703"><variant base="Agranular insular area ventral part"></variant></token>
+<token canonical="Agranular insular area posterior part" ref_id="704"><variant base="Agranular insular area posterior part"></variant></token>
+<token canonical="Anterior cingulate area" ref_id="705"><variant base="Anterior cingulate area"></variant></token>
+<token canonical="Anterior cingulate area dorsal part" ref_id="706"><variant base="Anterior cingulate area dorsal part"></variant></token>
+<token canonical="Anterior cingulate area ventral part" ref_id="707"><variant base="Anterior cingulate area ventral part"></variant></token>
+<token canonical="Ectorhinal area" ref_id="708"><variant base="Ectorhinal area"></variant></token>
+<token canonical="Parasubiculum" ref_id="709"><variant base="Parasubiculum"></variant></token>
+<token canonical="Parasubiculum layer 1" ref_id="710"><variant base="Parasubiculum layer 1"></variant></token>
+<token canonical="Parasubiculum layer 2" ref_id="711"><variant base="Parasubiculum layer 2"></variant></token>
+<token canonical="Parasubiculum layer 3" ref_id="712"><variant base="Parasubiculum layer 3"></variant></token>
+<token canonical="Parasubiculum layer 4" ref_id="713"><variant base="Parasubiculum layer 4"></variant></token>
+<token canonical="Parasubiculum layer 5" ref_id="714"><variant base="Parasubiculum layer 5"></variant></token>
+<token canonical="Parasubiculum layer 6" ref_id="715"><variant base="Parasubiculum layer 6"></variant></token>
+<token canonical="Subiculum" ref_id="716"><variant base="Subiculum"></variant></token>
+<token canonical="Subiculum dorsal part" ref_id="717"><variant base="Subiculum dorsal part"></variant></token>
+<token canonical="Subiculum dorsal part molecular layer" ref_id="718"><variant base="Subiculum dorsal part molecular layer"></variant></token>
+<token canonical="Subiculum dorsal part stratum radiatum" ref_id="719"><variant base="Subiculum dorsal part stratum radiatum"></variant></token>
+<token canonical="Subiculum dorsal part pyramidal layer" ref_id="720"><variant base="Subiculum dorsal part pyramidal layer"></variant></token>
+<token canonical="Subiculum ventral part" ref_id="721"><variant base="Subiculum ventral part"></variant></token>
+<token canonical="Subiculum ventral part molecular layer" ref_id="722"><variant base="Subiculum ventral part molecular layer"></variant></token>
+<token canonical="Subiculum ventral part stratum radiatum" ref_id="723"><variant base="Subiculum ventral part stratum radiatum"></variant></token>
+<token canonical="Subiculum ventral part pyramidal layer" ref_id="724"><variant base="Subiculum ventral part pyramidal layer"></variant></token>
+<token canonical="Hippocampal region" ref_id="725"><variant base="Hippocampal region"></variant></token>
+<token canonical="Ammon Horn" ref_id="726"><variant base="Ammon Horn"></variant></token>
+<token canonical="Field CA1" ref_id="727"><variant base="Field CA1"></variant></token>
+<token canonical="Field CA1 stratum lacunosum-moleculare" ref_id="728"><variant base="Field CA1 stratum lacunosum-moleculare"></variant></token>
+<token canonical="Field CA1 stratum radiatum" ref_id="729"><variant base="Field CA1 stratum radiatum"></variant></token>
+<token canonical="Field CA1 pyramidal layer" ref_id="730"><variant base="Field CA1 pyramidal layer"></variant></token>
+<token canonical="Field CA1 pyramidal layer, deep" ref_id="731"><variant base="Field CA1 pyramidal layer, deep"></variant></token>
+<token canonical="Field CA1 pyramidal layer, superficial" ref_id="732"><variant base="Field CA1 pyramidal layer, superficial"></variant></token>
+<token canonical="Field CA1 stratum oriens" ref_id="733"><variant base="Field CA1 stratum oriens"></variant></token>
+<token canonical="Field CA2" ref_id="734"><variant base="Field CA2"></variant></token>
+<token canonical="Field CA2 stratum lacunosum-moleculare" ref_id="735"><variant base="Field CA2 stratum lacunosum-moleculare"></variant></token>
+<token canonical="Field CA2 stratum radiatum" ref_id="736"><variant base="Field CA2 stratum radiatum"></variant></token>
+<token canonical="Field CA2 pyramidal layer" ref_id="737"><variant base="Field CA2 pyramidal layer"></variant></token>
+<token canonical="Field CA2 stratum oriens" ref_id="738"><variant base="Field CA2 stratum oriens"></variant></token>
+<token canonical="Field CA3" ref_id="739"><variant base="Field CA3"></variant></token>
+<token canonical="Field CA3 stratum lacunosum-moleculare" ref_id="740"><variant base="Field CA3 stratum lacunosum-moleculare"></variant></token>
+<token canonical="Field CA3 stratum lucidum" ref_id="741"><variant base="Field CA3 stratum lucidum"></variant></token>
+<token canonical="Field CA3 stratum oriens" ref_id="742"><variant base="Field CA3 stratum oriens"></variant></token>
+<token canonical="Field CA3 pyramidal layer" ref_id="743"><variant base="Field CA3 pyramidal layer"></variant></token>
+<token canonical="Dentate gyrus" ref_id="744"><variant base="Dentate gyrus"></variant></token>
+<token canonical="Dentate gyrus crest" ref_id="745"><variant base="Dentate gyrus crest"></variant></token>
+<token canonical="Dentate gyrus crest molecular layer" ref_id="746"><variant base="Dentate gyrus crest molecular layer"></variant></token>
+<token canonical="Dentate gyrus crest granule cell  layer" ref_id="747"><variant base="Dentate gyrus crest granule cell  layer"></variant></token>
+<token canonical="Dentate gyrus crest polymorph  layer" ref_id="748"><variant base="Dentate gyrus crest polymorph  layer"></variant></token>
+<token canonical="Dentate gyrus lateral blade" ref_id="749"><variant base="Dentate gyrus lateral blade"></variant></token>
+<token canonical="Dentate gyrus lateral blade molecular layer" ref_id="750"><variant base="Dentate gyrus lateral blade molecular layer"></variant></token>
+<token canonical="Dentate gyrus lateral blade granule cell layer" ref_id="751"><variant base="Dentate gyrus lateral blade granule cell layer"></variant></token>
+<token canonical="Dentate gyrus lateral blade polymorph layer" ref_id="752"><variant base="Dentate gyrus lateral blade polymorph layer"></variant></token>
+<token canonical="Dentate gyrus medial blade" ref_id="753"><variant base="Dentate gyrus medial blade"></variant></token>
+<token canonical="Dentate gyrus medial blade molecular layer" ref_id="754"><variant base="Dentate gyrus medial blade molecular layer"></variant></token>
+<token canonical="Dentate gyrus medial blade granule cell layer" ref_id="755"><variant base="Dentate gyrus medial blade granule cell layer"></variant></token>
+<token canonical="Dentate gyrus medial blade polymorph layer" ref_id="756"><variant base="Dentate gyrus medial blade polymorph layer"></variant></token>
+<token canonical="Induseum griseum" ref_id="757"><variant base="Induseum griseum"></variant></token>
+<token canonical="Fasciola cinerea" ref_id="758"><variant base="Fasciola cinerea"></variant></token>
+<token canonical="Infralimbic area" ref_id="759"><variant base="Infralimbic area"></variant></token>
+<token canonical="Orbital area" ref_id="760"><variant base="Orbital area"></variant></token>
+<token canonical="Orbital area lateral part" ref_id="761"><variant base="Orbital area lateral part"></variant></token>
+<token canonical="Orbital area medial part" ref_id="762"><variant base="Orbital area medial part"></variant></token>
+<token canonical="Orbital area ventral part" ref_id="763"><variant base="Orbital area ventral part"></variant></token>
+<token canonical="Orbital area ventrolateral part" ref_id="764"><variant base="Orbital area ventrolateral part"></variant></token>
+<token canonical="Perirhinal area" ref_id="765"><variant base="Perirhinal area"></variant></token>
+<token canonical="Posterior parietal association areas" ref_id="766"><variant base="Posterior parietal association areas"></variant></token>
+<token canonical="Prelimbic area" ref_id="767"><variant base="Prelimbic area"></variant></token>
+<token canonical="Retrosplenial area" ref_id="768"><variant base="Retrosplenial area"></variant></token>
+<token canonical="Retrosplenial area dorsal part" ref_id="769"><variant base="Retrosplenial area dorsal part"></variant></token>
+<token canonical="Retrosplenial area lateral agranular part" ref_id="770"><variant base="Retrosplenial area lateral agranular part"></variant></token>
+<token canonical="Retrosplenial area ventral part" ref_id="771"><variant base="Retrosplenial area ventral part"></variant></token>
+<token canonical="Retrosplenial area ventral part zone a" ref_id="772"><variant base="Retrosplenial area ventral part zone a"></variant></token>
+<token canonical="Retrosplenial area ventral part zone b/c" ref_id="773"><variant base="Retrosplenial area ventral part zone b/c"></variant></token>
+<token canonical="Ventral temporal association areas" ref_id="774"><variant base="Ventral temporal association areas"></variant></token>
+<token canonical="Layer 6b(layer 7, subplate, deep cortex, claustral complex)" ref_id="775"><variant base="Layer 6b(layer 7, subplate, deep cortex, claustral complex)"></variant></token>
+<token canonical="Layer 6b, isocortex" ref_id="776"><variant base="Layer 6b, isocortex"></variant></token>
+<token canonical="Claustrum" ref_id="777"><variant base="Claustrum"></variant></token>
+<token canonical="Endopiriform nucleus" ref_id="778"><variant base="Endopiriform nucleus"></variant></token>
+<token canonical="Endopiriform nucleus dorsal part" ref_id="779"><variant base="Endopiriform nucleus dorsal part"></variant></token>
+<token canonical="Endopiriform nucleus ventral part" ref_id="780"><variant base="Endopiriform nucleus ventral part"></variant></token>
+<token canonical="Lateral nucleus of the amygdala" ref_id="781"><variant base="Lateral nucleus of the amygdala"></variant></token>
+<token canonical="Basolateral nucleus of the amygdala" ref_id="782"><variant base="Basolateral nucleus of the amygdala"></variant></token>
+<token canonical="Basolateral nucleus of the amygdala anterior part" ref_id="783"><variant base="Basolateral nucleus of the amygdala anterior part"></variant></token>
+<token canonical="Basolateral nucleus of the amygdala posterior part" ref_id="784"><variant base="Basolateral nucleus of the amygdala posterior part"></variant></token>
+<token canonical="Basomedial nucleus of the amygdala" ref_id="785"><variant base="Basomedial nucleus of the amygdala"></variant></token>
+<token canonical="Basomedial nucleus of the amygdala anterior part" ref_id="786"><variant base="Basomedial nucleus of the amygdala anterior part"></variant></token>
+<token canonical="Basomedial nucleus of the amygdala posterior part" ref_id="787"><variant base="Basomedial nucleus of the amygdala posterior part"></variant></token>
+<token canonical="Posterior nucleus of the amygdala" ref_id="788"><variant base="Posterior nucleus of the amygdala"></variant></token>
+<token canonical="Cerebellar cortex" ref_id="789"><variant base="Cerebellar cortex"></variant></token>
+<token canonical="Vermal regions" ref_id="790"><variant base="Vermal regions"></variant></token>
+<token canonical="Lingula (l)" ref_id="791"><variant base="Lingula (l)"></variant></token>
+<token canonical="Central lobule" ref_id="792"><variant base="Central lobule"></variant></token>
+<token canonical="Central lobule, lobule II" ref_id="793"><variant base="Central lobule, lobule II"></variant></token>
+<token canonical="Central lobule, lobule II sublobule a" ref_id="794"><variant base="Central lobule, lobule II sublobule a"></variant></token>
+<token canonical="Central lobule, lobule II sublobule b" ref_id="795"><variant base="Central lobule, lobule II sublobule b"></variant></token>
+<token canonical="Central lobule, lobule III" ref_id="796"><variant base="Central lobule, lobule III"></variant></token>
+<token canonical="Central lobule, lobule III sublobule a" ref_id="797"><variant base="Central lobule, lobule III sublobule a"></variant></token>
+<token canonical="Central lobule, lobule III sublobule b" ref_id="798"><variant base="Central lobule, lobule III sublobule b"></variant></token>
+<token canonical="Culmen" ref_id="799"><variant base="Culmen"></variant></token>
+<token canonical="Culmen lobule IV" ref_id="800"><variant base="Culmen lobule IV"></variant></token>
+<token canonical="Culmen lobule V" ref_id="801"><variant base="Culmen lobule V"></variant></token>
+<token canonical="Declive (VI)" ref_id="802"><variant base="Declive (VI)"></variant></token>
+<token canonical="Declive, sublobule a" ref_id="803"><variant base="Declive, sublobule a"></variant></token>
+<token canonical="Declive, sublobule b" ref_id="804"><variant base="Declive, sublobule b"></variant></token>
+<token canonical="Declive, sublobule c" ref_id="805"><variant base="Declive, sublobule c"></variant></token>
+<token canonical="Declive, sublobule d" ref_id="806"><variant base="Declive, sublobule d"></variant></token>
+<token canonical="Folium-tuber vermis (VII)" ref_id="807"><variant base="Folium-tuber vermis (VII)"></variant></token>
+<token canonical="Pyramus" ref_id="808"><variant base="Pyramus"></variant></token>
+<token canonical="Pyramus sublobule a" ref_id="809"><variant base="Pyramus sublobule a"></variant></token>
+<token canonical="Pyramus sublobule b" ref_id="810"><variant base="Pyramus sublobule b"></variant></token>
+<token canonical="Uvula (IX)" ref_id="811"><variant base="Uvula (IX)"></variant></token>
+<token canonical="Uvula (IX) sublobule ab" ref_id="812"><variant base="Uvula (IX) sublobule ab"></variant></token>
+<token canonical="Uvula (IX) sublobule c" ref_id="813"><variant base="Uvula (IX) sublobule c"></variant></token>
+<token canonical="Nodulus (X)" ref_id="814"><variant base="Nodulus (X)"></variant></token>
+<token canonical="Nodulus sublobule a" ref_id="815"><variant base="Nodulus sublobule a"></variant></token>
+<token canonical="Nodulus sublobule b" ref_id="816"><variant base="Nodulus sublobule b"></variant></token>
+<token canonical="Hemispheric regions" ref_id="817"><variant base="Hemispheric regions"></variant></token>
+<token canonical="Simple lobule" ref_id="818"><variant base="Simple lobule"></variant></token>
+<token canonical="Simple lobule sublobule a" ref_id="819"><variant base="Simple lobule sublobule a"></variant></token>
+<token canonical="Simple lobule sublobule b" ref_id="820"><variant base="Simple lobule sublobule b"></variant></token>
+<token canonical="Ansiform lobule" ref_id="821"><variant base="Ansiform lobule"></variant></token>
+<token canonical="Ansiform lobule crus 1" ref_id="822"><variant base="Ansiform lobule crus 1"></variant></token>
+<token canonical="Ansiform lobule crus 1 sublobule a" ref_id="823"><variant base="Ansiform lobule crus 1 sublobule a"></variant></token>
+<token canonical="Ansiform lobule crus 1 sublobule b" ref_id="824"><variant base="Ansiform lobule crus 1 sublobule b"></variant></token>
+<token canonical="Ansiform lobule crus 1 sublobule c" ref_id="825"><variant base="Ansiform lobule crus 1 sublobule c"></variant></token>
+<token canonical="Ansiform lobule crus 1 sublobule d" ref_id="826"><variant base="Ansiform lobule crus 1 sublobule d"></variant></token>
+<token canonical="Ansiform lobule crus 2" ref_id="827"><variant base="Ansiform lobule crus 2"></variant></token>
+<token canonical="Ansiform lobule crus 2 sublobule a" ref_id="828"><variant base="Ansiform lobule crus 2 sublobule a"></variant></token>
+<token canonical="Ansiform lobule crus 2 sublobule b" ref_id="829"><variant base="Ansiform lobule crus 2 sublobule b"></variant></token>
+<token canonical="Paramedian lobule" ref_id="830"><variant base="Paramedian lobule"></variant></token>
+<token canonical="Copula pyramidis" ref_id="831"><variant base="Copula pyramidis"></variant></token>
+<token canonical="Copula pyramidis sublobule a" ref_id="832"><variant base="Copula pyramidis sublobule a"></variant></token>
+<token canonical="Copula pyramidis sublobule b" ref_id="833"><variant base="Copula pyramidis sublobule b"></variant></token>
+<token canonical="Paraflocculus" ref_id="834"><variant base="Paraflocculus"></variant></token>
+<token canonical="Flocculus" ref_id="835"><variant base="Flocculus"></variant></token>
+<token canonical="Deep cerebellar nuclei" ref_id="836"><variant base="Deep cerebellar nuclei"></variant></token>
+<token canonical="Fastigial nucleus" ref_id="837"><variant base="Fastigial nucleus"></variant></token>
+<token canonical="Interposed nucleus" ref_id="838"><variant base="Interposed nucleus"></variant></token>
+<token canonical="Interposed nucleus parvicellular part" ref_id="839"><variant base="Interposed nucleus parvicellular part"></variant></token>
+<token canonical="Interposed nucleus proper" ref_id="840"><variant base="Interposed nucleus proper"></variant></token>
+<token canonical="Dentate nucleus" ref_id="841"><variant base="Dentate nucleus"></variant></token>
+<token canonical="Dentate nucleus parvicellular part" ref_id="842"><variant base="Dentate nucleus parvicellular part"></variant></token>
+<token canonical="Dentate nucleus proper" ref_id="843"><variant base="Dentate nucleus proper"></variant></token>
+<token canonical="Retina, outer nuclear layer" ref_id="844"><variant base="Retina, outer nuclear layer"></variant></token>
+<token canonical="Retina, outer plexiform layer" ref_id="845"><variant base="Retina, outer plexiform layer"></variant></token>
+<token canonical="Retina, inner nuclear layer" ref_id="846"><variant base="Retina, inner nuclear layer"></variant></token>
+<token canonical="Retina, inner plexiform layer" ref_id="847"><variant base="Retina, inner plexiform layer"></variant></token>
+<token canonical="Retina, ganglion cell layer" ref_id="848"><variant base="Retina, ganglion cell layer"></variant></token>
+<token canonical="Pre-Post Cerebellar nuclei" ref_id="849"><variant base="Pre-Post Cerebellar nuclei"></variant></token>
+<token canonical="Pontine gray" ref_id="850"><variant base="Pontine gray"></variant></token>
+<token canonical="Tegmental reticular nucleus" ref_id="851"><variant base="Tegmental reticular nucleus"></variant></token>
+<token canonical="Pontine gray proper" ref_id="852"><variant base="Pontine gray proper"></variant></token>
+<token canonical="Inferior olivary complex" ref_id="853"><variant base="Inferior olivary complex"></variant></token>
+<token canonical="Dorsal accessory olive" ref_id="854"><variant base="Dorsal accessory olive"></variant></token>
+<token canonical="Medial accessory olive" ref_id="855"><variant base="Medial accessory olive"></variant></token>
+<token canonical="Principal olive" ref_id="856"><variant base="Principal olive"></variant></token>
+<token canonical="Lateral reticular nucleus" ref_id="857"><variant base="Lateral reticular nucleus"></variant></token>
+<token canonical="Lateral reticular nucleus magnocellular part" ref_id="858"><variant base="Lateral reticular nucleus magnocellular part"></variant></token>
+<token canonical="Lateral reticular nucleus parvicellular part" ref_id="859"><variant base="Lateral reticular nucleus parvicellular part"></variant></token>
+<token canonical="Linear nucleus of the medulla" ref_id="860"><variant base="Linear nucleus of the medulla"></variant></token>
+<token canonical="Paramedian reticular nucleus" ref_id="861"><variant base="Paramedian reticular nucleus"></variant></token>
+<token canonical="Parasolitary nucleus" ref_id="862"><variant base="Parasolitary nucleus"></variant></token>
+<token canonical="Red nucleus" ref_id="863"><variant base="Red nucleus"></variant></token>
+<token canonical="Midbrain-Hindbrain, Motor, Face" ref_id="864"><variant base="Midbrain-Hindbrain, Motor, Face"></variant></token>
+<token canonical="Facial nucleus" ref_id="865"><variant base="Facial nucleus"></variant></token>
+<token canonical="Accessory facial nucleus" ref_id="866"><variant base="Accessory facial nucleus"></variant></token>
+<token canonical="Facial nucleus_proper" ref_id="867"><variant base="Facial nucleus_proper"></variant></token>
+<token canonical="Midbrain-Hindbrain, Motor, Labyrinth" ref_id="868"><variant base="Midbrain-Hindbrain, Motor, Labyrinth"></variant></token>
+<token canonical="Efferent cochlear group" ref_id="869"><variant base="Efferent cochlear group"></variant></token>
+<token canonical="Efferent vesstibular nucleus" ref_id="870"><variant base="Efferent vesstibular nucleus"></variant></token>
+<token canonical="Midbrain-Hindbrain, Motor, Pharynx-Larynx-Esophagus" ref_id="871"><variant base="Midbrain-Hindbrain, Motor, Pharynx-Larynx-Esophagus"></variant></token>
+<token canonical="Nucleus ambiguus dorsal division" ref_id="872"><variant base="Nucleus ambiguus dorsal division"></variant></token>
+<token canonical="Nucleus ambiguus dorsal division, stylopharyngeal motoneurons" ref_id="873"><variant base="Nucleus ambiguus dorsal division, stylopharyngeal motoneurons"></variant></token>
+<token canonical="Nucleus ambiguus dorsal division proper" ref_id="874"><variant base="Nucleus ambiguus dorsal division proper"></variant></token>
+<token canonical="Midbrain-Hindbrain, Motor, Neck" ref_id="875"><variant base="Midbrain-Hindbrain, Motor, Neck"></variant></token>
+<token canonical="Nucleus of the spinal accessory nerve" ref_id="876"><variant base="Nucleus of the spinal accessory nerve"></variant></token>
+<token canonical="Midbrain-Hindbrain, Motor, Tongue" ref_id="877"><variant base="Midbrain-Hindbrain, Motor, Tongue"></variant></token>
+<token canonical="Hypoglossal nucleus" ref_id="878"><variant base="Hypoglossal nucleus"></variant></token>
+<token canonical="Midbrain-Hindbrain, Motor, Viscera" ref_id="879"><variant base="Midbrain-Hindbrain, Motor, Viscera"></variant></token>
+<token canonical="Edinger-Westphal nucleus" ref_id="880"><variant base="Edinger-Westphal nucleus"></variant></token>
+<token canonical="Superior salivatory nucleus" ref_id="881"><variant base="Superior salivatory nucleus"></variant></token>
+<token canonical="Inferior salivatory nucleus" ref_id="882"><variant base="Inferior salivatory nucleus"></variant></token>
+<token canonical="Dorsal motor nucleus of the vagus nerve" ref_id="883"><variant base="Dorsal motor nucleus of the vagus nerve"></variant></token>
+<token canonical="Nucleus ambiguus, ventral division" ref_id="884"><variant base="Nucleus ambiguus, ventral division"></variant></token>
+<token canonical="Cranial and Spinal Nerves (and Related)" ref_id="886"><variant base="Cranial and Spinal Nerves (and Related)"></variant></token>
+<token canonical="Terminal nerve" ref_id="887"><variant base="Terminal nerve"></variant></token>
+<token canonical="Olfactory nerve" ref_id="888"><variant base="Olfactory nerve"></variant></token>
+<token canonical="Vomeronasal nerve" ref_id="889"><variant base="Vomeronasal nerve"></variant></token>
+<token canonical="Lateral olfactory tract" ref_id="890"><variant base="Lateral olfactory tract"></variant></token>
+<token canonical="Lateral olfactory tract dorsal limb" ref_id="891"><variant base="Lateral olfactory tract dorsal limb"></variant></token>
+<token canonical="Anterior commissure, olfactory limb" ref_id="892"><variant base="Anterior commissure, olfactory limb"></variant></token>
+<token canonical="Optic nerve" ref_id="893"><variant base="Optic nerve"></variant></token>
+<token canonical="Accessory optic tract" ref_id="894"><variant base="Accessory optic tract"></variant></token>
+<token canonical="Brachium of the superior colliculus" ref_id="895"><variant base="Brachium of the superior colliculus"></variant></token>
+<token canonical="Commissure of the superior colliculus" ref_id="897"><variant base="Commissure of the superior colliculus"></variant></token>
+<token canonical="Optic chiasm" ref_id="898"><variant base="Optic chiasm"></variant></token>
+<token canonical="Optic tract" ref_id="899"><variant base="Optic tract"></variant></token>
+<token canonical="Techtothalamic pathway" ref_id="900"><variant base="Techtothalamic pathway"></variant></token>
+<token canonical="Oculomotor nerve" ref_id="901"><variant base="Oculomotor nerve"></variant></token>
+<token canonical="Medial longitudinal fascicle" ref_id="902"><variant base="Medial longitudinal fascicle"></variant></token>
+<token canonical="Posterior commissure" ref_id="903"><variant base="Posterior commissure"></variant></token>
+<token canonical="Trochlear nerve" ref_id="905"><variant base="Trochlear nerve"></variant></token>
+<token canonical="Decussation of the trochlear nerve" ref_id="906"><variant base="Decussation of the trochlear nerve"></variant></token>
+<token canonical="Trochlear nerve proper" ref_id="907"><variant base="Trochlear nerve proper"></variant></token>
+<token canonical="Abducens nerve" ref_id="908"><variant base="Abducens nerve"></variant></token>
+<token canonical="Trigeminal nerve" ref_id="909"><variant base="Trigeminal nerve"></variant></token>
+<token canonical="Motor root of the trigeminal nerve" ref_id="910"><variant base="Motor root of the trigeminal nerve"></variant></token>
+<token canonical="Sensory root of the trigeminal nerve" ref_id="911"><variant base="Sensory root of the trigeminal nerve"></variant></token>
+<token canonical="Mesencephalic tract of the trigeminal nerve" ref_id="912"><variant base="Mesencephalic tract of the trigeminal nerve"></variant></token>
+<token canonical="Spinal tract of the trigeminal nerve" ref_id="913"><variant base="Spinal tract of the trigeminal nerve"></variant></token>
+<token canonical="Facial nerve" ref_id="914"><variant base="Facial nerve"></variant></token>
+<token canonical="Intermediate nerve" ref_id="915"><variant base="Intermediate nerve"></variant></token>
+<token canonical="Genu of the facial nerve" ref_id="916"><variant base="Genu of the facial nerve"></variant></token>
+<token canonical="Vestibulocochlear nerve" ref_id="917"><variant base="Vestibulocochlear nerve"></variant></token>
+<token canonical="Efferent cochleovestibular bundle" ref_id="918"><variant base="Efferent cochleovestibular bundle"></variant></token>
+<token canonical="Vestibular nerve" ref_id="919"><variant base="Vestibular nerve"></variant></token>
+<token canonical="Cochlear nerve" ref_id="920"><variant base="Cochlear nerve"></variant></token>
+<token canonical="Trapezoid body" ref_id="921"><variant base="Trapezoid body"></variant></token>
+<token canonical="Intermediate acoustic stria" ref_id="922"><variant base="Intermediate acoustic stria"></variant></token>
+<token canonical="Dorsal acoustic stria" ref_id="923"><variant base="Dorsal acoustic stria"></variant></token>
+<token canonical="Lateral lemniscus" ref_id="924"><variant base="Lateral lemniscus"></variant></token>
+<token canonical="Commissure of the inferior colliculus" ref_id="925"><variant base="Commissure of the inferior colliculus"></variant></token>
+<token canonical="Brachium of the inferior colliculus" ref_id="926"><variant base="Brachium of the inferior colliculus"></variant></token>
+<token canonical="Glossopharyngeal nerve" ref_id="927"><variant base="Glossopharyngeal nerve"></variant></token>
+<token canonical="Vagus nerve" ref_id="928"><variant base="Vagus nerve"></variant></token>
+<token canonical="Solitary tract" ref_id="929"><variant base="Solitary tract"></variant></token>
+<token canonical="Accessory spinal nerve" ref_id="930"><variant base="Accessory spinal nerve"></variant></token>
+<token canonical="Hypoglossal nerve" ref_id="931"><variant base="Hypoglossal nerve"></variant></token>
+<token canonical="Ventral roots" ref_id="932"><variant base="Ventral roots"></variant></token>
+<token canonical="Dorsal roots" ref_id="933"><variant base="Dorsal roots"></variant></token>
+<token canonical="Cervicothalamic tract" ref_id="934"><variant base="Cervicothalamic tract"></variant></token>
+<token canonical="Dorsolateral fascicle" ref_id="935"><variant base="Dorsolateral fascicle"></variant></token>
+<token canonical="Ventral commissure of the spinal cord" ref_id="936"><variant base="Ventral commissure of the spinal cord"></variant></token>
+<token canonical="Dorsal columns" ref_id="937"><variant base="Dorsal columns"></variant></token>
+<token canonical="Cuneate fascicle" ref_id="938"><variant base="Cuneate fascicle"></variant></token>
+<token canonical="Gracile fascicle" ref_id="939"><variant base="Gracile fascicle"></variant></token>
+<token canonical="Internal arcuate fibers" ref_id="940"><variant base="Internal arcuate fibers"></variant></token>
+<token canonical="Medial lemniscus" ref_id="941"><variant base="Medial lemniscus"></variant></token>
+<token canonical="Spinothalamic tract" ref_id="942"><variant base="Spinothalamic tract"></variant></token>
+<token canonical="Lateral spinothalamic tract" ref_id="943"><variant base="Lateral spinothalamic tract"></variant></token>
+<token canonical="Ventral spinothalamic tract" ref_id="944"><variant base="Ventral spinothalamic tract"></variant></token>
+<token canonical="Spinocervical tract" ref_id="945"><variant base="Spinocervical tract"></variant></token>
+<token canonical="Spino-olivary pathway" ref_id="946"><variant base="Spino-olivary pathway"></variant></token>
+<token canonical="Spinoreticular pathway" ref_id="947"><variant base="Spinoreticular pathway"></variant></token>
+<token canonical="Spinovestibular pathway" ref_id="948"><variant base="Spinovestibular pathway"></variant></token>
+<token canonical="Spinotectal pathway" ref_id="949"><variant base="Spinotectal pathway"></variant></token>
+<token canonical="Spinohypothalamic pathway" ref_id="950"><variant base="Spinohypothalamic pathway"></variant></token>
+<token canonical="Spinotelencephalic pathway" ref_id="951"><variant base="Spinotelencephalic pathway"></variant></token>
+<token canonical="Hypothalamohypophysial tract" ref_id="952"><variant base="Hypothalamohypophysial tract"></variant></token>
+<token canonical="Cerebellar commissure" ref_id="953"><variant base="Cerebellar commissure"></variant></token>
+<token canonical="Cerebellar peduncles" ref_id="954"><variant base="Cerebellar peduncles"></variant></token>
+<token canonical="Superior cerebellar peduncle" ref_id="955"><variant base="Superior cerebellar peduncle"></variant></token>
+<token canonical="Descussation of the scp" ref_id="956"><variant base="Descussation of the scp"></variant></token>
+<token canonical="Uncinate fascicle" ref_id="957"><variant base="Uncinate fascicle"></variant></token>
+<token canonical="Ventral spinocerebellar tract" ref_id="958"><variant base="Ventral spinocerebellar tract"></variant></token>
+<token canonical="Middle cerebellar peduncle" ref_id="959"><variant base="Middle cerebellar peduncle"></variant></token>
+<token canonical="Inferior cerebellar peduncle" ref_id="960"><variant base="Inferior cerebellar peduncle"></variant></token>
+<token canonical="Dorsal spinocerebellar tract" ref_id="961"><variant base="Dorsal spinocerebellar tract"></variant></token>
+<token canonical="Cuneocerebellar tract" ref_id="962"><variant base="Cuneocerebellar tract"></variant></token>
+<token canonical="Juxtarestiform body" ref_id="963"><variant base="Juxtarestiform body"></variant></token>
+<token canonical="Bulbocerebellar tract" ref_id="964"><variant base="Bulbocerebellar tract"></variant></token>
+<token canonical="Olivocerebellar tract" ref_id="965"><variant base="Olivocerebellar tract"></variant></token>
+<token canonical="Reticulocerebellar tract" ref_id="966"><variant base="Reticulocerebellar tract"></variant></token>
+<token canonical="Trigeminocerebellar tract" ref_id="967"><variant base="Trigeminocerebellar tract"></variant></token>
+<token canonical="Arbor vitae" ref_id="968"><variant base="Arbor vitae"></variant></token>
+<token canonical="Extrapyramidal fiber systems" ref_id="969"><variant base="Extrapyramidal fiber systems"></variant></token>
+<token canonical="Extrapyramidal fiber systems, basal-nuclei related" ref_id="970"><variant base="Extrapyramidal fiber systems, basal-nuclei related"></variant></token>
+<token canonical="Pallidothalamic pathway" ref_id="971"><variant base="Pallidothalamic pathway"></variant></token>
+<token canonical="Nigrostriatal tract" ref_id="972"><variant base="Nigrostriatal tract"></variant></token>
+<token canonical="Nigrothalamic fibers" ref_id="973"><variant base="Nigrothalamic fibers"></variant></token>
+<token canonical="Pallidotegmental fascicle" ref_id="974"><variant base="Pallidotegmental fascicle"></variant></token>
+<token canonical="Striatonigral pathway" ref_id="975"><variant base="Striatonigral pathway"></variant></token>
+<token canonical="Subthalamic fascicle" ref_id="976"><variant base="Subthalamic fascicle"></variant></token>
+<token canonical="Tectospinal pathway" ref_id="977"><variant base="Tectospinal pathway"></variant></token>
+<token canonical="Direct tectospinal pathway" ref_id="978"><variant base="Direct tectospinal pathway"></variant></token>
+<token canonical="Dorsal tegmental decussation" ref_id="979"><variant base="Dorsal tegmental decussation"></variant></token>
+<token canonical="Crossed tectospinal pathway" ref_id="980"><variant base="Crossed tectospinal pathway"></variant></token>
+<token canonical="Rubrospinal tract" ref_id="981"><variant base="Rubrospinal tract"></variant></token>
+<token canonical="Ventral tegmental decussation" ref_id="982"><variant base="Ventral tegmental decussation"></variant></token>
+<token canonical="Rubroreticular tract" ref_id="983"><variant base="Rubroreticular tract"></variant></token>
+<token canonical="Central tegmental bundle" ref_id="984"><variant base="Central tegmental bundle"></variant></token>
+<token canonical="Reticulospinal tract" ref_id="985"><variant base="Reticulospinal tract"></variant></token>
+<token canonical="Reticulospinal tract, lateral part" ref_id="986"><variant base="Reticulospinal tract, lateral part"></variant></token>
+<token canonical="Reticulospinal tract, medial part" ref_id="987"><variant base="Reticulospinal tract, medial part"></variant></token>
+<token canonical="Vestibulospinal pathway" ref_id="988"><variant base="Vestibulospinal pathway"></variant></token>
+<token canonical="Cingulum bundle" ref_id="989"><variant base="Cingulum bundle"></variant></token>
+<token canonical="Medial forebrain bundle" ref_id="990"><variant base="Medial forebrain bundle"></variant></token>
+<token canonical="Supraoptic commissures" ref_id="991"><variant base="Supraoptic commissures"></variant></token>
+<token canonical="Supraoptic commissures, anterior" ref_id="992"><variant base="Supraoptic commissures, anterior"></variant></token>
+<token canonical="Supraoptic commissures, dorsal" ref_id="993"><variant base="Supraoptic commissures, dorsal"></variant></token>
+<token canonical="Supraoptic commissures, ventral" ref_id="994"><variant base="Supraoptic commissures, ventral"></variant></token>
+<token canonical="Supramammillary decussation" ref_id="995"><variant base="Supramammillary decussation"></variant></token>
+<token canonical="Periventricular bundle of the hypothalamus" ref_id="996"><variant base="Periventricular bundle of the hypothalamus"></variant></token>
+<token canonical="Principal mammillary tract" ref_id="997"><variant base="Principal mammillary tract"></variant></token>
+<token canonical="Mammillothalamic tract" ref_id="998"><variant base="Mammillothalamic tract"></variant></token>
+<token canonical="Mammillotegmental tract" ref_id="999"><variant base="Mammillotegmental tract"></variant></token>
+<token canonical="Mammillary peduncle" ref_id="1000"><variant base="Mammillary peduncle"></variant></token>
+<token canonical="Periventricular bundle of the thalamus" ref_id="1001"><variant base="Periventricular bundle of the thalamus"></variant></token>
+<token canonical="Stria medularis" ref_id="1002"><variant base="Stria medularis"></variant></token>
+<token canonical="Fasciculus retroflexus" ref_id="1003"><variant base="Fasciculus retroflexus"></variant></token>
+<token canonical="Habenular commisure" ref_id="1004"><variant base="Habenular commisure"></variant></token>
+<token canonical="Dorsal longitudinal fascicle" ref_id="1005"><variant base="Dorsal longitudinal fascicle"></variant></token>
+<token canonical="Dorsal tegmental tract" ref_id="1006"><variant base="Dorsal tegmental tract"></variant></token>
+<token canonical="Dorsal commissure of the spinal cord" ref_id="1007"><variant base="Dorsal commissure of the spinal cord"></variant></token>
+<token canonical="Lateral hypothalamic area proper" ref_id="1009"><variant base="Lateral hypothalamic area proper"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis, anterior division, subcommisural zone" ref_id="1694"><variant base="Bed nuclei of the stria terminalis, anterior division, subcommisural zone"></variant></token>
+<token canonical="Medial preoptic area proper" ref_id="1695"><variant base="Medial preoptic area proper"></variant></token>
+<token canonical="Anterior hypothalamic area proper" ref_id="1696"><variant base="Anterior hypothalamic area proper"></variant></token>
+<token canonical="Supraoptic nucleus proper" ref_id="1697"><variant base="Supraoptic nucleus proper"></variant></token>
+<token canonical="Nucleus reuniens caudal division posterior part" ref_id="1698"><variant base="Nucleus reuniens caudal division posterior part"></variant></token>
+<token canonical="Parvicellular reticular nucleus" ref_id="1699"><variant base="Parvicellular reticular nucleus"></variant></token>
+<token canonical="Mesencephalic reticular nucleus proper" ref_id="1700"><variant base="Mesencephalic reticular nucleus proper"></variant></token>
+<token canonical="Locus coeruleus proper" ref_id="1701"><variant base="Locus coeruleus proper"></variant></token>
+<token canonical="Stria terminalis" ref_id="1702"><variant base="Stria terminalis"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis anterior division anterodorsal area proper" ref_id="1703"><variant base="Bed nuclei of the stria terminalis anterior division anterodorsal area proper"></variant></token>
+<token canonical="Bed nuclei of the stria terminalis anterior division anterodorsal area central core" ref_id="1704"><variant base="Bed nuclei of the stria terminalis anterior division anterodorsal area central core"></variant></token>
+<token canonical="Laterodorsal tegmental nucleus proper" ref_id="1705"><variant base="Laterodorsal tegmental nucleus proper"></variant></token>
+<token canonical="Field CA3 stratum radiatum" ref_id="6968"><variant base="Field CA3 stratum radiatum"></variant></token>
+<token canonical="Pituitary gland, neural lobe" ref_id="6969"><variant base="Pituitary gland, neural lobe"></variant></token>
+<token canonical="Pituitary gland" ref_id="6971"><variant base="Pituitary gland"></variant></token>
+<token canonical="Median eminence" ref_id="6972"><variant base="Median eminence"></variant></token>
+<token canonical="Median eminence external lamina" ref_id="6973"><variant base="Median eminence external lamina"></variant></token>
+<token canonical="Median eminence internal lamina" ref_id="6974"><variant base="Median eminence internal lamina"></variant></token>
+<token canonical="Infundibulum" ref_id="6975"><variant base="Infundibulum"></variant></token>
+<token canonical="Infundibulum external lamina" ref_id="6976"><variant base="Infundibulum external lamina"></variant></token>
+<token canonical="Infundibulum internal lamina" ref_id="6977"><variant base="Infundibulum internal lamina"></variant></token>
+<token canonical="Pituitary gland, anterior lobe" ref_id="6978"><variant base="Pituitary gland, anterior lobe"></variant></token>
+<token canonical="Pituitary gland, intermediate lobe" ref_id="6979"><variant base="Pituitary gland, intermediate lobe"></variant></token>
+<token canonical="Central canal" ref_id="7730"><variant base="Central canal"></variant></token>
+<token canonical="Nucleus reuniens rostral division anterior part" ref_id="11103"><variant base="Nucleus reuniens rostral division anterior part"></variant></token>
+
+</synonym>

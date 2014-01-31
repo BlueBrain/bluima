@@ -1,0 +1,35 @@
+########################################################################################################
+# evaluates the performance of the brainregion lexical NER (based on Neuronames) against the WhiteText corpus
+########################################################################################################
+
+
+####################################################
+# 1) read corpus, prepare annotations
+####################################################
+include: start.include
+
+
+####################################################
+# 2) annotate with lexicon
+####################################################
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/brainregion")
+
+ae: DeduplicatorAnnotator
+ annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.BrainRegionDictTerm"}
+
+
+####################################################
+# 3) evaluate and print annotated documents
+####################################################
+# compare BrainRegion annotations btw gold (WhiteText corpus) and system (lexical-NER)
+ae: EvaluationAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.BrainRegion
+ system_annotation: ch.epfl.bbp.uima.types.BrainRegionDictTerm 
+ 
+# print progress
+ae: StatsAnnotatorPlus
+ printEvery__java: 10
+
+# create files for Brat viewer
+ae: BartWriter
+ batchPrefix: lex_brainregions_ner

@@ -1,0 +1,59 @@
+*	Equiv T3 T4
+T24	Positive_regulation 62 69	induces
+T25	Gene_expression 70 80	expression
+T26	Gene_expression 394 404	expression
+T27	Gene_expression 562 573	distributed
+T28	Gene_expression 615 624	expressed
+T29	Gene_expression 740 749	expressed
+T30	Gene_expression 887 896	expressed
+T31	Positive_regulation 1013 1022	increased
+T32	Positive_regulation 1115 1128	up-regulation
+T33	Gene_expression 1143 1153	expression
+T34	Gene_expression 1213 1225	undetectable
+T35	Gene_expression 1234 1244	low levels
+T36	Entity 1399 1407	promoter
+T37	Positive_regulation 1426 1438	up-regulated
+T38	Entity 1586 1594	promoter
+T39	Positive_regulation 1595 1604	induction
+T40	Positive_regulation 1608 1617	dependent
+T41	Positive_regulation 1812 1824	Transfection
+T42	Gene_expression 1812 1824	Transfection
+T43	Positive_regulation 1896 1903	induced
+T44	Gene_expression 1915 1925	expression
+T45	Positive_regulation 1983 1991	activate
+T46	Gene_expression 2006 2016	production
+T47	Gene_expression 2099 2109	production
+T48	Positive_regulation 2110 2117	induces
+T49	Transcription 2122 2135	transcription
+T50	Localization 2165 2174	secretion
+E1	Positive_regulation:T24 Theme:E2
+E2	Gene_expression:T25 Theme:T1
+E3	Gene_expression:T26 Theme:T2
+E4	Gene_expression:T27 Theme:T9
+E5	Gene_expression:T28 Theme:T9
+E6	Gene_expression:T29 Theme:T10
+E7	Gene_expression:T30 Theme:T10
+E8	Positive_regulation:T31 Theme:T11
+E9	Positive_regulation:T32 Theme:E10
+E10	Gene_expression:T33 Theme:T12
+E11	Gene_expression:T34 Theme:T13
+E12	Gene_expression:T35 Theme:T13
+E13	Positive_regulation:T37 Theme:T14 Cause:T15 Site:T36
+E14	Positive_regulation:T39 Theme:T17 Site:T38
+E15	Positive_regulation:T40 Theme:E14
+E16	Positive_regulation:T41 Theme:E17
+E17	Gene_expression:T42 Theme:T18
+E18	Positive_regulation:T43 Theme:E19 Cause:E16
+E19	Gene_expression:T44 Theme:T19
+E20	Positive_regulation:T45 Theme:E21 Cause:T20
+E21	Gene_expression:T46 Theme:T21
+E22	Gene_expression:T47 Theme:T22
+E23	Positive_regulation:T48 Theme:E26 Cause:E22
+E24	Positive_regulation:T48 Theme:E25 Cause:E22
+E25	Transcription:T49 Theme:T23
+E26	Localization:T50 Theme:T23
+M1	Negation E5
+M2	Negation E7
+M3	Negation E11
+M4	Speculation E23
+M5	Speculation E24

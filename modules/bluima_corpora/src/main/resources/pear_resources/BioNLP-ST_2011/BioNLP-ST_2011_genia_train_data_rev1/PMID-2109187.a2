@@ -1,0 +1,12 @@
+T10	Binding 784 789	bound
+T11	Binding 958 965	binding
+T12	Regulation 990 998	involves
+E1	Binding:T10 Theme:T6
+E2	Binding:T10 Theme:T8
+E3	Binding:T10 Theme:T7
+E4	Binding:T11 Theme:T5
+E5	Binding:T11 Theme:T4
+E6	Regulation:T12 Theme:E4
+E7	Regulation:T12 Theme:E5
+M1	Speculation E6
+M2	Speculation E7

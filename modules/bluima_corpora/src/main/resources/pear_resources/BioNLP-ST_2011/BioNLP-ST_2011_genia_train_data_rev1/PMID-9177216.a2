@@ -1,0 +1,12 @@
+*	Equiv T5 T6
+T22	Negative_regulation 279 288	defective
+T23	Negative_regulation 861 868	disrupt
+T24	Binding 873 884	interaction
+T25	Binding 1123 1134	interaction
+T26	Binding 1255 1267	interactions
+E1	Negative_regulation:T22 Theme:T3
+E2	Negative_regulation:T23 Theme:E3
+E3	Binding:T24 Theme:T8
+E4	Binding:T25 Theme:T12 Theme2:T14
+E5	Binding:T26 Theme:T16
+M1	Negation E4

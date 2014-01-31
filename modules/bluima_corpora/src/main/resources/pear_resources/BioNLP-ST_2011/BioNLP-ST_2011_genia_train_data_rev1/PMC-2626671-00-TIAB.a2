@@ -1,0 +1,21 @@
+*	Equiv T5 T6
+T15	Positive_regulation 488 497	induction
+T16	Positive_regulation 516 525	induction
+T17	Regulation 584 592	regulate
+T18	Gene_expression 645 655	expression
+T19	Regulation 780 789	regulates
+T20	Gene_expression 796 806	expression
+T21	Gene_expression 818 828	expression
+E1	Positive_regulation:T15 Theme:T4
+E2	Positive_regulation:T16 Theme:T5
+E3	Regulation:T17 Theme:E4 Cause:T4
+E5	Regulation:T17 Theme:E4 Cause:T5
+E4	Gene_expression:T18 Theme:T7
+E6	Regulation:T19 Theme:E7 Cause:T9
+E8	Regulation:T19 Theme:E9 Cause:T9
+E10	Regulation:T19 Theme:E11 Cause:T9
+E12	Regulation:T19 Theme:E13 Cause:T9
+E7	Gene_expression:T20 Theme:T10
+E9	Gene_expression:T21 Theme:T11
+E11	Gene_expression:T21 Theme:T12
+E13	Gene_expression:T21 Theme:T13

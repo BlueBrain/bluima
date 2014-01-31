@@ -1,0 +1,20 @@
+*	Equiv T3 T2
+*	Equiv T5 T4
+T12	Localization 970 979	secretion
+T13	Gene_expression 1196 1206	expression
+T14	Positive_regulation 1919 1928	increased
+T15	Localization 1942 1951	secretion
+E1	Localization:T12 Theme:T3
+E2	Localization:T12 Theme:T5
+E3	Gene_expression:T13 Theme:T7
+E4	Gene_expression:T13 Theme:T5
+E5	Gene_expression:T13 Theme:T8
+E6	Positive_regulation:T14 Theme:E9
+E7	Positive_regulation:T14 Theme:E8
+E8	Localization:T15 Theme:T11
+E9	Localization:T15 Theme:T10
+M1	Speculation E1
+M2	Speculation E2
+M3	Speculation E3
+M4	Speculation E4
+M5	Speculation E5

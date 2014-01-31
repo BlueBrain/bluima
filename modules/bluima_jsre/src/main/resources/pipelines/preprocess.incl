@@ -1,0 +1,12 @@
+
+
+
+# preprocessing, same as includes/preprocess.incl
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
+
+ae: BlueBioLemmatizer
+

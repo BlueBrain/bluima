@@ -1,0 +1,21 @@
+*	Equiv T4 T3
+T19	Transcription 332 342	production
+T20	Transcription 501 513	undetectable
+T21	Transcription 566 574	detected
+T22	Positive_regulation 617 624	induced
+T23	Positive_regulation 641 649	increase
+T24	Gene_expression 781 789	produced
+T25	Positive_regulation 790 803	higher levels
+T26	Entity 1473 1481	promoter
+T27	Positive_regulation 1498 1508	stimulated
+E1	Transcription:T19 Theme:T4
+E2	Transcription:T20 Theme:T5
+E3	Transcription:T21 Theme:T5
+E4	Positive_regulation:T22 Theme:E5
+E5	Positive_regulation:T23 Theme:T6
+E6	Gene_expression:T24 Theme:T7
+E7	Positive_regulation:T25 Theme:E6
+E8	Positive_regulation:T27 Theme:T12 Site:T26
+E9	Positive_regulation:T27 Theme:T12 Cause:T13 Site:T26
+M1	Speculation E1
+M2	Negation E2

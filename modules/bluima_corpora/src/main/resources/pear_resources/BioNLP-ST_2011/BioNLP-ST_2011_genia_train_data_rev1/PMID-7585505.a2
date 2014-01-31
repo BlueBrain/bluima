@@ -1,0 +1,20 @@
+T7	Gene_expression 613 623	expression
+T8	Positive_regulation 686 698	up-regulated
+T9	Positive_regulation 1036 1043	results
+T10	Gene_expression 1057 1067	expression
+E1	Gene_expression:T7 Theme:T2
+E2	Gene_expression:T7 Theme:T3
+E3	Gene_expression:T7 Theme:T1
+E4	Gene_expression:T7 Theme:T4
+E5	Positive_regulation:T8 Theme:E1
+E6	Positive_regulation:T8 Theme:E3
+E7	Positive_regulation:T8 Theme:E4
+E8	Positive_regulation:T8 Theme:E2
+E9	Positive_regulation:T9 Theme:E16
+E10	Positive_regulation:T9 Theme:E15
+E11	Positive_regulation:T9 Theme:E13
+E12	Positive_regulation:T9 Theme:E14
+E13	Gene_expression:T10 Theme:T4
+E14	Gene_expression:T10 Theme:T1
+E15	Gene_expression:T10 Theme:T2
+E16	Gene_expression:T10 Theme:T3

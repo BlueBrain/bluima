@@ -1,0 +1,17 @@
+T19	Negative_regulation 470 494	resulted in very limited
+T20	Positive_regulation 470 478	resulted
+T21	Positive_regulation 495 506	stimulation
+T22	Entity 566 574	promoter
+T23	Positive_regulation 575 586	stimulation
+T24	Regulation 628 635	effects
+T25	Entity 700 708	promoter
+T26	Negative_regulation 894 902	blocking
+E1	Negative_regulation:T19 Theme:E3
+E2	Positive_regulation:T20 Theme:E4
+E3	Positive_regulation:T21 Theme:T8
+E4	Positive_regulation:T23 Theme:T9 Site:T22
+E5	Regulation:T24 Theme:T11 Cause:T10 Site:T25
+E6	Negative_regulation:T26 Theme:T12
+M1	Negation E3
+M2	Negation E4
+M3	Negation E5

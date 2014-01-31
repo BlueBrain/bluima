@@ -1,0 +1,12 @@
+*	Equiv T2 T1
+T9	Gene_expression 945 955	production
+T10	Positive_regulation 1035 1044	dependent
+T11	Binding 2088 2094	target
+T12	Positive_regulation 2088 2094	target
+E1	Gene_expression:T9 Theme:T2
+E2	Positive_regulation:T10 Theme:E1
+E3	Binding:T11 Theme:T8
+E4	Positive_regulation:T12 Theme:E3 Cause:T4
+E5	Positive_regulation:T12 Theme:E3 Cause:T5
+M1	Speculation E4
+M2	Speculation E5

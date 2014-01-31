@@ -1,0 +1,40 @@
+*	Equiv T3 T4
+*	Equiv T5 T6
+T13	Regulation 26 44	hyporesponsiveness
+T14	Negative_regulation 26 44	hyporesponsiveness
+T15	Entity 567 583	promoter regions
+T16	Regulation 587 595	response
+T17	Positive_regulation 694 706	explanations
+T18	Regulation 711 729	hyporesponsiveness
+T19	Negative_regulation 711 729	hyporesponsiveness
+T20	Entity 748 756	promoter
+T21	Negative_regulation 913 921	regulate
+T22	Positive_regulation 936 943	induced
+T23	Gene_expression 944 954	expression
+T24	Positive_regulation 1126 1134	required
+T25	Gene_expression 1147 1157	expression
+E1	Regulation:T13 Theme:T1 Cause:T2
+E2	Negative_regulation:T14 Theme:E4
+E3	Negative_regulation:T14 Theme:E1
+E4	Regulation:T13 Theme:T1
+E5	Regulation:T16 Theme:T7 Cause:T8 Site:T15
+E6	Regulation:T16 Theme:T7 Site:T15
+E7	Positive_regulation:T17 Theme:E16
+E8	Positive_regulation:T17 Theme:E16 Cause:E18
+E9	Positive_regulation:T17 Theme:E14 Cause:E18
+E10	Positive_regulation:T17 Theme:E16 Cause:E17
+E11	Positive_regulation:T17 Theme:E14 Cause:E17
+E12	Positive_regulation:T17 Theme:E14
+E13	Regulation:T18 Theme:T9 Cause:T10 Site:T20
+E14	Negative_regulation:T19 Theme:E15
+E15	Regulation:T18 Theme:T9 Site:T20
+E16	Negative_regulation:T19 Theme:E13
+E17	Negative_regulation:T21 Theme:E19
+E18	Negative_regulation:T21 Theme:E20
+E19	Positive_regulation:T22 Theme:E21
+E20	Positive_regulation:T22 Theme:E21 Cause:T11
+E21	Gene_expression:T23 Theme:T12
+E22	Positive_regulation:T24 Theme:E23
+E23	Gene_expression:T25 Theme:T12
+M1	Speculation E5
+M2	Speculation E6

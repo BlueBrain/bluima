@@ -1,0 +1,17 @@
+*	Equiv T3 T4
+T15	Gene_expression 155 164	expressed
+T16	Binding 274 279	binds
+T17	Transcription 620 627	present
+T18	Binding 704 708	bind
+T19	Localization 721 730	recovered
+T20	Entity 734 763	cytoplasmic cellular extracts
+T21	Regulation 812 818	affect
+E1	Gene_expression:T15 Theme:T2
+E2	Binding:T16 Theme:T5
+E3	Transcription:T17 Theme:T10
+E4	Transcription:T17 Theme:T9
+E5	Binding:T18 Theme:T11
+E6	Localization:T19 Theme:T11 AtLoc:T20
+E7	Regulation:T21 Theme:T13
+M1	Negation E5
+M2	Speculation E7

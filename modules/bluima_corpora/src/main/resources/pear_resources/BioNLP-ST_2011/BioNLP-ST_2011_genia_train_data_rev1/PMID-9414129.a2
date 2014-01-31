@@ -1,0 +1,18 @@
+T11	Binding 23 27	bind
+T12	Regulation 207 233	transcriptional regulation
+T13	Gene_expression 471 479	produces
+T14	Regulation 538 542	role
+T15	Transcription 553 566	transcription
+T16	Binding 669 698	heterodimeric binding complex
+T17	Binding 691 698	complex
+E1	Binding:T11 Theme:T2
+E2	Binding:T11 Theme:T1
+E3	Regulation:T12 Theme:T4
+E4	Gene_expression:T13 Theme:T5
+E5	Regulation:T14 Theme:E6
+E6	Transcription:T15 Theme:T6
+E7	Binding:T16 Theme:T9 Theme2:T10
+E8	Binding:T16 Theme:T7 Theme2:T8
+E9	Binding:T17 Theme:T8
+E10	Binding:T17 Theme:T7
+M1	Speculation E3

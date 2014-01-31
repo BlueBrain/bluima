@@ -1,0 +1,47 @@
+*	Equiv T6 T7
+*	Equiv T8 T9
+T25	Gene_expression 15 25	Production
+T26	Positive_regulation 39 47	Requires
+T27	Positive_regulation 63 70	Induced
+T28	Positive_regulation 117 127	Activation
+T29	Gene_expression 170 179	producing
+T30	Gene_expression 330 339	producing
+T31	Gene_expression 414 423	producing
+T32	Phosphorylation 515 530	phosphorylation
+T33	Positive_regulation 542 549	induced
+T34	Positive_regulation 577 587	activation
+T35	Positive_regulation 620 628	enhanced
+T36	Gene_expression 635 645	production
+T37	Positive_regulation 720 728	required
+T38	Gene_expression 774 783	producing
+T39	Positive_regulation 897 907	activation
+T40	Positive_regulation 937 948	requirement
+T41	Gene_expression 953 963	production
+T42	Gene_expression 1003 1013	expression
+T43	Gene_expression 1041 1051	expression
+T44	Gene_expression 1222 1232	production
+E1	Gene_expression:T25 Theme:T1
+E2	Positive_regulation:T26 Theme:E1 Cause:E3
+E4	Positive_regulation:T26 Theme:E1 Cause:E5
+E3	Positive_regulation:T27 Theme:T3 Cause:T2
+E5	Positive_regulation:T28 Theme:T4
+E6	Gene_expression:T29 Theme:T6
+E7	Gene_expression:T29 Theme:T8
+E8	Gene_expression:T30 Theme:T10
+E9	Gene_expression:T31 Theme:T11
+E10	Phosphorylation:T32 Theme:T12
+E11	Phosphorylation:T32 Theme:T13
+E12	Positive_regulation:T33 Theme:E13 Cause:T14
+E13	Positive_regulation:T34 Theme:T15
+E14	Positive_regulation:T35 Theme:E15
+E15	Gene_expression:T36 Theme:T16
+E16	Positive_regulation:T37 Theme:E17
+E17	Gene_expression:T38 Theme:T18
+E18	Positive_regulation:T39 Theme:T19
+E19	Positive_regulation:T39 Theme:T20
+E20	Positive_regulation:T40 Theme:E21 Cause:E18
+E22	Positive_regulation:T40 Theme:E21 Cause:E19
+E21	Gene_expression:T41 Theme:T21
+E23	Gene_expression:T42 Theme:T22
+E24	Gene_expression:T43 Theme:T23
+E25	Gene_expression:T44 Theme:T24

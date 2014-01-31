@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+<name>julie-document-meta-pubmed-types</name>
+<description>The type system contains types for the annotation of document meta information (bibliographical and content information), especially for PubMed abstracts.</description>
+<version>2.0</version>
+<vendor></vendor>
+<imports>
+<import location="julie-document-meta-types.xml"/>
+</imports>
+<types>
+<typeDescription>
+<name>de.julielab.jules.types.pubmed.Header</name>
+<description>The special Header for PubMed  (http://www.pubmed.org) documents</description>
+<supertypeName>de.julielab.jules.types.Header</supertypeName>
+<features>
+<featureDescription>
+<name>citationStatus</name>
+<description>Indicates the status of citation of a PubMed document, O</description>
+<rangeTypeName>de.julielab.jules.types.CitationStatus</rangeTypeName>
+</featureDescription>
+</features>
+</typeDescription>
+<typeDescription>
+<name>de.julielab.jules.types.pubmed.ManualDescriptor</name>
+<description>The special type for PubMed documents</description>
+<supertypeName>de.julielab.jules.types.ManualDescriptor</supertypeName>
+<features>
+<featureDescription>
+<name>meSHList</name>
+<description>A collection of objects of type uima.julielab.uima.MeSHHeading, O</description>
+<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+<elementType>de.julielab.jules.types.MeshHeading</elementType>
+<multipleReferencesAllowed>true</multipleReferencesAllowed>
+</featureDescription>
+<featureDescription>
+<name>chemicalList</name>
+<description>A collection of objects of type uima.julielab.uima.Chemical, O</description>
+<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+<elementType>de.julielab.jules.types.Chemical</elementType>
+<multipleReferencesAllowed>true</multipleReferencesAllowed>
+</featureDescription>
+<featureDescription>
+<name>dBInfoList</name>
+<description>A collection of objects of type uima.julielab.uima.DBInfo, O</description>
+<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+<elementType>de.julielab.jules.types.DBInfo</elementType>
+<multipleReferencesAllowed>true</multipleReferencesAllowed>
+</featureDescription>
+<featureDescription>
+<name>keywordList</name>
+<description>A collection of objects of type uima.julielab.uima.Keyword, O</description>
+<rangeTypeName>uima.cas.FSArray</rangeTypeName>
+<elementType>de.julielab.jules.types.Keyword</elementType>
+<multipleReferencesAllowed>true</multipleReferencesAllowed>
+</featureDescription>
+<featureDescription>
+<name>geneSymbolList</name>
+<description>GeneSymbolList in PubMed</description>
+<rangeTypeName>uima.cas.StringArray</rangeTypeName>
+</featureDescription>
+</features>
+</typeDescription>
+</types>
+</typeSystemDescription>

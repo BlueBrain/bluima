@@ -1,0 +1,186 @@
+<?xml version="1.0"?>
+<!DOCTYPE PubmedArticleSet PUBLIC "-//NLM//DTD PubMedArticle, 1st January 2010//EN" "http://www.ncbi.nlm.nih.gov/corehtml/query/DTD/pubmed_100301.dtd">
+<PubmedArticleSet>
+<PubmedArticle>
+    <MedlineCitation Owner="NLM" Status="MEDLINE">
+        <PMID>16205370</PMID>
+        <DateCreated>
+            <Year>2005</Year>
+            <Month>10</Month>
+            <Day>05</Day>
+        </DateCreated>
+        <DateCompleted>
+            <Year>2005</Year>
+            <Month>12</Month>
+            <Day>22</Day>
+        </DateCompleted>
+        <DateRevised>
+            <Year>2006</Year>
+            <Month>11</Month>
+            <Day>15</Day>
+        </DateRevised>
+        <Article PubModel="Print">
+            <Journal>
+                <ISSN IssnType="Print">0145-6008</ISSN>
+                <JournalIssue CitedMedium="Print">
+                    <Volume>29</Volume>
+                    <Issue>9</Issue>
+                    <PubDate>
+                        <Year>2005</Year>
+                        <Month>Sep</Month>
+                    </PubDate>
+                </JournalIssue>
+                <Title>Alcoholism, clinical and experimental research</Title>
+                <ISOAbbreviation>Alcohol. Clin. Exp. Res.</ISOAbbreviation>
+            </Journal>
+            <ArticleTitle>Expression of MBP, PLP, MAG, CNP, and GFAP in the Human Alcoholic Brain.</ArticleTitle>
+            <Pagination>
+                <MedlinePgn>1698-705</MedlinePgn>
+            </Pagination>
+            <Abstract>
+                <AbstractText>BACKGROUND: Chronic and excessive alcohol misuse results in neuropathological damage in the cerebral cortex. The damage includes white matter loss, brain atrophy, and selective loss of neurons in the superior frontal gyrus. Chronic alcohol misuse also results in alterations in the expression of a number of genes, including a selective reprogramming of myelin gene expression in the frontal cortex. METHODS: The expression of cyclic nucleotide phosphodiesterase, glial fibrillary acidic protein, myelin-associated glycoprotein, myelin basic protein, and myelin proteolipid protein were assessed in the superior frontal gyrus and the primary motor cortex of control, uncomplicated alcoholic, and cirrhotic alcoholic cases. RESULTS: Overall, the expression of cyclic nucleotide phosphodiesterase, glial fibrillary acidic protein, myelin-associated glycoprotein, and myelin basic protein were significantly lower in the cirrhotic alcoholic cases compared with controls, with a similar tendency for myelin proteolipid protein. There was a strong correlation between the expression of the proteins studied and the brain weight of the individual case, but this interaction did not confound the overall analysis. There was no significant difference between controls and uncomplicated alcoholics. CONCLUSIONS: The loss of myelin proteins occurred without gross changes in brain pathology or brain weight and was not restricted to pathologically susceptible brain regions. It is not possible to determine whether the loss of myelin proteins in cirrhotic alcoholics is the result of cirrhosis per se or the combination of alcohol misuse and liver cirrhosis. Future studies comparing cases with alcoholic and nonalcoholic cirrhosis of the liver disease are required to elucidate this further.</AbstractText>
+            </Abstract>
+            <Affiliation>Genomics Research Centre, School of Medical Sciences, Griffith University, Gold Coast, Australia. lewohl@griffith.edu.au</Affiliation>
+            <AuthorList CompleteYN="Y">
+                <Author ValidYN="Y">
+                    <LastName>Lewohl</LastName>
+                    <ForeName>Joanne M</ForeName>
+                    <Initials>JM</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Wixey</LastName>
+                    <ForeName>Julie</ForeName>
+                    <Initials>J</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Harper</LastName>
+                    <ForeName>Clive G</ForeName>
+                    <Initials>CG</Initials>
+                </Author>
+                <Author ValidYN="Y">
+                    <LastName>Dodd</LastName>
+                    <ForeName>Peter R</ForeName>
+                    <Initials>PR</Initials>
+                </Author>
+            </AuthorList>
+            <Language>eng</Language>
+            <PublicationTypeList>
+                <PublicationType>Journal Article</PublicationType>
+                <PublicationType>Research Support, Non-U.S. Gov't</PublicationType>
+            </PublicationTypeList>
+        </Article>
+        <MedlineJournalInfo>
+            <Country>United States</Country>
+            <MedlineTA>Alcohol Clin Exp Res</MedlineTA>
+            <NlmUniqueID>7707242</NlmUniqueID>
+            <ISSNLinking>0145-6008</ISSNLinking>
+        </MedlineJournalInfo>
+        <ChemicalList>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Glial Fibrillary Acidic Protein</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Myelin Basic Proteins</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Myelin Proteolipid Protein</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>0</RegistryNumber>
+                <NameOfSubstance>Myelin-Associated Glycoprotein</NameOfSubstance>
+            </Chemical>
+            <Chemical>
+                <RegistryNumber>EC 3.1.4.-</RegistryNumber>
+                <NameOfSubstance>2',3'-Cyclic-Nucleotide Phosphodiesterases</NameOfSubstance>
+            </Chemical>
+        </ChemicalList>
+        <CitationSubset>IM</CitationSubset>
+        <MeshHeadingList>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">2',3'-Cyclic-Nucleotide Phosphodiesterases</DescriptorName>
+                <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Adult</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Alcoholism</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Brain</DescriptorName>
+                <QualifierName MajorTopicYN="Y">metabolism</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Female</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Gene Expression</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Glial Fibrillary Acidic Protein</DescriptorName>
+                <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Humans</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Male</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Middle Aged</DescriptorName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Myelin Basic Proteins</DescriptorName>
+                <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Myelin Proteolipid Protein</DescriptorName>
+                <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+            <MeshHeading>
+                <DescriptorName MajorTopicYN="N">Myelin-Associated Glycoprotein</DescriptorName>
+                <QualifierName MajorTopicYN="Y">genetics</QualifierName>
+            </MeshHeading>
+        </MeshHeadingList>
+    </MedlineCitation>
+    <PubmedData>
+        <History>
+            <PubMedPubDate PubStatus="pubmed">
+                <Year>2005</Year>
+                <Month>10</Month>
+                <Day>6</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="medline">
+                <Year>2005</Year>
+                <Month>12</Month>
+                <Day>24</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+            <PubMedPubDate PubStatus="entrez">
+                <Year>2005</Year>
+                <Month>10</Month>
+                <Day>6</Day>
+                <Hour>9</Hour>
+                <Minute>0</Minute>
+            </PubMedPubDate>
+        </History>
+        <PublicationStatus>ppublish</PublicationStatus>
+        <ArticleIdList>
+            <ArticleId IdType="pii">00000374-200509000-00015</ArticleId>
+            <ArticleId IdType="pubmed">16205370</ArticleId>
+        </ArticleIdList>
+    </PubmedData>
+</PubmedArticle>
+
+
+</PubmedArticleSet>

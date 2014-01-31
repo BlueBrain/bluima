@@ -1,0 +1,16 @@
+T28	Positive_regulation 5 18	reconstitutes
+T29	Positive_regulation 54 63	signaling
+T30	Positive_regulation 273 283	activation
+T31	Negative_regulation 795 802	delayed
+T32	Negative_regulation 807 816	decreases
+E1	Positive_regulation:T28 Theme:E2 Cause:T1
+E2	Positive_regulation:T29 Theme:T2
+E3	Positive_regulation:T30 Theme:T8
+E4	Positive_regulation:T30 Theme:T7
+E5	Positive_regulation:T30 Theme:T6
+E6	Negative_regulation:T31 Theme:E11 Cause:T16
+E7	Negative_regulation:T31 Theme:E9 Cause:T16
+E8	Negative_regulation:T31 Theme:E10 Cause:T16
+E9	Negative_regulation:T32 Theme:T19
+E10	Negative_regulation:T32 Theme:T17
+E11	Negative_regulation:T32 Theme:T18

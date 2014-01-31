@@ -1,0 +1,25 @@
+*	Equiv T3 T2
+T9	Regulation 0 11	Involvement
+T10	Gene_expression 74 84	production
+T11	Gene_expression 312 320	produced
+T12	Localization 418 426	secreted
+T13	Positive_regulation 427 441	in response to
+T14	Positive_regulation 601 610	induction
+T15	Positive_regulation 706 712	induce
+T16	Gene_expression 717 727	production
+T17	Positive_regulation 731 742	high levels
+T18	Negative_regulation 1124 1134	inhibitors
+T19	Positive_regulation 1262 1266	role
+T20	Gene_expression 1274 1284	production
+E1	Regulation:T9 Theme:E2
+E2	Gene_expression:T10 Theme:T1
+E3	Gene_expression:T11 Theme:T3
+E4	Localization:T12 Theme:T4
+E5	Positive_regulation:T13 Theme:E4
+E6	Positive_regulation:T14 Theme:T5
+E7	Positive_regulation:T15 Theme:E8
+E8	Gene_expression:T16 Theme:T6
+E9	Positive_regulation:T17 Theme:E8
+E10	Negative_regulation:T18 Theme:T7
+E11	Positive_regulation:T19 Theme:E12
+E12	Gene_expression:T20 Theme:T8

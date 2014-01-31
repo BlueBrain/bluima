@@ -1,0 +1,37 @@
+*	Equiv T3 T2
+T10	Regulation 0 30	Posttranscriptional regulation
+T11	Gene_expression 59 69	expression
+T12	Gene_expression 107 117	expression
+T13	Regulation 506 512	effect
+T14	Positive_regulation 566 573	induced
+T15	Gene_expression 577 587	expression
+T16	Negative_regulation 914 921	reduced
+T17	Positive_regulation 926 936	stimulated
+T18	Positive_regulation 945 957	accumulation
+T19	Negative_regulation 1146 1155	prevented
+T20	Entity 1175 1187	plasmalemmal
+T21	Localization 1188 1200	localization
+T22	Positive_regulation 1220 1226	occurs
+T23	Positive_regulation 1490 1496	result
+T24	Positive_regulation 1503 1515	accumulation
+T25	Regulation 1913 1939	posttranscriptional effect
+T26	Gene_expression 1962 1972	expression
+E1	Regulation:T10 Theme:E2
+E2	Gene_expression:T11 Theme:T1
+E3	Gene_expression:T12 Theme:T3
+E4	Regulation:T13 Theme:E5
+E5	Positive_regulation:T14 Theme:E6
+E6	Gene_expression:T15 Theme:T4
+E7	Negative_regulation:T16 Theme:E8
+E8	Positive_regulation:T17 Theme:E9
+E9	Positive_regulation:T18 Theme:T5
+E10	Negative_regulation:T19 Theme:E12
+E11	Localization:T21 Theme:T7 ToLoc:T20
+E12	Positive_regulation:T22 Theme:E11
+E13	Positive_regulation:T23 Theme:E14
+E14	Positive_regulation:T24 Theme:T8
+E15	Regulation:T25 Theme:E16
+E16	Gene_expression:T26 Theme:T9
+M1	Speculation E4
+M2	Negation E7
+M3	Negation E13

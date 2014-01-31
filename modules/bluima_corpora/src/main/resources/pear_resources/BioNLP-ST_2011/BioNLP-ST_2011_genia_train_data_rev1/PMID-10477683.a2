@@ -1,0 +1,15 @@
+*	Equiv T11 T12
+T13	Binding 365 384	physically interact
+T14	Positive_regulation 959 973	overexpression
+T15	Gene_expression 959 973	overexpression
+T16	Positive_regulation 1090 1105	Elevated levels
+T17	Negative_regulation 1425 1435	inhibition
+T18	Regulation 1461 1470	regulated
+E1	Binding:T13 Theme:T2 Theme2:T3
+E2	Positive_regulation:T14 Theme:E3
+E3	Gene_expression:T15 Theme:T5
+E4	Positive_regulation:T16 Theme:T7
+E5	Negative_regulation:T17 Theme:T11 Cause:T8
+E6	Negative_regulation:T17 Theme:T10 Cause:T8
+E7	Regulation:T18 Theme:T11 Cause:T9
+E8	Regulation:T18 Theme:T10 Cause:T9

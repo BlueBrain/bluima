@@ -1,0 +1,45 @@
+T24	Regulation 0 4	Role
+T25	Regulation 16 26	regulation
+T26	Positive_regulation 39 48	dependent
+T27	Transcription 54 67	transcription
+T28	Regulation 405 415	regulation
+T29	Positive_regulation 440 449	increases
+T30	Transcription 463 491	expression and transcription
+T31	Gene_expression 526 536	expressing
+T32	Gene_expression 548 561	nonexpressing
+T33	Transcription 619 632	transcription
+T34	Localization 641 651	appearance
+T35	Entity 655 662	nuclear
+T36	Positive_regulation 689 698	induction
+T37	Positive_regulation 703 708	occur
+T38	Gene_expression 753 763	expressing
+T39	Positive_regulation 857 871	Cotransfection
+T40	Gene_expression 958 968	expression
+T41	Positive_regulation 1007 1016	induction
+T42	Transcription 1020 1044	transcriptional activity
+T43	Positive_regulation 1388 1408	intermediary linking
+T44	Positive_regulation 1436 1445	induction
+E1	Regulation:T24 Theme:E2 Cause:T1
+E2	Regulation:T25 Theme:E3
+E3	Positive_regulation:T26 Theme:E4
+E4	Transcription:T27 Theme:T2
+E5	Regulation:T28 Theme:T5 Cause:T6
+E6	Positive_regulation:T29 Theme:E7
+E7	Transcription:T30 Theme:T6
+E8	Gene_expression:T31 Theme:T8
+E9	Gene_expression:T32 Theme:T8
+E10	Transcription:T33 Theme:T9
+E11	Localization:T34 Theme:T10 AtLoc:T35
+E12	Positive_regulation:T36 Theme:T11
+E13	Positive_regulation:T37 Theme:E11
+E14	Positive_regulation:T37 Theme:E10
+E15	Gene_expression:T38 Theme:T12
+E16	Positive_regulation:T39 Theme:E17
+E17	Gene_expression:T40 Theme:T17
+E18	Positive_regulation:T41 Theme:E19
+E19	Transcription:T42 Theme:T15
+E20	Positive_regulation:T43 Theme:T22
+E21	Positive_regulation:T43 Theme:E22 Cause:E20
+E22	Positive_regulation:T44 Theme:T23
+M1	Negation E6
+M2	Negation E9

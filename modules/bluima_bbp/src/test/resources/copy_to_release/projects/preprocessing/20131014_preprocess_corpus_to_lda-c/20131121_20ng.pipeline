@@ -1,0 +1,36 @@
+#####################
+##################################
+# Outputs the preprocessed
+# Genia corpus in LDA-C format
+##################################
+
+cr: ch.epfl.bbp.uima.topicmodels.readers.TwentyNewsgroupsCollectionReader
+ corpusDirPath: $ROOT/modules/bluima_topic_models/src/test/resources/20_newsgroups
+
+
+# TOKENIZE
+include: ../../../includes/preprocess.incl
+
+# FILTERING FRAMEWORK
+ae: ch.epfl.bbp.uima.filter.Tokens2KeepAnnotator
+
+
+ae: BioLemmatizerNormalizerAnnotator
+
+ae: ch.epfl.bbp.uima.filter.MeasureNormalizerAnnotator
+
+ae: ch.epfl.bbp.uima.filter.StopwordFilterAnnotator
+
+ae: ch.epfl.bbp.uima.filter.PunctuationFilterAnnotator
+
+
+
+# OUTPUT in LDA-C format
+ae: ch.epfl.bbp.uima.ae.output.LdaCWriter
+ outputFile: target/20ng.lda-c
+ vocabularyOutputFile: target/20ng.lda-c.vocab
+
+#ae: ch.epfl.bbp.uima.filter.KeepsDumper
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

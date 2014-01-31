@@ -1,0 +1,15 @@
+*	Equiv T3 T2
+T7	Positive_regulation 57 80	activated cooperatively
+T8	Gene_expression 188 197	expressed
+T9	Positive_regulation 252 261	inducible
+T10	Entity 396 404	enhancer
+T11	Gene_expression 827 837	expression
+T12	Regulation 865 875	controlled
+T13	Regulation 876 883	through
+E1	Positive_regulation:T7 Theme:T1
+E2	Gene_expression:T8 Theme:T3
+E3	Positive_regulation:T9 Theme:T4
+E4	Gene_expression:T11 Theme:T6
+E5	Regulation:T12 Theme:E4
+E6	Regulation:T13 Theme:E5 Cause:T5 CSite:T10
+M1	Speculation E6

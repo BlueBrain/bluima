@@ -1,0 +1,4 @@
+ae: ch.epfl.bbp.uima.topicmodels.annotators.StopwordsAnnotator
+ stopwordsFilePath: $ROOT/modules/bluima_topic_models/src/main/resources/stoplists/mallet_stopwords_en.txt
+
+ae: StatsAnnotatorPlus

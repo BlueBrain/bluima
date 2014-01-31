@@ -1,0 +1,12 @@
+of shared properties. As the number of matching contexts grows, the weight for each
+additional matching context also grows. Figure 1 compares the behavior of ESP and CSM
+as the number of shared properties between two strings increases. Holding the number of
+extractions fixed and assuming boolean vectors for CSM, it behaves as a linear function
+of the number of shared properties. On the other hand, the ESP has the shape of a
+thresholding function: it has a very low value until a threshold point around k = 10, at
+which point its probability estimate starts increasing rapidly. The effect is that ESP has
+much lower similarity scores than CSM for small numbers of matching contexts, and much
+higher scores for larger numbers of matching contexts. The threshold at which it switches
+depends on n1 and n2, as well as P1 and P2, but we can show experimentally that our
+method for estimating P1 and P2, though simple, can be effective. Experiments in Section
+6 compare the ESP model with CSM, as computed using Equation 5.

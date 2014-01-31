@@ -1,0 +1,16 @@
+*	Equiv T6 T7
+T23	Regulation 5 14	dependent
+T24	Protein_catabolism 15 26	degradation
+T25	Entity 582 600	TRAF-binding sites
+T26	Binding 662 667	binds
+T27	Binding 885 892	binding
+T28	Positive_regulation 936 943	results
+T29	Protein_catabolism 1012 1023	proteolysis
+T30	Positive_regulation 1304 1314	activation
+E1	Regulation:T23 Theme:E2 Cause:T1
+E2	Protein_catabolism:T24 Theme:T2
+E3	Binding:T26 Theme:T8 Theme2:T9 Site:T25
+E4	Binding:T27 Theme:T12 Theme2:T13
+E5	Positive_regulation:T28 Theme:E6 Cause:E4
+E6	Protein_catabolism:T29 Theme:T14
+E7	Positive_regulation:T30 Theme:T19

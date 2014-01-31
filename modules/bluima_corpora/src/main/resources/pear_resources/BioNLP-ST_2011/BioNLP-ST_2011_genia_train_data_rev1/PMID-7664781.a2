@@ -1,0 +1,42 @@
+T22	Regulation 124 134	regulation
+T23	Gene_expression 162 172	expression
+T24	Gene_expression 236 245	producers
+T25	Gene_expression 281 291	synthesize
+T26	Localization 444 453	secreting
+T27	Positive_regulation 474 479	after
+T28	Localization 1192 1199	secrete
+T29	Positive_regulation 1210 1218	activity
+T30	Entity 1231 1239	promoter
+T31	Localization 1280 1289	secretion
+T32	Gene_expression 1430 1439	producing
+T33	Gene_expression 1482 1491	producing
+T34	Positive_regulation 1631 1641	generation
+T35	Localization 1669 1678	secreting
+T36	Localization 1829 1838	secreting
+T37	Positive_regulation 1903 1933	indispensable for the activity
+T38	Entity 1946 1954	promoter
+T39	Regulation 2032 2046	less important
+T40	Gene_expression 2056 2066	expression
+E1	Regulation:T22 Theme:E2
+E2	Gene_expression:T23 Theme:T2
+E3	Gene_expression:T24 Theme:T3
+E4	Gene_expression:T25 Theme:T4
+E5	Localization:T26 Theme:T6
+E6	Positive_regulation:T27 Theme:E5
+E7	Localization:T28 Theme:T9
+E8	Positive_regulation:T29 Theme:T10 Site:T30
+E9	Localization:T31 Theme:T11
+E10	Gene_expression:T32 Theme:T12
+E11	Gene_expression:T33 Theme:T13
+E12	Positive_regulation:T34 Theme:T16
+E13	Positive_regulation:T34 Theme:T17
+E14	Localization:T35 Theme:T15
+E15	Localization:T36 Theme:T18
+E16	Positive_regulation:T37 Theme:T20 Site:T38
+E17	Regulation:T39 Theme:E18
+E18	Gene_expression:T40 Theme:T21
+M1	Speculation E1
+M2	Negation E11
+M3	Negation E15
+M4	Negation E17
+M5	Speculation E17

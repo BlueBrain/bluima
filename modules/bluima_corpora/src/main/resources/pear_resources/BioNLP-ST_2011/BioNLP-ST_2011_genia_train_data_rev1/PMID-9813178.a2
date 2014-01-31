@@ -1,0 +1,9 @@
+T4	Regulation 98 105	effects
+T5	Localization 118 125	release
+T6	Localization 817 824	release
+T7	Localization 976 983	release
+E1	Regulation:T4 Theme:E2
+E2	Localization:T5 Theme:T1
+E3	Localization:T6 Theme:T2
+E4	Localization:T7 Theme:T3
+M1	Speculation E3

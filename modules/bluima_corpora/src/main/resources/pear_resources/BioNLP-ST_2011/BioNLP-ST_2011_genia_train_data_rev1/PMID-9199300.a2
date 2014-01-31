@@ -1,0 +1,28 @@
+*	Equiv T8 T7
+T26	Positive_regulation 672 678	active
+T27	Positive_regulation 735 744	activates
+T28	Positive_regulation 777 786	activates
+T29	Positive_regulation 902 917	transactivation
+T30	Negative_regulation 962 972	restricted
+T31	Positive_regulation 1004 1014	activation
+T32	Positive_regulation 1098 1108	activation
+T33	Positive_regulation 1272 1279	enhance
+T34	Entity 1774 1796	transactivation domain
+T35	Regulation 1815 1824	regulated
+T36	Positive_regulation 1826 1839	independently
+T37	Binding 1853 1860	binding
+E1	Positive_regulation:T26 Theme:T4
+E2	Positive_regulation:T26 Theme:T3
+E3	Positive_regulation:T27 Theme:T6 Cause:T5
+E4	Positive_regulation:T28 Theme:T9 Cause:T8
+E5	Positive_regulation:T29 Theme:T10
+E6	Negative_regulation:T30 Theme:E5
+E7	Positive_regulation:T31 Theme:T12 Cause:T11
+E8	Positive_regulation:T32 Theme:T13
+E9	Positive_regulation:T33 Theme:T16 Cause:T14
+E10	Regulation:T35 Theme:T24 Cause:T25 Site:T34
+E11	Positive_regulation:T36 Theme:E10 Cause:E12
+E12	Binding:T37 Theme:T24 Site:T34
+M1	Speculation E5
+M2	Negation E6
+M3	Negation E11

@@ -1,0 +1,695 @@
+<?xml version="1.0" encoding="UTF-8"?><typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>julie-morpho-syntax-types</name>
+  <description>The type system contains types for the annotation of morpho-syntactic and syntactic analysis (constituncy-based and dependecy-based parsing) results.</description>
+  <version>2.1</version>
+  <vendor/>
+  <imports>
+    <import location="julie-basic-types.xml"/>
+  </imports>
+  <types>
+    <typeDescription>
+      <name>de.julielab.jules.types.Token</name>
+      <description>Token annotation marks the span of a token and takes all additional annotations that are on the token level, including Part-of-Speech information, lemma, stemmed form,  grammatical features such as gender, number and orthographical information; furthemore, Token includes the information about dependency relations to other tokens (see correspondent annotation types for further infromation).</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>lemma</name>
+          <description>the lemma information, O</description>
+          <rangeTypeName>de.julielab.jules.types.Lemma</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>posTag</name>
+          <description>List contains part-of-speech tags of different part-of-speech tagsets (see also POSTag and subtypes), O</description>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>de.julielab.jules.types.POSTag</elementType>
+          <multipleReferencesAllowed>true</multipleReferencesAllowed>
+        </featureDescription>
+        <featureDescription>
+          <name>stemmedForm</name>
+          <description>Contains the stemmed form of token (see StemmedForm), O</description>
+          <rangeTypeName>de.julielab.jules.types.StemmedForm</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>feats</name>
+          <description>Contains grammatical features correspondent to the part-of-speech tag of current token (see GrammaticalFeats and subtypes), O</description>
+          <rangeTypeName>de.julielab.jules.types.GrammaticalFeats</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>orthogr</name>
+          <description>see de.julielab.jules.types.Orthogrpahy</description>
+          <rangeTypeName>de.julielab.jules.types.Orthography</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>depRel</name>
+          <description>Contains a list of syntactical dependencies, see DependencyRelation, O</description>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>de.julielab.jules.types.DependencyRelation</elementType>
+          <multipleReferencesAllowed>true</multipleReferencesAllowed>
+        </featureDescription>
+        <featureDescription>
+          <name>pos</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>lemmaStr</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>topicIds</name>
+          <description>topic model ids, separated by spaces</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.POSTag</name>
+      <description>POS is a linguistic category of words (tokens) that are defined by their particular syntactic/morphological behaviours (e.g. noun, verb).</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>tagsetId</name>
+          <description>Every POS tagset (see subtypes) has an identifier, C</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>value</name>
+          <description>The value of POS (NN, JJ etc.)</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.PennPOSTag</name>
+      <description>The Penn Treebank Tag Set* in Mitchell P. Marcus, Beatrice Santorini, and Mary Ann Marcinkiewicz: Building a Large Annotated Corpus of English: The Penn Treebank, in Computational Linguistics, Volume 19, Number 2 (June 1993), pp. 313--330 (Special Issue on Using Large Corpora). TagsetId 0</description>
+      <supertypeName>de.julielab.jules.types.POSTag</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.GeniaPOSTag</name>
+      <description>Genia Tag Set in Tateisi, Yuka and Jun'ichi Tsujii. (2004). Part-of-Speech Annotation of Biology Research Abstracts. In the Proceedings of 4th International Conference on Language Resource and Evaluation (LREC2004). IV. pp. 1267-1270. TagsetId 1</description>
+      <supertypeName>de.julielab.jules.types.POSTag</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.PennBioIEPOSTag</name>
+      <description>Mark A. Mandel. Integrated Annotation of Biomedical Text: Creating the PennBioIE Corpus. March 2006. Text Mining, Ontologies and Natural Language Processing in Biomedicine.</description>
+      <supertypeName>de.julielab.jules.types.POSTag</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Lemma</name>
+      <description>Lemma is the canonical form of a lexeme. Lemma can be retrieved from lexicon or be produced by lemmatizer.</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>value</name>
+          <description>The value of lemma,C</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.StemmedForm</name>
+      <description>Represents a grammatical morpheme, identifies the morpheme's base form for the current token, activat- for activation. Different forms can be produced by stemmers.</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>value</name>
+          <description>The value of the stemmed form, C</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Simplex</name>
+      <description>Represents a morpheme of a compound.</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>lemma</name>
+          <description>The lemma of the simplex, C</description>
+          <rangeTypeName>de.julielab.jules.types.Lemma</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Abbreviation</name>
+      <description>An abbreviation is a letter or group of letters, taken from a word or words. For example, the word "abbreviation" can be abbreviated as "abbr." or "abbrev."</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>expan</name>
+          <description>The full form of an abbreviation. For example he fullform, for example for HLA (human leukocyte antigen), O</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>textReference</name>
+          <description>Reference to the text span that contains the  full form of the abbreviation/acronym</description>
+          <rangeTypeName>de.julielab.jules.types.Annotation</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>definedHere</name>
+          <description>The definedHere is true if the abbreviation/acronym is defined for the first time in the text, e.g. in "interleukin 2 (Il-2) receptor", it can be true only for locally introduced abbreviations/acronyms.</description>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Acronym</name>
+      <description>Abbreviation includes acronyms written as the initial letter or letters of words, and pronounced on the basis of this abbreviated written form.</description>
+      <supertypeName>de.julielab.jules.types.Abbreviation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.GrammaticalFeats</name>
+      <description>Describes a word structure, default grammatical features dependent of a word category, see subtypes</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.NounFeats</name>
+      <description>Describes a word structure, default grammatical features of a noun</description>
+      <supertypeName>de.julielab.jules.types.GrammaticalFeats</supertypeName>
+      <features>
+        <featureDescription>
+          <name>gender</name>
+          <description>Gender, C</description>
+          <rangeTypeName>de.julielab.jules.types.Gender</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>case</name>
+          <description>Case. C</description>
+          <rangeTypeName>de.julielab.jules.types.Case</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>number</name>
+          <description>Number, C</description>
+          <rangeTypeName>de.julielab.jules.types.Number</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.VerbFeats</name>
+      <description>Describes a word structure, default grammatical features of a verb</description>
+      <supertypeName>de.julielab.jules.types.GrammaticalFeats</supertypeName>
+      <features>
+        <featureDescription>
+          <name>tense</name>
+          <description>Tense</description>
+          <rangeTypeName>de.julielab.jules.types.Tense</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>person</name>
+          <description>Person</description>
+          <rangeTypeName>de.julielab.jules.types.Person</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>number</name>
+          <description>Number</description>
+          <rangeTypeName>de.julielab.jules.types.Number</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>voice</name>
+          <description>Voice</description>
+          <rangeTypeName>de.julielab.jules.types.Voice</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>aspect</name>
+          <description>Aspect</description>
+          <rangeTypeName>de.julielab.jules.types.Aspect</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.AdjectiveFeats</name>
+      <description>Describes a word structure, default grammatical features of a adjective</description>
+      <supertypeName>de.julielab.jules.types.GrammaticalFeats</supertypeName>
+      <features>
+        <featureDescription>
+          <name>degree</name>
+          <description>Degree</description>
+          <rangeTypeName>de.julielab.jules.types.Degree</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.PronounFeats</name>
+      <description>Describes a word structure, default grammatical features of  pronouns</description>
+      <supertypeName>de.julielab.jules.types.GrammaticalFeats</supertypeName>
+      <features>
+        <featureDescription>
+          <name>gender</name>
+          <description>Gender</description>
+          <rangeTypeName>de.julielab.jules.types.Gender</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>case</name>
+          <description>Case</description>
+          <rangeTypeName>de.julielab.jules.types.Case</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>number</name>
+          <description>Number</description>
+          <rangeTypeName>de.julielab.jules.types.Number</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>person</name>
+          <description>Person</description>
+          <rangeTypeName>de.julielab.jules.types.Person</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Gender</name>
+      <description/>
+      <supertypeName>uima.cas.String</supertypeName>
+      <allowedValues>
+        <value>
+          <string>masculine</string>
+          <description/>
+        </value>
+        <value>
+          <string>feminine</string>
+          <description/>
+        </value>
+        <value>
+          <string>neutrum</string>
+          <description/>
+        </value>
+      </allowedValues>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Case</name>
+      <description/>
+      <supertypeName>uima.cas.String</supertypeName>
+      <allowedValues>
+        <value>
+          <string>common</string>
+          <description/>
+        </value>
+        <value>
+          <string>genitive</string>
+          <description/>
+        </value>
+      </allowedValues>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Number</name>
+      <description/>
+      <supertypeName>uima.cas.String</supertypeName>
+      <allowedValues>
+        <value>
+          <string>singular</string>
+          <description/>
+        </value>
+        <value>
+          <string>plural</string>
+          <description/>
+        </value>
+      </allowedValues>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Tense</name>
+      <description/>
+      <supertypeName>uima.cas.String</supertypeName>
+      <allowedValues>
+        <value>
+          <string>present</string>
+          <description/>
+        </value>
+        <value>
+          <string>past</string>
+          <description/>
+        </value>
+        <value>
+          <string>future</string>
+          <description/>
+        </value>
+      </allowedValues>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Person</name>
+      <description/>
+      <supertypeName>uima.cas.String</supertypeName>
+      <allowedValues>
+        <value>
+          <string>1</string>
+          <description/>
+        </value>
+        <value>
+          <string>2</string>
+          <description/>
+        </value>
+        <value>
+          <string>3</string>
+          <description/>
+        </value>
+      </allowedValues>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Voice</name>
+      <description/>
+      <supertypeName>uima.cas.String</supertypeName>
+      <allowedValues>
+        <value>
+          <string>passive</string>
+          <description/>
+        </value>
+        <value>
+          <string>active</string>
+          <description/>
+        </value>
+      </allowedValues>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Aspect</name>
+      <description/>
+      <supertypeName>uima.cas.String</supertypeName>
+      <allowedValues>
+        <value>
+          <string>perfective</string>
+          <description/>
+        </value>
+        <value>
+          <string>progressive</string>
+          <description/>
+        </value>
+        <value>
+          <string>perfective_progressive</string>
+          <description/>
+        </value>
+      </allowedValues>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Degree</name>
+      <description/>
+      <supertypeName>uima.cas.String</supertypeName>
+      <allowedValues>
+        <value>
+          <string>positive</string>
+          <description/>
+        </value>
+        <value>
+          <string>comparative</string>
+          <description/>
+        </value>
+        <value>
+          <string>superlative</string>
+          <description/>
+        </value>
+      </allowedValues>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Orthography</name>
+      <description>As more than one value might apply to a token, there is a StringList that can be filled with all values that apply for this token.</description>
+      <supertypeName>uima.cas.String</supertypeName>
+      <allowedValues>
+        <value>
+          <string>lowercase</string>
+          <description>Every character is a lowercase letter: token</description>
+        </value>
+        <value>
+          <string>uppercase</string>
+          <description>Every character is an uppercase letter: TOKEN</description>
+        </value>
+        <value>
+          <string>capitalized</string>
+          <description>The first character is an uppercase letter; all other characters are lowercase letters: Token</description>
+        </value>
+        <value>
+          <string>multicaps</string>
+          <description>There is more than one uppercase letter in the token: ToKEn</description>
+        </value>
+        <value>
+          <string>initcaps</string>
+          <description>The token is a single uppercase letter: T</description>
+        </value>
+        <value>
+          <string>hyphenated</string>
+          <description>with one or more hyphens: token-token</description>
+        </value>
+        <value>
+          <string>dotted</string>
+          <description>The token contains  dots: T.O.K.E.N.</description>
+        </value>
+        <value>
+          <string>initdot</string>
+          <description>The token is a single uppercase letter followed by a dot: T.</description>
+        </value>
+        <value>
+          <string>alphanumeric</string>
+          <description>e.g. p53</description>
+        </value>
+        <value>
+          <string>arithmetic</string>
+          <description>The token is an arithmetic or algebraic operator</description>
+        </value>
+        <value>
+          <string>apostrophe</string>
+          <description/>
+        </value>
+        <value>
+          <string>doublequote</string>
+          <description/>
+        </value>
+        <value>
+          <string>number</string>
+          <description>e.g. 12345 or .678</description>
+        </value>
+        <value>
+          <string>numberrange</string>
+          <description>123-456</description>
+        </value>
+        <value>
+          <string>bracket</string>
+          <description>The token is an opening or closing bracket, brace, parenthesis</description>
+        </value>
+        <value>
+          <string>punct</string>
+          <description>member of set [,.?!:;]</description>
+        </value>
+        <value>
+          <string>space</string>
+          <description>space, tab, newline, carriage return</description>
+        </value>
+        <value>
+          <string>other</string>
+          <description>The token is any sequence of characters that does not match any of the above descriptions</description>
+        </value>
+      </allowedValues>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Chunk</name>
+      <description>Results of the chunking (shallow Parsing (see Abney))</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.ChunkNP</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Chunk</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.ChunkVP</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Chunk</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.ChunkPP</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Chunk</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.ChunkADJP</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Chunk</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.ChunkADVP</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Chunk</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.ChunkLST</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Chunk</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.ChunkSBAR</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Chunk</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.ChunkCONJP</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Chunk</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.ChunkPRT</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Chunk</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.DependencyRelation</name>
+      <description>Syntactic dependency relation annotation, see subtypes</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>head</name>
+          <description>Head (Token) of the analyzed dependency relation, C</description>
+          <rangeTypeName>de.julielab.jules.types.Token</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>projective</name>
+          <description>The dependency relations can be projective or not, C</description>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>label</name>
+          <description>The label of the relation (e.g. SBJ, OBJ, DEP)</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Constituent</name>
+      <description>The super-type for the constituent annotation, see subtypes</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>parent</name>
+          <description>The parent in a constituency tree, C</description>
+          <rangeTypeName>de.julielab.jules.types.Constituent</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>head</name>
+          <description>The head can be extracted with head rules, O</description>
+          <rangeTypeName>de.julielab.jules.types.Token</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>cat</name>
+          <description>The category of the constituent (e.g. NP, VP)</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.PTBConstituent</name>
+      <description>Penn Treebank constituent annotation (see Penn Treebank)</description>
+      <supertypeName>de.julielab.jules.types.Constituent</supertypeName>
+      <features>
+        <featureDescription>
+          <name>formFuncDisc</name>
+          <description>Form/function discrepancies, O</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>gramRole</name>
+          <description>Grammatical role, O</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>adv</name>
+          <description>Adverbials are generally VP adjuncts.</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>misc</name>
+          <description>Miscellaneous</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>nullElement</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>ref</name>
+          <description>Th reference from the null constituent to the corresponding lexicalized constituent, O</description>
+          <rangeTypeName>de.julielab.jules.types.Constituent</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>map</name>
+          <description>In the case of gapping the reference to the corresponding constituent, O</description>
+          <rangeTypeName>de.julielab.jules.types.Constituent</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>tpc</name>
+          <description>Marks elements that appear before the subject in a declarative sentence, O</description>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.GENIAConstituent</name>
+      <description>Ohta, Tomoko, Yuka Tateisi, Hideki Mima and Jun'ichi Tsujii. (2002). GENIA Corpus: an Annotated Research Abstract Corpus in Molecular Biology Domain. In the Proceedings of he Human Language Technology Conference (HLT 2002). pp73--77.</description>
+      <supertypeName>de.julielab.jules.types.PTBConstituent</supertypeName>
+      <features>
+        <featureDescription>
+          <name>syn</name>
+          <description>Marks coordinations, O</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.PennBioIEConstituent</name>
+      <description>Mark A. Mandel. Integrated Annotation of Biomedical Text: Creating the PennBioIE Corpus. March 2006. Text Mining, Ontologies and Natural Language Processing in Biomedicine.</description>
+      <supertypeName>de.julielab.jules.types.PTBConstituent</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Coordination</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>resolved</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>elliptical</name>
+          <description/>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.EEE</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Coordination</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.CoordinationElement</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>cat</name>
+          <description/>
+          <rangeTypeName>de.julielab.jules.types.CoordinationElement_Value</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.CoordinationElement_Value</name>
+      <description/>
+      <supertypeName>uima.cas.String</supertypeName>
+      <allowedValues>
+        <value>
+          <string>conjunct</string>
+          <description/>
+        </value>
+        <value>
+          <string>conjunction</string>
+          <description/>
+        </value>
+        <value>
+          <string>antecedent</string>
+          <description/>
+        </value>
+      </allowedValues>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Sentence</name>
+      <description>This annotation marks the span of a sentence.</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

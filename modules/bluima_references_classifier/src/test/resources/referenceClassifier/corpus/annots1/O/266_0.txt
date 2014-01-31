@@ -1,0 +1,31 @@
+5.2 The Two-Dimensional Direct Linear Transformation Technique
+
+The simplest way of transforming pixel coordinates obtained from a recording
+
+to real world coordinates is the scaling technique. This technique simply consists of
+
+placing a scale bar of known length in the recordings. However, this technique is only
+
+accurate if the camera is placed directly perpendicular and horizontally levelled to the
+
+activity plane (Brewin and Kerwin 2003). Even small rolls and tilts of the camera can
+
+have significant negative effects on reconstruction errors (Brewin and Kerwin 2003).
+
+Instead another technique, Two-Dimensional Direct Linear Transformation (2D-DLT)
+
+where several points distributed over the entire field of view, can be used. This
+
+technique provides much more accurate positional data independent of camera
+
+position (Brewin and Kerwin 2003). The 2D-DLT technique, furthermore,
+
+automatically incorporates separate horizontal and vertical scale factors that have
+
+been shown to provide better accuracy in the scaling technique.
+
+The relationship between the real world coordinates (x,y) and the image
+
+coordinates (u,v) in the 2D-DLT technique can be describes with the following
+
+equations (Walton 1981 cited in Kwon 1999)

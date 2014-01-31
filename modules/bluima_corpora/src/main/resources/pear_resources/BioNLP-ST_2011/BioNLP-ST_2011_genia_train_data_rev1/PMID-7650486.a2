@@ -1,0 +1,54 @@
+T18	Positive_regulation 0 10	Activation
+T19	Gene_expression 15 25	expression
+T20	Regulation 119 129	regulation
+T21	Regulation 423 432	sensitive
+T22	Gene_expression 1575 1582	express
+T23	Positive_regulation 1620 1632	accumulation
+T24	Positive_regulation 1636 1643	induced
+T25	Gene_expression 1796 1806	detectable
+T26	Regulation 1995 2004	sensitive
+T27	Gene_expression 2049 2058	expressed
+T28	Positive_regulation 2093 2103	activation
+T29	Gene_expression 2111 2121	expression
+T30	Regulation 2129 2138	regulated
+T31	Positive_regulation 2217 2224	results
+T32	Positive_regulation 2234 2244	activation
+T33	Positive_regulation 2271 2278	induced
+T34	Transcription 2279 2289	expression
+E1	Positive_regulation:T18 Theme:T2
+E2	Positive_regulation:T18 Theme:T1
+E3	Gene_expression:T19 Theme:T1
+E4	Gene_expression:T19 Theme:T2
+E5	Regulation:T20 Theme:E1
+E6	Regulation:T20 Theme:E4
+E7	Regulation:T20 Theme:E3
+E8	Regulation:T20 Theme:E2
+E9	Regulation:T21 Theme:T3
+E10	Gene_expression:T22 Theme:T10
+E11	Positive_regulation:T23 Theme:T11
+E12	Positive_regulation:T24 Theme:E11
+E13	Gene_expression:T25 Theme:T13
+E14	Regulation:T26 Theme:T14
+E15	Regulation:T26 Theme:T15
+E16	Gene_expression:T27 Theme:T14
+E17	Gene_expression:T27 Theme:T15
+E18	Positive_regulation:T28 Theme:T15
+E19	Positive_regulation:T28 Theme:T14
+E20	Gene_expression:T29 Theme:T14
+E21	Gene_expression:T29 Theme:T15
+E22	Regulation:T30 Theme:E18
+E23	Regulation:T30 Theme:E19
+E24	Regulation:T30 Theme:E21
+E25	Regulation:T30 Theme:E20
+E26	Positive_regulation:T31 Theme:E30 Cause:E22
+E27	Positive_regulation:T31 Theme:E30 Cause:E23
+E28	Positive_regulation:T31 Theme:E30 Cause:E25
+E29	Positive_regulation:T31 Theme:E30 Cause:E24
+E30	Positive_regulation:T32 Theme:T16
+E31	Positive_regulation:T33 Theme:E35 Cause:E27
+E32	Positive_regulation:T33 Theme:E35 Cause:E29
+E33	Positive_regulation:T33 Theme:E35 Cause:E26
+E34	Positive_regulation:T33 Theme:E35 Cause:E28
+E35	Transcription:T34 Theme:T17
+M1	Negation E10
+M2	Negation E13

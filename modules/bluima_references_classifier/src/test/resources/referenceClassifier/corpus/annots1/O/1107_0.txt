@@ -1,0 +1,68 @@
+test for significance of the peaks and troughs in the unit crosscorrelograms, a nonparametric significance test, based on jittering of
+spike trains, was used (Fujisawa et al., 2008). In short, the referred pointprocess dataset was jittered ([ 5, 5] ms interval) to produce 1000
+surrogate cross-correlograms from which the exact p value for each time
+bin was computed over the [ 30, 30] ms interval. For each crosscorrelogram, global bands at an acceptance level 99% were created from
+the maximum and minimum of each jitter surrogate cross-correlogram
+across the interval [ 30, 30] ms. Time bins with p 0.01 were considered significant for short latency peaks (or troughs; 1–5 ms) in the
+original cross-correlogram when at least one bin was atypical with re-spect to the upper (or lower) global band. The significant bin effects were
+considered to be attributable to excitation or inhibition of the reference
+unit by the referred unit (Fujisawa et al., 2008). For cell pairs recorded
+from the same shank, the 0 –1 ms bin was not considered because our
+clustering program cannot resolve superimposed spikes. The cluster
+properties of the neuron pairs, designated as monosynaptically connected by the statistical analysis, were visually inspected, and spurious
+cell pairs attributable to potential clustering errors were excluded from
+additional analysis. Using this method, 456 of the 1100 recorded units
+were classified as excitatory or inhibitory neurons (see Fig. 8). Only this
+physiologically defined subgroup was included for quantitative analyses.
+Layer assignment of the neurons was determined from the approximate
+location of their somata relative to the recordings sites (with the largestamplitude unit corresponding to the putative location of the soma), the
+known distances between the recording sites, and the histological reconstruction of the recording electrode tracks (see Fig. 4 A).
+Recording sessions were divided into brain states of theta and slow
+oscillation periods. LFP theta epochs were visually selected from the raw
+traces, assisted by the ratios of the whitened power in the theta band (3– 6
+Hz) and the power of the neighboring bands (1–3 and 7–14 Hz) of EC3
+LFPs (see Fig. 4 D). Spectral analyses were performed using direct multitaper estimates (Mitra and Pesaran, 1999; Sirota et al., 2008). Typically,
+window sizes of 2– 4 s and three to five tapers were used. The theta phase
+of the EC3 LFP was determined from the LFP filtered in the theta band
+(adjusted for the dominant theta frequency in each experiment, typically
+2– 6 Hz). The instantaneous phase was computed as the angle of the
+Hilbert transform, and the distribution of the phases in each session was
+tested for uniformity before unit analysis. Using linear interpolation, a
+value of phase was assigned to each action potential (units and intracellular spikes).
+To establish the gamma-phase modulation of units, the gamma bursts
+in EC3 during theta epochs were detected (Sirota et al., 2008) and the
+instantaneous phase of gamma oscillation was estimated by Hilbert
+transform of the 30 –90 Hz filtered signal. Only neurons with at least 50
+spikes and a firing rate 0.5 Hz during the theta epochs were included for
+the LFP unit analysis. The theta and gamma phase modulation of action
+potentials was determined by Rayleigh circular statistics (Fisher, 1993);
+p 0.05 was considered significant. Group comparison tests of circular
+variables were performed using circular ANOVA.
+Coherence between the intracellular membrane potential (V ) and
+m
+
+instantaneous LFP theta was computed using the EC3 LFP signal because
+recordings from this layer were available in all experiments. For the analyses of V fluctuations, the intracellular action potentials (3 ms) were
+m
+
+removed and replaced by interpolated values. Spectral power of V was
+m
+
+computed, and the relative power coefficient (ratio of the peak power
+and the SD across all frequencies) was used to characterize the strength of
+the dominant frequency of theta oscillation.
+The phase and power relationship between V and the LFP signal was
+m
+
+assessed by spectral methods (Isomura et al., 2006). For the assessment of
+V power–LFP power relationship, the correlation coefficient between
+m
+
+normalized spectral power values of the respective signals (V and LFP)
+m
+
+at all pairs of frequencies was calculated (“comodugram”).
+The magnitude of theta phase modulation of gamma power (30 –90
+Hz) and of the high frequencies ( 200 Hz) was estimated by calculating
+the power of the gamma/fast frequency band in short (50 –100 ms) overlapping windows at all the recording sites and correlating the power with
+the instantaneous phase of theta, obtained from the Hilbert transformation of the filtered signal from EC3 (see Fig. 11 E).

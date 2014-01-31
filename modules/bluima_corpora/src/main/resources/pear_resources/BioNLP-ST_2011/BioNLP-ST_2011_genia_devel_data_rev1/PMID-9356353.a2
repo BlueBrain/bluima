@@ -1,0 +1,5 @@
+T13	Positive_regulation 871 904	to produce a synergistic increase
+T14	Gene_expression 920 930	production
+E1	Positive_regulation:T13 Theme:E3 Cause:T3
+E2	Positive_regulation:T13 Theme:E3 Cause:T4
+E3	Gene_expression:T14 Theme:T5

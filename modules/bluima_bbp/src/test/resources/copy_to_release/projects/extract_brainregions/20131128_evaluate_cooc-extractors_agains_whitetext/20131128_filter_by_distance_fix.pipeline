@@ -1,0 +1,24 @@
+
+# with FilterCoocurrencesByDistance
+# $1: maximumDistance
+
+# tried with and without keepOnlyNearestNeighbors
+# tried with ExtractCoocurrences and ExtractSameCoocurrences
+    
+cr: WhiteTextConnectionsCollectionReader
+
+ae: EvaluationPreprocessorAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.Cooccurrence
+
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.BrainRegion
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+ #keepOnlyNearestNeighbors__java: true
+
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator 
+
+  
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesByDistance
+ maximumDistance__java: $1
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator 

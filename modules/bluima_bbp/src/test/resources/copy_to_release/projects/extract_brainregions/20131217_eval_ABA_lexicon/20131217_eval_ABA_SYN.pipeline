@@ -1,0 +1,82 @@
+cr: WhiteTextCollectionReader
+
+include: ../../../includes/preprocess.incl
+
+# FILTER RODENTS
+ae: LinnaeusAnnotator
+ae: FilterIfNotRodent
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegion
+
+ae: EvaluationPreprocessorAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.BrainRegion
+
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/aba-syn")
+# filter again, since original was moved to GOLD
+ae: FilterIfNotRodent
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+
+
+
+ae: EvaluationAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.BrainRegion
+ system_annotation: ch.epfl.bbp.uima.types.BrainRegionDictTerm 
+ verbose__java: false
+ae: EvaluationAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.BrainRegion
+ system_annotation: ch.epfl.bbp.uima.types.BrainRegionDictTerm 
+ evaluator: atLeastCovered
+ verbose__java: false
+ae: EvaluationAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.BrainRegion
+ system_annotation: ch.epfl.bbp.uima.types.BrainRegionDictTerm 
+ evaluator: overlap
+ verbose__java: false
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 30
+ 
+
+# ABA #####################
+# NO rodent filtering
+#TestResult:
+#    precision:  0.584
+#    recall:     0.111
+#    F1:         0.186
+#TestResult:
+#    precision:  0.591
+#    recall:     0.112
+#    F1:         0.188
+#TestResult:
+#    precision:  0.907
+#    recall:     0.171
+#    F1:         0.288
+#
+# rodent filtering
+#TestResult:
+#    precision:  0.608
+#    recall:     0.147
+#    F1:         0.237
+#TestResult:
+#    precision:  0.615
+#    recall:     0.148
+#    F1:         0.239
+#TestResult:
+#    precision:  0.915
+#    recall:     0.220
+#    F1:         0.354
+
+# ABA-SYN #####################
+# rodent filtering
+#TestResult:
+#    precision:  0.537
+#    recall: 0.243
+#    F1: 0.334
+#TestResult:
+#    precision:  0.542
+#    recall: 0.245
+#    F1: 0.337
+#TestResult:
+#    precision:  0.909
+#    recall: 0.355
+#    F1: 0.511

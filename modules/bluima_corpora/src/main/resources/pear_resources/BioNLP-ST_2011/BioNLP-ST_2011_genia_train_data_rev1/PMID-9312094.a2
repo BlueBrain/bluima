@@ -1,0 +1,26 @@
+T10	Entity 4 22	DNA binding domain
+T11	Binding 109 114	binds
+T12	Gene_expression 398 407	expressed
+T13	Regulation 570 580	regulation
+T14	Positive_regulation 670 694	transcriptionally active
+T15	Positive_regulation 771 780	responder
+T16	Positive_regulation 875 883	observed
+T17	Binding 1022 1029	binding
+T18	Negative_regulation 1052 1071	negative regulation
+T19	Binding 1435 1440	binds
+T20	Entity 1455 1472	N-terminal domain
+T21	Positive_regulation 1563 1575	co-activator
+E1	Binding:T11 Theme:T1 Site:T10
+E2	Gene_expression:T12 Theme:T2
+E3	Regulation:T13 Theme:T3
+E4	Positive_regulation:T14 Theme:T4
+E5	Positive_regulation:T15 Theme:T4
+E6	Positive_regulation:T16 Theme:T5
+E7	Binding:T17 Theme:T5
+E8	Negative_regulation:T18 Theme:T5
+E9	Binding:T19 Theme:T8 Site:T20
+E10	Positive_regulation:T21 Theme:T9
+M1	Speculation E3
+M2	Negation E4
+M3	Negation E6
+M4	Speculation E10

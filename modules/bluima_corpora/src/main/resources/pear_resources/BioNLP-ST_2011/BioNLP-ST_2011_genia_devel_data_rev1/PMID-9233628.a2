@@ -1,0 +1,26 @@
+T21	Positive_regulation 281 286	leads
+T22	Positive_regulation 290 300	high level
+T23	Gene_expression 306 316	production
+T24	Positive_regulation 436 447	contributes
+T25	Positive_regulation 455 465	activation
+T26	Entity 478 486	promoter
+T27	Binding 1140 1156	binding activity
+T28	Entity 1164 1184	CD28RE/AP-1 sequence
+T29	Binding 1269 1276	binding
+T30	Binding 1547 1551	bind
+T31	Regulation 1738 1747	influence
+T32	Entity 1753 1761	promoter
+E1	Positive_regulation:T21 Theme:E2
+E2	Positive_regulation:T22 Theme:E3
+E3	Gene_expression:T23 Theme:T7
+E4	Positive_regulation:T24 Theme:E5
+E5	Positive_regulation:T25 Theme:T9 Site:T26
+E6	Binding:T27 Theme:T13 Site:T28
+E7	Binding:T29 Theme:T13 Site:T28
+E8	Binding:T30 Theme:T16
+E9	Binding:T30 Theme:T15
+E10	Regulation:T31 Theme:T19 Site:T32
+M1	Speculation E6
+M2	Speculation E7
+M3	Speculation E8
+M4	Speculation E9

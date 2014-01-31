@@ -1,0 +1,14 @@
+T14	Localization 644 653	liberated
+T15	Positive_regulation 644 653	liberated
+T16	Gene_expression 1239 1248	expressed
+T17	Gene_expression 1410 1418	detected
+E1	Localization:T14 Theme:T3
+E2	Positive_regulation:T15 Theme:E1
+E3	Positive_regulation:T15 Theme:E4
+E4	Localization:T14 Theme:T2
+E5	Gene_expression:T16 Theme:T8
+E6	Gene_expression:T16 Theme:T9
+E7	Gene_expression:T17 Theme:T8
+E8	Gene_expression:T17 Theme:T9
+M1	Negation E5
+M2	Negation E6

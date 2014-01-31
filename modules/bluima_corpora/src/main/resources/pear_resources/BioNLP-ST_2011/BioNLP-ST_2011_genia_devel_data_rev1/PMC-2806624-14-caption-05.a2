@@ -1,0 +1,12 @@
+T30	Negative_regulation 28 37	deficient
+T31	Gene_expression 458 468	expression
+T32	Negative_regulation 634 643	deficient
+T33	Gene_expression 831 841	expression
+E1	Negative_regulation:T30 Theme:T1
+E2	Gene_expression:T31 Theme:T15
+E3	Gene_expression:T31 Theme:T16
+E4	Negative_regulation:T32 Theme:T22
+E5	Gene_expression:T33 Theme:T25
+M1	Speculation E2
+M2	Speculation E3
+M3	Speculation E5

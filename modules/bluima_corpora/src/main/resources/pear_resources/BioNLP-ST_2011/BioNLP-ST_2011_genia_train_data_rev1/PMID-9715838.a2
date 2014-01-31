@@ -1,0 +1,12 @@
+*	Equiv T2 T3
+T8	Negative_regulation 58 67	inhibitor
+T9	Negative_regulation 898 906	blocking
+T10	Transcription 917 930	transcription
+T11	Positive_regulation 931 934	via
+T12	Positive_regulation 941 948	induced
+E1	Negative_regulation:T8 Theme:T1
+E2	Negative_regulation:T9 Theme:E3
+E3	Transcription:T10 Theme:T6
+E4	Positive_regulation:T11 Theme:E3 Cause:E5
+E5	Positive_regulation:T12 Theme:E2 Cause:T7
+M1	Speculation E2

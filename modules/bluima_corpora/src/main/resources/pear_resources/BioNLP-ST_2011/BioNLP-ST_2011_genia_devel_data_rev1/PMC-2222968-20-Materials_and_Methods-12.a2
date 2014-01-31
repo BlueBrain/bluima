@@ -1,0 +1,6 @@
+T22	Gene_expression 38 48	expression
+T23	Gene_expression 1323 1333	expression
+E1	Gene_expression:T22 Theme:T1
+E2	Gene_expression:T23 Theme:T19
+M1	Speculation E1
+M2	Speculation E2

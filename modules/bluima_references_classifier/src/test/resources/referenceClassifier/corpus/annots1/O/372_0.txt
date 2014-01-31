@@ -1,0 +1,12 @@
+We can approximate the directional derivative at x along a vector
+i
+
+pointing to any neighbor vertex x by taking the difference of the
+j
+
+two concentrations divided by the distance between them. With
+three different x , we obtain a system of three equations that we
+j
+
+solve to find the three components of the gradient at x :
+i

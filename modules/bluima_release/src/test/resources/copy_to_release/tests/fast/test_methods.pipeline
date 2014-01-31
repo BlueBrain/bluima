@@ -1,0 +1,29 @@
+cr: TextArrayReader
+ input__java: new String[]{"All these two-photon microscopy are weird, they induce fear responses."}
+
+include: ../../includes/preprocess.incl
+
+ae: PunctuationAnnotator
+
+ae: WordnetAnnotator
+
+ae: GeneralEnglishAnnotator
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/method")
+
+
+ae: VerbsCleanerAnnotator
+
+ae: ViterbiFilterAnnotator
+
+ae: AnnotationHistogramAnnotator
+
+ae: DeduplicatorAnnotator
+ annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.MethodDictTerm"}
+
+ae: TestAnnotator
+ expects: ch.epfl.bbp.uima.types.MethodDictTerm 2
+
+
+ae: BartWriter
+ batchPrefix: test_methods_

@@ -1,0 +1,31 @@
+T9	Positive_regulation 326 333	induced
+T10	Negative_regulation 532 541	inhibited
+T11	Positive_regulation 546 555	induction
+T12	Positive_regulation 874 882	resulted
+T13	Gene_expression 890 900	production
+T14	Localization 905 912	release
+T15	Regulation 1239 1246	Changes
+T16	Positive_regulation 1392 1396	role
+T17	Gene_expression 1409 1419	production
+E1	Positive_regulation:T9 Theme:T3
+E2	Positive_regulation:T9 Theme:T4
+E3	Positive_regulation:T9 Theme:T5
+E4	Positive_regulation:T9 Theme:T1
+E5	Positive_regulation:T9 Theme:T2
+E6	Negative_regulation:T10 Theme:E15
+E7	Negative_regulation:T10 Theme:E14
+E8	Negative_regulation:T10 Theme:E11
+E9	Negative_regulation:T10 Theme:E13
+E10	Negative_regulation:T10 Theme:E12
+E11	Positive_regulation:T11 Theme:T1
+E12	Positive_regulation:T11 Theme:T5
+E13	Positive_regulation:T11 Theme:T3
+E14	Positive_regulation:T11 Theme:T4
+E15	Positive_regulation:T11 Theme:T2
+E16	Positive_regulation:T12 Theme:E18
+E17	Positive_regulation:T12 Theme:E19
+E18	Gene_expression:T13 Theme:T6
+E19	Localization:T14 Theme:T6
+E20	Regulation:T15 Theme:T7
+E21	Positive_regulation:T16 Theme:E22
+E22	Gene_expression:T17 Theme:T8

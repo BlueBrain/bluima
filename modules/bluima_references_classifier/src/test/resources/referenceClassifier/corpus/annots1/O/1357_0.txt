@@ -1,0 +1,34 @@
+Results
+Brain position
+The simplest single-element placement problem is where the
+human brain is the only locatable component. It is a basic fact
+of body layout of vertebrates and most actively motile invertebrates that they tend to “lead with their head,” to concentrate
+sensors at this anterior pole; here we treat locations of all sensors
+and effecters connected to the brain just as prior “edge-constraints” fixed by natural selection. Vertebrate, and most motile
+invertebrate, bodies have a strongly distinct longitudinal axis.
+Hence the component placement task here is further simplified,
+because it approximates a one-axis linear array problem. One
+issue concerns how connection costs should be assessed. For
+instance, should the measure be total volume of nerve tract
+tissue, or total length of individual nerve fibers? Since human
+nerve fibers range in diameter from below 0.2 pm for olfactory
+fibers to over 10 pm for some types of spinal motor fibers
+(Chemiak, 1990b), the answer significantly affects cost estimates. We begin with the hypothesis that the cost being minimized is individual connection lengths-that is, total fiber
+length-rather than just volume of tissue. We also start from
+the assumption that, if connections in themselves count, then
+sensory and motor connections qualitatively have equal value.
+The basic observation concerning component location is that
+the brain, or predominant portion of most nondiffuse invertebrate nervous systems, is positioned as far forward as is physically possible on the longitudinal axis of the body. Such a
+placement minimizes total sensory/motor connection costs only
+if there are more connections to and from the front than the
+rear. Table 1 gives fiber counts for all cranial nerves and the
+spinal cord of adult Homo sapiens: the anteroposterior connection ratio for our brain exceeds 5. Despite the flexures of the
+human CNS, one can therefore see that any placement of the
+brain other than as far forward as possible will increase total
+length of required external connections. Some sense ofjust how
+strong the selective pressure to “save wire” might be is conveyed
+when one contemplates how poor a choice in other important
+respects putting the brain in the head is. Locating the brain
+instead inside the thorax would greatly improve mechanical
+protection of this most delicate of tissues, and also save significantly on arteriovenous connection costs to the heart of this
+most metabolically active of organs.

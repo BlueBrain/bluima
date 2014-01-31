@@ -1,0 +1,50 @@
+*	Equiv T3 T2
+T13	Regulation 13 27	autoregulation
+T14	Gene_expression 55 65	expression
+T15	Regulation 97 107	Regulation
+T16	Gene_expression 140 150	expression
+T17	Negative_regulation 306 314	decrease
+T18	Positive_regulation 450 458	increase
+T19	Positive_regulation 567 575	increase
+T20	Transcription 604 613	induction
+T21	Negative_regulation 745 752	blocked
+T22	Positive_regulation 809 832	positive autoregulation
+T23	Gene_expression 839 849	expression
+T24	Regulation 899 922	Positive autoregulation
+T25	Gene_expression 929 939	expression
+T26	Positive_regulation 1123 1134	consequence
+T27	Negative_regulation 1186 1209	negative autoregulation
+T28	Positive_regulation 1228 1251	positive autoregulation
+T29	Regulation 1272 1282	unaffected
+T30	Regulation 1454 1464	unaffected
+T31	Regulation 1555 1565	unaffected
+T32	Regulation 1670 1684	autoregulation
+T33	Transcription 1731 1746	transcriptional
+E1	Regulation:T13 Theme:E2
+E2	Gene_expression:T14 Theme:T1
+E3	Regulation:T15 Theme:E4
+E4	Gene_expression:T16 Theme:T3
+E5	Negative_regulation:T17 Theme:T4
+E6	Positive_regulation:T18 Theme:T5
+E7	Positive_regulation:T19 Theme:T6
+E8	Transcription:T20 Theme:T7
+E9	Negative_regulation:T21 Theme:E8
+E10	Positive_regulation:T22 Theme:E11 Cause:T8
+E11	Gene_expression:T23 Theme:T8
+E12	Regulation:T24 Theme:E13
+E13	Gene_expression:T25 Theme:T9
+E14	Positive_regulation:T26 Theme:E12
+E15	Negative_regulation:T27 Theme:E13
+E16	Positive_regulation:T28 Theme:E13
+E17	Regulation:T29 Theme:E15
+E18	Regulation:T29 Theme:E16
+E19	Regulation:T30 Theme:T11
+E20	Regulation:T31 Theme:T11
+E21	Regulation:T32 Theme:E22
+E22	Transcription:T33 Theme:T12
+M1	Speculation E3
+M2	Negation E14
+M3	Negation E17
+M4	Negation E18
+M5	Negation E19
+M6	Negation E20

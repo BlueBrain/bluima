@@ -1,0 +1,13 @@
+# preprocessed from ft ns with everything lex ners up to viterbi 
+cr: ch.epfl.bbp.uima.mongo.MongoCollectionReader
+ db_connection__java: new String[]{  "128.178.187.248", "preprocessed_2", "20130327_preprocess_ft", "", ""} 
+
+java:
+String text = jCas.getDocumentText();
+if (text == null || text.length() == 0)
+ System.out.println(ch.epfl.bbp.uima.BlueCasUtil.getHeaderDocId(jCas) + "\t0");
+else
+ System.out.println(ch.epfl.bbp.uima.BlueCasUtil.getHeaderDocId(jCas) + "\t"+text.length());
+
+
+          

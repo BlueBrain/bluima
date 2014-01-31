@@ -1,0 +1,5 @@
+T7	Gene_expression 707 717	expression
+T8	Gene_expression 819 825	absent
+E1	Gene_expression:T7 Theme:T6
+E2	Gene_expression:T8 Theme:T6
+M1	Negation E2

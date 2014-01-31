@@ -1,0 +1,15 @@
+T15	Binding 538 553	binding subunit
+T16	Positive_regulation 607 616	stimulate
+T17	Gene_expression 621 631	expression
+T18	Positive_regulation 659 665	effect
+E1	Binding:T15 Theme:T4
+E2	Positive_regulation:T16 Theme:E3
+E3	Gene_expression:T17 Theme:T7
+E4	Positive_regulation:T18 Theme:E3 Cause:T10
+E5	Positive_regulation:T18 Theme:E3 Cause:T8
+E6	Positive_regulation:T18 Theme:E3 Cause:T11
+E7	Positive_regulation:T18 Theme:E3 Cause:T9
+M1	Negation E4
+M2	Negation E5
+M3	Negation E6
+M4	Negation E7

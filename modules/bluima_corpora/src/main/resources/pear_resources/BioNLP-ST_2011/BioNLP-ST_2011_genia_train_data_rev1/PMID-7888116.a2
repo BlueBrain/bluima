@@ -1,0 +1,29 @@
+*	Equiv T1 T2
+T8	Gene_expression 491 501	expression
+T9	Binding 541 549	receptor
+T10	Binding 620 628	receptor
+T11	Gene_expression 1339 1348	expressed
+T12	Gene_expression 1381 1390	expressed
+T13	Gene_expression 1411 1421	detectable
+T14	Gene_expression 1472 1482	expression
+T15	Positive_regulation 1483 1492	increased
+T16	Gene_expression 1552 1562	expression
+T17	Regulation 1567 1576	unchanged
+T18	Positive_regulation 1602 1610	elevated
+E1	Gene_expression:T8 Theme:T1
+E2	Gene_expression:T8 Theme:T4
+E3	Binding:T9 Theme:T1
+E4	Binding:T10 Theme:T4
+E5	Gene_expression:T11 Theme:T5
+E6	Gene_expression:T12 Theme:T5
+E7	Gene_expression:T13 Theme:T5
+E8	Gene_expression:T14 Theme:T6
+E9	Positive_regulation:T15 Theme:E8
+E10	Gene_expression:T16 Theme:T7
+E11	Regulation:T17 Theme:E10
+E12	Positive_regulation:T18 Theme:E10
+M1	Speculation E1
+M2	Speculation E2
+M3	Negation E7
+M4	Negation E9
+M5	Negation E11

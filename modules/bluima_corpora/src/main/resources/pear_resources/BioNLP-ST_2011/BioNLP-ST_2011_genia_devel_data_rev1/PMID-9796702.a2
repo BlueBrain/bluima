@@ -1,0 +1,29 @@
+*	Equiv T12 T13
+*	Equiv T22 T23
+*	Equiv T20 T21
+*	Equiv T9 T10
+*	Equiv T18 T19
+T25	Positive_regulation 124 133	activated
+T26	Regulation 251 268	Effector pathways
+T27	Positive_regulation 328 336	mediated
+T28	Positive_regulation 611 617	couple
+T29	Regulation 961 970	regulated
+T30	Positive_regulation 1348 1357	activated
+T31	Positive_regulation 1449 1472	required and sufficient
+T32	Positive_regulation 1538 1544	induce
+T33	Positive_regulation 1592 1600	required
+T34	Positive_regulation 1613 1623	activation
+E1	Positive_regulation:T25 Theme:T4
+E2	Regulation:T26 Theme:T4
+E3	Positive_regulation:T27 Theme:E2 Cause:T6
+E4	Positive_regulation:T27 Theme:E2 Cause:T5
+E5	Positive_regulation:T28 Theme:T9
+E6	Regulation:T29 Theme:T12
+E7	Positive_regulation:T30 Theme:T16
+E8	Positive_regulation:T31 Theme:E7
+E9	Positive_regulation:T32 Theme:T18 Cause:T17
+E10	Positive_regulation:T33 Theme:E11 Cause:T17
+E11	Positive_regulation:T34 Theme:T20
+M1	Speculation E6
+M2	Negation E9
+M3	Negation E10

@@ -1,0 +1,43 @@
+*	Equiv T10 T11
+T26	Positive_regulation 96 105	dependent
+T27	Gene_expression 111 121	expression
+T28	Positive_regulation 341 350	mediating
+T29	Gene_expression 361 371	expression
+T30	Gene_expression 538 546	secreted
+T31	Positive_regulation 547 558	high levels
+T32	Phosphorylation 653 668	phosphorylation
+T33	Positive_regulation 673 683	activation
+T34	Negative_regulation 759 768	inhibited
+T35	Localization 774 783	secretion
+T36	Regulation 920 929	dependent
+T37	Entity 935 943	promoter
+T38	Transcription 1200 1213	transcription
+T39	Positive_regulation 1283 1292	dependent
+T40	Binding 1328 1339	interaction
+T41	Positive_regulation 1390 1397	induced
+T42	Gene_expression 1408 1418	expression
+T43	Positive_regulation 1438 1446	mediated
+T44	Phosphorylation 1648 1663	phosphorylation
+T45	Positive_regulation 1648 1663	phosphorylation
+T46	Positive_regulation 1668 1678	activation
+E1	Positive_regulation:T26 Theme:E2
+E2	Gene_expression:T27 Theme:T5
+E3	Positive_regulation:T28 Theme:E4
+E4	Gene_expression:T29 Theme:T12
+E5	Gene_expression:T30 Theme:T13
+E6	Positive_regulation:T31 Theme:E5
+E7	Phosphorylation:T32 Theme:T14
+E8	Positive_regulation:T33 Theme:T14
+E9	Negative_regulation:T34 Theme:E10
+E10	Localization:T35 Theme:T15
+E11	Regulation:T36 Theme:T18 Site:T37
+E12	Transcription:T38 Theme:T21
+E13	Positive_regulation:T39 Theme:E12 Cause:E15
+E14	Positive_regulation:T39 Theme:E12
+E15	Binding:T40 Theme:T22
+E16	Positive_regulation:T41 Theme:E17
+E17	Gene_expression:T42 Theme:T23
+E18	Positive_regulation:T43 Theme:E16
+E19	Phosphorylation:T44 Theme:T25
+E20	Positive_regulation:T45 Theme:E19 Cause:T24
+E21	Positive_regulation:T46 Theme:T25 Cause:T24

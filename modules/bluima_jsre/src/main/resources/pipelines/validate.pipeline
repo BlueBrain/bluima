@@ -1,0 +1,8 @@
+
+
+
+cr: WhiteTextConnectionsCollectionReader
+
+include: preprocess.incl
+
+ae: ch.epfl.bbp.uima.jsre.JsreTrainAnnotator

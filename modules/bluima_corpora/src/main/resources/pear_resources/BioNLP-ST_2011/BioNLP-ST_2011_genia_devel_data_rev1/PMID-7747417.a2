@@ -1,0 +1,8 @@
+T12	Gene_expression 227 236	expressed
+T13	Positive_regulation 249 253	upon
+T14	Binding 658 667	interacts
+T15	Binding 878 883	bound
+E1	Gene_expression:T12 Theme:T2
+E2	Positive_regulation:T13 Theme:E1
+E3	Binding:T14 Theme:T7 Theme2:T8
+E4	Binding:T15 Theme:T9 Theme2:T10

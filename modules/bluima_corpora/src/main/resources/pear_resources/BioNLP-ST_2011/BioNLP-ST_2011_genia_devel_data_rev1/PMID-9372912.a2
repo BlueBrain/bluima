@@ -1,0 +1,18 @@
+T19	Regulation 0 10	Regulation
+T20	Positive_regulation 47 56	dependent
+T21	Phosphorylation 57 72	phosphorylation
+T22	Positive_regulation 571 580	dependent
+T23	Phosphorylation 581 596	phosphorylation
+T24	Entity 635 639	Ser5
+T25	Regulation 950 959	regulated
+T26	Phosphorylation 960 975	phosphorylation
+E1	Regulation:T19 Theme:T1 Cause:E3
+E2	Positive_regulation:T20 Theme:E3 Cause:T2
+E3	Phosphorylation:T21 Theme:T1
+E4	Positive_regulation:T22 Theme:E8 Cause:T4
+E5	Positive_regulation:T22 Theme:E8 Cause:T3
+E6	Positive_regulation:T22 Theme:E8 Cause:T6
+E7	Positive_regulation:T22 Theme:E8 Cause:T5
+E8	Phosphorylation:T23 Theme:T7 Site:T24
+E9	Regulation:T25 Theme:E10
+E10	Phosphorylation:T26 Theme:T9

@@ -1,0 +1,9 @@
+*	Equiv T4 T3
+*	Equiv T2 T1
+T8	Positive_regulation 346 354	activate
+T9	Positive_regulation 365 371	driven
+T10	Transcription 372 385	transcription
+E1	Positive_regulation:T8 Theme:E3 Cause:T4
+E2	Positive_regulation:T8 Theme:E3 Cause:T2
+E3	Positive_regulation:T9 Theme:E4
+E4	Transcription:T10 Theme:T5

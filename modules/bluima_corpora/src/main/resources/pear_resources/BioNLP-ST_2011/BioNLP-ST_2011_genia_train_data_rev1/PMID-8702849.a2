@@ -1,0 +1,10 @@
+T13	Gene_expression 1290 1300	expression
+T14	Binding 1466 1471	bound
+T15	Entity 1479 1493	kappa3 element
+T16	Positive_regulation 1567 1576	activated
+T17	Entity 1609 1617	promoter
+E1	Gene_expression:T13 Theme:T8
+E2	Binding:T14 Theme:T10 Theme2:T11 Site2:T15
+E3	Positive_regulation:T16 Theme:T12 Cause:T10 Site:T17
+M1	Negation E2
+M2	Negation E3

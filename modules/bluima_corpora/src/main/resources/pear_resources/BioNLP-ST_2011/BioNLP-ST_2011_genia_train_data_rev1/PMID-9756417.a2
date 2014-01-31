@@ -1,0 +1,5 @@
+*	Equiv T2 T3
+T16	Binding 1230 1237	binding
+T17	Positive_regulation 1285 1292	changed
+E1	Binding:T16 Theme:T10
+E2	Positive_regulation:T17 Theme:E1 Cause:T9

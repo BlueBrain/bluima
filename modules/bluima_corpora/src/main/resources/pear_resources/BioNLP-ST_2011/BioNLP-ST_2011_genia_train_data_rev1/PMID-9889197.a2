@@ -1,0 +1,12 @@
+T4	Localization 617 625	directed
+T5	Entity 635 642	nucleus
+T6	Binding 659 663	bind
+T7	Positive_regulation 686 695	activated
+T8	Gene_expression 704 714	expression
+T9	Gene_expression 728 738	production
+E1	Localization:T4 Theme:T1 ToLoc:T5
+E2	Binding:T6 Theme:T1
+E3	Positive_regulation:T7 Theme:E5 Cause:E2
+E4	Positive_regulation:T7 Theme:E6 Cause:E2
+E5	Gene_expression:T8 Theme:T2
+E6	Gene_expression:T9 Theme:T3

@@ -1,0 +1,22 @@
+*	Equiv T1 T2
+T8	Regulation 166 175	regulated
+T9	Gene_expression 192 201	expressed
+T10	Positive_regulation 276 287	responsible
+T11	Regulation 329 338	regulated
+T12	Gene_expression 339 349	expression
+T13	Regulation 555 564	regulated
+T14	Positive_regulation 816 828	establishing
+T15	Gene_expression 834 844	expression
+T16	Gene_expression 964 974	expression
+T17	Regulation 978 987	regulated
+E1	Regulation:T8 Theme:T1
+E2	Gene_expression:T9 Theme:T1
+E3	Positive_regulation:T10 Theme:E4
+E4	Regulation:T11 Theme:E5
+E5	Gene_expression:T12 Theme:T1
+E6	Regulation:T13 Theme:T3
+E7	Positive_regulation:T14 Theme:E8
+E8	Gene_expression:T15 Theme:T6
+E9	Gene_expression:T16 Theme:T7
+E10	Regulation:T17 Theme:E9
+M1	Speculation E7

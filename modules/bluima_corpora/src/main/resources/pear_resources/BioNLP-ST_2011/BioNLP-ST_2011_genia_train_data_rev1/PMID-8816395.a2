@@ -1,0 +1,39 @@
+*	Equiv T2 T1
+*	Equiv T4 T5
+T11	Gene_expression 252 261	expressed
+T12	Positive_regulation 308 316	required
+T13	Positive_regulation 330 343	up-regulation
+T14	Binding 372 382	reactivity
+T15	Positive_regulation 503 510	induces
+T16	Positive_regulation 518 531	up-regulation
+T17	Gene_expression 539 549	expression
+T18	Positive_regulation 649 657	initiate
+T19	Transcription 670 683	transcription
+T20	Binding 763 771	ligation
+T21	Positive_regulation 1116 1134	In the presence of
+T22	Positive_regulation 1238 1270	sufficient for the up-regulation
+T23	Positive_regulation 1302 1311	necessary
+T24	Positive_regulation 1368 1377	induction
+E1	Gene_expression:T11 Theme:T2
+E2	Positive_regulation:T12 Theme:E5
+E3	Positive_regulation:T12 Theme:E4
+E4	Positive_regulation:T13 Theme:T3
+E5	Binding:T14 Theme:T3
+E6	Positive_regulation:T15 Theme:E7
+E7	Positive_regulation:T16 Theme:E8
+E8	Gene_expression:T17 Theme:T6
+E9	Positive_regulation:T18 Theme:E10
+E10	Transcription:T19 Theme:T7
+E11	Binding:T20 Theme:T8
+E12	Positive_regulation:T21 Theme:E15
+E13	Positive_regulation:T21 Theme:E14
+E14	Positive_regulation:T22 Theme:T9
+E15	Positive_regulation:T23 Theme:E16
+E16	Positive_regulation:T24 Theme:T10
+M1	Negation E1
+M2	Negation E9
+M3	Speculation E12
+M4	Speculation E13
+M5	Speculation E14
+M6	Speculation E15
+M7	Speculation E16

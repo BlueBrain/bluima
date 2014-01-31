@@ -1,0 +1,23 @@
+125 FS networks are available for download at ModelDB
+(http://senselab.med.yale.edu/ModelDB/).
+Analysis of spike synchronization. To investigate synchronization, joint
+peristimulus time histograms (JPSTHs) (Palm et al., 1988; Aertsen et al.,
+1989) were constructed for FS interneuron pairs receiving alternating
+up-state/down-state input. The periods were considered to be triggered
+by the start of the up states. The JPSTH reveals changes in the synchronization during the duration of an up state, with points on the diagonal
+corresponding to synchronous spikes for the neuron pair. To study
+quantitatively the effect of gap junctions on the synchronization, crosscorrelograms were generated for each directly coupled neuron pair in the
+10-cell network, and then averaged over the network. The same simulations were rerun without gap junctions as a reference.
+The effect of gap junctions on the spike pattern was classified into three
+cases; removal of spikes due to shunting, spikes triggered by neighboring
+spikes and spikes appearing spontaneously. The comparison is between
+an FS population with and without gap junctions. For each spike in the
+reference network devoid of gap junctions, if no spike is within t in the
+trace from the network with gap junctions, the spike is considered re-moved. Conversely, for each spike in the network with gap junctions, if
+there is no spike within t in the reference network, the spike is considered added. To further evaluate the added spike, the traces from neurons
+connected with gap junctions were analyzed. If there were no spikes in
+those coupled neurons when they were uncoupled (i.e., in the reference
+network) at least t before the spike, then the spike was considered to be
+spontaneous, otherwise it was spike triggered. This analysis accounts for
+all spike changes; summing them together resulted in the measured re-duction in total number of spikes. Analyses were repeated for t between
+5 and 20 ms.

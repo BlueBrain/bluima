@@ -1,0 +1,60 @@
+*	Equiv T1 T2
+T28	Gene_expression 537 547	expression
+T29	Positive_regulation 569 576	induced
+T30	Localization 760 769	migrating
+T31	Localization 829 838	migrating
+T32	Binding 998 1005	binding
+T33	Regulation 1050 1059	sensitive
+T34	Binding 1177 1184	binding
+T35	Positive_regulation 1212 1219	depends
+T36	Binding 1277 1284	binding
+T37	Negative_regulation 1329 1336	blocked
+T38	Negative_regulation 1644 1648	loss
+T39	Negative_regulation 1735 1743	inhibits
+T40	Binding 1756 1763	binding
+T41	Negative_regulation 1774 1782	blocking
+T42	Binding 1795 1807	interactions
+E1	Gene_expression:T28 Theme:T9
+E2	Gene_expression:T28 Theme:T10
+E3	Gene_expression:T28 Theme:T8
+E4	Gene_expression:T28 Theme:T11
+E5	Positive_regulation:T29 Theme:E2
+E6	Positive_regulation:T29 Theme:E4
+E7	Positive_regulation:T29 Theme:E3
+E8	Positive_regulation:T29 Theme:E1
+E9	Localization:T30 Theme:T12
+E10	Localization:T30 Theme:T13
+E11	Localization:T31 Theme:T15
+E12	Localization:T31 Theme:T17
+E13	Localization:T31 Theme:T16
+E14	Localization:T31 Theme:T14
+E15	Binding:T32 Theme:T19
+E16	Binding:T32 Theme:T20
+E17	Regulation:T33 Theme:E16
+E18	Regulation:T33 Theme:E15
+E19	Binding:T34 Theme:T21
+E20	Binding:T34 Theme:T22
+E21	Positive_regulation:T35 Theme:E19
+E22	Positive_regulation:T35 Theme:E20
+E23	Binding:T36 Theme:T15
+E24	Binding:T36 Theme:T14
+E25	Binding:T36 Theme:T16
+E26	Binding:T36 Theme:T17
+E27	Negative_regulation:T37 Theme:E23
+E28	Negative_regulation:T37 Theme:E25
+E29	Negative_regulation:T37 Theme:E24
+E30	Negative_regulation:T37 Theme:E26
+E31	Negative_regulation:T38 Theme:E24
+E32	Negative_regulation:T38 Theme:E23
+E33	Negative_regulation:T38 Theme:E25
+E34	Negative_regulation:T38 Theme:E26
+E35	Negative_regulation:T39 Theme:E37
+E36	Negative_regulation:T39 Theme:E38
+E37	Binding:T40 Theme:T25
+E38	Binding:T40 Theme:T24
+E39	Negative_regulation:T41 Theme:E41
+E40	Negative_regulation:T41 Theme:E42
+E41	Binding:T42 Theme:T26
+E42	Binding:T42 Theme:T27
+M1	Negation E39
+M2	Negation E40

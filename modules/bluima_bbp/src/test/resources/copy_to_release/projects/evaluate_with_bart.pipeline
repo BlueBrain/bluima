@@ -1,0 +1,56 @@
+#
+# evaluate quality of extraction with Bart viewer
+#
+
+# use fulltext articles from PMC open subset
+#cr: PubmedCentralCollectionReader
+# inputDirectory: /Volumes/HDD2/ren_data/data_hdd/_papers_etc/test/sample_from_ff/0a
+
+cr: PubmedDatabaseCR
+ db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" }
+ between__java: new int[]{126,150}
+
+#cr: StdinInteractiveReader
+
+include: ../includes/preprocess.incl
+
+ae: PunctuationAnnotator
+
+ae: WordnetAnnotator
+
+ae: GeneralEnglishAnnotator
+
+include: ../includes/lex-based-ners.incl
+
+ae_java: ch.epfl.bbp.uima.ae.BannerHelper.getBanner()
+
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+
+ae: PruneMeasuresAnnotator
+
+ae: LinnaeusAnnotator
+
+ae: OscarAnnotator
+
+#ae: VerbsCleanerAnnotator
+
+#ae: AnnotationHistogramAnnotator
+
+
+
+ae: BartWriter
+ batchPrefix: b2_amb_
+ debug_java: true
+
+ae: SkipSomePosAnnotator
+
+ae: ViterbiFilterAnnotator
+
+#ae: AnnotationHistogramAnnotator
+#printForEveryCas__java: true
+
+ae: BartWriter
+ batchPrefix: b2_
+ debug_java: true
+
+ae: StatsTextAnnotator

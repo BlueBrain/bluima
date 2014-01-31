@@ -1,0 +1,53 @@
+#
+# evaluates the performance of the measures pipeline
+#
+
+# use fulltext articles from PMC open subset 
+cr: PubmedCentralCollectionReader
+ inputDirectory: /Volumes/HDD2/ren_data/data_hdd/_papers_etc/test/sample_from_ff
+
+# preprocessing
+include: ../includes/preprocess.incl
+
+# lexicon-based from MT
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/age")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/disease")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/ionchannel")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/method")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/molecule")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/organism")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/region")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/sex")
+
+# lexicon-based from OBO & co
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/neuronames")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/cell")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/disease")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/protein")
+
+ae_java: ch.epfl.bbp.uima.ae.BannerHelper.getBanner()
+
+ae: OscarAnnotator
+
+# extract measures with the Measures module 
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+
+ae: PruneMeasuresAnnotator
+
+# evaluate
+ae: EvaluateMeasuresAnnotator
+
+ae: AnnotationHistogramAnnotator 
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 30

@@ -1,0 +1,24 @@
+T13	Gene_expression 459 473	overexpression
+T14	Positive_regulation 459 473	overexpression
+T15	Gene_expression 668 682	overexpression
+T16	Positive_regulation 668 682	overexpression
+T17	Positive_regulation 751 761	activation
+T18	Positive_regulation 828 841	overexpressed
+T19	Gene_expression 828 841	overexpressed
+T20	Positive_regulation 939 953	overexpressing
+T21	Gene_expression 939 953	overexpressing
+T22	Positive_regulation 1090 1103	overexpressed
+T23	Gene_expression 1090 1103	overexpressed
+T24	Regulation 1150 1154	acts
+E1	Gene_expression:T13 Theme:T4
+E2	Positive_regulation:T14 Theme:E1
+E3	Gene_expression:T15 Theme:T5
+E4	Positive_regulation:T16 Theme:E3
+E5	Positive_regulation:T17 Theme:T6
+E6	Positive_regulation:T18 Theme:E7
+E7	Gene_expression:T19 Theme:T7
+E8	Positive_regulation:T20 Theme:E9
+E9	Gene_expression:T21 Theme:T8
+E10	Positive_regulation:T22 Theme:E11
+E11	Gene_expression:T23 Theme:T9
+E12	Regulation:T24 Theme:T10 Cause:T11

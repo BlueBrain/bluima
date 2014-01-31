@@ -1,0 +1,2312 @@
+<?xml version='1.0'?>
+<!DOCTYPE File PUBLIC "NeuroScholar.DTD" "NeuroScholar.DTD">
+<File>
+
+  <Title>Mamillary Body in the Rat: Topography and Synaptology of 
+  Projections From the Subicular Complex, Prefrontal Cortex, and 
+  Midbrain Tegmentum</Title>
+
+  <Authors>GARY V. ALLEN AND DAVID A. HOPKINS</Authors>
+
+  <Abstract>
+
+    <S avgH="22" class="abstract.heading" format="TimesNewRomanPSMT"
+     id="s0">ABSTRACT</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s1">The retrograde and anterograde transport of horseradish 
+    peroxidase conjugated to wheat germ agglutinin (WGA-HRP) has been 
+    used to trace afferent connections of the rat mamillary body (MB) 
+    at the light and electron microscopic levels.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s2">Injections of WGA-HRP into different parts of the MB 
+    resulted in heavy retrograde labeling in the subicular complex, 
+    medial prefrontal cortex, and dorsal and ventral tegmental 
+    nuclei.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s3">Injections of WGA-HRP into each of these brain regions, 
+    respectively, resulted in anterograde labeling with specific 
+    distributions and characteristic synaptic organizations in the 
+    MB.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s4">Projections from the rostrodorsal and caudoventral 
+    subiculum terminated in a topographically organized laminar fashion 
+    in the medial mamillary nucleus bilaterally, whereas afferent 
+    projections from the presubiculum and parasubiculum terminated only 
+    in the lateral mamillary nucleus.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s5">Labeled axon terminals which originated from the subicular 
+    complex were characterized by round vesicles and formed asymmetric 
+    synaptic junctions with small-diameter dendrites and dendritic 
+    spines in the medial and lateral mamillary nuclei.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s6">Projections from the prefrontal cortex originated mainly 
+    in the infralimbic area and to a lesser degree in the prelimbic and 
+    anterior cingulate areas.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s7">Injections of tracer into these brain regions gave rise to 
+    dense labeling of axon terminals in the medial mamillary nucleus, 
+    pars medianus, and in the anterior dorsomedial portion of the pars 
+    medialis.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s8">The labeled terminals were characterized by round vesicles 
+    and formed asymmetric synaptic junctions with small-diameter 
+    dendrites and dendritic spines.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s9">Projections from the dorsal tegmental nucleus terminated 
+    in the ipsilateral lateral mamillary nucleus, whereas afferent 
+    projections from the anterior and posterior subnuclei of the 
+    ventral tegmental nucleus terminated topographically in the medial 
+    mamillary nucleus.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s10">The ventral tegmental nucleus, pars anterior projected to 
+    the midline region of the medial nucleus and the dorsolateral and 
+    ventromedial subdivisions of the pars posterior projected to medial 
+    and lateral parts of the medial nucleus, respectively.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s11">In contrast to the synaptic morphology of subicular 
+    complex and medial prefrontal cortex axon terminals in the MB, 
+    labeled axon terminals in the MB which originated from the midbrain 
+    tegmentum were characterized by pleomorphic vesicles and formed 
+    symmetric synaptic junctions with neuronal somata and proximal 
+    dendrites as well as distal dendrites and dendritic spines.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s12">The morphological differences among axon terminals of 
+    afferent projections from the subicular complex and the medial 
+    prefrontal cortex compared to those from the midbrain tegmentum 
+    suggest that the inputs differ in terms of excitatory or inhibitory 
+    effects on MB neurons.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s13">It is proposed that cortical, subcortical, and brainstem 
+    connections of the MB form three distinct neural circuits which may 
+    represent anatomical substrates for different functional 
+    activities.</S>
+  </Abstract>
+
+  <Introduction>
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s14">The mamillary body (MB) has been implicated in a wide 
+    variety of diverse functions for which the neural basis is poorly 
+    understood.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s15">These functions include learning and memory (Rosenstock 
+    et al., &apos;77; Holmes et al., &apos;83a,b; Aggleton and Mishkin, 
+    &apos;85), sexual behavior (Lisk, &apos;66), defensive behavior 
+    (Krieckhaus, &apos;67), the regulation of autonomic activity (Cragg 
+    and Hamlyn, &apos;59; Faiers et al., &apos;76), and the initiation 
+    and propagation of seizure activity (Green and Morin, &apos;53; 
+    Jinnai et al., &apos;69; Mirski and Ferrendelli, &apos;83, 
+    &apos;84, &apos;87).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s16">In keeping with the diversity of functions attributed to 
+    the MB, this structure receives afferent fibers from widespread 
+    regions such as the hippocampal formation (Guillery, &apos;56; 
+    Nauta, &apos;56; Valenstein and Nauta, &apos;59; Raisman et al., 
+    &apos;66; Meibach and Siegel, &apos;75, &apos;77; Swanson and 
+    Cowan, &apos;75, W), prefrontal cort.ex (Saper, personal 
+    communication; Wouterlood et al., &apos;87), and midbrain tegmentum 
+    (Guillery, &apos;56; Cowan et al., &apos;64; Petrovick9, &apos;73, 
+    &apos;85; Hayakawa and Zyo, &apos;84; Liu et al., &apos;84; 
+    Shibata, &apos;87).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s17">The MB also has efferent projections to the anterior 
+    thalamus (Guillery, &apos;57; Cruce, &apos;75; Watanabe and Kawana, 
+    &apos;80; Seki and Zyo, &apos;84) and midbrain (Guillery, &apos;57; 
+    Nauta, &apos;58; Cruce, &apos;77; Liu et al., &apos;84), most of 
+    which arise from neurons with collateral projections to both 
+    thalamus and midbrain (Takeuchi et al., &apos;85).</S>
+    <BR />
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s18">Relatively little is known regarding the synaptic 
+    organization of the MB.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s19">In a recent study, we have described the cytoarchitecture 
+    and normal ultrastructure of the MB in the rat (Allen and Hopkins, 
+    &apos;88).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s20">The purpose of the present study was to identify the 
+    synaptic organization of major afferent systems to the MB in order 
+    to provide an anatomical framework for a better understanding of 
+    its functional roles.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s21">As a necessary prelude to electron microscopic analysis, 
+    the locations of the cells of origin and the distributions of 
+    afferents in the MB were confirmed at the light microscopic level 
+    by using the retrograde and anterograde transport of wheat germ 
+    agglutinin-horseradish peroxidase (WGA-HRP).</S>
+  </Introduction>
+
+  <Methods>
+
+    <S avgH="27" class="methods.heading" format="TimesNewRomanPS-BoldMT"
+     id="s22">MATERIALS AND METHODS</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s23">The subjects were 89 adult male, Wistar rats weighing 
+    250-500 g.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s24">Stereotaxic injections of WGA-HRP were made into the MB, 
+    subicular complex, medial prefrontal cortex, and midbrain.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s25">The atlas of the rat brain by Paxinos and Watson 
+    (&apos;86) was used to determine coordinates for stereotaxic 
+    injections.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s26">The animals were anesthetized with sodium pentobarbital 
+    (40-60 mg/kg IP) for all surgical procedures.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s27">Injections of 0.01-0.12 ~1 of 1-59; aqueous solutions of 
+    WGA-HRP were made by using a 1 p1 Hamilton syringe fitted with a 
+    mineral-oil-filled glass micropipette (tip diameter 40-100 Fm).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s28">To obtain small injections of WGA-HRP, the exact volume 
+    of tracer to be injected followed by a small volume of light 
+    mineral oil were taken up into the glass micropipette.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s29">With this procedure, mineral oil separated the WGA-HRP 
+    from the tip of the micropipette and, thus, diffusion of the 
+    WGA-HRP from the micropipette was reduced as the micropipette was 
+    lowered into the brain.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s30">The micropipette was positioned in the brain for at least 
+    20 minutes while the WGA-HRP was slowly pressure injected.</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s31">Injections of WGA-HRP into brain regions adjacent to the 
+    MB, subicular complex, medial prefrontal cortex, and midbrain, or 
+    into the ventricular system, served as controls for uptake of 
+    tracer by axons of passage or nonspecific uptake of tracer.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s32">For the electron microscopic analysis, controls included 
+    sections from the contralateral side of the MB following unilateral 
+    WGA-HRP injections into the midbrain, sections through the MB which 
+    were not incubated in tetramethyl benzidine (TMB) and 
+    3&apos;,3&apos;-diaminobenzidine (DAB), and sections from the 
+    brains of normal unoperated rats.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s33">This control material ensured that WGA-HRP reaction 
+    products were distinguishable from other electrondense structures 
+    or endogenous peroxidase activity.</S>
+    <BR />
+
+    <S avgH="26" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s34">Light microscopy</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s35">Injections of WGA-HRP were made into the MB (N = 16), 
+    subicular complex (N = 18), medial prefrontal cortex (N = 4), and 
+    midbrain (N = 16).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s36">After 1-3 days, the animals were perfused with 500 ml of 
+    normal saline and 0.5% magnesium chloride followed by 1000 ml of 
+    1.0% paraformaldehyde and 1.25% glutaraldehyde in 0.1 M phosphate 
+    buffer (pH 7.4).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s37">The brains were removed and placed in 30% 
+    sucrose-phosphate buffer overnight before being cut into series of 
+    40 pm-thick sections with a freezing microtome.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s38">The sections were incubated in TMB according to the 
+    method of Mesulam (&apos;78).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s39">One series of sections was counterstained with 1% neutral 
+    red and a second series was left unstained.</S>
+    <BR />
+
+    <S avgH="26" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s40">Electron microscopy</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s41">Injections of WGA-HRP were made into the subicular 
+    complex (N = 12), medial prefrontal cortex (N = 5), and midbrain (N 
+    = 18).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s42">After 1-3 days, the animals were perfused with 300 ml of 
+    0.15 M phosphate buffer (pH 7.4) followed by 1000 ml of 0.5% 
+    paraformaldehyde and 2.5% glutaraldehyde in phosphate buffer (pH 
+    7.4).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s43">The brains were removed and placed in 0.15 M phosphate 
+    buffer prior to cutting 100 pm sections through the region of the 
+    MB with a vibratome (Lancer).</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s44">Two different histochemical procedures were used to study 
+    anterograde and retrograde labeling in the MB at the electron 
+    microscopic level.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s45">One series of sections was treated with DAB (Itoh et al., 
+    &apos;79) as the chromogen and a second series of sections was 
+    treated with TMB (Mesulam, &apos;78) followed by a second 
+    incubation in DAB (Rye et al., &apos;84; Lemann et al., 
+    &apos;85).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s46">Rye et al. (&apos;84) originally showed that 
+    stabilization of the highly sensitive TMB reaction product with a 
+    sequential incubation in DAB was useful for combined use in 
+    anterograde and retrograde tracing and subsequent 
+    immunohistochemical staining procedures.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s47">Lemann et al. (&apos;85) showed that stabilization of TMB 
+    reaction product with a sequential incubation in DAB was also 
+    useful for visualization of anterograde and retrograde labeling at 
+    the electron microscopic level.</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s48">In the present study, the pH of the acetate buffer used 
+    in the TMB incubation medium was adjusted from pH 3.5 up to pH 7.0 
+    in order to ascertain the optimal development of reaction product 
+    along with the best tissue preservation.</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s49">Regions containing the MB were cut into blocks and 
+    processed for electron microscopy according to standard methods 
+    (see Materials and Methods, Allen and Hopkins, &apos;88).</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s50">Ultrathin sections were cut with a diamond knife and 
+    stained with uranyl acetate-lead citrate or left unstained before 
+    examination with a Zeiss EM 10A electron microscope.</S>
+    <BR />
+
+    <S avgH="26" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s51">Nomenclature</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s52">The nomenclature of the subicular complex used in the 
+    present study corresponds with Meibach and Siegel&apos;s (&apos;77) 
+    modifications of the initial descriptions of the hippocampal 
+    formation by Lorente de N6 (&apos;34).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s53">The nomenclature used for the prefrontal cortex follows 
+    that proposed by Krettek and Price (&apos;77).</S>
+    <BR />
+
+    <S avgH="26" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s54">Quantitative analyses</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s55">The diameters of labeled axon terminals were calculated 
+    by taking the mean of the long and short axes of the terminals as 
+    measured directly from electron micrographs (final magnification 
+    ~16,000).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s56">Since the MB is known to have reciprocal projections to 
+    the midbrain (Guillery, &apos;57; Cruce, &apos;77; Takeuchi et al., 
+    &apos;85), estimates of the numbers of labeled and unlabeled 
+    neurons in the medial and lateral mamillary nuclei were made from 1 
+    pm-thick plastic sections (toluidine blue stained) following 
+    injections of WGA-HRP into the midbrain.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s57">Only perikarya which were sectioned through the nucleolus 
+    were counted.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s58">Approximately 1,900 cells were counted from sections cut 
+    from selected rostral to caudal levels of the MB in eight 
+    animals.</S>
+  </Methods>
+
+  <Results>
+
+    <S avgH="26" class="results.heading" format="TimesNewRomanPS-BoldMT"
+     id="s59">RESULTS</S>
+    <BR />
+
+    <TTE><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s60">in the present study , injections of <tracerChemical
+     id="w">wga - hrp</tracerChemical> into <injectionLocation
+     region="MBO">the region of the mb</injectionLocation> resulted in 
+    <labelingDescription density="6" id="1" type="n">dense retrograde 
+    labeling</labelingDescription> in <labelingLocation
+     region="SUB,PL,DTN,VTN">the subicular complex , medial prefrontal 
+    cortex , and dorsal and ventral tegmental nuclei</labelingLocation> 
+    .</S><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s61"><labelingModifier mod="&lt;" objectId="1"
+     subjectId="2">fewer</labelingModifier> <labelingDescription id="2"
+     type="n">retrogradely labeled perikarya</labelingDescription> were 
+    observed in <labelingLocation region="NDB">the nucleus of the 
+    diagonal band of broca</labelingLocation> , and 
+    <labelingDescription density="2" type="n">small numbers of widely 
+    scattered labeled perikarya</labelingDescription> were found in 
+    <labelingLocation region="LHA">the lateral 
+    hypothalamus</labelingLocation> .</S><S avgH="21"
+     class="results.body" format="TimesNewRomanPSMT" id="s62">
+    <labelingDescription density="6" type="f">dense anterograde 
+    labeling</labelingDescription> was observed in <labelingLocation
+     region="ATN, DTN, VTN, TRN, ???">the anterior thalamus , dorsal 
+    and ventral tegmental nuclei , nucleus reticularis tegmenti pontis 
+    , and medial pontine nuclei</labelingLocation> .</S></TTE>
+
+    <BR />
+
+    <S avgH="26" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s63">Merents from the 
+    subicular complex</S>
+    <BR />
+
+    <TTE><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s64">Light microscopy.</S><S avgH="21" class="results.body"
+     format="TimesNewRomanPSMT" id="s65">figure 1 shows the 
+    differential distribution of <labelingDescription type="n">
+    retrogradely labeled neurons</labelingDescription> in the subicular 
+    complex following injections of <tracerChemical abb="w">wga - 
+    hrp</tracerChemical> into <injectionLocation region="MM,LM">the 
+    medial and lateral mamillary nuclei</injectionLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s66">in one of the cases illustrated in figure 1 , the 
+    injection site ( inset ) was centered in <injectionLocation
+     region="MM">the midline of the medial mamillary 
+    nucleus</injectionLocation> and included <injectionSpread
+     region="MM">most of the subnuclei of the medial nucleus 
+    bilaterally</injectionSpread> .</S><S avgH="21" class="results.body"
+     format="TimesNewRomanPSMT" id="s67"><injectionSpread region="LM"
+     yesNo="0">the lateral mamillary nucleus</injectionSpread> was 
+    spared but there was some spread from the principal injection site 
+    dorsally into <injectionSpread region="SUMm">the medial portion of 
+    the supramamillary nucleus</injectionSpread> .</S><S avgH="21"
+     class="results.body" format="TimesNewRomanPSMT" id="s68">
+    <labelingDescription density="6" type="n">large numbers of 
+    retrogradely labeled perikarya</labelingDescription> were found 
+    bilaterally in <labelingLocation region="SUBv,SUBd">all layers of 
+    the dorsal and ventral portions of the subiculum</labelingLocation> 
+    but <labelingDescription density="0" type="n">no labeled 
+    cells</labelingDescription> were found in <labelingLocation
+     region="PRE,PAR">the presubiculum or 
+    parasubiculum</labelingLocation> ( figs . 1 , 2 ) .</S><S avgH="21"
+     class="results.body" format="TimesNewRomanPSMT" id="s69">
+    <labelingDescription density="2" type="n">a few retrogradely 
+    labeled neurons</labelingDescription> were also found in 
+    <labelingLocation region="RSP">the deep layers of the retrosplenial 
+    granular cortex</labelingLocation> ( figs . lb , 2 ) .</S></TTE>
+
+    <TTE><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s70">in the second case illustrated in figure 1 , the 
+    injection site ( inset ) was located mainly in <injectionLocation
+     region="LM">the lateral mamillary nucleus</injectionLocation> with 
+    a slight involvement of <injectionSpread region="MMl">the lateral 
+    part of the medial nucleus</injectionSpread> .</S><S avgH="21"
+     class="results.body" format="TimesNewRomanPSMT" id="s71">in 
+    addition , there was some spread from the injection site dorsally 
+    into <injectionSpread region="SUMl, LHA">the lateral portion of the 
+    supramamillary nucleus and lateral hypothalamus</injectionSpread> 
+    .</S><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s72"><labelingDescription density="5" type="n">numerous 
+    retrogradely labeled perikarya</labelingDescription> were found 
+    mainly ipsilaterally in <labelingLocation region="PRE,PAR">the 
+    presubiculum and parasubiculum</labelingLocation> ( figs . 1 , 3 ) 
+    .</S><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s73"><labelingDescription density="3" type="n">a few labeled 
+    neurons</labelingDescription> were also found in <labelingLocation
+     ipsiContra="i" region="SUBd">ipsilateral dorsal 
+    subiculum</labelingLocation> as well as in <labelingLocation
+     ipsiContra="c" region="PRE">the contralateral 
+    presubiculum</labelingLocation> .</S></TTE>
+
+    <BR />
+
+    <TTE><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s74">following injections of <tracerChemical abb="w">wga - 
+    hrp</tracerChemical> into <injectionLocation region="SUB">the 
+    subicular complex</injectionLocation> , <labelingDescription
+     type="r">anterograde labeling</labelingDescription> was 
+    distributed in distinct horizontal bands or layers across 
+    <labelingLocation region="MBO">the mb</labelingLocation> 
+    bilaterally ( fig . 4 ) .</S><S avgH="21" class="results.body"
+     format="TimesNewRomanPSMT" id="s75">the horizontal layers of 
+    <labelingDescription type="f">anterograde 
+    labeling</labelingDescription> were present primarily in either 
+    <labelingLocation region="MMd, MMi, MMv">dorsal or intermediate or 
+    ventral parts of the medial mamillary nucleus</labelingLocation> 
+    depending on the locations of the injection sites in 
+    <injectionLocation region="SUB">the rostral to caudal parts of the 
+    subicular complex</injectionLocation> .</S></TTE>
+
+    <TTE><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s76">figure 4a - d shows the results from a representative 
+    case in which <tracerChemical abb="w">wga - hrp</tracerChemical> 
+    was injected into <injectionLocation region="SUB" topography="rd">
+    the rostrodorsal portion of the subiculum</injectionLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s77"><labelingDescription>the resultant anterograde 
+    labeling</labelingDescription> was present in <labelingLocation
+     ipsiContra="b" region="MM">the medial mamillary nucleus 
+    bilaterally</labelingLocation> and formed a horizontal layer across 
+    <labelingLocation region="MMm" topography="d">the dorsal portion of 
+    the medial mamillary nucleus</labelingLocation> ( fig . 4b - d ) 
+    .</S><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s78"><labelingDescription type="f">the anterograde 
+    labeling</labelingDescription> was <labelingDescription density="3">
+    moderate to light</labelingDescription> in <labelingLocation
+     region="MM" topography="r">the anterio( fig . 4b ) and middle ( 
+    fig . 4c ) thirds of the medial nucleus</labelingLocation> and 
+    <labelingDescription density="6" type="f">
+    heavy</labelingDescription> in <labelingLocation region="MBO"
+     topography="c">the posterior third of the mb</labelingLocation> ( 
+    fig . 4d ) .</S><S avgH="21" class="results.body"
+     format="TimesNewRomanPSMT" id="s79"><labelingLocation region="MMam"
+    >the anteromedial part of the medial nucleus ( pars medianus 
+    )</labelingLocation> contained <labelingDescription density="2"
+     type="f">only sparse anterograde labeling</labelingDescription> ( 
+    fig . 4b ) .</S></TTE>
+
+    <BR />
+
+    <TTE><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s80">figure 4e - h shows the results from a representative 
+    case in which <tracerChemical abb="w">wga - hrp</tracerChemical> 
+    was injected into <injectionLocation region="SUB" topography="cv">
+    the caudoventral part of the subicular complex</injectionLocation> 
+    which included <injectionSpread region="PRE,PAR">the presubiculum 
+    and parasubiculum</injectionSpread> .</S><S avgH="21"
+     class="results.body" format="TimesNewRomanPSMT" id="s81">in this 
+    case , <labelingDescription density="6" type="f">heavy anterograde 
+    labeling</labelingDescription> was present in <labelingLocation
+     ipsiContra="b" region="MMm" topography="cv">the ventral portion of 
+    the posterior half of the medial mamillary nucleus 
+    bilaterally</labelingLocation> ( fig . 4g , h ) , 
+    <labelingDescription density="4" type="f">whereas moderate to light 
+    anterograde labeling</labelingDescription> was present in 
+    <labelingLocation ipsiContra="b" region="MM">the intermediate and 
+    dorsal parts of the anterior half of the medial nucleus 
+    bilaterally</labelingLocation> ( fig . 4f , g ) .</S></TTE>
+
+    <TTE><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s82"><labelingLocation region="MMme">the pars 
+    medianus</labelingLocation> showed <labelingDescription density="1"
+     type="f">very sparse or no anterograde 
+    labeling</labelingDescription> following injections in 
+    <injectionLocation region="SUB" topography="cv">the caudoventral 
+    part of the subicular complex</injectionLocation> ( fig . 4f ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s83"><labelingDescription>moderate to light anterograde 
+    labeling</labelingDescription> was also found in <labelingLocation
+     ipsiContra="i" region="LM">the lateral mamillary nucleus mainly 
+    ipsilaterally</labelingLocation> ( fig . 4g ) .</S></TTE>
+
+    <TTE><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s84">cases in which the <tracerChemical abb="w">wga - 
+    hrp</tracerChemical> injections into <injectionLocation region="SUB"
+    >the subicular complex</injectionLocation> did not involve 
+    <injectionSpread ipsiContra="PRE,PAR" yesNo="0">the presubiculum 
+    and parasubiculum</injectionSpread> showed 
+    <labelingDescription density="0">no anterograde 
+    labeling</labelingDescription> in <labelingLocation region="LM">the 
+    lateral mamillary nucleus</labelingLocation> ( fig . 4a - d ) 
+    .</S></TTE>
+
+    <BR />
+
+    <TTE>
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s85">Electron microscopy.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s86">following injections of <tracerChemical>
+      wgahrp</tracerChemical> into <injectionLocation>the subicular 
+      complex</injectionLocation> , <labelingDescription>labeled axons 
+      and axon terminals</labelingDescription> were observed in both 
+      <labelingLocation>the medial ( figs . 5 - 8 ) and lateral ( fig . 
+      6c ) mamillary nuclei</labelingLocation> .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s87">when dab was used as the chromogen , 
+      <labelingDescription>labeled axon terminals</labelingDescription> 
+      were characterized by the presence of small amounts of electron - 
+      dense reaction product which were located in membrane - bound , 
+      lysosomal - like structures ( fig . 5 ) .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s88">Identification of <labelingDescription>labeled axon 
+      terminals</labelingDescription> following DAB histochemistry 
+      required careful study of low-contrast, unstained sections with 
+      the electron microscope because in stained sections the DAB 
+      reaction product, although darker, resembled the staining seen in 
+      normal lysosomes.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s89">in contrast , when the tmb - dab procedure was used , 
+      <labelingDescription>amorphous patches of electron - dense 
+      reaction product were found in axons and axon 
+      terminals</labelingDescription> in <labelingLocation>the 
+      mb</labelingLocation> ( figs . 6 - 8 ) .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s90"><labelingDescription>the tmb - dab - labeled axon 
+      terminals</labelingDescription> could be easily identified in 
+      stained sections at low magnifications because the tmb - dab 
+      reaction product formed relatively large complexes and did not 
+      resemble normal tissue organelles ( fig . 7 ) .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s91">There were, however, some disadvantages with the 
+      TMB-DAB procedure in comparison to the DAB procedure.</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s92">for example , tissue elements were less well preserved 
+      and the reaction product was usually so large that it tended to 
+      obscure the contents of <labelingDescription>the axon 
+      terminals</labelingDescription> and the morphology of synaptic 
+      junctions following incubations in <labelingLocation>the standard 
+      tmb incubation medium ( acetate buffer ph 3 . 5 - 4 . 0 
+      )</labelingLocation> ( fig . 6a ) .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s93">These problems were reduced when the pH of the acetate 
+      buffer used in the TMB incubations was made less acidic (pH 
+      4.6-6.0).</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s94"><labelingLocation>this simple modification of the tmb 
+      procedure</labelingLocation> resulted in a noticeable reduction 
+      in the amount of reaction product within the axon terminals , 
+      allowing visualization of synaptic vesicles and the morphology of 
+      synaptic junctions along with a much improved preservation of 
+      neural elements ( fig . 6b - d ) .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s95">The number of <labelingDescription>labeled axon 
+      terminals</labelingDescription> observed at the electron 
+      microscopic level was markedly decreased when the pH of the 
+      acetate buffer was greater than 6.0.</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s96"><labelingDescription>labeled axon 
+      terminals</labelingDescription> from the subicular complex ranged 
+      in diameter from 0 . 8 to 2 . 0 pm , contained mainly round 
+      vesicles ( diameter = 40 nm ) , and formed asymmetric synaptic 
+      junctions mainly with small - diameter ( less than 2 pm ) 
+      dendrites and dendritic spines .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s97"><labelingDescription>individual labeled axon terminals 
+      occasionally</labelingDescription> formed synaptic contacts with 
+      two adjacent dendrites ( fig . 8 ) .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s98"><labelingDescription>labeled axon 
+      terminals</labelingDescription> from the subicular complex only 
+      <labelingDescription>rarely</labelingDescription> contained 
+      pleomorphic vesicles and formed synaptic junctions with neuronal 
+      somata or proximal dendrites .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s99"><labelingDescription>unlabeled axon 
+      terminals</labelingDescription> with pleomorphic vesicles and 
+      symmetric synaptic junctions with neuronal elements were , 
+      nonetheless , readily identified in this material .</S>
+      <BR />
+
+      <S avgH="26" class="results.subtitle"
+       format="TimesNewRomanPS-BoldMT" id="s100"><labelingDescription>
+      many labeled axon terminals</labelingDescription> appeared to 
+      form two separate synaptic specializations on individual 
+      dendritic profiles ( figs . 5 , 6b , d , 8a ) , but serial 
+      sectioning of several labeled merents from the medial prefrontal 
+      cortex</S>
+    </TTE>
+
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s101">Light microscopy.</S>
+    <TTE><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s102">the distributions of <labelingDescription type="n">
+    retrogradely labeled neurons</labelingDescription> in 
+    <labelingLocation region="PL">the medial prefrontal 
+    cortex</labelingLocation> were mapped following injections of 
+    <tracerChemical abb="w">wga - hrp</tracerChemical> into 
+    <injectionLocation region="MBO">the mb</injectionLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s103">figure 9 shows the results from a representative case in 
+    which <labelingDescription type="n">retrograde 
+    labeling</labelingDescription> in <labelingLocation region="PL">the 
+    medial prefrontal cortex</labelingLocation> ( figs . 9a , b , 10 ) 
+    was obtained following an injection of <tracerChemical abb="w">wga 
+    - hrp</tracerChemical> into <injectionLocation region="MM">the 
+    medial mamillary nucleus</injectionLocation> ( fig . 9c ) 
+    .</S></TTE>
+
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s104">terminals revealed that two apparently distinct synaptic 
+    specializations on the same dendrite were parts of a single 
+    continuous synaptic specialization (Fig. 8).</S>
+    <BR />
+
+    <TTE><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s105">the injection was centered in <injectionLocation
+     region="MMm" topography="m">the medial part of the medial 
+    mamillary nucleus</injectionLocation> with some spread of reaction 
+    product laterally into <injectionSpread region="MMm" topography="l">
+    the lateral parts of the medial mamillary nucleus</injectionSpread> 
+    and dorsally into <injectionSpread region="SUMm">the medial portion 
+    of the supramamillary nucleus</injectionSpread> .</S><S avgH="21"
+     class="results.body" format="TimesNewRomanPSMT" id="s106">
+    <labelingDescription type="n">the retrogradely labeled 
+    cells</labelingDescription> in <labelingLocation region="PL">the 
+    prefrontal cortex</labelingLocation> were pyramidal - shaped ( fig 
+    . 9b ) and were distributed from the rostral limit of the 
+    prefrontal cortex to a level just rostral to the genu of the corpus 
+    callosum ( fig . 10 ) .</S><S avgH="21" class="results.body"
+     format="TimesNewRomanPSMT" id="s107"><labelingDescription id="4"
+     type="m">most of the retrogradely labeled 
+    neurons</labelingDescription> were located in <labelingLocation
+     region="ILA" topography="deep">the deep layers of the infralimbic 
+    area</labelingLocation> while <labelingModifier mod="&lt;"
+     objectId="4" subjectId="3">fewer</labelingModifier> 
+    <labelingDescription id="3" type="n">labeled 
+    neurons</labelingDescription> were found rostrally and dorsally in 
+    or near <labelingLocation region="PL-5,ACA-5">layer v of the 
+    prelimbic and anterior cingulate areas</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s108"><labelingDescription density="2" type="n">a few labeled 
+    neurons</labelingDescription> were also found <labelingLocation
+     region="TT" spRln="n" topography="l,v">lateral and ventral to the 
+    tenia tecta</labelingLocation> .</S><S avgH="21"
+     class="results.body" format="TimesNewRomanPSMT" id="s109">some of 
+    <labelingDescription type="n">the latter 
+    cells</labelingDescription> were located in <labelingLocation
+     region="ILC" topography="c">the caudal end of the infralimbic 
+    cortex</labelingLocation> where they approached <labelingLocation
+     region="NDB" spRln="n" topography="r">the rostralmost extent of 
+    the vertical limb of the diagonal band of broca</labelingLocation> 
+    .</S></TTE>
+
+    <BR />
+
+    <TTE><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s110">after unilateral injections of <tracerChemical abb="w">
+    wga - hrp</tracerChemical> into <injectionLocation region="PL/ILA">
+    the medial prefrontal cortex</injectionLocation> ( fig .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s111">iia ) , <labelingDescription density="6" type="nt">dense 
+    anterograde and retrograde labeling</labelingDescription> was 
+    observed in <labelingLocation region="HY" spRln="c,l">the caudal 
+    and lateral hypothalamus</labelingLocation> ( fig . llb , c ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s112">the injection site shown in figure 11a was centered in 
+    <injectionLocation region="ILA/PL" topography="m">the medial wall 
+    of the prefrontal cortex</injectionLocation> with some spread 
+    dorsally into <injectionSpread region="???">the medial precentral 
+    area</injectionSpread> , laterally into <injectionSpread
+     region="CLA,CP">the claustrum and caudate / 
+    putamen</injectionSpread> , and ventrally into <injectionSpread
+     region="TT">the region of the tenia tecta</injectionSpread> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s113"><labelingDescription density="6" type="f">dense 
+    anterograde labeling</labelingDescription> was present along 
+    <labelingLocation region="MM" topography="d">the dorsal margin of 
+    the medial mamillary nucleus</labelingLocation> and in 
+    <labelingLocation ipsiContra="b" region="MMme">the pars medianus 
+    bilaterally</labelingLocation> ( fig . 11b , c ) .</S><S avgH="21"
+     class="results.body" format="TimesNewRomanPSMT" id="s114">
+    <labelingDescription density="6" type="f">dense anterograde 
+    labeling</labelingDescription> was also found in <labelingLocation
+     region="mfb,cp" topography="-,m">the medial forebrain bundle and 
+    the medial part of the cerebral peduncle</labelingLocation> ( fig 
+    .</S><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s115">IlC).</S><S avgH="21" class="results.body"
+     format="TimesNewRomanPSMT" id="s116">in addition , 
+    <labelingDescription type="fn">anterograde and retrograde 
+    labeling</labelingDescription> were found mainly in 
+    <labelingLocation region="SUMl">the lateral portions of the 
+    supramamillary nucleus</labelingLocation> and along 
+    <labelingLocation ipsiContra="i" region="TM" topography="l,v">the 
+    lateral and ventral margins of the mb in the tuberomamillary 
+    nucleus</labelingLocation>, mainly ipsilaterally ( fig . 11b , c ) 
+    .</S></TTE>
+
+    <BR />
+
+    <em-tte><S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s117">Electron microscopy.</S><S avgH="21" class="results.body"
+     format="TimesNewRomanPSMT" id="s118">following <tracerChemical>wga 
+    - hrp</tracerChemical> injections into <injectionLocation>the 
+    medial prefrontal cortex</injectionLocation> , <labelingDescription>
+    electron - dense reaction product was found in axon 
+    terminals</labelingDescription> in <labelingLocation>the medial 
+    mamillary nucleus , pars medianus , and along the dorsal border of 
+    the pars medialis</labelingLocation> ( fig . 12 ) .</S><S avgH="21"
+     class="results.body" format="TimesNewRomanPSMT" id="s119">The 
+    distribution of <labelingDescription>labeled 
+    fibers</labelingDescription> observed in <labelingLocation>the 
+    MB</labelingLocation> at the electron microscopic level 
+    corresponded well with that observed at the light microscopic 
+    level.</S><S avgH="21" class="results.body"
+     format="TimesNewRomanPSMT" id="s120">The labeled synaptic profiles 
+    were usually small (diameter of less than 2 pm), contained mainly 
+    round vesicles, and formed asymmetric synaptic junctions with 
+    smalldiameter dendrites (Fig. 12) and dendritic spines.</S></em-tte>
+
+    <BR />
+
+    <S avgH="26" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s121">Reciprocal connections 
+    between the MB and the midbrain</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s122">Light microscopy.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s123">figure 13 shows the results from a representative case 
+    following an injection of <tracerChemical>wga - 
+    hrp</tracerChemical> into <injectionLocation>the medial mamillary 
+    nucleus</injectionLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s124">the injection site ( fig . 13a ) was centered in 
+    <injectionLocation>the midline of the mb including the pars 
+    medianus and pars medialis rostrally and the pars posterior 
+    caudally</injectionLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s125">there was some spread from the principal injection site 
+    laterally into <injectionSpread>the pars 
+    lateralis</injectionSpread> and dorsally into <injectionSpread>the 
+    medial parts of the supramamillary nucleus</injectionSpread> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s126"><labelingDescription>dense anterograde and retrograde 
+    labeling</labelingDescription> were present in <labelingLocation>
+    the anterior ( fig . 13b ) and posterior ( fig . 13c ) parts of the 
+    ventral tegmental nucleus</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s127"><labelingDescription>the labeled 
+    cells</labelingDescription> in <labelingLocation>the posterior part 
+    of the ventral tegmental nucleus</labelingLocation> formed 
+    <labelingDescription>a compact cluster dorsolaterally with fewer 
+    labeled cells</labelingDescription> being present ventromedially 
+    .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s128"><labelingDescription>dense anterograde 
+    labeling</labelingDescription> was located in <labelingLocation>the 
+    medial pontine nuclei</labelingLocation> ( fig . 13b ) and 
+    <labelingLocation>the dorsomedial part of the nucleus reticularis 
+    tegmenti pontis</labelingLocation> ( fig . 13c ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s129"><labelingDescription>a few retrogradely labeled 
+    cells</labelingDescription> were also located in <labelingLocation>
+    the dorsal and median raphe nuclei , laterodorsal tegmental nucleus 
+    , and the locus coeruleus</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s130">there was <labelingDescription>no anterograde or 
+    retrograde labeling</labelingDescription> in <labelingLocation>the 
+    dorsal tegmental nucleus</labelingLocation> .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s131">after injections of <tracerChemical>wga - 
+    hrp</tracerChemical> into <labelingLocation>the lateral mamillary 
+    nucleus</labelingLocation> ( see fig . 3b ) , <labelingDescription>
+    dense retrograde labeling</labelingDescription> was found in 
+    <labelingLocation>the ventral portion of the dorsal tegmental 
+    nucleus ipsilaterally</labelingLocation> ( fig . 14a ) , and 
+    <labelingDescription>moderate anterograde 
+    labeling</labelingDescription> was located in <labelingLocation>
+    both the dorsal and ventral parts of the dorsal tegmental nucleus 
+    ipsilaterally</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s132">in addition , there was <labelingDescription>heavy 
+    retrograde labeling</labelingDescription> in <labelingLocation>the 
+    ventromedial part of the posterior ventral tegmental 
+    nucleus</labelingLocation> , whereas <labelingLocation>the 
+    dorsolateral part of the ventral tegmental 
+    nucleus</labelingLocation> contained <labelingDescription>only a 
+    few retrogradely labeled cells</labelingDescription> ipsilaterally 
+    ( fig . 14b ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s133">because the ventral tegmental nucleus projects to the 
+    medial nucleus and not the lateral mamillary nucleus ( cowan et al 
+    . , &apos; 64 hayakawa and zyo , &apos; 84 takeuchi et al . , 
+    &apos; 85 shibata , &apos; 87 ) , <labelingDescription>the 
+    retrograde labeling</labelingDescription> seen in <labelingLocation>
+    the ventral tegmental nucleus</labelingLocation> in this case was 
+    due to that part of the <tracerChemical>wga - hrp</tracerChemical> 
+    injection site which involved <injectionLocation>the lateral part 
+    of the medial mamillary nucleus</injectionLocation> ( see fig . 3b 
+    ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s134"><labelingDescription>a few retrogradely labeled 
+    cells</labelingDescription> were also present in <labelingLocation>
+    the anterior ventral tegmental nucleus , dorsal and median raphe 
+    nuclei , laterodorsal tegmental nucleus , and locus 
+    coeruleus</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s135">in addition , <labelingDescription>dense anterograde 
+    labeling</labelingDescription> was observed in <labelingLocation>
+    the dorsomedial part of the nucleus reticularis tegmenti pontis 
+    ipsilaterally and the medial pontine nuclei 
+    bilaterally</labelingLocation> .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s136">the distribution of <labelingDescription>anterograde and 
+    retrograde labeling</labelingDescription> in <labelingLocation>the 
+    mb</labelingLocation> was studied following injections of 
+    <tracerChemical>wga - hrp</tracerChemical> into selected parts of 
+    the midbrain tegmentum .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s137">in figure 15a - d , the injection was centered in 
+    <injectionLocation>the ipsilateral ventral tegmental 
+    nucleus</injectionLocation> and included parts of adjacent 
+    tegmental structures such as <labelingLocation>the dorsal and 
+    median raphe nuclei , the dorsolateral tegmental nucleus , and the 
+    pontine reticular formation</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s138">there was some spread of tracer caudally into 
+    <labelingLocation>the region of the dorsal tegmental 
+    nucleus</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s139"><labelingDescription>dense anterograde and retrograde 
+    labeling</labelingDescription> were present in <labelingLocation>
+    the caudal mb</labelingLocation> ( fig . 15b ) as well as in 
+    <labelingLocation>more rostra1 parts of the medial mamillary 
+    nucleus ipsilaterally</labelingLocation> ( fig . 15c ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s140"><labelingDescription>dense anterograde 
+    labeling</labelingDescription> was also present in <labelingLocation
+    >the midline nucleus pars medianus bilaterally</labelingLocation> ( 
+    fig . 15d ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s141"><labelingDescription>light anterograde and retrograde 
+    labeling</labelingDescription> was present in <labelingLocation>the 
+    ipsilateral lateral mamillary nucleus</labelingLocation> ( fig . 
+    15c ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s142">in addition , <labelingDescription>moderate to light 
+    anterograde and retrograde labeling</labelingDescription> was 
+    present in <labelingLocation>the supramamillary and tuberomamillary 
+    nuclei</labelingLocation> .</S>
+    <BR />
+
+    <S avgH="28" class="results.subtitle" format="ArialMT" id="s143">
+    A</S>
+    <BR />
+
+    <S avgH="28" class="results.subtitle" format="ArialMT" id="s144">B 
+    C D</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s145">following unilateral injections of <tracerChemical>wga - 
+    hrp</tracerChemical> into <injectionLocation>the region of the 
+    anterior ventral tegmental nucleus</injectionLocation> , 
+    <labelingDescription>dense anterograde 
+    labeling</labelingDescription> was observed in <labelingLocation>
+    the pars medianus and midline portions of the pars medialis 
+    bilaterally</labelingLocation> ( fig . 15e ) .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s146"><labelingDescription>moderate to light retrograde 
+    labeling</labelingDescription> was also found in <labelingLocation>
+    the medial and lateral parts of the medial mamillary nucleus and 
+    along the ventral and lateral borders of the lateral 
+    nucleus</labelingLocation> .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s147">following injections of <tracerChemical>wga - 
+    hrp</tracerChemical> into <injectionLocation>the region of the 
+    dorsal tegmental nucleus</injectionLocation> , <labelingDescription>
+    anterograde and retrograde labeling</labelingDescription> was found 
+    in <labelingLocation>the lateral mamillary nucleus 
+    ipsilaterally</labelingLocation> .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s148">Electron microscopy.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s149">following injections of <tracerChemical>
+    wgahrp</tracerChemical> into <injectionLocation>the 
+    midbrain</injectionLocation> , <labelingDescription>anterograde and 
+    retrograde labeling</labelingDescription> was found in 
+    <labelingLocation>the lateral ( figs . 16a , 18b , 19c ) and medial 
+    ( figs . 16b , c , 17 , 18a , 19a , b ) mamillary 
+    nuclei</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s150">when dab was used as the chromogen , <labelingDescription
+    >neuronal somata ( figs . 16a , 18b , c ) , dendrites ( fig . 16c ) 
+    , axons , and axon terminals</labelingDescription> ( fig . 16 ) 
+    contained <labelingDescription>electron - dense reaction product 
+    which</labelingDescription> was located in membrane - bound , 
+    lysosomal like structures .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s151">In contrast to the labeling observed in <labelingLocation
+    >the MB</labelingLocation> following DAB histochemistry, after 
+    sequential TMB-DAB histochemistry the reaction product observed in 
+    neuronal somata (Figs. 17, HA), dendrites, axons, and axon 
+    terminals (Figs. 17B, 19) was characterized by amorphous patches of 
+    electron-dense material that were often associated with intact or 
+    disrupted electron-dense lysosomes.</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s152"><labelingDescription>labeled axon 
+    terminals</labelingDescription> in <labelingLocation>the 
+    mb</labelingLocation> which originated from the midbrain were 
+    usually less than 2 km in diameter , contained mainly pleomorphic 
+    vesicles , and formed symmetric synaptic junctions with labeled and 
+    unlabeled neuronal somata ( figs . 16 , 17 ) , proximal and distal 
+    dendrites ( figs . 16 , 19 ) , and dendritic spines ( fig . 19a ) 
+    .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s153"><labelingDescription>individual labeled terminals 
+    occasionally</labelingDescription> synapsed with two adjacent 
+    dendrites ( fig . 19b ) .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s154"><labelingDescription>only one of 137 labeled axon 
+    terminals</labelingDescription> from the midbrain contained round 
+    vesicles and formed an asymmetric synaptic junction with a dendrite 
+    .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s155">All other axon terminals with round vesicles and 
+    asymmetric synapses were unlabeled and usually synapsed with 
+    dendrites and dendritic spines (cf.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s156">Allen and Hopkins, &apos;88).</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s157">following injections of <tracerChemical>wga - 
+    hrp</tracerChemical> into <injectionLocation>the 
+    midbrain</injectionLocation> , numerous <labelingDescription>
+    retrogradely labeled perikarya</labelingDescription> were found in 
+    <labelingLocation>the lateral mamillary nucleus and each subnucleus 
+    of the medial mamillary nucleus</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s158">estimates of <labelingDescription>the numbers of labeled 
+    and unlabeled perikarya</labelingDescription> in 1 pm - thick 
+    sections revealed that 8090% of the cells in <labelingLocation>the 
+    lateral nucleus and 80 - 9070 of the cells in each subnucleus of 
+    the medial mamillary nucleus</labelingLocation> were 
+    <labelingDescription>retrogradely labeled</labelingDescription> 
+    .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s159"><labelingDescription>electron - dense reaction 
+    product</labelingDescription> was found in both medium - sized ( 
+    diameter 16 . 0 - 30 . 0 pm ) ( fig . 17a ) and small ( diameter 9 
+    . 0 - 15 . 9 pm ) ( fig . 18 ) neurons .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s160"><labelingDescription>labeled 
+    neurons</labelingDescription> in both <labelingLocation>the lateral 
+    and the medial mamillary nuclei</labelingLocation> were 
+    characterized by an eccentrically located nucleus which exhibited 
+    one or more invaginations of the nuclear envelope .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s161">the nucleus usually contained fine chromatin , a 
+    spherical nucleolus , and <labelingDescription>the occasional dense 
+    clump of fine chromatin - like material</labelingDescription> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s162"><labelingDescription>the cytoplasm of labeled 
+    neurons</labelingDescription> contained varying amounts of rough 
+    and smooth endoplasmic reticulum , golgi complexes , mitochon dria 
+    , ribosomes , lysosomes , lipofuscin granules , clear vesicles , 
+    occasional dense - cored vesicles , multivesicular bodies , 
+    vacuoles , microtubules , and neurofilaments .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s163">the cytoplasm of medium - sized cells usually contained 
+    aggregates of rough endoplasmic reticulum which were arranged into 
+    <labelingLocation>parallel arrays of cisternae , while the rough 
+    endoplasmic reticulum of small neurons was sparse and loosely 
+    scattered in the cytoplasm</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s164"><labelingDescription>the plasma membranes of labeled 
+    neurons</labelingDescription> were often closely apposed to those 
+    of other <labelingDescription>unlabeled</labelingDescription> ( fig 
+    . 17a ) and <labelingDescription>labeled 
+    neurons</labelingDescription> ( fig . 18a ) .</S>
+  </Results>
+
+  <Discussion>
+
+    <S avgH="27" class="discussion.heading"
+     format="TimesNewRomanPS-BoldMT" id="s165">DISCUSSION</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s166">The present study shows 1) that the subicular complex, 
+    medial prefrontal cortex, and dorsal and ventral tegmental nuclei 
+    have dense afferent projections to the MB, 2) that the terminal 
+    fields of these afferent projections are highly topographically 
+    organized in the MB, 3) that axon terminals which originate from 
+    the subicular complex and the medial prefrontal cortex are 
+    characterized mainly by round vesicles and form asymmetric synaptic 
+    junctions with small-diameter dendrites and dendritic spines, and 
+    4) that axon terminals which originate from the midbrain tegmentum 
+    are characterized by pleomorphic vesicles and form symmetric 
+    synaptic junctions with neuronal somata and proximal dendrites as 
+    well as distal dendrites and dendritic spines.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s167">An analysis of the patterns of anterograde labeling 
+    observed in the MB in the present study following injections of 
+    tracer into the subicular complex, medial prefrontal cortex, and 
+    midbrain tegmentum indicates that the various subnuclei of the MB 
+    constitute foci for distinct topographically organized neural 
+    circuits with these diverse brain regions.</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s168">Merents from the 
+    subicular complex</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s169">With regard to the cells of origin in the subicular 
+    complex, the present study shows that cells in most layers of the 
+    dorsal and ventral subiculum project to the medial mamillary 
+    nucleus, whereas cells in the deep layers of the presubiculum and 
+    parasubiculum project to the lateral mamillary nucleus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s170">These results confirm and extend findings of Meibach and 
+    Siegel (&apos;77) and Swanson and Cowan (&apos;77).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s171">However, Meibach and Siegel (&apos;77) indicated that 
+    cells in the presubiculum and parasubiculum project to the caudal 
+    part of the medial mamillary nucleus bilaterally, whereas Swanson 
+    and Cowan (&apos;77) reported that anterograde labeling in the 
+    lateral mamillary nucleus was consistently present only when 
+    injections of tracer involved the presubiculum and parasubiculum as 
+    in the present study.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s172">A few cells were retrogradely labeled in the 
+    retrosplenial granular cortex following injections of tracer into 
+    the region of the medial mamillary nucleus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s173">A projection to the MB from the retrosplenial cortex has 
+    not previously been reported in the rat (Meibach and Siegel, 
+    &apos;77; Swanson and Cowan, &apos;77) or cat (Edinger et al., 
+    &apos;79) although a projection from the retrosplenial cortex to 
+    the MB has been identified in the rhesus monkey (Ekstein and 
+    Rosene, &apos;84).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s174">However, it is likely that many, if not all, of the 
+    retrogradely labeled cells observed in the retrosplenial cortex in 
+    the present study project to nuclei adjacent to the MB such as the 
+    supramamillary nucleus and/or tuberomamillary nucleus since 
+    retrogradely labeled cells were also usually present in the 
+    retrosplenial granular cortex when injections spread into these 
+    regions and in control injections in these areas.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s175">We have identified the locations of neurons in different 
+    parts of the subicular complex with projections to the medial and 
+    lateral mamillary nuclei and have confirmed that afferents from the 
+    subicular complex are topographically organized in a laminar 
+    fashion in the medial mamillary nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s176">It is also important to note that the pars medianus 
+    contained only very sparse or no anterograde labeling following 
+    WGA-HRP injections into different parts of the subicular complex, 
+    which confirms the anterograde tracing studies of Guillery 
+    (&apos;56) and Meibach and Siegel (&apos;77).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s177">The latter finding is significant in the context of the 
+    distribution of afferent fibers from the medial prefrontal cortex 
+    and the midbrain tegmentum.</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s178">Merents from the medial 
+    prefrontal cortex</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s179">The present results show that projection neurons in the 
+    medial prefrontal cortex have a dense terminal field in the pars 
+    medianus and the dorsal border of the anterior third of the medial 
+    mamillary nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s180">This finding corresponds with a recent HRP transport 
+    study of Saper (personal communication) and the study of Wouterlood 
+    et al. (&apos;87) in which the anterograde transport of the lectin 
+    Phaseolus uulgaris leucoagglutinin was used.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s181">A comparison of the distributions of afferent fibers in 
+    the medial mamillary nucleus which originate from the medial 
+    prefrontal cortex and the subicular complex indicates that the 
+    terminal fields have very little or no overlap in the MB.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s182">The pars medianus of the medial mamillary nucleus 
+    receives a dense projection from the medial prefrontal cortex and 
+    only a very sparse projection from the subicular complex.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s183">Thus, neural circuits which include the medial 
+    prefrontal cortex and the subicular complex may be segregated in 
+    part on the basis of their connections with different subnuclei of 
+    the medial mamillary nucleus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s184">The idea of separate neural circuits which include 
+    different subnuclei in the MB will be elaborated later in the 
+    discussion.</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s185">Reciprocal connections 
+    between the MB and the midbrain</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s186">The present study is in agreement with previous studies 
+    (Guillery, &apos;57; Cruce, &apos;77; Liu et al., &apos;84; Hopkins 
+    et al., &apos;85; Takeuchi et al., &apos;85) regarding projections 
+    from the lateral and medial mamillary nuclei to the dorsal and 
+    ventral tegmental nuclei, respectively, and projections from both 
+    the lateral and medial mamillary nuclei to the dorsomedial part of 
+    the nucleus reticularis tegmenti pontis and the medial pontine 
+    nuclei.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s187">Furthermore, the present results have confirmed that the 
+    reciprocal connections between the MB and the midbrain tegmentum 
+    are highly topographically organized (Guillery, &apos;57; Cruce, 
+    &apos;77; Takeuchi et al., &apos;85; Shibata, &apos;87).</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s188">Following injections of WGA-HRP into the MB, 
+    retrogradely labeled cells were also present outside the dorsal and 
+    ventral tegmental nuclei in the dorsal and median raphe nuclei, 
+    laterodorsal tegmental nucleus, and locus coeruleus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s189">Retrograde labeling in these regions was most dense when 
+    the MB injections were relatively large and the injection sites 
+    involved structures adjacent to the MB such as the premamillary, 
+    supramamillary, and tuberomamillary nuclei.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s190">Since dense anterograde labeling was found in the dorsal 
+    premamillary nucleus (Shibata, &apos;87) and moderate to light 
+    anterograde labeling was found in the supramamillary and 
+    tuberomamillary nuclei following injections in the midbrain, it is 
+    likely that many of the retrogradely labeled cells located in the 
+    midbrain, other than those found in the dorsal and ventral 
+    tegmental nuclei, have projections to structures adjacent to the 
+    MB.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s191">Based on the present findings and the results of 
+    previous studies (Hayakawa and Zyo, &apos;84; Liu et al., &apos;84; 
+    Petrovickjl, &apos;85; Takeuchi et al., &apos;85; Shibata, 
+    &apos;87), it is apparent that the distributions of afferent fibers 
+    in the MB which originate from different parts of the midbrain tend 
+    to terminate within the boundaries of specific subnuclei in the 
+    MB.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s192">For example, the anterior ventral tegmental nucleus 
+    projects mainly to the pars medianus of the medial mamillary 
+    nucleus bilaterally, the dorsolateral part of the posterior ventral 
+    tegmental nucleus projects to the pars medialis and pars posterior 
+    ipsilaterally, the ventromedial part of the posterior ventral 
+    tegmental nucleus projects to the pars lateralis and pars basalis 
+    ipsilaterally, and the dorsal tegmental nucleus projects to the 
+    lateral mamillary nucleus ipsilaterally.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s193">In contrast, afferents from the subicular complex form 
+    horizontal layers which spread across the medial nucleus 
+    bilaterally.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s194">Thus, the horizontal distribution of afferent fibers 
+    from the subicular complex appears to be orthogonally oriented to 
+    the somewhat subnuclear-specific organization of afferent 
+    projections which originate from the midbrain tegmentum and the 
+    topographical MB projection to the anterior thalamus (Cruce, 
+    &apos;75).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s195">Furthermore, the distribution of afferent fibers in the 
+    pars medianus which originates from the anterior ventral tegmental 
+    nucleus overlaps almost exclusively and precisely with that which 
+    originates from the medial prefrontal cortex.</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s196">Descending projection 
+    neurons in the MB</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s197">The present results show that at least 80-90% of the 
+    cells in the medial and lateral mamillary nuclei were retrogradely 
+    labeled following injections of WGA-HRP into the midbrain.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s198">A similar percentage of perikarya in the MB were 
+    retrogradely labeled following injections of WGA-HRP into the 
+    anterior thalamus (Takeuchi et al., &apos;85).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s199">Furthermore, the ultrastructural features of 
+    retrogradely labeled neurons in the present study were identical to 
+    those of neurons in the MB which were retrogradely labeled after 
+    anterior thalamic injections (Takeuchi et al., &apos;85) and MB 
+    neurons of the normal rat (Allen and Hopkins, &apos;88).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s200">Thus, it is appears likely that most neurons in the 
+    medial and lateral mamillary nuclei project to the midbrain 
+    tegmentum as well as to the anterior thalamus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s201">Strong evidence in support of this finding was provided 
+    in the fluorescent retrograde double-labeling experiments of 
+    Takeuchi et al. (&apos;85) which demonstrated that most cells in 
+    the medial and lateral mamillary nuclei were double labeled 
+    following injections of different fluorescent dyes into the 
+    anterior thalamus and midbrain.</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s202">Fine structure of MB 
+    merents</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s203">The present results provide the first electron 
+    microscopic analysis of the synaptic relationships of axon 
+    terminals in the MB which arise from identified sources.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s204">Based on the present findings, it is apparent that cells 
+    in the MB receive afferent fibers from cortical and brainstem 
+    regions which have different synaptic morphologies and terminate 
+    for the most part on different regions of the neuron (see summary 
+    diagram, Fig. 20).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s205">Afferent fibers which originate in the subicular complex 
+    and the medial prefrontal cortex are characterized by round 
+    vesicles and form asymmetric synaptic junctions (RA) with distal 
+    dendrites and dendritic spines.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s206">In contrast, afferent fibers which originate from the 
+    dorsal and ventral tegmental nuclei are characterized by 
+    pleomorphic vesicles and form symmetric synaptic junctions (PS) 
+    with neuronal somata and proximal dendrites as well as distal 
+    dendrites and dendritic spines.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s207">The distributions of RA and PS synapses observed in the 
+    present study in which histochemical procedures were applied to the 
+    tissues correspond with the distributions of RA and PS synapses 
+    observed in the MB of the normal rat (Allen and Hopkins, 
+    &apos;88).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s208">There is evidence indicating that afferents from the 
+    subicular complex may have an excitatory influence on MB 
+    neurons.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s209">Parmeggiani et al. (&apos;71) and Poletti et al. 
+    (&apos;73) have recorded excitatory responses from mamillary 
+    neurons following stimulation of the hippocampal formation.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s210">In addition, significant decreases in the high-affinity 
+    uptake of the excitatory amino acid glutamate in the MB have been 
+    measured following fornix transection (Storm-Mathisen and Opsahl, 
+    &apos;78; Walaas and Fonnum, &apos;80) and hippocampal extirpation 
+    (Nitsch et al., &apos;79).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s211">Thus, the present findings are consistent with the 
+    possibility that RA synapses which originate from the subicular 
+    complex have an excitatory influence over MB neurons and use 
+    glutamate as a neurotransmitter.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s212">With respect to the effect afferents from the midbrain 
+    tegmentum may have on ME3 neurons, Mugnaini and Oertel (&apos;85) 
+    have indicated that numerous cells in the dorsal and ventral 
+    tegmental nuclei are immunoreactive for an antibody directed 
+    against glutamic acid decarboxylase (GAD), the synthesizing enzyme 
+    for the inhibitory amino acid GABA.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s213">In addition, Mugnaini and Oertel (&apos;85) have also 
+    indicated that moderate to low levels of GAD-positive fibers are 
+    present in the neuropil of the MB.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s214">Immunocytochemical studies in other regions of the 
+    central nervous system (McLaughlin et al., &apos;74; Ribak, 
+    &apos;78; Ribak et al., &apos;79; Somogyi et al., &apos;83) have 
+    indicated that GAD-positive axon terminals are of the PS type.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s215">Furthermore, Andersen et al. (&apos;64), Ito et al. 
+    (&apos;641, and Uchizono (&apos;65, &apos;67) have shown that PS 
+    synapses in the cerebellum are inhibitory.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s216">Thus, it is possible that afferents from the dorsal and 
+    ventral tegmental nuclei may form inhibitory PS-type synapses on 
+    mamillary neurons and may use GABA as a neurotransmitter.</S>
+    <BR />
+
+    <S avgH="26" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s217">Neural circuitry of the 
+    MB</S>
+    <BR />
+
+    <S avgH="27" class="discussion.subtitle" format="ArialMT" id="s218">
+    The medial and lateral mamillary nuclei have complex synaptic 
+    connections with cortical, subcortical, and brainstem 
+    structures.</S>
+    <S avgH="27" class="discussion.subtitle" format="ArialMT" id="s219">
+    From a comparison of the afferent and efferent connections of the 
+    MB, the medial and lateral mamillary nuclei can be seen as 
+    participating in at least PREFRONTAL CORTEX AFFERENTS</S>
+    <BR />
+
+    <S avgH="27" class="discussion.subtitle" format="ArialMT" id="s220">
+    MIDBRAIN AFFERENTS</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s221">three distinct neural circuits with the medial 
+    prefrontal cortex, subicular complex, and the midbrain tegmentum 
+    (Fig. 21).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s222">For example, the medial mamillary nucleus, but not the 
+    lateral nucleus, receives afferent projections from the dorsal and 
+    ventral subiculum, medial prefrontal cortex, and ventral tegmental 
+    nucleus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s223">In contrast, the lateral mamillary nucleus receives 
+    major afferent fibers from the presubiculum, parasubiculum, and 
+    dorsal tegmental nucleus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s224">In addition, the medial nucleus has ascending 
+    projections to the anteromedial and anteroventral thalamic nuclei 
+    and descending projections to the ventral tegmental nucleus 
+    ipsilaterally, whereas the lateral nucleus has ascending 
+    projections to the anterodorsal thalamic nucleus bilaterally and 
+    descending projections to the dorsal tegmental nucleus 
+    ipsilaterally.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s225">Although both the medial and lateral mamillary nuclei 
+    have descending projections to the nucleus reticularis tegmenti 
+    pontis and medial pontine nuclei, these projections appear to be 
+    topographically organized and essentially nonoverlapping in these 
+    regions (Hopkins et al., &apos;85; Aas and Brodal, &apos;88).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s226">Therefore, it may be advantageous to consider the MB as 
+    consisting of a medial and a lateral nucleus which are 
+    distinguished not only by the size and morphology of their cells 
+    (Allen and Hopkins, &apos;88) but also by the anatomical 
+    organization of their afferent and efferent connections.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s227">Furthermore, the connections of the medial mamillary 
+    nucleus are organized such that it contains cell groups which are 
+    part of at least two quite separate neural circuits.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s228">One of these circuits is the so-called &quot;Papez 
+    circuit&quot; (MacLean, &apos;52).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s229">Papez (&apos;37) reasoned that the circuitous flow of 
+    impulses from the cingulate cortex which passes through the 
+    hippocampus, MB, and anterior thalamus before returning to the 
+    cingulate cortex may form an anatomical substrate for emotion.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s230">However, the present results indicate that the pars 
+    medianus is not part of this pathway but instead receives a 
+    substantial input from the medial prefrontal cortex.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s231">Anatomical (Van der Kooy et al., &apos;82; Terreyberry 
+    and Neafsey, &apos;87) and physiological (Burns et al., &apos;83; 
+    Terreyberry and Neafsey, &apos;84; Hurley-Gius and Neafsey, 
+    &apos;86) studies have indicated that the medial prefrontal cortex 
+    may mediate respiratory, cardiovascular, and gastric activity 
+    through its connections with the nucleus of the solitary tract.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s232">In keeping with the separation of neural circuits, the 
+    pars medianus projects to the anteromedial thalamic nucleus (Cruce, 
+    &apos;75; Watanabe and Kawana, &apos;80; Seki and Zyo, &apos;84), 
+    which in turn projects to the medial prefrontal cortex (Beckstead, 
+    &apos;76; Krettek and Price, &apos;77; Divac et al., &apos;78).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s233">Thus, impulses may follow a circuitous route from the 
+    medial prefrontal cortex to the medial mamillary nucleus, to the 
+    anterior thalamus, and back to the medial prefrontal cortex.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s234">Both the &quot;Papez circuit&quot; and the medial 
+    prefrontal cortex-MB circuit are influenced by afferent fibers 
+    which reach the MB from different parts of the ventral tegmental 
+    nucleus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s235">Cells in the anterior ventral tegmental nucleus project 
+    mainly to the pars medianus and cells in the posterior ventral 
+    tegmental nucleus project to the other subnuclei of the medial 
+    mamillary nucleus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s236">Thus, these two neural pathways are also distinguished 
+    by the fact that they each receive afferent information from 
+    different sources in the midbrain.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s237">In addition, other circuits which include the 
+    premamillary, supramamillary, and tuberomamillary nuclei (Allen and 
+    Hopkins, &apos;87) may also play a role or be related to the neural 
+    processing which occurs in MB circuits.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s238">These three different anatomical circuits which include 
+    different subnuclei of the MB maybe reflected in differences among 
+    the functional activities of the medial and lateral mamillary 
+    nuclei as well.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s239">Clinical (Victor et al., &apos;71; Mair et al., 
+    &apos;79) and experimental studies (Rosenstock et al., &apos;77; 
+    Aggleton and Mishkin, &apos;85) have described impairments in 
+    learning and memory in patients or subjects following damage to the 
+    medial mamillary nucleus.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s240">In another aspect, cells in the medial mamillary nucleus 
+    of the normal rat have significantly higher levels of 
+    2-deoxyglucose uptake than cells located in the lateral nucleus 
+    (Sokoloff et al., &apos;77).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s241">Therefore, it appears that cell groups in the medial and 
+    lateral nuclei have differences in functional and metabolic 
+    activities as well as differences in their afferent and efferent 
+    connections such as those elucidated in the present study.</S>
+  </Discussion>
+
+  <Acknowledgements>
+
+    <S avgH="27" class="acknowledgements.heading"
+     format="TimesNewRomanPS-BoldMT" id="s242">ACKNOWLEDGMENTS</S>
+    <BR />
+
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s243">The authors thank K.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s244">McCleave, S.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s245">Morrison, and F.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s246">Sasinek for technical 
+    assistance.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s247">This work was supported by 
+    grant MT-7369 from the Medical Research Council of Canada.</S>
+  </Acknowledgements>
+
+  <References>
+
+    <S avgH="27" class="references.heading"
+     format="TimesNewRomanPS-BoldMT" id="s248">LITERATURE CITED</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s249">Aas, J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s250">-E., and P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s251">Brodal(1988) Demonstration of topographically organized 
+    projections from the hypothalamus to the pontine nuclei: An 
+    experimental anatomical study in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s252">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s253">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s254">Neurol. 268t313-328.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s255">Adams, J.C. (1977) Technical considerations on the use 
+    of horseradish peroxidase as a neuronal marker.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s256">Neuroscience 2141.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s257">Aggleton, J.P., and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s258">Mishkin (1985) Mammillary-body lesions and visual 
+    recognition in monkeys.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s259">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s260">Brain Res. 58t190-197.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s261">Allen, G.V., and D.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s262">Hopkins (1987) Mamillary, supramamillary and 
+    tuberomamillary nuclei: Connections with infralimbic cortex in the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s263">SOC.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s264">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s265">Abstr. 13.1166.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s266">Allen, G.V., and D.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s267">Hopkins (1988) Mamillary body in the rat: A 
+    cytoarchitectonic, Golgi, and ultrastructural study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s268">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s269">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s270">Neurol. 27539-64.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s271">Andersen, P., J.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s272">Eccles, and P.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s273">Voorhoeve (1964) Postsynaptic inhibition of cerebellar 
+    Purkinje cells.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s274">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s275">Neurophysiol. 27;1138-1153.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s276">Beckstead, R.M. (1976) Convergent thalamic and 
+    mesencephalic projections to the anterior medial cortex in the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s277">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s278">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s279">Neurol. 166r403-416.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s280">Burns, S.M., E.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s281">Geisert, S.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s282">Winternitz, and J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s283">Wyss (1983) The role of the cingulate cortex gyrus in 
+    cardiovascular functioning.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s284">Acta Anat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s285">(Basel) 20528A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s286">Cowan, W.M., R.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s287">Guillery, and T.P.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s288">Powell (1964) The origin of the mamillary peduncle and 
+    other hypothalamic connections from the midbrain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s289">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s290">Anat. 98:345-363.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s291">Cragg, B.G., and L.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s292">Hamlyn (1959) Histologic connections and electrical and 
+    autonomic responses evoked by stimulation of the dorsal fornix in 
+    the rabbit.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s293">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s294">Neurol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s295">I:187-213.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s296">Cruce, J.A.F. (1975) An autoradiographic study of the 
+    projections mammillothalamic tract in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s297">Brain Res. 85211-219.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s298">Cruce, J.A.F. (1977) An autoradiographic study of the 
+    descending connections of the mammillary nuclei in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s299">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s300">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s301">Neurol. 176:631-644.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s302">Divac, I., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s303">Kosmal, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s304">Bjorklund, and 0.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s305">Lindvall(l978) Subcortical projections to the prefrontal 
+    cortex in the rat as revealed by the horseradish peroxidase 
+    technique.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s306">Neuroscience 3t785-796.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s307">Ekstein, J.M., and D.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s308">Rosene (1984) Topography of the fornix trajectory and 
+    mamillary body termination of efferenta from the subiculum and 
+    supracallosal subiculum in the Rhesus monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s309">SOC.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s310">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s311">Abstr. 10:331.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s312">Faiers, A.A., F.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s313">Calaresu, and G.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s314">Mogenson (1976) Factors affecting cardiovascular 
+    responses to stimulation of hypothalamus in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s315">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s316">Neurol. 5Zt188-206.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s317">Green, J.D., and F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s318">Morin (1953) Hypothalamic electrical activity and 
+    hypothalamo-cortical relationships.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s319">Am.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s320">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s321">Physiol. 172175-186.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s322">Guillery, R.W. (1956) Degeneration in the 
+    post-commissural fornix and the mamillary peduncle of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s323">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s324">Anat. 90:350-370.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s325">Guillery, R.W. (1957) Degeneration in the hypothalamic 
+    albino rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s326">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s327">Anat. 91:91-115.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s328">Hayakawa, T., and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s329">Zyo (1984) Comparative anatomical study of the 
+    tegmentomamillary projection in some mammals: A horseradish 
+    peroxidase study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s330">Brain Res. 300:335-349.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s331">Holmes, E.J., N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s332">Butters, S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s333">Jacobson, and B.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s334">Stein (1983a) An examination of mammillary-body lesions 
+    on reversal learning sets in monkeys.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s335">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s336">Psychol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s337">II:159-165.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s338">Holmes, E.J., S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s339">Jacobson, B.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s340">Stein, and N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s341">Butters (1983b) Ablations of the mammillary nuclei in 
+    monkeys: Effects on postoperative memory.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s342">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s343">Neurol. 81:97-113.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s344">Hopkins, D.A., M.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s345">Morrison, and G.V.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s346">Allen (1985) Mamillary body projections to precerebellar 
+    relay nuclei in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s347">Anat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s348">Rec. 211:85A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s349">Hurley-Gius, K.M., and E.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s350">Neafsey (1986) The medial frontal cortex and gastric 
+    motility: Microstimulation results and their possible significance 
+    for the overall pattern of organization of the rat frontal and 
+    parietal cortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s351">Brain Res. 365,241-248.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s352">M., M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s353">Yoshida, and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s354">Obata (1964) The cerebellar-evoked monosynaptic 
+    inhibition of Dieters neurones.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s355">Experentia 20:515-516.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s356">Itoh, K., Konishi, S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s357">Nomura, N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s358">Mizuno, Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s359">Nakumura, and T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s360">Sugimoto (1979) Applications of coupled oxidation 
+    reaction to electron microscopic demonstration of horseradish 
+    peroxidase: cobalt-glucose oxidase method.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s361">Brain Res. 175:341-346.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s362">Jinnai, D., H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s363">Mogami, J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s364">Mukawa, Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s365">Iwata, and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s366">Kobayashi (1969) Effects of brainstem lesions on 
+    Metrazol-induced seizures in cats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s367">Electroencephalogr.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s368">Clin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s369">Neurophysiol. 27t404-411.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s370">Krettek, J.E., and J.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s371">Price (1977) The cortical projections of the mediodorsal 
+    nucleus and adjacent thalamic nuclei in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s372">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s373">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s374">Neurol. 171:157-191.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s375">Krieckhaus, E.E. (1967) The mammillary bodies: Their 
+    function and anatomical connections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s376">Acta Biol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s377">Exp. 27:319-337.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s378">Lemann, W., C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s379">Saper, D.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s380">Rye, and B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s381">Wainer (1985) Stabilization of the TMB reaction product 
+    for electron microscopic retrograde and anterograde fiber 
+    tracing.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s382">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s383">Bull. 142777281.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s384">Lisk, R.D. (1966) Increased sexual behavior in the male 
+    rat following lesions in the mammillary region.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s385">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s386">Exp. 2001.161:129-136.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s387">Liu, R., L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s388">Chang, and G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s389">Wickern (1984) The dorsal tegmental axoplasmic transport 
+    study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s390">Brain Res. 310:123-132.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s391">Lorente de Nb, R. (1934) Studies on the structure of the 
+    cerebral cortex. 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s392">Continuation of the study of the Ammonic system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s393">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s394">Psychol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s395">Neurol. 46:133-177.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s396">MacLean, P. (1952) Some psychiatric implications of 
+    physiological studies on frontotemporal portion of limbic system 
+    (visceral brain).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s397">Electroencephalogr.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s398">Clin.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s399">Neurophysiol. 4:407-418.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s400">Mair, W.G.P., E.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s401">Warrington, and L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s402">Weiskrantz (1979) Memory disorder in Korsakoff s 
+    psychosis.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s403">A neuropathological and neuropsychological investigation 
+    of two cases.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s404">Brain 102749-783.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s405">McLaughiin, B.J., J.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s406">Wood, K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s407">Saito, R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s408">Barber, J.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s409">Vaughn, E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s410">Roberts, and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s411">-Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s412">Wu (1974) The fine structural localization of glutamate 
+    decarboxylase in synaptic terminals of rodent cerebellum.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s413">Brain Res. 76:377391.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s414">McLean, J.H., and D.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s415">Hopkins (1982) Ultrastructural identification of labeled 
+    neurons in the dorsal motor nucleus of the vagus nerve following 
+    injections of horseradish peroxidase into the vagus nerve and 
+    brainstem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s416">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s417">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s418">Neurol. 206243-252.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s419">Meibach, R.C., and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s420">Siegel (1975) The origin of fornix fibers which project 
+    to the mammillary bodies in the rat: A horseradish peroxidase 
+    study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s421">Brain Res. 88:518-522.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s422">Meibach, R.C., and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s423">Siegel (1977) Efferent connections of the hippocampal 
+    formation in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s424">Brain Res. 124:197-224.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s425">Mesulam, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s426">-M. (1978) Tetramethyl henzidine for horseradish 
+    peroxidase neurohistochemistry: A non-carcinogenic blue 
+    reaction-product with superior sensitivity for visualizing neural 
+    afferents and efferents.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s427">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s428">Histochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s429">Cytochem. 26:106-117.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s430">Mirski, M.A., and J.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s431">Ferrendelli (1983) Individual and combined effects of 
+    convulsant and anti-convulsant drugs on regional brain 
+    metabolism.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s432">SOC.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s433">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s434">Abstr. 9:627.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s435">Mirski, M.A., and J.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s436">Ferrendelli (1984) Interruption of the mammillothalamic 
+    tracts prevents seizures in guinea pigs.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s437">Science 226:72-74.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s438">Mirski, M.A., and J.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s439">Ferrendelli (1987) Interruption of the connections of 
+    the mamillary bodies protects against generalized pentylenetetrazol 
+    seizures in guinea pigs.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s440">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s441">Neurosci. 7:662-670.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s442">Mugnaini, E., and W.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s443">Oertel(1985) An atlas of the distribution of GABAergic 
+    neurons and terminals in the rat CNS as revealed by GAD 
+    immunohistochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s444">In A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s445">Bjorklund and T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s446">Hokfelt (eds): Handbook of Chemical Neuroanatomy.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s447">Vol. 4 GABA and Neuropeptides in the CNS, Part I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s448">Amsterdam: Elsevier, pp. 406-608.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s449">Nauta, W.J.H. (1956) An experimental study of the fornix 
+    in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s450">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s451">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s452">Neurol. 104247-272.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s453">Nauta, W.J.H. (1958) Hippocampal projections and related 
+    neural pathways to the midbrain in the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s454">Brain 81:319-340.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s455">Nitsch, C., J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s456">-K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s457">Kim, C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s458">Shimada, and Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s459">Okada (1979) Effect of hippocampus extirpation in the 
+    rat on glutamate levels in target structures of hippocampal 
+    efferents.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s460">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s461">Lett. 11295-299.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s462">Papez, J.W. (1937) A proposed mechanism of emotion.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s463">Arch.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s464">Neurol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s465">Psychol. 38:725-744.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s466">Parmeggiani, P.L., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s467">Azzaroni, and P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s468">Lenzi (1971) On the functional significance of the 
+    circuit of Papez.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s469">Brain Res. 30:357-374.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s470">Paxinos, G., and C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s471">Watson (1986) The Rat Brain in Stereotaxic Coordinates 
+    (2nd edition).</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s472">Australia: Academic Press.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s473">Harcourt Brace Jovanovich, Publishers.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s474">Petrovickjr, P. (1973) Note on the connections of Gudden 
+    s tegmental nuclei.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s475">I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s476">Efferent ascending connections in the mammillary 
+    peduncle.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s477">Acta Anat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s478">(Basel) 86.165-190.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s479">Petrovickp, P. (1985) Gudden s tegmental nuclei and 
+    their connections to the hypothalamus and the reticular 
+    formation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s480">I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s481">An experimental study using retrograde labeling with HRP 
+    or iron-dextran in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s482">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s483">Hirnforsch. 26:531-537.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s484">Poletti, C.E., M.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s485">Kinnard, and P.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s486">MacLean (1973) Hippocampal influence on unit activity of 
+    hypothalamus, preoptic region, and basal forebrain in awake, 
+    sitting squirrel monkeys.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s487">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s488">Neurophysiol. 36~308324.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s489">Raisman, G., W.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s490">Cowan, and T.P.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s491">Powell (1966) An experimental analysis of the efferent 
+    projection of the hippocampus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s492">Brain 89:83 -88.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s493">Ribak, C.E. (1978) Aspinous and sparsely-spinous 
+    stellate neurons in visual cortex of rats contain glutamic acid 
+    decarboxylase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s494">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s495">Neurocytol. 7t461479.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s496">Ribak, C.E., A.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s497">Harris, J.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s498">Vaughn, and E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s499">Roberts (1979) Inhibitory, GABAergic nerve terminals 
+    decrease at sites of focal epilepsy.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s500">Science 205:211-214.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s501">Rosenstock, J., T.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s502">Field, and E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s503">Greene (1977) The role of the mammillary bodies in 
+    spatial memory.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s504">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s505">Neurol. 55t340-352.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s506">Rye, D.B., C.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s507">Saper, and B.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s508">Wainer (1984) Stabilization of the tetramethylhenzidine 
+    (TMB) reaction product: Application for retrograde and anterograde 
+    tracing and combination with immunohistochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s509">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s510">Histochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s511">Cytochem. 321145-1153, Seki, M., and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s512">Zyo (1984) Anterior thalamic afferenta from the 
+    mamillary body and the limbic cortex in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s513">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s514">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s515">Neurol. 229 242-256.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s516">Shibata, H. (1987) Ascending projections to the 
+    mammillary nuclei in the rat: A study using retrograde and 
+    anterograde transport of wheat germ agglutinin conjugated to 
+    horseradish peroxidase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s517">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s518">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s519">Neurol. 264,205215.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s520">Sokoloff, L., M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s521">Reivich, C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s522">Kennedy, M.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s523">Des Rosien, C.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s524">Patlak, K.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s525">Pettigrew, 0.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s526">Sakurada, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s527">Shinohara (1977) The [ C] deoxyglncose method for the 
+    measurement of local cerebral glucose utilization: Theory, 
+    procedure, and normal values in the conscious and anesthetized 
+    albino rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s528">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s529">Neurochem. 28:897-916.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s530">Somogyi, P., T.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s531">Freund, J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s532">-Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s533">Wu, and A.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s534">Smith (1983) The section-Golgi impregnation procedure. 
+    2.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s535">Immunocytochemical demonstration of glutamic acid 
+    decarboxylase in Golgi impregnated neurons and in their afferent 
+    boutons in the visual cortex of the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s536">Neuroscience 9~475490.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s537">Storm-Mathisen, J., and M.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s538">Opsahl(1978) Asparate and/or glutamate may be 
+    transmitters in hippocampal efferents to septum and 
+    hypothalamus.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s539">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s540">Lett. 9t65-79.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s541">Swanson, L., and W.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s542">Cowan (1975) Hippocampal-hypothalamic connections: 
+    Origin in subicular cortex, not Ammon s horn.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s543">Science 189:303304.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s544">Swanson, L., and W.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s545">Cowan (1977) An autoradiographic study of the 
+    organization of the efferent connections of the hippocampal 
+    formation in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s546">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s547">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s548">Neurol. 17249-84.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s549">Takeuchi, Y., G.V.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s550">Allen, and D.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s551">Hopkins (1985) Transnuclear transport and axon 
+    collateral projections of the mamillary nuclei in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s552">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s553">Bull. 14t453-468.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s554">Terreyberry, R., and E.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s555">Neafsey (1984) The effects of medial prefrontal cortex 
+    stimulation on heart rate in the awake rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s556">SOC.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s557">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s558">Abstr.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s559">IOt614.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s560">Terreyberry, R., and E.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s561">Neafsey (1987) The rat medial frontal cortex projects 
+    directly to autonomic regions of the brainstem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s562">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s563">Bull. 19t639-649.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s564">Uchizono, K. (1965) Characteristics of excitatory and 
+    inhibitory synapses in the central nervous system of the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s565">Nature 207~642-643.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s566">Uchizono, K. (1967) Synaptic organization of the 
+    Purkinje bellum of the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s567">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s568">Brain Res. 4%-113.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s569">Valenstein, E.S., and W.J.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s570">Nauta (1959) A comparison of the distribution of the 
+    fornix system in the rat, guinea pig, cat, and monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s571">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s572">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s573">Neurol. 113~337-363.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s574">Van der Kooy, D., J.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s575">McGinty, L.Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s576">Koda, C.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s577">Gerfen, and F.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s578">Bloom (1982) Visceral cortex: A direct connection from 
+    prefrontal cortex to the solitary nucleus in rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s579">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s580">Lett. 33:123-127.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s581">Victor, M., R.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s582">Adams, and G.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s583">Collins (1971) The Wernicke-Korsakoff Syndrome.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s584">Contemporary Neurology Series, Vol. 7.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s585">Philadelphia, P A F.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s586">Davies Co.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s587">Walaas, I., and F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s588">Fonnum (1980) Biochemical evidence for glutamate as a 
+    transmitter in hippocampal efferents to the basal forebrain and 
+    hypothalamus in the rat brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s589">Neuroscience 5t1691-1698.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s590">Watanabe, K., and E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s591">Kawana (1980) A horseradish peroxidase study on the 
+    mammillothalamic tract in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s592">Acta Anat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s593">(Basel) 108t394-401.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s594">Wouterlood, F.G., H.W.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s595">Steinbusch, P.G.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s596">Luiten, and J.G.J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s597">Bol (1987) Projection from the prefrontal cortex to 
+    histaminergic cell groups in the posterior hypothalamic region of 
+    the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s598">Anterograde tracing with Phaseolus uulgaris 
+    leucoagglutinin combined with immunocytochemistry of histidine 
+    decarboxylase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s599">Brain Res. 406~330-336.</S>
+  </References>
+
+</File>
+

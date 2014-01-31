@@ -1,0 +1,41 @@
+T20	Binding 43 55	interactions
+T21	Positive_regulation 207 216	important
+T22	Regulation 239 246	control
+T23	Positive_regulation 348 358	expressing
+T24	Gene_expression 615 624	expressed
+T25	Gene_expression 706 716	expressing
+T26	Positive_regulation 962 976	more extensive
+T27	Binding 977 987	footprints
+T28	Entity 1034 1057	3' regulatory sequences
+T29	Regulation 1118 1122	role
+T30	Gene_expression 1164 1174	expression
+T31	Positive_regulation 1405 1416	play a role
+T32	Regulation 1438 1448	regulation
+T33	Gene_expression 1475 1485	expression
+T34	Positive_regulation 1498 1508	increasing
+T35	Binding 1528 1539	interaction
+E1	Binding:T20 Theme:T1
+E2	Positive_regulation:T21 Theme:E3
+E3	Regulation:T22 Theme:T2
+E4	Positive_regulation:T23 Theme:T4
+E5	Positive_regulation:T23 Theme:T3
+E6	Gene_expression:T24 Theme:T8
+E7	Gene_expression:T24 Theme:T7
+E8	Gene_expression:T25 Theme:T10
+E9	Gene_expression:T25 Theme:T9
+E10	Positive_regulation:T26 Theme:E13
+E11	Positive_regulation:T26 Theme:E12
+E12	Binding:T27 Theme:T11 Site:T28
+E13	Binding:T27 Theme:T12 Site:T28
+E14	Regulation:T29 Theme:E15
+E15	Gene_expression:T30 Theme:T13
+E16	Positive_regulation:T31 Theme:E18 Cause:E20
+E17	Positive_regulation:T31 Theme:E18 Cause:E21
+E18	Regulation:T32 Theme:E19
+E19	Gene_expression:T33 Theme:T17
+E20	Positive_regulation:T34 Theme:E22
+E21	Positive_regulation:T34 Theme:E23
+E22	Binding:T35 Theme:T19
+E23	Binding:T35 Theme:T18
+M1	Speculation E16
+M2	Speculation E17

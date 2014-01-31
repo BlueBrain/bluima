@@ -1,0 +1,22 @@
+T12	Positive_regulation 0 19	Positive regulators
+T13	Binding 253 258	binds
+T14	Regulation 764 786	autoregulatory control
+T15	Transcription 797 810	transcription
+T16	Gene_expression 838 848	expression
+T17	Positive_regulation 894 904	maintained
+T18	Positive_regulation 1030 1038	activate
+T19	Positive_regulation 1188 1214	transcriptional activation
+T20	Negative_regulation 1248 1257	decreases
+T21	Positive_regulation 1470 1479	induction
+E1	Positive_regulation:T12 Theme:T1
+E2	Binding:T13 Theme:T3
+E3	Regulation:T14 Theme:E4
+E4	Transcription:T15 Theme:T6
+E5	Gene_expression:T16 Theme:T7
+E6	Positive_regulation:T17 Theme:E5
+E7	Positive_regulation:T18 Theme:T8
+E8	Positive_regulation:T19 Theme:T9
+E9	Negative_regulation:T20 Theme:E8
+E10	Positive_regulation:T21 Theme:T11
+M1	Speculation E6
+M2	Speculation E7

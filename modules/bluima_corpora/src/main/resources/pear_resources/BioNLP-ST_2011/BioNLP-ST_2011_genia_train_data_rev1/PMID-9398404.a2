@@ -1,0 +1,37 @@
+T25	Positive_regulation 479 486	induced
+T26	Binding 528 537	complexes
+T27	Binding 549 556	binding
+T28	Localization 636 648	translocated
+T29	Entity 673 680	nucleus
+T30	Positive_regulation 698 705	treated
+T31	Positive_regulation 862 868	induce
+T32	Entity 869 877	tyrosine
+T33	Phosphorylation 878 893	phosphorylation
+T34	Positive_regulation 922 932	facilitate
+T35	Binding 933 940	binding
+T36	Binding 1051 1069	heterodimerization
+T37	Binding 1106 1117	association
+E1	Positive_regulation:T25 Theme:E3 Cause:T7
+E2	Positive_regulation:T25 Theme:E3 Cause:T8
+E3	Binding:T26 Theme:T9 Theme2:T10
+E4	Binding:T27 Theme:T10
+E5	Binding:T27 Theme:T9
+E6	Localization:T28 Theme:T10 ToLoc:T29
+E7	Localization:T28 Theme:T9 ToLoc:T29
+E8	Positive_regulation:T30 Theme:E6 Cause:T11
+E9	Positive_regulation:T30 Theme:E7 Cause:T11
+E10	Positive_regulation:T31 Theme:E14 Cause:T15
+E11	Positive_regulation:T31 Theme:E14 Cause:T16
+E12	Positive_regulation:T31 Theme:E15 Cause:T16
+E13	Positive_regulation:T31 Theme:E15 Cause:T15
+E14	Phosphorylation:T33 Theme:T17 Site:T32
+E15	Phosphorylation:T33 Theme:T18 Site:T32
+E16	Positive_regulation:T34 Theme:E21 Cause:T15
+E17	Positive_regulation:T34 Theme:E20 Cause:T15
+E18	Positive_regulation:T34 Theme:E20 Cause:T16
+E19	Positive_regulation:T34 Theme:E21 Cause:T16
+E20	Binding:T35 Theme:T17
+E21	Binding:T35 Theme:T18
+E22	Binding:T36 Theme:T21 Theme2:T22
+E23	Binding:T37 Theme:T21
+E24	Binding:T37 Theme:T22

@@ -1,0 +1,42 @@
+T15	Phosphorylation 0 15	Phosphorylation
+T16	Negative_regulation 25 33	inhibits
+T17	Binding 34 41	binding
+T18	Entity 54 72	cytoplasmic domain
+T19	Binding 128 133	binds
+T20	Entity 146 164	cytoplasmic domain
+T21	Phosphorylation 191 205	phosphorylated
+T22	Entity 224 239	serine residues
+T23	Positive_regulation 241 245	when
+T24	Positive_regulation 258 271	overexpressed
+T25	Gene_expression 258 271	overexpressed
+T26	Phosphorylation 535 550	phosphorylation
+T27	Regulation 583 590	effects
+T28	Binding 624 628	bind
+T29	Entity 685 703	cytoplasmic domain
+T30	Binding 704 714	interacted
+T31	Phosphorylation 735 754	underphosphorylated
+T32	Negative_regulation 735 754	underphosphorylated
+T33	Positive_regulation 806 814	enhanced
+T34	Binding 819 826	binding
+T35	Phosphorylation 885 900	phosphorylation
+T36	Regulation 998 1007	influence
+T37	Binding 1023 1034	interaction
+E1	Phosphorylation:T15 Theme:T1
+E2	Negative_regulation:T16 Theme:E3 Cause:E1
+E3	Binding:T17 Theme:T1 Theme2:T2 Site2:T18
+E4	Binding:T19 Theme:T3 Theme2:T4 Site2:T20
+E5	Phosphorylation:T21 Theme:T3 Site:T22
+E6	Positive_regulation:T23 Theme:E5 Cause:E7
+E7	Positive_regulation:T24 Theme:E8
+E8	Gene_expression:T25 Theme:T3
+E9	Phosphorylation:T26 Theme:T6
+E10	Regulation:T27 Theme:E11 Cause:E9
+E11	Binding:T28 Theme:T6 Theme2:T7
+E12	Binding:T30 Theme:T8 Theme2:T9 Site:T29
+E13	Phosphorylation:T31 Theme:T9
+E14	Negative_regulation:T32 Theme:E13
+E15	Positive_regulation:T33 Theme:E16
+E16	Binding:T34 Theme:T10 Theme2:T11
+E17	Phosphorylation:T35 Theme:T12
+E18	Regulation:T36 Theme:E19 Cause:E17
+E19	Binding:T37 Theme:T13 Theme2:T14

@@ -1,0 +1,46 @@
+*	Equiv T13 T14
+*	Equiv T10 T9
+*	Equiv T3 T2
+*	Equiv T22 T23
+T33	Positive_regulation 71 81	activation
+T34	Gene_expression 392 402	expression
+T35	Positive_regulation 403 411	promotes
+T36	Entity 412 422	N-terminal
+T37	Phosphorylation 423 438	phosphorylation
+T38	Protein_catabolism 443 454	degradation
+T39	Positive_regulation 565 574	activates
+T40	Positive_regulation 676 689	phosphorylate
+T41	Phosphorylation 676 689	phosphorylate
+T42	Entity 719 748	N-terminal regulatory serines
+T43	Positive_regulation 752 760	response
+T44	Positive_regulation 925 933	activate
+T45	Gene_expression 1063 1073	expressing
+T46	Positive_regulation 1088 1100	Transfection
+T47	Gene_expression 1088 1100	Transfection
+T48	Positive_regulation 1422 1429	leading
+T49	Positive_regulation 1454 1464	activation
+E1	Positive_regulation:T33 Theme:T3
+E2	Positive_regulation:T33 Theme:T4
+E3	Gene_expression:T34 Theme:T6
+E4	Positive_regulation:T35 Theme:E6 Cause:E3
+E5	Positive_regulation:T35 Theme:E7 Cause:E3
+E6	Phosphorylation:T37 Theme:T7 Site:T36
+E7	Protein_catabolism:T38 Theme:T7
+E8	Positive_regulation:T39 Theme:T11 Cause:T8
+E9	Positive_regulation:T39 Theme:T10 Cause:T8
+E10	Positive_regulation:T40 Theme:E11 Cause:T10
+E11	Phosphorylation:T41 Theme:T12 Site:T42
+E12	Positive_regulation:T43 Theme:E11
+E13	Positive_regulation:T44 Theme:T17 Cause:T15
+E14	Positive_regulation:T44 Theme:T16 Cause:T15
+E15	Gene_expression:T45 Theme:T18
+E16	Positive_regulation:T46 Theme:E17
+E17	Gene_expression:T47 Theme:T20
+E18	Gene_expression:T47 Theme:T19
+E19	Positive_regulation:T46 Theme:E18
+E20	Positive_regulation:T48 Theme:E22
+E21	Positive_regulation:T48 Theme:E23
+E22	Positive_regulation:T49 Theme:T25
+E23	Positive_regulation:T49 Theme:T26
+M1	Negation E13
+M2	Negation E14

@@ -1,0 +1,24 @@
+*	Equiv T5 T6
+T25	Positive_regulation 0 11	Cooperation
+T26	Entity 15 28	binding sites
+T27	Positive_regulation 78 91	up-regulation
+T28	Entity 109 126	germline promoter
+T29	Positive_regulation 418 426	inducing
+T30	Binding 431 442	interaction
+T31	Binding 813 827	complex formed
+T32	Regulation 1334 1343	dependent
+T33	Positive_regulation 1591 1600	conferred
+T34	Positive_regulation 1606 1618	inducibility
+T35	Positive_regulation 1689 1695	effect
+T36	Binding 1790 1795	bound
+E1	Positive_regulation:T25 Theme:E2 Cause:T1 CSite:T26
+E2	Positive_regulation:T27 Theme:T3 Cause:T2 Site:T28
+E3	Positive_regulation:T29 Theme:E4 Cause:T4
+E4	Binding:T30 Theme:T5
+E5	Binding:T31 Theme:T9 Theme2:T10
+E6	Regulation:T32 Theme:T17
+E7	Positive_regulation:T33 Theme:E8
+E8	Positive_regulation:T34 Theme:T21
+E9	Positive_regulation:T35 Theme:E8
+E10	Binding:T36 Theme:T23
+M1	Negation E9

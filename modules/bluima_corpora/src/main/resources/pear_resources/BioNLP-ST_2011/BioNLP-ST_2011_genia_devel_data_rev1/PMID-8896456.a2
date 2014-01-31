@@ -1,0 +1,20 @@
+T18	Binding 101 106	binds
+T19	Gene_expression 158 168	Expression
+T20	Positive_regulation 241 252	upregulated
+T21	Binding 838 842	bind
+T22	Negative_regulation 1063 1082	negatively regulate
+T23	Entity 1105 1113	promoter
+T24	Positive_regulation 1126 1133	induced
+T25	Entity 1146 1154	promoter
+T26	Positive_regulation 1164 1172	requires
+E1	Binding:T18 Theme:T3
+E2	Binding:T18 Theme:T5
+E3	Binding:T18 Theme:T4
+E4	Gene_expression:T19 Theme:T6
+E5	Positive_regulation:T20 Theme:E4 Cause:T7
+E6	Binding:T21 Theme:T13
+E7	Binding:T21 Theme:T11
+E8	Binding:T21 Theme:T12
+E9	Negative_regulation:T22 Theme:T15 Site:T23
+E10	Positive_regulation:T24 Theme:T17 Cause:T16 Site:T25
+E11	Positive_regulation:T26 Theme:E10

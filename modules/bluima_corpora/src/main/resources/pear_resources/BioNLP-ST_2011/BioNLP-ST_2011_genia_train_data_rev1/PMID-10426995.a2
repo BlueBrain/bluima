@@ -1,0 +1,18 @@
+*	Equiv T2 T1
+T6	Gene_expression 178 188	production
+T7	Positive_regulation 302 308	induce
+T8	Gene_expression 315 325	production
+T9	Gene_expression 475 485	production
+T10	Positive_regulation 591 601	stimulated
+T11	Regulation 606 615	dependent
+T12	Transcription 616 629	transcription
+T13	Positive_regulation 633 642	inducible
+E1	Gene_expression:T6 Theme:T2
+E2	Positive_regulation:T7 Theme:E3
+E3	Gene_expression:T8 Theme:T3
+E4	Gene_expression:T9 Theme:T4
+E5	Positive_regulation:T10 Theme:E7
+E6	Regulation:T11 Theme:E7
+E7	Transcription:T12 Theme:T5
+E8	Positive_regulation:T13 Theme:T5
+M1	Speculation E2

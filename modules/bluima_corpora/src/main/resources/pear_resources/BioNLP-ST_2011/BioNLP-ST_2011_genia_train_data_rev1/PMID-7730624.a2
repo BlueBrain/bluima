@@ -1,0 +1,13 @@
+*	Equiv T1 T2
+*	Equiv T11 T12
+T13	Binding 31 38	binding
+T14	Negative_regulation 466 475	decreased
+T15	Entity 505 513	promoter
+T16	Binding 735 740	binds
+T17	Entity 793 800	element
+T18	Binding 900 907	binding
+E1	Binding:T13 Theme:T1 Theme2:T3
+E2	Negative_regulation:T14 Theme:T5 Site:T15
+E3	Binding:T16 Theme:T10 Site:T17
+E4	Binding:T18 Theme:T11
+M1	Negation E3

@@ -1,0 +1,23 @@
+T7	Regulation 144 151	altered
+T8	Phosphorylation 166 181	phosphorylation
+T9	Protein_catabolism 186 197	degradation
+T10	Protein_catabolism 1046 1053	degrade
+T11	Positive_regulation 1126 1129	due
+T12	Negative_regulation 1137 1149	interference
+T13	Phosphorylation 1159 1174	phosphorylation
+T14	Regulation 1200 1203	due
+T15	Phosphorylation 1318 1333	phosphorylation
+T16	Protein_catabolism 1352 1363	degradation
+E1	Regulation:T7 Theme:E4
+E2	Regulation:T7 Theme:E3
+E3	Phosphorylation:T8 Theme:T1
+E4	Protein_catabolism:T9 Theme:T1
+E5	Protein_catabolism:T10 Theme:T4
+E6	Positive_regulation:T11 Theme:E5 Cause:E7
+E7	Negative_regulation:T12 Theme:E8
+E8	Phosphorylation:T13 Theme:T5
+E9	Regulation:T14 Theme:E5
+E10	Phosphorylation:T15 Theme:T6
+E11	Protein_catabolism:T16 Theme:T6
+M1	Negation E5
+M2	Negation E9

@@ -1,0 +1,36 @@
+One may also propose other alternating optimization procedures. For example, in the first
+step, we may fix and optimize with respect to (u, v).
+In the alternating optimization procedure outlined above, with a convex choice of L,
+the first step becomes a convex optimization problem. There are many well-established
+methods for solving it (as mentioned earlier, we use SGD for its simplicity). We shall focus
+on the second step, which is crucial for the derivation of our method. It is easy to see that
+the optimization of (6) with fixed {u`} = {u^`} is equivalent to the following problem:
+[{v^ }, ^ ] = arg min u^ - T v 2, s.t. T = I . (7)
+` ` ` ` 2 h×h
+{v`},
+`
+
+
+Using simple linear algebra, we know that with fixed ,
+
+min u^ - T v 2 = u^ 2 - u^ 2,
+` `2 `2 `2
+v`
+
+
+
+and the optimal value is achieved at v^` = u^`. Now by eliminating v` and use the above
+equality, we can rewrite (7) as
+
+
+m
+
+^ = arg max u^ 2, s.t. T = I .
+` ` 2 h×h
+`=1
+
+
+Let U = [ 1u^1, . . . , mu^m] be an p × m matrix, we have
+
+^ = arg max tr( UUT T ), s.t. T = I ,
+h×h

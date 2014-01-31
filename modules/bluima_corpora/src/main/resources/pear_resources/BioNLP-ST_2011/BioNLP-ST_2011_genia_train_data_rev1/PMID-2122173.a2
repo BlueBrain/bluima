@@ -1,0 +1,4 @@
+T3	Regulation 358 368	regulation
+T4	Gene_expression 376 386	production
+E1	Regulation:T3 Theme:E2
+E2	Gene_expression:T4 Theme:T2

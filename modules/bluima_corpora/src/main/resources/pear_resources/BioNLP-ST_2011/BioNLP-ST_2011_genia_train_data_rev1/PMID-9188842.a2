@@ -1,0 +1,21 @@
+T5	Negative_regulation 12 26	downregulation
+T6	Gene_expression 65 75	expression
+T7	Regulation 137 150	dysregulation
+T8	Localization 154 166	translocated
+T9	Regulation 665 673	involved
+T10	Regulation 677 689	deregulation
+T11	Regulation 717 723	result
+T12	Localization 727 740	translocation
+T13	Entity 750 759	IgH locus
+T14	Gene_expression 1528 1538	expression
+T15	Negative_regulation 1638 1652	down-regulated
+E1	Negative_regulation:T5 Theme:E2
+E2	Gene_expression:T6 Theme:T1
+E3	Regulation:T7 Theme:E4
+E4	Localization:T8 Theme:T2
+E5	Regulation:T9 Theme:E6
+E6	Regulation:T10 Theme:T3
+E7	Regulation:T11 Theme:E6 Cause:E8
+E8	Localization:T12 Theme:T3 ToLoc:T13
+E9	Gene_expression:T14 Theme:T4
+E10	Negative_regulation:T15 Theme:E9

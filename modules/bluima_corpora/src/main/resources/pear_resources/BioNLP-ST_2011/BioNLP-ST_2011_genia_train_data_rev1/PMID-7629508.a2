@@ -1,0 +1,10 @@
+*	Equiv T3 T4
+T20	Binding 576 581	binds
+T21	Gene_expression 660 672	Coexpression
+T22	Positive_regulation 826 836	stimulates
+T23	Binding 844 851	binding
+E1	Binding:T20 Theme:T6
+E2	Gene_expression:T21 Theme:T8
+E3	Gene_expression:T21 Theme:T9
+E4	Positive_regulation:T22 Theme:E5 Cause:T11
+E5	Binding:T23 Theme:T12

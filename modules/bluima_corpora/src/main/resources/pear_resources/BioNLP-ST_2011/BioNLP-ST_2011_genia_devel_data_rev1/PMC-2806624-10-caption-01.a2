@@ -1,0 +1,57 @@
+T55	Regulation 20 28	involved
+T56	Gene_expression 36 45	induction
+T57	Transcription 100 104	mRNA
+T58	Positive_regulation 105 114	induction
+T59	Transcription 370 374	mRNA
+T60	Positive_regulation 375 384	induction
+T61	Negative_regulation 450 457	reduced
+T62	Positive_regulation 470 478	mediated
+T63	Negative_regulation 487 496	knockdown
+T64	Negative_regulation 586 591	siRNA
+T65	Transcription 738 742	mRNA
+T66	Negative_regulation 746 760	down-regulated
+T67	Positive_regulation 789 797	mediated
+T68	Negative_regulation 798 807	knockdown
+T69	Negative_regulation 941 946	siRNA
+T70	Gene_expression 1133 1142	induction
+T71	Negative_regulation 1162 1169	reduced
+T72	Positive_regulation 1182 1190	mediated
+T73	Negative_regulation 1199 1208	knockdown
+T74	Negative_regulation 1276 1281	siRNA
+E1	Regulation:T55 Theme:E2 Cause:T1
+E3	Regulation:T55 Theme:E2 Cause:T2
+E2	Gene_expression:T56 Theme:T3
+E4	Transcription:T57 Theme:T4
+E5	Transcription:T57 Theme:T5
+E6	Transcription:T57 Theme:T6
+E7	Positive_regulation:T58 Theme:E4 Cause:T12
+E8	Positive_regulation:T58 Theme:E5 Cause:T12
+E9	Positive_regulation:T58 Theme:E6 Cause:T12
+E10	Transcription:T59 Theme:T14
+E11	Positive_regulation:T60 Theme:E10 Cause:T18
+E12	Negative_regulation:T61 Theme:E11 Cause:E13
+E14	Negative_regulation:T61 Theme:E11 Cause:E15
+E16	Positive_regulation:T62 Theme:E13
+E17	Positive_regulation:T62 Theme:E15
+E13	Negative_regulation:T63 Theme:T20
+E15	Negative_regulation:T63 Theme:T21
+E18	Negative_regulation:T64 Theme:T23
+E19	Negative_regulation:T64 Theme:T24
+E20	Transcription:T65 Theme:T30
+E21	Negative_regulation:T66 Theme:E20 Cause:E22
+E23	Negative_regulation:T66 Theme:E20 Cause:E24
+E25	Positive_regulation:T67 Theme:E22
+E26	Positive_regulation:T67 Theme:E24
+E22	Negative_regulation:T68 Theme:T31
+E24	Negative_regulation:T68 Theme:T32
+E27	Negative_regulation:T69 Theme:T38
+E28	Negative_regulation:T69 Theme:T39
+E29	Gene_expression:T70 Theme:T42
+E30	Negative_regulation:T71 Theme:E29 Cause:E31
+E32	Negative_regulation:T71 Theme:E29 Cause:E33
+E34	Positive_regulation:T72 Theme:E31
+E35	Positive_regulation:T72 Theme:E33
+E31	Negative_regulation:T73 Theme:T43
+E33	Negative_regulation:T73 Theme:T44
+E36	Negative_regulation:T74 Theme:T46
+E37	Negative_regulation:T74 Theme:T47

@@ -1,0 +1,410 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<date type="published" when="1997">1997 . 1982 . 1994 . 1993 . 1996 . 1991</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">28</forename>
+								<forename type="middle">J C</forename>
+								<surname>Magee</surname>
+							</persName>
+							<affiliation>
+								<orgName type="institution">New York Avenue NW</orgName>
+								<address>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">R</forename>
+								<forename type="middle">B</forename>
+								<surname>Avery</surname>
+							</persName>
+							<affiliation>
+								<orgName type="institution">New York Avenue NW</orgName>
+								<address>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<forename type="middle">R</forename>
+								<surname>Christie</surname>
+							</persName>
+							<affiliation>
+								<orgName type="institution">New York Avenue NW</orgName>
+								<address>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">D</forename>
+								<surname>Johnston</surname>
+							</persName>
+							<affiliation>
+								<orgName type="institution">New York Avenue NW</orgName>
+								<address>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">B</forename>
+								<surname>Christie</surname>
+							</persName>
+							<affiliation>
+								<orgName type="institution">New York Avenue NW</orgName>
+								<address>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">C</forename>
+								<surname>Colbert</surname>
+							</persName>
+							<affiliation>
+								<orgName type="institution">New York Avenue NW</orgName>
+								<address>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">P</forename>
+								<forename type="middle">R</forename>
+								<surname>Montague</surname>
+							</persName>
+							<affiliation>
+								<orgName type="institution">New York Avenue NW</orgName>
+								<address>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Learn. Mem. Pflugers Arch. J. Neurophysiol. J. Neurosci. Methods</title>
+						<imprint>
+							<biblScope type="vol">2755297213</biblScope>
+							<biblScope type="issue">30</biblScope>
+							<biblScope type="fpage">27</biblScope>
+							<date type="published" when="1997">1997 . 1982 . 1994 . 1993 . 1996 . 1991</date>
+						</imprint>
+					</monogr>
+					<idno type="doi">10.1126/science.275.5297.213</idno>
+					<note>version of this article at: including high-resolution figures, can be found in the online Updated information and services,-list-1 , 6 of which can be accessed free: cites 16 articles This article 100 articles hosted by HighWire Press; see: cited by This article has been Neuroscience subject collections: This article appears in the following registered trademark of AAAS. is a Science 1997 by the American Association for the Advancement of Science; all rights reserved. The title Copyright American Association for the Advancement of Science, (print ISSN 0036-8075; online ISSN 1095-9203) is published weekly, except the last week in December, by the Science</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<front>
+			<div type="abstract">
+				<head>Abstract</head>
+<p>275 Science et al. Henry Markram and EPSPs Regulation of Synaptic Efficacy by Coincidence of Postsynaptic APs This copy is for your personal, non-commercial use only. clicking here. colleagues, clients, or customers by , you can order high-quality copies for your If you wish to distribute this article to others here. following the guidelines can be obtained by Permission to republish or repurpose articles or portions of articles): February 8, 2013 www.sciencemag.org (this information is current as of The following resources related to this article are available online at for helpful discussions and comments on the manu-script. Supported by NIH grants NS09482 (J.C.M.) and NS11535, MH44754, and MH48432 (D.J.).</p>
+			</div>
+		</front>
+		<body>
+<p>17 September 1996; accepted 5 November 1996</p>
+<p>Regulation of Synaptic Efficacy by Coincidence of Postsynaptic APs and EPSPs</p>
+<p>Henry Markram,* Joachim Lü bke, Michael Frotscher, Bert Sakmann</p>
+<p>Activity-driven modifications in synaptic connections between neurons in the neocortex may occur during development and learning. In dual whole-cell voltage recordings from pyramidal neurons, the coincidence of postsynaptic action potentials (APs) and unitary excitatory postsynaptic potentials (EPSPs) was found to induce changes in EPSPs. Their average amplitudes were differentially up-or down-regulated, depending on the precise timing of postsynaptic APs relative to EPSPs. These observations suggest that APs propagating back into dendrites serve to modify single active synaptic connections, depending on the pattern of electrical activity in the pre-and postsynaptic neurons.</p>
+<p>Repetitive activation of neuronal circuits</p>
+<p>can induce long-term changes in subsequent responses generated by synapses in many regions of the brain, and such plasticity of synaptic connections is regarded as a cellular basis for developmental and learning-related changes in the central nervous system (1) (2). The actual triggers for synaptic modifications between two neurons are, however, unclear (3). Postsynaptic APs are initiated in the axon and then propagate back into the dendritic arbor of neocortical pyramidal neurons (4), evoking an activitydependent dendritic Ca 2񮽙 influx (5) that could be a signal to induce modifications at the dendritic synapses that were active around the time of AP initiation. To test this hypothesis, we made dual whole-cell voltage recordings from neighboring, thick, tufted pyramidal neurons in layer 5 of the neocortex (Fig. 1A) for which the dendritic locations of synaptic contacts were known (6) (7), and we investigated whether the postsynaptic AP could induce changes in unitary EPSP amplitudes. When depolarizing current was injected only into the cell body of a presynaptic neuron to evoke a burst of APs, the resulting high-frequency train of subthreshold unitary EPSPs (Fig. 1B) failed to trigger changes in the average EPSP amplitudes (Fig. 1D), possibly because EPSP amplitudes decreased rapidly and a sufficiently large postsynaptic depolarization was not reached (3). When the postsynaptic neuron</p>
+<p>was further depolarized by current injection to produce a burst of APs during the EPSPs, then a persistent increase (񮽙20%) was observed in 8 of 11 connections (Fig. 1, C and D; 94 񮽙 23% increase) (8) (9). To establish whether the occurrence of postsynaptic APs during EPSPs was indeed critical for the induction of the increase in EPSP amplitude, a number of control experiments were performed. Pairing of individual postsynaptic APs with EPSPs and without a sustained postsynaptic depolarization (Fig. 2A) induced a persistent increase in EPSP amplitudes (38 񮽙 9%; n 񮽙 21; 20 Hz; Fig. 2B) that was not associated with measurable changes in input resistance, current–AP discharge relation, or AP threshold . Neither bursts of postsynaptic APs alone nor high-frequency bursts of presynaptic APs induced persistent changes in EPSP amplitudes (Fig. 2B). The increase in</p>
+<p>H. Markram and B. Sakmann, Max-Planck-Institut fü r Medizinische Forschung, Abteilung Zellphysiologie, Jahnstraße 29, D-69120 Heidelberg, Germany. J. Lü bke and M. Frotscher, Anatomisches Institut der Albert-Ludwigs Universitä t Freiburg, Albertstraße 17, D-79104 Freiburg, Germany.</p>
+<p>* To whom correspondence should be addressed at the Department of Neurobiology, Weizmann Institute for Science , Rehovot, 76100, Israel. E-mail: bnmark@weizmann. weizmann.ac.il crease in EPSP amplitude, pairing of sustained depolarization of the postsynaptic neuron to below the threshold for AP initiation or to between 񮽙30 and 񮽙10 mV (in</p>
+			<table>
+				<head>Fig. 1. Simultaneous pre-and postsynaptic activity in synaptically coupled neurons induces an increase in EPSPs. (A) Camera lucida reconstruction of a bidirectionally coupled pair of thick-tufted layer-5 pyramidal neurons. Putative synaptic contacts are marked by green dots (from the black neuron; five contacts; mean distance from soma, 95 񮽙m; range, 73 to 126 񮽙m) and blue dots (from the red neuron; six contacts; mean distance from soma, 95 񮽙m; range, 50 to 283 񮽙m). Thin dotted lines represent axon collaterals (blue is for the cell drawn in red; green is for the cell drawn in black). An average of 5.5 contacts are made per connection, and more than 80% of contacts are within 200 񮽙m of the soma. (B) Characteristic synaptic response. A presynaptic burst of APs (Pre. APs) evoked by a 100-ms current pulse (400 pA, cell body injection) evokes EPSPs in the postsynaptic neuron. (C) Mean unitary EPSPs before and after pairing. Averages of 75 EPSPs from the onset and after 50 min. (D) Synchronization of pre-and postsynaptic activity. Each dot represents the amplitude of a single, test, AP-evoked EPSP shown as a percent of the average (of 75 responses, 5 min) control EPSP. Whole-cell recording was established about 3 min before time 0. After 10 min of recording, bursts of EPSPs were evoked 10 times every 20 s (indicated by the bar labeled EPSPs). Test EPSPs were continuously sampled every 4 s in between these bursts. After 20 min of recording, a burst of postsynaptic APs was evoked during EPSPs (15 times every 20 s; indicated by bar labeled EPSPs and APs).</head>
+			</table>
+			<figure>
+				<head>EPSPs was also dependent on the frequency of AP-EPSP pairs in the train, with a sharp onset at 10 Hz (Fig. 2C). Although APs paired with EPSPs reliably induced an</head>
+			</figure>
+<p>the absence of AP initiation) with a highfrequency train of EPSPs failed to cause a significant change in EPSP amplitudes (Fig. 2D) (10), which suggests that initiation of postsynaptic APs and their coincidence with EPSPs was required to induce persistent changes in active synapses. Because most synaptic contacts were located on dendrites around 100 񮽙m away from the cell body (Fig. 1A) (7), the coincidence of the back-propagating AP with active synapses (11) seems to be a critical step for induction of changes in EPSPs. The persistent increase in EPSPs caused by pairing of individual APs and EPSPs was prevented when N-methyl-D-aspartate (NMDA) receptors were blocked (12), which suggests that the back-propagating AP interacts with activated NMDA receptors to trigger the synaptic modification, for example, through Ca 2񮽙 inflow. The limits of the time window for AP- EPSP interaction were investigated in uniand bidirectionally connected neurons (13). When postsynaptic APs preceded EPSPs by 100 ms (Fig. 3, A and C) or followed the last EPSP in a burst by 100 ms (Fig. 3, A and C), no effect on EPSP amplitudes was observed, which suggests that APs and EPSPs must coincide within 100 ms in order to induce changes in EPSPs. To determine the limits of the AP-EPSP coincidence window, the effect of an AP initiated shortly before or shortly after the onset of an EPSP was tested simultaneously in bidirectionally connected neurons (Fig. 3B). A burst of APs was triggered at a frequency of 10 Hz in one cell; with a 10-ms delay, an identical burst was triggered in the other cell. This ensured that each postsynaptic AP in the burst occurred</p>
+			<figure>
+				<head>Fig. 2. AP-EPSP coincidence requirement. (A) Synchronization of individual postsynaptic APs with EPSPs. Two APs, separated by 50 ms, were evoked in a presynaptic neuron (Pre. APs), which elicited unitary EPSPs in the postsynaptic neuron (Post. EPSPs). Postsynaptic APs (Post. APs) were synchronized with each EPSP by injection of current pulses into the postsynaptic neuron (approximately 5 ms after the presynaptic AP). APs were evoked by injection of 5-ms, 1-nA current pulses into cell bodies (lm). (B) AP-EPSP coincidence. Three stimulation protocols were used. (i) Two, 5, or 10 EPSPs and postsynaptic APs at 20 Hz, paired 10 times every 4 s (n 񮽙 21; solid squares); (ii) 5 or 10 postsynaptic APs alone at 20 Hz (n 񮽙 5; open diamonds); and (iii) 5 or 10 EPSPs alone at 20 Hz (n 񮽙 5; solid diamonds). Time axes are normalized to the onset of the pairing (arrow at time 0). (C) Frequency dependence. Five EPSPs and postsynaptic APs at 2 (n 񮽙 2), 5 (n 񮽙 5), 10 (n 񮽙 9), 20 (n 񮽙 11), 30 (n 񮽙 3), and 40 Hz (n 񮽙 4) were synchronized in bursts and repeated 10 times every 4 s. (D) Sustained postsynaptic depolarization. Two stimulation protocols were used. (i) Circles represent eight experiments in which bursts of 5 to 10 EPSPs (at 20 to 40 Hz, repeated 10 times every 4 or 20 s) were synchronized with sustained depolarization to below the AP threshold (200 to 500 ms; 񮽙50 mV ). (ii) Squares represent six experiments in which similar bursts were synchronized with depolarizations to between 񮽙30 and 񮽙10 mV in neurons loaded with Lidocaine [N-ethylbromide quaternary salt (QX-314, 5 mM; RBI, Bethesda, Maryland)].</head>
+			</figure>
+			<figure>
+				<head>Fig. 3. Interaction and coincidence intervals. (A) Interaction interval. Bursts of postsynaptic APs were evoked in two bidirectionally coupled cells 100 ms apart, thus the interval of 񮽙100 ms and 񮽙100 ms between EPSPs and postsynaptic APs was investigated in the same slice and at the same time. The EPSPs are represented by the vertically expanded traces between the time points indicated by the arrows. Vertically expanded EPSPs of cell 1 were corrected for the skewed baseline. (B) Coincidence interval. A 10-Hz train of 5 APs in cell 1 (only first AP shown) was shifted by 10 ms in cell 2. An AP was thus triggered in cell 1 10 ms before an AP in cell 2 in a bidirectionally</head>
+			</figure>
+<p>connected pair of neurons. This resulted in the postsynaptic APs occurring about 10 ms before the onset of the EPSP in cell 1 [񮽙10 ms; solid squares in (C)] and about 10 ms after the onset of EPSPs in cell 2 [񮽙10 ms; open squares in (C)]. This pattern was evoked in a burst of five such temporally shifted APs, at 10 Hz, and repeated 10 to 15 times every 4 s. (C) Interaction and coincidence intervals. Coincidence interval is represented by data from six bidirectionally coupled neurons. The averaged data when EPSPs and postsynaptic APs were 100 ms apart are also represented (񮽙100 ms, open circles, n 񮽙 6; 񮽙100 ms, closed circles, n 񮽙 4).</p>
+<p>either 10 ms before the onset of the EPSP in one cell and 10 ms after the onset of each EPSP in the other cell (Fig. 3, B and C). After this stimulation, the EPSP amplitude in the neuron in which the postsynaptic APs occurred 10 ms before the EPSPs was reduced , whereas it was increased when the postsynaptic AP occurred 10 ms after the onset of the EPSPs (Fig. 3, B and C), which suggests that postsynaptic AP can up-or down-regulate the amplitude of EPSPs, depending on the precise timing of synapse activation. These observations suggest that the dendritic APs are a trigger for modifications of the functional synaptic connectivity between neocortical pyramidal neurons. The result of synaptic integration, encoded within the back-propagating AP, is conveyed to dendrites, and hence the backpropagating AP could be regarded as a &quot;binding signal&quot; for active synaptic contacts . A single synaptic contact could therefore be modified in the context of the summed activity of all the contacts on the neuron. The finding that EPSPs were up-or down-regulated, depending on the precise timing of EPSPs with respect to APs, further suggests that single synapses are modified according to the temporal relations of the electrical activity of the neurons in a network (14).</p>
+<p>REFERENCES AND NOTES ___________________________</p>
+		</body>
+		<back>
+			<div type="references">
+<listBibl>
+<biblStruct xml:id="b0"><monogr><title level="m" type="main">The Organization of Behavior</title>		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<forename type="middle">O</forename>
+				<surname>Hebb</surname>
+			</persName>
+		</author>
+<imprint><date type="published" when="1949" /><publisher>Wiley</publisher><pubPlace>New York</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b1"><analytic>		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<forename type="middle">V P</forename>
+				<surname>Bliss</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<forename type="middle">L</forename>
+				<surname>Collingridge</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">361</biblScope><biblScope type="issue">31</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b2"><analytic>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">J</forename>
+				<surname>Friedlander</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">J</forename>
+				<surname>Sayer</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<forename type="middle">J</forename>
+				<surname>Redman</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Neurosci</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Malinow</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Science J. Physiol</title><editor>V. Y. Bolshakov and S. A. Siegelbaum C. Stricker, A. C. Field, S. J. Redman</editor><imprint><biblScope type="vol">10</biblScope><biblScope type="issue">443</biblScope><biblScope type="pp">1730</biblScope><date type="published" when="1990" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b3"><analytic>		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Stuart</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Sakmann</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">367</biblScope><biblScope type="issue">69</biblScope><date type="published" when="1994" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b4"><analytic>		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<forename type="middle">G</forename>
+				<surname>Regehr</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">A</forename>
+				<surname>Connor</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<forename type="middle">W</forename>
+				<surname>Tank</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<forename type="middle">J</forename>
+				<surname>Helm</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Sakmann</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol. Biophys. J</title><editor>J. Schiller, F. Helmchen, B. Sakmann F. Helmchen, K. Imoto, B. Sakmann</editor><imprint><biblScope type="vol">341</biblScope><biblScope type="issue">70</biblScope><biblScope type="pp">1069</biblScope><date type="published" when="1989" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b5"><analytic>		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Lü</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Bke</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Frotscher</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Roth</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Sakmann</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol</title></monogr><note>in. press</note></biblStruct>
+<biblStruct xml:id="b6"><analytic><title level="a" type="main">showed that the increase caused by pairing of pre-and postsynaptic activity only applies when tested by low-frequency (񮽙5 Hz) stimulation</title>		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Tsodyks</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">382</biblScope><biblScope type="issue">807</biblScope><date type="published" when="1996" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b7"><analytic><title level="a" type="main">Block of calcium channels by QX-314 could contribute to the lack of effects</title>		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<surname>Gustafsson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Wigstrom</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<forename type="middle">C</forename>
+				<surname>Abraham</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y.-Y</forename>
+				<surname>Huang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Neurosci</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<forename type="middle">R</forename>
+				<surname>Kelso</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">H</forename>
+				<surname>Ganong</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<forename type="middle">H</forename>
+				<surname>Brown</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Proc. Natl. Acad. Sci. U.S.A. J. Neurophysiol</title><editor>M. J. Talbot and R. J. Sayer</editor><imprint><biblScope type="vol">7</biblScope><biblScope type="issue">70</biblScope><biblScope type="pp">2120</biblScope><date type="published" when="1986" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b8"><monogr><title level="m" type="main">The conduction velocity in thin basal dendrites is estimated to be roughly 0.2 m/s [estimated from (4)] and the back-propagating AP would thus reach most synapses within 1 ms</title></monogr></biblStruct>
+<biblStruct xml:id="b9"><monogr><title level="m" type="main">D(񮽙)-2-Amino-5-phosphonopentanoic acid (50 񮽙M) was applied to six connections</title></monogr></biblStruct>
+<biblStruct xml:id="b10"><analytic>		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<forename type="middle">K</forename>
+				<surname>Stanton</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<forename type="middle">J</forename>
+				<surname>Sejnowski</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">339</biblScope><biblScope type="issue">215</biblScope><date type="published" when="1989" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b11"><analytic>		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<surname>Singer</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Annu. Rev. Physiol</title><imprint><biblScope type="vol">55</biblScope><biblScope type="issue">349</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct></listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

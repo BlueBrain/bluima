@@ -1,0 +1,27 @@
+PREDICTING THE DENDRITIC DENSITY FIELD FROM INPUT
+AXON CONFIGURATIONS
+While the dendrites of starburst amacrine cells, dentate gyrus
+granule cells, and many other neurons exhibit complex DDFs,
+some simpler ones such as pyramidal cell basal dendrites observe
+basic principles which can be characterized by studying the statistical moments of their density distributions (Snider et al., 2010).
+Stevens and colleagues have shown that the cable density distributions in dendrites roughly follow separate Gaussian distributions
+for each dimension in space which are cut off at 2 standard deviation. What determines this particular density profile? In synthetic
+dendrites generated using the MST, homogenously distributed carrier points lead to a homogeneous cable density. The MST alone
+can therefore not be responsible for the observed Gaussian cable
+density distribution. Intuitively, the shape of a DDF should be
+determined by the set of axons which are a dendrite's potential,
+i.e., anatomical connection partners. This simple intuition can
+provide direct explanations for basic features of DDFs.
+When input target points were distributed along one dimension, the MST was simply a straight line connecting these points
+(Figure 2A). When these target points were extended to parallel
+lines as in Figure 2B, and the MST was set to connect to each
+axon once, the resulting synthetic dendrite was not changed. Out
+of cable and conduction time minimization, a straight and direct
+connection remained ideal. When more axons were added and
+noise was introduced to their trajectories (Figure 2C), the MST
+dendrite started to branch out. In a similar but more realistic setting, a dendrite connecting to a set of parallel axons traversing
+space was flat according to the MST (Figure 2D). A flat dendrite
+which lies perpendicular to a set of parallel axons was shown to
+be the overall ideal geometrical arrangement given Cajal's wiring
+costs (Wen and Chklovskii, 2008). It is therefore not surprising
+that the MST approach reproduces this intuition. Such a planar

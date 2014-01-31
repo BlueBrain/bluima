@@ -1,0 +1,36 @@
+*	Equiv T2 T3
+T9	Positive_regulation 27 37	stimulates
+T10	Transcription 38 51	transcription
+T11	Positive_regulation 288 301	up-regulation
+T12	Positive_regulation 575 588	up-regulation
+T13	Positive_regulation 702 710	mediated
+T14	Negative_regulation 808 815	blocked
+T15	Positive_regulation 825 838	up-regulation
+T16	Regulation 932 938	effect
+T17	Positive_regulation 964 977	up-regulation
+T18	Negative_regulation 1070 1079	inhibited
+T19	Negative_regulation 1133 1150	inhibitory effect
+T20	Negative_regulation 1230 1237	reduced
+T21	Positive_regulation 1289 1302	up-regulation
+T22	Positive_regulation 1343 1357	potential role
+T23	Gene_expression 1375 1385	expression
+T24	Positive_regulation 1433 1438	occur
+E1	Positive_regulation:T9 Theme:E2
+E2	Transcription:T10 Theme:T1
+E3	Positive_regulation:T11 Theme:T2
+E4	Positive_regulation:T12 Theme:T4
+E5	Positive_regulation:T13 Theme:E4
+E6	Negative_regulation:T14 Theme:E7
+E7	Positive_regulation:T15 Theme:T5
+E8	Regulation:T16 Theme:E9
+E9	Positive_regulation:T17 Theme:T6
+E10	Negative_regulation:T18 Theme:E4
+E11	Negative_regulation:T19 Theme:E4
+E12	Negative_regulation:T20 Theme:E13
+E13	Positive_regulation:T21 Theme:T7
+E14	Positive_regulation:T22 Theme:E15
+E15	Gene_expression:T23 Theme:T8
+E16	Positive_regulation:T24 Theme:E14
+M1	Speculation E5
+M2	Negation E8
+M3	Negation E11

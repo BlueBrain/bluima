@@ -1,0 +1,54 @@
+T25	Regulation 0 23	Transcriptional control
+T26	Gene_expression 71 80	synthesis
+T27	Regulation 84 93	regulated
+T28	Gene_expression 126 135	synthesis
+T29	Regulation 211 218	Control
+T30	Gene_expression 227 237	production
+T31	Transcription 328 343	transcriptional
+T32	Regulation 360 368	regulate
+T33	Regulation 398 405	control
+T34	Gene_expression 411 420	synthesis
+T35	Transcription 573 599	transcriptional regulation
+T36	Gene_expression 828 837	producing
+T37	Gene_expression 866 878	nonproducing
+T38	Gene_expression 972 981	producing
+T39	Gene_expression 1013 1026	nonexpressing
+T40	Gene_expression 1080 1092	nonproducing
+T41	Gene_expression 1113 1122	synthesis
+T42	Positive_regulation 1136 1143	induced
+T43	Gene_expression 1398 1407	synthesis
+T44	Regulation 1435 1444	regulated
+T45	Regulation 1530 1540	regulating
+T46	Regulation 1573 1580	control
+T47	Regulation 1606 1616	regulation
+T48	Transcription 1630 1643	transcription
+E1	Regulation:T25 Theme:T1
+E2	Gene_expression:T26 Theme:T2
+E3	Regulation:T27 Theme:E2
+E4	Gene_expression:T28 Theme:T3
+E5	Gene_expression:T28 Theme:T4
+E6	Regulation:T29 Theme:E7
+E7	Gene_expression:T30 Theme:T6
+E8	Transcription:T31 Theme:T7
+E9	Regulation:T32 Theme:E8
+E10	Regulation:T33 Theme:E11 Cause:E9
+E11	Gene_expression:T34 Theme:T8
+E12	Transcription:T35 Theme:T9
+E13	Gene_expression:T36 Theme:T12
+E14	Gene_expression:T37 Theme:T13
+E15	Gene_expression:T38 Theme:T14
+E16	Gene_expression:T39 Theme:T15
+E17	Gene_expression:T40 Theme:T16
+E18	Gene_expression:T41 Theme:T17
+E19	Positive_regulation:T42 Theme:E18
+E20	Gene_expression:T43 Theme:T20
+E21	Regulation:T44 Theme:E20
+E22	Regulation:T45 Theme:T22
+E23	Regulation:T45 Theme:T21
+E24	Regulation:T46 Theme:T1
+E25	Regulation:T47 Theme:E26
+E26	Transcription:T48 Theme:T1
+M1	Speculation E12
+M2	Negation E16
+M3	Negation E17
+M4	Speculation E24

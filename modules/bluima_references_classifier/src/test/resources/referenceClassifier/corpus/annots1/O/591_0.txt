@@ -1,0 +1,21 @@
+For some applications, e.g. detecting the presence of a
+statement about protein-protein interaction, having output from a GM system, i.e. knowing that a gene mention
+is present, may be sufficient. The usefulness of GM system
+output, however, will not be realized to its utmost until
+the output can be reliably grounded to an external
+resource, such as a database. The task of gene normalization (GN) addresses this issue by linking a gene name
+mentioned in text to a specific gene identifier in a database. For example, using our sample text from the GM
+task: p53 induces monocytic diffierentiation...
+[PubMed:17309603], the output of a GN system should
+provide a link from [EntrezGene:7157] (assuming the text
+is discussing the Homo sapiens p53 gene) to the entire text
+string, or preferably to the text p53 itself. Approaches to
+the GN task have varied. Some work directly on the input
+text itself, while others use GM systems to identify potential genes and then try to normalize the gene mentions
+that were found. The latter approach has the advantage of
+being able to know where exactly in the text a particular
+gene is being discussed. This knowledge aids in further
+extraction tasks, such as determining the relationship
+between a pair of gene mentions. Some of the difficulties
+in the GN task, as in the GM task, also lie in ambiguity
+among gene names. The ambiguity from the GN perspective, however, is not between gene names and other entity

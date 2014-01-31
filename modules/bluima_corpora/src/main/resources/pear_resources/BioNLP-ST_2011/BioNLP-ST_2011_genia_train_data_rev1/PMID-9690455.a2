@@ -1,0 +1,26 @@
+*	Equiv T1 T2
+T16	Localization 435 443	secretes
+T17	Gene_expression 876 884	analyzed
+T18	Gene_expression 919 925	levels
+T19	Gene_expression 1148 1154	levels
+T20	Positive_regulation 1213 1222	increased
+T21	Gene_expression 1243 1249	levels
+T22	Positive_regulation 1303 1309	higher
+T23	Gene_expression 1434 1440	levels
+E1	Localization:T16 Theme:T3
+E2	Gene_expression:T17 Theme:T6
+E3	Gene_expression:T17 Theme:T5
+E4	Gene_expression:T18 Theme:T8
+E5	Gene_expression:T18 Theme:T7
+E6	Gene_expression:T19 Theme:T11
+E7	Gene_expression:T19 Theme:T10
+E8	Positive_regulation:T20 Theme:E7
+E9	Positive_regulation:T20 Theme:E6
+E10	Gene_expression:T21 Theme:T13
+E11	Gene_expression:T21 Theme:T12
+E12	Positive_regulation:T22 Theme:E11
+E13	Positive_regulation:T22 Theme:E10
+E14	Gene_expression:T23 Theme:T14
+E15	Gene_expression:T23 Theme:T15
+M1	Speculation E2
+M2	Speculation E3

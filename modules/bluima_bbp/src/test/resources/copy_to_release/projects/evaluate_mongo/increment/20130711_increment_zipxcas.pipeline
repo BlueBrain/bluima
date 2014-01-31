@@ -1,0 +1,11 @@
+cr: ZipXmiCollectionReader
+ directoryIterator: LargeDirectoryIterator
+ inputDirectory: /Volumes/HDD2/ren_data/data_hdd/experiments/evaluate_mongo_5k/20130501_writeto_zipxcas
+ xmlSchemeName: XCAS
+
+include: add_annot.include
+
+ae: ZipXWriter
+ outputDir: /Volumes/HDD2/ren_data/data_hdd/experiments/evaluate_mongo_5k/20130711_increment_zipxcas
+ xmlSchemeName: XCAS
+ fileNamerClassName: ch.epfl.bbp.uima.uimafit.HeaderDocIdFileNamer

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>julie-semantics-stemnet-types</name>
+  <description>The type system contains types of the biomedical domain.</description>
+  <version>2.5</version>
+  <vendor/>
+  <imports>
+    <import location="julie-semantics-mention-types.xml"/>
+  </imports>
+  <types>
+    <typeDescription>
+      <name>de.julielab.jules.types.BioEntityMention</name>
+      <description>Biomedical Entity (e.g. gene, organism, cell type)</description>
+      <supertypeName>de.julielab.jules.types.EntityMention</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Gene</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.BioEntityMention</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Disease</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.BioEntityMention</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Organism</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.BioEntityMention</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.UnspecifiedOrganism</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Organism</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.OrganismAttribute</name>
+      <description>attributes to an organism such as e.g. sex, developmental stage, transplantation type ...</description>
+      <supertypeName>de.julielab.jules.types.BioEntityMention</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.BioEventMention</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.EventMention</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.BioRelationMention</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.RelationMention</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Chemicals</name>
+      <description>Chemical Entity</description>
+      <supertypeName>de.julielab.jules.types.BioEntityMention</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Cell</name>
+      <description>Cell Entity</description>
+      <supertypeName>de.julielab.jules.types.BioEntityMention</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.MeshMention</name>
+      <description>Mesh Term</description>
+      <supertypeName>de.julielab.jules.types.BioEntityMention</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Protein</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.BioEntityMention</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.GOMention</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.ConceptMention</supertypeName>
+      <features>
+        <featureDescription>
+          <name>categories</name>
+          <description>created for the shared task, here we add the group</description>
+          <rangeTypeName>uima.cas.StringArray</rangeTypeName>
+          <multipleReferencesAllowed>false</multipleReferencesAllowed>
+        </featureDescription>
+        <featureDescription>
+          <name>goID</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

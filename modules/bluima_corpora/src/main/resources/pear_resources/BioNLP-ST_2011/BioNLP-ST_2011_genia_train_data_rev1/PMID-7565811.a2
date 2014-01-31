@@ -1,0 +1,34 @@
+*	Equiv T5 T4
+*	Equiv T6 T7
+T28	Positive_regulation 40 48	mediates
+T29	Regulation 53 79	transcriptional regulation
+T30	Gene_expression 138 148	Expression
+T31	Positive_regulation 226 235	increased
+T32	Positive_regulation 365 373	elevated
+T33	Positive_regulation 507 510	led
+T34	Positive_regulation 514 519	super
+T35	Positive_regulation 520 529	induction
+T36	Gene_expression 545 555	expression
+T37	Transcription 619 632	transcription
+T38	Positive_regulation 637 646	increased
+T39	Binding 1535 1540	bound
+T40	Positive_regulation 1566 1580	in response to
+T41	Regulation 1802 1828	transcriptional regulation
+T42	Regulation 1867 1875	involves
+T43	Binding 1880 1887	binding
+E1	Positive_regulation:T28 Theme:E2
+E2	Regulation:T29 Theme:T2 Cause:T3
+E3	Gene_expression:T30 Theme:T5
+E4	Positive_regulation:T31 Theme:E3
+E5	Positive_regulation:T32 Theme:T8
+E6	Positive_regulation:T33 Theme:E7
+E7	Positive_regulation:T34 Theme:E8
+E8	Positive_regulation:T35 Theme:E9
+E9	Gene_expression:T36 Theme:T11
+E10	Transcription:T37 Theme:T12
+E11	Positive_regulation:T38 Theme:E10 Cause:T13
+E12	Binding:T39 Theme:T20
+E13	Positive_regulation:T40 Theme:E12
+E14	Regulation:T41 Theme:T25 Cause:T26
+E15	Regulation:T42 Theme:E14 Cause:E16
+E16	Binding:T43 Theme:T27

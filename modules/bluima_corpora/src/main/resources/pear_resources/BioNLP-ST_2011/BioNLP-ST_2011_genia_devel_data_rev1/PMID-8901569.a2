@@ -1,0 +1,56 @@
+*	Equiv T6 T5
+T22	Negative_regulation 0 9	Silencing
+T23	Gene_expression 32 42	expression
+T24	Negative_regulation 46 54	impaired
+T25	Negative_regulation 62 69	absence
+T26	Negative_regulation 216 222	switch
+T27	Positive_regulation 216 222	switch
+T28	Gene_expression 271 281	expression
+T29	Positive_regulation 472 480	required
+T30	Gene_expression 485 495	expression
+T31	Positive_regulation 540 547	through
+T32	Binding 548 559	interaction
+T33	Positive_regulation 635 639	role
+T34	Regulation 669 679	regulation
+T35	Gene_expression 889 899	expression
+T36	Negative_regulation 916 923	reduced
+T37	Positive_regulation 954 962	elevated
+T38	Negative_regulation 985 993	Impaired
+T39	Negative_regulation 994 1003	silencing
+T40	Gene_expression 1020 1030	expression
+T41	Positive_regulation 1081 1094	participating
+T42	Negative_regulation 1145 1151	switch
+T43	Positive_regulation 1145 1151	switch
+T44	Positive_regulation 1233 1241	mediates
+T45	Binding 1266 1277	interaction
+T46	Entity 1307 1315	promoter
+T47	Negative_regulation 1350 1358	excludes
+E1	Negative_regulation:T22 Theme:E2
+E2	Gene_expression:T23 Theme:T1
+E3	Negative_regulation:T24 Theme:E1 Cause:E4
+E4	Negative_regulation:T25 Theme:T2
+E5	Negative_regulation:T26 Theme:E8
+E6	Positive_regulation:T27 Theme:E7
+E7	Gene_expression:T28 Theme:T4
+E8	Gene_expression:T28 Theme:T3
+E9	Positive_regulation:T29 Theme:E10 Cause:T6
+E10	Gene_expression:T30 Theme:T7
+E11	Positive_regulation:T31 Theme:E9 Cause:E12
+E12	Binding:T32 Theme:T6
+E13	Positive_regulation:T33 Theme:E14 Cause:T8
+E14	Regulation:T34 Theme:T9
+E15	Gene_expression:T35 Theme:T13
+E16	Negative_regulation:T36 Theme:E15
+E17	Positive_regulation:T37 Theme:T14
+E18	Negative_regulation:T38 Theme:E19
+E19	Negative_regulation:T39 Theme:E20
+E20	Gene_expression:T40 Theme:T15
+E21	Positive_regulation:T41 Theme:E23 Cause:T16
+E22	Positive_regulation:T41 Theme:E24 Cause:T16
+E23	Negative_regulation:T42 Theme:T17
+E24	Positive_regulation:T43 Theme:T18
+E25	Positive_regulation:T44 Theme:E26 Cause:T19
+E26	Binding:T45 Theme:T20 Site:T46
+E27	Negative_regulation:T47 Theme:T21 Cause:E25
+M1	Speculation E11
+M2	Speculation E13

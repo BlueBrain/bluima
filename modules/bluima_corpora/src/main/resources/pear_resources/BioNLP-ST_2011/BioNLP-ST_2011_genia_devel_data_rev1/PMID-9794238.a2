@@ -1,0 +1,19 @@
+T11	Gene_expression 47 57	expression
+T12	Gene_expression 68 77	synthesis
+T13	Gene_expression 219 237	stably transfected
+T14	Positive_regulation 219 237	stably transfected
+T15	Gene_expression 371 394	constitutive expression
+T16	Negative_regulation 915 922	reduced
+T17	Gene_expression 979 990	transfected
+T18	Positive_regulation 979 990	transfected
+T19	Regulation 1300 1307	targets
+E1	Gene_expression:T11 Theme:T1
+E2	Gene_expression:T12 Theme:T2
+E3	Gene_expression:T13 Theme:T3
+E4	Positive_regulation:T14 Theme:E3
+E5	Gene_expression:T15 Theme:T4
+E6	Negative_regulation:T16 Theme:T5
+E7	Gene_expression:T17 Theme:T6
+E8	Positive_regulation:T18 Theme:E7
+E9	Regulation:T19 Theme:T9
+M1	Speculation E9

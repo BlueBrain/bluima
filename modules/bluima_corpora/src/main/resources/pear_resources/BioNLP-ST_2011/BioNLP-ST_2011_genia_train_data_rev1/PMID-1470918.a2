@@ -1,0 +1,40 @@
+T15	Positive_regulation 0 8	Targeted
+T16	Protein_catabolism 9 20	degradation
+T17	Binding 139 153	heterodimerize
+T18	Positive_regulation 154 161	through
+T19	Protein_catabolism 354 363	stability
+T20	Regulation 394 404	controlled
+T21	Negative_regulation 532 541	decreased
+T22	Positive_regulation 542 546	when
+T23	Binding 563 572	dimerized
+T24	Phosphorylation 578 592	phosphorylated
+T25	Positive_regulation 664 670	target
+T26	Protein_catabolism 681 692	degradation
+T27	Protein_catabolism 735 745	stabilized
+T28	Positive_regulation 746 751	after
+T29	Positive_regulation 840 851	susceptible
+T30	Protein_catabolism 855 866	degradation
+T31	Binding 867 875	targeted
+E1	Positive_regulation:T15 Theme:E4
+E2	Positive_regulation:T15 Theme:E3
+E3	Protein_catabolism:T16 Theme:T2
+E4	Protein_catabolism:T16 Theme:T1
+E5	Binding:T17 Theme:T4 Theme2:T5
+E6	Positive_regulation:T18 Theme:E5
+E7	Protein_catabolism:T19 Theme:T6
+E8	Regulation:T20 Theme:E7
+E9	Negative_regulation:T21 Theme:T7
+E10	Positive_regulation:T22 Theme:E9 Cause:E11
+E11	Binding:T23 Theme:T7 Theme2:T8
+E12	Phosphorylation:T24 Theme:T8
+E13	Positive_regulation:T25 Theme:E14 Cause:T9
+E14	Protein_catabolism:T26 Theme:T10
+E15	Protein_catabolism:T27 Theme:T11
+E16	Positive_regulation:T28 Theme:E15
+E17	Positive_regulation:T29 Theme:T12
+E18	Protein_catabolism:T30 Theme:T12
+E19	Binding:T31 Theme:T12 Theme2:T14
+M1	Negation E2
+M2	Negation E13
+M3	Negation E15
+M4	Negation E17

@@ -1,0 +1,27 @@
+T6	Regulation 0 7	Control
+T7	Protein_catabolism 27 38	proteolysis
+T8	Phosphorylation 72 87	phosphorylation
+T9	Negative_regulation 259 269	inactivate
+T10	Phosphorylation 463 478	phosphorylation
+T11	Regulation 502 510	requires
+T12	Protein_catabolism 515 526	proteolysis
+T13	Entity 558 567	serine-32
+T14	Entity 571 580	serine-36
+T15	Phosphorylation 656 671	phosphorylation
+T16	Protein_catabolism 675 686	degradation
+T17	Phosphorylation 754 769	phosphorylation
+E1	Regulation:T6 Theme:E2 Cause:E3
+E2	Protein_catabolism:T7 Theme:T1
+E3	Phosphorylation:T8 Theme:T1
+E4	Negative_regulation:T9 Theme:T3
+E5	Phosphorylation:T10 Theme:T4
+E6	Regulation:T11 Theme:E7
+E7	Protein_catabolism:T12 Theme:T4
+E8	Phosphorylation:T15 Theme:T5 Site:T14
+E9	Phosphorylation:T15 Theme:T5 Site:T13
+E10	Protein_catabolism:T16 Theme:T5
+E11	Phosphorylation:T17 Theme:T5 Site:T14
+E12	Phosphorylation:T17 Theme:T5 Site:T13
+M1	Negation E8
+M2	Negation E9
+M3	Negation E10

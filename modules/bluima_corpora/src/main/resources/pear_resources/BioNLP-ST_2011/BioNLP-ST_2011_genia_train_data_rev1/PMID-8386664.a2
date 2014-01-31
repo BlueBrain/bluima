@@ -1,0 +1,31 @@
+T25	Transcription 37 44	express
+T26	Gene_expression 37 44	express
+T27	Transcription 204 213	expressed
+T28	Gene_expression 273 282	expressed
+T29	Transcription 401 409	deriving
+T30	Transcription 647 652	found
+T31	Gene_expression 1370 1380	expression
+T32	Regulation 1430 1456	involved in the regulation
+T33	Transcription 1464 1477	transcription
+T34	Transcription 1669 1676	express
+T35	Regulation 1731 1757	involved in the regulation
+T36	Gene_expression 1793 1803	expression
+T37	Transcription 1829 1842	transcription
+E1	Transcription:T25 Theme:T4
+E2	Gene_expression:T26 Theme:T3
+E3	Transcription:T27 Theme:T5
+E4	Gene_expression:T28 Theme:T9
+E5	Gene_expression:T28 Theme:T8
+E6	Transcription:T29 Theme:T11
+E7	Transcription:T30 Theme:T15
+E8	Gene_expression:T31 Theme:T19
+E9	Regulation:T32 Theme:E10 Cause:T19
+E10	Transcription:T33 Theme:T20
+E11	Transcription:T34 Theme:T21
+E12	Regulation:T35 Theme:E13 Cause:T22
+E13	Gene_expression:T36 Theme:T23
+E14	Transcription:T37 Theme:T24
+M1	Speculation E4
+M2	Speculation E5
+M3	Speculation E12
+M4	Negation E14

@@ -1,0 +1,38 @@
+*	Equiv T2 T3
+T25	Negative_regulation 13 32	negative regulation
+T26	Positive_regulation 22 32	regulation
+T27	Entity 85 93	promoter
+T28	Regulation 688 695	effects
+T29	Entity 710 718	promoter
+T30	Binding 768 773	bound
+T31	Entity 778 788	PEBP2 site
+T32	Entity 889 897	promoter
+T33	Negative_regulation 1070 1080	suppressed
+T34	Gene_expression 1094 1106	Coexpression
+T35	Regulation 1175 1185	determined
+T36	Gene_expression 1370 1380	expression
+T37	Regulation 1516 1520	role
+T38	Entity 1544 1552	promoter
+T39	Regulation 1598 1608	importance
+T40	Regulation 1662 1672	regulating
+E1	Negative_regulation:T25 Theme:T1 Site:T27
+E2	Positive_regulation:T26 Theme:T1 Site:T27
+E3	Regulation:T28 Theme:T8 Cause:T6 Site:T29
+E4	Regulation:T28 Theme:T8 Cause:T5 Site:T29
+E5	Regulation:T28 Theme:T8 Cause:T7 Site:T29
+E6	Binding:T30 Theme:T11 Theme2:T12 Site2:T31
+E7	Binding:T30 Theme:T10 Theme2:T12 Site2:T31
+E8	Binding:T30 Theme:T9 Theme2:T12 Site2:T31
+E9	Negative_regulation:T33 Theme:T15 Cause:T17 Site:T32
+E10	Gene_expression:T34 Theme:T19
+E11	Gene_expression:T34 Theme:T18
+E12	Regulation:T35 Theme:T15 Cause:T21 Site:T32
+E13	Regulation:T35 Theme:T15 Cause:T20 Site:T32
+E14	Gene_expression:T36 Theme:T23
+E15	Regulation:T37 Theme:T24 Site:T38
+E16	Regulation:T39 Theme:E17
+E17	Regulation:T40 Theme:T24 Site:T38
+M1	Speculation E3
+M2	Speculation E4
+M3	Speculation E5
+M4	Speculation E15

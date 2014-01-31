@@ -1,0 +1,6 @@
+T7	Gene_expression 398 409	coexpressed
+T8	Gene_expression 737 748	coexpressed
+E1	Gene_expression:T7 Theme:T3
+E2	Gene_expression:T7 Theme:T4
+E3	Gene_expression:T8 Theme:T5
+E4	Gene_expression:T8 Theme:T6

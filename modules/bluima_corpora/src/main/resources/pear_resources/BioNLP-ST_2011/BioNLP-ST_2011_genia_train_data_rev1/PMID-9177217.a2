@@ -1,0 +1,25 @@
+T21	Binding 9 26	complex formation
+T22	Negative_regulation 133 142	defective
+T23	Binding 508 516	interact
+T24	Gene_expression 886 896	expression
+T25	Positive_regulation 978 985	induced
+T26	Negative_regulation 1120 1129	defective
+T27	Positive_regulation 1217 1231	cotransfection
+T28	Gene_expression 1245 1255	expression
+T29	Binding 1283 1294	interaction
+T30	Binding 1471 1498	associate to form a complex
+T31	Binding 1619 1630	specificity
+T32	Entity 1652 1670	DNA binding domain
+E1	Binding:T21 Theme:T1 Theme2:T2
+E2	Negative_regulation:T22 Theme:T1
+E3	Negative_regulation:T22 Theme:T2
+E4	Binding:T23 Theme:T4
+E5	Gene_expression:T24 Theme:T9
+E6	Positive_regulation:T25 Theme:E5
+E7	Negative_regulation:T26 Theme:T10
+E8	Positive_regulation:T27 Theme:E9
+E9	Gene_expression:T28 Theme:T12
+E10	Binding:T29 Theme:T13 Theme2:T14
+E11	Binding:T30 Theme:T17 Theme2:T18
+E12	Binding:T31 Theme:T19 Site:T32
+M1	Negation E4

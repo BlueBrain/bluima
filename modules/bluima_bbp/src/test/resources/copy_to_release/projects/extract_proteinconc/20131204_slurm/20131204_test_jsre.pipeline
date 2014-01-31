@@ -1,0 +1,32 @@
+
+cr: ch.epfl.bbp.uima.ae.serialization.RangeBinaryCasReader
+ inputDirectory: /Volumes/simulation/nlp/data/20131120_preprocessed/
+ between__java: new int[]{ 20000000, 20002000}
+
+
+ae: RemoveAnnotationsAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.Cooccurence
+
+
+ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
+ annot1: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ annot2: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ annot1IdField: entityId
+ annot2IdField: entityId
+ cooccurrenceType: br-aba-syn_jsre
+
+
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
+  maximumEnclosingScopeLength__java: 1000
+
+ae: ch.epfl.bbp.uima.jsre.JsreFilterAnnotator
+
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile2
+ outputFile: $1/$2_br-aba-syn_jsre_cooc.txt
+ annot1Type: br
+ annot2Type: br
+ cooccurrenceType: br-aba-syn_jsre
+ verbose__java: false
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

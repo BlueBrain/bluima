@@ -1,0 +1,27 @@
+T8	Positive_regulation 380 394	overexpression
+T9	Negative_regulation 380 394	overexpression
+T10	Gene_expression 614 624	production
+T11	Regulation 706 715	dependent
+T12	Gene_expression 890 904	overexpression
+T13	Positive_regulation 890 904	overexpression
+T14	Negative_regulation 905 914	inhibited
+T15	Gene_expression 919 929	production
+T16	Regulation 977 986	affecting
+E1	Positive_regulation:T8 Theme:E2
+E2	Negative_regulation:T9 Theme:T1
+E3	Gene_expression:T10 Theme:T2
+E4	Regulation:T11 Theme:T3
+E5	Regulation:T11 Theme:E3
+E6	Regulation:T11 Theme:T4
+E7	Gene_expression:T12 Theme:T5
+E8	Positive_regulation:T13 Theme:E7
+E9	Negative_regulation:T14 Theme:E12 Cause:E8
+E10	Negative_regulation:T14 Theme:E11 Cause:E8
+E11	Gene_expression:T15 Theme:T7
+E12	Gene_expression:T15 Theme:T6
+E13	Regulation:T16 Theme:T6 Cause:E8
+E14	Regulation:T16 Theme:T7 Cause:E8
+M1	Negation E4
+M2	Negation E6
+M3	Negation E13
+M4	Negation E14

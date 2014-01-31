@@ -1,0 +1,9 @@
+T12	Binding 516 520	bind
+T13	Binding 691 695	bind
+T14	Positive_regulation 718 736	in the presence of
+T15	Binding 758 765	binding
+E1	Binding:T12 Theme:T5
+E2	Binding:T13 Theme:T8
+E3	Positive_regulation:T14 Theme:E4 Cause:T9
+E4	Binding:T15 Theme:T8
+M1	Negation E2

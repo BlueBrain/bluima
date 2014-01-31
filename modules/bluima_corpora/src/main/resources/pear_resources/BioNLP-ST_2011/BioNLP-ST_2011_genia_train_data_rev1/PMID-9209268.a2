@@ -1,0 +1,13 @@
+T11	Localization 954 963	mobilized
+T12	Entity 971 978	nucleus
+T13	Positive_regulation 979 988	following
+T14	Positive_regulation 1385 1406	induced the formation
+T15	Binding 1429 1436	binding
+E1	Localization:T11 Theme:T6 ToLoc:T12
+E2	Localization:T11 Theme:T5 ToLoc:T12
+E3	Positive_regulation:T13 Theme:E2
+E4	Positive_regulation:T13 Theme:E1
+E5	Positive_regulation:T14 Theme:E8
+E6	Positive_regulation:T14 Theme:E7
+E7	Binding:T15 Theme:T9
+E8	Binding:T15 Theme:T8

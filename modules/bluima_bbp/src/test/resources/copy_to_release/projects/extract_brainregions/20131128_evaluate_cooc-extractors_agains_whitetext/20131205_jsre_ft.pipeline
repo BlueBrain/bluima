@@ -1,0 +1,46 @@
+# evaluates speed of jsre on FT sample
+
+
+cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+ inputDirectory: /Volumes/HDD2/ren_data/data_hdd/ontologies/BAMS/pdfs/manually_crawled_bams_pdfs
+ # since they are in 2 different dirs
+ isRecursive__java: true
+
+# PRE-PROC #################################################################
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
+ae: BlueBioLemmatizer
+
+
+# ABA-SYN #################################################################
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/aba-syn")
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+
+
+# CO-OCCURRENCE: SAME #####################################################
+ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
+ annot1: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ annot2: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ annot1IdField: entityId
+ annot2IdField: entityId
+ cooccurrenceType: br-aba-syn
+ #keepOnlyNearestNeighbors__java: true
+
+# PRE_FILTERING #####################################################
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
+ maximumEnclosingScopeLength__java: 1000
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesIfTooManyEntities
+ maximumEntities__java: 10
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesByStopwords
+
+# JSRE FILTERING #####################################################
+ae: ch.epfl.bbp.uima.jsre.JsreFilterAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+
+
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile2
+ outputFile: target/br-aba-syn_cooc_nn.txt
+ cooccurrenceType: br-aba-syn

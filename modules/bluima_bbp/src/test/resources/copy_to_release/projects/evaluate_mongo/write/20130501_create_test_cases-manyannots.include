@@ -1,0 +1,21 @@
+
+# getting exactly 5k
+# select count(*) from `pubmed_abstracts`  WHERE pubmed_id BETWEEN 2000000 AND  2007363 AND abstrct IS NOT NULL
+# getting exactly 20k
+# select count(*) from `pubmed_abstracts`  WHERE pubmed_id BETWEEN 2000000 AND  2028076 AND abstrct IS NOT NULL
+# getting exactly 500k
+#select count(*) from `pubmed_abstracts`  WHERE pubmed_id BETWEEN 1600000 AND  2281334 AND abstrct IS NOT NULL
+
+cr: PubmedDatabaseCR
+ db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" } 
+ #between__java: new int[]{ 2000000, 2007363}
+ between__java: new int[]{ 2000000, 2028076}
+ #between__java: new int[]{ 1600000, 2281334}
+
+# but biolexicon disabled
+#include: ../../preprocessing/20130327_preprocess_ft/20130327_preprocess_ft.include
+include: ../../../includes/preprocess.incl
+include: ../../../includes/lex-based-ners.incl
+
+
+ae: StatsAnnotatorPlus

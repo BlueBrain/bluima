@@ -1,0 +1,19 @@
+*	Equiv T3 T2
+T18	Positive_regulation 47 56	activated
+T19	Regulation 143 151	responds
+T20	Binding 280 290	associates
+T21	Binding 638 645	recruit
+T22	Binding 788 802	form complexes
+T23	Gene_expression 1037 1048	coexpressed
+T24	Negative_regulation 1218 1228	inhibition
+E1	Positive_regulation:T18 Theme:T1
+E2	Regulation:T19 Theme:T3
+E3	Binding:T20 Theme:T5 Theme2:T6
+E4	Binding:T21 Theme:T9
+E5	Binding:T22 Theme:T9 Theme2:T10
+E6	Gene_expression:T23 Theme:T14
+E7	Gene_expression:T23 Theme:T13
+E8	Gene_expression:T23 Theme:T12
+E9	Negative_regulation:T24 Theme:T17
+M1	Negation E4
+M2	Speculation E9

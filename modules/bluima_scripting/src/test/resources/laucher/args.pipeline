@@ -1,0 +1,16 @@
+cr: TextReader
+ input: $1.
+
+ae: DotSentenceSplitterAnnotator
+
+ae: WhitespaceTokenizerAnnotator
+
+ae: AnnotationHistogramAnnotator
+
+ae: TestAnnotator
+ expects: de.julielab.jules.types.Token $2
+
+
+ae: StatsAnnotatorPlus
+ printEvery__java: $3
+    

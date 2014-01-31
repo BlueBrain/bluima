@@ -1,0 +1,48 @@
+*	Equiv T3 T2
+T21	Positive_regulation 0 14	Overexpression
+T22	Gene_expression 0 14	Overexpression
+T23	Binding 170 177	binding
+T24	Regulation 190 201	accompanied
+T25	Regulation 467 476	regulated
+T26	Regulation 481 487	varies
+T27	Regulation 594 601	crucial
+T28	Positive_regulation 610 620	activation
+T29	Gene_expression 770 780	expressing
+T30	Gene_expression 904 913	expressed
+T31	Positive_regulation 930 939	activated
+T32	Gene_expression 993 1002	expressed
+T33	Positive_regulation 1006 1012	levels
+T34	Positive_regulation 1155 1169	overexpression
+T35	Gene_expression 1155 1169	overexpression
+T36	Negative_regulation 1329 1338	decreased
+T37	Gene_expression 1348 1362	overexpressing
+T38	Positive_regulation 1348 1362	overexpressing
+T39	Negative_regulation 1410 1428	negative regulator
+E1	Positive_regulation:T21 Theme:E2
+E2	Gene_expression:T22 Theme:T1
+E3	Binding:T23 Theme:T3
+E4	Regulation:T24 Theme:E3
+E5	Regulation:T25 Theme:T6
+E6	Regulation:T25 Theme:T5
+E7	Regulation:T26 Theme:T5
+E8	Regulation:T26 Theme:T6
+E9	Regulation:T27 Theme:E11 Cause:T7
+E10	Regulation:T27 Theme:E11 Cause:T8
+E11	Positive_regulation:T28 Theme:T9
+E12	Gene_expression:T29 Theme:T11
+E13	Gene_expression:T29 Theme:T12
+E14	Gene_expression:T30 Theme:T13
+E15	Positive_regulation:T31 Theme:T14
+E16	Gene_expression:T32 Theme:T16
+E17	Gene_expression:T32 Theme:T15
+E18	Positive_regulation:T33 Theme:E17
+E19	Positive_regulation:T34 Theme:E20
+E20	Gene_expression:T35 Theme:T17
+E21	Negative_regulation:T36 Theme:E23
+E22	Gene_expression:T37 Theme:T18
+E23	Positive_regulation:T38 Theme:E22
+E24	Negative_regulation:T39 Theme:T20 Cause:T19
+M1	Speculation E9
+M2	Speculation E10
+M3	Speculation E11
+M4	Speculation E24

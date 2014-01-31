@@ -1,0 +1,27 @@
+*	Equiv T3 T2
+T18	Entity 18 22	AP-1
+T19	Entity 27 39	kappa B-like
+T20	Regulation 62 69	targets
+T21	Negative_regulation 250 260	suppressed
+T22	Transcription 265 278	transcription
+T23	Negative_regulation 617 627	suppressed
+T24	Positive_regulation 647 654	through
+T25	Positive_regulation 686 693	induced
+T26	Positive_regulation 746 753	induced
+T27	Binding 923 933	recognized
+T28	Entity 1663 1667	AP-1
+T29	Entity 1672 1684	kappa B-like
+T30	Regulation 1695 1704	terminals
+E1	Regulation:T20 Theme:T1 Site:T19
+E2	Regulation:T20 Theme:T1 Site:T18
+E3	Negative_regulation:T21 Theme:E4
+E4	Transcription:T22 Theme:T3
+E5	Negative_regulation:T23 Theme:E9
+E6	Negative_regulation:T23 Theme:E8
+E7	Positive_regulation:T24 Theme:E4
+E8	Positive_regulation:T25 Theme:E7
+E9	Positive_regulation:T26 Theme:E7
+E10	Binding:T27 Theme:T6
+E11	Regulation:T30 Theme:T17 Site:T29
+E12	Regulation:T30 Theme:T17 Site:T28
+M1	Negation E5

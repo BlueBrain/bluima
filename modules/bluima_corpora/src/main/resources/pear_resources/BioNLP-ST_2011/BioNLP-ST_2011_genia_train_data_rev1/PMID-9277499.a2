@@ -1,0 +1,37 @@
+*	Equiv T8 T7
+*	Equiv T4 T5
+T20	Negative_regulation 41 51	inhibition
+T21	Positive_regulation 64 71	induced
+T22	Gene_expression 94 104	expression
+T23	Negative_regulation 683 692	inhibited
+T24	Negative_regulation 741 750	inhibited
+T25	Positive_regulation 761 768	induced
+T26	Transcription 769 773	mRNA
+T27	Gene_expression 791 801	expression
+T28	Regulation 844 867	effect on the half-life
+T29	Binding 1915 1922	binding
+T30	Gene_expression 2065 2075	expression
+T31	Regulation 2076 2085	regulated
+E1	Negative_regulation:T20 Theme:E3
+E2	Negative_regulation:T20 Theme:E4
+E3	Positive_regulation:T21 Theme:E5
+E4	Positive_regulation:T21 Theme:E6
+E5	Gene_expression:T22 Theme:T2
+E6	Gene_expression:T22 Theme:T1
+E7	Negative_regulation:T23 Theme:T8
+E8	Negative_regulation:T24 Theme:E9
+E9	Positive_regulation:T25 Theme:E11 Cause:T9
+E10	Transcription:T26 Theme:T11
+E11	Transcription:T26 Theme:T10
+E12	Gene_expression:T27 Theme:T10
+E13	Gene_expression:T27 Theme:T11
+E14	Regulation:T28 Theme:T12
+E15	Regulation:T28 Theme:T13
+E16	Binding:T29 Theme:T18
+E17	Binding:T29 Theme:T19
+E18	Gene_expression:T30 Theme:T19
+E19	Gene_expression:T30 Theme:T18
+E20	Regulation:T31 Theme:E19
+E21	Regulation:T31 Theme:E18
+M1	Negation E14
+M2	Negation E15

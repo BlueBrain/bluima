@@ -1,0 +1,20 @@
+*	Equiv T2 T3
+T16	Gene_expression 0 10	Expression
+T17	Regulation 82 94	coregulation
+T18	Transcription 276 293	transcript levels
+T19	Gene_expression 459 469	expression
+T20	Gene_expression 533 543	expression
+T21	Transcription 711 728	transcript levels
+T22	Gene_expression 1102 1112	expression
+E1	Gene_expression:T16 Theme:T1
+E2	Regulation:T17 Theme:E1
+E3	Transcription:T18 Theme:T4
+E4	Gene_expression:T19 Theme:T5
+E5	Gene_expression:T20 Theme:T7
+E6	Gene_expression:T20 Theme:T8
+E7	Gene_expression:T20 Theme:T6
+E8	Gene_expression:T20 Theme:T9
+E9	Transcription:T21 Theme:T10
+E10	Gene_expression:T22 Theme:T11
+M1	Speculation E3
+M2	Negation E9

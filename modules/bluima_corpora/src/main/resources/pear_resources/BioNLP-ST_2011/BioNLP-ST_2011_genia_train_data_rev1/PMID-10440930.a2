@@ -1,0 +1,7 @@
+*	Equiv T2 T3
+T6	Negative_regulation 1052 1059	prevent
+T7	Protein_catabolism 1064 1075	degradation
+E1	Negative_regulation:T6 Theme:E3
+E2	Negative_regulation:T6 Theme:E4
+E3	Protein_catabolism:T7 Theme:T5
+E4	Protein_catabolism:T7 Theme:T4

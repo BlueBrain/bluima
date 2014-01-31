@@ -1,0 +1,53 @@
+T14	Gene_expression 4 14	expression
+T15	Regulation 51 60	regulated
+T16	Regulation 105 111	effect
+T17	Gene_expression 133 143	expression
+T18	Positive_regulation 256 264	increase
+T19	Transcription 289 295	levels
+T20	Negative_regulation 302 310	decrease
+T21	Transcription 325 331	levels
+T22	Regulation 434 441	changes
+T23	Positive_regulation 600 608	detected
+T24	Regulation 638 645	Altered
+T25	Transcription 646 659	transcription
+T26	Positive_regulation 796 806	increasing
+T27	Regulation 852 858	effect
+T28	Transcription 887 892	level
+T29	Negative_regulation 916 926	inhibition
+T30	Transcription 934 947	transcription
+E1	Gene_expression:T14 Theme:T2
+E2	Gene_expression:T14 Theme:T3
+E3	Gene_expression:T14 Theme:T1
+E4	Regulation:T15 Theme:E2
+E5	Regulation:T15 Theme:E3
+E6	Regulation:T15 Theme:E1
+E7	Regulation:T16 Theme:E10
+E8	Regulation:T16 Theme:E11
+E9	Regulation:T16 Theme:E12
+E10	Gene_expression:T17 Theme:T5
+E11	Gene_expression:T17 Theme:T6
+E12	Gene_expression:T17 Theme:T4
+E13	Positive_regulation:T18 Theme:E16
+E14	Positive_regulation:T18 Theme:E15
+E15	Transcription:T19 Theme:T8
+E16	Transcription:T19 Theme:T7
+E17	Negative_regulation:T20 Theme:E18
+E18	Transcription:T21 Theme:T9
+E19	Regulation:T22 Theme:E18
+E20	Regulation:T22 Theme:E16
+E21	Regulation:T22 Theme:E15
+E22	Positive_regulation:T23 Theme:E21
+E23	Positive_regulation:T23 Theme:E20
+E24	Positive_regulation:T23 Theme:E19
+E25	Regulation:T24 Theme:E27
+E26	Regulation:T24 Theme:E28
+E27	Transcription:T25 Theme:T10
+E28	Transcription:T25 Theme:T11
+E29	Positive_regulation:T26 Theme:T12
+E30	Regulation:T27 Theme:E31
+E31	Transcription:T28 Theme:T13
+E32	Negative_regulation:T29 Theme:E33
+E33	Transcription:T30 Theme:T13
+M1	Speculation E7
+M2	Speculation E8
+M3	Speculation E9

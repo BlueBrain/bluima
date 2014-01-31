@@ -1,0 +1,77 @@
+Deb, K., Pratap, A., Agarwal, S., and Meyarivan, T. (2002). A fast and elitist multiobjective
+genetic algorithm: NSGA-II. IEEE Trans. evolutionary Comput. 6, 182–197.
+Goldberg, D. E., and Richarson, J. (1987) Genetic algorithms with sharing for multimodal
+function optimization. In Proceedings of the First International Conference on Genetic
+Algorithms and Their Applications, pp. 41–49.
+Goldman, M. S., Golowasch, J., Marder, E., and Abbott, L. F. (2001). Global structure,
+robustness, and modulation of neuronal models. J. Neurosci. 21, 5229–5238.
+Golowasch, J., Goldman, M. S., Abbott, L. F., and Marder, E. (2002). Failure of averaging
+in the construction of a conductance-based neuron model. J. Neurophysiol. 87,
+1129–1131.
+Hamill, O. P., Huguenard, J. R., and Prince, D. A. (1991). Patch-clamp studies of voltagegated currents in identified neurons of the rat cerebral cortex. Cereb. Cortex 1,
+48–61.
+Herz, A. V., Gollisch, T., Machens, C. K., and Jaeger, D. (2006). Modeling single-neuron
+dynamics and computations: A balance of detail and abstraction. Science 314,
+80–85.
+Hille, B. (2001). Ion channels of excitable membranes, 3rd edn (Sunderland, MA, Sinauer).
+Hwang, C. L., and Masud, A. S. M. (1979). Multiple objective decision making, methods
+and applications: a state-of-the-art survey (Berlin, New York, Springer-Verlag).
+Keren, N., Peled, N., and Korngreen, A. (2005). Constraining compartmental models using
+multiple voltage recordings and genetic algorithms. J. Neurophysiol. 94, 3730–3742.
+Kirkpatrick, S., Gelatt, C. D., and Vecchi, M. P. (1983). Optimization by simulated annealing. Science 220, 671–680.
+Koch, C., and Segev, I. (1998). Methods in neuronal modeling: from ions to networks,
+2nd edn (Cambridge, MA, MIT Press).
+Kohler, M., Hirschberg, B., Bond, C. T., Kinzie, J. M., Marrion, N. V., Maylie, J., and
+Adelman, J. P. (1996). Small-conductance, calcium-activated potassium channels
+from mammalian brain. Science 273, 1709–1714.
+Kole, M. H., Hallermann, S., and Stuart, G. J. (2006). Single Ih channels in pyramidal
+neuron dendrites: properties, distribution, and impact on action potential output. J.
+Neurosci. 26, 1677–1687.
+Korngreen, A., and Sakmann, B. (2000). Voltage-gated K+ channels in layer 5 neocortical pyramidal neurones from young rats: subtypes and gradients. J. Physiol. 525,
+621–639.
+LeMasson, G., Maex R. (2001), Introduction to equation solving and parameter fitting. In
+Computational Neuroscience, E. De Schutter, ed. (Boca Raton, FL, CRC Press), pp.
+1–24.
+London, M., and Hausser, M. (2005). Dendritic computation. Annu. Rev. Neurosci. 28,
+503–532.
+MacLean, J. N., Zhang, Y., Johnson, B. R., and Harris-Warrick, R. M. (2003). Activityindependent homeostasis in rhythmically active neurons. Neuron 37, 109–120.
+Magistretti, J., and Alonso, A. (1999). Biophysical properties and slow voltage-dependent
+inactivation of a sustained sodium current in entorhinal cortex layer-II principal neurons: a whole-cell and single-channel study. J. Gen. Physiol. 114, 491–
+509.
+Mainen, Z. F., Joerges, J., Huguenard, J. R., and Sejnowski, T. J. (1995). A model of spike
+initiation in neocortical pyramidal neurons. Neuron 15, 1427–1439.
+Mainen, Z. F., and Sejnowski, T. J. (1995). Reliability of spike timing in neocortical
+neurons. Science 268, 1503–1506.
+Marder, E., and Goaillard, J. M., (2006). Variability, compensation and homeostasis in
+neuron and network function. Nat. Rev. Neurosci. 7, 563–574.
+Markram, H., Toledo-Rodriguez, M., Wang, Y., Gupta, A., Silberberg, G., and Wu, C.
+(2004). Interneurons of the neocortical inhibitory system. Nat. Rev. Neurosci. 5, 793–
+807.
+Michalewicz, Z. (1992). Genetic algorithms + data structures = evolution programs
+(Berlin, New York, Springer-Verlag).
+Mitchell, M. (1998). An introduction to genetic algorithms (Cambridge, MA, MIT Press).
+Nowak, L. G., Sanchez-Vives, M. V., and McCormick, D. A. (1997). Influence of low and
+high frequency inputs on spike timing in visual cortical neurons. Cereb. Cortex 7,
+487–501.
+Press, W. H. (2002). Numerical recipes in C : the art of scientific computing, 2nd edn
+(Cambridge Cambridgeshire, New York, Cambridge University Press).
+Prinz, A. A., Abbott, L. F., and Marder, E. (2004a). The dynamic clamp comes of age.
+Trends Neurosci. 27, 218–224.
+Prinz, A. A., Billimoria, C. P., and Marder, E. (2003). Alternative to hand-tuning
+conductance-based models: construction and analysis of databases of model neurons. J. Neurophysiol. 90, 3998–4015.
+Prinz, A. A., Bucher, D., and Marder, E. (2004b). Similar network activity from disparate
+circuit parameters. Nat. Neurosci. 7, 1345–1352.
+Rapp, M., Yarom, Y., and Segev, I. (1996). Modeling back propagating action potential in
+weakly excitable dendrites of neocortical pyramidal cells. Proc. Natl. Acad Sci. USA
+93, 11985–11990.
+Reuveni, I., Friedman, A., Amitai, Y., and Gutnick, M. J. (1993). Stepwise repolarization
+from Ca2+ plateaus in neocortical pyramidal cells: evidence for nonhomogeneous
+distribution of HVA Ca2+ channels in dendrites. J. Neurosci. 13, 4609–4621.
+Rudy, B., and McBain, C. J. (2001). Kv3 channels: voltage-gated K+ channels designed
+for high-frequency repetitive firing. Trends Neurosci. 24, 517–526.
+Schneidman, E., Freedman, B., and Segev, I. (1998). Ion channel stochasticity may be
+critical in determining the reliability and precision of spike timing. Neural Comput.
+10, 1679–1703.
+Schulz, D. J., Goaillard, J. M., and Marder, E. (2006). Variable channel expression in
+identified single and electrically coupled neurons in different animals. Nat. Neurosci.
+9, 356–362.

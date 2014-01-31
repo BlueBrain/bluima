@@ -1,0 +1,58 @@
+*	Equiv T14 T13
+*	Equiv T4 T3
+T24	Regulation 0 10	Regulation
+T25	Gene_expression 49 59	expression
+T26	Regulation 188 198	regulation
+T27	Gene_expression 251 261	expression
+T28	Positive_regulation 425 432	induced
+T29	Gene_expression 437 447	expression
+T30	Localization 528 541	translocation
+T31	Entity 610 617	nucleus
+T32	Binding 630 635	bound
+T33	Binding 719 731	heterodimers
+T34	Positive_regulation 794 802	mediated
+T35	Localization 819 827	secreted
+T36	Negative_regulation 891 900	inhibited
+T37	Negative_regulation 989 996	blocked
+T38	Gene_expression 1007 1017	production
+T39	Positive_regulation 1018 1025	induced
+T40	Negative_regulation 1043 1052	inhibited
+T41	Positive_regulation 1080 1090	activation
+T42	Negative_regulation 1143 1152	recovered
+T43	Negative_regulation 1187 1197	inhibition
+T44	Localization 1379 1387	secreted
+T45	Regulation 1442 1449	control
+T46	Gene_expression 1457 1467	expression
+E1	Regulation:T24 Theme:E2
+E2	Gene_expression:T25 Theme:T1
+E3	Regulation:T26 Theme:E4
+E4	Gene_expression:T27 Theme:T4
+E5	Positive_regulation:T28 Theme:E6
+E6	Gene_expression:T29 Theme:T5
+E7	Localization:T30 Theme:T6 ToLoc:T31
+E8	Localization:T30 Theme:T7 ToLoc:T31
+E9	Binding:T32 Theme:T7 Theme2:T8
+E10	Binding:T32 Theme:T6 Theme2:T8
+E11	Binding:T33 Theme:T9 Theme2:T10
+E12	Binding:T33 Theme:T11 Theme2:T12
+E13	Positive_regulation:T34 Theme:E9 Cause:T14
+E14	Positive_regulation:T34 Theme:E8 Cause:T14
+E15	Positive_regulation:T34 Theme:E7 Cause:T14
+E16	Positive_regulation:T34 Theme:E10 Cause:T14
+E17	Localization:T35 Theme:T14
+E18	Negative_regulation:T36 Theme:E9
+E19	Negative_regulation:T36 Theme:E10
+E20	Negative_regulation:T36 Theme:E8
+E21	Negative_regulation:T37 Theme:E23
+E22	Gene_expression:T38 Theme:T16
+E23	Positive_regulation:T39 Theme:E22
+E24	Negative_regulation:T40 Theme:E25
+E25	Positive_regulation:T41 Theme:T17
+E26	Negative_regulation:T42 Theme:E28 Cause:T19
+E27	Negative_regulation:T42 Theme:E28 Cause:T18
+E28	Negative_regulation:T43 Theme:T20
+E29	Localization:T44 Theme:T22
+E30	Regulation:T45 Theme:E31 Cause:T22
+E31	Gene_expression:T46 Theme:T23
+M1	Speculation E3
+M2	Speculation E4

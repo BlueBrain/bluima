@@ -1,0 +1,20 @@
+T10	Gene_expression 14 24	expression
+T11	Gene_expression 362 370	detected
+T12	Gene_expression 423 433	expression
+T13	Gene_expression 1048 1060	Transfection
+T14	Positive_regulation 1048 1060	Transfection
+T15	Binding 1305 1321	binding activity
+T16	Gene_expression 1378 1388	appearance
+T17	Positive_regulation 1473 1485	attributable
+T18	Positive_regulation 1512 1520	elevated
+E1	Gene_expression:T10 Theme:T1
+E2	Gene_expression:T11 Theme:T3
+E3	Gene_expression:T12 Theme:T4
+E4	Gene_expression:T13 Theme:T7
+E5	Positive_regulation:T14 Theme:E4
+E6	Binding:T15 Theme:T8
+E7	Gene_expression:T16 Theme:T8
+E8	Positive_regulation:T17 Theme:E9 Cause:E7
+E9	Positive_regulation:T18 Theme:T9
+M1	Speculation E3
+M2	Speculation E8

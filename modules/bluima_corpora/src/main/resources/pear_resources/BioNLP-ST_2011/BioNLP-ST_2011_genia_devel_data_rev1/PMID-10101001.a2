@@ -1,0 +1,10 @@
+*	Equiv T2 T1
+T7	Negative_regulation 880 887	reduced
+T8	Positive_regulation 902 914	upregulation
+T9	Negative_regulation 1002 1009	reduced
+T10	Gene_expression 1427 1437	production
+E1	Negative_regulation:T7 Theme:T2
+E2	Negative_regulation:T7 Theme:T3
+E3	Positive_regulation:T8 Theme:T4
+E4	Negative_regulation:T9 Theme:E3
+E5	Gene_expression:T10 Theme:T6

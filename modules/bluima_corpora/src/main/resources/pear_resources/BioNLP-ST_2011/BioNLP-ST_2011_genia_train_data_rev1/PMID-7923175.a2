@@ -1,0 +1,10 @@
+*	Equiv T1 T2
+T5	Binding 863 879	binding activity
+T6	Positive_regulation 1175 1182	induced
+T7	Localization 1254 1260	detect
+T8	Entity 1273 1289	nuclear extracts
+E1	Binding:T5 Theme:T1
+E2	Positive_regulation:T6 Theme:T3
+E3	Localization:T7 Theme:T4 AtLoc:T8
+M1	Negation E2
+M2	Negation E3

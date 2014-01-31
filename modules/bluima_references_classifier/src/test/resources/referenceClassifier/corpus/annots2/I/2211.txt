@@ -1,0 +1,29 @@
+rection. The time stepusedin the simulationswas
+0.167 ms.
+Superior colliculus dischargeobeyed the formula
+firing rate = 800 exp[-(t/10)2]
+where to = 15 ms. Its long lead consistedof 50
+spikes/sfrom -44 ms < t < -24 ms to produce
+saccadelatency of ~46 ms (basedon 7-msdelay
+from MN burst to onsetof movement).
+Synapticweightings:
+SCto OPN 0.075
+SCto LLBN 100X time step
+IFN to LLBN 100X time step
+LLBN to EBN 0.9
+LLBN to IBN 0.8
+OPN to EBN 8.4
+OPN to IBN 6.4
+EBN to IBN 0.10
+EBN to IFN 1.0
+EBN to MN 0.4
+EBN to TN 3.8 X time step
+IBN to EBN 0.25
+IBN to IBN 0.15
+IBN to IFN 1.0
+IBN to OPN 0.18
+IBN to TN 3.8 X time step
+IBN to MN 0.4
+** For saccade<s 2”, the SCto OPN weighting
+must gradually increaseto 0.125 to be able to
+triggerthe smallestsaccades.

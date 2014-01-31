@@ -1,0 +1,64 @@
+*	Equiv T2 T3
+T33	Negative_regulation 472 487	down regulation
+T34	Positive_regulation 879 888	increased
+T35	Transcription 889 899	expression
+T36	Regulation 1021 1027	effect
+T37	Transcription 1047 1057	expression
+T38	Regulation 1110 1116	affect
+T39	Transcription 1121 1131	expression
+T40	Positive_regulation 1156 1164	enhanced
+T41	Transcription 1169 1179	expression
+T42	Positive_regulation 1277 1285	increase
+T43	Transcription 1293 1303	expression
+T44	Positive_regulation 1326 1332	due to
+T45	Positive_regulation 1336 1344	increase
+T46	Gene_expression 1496 1505	expressed
+T47	Positive_regulation 1556 1564	resulted
+T48	Gene_expression 1572 1582	expression
+T49	Gene_expression 1784 1793	contained
+T50	Positive_regulation 1814 1828	in response to
+T51	Positive_regulation 1912 1920	enhanced
+T52	Gene_expression 1941 1951	expression
+T53	Regulation 2031 2037	change
+T54	Gene_expression 2058 2068	expression
+E1	Negative_regulation:T33 Theme:T6
+E2	Negative_regulation:T33 Theme:T7
+E3	Positive_regulation:T34 Theme:E4
+E4	Transcription:T35 Theme:T9
+E5	Regulation:T36 Theme:E6
+E6	Transcription:T37 Theme:T11
+E7	Regulation:T38 Theme:E8
+E8	Transcription:T39 Theme:T13
+E9	Positive_regulation:T40 Theme:E10
+E10	Transcription:T41 Theme:T14
+E11	Positive_regulation:T42 Theme:E12
+E12	Transcription:T43 Theme:T16
+E13	Positive_regulation:T44 Theme:E11 Cause:E14
+E14	Positive_regulation:T45 Theme:T17
+E15	Gene_expression:T46 Theme:T18
+E16	Positive_regulation:T47 Theme:E20
+E17	Positive_regulation:T47 Theme:E20 Cause:T19
+E18	Positive_regulation:T47 Theme:E21 Cause:T19
+E19	Positive_regulation:T47 Theme:T19
+E20	Gene_expression:T48 Theme:T20
+E21	Gene_expression:T48 Theme:T21
+E22	Gene_expression:T49 Theme:T24
+E23	Gene_expression:T49 Theme:T23
+E24	Positive_regulation:T50 Theme:E23 Cause:T25
+E25	Positive_regulation:T50 Theme:E22 Cause:T25
+E26	Positive_regulation:T50 Theme:E23
+E27	Positive_regulation:T50 Theme:E22
+E28	Positive_regulation:T51 Theme:E31 Cause:T25
+E29	Positive_regulation:T51 Theme:E30 Cause:T25
+E30	Gene_expression:T52 Theme:T27
+E31	Gene_expression:T52 Theme:T26
+E32	Regulation:T53 Theme:E34 Cause:T28
+E33	Regulation:T53 Theme:E35 Cause:T28
+E34	Gene_expression:T54 Theme:T30
+E35	Gene_expression:T54 Theme:T29
+M1	Negation E5
+M2	Negation E7
+M3	Negation E28
+M4	Negation E29
+M5	Negation E32
+M6	Negation E33

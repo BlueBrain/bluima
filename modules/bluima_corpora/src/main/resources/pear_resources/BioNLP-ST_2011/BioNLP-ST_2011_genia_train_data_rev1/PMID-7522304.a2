@@ -1,0 +1,5 @@
+*	Equiv T4 T5
+T8	Positive_regulation 604 611	induced
+T9	Transcription 612 625	transcription
+E1	Positive_regulation:T8 Theme:E2
+E2	Transcription:T9 Theme:T3

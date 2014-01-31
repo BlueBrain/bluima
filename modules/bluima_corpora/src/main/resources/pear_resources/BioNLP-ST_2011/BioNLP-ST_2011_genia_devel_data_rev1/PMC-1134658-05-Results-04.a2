@@ -1,0 +1,40 @@
+T17	Positive_regulation 6 13	induces
+T18	Phosphorylation 14 29	phosphorylation
+T19	Phosphorylation 501 515	phosphorylated
+T20	Positive_regulation 623 630	induced
+T21	Phosphorylation 631 646	phosphorylation
+T22	Positive_regulation 666 673	induced
+T23	Phosphorylation 674 689	phosphorylation
+T24	Regulation 1066 1073	changes
+T25	Phosphorylation 1090 1097	phospho
+T26	Phosphorylation 1107 1114	phospho
+E1	Positive_regulation:T17 Theme:E2 Cause:T1
+E3	Positive_regulation:T17 Theme:E4 Cause:T1
+E5	Positive_regulation:T17 Theme:E6 Cause:T1
+E2	Phosphorylation:T18 Theme:T2
+E4	Phosphorylation:T18 Theme:T3
+E6	Phosphorylation:T18 Theme:T4
+E7	Phosphorylation:T19 Theme:T7
+E8	Phosphorylation:T19 Theme:T8
+E9	Phosphorylation:T19 Theme:T9
+E10	Positive_regulation:T20 Theme:E11 Cause:T10
+E12	Positive_regulation:T20 Theme:E13 Cause:T10
+E14	Positive_regulation:T20 Theme:E15 Cause:T10
+E11	Phosphorylation:T21 Theme:T7
+E13	Phosphorylation:T21 Theme:T8
+E15	Phosphorylation:T21 Theme:T9
+E16	Positive_regulation:T22 Theme:E17 Cause:T11
+E18	Positive_regulation:T22 Theme:E19 Cause:T11
+E20	Positive_regulation:T22 Theme:E21 Cause:T11
+E17	Phosphorylation:T23 Theme:T7
+E19	Phosphorylation:T23 Theme:T8
+E21	Phosphorylation:T23 Theme:T9
+E22	Regulation:T24 Theme:E23 Cause:T16
+E24	Regulation:T24 Theme:E25 Cause:T16
+E23	Phosphorylation:T25 Theme:T14
+E25	Phosphorylation:T26 Theme:T15
+M1	Speculation E7
+M2	Speculation E8
+M3	Speculation E9
+M4	Negation E22
+M5	Negation E24

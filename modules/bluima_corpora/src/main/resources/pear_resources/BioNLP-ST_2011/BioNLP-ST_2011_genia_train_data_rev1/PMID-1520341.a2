@@ -1,0 +1,27 @@
+*	Equiv T7 T6
+T11	Positive_regulation 25 32	inducer
+T12	Negative_regulation 194 203	inhibitor
+T13	Positive_regulation 350 356	effect
+T14	Regulation 488 497	important
+T15	Positive_regulation 488 497	important
+T16	Gene_expression 505 514	induction
+T17	Regulation 583 590	effects
+T18	Positive_regulation 684 692	increase
+T19	Positive_regulation 753 766	large amounts
+T20	Localization 785 793	released
+E1	Positive_regulation:T11 Theme:T1
+E2	Negative_regulation:T12 Theme:T2
+E3	Negative_regulation:T12 Theme:T3
+E4	Positive_regulation:T13 Theme:T4
+E5	Positive_regulation:T13 Theme:T5
+E6	Regulation:T14 Theme:E8
+E7	Positive_regulation:T15 Theme:E8
+E8	Gene_expression:T16 Theme:T7
+E9	Regulation:T17 Theme:T8
+E10	Positive_regulation:T18 Theme:T9
+E11	Positive_regulation:T19 Theme:E12 Cause:E10
+E12	Localization:T20 Theme:T10
+M1	Speculation E1
+M2	Negation E4
+M3	Negation E5
+M4	Speculation E9

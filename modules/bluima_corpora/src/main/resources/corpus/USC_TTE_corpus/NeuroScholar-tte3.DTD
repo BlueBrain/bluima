@@ -1,0 +1,126 @@
+<!ELEMENT File ANY>
+<!ELEMENT Title (#PCDATA)>
+<!ELEMENT Citation (#PCDATA)>
+<!ELEMENT Authors (#PCDATA)>
+<!ELEMENT Abstract (BR|S|TTE)*>
+<!ELEMENT Introduction (BR|S)*>
+<!ELEMENT Methods (BR|S)*>
+<!ELEMENT Results (BR|S|TTE)*>
+<!ELEMENT Discussion (BR|S)*>
+<!ELEMENT Conclusion (BR|S)*>
+<!ELEMENT Acknowledgements (BR|S)*>
+<!ELEMENT References (S|BR)*>
+<!ELEMENT BR EMPTY>
+<!ELEMENT S (#PCDATA|neuroanatomicalLocation|
+					neuroanatomicalLandmark| 
+				   	injectionLocation| 
+				   	injectionSpread| 
+				   	labelingLocation|
+				   	labelingDescription|
+					labelingModifier|
+				   	tracerChemical|
+					exptLabel|
+					connxOrigin|
+					connxTermination)*>
+<!ATTLIST S id ID #REQUIRED >
+<!ATTLIST S format CDATA #REQUIRED>
+<!ATTLIST S class CDATA #REQUIRED>
+<!ATTLIST S avgH CDATA #REQUIRED>
+	
+<!-- 
+	The neuroanatomicalLocation is a noun phrase describing a place in the brain.
+	It is the parent of all other xxxLocation tags.
+-->
+<!ELEMENT neuroanatomicalLocation (#PCDATA)> 
+<!ATTLIST neuroanatomicalLocation spReln CDATA "in">
+<!ATTLIST neuroanatomicalLocation dirn CDATA "">
+
+<!-- 
+	A neuroanatomicalLandmark is a neuroanatomicalLocation that is used to provide a reference 
+	for another location within the narrative.
+-->
+<!ELEMENT neuroanatomicalLandmark (#PCDATA)> 
+<!ATTLIST neuroanatomicalLandmark spReln CDATA "in">
+<!ATTLIST neuroanatomicalLandmark dirn CDATA "">
+	
+<!-- 
+	TTE is the tag for a standard-issue tract-tracing experiment.
+	How could we represent other types?
+		- double labeling studies
+		- electron microscope studies
+		- activation studies.
+		- allow experiments to be clustered
+-->
+<!ELEMENT TTE (BR|S|TTE)*>
+
+<!-- 
+	the injectionLocation is a noun phrase describing the location of 
+	where the tracer injection was made (or where it was centered). This 
+	is either the source or target region that experimenters are studying
+-->
+<!ELEMENT injectionLocation (#PCDATA)> 
+<!ATTLIST injectionLocation spReln CDATA "in">
+<!ATTLIST injectionLocation dirn CDATA "">
+
+<!-- 
+	the injectionSpread is a noun phrase describing additional areas that 
+	were either included in the injection site if the yesNo attribute is 1
+	or were specifically identified as being omitted if the yesNo attribute is 0
+	
+	DEPRECATED
+-->
+<!ELEMENT injectionSpread (#PCDATA)> 
+<!ATTLIST injectionSpread yesNo CDATA "1">
+
+<!-- 
+	the labelingLocation is a noun phrase describing a specific region of labeling.
+	Typically, this phrase will name a specific brain region with topographic 
+	modifiers
+-->
+<!ELEMENT labelingLocation (#PCDATA)> 
+<!ATTLIST labelingLocation spReln CDATA "in">
+<!ATTLIST labelingLocation dirn CDATA "">
+
+<!-- 
+	the labelingDescription is a phrase (and can be quite complex and unstructured
+	which describes additional qualities of the labeling: density, presence of 
+	boutons, type of labeling: cells/fibers, etc.
+-->
+<!ELEMENT labelingDescription (#PCDATA)> 
+
+<!-- 
+	the name or abbreviation denoting the tracer chemical
+-->
+<!ELEMENT tracerChemical (#PCDATA)> 
+
+<!-- 
+	the name or abbreviation denoting the experiment. This needs to be eithe a noun 
+	that refers to an object that can act as a marker for the experiment, i.e., an
+	injection, or the name of the case, or the word 'case' or 'injection'  
+	(for tract-tracing). We want to have an anchor point for each experiment in the text.
+-->
+<!ELEMENT exptLabel (#PCDATA|injectionLocation|tracerChemical)*> 
+
+<!-- 
+	This tag shows that the verb used to describe the labeling in the text modifies 
+	the meaning of the labeling description, (e.g., 'axons avoided nucleus X') 
+	-->
+<!ELEMENT labelingModifier (#PCDATA)*> 
+
+<!-- 
+	NEW TAGS FOR MODEL DATA
+-->
+
+<!-- 
+	This tag is the starting point of a neural projection 
+	-->
+<!ELEMENT connxOrigin (#PCDATA)*> 
+<!ATTLIST connxOrigin spReln CDATA "in">
+<!ATTLIST connxOrigin dirn CDATA "">
+
+<!-- 
+	This tag is the terminal region point of a neural projection
+	-->
+<!ELEMENT connxTermination (#PCDATA)*> 
+<!ATTLIST connxTermination spReln CDATA "in">
+<!ATTLIST connxTermination dirn CDATA "">

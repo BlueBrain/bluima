@@ -1,0 +1,12 @@
+T9	Binding 571 578	binding
+T10	Negative_regulation 1164 1171	lacking
+T11	Binding 1176 1183	binding
+T12	Binding 1432 1443	interacting
+E1	Binding:T9 Theme:T2
+E2	Binding:T9 Theme:T1
+E3	Negative_regulation:T10 Theme:E5
+E4	Negative_regulation:T10 Theme:E6
+E5	Binding:T11 Theme:T6
+E6	Binding:T11 Theme:T5
+E7	Binding:T12 Theme:T1
+E8	Binding:T12 Theme:T2

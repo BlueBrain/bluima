@@ -1,0 +1,40 @@
+*	Equiv T3 T2
+T13	Regulation 175 179	role
+T14	Regulation 183 193	regulating
+T15	Gene_expression 198 208	expression
+T16	Gene_expression 602 608	source
+T17	Gene_expression 644 652	produced
+T18	Positive_regulation 873 880	mediate
+T19	Gene_expression 885 895	expression
+T20	Gene_expression 1293 1301	produced
+T21	Gene_expression 1425 1435	production
+T22	Positive_regulation 1436 1443	induced
+T23	Negative_regulation 1597 1604	failure
+T24	Gene_expression 1622 1629	produce
+T25	Regulation 1635 1649	in response to
+T26	Negative_regulation 1694 1701	failure
+T27	Positive_regulation 1705 1711	induce
+T28	Transcription 1723 1736	transcription
+E1	Regulation:T13 Theme:E4
+E2	Regulation:T13 Theme:E3
+E3	Regulation:T14 Theme:E6
+E4	Regulation:T14 Theme:E5
+E5	Gene_expression:T15 Theme:T3
+E6	Gene_expression:T15 Theme:T4
+E7	Gene_expression:T16 Theme:T6
+E8	Gene_expression:T17 Theme:T7
+E9	Positive_regulation:T18 Theme:E10
+E10	Gene_expression:T19 Theme:T8
+E11	Gene_expression:T20 Theme:T9
+E12	Gene_expression:T21 Theme:T10
+E13	Positive_regulation:T22 Theme:E12
+E14	Negative_regulation:T23 Theme:E16
+E15	Gene_expression:T24 Theme:T11
+E16	Regulation:T25 Theme:E15
+E17	Negative_regulation:T26 Theme:E18 Cause:E14
+E18	Positive_regulation:T27 Theme:E19
+E19	Transcription:T28 Theme:T12
+M1	Negation E11
+M2	Speculation E14
+M3	Speculation E16
+M4	Speculation E17

@@ -1,0 +1,43 @@
+*	Equiv T11 T12
+T20	Positive_regulation 57 65	inducing
+T21	Gene_expression 70 80	expression
+T22	Regulation 328 336	regulate
+T23	Gene_expression 341 351	expression
+T24	Regulation 399 409	responsive
+T25	Positive_regulation 436 443	induced
+T26	Gene_expression 457 467	expression
+T27	Positive_regulation 568 579	upregulated
+T28	Negative_regulation 635 644	inhibited
+T29	Gene_expression 736 746	expression
+T30	Gene_expression 767 777	expressing
+T31	Gene_expression 843 853	expressing
+T32	Positive_regulation 967 983	increased levels
+T33	Positive_regulation 1124 1133	induction
+T34	Positive_regulation 1159 1165	highly
+T35	Gene_expression 1166 1175	expressed
+T36	Gene_expression 1210 1219	expressed
+T37	Positive_regulation 1337 1345	inducing
+T38	Gene_expression 1359 1369	expression
+E1	Positive_regulation:T20 Theme:E2
+E2	Gene_expression:T21 Theme:T1
+E3	Regulation:T22 Theme:E4
+E4	Gene_expression:T23 Theme:T2
+E5	Regulation:T24 Theme:T3
+E6	Positive_regulation:T25 Theme:E9 Cause:T5
+E7	Positive_regulation:T25 Theme:E9 Cause:T4
+E8	Positive_regulation:T25 Theme:E9
+E9	Gene_expression:T26 Theme:T6
+E10	Positive_regulation:T27 Theme:T7
+E11	Negative_regulation:T28 Theme:E10 Cause:T8
+E12	Gene_expression:T29 Theme:T9
+E13	Gene_expression:T30 Theme:T10
+E14	Gene_expression:T31 Theme:T11
+E15	Positive_regulation:T32 Theme:T13
+E16	Positive_regulation:T32 Theme:T14
+E17	Positive_regulation:T33 Theme:T15
+E18	Positive_regulation:T34 Theme:E19
+E19	Gene_expression:T35 Theme:T15
+E20	Gene_expression:T36 Theme:T16
+E21	Positive_regulation:T37 Theme:E22 Cause:T17
+E22	Gene_expression:T38 Theme:T18
+M1	Negation E8

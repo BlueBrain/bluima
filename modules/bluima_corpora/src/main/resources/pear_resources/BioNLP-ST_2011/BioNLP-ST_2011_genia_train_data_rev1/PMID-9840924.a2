@@ -1,0 +1,45 @@
+T25	Positive_regulation 6 13	induces
+T26	Gene_expression 19 29	expression
+T27	Positive_regulation 201 208	induces
+T28	Gene_expression 214 224	expression
+T29	Positive_regulation 264 274	activation
+T30	Entity 287 295	promoter
+T31	Negative_regulation 308 317	inhibited
+T32	Positive_regulation 445 453	promoted
+T33	Positive_regulation 638 662	necessary and sufficient
+T34	Positive_regulation 671 681	activation
+T35	Entity 694 702	promoter
+T36	Positive_regulation 717 727	activation
+T37	Entity 745 753	promoter
+T38	Regulation 804 810	depend
+T39	Entity 872 880	promoter
+T40	Positive_regulation 887 897	activation
+T41	Negative_regulation 917 924	blocked
+T42	Negative_regulation 989 998	inhibitor
+T43	Positive_regulation 1223 1233	activation
+T44	Entity 1246 1254	promoter
+T45	Regulation 1258 1275	under the control
+T46	Positive_regulation 1494 1504	activation
+T47	Entity 1517 1525	promoter
+T48	Negative_regulation 1581 1588	blocked
+T49	Negative_regulation 1658 1665	blocked
+E1	Positive_regulation:T25 Theme:E2
+E2	Gene_expression:T26 Theme:T2
+E3	Positive_regulation:T27 Theme:E4 Cause:T3
+E4	Gene_expression:T28 Theme:T4
+E5	Positive_regulation:T29 Theme:T5 Cause:T6 Site:T30
+E6	Negative_regulation:T31 Theme:E5
+E7	Positive_regulation:T32 Theme:E5
+E8	Positive_regulation:T33 Theme:E9
+E9	Positive_regulation:T34 Theme:T7 Cause:T8 Site:T35
+E10	Positive_regulation:T36 Theme:T9 Site:T37
+E11	Regulation:T38 Theme:E10
+E12	Positive_regulation:T40 Theme:T11 Cause:T12 Site:T39
+E13	Negative_regulation:T41 Theme:E12
+E14	Negative_regulation:T42 Theme:T12
+E15	Negative_regulation:T42 Theme:T13
+E16	Positive_regulation:T43 Theme:T18 Site:T44
+E17	Regulation:T45 Theme:E16
+E18	Positive_regulation:T46 Theme:T20 Cause:T21 Site:T47
+E19	Negative_regulation:T48 Theme:E18
+E20	Negative_regulation:T49 Theme:E18

@@ -1,0 +1,6 @@
+T11	Gene_expression 159 169	expression
+T12	Gene_expression 295 305	expression
+T13	Positive_regulation 436 445	generated
+E1	Gene_expression:T11 Theme:T2
+E2	Gene_expression:T12 Theme:T3
+E3	Positive_regulation:T13 Theme:T4

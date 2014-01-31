@@ -1,0 +1,17 @@
+T52	Gene_expression 802 812	expression
+T53	Gene_expression 839 849	expression
+T54	Gene_expression 1552 1562	espression
+T55	Positive_regulation 1989 1999	increasing
+E1	Gene_expression:T52 Theme:T9
+E2	Gene_expression:T52 Theme:T10
+E3	Gene_expression:T52 Theme:T11
+E4	Gene_expression:T53 Theme:T12
+E5	Gene_expression:T53 Theme:T13
+E6	Gene_expression:T54 Theme:T28
+E7	Positive_regulation:T55 Theme:T40
+M1	Speculation E1
+M2	Speculation E2
+M3	Speculation E3
+M4	Speculation E4
+M5	Speculation E5
+M6	Speculation E6

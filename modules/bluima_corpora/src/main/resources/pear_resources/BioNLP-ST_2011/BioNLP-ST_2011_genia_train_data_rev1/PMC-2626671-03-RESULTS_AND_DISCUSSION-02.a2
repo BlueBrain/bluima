@@ -1,0 +1,47 @@
+*	Equiv T8 T9
+*	Equiv T10 T11
+T19	Gene_expression 9 19	expression
+T20	Gene_expression 187 197	expression
+T21	Gene_expression 270 280	expression
+T22	Gene_expression 357 367	expression
+T23	Transcription 402 417	mRNA expression
+T24	Positive_regulation 426 434	increase
+T25	Negative_regulation 482 490	decrease
+T26	Positive_regulation 520 532	reexpression
+T27	Transcription 609 628	low or undetectable
+T28	Positive_regulation 663 675	up-regulated
+T29	Positive_regulation 707 716	increased
+T30	Positive_regulation 819 832	remained high
+T31	Gene_expression 904 913	expressed
+T32	Positive_regulation 992 1001	increased
+T33	Gene_expression 1482 1489	express
+T34	Gene_expression 2028 2038	expression
+T35	Gene_expression 2124 2134	expression
+T36	Positive_regulation 2162 2169	induced
+E1	Gene_expression:T19 Theme:T1
+E2	Gene_expression:T19 Theme:T2
+E3	Gene_expression:T20 Theme:T3
+E4	Gene_expression:T20 Theme:T4
+E5	Gene_expression:T21 Theme:T6
+E6	Gene_expression:T21 Theme:T7
+E7	Gene_expression:T22 Theme:T8
+E8	Transcription:T23 Theme:T8
+E9	Positive_regulation:T24 Theme:E8
+E10	Negative_regulation:T25 Theme:E8
+E11	Positive_regulation:T26 Theme:E8
+E12	Transcription:T27 Theme:T10
+E13	Positive_regulation:T28 Theme:T10
+E14	Positive_regulation:T29 Theme:T10
+E15	Positive_regulation:T30 Theme:T12
+E16	Gene_expression:T31 Theme:T13
+E17	Gene_expression:T31 Theme:T14
+E18	Positive_regulation:T32 Theme:E16
+E19	Positive_regulation:T32 Theme:E17
+E20	Gene_expression:T33 Theme:T15
+E21	Gene_expression:T34 Theme:T16
+E22	Gene_expression:T35 Theme:T17
+E23	Positive_regulation:T36 Theme:E22
+M1	Speculation E1
+M2	Speculation E2
+M3	Negation E9
+M4	Negation E12

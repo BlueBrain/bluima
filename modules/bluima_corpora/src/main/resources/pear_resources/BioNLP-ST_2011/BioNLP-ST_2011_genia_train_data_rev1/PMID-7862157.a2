@@ -1,0 +1,25 @@
+T13	Gene_expression 628 638	expression
+T14	Positive_regulation 663 672	prominent
+T15	Transcription 764 772	detected
+T16	Gene_expression 904 914	expression
+T17	Positive_regulation 928 937	persisted
+T18	Transcription 1000 1008	detected
+T19	Gene_expression 1127 1136	expressed
+T20	Transcription 1304 1312	detected
+T21	Gene_expression 1439 1449	expression
+E1	Gene_expression:T13 Theme:T2
+E2	Gene_expression:T13 Theme:T1
+E3	Positive_regulation:T14 Theme:E2
+E4	Positive_regulation:T14 Theme:E1
+E5	Transcription:T15 Theme:T6
+E6	Transcription:T15 Theme:T5
+E7	Gene_expression:T16 Theme:T6
+E8	Gene_expression:T16 Theme:T5
+E9	Positive_regulation:T17 Theme:E7
+E10	Positive_regulation:T17 Theme:E8
+E11	Transcription:T18 Theme:T6
+E12	Transcription:T18 Theme:T5
+E13	Gene_expression:T19 Theme:T5
+E14	Gene_expression:T19 Theme:T6
+E15	Transcription:T20 Theme:T11
+E16	Gene_expression:T21 Theme:T12

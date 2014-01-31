@@ -1,0 +1,8 @@
+T4	Regulation 680 690	contribute
+T5	Gene_expression 712 722	expression
+T6	Regulation 766 776	regulating
+T7	Gene_expression 787 797	expression
+E1	Regulation:T4 Theme:E2
+E2	Gene_expression:T5 Theme:T2
+E3	Regulation:T6 Theme:E4
+E4	Gene_expression:T7 Theme:T3

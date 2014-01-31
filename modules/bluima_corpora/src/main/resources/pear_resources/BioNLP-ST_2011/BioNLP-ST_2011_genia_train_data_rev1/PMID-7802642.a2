@@ -1,0 +1,18 @@
+*	Equiv T3 T2
+*	Equiv T10 T11
+T13	Positive_regulation 63 73	expression
+T14	Transcription 208 219	transcribed
+T15	Positive_regulation 220 222	by
+T16	Positive_regulation 578 589	upregulated
+T17	Gene_expression 712 721	expresses
+T18	Positive_regulation 1150 1169	positive regulation
+T19	Gene_expression 1183 1193	expression
+E1	Positive_regulation:T13 Theme:T1
+E2	Transcription:T14 Theme:T3
+E3	Positive_regulation:T15 Theme:E2
+E4	Positive_regulation:T16 Theme:T7
+E5	Gene_expression:T17 Theme:T8
+E6	Gene_expression:T17 Theme:T9
+E7	Positive_regulation:T18 Theme:E8
+E8	Gene_expression:T19 Theme:T12
+M1	Negation E4

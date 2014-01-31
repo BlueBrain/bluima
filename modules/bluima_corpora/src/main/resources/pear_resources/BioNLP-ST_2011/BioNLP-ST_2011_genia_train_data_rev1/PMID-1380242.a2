@@ -1,0 +1,27 @@
+*	Equiv T2 T1
+T11	Regulation 245 255	controlled
+T12	Transcription 256 273	transcriptionally
+T13	Binding 344 348	bind
+T14	Entity 361 369	enhancer
+T15	Negative_regulation 401 408	inhibit
+T16	Transcription 465 483	gene transcription
+T17	Regulation 584 594	implicated
+T18	Gene_expression 603 613	production
+T19	Negative_regulation 636 643	inhibit
+T20	Gene_expression 653 663	expression
+T21	Positive_regulation 922 931	stimulate
+T22	Gene_expression 937 947	production
+E1	Regulation:T11 Theme:E2
+E2	Transcription:T12 Theme:T2
+E3	Binding:T13 Theme:T3 Site:T14
+E4	Negative_regulation:T15 Theme:E5
+E5	Transcription:T16 Theme:T4
+E6	Regulation:T17 Theme:E7 Cause:T5
+E7	Gene_expression:T18 Theme:T6
+E8	Negative_regulation:T19 Theme:T7
+E9	Negative_regulation:T19 Theme:E10
+E10	Gene_expression:T20 Theme:T7
+E11	Positive_regulation:T21 Theme:E12
+E12	Gene_expression:T22 Theme:T10
+M1	Negation E8
+M2	Negation E9

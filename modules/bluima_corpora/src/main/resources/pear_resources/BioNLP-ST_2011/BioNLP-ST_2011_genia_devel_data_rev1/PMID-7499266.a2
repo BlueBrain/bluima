@@ -1,0 +1,36 @@
+T13	Positive_regulation 302 307	leads
+T14	Phosphorylation 319 334	phosphorylation
+T15	Positive_regulation 376 388	be important
+T16	Protein_catabolism 408 419	degradation
+T17	Positive_regulation 571 580	induction
+T18	Phosphorylation 600 615	phosphorylation
+T19	Binding 753 758	binds
+T20	Phosphorylation 763 777	phosphorylates
+T21	Positive_regulation 823 831	enhanced
+T22	Binding 852 857	bound
+T23	Phosphorylation 1002 1023	phosphorylation sites
+T24	Positive_regulation 1024 1026	by
+T25	Negative_regulation 1222 1229	blocked
+T26	Phosphorylation 1289 1304	phosphorylation
+T27	Positive_regulation 1469 1477	inducing
+T28	Phosphorylation 1482 1497	phosphorylation
+T29	Entity 1505 1522	C-terminal region
+T30	Binding 1604 1611	complex
+E1	Positive_regulation:T13 Theme:E2
+E2	Phosphorylation:T14 Theme:T3
+E3	Positive_regulation:T15 Theme:E4 Cause:E2
+E4	Protein_catabolism:T16 Theme:T3
+E5	Positive_regulation:T17 Theme:E6
+E6	Phosphorylation:T18 Theme:T4
+E7	Binding:T19 Theme:T5
+E8	Phosphorylation:T20 Theme:T5
+E9	Positive_regulation:T21 Theme:E10
+E10	Binding:T22 Theme:T6
+E11	Phosphorylation:T23 Theme:T8
+E12	Positive_regulation:T24 Theme:E11
+E13	Negative_regulation:T25 Theme:E14
+E14	Phosphorylation:T26 Theme:T10
+E15	Positive_regulation:T27 Theme:E16
+E16	Phosphorylation:T28 Theme:T11 Site:T29
+E17	Binding:T30 Theme:T12
+M1	Speculation E3

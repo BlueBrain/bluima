@@ -1,0 +1,36 @@
+*	Equiv T6 T7
+T12	Positive_regulation 14 28	trans-activate
+T13	Regulation 42 51	regulated
+T14	Regulation 337 346	regulated
+T15	Regulation 367 376	regulated
+T16	Positive_regulation 430 437	mediate
+T17	Positive_regulation 464 475	enhancement
+T18	Transcription 479 492	transcription
+T19	Binding 629 637	interact
+T20	Binding 1121 1128	binding
+T21	Positive_regulation 1371 1378	support
+T22	Positive_regulation 1402 1418	trans-activation
+T23	Entity 1429 1437	promoter
+T24	Regulation 1499 1507	modulate
+T25	Transcription 1524 1537	transcription
+T26	Positive_regulation 1538 1540	at
+E1	Positive_regulation:T12 Theme:E3
+E2	Positive_regulation:T12 Theme:E3 Cause:T1
+E3	Regulation:T13 Theme:T2
+E4	Regulation:T14 Theme:T3
+E5	Regulation:T15 Theme:E4
+E6	Positive_regulation:T16 Theme:E7
+E7	Positive_regulation:T17 Theme:E8
+E8	Transcription:T18 Theme:T3
+E9	Binding:T19 Theme:T5
+E10	Binding:T19 Theme:T4
+E11	Binding:T19 Theme:T6
+E12	Binding:T20 Theme:T8
+E13	Positive_regulation:T21 Theme:E15
+E14	Positive_regulation:T21 Theme:E16
+E15	Positive_regulation:T22 Theme:T10 Cause:T9 Site:T23
+E16	Positive_regulation:T22 Theme:T10 Site:T23
+E17	Regulation:T24 Theme:E18
+E18	Transcription:T25 Theme:T11
+E19	Positive_regulation:T26 Theme:E17
+M1	Negation E11

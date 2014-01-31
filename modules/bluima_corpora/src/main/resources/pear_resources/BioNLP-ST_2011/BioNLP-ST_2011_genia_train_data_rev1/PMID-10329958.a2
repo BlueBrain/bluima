@@ -1,0 +1,33 @@
+*	Equiv T3 T2
+T8	Regulation 0 10	Regulation
+T9	Positive_regulation 29 36	induced
+T10	Gene_expression 49 59	expression
+T11	Positive_regulation 419 443	responsible for enhanced
+T12	Gene_expression 444 454	expression
+T13	Negative_regulation 823 832	inhibited
+T14	Positive_regulation 843 850	induced
+T15	Gene_expression 876 886	expression
+T16	Positive_regulation 937 962	exerted a positive effect
+T17	Positive_regulation 976 983	induced
+T18	Gene_expression 991 1001	expression
+T19	Positive_regulation 1093 1100	induced
+T20	Gene_expression 1133 1143	expression
+T21	Negative_regulation 1148 1155	blocked
+T22	Positive_regulation 1242 1249	induced
+T23	Gene_expression 1257 1267	expression
+E1	Regulation:T8 Theme:E2
+E2	Positive_regulation:T9 Theme:E3
+E3	Gene_expression:T10 Theme:T1
+E4	Positive_regulation:T11 Theme:E5
+E5	Gene_expression:T12 Theme:T3
+E6	Negative_regulation:T13 Theme:E7
+E7	Positive_regulation:T14 Theme:E8
+E8	Gene_expression:T15 Theme:T4
+E9	Positive_regulation:T16 Theme:E10
+E10	Positive_regulation:T17 Theme:E11
+E11	Gene_expression:T18 Theme:T5
+E12	Positive_regulation:T19 Theme:E13
+E13	Gene_expression:T20 Theme:T6
+E14	Negative_regulation:T21 Theme:E12
+E15	Positive_regulation:T22 Theme:E16
+E16	Gene_expression:T23 Theme:T7

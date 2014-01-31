@@ -1,0 +1,19 @@
+rains fewer than s Steiner points and so can be constructed by the inductive
+procedure.
+If B is a Steiner point, its location is not known. Nevertheless, the construction of Fig. 2 can proceed part way. B' can have only two locations
+(on opposite sides of the line AiA). It may be necessary to try both possibilities although other properties, such as 3.5, can often rule out the wrong
+choice. If a relatively minimal tree T exists, it can be constructed as follows.
+First solve a simpler problem iu which vertices At, A.. and S are removed
+and B' is added as one of the Ak. Connections to points other than S are
+the same as before; in addition, a line B'B is required. The new minimal
+tree has the same length as the old one because B'B AiSI + AS]
+BS I. When the new tree is found, B'B may be replaced by A iS, A.S
+and BS to get the desired tree.
+One cannot always immediately rule out the wrong one of the two choices
+for B'. For a given B t, the computation may then place B outside the
+"nondegenerate" region of Fig. 2, or it may conclude that the relatively
+minimal tree for the new topology (with B' replacing S, A i, A.) does not
+exist. One must then try the other choice of B'. If both choices fail, the given
+topology had no relatively minimal tree.
+The inductive procedure replaces the problem with s Steiner points by
+one with s l. This in turn is replaced by an s 2 point problem, etc.

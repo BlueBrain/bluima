@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<synonym>
+<token canonical="Nonhuman vertebrate" ref_id="nlx_organ_110503">
+  <variant base="Nonhuman vertebrate" />
+</token>
+<token canonical="Nonhuman primate" ref_id="nlx_organ_110501">
+  <variant base="non-human primate" />
+  <variant base="Nonhuman primate" />
+  <variant base="non human primate" />
+</token>
+<token canonical="Organism (NCBI Taxonomy Slim)" ref_id="nlx_organ_110506">
+  <variant base="Organism (NCBI Taxonomy Slim)" />
+  <variant base="Organism" />
+</token>
+</synonym>

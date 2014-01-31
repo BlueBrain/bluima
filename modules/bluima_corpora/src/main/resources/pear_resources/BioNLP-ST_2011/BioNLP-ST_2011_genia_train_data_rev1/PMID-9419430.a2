@@ -1,0 +1,7 @@
+T11	Binding 216 221	bound
+T12	Binding 351 362	crosslinked
+T13	Binding 400 409	crosslink
+E1	Binding:T11 Theme:T3
+E2	Binding:T12 Theme:T5
+E3	Binding:T13 Theme:T6
+M1	Negation E3

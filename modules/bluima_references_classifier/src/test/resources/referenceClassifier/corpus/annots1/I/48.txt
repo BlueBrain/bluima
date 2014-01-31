@@ -1,0 +1,14 @@
+AMPAR degradation. Then the exchange and degradation reactions
+were unblocked, and the model was run out for 10,000 s. Depending
+on whether E was above or below the actual threshold point, the
+model settled toward U or L, respectively. If E was high, then U was
+reassigned to E. If E was low, then L was reassigned to E. This process
+was repeated seven times to obtain an approximately 1% accurate
+estimate of the threshold.
+Model and simulator availability. Complete model parameters and
+reaction schemes are presented in Protocol S1. All models,
+demonstration simulations, and the GENESIS/Kinetikit simulator
+are freely available at http://www.ncbs.res.in/~bhalla/AMPAR_switch/
+index.html. Models 0 to 5 (including the buffered PKA version of
+model 3) are deposited in the DOQCS database (http://doqcs.ncbs.
+res.in) as accession numbers 59 to 65.

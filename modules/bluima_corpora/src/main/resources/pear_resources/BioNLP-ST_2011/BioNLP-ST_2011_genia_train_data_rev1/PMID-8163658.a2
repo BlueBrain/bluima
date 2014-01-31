@@ -1,0 +1,24 @@
+T13	Positive_regulation 8 17	induction
+T14	Gene_expression 40 50	expression
+T15	Positive_regulation 358 361	led
+T16	Localization 380 387	release
+T17	Positive_regulation 527 537	Production
+T18	Positive_regulation 594 603	increased
+T19	Positive_regulation 674 683	increased
+T20	Transcription 689 702	transcription
+T21	Positive_regulation 797 806	increased
+T22	Positive_regulation 944 953	induction
+T23	Positive_regulation 1154 1163	increased
+T24	Positive_regulation 1414 1423	increased
+E1	Positive_regulation:T13 Theme:E2
+E2	Gene_expression:T14 Theme:T1
+E3	Positive_regulation:T15 Theme:E4
+E4	Localization:T16 Theme:T2
+E5	Positive_regulation:T17 Theme:T4
+E6	Positive_regulation:T18 Theme:T5
+E7	Positive_regulation:T19 Theme:E8
+E8	Transcription:T20 Theme:T6
+E9	Positive_regulation:T21 Theme:T7
+E10	Positive_regulation:T22 Theme:T8
+E11	Positive_regulation:T23 Theme:T9
+E12	Positive_regulation:T24 Theme:T11

@@ -1,0 +1,49 @@
+*	Equiv T4 T5
+*	Equiv T9 T8
+*	Equiv T17 T18
+T46	Positive_regulation 327 334	induces
+T47	Gene_expression 339 349	expression
+T48	Positive_regulation 454 466	prerequisite
+T49	Binding 475 482	binding
+T50	Entity 520 538	RUNX binding sites
+T51	Negative_regulation 562 574	Inactivation
+T52	Positive_regulation 687 695	mediated
+T53	Negative_regulation 696 707	suppression
+T54	Negative_regulation 756 763	reduced
+T55	Gene_expression 764 774	expression
+T56	Negative_regulation 979 984	siRNA
+T57	Transcription 1164 1173	expressed
+T58	Localization 1288 1299	colocalized
+T59	Entity 1316 1327	T reg cells
+T60	Regulation 1394 1398	link
+T61	Positive_regulation 1411 1418	induced
+T62	Gene_expression 1425 1435	expression
+E1	Positive_regulation:T46 Theme:E2 Cause:T9
+E3	Positive_regulation:T46 Theme:E4 Cause:T9
+E2	Gene_expression:T47 Theme:T10
+E4	Gene_expression:T47 Theme:T11
+E5	Positive_regulation:T48 Theme:E6
+E7	Positive_regulation:T48 Theme:E8
+E6	Binding:T49 Theme:T13 Theme2:T15 Site2:T50
+E8	Binding:T49 Theme:T14 Theme2:T15 Site2:T50
+E9	Negative_regulation:T51 Theme:T17
+E10	Positive_regulation:T52 Theme:E11
+E12	Positive_regulation:T52 Theme:E13
+E11	Negative_regulation:T53 Theme:T17
+E13	Negative_regulation:T53 Theme:T20
+E14	Negative_regulation:T54 Theme:E15 Cause:E9
+E16	Negative_regulation:T54 Theme:E15 Cause:E11
+E17	Negative_regulation:T54 Theme:E15 Cause:E13
+E15	Gene_expression:T55 Theme:T21
+E18	Negative_regulation:T56 Theme:T28
+E19	Negative_regulation:T56 Theme:T29
+E20	Transcription:T57 Theme:T36
+E21	Transcription:T57 Theme:T37
+E22	Transcription:T57 Theme:T38
+E23	Localization:T58 Theme:T41 ToLoc:T59
+E24	Localization:T58 Theme:T42 ToLoc:T59
+E25	Regulation:T60 Theme:E26 Cause:T43
+E26	Positive_regulation:T61 Theme:E27 Cause:T44
+E27	Gene_expression:T62 Theme:T45
+M1	Speculation E5
+M2	Speculation E7

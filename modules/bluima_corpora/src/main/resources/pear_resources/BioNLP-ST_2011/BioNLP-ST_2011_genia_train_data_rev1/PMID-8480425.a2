@@ -1,0 +1,14 @@
+*	Equiv T8 T9
+T13	Gene_expression 619 629	expressing
+T14	Gene_expression 837 847	expressing
+T15	Transcription 1037 1052	transcriptional
+T16	Positive_regulation 1053 1063	activation
+T17	Negative_regulation 1102 1111	inhibited
+T18	Gene_expression 1119 1129	expressing
+E1	Gene_expression:T13 Theme:T5
+E2	Gene_expression:T14 Theme:T7
+E3	Transcription:T15 Theme:T10
+E4	Positive_regulation:T16 Theme:E3
+E5	Negative_regulation:T17 Theme:E4
+E6	Gene_expression:T18 Theme:T11
+M1	Negation E5

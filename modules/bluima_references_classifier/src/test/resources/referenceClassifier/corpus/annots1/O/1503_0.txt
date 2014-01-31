@@ -1,0 +1,32 @@
+the conditioned PDFs P(M|s1) and P(M|s2). Intuitively,
+discrimination is easier when the masses of the two PDFs
+are more separated. To assess discriminability, we compute
+the Kullback-Leibler (KL) distance [32,33] between P(M|s1)
+and P(M|s2) (see Methods). In short, the KL distance, which we
+denote by KLR (R for resistor average, see Methods), offers a
+method for measuring the distance between two PDFs. For
+Gaussian PDFs, the KL distance is equivalent to the so-called
+d9 discriminability [32], which is often used in psychophysical
+studies [34]. However, P(M|s1) and P(M|s2) are generally nonGaussian, as is the case for binomial spike statistics, and the
+KL measures are more appropriate. We label KLR with a
+subscript P or B for statistics using the Poisson or binomial
+model, respectively.
+Motivated by the gamma-induced additive shift in the
+network simulations shown in Figure 2A, we first focus on the
+additive model. We vary sA with s1 and s2 fixed, assuming
+without a loss of generality that s1 s2. For small sA, we have
+lB ' VB, and thus the binomial and Poisson models are
+statistically similar, yielding KLB,R ' KLP,R (Figure 3A).
+Indeed, for sA fixed at a small value, the conditional PDF
+for the Poisson model and those for the binomial model are
+nearly identical, both for s1 and s2 (Figure 3A1). As sA
+increases, KLB,R rises significantly, whereas KLP,R drops
+slightly. To understand this, we note that, in the binomial
+model, when s2 but not s1 saturates the population response
+(i.e., p2 → 1 and p1 < 1), the variance of PB(M|s2) drops
+significantly to reduce the overlap between PB(M|s1) and
+PB(M|s2) (Figure 3A2). Consequently, signal discrimination
+becomes easier. In the Poisson model, the population spikecount variability increases with sA, yielding an increased
+overlap between PP(M|s1) and PP(M|s2), which drops KLP,R.
+However, when sA is even larger, binomial population
+responses are saturated for both s1 and s2 (p1, p2 → 1), giving

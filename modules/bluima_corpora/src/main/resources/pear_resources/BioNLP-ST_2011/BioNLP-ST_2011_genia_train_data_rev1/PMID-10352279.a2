@@ -1,0 +1,65 @@
+T26	Positive_regulation 5 18	costimulation
+T27	Positive_regulation 19 27	augments
+T28	Localization 33 42	secretion
+T29	Positive_regulation 82 92	increasing
+T30	Positive_regulation 116 125	enhancing
+T31	Positive_regulation 136 151	transactivation
+T32	Positive_regulation 278 286	enhanced
+T33	Localization 292 301	secretion
+T34	Binding 342 352	Coligation
+T35	Positive_regulation 361 393	leads to synergistic enhancement
+T36	Localization 402 411	secretion
+T37	Positive_regulation 623 631	enhanced
+T38	Regulation 690 698	involved
+T39	Positive_regulation 707 720	costimulation
+T40	Gene_expression 729 739	production
+T41	Gene_expression 802 812	production
+T42	Positive_regulation 813 827	in response to
+T43	Localization 902 911	secretion
+T44	Positive_regulation 930 939	increased
+T45	Transcription 940 950	expression
+T46	Positive_regulation 965 974	resulting
+T47	Positive_regulation 980 988	enhanced
+T48	Binding 1085 1095	coligation
+T49	Regulation 1216 1223	changes
+T50	Gene_expression 1257 1263	levels
+T51	Binding 1279 1289	coligation
+T52	Binding 1309 1319	coligation
+T53	Regulation 1480 1488	involved
+T54	Regulation 1513 1523	regulation
+T55	Localization 1532 1541	secretion
+E1	Positive_regulation:T26 Theme:T1
+E2	Positive_regulation:T27 Theme:E3 Cause:E4
+E3	Localization:T28 Theme:T2
+E4	Positive_regulation:T29 Theme:T3 Cause:E1
+E5	Positive_regulation:T30 Theme:E6 Cause:E1
+E6	Positive_regulation:T31 Theme:T3
+E7	Positive_regulation:T32 Theme:E8
+E8	Localization:T33 Theme:T4
+E9	Binding:T34 Theme:T5
+E10	Positive_regulation:T35 Theme:E11 Cause:E9
+E11	Localization:T36 Theme:T6
+E12	Positive_regulation:T37 Theme:T8
+E13	Regulation:T38 Theme:E14
+E14	Positive_regulation:T39 Theme:E15 Cause:T10
+E15	Gene_expression:T40 Theme:T11
+E16	Gene_expression:T41 Theme:T12
+E17	Positive_regulation:T42 Theme:E16
+E18	Localization:T43 Theme:T14
+E19	Positive_regulation:T44 Theme:E20
+E20	Transcription:T45 Theme:T15
+E21	Positive_regulation:T46 Theme:E19 Cause:E22
+E22	Positive_regulation:T47 Theme:T16
+E23	Binding:T48 Theme:T17
+E24	Regulation:T49 Theme:E27 Cause:E28
+E25	Regulation:T49 Theme:E26 Cause:E28
+E26	Gene_expression:T50 Theme:T18
+E27	Gene_expression:T50 Theme:T19
+E28	Binding:T51 Theme:T20
+E29	Binding:T52 Theme:T21
+E30	Regulation:T53 Theme:E31
+E31	Regulation:T54 Theme:E32
+E32	Localization:T55 Theme:T24
+M1	Negation E5
+M2	Negation E24
+M3	Negation E25

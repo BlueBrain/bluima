@@ -1,0 +1,39 @@
+*	Equiv T2 T1
+T12	Negative_regulation 0 35	Negative transcriptional regulation
+T13	Transcription 173 186	transcription
+T14	Regulation 190 198	affected
+T15	Negative_regulation 289 296	inhibit
+T16	Transcription 307 320	transcription
+T17	Binding 379 383	bind
+T18	Entity 396 404	promoter
+T19	Negative_regulation 533 542	inhibited
+T20	Binding 547 554	binding
+T21	Entity 631 656	their corresponding sites
+T22	Positive_regulation 804 816	requirements
+T23	Entity 826 834	promoter
+T24	Negative_regulation 835 845	repression
+T25	Negative_regulation 1013 1022	inhibited
+T26	Negative_regulation 1110 1119	inhibited
+T27	Negative_regulation 1257 1266	inhibited
+T28	Transcription 1277 1290	transcription
+T29	Negative_regulation 1386 1396	inhibition
+T30	Positive_regulation 1401 1408	involve
+E1	Negative_regulation:T12 Theme:T2
+E2	Transcription:T13 Theme:T3
+E3	Regulation:T14 Theme:E2
+E4	Negative_regulation:T15 Theme:E5
+E5	Transcription:T16 Theme:T4
+E6	Binding:T17 Theme:T5 Site:T18
+E7	Negative_regulation:T19 Theme:E8
+E8	Binding:T20 Theme:T6 Site:T21
+E9	Positive_regulation:T22 Theme:E10
+E10	Negative_regulation:T24 Theme:T7 Site:T23
+E11	Negative_regulation:T25 Theme:T9
+E12	Negative_regulation:T26 Theme:T10
+E13	Negative_regulation:T27 Theme:E14
+E14	Transcription:T28 Theme:T11
+E15	Negative_regulation:T29 Theme:E14
+E16	Positive_regulation:T30 Theme:E15
+M1	Speculation E4
+M2	Speculation E9
+M3	Speculation E13

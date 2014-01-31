@@ -1,0 +1,54 @@
+*	Equiv T1 T2
+*	Equiv T6 T5
+T20	Binding 13 17	bind
+T21	Entity 51 59	enhancer
+T22	Regulation 64 74	contribute
+T23	Positive_regulation 93 101	increase
+T24	Positive_regulation 110 119	induction
+T25	Regulation 312 322	contribute
+T26	Positive_regulation 330 339	induction
+T27	Positive_regulation 596 605	induction
+T28	Positive_regulation 806 815	induction
+T29	Entity 837 854	promoter-enhancer
+T30	Positive_regulation 868 875	induced
+T31	Positive_regulation 904 915	independent
+T32	Binding 983 990	binding
+T33	Negative_regulation 1228 1238	interfered
+T34	Positive_regulation 1248 1257	induction
+T35	Entity 1301 1318	promoter-enhancer
+T36	Positive_regulation 1326 1340	overexpression
+T37	Gene_expression 1326 1340	overexpression
+T38	Positive_regulation 1362 1370	enhanced
+T39	Entity 1380 1397	promoter-enhancer
+T40	Positive_regulation 1398 1407	induction
+T41	Gene_expression 1409 1423	Overexpression
+T42	Positive_regulation 1409 1423	Overexpression
+T43	Regulation 1804 1816	contribution
+T44	Positive_regulation 1853 1864	enhancement
+T45	Positive_regulation 1873 1882	induction
+E1	Binding:T20 Theme:T1 Site:T21
+E2	Regulation:T22 Theme:E3
+E3	Positive_regulation:T23 Theme:E4 Cause:T3
+E4	Positive_regulation:T24 Theme:T4
+E5	Regulation:T25 Theme:E6
+E6	Positive_regulation:T26 Theme:T6
+E7	Positive_regulation:T27 Theme:T8
+E8	Positive_regulation:T28 Theme:T11 Site:T29
+E9	Positive_regulation:T30 Theme:T11 Site:T29
+E10	Positive_regulation:T31 Theme:T11 Site:T29
+E11	Binding:T32 Theme:T13
+E12	Binding:T32 Theme:T12
+E13	Negative_regulation:T33 Theme:E14
+E14	Positive_regulation:T34 Theme:T14 Site:T35
+E15	Positive_regulation:T36 Theme:E16
+E16	Gene_expression:T37 Theme:T13
+E17	Gene_expression:T37 Theme:T12
+E18	Positive_regulation:T36 Theme:E17
+E19	Positive_regulation:T38 Theme:E20 Cause:E18
+E20	Positive_regulation:T40 Theme:T15 Site:T39
+E21	Gene_expression:T41 Theme:T16
+E22	Positive_regulation:T42 Theme:E21
+E23	Regulation:T43 Theme:E24
+E24	Positive_regulation:T44 Theme:E25
+E25	Positive_regulation:T45 Theme:T19
+M1	Negation E10

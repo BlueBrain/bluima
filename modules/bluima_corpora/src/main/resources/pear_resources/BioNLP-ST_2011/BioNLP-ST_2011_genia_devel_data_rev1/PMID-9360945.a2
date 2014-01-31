@@ -1,0 +1,44 @@
+T12	Regulation 31 40	regulates
+T13	Positive_regulation 41 50	inducible
+T14	Gene_expression 57 72	gene expression
+T15	Gene_expression 320 329	expressed
+T16	Gene_expression 356 366	expression
+T17	Positive_regulation 370 380	restricted
+T18	Positive_regulation 419 426	induced
+T19	Positive_regulation 538 545	mediate
+T20	Gene_expression 628 638	expression
+T21	Negative_regulation 755 762	Despite
+T22	Negative_regulation 863 867	loss
+T23	Positive_regulation 871 880	inducible
+T24	Binding 891 898	binding
+T25	Negative_regulation 1029 1034	block
+T26	Transcription 1049 1089	expression at the level of transcription
+T27	Gene_expression 1103 1113	expression
+T28	Negative_regulation 1127 1137	unaffected
+T29	Regulation 1181 1188	control
+E1	Regulation:T12 Theme:E3
+E2	Positive_regulation:T13 Theme:E3
+E3	Gene_expression:T14 Theme:T1
+E4	Gene_expression:T15 Theme:T4
+E5	Gene_expression:T16 Theme:T5
+E6	Positive_regulation:T17 Theme:E4
+E7	Positive_regulation:T17 Theme:E5
+E8	Positive_regulation:T18 Theme:E5
+E9	Positive_regulation:T19 Theme:E8
+E10	Gene_expression:T20 Theme:T6
+E11	Negative_regulation:T21 Theme:E12
+E12	Negative_regulation:T22 Theme:E14
+E13	Positive_regulation:T23 Theme:E14
+E14	Binding:T24 Theme:T7
+E15	Negative_regulation:T25 Theme:E16
+E16	Transcription:T26 Theme:T9
+E17	Gene_expression:T27 Theme:T10
+E18	Negative_regulation:T28 Theme:E17
+E19	Regulation:T29 Theme:T11
+M1	Negation E6
+M2	Speculation E8
+M3	Speculation E9
+M4	Speculation E10
+M5	Negation E11
+M6	Speculation E13
+M7	Negation E18

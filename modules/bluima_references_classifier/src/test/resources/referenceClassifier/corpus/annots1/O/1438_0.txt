@@ -1,0 +1,11 @@
+Simulation of growth cone guidance by a discrete repulsive
+cue
+As defined by Eq's. (1) and (2), growth cone migration is
+modeled as having explicit deterministic and stochastic
+components. It is important to emphasize that these two
+components make fundamentally different contributions
+to growth cone migration. Migration originating from
+deterministic motion is simply proportional to elapsed
+time, T: its integrated value is 0 in the x-direction and
+∆y *T in the y-direction. By contrast, migration driven
+avg

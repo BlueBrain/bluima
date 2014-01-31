@@ -1,0 +1,24 @@
+cr: TextArrayReader
+ input__java: new String[]{"The cerebellum contains a dendrite with albumin."}
+
+########################################################################################
+include: 20131116_extract_proteinconc.incl
+
+include: 20131116_extract_prot_x_subcell-cell-br.incl
+########################################################################################
+
+ae: TestAnnotator
+ expects: ch.epfl.bbp.uima.types.SubcellDictTerm 1
+
+ae: TestAnnotator
+ expects: ch.epfl.bbp.uima.types.Protein 1
+
+ae: TestAnnotator
+ expects: ch.epfl.bbp.uima.types.BrainRegion 1
+
+
+#1 prot - br
+#2 prot - subcell
+ae: TestAnnotator
+ expects: ch.epfl.bbp.uima.types.Cooccurrence 2
+

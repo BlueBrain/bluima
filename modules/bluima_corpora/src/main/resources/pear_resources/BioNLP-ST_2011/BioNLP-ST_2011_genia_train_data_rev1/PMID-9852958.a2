@@ -1,0 +1,10 @@
+T6	Regulation 47 72	developmentally regulated
+T7	Binding 809 819	recognizes
+T8	Gene_expression 920 927	product
+T9	Transcription 933 944	mRNA levels
+T10	Positive_regulation 959 967	elevated
+E1	Regulation:T6 Theme:T1
+E2	Binding:T7 Theme:T3
+E3	Gene_expression:T8 Theme:T3
+E4	Transcription:T9 Theme:T4
+E5	Positive_regulation:T10 Theme:E4

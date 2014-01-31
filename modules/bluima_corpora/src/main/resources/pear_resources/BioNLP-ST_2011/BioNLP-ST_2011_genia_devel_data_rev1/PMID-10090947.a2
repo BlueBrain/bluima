@@ -1,0 +1,16 @@
+*	Equiv T7 T8
+*	Equiv T13 T14
+T18	Gene_expression 419 428	expressed
+T19	Positive_regulation 743 752	increased
+T20	Protein_catabolism 753 764	degradation
+T21	Positive_regulation 1084 1092	enhanced
+T22	Protein_catabolism 1093 1104	degradation
+T23	Gene_expression 1157 1167	expression
+E1	Gene_expression:T18 Theme:T2
+E2	Positive_regulation:T19 Theme:E3
+E3	Protein_catabolism:T20 Theme:T3
+E4	Positive_regulation:T21 Theme:E5
+E5	Protein_catabolism:T22 Theme:T11
+E6	Gene_expression:T23 Theme:T12
+M1	Negation E1
+M2	Negation E6

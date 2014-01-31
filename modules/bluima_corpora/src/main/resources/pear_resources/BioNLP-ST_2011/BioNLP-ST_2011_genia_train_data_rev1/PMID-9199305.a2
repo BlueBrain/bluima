@@ -1,0 +1,31 @@
+*	Equiv T3 T4
+T24	Regulation 102 109	through
+T25	Gene_expression 306 315	expressed
+T26	Positive_regulation 362 369	induced
+T27	Binding 482 486	bind
+T28	Entity 574 582	promoter
+T29	Binding 601 606	bound
+T30	Binding 1091 1102	recognition
+T31	Binding 1281 1286	bound
+T32	Positive_regulation 1344 1352	required
+T33	Entity 1375 1383	promoter
+T34	Gene_expression 1415 1427	transfection
+T35	Positive_regulation 1415 1427	transfection
+T36	Binding 1535 1549	form a complex
+T37	Gene_expression 1589 1599	production
+T38	Positive_regulation 1708 1715	mediate
+E1	Regulation:T24 Theme:T2
+E2	Gene_expression:T25 Theme:T7
+E3	Positive_regulation:T26 Theme:E2
+E4	Binding:T27 Theme:T8 Site:T28
+E5	Binding:T29 Theme:T10
+E6	Binding:T29 Theme:T9
+E7	Binding:T30 Theme:T11
+E8	Binding:T31 Theme:T15
+E9	Positive_regulation:T32 Theme:T16 Site:T33
+E10	Gene_expression:T34 Theme:T17
+E11	Positive_regulation:T35 Theme:E10
+E12	Binding:T36 Theme:T18 Theme2:T19
+E13	Gene_expression:T37 Theme:T20
+E14	Positive_regulation:T38 Theme:T23 Cause:T21
+E15	Positive_regulation:T38 Theme:T23 Cause:T22

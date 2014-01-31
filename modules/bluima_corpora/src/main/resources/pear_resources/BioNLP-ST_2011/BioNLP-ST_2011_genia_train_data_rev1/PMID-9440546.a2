@@ -1,0 +1,42 @@
+T13	Gene_expression 42 51	synthesis
+T14	Gene_expression 302 312	production
+T15	Gene_expression 674 684	production
+T16	Positive_regulation 771 779	enhanced
+T17	Gene_expression 916 924	produced
+T18	Positive_regulation 930 951	after incubation with
+T19	Gene_expression 1156 1165	producing
+T20	Transcription 1192 1203	transcribed
+T21	Positive_regulation 1204 1209	after
+T22	Entity 1267 1274	segment
+T23	Positive_regulation 1309 1330	sufficient to respond
+T24	Transcription 1404 1419	not transcribed
+T25	Gene_expression 1428 1440	nonproducing
+T26	Gene_expression 1490 1499	synthesis
+T27	Regulation 1503 1512	regulated
+T28	Transcription 1520 1541	transcriptional level
+T29	Positive_regulation 1659 1668	essential
+T30	Transcription 1689 1702	transcription
+T31	Positive_regulation 1716 1724	Enhanced
+T32	Gene_expression 1730 1740	production
+E1	Gene_expression:T13 Theme:T1
+E2	Gene_expression:T14 Theme:T2
+E3	Gene_expression:T15 Theme:T3
+E4	Positive_regulation:T16 Theme:E3
+E5	Gene_expression:T17 Theme:T4
+E6	Positive_regulation:T18 Theme:E5
+E7	Gene_expression:T19 Theme:T6
+E8	Transcription:T20 Theme:T5
+E9	Positive_regulation:T21 Theme:E8
+E10	Positive_regulation:T23 Theme:T7 Site:T22
+E11	Transcription:T24 Theme:T5
+E12	Gene_expression:T25 Theme:T8
+E13	Gene_expression:T26 Theme:T9
+E14	Regulation:T27 Theme:E13 Cause:E15
+E15	Transcription:T28 Theme:T9
+E16	Positive_regulation:T29 Theme:E17
+E17	Transcription:T30 Theme:T10
+E18	Positive_regulation:T31 Theme:E19
+E19	Gene_expression:T32 Theme:T11
+M1	Speculation E2
+M2	Negation E11
+M3	Speculation E16

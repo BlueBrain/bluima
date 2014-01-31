@@ -1,0 +1,13 @@
+T5	Gene_expression 140 149	expressed
+T6	Transcription 235 249	RNA transcript
+T7	Regulation 265 272	subject
+T8	Negative_regulation 535 552	inhibitory effect
+T9	Negative_regulation 561 568	repress
+T10	Gene_expression 573 583	expression
+E1	Gene_expression:T5 Theme:T2
+E2	Transcription:T6 Theme:T2
+E3	Regulation:T7 Theme:E2
+E4	Negative_regulation:T8 Theme:E6
+E5	Negative_regulation:T9 Theme:E6
+E6	Gene_expression:T10 Theme:T3
+M1	Negation E1

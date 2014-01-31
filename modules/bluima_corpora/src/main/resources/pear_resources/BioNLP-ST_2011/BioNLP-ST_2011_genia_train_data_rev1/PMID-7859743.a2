@@ -1,0 +1,28 @@
+*	Equiv T8 T7
+T16	Gene_expression 406 416	expression
+T17	Negative_regulation 878 888	suppressed
+T18	Gene_expression 893 903	expression
+T19	Transcription 1057 1060	RNA
+T20	Gene_expression 1061 1075	protein levels
+T21	Negative_regulation 1103 1110	reduced
+T22	Negative_regulation 1135 1144	Decreased
+T23	Gene_expression 1152 1162	expression
+T24	Regulation 1372 1380	affected
+T25	Gene_expression 1388 1398	expression
+T26	Negative_regulation 1544 1552	suppress
+T27	Gene_expression 1560 1570	expression
+E1	Gene_expression:T16 Theme:T3
+E2	Negative_regulation:T17 Theme:E3 Cause:T6
+E3	Gene_expression:T18 Theme:T8
+E4	Transcription:T19 Theme:T9
+E5	Gene_expression:T20 Theme:T9
+E6	Negative_regulation:T21 Theme:E5 Cause:T10
+E7	Negative_regulation:T21 Theme:T9 Cause:T10
+E8	Negative_regulation:T21 Theme:E4 Cause:T10
+E9	Negative_regulation:T22 Theme:E10
+E10	Gene_expression:T23 Theme:T11
+E11	Regulation:T24 Theme:E12 Cause:T12
+E12	Gene_expression:T25 Theme:T13
+E13	Negative_regulation:T26 Theme:E14
+E14	Gene_expression:T27 Theme:T15
+M1	Negation E11

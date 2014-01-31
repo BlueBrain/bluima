@@ -1,0 +1,2369 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD Journal Archiving and Interchange DTD v2.3 20070202//EN" "archivearticle.dtd">
+<article xmlns:xlink="http://www.w3.org/1999/xlink"
+	article-type="research-article"><?properties open_access?>
+	<front>
+		<journal-meta>
+			<journal-id journal-id-type="nlm-ta">J Biol Chem</journal-id>
+			<journal-id journal-id-type="publisher-id">jbc</journal-id>
+			<journal-title>The Journal of Biological Chemistry</journal-title>
+			<issn pub-type="ppub">0021-9258</issn>
+			<issn pub-type="epub">1083-351X</issn>
+			<publisher>
+				<publisher-name>American Society for Biochemistry and Molecular
+					Biology</publisher-name>
+			</publisher>
+		</journal-meta>
+		<article-meta>
+			<article-id pub-id-type="pmc">2586251</article-id>
+			<article-id pub-id-type="publisher-id">33147</article-id>
+			<article-id pub-id-type="doi">10.1074/jbc.M805556200</article-id>
+			<article-id pub-id-type="pmid">18826947</article-id>
+			<article-categories>
+				<subj-group subj-group-type="heading">
+					<subject>RNA: Processing and Catalysis</subject>
+				</subj-group>
+			</article-categories>
+			<title-group>
+				<article-title>
+					The Biflavonoid Isoginkgetin Is a General Inhibitor of Pre-mRNA
+					Splicing
+					<xref ref-type="fn" rid="fn1">*</xref>
+					<xref ref-type="fn" rid="fn2">&#x00053;&#x020de;</xref>
+				</article-title>
+			</title-group>
+			<contrib-group>
+				<contrib contrib-type="author">
+					<name>
+						<surname>O'Brien</surname>
+						<given-names>Kristine</given-names>
+					</name>
+					<xref ref-type="aff" rid="N0x1dd7240N0x3f4a4c0">&#x02021;</xref>
+					<xref ref-type="aff" rid="N0x1dd7240N0x3f4a4c0">&#x000a7;</xref>
+					<xref ref-type="aff" rid="N0x1dd7240N0x3f4a4c0">&#x000b6;</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Matlin</surname>
+						<given-names>Arianne J.</given-names>
+					</name>
+					<xref ref-type="aff" rid="N0x1dd7240N0x3f4a4c0">&#x02021;</xref>
+					<xref ref-type="aff" rid="N0x1dd7240N0x3f4a4c0">&#x000a7;</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Lowell</surname>
+						<given-names>April M.</given-names>
+					</name>
+					<xref ref-type="aff" rid="N0x1dd7240N0x3f4a4c0">&#x000a7;</xref>
+				</contrib>
+				<contrib contrib-type="author">
+					<name>
+						<surname>Moore</surname>
+						<given-names>Melissa J.</given-names>
+					</name>
+					<xref ref-type="aff" rid="N0x1dd7240N0x3f4a4c0">&#x02021;</xref>
+					<xref ref-type="aff" rid="N0x1dd7240N0x3f4a4c0">&#x000a7;</xref>
+					<xref ref-type="aff" rid="N0x1dd7240N0x3f4a4c0">&#x000b6;</xref>
+					<xref ref-type="corresp" rid="cor1">1</xref>
+				</contrib>
+			</contrib-group>
+			<aff id="N0x1dd7240N0x3f4a4c0">
+				<label>&#x02021;</label>
+				Howard Hughes Medical Institute and
+				<label>&#x000a7;</label>
+				Department of Biochemistry, Brandeis University,
+				Waltham, Massachusetts 02454 and the
+				<label>&#x000b6;</label>
+				Department
+				of Biochemistry and Molecular Pharmacology, University of
+				Massachusetts
+				Medical School, Worcester, Massachusetts 01655
+			</aff>
+			<author-notes>
+				<fn id="cor1">
+					<label>1</label>
+					<p>
+						A Howard Hughes Medical Institute Investigator. To whom
+						correspondence should
+						be addressed: HHMI/Dept. of Biochemistry and Molecular Pharmacology,
+						LRB 825,
+						University of Massachusetts Medical School, 364 Plantation St., Worcester,
+						MA
+						01605. Tel.: 508-856-8014; Fax: 508-856-1002; E-mail:
+						<email>Melissa.Moore@umassmed.edu</email>
+						.
+					</p>
+				</fn>
+			</author-notes>
+			<pub-date pub-type="ppub">
+				<day>28</day>
+				<month>11</month>
+				<year>2008</year>
+			</pub-date>
+			<pub-date pub-type="pmc-release">
+				<day>28</day>
+				<month>11</month>
+				<year>2008</year>
+			</pub-date><!-- PMC Release delay is 0 months and 0 days and was based 
+				on the copyright element. -->
+			<volume>283</volume>
+			<issue>48</issue>
+			<fpage>33147</fpage>
+			<lpage>33154</lpage>
+			<history>
+				<date date-type="received">
+					<day>21</day>
+					<month>7</month>
+					<year>2008</year>
+				</date>
+				<date date-type="rev-recd">
+					<day>16</day>
+					<month>9</month>
+					<year>2008</year>
+				</date>
+			</history>
+			<permissions>
+				<copyright-statement>Copyright &#x000a9; 2008, The American Society
+					for Biochemistry
+					and Molecular Biology, Inc.</copyright-statement>
+				<license license-type="open-access">
+					<p>
+						<italic>Author's Choice</italic>
+					</p>
+					<p>
+						<ext-link ext-link-type="uri"
+							xlink:href="http://creativecommons.org/licenses/by-nc/3.0/">Creative Commons Attribution Non-Commercial
+							License</ext-link>
+						applies to Author Choice Articles
+					</p>
+				</license>
+			</permissions>
+			<self-uri xlink:title="pdf" xlink:href="zbc04808033147.pdf" />
+			<abstract>
+				<p>
+					Membrane-permeable compounds that reversibly inhibit a particular
+					step in
+					gene expression are highly useful tools for cell biological and
+					biochemical/structural studies. In comparison with other gene
+					expression steps
+					where multiple small molecule effectors are available, very few
+					compounds have
+					been described that act as general inhibitors of pre-mRNA splicing.
+					Here we
+					report construction and validation of a set of mammalian cell lines
+					suitable
+					for the identification of small molecule inhibitors of pre-mRNA
+					splicing.
+					Using these cell lines, we identified the natural product isoginkgetin
+					as a
+					general inhibitor of both the major and minor spliceosomes. Isoginkgetin
+					inhibits splicing both
+					<italic>in vivo</italic>
+					and
+					<italic>in vitro</italic>
+					at similar
+					micromolar concentrations. It appears to do so by preventing stable
+					recruitment of the U4/U5/U6 tri-small nuclear ribonucleoprotein,
+					resulting in
+					accumulation of the prespliceosomal A complex. Like two other recently
+					reported general pre-mRNA splicing inhibitors, isoginkgetin has been
+					previously described as an anti-tumor agent. Our results suggest
+					that splicing
+					inhibition is the mechanistic basis of the anti-tumor activity of
+					isoginkgetin. Thus, pre-mRNA splicing inhibitors may represent a
+					novel avenue
+					for development of new anti-cancer agents.
+				</p>
+			</abstract>
+		</article-meta>
+		<notes>
+			<fn-group>
+				<fn>
+					<p>
+						<italic>Author's Choice</italic>
+						&#x02014;Final version full access.
+					</p>
+				</fn>
+				<fn id="fn1">
+					<label>*</label>
+					<p>
+						This work was supported, in whole or in part, by
+						<grant-sponsor>National
+							Institutes of Health</grant-sponsor>
+						Grant
+						<grant-num>R01-GM35007</grant-num>
+						(to M. J. M.) and the
+						<grant-sponsor>National Institutes of
+							Health</grant-sponsor>
+						,
+						<grant-sponsor>NCI</grant-sponsor>
+						,
+						<grant-sponsor>Initiative for Chemical
+							Genetics</grant-sponsor>
+						, under Contract N01-CO-12400. This work was performed
+						with the assistance of the
+						<grant-sponsor>Chemical Biology
+							Platform</grant-sponsor>
+						of the
+						<grant-sponsor>Broad Institute of
+							Harvard</grant-sponsor>
+						and
+						<grant-sponsor>MIT</grant-sponsor>
+						. The costs of
+						publication of this article were defrayed in part by the payment of page
+						charges. This article must therefore be hereby marked
+						&#x0201c;
+						<italic>advertisement</italic>
+						&#x0201d; in accordance with 18 U.S.C. Section 1734
+						solely to indicate this fact.
+					</p>
+				</fn>
+				<fn id="fn2">
+					<label>&#x00053;&#x020de;</label>
+					<p>
+						The on-line version of this article (available at
+						<ext-link ext-link-type="uri" xlink:href="http://www.jbc.org">http://www.jbc.org</ext-link>
+						)
+						contains supplemental Table 1.
+					</p>
+				</fn>
+			</fn-group>
+		</notes>
+	</front>
+	<body>
+		<p>
+			The removal of introns from nascent transcripts by the process of
+			pre-mRNA
+			(precursor to messenger RNA) splicing is an essential step in eukaryotic gene
+			expression. Splicing is mediated by the spliceosome, a highly
+			dynamic,
+			multimegadalton machine composed of five small stable nuclear RNAs
+			(snRNAs)
+			<xref ref-type="fn" rid="fn3">2</xref>
+			and more
+			than 100 polypeptides (reviewed in Ref.
+			<xref ref-type="bibr" rid="ref1">1</xref>
+			). Within the spliceosome,
+			intron excision occurs in two chemical steps: 1) 5&#x02032; splice site
+			cleavage
+			accompanied by lariat formation at the branch point adenosine and 2) 3&#x02032;
+			splice site cleavage accompanied by exon ligation. Both of these
+			steps are
+			readily observable in
+			<italic>in vitro</italic>
+			reactions containing crude nuclear
+			extract and ATP as an energy source. In such reactions, spliceosome assembly
+			occurs in a distinctly stepwise fashion. First, the pre-mRNA
+			substrate is
+			coated with a heterogeneous mixture of RNA-binding proteins (referred to as
+			H
+			complex). Interaction of U1 snRNP (U1 snRNA and its associated proteins) with
+			the 5&#x02032; splice site and recognition of the branch point
+			adenosine by U2
+			snRNP generates an early commitment complex (E or CC complex). A
+			subsequent
+			ATP-dependent step stabilizes the U2 snRNP-branch point interaction, resulting
+			in formation of the prespliceosome (A complex). Entry of the U4/U5/U6
+			tri-snRNP to form B complex is followed by multiple structural
+			rearrangements,
+			which produce the catalytically active C complex, wherein the two chemical
+			steps of splicing occur. Finally, the ligated exon and lariat
+			products are
+			released, and the remaining spliceosome components are disassembled.
+		</p>
+		<p>
+			In the more than two decades since its initial description
+			(
+			<xref ref-type="bibr" rid="ref2">2</xref>
+			,
+			<xref ref-type="bibr" rid="ref3">3</xref>
+			), a wealth of information has
+			been gleaned regarding the parts list of the spliceosome, its gross
+			assembly/disassembly pathway, certain key local structural
+			interactions, and
+			the activities of individual components. However, in comparison with
+			other
+			macromolecular machines, such as the ribosome and RNA polymerase II, our
+			understanding of the spliceosome's inner workings and its detailed
+			structure
+			is still in its infancy. Mechanistic understanding of other
+			macromolecular
+			complexes has been greatly enhanced by the availability of multiple small
+			molecule inhibitors impeding their functional cycles at different
+			points
+			(
+			<xref ref-type="bibr" rid="ref4">4</xref>
+			,
+			<xref ref-type="bibr" rid="ref5">5</xref>
+			). Such small molecules have
+			been likened to wrenches that can be thrown into the works to freeze
+			cellular
+			machines in specific conformations, making them more amenable to biochemical
+			and structural investigation
+			(
+			<xref ref-type="bibr" rid="ref4">4</xref>
+			). Although a set of such
+			wrenches that inhibit splicing
+			<italic>in vitro</italic>
+			or inhibit specific or
+			alternative splicing events
+			<italic>in vivo</italic>
+			is being generated
+			(
+			<xref ref-type="bibr" rid="ref4">4</xref>
+			,
+			<xref ref-type="bibr" rid="ref6">6</xref>
+			&#x02013;
+			<xref ref-type="bibr" rid="ref10">10</xref>
+			),
+			there is currently a paucity of small molecules that affect general
+			pre-mRNA
+			splicing
+			<italic>in vivo</italic>
+			.
+		</p>
+		<p>
+			In this paper, we describe a cell-based assay to screen for general
+			splicing inhibitors. This assay takes advantage of the observation
+			that some
+			amount of unspliced pre-mRNA can escape from the nucleus and become
+			available
+			for translation in the cytoplasm
+			(
+			<xref ref-type="bibr" rid="ref11">11</xref>
+			,
+			<xref ref-type="bibr" rid="ref12">12</xref>
+			). By screening for an
+			increase in reporter protein expression from a mammalian pre-mRNA designed
+			such that only the unspliced version generates active protein, we
+			were able to
+			identify a compound that acts as a general inhibitor of splicing both
+			<italic>in
+				vivo</italic>
+			and
+			<italic>in vitro</italic>
+			. This inhibitor is the naturally occurring
+			biflavonoid isoginkgetin. In
+			<italic>in vitro</italic>
+			reactions, isoginkgetin causes
+			accumulation of the prespliceosomal A complex. Like two other compounds
+			recently described as
+			<italic>in vivo</italic>
+			splicing inhibitors
+			(
+			<xref ref-type="bibr" rid="ref13">13</xref>
+			,
+			<xref ref-type="bibr" rid="ref14">14</xref>
+			), isoginkgetin is a known
+			anti-tumor agent (
+			<xref ref-type="bibr" rid="ref15">15</xref>
+			). Our
+			results suggest that the mechanistic basis of the anti-tumor activity of
+			isoginkgetin is its inhibition of pre-mRNA splicing.
+		</p>
+		<sec sec-type="methods">
+			<title>EXPERIMENTAL PROCEDURES</title>
+			<p>
+				<italic>Plasmids</italic>
+				&#x02014;Reporter construct I was created by replacing the
+				<italic>Renilla</italic>
+				luciferase gene in plasmid triose-phosphate isomerase
+				(TPI)/
+				<italic>Renilla</italic>
+				luciferase 5&#x02032; intron (pSHM06T)
+				(
+				<xref ref-type="bibr" rid="ref16">16</xref>
+				) with the firefly
+				<italic>luc2</italic>
+				gene from plasmid pGL4.10 (Promega). Construct II is identical
+				to construct I except that site-directed mutagenesis was used to
+				remove an
+				in-frame stop codon in the intron and add a G at position 6 in TPI exon 7.
+				Construct III was generated by site-directed mutagenesis of II to
+				inactivate
+				the 5&#x02032; splice site. Constructs I, II, and III were subcloned
+				into vector
+				pcDNA5/FRT for integration into the
+				<italic>flp</italic>
+				recombinase target (FRT)
+				sequence in HEK293 cells (described below).
+			</p>
+			<p>
+				<italic>Cell Culture and Generation of Stable Cell Lines</italic>
+				&#x02014;Cells were
+				grown in Dulbecco's modified Eagle's medium supplemented with 10% fetal
+				bovine
+				serum and antibiotics (Invitrogen), as indicated below. Trypan blue
+				(Invitrogen) and Alamar blue (BIOSOURCE) assays were done according
+				to
+				standard protocols. To generate a host cell line containing an integrated
+				FRT
+				site, HEK293 cells (ATCC) were transfected with ScaI-linearized
+				pFRT/
+				<italic>lac</italic>
+				Zeo (Invitrogen) using FuGENE 6 (Roche Applied Science) as
+				per the Flp-In&#x02122; system manual (Invitrogen). Stable integrants
+				were
+				selected with 100 &#x003bc;g/ml zeocin. Southern blotting and
+				&#x003b2;-galactosidase
+				assays identified cell clones with integrants expressing intermediate
+				levels
+				of the LacZ-Zeo fusion. Two such clones (293F1 and 293F2) were
+				subsequently
+				co-transfected with one of the three reporter plasmids and pOG44 (Invitrogen),
+				which encodes Flp recombinase. Successful targeting of the reporter
+				plasmid to
+				the FRT site was selected by treatment with 100 &#x003bc;g/ml
+				hygromycin.
+			</p>
+			<p>
+				<italic>Luciferase Assays and RNA Isolation</italic>
+				&#x02014;Cells were grown in
+				24-well, 6-well, or 6-cm dishes and treated with DMSO or DMSO plus
+				isoginkgetin, as indicated in the figure legends. Luciferase assays
+				(luciferase assay system; Promega) were performed using a TD-20/20
+				Luminometer
+				(Turner Systems). Protein concentrations were determined for lysates using
+				the
+				DC protein assay (Bio-Rad). Total RNA was isolated using TRI Reagent
+				(Molecular Research Corp.) and DNase-treated (Promega) according to
+				the
+				manufacturers' protocols. When a sample was to be used both for monitoring
+				luciferase activity and for preparing RNA, cells were harvested in
+				ice-cold
+				1&#x000d7; phosphate-buffered saline; 25% was diluted 2-fold with 2&#x000d7;
+				passive lysis buffer (Promega) and used for luciferase assays, and
+				the
+				remainder was added to 5.5 volumes of TRI Reagent for RNA isolation.
+			</p>
+			<p>
+				<italic>Reverse Transcription (RT)-PCR</italic>
+				&#x02014;RT-PCR was carried out using
+				the SuperScript III one-step RT-PCR kit (Invitrogen). For qualitative
+				experiments, 60 ng of DNase-treated total RNA was used per
+				25-&#x003bc;l reaction,
+				run on 2% agarose gels, and stained with ethidium bromide. For
+				semiquantitative RT-PCR (using [&#x003b1;-
+				<sup>32</sup>
+				P]dATP), different
+				amounts of DNase-treated total RNA (0.1&#x02013;100 ng) were used,
+				depending on
+				the transcript being amplified. Reactions were performed with at least
+				two
+				concentrations of RNA to ensure that they were within the linear range. When
+				the amplification product crossed an intron-exon boundary, primers
+				amplifying
+				U6 snRNA, an unspliced polymerase III transcript, were included as a
+				control.
+				Primer sequences are listed in supplemental Table 1.
+			</p>
+			<p>
+				<italic>High Throughput Screening</italic>
+				&#x02014;All high throughput screening was
+				performed at the Broad Institute in association with the Chemical Biology
+				Program.
+			</p>
+			<p>Cells were plated in 384-well plates at cell densities ranging
+				from 1500 to
+				9000 cells/well. Plating &#x0223c;4000 cells/well gave the least
+				variability in
+				luciferase activity while maximizing the signal difference between cell lines
+				II and III. Cells were plated in a 30-&#x003bc;l total volume using
+				a Multidrop 384
+				or a Multidrop Micro (Thermo Scientific) liquid handler. To test
+				sensitivity
+				to DMSO (the carrier for the compound libraries), cell lines II and
+				III were
+				incubated overnight in growth media containing 0&#x02013;1% DMSO.
+				Concentrations
+				up to 1% DMSO did not cause significant changes in signal intensity or
+				reproducibility for any of the cell lines.</p>
+			<p>
+				For high throughput screening, cell lines II and III were plated on
+				day 0
+				in growth medium in white, opaque bottom 384-well plates (Nunc) at a
+				density
+				of 3000&#x02013;6000 cells/30 &#x003bc;l. On day 1, 100 nl of test
+				compounds or DMSO
+				was pin-transferred using a CyBio robot with a 384-well pin array to
+				duplicate
+				plates. On day 2, &#x0223c;24 h after the pin transfer, luciferase
+				activities were
+				read using the Steady-Glo Luciferase Assay System (Promega) according to
+				the
+				manufacturer's protocol. Briefly, 30 &#x003bc;l of the combined cell lysis and
+				assay reagent buffer were added directly to the well using a Matrix
+				Wellmate
+				(Thermo Scientific). After agitating plates for 10 min, luciferase readings
+				were collected using an EnVision plate reader (PerkinElmer Life
+				Sciences).
+				Data analysis was performed as described
+				(
+				<xref ref-type="bibr" rid="ref17">17</xref>
+				) to determine
+				<italic>Z</italic>
+				-scores and assess reproducibility of compound effects. For follow
+				up experiments, cells were grown in 24-well, 6-well, or 6-cm dishes
+				and
+				treated with DMSO or DMSO plus isoginkgetin, as described above.
+			</p>
+			<p>
+				<italic>Isoginkgetin</italic>
+				&#x02014;Screening and initial follow up experiments
+				were carried out with isoginkgetin obtained from MicroSource.
+				Isoginkgetin for
+				subsequent experiments was purchased from Gaia Corp. To validate their
+				identity and purity, all samples were subjected to C18 reverse phase
+				high
+				pressure liquid chromatography-mass spectrometry analysis. One sample from
+				Gaia that exhibited no activity in cellular assays proved
+				&#x0003c;50% pure,
+				whereas a second sample that proved &#x0003e;99% pure by high pressure
+				liquid
+				chromatography-mass spectrometry did exhibit the expected activity.
+			</p>
+			<p>
+				<italic>In Vitro Splicing Reactions</italic>
+				&#x02014;Uniformly
+				<sup>32</sup>
+				P-labeled
+				adenovirus major late (AdML), TPI (exon 6-intron 6-exon 7), and
+				&#x003b2;-globin
+				(exon 1-intron 1-exon 2) pre-mRNA splicing substrates were generated by
+				T7
+				run-off transcription of plasmids pHMS81, pMJM542, and pMJM540 and
+				gel-purified as previously described
+				(
+				<xref ref-type="bibr" rid="ref18">18</xref>
+				). HeLa cell nuclear
+				extract was prepared as previously described
+				(
+				<xref ref-type="bibr" rid="ref19">19</xref>
+				&#x02013;
+				<xref ref-type="bibr" rid="ref21">21</xref>
+				).
+				Splicing reactions containing &#x0223c;20 n
+				<sc>m</sc>
+				pre-mRNA, 30% nuclear
+				extract, 20 m
+				<sc>m</sc>
+				additional potassium chloride, 2.5 m
+				<sc>m</sc>
+				magnesium chloride, 10 m
+				<sc>m</sc>
+				creatine phosphate, 0.5 m
+				<sc>m</sc>
+				dithiothreitol, 0.4 units/&#x003bc;l RNasin, 40 m
+				<sc>m</sc>
+				Tris-HCl (pH 8), 0.5
+				m
+				<sc>m</sc>
+				ATP, and 1% (v/v) DMSO or isoginkgetin dissolved in DMSO were
+				incubated for the indicated times (0&#x02013;90 min) at 30&#x000b0;
+				C. Native
+				splicing complexes were separated on 4% nondenaturing gels as described
+				previously (
+				<xref ref-type="bibr" rid="ref21">21</xref>
+				,
+				<xref ref-type="bibr" rid="ref22">22</xref>
+				). Splicing efficiencies
+				were assessed by separating purified RNAs on 15% denaturing
+				polyacrylamide
+				gels. To estimate the IC
+				<sub>50</sub>
+				of isoginkgetin, nonlinear regression
+				analysis was performed using GraphPad Prism version 5.0a for Macintosh.
+			</p>
+			<p>
+				<fig position="float" id="fig1">
+					<label>FIGURE 1.</label>
+					<caption>
+						<p>
+							<italic>A</italic>
+							, schematic representations of reporter constructs (post genomic
+							integration) and the transcripts and proteins generated from each
+							construct
+							with and without splicing.
+							<italic>Heavy solid</italic>
+							and
+							<italic>dotted lines</italic>
+							represent exon and intron sequences, respectively.
+							<italic>B</italic>
+							, RT-PCR analysis
+							of total RNA isolated from the indicated cell lines plus PCR of
+							plasmid I
+							pcDNA5/FRT (size control for unspliced transcripts).
+							<italic>C</italic>
+							, luciferase
+							activity/&#x003bc;g of protein for the same cell lines as in
+							<italic>B</italic>
+							(
+							<italic>error
+								bars</italic>
+							, &#x000b1;S.D.,
+							<italic>n</italic>
+							&#x02265; 3 for each cell line; *, significant
+							difference,
+							<italic>p</italic>
+							&#x0003c; 0.01; Student's
+							<italic>t</italic>
+							test (two-tailed with
+							unequal variance)).
+						</p>
+					</caption>
+					<graphic xlink:href="zbc0520858370001"></graphic>
+				</fig>
+			</p>
+		</sec>
+		<sec>
+			<title>RESULTS</title>
+			<p>
+				<italic>Development of Cell Lines for in Vivo Screening</italic>
+				&#x02014;To generate
+				constructs appropriate for
+				<italic>in vivo</italic>
+				screening, we created a splicing
+				reporter consisting of the human TPI gene exon 6-intron 6-exon 7 cassette
+				(
+				<xref ref-type="bibr" rid="ref16">16</xref>
+				) upstream of the firefly
+				luciferase open reading frame (
+				<xref rid="fig1" ref-type="fig">
+					Fig.
+					1
+					<italic>A</italic>
+				</xref>
+				, positive control; construct I). In this construct,
+				the start codon is in the first exon, and active luciferase is
+				generated only
+				from spliced mRNA. In order to generate the screening reporter
+				(construct II),
+				we removed all in frame stop codons from the intron and added one base
+				at the
+				beginning of the second exon, such that the luciferase open reading frame is
+				out of frame with the start codon in the spliced mRNA but is in
+				frame when the
+				intron is retained. We also created a mutant reporter (construct III)
+				identical to the screening reporter except for a 5&#x02032; splice
+				site point
+				mutation predicted to abolish splicing (U to A at position 2 in the intron).
+				All three reporters were subcloned downstream of the cytomegalovirus
+				promoter
+				in plasmid pcDNA5/FRT. This plasmid also contains an FRT site.
+			</p>
+			<p>
+				Stable cell lines expressing each reporter were generated using the
+				Flp/FRT
+				recombinase system. To do so, we clonally selected HEK293 cell lines stably
+				transfected with a plasmid containing a FRT site at a single
+				position in a
+				transcriptionally active portion of the genome, as confirmed by LacZ
+				expression (see &#x0201c;Experimental Procedures&#x0201d;). Independent
+				co-transfection of two of these cell lines (293F1 and 293F2) with
+				the reporter
+				constructs and a plasmid encoding Flp recombinase generated the screening cell
+				lines (293F1-I, -II, and -III and 293F2-I, -II, and -III). RT-PCR
+				analysis of
+				total RNA from each cell line confirmed that transcripts from constructs
+				I and
+				II were spliced, whereas those from construct III were not (see
+				<xref rid="fig1" ref-type="fig">
+					Fig. 1
+					<italic>B</italic>
+				</xref>
+				for the
+				293F1-based lines; 293F2-based lines, data not shown). Consistent with this,
+				luciferase activity levels were high in the positive control cells
+				(I), low in
+				the splicing reporter cells (II), and intermediate in the mutant
+				reporter
+				cells (III) (
+				<xref rid="fig1" ref-type="fig">
+					Fig. 1
+					<italic>C</italic>
+				</xref>
+				).
+				Since the three reporters behaved identically in both the 293F1 and 293F2
+				backgrounds, the two cell line sets were used interchangeably.
+			</p>
+			<p>
+				<italic>High Throughput Screening of Compound Libraries</italic>
+				&#x02014;Paired cell
+				lines containing either reporter II or III were used to screen for small
+				molecules that specifically inhibited splicing. We expected that
+				such
+				inhibitors would increase the luciferase activity from reporter II but would
+				have little or no effect on reporter III. Comparison of compound
+				effects on
+				reporters II and III allowed us to discriminate between effects on splicing
+				and other potential means of increased protein expression (
+				<italic>e.g.</italic>
+				increased cell proliferation, transcription, translation, etc.). The
+				6-fold
+				difference between the luciferase activities of reporters II and III under the
+				screening conditions (0.3% DMSO) provided a sufficient window for
+				compound
+				identification.
+			</p>
+			<p>
+				For high throughput screening, cells were grown in 384-well plates,
+				exposed
+				in duplicate to compounds dissolved in DMSO or an equivalent volume of
+				DMSO
+				alone for 24 h, after which luciferase activities were measured. Each
+				luciferase value was expressed as the number of S.D. values from the
+				mean (the
+				<italic>Z</italic>
+				-score) of control DMSO-treated cells
+				(
+				<xref ref-type="bibr" rid="ref17">17</xref>
+				). A composite
+				<italic>Z</italic>
+				-score was derived by combining the vectors of each replicate's
+				<italic>Z</italic>
+				-score for every given compound/cell line pair. This score allows
+				easy comparison of effects upon two separate biological systems that
+				have
+				differently distributed spreads of average values (in this case, the average
+				luciferase activity of cells expressing construct II
+				<italic>versus</italic>
+				those
+				expressing construct III)
+				(
+				<xref ref-type="bibr" rid="ref17">17</xref>
+				). For each compound deemed
+				to have a reproducible effect (
+				<italic>i.e.</italic>
+				its duplicates matched in
+				direction and degree), the composite
+				<italic>Z</italic>
+				-score for reporter II was
+				plotted against the composite Z-score for reporter III
+				(
+				<xref rid="fig2" ref-type="fig">Fig. 2</xref>
+				).
+			</p>
+			<p>
+				Approximately 8000 compounds were screened from natural product and
+				synthetic libraries, some at multiple concentrations (15&#x02013;100
+				&#x003bc;
+				<sc>m</sc>
+				). Of these, about half were known bioactives from
+				commercially available NINDS, SpecPlus, and Biomol collections, and the
+				remainder were the products of multiple diversity-oriented synthesis
+				endeavors. A complete list of compounds screened and the scores each
+				yielded
+				in our assay can be found on the World Wide Web via ChemBank. The vast
+				majority of compounds fell either within the noise range as defined
+				by DMSO
+				treatment (&#x0007c;composite
+				<italic>Z</italic>
+				-score&#x0007c; &#x02264; 2.5) or on the line
+				defined by
+				<italic>x</italic>
+				=
+				<italic>y</italic>
+				(
+				<italic>i.e.</italic>
+				affecting reporters II and
+				III similarly). As expected, compounds such as the transcription
+				inhibitor
+				actinomycin D and the translation inhibitor cycloheximide decreased luciferase
+				activity of both reporters II and III, thus yielding negative
+				composite
+				<italic>Z</italic>
+				-scores for both.
+			</p>
+			<p>
+				A limited number of compounds yielded a positive composite
+				<italic>Z</italic>
+				-score
+				&#x02265;3 for one reporter while having a negligible effect on the other
+				(
+				<xref ref-type="table" rid="tbl1">Table 1</xref>
+				). Among this set, one
+				compound stood out strikingly as having a very large positive effect on
+				luciferase activity in cells expressing construct II (composite
+				<italic>Z</italic>
+				-score = 27.9) but no significant effect in cells expressing
+				construct III (composite
+				<italic>Z</italic>
+				-score = &#x02013;2.5). This compound is the
+				biflavonoid isoginkgetin, a natural product found in a variety of plant
+				species, including
+				<italic>Ginkgo biloba</italic>
+				.
+			</p>
+			<p>
+				<table-wrap position="float" id="tbl1">
+					<label>TABLE 1</label>
+					<caption>
+						<p>
+							<bold>Compounds with reproducible differential effects on
+								reporters II and
+								III</bold>
+						</p>
+					</caption>
+					<table frame="hsides" rules="groups">
+						<thead>
+							<tr>
+								<th colspan="1" rowspan="1" align="center" valign="top">
+									<bold>Compound name</bold>
+								</th>
+								<th colspan="1" rowspan="1" align="center" valign="top">
+									<bold>ChemBank
+										ID</bold>
+									<xref ref-type="table-fn" rid="tblfn1">
+										<bold>
+											<italic>a</italic>
+										</bold>
+									</xref>
+								</th>
+								<th colspan="1" rowspan="1" align="center" valign="top">
+									<bold>
+										Composite
+										<italic>Z</italic>
+										-score
+									</bold>
+									<xref ref-type="table-fn" rid="tblfn2">
+										<bold>
+											<italic>b</italic>
+										</bold>
+									</xref>
+									<bold>II</bold>
+								</th>
+								<th colspan="1" rowspan="1" align="center" valign="top">
+									<bold>
+										Composite
+										<italic>Z</italic>
+										-score III
+									</bold>
+								</th>
+								<th colspan="1" rowspan="1" align="center" valign="top">
+									<bold>Reproducibility</bold>
+									<xref ref-type="table-fn" rid="tblfn3">
+										<bold>
+											<italic>c</italic>
+										</bold>
+									</xref>
+									<bold>II</bold>
+								</th>
+								<th colspan="1" rowspan="1" align="center" valign="top">
+									<bold>Reproducibility III</bold>
+								</th>
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<td colspan="1" rowspan="1" align="left" valign="top"> Isoginkgetin
+ </td>
+								<td colspan="1" rowspan="1" align="right" valign="top"> 2060300
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 27.9
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> -2.5
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.9996
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> -0.9978
+ </td>
+							</tr>
+							<tr>
+								<td colspan="1" rowspan="1" align="left" valign="top"> Piceatannol
+ </td>
+								<td colspan="1" rowspan="1" align="right" valign="top"> 648
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 9.1
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 3.7
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.9996
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.9966
+ </td>
+							</tr>
+							<tr>
+								<td colspan="1" rowspan="1" align="left" valign="top"> Forskolin
+ </td>
+								<td colspan="1" rowspan="1" align="right" valign="top"> 424
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 7.7
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.6
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.9965
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.9395
+ </td>
+							</tr>
+							<tr>
+								<td colspan="1" rowspan="1" align="left" valign="top"> SB-203580
+ </td>
+								<td colspan="1" rowspan="1" align="right" valign="top"> 1907775
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 6.6
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> -0.7
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.9963
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> -0.9580
+ </td>
+							</tr>
+							<tr>
+								<td colspan="1" rowspan="1" align="left" valign="top"> PK04_097119
+ </td>
+								<td colspan="1" rowspan="1" align="right" valign="top"> 2141419
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 5.4
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.8
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.9963
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.9781
+ </td>
+							</tr>
+							<tr>
+								<td colspan="1" rowspan="1" align="left" valign="top"> Resveratrol
+									4&#x02032;-methyl ether
+ </td>
+								<td colspan="1" rowspan="1" align="right" valign="top"> 2060112
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 3.4
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 9.8
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.9606
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.9481
+ </td>
+							</tr>
+							<tr>
+								<td colspan="1" rowspan="1" align="left" valign="top"> Cosmosiin
+ </td>
+								<td colspan="1" rowspan="1" align="right" valign="top"> 3055391
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 2.0
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 5.3
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.9225
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.9978
+ </td>
+							</tr>
+							<tr>
+								<td colspan="1" rowspan="1" align="left" valign="top"> Bisacodyl
+ </td>
+								<td colspan="1" rowspan="1" align="right" valign="top"> 982
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 1.8
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 5.1
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.9694
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.9998
+ </td>
+							</tr>
+							<tr>
+								<td colspan="1" rowspan="1" align="left" valign="top"> PK04_100001
+ </td>
+								<td colspan="1" rowspan="1" align="right" valign="top"> 3052787
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 1.6
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 5.0
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 1.0000
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.9976
+ </td>
+							</tr>
+							<tr>
+								<td colspan="1" rowspan="1" align="left" valign="top"> PK04_102320
+ </td>
+								<td colspan="1" rowspan="1" align="right" valign="top"> 3414053
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 1.2
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 6.5
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.8535
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top"> 0.9973
+ </td>
+							</tr>
+							<tr>
+								<td colspan="1" rowspan="1" align="left" valign="top">
+									Genistein
+ </td>
+								<td colspan="1" rowspan="1" align="right" valign="top">
+									3103903
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top">
+									-2.8
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top">
+									7.5
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top">
+									-0.9412
+ </td>
+								<td colspan="1" rowspan="1" align="center" valign="top">
+									0.9367
+ </td>
+							</tr>
+						</tbody>
+					</table>
+					<table-wrap-foot>
+						<fn id="tblfn1">
+							<label>a</label>
+							<p>ChemBank ID is the unique identifier for screening compounds
+								within the
+								ChemBank data base.</p>
+						</fn>
+						<fn id="tblfn2">
+							<label>b</label>
+							<p>
+								The composite
+								<italic>Z</italic>
+								-score is a normalized value representing the
+								number of S.D. values away from the empirically determined and
+								mathematically
+								defined mean of mock-treated cells.
+							</p>
+						</fn>
+						<fn id="tblfn3">
+							<label>c</label>
+							<p>Reproducibility is defined as the cosine of the angle between
+								the vector
+								(ZScoreA, ZScoreB) and the imaginary line defined by ZScoreA = ZScoreB;
+								it
+								ranges from -1 to +1.</p>
+						</fn>
+					</table-wrap-foot>
+				</table-wrap>
+			</p>
+			<p>
+				<italic>Validation and Characterization of Isoginkgetin as an in
+					Vivo Splicing
+					Inhibitor</italic>
+				&#x02014;To confirm the isoginkgetin results from the screen,
+				cells containing reporters I, II, and III as well as the parental cell
+				line
+				without a reporter were treated with 33 &#x003bc;
+				<sc>m</sc>
+				isoginkgetin (the
+				screening concentration) dissolved in DMSO or with DMSO alone. Luciferase
+				activity of reporter II increased significantly (&#x0223c;4-fold)
+				with
+				isoginkgetin treatment, whereas that of reporter III increased only modestly
+				(&#x0223c;1.8-fold) (
+				<xref rid="fig3" ref-type="fig">
+					Fig.
+					3
+					<italic>A</italic>
+				</xref>
+				). As observed in the screen, the effect on reporter
+				III was not statistically significant (
+				<italic>p</italic>
+				&#x02264; 0.05). Consistent with
+				an inhibition of splicing, a marked decrease (&#x0223c;5-fold) in
+				luciferase
+				activity was observed upon isoginkgetin treatment of cells expressing
+				reporter
+				I.
+			</p>
+			<p>
+				<fig position="float" id="fig2">
+					<label>FIGURE 2.</label>
+					<caption>
+						<p>
+							<bold>
+								Plot of composite
+								<italic>Z</italic>
+								-scores for 293F-II
+								<italic>versus</italic>
+								293F-III
+								cells from high throughput screen.
+							</bold>
+							<italic>Light gray squares</italic>
+							(
+							<italic>n</italic>
+							= 3172) represent values from control DMSO-treated wells.
+							<italic>Dark gray
+								diamonds</italic>
+							(
+							<italic>n</italic>
+							= 9729) represent values from compound-treated
+							wells. Only results with &#x0007c;reproducibility&#x0007c; &#x02265;
+							0.7 are shown.
+							The structure of isoginkgetin is also indicated.
+						</p>
+					</caption>
+					<graphic xlink:href="zbc0520858370002"></graphic>
+				</fig>
+			</p>
+			<p>
+				To verify that the observed changes in luciferase activity were due
+				to
+				inhibition of splicing, we performed RT-PCR analysis of total RNA extracted
+				from isoginkgetin- and DMSO-treated cells. This analysis confirmed
+				that
+				overnight exposure to 33 &#x003bc;
+				<sc>m</sc>
+				isoginkgetin was sufficient to shift
+				the predominant species generated from constructs I and II from spliced
+				mRNA
+				to unspliced pre-mRNA (
+				<xref rid="fig3" ref-type="fig">
+					Fig.
+					3
+					<italic>B</italic>
+				</xref>
+				). Semiquantitative RT-PCR revealed that this shift
+				toward accumulation of unspliced pre-mRNA was detectable within 3 h of
+				isoginkgetin addition (
+				<xref rid="fig3" ref-type="fig">
+					Fig.
+					3
+					<italic>C</italic>
+				</xref>
+				). Consistent with this, luciferase activity from
+				reporter I began to decrease, and that from reporter II began to increase
+				within a similar time frame (
+				<xref rid="fig3" ref-type="fig">
+					Fig.
+					3
+					<italic>D</italic>
+				</xref>
+				). The effect of isoginkgetin treatment was also
+				concentration-dependent, since treatment with 100 &#x003bc;
+				<sc>m</sc>
+				isoginkgetin led to a greater increase in pre-mRNA accumulation
+				within 4 h
+				than did treatment with either 10 or 33 &#x003bc;
+				<sc>m</sc>
+				isoginkgetin
+				(
+				<xref rid="fig3" ref-type="fig">
+					Fig. 3
+					<italic>E</italic>
+				</xref>
+				).
+			</p>
+			<p>
+				To test whether the effect of isoginkgetin on splicing was specific
+				to our
+				reporter system or more general, we analyzed several endogenous transcripts,
+				including those encoding &#x003b2;-tubulin, actin, DNAJB1, TPI,
+				glyceraldehyde-3-phosphate dehydrogenase, and RIOK3. All of these
+				transcripts
+				exhibited pre-mRNA accumulation (2&#x02013;20-fold) upon treatment with
+				isoginkgetin (
+				<xref rid="fig4" ref-type="fig">
+					Fig. 4,
+					<italic>A</italic>
+					and
+					<italic>B</italic>
+				</xref>
+				, and data not shown). We also monitored NOL1 intron 7,
+				a known substrate for the minor spliceosome
+				(
+				<xref ref-type="bibr" rid="ref23">23</xref>
+				). As observed for other
+				endogenous transcripts, isoginkgetin treatment led to an increase in the
+				amount of unspliced NOL1 intron 7 (
+				<xref rid="fig4" ref-type="fig">
+					Fig.
+					4
+					<italic>C</italic>
+				</xref>
+				). Taken together, these results indicate that
+				isoginkgetin is a general inhibitor of splicing that targets both the major
+				and minor spliceosomes.
+			</p>
+			<p>
+				As expected for a general inhibitor of an essential step in gene
+				expression, treatment of cells with isoginkgetin at concentrations
+				inhibitory
+				for splicing resulted in growth arrest
+				(
+				<xref rid="fig5" ref-type="fig">
+					Fig. 5
+					<italic>A</italic>
+				</xref>
+				). Trypan blue
+				and Alamar blue analyses suggested that this growth arrest was not
+				accompanied
+				by a loss of cell viability (data not shown). Consistent with this,
+				removal of
+				isoginkgetin after 24 h restored both expression of luciferase from reporter I
+				and cellular proliferation (
+				<xref rid="fig5" ref-type="fig">
+					Fig. 5,
+					<italic>B</italic>
+					and
+					<italic>C</italic>
+				</xref>
+				). Thus, isoginkgetin appears to be a
+				reversible inhibitor of pre-mRNA splicing.
+			</p>
+			<p>
+				<fig position="float" id="fig3">
+					<label>FIGURE 3.</label>
+					<caption>
+						<p>
+							<bold>
+								Isoginkgetin inhibits splicing of reporter transcripts
+								<italic>in
+									vivo</italic>
+								.
+							</bold>
+							<italic>A</italic>
+							, luciferase activity of indicated cells treated with
+							DMSO (
+							<italic>light bars</italic>
+							) or 33 &#x003bc;
+							<sc>m</sc>
+							isoginkgetin (
+							<italic>dark
+								bars</italic>
+							) overnight (
+							<italic>error bars</italic>
+							, &#x000b1;S.D.,
+							<italic>n</italic>
+							&#x02265; 3; *,
+							significant difference,
+							<italic>p</italic>
+							&#x0003c; 0.05; Student's
+							<italic>t</italic>
+							test
+							(two-tailed with unequal variance)).
+							<italic>B</italic>
+							, RT-PCR of total RNA isolated
+							from the indicated cell lines treated with DMSO or 33 &#x003bc;
+							<sc>m</sc>
+							isoginkgetin overnight. Sizes of unspliced and spliced products
+							are indicated.
+							<italic>C</italic>
+							, semiquantitative RT-PCR of total RNA isolated from 293F-II
+							cells
+							treated with DMSO or 33 &#x003bc;
+							<sc>m</sc>
+							isoginkgetin for the length of time
+							indicated.
+							<italic>D</italic>
+							, luciferase activity
+							<italic>versus</italic>
+							time for 293F-I
+							(
+							<italic>circles, dashed line</italic>
+							) and 293F-II (
+							<italic>triangles, solid line</italic>
+							)
+							cells treated with isoginkgetin relative to the luciferase activity of
+							the
+							same cells treated with DMSO alone for the same period of time.
+							<italic>E</italic>
+							,
+							RT-PCR of total RNA isolated from 293F-II cells treated with DMSO and
+							0, 10,
+							33, or 100&#x003bc;
+							<sc>m</sc>
+							isoginkgetin for 0, 4, or 21 h. Multiplexed RT-PCR
+							of U6 snRNA served as a nonspliced control.
+							<italic>RLU</italic>
+							, relative luciferase
+							units.
+						</p>
+					</caption>
+					<graphic xlink:href="zbc0520858370003"></graphic>
+				</fig>
+			</p>
+			<p>
+				<fig position="float" id="fig4">
+					<label>FIGURE 4.</label>
+					<caption>
+						<p>
+							<bold>Isoginkgetin treatment leads to the accumulation of
+								endogenous
+								pre-mRNAs.</bold>
+							To determine pre-mRNA accumulation, intron inclusion was
+							assessed using primers that crossed exon-intron boundaries (supplemental
+							Table
+							1); multiplexed RT-PCR of U6 snRNA served as a nonspliced control.
+							<italic>A</italic>
+							,
+							RT-PCR of total RNA isolated from 293F-II cells treated with DMSO and
+							0, 10,
+							33, or 100 &#x003bc;
+							<sc>m</sc>
+							isoginkgetin for 21 h to monitor single introns
+							within the &#x003b2;-tubulin, actin, and DNAJB1 transcripts.
+							<italic>B</italic>
+							, RT-PCR
+							of total RNA isolated from 293F-II cells treated with DMSO or 100
+							&#x003bc;
+							<sc>m</sc>
+							isoginkgetin for 21 h to monitor multiple introns within the
+							endogenous TPI gene.
+							<italic>C</italic>
+							, RT-PCR of total RNA isolated from 293F-II
+							cells treated with DMSO and 0, 10 or 33 &#x003bc;
+							<sc>m</sc>
+							isoginkgetin for 0,
+							4, or 21 h to monitor an intron that is a substrate for the minor
+							spliceosome.
+						</p>
+					</caption>
+					<graphic xlink:href="zbc0520858370004"></graphic>
+				</fig>
+			</p>
+			<p>
+				<italic>Isoginkgetin Inhibits Splicing in Vitro</italic>
+				&#x02014;To determine whether
+				isoginkgetin could inhibit splicing
+				<italic>in vitro</italic>
+				, we performed splicing
+				assays in HeLa cell nuclear extract using multiple RNA substrates. For
+				these
+				assays, isoginkgetin was diluted in DMSO, which itself did not affect
+				splicing
+				efficiency at concentrations of &#x02264;2% (data not shown). Radiolabeled
+				pre-mRNAs were spliced for 60 min in standard reactions supplemented
+				with
+				0&#x02013;100 &#x003bc;
+				<sc>m</sc>
+				isoginkgetin (&#x02264;1% v/v). Splicing of AdML,
+				&#x003b2;-globin, and TPI (exon 6-intron 6-exon 7, equivalent to the
+				<italic>in
+					vivo</italic>
+				splicing reporter) transcripts was inhibited by isoginkgetin in a
+				dose-dependent manner. For all three constructs, splicing was
+				completely
+				inhibited by 50 &#x003bc;
+				<sc>m</sc>
+				isoginkgetin, with an IC
+				<sub>50</sub>
+				of
+				&#x0223c;30 &#x003bc;
+				<sc>m</sc>
+				(
+				<xref rid="fig6" ref-type="fig">
+					Fig.
+					6
+					<italic>A</italic>
+				</xref>
+				). This
+				<italic>in vitro</italic>
+				splicing inhibition was
+				reproducible with several different HeLa nuclear extract preparations, and
+				preincubation of the extracts with the compound was not required for
+				inhibition (data not shown). Thus, as observed
+				<italic>in vivo</italic>
+				, isoginkgetin
+				is a general inhibitor of splicing
+				<italic>in vitro</italic>
+				.
+			</p>
+			<p>
+				<italic>Isoginkgetin Arrests Spliceosome Assembly and Sequesters
+					Pre-mRNA in
+					Complex A</italic>
+				&#x02014;To ascertain the stage at which splicing is inhibited,
+				splicing reactions containing AdML pre-mRNA &#x000b1;70 &#x003bc;
+				<sc>m</sc>
+				isoginkgetin were subjected to native gel electrophoresis. In the
+				absence of
+				isoginkgetin, progression through H/E, A, B, and C complexes was readily
+				detectable over a 60-min time course (
+				<xref rid="fig6" ref-type="fig">
+					Fig.
+					6
+					<italic>B</italic>
+				</xref>
+				,
+				<italic>lanes 6&#x02013;11</italic>
+				). Reactions lacking ATP
+				instead accumulated a complex, probably E, having a slightly lower mobility
+				than A complex (
+				<xref rid="fig6" ref-type="fig">
+					Fig.
+					6
+					<italic>B</italic>
+				</xref>
+				,
+				<italic>lane 3</italic>
+				, ATP
+				<sup>&#x02013;</sup>
+				complex)
+				(
+				<xref ref-type="bibr" rid="ref22">22</xref>
+				,
+				<xref ref-type="bibr" rid="ref24">24</xref>
+				). This same complex was
+				observable in reactions containing isoginkgetin but lacking ATP
+				(
+				<xref rid="fig6" ref-type="fig">
+					Fig. 6
+					<italic>C</italic>
+				</xref>
+				). In
+				reactions containing both isoginkgetin and ATP, little or no complex
+				comigrating with B or C could be observed. Rather, these reactions
+				accumulated
+				a little or no complex with mobility identical to that of A complex
+				(
+				<xref rid="fig6" ref-type="fig">
+					Fig. 6
+					<italic>B</italic>
+				</xref>
+				,
+				<italic>lanes
+					1</italic>
+				and
+				<italic>5</italic>
+				) (data not shown). Thus, it appears that isoginkgetin
+				blocks the A to B transition, resulting in sequestration of the pre-mRNA
+				in a
+				prespliceosome.
+			</p>
+		</sec>
+		<sec>
+			<title>DISCUSSION</title>
+			<p>
+				In comparison with other steps in gene expression, there is
+				currently a
+				paucity of small molecule modulators of pre-mRNA processing. Such
+				modulators,
+				particularly if their action is reversible, can be incredibly useful tools for
+				both cell biological and biochemical analyses. Here we describe the
+				development of a set of stable mammalian cell lines that we
+				successfully
+				employed in a high throughput screen to identify a new general inhibitor of
+				pre-mRNA splicing. Our design principle was that inhibition of
+				splicing should
+				lead to a readily detectable positive readout, in our case an increase
+				in
+				luciferase activity. This design is similar to one previously employed in
+				budding yeast, where a rise in copper resistance due to expression
+				of Cup1p
+				signaled increased use of one 5&#x02032; splice site over another
+				(
+				<xref ref-type="bibr" rid="ref25">25</xref>
+				). This CUP1 system has
+				proven highly adaptable for studying other aspects of pre-mRNA processing
+				as
+				well (
+				<xref ref-type="bibr" rid="ref26">26</xref>
+				,
+				<xref ref-type="bibr" rid="ref27">27</xref>
+				).
+			</p>
+			<p>
+				In addition to ours, a number of other reporter systems for
+				monitoring
+				either general or alternative splicing in mammalian cells via a protein
+				activity readout have been described
+				(
+				<xref ref-type="bibr" rid="ref9">9</xref>
+				,
+				<xref ref-type="bibr" rid="ref12">12</xref>
+				,
+				<xref ref-type="bibr" rid="ref28">28</xref>
+				,
+				<xref ref-type="bibr" rid="ref29">29</xref>
+				). For example, Nasim
+				<italic>et
+					al.</italic>
+				(
+				<xref ref-type="bibr" rid="ref12">12</xref>
+				) characterized a
+				dual reporter system in which a transiently transfected plasmid encodes
+				&#x003b2;-galactosidase in the first exon and firefly luciferase in
+				the second.
+				The two exons are separated by an intron containing multiple in-frame
+				stop
+				codons. Thus, whereas &#x003b2;-galactosidase is produced from both
+				pre-mRNA and
+				mRNA, luciferase is only expressed from the latter. In this system,
+				specific
+				inhibition of splicing is signaled by a decrease in luciferase activity
+				without a concomitant decrease in &#x003b2;-galactosidase activity.
+				An alternate
+				dual reporter scheme was developed by Lynch and co-workers
+				(
+				<xref ref-type="bibr" rid="ref28">28</xref>
+				) to monitor exon exclusion
+				of CD45 exon 4. In their system, skipping-dependent expression of the
+				transcriptional activator Gal4-VP16 drives expression of green
+				fluorescent
+				protein. Augmentation of the initial readout (
+				<italic>i.e.</italic>
+				an increase in
+				Gal4-VP16 expression) by transcriptional synergy enabled amplification of a
+				3&#x02013;5 fold change in splicing pattern into a 30&#x02013;50
+				fold change in
+				green fluorescent protein expression. This system was used successfully
+				to
+				identify two small molecules that promote exon 4 exclusion
+				(
+				<xref ref-type="bibr" rid="ref28">28</xref>
+				). More recently Stoilov
+				<italic>et al.</italic>
+				employed an alternative splicing reporter expressing either
+				green fluorescent protein or red fluorescent protein in an alternative
+				exon-dependent manner in a small scale screen
+				(
+				<xref ref-type="bibr" rid="ref9">9</xref>
+				). Of particular note was the
+				140-fold dynamic range of this cell-based assay obtained by monitoring the
+				ratio of two alternative splicing reporters. From their screen,
+				Stoilov
+				<italic>et
+					al.</italic>
+				(
+				<xref ref-type="bibr" rid="ref9">9</xref>
+				) identified a
+				number of well known cardiotonic steroids, such as digoxin, as altering
+				the
+				splicing pattern of MAPT exon 10, their initial reporter construct. Although
+				some of these same compounds were tested in our screen, they did not
+				have any
+				significant effects in our system. This is consistent with the idea that they
+				are specific, not general, splicing effectors.
+			</p>
+			<p>
+				<fig position="float" id="fig5">
+					<label>FIGURE 5.</label>
+					<caption>
+						<p>
+							<bold>Isoginkgetin inhibits cell proliferation in a reversible
+								fashion.</bold>
+							<italic>A</italic>
+							, cell growth upon treatment with DMSO (
+							<italic>squares, dashed
+								line</italic>
+							) or 33 &#x003bc;
+							<sc>m</sc>
+							isoginkgetin (
+							<italic>triangles, solid
+								line</italic>
+							).
+							<italic>B</italic>
+							, luciferase activity of 293F-I cells exposed to fresh
+							medium after 24 h treatment with 33 &#x003bc;
+							<sc>m</sc>
+							isoginkgetin.
+							<italic>C</italic>
+							,
+							cell growth in fresh medium after an 18-h exposure to DMSO (
+							<italic>squares,
+								dashed line</italic>
+							) or 33 &#x003bc;
+							<sc>m</sc>
+							isoginkgetin (
+							<italic>triangles, solid
+								line</italic>
+							).
+						</p>
+					</caption>
+					<graphic xlink:href="zbc0520858370005"></graphic>
+				</fig>
+			</p>
+			<p>
+				<fig position="float" id="fig6">
+					<label>FIGURE 6.</label>
+					<caption>
+						<p>
+							<bold>
+								Isoginkgetin inhibits splicing of multiple substrates
+								<italic>in vitro</italic>
+								and stalls spliceosome assembly at A complex.
+							</bold>
+							<italic>A</italic>
+							, denaturing gels
+							showing concentration dependence of isoginkgetin-mediated inhibition of
+							<italic>in
+								vitro</italic>
+							splicing of the indicated pre-mRNA substrates AdML (
+							<italic>i</italic>
+							),
+							TPI (
+							<italic>ii</italic>
+							), and &#x003b2;-globin (
+							<italic>iii</italic>
+							).
+							<italic>B</italic>
+							, native gel of
+							splicing reactions with or without 70 &#x003bc;
+							<sc>m</sc>
+							isoginkgetin, DMSO, and
+							ATP.
+							<italic>Lanes 6&#x02013;11</italic>
+							show a time course of splicing complex
+							formation; positions of complexes are indicated to the
+							<italic>right. C</italic>
+							,
+							native gel of splicing reactions (60 min) with or without 70 &#x003bc;
+							<sc>m</sc>
+							isoginkgetin and ATP.
+						</p>
+					</caption>
+					<graphic xlink:href="zbc0520858370006"></graphic>
+				</fig>
+			</p>
+			<p>
+				In contrast to the aforementioned systems, our cell-based assay was
+				specifically designed to identify a general inhibitor of pre-mRNA
+				splicing. It
+				is based entirely on luciferase as a readout and employs three nearly
+				identical reporters. By using the FLP/FRT system to generate cell
+				lines stably
+				transfected at identical genetic loci, we eliminated possible effects at the
+				level of transcription due to different genomic contexts. By
+				comparing the
+				expression of two reporters that differed by only one nucleotide at the RNA
+				level but were identical at the protein level, we eliminated
+				possible
+				differential effects of compounds on RNA or protein stability, RNA
+				translatability, or protein activity. Here we used reporter cell
+				lines II and
+				III to identify a pre-mRNA splicing inhibitor. However, other
+				combinations of
+				these cell lines could be used to screen for compounds affecting a
+				different
+				step in mRNA biogenesis. For example, a compound promoting release of
+				unspliced RNA from the nucleus without directly affecting splicing
+				might be
+				predicted to increase the luciferase signal from construct III while only
+				minimally affecting those from constructs I and II. We note that
+				several
+				compounds having this particular set of differential effects were identified
+				in our screen (
+				<xref ref-type="table" rid="tbl1">Table 1</xref>
+				, rows
+				6&#x02013;11) and may be worthy of follow up.
+			</p>
+			<p>
+				Despite screening a relatively small number of compounds
+				(&#x0003c;8000), we
+				were able to identify a
+				<italic>bona fide</italic>
+				splicing inhibitor, the natural
+				product isoginkgetin, which was by far our most positive hit. Isoginkgetin
+				has
+				previously been described as one of several biflavonoids isolated from
+				<italic>G.
+					biloba</italic>
+				, many of which have been characterized as having
+				antiproliferative, antioxidative, anti-inflammatory, and/or neuroprotective
+				activities
+				(
+				<xref ref-type="bibr" rid="ref30">30</xref>
+				&#x02013;
+				<xref ref-type="bibr" rid="ref32">32</xref>
+				)
+				(reviewed in Ref.
+				<xref ref-type="bibr" rid="ref33">33</xref>
+				). Perhaps
+				the best characterized role of isoginkgetin is as an inhibitor of tumor
+				cell
+				invasion. At isoginkgetin concentrations similar to those we found inhibitory
+				of splicing both
+				<italic>in vivo</italic>
+				and
+				<italic>in vitro</italic>
+				, Yoon
+				<italic>et al.</italic>
+				(
+				<xref ref-type="bibr" rid="ref15">15</xref>
+				) showed that tumor cell
+				invasion was inhibited. Supporting this, they documented changes in the
+				levels
+				of mRNAs encoding proteins involved in tumor cell invasion. These gene
+				expression changes were suggested to result from inhibition of the
+				kinase-dependent phosphatidylinositol 3-kinase/ATK/NF-&#x003ba;B
+				signaling
+				pathway, although the exact target of isoginkgetin was not identified in
+				that
+				study.
+			</p>
+			<p>
+				Recently, two other classes of cell-permeable compounds have emerged
+				as
+				general pre-mRNA splicing inhibitors: pladienolide-B and spliceostatin A, a
+				derivative of FR901464 (
+				<xref ref-type="bibr" rid="ref13">13</xref>
+				,
+				<xref ref-type="bibr" rid="ref14">14</xref>
+				,
+				<xref ref-type="bibr" rid="ref34">34</xref>
+				). Although these natural
+				products were isolated from different organisms and have different core
+				structures, they both target the SF3b complex. SF3b, which consists
+				of the
+				three proteins SAP130, SAP145, and SAP155, is a component of U2 and U12
+				snRNPs
+				important for early spliceosome assembly and branch point adenosine
+				definition. Extracts lacking SF3b fail to assemble A complex
+				(
+				<xref ref-type="bibr" rid="ref35">35</xref>
+				). Also known as the
+				prespliceosome, A complex represents the first ATP-dependent stage of
+				spliceosome assembly, and contains U2 snRNP stably associated with the branch
+				site. Consistent with SF3b being the target of spliceostatin A, we
+				recently
+				showed that meayamycin, another FR901464 analog, which is 2 orders of
+				magnitude more potent than FR901464
+				(
+				<xref ref-type="bibr" rid="ref36">36</xref>
+				), completely blocks A
+				complex formation
+				<italic>in
+					vitro</italic>
+				.
+				<xref ref-type="fn" rid="fn4">3</xref>
+				In
+				contrast, isoginkgetin appears to act by a different mechanism, since its
+				presence promotes the accumulation of A complex in
+				<italic>in vitro</italic>
+				splicing
+				reactions. Although we have not yet identified the target of isoginkgetin,
+				likely candidates would be components of both the major and minor
+				spliceosomes
+				required for the A to B complex transition. An example of such a component
+				is
+				the SRPK2 kinase, which phosphorylates PRP28, allowing stable
+				association with
+				the U4/U5/U6 tri-snRNP and progression to B complex
+				(
+				<xref ref-type="bibr" rid="ref37">37</xref>
+				). Regardless of its
+				target, isoginkgetin should prove a useful reagent for the accumulation of
+				prespliceosomes for mechanistic and structural studies.
+			</p>
+			<p>
+				Like isoginkgetin, pladienolide-B and FR901464 (and its derivatives)
+				have
+				been reported to have antiproliferative activity. Indeed, it was their
+				promise
+				as anti-tumor agents that prompted the studies leading to the
+				identification
+				of SF3b as the cellular target of both. That isoginkgetin,
+				pladienolide-B, and
+				spliceostatin A all have both anti-tumor and anti-splicing activity but
+				inhibit splicing by two different mechanisms (inhibition of A complex
+				formation
+				<italic>versus</italic>
+				the A to B complex transition) suggests that their
+				shared anti-tumor activity is a consequence of failure to express some
+				limiting component needed for tumor cell growth due to general
+				splicing
+				inhibition. In
+				<italic>Schizosaccharomyces pombe</italic>
+				, for example, mutation of
+				the general splicing factor CDC5 leads to a cell cycle defect due to
+				decreased
+				splicing efficiency of &#x003b1;-tubulin pre-mRNA. The simple requirement
+				for
+				large quantities of &#x003b1;-tubulin at the G
+				<sub>2</sub>
+				/M transition leaves
+				the cell vulnerable to anything limiting &#x003b1;-tubulin production
+				(
+				<xref ref-type="bibr" rid="ref38">38</xref>
+				). A similar mechanism may
+				be at work with small molecule inhibitors of splicing. The
+				antiproliferative
+				effect may be the result of an increased sensitivity to decreases in
+				certain
+				limiting proteins in proliferating cells. Thus, small molecule inhibitors of
+				general pre-mRNA splicing potentially represent an exciting new
+				avenue for the
+				development of novel anti-inflammatory and/or anti-cancer agents.
+			</p>
+		</sec>
+		<sec sec-type="supplementary-material">
+			<title>Supplementary Material</title>
+			<supplementary-material id="PMC_1"
+				content-type="local-data">
+				<caption>
+					<title>[Supplemental Data]</title>
+				</caption>
+				<media mimetype="text" mime-subtype="html" xlink:href="M805556200_index.html" />
+				<media xlink:role="associated-file" mimetype="application"
+					mime-subtype="pdf" xlink:href="M805556200_1.pdf" />
+			</supplementary-material>
+		</sec>
+	</body>
+	<back>
+		<ack>
+			<p>We thank Jing Yan for technical assistance and Amrit Singh and
+				Danny
+				Crawford for critical reading of the manuscript. We thank Kazunori Koide
+				(University of Pittsburgh) for helpful discussions and sharing
+				results prior
+				to publication.</p>
+		</ack>
+		<ref-list>
+			<ref id="ref1">
+				<label>1</label>
+				<citation citation-type="journal">
+					Matlin, A. J., and Moore, M. J. (
+					<year>2007</year>
+					)
+					<source>Adv.
+						Exp. Med. Biol.</source>
+					<volume>623</volume>
+					<fpage>14</fpage>
+					&#x02013;35
+					<pub-id pub-id-type="pmid">18380338</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref2">
+				<label>2</label>
+				<citation citation-type="journal">
+					Brody, E., and Abelson, J. (
+					<year>1985</year>
+					)
+					<source>Science</source>
+					<volume>228</volume>
+					<fpage>963</fpage>
+					&#x02013;967
+					<pub-id pub-id-type="pmid">3890181</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref3">
+				<label>3</label>
+				<citation citation-type="journal">
+					Grabowski, P. J., Seiler, S. R., and Sharp, P. A.
+					(
+					<year>1985</year>
+					)
+					<source>Cell</source>
+					<volume>42</volume>
+					<fpage>345</fpage>
+					&#x02013;353
+					<pub-id pub-id-type="pmid">3160482</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref4">
+				<label>4</label>
+				<citation citation-type="journal">
+					Jurica, M. S. (
+					<year>2008</year>
+					)
+					<source>Nat. Chem.
+						Biol.</source>
+					<volume>4</volume>
+					<fpage>3</fpage>
+					&#x02013;6
+					<pub-id pub-id-type="pmid">18084270</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref5">
+				<label>5</label>
+				<citation citation-type="journal">
+					Steitz, T. A. (
+					<year>2008</year>
+					)
+					<source>Nat. Rev. Mol. Cell.
+						Biol.</source>
+					<volume>9</volume>
+					<fpage>242</fpage>
+					&#x02013;253
+					<pub-id pub-id-type="pmid">18292779</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref6">
+				<label>6</label>
+				<citation citation-type="journal">
+					Bakkour, N., Lin, Y. L., Maire, S., Ayadi, L., Mahuteau-Betzer, F.,
+					Nguyen, C. H., Mettling, C., Portales, P., Grierson, D., Chabot,
+					B., Jeanteur,
+					P., Branlant, C., Corbeau, P., and Tazi, J. (
+					<year>2007</year>
+					)
+					<source>PLoS Pathog.</source>
+					<volume>3</volume>
+					<fpage>1530</fpage>
+					&#x02013;1539
+					<pub-id pub-id-type="pmid">17967062</pub-id>
+				</citation>
+			</ref>
+			<ref id="N0x1dd7240N0x41d4bb8">
+				<label>7</label>
+				<citation citation-type="journal">
+					Nottrott, S., Hartmuth, K., Fabrizio, P., Urlaub, H., Vidovic, I.,
+					Ficner, R., and Luhrmann, R. (
+					<year>1999</year>
+					)
+					<source>EMBO
+						J.</source>
+					<volume>18</volume>
+					<fpage>6119</fpage>
+					&#x02013;6133
+					<pub-id pub-id-type="pmid">10545122</pub-id>
+				</citation>
+			</ref>
+			<ref id="N0x1dd7240N0x41d4e40">
+				<label>8</label>
+				<citation citation-type="journal">
+					Soret, J., Bakkour, N., Maire, S., Durand, S., Zekri, L., Gabut,
+					M., Fic, W., Divita, G., Rivalle, C., Dauzonne, D., Nguyen, C. H.,
+					Jeanteur,
+					P., and Tazi, J. (
+					<year>2005</year>
+					)
+					<source>Proc. Natl. Acad. Sci. U. S.
+						A.</source>
+					<volume>102</volume>
+					<fpage>8764</fpage>
+					&#x02013;8769
+					<pub-id pub-id-type="pmid">15939885</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref9">
+				<label>9</label>
+				<citation citation-type="journal">
+					Stoilov, P., Lin, C. H., Damoiseaux, R., Nikolic, J., and Black, D.
+					L. (
+					<year>2008</year>
+					)
+					<source>Proc. Natl. Acad. Sci. U. S. A.</source>
+					<volume>105</volume>
+					<fpage>11218</fpage>
+					&#x02013;11223
+					<pub-id pub-id-type="pmid">18678901</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref10">
+				<label>10</label>
+				<citation citation-type="journal">
+					Sumanasekera, C., Watt, D. S., and Stamm, S. (
+					<year>2008</year>
+					)
+					<source>Biochem. Soc. Trans.</source>
+					<volume>36</volume>
+					<fpage>483</fpage>
+					&#x02013;490
+					<pub-id pub-id-type="pmid">18481986</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref11">
+				<label>11</label>
+				<citation citation-type="journal">
+					Legrain, P., and Rosbash, M. (
+					<year>1989</year>
+					)
+					<source>Cell</source>
+					<volume>57</volume>
+					<fpage>573</fpage>
+					&#x02013;583
+					<pub-id pub-id-type="pmid">2655924</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref12">
+				<label>12</label>
+				<citation citation-type="journal">
+					Nasim, M. T., Chowdhury, H. M., and Eperon, I. C.
+					(
+					<year>2002</year>
+					)
+					<source>Nucleic Acids Res.</source>
+					<volume>30</volume>
+					<fpage>e109</fpage>
+					<pub-id pub-id-type="pmid">12384611</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref13">
+				<label>13</label>
+				<citation citation-type="journal">
+					Kaida, D., Motoyoshi, H., Tashiro, E., Nojima, T., Hagiwara, M.,
+					Ishigami, K., Watanabe, H., Kitahara, T., Yoshida, T., Nakajima,
+					H., Tani, T.,
+					Horinouchi, S., and Yoshida, M. (
+					<year>2007</year>
+					)
+					<source>Nat. Chem.
+						Biol.</source>
+					<volume>3</volume>
+					<fpage>576</fpage>
+					&#x02013;583
+					<pub-id pub-id-type="pmid">17643111</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref14">
+				<label>14</label>
+				<citation citation-type="journal">
+					Kotake, Y., Sagane, K., Owa, T., Mimori-Kiyosue, Y., Shimizu, H.,
+					Uesugi, M., Ishihama, Y., Iwata, M., and Mizui, Y. (
+					<year>2007</year>
+					)
+					<source>Nat. Chem. Biol.</source>
+					<volume>3</volume>
+					<fpage>570</fpage>
+					&#x02013;575
+					<pub-id pub-id-type="pmid">17643112</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref15">
+				<label>15</label>
+				<citation citation-type="journal">
+					Yoon, S. O., Shin, S., Lee, H. J., Chun, H. K., and Chung, A. S.
+					(
+					<year>2006</year>
+					)
+					<source>Mol. Cancer Ther.</source>
+					<volume>5</volume>
+					<fpage>2666</fpage>
+					&#x02013;2675
+					<pub-id pub-id-type="pmid">17121913</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref16">
+				<label>16</label>
+				<citation citation-type="journal">
+					Nott, A., Meislin, S. H., and Moore, M. J. (
+					<year>2003</year>
+					)
+					<source>RNA</source>
+					<volume>9</volume>
+					<fpage>607</fpage>
+					&#x02013;617
+					<pub-id pub-id-type="pmid">12702819</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref17">
+				<label>17</label>
+				<citation citation-type="journal">
+					Seiler, K. P., George, G. A., Happ, M. P., Bodycombe, N. E.,
+					Carrinski, H. A., Norton, S., Brudz, S., Sullivan, J. P., Muhlich,
+					J.,
+					Serrano, M., Ferraiolo, P., Tolliday, N. J., Schreiber, S. L., and Clemons,
+					P.
+					A. (
+					<year>2008</year>
+					)
+					<source>Nucleic Acids Res.</source>
+					<volume>36</volume>
+					<fpage>D351</fpage>
+					&#x02013;D359
+					<pub-id pub-id-type="pmid">17947324</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref18">
+				<label>18</label>
+				<citation citation-type="journal">
+					Le Hir, H., Izaurralde, E., Maquat, L. E., and Moore, M. J.
+					(
+					<year>2000</year>
+					)
+					<source>EMBO J.</source>
+					<volume>19</volume>
+					<fpage>6860</fpage>
+					&#x02013;6869
+					<pub-id pub-id-type="pmid">11118221</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref19">
+				<label>19</label>
+				<citation citation-type="journal">
+					Abmayr, S. M., Workman, J. L., and Roeder, R. G.
+					(
+					<year>1988</year>
+					)
+					<source>Genes Dev.</source>
+					<volume>2</volume>
+					<fpage>542</fpage>
+					&#x02013;553
+					<pub-id pub-id-type="pmid">2838379</pub-id>
+				</citation>
+			</ref>
+			<ref id="N0x1dd7240N0x1dd84f8">
+				<label>20</label>
+				<citation citation-type="journal">
+					Dignam, J. D., Lebovitz, R. M., and Roeder, R. G.
+					(
+					<year>1983</year>
+					)
+					<source>Nucleic Acids Res.</source>
+					<volume>11</volume>
+					<fpage>1475</fpage>
+					&#x02013;1489
+					<pub-id pub-id-type="pmid">6828386</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref21">
+				<label>21</label>
+				<citation citation-type="journal">
+					Reichert, V., and Moore, M. J. (
+					<year>2000</year>
+					)
+					<source>Nucleic Acids Res.</source>
+					<volume>28</volume>
+					<fpage>416</fpage>
+					&#x02013;423
+					<pub-id pub-id-type="pmid">10606638</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref22">
+				<label>22</label>
+				<citation citation-type="journal">
+					Konarska, M. M., and Sharp, P. A. (
+					<year>1987</year>
+					)
+					<source>Cell</source>
+					<volume>49</volume>
+					<fpage>763</fpage>
+					&#x02013;774
+					<pub-id pub-id-type="pmid">2953438</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref23">
+				<label>23</label>
+				<citation citation-type="journal">
+					Tarn, W.-Y., and Steitz, J. A. (
+					<year>1996</year>
+					)
+					<source>Cell</source>
+					<volume>84</volume>
+					<fpage>801</fpage>
+					&#x02013;811
+					<pub-id pub-id-type="pmid">8625417</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref24">
+				<label>24</label>
+				<citation citation-type="journal">
+					Das, R., and Reed, R. (
+					<year>1999</year>
+					)
+					<source>RNA</source>
+					<volume>5</volume>
+					<fpage>1504</fpage>
+					&#x02013;1508
+					<pub-id pub-id-type="pmid">10580479</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref25">
+				<label>25</label>
+				<citation citation-type="journal">
+					Lesser, C. F., and Guthrie, C. (
+					<year>1993</year>
+					)
+					<source>Genetics</source>
+					<volume>133</volume>
+					<fpage>851</fpage>
+					&#x02013;863
+					<pub-id pub-id-type="pmid">8462846</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref26">
+				<label>26</label>
+				<citation citation-type="journal">
+					Query, C. C., and Konarska, M. M. (
+					<year>2004</year>
+					)
+					<source>Mol. Cell.</source>
+					<volume>14</volume>
+					<fpage>343</fpage>
+					&#x02013;354
+					<pub-id pub-id-type="pmid">15125837</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref27">
+				<label>27</label>
+				<citation citation-type="journal">
+					Stutz, F., and Rosbash, M. (
+					<year>1994</year>
+					)
+					<source>EMBO
+						J.</source>
+					<volume>13</volume>
+					<fpage>4096</fpage>
+					&#x02013;4104
+					<pub-id pub-id-type="pmid">8076605</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref28">
+				<label>28</label>
+				<citation citation-type="journal">
+					Levinson, N., Hinman, R., Patil, A., Stephenson, C. R., Werner, S.,
+					Woo, G. H., Xiao, J., Wipf, P., and Lynch, K. W. (
+					<year>2006</year>
+					)
+					<source>RNA</source>
+					<volume>12</volume>
+					<fpage>925</fpage>
+					&#x02013;930
+					<pub-id pub-id-type="pmid">16556940</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref29">
+				<label>29</label>
+				<citation citation-type="journal">
+					Roberts, G. C., Gooding, C., and Smith, C. W. (
+					<year>1996</year>
+					)
+					<source>EMBO J.</source>
+					<volume>15</volume>
+					<fpage>6301</fpage>
+					&#x02013;6310
+					<pub-id pub-id-type="pmid">8947053</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref30">
+				<label>30</label>
+				<citation citation-type="journal">
+					Kang, S. S., Lee, J. Y., Choi, Y. K., Song, S. S., Kim, J. S.,
+					Jeon, S. J., Han, Y. N., Son, K. H., and Han, B. H. (
+					<year>2005</year>
+					)
+					<source>Bioorg. Med. Chem. Lett.</source>
+					<volume>15</volume>
+					<fpage>3588</fpage>
+					&#x02013;3591
+					<pub-id pub-id-type="pmid">15978805</pub-id>
+				</citation>
+			</ref>
+			<ref id="N0x1dd7240N0x425e5e0">
+				<label>31</label>
+				<citation citation-type="journal">
+					Kim, S. J., Lim, M. H., Chun, I. K., and Won, Y. H.
+					(
+					<year>1997</year>
+					)
+					<source>Skin Pharmacol.</source>
+					<volume>10</volume>
+					<fpage>200</fpage>
+					&#x02013;205
+					<pub-id pub-id-type="pmid">9413894</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref32">
+				<label>32</label>
+				<citation citation-type="journal">
+					Lee, S. J., Choi, J. H., Son, K. H., Chang, H. W., Kang, S. S., and
+					Kim, H. P. (
+					<year>1995</year>
+					)
+					<source>Life Sci.</source>
+					<volume>57</volume>
+					<fpage>551</fpage>
+					&#x02013;558
+					<pub-id pub-id-type="pmid">7623623</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref33">
+				<label>33</label>
+				<citation citation-type="journal">
+					Kim, H. P., Park, H., Son, K. H., Chang, H. W., and Kang, S. S.
+					(
+					<year>2008</year>
+					)
+					<source>Arch. Pharm. Res.</source>
+					<volume>31</volume>
+					<fpage>265</fpage>
+					&#x02013;273
+					<pub-id pub-id-type="pmid">18409037</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref34">
+				<label>34</label>
+				<citation citation-type="journal">
+					Nakajima, H., Hori, Y., Terano, H., Okuhara, M., Manda, T.,
+					Matsumoto, S., and Shimomura, K. (
+					<year>1996</year>
+					)
+					<source>J. Antibiot.
+						(Tokyo)</source>
+					<volume>49</volume>
+					<fpage>1204</fpage>
+					&#x02013;1211
+					<pub-id pub-id-type="pmid">9031665</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref35">
+				<label>35</label>
+				<citation citation-type="journal">
+					Wang, Q., He, J., Lynn, B., and Rymond, B. C. (
+					<year>2005</year>
+					)
+					<source>Mol. Cell. Biol.</source>
+					<volume>25</volume>
+					<fpage>10745</fpage>
+					&#x02013;10754
+					<pub-id pub-id-type="pmid">16314500</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref36">
+				<label>36</label>
+				<citation citation-type="journal">
+					Albert, B. J., Sivaramakrishnan, A., Naka, T., Czaicki, N. L., and
+					Koide, K. (
+					<year>2007</year>
+					)
+					<source>J. Am. Chem. Soc.</source>
+					<volume>129</volume>
+					<fpage>2648</fpage>
+					&#x02013;2659
+					<pub-id pub-id-type="pmid">17279752</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref37">
+				<label>37</label>
+				<citation citation-type="journal">
+					Mathew, R., Hartmuth, K., Mohlmann, S., Urlaub, H., Ficner, R., and
+					Luhrmann, R. (
+					<year>2008</year>
+					)
+					<source>Nat. Struct. Mol.
+						Biol.</source>
+					<volume>15</volume>
+					<fpage>435</fpage>
+					&#x02013;443
+					<pub-id pub-id-type="pmid">18425142</pub-id>
+				</citation>
+			</ref>
+			<ref id="ref38">
+				<label>38</label>
+				<citation citation-type="journal">
+					Burns, C. G., Ohi, R., Mehta, S., O'Toole, E. T., Winey, M., Clark,
+					T. A., Sugnet, C. W., Ares, M., Jr., and Gould, K. L. (
+					<year>2002</year>
+					)
+					<source>Mol. Cell. Biol.</source>
+					<volume>22</volume>
+					<fpage>801</fpage>
+					&#x02013;815
+					<pub-id pub-id-type="pmid">11784857</pub-id>
+				</citation>
+			</ref>
+		</ref-list>
+		<fn-group>
+			<fn id="fn3">
+				<label>2</label>
+				<p>
+					The abbreviations used are: snRNA, small nuclear RNA; snRNP, small
+					nuclear
+					ribonucleoprotein; FRT,
+					<italic>flp</italic>
+					recombinase target; RT, reverse
+					transcription; AdML, adenovirus major late; TPI, triose-phosphate
+					isomerase.
+				</p>
+			</fn>
+			<fn id="fn4">
+				<label>3</label>
+				<p>M. J. Moore, K. O'Brien, and K. Koide, unpublished data.</p>
+			</fn>
+		</fn-group>
+	</back>
+</article>
+
+

@@ -1,0 +1,11 @@
+*	Equiv T4 T5
+T16	Negative_regulation 562 570	affected
+T17	Positive_regulation 962 975	up-regulation
+T18	Positive_regulation 1054 1062	detected
+T19	Negative_regulation 1340 1355	down-regulation
+E1	Negative_regulation:T16 Theme:T3
+E2	Negative_regulation:T16 Theme:T4
+E3	Positive_regulation:T17 Theme:T9
+E4	Positive_regulation:T18 Theme:E3 Cause:T10
+E5	Negative_regulation:T19 Theme:T13 Cause:T14
+M1	Negation E4

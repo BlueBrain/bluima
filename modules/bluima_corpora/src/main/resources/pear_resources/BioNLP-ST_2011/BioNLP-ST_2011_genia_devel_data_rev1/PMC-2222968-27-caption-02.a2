@@ -1,0 +1,9 @@
+T5	Gene_expression 17 24	Express
+T6	Gene_expression 72 82	expression
+T7	Gene_expression 218 228	expression
+E1	Gene_expression:T5 Theme:T1
+E2	Gene_expression:T6 Theme:T2
+E3	Gene_expression:T7 Theme:T4
+M1	Negation E1
+M2	Speculation E2
+M3	Speculation E3

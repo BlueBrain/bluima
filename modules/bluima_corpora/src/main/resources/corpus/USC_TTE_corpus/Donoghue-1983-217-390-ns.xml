@@ -1,0 +1,2062 @@
+<?xml version='1.0'?>
+<!DOCTYPE File PUBLIC "NeuroScholar.DTD" "NeuroScholar.DTD">
+<?xml-stylesheet type="text/css" href="NeuroScholar.css"?>
+<File>
+
+  <Title>Afferent Connections of the Lateral Agranular Field of the Rat 
+  Motor Cortex</Title>
+
+  <Authors>JOHN P. DONOGHUE AND CAROL PARHAM</Authors>
+
+  <Abstract>
+
+    <S avgH="22" class="abstract.heading" format="TimesNewRomanPSMT"
+     id="s0">ABSTRACT</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s1">Retrograde axonal transport techniques were used to 
+    identify the afferent connections of the lateral agranular field 
+    (AGl) of the rat frontal cortex.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s2">This cytoarchitectonically distinct cortical field forms 
+    the bulk of the primary motor cortex (MI) as defined by 
+    intracortical microstimulation studies (Donoghue and Wise, 
+    &apos;82).</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s3">Following injections of horseradish peroxidase (HRP) or 
+    wheat germ agglutinin conjugated to HRP into AGI, retrogradely 
+    labeled cells are found in the forebrain, thalamus, and 
+    brainstem.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s4">Within the cerebral cortex labeled neurons are mainly 
+    present in the first somatic sensory area (SI), the second somatic 
+    sensory area (SII), and the medial agranular field, which lies 
+    medial and rostral to AGl.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s5">In SI, labeled cells are found primarily in a 
+    cytoarchitecturally distinct region called the dysgranular field of 
+    SI.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s6">Labeled neurons are present in layers I1 and 111, Va, and 
+    the deepest part of layer VI in this field and in SII.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s7">Labeled cells are also present in layers Va and VI of the 
+    densely granular field of SI, which is the part of SI that is 
+    strongly activated by cutaneous inputs.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s8">Commissural inputs to AG1 arise from layers 11-VI of the 
+    contralateral AG1 and thalamic inputs arise from the ventrolateral, 
+    ventromedial, posterior medial, and central lateral nuclei.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s9">Additional afferent fibers originate from neurons in the 
+    basal forebrain, the ventral thalamus, the midbrain raphe nuclei, 
+    and the locus coeruleus.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s10">This combination of inputs to AGI from somatic sensory 
+    and frontal cortical fields, thalamic motor centers, and several 
+    other subcortical areas implies that AGl forms a subdivision of 
+    sensorimotor cortex that is important in centrally directed 
+    movements as well as those that are guided by somatic sensory 
+    feedback.</S>
+  </Abstract>
+
+  <Introduction>
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s11">The distinct cytoarchitecture of the rat somatic 
+    sensorimotor cortex and the large body of neurobiological data for 
+    this species make the rat extremely useful for studies of 
+    functional organization in cerebral neocortex.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s12">The location, general organization, and cytoarchitectural 
+    correlates of the principal fields of the rat somatic sensorimotor 
+    cortex have been established with anatomical and 
+    electrophysiological techniques.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s13">These studies have suggested that the sensorimotor cortex 
+    of rats contains several distinct cortical fields with precise 
+    functional correlates.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s14">The classically defined first somatic sensory area (SI) 
+    lies within the parietal cortex and appears to have two functional 
+    subdivisions.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s15">One subdivision contains the representation of cutaneous 
+    receptors and coincides with cytoarchitecturally distinct areas 
+    that are marked by their densely granular layer IV.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s16">Each of these &quot;granule cell a g gregates&quot; 
+    contains the cortical representation of cutaneous inputs from a 
+    particular region of the body, such as the forelimb, hindlimb, or 
+    head (Welker, &apos;71, &apos;76).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s17">Surrounding this granular field is a second subdivision 
+    of SI, termed the dysgranular field of SI, because it has a 
+    relatively thin layer IV (Donoghue and Wise, &apos;82).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s18">In this field neurons respond poorly to light tactile 
+    stimuli of the body surface, at least during barbiturate anesthesia 
+    (Welker, &apos;76).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s19">The second somatic sensory area (SII) is located in the 
+    parietal cortex lateral to SI and also contains a somatotopically 
+    organized cutaneous map (Welker and Sinha, &apos;72).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s20">Both SI and SII appear to receive their cutaneous input 
+    from connections with the ventrobasal complex of the thalamus 
+    (Killackey and Leshin, &apos;75; Wise and Jones, &apos;78).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s21">The primary motor cortex (MI), identified as the region 
+    of the cortex where intracortical stimulation produces movements at 
+    the lowest thresholds (Hall and Lindholm, &apos;74; Sanderson et 
+    al., %l), occupies two cytoarchitectonic fields (Donoghue and Wise, 
+    &apos;82).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s22">The bulk of MI coincides with a distinct frontal 
+    agranular area called the lateral agranular field (AGJ.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s23">This part of MI contains the head, trunk, and part of the 
+    forelimb representation.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s24">The remainder of MI is contained in the rostral part of 
+    the granular parietal cortex.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s25">This part of MI overlaps with the SI cortex and contains 
+    the representation of the hindlimb and part of the forelimb (Hall 
+    and Lindholm, &apos;74).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s26">Neurons in the overlapping MI-SI area, as in the 
+    remaining parts of the granular cortex, are activated by light 
+    tactile stimulation (Welker, &apos;76), and, in at least the region 
+    of the hindlimb representation, there is direct thalamic input from 
+    both the ventrobasal complex (VB) and ventrolateral complex (VL) 
+    (Donoghue et al., &apos;79).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s27">Thus, MI consists of two subdivisions in the rat.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s28">The region of overlapping SI and MI cortex lies within 
+    granular cortex, receives cutaneous inputs relayed from VB, and is 
+    related to control of the hindlimb and forelimb.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s29">The larger, non-overlapping part of MI corresponds to the 
+    lateral agranular field (AGl) and appears to be involved with 
+    movements of the head, trunk, and forelimb.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s30">Despite the extensive knowledge of the functional 
+    organization of the granular fields of sensorimotor cortex, 
+    relatively little is known about the intracortical connectivity or 
+    the subcortical relations of the agranular part of MI.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s31">The completion of baseline studies to establish a precise 
+    localization of MI in the rat (Hall and Lindholm, &apos;74; 
+    Donoghue and Wise, &apos;82) now permits a detailed analysis of the 
+    functional organization of MI and the entire sensorimotor cortex in 
+    this species.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s32">In the present study, retrograde axonal tracers were 
+    injected into AG1 in order to identify the various sources of input 
+    that might regulate, influence, or control the intrinsic and output 
+    neurons of this part of MI.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s33">The results show that AGI receives input from somatic 
+    sensory and frontal cortical areas, at least four thalamic nuclei, 
+    and basal forebrain and brainstem cell groups.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s34">This diverse combination of inputs from sensory and motor 
+    control centers suggests that AGl has a role in the generation and 
+    guidance of movement in the rat.</S>
+  </Introduction>
+
+  <Methods>
+
+    <S avgH="26" class="methods.heading" format="TimesNewRomanPS-BoldMT"
+     id="s35">METHODS</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s36">A single injection of horseradish peroxidase (HRP) was 
+    made in the frontal or parietal cortex of 16 albino rats (175-225 
+    gm) during ketamine anesthesia (150 mglkg, supplemented as needed 
+    with doses of 5-10 mg, i.p.).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s37">Wheat germ agglutinin conjugated to HRP (WGA-HRP, Sigma) 
+    was injected in the same cortical region of 17 additional rats.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s38">In five animals the injection site was localized to the 
+    MI cortex by microstimulation mapping with a tungsten 
+    microelectrode (1-3 MQ at 1 kHz).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s39">The cortex was stimulated through this electrode at a 
+    depth of 1.5-1.8 mm below the surface, by using currents of 5-100 
+    pA (333 Hz, 200 psec pulses, 30-msec train) at three or four 
+    different sites.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s40">Few penetrations were made in order to avoid extensive 
+    damage to the cortex.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s41">In all other cases injections were placed under visual 
+    guidance, with the map of Hall and Lindholm (&apos;74) as 
+    reference.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s42">This method provides only a rough guide to the location 
+    of cytoarchitectonic fields.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s43">Injections were aimed at AGl, medial agranular field 
+    (AG,), or the parietal cortex so that the pattern of connectivity 
+    of AG1 could be compared with the surrounding fields.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s44">HRP (30% weightivolume) or WGA-HRP (4%), dissolved in 
+    TRIS buffer (pH 7.6) plus 0.9% NaCl, was deposited 
+    iontophoretically through glass micropipettes having tips of 15-50 
+    p, by using currents of 1-10 pA for 1-30 minutes.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s45">Various parameters of injection time and current were 
+    employed in an effort to make restricted injections that labeled 
+    many neurons.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s46">The injection pipette was left in place for 5-15 minutes 
+    before it was removed.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s47">Following a 2or 3-day post-injection survival the rats 
+    were perfused with 0.9% NaCl followed by 1 liter of a solution 
+    containing 2% paraformaldehyde and 1.5% glutaraldehyde in 0.1 M 
+    phosphate buffer (pH 7.4).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s48">In 17 animals the brains were stored for 2-3 hours in the 
+    same fixative after perfusion, then transferred to phosphate 
+    buffer.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s49">The next day these brains were cut on a vibratome.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s50">For the remaining 16 animals, perfusion with the same 
+    type of fixative described above was followed by perfusion with 500 
+    ml of 10% sucrose in the aldehyde fixative.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s51">These brains were stored overnight in 30% sucrose in 
+    phosphate buffer and then sectioned on a freezing microtome.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s52">All brains were cut at 50 pm in the frontal plane.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s53">One series of sections was treated with the chromagen 
+    tetramethyl benzidine (TMB) according to the procedure of Mesulam 
+    (&apos;78) and a second series was treated with diaminobenzidine 
+    (DAB) by the method of LaVail et al. (&apos;73).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s54">Each series was composed of one-quarter of the sections 
+    and each section in a series was separated from the next by 150 
+    pm.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s55">TMB reacted sections were air dried after mounting and 
+    cleared in xylene.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s56">These sections were not counterstained or dehydrated in 
+    alcohols, in order to prevent loss of TMB reaction product.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s57">Sections treated with DAB were counterstained with 
+    thionin, dehydrated, and cleared in xylene.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s58">The location of injection sites and peroxidase-labeled 
+    cells was charted on X26 projection drawings of selected unstained, 
+    TMB-reacted sections with the aid of a microscope and drawing 
+    tube.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s59">All chartings were taken from the TMB-reacted tissue 
+    because cell labeling was more pronounced and because a greater 
+    number of cells were labeled with this method.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s60">DAB-reacted sections were used mainly to localize the 
+    center of the injection.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s61">Cytoarchitectonic boundaries were placed on each drawing 
+    by projecting an adjacent Nissl-stained, DAB incubated section onto 
+    the charting.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s62">The two adjacent sections were aligned on blood vessels 
+    and surface landmarks.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s63">The subdivisions of somatic sensorimotor cortex were 
+    labeled according to the description of Donoghue and Wise ( 82) and 
+    Welker ( 71; see also Zilles et al., 80).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s64">Thalamic parcellation followed the descriptions of 
+    Donoghue et d. ( 79) and Herkenham ( 79).</S>
+  </Methods>
+
+  <Results>
+
+    <S avgH="26" class="results.heading" format="TimesNewRomanPS-BoldMT"
+     id="s65">RESULTS</S>
+    <BR />
+
+    <S avgH="24" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s66">Cortical areas and 
+    injection sites</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s67">The principal cytoarchitectonic fields of sensorimotor 
+    cortex consist of the medial and lateral agranular fields of the 
+    frontal cortex and the granular and dysgranular fields of parietal 
+    cortex .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s68">Aspects of the cytoarchitecture of these areas can be 
+    seen in Figures 1 and 4 and a surface reconstruction of the 
+    relative locations of these fields is shown in Figure 2.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s69">Briefly , AGI is distinguished by its relatively 
+    indistinct lamination compared to surrounding fields .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s70">The medial agranular field ( AG , ) is marked by a pale 
+    band in layer 111, while the granular SI cortex can be discerned by 
+    its well - developed layer IV , which is absent in the frontal 
+    cortex .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s71">The dysgranular part of SI has a thinner , less distinct 
+    layer IV and surrounds the granular cortex ( Fig . 2 ) .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s72">A full description of these areas is presented in 
+    Donoghue and Wise ( 82).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s73">Descriptions of the cytoarchitecture of other frontal and 
+    insular fields can be found in Krettek and Price ( 77a ) , and 
+    their nomenclature for these fields is used in the present study 
+    .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s74">Injections of <tracerChemical>HRP or WGA - 
+    HRP</tracerChemical> were contained within single fields or 
+    involved multiple fields .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s75">In five cases <exptLabel>the entire injection, as seen in 
+    TMB-reacted sections, was confined to 
+    <injectionLocation>AGI</injectionLocation></exptLabel>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s76">Nineteen other injections were centered in 
+    <injectionLocation>AGl</injectionLocation> but spread into 
+    <injectionSpread>AG,, the granular cortex, or both 
+    areas</injectionSpread>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s77">Five injections included AG, and spread into 
+    <injectionSpread>frontal fields other than 
+    AG1</injectionSpread> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s78">Four injections involved only <injectionLocation>the 
+    granular and dysgranular fields of SI cortex</injectionLocation> 
+    .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s79">The appearance of injection sites of 
+    <tracerChemical>HRP</tracerChemical> alone was quite different than 
+    those with <tracerChemical>WGA - HRP</tracerChemical> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s80">Large <tracerChemical>HRP</tracerChemical> injections had 
+    a dense center with a lighter halo that consisted of granular 
+    reaction product , <labelingDescription>labeled neurons , and 
+    fibers</labelingDescription> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s81">Small injections of <tracerChemical>HRP</tracerChemical> 
+    ( with dense cores less than 500 pm ) often appeared to consist 
+    only <labelingDescription>of densely labeled 
+    cells</labelingDescription> and axons , much like the halo of large 
+    injections .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s82">Injections of <tracerChemical>WGA - HRP</tracerChemical> 
+    consisted almost entirely of <labelingDescription>a 
+    dense</labelingDescription> , well - demarcated core , as shown by 
+    the DAB method in Figure 1.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s83">The TMB method produced a similar, slightly larger 
+    injection site (compare Fig. 1 with the illustration of the same 
+    injection in an adjacent TMB reacted section in Fig. 7B).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s84">Attempts at making very small injections of 
+    <tracerChemical>WGA - HRP</tracerChemical> by using low currents ( 
+    1 PA ) for short times ( 1 - 3 minutes ) produced injections larger 
+    than expected with HRP alone .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s85">Even though these <tracerChemical>WGA - 
+    HRP</tracerChemical> injection sites were 200 - 500 pm in diameter 
+    they often produced <labelingDescription>few or no labeled 
+    cells</labelingDescription> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s86">Longer injection times (5-30 minutes) and higher currents 
+    (2-10 PA) produced injections as shown in Figure 1.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s87">These injections were often no more than two or three 
+    times larger than the smallest WGAHRP injections , but these 
+    injections usually labeled <labelingDescription>large numbers of 
+    neurons</labelingDescription> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s88">Since boundaries of <tracerChemical>WGA - 
+    HRP</tracerChemical> injections are distinct it was possible to 
+    make large injections that were relatively restricted to AG1 with 
+    this tracer .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s89">These large but restricted injections allowed some degree 
+    of confidence that all of the inputs to AGl were labeled.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s90">In contrast , the halo of large injections of 
+    <tracerChemical>HRP</tracerChemical> without lectin always 
+    encompassed two or more cortical areas .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s91">In some cases the pattern of labeling produced by these 
+    injections indicated that retrograde transport occurred from the 
+    halo , because , for example , <labelingDescription>labeled 
+    neurons</labelingDescription> were present in thalamic nuclei 
+    throught to project to a cortical field included only in the 
+    injection halo ( see Results ) .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s92">Small injections of <tracerChemical>HRP</tracerChemical> 
+    alone labeled only <labelingDescription>a relatively small number 
+    of neurons</labelingDescription> but were more effective in 
+    producing <labelingDescription>cell labeling</labelingDescription> 
+    compared to similar - sized injections of <tracerChemical>WGA - 
+    HRP</tracerChemical> .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s93">Thus , cases with very small injections of 
+    <tracerChemical>HRP</tracerChemical> that were clearly restricted 
+    to <injectionLocation>one cortical field</injectionLocation> were 
+    used to confirm the projections seen with large injections of 
+    <tracerChemical>HRP or WGAHRP</tracerChemical> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s94">Changing survival time from 2 to 3 days had no apparent 
+    effect on labeling patterns.</S>
+    <BR />
+
+    <S avgH="24" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s95">Afferent connections of 
+    AG,</S>
+    <BR />
+
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s96">The pattern of afferent connections of AGl will be 
+      illustrated from chartings of four representative cases : 
+      <exptLabel>a large injection of <tracerChemical>WGA - 
+      HRP</tracerChemical> placed rostrally in 
+      <injectionLocation>AG1</injectionLocation> near AGm</exptLabel> ( 
+      PM 17, Fig . 3 ) , a small injection of 
+      <tracerChemical>HRP</tracerChemical> in 
+      <injectionLocation>AGI</injectionLocation> ( PM 3, Fig . 5 ) , a 
+      large injection of <tracerChemical>WGA - HRP</tracerChemical> in 
+      <injectionLocation>the caudal part of AG1 near 
+      SI</injectionLocation> ( PM 31, Fig . 7 ) , and a large injection 
+      of <tracerChemical>WGA - HRP</tracerChemical> in 
+      <injectionLocation>the frontal pole</injectionLocation> , rostral 
+      to AG1 ( PM 34, Fig . 8 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s97">The approximate size of each injection site, seen in 
+      TMB-reacted material, and its relative location with respect to 
+      cytoarchitectonic boundaries is reconstructed on a standard view 
+      of the neocortex in Figure 2.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s98">The approximate level of each section that is 
+      illustrated in <labelingLocation>the subsequent 
+      figures</labelingLocation> is also indicated in this figure .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s99">Injections of either HRP or <tracerChemical>WGA - 
+      HRP</tracerChemical> into 
+      <injectionLocation>AG1</injectionLocation> label 
+      <labelingDescription>cells</labelingDescription> in 
+      <labelingLocation>the ipsilateral and contralateral cortex , the 
+      thalamus , the basal telencephalon , the midbrain , and the locus 
+      coeruleus</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s100">An example of the pattern of labeling when a large 
+      injection of <tracerChemical>WGA - HRP</tracerChemical> is made 
+      in the rostral part of AGl is shown in Figure 3.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s101">The dense part of this injection is largely confined 
+      to AGI but a small amount of dark reaction product, as well as 
+      <labelingDescription>densely labeled axons and 
+      cells</labelingDescription> (Fig. 5, hatching) around the 
+      injection lies within AG, (Fig. 3B).</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s102">The region of <labelingDescription>dense 
+      label</labelingDescription> and halo seen in an adjacent DAB - 
+      reacted section coincides roughly in size with the entire dark 
+      area seen in TMB - reacted sections .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s103">Subsequent to this and five other cases with similar 
+      injections of <tracerChemical>WGA - HRP</tracerChemical> in AGI , 
+      <labelingDescription>labeled cells</labelingDescription> are 
+      located ipsilaterally in <labelingLocation>AG</labelingLocation> 
+      , and in <labelingLocation>the parietal cortex</labelingLocation> 
+      .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s104">Labeling is present in <labelingLocation>layers I11 
+      and V of AG , rostral and medial to the AGI</labelingLocation> ( 
+      Fig . 3A , C ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s105">In <labelingLocation>the parietal 
+      cortex</labelingLocation> most of <labelingDescription>the 
+      labeled cells</labelingDescription> are situated in 
+      <labelingLocation>the dysgranular field of SI</labelingLocation> 
+      ( Figs . 3D , E , 4 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s106">Here , they are most numerous in 
+      <labelingLocation>layer 11, the upper three - quarters of layer 
+      111, the upper part of layer V ( layer Va )</labelingLocation> , 
+      and in <labelingLocation>the deepest part of layer 
+      VI</labelingLocation> ( Fig . 4 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s107"><labelingDescription>A few labeled 
+      cells</labelingDescription> are found in <labelingLocation>other 
+      layers of the dysgranular region</labelingLocation> , but 
+      <labelingLocation>the deep part of layer V and the bulk of layer 
+      VI</labelingLocation> are largely <labelingDescription>devoid of 
+      labeled cells</labelingDescription> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s108">Injections in AGI also label 
+      <labelingDescription>cells</labelingDescription> in 
+      <labelingLocation>the densely granular part of 
+      SI</labelingLocation> , but this field has 
+      <labelingDescription>many fewer labeled 
+      cells</labelingDescription> and a more restricted laminar 
+      distribution compared to <labelingLocation>the dysgranular area 
+      of SI</labelingLocation> ( Fig . 3D - G ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s109">In the granular field <labelingDescription>labeled 
+      cells</labelingDescription> are mainly contained in 
+      <labelingLocation>a compact band in layer Va</labelingLocation> , 
+      and usually only <labelingDescription>few 
+      cells</labelingDescription> are present in layer 111, except near 
+      <labelingLocation>the edges of granule cell</labelingLocation> 
+      aggregates where a greater number of labeled cells is commonly 
+      present ( Fig . 3C ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s110">The same band of labeled cells that is found in 
+      <labelingLocation>the deep part of layer VI in the dysgranular 
+      area</labelingLocation> is also found in <labelingLocation>the 
+      granular cortex</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s111">This deep <labelingLocation>layer VI 
+      band</labelingLocation> is generally found below labeled cells in 
+      <labelingLocation>layer V and</labelingLocation> is more 
+      pronounced in <labelingLocation>the medial parts of 
+      SI</labelingLocation> , where the forelimb and hindlimb are 
+      represented .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s112">In all cases only <labelingDescription>a few layer VI 
+      cells</labelingDescription> are labeled in <labelingLocation>the 
+      region of the trigeminal representation</labelingLocation> ( Fig 
+      . 3E , F ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s113">This negative result may have been a consequence of a 
+      failure to make large enough injections in <injectionLocation>the 
+      appropriate subdivision</injectionLocation> of AG1.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s114"><labelingDescription>Labeled 
+      cells</labelingDescription> are also present in 
+      <labelingLocation>the area of the second somatic sensory 
+      cortex</labelingLocation> ( SII ) in the same laminar arrangement 
+      as in <labelingLocation>the dysgranular cortex</labelingLocation> 
+      ( Fig . 3E - G ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s115">Three cases with injections of 
+      <tracerChemical>HRP</tracerChemical> alone that had dense cores 
+      similar in location and size to PM 17 resulted in approximately 
+      the same cortical labeling pattern .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s116">However , the extensive spread of the halo in these 
+      cases made it difficult to delineate the site of 
+      <tracerChemical>HRP</tracerChemical> uptake .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s117">Subsequent to large injections into AG1 
+      <labelingDescription>a few labeled cells</labelingDescription> 
+      are present in <labelingLocation>layers I11 and V of the ventral 
+      orbital area</labelingLocation> ( Fig . 3A ) , as defined by 
+      Krettek and Price ( &apos; 77a ) ; at the juncture between 
+      <labelingLocation>the caudal part of AG , and the retrosplenial 
+      cortex</labelingLocation> ( Fig . 3F ) ; near 
+      <labelingLocation>the border of parietal and occipital 
+      cortex</labelingLocation> ( Fig . 3H , I ) ; and along 
+      <labelingLocation>the rhinal fissure</labelingLocation> ( Fig . 
+      3G ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s118">These areas contain labeled neurons after injections 
+      near <injectionLocation>the medial border of 
+      AG1</injectionLocation> that spread into 
+      <injectionSpread>AG</injectionSpread>,, suggesting that they 
+      mainly project to AG, and not AGl.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s119">As will be shown below , injections clearly confined 
+      to <injectionLocation>AGI</injectionLocation> 
+      <labelingModifier>do not label</labelingModifier> 
+      <labelingDescription>cortical neurons</labelingDescription> 
+      outside of <labelingLocation>AG , , SI , or 
+      SII</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s120">Contralaterally , <labelingDescription>a large number 
+      of labeled cells</labelingDescription> is present in 
+      <labelingLocation>all layers of AGl</labelingLocation> , except 
+      for the deeper two - thirds of <labelingLocation>layer 
+      VI</labelingLocation> ( Figs . 3B , 7B ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s121">Injections that spread into 
+      <injectionSpread>AG</injectionSpread> , , or 
+      along<injectionSpread> the AGrAG border </injectionSpread>, label 
+      <labelingDescription>cells</labelingDescription> contralaterally 
+      in <labelingLocation>layers I11 and Va of SI</labelingLocation> ( 
+      Fig . 3C ) and <labelingLocation>the ventral orbital cortex 
+      </labelingLocation>( Fig . 3A ) .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s122">In the thalamus most of the cells labeled by AGl 
+      injections are located in <labelingLocation>the ventrolateral 
+      complex ( VL ) , the ventromedial nucleus ( VM ) , the central 
+      lateral ( CL ) and paracentral intralaminar nuclei , and the 
+      posterior medial nucleus ( POm ) </labelingLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s123"><labelingDescription>A few cells</labelingDescription> 
+      are also found in <labelingLocation>the parafascicular nucleus ( 
+      Pf ) , lateral nuclear group ( L ) , the mediodorsal nucleus ( MD 
+      ) , and the central medial nucleus of the midline 
+      group</labelingLocation> ( Fig . 3G , H ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s124">By comparing cases with greater or lesser involvement 
+      of AG , in the injection , it became evident that the number of 
+      <labelingDescription>labeled cells</labelingDescription> in 
+      <labelingLocation>MD , Pf , and the midline 
+      nuclei</labelingLocation> depends on the extent of spread of the 
+      injection into <injectionSpread>AG</injectionSpread> , .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s125">The more the injection spreads into 
+      <injectionSpread>AG</injectionSpread> , the greater 
+      <labelingDescription>the labeling</labelingDescription> in 
+      <labelingLocation>these thalamic nuclei</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s126">Large injections well away from the AG , - AGI 
+      boundary , or small injections within AGl which do not spread 
+      into AG , do not label cells in MD ( see below ) .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s127">Large injections of <tracerChemical>WGA - 
+      HRP</tracerChemical> as in case PM 17 
+      <labelingDescription>densely label many 
+      cells</labelingDescription> in <labelingLocation>the basal part 
+      of the telencephalon</labelingLocation> and in 
+      <labelingLocation>the globus pallidus ( Figs . 3E , F , 7E , F 
+      )</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s128">Similarly large injections of 
+      <tracerChemical>HRP</tracerChemical> alone also 
+      <labelingDescription>label neurons</labelingDescription> in 
+      <labelingLocation>these areas</labelingLocation> , but 
+      <labelingDescription>fewer neurons</labelingDescription> are 
+      labeled and <labelingDescription>the labeling of individual 
+      neurons is less dense</labelingDescription> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s129"><labelingDescription>Labeled 
+      neurons</labelingDescription> in this basal forebrain region have 
+      medium to large fusiform or spindleshaped somata and may be 
+      widely separated from each other or may occur in clusters of two 
+      to four neurons ( Fig . 6B ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s130"><labelingDescription>A few labeled 
+      cells</labelingDescription> similar in morphology to these basal 
+      forebrain neurons are found in <labelingLocation>the preoptic 
+      area</labelingLocation> , in <labelingLocation>the region of the 
+      mammillary bodies , and in Forel &apos;s 
+      fields</labelingLocation> ( Fig . 3G - I ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s131">In the brainstem <labelingDescription>labeled 
+      cells</labelingDescription> are present ipsilaterally in 
+      <labelingLocation>the midbrain periaqueductal gray , the nucleus 
+      raphe magnus , and locus coeruleus ( Fig . 6A 
+      )</labelingLocation> .</S>
+    </TTE>
+
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s132"><exptLabel>Smaller injections ( 300 - 500 pn ) of 
+    <tracerChemical>HRP</tracerChemical> into AG1</exptLabel> produce a 
+    pattern of labeling similar to that of larger injections , with two 
+    expected differences .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s133">First , 
+    <labelingDescription>fewer labeled cells</labelingDescription> are 
+    found in each of the areas that are labeled by large injections and 
+    second , areas that contain <labelingLocation>a comparatively small 
+    number of neurons</labelingLocation> subsequent to large injections 
+    ( such as the locus coeruleus ) may not contain 
+    <labelingDescription>labeled cells</labelingDescription> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s134">An example of one of three cases that has a very small 
+    injection of <tracerChemical>HRP</tracerChemical> ( without lectin 
+    ) completely restricted to 
+    <injectionLocation>AG1</injectionLocation> is shown in Figure 5.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s135">Microstimulation in this rostral part of AGl at 15 pA 
+    produced extension of the forelimb digits.</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s136">The 
+    location of this injection and the microstimulation effect suggests 
+    that it involves the MI rostral forelimb zone recently described by 
+    Neafsey and Sievert (&apos;82).</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s137">In this case the 
+    <tracerChemical>HRP</tracerChemical> injection involved all layers 
+    except the deeper one - half of layer VI .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT"
+     id="s138"><labelingDescription>Corticocortical 
+    cells</labelingDescription> are again found mainly in 
+    <labelingLocation>the dysgranular fields and SII 
+    ipsilaterally</labelingLocation> ( Fig . 5 ) , but unlike large AG1 
+    injections , the bands of <labelingDescription>labeled 
+    cells</labelingDescription> in <labelingLocation>layers V and VI of 
+    SI</labelingLocation> are not evident .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT"
+     id="s139"><labelingDescription>The sparse 
+    labeling</labelingDescription> in <labelingLocation>layers V and 
+    VI</labelingLocation> could indicate that these SI neurons project 
+    to the deeper layers of AG1, since they are labeled mainly with 
+    large injections that spread into <injectionSpread>the deep 
+    layers</injectionSpread> .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s140">Alternatively , 
+    <labelingDescription>the presence of labeling</labelingDescription> 
+    in <labelingLocation>the deep layers</labelingLocation> could 
+    depend on the quantity of <tracerChemical>HRP</tracerChemical> 
+    injected .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s141">With small AGI injections 
+    thalamic labeling is confined to <labelingLocation>VL, VM, C1, and 
+    POm</labelingLocation> (Fig. 5F-H).</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s142">In all 
+    cases with small injections , labeling in <labelingLocation>the 
+    midbrain , locus coeruleus , and ventral diencephalic and basal 
+    forebrain regions</labelingLocation> is <labelingDescription>sparse 
+    or absent</labelingDescription> .</S></TTE>
+
+    <BR />
+
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s143"><exptLabel>Injections of <tracerChemical>HRP or WGA - 
+      HRP</tracerChemical> placed more caudally in 
+      <injectionLocation>AGl</injectionLocation> near the SI 
+      cortex</exptLabel> confirm the principal connections of this 
+      field .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s144">Case PM 31 ( Fig . 7 ) illustrates the labeling 
+      following an injection that is largely within the caudolateral 
+      part of AGl but also involves to a small extent 
+      <injectionLocation>the medial edge of the granular 
+      cortex</injectionLocation> , where the forelimb is represented in 
+      SI .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s145">In the cortex the majority of 
+      <labelingDescription>labeled cells</labelingDescription> are 
+      contained in <labelingLocation>SI , SII , and 
+      AG</labelingLocation> , .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s146">Thus , <labelingDescription>labeled 
+      cells</labelingDescription> are present in <labelingLocation>each 
+      of these three cortical fields</labelingLocation> following any 
+      injection that involves 
+      <injectionLocation>AGl</injectionLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s147"><labelingDescription>The absence of 
+      labeling</labelingDescription> in <labelingLocation>perirhinal , 
+      retrosplenial , orbital , or posterior parietal 
+      fields</labelingLocation> that is present following large , 
+      rostrally and medially placed injections suggests that these 
+      frontal fields are labeled as a result of spread of the injection 
+      zone into <injectionSpread>AG , or other frontal 
+      fields</injectionSpread> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s148"><labelingLocation>The same thalamic 
+      nuclei</labelingLocation> are labeled in this case as with other 
+      injections of AG1, except for <labelingDescription>a small number 
+      of cells</labelingDescription> in 
+      <labelingLocation>VB</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s149">Whenever <injectionSpread>the granular 
+      cortex</injectionSpread> is involved in an injection , 
+      <labelingDescription>labeled cells</labelingDescription> are 
+      found in <labelingLocation>VB</labelingLocation> , but 
+      <labelingLocation>VB</labelingLocation> is 
+      <labelingModifier>never labeled</labelingModifier> from 
+      injections restricted to <injectionLocation>agranular 
+      cortex</injectionLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s150">In some cases <labelingDescription>labeled 
+      cells</labelingDescription> are found in 
+      <labelingLocation>VB</labelingLocation> when the halo from the 
+      <tracerChemical>HRP</tracerChemical> injection ( DAB substrate ) 
+      spreads into SI .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s151">None of the <injectionLocation>caudal 
+      AGl</injectionLocation> injections labels cells in 
+      <labelingLocation>MD</labelingLocation> .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s152">Differences in the location of 
+      <labelingDescription>labeled cells</labelingDescription> in 
+      <labelingLocation>various thalamic nuclei</labelingLocation> 
+      indicate that there is <labelingDescription>a topographic 
+      organization of input</labelingDescription> to AG1.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s153">Injections placed more caudally in AGl tend to label 
+      <labelingDescription>cells</labelingDescription> in 
+      <labelingLocation>the rostrolateral part of VL</labelingLocation> 
+      , while more rostral injections label 
+      <labelingDescription>cells</labelingDescription> in 
+      <labelingLocation>the more caudomedial portions of 
+      VL</labelingLocation> .</S>
+    </TTE>
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s154">However, there appears to be substantial overlap of the 
+    parts of VL labeled by injections in different parts of AG1.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s155">This general pattern of medial to rostral and lateral to 
+    caudal appears to be true for the projections of POm and the 
+    intralaminar nuclei to AGl .</S>
+    <BR />
+
+    <S avgH="25" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s156">Injections rostral to 
+    AGI</S>
+    <BR />
+
+    <TTE>
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s157"><exptLabel>Five injections of 
+      <tracerChemical>HRP</tracerChemical> were centered in the frontal 
+      cortex rostral to AGl</exptLabel> , both to compare the pattern 
+      of labeling from these cortical fields with that following AG1 
+      injections and to control for labeling of pathways that occur 
+      when AG1 injections spread into AG , .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s158">When <tracerChemical>WGA-HRP or HRP</tracerChemical> 
+      injections are confined to <injectionLocation>fields rostral to 
+      AGl</injectionLocation> a markedly different pattern of labeling 
+      results.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s159">The most striking differences are first , 
+      <labelingDescription>the general lack of 
+      labeling</labelingDescription> in <labelingLocation>SI 
+      cortex</labelingLocation> , and second , the large number of 
+      labeled areas in <labelingLocation>the cortex and 
+      thalamus</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s160">An example of the labeling from a large injection in 
+      <injectionLocation>the frontal pole of the 
+      neocortex</injectionLocation> is shown in Figure 8.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s161">This injection involves <injectionLocation>the 
+      rostromedial part of AG</injectionLocation> , as well as 
+      <injectionSpread>the medially adjacent prelimbic 
+      field</injectionSpread> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s162">Within the cortex <labelingDescription>many labeled 
+      cells</labelingDescription> are found in <labelingLocation>the 
+      rostralmost parts of the cerebral cortex</labelingLocation> that 
+      surround the frontal pole ( Fig . 8A ) , in <labelingLocation>the 
+      agranular insular and adjacent parts of the perirhinal 
+      cortex</labelingLocation> ( Fig . 8B - E ) , and in 
+      <labelingLocation>AG</labelingLocation> , caudal to the injection 
+      site ( Fig . 8B ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s163">All injections that spread into <injectionSpread>the 
+      frontal cortex medial to AG</injectionSpread> , also label 
+      <labelingDescription>cells</labelingDescription> in 
+      <labelingLocation>the pyramidal cell layer of the 
+      hippocampus</labelingLocation> , which confirms a previous report 
+      of a projection from Ammon &apos;s horn to limbic cortex in the 
+      rat ( Swanson , &apos; 81 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s164">Large injections rostral to AG1 label 
+      <labelingDescription>a small number of 
+      cells</labelingDescription> in <labelingLocation>AGl , SII , and 
+      the posterior parietal cortex</labelingLocation> ( Fig . 8D ) 
+      .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s165">These <labelingDescription>cells</labelingDescription> 
+      are mainly found in <labelingLocation>layers V ( a and b ) and 
+      VI</labelingLocation> ( Fig . 8D ) , except in 
+      <labelingLocation>SII</labelingLocation> where 
+      <labelingDescription>labeled cells</labelingDescription> are 
+      found in <labelingLocation>all layers except I and 
+      IV</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s166">Each injection in 
+      <injectionLocation>AG</injectionLocation> , that clearly does not 
+      involve AG1 labels only <labelingDescription>a few 
+      cells</labelingDescription> in <labelingLocation>the SI 
+      cortex</labelingLocation> , which contrasts dramatically with 
+      <labelingDescription>the large numbers of 
+      cells</labelingDescription> in 
+      <labelingLocation>SI</labelingLocation> that are seen following 
+      injections of similar size in 
+      <injectionLocation>AG1</injectionLocation>.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s167"><labelingDescription>The few 
+      cells</labelingDescription> labeled in 
+      <labelingLocation>SI</labelingLocation> are not restricted to 
+      either <labelingLocation>the granular or dysgranular 
+      regions</labelingLocation> and are usually in 
+      <labelingLocation>layer Va or the deep part of layer 
+      VI</labelingLocation> .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s168">Commissural cells marked by these frontal injections 
+      are present in <labelingLocation>all layers of the contralateral 
+      homotopic area of cortex</labelingLocation> and are also present 
+      in <labelingLocation>orbital fields , caudal 
+      AG</labelingLocation> , , and in <injectionLocation>the agranular 
+      insular cortex</injectionLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s169"><labelingDescription>Another small group of 
+      cells</labelingDescription> is present caudally along the rhinal 
+      fissure , immediately adjacent to the pyriform cortex ( Fig . 8F 
+      arrow ) .</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s170">Injections of the frontal cortex rostral to AG1 label 
+      numerous subcortical areas including <labelingLocation>the 
+      amygdala and a number of thalamic nuclei</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s171"><labelingLocation>The basolateral nucleus of the 
+      amygdala</labelingLocation> contains <labelingDescription>labeled 
+      neurons</labelingDescription> after all injections that spread 
+      into <injectionSpread>the prelimbic and infralimbic cortical 
+      fields that lie</injectionSpread> medial to AG , .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s172">In an earlier study , Krettek and Price ( &apos; 77b ) 
+      demonstrated projections from <labelingLocation>the amygdala to 
+      these cortical fields</labelingLocation> using anterograde 
+      transport techniques .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s173">Following any injection that includes AG , or medially 
+      <labelingLocation>adjacent fields</labelingLocation> , there are 
+      numerous <labelingDescription>labeled 
+      neurons</labelingDescription> in <labelingLocation>the 
+      mediodorsal nucleus of the thalamus</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s174"><labelingDescription>Labeled 
+      cells</labelingDescription> are also present in 
+      <labelingLocation>many other thalamic nuclei including VL , VM , 
+      and several intralaminar ( mainly the central lateral , 
+      paracentral , and parafascicular nuclei ) and midline thalamic 
+      nuclei</labelingLocation> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s175"><labelingLocation>The large number of thalamic 
+      nuclei</labelingLocation>  labeled by these injections may 
+      reflect convergence of thalamocortical inputs or could be a 
+      consequence of large injections that involve many different , 
+      <labelingDescription>smaller cortical 
+      fields</labelingDescription> .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s176">Common to all injections into frontal or parietal 
+      cortex , parts of <labelingLocation>the basal forebrain , globus 
+      pallidus , hypothalamus , and Forel &apos;s 
+      fields</labelingLocation> contain <labelingDescription>labeled 
+      cells</labelingDescription> .</S>
+    </TTE>
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s177">However, there appear to be more labeled cells in each 
+    of these regions following injections that involve the cortex 
+    rostral to AG1, compared to injections of AG1 alone.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s178">The rostral frontal cortex also appears to receive 
+    bilateral input from the region of the mammillary bodies (Fig. 
+    8F).</S>
+  </Results>
+
+  <Discussion>
+
+    <S avgH="25" class="discussion.heading"
+     format="TimesNewRomanPS-BoldMT" id="s179">DISCUSSION</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s180">These retrograde transport experiments show that the 
+    lateral agranular field of the rat motor cortex receives a variety 
+    of inputs from ipsilateral and contralateral cortical areas, 
+    several thalamic nuclei, the basal forebrain region, and at least 
+    two brainstem regions.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s181">The specific sources of input to AGl and the differences 
+    in the connections of surrounding cortical fields support our 
+    conclusion that AG1 is a distinct cortical field that coincides 
+    with all of the MI cortex, except for the region of overlap with SI 
+    (Donoghue and Wise, &apos;82).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s182">The nature of the inputs to AGl suggests that this 
+    cortical area has an important role in sensorimotor control in the 
+    rat.</S>
+    <BR />
+
+    <S avgH="25" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s183">Methodological 
+    considerations</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s184">The conclusions of this study are based on experiments 
+    employing retrograde transport techniques.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s185">The major problem in the interpretation of results from 
+    such studies is the determination of the effective zone of 
+    transport.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s186">WGA-HRP was used in addition to unconjugated HRP, 
+    because use of WGA-HRP appears to result in a sharply defined 
+    injection zone.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s187">However, with either type of HRP it is impossible to 
+    determine the exact zone of transport by examination of the 
+    injection site itself.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s188">For this reason, injections were made in various parts 
+    of AG1, in the surrounding fields, and along boundaries.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s189">Comparisons of the differences in the pattern of 
+    labeling from injections that involve different cytoarchitectonic 
+    fields allow a more secure conclusion that a particular projection 
+    is limited to one or another field.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s190">Nevertheless, it cannot be definitively stated with this 
+    method that certain inputs precisely follow cytoarchitectonic 
+    boundaries.</S>
+    <BR />
+
+    <S avgH="25" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s191">Cortical connections of 
+    AGI</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s192">The major ipsilateral cortical inputs to AG1 arise from 
+    SI, SII, and AG,.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s193">Within SI the majority of cells that project to AGl are 
+    found in a distinct cytoarchitectonic area, the dysgranular 
+    field.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s194">This projection arises from supragranular layers and 
+    from parts of layer V and VI.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s195">The dysgranular field appears to be a separate 
+    subdivision of SI because, during barbiturate anesthesia, cells in 
+    this area respond poorly to cutaneous stimuli, while those in the 
+    adjacent granular zones respond well (Welker, &apos;76).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s196">This difference in response properties of these two 
+    parts of SI also correlates with a difference in thalamic 
+    connectivity.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s197">The dysgranular cortex apparently does not receive input 
+    from VB (Killackey and Leshin, &apos;75; Wise and Jones, &apos;78), 
+    but instead, its main thalamic input appears to arise from POm 
+    (Herkenham, &apos;80; Lin and Chapin, &apos;81).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s198">Akers and Killackey (&apos;78) have shown that there are 
+    direct projections from the granule cell region to the dysgranular 
+    cortex in the rat.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s199">Thus, the dysgranular cortex appears to form a link 
+    between the granular cortex and AGI.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s200">There is also a direct projection from the granular 
+    field of SI to AGl that arises almost entirely from layer Va and 
+    the deepest part of layer VI.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s201">The projection from layer Va of SI to the &quot;motor 
+    cortex&quot; has been previously reported by Ivy and Killackey 
+    (&apos;82).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s202">The labeling of the deep part of layer VI after large 
+    AGI injections could be a result of uptake from fibers that pass 
+    through the deep part of AGI to more rostral areas.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s203">However, the sparse labeling in SI following even very 
+    large injections rostral to AGI leads to the conclusion that the 
+    main cortical target of the deep layer VI cells in SI is AGI.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s204">In addition to intracortical connections, it is possible 
+    that some of the AGlprojecting neurons in the infragranular layers 
+    have branched projections to subcortical structures.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s205">A large number of cells in layer Va project to the 
+    striatum (Wise and Jones, &apos;77; Hedreen, &apos;77) and layer VI 
+    is a major source of corticothalamic projections (Wise and Jones, 
+    &apos;77).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s206">Since cells projecting to AGI are found in both of these 
+    layers, motor cortex could receive a copy of some of the same 
+    output from SI cortex as the neostriatum and thalamus.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s207">These speculations require testing with appropriate 
+    anatomical or electrophysiological methods.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s208">Other pathways appear to be segregated so that 
+    collateralized projections are not possible.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s209">For example, throughout parietal cortex there are very 
+    few cells in the deeper part of layer V that project to AG1, but 
+    many of these neurons project to the brainstem or spinal cord.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s210">Thus, at least part of the major descending output of SI 
+    is not directly transferred to AGl.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s211">This is consistent with the finding that commissural and 
+    corticospinal cells are completely separate in the rat 
+    (Catsman-Berrevoets et al., &apos;80).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s212">Another cortical input to AGI arises from SII.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s213">Since SII is a target of VB (Wise and Jones, &apos;78) 
+    and SII neurons are responsive to cutaneous inputs (Welker and 
+    Sinha, &apos;78), this area is potentially another cortical route 
+    for somatic sensory input to reach AG1.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s214">A third source of cortical input to AGl is the medial 
+    agranular cortex.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s215">This input originates in both hemispheres but is 
+    strongest ipsilaterally.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s216">AG, is considered to be separate from AGI and not part 
+    of MI because it has different cytoarchitecture and 
+    microstimulation thresholds (Donoghue and Wise, &apos;82), and 
+    because MD projects to AG, and not to AG1.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s217">However, consistent with the idea of a motor function 
+    for this field, AG, receives input from VL, contains corticospinal 
+    neurons (Wise et al., &apos;79; Donoghue and Wise, &apos;82), and 
+    projects to MI cortex (i.e., AGI).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s218">Together, these functions seem to be sufficient to 
+    conclude that AG, is part of the sensorimotor cortex but is also 
+    distinct from AGI and, therefore, MI.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s219">The similarity of position, cytoarchitecture, and 
+    connectivity of the supplementary motor cortex (MII) of primates to 
+    AG, suggests that there is an MI1 in the rat that occupies part or 
+    perhaps all of AG,.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s220">Without further information, however, any attempt to 
+    infer homology to any field of primate sensorimotor cortex is 
+    tenuous.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s221">Alternatively, it is possible that AG, is a uniquely 
+    specialized field or group of fields of the rat sensorimotor 
+    cortex.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s222">Orbital areas of frontal cortex, perirhinal cortex, 
+    posterior parietal cortex, and retrosplenial cortex appear to 
+    project to AG, but not to AGI.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s223">This conclusion is supported by two observations.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s224">First, injections that involve AG,, but do not include 
+    AGl, label cells in these cortical areas.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s225">Second, very large injections in the caudal or lateral 
+    parts of AGI do not label cells in any cortical area outside of 
+    AG,, SI, and SII.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s226">The difficulty in making injections of HRP that are 
+    sufficiently large to label all inputs to an area without involving 
+    an adjacent area makes it possible, however, that there are 
+    subdivisions of AG1near AG, that receive input from areas of cortex 
+    outside of SI, SII, and AG,.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s227">Except for this possibility, AG, appears to be the major 
+    cortical route between frontal and limbic cortical areas and MI 
+    cortex.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s228">The remarkable density of commissural connections of AGI 
+    suggests that there is a massive interchange of information from 
+    the motor cortex of one hemisphere to the other.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s229">A similar commissural pattern is also seen in the MI 
+    cortex of monkeys (Zant and Strick, &apos;78).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s230">A few cells are labeled in the contralateral SI cortex 
+    subsequent to large injections in the rostral part of AGI near the 
+    border of AG,.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s231">Since the contralateral SI does not contain labeled 
+    cells after large injections of AG, (not involving AGl), it seems 
+    likely that a few cells in SI may project directly to AGI or near 
+    the border of AGI and AG,.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s232">Whether these fibers terminate within AG1 or AG, or both 
+    would require a number of well-localized HRP injections in these 
+    areas, or injection of an anterograde tracer in SI.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s233">The pattern of intracortical connectivity of the 
+    sensorimotor fields of the rat has many similarities to that of the 
+    squirrel and macaque monkeys.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s234">As in the rat, the region of SI activated by cutaneous 
+    input (area 3b) projects to another subdivision of SI (area 2), 
+    which in turn projects densely to MI (Jones et al., &apos;78).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s235">In this respect the dysgranular field of SI is like area 
+    2 in these monkeys.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s236">However, it is possible that the dysgranular field 
+    represents a specialized cortical field not present in the monkey 
+    or that it is an amalgamation of several parietal fields found in 
+    other species.</S>
+    <BR />
+
+    <S avgH="24" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s237">Thalamic connections of 
+    AGI</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s238">On the basis of numbers of labeled neurons, the 
+    principal thalamic input to AG1 arises from VL. which is the target 
+    of ascending fibers from the globus pallidus (Severin et al., 
+    &apos;76; Carter and Fibiger, &apos;77) and the cerebellum (Faull 
+    and Carman, &apos;78).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s239">However, AGI cannot be defined as the sole target of VL, 
+    since VL projects to cytoarchitectonic fields outside of AG1, 
+    including AG,.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s240">The pattern of connections of VL with a large part of 
+    frontal agranular cortex described here is in substantial agreement 
+    with earlier studies (Jones and Leavitt, &apos;74; Krettek and 
+    Price, &apos;77a; Herkenham, &apos;80).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s241">However, precise comparison of data from these studies 
+    with the present one is difficult because the cytoarchitectonic 
+    correlates of MI have been only recently established.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s242">It would be of interest to show that AG, and AGI receive 
+    inputs from separate subdivisions of VL.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s243">However, a strong case cannot yet be made for 
+    subdividing VL into separate nuclei in the rat, at least based on 
+    cytoarchitecture or on our present knowledge of the termination of 
+    fibers from the cerebellum and the globus pallidus in this nuclear 
+    region.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s244">Although AG, and AG1 both receive VL input, of these 
+    two, only AG, receives fibers from MD, as shown in the present 
+    experiments.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s245">Several other studies have demonstrated projections from 
+    MD to an area that includes AG,, but does not include AG1 (Leonard, 
+    &apos;69; Domesick, &apos;72; Beckstead, &apos;76; Krettek and 
+    Price, &apos;77a).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s246">Thus, the projection from MD serves to differentiate AG, 
+    from AGI and this major connectional difference supports our 
+    speculation that these cortical areas have separate functions.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s247">Although AG1 can be distinguished from surrounding 
+    somatic sensorimotor fields on the basis of different thalamic 
+    inputs, AGl shares a number of thalamic inputs with SI and with 
+    AG,, in addition to its thalamic input from VL.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s248">All three of these fields receive input from the central 
+    lateral nucleus (Jones and Leavitt, &apos;74; Wise and Jones, 
+    &apos;78; Donoghue et al., &apos;79) and the ventromedial nucleus 
+    (Leonard, &apos;69; Herkenham, &apos;79).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s249">In addition, POm appears to project to the entire 
+    sensorimotor cortex (Wise and Jones, &apos;78; Donoghue et al., 
+    &apos;79; Herkenham, &apos;80).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s250">Pf projects to AGm and may also project to AG1 because a 
+    few cells are labeled in Pf with large injections in AGl.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s251">Herkenham (&apos;80) also identified a projection from 
+    Pf to the deep layers of &quot;the motor area,&quot; which probably 
+    includes AG1.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s252">The lack of labeling in Pf with small HRP injections may 
+    be a result of lack of spread of the tracer to layer VI in these 
+    cases.</S>
+    <BR />
+
+    <S avgH="25" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s253">Other subcortical inputs 
+    to AGl</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s254">Neurons are labeled in the basal telencephalon, the 
+    hypothalamus, and the ventral thalamic region after HRP injection 
+    in any part of the frontal or parietal cortex.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s255">It has been suggested that neurons in each of these 
+    telencephalic and diencephalic areas form part of a cholinergic 
+    system that projects to all areas of cerebral cortex in the rat and 
+    in other species (Divac, &apos;75; Kievitt and Kuypers, &apos;75; 
+    Mesulam and Van Hoesen, &apos;76).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s256">Similarly, the midbrain raphe nuclei and the locus 
+    coeruleus project widely to all cortical areas.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s257">The projection from the raphe nuclei probably provides a 
+    serotonergic input (Lidov et al., &apos;80) and the locus coeruleus 
+    provides a noradrenergic input to AGl (Freedman et al., &apos;75; 
+    Lindvall et al., &apos;78; Morrison et al., &apos;78).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s258">Each of these systems with widespread cortical 
+    projections are thought to have a modulatory influence on the 
+    general level of neuronal activity.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s259">Norepinephrine, for example, has been suggested to 
+    enhance the response of neurons to afferent inputs in the cortex 
+    while having little or no direct effect on the neuronal discharge 
+    by itself (Waterhouse et al., &apos;81).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s260">The role of AG1 as a 
+    cortical field</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s261">The combination of inputs from several sensory and motor 
+    areas suggests that AG1 is a cortical field that plays an important 
+    role in the control of movements guided by sensory feedback as well 
+    as in the execution of centrally programmed movements.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s262">A role in the sensory guidance of movements would 
+    require a route for rapid peripheral sensory feedback to AG1 and 
+    there appear to be a number of pathways for somatic sensory 
+    information to reach AGl.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s263">The dysgranular field could serve to transfer processed 
+    sensory information from the granular field of SI to AGl.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s264">The dysgranular field could also transfer input from 
+    deep (joint, muscle spindle) receptors to MI, since information 
+    from these sensory receptors appear to activate in the dYsgranular 
+    field (Chapin and Woodward, &apos;82)The smaller direct projection 
+    from the granular field to AGl may provide a parallel route for 
+    cutaneous information to reach MI.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s265">The restricted laminar origin of this projection 
+    suggests that only a specific type of information is transferred 
+    from the granular field of SI to AG~. s11 is another possible 
+    direct cortical Source of cutaneous input to MI in the rat.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s266">Thalamic pathways for somatic sensory input to AG1 are 
+    less evident.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s267">The principal thalamic source of somatic sensory 
+    information, VB, does not project to AG1.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s268">However, peripheral sensory input may reach AGl through 
+    VL or C1, which appear to be targets of ascending spinothalamic 
+    pathways, or through POm, which receives some dorsal column and 
+    spinal input in the rat (Lund and Webster, &apos;67a,b; McAllister 
+    and Wells, &apos;81).</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s269">In addition to somatic sensory inputs, AG1 is also a 
+    major target of areas that are likely to be involved in the 
+    generation and execution of central motor programs.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s270">The major cortical input to AGl, outside of SI and SII, 
+    is AG,.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s271">This field appears to form a route for diverse cortical 
+    areas, such as the posterior parietal cortex and the prelimbic 
+    field, as well as juxtallocortical (perirhinal) areas, to influence 
+    to the motor cortex.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s272">Subcortical motor structures are connected to AGl 
+    largely through abundant thalamic connections.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s273">Pallidal and cerebellar information reaches AG1 through 
+    VL (Severin et al., &apos;76; Carter and Fibiger, &apos;77; Faull 
+    and Carman, &apos;78).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s274">It is not yet clear whether basal ganglia and cerebellar 
+    routes are relayed through separate parts of VL or whether these 
+    pathways are kept separate in cortex.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s275">Output from the pars reticulata of the substantia nigra, 
+    another subcortical structure with a role in motor control, reaches 
+    MI through VM.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s276">This thalamic nucleus projects densely to layer I 
+    throughout the rostral part of the cortex (Herkenham, &apos;79).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s277">As suggested by Herkenham (&apos;79) this projection 
+    could provide another input that affects the general level of 
+    cortical activity.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s278">Other features of the rat MI suggest that it has an 
+    important role in motor control, particularly for the forelimb.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s279">Elger et al. (&apos;77) have reported that corticospinal 
+    neurons in the rat may monosynaptically influence motor neurons for 
+    the forelimb, but not for the hindlimb (Janzen et al., 
+    &apos;77).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s280">Cortical lesions involving AG1 have been shown to alter 
+    the force output of the forelimb (Price and Fowler, &apos;81) and 
+    to disrupt skilled forelimb movements in the rat (Castro, 
+    &apos;72), suggesting a role for MI in the rat that is not unlike 
+    that of the macaque monkey (Evarts, &apos;68; Lawrence and Kuypers, 
+    &apos;68).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s281">The availability of a detailed description of MI in the 
+    rat by cytoarchitecture, microstimulation, and connectivity 
+    provides a background for future studies to identify the role of MI 
+    neurons and their various inputs in generating, modulating, and 
+    shaping cortical output and finally, movement.</S>
+  </Discussion>
+
+  <Acknowledgements>
+
+    <S avgH="26" class="acknowledgements.heading"
+     format="TimesNewRomanPS-BoldMT" id="s282">ACKNOWLEDGMENTS</S>
+    <BR />
+
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s283">We would like to thank Ms.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s284">Betty Al-Aish and Ms.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s285">Susan Wine for their 
+    invaluable secretarial skills, Ms.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s286">Lori Budzinski for her 
+    assistance with photography, Dr.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s287">S.P.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s288">Wise for his critical review 
+    of this manuscript, and Dr.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s289">E.V.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s290">Evarts for his support.</S>
+  </Acknowledgements>
+
+  <References>
+
+    <S avgH="26" class="references.heading"
+     format="TimesNewRomanPS-BoldMT" id="s291">LITERATURE CITED</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s292">Akers.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s293">R.M., and H.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s294">Killackey (1978) Organization of corticocortical 
+    connections in the parietal cortex of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s295">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s296">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s297">Neurol. 181.513-538.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s298">Beckstead, R.M. (1976) Convergent thalamic and 
+    mesencephalic projections to the anterior medial cortex in the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s299">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s300">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s301">Neurol. 166:403Cartir:D.A., and H.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s302">Fibiger (1977) The projection of the entopeduncular 
+    nucleus and globus pallidus in rat as demonstrated by 
+    autoradiography and horseradish peroxidase histochemistry.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s303">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s304">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s305">Neurol. 177:113124.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s306">Castro, A.J. (1972) The effects of cortical ablations on 
+    digital usage in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s307">Brain 37&apos;173-185.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s308">Catsman-Berrevoets, C.E., R.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s309">Lemon, C.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s310">Verburgh, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s311">Bentivoglio, and H.G.J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s312">Kuypers (1980) Absence of callosal collaterals derived 
+    from rat corticospinal neurons.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s313">A study using fluorescent retrograde tracing and 
+    electrophysiological techniques.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s314">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s315">Brain Res. 39433440, Chapin, J.K., and D.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s316">Woodward (1982) Cortico-cortical connections between 
+    physiologically and histologically defined zones in the rat SI and 
+    MI cortices.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s317">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s318">Abstr. 8.353.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s319">Divac, I. (1975) Magnocellular nuclei of the basal 
+    forebrain projects to neocortex, brainstem, and olfactory bulb.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s320">Review of some functional correlates.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s321">Brain Res. 93385-398.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s322">Domesick, V.B. (1972) Thalamic relationships rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s323">Brain Behav.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s324">Evol. 6:457-483.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s325">Donoghue, J.P., K.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s326">Kerman, and F.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s327">Ebner (1979)Evidencefor twoorganizational plans in the 
+    somatic sensorymotor cortex of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s328">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s329">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s330">Neurol. 1833647-663.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s331">Donoghue, J.P., and S.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s332">Wise (1982) The motor cortex of the rat: 
+    Cytoarchitecture and microstimulation mapping.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s333">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s334">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s335">Neurol. 212~76-88.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s336">Elger, C.E., E.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s337">Speckman, H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s338">Caspers, and R.W.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s339">Janzen (1977) Corticospinal projections in the rat 
+    -I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s340">Monosynaptic and polysynaptic responses of cervical 
+    motoneurons to epicortical stimulation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s341">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s342">Brain R~s. 28:385-404.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s343">Evarts, E.V. (1968) Relation of pyramidal tract activity 
+    to force exerted during voluntary movement.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s344">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s345">Neurophysiol. 31:14-27.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s346">Faull, R.L.M., and J.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s347">Carman (1978) The cerebellofugal projections in the 
+    brachium conjunctivum of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s348">I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s349">The contralateral ascending pathway.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s350">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s351">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s352">Neurol. 178:495-518.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s353">Freedman, R., S.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s354">Foote, and F.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s355">Bloom (1975) Histochemical characterization of a 
+    neocortical projection of the nucleus locus coeruleus in the 
+    squirrel monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s356">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s357">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s358">Neurol. 164:209-232.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s359">Hall, R.D.. and E.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s360">Lindholm (1974) Organization of motor and somatosensory 
+    neocortex in the albino rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s361">Brain Res. 66:23-38.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s362">Hedreen, J.C. (1977) Corticostriatal cells identified by 
+    the method.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s363">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s364">Lett. 4:l-7.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s365">Herkenham, M. (1979) The afferent and efferent 
+    connections of the ventromedial thalamic nucleus in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s366">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s367">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s368">Neurol. 183:487-518.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s369">Herkenham, M. (1980) Laminar organization of thalamic 
+    projections to rat neocortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s370">Science 207:532-535.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s371">Ivy, G.O., and H.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s372">Killackey (1982) Ontogeneticchanges of neocortical 
+    neurons.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s373">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s374">Neurosci. 2:735-743.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s375">Janzen, R.W.C..</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s376">E:J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s377">Speckmann, H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s378">Caspers, and C.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s379">Elger (1977) Corticospinal projections in the rat 
+    -11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s380">Oligosynaptic and polysynaptic responses of 
+    lumbarmotoneurons to epicortical stimulation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s381">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s382">Brain Res. 28:405-420.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s383">Jones, E.G., and R.Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s384">Leavitt (1974) Retrograde axonal transport and the 
+    demonstration of non-specific connections to the cerebral cortex 
+    and striatum in the rat, cat, and monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s385">J. a m p .</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s386">Neurol. 154:349-378.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s387">Jones, E.G., J.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s388">Coulter, and S.H.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s389">Hendry (1978) Intracortical connectivity of 
+    architectonic fields in the somatic sensory, motor and parietal 
+    cortex of monkeys.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s390">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s391">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s392">Neurol. 181~291-348.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s393">Kievitt, J., and H.G.J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s394">Kuypers (1975) Basal forebrain and hypothalamic 
+    connections to frontal and parietal cortex in rhesus monkey.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s395">Science 1873660-662.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s396">Killackey, H.P., and L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s397">Leshin (1975) The organization of specific 
+    thalamocortical projections to the posteromedial barrel subfield of 
+    the rat somatic sensory cortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s398">Brain Res. 86;469-472.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s399">Krettek, J.E., and J.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s400">Price (1977a) The cortical projections of the 
+    mediodorsal nucleus and adjacent thalamic nuclei in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s401">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s402">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s403">Neurol.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s404">171:157-192.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s405">Krettek, J.E., and J.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s406">Price (1977b) Projections from the amygdaloid complex to 
+    the cerebral cortex and thalamus in the rat and cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s407">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s408">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s409">Neurol. 172~687-722.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s410">LaVail, J.H., K.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s411">Winston, and A.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s412">Tish (1973) A method based on retrograde intraaxonal 
+    transport of protein for identification of cell bodies of origin of 
+    axons terminating within the CNS.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s413">Brain Res. 5R470-477.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s414">Lawrence, D.G., and H.G.J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s415">Kuypers (1968) The functional organization of the motor 
+    system in the monkey: I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s416">The effects of bilateral pyramidal lesions.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s417">Brain 91:l-14.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s418">Leonard, C.M. (1969) The prefrontal cortex of the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s419">I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s420">Cortical projections of the mediodorsal nucleus. 11.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s421">Efferent connections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s422">Brain Res.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPS-BoldMT"
+     id="s423">12:321-343.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s424">Lidov, H.G.W., R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s425">Grzanna, and M.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s426">Molliver (1980) The serotonin innervation of the 
+    cerebral cortex in the rat - an immunohistochemical analysis.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s427">Neuroscience 5t207-227.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s428">Lin, C.S., and J.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s429">Chapin (1981) Some connections of SI and SII in the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s430">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s431">Abstr. 7:396.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s432">Lindvall.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s433">O., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s434">Bjorklund, and I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s435">Divac (1978) Organization of catecholamine neurons 
+    projecting to the frontal cortex of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s436">Brain Res.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s437">142~1-24.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s438">Lund, R.B., and K.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s439">Webster (1967a) Thalamic afferents from the dorsal 
+    column nuclei.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s440">An experimental anatomical study in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s441">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s442">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s443">Neurol. 130:301-312.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s444">Lund, R.B., and K.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s445">Webster (1967b) Thalamic afferents from the trigeminal 
+    nuclei and spinal cord.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s446">An experimental anatomical study in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s447">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s448">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s449">Neurol. 130:313-328.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s450">McAIlister, J.P., and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s451">Wells (1981) The structuralorganization of the ventral 
+    posterolateral nucleus in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s452">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s453">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s454">Neurol. 197:271-301.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s455">Mesulam, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s456">-M., and G.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s457">Van Hoesen (1976) Acetylcholinesterase rich projections 
+    from the basal forebrain of the rhesus monkey to neocortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s458">Brain Res. 109:152-157.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s459">Mesulam, M. (1978) Tetramethyl benzidine for horseradish 
+    peroxidase neurohistochemistry: A non-carcinogenic blue reaction 
+    product with superior sensitivity for visualizing neural afferents 
+    and efferents.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s460">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s461">Histochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s462">Cytochem. 26:106-117.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s463">Morrison, J.H., R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s464">Grzanna, J.T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s465">Coyle, and M.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s466">Molliver (1978) The distribution and orientation of 
+    noradrenergic fibers in neocortex of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s467">An immunofluorescence study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s468">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s469">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s470">Neurol. 181:17-40.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s471">Neafsey, E.J., and C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s472">Sievert (19821 A second forelimb area exists in the rat 
+    frontal cortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s473">Brain Res. 232~151-156.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s474">Price, A.W., and S.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s475">Fowler (19811 Deficits in contralateral and ipsilateral 
+    forepaw motor control following unilateral motor cortical 
+    ablations.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s476">Brain Res. 205%-90.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s477">Sanderson, K.J., W.I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s478">WeIker, and G.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s479">Shambes (1981) Sensory andmotor maps in rat somatic 
+    sensorimotor cortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s480">Abstr.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s481">Aust.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s482">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s483">Mtg.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s484">p.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s485">S77.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s486">Severin, C.M., P.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s487">Young, and L.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s488">Massopust (1976) Pallidothalamic projections in the 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s489">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s490">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s491">Neurol. 166:491-502.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s492">Swanson, L.W. (1981) A direct projection from Ammon s 
+    horn to the prefrontal cortex in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s493">Brain Res. 21T150-154.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s494">Waterhouse.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s495">B.D., H.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s496">Moises, and D.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s497">Woodward (1981) Locus coeruleus stimulation potentiates 
+    somatosensory cortical responses to afferent synaptic input.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s498">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s499">Abstr. 6:448.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s500">Welker, C. (1971) Microelectrode delineation of fine 
+    grain somatotopic organization in SmI cerebral neocortex in albino 
+    rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s501">Brain Res. 26r259-275.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s502">Welker, C. (1976) Receptive fields of barrels in the 
+    somatosensory neocortex of the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s503">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s504">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s505">Neurol. 166~173-190.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s506">Welker, C., and M.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s507">Sinha (1972) Somatotopic organization of SmII cerebral 
+    neocortex in albino rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s508">Brain Res. 37:132-136.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s509">Wise, S.P., and E.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s510">Jones (1977) Cells of origin and terminal distribution 
+    of descending projections of the rat somatic sensory cortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s511">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s512">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s513">Neurol. 175:129-158.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s514">Wise, S.P., and E.G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s515">Jones (1978) Development studies of thalamocortical and 
+    commissural connections in the rat somatic sensory cortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s516">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s517">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s518">Neurol. 178r187-208.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s519">Wise, S.P., E.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s520">Murray, and J.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s521">Coulter (1979) Somatotopic organization of corticospinal 
+    and corticotrigeminal neurons in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s522">Neuroscience 4:65-78.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s523">Zant, J.P., and P.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s524">Strick (1978) The cells of origin of interhemispheric 
+    connections in the primate motor cortex.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s525">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s526">Abstr. 4t308.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s527">Zilles, K., B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s528">Zilles, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s529">Schleicher (1980) A quantitative approach to 
+    cytoarchitectonic.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s530">VI.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s531">The areal pattern of the cortex of the albino rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s532">Anat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s533">Embryol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s534">(Berl.) 159;335-360.</S>
+  </References>
+
+</File>
+

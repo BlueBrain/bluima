@@ -1,0 +1,57 @@
+T17	Regulation 0 10	Regulation
+T18	Gene_expression 20 30	expression
+T19	Regulation 129 136	effects
+T20	Negative_regulation 157 166	inhibitor
+T21	Regulation 213 223	regulation
+T22	Gene_expression 233 243	expression
+T23	Positive_regulation 373 382	induction
+T24	Positive_regulation 463 472	increases
+T25	Gene_expression 503 513	expression
+T26	Negative_regulation 519 534	down-regulation
+T27	Transcription 544 555	transcripts
+T28	Positive_regulation 691 700	increases
+T29	Transcription 715 721	levels
+T30	Positive_regulation 750 765	Similar effects
+T31	Transcription 856 869	transcription
+T32	Positive_regulation 907 916	increased
+T33	Transcription 983 989	levels
+T34	Positive_regulation 995 1007	superinduced
+T35	Regulation 1107 1133	had little, if any, effect
+T36	Positive_regulation 1150 1157	induced
+T37	Transcription 1164 1177	transcription
+T38	Positive_regulation 1365 1378	stabilization
+T39	Positive_regulation 1467 1476	induction
+T40	Transcription 1486 1499	transcription
+T41	Regulation 1519 1529	controlled
+T42	Positive_regulation 1636 1647	autoinduced
+E1	Regulation:T17 Theme:E2
+E2	Gene_expression:T18 Theme:T1
+E3	Regulation:T19 Theme:E6
+E4	Negative_regulation:T20 Theme:T3
+E5	Negative_regulation:T20 Theme:T2
+E6	Regulation:T21 Theme:E7
+E7	Gene_expression:T22 Theme:T4
+E8	Positive_regulation:T23 Theme:E12
+E9	Positive_regulation:T23 Theme:E10
+E10	Positive_regulation:T24 Theme:E11
+E11	Gene_expression:T25 Theme:T5
+E12	Negative_regulation:T26 Theme:E13
+E13	Transcription:T27 Theme:T6
+E14	Positive_regulation:T28 Theme:E15
+E15	Transcription:T29 Theme:T7
+E16	Positive_regulation:T30 Theme:T8
+E17	Transcription:T31 Theme:T9
+E18	Positive_regulation:T32 Theme:E17
+E19	Transcription:T33 Theme:T10
+E20	Positive_regulation:T34 Theme:E19
+E21	Positive_regulation:T34 Theme:E20
+E22	Regulation:T35 Theme:E23
+E23	Positive_regulation:T36 Theme:E24
+E24	Transcription:T37 Theme:T11
+E25	Positive_regulation:T38 Theme:T13
+E26	Positive_regulation:T39 Theme:E27
+E27	Transcription:T40 Theme:T14
+E28	Regulation:T41 Theme:E26
+E29	Positive_regulation:T42 Theme:T15
+M1	Speculation E3
+M2	Negation E22

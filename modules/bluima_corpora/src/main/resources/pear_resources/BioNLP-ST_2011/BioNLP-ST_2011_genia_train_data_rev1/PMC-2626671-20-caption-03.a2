@@ -1,0 +1,26 @@
+T31	Gene_expression 110 120	expression
+T32	Transcription 266 281	mRNA expression
+T33	Gene_expression 393 403	Expression
+T34	Binding 700 707	binding
+E1	Gene_expression:T31 Theme:T2
+E2	Gene_expression:T31 Theme:T3
+E3	Gene_expression:T31 Theme:T4
+E4	Gene_expression:T31 Theme:T5
+E5	Transcription:T32 Theme:T10
+E6	Gene_expression:T33 Theme:T15
+E7	Gene_expression:T33 Theme:T16
+E8	Gene_expression:T33 Theme:T17
+E9	Gene_expression:T33 Theme:T18
+E10	Binding:T34 Theme:T24 Theme2:T26
+E11	Binding:T34 Theme:T25 Theme2:T26
+M1	Speculation E1
+M2	Speculation E2
+M3	Speculation E3
+M4	Speculation E4
+M5	Speculation E5
+M6	Speculation E6
+M7	Speculation E7
+M8	Speculation E8
+M9	Speculation E9
+M10	Speculation E10
+M11	Speculation E11

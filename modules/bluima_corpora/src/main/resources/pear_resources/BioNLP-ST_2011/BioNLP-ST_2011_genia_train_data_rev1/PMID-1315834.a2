@@ -1,0 +1,12 @@
+T10	Localization 615 622	present
+T11	Entity 630 639	cytoplasm
+T12	Positive_regulation 1139 1151	accumulation
+T13	Positive_regulation 1173 1183	detectable
+T14	Positive_regulation 1238 1246	requires
+T15	Positive_regulation 1782 1794	accumulation
+E1	Localization:T10 Theme:T2 AtLoc:T11
+E2	Positive_regulation:T12 Theme:T5
+E3	Positive_regulation:T13 Theme:E2
+E4	Positive_regulation:T14 Theme:E3
+E5	Positive_regulation:T15 Theme:T8
+E6	Positive_regulation:T15 Theme:T8 Cause:T9

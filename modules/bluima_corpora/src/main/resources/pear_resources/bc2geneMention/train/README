@@ -1,0 +1,49 @@
+TRAINING DIRECTORY
+------------------
+
+The file train.in contains 15,000 sentences for development and training.
+Each line of the file consists of an untokenized sentence and is preceded by
+a sentence identifier.
+
+The "gold standard" of gene mentions for train.in is in the file GENE.eval,
+acceptable variants are in the file ALTGENE.eval.
+
+ALT_EVAL
+--------
+
+The evaluation program requires a file consisting of gene mentions for all of the
+sentences in train.in (or for a subset of sentences, see CROSS VALIDATION).
+The evaluation program is a perl script and should be invoked from this directory
+with the command line:
+
+% perl alt_eval.perl mention-file
+
+The mention-file must be formatted according to the description in README.GM
+(the files GENE.eval and ALTGENE.eval are also in this format).
+
+The output of the evaluation program lists all true positives (with an asterisk
+for acceptable alternatives), false positives, and false negatives. The final
+lines of the evaluation output give the number of TP, FP, and FN, and the calculated
+precision, recall, and F score.
+
+CROSS VALIDATION
+----------------
+
+If you wish to evaluate on a subset of the sentences in train.in, make a file containing
+a list of the sentence identifiers you wish to evaluate. Then invoke the evaluation
+program with the "-ids" option:
+
+% perl alt_eval.perl -ids id-file mention-file
+
+The mention-file contains the mentions from the sentences listed in the id-file that
+are to be evaluated.
+
+WORKING DIRECORY
+----------------
+
+The files GENE.eval and ALTGENE.eval should be in the current working directory
+when the program is run.  Alternatively, the file names can be specified on the
+command line:
+
+% perl alt_eval.perl -gene gene-eval-file -altgene altgene-eval-file mention-file
+

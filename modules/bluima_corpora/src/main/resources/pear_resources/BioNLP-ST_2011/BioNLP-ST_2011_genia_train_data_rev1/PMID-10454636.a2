@@ -1,0 +1,15 @@
+*	Equiv T1 T2
+T8	Regulation 1349 1355	affect
+T9	Regulation 1395 1409	concentrations
+E1	Regulation:T8 Theme:E7 Cause:T4
+E2	Regulation:T8 Theme:E9
+E3	Regulation:T8 Theme:E9 Cause:T4
+E4	Regulation:T8 Theme:E7
+E5	Regulation:T8 Theme:E8 Cause:T4
+E6	Regulation:T8 Theme:E8
+E7	Regulation:T9 Theme:T6
+E8	Regulation:T9 Theme:T7
+E9	Regulation:T9 Theme:T5
+M1	Negation E2
+M2	Negation E4
+M3	Negation E6

@@ -1,0 +1,30 @@
+*	Equiv T3 T2
+T11	Positive_regulation 37 45	requires
+T12	Positive_regulation 137 146	induction
+T13	Positive_regulation 234 243	necessary
+T14	Regulation 248 274	transcriptional regulation
+T15	Positive_regulation 947 956	important
+T16	Gene_expression 966 975	induction
+T17	Positive_regulation 1116 1124	required
+T18	Positive_regulation 1157 1166	induction
+T19	Gene_expression 1474 1484	expression
+T20	Positive_regulation 1486 1490	When
+T21	Entity 1555 1563	enhancer
+T22	Positive_regulation 1568 1577	inducible
+T23	Entity 1673 1681	promoter
+T24	Positive_regulation 1691 1702	requirement
+E1	Positive_regulation:T11 Theme:E2
+E2	Positive_regulation:T12 Theme:T1
+E3	Positive_regulation:T13 Theme:E4
+E4	Regulation:T14 Theme:T3
+E5	Positive_regulation:T15 Theme:E6
+E6	Gene_expression:T16 Theme:T3
+E7	Positive_regulation:T17 Theme:E9 Cause:T5
+E8	Positive_regulation:T17 Theme:E9
+E9	Positive_regulation:T18 Theme:T4
+E10	Gene_expression:T19 Theme:T7
+E11	Positive_regulation:T20 Theme:E12
+E12	Positive_regulation:T22 Theme:T9 Site:T21
+E13	Positive_regulation:T24 Theme:T10 Cause:T9 Site:T23 CSite:T21
+M1	Speculation E5
+M2	Negation E10

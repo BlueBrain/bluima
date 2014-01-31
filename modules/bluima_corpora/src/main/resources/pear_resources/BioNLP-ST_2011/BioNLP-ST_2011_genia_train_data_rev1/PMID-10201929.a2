@@ -1,0 +1,23 @@
+*	Equiv T4 T5
+T10	Positive_regulation 335 352	mRNA accumulation
+T11	Binding 607 618	Interaction
+T12	Negative_regulation 807 814	absence
+T13	Transcription 840 853	transcription
+T14	Negative_regulation 869 876	absence
+T15	Binding 890 906	binding activity
+E1	Positive_regulation:T10 Theme:T3
+E2	Positive_regulation:T10 Theme:T1
+E3	Positive_regulation:T10 Theme:T2
+E4	Binding:T11 Theme:T4 Theme2:T6
+E5	Negative_regulation:T12 Theme:E8
+E6	Negative_regulation:T12 Theme:E10
+E7	Negative_regulation:T12 Theme:E9
+E8	Transcription:T13 Theme:T7
+E9	Transcription:T13 Theme:T9
+E10	Transcription:T13 Theme:T8
+E11	Negative_regulation:T14 Theme:E15
+E12	Negative_regulation:T14 Theme:E14
+E13	Negative_regulation:T14 Theme:E16
+E14	Binding:T15 Theme:T8
+E15	Binding:T15 Theme:T7
+E16	Binding:T15 Theme:T9

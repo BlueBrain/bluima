@@ -1,0 +1,76 @@
+*	Equiv T2 T1
+*	Equiv T12 T11
+T27	Positive_regulation 0 10	Triggering
+T28	Positive_regulation 67 74	induces
+T29	Entity 75 82	nuclear
+T30	Localization 83 96	translocation
+T31	Positive_regulation 482 488	induce
+T32	Entity 489 496	nuclear
+T33	Localization 497 510	translocation
+T34	Binding 570 575	binds
+T35	Positive_regulation 668 678	triggering
+T36	Positive_regulation 1016 1027	Stimulation
+T37	Positive_regulation 1069 1077	increase
+T38	Positive_regulation 1250 1261	stimulation
+T39	Positive_regulation 1276 1283	induces
+T40	Entity 1288 1295	nuclear
+T41	Localization 1296 1309	translocation
+T42	Localization 1351 1364	Translocation
+T43	Positive_regulation 1396 1404	observed
+T44	Positive_regulation 1415 1426	stimulation
+T45	Localization 1534 1546	translocated
+T46	Positive_regulation 1567 1575	observed
+T47	Positive_regulation 1639 1646	mediate
+T48	Localization 1651 1664	translocation
+T49	Positive_regulation 1687 1694	induced
+E1	Positive_regulation:T27 Theme:T2
+E2	Positive_regulation:T27 Theme:T3
+E3	Positive_regulation:T27 Theme:T4
+E4	Positive_regulation:T28 Theme:E10 Cause:E2
+E5	Positive_regulation:T28 Theme:E10 Cause:E3
+E6	Positive_regulation:T28 Theme:E11 Cause:E1
+E7	Positive_regulation:T28 Theme:E10 Cause:E1
+E8	Positive_regulation:T28 Theme:E11 Cause:E3
+E9	Positive_regulation:T28 Theme:E11 Cause:E2
+E10	Localization:T30 Theme:T6 ToLoc:T29
+E11	Localization:T30 Theme:T5 ToLoc:T29
+E12	Positive_regulation:T31 Theme:E16
+E13	Positive_regulation:T31 Theme:E17
+E14	Positive_regulation:T31 Theme:E17 Cause:T8
+E15	Positive_regulation:T31 Theme:E16 Cause:T8
+E16	Localization:T33 Theme:T9 ToLoc:T32
+E17	Localization:T33 Theme:T10 ToLoc:T32
+E18	Binding:T34 Theme:T10
+E19	Binding:T34 Theme:T9
+E20	Positive_regulation:T35 Theme:T12
+E21	Positive_regulation:T35 Theme:T13
+E22	Positive_regulation:T35 Theme:T14
+E23	Positive_regulation:T36 Theme:T16
+E24	Positive_regulation:T37 Theme:T17
+E25	Positive_regulation:T37 Theme:T17 Cause:E23
+E26	Positive_regulation:T38 Theme:T18
+E27	Positive_regulation:T39 Theme:E32
+E28	Positive_regulation:T39 Theme:E31 Cause:E26
+E29	Positive_regulation:T39 Theme:E31
+E30	Positive_regulation:T39 Theme:E32 Cause:E26
+E31	Localization:T41 Theme:T20 ToLoc:T40
+E32	Localization:T41 Theme:T19 ToLoc:T40
+E33	Localization:T42 Theme:T21
+E34	Localization:T42 Theme:T22
+E35	Positive_regulation:T43 Theme:E34 Cause:E39
+E36	Positive_regulation:T43 Theme:E33 Cause:E39
+E37	Positive_regulation:T43 Theme:E33
+E38	Positive_regulation:T43 Theme:E34
+E39	Positive_regulation:T44 Theme:T23
+E40	Localization:T45 Theme:T21
+E41	Localization:T45 Theme:T22
+E42	Positive_regulation:T46 Theme:E40
+E43	Positive_regulation:T46 Theme:E41
+E44	Positive_regulation:T47 Theme:E49 Cause:T24
+E45	Positive_regulation:T47 Theme:E48 Cause:T24
+E46	Localization:T48 Theme:T25
+E47	Localization:T48 Theme:T26
+E48	Positive_regulation:T49 Theme:T25
+E49	Positive_regulation:T49 Theme:T26
+M1	Negation E44
+M2	Negation E45

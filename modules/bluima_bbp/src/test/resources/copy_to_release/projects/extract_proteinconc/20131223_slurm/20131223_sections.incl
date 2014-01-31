@@ -1,0 +1,3 @@
+ae: ch.epfl.bbp.uima.filter.SectionAnnotator
+ae: ch.epfl.bbp.uima.filter.SectionRegexAnnotator
+ae: ch.epfl.bbp.nlp.ie.proteinconc.SectionBasedCoocConfidenceAnnotator

@@ -1,0 +1,83 @@
+Ca2 uncaging and imaging. A fast flash lamp
+(Rapp Optoelectronic) was used to uncage
+Ca 2 from DM-nitrophen (Schneggenburger
+and Neher, 2000). The flash light intensity was
+controlled by inserting neutral density filters
+into the light path producing different postflash
+amplitudes of [Ca 2 ] . Intracellular Ca 2 con- i
+
+centration was measured using the ratiometric
+Ca 2 indicator dye fura-2FF excited at 350 and
+380 nm with a monochromator (T.I.L.L. Photonics), as previously described (Schneggenburger and Neher, 2000; Schneggenburger,
+2005). Time series images were analyzed offline using TILLvision software with the background fluorescence of a small area next to the
+calyx subtracted to obtain the backgroundcorrected fluorescence ratio (Grynkiewicz et al.,
+1985). [Ca 2 ] was calculated on the basis of
+i
+
+calibration constants obtained from in vitro
+measurements at high, intermediate, and low
+[Ca 2 ] (R , R , and R ) in small glass
+i min int max
+cuvettes containing standard buffers as de-scribed previously (Schneggenburger, 2005).
+Analysis of electrophysiological data. All offline analysis was performed with IgorPro
+(WaveMetrics). Residual R errors were com- s
+
+pensated off-line for all evoked EPSC (eEPSC)
+recordings. Spontaneously occurring miniature
+EPSCs (mEPSCs) were captured from baseline
+recordings using a template-matching algoFigure 2. Estimating the size of the RRP. A, Presynaptic terminals were depolarized to 0 mV for 50 ms (I , top row), and the
+rithm as described by Clements and Bekkers Ca(V)
+evoked EPSCs (second row) were deconvolved using the parameters derived using the template protocol (Fig. 1) to estimate the
+(1997). Quantal size estimates for eEPSCs re- time course of release (third row). At both the P10 (A1) and the P16 (A2) synapse, depolarizations of 50 ms duration completely
+corded in the presence of CTZ and -DGG were
+depleted the RRP, as indicated by the rapid decay of the EPSCs to baseline. The early EPSCs are superimposed in inset i for
+derived from the fluctuation of peak amplicomparison. Release rates were integrated to estimate the cumulative release (bottom row). Two kinetically distinct release
+tudes using variance–mean analysis. At least
+components were identified at P9 –P11 and P16 –P19 (broken lines). B, Fractions of fast-releasing and slowly releasing vesicles
+200 eEPSCs were analyzed for each synapse. No
+during 50 ms presynaptic depolarizations. On average, the contribution of fast-releasing vesicles to the total RRP size slightly
+corrections were applied for dispersion of
+increased during development from 35 5% to 43 4%.
+quantal amplitudes or variability in the timing
+of release, because the respective correction factors nearly canceled each other (Taschenberger et al., 2005). All averaged lease rates (cumulative release) were further corrected for the refilling of
+data are reported as the mean SEM. Significance levels were deter- the pool of synaptic vesicles (Neher and Sakaba, 2001). The total size of
+mined from rank-order comparisons made with the nonparametric the readily releasable vesicle pool (RRP) was estimated by applying a
+Mann–Whitney test, unless indicated otherwise. Differences were con- combination of a strong light flash followed by a presynaptic depolarizing
+sidered statistically significant if p 0.05. voltage step (80 ms duration). RRP size estimates for each individual synapse
+Modeling presynaptic Ca2 influx. Presynaptic Ca 2 currents activated were later used to convert absolute release rates into rates per vesicle.
+by very brief calyceal APs are unlikely to be accurate when measured Release model. The relationship between local [Ca 2 ]i and release was
+using single-electrode voltage clamp in P16 –P19 rats. Because such mea- modeled using a five-site kinetic model (Schneggenburger and Neher,
+surements are probably further confounded by the presence of an axon of 2000; Beutner et al., 2001; Felmy et al., 2003), which is an extension of the
+variable length, we instead obtained estimates for immature and mature scheme proposed by Heidelberger et al. (1994) for exocytosis from retinal
+I waveforms from simulations using a previously established bipolar cell terminals. Ca 2 binding (kon) and unbinding (koff) rates
+Ca(V)
+Hodgkin–Huxley (HH)-type m2 model of the presynaptic Ca 2 current were estimated as previously described (Schneggenburger and Neher,
+2000; Wadel et al., 2007), except that a Runge–Kutta algorithm was ap-(Borst and Sakmann, 1998). Calyceal AP waveforms measured at P9 and
+plied to numerically solve the system of coupled differential equations to
+P16 were used to drive the model. The time course of the average activation parameter m2 was solved numerically using a fifth-order Runge– avoid inaccuracies inherent in a first-order Euler scheme. The fitting
+routine included low-pass filtering of the simulated rates as implicitly
+Kutta–Fehlberg algorithm implemented in IgorPro (see Fig. 5A).
+applied during time-domain deconvolution analysis of flash-photolysisDeconvolution analysis. Deconvolution of AP-evoked EPSCs was perevoked EPSCs. Nonlinear least-square fitting of release rate versus
+formed in the frequency domain using discrete Fourier transforms (see
+[Ca 2 ] scatter plots was performed using the Levenberg–Marquardt
+Fig. 4). The Fourier transform of eEPSC (F{eEPSC}) was divided by that i
+minimization algorithm in IgorPro, with k and k as free parameters
+of the quantal response (F{mEPSC}), and the release rate was obtained on off
+and and b fixed to previously established values (Schneggenburger and
+from the inverse Fourier transform of this quotient r(t)
+F 1{F{eEPSC}/F{mEPSC}} (Van der Kloot, 1988; Diamond and Jahr, Neher, 2000). SEs for k and k were estimated by bootstrap analysis
+on off
+using 10,000 replications (Efron and Tibshirani, 1993). A permutation
+1995). Release rates were subsequently low-pass filtered (Gaussian filter
+test (using 10,000 random permutations) was used to assess whether the
+kernel with f 4 kHz) to remove excess noise. Deconvolution of EPSCs
+c difference between the estimated K values was statistically significant.
+evoked by long-lasting elevations of [Ca 2 ] elicited by flash photolysis D
+i
+
+and/or presynaptic depolarizations was performed in the time domain
+Results
+using analysis routines that take into account an additional slow EPSC
+component generated by residual glutamate in the synaptic cleft (Neher In this study, we quantified changes in the intracellular Ca 2
+and Sakaba, 2001) (see Fig. 1C). These routines apply low-pass filtering sensitivity of the release apparatus at the developing mouse calyx
+to the release rate using a two-stage box filter algorithm. Integrated re- of Held by analyzing a total of 106 flash-photolysis-evoked EPSCs

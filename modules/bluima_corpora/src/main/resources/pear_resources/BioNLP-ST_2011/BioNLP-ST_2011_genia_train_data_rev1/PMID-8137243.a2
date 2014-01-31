@@ -1,0 +1,45 @@
+T10	Positive_regulation 8 14	causes
+T11	Phosphorylation 68 83	phosphorylation
+T12	Positive_regulation 384 391	results
+T13	Protein_catabolism 411 422	degradation
+T14	Negative_regulation 677 686	inhibited
+T15	Protein_catabolism 703 714	degradation
+T16	Positive_regulation 787 789	by
+T17	Phosphorylation 851 866	phosphorylation
+T18	Entity 1019 1027	tyrosine
+T19	Phosphorylation 1028 1043	phosphorylation
+T20	Positive_regulation 1051 1060	increased
+T21	Negative_regulation 1086 1096	Inhibition
+T22	Phosphorylation 1104 1142	transfer of tyrosine phosphoryl groups
+T23	Negative_regulation 1164 1173	prevented
+T24	Protein_catabolism 1190 1201	degradation
+T25	Regulation 1352 1359	changes
+T26	Entity 1367 1375	tyrosine
+T27	Phosphorylation 1376 1391	phosphorylation
+T28	Entity 1494 1502	tyrosine
+T29	Phosphorylation 1503 1518	phosphorylation
+T30	Positive_regulation 1538 1544	during
+T31	Positive_regulation 1589 1597	precedes
+T32	Protein_catabolism 1619 1630	degradation
+E1	Positive_regulation:T10 Theme:E2
+E2	Phosphorylation:T11 Theme:T1
+E3	Positive_regulation:T12 Theme:E4
+E4	Protein_catabolism:T13 Theme:T2
+E5	Negative_regulation:T14 Theme:E7
+E6	Protein_catabolism:T15 Theme:T3
+E7	Positive_regulation:T16 Theme:E6
+E8	Phosphorylation:T17 Theme:T4
+E9	Phosphorylation:T19 Theme:T5 Site:T18
+E10	Positive_regulation:T20 Theme:E9
+E11	Negative_regulation:T21 Theme:E12
+E12	Phosphorylation:T22 Theme:T6
+E13	Negative_regulation:T23 Theme:E14 Cause:E11
+E14	Protein_catabolism:T24 Theme:T7
+E15	Regulation:T25 Theme:E16
+E16	Phosphorylation:T27 Theme:T8 Site:T26
+E17	Phosphorylation:T29 Theme:T9 Site:T28
+E18	Positive_regulation:T30 Theme:E17
+E19	Positive_regulation:T31 Theme:E20 Cause:E18
+E20	Protein_catabolism:T32 Theme:T9
+M1	Negation E15
+M2	Speculation E19

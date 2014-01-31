@@ -1,0 +1,10 @@
+*	Equiv T2 T1
+*	Equiv T4 T3
+T5	Positive_regulation 238 249	high levels
+T6	Negative_regulation 774 781	inhibit
+T7	Gene_expression 907 917	expression
+T8	Regulation 924 931	control
+E1	Positive_regulation:T5 Theme:T2
+E2	Negative_regulation:T6 Theme:E4
+E3	Gene_expression:T7 Theme:T4
+E4	Regulation:T8 Theme:E3

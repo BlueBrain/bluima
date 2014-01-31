@@ -1,0 +1,8 @@
+PythonObject has two main uses. Creating an instance using
+new returns an object that encapsulates the top-level Python interpreter, e.g.
+
+oc> objref py
+oc> py = new PythonObject()
+oc> py.b = "hello"
+oc> nrnpython("print b")
+hello

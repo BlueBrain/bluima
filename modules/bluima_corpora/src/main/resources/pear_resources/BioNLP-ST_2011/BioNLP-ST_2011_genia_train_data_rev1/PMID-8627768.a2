@@ -1,0 +1,5 @@
+T4	Binding 1538 1547	occupancy
+T5	Gene_expression 1736 1745	producing
+E1	Binding:T4 Theme:T2
+E2	Binding:T4 Theme:T1
+E3	Gene_expression:T5 Theme:T3

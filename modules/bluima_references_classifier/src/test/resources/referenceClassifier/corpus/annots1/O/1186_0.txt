@@ -1,0 +1,29 @@
+Self-training
+Self-training is a machine learning technique in which a
+suitable subset of a system's output is used as additional
+training data for the same system. In the domain of biomedical NLP, self-training was successfully applied for
+instance to syntactic parsing [16] and word sense disambiguation [42]. We tested the effect of self-training on
+the GE task (subtask 1), using data from EVEX, a publicly available database of automatically extracted events
+produced by applying our BioNLP'09 Shared Task system to the entire 2009 distribution of PubMed citation
+titles and abstracts [10,43].
+Typically, self-training examples are selected based on
+their confidence score assigned by the system during
+extraction. Low-confidence examples are avoided since
+they have a higher proportion of false positives and
+would thus not be likely to provide useful training data.
+Very high confidence events, on the other hand, may
+not provide sufficiently new information, as the system
+is already able to extract them reliably. To test the effect
+of event confidence on its usability as self-training data,
+we first renormalize the confidence scores of all events
+in EVEX to μ = 0 and s = 1, i.e. zero mean with standard deviation one. Having observed that the mean
+event confidence score in EVEX differs substantially
+depending on the type of the event, the number of
+entity arguments, and the number of recursive event
+arguments, we normalize each subset of EVEX events
+defined by these three criteria separately. We then select
+four sets of EVEX events for self-training, based on how
+many standard deviations above or below the mean
+their normalized confidence score is. We randomly
+select 20,000 EVEX events for each of the four sets: set
+S0 contains events with confidence in the range [-0.5,

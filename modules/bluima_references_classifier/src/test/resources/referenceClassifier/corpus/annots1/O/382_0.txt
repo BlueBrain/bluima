@@ -1,0 +1,45 @@
+In run 2 and run 3 the score of every gene identifier
+in the result list is highly dependent on the species
+name scoring. Run 2 weights species based on species
+occurrences in the title of articles, sections and subsections. Run 3 considers species distributions across the
+whole article. As for the results of run 1, they are not
+only dependent on the species weighting but also on the
+results of the Gene Ontology categorizer (GOCat)
+[40,46]. What makes this run comparatively more effective is the use of GOCat's functional prediction power
+to assign protein identifiers. We compute a similarity
+measure (lexical and nearest neighbour distances)
+between articles and functional descriptors in Entrez
+Gene. Using results provided by GOCat we filter gene
+candidates and give additional weight to those candidates. GOCat not only helps to filter gene candidates
+but also often to simply boost positive gene identifiers
+already assigned by the gene name entity recognizer.
+All combinations between the modules were set
+empirically on training data. The impact of GOCat
+appeared more effective on the official data than on our
+training runs. This impact suggests that overfitting phenomena are avoided mainly because of GOCat which
+was not originally designed for the gene recognition.
+After competition, for run 3 we have improved our
+results for the TAP-5 by +312%, TAP-10 by +219% and
+TAP-20 by +152.7% on the “gold50” standard. In addition to this we have improved results by +24.5% for the
+TAP-5, 10, 20 of the “silver507” standard. For run 1 we
+have improved results for the TAP-5 by +12.3%, TAP-10 by +10.4% and TAP-20 by +11.5% of the “gold50”.
+For the TAP-5, 10, 20 of the “silver507” we have
+obtained an improvement of +5.3%. We noticed that
+our system was able to find gene identifiers for only 443
+out of 507 documents. This can be explained by our
+incomplete vocabulary of organisms, e.g. viruses. Our
+GN system is available online at http://pingu.unige.
+ch:8080/NormaGene.
+Team 65 (Martin Romacker and Fabio Rinaldi)
+The OntoGene research group at the University of Zurich used for the GN task a variant of their text mining
+pipeline which had been previously developed for the
+detection of protein-protein interactions [47,48]. While
+the full OntoGene system includes modules for syntactic
+parsing and relation extraction, for the GN task a simplified version of the pipeline was used, including modules for conversion into the internal XML format,
+preprocessing (sentence splitting, tokenization, tagging),
+terminology recognition, detection of `focus organism',
+terminology filtering and scoring.
+The terminology recognition module is based on an
+efficient lexical lookup approach, with the contribution
+of a `normalization' module (rule based) which can take
+into account the most frequent surface variants of a

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- created with cell_to_conceptmapper.py -->
+<!-- from MT's and Joe's list -->
+<synonym>
+
+<token canonical="axon cell" ref_id="neuron:1">
+   <variant base="axon cell" />
+   <variant base="axon neuron" />
+   <variant base="axon nerve cell" />
+</token>
+<token canonical="horizontal axon cell" ref_id="neuron:2">
+   <variant base="horizontal axon cell" />
+   <variant base="horizontal axon neuron" />
+   <variant base="horizontal axon nerve cell" />
+</token>
+<token canonical="large axon cell" ref_id="neuron:3">
+   <variant base="large axon cell" />
+   <variant base="large axon neuron" />
+   <variant base="large axon nerve cell" />
+</token>
+<token canonical="descending axon cell" ref_id="neuron:4">
+   <variant base="descending axon cell" />
+   <variant base="descending axon neuron" />
+   <variant base="descending axon nerve cell" />
+</token>
+<token canonical="pyramidal cell" ref_id="neuron:5">
+   <variant base="pyramidal cell" />
+   <variant base="pyramidal neuron" />
+   <variant base="pyramidal nerve cell" />
+</token>
+<token canonical="narrow pyramidal cell projecting to thalamus" ref_id="neuron:6">
+   <variant base="narrow pyramidal cell projecting to thalamus" />
+   <variant base="narrow pyramidal neuron projecting to thalamus" />
+   <variant base="narrow pyramidal nerve cell projecting to thalamus" />
+</token>
+<token canonical="bipolar pyramidal cell" ref_id="neuron:7">
+   <variant base="bipolar pyramidal cell" />
+   <variant base="bipolar pyramidal neuron" />
+   <variant base="bipolar pyramidal nerve cell" />
+</token>
+<token canonical="star pyramidal cell" ref_id="neuron:8">
+   <variant base="star pyramidal cell" />
+   <variant base="star pyramidal neuron" />
+   <variant base="star pyramidal nerve cell" />
+</token>
+<token canonical="small tufted pyramidal cell" ref_id="neuron:9">
+   <variant base="small tufted pyramidal cell" />
+   <variant base="small tufted pyramidal neuron" />
+   <variant base="small tufted pyramidal nerve cell" />
+</token>
+<token canonical="tufted pyramidal cell" ref_id="neuron:10">
+   <variant base="tufted pyramidal cell" />
+   <variant base="tufted pyramidal neuron" />
+   <variant base="tufted pyramidal nerve cell" />
+</token>
+<token canonical="tufted pyramidal cell towards l1" ref_id="neuron:11">
+   <variant base="tufted pyramidal cell towards l1" />
+   <variant base="tufted pyramidal neuron towards l1" />
+   <variant base="tufted pyramidal nerve cell towards l1" />
+</token>
+<token canonical="tufted pyramidal cell towards l4" ref_id="neuron:12">
+   <variant base="tufted pyramidal cell towards l4" />
+   <variant base="tufted pyramidal neuron towards l4" />
+   <variant base="tufted pyramidal nerve cell towards l4" />
+</token>
+<token canonical="untufted pyramidal cell" ref_id="neuron:13">
+   <variant base="untufted pyramidal cell" />
+   <variant base="untufted pyramidal neuron" />
+   <variant base="untufted pyramidal nerve cell" />
+</token>
+<token canonical="untufted (slender) pyramidal cell" ref_id="neuron:14">
+   <variant base="untufted (slender) pyramidal cell" />
+   <variant base="untufted (slender) pyramidal neuron" />
+   <variant base="untufted (slender) pyramidal nerve cell" />
+</token>
+<token canonical="thick tufted pyramidal cell" ref_id="neuron:15">
+   <variant base="thick tufted pyramidal cell" />
+   <variant base="thick tufted pyramidal neuron" />
+   <variant base="thick tufted pyramidal nerve cell" />
+</token>
+<token canonical="early bifurcating thick tufted pyramidal cell" ref_id="neuron:16">
+   <variant base="early bifurcating thick tufted pyramidal cell" />
+   <variant base="early bifurcating thick tufted pyramidal neuron" />
+   <variant base="early bifurcating thick tufted pyramidal nerve cell" />
+</token>
+<token canonical="late bifurcating thick tufted pyramidal cell" ref_id="neuron:17">
+   <variant base="late bifurcating thick tufted pyramidal cell" />
+   <variant base="late bifurcating thick tufted pyramidal neuron" />
+   <variant base="late bifurcating thick tufted pyramidal nerve cell" />
+</token>
+<token canonical="horizontal pyramidal cell" ref_id="neuron:18">
+   <variant base="horizontal pyramidal cell" />
+   <variant base="horizontal pyramidal neuron" />
+   <variant base="horizontal pyramidal nerve cell" />
+</token>
+<token canonical="inverted pyramidal cell" ref_id="neuron:19">
+   <variant base="inverted pyramidal cell" />
+   <variant base="inverted pyramidal neuron" />
+   <variant base="inverted pyramidal nerve cell" />
+</token>
+<token canonical="interneuron cell" ref_id="neuron:20">
+   <variant base="interneuron cell" />
+   <variant base="interneuron neuron" />
+   <variant base="interneuron nerve cell" />
+</token>
+<token canonical="bipolar cell" ref_id="neuron:21">
+   <variant base="bipolar cell" />
+   <variant base="bipolar neuron" />
+   <variant base="bipolar nerve cell" />
+</token>
+<token canonical="bitufted cell" ref_id="neuron:22">
+   <variant base="bitufted cell" />
+   <variant base="bitufted neuron" />
+   <variant base="bitufted nerve cell" />
+</token>
+<token canonical="cajal-retzius cell" ref_id="neuron:23">
+   <variant base="cajal-retzius cell" />
+   <variant base="cajal-retzius neuron" />
+   <variant base="cajal-retzius nerve cell" />
+</token>
+<token canonical="chandelier cell" ref_id="neuron:24">
+   <variant base="chandelier cell" />
+   <variant base="chandelier neuron" />
+   <variant base="chandelier nerve cell" />
+</token>
+<token canonical="double bouquet cell" ref_id="neuron:25">
+   <variant base="double bouquet cell" />
+   <variant base="double bouquet neuron" />
+   <variant base="double bouquet nerve cell" />
+</token>
+<token canonical="somatostatin-positive cell" ref_id="neuron:26">
+   <variant base="somatostatin-positive cell" />
+   <variant base="somatostatin-positive neuron" />
+   <variant base="somatostatin-positive nerve cell" />
+</token>
+<token canonical="paravalbumin-positive cell" ref_id="neuron:27">
+   <variant base="paravalbumin-positive cell" />
+   <variant base="paravalbumin-positive neuron" />
+   <variant base="paravalbumin-positive nerve cell" />
+</token>
+<token canonical="martinotti cell" ref_id="neuron:28">
+   <variant base="martinotti cell" />
+   <variant base="martinotti neuron" />
+   <variant base="martinotti nerve cell" />
+</token>
+<token canonical="spiny stellate cell" ref_id="neuron:29">
+   <variant base="spiny stellate cell" />
+   <variant base="spiny stellate neuron" />
+   <variant base="spiny stellate nerve cell" />
+</token>
+<token canonical="neurogliaform cell" ref_id="neuron:30">
+   <variant base="neurogliaform cell" />
+   <variant base="neurogliaform neuron" />
+   <variant base="neurogliaform nerve cell" />
+</token>
+<token canonical="neurogliaform cell with dense axonal arbours" ref_id="neuron:31">
+   <variant base="neurogliaform cell with dense axonal arbours" />
+   <variant base="neurogliaform neuron with dense axonal arbours" />
+   <variant base="neurogliaform nerve cell with dense axonal arbours" />
+</token>
+<token canonical="neurogliaform cell with sparse axonal arbours" ref_id="neuron:32">
+   <variant base="neurogliaform cell with sparse axonal arbours" />
+   <variant base="neurogliaform neuron with sparse axonal arbours" />
+   <variant base="neurogliaform nerve cell with sparse axonal arbours" />
+</token>
+<token canonical="basket cell" ref_id="neuron:33">
+   <variant base="basket cell" />
+   <variant base="basket neuron" />
+   <variant base="basket nerve cell" />
+</token>
+<token canonical="large basket cell" ref_id="neuron:34">
+   <variant base="large basket cell" />
+   <variant base="large basket neuron" />
+   <variant base="large basket nerve cell" />
+</token>
+<token canonical="nest basket cell" ref_id="neuron:35">
+   <variant base="nest basket cell" />
+   <variant base="nest basket neuron" />
+   <variant base="nest basket nerve cell" />
+</token>
+<token canonical="small basket cell" ref_id="neuron:36">
+   <variant base="small basket cell" />
+   <variant base="small basket neuron" />
+   <variant base="small basket nerve cell" />
+</token>
+</synonym>

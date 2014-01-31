@@ -1,0 +1,21 @@
+T10	Negative_regulation 698 703	block
+T11	Positive_regulation 722 731	induction
+T12	Negative_regulation 961 968	inhibit
+T13	Positive_regulation 990 999	induction
+T14	Negative_regulation 1176 1186	inhibition
+T15	Protein_catabolism 1194 1205	degradation
+T16	Binding 1395 1408	cross-linking
+E1	Negative_regulation:T10 Theme:E2
+E2	Positive_regulation:T11 Theme:T2
+E3	Negative_regulation:T12 Theme:E6
+E4	Negative_regulation:T12 Theme:E5
+E5	Positive_regulation:T13 Theme:T5
+E6	Positive_regulation:T13 Theme:T6
+E7	Negative_regulation:T14 Theme:E9
+E8	Negative_regulation:T14 Theme:E10
+E9	Protein_catabolism:T15 Theme:T8
+E10	Protein_catabolism:T15 Theme:T7
+E11	Binding:T16 Theme:T9
+M1	Negation E1
+M2	Negation E3
+M3	Negation E4

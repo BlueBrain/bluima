@@ -1,0 +1,8 @@
+T10	Gene_expression 14 24	expression
+T11	Gene_expression 105 114	expressed
+T12	Binding 213 220	binding
+T13	Regulation 260 270	regulation
+E1	Gene_expression:T10 Theme:T1
+E2	Gene_expression:T11 Theme:T2
+E3	Binding:T12 Theme:T2
+E4	Regulation:T13 Theme:T3

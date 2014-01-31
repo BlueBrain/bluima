@@ -1,0 +1,8 @@
+T10	Entity 427 428	N
+T11	Entity 439 446	termini
+T12	Positive_regulation 505 516	potentiated
+T13	Binding 520 532	interactions
+E1	Positive_regulation:T12 Theme:T5 Cause:E4 Site:T11
+E2	Positive_regulation:T12 Theme:T5 Cause:E3 Site:T10
+E3	Binding:T13 Theme:T5 Site:T10
+E4	Binding:T13 Theme:T5 Site:T11

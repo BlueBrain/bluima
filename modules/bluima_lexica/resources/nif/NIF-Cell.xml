@@ -1,0 +1,1619 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<synonym>
+<token canonical="Motor Neuron" ref_id="sao1460710779">
+  <variant base="Motor Neuron" />
+</token>
+<token canonical="Choroid Epithelial Cell" ref_id="sao1541570510">
+  <variant base="Choroid Epithelial Cell" />
+</token>
+<token canonical="Ependymal Cell" ref_id="sao1714094301">
+  <variant base="Ependymal Cell" />
+</token>
+<token canonical="Medium Spiny Cell" ref_id="sao68203136">
+  <variant base="Medium Spiny Cell" />
+  <variant base="Medium Spiny Neuron" />
+</token>
+<token canonical="Double Bouquet Cell" ref_id="sao910084726">
+  <variant base="Double Bouquet Cell" />
+</token>
+<token canonical="Sub-ependymal Astrocyte" ref_id="sao399295448">
+  <variant base="Sub-ependymal Astrocyte" />
+</token>
+<token canonical="Pectin Glial Cell" ref_id="sao-243744138">
+  <variant base="Pectin Glial Cell" />
+</token>
+<token canonical="Cochlear nucleus (ventral) multipolar D cell" ref_id="nifext_69">
+  <variant base="Cochlear nucleus (ventral) multipolar D cell" />
+  <variant base="D multipolar cell" />
+  <variant base="Ventral cochlear nucleus multipolar D cell" />
+</token>
+<token canonical="Hippocampus CA1 IS-II neuron" ref_id="nlx_cell_1006029">
+  <variant base="Hippocampus CA1 IS-II neuron" />
+  <variant base="CA1 IS-II cell" />
+</token>
+<token canonical="Scarpa's ganglion cell (vestibular nerve)" ref_id="nifext_67">
+  <variant base="Auditory ganglion cell" />
+  <variant base="8th nerve ganglion neuron" />
+  <variant base="vestibular nerve ganglion cell" />
+  <variant base="8th nerve ganglion cell" />
+  <variant base="Auditory ganglion neuron" />
+  <variant base="Scarpa's ganglion cell (vestibular nerve)" />
+</token>
+<token canonical="Cochlear nucleus (ventral) multipolar T cell" ref_id="nifext_68">
+  <variant base="Cochlear nucleus (ventral) multipolar T cell" />
+  <variant base="Cochlear (ventral) nucleus multipolar T cell" />
+  <variant base="T multipolar cell" />
+  <variant base="Ventral cochlear nucleus multipolar T cell" />
+</token>
+<token canonical="Neocortex pyramidal cell layer 5" ref_id="sao840814183">
+  <variant base="Neocortex pyramidal neuron layer 5" />
+  <variant base="Layer 5 Pyramidal Neuron" />
+  <variant base="Neocortex pyramidal cell layer 5" />
+</token>
+<token canonical="Hair cell outer" ref_id="nifext_65">
+  <variant base="Hair cell outer" />
+  <variant base="Outer Hair Cell" />
+</token>
+<token canonical="Superior colliculus stellate neuron" ref_id="nlx_cell_1006027">
+  <variant base="Superior colliculus stellate neuron" />
+  <variant base="stellate neuron" />
+</token>
+<token canonical="Superior colliculus wide field vertical cell" ref_id="nlx_cell_1006028">
+  <variant base="wide field vertical cell" />
+  <variant base="Superior colliculus wide field vertical cell" />
+</token>
+<token canonical="Vestibular ganglion cell" ref_id="nifext_66">
+  <variant base="Vestibular ganglion cell" />
+  <variant base="Scarpa's ganglion cell" />
+  <variant base="Vestibular ganglioin neuron" />
+</token>
+<token canonical="Hair cell type I" ref_id="nifext_63">
+  <variant base="Hair cell Type 1" />
+  <variant base="Hair cell type I" />
+  <variant base="Hair cell type II" />
+</token>
+<token canonical="Retinal ganglion cell C2" ref_id="nlx_cell_1006025">
+  <variant base="retinal ganglion cell C2" />
+  <variant base="Retinal ganglion cell C2" />
+</token>
+<token canonical="Hair cell inner" ref_id="nifext_64">
+  <variant base="Hair cell inner" />
+  <variant base="Inner Hair Cell" />
+</token>
+<token canonical="Solitary tract nucleus HSD2 neuron" ref_id="nlx_cell_1006026">
+  <variant base="HSD2 cell" />
+  <variant base="Solitary tract nucleus HSD2 neuron" />
+  <variant base="HSD2 neuron" />
+</token>
+<token canonical="Hair cell" ref_id="nifext_61">
+  <variant base="Hair cell" />
+</token>
+<token canonical="Superior colliculus piriform cell" ref_id="nlx_cell_1006023">
+  <variant base="piriform cell" />
+  <variant base="piriform neuron" />
+  <variant base="Superior colliculus piriform cell" />
+</token>
+<token canonical="Macula hair cell" ref_id="nifext_62">
+  <variant base="Macula hair cell" />
+  <variant base="Hair cell macula" />
+</token>
+<token canonical="Retina ganglion cell A" ref_id="nlx_cell_1006024">
+  <variant base="Retina ganglion cell A" />
+</token>
+<token canonical="Spinal cord ventral horn interneuron V0C" ref_id="nlx_cell_1006021">
+  <variant base="V0c interneuron" />
+  <variant base="Spinal cord ventral horn interneuron V0C" />
+  <variant base="spinal cord V0c interneuron" />
+</token>
+<token canonical="Beta Tanycyte" ref_id="sao647178911">
+  <variant base="Beta Tanycyte" />
+</token>
+<token canonical="CA1 neurogliaform cell" ref_id="nifext_60">
+  <variant base="CA1 neurogliaform cell" />
+  <variant base="Neurogliaform cell" />
+</token>
+<token canonical="Spinal cord ventral horn interneuron V2b" ref_id="nlx_cell_1006022">
+  <variant base="Spinal cord ventral horn interneuron V2b" />
+</token>
+<token canonical="Retina type 9 cone bipolar cell" ref_id="nlx_cell_1006020">
+  <variant base="Retina type 9 cone bipolar cell" />
+  <variant base="type 9 cone bipolar cell" />
+</token>
+<token canonical="Schwann Cell" ref_id="sao408819766">
+  <variant base="Schwann Cell" />
+</token>
+<token canonical="Neocortex pyramidal cell layer 3" ref_id="sao1123695773">
+  <variant base="Layer 3 Pyramidal Neuron" />
+  <variant base="Neocortex pyramidal cell layer 3" />
+  <variant base="Neocortex pyramidal neuron layer 3" />
+</token>
+<token canonical="Satellite Cell" ref_id="sao792373294">
+  <variant base="Satellite Cell" />
+</token>
+<token canonical="Golgi II cell" ref_id="nifext_58">
+  <variant base="Golgi II cell" />
+</token>
+<token canonical="Neocortex bouquet double cell" ref_id="nifext_59">
+  <variant base="Neocortex bouquet double cell" />
+  <variant base="Double bouquet cell" />
+</token>
+<token canonical="Retina stellate cell aspiny" ref_id="nifext_54">
+  <variant base="Aspiny cortical stellate neuron" />
+  <variant base="Aspiny cortical stellate cell" />
+  <variant base="Retina stellate cell aspiny" />
+  <variant base="Aspiny stellate cell" />
+</token>
+<token canonical="Retina type 5 cone bipolar cell" ref_id="nlx_cell_1006016">
+  <variant base="type 5 cone bipolar cell" />
+  <variant base="Retina type 5 cone bipolar cell" />
+</token>
+<token canonical="Neocortex Martinotti cell" ref_id="nifext_55">
+  <variant base="Martinotti cell" />
+  <variant base="Neocortex Martinotti cell" />
+</token>
+<token canonical="Retina type 6 cone bipolar cell" ref_id="nlx_cell_1006017">
+  <variant base="type 6 cone bipolar cell" />
+  <variant base="Retina type 6 cone bipolar cell" />
+</token>
+<token canonical="Neocortex basket cell" ref_id="nifext_56">
+  <variant base="cortical basket cell" />
+  <variant base="cortical basket neuron" />
+  <variant base="Neocortex basket cell" />
+  <variant base="Basket cell (cortical)" />
+</token>
+<token canonical="Retina type 7 cone bipolar cell" ref_id="nlx_cell_1006018">
+  <variant base="type 7 cone bipolar cell" />
+  <variant base="Retina type 7 cone bipolar cell" />
+</token>
+<token canonical="Precursor Cell" ref_id="sao467424240">
+  <variant base="progenitor cell" />
+  <variant base="Precursor Cell" />
+</token>
+<token canonical="Neocortex chandelier cell" ref_id="nifext_57">
+  <variant base="Chandelier cell" />
+  <variant base="Cortical chandelier cell chandelier neuron" />
+  <variant base="Chandelier neuron" />
+  <variant base="Neocortex chandelier cell" />
+  <variant base="Cortical chandelier Cell" />
+</token>
+<token canonical="Retina type 8 cone bipolar cell" ref_id="nlx_cell_1006019">
+  <variant base="Retina type 8 cone bipolar cell" />
+  <variant base="type 8 cone bipolar cell" />
+</token>
+<token canonical="Retina type 1 cone bipolar cell" ref_id="nlx_cell_1006012">
+  <variant base="type 1 cone bipolar cell" />
+  <variant base="Retina type 1 cone bipolar cell" />
+</token>
+<token canonical="Olfactory bulb (accessory) granule cell" ref_id="nlx_cell_20090401">
+  <variant base="Accessory olfactory bulb granule cell" />
+  <variant base="Olfactory bulb accessory granule cell" />
+  <variant base="Olfactory bulb (accessory) granule cell" />
+  <variant base="Olfactory bulb accessory granule neuron" />
+  <variant base="Accessory olfactory bulb granule neuron" />
+</token>
+<token canonical="Neocortex pyramidal cell layer 5-6" ref_id="nifext_50">
+  <variant base="Layer 5-6 pyramidal cell" />
+  <variant base="deep pyramidal cell" />
+  <variant base="Neocortex pyramidal cell layer 5-6" />
+  <variant base="Neocortex pyramidal neuron layer 5-6" />
+</token>
+<token canonical="Retina type 2 cone bipolar cell" ref_id="nlx_cell_1006013">
+  <variant base="type 2 cone bipolar cell" />
+  <variant base="Retina type 2 cone bipolar cell" />
+</token>
+<token canonical="Dorsal tegmental nucleus small cell" ref_id="nlx_cell_20090402">
+  <variant base="Dorsal tegmental nucleus small cell" />
+  <variant base="Dorsal tegmental nucleus small neuron" />
+</token>
+<token canonical="Neocortex polymorphic cell layer 5-6" ref_id="nifext_51">
+  <variant base="Neocortex polymorphic neuron layer 5-6" />
+  <variant base="polymorphic cell" />
+  <variant base="Neocortex polymorphic cell layer 5-6" />
+  <variant base="Layer 5-6 polymorphic cell" />
+</token>
+<token canonical="Pial Cell" ref_id="sao783352775">
+  <variant base="Pial Cell" />
+</token>
+<token canonical="Retina type 3 cone bipolar cell" ref_id="nlx_cell_1006014">
+  <variant base="type 3 cone bipolar cell" />
+  <variant base="Retina type 3 cone bipolar cell" />
+</token>
+<token canonical="Dorsal tegmental nucleus medium cell" ref_id="nlx_cell_20090403">
+  <variant base="Dorsal tegmental nucleus medium neuron" />
+  <variant base="Dorsal tegmental nucleus medium cell" />
+</token>
+<token canonical="Neocortex stellate cell" ref_id="nifext_52">
+  <variant base="layer 4 stellate cell" />
+  <variant base="Neocortex stellate cell" />
+  <variant base="cortical stellate cell" />
+  <variant base="Stellate cell cortical" />
+</token>
+<token canonical="Retina type 4 cone bipolar cell" ref_id="nlx_cell_1006015">
+  <variant base="type 4 cone bipolar cell" />
+  <variant base="Retina type 4 cone bipolar cell" />
+</token>
+<token canonical="Neocortex layer 4 stellate cell" ref_id="nifext_53">
+  <variant base="Cortical stellate cell" />
+  <variant base="cortical spiny stellate cell" />
+  <variant base="Neocortex layer 4 stellate cell" />
+  <variant base="Spiny stellate cell" />
+  <variant base="cortical stellate neuron" />
+  <variant base="Spiny stellate neuron" />
+</token>
+<token canonical="Olfactory tubercle islets of Calleja granule neuron" ref_id="nlx_cell_1006010">
+  <variant base="Island of Calleja granule neuron" />
+  <variant base="Island of Calleja granule cell" />
+  <variant base="Olfactory tubercle islets of Calleja granule neuron" />
+</token>
+<token canonical="Retina rod bipolar cell" ref_id="nlx_cell_1006011">
+  <variant base="rod bipolar cell" />
+  <variant base="Retina rod bipolar cell" />
+</token>
+<token canonical="Marginal Astrocyte" ref_id="sao-1865064409">
+  <variant base="Marginal Astrocyte" />
+</token>
+<token canonical="Thalamic reticular nucleus cell" ref_id="nifext_45">
+  <variant base="Thalamic reticular nucleus neuron" />
+  <variant base="Thalamic reticular neuron" />
+  <variant base="thalamic reticular cell" />
+  <variant base="Thalamic reticular nucleus cell" />
+</token>
+<token canonical="Thalamus interneuron small" ref_id="nifext_46">
+  <variant base="Golgi lla cell" />
+  <variant base="thalamic Golgi lla neuron" />
+  <variant base="Small interneuron thalamic" />
+  <variant base="small thalamic interneuron" />
+  <variant base="Thalamus interneuron small" />
+</token>
+<token canonical="Parvocellular cell" ref_id="nifext_43">
+  <variant base="P cell" />
+  <variant base="Parvocellular cell" />
+</token>
+<token canonical="Koniocellular cell" ref_id="nifext_44">
+  <variant base="K cell" />
+  <variant base="Koniocellular cell" />
+</token>
+<token canonical="Neocortex pyramidal cell layer 2-3" ref_id="nifext_49">
+  <variant base="corticocortical cell" />
+  <variant base="Neocortex pyramidal neuron layer 2-3" />
+  <variant base="Layer 2-3 pyramidal cell" />
+  <variant base="superficial pyramidal cell" />
+  <variant base="Neocortex pyramidal cell layer 2-3" />
+</token>
+<token canonical="Thalamus interneuron large" ref_id="nifext_47">
+  <variant base="Large interneuron thalamic" />
+  <variant base="Thalamus interneuron large" />
+</token>
+<token canonical="Cortical Pyramidal cell" ref_id="nifext_48">
+  <variant base="General cortex pyramidal neuron" />
+  <variant base="General cortex pyramidal cell" />
+  <variant base="Cortex (general) pyramidal neuron" />
+  <variant base="Cortical Pyramidal cell" />
+  <variant base="Cortex (general) pyramidal cell" />
+</token>
+<token canonical="Type I II Oligodendrocyte" ref_id="sao-32901633">
+  <variant base="Type I/II Oligodendrocyte" />
+  <variant base="Type I II Oligodendrocyte" />
+</token>
+<token canonical="Neostriatum substance P medium spiny neuron" ref_id="nlx_cell_100811">
+  <variant base="Neostriatum substance P medium spiny neuron" />
+</token>
+<token canonical="Thalamocortical cell" ref_id="nifext_41">
+  <variant base="Thalamocortical cell" />
+  <variant base="thalamocortical neuron" />
+  <variant base="thalamic relay cell" />
+</token>
+<token canonical="Magnocellular cell" ref_id="nifext_42">
+  <variant base="M cell" />
+  <variant base="Magnocellular cell" />
+</token>
+<token canonical="Retina horizontal cell" ref_id="nifext_40">
+  <variant base="Horizontal cell (retina)" />
+  <variant base="retinal horizontal cell" />
+  <variant base="Retina horizontal cell" />
+</token>
+<token canonical="Retina rod" ref_id="sao1458938856">
+  <variant base="Retina rod" />
+  <variant base="Retinal Rod Cell" />
+  <variant base="rod cell" />
+</token>
+<token canonical="Spinal cord ventral horn motor neuron autonomic" ref_id="nifext_108">
+  <variant base="Spinal cord ventral horn motor neuron autonomic" />
+  <variant base="Autonomic motor neuron" />
+</token>
+<token canonical="Spinal cord intermediate horn motor neuron sympathetic" ref_id="nifext_109">
+  <variant base="Sympathetic motor neuron" />
+  <variant base="Spinal cord intermediate horn motor neuron sympathetic" />
+</token>
+<token canonical="Hippocampus CA1 stratum oriens interneuron" ref_id="nlx_cell_090807">
+  <variant base="Hippocampus CA1 stratum oriens interneuron" />
+</token>
+<token canonical="Retina bipolar cell on" ref_id="nifext_32">
+  <variant base="On cell" />
+  <variant base="Retina bipolar cell on" />
+</token>
+<token canonical="Retina bipolar cell off" ref_id="nifext_33">
+  <variant base="Retina bipolar cell off" />
+  <variant base="Off cell" />
+</token>
+<token canonical="Retina bipolar cell midget" ref_id="nifext_34">
+  <variant base="Retina bipolar cell midget" />
+  <variant base="Midget cell" />
+</token>
+<token canonical="Retina bipolar cell parasol" ref_id="nifext_35">
+  <variant base="Parasol cell" />
+  <variant base="Retina bipolar cell parasol" />
+</token>
+<token canonical="Retina amacrine cell" ref_id="nifext_36">
+  <variant base="Amacrine Neuron" />
+  <variant base="Retina amacrine cell" />
+  <variant base="Amacrine cell" />
+</token>
+<token canonical="Retina amacrine cell starburst" ref_id="nifext_37">
+  <variant base="Starburst amacrine cell" />
+  <variant base="Retina amacrine cell starburst" />
+</token>
+<token canonical="Retina interplexiform cell" ref_id="nifext_38">
+  <variant base="Interplexiform amacrine cell" />
+  <variant base="Retina interplexiform cell" />
+</token>
+<token canonical="Retina amacrine cell displaced" ref_id="nifext_39">
+  <variant base="Displaced amacrine cell" />
+  <variant base="Retina amacrine cell displaced" />
+</token>
+<token canonical="Nervous System Cell" ref_id="sao1224657022">
+  <variant base="Neuroepithelial cell" />
+  <variant base="Nervous System Cell" />
+</token>
+<token canonical="Hippocampus CA1 IS-III neuron" ref_id="nlx_cell_1006030">
+  <variant base="CA1 IS-III cell" />
+  <variant base="Hippocampus CA1 IS-III neuron" />
+</token>
+<token canonical="Spinal cord ventral horn motor neuron alpha" ref_id="nifext_105">
+  <variant base="lower motor neuron" />
+  <variant base="Spinal cord ventral horn motor neuron alpha" />
+  <variant base="Alpha Motor Neuron" />
+</token>
+<token canonical="Hippocampus CA1 neurogliaform neuron" ref_id="nlx_cell_1006031">
+  <variant base="NG cells" />
+  <variant base="Hippocampus CA1 neurogliaform neuron" />
+  <variant base="CA1 NG cells" />
+</token>
+<token canonical="Motor neuron spinal" ref_id="nifext_104">
+  <variant base="Motor neuron spinal" />
+  <variant base="anterior horn cell" />
+</token>
+<token canonical="Spinal cord ventral horn motor neuron gamma" ref_id="nifext_107">
+  <variant base="fusimotor neuron" />
+  <variant base="Gamma motor neuron" />
+  <variant base="Spinal cord ventral horn motor neuron gamma" />
+</token>
+<token canonical="Hippocampus CA1 trilaminar neuron" ref_id="nlx_cell_1006032">
+  <variant base="Hippocampus CA1 trilaminar neuron" />
+  <variant base="CA1 trilaminar cell" />
+</token>
+<token canonical="Spinal cord ventral horn interneuron V0G" ref_id="nlx_cell_1006033">
+  <variant base="spinal cord V0G interneuron" />
+  <variant base="Spinal cord ventral horn interneuron V0G" />
+  <variant base="V0G interneuron" />
+</token>
+<token canonical="Spinal cord ventral horn motor neuron beta" ref_id="nifext_106">
+  <variant base="Beta motor neuron" />
+  <variant base="Spinal cord ventral horn motor neuron beta" />
+</token>
+<token canonical="Spinal cord ventral horn interneuron V2a" ref_id="nlx_cell_1006034">
+  <variant base="Spinal cord ventral horn interneuron V2a" />
+</token>
+<token canonical="Solitary tract nucleus intrinsic cell" ref_id="nifext_101">
+  <variant base="Solitary tract nucleus intrinsic cell" />
+  <variant base="Nucleus of the Solitary Tract intrinsic cell" />
+  <variant base="Solitary tract nucleus intrinsic neuron" />
+</token>
+<token canonical="Solitary tract nucleus principal cell" ref_id="nifext_100">
+  <variant base="Nucleus of the Solitary Tract principle cell" />
+  <variant base="Solitary tract nucleus principal neuron" />
+  <variant base="Solitary tract nucleus principal cell" />
+</token>
+<token canonical="Perivascular Macrophage" ref_id="sao1245187339">
+  <variant base="Perivascular Macrophage" />
+</token>
+<token canonical="Double cone cell" ref_id="nifext_30">
+  <variant base="Double cone cell" />
+</token>
+<token canonical="Spinal cord ventral horn motor neuron" ref_id="nifext_103">
+  <variant base="motoneuron" />
+  <variant base="Motor neuron" />
+  <variant base="Spinal cord ventral horn motor neuron" />
+</token>
+<token canonical="Spinocerebellar (dorsal) tract cell" ref_id="nifext_102">
+  <variant base="Dorsal spinocerebellar  tract cell" />
+  <variant base="Spinocerebellar (dorsal) tract cell" />
+  <variant base="Dorsal spinocerebellar tract cell" />
+</token>
+<token canonical="Retina bipolar cell" ref_id="nifext_31">
+  <variant base="Retina bipolar cell" />
+  <variant base="Retinal Bipolar cell" />
+  <variant base="Retina bipolar neuron" />
+  <variant base="Retinal Bipolar Neuron" />
+</token>
+<token canonical="CA2 pyramidal cell" ref_id="nlx_cell_20090311">
+  <variant base="CA2 pyramidal neuron" />
+  <variant base="CA2 pyramidal cell" />
+</token>
+<token canonical="Leech swim (dorsal) interneuron" ref_id="nlx_cell_20090312">
+  <variant base="Cerebral Serotonergic Poster Neuron" />
+  <variant base="Dorsal leech swim interneuron" />
+  <variant base="Leech swim (dorsal) interneuron" />
+  <variant base="Dorsal swim interneuron" />
+</token>
+<token canonical="Entorhinal cortex pyramidal cell" ref_id="nlx_cell_20090310">
+  <variant base="Entorhinal cortex pyramidal cell" />
+</token>
+<token canonical="Aplysia cerebral ganglion metacerebral cell" ref_id="nlx_cell_20090313">
+  <variant base="Giant Serotonergic Neuron" />
+  <variant base="Aplysia cerebral ganglion metacerebral cell" />
+  <variant base="Metacerebral cell" />
+</token>
+<token canonical="Vestibular hair cell" ref_id="sao709770772">
+  <variant base="Vestibular hair cell" />
+</token>
+<token canonical="Pigment Epithelial Cell" ref_id="sao-423426544">
+  <variant base="Pigment Epithelial Cell" />
+</token>
+<token canonical="Main olfactory epithelium supporting (sustentacular) cell" ref_id="nifext_119">
+  <variant base="Main olfactory epithelium supporting (sustentacular) cell" />
+  <variant base="Main olfactory epithelium sustentacular cell" />
+  <variant base="Supporting cell" />
+  <variant base="sustentacular cell" />
+</token>
+<token canonical="Epithelial Cell" ref_id="sao441624014">
+  <variant base="Epithelial Cell" />
+</token>
+<token canonical="Spinal cord ventral horn interneuron Renshaw" ref_id="nifext_113">
+  <variant base="Renshaw cell" />
+  <variant base="Spinal cord ventral horn interneuron Renshaw" />
+</token>
+<token canonical="Hippocampus CA2 bistratified cell narrow" ref_id="nlx_cell_091004">
+  <variant base="CA2 bistratified cell" />
+  <variant base="Hippocampus CA2 bistratified cell narrow" />
+</token>
+<token canonical="Spinal cord ventral horn interneuron FRA" ref_id="nifext_114">
+  <variant base="FFA interneuron" />
+  <variant base="Spinal cord ventral horn interneuron FRA" />
+  <variant base="Flexor reflex afferent interneuron" />
+</token>
+<token canonical="Olfactory cortex semilunar cell" ref_id="nlx_cell_091005">
+  <variant base="Olfactory cortex semilunar cell" />
+  <variant base="semilunar neuron" />
+  <variant base="semilunar cell" />
+</token>
+<token canonical="Spinal cord ventral horn interneuron IB" ref_id="nifext_111">
+  <variant base="IB interneuron" />
+  <variant base="Spinal cord ventral horn interneuron IB" />
+</token>
+<token canonical="Spinal cord ventral horn interneuron II" ref_id="nifext_112">
+  <variant base="Spinal cord ventral horn interneuron II" />
+  <variant base="II interneuron" />
+</token>
+<token canonical="Globose cell" ref_id="nifext_117">
+  <variant base="Globose cell" />
+  <variant base="Globose basal cell" />
+</token>
+<token canonical="Olfactory cortex horizontal cell" ref_id="nifext_118">
+  <variant base="Olfactory cortex horizontal cell" />
+  <variant base="Horizontal cell (olfactory)" />
+</token>
+<token canonical="Olfactory cortex large multipolar cell" ref_id="nlx_cell_091001">
+  <variant base="Olfactory cortex large multipolar neuron" />
+  <variant base="Olfactory cortex large multipolar cell" />
+</token>
+<token canonical="Spinal cord ventral horn intersegmental cell proprioception" ref_id="nifext_115">
+  <variant base="Spinal cord proprioception intersegmental neuron" />
+  <variant base="Proprioception intersegmental cell" />
+  <variant base="Spinal cord ventral horn intersegmental cell proprioception" />
+  <variant base="Spinal cord proprioception intersegmental cell" />
+</token>
+<token canonical="Olfactory cortex small globular cell" ref_id="nlx_cell_091002">
+  <variant base="Olfactory cortex small globular cell" />
+</token>
+<token canonical="Olfactory epithelium (main) sensory cell" ref_id="nifext_116">
+  <variant base="olfactory sensory cell" />
+  <variant base="olfactory receptor" />
+  <variant base="Olfactory epithelium (main) sensory cell" />
+  <variant base="olfactory receptor cell" />
+  <variant base="Olfactory receptor neuron" />
+  <variant base="olfactory sensory neuron" />
+</token>
+<token canonical="Dentate gyrus IS-III cell" ref_id="nlx_cell_091003">
+  <variant base="Dentate gyrus IS-III cell" />
+</token>
+<token canonical="Macrophage" ref_id="sao185843373">
+  <variant base="Macrophage" />
+</token>
+<token canonical="Spinal cord ventral horn interneuron IA" ref_id="nifext_110">
+  <variant base="Spinal cord ventral horn interneuron IA" />
+  <variant base="IA interneuron" />
+</token>
+<token canonical="Neocortex stellate cell" ref_id="sao164665273">
+  <variant base="Neocortex stellate cell" />
+  <variant base="Cortical Stellate Cell" />
+  <variant base="Neocortex stellate neuron" />
+</token>
+<token canonical="Microglial Cell" ref_id="sao789292116">
+  <variant base="microglia" />
+  <variant base="Microglial Cell" />
+</token>
+<token canonical="Cerebellar Stellate Cell" ref_id="sao2046525601">
+  <variant base="Cerebellar Stellate Cell" />
+</token>
+<token canonical="Substantia nigra pars reticulata principal cell" ref_id="nlx_cell_20090301">
+  <variant base="Substantia nigra pars reticulata principal cell" />
+  <variant base="Substantia nigra pars reticulata principal neuron" />
+</token>
+<token canonical="Substantia nigra pars reticulata interneuron" ref_id="nlx_cell_20090302">
+  <variant base="SNpr interneuron" />
+  <variant base="Substantia nigra pars reticulata interneuron" />
+</token>
+<token canonical="Accessory olfactory bulb mitral cell" ref_id="nlx_cell_20090304">
+  <variant base="Mitral cell of the accessory olfactory bulb" />
+  <variant base="Accessory olfactory bulb mitral cell" />
+  <variant base="Olfactory bulb accessory mitral cell" />
+  <variant base="accessory olfactory bulb mitral cell" />
+  <variant base="Olfactory bulb (accessory) mitral cell" />
+</token>
+<token canonical="Ventral tegmental area dopamine neuron" ref_id="nlx_cell_20090305">
+  <variant base="Ventral tegmental area dopamine neuron" />
+  <variant base="Ventral tegmental area DA cell" />
+</token>
+<token canonical="Striatum matrix medium spiny cell" ref_id="nlx_cell_20090306">
+  <variant base="Striatal matrix medium spiny neuron" />
+  <variant base="Striatum matrix medium spiny cell" />
+</token>
+<token canonical="Caudate nucleus matrix medium spiny cell" ref_id="nlx_cell_20090307">
+  <variant base="Caudate nucleus matrix medium spiny cell" />
+</token>
+<token canonical="Bergmann Glial Cell" ref_id="sao1299495391">
+  <variant base="radial epithelial cell" />
+  <variant base="Bergmann astrocyte" />
+  <variant base="Bergmann Glial Cell" />
+  <variant base="Bergmann glia" />
+</token>
+<token canonical="Putamen matrix medium spiny cell" ref_id="nlx_cell_20090308">
+  <variant base="Putamen matrix medium spiny cell" />
+</token>
+<token canonical="Striatum patch medium spiny cell" ref_id="nlx_cell_20090309">
+  <variant base="Striatum patch medium spiny cell" />
+</token>
+<token canonical="Hippocampus CA1 pyramidal cell" ref_id="sao830368389">
+  <variant base="Hippocampus CA1 pyramidal neuron" />
+  <variant base="Hippocampal CA1 pyramidal neuron" />
+  <variant base="CA1 pyramidal neuron" />
+  <variant base="Hippocampal CA1 pyramidal cell" />
+  <variant base="Hippocampus CA1 pyramidal cell" />
+</token>
+<token canonical="Cochlea hair cell inner" ref_id="sao429277527">
+  <variant base="Cochlear Inner Hair Cell" />
+  <variant base="Cochlea hair cell inner" />
+</token>
+<token canonical="Perineuronal Oligodendrocyte" ref_id="sao1353298471">
+  <variant base="Perineuronal Oligodendrocyte" />
+</token>
+<token canonical="Olfactory bulb (accessory) glomerular layer cell" ref_id="nifext_122">
+  <variant base="Olfactory bulb glomerular layer cell" />
+  <variant base="periglomerular cell" />
+  <variant base="Glomerular layer cell" />
+  <variant base="Olfactory bulb (accessory) glomerular layer cell" />
+</token>
+<token canonical="Gracilis Nucleus intrinsic cell" ref_id="nifext_95">
+  <variant base="Gracilis nucleus intrinsic cell" />
+  <variant base="Gracilis Nucleus intrinsic cell" />
+  <variant base="Gracilis nucleus intrinsic neuron" />
+</token>
+<token canonical="Main olfactory bulb granule cell" ref_id="nifext_123">
+  <variant base="Olfactory bulb (main) granule cell" />
+  <variant base="Olfactory granule neuron" />
+  <variant base="Olfactory Granule cell" />
+  <variant base="Olfactory bulb main granule cell" />
+  <variant base="Granule cell of olfactory bulb" />
+  <variant base="Main olfactory bulb granule cell" />
+</token>
+<token canonical="Gracilis nucleus principal cell" ref_id="nifext_94">
+  <variant base="Gracilis Nucleus principle cell" />
+  <variant base="Gracilis nucleus principal cell" />
+</token>
+<token canonical="Neocortex pyramidal cell layer 2/3" ref_id="sao816233655">
+  <variant base="Layer 2 3 Pyramidal Neuron" />
+  <variant base="Neocortex pyramidal neuron layer 2/3" />
+  <variant base="Neocortex pyramidal cell layer 2/3" />
+</token>
+<token canonical="Main olfactory bulb short axon cell deep" ref_id="nifext_124">
+  <variant base="Olfactory bulb (main) deep short axon cell" />
+  <variant base="Olfactory bulb (main) Blanes cell" />
+  <variant base="Blane's cell" />
+  <variant base="Main olfactory bulb short axon cell deep" />
+  <variant base="Short axon cell" />
+  <variant base="Olfactory bulb main short axon cell deep" />
+  <variant base="Blanes neuron" />
+  <variant base="Blanes cell" />
+</token>
+<token canonical="Trigeminal nucleus intrinsic cell" ref_id="nifext_97">
+  <variant base="Trigeminal nucleus intrinsic cell" />
+  <variant base="Trigeminal nucleus intrinsic neuron" />
+</token>
+<token canonical="Superficial interneuron" ref_id="nifext_125">
+  <variant base="Superficial interneuron" />
+</token>
+<token canonical="Trigeminal Nucleus principle cell" ref_id="nifext_96">
+  <variant base="Trigeminal nucleus principle cell" />
+  <variant base="Trigeminal Nucleus principle cell" />
+  <variant base="Trigeminal nucleus principle neuron" />
+</token>
+<token canonical="Neocortex interneuron deep" ref_id="nifext_126">
+  <variant base="Deep interneuron" />
+  <variant base="Neocortex interneuron deep" />
+</token>
+<token canonical="DRG IA cell" ref_id="nifext_91">
+  <variant base="IA ganglion cell" />
+  <variant base="DRG IA cell" />
+</token>
+<token canonical="Temperature cell" ref_id="nifext_90">
+  <variant base="Temperature cell" />
+  <variant base="DRG temperature cell" />
+</token>
+<token canonical="Cerebellum granule cell" ref_id="nifext_128">
+  <variant base="Cerebellar granule cell" />
+  <variant base="Cerebellum granule cell" />
+</token>
+<token canonical="DRG II cell" ref_id="nifext_93">
+  <variant base="II ganglion cell" />
+  <variant base="DRG II cell" />
+</token>
+<token canonical="Golgi cell" ref_id="nifext_129">
+  <variant base="Golgi cell" />
+</token>
+<token canonical="DRG IB cell" ref_id="nifext_92">
+  <variant base="IB ganglion cell" />
+  <variant base="DRG IB cell" />
+</token>
+<token canonical="Magnocellular neurosecretory cell" ref_id="nlx_cell_20090501">
+  <variant base="Magnocellular secretory neuron" />
+  <variant base="Magnocellular neurosecretory cell" />
+  <variant base="Hypothalamic magnocellular neurosecretory cell" />
+  <variant base="Hypothalamic magnocellular neurosecretory neuron" />
+  <variant base="motor neuroendocrine magnocellular neuron" />
+</token>
+<token canonical="Taste bud type 2 cell" ref_id="nifext_99">
+  <variant base="Taste bud type 2 cell" />
+</token>
+<token canonical="Taste bud type 1 cell" ref_id="nifext_98">
+  <variant base="Taste bud type 1 cell" />
+</token>
+<token canonical="Olfactory bulb (main) mitral cell" ref_id="nifext_120">
+  <variant base="Olfactory bulb (main) mitral cell" />
+  <variant base="Olfactory bulb main mitral cell" />
+  <variant base="Mitral neuron" />
+  <variant base="Mitral cell" />
+</token>
+<token canonical="Vasopressin producing magnocellular neurosecretory cell" ref_id="nlx_cell_20090503">
+  <variant base="Vasopressin producing magnocellular neurosecretory cell" />
+</token>
+<token canonical="Olfactory bulb main tufted cell" ref_id="nifext_121">
+  <variant base="Olfactory bulb (main) tufted cell (middle)" />
+  <variant base="Olfactory bulb main tufted cell" />
+  <variant base="Tufted cell" />
+</token>
+<token canonical="Oxytocin producing magnocellular neurosecretory cell" ref_id="nlx_cell_20090502">
+  <variant base="Oxytocin producing magnocellular neurosecretory cell" />
+</token>
+<token canonical="Medial geniculate body ventral tufted neuron" ref_id="nlx_cell_1005001">
+  <variant base="Medial geniculate body ventral tufted neuron" />
+</token>
+<token canonical="Thalamus medial geniculate nucleus interneuron small" ref_id="nlx_cell_1005003">
+  <variant base="Thalamus medial geniculate nucleus interneuron small" />
+  <variant base="medial geniculate small interneuron" />
+  <variant base="medial geniculate Golgi IIa cell" />
+</token>
+<token canonical="Globular Bushy Cell" ref_id="sao538050329">
+  <variant base="Globular Bushy Cell" />
+</token>
+<token canonical="Gigantocellular nucleus giant neuron" ref_id="nlx_cell_1005002">
+  <variant base="Gigantocellular nucleus giant neuron" />
+</token>
+<token canonical="Cerebellum Golgi Cell" ref_id="sao1415726815">
+  <variant base="Cerebellar Golgi Cell" />
+  <variant base="Cerebellum Golgi Cell" />
+</token>
+<token canonical="Trapezoid body neuron" ref_id="nlx_cell_0912012">
+  <variant base="Trapezoid body neuron" />
+</token>
+<token canonical="Pericyte" ref_id="sao1355908696">
+  <variant base="Mural Cell" />
+  <variant base="Pericyte" />
+  <variant base="Rouget Cell" />
+</token>
+<token canonical="BNST beaded neuron" ref_id="nlx_cell_1005005">
+  <variant base="BNST beaded cell" />
+  <variant base="BNST beaded neuron" />
+</token>
+<token canonical="BNST common spiny neuron" ref_id="nlx_cell_1005004">
+  <variant base="common spiny cell" />
+  <variant base="BNST common spiny neuron" />
+</token>
+<token canonical="Neuron" ref_id="sao1417703748">
+  <variant base="neuron cell" />
+  <variant base="neuron" />
+  <variant base="Neuron" />
+  <variant base="nerve cell" />
+</token>
+<token canonical="BNST basket neuron" ref_id="nlx_cell_1005006">
+  <variant base="bed nucleus of stria terminalis basket cell" />
+  <variant base="bed nucleus of stria terminalis basket neuron" />
+  <variant base="BNST basket neuron" />
+</token>
+<token canonical="Olfactory cortex pyramidal cell" ref_id="nifext_139">
+  <variant base="Small pyramidal neuron" />
+  <variant base="Neocortex pyramidal neuron" />
+  <variant base="Neocortex pyramidal cell" />
+  <variant base="Olfactory cortex pyramidal cell" />
+  <variant base="Olfactory cortex pyramidal neuron" />
+</token>
+<token canonical="Colliculus inferior principal cell" ref_id="nifext_82">
+  <variant base="Colliculus inferior principal neuron" />
+  <variant base="Inferior colliculus principle cell" />
+  <variant base="Colliculus inferior principal cell" />
+  <variant base="Inferior colliculus principal neuron" />
+</token>
+<token canonical="Neocortex bipolar cell" ref_id="nifext_81">
+  <variant base="Bipolar dendrite cell" />
+  <variant base="Neocortex bipolar cell" />
+</token>
+<token canonical="Rhombic lip stem cell" ref_id="nifext_137">
+  <variant base="Rhombic lip stem cell" />
+</token>
+<token canonical="Trapezoid body intrinsic cell" ref_id="nifext_80">
+  <variant base="Trapezoid body intrinsic cell" />
+  <variant base="Trapezoid body intrinsic neuron" />
+</token>
+<token canonical="CD133 positive stem cell" ref_id="nifext_138">
+  <variant base="CD133 positive stem cell" />
+</token>
+<token canonical="Cochlear nucleus (dorsal) glutamatergic cell" ref_id="nifext_135">
+  <variant base="Dorsal cochlear nucleus glutamatergic cell" />
+  <variant base="deep cerebellar nucleus glutamatergic cell" />
+  <variant base="Cochlear nucleus (dorsal) glutamatergic cell" />
+  <variant base="DCN glutamatergic cell" />
+</token>
+<token canonical="DRG Pacinian corpuscle cell" ref_id="nifext_86">
+  <variant base="DRG Pacinian corpuscle cell" />
+  <variant base="Pacinian corpuscle cell" />
+</token>
+<token canonical="Cerebellum candelabrum cell" ref_id="nlx_cell_1006004">
+  <variant base="Cerebellum candelabrum cell" />
+  <variant base="candelabrum neuron" />
+  <variant base="candelabrum cell" />
+</token>
+<token canonical="Cochlear nucleus (dorsal) gabaergic cell" ref_id="nifext_136">
+  <variant base="deep cerebellar nucleus GABAergic cell" />
+  <variant base="Cochlear nucleus (dorsal) gabaergic cell" />
+  <variant base="Dorsal cochlear nucleus gabaergic cell" />
+  <variant base="DCN Gabaergic cell" />
+</token>
+<token canonical="DRG hair follicle cell" ref_id="nifext_85">
+  <variant base="Hair follicle cell" />
+  <variant base="DRG hair follicle cell" />
+</token>
+<token canonical="BNSTdense axon plexus-forming neuron" ref_id="nlx_cell_1006003">
+  <variant base="beaded cell" />
+  <variant base="BNSTdense axon plexus-forming neuron" />
+</token>
+<token canonical="Cerebellum Lugaro cell" ref_id="nifext_133">
+  <variant base="Lugaro cell" />
+  <variant base="Cerebellum Lugaro cell" />
+</token>
+<token canonical="Dorsal root ganglion cell" ref_id="nifext_84">
+  <variant base="DRG cell" />
+  <variant base="Dorsal root ganglion cell" />
+  <variant base="Dorsal root ganglion neuron" />
+</token>
+<token canonical="Cell" ref_id="sao1813327414">
+  <variant base="Cell" />
+</token>
+<token canonical="BNST superficial spiny neuron" ref_id="nlx_cell_1006002">
+  <variant base="BNST superficial spiny neuron" />
+  <variant base="superficial spiny cell" />
+</token>
+<token canonical="Neocortex candelabrum cell" ref_id="nifext_134">
+  <variant base="Neocortex candelabrum cell" />
+  <variant base="Candelabrum cell" />
+  <variant base="Candelabrum neuron" />
+</token>
+<token canonical="Colliculus inferior intrinsic cell" ref_id="nifext_83">
+  <variant base="Inferior colliculus intrinsic cell" />
+  <variant base="Colliculus inferior intrinsic cell" />
+  <variant base="Colliculus inferior intrinsic neuron" />
+</token>
+<token canonical="BNST triangular neuron" ref_id="nlx_cell_1105001">
+  <variant base="BNST triangular neuron" />
+  <variant base="triangular cell" />
+</token>
+<token canonical="BNST spiny neuron with chandelier-like axon" ref_id="nlx_cell_1006001">
+  <variant base="dense axon plexus forming neuron" />
+  <variant base="dense axon plexus forming cell" />
+  <variant base="BNST spiny neuron with chandelier-like axon" />
+</token>
+<token canonical="Cerebellar basket cell" ref_id="nifext_131">
+  <variant base="Cerebellar basket cell" />
+</token>
+<token canonical="Ciliary ganglion cell" ref_id="sao1366775348">
+  <variant base="Ciliary ganglion cell" />
+  <variant base="Ciliary ganglion neuron" />
+</token>
+<token canonical="Hippocampus CA1 ivy neuron" ref_id="nlx_cell_1006008">
+  <variant base="CA1 ivy cell" />
+  <variant base="ivy cell" />
+  <variant base="Hippocampus CA1 ivy neuron" />
+</token>
+<token canonical="Cerebellum unipolar brush cell" ref_id="nifext_132">
+  <variant base="Unipolar brush cell" />
+  <variant base="Unipolar brush neuron" />
+  <variant base="Cerebellum unipolar brush cell" />
+</token>
+<token canonical="DRG pain cell" ref_id="nifext_89">
+  <variant base="Pain cell" />
+  <variant base="DRG pain cell" />
+</token>
+<token canonical="DRG Meissner's corpuscle cell" ref_id="nifext_88">
+  <variant base="DRG Meissner's corpuscle cell" />
+  <variant base="Meissner's corpuscle cell" />
+</token>
+<token canonical="Colliculus Inferior GABAergic Principal Cell" ref_id="nlx_cell_1006006">
+  <variant base="Colliculus Inferior GABAergic Principal Cell" />
+</token>
+<token canonical="Cerebellum stellate cell" ref_id="nifext_130">
+  <variant base="Cerebellar stellate neuron" />
+  <variant base="Cerebellum stellate cell" />
+  <variant base="Cerebellar stellate cell" />
+</token>
+<token canonical="DRG Merckel disc cell" ref_id="nifext_87">
+  <variant base="Merckel disc cell" />
+  <variant base="DRG Merckel disc cell" />
+</token>
+<token canonical="Eye Photoreceptor Cell" ref_id="sao226523927">
+  <variant base="Retinal photoreceptor" />
+  <variant base="Eye Photoreceptor Cell" />
+</token>
+<token canonical="Hippocampus (CA) pyramidal cell" ref_id="sao131261273">
+  <variant base="Hippocampus (CA) pyramidal cell" />
+  <variant base="Hippocampal Pyramidal Neuron" />
+  <variant base="Hippocampus (CA) pyramidal neuron" />
+</token>
+<token canonical="Hypoglossal nucleus GABA neuron" ref_id="nlx_cell_1006009">
+  <variant base="Hypoglossal nucleus GABA neuron" />
+  <variant base="hypoglossal GABA neuron" />
+</token>
+<token canonical="Dorsal motor nucleus of vagus motor neuron" ref_id="nlx_cell_101233">
+  <variant base="Dorsal motor nucleus of vagus motor neuron" />
+</token>
+<token canonical="Tufted Astrocyte" ref_id="nlx_cell_090901">
+  <variant base="Tufted Astrocyte" />
+</token>
+<token canonical="Substantia nigra pars reticulata principal cell" ref_id="nifext_148">
+  <variant base="Substantia nigra pars reticulata principal cell" />
+  <variant base="Substantia nigra pars reticulata principal neuron" />
+  <variant base="Pars reticulata principle neuron" />
+</token>
+<token canonical="Globus pallidus principal cell" ref_id="nifext_149">
+  <variant base="Globus pallidus principle cell" />
+  <variant base="Globus pallidus principal cell" />
+</token>
+<token canonical="Cochlear nucleus (ventral) spherical bushy cell" ref_id="nifext_71">
+  <variant base="Ventral cochlear nucleus  spherical bushy cell" />
+  <variant base="Cochlear nucleus (ventral) spherical bushy cell" />
+  <variant base="Spherical Bushy Cell" />
+</token>
+<token canonical="Cochlear nucleus (ventral) globular bushy cell" ref_id="nifext_70">
+  <variant base="Ventral cochlear nucleus globular bushy cell" />
+  <variant base="Cochlear nucleus (ventral) globular bushy cell" />
+  <variant base="Globular Bushy Cell" />
+  <variant base="Globular Bushy Neuron" />
+</token>
+<token canonical="Neostriatum SOM/NOS cell" ref_id="nifext_144">
+  <variant base="SOM/NOS interneuron" />
+  <variant base="Neostriatum SOM/NOS cell" />
+  <variant base="Neostriatum SOM/NOS interneuron" />
+  <variant base="somatostatin/nitric oxide synthase interneuron" />
+</token>
+<token canonical="Acessory nucleus motor neuron" ref_id="nlx_cell_1008008">
+  <variant base="XIth nerve motor neuron" />
+  <variant base="Acessory nucleus motor neuron" />
+  <variant base="11th nerve motor neuron" />
+  <variant base="acessory nucleus motor cell" />
+  <variant base="spinal accessory nerve" />
+</token>
+<token canonical="Cochlear (dorsal) nucleus vertical cell" ref_id="nifext_73">
+  <variant base="Dorsal cochlear nucleus vertical cell" />
+  <variant base="Cochlear nucleus (dorsal) vertical cell" />
+  <variant base="tuberculoventral cell" />
+  <variant base="Vertical Cell" />
+  <variant base="Cochlear (dorsal) nucleus vertical cell" />
+</token>
+<token canonical="Substantia nigra pars compacta dopaminergic cell" ref_id="nifext_145">
+  <variant base="Substantia nigra dopaminergic cell" />
+  <variant base="Substantia nigra pars compacta dopaminergic cell" />
+</token>
+<token canonical="Vagus nucleus motor neuron" ref_id="nlx_cell_1008007">
+  <variant base="19th nerve motor neuron" />
+  <variant base="vagus nucleus motor cell" />
+  <variant base="Vagus nucleus motor neuron" />
+  <variant base="Xth nerve motor neuron" />
+  <variant base="pneumogastric nerve" />
+</token>
+<token canonical="Cochlear nucleus (ventral) octopus cell" ref_id="nifext_72">
+  <variant base="Octopus Cell" />
+  <variant base="Ventral cochlear nucleus octopus cell" />
+  <variant base="Cochlear nucleus (ventral) octopus cell" />
+  <variant base="Cochlear (ventral) nucleus octopus cell" />
+</token>
+<token canonical="Pars laminaris dopaminergic cell" ref_id="nifext_146">
+  <variant base="Pars laminaris dopaminergic cell" />
+</token>
+<token canonical="Cochlear nucleus (dorsal) giant cell" ref_id="nifext_75">
+  <variant base="Cochlear nucleus (dorsal) giant cell" />
+  <variant base="Dorsal cochlear nucleus giant cell" />
+  <variant base="Giant cell" />
+</token>
+<token canonical="Substania nigra pars reticulata interneuorn GABA" ref_id="nifext_147">
+  <variant base="Pars reticulata Gaba interneuron" />
+  <variant base="Substania nigra pars reticulata interneuorn GABA" />
+  <variant base="Substantia nigra pars reticulata GABA neuron" />
+</token>
+<token canonical="Cochlear (dorsal) nucleus pyramidal neuron" ref_id="nifext_74">
+  <variant base="Dorsal cochlear nucleus pyramidal cell" />
+  <variant base="Dorsal cochlear nucleus pyramidal neuron" />
+  <variant base="fusiform cell" />
+  <variant base="Pyramidal cell DCN" />
+  <variant base="Dorsal cochlear nucleus fusiform cell" />
+  <variant base="Cochlear (dorsal) nucleus pyramidal neuron" />
+  <variant base="Cochlear (dorsal) nucleus fusiform cell" />
+</token>
+<token canonical="Interfascicular Oligodendrocyte" ref_id="sao1952867392">
+  <variant base="Interfascicular Oligodendrocyte" />
+</token>
+<token canonical="Spiny bipolar cell" ref_id="nifext_140">
+  <variant base="Spiny bipolar cell" />
+</token>
+<token canonical="Cochlear nucleus (dorsal) granule cell" ref_id="nifext_77">
+  <variant base="Cochlear nucleus (dorsal) granule cell" />
+  <variant base="Granule Cell DCN" />
+  <variant base="Cochlear (dorsal) nucleus granule cell" />
+  <variant base="Dorsal cochlear nucleus granule cell" />
+</token>
+<token canonical="Facial nucleus motor neuron" ref_id="nlx_cell_1008004">
+  <variant base="Facial nucleus motor neuron" />
+  <variant base="facial nucleus motor cell" />
+  <variant base="7th nerve motor neuron" />
+  <variant base="VIIth nerve motor neuron" />
+</token>
+<token canonical="Neostriatum spiny medium cell" ref_id="nifext_141">
+  <variant base="Neostriatal spiny neuron" />
+  <variant base="Neostriatum spiny medium neuron" />
+  <variant base="Striatal spiny neuron" />
+  <variant base="Striatal medium spiny cell" />
+  <variant base="Medium spiny neuron" />
+  <variant base="Neostriatum spiny medium cell" />
+  <variant base="Medium spiny cell" />
+  <variant base="Medium-sized spiny neuron" />
+  <variant base="Neostriatum medium spiny neuron" />
+</token>
+<token canonical="Cochlear nucleus (dorsal) cartwheel cell" ref_id="nifext_76">
+  <variant base="Cartwheel cell" />
+  <variant base="Dorsal cochlear nucleus cartwheel cell" />
+  <variant base="Cochlear nucleus (dorsal) cartwheel cell" />
+</token>
+<token canonical="Abducens nucleus motor neuron" ref_id="nlx_cell_1008003">
+  <variant base="VIth nerve motor neuron" />
+  <variant base="abducens nucleus motor cell" />
+  <variant base="Abducens nucleus motor neuron" />
+  <variant base="6th nerve motor neuron" />
+</token>
+<token canonical="Giant cholinergic interneuron" ref_id="nifext_142">
+  <variant base="Large striatal aspiny neuron" />
+  <variant base="Striatal cholingergic interneuron large striatal aspiny neuron" />
+  <variant base="Giant cholinergic interneuron" />
+</token>
+<token canonical="Trapezoid body medial nucleus principal cell" ref_id="nifext_79">
+  <variant base="Principal Cells Medial Nucleus Trapezoid Body" />
+  <variant base="Trapezoid body medial nucleus principal neuron" />
+  <variant base="Trapezoid body medial nucleus principal cell" />
+  <variant base="Principal neuron of medial trapezoid body" />
+</token>
+<token canonical="Glossopharyngeal nucleus motor neuron" ref_id="nlx_cell_1008006">
+  <variant base="Glossopharyngeal nucleus motor cell" />
+  <variant base="Glossopharyngeal nucleus motor neuron" />
+  <variant base="9th nerve motor neuron" />
+  <variant base="IXth nerve motor neuron" />
+</token>
+<token canonical="Neostriatum parvalbumin interneuron" ref_id="nifext_143">
+  <variant base="Striatum (neo) GABA interneuron" />
+  <variant base="Neo Striatum GABA interneuron" />
+  <variant base="Neo Striatum Parvalbumin interneuron" />
+  <variant base="Striatum (neo) Parvalbumin interneuron" />
+  <variant base="Neostriatum parvalbumin interneuron" />
+  <variant base="Striatum (neo) GABA/Parvalbumin interneuron" />
+  <variant base="Neo striatum GABA/Parvalbumin interneuron" />
+  <variant base="Neostriatum gaba/parvalbumin interneuron" />
+  <variant base="Gaba/parvalbumin striatal interneuron" />
+</token>
+<token canonical="Trapezoid body principal cell" ref_id="nifext_78">
+  <variant base="Trapezoid body principal neuron" />
+  <variant base="Trapezoid body principal cell" />
+</token>
+<token canonical="Vestibulocochlear nucleus motor neuron" ref_id="nlx_cell_1008005">
+  <variant base="Vestibulocochlear nucleus motor neuron" />
+  <variant base="Vestibulocochlear nucleus motor cell" />
+  <variant base="VIIth nerve motor neuron" />
+  <variant base="7th nerve motor neuron" />
+</token>
+<token canonical="Alpha Motor Neuron" ref_id="sao1154704263">
+  <variant base="lower motor neuron" />
+  <variant base="Alpha Motor Neuron" />
+</token>
+<token canonical="Trigeminal nucleus motor neuron" ref_id="nlx_cell_1008002">
+  <variant base="trigeminal nucleus motor cell" />
+  <variant base="5th nerve motor neuron" />
+  <variant base="Trigeminal nucleus motor neuron" />
+  <variant base="Vth nerve motor neuron" />
+</token>
+<token canonical="Trochlear nucleus motor neuron" ref_id="nlx_cell_1008001">
+  <variant base="Trochlear nucleus motor neuron" />
+  <variant base="IVth nerve motor neuron" />
+  <variant base="4th nerve motor neuron" />
+  <variant base="trochlear nucleus motor cell" />
+</token>
+<token canonical="Globus pallidus intrinsic cell" ref_id="nifext_150">
+  <variant base="Globus pallidus intrinsic cell" />
+</token>
+<token canonical="Ependymoglial Cell" ref_id="sao3593465546">
+  <variant base="Ependymoglial Cell" />
+</token>
+<token canonical="Amygdala basolateral nucleus pyramidal cell" ref_id="nifext_152">
+  <variant base="Pyramidal cell basolateral amygdalar nucleus" />
+  <variant base="Amygdala basolateral nucleus pyramidal neuron" />
+  <variant base="Amygdala basolateral nucleus pyramidal cell" />
+</token>
+<token canonical="Amygdala corticomedial nucleus pyramidal cell" ref_id="nifext_151">
+  <variant base="Amygdala corticomedial nucleus pyramidal cell" />
+  <variant base="Pyramidal cell corticomedial amygdalar nucleus" />
+  <variant base="Amygdala corticomedial nucleus pyramidal neuron" />
+</token>
+<token canonical="Cardiac Muscle Cell" ref_id="sao658938043">
+  <variant base="Cardiac Muscle Cell" />
+  <variant base="cardiac myocyte" />
+</token>
+<token canonical="Olfactory tubercle Islets of Calleja GABA cell" ref_id="nifext_154">
+  <variant base="Islets of Calleja Gaba interneuron" />
+  <variant base="Islands of Calleja Gaba interneuron" />
+  <variant base="Olfactory tubercle Islets of Calleja GABA cell" />
+  <variant base="Olfactory tubercle Islets of Calleja GABA interneuron" />
+</token>
+<token canonical="Dentate gyrus granule cell" ref_id="nifext_153">
+  <variant base="Dentate gyrus granule cell" />
+  <variant base="Granule cell of dentate gyrus" />
+  <variant base="Dentate granule celle" />
+  <variant base="Dentate gyrus granule neuron" />
+</token>
+<token canonical="Neocortex stellate smooth cell" ref_id="sao770302354">
+  <variant base="Cortical Smooth Stellate Cell" />
+  <variant base="Neocortex stellate smooth cell" />
+</token>
+<token canonical="Hippocampal pyramidal cell" ref_id="nifext_156">
+  <variant base="Hippocampal pyramidal neuron" />
+  <variant base="Hippocampal pyramidal cell" />
+</token>
+<token canonical="Olfactory tubercle Islets of Calleja DA cell" ref_id="nifext_155">
+  <variant base="Olfactory tubercle Islets of Calleja DA neuron" />
+  <variant base="Islets of Calleja dopamine cell" />
+  <variant base="Islands of Calleja dopamine cell" />
+  <variant base="Olfactory tubercle Islets of Calleja DA cell" />
+</token>
+<token canonical="Alpha Tanycyte" ref_id="sao971374186">
+  <variant base="Alpha Tanycyte" />
+</token>
+<token canonical="CA3 pyramidal cell" ref_id="nifext_158">
+  <variant base="CA3 pyramidal cell" />
+  <variant base="CA3 pyramidal neuron" />
+</token>
+<token canonical="Brainstem motor neuron" ref_id="nlx_cell_101209">
+  <variant base="Brainstem motor neuron" />
+</token>
+<token canonical="CA1 pyramidal cell" ref_id="nifext_157">
+  <variant base="CA1 pyramidal cell" />
+  <variant base="CA1 pyramidal neuron" />
+</token>
+<token canonical="Cerebellar Granule Cell" ref_id="sao1736323572">
+  <variant base="Cerebellar Granule Cell" />
+</token>
+<token canonical="Subiculum pyramidal cell" ref_id="nifext_159">
+  <variant base="Subiculum pyramidal cell" />
+  <variant base="Subiculum pyramidal neuron" />
+</token>
+<token canonical="Hippocampus CA3 oriens interneuron" ref_id="nlx_cell_091215">
+  <variant base="Hippocampus CA3 oriens interneuron" />
+  <variant base="CA3 SO interneuron" />
+  <variant base="CA3 SO neuron" />
+</token>
+<token canonical="Locus coeruleus NA neuron" ref_id="nlx_cell_20090202">
+  <variant base="Locus coeruleus noradrenergic neuron" />
+  <variant base="Locus coeruleus NA neuron" />
+</token>
+<token canonical="Hippocampus CA3 oriens lacunosum moleculare neuron" ref_id="nlx_cell_091216">
+  <variant base="Hippocampus CA3 oriens lacunosum moleculare neuron" />
+  <variant base="OLM cell" />
+</token>
+<token canonical="Fibroblast" ref_id="nlx_cell_20090201">
+  <variant base="Fibroblast" />
+</token>
+<token canonical="Hippocampus CA3 basket cell" ref_id="nlx_cell_091213">
+  <variant base="Hippocampus CA3 basket cell" />
+  <variant base="CA3 pyramidal basket cell" />
+</token>
+<token canonical="Hippocampus CA3 lacunosum moleculare neuron" ref_id="nlx_cell_091214">
+  <variant base="CA3 LM interneurons" />
+  <variant base="Hippocampus CA3 lacunosum moleculare neuron" />
+</token>
+<token canonical="Hippocampus CA3 IS-II cell" ref_id="nlx_cell_091211">
+  <variant base="Hippocampus CA3 IS-II cell" />
+  <variant base="CA3 interneuron-specific II cell" />
+</token>
+<token canonical="Hippocampus CA3 axo-axonic cell" ref_id="nlx_cell_091212">
+  <variant base="CA3 chandelier cell" />
+  <variant base="Hippocampus CA3 axo-axonic cell" />
+</token>
+<token canonical="Hippocampus CA3 IS-I cell" ref_id="nlx_cell_091210">
+  <variant base="Hippocampus CA3 IS-I cell" />
+  <variant base="CA3 Interneuron-specific I cell" />
+</token>
+<token canonical="Basalis nucleus cholinergic neuron" ref_id="nlx_cell_20090203">
+  <variant base="Basalis nucleus cholinergic neuron" />
+  <variant base="Cholinergic nucleus basalis neuron" />
+  <variant base="Cholinergic nucleus basalis cell" />
+  <variant base="Nucleus basalis polyhedral neuron" />
+</token>
+<token canonical="Cerebellum Purkinje cell" ref_id="sao471801888">
+  <variant base="Purkinje Cell" />
+  <variant base="Purkinje's corpuscles" />
+  <variant base="Cerebellar Purkinje neuron" />
+  <variant base="Cerebellum Purkinje cell" />
+  <variant base="Purkinje neuron" />
+</token>
+<token canonical="Hippocampus CA3 radiatum neuron" ref_id="nlx_cell_091217">
+  <variant base="Hippocampus CA3 radiatum neuron" />
+  <variant base="CA3 R interneuron" />
+</token>
+<token canonical="Hippocampus CA3 spiny CR cell" ref_id="nlx_cell_091218">
+  <variant base="CA3 Spiny CR immunoreactive cell" />
+  <variant base="Hippocampus CA3 spiny CR cell" />
+  <variant base="CA3 Spiny CR-positive interneurons" />
+</token>
+<token canonical="Neocortex chandelier-type cell" ref_id="nifext_161">
+  <variant base="Neocortex chandelier-type cell" />
+  <variant base="Neocortex handelier-type cell" />
+  <variant base="Chandelier-type cell" />
+</token>
+<token canonical="Hippocampal basket cell" ref_id="nifext_160">
+  <variant base="Hippocampal basket cell" />
+</token>
+<token canonical="Subependymal Astrocyte" ref_id="nifext_165">
+  <variant base="Subependymal Astrocyte" />
+</token>
+<token canonical="Mossy cell" ref_id="nifext_164">
+  <variant base="Mossy cell" />
+</token>
+<token canonical="Pyramidal Cell" ref_id="sao862606388">
+  <variant base="Pyramidal Cell" />
+  <variant base="Pyramidal neuron" />
+  <variant base="Pyramidal cell" />
+</token>
+<token canonical="Olfactory cortex polymorphic cell" ref_id="nifext_163">
+  <variant base="Olfactory piriform cortex polymorphic cell" />
+  <variant base="Olfactory cortex polymorphic neuronl" />
+  <variant base="Polymorphic cell" />
+  <variant base="Piriform (olfactory) cortex polymorphic cell" />
+  <variant base="Olfactory cortex polymorphic cell" />
+</token>
+<token canonical="Neostriatum SOM cell" ref_id="nifext_162">
+  <variant base="Neostriatum SOM cell" />
+  <variant base="Neostriatum SOM interneuron" />
+  <variant base="SOM cell" />
+  <variant base="somatostatin containing cell" />
+</token>
+<token canonical="Oligodendrocyte precursor cell" ref_id="nifext_169">
+  <variant base="Oligodendrocyte precursor cell" />
+</token>
+<token canonical="Muller cell" ref_id="nifext_168">
+  <variant base="Muller cell" />
+</token>
+<token canonical="Type III/IV Oligodendrocyte" ref_id="nifext_167">
+  <variant base="Type III/IV Oligodendrocyte" />
+</token>
+<token canonical="Type I/II Oligodendrocyte" ref_id="nifext_166">
+  <variant base="Type I/II Oligodendrocyte" />
+</token>
+<token canonical="Radial Astrocyte" ref_id="sao6261208102">
+  <variant base="Radial Astrocyte" />
+</token>
+<token canonical="Fibrous Astrocyte" ref_id="sao2078084673">
+  <variant base="Fibrous Astrocyte" />
+</token>
+<token canonical="Retina photoreceptor cell" ref_id="sao1233810115">
+  <variant base="Retina photoreceptor cell" />
+  <variant base="Photoreceptor Cell" />
+</token>
+<token canonical="Glial Cell" ref_id="sao313023570">
+  <variant base="neuroglial cell" />
+  <variant base="Glial Cell" />
+  <variant base="glia" />
+</token>
+<token canonical="Meninges Cell" ref_id="sao1847837612">
+  <variant base="Meninges Cell" />
+</token>
+<token canonical="Microglial cell" ref_id="nifext_170">
+  <variant base="microglia" />
+  <variant base="Microglial cell" />
+</token>
+<token canonical="Retinal Cone Cell" ref_id="sao1103104164">
+  <variant base="Retinal Cone Cell" />
+  <variant base="cone" />
+  <variant base="Cone cell" />
+  <variant base="retinal core" />
+</token>
+<token canonical="Astrocyte" ref_id="sao1394521419">
+  <variant base="Astrocyte" />
+</token>
+<token canonical="Chemosensory receptor cell" ref_id="nifext_172">
+  <variant base="Chemosensory receptor" />
+  <variant base="Chemosensory receptor neuron" />
+  <variant base="Chemosensory receptor cell" />
+</token>
+<token canonical="Ventricular Cardiac Muscle Cell" ref_id="sao1011026882">
+  <variant base="ventricular myocyte" />
+  <variant base="Ventricular Cardiac Muscle Cell" />
+</token>
+<token canonical="Dentate gyrus hilar cell" ref_id="nlx_cell_20090727">
+  <variant base="Dentate gyrus hilar cell" />
+  <variant base="Hilar cell" />
+</token>
+<token canonical="Pericyte" ref_id="nifext_171">
+  <variant base="Mural Cell" />
+  <variant base="Pericyte" />
+  <variant base="Rouget Cell" />
+</token>
+<token canonical="Retina photoreceptor cone S" ref_id="nlx_cell_100211">
+  <variant base="Retina photoreceptor cone S" />
+</token>
+<token canonical="Retina photoreceptor cone L" ref_id="nlx_cell_100210">
+  <variant base="Retina cone L" />
+  <variant base="Retina photoreceptor cone L" />
+</token>
+<token canonical="Synantocyte" ref_id="sao-408886955">
+  <variant base="Synantocyte" />
+</token>
+<token canonical="Retina photoreceptor rod" ref_id="nlx_cell_100212">
+  <variant base="rod" />
+  <variant base="Retina photoreceptor rod" />
+  <variant base="rod cell" />
+  <variant base="rod photoreceptor" />
+</token>
+<token canonical="Betz Cell" ref_id="sao786552500">
+  <variant base="Betz Cell" />
+</token>
+<token canonical="Spinal cord ventral horn interneuron V2" ref_id="nlx_cell_100207">
+  <variant base="Spinal cord ventral horn interneuron V2" />
+  <variant base="V2 interneuron" />
+</token>
+<token canonical="Spinal cord ventral horn interneuron V3" ref_id="nlx_cell_100208">
+  <variant base="V3 interneuron" />
+  <variant base="Spinal cord ventral horn interneuron V3" />
+</token>
+<token canonical="Radial Glial Cell" ref_id="sao621772985">
+  <variant base="radial glia" />
+  <variant base="radial glial cell" />
+  <variant base="Radial Glial Cell" />
+</token>
+<token canonical="Skeletal Muscle Cell" ref_id="sao1741889714">
+  <variant base="Skeletal Muscle Cell" />
+</token>
+<token canonical="Hippocampus CA1 IS-I neuron" ref_id="nlx_cell_100209">
+  <variant base="CA1 IS-I cell" />
+  <variant base="Hippocampus CA1 IS-I neuron" />
+</token>
+<token canonical="Vascular Endothelial Cell" ref_id="sao1543450574">
+  <variant base="Vascular Endothelial Cell" />
+</token>
+<token canonical="Oligodendrocyte" ref_id="sao844118448">
+  <variant base="Oligodendrocyte" />
+  <variant base="oligodendroglia" />
+</token>
+<token canonical="Protoplasmic Astrocyte" ref_id="sao374942934">
+  <variant base="GluT Astrocyte" />
+  <variant base="Passive Astrocyte" />
+  <variant base="Protoplasmic Astrocyte" />
+</token>
+<token canonical="Pituicyte" ref_id="sao1004082033">
+  <variant base="Pituicyte" />
+</token>
+<token canonical="Amygdaloid nucleus paracapsular intercalated cell" ref_id="nlx_cell_100202">
+  <variant base="Amygdaloid nucleus paracapsular intercalated cell" />
+</token>
+<token canonical="Dentate gyrus basket cell" ref_id="nlx_cell_100201">
+  <variant base="Dentate gyrus basket cell" />
+  <variant base="pyramidal basket cell" />
+</token>
+<token canonical="Muscle Cell" ref_id="sao519252327">
+  <variant base="myocyte" />
+  <variant base="Muscle Cell" />
+</token>
+<token canonical="Spinal cord ventral horn interneuron V1" ref_id="nlx_cell_100206">
+  <variant base="Spinal cord ventral horn interneuron V1" />
+  <variant base="V1 interneuron" />
+</token>
+<token canonical="Spinal cord ventral horn interneuron V0" ref_id="nlx_cell_100205">
+  <variant base="Spinal cord ventral horn interneuron V0" />
+  <variant base="V0 interneuron" />
+</token>
+<token canonical="Dentate gyrus trilaminar interneuron" ref_id="nlx_cell_100204">
+  <variant base="Dentate gyrus trilaminar interneuron" />
+</token>
+<token canonical="Neocortex pyramidal basket cell" ref_id="nlx_cell_100203">
+  <variant base="Neocortex pyramidal basket cell" />
+  <variant base="pyramidal basket cell" />
+  <variant base="pyramidal basket neuron" />
+</token>
+<token canonical="Spinal cord motor neuron parasympathetic" ref_id="nlx_cell_101207">
+  <variant base="Spinal cord motor neuron parasympathetic" />
+</token>
+<token canonical="Oculomotor nucleus nerve cell" ref_id="nlx_cell_101206">
+  <variant base="Oculomotor nucleus nerve cell" />
+</token>
+<token canonical="Dentate gyrus HIPP cell" ref_id="nlx_cell_091201">
+  <variant base="Dentate gyrus HIPP cell" />
+</token>
+<token canonical="Olfactory bulb main periglomerular cell" ref_id="nlx_cell_091202">
+  <variant base="Olfactory bulb main periglomerular cell" />
+  <variant base="Olfactory bulb periglomerular cell" />
+  <variant base="Periglomerular neuron" />
+</token>
+<token canonical="Dentate gyrus IS-I cell" ref_id="nlx_cell_091203">
+  <variant base="DG Interneuron-specific cell" />
+  <variant base="Dentate gyrus IS-I cell" />
+</token>
+<token canonical="Dentate gyrus IS-II cell" ref_id="nlx_cell_091204">
+  <variant base="DG Interneruon-specific II cell" />
+  <variant base="Dentate gyrus IS-II cell" />
+</token>
+<token canonical="Hippocampus CA1 basket cell" ref_id="nlx_cell_091205">
+  <variant base="Hippocampus CA1 basket cell" />
+</token>
+<token canonical="Hippocampus CA1 oriens lacunosum moleculare neuron" ref_id="nlx_cell_091206">
+  <variant base="Hippocampus CA1 oriens lacunosum moleculare neuron" />
+  <variant base="CA1 O-LM interneuron" />
+</token>
+<token canonical="Hippocampus CA2 basket cell broad" ref_id="nlx_cell_091207">
+  <variant base="Hippocampus CA2 basket cell broad" />
+  <variant base="CA2 basket cell" />
+</token>
+<token canonical="Hippocampus CA2 basket cell narrow" ref_id="nlx_cell_091208">
+  <variant base="Hippocampus CA2 basket cell narrow" />
+  <variant base="CA2 basket cell" />
+</token>
+<token canonical="Hippocampus CA2 bistratified cell broad" ref_id="nlx_cell_091209">
+  <variant base="CA2 bistratified cell" />
+  <variant base="Hippocampus CA2 bistratified cell broad" />
+</token>
+<token canonical="Type III IV Oligodendrocyte" ref_id="sao515196263">
+  <variant base="Type III IV Oligodendrocyte" />
+  <variant base="Type III/IV Oligodendrocyte" />
+</token>
+<token canonical="Muller Cell" ref_id="sao1615912903">
+  <variant base="Muller Cell" />
+</token>
+<token canonical="Retina ganglion cell medium simple" ref_id="nifext_20">
+  <variant base="Retina ganglion cell medium simple" />
+  <variant base="Medium simple ganglion cell" />
+</token>
+<token canonical="S-cone cell" ref_id="nifext_26">
+  <variant base="S-cone cell" />
+</token>
+<token canonical="L-cone cell" ref_id="nifext_28">
+  <variant base="L-cone cell" />
+</token>
+<token canonical="Neocortex bipolar neuron" ref_id="sao436474611">
+  <variant base="Neocortex bipolar neuron" />
+  <variant base="Cortical Bipolar Cell" />
+</token>
+<token canonical="Perivascular Astrocyte" ref_id="sao1239389">
+  <variant base="Perivascular Astrocyte" />
+</token>
+<token canonical="Retina photoreceptor cone M" ref_id="nifext_27">
+  <variant base="M-cone neuron" />
+  <variant base="Retina cone M" />
+  <variant base="Retina photoreceptor cone M" />
+  <variant base="M-cone cell" />
+</token>
+<token canonical="Cerebellum basket cell" ref_id="sao666951243">
+  <variant base="Cerebellar basket cell" />
+  <variant base="Cerebellum basket cell" />
+</token>
+<token canonical="Retina ganglion cell small simple" ref_id="nifext_22">
+  <variant base="Small simple ganglion cell" />
+  <variant base="Retina ganglion cell small simple" />
+</token>
+<token canonical="Retina ganglion cell small complex" ref_id="nifext_21">
+  <variant base="Small complex ganglion cell" />
+  <variant base="Retina ganglion cell small complex" />
+</token>
+<token canonical="Neurocortex chestnut cell" ref_id="nlx_cell_200903010">
+  <variant base="Neurocortex chestnut cell" />
+  <variant base="Chestnut neuron" />
+  <variant base="Chestnut cell" />
+</token>
+<token canonical="Olfactory bulb (main) adult-born granule cell" ref_id="nlx_144252">
+  <variant base="Olfactory bulb (main) adult-born granule cell" />
+</token>
+<token canonical="Velate Astrocyte" ref_id="sao1309473597">
+  <variant base="Velate Astrocyte" />
+</token>
+<token canonical="Neocortex pyramidal cell" ref_id="sao2128417084">
+  <variant base="Neocortical pyramidal cell" />
+  <variant base="Neocortical pyramidal neuron" />
+  <variant base="Neocortex pyramidal neuron" />
+  <variant base="Cortical Pyramidal Neuron" />
+  <variant base="Neocortex pyramidal cell" />
+  <variant base="Cortical pyramidal neuron" />
+</token>
+<token canonical="UV-cone cell" ref_id="nifext_29">
+  <variant base="UV-cone cell" />
+</token>
+<token canonical="Spherical Bushy Cell" ref_id="sao1482618768">
+  <variant base="Spherical Bushy Cell" />
+</token>
+<token canonical="Hair Cell" ref_id="sao2046464388">
+  <variant base="Hair Cell" />
+</token>
+<token canonical="Tanycyte" ref_id="sao1149261773">
+  <variant base="Tanycyte" />
+  <variant base="Stretch cells" />
+</token>
+<token canonical="Capillary Endothelial Cell" ref_id="sao1540081501">
+  <variant base="Capillary Endothelial Cell" />
+</token>
+<token canonical="NG2 Cell" ref_id="sao265591209">
+  <variant base="NG2 Cell" />
+</token>
+<token canonical="Smooth Muscle Cell" ref_id="sao676858164">
+  <variant base="non-striated muscle cell" />
+  <variant base="Smooth Muscle Cell" />
+</token>
+<token canonical="Vascular Cell" ref_id="sao197110912">
+  <variant base="Vascular Cell" />
+</token>
+<token canonical="Retina ganglion cell" ref_id="nifext_17">
+  <variant base="Retinal Ganglion Cell" />
+  <variant base="Retina ganglion cell" />
+  <variant base="Retinal Ganglion Neuron" />
+</token>
+<token canonical="Macroglial Cell" ref_id="sao1895605722">
+  <variant base="macroglial cell" />
+  <variant base="Macroglial Cell" />
+</token>
+<token canonical="Cochlear nucleus (ventral) bushy cell" ref_id="nlx_cell_20081201">
+  <variant base="Bushy neuron" />
+  <variant base="Bushy cell" />
+  <variant base="Cochlear nucleus (ventral) bushy cell" />
+  <variant base="Ventral cochlear nucleus bushy cell" />
+  <variant base="Cochlear nucleus ventral bushy cell" />
+</token>
+<token canonical="Cochlear (ventral) nucleus multipolar cell" ref_id="nlx_cell_20081202">
+  <variant base="Ventral cochlear nucleus multipolar cell" />
+  <variant base="Cochlear (ventral) nucleus multipolar cell" />
+  <variant base="Multipolar cell of VCN" />
+  <variant base="Cochlear nucleus (ventral) multipolar cell" />
+</token>
+<token canonical="Thalamus relay cell" ref_id="nlx_cell_20081203">
+  <variant base="Thalamocortical cell" />
+  <variant base="Thalamus relay neuron" />
+  <variant base="Thalamus relay cell" />
+  <variant base="Thalamocortical neuron" />
+  <variant base="Thalamic relay neuron" />
+  <variant base="Thalamic relay cell" />
+  <variant base="Relay cell" />
+</token>
+<token canonical="Hippocampus CA2 pyramidal cell" ref_id="nlx_cell_20081204">
+  <variant base="Hippocampal CA2 pyramidal neuron" />
+  <variant base="Hippocampus CA2 pyramidal cell" />
+  <variant base="Hippocampus CA2 pyramidal neuron" />
+</token>
+<token canonical="Bipolar Progenitor Cell" ref_id="sao1492258085">
+  <variant base="Bipolar Progenitor Cell" />
+</token>
+<token canonical="CA2 pyramidal neuron" ref_id="nlx_cell_20081205">
+  <variant base="CA2 pyramidal neuron" />
+</token>
+<token canonical="Neocortex Cajal-Retzius cell" ref_id="nlx_cell_20081206">
+  <variant base="Neocortex Cajal-Retzius neuron" />
+  <variant base="Neocortex Cajal-Retzius cell" />
+  <variant base="Cajal-Retzius Cell" />
+</token>
+<token canonical="Retina ganglion cell large field" ref_id="nifext_18">
+  <variant base="Large field ganglion cell" />
+  <variant base="Retina ganglion cell large field" />
+</token>
+<token canonical="Olfactory ensheathing cell" ref_id="nlx_cell_20081207">
+  <variant base="Olfactory ensheathing cell" />
+</token>
+<token canonical="Retina ganglion cell medium complex" ref_id="nifext_19">
+  <variant base="Retina ganglion cell medium complex" />
+  <variant base="Medium complex ganglion cell" />
+</token>
+<token canonical="Neural Stem Cell" ref_id="sao938060309">
+  <variant base="Nerve stem cell" />
+  <variant base="Neural Stem Cell" />
+</token>
+<token canonical="Striated Muscle Cell" ref_id="sao82362520">
+  <variant base="Striated Muscle Cell" />
+</token>
+<token canonical="Tubermammillary nucleus large histamine neuron" ref_id="nlx_cell_100310">
+  <variant base="Tubermammillary histaminergic neuron" />
+  <variant base="Tubermammillary nucleus large histamine neuron" />
+</token>
+<token canonical="Neostriatum enkephalin medium spiny neuron" ref_id="nlx_cell_100812">
+  <variant base="Neostriatum enkephalin medium spiny neuron" />
+</token>
+<token canonical="Hypoglossal nucleus motor neuron" ref_id="nlx_cell_100311">
+  <variant base="Hypoglossal nucleus motor neuron" />
+  <variant base="hypoglossal motor neuron" />
+  <variant base="hypoglossal nucleus motoneuron" />
+  <variant base="hypoglossal motoneuron" />
+</token>
+<token canonical="Oligodendrocyte Precursor Cell" ref_id="sao1213292244">
+  <variant base="Oligodendrocyte Precursor Cell" />
+</token>
+<token canonical="Dorsal Root Ganglion Cell" ref_id="sao1919499702">
+  <variant base="Dorsal Root Ganglion Cell" />
+</token>
+<token canonical="Neostriatum cholinergic cell" ref_id="sao1866881837">
+  <variant base="Neostriatum cholinergic interneuron" />
+  <variant base="Neostriatum giant cell of Kolliker" />
+  <variant base="Cholinergic Striatal Neuron" />
+  <variant base="Neostriatum cholinergic cell" />
+</token>
+<token canonical="Cochlea hair cell outer" ref_id="sao1582628662">
+  <variant base="Cochlea hair cell outer" />
+  <variant base="Cochlear Outer Hair Cell" />
+</token>
+<token canonical="Interlaminar Astrocyte" ref_id="sao-1220620412">
+  <variant base="Interlaminar Astrocyte" />
+</token>
+<token canonical="Hippocampus CA3 pyramidal cell" ref_id="sao383526650">
+  <variant base="Hippocampus CA3 pyramidal cell" />
+  <variant base="Hippocampal CA3 Pyramidal Neuron" />
+  <variant base="Hippocampus CA3 pyramidal neuron" />
+  <variant base="CA3 pyramidal neuron" />
+</token>
+<token canonical="Dentate gyrus spiny CR cell" ref_id="nlx_cell_100302">
+  <variant base="Dentate gyrus spiny CR cell" />
+  <variant base="DG Spiny CR-positive interneurons" />
+  <variant base="DG Spiny CR immunoreactive cell" />
+</token>
+<token canonical="Dentate gyrus MOPP cell" ref_id="nlx_cell_100301">
+  <variant base="Dentate gyrus MOPP cell" />
+</token>
+<token canonical="Gamma Motor Neuron" ref_id="sao1438006234">
+  <variant base="fusimotor neuron" />
+  <variant base="Gamma Motor Neuron" />
+</token>
+<token canonical="Neocortex stellate spiny cell" ref_id="sao1236796660">
+  <variant base="Cortical Spiny Stellate Cell" />
+  <variant base="Neocortex stellate spiny cell" />
+</token>
+</synonym>

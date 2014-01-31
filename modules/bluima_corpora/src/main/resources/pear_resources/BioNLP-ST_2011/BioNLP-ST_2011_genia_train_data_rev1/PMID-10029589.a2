@@ -1,0 +1,28 @@
+T10	Regulation 282 308	Transcriptional regulation
+T11	Positive_regulation 388 396	requires
+T12	Positive_regulation 749 757	required
+T13	Binding 800 817	complex formation
+T14	Positive_regulation 862 873	requirement
+T15	Positive_regulation 905 909	role
+T16	Regulation 979 989	regulating
+T17	Gene_expression 1011 1021	expression
+T18	Negative_regulation 1085 1094	inhibitor
+T19	Negative_regulation 1113 1122	prevented
+T20	Gene_expression 1127 1137	expression
+T21	Gene_expression 1274 1284	expression
+T22	Positive_regulation 1313 1321	requires
+E1	Regulation:T10 Theme:T1
+E2	Positive_regulation:T11 Theme:E1
+E3	Positive_regulation:T12 Theme:E6
+E4	Positive_regulation:T12 Theme:E5
+E5	Binding:T13 Theme:T3
+E6	Binding:T13 Theme:T4
+E7	Positive_regulation:T14 Theme:E9
+E8	Positive_regulation:T15 Theme:E9
+E9	Regulation:T16 Theme:E10
+E10	Gene_expression:T17 Theme:T5
+E11	Negative_regulation:T18 Theme:T6
+E12	Negative_regulation:T19 Theme:E13
+E13	Gene_expression:T20 Theme:T7
+E14	Gene_expression:T21 Theme:T8
+E15	Positive_regulation:T22 Theme:E14

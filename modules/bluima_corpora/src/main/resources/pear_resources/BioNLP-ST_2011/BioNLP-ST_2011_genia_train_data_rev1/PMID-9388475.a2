@@ -1,0 +1,12 @@
+T10	Binding 622 631	complexed
+T11	Binding 642 647	bound
+T12	Positive_regulation 710 719	activated
+T13	Transcription 720 733	transcription
+T14	Transcription 980 988	detected
+T15	Transcription 1078 1087	expressed
+E1	Binding:T10 Theme:T3 Theme2:T4
+E2	Binding:T11 Theme:T3
+E3	Positive_regulation:T12 Theme:E4 Cause:E2
+E4	Transcription:T13 Theme:T6
+E5	Transcription:T14 Theme:T7
+E6	Transcription:T15 Theme:T8

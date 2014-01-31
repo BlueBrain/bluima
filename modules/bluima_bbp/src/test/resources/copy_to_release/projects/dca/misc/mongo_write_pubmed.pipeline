@@ -1,0 +1,11 @@
+#
+#  writes pubmed abstracts to MongoDb
+#
+
+cr: PubmedWholeDatabaseCR
+
+ae: ch.epfl.bbp.uima.mongo.MongoWriter
+ db_connection__java: new String[]{  "128.178.187.248", "dca", "pubmed_abstracts_20120225", "", "" }
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100000

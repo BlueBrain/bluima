@@ -1,0 +1,24 @@
+T20	Binding 228 239	recruitment
+T21	Positive_regulation 268 275	through
+T22	Binding 276 287	interaction
+T23	Negative_regulation 429 436	removal
+T24	Negative_regulation 485 492	impairs
+T25	Positive_regulation 608 616	restored
+T26	Negative_regulation 671 679	depleted
+T27	Positive_regulation 712 729	joint requirement
+T28	Binding 1058 1066	interact
+T29	Negative_regulation 1109 1116	removal
+E1	Binding:T20 Theme:T2
+E2	Positive_regulation:T21 Theme:E1 Cause:E3
+E3	Binding:T22 Theme:T2 Theme2:T3
+E4	Negative_regulation:T23 Theme:T4
+E5	Negative_regulation:T24 Theme:T5 Cause:E4
+E6	Negative_regulation:T24 Theme:T6 Cause:E4
+E7	Positive_regulation:T25 Theme:T6 Cause:T7
+E8	Positive_regulation:T25 Theme:T5 Cause:T7
+E9	Positive_regulation:T25 Theme:T5 Cause:E10
+E10	Negative_regulation:T26 Theme:T8
+E11	Positive_regulation:T27 Theme:T10 Cause:T9
+E12	Positive_regulation:T27 Theme:T11 Cause:T9
+E13	Binding:T28 Theme:T13 Theme2:T14
+E14	Negative_regulation:T29 Theme:T15

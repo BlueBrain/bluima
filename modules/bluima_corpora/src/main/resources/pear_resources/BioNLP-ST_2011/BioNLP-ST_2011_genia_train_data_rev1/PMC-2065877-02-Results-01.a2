@@ -1,0 +1,58 @@
+T22	Positive_regulation 0 11	High Levels
+T23	Gene_expression 20 30	Expression
+T24	Gene_expression 80 90	expression
+T25	Regulation 130 147	under the control
+T26	Gene_expression 258 268	expression
+T27	Positive_regulation 273 283	restricted
+T28	Gene_expression 389 399	expression
+T29	Gene_expression 611 621	detectable
+T30	Gene_expression 689 699	expression
+T31	Positive_regulation 704 712	stronger
+T32	Positive_regulation 829 841	higher level
+T33	Gene_expression 909 919	expression
+T34	Gene_expression 1046 1054	detected
+T35	Gene_expression 1188 1198	expression
+T36	Positive_regulation 1222 1228	strong
+T37	Positive_regulation 1295 1301	weakly
+T38	Gene_expression 1347 1357	expression
+T39	Positive_regulation 1367 1377	abundantly
+T40	Positive_regulation 1409 1416	intense
+T41	Positive_regulation 1459 1468	increased
+T42	Positive_regulation 1540 1548	increase
+T43	Gene_expression 1557 1567	expression
+T44	Gene_expression 1597 1607	expressing
+T45	Positive_regulation 1608 1619	high levels
+T46	Positive_regulation 1654 1658	high
+T47	Gene_expression 1664 1674	expression
+T48	Positive_regulation 1758 1767	increased
+T49	Gene_expression 1768 1774	levels
+E1	Positive_regulation:T22 Theme:E2
+E2	Gene_expression:T23 Theme:T1
+E3	Gene_expression:T24 Theme:T2
+E4	Regulation:T25 Theme:E3
+E5	Gene_expression:T26 Theme:T3
+E6	Positive_regulation:T27 Theme:E5
+E7	Gene_expression:T28 Theme:T4
+E8	Gene_expression:T29 Theme:T6
+E9	Gene_expression:T30 Theme:T8
+E10	Positive_regulation:T31 Theme:E9
+E11	Positive_regulation:T32 Theme:T9
+E12	Gene_expression:T33 Theme:T10
+E13	Gene_expression:T34 Theme:T11
+E14	Gene_expression:T35 Theme:T12
+E15	Positive_regulation:T36 Theme:T13
+E16	Positive_regulation:T37 Theme:T14
+E17	Gene_expression:T38 Theme:T15
+E18	Positive_regulation:T39 Theme:E17
+E19	Positive_regulation:T40 Theme:T16
+E20	Positive_regulation:T41 Theme:T17
+E21	Positive_regulation:T42 Theme:E22
+E22	Gene_expression:T43 Theme:T18
+E23	Gene_expression:T44 Theme:T19
+E24	Positive_regulation:T45 Theme:E23
+E25	Positive_regulation:T46 Theme:E26
+E26	Gene_expression:T47 Theme:T20
+E27	Positive_regulation:T48 Theme:E28
+E28	Gene_expression:T49 Theme:T21
+M1	Speculation E12
+M2	Negation E16

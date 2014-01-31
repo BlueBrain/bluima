@@ -1,0 +1,54 @@
+finding that depressing synapses in the neocortex are actually
+“tuned” to encode information at the spontaneous rates indicates that old notions of what is “noise” in brain activity may
+have to be revised. Namely, that important information processing takes place during the spontaneous activity of cortical
+networks (Arieli et al. 1996). However, the resolution of this
+issue may have to wait for in vivo studies of synaptic transmission. As the optimal frequency for information encoding
+via depressing synapses was found to be inversely proportional
+to the time constant of recovery from depression, finding
+similar time constants in vivo and in vitro would confirm our
+suggestion. In contrast, finding significantly shorter time constants in vivo would imply higher optimal frequency and would
+thus weaken our conjecture regarding the importance of the
+spontaneous activity.
+As a complementary issue, we also analyzed the dependence
+of the encoded information on synaptic parameters for a fixed
+presynaptic frequency. Important differences between the ef-fects of these parameters emerged. For the U parameter,
+SE
+representing the probability of neurotransmitter release, we
+found that optimal encoding always occurs at the highest
+possible value, i.e., at U 1. On the other hand, for the time
+SE
+constant underlying recovery from depression , intermedirec
+ate values were found to maximize the information content.
+The range of optimal values for , calculated for low prerec
+synaptic frequency, was found to be in broad agreement with
+experimental data. These results indicate that the exact value of
+the usage parameter for a given synaptic connection is not
+tuned to maximize the information coding. Rather, plasticity of
+this parameter was found to occur on the basis of temporal
+relationship between the activity of pre- and postsynaptic neurons in a Hebbian manner (Markram and Tsodyks 1996;
+Markram et al. 1997b; Stevens and Wang 1994). On the other
+hand, the recovery time constant may well be tuned to optimize
+the information coding in a non-Hebbian manner, according to
+the typical frequency of presynaptic neurons. We found an
+inverse relationship between the optimal value of recovery
+time constant and the usage parameter. This prediction could
+be tested experimentally.
+Finally, we analyzed the dependence of the information
+coding on the number of synaptic release sites. As a general
+rule, we found that increasing the number of release sites
+always improves the information efficacy of the synapse by
+reducing the trial-to-trial fluctuations of the responses. Indeed,
+synaptic connections between pyramidal neurons usually have
+several contacts, with nonuniform distribution of the number of
+contacts that is biased toward higher values (Larkman et al.
+1997; Markram et al. 1997a). We therefore suggest that not
+only is the dynamic time constant adapted to optimize coding
+of temporal information, but even the morphological properties
+of synaptic connections may be determined according to principle of optimizing the information content of postsynaptic
+responses.
+Several interesting differences between depressing and fa-cilitating synapses have emerged from our analysis. In particular, facilitating synapses are tuned to significantly higher
+frequencies, more reminiscent of the evoked activity of pyramidal cells. Facilitating synapses were also shown to code
+information about longer spike patterns. Mathematically, both
+of these properties of facilitating synapses result from the low
+values of U parameter, i.e., low initial probability of release.
+SE

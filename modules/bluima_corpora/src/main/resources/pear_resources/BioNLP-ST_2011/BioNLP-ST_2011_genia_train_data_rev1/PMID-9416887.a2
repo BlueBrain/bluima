@@ -1,0 +1,54 @@
+*	Equiv T3 T2
+T18	Negative_regulation 14 22	inhibits
+T19	Positive_regulation 46 56	activation
+T20	Gene_expression 360 370	synthesize
+T21	Positive_regulation 424 434	activation
+T22	Positive_regulation 435 441	occurs
+T23	Gene_expression 503 513	expression
+T24	Regulation 517 525	affected
+T25	Positive_regulation 795 804	generated
+T26	Positive_regulation 941 950	Increased
+T27	Gene_expression 963 973	expression
+T28	Negative_regulation 1015 1033	adversely affected
+T29	Positive_regulation 1060 1069	induction
+T30	Negative_regulation 1083 1090	reduced
+T31	Negative_regulation 1150 1160	Inhibition
+T32	Positive_regulation 1167 1176	induction
+T33	Negative_regulation 1244 1248	when
+T34	Negative_regulation 1472 1481	decreased
+T35	Transcription 1490 1500	expression
+T36	Positive_regulation 1581 1591	contribute
+T37	Positive_regulation 1599 1608	induction
+T38	Entity 1619 1627	promotor
+T39	Positive_regulation 1693 1703	activation
+T40	Negative_regulation 1773 1782	inhibited
+T41	Negative_regulation 1806 1816	Inhibition
+T42	Positive_regulation 1832 1841	induction
+T43	Gene_expression 2013 2023	expression
+E1	Negative_regulation:T18 Theme:E2
+E2	Positive_regulation:T19 Theme:T1
+E3	Gene_expression:T20 Theme:T3
+E4	Positive_regulation:T21 Theme:T4
+E5	Positive_regulation:T22 Theme:E4
+E6	Gene_expression:T23 Theme:T5
+E7	Regulation:T24 Theme:E6
+E8	Positive_regulation:T25 Theme:T7
+E9	Positive_regulation:T26 Theme:E10
+E10	Gene_expression:T27 Theme:T8
+E11	Negative_regulation:T28 Theme:E9
+E12	Positive_regulation:T29 Theme:T9
+E13	Negative_regulation:T30 Theme:E12
+E14	Negative_regulation:T31 Theme:E15
+E15	Positive_regulation:T32 Theme:T10
+E16	Negative_regulation:T33 Theme:E15
+E17	Negative_regulation:T34 Theme:E18
+E18	Transcription:T35 Theme:T13
+E19	Positive_regulation:T36 Theme:E20
+E20	Positive_regulation:T37 Theme:T14 Site:T38
+E21	Positive_regulation:T39 Theme:T15
+E22	Negative_regulation:T40 Theme:E21
+E23	Negative_regulation:T41 Theme:E24
+E24	Positive_regulation:T42 Theme:T16
+E25	Gene_expression:T43 Theme:T17
+M1	Speculation E5
+M2	Speculation E7

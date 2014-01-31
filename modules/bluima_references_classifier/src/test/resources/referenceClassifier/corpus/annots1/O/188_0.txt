@@ -1,0 +1,63 @@
+ach et al., 1993; Weliky et al., 1995; Bosking et al., 1997). Because these animals
+have orientation maps, a majority of local
+connections ( 300 m) are thought to be
+among cells with similar orientation preferences (Fig. 4 A). However, at map singularities called pinwheel centers, where
+neighboring neurons do not necessarily
+share similar orientation preferences,
+studies have shown that local ( 300 m)
+connections are not selective (Das and
+Gilbert, 1999; Schummers et al., 2002;
+Marino et al., 2005). It could be the case
+that connectivity at pinwheel centers is an
+exception to a general rule of local
+orientation-selective connectivity. Alternatively, neurons might unselectively target their near neighbors as a general rule.
+Under this second view, any local
+orientation-selective connectivity is
+merely a coincidence because of the structure of the orientation map. Squirrels do
+not have orientation maps and neighboring neurons have different orientation
+preferences, so local neurons cannot si-multaneously contact neighboring cells
+and cells with similar orientation prefer- Figure 2. No evidence of periodic and patchy connections in quantitative analysis of anatomical connections in layer 2/3 of
+ences (Fig. 4 B). Therefore, an examina- squirrel V1. Left, Mean Fourier coefficients along the principle axis of labeled cells for squirrel injections restricted to layer 2/3 or
+tion of local connection selectivity in injections in layers 2/3–5 (top) and the same analysis for a previously published tree shrew injection (Bosking et al., 2000) in layers
+squirrel might allow us to distinguish be- 2/3–5 (bottom). The squirrel coefficients show a smooth roll-off with no evidence of periodicity, whereas the tree shrew data
+exhibits a clear peak between 1.5 and 1.9 cycles/mm that is consistent with the 550 m hypercolumn size reported in that animal.
+tween these connectivity rules.
+Top right, Cluster analysis (Ruthazer and Stryker, 1996) for eight injections. Injections 1– 4 were placed in layer 2/3, and injections
+Horizontal connectivity is reflected in
+5– 8 spanned layers 2/3–5. The mean cluster index was not different from 0, indicating that there was little patchiness of
+horizontal interactions that have been as- connections in layer 2/3. Bottom right, Peak cell density in layer 2/3 as a function of horizontal distance from the injection site. Peak
+sessed by measuring correlations in spik- cell density drops rapidly at a distance of 1 mm, and few connections are observed beyond 2 mm.
+ing activity in pairs of simultaneously re-corded neurons in V1. One such study of be observed in the covariogram (Reid and Alonso, 1995). How-115 cell pairs recorded in cat by Ts'o et al. (1986) found that cell ever, in this study, as in other studies of horizontal interactions
+pairs often (75%) showed high correlations if the cells had similar such as that by Ts'o et al. (1986), the vast majority of covariogram
+orientation preferences, even if the cells were separated by 1
+peaks were broad (median half-width at half height, 7.5 ms), so it
+mm. In contrast, pairs that differed in orientation preference by
+is likely that polysynaptic interactions, common input to the two
+60° never showed high correlations. Here, we made similar
+cells, and monosynaptic connections all contribute to these co-measurements in squirrel V1 by recording 124 pairs of neurons
+variograms. This ambiguity is not a problem in the present invessimultaneously and computing time-lagged correlations between
+tigation, because our goal here was to compare gross horizontal
+the spiking activities of the cells. We measured the orientation
+interactions in squirrel visual cortex with the gross horizontal
+selectivity of each cell and recorded the horizontal distance be- interactions that have been described previously in the cat. We
+tween each pair. Figure 5A shows example orientation tuning
+followed Ts'o et al. (1986) and divided the covariograms into four
+curves and correlations for two pairs of cells. We restricted our
+categories (Fig. 5 B, C) based on covariation strength.
+search to layer 2/3 cells by only advancing to a depth of 900 m to
+We found little evidence of a relationship between orientation
+focus on cells with substantial horizontal connections.
+preferences and high covariation strength. Histograms of co- Correlations between pairs of spike trains can give important
+variation strength as a function of pair difference in orientation
+information about interactions among cells (Perkel et al., 1967;
+preferences are shown in Figure 6 A. Most correlations were
+Brody, 1999). We computed raw correlations between spike
+trains and subtracted correlations expected based on the average weak, and cells that differed in orientation preference by less than
+responses of the cells to each stimulus (Fig. 5A). The resulting 30° were no more likely to show strong covariation than cells that
+function, called the cross-covariogram or just covariogram, is the differed in orientation preference by more than 30° ( 2 test, p
+correlation relative to that expected for two independent neu- 0.33). If we examine orientation preference differences only for
+rons. It is important to recognize that there are many ways two cell pairs with covariation strengths in class 4, as in Figure 6C, it is
+neurons can be dependent on one another (Brody, 1999), and apparent that even among strong covariations there is no relaonly in some systems is it possible to unambiguously infer syn- tionship between orientation preference and covariation
+aptic connectivity from a covariogram. If one cell makes a partic- strength. The lack of a relationship between correlations and oriularly strong monosynaptic connection onto the other, such as in entation preference is markedly different from findings in cat
+connections from neurons in the lateral geniculate nucleus to (Michalski et al., 1983; Ts'o et al., 1986).
+layer IV in V1, a large, narrow peak with a time lag of 2–5 ms can We did find a strong and significant relationship ( 2 test, p

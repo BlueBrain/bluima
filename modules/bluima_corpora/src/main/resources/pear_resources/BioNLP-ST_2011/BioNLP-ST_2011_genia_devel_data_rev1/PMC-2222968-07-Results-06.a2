@@ -1,0 +1,54 @@
+T40	Negative_regulation 6 15	Represses
+T41	Entity 26 34	Promoter
+T42	Negative_regulation 92 102	repression
+T43	Entity 217 234	GATA-binding site
+T44	Regulation 399 421	play an important role
+T45	Regulation 431 441	regulation
+T46	Gene_expression 669 676	express
+T47	Entity 715 723	promoter
+T48	Gene_expression 775 785	expressing
+T49	Positive_regulation 874 880	active
+T50	Gene_expression 905 912	express
+T51	Positive_regulation 950 964	Overexpression
+T52	Negative_regulation 1178 1186	deleting
+T53	Entity 1191 1209	GATA3-binding site
+T54	Negative_regulation 1382 1391	repressor
+T55	Entity 1423 1431	promoter
+T56	Binding 1463 1468	binds
+T57	Entity 1491 1499	promoter
+T58	Binding 1817 1824	binding
+T59	Gene_expression 1872 1882	expressing
+T60	Gene_expression 1957 1971	overexpressing
+T61	Binding 2005 2012	binding
+T62	Binding 2084 2089	binds
+T63	Entity 2112 2120	promoter
+T64	Binding 2270 2275	binds
+T65	Entity 2289 2304	promoter region
+T66	Binding 2408 2415	binding
+T67	Negative_regulation 2441 2451	repressing
+T68	Gene_expression 2458 2468	expression
+E1	Negative_regulation:T40 Theme:T2 Cause:T1 Site:T41
+E2	Negative_regulation:T42 Theme:T4 Cause:T3
+E3	Regulation:T44 Theme:E4 Cause:T5 CSite:T43
+E4	Regulation:T45 Theme:T7
+E5	Gene_expression:T46 Theme:T10
+E6	Gene_expression:T48 Theme:T12
+E7	Positive_regulation:T49 Theme:T11 Cause:E8 Site:T47
+E8	Gene_expression:T50 Theme:T14
+E9	Positive_regulation:T51 Theme:T15
+E10	Negative_regulation:T52 Theme:T16 Site:T53
+E11	Negative_regulation:T54 Theme:T23 Cause:T22 Site:T55
+E12	Binding:T56 Theme:T24 Theme2:T25 Site2:T57
+E13	Binding:T58 Theme:T28
+E14	Gene_expression:T59 Theme:T29
+E15	Gene_expression:T60 Theme:T30
+E16	Binding:T61 Theme:T31
+E17	Binding:T62 Theme:T32 Theme2:T33 Site2:T63
+E18	Binding:T64 Theme:T35 Theme2:T36 Site2:T65
+E19	Binding:T66 Theme:T37 Theme2:T38
+E20	Negative_regulation:T67 Theme:E21 Cause:E19
+E21	Gene_expression:T68 Theme:T39
+M1	Speculation E2
+M2	Speculation E3
+M3	Negation E8
+M4	Speculation E13

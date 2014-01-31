@@ -1,0 +1,23 @@
+*	Equiv T5 T4
+T11	Gene_expression 763 773	expression
+T12	Transcription 957 963	levels
+T13	Negative_regulation 1066 1075	inhibited
+T14	Gene_expression 1080 1090	expression
+T15	Gene_expression 1238 1248	expression
+T16	Negative_regulation 1253 1260	reduced
+T17	Negative_regulation 1432 1441	reduction
+E1	Gene_expression:T11 Theme:T6
+E2	Gene_expression:T11 Theme:T7
+E3	Gene_expression:T11 Theme:T5
+E4	Transcription:T12 Theme:T8
+E5	Negative_regulation:T13 Theme:E9
+E6	Negative_regulation:T13 Theme:E8
+E7	Negative_regulation:T13 Theme:E10
+E8	Gene_expression:T14 Theme:T5
+E9	Gene_expression:T14 Theme:T6
+E10	Gene_expression:T14 Theme:T7
+E11	Gene_expression:T15 Theme:T9
+E12	Negative_regulation:T16 Theme:E11
+E13	Negative_regulation:T17 Theme:T10
+M1	Speculation E3
+M2	Speculation E4

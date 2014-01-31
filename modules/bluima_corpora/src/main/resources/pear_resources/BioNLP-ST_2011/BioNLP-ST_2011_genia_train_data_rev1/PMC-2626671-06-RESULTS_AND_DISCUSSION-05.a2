@@ -1,0 +1,175 @@
+T113	Positive_regulation 84 93	induction
+T114	Gene_expression 127 136	expressed
+T115	Gene_expression 687 697	expression
+T116	Gene_expression 799 809	expression
+T117	Positive_regulation 827 839	undetectable
+T118	Gene_expression 945 955	expression
+T119	Gene_expression 976 986	expression
+T120	Negative_regulation 991 1001	unimpaired
+T121	Positive_regulation 1037 1045	required
+T122	Gene_expression 1058 1068	production
+T123	Positive_regulation 1268 1280	up-regulated
+T124	Positive_regulation 1291 1298	induces
+T125	Positive_regulation 1347 1353	induce
+T126	Negative_regulation 1368 1375	silence
+T127	Positive_regulation 1480 1489	necessary
+T128	Positive_regulation 1500 1509	induction
+T129	Gene_expression 1548 1558	expression
+T130	Gene_expression 1588 1598	expression
+T131	Positive_regulation 1617 1631	overexpression
+T132	Negative_regulation 1665 1674	deficient
+T133	Positive_regulation 1683 1686	led
+T134	Positive_regulation 1693 1701	increase
+T135	Gene_expression 1733 1743	expression
+T136	Positive_regulation 1976 1985	necessary
+T137	Positive_regulation 1996 2005	induction
+T138	Regulation 2037 2045	regulate
+T139	Transcription 2046 2059	transcription
+T140	Binding 2234 2239	bound
+T141	Entity 2240 2258	regulatory regions
+T142	Binding 2319 2329	associated
+T143	Binding 2389 2394	bound
+T144	Entity 2416 2441	transcription start sites
+T145	Binding 2788 2793	bound
+T146	Entity 2816 2819	TSS
+T147	Entity 2828 2842	-1 kb enhancer
+T148	Binding 2888 2892	that
+T149	Entity 2909 2917	promoter
+T150	Binding 2952 2958	target
+T151	Binding 2991 2995	that
+T152	Entity 3017 3020	TSS
+T153	Binding 3030 3036	target
+T154	Positive_regulation 3189 3198	induction
+T155	Gene_expression 3225 3234	expressed
+T156	Positive_regulation 3623 3631	restored
+T157	Gene_expression 3632 3642	expression
+T158	Positive_regulation 3770 3783	up-regulation
+T159	Negative_regulation 3804 3814	suppressed
+T160	Negative_regulation 3884 3894	repression
+T161	Positive_regulation 3930 3941	up-regulate
+T162	Gene_expression 3951 3961	expression
+T163	Gene_expression 3967 3976	expressed
+T164	Positive_regulation 4011 4019	restored
+T165	Positive_regulation 4036 4042	induce
+T166	Gene_expression 4053 4063	expression
+T167	Gene_expression 4150 4160	expression
+T168	Positive_regulation 4161 4169	requires
+T169	Positive_regulation 4211 4217	defect
+T170	Gene_expression 4245 4255	expression
+T171	Positive_regulation 4643 4653	activation
+T172	Negative_regulation 4694 4703	defective
+E1	Positive_regulation:T113 Theme:T2 Cause:T1
+E2	Gene_expression:T114 Theme:T3
+E3	Gene_expression:T115 Theme:T15
+E4	Gene_expression:T115 Theme:T16
+E5	Gene_expression:T115 Theme:T17
+E6	Gene_expression:T116 Theme:T18
+E7	Positive_regulation:T117 Theme:E6
+E8	Gene_expression:T118 Theme:T21
+E9	Gene_expression:T119 Theme:T22
+E10	Negative_regulation:T120 Theme:E9
+E11	Positive_regulation:T121 Theme:E12 Cause:T23
+E13	Positive_regulation:T121 Theme:E14 Cause:T23
+E15	Positive_regulation:T121 Theme:E16 Cause:T23
+E12	Gene_expression:T122 Theme:T24
+E14	Gene_expression:T122 Theme:T25
+E16	Gene_expression:T122 Theme:T26
+E17	Positive_regulation:T123 Theme:T28
+E18	Positive_regulation:T124 Theme:T29
+E19	Positive_regulation:T125 Theme:T32 Cause:T30
+E20	Positive_regulation:T125 Theme:T32 Cause:T31
+E21	Negative_regulation:T126 Theme:T33 Cause:T30
+E22	Negative_regulation:T126 Theme:T33 Cause:T31
+E23	Positive_regulation:T127 Theme:E24 Cause:T34
+E24	Positive_regulation:T128 Theme:T35
+E25	Gene_expression:T129 Theme:T36
+E26	Gene_expression:T130 Theme:T37
+E27	Positive_regulation:T131 Theme:T38
+E28	Negative_regulation:T132 Theme:T39
+E29	Positive_regulation:T133 Theme:E30 Cause:E27
+E31	Positive_regulation:T133 Theme:E32 Cause:E27
+E30	Positive_regulation:T134 Theme:E33
+E32	Positive_regulation:T134 Theme:E34
+E33	Gene_expression:T135 Theme:T40
+E34	Gene_expression:T135 Theme:T41
+E35	Positive_regulation:T136 Theme:E36 Cause:T42
+E36	Positive_regulation:T137 Theme:T43
+E37	Regulation:T138 Theme:E38 Cause:T42
+E39	Regulation:T138 Theme:E38 Cause:T44
+E40	Regulation:T138 Theme:E41 Cause:T42
+E42	Regulation:T138 Theme:E41 Cause:T44
+E43	Regulation:T138 Theme:E44 Cause:T42
+E45	Regulation:T138 Theme:E44 Cause:T44
+E38	Transcription:T139 Theme:T45
+E41	Transcription:T139 Theme:T46
+E44	Transcription:T139 Theme:T47
+E46	Binding:T140 Theme:T48 Theme2:T50 Site2:T141
+E47	Binding:T140 Theme:T48 Theme2:T51 Site2:T141
+E48	Binding:T140 Theme:T48 Theme2:T52 Site2:T141
+E49	Binding:T140 Theme:T49 Theme2:T50 Site2:T141
+E50	Binding:T140 Theme:T49 Theme2:T51 Site2:T141
+E51	Binding:T140 Theme:T49 Theme2:T52 Site2:T141
+E52	Binding:T142 Theme:T48
+E53	Binding:T142 Theme:T49
+E54	Binding:T143 Theme:T53 Theme2:T54 Site2:T144
+E55	Binding:T143 Theme:T53 Theme2:T55 Site2:T144
+E56	Binding:T145 Theme:T60 Theme2:T61 Site2:T146
+E57	Binding:T145 Theme:T60 Theme2:T61 Site2:T147
+E58	Binding:T148 Theme:T60 Theme2:T62 Site2:T149
+E59	Binding:T150 Theme:T62 Theme2:T63 Site:T149
+E60	Binding:T151 Theme:T60 Theme2:T64 Site2:T152
+E61	Binding:T153 Theme:T64 Site:T152
+E62	Positive_regulation:T154 Theme:T67 Cause:T66
+E63	Gene_expression:T155 Theme:T68
+E64	Gene_expression:T155 Theme:T69
+E65	Positive_regulation:T156 Theme:E66 Cause:T82
+E67	Positive_regulation:T156 Theme:E68 Cause:T82
+E69	Positive_regulation:T156 Theme:E70 Cause:T82
+E71	Positive_regulation:T156 Theme:E72 Cause:T82
+E66	Gene_expression:T157 Theme:T83
+E68	Gene_expression:T157 Theme:T84
+E70	Gene_expression:T157 Theme:T85
+E72	Gene_expression:T157 Theme:T86
+E73	Positive_regulation:T158 Theme:T88
+E74	Negative_regulation:T159 Theme:T88 Cause:T89
+E75	Negative_regulation:T160 Theme:T90 Cause:T91
+E76	Positive_regulation:T161 Theme:E77 Cause:T92
+E77	Gene_expression:T162 Theme:T93
+E78	Gene_expression:T163 Theme:T92
+E79	Positive_regulation:T164 Theme:E80 Cause:T92
+E80	Positive_regulation:T165 Theme:E81
+E81	Gene_expression:T166 Theme:T95
+E82	Gene_expression:T167 Theme:T96
+E83	Positive_regulation:T168 Theme:E82 Cause:T97
+E84	Positive_regulation:T168 Theme:E82 Cause:T98
+E85	Positive_regulation:T169 Theme:E86 Cause:T97
+E87	Positive_regulation:T169 Theme:E86 Cause:T98
+E88	Positive_regulation:T169 Theme:E89 Cause:T97
+E90	Positive_regulation:T169 Theme:E89 Cause:T98
+E86	Gene_expression:T170 Theme:T99
+E89	Gene_expression:T170 Theme:T100
+E91	Positive_regulation:T171 Theme:T107
+E92	Positive_regulation:T171 Theme:T108
+E93	Negative_regulation:T172 Theme:E91
+E94	Negative_regulation:T172 Theme:E92
+M1	Speculation E3
+M2	Speculation E4
+M3	Speculation E5
+M4	Negation E7
+M5	Negation E8
+M6	Negation E10
+M7	Speculation E23
+M8	Speculation E35
+M9	Speculation E46
+M10	Speculation E47
+M11	Speculation E48
+M12	Speculation E49
+M13	Speculation E50
+M14	Speculation E51
+M15	Negation E76
+M16	Speculation E83
+M17	Speculation E84
+M18	Negation E85
+M19	Negation E87
+M20	Negation E88
+M21	Negation E90

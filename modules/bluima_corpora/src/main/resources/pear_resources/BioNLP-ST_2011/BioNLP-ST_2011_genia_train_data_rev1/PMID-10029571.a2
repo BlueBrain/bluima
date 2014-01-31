@@ -1,0 +1,49 @@
+*	Equiv T25 T24
+*	Equiv T7 T6
+*	Equiv T4 T5
+T26	Negative_regulation 100 111	suppressing
+T27	Entity 112 120	tyrosine
+T28	Phosphorylation 121 136	phosphorylation
+T29	Gene_expression 345 359	primary source
+T30	Negative_regulation 869 879	inhibition
+T31	Gene_expression 888 898	expression
+T32	Positive_regulation 915 922	induced
+T33	Positive_regulation 1024 1032	resulted
+T34	Positive_regulation 1239 1251	accomplished
+T35	Negative_regulation 1255 1265	preventing
+T36	Positive_regulation 1274 1281	induced
+T37	Entity 1282 1290	tyrosine
+T38	Phosphorylation 1291 1306	phosphorylation
+T39	Positive_regulation 1360 1367	induced
+T40	Negative_regulation 1529 1540	suppressing
+T41	Entity 1545 1553	tyrosine
+T42	Phosphorylation 1554 1569	phosphorylation
+T43	Positive_regulation 1627 1633	induce
+T44	Gene_expression 1634 1644	expression
+E1	Negative_regulation:T26 Theme:E2 Cause:T1
+E2	Phosphorylation:T28 Theme:T3 Site:T27
+E3	Gene_expression:T29 Theme:T7
+E4	Negative_regulation:T30 Theme:E7
+E5	Negative_regulation:T30 Theme:E9
+E6	Negative_regulation:T30 Theme:E8
+E7	Gene_expression:T31 Theme:T15
+E8	Gene_expression:T31 Theme:T14
+E9	Gene_expression:T31 Theme:T13
+E10	Positive_regulation:T32 Theme:T15
+E11	Positive_regulation:T32 Theme:T14
+E12	Positive_regulation:T32 Theme:T13
+E13	Positive_regulation:T33 Theme:E6
+E14	Positive_regulation:T33 Theme:E5
+E15	Positive_regulation:T33 Theme:E4
+E16	Positive_regulation:T34 Theme:E13 Cause:E19
+E17	Positive_regulation:T34 Theme:E15 Cause:E19
+E18	Positive_regulation:T34 Theme:E14 Cause:E19
+E19	Negative_regulation:T35 Theme:E20
+E20	Positive_regulation:T36 Theme:E21
+E21	Phosphorylation:T38 Theme:T18 Site:T37
+E22	Positive_regulation:T39 Theme:T18
+E23	Positive_regulation:T39 Theme:T18 Cause:T19
+E24	Negative_regulation:T40 Theme:E25 Cause:T20
+E25	Phosphorylation:T42 Theme:T22 Site:T41
+E26	Positive_regulation:T43 Theme:E27 Cause:T23
+E27	Gene_expression:T44 Theme:T25

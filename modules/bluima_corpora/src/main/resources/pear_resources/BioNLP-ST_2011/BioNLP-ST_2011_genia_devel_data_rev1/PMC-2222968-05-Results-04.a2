@@ -1,0 +1,54 @@
+T45	Negative_regulation 65 72	reduced
+T46	Gene_expression 84 94	expression
+T47	Gene_expression 105 115	expression
+T48	Negative_regulation 148 157	inhibited
+T49	Positive_regulation 176 185	induction
+T50	Positive_regulation 716 725	induction
+T51	Gene_expression 735 745	expression
+T52	Positive_regulation 754 760	caused
+T53	Negative_regulation 984 998	down-regulated
+T54	Positive_regulation 1075 1085	pronounced
+T55	Gene_expression 1273 1282	producing
+T56	Gene_expression 1303 1313	expressing
+T57	Gene_expression 1462 1472	expression
+T58	Positive_regulation 1543 1555	demonstrated
+T59	Gene_expression 1646 1656	co-express
+T60	Negative_regulation 1851 1861	repressing
+T61	Negative_regulation 1901 1930	acts in vitro as an inhibitor
+T62	Gene_expression 1940 1950	expression
+T63	Positive_regulation 2006 2012	acting
+T64	Regulation 2076 2085	dependent
+E1	Negative_regulation:T45 Theme:E2 Cause:T2
+E3	Negative_regulation:T45 Theme:E4 Cause:T2
+E5	Negative_regulation:T45 Theme:E6 Cause:T2
+E2	Gene_expression:T46 Theme:T3
+E4	Gene_expression:T46 Theme:T4
+E6	Gene_expression:T47 Theme:T5
+E7	Negative_regulation:T48 Theme:E8 Cause:T6
+E8	Positive_regulation:T49 Theme:T8 Cause:T7
+E9	Positive_regulation:T50 Theme:E10 Cause:T16
+E10	Gene_expression:T51 Theme:T17
+E11	Positive_regulation:T52 Theme:E9
+E12	Negative_regulation:T53 Theme:T24 Cause:T25
+E13	Positive_regulation:T54 Theme:E12 Cause:T27
+E14	Gene_expression:T55 Theme:T30
+E15	Gene_expression:T56 Theme:T31
+E16	Gene_expression:T57 Theme:T33
+E17	Gene_expression:T57 Theme:T34
+E18	Positive_regulation:T58 Theme:E19 Cause:T35
+E20	Positive_regulation:T58 Theme:E19 Cause:T36
+E21	Positive_regulation:T58 Theme:E22 Cause:T35
+E23	Positive_regulation:T58 Theme:E22 Cause:T36
+E19	Gene_expression:T59 Theme:T37
+E22	Gene_expression:T59 Theme:T38
+E24	Negative_regulation:T60 Theme:T40 Cause:T39
+E25	Negative_regulation:T61 Theme:E26 Cause:T41
+E26	Gene_expression:T62 Theme:T42
+E27	Positive_regulation:T63 Theme:E25 Cause:E28
+E28	Regulation:T64 Theme:T44 Cause:T41
+M1	Negation E11
+M2	Speculation E16
+M3	Speculation E17
+M4	Speculation E24
+M5	Speculation E27
+M6	Speculation E28

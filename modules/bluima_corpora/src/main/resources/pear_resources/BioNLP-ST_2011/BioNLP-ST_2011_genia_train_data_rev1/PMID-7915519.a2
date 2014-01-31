@@ -1,0 +1,4 @@
+T13	Positive_regulation 360 367	induced
+T14	Binding 379 386	complex
+E1	Positive_regulation:T13 Theme:E2 Cause:T6
+E2	Binding:T14 Theme:T7 Theme2:T8 Theme3:T9

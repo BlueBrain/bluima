@@ -1,0 +1,29 @@
+T14	Regulation 0 10	Regulation
+T15	Negative_regulation 859 868	decreased
+T16	Positive_regulation 980 989	increased
+T17	Transcription 1011 1024	transcription
+T18	Positive_regulation 1032 1041	increased
+T19	Transcription 1050 1074	transcriptional activity
+T20	Regulation 1156 1164	modified
+T21	Positive_regulation 1233 1242	increased
+T22	Transcription 1314 1338	Transcriptional activity
+T23	Positive_regulation 1355 1364	increased
+T24	Positive_regulation 1395 1403	mediated
+T25	Regulation 1497 1523	triple autoregulatory loop
+E1	Regulation:T14 Theme:T1
+E2	Regulation:T14 Theme:T2
+E3	Negative_regulation:T15 Theme:T3
+E4	Positive_regulation:T16 Theme:E5
+E5	Transcription:T17 Theme:T5
+E6	Positive_regulation:T18 Theme:T5
+E7	Positive_regulation:T18 Theme:E8
+E8	Transcription:T19 Theme:T5
+E9	Regulation:T20 Theme:T6
+E10	Positive_regulation:T21 Theme:T7
+E11	Positive_regulation:T21 Theme:T8
+E12	Transcription:T22 Theme:T10
+E13	Positive_regulation:T23 Theme:E12
+E14	Positive_regulation:T24 Theme:E12
+E15	Regulation:T25 Theme:T13
+E16	Regulation:T25 Theme:T11
+E17	Regulation:T25 Theme:T12

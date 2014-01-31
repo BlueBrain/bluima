@@ -1,0 +1,18 @@
+T17	Entity 4 12	promoter
+T18	Binding 35 41	target
+T19	Gene_expression 114 123	expressed
+T20	Gene_expression 387 397	expression
+T21	Binding 845 853	occupied
+T22	Binding 1212 1219	binding
+T23	Binding 1261 1270	interacts
+T24	Entity 1285 1293	promoter
+T25	Regulation 1351 1361	regulation
+E1	Binding:T18 Theme:T1 Theme2:T2 Site:T17
+E2	Gene_expression:T19 Theme:T3
+E3	Gene_expression:T20 Theme:T4
+E4	Binding:T21 Theme:T9
+E5	Binding:T22 Theme:T13
+E6	Binding:T23 Theme:T13 Theme2:T14 Site2:T24
+E7	Regulation:T25 Theme:T16 Cause:T15
+M1	Negation E4
+M2	Speculation E7

@@ -1,0 +1,17 @@
+*	Equiv T3 T2
+T9	Positive_regulation 297 306	increased
+T10	Localization 328 337	secretion
+T11	Positive_regulation 338 352	in response to
+T12	Positive_regulation 499 508	increased
+T13	Localization 514 523	secretion
+T14	Positive_regulation 578 592	superinduction
+T15	Positive_regulation 643 651	mediated
+T16	Positive_regulation 725 734	dependent
+E1	Positive_regulation:T9 Theme:E3
+E2	Localization:T10 Theme:T3
+E3	Positive_regulation:T11 Theme:E2
+E4	Positive_regulation:T12 Theme:E5 Cause:T5
+E5	Localization:T13 Theme:T4
+E6	Positive_regulation:T14 Theme:T6
+E7	Positive_regulation:T15 Theme:E6
+E8	Positive_regulation:T16 Theme:E6

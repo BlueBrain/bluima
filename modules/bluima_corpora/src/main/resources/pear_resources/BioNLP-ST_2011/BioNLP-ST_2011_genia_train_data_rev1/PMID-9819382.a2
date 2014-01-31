@@ -1,0 +1,54 @@
+*	Equiv T9 T8
+T28	Positive_regulation 43 49	induce
+T29	Gene_expression 80 90	expression
+T30	Positive_regulation 251 262	coactivated
+T31	Gene_expression 777 786	expressed
+T32	Gene_expression 824 835	coexpressed
+T33	Positive_regulation 862 873	transfected
+T34	Gene_expression 862 873	transfected
+T35	Positive_regulation 910 917	induced
+T36	Gene_expression 925 935	expression
+T37	Gene_expression 971 981	expressing
+T38	Transcription 1061 1070	initiated
+T39	Binding 1283 1288	binds
+T40	Positive_regulation 1316 1322	forced
+T41	Gene_expression 1323 1333	expression
+T42	Positive_regulation 1343 1354	potentiated
+T43	Positive_regulation 1359 1368	induction
+T44	Binding 1420 1436	formed a complex
+T45	Binding 1477 1484	binding
+T46	Positive_regulation 1497 1506	activated
+T47	Transcription 1511 1524	transcription
+T48	Positive_regulation 1535 1553	in the presence of
+T49	Regulation 1676 1685	regulated
+T50	Positive_regulation 1769 1777	activate
+T51	Transcription 1782 1795	transcription
+E1	Positive_regulation:T28 Theme:E2
+E2	Gene_expression:T29 Theme:T2
+E3	Positive_regulation:T30 Theme:T4
+E4	Gene_expression:T31 Theme:T9
+E5	Gene_expression:T32 Theme:T10
+E6	Positive_regulation:T33 Theme:E7
+E7	Gene_expression:T34 Theme:T11
+E8	Positive_regulation:T35 Theme:E10 Cause:E6
+E9	Positive_regulation:T35 Theme:E10
+E10	Gene_expression:T36 Theme:T12
+E11	Gene_expression:T37 Theme:T13
+E12	Transcription:T38 Theme:T14
+E13	Binding:T39 Theme:T16
+E14	Positive_regulation:T40 Theme:E15
+E15	Gene_expression:T41 Theme:T17
+E16	Positive_regulation:T42 Theme:E17 Cause:E14
+E17	Positive_regulation:T43 Theme:T18 Cause:T19
+E18	Binding:T44 Theme:T17 Theme2:T19
+E19	Binding:T45 Theme:T20
+E20	Positive_regulation:T46 Theme:E21 Cause:T20
+E21	Transcription:T47 Theme:T21
+E22	Positive_regulation:T48 Theme:E20 Cause:T22
+E23	Regulation:T49 Theme:T23 Cause:T24
+E24	Positive_regulation:T50 Theme:E25
+E25	Transcription:T51 Theme:T27
+M1	Negation E8
+M2	Negation E9
+M3	Negation E11
+M4	Negation E19

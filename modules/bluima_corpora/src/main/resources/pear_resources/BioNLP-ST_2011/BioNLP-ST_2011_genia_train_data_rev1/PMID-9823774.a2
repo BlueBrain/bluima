@@ -1,0 +1,15 @@
+*	Equiv T3 T4
+T22	Positive_regulation 315 324	activated
+T23	Binding 848 860	cross-reacts
+T24	Positive_regulation 944 951	derived
+T25	Protein_catabolism 979 990	proteolysis
+T26	Negative_regulation 1218 1225	compete
+T27	Binding 1252 1259	binding
+E1	Positive_regulation:T22 Theme:T7 Cause:T5
+E2	Binding:T23 Theme:T14
+E3	Positive_regulation:T24 Theme:T15 Cause:E4
+E4	Protein_catabolism:T25 Theme:T16
+E5	Negative_regulation:T26 Theme:T20
+E6	Binding:T27 Theme:T19
+E7	Binding:T27 Theme:T20
+M1	Speculation E5

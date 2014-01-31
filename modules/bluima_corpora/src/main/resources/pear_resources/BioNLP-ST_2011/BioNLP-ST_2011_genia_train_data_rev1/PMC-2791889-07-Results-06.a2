@@ -1,0 +1,53 @@
+T21	Gene_expression 6 16	Production
+T22	Positive_regulation 44 52	Requires
+T23	Positive_regulation 67 77	Activation
+T24	Gene_expression 103 113	production
+T25	Positive_regulation 145 154	dependent
+T26	Positive_regulation 172 182	activation
+T27	Negative_regulation 372 381	inhibitor
+T28	Positive_regulation 423 433	activation
+T29	Positive_regulation 454 462	required
+T30	Gene_expression 467 476	induction
+T31	Gene_expression 529 539	production
+T32	Negative_regulation 580 589	inhibited
+T33	Negative_regulation 617 626	inhibitor
+T34	Negative_regulation 677 687	inhibitors
+T35	Positive_regulation 716 726	activation
+T36	Regulation 735 741	affect
+T37	Gene_expression 746 756	expression
+T38	Positive_regulation 868 879	requirement
+T39	Positive_regulation 888 897	induction
+T40	Gene_expression 907 917	production
+E1	Gene_expression:T21 Theme:T1
+E2	Positive_regulation:T22 Theme:E1 Cause:E3
+E4	Positive_regulation:T22 Theme:E1 Cause:E5
+E3	Positive_regulation:T23 Theme:T2
+E5	Positive_regulation:T23 Theme:T3
+E6	Gene_expression:T24 Theme:T4
+E7	Positive_regulation:T25 Theme:E6 Cause:E8
+E9	Positive_regulation:T25 Theme:E6 Cause:E10
+E8	Positive_regulation:T26 Theme:T5
+E10	Positive_regulation:T26 Theme:T6
+E11	Negative_regulation:T27 Theme:T9
+E12	Positive_regulation:T28 Theme:T10
+E13	Positive_regulation:T28 Theme:T11
+E14	Positive_regulation:T29 Theme:E15 Cause:E12
+E16	Positive_regulation:T29 Theme:E15 Cause:E13
+E15	Gene_expression:T30 Theme:T12
+E17	Gene_expression:T31 Theme:T13
+E18	Negative_regulation:T32 Theme:E17 Cause:E19
+E19	Negative_regulation:T33 Theme:T14
+E20	Negative_regulation:T34 Theme:E21
+E22	Negative_regulation:T34 Theme:E23
+E21	Positive_regulation:T35 Theme:T15
+E23	Positive_regulation:T35 Theme:T16
+E24	Regulation:T36 Theme:E25 Cause:E20
+E26	Regulation:T36 Theme:E25 Cause:E22
+E25	Gene_expression:T37 Theme:T17
+E27	Positive_regulation:T38 Theme:E28
+E28	Positive_regulation:T39 Theme:E29
+E29	Gene_expression:T40 Theme:T20
+M1	Speculation E7
+M2	Speculation E9
+M3	Negation E24
+M4	Negation E26

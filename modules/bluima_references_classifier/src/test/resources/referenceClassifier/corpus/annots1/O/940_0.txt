@@ -1,0 +1,21 @@
+Two-Neuron Patterns
+We started by assessing how well a randomly connected
+network [33] describes our dataset. In this model, the
+existence of a connection between any two neurons is
+independently chosen with a uniform probability p
+(Figure 2A). We test the predictions of this model by
+classifying all simultaneously recorded pairs of neurons into
+three classes: unconnected, unidirectionally connected, and
+bidirectionally connected. Given connection probability p
+and total number of pairs N, the expected number of
+unconnected pairs should be N(1  p)2. The expected number
+of unidirectionally connected pairs should be 2Np(1  p), and
+the expected number of bidirectionally connected pairs
+should be Np2. We find that the actual number of bidirectionally connected pairs is four times that of the expected
+numbers ( p < 0.0001) (Figure 2B). The observed overrepresentation of reciprocally connected layer 5 neurons
+confirms previous reports [5,6]. Such overrepresentation has
+also been observed in layer 2/3 of the rat visual cortex [11].
+However, whether projections between layers observe this
+pattern remains an open question.
+Can the overrepresentation of reciprocal connections
+reflect an experimental artifact? Indeed, such overrepresen-

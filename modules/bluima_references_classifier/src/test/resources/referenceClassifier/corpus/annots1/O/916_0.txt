@@ -1,0 +1,20 @@
+Statistical Analysis
+Unpaired Student's t-tests were applied to compare between the means of
+groups. Unpaired non-parametric tests (Mann–Whitney) were employed
+to compare the medians of two groups with sample sizes of <8.
+Chi-square (χ2) tests were applied to compare two distributions. In order
+to determine the significance of the proposed subclassification of BCs,
+we carried out Fisher's linear discriminant analysis (Fukunaga, 1990).
+Separability values (represented as discriminant scores, DS) for points
+where each point is a cell in a 14-dimensional parameter space (m-code of
+14 morphological features) were calculated as the ratio between the
+inter-class and intra-class spread. The result of the calculated separation is
+visualized by projecting the points onto an optimal hyperplane
+(described by the coefficients C1 and C2), ref lecting the value of the DS
+and the quality of the separation. In order to test the validity of the
+proposed subclassification, the labels of the data points were randomly
+scrambled (i.e. their assignments to the three morphological subclasses)
+and the Fisher analysis was repeated 10 000 times. In 9520 cases the
+random partition yielded DS < 23.98, which was the score for the
+proposed subclassification. The probability of mistakenly identifying
+three groups in this data set is therefore P < 0.048.

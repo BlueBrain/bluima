@@ -1,0 +1,32 @@
+T21	Regulation 48 56	separate
+T22	Binding 713 738	yields coimmunoadsorption
+T23	Binding 789 825	heterocomplexes are coimmunoadsorbed
+T24	Binding 933 953	form heterocomplexes
+T25	Positive_regulation 954 958	when
+T26	Positive_regulation 1054 1061	induced
+T27	Entity 1062 1070	tyrosine
+T28	Phosphorylation 1071 1086	phosphorylation
+T29	Positive_regulation 1087 1110	increases the stability
+T30	Binding 1191 1196	binds
+T31	Binding 1273 1306	exist in separate heterocomplexes
+E1	Regulation:T21 Theme:T2
+E2	Regulation:T21 Theme:T3
+E3	Binding:T22 Theme:T5
+E4	Binding:T22 Theme:T4
+E5	Binding:T23 Theme:T6 Theme2:T7
+E6	Binding:T24 Theme:T8 Theme2:T9
+E7	Binding:T24 Theme:T10 Theme2:T11
+E8	Positive_regulation:T25 Theme:E6
+E9	Positive_regulation:T25 Theme:E7
+E10	Positive_regulation:T26 Theme:E13
+E11	Positive_regulation:T26 Theme:E12
+E12	Phosphorylation:T28 Theme:T13 Site:T27
+E13	Phosphorylation:T28 Theme:T12 Site:T27
+E14	Positive_regulation:T29 Theme:T13 Cause:E11
+E15	Positive_regulation:T29 Theme:T12 Cause:E11
+E16	Positive_regulation:T29 Theme:T13 Cause:E10
+E17	Positive_regulation:T29 Theme:T12 Cause:E10
+E18	Binding:T30 Theme:T14 Theme2:T16
+E19	Binding:T30 Theme:T14 Theme2:T15
+E20	Binding:T31 Theme:T17 Theme2:T19
+E21	Binding:T31 Theme:T18 Theme2:T19

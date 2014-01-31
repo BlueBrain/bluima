@@ -1,0 +1,25 @@
+*	Equiv T2 T3
+*	Equiv T5 T6
+T20	Gene_expression 303 310	express
+T21	Positive_regulation 390 397	derived
+T22	Regulation 1124 1134	modulating
+T23	Gene_expression 1139 1149	expression
+T24	Positive_regulation 1433 1441	inducing
+T25	Gene_expression 1685 1692	present
+T26	Binding 1824 1832	affinity
+T27	Gene_expression 2195 2205	containing
+E1	Gene_expression:T20 Theme:T1
+E2	Positive_regulation:T21 Theme:T1
+E3	Regulation:T22 Theme:E8
+E4	Regulation:T22 Theme:E9
+E5	Regulation:T22 Theme:E7
+E6	Regulation:T22 Theme:E10
+E7	Gene_expression:T23 Theme:T7
+E8	Gene_expression:T23 Theme:T10
+E9	Gene_expression:T23 Theme:T9
+E10	Gene_expression:T23 Theme:T8
+E11	Positive_regulation:T24 Theme:T11
+E12	Gene_expression:T25 Theme:T14
+E13	Binding:T26 Theme:T15
+E14	Binding:T26 Theme:T16
+E15	Gene_expression:T27 Theme:T19

@@ -1,0 +1,10 @@
+
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/aba-syn")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2004")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2013")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/dong")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/hof")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/neuronames")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/paxinos")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/swanson")

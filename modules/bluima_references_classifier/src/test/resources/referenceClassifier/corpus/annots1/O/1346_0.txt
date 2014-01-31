@@ -1,0 +1,12 @@
+1 INTRODUCTION
+The main point of this paper is to show that large back-propagation BP networks can be applied to real image-recognition problems without a large, complex
+preprocessing stage requiring detailed engineering. Unlike most previous work on
+the subject Denker et al., 1989 , the learning network is directly fed with images,
+rather than feature vectors, thus demonstrating the ability of BP networks to deal
+with large amounts of low level information.
+Previous work performed on simple digit images Le Cun, 1989 showed that the
+architecture of the network strongly in uences the network's generalization ability.
+Good generalization can only be obtained by designing a network architecture that
+contains a certain amount of a priori knowledge about the problem. The basic de-sign principle is to minimize the number of free parameters that must be determined
+by the learning algorithm, without overly reducing the computational power of the
+network. This principle increases the probability of correct generalization because

@@ -1,0 +1,14 @@
+To minimize subjective errors and optimize throughput, we
+have developed semi-automated tools for reconstruction
+and analysis of neuronal geometry from CLSM and
+MPLSM images (Rodriguez et al., 2003a). These techniques include noise filtering and deconvolution (Autodeblur, Autoquant Imaging, Troy, NY, USA), volume integration, automatic stack alignment and registration of adjacent
+tiles (Volume Integration and Alignment System (VIAS)
+system), surfacing and memory optimization for interactive
+visualization (Rodriguez et al., 2003a) and digitization in
+standard neuroanatomical formats.
+Our VIAS software (http://www.mssm.edu/cnic/tools.
+html), integrates multiple stacks of tiled optical sections
+obtained from CLSM into a single volumetric dataset. VIAS
+uses projected volumes and hardware accelerated drawing to provide real-time interaction with the data. An au-toalign tool corrects any small misalignments in the initial
+registration of adjacent images, ensuring that the tiling is
+accurately reassembled before the volume is integrated.

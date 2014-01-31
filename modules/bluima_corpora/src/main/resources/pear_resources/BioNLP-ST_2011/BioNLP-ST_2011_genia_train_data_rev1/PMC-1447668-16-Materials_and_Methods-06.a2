@@ -1,0 +1,28 @@
+T15	Gene_expression 21 31	expression
+T16	Gene_expression 112 122	expression
+T17	Transcription 505 520	mRNA expression
+T18	Transcription 723 738	mRNA expression
+T19	Transcription 780 795	mRNA expression
+T20	Gene_expression 881 891	expression
+E1	Gene_expression:T15 Theme:T1
+E2	Gene_expression:T15 Theme:T2
+E3	Gene_expression:T16 Theme:T3
+E4	Gene_expression:T16 Theme:T4
+E5	Transcription:T17 Theme:T5
+E6	Transcription:T17 Theme:T6
+E7	Transcription:T18 Theme:T7
+E8	Transcription:T18 Theme:T8
+E9	Transcription:T19 Theme:T9
+E10	Gene_expression:T20 Theme:T10
+E11	Gene_expression:T20 Theme:T11
+M1	Speculation E1
+M2	Speculation E2
+M3	Speculation E3
+M4	Speculation E4
+M5	Speculation E5
+M6	Speculation E6
+M7	Speculation E7
+M8	Speculation E8
+M9	Speculation E9
+M10	Speculation E10
+M11	Speculation E11

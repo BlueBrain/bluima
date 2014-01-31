@@ -1,0 +1,9 @@
+
+
+include: 20130501_create_test_cases-manyannots.include
+
+
+ae: ch.epfl.bbp.uima.mongo.MongoWriter
+ db_connection__java: new String[]{  "localhost", "writetomongo", "writetomongo_20k", "", ""} 
+ #safeMode: false
+

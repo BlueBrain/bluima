@@ -1,0 +1,1246 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- from Rajnish's Channelpedia db dump -->
+<synonym>
+<token canonical="SLO2B" ref_id="ionchanel:SLO2B">
+  <variant base="Kcnt2" />
+  <variant base="Slo2b" />
+  <variant base="kcnt2" />
+  <variant base="potassium channel, subfamily T, member 2" />
+</token>
+<token canonical="TRPP3" ref_id="ionchanel:TRPP3">
+  <variant base="TRPP3" />
+</token>
+<token canonical="CACNG1" ref_id="ionchanel:CACNG1">
+  <variant base="cacng1" />
+  <variant base="cacnlg" />
+  <variant base="calcium channel, voltage-dependent, gamma subunit 1" />
+  <variant base="Cacng1" />
+</token>
+<token canonical="CTRPA1" ref_id="ionchanel:CTRPA1">
+  <variant base="cTRPA1" />
+</token>
+<token canonical="CLVC5" ref_id="ionchanel:CLVC5">
+  <variant base="ClvC5" />
+  <variant base="chloride channel 5" />
+  <variant base="clc-5" />
+  <variant base="Clcn5" />
+  <variant base="clcn5" />
+</token>
+<token canonical="CLVC4" ref_id="ionchanel:CLVC4">
+  <variant base="ClvC4" />
+  <variant base="clc-4" />
+  <variant base="clcn4" />
+  <variant base="clc4" />
+  <variant base="clc" />
+</token>
+<token canonical="CLVC7" ref_id="ionchanel:CLVC7">
+  <variant base="chloride channel 7" />
+  <variant base="clc-7" />
+  <variant base="ClvC7" />
+  <variant base="clcn7" />
+  <variant base="Clcn7" />
+</token>
+<token canonical="CLVC6" ref_id="ionchanel:CLVC6">
+  <variant base="clc-6" />
+  <variant base="chloride channel 6" />
+  <variant base="ClvC6" />
+  <variant base="clcn6" />
+  <variant base="Clcn6" />
+</token>
+<token canonical="CLVC1" ref_id="ionchanel:CLVC1">
+  <variant base="clcn1" />
+  <variant base="ClvC1" />
+  <variant base="clc-1" />
+  <variant base="clc1" />
+  <variant base="chloride channel 1" />
+  <variant base="Clcn1" />
+</token>
+<token canonical="CLVC3" ref_id="ionchanel:CLVC3">
+  <variant base="clcn3" />
+  <variant base="clc-3" />
+  <variant base="ClvC3" />
+  <variant base="Clcn3" />
+  <variant base="clc3" />
+  <variant base="chloride channel 3" />
+</token>
+<token canonical="CLVC2" ref_id="ionchanel:CLVC2">
+  <variant base="clcn2" />
+  <variant base="clc-2" />
+  <variant base="ClvC2" />
+  <variant base="clc2" />
+  <variant base="chloride channel 2" />
+  <variant base="Clcn2" />
+</token>
+<token canonical="KCAG" ref_id="ionchanel:KCAG">
+  <variant base="Generic KCa" />
+  <variant base="KCaG" />
+</token>
+<token canonical="TRPV5" ref_id="ionchanel:TRPV5">
+  <variant base="TRPV5" />
+  <variant base="Trpv5" />
+  <variant base="transient receptor potential cation channel, subfamily V, member 5" />
+</token>
+<token canonical="TRPV4" ref_id="ionchanel:TRPV4">
+  <variant base="TRPV4" />
+  <variant base="transient receptor potential cation channel, subfamily V, member 4" />
+  <variant base="Trpv4" />
+</token>
+<token canonical="TRPV6" ref_id="ionchanel:TRPV6">
+  <variant base="transient receptor potential cation channel, subfamily V, member 6" />
+  <variant base="TRPV6" />
+  <variant base="Trpv6" />
+</token>
+<token canonical="TRPV1" ref_id="ionchanel:TRPV1">
+  <variant base="transient receptor potential cation channel, subfamily V, member 1" />
+  <variant base="Trpv1" />
+  <variant base="TRPV1" />
+</token>
+<token canonical="TRPV3" ref_id="ionchanel:TRPV3">
+  <variant base="transient receptor potential cation channel, subfamily V, member 3" />
+  <variant base="Trpv3" />
+  <variant base="TRPV3" />
+</token>
+<token canonical="TRPV2" ref_id="ionchanel:TRPV2">
+  <variant base="transient receptor potential cation channel, subfamily V, member 2" />
+  <variant base="Trpv2" />
+  <variant base="TRPV2" />
+</token>
+<token canonical="NAVG" ref_id="ionchanel:NAVG">
+  <variant base="Generic Nav" />
+  <variant base="NavG" />
+</token>
+<token canonical="KV4.3" ref_id="ionchanel:KV4.3">
+  <variant base="Kv4.3" />
+  <variant base="kcnd3" />
+  <variant base="Kncd3" />
+  <variant base="Kcnd3" />
+  <variant base="potassium voltage-gated channel, Shal-related subfamily, member 3" />
+</token>
+<token canonical="IAG" ref_id="ionchanel:IAG">
+  <variant base="A current" />
+  <variant base="IAG" />
+</token>
+<token canonical="KCNAB1" ref_id="ionchanel:KCNAB1">
+  <variant base="kcnab1" />
+  <variant base="Kcnab1" />
+  <variant base="potassium voltage-gated channel, shaker-related subfamily, beta member 1" />
+</token>
+<token canonical="KCNAB2" ref_id="ionchanel:KCNAB2">
+  <variant base="potassium voltage-gated channel, shaker-related subfamily, beta member 2" />
+  <variant base="kcnab2" />
+  <variant base="Kcnab2" />
+</token>
+<token canonical="TRPM4" ref_id="ionchanel:TRPM4">
+  <variant base="TRPM4" />
+  <variant base="Trpm4" />
+  <variant base="transient receptor potential cation channel, subfamily M, member 4" />
+</token>
+<token canonical="KV4.1" ref_id="ionchanel:KV4.1">
+  <variant base="kcnd1" />
+  <variant base="Kcnd1" />
+  <variant base="Kv4.1" />
+  <variant base="mShal1" />
+  <variant base="potassium voltage-gated channel, Shal-related subfamily, member 1" />
+  <variant base="Shal" />
+  <variant base="Kca2-1" />
+</token>
+<token canonical="KV12.3" ref_id="ionchanel:KV12.3">
+  <variant base="potassium voltage-gated channel, subfamily H (eag-related), member 4" />
+  <variant base="Kv12.3" />
+  <variant base="Kcnh4" />
+</token>
+<token canonical="CACNA2D2" ref_id="ionchanel:CACNA2D2">
+  <variant base="cacna2d2" />
+  <variant base="Cacna2d2" />
+  <variant base="calcium channel, voltage-dependent, alpha 2/delta subunit 2" />
+</token>
+<token canonical="CACNA2D3" ref_id="ionchanel:CACNA2D3">
+  <variant base="cacna2d3" />
+  <variant base="calcium channel, voltage-dependent, alpha2/delta subunit 3" />
+  <variant base="Cacna2d3" />
+</token>
+<token canonical="CACNA2D1" ref_id="ionchanel:CACNA2D1">
+  <variant base="cacna2d1" />
+  <variant base="Cacna2d1" />
+  <variant base="calcium channel, voltage-dependent, alpha2/delta subunit 1" />
+</token>
+<token canonical="KV4.2" ref_id="ionchanel:KV4.2">
+  <variant base="Kv4.2" />
+  <variant base="RK5" />
+  <variant base="kcnd2" />
+  <variant base="potassium voltage-gated channel, Shal-related subfamily, member 2" />
+  <variant base="Kcnd2" />
+  <variant base="Shal1" />
+</token>
+<token canonical="KVG" ref_id="ionchanel:KVG">
+  <variant base="KvG" />
+  <variant base="Generic Kv" />
+</token>
+<token canonical="TRPM7" ref_id="ionchanel:TRPM7">
+  <variant base="transient receptor potential cation channel, subfamily M, member 7" />
+  <variant base="Trpm7" />
+  <variant base="TRPM7" />
+</token>
+<token canonical="HCN1" ref_id="ionchanel:HCN1">
+  <variant base="HCN1" />
+  <variant base="HCN1" />
+  <variant base="Hcn1" />
+  <variant base="HAC-2" />
+  <variant base="BCNG1" />
+  <variant base="hyperpolarization-activated cyclic nucleotide-gated potassium channel 1" />
+  <variant base="BCNG-1, ih1" />
+</token>
+<token canonical="CAVG" ref_id="ionchanel:CAVG">
+  <variant base="CavG" />
+  <variant base="Generic Ca" />
+</token>
+<token canonical="HCN3" ref_id="ionchanel:HCN3">
+  <variant base="Hcn3" />
+  <variant base="ih3" />
+  <variant base="HCN3" />
+  <variant base="Hcn4" />
+  <variant base="Hac3" />
+  <variant base="BCNG-4" />
+  <variant base="hyperpolarization-activated cyclic nucleotide-gated potassium channel 3" />
+  <variant base="Bcng4" />
+</token>
+<token canonical="HCN2" ref_id="ionchanel:HCN2">
+  <variant base="Hcn2" />
+  <variant base="hyperpolarization activated cyclic nucleotide-gated potassium channel 2" />
+  <variant base="ih2" />
+  <variant base="HCN2" />
+  <variant base="HAC1" />
+  <variant base="BCNG2" />
+</token>
+<token canonical="HCN4" ref_id="ionchanel:HCN4">
+  <variant base="hyperpolarization activated cyclic nucleotide-gated potassium channel 4" />
+  <variant base="Hcn4" />
+  <variant base="HCN3" />
+  <variant base="HCN4" />
+  <variant base="ih4" />
+  <variant base="Hac3" />
+  <variant base="BCNG-4" />
+  <variant base="Bcng4" />
+</token>
+<token canonical="KV6.1" ref_id="ionchanel:KV6.1">
+  <variant base="k13" />
+  <variant base="Kcng1" />
+  <variant base="kh2" />
+  <variant base="potassium voltage-gated channel, subfamily G, member 1" />
+  <variant base="Kv6.1" />
+  <variant base="kcng1" />
+  <variant base="kcng" />
+</token>
+<token canonical="KV6.2" ref_id="ionchanel:KV6.2">
+  <variant base="potassium voltage-gated channel, subfamily G, member 2" />
+  <variant base="Kv6.2" />
+  <variant base="Kcng2" />
+  <variant base="kcng2" />
+</token>
+<token canonical="NAV3.1" ref_id="ionchanel:NAV3.1">
+  <variant base="Nav3" />
+  <variant base="Nav3.1" />
+  <variant base="nav3.1" />
+  <variant base="neuron navigator 3" />
+</token>
+<token canonical="KV6.4" ref_id="ionchanel:KV6.4">
+  <variant base="kcng4" />
+  <variant base="Kv6.4" />
+  <variant base="potassium voltage-gated channel, subfamily G, member 4" />
+  <variant base="Kcng4" />
+</token>
+<token canonical="IHG" ref_id="ionchanel:IHG">
+  <variant base="Generic Ih" />
+  <variant base="IhG" />
+</token>
+<token canonical="CAV2.1" ref_id="ionchanel:CAV2.1">
+  <variant base="FHM" />
+  <variant base="MHP1" />
+  <variant base="ca2.1" />
+  <variant base="Cav2.1" />
+  <variant base="rkr" />
+  <variant base="Cacnl1a4" />
+  <variant base="APCA" />
+  <variant base="Ccha1a" />
+  <variant base="HPCA" />
+  <variant base="Cacna1a" />
+  <variant base="Caca1a" />
+  <variant base="EA2" />
+  <variant base="calcium channel, voltage-dependent, P/Q type, alpha 1A subunit" />
+  <variant base="MHP" />
+  <variant base="SCA6" />
+</token>
+<token canonical="CAV2.2" ref_id="ionchanel:CAV2.2">
+  <variant base="BIII" />
+  <variant base="calcium channel, voltage-dependent, N type, alpha 1B subunit" />
+  <variant base="Cav2.2" />
+  <variant base="ca2.2" />
+  <variant base="CACNL1A5" />
+  <variant base="CACNA1B" />
+  <variant base="CACNN" />
+  <variant base="Cacna1b" />
+</token>
+<token canonical="CAV2.3" ref_id="ionchanel:CAV2.3">
+  <variant base="cacna1e" />
+  <variant base="ca2.3" />
+  <variant base="cav2.3" />
+  <variant base="Cav2.3" />
+  <variant base="Cacna1e" />
+  <variant base="calcium channel, voltage-dependent, R type, alpha 1E subunit" />
+</token>
+<token canonical="CLCA2" ref_id="ionchanel:CLCA2">
+  <variant base="ClCa2" />
+  <variant base="clca2" />
+  <variant base="chloride channel accessory 2" />
+  <variant base="rbclca2" />
+  <variant base="Clca2" />
+</token>
+<token canonical="SKG" ref_id="ionchanel:SKG">
+  <variant base="SKG" />
+  <variant base="Generic SK" />
+</token>
+<token canonical="BKB3" ref_id="ionchanel:BKB3">
+  <variant base="BKB3" />
+  <variant base="potassium large conductance calcium-activated channel, subfamily M beta member 3" />
+  <variant base="kcnmb3" />
+  <variant base="Kcnmb3" />
+</token>
+<token canonical="BKB2" ref_id="ionchanel:BKB2">
+  <variant base="potassium large conductance calcium-activated channel, subfamily M, beta member 2" />
+  <variant base="BKB2" />
+  <variant base="Kcnmb2" />
+  <variant base="Kcmb2" />
+</token>
+<token canonical="BKB1" ref_id="ionchanel:BKB1">
+  <variant base="KCNMB1" />
+  <variant base="Kcnmb1" />
+  <variant base="K(VCA)beta" />
+  <variant base="SLO-BETA" />
+  <variant base="hslo-beta" />
+  <variant base="potassium large conductance calcium-activated channel, subfamily M, beta member 1" />
+  <variant base="BkB1" />
+</token>
+<token canonical="BKB4" ref_id="ionchanel:BKB4">
+  <variant base="Kcnmb4" />
+  <variant base="kcnmb4" />
+  <variant base="potassium large conductance calcium-activated channel, subfamily M, beta member 4" />
+  <variant base="BKB4" />
+</token>
+<token canonical="CAV3.2" ref_id="ionchanel:CAV3.2">
+  <variant base="cacna1h" />
+  <variant base="Cacna1h" />
+  <variant base="Ca(v)3.2" />
+  <variant base="Cav3.2" />
+  <variant base="ca3.2" />
+  <variant base="cav3.2" />
+  <variant base="calcium channel, voltage-dependent, T type, alpha 1H subunit" />
+</token>
+<token canonical="KV10.1" ref_id="ionchanel:KV10.1">
+  <variant base="KCNH1" />
+  <variant base="Kv10.1" />
+  <variant base="MGC142269" />
+  <variant base="EAG" />
+  <variant base="h-eag" />
+  <variant base="EAG1" />
+  <variant base="potassium voltage-gated channel, subfamily H (eag-related), member 1" />
+  <variant base="Kcnh1" />
+</token>
+<token canonical="KV10.2" ref_id="ionchanel:KV10.2">
+  <variant base="kcnh5" />
+  <variant base="Kcnh5" />
+  <variant base="potassium voltage-gated channel, subfamily H (eag-related), member 5" />
+  <variant base="Kv10.2" />
+  <variant base="eag2" />
+  <variant base="h-eag2" />
+</token>
+<token canonical="KCHIP2A" ref_id="ionchanel:KCHIP2A">
+  <variant base="KChip2a" />
+  <variant base="Kv channel-interacting protein 2" />
+  <variant base="KChIP2a" />
+  <variant base="KChIP2b" />
+  <variant base="kcnip2" />
+  <variant base="Kcnip2" />
+  <variant base="Kchip2" />
+</token>
+<token canonical="KV6.3" ref_id="ionchanel:KV6.3">
+  <variant base="Kcng3" />
+  <variant base="kv10.1" />
+  <variant base="potassium voltage-gated channel, subfamily G, member 3" />
+  <variant base="Kv6.3" />
+  <variant base="kcng3" />
+</token>
+<token canonical="TRPM8" ref_id="ionchanel:TRPM8">
+  <variant base="Trpm8" />
+  <variant base="TRPM8" />
+  <variant base="transient receptor potential cation channel, subfamily M, member 8" />
+</token>
+<token canonical="KV12.2" ref_id="ionchanel:KV12.2">
+  <variant base="Kv12.2" />
+  <variant base="Kcnh3" />
+  <variant base="potassium voltage-gated channel, subfamily H (eag-related), member 3" />
+</token>
+<token canonical="TRPM5" ref_id="ionchanel:TRPM5">
+  <variant base="TRPM5" />
+  <variant base="transient receptor potential cation channel, subfamily M, member 5" />
+  <variant base="Trpm5" />
+</token>
+<token canonical="TRPM6" ref_id="ionchanel:TRPM6">
+  <variant base="transient receptor potential cation channel, subfamily M, member 6" />
+  <variant base="TRPM6" />
+  <variant base="Trpm6" />
+</token>
+<token canonical="KV12.1" ref_id="ionchanel:KV12.1">
+  <variant base="ELK" />
+  <variant base="Kcnh8" />
+  <variant base="KCNH8" />
+  <variant base="elk3" />
+  <variant base="ELK1" />
+  <variant base="Kv12.1" />
+  <variant base="potassium voltage-gated channel, subfamily H (eag-related), member 8" />
+</token>
+<token canonical="TRPM1" ref_id="ionchanel:TRPM1">
+  <variant base="transient receptor potential cation channel, subfamily M, member 1" />
+  <variant base="TRPM1" />
+  <variant base="Trpm1" />
+</token>
+<token canonical="TRPM2" ref_id="ionchanel:TRPM2">
+  <variant base="transient receptor potential cation channel, subfamily M, member 2" />
+  <variant base="Trpm2" />
+  <variant base="TRPM2" />
+</token>
+<token canonical="TRPM3" ref_id="ionchanel:TRPM3">
+  <variant base="Trpm3" />
+  <variant base="transient receptor potential cation channel, subfamily M, member 3" />
+  <variant base="TRPM3" />
+</token>
+<token canonical="TRPML" ref_id="ionchanel:TRPML">
+  <variant base="TRPML" />
+</token>
+<token canonical="CACNG7" ref_id="ionchanel:CACNG7">
+  <variant base="Cacng7" />
+  <variant base="calcium channel, voltage-dependent, gamma subunit 7" />
+  <variant base="cacng7" />
+</token>
+<token canonical="KCNQ4" ref_id="ionchanel:KCNQ4">
+  <variant base="potassium voltage-gated channel, KQT-like subfamily, member 4" />
+  <variant base="DFNA2" />
+  <variant base="KCNQ4" />
+  <variant base="DFNA2A" />
+  <variant base="KV7.4" />
+  <variant base="Kcnq4" />
+</token>
+<token canonical="KCNQ5" ref_id="ionchanel:KCNQ5">
+  <variant base="Kv7.5" />
+  <variant base="potassium voltage-gated channel, KQT-like subfamily, member 5" />
+  <variant base="KCNQ5" />
+  <variant base="Kcnq5" />
+</token>
+<token canonical="KCNQ2" ref_id="ionchanel:KCNQ2">
+  <variant base="potassium voltage-gated channel, KQT-like subfamily, member 2" />
+  <variant base="Kcnq2" />
+  <variant base="EBN" />
+  <variant base="KCNQ2" />
+  <variant base="BFNC" />
+  <variant base="EBN1" />
+  <variant base="HNSPC" />
+  <variant base="ENB1" />
+  <variant base="KCNA11" />
+  <variant base="KVEBN1" />
+  <variant base="KV7.2" />
+</token>
+<token canonical="KCNQ3" ref_id="ionchanel:KCNQ3">
+  <variant base="potassium voltage-gated channel, KQT-like subfamily, member 3" />
+  <variant base="BFNC2" />
+  <variant base="Kcnq3" />
+  <variant base="KCNQ3" />
+  <variant base="EBN2" />
+  <variant base="KV7.3" />
+</token>
+<token canonical="KCNQ1" ref_id="ionchanel:KCNQ1">
+  <variant base="potassium voltage-gated channel, KQT-like subfamily, member 1" />
+  <variant base="JLNS1" />
+  <variant base="LQT" />
+  <variant base="KVLQT1" />
+  <variant base="Kv1.9" />
+  <variant base="KCNA9" />
+  <variant base="KCNQ1" />
+  <variant base="SQT2" />
+  <variant base="RWS" />
+  <variant base="LQT1" />
+  <variant base="WRS" />
+  <variant base="KCNA8" />
+  <variant base="ATFB3" />
+  <variant base="Kcnq1" />
+  <variant base="Kv7.1" />
+  <variant base="ATFB1" />
+</token>
+<token canonical="KV9.3" ref_id="ionchanel:KV9.3">
+  <variant base="Kv9.3" />
+  <variant base="Kcns3" />
+  <variant base="potassium voltage-gated channel, delayed-rectifier, subfamily S, member 3" />
+  <variant base="kcns3" />
+</token>
+<token canonical="TRP" ref_id="ionchanel:TRP">
+  <variant base="TRP" />
+</token>
+<token canonical="KV9.1" ref_id="ionchanel:KV9.1">
+  <variant base="Kv9.1" />
+  <variant base="potassium voltage-gated channel, delayed-rectifier, subfamily S, member 1" />
+  <variant base="kcns1" />
+  <variant base="Kcns1" />
+</token>
+<token canonical="SK1" ref_id="ionchanel:SK1">
+  <variant base="potassium intermediate/small conductance calcium-activated channel, subfamily N, member 1" />
+  <variant base="SK1" />
+  <variant base="Kcnn1" />
+  <variant base="kcnn1" />
+</token>
+<token canonical="SK3" ref_id="ionchanel:SK3">
+  <variant base="KCa2.3" />
+  <variant base="SK3" />
+  <variant base="hSK3" />
+  <variant base="SKCA3" />
+  <variant base="potassium intermediate/small conductance calcium-activated channel, subfamily N, member 3" />
+  <variant base="KCNN3" />
+  <variant base="Kcnn3" />
+</token>
+<token canonical="SK2" ref_id="ionchanel:SK2">
+  <variant base="KCa2.2" />
+  <variant base="SK2" />
+  <variant base="hSK2" />
+  <variant base="SKCA2" />
+  <variant base="potassium intermediate/small conductance calcium-activated channel, subfamily N, member 2" />
+  <variant base="Kcnn2" />
+</token>
+<token canonical="KV3.1" ref_id="ionchanel:KV3.1">
+  <variant base="NGK2-KV4" />
+  <variant base="potassium voltage gated channel, Shaw-related subfamily, member 1" />
+  <variant base="Kcnc1" />
+  <variant base="KShIIIB" />
+  <variant base="Kv3.1" />
+  <variant base="Kv4" />
+</token>
+<token canonical="KIR7.1" ref_id="ionchanel:KIR7.1">
+  <variant base="Kir7.1" />
+  <variant base="kcnj13" />
+  <variant base="potassium inwardly-rectifying channel, subfamily J, member 13" />
+  <variant base="Kcnj13" />
+</token>
+<token canonical="KV3.3" ref_id="ionchanel:KV3.3">
+  <variant base="Kcr2-3" />
+  <variant base="potassium voltage gated channel, Shaw-related subfamily, member 3" />
+  <variant base="Kcnc3" />
+  <variant base="KShIIID" />
+  <variant base="kcnc3" />
+  <variant base="Kv3.3" />
+</token>
+<token canonical="KV3.2" ref_id="ionchanel:KV3.2">
+  <variant base="Kcnc2" />
+  <variant base="Kv3.2" />
+  <variant base="KShIIIA" />
+  <variant base="kcnc2" />
+  <variant base="potassium voltage gated channel, Shaw-related subfamily, member 2" />
+</token>
+<token canonical="KV3.4" ref_id="ionchanel:KV3.4">
+  <variant base="kcnc4" />
+  <variant base="Kcnc4" />
+  <variant base="potassium voltage gated channel, Shaw-related subfamily, member 4" />
+  <variant base="Kcr2-4" />
+  <variant base="KSHIIIC" />
+  <variant base="Kv3.4" />
+</token>
+<token canonical="KIR2.1" ref_id="ionchanel:KIR2.1">
+  <variant base="KCNJ2" />
+  <variant base="HHBIRK1" />
+  <variant base="IRK1" />
+  <variant base="Kcnj2" />
+  <variant base="Kir2.1" />
+  <variant base="LQT7" />
+  <variant base="SQT3" />
+  <variant base="HHIRK1" />
+  <variant base="potassium inwardly-rectifying channel, subfamily J, member 2" />
+</token>
+<token canonical="CLCA1" ref_id="ionchanel:CLCA1">
+  <variant base="Clca1" />
+  <variant base="ClCa1" />
+  <variant base="chloride channel accessory 1" />
+  <variant base="clca1" />
+  <variant base="rbclca" />
+</token>
+<token canonical="KIR2.2" ref_id="ionchanel:KIR2.2">
+  <variant base="KCNJ12" />
+  <variant base="IRK2" />
+  <variant base="Kcnj12" />
+  <variant base="Kir2.2" />
+  <variant base="potassium inwardly-rectifying channel, subfamily J, member 12" />
+  <variant base="MB-IRK2" />
+</token>
+<token canonical="KIR2.4" ref_id="ionchanel:KIR2.4">
+  <variant base="IRK4" />
+  <variant base="Kir2.4" />
+  <variant base="potassium inwardly-rectifying channel, subfamily J, member 14" />
+  <variant base="Kcnj14" />
+</token>
+<token canonical="TRPC2" ref_id="ionchanel:TRPC2">
+  <variant base="TRPC2" />
+  <variant base="Trpc2" />
+  <variant base="transient receptor potential cation channel, subfamily C, member 2" />
+</token>
+<token canonical="TRPC3" ref_id="ionchanel:TRPC3">
+  <variant base="TRPC3" />
+  <variant base="transient receptor potential cation channel, subfamily C, member 3" />
+  <variant base="Trpc3" />
+</token>
+<token canonical="TRPC1" ref_id="ionchanel:TRPC1">
+  <variant base="Trpc1" />
+  <variant base="TRPC1" />
+  <variant base="transient receptor potential cation channel, subfamily C, member 1" />
+</token>
+<token canonical="TRPC6" ref_id="ionchanel:TRPC6">
+  <variant base="Trpc6" />
+  <variant base="transient receptor potential cation channel, subfamily C, member 6" />
+  <variant base="TRPC6" />
+</token>
+<token canonical="TRPC7" ref_id="ionchanel:TRPC7">
+  <variant base="transient receptor potential cation channel, subfamily C, member 7" />
+  <variant base="TRPC7" />
+  <variant base="Trpc7" />
+</token>
+<token canonical="TRPC4" ref_id="ionchanel:TRPC4">
+  <variant base="transient receptor potential cation channel, subfamily C, member 4" />
+  <variant base="Trpc4" />
+  <variant base="TRPC4" />
+</token>
+<token canonical="TRPC5" ref_id="ionchanel:TRPC5">
+  <variant base="transient receptor potential cation channel, subfamily C, member 5" />
+  <variant base="Trpc5" />
+  <variant base="TRPC5" />
+</token>
+<token canonical="CAV3.1" ref_id="ionchanel:CAV3.1">
+  <variant base="Ca(v)3.1" />
+  <variant base="Cacna1g" />
+  <variant base="cav3.1" />
+  <variant base="Cav3.1" />
+  <variant base="ca3.1" />
+  <variant base="cacna1g" />
+  <variant base="calcium channel, voltage-dependent, T type, alpha 1G subunit" />
+</token>
+<token canonical="CLCA3" ref_id="ionchanel:CLCA3">
+  <variant base="ClCa3" />
+  <variant base="clca3" />
+</token>
+<token canonical="CAV3.3" ref_id="ionchanel:CAV3.3">
+  <variant base="cacna1i" />
+  <variant base="Ca(v)3.3" />
+  <variant base="Cacna1i" />
+  <variant base="calcium channel, voltage-dependent, T type, alpha 1I subunit" />
+  <variant base="Cav3.3" />
+  <variant base="ca3.3" />
+  <variant base="cav3.3" />
+</token>
+<token canonical="CACNB4" ref_id="ionchanel:CACNB4">
+  <variant base="CACNLB4" />
+  <variant base="EJM" />
+  <variant base="EIG9" />
+  <variant base="calcium channel, voltage-dependent, beta 4 subunit" />
+  <variant base="cacnb4" />
+  <variant base="EJM6" />
+  <variant base="EJM4" />
+  <variant base="Cacnb4" />
+  <variant base="EA5" />
+  <variant base="CAB4" />
+</token>
+<token canonical="CLCA4" ref_id="ionchanel:CLCA4">
+  <variant base="chloride channel accessory 4" />
+  <variant base="Clca4" />
+  <variant base="clca4" />
+  <variant base="ClCa4" />
+</token>
+<token canonical="KV1.6" ref_id="ionchanel:KV1.6">
+  <variant base="kcna6" />
+  <variant base="MK1.6" />
+  <variant base="Kcna6" />
+  <variant base="Kv1.6" />
+  <variant base="potassium voltage gated channel, shaker related subfamily, member 6" />
+</token>
+<token canonical="BKG" ref_id="ionchanel:BKG">
+  <variant base="Kcnmb1" />
+  <variant base="potassium large conductance calcium-activated channel, subfamily M, beta member 1" />
+  <variant base="BKG" />
+  <variant base="BK" />
+</token>
+<token canonical="CACNB3" ref_id="ionchanel:CACNB3">
+  <variant base="cacnb3" />
+  <variant base="Cacnb3" />
+  <variant base="calcium channel, voltage-dependent, beta 3 subunit" />
+</token>
+<token canonical="CACNB2" ref_id="ionchanel:CACNB2">
+  <variant base="Cavbeta2" />
+  <variant base="CACNLB2" />
+  <variant base="cacnb2" />
+  <variant base="CAVB2" />
+  <variant base="Cacnb2" />
+  <variant base="calcium channel, voltage-dependent, beta 2 subunit" />
+</token>
+<token canonical="CACNB1" ref_id="ionchanel:CACNB1">
+  <variant base="calcium channel, voltage-dependent, beta 1 subunit" />
+  <variant base="CACNLB1" />
+  <variant base="Cacnb1" />
+  <variant base="CCHLB1" />
+  <variant base="CAB1" />
+  <variant base="cacnb1" />
+</token>
+<token canonical="KIR2.3" ref_id="ionchanel:KIR2.3">
+  <variant base="HIR" />
+  <variant base="Kcnj4" />
+  <variant base="HRK1" />
+  <variant base="Kir2.3" />
+  <variant base="HIRK2" />
+  <variant base="potassium inwardly-rectifying channel, subfamily J, member 4" />
+  <variant base="IRK3" />
+</token>
+<token canonical="KV11.1" ref_id="ionchanel:KV11.1">
+  <variant base="Kv11.1" />
+  <variant base="ERG1" />
+  <variant base="KCNH2" />
+  <variant base="HERG1" />
+  <variant base="Kcnh2" />
+  <variant base="HERG" />
+  <variant base="SQT1" />
+  <variant base="potassium voltage-gated channel, subfamily H (eag-related), member 2" />
+  <variant base="LQT2" />
+</token>
+<token canonical="KV11.3" ref_id="ionchanel:KV11.3">
+  <variant base="kcnh7" />
+  <variant base="erg3" />
+  <variant base="Kcnh7" />
+  <variant base="HERG3" />
+  <variant base="potassium voltage-gated channel, subfamily H (eag-related), member 7" />
+  <variant base="Kv11.3" />
+</token>
+<token canonical="KV11.2" ref_id="ionchanel:KV11.2">
+  <variant base="Kcnh6" />
+  <variant base="ERG2" />
+  <variant base="HERG2" />
+  <variant base="potassium voltage-gated channel, subfamily H (eag-related), member 6" />
+  <variant base="KCNH6" />
+  <variant base="Kv11.2" />
+</token>
+<token canonical="CLIC4" ref_id="ionchanel:CLIC4">
+  <variant base="ClIC4" />
+  <variant base="Clic4" />
+  <variant base="clic4" />
+  <variant base="chloride intracellular channel 4" />
+</token>
+<token canonical="CLIC2" ref_id="ionchanel:CLIC2">
+  <variant base="clic2" />
+  <variant base="ClIC2" />
+  <variant base="chloride intracellular channel 2" />
+  <variant base="Clic2" />
+</token>
+<token canonical="CLIC3" ref_id="ionchanel:CLIC3">
+  <variant base="chloride intracellular channel 3" />
+  <variant base="ClIC3" />
+  <variant base="Clic3" />
+  <variant base="clic3" />
+</token>
+<token canonical="IMG" ref_id="ionchanel:IMG">
+  <variant base="Generic IM" />
+  <variant base="IMG" />
+</token>
+<token canonical="CLIC1" ref_id="ionchanel:CLIC1">
+  <variant base="Clic1" />
+  <variant base="clic1" />
+  <variant base="chloride intracellular channel 1" />
+  <variant base="ClIC1" />
+</token>
+<token canonical="CAV1.3" ref_id="ionchanel:CAV1.3">
+  <variant base="Cav1.3" />
+  <variant base="cacna1d" />
+  <variant base="Cacna1d" />
+  <variant base="cav1.3" />
+  <variant base="ca1.3" />
+  <variant base="calcium channel, voltage-dependent, L type, alpha 1D subunit" />
+</token>
+<token canonical="TRPC" ref_id="ionchanel:TRPC">
+  <variant base="TRPC" />
+</token>
+<token canonical="CAV1.1" ref_id="ionchanel:CAV1.1">
+  <variant base="hypoPP" />
+  <variant base="calcium channel, voltage-dependent, L type, alpha 1S subunit" />
+  <variant base="ca1.1" />
+  <variant base="CCHL1A3" />
+  <variant base="HOKPP" />
+  <variant base="Cav1.1" />
+  <variant base="MHS5" />
+  <variant base="CACNL1A3" />
+  <variant base="cacna1s" />
+  <variant base="Cacna1s" />
+  <variant base="cav1.1" />
+</token>
+<token canonical="TRPA" ref_id="ionchanel:TRPA">
+  <variant base="TRPA" />
+</token>
+<token canonical="CAV1.4" ref_id="ionchanel:CAV1.4">
+  <variant base="cacna1f" />
+  <variant base="Cacna1f" />
+  <variant base="cav1.4" />
+  <variant base="ca1.4" />
+  <variant base="calcium channel, voltage-dependent, L type, alpha 1F subunit" />
+  <variant base="Cav1.4" />
+</token>
+<token canonical="NAV3.1A" ref_id="ionchanel:NAV3.1A">
+  <variant base="Nav3.1a" />
+  <variant base="nav3.1a" />
+</token>
+<token canonical="TRPP" ref_id="ionchanel:TRPP">
+  <variant base="TRPP" />
+</token>
+<token canonical="TRPV" ref_id="ionchanel:TRPV">
+  <variant base="TRPV" />
+</token>
+<token canonical="KV8.1" ref_id="ionchanel:KV8.1">
+  <variant base="Kcnv1" />
+  <variant base="potassium channel, subfamily V, member 1" />
+  <variant base="HNKA" />
+  <variant base="kcnv1" />
+  <variant base="Kv8.1" />
+</token>
+<token canonical="KV8.2" ref_id="ionchanel:KV8.2">
+  <variant base="RCD3B" />
+  <variant base="Kv11.1" />
+  <variant base="kcnv2" />
+  <variant base="Kv8.2" />
+  <variant base="Kcnv2" />
+  <variant base="potassium channel, subfamily V, member 2" />
+</token>
+<token canonical="KCHIP1" ref_id="ionchanel:KCHIP1">
+  <variant base="kchip1" />
+  <variant base="KChip1" />
+  <variant base="Kcnip1" />
+  <variant base="kcnip1" />
+  <variant base="Kv channel-interacting protein 1" />
+</token>
+<token canonical="KV9.2" ref_id="ionchanel:KV9.2">
+  <variant base="Kv9.2" />
+  <variant base="potassium voltage-gated channel, delayed-rectifier, subfamily S, member 2" />
+  <variant base="Kcns2" />
+  <variant base="kcns2" />
+</token>
+<token canonical="SLO2" ref_id="ionchanel:SLO2">
+  <variant base="KCa4.1" />
+  <variant base="SLACK" />
+  <variant base="Slo2" />
+  <variant base="kcnt1" />
+  <variant base="potassium channel, subfamily T, member 1" />
+  <variant base="Kcnt1" />
+</token>
+<token canonical="KV2.1" ref_id="ionchanel:KV2.1">
+  <variant base="drk1pc" />
+  <variant base="kcr1-1" />
+  <variant base="shab" />
+  <variant base="Kv2.1" />
+  <variant base="potassium voltage gated channel, Shab-related subfamily, member 1" />
+  <variant base="kcnb1" />
+  <variant base="Kcnb1" />
+</token>
+<token canonical="KV2.2" ref_id="ionchanel:KV2.2">
+  <variant base="kcnb2" />
+  <variant base="potassium voltage gated channel, Shab-related subfamily, member 2" />
+  <variant base="kcnb2-A" />
+  <variant base="Kv2.2" />
+  <variant base="Kcnb2" />
+</token>
+<token canonical="NOMPC" ref_id="ionchanel:NOMPC">
+  <variant base="RGD1560151" />
+  <variant base="similar to predicted CDS, mechanosensory transduction channel NOMPC (1O503)" />
+  <variant base="NOMPC" />
+</token>
+<token canonical="TRPML1" ref_id="ionchanel:TRPML1">
+  <variant base="TRPML1" />
+</token>
+<token canonical="KIR6.1" ref_id="ionchanel:KIR6.1">
+  <variant base="slmbr" />
+  <variant base="Kcnj8" />
+  <variant base="gnite" />
+  <variant base="kcnj8" />
+  <variant base="sltr" />
+  <variant base="potassium inwardly-rectifying channel, subfamily J, member 8" />
+  <variant base="Kir6.1" />
+</token>
+<token canonical="KV1.3" ref_id="ionchanel:KV1.3">
+  <variant base="Kv1.3" />
+  <variant base="kcna3" />
+  <variant base="potassium voltage-gated channel, shaker-related subfamily, member 3" />
+  <variant base="Kcna3" />
+</token>
+<token canonical="KV1.2" ref_id="ionchanel:KV1.2">
+  <variant base="Kv1.2" />
+  <variant base="kcna2" />
+  <variant base="NGK1" />
+  <variant base="BK2" />
+  <variant base="potassium voltage-gated channel, shaker-related subfamily, member 2" />
+  <variant base="Kcna2" />
+</token>
+<token canonical="KV1.1" ref_id="ionchanel:KV1.1">
+  <variant base="Kv1.1" />
+  <variant base="Kcna1" />
+  <variant base="potassium voltage-gated channel, shaker-related subfamily, member 1" />
+  <variant base="kcpvd" />
+  <variant base="kcna1" />
+</token>
+<token canonical="KV1.7" ref_id="ionchanel:KV1.7">
+  <variant base="kcna7" />
+  <variant base="HAK6" />
+  <variant base="Kv1.7" />
+  <variant base="potassium voltage-gated channel, shaker-related subfamily, member 7" />
+  <variant base="Kcna7" />
+</token>
+<token canonical="KIR6.2" ref_id="ionchanel:KIR6.2">
+  <variant base="IKATP" />
+  <variant base="TNDM3" />
+  <variant base="kcnj11" />
+  <variant base="Kir6.2" />
+  <variant base="PHHI" />
+  <variant base="potassium inwardly rectifying channel, subfamily J, member 11" />
+  <variant base=" HHF2" />
+  <variant base="Kir6.2" />
+  <variant base="BIR" />
+  <variant base="Kcnj11" />
+</token>
+<token canonical="KV1.5" ref_id="ionchanel:KV1.5">
+  <variant base="potassium voltage-gated channel, shaker-related subfamily, member 5" />
+  <variant base="kcna5" />
+  <variant base="Kcna5" />
+  <variant base="Kv1.5" />
+</token>
+<token canonical="KV1.4" ref_id="ionchanel:KV1.4">
+  <variant base="RHK1" />
+  <variant base="RK3" />
+  <variant base="KCHAN" />
+  <variant base="Kv1.4" />
+  <variant base="potassium voltage-gated channel, shaker-related subfamily, member 4" />
+  <variant base="kv4" />
+  <variant base="kcna4" />
+  <variant base="Kcna4" />
+</token>
+<token canonical="KV1.8" ref_id="ionchanel:KV1.8">
+  <variant base="kcna10" />
+  <variant base="Kv1.8" />
+  <variant base="kcna8" />
+</token>
+<token canonical="CNOMPC" ref_id="ionchanel:CNOMPC">
+  <variant base="cNOMPC" />
+</token>
+<token canonical="SLO3" ref_id="ionchanel:SLO3">
+  <variant base="kcnu1" />
+  <variant base="KCa5" />
+  <variant base="potassium large conductance pH-sensitive channel, subfamily M, alpha member 3" />
+  <variant base="Kcnma3" />
+  <variant base="Slo3" />
+</token>
+<token canonical="NAV2.4" ref_id="ionchanel:NAV2.4">
+  <variant base="nav2.4" />
+  <variant base="Nav2.4" />
+</token>
+<token canonical="NAV2.3" ref_id="ionchanel:NAV2.3">
+  <variant base="nav2.3" />
+  <variant base="Nav2.3" />
+</token>
+<token canonical="NAV2.2" ref_id="ionchanel:NAV2.2">
+  <variant base="Nav2.2" />
+  <variant base="nav2.2" />
+</token>
+<token canonical="NAV2.1" ref_id="ionchanel:NAV2.1">
+  <variant base="Nav2.1" />
+  <variant base="scn6a" />
+  <variant base="neuron navigator 2" />
+  <variant base="Nav2" />
+  <variant base="nav2.3" />
+  <variant base="nav2.1" />
+</token>
+<token canonical="TRPA1" ref_id="ionchanel:TRPA1">
+  <variant base="TRPA1" />
+  <variant base="transient receptor potential cation channel, subfamily A, member 1" />
+  <variant base="Trpa1" />
+</token>
+<token canonical="KIR5.1" ref_id="ionchanel:KIR5.1">
+  <variant base="BIR9" />
+  <variant base="Kir5.1" />
+  <variant base="potassium inwardly-rectifying channel, subfamily J, member 16" />
+  <variant base="kcnj16" />
+  <variant base="Kcnj16" />
+</token>
+<token canonical="SLO1" ref_id="ionchanel:SLO1">
+  <variant base="Slo1" />
+  <variant base="BKCa" />
+  <variant base="MaxiK" />
+  <variant base="kcnma1" />
+  <variant base="Kcnma1" />
+  <variant base="Slo" />
+  <variant base="mSlo1" />
+  <variant base="mSlo" />
+  <variant base="potassium large conductance calcium-activated channel, subfamily M, alpha member 1" />
+</token>
+<token canonical="NAV1.1" ref_id="ionchanel:NAV1.1">
+  <variant base="Nav1.1" />
+  <variant base="scn1a1" />
+  <variant base="Scn1a" />
+  <variant base="sodium channel, voltage-gated, type I, alpha" />
+  <variant base="nav1.1" />
+</token>
+<token canonical="NAV1.2" ref_id="ionchanel:NAV1.2">
+  <variant base="Scn2a1" />
+  <variant base="Nav1.2" />
+  <variant base="nav1.2" />
+  <variant base="sodium channel, voltage-gated, type II, alpha 1" />
+  <variant base="scn2a1" />
+</token>
+<token canonical="NAV1.3" ref_id="ionchanel:NAV1.3">
+  <variant base="nav1.3" />
+  <variant base="Nav1.3" />
+  <variant base="scn3a" />
+  <variant base="sodium channel, voltage-gated, type III, alpha" />
+  <variant base="Scn3a" />
+</token>
+<token canonical="NAV1.4" ref_id="ionchanel:NAV1.4">
+  <variant base="scn4a" />
+  <variant base="nav1.4" />
+  <variant base="Nav1.4" />
+  <variant base="sodium channel, voltage-gated, type IV, alpha subunit" />
+  <variant base="Scn4a" />
+</token>
+<token canonical="NAV1.5" ref_id="ionchanel:NAV1.5">
+  <variant base="sodium channel, voltage-gated, type V, alpha subunit" />
+  <variant base="scn5a" />
+  <variant base="Scn5a" />
+  <variant base="Nav1.5" />
+  <variant base="nav1.5" />
+</token>
+<token canonical="NAV1.6" ref_id="ionchanel:NAV1.6">
+  <variant base="Scn8a" />
+  <variant base="scn8a" />
+  <variant base="nav1.6" />
+  <variant base="Nav1.6" />
+  <variant base="sodium channel, voltage gated, type VIII, alpha subunit" />
+</token>
+<token canonical="NAV1.7" ref_id="ionchanel:NAV1.7">
+  <variant base="nav1.7" />
+  <variant base="scn9a" />
+  <variant base="Scn9a" />
+  <variant base="sodium channel, voltage-gated, type IX, alpha" />
+  <variant base="Nav1.7" />
+</token>
+<token canonical="NAV1.8" ref_id="ionchanel:NAV1.8">
+  <variant base="Nav1.8" />
+  <variant base="nav1.8" />
+  <variant base="sodium channel, voltage-gated, type X, alpha subunit" />
+  <variant base="Scn10a" />
+  <variant base="scn10a" />
+</token>
+<token canonical="NAV1.9" ref_id="ionchanel:NAV1.9">
+  <variant base="Scn11a" />
+  <variant base="scn11a" />
+  <variant base="sodium channel, voltage-gated, type XI, alpha" />
+  <variant base="Nav1.9" />
+  <variant base="nav3.1" />
+  <variant base="nav1.9" />
+</token>
+<token canonical="TRPP5" ref_id="ionchanel:TRPP5">
+  <variant base="TRPP5" />
+</token>
+<token canonical="TRPM" ref_id="ionchanel:TRPM">
+  <variant base="TRPM" />
+</token>
+<token canonical="KIR3.1" ref_id="ionchanel:KIR3.1">
+  <variant base="Kcnj3" />
+  <variant base="Kcnf3" />
+  <variant base="potassium inwardly-rectifying channel, subfamily J, member 3" />
+  <variant base="Kir3.1" />
+  <variant base="GIRK1" />
+</token>
+<token canonical="TRPP2" ref_id="ionchanel:TRPP2">
+  <variant base="TRPP2" />
+</token>
+<token canonical="KIR3.3" ref_id="ionchanel:KIR3.3">
+  <variant base="potassium inwardly-rectifying channel, subfamily J, member 9" />
+  <variant base="Kcnj9" />
+  <variant base="Girk3" />
+  <variant base="Kir3.3" />
+</token>
+<token canonical="KIR3.2" ref_id="ionchanel:KIR3.2">
+  <variant base="KCNJ7" />
+  <variant base="Kcnj6" />
+  <variant base="BIR1" />
+  <variant base="Kir3.2" />
+  <variant base="KATP2" />
+  <variant base="potassium inwardly-rectifying channel, subfamily J, member 6" />
+  <variant base="GIRK2" />
+</token>
+<token canonical="CAV1.2" ref_id="ionchanel:CAV1.2">
+  <variant base="Cacna1c" />
+  <variant base="ca1.2" />
+  <variant base="Cav1.2" />
+  <variant base="cacna1c" />
+  <variant base="calcium channel, voltage-dependent, L type, alpha 1C subunit" />
+  <variant base="cav1.2" />
+</token>
+<token canonical="TRPN" ref_id="ionchanel:TRPN">
+  <variant base="TRPN" />
+</token>
+<token canonical="TRPML3" ref_id="ionchanel:TRPML3">
+  <variant base="TRPML3" />
+</token>
+<token canonical="TRPML2" ref_id="ionchanel:TRPML2">
+  <variant base="TRPML2" />
+</token>
+<token canonical="KIR1.1" ref_id="ionchanel:KIR1.1">
+  <variant base="potassium inwardly-rectifying channel, subfamily J, member 1" />
+  <variant base="Kcnj1" />
+  <variant base="Romk2" />
+  <variant base="ROMK" />
+  <variant base="Kir1.1" />
+</token>
+<token canonical="KV7.4" ref_id="ionchanel:KV7.4">
+  <variant base="potassium voltage-gated channel, KQT-like subfamily, member 4" />
+  <variant base="DFNA2A" />
+  <variant base="DFNA2" />
+  <variant base="KCNQ4" />
+  <variant base="KV7.4" />
+  <variant base="Kv7.4" />
+  <variant base="Kcnq4" />
+</token>
+<token canonical="KIR4.2" ref_id="ionchanel:KIR4.2">
+  <variant base="potassium inwardly-rectifying channel, subfamily J, member 15" />
+  <variant base="Kir4.2" />
+  <variant base="Kcnj15" />
+  <variant base="kcnj15" />
+  <variant base="irkk" />
+</token>
+<token canonical="CACNG2" ref_id="ionchanel:CACNG2">
+  <variant base="calcium channel, voltage-dependent, gamma subunit 2" />
+  <variant base="cacng2" />
+  <variant base="Cacng2" />
+</token>
+<token canonical="CACNG3" ref_id="ionchanel:CACNG3">
+  <variant base="calcium channel, voltage-dependent, gamma subunit 3" />
+  <variant base="cacng3" />
+  <variant base="Cacng3" />
+</token>
+<token canonical="DTRPA1" ref_id="ionchanel:DTRPA1">
+  <variant base="dTRPA1" />
+</token>
+<token canonical="CACNG4" ref_id="ionchanel:CACNG4">
+  <variant base="Cacng4" />
+  <variant base="cacng4" />
+  <variant base="calcium channel, voltage-dependent, gamma subunit 4" />
+</token>
+<token canonical="KIR4.1" ref_id="ionchanel:KIR4.1">
+  <variant base="kcnj10" />
+  <variant base="Kir4.1" />
+  <variant base="potassium inwardly-rectifying channel, subfamily J, member 10" />
+  <variant base="BIR10" />
+  <variant base="Kcnj10" />
+  <variant base="BIRK-1" />
+</token>
+<token canonical="KV5.1" ref_id="ionchanel:KV5.1">
+  <variant base="potassium voltage-gated channel, subfamily F, member 1" />
+  <variant base="kh1" />
+  <variant base="ik8" />
+  <variant base="kcnf1" />
+  <variant base="Kv5.1" />
+  <variant base="kcnf" />
+  <variant base="Kcnf1" />
+</token>
+<token canonical="CACNG8" ref_id="ionchanel:CACNG8">
+  <variant base="cacng8" />
+  <variant base="Cacng8" />
+  <variant base="calcium channel, voltage-dependent, gamma subunit 8" />
+</token>
+<token canonical="TRPN1" ref_id="ionchanel:TRPN1">
+  <variant base="zTRPN1" />
+  <variant base="TRPN1" />
+</token>
+<token canonical="CACNG6" ref_id="ionchanel:CACNG6">
+  <variant base="Cacng6" />
+  <variant base="cacng6" />
+  <variant base="calcium channel, voltage-dependent, gamma subunit 6" />
+</token>
+<token canonical="KIR3.4" ref_id="ionchanel:KIR3.4">
+  <variant base="Kir3.4" />
+  <variant base="Girk4" />
+  <variant base="potassium inwardly-rectifying channel, subfamily J, member 5" />
+  <variant base="Kcnj5" />
+  <variant base="kcnj5" />
+</token>
+<token canonical="KV7.5" ref_id="ionchanel:KV7.5">
+  <variant base="Kv7.5" />
+  <variant base="potassium voltage-gated channel, KQT-like subfamily, member 5" />
+  <variant base="KCNQ5" />
+  <variant base="Kcnq5" />
+</token>
+<token canonical="CLCK1" ref_id="ionchanel:CLCK1">
+  <variant base="Clcnka" />
+  <variant base="ClCK1" />
+  <variant base="chloride channel Ka" />
+  <variant base="clc-k1" />
+</token>
+<token canonical="CLCK2" ref_id="ionchanel:CLCK2">
+  <variant base="clcnkb" />
+  <variant base="chloride channel Kb" />
+  <variant base="clc-k2L" />
+  <variant base="ClCK2" />
+  <variant base="Clcnkb" />
+  <variant base="clck2" />
+</token>
+<token canonical="KV7.2" ref_id="ionchanel:KV7.2">
+  <variant base="potassium voltage-gated channel, KQT-like subfamily, member 2" />
+  <variant base="Kcnq2" />
+  <variant base="EBN" />
+  <variant base="KCNQ2" />
+  <variant base="BFNC" />
+  <variant base="EBN1" />
+  <variant base="HNSPC" />
+  <variant base="ENB1" />
+  <variant base="KCNA11" />
+  <variant base="Kv7.2" />
+  <variant base="KVEBN1" />
+  <variant base="KV7.2" />
+</token>
+<token canonical="KV7.1" ref_id="ionchanel:KV7.1">
+  <variant base="potassium voltage-gated channel, KQT-like subfamily, member 1" />
+  <variant base="JLNS1" />
+  <variant base="LQT" />
+  <variant base="KVLQT1" />
+  <variant base="Kv1.9" />
+  <variant base="KCNA9" />
+  <variant base="KCNQ1" />
+  <variant base="SQT2" />
+  <variant base="RWS" />
+  <variant base="LQT1" />
+  <variant base="WRS" />
+  <variant base="KCNA8" />
+  <variant base="ATFB3" />
+  <variant base="Kcnq1" />
+  <variant base="Kv7.1" />
+  <variant base="ATFB1" />
+</token>
+<token canonical="CACNG5" ref_id="ionchanel:CACNG5">
+  <variant base="cacng5" />
+  <variant base="calcium channel, voltage-dependent, gamma subunit 5" />
+  <variant base="Cacng5" />
+</token>
+<token canonical="KV7.3" ref_id="ionchanel:KV7.3">
+  <variant base="potassium voltage-gated channel, KQT-like subfamily, member 3" />
+  <variant base="BFNC2" />
+  <variant base="Kcnq3" />
+  <variant base="KCNQ3" />
+  <variant base="Kv7.3" />
+  <variant base="EBN2" />
+  <variant base="KV7.3" />
+</token>
+<token canonical="CALG" ref_id="ionchanel:CALG">
+  <variant base="Generic L type Ca" />
+  <variant base="CaLG" />
+</token>
+</synonym>

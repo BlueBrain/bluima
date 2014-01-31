@@ -1,0 +1,39 @@
+*	Equiv T16 T17
+*	Equiv T5 T4
+T22	Positive_regulation 0 9	Induction
+T23	Transcription 32 42	transcript
+T24	Binding 51 59	ligation
+T25	Binding 369 370	-
+T26	Transcription 399 414	transcriptional
+T27	Positive_regulation 499 509	as stimuli
+T28	Positive_regulation 559 584	transcriptional induction
+T29	Binding 600 608	ligation
+T30	Localization 834 842	secreted
+T31	Positive_regulation 858 866	enhanced
+T32	Transcription 876 886	expression
+T33	Binding 1318 1326	ligation
+T34	Positive_regulation 1509 1516	induced
+T35	Positive_regulation 1785 1794	important
+T36	Positive_regulation 1807 1816	induction
+T37	Binding 1825 1833	ligation
+E1	Positive_regulation:T22 Theme:E2
+E2	Transcription:T23 Theme:T1
+E3	Binding:T24 Theme:T2
+E4	Binding:T25 Theme:T3 Theme2:T5
+E5	Transcription:T26 Theme:T6
+E6	Positive_regulation:T27 Theme:E5
+E7	Positive_regulation:T28 Theme:T8 Cause:E9
+E8	Positive_regulation:T28 Theme:T7 Cause:E9
+E9	Binding:T29 Theme:T8
+E10	Localization:T30 Theme:T11
+E11	Positive_regulation:T31 Theme:E12
+E12	Transcription:T32 Theme:T12
+E13	Binding:T33 Theme:T15
+E14	Positive_regulation:T34 Theme:T18
+E15	Positive_regulation:T35 Theme:E16
+E16	Positive_regulation:T36 Theme:T20
+E17	Binding:T37 Theme:T21
+M1	Speculation E5
+M2	Speculation E6
+M3	Negation E14
+M4	Speculation E15

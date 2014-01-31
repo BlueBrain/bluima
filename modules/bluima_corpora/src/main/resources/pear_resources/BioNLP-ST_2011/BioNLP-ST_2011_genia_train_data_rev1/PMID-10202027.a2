@@ -1,0 +1,20 @@
+T8	Positive_regulation 779 792	up-regulation
+T9	Positive_regulation 892 900	occurred
+T10	Positive_regulation 919 928	Increased
+T11	Transcription 946 956	expression
+T12	Gene_expression 946 956	expression
+E1	Positive_regulation:T8 Theme:T3
+E2	Positive_regulation:T8 Theme:T4
+E3	Positive_regulation:T9 Theme:E1
+E4	Positive_regulation:T10 Theme:E10
+E5	Positive_regulation:T10 Theme:E12
+E6	Positive_regulation:T10 Theme:E14
+E7	Positive_regulation:T10 Theme:E13
+E8	Positive_regulation:T10 Theme:E15
+E9	Positive_regulation:T10 Theme:E11
+E10	Transcription:T11 Theme:T6
+E11	Gene_expression:T12 Theme:T6
+E12	Transcription:T11 Theme:T7
+E13	Gene_expression:T12 Theme:T7
+E14	Gene_expression:T12 Theme:T5
+E15	Transcription:T11 Theme:T5

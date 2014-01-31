@@ -1,0 +1,48 @@
+*	Equiv T1 T2
+*	Equiv T17 T18
+*	Equiv T3 T4
+*	Equiv T15 T16
+T36	Regulation 0 14	Autoregulation
+T37	Positive_regulation 323 328	After
+T38	Protein_catabolism 377 385	degraded
+T39	Positive_regulation 515 522	induced
+T40	Protein_catabolism 523 534	degradation
+T41	Phosphorylation 596 611	phosphorylation
+T42	Positive_regulation 663 672	result in
+T43	Entity 673 680	nuclear
+T44	Localization 681 693	mobilization
+T45	Binding 822 832	associated
+T46	Binding 1226 1237	interaction
+T47	Entity 1327 1354	nuclear localization signal
+T48	Positive_regulation 1373 1381	required
+T49	Binding 1402 1409	binding
+T50	Negative_regulation 1420 1430	inhibition
+T51	Positive_regulation 1448 1456	requires
+T52	Positive_regulation 1500 1508	mediates
+T53	Entity 1509 1520	cytoplasmic
+T54	Localization 1521 1530	retention
+T55	Positive_regulation 1596 1606	stimulates
+T56	Transcription 1629 1639	expression
+T57	Gene_expression 1629 1639	expression
+E1	Regulation:T36 Theme:T1
+E2	Positive_regulation:T37 Theme:E3
+E3	Protein_catabolism:T38 Theme:T8
+E4	Positive_regulation:T39 Theme:E5 Cause:T9
+E5	Protein_catabolism:T40 Theme:T10
+E6	Phosphorylation:T41 Theme:T10
+E7	Positive_regulation:T42 Theme:E8 Cause:E4
+E8	Localization:T44 Theme:T12 ToLoc:T43
+E9	Binding:T45 Theme:T13 Theme2:T17
+E10	Binding:T45 Theme:T13 Theme2:T14
+E11	Binding:T45 Theme:T13 Theme2:T15
+E12	Binding:T46 Theme:T26 Theme2:T27
+E13	Positive_regulation:T48 Theme:E14 Cause:T28 CSite:T47
+E14	Binding:T49 Theme:T28 Theme2:T29
+E15	Negative_regulation:T50 Theme:T31 Cause:T30
+E16	Positive_regulation:T51 Theme:E15
+E17	Positive_regulation:T52 Theme:E18
+E18	Localization:T54 Theme:T32 AtLoc:T53
+E19	Positive_regulation:T55 Theme:E21 Cause:T34
+E20	Positive_regulation:T55 Theme:E22 Cause:T34
+E21	Transcription:T56 Theme:T35
+E22	Gene_expression:T57 Theme:T35

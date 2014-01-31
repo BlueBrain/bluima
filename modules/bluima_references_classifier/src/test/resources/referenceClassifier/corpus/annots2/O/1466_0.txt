@@ -1,0 +1,21 @@
+features are identified within the overlap region
+by performing a normalized cross correlation
+within a small search space centered on the
+image feature. The translation that best spatially matches up the feature correspondences
+for the maximum number of features from each
+pair of images in the mosaic is calculated. The
+set of the best alignment translations is then
+used for determining the position of each
+image within the mosaic. The assembled
+images are then combined into one full-scale
+color mosaic image (Figs. 1 and 3). As shown
+in Fig. 4, the accuracy of the alignment and
+normalization routines results in the nearly
+seamless stitching of adjacent tiles. For 3D
+imaging, the process is repeated for each widefield image plane in Z.
+The stitching algorithms currently run on
+Wintel PCs, equipped with a little over 2 GB of
+RAM, and 2–3 Ghz processors. Stitching takes
+approx 0.4 s/pair of images. A 50 × 50 mosaic
+requires approx 30 min for assembly. The
+largest dataset we have processed to date is

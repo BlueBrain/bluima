@@ -1,0 +1,9 @@
+T21	Gene_expression 442 453	coexpressed
+T22	Gene_expression 857 868	coexpressed
+T23	Gene_expression 1382 1393	coexpressed
+E1	Gene_expression:T21 Theme:T6
+E2	Gene_expression:T21 Theme:T7
+E3	Gene_expression:T22 Theme:T11
+E4	Gene_expression:T22 Theme:T12
+E5	Gene_expression:T23 Theme:T19
+E6	Gene_expression:T23 Theme:T20

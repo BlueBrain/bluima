@@ -1,0 +1,42 @@
+*	Equiv T6 T5
+T19	Regulation 0 11	Involvement
+T20	Positive_regulation 52 62	activation
+T21	Positive_regulation 72 85	up-regulation
+T22	Positive_regulation 294 304	stimulates
+T23	Gene_expression 328 338	production
+T24	Positive_regulation 460 467	induced
+T25	Positive_regulation 474 487	up-regulation
+T26	Positive_regulation 491 499	mediated
+T27	Negative_regulation 718 728	suppressed
+T28	Positive_regulation 734 741	induced
+T29	Gene_expression 748 758	production
+T30	Binding 865 870	bound
+T31	Entity 878 907	main NF-kappaB-binding site 2
+T32	Negative_regulation 1111 1120	prevented
+T33	Positive_regulation 1121 1130	induction
+T34	Gene_expression 1140 1150	production
+T35	Positive_regulation 1342 1349	induced
+T36	Positive_regulation 1356 1369	up-regulation
+T37	Positive_regulation 1458 1465	operate
+E1	Regulation:T19 Theme:E3 Cause:E2
+E2	Positive_regulation:T20 Theme:T1
+E3	Positive_regulation:T21 Theme:T2 Cause:T3
+E4	Positive_regulation:T22 Theme:E5
+E5	Gene_expression:T23 Theme:T6
+E6	Positive_regulation:T24 Theme:E7 Cause:T7
+E7	Positive_regulation:T25 Theme:T8
+E8	Positive_regulation:T26 Theme:E6
+E9	Negative_regulation:T27 Theme:E10
+E10	Positive_regulation:T28 Theme:E11 Cause:T10
+E11	Gene_expression:T29 Theme:T11
+E12	Binding:T30 Theme:T13 Site:T31
+E13	Negative_regulation:T32 Theme:E14
+E14	Positive_regulation:T33 Theme:E15 Cause:T16
+E15	Gene_expression:T34 Theme:T15
+E16	Positive_regulation:T35 Theme:E17 Cause:T17
+E17	Positive_regulation:T36 Theme:T18
+E18	Positive_regulation:T37 Theme:E16
+M1	Speculation E8
+M2	Negation E12
+M3	Negation E13
+M4	Speculation E18

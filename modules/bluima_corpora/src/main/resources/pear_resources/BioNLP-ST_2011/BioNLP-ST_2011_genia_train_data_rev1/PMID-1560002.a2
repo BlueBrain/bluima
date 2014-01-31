@@ -1,0 +1,40 @@
+T21	Positive_regulation 41 61	positively regulates
+T22	Transcription 62 75	transcription
+T23	Entity 218 226	ATTTGCAT
+T24	Positive_regulation 236 244	required
+T25	Gene_expression 263 273	expression
+T26	Binding 328 332	bind
+T27	Regulation 486 495	regulates
+T28	Positive_regulation 647 651	role
+T29	Transcription 674 687	transcription
+T30	Regulation 743 749	affect
+T31	Transcription 759 772	transcription
+T32	Transcription 889 902	transcription
+T33	Positive_regulation 926 933	enhance
+T34	Transcription 943 956	transcription
+T35	Positive_regulation 1092 1100	enhanced
+T36	Transcription 1110 1123	transcription
+T37	Positive_regulation 1146 1154	requires
+T38	Positive_regulation 1247 1260	positive role
+T39	Transcription 1322 1335	transcription
+E1	Positive_regulation:T21 Theme:E2 Cause:T1
+E2	Transcription:T22 Theme:T2
+E3	Positive_regulation:T24 Theme:E4 Cause:T3 CSite:T23
+E4	Gene_expression:T25 Theme:T4
+E5	Binding:T26 Theme:T3 Site:T23
+E6	Regulation:T27 Theme:T9 Cause:T8
+E7	Regulation:T27 Theme:T9 Cause:T7
+E8	Positive_regulation:T28 Theme:E9 Cause:T11
+E9	Transcription:T29 Theme:T12
+E10	Regulation:T30 Theme:E11 Cause:T13
+E11	Transcription:T31 Theme:T14
+E12	Transcription:T32 Theme:T15
+E13	Positive_regulation:T33 Theme:E14 Cause:T15
+E14	Transcription:T34 Theme:T16
+E15	Positive_regulation:T35 Theme:E16 Cause:T18
+E16	Transcription:T36 Theme:T19
+E17	Positive_regulation:T37 Theme:E15
+E18	Positive_regulation:T38 Theme:E19
+E19	Transcription:T39 Theme:T20
+M1	Negation E6
+M2	Negation E10

@@ -1,0 +1,31 @@
+*	Equiv T3 T2
+T15	Positive_regulation 12 21	activates
+T16	Transcription 22 35	transcription
+T17	Entity 157 174	GM-kappa B/GC-box
+T18	Entity 179 183	CLE0
+T19	Regulation 259 267	required
+T20	Positive_regulation 280 289	induction
+T21	Positive_regulation 648 656	activate
+T22	Transcription 657 670	transcription
+T23	Gene_expression 691 705	Cotransfection
+T24	Positive_regulation 691 705	Cotransfection
+T25	Positive_regulation 1507 1515	required
+T26	Positive_regulation 1520 1529	induction
+E1	Positive_regulation:T15 Theme:E2
+E2	Transcription:T16 Theme:T1
+E3	Regulation:T19 Theme:E5 Cause:T3 CSite:T18
+E4	Regulation:T19 Theme:E5 Cause:T3 CSite:T17
+E5	Positive_regulation:T20 Theme:T3
+E6	Positive_regulation:T21 Theme:E7
+E7	Transcription:T22 Theme:T4
+E8	Gene_expression:T23 Theme:T7
+E9	Positive_regulation:T24 Theme:E10
+E10	Gene_expression:T23 Theme:T6
+E11	Gene_expression:T23 Theme:T5
+E12	Positive_regulation:T24 Theme:E14
+E13	Positive_regulation:T24 Theme:E8
+E14	Gene_expression:T23 Theme:T8
+E15	Positive_regulation:T24 Theme:E11
+E16	Positive_regulation:T25 Theme:E17
+E17	Positive_regulation:T26 Theme:T14
+M1	Speculation E6

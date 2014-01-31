@@ -1,0 +1,535 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<synonym>
+<token canonical="Executive function" ref_id="nlx_func_20090502">
+  <variant base="Executive function" />
+</token>
+<token canonical="Play activity" ref_id="nlx_func_20090501">
+  <variant base="Play activity" />
+</token>
+<token canonical="Oculomotor function" ref_id="birnlex_1839">
+  <variant base="Oculomotor function" />
+</token>
+<token canonical="Verbal speaking" ref_id="birnlex_1836">
+  <variant base="Verbal speaking" />
+</token>
+<token canonical="Visual system function" ref_id="birnlex_2502">
+  <variant base="Visual system function" />
+</token>
+<token canonical="Smoking" ref_id="birnlex_1835">
+  <variant base="Smoking" />
+  <variant base="Tobacco smoking behavior" />
+</token>
+<token canonical="Vestibular system function" ref_id="birnlex_2503">
+  <variant base="Vestibular system function" />
+</token>
+<token canonical="Fast pain sensation" ref_id="birnlex_1838">
+  <variant base="Fast pain sensation" />
+  <variant base="Fast Pain perception" />
+</token>
+<token canonical="Auditory system function" ref_id="birnlex_2504">
+  <variant base="Auditory system function" />
+</token>
+<token canonical="Visual memory" ref_id="birnlex_1837">
+  <variant base="Visual memory" />
+</token>
+<token canonical="Somatosensory system function" ref_id="birnlex_2505">
+  <variant base="Somatosensory system function" />
+</token>
+<token canonical="Auditory sensation" ref_id="birnlex_1832">
+  <variant base="hearing" />
+  <variant base="audition" />
+  <variant base="Auditory sensation" />
+  <variant base="hearing sensation" />
+  <variant base="auditory perception" />
+</token>
+<token canonical="Autonomic nervous system function" ref_id="birnlex_2506">
+  <variant base="Autonomic nervous system function" />
+</token>
+<token canonical="Anxiety" ref_id="birnlex_1831">
+  <variant base="Anxiety" />
+</token>
+<token canonical="Sympathetic nervous system function" ref_id="birnlex_2507">
+  <variant base="Sympathetic nervous system function" />
+</token>
+<token canonical="Deductive reasoning function" ref_id="birnlex_1834">
+  <variant base="Deductive reasoning function" />
+</token>
+<token canonical="Parasympathetic nervous system function" ref_id="birnlex_2508">
+  <variant base="Parasympathetic nervous system function" />
+</token>
+<token canonical="Memory Process" ref_id="birnlex_1833">
+  <variant base="Memory" />
+  <variant base="Memory Process" />
+</token>
+<token canonical="Proprioceptive system function" ref_id="birnlex_2509">
+  <variant base="Proprioceptive system function" />
+</token>
+<token canonical="Sensory system function" ref_id="birnlex_2500">
+  <variant base="Sensory system function" />
+</token>
+<token canonical="Nervous system function" ref_id="birnlex_2501">
+  <variant base="Nervous system function" />
+</token>
+<token canonical="Visceral sensation" ref_id="birnlex_1828">
+  <variant base="Visceral sensation" />
+  <variant base="Visceral perception" />
+</token>
+<token canonical="Verbal memory" ref_id="birnlex_1829">
+  <variant base="Verbal memory" />
+</token>
+<token canonical="Behavioral activity" ref_id="birnlex_1827">
+  <variant base="Behavioral activity" />
+</token>
+<token canonical="Consciousness" ref_id="nlx_func_1005001">
+  <variant base="Consciousness" />
+</token>
+<token canonical="Sensory memory" ref_id="birnlex_1826">
+  <variant base="Sensory memory" />
+</token>
+<token canonical="Sensory perception" ref_id="birnlex_1825">
+  <variant base="Sensory perception" />
+  <variant base="esthesia" />
+  <variant base="feeling" />
+  <variant base="sensation" />
+  <variant base="aesthesia" />
+</token>
+<token canonical="Electrical sensation" ref_id="birnlex_1824">
+  <variant base="electroception" />
+  <variant base="Electrical sensation" />
+  <variant base="Electrical sense perception" />
+</token>
+<token canonical="Happiness" ref_id="birnlex_1823">
+  <variant base="Happiness" />
+</token>
+<token canonical="Somatic sensation" ref_id="birnlex_1822">
+  <variant base="Somatic sensation" />
+  <variant base="Somatic perception" />
+</token>
+<token canonical="Behavioral system function" ref_id="birnlex_1821">
+  <variant base="Behavioral system function" />
+</token>
+<token canonical="Memory-driven activity" ref_id="birnlex_15022">
+  <variant base="Memory-driven activity" />
+</token>
+<token canonical="Bitter taste sensation" ref_id="birnlex_1820">
+  <variant base="Bitter taste sensation" />
+  <variant base="Bitter taste perception" />
+</token>
+<token canonical="Musculoskeletal equilibrium sensation" ref_id="birnlex_15021">
+  <variant base="postural equilibrium sensation" />
+  <variant base="Musculoskeletal equilibrium sensation" />
+  <variant base="postural balance sense" />
+</token>
+<token canonical="Fluid-coupled ciliary displacement stimulus transduction" ref_id="birnlex_15020">
+  <variant base="Fluid-coupled ciliary displacement stimulus transduction" />
+</token>
+<token canonical="Magnetic field stimulus transduction" ref_id="birnlex_15018">
+  <variant base="magnetoception, sensory transduction of mechanical stimulus" />
+  <variant base="Magnetic field stimulus transduction" />
+</token>
+<token canonical="Solid object-coupled ciliary displacement stimulus transduction" ref_id="birnlex_15019">
+  <variant base="Solid object-coupled ciliary displacement stimulus transduction" />
+</token>
+<token canonical="Touch stimulus transduction" ref_id="birnlex_15011">
+  <variant base="Touch stimulus transduction" />
+</token>
+<token canonical="Topographical memory" ref_id="birnlex_1853">
+  <variant base="Topographical memory" />
+</token>
+<token canonical="Pressure stimulus transduction" ref_id="birnlex_15010">
+  <variant base="Pressure stimulus transduction" />
+</token>
+<token canonical="Working memory" ref_id="birnlex_1856">
+  <variant base="Working memory" />
+</token>
+<token canonical="Sound sensation" ref_id="birnlex_15013">
+  <variant base="sensory detection of sound stimulus" />
+  <variant base="sensory detection of olfactory stimulus" />
+  <variant base="sound perception" />
+  <variant base="Sound sensation" />
+</token>
+<token canonical="Memory recall" ref_id="birnlex_1855">
+  <variant base="Memory recall" />
+</token>
+<token canonical="Echolocation sensation" ref_id="birnlex_15012">
+  <variant base="perception of environment using reflected sound waves" />
+  <variant base="Echolocation sensation" />
+  <variant base="echo location" />
+</token>
+<token canonical="Cold sensation" ref_id="birnlex_15015">
+  <variant base="Cold sensation" />
+</token>
+<token canonical="Spatial memory" ref_id="birnlex_1857">
+  <variant base="Spatial memory" />
+</token>
+<token canonical="Heat sensation" ref_id="birnlex_15014">
+  <variant base="hot sense" />
+  <variant base="Heat sensation" />
+</token>
+<token canonical="Accelleration stimulus transduction" ref_id="birnlex_15017">
+  <variant base="equilibrioception, sensory transduction of mechanical stimulus" />
+  <variant base="Accelleration stimulus transduction" />
+</token>
+<token canonical="Requested recall" ref_id="birnlex_1859">
+  <variant base="Requested recall" />
+</token>
+<token canonical="Ciliary displacement stimulus transduction" ref_id="birnlex_15016">
+  <variant base="Ciliary displacement stimulus transduction" />
+</token>
+<token canonical="Autobiographical memory" ref_id="birnlex_1850">
+  <variant base="Autobiographical memory" />
+</token>
+<token canonical="Verbal function" ref_id="birnlex_1852">
+  <variant base="Verbal function" />
+</token>
+<token canonical="Inductive reasoning activity" ref_id="birnlex_1851">
+  <variant base="Inductive reasoning activity" />
+</token>
+<token canonical="Molecule flow stimulus transduction" ref_id="birnlex_15009">
+  <variant base="Molecule flow stimulus transduction" />
+</token>
+<token canonical="Olfactory stimulus transduction" ref_id="birnlex_15007">
+  <variant base="sensory detection of olfactory stimulus" />
+  <variant base="smell stimulus transduction" />
+  <variant base="sensory detection of smell stimulus" />
+  <variant base="Olfactory stimulus transduction" />
+</token>
+<token canonical="Bicarbonate stimulus transduction" ref_id="birnlex_15008">
+  <variant base="pH stimulus transduction" />
+  <variant base="Bicarbonate stimulus transduction" />
+</token>
+<token canonical="Moral reasoning activity" ref_id="birnlex_1845">
+  <variant base="Moral reasoning activity" />
+</token>
+<token canonical="Chemical stimulus transduction" ref_id="birnlex_15002">
+  <variant base="sensory detection of chemical stimulus" />
+  <variant base="Molecule binding stimulus transduction" />
+  <variant base="Chemical stimulus transduction" />
+</token>
+<token canonical="Olfactory sensation" ref_id="birnlex_1844">
+  <variant base="Olfactory sensation" />
+  <variant base="olfaction" />
+  <variant base="Olfactory perception" />
+</token>
+<token canonical="Mechanical stimulus transduction" ref_id="birnlex_15001">
+  <variant base="sensory detection of mechanical stimulus" />
+  <variant base="Mechanical stimulus transduction" />
+</token>
+<token canonical="Attention" ref_id="birnlex_1843">
+  <variant base="Attention" />
+</token>
+<token canonical="Sensory stimulus transduction" ref_id="birnlex_15000">
+  <variant base="Sensory stimulus transduction" />
+  <variant base="Sensation" />
+</token>
+<token canonical="Anger" ref_id="birnlex_1842">
+  <variant base="Anger" />
+</token>
+<token canonical="Sadness" ref_id="birnlex_1849">
+  <variant base="Sadness" />
+</token>
+<token canonical="Gustatory stimulus transduction" ref_id="birnlex_15006">
+  <variant base="taste stimulus transduction" />
+  <variant base="sensory detection of gustatory stimulus" />
+  <variant base="sensory detection of taste stimulus" />
+  <variant base="Gustatory stimulus transduction" />
+</token>
+<token canonical="Interpretive braille reading" ref_id="birnlex_1848">
+  <variant base="Interpretive braille reading" />
+</token>
+<token canonical="Generative memory activity" ref_id="birnlex_15005">
+  <variant base="Generative memory activity" />
+</token>
+<token canonical="Item recognition activity" ref_id="birnlex_1847">
+  <variant base="Item recognition activity" />
+</token>
+<token canonical="Temperature stimulus transduction" ref_id="birnlex_15004">
+  <variant base="sensory transduction of temperature stimulus" />
+  <variant base="Temperature stimulus transduction" />
+</token>
+<token canonical="Lateralized activity" ref_id="birnlex_1846">
+  <variant base="Lateralized activity" />
+</token>
+<token canonical="Light stimulus transduction" ref_id="birnlex_15003">
+  <variant base="sensory detection of light stimulus" />
+  <variant base="Light stimulus transduction" />
+</token>
+<token canonical="Electroception stimulus transduction" ref_id="birnlex_15017_2">
+  <variant base="electroception, sensory transduction" />
+  <variant base="Electroception stimulus transduction" />
+</token>
+<token canonical="Fear" ref_id="birnlex_1841">
+  <variant base="Fear" />
+</token>
+<token canonical="Sour taste sensation" ref_id="birnlex_1873">
+  <variant base="Sour taste perception" />
+  <variant base="Sour taste sensation" />
+</token>
+<token canonical="Memory function" ref_id="birnlex_1874">
+  <variant base="Memory" />
+  <variant base="Memory function" />
+</token>
+<token canonical="Episodic memory" ref_id="birnlex_1872">
+  <variant base="Episodic memory" />
+</token>
+<token canonical="Communication function" ref_id="birnlex_1870">
+  <variant base="Communication function" />
+</token>
+<token canonical="Verbal writing" ref_id="birnlex_1879">
+  <variant base="Verbal writing" />
+</token>
+<token canonical="Sweet taste sensation" ref_id="birnlex_1877">
+  <variant base="Sweet taste perception" />
+  <variant base="Sweet taste sensation" />
+</token>
+<token canonical="Inductive reasoning function" ref_id="birnlex_1878">
+  <variant base="Inductive reasoning function" />
+</token>
+<token canonical="Memory" ref_id="birnlex_1876">
+  <variant base="Memory" />
+</token>
+<token canonical="Recognition memory" ref_id="birnlex_1860">
+  <variant base="Recognition memory" />
+</token>
+<token canonical="Motor activity" ref_id="birnlex_1862">
+  <variant base="Motor activity" />
+</token>
+<token canonical="Slow pain sensation" ref_id="birnlex_1863">
+  <variant base="Slow pain sensation" />
+  <variant base="Slow Pain perception" />
+</token>
+<token canonical="Free recall function" ref_id="birnlex_1868">
+  <variant base="Free recall function" />
+  <variant base="Free recall" />
+</token>
+<token canonical="Verbal activity" ref_id="birnlex_1869">
+  <variant base="Verbal activity" />
+</token>
+<token canonical="Cognitive function" ref_id="birnlex_1864">
+  <variant base="Cognitive function" />
+</token>
+<token canonical="Motor system function" ref_id="birnlex_1865">
+  <variant base="Motor system function" />
+</token>
+<token canonical="Salty taste sensation" ref_id="birnlex_1867">
+  <variant base="Salty taste sensation" />
+  <variant base="Salty taste perception" />
+</token>
+<token canonical="Photo sensation" ref_id="birnlex_1891">
+  <variant base="Photo perception" />
+  <variant base="Photo sensation" />
+  <variant base="sensory transduction of light stimulus" />
+</token>
+<token canonical="Memory retrieval" ref_id="birnlex_1818">
+  <variant base="Memory retrieval" />
+</token>
+<token canonical="Locomotor activity" ref_id="birnlex_1892">
+  <variant base="Locomotor activity" />
+</token>
+<token canonical="Locomotor function" ref_id="birnlex_1817">
+  <variant base="Locomotor function" />
+</token>
+<token canonical="Working memory function" ref_id="birnlex_1890">
+  <variant base="Working memory" />
+  <variant base="Working memory function" />
+</token>
+<token canonical="Semantic memory" ref_id="birnlex_1819">
+  <variant base="Semantic memory" />
+</token>
+<token canonical="Interpretive listening" ref_id="birnlex_1895">
+  <variant base="Interpretive listening" />
+</token>
+<token canonical="Skeletomotor reflex function" ref_id="birnlex_1896">
+  <variant base="Skeletomotor reflex function" />
+</token>
+<token canonical="Abductive reasoning activity" ref_id="birnlex_1893">
+  <variant base="Abductive reasoning activity" />
+</token>
+<token canonical="Discrimination function" ref_id="birnlex_1894">
+  <variant base="Discrimination function" />
+</token>
+<token canonical="Explicit memory" ref_id="birnlex_1899">
+  <variant base="Explicit memory" />
+</token>
+<token canonical="Proprioception" ref_id="birnlex_1897">
+  <variant base="Proprioceptive sensation" />
+  <variant base="Proprioception" />
+</token>
+<token canonical="Memory acquistion" ref_id="birnlex_1898">
+  <variant base="Memory acquistion" />
+</token>
+<token canonical="Learning" ref_id="nlx_func_090801">
+  <variant base="Learning" />
+</token>
+<token canonical="Taste sensation" ref_id="birnlex_1912">
+  <variant base="Gustatory perception" />
+  <variant base="Taste perception" />
+  <variant base="Taste sensation" />
+</token>
+<token canonical="Saccadic eye movement" ref_id="birnlex_1913">
+  <variant base="Saccadic eye movement" />
+</token>
+<token canonical="Eidetic memory" ref_id="birnlex_1914">
+  <variant base="Photographic memory" />
+  <variant base="Eidetic memory" />
+</token>
+<token canonical="Behavioral process" ref_id="birnlex_1910">
+  <variant base="Behavioral process" />
+</token>
+<token canonical="Deductive reasoning activity" ref_id="birnlex_1911">
+  <variant base="Deductive reasoning activity" />
+</token>
+<token canonical="Cognitive state" ref_id="birnlex_1810">
+  <variant base="Cognitive state" />
+</token>
+<token canonical="Iconic memory" ref_id="birnlex_1811">
+  <variant base="Iconic memory" />
+</token>
+<token canonical="Drawing" ref_id="birnlex_1812">
+  <variant base="Drawing" />
+</token>
+<token canonical="Remote memory" ref_id="birnlex_1813">
+  <variant base="Memory of past events" />
+  <variant base="Remote memory" />
+</token>
+<token canonical="Pain sensation" ref_id="birnlex_1814">
+  <variant base="Ache" />
+  <variant base="Pain perception" />
+  <variant base="Pain" />
+  <variant base="Physical suffering" />
+  <variant base="Pain sensation" />
+  <variant base="Nociception" />
+</token>
+<token canonical="Emotion" ref_id="birnlex_1815">
+  <variant base="Emotion" />
+  <variant base="affective state" />
+</token>
+<token canonical="Memory consolidation" ref_id="birnlex_1816">
+  <variant base="Memory consolidation" />
+</token>
+<token canonical="Discrimination activity" ref_id="birnlex_1809">
+  <variant base="Discrimination activity" />
+</token>
+<token canonical="Free recall" ref_id="birnlex_1808">
+  <variant base="Free recall" />
+</token>
+<token canonical="Autobiographical memory" ref_id="birnlex_1880">
+  <variant base="Autobiographical memory" />
+</token>
+<token canonical="Prospective memory" ref_id="birnlex_1807">
+  <variant base="Prospective memory" />
+</token>
+<token canonical="Feeding" ref_id="birnlex_1881">
+  <variant base="Feeding" />
+  <variant base="Appetitive activity" />
+  <variant base="eating" />
+  <variant base="appetitive activity" />
+</token>
+<token canonical="Temperature sensation" ref_id="birnlex_1806">
+  <variant base="Temperature perception" />
+  <variant base="thermoception" />
+  <variant base="Temperature sensation" />
+</token>
+<token canonical="Abductive reasoning function" ref_id="birnlex_1882">
+  <variant base="Abductive reasoning function" />
+</token>
+<token canonical="Recognition memory function" ref_id="birnlex_1883">
+  <variant base="Recognition memory function" />
+</token>
+<token canonical="Umami taste sensation" ref_id="birnlex_1884">
+  <variant base="Umami taste sensation" />
+  <variant base="Umami taste perception" />
+</token>
+<token canonical="Interpretive vision based reading" ref_id="birnlex_1885">
+  <variant base="Interpretive vision based reading" />
+</token>
+<token canonical="Skeletomotor reflex activity" ref_id="birnlex_1886">
+  <variant base="Skeletomotor reflex activity" />
+</token>
+<token canonical="Working memory" ref_id="birnlex_1887">
+  <variant base="Working memory" />
+</token>
+<token canonical="Appetitive function" ref_id="birnlex_1888">
+  <variant base="Appetitive function" />
+</token>
+<token canonical="Visual sensation" ref_id="birnlex_1909">
+  <variant base="sight" />
+  <variant base="vision" />
+  <variant base="Visual perception" />
+  <variant base="sense of sight" />
+  <variant base="Visual sensation" />
+</token>
+<token canonical="Chemical sensation" ref_id="birnlex_1889">
+  <variant base="chemosensory perception" />
+  <variant base="Chemical sensation" />
+</token>
+<token canonical="Eye movement" ref_id="birnlex_1908">
+  <variant base="Eye movement" />
+</token>
+<token canonical="Requested recall function" ref_id="birnlex_1907">
+  <variant base="Requested recall function" />
+  <variant base="Requested recall" />
+</token>
+<token canonical="Reasoning activity" ref_id="birnlex_1906">
+  <variant base="Reasoning activity" />
+</token>
+<token canonical="Nutrition function" ref_id="birnlex_1905">
+  <variant base="Nutrition function" />
+</token>
+<token canonical="Gustatory system function" ref_id="birnlex_2512">
+  <variant base="Taste system function" />
+  <variant base="Gustatory system function" />
+</token>
+<token canonical="OrEquilibrioception sensation" ref_id="birnlex_1903">
+  <variant base="OrEquilibrioception sensation" />
+  <variant base="Equilibrioception perception" />
+  <variant base="Equilibrioception sensation" />
+  <variant base="Orientation relative to gravity perception" />
+  <variant base="Orientation relative to gravity sensation" />
+</token>
+<token canonical="Kinesthetic system function" ref_id="birnlex_2511">
+  <variant base="Kinesthetic system function" />
+</token>
+<token canonical="Implicit memory" ref_id="birnlex_1904">
+  <variant base="Implicit memory" />
+</token>
+<token canonical="Kinesthetic sensation" ref_id="birnlex_2510">
+  <variant base="kinesthesia" />
+  <variant base="Kinesthetic sensation" />
+</token>
+<token canonical="Inidividual body part movement" ref_id="birnlex_1901">
+  <variant base="Inidividual body part movement" />
+</token>
+<token canonical="Memory retention" ref_id="birnlex_1902">
+  <variant base="Memory retention" />
+</token>
+<token canonical="Magnetic sensation" ref_id="birnlex_1900">
+  <variant base="Magnetic sensation" />
+  <variant base="magnetoception" />
+  <variant base="Magnetic sense perception" />
+  <variant base="magnetoreception" />
+</token>
+<token canonical="Cognitive process" ref_id="birnlex_1800">
+  <variant base="Cognitive process" />
+</token>
+<token canonical="Procedural memory" ref_id="birnlex_1801">
+  <variant base="Practice memory" />
+  <variant base="Motor memory" />
+  <variant base="Procedural memory" />
+</token>
+<token canonical="Reasoning function" ref_id="birnlex_1804">
+  <variant base="Reasoning function" />
+</token>
+<token canonical="Interpretive verbal activity" ref_id="birnlex_1805">
+  <variant base="Interpretive verbal activity" />
+</token>
+<token canonical="Generative verbal activity" ref_id="birnlex_1802">
+  <variant base="Generative verbal activity" />
+</token>
+<token canonical="Touch sensation" ref_id="birnlex_1803">
+  <variant base="Tactile sensation" />
+  <variant base="Touch sensation" />
+  <variant base="Touch perception" />
+  <variant base="Tactile perception" />
+</token>
+</synonym>

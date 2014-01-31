@@ -1,0 +1,5 @@
+*	Equiv T3 T2
+T8	Positive_regulation 221 235	overexpression
+T9	Gene_expression 221 235	overexpression
+E1	Positive_regulation:T8 Theme:E2
+E2	Gene_expression:T9 Theme:T3

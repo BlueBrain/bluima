@@ -1,0 +1,17 @@
+T10	Positive_regulation 337 345	increase
+T11	Positive_regulation 393 402	increased
+T12	Transcription 403 416	transcription
+T13	Positive_regulation 439 450	responsible
+T14	Positive_regulation 474 483	induction
+T15	Entity 569 599	104-bp minimal promoter region
+T16	Positive_regulation 627 637	sufficient
+T17	Positive_regulation 673 682	induction
+T18	Transcription 686 699	transcription
+E1	Positive_regulation:T10 Theme:T4
+E2	Positive_regulation:T11 Theme:E3
+E3	Transcription:T12 Theme:T5
+E4	Positive_regulation:T13 Theme:E5 Cause:E2
+E5	Positive_regulation:T14 Theme:T6
+E6	Positive_regulation:T16 Theme:E7 Cause:T7 CSite:T15
+E7	Positive_regulation:T17 Theme:E8
+E8	Transcription:T18 Theme:T7

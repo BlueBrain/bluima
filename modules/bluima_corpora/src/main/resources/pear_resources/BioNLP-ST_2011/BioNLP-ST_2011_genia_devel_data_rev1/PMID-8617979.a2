@@ -1,0 +1,26 @@
+*	Equiv T3 T4
+T18	Positive_regulation 1207 1214	induced
+T19	Gene_expression 1219 1229	production
+T20	Negative_regulation 1623 1633	inhibition
+T21	Localization 1647 1654	release
+T22	Positive_regulation 1680 1693	up-regulation
+T23	Gene_expression 1715 1725	production
+T24	Negative_regulation 1737 1744	balance
+T25	Gene_expression 1769 1777	produced
+E1	Positive_regulation:T18 Theme:E8
+E2	Positive_regulation:T18 Theme:E6
+E3	Positive_regulation:T18 Theme:E7
+E4	Positive_regulation:T18 Theme:E5
+E5	Gene_expression:T19 Theme:T8
+E6	Gene_expression:T19 Theme:T7
+E7	Gene_expression:T19 Theme:T9
+E8	Gene_expression:T19 Theme:T10
+E9	Negative_regulation:T20 Theme:E10
+E10	Localization:T21 Theme:T14
+E11	Positive_regulation:T22 Theme:E12
+E12	Gene_expression:T23 Theme:T15
+E13	Negative_regulation:T24 Theme:T16 Cause:T17
+E14	Negative_regulation:T24 Theme:T17 Cause:T16
+E15	Gene_expression:T25 Theme:T17
+E16	Gene_expression:T25 Theme:T16
+M1	Negation E1

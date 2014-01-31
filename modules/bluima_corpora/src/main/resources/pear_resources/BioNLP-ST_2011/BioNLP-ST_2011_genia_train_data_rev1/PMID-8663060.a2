@@ -1,0 +1,13 @@
+T15	Negative_regulation 312 318	defect
+T16	Binding 1250 1254	bind
+T17	Gene_expression 1555 1565	expression
+T18	Binding 1618 1629	interaction
+T19	Positive_regulation 1662 1672	contribute
+T20	Gene_expression 1696 1706	expression
+E1	Negative_regulation:T15 Theme:T7
+E2	Binding:T16 Theme:T10
+E3	Gene_expression:T17 Theme:T13
+E4	Binding:T18 Theme:T13
+E5	Positive_regulation:T19 Theme:E6 Cause:E4
+E6	Gene_expression:T20 Theme:T14
+M1	Speculation E5

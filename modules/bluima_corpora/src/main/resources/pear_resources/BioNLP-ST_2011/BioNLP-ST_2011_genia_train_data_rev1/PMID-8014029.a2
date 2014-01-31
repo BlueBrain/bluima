@@ -1,0 +1,52 @@
+*	Equiv T11 T12
+*	Equiv T3 T2
+*	Equiv T5 T4
+T21	Positive_regulation 0 9	Increased
+T22	Transcription 24 37	transcription
+T23	Positive_regulation 134 147	induces hyper
+T24	Gene_expression 147 157	production
+T25	Positive_regulation 290 312	enhanced and prolonged
+T26	Regulation 332 340	response
+T27	Gene_expression 634 644	production
+T28	Negative_regulation 649 658	inhibited
+T29	Regulation 690 700	unaffected
+T30	Positive_regulation 727 738	upregulated
+T31	Positive_regulation 1034 1042	enhanced
+T32	Gene_expression 1053 1062	induction
+T33	Positive_regulation 1117 1156	showed an early peak and more activated
+T34	Regulation 1266 1272	affect
+T35	Negative_regulation 1346 1355	inhibited
+T36	Gene_expression 1366 1375	synthesis
+T37	Positive_regulation 1381 1389	enhanced
+T38	Gene_expression 1395 1405	production
+T39	Regulation 1440 1451	influencing
+T40	Positive_regulation 1463 1483	causing an increased
+T41	Transcription 1489 1502	transcription
+E1	Positive_regulation:T21 Theme:E2
+E2	Transcription:T22 Theme:T1
+E3	Positive_regulation:T23 Theme:E6
+E4	Positive_regulation:T23 Theme:E5
+E5	Gene_expression:T24 Theme:T3
+E6	Gene_expression:T24 Theme:T5
+E7	Positive_regulation:T25 Theme:E10
+E8	Positive_regulation:T25 Theme:E9
+E9	Regulation:T26 Theme:T6
+E10	Regulation:T26 Theme:T7
+E11	Gene_expression:T27 Theme:T8
+E12	Negative_regulation:T28 Theme:E11
+E13	Regulation:T29 Theme:T9
+E14	Positive_regulation:T30 Theme:T9
+E15	Positive_regulation:T31 Theme:E16
+E16	Gene_expression:T32 Theme:T14
+E17	Positive_regulation:T33 Theme:T15
+E18	Regulation:T34 Theme:T16
+E19	Negative_regulation:T35 Theme:E20
+E20	Gene_expression:T36 Theme:T17
+E21	Positive_regulation:T37 Theme:E23 Cause:E24
+E22	Positive_regulation:T37 Theme:E23 Cause:E25
+E23	Gene_expression:T38 Theme:T18
+E24	Regulation:T39 Theme:T19
+E25	Positive_regulation:T40 Theme:E26 Cause:T20
+E26	Transcription:T41 Theme:T20
+M1	Negation E13
+M2	Negation E18

@@ -1,0 +1,15 @@
+Cell body position Layers 4 and 5B Layers 5B and 6
+Layer 4 axonal arborizations Dense None or sparse
+Layer 1 axonal arborizations None or sparse Dense
+Somatostatin All All
+Calbindin None All
+Neuropeptide Y None 40%
+Input resistance 250 M 300 M
+Time constant 20 ms 20 ms
+Spike width 0.5 ms 0.6 ms
+F , initial 200 Hz 200 Hz
+max
+F , steady-state 100 Hz 100 Hz
+max
+Robust stuttering 60% 3%
+Low-threshold spikes 2% 40%

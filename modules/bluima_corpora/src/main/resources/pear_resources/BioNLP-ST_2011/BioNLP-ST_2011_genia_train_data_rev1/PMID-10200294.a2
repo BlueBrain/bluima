@@ -1,0 +1,47 @@
+*	Equiv T9 T8
+*	Equiv T3 T2
+T17	Regulation 56 66	regulating
+T18	Gene_expression 95 110	gene expression
+T19	Positive_regulation 268 275	causing
+T20	Localization 276 285	secretion
+T21	Gene_expression 457 472	gene expression
+T22	Regulation 489 498	regulated
+T23	Regulation 541 548	control
+T24	Transcription 559 577	gene transcription
+T25	Entity 725 743	DNA-binding domain
+T26	Binding 957 964	binding
+T27	Positive_regulation 1226 1235	induction
+T28	Regulation 1240 1249	dependent
+T29	Negative_regulation 1338 1348	Inhibition
+T30	Transcription 1363 1373	expression
+T31	Negative_regulation 1389 1412	resulted in a reduction
+T32	Transcription 1426 1437	transcripts
+T33	Positive_regulation 1452 1462	high level
+T34	Transcription 1466 1476	expression
+T35	Regulation 1787 1791	role
+T36	Positive_regulation 1799 1809	activation
+T37	Regulation 1870 1877	control
+T38	Gene_expression 1888 1903	gene expression
+E1	Regulation:T17 Theme:E2
+E2	Gene_expression:T18 Theme:T1
+E3	Positive_regulation:T19 Theme:E4
+E4	Localization:T20 Theme:T3
+E5	Gene_expression:T21 Theme:T5
+E6	Regulation:T22 Theme:E5
+E7	Regulation:T23 Theme:E8
+E8	Transcription:T24 Theme:T6
+E9	Binding:T26 Theme:T7 Site:T25
+E10	Positive_regulation:T27 Theme:T9
+E11	Regulation:T28 Theme:E10
+E12	Negative_regulation:T29 Theme:E13
+E13	Transcription:T30 Theme:T10
+E14	Negative_regulation:T31 Theme:E15 Cause:E12
+E15	Transcription:T32 Theme:T11
+E16	Positive_regulation:T33 Theme:E17
+E17	Transcription:T34 Theme:T12
+E18	Regulation:T35 Theme:E19 Cause:T14
+E19	Positive_regulation:T36 Theme:T15
+E20	Regulation:T37 Theme:E21 Cause:T14
+E21	Gene_expression:T38 Theme:T16
+M1	Speculation E6
+M2	Speculation E7

@@ -1,0 +1,43 @@
+*	Equiv T6 T5
+*	Equiv T3 T4
+T20	Regulation 22 31	dependent
+T21	Positive_regulation 32 41	induction
+T22	Gene_expression 59 74	gene expression
+T23	Regulation 135 144	sensitive
+T24	Positive_regulation 145 163	activating pathway
+T25	Entity 178 185	nuclear
+T26	Localization 186 199	translocation
+T27	Positive_regulation 378 387	inducible
+T28	Gene_expression 388 398	expression
+T29	Regulation 477 481	role
+T30	Gene_expression 542 552	expression
+T31	Positive_regulation 625 634	activator
+T32	Gene_expression 643 658	gene expression
+T33	Positive_regulation 668 677	producing
+T34	Transcription 688 697	induction
+T35	Positive_regulation 920 927	induces
+T36	Localization 936 949	translocation
+T37	Binding 1021 1028	binding
+T38	Regulation 1304 1310	effect
+T39	Binding 1330 1337	binding
+E1	Regulation:T20 Theme:E2
+E2	Positive_regulation:T21 Theme:E3 Cause:T2
+E3	Gene_expression:T22 Theme:T1
+E4	Regulation:T23 Theme:E5
+E5	Positive_regulation:T24 Theme:T1
+E6	Localization:T26 Theme:T1 ToLoc:T25
+E7	Positive_regulation:T27 Theme:E8
+E8	Gene_expression:T28 Theme:T6
+E9	Regulation:T29 Theme:E10
+E10	Gene_expression:T30 Theme:T8
+E11	Positive_regulation:T31 Theme:E12 Cause:T9
+E12	Gene_expression:T32 Theme:T10
+E13	Positive_regulation:T33 Theme:E14 Cause:T9
+E14	Transcription:T34 Theme:T10
+E15	Positive_regulation:T35 Theme:E16 Cause:T14
+E16	Localization:T36 Theme:T15
+E17	Binding:T37 Theme:T15
+E18	Regulation:T38 Theme:E19
+E19	Binding:T39 Theme:T17
+M1	Speculation E9
+M2	Negation E18

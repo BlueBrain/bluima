@@ -1,0 +1,40 @@
+Estimation of branching and terminating probabilities
+The probabilities of branching or terminating per unit length,
+Pbrand P,,,, respectively, wereestimateddirectly from observed
+morphological data. The original data were obtained by measuring motoneuronal dendrites as successionsof cylindrical
+“segments,” each with a constant diameter and a measured
+length (Cullheim et al., 1987a).Any given “branch” (delimited
+on either end by soma, branch points, or termination) in the
+original datasetwasrepresentedasasequenceof oneor (usually)
+more segmentsm, ost of them with lengths1200 Wm.The 1974
+branchesinthesampleincludedmorethan4000suchsegments.
+The relations betweend, and L,, shown in Figure 1 suggested
+that Pbrand P,,, might be functions of local branch diameter,
+d, (i.e., the diameter of the ith segment).We initially assumed
+that these probabilities were independent of branch position
+within the growing dendritic tree (i.e., branch order, length, or
+distancefrom the somatic origin). Accordingly, we assembled
+all of the segmentdata in groupsaccordingto segmentdiameter
+bins, d, with bin widths that dependedon the local density of
+data points (Fig. 1; bin widths: 0.25 pm ford, ~2.0 pm, 0.5 pm
+for 2.0 > d, I 4.0 pm, and 1.0 pm ford, > 4.0 Fm).
+Figure 2A showsa plot of the number of parent segments,
+N,,,(d), the number of terminating segments,N,,,(d), and the
+total length of all segmentsin diameter bin d, U(d), on log-log
+coordinates(in order to display more clearly the important re-lationsatsmalllocaldiameters).Brancheswithdbetween0.75
+and 2.25 pm (denotedthe “overlap region”) either branchedor
+terminated, and N,,(d) and N,,,(d) exhibited reciprocal changes
+while Zl(d) remained relatively constant.
+The probabilities of branching or terminating per unit length
+for segmentswithin a given bin d wereestimatedfrom the ratios
+of the number of branching or terminating segmentsin eachbin
+divided by the total length of segmentsin the bins:
+(2)
+and
+Ptrrn(d)= N,rmWWJ. (3)
+Figure 2B is a semilogarithmic plot of the probabilities derived
+from thesedata with AL = 25 pm, which was usedfor most
+simulations,sinceitprovedtobeagoodcompromisebetween
+computational efficiency and length resolution. The log of the
+discretevalues of P,,,(d) varied inversely with d and were well
+fittedbyasingleexponentialrelationwithnegativeslope.In

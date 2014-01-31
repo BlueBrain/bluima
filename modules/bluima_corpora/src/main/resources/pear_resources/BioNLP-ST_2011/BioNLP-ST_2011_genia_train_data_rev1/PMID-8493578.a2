@@ -1,0 +1,32 @@
+T20	Regulation 0 10	Regulation
+T21	Binding 60 67	binding
+T22	Binding 478 483	binds
+T23	Binding 544 549	binds
+T24	Phosphorylation 569 588	underphosphorylated
+T25	Negative_regulation 569 588	underphosphorylated
+T26	Binding 613 617	bind
+T27	Binding 726 737	association
+T28	Phosphorylation 821 836	phosphorylation
+T29	Positive_regulation 843 850	results
+T30	Localization 858 865	release
+T31	Gene_expression 960 974	Overexpression
+T32	Positive_regulation 960 974	Overexpression
+T33	Phosphorylation 980 1010	phosphorylation-defective form
+T34	Binding 1117 1126	interacts
+E1	Regulation:T20 Theme:T1 Cause:E2
+E2	Binding:T21 Theme:T2
+E3	Binding:T22 Theme:T6 Theme2:T8
+E4	Binding:T23 Theme:T9 Theme2:T10
+E5	Phosphorylation:T24 Theme:T10
+E6	Negative_regulation:T25 Theme:E5
+E7	Binding:T26 Theme:T9 Theme2:T11
+E8	Binding:T27 Theme:T12 Theme2:T13
+E9	Phosphorylation:T28 Theme:T14
+E10	Positive_regulation:T29 Theme:E11 Cause:E9
+E11	Localization:T30 Theme:T15
+E12	Gene_expression:T31 Theme:T17
+E13	Positive_regulation:T32 Theme:E12
+E14	Phosphorylation:T33 Theme:T17
+E15	Binding:T34 Theme:T19
+M1	Negation E7
+M2	Negation E14

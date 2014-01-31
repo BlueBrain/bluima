@@ -1,0 +1,20 @@
+*	Equiv T3 T2
+T14	Positive_regulation 356 366	activation
+T15	Regulation 458 466	regulate
+T16	Transcription 472 485	transcription
+T17	Regulation 544 550	acting
+T18	Entity 594 613	NF-AT binding sites
+T19	Transcription 820 833	transcription
+T20	Regulation 846 856	controlled
+T21	Binding 958 965	binding
+T22	Positive_regulation 1160 1183	functional in promoting
+E1	Positive_regulation:T14 Theme:T3
+E2	Regulation:T15 Theme:E4
+E3	Regulation:T15 Theme:E4 Cause:E5
+E4	Transcription:T16 Theme:T7
+E5	Regulation:T17 Theme:T8 Site:T18
+E6	Transcription:T19 Theme:T12
+E7	Regulation:T20 Theme:E6
+E8	Binding:T21 Theme:T8 Site:T18
+E9	Positive_regulation:T22 Theme:E6
+M1	Speculation E1

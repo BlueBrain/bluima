@@ -1,0 +1,8 @@
+*	Equiv T2 T1
+T4	Positive_regulation 235 250	gene activation
+T5	Negative_regulation 392 399	inhibit
+T6	Localization 439 446	release
+E1	Positive_regulation:T4 Theme:T2
+E2	Negative_regulation:T5 Theme:E3
+E3	Localization:T6 Theme:T3
+M1	Speculation E1

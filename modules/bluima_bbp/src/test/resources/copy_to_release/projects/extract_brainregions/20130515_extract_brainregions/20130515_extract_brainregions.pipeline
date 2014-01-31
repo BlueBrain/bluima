@@ -1,0 +1,57 @@
+############################################
+#
+# using BR NER
+#
+############################################
+
+# TESTING
+#cr: PubmedDatabaseCR
+# db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" }
+# between__java: new int[]{126,350}
+# between__java: new int[]{1000000,1005000}
+
+# CLUSTER
+cr: PubmedDatabaseCR
+ between__java: new int[]{$1,$2}
+
+# ABSTRACTS
+#cr: PubmedWholeDatabaseCR
+# db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" }
+
+# FT
+#cr: ch.epfl.bbp.uima.mongo.MongoCollectionReader
+# db_connection__java: new String[]{  "128.178.187.248", "preprocessed_2", "20130327_preprocess_ft", "", ""}
+
+############################################
+
+ae: SentenceAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz
+
+# needed!
+ae: TokenAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/token/TokenizerGenia.bin.gz
+
+
+############################################
+
+ae: BrainRegionAnnotator
+ modelFile: $ROOT/modules/bluima_regions/resources/models/20130515_BrainRegion.model
+ mode: infer
+
+
+ae: DeduplicatorAnnotator
+ annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.BrainRegion"}
+
+
+#ae: HtmlViewerWriter
+
+############################################
+
+ae: ExtractBrainregionsCoocurrences2
+ outputDir: $3
+ #outputDir: 20130515_ExtractBrainregionsCoocurrences
+ #outputDir: 20130504_ExtractBrainregionsCoocurrences_FT
+ #document_level__java: false
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 1000

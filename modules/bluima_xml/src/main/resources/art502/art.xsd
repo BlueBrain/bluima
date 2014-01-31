@@ -1,0 +1,2718 @@
+<schema xmlns='http://www.w3.org/2000/10/XMLSchema'
+	targetNamespace='http://www.w3.org/namespace/' xmlns:t='http://www.w3.org/namespace/'>
+
+	<element name='ce:text'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name='ce:textfn'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name='ce:textref'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name='ce:label'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name='ce:section-title'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+			</sequence>
+		</complexType>
+	</element>
+
+	<element name='ce:pii'>
+		<complexType mixed='true'>
+		</complexType>
+	</element>
+
+	<element name='ce:doi'>
+		<complexType mixed='true'>
+		</complexType>
+	</element>
+
+	<element name='ce:isbn'>
+		<complexType mixed='true'>
+		</complexType>
+	</element>
+
+	<element name='ce:issn'>
+		<complexType mixed='true'>
+		</complexType>
+	</element>
+
+	<element name='ce:document-thread'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:refers-to-document'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:copyright'>
+		<complexType mixed='true'>
+			<attribute name='type' use='required'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='full-transfer' />
+						<enumeration value='limited-transfer' />
+						<enumeration value='no-transfer' />
+						<enumeration value='unknown' />
+						<enumeration value='us-gov' />
+						<enumeration value='crown' />
+						<enumeration value='society' />
+						<enumeration value='other' />
+						<enumeration value='joint' />
+					</restriction>
+				</simpleType>
+			</attribute>
+			<attribute name='year' type='NMTOKEN' use='required' />
+		</complexType>
+	</element>
+
+	<element name='ce:copyright-line'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:doctopics'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:doctopic'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='role' type='string' use='optional' />
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:preprint'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:article-footnote'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:markers'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:marker'>
+		<complexType>
+			<attribute name='name' type='string' use='required' />
+			<attribute name='alt' type='string' use='required' />
+			<attribute name='altimg' type='string' use='required' />
+			<attribute name='altimg-small' type='string' use='required' />
+		</complexType>
+	</element>
+
+	<element name='ce:dochead'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:title'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:alt-title'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='xml:lang' use='required'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='de' />
+							<enumeration value='en' />
+							<enumeration value='es' />
+							<enumeration value='fr' />
+							<enumeration value='pt' />
+							<enumeration value='ru' />
+						</restriction>
+					</simpleType>
+				</attribute>
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:subtitle'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:alt-subtitle'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='xml:lang' use='required'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='de' />
+							<enumeration value='en' />
+							<enumeration value='es' />
+							<enumeration value='fr' />
+							<enumeration value='pt' />
+							<enumeration value='ru' />
+						</restriction>
+					</simpleType>
+				</attribute>
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:presented'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:dedication'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:author-group'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:collaboration'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:collab-aff'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:author'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+				<attribute name='author-id' type='string' use='optional' />
+				<attribute name='biographyid' type='IDREF' use='optional' />
+			</sequence>
+
+		</complexType>
+	</element>
+
+	<element name='ce:initials'>
+		<complexType mixed='true'>
+		</complexType>
+	</element>
+
+	<element name='ce:indexed-name'>
+		<complexType mixed='true'>
+		</complexType>
+	</element>
+
+	<element name='ce:degrees'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />          </sequence>
+				
+		</complexType>
+	</element>
+
+	<element name='ce:given-name'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />          </sequence>
+				
+		</complexType>
+	</element>
+
+	<element name='ce:surname'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />          </sequence>
+				
+		</complexType>
+	</element>
+
+	<element name='ce:suffix'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:ranking'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:roles'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:correspondence'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='required' />
+		</complexType>
+	</element>
+
+	<element name='ce:e-address'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='type' use='default' value='email'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='email' />
+							<enumeration value='url' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:affiliation'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:date-received'>
+		<complexType>
+			<attribute name='day' type='NMTOKEN' use='optional' />
+			<attribute name='month' type='NMTOKEN' use='required' />
+			<attribute name='year' type='NMTOKEN' use='required' />
+		</complexType>
+	</element>
+
+	<element name='ce:date-revised'>
+		<complexType>
+			<attribute name='day' type='NMTOKEN' use='optional' />
+			<attribute name='month' type='NMTOKEN' use='required' />
+			<attribute name='year' type='NMTOKEN' use='required' />
+		</complexType>
+	</element>
+
+	<element name='ce:date-accepted'>
+		<complexType>
+			<attribute name='day' type='NMTOKEN' use='optional' />
+			<attribute name='month' type='NMTOKEN' use='required' />
+			<attribute name='year' type='NMTOKEN' use='required' />
+		</complexType>
+	</element>
+
+	<element name='ce:miscellaneous'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:abstract'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='class' use='default' value='author'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='author' />
+							<enumeration value='editor' />
+							<enumeration value='graphical' />
+							<enumeration value='teaser' />
+						</restriction>
+					</simpleType>
+				</attribute>
+				<attribute name='xml:lang' use='optional'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='aa' />
+							<enumeration value='ab' />
+							<enumeration value='af' />
+							<enumeration value='am' />
+							<enumeration value='ar' />
+							<enumeration value='as' />
+							<enumeration value='ay' />
+							<enumeration value='az' />
+							<enumeration value='ba' />
+							<enumeration value='be' />
+							<enumeration value='bg' />
+							<enumeration value='bh' />
+							<enumeration value='bi' />
+							<enumeration value='bn' />
+							<enumeration value='bo' />
+							<enumeration value='br' />
+							<enumeration value='ca' />
+							<enumeration value='co' />
+							<enumeration value='cs' />
+							<enumeration value='cy' />
+							<enumeration value='da' />
+							<enumeration value='de' />
+							<enumeration value='dz' />
+							<enumeration value='el' />
+							<enumeration value='en' />
+							<enumeration value='eo' />
+							<enumeration value='es' />
+							<enumeration value='et' />
+							<enumeration value='eu' />
+							<enumeration value='fa' />
+							<enumeration value='fi' />
+							<enumeration value='fj' />
+							<enumeration value='fo' />
+							<enumeration value='fr' />
+							<enumeration value='fy' />
+							<enumeration value='ga' />
+							<enumeration value='gd' />
+							<enumeration value='gl' />
+							<enumeration value='gn' />
+							<enumeration value='gu' />
+							<enumeration value='ha' />
+							<enumeration value='he' />
+							<enumeration value='hi' />
+							<enumeration value='hr' />
+							<enumeration value='hu' />
+							<enumeration value='hy' />
+							<enumeration value='ia' />
+							<enumeration value='id' />
+							<enumeration value='ie' />
+							<enumeration value='ik' />
+							<enumeration value='is' />
+							<enumeration value='it' />
+							<enumeration value='ja' />
+							<enumeration value='jw' />
+							<enumeration value='ka' />
+							<enumeration value='kk' />
+							<enumeration value='kl' />
+							<enumeration value='km' />
+							<enumeration value='kn' />
+							<enumeration value='ko' />
+							<enumeration value='ks' />
+							<enumeration value='ku' />
+							<enumeration value='ky' />
+							<enumeration value='la' />
+							<enumeration value='ln' />
+							<enumeration value='lo' />
+							<enumeration value='lt' />
+							<enumeration value='lv' />
+							<enumeration value='mg' />
+							<enumeration value='mi' />
+							<enumeration value='mk' />
+							<enumeration value='ml' />
+							<enumeration value='mn' />
+							<enumeration value='mo' />
+							<enumeration value='mr' />
+							<enumeration value='ms' />
+							<enumeration value='mt' />
+							<enumeration value='my' />
+							<enumeration value='na' />
+							<enumeration value='ne' />
+							<enumeration value='nl' />
+							<enumeration value='no' />
+							<enumeration value='oc' />
+							<enumeration value='om' />
+							<enumeration value='or' />
+							<enumeration value='pa' />
+							<enumeration value='pl' />
+							<enumeration value='ps' />
+							<enumeration value='pt' />
+							<enumeration value='qu' />
+							<enumeration value='rm' />
+							<enumeration value='rn' />
+							<enumeration value='ro' />
+							<enumeration value='ru' />
+							<enumeration value='rw' />
+							<enumeration value='sa' />
+							<enumeration value='sd' />
+							<enumeration value='sg' />
+							<enumeration value='si' />
+							<enumeration value='sk' />
+							<enumeration value='sl' />
+							<enumeration value='sm' />
+							<enumeration value='sn' />
+							<enumeration value='so' />
+							<enumeration value='sq' />
+							<enumeration value='sr' />
+							<enumeration value='ss' />
+							<enumeration value='st' />
+							<enumeration value='su' />
+							<enumeration value='sv' />
+							<enumeration value='sw' />
+							<enumeration value='ta' />
+							<enumeration value='te' />
+							<enumeration value='tg' />
+							<enumeration value='th' />
+							<enumeration value='ti' />
+							<enumeration value='tk' />
+							<enumeration value='tl' />
+							<enumeration value='tn' />
+							<enumeration value='to' />
+							<enumeration value='tr' />
+							<enumeration value='ts' />
+							<enumeration value='tt' />
+							<enumeration value='tw' />
+							<enumeration value='uk' />
+							<enumeration value='ur' />
+							<enumeration value='uz' />
+							<enumeration value='vi' />
+							<enumeration value='vo' />
+							<enumeration value='wo' />
+							<enumeration value='xh' />
+							<enumeration value='yi' />
+							<enumeration value='yo' />
+							<enumeration value='zh' />
+							<enumeration value='zu' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:abstract-sec'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:keywords'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='class' type='string' use='default' value='keyword' />
+				<attribute name='xml:lang' use='optional'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='de' />
+							<enumeration value='en' />
+							<enumeration value='es' />
+							<enumeration value='fr' />
+							<enumeration value='pt' />
+							<enumeration value='ru' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:keyword'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:stereochem'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:compound-struct'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:compound-name'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:compound-formula'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:compound-info'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:nomenclature'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:salutation'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:sections'>
+		<complexType>
+			<sequence>
+				<sequence>
+					<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:appendices'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='view' use='default' value='all'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='compact' />
+							<enumeration value='standard' />
+							<enumeration value='extended' />
+							<enumeration value='compact-standard' />
+							<enumeration value='standard-extended' />
+							<enumeration value='all' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:section'>
+		<complexType>
+			<sequence>
+				<sequence>
+					<sequence>
+						<element ref='t:ce' />
+						<attribute name='id' type='ID' use='optional' />
+						<attribute name='role' type='string' use='optional' />
+						<attribute name='view' use='default' value='all'>
+							<simpleType>
+								<restriction base='string'>
+									<enumeration value='compact' />
+									<enumeration value='standard' />
+									<enumeration value='extended' />
+									<enumeration value='compact-standard' />
+									<enumeration value='standard-extended' />
+									<enumeration value='all' />
+								</restriction>
+							</simpleType>
+						</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:para'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+				<attribute name='view' use='default' value='all'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='compact' />
+							<enumeration value='standard' />
+							<enumeration value='extended' />
+							<enumeration value='compact-standard' />
+							<enumeration value='standard-extended' />
+							<enumeration value='all' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:simple-para'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+				<attribute name='view' use='default' value='all'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='compact' />
+							<enumeration value='standard' />
+							<enumeration value='extended' />
+							<enumeration value='compact-standard' />
+							<enumeration value='standard-extended' />
+							<enumeration value='all' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:note-para'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:intro'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:acknowledgment'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:bibliography'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+				<attribute name='view' use='default' value='all'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='compact' />
+							<enumeration value='standard' />
+							<enumeration value='extended' />
+							<enumeration value='compact-standard' />
+							<enumeration value='standard-extended' />
+							<enumeration value='all' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:bibliography-sec'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:bib-reference'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='required' />
+		</complexType>
+	</element>
+
+	<element name='ce:note'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='sb:reference'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='xmlns:sb' type='string' use='fixed'
+					value='http://www.elsevier.com/xml/common/struct-bib/dtd' />
+		</complexType>
+	</element>
+
+	<element name='sb:contribution'>
+		<complexType>
+			<sequence>
+				<element ref='t:sb' />
+				<attribute name='langtype' use='default' value='en'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='en' />
+							<enumeration value='non-en' />
+							<enumeration value='iso' />
+							<enumeration value='unknown' />
+						</restriction>
+					</simpleType>
+				</attribute>
+				<attribute name='xml:lang' use='optional'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='aa' />
+							<enumeration value='ab' />
+							<enumeration value='af' />
+							<enumeration value='am' />
+							<enumeration value='ar' />
+							<enumeration value='as' />
+							<enumeration value='ay' />
+							<enumeration value='az' />
+							<enumeration value='ba' />
+							<enumeration value='be' />
+							<enumeration value='bg' />
+							<enumeration value='bh' />
+							<enumeration value='bi' />
+							<enumeration value='bn' />
+							<enumeration value='bo' />
+							<enumeration value='br' />
+							<enumeration value='ca' />
+							<enumeration value='co' />
+							<enumeration value='cs' />
+							<enumeration value='cy' />
+							<enumeration value='da' />
+							<enumeration value='de' />
+							<enumeration value='dz' />
+							<enumeration value='el' />
+							<enumeration value='en' />
+							<enumeration value='eo' />
+							<enumeration value='es' />
+							<enumeration value='et' />
+							<enumeration value='eu' />
+							<enumeration value='fa' />
+							<enumeration value='fi' />
+							<enumeration value='fj' />
+							<enumeration value='fo' />
+							<enumeration value='fr' />
+							<enumeration value='fy' />
+							<enumeration value='ga' />
+							<enumeration value='gd' />
+							<enumeration value='gl' />
+							<enumeration value='gn' />
+							<enumeration value='gu' />
+							<enumeration value='ha' />
+							<enumeration value='he' />
+							<enumeration value='hi' />
+							<enumeration value='hr' />
+							<enumeration value='hu' />
+							<enumeration value='hy' />
+							<enumeration value='ia' />
+							<enumeration value='id' />
+							<enumeration value='ie' />
+							<enumeration value='ik' />
+							<enumeration value='is' />
+							<enumeration value='it' />
+							<enumeration value='ja' />
+							<enumeration value='jw' />
+							<enumeration value='ka' />
+							<enumeration value='kk' />
+							<enumeration value='kl' />
+							<enumeration value='km' />
+							<enumeration value='kn' />
+							<enumeration value='ko' />
+							<enumeration value='ks' />
+							<enumeration value='ku' />
+							<enumeration value='ky' />
+							<enumeration value='la' />
+							<enumeration value='ln' />
+							<enumeration value='lo' />
+							<enumeration value='lt' />
+							<enumeration value='lv' />
+							<enumeration value='mg' />
+							<enumeration value='mi' />
+							<enumeration value='mk' />
+							<enumeration value='ml' />
+							<enumeration value='mn' />
+							<enumeration value='mo' />
+							<enumeration value='mr' />
+							<enumeration value='ms' />
+							<enumeration value='mt' />
+							<enumeration value='my' />
+							<enumeration value='na' />
+							<enumeration value='ne' />
+							<enumeration value='nl' />
+							<enumeration value='no' />
+							<enumeration value='oc' />
+							<enumeration value='om' />
+							<enumeration value='or' />
+							<enumeration value='pa' />
+							<enumeration value='pl' />
+							<enumeration value='ps' />
+							<enumeration value='pt' />
+							<enumeration value='qu' />
+							<enumeration value='rm' />
+							<enumeration value='rn' />
+							<enumeration value='ro' />
+							<enumeration value='ru' />
+							<enumeration value='rw' />
+							<enumeration value='sa' />
+							<enumeration value='sd' />
+							<enumeration value='sg' />
+							<enumeration value='si' />
+							<enumeration value='sk' />
+							<enumeration value='sl' />
+							<enumeration value='sm' />
+							<enumeration value='sn' />
+							<enumeration value='so' />
+							<enumeration value='sq' />
+							<enumeration value='sr' />
+							<enumeration value='ss' />
+							<enumeration value='st' />
+							<enumeration value='su' />
+							<enumeration value='sv' />
+							<enumeration value='sw' />
+							<enumeration value='ta' />
+							<enumeration value='te' />
+							<enumeration value='tg' />
+							<enumeration value='th' />
+							<enumeration value='ti' />
+							<enumeration value='tk' />
+							<enumeration value='tl' />
+							<enumeration value='tn' />
+							<enumeration value='to' />
+							<enumeration value='tr' />
+							<enumeration value='ts' />
+							<enumeration value='tt' />
+							<enumeration value='tw' />
+							<enumeration value='uk' />
+							<enumeration value='ur' />
+							<enumeration value='uz' />
+							<enumeration value='vi' />
+							<enumeration value='vo' />
+							<enumeration value='wo' />
+							<enumeration value='xh' />
+							<enumeration value='yi' />
+							<enumeration value='yo' />
+							<enumeration value='zh' />
+							<enumeration value='zu' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='sb:host'>
+		<complexType>
+			<sequence>
+				<sequence>
+					<sequence>
+						<element ref='t:sb' />
+		</complexType>
+	</element>
+
+	<element name='sb:comment'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='sb:authors'>
+		<complexType>
+			<sequence>
+				<sequence>
+					<element ref='t:sb' />
+		</complexType>
+	</element>
+
+	<element name='sb:collaboration'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='sb:author'>
+		<complexType>
+			<sequence>
+				<sequence>
+					<sequence>
+						<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='sb:et-al'>
+		<complexType />
+	</element>
+
+	<element name='sb:title'>
+		<complexType>
+			<sequence>
+				<element ref='t:sb' />
+		</complexType>
+	</element>
+
+	<element name='sb:translated-title'>
+		<complexType>
+			<sequence>
+				<element ref='t:sb' />
+		</complexType>
+	</element>
+
+	<element name='sb:maintitle'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='sb:subtitle'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='sb:issue'>
+		<complexType>
+			<sequence>
+				<element ref='t:sb' />
+		</complexType>
+	</element>
+
+	<element name='sb:conference'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='sb:editors'>
+		<complexType>
+			<sequence>
+				<element ref='t:sb' />
+		</complexType>
+	</element>
+
+	<element name='sb:editor'>
+		<complexType>
+			<sequence>
+				<sequence>
+					<sequence>
+						<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='sb:series'>
+		<complexType>
+			<sequence>
+				<sequence>
+					<sequence>
+						<sequence>
+							<element ref='t:sb' />
+		</complexType>
+	</element>
+
+	<element name='sb:volume-nr'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='sb:issue-nr'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='sb:date'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='sb:pages'>
+		<complexType>
+			<sequence>
+				<element ref='t:sb' />
+		</complexType>
+	</element>
+
+	<element name='sb:first-page'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='sb:last-page'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='sb:book'>
+		<complexType>
+			<sequence>
+				<sequence>
+					<sequence>
+						<sequence>
+							<element ref='t:sb' />
+		</complexType>
+	</element>
+
+	<element name='sb:edition'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='sb:publisher'>
+		<complexType>
+			<sequence>
+				<element ref='t:sb' />
+		</complexType>
+	</element>
+
+	<element name='sb:name'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='sb:location'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='sb:edited-book'>
+		<complexType>
+			<sequence>
+				<element ref='t:sb' />
+		</complexType>
+	</element>
+
+	<element name='sb:book-series'>
+		<complexType>
+			<sequence>
+				<element ref='t:sb' />
+		</complexType>
+	</element>
+
+	<element name='sb:e-host'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='sb:issn'>
+		<complexType mixed='true'>
+		</complexType>
+	</element>
+
+	<element name='sb:isbn'>
+		<complexType mixed='true'>
+		</complexType>
+	</element>
+
+	<element name='ce:other-ref'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:further-reading'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+				<attribute name='view' use='default' value='all'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='compact' />
+							<enumeration value='standard' />
+							<enumeration value='extended' />
+							<enumeration value='compact-standard' />
+							<enumeration value='standard-extended' />
+							<enumeration value='all' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:further-reading-sec'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:glossary'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+				<attribute name='view' use='default' value='all'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='compact' />
+							<enumeration value='standard' />
+							<enumeration value='extended' />
+							<enumeration value='compact-standard' />
+							<enumeration value='standard-extended' />
+							<enumeration value='all' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:glossary-sec'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:glossary-entry'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:glossary-heading'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:glossary-def'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:index'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+				<attribute name='view' use='default' value='all'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='compact' />
+							<enumeration value='standard' />
+							<enumeration value='extended' />
+							<enumeration value='compact-standard' />
+							<enumeration value='standard-extended' />
+							<enumeration value='all' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:index-sec'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:index-entry'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:index-heading'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:see'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='refid' type='IDREF' use='required' />
+		</complexType>
+	</element>
+
+	<element name='ce:see-also'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='refid' type='IDREF' use='required' />
+		</complexType>
+	</element>
+
+	<element name='ce:index-flag'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='required' />
+				<attribute name='role' type='string' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:index-flag-term'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:index-flag-see'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:index-flag-see-also'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:biography'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='view' use='default' value='all'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='compact' />
+							<enumeration value='standard' />
+							<enumeration value='extended' />
+							<enumeration value='compact-standard' />
+							<enumeration value='standard-extended' />
+							<enumeration value='all' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:footnote'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='required' />
+		</complexType>
+	</element>
+
+	<element name='ce:anchor'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='required' />
+				<attribute name='role' type='string' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:displayed-quote'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:enunciation'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:link'>
+		<complexType>
+			<attribute name='id' type='ID' use='optional' />
+			<attribute name='locator' type='ENTITY' use='required' />
+		</complexType>
+	</element>
+
+	<element name='ce:include-item'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='role' type='string' use='optional' />
+				<attribute name='view' use='default' value='all'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='compact' />
+							<enumeration value='standard' />
+							<enumeration value='extended' />
+							<enumeration value='compact-standard' />
+							<enumeration value='standard-extended' />
+							<enumeration value='all' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:pages'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:first-page'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:last-page'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:cross-ref'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='refid' type='IDREF' use='required' />
+		</complexType>
+	</element>
+
+	<element name='ce:cross-refs'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='refid' type='IDREFS' use='required' />
+		</complexType>
+	</element>
+
+	<element name='ce:intra-ref'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='xlink:type' use='fixed' value='simple' />
+				<attribute name='xlink:role' type='string' use='optional' />
+				<attribute name='xlink:href' type='string' use='required' />
+		</complexType>
+	</element>
+
+	<element name='ce:intra-refs'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='xlink:type' use='fixed' value='extended' />
+		</complexType>
+	</element>
+
+	<element name='ce:intra-refs-text'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='xlink:type' use='fixed' value='resource' />
+				<attribute name='xlink:label' use='fixed' value='intra-refs-start' />
+		</complexType>
+	</element>
+
+	<element name='ce:intra-ref-end'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='xlink:type' use='fixed' value='locator' />
+				<attribute name='xlink:label' use='fixed' value='intra-ref-end' />
+				<attribute name='xlink:role' type='string' use='optional' />
+				<attribute name='xlink:href' type='string' use='required' />
+		</complexType>
+	</element>
+
+	<element name='ce:intra-ref-title'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='xlink:type' use='fixed' value='title' />
+		</complexType>
+	</element>
+
+	<element name='ce:intra-refs-link'>
+		<complexType>
+			<attribute name='xlink:type' use='fixed' value='arc' />
+			<attribute name='xlink:from' use='fixed' value='intra-refs-start' />
+			<attribute name='xlink:to' use='fixed' value='intra-ref-end' />
+		</complexType>
+	</element>
+
+	<element name='ce:inter-ref'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='xlink:type' use='fixed' value='simple' />
+				<attribute name='xlink:role' type='string' use='optional' />
+				<attribute name='xlink:href' type='string' use='required' />
+		</complexType>
+	</element>
+
+	<element name='ce:inter-refs'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='xlink:type' use='fixed' value='extended' />
+		</complexType>
+	</element>
+
+	<element name='ce:inter-refs-text'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='xlink:type' use='fixed' value='resource' />
+				<attribute name='xlink:label' use='fixed' value='inter-refs-start' />
+		</complexType>
+	</element>
+
+	<element name='ce:inter-ref-end'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='xlink:type' use='fixed' value='locator' />
+				<attribute name='xlink:label' use='fixed' value='inter-ref-end' />
+				<attribute name='xlink:role' type='string' use='optional' />
+				<attribute name='xlink:href' type='string' use='required' />
+		</complexType>
+	</element>
+
+	<element name='ce:inter-ref-title'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='xlink:type' use='fixed' value='title' />
+		</complexType>
+	</element>
+
+	<element name='ce:inter-refs-link'>
+		<complexType>
+			<attribute name='xlink:type' use='fixed' value='arc' />
+			<attribute name='xlink:from' use='fixed' value='inter-refs-start' />
+			<attribute name='xlink:to' use='fixed' value='inter-ref-end' />
+		</complexType>
+	</element>
+
+	<element name='ce:list'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:list-item'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:def-list'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:def-term'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:def-description'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:inline-figure'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='baseline' type='NMTOKEN' use='default'
+					value='0.0' />
+		</complexType>
+	</element>
+
+	<element name='ce:chem'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:floats'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:float-anchor'>
+		<complexType>
+			<attribute name='refid' type='IDREF' use='required' />
+		</complexType>
+	</element>
+
+	<element name='ce:display'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:caption'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:formula'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:figure'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:textbox'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:textbox-head'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:textbox-body'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:textbox-tail'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:e-component'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='ce:alt-e-component'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:bold'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:italic'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:sans-serif'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:monospace'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:small-caps'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:underline'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:cross-out'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:sup'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='loc' use='default' value='post'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='pre' />
+							<enumeration value='post' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:inf'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='loc' use='default' value='post'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='pre' />
+							<enumeration value='post' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:hsp'>
+		<complexType>
+			<attribute name='sp' type='NMTOKEN' use='default' value='1.0' />
+		</complexType>
+	</element>
+
+	<element name='ce:vsp'>
+		<complexType>
+			<attribute name='sp' type='NMTOKEN' use='default' value='1.0' />
+		</complexType>
+	</element>
+
+	<element name='ce:glyph'>
+		<complexType>
+			<attribute name='name' use='required'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='S' />
+						<enumeration value='bigdot' />
+						<enumeration value='btmlig' />
+						<enumeration value='camb' />
+						<enumeration value='ctl' />
+						<enumeration value='dbnd' />
+						<enumeration value='dbnd6' />
+						<enumeration value='dcurt' />
+						<enumeration value='dlcorn' />
+						<enumeration value='drcorn' />
+						<enumeration value='ggrave' />
+						<enumeration value='hbar' />
+						<enumeration value='heng' />
+						<enumeration value='herma' />
+						<enumeration value='hris' />
+						<enumeration value='hriss' />
+						<enumeration value='hrttrh' />
+						<enumeration value='ht' />
+						<enumeration value='jnodot' />
+						<enumeration value='lbd2bd' />
+						<enumeration value='lbd2td' />
+						<enumeration value='lbond2' />
+						<enumeration value='lbond3' />
+						<enumeration value='lozf' />
+						<enumeration value='lozfl' />
+						<enumeration value='lozfr' />
+						<enumeration value='lris' />
+						<enumeration value='lriss' />
+						<enumeration value='ncurt' />
+						<enumeration value='nsmid' />
+						<enumeration value='nspar' />
+						<enumeration value='pSlash' />
+						<enumeration value='pdbdtd' />
+						<enumeration value='pdbond' />
+						<enumeration value='pent' />
+						<enumeration value='phktp' />
+						<enumeration value='ptbdbd' />
+						<enumeration value='ptbdtd' />
+						<enumeration value='qbnd' />
+						<enumeration value='qbnd6' />
+						<enumeration value='rad' />
+						<enumeration value='rbd2bd' />
+						<enumeration value='rbd2td' />
+						<enumeration value='rbond2' />
+						<enumeration value='rbond3' />
+						<enumeration value='refhrl' />
+						<enumeration value='resmck' />
+						<enumeration value='risfla' />
+						<enumeration value='risfls' />
+						<enumeration value='sbnd' />
+						<enumeration value='sbw' />
+						<enumeration value='smid' />
+						<enumeration value='spar' />
+						<enumeration value='sqfb' />
+						<enumeration value='sqfne' />
+						<enumeration value='sqfsw' />
+						<enumeration value='sqft' />
+						<enumeration value='tbnd' />
+						<enumeration value='tbnd6' />
+						<enumeration value='tcurt' />
+						<enumeration value='trisla' />
+						<enumeration value='trnomeg' />
+					</restriction>
+				</simpleType>
+			</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:exam-reference'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='view' use='default' value='all'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='compact' />
+							<enumeration value='standard' />
+							<enumeration value='extended' />
+							<enumeration value='compact-standard' />
+							<enumeration value='standard-extended' />
+							<enumeration value='all' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:exam-questions'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+				<attribute name='view' use='default' value='all'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='compact' />
+							<enumeration value='standard' />
+							<enumeration value='extended' />
+							<enumeration value='compact-standard' />
+							<enumeration value='standard-extended' />
+							<enumeration value='all' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:exam-answers'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='role' type='string' use='optional' />
+				<attribute name='view' use='default' value='all'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='compact' />
+							<enumeration value='standard' />
+							<enumeration value='extended' />
+							<enumeration value='compact-standard' />
+							<enumeration value='standard-extended' />
+							<enumeration value='all' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='ce:legend'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='ce:table-footnote'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='id' type='ID' use='required' />
+		</complexType>
+	</element>
+
+	<element name='tb:top-border'>
+		<complexType>
+			<attribute name='type' use='default' value='bar'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='bar' />
+						<enumeration value='tcub' />
+						<enumeration value='bcub' />
+						<enumeration value='tsqb' />
+						<enumeration value='bsqb' />
+						<enumeration value='circ' />
+						<enumeration value='tilde' />
+						<enumeration value='larr' />
+						<enumeration value='rarr' />
+						<enumeration value='harr' />
+						<enumeration value='lharu' />
+						<enumeration value='rharu' />
+						<enumeration value='tpar' />
+						<enumeration value='bpar' />
+					</restriction>
+				</simpleType>
+			</attribute>
+			<attribute name='style' use='default' value='s'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='s' />
+						<enumeration value='d' />
+						<enumeration value='t' />
+						<enumeration value='da' />
+						<enumeration value='dot' />
+						<enumeration value='b' />
+						<enumeration value='bl' />
+						<enumeration value='n' />
+					</restriction>
+				</simpleType>
+			</attribute>
+		</complexType>
+	</element>
+
+	<element name='tb:left-border'>
+		<complexType>
+			<attribute name='type' use='default' value='vb'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='lpar' />
+						<enumeration value='rpar' />
+						<enumeration value='lsqb' />
+						<enumeration value='rsqb' />
+						<enumeration value='lcub' />
+						<enumeration value='rcub' />
+						<enumeration value='lang' />
+						<enumeration value='rang' />
+						<enumeration value='vb' />
+						<enumeration value='sol' />
+						<enumeration value='bsol' />
+						<enumeration value='lceil' />
+						<enumeration value='rceil' />
+						<enumeration value='lfloor' />
+						<enumeration value='rfloor' />
+						<enumeration value='dharr' />
+						<enumeration value='uharr' />
+						<enumeration value='darr' />
+						<enumeration value='uarr' />
+						<enumeration value='varr' />
+					</restriction>
+				</simpleType>
+			</attribute>
+			<attribute name='style' use='default' value='s'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='s' />
+						<enumeration value='d' />
+						<enumeration value='t' />
+						<enumeration value='da' />
+						<enumeration value='dot' />
+						<enumeration value='b' />
+						<enumeration value='bl' />
+						<enumeration value='n' />
+					</restriction>
+				</simpleType>
+			</attribute>
+		</complexType>
+	</element>
+
+	<element name='tb:bottom-border'>
+		<complexType>
+			<attribute name='type' use='default' value='bar'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='bar' />
+						<enumeration value='tcub' />
+						<enumeration value='bcub' />
+						<enumeration value='tsqb' />
+						<enumeration value='bsqb' />
+						<enumeration value='circ' />
+						<enumeration value='tilde' />
+						<enumeration value='larr' />
+						<enumeration value='rarr' />
+						<enumeration value='harr' />
+						<enumeration value='lharu' />
+						<enumeration value='rharu' />
+						<enumeration value='tpar' />
+						<enumeration value='bpar' />
+					</restriction>
+				</simpleType>
+			</attribute>
+			<attribute name='style' use='default' value='s'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='s' />
+						<enumeration value='d' />
+						<enumeration value='t' />
+						<enumeration value='da' />
+						<enumeration value='dot' />
+						<enumeration value='b' />
+						<enumeration value='bl' />
+						<enumeration value='n' />
+					</restriction>
+				</simpleType>
+			</attribute>
+		</complexType>
+	</element>
+
+	<element name='tb:right-border'>
+		<complexType>
+			<attribute name='type' use='default' value='vb'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='lpar' />
+						<enumeration value='rpar' />
+						<enumeration value='lsqb' />
+						<enumeration value='rsqb' />
+						<enumeration value='lcub' />
+						<enumeration value='rcub' />
+						<enumeration value='lang' />
+						<enumeration value='rang' />
+						<enumeration value='vb' />
+						<enumeration value='sol' />
+						<enumeration value='bsol' />
+						<enumeration value='lceil' />
+						<enumeration value='rceil' />
+						<enumeration value='lfloor' />
+						<enumeration value='rfloor' />
+						<enumeration value='dharr' />
+						<enumeration value='uharr' />
+						<enumeration value='darr' />
+						<enumeration value='uarr' />
+						<enumeration value='varr' />
+					</restriction>
+				</simpleType>
+			</attribute>
+			<attribute name='style' use='default' value='s'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='s' />
+						<enumeration value='d' />
+						<enumeration value='t' />
+						<enumeration value='da' />
+						<enumeration value='dot' />
+						<enumeration value='b' />
+						<enumeration value='bl' />
+						<enumeration value='n' />
+					</restriction>
+				</simpleType>
+			</attribute>
+		</complexType>
+	</element>
+
+	<element name='tb:alignmark'>
+		<complexType />
+	</element>
+
+	<element name='tb:colspec'>
+		<complexType>
+			<attribute name='colnum' type='NMTOKEN' use='optional' />
+			<attribute name='colname' type='NMTOKEN' use='optional' />
+			<attribute name='colwidth' type='string' use='optional' />
+			<attribute name='colsep' use='optional'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='0' />
+						<enumeration value='1' />
+					</restriction>
+				</simpleType>
+			</attribute>
+			<attribute name='rowsep' use='optional'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='0' />
+						<enumeration value='1' />
+					</restriction>
+				</simpleType>
+			</attribute>
+			<attribute name='align' use='fixed' value='mark' />
+		</complexType>
+	</element>
+
+	<element name='ce:table'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='frame' use='optional'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='top' />
+							<enumeration value='bottom' />
+							<enumeration value='topbot' />
+							<enumeration value='all' />
+							<enumeration value='sides' />
+							<enumeration value='none' />
+						</restriction>
+					</simpleType>
+				</attribute>
+				<attribute name='colsep' use='optional'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='0' />
+							<enumeration value='1' />
+						</restriction>
+					</simpleType>
+				</attribute>
+				<attribute name='rowsep' use='optional'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='0' />
+							<enumeration value='1' />
+						</restriction>
+					</simpleType>
+				</attribute>
+				<attribute name='id' type='ID' use='optional' />
+				<attribute name='xmlns' type='string' use='fixed'
+					value='http://www.elsevier.com/xml/common/cals/dtd' />
+				<attribute name='xmlns:tb' type='string' use='fixed'
+					value='http://www.elsevier.com/xml/common/table/dtd' />
+		</complexType>
+	</element>
+
+	<element name='tgroup'>
+		<complexType>
+			<sequence>
+				<choice>
+					<element ref='t:colspec' />
+					<element ref='t:tb' />
+					<attribute name='cols' type='NMTOKEN' use='required' />
+					<attribute name='colsep' use='optional'>
+						<simpleType>
+							<restriction base='string'>
+								<enumeration value='0' />
+								<enumeration value='1' />
+							</restriction>
+						</simpleType>
+					</attribute>
+					<attribute name='rowsep' use='optional'>
+						<simpleType>
+							<restriction base='string'>
+								<enumeration value='0' />
+								<enumeration value='1' />
+							</restriction>
+						</simpleType>
+					</attribute>
+					<attribute name='align' use='optional'>
+						<simpleType>
+							<restriction base='string'>
+								<enumeration value='left' />
+								<enumeration value='right' />
+								<enumeration value='center' />
+								<enumeration value='justify' />
+								<enumeration value='char' />
+							</restriction>
+						</simpleType>
+					</attribute>
+					<attribute name='altimg' type='string' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='colspec'>
+		<complexType>
+			<attribute name='colnum' type='NMTOKEN' use='optional' />
+			<attribute name='colname' type='NMTOKEN' use='optional' />
+			<attribute name='colwidth' type='string' use='optional' />
+			<attribute name='colsep' use='optional'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='0' />
+						<enumeration value='1' />
+					</restriction>
+				</simpleType>
+			</attribute>
+			<attribute name='rowsep' use='optional'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='0' />
+						<enumeration value='1' />
+					</restriction>
+				</simpleType>
+			</attribute>
+			<attribute name='align' use='optional'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='left' />
+						<enumeration value='right' />
+						<enumeration value='center' />
+						<enumeration value='justify' />
+						<enumeration value='char' />
+					</restriction>
+				</simpleType>
+			</attribute>
+			<attribute name='char' type='string' use='optional' />
+			<attribute name='charoff' type='NMTOKEN' use='optional' />
+		</complexType>
+	</element>
+
+	<element name='thead'>
+		<complexType>
+			<sequence>
+				<element ref='t:row' maxOccurs='unbounded' />
+			</sequence>
+			<attribute name='valign' use='optional'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='top' />
+						<enumeration value='middle' />
+						<enumeration value='bottom' />
+					</restriction>
+				</simpleType>
+			</attribute>
+		</complexType>
+	</element>
+
+	<element name='tbody'>
+		<complexType>
+			<sequence>
+				<element ref='t:row' maxOccurs='unbounded' />
+			</sequence>
+			<attribute name='valign' use='optional'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='top' />
+						<enumeration value='middle' />
+						<enumeration value='bottom' />
+					</restriction>
+				</simpleType>
+			</attribute>
+		</complexType>
+	</element>
+
+	<element name='row'>
+		<complexType>
+			<sequence>
+				<element ref='t:entry' maxOccurs='unbounded' />
+			</sequence>
+			<attribute name='rowsep' use='optional'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='0' />
+						<enumeration value='1' />
+					</restriction>
+				</simpleType>
+			</attribute>
+			<attribute name='valign' use='optional'>
+				<simpleType>
+					<restriction base='string'>
+						<enumeration value='top' />
+						<enumeration value='middle' />
+						<enumeration value='bottom' />
+					</restriction>
+				</simpleType>
+			</attribute>
+		</complexType>
+	</element>
+
+	<element name='entry'>
+		<complexType mixed='true'>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='colname' type='NMTOKEN' use='optional' />
+				<attribute name='namest' type='NMTOKEN' use='optional' />
+				<attribute name='nameend' type='NMTOKEN' use='optional' />
+				<attribute name='morerows' type='NMTOKEN' use='optional' />
+				<attribute name='colsep' use='optional'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='0' />
+							<enumeration value='1' />
+						</restriction>
+					</simpleType>
+				</attribute>
+				<attribute name='rowsep' use='optional'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='0' />
+							<enumeration value='1' />
+						</restriction>
+					</simpleType>
+				</attribute>
+				<attribute name='align' use='optional'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='left' />
+							<enumeration value='right' />
+							<enumeration value='center' />
+							<enumeration value='justify' />
+							<enumeration value='char' />
+						</restriction>
+					</simpleType>
+				</attribute>
+				<attribute name='char' type='string' use='optional' />
+				<attribute name='charoff' type='NMTOKEN' use='optional' />
+				<attribute name='valign' use='optional'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='top' />
+							<enumeration value='middle' />
+							<enumeration value='bottom' />
+						</restriction>
+					</simpleType>
+				</attribute>
+				<attribute name='xmlns' type='string' use='fixed'
+					value='http://www.elsevier.com/xml/common/dtd' />
+		</complexType>
+	</element>
+
+	<element name='article'>
+		<complexType>
+			<sequence>
+				<element ref='t:item-info' />
+				<element ref='t:ce' />
+				<attribute name='xmlns' type='string' use='fixed'
+					value='http://www.elsevier.com/xml/ja/dtd' />
+				<attribute name='version' type='string' use='fixed' value='5.0' />
+				<attribute name='xmlns:ce' type='string' use='fixed'
+					value='http://www.elsevier.com/xml/common/dtd' />
+				<attribute name='xmlns:sb' type='string' use='fixed'
+					value='http://www.elsevier.com/xml/common/struct-bib/dtd' />
+				<attribute name='xmlns:xlink' type='string' use='fixed'
+					value='http://www.w3.org/1999/xlink' />
+				<attribute name='xml:lang' use='default' value='en'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='de' />
+							<enumeration value='en' />
+							<enumeration value='es' />
+							<enumeration value='fr' />
+							<enumeration value='pt' />
+							<enumeration value='ru' />
+						</restriction>
+					</simpleType>
+				</attribute>
+				<attribute name='docsubtype' use='default' value='fla'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='abs' />
+							<enumeration value='add' />
+							<enumeration value='adv' />
+							<enumeration value='ann' />
+							<enumeration value='brv' />
+							<enumeration value='cal' />
+							<enumeration value='cnf' />
+							<enumeration value='con' />
+							<enumeration value='cor' />
+							<enumeration value='dis' />
+							<enumeration value='dup' />
+							<enumeration value='edb' />
+							<enumeration value='edi' />
+							<enumeration value='err' />
+							<enumeration value='exm' />
+							<enumeration value='fla' />
+							<enumeration value='ind' />
+							<enumeration value='lit' />
+							<enumeration value='mis' />
+							<enumeration value='nws' />
+							<enumeration value='ocn' />
+							<enumeration value='pnt' />
+							<enumeration value='prp' />
+							<enumeration value='prv' />
+							<enumeration value='pub' />
+							<enumeration value='rem' />
+							<enumeration value='req' />
+							<enumeration value='ret' />
+							<enumeration value='rev' />
+							<enumeration value='sco' />
+							<enumeration value='ssu' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='simple-article'>
+		<complexType>
+			<sequence>
+				<element ref='t:item-info' />
+				<element ref='t:ce' />
+				<attribute name='xmlns' type='string' use='fixed'
+					value='http://www.elsevier.com/xml/ja/dtd' />
+				<attribute name='version' type='string' use='fixed' value='5.0' />
+				<attribute name='xmlns:ce' type='string' use='fixed'
+					value='http://www.elsevier.com/xml/common/dtd' />
+				<attribute name='xmlns:sb' type='string' use='fixed'
+					value='http://www.elsevier.com/xml/common/struct-bib/dtd' />
+				<attribute name='xmlns:xlink' type='string' use='fixed'
+					value='http://www.w3.org/1999/xlink' />
+				<attribute name='xml:lang' use='default' value='en'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='de' />
+							<enumeration value='en' />
+							<enumeration value='es' />
+							<enumeration value='fr' />
+							<enumeration value='pt' />
+							<enumeration value='ru' />
+						</restriction>
+					</simpleType>
+				</attribute>
+				<attribute name='docsubtype' use='required'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='abs' />
+							<enumeration value='add' />
+							<enumeration value='adv' />
+							<enumeration value='ann' />
+							<enumeration value='brv' />
+							<enumeration value='cal' />
+							<enumeration value='cnf' />
+							<enumeration value='con' />
+							<enumeration value='cor' />
+							<enumeration value='dis' />
+							<enumeration value='dup' />
+							<enumeration value='edb' />
+							<enumeration value='edi' />
+							<enumeration value='err' />
+							<enumeration value='exm' />
+							<enumeration value='fla' />
+							<enumeration value='ind' />
+							<enumeration value='lit' />
+							<enumeration value='mis' />
+							<enumeration value='nws' />
+							<enumeration value='ocn' />
+							<enumeration value='pnt' />
+							<enumeration value='prp' />
+							<enumeration value='prv' />
+							<enumeration value='pub' />
+							<enumeration value='rem' />
+							<enumeration value='req' />
+							<enumeration value='ret' />
+							<enumeration value='rev' />
+							<enumeration value='sco' />
+							<enumeration value='ssu' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='book-review'>
+		<complexType>
+			<sequence>
+				<element ref='t:item-info' />
+				<element ref='t:ce' />
+				<attribute name='xmlns' type='string' use='fixed'
+					value='http://www.elsevier.com/xml/ja/dtd' />
+				<attribute name='version' type='string' use='fixed' value='5.0' />
+				<attribute name='xmlns:ce' type='string' use='fixed'
+					value='http://www.elsevier.com/xml/common/dtd' />
+				<attribute name='xmlns:sb' type='string' use='fixed'
+					value='http://www.elsevier.com/xml/common/struct-bib/dtd' />
+				<attribute name='xmlns:xlink' type='string' use='fixed'
+					value='http://www.w3.org/1999/xlink' />
+				<attribute name='xml:lang' use='default' value='en'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='de' />
+							<enumeration value='en' />
+							<enumeration value='es' />
+							<enumeration value='fr' />
+							<enumeration value='pt' />
+							<enumeration value='ru' />
+						</restriction>
+					</simpleType>
+				</attribute>
+				<attribute name='docsubtype' use='fixed' value='brv' />
+		</complexType>
+	</element>
+
+	<element name='exam'>
+		<complexType>
+			<sequence>
+				<element ref='t:item-info' />
+				<element ref='t:ce' />
+				<attribute name='xmlns' type='string' use='fixed'
+					value='http://www.elsevier.com/xml/ja/dtd' />
+				<attribute name='version' type='string' use='fixed' value='5.0' />
+				<attribute name='xmlns:ce' type='string' use='fixed'
+					value='http://www.elsevier.com/xml/common/dtd' />
+				<attribute name='xmlns:sb' type='string' use='fixed'
+					value='http://www.elsevier.com/xml/common/struct-bib/dtd' />
+				<attribute name='xmlns:xlink' type='string' use='fixed'
+					value='http://www.w3.org/1999/xlink' />
+				<attribute name='xml:lang' use='default' value='en'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='de' />
+							<enumeration value='en' />
+							<enumeration value='es' />
+							<enumeration value='fr' />
+							<enumeration value='pt' />
+							<enumeration value='ru' />
+						</restriction>
+					</simpleType>
+				</attribute>
+				<attribute name='docsubtype' use='fixed' value='exm' />
+		</complexType>
+	</element>
+
+	<element name='item-info'>
+		<complexType>
+			<sequence>
+				<element ref='t:jid' />
+				<element ref='t:aid' minOccurs='0' maxOccurs='1' />
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='jid'>
+		<complexType mixed='true'>
+		</complexType>
+	</element>
+
+	<element name='aid'>
+		<complexType mixed='true'>
+		</complexType>
+	</element>
+
+	<element name='head'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='simple-head'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='book-review-head'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+		</complexType>
+	</element>
+
+	<element name='body'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='view' use='default' value='all'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='compact' />
+							<enumeration value='standard' />
+							<enumeration value='extended' />
+							<enumeration value='compact-standard' />
+							<enumeration value='standard-extended' />
+							<enumeration value='all' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='tail'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='view' use='default' value='all'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='compact' />
+							<enumeration value='standard' />
+							<enumeration value='extended' />
+							<enumeration value='compact-standard' />
+							<enumeration value='standard-extended' />
+							<enumeration value='all' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+
+	<element name='simple-tail'>
+		<complexType>
+			<sequence>
+				<element ref='t:ce' />
+				<attribute name='view' use='default' value='all'>
+					<simpleType>
+						<restriction base='string'>
+							<enumeration value='compact' />
+							<enumeration value='standard' />
+							<enumeration value='extended' />
+							<enumeration value='compact-standard' />
+							<enumeration value='standard-extended' />
+							<enumeration value='all' />
+						</restriction>
+					</simpleType>
+				</attribute>
+		</complexType>
+	</element>
+</schema>

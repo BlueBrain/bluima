@@ -1,0 +1,11 @@
+images are generated in many areas of biology, including
+automated microscopy of neural tissue [19]. Often,
+structures in the tissue must be traced through many
+images in a stack. The process of identifying, aligning,
+and reconstructing these structures is computationally
+intensive [20]. Using the BG/L platform and the current
+generic application interfaces to process image stack data
+in parallel for rapid reconstruction of 3D structures
+observed in microscopic images of neural tissue is,
+therefore, another domain for application of this
+architecture.

@@ -1,0 +1,49 @@
+T21	Positive_regulation 31 40	increases
+T22	Regulation 143 149	effect
+T23	Positive_regulation 336 345	increased
+T24	Regulation 505 516	involvement
+T25	Positive_regulation 570 579	induction
+T26	Positive_regulation 612 621	activates
+T27	Positive_regulation 627 661	mimicked the effect of the lectins
+T28	Regulation 757 763	effect
+T29	Positive_regulation 785 793	increase
+T30	Regulation 813 829	immunoreactivity
+T31	Negative_regulation 834 843	inhibited
+T32	Negative_regulation 861 870	inhibitor
+T33	Negative_regulation 972 981	inhibitor
+T34	Positive_regulation 1387 1395	increase
+T35	Regulation 1533 1540	involve
+T36	Positive_regulation 1545 1555	activation
+E1	Positive_regulation:T21 Theme:T1
+E2	Positive_regulation:T21 Theme:T2
+E3	Regulation:T22 Theme:T3
+E4	Regulation:T22 Theme:T4
+E5	Positive_regulation:T23 Theme:T5
+E6	Positive_regulation:T23 Theme:T6
+E7	Regulation:T24 Theme:E9
+E8	Regulation:T24 Theme:E10
+E9	Positive_regulation:T25 Theme:T9
+E10	Positive_regulation:T25 Theme:T8
+E11	Positive_regulation:T26 Theme:T10
+E12	Positive_regulation:T27 Theme:T11
+E13	Positive_regulation:T27 Theme:T12
+E14	Regulation:T28 Theme:T11
+E15	Regulation:T28 Theme:T12
+E16	Positive_regulation:T29 Theme:E18
+E17	Positive_regulation:T29 Theme:E19
+E18	Regulation:T30 Theme:T14
+E19	Regulation:T30 Theme:T13
+E20	Negative_regulation:T31 Theme:E17
+E21	Negative_regulation:T32 Theme:T15
+E22	Negative_regulation:T33 Theme:T15
+E23	Negative_regulation:T33 Theme:T16
+E24	Positive_regulation:T34 Theme:T19
+E25	Positive_regulation:T34 Theme:T18
+E26	Regulation:T35 Theme:E27
+E27	Positive_regulation:T36 Theme:T20
+M1	Speculation E3
+M2	Speculation E4
+M3	Speculation E7
+M4	Speculation E8
+M5	Negation E14
+M6	Negation E15

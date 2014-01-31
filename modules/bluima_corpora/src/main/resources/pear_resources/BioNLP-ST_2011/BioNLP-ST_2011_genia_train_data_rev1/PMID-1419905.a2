@@ -1,0 +1,21 @@
+*	Equiv T3 T2
+*	Equiv T4 T5
+T14	Positive_regulation 143 152	enhancing
+T15	Binding 153 169	binding activity
+T16	Positive_regulation 583 595	inducibility
+T17	Positive_regulation 632 640	mediated
+T18	Positive_regulation 806 815	activated
+T19	Positive_regulation 849 859	increasing
+T20	Transcription 860 877	transcript levels
+T21	Transcription 969 980	mRNA levels
+T22	Positive_regulation 1017 1026	unchanged
+E1	Positive_regulation:T14 Theme:E2 Cause:T3
+E2	Binding:T15 Theme:T4
+E3	Positive_regulation:T16 Theme:T8
+E4	Positive_regulation:T17 Theme:E3
+E5	Positive_regulation:T18 Theme:T9
+E6	Positive_regulation:T19 Theme:E7 Cause:T10
+E7	Transcription:T20 Theme:T11
+E8	Transcription:T21 Theme:T13
+E9	Positive_regulation:T22 Theme:E8 Cause:T10
+M1	Negation E9

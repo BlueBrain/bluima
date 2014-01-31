@@ -1,0 +1,452 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Synapses in the Neocortex Organizing Principles for a Diversity of GABAergic Interneurons and Organizing Principles for a Diversity of GABAergic Interneurons and Synapses in the Neocortex</title>
+			</titleStmt>
+			<publicationStmt>
+				<date type="published" when="2000-2-8">2000 . February 8, 2013</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Anirudh</forename>
+								<surname>Gupta</surname>
+							</persName>
+							<affiliation>
+								<orgName type="institution">New York Avenue NW</orgName>
+								<address>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Yun</forename>
+								<surname>Wang</surname>
+							</persName>
+							<affiliation>
+								<orgName type="institution">New York Avenue NW</orgName>
+								<address>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Henry</forename>
+								<surname>Markram</surname>
+							</persName>
+							<affiliation>
+								<orgName type="institution">New York Avenue NW</orgName>
+								<address>
+									<postCode>20005</postCode>
+									<settlement>Washington</settlement>
+									<region>DC</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Synapses in the Neocortex Organizing Principles for a Diversity of GABAergic Interneurons and Organizing Principles for a Diversity of GABAergic Interneurons and Synapses in the Neocortex</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<biblScope type="vol">2875451273</biblScope>
+							<biblScope type="issue">273</biblScope>
+							<date type="published" when="2000-2-8">2000 . February 8, 2013</date>
+						</imprint>
+					</monogr>
+					<idno type="doi">10.1126/science.287.5451.273</idno>
+					<note>287 Science et al. Anirudh Gupta version of this article at: including high-resolution figures, can be found in the online Updated information and services, 100 articles hosted by HighWire Press; see: cited by This article has been Neuroscience subject collections: This article appears in the following registered trademark of AAAS. is a Science 2000 by the American Association for the Advancement of Science; all rights reserved. The title Copyright American Association for the Advancement of Science, (print ISSN 0036-8075; online ISSN 1095-9203) is published weekly, except the last week in December, by the Science Downloaded from Diversity of GABAergic Synapses</note>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<front>
+			<div type="abstract">
+				<head>Abstract</head>
+<p>This copy is for your personal, non-commercial use only. clicking here. colleagues, clients, or customers by , you can order high-quality copies for your If you wish to distribute this article to others here. following the guidelines can be obtained by Permission to republish or repurpose articles or portions of articles): February 8, 2013 www.sciencemag.org (this information is current as of The following resources related to this article are available online at5451/273.full.html#ref-list-1 , 10 of which can be accessed free: cites 21 articles This article 431 article(s) on the ISI Web of Science cited by This article has been A puzzling feature of the neocortex is the rich array of inhibitory interneurons. Multiple neuron recordings revealed numerous electrophysiological-anatomical subclasses of neocortical 񮽙-aminobutyric acid– ergic (GABAergic) interneurons and three types of GABAergic synapses. The type of synapse used by each interneuron to influence its neighbors follows three functional organizing prin-ciples. These principles suggest that inhibitory synapses could shape the impact of different interneurons according to their specific spatiotemporal patterns of activity and that GABAergic interneuron and synapse diversity may enable combinatorial inhibitory effects in the neocortex. The difficulty in understanding the organization and function of the GABAergic system is due to the large diversity of anatomically and phys-iologically distinct neurons (1–4). GABAergic synaptic transmission in the neocortex has mostly been studied with extracellular electrical stimulation and in some cases by obtaining paired recordings (2, 5, 6). We recorded from a large number of interneuron connections and explored whether the nature of the synaptic outflow from interneurons could reveal the way in which the GABAergic system is organized and functions. Multiple whole-cell patch-clamp recordings were used to characterize key prop-erties of synapses formed by anatomically and physiologically distinct interneurons: (i) the ki-netics of GABAergic receptors used at syn-apses, (ii) the number and precise locations of putative synapses forming a connection, (iii) the absolute strength of connections, and (iv) the particular temporal dynamics of synaptic trans-mission that arise because of an interaction between the rate of neurotransmitter release [depending on probability of release (P) and the frequency of stimulation], the rate of recovery from release (synaptic depression), and the rate of recovery from facilitation of release (7, 8). Temporal dynamics of synapses may be partic-ularly important because this could determine the temporal impact on target neurons.</p>
+			</div>
+		</front>
+		<body>
+<p>Infrared differential interference contrast microscopy was used to visually select neurons for recording within layers II to IV of somatosensory cortex in neocortical slices of Wistar rats (postnatal day 13 to 16) (9). Potential presynaptic interneurons were distinguished from postsynaptic pyramidal neurons according to their bipolar or multipolar dendritic appearance as well as their oval or round somata. Neurons were recorded simultaneously with the wholecell patch-clamp technique (9), and interneuron identity was confirmed by the repertoire of electrophysiological responses to current injections . About 800 quadruple recordings were obtained, yielding around 3000 potential</p>
+<p>GABAergic connections. There were more than 240 GABAergic connections, of which 179 were studied in detail (10). The GABAergic nature of the connections was routinely verified by determining the reversal potential of the synaptic response (11) and, in some cases, also by applying the GABA-A receptor antagonist, bicuculline. Neurons were filled with biocytin to allow staining and anatomical three-dimensional (3D) computer reconstructions of the physiologically characterized connections (9) (12) (13). Synaptic connections were examined by eliciting short trains of precisely timed action potentials (APs) in interneurons across a range of physiologically relevant discharge frequencies (5 to 70 Hz), followed by a recovery test response (RTR) 500 ms later. The inhibitory postsynaptic potentials (IPSPs) or the currents (IPSCs), or both, were recorded (14). The average synaptic response to this stimulation protocol allows the extraction of the basic parameters of the synaptic connection with a model of dynamic synaptic transmission (9) (U, equivalent to average P; F, the time constant to recover from facilitation; D, the time constant to recover from depression ; A, the absolute strength of the connection, which is equivalent to the product of quantal size and number of release sites) as well as the statistics of the transmission [coefficient of variation (CV) and failures of transmission]. GABAergic synaptic responses were highly</p>
+<p>Department of Neurobiology, The Weizmann Institute for Science, 76100 Rehovot, Israel.</p>
+<p>*These authors contributed equally to this work. Present address: Keck Center for Integrative Neurosciences , 828-HSE, University of California at San Francisco, San Francisco, CA 94143– 0732, USA. To whom correspondence should be addressed. Email: Henry.Markram@weizmann.ac.il</p>
+
+			<div>
+				<head>Table 1. Summary of GABAergic synaptic properties in neocortical layers II to IV. Occurrence: Synaptic classification is according to facilitated (F1, 񮽙10%), depressed (F2, 񮽙10%), and recovered (F3) RTR. This classification is verified for 65/65 cases. Synaptic model parameters: Model fit of connections with too few trials, test frequencies, small responses, or high CVs produced high-fit errors (29). For F2, modeling was performed on a random subset because of large data volume. Analysis of variance (ANOVA) on log-transformed raw data (F:D ratios), F 񮽙 274, with (2) (62) df, P 񮽙 0.0001. Fisher&apos;s multiple comparison (at 񮽙 񮽙 0.05) showed that the groups differ significantly from each other (all three pairwise, P 񮽙 0.01). Synaptic release statistics: Failure and CV analyses were carried out only in connections with more than 50 trials. Failures are defined as events with amplitudes smaller than 1.59 pA or 60 񮽙V. CV (SD/mean of 80 to 150 traces) values were overestimated by 2.74 񮽙 1.97% in VC (n 񮽙 13) and by 0.78 񮽙 0.77% in CC (n 񮽙 13). Failure rate and CV of F1 connections are significantly different from those of F2 and F3 (P 񮽙 0.01). Student&apos;s t tests were performed to determine statistical differences. Decay time constant (DTC) of IPSCs was estimated as single exponentials, because of multiple distributed release sites. Chord conductance (G 1 ) was determined as slope of line fit through amplitudes of first responses and intersection at the reversal potential (negligible rectification detected). G max 񮽙 G 1 /U. Per synapse conductance (G syn ) 񮽙 G max /anatomically estimated number of synapses or binomially calculated number. G max for F2 connections was significantly different from that for F1 and F3 connections (P 񮽙 0.02). Synaptic numbers and distances: Anatomical n was estimated as in (12). Binomial n 񮽙 1 񮽙 P/CV 2 P, where P is the probability of neurotransmitter release and n is the binomial number of release sites. P was replaced by U derived from the model of nonlinear synaptic transmission. Steady-state electrotonic distances computed according to (7). All values shown above are mean 񮽙 SD, except for F:D and D:F ratios, which are mean 񮽙 SEM.</head>
+			</div>
+
+			<div>
+				<head>Table 2. Summary of GABAergic innervation of PCs. Mapping of GABAergic synapses (F1 to F3) according to presynaptic interneurons defined with anatomical [upper section (17) (18) (19) (20) (21) (22)], electrophysiological (middle section) (Fig. 5), and a combination of both anatomical and electrophysiological criteria (lower section).</head>
+<p>After establishing the anatomical and electrophysiological classes of interneurons recorded, we addressed the organizing principles that determine the types of synapses formed by each different class of interneuron onto pyramidal cells. Interneurons defined solely on anatomical or electrophysiological grounds formed different types of synapses (Table 2). However, subclassifying the anatomically defined interneurons according to their electrophysiology revealed 14 distinct subclasses of interneurons and perfect mapping of synapse types (Table 2) (26) (27). These data show that specific interneurons form specific types of synapses on pyramidal cells. The synaptic organization onto interneurons was also examined and some connections defined. As for PCs, we found that different types of synapses formed onto different anatomically or electrophysiologically defined interneurons, suggesting that inter-interneuron synapses probably also obey the same mapping rules.</p>
+			<table>
+				<head>The finding that various classes of interneurons can establish different types of synapses</head>
+			</table>
+<p>onto the same class of target neuron (pyramidal neurons) indicates that the postsynaptic neuron alone cannot dictate the type of synapse . We confirmed this by recording convergent innervation onto the same pyramidal neuron from different classes of interneurons in three experiments (Fig. 6A). By recording divergent connections, we also found that the same GABAergic axon can form distinct types of synapses onto different classes of target neurons (n 񮽙 3) (Fig. 6B). These data indicate that an interaction between the presynaptic and postsynaptic neurons is involved in formation of the type of synapse.</p>
+<p>A Synaptic Homogeneity Principle</p>
+<p>Glutamatergic synapses display differential synaptic transmission and obey a target specific rule in forming synapses (5) (7), but their temporal dynamics of transmission, even onto the same class of target neuron, are highly heterogeneous (7). The GABAergic system is different, because interneurons form synapses with virtually identical temporal dynamics onto different targets of the same class (Fig. 6C). The connections differed in A, but U, D, and F were homogenous as could be predicted by simply normalizing each trace to the maximum amplitude—the traces overlay perfectly (Fig. 6D). In all of 22 examples of divergent connections onto two or three pyramidal neurons and involving all synapse types (F1 to F3), homogeneity was observed (Fig. 6E). The synaptic homogeneity principle also applies across different classes of target neurons (Fig. 6F; n 񮽙 3), indicating that GABAergic interneurons are able to &quot;select&quot; a group of neurons to establish synapses with homogenous temporal dynamics. We term such a selected group of neurons a &quot;GABA group.&quot; Because the same interneuron can also produce different types of synapses, each interneuron can form multiple GABA groups. All pyramidal neurons in layers II to IV are expected to be in the same GABA group together with a subset of interneurons . Other GABA groups could be composed of other classes of interneurons, spiny stellate cells, pyramidal cells in layers V and VI in the same column, and neurons in neighboring columns.</p>
+<p>Summary</p>
+<p>First, we found that each class of interneuron forms synapses with highly specific temporal dynamics onto a given target neuron (synapse mapping principle). This suggests that GABAergic synapses constrain the functional impact of different interneurons according to their precise timing of action potentials. Second , we found that the phenotypic nature of both presynaptic and postsynaptic neurons is involved in generating the type of synapse formed (interaction principle). This suggests that combinatorial interactions between two neurons could maximize synaptic diversity. Third, we found that interneurons form synapses with some identical properties onto neighboring target neurons (synapse homogeneity principle). This principle applies to neurons within &quot;selected&quot; groups. We propose that GABAergic interneurons are able to &quot;smell out&quot; functionally related neurons, even of different phenotypic classes, and that such &quot;GABA groups&quot; represent the most elementary , functionally related group of neurons identified so far in the neocortex.</p>
+<p>References and Notes</p>
+			</div>
+		</body>
+		<back>
+			<div type="references">
+<listBibl>
+<biblStruct xml:id="b0"><analytic><title level="a" type="main">Histology Due Système Nerveux de l&apos;Homme et des Vertébrés</title>		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Ramón</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<surname>Cajal</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Azoulay</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Transl</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="m">Cortical Circuits: Synaptic Organization of the Cerebral Cortex; Structure , Function, and Theory</title><editor>E. White</editor><meeting><address>Maloine , Paris ; Birkhauser ; Boston</address></meeting><imprint><date type="published" when="1911" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b1"><analytic>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">M</forename>
+				<surname>Thomson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Deuchars</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Cereb. Cortex</title><imprint><biblScope type="vol">7</biblScope><biblScope type="issue">510</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b2"><analytic>		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Kawaguchi</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Kubota</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Cereb. Cortex J. DeFelipe, Cereb. Cortex J. Neurosci</title><editor>B. Cauli et al.</editor><imprint><biblScope type="vol">7</biblScope><biblScope type="issue">3894</biblScope><biblScope type="pp">273</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b3"><analytic>		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<forename type="middle">W</forename>
+				<surname>Connors</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">J</forename>
+				<surname>Gutnick</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Trends Neurosci</title><imprint><biblScope type="vol">13</biblScope><biblScope type="issue">99</biblScope><date type="published" when="1990" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b4"><analytic>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Reyes</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature Neurosci</title><imprint><biblScope type="vol">1</biblScope><biblScope type="pp">279</biblScope><date type="published" when="1998" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b5"><analytic>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Fleidervish</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">J</forename>
+				<surname>Gutnick</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurophysiol</title><imprint><biblScope type="vol">73</biblScope><biblScope type="pp">2591</biblScope><date type="published" when="1995" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b6"><analytic>		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Wang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Tsodyks</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Proc. Natl. Acad. Sci. U.S.A</title><imprint><biblScope type="vol">95</biblScope><biblScope type="issue">5323</biblScope><date type="published" when="1998" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b7"><monogr><title level="m" type="main">Slice preparation, intracellular and extracellular solutions , data acquisition, model fitting, and three-dimensional (3D) reconstructions were as in (7) The model iterations use at least two frequencies, five responses, and the RTR. Membrane potentials were not corrected for 񮽙9-mV junction potential</title></monogr></biblStruct>
+<biblStruct xml:id="b8"><monogr><title level="m" type="main">Recordings were discarded because of access resistance changes, membrane instabilities, and synaptic responses below 60 񮽙V and 1.5 pA</title></monogr></biblStruct>
+<biblStruct xml:id="b9"><monogr><title level="m" type="main">5 mM and [Cl 񮽙 ] in 񮽙 20 mM; 񮽙50.4 mV (Nernst potential); 񮽙9 mV ( junction potential), expected reversal potential (V rev )</title>		<author>
+			<persName>
+				<forename type="first">[</forename>
+				<forename type="middle">񮽙</forename>
+				<surname>Cl</surname>
+			</persName>
+		</author>
+</monogr><note>񮽙41. .4 mV</note></biblStruct>
+<biblStruct xml:id="b10"><analytic><title level="a" type="main">Only contacts by axonal boutons within 0.37 񮽙m were counted Light microscopic estimates without electron microscopic confirmation can be misleading</title>		<author>
+			<persName>
+				<surname>Morphometric</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Neuroexplorer</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Microbright</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Field</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Vt</forename>
+				<surname>Colchester</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol</title><editor>H. Markram, J. Lübke, M. Frotscher, A. Roth, B. Sakmann</editor><imprint><biblScope type="vol">500</biblScope><biblScope type="issue">409</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b11"><analytic>		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<surname>Tamas</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">H</forename>
+				<surname>Buhl</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Somogyi</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol</title><imprint><biblScope type="vol">500</biblScope><biblScope type="pp">715</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b12"><monogr><title level="m" type="main">Pilot studies indicated that RTR of 500 ms is optimal for separation of potentially different degrees of residual facilitation and depression</title></monogr></biblStruct>
+<biblStruct xml:id="b13"><monogr><title level="m" type="main">10 min) 0.75 mM [Ca 2񮽙 ] and 2.25 mM</title>		<author>
+			<persName>
+				<surname>Superperfusate</surname>
+			</persName>
+		</author>
+<imprint><pubPlace>Mg 2񮽙</pubPlace></imprint></monogr></biblStruct>
+<biblStruct xml:id="b14"><analytic>		<author>
+			<persName>
+				<forename type="first">E</forename>
+				<forename type="middle">L</forename>
+				<surname>White</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<surname>Weinfeld</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<forename type="middle">L</forename>
+				<surname>Lev</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Somatosens. Mot. Res</title><imprint><biblScope type="vol">14</biblScope><biblScope type="issue">34</biblScope><date type="published" when="1997" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b15"><analytic>		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Somogyi</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Z</forename>
+				<forename type="middle">F</forename>
+				<surname>Kisvarday</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<forename type="middle">A. C</forename>
+				<surname>Martin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<surname>Whitteridge</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Neuroscience</title><imprint><biblScope type="vol">10</biblScope><biblScope type="pp">261</biblScope><date type="published" when="1983" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b16"><analytic><title level="a" type="main">Sholl analysis of the axon was used to produce a histogram of the number of axon segments found in regions progressively further away from the somata</title></analytic><monogr><title level="m">ASD, median in the histogram of intersections. ASL, mean interbranch length</title><editor>D. A. Sholl</editor><imprint><date type="published" when="1953" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b17"><analytic>		<author>
+			<persName>
+				<forename type="first">Z</forename>
+				<forename type="middle">F</forename>
+				<surname>Kisvarday</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">K</forename>
+				<forename type="middle">A. C</forename>
+				<surname>Martin</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<surname>Whitteridge</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Somogyi</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comp. Neurol</title><imprint><biblScope type="vol">241</biblScope><biblScope type="issue">111</biblScope><date type="published" when="1985" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b18"><analytic>		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Martinotti</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Ann</forename>
+				<surname>Freniatr</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Sci</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Affini</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><editor>Y. Kawaguchi and T. Shindou</editor><imprint><biblScope type="vol">1</biblScope><biblScope type="issue">18</biblScope><biblScope type="pp">6963</biblScope><date type="published" when="1889" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b19"><analytic>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">L</forename>
+				<surname>Feldman</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Peters</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comp. Neurol</title><imprint><biblScope type="vol">179</biblScope><biblScope type="pp">761</biblScope><date type="published" when="1979" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b20"><analytic><title level="a" type="main">Possibly the same as in</title></analytic><monogr><title level="j">Brain Res</title><editor>J. DeFelipe and A. Farien</editor><imprint><biblScope type="vol">244</biblScope><date type="published" when="1982" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b21"><analytic>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Steriade</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">I</forename>
+				<surname>Timofeev</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">N</forename>
+				<surname>Durmuller</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">F</forename>
+				<surname>Grenier</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurophysiol</title><imprint><biblScope type="vol">79</biblScope><biblScope type="pp">483</biblScope><date type="published" when="1998" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b22"><analytic>		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Kawaguchi</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">15</biblScope><biblScope type="pp">2638</biblScope><date type="published" when="1995" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b23"><analytic>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">F</forename>
+				<surname>Storm</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">336</biblScope><biblScope type="issue">379</biblScope><date type="published" when="1988" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b24"><monogr><title level="m" type="main">1 񮽙 10 񮽙9 , indicating that the probability of obtaining the observed synapse mapping randomly is negligible</title></monogr></biblStruct>
+<biblStruct xml:id="b25"><monogr>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Gupta</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Wang</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+</monogr><note>data. not shown</note></biblStruct></listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

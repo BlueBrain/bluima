@@ -1,0 +1,31 @@
+T32	Regulation 201 212	responsible
+T33	Negative_regulation 221 236	down regulation
+T34	Positive_regulation 884 893	supported
+T35	Entity 913 921	promoter
+T36	Entity 964 972	promoter
+T37	Entity 1004 1012	promoter
+T38	Positive_regulation 1031 1039	increase
+T39	Negative_regulation 1147 1155	decrease
+T40	Gene_expression 1159 1169	expression
+T41	Entity 1519 1527	promoter
+T42	Positive_regulation 1545 1553	increase
+T43	Entity 2120 2144	upstream promoter region
+T44	Positive_regulation 2175 2185	contribute
+T45	Negative_regulation 2209 2220	suppression
+T46	Regulation 2255 2263	modulate
+T47	Gene_expression 2268 2278	expression
+E1	Regulation:T32 Theme:E4
+E2	Regulation:T32 Theme:E3
+E3	Negative_regulation:T33 Theme:T2
+E4	Negative_regulation:T33 Theme:T1
+E5	Positive_regulation:T34 Theme:T12 Cause:T14 CSite:T36
+E6	Positive_regulation:T34 Theme:T12 Cause:T13 CSite:T35
+E7	Positive_regulation:T38 Theme:T15 Site:T37
+E8	Negative_regulation:T39 Theme:E9
+E9	Gene_expression:T40 Theme:T12
+E10	Positive_regulation:T42 Theme:T21 Site:T41
+E11	Positive_regulation:T44 Theme:E12 Cause:T31 CSite:T43
+E12	Negative_regulation:T45 Theme:T31
+E13	Regulation:T46 Theme:E14 Cause:E11
+E14	Gene_expression:T47 Theme:T31
+M1	Negation E6

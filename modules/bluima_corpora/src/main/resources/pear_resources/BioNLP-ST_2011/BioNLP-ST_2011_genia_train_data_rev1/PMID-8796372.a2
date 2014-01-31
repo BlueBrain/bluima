@@ -1,0 +1,8 @@
+*	Equiv T1 T2
+T5	Positive_regulation 658 685	be the predominant subunits
+T6	Gene_expression 658 685	be the predominant subunits
+T7	Positive_regulation 689 696	induced
+E1	Positive_regulation:T5 Theme:T4
+E2	Gene_expression:T6 Theme:T3
+E3	Positive_regulation:T7 Theme:T4
+E4	Positive_regulation:T7 Theme:T3

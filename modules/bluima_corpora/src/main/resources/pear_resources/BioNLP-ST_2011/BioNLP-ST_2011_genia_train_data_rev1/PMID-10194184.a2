@@ -1,0 +1,31 @@
+*	Equiv T2 T1
+*	Equiv T9 T8
+T16	Positive_regulation 199 208	increased
+T17	Negative_regulation 272 279	decline
+T18	Gene_expression 365 375	expression
+T19	Positive_regulation 521 528	induces
+T20	Gene_expression 616 626	expression
+T21	Positive_regulation 633 642	increased
+T22	Gene_expression 710 720	Expression
+T23	Positive_regulation 794 801	induced
+T24	Positive_regulation 882 891	increased
+T25	Gene_expression 908 918	expression
+T26	Positive_regulation 976 983	induced
+T27	Entity 1032 1040	promoter
+T28	Positive_regulation 1118 1125	induced
+T29	Gene_expression 1576 1586	expression
+E1	Positive_regulation:T16 Theme:T2
+E2	Negative_regulation:T17 Theme:E1
+E3	Gene_expression:T18 Theme:T3
+E4	Positive_regulation:T19 Theme:T4
+E5	Gene_expression:T20 Theme:T5
+E6	Positive_regulation:T21 Theme:E5
+E7	Gene_expression:T22 Theme:T6
+E8	Positive_regulation:T23 Theme:E7
+E9	Positive_regulation:T24 Theme:E10
+E10	Gene_expression:T25 Theme:T7
+E11	Positive_regulation:T26 Theme:E10 Cause:T9
+E12	Positive_regulation:T28 Theme:T10 Site:T27
+E13	Gene_expression:T29 Theme:T15
+M1	Speculation E3
+M2	Speculation E4

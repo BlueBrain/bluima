@@ -1,0 +1,22 @@
+*	Equiv T1 T2
+T16	Transcription 860 866	levels
+T17	Positive_regulation 998 1007	induction
+T18	Gene_expression 1039 1049	expression
+T19	Positive_regulation 1102 1107	after
+T20	Positive_regulation 1320 1329	induction
+T21	Positive_regulation 1558 1571	super-induced
+T22	Gene_expression 1576 1586	expression
+T23	Transcription 1620 1633	transcription
+E1	Transcription:T16 Theme:T5
+E2	Positive_regulation:T17 Theme:T5
+E3	Gene_expression:T18 Theme:T7
+E4	Positive_regulation:T19 Theme:E3 Cause:T8
+E5	Positive_regulation:T20 Theme:T10
+E6	Positive_regulation:T21 Theme:E8
+E7	Gene_expression:T22 Theme:T12
+E8	Gene_expression:T22 Theme:T11
+E9	Transcription:T23 Theme:T13
+E10	Transcription:T23 Theme:T14
+M1	Negation E1
+M2	Negation E3
+M3	Speculation E5

@@ -1,0 +1,9 @@
+*	Equiv T4 T5
+T10	Positive_regulation 4 18	overexpression
+T11	Gene_expression 4 18	overexpression
+T12	Gene_expression 1616 1630	overexpression
+T13	Positive_regulation 1616 1630	overexpression
+E1	Positive_regulation:T10 Theme:E2
+E2	Gene_expression:T11 Theme:T1
+E3	Gene_expression:T12 Theme:T8
+E4	Positive_regulation:T13 Theme:E3

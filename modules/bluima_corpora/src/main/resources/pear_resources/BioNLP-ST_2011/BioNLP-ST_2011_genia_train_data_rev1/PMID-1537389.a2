@@ -1,0 +1,10 @@
+T11	Positive_regulation 286 297	stimulation
+T12	Transcription 318 328	expression
+T13	Positive_regulation 341 349	appeared
+T14	Negative_regulation 368 376	returned
+T15	Positive_regulation 633 643	activation
+E1	Positive_regulation:T11 Theme:E2
+E2	Transcription:T12 Theme:T6
+E3	Positive_regulation:T13 Theme:E1
+E4	Negative_regulation:T14 Theme:E1
+E5	Positive_regulation:T15 Theme:T9

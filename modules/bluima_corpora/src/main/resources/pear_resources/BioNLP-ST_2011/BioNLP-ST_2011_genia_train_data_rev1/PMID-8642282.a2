@@ -1,0 +1,16 @@
+T7	Regulation 53 62	regulated
+T8	Gene_expression 171 183	distribution
+T9	Gene_expression 270 280	expression
+T10	Regulation 284 293	modulated
+T11	Regulation 840 848	regulate
+T12	Gene_expression 854 864	expression
+T13	Gene_expression 1070 1078	positive
+T14	Gene_expression 1238 1248	expression
+E1	Regulation:T7 Theme:T1
+E2	Gene_expression:T8 Theme:T2
+E3	Gene_expression:T9 Theme:T2
+E4	Regulation:T10 Theme:E3
+E5	Regulation:T11 Theme:E6
+E6	Gene_expression:T12 Theme:T4
+E7	Gene_expression:T13 Theme:T5
+E8	Gene_expression:T14 Theme:T6

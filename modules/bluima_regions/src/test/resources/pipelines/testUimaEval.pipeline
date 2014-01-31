@@ -1,0 +1,25 @@
+# evaluates the BR NER against WhiteText corpora, using UIMA's EvaluationAnnotator
+#TestResult:
+#    precision:  0.81
+#    recall:     0.78
+#    F1:         0.7969
+
+cr: WhiteTextCollectionReader
+ maxNrResults__java: 100
+ 
+include: preprocess.incl
+
+# using an existing, trained model
+ae: BrainRegionAnnotator
+ #modelFile: $ROOT/modules/bluima_regions/resources/models/20130515_BrainRegion.model
+ modelFile: $ROOT/modules/bluima_regions/resources/models/20131007_BrainRegion.model
+ mode: infer
+ 
+ae: EvaluationAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.BrainRegion
+ system_annotation: ch.epfl.bbp.uima.types.BrainRegion
+ #evaluator: atLeastCovered
+ #evaluator: overlap
+ 
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

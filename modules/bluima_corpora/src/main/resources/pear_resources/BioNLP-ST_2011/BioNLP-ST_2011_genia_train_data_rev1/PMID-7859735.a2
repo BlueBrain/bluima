@@ -1,0 +1,12 @@
+T7	Positive_regulation 348 357	activated
+T8	Positive_regulation 480 489	activated
+T9	Negative_regulation 657 667	inhibition
+T10	Gene_expression 685 695	production
+T11	Negative_regulation 697 707	inhibition
+T12	Gene_expression 717 727	expression
+E1	Positive_regulation:T7 Theme:T2
+E2	Positive_regulation:T8 Theme:T2
+E3	Negative_regulation:T9 Theme:E4 Cause:T3
+E4	Gene_expression:T10 Theme:T4
+E5	Negative_regulation:T11 Theme:E6 Cause:T3
+E6	Gene_expression:T12 Theme:T5

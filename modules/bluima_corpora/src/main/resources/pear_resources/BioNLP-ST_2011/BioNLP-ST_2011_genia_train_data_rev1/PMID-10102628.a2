@@ -1,0 +1,38 @@
+T13	Gene_expression 0 10	Expression
+T14	Negative_regulation 116 135	inhibitory capacity
+T15	Positive_regulation 165 173	mediated
+T16	Positive_regulation 278 286	detected
+T17	Gene_expression 278 286	detected
+T18	Positive_regulation 325 338	overexpressed
+T19	Entity 579 586	nuclear
+T20	Localization 587 599	localization
+T21	Positive_regulation 763 771	detected
+T22	Positive_regulation 799 804	super
+T23	Positive_regulation 804 813	induction
+T24	Positive_regulation 895 911	higher stability
+T25	Gene_expression 981 992	resynthesis
+T26	Localization 1027 1035	presence
+T27	Entity 1039 1046	nuclear
+T28	Regulation 1144 1152	presence
+T29	Localization 1144 1152	presence
+T30	Entity 1175 1182	nuclear
+T31	Localization 1405 1412	present
+T32	Entity 1420 1427	nucleus
+E1	Gene_expression:T13 Theme:T1
+E2	Negative_regulation:T14 Theme:T2
+E3	Positive_regulation:T15 Theme:E2
+E4	Positive_regulation:T16 Theme:E5 Cause:E6
+E5	Gene_expression:T17 Theme:T3
+E6	Positive_regulation:T18 Theme:T3
+E7	Localization:T20 Theme:T5 ToLoc:T19
+E8	Positive_regulation:T21 Theme:T6
+E9	Positive_regulation:T22 Theme:E10
+E10	Positive_regulation:T23 Theme:T6
+E11	Positive_regulation:T24 Theme:T7
+E12	Gene_expression:T25 Theme:T7
+E13	Localization:T26 Theme:T9 AtLoc:T27
+E14	Regulation:T28 Theme:E13 Cause:E15
+E15	Localization:T29 Theme:T10 AtLoc:T30
+E16	Localization:T31 Theme:T12 AtLoc:T32
+M1	Negation E8
+M2	Negation E14

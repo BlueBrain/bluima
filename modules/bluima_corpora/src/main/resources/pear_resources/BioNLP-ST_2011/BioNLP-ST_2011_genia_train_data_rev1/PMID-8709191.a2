@@ -1,0 +1,26 @@
+T28	Positive_regulation 342 348	active
+T29	Negative_regulation 364 370	switch
+T30	Positive_regulation 364 370	switch
+T31	Negative_regulation 941 950	reduction
+T32	Negative_regulation 1108 1112	loss
+T33	Positive_regulation 1409 1418	dependent
+T34	Positive_regulation 1480 1490	dependence
+T35	Negative_regulation 1700 1704	loss
+T36	Negative_regulation 1746 1756	diminished
+T37	Positive_regulation 1781 1790	induction
+T38	Negative_regulation 1823 1834	suppression
+T39	Regulation 1998 2008	regulating
+E1	Positive_regulation:T28 Theme:T4
+E2	Negative_regulation:T29 Theme:E1
+E3	Positive_regulation:T30 Theme:T5
+E4	Negative_regulation:T31 Theme:T12
+E5	Negative_regulation:T32 Theme:T15
+E6	Positive_regulation:T33 Theme:T17
+E7	Positive_regulation:T34 Theme:T17
+E8	Negative_regulation:T35 Theme:T17
+E9	Negative_regulation:T36 Theme:T19
+E10	Positive_regulation:T37 Theme:T20 Cause:E9
+E11	Negative_regulation:T38 Theme:T21
+E12	Regulation:T39 Theme:T25
+E13	Regulation:T39 Theme:T25 Cause:T23
+M1	Negation E8

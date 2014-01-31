@@ -1,0 +1,13 @@
+T7	Positive_regulation 972 978	regain
+T8	Positive_regulation 996 1006	activation
+T9	Negative_regulation 1236 1244	inhibits
+T10	Gene_expression 1264 1274	production
+T11	Negative_regulation 1279 1288	decreases
+T12	Gene_expression 1297 1307	expression
+E1	Positive_regulation:T7 Theme:E2
+E2	Positive_regulation:T8 Theme:T4
+E3	Negative_regulation:T9 Theme:E4
+E4	Gene_expression:T10 Theme:T5
+E5	Negative_regulation:T11 Theme:E6
+E6	Gene_expression:T12 Theme:T6
+M1	Negation E1

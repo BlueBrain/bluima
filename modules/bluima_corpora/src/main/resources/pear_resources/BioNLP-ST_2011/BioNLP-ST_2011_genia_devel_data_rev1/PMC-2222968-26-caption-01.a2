@@ -1,0 +1,5 @@
+T10	Positive_regulation 17 23	Induce
+T11	Gene_expression 30 40	Expression
+E1	Positive_regulation:T10 Theme:E2
+E2	Gene_expression:T11 Theme:T1
+M1	Negation E1

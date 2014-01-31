@@ -1,0 +1,26 @@
+*	Equiv T7 T8
+*	Equiv T5 T6
+T17	Gene_expression 22 32	expression
+T18	Gene_expression 169 177	selected
+T19	Transcription 567 573	levels
+T20	Transcription 846 852	levels
+T21	Positive_regulation 865 880	reach a maximum
+T22	Transcription 967 973	Levels
+T23	Positive_regulation 987 1002	reach a maximum
+T24	Positive_regulation 1140 1148	increase
+T25	Negative_regulation 1277 1286	decreased
+T26	Gene_expression 1341 1351	expression
+E1	Gene_expression:T17 Theme:T1
+E2	Gene_expression:T18 Theme:T3
+E3	Transcription:T19 Theme:T5
+E4	Transcription:T19 Theme:T7
+E5	Transcription:T20 Theme:T9
+E6	Positive_regulation:T21 Theme:E5
+E7	Transcription:T22 Theme:T10
+E8	Positive_regulation:T23 Theme:E7
+E9	Positive_regulation:T24 Theme:T11
+E10	Positive_regulation:T24 Theme:T12
+E11	Negative_regulation:T25 Theme:E9
+E12	Negative_regulation:T25 Theme:E10
+E13	Gene_expression:T26 Theme:T15
+E14	Gene_expression:T26 Theme:T14

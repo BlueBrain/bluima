@@ -1,0 +1,25 @@
+*	Equiv T15 T14
+T20	Regulation 30 39	targeting
+T21	Gene_expression 128 137	expressed
+T22	Positive_regulation 273 280	induces
+T23	Gene_expression 285 295	expression
+T24	Positive_regulation 476 487	upregulates
+T25	Gene_expression 1065 1075	expressing
+T26	Gene_expression 1132 1142	expressing
+T27	Phosphorylation 1154 1173	phosphorylated form
+T28	Positive_regulation 1311 1320	increased
+T29	Transcription 1321 1334	transcription
+T30	Regulation 1498 1507	targeting
+E1	Regulation:T20 Theme:T2 Cause:T1
+E2	Gene_expression:T21 Theme:T3
+E3	Positive_regulation:T22 Theme:E4 Cause:T4
+E4	Gene_expression:T23 Theme:T5
+E5	Positive_regulation:T24 Theme:T5 Cause:T6
+E6	Gene_expression:T25 Theme:T9
+E7	Gene_expression:T26 Theme:T11
+E8	Phosphorylation:T27 Theme:T12
+E9	Positive_regulation:T28 Theme:E12
+E10	Positive_regulation:T28 Theme:E11
+E11	Transcription:T29 Theme:T15
+E12	Transcription:T29 Theme:T13
+E13	Regulation:T30 Theme:T17 Cause:T16

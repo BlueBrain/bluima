@@ -1,0 +1,9 @@
+T10	Binding 547 562	binding partner
+T11	Gene_expression 636 648	coexpression
+T12	Binding 686 728	capable of forming functional heterodimers
+T13	Binding 922 940	heterodimerization
+E1	Binding:T10 Theme:T4 Theme2:T5
+E2	Gene_expression:T11 Theme:T7
+E3	Gene_expression:T11 Theme:T6
+E4	Binding:T12 Theme:T6 Theme2:T7
+E5	Binding:T13 Theme:T8 Theme2:T9

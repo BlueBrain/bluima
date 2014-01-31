@@ -1,0 +1,22 @@
+T19	Regulation 9 17	critical
+T20	Gene_expression 52 62	expression
+T21	Gene_expression 111 120	expressed
+T22	Positive_regulation 195 204	increased
+T23	Regulation 281 291	regulation
+T24	Binding 988 993	bound
+T25	Entity 1033 1041	promoter
+T26	Regulation 1237 1241	role
+T27	Gene_expression 1265 1275	expression
+T28	Binding 1335 1340	bound
+T29	Phosphorylation 1509 1524	phosphorylation
+E1	Regulation:T19 Theme:E2 Cause:T1
+E2	Gene_expression:T20 Theme:T2
+E3	Gene_expression:T21 Theme:T3
+E4	Positive_regulation:T22 Theme:E3
+E5	Regulation:T23 Theme:T4
+E6	Binding:T24 Theme:T9 Theme2:T10 Site2:T25
+E7	Regulation:T26 Theme:E8 Cause:T12
+E8	Gene_expression:T27 Theme:T13
+E9	Binding:T28 Theme:T16
+E10	Phosphorylation:T29 Theme:T17
+M1	Speculation E5

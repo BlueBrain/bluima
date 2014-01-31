@@ -1,0 +1,21 @@
+T12	Positive_regulation 79 88	increased
+T13	Gene_expression 89 99	expression
+T14	Transcription 196 220	transcriptionally-active
+T15	Positive_regulation 1181 1205	increased the proportion
+T16	Entity 1221 1230	promoters
+T17	Positive_regulation 1334 1343	increases
+T18	Transcription 1364 1377	transcription
+T19	Positive_regulation 1382 1391	induction
+T20	Positive_regulation 1586 1595	increased
+T21	Gene_expression 1613 1623	expression
+E1	Positive_regulation:T12 Theme:E2
+E2	Gene_expression:T13 Theme:T1
+E3	Transcription:T14 Theme:T2
+E4	Positive_regulation:T15 Theme:T8 Site:T16
+E5	Positive_regulation:T17 Theme:E8
+E6	Positive_regulation:T17 Theme:E7
+E7	Transcription:T18 Theme:T9
+E8	Positive_regulation:T19 Theme:T9
+E9	Positive_regulation:T20 Theme:E10
+E10	Gene_expression:T21 Theme:T11
+M1	Speculation E3

@@ -1,0 +1,10 @@
+T6	Negative_regulation 999 1004	block
+T7	Transcription 1008 1021	transcription
+T8	Negative_regulation 1086 1094	inactive
+E1	Negative_regulation:T6 Theme:E5
+E2	Negative_regulation:T6 Theme:E4
+E3	Negative_regulation:T6 Theme:E6
+E4	Transcription:T7 Theme:T3
+E5	Transcription:T7 Theme:T1
+E6	Transcription:T7 Theme:T2
+E7	Negative_regulation:T8 Theme:T4

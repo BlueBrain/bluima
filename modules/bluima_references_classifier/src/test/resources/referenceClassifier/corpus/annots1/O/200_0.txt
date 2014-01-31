@@ -1,0 +1,14 @@
+8.3.3. Predicting Spatio-Temporal Patterns of Activity
+within Neural Ensembles
+Most sensory stimuli are dynamic in nature. The resulting activity patterns within
+the nervous system should exhibit both spatial and temporal characteristics. Our previous work indicates that different stimulus directions will evoke different steady state
+spatial patterns of activity within the ensemble of sensory neurons. An oscillating air
+current that moves back and forth across the animal's body should, therefore, evoke a
+spatial pattern of activity that changes with the direction of the stimulus. Since the
+population of sensory neurons contains cells with different frequency tuning characteristics, the spatio-temporal pattern may also change as a function of the frequency of the
+oscillation (31). Different sensory neurons have very different peak response amplitudes, depending on the lengths and movement axes of their associated hairs. Different
+neurons with the same directional sensitivities may be activated as much as 180° out of
+phase with one another, depending on the lengths of their associated hairs. As a corollary phenomenon, we predict that there will be frequencies at which sensory neurons of
+opposite directional sensitivity will be firing synchronously.
+In collaboration with John Miller and Sharon Crook, we are developing a computational tool called the DynamicAtlas, which is a combined query–computational–visualization tool for studying the dynamic response properties of cell ensembles (32–34).
+The DynamicAtlas is part of the suite of computational tools in NeuroSys. It uses the

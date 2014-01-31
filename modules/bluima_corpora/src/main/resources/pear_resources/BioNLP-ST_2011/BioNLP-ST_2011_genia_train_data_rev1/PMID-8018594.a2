@@ -1,0 +1,32 @@
+*	Equiv T8 T9
+T14	Positive_regulation 480 488	restored
+T15	Gene_expression 493 503	production
+T16	Positive_regulation 638 646	enhanced
+T17	Gene_expression 651 661	production
+T18	Regulation 850 859	regulated
+T19	Binding 979 993	complex formed
+T20	Binding 1112 1129	complex formation
+T21	Positive_regulation 1196 1203	induced
+T22	Negative_regulation 1249 1258	abolished
+T23	Binding 1263 1270	binding
+E1	Positive_regulation:T14 Theme:E3
+E2	Positive_regulation:T14 Theme:E4
+E3	Gene_expression:T15 Theme:T2
+E4	Gene_expression:T15 Theme:T3
+E5	Positive_regulation:T16 Theme:E7
+E6	Positive_regulation:T16 Theme:E8
+E7	Gene_expression:T17 Theme:T4
+E8	Gene_expression:T17 Theme:T5
+E9	Regulation:T18 Theme:T6
+E10	Regulation:T18 Theme:T7
+E11	Binding:T19 Theme:T8
+E12	Binding:T20 Theme:T11
+E13	Binding:T20 Theme:T10
+E14	Positive_regulation:T21 Theme:E12
+E15	Positive_regulation:T21 Theme:E13
+E16	Negative_regulation:T22 Theme:E19
+E17	Negative_regulation:T22 Theme:E18
+E18	Binding:T23 Theme:T12
+E19	Binding:T23 Theme:T13
+M1	Negation E16
+M2	Negation E17

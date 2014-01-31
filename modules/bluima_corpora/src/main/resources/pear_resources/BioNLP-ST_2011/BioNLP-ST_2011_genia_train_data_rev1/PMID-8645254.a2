@@ -1,0 +1,37 @@
+T14	Transcription 9 19	expression
+T15	Binding 260 269	dimerizes
+T16	Gene_expression 348 358	expression
+T17	Transcription 513 524	transcribed
+T18	Gene_expression 777 787	expressing
+T19	Transcription 843 852	expressed
+T20	Transcription 888 898	expression
+T21	Transcription 984 991	express
+T22	Transcription 1087 1098	transcribed
+T23	Positive_regulation 1099 1103	from
+T24	Transcription 1225 1236	transcribed
+T25	Positive_regulation 1242 1246	from
+T26	Gene_expression 1268 1278	expression
+T27	Transcription 1328 1339	transcribed
+T28	Positive_regulation 1345 1349	from
+T29	Transcription 1371 1381	expression
+T30	Negative_regulation 1413 1421	declined
+T31	Negative_regulation 1498 1505	sustain
+E1	Transcription:T14 Theme:T1
+E2	Binding:T15 Theme:T2
+E3	Gene_expression:T16 Theme:T3
+E4	Transcription:T17 Theme:T4
+E5	Gene_expression:T18 Theme:T5
+E6	Transcription:T19 Theme:T6
+E7	Transcription:T20 Theme:T6
+E8	Transcription:T21 Theme:T7
+E9	Transcription:T22 Theme:T8
+E10	Positive_regulation:T23 Theme:E9
+E11	Transcription:T24 Theme:T9
+E12	Positive_regulation:T25 Theme:E11
+E13	Gene_expression:T26 Theme:T10
+E14	Transcription:T27 Theme:T11
+E15	Positive_regulation:T28 Theme:E14
+E16	Transcription:T29 Theme:T12
+E17	Negative_regulation:T30 Theme:E16
+E18	Negative_regulation:T31 Theme:E17 Cause:T13
+M1	Negation E18

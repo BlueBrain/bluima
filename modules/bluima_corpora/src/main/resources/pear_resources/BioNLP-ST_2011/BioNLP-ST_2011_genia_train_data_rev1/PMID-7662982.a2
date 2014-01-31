@@ -1,0 +1,20 @@
+T9	Positive_regulation 14 24	activation
+T10	Gene_expression 626 636	expression
+T11	Transcription 626 636	expression
+T12	Positive_regulation 779 792	overexpressed
+T13	Gene_expression 779 792	overexpressed
+T14	Positive_regulation 1284 1293	activated
+T15	Positive_regulation 1322 1341	as a consequence of
+T16	Negative_regulation 1416 1428	Deregulation
+E1	Positive_regulation:T9 Theme:T1
+E2	Gene_expression:T10 Theme:T3
+E3	Transcription:T11 Theme:T3
+E4	Positive_regulation:T12 Theme:E5
+E5	Gene_expression:T13 Theme:T4
+E6	Positive_regulation:T14 Theme:T7
+E7	Positive_regulation:T15 Theme:E6
+E8	Negative_regulation:T16 Theme:T8
+M1	Speculation E2
+M2	Speculation E3
+M3	Negation E4
+M4	Negation E8

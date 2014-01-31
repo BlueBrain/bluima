@@ -1,0 +1,890 @@
+<html><body><head><style type="text/css">table { border-collapse:collapse; }table td, table thead { border:1px solid black;padding:5px; }table thead {font-weight: bold;}</style></head><body>
+<h1>Bluima Components</h1>
+<h2>Collection Readers</h2><ul>
+<li><a href="#ch.epfl.bbp.uima.cr.Biocreative2GeneCollectionReader">Biocreative2GeneCollectionReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.BioNLPGeniaEventsCollectionReader">BioNLPGeniaEventsCollectionReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.GeniaCorpusCollectionReader">GeniaCorpusCollectionReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.NxmlCollectionReader">NxmlCollectionReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.PubmedArchiveCollectionReader">PubmedArchiveCollectionReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.PubmedArchiveCollectionReader2">PubmedArchiveCollectionReader2</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.PubmedCentralCollectionReader">PubmedCentralCollectionReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.UscTteCollectionReader">UscTteCollectionReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.WhiteTextCollectionReader">WhiteTextCollectionReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.XmlTestcaseCollectionReader">XmlTestcaseCollectionReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.PubmedDatabaseCR">PubmedDatabaseCR</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.PubmedFromListDatabaseCR">PubmedFromListDatabaseCR</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.PubmedWholeDatabaseCR">PubmedWholeDatabaseCR</a></li>
+<li><a href="#ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader">PdfCollectionReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.pdf.extraction.sections.NxmlPdfReader">NxmlPdfReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.PubmedWebServiceCollectionReader">PubmedWebServiceCollectionReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.AbstractFileReader">AbstractFileReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.FileReader">FileReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.SentenceDumpCollectionReader">SentenceDumpCollectionReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.StdinInteractiveReader">StdinInteractiveReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.TextArrayReader">TextArrayReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.TextLineReader">TextLineReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.TextReader">TextReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.XCollectionReader">XCollectionReader</a></li>
+<li><a href="#ch.epfl.bbp.uima.cr.ZipXmiCollectionReader">ZipXmiCollectionReader</a></li>
+</ul>
+<h2>Analysis Engines</h2><ul>
+<li><a href="#ch.epfl.bbp.uima.ae.BannerAnnotator">BannerAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.BannerTokenizerAnnotator">BannerTokenizerAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.DragonLemmatiserAnnotator">DragonLemmatiserAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.cleartk.ner.brainregion.BrainRegionAnnotationEvaluator">BrainRegionAnnotationEvaluator</a></li>
+<li><a href="#ch.epfl.bbp.uima.cleartk.ner.brainregion.BrainRegionsSequenceAnnotator">BrainRegionsSequenceAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.cleartk.ner.protein.AlternateAnnotationEvaluator">AlternateAnnotationEvaluator</a></li>
+<li><a href="#ch.epfl.bbp.uima.cleartk.ner.protein.ProteinNerSequenceAnnotator">ProteinNerSequenceAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.BioAdiAbreviationAnnotator">BioAdiAbreviationAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.BlueBioLemmatizer">BlueBioLemmatizer</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.LanguageDetectionAnnotator">LanguageDetectionAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.LinnaeusAnnotator">LinnaeusAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.WordnetAnnotator">WordnetAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.DatabaseAnnotationWriter">DatabaseAnnotationWriter</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.PubmedDatabaseAE">PubmedDatabaseAE</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.ViterbiFilterAnnotator">ViterbiFilterAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.jython.JythonAnnotator">JythonAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.jython.JythonAnnotator2">JythonAnnotator2</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.BeanshellAnnotator">BeanshellAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.PrintCommentAnnotator">PrintCommentAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.ReferencesFinderAnnotator">ReferencesFinderAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator">PdfCollectionAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.PruneMeasuresAnnotator">PruneMeasuresAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.RegExAnnotator">RegExAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.RT1CellTypeProteinConcentrationExtractor">RT1CellTypeProteinConcentrationExtractor</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.AnnotationHistogramAnnotator">AnnotationHistogramAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.AnnotationTypeWriter">AnnotationTypeWriter</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.BartWriter">BartWriter</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.CasDetaggerAnnotator">CasDetaggerAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.cleanup.DisambiguatorAnnotator">DisambiguatorAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.cleanup.OneRulesThemOutAnnotator">OneRulesThemOutAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.cleanup.SkipSomePosAnnotator2">SkipSomePosAnnotator2</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.DeduplicatorAnnotator">DeduplicatorAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.DocumentTextWriter">DocumentTextWriter</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.DotSentenceSplitterAnnotator">DotSentenceSplitterAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.Dumper">Dumper</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.EnsureDocHasHeader">EnsureDocHasHeader</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.EnsureDocHasOneSentence">EnsureDocHasOneSentence</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.EnsureDocTextNotNullAnnotator">EnsureDocTextNotNullAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.EnsureTokensHaveLemmaAndPOS">EnsureTokensHaveLemmaAndPOS</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.EvaluationAnnotator">EvaluationAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.EvaluationPreprocessorAnnotator">EvaluationPreprocessorAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.GarbageCollectorAnnotator">GarbageCollectorAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.GeneralEnglishAnnotator">GeneralEnglishAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.GridSearchConfiguration">GridSearchConfiguration</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.HtmlViewerWriter">HtmlViewerWriter</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.LucasHelperAnnotator">LucasHelperAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.MultipleProteinsAnnotator">MultipleProteinsAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.NaiveSentenceSplitterAnnotator">NaiveSentenceSplitterAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.PrintAnnotationInSentenceWriter">PrintAnnotationInSentenceWriter</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.PunctuationAnnotator">PunctuationAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.RegexTokenizerAnnotator">RegexTokenizerAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.SentenceDumpAnnotator">SentenceDumpAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.SkipSomePosAnnotator">SkipSomePosAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.SnowballAnnotator">SnowballAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.StatsAnnotatorPlus">StatsAnnotatorPlus</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.StatsTextAnnotator">StatsTextAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.SysoutDumper">SysoutDumper</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.TestAnnotator">TestAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.VerbsCleanerAnnotator">VerbsCleanerAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.WhitespaceTokenizerAnnotator">WhitespaceTokenizerAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.XWriter">XWriter</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.ZipXWriter">ZipXWriter</a></li>
+<li><a href="#ch.epfl.bbp.uima.annotationviewer.BlueAnnotationViewerAnnotator">BlueAnnotationViewerAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.BrainRegionAnnotator">BrainRegionAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.PosTagAnnotator">PosTagAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.SentenceAnnotator">SentenceAnnotator</a></li>
+<li><a href="#ch.epfl.bbp.uima.ae.TokenAnnotator">TokenAnnotator</a></li>
+<li><a href="#de.julielab.jules.ae.opennlp.ChunkAnnotator">ChunkAnnotator</a></li>
+<li><a href="#de.julielab.jules.ae.opennlp.ParseAnnotator">ParseAnnotator</a></li>
+<li><a href="#de.julielab.jules.ae.opennlp.PosTagAnnotator">PosTagAnnotator</a></li>
+<li><a href="#de.julielab.jules.ae.opennlp.SentenceAnnotator">SentenceAnnotator</a></li>
+<li><a href="#de.julielab.jules.ae.opennlp.TokenAnnotator">TokenAnnotator</a></li>
+</ul><hr>
+<h3><a id="ch.epfl.bbp.uima.ae.BannerAnnotator">BannerAnnotator (ch.epfl.bbp.uima.ae.BannerAnnotator)</a></h3>
+<p>Protein NER that uses BANNER (http://cbioc.eas.asu.edu/banner/). BANNER is a named entity recognition system, primarily intended for biomedical text. It is a machine-learning system based on conditional random fields and contains a wide survey of the best features in recent literature on biomedical named entity recognition (NER). It relies on a CRF model (Mallet). The list of features can be found in CRFTagger  BANNER achieves a F1 of 84.92 on BioCreative2 It is the subject of the following paper: Leaman, R. & Gonzalez G. (2008) BANNER: An executable survey of advances in biomedical named entity recognition. Pacific Symposium on Biocomputing 13:652-663(2008)</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>modelFile</td><td></td><td>N</td><td>pear_resources/models/gene_model_v02.bin</td></tr>
+<tr><td>nlpData</td><td></td><td>N</td><td>pear_resources/nlpdata</td></tr>
+<tr><td>bannerProps</td><td></td><td>N</td><td>pear_resources/banner.properties</td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.BannerAnnotator
+ modelFile: pear_resources/models/gene_model_v02.bin
+ nlpData: pear_resources/nlpdata
+ bannerProps: pear_resources/banner.properties
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.BannerTokenizerAnnotator">BannerTokenizerAnnotator (ch.epfl.bbp.uima.ae.BannerTokenizerAnnotator)</a></h3>
+<p>BANNER's built-in word tokenizer. Tokens ouput by this tokenizer consist of a contiguous block of alphanumeric characters or a single punctuation mark. Note, therefore, that any construction which contains a punctuation mark (such as a contraction or a real number) will necessarily span over at least three tokens.</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.BannerTokenizerAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.DragonLemmatiserAnnotator">DragonLemmatiserAnnotator (ch.epfl.bbp.uima.ae.DragonLemmatiserAnnotator)</a></h3>
+<p>Lemmatiser (http://en.wikipedia.org/wiki/Lemmatisation) Annotator that uses the Dragon Toolkit (http://dragon.ischool.drexel.edu/). The Dragon Toolkit is used in BANNER. It is described in the paper Zhou, X., Zhang, X., and Hu, X., "Dragon Toolkit: Incorporating Auto-learned Semantic Knowledge into Large-Scale Text Retrieval and Mining," In proceedings of the 19th IEEE International Conference on Tools with Artificial Intelligence (ICTAI), October 29-31, 2007, Patras, Greece</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>lemmatiser_data</td><td></td><td>N</td><td>pear_resources/nlpdata/lemmatiser</td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.DragonLemmatiserAnnotator
+ lemmatiser_data: pear_resources/nlpdata/lemmatiser
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cleartk.ner.brainregion.BrainRegionAnnotationEvaluator">BrainRegionAnnotationEvaluator (ch.epfl.bbp.uima.cleartk.ner.brainregion.BrainRegionAnnotationEvaluator)</a></h3>
+<p>An annotator that compares the annotations in a gold (human-annotated) view to the annotations in a system-annotated view.</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.cleartk.ner.brainregion.BrainRegionAnnotationEvaluator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cleartk.ner.brainregion.BrainRegionsSequenceAnnotator">BrainRegionsSequenceAnnotator (ch.epfl.bbp.uima.cleartk.ner.brainregion.BrainRegionsSequenceAnnotator)</a></h3>
+<p></p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.cleartk.ner.brainregion.BrainRegionsSequenceAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cleartk.ner.protein.AlternateAnnotationEvaluator">AlternateAnnotationEvaluator (ch.epfl.bbp.uima.cleartk.ner.protein.AlternateAnnotationEvaluator)</a></h3>
+<p>An annotator that compares the annotations in a gold (human-annotated) view to the annotations in a system-annotated view.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>org.uimafit.descriptor.ConfigurationParameter.USE_FIELD_NAME</td><td>The annotation class whose gold and system spans should be compared</td><td>Y</td><td></td></tr>
+<tr><td>org.uimafit.descriptor.ConfigurationParameter.USE_FIELD_NAME</td><td>The name of the CAS view containing the gold (manual) annotations</td><td>Y</td><td></td></tr>
+<tr><td>org.uimafit.descriptor.ConfigurationParameter.USE_FIELD_NAME</td><td>The name of the CAS view containing the system (automatic) annotations</td><td>Y</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.cleartk.ner.protein.AlternateAnnotationEvaluator
+ org.uimafit.descriptor.ConfigurationParameter.USE_FIELD_NAME: <put value here>
+ org.uimafit.descriptor.ConfigurationParameter.USE_FIELD_NAME: <put value here>
+ org.uimafit.descriptor.ConfigurationParameter.USE_FIELD_NAME: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cleartk.ner.protein.ProteinNerSequenceAnnotator">ProteinNerSequenceAnnotator (ch.epfl.bbp.uima.cleartk.ner.protein.ProteinNerSequenceAnnotator)</a></h3>
+<p></p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.cleartk.ner.protein.ProteinNerSequenceAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.BioAdiAbreviationAnnotator">BioAdiAbreviationAnnotator (ch.epfl.bbp.uima.ae.BioAdiAbreviationAnnotator)</a></h3>
+<p>Finds abbreviations (e.g. "PC" for pyramidal cells) using BioAdi (http://bioagent.iis.sinica.edu.tw/BIOADI/), Biomedical Abbreviation Definition Identifier. BioAdi identifies the mapping between SF (Short Form) and LF (Long Form) terms in paper. The SF and LF terms can vary and different writing habits generate different subtypes of terms. For example, HCC generally stands for "Hepatocellular Carcinoma", but it can also be written as "Hepatoma", "hepatocellular cancer", "hepato-cellular carcinoma", and so on and so forth. These transformers cause problems on many fields such as database querying, text mining, and literature annotation. Paper: BIOADI: a machine learning approach to identifying abbreviations and definitions in biological literature Cheng-Ju Kuo, Maurice HT Ling, Kuan-Ting Lin, and Chun-Nan Hsu, BMC Bioinformatics. 2009; 10(Suppl 15): S7.</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.BioAdiAbreviationAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.BlueBioLemmatizer">BlueBioLemmatizer (ch.epfl.bbp.uima.ae.BlueBioLemmatizer)</a></h3>
+<p>This annotator processes tokens in the CAS and inserts corresponding lemmas.</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.BlueBioLemmatizer
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.LanguageDetectionAnnotator">LanguageDetectionAnnotator (ch.epfl.bbp.uima.ae.LanguageDetectionAnnotator)</a></h3>
+<p>Language detection @see http://code.google.com/p/language-detection</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>min_text_length</td><td></td><td>N</td><td>200</td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.LanguageDetectionAnnotator
+ min_text_length: 200
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.LinnaeusAnnotator">LinnaeusAnnotator (ch.epfl.bbp.uima.ae.LinnaeusAnnotator)</a></h3>
+<p>Linnaeus Uima wrapper, for species name recognition and normalization (http://linnaeus.sourceforge.net/ and http://sourceforge .net/projects/linnaeus/files/Linnaeus/linnaeus-uima-wrapper.pear/download). The provided trained model shows 94% recall and 97% precision on the LINNAEUS-species-corpus. LINNAEUS is the subject of the following paper: Gerner M., Nenadic, G. and Bergman, C. M. (2010) LINNAEUS: a species name identification system for biomedical literature. BMC Bioinformatics 11:85.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>CONFIG_FILE</td><td></td><td>N</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.LinnaeusAnnotator
+ CONFIG_FILE: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.WordnetAnnotator">WordnetAnnotator (ch.epfl.bbp.uima.ae.WordnetAnnotator)</a></h3>
+<p>Wordnet Uima wrapper, using JWI (the MIT Java Wordnet Interface). ATM, find the first match from the lemmatizer. <strong>Needs tokens with POS as input.</strong> @see http://projects.csail.mit.edu/jwi/</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>modelFile</td><td>dict file from Wordnet</td><td>N</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.WordnetAnnotator
+ modelFile: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.Biocreative2GeneCollectionReader">Biocreative2GeneCollectionReader (ch.epfl.bbp.uima.cr.Biocreative2GeneCollectionReader)</a></h3>
+<p>CollectionReader for the Biocreative2 (2006) annotated corpus (http://www.biocreative.org/news/biocreative-ii/), containing 20000 sentences from MEDLINE abstracts. P00027739T0000|5 28|gamma glutamyltransferase P00027739T0000|0 28|Serum gamma glutamyltransferase</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>corpus_mode</td><td>mode, either test or train</td><td>Y</td><td>test</td></tr>
+<tr><td>corpusRoot</td><td>path to corpus</td><td>Y</td><td>pear_resources/bc2geneMention/</td></tr>
+<tr><td>include_alternate</td><td>whether to include the alternate tagged forms</td><td>N</td><td>true</td></tr>
+</table>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.Biocreative2GeneCollectionReader
+ corpus_mode: test
+ corpusRoot: pear_resources/bc2geneMention/
+ include_alternate: true
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.BioNLPGeniaEventsCollectionReader">BioNLPGeniaEventsCollectionReader (ch.epfl.bbp.uima.cr.BioNLPGeniaEventsCollectionReader)</a></h3>
+<p>Corpus reader for the BioNLP 2011 GENIA Event Extraction (GENIA) Shared Task http://2011.bionlp-st.org/home/genia-event-extraction-genia Format: http://www-tsujii.is.s.u-tokyo.ac.jp/GENIA/SharedTask/detail.shtml#format</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>inputDirectory</td><td></td><td>N</td><td>pear_resources/BioNLP-ST_2011/BioNLP-ST_2011_genia_devel_data_rev1</td></tr>
+</table>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.BioNLPGeniaEventsCollectionReader
+ inputDirectory: pear_resources/BioNLP-ST_2011/BioNLP-ST_2011_genia_devel_data_rev1
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.GeniaCorpusCollectionReader">GeniaCorpusCollectionReader (ch.epfl.bbp.uima.cr.GeniaCorpusCollectionReader)</a></h3>
+<p>CollectionReader for the GENIA annotated corpus (http://www-tsujii.is.s.u-tokyo.ac.jp/~genia/topics/Corpus/). GENIA Corpus Version 3.0x consists of 2000 abstracts. The base abstracts are selected from the search results with keywords (MeSH terms) Human, Blood Cells, and Transcription Factors.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>corpusFile</td><td>path to Genia xml corpus</td><td>Y</td><td>pear_resources/GENIAcorpus3.02/GENIAcorpus3.02.xml</td></tr>
+</table>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.GeniaCorpusCollectionReader
+ corpusFile: pear_resources/GENIAcorpus3.02/GENIAcorpus3.02.xml
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.NxmlCollectionReader">NxmlCollectionReader (ch.epfl.bbp.uima.cr.NxmlCollectionReader)</a></h3>
+<p>Collection Reader for nxml files (http://dtd.nlm.nih.gov/)</p>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.NxmlCollectionReader
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.PubmedArchiveCollectionReader">PubmedArchiveCollectionReader (ch.epfl.bbp.uima.cr.PubmedArchiveCollectionReader)</a></h3>
+<p>Collection Reader for Pubmed Gzipped XML dumps. These can be leased and downloaded from Pubmed (http://www.nlm.nih.gov/databases/journal.html). There are currently ~ 700 dump files. New dumps are added weekly.</p>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.PubmedArchiveCollectionReader
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.PubmedArchiveCollectionReader2">PubmedArchiveCollectionReader2 (ch.epfl.bbp.uima.cr.PubmedArchiveCollectionReader2)</a></h3>
+<p>Collection Reader for Pubmed Gzipped XML dumps. These can be leased and downloaded from Pubmed (http://www.nlm.nih.gov/databases/journal.html). There are currently ~ 700 dump files. New dumps are added weekly. New file format, I believe</p>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.PubmedArchiveCollectionReader2
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.PubmedCentralCollectionReader">PubmedCentralCollectionReader (ch.epfl.bbp.uima.cr.PubmedCentralCollectionReader)</a></h3>
+<p>Collection Reader for Pubmed Central (http://www.ncbi.nlm.nih.gov/pmc/) nxml files (http://dtd.nlm.nih.gov/). The Open Access Subset (http://www.ncbi.nlm.nih.gov/pmc/tools/openftlist/) can be downloaded from PMC's FTP (http://www.ncbi.nlm.nih.gov/pmc/tools/ftp/).</p>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.PubmedCentralCollectionReader
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.UscTteCollectionReader">UscTteCollectionReader (ch.epfl.bbp.uima.cr.UscTteCollectionReader)</a></h3>
+<p>Collection Reader for the University of Southern California (USC) Tract-tracing experiments (TTE) corpus.</p>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.UscTteCollectionReader
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.WhiteTextCollectionReader">WhiteTextCollectionReader (ch.epfl.bbp.uima.cr.WhiteTextCollectionReader)</a></h3>
+<p>Collection Reader for the WhiteText brain regions corpus (http://www.chibi.ubc.ca/WhiteText/). This corpus has 17,585 brain region mentions. Paper: French L, Lane S, Xu L and Pavlidis P (2009) Automated recognition of brain region mentions in neuroscience literature. Front. Neuroinform. 3:29. doi:10.3389/neuro.11.029.2009</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>corpusFile</td><td></td><td>N</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.WhiteTextCollectionReader
+ corpusFile: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.XmlTestcaseCollectionReader">XmlTestcaseCollectionReader (ch.epfl.bbp.uima.cr.XmlTestcaseCollectionReader)</a></h3>
+<p>Collection Reader for BBP's TestCase XML format. Creates CAS from the XMLs and add the relevant annotations (protein, concentration, celltype). This format is especially relevant for the validation of our first Research Task (see confluence).</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>inputFileParam</td><td></td><td>N</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.XmlTestcaseCollectionReader
+ inputFileParam: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.DatabaseAnnotationWriter">DatabaseAnnotationWriter (ch.epfl.bbp.uima.ae.DatabaseAnnotationWriter)</a></h3>
+<p>Writes the given Annotations to a specified MySQL database.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>db_connection</td><td>host, dbname, user, pw</td><td>Y</td><td></td></tr>
+<tr><td>createTableStatement</td><td>SQL statement to create the table</td><td>N</td><td></td></tr>
+<tr><td>insertStatement</td><td>SQL statement to insert annotations. The first argument will be (pm)id. Example: INSERT INTO `my_table` (`pmid`, `token`, `begin`, `end`) VALUES (?,?,?,?)</td><td>Y</td><td></td></tr>
+<tr><td>annotationClass</td><td>full qualified name of the annotation class. Example: de.julielab.jules.types.Token</td><td>Y</td><td></td></tr>
+<tr><td>annotationFields</td><td>ordered array of annotation fields (omitting pmid). Example: { "coveredText", "begin", "end" }</td><td>Y</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.DatabaseAnnotationWriter
+ db_connection: <put value here>
+ createTableStatement: <put value here>
+ insertStatement: <put value here>
+ annotationClass: <put value here>
+ annotationFields: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.PubmedDatabaseAE">PubmedDatabaseAE (ch.epfl.bbp.uima.ae.PubmedDatabaseAE)</a></h3>
+<p>Writes the given JCas to a MySQL database (the bb_pubmed database). Useful for updating it with new articles from PubMed's FTP, for example.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>db_connection</td><td>host, dbname, user, pw</td><td>N</td><td>localhost, bb_pubmed, root, </td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.PubmedDatabaseAE
+ db_connection: localhost, bb_pubmed, root, 
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.PubmedDatabaseCR">PubmedDatabaseCR (ch.epfl.bbp.uima.cr.PubmedDatabaseCR)</a></h3>
+<p>@see PubmedWholeDatabaseCR to iterate the whole Pubmed database</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>between</td><td>specifies a range of pubmed_id, e.g. {13,17} --> 13 <= pubmed_id <= 17. It is recommended to keep it under 1M, as these results are all stored in the db memory</td><td>N</td><td></td></tr>
+<tr><td>skipEmptyDocs</td><td> Skip PubMed articles that have no abstract</td><td>N</td><td>true</td></tr>
+<tr><td>db_connection</td><td>host, dbname, user, pw</td><td>N</td><td>128.178.187.248, bb_pubmed, bemyguest, </td></tr>
+</table>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.PubmedDatabaseCR
+ between: <put value here>
+ skipEmptyDocs: true
+ db_connection: 128.178.187.248, bb_pubmed, bemyguest, 
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.PubmedFromListDatabaseCR">PubmedFromListDatabaseCR (ch.epfl.bbp.uima.cr.PubmedFromListDatabaseCR)</a></h3>
+<p>Allow to read Pubmed articles based on a list of PubMed ids. It is recommended not to use a very large list ( < 100k).</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>db_connection</td><td>host, dbname, user, pw</td><td>N</td><td>128.178.187.248, bb_pubmed, bemyguest, </td></tr>
+<tr><td>ids</td><td>a list of pubmed ids</td><td>Y</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.PubmedFromListDatabaseCR
+ db_connection: 128.178.187.248, bb_pubmed, bemyguest, 
+ ids: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.PubmedWholeDatabaseCR">PubmedWholeDatabaseCR (ch.epfl.bbp.uima.cr.PubmedWholeDatabaseCR)</a></h3>
+<p>Allow to iterate the WHOLE db (no BETWEEN)</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>db_connection</td><td>host, dbname, user, pw</td><td>N</td><td>128.178.187.248, bb_pubmed, bemyguest, </td></tr>
+<tr><td>skipEmptyDocs</td><td> Skip PubMed articles that have no abstract</td><td>N</td><td>true</td></tr>
+<tr><td>and_query</td><td>specifies an additional query to filter on, e.g.  AND pubmed_id IN (SELECT id FROM neuroscience_ids_from_mesh)</td><td>N</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.PubmedWholeDatabaseCR
+ db_connection: 128.178.187.248, bb_pubmed, bemyguest, 
+ skipEmptyDocs: true
+ and_query: 
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.ViterbiFilterAnnotator">ViterbiFilterAnnotator (ch.epfl.bbp.uima.ae.ViterbiFilterAnnotator)</a></h3>
+<p>Filters "redundant" annotations. First, computes the shortest path to cover a Sentence and removes annotations that are not on that shortest path. Keep multiple annotations pairs if they are both on the shortest path. Second, keeps only one of the annotation pairs (based on confidence).</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.ViterbiFilterAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.jython.JythonAnnotator">JythonAnnotator (ch.epfl.bbp.uima.jython.JythonAnnotator)</a></h3>
+<p>Allows Python scripts to be used in UIMA through Jython (http://www.jython.org/)</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>script_path</td><td></td><td>N</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.jython.JythonAnnotator
+ script_path: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.jython.JythonAnnotator2">JythonAnnotator2 (ch.epfl.bbp.uima.jython.JythonAnnotator2)</a></h3>
+<p>Allows Python scripts to be used in UIMA through Jython (http://www.jython.org/)</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>script_string</td><td>a String that contains a Python script</td><td>Y</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.jython.JythonAnnotator2
+ script_string: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.BeanshellAnnotator">BeanshellAnnotator (ch.epfl.bbp.uima.ae.BeanshellAnnotator)</a></h3>
+<p>Allows BeanShell Java scripts to be used in UIMA. Sets jCas as available variable.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>script_string</td><td>a String that contains a Beanshell Java script</td><td>Y</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.BeanshellAnnotator
+ script_string: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.PrintCommentAnnotator">PrintCommentAnnotator (ch.epfl.bbp.uima.ae.PrintCommentAnnotator)</a></h3>
+<p>Lets you print a message to sysout</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>message</td><td>a message to print out</td><td>Y</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.PrintCommentAnnotator
+ message: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.ReferencesFinderAnnotator">ReferencesFinderAnnotator (ch.epfl.bbp.uima.ae.ReferencesFinderAnnotator)</a></h3>
+<p></p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.ReferencesFinderAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator">PdfCollectionAnnotator (ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator)</a></h3>
+<p>Extracts the text of a PDF file using Snowtide's PDFTextSteam (http://www.snowtide.com/) and optionally the tables found in the PDF using TableSeer (http://sourceforge.net/projects/tableseer/). <br/> This AE is used for local multithreaded processing, and relies on a FileReader to set the file path in the Header</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>extractTables</td><td>whether to extract tables</td><td>N</td><td>true</td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator
+ extractTables: true
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader">PdfCollectionReader (ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader)</a></h3>
+<p>Extracts the text of a PDF file using Snowtide's PDFTextSteam (http://www.snowtide.com/) and optionally the tables found in the PDF using TableSeer (http://sourceforge.net/projects/tableseer/). TODO implement Snowtide parser in TableSeer</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>extractTables</td><td>whether to extract tables</td><td>N</td><td>true</td></tr>
+</table>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+ extractTables: true
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.pdf.extraction.sections.NxmlPdfReader">NxmlPdfReader (ch.epfl.bbp.uima.pdf.extraction.sections.NxmlPdfReader)</a></h3>
+<p></p>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.pdf.extraction.sections.NxmlPdfReader
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.PubmedWebServiceCollectionReader">PubmedWebServiceCollectionReader (ch.epfl.bbp.uima.cr.PubmedWebServiceCollectionReader)</a></h3>
+<p>CollectionReader that connects to Pubmed's remote search service (webservice API). Allows to query for a specific term (e.g. "cat") or mesh terms (e.g. "brain[mesh]").</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>query</td><td>the query parameter for entrez. E.g. 'cat' or 'brain[mesh]' or '16381840[pmid]' or '17170002 16381840' (for several PMIDs) </td><td>Y</td><td></td></tr>
+<tr><td>maxNrResults</td><td>maximum number of results that should be returned</td><td>Y</td><td>100</td></tr>
+</table>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.PubmedWebServiceCollectionReader
+ query: <put value here>
+ maxNrResults: 100
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.PruneMeasuresAnnotator">PruneMeasuresAnnotator (ch.epfl.bbp.uima.ae.PruneMeasuresAnnotator)</a></h3>
+<p>Prunes/dedupes overlapping Measures. Necessary because the RegExAnnotator will create for '128 ± 12 copies' 2 different Measure annotations ('128 ± 12 copies' and '12 copies'), so we need to remove the latter.</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.PruneMeasuresAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.RegExAnnotator">RegExAnnotator (ch.epfl.bbp.uima.ae.RegExAnnotator)</a></h3>
+<p>Main RegEx annotator implementation class. ren: changed file resolution ren: changed process(), adding ⊂⊃ btw all T</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.RegExAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.RT1CellTypeProteinConcentrationExtractor">RT1CellTypeProteinConcentrationExtractor (ch.epfl.bbp.uima.ae.RT1CellTypeProteinConcentrationExtractor)</a></h3>
+<p>Collects existing annotations (Protein, Concentration and trigger words) and aggregates (copy) them in a CellTypeProteinConcentration.</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.RT1CellTypeProteinConcentrationExtractor
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.AnnotationHistogramAnnotator">AnnotationHistogramAnnotator (ch.epfl.bbp.uima.ae.AnnotationHistogramAnnotator)</a></h3>
+<p>Prints a histogram of the counts of annotation</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>printForEveryCas</td><td></td><td>N</td><td>false</td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.AnnotationHistogramAnnotator
+ printForEveryCas: false
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.AnnotationTypeWriter">AnnotationTypeWriter (ch.epfl.bbp.uima.ae.AnnotationTypeWriter)</a></h3>
+<p>A consumer that writes out specified Annotations and features to a specified text file</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>outputFile</td><td>outputfile, or System for sysout</td><td>N</td><td>out.txt</td></tr>
+<tr><td>annotationClass</td><td>the full name of the annotation class</td><td>N</td><td>org.apache.uima.jcas.tcas.Annotation</td></tr>
+<tr><td>featureName</td><td>the name of the feature to extract, or none for the text only</td><td>N</td><td></td></tr>
+<tr><td>filterFeaturesWithValue</td><td>filter the features that have this value</td><td>N</td><td></td></tr>
+<tr><td>param_new_line</td><td>whether to add a new line after each token</td><td>N</td><td>false</td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.AnnotationTypeWriter
+ outputFile: out.txt
+ annotationClass: org.apache.uima.jcas.tcas.Annotation
+ featureName: <put value here>
+ filterFeaturesWithValue: <put value here>
+ param_new_line: false
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.BartWriter">BartWriter (ch.epfl.bbp.uima.ae.BartWriter)</a></h3>
+<p>A consumer that writes out specified Annotations into static files, for BRAT's stand-off format (http://brat.nlplab.org/standoff.html)</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>addBratFiles</td><td>whether to add the complete, working brat server</td><td>N</td><td>true</td></tr>
+<tr><td>batchPrefix</td><td>prefix to add for each file in Brat; useful when comparing different batches</td><td>N</td><td></td></tr>
+<tr><td>debug</td><td>prints out annotations to StdOut</td><td>N</td><td>false</td></tr>
+<tr><td>outputDir</td><td></td><td>N</td><td>brat</td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.BartWriter
+ addBratFiles: true
+ batchPrefix: 
+ debug: false
+ outputDir: brat
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.CasDetaggerAnnotator">CasDetaggerAnnotator (ch.epfl.bbp.uima.ae.CasDetaggerAnnotator)</a></h3>
+<p>Removes specific tags from the CASes</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>className</td><td>The name (including package) of the class to be detagged, use: MyClass.class.getName(), or 'all' to remove ALL annotations</td><td>Y</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.CasDetaggerAnnotator
+ className: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.cleanup.DisambiguatorAnnotator">DisambiguatorAnnotator (ch.epfl.bbp.uima.ae.cleanup.DisambiguatorAnnotator)</a></h3>
+<p></p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.cleanup.DisambiguatorAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.cleanup.OneRulesThemOutAnnotator">OneRulesThemOutAnnotator (ch.epfl.bbp.uima.ae.cleanup.OneRulesThemOutAnnotator)</a></h3>
+<p>/ order matters! /</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.cleanup.OneRulesThemOutAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.cleanup.SkipSomePosAnnotator2">SkipSomePosAnnotator2 (ch.epfl.bbp.uima.ae.cleanup.SkipSomePosAnnotator2)</a></h3>
+<p>Bluntly removes annotations that cover a word with an uninteresting POS, like DT or TO, IN, ...</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.cleanup.SkipSomePosAnnotator2
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.DeduplicatorAnnotator">DeduplicatorAnnotator (ch.epfl.bbp.uima.ae.DeduplicatorAnnotator)</a></h3>
+<p>Removes duplicates annotations that have same Class, same begin and same end. TODO: There is no logic yet as how to select the annotation to keep in case of duplicates.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>annotationClasses</td><td>an array with the full name of each annotation classes</td><td>Y</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.DeduplicatorAnnotator
+ annotationClasses: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.DocumentTextWriter">DocumentTextWriter (ch.epfl.bbp.uima.ae.DocumentTextWriter)</a></h3>
+<p>Dumps the document text to a text file</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>outputDir</td><td></td><td>N</td><td>target/docs</td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.DocumentTextWriter
+ outputDir: target/docs
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.DotSentenceSplitterAnnotator">DotSentenceSplitterAnnotator (ch.epfl.bbp.uima.ae.DotSentenceSplitterAnnotator)</a></h3>
+<p>Splits an input text into Sentences at each dot.</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.DotSentenceSplitterAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.Dumper">Dumper (ch.epfl.bbp.uima.ae.Dumper)</a></h3>
+<p>Dumps it all to sysout</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.Dumper
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.EnsureDocHasHeader">EnsureDocHasHeader (ch.epfl.bbp.uima.ae.EnsureDocHasHeader)</a></h3>
+<p>Ensures that the jCas has a Header annotation, sets it to a random value otherwise otherwise</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.EnsureDocHasHeader
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.EnsureDocHasOneSentence">EnsureDocHasOneSentence (ch.epfl.bbp.uima.ae.EnsureDocHasOneSentence)</a></h3>
+<p>Ensures that the jCas has at lease one Sentence annotation, sets it to the whole text otherwise</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.EnsureDocHasOneSentence
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.EnsureDocTextNotNullAnnotator">EnsureDocTextNotNullAnnotator (ch.epfl.bbp.uima.ae.EnsureDocTextNotNullAnnotator)</a></h3>
+<p>Ensures that the text of a CAS is not null, sets it to "" otherwise</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.EnsureDocTextNotNullAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.EnsureTokensHaveLemmaAndPOS">EnsureTokensHaveLemmaAndPOS (ch.epfl.bbp.uima.ae.EnsureTokensHaveLemmaAndPOS)</a></h3>
+<p>Checks that each Token has a POS and a lemma, sets otherwise the POS to a "null" string, resp. the lemma to the coveredText itself</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.EnsureTokensHaveLemmaAndPOS
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.EvaluationAnnotator">EvaluationAnnotator (ch.epfl.bbp.uima.ae.EvaluationAnnotator)</a></h3>
+<p>TODO add configurable evaluators (strict, relaxed, etc)</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>gold_annotation</td><td>the annotation class name to copy to the gold view (and remove from initial view</td><td>Y</td><td></td></tr>
+<tr><td>system_annotation</td><td>the annotation class name to copy to the gold view (and remove from initial view</td><td>Y</td><td></td></tr>
+<tr><td>evaluator</td><td>possible values: atLeastCovered, exact, overlap</td><td>N</td><td>exact</td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.EvaluationAnnotator
+ gold_annotation: <put value here>
+ system_annotation: <put value here>
+ evaluator: exact
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.EvaluationPreprocessorAnnotator">EvaluationPreprocessorAnnotator (ch.epfl.bbp.uima.ae.EvaluationPreprocessorAnnotator)</a></h3>
+<p>Copies specified annotation to view_gold (later used by EvaluationAnnotator) and remove it from the _InitialView.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>gold_annotation</td><td>the annotation class name to copy to the gold view (and remove from initial view</td><td>Y</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.EvaluationPreprocessorAnnotator
+ gold_annotation: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.GarbageCollectorAnnotator">GarbageCollectorAnnotator (ch.epfl.bbp.uima.ae.GarbageCollectorAnnotator)</a></h3>
+<p>"Forces" to run the garbage collection every N document.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>runEveryNDocument</td><td></td><td>N</td><td>10000</td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.GarbageCollectorAnnotator
+ runEveryNDocument: 10000
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.GeneralEnglishAnnotator">GeneralEnglishAnnotator (ch.epfl.bbp.uima.ae.GeneralEnglishAnnotator)</a></h3>
+<p>Annotates general English words</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.GeneralEnglishAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.GridSearchConfiguration">GridSearchConfiguration (ch.epfl.bbp.uima.ae.GridSearchConfiguration)</a></h3>
+<p>Utility to perform in-place (statically configured) parameter configuration for grid-search optimization. Parameters are dynamically loaded, and named "o1", "o2", ... They have the following form: <code>o1: paramName{space}paramType{space}value1{space}value2...</code> Examples: <ul> <li><code>o1: test1 bool</code></li> <li><code>o2: test2 int 1 3 5</code></li> <li><code>o2: test3 string a b asdf</code></li> </ul>  Then, you can specify which combinaison</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>combinaisonIndex</td><td>The index of the current option</td><td>Y</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.GridSearchConfiguration
+ combinaisonIndex: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.HtmlViewerWriter">HtmlViewerWriter (ch.epfl.bbp.uima.ae.HtmlViewerWriter)</a></h3>
+<p></p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>outputDir</td><td>output directory , defaults to target/htmlViewer</td><td>N</td><td>target/htmlViewer/</td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.HtmlViewerWriter
+ outputDir: target/htmlViewer/
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.LucasHelperAnnotator">LucasHelperAnnotator (ch.epfl.bbp.uima.ae.LucasHelperAnnotator)</a></h3>
+<p>Adds e.g. setAnnotType("⊂AGE⊃") to all AgeDictTerm annotations. This is used by Lucas</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.LucasHelperAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.MultipleProteinsAnnotator">MultipleProteinsAnnotator (ch.epfl.bbp.uima.ae.MultipleProteinsAnnotator)</a></h3>
+<p>Adds a MultipleProteins annotations if there is more that one Protein in this document</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.MultipleProteinsAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.NaiveSentenceSplitterAnnotator">NaiveSentenceSplitterAnnotator (ch.epfl.bbp.uima.ae.NaiveSentenceSplitterAnnotator)</a></h3>
+<p>Sentence splitter that outputs the content of the whole CAS text as one single Sentence. Useful, since some NERs only take sentences as input.</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.NaiveSentenceSplitterAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.PrintAnnotationInSentenceWriter">PrintAnnotationInSentenceWriter (ch.epfl.bbp.uima.ae.PrintAnnotationInSentenceWriter)</a></h3>
+<p>Writes out specified Annotations and its enclosing sentence to a specified text file</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>outputFile</td><td>outputfile, or null for sysout</td><td>N</td><td></td></tr>
+<tr><td>annotationClass</td><td>the full name of the annotation class</td><td>Y</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.PrintAnnotationInSentenceWriter
+ outputFile: <put value here>
+ annotationClass: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.PunctuationAnnotator">PunctuationAnnotator (ch.epfl.bbp.uima.ae.PunctuationAnnotator)</a></h3>
+<p>Annotates punctuation chars @input Punctuation</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.PunctuationAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.RegexTokenizerAnnotator">RegexTokenizerAnnotator (ch.epfl.bbp.uima.ae.RegexTokenizerAnnotator)</a></h3>
+<p>Tokenizer that can be configured with a regex Pattern</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>tokenizationPattern</td><td>a String that will be compiled to a regex Pattern, and used for tokenization</td><td>N</td><td>(?<=[(a-zA-Z_0-9\-)])(?=[^(a-zA-Z_0-9\-)])|(?<=[^(a-zA-Z_0-9\-)])(?=[(a-zA-Z_0-9\-)])</td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.RegexTokenizerAnnotator
+ tokenizationPattern: (?<=[(a-zA-Z_0-9\-)])(?=[^(a-zA-Z_0-9\-)])|(?<=[^(a-zA-Z_0-9\-)])(?=[(a-zA-Z_0-9\-)])
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.SentenceDumpAnnotator">SentenceDumpAnnotator (ch.epfl.bbp.uima.ae.SentenceDumpAnnotator)</a></h3>
+<p>Format is: <code>pmId:sentId{tab}text</code> @see SentenceDumpCollectionReader</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>outputFile</td><td>A path to the output file</td><td>N</td><td>sentences.txt</td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.SentenceDumpAnnotator
+ outputFile: sentences.txt
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.SkipSomePosAnnotator">SkipSomePosAnnotator (ch.epfl.bbp.uima.ae.SkipSomePosAnnotator)</a></h3>
+<p>Annotate (flags) tokens that have an "uninteresting" POS, like V.., W.., DT or TO, IN, ...</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.SkipSomePosAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.SnowballAnnotator">SnowballAnnotator (ch.epfl.bbp.uima.ae.SnowballAnnotator)</a></h3>
+<p>Snowball stemmer annotator for Tokens</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.SnowballAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.StatsAnnotatorPlus">StatsAnnotatorPlus (ch.epfl.bbp.uima.ae.StatsAnnotatorPlus)</a></h3>
+<p>Logs statistics about the progress of the pipeline.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>printEvery</td><td>print every n doc</td><td>N</td><td>1000</td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.StatsAnnotatorPlus
+ printEvery: 1000
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.StatsTextAnnotator">StatsTextAnnotator (ch.epfl.bbp.uima.ae.StatsTextAnnotator)</a></h3>
+<p>Statistics (histogram) of document text length. Bins are rounded to 100</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.StatsTextAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.SysoutDumper">SysoutDumper (ch.epfl.bbp.uima.ae.SysoutDumper)</a></h3>
+<p>Dumps to sysout</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.SysoutDumper
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.TestAnnotator">TestAnnotator (ch.epfl.bbp.uima.ae.TestAnnotator)</a></h3>
+<p>Tests the number of annotations on each CAS. Probably only useful when testing a pipeline that processes a single document.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>expects</td><td>[{annot} {expected_count}, ]* , e.g. de.julielab.jules.types.Token 10, ch.epfl.bbp.uima.types.GeneralEnglish 4</td><td>Y</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.TestAnnotator
+ expects: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.VerbsCleanerAnnotator">VerbsCleanerAnnotator (ch.epfl.bbp.uima.ae.VerbsCleanerAnnotator)</a></h3>
+<p>Adds annotations for: 1) modal verbs (e.g. should, ...) and 2) other verbs (if not covered by VerbDictTerm) Removes all other annotations if POS = V</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.VerbsCleanerAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.WhitespaceTokenizerAnnotator">WhitespaceTokenizerAnnotator (ch.epfl.bbp.uima.ae.WhitespaceTokenizerAnnotator)</a></h3>
+<p>Simple whitespace tokenizer.</p>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.WhitespaceTokenizerAnnotator
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.XWriter">XWriter (ch.epfl.bbp.uima.ae.XWriter)</a></h3>
+<p>A simple CAS consumer that generates XCAS (XML representation of the CAS) files in the filesystem. renaud: Removing createConfigurationParameterName</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>outputDir</td><td>takes a path to directory into which output files will be written.</td><td>Y</td><td></td></tr>
+<tr><td>xmlSchemeName</td><td>specifies the UIMA XML serialization scheme that should be used. Valid values for this parameter are 'XMI' (default) and 'XCAS'.</td><td>Y</td><td>XMI</td></tr>
+<tr><td>fileNamerClassName</td><td>the class name of the XWriterFileNamer implementation to use</td><td>Y</td><td>org.uimafit.component.xwriter.IntegerFileNamer</td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.XWriter
+ outputDir: <put value here>
+ xmlSchemeName: XMI
+ fileNamerClassName: org.uimafit.component.xwriter.IntegerFileNamer
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.ZipXWriter">ZipXWriter (ch.epfl.bbp.uima.ae.ZipXWriter)</a></h3>
+<p>A simple CAS consumer that generates zipped XCAS (XML representation of the CAS) files in the filesystem.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>outputDir</td><td>takes a path to directory into which output files will be written.</td><td>Y</td><td></td></tr>
+<tr><td>org.uimafit.descriptor.ConfigurationParameter.USE_FIELD_NAME</td><td>specifies the UIMA XML serialization scheme that should be used. Valid values for this parameter are 'XMI' (default) and 'XCAS'.</td><td>Y</td><td>XMI</td></tr>
+<tr><td>org.uimafit.descriptor.ConfigurationParameter.USE_FIELD_NAME</td><td>the class name of the XWriterFileNamer implementation to use</td><td>Y</td><td>org.uimafit.component.xwriter.IntegerFileNamer</td></tr>
+<tr><td>org.uimafit.descriptor.ConfigurationParameter.USE_FIELD_NAME</td><td>whether to output in a structure directory</td><td>N</td><td>false</td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.ZipXWriter
+ outputDir: <put value here>
+ org.uimafit.descriptor.ConfigurationParameter.USE_FIELD_NAME: XMI
+ org.uimafit.descriptor.ConfigurationParameter.USE_FIELD_NAME: org.uimafit.component.xwriter.IntegerFileNamer
+ org.uimafit.descriptor.ConfigurationParameter.USE_FIELD_NAME: false
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.annotationviewer.BlueAnnotationViewerAnnotator">BlueAnnotationViewerAnnotator (ch.epfl.bbp.uima.annotationviewer.BlueAnnotationViewerAnnotator)</a></h3>
+<p>Creates an html view of the annotations in the CASes.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>outputDir</td><td></td><td>N</td><td>annotationViewer/</td></tr>
+<tr><td>styleMap</td><td></td><td>N</td><td>viewer/blueStyleMap.xml</td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.annotationviewer.BlueAnnotationViewerAnnotator
+ outputDir: annotationViewer/
+ styleMap: viewer/blueStyleMap.xml
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.AbstractFileReader">AbstractFileReader (ch.epfl.bbp.uima.cr.AbstractFileReader)</a></h3>
+<p></p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>inputDirectory</td><td>path to a directory containing pdfs, or path to a zip file containing pdfs (make sure it does not contain other file formats)</td><td>N</td><td></td></tr>
+<tr><td>directoryIterator</td><td>the directoryIterator to use. E.g. DefaultDirectoryIterator, ZipDirectoryIterator, LargeDirectoryIterator</td><td>N</td><td>DefaultDirectoryIterator</td></tr>
+<tr><td>isRecursive</td><td></td><td>N</td><td>false</td></tr>
+<tr><td>fileExtensionFilter</td><td>a filter on file extension</td><td>N</td><td>null</td></tr>
+</table>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.AbstractFileReader
+ inputDirectory: <put value here>
+ directoryIterator: DefaultDirectoryIterator
+ isRecursive: false
+ fileExtensionFilter: null
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.FileReader">FileReader (ch.epfl.bbp.uima.cr.FileReader)</a></h3>
+<p>Simply iterates a directory, and delegates to an AE to retrieve the actual file and process it. NOTE: no documentText is set yet, the first AE must do that</p>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.FileReader
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.SentenceDumpCollectionReader">SentenceDumpCollectionReader (ch.epfl.bbp.uima.cr.SentenceDumpCollectionReader)</a></h3>
+<p>CollectionReader that takes a simple text file as input. Each line is turned into a new CAS. Format is: <code>pmId:sentId{tab}text</code> For PubMed, there are ~70M sentences. @see SentenceDumpAnnotator</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>inputFile</td><td>path to text file</td><td>N</td><td>sentences.txt</td></tr>
+</table>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.SentenceDumpCollectionReader
+ inputFile: sentences.txt
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.StdinInteractiveReader">StdinInteractiveReader (ch.epfl.bbp.uima.cr.StdinInteractiveReader)</a></h3>
+<p>Interactively reads a sentence from stdin; useful for debugging.</p>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.StdinInteractiveReader
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.TextArrayReader">TextArrayReader (ch.epfl.bbp.uima.cr.TextArrayReader)</a></h3>
+<p>CollectionReader that takes a simple text array as input.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>input</td><td>a array of string, to be processed</td><td>Y</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.TextArrayReader
+ input: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.TextLineReader">TextLineReader (ch.epfl.bbp.uima.cr.TextLineReader)</a></h3>
+<p>CollectionReader that takes a simple text file as input. Each line is turned into a new CAS. Alternatively, each new empty lines creates a new CAS (using the TextLineReader#PARAM_SPLIT_MODE parameter).</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>inputFile</td><td>path to text file</td><td>Y</td><td>pear_resources/sample_file.txt</td></tr>
+<tr><td>splitMode</td><td>how to split for new CAS. Values are 1 (split on each new line, default), 2 (split on empty new line)</td><td>Y</td><td>1</td></tr>
+</table>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.TextLineReader
+ inputFile: pear_resources/sample_file.txt
+ splitMode: 1
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.TextReader">TextReader (ch.epfl.bbp.uima.cr.TextReader)</a></h3>
+<p>CollectionReader that takes a simple text as input.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>input</td><td>a string, to be processed</td><td>Y</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.TextReader
+ input: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.XCollectionReader">XCollectionReader (ch.epfl.bbp.uima.cr.XCollectionReader)</a></h3>
+<p>A simple collection reader that reads CASes in as XMIs from a directory in the filesystem.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>xmlSchemeName</td><td>specifies the UIMA XML serialization scheme that should be used. Valid values for this parameter are 'XMI' and 'XCAS'</td><td>N</td><td>XMI</td></tr>
+</table>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.XCollectionReader
+ xmlSchemeName: XMI
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.cr.ZipXmiCollectionReader">ZipXmiCollectionReader (ch.epfl.bbp.uima.cr.ZipXmiCollectionReader)</a></h3>
+<p>A simple collection reader that reads CASes in as Zipped XMIs from a directory in the filesystem.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>xmlSchemeName</td><td>specifies the UIMA XML serialization scheme that should be used. Valid values for this parameter are 'XMI' and 'XCAS'</td><td>N</td><td>XMI</td></tr>
+</table>
+<p>Usage (example):</p><pre>cr: ch.epfl.bbp.uima.cr.ZipXmiCollectionReader
+ xmlSchemeName: XMI
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.BrainRegionAnnotator">BrainRegionAnnotator (ch.epfl.bbp.uima.ae.BrainRegionAnnotator)</a></h3>
+<p>Annotator NER for brain regions mentions, modeled after <a href="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2741206/">Leon French's NER</a>. Operates in 3 modes: <ul> <li>train: trains a CFR sequence NER based on the provided gold BrainRegion annotations, and writes out a model;</li> <li>infer: annotates JCas with BrainRegions, using a provided model;</li> <li>eval: performs cross validation on an annotated corpus.</li> </ul></p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>mode</td><td>which mode (train, eval, infer)</td><td>N</td><td>infer</td></tr>
+<tr><td>threads</td><td>how many threads for eval and train</td><td>N</td><td>3</td></tr>
+<tr><td>trials</td><td>cross validation: how many trials</td><td>N</td><td>1</td></tr>
+<tr><td>modelFile</td><td>the model file to write to or read from</td><td>N</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.BrainRegionAnnotator
+ mode: infer
+ threads: 3
+ trials: 1
+ modelFile: <put value here>
+</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.PosTagAnnotator">PosTagAnnotator (ch.epfl.bbp.uima.ae.PosTagAnnotator)</a></h3>
+<p>OpennlpPosTagger.java Copyright (c) 2006, JULIE Lab. All rights reserved. This program and the accompanying materials are made available under the terms of the Common Public License v1.0 Author: buyko Current version: 2.0 Since version: 1.0 Creation date: 30.01.2008 Analysis Engine that invokes the OpenNLP POS Tagger. This annotator assumes that sentences and tokens have been annotated in the CAS. We iterate over sentences, then iterate over tokens in the current sentece to accumulate a list of tokens, then invoke the OpenNLP POS Tagger on the list of tokens.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>caseSensitive</td><td>Is Tag Dictionary Use Case senstive</td><td>N</td><td>false</td></tr>
+<tr><td>useTagdict</td><td>true if a tag dictionary should be used, please consider data fields tagdict, caseSensitive</td><td>N</td><td>true</td></tr>
+<tr><td>tagDict</td><td>Path to tag Dictionary</td><td>N</td><td>pear_resources/models/postag/tagdict-genia</td></tr>
+<tr><td>modelFile</td><td></td><td>N</td><td>pear_resources/models/postag/Tagger_Genia.bin.gz</td></tr>
+</table>
+<p>Usage (example):</p><pre>@ch.epfl.bbp.uima.ScriptingShortcut(shortcut=ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger())</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.SentenceAnnotator">SentenceAnnotator (ch.epfl.bbp.uima.ae.SentenceAnnotator)</a></h3>
+<p>Sentence splitter, based on OpenNLP's MaxEnt SentenceDetector, and trained on biomedical corpora (PennBio or Genia corpora).</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>modelFile</td><td></td><td>N</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>@ch.epfl.bbp.uima.ScriptingShortcut(shortcut=ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter())</pre>
+<br/>
+<h3><a id="ch.epfl.bbp.uima.ae.TokenAnnotator">TokenAnnotator (ch.epfl.bbp.uima.ae.TokenAnnotator)</a></h3>
+<p>OpennlpTokenizer.java Copyright (c) 2006, JULIE Lab. All rights reserved. This program and the accompanying materials are made available under the terms of the Common Public License v1.0 Author: buyko Current version: 2.0	 Since version: 1.0 Creation date: 30.01.2008 Analysis Engine that uses the OpenNLP Tokenizer. This engine assumes that sentences have been annotated in the CAS. It iterates over sentences and invoke the OpenNLP Tokenizer on each sentence.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>modelFile</td><td></td><td>N</td><td></td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: ch.epfl.bbp.uima.ae.TokenAnnotator
+ modelFile: <put value here>
+</pre>
+<br/>
+<h3><a id="de.julielab.jules.ae.opennlp.ChunkAnnotator">ChunkAnnotator (de.julielab.jules.ae.opennlp.ChunkAnnotator)</a></h3>
+<p>OpenNLPChunker.java Copyright (c) 2007, JULIE Lab. All rights reserved. This program and the accompanying materials are made available under the terms of the Common Public License v1.0 Author: buyko Current version: 2.0 Since version: 1.0 Creation date: 30.01.2008 OpenNLP Chunker provides chunks to tokens in IOB format (e.g. B-NP, I-VP). This UIMA wrapper provides all needed input parameters to the OpenNLP Chunker and converts the IOB output of the OpenNLP Chunker in CAS.</p>
+<p>Usage (example):</p><pre>ae: de.julielab.jules.ae.opennlp.ChunkAnnotator
+</pre>
+<br/>
+<h3><a id="de.julielab.jules.ae.opennlp.ParseAnnotator">ParseAnnotator (de.julielab.jules.ae.opennlp.ParseAnnotator)</a></h3>
+<p>OpenNLPParser.java Copyright (c) 2007, JULIE Lab. All rights reserved. This program and the accompanying materials are made available under the terms of the Common Public License v1.0 Author: buyko Current version: 2.0 Since version: 1.0 Creation date: 30.01.2008 Wrapper for the OpenNLP Parser. Constituency-based parsing.</p>
+<p>Usage (example):</p><pre>ae: de.julielab.jules.ae.opennlp.ParseAnnotator
+</pre>
+<br/>
+<h3><a id="de.julielab.jules.ae.opennlp.PosTagAnnotator">PosTagAnnotator (de.julielab.jules.ae.opennlp.PosTagAnnotator)</a></h3>
+<p>OpennlpPosTagger.java Copyright (c) 2006, JULIE Lab. All rights reserved. This program and the accompanying materials are made available under the terms of the Common Public License v1.0 Author: buyko Current version: 2.0 Since version: 1.0 Creation date: 30.01.2008 Analysis Engine that invokes the OpenNLP POS Tagger. This annotator assumes that sentences and tokens have been annotated in the CAS. We iterate over sentences, then iterate over tokens in the current sentece to accumulate a list of tokens, then invoke the OpenNLP POS Tagger on the list of tokens.</p>
+<table><thead><td>Param. Name</td><td>Description</td><td>Required</td><td>Default Value</td></thead>
+<tr><td>caseSensitive</td><td>Is Tag Dictionary Use Case senstive</td><td>N</td><td>false</td></tr>
+<tr><td>tagset</td><td>the used postagset</td><td>N</td><td>de.julielab.jules.types.GeniaPOSTag</td></tr>
+<tr><td>useTagdict</td><td>true if a tag dictionary should be used, please consider data fields tagdict, caseSensitive</td><td>N</td><td>true</td></tr>
+<tr><td>tagDict</td><td>Path to tag Dictionary</td><td>N</td><td>pear_resources/models/postag/tagdict-genia</td></tr>
+<tr><td>modelFile</td><td></td><td>N</td><td>pear_resources/models/postag/Tagger_Genia.bin.gz</td></tr>
+</table>
+<p>Usage (example):</p><pre>ae: de.julielab.jules.ae.opennlp.PosTagAnnotator
+ caseSensitive: false
+ tagset: de.julielab.jules.types.GeniaPOSTag
+ useTagdict: true
+ tagDict: pear_resources/models/postag/tagdict-genia
+ modelFile: pear_resources/models/postag/Tagger_Genia.bin.gz
+</pre>
+<br/>
+<h3><a id="de.julielab.jules.ae.opennlp.SentenceAnnotator">SentenceAnnotator (de.julielab.jules.ae.opennlp.SentenceAnnotator)</a></h3>
+<p>OpennlpSentenceDetector.java Copyright (c) 2006, JULIE Lab. All rights reserved. This program and the accompanying materials are made available under the terms of the Common Public License v1.0 Author: buyko Current version: 2.0 Since version: 1.0 Creation date: 30.01.2008 This wrapper provides the interface to the OpenNLP Sentence Detector @see http://opennlp.sourceforge.net/</p>
+<p>Usage (example):</p><pre>ae: de.julielab.jules.ae.opennlp.SentenceAnnotator
+</pre>
+<br/>
+<h3><a id="de.julielab.jules.ae.opennlp.TokenAnnotator">TokenAnnotator (de.julielab.jules.ae.opennlp.TokenAnnotator)</a></h3>
+<p>OpennlpTokenizer.java Copyright (c) 2006, JULIE Lab. All rights reserved. This program and the accompanying materials are made available under the terms of the Common Public License v1.0 Author: buyko Current version: 2.0	 Since version: 1.0 Creation date: 30.01.2008 Analysis Engine that uses the OpenNLP Tokenizer. This engine assumes that sentences have been annotated in the CAS. It iterates over sentences and invoke the OpenNLP Tokenizer on each sentence.</p>
+<p>Usage (example):</p><pre>ae: de.julielab.jules.ae.opennlp.TokenAnnotator
+</pre>
+<br/>
+</body></html>

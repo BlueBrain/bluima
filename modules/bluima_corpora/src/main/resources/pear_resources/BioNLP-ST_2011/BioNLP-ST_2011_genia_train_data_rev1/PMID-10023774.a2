@@ -1,0 +1,19 @@
+*	Equiv T3 T4
+T13	Positive_regulation 53 62	activates
+T14	Gene_expression 75 85	expression
+T15	Gene_expression 343 352	expressed
+T16	Phosphorylation 600 614	phosphorylated
+T17	Gene_expression 657 666	expressed
+T18	Gene_expression 726 736	expression
+T19	Positive_regulation 766 779	dominant role
+T20	Gene_expression 795 805	expression
+T21	Positive_regulation 842 856	transactivator
+E1	Positive_regulation:T13 Theme:E2 Cause:T1
+E2	Gene_expression:T14 Theme:T2
+E3	Gene_expression:T15 Theme:T5
+E4	Phosphorylation:T16 Theme:T8
+E5	Gene_expression:T17 Theme:T8
+E6	Gene_expression:T18 Theme:T9
+E7	Positive_regulation:T19 Theme:E8
+E8	Gene_expression:T20 Theme:T10
+E9	Positive_regulation:T21 Theme:T12 Cause:T11

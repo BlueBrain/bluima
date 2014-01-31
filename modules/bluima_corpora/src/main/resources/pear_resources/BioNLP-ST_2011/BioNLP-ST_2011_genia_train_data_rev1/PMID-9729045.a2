@@ -1,0 +1,14 @@
+T16	Positive_regulation 15 24	inducible
+T17	Gene_expression 315 316	+
+T18	Negative_regulation 321 327	switch
+T19	Binding 411 423	coengagement
+T20	Gene_expression 663 673	Expression
+T21	Positive_regulation 697 707	is induced
+T22	Negative_regulation 724 733	inhibited
+E1	Positive_regulation:T16 Theme:T1 Cause:T2
+E2	Gene_expression:T17 Theme:T5
+E3	Negative_regulation:T18 Theme:E2
+E4	Binding:T19 Theme:T8
+E5	Gene_expression:T20 Theme:T11
+E6	Positive_regulation:T21 Theme:E5 Cause:T12
+E7	Negative_regulation:T22 Theme:E6

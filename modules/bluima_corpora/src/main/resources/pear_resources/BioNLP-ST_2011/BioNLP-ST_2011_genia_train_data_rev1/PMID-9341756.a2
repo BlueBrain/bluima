@@ -1,0 +1,27 @@
+T7	Regulation 682 688	effect
+T8	Positive_regulation 730 739	induction
+T9	Positive_regulation 1125 1134	induction
+T10	Negative_regulation 1224 1238	down-regulated
+T11	Negative_regulation 1469 1476	blocked
+T12	Positive_regulation 1517 1526	induction
+E1	Regulation:T7 Theme:E5
+E2	Regulation:T7 Theme:E6
+E3	Regulation:T7 Theme:E4
+E4	Positive_regulation:T8 Theme:T1
+E5	Positive_regulation:T8 Theme:T3
+E6	Positive_regulation:T8 Theme:T2
+E7	Positive_regulation:T9 Theme:T6
+E8	Positive_regulation:T9 Theme:T5
+E9	Positive_regulation:T9 Theme:T4
+E10	Negative_regulation:T10 Theme:E7
+E11	Negative_regulation:T10 Theme:E9
+E12	Negative_regulation:T10 Theme:E8
+E13	Negative_regulation:T11 Theme:E18
+E14	Negative_regulation:T11 Theme:E17
+E15	Negative_regulation:T11 Theme:E16
+E16	Positive_regulation:T12 Theme:T4
+E17	Positive_regulation:T12 Theme:T5
+E18	Positive_regulation:T12 Theme:T6
+M1	Speculation E1
+M2	Speculation E2
+M3	Speculation E3

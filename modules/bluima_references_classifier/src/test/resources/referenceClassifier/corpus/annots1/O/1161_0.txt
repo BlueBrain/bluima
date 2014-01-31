@@ -1,0 +1,7 @@
+5.1 Algorithm Analysis
+
+Let D be the set of extracted assertions. The following analysis2 shows that one iteration
+of merges takes time O(|D| log |D|). Let N C be the number of comparisons between strings
+in step 4. To simplify the analysis, we consider only those properties that contain a relation
+string and an argument 1 string. Let P roperties be the set of all such properties that
+apply to fewer than Max strings, and let Stringsp be the set of all strings that a particular

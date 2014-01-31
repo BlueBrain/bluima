@@ -1,0 +1,20 @@
+*	Equiv T4 T5
+T18	Transcription 117 132	mRNA expression
+T19	Gene_expression 580 588	staining
+T20	Gene_expression 636 644	staining
+E1	Transcription:T18 Theme:T2
+E2	Transcription:T18 Theme:T3
+E3	Transcription:T18 Theme:T4
+E4	Transcription:T18 Theme:T6
+E5	Gene_expression:T19 Theme:T9
+E6	Gene_expression:T19 Theme:T10
+E7	Gene_expression:T19 Theme:T11
+E8	Gene_expression:T20 Theme:T12
+M1	Speculation E1
+M2	Speculation E2
+M3	Speculation E3
+M4	Speculation E4
+M5	Speculation E5
+M6	Speculation E6
+M7	Speculation E7
+M8	Speculation E8

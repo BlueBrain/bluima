@@ -1,0 +1,29 @@
+T11	Positive_regulation 53 86	interact synergistically to raise
+T12	Regulation 372 378	effect
+T13	Positive_regulation 444 454	stimulates
+T14	Positive_regulation 589 595	levels
+T15	Positive_regulation 775 783	increase
+T16	Regulation 806 822	immunoreactivity
+T17	Positive_regulation 858 882	had only a slight effect
+T18	Positive_regulation 960 968	increase
+T19	Negative_regulation 980 988	decrease
+T20	Positive_regulation 1257 1267	activation
+E1	Positive_regulation:T11 Theme:T1
+E2	Regulation:T12 Theme:E5
+E3	Regulation:T12 Theme:E6
+E4	Positive_regulation:T13 Theme:T2
+E5	Positive_regulation:T14 Theme:T3
+E6	Positive_regulation:T14 Theme:T4
+E7	Positive_regulation:T15 Theme:E10
+E8	Positive_regulation:T15 Theme:E9
+E9	Regulation:T16 Theme:T6
+E10	Regulation:T16 Theme:T5
+E11	Positive_regulation:T17 Theme:E9
+E12	Positive_regulation:T17 Theme:E10
+E13	Positive_regulation:T18 Theme:T7
+E14	Negative_regulation:T19 Theme:T8
+E15	Positive_regulation:T20 Theme:T10
+M1	Speculation E2
+M2	Speculation E3
+M3	Negation E11
+M4	Negation E12

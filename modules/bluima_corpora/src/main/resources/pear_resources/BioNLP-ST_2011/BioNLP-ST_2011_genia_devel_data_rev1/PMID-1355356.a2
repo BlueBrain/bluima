@@ -1,0 +1,12 @@
+T12	Negative_regulation 302 339	acts as a dominant negative inhibitor
+T13	Regulation 588 597	important
+T14	Regulation 752 756	role
+T15	Positive_regulation 894 910	restore function
+T16	Negative_regulation 932 950	rendered defective
+T17	Positive_regulation 1278 1285	crucial
+E1	Negative_regulation:T12 Theme:T4
+E2	Regulation:T13 Theme:T7
+E3	Regulation:T14 Theme:T7
+E4	Positive_regulation:T15 Theme:T9
+E5	Negative_regulation:T16 Theme:T9
+E6	Positive_regulation:T17 Theme:T11

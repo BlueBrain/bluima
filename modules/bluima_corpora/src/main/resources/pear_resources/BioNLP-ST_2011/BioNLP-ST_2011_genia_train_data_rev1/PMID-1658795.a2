@@ -1,0 +1,11 @@
+T5	Regulation 1039 1049	regulation
+T6	Regulation 1323 1332	regulated
+T7	Positive_regulation 1451 1458	induced
+T8	Transcription 1554 1563	expressed
+E1	Regulation:T5 Theme:T2
+E2	Regulation:T5 Theme:T1
+E3	Regulation:T6 Theme:T2
+E4	Regulation:T6 Theme:T1
+E5	Positive_regulation:T7 Theme:T3
+E6	Transcription:T8 Theme:T4
+M1	Negation E6

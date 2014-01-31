@@ -1,0 +1,18 @@
+*	Equiv T3 T4
+*	Equiv T7 T6
+*	Equiv T1 T2
+T18	Positive_regulation 446 464	required to induce
+T19	Entity 474 486	cell-surface
+T20	Localization 487 497	expression
+T21	Positive_regulation 1019 1030	stimulation
+T22	Transcription 1038 1051	transcription
+T23	Binding 1165 1178	participation
+T24	Positive_regulation 1210 1217	induced
+E1	Positive_regulation:T18 Theme:E2
+E2	Localization:T20 Theme:T7 AtLoc:T19
+E3	Positive_regulation:T21 Theme:E6
+E4	Positive_regulation:T21 Theme:E5
+E5	Transcription:T22 Theme:T11
+E6	Transcription:T22 Theme:T12
+E7	Binding:T23 Theme:T14
+E8	Positive_regulation:T24 Theme:E7

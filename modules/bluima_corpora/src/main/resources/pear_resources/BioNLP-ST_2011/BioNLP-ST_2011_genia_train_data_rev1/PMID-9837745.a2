@@ -1,0 +1,22 @@
+*	Equiv T3 T2
+T10	Positive_regulation 490 504	became capable
+T11	Gene_expression 523 532	producing
+T12	Gene_expression 594 604	expression
+T13	Transcription 663 672	expressed
+T14	Positive_regulation 748 756	enhanced
+T15	Gene_expression 769 779	production
+T16	Positive_regulation 877 880	led
+T17	Gene_expression 888 898	production
+T18	Positive_regulation 1013 1020	induces
+T19	Gene_expression 1063 1073	expression
+E1	Positive_regulation:T10 Theme:E2
+E2	Gene_expression:T11 Theme:T1
+E3	Gene_expression:T12 Theme:T3
+E4	Transcription:T13 Theme:T4
+E5	Transcription:T13 Theme:T5
+E6	Positive_regulation:T14 Theme:E7
+E7	Gene_expression:T15 Theme:T6
+E8	Positive_regulation:T16 Theme:E9
+E9	Gene_expression:T17 Theme:T8
+E10	Positive_regulation:T18 Theme:E11
+E11	Gene_expression:T19 Theme:T9

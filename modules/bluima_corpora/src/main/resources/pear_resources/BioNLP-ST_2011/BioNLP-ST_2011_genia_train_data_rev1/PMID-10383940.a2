@@ -1,0 +1,41 @@
+T18	Positive_regulation 6 16	activation
+T19	Positive_regulation 59 63	role
+T20	Positive_regulation 552 562	activation
+T21	Positive_regulation 619 638	maximally expressed
+T22	Binding 688 695	binding
+T23	Positive_regulation 756 768	up-regulated
+T24	Positive_regulation 1033 1043	activation
+T25	Positive_regulation 1201 1210	increased
+T26	Binding 1217 1233	binding activity
+T27	Positive_regulation 1314 1322	enhanced
+T28	Positive_regulation 1329 1339	activation
+T29	Entity 1383 1387	Y701
+T30	Entity 1392 1396	S727
+T31	Phosphorylation 1403 1418	phosphorylation
+T32	Negative_regulation 1552 1561	inhibited
+T33	Binding 1615 1631	binding activity
+T34	Positive_regulation 1801 1810	activated
+T35	Regulation 1841 1849	modulate
+T36	Gene_expression 1854 1864	expression
+E1	Positive_regulation:T18 Theme:T1
+E2	Positive_regulation:T19 Theme:E1
+E3	Positive_regulation:T20 Theme:T2
+E4	Positive_regulation:T21 Theme:E3
+E5	Binding:T22 Theme:T3
+E6	Positive_regulation:T23 Theme:T5
+E7	Positive_regulation:T23 Theme:T4
+E8	Positive_regulation:T24 Theme:T8
+E9	Positive_regulation:T25 Theme:E10
+E10	Binding:T26 Theme:T10
+E11	Positive_regulation:T27 Theme:E12
+E12	Positive_regulation:T28 Theme:T12
+E13	Phosphorylation:T31 Theme:T13 Site:T30
+E14	Phosphorylation:T31 Theme:T13 Site:T29
+E15	Negative_regulation:T32 Theme:E16
+E16	Binding:T33 Theme:T14
+E17	Positive_regulation:T34 Theme:T15
+E18	Regulation:T35 Theme:E21 Cause:E17
+E19	Regulation:T35 Theme:E20 Cause:E17
+E20	Gene_expression:T36 Theme:T17
+E21	Gene_expression:T36 Theme:T16
+M1	Speculation E2

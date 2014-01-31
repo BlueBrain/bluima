@@ -1,0 +1,13 @@
+*	Equiv T1 T2
+T6	Binding 385 395	recognized
+T7	Gene_expression 455 465	detectable
+T8	Negative_regulation 760 769	inhibitor
+T9	Protein_catabolism 789 800	degradation
+E1	Binding:T6 Theme:T4
+E2	Binding:T6 Theme:T1
+E3	Binding:T6 Theme:T3
+E4	Gene_expression:T7 Theme:T4
+E5	Gene_expression:T7 Theme:T1
+E6	Gene_expression:T7 Theme:T3
+E7	Negative_regulation:T8 Theme:E8
+E8	Protein_catabolism:T9 Theme:T5

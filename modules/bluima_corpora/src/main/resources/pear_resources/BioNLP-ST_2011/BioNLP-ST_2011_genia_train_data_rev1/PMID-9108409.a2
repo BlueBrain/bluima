@@ -1,0 +1,38 @@
+*	Equiv T3 T2
+T13	Gene_expression 39 48	synthesis
+T14	Negative_regulation 94 104	suppressed
+T15	Gene_expression 442 450	produced
+T16	Regulation 487 497	regulatory
+T17	Gene_expression 523 532	synthesis
+T18	Negative_regulation 626 636	suppressed
+T19	Gene_expression 642 651	synthesis
+T20	Positive_regulation 738 747	Induction
+T21	Transcription 756 760	mRNA
+T22	Negative_regulation 804 813	inhibited
+T23	Transcription 920 931	transcribed
+T24	Regulation 955 966	stimulation
+T25	Negative_regulation 983 996	downregulated
+T26	Negative_regulation 1459 1469	suppressed
+T27	Gene_expression 1475 1485	production
+T28	Regulation 1585 1593	efficacy
+T29	Negative_regulation 1642 1653	suppression
+T30	Gene_expression 1669 1678	synthesis
+E1	Gene_expression:T13 Theme:T1
+E2	Negative_regulation:T14 Theme:E1
+E3	Gene_expression:T15 Theme:T3
+E4	Regulation:T16 Theme:E5
+E5	Gene_expression:T17 Theme:T4
+E6	Negative_regulation:T18 Theme:E7
+E7	Gene_expression:T19 Theme:T5
+E8	Positive_regulation:T20 Theme:E9
+E9	Transcription:T21 Theme:T6
+E10	Negative_regulation:T22 Theme:E8
+E11	Transcription:T23 Theme:T7
+E12	Regulation:T24 Theme:E11
+E13	Negative_regulation:T25 Theme:T7
+E14	Negative_regulation:T26 Theme:E15
+E15	Gene_expression:T27 Theme:T10
+E16	Regulation:T28 Theme:E17
+E17	Negative_regulation:T29 Theme:E18
+E18	Gene_expression:T30 Theme:T12
+M1	Speculation E4

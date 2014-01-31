@@ -1,0 +1,80 @@
+########################################################################################
+#
+# extract Brain Region co-occurrences,
+# using ABA, ABA-SYN and BRAINER
+# using simple co-occurrence
+#
+# $1 base output,
+#   e.g. target, or /nfs4/bbp.epfl.ch/simulation/nlp/data/20131024_ic-X-subcell/
+# $2 %(job_name)s job id (for input and output files)
+#   e.g. 1 or 34
+#
+########################################################################################
+
+
+
+# ABA #################################################################
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/aba")
+
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+
+# SAME!
+ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ annot2: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ cooccurrenceType: br-aba
+
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile2
+ outputFile: $1/$2_br-aba_cooc.txt
+ annot1Type: br
+ annot2Type: br
+ cooccurrenceType: br-aba
+
+
+
+# ABA-SYN #################################################################
+
+ae: RemoveAnnotationsAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/aba-syn")
+
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+
+# SAME!
+ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ annot2: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ cooccurrenceType: br-aba-syn
+
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile2
+ outputFile: $1/$2_br-aba-syn_cooc.txt
+ annot1Type: br
+ annot2Type: br
+ cooccurrenceType: br-aba-syn
+
+
+
+# BRAINER ###############################################################
+
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegion
+
+# SAME!
+ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.BrainRegion
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+ cooccurrenceType: br-brainer
+
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile2
+ outputFile: $1/$2_br-brainer_cooc.txt
+ annot1Type: br
+ annot2Type: br
+ cooccurrenceType: br-brainer
+

@@ -1,0 +1,15 @@
+# evaluates the Table NER against table_corpus, using Mallet's MultiSegmentationEvaluator
+# $1: path to table_corpus
+
+cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+ inputDirectory: $1/pdfs/with_tables/
+ #isRecursive__java: true
+ 
+
+ae: ch.epfl.bbp.nlp.tables.TableAnnotator
+ corpus_mode: eval
+ corpusRoot: $1
+ 
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

@@ -1,0 +1,18 @@
+T9	Gene_expression 30 40	expression
+T10	Gene_expression 418 428	expression
+T11	Transcription 529 538	expressed
+T12	Transcription 768 777	expressed
+T13	Gene_expression 902 912	expression
+T14	Transcription 1002 1012	expression
+T15	Positive_regulation 1022 1031	prominent
+T16	Gene_expression 1282 1292	expression
+E1	Gene_expression:T9 Theme:T1
+E2	Gene_expression:T10 Theme:T4
+E3	Transcription:T11 Theme:T5
+E4	Transcription:T12 Theme:T5
+E5	Gene_expression:T13 Theme:T6
+E6	Transcription:T14 Theme:T7
+E7	Positive_regulation:T15 Theme:E6
+E8	Gene_expression:T16 Theme:T8
+M1	Speculation E2
+M2	Negation E7

@@ -1,0 +1,35 @@
+*	Equiv T5 T4
+T18	Regulation 0 10	Regulation
+T19	Gene_expression 73 83	expression
+T20	Binding 112 124	interactions
+T21	Gene_expression 265 272	induced
+T22	Positive_regulation 287 295	response
+T23	Binding 574 579	binds
+T24	Gene_expression 700 710	expression
+T25	Transcription 712 725	Transcription
+T26	Positive_regulation 726 730	from
+T27	Entity 747 755	promoter
+T28	Negative_regulation 760 769	inhibited
+T29	Gene_expression 834 846	Coexpression
+T30	Binding 948 958	associated
+T31	Regulation 1381 1389	regulate
+T32	Gene_expression 1440 1450	expression
+E1	Regulation:T18 Theme:E2
+E2	Gene_expression:T19 Theme:T1
+E3	Binding:T20 Theme:T2
+E4	Binding:T20 Theme:T3
+E5	Gene_expression:T21 Theme:T5
+E6	Positive_regulation:T22 Theme:E5
+E7	Binding:T23 Theme:T7
+E8	Binding:T23 Theme:T6
+E9	Gene_expression:T24 Theme:T8
+E10	Transcription:T25 Theme:T9
+E11	Positive_regulation:T26 Theme:E10 Cause:T9 CSite:T27
+E12	Negative_regulation:T28 Theme:E11
+E13	Gene_expression:T29 Theme:T10
+E14	Gene_expression:T29 Theme:T11
+E15	Binding:T30 Theme:T12 Theme2:T15
+E16	Binding:T30 Theme:T12 Theme2:T14
+E17	Binding:T30 Theme:T12 Theme2:T13
+E18	Regulation:T31 Theme:E19
+E19	Gene_expression:T32 Theme:T16

@@ -1,0 +1,22 @@
+*	Equiv T5 T4
+T23	Positive_regulation 40 51	upregulates
+T24	Localization 66 75	secretion
+T25	Regulation 221 228	effects
+T26	Gene_expression 304 314	expression
+T27	Localization 392 401	secreting
+T28	Gene_expression 446 456	expression
+T29	Localization 623 632	secretion
+T30	Positive_regulation 637 646	increased
+T31	Regulation 802 808	effect
+T32	Transcription 834 849	transcriptional
+E1	Positive_regulation:T23 Theme:E2 Cause:T1
+E2	Localization:T24 Theme:T2
+E3	Regulation:T25 Theme:E4 Cause:T3
+E4	Gene_expression:T26 Theme:T5
+E5	Localization:T27 Theme:T8
+E6	Gene_expression:T28 Theme:T9
+E7	Localization:T29 Theme:T12
+E8	Positive_regulation:T30 Theme:E7
+E9	Regulation:T31 Theme:E10 Cause:T14
+E10	Transcription:T32 Theme:T15
+M1	Speculation E3

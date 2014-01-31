@@ -1,0 +1,9 @@
+## to test the pipeline parser
+## this is a valid pipeline
+
+## a comment
+cr: SingleAbstractReader
+
+ae: EnsureDocHasHeader
+
+ae: EnsureDocHasHeader

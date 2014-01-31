@@ -1,0 +1,28 @@
+*	Equiv T11 T12
+*	Equiv T4 T3
+T29	Positive_regulation 39 46	mediate
+T30	Gene_expression 62 72	expression
+T31	Positive_regulation 227 236	inducible
+T32	Regulation 311 320	regulates
+T33	Gene_expression 334 344	expression
+T34	Positive_regulation 582 590	mediated
+T35	Positive_regulation 601 610	induction
+T36	Regulation 1213 1222	responses
+T37	Positive_regulation 1528 1535	induced
+T38	Gene_expression 1545 1555	expression
+T39	Regulation 1588 1598	controlled
+T40	Entity 1678 1693	promoter region
+T41	Positive_regulation 1694 1697	act
+E1	Positive_regulation:T29 Theme:E2
+E2	Gene_expression:T30 Theme:T2
+E3	Positive_regulation:T31 Theme:T4 Cause:T5
+E4	Regulation:T32 Theme:E5 Cause:T6
+E5	Gene_expression:T33 Theme:T8
+E6	Positive_regulation:T34 Theme:E7
+E7	Positive_regulation:T35 Theme:T13 Cause:T14
+E8	Regulation:T36 Theme:T21 Cause:T20
+E9	Positive_regulation:T37 Theme:E10 Cause:T25
+E10	Gene_expression:T38 Theme:T26
+E11	Regulation:T39 Theme:E9 Cause:T28 CSite:T40
+E12	Regulation:T39 Theme:E9
+E13	Positive_regulation:T41 Theme:T28 Site:T40

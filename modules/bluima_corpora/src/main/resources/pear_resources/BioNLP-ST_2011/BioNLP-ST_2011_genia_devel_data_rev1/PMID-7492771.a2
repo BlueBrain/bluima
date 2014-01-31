@@ -1,0 +1,51 @@
+T17	Binding 127 134	Binding
+T18	Gene_expression 244 254	expression
+T19	Positive_regulation 367 393	Transcriptional activation
+T20	Positive_regulation 483 491	mediated
+T21	Binding 495 502	binding
+T22	Entity 557 565	promoter
+T23	Negative_regulation 652 661	inhibited
+T24	Positive_regulation 666 675	induction
+T25	Transcription 703 716	transcription
+T26	Negative_regulation 823 830	blocked
+T27	Positive_regulation 839 846	induced
+T28	Protein_catabolism 847 870	proteolytic degradation
+T29	Negative_regulation 897 906	prevented
+T30	Entity 911 918	nuclear
+T31	Localization 919 932	translocation
+T32	Negative_regulation 1057 1064	inhibit
+T33	Positive_regulation 1069 1078	induction
+T34	Negative_regulation 1136 1145	inhibited
+T35	Positive_regulation 1150 1159	induction
+T36	Transcription 1171 1184	transcription
+T37	Negative_regulation 1207 1217	preventing
+T38	Entity 1218 1225	nuclear
+T39	Localization 1226 1239	translocation
+E1	Binding:T17 Theme:T1 Theme2:T2
+E2	Gene_expression:T18 Theme:T3
+E3	Positive_regulation:T19 Theme:T4
+E4	Positive_regulation:T20 Theme:E3 Cause:E6
+E5	Positive_regulation:T20 Theme:E3 Cause:E7
+E6	Binding:T21 Theme:T5 Theme2:T7 Site2:T22
+E7	Binding:T21 Theme:T6 Theme2:T7 Site2:T22
+E8	Negative_regulation:T23 Theme:E9
+E9	Positive_regulation:T24 Theme:E10
+E10	Transcription:T25 Theme:T9
+E11	Negative_regulation:T26 Theme:E12
+E12	Positive_regulation:T27 Theme:E13
+E13	Protein_catabolism:T28 Theme:T10
+E14	Negative_regulation:T29 Theme:E17 Cause:E11
+E15	Negative_regulation:T29 Theme:E16 Cause:E11
+E16	Localization:T31 Theme:T11 ToLoc:T30
+E17	Localization:T31 Theme:T12 ToLoc:T30
+E18	Negative_regulation:T32 Theme:E19
+E19	Positive_regulation:T33 Theme:T13
+E20	Negative_regulation:T34 Theme:E22 Cause:E24
+E21	Negative_regulation:T34 Theme:E22 Cause:E25
+E22	Positive_regulation:T35 Theme:E23
+E23	Transcription:T36 Theme:T14
+E24	Negative_regulation:T37 Theme:E27
+E25	Negative_regulation:T37 Theme:E26
+E26	Localization:T39 Theme:T16 ToLoc:T38
+E27	Localization:T39 Theme:T15 ToLoc:T38
+M1	Negation E18

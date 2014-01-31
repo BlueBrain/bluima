@@ -1,0 +1,9 @@
+*	Equiv T4 T5
+T14	Gene_expression 356 365	expressed
+T15	Positive_regulation 543 557	Overexpression
+T16	Binding 766 774	interact
+E1	Gene_expression:T14 Theme:T9
+E2	Positive_regulation:T15 Theme:T10
+E3	Binding:T16 Theme:T13
+M1	Negation E3
+M2	Speculation E3

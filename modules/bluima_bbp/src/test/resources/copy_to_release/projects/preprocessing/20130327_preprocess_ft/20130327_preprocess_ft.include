@@ -1,0 +1,25 @@
+# FIXME move to includes,
+# ren@~/dev/bluebrain/svn_nlp/UIMA/bluima/trunk/modules/bluima/src/test/resources/copy_to_release$ ack -a "20130327_preprocess_ft/20130327_preprocess_ft.include"
+
+# works for abstracts, too!
+
+include: ../../../includes/preprocess.incl
+
+include: ../../../includes/lex-based-ners.incl
+
+ae: PunctuationAnnotator
+
+ae: WordnetAnnotator
+
+ae: GeneralEnglishAnnotator
+
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+
+ae: PruneMeasuresAnnotator
+
+ae: LinnaeusAnnotator
+
+ae: SkipSomePosAnnotator
+
+ae: DeduplicatorAnnotator
+ annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.BiolexiconDictTerm"}

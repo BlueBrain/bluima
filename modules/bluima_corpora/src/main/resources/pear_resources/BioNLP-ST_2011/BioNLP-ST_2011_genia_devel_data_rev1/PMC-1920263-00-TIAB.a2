@@ -1,0 +1,18 @@
+*	Equiv T4 T5
+T12	Regulation 12 20	regulate
+T13	Transcription 27 40	transcription
+T14	Gene_expression 161 170	expressed
+T15	Regulation 319 329	regulation
+T16	Entity 714 722	promoter
+T17	Positive_regulation 731 740	inducible
+T18	Entity 1302 1308	GC-box
+T19	Binding 1323 1330	binding
+E1	Regulation:T12 Theme:E2 Cause:T1
+E3	Regulation:T12 Theme:E2 Cause:T2
+E2	Transcription:T13 Theme:T3
+E4	Gene_expression:T14 Theme:T4
+E5	Regulation:T15 Theme:T4
+E6	Positive_regulation:T17 Theme:T8 Site:T16
+E7	Binding:T19 Theme:T8 Theme2:T10 Site:T18
+E8	Binding:T19 Theme:T8 Theme2:T11 Site:T18
+M1	Negation E6

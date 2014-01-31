@@ -1,0 +1,24 @@
+*	Equiv T12 T14 T13
+T16	Transcription 41 56	transcriptional
+T17	Transcription 243 257	RNA expression
+T18	Gene_expression 467 477	expression
+T19	Gene_expression 614 624	expression
+E1	Transcription:T16 Theme:T1
+E2	Transcription:T17 Theme:T2
+E3	Transcription:T17 Theme:T3
+E4	Gene_expression:T18 Theme:T4
+E5	Gene_expression:T18 Theme:T5
+E6	Gene_expression:T18 Theme:T6
+E7	Gene_expression:T18 Theme:T7
+E8	Gene_expression:T18 Theme:T8
+E9	Gene_expression:T18 Theme:T9
+E10	Gene_expression:T18 Theme:T10
+E11	Gene_expression:T19 Theme:T11
+M1	Speculation E4
+M2	Speculation E5
+M3	Speculation E6
+M4	Speculation E7
+M5	Speculation E8
+M6	Speculation E9
+M7	Speculation E10
+M8	Speculation E11

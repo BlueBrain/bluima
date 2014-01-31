@@ -1,0 +1,32 @@
+*	Equiv T10 T9
+T18	Gene_expression 986 994	detected
+T19	Positive_regulation 1039 1048	activated
+T20	Negative_regulation 1068 1078	inhibitors
+T21	Negative_regulation 1096 1103	blocked
+T22	Gene_expression 1177 1186	synthesis
+T23	Negative_regulation 1231 1241	Inhibition
+T24	Negative_regulation 1338 1342	loss
+T25	Gene_expression 1356 1365	synthesis
+T26	Positive_regulation 1440 1447	results
+T27	Positive_regulation 1451 1461	activation
+T28	Positive_regulation 1485 1494	activates
+T29	Positive_regulation 1564 1572	enhanced
+T30	Gene_expression 1578 1588	expression
+T31	Regulation 1607 1617	regulation
+T32	Gene_expression 1631 1640	synthesis
+E1	Gene_expression:T18 Theme:T6
+E2	Gene_expression:T18 Theme:T5
+E3	Positive_regulation:T19 Theme:T7
+E4	Negative_regulation:T20 Theme:T8
+E5	Negative_regulation:T21 Theme:E6 Cause:E4
+E6	Gene_expression:T22 Theme:T10
+E7	Negative_regulation:T23 Theme:T11
+E8	Negative_regulation:T24 Theme:E9 Cause:E7
+E9	Gene_expression:T25 Theme:T13
+E10	Positive_regulation:T26 Theme:E11
+E11	Positive_regulation:T27 Theme:T14
+E12	Positive_regulation:T28 Theme:T15 Cause:E10
+E13	Positive_regulation:T29 Theme:E14 Cause:E12
+E14	Gene_expression:T30 Theme:T16
+E15	Regulation:T31 Theme:E16 Cause:E12
+E16	Gene_expression:T32 Theme:T17

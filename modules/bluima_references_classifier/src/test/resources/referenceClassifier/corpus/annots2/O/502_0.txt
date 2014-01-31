@@ -1,0 +1,29 @@
+Gauge (AWG) enamel-coated copper wire (;0.8 mm diameter). The loops of the solenoid met at the long-axis coil
+end and were tightly twisted into three half-turns of ap-proximately 2 mm total length to displace the tuning circuit components away from the coil inductor (Fig. 1a). The
+circuit diagram for the coil system is shown in Fig. 2. The
+leads were soldered to a miniature 16 pF ceramic chipcapacitor (2.8 × 2.8 × 2.5 mm, Dielectric Laboratories Inc.,
+Cazenovia, NY) (C3T in Fig. 2). This placed the capacitor in
+series with the coil inductor (LImp in Fig. 2) in order to
+tune the circuit resonance. A resonance-blocking circuit
+(27) was added in parallel across the tuning capacitor. The
+resonance-blocking circuit consisted of a crossed-diodes
+package (model MA45471, M/A-COM, Inc., Lowell, MA)
+placed in series with a six-turn, 2 mm × 2 mm inductor
+(LDec in Fig. 2), made with 28 AWG enamel-coated copper
+wire. This resonance-blocking scheme decoupled the im-planted coil from the external coil during transmission,
+thus enabling the external coil to provide relatively uniform excitation over the spinal cord. However, during
+signal reception the resonance blocking circuit was not
+active, so the implanted and external coils remained coupled and the MR signal received by the implanted coil was
+detected. Once construction and bench testing were completed, the implantable coil system was coated with
+PMMA, which produces no interfering 1H signal, sets
+quickly, and dries to a hard solid. The PMMA coating
+maintains the coil's structural integrity, provides a surface
+for attachment of the coil system to the spinal column,
+electrically isolates the coil, and minimizes possible susceptibility distortions due to the coil components.
+The external surface coil was a single-turn saddle constructed with flat copper tape ;6 mm (0.25 inches) in
+width, 3 cm along each side (measured from the center of
+the tape). Rather than use a single-series capacitor to turn
+this inductor to resonance, two fixed capacitors (20 pF
+ceramic chip-capacitor, American Technical Ceramics,
+Huntington Station, NY) were placed at each end of the
+inductor (in Fig. 2, one chip capacitor is CD and the other

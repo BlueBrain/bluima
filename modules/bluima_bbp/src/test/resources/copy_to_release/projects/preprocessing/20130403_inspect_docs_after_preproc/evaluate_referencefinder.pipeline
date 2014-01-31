@@ -1,0 +1,9 @@
+cr: ch.epfl.bbp.uima.mongo.MongoCollectionReader
+ db_connection__java: new String[]{  "128.178.187.248", "preprocessed_2", "20130327_preprocess_ft", "", ""}
+ query: {pmid:{ $gt: 18000000 }}
+
+
+#FIMXEae: ReferencesFinderAnnotator
+
+
+ae: StatsTextAnnotator

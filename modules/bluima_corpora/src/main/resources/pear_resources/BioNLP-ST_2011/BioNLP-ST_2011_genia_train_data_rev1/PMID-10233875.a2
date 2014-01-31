@@ -1,0 +1,42 @@
+*	Equiv T3 T2
+T16	Positive_regulation 41 48	induced
+T17	Gene_expression 68 78	expression
+T18	Positive_regulation 141 151	stimulates
+T19	Localization 173 182	secretion
+T20	Positive_regulation 295 302	induced
+T21	Gene_expression 308 318	production
+T22	Localization 395 404	secretion
+T23	Binding 568 575	binding
+T24	Positive_regulation 594 602	detected
+T25	Regulation 707 711	role
+T26	Gene_expression 725 735	production
+T27	Gene_expression 819 829	expression
+T28	Gene_expression 1079 1091	coexpression
+T29	Binding 1248 1254	couple
+T30	Negative_regulation 1293 1303	inhibition
+T31	Positive_regulation 1311 1318	induced
+T32	Gene_expression 1324 1334	expression
+T33	Positive_regulation 1480 1487	induced
+T34	Gene_expression 1498 1508	expression
+E1	Positive_regulation:T16 Theme:E2
+E2	Gene_expression:T17 Theme:T1
+E3	Positive_regulation:T18 Theme:E4
+E4	Localization:T19 Theme:T3
+E5	Positive_regulation:T20 Theme:E6
+E6	Gene_expression:T21 Theme:T4
+E7	Localization:T22 Theme:T5
+E8	Binding:T23 Theme:T7
+E9	Positive_regulation:T24 Theme:E8
+E10	Regulation:T25 Theme:E11
+E11	Gene_expression:T26 Theme:T8
+E12	Gene_expression:T27 Theme:T9
+E13	Gene_expression:T28 Theme:T12
+E14	Binding:T29 Theme:T13
+E15	Negative_regulation:T30 Theme:E16
+E16	Positive_regulation:T31 Theme:E17
+E17	Gene_expression:T32 Theme:T14
+E18	Positive_regulation:T33 Theme:E19
+E19	Gene_expression:T34 Theme:T15
+M1	Negation E9
+M2	Negation E10
+M3	Negation E15

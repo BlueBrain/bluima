@@ -1,0 +1,50 @@
+*	Equiv T8 T9
+T13	Regulation 86 95	regulates
+T14	Entity 134 142	promoter
+T15	Regulation 375 386	controlling
+T16	Gene_expression 410 420	expression
+T17	Entity 500 508	promoter
+T18	Gene_expression 566 573	express
+T19	Positive_regulation 672 680	required
+T20	Transcription 695 708	transcription
+T21	Gene_expression 723 730	express
+T22	Positive_regulation 757 765	activity
+T23	Gene_expression 794 801	express
+T24	Positive_regulation 1108 1118	sufficient
+T25	Binding 1108 1130	sufficient for binding
+T26	Positive_regulation 1202 1228	transcriptional activation
+T27	Positive_regulation 1420 1430	high level
+T28	Transcription 1434 1447	transcription
+T29	Regulation 1489 1495	effect
+T30	Binding 1499 1506	binding
+T31	Positive_regulation 1679 1708	in transcriptional activation
+T32	Binding 1882 1886	bind
+T33	Entity 1904 1912	promoter
+T34	Regulation 2031 2058	play a key role in defining
+T35	Gene_expression 2063 2070	pattern
+E1	Regulation:T13 Theme:T1 Site:T14
+E2	Regulation:T15 Theme:E3
+E3	Gene_expression:T16 Theme:T2
+E4	Gene_expression:T18 Theme:T2
+E5	Positive_regulation:T19 Theme:E6
+E6	Transcription:T20 Theme:T2
+E7	Gene_expression:T21 Theme:T2
+E8	Positive_regulation:T22 Theme:E6
+E9	Gene_expression:T23 Theme:T2
+E10	Positive_regulation:T24 Theme:E12
+E11	Binding:T25 Theme:T8
+E12	Positive_regulation:T26 Theme:T4 Site:T17
+E13	Positive_regulation:T27 Theme:E14
+E14	Transcription:T28 Theme:T2
+E15	Regulation:T29 Theme:E16
+E16	Binding:T30 Theme:T10
+E17	Positive_regulation:T31 Theme:T2
+E18	Binding:T32 Theme:T11 Site:T33
+E19	Regulation:T34 Theme:E20
+E20	Gene_expression:T35 Theme:T12
+M1	Speculation E2
+M2	Negation E4
+M3	Negation E8
+M4	Negation E9
+M5	Negation E15
+M6	Speculation E19

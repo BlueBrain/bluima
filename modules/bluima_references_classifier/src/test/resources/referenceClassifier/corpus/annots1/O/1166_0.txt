@@ -1,0 +1,8 @@
+1 Introduction and Motivation
+This paper introduces Open Information Extraction (OIE)—
+a novel extraction paradigm that facilitates domainindependent discovery of relations extracted from text and
+readily scales to the diversity and size of the Web corpus.
+The sole input to an OIE system is a corpus, and its output
+is a set of extracted relations. An OIE system makes a single
+pass over its corpus guaranteeing scalability with the size of
+the corpus.

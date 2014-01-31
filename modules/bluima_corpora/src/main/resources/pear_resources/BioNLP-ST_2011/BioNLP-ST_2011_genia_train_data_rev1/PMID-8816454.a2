@@ -1,0 +1,41 @@
+*	Equiv T3 T2
+*	Equiv T13 T12
+T22	Transcription 136 149	transcription
+T23	Positive_regulation 177 179	by
+T24	Binding 287 292	binds
+T25	Transcription 351 362	transcribed
+T26	Positive_regulation 351 362	transcribed
+T27	Positive_regulation 409 418	essential
+T28	Transcription 429 442	transcription
+T29	Gene_expression 641 651	expression
+T30	Binding 823 833	recognized
+T31	Positive_regulation 942 950	required
+T32	Transcription 955 968	transcription
+T33	Binding 1161 1170	associate
+T34	Binding 1324 1345	physical interactions
+T35	Transcription 1421 1434	transcription
+T36	Positive_regulation 1557 1565	required
+T37	Transcription 1574 1587	transcription
+T38	Positive_regulation 1618 1622	acts
+T39	Binding 1636 1647	interaction
+E1	Transcription:T22 Theme:T1
+E2	Positive_regulation:T23 Theme:E1
+E3	Binding:T24 Theme:T3
+E4	Transcription:T25 Theme:T3
+E5	Positive_regulation:T26 Theme:E4
+E6	Positive_regulation:T27 Theme:E7
+E7	Transcription:T28 Theme:T3
+E8	Gene_expression:T29 Theme:T6
+E9	Binding:T30 Theme:T8
+E10	Positive_regulation:T31 Theme:E11 Cause:T10
+E11	Transcription:T32 Theme:T11
+E12	Binding:T33 Theme:T13
+E13	Binding:T33 Theme:T14
+E14	Binding:T34 Theme:T15 Theme2:T17
+E15	Binding:T34 Theme:T16 Theme2:T17
+E16	Transcription:T35 Theme:T19
+E17	Positive_regulation:T36 Theme:E18
+E18	Transcription:T37 Theme:T21
+E19	Positive_regulation:T38 Theme:E17 Cause:E21
+E20	Positive_regulation:T38 Theme:E17
+E21	Binding:T39 Theme:T20

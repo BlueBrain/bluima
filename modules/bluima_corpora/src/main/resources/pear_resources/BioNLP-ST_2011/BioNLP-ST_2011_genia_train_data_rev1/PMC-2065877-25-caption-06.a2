@@ -1,0 +1,19 @@
+T20	Positive_regulation 5 16	Upregulates
+T21	Gene_expression 22 32	Expression
+T22	Positive_regulation 52 61	Activates
+T23	Transcription 81 91	expression
+T24	Positive_regulation 507 516	activated
+T25	Positive_regulation 948 957	activated
+E1	Positive_regulation:T20 Theme:E2 Cause:T1
+E2	Gene_expression:T21 Theme:T2
+E3	Positive_regulation:T22 Theme:T3 Cause:T1
+E4	Transcription:T23 Theme:T4
+E5	Transcription:T23 Theme:T5
+E6	Transcription:T23 Theme:T6
+E7	Positive_regulation:T24 Theme:T11
+E8	Positive_regulation:T25 Theme:T18
+M1	Speculation E4
+M2	Speculation E5
+M3	Speculation E6
+M4	Speculation E7
+M5	Speculation E8

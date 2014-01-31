@@ -1,0 +1,30 @@
+T11	Negative_regulation 0 14	Downregulation
+T12	Positive_regulation 231 246	high expression
+T13	Gene_expression 236 246	expression
+T14	Negative_regulation 314 327	downregulated
+T15	Gene_expression 388 402	Overexpression
+T16	Positive_regulation 388 402	Overexpression
+T17	Positive_regulation 520 524	high
+T18	Gene_expression 529 539	expression
+T19	Gene_expression 678 691	overexpressed
+T20	Positive_regulation 678 691	overexpressed
+T21	Gene_expression 735 742	express
+T22	Negative_regulation 768 781	downregulated
+T23	Positive_regulation 898 904	forced
+T24	Gene_expression 915 925	expression
+T25	Negative_regulation 1212 1226	downregulation
+E1	Negative_regulation:T11 Theme:T1
+E2	Positive_regulation:T12 Theme:E3
+E3	Gene_expression:T13 Theme:T3
+E4	Negative_regulation:T14 Theme:T4
+E5	Gene_expression:T15 Theme:T5
+E6	Positive_regulation:T16 Theme:E5
+E7	Positive_regulation:T17 Theme:E8
+E8	Gene_expression:T18 Theme:T6
+E9	Gene_expression:T19 Theme:T7
+E10	Positive_regulation:T20 Theme:E9
+E11	Gene_expression:T21 Theme:T8
+E12	Negative_regulation:T22 Theme:E11
+E13	Positive_regulation:T23 Theme:E14
+E14	Gene_expression:T24 Theme:T9
+E15	Negative_regulation:T25 Theme:T10

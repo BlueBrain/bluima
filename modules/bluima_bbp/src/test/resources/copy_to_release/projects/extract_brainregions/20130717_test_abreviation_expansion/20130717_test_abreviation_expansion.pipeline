@@ -1,0 +1,36 @@
+########################################################################################
+# extract brain regions with 3 different methods
+#
+# $1 job id (for input and output files)
+#
+########################################################################################
+
+cr: FromFilelistReader
+ inputFile: $ROOT/modules/bluima/src/test/resources/copy_to_release/projects/extract_brainregions/20130717_test_abreviation_expansion/testFilelist.txt
+ #format__java: true
+
+ae: ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator
+
+ae: SentenceAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz
+
+# needed!
+ae: TokenAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/token/TokenizerGenia.bin.gz
+
+########################################################################################
+# 1) NEURONAMES
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/neuronames")
+
+ae: DeduplicatorAnnotator
+ annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.BrainRegionDictTerm"}
+
+ae: AbbreviationsAnnotator
+
+ae: AbbreviationsExpanderAnnotator
+
+ae: HtmlViewerWriter
+
+########################################################################################
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

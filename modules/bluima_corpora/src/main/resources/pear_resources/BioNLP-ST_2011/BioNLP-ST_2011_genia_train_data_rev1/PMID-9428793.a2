@@ -1,0 +1,26 @@
+*	Equiv T2 T1
+*	Equiv T3 T4
+*	Equiv T6 T7
+T15	Negative_regulation 14 22	inhibits
+T16	Transcription 29 44	mRNA expression
+T17	Transcription 906 912	levels
+T18	Positive_regulation 994 998	high
+T19	Transcription 999 1005	levels
+T20	Positive_regulation 1060 1071	stimulation
+T21	Positive_regulation 1260 1268	increase
+T22	Negative_regulation 1453 1462	inhibited
+T23	Gene_expression 1501 1511	expression
+T24	Negative_regulation 1641 1651	inhibition
+T25	Gene_expression 1660 1670	expression
+E1	Negative_regulation:T15 Theme:E2
+E2	Transcription:T16 Theme:T2
+E3	Transcription:T17 Theme:T8
+E4	Positive_regulation:T18 Theme:E5
+E5	Transcription:T19 Theme:T9
+E6	Positive_regulation:T20 Theme:T10
+E7	Positive_regulation:T21 Theme:T11
+E8	Negative_regulation:T22 Theme:E7
+E9	Gene_expression:T23 Theme:T12
+E10	Negative_regulation:T24 Theme:E11
+E11	Gene_expression:T25 Theme:T13
+M1	Speculation E3

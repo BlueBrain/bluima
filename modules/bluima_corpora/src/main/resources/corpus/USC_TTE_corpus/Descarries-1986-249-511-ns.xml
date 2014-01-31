@@ -1,0 +1,1796 @@
+<?xml version='1.0'?>
+<!DOCTYPE File PUBLIC "NeuroScholar.DTD" "NeuroScholar.DTD">
+<?xml-stylesheet type="text/css" href="NeuroScholar.css"?>
+<File>
+
+  <Title>Dopaminergic Projection From Nucleus Raphe Dorsalis to 
+  Neostriatum in the Rat</Title>
+
+  <Authors>LAURENT DESCARRIES, FRANCE BERTHELET, SYLVIA 
+  GARCIA,</Authors>
+
+  <Authors>AND ALAIN BEAUDET</Authors>
+
+  <Abstract>
+
+    <S avgH="21" class="abstract.heading" format="TimesNewRomanPSMT"
+     id="s0">ABSTRACT</S>
+    <BR />
+
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s1">The existence of a dopamine (DA) projection from nucleus 
+    raphe dorsalis (RD) to neostriatum was demonstrated in the rat by 
+    combined tyrosine hydroxylase (TH) immunohistochemistry and 
+    radioautography after retrograde axonal transport of 
+    [&apos;Hlnoradrenaline ([&apos;HINA).</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s2">Intrastriatal injections of [3H]NA were carried out in 
+    normal rats or after ipsilateral destruction of the nigrostriatal 
+    DA system by injection of 6-hydroxydopamine (6-OHDA) into the 
+    substantia nigra.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s3">Some 1,000 TH-positive nerve cell bodies were counted 
+    within the confines of RD as defined by its content in serotonin 
+    (5-HT) neurons.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s4">These DA neurons occupied the upper third of the RD and 
+    they were part of its small cell population.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s5">In all cases, a small proportion of the TH-immunoreactive 
+    nerve cell bodies in RD were retrogradely radiolabeled.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s6">Radiolabeled but immunonegative cells were exceedingly 
+    rare.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s7">The double-labeled neurons were generally more numerous 
+    after elimination of the nigrostriatial DA innervation than in 
+    normal rats.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s8">They mostly lay within the ventral portion of the medial 
+    subdivision of RD and always predominated on the [3H]NAinjected 
+    side.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s9">Some were also present in nucleus linearis caudalis.</S>
+    <S avgH="21" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s10">It was concluded that (1) [3H]NA had been taken up and 
+    retrogradely transported exclusively by catecholamine neurons; (2) 
+    part of the DA cell group in RD projects to the neostriatum; and 
+    that (3) most if not all non-5-HT neurons projecting from RD to 
+    neostriatum are likely to be dopaminergic.</S>
+  </Abstract>
+
+  <Introduction>
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s11">The existence of catecholaminein addition to serotonin 
+    (5-HT)-containing nerve cell bodies within the nucleus raphe 
+    dorsalis (RD) of rat mesencephalon was first reported by Lindvall 
+    and Bjorklund (&apos;74) who used fluorescence histochemistry with 
+    glyoxylic acid.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s12">In a subsequent study on central neurons showing 
+    tyrosine-hydroxylase (TH) immunoreactivity, Hokfelt et al. 
+    (&apos;76) confirmed the presence of these catecholamine cells, 
+    which represent a caudal extension of the midline dopamine (DA) 
+    subgroup A10 in the rostral midbrain (Hokfelt et al., &apos;84).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s13">Since then, the DA identity of the catecholamine neurons 
+    in rat RD has been firmly established by means of two different 
+    approaches: the combination of microspectrofluorometry with 
+    fluorescence histochemistry (Ochi et al., &apos;78) and the 
+    demonstration of TH immunostaining in the absence of a positive 
+    reaction to dopamine-0-hydroxylase (Nagatsu et al., &apos;79).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s14">The presence of these DA nerve cell bodies probably 
+    accounts in large measure for the relatively high endogenous DA 
+    content of rat RD (e.g., Versteeg et al., &apos;76; Levitt and 
+    Moore, &apos;79).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s15">Recently, additional immunohistochemical data have been 
+    published illustrating the distribution of the DA neurons in the 
+    rostral pole of the RD, as well as their relative contribution to 
+    the greater midbrain DA population to which they belong (German et 
+    al., &apos;83; Kohler and Goldstein &apos;84; see also Hokfelt et 
+    al., &apos;84).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s16">However, there is as yet little information regarding the 
+    projections and thus the functional integration of this DA 
+    subsystem (but see Reymann et al., &apos;83; and Pohle et al., 
+    &apos;84).</S>
+    <BR />
+
+    <S avgH="19" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s17">The RD has long been known to contribute a significant 
+    input to neostriatum (for recent reviews, see Graybiel and 
+    Ragsdale, &apos;83; Carpenter, &apos;84).</S>
+    <S avgH="19" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s18">In the rat, these afferents Accepted January 3, 1986.</S>
+    <BR />
+
+    <S avgH="19" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s19">This work was presented in part at the 8th Annual Meeting 
+    of the European Neuroscience Association, The Hague, Netherlands, 
+    September 1984 (Descarries et al., &apos;84).</S>
+    <BR />
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s20">have been visualized by the degeneration technique 
+    (Conrad et al., &apos;74) and by radioautography following the 
+    anterograde axonal transport of neosynthesized radiolabeled 
+    proteins (Conrad et al., &apos;74; Halaris et al., &apos;76; 
+    Azmitia and Segal, &apos;78).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s21">The topographical organization of the raphestriatal 
+    projection has also been investigated by retrograde axonal 
+    transport techniques with either horseradish peroxidase (Nauta et 
+    al., &apos;74; Miller et al., &apos;75; Pasquier et al., &apos;77; 
+    Jacobs et al., &apos;78; Veening et al., &apos;80) or fluorescent 
+    dyes (van der Kooy and Hattori, &apos;80; Loughlin and Fallon, 
+    &apos;82) as tracers.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s22">Whereas a large fraction of the raphe-striatal afferents 
+    appears to originate from 5-HT neurons (Anden et al., &apos;66; 
+    Jacobs et al., &apos;74; Lorens and Guldberg, &apos;74; Gyer et 
+    al., &apos;76; Halaris et al., &apos;76; Ternaux et al., &apos;77; 
+    Kellar et al., &apos;77; Leger et al., &apos;77; Azmitia and Segal, 
+    &apos;78; Moore et al., &apos;78; Van der Kar and Lorens, &apos;79; 
+    Parent et al., &apos;81; Steinbusch, &apos;81; Steinbusch et al., 
+    &apos;81), a smaller, non-serotoninergic contingent has also been 
+    suspected (Jacobs et al., &apos;78) and confirmed by means of 
+    combined immunohistochemistry and fluorescent-dye retrograde axonal 
+    transport (Steinbusch et al., 80; see also Steinbusch et al., 
+    &apos;81).</S>
+    <BR />
+
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s23">The present study was prompted by the radioautographic 
+    demonstration of a selective retrograde labeling of nerve cell 
+    bodies in the RD following microinjection of tritiated DA ([3H]DA) 
+    or noradrenaline Q3H]NA) into the neostriatum of rats pretreated 
+    with a monoamine oxidase inhibitor (Streit et al., &apos;79; 
+    Streit, &apos;80; Descarries et al., &apos;81).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s24">Streit (&apos;80) and colleagues (&apos;79) interpreted 
+    this finding to be the result of an interspecific uptake and 
+    transport of catechoIamine by 5-HT neurons projecting to the 
+    neostriatum.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s25">Further experiments, however, indicated that such 
+    retrograde labeling was not suppressed after the addition of a 
+    tenfold higher concentration of non-radioactive 5-HT to the 
+    [3H]catecholamine solution, and always involved a limited number of 
+    nerve cell bodies mostly confined to the ventromedial sector of the 
+    RD where, precisely, some DA nerve cell bodies had been described 
+    (Berthelet, &apos;83).</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s26">On the basis of these observations, we hypothesized that 
+    this labeling indeed specifically involved DA neurons and meant to 
+    test this hypothesis by means of combined radioautographic 
+    visualization of retrogradely transported [3H]NA and TH 
+    immunocytochemistry.</S>
+    <S avgH="21" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s27">In order to appreciate the relative importance of an 
+    eventual dorsal raphe DA projection to the neostriatum, it was also 
+    decided to map and count the whole TH-immunostained nerve cell body 
+    population in rat RD.</S>
+  </Introduction>
+
+  <Methods>
+
+    <S avgH="25" class="methods.heading" format="TimesNewRomanPS-BoldMT"
+     id="s28">MATERIALS AND METHODS</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s29">The study was performed in 12 adult male Sprague-Dawley 
+    rats (250-400 g), most of which (n = 9) had undergone, 12-15 days 
+    earlier, unilateral destruction of the nigrostriatal DA system by 
+    local injection of 6-hydroxydopamine (6-OHDA) into the zona 
+    compacta of the substantia nigra (Ungerstedt, &apos;71).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s30">For this purpose, 8 pg of the drug (6OHDA salt, Labkemi 
+    AB, Gijteborg) was freshly dissolved in 4 pl of saline containing 
+    0.1% ascorbic acid and injected in 5 minutes, under pentobarbital 
+    anesthesia, according to stereotaxic coordinates A = 2.2, L = 2, 
+    and H = -1.7 mm from De Groot&apos;s atlas (&apos;67).</S>
+    <BR />
+
+    <S avgH="25" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s31">Radiolabeling by 
+    retrograde axonal transport</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s32">All but one of these rats were subjected to intrastriatal 
+    injection of [3H]NA.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s33">Tritiated DL or L-noradrenaline was evaporated from stock 
+    solutions (NEN, DL - [7-3H(N)]-norepinephrine hydrochloride, and 
+    Levo-lring-2,5, -63H]-norepinephrine, spec. act. 5.8-7.5 Ciirnmol 
+    and 43.9-48.4 Cii mmol, respectively) and freshly redissolved in 
+    isotonic saline containing 0.1% ascorbic acid (final concentrations 
+    in the lop3 M range).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s34">The rats were pretreated with a monoamine oxidase 
+    inhibitor (pargyline, 75 mgkg, i.p., 1 hour earlier) and 
+    anesthetized with pentobarbital (60 mgkg, i.p.1.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s35">The tracer solution (0.5-lpl) was microinstilled (0.1 
+    pl/minUte) into one neostriatum (the lesioned side in 6-OHDAtreated 
+    rats) according to stereotaxic coordinates A = 7.6 or 7.4, L = 2.6, 
+    and H = 1.0 from Konig and Klippel&apos;s atlas (&apos;63).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s36">The amount of radioactivity administered was measured by 
+    liquid scintillation and varied between 25 and 40 A survival period 
+    of 6-15 hours was allowed prior to fixation (Berthelet, 
+    &apos;83).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s37">In two rats (one control, one lesioned), the brain was 
+    fixed by aortic arch perfusion with 3.5% cacodylate-buffered 
+    glutaraldehyde and directly processed for light microscope 
+    radioautography by using standard techniques (Descarries and 
+    Beaudet, &apos;83).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s38">In the remaining nine rats (one control, eight lesioned), 
+    perfusion was carried out with a mixture of 0.5 or 1% 
+    glutaraldehyde and 4% paraformaldehyde in 0.1 M phosphate buffer 
+    (pH 7.3).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s39">The brainstem was postfixed for 1 hour by immersion in 
+    the same fixative containing 5% sucrose but no glutaraldehyde and 
+    processed for immunohistochemistry as described below prior to 
+    radioautography.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s40">The forebrain (except in two cases) was embedded in 
+    paraffin, serially sectioned, and radioautographed as above to 
+    verify the exact location and extent of the tracer injection 
+    sites.</S>
+    <BR />
+
+    <S avgH="25" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s41">Combined radioautographic 
+    and immunohistochemical labeling</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s42">TH immunohistochemistry was performed according to a 
+    modified version (Pickel et al., &apos;77) of the 
+    peroxidase-antiperoxidase (PAP) method of Sternberger 
+    (&apos;79).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s43">Two TH antisera were used one kindly provided by Joh and 
+    Pickel and the other by Vigny (methods of production and criteria 
+    of specificity described in Joh et al., &apos;73; Pickel et al., 
+    &apos;77; Vigny and Henry, &apos;81; Vigny, &apos;82; Berger et 
+    al., &apos;82).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s44">The brainstem was serially sectioned on a vibrating 
+    microtome from the caudal substantia nigra, rostrally, to the locus 
+    coeruleus, caudally.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s45">Free-floating sections (20-30 pm thick) were sequentially 
+    incubated with (1) primary (TH antiserum diluted 1:1,500 for 16-24 
+    hours at 4°C; (2) goat antirabbit immunoglobulins (FC specific, 
+    Miles) diluted 150 for 30 minutes; and (3) rabbit PAP (Cedarlane) 
+    diluted 1:lOO for 30 minutes.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s46">All incubations were carried out in 0.5 M TRIS-saline 
+    containing 1% normal goat serum, and 0.2% Triton X was added to the 
+    first two solutions of antibodies.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s47">The bound peroxidase was treated for 6-7 minutes with 
+    0.011% 3-3&apos;diaminobenzidine and 0.006% hydrogen peroxide.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s48">The sections were finally mounted onto gelatin-coated 
+    slides, slightly contrasted by brief immersion (30-45 seconds) in 
+    diluted osmium tetroxide (0.05%), and either coverslipped for 
+    immediate examination (one normal control) or dried overnight at 
+    37°C and radioautographed by dipping in Ilford K-5 or Kodak NTB-2 
+    emulsion diluted 1:l with distilled water (nine 
+    [&apos;HINA-injected rats).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s49">The immunoradioautographs were exposed for 4-6 weeks in 
+    dry, light-tight boxes, developed for 4 minutes in D-19 at 18T, 
+    fixed in commercial sodium thiosulfate solution containing a 
+    hardener (Kodak), washed in water, rapidly dehydrated in increasing 
+    concentrations of alcohol, and coverslipped with Permount after a 
+    brief rinse of xylene.</S>
+    <BR />
+
+    <S avgH="26" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s50">Complementary 
+    procedures</S>
+    <BR />
+
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s51">For precise anatomical localization of radiolabeled 
+    and/or immunostained nerve cell bodies, all light microscopic 
+    observations were documented by camera lucida drawings made at an 
+    initial magnification of 150x.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s52">One uninterrupted series of immunostained sections from a 
+    normal rat together with the map provided by Swanson for 
+    TH-immunoreactive elements in the upper brainstem (&apos;82) and 
+    the atlas of Konig and Klippel (&apos;63) were used for determining 
+    the stereotaxic level of histological sections.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s53">For comparison with the distribution of 5-HT nerve cell 
+    bodies at the same levels, some of the material and the topographic 
+    map presented in an earlier radioautographic report (Descarries et 
+    al., &apos;82) were utilized.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s54">Morphometric measurements of THimmunoreactive cell bodies 
+    were performed with the aid of a Bioquant software package (R &amp; 
+    M Biometrics).</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s55">Cell number estimates were derived from counts of 
+    immunoreactive perikarya in series of evenly spaced sections, 
+    applying Abercrombie&apos;s (&apos;46) formula 1 to correct for 
+    double counting errors.</S>
+    <S avgH="21" class="methods.body" format="TimesNewRomanPSMT"
+     id="s56">Lastly, a few of the histological sections processed for 
+    TH immunohistochemistry were embedded in Epon and reexamined in 
+    semithin sections cut perpendicular to their surface so as to 
+    determine the depth of immunostaining.</S>
+  </Methods>
+
+  <Results>
+
+    <S avgH="26" class="results.heading" format="TimesNewRomanPS-BoldMT"
+     id="s57">RESULTS</S>
+    <BR />
+
+    <S avgH="26" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s58">Distribution of 
+    TH-immunostained nerve cell bodies</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s59">Only small differences in the intensity and cellular 
+    extent of immunostaining were observed with the two antibodies .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s60">As shown in Figures 1 - 3, <labelingDescription>a 
+    relatively large number of THpositive somata</labelingDescription> 
+    were visualized within the boundaries of <labelingLocation>the 
+    RD</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s61">In unlesioned rats, 
+    <labelingDescription>TH-immunoreactive 
+    elements</labelingDescription> were also seen at 
+    <labelingLocation>more rostral levels of the 
+    midbrain</labelingLocation> and in all anatomical locations where 
+    such neurons have been previously described (for review and 
+    detailed mapping, see Hokfelt et al., &apos;84).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s62">In 6 - OHDA - lesioned rats , there was a complete 
+    disappearance of <labelingDescription>TH - immunoreactive 
+    cells</labelingDescription> within <labelingLocation>the nigra and 
+    lateral portion of the ventral tegmental area</labelingLocation> on 
+    the side injected with neurotoxin ( Fig . 5 ) .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s63">Within <labelingLocation>the RD</labelingLocation>, the 
+    distributional pattern of the THimmunoreactive neurons was 
+    remarkably consistent from one animal to another (Fig. 3).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s64">This cell group extends rostrocaudally for a little more 
+    than 0.5 mm , occupying the rostral third of the nucleus as defined 
+    by its content in 5HT neurons ( see bottom row in Fig . 3, and 
+    Descarries et al . , &apos; 82 ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s65">It begins rostrally at the level of the oculomotor 
+    nucleus as a caudal extension of the subaqueductal portion of A10 ( 
+    more precisely , AlOdc as defined by Hokfelt et al . , &apos; 841, 
+    reaches its greatest dimension at stereotaxic level A - 770 pm , 
+    and reduces abruptly at stereotaxic level A - 470 pm , where only a 
+    few individual immunostained nerve cell bodies remain discernable 
+    immediately beneath the aqueduct of Sylvius .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s66">Throughout its rostrocaudal extent , this group of TH - 
+    positive cells is contiguous ventrally with the caudalmost portion 
+    of the ventral extension of A10 ( nucleus linearis caudalis or AlOc 
+    of Hokfelt et al . , &apos; 84 ) .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s67">As illustrated in Figure 2, numerous 
+    <labelingDescription>TH-imunostained nerve cell 
+    bodies</labelingDescription> in <labelingLocation>the 
+    RD</labelingLocation> are <labelingDescription>small and 
+    fusiform</labelingDescription> with, near the midline, their long 
+    axis oriented dorsoventrally.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s68">These bipolar cells generally exhibit narrow dendrites 
+    that bifurcate at a considerable distance from the perikaryon.</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s69">The dendritic branches often appear varicose.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s70">Other immunostained neurons are somewhat larger and 
+    definitely multipolar (see also Fig.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s71">I).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s72">On average (n = 1001, the THpositive cells in RD had a 
+    sectional area of 117 _+ 4.1 pm2 and a perimeter of 463 k 1 pm.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s73">From these figures, their mean diameter was extrapolated 
+    at 13.5 pm.</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s74">Direct counts on three series of sections (one control 
+    and two lesioned rats) provided an initial figure of 1,435 52 
+    (S.E.M.)</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s75">TH-immunostained cell body profiles inside the RD.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s76">The numbers showed remarkable consistency from one animal 
+    to the next at every anatomical level examined.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s77">There were no significant differences between the control 
+    of 6-OHDA-lesioned rats.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s78">The resin - embedded material demonstrated that the nerve 
+    cell body immunostaining extended across the full thickness of the 
+    sections .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s79">The data could therefore be corrected by means of 
+    Abercrombies&apos;s formula 1 (&apos;461, which yielded a final 
+    figure of approximately 1,000 TH-immunoreactive nerve cell bodies 
+    per RD, assuming that 3 pm of perikaryon had to be contained in a 
+    section for it to be detected.</S>
+    <BR />
+
+    <S avgH="26" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s80">Retrograde radiolabeling 
+    and TH immunostaining after intrastriatal injection of [3H]NA</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s81"><exptLabel>Most <tracerChemical>[ 3H ] 
+    NA</tracerChemical> injection sites were localized in 
+    <injectionLocation>the medial and ventral portion of the middle 
+    third of neostriatum</injectionLocation></exptLabel> ( Fig . 4 ) 
+    .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s82">In normal rat ( cases RAG - 1 and VAL - 7, Fig . 4 ) , 
+    <labelingLocation>the entire neostriatum</labelingLocation> was 
+    <labelingDescription>still heavily labeled</labelingDescription> in 
+    spite of the 12 - hour survival period .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s83">In 6 - OHDA - lesioned rats , <labelingDescription>dense 
+    labeling</labelingDescription> was confined to a restricted zone 
+    bordering the minute area of necrosis seen at the needle tip ( 
+    insert of Fig . 4 ) .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s84">In all cases , <labelingDescription>retrogradely labeled 
+    nerve cell bodies</labelingDescription> were observed within 
+    <labelingLocation>the boundaries of the RD</labelingLocation> as 
+    well as inside <labelingLocation>the underlying caudal and 
+    ventromedial extension of the VTA ( nucleus linearis caudalis 
+    )</labelingLocation> ( Figs . 6 - 9 ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s85">This labeling took the form of preferential accumulations 
+    of silver grains overlying the nucleus and perikaryon of certain 
+    neurons and extending into their proximal dendrites (Figs. 6-8).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s86">(Figs. 7 and 8, see p. 484, Color Figure Section).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s87">In normal rats , numerous 
+    <labelingDescription>retrogradely labeled 
+    somata</labelingDescription> were also seen inside 
+    <labelingLocation>the substantia nigra , zona 
+    compacta</labelingLocation> , and in <labelingLocation>the ventral 
+    tegmental area</labelingLocation> , ipsilateral to the injection 
+    side .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s88"><labelingDescription>A few</labelingDescription> were 
+    also present in <labelingLocation>the contralateral ventral 
+    tegmental area</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s89">After 6 - OHDA nigrostriatal denervation ( Fig . 5 ) , 
+    <labelingDescription>few labeled neurons</labelingDescription> 
+    remained visible in <labelingLocation>the rostral 
+    VTA</labelingLocation> , and these were only on the injected side 
+    .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s90">In the combined radioautographic and immunohistochemical 
+    experiments , the vast majority of retrogradely radiolabeled nerve 
+    cell bodies in <labelingLocation>the midbrain 
+    raphe</labelingLocation> as well as ventral tegmentum exhibited TH 
+    immunoreactivity ( Figs . 7 - 9 ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s91"><labelingDescription>Strongly labeled but immunonegative 
+    neurons</labelingDescription> were exceedingly rare ( Fig . 9 ) 
+    .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s92">Dispersed , <labelingDescription>weakly labeled 
+    immunonegative cells</labelingDescription> were occasionally 
+    detected in <labelingLocation>the RD</labelingLocation> following 
+    the longest durations of radioautographic exposure .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s93">Only a small proportion of the whole population of TH - 
+    immunoreactive cells in <labelingLocation>the RD ( and nucleus 
+    linearis caudalis )</labelingLocation> was radiolabeled ( Fig . 9 ) 
+    .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s94">The number of <labelingDescription>doublelabeled 
+    cells</labelingDescription> were generally greater in 6 - OHDA - 
+    lesioned than in normal rats .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s95">The double-labeled neurons always predominated on the 
+    side of tracer injection.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s96">Rostrally , they tended to cluster in 
+    <labelingLocation>the ventral portion of the medial component of 
+    the RD , infiltrating its narrow extension between the two medial 
+    longitudinal fasciculi</labelingLocation> .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s97"><labelingDescription>Some doubly labeled 
+    cells</labelingDescription> were also present more ventrally , 
+    within <labelingLocation>the nucleus linearis 
+    caudalis</labelingLocation> , but always close to the midline .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s98">No obvious correlation could be made between the location 
+    of the intrastriatal injection sites and the number andor 
+    particular distribution of <labelingDescription>the retrogradely 
+    labeled TH - positive neurons</labelingDescription> .</S>
+  </Results>
+
+  <Discussion>
+
+    <S avgH="26" class="discussion.heading"
+     format="TimesNewRomanPS-BoldMT" id="s99">DISCUSSION</S>
+    <BR />
+
+    <S avgH="25" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s100">TH-immunoreactive 
+    neurons in the dorsal midbrain tegrnentum</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s101">The present study confirms and extends earlier 
+    observations regarding the existence of a TH-immunoreactive nerve 
+    cell group in the dorsomedial mesencephalon and particularly the RD 
+    of adult rat (see references in the beginning of this paper).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s102">Catecholaminergic neurons in rat RD exhibit a 
+    microspectrofluorometric spectrum in the DA range (Ochi and 
+    Shimizu, &apos;78) and do not stain for dopamine-o-hydroxylase 
+    (Nagatsu et al., &apos;79), which suggests that they are 
+    dopaminergic rather than noradrenergic.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s103">The presence of catecholamine-containing cells in the RD 
+    has also been reported in rabbit (Blessing et al., &apos;781, cat 
+    (Wiklund et al., &apos;81; Miachon et al., &apos;841, and monkey 
+    (Tanaka et al., &apos;82) by use of fluorescenceor 
+    immunohistochemical techniques.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s104">TH-immunoreactive (Gaspar et al., &apos;83; Pearson et 
+    al., &apos;83) as well as presumed catecholaminergic, 
+    melanin-pigmented neurons (Saper and Petito, &apos;82) have also 
+    been described in the dorsal tegmentum of the human midbrain.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s105">The catecholamine cell group in the RD does not seem to 
+    belong to the periaqueductal-periventricular DA system described 
+    within the central gray of the diencephalon and midbrain by 
+    Lindvall and Bjorklund (&apos;74).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s106">Indeed, throughout the midbrain, neurons of the 
+    periventricular DA system are sparsely distributed immediately 
+    beneath the ependyma1 lining, and mostly circumferentially 
+    oriented.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s107">In contrast, the TH-positive grouping in the RD is more 
+    compact, shows a preferential longitudinal orientation of many of 
+    its elements, and lies in direct continuity with the caudal 
+    extensions of the VTA, all features that justify its inclusion into 
+    the greater mesencephalic DA family.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s108">In keeping with this general view, the mesencephalic DA 
+    system is known to project primarily to striatal, limbic, and/or 
+    cortical areas, whereas the periventricular DA system has mainly 
+    short diencephalic or descendng long projections (Bjorklund and 
+    Lindvall, &apos;84).</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s109">The presumed DA population in the RD, estimated here at 
+    1,000 units, corresponds to roughly one-tenth of the total 
+    population of mesencephalic DA nerve cell bodies lying outside the 
+    substantia nigra proper (i.e., in the area corresponding to the A10 
+    group as defined by Swanson, &apos;82).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s110">The DA raphe contingent is therefore relatively small, 
+    especially by comparison with the total number of mesencephalic DA 
+    neurons, which amounts to some 15,000-20,000 cells on each side 
+    (Hedreen and Chalmers, &apos;72; Guyenet and Crane, &apos;81; 
+    Swanson, &apos;82).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s111">Within the RD itself, the DA cells are also a minority 
+    since this nucleus consists of approximately 36,000 neurons 
+    (Descarries et al., 82).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s112">The 5HT-containing neurons in the RD constitute 
+    one-third of this total number (some 12,000 units) and they extend 
+    much farther caudally than the DA-containing ones.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s113">It is interesting that within the rostral RD, where the 
+    DA and 5-HT populations overlap, both types of nerve cells exhibit 
+    a comparable topographic distribution characterized by a medial and 
+    two lateral clusters (Fig. 3).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s114">This topographical arrangement might provide a 
+    morphological support for some of the 5-HTDA interactions reported 
+    to occur in rat RD (Hery and Ternaux, &apos;81; Lee and Geyer, 
+    &apos;82).</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s115">The TH-positive neurons in the RD appear generally 
+    smaller than their 5-HT partners, which average 17.9 pm in diameter 
+    (Descarries et al., &apos;82).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s116">In fact, their mean diameter of 13.5 pm is very similar 
+    to that previously measured for %on-5-HT neurons&quot; within this 
+    nucleus (13.1 pm; Descarries et al., &apos;821, and in the same 
+    range as that of the smallest DA cells in the rest of A10 (Kohler 
+    and Goldstein, &apos;84)).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s117">These observations contradict previous statements to the 
+    effect that there are no clear-cut cytoarchitectonic differences 
+    between 5-HT and non-5-HT raphe cells projecting to neostriatum 
+    (Steinbusch et al., &apos;80; Steindler et al., &apos;83).</S>
+    <BR />
+
+    <S avgH="25" class="discussion.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s118">Raphe-striatal DA 
+    projection</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s119">The presence of retrogradely labeled cells in the RD 
+    following injection of L3HINA in the caudate putamen conforms with 
+    earlier radioautographic observations after intrastriatal 
+    injections of [3H]NA or [3H1DA (Streit et al., &apos;79; Streit, 
+    &apos;80; Descarries et al., &apos;81).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s120">The deep location and asymmetrical distribution of many 
+    of these cells ruled out the remote possibility of their labeling 
+    as a result of intraventricular spread of the tracer.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s121">The fact that almost all of the radiolabeled cells also 
+    exhibited TH immunoreactivity demonstrated that I3H]NA had been 
+    taken up and transported exclusively by catecholamine-containing 
+    neurons and not, as originally surmised (Streit et al., &apos;791, 
+    by 5-HTcontainin ones as well.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s122">Injections of comparable concentraf tions of [ HjNA in 
+    rat olfactory bulb (Font et al., &apos;82) or cervical spinal cord 
+    (Jones et al., &apos;86) have similarly been shown to result in 
+    selective retrograde labeling of catecholamine perikarva (locus 
+    coeruleus neurons).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s123">Taken together, these data tend to confirm the 
+    specificity of [3H]Nx as a retrograde marker for 
+    catecholamine-containing cells, even after intratissular injection 
+    at relatively high concentrations.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s124">This report provides the first demonstration of a 
+    catecholaminergic projection from the RD to the neostriatum in the 
+    rat.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s125">The identification of these cells was facilitated by 
+    their greater number in 6-OHDA-lesioned than in control rats.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s126">This was presumably due to increased availability of the 
+    tracer for uptake and retrograde axonal transport into 
+    raphe-striatal neurons after elimination of the massive 
+    nigrostriatal DA input.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s127">Moreover, in normal rat striatum, the huge number of 
+    nigrostriatal DA terminals capable of accumulating [&quot;HINA 
+    probably restricted the diffusion of the tracer to the immediate 
+    vicinity of the injection sites.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s128">After 6-OHDA elimination of these terminals, such a DA 
+    &quot;uptake barrier&quot; was no longer present (Doucet et al., 
+    &apos;85).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s129">In the present experiments, this should have enlarged 
+    the size of the neostriatal region from where [&quot;HINA could be 
+    taken up and retrogradely transported.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s130">The topography and number of retrogradely labeled RD 
+    cells after 6-OHDA lesioning closely resembled that of 
+    nonserotoninergic raphe neurons previously identified after 
+    retrograde axonal transport of fluorescent dyes from neostritum 
+    (Steinbusch et al., &apos;801, suggesting that, in these lesioned 
+    rats, the bulk of the non 5-HT raphe-striatal projection was 
+    actually detected.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s131">By the same token, it may be assumed that the majority 
+    of non-5-HT raphe neurons projecting to neostriatum are 
+    dopaminergic in nature.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s132">This is not to say that all DA neurons in the RD project 
+    to neostriatum.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s133">Indeed, only a small proportion of TH-immunoreactive 
+    neurons in the RD were retrogradely labeled after [3H]NA injection 
+    in the neostriatum.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s134">A recent investigation combining retrograde tracing with 
+    fluorescent dyes and catecholamine-fluorescence histochemistry has 
+    indicated that presumed DA neurons of the RD provide a substantial 
+    input to the hippocampus (Reymann et al., &apos;83; Pohle et al., 
+    &apos;84).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s135">Retrograde labeling of a few nerve cell bodies in the 
+    rat RD following injection of [&apos;HINA in the olfactory bulb has 
+    also led Font et al., (&apos;82) to postulate a projection of 
+    catecholaminergic neurons from the RD to the olfactory bulb.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s136">Such DA projections could arise from the 
+    TH-immunoreactive neurons that were not radiolabeled in the present 
+    experiments, although the possibility cannot be excluded that some 
+    of the raphe DA neurons projecting to neostriatum collateralize to 
+    other anatomical regions as well.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s137">On the other hand, the fact that only a small number of 
+    raphe DA cells project to neostriatum, together with the low degree 
+    of collateralization of neurons of the A10 DA family to which these 
+    cells belong, supports the likelihood of an anatomically restricted 
+    projection quite different from the profusely branched and 
+    widespread 5-HT RD system.</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s138">It remains to be determined whether some of the DA 
+    neurons projecting from RD to neostriatum contain other neuroactive 
+    substances, such as neurotensin, which has been shown to coexist 
+    with DA in nerve cell bodies located in the rostral raphe (Hokfelt 
+    et al., &apos;84).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s139">Another colocalized transmitter might be CCK, which has 
+    been found in non-5HT nerve cell bodies of the RD (Van der Kooy et 
+    al., &apos;81) and is known to coexist with DA in nerve cell bodies 
+    of the ventral tegmentum (Hokfelt et al., &apos;80a,b).</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s140">CCK-containing raphe cells, however, do not appear to 
+    project to the neostriatum (Van der Kooy et al., &apos;81).</S>
+    <BR />
+
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s141">Nothing is yet known concerning the intrastriatal 
+    distribution of the DA axons originating from the RD.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s142">However.</S>
+    <S avgH="21" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s143">the fact that raphe DA cells hate already been demon: 
+    strated to project to limbic areas suggests that DA raphestriatal 
+    fibers might be preferentially distributed within the so-called 
+    striosomes, which would correspond to the areas of the neostriatum 
+    most intimately linked to the limbic system (Gerfen, &apos;84).</S>
+  </Discussion>
+
+  <Acknowledgements>
+
+    <S avgH="26" class="acknowledgements.heading"
+     format="TimesNewRomanPS-BoldMT" id="s144">ACKNOWLEDGMENTS</S>
+    <BR />
+
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s145">This study was supported by 
+    grants MT-3544 and MA7366 and a scholarship to A.B. from the 
+    Medical Research Council of Canada.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s146">The authors are indebted to 
+    Tong H.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s147">Joh and Virginia M.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s148">Pickel (New York) and to 
+    Annette Vigny (Paris) for their generous gift of tyrosine 
+    hydroxylase antisera.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s149">They also thank Brigitte 
+    Berger for her critical review of the manuscript.</S>
+    <S avgH="21" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s150">The technical aid of Kathleen 
+    Leonard, the photographic and graphic work of Daniel Cyr and 
+    Giovanni Battista Filosi, and the secreterial assistance of 
+    Guylaine Dube are gratefully acknowledged.</S>
+  </Acknowledgements>
+
+  <References>
+
+    <S avgH="26" class="references.heading"
+     format="TimesNewRomanPS-BoldMT" id="s151">LITERATURE CITED</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s152">Abercrombie, M. (1946) Estimation of nuclear 
+    sections.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s153">Anat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s154">Rec. 94t239-247.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s155">Anden, N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s156">-E., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s157">Dahlstrom, K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s158">Fuxe, K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s159">Larsson, L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s160">Olson, and U.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s161">Ungerstedt (1966) Ascending monoamine neurons to the 
+    telecephalon and diencephalon.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s162">Acta.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s163">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s164">Scand. 67t313-326.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s165">Azmitia, E.C., and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s166">Segal (1978) An autoradiographic analysis of the 
+    differential ascending projections of the dorsal and median raphe 
+    nuclei in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s167">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s168">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s169">Neurol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s170">I79t641-668.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s171">Berger, B., U.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s172">Di Porzio, M.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s173">Daguet, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s174">Gay, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s175">Vigny, J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s176">Glowinski, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s177">Prochiantz (1982) Long term development of mesencephalic 
+    dopaminergic neurons of mouse embryos in dissociated primary 
+    cultures: Morphological and histochemical characteristics.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s178">Neuroscience 7:193-205.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s179">Berthelet, F. (1983) Axophorese anterograde et 
+    retrograde de [3H]DA et de 13HjNA par les neurones 
+    catecholaminergiques centraux: Nouvelle possibilite #investigation 
+    radioautographique.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s180">Memoire de maitrise, Universite de Montreal.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s181">Bjorklund, A., and 0.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s182">Lindvall (1984) Dopamine-containing systems in the 
+    CNS.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s183">In A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s184">Bjorklund, and T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s185">Hokfelt (eds): Handbook and Chemical Neuroanatomy.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s186">Vol. 11: Classical Transmitters in the CNS, Part I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s187">Amsterdam: Elsevier, pp. 55-122.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s188">Blessing, W.W., J.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s189">Chalmers, and P.R.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s190">Howe (1978) Distribution of catecholamine-containing 
+    cell bodies in the rabbit central nervous system.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s191">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s192">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s193">Neurol. 179r407-424.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s194">Carpenter, M.B. (1984) Interconnections between the 
+    corpus striatum and brain stem nuclei.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s195">In J.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s196">McKenzie, R.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s197">Kemm, and L.N.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s198">Wilcock (eds): The Basal Ganglia.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s199">New York Plenum Publ.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s200">Corp., pp. 1-68.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s201">Conrad, L.C.A., C.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s202">Leonard, and D.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s203">Pfaff (1974) Connections of the median and dorsal raphe 
+    nuclei in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s204">An autoradiographic and degeneration study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s205">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s206">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s207">Neurol. 156179-205.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s208">DeGroot, J. (1967) The Rat Forebrain in Stereotaxic 
+    Coordinates.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s209">Verh.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s210">KO.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s211">Ned.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s212">Akad.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s213">Wet., Afd.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s214">Natuurk.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s215">Amsterdam: N.Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s216">Noord-Hollandsche Uitgevers Maatschappij, p. 33.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s217">Descarries, L., and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s218">Beaudet (1983) The use of radioautography for 
+    investigating transmitter-specific neurons.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s219">In A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s220">Bjorklund, and T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s221">Hokfelt (eds): Handbook of Chemical Neuroanatomy.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s222">Vol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s223">I Methods in Chemical Neuroanatomy.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s224">Amsterdam: Elsevier, pp. 286-363.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s225">Descarries, L., F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s226">Berthelet, and S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s227">Garcia (1981) Axophoresis of 13HJDA and L3H]NA by 
+    central catecholamine neurons: Radioautographic demonstration.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s228">Soe.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s229">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s230">Abstr. 72302.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s231">Descarries, L., F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s232">Berthelet, S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s233">Garcia, K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s234">Leonard, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s235">Beaudet (1984) Dopaminergic projection from nucleus 
+    raphe dorsalis to neostriatum in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s236">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s237">Lett.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s238">Suppl. 18:s 170.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s239">Descarries, L., K.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s240">Watkins, S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s241">Garcia, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s242">Beaudet (1982) The serotonin neurons in nucleus raphe 
+    dorsalis of adult rat: A light and electron microscope 
+    radioautographic study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s243">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s244">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s245">Neurol. 207:239-254.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s246">Doucet, G., S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s247">Garcia, and L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s248">Descarries (1985) Radioautographic quantification of the 
+    dopamine innervation in adult rat neostriatum.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s249">Soc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s250">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s251">Abstr.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s252">I1:1017.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s253">Font, C., S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s254">Araneda, J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s255">-F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s256">Pujol, and P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s257">Bobillier (1982) Biochemical and autoradioautographic 
+    investigations of the retrograde axonal transport of labeled 
+    material following [3H]norepinephrine injection in the olfactory 
+    bulb.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s258">Neurochem.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s259">Int. 4.569-575.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s260">Gaspar, P., B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s261">Berger, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s262">Gay, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s263">Hamon, F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s264">Cesselin, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s265">Vigny, F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s266">JavoyAgid, and Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s267">Agid (1983) Tyrosine hydroxylase and 
+    methionine-enkephalin in the human mesencephalon.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s268">Immunoctyochemical localization and relationships.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s269">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s270">Neurol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s271">Sci. 58:247-267.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s272">Gerfen, C.R. (1984) The neostriatal mosaic: 
+    Compartmentalization of corticostriatal input and striatonigral 
+    output systems.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s273">Nature 311:461-464.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s274">German, D.C., D.S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s275">Schlusselberg, and D.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s276">Woodward (1983) Three-dimensional computer 
+    reconstruction of midbrain dopaminergic neuronal populations: From 
+    mouse to man.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s277">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s278">Neurol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s279">Transm. 57:243-254.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s280">Geyer, M.A., A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s281">Puerto, W.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s282">Dawsey, S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s283">Knapp, W.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s284">Bullard, and A.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s285">Mandell (19761 Histologic and enzymatic studies of the 
+    mesolimbic and mesostriatal serotoninergic pathway.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s286">Brain Res. 106:241-256.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s287">Graybiel, A.M., and C.W.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s288">Ragsdale (1983) Biochemical anatomy of the striatum.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s289">In P.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s290">Emson (ed): Chemical Neuroanatomy.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s291">New York: Raven Press, pp. 427-504.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s292">Guyenet, P.G., and J.K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s293">Crane (1981) Non-dopaminergic nigro-striatal way.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s294">Brain Res. 213.291-305.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s295">Halaris, A.E., B.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s296">Jones, and R.Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s297">Moore (1976) Axonal transport tonin neurons of the 
+    midbrain raphe.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s298">Brain Res. 107:555-574.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s299">Hedreen, J.C., and J.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s300">Chalmers (1972) Neuronal degeneration in rat brain 
+    induced by 6-hydroxydopamine; a histological and biochemical 
+    study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s301">Brain Res. 47:l-36.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s302">Hhry, F., and J.P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s303">Ternaux (1981) Regulation of release processes in 
+    central serotoninergic neurons.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s304">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s305">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s306">(Paris) 77:287-301.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s307">Hokfelt, T., B.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s308">Everitt, E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s309">Theodorsson-Norheim, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s310">Goldstein (1984) Occurrence of neurotensin-like 
+    immunoreactivity in subpopulations of hypothalamic, mesencephalic 
+    and medullary catecholamine neurons.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s311">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s312">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s313">Neurol. 222:543-559.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s314">Hokfelt, T., 0.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s315">Johansson, K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s316">Fuxe, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s317">Goldstein, and D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s318">Park (1976) Immunohistochemical studies on the 
+    localization and distribution of monoamine neuron systems in the 
+    rat brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s319">I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s320">Tyrosine hydroxylase in the mesand diencephalon.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s321">Med.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s322">Biol. 54:427&amp;453.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s323">Hokfelt, T., R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s324">Mirtensson, A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s325">Bjorklund, S.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s326">Kleinau, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s327">Goldstein (1984) Distributional maps of 
+    tyrosine-hydroxylase-immunoreactive neurons in the rat brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s328">In A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s329">Bjorklund, and T.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s330">Hokfelt (eds): Handbook of Chemical Neuroanatomy.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s331">Vol. 11: Classical Transmitters in the CNS, Part I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s332">Amsterdam: Elsevier, pp, 277-379.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s333">Hokfelt, T., J.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s334">Rehfeld, L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s335">Skirboll, B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s336">Ivemark, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s337">Goldstein, and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s338">Markey (1980a) Evidence for coexistence of dopamine and 
+    CCK in mesolimbic neurones.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s339">Nature 285t476-478.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s340">Hokfelt, T., L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s341">Skirboll, J.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s342">Rehfeld, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s343">Goldstein, K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s344">Markey, and 0.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s345">Dann (1980b) A subpopulation of mesencephalic dopamine 
+    neurons projecting to limbic areas contains a cholecystokinin-like 
+    peptide: Evidence from immunohistochemistry combined with 
+    retrograde tracing.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s346">Neuroscience 5:2093-2124.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s347">Jacobs, B.L., S.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s348">Foote, and F.E.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s349">Bloom (1978) Differential projections of neurons within 
+    the dorsal raphe nucleus of the rat: A horseradish peroxidase (HRP) 
+    study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s350">Brain Res. 147:149-153.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s351">Jacobs, B.L., W.D.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s352">Wise, and K.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s353">Taylor (1974) Differential behavioral and neurochemical 
+    effects following lesions of the dorsal or median raphe nuclei in 
+    rats.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s354">Brain Res. 79:353-361.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s355">Joh, T.H., C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s356">Gegham, and D.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s357">Reis (1973) Immunochemical demonstration of increased 
+    tyrosine hydroxylase protein in sympathetic ganglia and adrenal 
+    medulla elicited by reserpine.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s358">Proc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s359">Natl.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s360">Acad.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s361">Sci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s362">(USA). 7Or2767-2771.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s363">Jones, B.E., M.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s364">Pare, and A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s365">Beaudet (1986) Retrograde labeling of neurons in the 
+    brain stem following injections of [&apos;H]choline into the spinal 
+    cord.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s366">Neuroscience, in press.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s367">Kellar, K.J., P.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s368">Brown, J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s369">Madrid, M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s370">Bernstein, J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s371">Vernikos-Danellis, and W.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s372">Mehler (1977) Origins of serotonin innervation of 
+    forebrain structures.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s373">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s374">Neurol. 56:52-62.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s375">Kohler, C., and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s376">Goldstein (1984) Golgi-like immunoperoxydase staining of 
+    dopamine neurons in the reticular formation of the rat brainstem 
+    using antibody to tyrosine-hydroxylase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s377">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s378">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s379">Neurol. 223:302-311 Konig, J.F.R., and R.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s380">Klippel(1963) The Rat Brain.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s381">Baltimore: Williams and Wilkins Co., pp. 1-162.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s382">Lee, E.H.Y., and M.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s383">Geyer, (1982) Selective effects of apomorphine on dorsal 
+    raphe neurons: A cytofluorimetric study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s384">Brain Res.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s385">Bull. 9719725</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s386">.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s387">, Leger, L., J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s388">-F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s389">Pujol, P.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s390">Bobillier, and M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s391">Jouvet (1977) Transport axoplasmique de la serotonine 
+    par voie retrograde dans les neurones monoaminergiques centraux.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s392">C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s393">Rend.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s394">Acad.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s395">Sci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s396">(Paris) 285t1179-1182.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s397">Levitt, P., and R.Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s398">Moore (1979) Origin and organization of brainstem 
+    catecholamine innervation in the rat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s399">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s400">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s401">Neurol. 186:505-425.</S>
+    <BR />
+
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s402">Lindvall, O., and A.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s403">Bjorklund (1974) The organization of the ascending 
+    catecholamine neuron systems in the rat hrain as revealed by the 
+    glyoxylic acid fluorescence method.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s404">Acta Physiol.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s405">Scand.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s406">Suppl. 4 1 2 - 48.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s407">Lorens, S.A., and H.C.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s408">Guldberg (1974) Regional 5-hydroxytryptamine following 
+    selective midbrain raphe lesions in the rat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s409">Brain Res. 78:45-56.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s410">Loughlin, S.E., and J.H.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s411">Fallon (1982) Mesostriatal projections from ventral 
+    tegmentum and dorsal raphe: Cells project ipsilaterally or 
+    contralaterally hut not bilaterally.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s412">Neurosci.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s413">Lett. 3211-16.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s414">Miachon, S., A.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s415">Berod, L.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s416">Leger, M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s417">Chat, B.K.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s418">Hartman, and J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s419">-F.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s420">Pujol (1984) Identification of catecholamine cell bodies 
+    in the pons and ponsmesencephalon junction of the cat brain, using 
+    tyrosine hydroxylase and dopamine-beta-hydroxylase 
+    immunohistochemistry.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s421">Brain Res. 305369474, Miller, J.J., T.L.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s422">Richardson, H.C.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s423">Fihiger, and H.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s424">McLennan (19751 Anatomical and electrophysiological 
+    identification of a projection from the mesencephalic raphe to the 
+    caudate-putamen in the rat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s425">Brain Res. 97.133138.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s426">Moore, R.Y., A.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s427">Halaris, and B.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s428">Jones (1978) Serotonin neurons of the midbrain raphe: 
+    Ascending projections.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s429">J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s430">Comp.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s431">Neurol. 180.417-438.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s432">Nagatsu, I., S.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s433">Inagaki, Y.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s434">Kondo, N.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s435">Karasawa, and T.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s436">Nagatsu (1979) Immunofluorescent studies on the 
+    localization of tyrosine hydroxylase and dopamine-8-hydroxylase in 
+    the mes-, di-, and telencephalon of the rat using unperfused fresh 
+    frozen sections.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s437">Acta Histochem.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s438">Cytochein. 2220-37.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s439">Nauta, H.J.W., M.B.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s440">Pritz, and R.J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s441">Lasek (1974) Afferents to the rat cau~ doputamen studied 
+    with horseradish peroxidase.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s442">An evaluation of the retrograde neuroanatomical research 
+    method.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s443">Brain Res. 67.219-238.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s444">Ochi, J., and K.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s445">Shimizu (1978) Occurrence of dopamine-containing neurons 
+    in the midbrain raphe nuclei of the rat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s446">Neurosci.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s447">Lett. ,9317-320.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s448">Parent, A., L.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s449">Descarries, and A.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s450">Beaudet (1981) Organization of ascending serotonin 
+    systems in the adult rat brain.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s451">A radioautographic study after intraventricular 
+    administration of (3H]5-hydroxytryptamine.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s452">Neuroscience 6:115-138.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s453">Pasquier, D.A., T.L.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s454">Kemper, W.B.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s455">Forbes, and P.J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s456">Morgane (1977) Dorsal raphe, substantia nigra and locus 
+    coeruleus interconnections with each other and the neostriatum.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s457">Brain Res.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s458">Bull. 2:323-339.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s459">Pearson, J., M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s460">Goldstein, K.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s461">Markey, and L.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s462">Brandeis (1983) Human hrainstem catecholamine neuronal 
+    anatomy as indicated by immunocytochemistry with antibodies to 
+    tyrosine hydroxylnse.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s463">Neuroscience R:332.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s464">Pickel, V.M., T.H.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s465">Joh, and D.J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s466">Reis (1977) A serotoninergic innervation of 
+    noradrenergic neurons in the nucleus locus coeruleus: Demonstration 
+    by immunocytochemical localization of the transmitter specific 
+    enzymes tyrosine and tryptophan hydroxylase.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s467">Brain Res.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s468">I31:194-214.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s469">Pohle, W., T.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s470">Ott, and P.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s471">Muller-Welde (1984) Identification of neurons of origin 
+    providing the dopaminergic innervation of the hippocampus.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s472">J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s473">Hirnforsch. 25:1-10.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s474">Reymann, K., W.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s475">Pohle, P.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s476">Muller-Welde, and T.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s477">Ott (1983) Dopaminergic innervation of the hippocampus: 
+    Evidence for midbrain raphe neurons as the site of origin.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s478">Biomed.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s479">Biochem.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s480">Acta 42:1247-1255.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s481">Saper, C.B., and C.K.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s482">Petito (1982) Correspondence of melanin-pigmented 
+    neurons in human hrain with A-1-A14 catecholamine cell groups.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s483">Brain 105:87-101.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s484">Steinbusch, H.W.M. (1981) Distribution of 
+    serotonin-immunoreactivity in the central nervous system of the 
+    rat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s485">Cell hodics and terminals.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s486">Neuroscience 6:557-618.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s487">Steinbusch, H.W.M., R.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s488">Nieuwenhuys, A.A.J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s489">Verhofstad, and D.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s490">Van der Kooy (1981) The nucleus raphe dorsalis of the 
+    rat and its projection upon the caudatoputamen.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s491">A combined cytoarchitectonic, immuno-histochemical and 
+    retrograde transport study.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s492">J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s493">Physiol.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s494">(Paris) 77.157-174.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s495">Steinhusch, H.W.M., D.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s496">Van der Kooy, A.A.J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s497">Verhofstad, and A.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s498">Pellegrino (1980) Serotonergic and non-serotonergic 
+    projections from the nucleus raphe dorsalis to the caudate-putamen 
+    complex in the rat, studied by a combined immunofluorescence and 
+    fluorescent retrograde axonal labeling technique.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s499">Neurosci.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s500">Lett. 29:137-142.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s501">Steindler, D.A., L.G.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s502">Isaacson, and B.K.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s503">Trosko (19831 Combined immunocytochemistry and 
+    autoradiographic retrograde axonal tracing for identification of 
+    transmitters of projection neurons.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s504">J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s505">Neurosci.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s506">Methods 9:217-228.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s507">Sternberger, L.A. (1979) Immunocytochemistry.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s508">In S.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s509">Cohen and R.T.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s510">MCCluskey (eds): Basic and Clinical Immunology.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s511">New York: John Wiley.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s512">Streit, P. (1980) Selective retrograde labeling 
+    indicating the transmitter ot neuronal pathways.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s513">J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s514">Comp.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s515">Neurol. 191:429-463.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s516">Streit, P., J.C.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s517">Reubi, M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s518">Wolfensherger, H.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s519">Henke, and M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s520">Cuenod (1979) Transmitter-specific retrograde tracing of 
+    pathways?</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s521">In M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s522">Cuenod, G.W.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s523">Kreutzberg, and F.E.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s524">Bloom (eds): Development and Chemical Specificity of 
+    Neurons, Progress in Brain Research, Vol. 51.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s525">Amsterdam: Elsevier, pp, 489-496.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s526">Swanson, L.W. (1982) The projections of thc ventral 
+    tegmental area and adjacent regions: A combined fluorescent 
+    retrograde tracer and immunofluorescence study in the rat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s527">Brain Res.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s528">Bull. 9:321-353.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s529">Tanaka, C., M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s530">Ishikawa, and S.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s531">Shimada (1982) Histochemical mapping of 
+    catecholaminergic neurons and their ascending fiber pathways in the 
+    rhesus monkey brain.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s532">Brain Res.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s533">Bull. 9:255-270.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s534">Ternaux, J.P., F.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s535">Hery, S.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s536">Bourgouin, J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s537">Adrien, J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s538">Glowinski, and M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s539">Hamon (1977) The topographical distribution of 
+    serotonergic terniinals in the neostriatum of the rat and the 
+    caudate nucleus of the cat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s540">Brain Res. 221:311-326.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s541">Ungerstedt, U. (1971) Use of intracerehral injections of 
+    6-hyrdroxydopamine as a tool for morphological and functional 
+    studies on central catecholamine neurons.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s542">In T.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s543">Malmfors, and H.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s544">Thoenen (edsl: 6-Hydroxydopamine and Catecholamine 
+    Neurons.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s545">Amsterdam: North Holland Puhl.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s546">Co., pp. 315-332.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s547">Van der Kar, L.D., and S.A.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s548">Lorens (1979) Differential serotonergic innervation of 
+    individual hypothalamic nuclei and other forebrain regions by the 
+    dorsal and median midbrain raphc nuclei.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s549">Brain Res. 162.45-54.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s550">Van der Kooy, D., and T Hattori (1980) Dorsal raphe 
+    cells with collateral projections to the caudate-putamen and 
+    substantia nigra: A fluorescent retrograde double labeling study in 
+    the rat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s551">Brain Res. 186:l-7.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s552">Veening, J.G., F.M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s553">Cornelissen, and P.A.J.M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s554">Lieven (1980) The topical organization of the afferents 
+    to the caudoputamen of the rat.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s555">A horseradish peroxidase study.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s556">Neuroscience 5:1233-1268.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s557">Versteeg, D.H.G., J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s558">Van der Gugten, W.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s559">De Jong, and M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s560">Palkovits (1976) Regional concentrations of 
+    noradrenaline and dopamine in rat brain.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s561">Brain Res. 113.563-574.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s562">Vigny, A. (1982) Contribution a I etude des proprietes 
+    structurales et regulatrices de la tyrosine hydroxylase de 
+    medullosurrenale.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s563">These d etat, Faculte Sciences Paris VII.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s564">Vigny, A,, and J.P.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s565">Henry (1981) Bovine adrenal tyrosine hydroxylase: 
+    Comparative study of native and proteolyzed enzyme and their 
+    interaction with anions.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s566">J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s567">Neurochem. 36:483-489.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s568">Wiklund, L., L.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s569">Leger, and M.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s570">Person (1981) Monoamine cell distribution in the cat 
+    hrain stem.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s571">A fluorescence histochemical study with quantification 
+    of indolaminergic and locus coeruleus cell groups.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s572">J.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s573">Comp.</S>
+    <S avgH="16" class="references.body" format="TimesNewRomanPSMT"
+     id="s574">Neurol. 20.3:613-647.</S>
+  </References>
+
+</File>
+

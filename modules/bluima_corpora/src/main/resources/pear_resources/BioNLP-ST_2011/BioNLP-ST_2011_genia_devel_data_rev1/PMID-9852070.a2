@@ -1,0 +1,18 @@
+*	Equiv T3 T2
+T26	Gene_expression 312 321	expressed
+T27	Binding 516 527	interaction
+T28	Binding 698 709	interaction
+T29	Binding 1113 1123	interacted
+T30	Binding 1180 1187	binding
+E1	Gene_expression:T26 Theme:T3
+E2	Binding:T27 Theme:T5 Theme2:T7
+E3	Binding:T27 Theme:T5 Theme2:T8
+E4	Binding:T27 Theme:T5 Theme2:T10
+E5	Binding:T27 Theme:T5 Theme2:T6
+E6	Binding:T27 Theme:T5 Theme2:T9
+E7	Binding:T28 Theme:T11
+E8	Binding:T29 Theme:T15
+E9	Binding:T30 Theme:T19
+E10	Binding:T30 Theme:T18
+E11	Binding:T30 Theme:T16
+E12	Binding:T30 Theme:T17

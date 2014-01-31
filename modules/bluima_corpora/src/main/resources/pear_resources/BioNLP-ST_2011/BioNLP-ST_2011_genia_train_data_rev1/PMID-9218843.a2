@@ -1,0 +1,29 @@
+T15	Negative_regulation 60 71	deprivation
+T16	Negative_regulation 296 307	deprivation
+T17	Negative_regulation 491 502	deprivation
+T18	Negative_regulation 599 610	deprivation
+T19	Positive_regulation 659 667	enhanced
+T20	Gene_expression 668 678	expression
+T21	Positive_regulation 1127 1134	induced
+T22	Entity 1135 1143	tyrosine
+T23	Phosphorylation 1144 1159	phosphorylation
+T24	Localization 1164 1177	translocation
+T25	Entity 1183 1190	nucleus
+T26	Gene_expression 1297 1312	over-expression
+T27	Positive_regulation 1297 1312	over-expression
+E1	Negative_regulation:T15 Theme:T1
+E2	Negative_regulation:T16 Theme:T2
+E3	Negative_regulation:T17 Theme:T5
+E4	Negative_regulation:T18 Theme:T7
+E5	Positive_regulation:T19 Theme:E10 Cause:T6
+E6	Positive_regulation:T19 Theme:E9 Cause:T6
+E7	Positive_regulation:T19 Theme:E8 Cause:T6
+E8	Gene_expression:T20 Theme:T8
+E9	Gene_expression:T20 Theme:T10
+E10	Gene_expression:T20 Theme:T9
+E11	Positive_regulation:T21 Theme:E13
+E12	Positive_regulation:T21 Theme:E14
+E13	Phosphorylation:T23 Theme:T12 Site:T22
+E14	Localization:T24 Theme:T12 ToLoc:T25
+E15	Gene_expression:T26 Theme:T13
+E16	Positive_regulation:T27 Theme:E15

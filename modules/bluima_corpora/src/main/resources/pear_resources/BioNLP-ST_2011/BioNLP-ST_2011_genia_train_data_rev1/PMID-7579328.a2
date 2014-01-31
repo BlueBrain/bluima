@@ -1,0 +1,41 @@
+*	Equiv T9 T8
+T31	Regulation 37 46	regulates
+T32	Entity 56 64	promoter
+T33	Gene_expression 640 653	cotransfected
+T34	Positive_regulation 640 653	cotransfected
+T35	Regulation 718 727	regulated
+T36	Entity 752 760	promoter
+T37	Negative_regulation 849 858	represses
+T38	Gene_expression 877 887	expression
+T39	Positive_regulation 888 891	via
+T40	Positive_regulation 982 991	activates
+T41	Gene_expression 1010 1020	expression
+T42	Gene_expression 1140 1149	expressed
+T43	Entity 1201 1209	promoter
+T44	Regulation 1217 1243	transcriptional regulation
+T45	Binding 1393 1398	binds
+T46	Entity 1406 1429	consensus binding sites
+T47	Positive_regulation 1818 1828	Activation
+T48	Gene_expression 1837 1847	expression
+T49	Positive_regulation 1879 1888	dependent
+T50	Regulation 1959 1969	regulation
+T51	Entity 1982 1990	promoter
+T52	Regulation 2102 2111	determine
+E1	Regulation:T31 Theme:T2 Cause:T1 Site:T32
+E2	Gene_expression:T33 Theme:T6
+E3	Positive_regulation:T34 Theme:E2
+E4	Regulation:T35 Theme:T9 Cause:T10 CSite:T36
+E5	Negative_regulation:T37 Theme:E6 Cause:T12
+E6	Gene_expression:T38 Theme:T13
+E7	Positive_regulation:T39 Theme:E5 Cause:T14
+E8	Positive_regulation:T40 Theme:E9 Cause:T15
+E9	Gene_expression:T41 Theme:T16
+E10	Gene_expression:T42 Theme:T18
+E11	Regulation:T44 Theme:T18 Cause:T19 Site:T43
+E12	Binding:T45 Theme:T20 Theme2:T21 Site2:T46
+E13	Positive_regulation:T47 Theme:E14
+E14	Gene_expression:T48 Theme:T25
+E15	Positive_regulation:T49 Theme:E13
+E16	Regulation:T50 Theme:T27 Cause:T28 Site:T51
+E17	Regulation:T52 Theme:E16
+M1	Speculation E11

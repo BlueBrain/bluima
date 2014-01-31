@@ -1,0 +1,12 @@
+T17	Gene_expression 450 462	Transfection
+T18	Positive_regulation 450 462	Transfection
+T19	Positive_regulation 934 946	transfection
+T20	Gene_expression 934 946	transfection
+E1	Gene_expression:T17 Theme:T8
+E2	Positive_regulation:T18 Theme:E1
+E3	Positive_regulation:T18 Theme:E4
+E4	Gene_expression:T17 Theme:T7
+E5	Positive_regulation:T19 Theme:E6
+E6	Gene_expression:T20 Theme:T12
+E7	Positive_regulation:T19 Theme:E8
+E8	Gene_expression:T20 Theme:T11

@@ -1,0 +1,33 @@
+Influence of grid deformations on the concentration profile
+Modifications of the Delaunay mesh have dramatic effects on the dual
+graph that we use to numerically solve diffusion. Thus we needed to
+incorporate a mechanism to automatically redistribute the different
+quantities of substances after each operation on the triangulation
+(physical object displacement, duplication or removal). The two
+major requirements are to preserve the concentration profiles, and to
+ensure mass conservation. Consider the case where the Delaunay vertex at position x moves. If we didn't update the quantity of substance
+i
+
+located inside the surrounding volume, moving the point would
+result in substance transport. Our update mechanism consists of two
+phases: first we interpolate the concentration u′ of the chemical at
+i
+
+the new location x′ of the moving vertex, and modify the quantity in
+i
+
+the newly formed volume V ′to obtain this desired concentration, i.e.
+i
+
+define new Q′ so that Q′/V ′ = u′. Then we compensate for total mass
+i iii
+conservation by multiplying the concentrations and the quantities
+in the surrounding volumes by the ratio between the total quantities
+before and after the displacement. Similar update mechanisms are
+used for vertex insertion or removal.
+The procedure is tested in our bench test by moving three inner
+vertices 100 times (Figure 3F). The displacement is a random 3D
+vector of less than 5 μm, with a re-centering mechanism to ensure
+that the points stay inside the convex hull of all other points. This
+minimally disruptive procedure allows for gradient ascent even in the
+extreme case where all physical objects are moving (Figure 3G).

@@ -1,0 +1,23 @@
+T13	Gene_expression 6 16	production
+T14	Gene_expression 201 208	produce
+T15	Transcription 275 282	express
+T16	Positive_regulation 558 571	up-regulation
+T17	Positive_regulation 661 673	upregulation
+T18	Negative_regulation 745 761	back to baseline
+T19	Positive_regulation 848 855	induced
+T20	Positive_regulation 868 880	upregulation
+T21	Transcription 990 997	express
+T22	Binding 1243 1252	recognize
+E1	Gene_expression:T13 Theme:T1
+E2	Gene_expression:T14 Theme:T3
+E3	Transcription:T15 Theme:T4
+E4	Positive_regulation:T16 Theme:T6
+E5	Positive_regulation:T17 Theme:T6
+E6	Negative_regulation:T18 Theme:T7
+E7	Positive_regulation:T19 Theme:E8
+E8	Positive_regulation:T20 Theme:T8
+E9	Transcription:T21 Theme:T9
+E10	Binding:T22 Theme:T12
+M1	Speculation E2
+M2	Negation E9
+M3	Negation E10

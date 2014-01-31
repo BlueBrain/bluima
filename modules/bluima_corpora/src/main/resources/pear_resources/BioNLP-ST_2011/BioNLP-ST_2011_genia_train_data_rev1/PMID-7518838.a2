@@ -1,0 +1,9 @@
+T5	Negative_regulation 855 863	decrease
+T6	Gene_expression 923 933	expression
+T7	Positive_regulation 1462 1471	necessary
+T8	Gene_expression 1506 1516	expression
+E1	Negative_regulation:T5 Theme:T1
+E2	Negative_regulation:T5 Theme:E3
+E3	Gene_expression:T6 Theme:T2
+E4	Positive_regulation:T7 Theme:E5
+E5	Gene_expression:T8 Theme:T4

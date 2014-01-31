@@ -1,0 +1,61 @@
+
+# FILTER FRAMEWORK ##################################################
+
+ae: ch.epfl.bbp.uima.filter.EtAlAnnotator
+
+
+# SHORTEST PATH
+ae: ViterbiFilterAnnotator
+
+
+# REMOVE NON-CONTENT SECTIONS
+ae: ch.epfl.bbp.uima.references.ReferencesClassifierAnnotator
+
+ae: ch.epfl.bbp.uima.filter.SectionRegexAnnotator
+
+ae: ch.epfl.bbp.uima.filter.SectionFilterAnnotator
+
+
+# FILTER CONTENT TOKENS (Keep's)
+ae: BioLemmatizerNormalizerAnnotator
+
+ae: ch.epfl.bbp.uima.filter.StopwordFilterAnnotator
+ inputFile: $ROOT/modules/bluima_utils/src/main/resources/stoplists/mallet_stopwords_en.txt
+
+ae: ch.epfl.bbp.uima.filter.PunctuationFilterAnnotator
+
+ae: ch.epfl.bbp.uima.filter.MeasureNormalizerAnnotator
+
+
+# DOCUMENT-LEVEL FILTERING
+ae: LanguageDetectionAnnotator
+
+ae: ch.epfl.bbp.uima.filter.TooFewTokensFilterAnnotator
+
+ae: ch.epfl.bbp.uima.filter.TooMuchOOVFilterAnnotator
+
+
+# 1) FILTER BY FREQUENCY
+#ae: ch.epfl.bbp.uima.filter.FrequencyFilterAnnotator
+#caseSensitive: false
+#filterTokenFrequency: false
+#inputFile: /nfs4/bbp.epfl.ch/simulation/nlp/data/lda/20130406_preprocess_ft_ns/20130405_token_frequency
+#minimumFrequency__: 100
+#maximumFrequency__java: Integer.MAX_VALUE
+
+# or 2) WRITE FREQUENCY FILE
+ae: ch.epfl.bbp.uima.filter.FrequencyFilterWriter
+ outputFile: target/freq.tsv
+
+
+# DEBUG OUTPUT
+ae: ch.epfl.bbp.uima.projects.preprocessing.PreprocessingStatsAnnotator
+
+ae: ch.epfl.bbp.uima.projects.preprocessing.PreprocessingStatsAnnotator2
+
+# Ouputs for visual analysis
+#ae: ch.epfl.bbp.uima.filter.LeaveOnlyKeepsEnclosedAnnotationsAnnotator
+#ae: BartWriter
+
+# Extracts to FeatureTokens for LDA
+#ae: FeatureTokensExtractionAnnotator2

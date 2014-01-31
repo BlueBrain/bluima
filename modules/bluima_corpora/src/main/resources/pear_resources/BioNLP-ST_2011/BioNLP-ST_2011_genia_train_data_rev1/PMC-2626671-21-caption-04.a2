@@ -1,0 +1,65 @@
+*	Equiv T10 T11
+T41	Regulation 6 14	controls
+T42	Gene_expression 58 68	expression
+T43	Positive_regulation 488 502	Overexpression
+T44	Gene_expression 673 683	Expression
+T45	Gene_expression 945 953	staining
+T46	Positive_regulation 1229 1236	induced
+T47	Positive_regulation 1259 1268	essential
+T48	Gene_expression 1289 1299	expression
+T49	Gene_expression 1310 1317	present
+T50	Negative_regulation 1344 1353	represses
+T51	Positive_regulation 1364 1371	induces
+T52	Gene_expression 1415 1425	expression
+T53	Regulation 1437 1448	participate
+T54	Gene_expression 1478 1488	expression
+T55	Positive_regulation 1547 1555	activate
+T56	Gene_expression 1565 1575	expression
+T57	Regulation 1615 1621	effect
+T58	Negative_regulation 1631 1641	deficiency
+T59	Gene_expression 1682 1692	expression
+E1	Regulation:T41 Theme:E2 Cause:T1
+E3	Regulation:T41 Theme:E4 Cause:T1
+E5	Regulation:T41 Theme:E6 Cause:T1
+E7	Regulation:T41 Theme:E8 Cause:T1
+E2	Gene_expression:T42 Theme:T2
+E4	Gene_expression:T42 Theme:T3
+E6	Gene_expression:T42 Theme:T4
+E8	Gene_expression:T42 Theme:T5
+E9	Positive_regulation:T43 Theme:T15
+E10	Gene_expression:T44 Theme:T18
+E11	Gene_expression:T44 Theme:T19
+E12	Gene_expression:T45 Theme:T20
+E13	Positive_regulation:T46 Theme:T23
+E14	Positive_regulation:T47 Theme:E15 Cause:T23
+E15	Gene_expression:T48 Theme:T24
+E16	Gene_expression:T49 Theme:T25
+E17	Negative_regulation:T50 Theme:T27 Cause:T25
+E18	Positive_regulation:T51 Theme:E19 Cause:T25
+E20	Positive_regulation:T51 Theme:E21 Cause:T25
+E22	Positive_regulation:T51 Theme:E23 Cause:T25
+E24	Positive_regulation:T51 Theme:E25 Cause:T25
+E19	Gene_expression:T52 Theme:T28
+E21	Gene_expression:T52 Theme:T29
+E23	Gene_expression:T52 Theme:T30
+E25	Gene_expression:T52 Theme:T31
+E26	Regulation:T53 Theme:E27 Cause:T32
+E27	Gene_expression:T54 Theme:T33
+E28	Positive_regulation:T55 Theme:E29 Cause:T34
+E30	Positive_regulation:T55 Theme:E29 Cause:T35
+E31	Positive_regulation:T55 Theme:E29 Cause:T36
+E29	Gene_expression:T56 Theme:T37
+E32	Regulation:T57 Theme:E33 Cause:E34
+E35	Regulation:T57 Theme:E36 Cause:E34
+E34	Negative_regulation:T58 Theme:T38
+E33	Gene_expression:T59 Theme:T39
+E36	Gene_expression:T59 Theme:T40
+M1	Speculation E10
+M2	Speculation E11
+M3	Speculation E12
+M4	Speculation E26
+M5	Speculation E28
+M6	Speculation E30
+M7	Negation E31
+M8	Speculation E31
+M9	Negation E35

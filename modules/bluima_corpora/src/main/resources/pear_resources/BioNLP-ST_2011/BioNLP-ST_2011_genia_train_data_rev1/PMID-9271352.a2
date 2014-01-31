@@ -1,0 +1,38 @@
+T16	Positive_regulation 302 312	activation
+T17	Positive_regulation 522 528	induce
+T18	Gene_expression 540 550	expression
+T19	Positive_regulation 732 754	induction was obtained
+T20	Regulation 868 879	involvement
+T21	Negative_regulation 949 966	inhibiting effect
+T22	Negative_regulation 1000 1010	antagonist
+T23	Positive_regulation 1167 1176	dependent
+T24	Gene_expression 1188 1198	expression
+T25	Negative_regulation 1241 1251	inhibitors
+T26	Positive_regulation 1488 1495	induced
+T27	Regulation 1607 1613	effect
+T28	Gene_expression 1631 1641	expression
+T29	Regulation 1669 1678	regulated
+T30	Positive_regulation 1808 1815	induced
+T31	Gene_expression 1821 1831	expression
+T32	Negative_regulation 1852 1861	abolished
+T33	Positive_regulation 1959 1970	stimulation
+E1	Positive_regulation:T16 Theme:T2
+E2	Positive_regulation:T17 Theme:E3
+E3	Gene_expression:T18 Theme:T3
+E4	Positive_regulation:T19 Theme:E3
+E5	Regulation:T20 Theme:E2 Cause:T4
+E6	Negative_regulation:T21 Theme:E2
+E7	Negative_regulation:T22 Theme:T5
+E8	Positive_regulation:T23 Theme:E9
+E9	Gene_expression:T24 Theme:T7
+E10	Negative_regulation:T25 Theme:T8
+E11	Negative_regulation:T25 Theme:T9
+E12	Positive_regulation:T26 Theme:T10
+E13	Regulation:T27 Theme:E14
+E14	Gene_expression:T28 Theme:T12
+E15	Regulation:T29 Theme:T12
+E16	Positive_regulation:T30 Theme:E17
+E17	Gene_expression:T31 Theme:T14
+E18	Negative_regulation:T32 Theme:E16
+E19	Positive_regulation:T33 Theme:T15
+M1	Speculation E13

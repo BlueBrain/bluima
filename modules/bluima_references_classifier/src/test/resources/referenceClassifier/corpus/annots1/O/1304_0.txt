@@ -1,0 +1,44 @@
+(a) Nonlinear dynamics of the stable oscillation
+The most fundamental assumption for the application
+of the PRC theory is the existence of one or more
+endogenous oscillators because the PRC measures
+the phase response of an ongoing oscillation to perturbations at different time points during the natural
+period. If an ongoing oscillation does not exist, then
+the PRC theory is not applicable. The oscillator
+assumption is valid for at least up to 10 per cent variability in the inter-spike interval of the oscillation
+(Galan et al. 2005). Neurons and networks of neurons
+are dynamical systems meaning that they have state
+variables that continuously evolve in time with a
+rate dependent on the state of the system and therefore
+can be described with differential equations. The
+assumption of a stable oscillation is equivalent to the
+assumption of the existence of a limit cycle, a term
+from the study of nonlinear differential equations. A
+limit cycle is a periodic solution to a system of differential equations that is stable to small perturbations,
+meaning that transient changes to the original form
+of the oscillation quickly decay away leaving the original oscillatory activity intact. However (and
+importantly), the oscillator returns with a phase shift
+relative to the unperturbed cycle. Many physiological
+oscillations in nature have this quality such as the beating of a heart, the respiratory rhythm and the
+oscillations of the nervous system (Winfree 2001).
+The existence of a limit cycle requires that the
+system of differential equations be nonlinear (a
+requirement for the limit cycle to be stable) and have
+at least two variables (second-order differential
+equation) to create the interplay between variables
+that can give rise to an oscillation, generally a positive
+action followed by delayed negative feedback. A system
+of two differential equations can be written in the
+general form:
+
+dx dy
+=f(X,Y,a) and =g(X,Y,a),
+dt dt
+where X and Y are the state variables evolving in time
+with rates of change defined by the functions f and g
+and a is a parameter or set of parameters that remain
+fixed. In a typical conductance-based neural model,
+state variables include membrane potential and ionchannel gating variables; parameters include maximal
+conductances and half-activation voltages of voltagegated conductances. It should be stressed here that
+when we observe an oscillatory behaviour in nature
+that is stable to small perturbations, it is not an

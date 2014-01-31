@@ -1,0 +1,8 @@
+T9	Transcription 545 552	express
+T10	Binding 623 633	associated
+T11	Positive_regulation 656 670	overexpression
+T12	Gene_expression 656 670	overexpression
+E1	Transcription:T9 Theme:T6
+E2	Binding:T10 Theme:T6
+E3	Positive_regulation:T11 Theme:E4
+E4	Gene_expression:T12 Theme:T7

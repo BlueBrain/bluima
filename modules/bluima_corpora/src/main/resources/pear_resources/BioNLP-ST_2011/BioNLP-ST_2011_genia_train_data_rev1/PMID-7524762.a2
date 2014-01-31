@@ -1,0 +1,33 @@
+*	Equiv T4 T5 T6
+T26	Regulation 13 20	affects
+T27	Gene_expression 25 35	expression
+T28	Regulation 423 430	effects
+T29	Gene_expression 454 464	expression
+T30	Negative_regulation 789 798	decreased
+T31	Negative_regulation 946 954	decrease
+T32	Regulation 1060 1071	responsible
+T33	Negative_regulation 1080 1088	decrease
+T34	Positive_regulation 1397 1406	increased
+T35	Positive_regulation 1446 1454	increase
+T36	Transcription 1639 1645	levels
+T37	Positive_regulation 1695 1703	increase
+T38	Regulation 1818 1827	important
+T39	Positive_regulation 1835 1843	increase
+E1	Regulation:T26 Theme:E2 Cause:T1
+E2	Gene_expression:T27 Theme:T2
+E3	Regulation:T28 Theme:E4 Cause:T8
+E4	Gene_expression:T29 Theme:T9
+E5	Negative_regulation:T30 Theme:T10
+E6	Negative_regulation:T31 Theme:T12
+E7	Regulation:T32 Theme:E8
+E8	Negative_regulation:T33 Theme:T13
+E9	Positive_regulation:T34 Theme:T18
+E10	Positive_regulation:T35 Theme:T19
+E11	Transcription:T36 Theme:T22
+E12	Positive_regulation:T37 Theme:E11 Cause:T23
+E13	Regulation:T38 Theme:E14
+E14	Positive_regulation:T39 Theme:T24 Cause:T25
+M1	Speculation E3
+M2	Negation E6
+M3	Negation E12
+M4	Speculation E13

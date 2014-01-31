@@ -1,0 +1,49 @@
+*	Equiv T28 T29
+*	Equiv T11 T12
+*	Equiv T35 T36
+*	Equiv T2 T3
+*	Equiv T17 T18
+*	Equiv T38 T39
+*	Equiv T24 T25
+*	Equiv T31 T32
+*	Equiv T21 T22
+*	Equiv T5 T6
+*	Equiv T42 T41
+*	Equiv T7 T8 T9
+T43	Positive_regulation 67 82	transactivation
+T44	Entity 129 137	promoter
+T45	Binding 146 158	interactions
+T46	Positive_regulation 225 254	Transcriptional up-regulation
+T47	Binding 736 743	binding
+T48	Positive_regulation 857 871	transactivates
+T49	Positive_regulation 977 985	increase
+T50	Transcription 990 1014	transcriptional activity
+T51	Positive_regulation 1155 1164	increased
+T52	Binding 1173 1189	binding activity
+T53	Positive_regulation 1339 1352	transactivate
+T54	Entity 1370 1378	promoter
+T55	Binding 1457 1461	bind
+T56	Binding 1590 1598	interact
+T57	Binding 1657 1665	interact
+E1	Positive_regulation:T43 Theme:T2 Cause:E4 Site:T44
+E2	Positive_regulation:T43 Theme:T2 Cause:E3 Site:T44
+E3	Binding:T45 Theme:T1 Theme2:T4
+E4	Binding:T45 Theme:T1 Theme2:T5
+E5	Positive_regulation:T46 Theme:T7 Cause:T10
+E6	Binding:T47 Theme:T15
+E7	Binding:T47 Theme:T16
+E8	Binding:T47 Theme:T17
+E9	Positive_regulation:T48 Theme:T21 Cause:T20
+E10	Positive_regulation:T49 Theme:E11 Cause:T23
+E11	Transcription:T50 Theme:T24
+E12	Positive_regulation:T51 Theme:E15 Cause:T26
+E13	Positive_regulation:T51 Theme:E14 Cause:T26
+E14	Binding:T52 Theme:T28
+E15	Binding:T52 Theme:T27
+E16	Positive_regulation:T53 Theme:T31 Site:T54
+E17	Binding:T55 Theme:T33 Theme2:T34
+E18	Binding:T55 Theme:T33 Theme2:T35
+E19	Binding:T56 Theme:T38
+E20	Binding:T57 Theme:T42
+M1	Negation E16
+M2	Negation E19

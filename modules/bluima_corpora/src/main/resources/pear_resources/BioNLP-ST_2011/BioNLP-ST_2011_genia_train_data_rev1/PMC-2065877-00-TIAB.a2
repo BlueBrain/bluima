@@ -1,0 +1,16 @@
+*	Equiv T15 T16
+T23	Positive_regulation 30 39	Activates
+T24	Negative_regulation 445 455	inhibitors
+T25	Regulation 738 749	deregulated
+T26	Gene_expression 1186 1195	expressed
+E1	Positive_regulation:T23 Theme:T2 Cause:T1
+E2	Positive_regulation:T23 Theme:T3 Cause:T1
+E3	Negative_regulation:T24 Theme:T7
+E4	Negative_regulation:T24 Theme:T8
+E5	Regulation:T25 Theme:T10
+E6	Regulation:T25 Theme:T11
+E7	Regulation:T25 Theme:T12
+E8	Gene_expression:T26 Theme:T15
+M1	Negation E5
+M2	Negation E6
+M3	Negation E7

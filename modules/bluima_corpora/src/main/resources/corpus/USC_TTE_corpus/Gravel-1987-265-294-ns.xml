@@ -1,0 +1,1557 @@
+<?xml version='1.0'?>
+<!DOCTYPE File PUBLIC "NeuroScholar.DTD" "NeuroScholar.DTD">
+<?xml-stylesheet type="text/css" href="NeuroScholar.css"?>
+<File>
+
+  <Title>Parasagittal Organization of the Rat Cerebellar Cortex: Direct 
+  Correlation Between Antigenic Purkinje Cell Bands Revealed by mabQll3 
+  and the Organization of the Olivocerebellar Projection</Title>
+
+  <Authors>CLAUDE GRAVEL, LEONARD M. EISENMAN, RACHEL SASSEVILLE, AND 
+  RICHARD HAWKES</Authors>
+
+  <Abstract>
+
+    <S avgH="22" class="abstract.heading" format="TimesNewRomanPSMT"
+     id="s0">ABSTRACT</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s1">The Purkinje cells of the cerebellar cortex and the 
+    cortical afferent and efferent projections are organized into 
+    parallel parasagittal zones.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s2">The parasagittal organization is clearly revealed by 
+    immunocytochemistry with a monoclonal antibody, mabQ113.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s3">The mabQl13 antigen is confined to a subset of Purkinje 
+    cells that are clustered together to form an elaborate, highly 
+    reproducible pattern of bands and patches, interspersed with 
+    similar mabQ113 - regions.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s4">The mabQ113 + territories have been classified into seven 
+    parasagittal bands (P1 +-P7 +) in each hemicerebellum.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s5">The degree of correspondence between the compartments 
+    revealed by the anterograde labeling of the olivocerebellar 
+    projection and by mabQ113 immunocytochemistry has been explored in 
+    the adult rat.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s6">Horseradish peroxide-wheat germ agglutinin conjugate was 
+    injected as an anterograde tracer into the inferior olivary 
+    complex.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s7">When the injection site did not encompass all the olive, 
+    an incomplete, patchy labeling of the molecular layer was seen in 
+    the cerebellar cortex.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s8">Labeled zones of the molecular Iaycr were interrupted by 
+    unIabeled regions to give a pattern of parasagittal cortical 
+    bands.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s9">The positions of these bands were compared with the 
+    distribution of lhe niabQll3 + antigenic bands as seen on the two 
+    adjacent sections.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s10">Labeled climbing fibers were found to terminate on both 
+    mabQll3 + and mabQ113 - Purkinje cell zones.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s11">The mabQl13 clmabQ113 - boundaries and the bands of 
+    climbing fibers seen by using the anterogade tracer typically 
+    coincide.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s12">The one consistent exception is the midline band of 
+    mabQ113 + Purkinje cells, P1+.</S>
+    <BR />
+
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s13">The normal olivocerebellar projection is exclusively 
+    contralateral and the climbing fiber projection to the paramedian 
+    vermis splits PI + down the middle, implying that it consists of 
+    two adjacent mabQ113+ bands not separated by mabQll3 -territory.</S>
+    <S avgH="22" class="abstract.body" format="TimesNewRomanPSMT"
+     id="s14">It is likely that the climbing fiber projection to the 
+    cerebellar cortex and the distribution of the two Purkinje cell 
+    phenotypes share a common compartmental organization.</S>
+    <BR />
+
+  </Abstract>
+
+  <Introduction>
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s15">robiologie, Pavillon Notre-Dame, 2075 Ave de Vitre, 
+    Quebec, P.Q., Canada GlJ 124.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s16">The mammalian cerebeller cortex is organized into 
+    parasagittal zones.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s17">This proposal is supported by more than forty years of 
+    research, based at first on anatomical and electrophysiological 
+    methods, and bolstered more recently by histochemistry and 
+    immunocytochemistry.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s18">A parasagittal zonation was shown first for the Purkinje 
+    cell efferent projection to the cerebellar nuclei and the lateral 
+    vestibular nuclei (eg., Jansen and Brodal, &apos;40,&apos;42; 
+    Chambers and Sprague, &apos;55a,b; Courville and Diakiw, &apos;76; 
+    Voogd and Bigare, &apos;80; Haines et al., &apos;82), and 
+    subsequently, a similar afferent parcellation was shown to be 
+    present in some mossy fiber pathways (Voogd, &apos;69; Scheibel, 
+    &apos;77; Chan-Palay et al., &apos;77; Yaginuma and Matsushita, 
+    &apos;86) and in the climbing fiber projection from the inferior 
+    olives (Voogd, &apos;64,&apos;67,&apos;69; Oscarsson, 
+    &apos;69,&apos;80; Oscarsson and Sjolund, &apos;77; Van Gilder and 
+    O&apos;Leary, &apos;70; Armstrong et al., &apos;74,&apos;82; 
+    Groenewegen and Voogd, &apos;77; Groenewegen et al., &apos;79; 
+    Courville, &apos;75; Courville and Faraco-Cantin, &apos;78; Brodal 
+    et al., &apos;75; Brodal, &apos;76,&apos;80; Beyerl et al., 
+    &apos;82; Eisenman, &apos;81,&apos;84; Eisenman et al., 
+    &apos;83).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s19">&quot;he neurons of the inferior olivary complex (IOC) 
+    are the sole source of climbing fibers to the cerebellar cortex and 
+    all regions receive climbing fiber input (Desclin, &apos;74; 
+    Courville and Faraco-Cantin, &apos;78; Armstrong et al., &apos;82; 
+    Sotelo et al., &apos;84; Blatt and Eisenman, &apos;85).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s20">In the rat, incomplete filling of an inferior olive with 
+    anterograde tracer results in the labeling of parasagittally 
+    organized bands of climbing fibers in the molecular layer of the 
+    contralateral cerebellar cortex (Armstrong et al., &apos;82; 
+    Campbell and Armstrong, &apos;83, Sotelo et al., &apos;84).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s21">Molecular correlates of a parasagittal organization 
+    within the cerebellar cortex have also been demonstrated.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s22">Scott (&apos;63,&apos;64) and others (e.g., Marani, ,821, 
+    by using histochemical techniques, localized the enzyme 
+    5&apos;-nucleotidase to parasagittal bands in the molecular layer 
+    of the mouse and rat cerebellar cortex (but not in the cat; see 
+    Marani and Voogd, &apos;77).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s23">Parasagittal heterogeneity of acetylcholinesterase 
+    activity has also been demonstrated histochemically in the 
+    cerebellar cortex of young and adult cats (Ramon-Moliner, &apos;72; 
+    Marani and Voogd, &apos;77; Marani, &apos;82; Brown and Graybiel, 
+    &apos;83).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s24">The staining is concentrated in the molecular layer and 
+    appears as positive and negative parasagittal zones.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s25">Although this staining pattern is not found in the rat 
+    and mouse, preliminary evidence suggests that a similar 
+    acetylcholinesterase segregation can be demonstrated in the monkey 
+    (Ingram et al., 85; Hess and Voogd, &apos;86).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s26">This pattern may be related to the differential 
+    acetylcholinesterase staining pattern demonstrated in the IOC 
+    (Marani et al., &apos;77).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s27">Immunohistochemical methods have also been brought to 
+    bear on the question of cerebellar heterogeneity.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s28">By using antibodies against cysteine-sulfinic acid 
+    decarboxylase, Chan-Palay et al. (&apos;82) demonstrated 
+    differential immunostaining of Purkinje, stellate, basket, and 
+    Eolgi cells and their processes in the rat, rabbit, and mouse.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s29">The immunoreactive cells form parasagittal microzones 
+    separated by nonimmunoreactive interzones.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s30">Antigenic heterogeneity in the Purkinje cell population 
+    is also seen when the rat, mouse, or monkey tissue is processed 
+    with an antibody raised against synthetic porcine motilin 
+    (Chan-Palay et al., &apos;81; Nilaver et al., &apos;82) and has 
+    also been reported for an antibody raised against glutamic acid 
+    decarboxylase (ChanPalay et al., &apos;81).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s31">Combined used of these antibodies has shown on simple 
+    segregation of epitopes, some Purkinje cells reacting only with one 
+    or other antibody, some reacting with both, and yet others reacting 
+    with neither.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s32">More recently, Ingram et al. (&apos;85) described the 
+    monoclonal antibody B1 that revealed broad bands of positively and 
+    negatively reactive Purkinje cells in the monkey cerebellar 
+    cortex.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s33">Some other cerebellar neurons also bear the epitope.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s34">The B1 bands do not seem to codistribute with the 
+    motilin, glutamic acid decarboxylase, or taurine bands, nor do they 
+    correspond to the acetylcholinesterase staining pattern (Ingram et 
+    al., &apos;85).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s35">Another, probably different, pattern of bands and patches 
+    is revealed by monoclonal antibody mabQ155 (Hawkes et al., 
+    &apos;85).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s36">MabQ155 recognizes an epitope associated with all the 
+    major synaptic types of the rat and mouse cerebellar cortex.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s37">Despite its broad cellular distribution in the mouse 
+    cerebellar cortex, mabQ 155-immunocytochemistry reveals 
+    parasagittal zones of alternating high and low reactivity that 
+    include both the granular layer and the molecular layer.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s38">Together, these studies are highly suggestive of 
+    widespread chemical heterogeneity in the cerebellar cortex, 
+    particularly among the Purkinje cell population.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s39">Perhaps the clearest demonstration of this is seen with 
+    the monoclonal antibody mabQ113 (Hawkes et al., &apos;85; Plioplys 
+    et al., &apos;85; Hawkes and Leclerc, &apos;86,&apos;87).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s40">The distribution of the mabQll3 epitope in the cerebellar 
+    cortex is intriguing because it is strictly confined to a subset of 
+    Purkinje cells.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s41">Immunoreactivity is found throughout the cytoplasm of the 
+    immunopositive cells, including dendritic spines and dendrites, the 
+    somata, the axons, and the axon collaterals.</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s42">Antigen-bearing Purkinje cells are arranged into highly 
+    symmetrical parasagittal bands extending throughout the 
+    anteroposterior extent of the cerebellum in a pattern reproducible 
+    from animal to animal (Hawkes et al., &apos;85; Hawkes and Leclerc, 
+    &apos;87).</S>
+    <BR />
+
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s43">These data provide multiple independent maps of 
+    cerebellar organization, but few attempts have been made to 
+    compare, collate, and synthesize the schemata obtained by using 
+    different experimental methods (e.g., Hess and Voogd, &apos;86).</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s44">In particular, the question remains open as to whether 
+    the parasagittal organization of different afferent fibers and of 
+    various intrinsic biochemical markers reflects a common structural 
+    plan, or whether each is a unique representation in its own 
+    right.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s45">In addition to the difficulty inherent in comparing data 
+    collected by using different methodologies, a second problem is 
+    that these data have been collected in many different species, thus 
+    further confounding attempts at synthesis.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s46">To address this problem, in this paper we compare the 
+    band pattern produced in the cerebellar cortex following injection 
+    of wheat germ agglutinin-horseradish peroxidase complex CWGA-HRP) 
+    into the inferior olive with the immunocytochemical staining 
+    pattern obtained with the mabQll3 antibody.</S>
+    <S avgH="22" class="introduction.body" format="TimesNewRomanPSMT"
+     id="s47">Some of these results appeared previously in abstract 
+    form (Gravel et al., &apos;86).</S>
+  </Introduction>
+
+  <Methods>
+
+    <S avgH="25" class="methods.heading" format="TimesNewRomanPS-BoldMT"
+     id="s48">MATERIALS AND METHODS</S>
+    <BR />
+
+    <S avgH="26" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s49">Antemgrade labeling with 
+    wheat germ agglutininhorseradish peroxidase conjugate</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s50">Adult Sprague Dawley rats were used in all 
+    experiments.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s51">The animals were anesthetized with an intramuscular 
+    injection of ketamine hydrochloride (45 mgkg) containing 1% 
+    acepromazine.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s52">Microinjections of WGA-HRP conjugate were placed into the 
+    IOC via a ventral retropharyngeal a p proach.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s53">Tracer was injected via a 1-pl Hamilton syringe to which 
+    a glass micropipette (tip diameter 50-75 pm} was attached.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s54">After a survival time of 24 hours, the animal was 
+    sacrificed with an overdose of Nembutal and perfused through the 
+    heart with saline followed by a fixative containing 4% 
+    paraformaldehyde and 0.2% glutaraldehyde in phosphate buffer (pH 
+    7.4).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s55">Immediately after perfusion the brain was removed, 
+    postfixed for a few hours in the formaldehyde alone, and then 
+    placed in buffer overnight at 4°C.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s56">The next day the brain was shipped by express mail from 
+    Philadelphia to Quebec for processing to reveal the anterograde 
+    transport of tracer and the bands of antigenic Purkinje cells.</S>
+    <BR />
+
+    <S avgH="25" class="methods.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s57">Histochemistry and 
+    immunocytochemistry</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s58">Horizontal or frontal sections of cerebellum were cut at 
+    50 pm on a freezing-stage microtome.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s59">Every third section was incubated overnight at room 
+    temperature with constant agitation in mabQll3-containing culture 
+    medium diluted 1:32 in 10% decomplemented normal horse serum.</S>
+    <BR />
+
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s60">Then, after three 10-minute rinses in a 0.1 M 
+    phosphatebuffered 0.9% saline solution (PBS), the sections were 
+    incubated for 2 hours in peroxidase-conjugated rabbit antimouse 
+    immunoglobulins (Dako, Denmark) diluted 1:lOO in 10% normal horse 
+    serum.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s61">Following 3 additional rinses in PBS, the reaction sites 
+    were revealed by using 4-chloro-lnaphthol as chromogen (Hawkes et 
+    al., &apos;82) and the sections mounted on slides in a 90% 
+    glycerol, 10% PBS solution.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s62">The anterogradely transported peroxidase activity is too 
+    weak to be revealed with 4-chloro-1-naphthol, and thus there is no 
+    confusion between Purkinje cell immunoreactivity and climbing fiber 
+    labeling.</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s63">The other sections were processed for peroxidase 
+    histochemistry with tetramethylbenzidine (TMB) as the chromogen 
+    (Mesulam, &apos;821, then dehydrated through graded ethanol 
+    solutions and mounted in Permount (Fisher, Inc.).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s64">Transverse sections of the brainstem were cut at 50 pm 
+    between the caudal limit of the pons and the rostra1 limit of the 
+    IOC (Paxinos and Watson, &apos;82).</S>
+    <S avgH="22" class="methods.body" format="TimesNewRomanPSMT"
+     id="s65">Every third section was collected, the injection site was 
+    revealed by using tetramethylbenzidine, and the sections 
+    counterstained with either neutral red or cresyl violet.</S>
+  </Methods>
+
+  <Results>
+
+    <S avgH="25" class="results.heading" format="TimesNewRomanPS-BoldMT"
+     id="s66">RESULTS</S>
+    <BR />
+
+    <S avgH="25" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s67">MabQ113 
+    immunocytochemical staining</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s68">On Western blots of the rat cerebellar cortex, monoclonal 
+    antibody Q113 (mabQ113) recognizes an epitope restricted to a 
+    single polypeptide of apparent molecular weight 120 Kdaltons 
+    (Hawkes et al., &apos;85).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s69">The laminar distribution of the mabQ113 epitope in 
+    <labelingLocation>the cerebellar cortex</labelingLocation> as 
+    revealed by peroxidase immunocytochemistry is illustrated in Figure 
+    1A , B .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s70">Peroxidase reaction product is confined exclusively to 
+    <labelingLocation>the Purkinje cells</labelingLocation>, where it 
+    is distributed throughout the cell from the axon and axon 
+    collaterals to the somata, the dendrites, and the dendritic 
+    spines.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s71"><labelingDescription>No other cell 
+    types</labelingDescription> in the cerebcllum, neuronal or glial, 
+    are immunoreactive (for other brain regions, see Plioplys and 
+    Hawkes, &apos;86).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s72">Details of the subcellular distribution will be presented 
+    elsewhere (Leclerc et al., in preparation).</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s73">The most interesting feature of the mabQ113 epitope is 
+    its restricted distribution among the Purkinje cell population; the 
+    epitope is expressed in only a subset, as a whole about one-third, 
+    of the cells (Hawkes and Leclerc, &apos;87).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s74">The immunoreactive Purkinje cells ( mabQl13 + ) are 
+    clustered together to form a family of parasagittal bands running 
+    roughly rostrocaudally throughout <labelingLocation>the cerebellar 
+    cortex</labelingLocation> , interposed by similar bands of 
+    mabQll3cells ( Fig . 2A ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s75">The detailed description of the immunocytochemical 
+    banding pattern is provided elsewhere (Hawkes and Leclerc, 
+    &apos;87).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s76">Briefly, the parasagittal zonation revealed by mabQ113 is 
+    symmetrical about the midline and is reproducible from individual 
+    to individual both in the number and general arrangement of the 
+    bands and in much of the fine detail.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s77">By calling bands of mabQ113 + cells P + and mabQ113 - 
+    cells P-, we have defined a midline band (P1+) and six or seven 
+    lateral P+ bands on each side (P2+ to P7 +(P8 + ); Fig. 2B).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s78">In the vermis the bands ( P1 + , P2 + , P3 + ) are 
+    continuous from lobule to lobule .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s79">In general , the bands tend to become weaker and less 
+    well defined as they pass into the anterior lobe .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s80">Careful observation of the midline P1 + band reveals that 
+    the axons issuing from the mabQll3 + Purkinje cells segregate into 
+    two fascicles divided by the anatomical midline , and enter 
+    uncrossed in the white matter within the left and right sides of 
+    the cerebellum , respectively ( Fig . 3A ) .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s81">On this basis, the P1+ band is best described as two 
+    parallel, confluent P+ bands, not separated by a negative (P-) 
+    Purkinje cell zone.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s82">The mabQ113 + staining in <labelingLocation>the 
+    hemispheres</labelingLocation> is also consistent with a rather 
+    convoluted parasagittal zonation ( P4 + , P5 i , P6 + , P7 + ) , 
+    but a checkerboard arrangement of Purkinje cell clusters is at 
+    least as plausible .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s83">The immunoreactivity diminishes in <labelingLocation>the 
+    more lateral regions of the hemispheres</labelingLocation> , making 
+    the presence of an extreme lateral P8 + uncertain .</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s84">Additional subbands of P4 + and P5 + ( called P4b + and 
+    P5a + , respectively ) are seen in <labelingLocation>the crus 
+    2</labelingLocation>.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s85">In addition to these well-ordered and highly reproducible 
+    bands or mabQ113 + cells, satellite bands are also common; these 
+    are defined as narrow, positively immunoreactive bands of Purkinje 
+    cells, often only one cell in width, lying adjacent to one of the 
+    major bands (Fig. 3B).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s86">In contrast to the P+ bands, satellite bands are not 
+    reproducible from individual to individual nor are they necessarily 
+    bilaterally symmetrical.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s87">They do, however, extend substantially in the 
+    dorsoventral plane and thus are not simply occasional mabQ113s 
+    Purkinje cells isolated within mabQ113territory.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s88">These satellite bands, together with possible variations 
+    in the depth and tilt of the plane of section and with differences 
+    in the extent of foliation, require that olivocerebellar projection 
+    bands and the mabQ113 imrnunocytochemical banding pattern be 
+    compared directly in each individual instead of referring to an 
+    idealized map of the epitope distribution.</S>
+    <BR />
+
+    <S avgH="25" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s89">
+    <labelingDescription>Anterograde labeling</labelingDescription> of 
+    the olivocerebellar projection</S>
+    <BR />
+
+    <TTE>
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s90"><exptLabel>Either large ( nominally 30 nl ) or small ( 
+      nominally 10 nl ) injections of <tracerChemical>WGA - 
+      HRP</tracerChemical> conjugate were placed in 
+      <injectionLocation>the right JOC</injectionLocation></exptLabel> 
+      of experimental animals via a retropharyngeal approach ( Chan - 
+      Palay et al . , 77 ) .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s91">Typically , small injections resulted in 
+      <labelingDescription>a labeling</labelingDescription> of olivary 
+      cells restricted mainly to the side of the injection , whereas 
+      labeling from a large injection spans <injectionLocation>the two 
+      IOC</injectionLocation> to varying extents .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s92">Figure 4A , B shows portions of typical injection sites 
+      , photographed at a similar rostrocaudal level ( approximately 13 
+      mm caudal from the bregma ; Paxinos and Watson , 82 ) , resulting 
+      from small ( Fig . 4A ) or large ( Fig . 4B ) tracer injections 
+      .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s93">It can be seen that thc peroxidase reaction product is 
+      not restricted to <injectionLocation>the IOC</injectionLocation> 
+      but also extends into <injectionSpread>adjacent 
+      regions</injectionSpread>  , principally <injectionSpread>the 
+      reticular formation</injectionSpread> dorsomedially and 
+      dorsolaterally and <injectionSpread>the 
+      pyramids</injectionSpread> ventromedially .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s94">The use of TMB may result in the overestimation of the 
+      injection site due to the difference between virtual and 
+      effective injection sites (Mesulam, 82).</S>
+      <BR />
+
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s95">Axons from the labeled neurons of one IOC cross the 
+      olivary commissure and spread through <labelingLocation>the 
+      contralateral IOC</labelingLocation> .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s96">They then form a thin bundle that follows a rostral and 
+      dorsal path and ascends to <labelingLocation>the cerebellum via 
+      the inferior cerebellar peduncle</labelingLocation> .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s97">In <labelingLocation>the cerebellum</labelingLocation> 
+      , they <labelingModifier>terminate</labelingModifier> as climbing 
+      fibers upon <labelingLocation>the Purkinje cell primary 
+      dendrites</labelingLocation> .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s98"><labelingDescription>Labeled collateral 
+      axons</labelingDescription> are also seen entering 
+      <labelingLocation>the cerebellar nuclei</labelingLocation> .</S>
+      <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+       id="s99">Thus , the uptake and subsequent anterograde transport 
+      of <tracerChemical>WGA - HRP</tracerChemical> by olivary cells 
+      result in the accumulation of tracer in <labelingLocation>the 
+      molecular layer of the cerebellar cortex</labelingLocation> , and 
+      to a lesser extent also in <labelingLocation>the cerebellar 
+      nuclei</labelingLocation> .</S>
+    </TTE>
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s100">Examination of the sections at higher magnification 
+    reveals that the labeling consists of closely spaced, discrete 
+    lines of TMB crystals running along the Purkinje cell dendritic 
+    arbors from the Purkinje cell layer toward the pial surface (Fig. 
+    5).</S>
+    <BR />
+
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s101">It should be emphasized here that it is not the present 
+    intention to analyze the detailed topography of the olivocerebellar 
+    prqjectioln with respect to Purkinje cell compartmentation.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s102">Rather, we wish to establish whether such a comparison 
+    is at all worthwhile.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s103">If the Purkinje cell distribution and the 
+    olivocerebellar projection are unlinked, a topographical comparison 
+    may be of little value-we know already that both share broadly 
+    similar organizations.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s104">On the other hand, if the olivocerebellar projection and 
+    the Purkinje cell conipartments share a common parasagittal ground 
+    plan-and it is argued below that this is indeed the case-then this 
+    has important functional and developmental implications.</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s105">With this in mind , <exptLabel><tracerChemical>WGA - 
+    HRP</tracerChemical> was injected into <injectionLocation>the 
+    IOC</injectionLocation></exptLabel> in order to generate bands of 
+    <labelingDescription>anterogradely labeled climbing 
+    fibers</labelingDescription> that could be compared with the 
+    mabQ113 + Purkinje cell distribution .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s106">Relatively large injection sites were employed that 
+    reliahly produce labeled bands of <labelingDescription>climbing 
+    fibers</labelingDescription> but that are largely unsuitable for 
+    determining the details of the topography .</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s107">Virtual injection sites were studied in neutral red 
+    counterstained sections and the distribution of peroxidase activity 
+    within the IOC was mapped onto the rat IOC schema of Gwyn et al. 
+    ( 77).</S>
+    <S avgH="21" class="results.body" format="TimesNewRomanPSMT"
+     id="s108">Injection sites for the animals described explicitly in 
+    the results are described below.</S>
+    <BR />
+
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s109">Case No . 22% <exptLabel>The center of the injection 
+    site in rat no . 227 is situated in <injectionLocation>the caudal 
+    portion of the right MAO</injectionLocation> </exptLabel> , about 
+    600 km from the caudal pole of the complex, where the dorsal cap ( 
+    dc ) separates from the main portion of the medial accessory olive 
+    ( MAO ) ( Fig . 6 ) .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s110">At around this level , the 
+    virtual injection site is very large and reaction product is found 
+    throughout the right side and most of the left side of the 10.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s111">Only <labelingLocation>the most lateral portion of the 
+    left MA0</labelingLocation> is completely 
+    <labelingDescription>devoid of TMB 
+    deposits</labelingDescription>.</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s112">The extent of the territory 
+    covered by reaction product narrows and becomes restricted to the 
+    more medial regions more rostrally , but it still 
+    <injectionLocation>covers parts of the right and left olives up to 
+    the most rostral extent of the principal olive ( PO ) 
+    </injectionLocation> at about 2,400 km from the caudal pole .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s113">Consistent with the large virtual injection site , the 
+    staining in <labelingLocation>the cerebellar 
+    cortex</labelingLocation> is <labelingDescription>extensive and 
+    bilateral</labelingDescription> , and reaction product is present 
+    throughout <labelingLocation>the whole dorsoventral extent of the 
+    cerebellum ( the vermis</labelingLocation> is illustrated ; see 
+    Figs . 8,9,10 ) .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s114">The hemicerebellum 
+    contralateral to the injection site is more completely and 
+    <labelingDescription>more heavily labeled</labelingDescription> 
+    than its ipsilateral counterpart .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s115">However 
+    , both sides still show regions where reaction product is 
+    <labelingDescription>scarce or absent</labelingDescription> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s116">For example , in <labelingLocation>the 
+    vermis</labelingLocation> a clearcut boundary in staining intensity 
+    is seen running rostrocaudally through <labelingLocation>all 
+    lobules</labelingLocation> .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s117">This boundary bisects the 
+    vermis and is presumed to be the anatomical midline on the basis of 
+    both its central position and its exact alignment with the raphe 
+    frequently seen medially in or between lobules VIII to X.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s118">Such a midline demarcation was consistently observed in 
+    all experimental animals ( except for animal no . 234, see below ) 
+    in which the virtual injection site spanned the rnidline .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s119">In<labelingLocation> the vermis</labelingLocation> of 
+    case no . 227, there is a band that is 
+    <labelingDescription>strongly labeled by anterograde 
+    transport</labelingDescription> , located adjacent to the midline 
+    on the right side , extending from lobule I11 to 
+    <labelingLocation>the rostral face of lobules VI - 
+    VII</labelingLocation> .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s120">Several less complete 
+    parasagittal vermal bands, positive and negative, are also seen on 
+    this same section.</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s121">In the hemispheres , there 
+    are also several bands or patches of various extents , seen either 
+    as negative zones within an <tracerChemical>HRP</tracerChemical> - 
+    reactive background or as <labelingDescription>anterograde labeled 
+    climbing fibers</labelingDescription> in an otherwise unreactive 
+    molecular layer .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s122">Ipsilateral (right) to the 
+    injection site, <labelingLocation>the most lateral portions of crus 
+    1 and crus 2</labelingLocation> are <labelingDescription>devoid of 
+    reaction product</labelingDescription>.</S></TTE>
+
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s123">Case no. 228.</S>
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s124"><exptLabel>The center of the injection site in animal 
+    no. 228 is situated at <injectionLocation>about 1,100 pm from the 
+    caudal pole of the IOC</injectionLocation></exptLabel>.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s125">The virtual injection site is very large at this level 
+    and reaction product can be found in <injectionLocation>all the 
+    right olive</injectionLocation> , in <injectionLocation>the left 
+    MAO , and the medial fourth of the left DAO</injectionLocation> ( 
+    Fig . 6 ) .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s126">TMB deposits can be seen 
+    throughout <labelingLocation>the rostrocaudal extent of the right 
+    olive</labelingLocation> but become scarcer in 
+    <labelingLocation>the more lateral regions</labelingLocation> as 
+    one approaches the rostral limit of the complex .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s127">However 
+    , the presence of <labelingDescription>weakly labeled 
+    stretches</labelingDescription> of <labelingLocation>molecular 
+    layer in the left half of the cerebellum</labelingLocation> ( see 
+    Fig . 9B ) suggests that not all olivary cells froin the right 
+    olive have tansported the tracer .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s128">Caudally 
+    in <labelingLocation>the left olive</labelingLocation> , the 
+    staining is restricted to more medial regions and in 
+    <labelingLocation>the caudal one - fifth of the 
+    MAO</labelingLocation> , <labelingDescription>no reaction 
+    product</labelingDescription> is observed over 
+    <labelingLocation>subnucleus a</labelingLocation> .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT"
+     id="s129">Rostrally , reaction product is present in 
+    <labelingLocation>the medial fourth of the DAO , the medial half of 
+    the PO , and throughout the MAO</labelingLocation> .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s130">On 
+    horizontal sections , <labelingDescription>stained climbing 
+    fibers</labelingDescription> are seen over <labelingLocation>the 
+    whole dorsoventral extent of the cerebellum</labelingLocation> ; 
+    the staining is bilateral but more extensive in 
+    <labelingLocation>the left ( contralateral ) 
+    side</labelingLocation> .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s131">In <labelingLocation>the more 
+    dorsal regions</labelingLocation> , almost of <labelingLocation>the 
+    cerebellar cortex</labelingLocation> contains reaction product , 
+    but a few bands of relatively weaker intensity are visible on both 
+    sides .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s132">Additional weakly labeled 
+    zones appear more ventrally , especially in <labelingLocation>the 
+    anterior lobe</labelingLocation> , and 5 mm interaural ( Paxinos 
+    and Watson , &apos; 82 ) only parts of <labelingLocation>crus 
+    I1</labelingLocation> show staining in <labelingLocation>the right 
+    hemisphere</labelingLocation> .</S></TTE>
+
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s133">Case no. 234.</S>
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s134">In animal no . 234, <exptLabel>the injection site is 
+    centered in <injectionLocation>the rostral half of the right 
+    olive</injectionLocation></exptLabel> , at about 200 pm from the 
+    caudal pole of the complex ( Fig . 6 ) .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s135">Again , 
+    the virtual injection site is very large at this level and 
+    <labelingLocation>encompasses all of the right 
+    olive</labelingLocation> and most of the left one , with only 
+    <injectionSpread yesNo="0">the lateral half of the 
+    DAO</injectionSpread> completely free of TMB deposils .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s136">Although reaction product is scarcer toward the caudal 
+    pole , deposits are still found <injectionSpread>over all the right 
+    olive</injectionSpread> and <injectionSpread>most of the left 
+    one</injectionSpread> <labelingModifier>save</labelingModifier> 
+    <injectionSpread yesNo="0">the lateral DAO</injectionSpread> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s137">In <labelingLocation>the cerebellar 
+    cortex</labelingLocation> , the staining is bilateral and 
+    <labelingLocation>covers most of the dorsoventral extent of the 
+    cerebellum</labelingLocation> , but is much more extensive in 
+    <labelingLocation>the anterior lobe</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s138">Parasagittal bands of weak and strong reactivities are 
+    found in both sides (see Fig. 9C).</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT" id="s139">The 
+    staining is <labelingDescription>more 
+    extensive</labelingDescription> in <labelingLocation>the 
+    hemispheres ( especially the left one )</labelingLocation> than in 
+    <labelingLocation>the vermis</labelingLocation> .</S></TTE>
+
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s140">Case no. 274.</S>
+    <TTE><S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s141"><exptLabel>The center of the injection through 
+    <injectionLocation>the IOC</injectionLocation> of rat no . 274 is 
+    situated in <injectionLocation>the right 
+    PO</injectionLocation></exptLabel> , at the level in the frontal 
+    plane at which it reaches its maximum mediolateral extent , about 
+    2,000 pm from the caudal pole of the complex ( Fig . 7 ) .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s142">At this level , reaction product is also found in 
+    <labelingLocation>the MAO , the dorsomedial cell column ( dmcc ) , 
+    and the medial portion of the DAO</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s143">There is <labelingDescription>no reaction product in any 
+    subdivision</labelingDescription> of <labelingLocation>the left 
+    olive</labelingLocation> .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s144">In <labelingLocation>the 
+    molecular layer of the cerebellum</labelingLocation> , 
+    <labelingDescription>climbing fiber labeling</labelingDescription> 
+    is strictly contralateral to the injection site , and takes the 
+    form of patches or bands in <labelingLocation>crus 1 and crus 2 of 
+    the left hemisphere</labelingLocation> ( for illustrated details , 
+    see Fig . 13 ) .</S><S avgH="22" class="results.body"
+     format="TimesNewRomanPSMT" id="s145"><labelingDescription>The 
+    molecular layer labeling</labelingDescription> in 
+    <labelingLocation>the cerebellar cortex</labelingLocation> extends 
+    rostrocaudally over about 1,600 Fm .</S><S avgH="22"
+     class="results.body" format="TimesNewRomanPSMT"
+     id="s146"><labelingLocation>The vermis</labelingLocation> is 
+    <labelingDescription>unlabeled</labelingDescription>.</S></TTE>
+
+    <BR />
+
+    <S avgH="42" class="results.body" format="Arial-BoldMT" id="s147">
+    Case rw. 275.</S>
+    <TTE>
+
+      <S avgH="42" class="results.body" format="Arial-BoldMT" id="s148">
+      In animal no . 275, <exptLabel>the injection site is centered at 
+      the same rostrocaudal level as for animal no . 274 , that is , in 
+      <injectionLocation>the right 
+      olive</injectionLocation></exptLabel>  at about 2,000 pm from the 
+      caudal pole of the complex .</S>
+      <S avgH="42" class="results.body" format="Arial-BoldMT" id="s149">
+      However , the virtual injection site is larger in this case and 
+      encroaches into <injectionSpread>the left olive</injectionSpread> 
+      ( Fig . 5 ) .</S>
+      <S avgH="42" class="results.body" format="Arial-BoldMT" id="s150">
+      At this level , reaction product is found over most of the right 
+      olive with only the most lateral third of the DAO free of 
+      reaction product , and in <injectionLocation>the left 
+      olive</injectionLocation> covers <injectionLocation>most of the 
+      MAO , the dmcc , and a small medial portion of the 
+      PO</injectionLocation> .</S>
+      <S avgH="42" class="results.body" format="Arial-BoldMT" id="s151">
+      The reactive site becomes narrower caudally , and from about 
+      1,100 pm from the caudal pole no reaction product is found in any 
+      subdivision of the left olive .</S>
+      <S avgH="42" class="results.body" format="Arial-BoldMT" id="s152">
+      In <injectionSpread>the right olive</injectionSpread> , the 
+      virtual injection site becomes restricted to <injectionSpread>the 
+      lateral portion of the MA0 and medial portion of 
+      DAO</injectionSpread> in the caudal half of the complex .</S>
+      <S avgH="42" class="results.body" format="Arial-BoldMT" id="s153">
+      From about 600 pm from the caudal pole, the olive is free of 
+      reaction product.</S>
+      <S avgH="42" class="results.body" format="Arial-BoldMT" id="s154">
+      Rostrally , TMB deposits are found <injectionLocation>over most 
+      of the right olive</injectionLocation> and in 228 - A0 A</S>
+      <BR />
+
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s156">t.he MA0 and dmcc of the left olive.</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s157">In <labelingLocation>the cerebellar 
+      cortex</labelingLocation> , <labelingLocation>the 
+      vermis</labelingLocation> is <labelingDescription>almost devoid 
+      of reaction product and labeled climbing fiber bands or patches 
+      </labelingDescription>appear in <labelingLocation>the paravermal 
+      area</labelingLocation> and hemispheres on both sides ( see Fig . 
+      12 ) .</S>
+      <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+       id="s158">The staining is <labelingDescription>more 
+      intense</labelingDescription> on the left side and is mainly 
+      concentrated in <labelingLocation>crus I1 and paramedian 
+      lobules</labelingLocation> .</S>
+    </TTE>
+
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s159">Variations in the location and size of the injection 
+    sites are by far the most important contributor to interindividual 
+    differences when comparing the olivocerebellar banding pattern 
+    following tracer injections in the IOC.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s160">Clearly, however, the accuracy of comparisons of this 
+    kind is inherently limited in the absence of reproducible (or 
+    better, individualized) landmarks, especially at the level of the 
+    cerebellar cortex.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s161">Figure 9A - C shows the pattern of 
+    <labelingDescription>anterogradely labeled climbing 
+    fibers</labelingDescription> in horizontal sections from 
+    <labelingLocation>the posterior vermis ( lobules VIII - IX 
+    )</labelingLocation> of 3 different animals that had received 
+    <tracerChemical>WGA - HRP</tracerChemical> tracer injections in 
+    <labelingLocation>the IOC</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s162">In all 3, the virtual injection site included parts of 
+    both olives but is centered at a differcnt rostrocaudal level in 
+    the IOC (shown in Fig. 6).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s163">Correspondingly, <labelingDescription>the cortical 
+    staining</labelingDescription> is bilateral and takcs the form of 
+    parasagittal bands distributed about the midline.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s164">The extent of labeling in <labelingLocation>the 
+    molecular layer</labelingLocation> varies from case to case, with 
+    animal no. 234 (Fig. 9A) and animal no, 227 (Fig. 9C) being the 
+    least and most extensively labeled, respectively, and animal no. 
+    228 (Fig. 9B) being intermediate.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s165">Animal no. 227 received the most caudal injection in the 
+    IOC and animal no. 234 the most rostral one (Fig. 6).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s166">Thus , the anterograde labeling in the cerebellum 
+    supports previous results ( Eisenman &apos; 81, &apos; 84 ) showing 
+    that lobules VIII and IX receive climbing fibers arising mainly 
+    from the caudal half of the IOC .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s167">In animal no . 227, the almost complete staining of the 
+    contralateral vermis of lobules VIII and IX ( at the left in Fig . 
+    9 ) suggests that complete filling of the molecular layer will 
+    occur given a large enough injection in the corresponding olive 
+    .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s168">This is in accordance with several previous studies 
+    (Desclin, &apos;74; Courville and Faraco-Cantin, &apos;78; 
+    Armstrong et al., &apos;82; Blatt and Eisenman, &apos;85).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s169">Crossing the midline from left to right, in all 3 
+    animals there is first a weakly labeled zone and then a strongly 
+    labeled one, the latter at about 200-300 bm from the midline.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s170">Despite the similarities in the staining patterns, 
+    comparison with adjacent sections reacted for the mabQ113 antigen 
+    revealed that the strongly labeled ipsilateral zones do not 
+    correspond to the a0 same mabQl13 territory in all 3 cases: in 
+    animal no. 234 the labeled band is congruent with the right P 1 
+    territory ~ (this point is emphasized in Fig. 111, but in animals 
+    nos. 227 and 228, it corresponds to the P2+ territory (see also 
+    Fig. 10).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s171">This situation exemplifies thc fact that interindividual 
+    comparisons of olivocerebellar projection are difficult when based 
+    solely on planimetric data collected from <labelingLocation>the 
+    cerebellar cortex</labelingLocation> .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s172">For this reason, all subsequent cases shown in this 
+    paper concern comparisons of the anterograde pattern of 
+    olivocerebellar projection with the mabQl13 staining pattern 
+    between closely spaced sections (100 pn or less) taken from the 
+    same animal.</S>
+    <BR />
+
+    <S avgH="25" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s173">Comparison of 
+    olivocerebellar projection zones with</S>
+    <BR />
+
+    <S avgH="25" class="results.subtitle"
+     format="TimesNewRomanPS-BoldMT" id="s174">rnabQ113 
+    imrnunohistochernical compartmentalization</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s175">Given that all regions of the cerebellar cortex are 
+    innervated by climbing fibers derived from the IOCs ( Desclin , 
+    &apos; 74 ; Courville and Faraco - Cantin , &apos; 74 ; Blatt and 
+    Eisenman , &apos; 85 ) , differential accumulation of &apos; the 
+    anterograde tracer in two adjacent zones of the cerebellar cortex 
+    is interpreted as resulting from the differential uptake of tracer 
+    by the groups of olivary cells projecting to each cortical zone 
+    .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s176">This will occur when the projecting neurons in the olive 
+    are situated at unequal distances from the center of the injection 
+    site .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s177">Conversely, adjacent regions of the cerebellar cortex 
+    will accumulate similar levels of tracer if the olivary regions 
+    projecting to them are contiguous (or if the whole TOC is saturated 
+    with tracer).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s178">Consequently, adjacent zones of the cerebellar cortex 
+    displaying an abrupt change in the level of the tracer are 
+    interpreted as being innervated by noncontiguous olivary zones.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s179">However, no similar conclusions can be drawn about the 
+    relative locations of olivary groups projecting to similarly 
+    stained cortical regions.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s180">Therefore , when comparing the banding pattern resulting 
+    from an olivary injection of <tracerChemical>WGA - 
+    HRP</tracerChemical> with the banding pattern revealed 
+    immunocytochemically by mabQ113, the abrupt transitions observed in 
+    the tracer accumulation in <labelingLocation>the molecular layer of 
+    the cortex</labelingLocation> have been considered as indicative of 
+    the organization of the olivocerebellar projection , and this 
+    organization has been compared with the transition zones between 
+    mabQllS + and <labelingDescription>mabQ113Pur - kinje 
+    cells</labelingDescription> in <labelingLocation>the adjacent 
+    sections</labelingLocation> .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s181">Figure 10A , B shows adjacent horizontal sections of 
+    lobules VIII and IX of animal no . 227 revealed for 
+    <labelingDescription>either anterograde 
+    transport</labelingDescription> of <tracerChemical>WGA - 
+    HRP</tracerChemical> by using TMB ( Fig .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s182">lOAj, or for antigenic bands by using mabQll3 (Fig.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s183">IOB).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s184">Typically , for almost all boundaries between cortical 
+    regions containing high or low levels of the anterograde tracer ( 
+    arrowheads in Fig . lOA ) , a corresponding transition zone between 
+    mabQll3 - positive and mabQ113 - negative stretches of cerebellar 
+    cortex can be found ( arrowheads in Fig .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s185">IOB).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s186">The one consistent exception to this rule concerns the 
+    midline where the clear transition between high and low tracer 
+    accumulation passing from the contralateral to the ipsilateral 
+    cortex does not correlate with the boundary between a mabQ113+ and 
+    a mabQ113zone.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s187">This is consistent with the idea, noted above, that the 
+    (rnabQ113S) P1+ band that straddles the midline is in fact two 
+    contiguous mabQ113 + bands, one in each hemicerebellum.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s188">Starting in <labelingLocation>the 
+    cortex</labelingLocation> contralateral to the injection site ( 
+    left ) , at least two subtle transitions in the density of 
+    anterograde tracer in <labelingLocation>lobule 
+    VIII</labelingLocation> ( those between P1and P2 + , arrowheads ) 
+    have corresponding transitions in the mabQll3 staining pattern .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s189">On the side ipsilateral to the injection site ( right ) 
+    , the boundaries of high and low accumulation of anterograde tracer 
+    in <labelingLocation>lobules VIII</labelingLocation> and IX 
+    correspond to the boundaries of the P2 + band .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s190">Another example of concordance between the 
+    olivocerebellar and antigenic zonation in <labelingLocation>the 
+    vermis</labelingLocation> is shown in Figure 11A , B .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s191">Again, in this animal (234) the boundaries of 
+    olivocerebellar projection zones (Fig. 11A) correspond to the 
+    similarly situated boundaries between rnabQ113 +/mabQ113zones seen 
+    on a closely spaced section (Fig. 11B).</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s192">In this particular case, the anatomical midline is not 
+    highlighted by a clear edge in the density of anterogradely 
+    transported material, and the cortical zones that correspond to the 
+    P1 + bands have accumulated only low levels of tracer.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s193">On the left side of lobules VIII and IX , the zone of 
+    high tracer accumulation delineated by arrowheads corresponds to 
+    the territory of the P2 + band .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s194">On the right side , however , the cortical region 
+    showing dense accumulation of tracer neareast the midline 
+    corresponds to the territory of the P1band .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s195">Thus, as anticipated, parasagittal bands in the 
+    olivocerebellar projection can be situated in either a mabQ113 + or 
+    mabQll3 zone</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s196">.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s197">~ same correspondence between olivocerebellar and 
+    antigenic zones can also be demonstrated in the cerebellar 
+    hemispheres .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s198">Figure 12A-D shows parts of the hemispheres of animal 
+    no. 235 either contralateral (left panel) or ipsilateral (right 
+    panel) to the injection side.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s199">Tracer accumulation can be found in 
+    <labelingLocation>the two sides ( A and C )</labelingLocation> , 
+    but it is much stronger contralaterally .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s200">As in the vermis , most of the clear boundaries between 
+    labeled and unlabeled bands in the olivocerebellar projection 
+    correspond to boundaries between positive and negative mabQ113 
+    zones ( I3 and D ) .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s201">In A, the most lateral transition zone between high and 
+    low levels of tracer (extreme left) corresponds in B to the medial 
+    edge of P5b+.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s202">The more medial transition zone in the olivocerebellar 
+    projection pattern in A corresponds in a very precise manner to the 
+    lateral border of the P4a + band .</S>
+    <BR />
+
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s203">Finally , another transition boundary in the 
+    olivocerebellar projection , situated in the vermis ( extreme right 
+    of A ) , corresponds to the medial border of P4a + ( Fig . 12B ) 
+    .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s204">In panel C , the arrowheads delineate a band of 
+    <labelingDescription>dense anterograde 
+    labeling</labelingDescription> that is exactly congruent with the 
+    P5bi band marked by arrowheads in D .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s205">Finally , Figure 13 ( animal no . 234 ) provides a 
+    second example of the correspondence between olivocerebellar and 
+    antigenic zones in the hemispheres .</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s206">The three most rostra1 edges that are indicated by 
+    arrowheads in the olivocerebellar projection pattern in Figure 13A 
+    match the medial boundary of the P5b + band.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s207">The lower thin band of high tracer accumulation marked 
+    in Figure 13A corresponds to the location of the P5a + band in 
+    B.</S>
+    <S avgH="22" class="results.body" format="TimesNewRomanPSMT"
+     id="s208">Moreover, comparing the patterns of olivocerebellar 
+    projections in Figures 12A and 13A emphasizes that striking 
+    similarities are seen between hemispheres after similar anterograde 
+    tracer injections in the IOC.</S>
+  </Results>
+
+  <Discussion>
+
+    <S avgH="25" class="discussion.heading"
+     format="TimesNewRomanPS-BoldMT" id="s209">DISCUSSION</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s210">MabQ113 recognizes an intracellular epitope expressed in 
+    a subpopulation of Purkinje cells that are aligned in parasagittal 
+    bands in the cerebellar cortex (Hawkes et al., &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s211">The projection domains of various fiber afferents and 
+    the efferent Purkinje cell axons are also organized into 
+    parasagittally oriented zones in the cortex, so it is natural to 
+    ask how many organizational maps are represented in the 
+    cerebellum.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s212">Although the Purkinje cell axons are the sole efferent 
+    projection from the cerebellar cortex, there are multiple afferent 
+    pathways, falling into two classes based on their modes of 
+    termination: the climbing fibers synapsing directly on Purkinje 
+    cells and the mossy fibers that contact the Purkinje cells 
+    indirectly via the granule cells, Mossy fibers originate from very 
+    diverse regions of the brain (reviewed in Bloedel and Courville, 
+    &apos;81) and so bring in a wide variety of information to be 
+    processed; likewise the climbing fibers, although of homogenous 
+    origin, seem to convey information from different modalities to the 
+    cortex and these modalities can converge on relatively restricted 
+    regions of the cerebellar cortex, even if they come from widely 
+    different parts of the body (reviewed in Ito, &apos;84).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s213">Likewise, several studies with biochemical markers have 
+    concluded that multiple, overlapping zones are represented 
+    (Chan-Palay et al., &apos;81,82; Nilaver et al., &apos;82; Ingram 
+    et al., &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s214">In consequence, there is no a priori basis for a unique 
+    organizational map of the cerebellum, and the existence of one or 
+    many maps has to be assessed empirically.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s215">In particular, there are no studies in the rat that have 
+    delineated clearly a common plan for the mossy and climbing fiber 
+    afferents, or for afferents and the intrinsic molecular markers.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s216">This task is technically complex and the problem may be 
+    more easily addressed by using mabQ113 bands as a constant and 
+    reproducible reference set.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s217">We have started to answer this question by looking at 
+    the relationship between the topography of the climbing fiber 
+    projection and the topography of mabQ 113 expression.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s218">We believe that bands are seen in the olivocerebellar 
+    projection primarily because, although the projection is completely 
+    filled and all Purkinje cells receive climbing fiber input, the map 
+    is discontinuous so that adjacent regions of the IOC do not 
+    necessarily project to adjacent regions of the cerebellar 
+    cortex.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s219">For example, HRP-WGA tracer studies of the 
+    olivocerebellar projection to the uvula and pyramis of both the rat 
+    (Eisenman, &apos;81,&apos;84; Eisenman and Goracci, &apos;83) and 
+    cat (reviewed in Brodal and Kawamura, &apos;80) have shown that 
+    contiguous parasagittal bands in the cerebellar cortex can receive 
+    afferents from noncontiguous groups of olivary cells.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s220">In this study, we reported that the climbing fiber 
+    projection from the inferior olive and the expression of the 
+    mabQ113 epitope seem to respect a common compartmentation, This is 
+    supported by the following observations: both patterns are arranged 
+    into parasagitally organized bands or patches in the cerebellar 
+    cortex; the two patterns are reproducible (to demonstrate this for 
+    the climbing fiber projection pattern requires that similar 
+    injections of anterograde tracer are achieved, e.g., nos. 274,275 
+    in Fig, 12,13; there is a high level of concordance between the 
+    cortical localization of transition zones delineating discrete 
+    olivocerebellar projection territories and the location of 
+    transition zones between mabQ113 + and mabQ113 - cortical 
+    regions.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s221">It remains to be determined whether every cluster of 
+    mabQ113 -t and mabQll3 - Purkinje cells receives afferent input 
+    from an individual, specific subgroup of olivary cells; that is, 
+    are there finer subdivisions in the olivocerebellar plan than are 
+    suggested by mabQ113 immunocytochemistry?</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s222">This will be more easily addressed by combining mabQ113 
+    immunocytochemistry with the retrograde mapping of the 
+    olivocerebellar pathways.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s223">Even though bands in the olivocerebellar projection seem 
+    to be coupled to bands of mabQ113 + and mabQll3 - immunoreactive 
+    Purkinje cells, the situation with respect to other molecular 
+    markers remains unclear given the several claims of overlapping 
+    antigenic Purkinje cell categories (Chan-Palay et al. 
+    &apos;81,&apos;82; Nilaver et al., &apos;82; Ingram et al., 
+    &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s224">One possible explanation is that the expression of some 
+    molecular markers is related to the dynamic metabolic state of the 
+    cell rather than to its permanent phenotype, a situation that could 
+    presage a distinction between topographically defined cerebellar 
+    compartments and functional units.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s225">The one case in which the olivocerebellar topography and 
+    the mabQ113 +/ mabQ113 - boundaries do not correspond is at the 
+    midline, where the purely contralateral olivocerebellar projection 
+    splits the P1+ band.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s226">In this special case it seems more probable that P1+ is, 
+    in fact, two confluent mabQ113+ bands, one in each hemisphere, in 
+    which case the agreement between mabQ113 and anterograde transport 
+    seems to be complete.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s227">&quot;he purely ipsilateral corticonuclear projection 
+    and our observations of Purkinje cell axon fasciculation at the 
+    midline both support this assertion.</S>
+    <BR />
+
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s228">Although a common plan relates the expression of the 
+    mabQ113 epitope and the olivocerebellar projection, the possibility 
+    of a causal link between the two Purkinje cell immunological 
+    phenotypes and the climbing fiber zonation is still unclear.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s229">As already cited, it seems that all regions of the 
+    cerebellar cortex receive climbing fiber afferents and that the 
+    sole source of climbing fibers is the IOC.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s230">Moreover, our results show that the labeled patches of 
+    molecular layer obtained following injection of an anterograde 
+    tracer in the inferior olive can share boundaries with either a 
+    mabQ113+ of mabQll3zone.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s231">So it is clear that the pattern of positive and negative 
+    immunoreactive Purkinje cells is not caused by the presence or 
+    absence of climbing fibers innervating the cells composing these 
+    bands.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s232">Likewise, although the nature of the epitope recognized 
+    by mabQ113 is still poorly understood, its intracellular location 
+    (Hawkes et al., &apos;85) and late appearance during Purkinje cell 
+    development (Hawkes and Leclerc, &apos;85) make it an unlikely 
+    candidate as a cell recognition molecule for ingrowing climbing 
+    fibers during development.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s233">The possibility remains that there exist two different 
+    populations of climbing fibers, one projecting to mabQll3 + bands, 
+    the other to mabQ113 - bands.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s234">Marani et al. (&apos;77) have shown in the cat a 
+    differential staining pattern for acetylcholinesterase in the 
+    inferior olive and have suggested that this is in relation with the 
+    pattern of parasagittally oriented bands of Ache staining seen in 
+    the cerebellar cortex of kittens (Ramon-Moliner, &apos;72; Marani 
+    and Voogd, &apos;77; Marani, &apos;82) and adult cats (Brown and 
+    Graybiel, &apos;83).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s235">Both anatomical (Sotelo et al., &apos;74) and 
+    physiological Glinas et al., &apos;74) studies have shown 
+    electrotonical coupling between cells of the IOC.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s236">Simultaneous recording from multiple Purkinje cells in 
+    the cerebellar cortex reveals spontaneous synchrony of complex 
+    spikes in rostrocaudal stretches (Bower and Llinris, &apos;83; 
+    Sasaki and Llinas, &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s237">Administration of picrotoxin leads to the mediolateral 
+    spread of the synchrony, which suggests that 
+    gamma-aminobutyric-acid (GABA)-mediated inhibition can modulate 
+    electrotonic coupling between precise sets of IOC cells projecting 
+    to distinct parasagittal zones (Sasaki and Llinas, &apos;85).</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s238">Recently, Sotelo et al. (&apos;86) have provided an 
+    anatomical substrate for the modulatory role of GABA inhibition in 
+    the spatial organization of olivary firing.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s239">These &quot;physiological subpopulations&quot; of IOC 
+    cells may correspond to the &quot;topographical 
+    subpopulations&quot; implicit in our results.</S>
+    <S avgH="22" class="discussion.body" format="TimesNewRomanPSMT"
+     id="s240">It remains to be determined whether the expression of 
+    the mabQ113 antigen is sustained or induced by climbing fibers or 
+    other afferent cues, or if the mabQ113 phenotype is intrinsic to 
+    two different populations of Purkinje cells.</S>
+  </Discussion>
+
+  <Acknowledgements>
+
+    <S avgH="26" class="acknowledgements.heading"
+     format="TimesNewRomanPS-BoldMT" id="s241">ACKNOWLEDGMENTS</S>
+    <BR />
+
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s242">We wish to thank Helene 
+    Boettcher, Jamel Rafrafi, and Line Thivierge for their technical 
+    assistance.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s243">This work was supported by 
+    grants from the Medical Research Council of Canada (R.H.), P.H.S. 
+    grants NS 16531 (L.M.E., R.H.)</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s244">and NS 22093 (L.M.E.), and by 
+    a studentship from the F.R.S.Q.</S>
+    <S avgH="22" class="acknowledgements.body"
+     format="TimesNewRomanPSMT" id="s245">(C.G.).</S>
+  </Acknowledgements>
+
+  <References>
+
+    <S avgH="26" class="references.heading"
+     format="TimesNewRomanPS-BoldMT" id="s246">LITERATURE CITED</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s247">Armstrong, D.M., R.J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s248">Harvey, and R.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s249">Schild (1974) Topographical localization in the 
+    olivocerebellar projection: an electrophysiological study in the 
+    cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s250">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s251">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s252">Neurol. 154:287-302.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s253">Armstrong, D.M., N.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s254">Campbell, S.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s255">Edgley, R.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s256">Schild, and J.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s257">Trott (1982) Investigations of the olivocerebellar and 
+    spino-olivary pathways.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s258">In S.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s259">Palay and V.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s260">Chan~Palay (eds): The Cerebellum-New Vistas.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s261">Berlin: Springer-Verlag, pp, 195-232.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s262">Beyerl, B.D., L.F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s263">Borges, B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s264">Swearingen, and R.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s265">Sidman (1982) Parasagittal organization of&apos;the 
+    olivocerebellar projection in the mouse.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s266">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s267">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s268">Neural. 209:339-346.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s269">Blatt, G.J., and L.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s270">Eisenman (1985) Autoradiographic study of the 
+    oliuocerebellar projection in adult normal and weaver mutant 
+    mice.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s271">SOC.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s272">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s273">Abstr. 11:181.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s274">Bloedel, J.R., and J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s275">Courville (1981) Cerebellar afferent systems.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s276">In J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s277">Brookhart, V.R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s278">Mountcastle, and V.B.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s279">Brooks (eds): Handbook of Physiology.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s280">Betheada, MD: Am.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s281">Physiol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s282">SOC., 2:735-829.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s283">Bower, J., and R.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s284">Llinas (1983) Simultaneous sampling of the responses of 
+    multiple, closely adjacent, Purkin.je cells responding to climbing 
+    fiber activation.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s285">SOC.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s286">Neurosci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s287">Abstr. 9607.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s288">Brodal, A. (1976) The olivwrebellar projection in the 
+    cat as studied with the method of retrograde axonal transport of 
+    horseradish peroxidase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s289">IT.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s290">The projection to the uvula.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s291">J Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s292">Neurol. 166417-426.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s293">Brodal, A. (1980) Olivocerebellocortical projection in 
+    the cat as determined with the method of retrograde axonal 
+    transport of horseradish peroxidase 2.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s294">Topographical pattern in relation to the longitudinal 
+    subdivision of the cerebellum.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s295">In J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s296">Comville, C. de Montigny, and Y.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s297">Lamarre (eds): The Inferior Olivary Nucleus: Anatomy and 
+    Physiology.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s298">New York Raven Press, pp. 187-205.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s299">Brodal, A., and K.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s300">Kawamura (1980) Olivocerebellar Adv.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s301">Anat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s302">Embryol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s303">Cell Rid. 64:l-140.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s304">Brodal, A,, F.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s305">Walberg, and G.H.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s306">Hoddevik, G.H. (1975) The olivocerebellar projection in 
+    the cat as studied with the method of retrograde axonal transport 
+    of horseradish peroxidase I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s307">The projection to the paramedian lobule.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s308">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s309">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s310">Neurol. 164:449-470.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s311">Brown, B.L., and A.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s312">Graybiel (1983) Zonal organization vermis of the cat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s313">Anat.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s314">Rec. 205:25A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s315">Campbell, N.C., and D.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s316">Armstrong (1983) The olivocerebellar projection in the 
+    rat: An autoradiographic study.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s317">Brain Res. 275215-233.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s318">Chambers, W.W., and J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s319">Sprague (1955a) A functional localization in the 
+    cerebellum: I.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s320">Organization in longitudinal cortico-nuclear zones and 
+    their contribution to the control of posture, both extrapyramidal 
+    and pyramidal.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s321">J.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s322">Comp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s323">Neurol. 103:105-130.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s324">Chambers, W.W., and J.M.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s325">Sprague 11955b) Functional localization in the 
+    cerebellum: IT.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s326">Somatotopic organization in cortex and nuclei.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s327">Arch.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s328">Neurol.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s329">Psychiat. 74:653-680.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s330">Chan-Palay, V., S.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s331">Palay, and J-Y Wu. (1982) Sagittal cerebellar microbands 
+    of taurine neurons: Immunocytochemical demonstration by using 
+    antibodies against the taurine synthesizing enzyme cysteine 
+    sulfinic acid decarboxylase.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s332">Proc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s333">Natl.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s334">Acad.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s335">Sci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s336">U.S.A. 79:4221-4225.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s337">Chan-Palay, V., S.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s338">Palay, J.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s339">Brown, and C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s340">Van Itallie (1977) Sagittal organization of 
+    olivocerebellar and reticulocerebellar projections: 
+    Autoradiographic studies with 35s-methionine.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s341">Exp.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s342">Brain Res. 30:561-576.</S>
+    <BR />
+
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s343">Chan-Palay, V., G.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s344">Nilaver, S.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s345">Palay, M.C.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s346">Beinfeld, E.A.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s347">Zimmerman, JY.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s348">Wu, and T.L.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s349">O Donohue (1981) Chemical heterogeneity in cerebellar 
+    Purkinje cells: Existence and co-existence of glutamic acid 
+    decarboxylase~like and motilin-like immunoreactivities.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s350">Proc.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s351">Natl.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s352">Acad.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s353">Sci.</S>
+    <S avgH="17" class="references.body" format="TimesNewRomanPSMT"
+     id="s354">U.S.A. 787787-7791.</S>
+    <BR />
+
+  </References>
+
+</File>
+

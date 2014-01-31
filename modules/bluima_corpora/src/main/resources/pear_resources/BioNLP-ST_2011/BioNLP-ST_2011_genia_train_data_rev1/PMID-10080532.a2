@@ -1,0 +1,92 @@
+*	Equiv T15 T16
+*	Equiv T2 T3
+*	Equiv T7 T6
+*	Equiv T10 T9
+*	Equiv T4 T5
+T38	Positive_regulation 173 179	induce
+T39	Gene_expression 180 190	expression
+T40	Negative_regulation 451 458	inhibit
+T41	Positive_regulation 459 468	induction
+T42	Positive_regulation 540 547	mediate
+T43	Negative_regulation 893 903	inhibiting
+T44	Entity 904 912	tyrosine
+T45	Phosphorylation 913 928	phosphorylation
+T46	Entity 933 940	nuclear
+T47	Localization 941 954	translocation
+T48	Negative_regulation 1007 1014	inhibit
+T49	Positive_regulation 1026 1033	induced
+T50	Negative_regulation 1162 1172	Inhibition
+T51	Negative_regulation 1318 1325	blocked
+T52	Positive_regulation 1357 1368	requirement
+T53	Negative_regulation 1583 1594	suppressing
+T54	Positive_regulation 1595 1605	activation
+T55	Positive_regulation 1648 1658	activation
+T56	Negative_regulation 1763 1770	inhibit
+E1	Positive_regulation:T38 Theme:E9 Cause:T4
+E2	Positive_regulation:T38 Theme:E8 Cause:T2
+E3	Positive_regulation:T38 Theme:E8 Cause:T4
+E4	Positive_regulation:T38 Theme:E7 Cause:T2
+E5	Positive_regulation:T38 Theme:E9 Cause:T2
+E6	Positive_regulation:T38 Theme:E7 Cause:T4
+E7	Gene_expression:T39 Theme:T10
+E8	Gene_expression:T39 Theme:T7
+E9	Gene_expression:T39 Theme:T8
+E10	Negative_regulation:T40 Theme:E31
+E11	Negative_regulation:T40 Theme:E30 Cause:T12
+E12	Negative_regulation:T40 Theme:E28 Cause:T12
+E13	Negative_regulation:T40 Theme:E32 Cause:T11
+E14	Negative_regulation:T40 Theme:E33 Cause:T11
+E15	Negative_regulation:T40 Theme:E31 Cause:T11
+E16	Negative_regulation:T40 Theme:E32 Cause:T12
+E17	Negative_regulation:T40 Theme:E30
+E18	Negative_regulation:T40 Theme:E29 Cause:T11
+E19	Negative_regulation:T40 Theme:E29
+E20	Negative_regulation:T40 Theme:E32
+E21	Negative_regulation:T40 Theme:E28
+E22	Negative_regulation:T40 Theme:E28 Cause:T11
+E23	Negative_regulation:T40 Theme:E33 Cause:T12
+E24	Negative_regulation:T40 Theme:E33
+E25	Negative_regulation:T40 Theme:E31 Cause:T12
+E26	Negative_regulation:T40 Theme:E30 Cause:T11
+E27	Negative_regulation:T40 Theme:E29 Cause:T12
+E28	Positive_regulation:T41 Theme:T7 Cause:T13
+E29	Positive_regulation:T41 Theme:T8 Cause:T14
+E30	Positive_regulation:T41 Theme:T10 Cause:T14
+E31	Positive_regulation:T41 Theme:T7 Cause:T14
+E32	Positive_regulation:T41 Theme:T8 Cause:T13
+E33	Positive_regulation:T41 Theme:T10 Cause:T13
+E34	Positive_regulation:T42 Theme:E14
+E35	Positive_regulation:T42 Theme:E10
+E36	Positive_regulation:T42 Theme:E15
+E37	Positive_regulation:T42 Theme:E12
+E38	Positive_regulation:T42 Theme:E16
+E39	Positive_regulation:T42 Theme:E11
+E40	Positive_regulation:T42 Theme:E13
+E41	Positive_regulation:T42 Theme:E17
+E42	Positive_regulation:T42 Theme:E20
+E43	Positive_regulation:T42 Theme:E21
+E44	Positive_regulation:T42 Theme:E27
+E45	Positive_regulation:T42 Theme:E24
+E46	Positive_regulation:T42 Theme:E26
+E47	Positive_regulation:T42 Theme:E25
+E48	Positive_regulation:T42 Theme:E22
+E49	Positive_regulation:T42 Theme:E23
+E50	Positive_regulation:T42 Theme:E19
+E51	Positive_regulation:T42 Theme:E18
+E52	Negative_regulation:T43 Theme:E53
+E53	Phosphorylation:T45 Theme:T21 Site:T44
+E54	Localization:T47 Theme:T21 ToLoc:T46
+E55	Negative_regulation:T48 Theme:E57
+E56	Negative_regulation:T48 Theme:E58
+E57	Positive_regulation:T49 Theme:T24 Cause:T22
+E58	Positive_regulation:T49 Theme:T24 Cause:T23
+E59	Negative_regulation:T50 Theme:T25
+E60	Negative_regulation:T51 Theme:E59
+E61	Positive_regulation:T52 Theme:E59
+E62	Negative_regulation:T53 Theme:E65
+E63	Negative_regulation:T53 Theme:E64
+E64	Positive_regulation:T54 Theme:T27 Cause:T28
+E65	Positive_regulation:T54 Theme:T27 Cause:T29
+E66	Positive_regulation:T55 Theme:T30
+E67	Negative_regulation:T56 Theme:T35 Cause:T33
+E68	Negative_regulation:T56 Theme:T35 Cause:T34

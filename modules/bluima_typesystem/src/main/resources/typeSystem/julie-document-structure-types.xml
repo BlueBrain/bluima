@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+  <name>julie-document-structure-types</name>
+  <description>The type system contains the types for the annotation of document sutructure.</description>
+  <version>2.1</version>
+  <vendor/>
+  <imports>
+    <import location="julie-basic-types.xml"/>
+  </imports>
+  <types>
+    <typeDescription>
+      <name>de.julielab.jules.types.Paragraph</name>
+      <description>A paragraph is a self-contained unit of discourse in a written text dealing with a particular point or idea.</description>
+      <supertypeName>de.julielab.jules.types.Zone</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Section</name>
+      <description>a section is a part of the text that often has a heading, an id, a section type, figures, tables, citations and footnotes that occur in this section</description>
+      <supertypeName>de.julielab.jules.types.Zone</supertypeName>
+      <features>
+        <featureDescription>
+          <name>sectionHeading</name>
+          <description>the title of the section</description>
+          <rangeTypeName>de.julielab.jules.types.Title</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>sectionType</name>
+          <description>the type of the section (e.g. results)</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>textObjects</name>
+          <description>the text objects (figure, table, boxed text etc.) that are associated with a particular section</description>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>de.julielab.jules.types.TextObject</elementType>
+          <multipleReferencesAllowed>true</multipleReferencesAllowed>
+        </featureDescription>
+        <featureDescription>
+          <name>sectionId</name>
+          <description>the id of the section, for example as mentioned in the original file, or level of the section</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Zone</name>
+      <description>A Zone is a distinct division of text. It is an abstract Type and provides a parent type for sub-types which represent various kinds of text zones.</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Title</name>
+      <description>Title annotates titles covering various text units, including the whole paper, sections and subsections.</description>
+      <supertypeName>de.julielab.jules.types.Zone</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Caption</name>
+      <description>the caption of figures, tables etc.</description>
+      <supertypeName>de.julielab.jules.types.Zone</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.TextObject</name>
+      <description>Object, on our case, are annotations such as figures, tables, boxed text etc.</description>
+      <supertypeName>de.julielab.jules.types.Zone</supertypeName>
+      <features>
+        <featureDescription>
+          <name>objectType</name>
+          <description>such as figure, table, boxed-text etc.</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>objectId</name>
+          <description>the id of the object as found in the text</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>objectLabel</name>
+          <description>the label of an object</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>objectCaption</name>
+          <description>the caption that comes with the object</description>
+          <rangeTypeName>de.julielab.jules.types.Caption</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.AbstractText</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Style</name>
+      <description>Text-markup information (italic, bold etc.) on any (e.g. character) level. Allows to keep the original style markup of the text, several style types might be set to same (or overlapping) range, when different styles are set to the same text region.</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>styleName</name>
+          <description>the name of the style used.</description>
+          <rangeTypeName>de.julielab.jules.types.StyleName</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>encoding</name>
+          <description>the encoding used.</description>
+          <rangeTypeName>de.julielab.jules.types.Encoding</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.StyleName</name>
+      <description/>
+      <supertypeName>uima.cas.String</supertypeName>
+      <allowedValues>
+        <value>
+          <string>slanted</string>
+          <description/>
+        </value>
+        <value>
+          <string>italic</string>
+          <description/>
+        </value>
+        <value>
+          <string>bold</string>
+          <description/>
+        </value>
+        <value>
+          <string>underscore</string>
+          <description/>
+        </value>
+        <value>
+          <string>stricke-though</string>
+          <description/>
+        </value>
+      </allowedValues>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.Encoding</name>
+      <description>Encoding Information</description>
+      <supertypeName>uima.cas.String</supertypeName>
+      <allowedValues>
+        <value>
+          <string>UTF-8</string>
+          <description/>
+        </value>
+        <value>
+          <string>UTF-16</string>
+          <description/>
+        </value>
+      </allowedValues>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.List</name>
+      <description>used for annotation of lists</description>
+      <supertypeName>de.julielab.jules.types.Zone</supertypeName>
+      <features>
+        <featureDescription>
+          <name>itemList</name>
+          <description>contains items of the level 1. The items of the level 1 could contain further items of next level and so on in order to represent an iterative structure of list items.</description>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>de.julielab.jules.types.ListItem</elementType>
+          <multipleReferencesAllowed>true</multipleReferencesAllowed>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>de.julielab.jules.types.ListItem</name>
+      <description>item of a list</description>
+      <supertypeName>de.julielab.jules.types.Zone</supertypeName>
+      <features>
+        <featureDescription>
+          <name>itemList</name>
+          <description>items of the next level (sub-items)</description>
+          <rangeTypeName>uima.cas.FSArray</rangeTypeName>
+          <elementType>de.julielab.jules.types.ListItem</elementType>
+          <multipleReferencesAllowed>true</multipleReferencesAllowed>
+        </featureDescription>
+        <featureDescription>
+          <name>level</name>
+          <description>Level of indentation of the list item.</description>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+  </types>
+</typeSystemDescription>

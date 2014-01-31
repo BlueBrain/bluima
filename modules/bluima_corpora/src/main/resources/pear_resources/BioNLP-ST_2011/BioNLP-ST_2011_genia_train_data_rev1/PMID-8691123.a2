@@ -1,0 +1,14 @@
+T12	Positive_regulation 21 30	dependent
+T13	Positive_regulation 31 57	transcriptional activation
+T14	Gene_expression 197 206	expressed
+T15	Positive_regulation 231 240	activated
+T16	Positive_regulation 607 633	transcriptional activation
+T17	Positive_regulation 802 810	required
+T18	Gene_expression 834 844	expression
+E1	Positive_regulation:T12 Theme:E2
+E2	Positive_regulation:T13 Theme:T1 Cause:T2
+E3	Gene_expression:T14 Theme:T3
+E4	Positive_regulation:T15 Theme:E3
+E5	Positive_regulation:T16 Theme:T7
+E6	Positive_regulation:T17 Theme:E7
+E7	Gene_expression:T18 Theme:T9

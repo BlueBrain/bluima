@@ -1,0 +1,21 @@
+########################################################################################
+#
+# extract brain regions with BAMS
+#
+########################################################################################
+
+
+cr: TextArrayReader
+ input__java: new String[]{"All these two-photon microscopy are weird, they induce fear responses."}
+
+ae: SentenceAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz
+
+
+ae: TokenAnnotator
+ modelFile: $ROOT/modules/bluima_opennlp/src/main/resources/pear_resources/models/token/TokenizerGenia.bin.gz
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("brainregions/bams2013")
+
+ae: DeduplicatorAnnotator
+ annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.BrainRegionDictTerm"}

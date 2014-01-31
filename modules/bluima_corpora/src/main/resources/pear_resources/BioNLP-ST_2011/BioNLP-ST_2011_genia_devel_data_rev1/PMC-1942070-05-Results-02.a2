@@ -1,0 +1,10 @@
+T20	Gene_expression 524 537	re-expression
+T21	Gene_expression 941 954	re-expression
+T22	Negative_regulation 1614 1618	loss
+T23	Gene_expression 1629 1639	expression
+E1	Gene_expression:T20 Theme:T8
+E2	Gene_expression:T21 Theme:T13
+E3	Negative_regulation:T22 Theme:E4
+E5	Negative_regulation:T22 Theme:E6
+E4	Gene_expression:T23 Theme:T18
+E6	Gene_expression:T23 Theme:T19

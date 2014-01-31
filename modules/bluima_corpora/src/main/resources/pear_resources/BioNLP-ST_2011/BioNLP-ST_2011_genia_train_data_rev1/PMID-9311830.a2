@@ -1,0 +1,16 @@
+*	Equiv T16 T17
+T25	Gene_expression 528 538	Expression
+T26	Negative_regulation 1035 1044	inhibited
+T27	Positive_regulation 1071 1081	activation
+T28	Gene_expression 1468 1478	expression
+E1	Gene_expression:T25 Theme:T5
+E2	Negative_regulation:T26 Theme:E8 Cause:T13
+E3	Negative_regulation:T26 Theme:E9 Cause:T12
+E4	Negative_regulation:T26 Theme:E9 Cause:T13
+E5	Negative_regulation:T26 Theme:E8 Cause:T11
+E6	Negative_regulation:T26 Theme:E8 Cause:T12
+E7	Negative_regulation:T26 Theme:E9 Cause:T11
+E8	Positive_regulation:T27 Theme:T15
+E9	Positive_regulation:T27 Theme:T16
+E10	Gene_expression:T28 Theme:T21
+E11	Gene_expression:T28 Theme:T20

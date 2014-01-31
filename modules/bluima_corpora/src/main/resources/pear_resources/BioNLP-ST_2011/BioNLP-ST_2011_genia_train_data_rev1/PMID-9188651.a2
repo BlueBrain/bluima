@@ -1,0 +1,17 @@
+*	Equiv T4 T3
+T8	Positive_regulation 22 29	induces
+T9	Gene_expression 44 54	production
+T10	Positive_regulation 219 226	induced
+T11	Transcription 253 266	transcription
+T12	Positive_regulation 312 319	leading
+T13	Localization 328 337	secretion
+T14	Positive_regulation 695 704	resulting
+T15	Gene_expression 718 728	expression
+E1	Positive_regulation:T8 Theme:E2
+E2	Gene_expression:T9 Theme:T1
+E3	Positive_regulation:T10 Theme:E4
+E4	Transcription:T11 Theme:T4
+E5	Positive_regulation:T12 Theme:E6 Cause:E3
+E6	Localization:T13 Theme:T5
+E7	Positive_regulation:T14 Theme:E8
+E8	Gene_expression:T15 Theme:T7

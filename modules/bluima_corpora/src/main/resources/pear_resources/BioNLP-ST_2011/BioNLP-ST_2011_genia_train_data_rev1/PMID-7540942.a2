@@ -1,0 +1,16 @@
+*	Equiv T6 T5
+T14	Binding 0 13	Cross-linking
+T15	Gene_expression 149 158	expressed
+T16	Binding 321 334	cross-linking
+T17	Binding 497 510	cross-linking
+T18	Binding 650 663	cross-linking
+T19	Binding 752 764	interactions
+T20	Binding 1058 1070	interactions
+E1	Binding:T14 Theme:T1
+E2	Gene_expression:T15 Theme:T2
+E3	Binding:T16 Theme:T3 Theme2:T6
+E4	Binding:T16 Theme:T3
+E5	Binding:T17 Theme:T7
+E6	Binding:T18 Theme:T10
+E7	Binding:T19 Theme:T11 Theme2:T12
+E8	Binding:T20 Theme:T11 Theme2:T12

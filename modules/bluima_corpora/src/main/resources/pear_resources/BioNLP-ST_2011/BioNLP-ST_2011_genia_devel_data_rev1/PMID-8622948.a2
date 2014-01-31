@@ -1,0 +1,50 @@
+*	Equiv T12 T11
+*	Equiv T9 T8
+*	Equiv T18 T17
+*	Equiv T20 T19
+*	Equiv T22 T21
+T38	Negative_regulation 4 13	deficient
+T39	Negative_regulation 30 37	defects
+T40	Gene_expression 41 51	production
+T41	Negative_regulation 227 234	lacking
+T42	Negative_regulation 458 462	loss
+T43	Gene_expression 604 614	expression
+T44	Negative_regulation 1101 1106	lower
+T45	Positive_regulation 1382 1390	restores
+T46	Gene_expression 1391 1401	production
+T47	Gene_expression 1461 1471	expression
+T48	Positive_regulation 1602 1616	produce higher
+T49	Positive_regulation 1749 1757	required
+T50	Gene_expression 1779 1789	production
+E1	Negative_regulation:T38 Theme:T1
+E2	Negative_regulation:T39 Theme:E5
+E3	Negative_regulation:T39 Theme:E4
+E4	Gene_expression:T40 Theme:T2
+E5	Gene_expression:T40 Theme:T3
+E6	Negative_regulation:T41 Theme:T5
+E7	Negative_regulation:T42 Theme:T6
+E8	Gene_expression:T43 Theme:T10
+E9	Gene_expression:T43 Theme:T12
+E10	Gene_expression:T43 Theme:T9
+E11	Negative_regulation:T44 Theme:T18
+E12	Negative_regulation:T44 Theme:T20
+E13	Negative_regulation:T44 Theme:T15
+E14	Negative_regulation:T44 Theme:T22
+E15	Negative_regulation:T44 Theme:T16
+E16	Positive_regulation:T45 Theme:E23 Cause:T25
+E17	Positive_regulation:T45 Theme:E21 Cause:T25
+E18	Positive_regulation:T45 Theme:E25 Cause:T25
+E19	Positive_regulation:T45 Theme:E22 Cause:T25
+E20	Positive_regulation:T45 Theme:E24 Cause:T25
+E21	Gene_expression:T46 Theme:T28
+E22	Gene_expression:T46 Theme:T27
+E23	Gene_expression:T46 Theme:T29
+E24	Gene_expression:T47 Theme:T31
+E25	Gene_expression:T47 Theme:T30
+E26	Positive_regulation:T48 Theme:T34
+E27	Positive_regulation:T49 Theme:E30 Cause:T35
+E28	Positive_regulation:T49 Theme:E29 Cause:T35
+E29	Gene_expression:T50 Theme:T37
+E30	Gene_expression:T50 Theme:T36
+M1	Negation E18
+M2	Negation E20

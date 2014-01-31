@@ -1,0 +1,78 @@
+*	Equiv T7 T8
+T32	Positive_regulation 54 65	upregulates
+T33	Gene_expression 377 387	expression
+T34	Positive_regulation 473 482	induction
+T35	Positive_regulation 634 645	upregulated
+T36	Gene_expression 680 690	expression
+T37	Binding 904 911	binding
+T38	Entity 944 956	GAS elements
+T39	Positive_regulation 1007 1014	induced
+T40	Binding 1015 1022	binding
+T41	Positive_regulation 1191 1199	enhanced
+T42	Entity 1200 1208	tyrosine
+T43	Phosphorylation 1209 1224	phosphorylation
+T44	Positive_regulation 1275 1282	induced
+T45	Binding 1322 1329	binding
+E1	Positive_regulation:T32 Theme:T3
+E2	Positive_regulation:T32 Theme:T1
+E3	Positive_regulation:T32 Theme:T2
+E4	Gene_expression:T33 Theme:T6
+E5	Gene_expression:T33 Theme:T4
+E6	Gene_expression:T33 Theme:T5
+E7	Positive_regulation:T34 Theme:T4
+E8	Positive_regulation:T34 Theme:T6
+E9	Positive_regulation:T34 Theme:T5
+E10	Positive_regulation:T35 Theme:E14
+E11	Positive_regulation:T35 Theme:E13
+E12	Positive_regulation:T35 Theme:E15
+E13	Gene_expression:T36 Theme:T13
+E14	Gene_expression:T36 Theme:T12
+E15	Gene_expression:T36 Theme:T11
+E16	Binding:T37 Theme:T16 Site:T38
+E17	Binding:T37 Theme:T15 Site:T38
+E18	Binding:T37 Theme:T17 Site:T38
+E19	Positive_regulation:T39 Theme:E33
+E20	Positive_regulation:T39 Theme:E35
+E21	Positive_regulation:T39 Theme:E34
+E22	Positive_regulation:T39 Theme:E32
+E23	Positive_regulation:T39 Theme:E42
+E24	Positive_regulation:T39 Theme:E38
+E25	Positive_regulation:T39 Theme:E31
+E26	Positive_regulation:T39 Theme:E37
+E27	Positive_regulation:T39 Theme:E39
+E28	Positive_regulation:T39 Theme:E36
+E29	Positive_regulation:T39 Theme:E41
+E30	Positive_regulation:T39 Theme:E40
+E31	Binding:T40 Theme:T17 Theme2:T20 Site:T38
+E32	Binding:T40 Theme:T15 Theme2:T19 Site:T38
+E33	Binding:T40 Theme:T17 Theme2:T19 Site:T38
+E34	Binding:T40 Theme:T16 Theme2:T20 Site:T38
+E35	Binding:T40 Theme:T15 Theme2:T18 Site:T38
+E36	Binding:T40 Theme:T15 Theme2:T20 Site:T38
+E37	Binding:T40 Theme:T15 Site:T38
+E38	Binding:T40 Theme:T16 Site:T38
+E39	Binding:T40 Theme:T17 Theme2:T18 Site:T38
+E40	Binding:T40 Theme:T16 Theme2:T19 Site:T38
+E41	Binding:T40 Theme:T17 Site:T38
+E42	Binding:T40 Theme:T16 Theme2:T18 Site:T38
+E43	Positive_regulation:T41 Theme:E49
+E44	Positive_regulation:T41 Theme:E50
+E45	Positive_regulation:T41 Theme:E51
+E46	Positive_regulation:T41 Theme:E48
+E47	Positive_regulation:T41 Theme:E52
+E48	Phosphorylation:T43 Theme:T22 Site:T42
+E49	Phosphorylation:T43 Theme:T23 Site:T42
+E50	Phosphorylation:T43 Theme:T25 Site:T42
+E51	Phosphorylation:T43 Theme:T24 Site:T42
+E52	Phosphorylation:T43 Theme:T26 Site:T42
+E53	Positive_regulation:T44 Theme:E54
+E54	Binding:T45 Theme:T27
+M1	Speculation E4
+M2	Speculation E5
+M3	Speculation E6
+M4	Speculation E16
+M5	Speculation E17
+M6	Speculation E18
+M7	Negation E24
+M8	Negation E26
+M9	Negation E29

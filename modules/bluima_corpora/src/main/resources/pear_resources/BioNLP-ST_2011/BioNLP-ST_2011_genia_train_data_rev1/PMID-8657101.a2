@@ -1,0 +1,21 @@
+*	Equiv T4 T5
+T23	Binding 527 532	binds
+T24	Gene_expression 680 689	expressed
+T25	Gene_expression 784 793	expressed
+T26	Gene_expression 858 868	expression
+T27	Positive_regulation 873 880	induced
+T28	Gene_expression 920 927	express
+T29	Binding 944 951	binding
+T30	Gene_expression 1326 1340	cotransfection
+T31	Positive_regulation 1326 1340	cotransfection
+E1	Binding:T23 Theme:T9
+E2	Gene_expression:T24 Theme:T10
+E3	Gene_expression:T25 Theme:T11
+E4	Gene_expression:T26 Theme:T12
+E5	Positive_regulation:T27 Theme:E4 Cause:E3
+E6	Positive_regulation:T27 Theme:E4
+E7	Gene_expression:T28 Theme:T13
+E8	Binding:T29 Theme:T14
+E9	Gene_expression:T30 Theme:T17
+E10	Positive_regulation:T31 Theme:E9
+M1	Speculation E8

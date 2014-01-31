@@ -1,0 +1,2573 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<synonym>
+<token canonical="First trimester" ref_id="birnlex_7018">
+  <variant base="First trimester" />
+</token>
+<token canonical="Late prenatal" ref_id="birnlex_7017">
+  <variant base="late embryo" />
+  <variant base="Late prenatal" />
+</token>
+<token canonical="Middle prenatal" ref_id="birnlex_7016">
+  <variant base="middle embryo" />
+  <variant base="Middle prenatal" />
+</token>
+<token canonical="Early prenatal" ref_id="birnlex_7015">
+  <variant base="Early prenatal" />
+  <variant base="early embryo" />
+</token>
+<token canonical="Second trimester" ref_id="birnlex_7019">
+  <variant base="middle trimester" />
+  <variant base="Second trimester" />
+</token>
+<token canonical="Third trimester" ref_id="birnlex_7020">
+  <variant base="Third trimester" />
+</token>
+<token canonical="Tanner female sexual maturation stage" ref_id="birnlex_7132">
+  <variant base="Tanner female sexual maturation stage" />
+</token>
+<token canonical="Sexual maturation stage" ref_id="birnlex_7130">
+  <variant base="Sexual maturation stage" />
+</token>
+<token canonical="Tanner sexual maturation stage" ref_id="birnlex_7131">
+  <variant base="Tanner stage" />
+  <variant base="Tanner sexual maturation stage" />
+</token>
+<token canonical="Limulus polyphemus" ref_id="birnlex_7005">
+  <variant base="Limulus polyphemus" />
+</token>
+<token canonical="Limulus" ref_id="birnlex_7004">
+  <variant base="Limulus" />
+</token>
+<token canonical="Tytonidae" ref_id="birnlex_7007">
+  <variant base="Tytonidae" />
+</token>
+<token canonical="Strigiformes" ref_id="birnlex_7006">
+  <variant base="Strigiformes" />
+</token>
+<token canonical="Tyto alba" ref_id="birnlex_7009">
+  <variant base="Tyto alba" />
+</token>
+<token canonical="Tyto" ref_id="birnlex_7008">
+  <variant base="Tyto" />
+</token>
+<token canonical="Tanner male sexual maturation stage" ref_id="birnlex_7138">
+  <variant base="Tanner male sexual maturation stage" />
+</token>
+<token canonical="Chick Prenatal" ref_id="birnlex_7144">
+  <variant base="Chick Prenatal" />
+</token>
+<token canonical="Tyto alba pratincola" ref_id="birnlex_7010">
+  <variant base="Tyto alba pratincola" />
+</token>
+<token canonical="Early newborn" ref_id="birnlex_7011">
+  <variant base="Early newborn" />
+</token>
+<token canonical="Middle newborn" ref_id="birnlex_7012">
+  <variant base="Middle newborn" />
+</token>
+<token canonical="Late newborn" ref_id="birnlex_7013">
+  <variant base="Late newborn" />
+</token>
+<token canonical="Prenatal" ref_id="birnlex_7014">
+  <variant base="Prenatal" />
+  <variant base="embryo" />
+  <variant base="embryonic" />
+</token>
+<token canonical="Familial role" ref_id="birnlex_7385">
+  <variant base="Familial role" />
+</token>
+<token canonical="Father" ref_id="birnlex_7386">
+  <variant base="Father" />
+</token>
+<token canonical="Mother" ref_id="birnlex_7387">
+  <variant base="Mother" />
+</token>
+<token canonical="Sibling" ref_id="birnlex_7388">
+  <variant base="Sibling" />
+</token>
+<token canonical="B6.Cg-Tg(Nes-cre)1Kln/J" ref_id="nlx_organ_100802">
+  <variant base="B6.Cg-Tg(Nes-cre)1Kln/J" />
+</token>
+<token canonical="STOCK Htttm5Mem/J" ref_id="nlx_organ_100803">
+  <variant base="STOCK Htttm5Mem/J" />
+</token>
+<token canonical="B6CBA-Tg(HDexon1)62Gpb/3J" ref_id="nlx_organ_100804">
+  <variant base="B6CBA-Tg(HDexon1)62Gpb/3J" />
+</token>
+<token canonical="FVB-Tg(YAC128)53Hay/J" ref_id="nlx_organ_100801">
+  <variant base="FVB-Tg(YAC128)53Hay/J" />
+</token>
+<token canonical="Progeny" ref_id="birnlex_7390">
+  <variant base="child" />
+  <variant base="Progeny" />
+</token>
+<token canonical="Son" ref_id="birnlex_7391">
+  <variant base="Son" />
+</token>
+<token canonical="Twin brother" ref_id="birnlex_7394">
+  <variant base="Twin brother" />
+</token>
+<token canonical="Identical twin brother" ref_id="birnlex_7395">
+  <variant base="Identical twin brother" />
+</token>
+<token canonical="Daughter" ref_id="birnlex_7392">
+  <variant base="Daughter" />
+</token>
+<token canonical="Sister" ref_id="birnlex_7393">
+  <variant base="Sister" />
+</token>
+<token canonical="Twin sister" ref_id="birnlex_7398">
+  <variant base="Twin sister" />
+</token>
+<token canonical="Uterine half brother" ref_id="birnlex_7399">
+  <variant base="Uterine half brother" />
+</token>
+<token canonical="Fraternal twin brother" ref_id="birnlex_7396">
+  <variant base="Fraternal twin brother" />
+</token>
+<token canonical="Half brother" ref_id="birnlex_7397">
+  <variant base="Half brother" />
+</token>
+<token canonical="Limulidae" ref_id="birnlex_7003">
+  <variant base="Limulidae" />
+</token>
+<token canonical="Xiphosura" ref_id="birnlex_7002">
+  <variant base="Xiphosura" />
+</token>
+<token canonical="Merostomata" ref_id="birnlex_7001">
+  <variant base="Merostomata" />
+</token>
+<token canonical="Brother" ref_id="birnlex_7389">
+  <variant base="Brother" />
+</token>
+<token canonical="Chelicerata" ref_id="birnlex_7000">
+  <variant base="Chelicerata" />
+</token>
+<token canonical="Callianassidae" ref_id="birnlex_151">
+  <variant base="Callianassidae" />
+</token>
+<token canonical="129P1/ReJ" ref_id="birnlex_152">
+  <variant base="129P1/ReJ" />
+</token>
+<token canonical="Neognathae" ref_id="birnlex_150">
+  <variant base="Neognathae" />
+</token>
+<token canonical="Saguinus midas" ref_id="birnlex_155">
+  <variant base="Saguinus midas" />
+</token>
+<token canonical="Sophophora" ref_id="birnlex_156">
+  <variant base="Sophophora" />
+</token>
+<token canonical="Astacidea" ref_id="birnlex_153">
+  <variant base="Astacidea" />
+  <variant base="Astacura" />
+</token>
+<token canonical="Apis mellifera carnica" ref_id="birnlex_154">
+  <variant base="Apis mellifera carnica" />
+  <variant base="Apis mellifera carnica Pollmann, 1879" />
+</token>
+<token canonical="Galliformes" ref_id="birnlex_159">
+  <variant base="Galliformes" />
+</token>
+<token canonical="Saguinus niger" ref_id="birnlex_158">
+  <variant base="Saguinus midas niger" />
+  <variant base="Saguinus niger" />
+</token>
+<token canonical="Lepidoptera" ref_id="birnlex_157">
+  <variant base="Lepidoptera" />
+</token>
+<token canonical="Rat" ref_id="birnlex_160">
+  <variant base="Rat" />
+</token>
+<token canonical="Mus musculus musculus" ref_id="birnlex_161">
+  <variant base="Mus musculus hortulanus" />
+  <variant base="Mus musculus musculus" />
+</token>
+<token canonical="Callianassa" ref_id="birnlex_162">
+  <variant base="Callianassa" />
+</token>
+<token canonical="Nephropoidea" ref_id="birnlex_163">
+  <variant base="Nephropoidea" />
+</token>
+<token canonical="Amphiesmenoptera" ref_id="birnlex_164">
+  <variant base="Amphiesmenoptera" />
+</token>
+<token canonical="Glossata" ref_id="birnlex_165">
+  <variant base="Glossata" />
+</token>
+<token canonical="Murinae" ref_id="birnlex_166">
+  <variant base="Murinae" />
+</token>
+<token canonical="Mouse" ref_id="birnlex_167">
+  <variant base="mouse" />
+  <variant base="house mouse" />
+  <variant base="Mus musculus" />
+  <variant base="Mouse" />
+</token>
+<token canonical="Nephropidae" ref_id="birnlex_169">
+  <variant base="Nephropidae" />
+  <variant base="Homaridae" />
+</token>
+<token canonical="Bay ghost shrimp" ref_id="birnlex_168">
+  <variant base="Bay ghost shrimp" />
+  <variant base="Callianassa californiensis" />
+</token>
+<token canonical="Palinuridae" ref_id="birnlex_133">
+  <variant base="Palinuridae" />
+</token>
+<token canonical="C3HeB/FeJ" ref_id="birnlex_134">
+  <variant base="C3HeB/FeJ" />
+</token>
+<token canonical="Invertebrate" ref_id="birnlex_131">
+  <variant base="Invertebrate" />
+</token>
+<token canonical="Eptesicus" ref_id="birnlex_132">
+  <variant base="Eptesicus" />
+</token>
+<token canonical="BXH" ref_id="birnlex_130">
+  <variant base="BXH" />
+</token>
+<token canonical="Callitrichinae" ref_id="birnlex_139">
+  <variant base="Callitrichinae" />
+  <variant base="Callitrichidae" />
+  <variant base="Callithricidae" />
+</token>
+<token canonical="Panulirus" ref_id="birnlex_138">
+  <variant base="Panulirus" />
+</token>
+<token canonical="Palinurus" ref_id="birnlex_137">
+  <variant base="Palinurus" />
+</token>
+<token canonical="big brown bat" ref_id="birnlex_136">
+  <variant base="big brown bat" />
+</token>
+<token canonical="Saimiri ustus" ref_id="birnlex_135">
+  <variant base="Saimiri ustus" />
+</token>
+<token canonical="Aves" ref_id="birnlex_142">
+  <variant base="bird" />
+  <variant base="Aves" />
+  <variant base="Avian" />
+</token>
+<token canonical="Callianassoidea" ref_id="birnlex_143">
+  <variant base="Callianassoidea" />
+</token>
+<token canonical="Common spiny lobster" ref_id="birnlex_144">
+  <variant base="Palinurus elephas" />
+  <variant base="Common spiny lobster" />
+</token>
+<token canonical="Caribbean spiny lobster" ref_id="birnlex_145">
+  <variant base="Caribbean spiny lobster" />
+</token>
+<token canonical="Drosophiliti" ref_id="birnlex_140">
+  <variant base="Drosophiliti" />
+</token>
+<token canonical="Phyllostomidae" ref_id="birnlex_141">
+  <variant base="Phyllostomatidae" />
+  <variant base="Phyllostomidae" />
+</token>
+<token canonical="Drosophila" ref_id="birnlex_147">
+  <variant base="Drosophila" />
+  <variant base="Drosophila Fallen, 1823" />
+</token>
+<token canonical="Saguinus" ref_id="birnlex_146">
+  <variant base="Saguinus" />
+</token>
+<token canonical="Carolliinae" ref_id="birnlex_149">
+  <variant base="Carolliinae" />
+</token>
+<token canonical="Saguinus midas midas" ref_id="birnlex_148">
+  <variant base="Saguinus midas midas" />
+</token>
+<token canonical="Medicinal leech" ref_id="birnlex_192">
+  <variant base="Medicinal leech" />
+</token>
+<token canonical="Pleocyemata" ref_id="birnlex_191">
+  <variant base="Pleocyemata" />
+</token>
+<token canonical="Bombycidae" ref_id="birnlex_190">
+  <variant base="Bombycidae" />
+</token>
+<token canonical="Bombyx" ref_id="birnlex_196">
+  <variant base="Bombyx" />
+</token>
+<token canonical="DBA/2HaSmnJ" ref_id="birnlex_195">
+  <variant base="DBA/2HaSmnJ" />
+</token>
+<token canonical="Pongo" ref_id="birnlex_194">
+  <variant base="Pongo" />
+</token>
+<token canonical="Teleostomi" ref_id="birnlex_193">
+  <variant base="Teleostomi" />
+</token>
+<token canonical="Eukaryota" ref_id="birnlex_399">
+  <variant base="Eucaryotae" />
+  <variant base="Eukaryota" />
+  <variant base="Eukarya" />
+  <variant base="eucaryotes" />
+</token>
+<token canonical="Pseudocoelomata" ref_id="birnlex_199">
+  <variant base="Pseudocoelomata" />
+</token>
+<token canonical="Palinura" ref_id="birnlex_198">
+  <variant base="Palinuridea" />
+  <variant base="Palinura" />
+</token>
+<token canonical="C57BL" ref_id="birnlex_197">
+  <variant base="C57BL" />
+</token>
+<token canonical="C57BL/6J" ref_id="birnlex_393">
+  <variant base="C57BL/6J" />
+  <variant base="C57BL6J" />
+</token>
+<token canonical="Amphibia" ref_id="birnlex_394">
+  <variant base="Amphibia" />
+</token>
+<token canonical="Callicebinae" ref_id="birnlex_391">
+  <variant base="Callicebinae" />
+</token>
+<token canonical="Callicebus" ref_id="birnlex_392">
+  <variant base="Callicebus" />
+</token>
+<token canonical="129P3/J" ref_id="birnlex_397">
+  <variant base="129P3/J" />
+</token>
+<token canonical="C57BL/6" ref_id="birnlex_398">
+  <variant base="C57BL/6" />
+</token>
+<token canonical="DBA/2J" ref_id="birnlex_395">
+  <variant base="DBA/2J" />
+</token>
+<token canonical="Brachyura" ref_id="birnlex_396">
+  <variant base="Brachyura" />
+  <variant base="true crabs" />
+</token>
+<token canonical="Cherax destructor" ref_id="birnlex_390">
+  <variant base="Cherax destructor" />
+</token>
+<token canonical="Organism" ref_id="birnlex_2">
+  <variant base="Organismal object" />
+  <variant base="Organism" />
+</token>
+<token canonical="Neolepidoptera" ref_id="birnlex_170">
+  <variant base="Neolepidoptera" />
+</token>
+<token canonical="Platyhelminthes" ref_id="birnlex_7199">
+  <variant base="Platyhelminthes" />
+</token>
+<token canonical="Acoelomata" ref_id="birnlex_7198">
+  <variant base="Acoelomata" />
+</token>
+<token canonical="Manduca" ref_id="birnlex_178">
+  <variant base="Manduca" />
+</token>
+<token canonical="Estrildidae" ref_id="birnlex_177">
+  <variant base="Estrildidae" />
+</token>
+<token canonical="Hirudiniformes" ref_id="birnlex_176">
+  <variant base="Hirudiniformes" />
+</token>
+<token canonical="Sphinginae" ref_id="birnlex_175">
+  <variant base="Sphinginae" />
+</token>
+<token canonical="129S6/SvEvTac" ref_id="birnlex_174">
+  <variant base="129S6/SvEvTac" />
+</token>
+<token canonical="Callianassa subterranea" ref_id="birnlex_173">
+  <variant base="Callianassa subterranea" />
+</token>
+<token canonical="Transgenic mouse strain" ref_id="birnlex_379">
+  <variant base="Transgenic mouse strain" />
+</token>
+<token canonical="Arhynchobdellida" ref_id="birnlex_172">
+  <variant base="Arhynchobdellae" />
+  <variant base="Arhynchobdelliformes" />
+  <variant base="Arhynchobdellida" />
+</token>
+<token canonical="Cambarus robustus" ref_id="birnlex_378">
+  <variant base="Cambarus robustus" />
+</token>
+<token canonical="Mus musculus domesticus" ref_id="birnlex_171">
+  <variant base="Mus domesticus" />
+  <variant base="Mus musculus domesticus" />
+</token>
+<token canonical="Feliformia" ref_id="birnlex_377">
+  <variant base="Feliformia" />
+</token>
+<token canonical="Aotus azarai" ref_id="birnlex_375">
+  <variant base="Aotus azarae" />
+  <variant base="Southern night monkey" />
+  <variant base="Aotus azarai" />
+</token>
+<token canonical="Organism" ref_id="birnlex_376">
+  <variant base="Organism" />
+</token>
+<token canonical="Cherax" ref_id="birnlex_373">
+  <variant base="Cherax" />
+</token>
+<token canonical="Hirudinida" ref_id="birnlex_374">
+  <variant base="Hirudinida" />
+</token>
+<token canonical="Loligo vulgaris" ref_id="birnlex_371">
+  <variant base="Loligo vulgaris vulgaris" />
+  <variant base="Loligo vulgaris" />
+</token>
+<token canonical="Parastacoidea" ref_id="birnlex_372">
+  <variant base="Parastacoidea" />
+</token>
+<token canonical="B6129SF1/Tac" ref_id="birnlex_179">
+  <variant base="B6129SF1/Tac" />
+  <variant base="B6129F1" />
+  <variant base="B6129" />
+</token>
+<token canonical="Gryllus" ref_id="birnlex_370">
+  <variant base="Gryllus" />
+</token>
+<token canonical="Hirudinidae" ref_id="birnlex_181">
+  <variant base="Hirudinidae" />
+</token>
+<token canonical="Bombycoidea" ref_id="birnlex_180">
+  <variant base="Bombycoidea" />
+</token>
+<token canonical="Peruvian guinea pig" ref_id="birnlex_187">
+  <variant base="Peruvian guinea pig" />
+  <variant base="Peruvian long-haired guinea pig" />
+</token>
+<token canonical="Hirudo" ref_id="birnlex_186">
+  <variant base="Hirudo" />
+</token>
+<token canonical="Inbred mouse strain" ref_id="birnlex_189">
+  <variant base="Inbred mouse strain" />
+</token>
+<token canonical="Euteleostomi" ref_id="birnlex_188">
+  <variant base="Euteleostomi" />
+</token>
+<token canonical="Manduca sexta" ref_id="birnlex_183">
+  <variant base="Manduca sexta" />
+</token>
+<token canonical="DBA/1J" ref_id="birnlex_389">
+  <variant base="DBA/1J" />
+</token>
+<token canonical="Sarcopterygii" ref_id="birnlex_182">
+  <variant base="Sarcopterygii" />
+</token>
+<token canonical="Mutant mouse strain" ref_id="birnlex_388">
+  <variant base="Mutant mouse strain" />
+  <variant base="Genetically-modified mouse" />
+</token>
+<token canonical="Decapoda" ref_id="birnlex_185">
+  <variant base="Decapoda" />
+</token>
+<token canonical="Bombyciformes" ref_id="birnlex_184">
+  <variant base="Bombyciformes" />
+</token>
+<token canonical="Cherax quadricarinatus" ref_id="birnlex_384">
+  <variant base="Cherax quadricarinatus" />
+</token>
+<token canonical="Pitheciidae" ref_id="birnlex_385">
+  <variant base="Pitheciidae" />
+</token>
+<token canonical="Long Evans Rat" ref_id="nlx_organ_20081201">
+  <variant base="Long Evans Rat" />
+</token>
+<token canonical="Callicebus moloch" ref_id="birnlex_386">
+  <variant base="Callicebus moloch" />
+</token>
+<token canonical="Tetrapoda" ref_id="birnlex_387">
+  <variant base="Tetrapoda" />
+</token>
+<token canonical="DBA" ref_id="birnlex_380">
+  <variant base="DBA" />
+</token>
+<token canonical="Parastacidae" ref_id="birnlex_381">
+  <variant base="Parastacidae" />
+</token>
+<token canonical="Gryllus rubens" ref_id="birnlex_382">
+  <variant base="Gryllus rubens" />
+</token>
+<token canonical="Hirudinea" ref_id="birnlex_383">
+  <variant base="Hirudinea" />
+</token>
+<token canonical="Arctia" ref_id="birnlex_563">
+  <variant base="Arctia" />
+</token>
+<token canonical="tiger moths" ref_id="birnlex_562">
+  <variant base="tiger moths" />
+</token>
+<token canonical="Metazoa" ref_id="birnlex_561">
+  <variant base="Animalia" />
+  <variant base="Metazoa" />
+</token>
+<token canonical="Opisthobranchia" ref_id="birnlex_560">
+  <variant base="Opisthobranchia" />
+</token>
+<token canonical="Aotus" ref_id="birnlex_365">
+  <variant base="Aotus" />
+  <variant base="owl monkey" />
+</token>
+<token canonical="Clitellata" ref_id="birnlex_364">
+  <variant base="Clitellata" />
+</token>
+<token canonical="Zebrafish" ref_id="birnlex_363">
+  <variant base="Danio foankei" />
+  <variant base="Brachydanio rerio" />
+  <variant base="Perilampus striatus" />
+  <variant base="Nuria rerio" />
+  <variant base="Zebrafish" />
+  <variant base="Striped danio" />
+  <variant base="Cyprinus chapalio" />
+  <variant base="Rerio" />
+  <variant base="Danio rerio" />
+  <variant base="Cyprinus rerio Hamilton" />
+  <variant base="Barilius rerio" />
+  <variant base="Danio lineatus" />
+  <variant base="Cyprinus rerio" />
+</token>
+<token canonical="California spiny lobster" ref_id="birnlex_362">
+  <variant base="California spiny lobster" />
+</token>
+<token canonical="Loligo opalescens" ref_id="birnlex_361">
+  <variant base="Loligo opalescens" />
+</token>
+<token canonical="Aotus trivirgatus" ref_id="birnlex_360">
+  <variant base="Aotus trivirgatus" />
+</token>
+<token canonical="Mutation Type" ref_id="birnlex_368">
+  <variant base="Mutation Type" />
+</token>
+<token canonical="Cambarus" ref_id="birnlex_369">
+  <variant base="Cambarus" />
+</token>
+<token canonical="lesser mouse-eared bat" ref_id="birnlex_366">
+  <variant base="lesser mouse-eared bat" />
+</token>
+<token canonical="Lepus" ref_id="birnlex_367">
+  <variant base="Lepus" />
+</token>
+<token canonical="A mouse strain" ref_id="birnlex_568">
+  <variant base="A mouse strain" />
+</token>
+<token canonical="Eumetazoa" ref_id="birnlex_569">
+  <variant base="Eumetazoa" />
+</token>
+<token canonical="Muscinae" ref_id="birnlex_566">
+  <variant base="Muscinae" />
+</token>
+<token canonical="Pagurus" ref_id="birnlex_567">
+  <variant base="Pagurus" />
+</token>
+<token canonical="Rhinolophus" ref_id="birnlex_564">
+  <variant base="Rhinolophus" />
+</token>
+<token canonical="Hexapoda" ref_id="birnlex_565">
+  <variant base="Hexapoda" />
+</token>
+<token canonical="Muscoidea" ref_id="birnlex_550">
+  <variant base="Muscoidea" />
+</token>
+<token canonical="Loligo pealei" ref_id="birnlex_552">
+  <variant base="Loligo pealei" />
+</token>
+<token canonical="Anaspidea" ref_id="birnlex_551">
+  <variant base="Anaspidea" />
+</token>
+<token canonical="Loligo forbesi" ref_id="birnlex_352">
+  <variant base="Loligo forbesi" />
+</token>
+<token canonical="Strain 13 guinea pig" ref_id="birnlex_351">
+  <variant base="Strain 13 guinea pig" />
+</token>
+<token canonical="Annelida" ref_id="birnlex_354">
+  <variant base="Annelida" />
+</token>
+<token canonical="Aotidae" ref_id="birnlex_353">
+  <variant base="Aotidae" />
+</token>
+<token canonical="Macaque adult" ref_id="birnlex_350">
+  <variant base="Macaque adult" />
+</token>
+<token canonical="Northern clearwater crayfish" ref_id="birnlex_359">
+  <variant base="Northern clearwater crayfish" />
+</token>
+<token canonical="noctule" ref_id="birnlex_355">
+  <variant base="noctule" />
+</token>
+<token canonical="Danio" ref_id="birnlex_356">
+  <variant base="Brachydanio" />
+  <variant base="Danio" />
+</token>
+<token canonical="Tarsius syrichta" ref_id="birnlex_357">
+  <variant base="Tarsius syrichta" />
+</token>
+<token canonical="Macaque elderly" ref_id="birnlex_358">
+  <variant base="Macaque elderly" />
+</token>
+<token canonical="129X1/SvJ" ref_id="birnlex_557">
+  <variant base="129X1/SvJ" />
+</token>
+<token canonical="Muscidae" ref_id="birnlex_558">
+  <variant base="Muscidae" />
+</token>
+<token canonical="Paguridae" ref_id="birnlex_559">
+  <variant base="Paguridae" />
+</token>
+<token canonical="Noctuoidea" ref_id="birnlex_553">
+  <variant base="Noctuoidea" />
+</token>
+<token canonical="Rhinolophinae" ref_id="birnlex_554">
+  <variant base="Rhinolophinae" />
+</token>
+<token canonical="Pancrustacea" ref_id="birnlex_555">
+  <variant base="Pancrustacea" />
+</token>
+<token canonical="Arctiinae" ref_id="birnlex_556">
+  <variant base="Arctiinae" />
+</token>
+<token canonical="Arthropoda" ref_id="birnlex_541">
+  <variant base="Arthropoda" />
+</token>
+<token canonical="Pipistrellus pygmaeus" ref_id="birnlex_540">
+  <variant base="Pipistrellus pygmaeus" />
+</token>
+<token canonical="Alouatta caraya" ref_id="birnlex_343">
+  <variant base="Alouatta caraya" />
+</token>
+<token canonical="Annelida/Echiura/Pogonophora group" ref_id="birnlex_342">
+  <variant base="Annelida/Echiura/Pogonophora group" />
+</token>
+<token canonical="Strain 2 guinea pig" ref_id="birnlex_341">
+  <variant base="Strain 2 guinea pig" />
+</token>
+<token canonical="Macaque juvenile" ref_id="birnlex_340">
+  <variant base="Macaque juvenile" />
+</token>
+<token canonical="Tarsius bancanus" ref_id="birnlex_346">
+  <variant base="Tarsius bancanus" />
+</token>
+<token canonical="Rasborinae" ref_id="birnlex_347">
+  <variant base="Rasborinae" />
+  <variant base="Danioninae" />
+</token>
+<token canonical="Cyprinoidea" ref_id="birnlex_344">
+  <variant base="Cyprinoidei" />
+  <variant base="Cyprinoidea" />
+</token>
+<token canonical="Nyctalus" ref_id="birnlex_345">
+  <variant base="Nyctalus" />
+</token>
+<token canonical="Drosophilina" ref_id="birnlex_348">
+  <variant base="Drosophilina" />
+</token>
+<token canonical="Monkey" ref_id="birnlex_349">
+  <variant base="Monkey" />
+</token>
+<token canonical="129T2/SvEms" ref_id="birnlex_544">
+  <variant base="129T2/SvEms" />
+</token>
+<token canonical="Rhinolophidae" ref_id="birnlex_545">
+  <variant base="Rhinolophidae" />
+</token>
+<token canonical="Calyptratae" ref_id="birnlex_542">
+  <variant base="Calyptratae" />
+</token>
+<token canonical="Cercopithecus nictitans" ref_id="birnlex_543">
+  <variant base="Cercopithecus nictitans" />
+</token>
+<token canonical="129T2/SvEmsJ" ref_id="birnlex_548">
+  <variant base="129T2/SvEmsJ" />
+</token>
+<token canonical="Caprinae" ref_id="birnlex_549">
+  <variant base="Caprinae" />
+</token>
+<token canonical="Azores noctule" ref_id="birnlex_546">
+  <variant base="Azores noctule" />
+</token>
+<token canonical="Mandibulata" ref_id="birnlex_547">
+  <variant base="Mandibulata" />
+</token>
+<token canonical="melanogaster subgroup" ref_id="birnlex_530">
+  <variant base="melanogaster subgroup" />
+</token>
+<token canonical="Tarsiidae" ref_id="birnlex_330">
+  <variant base="Tarsiidae" />
+</token>
+<token canonical="NIH multipurpose guinea pig" ref_id="birnlex_332">
+  <variant base="NIH multipurpose guinea pig" />
+</token>
+<token canonical="Drosophilinae" ref_id="birnlex_331">
+  <variant base="Drosophilinae" />
+</token>
+<token canonical="Gryllinae" ref_id="birnlex_333">
+  <variant base="Gryllinae" />
+</token>
+<token canonical="Bovidae" ref_id="birnlex_539">
+  <variant base="Bovidae" />
+</token>
+<token canonical="Protostomia" ref_id="birnlex_334">
+  <variant base="Protostomia" />
+</token>
+<token canonical="Phyllonycterinae" ref_id="birnlex_335">
+  <variant base="Phyllonycterinae" />
+</token>
+<token canonical="Cuban Flower Bat" ref_id="birnlex_336">
+  <variant base="Cuban Flower Bat" />
+</token>
+<token canonical="Cyprinidae" ref_id="birnlex_337">
+  <variant base="Cyprinidae" />
+</token>
+<token canonical="Tarsius" ref_id="birnlex_338">
+  <variant base="Tarsius" />
+</token>
+<token canonical="Drosophilini" ref_id="birnlex_339">
+  <variant base="Drosophilini" />
+</token>
+<token canonical="Bunopithecus" ref_id="birnlex_531">
+  <variant base="Bunopithecus" />
+</token>
+<token canonical="Rana pipiens" ref_id="birnlex_532">
+  <variant base="Rana pipiens" />
+</token>
+<token canonical="Hylobates" ref_id="birnlex_533">
+  <variant base="Hylobates" />
+</token>
+<token canonical="Protostomia" ref_id="birnlex_534">
+  <variant base="Protostomia" />
+</token>
+<token canonical="Drosophila melanogaster" ref_id="birnlex_535">
+  <variant base="Drosophila melanogaster" />
+</token>
+<token canonical="Pecora" ref_id="birnlex_536">
+  <variant base="Pecora" />
+</token>
+<token canonical="Bunopithecus hoolock" ref_id="birnlex_537">
+  <variant base="Bunopithecus hoolock" />
+  <variant base="Hylobates hoolock" />
+</token>
+<token canonical="Mesobatrachia" ref_id="birnlex_538">
+  <variant base="Mesobatrachia" />
+</token>
+<token canonical="Wistar" ref_id="birnlex_320">
+  <variant base="Wistar" />
+</token>
+<token canonical="greater bulldog bat" ref_id="birnlex_321">
+  <variant base="greater bulldog bat" />
+</token>
+<token canonical="Lentivirus" ref_id="nlx_organ_090808">
+  <variant base="Lentivirus" />
+</token>
+<token canonical="Brown capuchin" ref_id="birnlex_128">
+  <variant base="Brown capuchin" />
+</token>
+<token canonical="Guenon" ref_id="birnlex_129">
+  <variant base="Guenon" />
+</token>
+<token canonical="Virus" ref_id="nlx_organ_090806">
+  <variant base="Virus" />
+</token>
+<token canonical="Vespertilionidae" ref_id="birnlex_126">
+  <variant base="Vespertilionidae" />
+</token>
+<token canonical="Platyrrhini" ref_id="birnlex_127">
+  <variant base="Platyrrhini" />
+</token>
+<token canonical="S129D Alpha-Synuclein Drosophila" ref_id="nlx_organ_090804">
+  <variant base="S129D Alpha-Synuclein Drosophila" />
+</token>
+<token canonical="Recombinant inbred mouse strain" ref_id="birnlex_124">
+  <variant base="Recombinant inbred mouse strain" />
+</token>
+<token canonical="DJ-1 Mutant Drosophila" ref_id="nlx_organ_090805">
+  <variant base="DJ-1 Mutant Drosophila" />
+</token>
+<token canonical="B6CBACa Aw-J/A-Kcnj6wv/J" ref_id="birnlex_125">
+  <variant base="Mouse, Weaver" />
+  <variant base="B6CBACa Aw-J/A-Kcnj6wv/J" />
+  <variant base="Weaver Mice" />
+</token>
+<token canonical="Delta 71-82 Alpha-Synuclein Drosophila" ref_id="nlx_organ_090802">
+  <variant base="Delta 71-82 Alpha-Synuclein Drosophila" />
+</token>
+<token canonical="S129A Alpha-Synuclein Drosophila" ref_id="nlx_organ_090803">
+  <variant base="S129A Alpha-Synuclein Drosophila" />
+</token>
+<token canonical="1-120 Truncated Alpha-Synuclein Drosophila" ref_id="nlx_organ_090801">
+  <variant base="1-120 Truncated Alpha-Synuclein Drosophila" />
+</token>
+<token canonical="Saimiri" ref_id="birnlex_123">
+  <variant base="Saimiri" />
+</token>
+<token canonical="Macaque newborn" ref_id="birnlex_329">
+  <variant base="Macaque newborn" />
+</token>
+<token canonical="Papio hamadryas" ref_id="birnlex_122">
+  <variant base="Papio hamadryas" />
+  <variant base="Papio hamadryas subsp." />
+  <variant base="sacred baboon" />
+</token>
+<token canonical="Pacifastacus" ref_id="birnlex_328">
+  <variant base="Pacifastacus" />
+</token>
+<token canonical="Rattus" ref_id="birnlex_121">
+  <variant base="Rattus" />
+</token>
+<token canonical="Phyllonycteris" ref_id="birnlex_327">
+  <variant base="Phyllonycteris" />
+</token>
+<token canonical="Baboon" ref_id="birnlex_120">
+  <variant base="Baboon" />
+</token>
+<token canonical="Natterers bat" ref_id="birnlex_326">
+  <variant base="Natterers bat" />
+</token>
+<token canonical="Absynninian guinea pig" ref_id="birnlex_325">
+  <variant base="Absynninian guinea pig" />
+</token>
+<token canonical="Drosophilidae" ref_id="birnlex_324">
+  <variant base="Drosophilidae" />
+</token>
+<token canonical="Quail elderly" ref_id="birnlex_323">
+  <variant base="Quail elderly" />
+</token>
+<token canonical="Mouse-eared Bat" ref_id="birnlex_322">
+  <variant base="Mouse-eared Bat" />
+</token>
+<token canonical="BXD" ref_id="birnlex_117">
+  <variant base="BXD" />
+</token>
+<token canonical="Microchiroptera" ref_id="birnlex_118">
+  <variant base="Microchiroptera" />
+</token>
+<token canonical="Dictyoptera" ref_id="birnlex_119">
+  <variant base="Dictyoptera" />
+</token>
+<token canonical="Quail juvenile" ref_id="birnlex_310">
+  <variant base="Quail juvenile" />
+</token>
+<token canonical="Domestic cat" ref_id="birnlex_113">
+  <variant base="Felis silvestris catus" />
+  <variant base="Felis domesticus" />
+  <variant base="Domestic cat" />
+</token>
+<token canonical="Orthopteroidea" ref_id="birnlex_114">
+  <variant base="Orthopteroidea" />
+</token>
+<token canonical="Rattus rattus" ref_id="birnlex_115">
+  <variant base="Rattus rattus" />
+</token>
+<token canonical="Saimiriinae" ref_id="birnlex_116">
+  <variant base="Saimiriinae" />
+</token>
+<token canonical="Non-human vertebrate" ref_id="birnlex_593">
+  <variant base="Non-human vertebrate" />
+</token>
+<token canonical="Procambarus" ref_id="birnlex_594">
+  <variant base="Procambarus" />
+</token>
+<token canonical="Holacanthopterygii" ref_id="birnlex_595">
+  <variant base="Holacanthopterygii" />
+</token>
+<token canonical="Taeniopygia" ref_id="birnlex_596">
+  <variant base="Taeniopygia" />
+  <variant base="Taenopygia" />
+</token>
+<token canonical="Estrilda" ref_id="birnlex_590">
+  <variant base="Estrilda" />
+</token>
+<token canonical="TaxonRank" ref_id="birnlex_591">
+  <variant base="TaxonRank" />
+</token>
+<token canonical="A/WySnJ" ref_id="birnlex_592">
+  <variant base="A/WySnJ" />
+</token>
+<token canonical="Rhabditoidea" ref_id="birnlex_598">
+  <variant base="Rhabditoidea" />
+</token>
+<token canonical="BALB/cJ" ref_id="birnlex_597">
+  <variant base="BALB/cJ" />
+  <variant base="BALBcJ" />
+</token>
+<token canonical="Quail adult" ref_id="birnlex_319">
+  <variant base="Quail adult" />
+</token>
+<token canonical="CBA/J" ref_id="birnlex_599">
+  <variant base="CBA/J" />
+</token>
+<token canonical="Hominidae" ref_id="birnlex_110">
+  <variant base="Pongidae" />
+  <variant base="Hominidae" />
+</token>
+<token canonical="Quail newborn" ref_id="birnlex_316">
+  <variant base="Quail newborn" />
+</token>
+<token canonical="Myotis" ref_id="birnlex_315">
+  <variant base="Myotis" />
+</token>
+<token canonical="Bombyx mori" ref_id="birnlex_112">
+  <variant base="silk moth" />
+  <variant base="Bombyx mori" />
+</token>
+<token canonical="Gorilla" ref_id="birnlex_318">
+  <variant base="Gorilla" />
+</token>
+<token canonical="Felis" ref_id="birnlex_111">
+  <variant base="Felis" />
+</token>
+<token canonical="Ephydroidea" ref_id="birnlex_317">
+  <variant base="Ephydroidea" />
+</token>
+<token canonical="Sciurognathi" ref_id="birnlex_312">
+  <variant base="Sciurognathi" />
+</token>
+<token canonical="FVB" ref_id="birnlex_311">
+  <variant base="FVB" />
+</token>
+<token canonical="Topeka guinea pig" ref_id="birnlex_314">
+  <variant base="Topeka guinea pig" />
+</token>
+<token canonical="Uterine half sister" ref_id="birnlex_7399_2">
+  <variant base="Uterine half sister" />
+</token>
+<token canonical="Noctilio" ref_id="birnlex_313">
+  <variant base="Noctilio" />
+</token>
+<token canonical="129P3/JEmsJ" ref_id="birnlex_104">
+  <variant base="129P3/JEmsJ" />
+</token>
+<token canonical="Mouse juvenile" ref_id="birnlex_105">
+  <variant base="Mouse juvenile" />
+</token>
+<token canonical="Pipistrellus" ref_id="birnlex_102">
+  <variant base="Pipistrellus" />
+</token>
+<token canonical="Rhesus monkey" ref_id="birnlex_103">
+  <variant base="Rhesus monkey" />
+</token>
+<token canonical="Felinae" ref_id="birnlex_108">
+  <variant base="Felinae" />
+</token>
+<token canonical="129P4/RrRkJ" ref_id="birnlex_109">
+  <variant base="129P4/RrRkJ" />
+</token>
+<token canonical="129S1/SvImJ" ref_id="birnlex_106">
+  <variant base="129S1/SvImJ" />
+</token>
+<token canonical="Sphingidae" ref_id="birnlex_107">
+  <variant base="Sphingidae" />
+</token>
+<token canonical="Cebinae" ref_id="birnlex_580">
+  <variant base="Cebinae" />
+</token>
+<token canonical="A/HeJ" ref_id="birnlex_581">
+  <variant base="A/HeJ" />
+</token>
+<token canonical="Euacanthomorpha" ref_id="birnlex_584">
+  <variant base="Euacanthomorpha" />
+</token>
+<token canonical="Lobster" ref_id="birnlex_585">
+  <variant base="Lobster" />
+</token>
+<token canonical="Musca" ref_id="birnlex_582">
+  <variant base="Musca" />
+</token>
+<token canonical="Cambarinae" ref_id="birnlex_583">
+  <variant base="Cambarinae" />
+</token>
+<token canonical="Chordata" ref_id="birnlex_589">
+  <variant base="Chordata" />
+</token>
+<token canonical="Cebus" ref_id="birnlex_588">
+  <variant base="Cebus" />
+</token>
+<token canonical="Gorilla" ref_id="birnlex_309">
+  <variant base="Gorilla" />
+</token>
+<token canonical="Rhabditida" ref_id="birnlex_587">
+  <variant base="Rhabditida" />
+</token>
+<token canonical="Acalyptratae" ref_id="birnlex_308">
+  <variant base="Acalyptratae" />
+</token>
+<token canonical="Estrildinae" ref_id="birnlex_586">
+  <variant base="Estrildinae" />
+</token>
+<token canonical="Parnell's mustached bat" ref_id="birnlex_303">
+  <variant base="mustached bat" />
+  <variant base="Parnell's mustached bat" />
+</token>
+<token canonical="Muridae" ref_id="birnlex_302">
+  <variant base="Muridae" />
+</token>
+<token canonical="C3H" ref_id="birnlex_301">
+  <variant base="C3H" />
+</token>
+<token canonical="Chimpanzee" ref_id="birnlex_300">
+  <variant base="Chimpanzee" />
+</token>
+<token canonical="Felidae" ref_id="birnlex_101">
+  <variant base="Felidae" />
+</token>
+<token canonical="English guinea pig" ref_id="birnlex_307">
+  <variant base="English guinea pig" />
+  <variant base="English short-haired guinea pig" />
+</token>
+<token canonical="Pallid Bat" ref_id="birnlex_100">
+  <variant base="Pallid Bat" />
+</token>
+<token canonical="Dunkin Hartley guinea pig" ref_id="birnlex_306">
+  <variant base="Dunkin Hartley guinea pig" />
+  <variant base="Hartley guinea pig" />
+</token>
+<token canonical="Noctilionidae" ref_id="birnlex_305">
+  <variant base="Noctilionidae" />
+</token>
+<token canonical="Eucarida" ref_id="birnlex_304">
+  <variant base="Eucarida" />
+</token>
+<token canonical="Musca" ref_id="birnlex_570">
+  <variant base="Musca" />
+</token>
+<token canonical="Chromadorea" ref_id="birnlex_571">
+  <variant base="Adenophorea" />
+  <variant base="Chromadorea" />
+</token>
+<token canonical="Knock-out mouse strain" ref_id="birnlex_572">
+  <variant base="knock out mouse" />
+  <variant base="Knock-out mouse strain" />
+  <variant base="Knockout mouse strain" />
+</token>
+<token canonical="garden tiger moth" ref_id="birnlex_573">
+  <variant base="garden tiger moth" />
+</token>
+<token canonical="Cebidae" ref_id="birnlex_574">
+  <variant base="Cebidae" />
+</token>
+<token canonical="Gray hermit crab" ref_id="birnlex_576">
+  <variant base="Gray hermit crab" />
+</token>
+<token canonical="Muscini" ref_id="birnlex_575">
+  <variant base="Muscini" />
+</token>
+<token canonical="Nematoda" ref_id="birnlex_578">
+  <variant base="Nemata" />
+  <variant base="nematode" />
+  <variant base="nematodes" />
+  <variant base="Nematoda" />
+  <variant base="roundworm" />
+</token>
+<token canonical="A/J" ref_id="birnlex_577">
+  <variant base="A/J" />
+</token>
+<token canonical="little brown bat" ref_id="birnlex_579">
+  <variant base="little brown bat" />
+</token>
+<token canonical="Agnate half sister" ref_id="birnlex_7400_2">
+  <variant base="Consanguine half sister" />
+  <variant base="Agnate half sister" />
+</token>
+<token canonical="Coleoidea" ref_id="birnlex_525">
+  <variant base="Coleoidea" />
+</token>
+<token canonical="Cercopithecinae" ref_id="birnlex_524">
+  <variant base="Cercopithecinae" />
+</token>
+<token canonical="Panarthropoda" ref_id="birnlex_527">
+  <variant base="Panarthropoda" />
+</token>
+<token canonical="Laurasiarana" ref_id="birnlex_526">
+  <variant base="Laurasiarana" />
+</token>
+<token canonical="Takifugu" ref_id="birnlex_521">
+  <variant base="Takifugu" />
+  <variant base="Fugu" />
+</token>
+<token canonical="Rana" ref_id="birnlex_520">
+  <variant base="Rana" />
+</token>
+<token canonical="Artiodactyla" ref_id="birnlex_523">
+  <variant base="Artiodactyla" />
+</token>
+<token canonical="Otocephala" ref_id="birnlex_522">
+  <variant base="Otocephala" />
+</token>
+<token canonical="Hominoidea" ref_id="birnlex_529">
+  <variant base="Pongidae" />
+  <variant base="Hominoidea" />
+</token>
+<token canonical="Ruminantia" ref_id="birnlex_528">
+  <variant base="Ruminantia" />
+</token>
+<token canonical="Papio ursinus" ref_id="birnlex_7300">
+  <variant base="Papio hamadryas ursinus" />
+  <variant base="Papio ursinus" />
+</token>
+<token canonical="Human" ref_id="birnlex_516">
+  <variant base="Human" />
+</token>
+<token canonical="Clupeocephala" ref_id="birnlex_515">
+  <variant base="Clupeocephala" />
+</token>
+<token canonical="Tetraodontidae" ref_id="birnlex_514">
+  <variant base="Tetraodontidae" />
+</token>
+<token canonical="Ranidae" ref_id="birnlex_513">
+  <variant base="Raninae" />
+  <variant base="Ranidae" />
+</token>
+<token canonical="Cancridae" ref_id="birnlex_512">
+  <variant base="Cancridae" />
+</token>
+<token canonical="Hipposideros terasensis" ref_id="birnlex_511">
+  <variant base="Hipposideros terasensis" />
+</token>
+<token canonical="Carnivora" ref_id="birnlex_510">
+  <variant base="Carnivora" />
+</token>
+<token canonical="Cephalopods" ref_id="birnlex_519">
+  <variant base="Cephalopods" />
+</token>
+<token canonical="Mus" ref_id="birnlex_518">
+  <variant base="mice" />
+  <variant base="Nannomys" />
+  <variant base="Mus" />
+</token>
+<token canonical="Cetartiodactyla" ref_id="birnlex_517">
+  <variant base="Cetartiodactyla" />
+</token>
+<token canonical="DB1X" ref_id="birnlex_710">
+  <variant base="DB1X" />
+</token>
+<token canonical="Cancroidea" ref_id="birnlex_501">
+  <variant base="Cancroidea" />
+</token>
+<token canonical="Hipposideros" ref_id="birnlex_500">
+  <variant base="Hipposideros" />
+</token>
+<token canonical="Apocrita" ref_id="birnlex_503">
+  <variant base="Apocrita" />
+</token>
+<token canonical="Musca domestica" ref_id="birnlex_502">
+  <variant base="Musca domestica" />
+</token>
+<token canonical="Tetraodontiformes" ref_id="birnlex_505">
+  <variant base="Tetraodontiformes" />
+</token>
+<token canonical="Chicken elderly" ref_id="birnlex_504">
+  <variant base="Chicken elderly" />
+</token>
+<token canonical="SJL/J" ref_id="birnlex_507">
+  <variant base="SJL/J" />
+</token>
+<token canonical="Ranoidea" ref_id="birnlex_506">
+  <variant base="Ranoidea" />
+</token>
+<token canonical="Tetradontoidea" ref_id="birnlex_509">
+  <variant base="Tetradontoidea" />
+</token>
+<token canonical="Elopocephala" ref_id="birnlex_508">
+  <variant base="Elopocephala" />
+</token>
+<token canonical="Cercocebus torquatus" ref_id="birnlex_7302">
+  <variant base="Cercocebus torquatus" />
+</token>
+<token canonical="Cercocebus" ref_id="birnlex_7301">
+  <variant base="Cercocebus" />
+</token>
+<token canonical="Cantareus apertus" ref_id="birnlex_7303">
+  <variant base="Cantareus apertus" />
+</token>
+<token canonical="Tochuina" ref_id="birnlex_7269">
+  <variant base="Tochuina" />
+</token>
+<token canonical="Tritonia plebeia" ref_id="birnlex_7268">
+  <variant base="Tritonia plebeia" />
+</token>
+<token canonical="Dendronotus iris" ref_id="birnlex_7273">
+  <variant base="Dendronotus iris" />
+</token>
+<token canonical="Dendronotus dalli" ref_id="birnlex_7274">
+  <variant base="Dendronotus dalli" />
+</token>
+<token canonical="Dendronotus" ref_id="birnlex_7271">
+  <variant base="Dendronotus" />
+</token>
+<token canonical="Dendronotus frondosus" ref_id="birnlex_7272">
+  <variant base="Dendronotus frondosus" />
+</token>
+<token canonical="Euarminoidea" ref_id="birnlex_7277">
+  <variant base="Euarminoidea" />
+</token>
+<token canonical="Armina" ref_id="birnlex_7278">
+  <variant base="Armina" />
+</token>
+<token canonical="Arminina" ref_id="birnlex_7275">
+  <variant base="Arminina" />
+  <variant base="Arminacea" />
+</token>
+<token canonical="Arminidae" ref_id="birnlex_7276">
+  <variant base="Arminidae" />
+</token>
+<token canonical="Tochuina tetraquetra" ref_id="birnlex_7270">
+  <variant base="Tochuina tetraquetra" />
+</token>
+<token canonical="B6;D2-Tg(Thy-1-SNCA)61Ema" ref_id="birnlex_909">
+  <variant base="B6;D2-Tg(Thy-1-SNCA)61Ema" />
+</token>
+<token canonical="Armina californica" ref_id="birnlex_7279">
+  <variant base="Armina californica" />
+</token>
+<token canonical="Anadoridoidea" ref_id="birnlex_7282">
+  <variant base="Anadoridoidea" />
+</token>
+<token canonical="Triophidae" ref_id="birnlex_7283">
+  <variant base="Triophidae" />
+</token>
+<token canonical="Polyceridae" ref_id="birnlex_7284">
+  <variant base="Polyceridae" />
+  <variant base="Polyceratidae" />
+</token>
+<token canonical="Triopha" ref_id="birnlex_7285">
+  <variant base="Triopha" />
+</token>
+<token canonical="Triopha catalinae" ref_id="birnlex_7286">
+  <variant base="Triopha catalinae" />
+</token>
+<token canonical="Triopha maculata" ref_id="birnlex_7287">
+  <variant base="Triopha maculata" />
+</token>
+<token canonical="Armina lovenii" ref_id="birnlex_7280">
+  <variant base="Armina loveni" />
+  <variant base="Armina lovenii" />
+</token>
+<token canonical="Doridina" ref_id="birnlex_7281">
+  <variant base="Doridina" />
+</token>
+<token canonical="B6;D2-Tg(Thy-1-SNCA*A30P)44Ema" ref_id="birnlex_910">
+  <variant base="B6;D2-Tg(Thy-1-SNCA*A30P)44Ema" />
+</token>
+<token canonical="Limacoidea" ref_id="birnlex_7249">
+  <variant base="Limacoidea" />
+  <variant base="Limacacea" />
+</token>
+<token canonical="Hermissenda crassicornis" ref_id="birnlex_7248">
+  <variant base="Hermissenda crassicornis" />
+</token>
+<token canonical="Hermissenda" ref_id="birnlex_7247">
+  <variant base="Hermissenda" />
+</token>
+<token canonical="Facelinidae" ref_id="birnlex_7246">
+  <variant base="Facelinidae" />
+</token>
+<token canonical="Dendronotina" ref_id="birnlex_7255">
+  <variant base="Dendronotina" />
+  <variant base="Dendronotacea" />
+</token>
+<token canonical="Gerbillinae" ref_id="nlx_organ_20090401">
+  <variant base="Gerbillinae" />
+  <variant base="gerbils" />
+  <variant base="gerbil" />
+</token>
+<token canonical="Dendronotoidea" ref_id="birnlex_7256">
+  <variant base="Dendronotoidea" />
+</token>
+<token canonical="Limax marginatus" ref_id="birnlex_7253">
+  <variant base="Limax marginatus" />
+</token>
+<token canonical="Limax maximus" ref_id="birnlex_7254">
+  <variant base="Limax maximus" />
+</token>
+<token canonical="Limax" ref_id="birnlex_7251">
+  <variant base="Limax" />
+</token>
+<token canonical="Limax flavus" ref_id="birnlex_7252">
+  <variant base="Limax flavus" />
+</token>
+<token canonical="Limacidae" ref_id="birnlex_7250">
+  <variant base="Limacidae" />
+</token>
+<token canonical="Tethyidae" ref_id="birnlex_7258">
+  <variant base="Tethydidae" />
+  <variant base="Tethyidae" />
+</token>
+<token canonical="Dendronotidae" ref_id="birnlex_7257">
+  <variant base="Dendronotidae" />
+</token>
+<token canonical="Notaspidea" ref_id="birnlex_7259">
+  <variant base="Notaspidea" />
+</token>
+<token canonical="Tritoniidae" ref_id="birnlex_7264">
+  <variant base="Tritoniidae" />
+</token>
+<token canonical="Tritonia" ref_id="birnlex_7265">
+  <variant base="Tritonia" />
+</token>
+<token canonical="Tritonia diomedea" ref_id="birnlex_7266">
+  <variant base="Tritonia diomedea" />
+</token>
+<token canonical="Tritonia nilsodhneri" ref_id="birnlex_7267">
+  <variant base="Tritonia nilsodhneri" />
+</token>
+<token canonical="Pleurobranchoidea" ref_id="birnlex_7260">
+  <variant base="Pleurobranchoidea" />
+</token>
+<token canonical="Pleurobranchidae" ref_id="birnlex_7261">
+  <variant base="Pleurobranchidae" />
+</token>
+<token canonical="Pleurobranchaea" ref_id="birnlex_7262">
+  <variant base="Pleurobranchaea" />
+</token>
+<token canonical="Pleurobranchaea californica" ref_id="birnlex_7263">
+  <variant base="Pleurobranchaea californica" />
+</token>
+<token canonical="Lymnaea stagnalis" ref_id="birnlex_7226">
+  <variant base="Lymnaea stagnalis" />
+</token>
+<token canonical="Gymnosomata" ref_id="birnlex_7227">
+  <variant base="Gymnosomata" />
+</token>
+<token canonical="Lymnaeidae" ref_id="birnlex_7224">
+  <variant base="Lymnaeidae" />
+</token>
+<token canonical="Lymnaea" ref_id="birnlex_7225">
+  <variant base="Lymnaea" />
+</token>
+<token canonical="Clionidae" ref_id="birnlex_7228">
+  <variant base="Clionidae" />
+</token>
+<token canonical="Clione" ref_id="birnlex_7229">
+  <variant base="Clione" />
+</token>
+<token canonical="Clione limacina" ref_id="birnlex_7230">
+  <variant base="Clione limacina" />
+</token>
+<token canonical="Helisoma duryi" ref_id="birnlex_7234">
+  <variant base="Helisoma duryi" />
+</token>
+<token canonical="Helisoma trivolvis" ref_id="birnlex_7233">
+  <variant base="Helisoma trivolvis" />
+</token>
+<token canonical="Helisoma" ref_id="birnlex_7232">
+  <variant base="Helisoma" />
+</token>
+<token canonical="Planorbidae" ref_id="birnlex_7231">
+  <variant base="Planorbidae" />
+</token>
+<token canonical="Helisoma anceps" ref_id="birnlex_7235">
+  <variant base="Helisoma anceps" />
+</token>
+<token canonical="Stylommatophora" ref_id="birnlex_7236">
+  <variant base="Stylommatophora" />
+</token>
+<token canonical="Sigmurethra" ref_id="birnlex_7237">
+  <variant base="Sigmurethra" />
+</token>
+<token canonical="Helicoidea" ref_id="birnlex_7238">
+  <variant base="Helicacea" />
+  <variant base="Helicoidea" />
+</token>
+<token canonical="Helicidae" ref_id="birnlex_7239">
+  <variant base="Helicidae" />
+</token>
+<token canonical="Helix aspersa" ref_id="birnlex_7241">
+  <variant base="Helix aspersa" />
+</token>
+<token canonical="Helix" ref_id="birnlex_7240">
+  <variant base="Helix" />
+</token>
+<token canonical="Aeolididina" ref_id="birnlex_7243">
+  <variant base="Aeolididina" />
+</token>
+<token canonical="Nudibranchia" ref_id="birnlex_7242">
+  <variant base="Nudibranchia" />
+</token>
+<token canonical="Glaucidae" ref_id="birnlex_7245">
+  <variant base="Glaucidae" />
+</token>
+<token canonical="Euaeolidioidea" ref_id="birnlex_7244">
+  <variant base="Euaeolidioidea" />
+  <variant base="Eueolidacea" />
+</token>
+<token canonical="Planariidae" ref_id="birnlex_7208">
+  <variant base="Planariidae" />
+</token>
+<token canonical="Planaria" ref_id="birnlex_7209">
+  <variant base="Planaria" />
+</token>
+<token canonical="Tricladida" ref_id="birnlex_7206">
+  <variant base="Tricladida" />
+</token>
+<token canonical="Paludicola" ref_id="birnlex_7207">
+  <variant base="Paludicola" />
+</token>
+<token canonical="Turbellaria" ref_id="birnlex_7204">
+  <variant base="Turbellaria" />
+  <variant base="Turbellarian Platyhelminths" />
+</token>
+<token canonical="Seriata" ref_id="birnlex_7205">
+  <variant base="Seriata" />
+</token>
+<token canonical="Digenea" ref_id="birnlex_7202">
+  <variant base="Digenea" />
+</token>
+<token canonical="Dugesia japonica" ref_id="birnlex_7212">
+  <variant base="Dugesia japonica" />
+</token>
+<token canonical="Dugesiidae" ref_id="birnlex_7211">
+  <variant base="Dugesiidae" />
+</token>
+<token canonical="Dugesia" ref_id="birnlex_7210">
+  <variant base="Dugesia" />
+</token>
+<token canonical="Dugesia polychroa" ref_id="birnlex_7217">
+  <variant base="Dugesia polychroa" />
+  <variant base="Schmidtea polychroa" />
+</token>
+<token canonical="Dugesia tigrina" ref_id="birnlex_7218">
+  <variant base="Girardia tigrina" />
+  <variant base="Dugesia tigrina" />
+</token>
+<token canonical="Melibe" ref_id="birnlex_7219">
+  <variant base="Melibe" />
+</token>
+<token canonical="Schmidtea" ref_id="birnlex_7213">
+  <variant base="Schmidtea" />
+</token>
+<token canonical="Dugesia lugubris" ref_id="birnlex_7214">
+  <variant base="Schmidtea lugubris" />
+  <variant base="Dugesia lugubris" />
+</token>
+<token canonical="Dugesia mediterranea" ref_id="birnlex_7215">
+  <variant base="Dugesia mediterranea" />
+  <variant base="Schmidtea mediterranea" />
+</token>
+<token canonical="Schmidtea nova" ref_id="birnlex_7216">
+  <variant base="Schmidtea nova" />
+</token>
+<token canonical="Pulmonata" ref_id="birnlex_7221">
+  <variant base="Pulmonata" />
+</token>
+<token canonical="Melibe leonina" ref_id="birnlex_7220">
+  <variant base="Melibe leonina" />
+</token>
+<token canonical="Lymnaeoidea" ref_id="birnlex_7223">
+  <variant base="Lymnaeoidea" />
+</token>
+<token canonical="Basommatophora" ref_id="birnlex_7222">
+  <variant base="Basommatophora" />
+</token>
+<token canonical="Wistar Rat" ref_id="birnlex_254">
+  <variant base="Wistar Rat" />
+</token>
+<token canonical="Eunemobius" ref_id="birnlex_255">
+  <variant base="Eunemobius" />
+</token>
+<token canonical="Mammal" ref_id="birnlex_252">
+  <variant base="Mammalia" />
+  <variant base="Mammal" />
+</token>
+<token canonical="Coturnix" ref_id="birnlex_253">
+  <variant base="Coturnix" />
+</token>
+<token canonical="Appalachian brook crayfish" ref_id="birnlex_250">
+  <variant base="Appalachian brook crayfish" />
+  <variant base="Cambarus bartoni" />
+</token>
+<token canonical="Oryctolagus cuniculus huxleyi" ref_id="birnlex_251">
+  <variant base="Oryctolagus cuniculus huxleyi" />
+</token>
+<token canonical="Procericambarus" ref_id="birnlex_259">
+  <variant base="Procericambarus" />
+</token>
+<token canonical="Human infant" ref_id="birnlex_258">
+  <variant base="Human infant" />
+</token>
+<token canonical="Japanese quail" ref_id="birnlex_257">
+  <variant base="Japanese quail" />
+  <variant base="Coturnix coturnix japonica" />
+</token>
+<token canonical="Simiiformes" ref_id="birnlex_256">
+  <variant base="Anthropoidea" />
+  <variant base="Simiiformes" />
+</token>
+<token canonical="Rodent" ref_id="birnlex_263">
+  <variant base="Rodentia" />
+  <variant base="Rodent" />
+</token>
+<token canonical="Amniota" ref_id="birnlex_264">
+  <variant base="Amniota" />
+</token>
+<token canonical="Eunemobius carolinus" ref_id="birnlex_265">
+  <variant base="Eunemobius carolinus" />
+</token>
+<token canonical="Sprague Dawley" ref_id="birnlex_266">
+  <variant base="Sprague-Dawley rats" />
+  <variant base="Rats, Sprague Dawley" />
+  <variant base="Sprague-Dawley rat" />
+  <variant base="Sprague Dawley" />
+</token>
+<token canonical="Crockerinus" ref_id="birnlex_260">
+  <variant base="Crockerinus" />
+</token>
+<token canonical="Pterygota" ref_id="birnlex_261">
+  <variant base="Pterygota" />
+</token>
+<token canonical="DBA/2" ref_id="birnlex_262">
+  <variant base="DBA/2" />
+</token>
+<token canonical="Neognathi" ref_id="birnlex_268">
+  <variant base="Neognathi" />
+</token>
+<token canonical="Chicken" ref_id="birnlex_267">
+  <variant base="Chicken" />
+  <variant base="Gallus gallus domesticus" />
+  <variant base="Gallus gallus" />
+  <variant base="Red junglefowl" />
+</token>
+<token canonical="Neoptera" ref_id="birnlex_269">
+  <variant base="Neoptera" />
+</token>
+<token canonical="Deuterostomia" ref_id="birnlex_272">
+  <variant base="Deuterostomia" />
+</token>
+<token canonical="Neoteleostei" ref_id="birnlex_273">
+  <variant base="Neoteleostei" />
+</token>
+<token canonical="Hystricognathi" ref_id="birnlex_270">
+  <variant base="Hystricognathi" />
+  <variant base="Hystricomorpha" />
+</token>
+<token canonical="Euteleostei" ref_id="birnlex_271">
+  <variant base="Euteleostei" />
+</token>
+<token canonical="Endopterygota" ref_id="birnlex_276">
+  <variant base="Holometabola" />
+  <variant base="Endopterygota" />
+</token>
+<token canonical="greater horseshoe bat" ref_id="birnlex_277">
+  <variant base="greater horseshoe bat" />
+</token>
+<token canonical="Caviidae" ref_id="birnlex_274">
+  <variant base="Caviidae" />
+</token>
+<token canonical="Insecta" ref_id="birnlex_275">
+  <variant base="Insect" />
+  <variant base="Insects" />
+  <variant base="Insecta" />
+</token>
+<token canonical="Eurypterygii" ref_id="birnlex_279">
+  <variant base="Eurypterygii" />
+</token>
+<token canonical="Crustacea" ref_id="birnlex_278">
+  <variant base="Crustacea" />
+</token>
+<token canonical="B6CBA-Tg(HDexon1)62Gpb/1J" ref_id="nlx_organ_20090205">
+  <variant base="B6CBA-Tg(HDexon1)62Gpb/1J" />
+</token>
+<token canonical="B6;C3-Tg(Prnp-SNCA*A53T)83Vle/J" ref_id="nlx_organ_20090204">
+  <variant base="B6;C3-Tg(Prnp-SNCA*A53T)83Vle/J" />
+</token>
+<token canonical="Macaque" ref_id="birnlex_280">
+  <variant base="Macaque" />
+</token>
+<token canonical="B6SJL-Tg(APPSwFILon,PSEN1*M146L*L286V)6799Vas" ref_id="nlx_organ_20090202">
+  <variant base="B6SJL-Tg(APPSwFILon,PSEN1*M146L*L286V)6799Vas" />
+</token>
+<token canonical="Dicondylia" ref_id="birnlex_281">
+  <variant base="Dicondylia" />
+</token>
+<token canonical="B6;C3-Tg(Prnp-MAPT*P301S)PS19Vle/J" ref_id="nlx_organ_20090203">
+  <variant base="B6;C3-Tg(Prnp-MAPT*P301S)PS19Vle/J" />
+</token>
+<token canonical="Diptera" ref_id="birnlex_282">
+  <variant base="Diptera" />
+</token>
+<token canonical="Mormoopidae" ref_id="birnlex_283">
+  <variant base="Mormoopidae" />
+</token>
+<token canonical="B6SJL-Tg(SOD1*G93A)1Gur/J" ref_id="nlx_organ_20090201">
+  <variant base="B6SJL-Tg(SOD1*G93A)1Gur/J" />
+</token>
+<token canonical="Malacostraca" ref_id="birnlex_284">
+  <variant base="Malacostraca" />
+</token>
+<token canonical="Muscomorpha" ref_id="birnlex_285">
+  <variant base="Cyclorrhapha" />
+  <variant base="Muscomorpha" />
+</token>
+<token canonical="Cavia" ref_id="birnlex_286">
+  <variant base="Cavia" />
+</token>
+<token canonical="Ctenosquamata" ref_id="birnlex_287">
+  <variant base="Ctenosquamata" />
+</token>
+<token canonical="DBA/2DeJ" ref_id="birnlex_288">
+  <variant base="DBA/2DeJ" />
+</token>
+<token canonical="Passeroidea" ref_id="birnlex_289">
+  <variant base="Passeroidea" />
+</token>
+<token canonical="Schizophora" ref_id="birnlex_299">
+  <variant base="Schizophora" />
+</token>
+<token canonical="Acanthomorpha" ref_id="birnlex_298">
+  <variant base="Acanthomorpha" />
+</token>
+<token canonical="Guinea pig" ref_id="birnlex_297">
+  <variant base="Guinea pig" />
+  <variant base="Cavia aperea porcellus" />
+  <variant base="Cavia cobaya" />
+</token>
+<token canonical="Pteronotus parnellii parnellii" ref_id="birnlex_296">
+  <variant base="Pteronotus parnellii parnellii" />
+  <variant base="mustached bat" />
+</token>
+<token canonical="Eumalacostraca" ref_id="birnlex_295">
+  <variant base="Eumalacostraca" />
+</token>
+<token canonical="Pteronotus" ref_id="birnlex_294">
+  <variant base="Pteronotus" />
+</token>
+<token canonical="Brachycera" ref_id="birnlex_293">
+  <variant base="Brachycera" />
+</token>
+<token canonical="FVB/NJ" ref_id="birnlex_499">
+  <variant base="FVB/NJ" />
+</token>
+<token canonical="SJL" ref_id="birnlex_292">
+  <variant base="SJL" />
+</token>
+<token canonical="Munich Wistar rat" ref_id="birnlex_498">
+  <variant base="Munich Wistar rat" />
+</token>
+<token canonical="Long-tailed macaque" ref_id="birnlex_291">
+  <variant base="Long-tailed macaque" />
+  <variant base="Macaca cynomolgus" />
+  <variant base="Macaca irus" />
+</token>
+<token canonical="Pan" ref_id="birnlex_290">
+  <variant base="Pan" />
+</token>
+<token canonical="Laurasiatheria" ref_id="birnlex_496">
+  <variant base="Laurasiatheria" />
+</token>
+<token canonical="Chicken newborn" ref_id="birnlex_497">
+  <variant base="Chicken newborn" />
+</token>
+<token canonical="Tetraodontoidei" ref_id="birnlex_494">
+  <variant base="Tetraodontoidei" />
+</token>
+<token canonical="Teleostei" ref_id="birnlex_495">
+  <variant base="Teleostei" />
+</token>
+<token canonical="Chicken adult" ref_id="birnlex_492">
+  <variant base="Chicken adult" />
+</token>
+<token canonical="Astacidae" ref_id="birnlex_493">
+  <variant base="Astacidae" />
+</token>
+<token canonical="Neobatrachia" ref_id="birnlex_490">
+  <variant base="Neobatrachia" />
+</token>
+<token canonical="Hymenoptera" ref_id="birnlex_491">
+  <variant base="Hymenoptera" />
+</token>
+<token canonical="Cantareus aspersa" ref_id="birnlex_7292">
+  <variant base="Cantareus aspersus" />
+  <variant base="Cantareus aspersa" />
+</token>
+<token canonical="Cantareus" ref_id="birnlex_7291">
+  <variant base="Cantareus" />
+</token>
+<token canonical="Cercopithecus cephus" ref_id="birnlex_7298">
+  <variant base="Cercopithecus cephus" />
+</token>
+<token canonical="Cercopithecus diana" ref_id="birnlex_7297">
+  <variant base="Cercopithecus diana" />
+</token>
+<token canonical="Cercopithecus campbelli" ref_id="birnlex_7299">
+  <variant base="Cercopithecus campbelli" />
+</token>
+<token canonical="Cercopithecus pogonias" ref_id="birnlex_7294">
+  <variant base="Cercopithecus pogonias" />
+</token>
+<token canonical="Cercopithecus sclateri" ref_id="birnlex_7293">
+  <variant base="Cercopithecus sclateri" />
+</token>
+<token canonical="Cercopithecus hamlyni" ref_id="birnlex_7296">
+  <variant base="Cercopithecus hamlyni" />
+</token>
+<token canonical="Cercopithecus neglectus" ref_id="birnlex_7295">
+  <variant base="Cercopithecus neglectus" />
+</token>
+<token canonical="B6.129-Smn1tm1Jme/J" ref_id="nlx_organ_101199">
+  <variant base="B6.129-Smn1tm1Jme/J" />
+</token>
+<token canonical="Alouatta" ref_id="birnlex_460">
+  <variant base="Alouatta" />
+</token>
+<token canonical="Aplysia" ref_id="birnlex_464">
+  <variant base="Aplysia" />
+</token>
+<token canonical="Cercopithecidae" ref_id="birnlex_463">
+  <variant base="Cercopithecidae" />
+</token>
+<token canonical="Ovis aries musimon" ref_id="birnlex_462">
+  <variant base="Ovis gmelini" />
+  <variant base="Ovis aries musimon" />
+  <variant base="Ovis musimon" />
+  <variant base="Ovis ammon musimon" />
+  <variant base="Ovis orientalis musimon" />
+</token>
+<token canonical="Mouse adult" ref_id="birnlex_461">
+  <variant base="Mouse adult" />
+</token>
+<token canonical="Ascaridoidea" ref_id="birnlex_662">
+  <variant base="Ascaridoidea" />
+</token>
+<token canonical="Ascaridida" ref_id="birnlex_661">
+  <variant base="Ascaridida" />
+</token>
+<token canonical="Balaenoptera physalus" ref_id="birnlex_660">
+  <variant base="Balaenoptera physalus" />
+</token>
+<token canonical="Ascaris lumbricoides" ref_id="birnlex_665">
+  <variant base="Ascaris lumbricoides" />
+</token>
+<token canonical="Caniformia" ref_id="birnlex_666">
+  <variant base="Caniformia" />
+</token>
+<token canonical="Ascarididae" ref_id="birnlex_663">
+  <variant base="Ascarididae" />
+</token>
+<token canonical="Ascaris" ref_id="birnlex_664">
+  <variant base="Ascaris" />
+</token>
+<token canonical="Canis lupus" ref_id="birnlex_669">
+  <variant base="Canis lupus" />
+</token>
+<token canonical="Canidae" ref_id="birnlex_667">
+  <variant base="Canidae" />
+</token>
+<token canonical="Canis" ref_id="birnlex_668">
+  <variant base="Canis" />
+</token>
+<token canonical="Passeridae" ref_id="birnlex_467">
+  <variant base="Passeridae" />
+</token>
+<token canonical="Cercopithecoidea" ref_id="birnlex_468">
+  <variant base="Cercopithecoidea" />
+</token>
+<token canonical="Knock-in mouse strain" ref_id="birnlex_465">
+  <variant base="Knock-in mouse strain" />
+  <variant base="Knockin mouse strain" />
+</token>
+<token canonical="Mouse elderly" ref_id="birnlex_466">
+  <variant base="Mouse elderly" />
+</token>
+<token canonical="European lobster" ref_id="birnlex_469">
+  <variant base="Homarus vulgaris" />
+  <variant base="European lobster" />
+</token>
+<token canonical="Gryllidae" ref_id="birnlex_451">
+  <variant base="Gryllidae" />
+</token>
+<token canonical="Ovis" ref_id="birnlex_450">
+  <variant base="Ovis" />
+</token>
+<token canonical="Apogastropoda" ref_id="birnlex_453">
+  <variant base="Apogastropoda" />
+</token>
+<token canonical="Aplysioidea" ref_id="birnlex_452">
+  <variant base="Aplysioidea" />
+</token>
+<token canonical="Tursiops truncatus" ref_id="birnlex_651">
+  <variant base="Tursiops truncatus" />
+</token>
+<token canonical="Tursiops" ref_id="birnlex_650">
+  <variant base="Tursiops" />
+</token>
+<token canonical="Monodontidae" ref_id="birnlex_652">
+  <variant base="Monodontidae" />
+</token>
+<token canonical="Delphinapterus" ref_id="birnlex_653">
+  <variant base="Delphinapterus" />
+</token>
+<token canonical="Delphinapterus leucas" ref_id="birnlex_654">
+  <variant base="Delphinapterus leucas" />
+</token>
+<token canonical="Mysticeti" ref_id="birnlex_655">
+  <variant base="Mysticeti" />
+</token>
+<token canonical="Balaenopteridae" ref_id="birnlex_656">
+  <variant base="Balaenopteridae" />
+</token>
+<token canonical="Megaptera" ref_id="birnlex_657">
+  <variant base="Megaptera" />
+</token>
+<token canonical="Megaptera novaeangliae" ref_id="birnlex_658">
+  <variant base="Megaptera novaeangliae" />
+</token>
+<token canonical="Balaenoptera" ref_id="birnlex_659">
+  <variant base="Balaenoptera" />
+</token>
+<token canonical="Alouattinae" ref_id="birnlex_454">
+  <variant base="Alouattinae" />
+</token>
+<token canonical="Cypriniphysi" ref_id="birnlex_455">
+  <variant base="Cypriniphysi" />
+</token>
+<token canonical="Sheep" ref_id="birnlex_456">
+  <variant base="Ovis orientalis" />
+  <variant base="Ovis orientalis aries" />
+  <variant base="Ovis ammon aries" />
+  <variant base="Sheep" />
+  <variant base="Ovis ovis" />
+</token>
+<token canonical="Haplorrhini" ref_id="birnlex_457">
+  <variant base="Haplorrhini" />
+</token>
+<token canonical="Aplysiidae" ref_id="birnlex_458">
+  <variant base="Notarchidae" />
+  <variant base="Aplysiidae" />
+  <variant base="Dolabellidae" />
+</token>
+<token canonical="Cypriniformes" ref_id="birnlex_459">
+  <variant base="Cypriniformes" />
+</token>
+<token canonical="Palinuroidea" ref_id="birnlex_208">
+  <variant base="Palinuroidea" />
+</token>
+<token canonical="Neopterygii" ref_id="birnlex_486">
+  <variant base="Neopterygii" />
+</token>
+<token canonical="DBA/8BiDsmJ" ref_id="birnlex_207">
+  <variant base="DBA/8BiDsmJ" />
+</token>
+<token canonical="TH9.0-LacZ-5" ref_id="nlx_organ_100402">
+  <variant base="TH9.0-LacZ-5" />
+</token>
+<token canonical="Theria" ref_id="birnlex_485">
+  <variant base="Theria" />
+</token>
+<token canonical="BALB/c" ref_id="birnlex_206">
+  <variant base="BALB/c" />
+  <variant base="BALBc" />
+</token>
+<token canonical="Mouse Prenatal" ref_id="birnlex_484">
+  <variant base="Mouse Prenatal" />
+</token>
+<token canonical="Percomorpha" ref_id="birnlex_205">
+  <variant base="Percomorpha" />
+</token>
+<token canonical="Gremicambarus" ref_id="birnlex_483">
+  <variant base="Gremicambarus" />
+</token>
+<token canonical="Orangutan" ref_id="birnlex_204">
+  <variant base="Orangutan" />
+</token>
+<token canonical="Actinopterygii" ref_id="birnlex_482">
+  <variant base="Actinopterygii" />
+</token>
+<token canonical="Rat strain" ref_id="birnlex_203">
+  <variant base="Rat strain" />
+</token>
+<token canonical="Batrachia" ref_id="birnlex_481">
+  <variant base="Batrachia" />
+</token>
+<token canonical="Furth Wistar rat" ref_id="birnlex_202">
+  <variant base="Rats, Inbred Wistar Furth" />
+  <variant base="Inbred WF Rat" />
+  <variant base="Rats, WF" />
+  <variant base="WF Rats" />
+  <variant base="Furth Wistar rats" />
+  <variant base="Rats, Wistar Furth" />
+  <variant base="Rat, WF" />
+  <variant base="Rat, Inbred WF" />
+  <variant base="Furth Wistar rat" />
+  <variant base="WF Rat" />
+  <variant base="WF Rats, Inbred" />
+</token>
+<token canonical="Chicken juvenile" ref_id="birnlex_480">
+  <variant base="Chicken juvenile" />
+</token>
+<token canonical="Gnathostomata" ref_id="birnlex_201">
+  <variant base="Gnathostomata" />
+</token>
+<token canonical="Middle adult" ref_id="birnlex_684">
+  <variant base="Middle adult" />
+</token>
+<token canonical="Late adult" ref_id="birnlex_683">
+  <variant base="Late adult" />
+</token>
+<token canonical="Early adult" ref_id="birnlex_682">
+  <variant base="young adult" />
+  <variant base="Early adult" />
+</token>
+<token canonical="Adult" ref_id="birnlex_681">
+  <variant base="Adult" />
+</token>
+<token canonical="Cricetulus griseus" ref_id="birnlex_680">
+  <variant base="Cricetulus griseus" />
+  <variant base="Cricetulus aureus" />
+</token>
+<token canonical="FVB.Cg-Tg(SMN2)89Ahmb Smn1tm1Msd/J" ref_id="nlx_organ_100401">
+  <variant base="FVB.Cg-Tg(SMN2)89Ahmb Smn1tm1Msd/J" />
+</token>
+<token canonical="Eptesicus bottae" ref_id="birnlex_209">
+  <variant base="Eptesicus bottae" />
+</token>
+<token canonical="Middle adolescent" ref_id="birnlex_689">
+  <variant base="Middle adolescent" />
+</token>
+<token canonical="Late juvenile" ref_id="birnlex_687">
+  <variant base="Late juvenile" />
+</token>
+<token canonical="Early adolescent" ref_id="birnlex_688">
+  <variant base="Early adolescent" />
+</token>
+<token canonical="Early juvenile" ref_id="birnlex_685">
+  <variant base="Early juvenile" />
+</token>
+<token canonical="Middle juvenile" ref_id="birnlex_686">
+  <variant base="Middle juvenile" />
+</token>
+<token canonical="Hildebrandts horseshoe bat" ref_id="birnlex_200">
+  <variant base="Hildebrandts horseshoe bat" />
+  <variant base="Rhinolophus hildebrandtii" />
+</token>
+<token canonical="Hipposiderinae" ref_id="birnlex_489">
+  <variant base="Hipposiderinae" />
+</token>
+<token canonical="Heterotremata" ref_id="birnlex_487">
+  <variant base="Heterotremata" />
+</token>
+<token canonical="Rat elderly" ref_id="birnlex_488">
+  <variant base="Rat elderly" />
+</token>
+<token canonical="Maturation stage" ref_id="birnlex_473">
+  <variant base="Maturation stage" />
+</token>
+<token canonical="C57BL/6JEiJ" ref_id="birnlex_472">
+  <variant base="C57BL/6JEiJ" />
+</token>
+<token canonical="C57BL/6NJ" ref_id="birnlex_475">
+  <variant base="C57BL/6NJ" />
+</token>
+<token canonical="Rat juvenile" ref_id="birnlex_474">
+  <variant base="Rat juvenile" />
+</token>
+<token canonical="Rat newborn" ref_id="birnlex_471">
+  <variant base="Rat newborn" />
+</token>
+<token canonical="Aplysia californica" ref_id="birnlex_470">
+  <variant base="Aplysia californica" />
+</token>
+<token canonical="Bovinae" ref_id="birnlex_671">
+  <variant base="Bovinae" />
+</token>
+<token canonical="Canis lupus familiaris" ref_id="birnlex_670">
+  <variant base="Canis lupus familiaris" />
+  <variant base="canine" />
+  <variant base="Canis familiaris" />
+  <variant base="dog" />
+  <variant base="Canis domesticus" />
+</token>
+<token canonical="Bos taurus" ref_id="birnlex_673">
+  <variant base="Bos bovis" />
+  <variant base="cow" />
+  <variant base="Bos taurus" />
+  <variant base="Bos primigenius taurus" />
+</token>
+<token canonical="Bos" ref_id="birnlex_672">
+  <variant base="Bos" />
+</token>
+<token canonical="Mesocricetus auratus" ref_id="birnlex_678">
+  <variant base="Syrian hamster" />
+  <variant base="Mesocricetus auratus" />
+  <variant base="Syrian golden hamster" />
+  <variant base="Syrian golden hamsters" />
+  <variant base="Golden hamsters" />
+  <variant base="Syrian hamsters" />
+</token>
+<token canonical="Cricetulus" ref_id="birnlex_679">
+  <variant base="Cricetulus" />
+</token>
+<token canonical="Muroidea" ref_id="birnlex_674">
+  <variant base="Muroidea" />
+</token>
+<token canonical="Cricetidae" ref_id="birnlex_675">
+  <variant base="Cricetidae" />
+</token>
+<token canonical="Cricetinae" ref_id="birnlex_676">
+  <variant base="hamster" />
+  <variant base="Cricetinae" />
+</token>
+<token canonical="Mesocricetus" ref_id="birnlex_677">
+  <variant base="Mesocricetus" />
+</token>
+<token canonical="Zebra finch" ref_id="birnlex_476">
+  <variant base="Poephila guttata" />
+  <variant base="Taenopygia guttata" />
+  <variant base="Zebra finch" />
+</token>
+<token canonical="Prenatal" ref_id="birnlex_477">
+  <variant base="Prenatal" />
+</token>
+<token canonical="Actinopteri" ref_id="birnlex_478">
+  <variant base="Actinopteri" />
+</token>
+<token canonical="Rat adult" ref_id="birnlex_479">
+  <variant base="Rat adult" />
+</token>
+<token canonical="A53T alpha-synuclein drosophila" ref_id="nlx_organ_090703">
+  <variant base="A53T alpha-synuclein drosophila" />
+</token>
+<token canonical="Drop-Dead  mutant drosophila" ref_id="nlx_organ_090704">
+  <variant base="Drop-Dead  mutant drosophila" />
+</token>
+<token canonical="Mutant drosophila" ref_id="nlx_organ_090701">
+  <variant base="Mutant drosophila" />
+</token>
+<token canonical="A30P alpha-synuclein drosophila" ref_id="nlx_organ_090702">
+  <variant base="A30P alpha-synuclein drosophila" />
+</token>
+<token canonical="Dinosauria" ref_id="birnlex_225">
+  <variant base="Dinosauria" />
+</token>
+<token canonical="PINK1 mutant drosophila" ref_id="nlx_organ_090707">
+  <variant base="PINK1 mutant drosophila" />
+</token>
+<token canonical="European rabbit" ref_id="birnlex_226">
+  <variant base="European rabbit" />
+</token>
+<token canonical="Drosophila overexpressing Gprk2" ref_id="nlx_organ_090708">
+  <variant base="Drosophila overexpressing Gprk2" />
+</token>
+<token canonical="Leporidae" ref_id="birnlex_223">
+  <variant base="Leporidae" />
+</token>
+<token canonical="E46K alpha-synuclein drosophila" ref_id="nlx_organ_090705">
+  <variant base="E46K alpha-synuclein drosophila" />
+</token>
+<token canonical="Hybrid strains of mus musculus musculus x domesticus" ref_id="birnlex_224">
+  <variant base="Hybrid strains of mus musculus musculus x domesticus" />
+  <variant base="Mus musculus musculus x domesticus" />
+</token>
+<token canonical="PINK1 mutant drosophila" ref_id="nlx_organ_090706">
+  <variant base="PINK1 mutant drosophila" />
+  <variant base="Parkin mutant drosophila" />
+</token>
+<token canonical="Blue crab" ref_id="birnlex_229">
+  <variant base="Blue crab" />
+</token>
+<token canonical="Caenorhabditis elegans" ref_id="birnlex_420">
+  <variant base="c elegans" />
+  <variant base="C. elegans" />
+  <variant base="Caenorhabditis elegans" />
+  <variant base="C elegans" />
+</token>
+<token canonical="Primate" ref_id="birnlex_227">
+  <variant base="Primata" />
+  <variant base="Primate" />
+</token>
+<token canonical="Adult" ref_id="birnlex_228">
+  <variant base="Adult" />
+</token>
+<token canonical="Blattinae" ref_id="birnlex_424">
+  <variant base="Periplanetinae" />
+  <variant base="Blattinae" />
+</token>
+<token canonical="Cambaridae" ref_id="birnlex_423">
+  <variant base="Cambaridae" />
+</token>
+<token canonical="Neocoleoidea" ref_id="birnlex_422">
+  <variant base="Neocoleoidea" />
+</token>
+<token canonical="Holtzman Sprague-Dawley rat" ref_id="birnlex_421">
+  <variant base="Holtzman Sprague-Dawley rat" />
+</token>
+<token canonical="Craniata" ref_id="birnlex_222">
+  <variant base="Craniata" />
+</token>
+<token canonical="Mollusc" ref_id="birnlex_428">
+  <variant base="Mollusc" />
+</token>
+<token canonical="Sauria" ref_id="birnlex_221">
+  <variant base="Diapsida" />
+  <variant base="Sauria" />
+</token>
+<token canonical="Apinae" ref_id="birnlex_427">
+  <variant base="Apinae" />
+</token>
+<token canonical="Callinectes" ref_id="birnlex_220">
+  <variant base="Callinectes" />
+</token>
+<token canonical="American cockroach" ref_id="birnlex_426">
+  <variant base="American cockroach" />
+</token>
+<token canonical="Teuthida" ref_id="birnlex_425">
+  <variant base="Teuthida" />
+</token>
+<token canonical="Newborn" ref_id="birnlex_429">
+  <variant base="Newborn" />
+  <variant base="Neonate" />
+</token>
+<token canonical="Late adolescent" ref_id="birnlex_690">
+  <variant base="Late adolescent" />
+</token>
+<token canonical="Elderly" ref_id="birnlex_691">
+  <variant base="Elderly" />
+</token>
+<token canonical="Early elderly" ref_id="birnlex_692">
+  <variant base="Early elderly" />
+</token>
+<token canonical="Middle elderly" ref_id="birnlex_693">
+  <variant base="Middle elderly" />
+</token>
+<token canonical="Late elderly" ref_id="birnlex_694">
+  <variant base="Late elderly" />
+</token>
+<token canonical="Infant" ref_id="birnlex_695">
+  <variant base="Infant" />
+</token>
+<token canonical="Vertebrata" ref_id="birnlex_212">
+  <variant base="Vertebrata" />
+</token>
+<token canonical="CBA" ref_id="birnlex_213">
+  <variant base="CBA" />
+</token>
+<token canonical="Sprague Dawley" ref_id="birnlex_214">
+  <variant base="Sprague Dawley" />
+</token>
+<token canonical="Sauropsida" ref_id="birnlex_215">
+  <variant base="Sauropsida" />
+</token>
+<token canonical="Lagomorpha" ref_id="birnlex_216">
+  <variant base="Lagomorpha" />
+</token>
+<token canonical="Chiroptera" ref_id="birnlex_217">
+  <variant base="Chiroptera" />
+</token>
+<token canonical="Archosauria" ref_id="birnlex_218">
+  <variant base="Archosauria" />
+</token>
+<token canonical="129 Mouse strain" ref_id="birnlex_219">
+  <variant base="129 Mouse strain" />
+  <variant base="129" />
+</token>
+<token canonical="Peloderinae" ref_id="birnlex_411">
+  <variant base="Peloderinae" />
+</token>
+<token canonical="Apoidea" ref_id="birnlex_410">
+  <variant base="Apoidea" />
+</token>
+<token canonical="Passeriformes" ref_id="birnlex_413">
+  <variant base="Passeriformes" />
+</token>
+<token canonical="DBA/2BiJ" ref_id="birnlex_412">
+  <variant base="DBA/2BiJ" />
+</token>
+<token canonical="Jonah crab" ref_id="birnlex_415">
+  <variant base="Jonah crab" />
+</token>
+<token canonical="Heterotremata/Thoracotremata group" ref_id="birnlex_414">
+  <variant base="Heterotremata/Thoracotremata group" />
+</token>
+<token canonical="Kyoto Wistar rat" ref_id="birnlex_211">
+  <variant base="WKY Rats" />
+  <variant base="Rats, Inbred WKY" />
+  <variant base="Rats, WKY" />
+  <variant base="Rat, WKY" />
+  <variant base="WKY Rat, Inbred" />
+  <variant base="Inbred WKY Rat" />
+  <variant base="Kyoto Wistar rats" />
+  <variant base="Rat, Inbred WKY" />
+  <variant base="WKY Rat" />
+  <variant base="Kyoto Wistar rat" />
+  <variant base="Inbred WKY Rats" />
+  <variant base="WKY Rats, Inbred" />
+  <variant base="Rats, Wistar Kyoto" />
+</token>
+<token canonical="B6;129-/Slc6a3tm2Mca" ref_id="birnlex_417">
+  <variant base="B6;129-/Slc6a3tm2Mca" />
+</token>
+<token canonical="Signal crayfish" ref_id="birnlex_210">
+  <variant base="Signal crayfish" />
+</token>
+<token canonical="Astacoidea" ref_id="birnlex_416">
+  <variant base="Astacoidea" />
+</token>
+<token canonical="Middle infant" ref_id="birnlex_697">
+  <variant base="Middle infant" />
+</token>
+<token canonical="Apidae" ref_id="birnlex_419">
+  <variant base="Apidae" />
+</token>
+<token canonical="Early infant" ref_id="birnlex_696">
+  <variant base="Early infant" />
+</token>
+<token canonical="Blattidae" ref_id="birnlex_418">
+  <variant base="Blattidae" />
+</token>
+<token canonical="Newborn" ref_id="birnlex_699">
+  <variant base="Newborn" />
+</token>
+<token canonical="Late infant" ref_id="birnlex_698">
+  <variant base="Late infant" />
+</token>
+<token canonical="Ensifera" ref_id="birnlex_441">
+  <variant base="Ensifera" />
+</token>
+<token canonical="Apis" ref_id="birnlex_442">
+  <variant base="Apis" />
+</token>
+<token canonical="Rusty crayfish" ref_id="birnlex_249">
+  <variant base="Rusty crayfish" />
+</token>
+<token canonical="Thalassinidea" ref_id="birnlex_440">
+  <variant base="Thalassinidea" />
+</token>
+<token canonical="Human newborn" ref_id="birnlex_247">
+  <variant base="Human newborn" />
+</token>
+<token canonical="Calico crayfish" ref_id="birnlex_248">
+  <variant base="Calico crayfish" />
+</token>
+<token canonical="Phasianinae" ref_id="birnlex_245">
+  <variant base="Phasianinae" />
+</token>
+<token canonical="Gallus" ref_id="birnlex_246">
+  <variant base="Gallus" />
+</token>
+<token canonical="Catarrhini" ref_id="birnlex_244">
+  <variant base="Catarrhini" />
+</token>
+<token canonical="Coelurosauria" ref_id="birnlex_243">
+  <variant base="Coelurosauria" />
+</token>
+<token canonical="Otophysi" ref_id="birnlex_449">
+  <variant base="Otophysi" />
+</token>
+<token canonical="Oryctolagus cuniculus cuniculus" ref_id="birnlex_242">
+  <variant base="Oryctolagus cuniculus cuniculus" />
+</token>
+<token canonical="Caenorhabditis" ref_id="birnlex_448">
+  <variant base="Caenorhabditis" />
+</token>
+<token canonical="Xenopus laevis" ref_id="birnlex_241">
+  <variant base="Xenopus laevis" />
+</token>
+<token canonical="Honey bee" ref_id="birnlex_447">
+  <variant base="Apis mellifera L." />
+  <variant base="Apis mellifera Linnaeus" />
+  <variant base="Apis mellifica" />
+  <variant base="Honey bee" />
+</token>
+<token canonical="Human Prenatal" ref_id="birnlex_240">
+  <variant base="Human Prenatal" />
+</token>
+<token canonical="Grylloidea" ref_id="birnlex_446">
+  <variant base="Grylloidea" />
+</token>
+<token canonical="Juvenile" ref_id="birnlex_445">
+  <variant base="Juvenile" />
+</token>
+<token canonical="Orthogastropoda" ref_id="birnlex_444">
+  <variant base="Orthogastropoda" />
+</token>
+<token canonical="Ostariophysi" ref_id="birnlex_443">
+  <variant base="Ostariophysi" />
+</token>
+<token canonical="Homo Pan Gorilla group" ref_id="birnlex_238">
+  <variant base="Homo Pan Gorilla group" />
+</token>
+<token canonical="Phasianidae" ref_id="birnlex_239">
+  <variant base="Phasianidae" />
+</token>
+<token canonical="Decapodiformes" ref_id="birnlex_430">
+  <variant base="Decapodiformes" />
+</token>
+<token canonical="Atlantic rock crab" ref_id="birnlex_431">
+  <variant base="Atlantic rock crab" />
+</token>
+<token canonical="Elderly" ref_id="birnlex_234">
+  <variant base="Elderly" />
+</token>
+<token canonical="Xenopus" ref_id="birnlex_235">
+  <variant base="Xenopus" />
+</token>
+<token canonical="Theropoda" ref_id="birnlex_236">
+  <variant base="Theropoda" />
+</token>
+<token canonical="Euarchontoglires" ref_id="birnlex_237">
+  <variant base="Euarchontoglires" />
+</token>
+<token canonical="Saurischia" ref_id="birnlex_231">
+  <variant base="Saurischia" />
+</token>
+<token canonical="Gastropod" ref_id="birnlex_437">
+  <variant base="Gastropod" />
+</token>
+<token canonical="Oryctolagus" ref_id="birnlex_230">
+  <variant base="Oryctolagus" />
+</token>
+<token canonical="Rufous horseshoe bat" ref_id="birnlex_436">
+  <variant base="Rufous horseshoe bat" />
+</token>
+<token canonical="Glires" ref_id="birnlex_233">
+  <variant base="Glires" />
+</token>
+<token canonical="Loligo" ref_id="birnlex_439">
+  <variant base="Loligo" />
+</token>
+<token canonical="Homo" ref_id="birnlex_232">
+  <variant base="Homo" />
+</token>
+<token canonical="Infant" ref_id="birnlex_438">
+  <variant base="Infant" />
+</token>
+<token canonical="Periplaneta" ref_id="birnlex_433">
+  <variant base="Periplaneta" />
+</token>
+<token canonical="Loliginidae" ref_id="birnlex_432">
+  <variant base="Loliginidae" />
+</token>
+<token canonical="Apini" ref_id="birnlex_435">
+  <variant base="Apini" />
+</token>
+<token canonical="Orthoptera" ref_id="birnlex_434">
+  <variant base="Orthoptera" />
+  <variant base="Saltatoria" />
+</token>
+<token canonical="Cestoda" ref_id="birnlex_7200">
+  <variant base="Cestoda" />
+</token>
+<token canonical="Trematoda" ref_id="birnlex_7201">
+  <variant base="Trematoda" />
+</token>
+<token canonical="Anura" ref_id="birnlex_601">
+  <variant base="Anura" />
+  <variant base="Salientia" />
+</token>
+<token canonical="Virile crayfish" ref_id="birnlex_602">
+  <variant base="Virile crayfish" />
+</token>
+<token canonical="Non-human primate" ref_id="birnlex_603">
+  <variant base="Non-human primate" />
+</token>
+<token canonical="Acanthopterygii" ref_id="birnlex_604">
+  <variant base="Acanthopterygii" />
+</token>
+<token canonical="Japanese macaque" ref_id="birnlex_407">
+  <variant base="Japanese macaque" />
+</token>
+<token canonical="Rock crab" ref_id="birnlex_408">
+  <variant base="Rock crab" />
+</token>
+<token canonical="Blattaria" ref_id="birnlex_409">
+  <variant base="Blattoptera" />
+  <variant base="Blattaria" />
+</token>
+<token canonical="Red swamp crayfish" ref_id="birnlex_600">
+  <variant base="Red swamp crayfish" />
+</token>
+<token canonical="DBA/1LacJ" ref_id="birnlex_403">
+  <variant base="DBA/1LacJ" />
+</token>
+<token canonical="Takifugu rubripes" ref_id="birnlex_609">
+  <variant base="Fugu rubripes" />
+  <variant base="Takifugu rubripes" />
+</token>
+<token canonical="Okinawa least horseshoe bat" ref_id="birnlex_404">
+  <variant base="Okinawa least horseshoe bat" />
+</token>
+<token canonical="Eubrachyura" ref_id="birnlex_405">
+  <variant base="Eubrachyura" />
+</token>
+<token canonical="Cancer" ref_id="birnlex_406">
+  <variant base="Cancer" />
+</token>
+<token canonical="Eutheria" ref_id="birnlex_605">
+  <variant base="Placentalia" />
+  <variant base="Eutheria" />
+</token>
+<token canonical="Coelomata" ref_id="birnlex_606">
+  <variant base="Coelomata" />
+</token>
+<token canonical="Aculeata" ref_id="birnlex_400">
+  <variant base="Aculeata" />
+</token>
+<token canonical="Orconectes" ref_id="birnlex_607">
+  <variant base="Orconectes" />
+</token>
+<token canonical="Overexpressor strain" ref_id="birnlex_401">
+  <variant base="Overexpressor strain" />
+</token>
+<token canonical="Euacanthopterygii" ref_id="birnlex_608">
+  <variant base="Euacanthopterygii" />
+</token>
+<token canonical="Rhabditidae" ref_id="birnlex_402">
+  <variant base="Rhabditidae" />
+</token>
+<token canonical="Portunidae" ref_id="birnlex_628">
+  <variant base="Portunidae" />
+</token>
+<token canonical="Portunoidea" ref_id="birnlex_627">
+  <variant base="Portunoidea" />
+</token>
+<token canonical="American lobster" ref_id="birnlex_629">
+  <variant base="American lobster" />
+</token>
+<token canonical="Heteroneura" ref_id="birnlex_620">
+  <variant base="Heteroneura" />
+</token>
+<token canonical="Euthyneura" ref_id="birnlex_622">
+  <variant base="Euthyneura" />
+</token>
+<token canonical="Pipoidea" ref_id="birnlex_621">
+  <variant base="Pipoidea" />
+</token>
+<token canonical="Xenopodinae" ref_id="birnlex_624">
+  <variant base="Xenopodinae" />
+  <variant base="Siluraninae" />
+</token>
+<token canonical="Carollia" ref_id="birnlex_623">
+  <variant base="Carollia" />
+</token>
+<token canonical="Erythrocebus" ref_id="birnlex_626">
+  <variant base="Erythrocebus" />
+</token>
+<token canonical="Human adult" ref_id="birnlex_625">
+  <variant base="Human adult" />
+</token>
+<token canonical="Homarus" ref_id="birnlex_619">
+  <variant base="Homarus" />
+</token>
+<token canonical="Neotrypaea" ref_id="birnlex_618">
+  <variant base="Neotrypaea" />
+</token>
+<token canonical="Human juvenile" ref_id="birnlex_617">
+  <variant base="Human juvenile" />
+</token>
+<token canonical="Heterobranchia" ref_id="birnlex_616">
+  <variant base="Heterobranchia" />
+</token>
+<token canonical="Atelidae" ref_id="birnlex_611">
+  <variant base="Atelidae" />
+</token>
+<token canonical="Bilateria" ref_id="birnlex_610">
+  <variant base="Bilateria" />
+</token>
+<token canonical="Pipidae" ref_id="birnlex_615">
+  <variant base="Pipidae" />
+</token>
+<token canonical="Macaca fuscata fuscata" ref_id="birnlex_614">
+  <variant base="Macaca fuscata fuscata" />
+</token>
+<token canonical="Felis catus domesticus" ref_id="birnlex_613">
+  <variant base="Cat" />
+  <variant base="Felis catus domesticus" />
+</token>
+<token canonical="Tarsiiformes" ref_id="birnlex_612">
+  <variant base="Tarsiiformes" />
+</token>
+<token canonical="Delphinidae" ref_id="birnlex_649">
+  <variant base="Delphinidae" />
+</token>
+<token canonical="Sphingoidea" ref_id="birnlex_646">
+  <variant base="Sphingoidea" />
+</token>
+<token canonical="Paguroidea" ref_id="birnlex_645">
+  <variant base="Paguroidea" />
+</token>
+<token canonical="Odontoceti" ref_id="birnlex_648">
+  <variant base="Odontoceti" />
+</token>
+<token canonical="Cetacea" ref_id="birnlex_647">
+  <variant base="Cetacea" />
+</token>
+<token canonical="Hybrid of  mus spretus x mus musculus" ref_id="birnlex_7411">
+  <variant base="Mus spretus" />
+  <variant base="Hybrid of  mus spretus x mus musculus" />
+</token>
+<token canonical="Phyllostomus hastatus" ref_id="birnlex_642">
+  <variant base="Phyllostomus hastatus" />
+</token>
+<token canonical="Phyllostominae" ref_id="birnlex_641">
+  <variant base="Phyllostominae" />
+</token>
+<token canonical="Mouse newborn" ref_id="birnlex_644">
+  <variant base="Mouse newborn" />
+</token>
+<token canonical="Hylobatidae" ref_id="birnlex_643">
+  <variant base="Hylobatidae" />
+</token>
+<token canonical="Antrozous" ref_id="birnlex_640">
+  <variant base="Antrozous" />
+</token>
+<token canonical="Step sister" ref_id="birnlex_7409">
+  <variant base="Step sister" />
+</token>
+<token canonical="Natural son" ref_id="birnlex_7408">
+  <variant base="Natural son" />
+</token>
+<token canonical="B6;D2-Tg(PDGFB-SNCA)NNEma" ref_id="birnlex_639">
+  <variant base="B6;D2-Tg(PDGFB-SNCA)NNEma" />
+</token>
+<token canonical="Obtectomera" ref_id="birnlex_638">
+  <variant base="Obtectomera" />
+</token>
+<token canonical="Step brother" ref_id="birnlex_7401">
+  <variant base="Step brother" />
+</token>
+<token canonical="Anomura" ref_id="birnlex_637">
+  <variant base="Anomura" />
+</token>
+<token canonical="Agnate half brother" ref_id="birnlex_7400">
+  <variant base="Agnate half brother" />
+  <variant base="Consanguine half brother" />
+</token>
+<token canonical="melanogaster group" ref_id="birnlex_636">
+  <variant base="melanogaster group" />
+</token>
+<token canonical="Fraternal twin sister" ref_id="birnlex_7403">
+  <variant base="Fraternal twin sister" />
+</token>
+<token canonical="Erythrocebus patas" ref_id="birnlex_635">
+  <variant base="Cercopithecus patas" />
+  <variant base="Erythrocebus patas" />
+</token>
+<token canonical="Identical twin sister" ref_id="birnlex_7402">
+  <variant base="Identical twin sister" />
+</token>
+<token canonical="Human elderly" ref_id="birnlex_634">
+  <variant base="Human elderly" />
+</token>
+<token canonical="Step daughter" ref_id="birnlex_7405">
+  <variant base="Step daughter" />
+</token>
+<token canonical="Phyllostomus" ref_id="birnlex_633">
+  <variant base="Phyllostomus" />
+</token>
+<token canonical="Half sister" ref_id="birnlex_7404">
+  <variant base="Half sister" />
+</token>
+<token canonical="Xenopus" ref_id="birnlex_632">
+  <variant base="Xenopus" />
+</token>
+<token canonical="Step son" ref_id="birnlex_7407">
+  <variant base="Step son" />
+</token>
+<token canonical="Carollia perspicillata" ref_id="birnlex_631">
+  <variant base="Carollia perspicillata" />
+</token>
+<token canonical="Natural daughter" ref_id="birnlex_7406">
+  <variant base="Natural daughter" />
+</token>
+<token canonical="Ditrysia" ref_id="birnlex_630">
+  <variant base="Ditrysia" />
+</token>
+<token canonical="Mus spretus" ref_id="birnlex_7410">
+  <variant base="Mus spretus" />
+  <variant base="Mus musculus spretus" />
+</token>
+</synonym>

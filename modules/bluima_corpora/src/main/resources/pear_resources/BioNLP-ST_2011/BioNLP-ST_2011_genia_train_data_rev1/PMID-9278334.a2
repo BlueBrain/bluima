@@ -1,0 +1,23 @@
+T13	Positive_regulation 1014 1022	increase
+T14	Transcription 1039 1045	levels
+T15	Positive_regulation 1059 1066	induced
+T16	Positive_regulation 1162 1170	increase
+T17	Positive_regulation 1215 1223	increase
+T18	Binding 1252 1267	binding complex
+T19	Binding 1273 1278	binds
+T20	Entity 1329 1337	tyrosine
+T21	Phosphorylation 1338 1353	phosphorylation
+T22	Positive_regulation 1406 1414	enhanced
+E1	Positive_regulation:T13 Theme:E2
+E2	Transcription:T14 Theme:T8
+E3	Positive_regulation:T15 Theme:E2 Cause:T7
+E4	Positive_regulation:T16 Theme:T8
+E5	Positive_regulation:T17 Theme:T9
+E6	Binding:T18 Theme:T9
+E7	Binding:T19 Theme:T9
+E8	Phosphorylation:T21 Theme:T10 Site:T20
+E9	Phosphorylation:T21 Theme:T12 Site:T20
+E10	Phosphorylation:T21 Theme:T11 Site:T20
+E11	Positive_regulation:T22 Theme:E8
+E12	Positive_regulation:T22 Theme:E10
+E13	Positive_regulation:T22 Theme:E9

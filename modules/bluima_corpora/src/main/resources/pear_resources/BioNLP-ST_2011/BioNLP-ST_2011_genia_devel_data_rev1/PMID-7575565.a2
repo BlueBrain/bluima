@@ -1,0 +1,16 @@
+T9	Binding 6 11	binds
+T10	Binding 81 88	binding
+T11	Binding 173 178	binds
+T12	Binding 285 290	bound
+T13	Binding 377 382	bound
+T14	Binding 559 563	bind
+T15	Binding 663 670	binding
+E1	Binding:T9 Theme:T1
+E2	Binding:T10 Theme:T2
+E3	Binding:T11 Theme:T3
+E4	Binding:T12 Theme:T4
+E5	Binding:T13 Theme:T5
+E6	Binding:T14 Theme:T6
+E7	Binding:T15 Theme:T7
+M1	Speculation E2
+M2	Negation E6

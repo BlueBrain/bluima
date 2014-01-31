@@ -1,0 +1,4 @@
+T6	Positive_regulation 397 401	high
+T7	Gene_expression 407 416	secretion
+E1	Positive_regulation:T6 Theme:E2
+E2	Gene_expression:T7 Theme:T5

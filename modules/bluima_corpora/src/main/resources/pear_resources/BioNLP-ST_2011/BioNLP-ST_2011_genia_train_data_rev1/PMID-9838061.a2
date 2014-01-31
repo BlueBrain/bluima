@@ -1,0 +1,4 @@
+T19	Negative_regulation 834 842	decrease
+T20	Positive_regulation 858 866	increase
+E1	Negative_regulation:T19 Theme:T12
+E2	Positive_regulation:T20 Theme:T12

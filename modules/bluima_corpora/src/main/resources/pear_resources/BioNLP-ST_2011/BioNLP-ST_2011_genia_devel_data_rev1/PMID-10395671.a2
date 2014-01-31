@@ -1,0 +1,16 @@
+T22	Binding 135 147	interactions
+T23	Positive_regulation 846 853	induced
+T24	Positive_regulation 925 932	induced
+T25	Binding 1006 1016	associated
+T26	Phosphorylation 1091 1106	phosphorylation
+T27	Positive_regulation 1107 1116	induction
+T28	Positive_regulation 1180 1189	induction
+T29	Binding 1204 1211	binding
+E1	Binding:T22 Theme:T4 Theme2:T5
+E2	Positive_regulation:T23 Theme:T10
+E3	Positive_regulation:T24 Theme:T12
+E4	Binding:T25 Theme:T13 Theme2:T14
+E5	Phosphorylation:T26 Theme:T15
+E6	Positive_regulation:T27 Theme:E5
+E7	Positive_regulation:T28 Theme:E8
+E8	Binding:T29 Theme:T17

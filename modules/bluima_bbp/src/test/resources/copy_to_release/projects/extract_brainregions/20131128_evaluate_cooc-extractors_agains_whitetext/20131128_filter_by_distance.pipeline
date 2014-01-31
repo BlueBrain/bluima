@@ -1,0 +1,15 @@
+
+cr: WhiteTextConnectionsCollectionReader
+ae: EvaluationPreprocessorAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.Cooccurrence
+
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.BrainRegion
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesByDistance
+#FIXME maximumDistance__java:
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator

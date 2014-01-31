@@ -1,0 +1,16 @@
+*	Equiv T3 T2
+T18	Negative_regulation 200 210	terminates
+T19	Gene_expression 227 237	expression
+T20	Positive_regulation 238 247	initiated
+T21	Entity 600 615	promoter region
+T22	Positive_regulation 839 848	inducible
+T23	Positive_regulation 1533 1543	activating
+T24	Transcription 1548 1561	transcription
+E1	Negative_regulation:T18 Theme:E2 Cause:T3
+E2	Gene_expression:T19 Theme:T4
+E3	Positive_regulation:T20 Theme:E2 Cause:T5
+E4	Positive_regulation:T22 Theme:T9 Cause:T11 Site:T21
+E5	Positive_regulation:T22 Theme:T9 Cause:T10 Site:T21
+E6	Positive_regulation:T22 Theme:T9 Cause:T12 Site:T21
+E7	Positive_regulation:T23 Theme:E8 Cause:T16
+E8	Transcription:T24 Theme:T17

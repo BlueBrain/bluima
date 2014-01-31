@@ -1,0 +1,58 @@
+# TestResult:
+#     precision:  0.16001033324722294
+#     recall:     1.0
+#     F1:         0.275877427400677
+# TestResult:
+#     precision:  0.7833163784333672
+#     recall:     0.9945108169195996
+#     F1:         0.8763693270735524
+# TestResult:
+#     precision:  0.7857881136950904
+#     recall:     0.9819179851469164
+#     F1:         0.8729725850437778
+# TestResult:
+#     precision:  0.7823013853548205
+#     recall:     0.8934452696157572
+#     F1:         0.8341875188423274
+# TestResult:
+#     precision:  0.7791858678955453
+#     recall:     0.6551501453019051
+#     F1:         0.711804946500614
+
+
+cr: WhiteTextConnectionsCollectionReader
+ae: EvaluationPreprocessorAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.Cooccurrence
+
+
+# 1: base
+ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
+ annot1: ch.epfl.bbp.uima.types.BrainRegion
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+# 2: jsre
+# PRE-PROC!
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
+ae: BlueBioLemmatizer
+ae: ch.epfl.bbp.uima.jsre.JsreFilterAnnotator
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+
+# 3: long sentences
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+# 4: FilterCoocurrencesIfTooManyBrainregions 10
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesIfTooManyEntities
+ maximumEntities__java: 10
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+
+# 5: FilterCoocurrencesIfTooManyBrainregions 5 
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesIfTooManyEntities
+ maximumEntities__java: 5
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+

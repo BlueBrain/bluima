@@ -1,0 +1,391 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">The neural code between neocortical pyramidal neurons depends on neurotransmitter release probability (synaptic plasticity񮽙synaptic depression񮽙action potential decoding񮽙neural networks)</title>
+			</titleStmt>
+			<publicationStmt>
+				<date type="published" when="1997-1">January 1997 . 1996 . 1996</date>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName>
+								<forename type="first">Misha</forename>
+								<forename type="middle">V</forename>
+								<surname>Tsodyks</surname>
+							</persName>
+							<affiliation>
+								<orgName type="department">Department of Neurobiology</orgName>
+								<orgName type="institution">Weizmann Institute of Science</orgName>
+								<address>
+									<postCode>76100</postCode>
+									<settlement>Rehovot</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName>
+								<forename type="first">Henry</forename>
+								<surname>Markram</surname>
+							</persName>
+							<affiliation>
+								<orgName type="institution" key="instit1">Israel Communicated by Leon N Cooper</orgName>
+								<orgName type="institution" key="instit2">Brown University</orgName>
+								<address>
+									<settlement>Providence</settlement>
+									<region>RI</region>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">The neural code between neocortical pyramidal neurons depends on neurotransmitter release probability (synaptic plasticity񮽙synaptic depression񮽙action potential decoding񮽙neural networks)</title>
+					</analytic>
+					<monogr>
+						<title level="j" type="main">Neurobiology November</title>
+						<imprint>
+							<biblScope type="vol">94</biblScope>
+							<biblScope type="issue">31</biblScope>
+							<biblScope type="fpage">719</biblScope>
+							<biblScope type="lpage">723</biblScope>
+							<date type="published" when="1997-1">January 1997 . 1996 . 1996</date>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<front>
+			<div type="abstract">
+				<head>ABSTRACT</head>
+<p>Although signaling between neurons is cen-tral to the functioning of the brain, we still do not understand how the code used in signaling depends on the properties of synaptic transmission. Theoretical analysis combined with patch clamp recordings from pairs of neocortical pyramidal neurons revealed that the rate of synaptic depression, which depends on the probability of neurotransmitter release, dic-tates the extent to which firing rate and temporal coherence of action potentials within a presynaptic population are signaled to the postsynaptic neuron. The postsynaptic re-sponse primarily ref lects rates of firing when depression is slow and temporal coherence when depression is fast. A wide range of rates of synaptic depression between different pairs of pyramidal neurons was found, suggesting that the relative contribution of rate and temporal signals varies along a continuum. We conclude that by setting the rate of synaptic depression, release probability is an important factor in determining the neural code. There is an ongoing debate on whether a cortical neuron is driven mainly by the average firing rates of presynaptic neurons or by temporally coherent firing events (see refs. 1–3). The important factor in this debate that has been overlooked is the constraints imposed by the properties of synaptic transmission between specific types of neurons. The striking feature of synaptic transmission between neocortical pyramidal neurons is activity-dependent synaptic depression, resulting in complex postsynaptic responses that cannot be reduced to a linear sum of responses to single presynaptic action potentials (APs) (4). To isolate the primary determinants of signaling between these neurons, we applied a combined approach based on dual whole-cell patch clamp recordings of layer 5 pyramidal neu-rons and a phenomenological model of synaptic transmission between these neurons. Preliminary results of this study were published in ref. 5. Some of the results presented here were independently obtained in ref. 6.</p>
+			</div>
+		</front>
+		<body>
+<p>Electrophysiology. Sagittal slices (300 񮽙M) were cut from the neocortex of Wistar rats (13–15 days; from the Weizmann Institute of Science) as described (7). While only immature synapses were studied, the behavior of this type of synaptic connection in the adult animal is similar (4). All experiments were performed at 30–32񮽙C. The extracellular solution contained 125 mM NaCl, 2.5 mM KCl, 25 mM glucose, 25 mM NaHCO 3 , 1.25 mM NaH 2 PO 4 , 2 mM CaCl 2 , and 1 mM MgCl 2 . Layer 5 pyramidal neurons from the somatosensory cortical</p>
+		</body>
+		<back>
+			<div type="references">
+<listBibl>
+<biblStruct xml:id="b0"><analytic>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<surname>Abeles</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Corticonics</title><imprint><publisher>Cambridge Univ. Press</publisher><date type="published" when="1991" /><publisher>Cambridge Univ. Press</publisher></imprint></monogr></biblStruct>
+<biblStruct xml:id="b1"><analytic>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">N</forename>
+				<surname>Shadlen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<forename type="middle">T</forename>
+				<surname>Newsome</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Curr. Opin. Neurobiol</title><imprint><biblScope type="vol">4</biblScope><biblScope type="fpage">569</biblScope><biblScope type="lpage">579</biblScope><date type="published" when="1994" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b2"><analytic>		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<forename type="middle">R</forename>
+				<surname>Softky</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Curr. Opin. Neurobiol</title><imprint><biblScope type="vol">5</biblScope><biblScope type="fpage">239</biblScope><biblScope type="lpage">247</biblScope><date type="published" when="1995" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b3"><analytic>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<forename type="middle">M</forename>
+				<surname>Thomson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<surname>Deuchars</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Trends Neurosci</title><imprint><biblScope type="vol">17</biblScope><biblScope type="fpage">119</biblScope><biblScope type="lpage">126</biblScope><date type="published" when="1994" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b4"><analytic>		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">V</forename>
+				<surname>Tsodyks</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Lect. Notes Comput. Sci</title><imprint><biblScope type="vol">1112</biblScope><biblScope type="fpage">445</biblScope><biblScope type="lpage">450</biblScope><date type="published" when="1996" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b5"><monogr>		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<forename type="middle">F</forename>
+				<surname>Abbott</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">A</forename>
+				<surname>Varela</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<surname>Kamal</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">S</forename>
+				<forename type="middle">B</forename>
+				<surname>Nelson</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<surname>Science</surname>
+			</persName>
+		</author>
+</monogr><note>in. press</note></biblStruct>
+<biblStruct xml:id="b6"><analytic>		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Markram</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">M</forename>
+				<forename type="middle">V</forename>
+				<surname>Tsodyks</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">382</biblScope><biblScope type="fpage">807</biblScope><biblScope type="lpage">810</biblScope><date type="published" when="1996" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b7"><monogr>		<author>
+			<persName>
+				<forename type="first">G</forename>
+				<forename type="middle">J</forename>
+				<surname>Stuart</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Dodt</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">-U</forename>
+				<surname>Sakmann</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">B</forename>
+			</persName>
+		</author>
+<imprint><date type="published" when="1992" /><publisher>Pflügers Arch</publisher><biblScope type="fpage">511</biblScope><biblScope type="lpage">518</biblScope></imprint></monogr></biblStruct>
+<biblStruct xml:id="b8"><analytic>		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Destexhe</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Z</forename>
+				<forename type="middle">F</forename>
+				<surname>Mainen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<forename type="middle">J</forename>
+				<surname>Sejnowski</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Comput. Neurosci</title><imprint><biblScope type="vol">1</biblScope><biblScope type="fpage">195</biblScope><biblScope type="lpage">230</biblScope><date type="published" when="1994" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b9"><analytic>		<author>
+			<persName>
+				<forename type="first">B</forename>
+				<forename type="middle">L</forename>
+				<surname>Mcnaughton</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<surname>Nadel</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">L</forename>
+				<forename type="middle">A</forename>
+				<surname>Cooper</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">P</forename>
+				<surname>Culicover</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">M</forename>
+				<surname>Harnish</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="m">Neural Connections, Mental Computation</title><meeting><address>Cambridge, MA</address></meeting><imprint><publisher>MIT Press</publisher><date type="published" when="1989" /><biblScope type="fpage">285</biblScope><biblScope type="lpage">350</biblScope></imprint></monogr></biblStruct>
+<biblStruct xml:id="b10"><analytic>		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<surname>Betz</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Physiol</title><imprint><biblScope type="vol">206</biblScope><biblScope type="fpage">629</biblScope><biblScope type="lpage">644</biblScope><date type="published" when="1970" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b11"><analytic>		<author>
+			<persName>
+				<forename type="first">H</forename>
+				<surname>Korn</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">D</forename>
+				<forename type="middle">S</forename>
+				<surname>Faber</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">Y</forename>
+				<surname>Burnod</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">A</forename>
+				<surname>Triller</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">4</biblScope><biblScope type="fpage">125</biblScope><biblScope type="lpage">130</biblScope><date type="published" when="1984" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b12"><analytic>		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Allen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<forename type="middle">F</forename>
+				<surname>Stevens</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="m">Proc. Natl. Acad. Sci. USA 91</title><meeting>. Natl. Acad. Sci. USA 91</meeting><imprint><date type="published" when="1994" /><biblScope type="fpage">10380</biblScope><biblScope type="lpage">10383</biblScope></imprint></monogr></biblStruct>
+<biblStruct xml:id="b13"><analytic>		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<forename type="middle">R</forename>
+				<surname>Softky</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">C</forename>
+				<surname>Koch</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">13</biblScope><biblScope type="fpage">334</biblScope><biblScope type="lpage">350</biblScope><date type="published" when="1993" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b14"><analytic>		<author>
+			<persName>
+				<forename type="first">Z</forename>
+				<forename type="middle">F</forename>
+				<surname>Mainen</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">T</forename>
+				<forename type="middle">J</forename>
+				<surname>Sejnowski</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Science</title><imprint><biblScope type="vol">268</biblScope><biblScope type="fpage">1503</biblScope><biblScope type="lpage">1506</biblScope><date type="published" when="1995" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b15"><analytic>		<author>
+			<persName>
+				<forename type="first">W</forename>
+				<surname>Singer</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Int. Rev. Neurobiol</title><imprint><biblScope type="vol">37</biblScope><biblScope type="fpage">153</biblScope><biblScope type="lpage">183</biblScope><date type="published" when="1994" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b16"><analytic>		<author>
+			<persName>
+				<forename type="first">J</forename>
+				<forename type="middle">J</forename>
+				<surname>Hopfield</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">Nature</title><imprint><biblScope type="vol">376</biblScope><biblScope type="fpage">33</biblScope><biblScope type="lpage">36</biblScope><date type="published" when="1995" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b17"><analytic>		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<forename type="middle">J</forename>
+				<surname>Valentino</surname>
+			</persName>
+		</author>
+		<author>
+			<persName>
+				<forename type="first">R</forename>
+				<surname>Dingledine</surname>
+			</persName>
+		</author>
+</analytic><monogr><title level="j">J. Neurosci</title><imprint><biblScope type="vol">1</biblScope><biblScope type="fpage">784</biblScope><biblScope type="lpage">792</biblScope><date type="published" when="1981" /></imprint></monogr></biblStruct>
+<biblStruct xml:id="b18"><monogr></monogr></biblStruct>
+<biblStruct xml:id="b19"><monogr></monogr></biblStruct>
+<biblStruct xml:id="b20"><monogr></monogr></biblStruct>
+<biblStruct xml:id="b21"><monogr><imprint><biblScope type="pp">85</biblScope></imprint></monogr></biblStruct>
+<biblStruct xml:id="b22"><monogr>		<author>
+			<persName>
+				<surname>80</surname>
+			</persName>
+		</author>
+</monogr></biblStruct>
+<biblStruct xml:id="b23"><monogr><imprint><biblScope type="pp">71</biblScope></imprint></monogr></biblStruct>
+<biblStruct xml:id="b24"><monogr><imprint><biblScope type="pp">65</biblScope></imprint></monogr></biblStruct>
+<biblStruct xml:id="b25"><monogr></monogr></biblStruct>
+<biblStruct xml:id="b26"><monogr></monogr></biblStruct>
+<biblStruct xml:id="b27"><monogr>		<author>
+			<persName>
+				<surname>83</surname>
+			</persName>
+		</author>
+</monogr></biblStruct>
+<biblStruct xml:id="b28"><monogr></monogr></biblStruct>
+<biblStruct xml:id="b29"><monogr></monogr></biblStruct>
+<biblStruct xml:id="b30"><monogr></monogr></biblStruct>
+<biblStruct xml:id="b31"><monogr></monogr></biblStruct>
+<biblStruct xml:id="b32"><analytic><title level="a" type="main">90 See Methods for definitions Lowercase letters indicate the exon level; uppercase, the base-pair level</title></analytic><monogr><title level="m">Corrections Proc. Natl. Acad. Sci. USA 94</title><imprint><date type="published" when="1997" /><biblScope type="pp">5495</biblScope></imprint></monogr></biblStruct></listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

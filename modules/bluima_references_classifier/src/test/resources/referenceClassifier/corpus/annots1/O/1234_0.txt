@@ -1,0 +1,23 @@
+coding to discover what statistics of the inputs are encoded in the
+outputs. In macaque retina and lateral geniculate nucleus, we find
+that the single neuron responses to naturalistic stimuli are well
+described with only first and second order moments constrained.
+Thus, the vast majority of the information encoded in the spiking
+of these cells is related only to the first and second order statistics of
+the inputs.
+To begin, consider a system which at each moment in time
+receives a D-dimensional input x(t)~(x1(t),...,xD(t)) from a
+known distribution P(x), such as a neuron receiving a sensory
+stimulus or post-synaptic potentials. The system then performs
+some computation to determine the output y(t) according to its
+response function P(yDx). The complete input/output correlation
+structure, i.e. all moments involving y and x, can be calculated
+from this function throughÐ the joint distribution
+P(y,x)~P(yDx)P(x), e.g. SyxiT~ P(y,x)yxidydx. Alternatively, the full list of such moments contains the same information
+about the computation as the response function itself, although
+such a list is infinite and experimentally impossible to obtain.
+However, a partial list is usually obtainable, and as a first step we
+can force the input/output correlations from the model to match
+those which are known from the data. The problem is then
+choosing from the infinite number of models that agree with those
+constraints. Following the argument of Jaynes [9,10], we seek the

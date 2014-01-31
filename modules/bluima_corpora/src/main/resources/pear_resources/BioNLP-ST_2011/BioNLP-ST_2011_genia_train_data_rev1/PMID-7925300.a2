@@ -1,0 +1,36 @@
+T18	Positive_regulation 502 509	induced
+T19	Entity 510 517	nuclear
+T20	Localization 518 531	translocation
+T21	Phosphorylation 635 649	phosphorylated
+T22	Phosphorylation 819 833	phosphorylated
+T23	Protein_catabolism 952 963	degradation
+T24	Phosphorylation 1018 1033	phosphorylation
+T25	Negative_regulation 1042 1049	impedes
+T26	Binding 1065 1073	interact
+T27	Phosphorylation 1180 1194	phosphorylated
+T28	Positive_regulation 1201 1210	induction
+T29	Binding 1476 1492	binding activity
+T30	Positive_regulation 1526 1534	enhanced
+E1	Positive_regulation:T18 Theme:E4 Cause:T1
+E2	Positive_regulation:T18 Theme:E6 Cause:T1
+E3	Positive_regulation:T18 Theme:E5 Cause:T1
+E4	Localization:T20 Theme:T2 ToLoc:T19
+E5	Localization:T20 Theme:T4 ToLoc:T19
+E6	Localization:T20 Theme:T3 ToLoc:T19
+E7	Phosphorylation:T21 Theme:T5
+E8	Phosphorylation:T22 Theme:T7
+E9	Phosphorylation:T22 Theme:T6
+E10	Protein_catabolism:T23 Theme:T10
+E11	Phosphorylation:T24 Theme:T12
+E12	Phosphorylation:T24 Theme:T11
+E13	Negative_regulation:T25 Theme:E16 Cause:E12
+E14	Negative_regulation:T25 Theme:E15 Cause:E11
+E15	Binding:T26 Theme:T12
+E16	Binding:T26 Theme:T11
+E17	Phosphorylation:T27 Theme:T13
+E18	Phosphorylation:T27 Theme:T14
+E19	Positive_regulation:T28 Theme:T14
+E20	Positive_regulation:T28 Theme:T13
+E21	Binding:T29 Theme:T16
+E22	Positive_regulation:T30 Theme:E21
+M1	Negation E3

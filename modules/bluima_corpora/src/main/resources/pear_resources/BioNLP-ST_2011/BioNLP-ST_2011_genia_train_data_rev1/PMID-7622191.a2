@@ -1,0 +1,29 @@
+T11	Positive_regulation 13 20	induces
+T12	Entity 92 130	protein kinase C-independent mechanism
+T13	Positive_regulation 358 365	induced
+T14	Positive_regulation 470 479	increases
+T15	Positive_regulation 587 595	increase
+T16	Regulation 765 783	synergistic action
+T17	Gene_expression 799 809	expression
+T18	Positive_regulation 838 844	induce
+T19	Positive_regulation 900 907	induced
+T20	Negative_regulation 923 932	inhibited
+T21	Positive_regulation 982 989	induced
+T22	Negative_regulation 1006 1015	inhibited
+T23	Positive_regulation 1110 1117	induces
+E1	Positive_regulation:T11 Theme:T1 Cause:E2
+E2	Positive_regulation:T11 Theme:T1 Site:T12
+E3	Positive_regulation:T13 Theme:T2
+E4	Positive_regulation:T14 Theme:T3
+E5	Positive_regulation:T14 Theme:T4
+E6	Positive_regulation:T15 Theme:T5
+E7	Regulation:T16 Theme:E8
+E8	Gene_expression:T17 Theme:T6
+E9	Positive_regulation:T18 Theme:T7
+E10	Positive_regulation:T19 Theme:T8
+E11	Negative_regulation:T20 Theme:E10
+E12	Positive_regulation:T21 Theme:T9
+E13	Negative_regulation:T22 Theme:E12
+E14	Positive_regulation:T23 Theme:T10
+M1	Negation E3
+M2	Negation E13

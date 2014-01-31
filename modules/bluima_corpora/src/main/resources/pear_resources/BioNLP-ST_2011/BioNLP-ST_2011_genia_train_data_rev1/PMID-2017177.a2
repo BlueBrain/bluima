@@ -1,0 +1,8 @@
+T5	Binding 67 74	through
+T6	Gene_expression 441 450	expressed
+T7	Gene_expression 631 641	expression
+T8	Gene_expression 712 721	expressed
+E1	Binding:T5 Theme:T1
+E2	Gene_expression:T6 Theme:T2
+E3	Gene_expression:T7 Theme:T3
+E4	Gene_expression:T8 Theme:T3

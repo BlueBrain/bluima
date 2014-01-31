@@ -1,0 +1,63 @@
+T31	Positive_regulation 80 88	Enhanced
+T32	Transcription 94 107	transcription
+T33	Binding 168 183	content of AP-1
+T34	Positive_regulation 408 437	provide costimulatory signals
+T35	Binding 467 468	:
+T36	Binding 531 535	pair
+T37	Positive_regulation 573 584	enhancement
+T38	Gene_expression 593 603	production
+T39	Positive_regulation 793 799	causes
+T40	Positive_regulation 800 809	increased
+T41	Positive_regulation 845 854	increased
+T42	Transcription 860 873	transcription
+T43	Regulation 908 915	effects
+T44	Regulation 957 965	regulate
+T45	Transcription 971 984	transcription
+T46	Gene_expression 1098 1105	express
+T47	Regulation 1160 1167	altered
+T48	Transcription 1247 1253	absent
+T49	Positive_regulation 1282 1289	induced
+T50	Positive_regulation 1325 1331	induce
+T51	Positive_regulation 1347 1354	augment
+T52	Binding 1605 1609	bind
+T53	Entity 1617 1635	proximal AP-1 site
+T54	Regulation 1944 1952	involved
+T55	Regulation 1961 1971	regulation
+T56	Regulation 2157 2185	is a key molecular mechanism
+T57	Positive_regulation 2190 2200	increasing
+T58	Transcription 2206 2219	transcription
+E1	Positive_regulation:T31 Theme:E2
+E2	Transcription:T32 Theme:T1
+E3	Binding:T33 Theme:T5
+E4	Positive_regulation:T34 Theme:E7
+E5	Positive_regulation:T34 Theme:E6
+E6	Binding:T35 Theme:T4 Theme2:T5
+E7	Binding:T36 Theme:T4
+E8	Positive_regulation:T37 Theme:E9
+E9	Gene_expression:T38 Theme:T6
+E10	Positive_regulation:T39 Theme:E11 Cause:E12
+E11	Positive_regulation:T40 Theme:T7
+E12	Positive_regulation:T41 Theme:E13
+E13	Transcription:T42 Theme:T8
+E14	Regulation:T43 Theme:T10
+E15	Regulation:T43 Theme:T11
+E16	Regulation:T44 Theme:E18 Cause:T11
+E17	Regulation:T44 Theme:E18 Cause:T10
+E18	Transcription:T45 Theme:T9
+E19	Gene_expression:T46 Theme:T12
+E20	Regulation:T47 Theme:T13
+E21	Transcription:T48 Theme:T15
+E22	Positive_regulation:T49 Theme:T15
+E23	Positive_regulation:T50 Theme:T17
+E24	Positive_regulation:T51 Theme:T18
+E25	Binding:T52 Theme:T22 Site:T53
+E26	Regulation:T54 Theme:E27
+E27	Regulation:T55 Theme:T29
+E28	Regulation:T56 Theme:E29 Cause:E30
+E29	Positive_regulation:T57 Theme:E30
+E30	Transcription:T58 Theme:T30
+M1	Speculation E14
+M2	Speculation E15
+M3	Negation E20
+M4	Negation E21
+M5	Negation E23

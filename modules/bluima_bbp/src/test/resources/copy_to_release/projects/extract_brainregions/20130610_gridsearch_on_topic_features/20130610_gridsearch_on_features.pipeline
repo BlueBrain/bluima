@@ -1,0 +1,117 @@
+# GridSearchConfiguration to evaluate features FROM TOPIC_MODEL on vizcluster
+# needs hack in BrainRegionAnnotator
+# ->                     if (f>2) break;//FIXME
+#                    }
+#                    experiment.add(trail);
+#                }
+#                LOG.error("RRReport ", experiment.getReport());
+# ->             LOG.error("Done here, forcing exit");
+# ->             System.exit(0);//FIXME
+
+cr: WhiteTextCollectionReader
+# maxNrResults__java: 3
+
+
+ae: StaticConfiguration
+ # 1: top1
+ # 2: staged
+ # 3: topNTopics and minProb (see below)
+ o1: topScenario integer $1
+
+ae: GridSearchConfiguration
+ # 0-55 (7 x 8)
+ combinaisonIndex__java: $2
+ o1: topNTopics integer 1 2 3 4 5 8 10
+ o2: minProb dble 0.01 0.02 0.05 0.1 0.2 0.3 0.4 0.5 1
+
+# below is same as 20130525_exploit_pubmed_ns.pipeline
+
+# WARNING: needed to fix some preprocessing and find the right token_freq file (tabs and lemmatized!)
+
+
+include: ../../../includes/preprocess.incl
+
+# lexicon-based from MT
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/age")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/disease")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/ionchannel")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/method")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/molecule")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/organism")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/region")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/sex")
+
+# lexicon-based from Biolexicon, OBO & co
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/biolexicon/biolexicon_senses")
+
+# ok??
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/neuronames")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/cell")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/disease")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/protein")
+
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/verb")
+
+######################
+ae: PunctuationAnnotator
+
+ae: WordnetAnnotator
+
+ae: GeneralEnglishAnnotator
+
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+
+ae: PruneMeasuresAnnotator
+
+ae: LinnaeusAnnotator
+
+
+######################
+ae: SkipSomePosAnnotator
+
+ae: ViterbiFilterAnnotator
+
+# DCA #######################################
+
+ae: FeatureTokensFilterAnnotator2
+ caseSensitive: false
+ tokenFrequencyFile: $ROOT/modules/bluima_topic_models/resources/models/20130309_preprocess_pubmed_ns.pipeline_min/dca/20130405_token_frequency_min10
+ minimumFrequency: 100
+ maximumFrequency__java: Integer.MAX_VALUE
+ stopwordsFilePath: $ROOT/modules/bluima_topic_models/src/main/resources/stoplists/mallet_stopwords_en.txt
+
+ae: FeatureTokensExtractionAnnotator2
+
+ae: ch.epfl.bbp.uima.topicmodels.annotators.DCATopicModelsAnnotator
+ dcaDirectoryPath: $ROOT/modules/bluima_topic_models/resources/models/20130309_preprocess_pubmed_ns.pipeline_min/dca
+ dcaStem: dca
+ inferenceIterations: 100
+ inferenceBurnin: 20
+
+#ae: ch.epfl.bbp.uima.topicmodels.writers.exploitation.AnnotateTokensWithTopicWriter
+# outputDir: target
+# latexOutput: true
+ 
+#ae: ch.epfl.bbp.uima.topicmodels.writers.exploitation.TopicDistributionWriter
+# outputDir: target
+# command: R --vanilla --slave -f $ROOTmodules/bluima_topic_models/scripts/plot_doc_topic_distribution.R --args {input} {output}
+
+
+# MALLET BRAINREGION NER ##################################
+
+ae: BrainRegionAnnotator
+ mode: eval
+ trials__java: 1; 
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

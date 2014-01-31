@@ -1,0 +1,45 @@
+*	Equiv T53 T54
+T56	Negative_regulation 156 163	inhibit
+T57	Gene_expression 168 178	expression
+T58	Regulation 242 250	modulate
+T59	Binding 395 406	interacting
+T60	Gene_expression 1110 1120	expression
+T61	Negative_regulation 1749 1757	Deletion
+T62	Entity 1765 1775	FKH domain
+T63	Gene_expression 2020 2030	expression
+T64	Negative_regulation 2394 2403	inhibitor
+T65	Positive_regulation 2412 2422	activation
+T66	Gene_expression 2661 2671	expression
+T67	Binding 3051 3062	interacting
+T68	Binding 3198 3202	bind
+T69	Negative_regulation 3359 3364	block
+T70	Gene_expression 3383 3393	expression
+T71	Binding 3621 3632	interaction
+T72	Negative_regulation 3779 3788	interfere
+T73	Binding 3866 3877	recruitment
+E1	Negative_regulation:T56 Theme:E2 Cause:T2
+E2	Gene_expression:T57 Theme:T4
+E3	Regulation:T58 Theme:T6 Cause:T5
+E4	Binding:T59 Theme:T7
+E5	Gene_expression:T60 Theme:T11
+E6	Negative_regulation:T61 Theme:T19 Site:T62
+E7	Gene_expression:T63 Theme:T21
+E8	Gene_expression:T63 Theme:T22
+E9	Negative_regulation:T64 Theme:E10 Cause:T28
+E10	Positive_regulation:T65 Theme:T29
+E11	Gene_expression:T66 Theme:T36
+E12	Gene_expression:T66 Theme:T37
+E13	Binding:T67 Theme:T41 Theme2:T42
+E14	Binding:T68 Theme:T45
+E15	Negative_regulation:T69 Theme:E16
+E16	Gene_expression:T70 Theme:T48
+E17	Binding:T71 Theme:T50 Theme2:T51
+E18	Negative_regulation:T72 Theme:E19 Cause:T52
+E20	Negative_regulation:T72 Theme:E21 Cause:T52
+E19	Binding:T73 Theme:T53
+E21	Binding:T73 Theme:T55
+M1	Negation E3
+M2	Speculation E4
+M3	Negation E17
+M4	Speculation E18
+M5	Speculation E20

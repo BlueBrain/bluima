@@ -1,0 +1,97 @@
+*	Equiv T6 T7
+*	Equiv T43 T44
+T56	Gene_expression 68 77	Producing
+T57	Gene_expression 126 137	coproducing
+T58	Positive_regulation 355 359	rise
+T59	Gene_expression 373 383	expressing
+T60	Gene_expression 605 614	expressed
+T61	Positive_regulation 797 805	resulted
+T62	Gene_expression 819 828	producing
+T63	Gene_expression 862 872	coproduced
+T64	Negative_regulation 969 973	lack
+T65	Gene_expression 983 991	produced
+T66	Positive_regulation 1005 1013	resulted
+T67	Negative_regulation 1019 1029	inhibition
+T68	Gene_expression 1039 1049	production
+T69	Positive_regulation 1291 1298	induced
+T70	Gene_expression 1309 1319	expression
+T71	Gene_expression 1349 1359	expression
+T72	Positive_regulation 1412 1418	induce
+T73	Gene_expression 1437 1447	production
+T74	Gene_expression 1592 1601	producing
+T75	Gene_expression 1623 1631	produced
+T76	Positive_regulation 1632 1636	more
+T77	Gene_expression 1726 1735	producing
+T78	Positive_regulation 1742 1750	required
+T79	Gene_expression 1817 1824	produce
+T80	Negative_regulation 1866 1870	lost
+T81	Gene_expression 1888 1895	produce
+T82	Gene_expression 2063 2073	production
+T83	Gene_expression 2105 2114	producing
+T84	Negative_regulation 2150 2157	limited
+T85	Negative_regulation 2234 2243	deficient
+T86	Positive_regulation 2320 2328	resulted
+T87	Gene_expression 2338 2348	expression
+T88	Positive_regulation 2400 2409	dependent
+T89	Positive_regulation 2530 2536	induce
+T90	Negative_regulation 2696 2710	neutralization
+T91	Positive_regulation 2730 2739	increased
+T92	Gene_expression 2746 2756	production
+T93	Gene_expression 2822 2831	producing
+T94	Positive_regulation 2847 2855	depended
+E1	Gene_expression:T56 Theme:T2
+E2	Gene_expression:T57 Theme:T3
+E3	Gene_expression:T57 Theme:T4
+E4	Positive_regulation:T58 Theme:E5
+E6	Positive_regulation:T58 Theme:E7
+E5	Gene_expression:T59 Theme:T8
+E7	Gene_expression:T59 Theme:T9
+E8	Gene_expression:T60 Theme:T10
+E9	Gene_expression:T60 Theme:T11
+E10	Positive_regulation:T61 Theme:E11 Cause:T15
+E12	Positive_regulation:T61 Theme:E13 Cause:T15
+E11	Gene_expression:T62 Theme:T16
+E13	Gene_expression:T63 Theme:T17
+E14	Negative_regulation:T64 Theme:T19
+E15	Gene_expression:T65 Theme:T19
+E16	Positive_regulation:T66 Theme:E14 Cause:E17
+E17	Negative_regulation:T67 Theme:E18
+E18	Gene_expression:T68 Theme:T20
+E19	Positive_regulation:T69 Theme:E20 Cause:T24
+E21	Positive_regulation:T69 Theme:E22 Cause:T24
+E20	Gene_expression:T70 Theme:T25
+E22	Gene_expression:T71 Theme:T26
+E23	Positive_regulation:T72 Theme:E24 Cause:T27
+E24	Gene_expression:T73 Theme:T28
+E25	Gene_expression:T74 Theme:T30
+E26	Gene_expression:T75 Theme:T31
+E27	Positive_regulation:T76 Theme:E26
+E28	Gene_expression:T77 Theme:T32
+E29	Positive_regulation:T78 Theme:E28 Cause:T33
+E30	Gene_expression:T79 Theme:T34
+E31	Gene_expression:T79 Theme:T35
+E32	Negative_regulation:T80 Theme:E33
+E33	Gene_expression:T81 Theme:T36
+E34	Gene_expression:T82 Theme:T39
+E35	Gene_expression:T83 Theme:T40
+E36	Negative_regulation:T84 Theme:T41
+E37	Negative_regulation:T85 Theme:T43
+E38	Positive_regulation:T86 Theme:E39 Cause:T45
+E39	Gene_expression:T87 Theme:T46
+E40	Positive_regulation:T88 Theme:E39
+E41	Positive_regulation:T89 Theme:T48 Cause:T47
+E42	Negative_regulation:T90 Theme:T50
+E43	Positive_regulation:T91 Theme:E44 Cause:E42
+E44	Gene_expression:T92 Theme:T51
+E45	Gene_expression:T93 Theme:T52
+E46	Positive_regulation:T94 Theme:E45 Cause:T53
+E47	Positive_regulation:T94 Theme:E45 Cause:T54
+E48	Positive_regulation:T94 Theme:E45 Cause:T55
+M1	Negation E7
+M2	Speculation E16
+M3	Negation E23
+M4	Speculation E23
+M5	Negation E40
+M6	Speculation E41
+M7	Negation E47
+M8	Negation E48

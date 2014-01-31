@@ -1,0 +1,45 @@
+*	Equiv T6 T7
+T11	Regulation 0 10	Regulation
+T12	Gene_expression 25 35	expression
+T13	Transcription 340 353	transcription
+T14	Gene_expression 358 368	expression
+T15	Regulation 546 558	plays a role
+T16	Positive_regulation 580 587	induced
+T17	Gene_expression 593 603	expression
+T18	Positive_regulation 660 665	leads
+T19	Negative_regulation 669 678	decreased
+T20	Gene_expression 684 694	expression
+T21	Entity 788 796	promoter
+T22	Positive_regulation 802 813	contributes
+T23	Gene_expression 834 847	Co-expression
+T24	Entity 877 885	promoter
+T25	Positive_regulation 886 894	enhanced
+T26	Negative_regulation 951 960	inhibited
+T27	Positive_regulation 965 974	inducible
+T28	Positive_regulation 1044 1052	required
+T29	Entity 1081 1089	promoter
+T30	Regulation 1123 1127	role
+T31	Positive_regulation 1145 1154	mediating
+T32	Gene_expression 1160 1170	expression
+E1	Regulation:T11 Theme:E2
+E2	Gene_expression:T12 Theme:T1
+E3	Transcription:T13 Theme:T2
+E4	Gene_expression:T14 Theme:T2
+E5	Regulation:T15 Theme:E6
+E6	Positive_regulation:T16 Theme:E7
+E7	Gene_expression:T17 Theme:T3
+E8	Positive_regulation:T18 Theme:E9
+E9	Negative_regulation:T19 Theme:E10
+E10	Gene_expression:T20 Theme:T4
+E11	Positive_regulation:T22 Theme:E8 Cause:T5 CSite:T21
+E12	Gene_expression:T23 Theme:T6
+E13	Gene_expression:T23 Theme:T8
+E14	Positive_regulation:T25 Theme:T8 Cause:E13 Site:T24
+E15	Positive_regulation:T25 Theme:T8 Cause:E12 Site:T24
+E16	Negative_regulation:T26 Theme:T8 Site:T24
+E17	Positive_regulation:T27 Theme:T8 Site:T24
+E18	Positive_regulation:T28 Theme:T9 Site:T29
+E19	Regulation:T30 Theme:E20
+E20	Positive_regulation:T31 Theme:E21
+E21	Gene_expression:T32 Theme:T10
+M1	Negation E18

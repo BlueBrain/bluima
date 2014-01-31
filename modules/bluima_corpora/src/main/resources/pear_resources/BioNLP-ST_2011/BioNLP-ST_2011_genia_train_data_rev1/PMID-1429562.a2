@@ -1,0 +1,22 @@
+T5	Regulation 4 14	regulation
+T6	Entity 56 71	promoter region
+T7	Entity 173 188	promoter region
+T8	Positive_regulation 445 452	induced
+T9	Negative_regulation 981 990	reduction
+T10	Entity 998 1006	promoter
+T11	Negative_regulation 1102 1112	diminished
+T12	Positive_regulation 1136 1145	activated
+T13	Gene_expression 1170 1186	co-transfections
+T14	Positive_regulation 1170 1186	co-transfections
+T15	Positive_regulation 1272 1281	augmented
+T16	Positive_regulation 1296 1303	induced
+E1	Regulation:T5 Theme:T1 Site:T6
+E2	Positive_regulation:T8 Theme:T2 Site:T7
+E3	Negative_regulation:T9 Theme:T3 Site:T10
+E4	Negative_regulation:T11 Theme:E6
+E5	Negative_regulation:T11 Theme:T3 Site:T10
+E6	Positive_regulation:T12 Theme:T3 Site:T10
+E7	Gene_expression:T13 Theme:T4
+E8	Positive_regulation:T14 Theme:E7
+E9	Positive_regulation:T15 Theme:T3 Cause:E8 Site:T10
+E10	Positive_regulation:T16 Theme:T3 Site:T10

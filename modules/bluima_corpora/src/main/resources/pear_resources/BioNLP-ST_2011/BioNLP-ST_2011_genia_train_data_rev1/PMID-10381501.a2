@@ -1,0 +1,23 @@
+T22	Regulation 74 84	regulating
+T23	Gene_expression 92 102	expression
+T24	Positive_regulation 501 508	induces
+T25	Gene_expression 513 523	expression
+T26	Positive_regulation 984 993	stimulate
+T27	Gene_expression 1006 1016	expression
+T28	Regulation 1233 1252	downstream effector
+E1	Regulation:T22 Theme:E3 Cause:T1
+E2	Regulation:T22 Theme:E3 Cause:T2
+E3	Gene_expression:T23 Theme:T3
+E4	Positive_regulation:T24 Theme:E9 Cause:T7
+E5	Positive_regulation:T24 Theme:E8 Cause:T7
+E6	Positive_regulation:T24 Theme:E7 Cause:T7
+E7	Gene_expression:T25 Theme:T9
+E8	Gene_expression:T25 Theme:T8
+E9	Gene_expression:T25 Theme:T10
+E10	Positive_regulation:T26 Theme:E12 Cause:T15
+E11	Positive_regulation:T26 Theme:E12 Cause:T16
+E12	Gene_expression:T27 Theme:T17
+E13	Regulation:T28 Theme:T19 Cause:T21
+E14	Regulation:T28 Theme:T19 Cause:T20
+M1	Negation E4
+M2	Negation E6

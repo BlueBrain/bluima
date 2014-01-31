@@ -1,0 +1,8 @@
+datastem="dca"
+documents=1030546
+features=28756
+mean_featurecount=76.697311
+#  count of components (topics) to use
+components=200
+# flag to switch on fitting of hyper-parameters
+alpha_update

@@ -1,0 +1,24 @@
+*	Equiv T18 T17
+T25	Binding 0 16	Homodimerization
+T26	Binding 396 403	binding
+T27	Negative_regulation 649 659	deficiency
+T28	Gene_expression 728 732	lack
+T29	Positive_regulation 1163 1170	induces
+T30	Positive_regulation 1193 1203	activation
+T31	Positive_regulation 1422 1433	transfected
+T32	Gene_expression 1422 1433	transfected
+T33	Gene_expression 1489 1498	expressed
+T34	Binding 1519 1533	as a homodimer
+T35	Binding 1618 1634	homodimerization
+E1	Binding:T25 Theme:T1
+E2	Binding:T26 Theme:T5 Theme2:T6
+E3	Negative_regulation:T27 Theme:T11
+E4	Gene_expression:T28 Theme:T13
+E5	Positive_regulation:T29 Theme:E6
+E6	Positive_regulation:T30 Theme:T18
+E7	Positive_regulation:T31 Theme:E8
+E8	Gene_expression:T32 Theme:T22
+E9	Gene_expression:T33 Theme:T22
+E10	Binding:T34 Theme:T22
+E11	Binding:T35 Theme:T23
+M1	Negation E4

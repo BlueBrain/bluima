@@ -1,0 +1,21 @@
+T10	Phosphorylation 363 378	phosphorylation
+T11	Protein_catabolism 383 394	degradation
+T12	Positive_regulation 631 653	synergistic activation
+T13	Regulation 817 828	responsible
+T14	Phosphorylation 845 860	phosphorylation
+T15	Positive_regulation 877 885	mediated
+T16	Negative_regulation 995 1003	reverses
+T17	Phosphorylation 1055 1070	phosphorylation
+T18	Regulation 1182 1188	target
+E1	Phosphorylation:T10 Theme:T1
+E2	Protein_catabolism:T11 Theme:T1
+E3	Positive_regulation:T12 Theme:T3
+E4	Regulation:T13 Theme:E6 Cause:T4
+E5	Regulation:T13 Theme:E6
+E6	Phosphorylation:T14 Theme:T5
+E7	Positive_regulation:T15 Theme:E6
+E8	Negative_regulation:T16 Theme:E9
+E9	Phosphorylation:T17 Theme:T6
+E10	Regulation:T18 Theme:T9
+M1	Negation E3
+M2	Negation E4

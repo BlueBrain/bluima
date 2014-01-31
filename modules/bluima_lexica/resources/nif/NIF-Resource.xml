@@ -1,0 +1,342 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<synonym>
+<token canonical="Instrument manufacture" ref_id="nlx_res_20090426">
+  <variant base="Instrument manufacture resource" />
+  <variant base="Instrument manufacture" />
+</token>
+<token canonical="Cell repository" ref_id="birnlex_2479_2">
+  <variant base="Cell repository" />
+  <variant base="Cell bank" />
+</token>
+<token canonical="Biomaterial manufacture" ref_id="nlx_res_20090425">
+  <variant base="Biomaterial manufacture resource" />
+  <variant base="Biomaterial manufacture" />
+</token>
+<token canonical="Biomaterial repository" ref_id="birnlex_2476_2">
+  <variant base="Biomaterial repository" />
+  <variant base="Biomaterial" />
+</token>
+<token canonical="Material analysis service" ref_id="nlx_res_20090424">
+  <variant base="Material analysis service" />
+  <variant base="Material analysis service resource" />
+</token>
+<token canonical="Data analysis service" ref_id="nlx_res_20090423">
+  <variant base="Data analysis service" />
+  <variant base="Data computation service resource" />
+</token>
+<token canonical="Organism supplier" ref_id="nlx_res_090901">
+  <variant base="Organism repository" />
+  <variant base="Organism supplier" />
+</token>
+<token canonical="Material storage repository" ref_id="nlx_res_20090429">
+  <variant base="Material storage repository resource" />
+  <variant base="Material storage repository" />
+</token>
+<token canonical="Data storage repository" ref_id="nlx_res_20090428">
+  <variant base="Data storage service" />
+  <variant base="Data storage repository" />
+</token>
+<token canonical="Brain bank" ref_id="birnlex_2478_2">
+  <variant base="Brain bank" />
+</token>
+<token canonical="Reagent manufacture" ref_id="nlx_res_20090427">
+  <variant base="Reagent manufacture" />
+  <variant base="Reagent manufacture resource" />
+</token>
+<token canonical="Spatially referenced dataset" ref_id="nlx_res_090905">
+  <variant base="Spatially referenced dataset" />
+</token>
+<token canonical="Reference atlas" ref_id="nlx_res_090904">
+  <variant base="Reference atlas" />
+</token>
+<token canonical="Audio track" ref_id="nlx_res_090909">
+  <variant base="Audio clip" />
+  <variant base="Audio track" />
+</token>
+<token canonical="Downloadable Database" ref_id="nlx_res_090908">
+  <variant base="Downloadable Database" />
+</token>
+<token canonical="Multimedia" ref_id="nlx_res_090907">
+  <variant base="Multimedia" />
+</token>
+<token canonical="Data citation service" ref_id="nlx_151392">
+  <variant base="Data citation service" />
+</token>
+<token canonical="Tissue bank" ref_id="birnlex_2477_2">
+  <variant base="Tissue bank" />
+</token>
+<token canonical="Behavioral analysis service" ref_id="nlx_res_20090421">
+  <variant base="Behavioral analysis service" />
+</token>
+<token canonical="Biomaterial analysis service" ref_id="nlx_res_20090422">
+  <variant base="Biomaterial analysis service" />
+</token>
+<token canonical="Analysis service resource" ref_id="nlx_res_20090420">
+  <variant base="Analysis service resource" />
+</token>
+<token canonical="Assessment test provider" ref_id="nlx_res_20090413">
+  <variant base="Assessment test" />
+  <variant base="Assessment test provider" />
+  <variant base="Assessment material resource" />
+</token>
+<token canonical="Experimental protocol" ref_id="nlx_res_20090412">
+  <variant base="protocol" />
+  <variant base="Experimental protocol" />
+</token>
+<token canonical="Reagent supplier" ref_id="nlx_res_20090415">
+  <variant base="Reagents" />
+  <variant base="Reagent provider" />
+  <variant base="Reagent resource" />
+  <variant base="Reagent" />
+  <variant base="Reagent supplier" />
+</token>
+<token canonical="Biomaterial supply resource" ref_id="nlx_res_20090414">
+  <variant base="Biomaterial supply resource" />
+  <variant base="Biomaterial supply" />
+  <variant base="Biomaterial supplies" />
+</token>
+<token canonical="Production service resource" ref_id="nlx_res_20090416">
+  <variant base="Protocol realizing service" />
+  <variant base="Production service resource" />
+</token>
+<token canonical="Storage service resource" ref_id="nlx_res_20090419">
+  <variant base="Storage service resource" />
+</token>
+<token canonical="Material service resource" ref_id="nlx_res_20090418">
+  <variant base="Material service resource" />
+</token>
+<token canonical="Narrative resource" ref_id="nlx_res_20090410">
+  <variant base="Narrative resource" />
+</token>
+<token canonical="Bibliography" ref_id="nlx_res_20090411">
+  <variant base="Bibliography" />
+  <variant base="Bibliographic resource" />
+</token>
+<token canonical="Short course" ref_id="nlx_res_090923">
+  <variant base="Short course" />
+</token>
+<token canonical="Clinical knowledge base resource" ref_id="nlx_res_20090408">
+  <variant base="Clinical knowledge base resource" />
+</token>
+<token canonical="Professional program resource" ref_id="nlx_res_20090442">
+  <variant base="Professional program resource" />
+  <variant base="Professional program" />
+</token>
+<token canonical="Outreach program" ref_id="nlx_res_090922">
+  <variant base="Outreach program" />
+</token>
+<token canonical="Basic research knowledge base resource" ref_id="nlx_res_20090407">
+  <variant base="Basic research knowledge base resource" />
+</token>
+<token canonical="Postdoctoral program resource" ref_id="nlx_res_20090441">
+  <variant base="Postdoc fellowship" />
+  <variant base="Postdoctoral program resource" />
+  <variant base="Postdoctoral program" />
+  <variant base="Postdoctoral fellowship" />
+</token>
+<token canonical="Continuing medical education" ref_id="nlx_res_090921">
+  <variant base="Continuing medical education" />
+</token>
+<token canonical="Neuroinformatics tool" ref_id="nlx_17105">
+  <variant base="Neuroinformatic tools" />
+  <variant base="Neuroinformatics tool" />
+</token>
+<token canonical="Knowledge base resource" ref_id="nlx_res_20090406">
+  <variant base="Knowledge base resource" />
+</token>
+<token canonical="Training service resource" ref_id="nlx_res_20090444">
+  <variant base="Training service resource" />
+  <variant base="Training service" />
+</token>
+<token canonical="Certificate program" ref_id="nlx_res_090920">
+  <variant base="Certificate program" />
+</token>
+<token canonical="Database" ref_id="nlx_res_20090405">
+  <variant base="Databases" />
+  <variant base="Data base" />
+  <variant base="Database" />
+  <variant base="Database resource" />
+</token>
+<token canonical="Undergraduate program" ref_id="nlx_res_20090443">
+  <variant base="Undergraduate program" />
+  <variant base="Undergraduate" />
+</token>
+<token canonical="Structured data resource" ref_id="nlx_res_20090404">
+  <variant base="Structured data resource" />
+</token>
+<token canonical="Medical school program resource" ref_id="nlx_res_20090440">
+  <variant base="Medical school program" />
+  <variant base="Medical school program resource" />
+</token>
+<token canonical="Atlas" ref_id="nlx_res_20090402">
+  <variant base="Atlases" />
+  <variant base="Atlas  resource" />
+  <variant base="Atlas" />
+</token>
+<token canonical="Core facility" ref_id="Class_2">
+  <variant base="facility core" />
+  <variant base="Core facility" />
+</token>
+<token canonical="Report" ref_id="birnlex_11042_1">
+  <variant base="Report" />
+</token>
+<token canonical="Dataset resource" ref_id="nlx_res_20090401">
+  <variant base="Dataset resource" />
+</token>
+<token canonical="Computational hosting" ref_id="nlx_res_090925">
+  <variant base="Computational hosting" />
+</token>
+<token canonical="Residency" ref_id="nlx_res_090924">
+  <variant base="Residency" />
+</token>
+<token canonical="Clinical research translational knowledge base resource" ref_id="nlx_res_20090409">
+  <variant base="Clinical research translational knowledge base resource" />
+</token>
+<token canonical="Franklin and Paxinos (2008)" ref_id="nlx_res_1005002">
+  <variant base="Franklin and Paxinos (2008)" />
+</token>
+<token canonical="Paxinos, Huang and Tog The Rhesus Monkey Brain In Stereotaxic Coordinates (1999)" ref_id="nlx_res_1005001">
+  <variant base="Paxinos, Huang and Tog The Rhesus Monkey Brain In Stereotaxic Coordinates (1999)" />
+</token>
+<token canonical="Antibody supplier" ref_id="birnlex_2480_2">
+  <variant base="Antibody repository" />
+  <variant base="Antibody supplier" />
+</token>
+<token canonical="Meeting resource" ref_id="nlx_res_20090445">
+  <variant base="Conferecence" />
+  <variant base="Meeting" />
+  <variant base="Meeting resource" />
+  <variant base="Symposium" />
+</token>
+<token canonical="Information resource" ref_id="nlx_res_20090446">
+  <variant base="Information" />
+  <variant base="Information resource" />
+</token>
+<token canonical="Knowledge environment resource" ref_id="nlx_res_20090447">
+  <variant base="Knowledge environment resource" />
+  <variant base="Knowledge environment" />
+</token>
+<token canonical="Instrument supplier" ref_id="nlx_res_20090448">
+  <variant base="Instrument vendor" />
+  <variant base="Instrument provider" />
+  <variant base="Instrument supplier" />
+</token>
+<token canonical="Web accessible database" ref_id="nlx_res_090910">
+  <variant base="Web accessible database" />
+</token>
+<token canonical="Seminar material" ref_id="nlx_res_20090433">
+  <variant base="Seminar material" />
+  <variant base="Seminar" />
+</token>
+<token canonical="Service Resource" ref_id="nlx_res_20090105">
+  <variant base="Service Resource" />
+  <variant base="Service resource" />
+</token>
+<token canonical="Material resource" ref_id="nlx_res_20090104">
+  <variant base="Materials" />
+  <variant base="Research supplies" />
+  <variant base="Material" />
+  <variant base="Material Resource" />
+  <variant base="Material resource" />
+</token>
+<token canonical="Note" ref_id="nlx_res_20090432">
+  <variant base="Notes" />
+  <variant base="Note" />
+</token>
+<token canonical="Funding resource" ref_id="nlx_res_20090107">
+  <variant base="Funding" />
+  <variant base="Grant" />
+  <variant base="Funding source" />
+  <variant base="Funding opportunity" />
+  <variant base="Funding resource" />
+  <variant base="Funding Resource" />
+</token>
+<token canonical="Curriculum materials" ref_id="nlx_res_20090431">
+  <variant base="Curriculum materials" />
+</token>
+<token canonical="Wiki" ref_id="nlx_res_090911">
+  <variant base="Wiki" />
+</token>
+<token canonical="Training Resource" ref_id="nlx_res_20090106">
+  <variant base="Training Resource" />
+  <variant base="Training resource" />
+</token>
+<token canonical="Training material" ref_id="nlx_res_20090430">
+  <variant base="Training materials resource" />
+  <variant base="Training material" />
+  <variant base="Training materials" />
+</token>
+<token canonical="Job resource" ref_id="nlx_res_20090109">
+  <variant base="Job resource" />
+  <variant base="Job" />
+  <variant base="Jobs" />
+  <variant base="Job Resource" />
+  <variant base="Employment opportunity" />
+</token>
+<token canonical="People resource" ref_id="nlx_res_20090108">
+  <variant base="People Resource" />
+  <variant base="People resource" />
+</token>
+<token canonical="Semi structured knowledge" ref_id="nlx_res_090918">
+  <variant base="Semi structured knowledge" />
+  <variant base="Dataset" />
+</token>
+<token canonical="Blog" ref_id="nlx_res_090917">
+  <variant base="Blog" />
+</token>
+<token canonical="Workshop" ref_id="nlx_res_091001">
+  <variant base="Workshop" />
+</token>
+<token canonical="Degree granting program" ref_id="nlx_res_090919">
+  <variant base="Degree granting program" />
+</token>
+<token canonical="Clinical database" ref_id="nlx_res_090916">
+  <variant base="Clinical database" />
+</token>
+<token canonical="Chemical supplier" ref_id="nlx_res_090915">
+  <variant base="Chemical supplier" />
+</token>
+<token canonical="Graduate program resource" ref_id="nlx_res_20090438">
+  <variant base="Graduate program resource" />
+  <variant base="Graduate program" />
+</token>
+<token canonical="K-12 program resource" ref_id="nlx_res_20090439">
+  <variant base="K-12 program" />
+  <variant base="K-12 program resource" />
+</token>
+<token canonical="Video" ref_id="nlx_res_20090436">
+  <variant base="Videos" />
+  <variant base="Video resource" />
+  <variant base="Video" />
+</token>
+<token canonical="Training program resource" ref_id="nlx_res_20090437">
+  <variant base="Training program" />
+  <variant base="Training program resource" />
+</token>
+<token canonical="Access service resource" ref_id="nlx_97132">
+  <variant base="Access service resource" />
+</token>
+<token canonical="Resource" ref_id="nlx_res_20090101">
+  <variant base="Resource" />
+  <variant base="Resource Descriptor" />
+</token>
+<token canonical="Short course material" ref_id="nlx_res_20090434">
+  <variant base="Short course material" />
+  <variant base="Short course" />
+  <variant base="Short course materials" />
+</token>
+<token canonical="Data resource" ref_id="nlx_res_20090102">
+  <variant base="Data resource" />
+  <variant base="Data" />
+</token>
+<token canonical="Slide" ref_id="nlx_res_20090435">
+  <variant base="Slide" />
+  <variant base="Slide resource" />
+  <variant base="Slides" />
+</token>
+<token canonical="Software resource" ref_id="nlx_res_20090103">
+  <variant base="Software" />
+  <variant base="Software resource" />
+  <variant base="Software Resource" />
+</token>
+</synonym>

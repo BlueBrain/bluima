@@ -1,0 +1,9 @@
+
+
+cr: ch.epfl.bbp.uima.ae.serialization.RangeBinaryCasReader
+ inputDirectory: /tmp
+ between__java: new int[]{ 200000000, 200001000 }
+
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

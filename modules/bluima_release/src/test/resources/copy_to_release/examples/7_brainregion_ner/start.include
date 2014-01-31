@@ -1,0 +1,35 @@
+#
+# 
+#
+
+# collection reader for annotated WhiteText corpus (Brain Regions) 
+cr: WhiteTextCollectionReader
+ maxNrResults__java: 99
+
+ 
+ 
+# pre-processing step (sentence splitter, word tokenizer, POS and lemmatizer)
+
+ae: SentenceAnnotator
+ modelFile: $ROOT/modules/julielab_opennlp/src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz
+
+ae: TokenAnnotator
+ modelFile: $ROOT/modules/julielab_opennlp/src/main/resources/pear_resources/models/token/TokenizerGenia.bin.gz
+
+ae: PosTagAnnotator
+ modelFile: $ROOT/modules/julielab_opennlp/src/main/resources/pear_resources/models/postag/Tagger_Genia.bin.gz
+ tagDict:   $ROOT/modules/julielab_opennlp/src/main/resources/pear_resources/models/postag/tagdict-genia
+
+ae: BlueBioLemmatizer
+
+
+
+# copy BrainRegion to Gold
+ae: CopyAnnotationsAnnotator
+ from: ch.epfl.bbp.uima.types.BrainRegion
+ deleteFrom__java: false
+ to: ch.epfl.bbp.uima.types.Gold
+
+# then fork BrainRegion to gold view, for display
+ae: EvaluationPreprocessorAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.BrainRegion

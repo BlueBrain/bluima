@@ -1,0 +1,14 @@
+*	Equiv T3 T2
+T14	Binding 229 244	binding protein
+T15	Regulation 250 280	participates in the regulation
+T16	Transcription 571 590	The cDNA hybridized
+T17	Transcription 667 675	detected
+T18	Binding 1193 1202	interacts
+T19	Binding 1222 1231	homodimer
+E1	Binding:T14 Theme:T3
+E2	Regulation:T15 Theme:T4 Cause:T3
+E3	Transcription:T16 Theme:T6
+E4	Transcription:T17 Theme:T6
+E5	Binding:T18 Theme:T12
+E6	Binding:T19 Theme:T12
+M1	Negation E4

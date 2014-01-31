@@ -1,0 +1,21 @@
+T12	Binding 96 105	interacts
+T13	Positive_regulation 295 305	triggering
+T14	Binding 395 404	recognize
+T15	Entity 419 427	epitopes
+T16	Positive_regulation 453 463	triggering
+T17	Positive_regulation 543 551	required
+T18	Gene_expression 575 585	expression
+T19	Positive_regulation 643 650	trigger
+T20	Positive_regulation 651 661	activation
+E1	Binding:T12 Theme:T2
+E2	Positive_regulation:T13 Theme:T3
+E3	Binding:T14 Theme:T4 Site:T15
+E4	Positive_regulation:T16 Theme:T5
+E5	Positive_regulation:T17 Theme:E6
+E6	Gene_expression:T18 Theme:T6
+E7	Positive_regulation:T19 Theme:E11
+E8	Positive_regulation:T19 Theme:E12
+E9	Positive_regulation:T19 Theme:E12 Cause:T8
+E10	Positive_regulation:T19 Theme:E11 Cause:T8
+E11	Positive_regulation:T20 Theme:T10
+E12	Positive_regulation:T20 Theme:T9

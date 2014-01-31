@@ -1,0 +1,25 @@
+T8	Regulation 47 57	regulating
+T9	Gene_expression 62 72	expression
+T10	Negative_regulation 505 509	lost
+T11	Gene_expression 522 532	expression
+T12	Gene_expression 635 645	expression
+T13	Positive_regulation 650 653	due
+T14	Negative_regulation 795 799	loss
+T15	Gene_expression 815 825	expression
+T16	Transcription 846 853	absence
+T17	Positive_regulation 1020 1042	positively controlling
+T18	Gene_expression 1047 1057	expression
+E1	Regulation:T8 Theme:E2
+E2	Gene_expression:T9 Theme:T1
+E3	Negative_regulation:T10 Theme:E4
+E4	Gene_expression:T11 Theme:T2
+E5	Gene_expression:T12 Theme:T3
+E6	Positive_regulation:T13 Theme:E5
+E7	Negative_regulation:T14 Theme:E8
+E8	Gene_expression:T15 Theme:T6
+E9	Transcription:T16 Theme:T6
+E10	Positive_regulation:T17 Theme:E11
+E11	Gene_expression:T18 Theme:T7
+M1	Negation E5
+M2	Negation E6
+M3	Negation E9

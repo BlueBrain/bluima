@@ -1,0 +1,9 @@
+T3	Regulation 0 10	Regulation
+T4	Transcription 38 51	Transcription
+T5	Regulation 90 97	depends
+T6	Regulation 281 290	regulated
+E1	Regulation:T3 Theme:T1
+E2	Transcription:T4 Theme:T2
+E3	Regulation:T5 Theme:E2
+E4	Regulation:T6 Theme:T2
+M1	Speculation E4

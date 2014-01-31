@@ -1,0 +1,13 @@
+*	Equiv T7 T8 T9
+*	Equiv T2 T3
+T11	Positive_regulation 240 247	induced
+T12	Negative_regulation 616 623	inhibit
+T13	Binding 632 648	binding activity
+E1	Positive_regulation:T11 Theme:T1
+E2	Negative_regulation:T12 Theme:E6
+E3	Negative_regulation:T12 Theme:E5
+E4	Negative_regulation:T12 Theme:E7
+E5	Binding:T13 Theme:T6
+E6	Binding:T13 Theme:T7
+E7	Binding:T13 Theme:T5
+M1	Negation E2

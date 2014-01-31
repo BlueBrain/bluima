@@ -1,0 +1,8 @@
+*	Equiv T3 T2
+T6	Regulation 16 26	regulation
+T7	Gene_expression 147 156	expressed
+T8	Negative_regulation 371 384	down-regulate
+E1	Regulation:T6 Theme:T1
+E2	Gene_expression:T7 Theme:T3
+E3	Negative_regulation:T8 Theme:E2 Cause:T4
+M1	Negation E3
