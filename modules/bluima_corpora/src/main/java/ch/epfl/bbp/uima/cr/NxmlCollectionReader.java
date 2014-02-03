@@ -21,7 +21,9 @@ import ch.epfl.bbp.uima.xml.archivearticle3.Article;
 import de.julielab.jules.types.Header;
 
 /**
- * Collection Reader for nxml files (http://dtd.nlm.nih.gov/)
+ * Collection Reader for nxml files (http://dtd.nlm.nih.gov/).<br/>
+ * . Handles most xml tags, but not all yet. Some documents come out empty, as
+ * they are of type letter, or book review.
  * 
  * @author renaud.richardet@epfl.ch
  */
@@ -32,14 +34,15 @@ public class NxmlCollectionReader extends AbstractFileReader {
 
 	@Override
 	public void initialize(UimaContext context)
-	        throws ResourceInitializationException {
-		fileExtensionFilter = "nxml";
+			throws ResourceInitializationException {
+		fileExtensionFilter = "nxml"; // overwrite
+
 		super.initialize(context);
 		try {
 			archiveArticleParser = new PmcNxmlParser();
-		} catch (JAXBException e) {
+		} catch (Exception e) {
 			throw new ResourceInitializationException(COULD_NOT_INSTANTIATE,
-			        new Object[] { PmcNxmlParser.class });
+					new Object[] { PmcNxmlParser.class });
 		}
 	}
 
@@ -72,5 +75,7 @@ public class NxmlCollectionReader extends AbstractFileReader {
 		// header.setTitle(title);
 		// header.setDoi(doi);
 		header.addToIndexes();
+
+		System.out.println(pmid + "\t" + file.getPath());
 	}
 }

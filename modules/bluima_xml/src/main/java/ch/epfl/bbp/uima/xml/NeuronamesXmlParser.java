@@ -39,46 +39,45 @@ import com.google.common.collect.Sets;
  */
 public class NeuronamesXmlParser {
 
-    public static Map<String, Concept> parse() throws JDOMException,
-            IOException {
-        return parse(new File(XmlHelper.XML_RESOURCES
-                + "neuronames/NeuroNames.xml"));
-    }
+	public static Map<String, Concept> parse() throws JDOMException,
+			IOException {
+		return parse(new File(XmlHelper.XML_RESOURCES
+				+ "neuronames/NeuroNames.xml"));
+	}
 
-    @SuppressWarnings("unchecked")
-    public static Map<String, Concept> parse(File f) throws JDOMException,
-            IOException {
+	public static Map<String, Concept> parse(File f) throws JDOMException,
+			IOException {
 
-        Map<String, Concept> concepts = newHashMap();
+		Map<String, Concept> concepts = newHashMap();
 
-        InputStream corpusIs = new FileInputStream(f);
+		InputStream corpusIs = new FileInputStream(f);
 
-        SAXBuilder builder = new SAXBuilder();
-        Document doc = builder.build(corpusIs);
-        Element rootNode = doc.getRootElement();
+		SAXBuilder builder = new SAXBuilder();
+		Document doc = builder.build(corpusIs);
+		Element rootNode = doc.getRootElement();
 
-        Iterator<Element> cs = rootNode.getChildren().iterator();
-        while (cs.hasNext()) {
-            Element concept = cs.next();
+		Iterator<Element> cs = rootNode.getChildren().iterator();
+		while (cs.hasNext()) {
+			Element concept = cs.next();
 
-            String id = concept.getAttributeValue("brainInfoID");
-            String canonical = concept.getAttributeValue("standardName");
-            canonical = canonical.replaceAll("\\(.*\\)$", "").trim();
+			String id = concept.getAttributeValue("brainInfoID");
+			String canonical = concept.getAttributeValue("standardName");
+			canonical = canonical.replaceAll("\\(.*\\)$", "").trim();
 
-            Set<String> variantStrings = Sets.newHashSet();
+			Set<String> variantStrings = Sets.newHashSet();
 
-            List<Element> variants = concept.getChild("synonyms").getChildren();
-            for (Element variant : variants) {
-                if (variant.getAttribute("synonymLanguage").getValue()
-                        .matches("Latin|English")) {
+			List<Element> variants = concept.getChild("synonyms").getChildren();
+			for (Element variant : variants) {
+				if (variant.getAttribute("synonymLanguage").getValue()
+						.matches("Latin|English")) {
 
-                    variantStrings.add(variant.getText()
-                            .replaceAll("\\(.*\\)$", "").trim());
-                }
-            }
-            concepts.put(canonical, new Concept(canonical, id, variantStrings));
-        }
-        checkArgument(concepts.size() > 0, "empty concepts!");
-        return concepts;
-    }
+					variantStrings.add(variant.getText()
+							.replaceAll("\\(.*\\)$", "").trim());
+				}
+			}
+			concepts.put(canonical, new Concept(canonical, id, variantStrings));
+		}
+		checkArgument(concepts.size() > 0, "empty concepts!");
+		return concepts;
+	}
 }

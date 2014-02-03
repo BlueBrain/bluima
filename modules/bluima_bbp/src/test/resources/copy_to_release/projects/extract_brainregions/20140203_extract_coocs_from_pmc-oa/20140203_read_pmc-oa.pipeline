@@ -1,0 +1,12 @@
+cr: NxmlCollectionReader
+ inputDirectory: /Volumes/simulation/nlp/corpus/pmc_os/20140131/
+ directoryIterator: LargeDirectoryIterator
+ isRecursive__java: true
+
+
+############################################
+
+ae: ch.epfl.bbp.uima.ae.output.DocumentTextWriter
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

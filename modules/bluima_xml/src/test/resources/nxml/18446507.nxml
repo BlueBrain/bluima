@@ -1,0 +1,1033 @@
+<!DOCTYPE article PUBLIC "-//NLM//DTD JATS (Z39.96) Journal Archiving and Interchange DTD v1.0 20120330//EN" "JATS-archivearticle1.dtd">
+<article xmlns:mml="http://www.w3.org/1998/Math/MathML" xmlns:xlink="http://www.w3.org/1999/xlink" article-type="review-article"><?properties open_access?><front><journal-meta><journal-id journal-id-type="nlm-ta">AAPS J</journal-id><journal-title-group><journal-title>The AAPS Journal</journal-title></journal-title-group><issn pub-type="epub">1550-7416</issn><publisher><publisher-name>Springer US</publisher-name><publisher-loc>Boston</publisher-loc></publisher></journal-meta><article-meta><article-id pub-id-type="pmid">18446507</article-id><article-id pub-id-type="pmc">2751452</article-id><article-id pub-id-type="publisher-id">9007</article-id><article-id pub-id-type="doi">10.1208/s12248-008-9007-x</article-id><article-categories><subj-group subj-group-type="heading"><subject>Review Article/Themed Issue: Bioinformatics and Computational Advances in the Pharmaceutical Sciences/Guest Editor: Murali Raman</subject></subj-group></article-categories><title-group><article-title>A Flexible Nonlinear Feedback System That Captures Diverse Patterns of Adaptation and Rebound</article-title></title-group><contrib-group><contrib contrib-type="author" corresp="yes"><name><surname>Gabrielsson</surname><given-names>Johan</given-names></name><address><email>johan.gabrielsson@astrazeneca.com</email></address><xref ref-type="aff" rid="Aff1">1</xref></contrib><contrib contrib-type="author"><name><surname>Peletier</surname><given-names>Lambertus A.</given-names></name><address><email>peletier@math.leidenunuv.nl</email></address><xref ref-type="aff" rid="Aff2">2</xref></contrib><aff id="Aff1"><label>1</label>Discovery DMPK &#x00026; BAC, AstraZeneca R&#x00026;D M&#x000f6;lndal, S-43183 M&#x000f6;lndal, Sweden </aff><aff id="Aff2"><label>2</label>Mathematical Institute, Leiden University, PB 9512, 2300 RA Leiden, The Netherlands </aff></contrib-group><pub-date pub-type="epub"><day>22</day><month>2</month><year>2008</year></pub-date><pub-date pub-type="pmc-release"><day>22</day><month>2</month><year>2008</year></pub-date><pub-date pub-type="collection"><month>3</month><year>2008</year></pub-date><volume>10</volume><issue>1</issue><fpage>70</fpage><lpage>83</lpage><history><date date-type="received"><day>9</day><month>11</month><year>2007</year></date><date date-type="accepted"><day>20</day><month>12</month><year>2007</year></date></history><permissions><copyright-statement>&#x000a9; American Association of Pharmaceutical Scientists 2008</copyright-statement></permissions><abstract xml:lang="en"><p>An important approach to modeling tolerance and adaptation employs feedback mechanisms in which the response to the drug generates a counter-regulating action which affects the response. In this paper we analyze a family of nonlinear feedback models which has recently proved effective in modeling tolerance phenomena such as have been observed with SSRI&#x02019;s. We use dynamical systems methods to exhibit typical properties of the response-time course of these nonlinear models, such as overshoot and rebound, establish quantitive bounds and explore how these properties depend on the system and drug parameters. Our analysis is anchored in three specific in vivo data sets which involve different levels of pharmacokinetic complexity. Initial estimates for system (<italic>k</italic><sub>in</sub>, <italic>k</italic><sub>out</sub>, <italic>k</italic><sub>tol</sub> ) and drug (<italic>EC</italic><sub>50</sub>/<italic>IC</italic><sub>50</sub>, <italic>E</italic><sub>max</sub>/<italic>I</italic><sub>max</sub>, <italic>n</italic> ) parameters are obtained on the basis of specific properties of the response-time course, identified in the context of exploratory (graphical) data analysis. Our analysis and the application of its results to the three concrete examples demonstrates the flexibility and potential of this family of feedback models.</p></abstract><kwd-group><title>Key words</title><kwd>adaptation</kwd><kwd>feedback</kwd><kwd>pharmacokinetic-pharmacodynamic modeling</kwd><kwd>rebound</kwd><kwd>system biology</kwd><kwd>system dynamics</kwd><kwd>tolerance</kwd></kwd-group><custom-meta-group><custom-meta><meta-name>issue-copyright-statement</meta-name><meta-value>&#x000a9; American Association of Pharmaceutical Scientists 2008</meta-value></custom-meta></custom-meta-group></article-meta></front><body><sec id="Sec1"><title>INTRODUCTION</title><p>Clinical tolerance may be associated with the effects of many drugs especially opioids, various central nervous stimulants, and organic nitrates (cf. Goodman and Gilman 1996 (<xref ref-type="bibr" rid="CR1">1</xref>)). Acute tolerance is also seen in an experimental setting in laboratory animals. Factors like dose rates and frequencies, and diurnal oscillations (S&#x000e4;llstr&#x000f6;m et al. 2005 (<xref ref-type="bibr" rid="CR2">2</xref>) and Visser et al. 2006 (<xref ref-type="bibr" rid="CR3">3</xref>)) often manifest themselves as tolerance to the pharmacological activity of the test compound. In our own experience we then see how the rate and extent of an intravenous infusion may impact the onset, intensity and duration of <italic>e.g.</italic>, a cardiovascular response. Therefore, we believe that a parametric characterization of the rate and extent of tolerance development has a practical bearing on design and analyses of pharmacodynamic studies.</p><p>Over the years there have been several different approaches to modeling tolerance. We mention time-dependent attenuation of drug constants (cf. Colburn et al. 1994 (<xref ref-type="bibr" rid="CR4">4</xref>)), effect compartment models (Porchet et al. 1988 (<xref ref-type="bibr" rid="CR5">5</xref>) and Ouellet and Pollack 1997 (<xref ref-type="bibr" rid="CR6">6</xref>)), systems analysis (Urquhart and Li 1968 (<xref ref-type="bibr" rid="CR7">7</xref>) and 1969 (<xref ref-type="bibr" rid="CR8">8</xref>), Veng-Pedersen et al. 1993 (<xref ref-type="bibr" rid="CR9">9</xref>)), pool/precursor models (Licko and Ekblad 1992 (<xref ref-type="bibr" rid="CR10">10</xref>), Bauer and Fung 1994 (<xref ref-type="bibr" rid="CR11">11</xref>) and Sharma et al. 1998 (<xref ref-type="bibr" rid="CR12">12</xref>), and feedback turnover models (Ackerman et al. 1964 (<xref ref-type="bibr" rid="CR13">13</xref>), Resigno and Segre 1961, 1966 (<xref ref-type="bibr" rid="CR14">14</xref>), Holford et al. 1990 (<xref ref-type="bibr" rid="CR15">15</xref>), Wakelkamp et al. 1996 (<xref ref-type="bibr" rid="CR16">16</xref>), Agers&#x000f8; et al. 2001 (<xref ref-type="bibr" rid="CR17">17</xref>), Zuideveld et al. 2001 (<xref ref-type="bibr" rid="CR18">18</xref>), Lima et al. 2004 (<xref ref-type="bibr" rid="CR19">19</xref>), S&#x000e4;llstr&#x000f6;m et al. 2005 (<xref ref-type="bibr" rid="CR2">2</xref>), Visser et al. 2006 (<xref ref-type="bibr" rid="CR3">3</xref>), and de Winter et al. 2006 (<xref ref-type="bibr" rid="CR20">20</xref>)).</p><p>In the present paper we focus on the latter and discuss in detail a family of nonlinear feedback models involving the response <italic>R</italic>, as well as a <italic>Moderator</italic><italic>M</italic>. One such model has recently been successfully used to model tolerance phenomena in SSRI&#x02019;s (Bundgaard 2006 (<xref ref-type="bibr" rid="CR21">21</xref>)). These models are based on the classic turnover Indirect Response models. However, tolerance is modeled through the intervention of a moderator, which acts to diminish the response created by the drug and which is generated by the response (cf. Gabrielsson and Peletier 2007 (<xref ref-type="bibr" rid="CR22">22</xref>)). The structure of one such model system is sketched in Fig.&#x000a0;<xref rid="Fig1" ref-type="fig">1</xref>.
+<fig id="Fig1"><label>Fig.&#x000a0;1</label><caption><p>Sketch of the basic feedback model and a typical response <italic>versus</italic> time course. The response <italic>R</italic> is governed by the zero-order turnover rate <italic>k</italic><sub>in</sub> and the first-order fractional turnover rate <italic>k</italic><sub>out</sub>, and then indirectly also controlled by a separate moderator <italic>M</italic>. The turnover of the moderator is governed by a single first-order rate constant <italic>k</italic><sub>tol</sub>. The build-up of the moderator is <italic>k</italic><sub>tol</sub>&#x000b7;<italic>R</italic> and loss is <italic>k</italic><sub>tol</sub>&#x000b7;<italic>M</italic>. The moderator acts via inhibition of <italic>k</italic><sub>in</sub> on the production of response (as in the scheme above) or via stimulation of <italic>k</italic><sub>out</sub> (negative feedback). The solid lines denote flows and the dashed lines denote control action. In the response <italic>versus</italic> time course we note substantial overshoot and rebound</p></caption><graphic xlink:href="12248_2008_9007_Fig1_HTML" id="MO1"/></fig></p><p>The class of feedback models we discuss here is nonlinear in that an increase in <italic>M</italic> will reduce the production of <italic>R</italic> by a factor 1/<italic>M</italic>. Thus, the dynamic properties of these models, such as overshoot, rebound and presence of oscillatory behavior, depend on the state of the system, and so change when the system is taken by the drug from the baseline state <italic>R</italic><sub>0</sub> to a higher or a lower pharmacodynamic steady state <italic>R</italic><sub>ss</sub>. Specifically, this class of models is designed to have the following properties:
+<list list-type="bullet"><list-item><p>Rapid drug induced changes in the pharmacodynamic steady state yield pronounced <italic>overshoot</italic> and <italic>rebound.</italic></p></list-item><list-item><p><italic>Inhibition</italic> of the loss term which <italic>raises</italic> the steady state <italic>R</italic><sub>ss</sub>, causes an overshoot which is <italic>larger</italic> than the rebound upon the return to the baseline after washout.</p></list-item><list-item><p><italic>Stimulation</italic> of the loss term which <italic>lowers</italic> the steady state <italic>R</italic><sub>ss</sub>, causes an overshoot which is <italic>smaller</italic> than the rebound upon the return to the baseline after washout.</p></list-item></list></p><p>Similar behavior is found when the production term is stimulated or inhibited.</p><p>It is the characteristic shape of these response curves: a large overshoot with respect to the new pharmacodynamic steady state when <italic>R</italic><sub>ss</sub> &#x0003e; <italic>R</italic><sub>0</sub> and a large rebound upon return to the baseline when <italic>R</italic><sub>ss</sub> &#x0003c; <italic>R</italic><sub>0</sub>, and the difference in magnitude of these two, which we want to study in this paper. An important factor in determining the size of overshoot or rebound is the <italic>rate</italic> of input or removal of the drug in relation to the intrinsic rates of the system. We show how a rapid input or removal tends to cause a large overshoot or rebound, whilst a gradual input or removal tends to suppress overshoot or rebound.</p><p>We demonstrate the effectiveness of this class of models by fitting system and drug parameters to data sets obtained for three <italic>in vivo</italic> experiments (see also Fig.&#x000a0;<xref rid="Fig2" ref-type="fig">2</xref>).
+<list list-type="order"><list-item><p>A data set displaying a pronounced rebound effect of the response when the exposure to the test compound is abruptly terminated. The pharmacokinetics of this test compound has a 1&#x02013;3&#x000a0;min half-life (Example I).</p></list-item><list-item><p>A pharmacodynamic data set derived from constant rate intravenous infusion of an experimental compound displaying both tolerance, drift in the baseline, and no rebound upon return towards baseline (Example II).</p></list-item><list-item><p>A recently applied <italic>in vivo</italic> model for serotonin (5-HT) turnover in rat brains during intravenous administration of selective serotonin reuptake inhibitors (SSRI&#x02019;s) (Bundgaard et al. (<xref ref-type="bibr" rid="CR21">21</xref>)) (Example III).</p></list-item></list><fig id="Fig2"><label>Fig.&#x000a0;2</label><caption><p>Response <italic>versus</italic> time courses of the three examples that anchor the analysis. Example I is derived from a compound A that inhibits the production of response of which data were gathered after a regimen of multiple intravenous infusions. Example II represents a test compound <italic>X</italic> acting via inhibition of <italic>k</italic><sub>out</sub> after a short constant rate infusion of <italic>X</italic> followed by washout. Example III represents our extended model fitted to the Bundgaard et. al. (<xref ref-type="bibr" rid="CR21">21</xref>) data set, where escitalopram acts via inhibition of the loss of <italic>R</italic> and the moderator compartment is split into two transduction compartments</p></caption><graphic xlink:href="12248_2008_9007_Fig2_HTML" id="MO2"/></fig></p><p>It will prove very illuminating to study the evolution of the turnover feedback sytem in State Space, which for these models is two-dimensional, the dimensions being the response <italic>R</italic> and the moderator <italic>M</italic>. Viewing the evolution of the system as an <italic>Orbit</italic> in the (<italic>R</italic>, <italic>M</italic>)-plane gives valuable insight into the properties of the response <italic>versus</italic> time curve. Also, we shall see that the structure of the state space immediately reveals some of these properties, such as the tendency of the system towards overshoot when the response jumps to a <italic>higher</italic> value, whether at onset, when <italic>R</italic><sub>ss</sub> &#x0003e; <italic>R</italic><sub>0</sub> or at washout when <italic>R</italic><sub>ss</sub> &#x0003c; <italic>R</italic><sub>0</sub>.</p><p>The plan of the paper is the following. We begin with an analysis of the main class of feedback models and exhibit a series of characteristic properties such as bounds for <italic>R</italic><sub>max</sub>, for overshoot and for rebound, and analyze how these characteristic properties depend on the different pharmacodynamic rate constants in the model (system properties). Important mathematical ingredients here will be (<italic>i</italic>) comparison with simpler systems and (<italic>ii</italic>) asymptotic methods. Then we use these results to discuss successively the data of the three examples exhibited in Fig.&#x000a0;<xref rid="Fig2" ref-type="fig">2</xref>. We also apply them to the data of Example II to demonstrate how the pharmacodynamic and kinetic constants in the model can be estimated from the response <italic>versus</italic> time course. In order to gain a deeper understanding of the system, we then return to the feedback model and present a geometric analysis of the dynamics in state space. We conclude with a discussion of the main results we obtain and the methods we use.</p></sec><sec id="Sec2" sec-type="methods"><title>METHODS</title><p>In this section we introduce the class of feedback systems and derive analytically a series of characteristic properties of its response <italic>versus</italic> time curves. In particular we discuss the propensity of these models to show overshoot and rebound. We first give a detailed description of the class of models. Then we analyze the onset and termination of a constant rate infusion with fast kinetics.</p><sec id="Sec3"><title>Introduction of the Models</title><p>We focus on the class of feedback systems sketched in Fig.&#x000a0;<xref rid="Fig1" ref-type="fig">1</xref>, i.e., systems in which the response generates a moderator, which in turn inhibits the production of the response. They are based on the following system of two coupled differential equations:
+<disp-formula id="Equ1"><alternatives><tex-math id="M1">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+$$
+\begin{array}{*{20}c}
+   {{\frac{{dR}}
+{{dt}} = k_{{in}}  \cdot \frac{1}
+{M} - k_{{out}}  \cdot R}}  \\
+   {{\frac{{dM}}
+{{dt}} = k_{{tol}}  \cdot {\left( {R - M} \right)}}}  \\
+
+ \end{array} 
+$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ1.gif" position="anchor"/></alternatives></disp-formula></p><p>Thus, the production of the response <italic>R</italic> is here inversely proportional to the strength <italic>M</italic> of the moderator. In addition, production of response tends to infinity when <italic>M</italic> drops down to zero and tends to zero when <italic>M</italic> tends to infinity.</p><p>As in the classical four indirect response models (<xref ref-type="bibr" rid="CR23">23</xref>), the drug may have an impact on the system through either the production term or through the loss term, i.e.,
+<disp-formula id="Equ2"><alternatives><tex-math id="M2">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{array}{*{20}c}   {{\frac{{dR}}{{dt}} = k_{{in}}  \cdot \frac{1}{M} \cdot H_{1} {\left( C \right)} - k_{{out}}  \cdot H_{2} {\left( C \right)} \cdot R}}  \\   {{\frac{{dM}}{{dt}} = k_{{tol}}  \cdot {\left( {R - M} \right)}}}  \\ \end{array} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ2.gif" position="anchor"/></alternatives></disp-formula>where <italic>C</italic> denotes the plasma concentration of the drug and <italic>H</italic><sub>1</sub>(<italic>C</italic>) and <italic>H</italic><sub>2</sub>(<italic>C</italic>) are drug mechanism functions. Also, the drug may act in fixing a setpoint, as in Zuideveld et al. (<xref ref-type="bibr" rid="CR18">18</xref>). Since the effect of the drug may be to inhibit or to stimulate the response, <italic>H</italic><sub>1</sub>(<italic>C</italic>) and <italic>H</italic><sub>2</sub>(<italic>C</italic>) may be given by either a stimulatory drug mechanism function such as,
+<disp-formula id="Equ3"><alternatives><tex-math id="M3">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$S{\left( C \right)} = 1 + S_{{\max }} \frac{{C^{n} }}{{SC^{n}_{{50}}  + C^{n} }}$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ3.gif" position="anchor"/></alternatives></disp-formula>or by an inhibitory drug mechanism function such as,
+<disp-formula id="Equ4"><alternatives><tex-math id="M4">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$I{\left( C \right)} = 1 - I_{{\max }} \frac{{C^{n} }}{{IC^{n}_{{50}}  + C^{n} }}$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ4.gif" position="anchor"/></alternatives></disp-formula>Thus, we end up with four models.</p><p>In Bundgaard et al. (<xref ref-type="bibr" rid="CR21">21</xref>) and in the study of Compound X (cf. Example II) this model was used to fit the data while the drug was assumed to inhibit the loss term (<italic>H</italic><sub>1</sub>&#x02009;=&#x02009;1 and <italic>H</italic><sub>2</sub>&#x02009;=&#x02009;<italic>I</italic>). And in Gabrielsson and Peletier (<xref ref-type="bibr" rid="CR22">22</xref>) this model was fitted to the data from Urquhart and Li (<xref ref-type="bibr" rid="CR7">7</xref>), also assuming that loss was inhibited by the drug (<italic>H</italic><sub>1</sub>&#x02009;=&#x02009;1 and <italic>H</italic><sub>2</sub>&#x02009;=&#x02009;<italic>I</italic>).</p><p>If no drug is present, i.e., when <italic>C</italic>(<italic>t</italic>) <italic>&#x02261;</italic> 0, then, since <italic>H</italic><sub><italic>i</italic></sub>(0) = 1 for <italic>i</italic>&#x02009;=&#x02009;1, 2, the baseline values <italic>R</italic><sub>0</sub> and <italic>M</italic><sub>0</sub> of, respectively, <italic>R</italic> and <italic>M</italic> are given by
+<disp-formula id="Equ5"><alternatives><tex-math id="M5">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_{0}  = M_{0}  = {\sqrt {\frac{{k_{{in}} }}{{k_{{out}} }}} }$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ5.gif" position="anchor"/></alternatives></disp-formula>If <italic>C</italic>(<italic>t</italic>) <italic>&#x02261;</italic><italic>C</italic><sub>ss</sub>, then the pharmacodynamic steady state (<italic>R</italic><sub>ss</sub>, <italic>M</italic><sub>ss</sub>) of the system 2 is given by
+<disp-formula id="Equ6"><alternatives><tex-math id="M6">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_{{ss}}  = M_{{ss}}  = R_{0} {\sqrt {\frac{{H_{1} {\left( {C_{{ss}} } \right)}}}{{H_{2} {\left( {C_{{ss}} } \right)}}}} }$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ6.gif" position="anchor"/></alternatives></disp-formula>It can be shown that the pharmacodynamic steady state is a <italic>global attractor</italic> (<xref ref-type="bibr" rid="CR22">22</xref>), i.e., whatever the initial values of the response and the moderator, response and moderator will eventually converge towards the pharmacodynamic steady state i.e.,
+<disp-formula id="Equ7"><alternatives><tex-math id="M7">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R{\left( t \right)} \to R_{{ss}} \quad and\quad M{\left( t \right)} \to M_{{ss}} \quad as\quad t \to \infty $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ7.gif" position="anchor"/></alternatives></disp-formula>The main capability of this family of feedback models is their ability to model substantial overshoot and rebound. In addition, they possess the following general properties and features:
+<list list-type="order"><list-item><p>Overshoot and rebound are biased towards larger response values in that when a drug raises the pharmacodynamic steady state response <italic>R</italic><sub>ss</sub>, then the overshoot tends to be larger than when the drug depresses the steady state response <italic>R</italic><sub>ss</sub>. Similarly, when a return to baseline causes the steady state response <italic>R</italic><sub>ss</sub> to rise, then the overshoot will be larger than when it drops. We shall see that this property can be traced back to the nonlinearity of the system, i.e., to the fact that the moderator acts nonlinearly on the production term. We shall return to this important issue when we give a geometric analysis of the system at the end of the paper.</p></list-item><list-item><p>It is possible to obtain precise bounds and estimates for overshoot and rebound. In particular the accuracy of these bounds increases as the dimensionless ratio <italic>&#x003ba;</italic>=<italic>k</italic><sub>tol</sub>/<italic>k</italic><sub>out</sub> tends to zero.</p><p>Let the departure of the response from the baseline value <italic>R</italic><sub>0</sub> reach its maximum value <italic>R</italic><sub>max</sub> at <italic>T</italic><sub>max</sub>, i.e., <italic>R</italic><sub>max</sub> = <italic>R</italic>(<italic>T</italic><sub>max</sub>). Then we show that</p></list-item><list-item><p><italic>R</italic><sub>max</sub> is either a decreasing or an increasing function of <italic>&#x003ba;</italic>. Specifically:
+<list list-type="bullet"><list-item><p>If <italic>R</italic><sub>max</sub> &#x0003e; <italic>R</italic><sub>0</sub> then <italic>R</italic><sub>max</sub><italic>decreases</italic> as <italic>&#x003ba;</italic> increases.</p></list-item><list-item><p>If <italic>R</italic><sub>max</sub> &#x0003c; <italic>R</italic><sub>0</sub> then <italic>R</italic><sub>max</sub><italic>increases</italic> as <italic>&#x003ba;</italic> increases.</p></list-item></list></p></list-item></list></p><p>Since the main characteristics of these four feedback models are similar, we focus here on just one of them in detail, the one in which the loss term is inhibited, i.e., <italic>H</italic><sub>1</sub>(<italic>C</italic>) = 1 and <italic>H</italic><sub>2</sub>(<italic>C</italic>) = <italic>I</italic>(<italic>C</italic>), where <italic>I</italic>(<italic>C</italic>) is given in Eq. <xref rid="Equ4" ref-type="">4</xref>. The system 2 then becomes
+<disp-formula id="Equ8"><alternatives><tex-math id="M8">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+$$
+\begin{aligned}
+  &#x00026; \frac{{dR}}
+{{dt}} = k_{{in}}  \cdot \frac{1}
+{M} - k_{{out}}  \cdot R \cdot I{\left( C \right)} \\
+ &#x00026; \frac{{dM}}
+{{dt}} = k_{{tol}}  \cdot {\left( {R - M} \right)} \\ 
+ \end{aligned} 
+$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ8.gif" position="anchor"/></alternatives></disp-formula>and <inline-formula id="IEq1"><alternatives><tex-math id="M9">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+$$
+{\text{R}}_{{{\text{ss}}}}  = M_{{ss}}  = {R_{0} } \mathord{\left/
+ {\vphantom {{R_{0} } {{\sqrt {l{\left( {C_{{ss}} } \right)}} }}}} \right.
+ \kern-\nulldelimiterspace} {{\sqrt {l{\left( {C_{{ss}} } \right)}} }}
+$$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq1.gif"/></alternatives></inline-formula> (see Eq. <xref rid="Equ6" ref-type="">6</xref>).</p><p>In this section, we wish to bring out the characteristic properties of the dynamics of the system 8. We therefore assume that the system is subjected to a very simple drug regimen: we assume that at <italic>t</italic>&#x02009;=&#x02009;0 a constant rate infusion is initiated and that it is terminated at <italic>t</italic> = <italic>t</italic><sub>1</sub>. We also assume that the pharmacokinetic time scale is short. This will then result in a plasma concentration <italic>C</italic>(<italic>t</italic>) given by a step-function:
+<disp-formula id="Equ9"><alternatives><tex-math id="M10">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ C{\left( t \right)} = C_{{ss}} {\left\{ {{\rm H}eav{\left( t \right)} - {\rm H}eav{\left( {t - t_{1} } \right)}} \right\}},\quad t_{1}  &#x0003e; 0,\quad C_{{ss}}  &#x0003e; 0 $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ9.gif" position="anchor"/></alternatives></disp-formula>where H<italic>eav(t)</italic> denotes the <italic>Heaviside function</italic> (H<italic>eav(t)</italic><italic>=</italic>1 if <italic>t</italic>&#x02009;&#x0003e;&#x02009;0 and H<italic>eav(t)</italic> = 0 if <italic>t</italic>&#x02009;&#x02264;&#x02009;0). With such rapid pharmacokinetics, the turnover of the pharmacodynamical system becomes the rate limiting step. In contrast, slow pharmacokinetics may confound the true system (response) behavior in that turnover of the drug now becomes the rate limiting step.</p><p>In the sections which deal with the three examples, the drug regimen and the pharmacokinetics are much more complex, and we shall see how the properties found for the simple plasma concentration profile given by Eq. <xref rid="Equ9" ref-type="">9</xref> can still be identified and help in fitting the model to the data.</p><p>In the following two subsections we study the impact of the above drug regimen and discuss in succession: (<italic>i</italic>) onset of a constant rate infusion, assuming that <italic>t</italic><sub>1</sub> = &#x0221e;, and (<italic>ii</italic>) washout at <italic>t</italic><sub>1</sub>&#x02009;&#x0003c;&#x02009;&#x0221e;.</p><sec id="Sec4"><title>Onset of Test Compound</title><p>We assume that initially, the system is at baseline, i.e., <italic>R</italic>(0) = <italic>R</italic><sub>0</sub> and <italic>M</italic>(0) = <italic>M</italic><sub>0</sub>, and we follow the response <italic>R</italic> and the moderator <italic>M</italic> as they evolve with time.</p><p>In order to demonstrate the effect of feedback we follow the response <italic>versus</italic> time profile as <italic>k</italic><sub>tol</sub> increases from <italic>k</italic><sub>tol</sub>&#x02009;=&#x02009;0 (no feedback) to values of <italic>k</italic><sub>tol</sub> which are large compared to <italic>k</italic><sub>out</sub> (strong feedback).</p><p>If <italic>k</italic><sub>tol</sub>&#x02009;=&#x02009;0, the second equation of the system 8 implies that <italic>M</italic>(<italic>t</italic>) &#x02261; <italic>M</italic><sub>0</sub>, and hence the first equation of the system 8 becomes
+<disp-formula id="Equ10"><alternatives><tex-math id="M11">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \frac{{dR}} {{dt}} = k_{{in}}  \cdot \frac{1} {{M_{0} }} - k_{{out}}  \cdot R \cdot I{\left( C \right)}\quad for\quad t &#x0003e; 0 $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ10.gif" position="anchor"/></alternatives></disp-formula>This is the well-known Indirect Response Model; its solution, starting from the baseline <italic>R</italic><sub>0</sub>, which we denote by <inline-formula id="IEq2"><alternatives><tex-math id="M12">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+$$
+\overline{R} {\left( t \right)}
+$$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq2.gif"/></alternatives></inline-formula>, can readily be found to be
+<disp-formula id="Equ11"><alternatives><tex-math id="M13">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \overline{R} {\left( t \right)} = \frac{{R_{0} }} {{I{\left( {C_{{ss}} } \right)}}} \cdot {\left\{ {{\text{ }}1 - {\left[ {1 - I{\left( {C_{{ss}} } \right)}} \right]} \cdot e^{{ - k_{{out}} I{\left( {C_{{ss}} } \right)}t}} } \right\}} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ11.gif" position="anchor"/></alternatives></disp-formula>Plainly
+<disp-formula id="Equ12"><alternatives><tex-math id="M14">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \overline{R} {\left( t \right)} \to R_{{top}} {\mathop  = \limits^{def} }\frac{{R_{0} }} {{I{\left( {C_{{ss}} } \right)}}}\quad \quad {\text{as}}\quad {\text{t}} \to \infty $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ12.gif" position="anchor"/></alternatives></disp-formula>and <inline-formula id="IEq3"><alternatives><tex-math id="M15">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+$$
+\overline{R} {\left( t \right)}
+$$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq3.gif"/></alternatives></inline-formula>is an increasing function, so that there is no tolerance. It is shown as the top curve in Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3</xref>.
+<fig id="Fig3"><label>Fig.&#x000a0;3</label><caption><p>Simulations of response and moderator <italic>versus</italic> time for onset of a constant long-lasting infusion (<italic>t</italic><sub>1</sub>&#x02009;=&#x02009;&#x0221e;) for <italic>k</italic><sub>tol</sub>&#x02009;=&#x02009;0, 0.001, 0.005, 0.01. The other parameter values are <italic>k</italic><sub>in</sub>&#x02009;=&#x02009;0.23, <italic>k</italic><sub>out</sub>&#x02009;=&#x02009;0.23 (<italic>R</italic><sub>0</sub>&#x02009;=&#x02009;1), and <italic>I</italic><sub>max</sub>&#x02009;=&#x02009;0.8, <italic>C</italic><sub>ss</sub><italic>&#x000bb;</italic><italic>IC</italic><sub>50</sub>. Solid lines represent the response-time courses and the dashed lines the moderator-time courses</p></caption><graphic xlink:href="12248_2008_9007_Fig3_HTML" id="MO3"/></fig></p><p>If <italic>k</italic><sub>tol</sub>&#x02009;&#x0003e;&#x02009;0, however small, then by Eq. <xref rid="Equ7" ref-type="">7</xref>,
+<disp-formula id="Equa"><alternatives><tex-math id="M16">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ R{\left( t \right)} \to R_{{ss}}  = {R_{o} } \mathord{\left/  {\vphantom {{R_{o} } {{\sqrt {I{\left( {C_{{ss}} } \right)}} }}}} \right.  \kern-\nulldelimiterspace} {{\sqrt {I{\left( {C_{{ss}} } \right)}} }}\quad \quad as\quad t \to \infty $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equa.gif" position="anchor"/></alternatives></disp-formula>Since, by a well-known property of ordinary differential equations (<xref ref-type="bibr" rid="CR24">24</xref>), for any given <italic>t</italic>&#x02009;&#x0003e;&#x02009;0
+<disp-formula id="Equb"><alternatives><tex-math id="M17">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\left| {R{\left( t \right)} - \overline{R} {\left( t \right)}} \right|} \to 0\quad \quad as\quad k_{{tol}}  \to \infty$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equb.gif" position="anchor"/></alternatives></disp-formula>it follows that <italic>R</italic><sub>max</sub><italic>&#x02192;</italic><italic>R</italic><sub>top</sub> as <italic>k</italic><sub>tol</sub>&#x02009;
+                              <italic>&#x02192;</italic>&#x02009;0. Thus, for small values of <italic>k</italic><sub>tol</sub>, we have
+<disp-formula id="Equ13"><alternatives><tex-math id="M18">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\ \left. {\Delta R} \right|_{{overshoot}} {\mathop  = \limits^{def} }R_{{\max }}  - R_{{ss}}  \approx R_{{top}}  - R_{{ss}}  = \frac{{R_{0} }} {{I(C_{{ss}} )}}{\left[ {1 - {\sqrt {I{\left( {C_{{ss}} } \right)}} }} \right]} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ13.gif" position="anchor"/></alternatives></disp-formula>and the relative overshoot is approximately given by
+<disp-formula id="Equ14"><alternatives><tex-math id="M19">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \frac{{R_{{top}}  - R_{0} }} {{R_{{ss}}  - R_{0} }} = 1 + \frac{1} {{{\sqrt {I{\left( {C_{{ss}} } \right)}} }}} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ14.gif" position="anchor"/></alternatives></disp-formula></p><p>As <italic>k</italic><sub>tol</sub> increases, one can show that <italic>R</italic><sub>max</sub> decreases (<xref ref-type="bibr" rid="CR22">22</xref>), and hence, since <italic>R</italic><sub>ss</sub> remains the same, the overshoot also decreases and eventually disappears for large values of <italic>k</italic><sub>tol</sub>. In Figs.&#x000a0;<xref rid="Fig3" ref-type="fig">3</xref> and <xref rid="Fig4" ref-type="fig">4</xref> we show response and moderator <italic>versus</italic> time graphs for different values of <italic>k</italic><sub>tol</sub> whilst <italic>k</italic><sub>out</sub> remains fixed.
+<fig id="Fig4"><label>Fig.&#x000a0;4</label><caption><p>Simulations of response and moderator <italic>versus</italic> time for onset of a constant long-lasting infusion (<italic>t</italic><sub>1</sub>&#x02009;=&#x02009;&#x0221e;) for <italic>k</italic><sub>tol</sub>&#x02009;=&#x02009;0.1, 0.2, 0.5, 2.0 (right). The other parameter values are <italic>k</italic><sub>in</sub>&#x02009;=&#x02009;0.23, <italic>k</italic><sub>out</sub>&#x02009;=&#x02009;0.23 (<italic>R</italic><sub>0</sub>&#x02009;=&#x02009;1), and <italic>I</italic><sub>max</sub>&#x02009;=&#x02009;0.8, <italic>C</italic><sub>ss</sub><italic>&#x000bb;</italic><italic>IC</italic><sub>50</sub>. Solid lines represent the response-time courses and the dashed lines the moderator-time courses</p></caption><graphic xlink:href="12248_2008_9007_Fig4_HTML" id="MO4"/></fig></p><p>We study two <italic>extreme cases</italic>: (<italic>i</italic>) <italic>k</italic><sub>tol</sub> is <italic>small</italic> and (<italic>ii</italic>) <italic>k</italic><sub>tol</sub> is <italic>large</italic>.
+<list list-type="order"><list-item><p>(i) <italic>k</italic><sub><italic>tol </italic></sub><italic>&#x000ab; k</italic><sub><italic>out</italic></sub><italic>:</italic> In this case the moderator changes slowly compared to the response. Thus for an initial period <italic>M</italic>(<italic>t</italic>) <italic>&#x02248;</italic><italic>M</italic><sub>0</sub> and hence <inline-formula id="IEq4"><alternatives><tex-math id="M20">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R{\left( t \right)} \approx \overline{R} {\left( t \right)} $$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq4.gif"/></alternatives></inline-formula>. This means that the response quickly rises to a level that is almost equal to <italic>R</italic><sub>top</sub>, which is defined as the root of the equation
+<disp-formula id="Equc"><alternatives><tex-math id="M21">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ k_{{in}}  \cdot \frac{1} {{M_{0} }} - k_{{out}}  \cdot R \cdot I{\left( {C_{{ss}} } \right)} = 0 $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equc.gif" position="anchor"/></alternatives></disp-formula></p><p>Then, as time progresses, <italic>M</italic>(<italic>t</italic>) increases because <italic>R</italic> &#x0003e; <italic>M</italic>. However, because of the relatively fast dynamics of the response, any departures from the equality
+<disp-formula id="Equ15"><alternatives><tex-math id="M22">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ k_{{in}}  \cdot \frac{1} {{M{\left( t \right)}}} - k_{{out}}  \cdot R{\left( t \right)} \cdot I{\left( {C_{{ss}} } \right)} = 0 $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ15.gif" position="anchor"/></alternatives></disp-formula>are quickly corrected. Thus, we may assume that Eq. <xref rid="Equ15" ref-type="">15</xref> holds approximately once <italic>R</italic> has reached its maximum value <italic>R</italic><sub>max</sub> at time <italic>T</italic><sub>max</sub>. When we use this relation to eliminate <italic>R</italic> from the equation for <italic>M</italic> in Eq. <xref rid="Equ8" ref-type="">8</xref> we obtain
+<disp-formula id="Equ16"><alternatives><tex-math id="M23">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \frac{{dM}} {{dt}} = k_{{tol}}  \cdot {\left( {\frac{{R^{2}_{0} }} {{I{\left( {C_{{ss}} } \right)}}} \cdot \frac{1} {M} - M} \right)} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ16.gif" position="anchor"/></alternatives></disp-formula></p><p>Since the time of maximal response <italic>T</italic><sub>max</sub> is small and <italic>k</italic><sub>tol</sub> is small, it follows that approximately <italic>M</italic>(<italic>T</italic><sub>max</sub>) = <italic>M</italic><sub>0</sub>. The solution of equation Eq. <xref rid="Equ16" ref-type="">16</xref> with this value at <italic>t</italic> = <italic>T</italic><sub>max</sub> is given by
+<disp-formula id="Equ17"><alternatives><tex-math id="M24">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ M{\left( t \right)} = M_{{ss}}  \cdot {\left\{ {1 - {\left[ {1 - I{\left( {C_{{ss}} } \right)}} \right]} \cdot e^{{ - 2k_{{tol}} {\left( {t - T_{{\max }} } \right)}}} } \right\}}^{{1/2}} \quad \quad t &#x0003e; T_{{\max }} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ17.gif" position="anchor"/></alternatives></disp-formula>so that we obtain for the response,
+<disp-formula id="Equ18"><alternatives><tex-math id="M25">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ R{\left( t \right)} = R_{{ss}}  \cdot {\left\{ {1 - {\left[ {1 - I{\left( {C_{{ss}} } \right)}} \right]} \cdot e^{{ - 2k_{{tol}} {\left( {t - T_{{\max }} } \right)}}} } \right\}}^{{ - 1/2}} \quad \quad t &#x0003e; T_{{\max }} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ18.gif" position="anchor"/></alternatives></disp-formula>Therefore,
+<disp-formula id="Equd"><alternatives><tex-math id="M26">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\left| {R{\left( t \right)} - R_{{ss}} } \right|} = O{\left( {e^{{ - 2k_{{tol}} t}} } \right)}\quad \quad as\quad \quad t \to \infty $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equd.gif" position="anchor"/></alternatives></disp-formula>i.e., in this extreme case, <italic>t</italic><sub>1/2</sub> = ln 2/(2 <italic>k</italic><sub>tol</sub>). Thus, as <italic>k</italic><sub>tol</sub>&#x02009;
+                                          <italic>&#x02192;</italic>&#x02009;0 it takes longer for the response to settle on its final value <italic>R</italic><sub>ss</sub>. In Fig.&#x000a0;<xref rid="Fig3" ref-type="fig">3</xref> this gradual descent is clearly manifest.</p></list-item><list-item><p>(ii) <italic>k</italic><sub><italic>tol </italic></sub><italic>&#x000bb;</italic><italic>k</italic><sub><italic>out</italic></sub><italic>:</italic> Now, the dynamics of the moderator is relatively fast and any departures from the equality
+<disp-formula id="Equ19"><alternatives><tex-math id="M27">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ k_{{tol}} {\left\{ {R{\left( t \right)} - M{\left( t \right)}} \right\}} = 0 $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ19.gif" position="anchor"/></alternatives></disp-formula>have soon disappeared. Since <italic>R</italic>(0) = <italic>M</italic>(0), we may now assume that Eq. <xref rid="Equ19" ref-type="">19</xref> holds approximately for all <italic>t</italic>&#x02009;
+                                          <italic>&#x02265;</italic>&#x02009;0. Using Eq. <xref rid="Equ19" ref-type="">19</xref> to eliminate <italic>M</italic>, we find that the equation for <italic>R</italic> becomes, approximately,
+<disp-formula id="Equ20"><alternatives><tex-math id="M28">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \frac{{dR}} {{dt}} = k_{{in}} \frac{1} {R} - k_{{out}} R \cdot I{\left( {C_{{ss}} } \right)} = k_{{out}} I{\left( {C_{{ss}} } \right)} \cdot {\left( {\frac{{R^{2}_{0} }} {{I{\left( {C_{{ss}} } \right)}}} \cdot \frac{1} {R} - R} \right)} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ20.gif" position="anchor"/></alternatives></disp-formula></p><p>This equation is of the same form as Eq. <xref rid="Equ16" ref-type="">16</xref>; its solution, starting from the baseline <italic>R</italic><sub>0</sub>, is given by
+<disp-formula id="Equ21"><alternatives><tex-math id="M29">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ R{\left( t \right)} = R_{{ss}}  \cdot {\left\{ {1 - {\left[ {1 - I{\left( {C_{{ss}} } \right)}} \right]} \cdot e^{{ - 2k_{{out}} I{\left( {C_{{ss}} } \right)}t}} } \right\}}^{{1 \mathord{\left/  {\vphantom {1 2}} \right.  \kern-\nulldelimiterspace} 2}} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ21.gif" position="anchor"/></alternatives></disp-formula></p><p>Note that <italic>R</italic>(<italic>t</italic>) is now a strictly increasing function. Hence, in the limit as <italic>k</italic><sub>tol</sub>&#x02009;
+                                          <italic>&#x02192;</italic>&#x02009;
+                                          <italic>&#x0221e;</italic>, there is no tolerance. We see this behavior demonstrated in Fig.&#x000a0;<xref rid="Fig4" ref-type="fig">4</xref>.</p><p>We also see that
+<disp-formula id="Eque"><alternatives><tex-math id="M30">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\left| {R{\left( t \right)} - R_{{ss}} } \right|} = O{\left( {e^{{ - 2k_{{out}} I{\left( {C_{{ss}} } \right)}t}} } \right)}\quad \quad as\quad t \to \infty $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Eque.gif" position="anchor"/></alternatives></disp-formula>i.e., in this extreme case, <italic>t</italic><sub>1/2</sub> = ln 2/(2 <italic>k</italic><sub>out</sub><italic>I</italic>(<italic>C</italic><sub><italic>ss</italic></sub>)).</p><p>It is interesting to note that since <italic>R</italic>(<italic>t</italic>) - <italic>M</italic>(<italic>t</italic>) <italic>&#x02192;</italic> 0 as <italic>k</italic><sub>tol</sub>&#x02009;
+                                          <italic>&#x02192;</italic>&#x02009;
+                                          <italic>&#x0221e;</italic>, the graph of <italic>M</italic>(<italic>t</italic>) is also increasing in the limit as <italic>k</italic><sub>tol</sub>&#x02009;
+                                          <italic>&#x02192;</italic>&#x02009;
+                                          <italic>&#x0221e;</italic>. However, we see clearly in Fig.&#x000a0;<xref rid="Fig4" ref-type="fig">4</xref> that <italic>M</italic> overshoots its limiting value <italic>M</italic><sub>ss</sub> for <italic>k</italic><sub>tol</sub>&#x02009;=&#x02009;0.1. In Gabrielsson and Peletier (<xref ref-type="bibr" rid="CR22">22</xref>) it is shown that there is a range of values of <italic>k</italic><sub>tol</sub> for which <italic>R</italic>(<italic>t</italic>) and <italic>M</italic>(<italic>t</italic>) tend to, respectively, <italic>R</italic><sub>ss</sub> and <italic>M</italic><sub>ss</sub> through a damped oscillation, whilst outside this range, the approach to <italic>R</italic><sub>ss</sub> and <italic>M</italic><sub>ss</sub> is monotone.</p></list-item></list></p></sec><sec id="Sec5"><title>Washout of Test Compound</title><p>We assume that just prior to washout at <italic>t</italic> = <italic>t</italic><sub>1</sub>, the system is in the pharmacodynamic steady state, i.e., <italic>R</italic>(<italic>t</italic><sub>1</sub>) = <italic>R</italic><sub>ss</sub> and <italic>M</italic>(<italic>t</italic><sub>1</sub>) = <italic>M</italic><sub>ss</sub>. If <italic>k</italic><sub>tol</sub>&#x02009;=&#x02009;0, then <italic>M</italic>(<italic>t</italic>) = <italic>M</italic><sub>ss</sub> for <italic>t</italic> &#x0003e; <italic>t</italic><sub>1</sub>, and the equation for <italic>R</italic> becomes
+<disp-formula id="Equ22"><alternatives><tex-math id="M31">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \frac{{dR}} {{dt}} = k_{{in}}  \cdot \frac{1} {{M_{{ss}} }} - k_{{out}}  \cdot R\quad for\quad t &#x0003e; t_{1} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ22.gif" position="anchor"/></alternatives></disp-formula>The solution of this equation, which starts at time <italic>t</italic><sub>1</sub> at <italic>R</italic><sub>ss</sub> is given by
+<disp-formula id="Equ23"><alternatives><tex-math id="M32">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\underline{R} {\left( t \right)} = R_{0}  \cdot {\sqrt {I{\left( {C_{{ss}} } \right)}} }{\left\{ {1 + {\left[ {I^{{ - 1}} {\left( {C_{{ss}} } \right)} - 1} \right]} \cdot e^{{ - k_{{tol}} {\left( {t - t_{1} } \right)}}} } \right\}}$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ23.gif" position="anchor"/></alternatives></disp-formula>We see that <italic><underline>R</underline></italic><italic>(t)</italic> is decreasing and that
+<disp-formula id="Equ24"><alternatives><tex-math id="M33">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \underline{R} {\left( t \right)} \to R_{{bottom}} {\mathop  = \limits^{def} }R_{0} {\sqrt {I{\left( {C_{{ss}} } \right)}} }\quad \quad as\quad t \to \infty $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ24.gif" position="anchor"/></alternatives></disp-formula></p><p>In Fig.&#x000a0;<xref rid="Fig5" ref-type="fig">5</xref> we show two sets of response and moderator <italic>versus</italic> time curves of the same system as shown in Figs.&#x000a0;<xref rid="Fig3" ref-type="fig">3</xref> and <xref rid="Fig4" ref-type="fig">4</xref> but now with rapid washout after <italic>t</italic><sub>1</sub>&#x02009;=&#x02009;500&#x000a0;min, respectively 100&#x000a0;min.
+<fig id="Fig5"><label>Fig.&#x000a0;5</label><caption><p>Simulations of response and moderator <italic>versus</italic> time during constant infusion, and subsequent washout for <italic>k</italic><sub>tol</sub>&#x02009;=&#x02009;0.001, 0.005, 0.01 (<bold>a</bold>) and for <italic>k</italic><sub>tol</sub>&#x02009;=&#x02009;0.03, 0.1, 0.3, 1.0 (<bold>b</bold>). The other parameter values are <italic>k</italic><sub>in</sub>&#x02009;=&#x02009;0.23, <italic>k</italic><sub>out</sub>&#x02009;=&#x02009;0.23 (<italic>R</italic><sub>0</sub>&#x02009;=&#x02009;1), and <italic>I</italic><sub>max</sub>&#x02009;=&#x02009;0.8, <italic>C</italic><sub>ss</sub><italic>&#x000bb;</italic><italic>IC</italic><sub>50</sub></p></caption><graphic xlink:href="12248_2008_9007_Fig5_HTML" id="MO5"/></fig></p><p>If <italic>k</italic><sub>tol</sub>&#x02009;&#x0003e;&#x02009;0 one can show that the state returns to baseline (<xref ref-type="bibr" rid="CR22">22</xref>) i.e., in particular,
+<disp-formula id="Equ25"><alternatives><tex-math id="M34">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ R{\left( t \right)} \to R_{0} \quad \quad as\quad t \to \infty $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ25.gif" position="anchor"/></alternatives></disp-formula>Thus, writing <italic>R</italic><sub>min</sub> = min{<italic>R</italic>(<italic>t</italic>): <italic>t</italic> &#x0003e; <italic>t</italic><sub>1</sub>}, we obtain &#x02013; as with onset &#x02013; that <italic>R</italic><sub>min</sub><italic>&#x02192;</italic><italic>R</italic><sub>bottom</sub> as <italic>k</italic><sub>tol</sub>&#x02009;
+                              <italic>&#x02192;</italic>&#x02009;0, so that for small <italic>k</italic><sub>tol</sub>,
+<disp-formula id="Equ26"><alternatives><tex-math id="M35">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\left. {\Delta R} \right|_{{rebound}}  = R_{0}  - R_{{\min }}  \approx R_{0}  - R_{{bottom}}  = R_{0} {\left[ {1 - {\sqrt {I{\left( {C_{{ss}} } \right)}} }} \right]} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ26.gif" position="anchor"/></alternatives></disp-formula>It follows from Eqs. <xref rid="Equ13" ref-type="">13</xref> and <xref rid="Equ26" ref-type="">26</xref> that
+<disp-formula id="Equ27"><alternatives><tex-math id="M36">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$  \left. {\Delta R} \right|_{{overshoot}}  \approx \frac{1} {{I{\left( {C_{{ss}} } \right)}}}\left. {\Delta R} \right|_{{rebound}} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ27.gif" position="anchor"/></alternatives></disp-formula></p><p>This equality implies that when <italic>k</italic><sub>tol</sub> is small compared to <italic>k</italic><sub>out</sub>, then <italic>overshoot</italic> is much larger than <italic>rebound</italic>.</p><p>As with the overshoot at onset, we find that at washout, rebound diminishes monotonically as <italic>&#x003ba;</italic>&#x02009;=&#x02009;<italic>k</italic><sub>tol</sub>/<italic>k</italic><sub>out</sub> increases and eventually disappears when <italic>&#x003ba;</italic> is large enough.</p><p><bold>Conclusion</bold> We have demonstrated the following characteristic properties of the main model, Eq. <xref rid="Equ8" ref-type="">8</xref>, in which the loss term is inhibited:
+<list list-type="order"><list-item><p>Uniform upper and lower bounds for the response: If <italic>k</italic><sub>tol</sub> &#x0003e; 0, then
+<disp-formula id="Equ28"><alternatives><tex-math id="M37">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{array}{*{20}l}   {{R_{0}  &#x0003c; R{\left( t \right)} &#x0003c; R_{{top}} \quad \quad after{\text{ }}onset} \hfill}  \\   {{R_{{bottom}}  &#x0003c; R{\left( t \right)} &#x0003c; R_{{ss}} \quad after{\text{ }}washout} \hfill}  \\ \end{array} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ28.gif" position="anchor"/></alternatives></disp-formula></p></list-item><list-item><p>Bounds for overshoot and rebound of the response: If <italic>k</italic><sub>tol</sub> &#x0003e; 0, then
+<disp-formula id="Equ29"><alternatives><tex-math id="M38">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+$$
+\begin{aligned}
+  &#x00026; \left. {\Delta R} \right|_{{overshoot}}  &#x0003c; \frac{{R_{0} }}
+{{I(C_{{ss}} )}}{\left[ {1 - {\sqrt {I{\left( {C_{{ss}} } \right)}} }} \right]}\quad and\quad  \\
+ &#x00026; \left. {\Delta R} \right|_{{rebound}}  &#x0003c; R_{0} {\left[ {1 - {\sqrt {I{\left( {C_{{ss}} } \right)}} }} \right]} \\ 
+ \end{aligned} 
+$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ29.gif" position="anchor"/></alternatives></disp-formula>so that for <italic>&#x003ba;</italic> small,
+<disp-formula id="Equ30"><alternatives><tex-math id="M39">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \left. {\Delta R} \right|_{{overshoot}}  \approx \frac{1} {{I{\left( {C_{{ss}} } \right)}}}\left. { \cdot \Delta R} \right|_{{rebound}} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ30.gif" position="anchor"/></alternatives></disp-formula></p></list-item><list-item><p>Pharmacodynamic steady state and baseline are &#x0201c;global attractors&#x0201d;: If <italic>k</italic><sub>tol</sub>&#x02009;&#x0003e;&#x02009;0 and the infusion is constant for all time, then <italic>R</italic>(<italic>t</italic>) <italic>&#x02192;</italic><italic>R</italic><sub>ss</sub> as <italic>t</italic>&#x02009;
+                                             <italic>&#x02192;</italic>&#x02009;
+                                             <italic>&#x0221e;</italic>. Similarly, after washout when <italic>C</italic>&#x02009;=&#x02009;0 for all time, then <italic>R</italic>(<italic>t</italic>) <italic>&#x02192;</italic><italic>R</italic><sub>0</sub> as <italic>t</italic>&#x02009;
+                                             <italic>&#x02192;</italic>&#x02009;
+                                             <italic>&#x0221e;</italic>.</p></list-item><list-item><p>Influence of the ratio <italic>&#x003ba;</italic> = <italic>k</italic><sub>tol</sub>/<italic>k</italic><sub>out</sub> : We have exhibited the pivotal importance of the ratio <italic>&#x003ba;</italic> of the rate constants of the two equations: <italic>k</italic><sub>tol</sub> and <italic>k</italic><sub>out</sub>. For instance,
+<list list-type="order"><list-item><p>Overshoot and rebound are greatest when <italic>&#x003ba;</italic> is small.</p></list-item><list-item><p>As <italic>&#x003ba;</italic> increases, both overshoot and rebound become smaller and eventually disappear.</p></list-item></list></p></list-item></list>For further properties we refer to Gabrielsson and Peletier (<xref ref-type="bibr" rid="CR22">22</xref>).</p></sec></sec></sec><sec id="Sec6"><title>GENERALIZATIONS</title><p>The analysis we have presented for the feedback system 8 in which the loss term is inhibited by the drug, and the results we have obtained for that system, easily carry over to the other three types of systems defined in Eq. <xref rid="Equ2" ref-type="">2</xref>, i.e., the systems in which the loss term is stimulated (<italic>H</italic><sub>1</sub> = 1 and <italic>H</italic><sub>2</sub> = <italic>S</italic>) or the production term is either stimulated (<italic>H</italic><sub>1</sub> = <italic>S</italic> and <italic>H</italic><sub>2</sub>&#x02009;=&#x02009;1) or inhibited (<italic>H</italic><sub>1</sub>&#x02009;=&#x02009;<italic>I</italic> and <italic>H</italic><sub>2</sub>&#x02009;=&#x02009;1).</p><p>For instance, as another example, if the production term is stimulated, we find that if <italic>C</italic> = <italic>C</italic><sub>ss</sub>, then
+<disp-formula id="Equf"><alternatives><tex-math id="M40">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ R_{{ss}}  = R_{0} {\sqrt {S{\left( {C_{{ss}} } \right)}} },\quad R_{{top}}  = R_{0} S{\left( {C_{{ss}} } \right)}\quad and\quad R_{{bottom}}  = \frac{{R_{0} }} {{{\sqrt {S{\left( {C_{{ss}} } \right)}} }}} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equf.gif" position="anchor"/></alternatives></disp-formula>and
+<disp-formula id="Equ31"><alternatives><tex-math id="M41">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+$$
+\begin{aligned}
+  &#x00026; \left. {\Delta R} \right|_{{overshoot}}  &#x0003c; R_{0} {\left[ {S{\left( {C_{{ss}} } \right)} - {\sqrt {S{\left( {C_{{ss}} } \right)}} }} \right]} \\
+ &#x00026; \left. {\Delta R} \right|_{{rebound}}  &#x0003c; R_{0} {\left[ {1 - \frac{1}
+{{{\sqrt {S{\left( {C_{{ss}} } \right)}} }}}} \right]} \\ 
+ \end{aligned} 
+$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ31.gif" position="anchor"/></alternatives></disp-formula>so that for small values of <italic>&#x003ba;</italic><disp-formula id="Equ32"><alternatives><tex-math id="M42">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \left. {\Delta R} \right|_{{overshoot}}  \approx S{\left( {C_{{ss}} } \right)} \cdot \Delta \left. R \right|_{{rebound}} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ32.gif" position="anchor"/></alternatives></disp-formula>Since <italic>S</italic>(<italic>C</italic><sub>ss</sub>) &#x0003e; 1 we find again that for small values of <italic>&#x003ba;</italic>, overshoot is larger than rebound.</p><p>A nonlinear feedback system that is closely related to the one we have studied above is
+<disp-formula id="Equ33"><alternatives><tex-math id="M43">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\begin{array}{*{20}c}  {\frac{{dR}}{{dt}} = k_{{in}}  - k_{{out}}  \cdot R \cdot M} \\  {\frac{{dM}}{{dt}} = k_{{tol}}  \cdot {\left( {R - M} \right)}} \\ \end{array}$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ33.gif" position="anchor"/></alternatives></disp-formula>i.e., the system in which the moderator does not inhibit the production term but instead stimulates the loss term if the drug causes the response rise. When we incorporate the drug mechanism functions <italic>H</italic><sub>1</sub>(<italic>C</italic>) and <italic>H</italic><sub>2</sub>(<italic>C</italic>) as in Eq. <xref rid="Equ2" ref-type="">2</xref>, we see that the pharmacodynamic steady state is also given by Eq. <xref rid="Equ6" ref-type="">6</xref>. An analysis along the lines of the one given above now yields results which are very similar, and in some instances even identical, to results we have obtained for the systems 1 and 2. This applies in particular to such results as large time behavior, global bounds, and a bias towards overshoot when <italic>R</italic><sub>ss</sub> &#x0003e; <italic>R</italic><sub>0</sub> and towards rebound when <italic>R</italic><sub>ss</sub> &#x0003c; <italic>R</italic><sub>0</sub>.</p><p>Many of the properties of the response <italic>versus</italic> time curves which we have sketched above can be explained in a geometrical way by viewing the state (<italic>R</italic>,<italic>M</italic>) of the system as moving along a trajectory in <italic>state space</italic>. We present such an explanation in a special section towards the end of the paper.</p></sec><sec id="Sec7"><title>EXAMPLE I: INHIBITION OF PRODUCTION OF RESPONSE</title><p>Example I is based on an experimental compound A with fast plasma kinetics (<italic>t</italic><sub>1/2</sub>&#x02009;=&#x02009;1&#x02013;2&#x000a0;min and an elimination rate constant <italic>k</italic>&#x02009;=&#x02009;0.22&#x000a0;min<sup>&#x02212;1</sup> ) and a pharmacological response with high <italic>k</italic><sub>out</sub> (<italic>t</italic><sub>1/2</sub>&#x02009;=&#x02009;3&#x000a0;min) that also displays tolerance and rebound. The data are shown in Fig.&#x000a0;<xref rid="Fig6" ref-type="fig">6</xref>.
+<fig id="Fig6"><label>Fig.&#x000a0;6</label><caption><p>Response <italic>versus</italic> time data after a multiple intravenous infusion regimen of compound A, followed by washout. Note the substantial rebound effect shortly after the infusion has been terminated at about 200&#x000a0;min. The infusion pump stopped for a brief period at about 90&#x000a0;min until the next syringe had been loaded. Then there is a rapid return of response towards the baseline and past the baseline. The six gray bars represent six different infusion rates. Response denotes concentration of fatty acids in plasma</p></caption><graphic xlink:href="12248_2008_9007_Fig6_HTML" id="MO6"/></fig></p><p>Typical features of this data set are (i) overshoot at every sudden increase of the plasma concentration and (ii) a seizable rebound at washout. The dynamics of compound A was characterized by a nonlinear feedback system of the type introduced in Eq. <xref rid="Equ1" ref-type="">1</xref>, in which the production term is mechanistically inhibited by means of a nonlinear drug mechanism function <italic>I</italic>(<italic>C</italic>) of the form given in Eq. <xref rid="Equ4" ref-type="">4</xref>, however assuming at the outset that <italic>I</italic><sub>max</sub>&#x02009;=&#x02009;1 :
+<disp-formula id="Equ34"><alternatives><tex-math id="M44">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\matrix{  {{{dR} \over {dt}} = k_{{in}}  \cdot {1 \over M} \cdot I{\left( C \right)} - k_{{out}}  \cdot R} \cr   {{{dM} \over {dt}} = k_{{tol}}  \cdot {\left( {R - M} \right)}} \cr  } }$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ34.gif" position="anchor"/></alternatives></disp-formula>Fitting the model to the data set yields the values given in Table <xref rid="Tab1" ref-type="table">I</xref> in which the first order rate constants <italic>k</italic><sub>out</sub> and <italic>k</italic><sub>tol</sub> are measured in min<sup>&#x02212;1</sup>. In Table <xref rid="Tab1" ref-type="table">I</xref>, <italic>R</italic><sub>0</sub> denotes the baseline of the response, <italic>k</italic><sub>in</sub> = <italic>R</italic><sub>0</sub><sup>2</sup><italic>k</italic><sub>out</sub>, and <italic>&#x003ba;</italic> = <italic>k</italic><sub>tol</sub>/<italic>k</italic><sub>out</sub>. The model prediction for these values is also shown in Fig.&#x000a0;<xref rid="Fig6" ref-type="fig">6</xref> (solid line).
+<table-wrap id="Tab1"><label>Table&#x000a0;I</label><caption><p>Parameter estimates for Example I</p></caption><table frame="hsides" rules="groups"><thead><tr><th><italic>R</italic><sub>0</sub></th><th><italic>k</italic><sub>out</sub></th><th><italic>k</italic><sub>tol</sub></th><th><italic>n</italic></th><th>IC<sub>50</sub></th><th><italic>&#x003ba;</italic></th></tr></thead><tbody><tr><td>0.58</td><td>0.59</td><td>0.058</td><td>1.4</td><td>0.13</td><td>0.1</td></tr><tr><td>3%</td><td>36%</td><td>25%</td><td>7%</td><td>26%</td><td>&#x02013;</td></tr></tbody></table></table-wrap></p><p>The exact start and stop of drug input (infusions) and the exact sampling times of the pharmacological response are particularly important for this system with rapid turnover of both test compound and response. Since the half life of kinetics falls in the range of 1&#x02013;2&#x000a0;min and half life of response is about 1&#x000a0;min, a 15&#x02013;30&#x000a0;sec error in sampling times at pivotal occasions will not only impact parameter estimates (accuracy) but also their precision. We will expand on this particular system (response) and test compound in a subsequent series of papers.</p></sec><sec id="Sec8"><title>EXAMPLE II: INHIBITION OF LOSS OR STIMULATION OF PRODUCTION OF RESPONSE</title><p>Example II is based on a test compound <italic>X</italic> given as a 10&#x000a0;min constant rate intravenous infusion. It displays two-compartment disposition kinetics with a terminal half life of 17&#x000a0;min. Disposition of the test compound is relatively slow in comparison to the system (<italic>t</italic><sub>1/2<italic>k</italic>out</sub>&#x02009;=&#x02009;2&#x02013;4&#x000a0;min) and becomes the rate limiting step. The data are shown in Fig.&#x000a0;<xref rid="Fig7" ref-type="fig">7</xref>.
+<fig id="Fig7"><label>Fig.&#x000a0;7</label><caption><p>Response <italic>versus</italic> time courses of Example II which represents test compound <italic>X</italic> acting via inhibition of <italic>k</italic><sub>out</sub> after a 10 min constant rate intravenous infusion of <italic>X</italic> followed by washout. Note the drift of the baseline over the 260 min observation period. Response denotes EEG effects in experimental animals</p></caption><graphic xlink:href="12248_2008_9007_Fig7_HTML" id="MO7"/></fig></p><p>Typical features of this data set are (<italic>i</italic>) a strong overshoot at onset of the infusion and (<italic>ii</italic>) no rebound upon washout and (<italic>iii</italic>) a substantial drift in the baseline response. The slow washout confounds rebound (<xref ref-type="bibr" rid="CR22">22</xref>), as is seen from the simulation shown in Fig.&#x000a0;<xref rid="Fig8" ref-type="fig">8</xref> of the same system 35 but with rapid onset at <italic>t</italic>&#x02009;=&#x02009;50&#x000a0;min and washout at <italic>t</italic>&#x02009;=&#x02009;200&#x000a0;min, and no baseline drift.
+<fig id="Fig8"><label>Fig.&#x000a0;8</label><caption><p>Simulation of response versus time course based on the final parameter estimates in Table&#x000a0;<xref rid="Tab2" ref-type="table">2</xref> (model A) where the exposure profile was given as a square-wave (gray horizontal bar) and no baseline drift was assumed to occur. <italic>R</italic><sub>0</sub>, <italic>R</italic><sub>max</sub> and <italic>R</italic><sub>ss</sub> denote the baseline value, peak-response in overshoot and steady-state response, respectively</p></caption><graphic xlink:href="12248_2008_9007_Fig8_HTML" id="MO8"/></fig></p><p>The drug mechanism of the test compound X in this example acts through inhibition of the <italic>k</italic><sub>out</sub> parameter (<italic>I</italic>(<italic>C</italic>) &#x000d7; <italic>k</italic><sub>out</sub> &#x000d7; <italic>R</italic> ), as shown in Eq. <xref rid="Equ35" ref-type="">35</xref>:
+<disp-formula id="Equ35"><alternatives><tex-math id="M45">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+$$
+{\left( A \right)}\left\{ {\begin{array}{*{20}c}
+  {\frac{{dR}}
+{{dt}} = k_{{in}} \frac{1}
+{M} - k_{{out}}  \cdot R \cdot I{\left( C \right)}} \\
+  {\frac{{dM}}
+{{dt}} = k_{{tol}}  \cdot {\left( {R - M} \right)}} \\
+
+ \end{array} } \right.
+$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ35.gif" position="anchor"/></alternatives></disp-formula>Interestingly, a stimulatory function on the turnover rate (<italic>S</italic>(<italic>C</italic>) &#x000d7; <italic>k</italic><sub>in</sub> ) as shown in Eq. <xref rid="Equ36" ref-type="">36</xref>:
+<disp-formula id="Equ36"><alternatives><tex-math id="M46">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+$$
+{\left( B \right)}\left\{ {\begin{array}{*{20}c}
+  {\frac{{dR}}
+{{dt}} = k_{{in}}  \cdot \frac{1}
+{M} \cdot S{\left( C \right)} - k_{{out}}  \cdot R} \\
+  {\frac{{dM}}
+{{dt}} = k_{{tol}}  \cdot {\left( {R - M} \right)}} \\
+
+ \end{array} } \right.
+$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ36.gif" position="anchor"/></alternatives></disp-formula>gave as good a fit as the mechanistically correct inhibition of loss, including high parameter precision in all parameters (Table <xref rid="Tab2" ref-type="table">II</xref>). The functions <italic>I</italic>(<italic>C</italic>) and <italic>S</italic>(<italic>C</italic>) in the systems (A) and (B) are given by, respectively, Eqs. <xref rid="Equ4" ref-type="">4</xref> and <xref rid="Equ3" ref-type="">3</xref>. In both models, baseline drift was described by the linear function
+<disp-formula id="Equ37"><alternatives><tex-math id="M47">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ R_{0} {\left( t \right)} = R_{0} {\left( t \right)}{\left( {1 + \alpha t} \right)} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ37.gif" position="anchor"/></alternatives></disp-formula>Assuming that <italic>k</italic><sub>out</sub> remains constant, this means that <italic>k</italic><sub>in</sub>(<italic>t</italic>) = <italic>k</italic><sub>in</sub>(0)(1 + <italic>&#x003b1;</italic><italic>t</italic>)<sup>2</sup>.
+<table-wrap id="Tab2"><label>Table&#x000a0;II</label><caption><p>Parameter estimates for models (A) and (B)</p></caption><table frame="hsides" rules="groups"><thead><tr><th>&#x000a0;</th><th>Estimate (A)</th><th>CV % (A)</th><th>Estimate (B)</th><th>CV % (B)</th></tr></thead><tbody><tr><td><italic>k</italic><sub>tol</sub></td><td>0.057</td><td>10</td><td>0.055</td><td>10</td></tr><tr><td><italic>k</italic><sub>out</sub></td><td>0.26</td><td>5</td><td>0.13</td><td>6</td></tr><tr><td><italic>IC</italic><sub>50</sub>/<italic>SC</italic><sub>50</sub></td><td>9.1</td><td>6</td><td>15</td><td>6</td></tr><tr><td><italic>I</italic><sub>max</sub>/<italic>S</italic><sub>max</sub></td><td>0.51</td><td>2</td><td>1.0</td><td>3</td></tr><tr><td><italic>n</italic></td><td>1.5</td><td>6</td><td>1.5</td><td>6</td></tr><tr><td><italic>k</italic><sub>in</sub>(0)</td><td>5,773</td><td>5</td><td>2200</td><td>5</td></tr><tr><td><italic>&#x003b1;</italic></td><td>0.00039</td><td>17</td><td>0.00040</td><td>13</td></tr><tr><td><italic>&#x003ba;</italic></td><td>0.22</td><td>&#x02013;</td><td>0.42</td><td>&#x02013;</td></tr></tbody></table></table-wrap></p><p>This suggests that more doses and eventually an extended input (infusion) period are necessary challenges for model discrimination. It was necessary to model the drift in baseline as a linear function, as part of the full model. We would not advocate modeling baseline subtracted response data because the meaning of different parameters would become less transparent.</p><p>In future experiments we would suggest a separate control group that captures the unperturbed baseline drift.</p><p>An ordinary turnover model (by inhibition of loss), or a pool/precursor model (Stimulation of the loss from the pool compartment) did not adequately capture the upswing, overshoot, roof and decline to the baseline of this data set. For the turnover model, this can be explained by analytical arguments (cf. (<xref ref-type="bibr" rid="CR25">25</xref>)).</p></sec><sec id="Sec9"><title>EXAMPLE III: INHIBITION OF LOSS OF RESPONSE</title><p>Example III is based on data obtained by Bundgaard et al. (<xref ref-type="bibr" rid="CR21">21</xref>). Three intravenous infusions lasting for 60&#x000a0;min were given to three different groups of rats. The response corresponds to the change in 5-HT in rat hippocampal brain regions (Fig.&#x000a0;<xref rid="Fig9" ref-type="fig">9</xref>).
+<fig id="Fig9"><label>Fig.&#x000a0;9</label><caption><p>Response <italic>versus</italic> time (left) and response <italic>versus</italic> concentration (right) courses of Example III which represent escitalopram acting via inhibition of <italic>k</italic><sub>out</sub> after a 60 min constant rate intravenous infusion followed by washout. Symbols represent experimental data and solid lines model fits. The three 60&#x000a0;min constant rate intravenous infusions were 2.5 (filled circles), 5 (filled squares) and 10 (open squares) mg/kg. The small arrows on the right hand plot show the time order of the data. Note how the middle and upper concentration-response curves cut through the lower and middle concentration-response curves, respectively</p></caption><graphic xlink:href="12248_2008_9007_Fig9_HTML" id="MO9"/></fig></p><p>In a previous study (<xref ref-type="bibr" rid="CR22">22</xref>) this process was modeled by means of a generalization of the nonlinear feedback system introduced in the &#x0201c;<xref rid="Sec1" ref-type="sec">Introduction</xref>&#x0201d; section, which involves a sequence of two moderators, <italic>M</italic><sub>1</sub> and <italic>M</italic><sub>2</sub>, as shown in Fig.&#x000a0;<xref rid="Fig10" ref-type="fig">10</xref>.
+<fig id="Fig10"><label>Fig.&#x000a0;10</label><caption><p>Sketch of the extended feedback model involving two moderators <italic>M</italic><sub>1</sub> and <italic>M</italic><sub>2</sub> in sequence. The solid lines denote flows and the dashed lines denote control action</p></caption><graphic xlink:href="12248_2008_9007_Fig10_HTML" id="MO10"/></fig></p><p>The feedback system described in Fig.&#x000a0;<xref rid="Fig10" ref-type="fig">10</xref> leads to the following system of three coupled differential equations:
+<disp-formula id="Equ38"><alternatives><tex-math id="M48">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+$$
+\begin{aligned}
+  &#x00026; \frac{{dR}}
+{{dt}} = \frac{{k_{{in}} }}
+{{M_{2} }} - k_{{out}}  \cdot R \cdot I{\left( C \right)} \\
+ &#x00026; \frac{{dM_{1} }}
+{{dt}} = k_{{tol}}  \cdot {\left( {R - M_{1} } \right)} \\
+ &#x00026; \frac{{dM_{2} }}
+{{dt}} = k_{{tol}}  \cdot {\left( {M_{1}  - M_{2} } \right)} \\ 
+ \end{aligned} 
+$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ38.gif" position="anchor"/></alternatives></disp-formula>Fitting this model to the data we obtain the parameter values listed in Table <xref rid="Tab3" ref-type="table">III</xref>:
+<table-wrap id="Tab3"><label>Table&#x000a0;III</label><caption><p>Parameter estimates for the model Eq. <xref rid="Equ38" ref-type="">38</xref></p></caption><table frame="hsides" rules="groups"><thead><tr><th><italic>R</italic><sub>0</sub></th><th><italic>k</italic><sub>out</sub></th><th><italic>k</italic><sub>tol</sub></th><th><italic>I</italic><sub>max</sub></th><th><italic>IC</italic><sub>50</sub></th><th><italic>n</italic></th><th><italic>&#x003ba;</italic></th></tr></thead><tbody><tr><td>105</td><td>0.18</td><td>0.003</td><td>0.84</td><td>4.1</td><td>0.87</td><td>0.02</td></tr><tr><td>5%</td><td>11%</td><td>18%</td><td>2%</td><td>25%</td><td>11%</td><td>&#x02014;</td></tr></tbody></table></table-wrap><table-wrap id="Tab4"><label>Table&#x000a0;IV</label><caption><p>Critical response levels in Examples I&#x02013;III</p></caption><table frame="hsides" rules="groups"><thead><tr><th>Example</th><th><italic>R</italic><sub>0</sub></th><th><italic>R</italic><sub>ss</sub></th><th><italic>R</italic><sub>top</sub></th><th><italic>R</italic><sub>bottom</sub></th></tr></thead><tbody><tr><td>I</td><td><inline-formula id="IEq5"><alternatives><tex-math id="M49">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$${\sqrt {\frac{{k_{{in}} }} {{k_{{out}} }}} } $$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq5.gif"/></alternatives></inline-formula></td><td><inline-formula id="IEq6"><alternatives><tex-math id="M50">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_{0} {\sqrt {I{\left( {C_{{ss}} } \right)}} } $$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq6.gif"/></alternatives></inline-formula></td><td><inline-formula id="IEq7"><alternatives><tex-math id="M51">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{{R_{0} }} {{{\sqrt {I{\left( {C_{{ss}} } \right)}} }}} $$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq7.gif"/></alternatives></inline-formula></td><td><inline-formula id="IEq8"><alternatives><tex-math id="M52">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$R_{0} I{\left( {C_{{ss}} } \right)} $$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq8.gif"/></alternatives></inline-formula></td></tr><tr><td>II(A)</td><td><inline-formula id="IEq9"><alternatives><tex-math id="M53">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sqrt {\frac{{k_{{in}} }} {{k_{{out}} }}} }  $$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq9.gif"/></alternatives></inline-formula></td><td><inline-formula id="IEq10"><alternatives><tex-math id="M54">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \frac{{R_{0} }} {{{\sqrt {I{\left( {C_{{ss}} } \right)}} }}} $$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq10.gif"/></alternatives></inline-formula></td><td><inline-formula id="IEq11"><alternatives><tex-math id="M55">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \frac{{R_{0} }} {{I{\left( {C_{{ss}} } \right)}}} $$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq11.gif"/></alternatives></inline-formula></td><td><inline-formula id="IEq12"><alternatives><tex-math id="M56">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ R_{0} {\sqrt {I{\left( {C_{{ss}} } \right)}} } $$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq12.gif"/></alternatives></inline-formula></td></tr><tr><td>II(B)</td><td><inline-formula id="IEq13"><alternatives><tex-math id="M57">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sqrt {\frac{{k_{{in}} }} {{k_{{out}} }}} } $$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq13.gif"/></alternatives></inline-formula></td><td><inline-formula id="IEq14"><alternatives><tex-math id="M58">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ R_{0} {\sqrt {S{\left( {C_{{ss}} } \right)}} } $$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq14.gif"/></alternatives></inline-formula></td><td><inline-formula id="IEq15"><alternatives><tex-math id="M59">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ R_{0} S{\left( {C_{{ss}} } \right)} $$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq15.gif"/></alternatives></inline-formula></td><td><inline-formula id="IEq16"><alternatives><tex-math id="M60">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \frac{{R_{0} }} {{{\sqrt {S{\left( {C_{{ss}} } \right)}} }}} $$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq16.gif"/></alternatives></inline-formula></td></tr><tr><td>III</td><td><inline-formula id="IEq17"><alternatives><tex-math id="M61">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ {\sqrt {\frac{{k_{{in}} }} {{k_{{out}} }}} } $$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq17.gif"/></alternatives></inline-formula></td><td><inline-formula id="IEq18"><alternatives><tex-math id="M62">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \frac{{R_{0} }} {{{\sqrt {I{\left( {C_{{ss}} } \right)}} }}} $$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq18.gif"/></alternatives></inline-formula></td><td><inline-formula id="IEq19"><alternatives><tex-math id="M63">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\frac{{R_{0} }} {{I{\left( {C_{{ss}} } \right)}}} $$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq19.gif"/></alternatives></inline-formula></td><td><inline-formula id="IEq20"><alternatives><tex-math id="M64">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ R_{0} {\sqrt {I{\left( {C_{{ss}} } \right)}} } $$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq20.gif"/></alternatives></inline-formula></td></tr></tbody></table></table-wrap></p><p>By extending the original Bundgaard et al. (<xref ref-type="bibr" rid="CR21">21</xref>) analysis to also include a transduction step for the moderator compartment, the parameter precision of <italic>k</italic><sub>tol</sub> was improved. Increasing <italic>k</italic><sub>tol</sub> also resulted in a shortening of its corresponding half-life (ln 2/<italic>k</italic><sub>tol</sub>). All other parameters and their precision remained the same.</p><p>This demonstrated the flexibility of this feedback turnover model without increasing the number of model parameters. We will expand on this topic in a subsequent series of papers.</p><p>It is not surprising that the model predicts an uptake half-life (<italic>t</italic><sub>1/2<italic>k</italic>out</sub> ) of about 3&#x02013;4&#x000a0;min in light of the rate limiting distribution across the dialysis probe membrane. The true uptake half-life into pre-synaptic vesicles does probably lie in the microsecond to second range, but the equilibrium process across the dialysis probe confounds the more rapid reuptake process.</p></sec><sec id="Sec10"><title>INITIAL PARAMETER ESTIMATES</title><p>To successfully model biological systems, one also needs to be able to derive the initial parameter estimates graphically, directly from the experimental data, and not only via indirect estimation during regression. As an example of how this may be done, we use the data set of Example II shown in Fig.&#x000a0;<xref rid="Fig11" ref-type="fig">11</xref>.
+<fig id="Fig11"><label>Fig.&#x000a0;11</label><caption><p>Schematic illustration of deriving the initial parameter estimates based on the response-time course of Example II obtained after a 15 min constant rate intravenous infusion of test compound <italic>X</italic> followed by washout. The slope is mathematically defined by Eq. <xref rid="Equ42" ref-type="">42</xref>, and <italic>&#x00394;</italic>&#x02009;=&#x02009;<italic>R</italic><sub>ss</sub>(<italic>t</italic>) &#x02212; <italic>R</italic><sub>0</sub>(<italic>t</italic>) = <italic>R</italic><sub>ss</sub>(0) &#x02212; <italic>R</italic><sub>0</sub>(0)</p></caption><graphic xlink:href="12248_2008_9007_Fig11_HTML" id="MO11"/></fig></p><p>The system we will derive initial estimates for is
+<disp-formula id="Equ39"><alternatives><tex-math id="M65">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+$$
+\begin{aligned}
+  &#x00026; \begin{array}{*{20}c}
+  {\quad \quad \quad \quad \quad \frac{{dR}}
+{{dt}} = \frac{{k_{{in}} }}
+{M} - k_{{out}}  \cdot R \cdot I{\left( C \right)}} \\
+  {\frac{{dM}}
+{{dt}} = k_{{tol}}  \cdot {\left( {R - M} \right)}} \\
+
+ \end{array}  \\
+ &#x00026; with \\
+ &#x00026; \quad \quad \quad \quad \quad k_{{in}} {\left( t \right)} = k_{{in}} {\left( 0 \right)}{\left( {1 + \alpha t} \right)}^{2}  \\ 
+ \end{aligned} 
+$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ39.gif" position="anchor"/></alternatives></disp-formula>where we assume that the drug mechanism function <italic>I</italic>(<italic>C</italic>) is given by Eq. <xref rid="Equ4" ref-type="">4</xref>:
+<disp-formula id="Equg"><alternatives><tex-math id="M66">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ I{\left( C \right)} = 1 - I_{{\max }} \frac{{C^{n} }} {{IC^{n}_{{50}}  + C^{n} }} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equg.gif" position="anchor"/></alternatives></disp-formula>Throughout we assume that <italic>C</italic><sub>ss</sub><italic>&#x000bb;</italic><italic>IC</italic><sub>50</sub>. Then <italic>I</italic>(<italic>C</italic><sub>ss</sub>) <italic>&#x02248;</italic> 1 &#x02212; <italic>I</italic><sub>max</sub>, and we need to determine the initial estimates for
+<disp-formula id="Equh"><alternatives><tex-math id="M67">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ k_{{in}} {\left( 0 \right)},\quad \quad k_{{out}} ,\quad \quad k_{{tol}} ,\quad \quad \alpha ,\quad \quad and\quad \quad I_{{\max }} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equh.gif" position="anchor"/></alternatives></disp-formula>We shall do this by using the following geometric properties of the response <italic>versus</italic> time graph given in Fig.&#x000a0;<xref rid="Fig11" ref-type="fig">11</xref>:
+<list list-type="order"><list-item><p>The evolution of the baseline over time, modeled by
+<disp-formula id="Equ40"><alternatives><tex-math id="M68">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ R_{0} {\left( t \right)} = R_{0} {\left( 0 \right)}{\left( {1 + \alpha t} \right)},\quad \quad R_{0} {\left( 0 \right)} = 149,\quad \quad R_{0} {\left( {250} \right)} = 162 $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ40.gif" position="anchor"/></alternatives></disp-formula></p></list-item><list-item><p>The evolution of the pharmacodynamic steady state modeled by
+<disp-formula id="Equ41"><alternatives><tex-math id="M69">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ R_{{ss}} {\left( t \right)} = R_{{ss}} {\left( 0 \right)}{\left( {1 + \alpha t} \right)},\quad \quad R_{{ss}} {\left( 0 \right)} = 220 $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ41.gif" position="anchor"/></alternatives></disp-formula></p></list-item><list-item><p>The slope at onset of infusion (<italic>t</italic> = <italic>t</italic><sub>0</sub>&#x02009;=&#x02009;32):
+<disp-formula id="Equ42"><alternatives><tex-math id="M70">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ slope{\mathop  = \limits^{def} }\left. {\frac{{dR}} {{dt}}} \right|_{{t = t_{0} }}  = 17 $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ42.gif" position="anchor"/></alternatives></disp-formula></p></list-item></list>As a first step we compute <italic>I</italic><sub>max</sub> from the values of <italic>R</italic><sub>0</sub>(0) and <italic>R</italic><sub>ss</sub>(0) given in (a) and (b). From Eq. <xref rid="Equ6" ref-type="">6</xref> we know that
+<disp-formula id="Equi"><alternatives><tex-math id="M71">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ R_{{ss}} {\left( 0 \right)} = R_{0} {\left( 0 \right)}{\sqrt {\frac{1} {{I{\left( {C_{{ss}} } \right)}}}} } = R_{0} {\left( 0 \right)}{\sqrt {\frac{1} {{1 - I_{{\max }} }}} } $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equi.gif" position="anchor"/></alternatives></disp-formula>Hence,
+<disp-formula id="Equ43"><alternatives><tex-math id="M72">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ I_{{\max }}  = 1 - {\left( {\frac{{R_{0} {\left( 0 \right)}}} {{R_{{ss}} {\left( 0 \right)}}}} \right)}^{2}  \approx 0.54 $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ43.gif" position="anchor"/></alternatives></disp-formula>where we have used Eqs. <xref rid="Equ40" ref-type="">40</xref> and <xref rid="Equ41" ref-type="">41</xref>.</p><p>Next, we compute the slope <italic>&#x003b1;</italic> from the values of <italic>R</italic><sub>0</sub>(<italic>t</italic>) at <italic>t</italic>&#x02009;=&#x02009;0 and <italic>t</italic>&#x02009;=&#x02009;250. Rewriting the equation for <italic>R</italic><sub>0</sub>(<italic>t</italic>) in Eq. <xref rid="Equ40" ref-type="">40</xref> and evaluating the right hand side at <italic>t</italic>&#x02009;=&#x02009;250, we obtain
+<disp-formula id="Equ44"><alternatives><tex-math id="M73">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$  \alpha  = \frac{1} {t}\left. {{\left( {\frac{{R_{0} {\left( t \right)}}} {{R_{0} {\left( 0 \right)}}} - 1} \right)}} \right|_{{t = 250}}  \approx 0.0004 $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ44.gif" position="anchor"/></alternatives></disp-formula>We now use the slope of the response <italic>versus</italic> time curve at onset of the infusion to compute estimates for <italic>k</italic><sub>in</sub>(0) and <italic>k</italic><sub>out</sub>. We deduce from the differential equation for <italic>R</italic> that
+<disp-formula id="Equ45"><alternatives><tex-math id="M74">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \left. {\frac{{dR}} {{dt}}} \right|_{{t = t_{0} }}  = \frac{{k_{{in}} {\left( {t_{0} } \right)}}} {{M_{0} {\left( {t_{0} } \right)}}} - k_{{out}} {\left( {1 - I_{{\max }} } \right)}R_{0} {\left( {t_{0} } \right)} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ45.gif" position="anchor"/></alternatives></disp-formula>Since, <inline-formula id="IEq21"><alternatives><tex-math id="M75">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ R_{0} {\left( t \right)} = {\sqrt {k_{{in}} {\left( t \right)}/k_{{out}} } }, $$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq21.gif"/></alternatives></inline-formula> we can write <italic>k</italic><sub>out</sub><italic>R</italic><sub>0</sub>(<italic>t</italic>) = <italic>k</italic><sub>in</sub>(<italic>t</italic>)/<italic>R</italic><sub>0</sub>(<italic>t</italic>). Hence, because <italic>R</italic><sub>0</sub>(<italic>t</italic>) = <italic>M</italic><sub>0</sub>(<italic>t</italic>), we can write Eq. <xref rid="Equ45" ref-type="">45</xref> as
+<disp-formula id="Equ46"><alternatives><tex-math id="M76">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \left. {\frac{{dR}} {{dt}}} \right|_{{t = t_{0} }}  = \frac{{k_{{in}} {\left( {t_{0} } \right)}}} {{R_{0} {\left( {t_{0} } \right)}}} \cdot {\left\{ {1 - {\left( {1 - I_{{\max }} } \right)}} \right\}} = \frac{{k_{{in}} {\left( {t_{0} } \right)}}} {{R_{0} {\left( {t_{0} } \right)}}} \cdot I_{{\max }} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ46.gif" position="anchor"/></alternatives></disp-formula>Because both <italic>k</italic><sub>in</sub> and <italic>R</italic><sub>0</sub>(<italic>t</italic>) vary very slowly and <italic>t</italic><sub>0</sub>&#x02009;=&#x02009;32 is small, we may approximate Eq. <xref rid="Equ46" ref-type="">46</xref> by
+<disp-formula id="Equ47"><alternatives><tex-math id="M77">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \left. {\frac{{dR}} {{dt}}} \right|_{{t = t_{0} }}  = \frac{{k_{{in}} {\left( 0 \right)}}} {{R_{0} {\left( 0 \right)}}} \cdot I_{{\max }} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ47.gif" position="anchor"/></alternatives></disp-formula>Thus, an estimate for <italic>k</italic><sub>in</sub>(0) can be obtained from the expression
+<disp-formula id="Equ48"><alternatives><tex-math id="M78">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ k_{{in}} {\left( 0 \right)} = \frac{{R_{0} {\left( 0 \right)}}} {{I_{{\max }} }} \cdot \left. {\frac{{dR}} {{dt}}} \right|_{{t = t_{0} }}  \approx 4700 $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ48.gif" position="anchor"/></alternatives></disp-formula>Therefore,
+<disp-formula id="Equ49"><alternatives><tex-math id="M79">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$k_{{out}}  = \frac{{k_{{in}} {\left( 0 \right)}}} {{{\left\{ {R_{0} {\left( 0 \right)}} \right\}}^{2} }} \approx 0.2 $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ49.gif" position="anchor"/></alternatives></disp-formula>where we have used the values for <italic>k</italic><sub>in</sub>(0) and <italic>R</italic><sub>0</sub>(0) obtained in Eqs. <xref rid="Equ48" ref-type="">48</xref> and <xref rid="Equ40" ref-type="">40</xref>.</p><p>From the start of infusion to the pharmacodynamic steady state takes about 40&#x000a0;min. If we assume that it takes about 4&#x02009;&#x000d7;&#x02009;<italic>t</italic><sub>1/2ktol</sub> for equilibrium to be established we expect <italic>k</italic><sub>tol</sub> to be given by approximately
+<disp-formula id="Equj"><alternatives><tex-math id="M80">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$  k_{{tol}}  = \frac{{\ln 2}} {{t_{{1/2k_{{tol}} }} }} = \frac{{\ln 2}} {{10}} \approx 0.07\quad \min ^{{ - 1}} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equj.gif" position="anchor"/></alternatives></disp-formula>We assume the value of <italic>n</italic> to be in the neighborhood of 2. This is a valid assumption because in our own experience, <italic>n</italic> seldom falls outside the range of 1&#x02013;4. Also, two or more dose levels will further strengthen the estimation of, particularly, the drug parameters <italic>IC</italic><sub>50</sub>, <italic>I</italic><sub>max</sub> and <italic>n</italic>. Obtaining good initial estimates not only shortens the regression time, but also avoids the potential risk of ending up in a local minimum resulting in biased and imprecise parameter estimates.</p><p>For convenience we collect some pertinent formulae in Table <xref rid="Tab4" ref-type="table">IV</xref>.</p></sec><sec id="Sec11"><title>THE STATE SPACE&#x02014;A GEOMETRIC DESCRIPTION OF THE DYNAMICS</title><p>The observations made in the &#x0201c;<xref rid="Sec2" ref-type="sec">Methods</xref>&#x0201d; section can be illustrated and illuminated by a geometrical representation of the dynamics of the system.
+<disp-formula id="Equ50"><alternatives><tex-math id="M81">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+$$
+\begin{array}{*{20}c}
+  {\frac{{dR}}
+{{dt}} = k_{{in}}  \cdot \frac{1}
+{M} - k_{{out}}  \cdot R \cdot I{\left( {C_{{ss}} } \right)}} \\
+  {\frac{{dM}}
+{{dt}} = k_{{tol}}  \cdot {\left( {R - M} \right)}} \\
+
+ \end{array} 
+$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ50.gif" position="anchor"/></alternatives></disp-formula>The underlying idea is that the state of the system is completely determined by the values of <italic>R</italic> and <italic>M</italic> and can be represented by a point in the (<italic>R</italic>,<italic>M</italic>) -plane. As the system evolves, the point will trace out an orbit in the (<italic>R</italic>,<italic>M</italic>) -plane. It will do so with a speed <italic>&#x003bd;</italic>= (<italic>dR</italic>/<italic>dt</italic>,<italic>dM</italic>/<italic>dt</italic>) which is given in terms of <italic>R</italic> and <italic>M</italic> by the system of differential equations.</p><p>We point out two important curves in the (<italic>R</italic>,<italic>M</italic>) -plane. They are the curve <italic>&#x00393;</italic><sub><italic>R</italic></sub> on which the tangent to the orbit is parallel to the <italic>M</italic> -axis, and <italic>&#x00393;</italic><sub><italic>M</italic></sub> on which the tangent to the orbit is parallel to the <italic>R</italic>-axis:
+<disp-formula id="Equk"><alternatives><tex-math id="M82">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \Gamma _{R}  = {\left\{ {{\left( {R,M} \right)}:{dR} \mathord{\left/  {\vphantom {{dR} {dt}}} \right.  \kern-\nulldelimiterspace} {dt} = 0} \right\}}\quad \quad and\quad \quad \Gamma _{M}  = {\left\{ {{\left( {R,M} \right)}:{dM} \mathord{\left/  {\vphantom {{dM} {dt}}} \right.  \kern-\nulldelimiterspace} {dt} = 0} \right\}} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equk.gif" position="anchor"/></alternatives></disp-formula>These curves are called the <italic>Null Clines</italic> of the system. Thus, by Eq. <xref rid="Equ50" ref-type="">50</xref><disp-formula id="Equl"><alternatives><tex-math id="M83">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+$$
+\Gamma _{R} :R = \frac{{R^{2}_{0} }}
+{{l{\left( {C_{{ss}} } \right)}}}\frac{1}
+{M}\quad a\;hyperbole\quad \Gamma _{M} :R = M\quad a\;straight\;line
+$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equl.gif" position="anchor"/></alternatives></disp-formula>Points where <italic>&#x00393;</italic><sub><italic>R</italic></sub> and <italic>&#x00393;</italic><sub><italic>M</italic></sub> intersect correspond to equilibrium states. If <italic>C</italic>&#x02009;=&#x02009;0, the unique point of intersection is the baseline (<italic>R</italic><sub>0</sub>,<italic>M</italic><sub>0</sub>), whilst if <italic>C</italic> = <italic>C</italic><sub>ss</sub>, the null clines intersect at the pharmacodynamic steady state (<italic>R</italic><sub>ss</sub>,<italic>M</italic><sub>ss</sub>).</p><p>In Fig.&#x000a0;<xref rid="Fig12" ref-type="fig">12</xref> we show two sets of such orbits. In one set (left) we show orbits that correspond to the onset of an infusion, and in the other set we show orbits that correspond to washout. We do this for four values of <italic>k</italic><sub>tol</sub> keeping <italic>k</italic><sub>out</sub> fixed. Specifically, we choose <italic>k</italic><sub>tol</sub> such that <italic>&#x003ba;</italic> = <italic>k</italic><sub>tol</sub>/<italic>k</italic><sub>out</sub>&#x02009;=&#x02009;0, 0.01, 0.1 and 1.0.
+<fig id="Fig12"><label>Fig.&#x000a0;12</label><caption><p>Orbits in the (<italic>R</italic>, <italic>M</italic>)-plane for onset of infusion (<bold>a</bold>) and for washout (<bold>b</bold>). The constants are <italic>&#x003ba;</italic> = <italic>k</italic><sub>tol</sub>/<italic>k</italic><sub>out</sub>&#x02009;=&#x02009;0, 0.01, 0.1, 1 and <italic>k</italic><sub>in</sub>&#x02009;=&#x02009;0.23, <italic>k</italic><sub>out</sub>&#x02009;=&#x02009;0.23 (<italic>R</italic><sub>0</sub>&#x02009;=&#x02009;1), and <italic>I</italic><sub>max</sub>&#x02009;=&#x02009;0.8, <italic>C</italic><sub>ss</sub><italic>&#x000bb;</italic><italic>IC</italic><sub>50</sub>. The dashed lines are the null clines through (<italic>R</italic><sub>0</sub>,<italic>M</italic><sub>0</sub>) and through (<italic>R</italic><sub>ss</sub>,<italic>M</italic><sub>ss</sub>)</p></caption><graphic xlink:href="12248_2008_9007_Fig12_HTML" id="MO12"/></fig></p><p>Below we list a few observations about these orbits.</p><p><bold>Onset of response</bold> Since <italic>I</italic>(<italic>C</italic><sub>ss</sub>) &#x0003c; 1, the null cline <italic>&#x00393;</italic><sub><italic>R</italic></sub> shifts upward.<italic>k</italic><sub>tol</sub>&#x02009;=&#x02009;0: Since <italic>M</italic>(<italic>t</italic>) = <italic>M</italic><sub>0</sub> along this orbit, it traces out a <italic>vertical</italic> line until it reaches <italic>&#x00393;</italic><sub><italic>R</italic></sub> at <italic>R</italic>=<italic>R</italic><sub>top</sub>.<italic>k</italic><sub>tol</sub> &#x0003c;&#x0003c; <italic>k</italic><sub>out</sub>: Here <italic>M</italic>(<italic>t</italic>) grows slowly and the orbit is almost vertical until it reaches <italic>&#x00393;</italic><sub><italic>R</italic></sub>, crosses it at time <italic>T</italic><sub>max</sub>, where the response reaches its maximal value <italic>R</italic><sub>max</sub>. The orbit then follows <italic>&#x00393;</italic><sub><italic>R</italic></sub> down until it reaches the pharmacodynamic steady state (<italic>R</italic><sub>ss</sub>, <italic>M</italic><sub>ss</sub>). Note that <italic>R</italic><sub>max</sub><italic>&#x02248;</italic><italic>R</italic><sub>top</sub>.<italic>k</italic><sub>tol</sub><italic>&#x02248;</italic><italic>k</italic><sub>out</sub>: Here <italic>R</italic>(<italic>t</italic>) and <italic>M</italic>(<italic>t</italic>) develop more in tandem and the overshoot is much diminished, i.e. <italic>R</italic><sub>max</sub> is much lower. Notice the spiral-type behavior near (<italic>R</italic><sub>ss</sub>,<italic>M</italic><sub>ss</sub>).</p><p><bold>Washout of response</bold> Since <italic>I</italic>(0) = 1, the null cline <italic>&#x00393;</italic><sub><italic>R</italic></sub> drops back to the starting position.<italic>k</italic><sub>tol</sub>&#x02009;=&#x02009;0: Since <italic>M</italic>(<italic>t</italic>) = <italic>M</italic><sub>ss</sub> along this orbit, it traces out a <italic>vertical</italic> line until it reaches <italic>&#x00393;</italic><sub><italic>R</italic></sub> at <italic>R</italic> = <italic>R</italic><sub>bottom</sub><italic>k</italic><sub>tol</sub> &#x0003c;&#x0003c; <italic>k</italic><sub>out</sub>: The orbit drops down and quickly reaches <italic>&#x00393;</italic><sub><italic>R</italic></sub>. Thereafter, it slowly follows <italic>&#x00393;</italic><sub><italic>R</italic></sub> back towards the baseline (<italic>R</italic><sub>0</sub>,<italic>M</italic><sub>0</sub>).<italic>k</italic><sub>tol</sub><italic>&#x02248;</italic><italic>k</italic><sub>out</sub>: The rebound is now less pronounced and the baseline point (<italic>R</italic><sub>0</sub>,<italic>M</italic><sub>0</sub>) is approached via a small spiral.</p><p>It is evident from the way the orbits must cross the null clines in the phase plane that
+<list list-type="order"><list-item><p><italic>R</italic><sub>max</sub> cannot exceed <italic>R</italic><sub>top</sub> and that <italic>R</italic><sub>min</sub> cannot drop below <italic>R</italic><sub>bottom</sub>.</p></list-item><list-item><p>Overshoot (<italic>R</italic><sub>max</sub> - <italic>R</italic><sub>ss</sub>) as well as rebound (<italic>R</italic><sub>0</sub> - <italic>R</italic><sub>min</sub>) become smaller as the ratio <italic>&#x003ba;</italic> = <italic>k</italic><sub>tol</sub>/ <italic>k</italic><sub>out</sub> becomes larger.</p></list-item></list></p><p>It is interesting to compare the nonlinear feedback system 8 with the linear system (<xref ref-type="bibr" rid="CR19">19</xref>, <xref ref-type="bibr" rid="CR26">26</xref>),
+<disp-formula id="Equ51"><alternatives><tex-math id="M84">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+$$
+\begin{array}{*{20}c}
+  {\frac{{dR}}
+{{dt}} = k_{{in}}  - k_{{out}} M \cdot I{\left( C \right)}} \\
+  {\frac{{dM}}
+{{dt}} = k_{{tol}}  \cdot {\left( {R - M} \right)}} \\
+
+ \end{array} 
+$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ51.gif" position="anchor"/></alternatives></disp-formula>Plainly, here the baseline is given by <italic>R</italic><sub>0</sub> = <italic>M</italic><sub>0</sub> = <italic>k</italic><sub>in</sub>/<italic>k</italic><sub>out</sub> and the pharmacodynamic steady state is <italic>R</italic><sub>ss</sub> = <italic>M</italic><sub>ss</sub> = <italic>k</italic><sub>in</sub>/{<italic>k</italic><sub>out</sub><italic>I</italic>(<italic>C</italic><sub>ss</sub>)}. As in the nonlinear model, if <italic>k</italic><sub>tol</sub>&#x02009;&#x0003e;&#x02009;0, then
+<disp-formula id="Equ52"><alternatives><tex-math id="M85">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+$$
+\begin{array}{*{20}l}
+   {{R{\left( t \right)} \to R_{{ss}} \quad \quad as\quad \quad t \to \infty \quad after{\text{ }}onset\quad {\left( {t_{1}  = \infty } \right)}} \hfill}  \\
+   {{R{\left( t \right)} \to R_{0} \quad \quad as\quad \quad t \to \infty \quad after{\text{ }}washout} \hfill}  \\
+
+ \end{array} 
+$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ52.gif" position="anchor"/></alternatives></disp-formula>In Fig.&#x000a0;<xref rid="Fig13" ref-type="fig">13</xref>a, we show a response <italic>versus</italic> time course following onset and subsequent washout after <italic>t</italic><sub>1</sub> = 10 minutes. Below, in Fig.&#x000a0;<xref rid="Fig13" ref-type="fig">13</xref>b, we also show the corresponding orbit in the (<italic>R</italic>,<italic>M</italic>)-plane.
+<fig id="Fig13"><label>Fig.&#x000a0;13</label><caption><p>Response <italic>versus</italic> time plot (<bold>a</bold>) and the corresponding orbit in the (<italic>R</italic>,<italic>M</italic>) -plane for onset (<bold>b</bold>) of infusion and washout after 10&#x000a0;min. The constants are <italic>k</italic><sub>tol</sub>&#x02009;=&#x02009;1, <italic>k</italic><sub>in</sub>&#x02009;=&#x02009;10, <italic>k</italic><sub>out</sub>&#x02009;=&#x02009;10 and <italic>I</italic><sub>max</sub>&#x02009;=&#x02009;0.5 and <italic>C</italic><sub>ss</sub><italic>&#x000bb;</italic><italic>IC</italic><sub>50</sub>. The dashed lines are the null clines through, respectively, (<italic>R</italic><sub>0</sub>,<italic>M</italic><sub>0</sub>) and (<italic>R</italic><sub>ss</sub>,<italic>M</italic><sub>ss</sub>)</p></caption><graphic xlink:href="12248_2008_9007_Fig13_HTML" id="MO13"/></fig></p><p>The null clines in the (<italic>R</italic>,<italic>M</italic>) -plane are now given by <inline-formula id="IEq22"><alternatives><tex-math id="M86">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$\Gamma _{R}  = {\left\{ {{\left( {R,M} \right)}:M = {M_{0} } \mathord{\left/ {\vphantom {{M_{0} } {\text{I}}}} \right. \kern-\nulldelimiterspace} {\text{I}}{\left( {C_{{ss}} } \right)}\,} \right\}}\,\,\,\,and\,\,\,\,\Gamma _{M}  = {\left\{ {{\left( {R,M} \right)}:R = M} \right\}}$$\end{document}</tex-math><inline-graphic xlink:href="12248_2008_9007_Article_IEq22.gif"/></alternatives></inline-formula></p><p>After onset, <italic>&#x00393;</italic><sub><italic>R</italic></sub> shifts to the right since <italic>I</italic>(<italic>C</italic><sub>ss</sub>) &#x0003c; 1 if <italic>C</italic><sub>ss</sub> &#x0003e; 0, and it shifts back at washout. We see how the orbit, which starts at the baseline (<italic>R</italic><sub>0</sub>, <italic>M</italic><sub>0</sub>) = (1,1) spirals towards (<italic>R</italic><sub>ss</sub>, <italic>M</italic><sub>ss</sub>) = (2, 2), as predicted by Eq. <xref rid="Equ52" ref-type="">52</xref> and after washout spirals back to the baseline.</p><p>If <italic>k</italic><sub>tol</sub>&#x02009;=&#x02009;0, then <italic>M</italic>(<italic>t</italic>) &#x02261; <italic>M</italic><sub>0</sub> and the equation for <italic>R</italic> becomes
+<disp-formula id="Equ53"><alternatives><tex-math id="M87">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ \frac{{dR}} {{dt}} = k_{{in}}  - k_{{out}} M_{0}  \cdot I{\left( {C_{{ss}} } \right)} = k_{{in}} {\left\{ {1 - I{\left( {C_{{ss}} } \right)}} \right\}} $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ53.gif" position="anchor"/></alternatives></disp-formula>Therefore
+<disp-formula id="Equ54"><alternatives><tex-math id="M88">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}$$ R{\left( t \right)} = R_{0}  + k_{{in}} {\left\{ {1 - I{\left( {C_{{ss}} } \right)}} \right\}}t $$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equ54.gif" position="anchor"/></alternatives></disp-formula>Thus, if <italic>t</italic><sub>1</sub>&#x02009;=&#x02009;&#x0221e;, then, in contrast to the nonlinear model 8, in the linear model <italic>R</italic>(<italic>t</italic>) becomes unbounded, i.e., exceeds any value for <italic>t</italic> large enough.</p><p>If <italic>k</italic><sub>tol</sub>&#x02009;&#x0003e;&#x02009;0 the limiting behavior for large time shown in Eq. <xref rid="Equ52" ref-type="">52</xref> implies that <italic>R</italic><sub>max</sub>&#x02009;&#x0003c;&#x02009;&#x0221e;. As in system 8, we find that <italic>R</italic><sub>max</sub> decreases as <italic>k</italic><sub>tol</sub>/<italic>k</italic><sub>out</sub> increases. In addition, we conclude from Eq. <xref rid="Equ54" ref-type="">54</xref> and an asymptotic analysis that
+<disp-formula id="Equm"><alternatives><tex-math id="M89">\documentclass[12pt]{minimal}
+				\usepackage{amsmath}
+				\usepackage{wasysym} 
+				\usepackage{amsfonts} 
+				\usepackage{amssymb} 
+				\usepackage{amsbsy}
+				\usepackage{mathrsfs}
+				\usepackage{upgreek}
+				\setlength{\oddsidemargin}{-69pt}
+				\begin{document}
+$$
+\begin{array}{*{20}l}
+   {{R_{{\max }}  \to \infty \quad \quad as\quad \quad k_{{tol}}  \to 0} \hfill}  \\
+   {{R_{{\max }}  \to R_{{ss}} \quad \quad if\quad \quad k_{{tol}}  \geqslant 4k_{{out}} I{\left( {C_{{ss}} } \right)}} \hfill}  \\
+
+ \end{array} 
+$$\end{document}</tex-math><graphic xlink:href="12248_2008_9007_Article_Equm.gif" position="anchor"/></alternatives></disp-formula>Therefore, unlike in the nonlinear model, there is no upper bound for <italic>R</italic><sub>max</sub>, which is independent of <italic>k</italic><sub>tol</sub>. Similarly, there is no lower bound for <italic>R</italic>(<italic>t</italic>) which is independent of <italic>k</italic><sub>tol</sub> and <italic>R</italic><sub>min</sub><italic>&#x02192;</italic> - &#x0221e; as <italic>k</italic><sub>tol</sub><italic>&#x02192;</italic> 0. Therefore, <italic>R</italic>(<italic>t</italic>) may become negative for some time interval when <italic>k</italic><sub>tol</sub> is small enough. We see this happening in Fig.&#x000a0;<xref rid="Fig13" ref-type="fig">13</xref>a. In the nonlinear model 8, the response is always positive, regardless of the values of the system and drug parameters.</p></sec><sec id="Sec12"><title>DISCUSSION</title><p><bold>Background</bold> From a drug discovery point of view many biological variables including the ones affected by drugs, are subject to adaptation and tolerance. In the description of the time course of the response to drugs, it may therefore be necessary to consider the endogenous feedback control as an intrinsic part of the pharmacodynamics. With still the same system parameters and properties, different drug parameters will result in different response-time courses and consequently different levels of onset, intensity, duration and adaptation.Does tolerance confound the estimability of system and drug parameters? Yes, particularly with slow drug kinetics relative to kinetics of response, and with a substantial baseline drift, unless data are rich and well-spaced such as in Examples II and III. Since tolerance/adaptation may develop on a totally different (slower) time scale than the primary response (<italic>k</italic><sub>out</sub>), this may result in unexpected (and unpredictable from acute dosing) responses at pharmacodynamic steady-state. We believe that not only tolerance per se, but tolerance coupled to a substantial rebound effect may jeopardize the clinical outcome of unscheduled drug holidays (missed doses) and temporarily result in clinically harmful rebound effects. Therefore, multiple dosing and continuous tracking of the pharmacodynamic effect will be necessary at two or more dose levels. The kappa parameter (<italic>k</italic><sub>tol</sub>/<italic>k</italic><sub>out</sub>) may also serve as an early indicator variable of how slow tolerance develops and therefore how long extended exposure is needed.In quantitative pharmacology, the physiology and the system need to be (<italic>i</italic>) condensed into a conceptual (picture) model that captures the main features, including rate limiting step(s). When the mechanism of action has been presented as a conceptual model, the latter then needs to be translated into (<italic>ii</italic>) equations, i.e., the mathematical model, e.g., of the rate process (quantitative pharmacological), which is implemented into the regression software package. This is the second condensation, because model parameters also need to be identifiable and estimable.The next step (<italic>iii</italic>) will be to add the statistical model (error and/or covariate models) to the regression model. This is, of course, of importance in most instances, but it also needs to be balanced against mechanism of action (including the mathematical structure) and supported by a thorough experimental design. We envision more of a focus on mechanistic/mathematical model building including emphasis on experimental design. However, pattern recognition and exploratory data analysis are more related to the art of successful model building than the pure mathematical/statistical regression.</p><p><bold>Examples</bold> The analysis in this paper has been anchored in data sets obtained from three examples.Example I covers rapid test compound kinetics, multiple provocations, washout dynamics, and a value of <italic>&#x003ba;</italic> = <italic>k</italic><sub>tol</sub>/<italic>k</italic><sub>out</sub> which is less than 1. These combinations reveal the system properties and result in accurate and precise system and drug parameters. The pharmacological response exhibits adaptation and particularly extensive rebound.Example II covers rapid system kinetics, relatively slow washout of test compound and a substantial drift in the baseline. Again, the value of <italic>&#x003ba;</italic> is less than 1. The pharmacological response shows a pronounced overshoot, adaptation and a slow return towards baseline without any indication of a rebound. However, simulations also demonstrate rebound of this system provided rapid kinetics and stable baseline.Example III covers intravenous infusion at a 4-fold dose (exposure) range, slow washout of test compound and a stable baseline. The pharmacological response shows a rapid onset, superimposing response-time courses for the two highest doses and lack of rebound upon return towards the baseline. This time the value of <italic>&#x003ba;</italic> was much less than 1, but the slow pharmacokinetics of the test compound confounded the possibility of a rebound.The intravenous way of administration avoids confounding absorption processes and first-pass phenomena. In neither of the three examples, pharmacologically active metabolites are known to be involved.</p><p><bold>Initial Estimates</bold> Using the data set of Example II we have shown how initial estimates for system and drug parameters can be obtained from just a few critical properties of the response <italic>versus</italic> time curve, such as baseline, pharmacodynamic steady state and initial slope.</p><p><bold>Qualitative Analysis of the Model</bold> Using qualitative methods we have obtained a-priori estimates for the response <italic>versus</italic> time course, such as upper and lower bounds, rate of convergence to the pharmacodynamic steady state, and to the baseline and insight into the crucial importance of the ratio <italic>&#x003ba;</italic> of the rate constants for the moderator <italic>k</italic><sub>tol</sub> and the response <italic>k</italic><sub>out</sub>. Viewing the dynamics of the system as an orbit in the <italic>state space</italic> represented by the (<italic>R</italic>, <italic>M</italic>)&#x02014;plane has yielded valuable insight into the specific properties of the feedback model such as a tendency towards overshoot and rebound, and an &#x0201c;upward bias&#x0201d; in that the tendency towards overshoot tends to be larger if the response jumps <italic>up</italic> than when it jumps <italic>down</italic>.With the a-priori knowledge we have obtained for this class of feedback models it will be easier to assess before hand whether or not a given data set can be fruitfully modeled by a model of this type.</p><p><bold>Design</bold> What are study designs generally lacking in situations where we also have feedback, tolerance and adaptation? We advocate several dose levels coupled to different routes and rates of input, multiple dosing, re-dosing during overshoot, pharmacodynamic steady-state or during rebound. Multiple consecutive intravenous infusions were given to the system presented in Example I. This is an example of multiple perturbations of a system, which reveals the system properties nicely. Since adaptation is a time-phenomenon, experimental design also requires repeated provocations (repeated dosing, different rates and routes of administration) of the system that is being studied. There is no generic schedule for this, but multiple provocations for at least 3&#x02013;4 <italic>t</italic><sub>1/2ktol</sub>, coupled to washout dynamics with sufficient baseline data, are probably informative. In a subsequent series of papers we will demonstrate how multiple rates and durations of intravenous dosing, coupled to observations of pharmacology during and after the provocations (washout), may help to elucidate the rate limiting steps behind a physiological turnover system exhibiting rapid adaptation.We also advocate <italic>ex vivo</italic> plasma protein binding of the test compound for appropriate estimation of unbound exposure, since changes in plasma protein binding have been shown to affect the exponent (Hill coefficient) in the sigmoid <italic>E</italic><sub>max</sub> model when converting total to unbound concentrations. <italic>Ex vivo</italic> plasma protein binding has, in our experience, given different results compared to pooled in vitro plasma protein binding experiments. One may also need to consider dosing (infuse) potentially active metabolites if their potencies and/or exposure levels fall in the neighborhood of parent compound. Making model simulations prior to executing the full experiment also helps to set up a strategy for experimental design.A constant (stable) drug input is probably the least satisfactory design for a feedback experiment. For tolerant physiological systems we believe that the constant 24&#x000a0;hr exposure paradigm may be deleterious in that most physiological systems need to be reset to some extent at some point during each dosing interval for the system to be susceptible to a new dose.</p><p><bold>Final Conclusion</bold> We have demonstrated the flexibility of a class of turnover models in their ability to mimic overshoot, pharmacodynamic steady state, return to baseline and rebound. We anchored this analysis to three experimental data sets of varying complexity. Finally, we discuss analytical tools such as phase plane plots and show a strategy as to how to derive initial parameter estimates.</p></sec></body><back><ack><title>Acknowledgement</title><p>The second author wishes to record his gratitude to the Center for BioDynamics at Boston University for the hospitality enjoyed during the writing of this review.</p></ack><ref-list id="Bib1"><title>References</title><ref id="CR1"><label>1.</label><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Goodman</surname><given-names>L. S.</given-names></name><name><surname>Gilman</surname><given-names>A. G.</given-names></name></person-group><source>The Pharmacological Basis of Therapeutics</source><year>1996</year><edition>9</edition><publisher-loc>New York</publisher-loc><publisher-name>McGrawHill</publisher-name></mixed-citation></ref><ref id="CR2"><label>2.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>S&#x000e4;llstr&#x000f6;m</surname><given-names>B.</given-names></name><name><surname>Visser</surname><given-names>S. A. G.</given-names></name><name><surname>Forsberg</surname><given-names>T.</given-names></name><name><surname>Peletier</surname><given-names>L. A.</given-names></name><name><surname>Ericson</surname><given-names>A. C.</given-names></name><name><surname>Gabrielsson</surname><given-names>J.</given-names></name></person-group><article-title>A novel pharmacodynamic turnover model capturing asymmetric circadian baselines of body temperature, heart rate and blood pressure in rats: challenges in terms of tolerance and animal handling effects</article-title><source>Journal of Pharmacokinetics and Pharmacodynamics</source><year>2005</year><volume>32</volume><fpage>835</fpage><lpage>859</lpage><pub-id pub-id-type="doi">10.1007/s10928-005-0087-2</pub-id><pub-id pub-id-type="pmid">16328099</pub-id></mixed-citation></ref><ref id="CR3"><label>3.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Visser</surname><given-names>S. A. G.</given-names></name><name><surname>S&#x000e4;llstr&#x000f6;m</surname><given-names>B.</given-names></name><name><surname>Forsberg</surname><given-names>T.</given-names></name><name><surname>Peletier</surname><given-names>L. A.</given-names></name><name><surname>Gabrielsson</surname><given-names>J.</given-names></name></person-group><article-title>Modeling drug- and system-related changes in body temperature: application to Clometiazole-induced hypotyhermia, long-lasting tolerance developments and circadian rhythm in rats</article-title><source>J. Pharmacol. Exp. Ther.</source><year>2006</year><volume>317</volume><fpage>209</fpage><lpage>219</lpage><pub-id pub-id-type="doi">10.1124/jpet.105.095224</pub-id><pub-id pub-id-type="pmid">16339393</pub-id></mixed-citation></ref><ref id="CR4"><label>4.</label><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Colburn</surname><given-names>W. A.</given-names></name><name><surname>Eldon</surname><given-names>M. A.</given-names></name></person-group><person-group person-group-type="editor"><name><surname>Butler</surname><given-names>N. R.</given-names></name><name><surname>Sramek</surname><given-names>J. J.</given-names></name><name><surname>Narang</surname><given-names>P. K.</given-names></name></person-group><article-title>Simultaneous pharmacokinetic/Pharmacodynamic modeling</article-title><source>Pharmacodynamics and Drug Development: Perspectives in Clinical Pharmacology</source><year>1994</year><publisher-loc>New York</publisher-loc><publisher-name>Wiley</publisher-name></mixed-citation></ref><ref id="CR5"><label>5.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Porchet</surname><given-names>H. C.</given-names></name><name><surname>Benowitz</surname><given-names>N. L.</given-names></name><name><surname>Sheiner</surname><given-names>L. B.</given-names></name></person-group><article-title>Pharmacodynamic model of tolerance: Application to nicotine</article-title><source>J. Pharmacol. Exp. Ther.</source><year>1988</year><volume>244</volume><fpage>231</fpage><lpage>236</lpage><pub-id pub-id-type="pmid">3336000</pub-id></mixed-citation></ref><ref id="CR6"><label>6.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ouellet</surname><given-names>D. M. C.</given-names></name><name><surname>Pollack</surname><given-names>G. M.</given-names></name></person-group><article-title>Pharmacodynamics and tolerance development during multiple administrations in rats</article-title><source>J. Pharmacol. Exp. Ther.</source><year>1997</year><volume>281</volume><fpage>713</fpage><lpage>720</lpage><pub-id pub-id-type="pmid">9152377</pub-id></mixed-citation></ref><ref id="CR7"><label>7.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Urquhart</surname><given-names>J.</given-names></name><name><surname>Li</surname><given-names>C. C.</given-names></name></person-group><article-title>The dynamics of adrenocortical secretion</article-title><source>Am. J. Physiol.</source><year>1968</year><volume>214</volume><fpage>73</fpage><lpage>85</lpage><pub-id pub-id-type="pmid">4295035</pub-id></mixed-citation></ref><ref id="CR8"><label>8.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Urquhart</surname><given-names>J.</given-names></name><name><surname>Li</surname><given-names>C. C.</given-names></name></person-group><article-title>Dynamic testing and modeling of andrecortical secretory function</article-title><source>Ann. NY Acad. Sci.</source><year>1969</year><volume>156</volume><fpage>756</fpage><lpage>778</lpage><pub-id pub-id-type="doi">10.1111/j.1749-6632.1969.tb14012.x</pub-id><pub-id pub-id-type="pmid">4309117</pub-id></mixed-citation></ref><ref id="CR9"><label>9.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Veng-Pederson</surname><given-names>P.</given-names></name><name><surname>Modi</surname><given-names>N. B.</given-names></name></person-group><article-title>A system approach to pharmacodynamics. Input-effect control system analysis of central nervous system effect of alfentanil</article-title><source>J. Pharm. Sci.</source><year>1993</year><volume>82</volume><fpage>266</fpage><lpage>272</lpage><pub-id pub-id-type="doi">10.1002/jps.2600820310</pub-id><pub-id pub-id-type="pmid">8450420</pub-id></mixed-citation></ref><ref id="CR10"><label>10.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Licko</surname><given-names>V.</given-names></name><name><surname>Ekblad</surname><given-names>E. B.</given-names></name></person-group><article-title>Dynamics of a metabolic system: what single-action agents reveal about acid secretion</article-title><source>Am. J. Physiol. Gastrointest. Liver Physiol.</source><year>1992</year><volume>262</volume><fpage>G581</fpage><lpage>G592</lpage></mixed-citation></ref><ref id="CR11"><label>11.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bauer</surname><given-names>J. A.</given-names></name><name><surname>Fung</surname><given-names>H. L.</given-names></name></person-group><article-title>Pharmacodynamic models of nitroglycerin-induced hemodynamic tolerance in experimental heart failure</article-title><source>Pharm. Res.</source><year>1994</year><volume>11</volume><fpage>816</fpage><lpage>823</lpage><pub-id pub-id-type="doi">10.1023/A:1018917522072</pub-id><pub-id pub-id-type="pmid">7937519</pub-id></mixed-citation></ref><ref id="CR12"><label>12.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Sharma</surname><given-names>A.</given-names></name><name><surname>Ebling</surname><given-names>W. F.</given-names></name><name><surname>Jusko</surname><given-names>W. J.</given-names></name></person-group><article-title>Precursor-dependent indirect pharmacodynamic response model for tolerance and rebound phenomena</article-title><source>J. Pharm. Sci.</source><year>1998</year><volume>87</volume><fpage>1577</fpage><lpage>1584</lpage><pub-id pub-id-type="doi">10.1021/js980171q</pub-id><pub-id pub-id-type="pmid">10189270</pub-id></mixed-citation></ref><ref id="CR13"><label>13.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Ackerman</surname><given-names>E.</given-names></name><name><surname>Rosevear</surname><given-names>J. W.</given-names></name><name><surname>McGuckin</surname><given-names>W. F.</given-names></name></person-group><article-title>A mathematical model of the glucose-tolerance test</article-title><source>Phys. Med. Biol.</source><year>1964</year><volume>9</volume><fpage>203</fpage><lpage>213</lpage><pub-id pub-id-type="doi">10.1088/0031-9155/9/2/307</pub-id></mixed-citation></ref><ref id="CR14"><label>14.</label><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Rescigno</surname><given-names>A.</given-names></name><name><surname>Segre</surname><given-names>G.</given-names></name></person-group><source>Drug and tracer kinetics</source><year>1966</year><publisher-loc>London</publisher-loc><publisher-name>Blaisdell Publishing Company</publisher-name><fpage>1961</fpage></mixed-citation></ref><ref id="CR15"><label>15.</label><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Holford</surname><given-names>N. H. G.</given-names></name><name><surname>Gabrielsson</surname><given-names>J.</given-names></name><name><surname>Sheiner</surname><given-names>L. B.</given-names></name><name><surname>Benowitz</surname><given-names>N.</given-names></name><name><surname>Jones</surname><given-names>R.</given-names></name></person-group><source>A Physiological Pharmacodynamic Model for Tolerance to Cocaine Effects on Systolic Blood Pressure, Heart Rate and Euphoria in Human Volunteers. (Poster presented at Measurement and Kinetics of In Vivo Drug Effects: Advances in Simultaneous Pharmacokinetic/Pharmacodynamic Modeling)</source><year>1990</year><publisher-loc>The Netherlands</publisher-loc><publisher-name>Noordwijk</publisher-name><fpage>28</fpage><lpage>30</lpage></mixed-citation></ref><ref id="CR16"><label>16.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Wakelkamp</surname><given-names>M.</given-names></name><name><surname>Alvan</surname><given-names>G.</given-names></name><name><surname>Gabrielsson</surname><given-names>J.</given-names></name><name><surname>Paintaud</surname><given-names>G.</given-names></name></person-group><article-title>Pharmacodynamic modeling of furosemide tolerance after multiple intravenous administration</article-title><source>Clin. Pharmacol. Ther.</source><year>1996</year><volume>60</volume><fpage>75</fpage><lpage>88</lpage><pub-id pub-id-type="doi">10.1016/S0009-9236(96)90170-8</pub-id><pub-id pub-id-type="pmid">8689815</pub-id></mixed-citation></ref><ref id="CR17"><label>17.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Agers&#x000f8;</surname><given-names>H.</given-names></name><name><surname>Ynddal</surname><given-names>L.</given-names></name><name><surname>S&#x000f8;gaard</surname><given-names>B.</given-names></name><name><surname>Zdravkovic</surname><given-names>M.</given-names></name></person-group><article-title>Pharmacokinetic and pharmacodynamic modeling of NN703, a growth hormone Secretagogue, after a single po dose to human volunteers</article-title><source>J. Clin. Pharmacol.</source><year>2001</year><volume>41</volume><fpage>163</fpage><lpage>169</lpage><pub-id pub-id-type="doi">10.1177/00912700122009971</pub-id><pub-id pub-id-type="pmid">11210396</pub-id></mixed-citation></ref><ref id="CR18"><label>18.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Zuideveld</surname><given-names>K. P.</given-names></name><name><surname>Maas</surname><given-names>H. J.</given-names></name><name><surname>Treijtel</surname><given-names>N.</given-names></name><name><surname>Hulshof</surname><given-names>J.</given-names></name><name><surname>Graaf</surname><given-names>P. H.</given-names></name><name><surname>Peletier</surname><given-names>L. A.</given-names></name><name><surname>Danhof</surname><given-names>M.</given-names></name></person-group><article-title>A set-point model with oscillatory behaviour predicts the time course of 8-OH-DPAT-induced hypothermia</article-title><source>Am. J. Physiol. Regul. Integr. Comp. Physiol.</source><year>2001</year><volume>281</volume><fpage>R2059</fpage><lpage>R2071</lpage><pub-id pub-id-type="pmid">11705793</pub-id></mixed-citation></ref><ref id="CR19"><label>19.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Lima</surname><given-names>J. J.</given-names></name><name><surname>Matsushima</surname><given-names>N.</given-names></name><name><surname>Kissoon</surname><given-names>N.</given-names></name><name><surname>Wang</surname><given-names>J.</given-names></name><name><surname>Sylvester</surname><given-names>J.E.</given-names></name><name><surname>Jusko</surname><given-names>W. J.</given-names></name></person-group><article-title>Modeling the metabolic effects of terbutaline in &#x003b2;<sub>2</sub> -adrenergic receptor diplotypes</article-title><source>Clin. Pharmacol. Ther.</source><year>2004</year><volume>76</volume><fpage>27</fpage><lpage>37</lpage><pub-id pub-id-type="doi">10.1016/j.clpt.2004.03.006</pub-id><pub-id pub-id-type="pmid">15229461</pub-id></mixed-citation></ref><ref id="CR20"><label>20.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Winter</surname><given-names>W.</given-names></name><name><surname>Jongh</surname><given-names>J.</given-names></name><name><surname>Post</surname><given-names>T.</given-names></name><name><surname>Ploeger</surname><given-names>B.</given-names></name><name><surname>Urquhart</surname><given-names>R.</given-names></name><name><surname>Moules</surname><given-names>I.</given-names></name><name><surname>Eckland</surname><given-names>D.</given-names></name><name><surname>Danhof</surname><given-names>M.</given-names></name></person-group><article-title>A mechanism-based disease progression model for comparison of long-term effects of Pioglitazone, Metformin and Gliclazide in disease processes underlying Type 2 Diabetes Mellitus</article-title><source>Journal of Pharmacokinetics and Pharmacodynamics</source><year>2006</year><volume>33</volume><fpage>313</fpage><lpage>343</lpage><pub-id pub-id-type="doi">10.1007/s10928-006-9008-2</pub-id><pub-id pub-id-type="pmid">16552630</pub-id></mixed-citation></ref><ref id="CR21"><label>21.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Bundgaard</surname><given-names>C.</given-names></name><name><surname>Larsen</surname><given-names>F.</given-names></name><name><surname>J&#x000f8;rgensen</surname><given-names>M.</given-names></name><name><surname>Gabrielsson</surname><given-names>J.</given-names></name></person-group><article-title>Mechanistic turnover model including autoinhibitory feedback regulation of acute 5-HT release in rat brain after administration of selective serotonoin reuptake inhibitors (SSRI&#x02019;s)</article-title><source>Eur. J. Pharm. Sci.</source><year>2006</year><volume>29</volume><fpage>394</fpage><lpage>404</lpage><pub-id pub-id-type="doi">10.1016/j.ejps.2006.08.004</pub-id><pub-id pub-id-type="pmid">17014998</pub-id></mixed-citation></ref><ref id="CR22"><label>22.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Gabrielsson</surname><given-names>J.</given-names></name><name><surname>Peletier</surname><given-names>L. A.</given-names></name></person-group><article-title>A nonlinear feedback model capturing different patterns of tolerance and rebound</article-title><source>Eur. J. Pharm. Sci.</source><year>2007</year><volume>32</volume><fpage>85</fpage><lpage>104</lpage><pub-id pub-id-type="doi">10.1016/j.ejps.2007.06.001</pub-id><pub-id pub-id-type="pmid">17689227</pub-id></mixed-citation></ref><ref id="CR23"><label>23.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Dayneka</surname><given-names>N. L.</given-names></name><name><surname>Garg</surname><given-names>V.</given-names></name><name><surname>Jusko</surname><given-names>W.J.</given-names></name></person-group><article-title>Comparison of four basic models of indirect pharmacodynamic responses</article-title><source>J. Pharmacokinet. Biopharm.</source><year>1993</year><volume>21</volume><fpage>457</fpage><lpage>478</lpage><pub-id pub-id-type="doi">10.1007/BF01061691</pub-id><pub-id pub-id-type="pmid">8133465</pub-id></mixed-citation></ref><ref id="CR24"><label>24.</label><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Blanchard</surname><given-names>P.</given-names></name><name><surname>Devaney</surname><given-names>R. L.</given-names></name><name><surname>Hall</surname><given-names>G. R.</given-names></name></person-group><source>Differential Equations</source><year>1998</year><publisher-loc>Pacific Grove, CA</publisher-loc><publisher-name>Brooks/Cole Publishing Co</publisher-name></mixed-citation></ref><ref id="CR25"><label>25.</label><mixed-citation publication-type="journal"><person-group person-group-type="author"><name><surname>Peletier</surname><given-names>L. A.</given-names></name><name><surname>Gabrielsson</surname><given-names>J.</given-names></name><name><surname>Haag</surname><given-names>J.</given-names></name></person-group><article-title>A dynamical systems analysis of the indirect response model with special emphasis on time to peak response</article-title><source>Journal of Pharmacokinetics and Pharmacodynamics</source><year>2005</year><volume>32</volume><fpage>607</fpage><lpage>654</lpage><pub-id pub-id-type="doi">10.1007/s10928-005-0047-x</pub-id><pub-id pub-id-type="pmid">16307206</pub-id></mixed-citation></ref><ref id="CR26"><label>26.</label><mixed-citation publication-type="book"><person-group person-group-type="author"><name><surname>Gabrielsson</surname><given-names>J.</given-names></name><name><surname>Weiner</surname><given-names>D.</given-names></name></person-group><source>Pharmacokinetic and Pharmacodynamic Data Analysis: Concepts and Applications</source><year>2006</year><edition>4</edition><publisher-loc>Stockholm</publisher-loc><publisher-name>Swedish Pharmaceutical Press</publisher-name></mixed-citation></ref></ref-list></back></article>
