@@ -20,7 +20,7 @@ public class ConceptMapperParserTest {
 
         Map<String, Concept> onto = ConceptMapperParser.parse(age);
         assertEquals(46, onto.size());
-        Concept infant = onto.get("INFANT");
+        Concept infant = onto.get("age:INFANT");
 
         assertEquals(4, infant.getVariants().size());
     }

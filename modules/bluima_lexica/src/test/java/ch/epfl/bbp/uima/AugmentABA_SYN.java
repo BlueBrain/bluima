@@ -20,14 +20,17 @@ import com.google.common.collect.ListMultimap;
  */
 public class AugmentABA_SYN {
 
-	// final static String LEXICON = "aba";
-	final static String LEXICON = "bams2013";
+	 final static String LEXICON = "aba";
+	//final static String LEXICON = "bams2013";
 
 	public static void main(String[] args) throws Exception {
 
 		String ROOT = LEXICA_ROOT + "resources/brainregions/";
 
 		Map<String, Concept> abaConcepts = parse(new File(ROOT + LEXICON + ".xml"));
+		for (Entry<String, Concept> c : abaConcepts.entrySet()) {
+			System.err.println(c.getValue());
+		}
 		// k:concept v: synonym
 		ListMultimap<String, String> synonyms = ArrayListMultimap.create();
 

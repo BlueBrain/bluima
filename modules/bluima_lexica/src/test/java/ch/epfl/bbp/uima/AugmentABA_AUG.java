@@ -12,6 +12,8 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
+import com.google.common.collect.Multimap;
+
 import ch.epfl.bbp.Histogram;
 import ch.epfl.bbp.io.LineReader;
 import ch.epfl.bbp.uima.utils.ConceptFileWriter.Concept;
@@ -37,8 +39,9 @@ public class AugmentABA_AUG {
 		// {FS=OFS="\t"}{print $1, $11;}' *_br-prot-conc_cooc.txt >
 		// 20140205_br.txt
 		String fromBrainer = "/Users/richarde/Desktop/BBP_experiments/23_extract_brainregions/paper/20140207_1M_br_from_brainer.txt";
-//		String fromBrainer = "/Volumes/simulation/nlp/data/20131117_prot/aggregate/br.txt";
-		
+		// String fromBrainer =
+		// "/Volumes/simulation/nlp/data/20131117_prot/aggregate/br.txt";
+
 		Histogram<String> hist = new Histogram<String>();
 		for (String line : new LineReader(new FileInputStream(fromBrainer)))
 			hist.add(line.toLowerCase());
@@ -47,7 +50,7 @@ public class AugmentABA_AUG {
 
 		// all ABA-SYN variants
 		Set<String> abaVariants = newHashSet();
-		Map<String, Concept> abaConcepts = parse(new File(ROOT + LEXICON
+		Multimap<String, Concept> abaConcepts = parse(new File(ROOT + LEXICON
 				+ "-syn.xml"));
 		for (Concept c : abaConcepts.values())
 			for (String variant : c.getVariants())
@@ -60,7 +63,8 @@ public class AugmentABA_AUG {
 				unmatcheds.put(t.getKey().toLowerCase(), t.getValue()
 						.intValue());
 
-		System.out.println("br unmatched\t" + unmatcheds.size() + "\t(uniques)");
+		System.out
+				.println("br unmatched\t" + unmatcheds.size() + "\t(uniques)");
 		int totalUnmatched = 0;
 		for (int i : unmatcheds.values()) {
 			totalUnmatched += i;

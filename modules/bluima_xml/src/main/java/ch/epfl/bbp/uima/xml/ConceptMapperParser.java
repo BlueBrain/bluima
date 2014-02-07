@@ -36,7 +36,7 @@ public class ConceptMapperParser {
     /**
      * @param file
      *            xml atlas file
-     * @return a Map {k: canonical name of concept, v: {@link Concept} }
+     * @return a Map {k: id, v: {@link Concept} }
      */
     public static Map<String, Concept> parse(File f) throws JDOMException,
             IOException {
@@ -64,7 +64,7 @@ public class ConceptMapperParser {
             for (Element variant : variants) {
                 variantStrings.add(variant.getAttributeValue("base").trim());
             }
-            concepts.put(canonical, new Concept(canonical, id, variantStrings));
+            concepts.put(id, new Concept(canonical, id, variantStrings));
         }
         checkArgument(concepts.size() > 0, "empty concepts!");
         return concepts;

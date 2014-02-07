@@ -93,6 +93,7 @@ public class FindSynonyms2 {
 
             Set<String> variants = newHashSet(bp.getKey().getName());
             if (found != null) {
+            	//FIXME found.getId!!
                 variants = neuronames.get(found.getDictCanon()).getVariants();
             }
 
