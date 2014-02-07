@@ -1,6 +1,8 @@
 package ch.epfl.bbp.uima.ae.serialization;
 
 import static ch.epfl.bbp.uima.BlueCasUtil.getHeaderIntDocId;
+import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT_DIRECTORY;
+import static ch.epfl.bbp.uima.BlueUima.PARAM_OUTPUT_DIR;
 import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static java.lang.System.currentTimeMillis;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine;
@@ -22,27 +24,27 @@ import ch.epfl.bbp.uima.cr.SingleAbstractReader;
 
 public class BinaryCasWriterTest {
 
-    @Test
-    public void test() throws Exception {
-        String out = "target/BinaryCasWriterTest_" + currentTimeMillis() + "/";
+	@Test
+	public void test() throws Exception {
+		String out = "target/BinaryCasWriterTest_" + currentTimeMillis() + "/";
 
-        // WRITING
-        CollectionReader cr = createReader(SingleAbstractReader.class,
-                JULIE_TSD);
-        AnalysisEngine writer = createEngine(BinaryCasWriter.class,
-                BlueUima.PARAM_OUTPUT_DIR, out);
-        runPipeline(cr, writer);
+		// WRITING
+		CollectionReader cr = createReader(SingleAbstractReader.class,
+				JULIE_TSD);
+		AnalysisEngine writer = createEngine(BinaryCasWriter.class,
+				PARAM_OUTPUT_DIR, out);
+		runPipeline(cr, writer);
 
-        assertTrue(new File(out + "1/957/687.gz").exists());
+		assertTrue(new File(out + "1/957/687.gz").exists());
 
-        // READING
-        CollectionReader reader = createReader(BinaryCasReader.class,JULIE_TSD,
-                BlueUima.PARAM_INPUT_DIRECTORY, out);
-        CAS cas = createCas(JULIE_TSD, null, null);
-        reader.getNext(cas);
+		// READING
+		CollectionReader reader = createReader(BinaryCasReader.class,
+				JULIE_TSD, PARAM_INPUT_DIRECTORY, out);
+		CAS cas = createCas(JULIE_TSD, null, null);
+		reader.getNext(cas);
 
-        assertEquals(SingleAbstractReader.getText(), cas.getDocumentText());
-        assertEquals(SingleAbstractReader.getPmId(),
-                getHeaderIntDocId(cas.getJCas()));
-    }
+		assertEquals(SingleAbstractReader.getText(), cas.getDocumentText());
+		assertEquals(SingleAbstractReader.getPmId(),
+				getHeaderIntDocId(cas.getJCas()));
+	}
 }

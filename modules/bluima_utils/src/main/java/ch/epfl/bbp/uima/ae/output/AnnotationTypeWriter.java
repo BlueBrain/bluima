@@ -42,17 +42,17 @@ public class AnnotationTypeWriter extends JCasAnnotator_ImplBase {
 	defaultValue = "org.apache.uima.jcas.tcas.Annotation", description = "the full name of the annotation class")
 	private String annotationClass;
 
-	@ConfigurationParameter(name = PARAM_FEATURE_NAME, description = "the name of the feature to extract, or none for the text only")
+	@ConfigurationParameter(name = PARAM_FEATURE_NAME, description = //
+	"the name of the feature to extract, or none for the text only", mandatory = false)
 	private String featureName;
 
 	public static final String PARAM_FILTER_FEATURES_WITH_VALUE = "filterFeaturesWithValue";
-
 	@ConfigurationParameter(name = PARAM_FILTER_FEATURES_WITH_VALUE,//
-	description = "filter the features that have this value")
+	description = "filter the features that have this value", mandatory = false)
 	private String filterFeaturesWithValue;
 
 	private static final String PARAM_NEW_LINE = "param_new_line";
-	@ConfigurationParameter(name = PARAM_NEW_LINE, description = "whether to add a new line after each token", defaultValue = "false")
+	@ConfigurationParameter(name = PARAM_NEW_LINE, description = "whether to add a new line after each token", defaultValue = "false", mandatory = false)
 	private boolean newLine;
 
 	private PrintWriter writer;
