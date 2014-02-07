@@ -14,70 +14,72 @@ import com.google.common.collect.ArrayListMultimap;
 import com.google.common.collect.ListMultimap;
 
 /**
- * Augment ABA with synonyms
+ * Augment ABA and BAMS with synonyms
  * 
  * @author renaud.richardet@epfl.ch
  */
 public class AugmentABA_SYN {
 
-    public static void main(String[] args) throws Exception {
+	// final static String LEXICON = "aba";
+	final static String LEXICON = "bams2013";
 
-        String ROOT = LEXICA_ROOT + "resources/brainregions/";
+	public static void main(String[] args) throws Exception {
 
-        Map<String, Concept> abaConcepts = parse(new File(ROOT + "aba.xml"));
-        // k:concept v: synonym
-        ListMultimap<String, String> synonyms = ArrayListMultimap.create();
+		String ROOT = LEXICA_ROOT + "resources/brainregions/";
 
-        String[] atlases = {/* "aba", */
-        "bams2004", "bams2013", "dong", "hof", "neuronames", "paxinos",
-                "swanson" };
+		Map<String, Concept> abaConcepts = parse(new File(ROOT + LEXICON + ".xml"));
+		// k:concept v: synonym
+		ListMultimap<String, String> synonyms = ArrayListMultimap.create();
 
-        for (String atlas : atlases) {
-            Map<String, Concept> atlasConcepts = parse(new File(ROOT + atlas
-                    + ".xml"));
+		String[] atlases = { "aba", "bams2004", "bams2013", "dong", "hof",
+				"neuronames", "paxinos", "swanson" };
 
-            // each abaConcept
-            for (Entry<String, Concept> abaConcept : abaConcepts.entrySet()) {
-                // System.out.println("ABA: " + abaConcept.getKey());
+		for (String atlas : atlases) {
+			Map<String, Concept> atlasConcepts = parse(new File(ROOT + atlas
+					+ ".xml"));
 
-                // each atlas variant
-                for (Entry<String, Concept> atlasConcept : atlasConcepts
-                        .entrySet()) {
-                    for (String atlasVariant : atlasConcept.getValue()
-                            .getVariants()) {
+			// each abaConcept
+			for (Entry<String, Concept> abaConcept : abaConcepts.entrySet()) {
+				// System.out.println("ABA: " + abaConcept.getKey());
 
-                        // check if match
-                        for (String abaVariant : abaConcept.getValue()
-                                .getVariants()) {
-                            if (abaVariant.equalsIgnoreCase(atlasVariant)
-                                    && atlasConcept.getValue().getVariants()
-                                            .size() > 1) {
+				// each atlas variant
+				for (Entry<String, Concept> atlasConcept : atlasConcepts
+						.entrySet()) {
+					for (String atlasVariant : atlasConcept.getValue()
+							.getVariants()) {
 
-                                // add atlas variants to this aba concept
-                                for (String atlasVariant2 : atlasConcept
-                                        .getValue().getVariants()) {
-                                    System.out.println("     + syn: "
-                                            + atlasVariant2);
-                                    synonyms.put(abaConcept.getKey(),
-                                            atlasVariant2);
-                                }
+						// check if match
+						for (String abaVariant : abaConcept.getValue()
+								.getVariants()) {
+							if (abaVariant.equalsIgnoreCase(atlasVariant)
+									&& atlasConcept.getValue().getVariants()
+											.size() > 1) {
 
-                            }
-                        }
-                    }
-                }
-            }
-        }
+								// add atlas variants to this aba concept
+								for (String atlasVariant2 : atlasConcept
+										.getValue().getVariants()) {
+									System.out.println("     + syn: "
+											+ atlasVariant2);
+									synonyms.put(abaConcept.getKey(),
+											atlasVariant2);
+								}
 
-        System.out.println("added synonyms " + synonyms.size());
-        for (String syn : synonyms.keySet()) {
-            Concept concept = abaConcepts.get(syn);
-            for (String newSyn : synonyms.get(syn)) {
-                concept.addVariant(newSyn);
-            }
-        }
+							}
+						}
+					}
+				}
+			}
+		}
 
-        writeConceptFile(new File(ROOT + "aba-syn.xml"), abaConcepts.values(),
-                "script: AugmentABA");
-    }
+		System.out.println("added synonyms " + synonyms.size());
+		for (String syn : synonyms.keySet()) {
+			Concept concept = abaConcepts.get(syn);
+			for (String newSyn : synonyms.get(syn)) {
+				concept.addVariant(newSyn);
+			}
+		}
+
+		writeConceptFile(new File(ROOT + LEXICON + "-syn.xml"),
+				abaConcepts.values(), "script: Augment_" + LEXICON);
+	}
 }

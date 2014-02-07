@@ -1,0 +1,27 @@
+
+
+cr: ch.epfl.bbp.uima.ae.serialization.BinaryCasReader
+ inputDirectory: /nfs4/bbp.epfl.ch/simulation/nlp/data/20131223_preprocessed
+ directoryIterator: LargeDirectoryIterator
+ae: EnsureDocTextNotNullAnnotator
+
+ae: LinnaeusAnnotator
+ae: FilterIfNotRodent
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegion
+
+
+#java:
+#String pmId = ch.epfl.bbp.uima.BlueCasUtil.getHeaderDocId(jCas);
+#java.util.Iterator brs = org.apache.uima.fit.util.JCasUtil.select(jCas, ch.epfl.bbp.uima.types.BrainRegion.class).iterator();
+#while (brs.hasNext()) {
+#    System.out.println(pmId + "\t" + ((ch.epfl.bbp.uima.types.BrainRegion) brs.next()).getCoveredText());
+#}
+
+ae: ch.epfl.bbp.uima.ae.output.AnnotationTypeWriter
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegion
+ param_new_line__java: true
+
+
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 1000
