@@ -5,3 +5,6 @@ ae: DotSentenceSplitterAnnotator
 
 java:
 System.out.println(ch.epfl.bbp.uima.BlueCasUtil.getHeaderDocId(jCas)+ "\t" + jCas.getDocumentLanguage());
+//TODOfor (de.julielab.jules.types.Sentence st : org.apache.uima.fit.util.JCasUtil.select(jCas, de.julielab.jules.types.Sentence.class)){
+//    System.out.println("aaa "+ st.getCoveredText());
+//}

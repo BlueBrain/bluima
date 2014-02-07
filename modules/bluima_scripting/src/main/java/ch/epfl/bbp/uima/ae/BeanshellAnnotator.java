@@ -17,27 +17,38 @@ import bsh.Interpreter;
  * @author renaud.richardet@epfl.ch
  */
 public class BeanshellAnnotator extends JCasAnnotator_ImplBase {
-    private static Logger LOG = LoggerFactory
-            .getLogger(BeanshellAnnotator.class);
+	private static Logger LOG = LoggerFactory
+			.getLogger(BeanshellAnnotator.class);
 
-    /** UIMA initialization parameter for the Java script (as a string) */
-    public static final String SCRIPT_STRING = "script_string";
-    @ConfigurationParameter(name = SCRIPT_STRING, mandatory = true, description = "a String that contains a Beanshell Java script")
-    private String scriptString;
+	// some common imports, to simplify scripts...
+	static final String HEADER = "import ch.epfl.bbp.uima.*;\n"//
+			//+ "import de.julielab.jules.types.*;\n"//
+			+ "import ch.epfl.bbp.uima.types.*;\n"//
+			+ "import ch.epfl.bbp.uima.ae.*;\n"//
+			+ "import ch.epfl.bbp.uima.BlueUima.*;\n"//
+			+ "import ch.epfl.bbp.uima.typesystem.TypeSystem.*;\n"//
+			+ "import org.apache.uima.fit.util.JCasUtil.*;\n"//
+			+ "import java.io.*;\n"//
+			+ "import java.util.*;\n";
 
-    @Override
-    public void process(JCas jCas) throws AnalysisEngineProcessException {
+	/** UIMA initialization parameter for the Java script (as a string) */
+	public static final String SCRIPT_STRING = "script_string";
+	@ConfigurationParameter(name = SCRIPT_STRING, mandatory = true, description = "a String that contains a Beanshell Java script")
+	private String scriptString;
 
-        Interpreter i = new Interpreter(); // Construct an interpreter
+	@Override
+	public void process(JCas jCas) throws AnalysisEngineProcessException {
 
-        // Evaluate the script
-        try {
-            i.set("jCas", jCas);
-            i.eval(scriptString);
+		Interpreter i = new Interpreter(); // Construct an interpreter
 
-        } catch (EvalError e) {
-            LOG.warn("cannot compile and run Beanshell script {}", scriptString);
-            throw new AnalysisEngineProcessException(e);
-        }
-    }
+		// Evaluate the script
+		try {
+			i.set("jCas", jCas);
+			i.eval(HEADER + scriptString);
+
+		} catch (EvalError e) {
+			LOG.warn("cannot compile and run Beanshell script {}", scriptString);
+			throw new AnalysisEngineProcessException(e);
+		}
+	}
 }
