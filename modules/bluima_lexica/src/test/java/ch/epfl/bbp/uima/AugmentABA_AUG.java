@@ -12,8 +12,6 @@ import java.util.Map;
 import java.util.Map.Entry;
 import java.util.Set;
 
-import com.google.common.collect.Multimap;
-
 import ch.epfl.bbp.Histogram;
 import ch.epfl.bbp.io.LineReader;
 import ch.epfl.bbp.uima.utils.ConceptFileWriter.Concept;
@@ -50,7 +48,7 @@ public class AugmentABA_AUG {
 
 		// all ABA-SYN variants
 		Set<String> abaVariants = newHashSet();
-		Multimap<String, Concept> abaConcepts = parse(new File(ROOT + LEXICON
+		Map<String, Concept> abaConcepts = parse(new File(ROOT + LEXICON
 				+ "-syn.xml"));
 		for (Concept c : abaConcepts.values())
 			for (String variant : c.getVariants())

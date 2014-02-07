@@ -14,9 +14,9 @@ ae: EvaluationPreprocessorAnnotator
 # TOGGLE HERE FOR THE RIGHT EVAL: aba|bams2013 and 0|-syn
 ################################################################
 #ABA
-ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/aba-syn")
+#ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/aba-syn")
 #BAMS
-#ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2013")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2013-syn")
 
 # filter again, since original was moved to GOLD
 ae: FilterIfNotRodent

@@ -20,8 +20,8 @@ import com.google.common.collect.ListMultimap;
  */
 public class AugmentABA_SYN {
 
-	 final static String LEXICON = "aba";
-	//final static String LEXICON = "bams2013";
+	// final static String LEXICON = "aba";
+	final static String LEXICON = "bams2013";
 
 	public static void main(String[] args) throws Exception {
 

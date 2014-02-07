@@ -154,6 +154,7 @@
 </token>
 <token canonical="Striatum-like amygdalar nuclei" ref_id="aba:278">
   <variant base="Striatum-like amygdalar nuclei" />
+  <variant base="amygdala" curator="RR"/>
 </token>
 <token canonical="Nucleus sagulum" ref_id="aba:271">
   <variant base="nucleus sagulum" />
@@ -1038,6 +1039,7 @@
 </token>
 <token canonical="Hippocampal region" ref_id="aba:1080">
   <variant base="Hippocampal region" />
+  <variant base="hippocampal" curator="RR"/>
 </token>
 <token canonical="Piriform-amygdalar area" ref_id="aba:788">
   <variant base="piriform amygdaloid area" />
@@ -1889,6 +1891,7 @@
   <variant base="Cerebellum" />
   <variant base="Corpus cerebelli" />
   <variant base="cerebellum" />
+  <variant base="cerebellar" curator="RR"/>
 </token>
 <token canonical="Bed nuclei of the stria terminalis, anterior division, fusiform nucleus" ref_id="aba:513">
   <variant base="Bed nuclei of the stria terminalis, anterior division, fusiform nucleus" />
@@ -4330,6 +4333,7 @@
   <variant base="pallium" />
   <variant base="Cerebral cortex" />
   <variant base="Cortex cerebri" />
+  <variant base="cortex" curator="RR"/>
 </token>
 <token canonical="Ventrolateral preoptic nucleus" ref_id="aba:689">
   <variant base="ventrolateral preoptic nucleus" />
@@ -4704,6 +4708,7 @@
   <variant base="neostriatum" />
   <variant base="caudate putamen" />
   <variant base="striate nucleus" />
+  <variant base="striatal" curator="RR"/>
 </token>
 <token canonical="Retrosplenial area, lateral agranular part, layer 1" ref_id="aba:671">
   <variant base="Retrosplenial area, lateral agranular part, layer 1" />
