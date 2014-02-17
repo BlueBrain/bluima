@@ -1,0 +1,5 @@
+
+WORDLIST stoplist = 'stopwords.txt';
+
+Document{-> MARKFAST(Token, stoplist, true)};
+

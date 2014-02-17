@@ -823,5 +823,10 @@ Zucker et al. (1993)</description>
       <description>Ionchannels from Nav1 family</description>
       <supertypeName>ch.epfl.bbp.uima.types.IonchannelDictTerm</supertypeName>
     </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.BrainRegionChunk</name>
+      <description>a list or hierarchy of brain regions that form a chunk, e.g. "neocortex, brainstem and olfactory bulb" or "Magnocellular nucleus of thalamus"</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+    </typeDescription>
   </types>
 </typeSystemDescription>
