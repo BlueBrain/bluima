@@ -11,8 +11,8 @@ import de.julielab.jules.types.POSTag;
 
 
 /** 
- * Updated by JCasGen Fri Sep 20 01:02:04 CEST 2013
- * XML source: /Users/richarde/dev/bluebrain/svn_nlp/UIMA/blue_uima/trunk/modules/julielab_typesystem-2.6.8/src/main/resources/typeSystem/bbp-basic-types.xml
+ * Updated by JCasGen Mon Feb 17 10:49:40 CET 2014
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class POSVerb extends POSTag {
   /** @generated

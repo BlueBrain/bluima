@@ -14,57 +14,8 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** See
-        http://2011.bionlp-st.org/home/genia-event-extraction-genia<br><table
-        cellspacing="0" bordercolor="#888888" border="1"
-        style="border-color:rgb(136,136,136);border-width:1px;border-collapse:collapse"><tbody><tr><td
-        style="background-color:rgb(207,226,243);width:168px;height:17px"><b>&nbsp;Event
-        Type</b><br></td><td
-        style="background-color:rgb(207,226,243);width:370px;height:17px"><b>Core
-        arguments </b><br></td><td
-        style="background-color:rgb(207,226,243);width:214px;height:17px">&nbsp;<b>Additional
-        arguments</b><br></td></tr><tr><td
-        style="width:168px;height:17px">&nbsp;Gene
-        expression<br></td><td
-        style="width:370px;height:17px">&nbsp;Theme(Protein)<br></td><td
-        style="width:214px;height:17px">&nbsp;</td></tr><tr><td
-        style="width:168px;height:17px">&nbsp;Transcription</td><td
-        style="width:370px;height:17px">&nbsp;Theme(Protein)<br></td><td
-        style="width:214px;height:17px">&nbsp;</td></tr><tr><td
-        style="width:168px;height:17px">&nbsp;Protein
-        catabolism<br></td><td
-        style="width:370px;height:17px">&nbsp;Theme(Protein)</td><td
-        style="width:214px;height:17px">&nbsp;</td></tr><tr><td
-        style="width:168px;height:17px">&nbsp;Phosphorylation
-        <br></td><td
-        style="width:370px;height:17px">&nbsp;Theme(Protein)</td><td
-        style="width:214px;height:17px">&nbsp;Site(Entity)</td></tr><tr><td
-        style="width:168px;height:17px">&nbsp;Localization</td><td
-        style="width:370px;height:17px">&nbsp;Theme(Protein)<br></td><td
-        style="width:214px;height:17px">&nbsp;AtLoc(Entity),
-        ToLoc(Entity)<br></td></tr><tr><td
-        style="width:168px;height:17px">&nbsp;Binding</td><td
-        style="width:370px;height:17px">&nbsp;Theme(Protein)
-        +<br></td><td
-        style="width:214px;height:17px">&nbsp;Site(Entity)
-        +<br></td></tr><tr><td
-        style="width:168px;height:17px">&nbsp;Regulation</td><td
-        style="width:370px;height:17px">&nbsp;Theme(Protein /
-        Event), Cause(Protein / Event)<br></td><td
-        style="width:214px;height:17px">&nbsp;Site(Entity),
-        CSite(Entity)<br></td></tr><tr><td
-        style="width:168px;height:17px">&nbsp;Positive
-        regulation<br></td><td
-        style="width:370px;height:17px">&nbsp;Theme(Protein /
-        Event), Cause(Protein / Event)</td><td
-        style="width:214px;height:17px">&nbsp;Site(Entity),
-        CSite(Entity)</td></tr><tr><td
-        style="width:168px;height:17px">&nbsp;Negative
-        regulation<br></td><td
-        style="width:370px;height:17px">&nbsp;Theme(Protein /
-        Event), Cause(Protein / Event)</td><td
-        style="width:214px;height:17px">&nbsp;Site(Entity),
-        CSite(Entity)</td></tr></tbody></table>
- * Updated by JCasGen Mon Oct 21 13:03:29 CEST 2013
+        http://2011.bionlp-st.org/home/genia-event-extraction-genia
+ * Updated by JCasGen Mon Feb 17 10:49:39 CET 2014
  * @generated */
 public class Event_Type extends Annotation_Type {
   /** @generated */

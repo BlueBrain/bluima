@@ -14,8 +14,8 @@ import org.apache.uima.jcas.cas.StringArray;
 
 
 /** A coocurrence btw two annotations.
- * Updated by JCasGen Sat Nov 30 01:40:11 CET 2013
- * XML source: /Users/richarde/dev/bluebrain/svn_nlp/UIMA/blue_uima/trunk/modules/julielab_typesystem-2.6.8/src/main/resources/typeSystem/bbp-semantics-biology-types.xml
+ * Updated by JCasGen Mon Feb 17 10:49:39 CET 2014
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class Cooccurrence extends Annotation {
   /** @generated
@@ -239,6 +239,24 @@ public class Cooccurrence extends Annotation {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_confidence == null)
       jcasType.jcas.throwFeatMissing("confidence", "ch.epfl.bbp.uima.types.Cooccurrence");
     jcasType.ll_cas.ll_setFloatValue(addr, ((Cooccurrence_Type)jcasType).casFeatCode_confidence, v);}    
+   
+    
+  //*--------------*
+  //* Feature: hasInteraction
+
+  /** getter for hasInteraction - gets whether this cooccurrence signals an interaction between the two entities. This is relevant for the Whitetext corpus in particular.
+   * @generated */
+  public boolean getHasInteraction() {
+    if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_hasInteraction == null)
+      jcasType.jcas.throwFeatMissing("hasInteraction", "ch.epfl.bbp.uima.types.Cooccurrence");
+    return jcasType.ll_cas.ll_getBooleanValue(addr, ((Cooccurrence_Type)jcasType).casFeatCode_hasInteraction);}
+    
+  /** setter for hasInteraction - sets whether this cooccurrence signals an interaction between the two entities. This is relevant for the Whitetext corpus in particular. 
+   * @generated */
+  public void setHasInteraction(boolean v) {
+    if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_hasInteraction == null)
+      jcasType.jcas.throwFeatMissing("hasInteraction", "ch.epfl.bbp.uima.types.Cooccurrence");
+    jcasType.ll_cas.ll_setBooleanValue(addr, ((Cooccurrence_Type)jcasType).casFeatCode_hasInteraction, v);}    
   }
 
     

@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue Feb 12 11:25:17 CET 2013 */
+/* First created by JCasGen Mon Feb 17 10:49:41 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -9,12 +9,12 @@ import org.apache.uima.cas.impl.FSGenerator;
 import org.apache.uima.cas.FeatureStructure;
 import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
-import de.julielab.jules.types.POSTag_Type;
+import org.apache.uima.jcas.tcas.Annotation_Type;
 
-/** 
- * Updated by JCasGen Mon Feb 17 10:49:40 CET 2014
+/** a list or hierarchy of brain regions that form a chunk, e.g. "neocortex, brainstem and olfactory bulb" or "Magnocellular nucleus of thalamus"
+ * Updated by JCasGen Mon Feb 17 10:49:41 CET 2014
  * @generated */
-public class POSSkip_Type extends POSTag_Type {
+public class BrainRegionChunk_Type extends Annotation_Type {
   /** @generated */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
@@ -22,31 +22,31 @@ public class POSSkip_Type extends POSTag_Type {
   private final FSGenerator fsGenerator = 
     new FSGenerator() {
       public FeatureStructure createFS(int addr, CASImpl cas) {
-  			 if (POSSkip_Type.this.useExistingInstance) {
+  			 if (BrainRegionChunk_Type.this.useExistingInstance) {
   			   // Return eq fs instance if already created
-  		     FeatureStructure fs = POSSkip_Type.this.jcas.getJfsFromCaddr(addr);
+  		     FeatureStructure fs = BrainRegionChunk_Type.this.jcas.getJfsFromCaddr(addr);
   		     if (null == fs) {
-  		       fs = new POSSkip(addr, POSSkip_Type.this);
-  			   POSSkip_Type.this.jcas.putJfsFromCaddr(addr, fs);
+  		       fs = new BrainRegionChunk(addr, BrainRegionChunk_Type.this);
+  			   BrainRegionChunk_Type.this.jcas.putJfsFromCaddr(addr, fs);
   			   return fs;
   		     }
   		     return fs;
-        } else return new POSSkip(addr, POSSkip_Type.this);
+        } else return new BrainRegionChunk(addr, BrainRegionChunk_Type.this);
   	  }
     };
   /** @generated */
   @SuppressWarnings ("hiding")
-  public final static int typeIndexID = POSSkip.typeIndexID;
+  public final static int typeIndexID = BrainRegionChunk.typeIndexID;
   /** @generated 
      @modifiable */
   @SuppressWarnings ("hiding")
-  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("ch.epfl.bbp.uima.types.POSSkip");
+  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("ch.epfl.bbp.uima.types.BrainRegionChunk");
 
 
 
   /** initialize variables to correspond with Cas Type and Features
 	* @generated */
-  public POSSkip_Type(JCas jcas, Type casType) {
+  public BrainRegionChunk_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 

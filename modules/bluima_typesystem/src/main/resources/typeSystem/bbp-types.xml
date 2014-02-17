@@ -1,13 +1,359 @@
 <?xml version="1.0" encoding="UTF-8"?><typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
-  <name>bbp-semantics-biology-types</name>
-  <description/>
-  <version>2.0</version>
-  <vendor>BlueBrain project</vendor>
+  <name>bbp-basic-types</name>
+  <description>The type system contains the basic annotation types.</description>
+  <version>2.6</version>
+  <vendor>BlueBrain project, EPFL</vendor>
   <imports>
+    <import location="julie-basic-types.xml"/>
+    <import location="julie-morpho-syntax-types.xml"/>
     <import location="julie-semantics-biology-types.xml"/>
     <import location="DictTerm.xml"/>
   </imports>
   <types>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.SurfaceForm</name>
+      <description>Surface form from BioLexicon's FORMS table</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>id</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>pos</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>semtype</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.POSVerb</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.POSTag</supertypeName>
+      <features>
+        <featureDescription>
+          <name>biolexicon_id</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.POSWh</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.POSTag</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.POSSkip</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.POSTag</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.DataTable</name>
+      <description>A table that contains data, extracted from a pdf article</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>tableId</name>
+          <description>the id of this table in the document</description>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>rowCount</name>
+          <description>the nr of rows</description>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>columnCount</name>
+          <description/>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>caption</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>headings</name>
+          <description/>
+          <rangeTypeName>uima.cas.StringArray</rangeTypeName>
+          <multipleReferencesAllowed>true</multipleReferencesAllowed>
+        </featureDescription>
+        <featureDescription>
+          <name>body</name>
+          <description>the body of the table that contains data</description>
+          <rangeTypeName>uima.cas.StringArray</rangeTypeName>
+          <multipleReferencesAllowed>false</multipleReferencesAllowed>
+        </featureDescription>
+        <featureDescription>
+          <name>referenceText</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>pageNumber</name>
+          <description>the number of the page where the table is located in</description>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.DocumentElement</name>
+      <description/>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>ElementId</name>
+          <description/>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>isBold</name>
+          <description/>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>height</name>
+          <description/>
+          <rangeTypeName>uima.cas.Float</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>width</name>
+          <description/>
+          <rangeTypeName>uima.cas.Float</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>x</name>
+          <description/>
+          <rangeTypeName>uima.cas.Float</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>y</name>
+          <description/>
+          <rangeTypeName>uima.cas.Float</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>pageId</name>
+          <description/>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>label</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>medianFontsize</name>
+          <description/>
+          <rangeTypeName>uima.cas.Double</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.DocumentLine</name>
+      <description/>
+      <supertypeName>ch.epfl.bbp.uima.types.DocumentElement</supertypeName>
+      <features>
+        <featureDescription>
+          <name>block</name>
+          <description/>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>lineText</name>
+          <description>workaround to get the line text</description>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>beginnings</name>
+          <description/>
+          <rangeTypeName>uima.cas.FloatArray</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>endings</name>
+          <description/>
+          <rangeTypeName>uima.cas.FloatArray</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.DocumentBlock</name>
+      <description/>
+      <supertypeName>ch.epfl.bbp.uima.types.DocumentElement</supertypeName>
+      <features>
+        <featureDescription>
+          <name>hasBold</name>
+          <description/>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>hasManyFontsizes</name>
+          <description/>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.Punctuation</name>
+      <description/>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.GeneralEnglish</name>
+      <description/>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.DocumentTextHolder</name>
+      <description/>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>text</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.Verb</name>
+      <description>A general verb, that was not found in the biolexicon/Mancu</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>isModal</name>
+          <description>whether this verb has the POS MD (modal), e.g. should, ...</description>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.Noise</name>
+      <description>A generic annotation for text that is not relevant</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.Stopword</name>
+      <description/>
+      <supertypeName>ch.epfl.bbp.uima.types.Noise</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.FrequentToken</name>
+      <description/>
+      <supertypeName>ch.epfl.bbp.uima.types.Noise</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.Hapax</name>
+      <description>a word which occurs only once within a context</description>
+      <supertypeName>ch.epfl.bbp.uima.types.Noise</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.BodyCitation</name>
+      <description>A literature citation found in the body of the text, not the reference section</description>
+      <supertypeName>de.julielab.jules.types.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>textValue</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.FeatureTokens</name>
+      <description>a list of strings that represent the cleaned-up (pre-processed) tokens for use with LDA libs or others</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>tokens</name>
+          <description/>
+          <rangeTypeName>uima.cas.StringArray</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>beginnings</name>
+          <description/>
+          <rangeTypeName>uima.cas.IntegerArray</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>endings</name>
+          <description/>
+          <rangeTypeName>uima.cas.IntegerArray</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.Figure</name>
+      <description>A figure in the text</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.Keep</name>
+      <description/>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>enclosedAnnot</name>
+          <description/>
+          <rangeTypeName>uima.tcas.Annotation</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>normalizedText</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.Gold</name>
+      <description>The gold annotation, coming from a corpus</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>typeS</name>
+          <description/>
+          <rangeTypeName>uima.cas.String</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.BadContent</name>
+      <description>Document-level annotation signaling that this document has content that is bad and should not be (futher) analyzed.</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.TooManyOOV</name>
+      <description/>
+      <supertypeName>ch.epfl.bbp.uima.types.BadContent</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.TooFewTokensPerPage</name>
+      <description/>
+      <supertypeName>ch.epfl.bbp.uima.types.BadContent</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.EtAlInlineReference</name>
+      <description>Satre et al. (2007)
+Zucker et al. (1993)</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.DocumentPage</name>
+      <description>Represents a page in a document, e.g. a page in a PDF article</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+      <features>
+        <featureDescription>
+          <name>pageId</name>
+          <description>The id of the page, 0-indexed</description>
+          <rangeTypeName>uima.cas.Integer</rangeTypeName>
+        </featureDescription>
+      </features>
+    </typeDescription>
     <typeDescription>
       <name>ch.epfl.bbp.uima.types.Protein</name>
       <description/>
@@ -136,56 +482,7 @@
     <typeDescription>
       <name>ch.epfl.bbp.uima.genia.Event</name>
       <description>See
-        http://2011.bionlp-st.org/home/genia-event-extraction-genia&lt;br&gt;&lt;table
-        cellspacing="0" bordercolor="#888888" border="1"
-        style="border-color:rgb(136,136,136);border-width:1px;border-collapse:collapse"&gt;&lt;tbody&gt;&lt;tr&gt;&lt;td
-        style="background-color:rgb(207,226,243);width:168px;height:17px"&gt;&lt;b&gt;&amp;nbsp;Event
-        Type&lt;/b&gt;&lt;br&gt;&lt;/td&gt;&lt;td
-        style="background-color:rgb(207,226,243);width:370px;height:17px"&gt;&lt;b&gt;Core
-        arguments &lt;/b&gt;&lt;br&gt;&lt;/td&gt;&lt;td
-        style="background-color:rgb(207,226,243);width:214px;height:17px"&gt;&amp;nbsp;&lt;b&gt;Additional
-        arguments&lt;/b&gt;&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
-        style="width:168px;height:17px"&gt;&amp;nbsp;Gene
-        expression&lt;br&gt;&lt;/td&gt;&lt;td
-        style="width:370px;height:17px"&gt;&amp;nbsp;Theme(Protein)&lt;br&gt;&lt;/td&gt;&lt;td
-        style="width:214px;height:17px"&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
-        style="width:168px;height:17px"&gt;&amp;nbsp;Transcription&lt;/td&gt;&lt;td
-        style="width:370px;height:17px"&gt;&amp;nbsp;Theme(Protein)&lt;br&gt;&lt;/td&gt;&lt;td
-        style="width:214px;height:17px"&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
-        style="width:168px;height:17px"&gt;&amp;nbsp;Protein
-        catabolism&lt;br&gt;&lt;/td&gt;&lt;td
-        style="width:370px;height:17px"&gt;&amp;nbsp;Theme(Protein)&lt;/td&gt;&lt;td
-        style="width:214px;height:17px"&gt;&amp;nbsp;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
-        style="width:168px;height:17px"&gt;&amp;nbsp;Phosphorylation
-        &lt;br&gt;&lt;/td&gt;&lt;td
-        style="width:370px;height:17px"&gt;&amp;nbsp;Theme(Protein)&lt;/td&gt;&lt;td
-        style="width:214px;height:17px"&gt;&amp;nbsp;Site(Entity)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
-        style="width:168px;height:17px"&gt;&amp;nbsp;Localization&lt;/td&gt;&lt;td
-        style="width:370px;height:17px"&gt;&amp;nbsp;Theme(Protein)&lt;br&gt;&lt;/td&gt;&lt;td
-        style="width:214px;height:17px"&gt;&amp;nbsp;AtLoc(Entity),
-        ToLoc(Entity)&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
-        style="width:168px;height:17px"&gt;&amp;nbsp;Binding&lt;/td&gt;&lt;td
-        style="width:370px;height:17px"&gt;&amp;nbsp;Theme(Protein)
-        +&lt;br&gt;&lt;/td&gt;&lt;td
-        style="width:214px;height:17px"&gt;&amp;nbsp;Site(Entity)
-        +&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
-        style="width:168px;height:17px"&gt;&amp;nbsp;Regulation&lt;/td&gt;&lt;td
-        style="width:370px;height:17px"&gt;&amp;nbsp;Theme(Protein /
-        Event), Cause(Protein / Event)&lt;br&gt;&lt;/td&gt;&lt;td
-        style="width:214px;height:17px"&gt;&amp;nbsp;Site(Entity),
-        CSite(Entity)&lt;br&gt;&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
-        style="width:168px;height:17px"&gt;&amp;nbsp;Positive
-        regulation&lt;br&gt;&lt;/td&gt;&lt;td
-        style="width:370px;height:17px"&gt;&amp;nbsp;Theme(Protein /
-        Event), Cause(Protein / Event)&lt;/td&gt;&lt;td
-        style="width:214px;height:17px"&gt;&amp;nbsp;Site(Entity),
-        CSite(Entity)&lt;/td&gt;&lt;/tr&gt;&lt;tr&gt;&lt;td
-        style="width:168px;height:17px"&gt;&amp;nbsp;Negative
-        regulation&lt;br&gt;&lt;/td&gt;&lt;td
-        style="width:370px;height:17px"&gt;&amp;nbsp;Theme(Protein /
-        Event), Cause(Protein / Event)&lt;/td&gt;&lt;td
-        style="width:214px;height:17px"&gt;&amp;nbsp;Site(Entity),
-        CSite(Entity)&lt;/td&gt;&lt;/tr&gt;&lt;/tbody&gt;&lt;/table&gt;</description>
+        http://2011.bionlp-st.org/home/genia-event-extraction-genia</description>
       <supertypeName>uima.tcas.Annotation</supertypeName>
       <features>
         <featureDescription>
@@ -508,6 +805,11 @@
           <name>confidence</name>
           <description>To which degree we are confident about this being a true co-occurrence</description>
           <rangeTypeName>uima.cas.Float</rangeTypeName>
+        </featureDescription>
+        <featureDescription>
+          <name>hasInteraction</name>
+          <description>whether this cooccurrence signals an interaction between the two entities. This is relevant for the Whitetext corpus in particular.</description>
+          <rangeTypeName>uima.cas.Boolean</rangeTypeName>
         </featureDescription>
       </features>
     </typeDescription>

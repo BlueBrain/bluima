@@ -14,7 +14,7 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** A coocurrence btw two annotations.
- * Updated by JCasGen Sat Nov 30 01:40:11 CET 2013
+ * Updated by JCasGen Mon Feb 17 10:49:39 CET 2014
  * @generated */
 public class Cooccurrence_Type extends Annotation_Type {
   /** @generated */
@@ -225,6 +225,24 @@ public class Cooccurrence_Type extends Annotation_Type {
     ll_cas.ll_setFloatValue(addr, casFeatCode_confidence, v);}
     
   
+ 
+  /** @generated */
+  final Feature casFeat_hasInteraction;
+  /** @generated */
+  final int     casFeatCode_hasInteraction;
+  /** @generated */ 
+  public boolean getHasInteraction(int addr) {
+        if (featOkTst && casFeat_hasInteraction == null)
+      jcas.throwFeatMissing("hasInteraction", "ch.epfl.bbp.uima.types.Cooccurrence");
+    return ll_cas.ll_getBooleanValue(addr, casFeatCode_hasInteraction);
+  }
+  /** @generated */    
+  public void setHasInteraction(int addr, boolean v) {
+        if (featOkTst && casFeat_hasInteraction == null)
+      jcas.throwFeatMissing("hasInteraction", "ch.epfl.bbp.uima.types.Cooccurrence");
+    ll_cas.ll_setBooleanValue(addr, casFeatCode_hasInteraction, v);}
+    
+  
 
 
 
@@ -265,6 +283,10 @@ public class Cooccurrence_Type extends Annotation_Type {
  
     casFeat_confidence = jcas.getRequiredFeatureDE(casType, "confidence", "uima.cas.Float", featOkTst);
     casFeatCode_confidence  = (null == casFeat_confidence) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_confidence).getCode();
+
+ 
+    casFeat_hasInteraction = jcas.getRequiredFeatureDE(casType, "hasInteraction", "uima.cas.Boolean", featOkTst);
+    casFeatCode_hasInteraction  = (null == casFeat_hasInteraction) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_hasInteraction).getCode();
 
   }
 }
