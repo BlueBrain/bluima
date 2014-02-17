@@ -1,63 +1,64 @@
 PACKAGE ch.epfl.bbp.uima.types;
 
 
+//// BEGIN workbench-only ///////////////////////////////////////////////////////////////////////////////////////
+//DECLARE BrainRegionDictTerm, BRCooc, BrainRegionChunk;
+//// mark ABA regions
+//WORDLIST aba = 'aba.txt';
+//Document{-> MARKFAST(BrainRegionDictTerm, aba, true)};
+//// END workbench-only //////////////////////////////////////////////////////////////////////////////////////////
 
 
-DECLARE BrainRegion, Cooccurrence, BRE;
-// mark ABA regions
-WORDLIST aba = 'aba.txt';
-Document{-> MARKFAST(BrainRegion, aba, true)};
-
-
-DECLARE  Abbrev, Direction, Projection;
-DECLARE BrainRegionList, BrainRegionHierarchy;
-
-// cleanup BrainRegion ////////////////////////////////////////////////////////////////
-// glob Abbrev
-("(" W{REGEXP("[A-Z]{2,5}")} ")"){ -> MARK(Abbrev)};
-BrainRegion{-> SHIFT(BrainRegion, 1, 2)} Abbrev;
-// annotate and glob directions 
+////////////////////////////////////////////////////////////////
+// CLEANUP BrainRegionDictTerm
+////////////////////////////////////////////////////////////////
+//DECLARE  Abrev, Direction, Projection;
+// glob Abrev
+("(" W{REGEXP("[A-Z]{2,5}")} ")"){ -> MARK(Abrev)};
+BrainRegionDictTerm{-> SHIFT(BrainRegionDictTerm, 1, 2)} Abrev;
+// annotate and glob directions
 WORDLIST directions = 'directions.txt';
 Document{-> MARKFAST(Direction, directions, true)};
 WORDLIST directionSuffixes = 'directionSuffixes.txt';
 Document{-> MARKFAST(Direction, directionSuffixes, true)};
 WORDLIST extendedDirections = 'extendedDirections.txt';
 Document{-> MARKFAST(Direction, extendedDirections, true)};
-(Direction (COMMA | "and" | "or") Direction) BrainRegion{-> SHIFT(BrainRegion, 1, 2)};
-(Direction Direction) BrainRegion{-> SHIFT(BrainRegion, 1, 3)};
-Direction BrainRegion{-> SHIFT(BrainRegion, 1, 2)};
+(Direction (COMMA | "and" | "or") Direction) BrainRegionDictTerm{-> SHIFT(BrainRegionDictTerm, 1, 2)};
+(Direction Direction) BrainRegionDictTerm{-> SHIFT(BrainRegionDictTerm, 1, 3)};
+Direction BrainRegionDictTerm{-> SHIFT(BrainRegionDictTerm, 1, 2)};
 // glob "the"
-W{REGEXP("the", true)} BrainRegion{-> SHIFT(BrainRegion, 1, 2)};
+W{REGEXP("the", true)} BrainRegionDictTerm{-> SHIFT(BrainRegionDictTerm, 1, 2)};
 // annotate projection
 ( W{REGEXP("(pathways?|project.{0,5}|connecti.{0,3})",true )} ){-> MARK(Projection)};
 
-// group regions into BRE ////////////////////////////////////////////////////////////////
-(BrainRegion ("of" | "from" | "in") ){-> MARK(BRE, 1, 2)} BrainRegion;
+// group regions into BrainRegionChunk ////////////////////////////////////////////////////////////////
+(BrainRegionDictTerm ("of" | "from" | "in") ){-> MARK(BrainRegionChunk, 1, 2)} BrainRegionDictTerm;
 // X, Y and Z; X, Y; X and Y
-("both" BrainRegion "and") {-> MARK(BRE, 1, 2)} BrainRegion;
-(BrainRegion (COMMA | "and" | (COMMA "and")))* {-> MARK(BRE, 1, 2)} BrainRegion;
-(BrainRegion "including" ) {-> MARK(BRE, 1, 2)} BrainRegion;
-BrainRegion{-> MARKONCE(BRE)};
+("both" BrainRegionDictTerm "and") {-> MARK(BrainRegionChunk, 1, 2)} BrainRegionDictTerm;
+(BrainRegionDictTerm (COMMA | "and" | (COMMA "and")))* {-> MARK(BrainRegionChunk, 1, 2)} BrainRegionDictTerm;
+(BrainRegionDictTerm "including" ) {-> MARK(BrainRegionChunk, 1, 2)} BrainRegionDictTerm;
+BrainRegionDictTerm{-> MARKONCE(BrainRegionChunk)};
 
-
-// find RELATIONS ////////////////////////////////////////////////////////////////
+////////////////////////////////////////////////////////////////
+// find RELATIONS
+////////////////////////////////////////////////////////////////
 STRING fromto = "from|of|to";
 
 // X projects to Y
-(BRE Projection W{REGEXP(fromto)}){-> MARK(Cooccurrence, 1, 2)} BRE;
+(BrainRegionChunk Projection W{REGEXP(fromto)}){-> MARK(BRCooc, 1, 2)} BrainRegionChunk;
 // X a a a projects to Y
-(BRE W[0,4]? Projection W{REGEXP(fromto)}){-> MARK(Cooccurrence, 1, 2)} BRE;
+(BrainRegionChunk W[0,4]? Projection W{REGEXP(fromto)}){-> MARK(BRCooc, 1, 2)} BrainRegionChunk;
 // projection from X to Y
-(Projection "from" BRE "to" ){-> MARK(Cooccurrence, 1, 2)} BRE;
+(Projection "from" BrainRegionChunk "to" ){-> MARK(BRCooc, 1, 2)} BrainRegionChunk;
 // projection of X with Y
-(Projection "of" BRE "with" ){-> MARK(Cooccurrence, 1, 2)} BRE;
+(Projection "of" BrainRegionChunk "with" ){-> MARK(BRCooc, 1, 2)} BrainRegionChunk;
 // projection a a a a X to Y
-(Projection W[0,4]? BRE "to" ){-> MARK(Cooccurrence, 1, 2)} BRE;
+(Projection W[0,4]? BrainRegionChunk "to" ){-> MARK(BRCooc, 1, 2)} BrainRegionChunk;
 // projection to X from a a Y
-(Projection "to"  BRE "from") {-> MARK(Cooccurrence, 1, 2)} (W[0,3]? BRE);
+(Projection "to"  BrainRegionChunk "from") {-> MARK(BRCooc, 1, 2)} (W[0,3]? BrainRegionChunk);
 // X a a a projection to Y
-BRE {-> MARK(Cooccurrence, 1, 2)} (W[0,3]? Projection W{REGEXP(fromto)} BRE);
+BrainRegionChunk {-> MARK(BRCooc, 1, 2)} (W[0,3]? Projection W{REGEXP(fromto)} BrainRegionChunk);
 // X afferents to Y
-(BRE "afferents" W{REGEXP(fromto)}) {-> MARK(Cooccurrence, 1, 2)} BRE;
+(BrainRegionChunk "afferents" W{REGEXP(fromto)}) {-> MARK(BRCooc, 1, 2)} BrainRegionChunk;
 // X, which a a projections to Y
-(BRE COMMA? "which" W[0,4]? Projection "to") {-> MARK(Cooccurrence, 1, 2)} BRE;
+(BrainRegionChunk COMMA? "which" W[0,4]? Projection "to") {-> MARK(BRCooc, 1, 2)} BrainRegionChunk;

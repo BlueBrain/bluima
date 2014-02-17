@@ -11,13 +11,11 @@ import java.io.FileWriter;
 import java.io.IOException;
 import java.util.List;
 
-import org.apache.commons.io.FileUtils;
-import org.apache.commons.lang.StringUtils;
 import org.apache.uima.UIMAException;
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.conceptMapper.support.dictionaryResource.DictionaryResource_impl;
-import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.fit.factory.ExternalResourceFactory;
+import org.apache.uima.resource.ResourceInitializationException;
 import org.xml.sax.SAXException;
 
 import ch.epfl.bbp.uima.ae.OpenNlpHelper;

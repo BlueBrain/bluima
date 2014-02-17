@@ -126,9 +126,9 @@ public class WhiteTextConnectionsCollectionReader extends
 						+ parseInt(fromTo[1]) + 1;
 				BrainRegion br = new BrainRegion(jcas, begin, end);
 				br.addToIndexes();
-				checkEquals("annotation text do not match",
-						entity.getAttributeValue("text"),
-						text.substring(begin, end));
+				checkEquals(entity.getAttributeValue("text"),
+						text.substring(begin, end),
+						"annotation text do not match");
 				String id = entity.getAttributeValue("id");
 				brs.put(id, br);
 			}

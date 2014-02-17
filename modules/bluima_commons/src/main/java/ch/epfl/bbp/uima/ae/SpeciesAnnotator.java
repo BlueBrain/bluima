@@ -70,8 +70,8 @@ public class SpeciesAnnotator extends JCasAnnotator_ImplBase {
 				speciesMapping.put(parseInt(line.get(0)),
 						Species.valueOf(line.get(1)));
 			}
-			checkEquals("mapping should have 591 species", 591,
-					speciesMapping.size());
+			checkEquals(591,
+					speciesMapping.size(),"mapping should have 591 species");
 
 		} catch (Throwable t) {
 			throw new RuntimeException(t);

@@ -196,15 +196,18 @@ public class UimaTests {
 
 	public static void assertContains(JCas jCas,
 			Class<? extends Annotation> annot, int expectedCnt) {
-		assertContains(jCas, annot, expectedCnt, "");
-	}
-
-	public static void assertContains(JCas jCas,
-			Class<? extends Annotation> annot, int expectedCnt, String msg) {
 		if (expectedCnt == 0) {
-			checkArgument(!exists(jCas, annot), msg);
+			checkArgument(
+					!exists(jCas, annot),
+					"assertContains %s annotations of type %s, but found none ",
+					expectedCnt, annot.getSimpleName());
 		} else {
-			checkEquals(msg, expectedCnt, select(jCas, annot).size());
+			checkEquals(
+					expectedCnt,
+					select(jCas, annot).size(),
+					"assertContains " + expectedCnt + " annotations of type "
+							+ annot.getSimpleName() + ", but found "
+							+ select(jCas, annot).size());
 		}
 	}
 }
