@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Mon Sep 30 16:58:18 CEST 2013 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -8,13 +8,11 @@ import org.apache.uima.jcas.JCasRegistry;
 import org.apache.uima.jcas.cas.TOP_Type;
 
 import org.apache.uima.jcas.tcas.Annotation;
-
-
 import org.apache.uima.jcas.cas.StringArray;
 
 
 /** A coocurrence btw two annotations.
- * Updated by JCasGen Mon Feb 17 10:49:39 CET 2014
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class Cooccurrence extends Annotation {

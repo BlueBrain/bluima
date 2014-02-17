@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Fri Sep 14 13:58:35 CEST 2012 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -12,7 +12,7 @@ import org.apache.uima.cas.Type;
 import de.julielab.jules.types.BioEntityMention_Type;
 
 /** 
- * Updated by JCasGen Mon Oct 21 13:03:29 CEST 2013
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
  * @generated */
 public class BrainRegion_Type extends BioEntityMention_Type {
   /** @generated */

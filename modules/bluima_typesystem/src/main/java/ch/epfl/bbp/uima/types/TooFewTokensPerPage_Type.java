@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Fri Sep 13 17:15:36 CEST 2013 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -11,7 +11,7 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
 /** 
- * Updated by JCasGen Fri Sep 20 01:02:04 CEST 2013
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
  * @generated */
 public class TooFewTokensPerPage_Type extends BadContent_Type {
   /** @generated */

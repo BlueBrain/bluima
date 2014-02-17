@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Mon Feb 17 10:49:41 CET 2014 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,7 +11,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** a list or hierarchy of brain regions that form a chunk, e.g. "neocortex, brainstem and olfactory bulb" or "Magnocellular nucleus of thalamus"
- * Updated by JCasGen Mon Feb 17 10:49:41 CET 2014
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class BrainRegionChunk extends Annotation {

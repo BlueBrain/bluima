@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Thu Jul 19 23:40:23 CEST 2012 */
+/* First created by JCasGen Mon Feb 17 12:28:32 CET 2014 */
 package ch.epfl.bbp.uima;
 
 import org.apache.uima.jcas.JCas;
@@ -12,7 +12,7 @@ import org.apache.uima.cas.Type;
 import de.julielab.jules.types.BioEntityMention_Type;
 
 /** 
- * Updated by JCasGen Mon Oct 21 13:03:29 CEST 2013
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
  * @generated */
 public class Sex_Type extends BioEntityMention_Type {
   /** @generated */

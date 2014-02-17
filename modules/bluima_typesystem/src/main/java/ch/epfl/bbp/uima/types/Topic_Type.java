@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Dec 10 13:40:31 CET 2012 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -14,7 +14,7 @@ import org.apache.uima.cas.Feature;
 import de.julielab.jules.types.Annotation_Type;
 
 /** The scores of topics from a LDA analysis on a token
- * Updated by JCasGen Mon Oct 21 13:03:29 CEST 2013
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
  * @generated */
 public class Topic_Type extends Annotation_Type {
   /** @generated */

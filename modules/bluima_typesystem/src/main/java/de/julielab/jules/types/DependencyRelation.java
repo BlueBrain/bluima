@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** Syntactic dependency relation annotation, see subtypes
- * Updated by JCasGen Mon Feb 17 10:49:41 CET 2014
+ * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class DependencyRelation extends Annotation {

@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Feb 12 11:25:17 CET 2013 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,8 +11,8 @@ import de.julielab.jules.types.POSTag;
 
 
 /** 
- * Updated by JCasGen Fri Sep 20 01:02:04 CEST 2013
- * XML source: /Users/richarde/dev/bluebrain/svn_nlp/UIMA/blue_uima/trunk/modules/julielab_typesystem-2.6.8/src/main/resources/typeSystem/bbp-basic-types.xml
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class POSSkip extends POSTag {
   /** @generated

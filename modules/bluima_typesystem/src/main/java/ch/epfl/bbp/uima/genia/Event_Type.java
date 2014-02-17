@@ -15,7 +15,7 @@ import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** See
         http://2011.bionlp-st.org/home/genia-event-extraction-genia
- * Updated by JCasGen Mon Feb 17 10:49:39 CET 2014
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
  * @generated */
 public class Event_Type extends Annotation_Type {
   /** @generated */

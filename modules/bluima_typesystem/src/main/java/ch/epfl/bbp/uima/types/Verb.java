@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Wed Oct 31 21:02:40 CET 2012 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,8 +11,8 @@ import de.julielab.jules.types.Annotation;
 
 
 /** A general verb, that was not found in the biolexicon/Mancu
- * Updated by JCasGen Fri Sep 20 01:02:04 CEST 2013
- * XML source: /Users/richarde/dev/bluebrain/svn_nlp/UIMA/blue_uima/trunk/modules/julielab_typesystem-2.6.8/src/main/resources/typeSystem/bbp-basic-types.xml
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class Verb extends Annotation {
   /** @generated
@@ -60,6 +60,8 @@ public class Verb extends Annotation {
   @generated modifiable */
   private void readObject() {/*default - does nothing empty block */}
      
+ 
+    
   //*--------------*
   //* Feature: isModal
 

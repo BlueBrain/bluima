@@ -11,7 +11,7 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
 /** Abbreviation includes acronyms written as the initial letter or letters of words, and pronounced on the basis of this abbreviated written form.
- * Updated by JCasGen Mon Oct 21 13:03:29 CEST 2013
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
  * @generated */
 public class Acronym_Type extends Abbreviation_Type {
   /** @generated */

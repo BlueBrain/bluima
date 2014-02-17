@@ -13,7 +13,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** The super-type for the constituent annotation, see subtypes
- * Updated by JCasGen Mon Oct 21 13:03:29 CEST 2013
+ * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
  * @generated */
 public class Constituent_Type extends Annotation_Type {
   /** @generated */

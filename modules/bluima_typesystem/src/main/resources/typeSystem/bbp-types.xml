@@ -828,5 +828,25 @@ Zucker et al. (1993)</description>
       <description>a list or hierarchy of brain regions that form a chunk, e.g. "neocortex, brainstem and olfactory bulb" or "Magnocellular nucleus of thalamus"</description>
       <supertypeName>uima.tcas.Annotation</supertypeName>
     </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.Direction</name>
+      <description/>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.Projection</name>
+      <description/>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.Abrev</name>
+      <description/>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.BRCooc</name>
+      <description>DTO for BrainRegion (chunks) co-occurrences. Created by Ruta and further processed by PostprocessRutaEngine.</description>
+      <supertypeName>uima.tcas.Annotation</supertypeName>
+    </typeDescription>
   </types>
 </typeSystemDescription>

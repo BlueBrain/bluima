@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Sep 30 09:32:24 CEST 2013 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -14,7 +14,7 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** Represents a page in a document, e.g. a page in a PDF article
- * Updated by JCasGen Mon Sep 30 09:36:16 CEST 2013
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
  * @generated */
 public class DocumentPage_Type extends Annotation_Type {
   /** @generated */
@@ -43,9 +43,7 @@ public class DocumentPage_Type extends Annotation_Type {
      @modifiable */
   @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("ch.epfl.bbp.uima.types.DocumentPage");
-
-
-
+ 
   /** @generated */
   final Feature casFeat_pageId;
   /** @generated */

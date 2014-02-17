@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Fri Sep 14 13:59:11 CEST 2012 */
+/* First created by JCasGen Mon Feb 17 12:27:27 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,8 +11,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** Species annotation type holds information for Linnaeus species tagger's annotation.
- * Updated by JCasGen Wed Dec 18 15:26:51 CET 2013
- * XML source: /Users/richarde/dev/bluebrain/svn_nlp/UIMA/blue_uima/trunk/modules/julielab_typesystem-2.6.8/src/main/resources/typeSystem/LinnaeusAnnotationTypes.xml
+ * Updated by JCasGen Mon Feb 17 12:27:27 CET 2014
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/LinnaeusAnnotationTypes.xml
  * @generated */
 public class LinnaeusSpecies extends Annotation {
   /** @generated

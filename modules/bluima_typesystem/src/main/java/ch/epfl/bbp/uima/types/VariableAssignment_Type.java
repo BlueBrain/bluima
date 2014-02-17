@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue Nov 27 15:12:11 CET 2012 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -11,10 +11,9 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
-import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** e.g. x =3, p < 0.05
- * Updated by JCasGen Mon Oct 21 13:03:29 CEST 2013
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
  * @generated */
 public class VariableAssignment_Type extends Measure_Type {
   /** @generated */
@@ -43,9 +42,25 @@ public class VariableAssignment_Type extends Measure_Type {
      @modifiable */
   @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("ch.epfl.bbp.uima.types.VariableAssignment");
-
-
-
+ 
+  /** @generated */
+  final Feature casFeat_operator;
+  /** @generated */
+  final int     casFeatCode_operator;
+  /** @generated */ 
+  public String getOperator(int addr) {
+        if (featOkTst && casFeat_operator == null)
+      jcas.throwFeatMissing("operator", "ch.epfl.bbp.uima.types.VariableAssignment");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_operator);
+  }
+  /** @generated */    
+  public void setOperator(int addr, String v) {
+        if (featOkTst && casFeat_operator == null)
+      jcas.throwFeatMissing("operator", "ch.epfl.bbp.uima.types.VariableAssignment");
+    ll_cas.ll_setStringValue(addr, casFeatCode_operator, v);}
+    
+  
+ 
   /** @generated */
   final Feature casFeat_value;
   /** @generated */
@@ -79,24 +94,6 @@ public class VariableAssignment_Type extends Measure_Type {
         if (featOkTst && casFeat_variableName == null)
       jcas.throwFeatMissing("variableName", "ch.epfl.bbp.uima.types.VariableAssignment");
     ll_cas.ll_setStringValue(addr, casFeatCode_variableName, v);}
-    
-  
- 
-  /** @generated */
-  final Feature casFeat_operator;
-  /** @generated */
-  final int     casFeatCode_operator;
-  /** @generated */ 
-  public String getOperator(int addr) {
-        if (featOkTst && casFeat_operator == null)
-      jcas.throwFeatMissing("operator", "ch.epfl.bbp.uima.types.VariableAssignment");
-    return ll_cas.ll_getStringValue(addr, casFeatCode_operator);
-  }
-  /** @generated */    
-  public void setOperator(int addr, String v) {
-        if (featOkTst && casFeat_operator == null)
-      jcas.throwFeatMissing("operator", "ch.epfl.bbp.uima.types.VariableAssignment");
-    ll_cas.ll_setStringValue(addr, casFeatCode_operator, v);}
     
   
  

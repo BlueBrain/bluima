@@ -11,7 +11,7 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
 /** The Penn Treebank Tag Set* in Mitchell P. Marcus, Beatrice Santorini, and Mary Ann Marcinkiewicz: Building a Large Annotated Corpus of English: The Penn Treebank, in Computational Linguistics, Volume 19, Number 2 (June 1993), pp. 313--330 (Special Issue on Using Large Corpora). TagsetId 0
- * Updated by JCasGen Mon Oct 21 13:03:30 CEST 2013
+ * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
  * @generated */
 public class PennPOSTag_Type extends POSTag_Type {
   /** @generated */

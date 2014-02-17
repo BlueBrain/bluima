@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Fri Sep 14 13:58:35 CEST 2012 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,8 +11,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** a measure, e.g. 40g
- * Updated by JCasGen Thu Oct 24 15:25:04 CEST 2013
- * XML source: /Users/richarde/dev/bluebrain/svn_nlp/UIMA/blue_uima/trunk/modules/julielab_typesystem-2.6.8/src/main/resources/typeSystem/bbp-semantics-biology-types.xml
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class Measure extends Annotation {
   /** @generated
@@ -191,14 +191,16 @@ public class Measure extends Annotation {
   //*--------------*
   //* Feature: accuracy
 
-  /** getter for accuracy - gets allows to store additional information about this measure, e.g. modifiers like '~', '+/-', 'approximately'
+  /** getter for accuracy - gets allows to store additional information about this
+            measure, e.g. modifiers like '~', '+/-', 'approximately'
    * @generated */
   public String getAccuracy() {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_accuracy == null)
       jcasType.jcas.throwFeatMissing("accuracy", "ch.epfl.bbp.uima.types.Measure");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Measure_Type)jcasType).casFeatCode_accuracy);}
     
-  /** setter for accuracy - sets allows to store additional information about this measure, e.g. modifiers like '~', '+/-', 'approximately' 
+  /** setter for accuracy - sets allows to store additional information about this
+            measure, e.g. modifiers like '~', '+/-', 'approximately' 
    * @generated */
   public void setAccuracy(String v) {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_accuracy == null)
@@ -245,14 +247,16 @@ public class Measure extends Annotation {
   //*--------------*
   //* Feature: confidence
 
-  /** getter for confidence - gets characterizes the confidence of the extractor that this is indeed a measure. default should be 1f
+  /** getter for confidence - gets characterizes the confidence of the extractor
+            that this is indeed a measure. default should be 1f
    * @generated */
   public float getConfidence() {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_confidence == null)
       jcasType.jcas.throwFeatMissing("confidence", "ch.epfl.bbp.uima.types.Measure");
     return jcasType.ll_cas.ll_getFloatValue(addr, ((Measure_Type)jcasType).casFeatCode_confidence);}
     
-  /** setter for confidence - sets characterizes the confidence of the extractor that this is indeed a measure. default should be 1f 
+  /** setter for confidence - sets characterizes the confidence of the extractor
+            that this is indeed a measure. default should be 1f 
    * @generated */
   public void setConfidence(float v) {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_confidence == null)

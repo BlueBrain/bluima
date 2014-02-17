@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Mon Dec 10 13:40:31 CET 2012 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -12,8 +12,8 @@ import org.apache.uima.jcas.cas.DoubleArray;
 
 
 /** The scores of topics from a LDA analysis on a token
- * Updated by JCasGen Mon Oct 21 13:03:29 CEST 2013
- * XML source: /Users/richarde/dev/bluebrain/svn_nlp/UIMA/blue_uima/trunk/modules/julielab_typesystem-2.6.8/src/main/resources/typeSystem/bbp-semantics-biology-types.xml
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class Topic extends Annotation {
   /** @generated
@@ -100,14 +100,14 @@ public class Topic extends Annotation {
   //*--------------*
   //* Feature: mostLikelyTopic
 
-  /** getter for mostLikelyTopic - gets 
+  /** getter for mostLikelyTopic - gets The most likely topic id for this topic
    * @generated */
   public int getMostLikelyTopic() {
     if (Topic_Type.featOkTst && ((Topic_Type)jcasType).casFeat_mostLikelyTopic == null)
       jcasType.jcas.throwFeatMissing("mostLikelyTopic", "ch.epfl.bbp.uima.types.Topic");
     return jcasType.ll_cas.ll_getIntValue(addr, ((Topic_Type)jcasType).casFeatCode_mostLikelyTopic);}
     
-  /** setter for mostLikelyTopic - sets  
+  /** setter for mostLikelyTopic - sets The most likely topic id for this topic 
    * @generated */
   public void setMostLikelyTopic(int v) {
     if (Topic_Type.featOkTst && ((Topic_Type)jcasType).casFeat_mostLikelyTopic == null)

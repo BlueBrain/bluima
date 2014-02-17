@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Sat Dec 08 23:30:55 CET 2012 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -14,7 +14,7 @@ import org.apache.uima.cas.Feature;
 import de.julielab.jules.types.Annotation_Type;
 
 /** A literature citation found in the body of the text, not the reference section
- * Updated by JCasGen Fri Sep 20 01:02:03 CEST 2013
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
  * @generated */
 public class BodyCitation_Type extends Annotation_Type {
   /** @generated */
@@ -43,9 +43,7 @@ public class BodyCitation_Type extends Annotation_Type {
      @modifiable */
   @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("ch.epfl.bbp.uima.types.BodyCitation");
-
-
-
+ 
   /** @generated */
   final Feature casFeat_textValue;
   /** @generated */

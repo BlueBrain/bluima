@@ -13,7 +13,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** Penn Treebank constituent annotation (see Penn Treebank)
- * Updated by JCasGen Mon Oct 21 13:03:30 CEST 2013
+ * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
  * @generated */
 public class PTBConstituent_Type extends Constituent_Type {
   /** @generated */

@@ -13,7 +13,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** Lemma is the canonical form of a lexeme. Lemma can be retrieved from lexicon or be produced by lemmatizer.
- * Updated by JCasGen Mon Oct 21 13:03:29 CEST 2013
+ * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
  * @generated */
 public class Lemma_Type extends Annotation_Type {
   /** @generated */

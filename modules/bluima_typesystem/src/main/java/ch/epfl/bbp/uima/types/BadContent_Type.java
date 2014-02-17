@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Fri Sep 13 17:15:36 CEST 2013 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -12,7 +12,7 @@ import org.apache.uima.cas.Type;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** Document-level annotation signaling that this document has content that is bad and should not be (futher) analyzed.
- * Updated by JCasGen Fri Sep 20 01:02:03 CEST 2013
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
  * @generated */
 public class BadContent_Type extends Annotation_Type {
   /** @generated */

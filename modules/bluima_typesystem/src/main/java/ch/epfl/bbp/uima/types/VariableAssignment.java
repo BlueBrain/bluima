@@ -1,18 +1,17 @@
 
 
-/* First created by JCasGen Tue Nov 27 15:12:11 CET 2012 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas; 
 import org.apache.uima.jcas.JCasRegistry;
 import org.apache.uima.jcas.cas.TOP_Type;
 
-import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** e.g. x =3, p < 0.05
- * Updated by JCasGen Mon Oct 21 13:03:29 CEST 2013
- * XML source: /Users/richarde/dev/bluebrain/svn_nlp/UIMA/blue_uima/trunk/modules/julielab_typesystem-2.6.8/src/main/resources/typeSystem/bbp-semantics-biology-types.xml
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class VariableAssignment extends Measure {
   /** @generated
@@ -60,6 +59,26 @@ public class VariableAssignment extends Measure {
   @generated modifiable */
   private void readObject() {/*default - does nothing empty block */}
      
+ 
+    
+  //*--------------*
+  //* Feature: operator
+
+  /** getter for operator - gets math operator like equal, lt, gt, ...
+   * @generated */
+  public String getOperator() {
+    if (VariableAssignment_Type.featOkTst && ((VariableAssignment_Type)jcasType).casFeat_operator == null)
+      jcasType.jcas.throwFeatMissing("operator", "ch.epfl.bbp.uima.types.VariableAssignment");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((VariableAssignment_Type)jcasType).casFeatCode_operator);}
+    
+  /** setter for operator - sets math operator like equal, lt, gt, ... 
+   * @generated */
+  public void setOperator(String v) {
+    if (VariableAssignment_Type.featOkTst && ((VariableAssignment_Type)jcasType).casFeat_operator == null)
+      jcasType.jcas.throwFeatMissing("operator", "ch.epfl.bbp.uima.types.VariableAssignment");
+    jcasType.ll_cas.ll_setStringValue(addr, ((VariableAssignment_Type)jcasType).casFeatCode_operator, v);}    
+   
+    
   //*--------------*
   //* Feature: value
 
@@ -94,24 +113,6 @@ public class VariableAssignment extends Measure {
     if (VariableAssignment_Type.featOkTst && ((VariableAssignment_Type)jcasType).casFeat_variableName == null)
       jcasType.jcas.throwFeatMissing("variableName", "ch.epfl.bbp.uima.types.VariableAssignment");
     jcasType.ll_cas.ll_setStringValue(addr, ((VariableAssignment_Type)jcasType).casFeatCode_variableName, v);}    
-   
-    
-  //*--------------*
-  //* Feature: operator
-
-  /** getter for operator - gets 
-   * @generated */
-  public String getOperator() {
-    if (VariableAssignment_Type.featOkTst && ((VariableAssignment_Type)jcasType).casFeat_operator == null)
-      jcasType.jcas.throwFeatMissing("operator", "ch.epfl.bbp.uima.types.VariableAssignment");
-    return jcasType.ll_cas.ll_getStringValue(addr, ((VariableAssignment_Type)jcasType).casFeatCode_operator);}
-    
-  /** setter for operator - sets  
-   * @generated */
-  public void setOperator(String v) {
-    if (VariableAssignment_Type.featOkTst && ((VariableAssignment_Type)jcasType).casFeat_operator == null)
-      jcasType.jcas.throwFeatMissing("operator", "ch.epfl.bbp.uima.types.VariableAssignment");
-    jcasType.ll_cas.ll_setStringValue(addr, ((VariableAssignment_Type)jcasType).casFeatCode_operator, v);}    
    
     
   //*--------------*

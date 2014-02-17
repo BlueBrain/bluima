@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Fri Sep 27 23:00:47 CEST 2013 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,7 +13,7 @@ import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** Satre et al. (2007)
 Zucker et al. (1993)
- * Updated by JCasGen Mon Sep 30 09:36:16 CEST 2013
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
  * @generated */
 public class EtAlInlineReference_Type extends Annotation_Type {
   /** @generated */

@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Dec 18 15:26:51 CET 2013 */
+/* First created by JCasGen Mon Feb 17 12:27:27 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -14,7 +14,7 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** the most probable species of a document
- * Updated by JCasGen Wed Dec 18 15:26:51 CET 2013
+ * Updated by JCasGen Mon Feb 17 12:27:27 CET 2014
  * @generated */
 public class DocumentSpecies_Type extends Annotation_Type {
   /** @generated */

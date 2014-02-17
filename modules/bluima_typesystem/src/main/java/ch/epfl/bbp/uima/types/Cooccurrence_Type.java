@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue Oct 01 11:05:31 CEST 2013 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -14,7 +14,7 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** A coocurrence btw two annotations.
- * Updated by JCasGen Mon Feb 17 10:49:39 CET 2014
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
  * @generated */
 public class Cooccurrence_Type extends Annotation_Type {
   /** @generated */

@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Fri Dec 14 11:41:22 CET 2012 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -14,7 +14,7 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** a list of strings that represent the cleaned-up (pre-processed) tokens for use with LDA libs or others
- * Updated by JCasGen Fri Sep 20 01:02:03 CEST 2013
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
  * @generated */
 public class FeatureTokens_Type extends Annotation_Type {
   /** @generated */

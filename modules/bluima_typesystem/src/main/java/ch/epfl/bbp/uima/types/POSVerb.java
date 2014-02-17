@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Fri Sep 14 13:58:44 CEST 2012 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,7 +11,7 @@ import de.julielab.jules.types.POSTag;
 
 
 /** 
- * Updated by JCasGen Mon Feb 17 10:49:40 CET 2014
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class POSVerb extends POSTag {

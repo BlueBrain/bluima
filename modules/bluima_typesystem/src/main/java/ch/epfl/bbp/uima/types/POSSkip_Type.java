@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue Feb 12 11:25:17 CET 2013 */
+/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -12,7 +12,7 @@ import org.apache.uima.cas.Type;
 import de.julielab.jules.types.POSTag_Type;
 
 /** 
- * Updated by JCasGen Mon Feb 17 10:49:40 CET 2014
+ * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
  * @generated */
 public class POSSkip_Type extends POSTag_Type {
   /** @generated */
