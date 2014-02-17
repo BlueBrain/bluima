@@ -87,7 +87,7 @@ public class EvaluationAnnotator extends JCasAnnotator_ImplBase {
             System.out.println("comparing #gold:" + goldAnnot.size() + " #sys:"
                     + systAnnot.size());
 
-        String log = evaluator.add(goldAnnot, systAnnot);
+        String log = evaluator.add(goldAnnot, systAnnot, "");
         if (verbose)
             System.out.println(log);
         // System.out.println(evaluator.compare());

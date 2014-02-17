@@ -1,23 +1,23 @@
 # TestResult:
-#     precision:  0.16001033324722294
-#     recall:     1.0
-#     F1:         0.275877427400677
+#     precision:  0.160
+#     recall: 1.000
+#     F1: 0.276
 # TestResult:
-#     precision:  0.7833163784333672
-#     recall:     0.9945108169195996
-#     F1:         0.8763693270735524
+#     precision:  0.787
+#     recall: 0.995
+#     F1: 0.879
 # TestResult:
-#     precision:  0.7857881136950904
-#     recall:     0.9819179851469164
-#     F1:         0.8729725850437778
+#     precision:  0.789
+#     recall: 0.982
+#     F1: 0.875
 # TestResult:
-#     precision:  0.7823013853548205
-#     recall:     0.8934452696157572
-#     F1:         0.8341875188423274
+#     precision:  0.783
+#     recall: 0.894
+#     F1: 0.835
 # TestResult:
-#     precision:  0.7791858678955453
-#     recall:     0.6551501453019051
-#     F1:         0.711804946500614
+#     precision:  0.783
+#     recall: 0.656
+#     F1: 0.714
 
 
 cr: WhiteTextConnectionsCollectionReader
@@ -50,7 +50,7 @@ ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesIfTooManyEntities
 ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
 
 
-# 5: FilterCoocurrencesIfTooManyBrainregions 5 
+# 5: FilterCoocurrencesIfTooManyBrainregions 5
 ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesIfTooManyEntities
  maximumEntities__java: 5
 ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator

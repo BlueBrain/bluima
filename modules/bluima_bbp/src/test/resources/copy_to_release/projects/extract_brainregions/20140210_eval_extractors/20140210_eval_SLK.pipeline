@@ -1,0 +1,42 @@
+
+cr: ch.epfl.bbp.uima.validation.CrossvalidationReader
+ corpusName: WhiteTextConnections
+ maxNrResults__java: 989
+ slice__java: $1
+ modeEval__java: true
+
+
+# important, to remove cooc.gethasinteraction() = true (coming from WT corpus)
+ae: ch.epfl.bbp.uima.ae.relations.FilterInactiveCooccurrencesAnnotator
+ae: EvaluationPreprocessorAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.Cooccurrence
+
+# PRE-PROC
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
+ae: BlueBioLemmatizer
+
+# CO_OCCS
+ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.BrainRegion
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+
+# EVAL
+#ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+# PREDICT (FILTER) & EVAL
+ae: ch.epfl.bbp.uima.jsre.JsreFilterAnnotator
+ modelFile: $2
+print: JSRE_RESULT TRIAL $1
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+
+# TestResult:
+# 	precision:	0.152
+# 	recall:	1.000
+# 	F1:	0.263
+# TestResult:
+# 	precision:	0.587
+# 	recall:	0.741
+# 	F1:	0.655

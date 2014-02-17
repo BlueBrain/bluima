@@ -5,6 +5,7 @@ import static org.apache.uima.cas.impl.Serialization.deserializeCAS;
 
 import java.io.File;
 import java.io.FileInputStream;
+import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.zip.GZIPInputStream;
@@ -46,13 +47,17 @@ public class BinaryCasReader extends AbstractFileReader {
 	public void getNext(JCas jCas) throws IOException, CollectionException {
 		File file = fileIterator.next();
 		try {
-			InputStream ois = new GZIPInputStream(new FileInputStream(file));
-			deserializeCAS(jCas.getCas(), ois);// , TypeSystem.JULIE_TSD,null);
-			ois.close();
+			deserialize(file, jCas);
 		} catch (Exception e) {
 			LOG.error(
 					"could not read serialized cas at "
 							+ file.getAbsolutePath(), e);
 		}
+	}
+	public static void deserialize(File file, JCas jCas)
+			throws FileNotFoundException, IOException {
+		InputStream ois = new GZIPInputStream(new FileInputStream(file));
+		deserializeCAS(jCas.getCas(), ois);// , TypeSystem.JULIE_TSD,null);
+		ois.close();
 	}
 }

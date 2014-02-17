@@ -1,8 +1,6 @@
 package ch.epfl.bbp.uima;
 
 import java.io.File;
-import java.util.Map.Entry;
-import java.util.Properties;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -47,6 +45,7 @@ public final class BlueUima {
 	public static final String PARAM_VERBOSE = "verbose";
 
 	public static final String PARAM_CORPUS_PATH = "corpusFile";
+	public static final String PARAM_CORPUS_NAME = "corpusName";
 	public static final String PARAM_CORPUS_ANNOTATIONS_PATH = "corpusAnnotationsFile";
 	/** Corpus mode, either test or train or eval */
 	public static final String PARAM_MODE = "corpus_mode";

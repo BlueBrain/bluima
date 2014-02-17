@@ -1,0 +1,35 @@
+
+cr: ch.epfl.bbp.uima.validation.CrossvalidationReader
+ corpusName: WhiteTextConnections
+ maxNrResults__java: 989
+ slice__java: $1
+ modeEval__java: true
+
+# important, to remove cooc.gethasinteraction() = true (coming from WT corpus)
+ae: ch.epfl.bbp.uima.ae.relations.FilterInactiveCooccurrencesAnnotator
+ae: EvaluationPreprocessorAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.Cooccurrence
+
+
+# CO_OCCS
+ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.BrainRegion
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+ keepOnlyNearestNeighbors__java: true
+
+# FilterCoocurrencesIfTooManyBrainregions 7
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesIfTooManyEntities
+ maximumEntities__java: 7
+
+# long sentences
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
+
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesByTriggerword
+
+
+
+# EVAL
+print: TRIGGER_RESULT TRIAL $1
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator 
+

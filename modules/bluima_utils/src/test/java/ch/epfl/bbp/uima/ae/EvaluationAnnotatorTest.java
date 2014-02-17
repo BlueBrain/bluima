@@ -2,6 +2,7 @@ package ch.epfl.bbp.uima.ae;
 
 import static ch.epfl.bbp.uima.ae.EvaluationPreprocessorAnnotator.PARAM_GOLD_ANNOTATION;
 import static ch.epfl.bbp.uima.ae.EvaluationPreprocessorAnnotator.PARAM_SYSTEM_ANNOTATION;
+import static ch.epfl.bbp.uima.testutils.UimaTests.getTestCas;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
 
@@ -19,7 +20,7 @@ public class EvaluationAnnotatorTest {
 	@Test
 	public void test() throws Exception {
 
-		JCas jCas = UimaTests.getTestCas("a b c d");
+		JCas jCas = getTestCas("a b c d");
 
 		// gold
 		Protein p = new Protein(jCas, 0, 1);
@@ -34,12 +35,12 @@ public class EvaluationAnnotatorTest {
 		d2.addToIndexes();
 
 		AnalysisEngineDescription ep = createEngineDescription(
-		        EvaluationPreprocessorAnnotator.class, PARAM_GOLD_ANNOTATION,
-		        Protein.class.getName());
+				EvaluationPreprocessorAnnotator.class, PARAM_GOLD_ANNOTATION,
+				Protein.class.getName());
 		AnalysisEngineDescription e = createEngineDescription(
-		        EvaluationAnnotator.class, PARAM_GOLD_ANNOTATION,
-		        Protein.class.getName(), PARAM_SYSTEM_ANNOTATION,
-		        DictTerm.class.getName());
+				EvaluationAnnotator.class, PARAM_GOLD_ANNOTATION,
+				Protein.class.getName(), PARAM_SYSTEM_ANNOTATION,
+				DictTerm.class.getName());
 
 		runPipeline(jCas, ep, e);
 	}

@@ -48,7 +48,7 @@ public class UpdateAbstractDb {
 
         init();
 
-        int maxPmId = 23435207;// TODO update every time
+        int maxPmId = 24511642;// TODO update every time
         for (int i = maxPmId; i > 1; i = i - BATCH_SIZE) {
             LOG.debug("query: {}-{}", i, i + BATCH_SIZE);
             updateWithQuery(from(i).upto(i + BATCH_SIZE - 1).asList(), pubmed);

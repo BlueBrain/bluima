@@ -288,7 +288,7 @@ public class JsreTrainAnnotator extends JCasAnnotator_ImplBase {
                     // add libsvm sentence
                     org.itc.irst.tcc.sre.data.Sentence sentence = new org.itc.irst.tcc.sre.data.Sentence(
                             words);
-                    boolean label = c.getConfidence() == 1.0f ? true : false;
+                    boolean label = c.getHasInteraction();
                     int classz = label ? 2 : 0;
                     String id = pmId + "_" + sentenceId++;
 

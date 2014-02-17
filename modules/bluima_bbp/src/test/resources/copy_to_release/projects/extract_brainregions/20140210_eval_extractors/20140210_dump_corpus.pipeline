@@ -1,0 +1,6 @@
+
+cr: WhiteTextConnectionsCollectionReader
+ addNegativePairs__java: true
+
+ae: ch.epfl.bbp.uima.validation.CrossvalidationWriter
+ corpusName: WhiteTextConnections
