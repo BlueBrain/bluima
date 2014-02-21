@@ -66,7 +66,6 @@ public class BamsOntologyParser {
         Element rootNode = doc.getRootElement();
 
         // REFERENCES ///////////////////////////////////////////
-        @SuppressWarnings("unchecked")
         List<Element> nodes = rootNode.getChildren("Description", RDF);
         Iterator<Element> rdfIt = nodes.iterator();
         while (rdfIt.hasNext()) {

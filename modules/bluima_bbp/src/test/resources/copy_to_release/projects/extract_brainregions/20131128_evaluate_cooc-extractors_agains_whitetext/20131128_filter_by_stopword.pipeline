@@ -1,0 +1,49 @@
+
+
+
+#   DOES NOT WORK WELL --> RETIRED
+
+
+
+
+
+
+# keepOnlyNearestNeighbors__java: false
+# TestResult:
+#     precision:  0.086
+#     recall: 1.000
+#     F1: 0.159
+# TestResult:
+#     precision:  0.084
+#     recall: 0.845
+#     F1: 0.153
+
+# keepOnlyNearestNeighbors__java: true
+# TestResult:
+#     precision:  0.275
+#     recall: 0.507
+#     F1: 0.357
+# TestResult:
+#     precision:  0.272
+#     recall: 0.426
+#     F1: 0.332
+
+cr: WhiteTextConnectionsCollectionReader
+ae: EvaluationPreprocessorAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.Cooccurrence
+
+
+# 1: base
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.BrainRegion
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+ keepOnlyNearestNeighbors__java: true
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+
+# 2: filter trigger
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesByStopwords
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+

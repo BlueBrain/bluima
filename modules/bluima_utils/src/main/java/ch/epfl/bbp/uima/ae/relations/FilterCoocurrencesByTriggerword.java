@@ -33,7 +33,7 @@ public class FilterCoocurrencesByTriggerword extends JCasAnnotator_ImplBase {
             .getLogger(FilterCoocurrencesByTriggerword.class);
 
     private static final Pattern TRIGGER_WORDS = compile(
-            "afferent|efferent|projects|projection|pathway|inputs",
+            "afferent|efferent|project|connecti|pathway|inputs",
             CASE_INSENSITIVE);
 
     @Override

@@ -24,7 +24,8 @@ import ch.epfl.bbp.uima.validation.Comparator;
 import ch.epfl.bbp.uima.validation.TestEvaluator;
 
 /**
- * Evaluates if two {@link Cooccurrence}'s entites are the same.
+ * Evaluates if two {@link Cooccurrence}'s entities are the same. Any entities
+ * can be used, since they are compared on start/end of them.
  * 
  * @author renaud.richardet@epfl.ch
  * @see {@link EvaluationAnnotator}
@@ -61,11 +62,12 @@ public class CooccurrencesEvaluationAnnotator extends JCasAnnotator_ImplBase {
 		print("comparing #gold:" + goldAnnot.size() + " #sys:"
 				+ systAnnot.size());
 
-		print(/*"pmId:"+pmId + "\t" +*/ evaluator.add(goldAnnot, systAnnot, pmId));
+		print(/* "pmId:"+pmId + "\t" + */evaluator
+				.add(goldAnnot, systAnnot, pmId));
 	}
 
 	private static void print(String msg) {
-		 System.out.println(msg);
+		System.out.println(msg);
 	}
 
 	@Override

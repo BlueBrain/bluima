@@ -27,7 +27,7 @@ Document{-> MARKFAST(Direction, extendedDirections, true)};
 (Direction Direction) BrainRegionDictTerm{-> SHIFT(BrainRegionDictTerm, 1, 3)};
 Direction BrainRegionDictTerm{-> SHIFT(BrainRegionDictTerm, 1, 2)};
 // glob "the"
-W{REGEXP("the", true)} BrainRegionDictTerm{-> SHIFT(BrainRegionDictTerm, 1, 2)};
+W{REGEXP("the ", true)} BrainRegionDictTerm{-> SHIFT(BrainRegionDictTerm, 1, 2)};
 // annotate projection
 ( W{REGEXP("(pathways?|project.{0,5}|connecti.{0,3})",true )} ){-> MARK(Projection)};
 

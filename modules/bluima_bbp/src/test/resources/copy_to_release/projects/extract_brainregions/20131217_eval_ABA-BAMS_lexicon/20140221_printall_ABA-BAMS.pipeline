@@ -1,0 +1,46 @@
+cr: WhiteTextCollectionReader
+
+include: ../../../includes/preprocess.incl
+
+# FILTER RODENTS
+ae: LinnaeusAnnotator
+ae: FilterIfNotRodent
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegion
+
+ae: CopyAnnotationsAnnotator
+ from: ch.epfl.bbp.uima.types.BrainRegion
+ to: ch.epfl.bbp.uima.types.Gold
+
+
+
+# ABA
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/aba-syn")
+ae: FilterIfNotRodent
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ae: CopyAnnotationsAnnotator
+ from: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ to: ch.epfl.bbp.uima.types.AgeDictTerm
+
+
+# BAMS 2013
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2013-syn")
+ae: FilterIfNotRodent
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ae: CopyAnnotationsAnnotator
+ from: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ to: ch.epfl.bbp.uima.types.MethodDictTerm
+
+
+# BAMS 2004
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2004")
+ae: FilterIfNotRodent
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ae: CopyAnnotationsAnnotator
+ from: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ to: ch.epfl.bbp.uima.types.Verb
+
+# BART
+ae: RemoveAnnotationsAnnotator
+ annotationClass: de.julielab.jules.types.Token
+ae: BartWriter
+ batchPrefix: wt2_

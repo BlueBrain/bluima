@@ -1,0 +1,24 @@
+
+include: 20140210_eval.include
+
+
+# 1: base
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.BrainRegion
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+ keepOnlyNearestNeighbors__java: true
+
+# 2: filter trigger
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesByTriggerword
+
+# 3: FilterCoocurrencesIfTooManyBrainregions 7
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesIfTooManyEntities
+ maximumEntities__java: 7
+
+# 4: Sentence length
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
+ maximumEnclosingScopeLength__java: 500
+
+# EVAL
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator 

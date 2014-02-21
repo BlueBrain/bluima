@@ -19,6 +19,29 @@
 #    recall: 0.482
 #    F1: 0.360
 
+# with NN
+# TestResult:
+#     precision:  0.275
+#     recall: 0.507
+#     F1: 0.357
+# TestResult:
+#     precision:  0.450
+#     recall: 0.360
+#     F1: 0.400
+# TestResult:
+#     precision:  0.452
+#     recall: 0.360
+#     F1: 0.401
+# TestResult:
+#     precision:  0.462
+#     recall: 0.356
+#     F1: 0.402
+# TestResult:
+#     precision:  0.480
+#     recall: 0.331
+#     F1: 0.392
+
+
 cr: WhiteTextConnectionsCollectionReader
 ae: EvaluationPreprocessorAnnotator
  gold_annotation: ch.epfl.bbp.uima.types.Cooccurrence
@@ -29,7 +52,7 @@ ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
  enclosingScope: de.julielab.jules.types.Sentence
  annot1: ch.epfl.bbp.uima.types.BrainRegion
  annot2: ch.epfl.bbp.uima.types.BrainRegion
- #keepOnlyNearestNeighbors__java: true
+ keepOnlyNearestNeighbors__java: true
 ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
 
 

@@ -12,6 +12,11 @@ import org.slf4j.Logger;
 
 import ch.epfl.bbp.uima.RunPipeline;
 
+/**
+ * Cross-validation of SLK,
+ * 
+ * @author renaud.richardet@epfl.ch
+ */
 public class EvaluateBrainregionCoocurences {
 
 	private static Logger LOG = getLogger(RunPipeline.class);
@@ -19,18 +24,23 @@ public class EvaluateBrainregionCoocurences {
 	public static void main(String[] a) {
 
 		String root = PROJECTS_ROOT
-				+ "/extract_brainregions/20140210_eval_extractors/20140210_eval_";
+				+ "/extract_brainregions/20140210_eval_extractors/20140210_";
 
-		for (int i = 1; i <= 10; i++) {
+		for (int fold = 1; fold <= 10; fold++) {
 
-			List<String> args = newArrayList("" + i, "target/model.zip");
-
+			System.out.println("XXX\tFOLD\t" + fold + "");
 			try {
-				parse(new File(root + "eval_trigger.pipeline"), args).run();
 
-				parse(new File(root + "train_SLK.pipeline"), args).run();
+				List<String> args = newArrayList("" + fold, "target/model.zip");
+				System.out.println("XXX\tRULES\t" + fold + "");
+				parse(new File(root + "eval_RULES.pipeline"), args).run();
+				System.out.println("XXX\tTOPDOWN\t" + fold + "");
+				parse(new File(root + "eval_TOPDOWN.pipeline"), args).run();
 
-				parse(new File(root + "eval_SLK.pipeline"), args).run();
+				parse(new File(root + "train_KERNEL.pipeline"), args).run();
+				System.out.println("XXX\tKERNEL\t" + fold + "");
+				parse(new File(root + "eval_KERNEL.pipeline"), args).run();
+
 			} catch (Exception e1) {
 				LOG.error("", e1);
 			}

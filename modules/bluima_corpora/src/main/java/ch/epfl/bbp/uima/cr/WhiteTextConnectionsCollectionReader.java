@@ -64,7 +64,7 @@ public class WhiteTextConnectionsCollectionReader extends
 	public final static String PARAM_ADD_NEG_PAIRS = "addNegativePairs";
 	@ConfigurationParameter(name = PARAM_ADD_NEG_PAIRS, defaultValue = "false", //
 	mandatory = false, description = "add all possible " + //
-			"cooccurrences between the brain regions, or just the one that have an interaction")
+			"cooccurrences between the brain regions (true), or just the one that have an interactions (false).")
 	private boolean addNegativePairs;
 
 	private int currentNrDocs = 0;
@@ -136,6 +136,7 @@ public class WhiteTextConnectionsCollectionReader extends
 			for (Element pair : sentence.getChildren("pair")) {
 				boolean hasInteraction = pair.getAttributeValue("interaction")
 						.equals("True");
+				
 				BrainRegion br1 = brs.get(pair.getAttributeValue("e1"));
 				BrainRegion br2 = brs.get(pair.getAttributeValue("e2"));
 				Cooccurrence cooc = new Cooccurrence(jcas, minBegin(br1, br2),

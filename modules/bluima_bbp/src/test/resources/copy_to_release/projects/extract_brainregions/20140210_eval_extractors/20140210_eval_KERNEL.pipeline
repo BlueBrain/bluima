@@ -1,15 +1,6 @@
 
-cr: ch.epfl.bbp.uima.validation.CrossvalidationReader
- corpusName: WhiteTextConnections
- maxNrResults__java: 989
- slice__java: $1
- modeEval__java: true
+include: 20140210_eval.include
 
-
-# important, to remove cooc.gethasinteraction() = true (coming from WT corpus)
-ae: ch.epfl.bbp.uima.ae.relations.FilterInactiveCooccurrencesAnnotator
-ae: EvaluationPreprocessorAnnotator
- gold_annotation: ch.epfl.bbp.uima.types.Cooccurrence
 
 # PRE-PROC
 ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
@@ -21,14 +12,11 @@ ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
  enclosingScope: de.julielab.jules.types.Sentence
  annot1: ch.epfl.bbp.uima.types.BrainRegion
  annot2: ch.epfl.bbp.uima.types.BrainRegion
-
-# EVAL
 #ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
 
 # PREDICT (FILTER) & EVAL
 ae: ch.epfl.bbp.uima.jsre.JsreFilterAnnotator
  modelFile: $2
-print: JSRE_RESULT TRIAL $1
 ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
 
 

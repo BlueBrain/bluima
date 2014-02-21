@@ -41,8 +41,8 @@ public class TestEvaluator<T extends Annotation, U extends Annotation> {
 				sb.append("fn: " + expected.getCoveredText() + "\n");
 			}
 
-			System.out.println("XXX\t" + pmId + "\t" + expectedsCnt++ + "\t"
-					+ (_localFN ? "fn" : "ok\n"));
+//			System.out.println("XXX\t" + pmId + "\t" + expectedsCnt++ + "\t"
+//					+ (_localFN ? "fn" : "ok\n"));
 
 		}
 		int _falsePositives = 0;

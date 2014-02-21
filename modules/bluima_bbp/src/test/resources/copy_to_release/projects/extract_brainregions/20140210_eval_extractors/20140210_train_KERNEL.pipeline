@@ -21,4 +21,4 @@ ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
 ae: ch.epfl.bbp.uima.jsre.JsreTrainAnnotator
 
 # then copy model.zip in bluima_jsre
-# then hardcode the model path in JsreFilterAnnotator.java 
+# then set the model path in JsreFilterAnnotator.java 

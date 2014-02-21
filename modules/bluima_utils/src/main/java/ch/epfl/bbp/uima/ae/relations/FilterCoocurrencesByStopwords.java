@@ -24,39 +24,43 @@ import de.julielab.jules.types.Sentence;
 /**
  * Filters cooccurrences whose sentence contains stopwords, e.g. sentences
  * starting with 'Abbreviations:'. Improves precision at the cost of recall.
- * 
+ * NOTE: does not perform well
  * @author renaud.richardet@epfl.ch
  */
+@Deprecated // Does not work well
 @TypeCapability(inputs = COOCCURRENCE)
 public class FilterCoocurrencesByStopwords extends JCasAnnotator_ImplBase {
-    protected static Logger LOG = LoggerFactory
-            .getLogger(FilterCoocurrencesByStopwords.class);
+	protected static Logger LOG = LoggerFactory
+			.getLogger(FilterCoocurrencesByStopwords.class);
 
-    private static final Pattern ABBREV = compile("^Abbreviations.*",
-            CASE_INSENSITIVE);
+	private static final Pattern ABBREV = compile("^Abbreviations.*",
+			CASE_INSENSITIVE);
+	private static final Pattern STOPLIST = compile("ablations?|dissect|stimulati|"
+			+ "inject|examine|autograft|injure|lesion|transecti|severed|severing");
 
-    @Override
-    public void process(JCas jCas) throws AnalysisEngineProcessException {
+	@Override
+	public void process(JCas jCas) throws AnalysisEngineProcessException {
 
-        List<Cooccurrence> toRemove = newLinkedList();
+		List<Cooccurrence> toRemove = newLinkedList();
 
-        for (Entry<Sentence, Collection<Cooccurrence>> sentenceWithCooc : JCasUtil
-                .indexCovered(jCas, Sentence.class, Cooccurrence.class)
-                .entrySet()) {
+		for (Entry<Sentence, Collection<Cooccurrence>> sentenceWithCooc : JCasUtil
+				.indexCovered(jCas, Sentence.class, Cooccurrence.class)
+				.entrySet()) {
 
-            String sText = sentenceWithCooc.getKey().getCoveredText()
-                    .toLowerCase();
+			String sText = sentenceWithCooc.getKey().getCoveredText()
+					.toLowerCase();
 
-            if (ABBREV.matcher(sText).matches()) {
-                toRemove.addAll(sentenceWithCooc.getValue());
-            }
-        }
+			if (ABBREV.matcher(sText).matches()
+					| STOPLIST.matcher(sText).find()) {
+				toRemove.addAll(sentenceWithCooc.getValue());
+			}
+		}
 
-        // remove
-        Cooccurrence[] array = toRemove.toArray(new Cooccurrence[toRemove
-                .size()]);
-        for (int i = 0; i < array.length; i++) {
-            array[i].removeFromIndexes();
-        }
-    }
+		// remove
+		Cooccurrence[] array = toRemove.toArray(new Cooccurrence[toRemove
+				.size()]);
+		for (int i = 0; i < array.length; i++) {
+			array[i].removeFromIndexes();
+		}
+	}
 }

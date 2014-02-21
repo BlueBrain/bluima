@@ -26,7 +26,7 @@ import ch.epfl.bbp.io.TextFileWriter;
  * 
  * @author renaud.richardet@epfl.ch
  */
-@Ignore
+//@Ignore
 public class BamsOntologyTest {
 
     private BamsOntology bo;

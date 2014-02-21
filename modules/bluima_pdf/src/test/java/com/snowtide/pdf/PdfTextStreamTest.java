@@ -72,6 +72,29 @@ public class PdfTextStreamTest {
     }
 
     @Test
+    public void test_books() throws Exception {
+
+        for (File f : new File(
+                "/Volumes/HDD2/ren_data/data_hdd/_papers_etc/books/Neuroscience_curated")
+                .listFiles()) {
+
+            if (f.getName().endsWith("pdf")) {
+
+                PDFTextStream pdfts = new PDFTextStream(f);
+                StringBuilder text = new StringBuilder(1024);
+                pdfts.pipe(new OutputTarget(text));
+                pdfts.close();
+                // System.out.println(text);
+                String trim = text.toString().trim();
+                if (!trim.isEmpty()) {
+                    System.out.println(f.getName() + "\t"
+                            + trim.split("\\s+").length);
+                }
+            }
+        }
+    }
+
+    @Test
     public void testSubscripts() throws Exception {
 
         final Pattern SUBSCRIPTS = Pattern.compile("^[ \\d]{10,1000}$");

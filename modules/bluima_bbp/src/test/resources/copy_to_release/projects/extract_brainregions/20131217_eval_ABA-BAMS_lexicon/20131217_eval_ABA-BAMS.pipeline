@@ -14,9 +14,15 @@ ae: EvaluationPreprocessorAnnotator
 # TOGGLE HERE FOR THE RIGHT EVAL: aba|bams2013 and 0|-syn
 ################################################################
 #ABA
-#ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/aba-syn")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/aba")
 #BAMS
-ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2013-syn")
+#ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2013")
+#ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2004")
+
+#IMPORTANT!
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+
 
 # filter again, since original was moved to GOLD
 ae: FilterIfNotRodent
@@ -28,39 +34,37 @@ ae: EvaluationAnnotator
  gold_annotation: ch.epfl.bbp.uima.types.BrainRegion
  system_annotation: ch.epfl.bbp.uima.types.BrainRegionDictTerm
  verbose__java: false
-ae: EvaluationAnnotator
- gold_annotation: ch.epfl.bbp.uima.types.BrainRegion
- system_annotation: ch.epfl.bbp.uima.types.BrainRegionDictTerm
- evaluator: atLeastCovered
- verbose__java: false
+# ae: EvaluationAnnotator
+#  gold_annotation: ch.epfl.bbp.uima.types.BrainRegion
+#  system_annotation: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+#  evaluator: atLeastCovered
+#  verbose__java: false
 ae: EvaluationAnnotator
  gold_annotation: ch.epfl.bbp.uima.types.BrainRegion
  system_annotation: ch.epfl.bbp.uima.types.BrainRegionDictTerm
  evaluator: overlap
  verbose__java: false
 
-ae: StatsAnnotatorPlus
- printEvery__java: 30
 
 
 
 
-# ABA
-# 0.608   0.147   0.237
-# 0.615   0.148   0.239
-# 0.915   0.220   0.354
+# aba
+# 0.608 & 0.147 & 0.237
+# 0.915 & 0.220 & 0.354
 
-# ABA-SYN
-# 0.526   0.271   0.358
-# 0.531   0.274   0.361
-# 0.919   0.417   0.573
+# aba-syn
+# 0.598 & 0.271 & 0.373
+# 0.929 & 0.417 & 0.575
 
-# BAMS
-# 0.236   0.327   0.274
-# 0.244   0.333   0.281
-# 0.557   0.468   0.508
+# bams2013
+# 0.546 & 0.327 & 0.409
+# 0.790 & 0.468 & 0.588
 
-# BAMS-SYN
-# 0.138   0.364   0.201
-# 0.143   0.372   0.207
-# 0.424   0.526   0.469
+# bams2013-syn
+# 0.530 & 0.364 & 0.432
+# 0.775 & 0.526 & 0.626
+
+# bams2004
+# 0.581 & 0.193 & 0.290
+# 0.831 & 0.275 & 0.413

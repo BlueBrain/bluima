@@ -1,0 +1,46 @@
+# TestResult:
+#     precision:  0.275
+#     recall: 0.507
+#     F1: 0.357
+# TestResult:
+#     precision:  0.450
+#     recall: 0.360
+#     F1: 0.400
+# TestResult:
+#     precision:  0.444
+#     recall: 0.309
+#     F1: 0.364
+# TestResult:
+#     precision:  0.446
+#     recall: 0.307
+#     F1: 0.364
+
+cr: WhiteTextConnectionsCollectionReader
+ae: EvaluationPreprocessorAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.Cooccurrence
+
+
+# 1: base
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.BrainRegion
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+ keepOnlyNearestNeighbors__java: true
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+
+# 2: filter trigger
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesByTriggerword
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+# 3: FilterCoocurrencesIfTooManyBrainregions 7
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesIfTooManyEntities
+ maximumEntities__java: 7
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+
+# 4: sentence length
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
+ maximumEnclosingScopeLength__java: 500
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+

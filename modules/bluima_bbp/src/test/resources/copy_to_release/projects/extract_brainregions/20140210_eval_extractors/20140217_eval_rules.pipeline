@@ -1,8 +1,20 @@
+cr: WhiteTextConnectionsCollectionReader
 
-include: 20140210_eval.include
+ae: EvaluationPreprocessorAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.Cooccurrence
 
 
-# RUTA script takes BRDictTerm!
+
+// BR NER (done already in WT corpus)
+// sentences done already
+//ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+//ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("brainregions/aba-syn")
+//ae: DeduplicatorAnnotator
+// annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.BrainRegionDictTerm"}
+
+
+// RUTA
+// takes BRDictTerm!
 ae: CopyAnnotationsAnnotator
  from: ch.epfl.bbp.uima.types.BrainRegion
  to: ch.epfl.bbp.uima.types.BrainRegionDictTerm
@@ -11,7 +23,7 @@ ae: org.apache.uima.ruta.engine.RutaEngine
  scriptPaths: $ROOT/modules/bluima_regions/src/main/resources/ruta/
  resourcePaths: $ROOT/modules/bluima_regions/src/main/resources/lexicons/ 
 
-# post-process
+// post-process
 ae: KeepLargestAnnotationAnnotator
  annotationClass: ch.epfl.bbp.uima.types.BrainRegionChunk
 ae: KeepLargestAnnotationAnnotator
@@ -21,3 +33,7 @@ ae: PostprocessRutaEngine
 
 # EVAL
 ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator 
+
+
+# RESULTS:
+# Ruta rules (RUTA) & 0.740 & 0.029 &0.057

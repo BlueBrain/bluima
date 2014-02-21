@@ -26,8 +26,8 @@ public class WriteBamsConceptMapper {
         List<Concept> concepts = newArrayList();
         int i = 0;
         for (BrainPart br : bo.brainParts.values()) {
-            concepts.add(new Concept(br.getName(), i++, Sets.newHashSet(br
-                    .getName())));
+            concepts.add(new Concept(br.getName(), "bams:" + i++, Sets
+                    .newHashSet(br.getName())));
         }
         writeConceptFile(new File("target/bams.xml"), concepts);
     }
