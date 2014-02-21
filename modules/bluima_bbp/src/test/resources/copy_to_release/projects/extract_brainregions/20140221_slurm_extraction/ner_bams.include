@@ -1,0 +1,6 @@
+
+
+# BAMS
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("brainregions/bams2013")
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm

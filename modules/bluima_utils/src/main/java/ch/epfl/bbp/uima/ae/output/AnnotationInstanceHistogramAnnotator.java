@@ -22,7 +22,13 @@ import ch.epfl.bbp.Histogram;
 import ch.epfl.bbp.uima.typesystem.To;
 
 /**
- * Prints a histogram (counts) of all instances of a given {@link Annotation}.
+ * At the end of the pipeline, prints a histogram (counts) of all instances of a
+ * given {@link Annotation}. E.g.
+ * 
+ * <pre>
+ * hello: 123
+ * world: 4312
+ * </pre>
  * 
  * @author renaud.richardet@epfl.ch *
  */

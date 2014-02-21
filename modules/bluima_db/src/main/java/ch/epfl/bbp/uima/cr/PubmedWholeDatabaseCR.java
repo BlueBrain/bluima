@@ -37,8 +37,8 @@ public class PubmedWholeDatabaseCR extends JCasCollectionReader_ImplBase {
     protected int maxPubmedId;
     protected int currentBatchStart = 0, batchIncrement = 5000; // counters
 
-    @ConfigurationParameter(name = BlueUima.PARAM_DB_CONNECTION, //
-    defaultValue = { "128.178.187.248", "bb_pubmed", "bemyguest", "" },//
+    @ConfigurationParameter(name = BlueUima.PARAM_DB_CONNECTION, mandatory = false, //
+    defaultValue = { "128.178.187.160", "bb_pubmed", "bemyguest", "" },//
     // defaultValue = { "127.0.0.1", "bb_pubmed", "root", "" },//
     // warning: somehow "localhost" does not work...
     description = "host, dbname, user, pw")

@@ -1,0 +1,98 @@
+############################################
+#
+# labels BR with BAMS | ABA NERs
+# then, for each: find Cooccurrences with KERNEL & TOPDOWN & RULES
+# (writing the results to a different view, eventually to a file)
+# $ 1 batch id
+# $ 2 bams|aba
+# $ 3 output dir (must exist!)
+############################################
+
+
+# PRE-PROC ############################################
+ae: ch.epfl.bbp.uima.ae.EnsureDocTextNotNullAnnotator
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
+ae: BlueBioLemmatizer
+############################################
+
+
+
+# TOPDOWN ###########################################
+include: ner_$2.include
+# for martin
+ae: AnnotationInstanceHistogramAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ annotationField: entityId
+# CO_OCCS
+ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
+ annot1: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ annot2: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ keepOnlyNearestNeighbors__java: true
+# filter trigger
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesByTriggerword
+# TooManyBr 7
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesIfTooManyEntities
+ maximumEntities__java: 7
+# Sentence length
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
+ maximumEnclosingScopeLength__java: 500
+# COPY
+ae: CopyAnnotationsAnnotator2
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ toView: topdown
+ae: CopyAnnotationsAnnotator2
+ annotationClass: ch.epfl.bbp.uima.types.Cooccurrence
+ toView: topdown
+
+
+# KERNEL ###########################################
+include: ner_$2.include
+# CO_OCCS
+ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
+ annot1: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ annot2: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+# JSRE
+ae: ch.epfl.bbp.uima.jsre.JsreFilterAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.Cooccurrence
+# COPY
+ae: CopyAnnotationsAnnotator2
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ toView: kernel
+ae: CopyAnnotationsAnnotator2
+ annotationClass: ch.epfl.bbp.uima.types.Cooccurrence
+ toView: kernel
+
+
+# RULES  ###########################################
+include: ner_$2.include
+#ae: PrintAnnotationInSentenceWriter
+# annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ae: org.apache.uima.ruta.engine.RutaEngine
+ mainScript: Main
+ scriptPaths: $ROOT/modules/bluima_regions/src/main/resources/ruta/
+ resourcePaths: $ROOT/modules/bluima_regions/src/main/resources/lexicons/
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionChunk
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BRCooc
+#ae: PrintAnnotationInSentenceWriter
+# annotationClass: ch.epfl.bbp.uima.types.BrainRegionChunk
+ae: PostprocessRutaEngine
+# ae: KeepLargestAnnotationAnnotator
+#  annotationClass: ch.epfl.bbp.uima.types.Cooccurrence
+# COPY
+ae: CopyAnnotationsAnnotator2
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ toView: rules
+ae: CopyAnnotationsAnnotator2
+ annotationClass: ch.epfl.bbp.uima.types.Cooccurrence
+ toView: rules
+
+
+# WRITE OUT ###########################################
+ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile3
+ outputFile: $3/$2_$1_rels.txt

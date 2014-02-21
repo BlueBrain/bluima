@@ -1,0 +1,30 @@
+############################################
+#
+# $ 1 batch id
+# $ 2 bams|aba
+# $ 3 output dir
+# $ 4 from
+# $ 5 to
+############################################
+
+cr: PubmedDatabaseCR
+ # db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" }
+ between__java: new int[]{ $4, $5 }
+# between__java: new int[]{1000000,1005000}
+
+# CLUSTER
+#cr: PubmedDatabaseCR
+# between__java: new int[]{$1,$2}
+
+# ABSTRACTS
+#cr: PubmedWholeDatabaseCR
+# db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" }
+
+# FT
+#cr: ch.epfl.bbp.uima.mongo.MongoCollectionReader
+# db_connection__java: new String[]{  "128.178.187.248", "preprocessed_2", "20130327_preprocess_ft", "", ""}
+
+include: main.include
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 2000

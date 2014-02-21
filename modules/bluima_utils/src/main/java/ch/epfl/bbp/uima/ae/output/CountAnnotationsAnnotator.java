@@ -16,7 +16,8 @@ import ch.epfl.bbp.uima.BlueUima;
 
 /**
  * Counts the total amount of occurrences of some specified annotations
- * 
+ * @see AnnotationHistogramAnnotator
+ * @see AnnotationInstanceHistogramAnnotator
  * @author renaud.richardet@epfl.ch
  */
 public class CountAnnotationsAnnotator extends JCasAnnotator_ImplBase {

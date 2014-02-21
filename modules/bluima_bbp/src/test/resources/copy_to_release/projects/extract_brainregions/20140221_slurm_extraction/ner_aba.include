@@ -1,0 +1,6 @@
+
+
+# ABA-SYN
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/aba-syn")
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm

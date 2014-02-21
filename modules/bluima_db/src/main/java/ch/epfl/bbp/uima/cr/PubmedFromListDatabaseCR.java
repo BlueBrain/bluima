@@ -31,8 +31,8 @@ public class PubmedFromListDatabaseCR extends JCasCollectionReader_ImplBase {
     private ResultSet res;
     private Database db;
 
-    @ConfigurationParameter(name = BlueUima.PARAM_DB_CONNECTION, //
-    defaultValue = { "128.178.187.248", "bb_pubmed", "bemyguest", "" },//
+    @ConfigurationParameter(name = BlueUima.PARAM_DB_CONNECTION, mandatory = false, //
+    defaultValue = { "128.178.187.160", "bb_pubmed", "bemyguest", "" },//
     description = "host, dbname, user, pw")
     private String[] db_connection;
 

@@ -11,7 +11,13 @@ import org.apache.uima.jcas.tcas.Annotation;
 import ch.epfl.bbp.Histogram;
 
 /**
- * Prints a histogram of the counts of each {@link Annotation}.
+ * Prints a histogram of the counts of each {@link Annotation}. E.g.
+ * 
+ * <pre>
+ * ch.epfl.bbp.uima.types.BrainRegionDictTerm: 123
+ * ch.epfl.bbp.uima.types.Sex: 4312
+ * ch.epfl.bbp.uima.types.Rocknroll: 412
+ * </pre>
  * 
  * @author renaud.richardet@epfl.ch
  */

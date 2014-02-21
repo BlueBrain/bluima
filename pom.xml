@@ -90,7 +90,7 @@
 		<module>modules/bluima_references_classifier</module>
 		<module>modules/bluima_protein_concentrations</module>
 		<module>modules/bluima_bbp</module>
-		<module>modules/bluima_release</module>
+		<!-- <module>modules/bluima_release</module> -->
 		<!--  TODO bluima_integration_tests -->
 	</modules>
 

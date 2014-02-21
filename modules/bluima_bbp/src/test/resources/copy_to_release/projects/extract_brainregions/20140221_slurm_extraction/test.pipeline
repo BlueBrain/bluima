@@ -1,0 +1,25 @@
+############################################
+#
+#
+#
+############################################
+
+# TESTING
+cr: PubmedDatabaseCR
+ db_connection__java: new String[]{ "127.0.0.1", "bb_pubmed", "root", "" }
+ # between__java: new int[]{126,350}
+ between__java: new int[]{1000000,1002000}
+
+#cr: PubmedFromListDatabaseCR
+# #db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" }
+# ids__java: new int[]{ 10754508, 10754510 }
+
+#cr: TextArrayReader
+# input__java: new String[]{"Projection from the lateral part of the entorhinal area to the hippocampus and fascia dentata. Activation by morphine of a serotonergic pathway from periaqueductal gray to nucleus accumbens."}
+# input__java: new String[]{"Brain stem projections from the lateral hypothalamic area in the rat."}
+
+include: main.include
+
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

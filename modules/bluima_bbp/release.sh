@@ -13,14 +13,14 @@ mkdir "$RELEASE"/resources
 
 # install all bluima modules
 cd ../.. # project root
-$MAVEN clean install -P appassembler_release -Dmaven.test.skip=true -Dappassembler.resources=../blue_uima/"$RELEASE"/resources
+$MAVEN clean install -P appassembler_release -Dmaven.test.skip=true -Dappassembler.resources=../bluima_bbp/"$RELEASE"/resources
 rc=$?
 if [[ $rc != 0 ]] ; then
   echo 'could not build modules'; cd -; exit $rc
 fi
 cd -
 
-# package blue_uima module with appassembler
+# package bluima_bbp module with appassembler
 $MAVEN package appassembler:assemble -Dmaven.test.skip=true
 rc=$?
 if [[ $rc != 0 ]] ; then

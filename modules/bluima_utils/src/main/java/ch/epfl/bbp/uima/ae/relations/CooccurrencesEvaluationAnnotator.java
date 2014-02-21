@@ -32,73 +32,89 @@ import ch.epfl.bbp.uima.validation.TestEvaluator;
  */
 @TypeCapability(inputs = COOCCURRENCE)
 public class CooccurrencesEvaluationAnnotator extends JCasAnnotator_ImplBase {
-	// private static Logger LOG = LoggerFactory.getLogger(BartWriter.class);
+    // private static Logger LOG = LoggerFactory.getLogger(BartWriter.class);
 
-	private TestEvaluator<Annotation, Annotation> evaluator;
+    private TestEvaluator<Annotation, Annotation> evaluator;
 
-	@Override
-	public void initialize(UimaContext context)
-			throws ResourceInitializationException {
-		super.initialize(context);
-		evaluator = getEvaluator();
-	}
+    @Override
+    public void initialize(UimaContext context)
+            throws ResourceInitializationException {
+        super.initialize(context);
+        evaluator = getEvaluator();
+    }
 
-	@SuppressWarnings({ "unchecked", "rawtypes" })
-	@Override
-	public void process(JCas jCas) throws AnalysisEngineProcessException {
-		String pmId = BlueCasUtil.getHeaderDocId(jCas);
-		print("pmId " + pmId);
+    @SuppressWarnings({ "unchecked", "rawtypes" })
+    @Override
+    public void process(JCas jCas) throws AnalysisEngineProcessException {
+        String pmId = BlueCasUtil.getHeaderDocId(jCas);
+        print("pmId " + pmId);
 
-		JCas goldView, systemView;
-		try {
-			goldView = jCas.getView(VIEW_GOLD);
-			systemView = jCas.getView(VIEW_SYSTEM);
-		} catch (CASException e) {
-			throw new AnalysisEngineProcessException(e);
-		}
+        JCas goldView, systemView;
+        try {
+            goldView = jCas.getView(VIEW_GOLD);
+            systemView = jCas.getView(VIEW_SYSTEM);
+        } catch (CASException e) {
+            throw new AnalysisEngineProcessException(e);
+        }
 
-		Collection goldAnnot = select(goldView, Cooccurrence.class);
-		Collection systAnnot = select(systemView, Cooccurrence.class);
-		print("comparing #gold:" + goldAnnot.size() + " #sys:"
-				+ systAnnot.size());
+        Collection goldAnnot = select(goldView, Cooccurrence.class);
+        Collection systAnnot = select(systemView, Cooccurrence.class);
+        print("comparing #gold:" + goldAnnot.size() + " #sys:"
+                + systAnnot.size());
 
-		print(/* "pmId:"+pmId + "\t" + */evaluator
-				.add(goldAnnot, systAnnot, pmId));
-	}
+        print(/* "pmId:"+pmId + "\t" + */evaluator.add(goldAnnot, systAnnot,
+                pmId));
+    }
 
-	private static void print(String msg) {
-		System.out.println(msg);
-	}
+    private static void print(String msg) {
+        System.out.println(msg);
+    }
 
-	@Override
-	public void collectionProcessComplete()
-			throws AnalysisEngineProcessException {
-		super.collectionProcessComplete();
+    @Override
+    public void collectionProcessComplete()
+            throws AnalysisEngineProcessException {
+        super.collectionProcessComplete();
 
-		// print evaluation results
-		System.out.println(evaluator.compare());
-	}
+        // print evaluation results
+        System.out.println(evaluator.compare());
+    }
 
-	public static <A extends Annotation, B extends Annotation> TestEvaluator<A, B> getEvaluator() {
-		Comparator<A, B> simpleComparator = new Comparator<A, B>() {
-			@Override
-			public boolean areTheSame(A _gold, B _system) {
-				Cooccurrence gold = (Cooccurrence) _gold;
-				Cooccurrence system = (Cooccurrence) _system;
+    public static <A extends Annotation, B extends Annotation> TestEvaluator<A, B> getEvaluator() {
+        Comparator<A, B> simpleComparator = new Comparator<A, B>() {
+            @Override
+            public boolean areTheSame(A _gold, B _system) {
+                Cooccurrence gold = (Cooccurrence) _gold;
+                Cooccurrence system = (Cooccurrence) _system;
+                return CooccurrencesEvaluationAnnotator
+                        .areTheSame(gold, system);
+            }
+        };
+        return new TestEvaluator<A, B>(simpleComparator);
+    }
 
-				if ((haveSameBeginEnd(gold.getFirstEntity(),
-						system.getFirstEntity()) && //
-				haveSameBeginEnd(gold.getFirstEntity(), system.getFirstEntity()))
-						|| //
-						(haveSameBeginEnd(gold.getSecondEntity(),
-								system.getFirstEntity()) && //
-						haveSameBeginEnd(gold.getFirstEntity(),
-								system.getSecondEntity()))) {
-					return true;
-				}
-				return false;
-			}
-		};
-		return new TestEvaluator<A, B>(simpleComparator);
-	}
+    /**
+     * @return true if both {@link Cooccurrence#getFirstEntity()} and
+     *         {@link Cooccurrence#getSecondEntity()} have same begin/end in
+     *         gold and system
+     */
+    public static boolean areTheSame(Cooccurrence gold, Cooccurrence system) {
+        if ((haveSameBeginEnd(gold.getFirstEntity(), system.getFirstEntity()) && //
+                haveSameBeginEnd(gold.getFirstEntity(), system.getFirstEntity()))
+                || //
+                (haveSameBeginEnd(gold.getSecondEntity(),
+                        system.getFirstEntity()) && //
+                haveSameBeginEnd(gold.getFirstEntity(),
+                        system.getSecondEntity()))) {
+            return true;
+        }
+        return false;
+    }
+
+    public static java.util.Comparator<Cooccurrence> comp() {
+        return new java.util.Comparator<Cooccurrence>() {
+            public int compare(final Cooccurrence o1, final Cooccurrence o2) {
+                return areTheSame(o1, o2) ? 0 : 1;
+            }
+        };
+    }
 }

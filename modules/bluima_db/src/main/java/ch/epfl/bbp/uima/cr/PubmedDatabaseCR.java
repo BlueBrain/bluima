@@ -42,8 +42,8 @@ public class PubmedDatabaseCR extends JCasCollectionReader_ImplBase {
     "Skip PubMed articles that have no abstract", defaultValue = "true")
     private boolean skipEmptyDocs;
 
-    @ConfigurationParameter(name = PARAM_DB_CONNECTION, //
-    defaultValue = { "128.178.187.248", "bb_pubmed", "bemyguest", "" },//
+    @ConfigurationParameter(name = PARAM_DB_CONNECTION, mandatory = false,//
+    defaultValue = { "128.178.187.160", "bb_pubmed", "bemyguest", "" },//
     // defaultValue = { "127.0.0.1", "bb_pubmed", "root", "" },//
     // warning: somehow "localhost" does not work...
     description = "host, dbname, user, pw")

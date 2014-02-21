@@ -38,7 +38,7 @@ public class PrintAnnotationInSentenceWriter extends JCasAnnotator_ImplBase {
     description = "outputfile, or null for sysout")
     private String outputFile;
 
-    private boolean htmlOutput = true;
+    private boolean htmlOutput = false;
 
     @ConfigurationParameter(name = PARAM_ANNOTATION_CLASS, //
     mandatory = true, description = "the full name of the annotation class")
