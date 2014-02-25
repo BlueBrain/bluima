@@ -17,7 +17,9 @@ ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
 ae: BlueBioLemmatizer
 ############################################
 
-
+# SERIALIZATION
+ae: ch.epfl.bbp.uima.ae.serialization.BinaryCasWriter
+ outputDir: /nfs4/bbp.epfl.ch/simulation/nlp/data/20140225_ft_ns_preprocessed/
 
 # TOPDOWN ###########################################
 include: ner_$2.include
