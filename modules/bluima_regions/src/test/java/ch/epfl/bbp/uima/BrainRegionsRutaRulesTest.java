@@ -32,66 +32,74 @@ import ch.epfl.bbp.uima.types.Cooccurrence;
 import ch.epfl.bbp.uima.typesystem.To;
 
 public class BrainRegionsRutaRulesTest {
-	private static Logger LOG = getLogger(BrainRegionsRutaRulesTest.class);
+    private static Logger LOG = getLogger(BrainRegionsRutaRulesTest.class);
 
-	@Test
-	public void testChunks() throws Exception {
+    @Test
+    public void testChunks() throws Exception {
 
-		JCas jCas = run("the brainstem, subthalamic nucleus and pedunculopontine tegmental nucleus.");
+        JCas jCas = run("the brainstem, subthalamic nucleus and pedunculopontine tegmental nucleus.");
 
-		assertContains(jCas, BrainRegionDictTerm.class, 3);
-		assertContains(jCas, BrainRegionChunk.class, 1);
-		assertContains(jCas, Cooccurrence.class, 0);
-	}
+        assertContains(jCas, BrainRegionDictTerm.class, 3);
+        assertContains(jCas, BrainRegionChunk.class, 1);
+        assertContains(jCas, Cooccurrence.class, 0);
+    }
 
-	@Test
-	public void testCoocs() throws Exception {
+    @Test
+    public void testCoocs() throws Exception {
 
-		JCas jCas = run("Magnocellular nucleus of the thalamus projection to neocortex, brainstem and olfactory bulb.");
+        JCas jCas = run("Magnocellular nucleus of the thalamus projection to neocortex, brainstem and olfactory bulb.");
 
-		assertContains(jCas, BrainRegionDictTerm.class, 5);
-		assertContains(jCas, BrainRegionChunk.class, 2);
-		assertContains(jCas, Cooccurrence.class, 6);
-	}
+        assertContains(jCas, BrainRegionDictTerm.class, 5);
+        assertContains(jCas, BrainRegionChunk.class, 2);
+        assertContains(jCas, Cooccurrence.class, 6);
+    }
 
-	private JCas run(String txt) throws AnalysisEngineProcessException,
-			ResourceInitializationException, UIMAException, IOException,
-			SAXException {
+    @Test
+    public void testNot() throws Exception {
 
-		JCas jCas = getTestCas(txt);
-		runPipeline(
-				jCas,
-				// tokenize
-				createEngine(getSentenceSplitter()), //
-				createEngine(getTokenizer()),//
+        JCas jCas = run("Because the olfactory bulb does not project to the thalamus, blah.");
+        assertContains(jCas, BrainRegionChunk.class, 2);
+        assertContains(jCas, Cooccurrence.class, 0);
+    }
 
-				// BR NER
-				createEngine(getConceptMapper("brainregions/aba-syn")),//
-				
-				createEngine(DeduplicatorAnnotator.class,
-						PARAM_ANNOTATION_CLASSES,
-						BrainRegionDictTerm.class.getName()),//
+    private JCas run(String txt) throws AnalysisEngineProcessException,
+            ResourceInitializationException, UIMAException, IOException,
+            SAXException {
 
-				// RUTA
-				createEngine(BrainRegionsHelper.getBrainregionRules()),//
+        JCas jCas = getTestCas(txt);
+        runPipeline(
+                jCas,
+                // tokenize
+                createEngine(getSentenceSplitter()), //
+                createEngine(getTokenizer()),//
 
-				// post-process
-				createEngine(KeepLargestAnnotationAnnotator.class,
-						PARAM_ANNOTATION_CLASS,
-						BrainRegionChunk.class.getName()),
-				createEngine(KeepLargestAnnotationAnnotator.class,
-						PARAM_ANNOTATION_CLASS, BRCooc.class.getName()),
-				createEngine(PostprocessRutaEngine.class));
+                // BR NER
+                createEngine(getConceptMapper("brainregions/aba-syn")),//
 
-		for (BrainRegionDictTerm b : select(jCas, BrainRegionDictTerm.class)) {
-			LOG.debug(To.string(b));
-		}
-		for (BrainRegionChunk c : select(jCas, BrainRegionChunk.class)) {
-			LOG.debug(To.string(c));
-		}
-		for (Cooccurrence c : select(jCas, Cooccurrence.class)) {
-			LOG.debug(To.string(c));
-		}
-		return jCas;
-	}
+                createEngine(DeduplicatorAnnotator.class,
+                        PARAM_ANNOTATION_CLASSES,
+                        BrainRegionDictTerm.class.getName()),//
+
+                // RUTA
+                createEngine(BrainRegionsHelper.getBrainregionRules()),//
+
+                // post-process
+                createEngine(KeepLargestAnnotationAnnotator.class,
+                        PARAM_ANNOTATION_CLASS,
+                        BrainRegionChunk.class.getName()),
+                createEngine(KeepLargestAnnotationAnnotator.class,
+                        PARAM_ANNOTATION_CLASS, BRCooc.class.getName()),
+                createEngine(PostprocessRutaEngine.class));
+
+        for (BrainRegionDictTerm b : select(jCas, BrainRegionDictTerm.class)) {
+            LOG.debug(To.string(b));
+        }
+        for (BrainRegionChunk c : select(jCas, BrainRegionChunk.class)) {
+            LOG.debug(To.string(c));
+        }
+        for (Cooccurrence c : select(jCas, Cooccurrence.class)) {
+            LOG.debug(To.string(c));
+        }
+        return jCas;
+    }
 }

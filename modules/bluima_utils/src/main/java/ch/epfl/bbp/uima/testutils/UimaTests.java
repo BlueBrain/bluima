@@ -199,7 +199,7 @@ public class UimaTests {
 		if (expectedCnt == 0) {
 			checkArgument(
 					!exists(jCas, annot),
-					"assertContains %s annotations of type %s, but found none ",
+					"assertContains %s annotations of type %s, but found some ",
 					expectedCnt, annot.getSimpleName());
 		} else {
 			checkEquals(

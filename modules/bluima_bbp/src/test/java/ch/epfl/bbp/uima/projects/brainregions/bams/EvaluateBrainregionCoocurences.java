@@ -2,6 +2,7 @@ package ch.epfl.bbp.uima.projects.brainregions.bams;
 
 import static ch.epfl.bbp.uima.BlueUimaHelper.PROJECTS_ROOT;
 import static ch.epfl.bbp.uima.laucher.PipelineScriptParser.parse;
+import static org.apache.commons.io.FileUtils.copyFile;
 import static org.python.google.common.collect.Lists.newArrayList;
 import static org.slf4j.LoggerFactory.getLogger;
 
@@ -13,37 +14,46 @@ import org.slf4j.Logger;
 import ch.epfl.bbp.uima.RunPipeline;
 
 /**
- * Cross-validation of SLK,
+ * Cross-validation of the 3 extractors. Need to run
+ * 20140210_dump_corpus.pipeline first
  * 
  * @author renaud.richardet@epfl.ch
  */
 public class EvaluateBrainregionCoocurences {
 
-	private static Logger LOG = getLogger(RunPipeline.class);
+    private static Logger LOG = getLogger(RunPipeline.class);
 
-	public static void main(String[] a) {
+    public static void main(String[] a) throws Exception {
 
-		String root = PROJECTS_ROOT
-				+ "/extract_brainregions/20140210_eval_extractors/20140210_";
+        String root = PROJECTS_ROOT
+                + "/extract_brainregions/20140210_eval_extractors/20140210_";
 
-		for (int fold = 1; fold <= 10; fold++) {
+        parse(new File(root + "dump_corpus.pipeline")).run();
 
-			System.out.println("XXX\tFOLD\t" + fold + "");
-			try {
+        for (int fold = 1; fold < 10; fold++) {
+            System.out.println("XXX\tFOLD\t" + fold + "");
+            try {
 
-				List<String> args = newArrayList("" + fold, "target/model.zip");
-				System.out.println("XXX\tRULES\t" + fold + "");
-				parse(new File(root + "eval_RULES.pipeline"), args).run();
-				System.out.println("XXX\tTOPDOWN\t" + fold + "");
-				parse(new File(root + "eval_TOPDOWN.pipeline"), args).run();
+                String modelName = "model_" + fold + ".zip";
+                List<String> args = newArrayList("" + fold, modelName);
 
-				parse(new File(root + "train_KERNEL.pipeline"), args).run();
-				System.out.println("XXX\tKERNEL\t" + fold + "");
-				parse(new File(root + "eval_KERNEL.pipeline"), args).run();
+                System.out.println("XXX\tRULES\t" + fold + "");
+                parse(new File(root + "eval_RULES.pipeline"), args).run();
 
-			} catch (Exception e1) {
-				LOG.error("", e1);
-			}
-		}
-	}
+                System.out.println("XXX\tTOPDOWN\t" + fold + "");
+                parse(new File(root + "eval_TOPDOWN.pipeline"), args).run();
+
+                // train KERNEL
+                parse(new File(root + "train_KERNEL.pipeline"), args).run();
+                // copy model
+                copyFile(new File("target/model.zip"), new File(modelName));
+                // eval KERNEL
+                System.out.println("XXX\tKERNEL\t" + fold + "");
+                parse(new File(root + "eval_KERNEL.pipeline"), args).run();
+
+            } catch (Exception e1) {
+                LOG.error("", e1);
+            }
+        }
+    }
 }

@@ -1,18 +1,18 @@
 PACKAGE ch.epfl.bbp.uima.types;
 
 
-//// BEGIN workbench-only ///////////////////////////////////////////////////////////////////////////////////////
-//DECLARE BrainRegionDictTerm, BRCooc, BrainRegionChunk;
-//// mark ABA regions
-//WORDLIST aba = 'aba.txt';
-//Document{-> MARKFAST(BrainRegionDictTerm, aba, true)};
-//// END workbench-only //////////////////////////////////////////////////////////////////////////////////////////
+// // BEGIN workbench-only ///////////////////////////////////////////////////////////////////////////////////////
+// DECLARE BrainRegionDictTerm, BRCooc, BrainRegionChunk;
+// // mark ABA regions
+// WORDLIST aba = 'aba.txt';
+// Document{-> MARKFAST(BrainRegionDictTerm, aba, true)};
+// DECLARE  Abrev, Direction, Projection;
+// // END workbench-only //////////////////////////////////////////////////////////////////////////////////////////
 
 
 ////////////////////////////////////////////////////////////////
 // CLEANUP BrainRegionDictTerm
 ////////////////////////////////////////////////////////////////
-//DECLARE  Abrev, Direction, Projection;
 // glob Abrev
 ("(" W{REGEXP("[A-Z]{2,5}")} ")"){ -> MARK(Abrev)};
 BrainRegionDictTerm{-> SHIFT(BrainRegionDictTerm, 1, 2)} Abrev;
@@ -50,6 +50,8 @@ STRING fromto = "from|of|to";
 (BrainRegionChunk W[0,4]? Projection W{REGEXP(fromto)}){-> MARK(BRCooc, 1, 2)} BrainRegionChunk;
 // projection from X to Y
 (Projection "from" BrainRegionChunk "to" ){-> MARK(BRCooc, 1, 2)} BrainRegionChunk;
+// projection between X and Y TODO and gets globbed into a chunk
+//(Projection "between" BrainRegionChunk "and" ){-> MARK(BRCooc, 1, 2)} BrainRegionChunk;
 // projection of X with Y
 (Projection "of" BrainRegionChunk "with" ){-> MARK(BRCooc, 1, 2)} BrainRegionChunk;
 // projection a a a a X to Y
@@ -62,3 +64,6 @@ BrainRegionChunk {-> MARK(BRCooc, 1, 2)} (W[0,3]? Projection W{REGEXP(fromto)} B
 (BrainRegionChunk "afferents" W{REGEXP(fromto)}) {-> MARK(BRCooc, 1, 2)} BrainRegionChunk;
 // X, which a a projections to Y
 (BrainRegionChunk COMMA? "which" W[0,4]? Projection "to") {-> MARK(BRCooc, 1, 2)} BrainRegionChunk;
+
+// removes cooc if 'not' present
+BRCooc{REGEXP(".* not.*") ->UNMARK(BRCooc)};

@@ -67,7 +67,7 @@ public class CooccurrencesEvaluationAnnotator extends JCasAnnotator_ImplBase {
     }
 
     private static void print(String msg) {
-        System.out.println(msg);
+       // System.out.println(msg);
     }
 
     @Override

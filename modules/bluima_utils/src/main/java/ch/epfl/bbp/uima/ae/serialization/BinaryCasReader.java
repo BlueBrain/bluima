@@ -5,12 +5,14 @@ import static org.apache.uima.cas.impl.Serialization.deserializeCAS;
 
 import java.io.File;
 import java.io.FileInputStream;
-import java.io.FileNotFoundException;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.ObjectInputStream;
 import java.util.zip.GZIPInputStream;
 
 import org.apache.uima.UimaContext;
+import org.apache.uima.cas.impl.CASMgrSerializer;
+import org.apache.uima.cas.impl.TypeSystemImpl;
 import org.apache.uima.collection.CollectionException;
 import org.apache.uima.fit.descriptor.TypeCapability;
 import org.apache.uima.jcas.JCas;
@@ -35,29 +37,37 @@ import ch.epfl.bbp.uima.utils.StructuredDirectory;
 @TypeCapability(outputs = HEADER)
 public class BinaryCasReader extends AbstractFileReader {
 
-	@Override
-	public void initialize(UimaContext context)
-			throws ResourceInitializationException {
-		fileExtensionFilter = "gz"; // overwrite
-		isRecursive = true;// overwrite
-		super.initialize(context);
-	}
+    @Override
+    public void initialize(UimaContext context)
+            throws ResourceInitializationException {
+        fileExtensionFilter = "gz"; // overwrite
+        isRecursive = true;// overwrite
+        super.initialize(context);
+    }
 
-	@Override
-	public void getNext(JCas jCas) throws IOException, CollectionException {
-		File file = fileIterator.next();
-		try {
-			deserialize(file, jCas);
-		} catch (Exception e) {
-			LOG.error(
-					"could not read serialized cas at "
-							+ file.getAbsolutePath(), e);
-		}
-	}
-	public static void deserialize(File file, JCas jCas)
-			throws FileNotFoundException, IOException {
-		InputStream ois = new GZIPInputStream(new FileInputStream(file));
-		deserializeCAS(jCas.getCas(), ois);// , TypeSystem.JULIE_TSD,null);
-		ois.close();
-	}
+    @Override
+    public void getNext(JCas jCas) throws IOException, CollectionException {
+        File file = fileIterator.next();
+        try {
+            deserialize(file, jCas);
+        } catch (Exception e) {
+            LOG.error(
+                    "could not read serialized cas at "
+                            + file.getAbsolutePath(), e);
+        }
+    }
+
+    public static void deserialize(File file, JCas jCas) throws IOException,
+            ClassNotFoundException, ResourceInitializationException {
+        InputStream dis = new GZIPInputStream(new FileInputStream(file));
+        TypeSystemImpl ts = null;
+
+        ObjectInputStream ois = new ObjectInputStream(dis);
+        CASMgrSerializer casMgrSerializer = (CASMgrSerializer) ois.readObject();
+        ts = casMgrSerializer.getTypeSystem();
+        ts.commit();
+
+        deserializeCAS(jCas.getCas(), dis, ts, null);
+        dis.close();
+    }
 }
