@@ -20,6 +20,6 @@ cd /nfs4/bbp.epfl.ch/user/richarde/dev/bluebrain/bluima_20140221
 
 ./bin/run_pipeline pipelines/projects/extract_brainregions/20140221_slurm_extraction/abstracts.pipeline \
 %(job_id)s %(ner)s \
-/nfs4/bbp.epfl.ch/simulation/nlp/data/20140221_br_rels %(from_id)s %(to_id)s
+/nfs4/bbp.epfl.ch/simulation/nlp/data/20140221_br_rels_abstracts %(from_id)s %(to_id)s
 
 

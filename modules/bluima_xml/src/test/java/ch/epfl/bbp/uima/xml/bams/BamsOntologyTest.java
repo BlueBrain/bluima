@@ -20,13 +20,13 @@ import ch.epfl.bbp.MapUtils;
 import ch.epfl.bbp.io.TextFileWriter;
 
 /**
- * 
+ *
  * Scripts for initial descriptive analysis of BAMS ontology. See wiki for
  * results.
- * 
+ *
  * @author renaud.richardet@epfl.ch
  */
-//@Ignore
+@Ignore
 public class BamsOntologyTest {
 
     private BamsOntology bo;

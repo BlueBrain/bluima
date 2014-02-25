@@ -22,9 +22,13 @@ ae: BlueBioLemmatizer
 # TOPDOWN ###########################################
 include: ner_$2.include
 # for martin
-ae: AnnotationInstanceHistogramAnnotator
+#ae: AnnotationInstanceHistogramAnnotator
+# annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+# annotationField: entityId
+ae: ch.epfl.bbp.uima.ae.output.AnnotationTypeWriter2
  annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
- annotationField: entityId
+ featureName: entityId
+ outputFile: $3/$2_$1_entities.tsv
 # CO_OCCS
 ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
  annot1: ch.epfl.bbp.uima.types.BrainRegionDictTerm
@@ -95,4 +99,4 @@ ae: CopyAnnotationsAnnotator2
 
 # WRITE OUT ###########################################
 ae: ch.epfl.bbp.uima.ae.relations.WriteCoocurrencesToLoadfile3
- outputFile: $3/$2_$1_rels.txt
+ outputFile: $3/$2_$1_rels.tsv
