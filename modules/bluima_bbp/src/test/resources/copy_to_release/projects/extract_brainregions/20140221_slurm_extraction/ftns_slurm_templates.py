@@ -7,18 +7,18 @@ def template(template_file, out_file,vars):
 
 
 for i in range(0,2067):
-  output_name = 'abstracts_output_templates/bams_slurm%i.sh' % i
+  output_name = 'ftns_output_templates/bams_slurm%i.sh' % i
   print 'sbatch %s' % output_name
-  template('abstracts_template.sh', output_name, {
+  template('ftns_template.sh', output_name, {
     'job_id': '%i' % i,
     'ner': 'bams'
   })
 
 
 for i in range(0,2067):
-  output_name = 'abstracts_output_templates/aba_slurm%i.sh' % i
+  output_name = 'ftns_output_templates/aba_slurm%i.sh' % i
   print 'sbatch %s' % output_name
-  template('abstracts_template.sh', output_name, {
+  template('ftns_template.sh', output_name, {
     'job_id': '%i' % i,
     'ner': 'aba'
   })
