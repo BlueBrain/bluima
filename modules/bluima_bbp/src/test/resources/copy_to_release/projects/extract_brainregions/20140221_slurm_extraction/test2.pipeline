@@ -1,0 +1,19 @@
+############################################
+#
+#
+#
+############################################
+
+# TESTING
+cr: PubmedDatabaseCR
+ db_connection__java: new String[]{ "127.0.0.1", "bb_pubmed", "root", "" }
+ # between__java: new int[]{126,350}
+ between__java: new int[]{1000000,1002000}
+
+
+
+include: main.include
+
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

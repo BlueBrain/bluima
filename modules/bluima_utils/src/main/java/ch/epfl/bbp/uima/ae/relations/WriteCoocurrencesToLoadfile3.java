@@ -3,16 +3,15 @@ package ch.epfl.bbp.uima.ae.relations;
 import static ch.epfl.bbp.uima.BlueCasUtil.getHeaderIntDocId;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_OUTPUT_FILE;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_VERBOSE;
-import static ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator.comp;
+import static ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator.contains;
 import static com.google.common.collect.Lists.newArrayList;
-import static com.google.common.collect.Sets.newTreeSet;
-import static com.google.common.collect.Sets.union;
+import static com.google.common.collect.Lists.newLinkedList;
 import static org.apache.uima.fit.util.JCasUtil.select;
 
 import java.io.File;
 import java.io.IOException;
+import java.util.Collection;
 import java.util.List;
-import java.util.Set;
 
 import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
@@ -80,15 +79,15 @@ public class WriteCoocurrencesToLoadfile3 extends JCasAnnotator_ImplBase {
         int pmId = getHeaderIntDocId(jCas);
 
         try {
+            // REM: inefficient, but make it right...
             JCas view1 = jCas.getView(VIEW1), view2 = jCas.getView(VIEW2), view3 = jCas
                     .getView(VIEW3);
-
-            final Set<Cooccurrence> first = newTreeSet(comp());
-            first.addAll(select(view1, Cooccurrence.class));
-            final Set<Cooccurrence> second = newTreeSet(comp());
-            second.addAll(select(view2, Cooccurrence.class));
-            final Set<Cooccurrence> third = newTreeSet(comp());
-            third.addAll(select(view3, Cooccurrence.class));
+            final Collection<Cooccurrence> first = select(view1,
+                    Cooccurrence.class);
+            final Collection<Cooccurrence> second = select(view2,
+                    Cooccurrence.class);
+            final Collection<Cooccurrence> third = select(view3,
+                    Cooccurrence.class);
 
             if (DEBUG) {
                 System.out.println(pmId + " FIRST::");
@@ -102,9 +101,20 @@ public class WriteCoocurrencesToLoadfile3 extends JCasAnnotator_ImplBase {
                     Prin.t(c);
             }
 
-            for (Cooccurrence c : union(first, union(third, second))) {
-                write(jCas, pmId, c, first.contains(c), second.contains(c),
-                        third.contains(c));
+            final Collection<Cooccurrence> union = newLinkedList();
+            for (Cooccurrence c : first)
+                if (!contains(union, c))
+                    union.add(c);
+            for (Cooccurrence c : second)
+                if (!contains(union, c))
+                    union.add(c);
+            for (Cooccurrence c : third)
+                if (!contains(union, c))
+                    union.add(c);
+
+            for (Cooccurrence c : union) {
+                write(jCas, pmId, c, contains(first, c), contains(second, c),
+                        contains(third, c));
             }
         } catch (Exception e) {
             LOG.error("something went wrong with " + pmId, e);

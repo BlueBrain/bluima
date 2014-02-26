@@ -8,18 +8,18 @@
 #SBATCH --partition=batch
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=renaud.richardet@gmail.com
-#SBATCH --output=/nfs4/bbp.epfl.ch/user/richarde/slurm_logs/20140221/ft_%(ner)s%(job_id)s-stdout.log
-#SBATCH --error=/nfs4/bbp.epfl.ch/user/richarde/slurm_logs/20140221/ft_%(ner)s%(job_id)s-stdout.log
+#SBATCH --output=/nfs4/bbp.epfl.ch/user/richarde/slurm_logs/20140226/ft_%(ner)s%(job_id)s-stdout.log
+#SBATCH --error=/nfs4/bbp.epfl.ch/user/richarde/slurm_logs/20140226/ft_%(ner)s%(job_id)s-stdout.log
 
 krenew -b -K 30
 export LANG=en_US.UTF-8
 
 echo "%(job_id)s -- %(ner)s: started"
 
-cd /nfs4/bbp.epfl.ch/user/richarde/dev/bluebrain/bluima_20140221
+cd /nfs4/bbp.epfl.ch/user/richarde/dev/bluebrain/bluima_20140226
 
 ./bin/run_pipeline pipelines/projects/extract_brainregions/20140221_slurm_extraction/ftns.pipeline \
 %(job_id)s %(ner)s \
-/nfs4/bbp.epfl.ch/simulation/nlp/data/20140221_br_rels_ftns
+/nfs4/bbp.epfl.ch/simulation/nlp/data/20140226_br_rels_ftns
 
 
