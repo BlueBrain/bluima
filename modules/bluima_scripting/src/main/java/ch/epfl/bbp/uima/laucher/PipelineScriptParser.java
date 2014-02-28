@@ -92,7 +92,8 @@ public class PipelineScriptParser {
                 scriptFile.getParentFile(), replacementVars);
 
         // verify pipeline not empty
-        // if (pipeline.cr == null)
+        if (pipeline.crd == null)
+            LOG.warn("no CollectionReader defined in this pipeline");
         // throw new ParseException(
         // "no collection reader defined in this pipeline script", -1);
         if (pipeline.aeds.isEmpty())

@@ -125,6 +125,8 @@ public class StatusCallbackListenerSlf4J implements StatusCallbackListener {
 
     public void aborted() {
         LOG.info("[{}] aborted", getName());
+        // forcing program to quit, otherwise hangs forever...
+        System.exit(17);
     }
 
     /**

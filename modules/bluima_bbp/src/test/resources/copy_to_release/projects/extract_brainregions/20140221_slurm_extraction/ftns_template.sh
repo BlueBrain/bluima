@@ -9,7 +9,7 @@
 #SBATCH --mail-type=ALL
 #SBATCH --mail-user=renaud.richardet@gmail.com
 #SBATCH --output=/nfs4/bbp.epfl.ch/user/richarde/slurm_logs/20140226/ft_%(ner)s%(job_id)s-stdout.log
-#SBATCH --error=/nfs4/bbp.epfl.ch/user/richarde/slurm_logs/20140226/ft_%(ner)s%(job_id)s-stdout.log
+#SBATCH --error=/nfs4/bbp.epfl.ch/user/richarde/slurm_logs/20140226/ft_%(ner)s%(job_id)s-sterr.log
 
 krenew -b -K 30
 export LANG=en_US.UTF-8
