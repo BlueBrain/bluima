@@ -22,7 +22,15 @@ public class GlyphCorrector {
     private final FontFamilySet standardNonUnicodeFontFamilySet;
     private final FontFamilySet nonStandardFontFamilySet;
 
-    public GlyphCorrector() {
+    private static GlyphCorrector singleton = null;
+
+    public static GlyphCorrector singleton() {
+        if (singleton == null)
+            singleton = new GlyphCorrector();
+        return singleton;
+    }
+
+    private GlyphCorrector() {
 
         createNameToCodePointMap();
 
@@ -34,10 +42,10 @@ public class GlyphCorrector {
                 .readFontFamilySet(FontFamilySet.NON_STANDARD_FONT_FAMILY_SET_XML);
     }
 
-   // public AMIFontFamily get(String fontFamily) {
-        public NonStandardFontFamily get(String fontFamily) {
+    // public AMIFontFamily get(String fontFamily) {
+    public NonStandardFontFamily get(String fontFamily) {
 
-         NonStandardFontFamily f = standardUnicodeFontFamilySet
+        NonStandardFontFamily f = standardUnicodeFontFamilySet
                 .getFontFamilyByName(fontFamily);
         if (f != null)
             return f;

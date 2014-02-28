@@ -9,11 +9,9 @@ import org.xmlcml.pdf2svg.GlyphCorrector;
 
 public class GlyphCorrectorTest {
 
-    static GlyphCorrector gc = new GlyphCorrector();
-
     @Test
     public void testArial() {
-        assertNotNull(gc.get("Arial"));
+        assertNotNull(GlyphCorrector.singleton().get("Arial"));
     }
 
     // font wrong code wrong name right code right name pmid
@@ -22,16 +20,18 @@ public class GlyphCorrectorTest {
     public void testOneQuarter() {
         int oneQuarter = 0x00BC; // http://codepoints.net/U+00BC
         int equalSign = 0x003D;
-        assertEquals(equalSign,
-                gc.codePointConversion("AdvP4C4E74", oneQuarter));
+        assertEquals(
+                equalSign,
+                GlyphCorrector.singleton().codePointConversion("AdvP4C4E74",
+                        oneQuarter));
     }
 
     @Test
     public void testLambda() {
         int lambdaCharpoint = (int) 'λ';
         int lCharpoint = (int) 'l';
-        assertEquals(lambdaCharpoint,
-                gc.codePointConversion("AdvTT3f84ef53", lCharpoint));
+        assertEquals(lambdaCharpoint, GlyphCorrector.singleton()
+                .codePointConversion("AdvTT3f84ef53", lCharpoint));
     }
 
     @Test
@@ -40,7 +40,7 @@ public class GlyphCorrectorTest {
     public void testSix() {
         int lambdaCharpoint = (int) '±';
         int lCharpoint = (int) '6';
-        assertEquals(lambdaCharpoint,
-                gc.codePointConversion("Universal-GreekwithMathPi", lCharpoint));
+        assertEquals(lambdaCharpoint, GlyphCorrector.singleton()
+                .codePointConversion("Universal-GreekwithMathPi", lCharpoint));
     }
 }

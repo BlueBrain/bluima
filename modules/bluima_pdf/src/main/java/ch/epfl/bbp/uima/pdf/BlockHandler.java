@@ -26,7 +26,7 @@ import com.snowtide.pdf.layout.TextUnitImpl;
 public class BlockHandler extends OutputHandler {
 
     /** corrects glyph extraction, esp. important for greek letters */
-    private final GlyphCorrector glyphCorrector = new GlyphCorrector();
+    private final GlyphCorrector glyphCorrector = GlyphCorrector.singleton();
 
     private BDocument doc = new BDocument();
 
@@ -96,7 +96,7 @@ public class BlockHandler extends OutputHandler {
         SpacingOutputTarget oh = new SpacingOutputTarget(sb, glyphCorrector);
         try {
             l.pipe(oh);
-            
+
         } catch (IOException e) {
             e.printStackTrace();
         }
