@@ -13,6 +13,7 @@ ae: EvaluationPreprocessorAnnotator
 // annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.BrainRegionDictTerm"}
 
 
+
 // RUTA
 // takes BRDictTerm!
 ae: CopyAnnotationsAnnotator
@@ -30,10 +31,16 @@ ae: KeepLargestAnnotationAnnotator
  annotationClass: ch.epfl.bbp.uima.types.BRCooc
 ae: PostprocessRutaEngine
 
+#ae: ch.epfl.bbp.uima.ae.output.CountAnnotationsAnnotator
+# annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+#ae: ch.epfl.bbp.uima.ae.output.CountAnnotationsAnnotator
+# annotationClass: ch.epfl.bbp.uima.types.BrainRegionChunk
+
+
 
 # EVAL
 ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator 
 
 
 # RESULTS:
-# Ruta rules (RUTA) & 0.740 & 0.029 &0.057
+# Ruta rules (RUTA) & 0.740 & 0.129 &0.057

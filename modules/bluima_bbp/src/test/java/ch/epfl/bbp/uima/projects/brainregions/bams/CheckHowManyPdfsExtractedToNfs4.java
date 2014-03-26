@@ -3,8 +3,10 @@ package ch.epfl.bbp.uima.projects.brainregions.bams;
 import static ch.epfl.bbp.MissingUtils.printf;
 
 import java.io.File;
+import java.io.IOException;
 
 import ch.epfl.bbp.io.LineReader;
+import ch.epfl.bbp.io.TextFileWriter;
 import ch.epfl.bbp.uima.utils.StructuredDirectory;
 
 /**
@@ -16,7 +18,7 @@ import ch.epfl.bbp.uima.utils.StructuredDirectory;
  */
 public class CheckHowManyPdfsExtractedToNfs4 {
 
-    public static void main(String[] args) throws Exception {
+    public static void main2(String[] args) throws Exception {
 
         // list of all pmIds from "The Journal of comparative neurology"'s pdfs
         // that have been successfully crawled
@@ -36,5 +38,20 @@ public class CheckHowManyPdfsExtractedToNfs4 {
         }
         printf("total {} exists {}", total, exists);
         // total 5554 exists 3624
+    }
+
+    public static void main(String[] args) throws Exception {
+
+        TextFileWriter w = new TextFileWriter(
+                "target/20140226_ft_ns_preprocessed.ids.txt");
+
+        for (int pmId = 1; pmId < 25000000; pmId++) {
+            String path = "/Volumes/simulation/nlp/data/20140226_ft_ns_preprocessed/"
+                    + StructuredDirectory.getFilePath(pmId, "gz");
+            if (new File(path).exists())
+                w.addLine(pmId + "");
+        }
+
+        w.close();
     }
 }

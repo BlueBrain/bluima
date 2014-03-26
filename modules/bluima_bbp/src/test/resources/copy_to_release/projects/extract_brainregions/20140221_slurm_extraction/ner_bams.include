@@ -1,6 +1,8 @@
 
 
 # BAMS
-ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("brainregions/bams2013")
+#ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("brainregions/bams2013")
+#20140325 using new BAMS ontology
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("brainregions/bams2004swanson-syn")
 ae: KeepLargestAnnotationAnnotator
  annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm

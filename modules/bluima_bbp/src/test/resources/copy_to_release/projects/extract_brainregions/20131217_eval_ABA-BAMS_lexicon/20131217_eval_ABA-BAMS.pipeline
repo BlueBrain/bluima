@@ -14,10 +14,13 @@ ae: EvaluationPreprocessorAnnotator
 # TOGGLE HERE FOR THE RIGHT EVAL: aba|bams2013 and 0|-syn
 ################################################################
 #ABA
-ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/aba")
+#ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/aba")
 #BAMS
 #ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2013")
 #ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2004")
+
+#ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2004swanson")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2004swanson-syn")
 
 #IMPORTANT!
 ae: KeepLargestAnnotationAnnotator
@@ -68,3 +71,11 @@ ae: EvaluationAnnotator
 # bams2004
 # 0.581 & 0.193 & 0.290
 # 0.831 & 0.275 & 0.413
+
+# bams2004swanson
+# 0.645 & 0.136 & 0.224
+# 0.928 & 0.195 & 0.323
+
+# bams2004swanson
+# & 0.634 & 0.212 & 0.318
+# & 0.917 & 0.306 & 0.459

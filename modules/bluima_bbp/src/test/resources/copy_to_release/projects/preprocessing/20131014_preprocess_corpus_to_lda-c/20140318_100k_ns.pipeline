@@ -1,0 +1,48 @@
+
+##################################
+# Outputs 100k_ns corpus in DCA and LDA-C format
+##################################
+
+
+cr: OneDocPerLineReader2
+ inputFile: /Users/richarde/dev/bluebrain/git/lda_mesh/corpora/110k_ns/query_result.tsv
+
+
+# PREPROC
+include: ../../../includes/preprocess.incl
+ae: PunctuationAnnotator
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+ae: PruneMeasuresAnnotator
+
+# FILTERING FRAMEWORK
+ae: ViterbiFilterAnnotator
+#ae: ch.epfl.bbp.uima.filter.Tokens2KeepAnnotator
+ae: BioLemmatizerNormalizerAnnotator
+ae: ch.epfl.bbp.uima.filter.StopwordFilterAnnotator
+ae: ch.epfl.bbp.uima.filter.PunctuationFilterAnnotator
+ae: ch.epfl.bbp.uima.filter.MeasureNormalizerAnnotator
+
+# VOCAB FILTERING
+#ae: ch.epfl.bbp.uima.filter.FrequencyFilterWriter
+# outputFile: target/100k_ns.vocab
+ae: ch.epfl.bbp.uima.filter.FrequencyFilterAnnotator
+ inputFile: target/100k_ns.vocab
+ minimumFrequency__java: 3
+
+# OUTPUT in DCA format
+ae: ch.epfl.bbp.uima.ae.output.LdaCWriter
+ dcaFormat__java: true
+ outputFile: target/100k_ns.dca_corpus
+ vocabularyOutputFile: target/100k_ns.dca_corpus.vocab
+
+# OUTPUT in LDA-C format
+ae: ch.epfl.bbp.uima.ae.output.LdaCWriter
+ outputFile: target/100k_ns.lda-c_corpus
+ vocabularyOutputFile: target/100k_ns.lda-c.vocab
+
+
+
+# ae: ch.epfl.bbp.uima.filter.KeepsDumper
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

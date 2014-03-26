@@ -1,0 +1,73 @@
+#######################################################################################
+# $ 1 fold id (for CR)
+# $ 2 JSRE model path
+# $ 3 CooccurrencesEvaluationAnnotator2's extractorSetup
+#######################################################################################
+
+include: 20140210_eval.include
+
+
+# PRE-PROC ##############################################
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
+ae: BlueBioLemmatizer
+
+
+# KERNEL ##############################################
+# CO_OCCS
+ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
+ annot1: ch.epfl.bbp.uima.types.BrainRegion
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+# PREDICT (FILTER)
+ae: ch.epfl.bbp.uima.jsre.JsreFilterAnnotator
+ modelFile: $2
+#ae: KeepLargestAnnotationAnnotator WHY?
+# COPY
+ae: CopyAnnotationsAnnotator2
+ annotationClass: ch.epfl.bbp.uima.types.Cooccurrence
+ toView: kernel
+
+
+# TOPDOWN ##############################################
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ annot1: ch.epfl.bbp.uima.types.BrainRegion
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+ keepOnlyNearestNeighbors__java: true
+# filter trigger
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesByTriggerword
+# TooManyBr 7
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesIfTooManyEntities
+ maximumEntities__java: 7
+# Sentence length
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
+ maximumEnclosingScopeLength__java: 500
+# COPY
+ae: CopyAnnotationsAnnotator2
+ annotationClass: ch.epfl.bbp.uima.types.Cooccurrence
+ toView: topdown
+
+
+# RUTA ##############################################
+# script takes BRDictTerm!
+ae: CopyAnnotationsAnnotator
+ from: ch.epfl.bbp.uima.types.BrainRegion
+ to: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+ae: org.apache.uima.ruta.engine.RutaEngine
+ mainScript: Main
+ scriptPaths: $ROOT/modules/bluima_regions/src/main/resources/ruta/
+ resourcePaths: $ROOT/modules/bluima_regions/src/main/resources/lexicons/ 
+# post-process
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionChunk
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BRCooc
+ae: PostprocessRutaEngine
+# COPY
+ae: CopyAnnotationsAnnotator2
+ annotationClass: ch.epfl.bbp.uima.types.Cooccurrence
+ toView: rules
+
+
+# EVAL ###########################################
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator2
+ extractorSetup: $3

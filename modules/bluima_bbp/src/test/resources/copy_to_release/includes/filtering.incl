@@ -10,28 +10,20 @@ ae: ViterbiFilterAnnotator
 
 # REMOVE NON-CONTENT SECTIONS
 ae: ch.epfl.bbp.uima.references.ReferencesClassifierAnnotator
-
 ae: ch.epfl.bbp.uima.filter.SectionRegexAnnotator
-
 ae: ch.epfl.bbp.uima.filter.SectionFilterAnnotator
 
 
 # FILTER CONTENT TOKENS (Keep's)
 ae: BioLemmatizerNormalizerAnnotator
-
 ae: ch.epfl.bbp.uima.filter.StopwordFilterAnnotator
- inputFile: $ROOT/modules/bluima_utils/src/main/resources/stoplists/mallet_stopwords_en.txt
-
 ae: ch.epfl.bbp.uima.filter.PunctuationFilterAnnotator
-
 ae: ch.epfl.bbp.uima.filter.MeasureNormalizerAnnotator
 
 
 # DOCUMENT-LEVEL FILTERING
 ae: LanguageDetectionAnnotator
-
 ae: ch.epfl.bbp.uima.filter.TooFewTokensFilterAnnotator
-
 ae: ch.epfl.bbp.uima.filter.TooMuchOOVFilterAnnotator
 
 
