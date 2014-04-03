@@ -20,7 +20,7 @@ Bluima:: UIMA components at BlueBrain
 
 Setup BLUIMA_HOME, e.g. (in your .bash_profile):
 
-    export BLUIMA_HOME=/Users/richarde/trunk
+    export BLUIMA_HOME={absolute path to Bluima}
 
 
 ### Build
@@ -29,16 +29,6 @@ Setup BLUIMA_HOME, e.g. (in your .bash_profile):
     > mvn clean install -Dblue_uima_home={PATH_TO_HOME}
 
 Get yourself a coffee. Rinse and repeat above command if error is "could not download artifacts"
-
-
-### Eclipse
-
-* Tested with 4.2 and latest m2e plugin
-* Make sure you have built the codebase with the above step
-* Import the modules you need with: File -> Import... -> Existing Maven Projects
-* Set BLUIMA_HOME in Eclipse
- * Preferences: Java > Installed JRE > Edit
- * -Xms1G -Xmx4G -Dbluima_home=/Users/richarde/trunk
 
 
 ### Maven Tests
@@ -50,12 +40,23 @@ Get yourself a coffee. Rinse and repeat above command if error is "could not dow
     > mvn install -Dmaven.test.skip=true
 
 
+### Eclipse
+
+* Tested with 4.2 and latest m2e plugin
+* Make sure you have built the codebase with the above step (`mvn`)
+* Import the module `bluima_bbp` with: File -> Import... -> Existing Maven Projects
+* Set BLUIMA_HOME in Eclipse
+ * Preferences: Java > Installed JRE > Edit
+ * -Xms1G -Xmx4G -Dbluima_home={absolute path to Bluima}
+* Test your installation (see "Getting Started" below)
+* Import other modules you need with: File -> Import... -> Existing Maven Projects
+
 ### Release
 
     > cd modules/bluima
     > sh release.sh
 
-The release can be deployed on any computer with a JRE.
+The release can be deployed on any computer with a JRE (e.g. cluster).
 
 
 ### Conventions (over configuration)

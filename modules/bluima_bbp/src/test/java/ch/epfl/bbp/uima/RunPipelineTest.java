@@ -15,7 +15,6 @@ import org.apache.commons.io.FileUtils;
 import org.apache.uima.UIMAException;
 import org.junit.Ignore;
 import org.junit.Test;
-import org.python.google.common.collect.Lists;
 import org.slf4j.Logger;
 
 import ch.epfl.bbp.uima.laucher.Pipeline;
@@ -32,7 +31,7 @@ public class RunPipelineTest {
 		Iterator<File> it = FileUtils.iterateFiles(RunPipeline.PIPELINES,
 				new String[] { "pipeline" }, true);
 
-		boolean justListThem = false; // to speed fixing...
+		boolean justListThem = false; // to speed error fixing...
 		List<ParseException> exeptions = newArrayList();
 
 		while (it.hasNext()) {
@@ -54,8 +53,11 @@ public class RunPipelineTest {
 				}
 			}
 		}
-		for (ParseException pe : exeptions) {
-			System.err.println(pe);
+		if (justListThem) {
+			System.err.println("\nFAULTY PIPELINES");
+			for (ParseException pe : exeptions) {
+				System.err.println(pe);
+			}
 		}
 	}
 
