@@ -1,0 +1,23 @@
+(A) reduce size of release
+(A) remove FIXME
+(A) set artifact versions in parent pom only
+(B) retire ResourceHelper
+(B) should build without (pubmed) db
+(C) check TODOs in code
+(C) drop javatools
+(C) merge some modules, e.g. Viterbi into utils, etc
+(C) remove Deprecated classes
+(C) remove excessive logs
+(C) remove main calls
+(C) remove sysout calls
+(C) rename copy_to_release folder to pipelines
+(Z) gimli models are VERY large 1.5GB
+
+
+x (A) should build even offline
+x remove (or move to projects) unused modules
+x remove .svn from release
+x put sources in maven jar
+x remove maven warnings
+x remove all assert --> Preconditions
+
