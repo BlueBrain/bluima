@@ -7,14 +7,13 @@ import static org.apache.uima.fit.util.JCasUtil.select;
 
 import java.io.IOException;
 
-import org.apache.commons.logging.Log;
 import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
-import org.apache.uima.jcas.JCas;
-import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.fit.descriptor.ConfigurationParameter;
 import org.apache.uima.fit.descriptor.TypeCapability;
+import org.apache.uima.jcas.JCas;
+import org.apache.uima.resource.ResourceInitializationException;
 
 import ch.epfl.bbp.triechar.Trie;
 import ch.epfl.bbp.uima.BlueCasUtil;
@@ -23,7 +22,8 @@ import ch.epfl.bbp.uima.types.Keep;
 /**
  * Generates a frequency list, based on {@link Keep#getNormalizedText()}, and on
  * whether to filter the whole document with {@link BlueCasUtil#keepDoc(JCas)}.
- * This frequency list can be used with {@link FrequencyFilterAnnotator}.
+ * This frequency list can be used with {@link FrequencyFilterAnnotator}.<br>
+ * sort it with sort -t $'\t' -k 2nr vocab_file
  * 
  * @author renaud.richardet@epfl.ch
  */
@@ -40,7 +40,7 @@ public class FrequencyFilterWriter extends JCasAnnotator_ImplBase {
     description = "If true, tokens are not normalized to lowercase before string comparisions")
     private boolean caseSensitive;
 
-    @ConfigurationParameter(name = PARAM_OUTPUT_FILE, mandatory = true, description = "Where to write frequency file")
+    @ConfigurationParameter(name = PARAM_OUTPUT_FILE, description = "Where to write frequency file")
     private String tokenFrequencyFile;
 
     private Trie trie;
@@ -56,9 +56,9 @@ public class FrequencyFilterWriter extends JCasAnnotator_ImplBase {
     public void process(JCas jCas) throws AnalysisEngineProcessException {
         if (BlueCasUtil.keepDoc(jCas))
             for (Keep keep : select(jCas, Keep.class)) {
-//                System.err.println(keep.getNormalizedText() + "\t\t"
-//                        + keep.getEnclosedAnnot().getCoveredText() + "\t"
-//                        + keep.getEnclosedAnnot().getClass());
+                // System.err.println(keep.getNormalizedText() + "\t\t"
+                // + keep.getEnclosedAnnot().getCoveredText() + "\t"
+                // + keep.getEnclosedAnnot().getClass());
                 trie.addWord(keep.getNormalizedText());
             }
     }

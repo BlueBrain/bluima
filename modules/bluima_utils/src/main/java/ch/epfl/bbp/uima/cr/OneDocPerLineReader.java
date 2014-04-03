@@ -38,11 +38,11 @@ import de.julielab.jules.types.Header;
 public class OneDocPerLineReader extends JCasCollectionReader_ImplBase {
 
     @ConfigurationParameter(name = PARAM_INPUT_FILE, description = "path to text file")
-    private String inputFile;
+    protected String inputFile;
 
-    private Iterator<String> textFileReader;
-    private String nextLine;
-    private int pmId = 1;
+    protected Iterator<String> textFileReader;
+    protected String nextLine;
+    protected int pmId = 1;
 
     @Override
     public void initialize(UimaContext context)

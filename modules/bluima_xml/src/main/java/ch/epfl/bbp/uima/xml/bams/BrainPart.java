@@ -15,6 +15,8 @@ public class BrainPart {
     private String grossConstituent;
     private String description;
     private BrainPart isPartOf;
+    /** a synonym */
+    private BrainPart equivalentClass;
 
     private List<BrainPart> receiverFor = Lists.newArrayList();
     private List<BrainPart> senderFor = Lists.newArrayList();
@@ -82,22 +84,6 @@ public class BrainPart {
         return senderFor;
     }
 
-//  TODO  // static helper methods
-//    public boolean isSwanson() {
-//        return reference != null
-//                && reference.getNodeId().matches("wuaxqixc[275|276|367]");
-//    }
-//
-//    public boolean isNeuronames() {
-//        return reference != null
-//                && reference.getNodeId().matches("wuaxqixc[275|276|367]");
-//    }
-
-    @Override
-    public String toString() {
-        return name + " (" + abbr + ")";
-    }
-
     public BrainPart getIsPartOf() {
         return isPartOf;
     }
@@ -105,4 +91,29 @@ public class BrainPart {
     public void setIsPartOf(BrainPart isPartOf) {
         this.isPartOf = isPartOf;
     }
+
+    public BrainPart getEquivalentClass() {
+        return equivalentClass;
+    }
+
+    public void setEquivalentClass(BrainPart equivalentClass) {
+        this.equivalentClass = equivalentClass;
+    }
+
+    // TODO // static helper methods
+    // public boolean isSwanson() {
+    // return reference != null
+    // && reference.getNodeId().matches("wuaxqixc[275|276|367]");
+    // }
+    //
+    // public boolean isNeuronames() {
+    // return reference != null
+    // && reference.getNodeId().matches("wuaxqixc[275|276|367]");
+    // }
+
+    @Override
+    public String toString() {
+        return name + " (" + abbr + ")";
+    }
+
 }

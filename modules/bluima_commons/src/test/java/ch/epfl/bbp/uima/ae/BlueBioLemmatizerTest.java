@@ -48,5 +48,8 @@ public class BlueBioLemmatizerTest {
     public void testText() throws Exception {
         assertEquals("thalamic", BlueBioLemmatizer.lemmatize("Thalamic", null));
         assertEquals("thalamus", BlueBioLemmatizer.lemmatize("thalamus", null));
+        
+        assertEquals("conditioning", BlueBioLemmatizer.lemmatize("conditioning", null));
+        assertEquals("condition", BlueBioLemmatizer.lemmatize("conditioned", null));
     }
 }

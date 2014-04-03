@@ -27,7 +27,7 @@ public class BeanshellAnnotator extends JCasAnnotator_ImplBase {
 			+ "import ch.epfl.bbp.uima.ae.*;\n"//
 			+ "import ch.epfl.bbp.uima.BlueUima.*;\n"//
 			+ "import ch.epfl.bbp.uima.typesystem.TypeSystem.*;\n"//
-			+ "import org.apache.uima.fit.util.JCasUtil.*;\n"//
+			+ "import org.apache.uima.fit.util.JCasUtil;\n"//
 			+ "import java.io.*;\n"//
 			+ "import java.util.*;\n";
 

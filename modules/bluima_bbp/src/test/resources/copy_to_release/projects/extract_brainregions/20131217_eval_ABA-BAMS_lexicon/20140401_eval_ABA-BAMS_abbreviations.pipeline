@@ -1,0 +1,13 @@
+cr: WhiteTextCollectionReader
+
+include: ../../../includes/preprocess.incl
+
+ae: AbbreviationsAnnotator.class
+
+java:
+System.out.println("pdf:: " + ch.epfl.bbp.uima.BlueCasUtil.getHeaderSource(jCas));
+Collection abrevs = org.apache.uima.fit.util.JCasUtil.select(jCas, de.julielab.jules.types.Abbreviation.class);
+for (Object abrev : abrevs) {
+    System.out.println(ch.epfl.bbp.uima.typesystem.To.string(abrev));
+}
+

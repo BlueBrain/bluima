@@ -453,6 +453,9 @@ public class PipelineScriptParser {
 
         } else {
 
+            if (aeName.endsWith(".class"))
+                aeName = aeName.substring(0, aeName.length() - 6);
+            
             // instantiate class
             Class<? extends AnalysisComponent> classz = null;
             // first prefix is for exact match, then 1st fallback is the generic

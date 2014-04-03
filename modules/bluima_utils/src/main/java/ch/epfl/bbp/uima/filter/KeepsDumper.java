@@ -4,16 +4,18 @@ import static ch.epfl.bbp.uima.BlueCasUtil.getHeaderDocId;
 import static org.apache.uima.fit.util.JCasUtil.*;
 
 import java.util.Collection;
+import java.util.Map;
 
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
+import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
 
 import ch.epfl.bbp.uima.types.Keep;
 import de.julielab.jules.types.Sentence;
 
 /**
- * Dumps all {@link Keep}s to sysout
+ * Dumps all {@link Keep}s to sysout, useful for debugging
  * 
  * @author renaud.richardet@epfl.ch
  */
@@ -25,10 +27,12 @@ public class KeepsDumper extends JCasAnnotator_ImplBase {
         String pmId = getHeaderDocId(jCas);
         System.out.println(pmId + " -----------------------------");
 
-        for (Collection<Keep> sentence : indexCovered(jCas, //
-                Sentence.class, Keep.class).values()) {
+        Map<Sentence, Collection<Keep>> sentences = indexCovered(jCas, //
+                Sentence.class, Keep.class);
 
-            for (Keep k : sentence) {
+        for (Sentence s : JCasUtil.select(jCas, Sentence.class)) {
+
+            for (Keep k : sentences.get(s)) {
                 System.out.print(k.getNormalizedText() + " ");
             }
             System.out.println();

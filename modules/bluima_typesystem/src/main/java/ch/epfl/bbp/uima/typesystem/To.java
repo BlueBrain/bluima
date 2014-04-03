@@ -95,6 +95,10 @@ public class To {
             Concentration c = (Concentration) o;
             return "Concentration[" + c.getCoveredText() + "]val:"
                     + c.getValue() + ";unit:" + c.getUnit();
+        } else if (o instanceof Abbreviation) {
+            Abbreviation a = (Abbreviation) o;
+            return "Abbrev[" + a.getCoveredText() + "]expan:" + a.getExpan()
+                    + "; defhere:" + a.getDefinedHere();
         } else if (o instanceof Cooccurrence) {
             Cooccurrence c = (Cooccurrence) o;
             return "Cooccurrence[" + c.getFirstEntity().getCoveredText()

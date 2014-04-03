@@ -130,6 +130,12 @@ public class BamsOntologyParser {
         }
 
         // HIERARCHY *and* TOPOLOGICAL RELATION ////////////////////////
+        // 7175 hasPart
+        // 707 equivalentClass
+        // 149 overlap
+        // 145 isContained
+        // 7 covers
+        // 6 disjointWith
         rdfIt = nodes.iterator();
         while (rdfIt.hasNext()) {
             Element el = rdfIt.next();
@@ -155,6 +161,8 @@ public class BamsOntologyParser {
 
                 if (rel.equals("hasPart")) {
                     reg2.setIsPartOf(reg1);
+                } else if (rel.equals("equivalentClass")) {
+                    reg2.setEquivalentClass(reg1);
                 }
                 // TODO parse more rels
                 // System.err.println(rel + "\t" + reg1.getName() + "\t"

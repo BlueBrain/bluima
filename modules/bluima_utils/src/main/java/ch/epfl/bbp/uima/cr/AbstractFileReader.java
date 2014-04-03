@@ -1,7 +1,10 @@
 package ch.epfl.bbp.uima.cr;
 
 import static ch.epfl.bbp.ResourceHelper.getFile;
+import static ch.epfl.bbp.uima.BlueUima.PARAM_DIRECTORY_ITERATOR;
+import static ch.epfl.bbp.uima.BlueUima.PARAM_FILE_EXTENSION_FILTER;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT_DIRECTORY;
+import static ch.epfl.bbp.uima.BlueUima.PARAM_IS_RECURSIVE;
 import static ch.epfl.bbp.uima.utils.Preconditions.checkFileExists;
 import static org.apache.uima.resource.ResourceInitializationException.NO_RESOURCE_FOR_PARAMETERS;
 
@@ -34,14 +37,14 @@ public abstract class AbstractFileReader extends JCasCollectionReader_ImplBase {
             + "file containing pdfs (make sure it does not contain other file formats)")
     protected String inputDir;
 
-    @ConfigurationParameter(name = BlueUima.PARAM_DIRECTORY_ITERATOR, defaultValue = "DefaultDirectoryIterator", //
+    @ConfigurationParameter(name = PARAM_DIRECTORY_ITERATOR, defaultValue = "DefaultDirectoryIterator", //
     description = "the directoryIterator to use. E.g. DefaultDirectoryIterator, ZipDirectoryIterator, LargeDirectoryIterator")
     protected String directoryIterator;
 
-    @ConfigurationParameter(name = BlueUima.PARAM_IS_RECURSIVE, defaultValue = "false")
+    @ConfigurationParameter(name = PARAM_IS_RECURSIVE, defaultValue = "false")
     protected boolean isRecursive;
 
-    @ConfigurationParameter(name = BlueUima.PARAM_FILE_EXTENSION_FILTER, defaultValue = "null", //
+    @ConfigurationParameter(name = PARAM_FILE_EXTENSION_FILTER, defaultValue = "null", //
     description = "a filter on file extension")
     protected String fileExtensionFilter;
 

@@ -26,7 +26,7 @@ import ch.epfl.bbp.io.TextFileWriter;
  *
  * @author renaud.richardet@epfl.ch
  */
-@Ignore
+//@Ignore
 public class BamsOntologyTest {
 
     private BamsOntology bo;
@@ -199,7 +199,6 @@ public class BamsOntologyTest {
                 System.out.println(xfix);
             }
         }
-
     }
 
     @Test
@@ -220,5 +219,14 @@ public class BamsOntologyTest {
             }
         }
         printf("pc={}", pc);
+    }
+    
+    @Test
+    public void testWriteCSVs() throws Exception {
+        
+        for (Entry<String, BrainPart> bp : bo.brainParts.entrySet()){
+            
+        }
+        
     }
 }

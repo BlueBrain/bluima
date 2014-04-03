@@ -35,19 +35,20 @@ public class FrequencyFilterAnnotator extends JCasAnnotator_ImplBase {
             .getLogger(FrequencyFilterAnnotator.class);
 
     public static final String MINIMUM_FREQUENCY = "minimumFrequency";
-    @ConfigurationParameter(name = MINIMUM_FREQUENCY, mandatory = true,//
+    @ConfigurationParameter(name = MINIMUM_FREQUENCY,//
     description = "minimum frequency of token to be retained")
     private int minimumFrequency;
+
     public static final String MAXIMUM_FREQUENCY = "maximumFrequency";
-    @ConfigurationParameter(name = MAXIMUM_FREQUENCY, mandatory = true,//
-    description = "maximum frequency of token to be retained")
+    @ConfigurationParameter(name = MAXIMUM_FREQUENCY, defaultValue = Integer.MAX_VALUE
+            + "", description = "maximum frequency of token to be retained")
     private int maximumFrequency;
 
     @ConfigurationParameter(name = PARAM_CASE_SENSITIVE, defaultValue = "false",//
     description = "If true, tokens are not normalized to lowercase before string comparisions")
     private boolean caseSensitive;
 
-    @ConfigurationParameter(name = PARAM_INPUT_FILE, mandatory = true, //
+    @ConfigurationParameter(name = PARAM_INPUT_FILE, //
     description = "Path to file containing tokens and their frequency in the corpus")
     private String tokenFrequencyFile;
     /**

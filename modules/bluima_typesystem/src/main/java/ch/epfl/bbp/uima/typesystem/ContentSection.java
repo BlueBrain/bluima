@@ -8,8 +8,9 @@ import ch.epfl.bbp.uima.types.DocumentBlock;
 
 /**
  * Content sections represent the type of a paragraph, e.g. if it is a table,
- * the abstract or a bibliographical entry. Content sections are used in
- * Filtering framework, and set to {@link DocumentBlock#setLabel()}.
+ * the abstract or a bibliographical entry. Content sections are constants
+ * (String) used in Filtering framework, and set to
+ * {@link DocumentBlock#setLabel()}.
  * 
  * @author renaud.richardet@epfl.ch
  */
