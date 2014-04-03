@@ -20,13 +20,9 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import ch.epfl.bbp.uima.types.Protein;
-import ch.epfl.bbp.uima.typesystem.Prin;
 import ch.epfl.bbp.uima.typesystem.To;
 import ch.epfl.bbp.uima.uimafit.JcasPipelineBuilder;
 import ch.epfl.bbp.uima.uimafit.PipelineBuilder;
-
-import com.google.common.collect.Lists;
-
 import de.julielab.jules.types.Abbreviation;
 
 public class AbbreviationsExpanderAnnotatorTest extends JCasAnnotator_ImplBase {

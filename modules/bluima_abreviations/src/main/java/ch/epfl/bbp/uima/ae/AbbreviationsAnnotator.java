@@ -4,6 +4,7 @@ import static ch.epfl.bbp.uima.BlueUima.BLUE_UIMA_ROOT;
 import static ch.epfl.bbp.uima.BlueUima.RESOURCES_PATH;
 import static java.lang.Character.isLetter;
 import static java.lang.Math.max;
+import static java.lang.System.currentTimeMillis;
 
 import java.io.IOException;
 import java.util.Collection;
@@ -12,6 +13,7 @@ import java.util.Map;
 import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
+import org.apache.uima.fit.descriptor.ConfigurationParameter;
 import org.apache.uima.fit.descriptor.TypeCapability;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
@@ -41,6 +43,10 @@ public class AbbreviationsAnnotator extends JCasAnnotator_ImplBase {
     protected static final Logger LOG = LoggerFactory
             .getLogger(AbbreviationsAnnotator.class);
 
+    @ConfigurationParameter(name = "retrain", //
+    defaultValue = "false", description = "whether to retrain the model")
+    private static boolean retrain;
+
     public static final String ABREVIATIONS_HOME = BLUE_UIMA_ROOT
             + "modules/bluima_abreviations/";
 
@@ -51,11 +57,17 @@ public class AbbreviationsAnnotator extends JCasAnnotator_ImplBase {
             throws ResourceInitializationException {
         super.initialize(context);
         try {
+            long start = currentTimeMillis();
             model = new AlignmentPredictionModel();
-            model.setTrainingDataDir(ABREVIATIONS_HOME + RESOURCES_PATH
-                    + "model_train/");
+            if (retrain)
+                model.setTrainingDataDir(ABREVIATIONS_HOME + RESOURCES_PATH
+                        + "model_train/");
+            // where the model is saved/loaded from
+            model.setModelParamsFile(ABREVIATIONS_HOME + RESOURCES_PATH
+                    + "model_trained");
             model.trainIfNeeded();
-
+            LOG.debug("Abbrev model trained in {}ms", currentTimeMillis()
+                    - start);
         } catch (IOException e) {
             throw new ResourceInitializationException(e);
         }
@@ -66,6 +78,9 @@ public class AbbreviationsAnnotator extends JCasAnnotator_ImplBase {
         final String txt = jCas.getDocumentText();
 
         Collection<Acronym> all_predictions = model.predict(txt);
+        // for(Acronym a : all_predictions){
+        // System.out.println(a);
+        // }
         Map<String, Acronym> final_predictions = model
                 .acronymsArrayToMap(all_predictions);
 
