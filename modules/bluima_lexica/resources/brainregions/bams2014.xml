@@ -1,0 +1,1513 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- created from data/bams_connectivity/bams_connectome_2014-03-25_02-20-40.xml -->
+<synonym>
+<token canonical="Primary motor area" ref_id="bams:632">
+  <variant base="Primary motor area" abbreviation="MOp" />
+</token>
+<token canonical="Secondary motor area" ref_id="bams:633">
+  <variant base="Secondary motor area" abbreviation="MOs" />
+</token>
+<token canonical="Somatosensory areas" ref_id="bams:681">
+  <variant base="Somatosensory areas" abbreviation="SS" />
+</token>
+<token canonical="Supplemental somatosensory area" ref_id="bams:689">
+  <variant base="Supplemental somatosensory area" abbreviation="SSs" />
+</token>
+<token canonical="Visceral area" ref_id="bams:690">
+  <variant base="Visceral area" abbreviation="VISC" />
+</token>
+<token canonical="Infralimbic area" ref_id="bams:759">
+  <variant base="Infralimbic area" abbreviation="ILA" />
+</token>
+<token canonical="Gustatory areas" ref_id="bams:638">
+  <variant base="Gustatory areas" abbreviation="GU" />
+</token>
+<token canonical="Main olfactory bulb" ref_id="bams:31">
+  <variant base="Main olfactory bulb" abbreviation="MOB" />
+</token>
+<token canonical="Accessory olfactory bulb" ref_id="bams:37">
+  <variant base="Accessory olfactory bulb" abbreviation="AOB" />
+</token>
+<token canonical="Anterior olfactory nucleus" ref_id="bams:639">
+  <variant base="Anterior olfactory nucleus" abbreviation="AON" />
+</token>
+<token canonical="Taenia tecta dorsal part" ref_id="bams:657">
+  <variant base="Taenia tecta dorsal part" abbreviation="TTd" />
+</token>
+<token canonical="Taenia tecta ventral part" ref_id="bams:662">
+  <variant base="Taenia tecta ventral part" abbreviation="TTv" />
+</token>
+<token canonical="Piriform area" ref_id="bams:666">
+  <variant base="Piriform area" abbreviation="PIR" />
+</token>
+<token canonical="Postpiriform transition area" ref_id="bams:670">
+  <variant base="Postpiriform transition area" abbreviation="TR" />
+</token>
+<token canonical="Piriform-amygdaloid area" ref_id="bams:671">
+  <variant base="Piriform-amygdaloid area" abbreviation="PAA" />
+</token>
+<token canonical="Nucleus of the lateral olfactory tract molecular layer" ref_id="bams:673">
+  <variant base="Nucleus of the lateral olfactory tract molecular layer" abbreviation="NLOT1" />
+</token>
+<token canonical="Nucleus of the lateral olfactory tract pyramidal layer" ref_id="bams:674">
+  <variant base="Nucleus of the lateral olfactory tract pyramidal layer" abbreviation="NLOT2" />
+</token>
+<token canonical="Cortical nucleus of the amygdala anterior part" ref_id="bams:677">
+  <variant base="Cortical nucleus of the amygdala anterior part" abbreviation="COAa" />
+</token>
+<token canonical="Cortical nucleus of the amygdala posterior part lateral zone" ref_id="bams:679">
+  <variant base="Cortical nucleus of the amygdala posterior part lateral zone" abbreviation="COApl" />
+</token>
+<token canonical="Cortical nucleus of the amygdala posterior part medial zone" ref_id="bams:680">
+  <variant base="Cortical nucleus of the amygdala posterior part medial zone" abbreviation="COApm" />
+</token>
+<token canonical="Primary auditory area" ref_id="bams:635">
+  <variant base="Primary auditory area" abbreviation="AUDp" />
+</token>
+<token canonical="Dorsal auditory areas" ref_id="bams:636">
+  <variant base="Dorsal auditory areas" abbreviation="AUDd" />
+</token>
+<token canonical="Ventral auditory areas" ref_id="bams:637">
+  <variant base="Ventral auditory areas" abbreviation="AUDv" />
+</token>
+<token canonical="Posterior auditory area" ref_id="bams:12104">
+  <variant base="Posterior auditory area" abbreviation="AUDpo" />
+</token>
+<token canonical="Anterior laterolateral visual area" ref_id="bams:692">
+  <variant base="Anterior laterolateral visual area" abbreviation="VISlla" />
+</token>
+<token canonical="Anterolateral visual area" ref_id="bams:693">
+  <variant base="Anterolateral visual area" abbreviation="VISal" />
+</token>
+<token canonical="Anteromedial visual area" ref_id="bams:694">
+  <variant base="Anteromedial visual area" abbreviation="VISam" />
+</token>
+<token canonical="Intermediolateral visual area" ref_id="bams:695">
+  <variant base="Intermediolateral visual area" abbreviation="VISli" />
+</token>
+<token canonical="Laterolateral visual area" ref_id="bams:696">
+  <variant base="Laterolateral visual area" abbreviation="VISll" />
+</token>
+<token canonical="Mediolateral visual area" ref_id="bams:697">
+  <variant base="Mediolateral visual area" abbreviation="VISlm" />
+</token>
+<token canonical="Posterolateral visual area" ref_id="bams:698">
+  <variant base="Posterolateral visual area" abbreviation="VISpl" />
+</token>
+<token canonical="Primary visual area" ref_id="bams:699">
+  <variant base="Primary visual area" abbreviation="VISp" />
+</token>
+<token canonical="Rostrolateral visual area" ref_id="bams:700">
+  <variant base="Rostrolateral visual area" abbreviation="VISrl" />
+</token>
+<token canonical="Anterior cingulate area dorsal part" ref_id="bams:706">
+  <variant base="Anterior cingulate area dorsal part" abbreviation="ACAd" />
+</token>
+<token canonical="Anterior cingulate area ventral part" ref_id="bams:707">
+  <variant base="Anterior cingulate area ventral part" abbreviation="ACAv" />
+</token>
+<token canonical="Prelimbic area" ref_id="bams:767">
+  <variant base="Prelimbic area" abbreviation="PL" />
+</token>
+<token canonical="Orbital area lateral part" ref_id="bams:761">
+  <variant base="Orbital area lateral part" abbreviation="ORBl" />
+</token>
+<token canonical="Orbital area medial part" ref_id="bams:762">
+  <variant base="Orbital area medial part" abbreviation="ORBm" />
+</token>
+<token canonical="Orbital area ventral part" ref_id="bams:763">
+  <variant base="Orbital area ventral part" abbreviation="ORBv" />
+</token>
+<token canonical="Orbital area ventrolateral part" ref_id="bams:764">
+  <variant base="Orbital area ventrolateral part" abbreviation="ORBvl" />
+</token>
+<token canonical="Agranular insular area dorsal part" ref_id="bams:702">
+  <variant base="Agranular insular area dorsal part" abbreviation="AId" />
+</token>
+<token canonical="Agranular insular area ventral part" ref_id="bams:703">
+  <variant base="Agranular insular area ventral part" abbreviation="AIv" />
+</token>
+<token canonical="Agranular insular area posterior part" ref_id="bams:704">
+  <variant base="Agranular insular area posterior part" abbreviation="AIp" />
+</token>
+<token canonical="Retrosplenial area dorsal part" ref_id="bams:769">
+  <variant base="Retrosplenial area dorsal part" abbreviation="RSPd" />
+</token>
+<token canonical="Retrosplenial area lateral agranular part" ref_id="bams:770">
+  <variant base="Retrosplenial area lateral agranular part" abbreviation="RSPagl" />
+</token>
+<token canonical="Retrosplenial area ventral part" ref_id="bams:771">
+  <variant base="Retrosplenial area ventral part" abbreviation="RSPv" />
+</token>
+<token canonical="Posterior parietal association areas" ref_id="bams:766">
+  <variant base="Posterior parietal association areas" abbreviation="PTLp" />
+</token>
+<token canonical="Temporal association areas" ref_id="bams:12079">
+  <variant base="Temporal association areas" abbreviation="TEa" />
+</token>
+<token canonical="Ectorhinal area" ref_id="bams:708">
+  <variant base="Ectorhinal area" abbreviation="ECT" />
+</token>
+<token canonical="Perirhinal area" ref_id="bams:765">
+  <variant base="Perirhinal area" abbreviation="PERI" />
+</token>
+<token canonical="Entorhinal area, lateral part" ref_id="bams:44">
+  <variant base="Entorhinal area, lateral part" abbreviation="ENTl" />
+</token>
+<token canonical="Entorhinal area medial part, dorsal zone" ref_id="bams:46">
+  <variant base="Entorhinal area medial part, dorsal zone" abbreviation="ENTm" />
+</token>
+<token canonical="Entorhinal area medial part, ventral zone" ref_id="bams:48">
+  <variant base="Entorhinal area medial part, ventral zone" abbreviation="ENTMv" />
+</token>
+<token canonical="Presubiculum" ref_id="bams:49">
+  <variant base="Presubiculum" abbreviation="PRE" />
+</token>
+<token canonical="Postsubiculum" ref_id="bams:51">
+  <variant base="Postsubiculum" abbreviation="POST" />
+</token>
+<token canonical="Parasubiculum" ref_id="bams:709">
+  <variant base="Parasubiculum" abbreviation="PAR" />
+</token>
+<token canonical="Subiculum dorsal part" ref_id="bams:717">
+  <variant base="Subiculum dorsal part" abbreviation="SUBd" />
+</token>
+<token canonical="Subiculum ventral part" ref_id="bams:721">
+  <variant base="Subiculum ventral part" abbreviation="SUBv" />
+</token>
+<token canonical="Field CA1" ref_id="bams:727">
+  <variant base="Field CA1" abbreviation="CA1" />
+</token>
+<token canonical="Field CA2" ref_id="bams:734">
+  <variant base="Field CA2" abbreviation="CA2" />
+</token>
+<token canonical="Field CA3" ref_id="bams:739">
+  <variant base="Field CA3" abbreviation="CA3" />
+</token>
+<token canonical="Dentate gyrus" ref_id="bams:744">
+  <variant base="Dentate gyrus" abbreviation="DG" />
+</token>
+<token canonical="Induseum griseum" ref_id="bams:757">
+  <variant base="Induseum griseum" abbreviation="IG" />
+</token>
+<token canonical="Fasciola cinerea" ref_id="bams:758">
+  <variant base="Fasciola cinerea" abbreviation="FC" />
+</token>
+<token canonical="Claustrum" ref_id="bams:777">
+  <variant base="Claustrum" abbreviation="CLA" />
+</token>
+<token canonical="Endopiriform nucleus dorsal part" ref_id="bams:779">
+  <variant base="Endopiriform nucleus dorsal part" abbreviation="EPd" />
+</token>
+<token canonical="Endopiriform nucleus ventral part" ref_id="bams:780">
+  <variant base="Endopiriform nucleus ventral part" abbreviation="EPv" />
+</token>
+<token canonical="Lateral nucleus of the amygdala" ref_id="bams:781">
+  <variant base="Lateral nucleus of the amygdala" abbreviation="LA" />
+</token>
+<token canonical="Basolateral nucleus of the amygdala anterior part" ref_id="bams:783">
+  <variant base="Basolateral nucleus of the amygdala anterior part" abbreviation="BLAa" />
+</token>
+<token canonical="Basolateral nucleus of the amygdala posterior part" ref_id="bams:784">
+  <variant base="Basolateral nucleus of the amygdala posterior part" abbreviation="BLAp" />
+</token>
+<token canonical="Basomedial nucleus of the amygdala anterior part" ref_id="bams:786">
+  <variant base="Basomedial nucleus of the amygdala anterior part" abbreviation="BMAa" />
+</token>
+<token canonical="Basomedial nucleus of the amygdala posterior part" ref_id="bams:787">
+  <variant base="Basomedial nucleus of the amygdala posterior part" abbreviation="BMAp" />
+</token>
+<token canonical="Posterior nucleus of the amygdala" ref_id="bams:788">
+  <variant base="Posterior nucleus of the amygdala" abbreviation="PA" />
+</token>
+<token canonical="Nucleus of the lateral olfactory tract dorsal cap" ref_id="bams:675">
+  <variant base="Nucleus of the lateral olfactory tract dorsal cap" abbreviation="NLOT3" />
+</token>
+<token canonical="Caudoputamen" ref_id="bams:129">
+  <variant base="Caudoputamen" abbreviation="CP" />
+</token>
+<token canonical="Nucleus accumbens" ref_id="bams:131">
+  <variant base="Nucleus accumbens" abbreviation="ACB" />
+</token>
+<token canonical="Fundus of the striatum" ref_id="bams:355">
+  <variant base="Fundus of the striatum" abbreviation="FS" />
+</token>
+<token canonical="Olfactory tubercle molecular layer" ref_id="bams:358">
+  <variant base="Olfactory tubercle molecular layer" abbreviation="OT1" />
+</token>
+<token canonical="Olfactory tubercle pyramidal layer" ref_id="bams:359">
+  <variant base="Olfactory tubercle pyramidal layer" abbreviation="OT2" />
+</token>
+<token canonical="Olfactory tubercle polymorph layer" ref_id="bams:360">
+  <variant base="Olfactory tubercle polymorph layer" abbreviation="OT3" />
+</token>
+<token canonical="Islands of Calleja" ref_id="bams:361">
+  <variant base="Islands of Calleja" abbreviation="isl" />
+</token>
+<token canonical="Major island of Calleja" ref_id="bams:362">
+  <variant base="Major island of Calleja" abbreviation="islm" />
+</token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part dorsal zone rostral region" ref_id="bams:369">
+  <variant base="Lateral septal nucleus caudal (caudodorsal) part dorsal zone rostral region" abbreviation="LSc.d.r" />
+</token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part dorsal zone dorsal region" ref_id="bams:370">
+  <variant base="Lateral septal nucleus caudal (caudodorsal) part dorsal zone dorsal region" abbreviation="LSc.d.d" />
+</token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part dorsal zone lateral region" ref_id="bams:371">
+  <variant base="Lateral septal nucleus caudal (caudodorsal) part dorsal zone lateral region" abbreviation="LSc.d.l" />
+</token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part dorsal zone ventral region" ref_id="bams:372">
+  <variant base="Lateral septal nucleus caudal (caudodorsal) part dorsal zone ventral region" abbreviation="LSc.d.v" />
+</token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part ventral zone medial region dorsal domain" ref_id="bams:375">
+  <variant base="Lateral septal nucleus caudal (caudodorsal) part ventral zone medial region dorsal domain" abbreviation="LSc.v.m.d" />
+</token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part ventral zone medial region ventral domain" ref_id="bams:376">
+  <variant base="Lateral septal nucleus caudal (caudodorsal) part ventral zone medial region ventral domain" abbreviation="LSc.v.m.v" />
+</token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part ventral zone intermediate region" ref_id="bams:377">
+  <variant base="Lateral septal nucleus caudal (caudodorsal) part ventral zone intermediate region" abbreviation="LSc.v.i" />
+</token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part ventral zone lateral region dorsal domain" ref_id="bams:379">
+  <variant base="Lateral septal nucleus caudal (caudodorsal) part ventral zone lateral region dorsal domain" abbreviation="LSc.v.l.d" />
+</token>
+<token canonical="Lateral septal nucleus caudal (caudodorsal) part ventral zone lateral region ventral domain" ref_id="bams:380">
+  <variant base="Lateral septal nucleus caudal (caudodorsal) part ventral zone lateral region ventral domain" abbreviation="LSc.v.l.v" />
+</token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part medial zone dorsal region" ref_id="bams:383">
+  <variant base="Lateral septal nucleus rostral (rostroventral) part medial zone dorsal region" abbreviation="LSr.m.d" />
+</token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part medial zone ventral region rostral domain" ref_id="bams:385">
+  <variant base="Lateral septal nucleus rostral (rostroventral) part medial zone ventral region rostral domain" abbreviation="LSr.m.v.r" />
+</token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part medial zone ventral region caudal domain" ref_id="bams:386">
+  <variant base="Lateral septal nucleus rostral (rostroventral) part medial zone ventral region caudal domain" abbreviation="LSr.m.v.c" />
+</token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part ventrolateral zone dorsal region medial domain" ref_id="bams:389">
+  <variant base="Lateral septal nucleus rostral (rostroventral) part ventrolateral zone dorsal region medial domain" abbreviation="LSr.vl.d.m" />
+</token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part ventrolateral zone dorsal region lateral domain" ref_id="bams:390">
+  <variant base="Lateral septal nucleus rostral (rostroventral) part ventrolateral zone dorsal region lateral domain" abbreviation="LSr.vl.d.l" />
+</token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part ventrolateral zone ventral region" ref_id="bams:391">
+  <variant base="Lateral septal nucleus rostral (rostroventral) part ventrolateral zone ventral region" abbreviation="LSr.vl.v" />
+</token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone medial region dorsal domain" ref_id="bams:394">
+  <variant base="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone medial region dorsal domain" abbreviation="LSr.dl.m.d" />
+</token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone medial region ventral domain" ref_id="bams:395">
+  <variant base="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone medial region ventral domain" abbreviation="LSr.dl.m.v" />
+</token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone lateral region dorsal domain" ref_id="bams:397">
+  <variant base="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone lateral region dorsal domain" abbreviation="LSr.dl.l.d" />
+</token>
+<token canonical="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone lateral region ventral domain" ref_id="bams:398">
+  <variant base="Lateral septal nucleus rostral (rostroventral) part dorsolateral zone lateral region ventral domain" abbreviation="LSr.dl.l.v" />
+</token>
+<token canonical="Lateral septal nucleus ventral part" ref_id="bams:399">
+  <variant base="Lateral septal nucleus ventral part" abbreviation="LSv" />
+</token>
+<token canonical="Septofimbrial nucleus" ref_id="bams:400">
+  <variant base="Septofimbrial nucleus" abbreviation="SF" />
+</token>
+<token canonical="Septohippocampal nucleus" ref_id="bams:401">
+  <variant base="Septohippocampal nucleus" abbreviation="SH" />
+</token>
+<token canonical="Anterior amygdaloid area" ref_id="bams:255">
+  <variant base="Anterior amygdaloid area" abbreviation="AAA" />
+</token>
+<token canonical="Central nucleus of amygdala medial part" ref_id="bams:257">
+  <variant base="Central nucleus of amygdala medial part" abbreviation="CEAm" />
+</token>
+<token canonical="Central nucleus of amygdala lateral part" ref_id="bams:258">
+  <variant base="Central nucleus of amygdala lateral part" abbreviation="CEAl" />
+</token>
+<token canonical="Central nucleus of amygdala capsular part" ref_id="bams:259">
+  <variant base="Central nucleus of amygdala capsular part" abbreviation="CEAc" />
+</token>
+<token canonical="Medial nucleus of the amygdala anterodorsal part" ref_id="bams:261">
+  <variant base="Medial nucleus of the amygdala anterodorsal part" abbreviation="MEAad" />
+</token>
+<token canonical="Medial nucleus of the amygdala anteroventral part" ref_id="bams:262">
+  <variant base="Medial nucleus of the amygdala anteroventral part" abbreviation="MEAav" />
+</token>
+<token canonical="Medial nucleus of the amygdala posterodorsal part,sublayer a" ref_id="bams:264">
+  <variant base="Medial nucleus of the amygdala posterodorsal part,sublayer a" abbreviation="MEApd-a" />
+</token>
+<token canonical="Medial nucleus of the amygdala posterodorsal part,sublayer b" ref_id="bams:265">
+  <variant base="Medial nucleus of the amygdala posterodorsal part,sublayer b" abbreviation="MEApd-b" />
+</token>
+<token canonical="Medial nucleus of the amygdala posterodorsal part,sublayer c" ref_id="bams:266">
+  <variant base="Medial nucleus of the amygdala posterodorsal part,sublayer c" abbreviation="MEApd-c" />
+</token>
+<token canonical="Medial nucleus of the amygdala posteroventral part" ref_id="bams:267">
+  <variant base="Medial nucleus of the amygdala posteroventral part" abbreviation="MEApv" />
+</token>
+<token canonical="Bed nucleus of the accessory olfactory part" ref_id="bams:268">
+  <variant base="Bed nucleus of the accessory olfactory part" abbreviation="BA" />
+</token>
+<token canonical="Intercalated nuclei of the amygdala" ref_id="bams:269">
+  <variant base="Intercalated nuclei of the amygdala" abbreviation="IA" />
+</token>
+<token canonical="Globus pallidus external segment" ref_id="bams:11877">
+  <variant base="Globus pallidus external segment" abbreviation="GPe" />
+</token>
+<token canonical="Globus pallidus internal segment" ref_id="bams:11876">
+  <variant base="Globus pallidus internal segment" abbreviation="GPi" />
+</token>
+<token canonical="Substantia innominata" ref_id="bams:407">
+  <variant base="Substantia innominata" abbreviation="SI" />
+</token>
+<token canonical="Magnocellular preoptic nucleus" ref_id="bams:408">
+  <variant base="Magnocellular preoptic nucleus" abbreviation="MA" />
+</token>
+<token canonical="Medial septal nucleus" ref_id="bams:410">
+  <variant base="Medial septal nucleus" abbreviation="MS" />
+</token>
+<token canonical="Nucleus of the diagonal band" ref_id="bams:411">
+  <variant base="Nucleus of the diagonal band" abbreviation="NDB" />
+</token>
+<token canonical="Triangular nucleus of the septum" ref_id="bams:412">
+  <variant base="Triangular nucleus of the septum" abbreviation="TRS" />
+</token>
+<token canonical="Bed nuclei of the stria terminalis anterolateral area" ref_id="bams:107">
+  <variant base="Bed nuclei of the stria terminalis anterolateral area" abbreviation="BSTal" />
+</token>
+<token canonical="Bed nuclei of the stria terminalis anteromedial area" ref_id="bams:11843">
+  <variant base="Bed nuclei of the stria terminalis anteromedial area" abbreviation="BSTam" />
+</token>
+<token canonical="Bed nuclei of the stria terminalis oval nucleus" ref_id="bams:109">
+  <variant base="Bed nuclei of the stria terminalis oval nucleus" abbreviation="BSTov" />
+</token>
+<token canonical="Bed nuclei of the stria terminalis juxtacapsular nucleus" ref_id="bams:110">
+  <variant base="Bed nuclei of the stria terminalis juxtacapsular nucleus" abbreviation="BSTju" />
+</token>
+<token canonical="Bed nuclei of the stria terminalis rhomboid nucleus" ref_id="bams:111">
+  <variant base="Bed nuclei of the stria terminalis rhomboid nucleus" abbreviation="BSTrh" />
+</token>
+<token canonical="Bed nuclei of the stria terminalis anterior division dorsomedial nucleus" ref_id="bams:112">
+  <variant base="Bed nuclei of the stria terminalis anterior division dorsomedial nucleus" abbreviation="BSTdm" />
+</token>
+<token canonical="Bed nuclei of the stria terminalis anterior division fusiform nucleus" ref_id="bams:114">
+  <variant base="Bed nuclei of the stria terminalis anterior division fusiform nucleus" abbreviation="BSTfu" />
+</token>
+<token canonical="Bed nuclei of the stria terminalis anterior division ventral nucleus" ref_id="bams:115">
+  <variant base="Bed nuclei of the stria terminalis anterior division ventral nucleus" abbreviation="BSTv" />
+</token>
+<token canonical="Bed nuclei of the stria terminalis anterior division magnocellular nucleus" ref_id="bams:116">
+  <variant base="Bed nuclei of the stria terminalis anterior division magnocellular nucleus" abbreviation="BSTmg" />
+</token>
+<token canonical="Bed nuclei of the stria terminalis posterior division principal nucleus" ref_id="bams:118">
+  <variant base="Bed nuclei of the stria terminalis posterior division principal nucleus" abbreviation="BSTpr" />
+</token>
+<token canonical="Bed nuclei of the stria terminalis posterior division interfascicular nucleus" ref_id="bams:119">
+  <variant base="Bed nuclei of the stria terminalis posterior division interfascicular nucleus" abbreviation="BSTif" />
+</token>
+<token canonical="Bed nuclei of the stria terminalis posterior division transverse nucleus" ref_id="bams:120">
+  <variant base="Bed nuclei of the stria terminalis posterior division transverse nucleus" abbreviation="BSTtr" />
+</token>
+<token canonical="Bed nuclei of the stria terminalis posterior division premedullary nucleus" ref_id="bams:121">
+  <variant base="Bed nuclei of the stria terminalis posterior division premedullary nucleus" abbreviation="BSTpm" />
+</token>
+<token canonical="Bed nuclei of the stria terminalis posterior division dorsal nucleus" ref_id="bams:122">
+  <variant base="Bed nuclei of the stria terminalis posterior division dorsal nucleus" abbreviation="BSTd" />
+</token>
+<token canonical="Bed nuclei of the stria terminalis posterior division strial extension" ref_id="bams:123">
+  <variant base="Bed nuclei of the stria terminalis posterior division strial extension" abbreviation="BSTse" />
+</token>
+<token canonical="Bed nuclei of the stria terminalis posterior division cell-sparse zone" ref_id="bams:124">
+  <variant base="Bed nuclei of the stria terminalis posterior division cell-sparse zone" abbreviation="BSTsz" />
+</token>
+<token canonical="Bed nucleus of the anterior commissure" ref_id="bams:125">
+  <variant base="Bed nucleus of the anterior commissure" abbreviation="BAC" />
+</token>
+<token canonical="Bed nucleus of the stria medularis" ref_id="bams:126">
+  <variant base="Bed nucleus of the stria medularis" abbreviation="BSM" />
+</token>
+<token canonical="Lingula (l)" ref_id="bams:791">
+  <variant base="Lingula (l)" abbreviation="LING" />
+</token>
+<token canonical="Central lobule, lobule II" ref_id="bams:793">
+  <variant base="Central lobule, lobule II" abbreviation="CENT2" />
+</token>
+<token canonical="Central lobule, lobule III" ref_id="bams:796">
+  <variant base="Central lobule, lobule III" abbreviation="CENT3" />
+</token>
+<token canonical="Culmen lobule IV" ref_id="bams:800">
+  <variant base="Culmen lobule IV" abbreviation="CUL4" />
+</token>
+<token canonical="Culmen lobule V" ref_id="bams:801">
+  <variant base="Culmen lobule V" abbreviation="CUL5" />
+</token>
+<token canonical="Declive (VI)" ref_id="bams:802">
+  <variant base="Declive (VI)" abbreviation="DEC" />
+</token>
+<token canonical="Folium-tuber vermis (VII)" ref_id="bams:807">
+  <variant base="Folium-tuber vermis (VII)" abbreviation="FOTU" />
+</token>
+<token canonical="Pyramus" ref_id="bams:808">
+  <variant base="Pyramus" abbreviation="PYR" />
+</token>
+<token canonical="Uvula (IX)" ref_id="bams:811">
+  <variant base="Uvula (IX)" abbreviation="UVU" />
+</token>
+<token canonical="Nodulus (X)" ref_id="bams:814">
+  <variant base="Nodulus (X)" abbreviation="NOD" />
+</token>
+<token canonical="Simple lobule" ref_id="bams:818">
+  <variant base="Simple lobule" abbreviation="SIM" />
+</token>
+<token canonical="Ansiform lobule" ref_id="bams:821">
+  <variant base="Ansiform lobule" abbreviation="AN" />
+</token>
+<token canonical="Paramedian lobule" ref_id="bams:830">
+  <variant base="Paramedian lobule" abbreviation="PRM" />
+</token>
+<token canonical="Copula pyramidis" ref_id="bams:831">
+  <variant base="Copula pyramidis" abbreviation="COPY" />
+</token>
+<token canonical="Paraflocculus" ref_id="bams:834">
+  <variant base="Paraflocculus" abbreviation="PFL" />
+</token>
+<token canonical="Flocculus" ref_id="bams:835">
+  <variant base="Flocculus" abbreviation="FL" />
+</token>
+<token canonical="Fastigial nucleus" ref_id="bams:837">
+  <variant base="Fastigial nucleus" abbreviation="FN" />
+</token>
+<token canonical="Interposed nucleus main part" ref_id="bams:12164">
+  <variant base="Interposed nucleus main part" abbreviation="IPm" />
+</token>
+<token canonical="Interposed nucleus parvicellular part" ref_id="bams:839">
+  <variant base="Interposed nucleus parvicellular part" abbreviation="IPp" />
+</token>
+<token canonical="Dentate nucleus magnocellular part" ref_id="bams:12167">
+  <variant base="Dentate nucleus magnocellular part" abbreviation="DNm" />
+</token>
+<token canonical="Dentate nucleus parvicellular part" ref_id="bams:842">
+  <variant base="Dentate nucleus parvicellular part" abbreviation="DNp" />
+</token>
+<token canonical="Ventral anterior-lateral complex of the thalamus" ref_id="bams:98">
+  <variant base="Ventral anterior-lateral complex of the thalamus" abbreviation="VAL" />
+</token>
+<token canonical="Ventral medial nucleus of the thalamus" ref_id="bams:99">
+  <variant base="Ventral medial nucleus of the thalamus" abbreviation="VM" />
+</token>
+<token canonical="Ventral posterolateral nucleus of the thalamus, general" ref_id="bams:12575">
+  <variant base="Ventral posterolateral nucleus of the thalamus, general" abbreviation="VPLg" />
+</token>
+<token canonical="Ventral posterolateral nucleus of the thalamus" ref_id="bams:324">
+  <variant base="Ventral posterolateral nucleus of the thalamus" abbreviation="VPL" />
+</token>
+<token canonical="Ventral posterolateral nucleus of the thalamus parvicellular part" ref_id="bams:325">
+  <variant base="Ventral posterolateral nucleus of the thalamus parvicellular part" abbreviation="VPLpc" />
+</token>
+<token canonical="Ventral posteromedial nucleus of the thalamus" ref_id="bams:326">
+  <variant base="Ventral posteromedial nucleus of the thalamus" abbreviation="VPM" />
+</token>
+<token canonical="Ventral posteromedial nucleus of the thalamus parvicellular part" ref_id="bams:327">
+  <variant base="Ventral posteromedial nucleus of the thalamus parvicellular part" abbreviation="VPMpc" />
+</token>
+<token canonical="Subparafascicular nucleus magnocellular part" ref_id="bams:353">
+  <variant base="Subparafascicular nucleus magnocellular part" abbreviation="SPFm" />
+</token>
+<token canonical="Subparafascicular nucleus parvicellular part medial division" ref_id="bams:12577">
+  <variant base="Subparafascicular nucleus parvicellular part medial division" abbreviation="SPFpm" />
+</token>
+<token canonical="Subparafascicular nucleus parvicellular part lateral division" ref_id="bams:12578">
+  <variant base="Subparafascicular nucleus parvicellular part lateral division" abbreviation="SPFpl" />
+</token>
+<token canonical="Peripeduncular nucleus" ref_id="bams:351">
+  <variant base="Peripeduncular nucleus" abbreviation="PP" />
+</token>
+<token canonical="Medial geniculate complex dorsal part" ref_id="bams:330">
+  <variant base="Medial geniculate complex dorsal part" abbreviation="MGd" />
+</token>
+<token canonical="Medial geniculate complex ventral part" ref_id="bams:331">
+  <variant base="Medial geniculate complex ventral part" abbreviation="MGv" />
+</token>
+<token canonical="Medial geniculate complex medial part" ref_id="bams:332">
+  <variant base="Medial geniculate complex medial part" abbreviation="MGm" />
+</token>
+<token canonical="Dorsal part of the lateral geniculate complex" ref_id="bams:333">
+  <variant base="Dorsal part of the lateral geniculate complex" abbreviation="LGd" />
+</token>
+<token canonical="Lateral posterior nucleus of the thalamus" ref_id="bams:93">
+  <variant base="Lateral posterior nucleus of the thalamus" abbreviation="LP" />
+</token>
+<token canonical="Posterior complex of the thalamus" ref_id="bams:94">
+  <variant base="Posterior complex of the thalamus" abbreviation="PO" />
+</token>
+<token canonical="Suprageniculate nucleus" ref_id="bams:95">
+  <variant base="Suprageniculate nucleus" abbreviation="SGN" />
+</token>
+<token canonical="Posterior limiting nucleus of the thalamus" ref_id="bams:96">
+  <variant base="Posterior limiting nucleus of the thalamus" abbreviation="POL" />
+</token>
+<token canonical="Anteroventral nucleus of thalamus" ref_id="bams:56">
+  <variant base="Anteroventral nucleus of thalamus" abbreviation="AV" />
+</token>
+<token canonical="Anteromedial nucleus of thalamus dorsal part" ref_id="bams:58">
+  <variant base="Anteromedial nucleus of thalamus dorsal part" abbreviation="AMd" />
+</token>
+<token canonical="Anteromedial nucleus of thalamus ventral part" ref_id="bams:59">
+  <variant base="Anteromedial nucleus of thalamus ventral part" abbreviation="AMv" />
+</token>
+<token canonical="Anterodorsal nucleus of the thalamus" ref_id="bams:60">
+  <variant base="Anterodorsal nucleus of the thalamus" abbreviation="AD" />
+</token>
+<token canonical="Interanterodorsal nucleus of the thalamus" ref_id="bams:62">
+  <variant base="Interanterodorsal nucleus of the thalamus" abbreviation="IAD" />
+</token>
+<token canonical="Lateral dorsal nucleus of thalamus" ref_id="bams:63">
+  <variant base="Lateral dorsal nucleus of thalamus" abbreviation="LD" />
+</token>
+<token canonical="Mediodorsal nucleus of the thalamus medial part" ref_id="bams:66">
+  <variant base="Mediodorsal nucleus of the thalamus medial part" abbreviation="MDm" />
+</token>
+<token canonical="Mediodorsal nucleus of the thalamus central part" ref_id="bams:67">
+  <variant base="Mediodorsal nucleus of the thalamus central part" abbreviation="MDc" />
+</token>
+<token canonical="Mediodorsal nucleus of the thalamus lateral part" ref_id="bams:68">
+  <variant base="Mediodorsal nucleus of the thalamus lateral part" abbreviation="MDl" />
+</token>
+<token canonical="Intermediodorsal nucleus of the thalamus" ref_id="bams:69">
+  <variant base="Intermediodorsal nucleus of the thalamus" abbreviation="IMD" />
+</token>
+<token canonical="Submedial nucleus of the thalamus" ref_id="bams:70">
+  <variant base="Submedial nucleus of the thalamus" abbreviation="SMT" />
+</token>
+<token canonical="Perireunensis nucleus" ref_id="bams:71">
+  <variant base="Perireunensis nucleus" abbreviation="PR" />
+</token>
+<token canonical="Paraventricular nucleus of the thalamus" ref_id="bams:73">
+  <variant base="Paraventricular nucleus of the thalamus" abbreviation="PVT" />
+</token>
+<token canonical="Parataenial nucleus" ref_id="bams:74">
+  <variant base="Parataenial nucleus" abbreviation="PT" />
+</token>
+<token canonical="Nucleus reuniens rostral division anterior part" ref_id="bams:11103">
+  <variant base="Nucleus reuniens rostral division anterior part" abbreviation="REa" />
+</token>
+<token canonical="Nucleus reuniens rostral division dorsal part" ref_id="bams:12196">
+  <variant base="Nucleus reuniens rostral division dorsal part" abbreviation="REd" />
+</token>
+<token canonical="Nucleus reuniens rostral division ventral part" ref_id="bams:12197">
+  <variant base="Nucleus reuniens rostral division ventral part" abbreviation="REv" />
+</token>
+<token canonical="Nucleus reuniens rostral division lateral part" ref_id="bams:12198">
+  <variant base="Nucleus reuniens rostral division lateral part" abbreviation="REl" />
+</token>
+<token canonical="Nucleus reuniens rostral division median part" ref_id="bams:12199">
+  <variant base="Nucleus reuniens rostral division median part" abbreviation="REm" />
+</token>
+<token canonical="Nucleus reuniens caudal division caudal part" ref_id="bams:83">
+  <variant base="Nucleus reuniens caudal division caudal part" abbreviation="RECc" />
+</token>
+<token canonical="Nucleus reuniens caudal division dorsal part" ref_id="bams:84">
+  <variant base="Nucleus reuniens caudal division dorsal part" abbreviation="RECd" />
+</token>
+<token canonical="Nucleus reuniens caudal division median part" ref_id="bams:85">
+  <variant base="Nucleus reuniens caudal division median part" abbreviation="RECm" />
+</token>
+<token canonical="Rhomboid nucleus" ref_id="bams:87">
+  <variant base="Rhomboid nucleus" abbreviation="RH" />
+</token>
+<token canonical="Central medial nucleus of the thalamus" ref_id="bams:88">
+  <variant base="Central medial nucleus of the thalamus" abbreviation="CM" />
+</token>
+<token canonical="Paracentral nucleus of the thalamus" ref_id="bams:12207">
+  <variant base="Paracentral nucleus of the thalamus" abbreviation="PCN" />
+</token>
+<token canonical="Central lateral nucleus of the thalamus" ref_id="bams:90">
+  <variant base="Central lateral nucleus of the thalamus" abbreviation="CL" />
+</token>
+<token canonical="Parafascicular nucleus" ref_id="bams:91">
+  <variant base="Parafascicular nucleus" abbreviation="PF" />
+</token>
+<token canonical="Reticular nucleus of the thalamus" ref_id="bams:341">
+  <variant base="Reticular nucleus of the thalamus" abbreviation="RT" />
+</token>
+<token canonical="Retina, outer nuclear layer" ref_id="bams:844">
+  <variant base="Retina, outer nuclear layer" abbreviation="Ronl" />
+</token>
+<token canonical="Superior colliculus zonal layer" ref_id="bams:417">
+  <variant base="Superior colliculus zonal layer" abbreviation="SCzo" />
+</token>
+<token canonical="Superior colliculus superficial gray layer" ref_id="bams:418">
+  <variant base="Superior colliculus superficial gray layer" abbreviation="SCsg" />
+</token>
+<token canonical="Superior colliculus optic layer" ref_id="bams:419">
+  <variant base="Superior colliculus optic layer" abbreviation="SCop" />
+</token>
+<token canonical="Parageminal nucleus" ref_id="bams:427">
+  <variant base="Parageminal nucleus" abbreviation="PBG" />
+</token>
+<token canonical="Mesencephalic nucleus of the trigeminal" ref_id="bams:440">
+  <variant base="Mesencephalic nucleus of the trigeminal" abbreviation="MEV" />
+</token>
+<token canonical="Principal sensory nucleus of the trigeminal" ref_id="bams:441">
+  <variant base="Principal sensory nucleus of the trigeminal" abbreviation="PSV" />
+</token>
+<token canonical="Spinal nucleus of the trigeminal oral part ventrolateral part" ref_id="bams:444">
+  <variant base="Spinal nucleus of the trigeminal oral part ventrolateral part" abbreviation="SPVOvl" />
+</token>
+<token canonical="Spinal nucleus of the trigeminal oral part rostral dorsomedial part" ref_id="bams:445">
+  <variant base="Spinal nucleus of the trigeminal oral part rostral dorsomedial part" abbreviation="SPVOrdm" />
+</token>
+<token canonical="Spinal nucleus of the trigeminal oral part middle dorsomedial part, dorsal zone" ref_id="bams:446">
+  <variant base="Spinal nucleus of the trigeminal oral part middle dorsomedial part, dorsal zone" abbreviation="SPVOmdmd" />
+</token>
+<token canonical="Spinal nucleus of the trigeminal oral part middle dorsomedial part, ventral zone" ref_id="bams:12522">
+  <variant base="Spinal nucleus of the trigeminal oral part middle dorsomedial part, ventral zone" abbreviation="SPVOmdmv" />
+</token>
+<token canonical="Spinal nucleus of the trigeminal oral part caudal dorsomedial part" ref_id="bams:448">
+  <variant base="Spinal nucleus of the trigeminal oral part caudal dorsomedial part" abbreviation="SPVOcdm" />
+</token>
+<token canonical="Spinal nucleus of the trigeminal interpolar part" ref_id="bams:449">
+  <variant base="Spinal nucleus of the trigeminal interpolar part" abbreviation="SPVI" />
+</token>
+<token canonical="Spinal nucleus of the trigeminal caudal part" ref_id="bams:450">
+  <variant base="Spinal nucleus of the trigeminal caudal part" abbreviation="SPVC" />
+</token>
+<token canonical="Paratrigeminal nucleus" ref_id="bams:451">
+  <variant base="Paratrigeminal nucleus" abbreviation="PAT" />
+</token>
+<token canonical="Gracile nucleus" ref_id="bams:453">
+  <variant base="Gracile nucleus" abbreviation="GR" />
+</token>
+<token canonical="Gracile nucleus median part" ref_id="bams:454">
+  <variant base="Gracile nucleus median part" abbreviation="GRm" />
+</token>
+<token canonical="Cuneate nucleus" ref_id="bams:456">
+  <variant base="Cuneate nucleus" abbreviation="CU" />
+</token>
+<token canonical="Nucleus z" ref_id="bams:457">
+  <variant base="Nucleus z" abbreviation="z" />
+</token>
+<token canonical="External cuneate nucleus" ref_id="bams:458">
+  <variant base="External cuneate nucleus" abbreviation="ECU" />
+</token>
+<token canonical="Marginal zone of the spinal cord" ref_id="bams:609">
+  <variant base="Marginal zone of the spinal cord" abbreviation="MZ" />
+</token>
+<token canonical="Substantia gelatinosa of the spinal cord" ref_id="bams:610">
+  <variant base="Substantia gelatinosa of the spinal cord" abbreviation="SGE" />
+</token>
+<token canonical="Nucleus proprius of the spinal cord" ref_id="bams:611">
+  <variant base="Nucleus proprius of the spinal cord" abbreviation="NP" />
+</token>
+<token canonical="Reticular nucleus of the spinal cord" ref_id="bams:612">
+  <variant base="Reticular nucleus of the spinal cord" abbreviation="RS" />
+</token>
+<token canonical="Basal nucleus of the dorsal horn" ref_id="bams:613">
+  <variant base="Basal nucleus of the dorsal horn" abbreviation="BN" />
+</token>
+<token canonical="Lateral cervical nucleus" ref_id="bams:614">
+  <variant base="Lateral cervical nucleus" abbreviation="LCN" />
+</token>
+<token canonical="Lateral spinal nucleus" ref_id="bams:615">
+  <variant base="Lateral spinal nucleus" abbreviation="LSN" />
+</token>
+<token canonical="Intermediate Gray of the Spinal Cord" ref_id="bams:616">
+  <variant base="Intermediate Gray of the Spinal Cord" abbreviation="IH" />
+</token>
+<token canonical="Central cervical nucleus" ref_id="bams:617">
+  <variant base="Central cervical nucleus" abbreviation="CEC" />
+</token>
+<token canonical="Dorsal nucleus of the spinal cord" ref_id="bams:618">
+  <variant base="Dorsal nucleus of the spinal cord" abbreviation="DSN" />
+</token>
+<token canonical="Dorsal nucleus of the spinal cord caudal part" ref_id="bams:619">
+  <variant base="Dorsal nucleus of the spinal cord caudal part" abbreviation="DSNc" />
+</token>
+<token canonical="Dorsal coclear nucleus" ref_id="bams:461">
+  <variant base="Dorsal coclear nucleus" abbreviation="DCO" />
+</token>
+<token canonical="Ventral coclear nucleus anterior part" ref_id="bams:463">
+  <variant base="Ventral coclear nucleus anterior part" abbreviation="VCOa" />
+</token>
+<token canonical="Ventral coclear nucleus posterior part" ref_id="bams:464">
+  <variant base="Ventral coclear nucleus posterior part" abbreviation="VCOp" />
+</token>
+<token canonical="Subpeduncular granular region of the cochlear nuclei" ref_id="bams:465">
+  <variant base="Subpeduncular granular region of the cochlear nuclei" abbreviation="CNspg" />
+</token>
+<token canonical="Granular lamina of the cochlear nuclei" ref_id="bams:12503">
+  <variant base="Granular lamina of the cochlear nuclei" abbreviation="CNlam" />
+</token>
+<token canonical="Interstitial nucleus of the auditory nerve" ref_id="bams:467">
+  <variant base="Interstitial nucleus of the auditory nerve" abbreviation="IAN" />
+</token>
+<token canonical="Nucleus of the trapezoid body" ref_id="bams:468">
+  <variant base="Nucleus of the trapezoid body" abbreviation="NTB" />
+</token>
+<token canonical="Superior olivary complex medial part" ref_id="bams:470">
+  <variant base="Superior olivary complex medial part" abbreviation="SOCm" />
+</token>
+<token canonical="Superior olivary complex lateral part" ref_id="bams:471">
+  <variant base="Superior olivary complex lateral part" abbreviation="SOCl" />
+</token>
+<token canonical="Superior olivary complex periolivary region" ref_id="bams:472">
+  <variant base="Superior olivary complex periolivary region" abbreviation="POR" />
+</token>
+<token canonical="Nucleus of the lateral lemniscus dorsal part" ref_id="bams:12584">
+  <variant base="Nucleus of the lateral lemniscus dorsal part" abbreviation="NLLd" />
+</token>
+<token canonical="Nucleus of the lateral lemniscus horizontal part" ref_id="bams:12585">
+  <variant base="Nucleus of the lateral lemniscus horizontal part" abbreviation="Nllh" />
+</token>
+<token canonical="Nucleus of the lateral lemniscus ventral part" ref_id="bams:12586">
+  <variant base="Nucleus of the lateral lemniscus ventral part" abbreviation="NLLv" />
+</token>
+<token canonical="Inferior colliculus external nucleus" ref_id="bams:475">
+  <variant base="Inferior colliculus external nucleus" abbreviation="ICe" />
+</token>
+<token canonical="Inferior colliculus dorsal nucleus" ref_id="bams:476">
+  <variant base="Inferior colliculus dorsal nucleus" abbreviation="ICd" />
+</token>
+<token canonical="Inferior colliculus central nucleus" ref_id="bams:477">
+  <variant base="Inferior colliculus central nucleus" abbreviation="ICc" />
+</token>
+<token canonical="Nucleus of the brachium of the inferior colliculus" ref_id="bams:478">
+  <variant base="Nucleus of the brachium of the inferior colliculus" abbreviation="NB" />
+</token>
+<token canonical="Nucleus sagulum" ref_id="bams:479">
+  <variant base="Nucleus sagulum" abbreviation="SAG" />
+</token>
+<token canonical="Nucleus of the solitary tract medial part" ref_id="bams:500">
+  <variant base="Nucleus of the solitary tract medial part" abbreviation="NTSm" />
+</token>
+<token canonical="Nucleus of the solitary tract central part" ref_id="bams:496">
+  <variant base="Nucleus of the solitary tract central part" abbreviation="NTSce" />
+</token>
+<token canonical="Nucleus of the solitary tract commissural part" ref_id="bams:497">
+  <variant base="Nucleus of the solitary tract commissural part" abbreviation="NTSco" />
+</token>
+<token canonical="Nucleus of the solitary tract gelatinous part" ref_id="bams:498">
+  <variant base="Nucleus of the solitary tract gelatinous part" abbreviation="NTSge" />
+</token>
+<token canonical="Nucleus of the solitary tract lateral part" ref_id="bams:499">
+  <variant base="Nucleus of the solitary tract lateral part" abbreviation="NTSl" />
+</token>
+<token canonical="Nucleus of the solitary tract medial part caudal zone" ref_id="bams:12467">
+  <variant base="Nucleus of the solitary tract medial part caudal zone" abbreviation="NTSmc" />
+</token>
+<token canonical="Parabrachial nucleus lateral division central lateral part" ref_id="bams:506">
+  <variant base="Parabrachial nucleus lateral division central lateral part" abbreviation="PBlc" />
+</token>
+<token canonical="Parabrachial nucleus lateral division dorsal lateral part" ref_id="bams:507">
+  <variant base="Parabrachial nucleus lateral division dorsal lateral part" abbreviation="PBld" />
+</token>
+<token canonical="Parabrachial nucleus lateral division external lateral part" ref_id="bams:508">
+  <variant base="Parabrachial nucleus lateral division external lateral part" abbreviation="PBle" />
+</token>
+<token canonical="Parabrachial nucleus lateral division extreme lateral part" ref_id="bams:509">
+  <variant base="Parabrachial nucleus lateral division extreme lateral part" abbreviation="PBlex" />
+</token>
+<token canonical="Parabrachial nucleus lateral division internal lateral part" ref_id="bams:510">
+  <variant base="Parabrachial nucleus lateral division internal lateral part" abbreviation="PBli" />
+</token>
+<token canonical="Parabrachial nucleus lateral division superior lateral part" ref_id="bams:511">
+  <variant base="Parabrachial nucleus lateral division superior lateral part" abbreviation="PBls" />
+</token>
+<token canonical="Parabrachial nucleus lateral division ventral lateral part" ref_id="bams:512">
+  <variant base="Parabrachial nucleus lateral division ventral lateral part" abbreviation="PBlv" />
+</token>
+<token canonical="Kolliker-Fuse subnucleus" ref_id="bams:513">
+  <variant base="Kolliker-Fuse subnucleus" abbreviation="KF" />
+</token>
+<token canonical="Parabrachial nucleus medial division medial medial part" ref_id="bams:515">
+  <variant base="Parabrachial nucleus medial division medial medial part" abbreviation="PBmm" />
+</token>
+<token canonical="Parabrachial nucleus medial division external medial part" ref_id="bams:516">
+  <variant base="Parabrachial nucleus medial division external medial part" abbreviation="PBme" />
+</token>
+<token canonical="Parabrachial nucleus medial division ventral medial part" ref_id="bams:517">
+  <variant base="Parabrachial nucleus medial division ventral medial part" abbreviation="PBmv" />
+</token>
+<token canonical="Vascular organ of the lamina terminalis" ref_id="bams:228">
+  <variant base="Vascular organ of the lamina terminalis" abbreviation="OV" />
+</token>
+<token canonical="Subfornical organ" ref_id="bams:334">
+  <variant base="Subfornical organ" abbreviation="SFO" />
+</token>
+<token canonical="Area postrema" ref_id="bams:503">
+  <variant base="Area postrema" abbreviation="AP" />
+</token>
+<token canonical="Ventrolateral preoptic nucleus" ref_id="bams:12591">
+  <variant base="Ventrolateral preoptic nucleus" abbreviation="VLP" />
+</token>
+<token canonical="Suprachiasmatic nucleus dorsomedial part" ref_id="bams:296">
+  <variant base="Suprachiasmatic nucleus dorsomedial part" abbreviation="SCHd" />
+</token>
+<token canonical="Suprachiasmatic nucleus ventrolateral part" ref_id="bams:297">
+  <variant base="Suprachiasmatic nucleus ventrolateral part" abbreviation="SCHv" />
+</token>
+<token canonical="Subparaventricular zone" ref_id="bams:298">
+  <variant base="Subparaventricular zone" abbreviation="SBPV" />
+</token>
+<token canonical="Lateral hypothalamic area, dorsal region" ref_id="bams:12651">
+  <variant base="Lateral hypothalamic area, dorsal region" abbreviation="LHAd" />
+</token>
+<token canonical="Tuberomammillary nucleus dorsal part" ref_id="bams:309">
+  <variant base="Tuberomammillary nucleus dorsal part" abbreviation="TMd" />
+</token>
+<token canonical="Tuberomammillary nucleus ventral part" ref_id="bams:310">
+  <variant base="Tuberomammillary nucleus ventral part" abbreviation="TMv" />
+</token>
+<token canonical="Supramammillary nucleus medial part" ref_id="bams:313">
+  <variant base="Supramammillary nucleus medial part" abbreviation="SUMm" />
+</token>
+<token canonical="Supramammillary nucleus lateral part" ref_id="bams:312">
+  <variant base="Supramammillary nucleus lateral part" abbreviation="SUMl" />
+</token>
+<token canonical="Substantia nigra compact part" ref_id="bams:533">
+  <variant base="Substantia nigra compact part" abbreviation="SNc" />
+</token>
+<token canonical="Pedunculopontine nucleus" ref_id="bams:591">
+  <variant base="Pedunculopontine nucleus" abbreviation="PPN" />
+</token>
+<token canonical="Pontine reticular nucleus rostral part" ref_id="bams:595">
+  <variant base="Pontine reticular nucleus rostral part" abbreviation="PRNr" />
+</token>
+<token canonical="Interfascicular nucleus raphe" ref_id="bams:563">
+  <variant base="Interfascicular nucleus raphe" abbreviation="IF" />
+</token>
+<token canonical="Interpeduncular nucleus rostral subnucleus" ref_id="bams:578">
+  <variant base="Interpeduncular nucleus rostral subnucleus" abbreviation="IPNr" />
+</token>
+<token canonical="Interpeduncular nucleus apical subnucleus" ref_id="bams:579">
+  <variant base="Interpeduncular nucleus apical subnucleus" abbreviation="IPNa" />
+</token>
+<token canonical="Interpeduncular nucleus dorsomedial subnucleus" ref_id="bams:580">
+  <variant base="Interpeduncular nucleus dorsomedial subnucleus" abbreviation="IPNd" />
+</token>
+<token canonical="Interpeduncular nucleus lateral subnucleus dorsal part" ref_id="bams:582">
+  <variant base="Interpeduncular nucleus lateral subnucleus dorsal part" abbreviation="IPNld" />
+</token>
+<token canonical="Interpeduncular nucleus lateral subnucleus intermediate part" ref_id="bams:583">
+  <variant base="Interpeduncular nucleus lateral subnucleus intermediate part" abbreviation="IPNli" />
+</token>
+<token canonical="Interpeduncular nucleus lateral subnucleus ventral part" ref_id="bams:584">
+  <variant base="Interpeduncular nucleus lateral subnucleus ventral part" abbreviation="IPNlv" />
+</token>
+<token canonical="Interpeduncular nucleus lateral subnucleus rostral part" ref_id="bams:585">
+  <variant base="Interpeduncular nucleus lateral subnucleus rostral part" abbreviation="IPNlr" />
+</token>
+<token canonical="Interpeduncular nucleus intermediate subnucleus" ref_id="bams:586">
+  <variant base="Interpeduncular nucleus intermediate subnucleus" abbreviation="IPNi" />
+</token>
+<token canonical="Interpeduncular nucleus central subnucleus" ref_id="bams:587">
+  <variant base="Interpeduncular nucleus central subnucleus" abbreviation="IPNc" />
+</token>
+<token canonical="Rostral linear nucleus raphe" ref_id="bams:564">
+  <variant base="Rostral linear nucleus raphe" abbreviation="RL" />
+</token>
+<token canonical="Central linear nucleus raphe" ref_id="bams:565">
+  <variant base="Central linear nucleus raphe" abbreviation="CLI" />
+</token>
+<token canonical="Superior central nucleus raphe medial part" ref_id="bams:567">
+  <variant base="Superior central nucleus raphe medial part" abbreviation="CSm" />
+</token>
+<token canonical="Superior central nucleus raphe lateral part" ref_id="bams:568">
+  <variant base="Superior central nucleus raphe lateral part" abbreviation="CSl" />
+</token>
+<token canonical="Dorsal nucleus raphe" ref_id="bams:569">
+  <variant base="Dorsal nucleus raphe" abbreviation="DR" />
+</token>
+<token canonical="Nucleus incertus compact part" ref_id="bams:571">
+  <variant base="Nucleus incertus compact part" abbreviation="NIc" />
+</token>
+<token canonical="Nucleus incertus diffuse part" ref_id="bams:572">
+  <variant base="Nucleus incertus diffuse part" abbreviation="NId" />
+</token>
+<token canonical="Nucleus raphe pontis" ref_id="bams:573">
+  <variant base="Nucleus raphe pontis" abbreviation="RPO" />
+</token>
+<token canonical="Nucleus raphe magnus" ref_id="bams:574">
+  <variant base="Nucleus raphe magnus" abbreviation="RM" />
+</token>
+<token canonical="Nucleus raphe pallidus" ref_id="bams:575">
+  <variant base="Nucleus raphe pallidus" abbreviation="RPA" />
+</token>
+<token canonical="Nucleus raphe obscurus" ref_id="bams:576">
+  <variant base="Nucleus raphe obscurus" abbreviation="RO" />
+</token>
+<token canonical="Laterodorsal tegmental nucleus" ref_id="bams:555">
+  <variant base="Laterodorsal tegmental nucleus" abbreviation="LDT" />
+</token>
+<token canonical="Sublaterodorsal nucleus" ref_id="bams:556">
+  <variant base="Sublaterodorsal nucleus" abbreviation="SLD" />
+</token>
+<token canonical="Locus coeruleus" ref_id="bams:557">
+  <variant base="Locus coeruleus" abbreviation="LC" />
+</token>
+<token canonical="Subcoeruleus nucleus" ref_id="bams:558">
+  <variant base="Subcoeruleus nucleus" abbreviation="SLC" />
+</token>
+<token canonical="Medial preoptic nucleus lateral part" ref_id="bams:282">
+  <variant base="Medial preoptic nucleus lateral part" abbreviation="MPNl" />
+</token>
+<token canonical="Medial preoptic nucleus medial part" ref_id="bams:283">
+  <variant base="Medial preoptic nucleus medial part" abbreviation="MPNm" />
+</token>
+<token canonical="Medial preoptic nucleus central part" ref_id="bams:284">
+  <variant base="Medial preoptic nucleus central part" abbreviation="MPNc" />
+</token>
+<token canonical="Anterior hypothalamic nucleus anterior part" ref_id="bams:291">
+  <variant base="Anterior hypothalamic nucleus anterior part" abbreviation="AHNa" />
+</token>
+<token canonical="Anterior hypothalamic central part" ref_id="bams:292">
+  <variant base="Anterior hypothalamic central part" abbreviation="AHNc" />
+</token>
+<token canonical="Anterior hypothalamic posterior part" ref_id="bams:293">
+  <variant base="Anterior hypothalamic posterior part" abbreviation="AHNp" />
+</token>
+<token canonical="Anterior hypothalamic dorsal part" ref_id="bams:294">
+  <variant base="Anterior hypothalamic dorsal part" abbreviation="AHNd" />
+</token>
+<token canonical="Paraventricular nucleus of the hypothalamus, descending division, medial parvicellular part, ventral zone" ref_id="bams:240">
+  <variant base="Paraventricular nucleus of the hypothalamus, descending division, medial parvicellular part, ventral zone" abbreviation="PVHmpv" />
+</token>
+<token canonical="Paraventricular nucleus of the hypothalamus, descending division, dorsal parvicellular part" ref_id="bams:241">
+  <variant base="Paraventricular nucleus of the hypothalamus, descending division, dorsal parvicellular part" abbreviation="PVHdp" />
+</token>
+<token canonical="Paraventricular nucleus of the hypothalamus, descending division, lateral parvicellular part" ref_id="bams:242">
+  <variant base="Paraventricular nucleus of the hypothalamus, descending division, lateral parvicellular part" abbreviation="PVHlp" />
+</token>
+<token canonical="Paraventricular nucleus of the hypothalamus, descending division, forniceal part" ref_id="bams:243">
+  <variant base="Paraventricular nucleus of the hypothalamus, descending division, forniceal part" abbreviation="PVHf" />
+</token>
+<token canonical="Ventromedial nucleus of the hypothalamus anterior part" ref_id="bams:302">
+  <variant base="Ventromedial nucleus of the hypothalamus anterior part" abbreviation="VMHa" />
+</token>
+<token canonical="Ventromedial nucleus of the hypothalamus dorsomedial part" ref_id="bams:303">
+  <variant base="Ventromedial nucleus of the hypothalamus dorsomedial part" abbreviation="VMHdm" />
+</token>
+<token canonical="Ventromedial nucleus of the hypothalamus central part" ref_id="bams:304">
+  <variant base="Ventromedial nucleus of the hypothalamus central part" abbreviation="VMHc" />
+</token>
+<token canonical="Ventromedial nucleus of the hypothalamus ventrolateral part" ref_id="bams:305">
+  <variant base="Ventromedial nucleus of the hypothalamus ventrolateral part" abbreviation="VMHvl" />
+</token>
+<token canonical="Ventral premammillary nucleus" ref_id="bams:306">
+  <variant base="Ventral premammillary nucleus" abbreviation="PMv" />
+</token>
+<token canonical="Dorsal premammillary nucleus" ref_id="bams:314">
+  <variant base="Dorsal premammillary nucleus" abbreviation="PMd" />
+</token>
+<token canonical="Medial mammillary nucleus" ref_id="bams:315">
+  <variant base="Medial mammillary nucleus" abbreviation="MM" />
+</token>
+<token canonical="Medial mammillary nucleus median part" ref_id="bams:316">
+  <variant base="Medial mammillary nucleus median part" abbreviation="MMme" />
+</token>
+<token canonical="Lateral mammillary nucleus" ref_id="bams:317">
+  <variant base="Lateral mammillary nucleus" abbreviation="LM" />
+</token>
+<token canonical="Substantia nigra reticular part" ref_id="bams:534">
+  <variant base="Substantia nigra reticular part" abbreviation="SNr" />
+</token>
+<token canonical="Ventral tegmental area" ref_id="bams:535">
+  <variant base="Ventral tegmental area" abbreviation="VTA" />
+</token>
+<token canonical="Retrorubral area" ref_id="bams:590">
+  <variant base="Retrorubral area" abbreviation="RR" />
+</token>
+<token canonical="Midbrain reticular nucleus, parvicellular part" ref_id="bams:12382">
+  <variant base="Midbrain reticular nucleus, parvicellular part" abbreviation="MRNp" />
+</token>
+<token canonical="Superior colliculus intermediate gray layer sublayer a" ref_id="bams:421">
+  <variant base="Superior colliculus intermediate gray layer sublayer a" abbreviation="SCig-a" />
+</token>
+<token canonical="Superior colliculus intermediate gray layer sublayer b" ref_id="bams:422">
+  <variant base="Superior colliculus intermediate gray layer sublayer b" abbreviation="SCig-b" />
+</token>
+<token canonical="Superior colliculus intermediate gray layer sublayer c" ref_id="bams:423">
+  <variant base="Superior colliculus intermediate gray layer sublayer c" abbreviation="SCig-c" />
+</token>
+<token canonical="Superior colliculus intermediate white layer" ref_id="bams:424">
+  <variant base="Superior colliculus intermediate white layer" abbreviation="SCiw" />
+</token>
+<token canonical="Superior colliculus intermediate deep gray layer" ref_id="bams:425">
+  <variant base="Superior colliculus intermediate deep gray layer" abbreviation="SCdg" />
+</token>
+<token canonical="Superior colliculus intermediate deep white layer" ref_id="bams:426">
+  <variant base="Superior colliculus intermediate deep white layer" abbreviation="SCdw" />
+</token>
+<token canonical="Red nucleus" ref_id="bams:863">
+  <variant base="Red nucleus" abbreviation="RN" />
+</token>
+<token canonical="Pontine gray" ref_id="bams:850">
+  <variant base="Pontine gray" abbreviation="PG" />
+</token>
+<token canonical="Tegmental reticular nucleus" ref_id="bams:851">
+  <variant base="Tegmental reticular nucleus" abbreviation="TRN" />
+</token>
+<token canonical="Dorsal accessory olive" ref_id="bams:854">
+  <variant base="Dorsal accessory olive" abbreviation="IOda" />
+</token>
+<token canonical="Medial accessory olive" ref_id="bams:855">
+  <variant base="Medial accessory olive" abbreviation="IOma" />
+</token>
+<token canonical="Principal olive" ref_id="bams:856">
+  <variant base="Principal olive" abbreviation="IOpr" />
+</token>
+<token canonical="Lateral reticular nucleus magnocellular part" ref_id="bams:858">
+  <variant base="Lateral reticular nucleus magnocellular part" abbreviation="LRNm" />
+</token>
+<token canonical="Lateral reticular nucleus parvicellular part" ref_id="bams:859">
+  <variant base="Lateral reticular nucleus parvicellular part" abbreviation="LRNp" />
+</token>
+<token canonical="Linear nucleus of the medulla" ref_id="bams:860">
+  <variant base="Linear nucleus of the medulla" abbreviation="LIN" />
+</token>
+<token canonical="Paramedian reticular nucleus" ref_id="bams:861">
+  <variant base="Paramedian reticular nucleus" abbreviation="PMR" />
+</token>
+<token canonical="Parasolitary nucleus" ref_id="bams:862">
+  <variant base="Parasolitary nucleus" abbreviation="PAS" />
+</token>
+<token canonical="Medial vestibular nucleus" ref_id="bams:482">
+  <variant base="Medial vestibular nucleus" abbreviation="MV" />
+</token>
+<token canonical="Lateral vestibular nucleus" ref_id="bams:483">
+  <variant base="Lateral vestibular nucleus" abbreviation="LAV" />
+</token>
+<token canonical="Superior vestibular nucleus" ref_id="bams:484">
+  <variant base="Superior vestibular nucleus" abbreviation="SUV" />
+</token>
+<token canonical="Spinal vestibular nucleus" ref_id="bams:485">
+  <variant base="Spinal vestibular nucleus" abbreviation="SPIV" />
+</token>
+<token canonical="Nucleus intercalatus" ref_id="bams:487">
+  <variant base="Nucleus intercalatus" abbreviation="NIS" />
+</token>
+<token canonical="Nucleus prepositus" ref_id="bams:488">
+  <variant base="Nucleus prepositus" abbreviation="PRP" />
+</token>
+<token canonical="Nucleus of Roller" ref_id="bams:489">
+  <variant base="Nucleus of Roller" abbreviation="NR" />
+</token>
+<token canonical="Interstitial nucleus of the vestibular nerve" ref_id="bams:490">
+  <variant base="Interstitial nucleus of the vestibular nerve" abbreviation="INV" />
+</token>
+<token canonical="Nucleus x" ref_id="bams:491">
+  <variant base="Nucleus x" abbreviation="x" />
+</token>
+<token canonical="Nucleus y" ref_id="bams:492">
+  <variant base="Nucleus y" abbreviation="y" />
+</token>
+<token canonical="Infracerebellar nucleus" ref_id="bams:493">
+  <variant base="Infracerebellar nucleus" abbreviation="ICB" />
+</token>
+<token canonical="Medial habenula dorsal part" ref_id="bams:336">
+  <variant base="Medial habenula dorsal part" abbreviation="MHd" />
+</token>
+<token canonical="Medial habenula ventral part" ref_id="bams:338">
+  <variant base="Medial habenula ventral part" abbreviation="MHv" />
+</token>
+<token canonical="Lateral habenula" ref_id="bams:339">
+  <variant base="Lateral habenula" abbreviation="LH" />
+</token>
+<token canonical="Posterior hypothalamic nucleus" ref_id="bams:318">
+  <variant base="Posterior hypothalamic nucleus" abbreviation="PH" />
+</token>
+<token canonical="Precommissural nucleus" ref_id="bams:540">
+  <variant base="Precommissural nucleus" abbreviation="PRC" />
+</token>
+<token canonical="Commissural nucleus" ref_id="bams:541">
+  <variant base="Commissural nucleus" abbreviation="COM" />
+</token>
+<token canonical="Periaqueductal gray rostromedial division" ref_id="bams:542">
+  <variant base="Periaqueductal gray rostromedial division" abbreviation="PAGrm" />
+</token>
+<token canonical="Periaqueductal gray rostrolateral division" ref_id="bams:543">
+  <variant base="Periaqueductal gray rostrolateral division" abbreviation="PAGrl" />
+</token>
+<token canonical="Periaqueductal gray medial division" ref_id="bams:544">
+  <variant base="Periaqueductal gray medial division" abbreviation="PAGm" />
+</token>
+<token canonical="Periaqueductal gray dorsal division" ref_id="bams:545">
+  <variant base="Periaqueductal gray dorsal division" abbreviation="PAGd" />
+</token>
+<token canonical="Periaqueductal gray dorsolateral division" ref_id="bams:547">
+  <variant base="Periaqueductal gray dorsolateral division" abbreviation="PAGdl" />
+</token>
+<token canonical="Periaqueductal gray ventrolateral division" ref_id="bams:546">
+  <variant base="Periaqueductal gray ventrolateral division" abbreviation="PAGvl" />
+</token>
+<token canonical="Medial accessory nucleus" ref_id="bams:521">
+  <variant base="Medial accessory nucleus" abbreviation="MAN" />
+</token>
+<token canonical="Interstitial nucleus of Cajal" ref_id="bams:548">
+  <variant base="Interstitial nucleus of Cajal" abbreviation="INC" />
+</token>
+<token canonical="Nucleus of Darkschewitsch" ref_id="bams:549">
+  <variant base="Nucleus of Darkschewitsch" abbreviation="ND" />
+</token>
+<token canonical="Pontine central gray" ref_id="bams:561">
+  <variant base="Pontine central gray" abbreviation="PCG" />
+</token>
+<token canonical="Dorsal tegmental nucleus" ref_id="bams:551">
+  <variant base="Dorsal tegmental nucleus" abbreviation="DTN" />
+</token>
+<token canonical="Lateral tegmental nucleus" ref_id="bams:554">
+  <variant base="Lateral tegmental nucleus" abbreviation="LTN" />
+</token>
+<token canonical="Barrington nucleus" ref_id="bams:559">
+  <variant base="Barrington nucleus" abbreviation="B" />
+</token>
+<token canonical="Supargenual nucleus" ref_id="bams:560">
+  <variant base="Supargenual nucleus" abbreviation="SG" />
+</token>
+<token canonical="Central gray of the spinal cord" ref_id="bams:626">
+  <variant base="Central gray of the spinal cord" abbreviation="CGS" />
+</token>
+<token canonical="Median preoptic nucleus" ref_id="bams:230">
+  <variant base="Median preoptic nucleus" abbreviation="MEPO" />
+</token>
+<token canonical="Suprachiasmatic preoptic nucleus" ref_id="bams:229">
+  <variant base="Suprachiasmatic preoptic nucleus" abbreviation="PSCH" />
+</token>
+<token canonical="Anteroventral periventricular nucleus" ref_id="bams:231">
+  <variant base="Anteroventral periventricular nucleus" abbreviation="AVPV" />
+</token>
+<token canonical="Preoptic periventricular nucleus" ref_id="bams:232">
+  <variant base="Preoptic periventricular nucleus" abbreviation="PVpo" />
+</token>
+<token canonical="Anterodorsal preoptic nucleus" ref_id="bams:285">
+  <variant base="Anterodorsal preoptic nucleus" abbreviation="ADP" />
+</token>
+<token canonical="Anteroventral preoptic nucleus" ref_id="bams:286">
+  <variant base="Anteroventral preoptic nucleus" abbreviation="AVP" />
+</token>
+<token canonical="Posterodorsal preoptic nucleus" ref_id="bams:287">
+  <variant base="Posterodorsal preoptic nucleus" abbreviation="PD" />
+</token>
+<token canonical="Parastrial nucleus" ref_id="bams:288">
+  <variant base="Parastrial nucleus" abbreviation="PS" />
+</token>
+<token canonical="Medial preoptic area" ref_id="bams:280">
+  <variant base="Medial preoptic area" abbreviation="MPO" />
+</token>
+<token canonical="Anterior hypothalamic area" ref_id="bams:289">
+  <variant base="Anterior hypothalamic area" abbreviation="AHA" />
+</token>
+<token canonical="Dorsomedial nucleus of the hypothalamus anterior part" ref_id="bams:273">
+  <variant base="Dorsomedial nucleus of the hypothalamus anterior part" abbreviation="DMHa" />
+</token>
+<token canonical="Dorsomedial nucleus of the hypothalamus posterior part" ref_id="bams:274">
+  <variant base="Dorsomedial nucleus of the hypothalamus posterior part" abbreviation="DMHp" />
+</token>
+<token canonical="Dorsomedial nucleus of the hypothalamus ventral part" ref_id="bams:275">
+  <variant base="Dorsomedial nucleus of the hypothalamus ventral part" abbreviation="DMHv" />
+</token>
+<token canonical="Posterior periventricular nucleus of the hypothalamus" ref_id="bams:278">
+  <variant base="Posterior periventricular nucleus of the hypothalamus" abbreviation="PVp" />
+</token>
+<token canonical="Internuclear area, hypothalamic periventricular region" ref_id="bams:12602">
+  <variant base="Internuclear area, hypothalamic periventricular region" abbreviation="I" />
+</token>
+<token canonical="Lateral preoptic area" ref_id="bams:320">
+  <variant base="Lateral preoptic area" abbreviation="LPO" />
+</token>
+<token canonical="Lateral hypothalamic area juxtaparaventricular region" ref_id="bams:12253">
+  <variant base="Lateral hypothalamic area juxtaparaventricular region" abbreviation="LHAjp" />
+</token>
+<token canonical="Lateral hypothalamic area, juxtadorsomedial region" ref_id="bams:12603">
+  <variant base="Lateral hypothalamic area, juxtadorsomedial region" abbreviation="LHAjd" />
+</token>
+<token canonical="Lateral hypothalamic area, juxtaventromedial region dorsal zone" ref_id="bams:12605">
+  <variant base="Lateral hypothalamic area, juxtaventromedial region dorsal zone" abbreviation="LHAjvd" />
+</token>
+<token canonical="Lateral hypothalamic area, juxtaventromedial region ventral zone" ref_id="bams:12606">
+  <variant base="Lateral hypothalamic area, juxtaventromedial region ventral zone" abbreviation="LHAjvv" />
+</token>
+<token canonical="Lateral hypothalamic area, anterior region dorsal zone" ref_id="bams:12608">
+  <variant base="Lateral hypothalamic area, anterior region dorsal zone" abbreviation="LHAad" />
+</token>
+<token canonical="Lateral hypothalamic area, anterior region intermediate zone" ref_id="bams:12609">
+  <variant base="Lateral hypothalamic area, anterior region intermediate zone" abbreviation="LHAai" />
+</token>
+<token canonical="Lateral hypothalamic area, anterior region ventral zone" ref_id="bams:12610">
+  <variant base="Lateral hypothalamic area, anterior region ventral zone" abbreviation="LHAav" />
+</token>
+<token canonical="Retrochiasmatic area" ref_id="bams:299">
+  <variant base="Retrochiasmatic area" abbreviation="RCH" />
+</token>
+<token canonical="Tuberal nucleus subventromedial part" ref_id="bams:12611">
+  <variant base="Tuberal nucleus subventromedial part" abbreviation="TUsv" />
+</token>
+<token canonical="Tuberal nucleus intermediate part" ref_id="bams:12612">
+  <variant base="Tuberal nucleus intermediate part" abbreviation="TUi" />
+</token>
+<token canonical="Tuberal nucleus terete part" ref_id="bams:12613">
+  <variant base="Tuberal nucleus terete part" abbreviation="TUte" />
+</token>
+<token canonical="Tuberal nucleus lateral part" ref_id="bams:12614">
+  <variant base="Tuberal nucleus lateral part" abbreviation="TUl" />
+</token>
+<token canonical="Lateral hypothalamic area suprafornical region" ref_id="bams:12615">
+  <variant base="Lateral hypothalamic area suprafornical region" abbreviation="LHAs" />
+</token>
+<token canonical="Lateral hypothalamic area subfornical region anterior zone" ref_id="bams:12617">
+  <variant base="Lateral hypothalamic area subfornical region anterior zone" abbreviation="LHAsfa" />
+</token>
+<token canonical="Lateral hypothalamic area subfornical region posterior zone" ref_id="bams:12618">
+  <variant base="Lateral hypothalamic area subfornical region posterior zone" abbreviation="LHAsfp" />
+</token>
+<token canonical="Lateral hypothalamic area subfornical region premammillary zone" ref_id="bams:12619">
+  <variant base="Lateral hypothalamic area subfornical region premammillary zone" abbreviation="LHAsfpm" />
+</token>
+<token canonical="Lateral hypothalamic area magnocellular nucleus" ref_id="bams:12620">
+  <variant base="Lateral hypothalamic area magnocellular nucleus" abbreviation="LHAm" />
+</token>
+<token canonical="Lateral hypothalamic area parvicellular region" ref_id="bams:12621">
+  <variant base="Lateral hypothalamic area parvicellular region" abbreviation="LHApc" />
+</token>
+<token canonical="Lateral hypothalamic area ventral region medial zone" ref_id="bams:12623">
+  <variant base="Lateral hypothalamic area ventral region medial zone" abbreviation="LHAvm" />
+</token>
+<token canonical="Lateral hypothalamic area ventral region lateral zone" ref_id="bams:12624">
+  <variant base="Lateral hypothalamic area ventral region lateral zone" abbreviation="LHAvl" />
+</token>
+<token canonical="Lateral hypothalamic area posterior region" ref_id="bams:12659">
+  <variant base="Lateral hypothalamic area posterior region" abbreviation="LHAp" />
+</token>
+<token canonical="Preparasubthalamic nucleus" ref_id="bams:12625">
+  <variant base="Preparasubthalamic nucleus" abbreviation="PST" />
+</token>
+<token canonical="Parasubthalamic nucleus" ref_id="bams:12626">
+  <variant base="Parasubthalamic nucleus" abbreviation="PSTN" />
+</token>
+<token canonical="Subthalamic nucleus" ref_id="bams:323">
+  <variant base="Subthalamic nucleus" abbreviation="STN" />
+</token>
+<token canonical="Zona incerta" ref_id="bams:347">
+  <variant base="Zona incerta" abbreviation="ZI" />
+</token>
+<token canonical="Zona incerta dopaminergic group" ref_id="bams:348">
+  <variant base="Zona incerta dopaminergic group" abbreviation="ZIda" />
+</token>
+<token canonical="Fields of Forel" ref_id="bams:349">
+  <variant base="Fields of Forel" abbreviation="FF" />
+</token>
+<token canonical="Intergeniculate leaflet of the lateral geniculate complex" ref_id="bams:343">
+  <variant base="Intergeniculate leaflet of the lateral geniculate complex" abbreviation="IGL" />
+</token>
+<token canonical="Ventral part of the lateral geniculate complex lateral zone" ref_id="bams:345">
+  <variant base="Ventral part of the lateral geniculate complex lateral zone" abbreviation="LGvl" />
+</token>
+<token canonical="Ventral part of the lateral geniculate complex medial zone" ref_id="bams:346">
+  <variant base="Ventral part of the lateral geniculate complex medial zone" abbreviation="LGvm" />
+</token>
+<token canonical="Olivary pretectal nucleus" ref_id="bams:429">
+  <variant base="Olivary pretectal nucleus" abbreviation="OP" />
+</token>
+<token canonical="Nucleus of the optic tract" ref_id="bams:430">
+  <variant base="Nucleus of the optic tract" abbreviation="NOT" />
+</token>
+<token canonical="Posterior pretectal nucleus" ref_id="bams:431">
+  <variant base="Posterior pretectal nucleus" abbreviation="PPT" />
+</token>
+<token canonical="Nucleus of the posterior commissure" ref_id="bams:432">
+  <variant base="Nucleus of the posterior commissure" abbreviation="NPC" />
+</token>
+<token canonical="Anterior pretectal nucleus" ref_id="bams:433">
+  <variant base="Anterior pretectal nucleus" abbreviation="APN" />
+</token>
+<token canonical="Medial pretectal area" ref_id="bams:434">
+  <variant base="Medial pretectal area" abbreviation="MPT" />
+</token>
+<token canonical="Midbrain reticular nucleus, magnocellular part" ref_id="bams:12628">
+  <variant base="Midbrain reticular nucleus, magnocellular part" abbreviation="MRNm" />
+</token>
+<token canonical="Ventral tegmental nucleus" ref_id="bams:552">
+  <variant base="Ventral tegmental nucleus" abbreviation="VTN" />
+</token>
+<token canonical="Anterior tegmental nucleus" ref_id="bams:553">
+  <variant base="Anterior tegmental nucleus" abbreviation="AT" />
+</token>
+<token canonical="Medial terminal nucleus of the accessory optic tract" ref_id="bams:435">
+  <variant base="Medial terminal nucleus of the accessory optic tract" abbreviation="MT" />
+</token>
+<token canonical="Lateral terminal nucleus of the accessory optic tract" ref_id="bams:436">
+  <variant base="Lateral terminal nucleus of the accessory optic tract" abbreviation="LT" />
+</token>
+<token canonical="Dorsal terminal nucleus of the accessory optic tract" ref_id="bams:437">
+  <variant base="Dorsal terminal nucleus of the accessory optic tract" abbreviation="DT" />
+</token>
+<token canonical="Cuneiform nucleus" ref_id="bams:592">
+  <variant base="Cuneiform nucleus" abbreviation="CUN" />
+</token>
+<token canonical="Pontine reticular nucleus caudal part" ref_id="bams:594">
+  <variant base="Pontine reticular nucleus caudal part" abbreviation="PRNc" />
+</token>
+<token canonical="Gigantocellular reticular nucleus" ref_id="bams:596">
+  <variant base="Gigantocellular reticular nucleus" abbreviation="GRN" />
+</token>
+<token canonical="Paragigantocellular reticular nucleus dorsal part" ref_id="bams:598">
+  <variant base="Paragigantocellular reticular nucleus dorsal part" abbreviation="PGRNd" />
+</token>
+<token canonical="Paragigantocellular reticular nucleus lateral part" ref_id="bams:599">
+  <variant base="Paragigantocellular reticular nucleus lateral part" abbreviation="PGRNl" />
+</token>
+<token canonical="Parapyramidal nucleus deep part" ref_id="bams:601">
+  <variant base="Parapyramidal nucleus deep part" abbreviation="PPYd" />
+</token>
+<token canonical="Parapyramidal nucleus superficial part" ref_id="bams:602">
+  <variant base="Parapyramidal nucleus superficial part" abbreviation="PPYs" />
+</token>
+<token canonical="Magnocellular reticular nucleus" ref_id="bams:603">
+  <variant base="Magnocellular reticular nucleus" abbreviation="MARN" />
+</token>
+<token canonical="Supratrigeminal nucleus" ref_id="bams:604">
+  <variant base="Supratrigeminal nucleus" abbreviation="SUT" />
+</token>
+<token canonical="Parvicellular reticular nucleus" ref_id="bams:1699">
+  <variant base="Parvicellular reticular nucleus" abbreviation="PARN" />
+</token>
+<token canonical="Medullary reticular nucleus dorsal part" ref_id="bams:606">
+  <variant base="Medullary reticular nucleus dorsal part" abbreviation="MDRNd" />
+</token>
+<token canonical="Medullary reticular nucleus ventral part" ref_id="bams:607">
+  <variant base="Medullary reticular nucleus ventral part" abbreviation="MDRNv" />
+</token>
+<token canonical="Supraoptic nucleus" ref_id="bams:233">
+  <variant base="Supraoptic nucleus" abbreviation="SO" />
+</token>
+<token canonical="Supraoptic nucleus, retrochiasmatic part" ref_id="bams:234">
+  <variant base="Supraoptic nucleus, retrochiasmatic part" abbreviation="SOr" />
+</token>
+<token canonical="Supraoptic nucleus, accessory supraoptic group, nucleus circularis" ref_id="bams:236">
+  <variant base="Supraoptic nucleus, accessory supraoptic group, nucleus circularis" abbreviation="NC" />
+</token>
+<token canonical="Paraventricular nucleus of the hypothalamus, magnocellular division, anterior magnocellular part" ref_id="bams:245">
+  <variant base="Paraventricular nucleus of the hypothalamus, magnocellular division, anterior magnocellular part" abbreviation="PVHam" />
+</token>
+<token canonical="Paraventricular nucleus of the hypothalamus, magnocellular division, medial magnocellular part" ref_id="bams:246">
+  <variant base="Paraventricular nucleus of the hypothalamus, magnocellular division, medial magnocellular part" abbreviation="PVHmm" />
+</token>
+<token canonical="Paraventricular nucleus of the hypothalamus, magnocellular division, posterior magnocellular part, medial zone" ref_id="bams:248">
+  <variant base="Paraventricular nucleus of the hypothalamus, magnocellular division, posterior magnocellular part, medial zone" abbreviation="PVHpmm" />
+</token>
+<token canonical="Paraventricular nucleus of the hypothalamus, magnocellular division, posterior magnocellular part, lateral zone" ref_id="bams:249">
+  <variant base="Paraventricular nucleus of the hypothalamus, magnocellular division, posterior magnocellular part, lateral zone" abbreviation="PVHpml" />
+</token>
+<token canonical="Median eminence internal lamina" ref_id="bams:6974">
+  <variant base="Median eminence internal lamina" abbreviation="MEin" />
+</token>
+<token canonical="Infundibulum internal lamina" ref_id="bams:6977">
+  <variant base="Infundibulum internal lamina" abbreviation="INFin" />
+</token>
+<token canonical="Pituitary gland, neural lobe" ref_id="bams:6969">
+  <variant base="Pituitary gland, neural lobe" abbreviation="NL" />
+</token>
+<token canonical="Paraventricular nucleus of the hypothalamus, parvicellular division, anterior parvicellular part" ref_id="bams:251">
+  <variant base="Paraventricular nucleus of the hypothalamus, parvicellular division, anterior parvicellular part" abbreviation="PVHap" />
+</token>
+<token canonical="Paraventricular nucleus of the hypothalamus, parvicellular division, medial parvicellular part, dorsal zone" ref_id="bams:252">
+  <variant base="Paraventricular nucleus of the hypothalamus, parvicellular division, medial parvicellular part, dorsal zone" abbreviation="PVHmpd" />
+</token>
+<token canonical="Paraventricular nucleus of the hypothalamus, parvicellular division, periventricular part" ref_id="bams:253">
+  <variant base="Paraventricular nucleus of the hypothalamus, parvicellular division, periventricular part" abbreviation="PVHpv" />
+</token>
+<token canonical="Anterior periventricular nucleus of the hypothalamus" ref_id="bams:271">
+  <variant base="Anterior periventricular nucleus of the hypothalamus" abbreviation="PVa" />
+</token>
+<token canonical="Intermediate periventricular nucleus of the hypothalamus" ref_id="bams:276">
+  <variant base="Intermediate periventricular nucleus of the hypothalamus" abbreviation="PVI" />
+</token>
+<token canonical="Arcuate nucleus of the hypothalamus" ref_id="bams:277">
+  <variant base="Arcuate nucleus of the hypothalamus" abbreviation="ARH" />
+</token>
+<token canonical="Median eminence external lamina" ref_id="bams:6973">
+  <variant base="Median eminence external lamina" abbreviation="MEex" />
+</token>
+<token canonical="Infundibulum external lamina" ref_id="bams:6976">
+  <variant base="Infundibulum external lamina" abbreviation="INFex" />
+</token>
+<token canonical="Oculomotor nucleus" ref_id="bams:520">
+  <variant base="Oculomotor nucleus" abbreviation="III" />
+</token>
+<token canonical="Trochlear nucleus" ref_id="bams:523">
+  <variant base="Trochlear nucleus" abbreviation="IV" />
+</token>
+<token canonical="Abducens nucleus" ref_id="bams:524">
+  <variant base="Abducens nucleus" abbreviation="VI" />
+</token>
+<token canonical="Accesory abducens nucleus" ref_id="bams:525">
+  <variant base="Accesory abducens nucleus" abbreviation="ACVI" />
+</token>
+<token canonical="Motor nucleus of the trigeminal magnocellular part" ref_id="bams:12439">
+  <variant base="Motor nucleus of the trigeminal magnocellular part" abbreviation="Vma" />
+</token>
+<token canonical="Motor nucleus of the trigeminal parvicellular part" ref_id="bams:529">
+  <variant base="Motor nucleus of the trigeminal parvicellular part" abbreviation="Vpc" />
+</token>
+<token canonical="Facial nucleus" ref_id="bams:865">
+  <variant base="Facial nucleus" abbreviation="VII" />
+</token>
+<token canonical="Accessory facial nucleus" ref_id="bams:866">
+  <variant base="Accessory facial nucleus" abbreviation="ACVII" />
+</token>
+<token canonical="Efferent cochlear group" ref_id="bams:869">
+  <variant base="Efferent cochlear group" abbreviation="ECO" />
+</token>
+<token canonical="Efferent vesstibular nucleus" ref_id="bams:870">
+  <variant base="Efferent vesstibular nucleus" abbreviation="EV" />
+</token>
+<token canonical="Nucleus ambiguus dorsal division" ref_id="bams:872">
+  <variant base="Nucleus ambiguus dorsal division" abbreviation="AMBd" />
+</token>
+<token canonical="Nucleus of the spinal accessory nerve" ref_id="bams:876">
+  <variant base="Nucleus of the spinal accessory nerve" abbreviation="XI" />
+</token>
+<token canonical="Hypoglossal nucleus" ref_id="bams:878">
+  <variant base="Hypoglossal nucleus" abbreviation="XII" />
+</token>
+<token canonical="Ventral horn of the spinal cord" ref_id="bams:627">
+  <variant base="Ventral horn of the spinal cord" abbreviation="VH" />
+</token>
+<token canonical="Nucleus of the bulbocavernosus" ref_id="bams:628">
+  <variant base="Nucleus of the bulbocavernosus" abbreviation="NBC" />
+</token>
+<token canonical="Onuf nucleus" ref_id="bams:629">
+  <variant base="Onuf nucleus" abbreviation="ON" />
+</token>
+<token canonical="Phrenic nucleus" ref_id="bams:630">
+  <variant base="Phrenic nucleus" abbreviation="PN" />
+</token>
+<token canonical="Edinger-Westphal nucleus" ref_id="bams:880">
+  <variant base="Edinger-Westphal nucleus" abbreviation="EW" />
+</token>
+<token canonical="Superior salivatory nucleus" ref_id="bams:881">
+  <variant base="Superior salivatory nucleus" abbreviation="SSN" />
+</token>
+<token canonical="Inferior salivatory nucleus" ref_id="bams:882">
+  <variant base="Inferior salivatory nucleus" abbreviation="ISN" />
+</token>
+<token canonical="Dorsal motor nucleus of the vagus nerve" ref_id="bams:883">
+  <variant base="Dorsal motor nucleus of the vagus nerve" abbreviation="DMX" />
+</token>
+<token canonical="Nucleus ambiguus, ventral division" ref_id="bams:884">
+  <variant base="Nucleus ambiguus, ventral division" abbreviation="AMBv" />
+</token>
+<token canonical="Intermediolateral column of the spinal cord parasympathetic column" ref_id="bams:625">
+  <variant base="Intermediolateral column of the spinal cord parasympathetic column" abbreviation="IMLp" />
+</token>
+<token canonical="Intermediolateral column of the spinal cord sympathetic column" ref_id="bams:624">
+  <variant base="Intermediolateral column of the spinal cord sympathetic column" abbreviation="IMLs" />
+</token>
+<token canonical="Intermediomedial column of the spinal cord" ref_id="bams:620">
+  <variant base="Intermediomedial column of the spinal cord" abbreviation="IMM" />
+</token>
+<token canonical="Dorsal commissural nucleus" ref_id="bams:12649">
+  <variant base="Dorsal commissural nucleus" abbreviation="DOC" />
+</token>
+<token canonical="Intercalated nucleus of the spinal cord" ref_id="bams:623">
+  <variant base="Intercalated nucleus of the spinal cord" abbreviation="ICS" />
+</token>
+</synonym>
