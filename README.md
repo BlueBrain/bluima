@@ -25,7 +25,7 @@ Setup BLUIMA_HOME, e.g. (in your .bash_profile):
 
 ### Build
 
-    > export MAVEN_OPTS="-Xmx512m -XX:MaxPermSize=128m"
+    > export MAVEN_OPTS="-Xmx4G -XX:MaxPermSize=256m"
     > mvn clean install -Dblue_uima_home={PATH_TO_HOME}
 
 Get yourself a coffee. Rinse and repeat above command if error is "could not download artifacts"
