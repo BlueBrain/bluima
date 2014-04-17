@@ -4,7 +4,7 @@
 # then, for each: find Cooccurrences with KERNEL & TOPDOWN & RULES
 # (writing the results to a different view, eventually to a file)
 # $ 1 batch id
-# $ 2 bams|aba
+# $ 2 bams|aba|brainer
 # $ 3 output dir (must exist!)
 ############################################
 
@@ -15,6 +15,10 @@ ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
 ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
 ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
 ae: BlueBioLemmatizer
+# req by braiNER
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+ae: PruneMeasuresAnnotator
+ae: LinnaeusAnnotator
 ############################################
 
 # SERIALIZATION

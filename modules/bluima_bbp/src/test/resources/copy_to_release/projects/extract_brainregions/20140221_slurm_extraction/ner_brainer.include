@@ -1,0 +1,7 @@
+
+
+# braiNER
+ae: BrainRegionAnnotator
+ modelFile: $ROOT/modules/bluima_regions/resources/models/20131116_BrainRegion.model
+
+ae: ch.epfl.bbp.uima.ae.CopyBrainRegionsToDictTerm

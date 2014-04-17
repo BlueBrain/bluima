@@ -17,6 +17,8 @@
 //////////////////////////////////////////////////////////////////////////////   
 package ch.epfl.bbp.shaded.opennlp.maxent;
 
+import gnu.trove.TLinkableAdapter;
+
 import java.util.Arrays;
 
 /**
@@ -26,7 +28,7 @@ import java.util.Arrays;
  * @author      Jason Baldridge
  * @version     $Revision: 1.3 $, $Date: 2003/12/09 23:13:08 $
  */
-public class Event extends gnu.trove.TLinkableAdaptor {
+public class Event extends TLinkableAdapter {
     private String outcome;
     private String[] context;
     

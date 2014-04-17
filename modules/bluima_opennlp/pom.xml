@@ -18,12 +18,12 @@
       <groupId>${project.groupId}</groupId>
       <version>${project.version}</version>
     </dependency>
-    <dependency>
-      <groupId>trove</groupId>
-      <artifactId>trove</artifactId>
-      <version>1.1-beta-5</version>
-    </dependency>
-    <dependency>
+<dependency>
+    <groupId>net.sf.trove4j</groupId>
+    <artifactId>trove4j</artifactId>
+    <version>2.0.2</version>
+</dependency>
+                <dependency>
       <groupId>de.jules</groupId>
       <artifactId>jules-utilities</artifactId>
       <version>2.1.1</version>
