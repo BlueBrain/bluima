@@ -1,29 +1,22 @@
 package ch.epfl.bbp.uima;
 
 import static ch.epfl.bbp.uima.BlueCasUtil.getHeaderSource;
-import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT_DIRECTORY;
 import static ch.epfl.bbp.uima.testutils.UimaTests.getTestCas;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
-import static org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription;
 import static org.apache.uima.fit.util.JCasUtil.select;
 import static org.junit.Assert.assertEquals;
 
 import java.util.Collection;
 
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
-import org.apache.uima.collection.CollectionReaderDescription;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.jcas.JCas;
-import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import ch.epfl.bbp.uima.ae.AbbreviationsAnnotator;
-import ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader;
 import ch.epfl.bbp.uima.typesystem.Prin;
 import ch.epfl.bbp.uima.typesystem.To;
-import ch.epfl.bbp.uima.uimafit.CpeBuilder;
 import ch.epfl.bbp.uima.uimafit.JcasPipelineBuilder;
 import ch.epfl.bbp.uima.uimafit.PipelineBuilder;
 import de.julielab.jules.types.Abbreviation;
@@ -71,18 +64,6 @@ public class AbbreviationsAnnotatorTest extends JCasAnnotator_ImplBase {
         }
         assertEquals(15, abrevs.size());
         // TODO more assertions
-    }
-
-    @Test
-    @Ignore
-    public void testAbrevsOnPdfs() throws Exception {
-        CollectionReaderDescription cr = createReaderDescription(
-                PdfCollectionReader.class, JULIE_TSD, PARAM_INPUT_DIRECTORY,
-                "/Volumes/HDD2/ren_data/data_hdd/_papers_etc/test/j_of_comp_ns");
-        PipelineBuilder p = new CpeBuilder(cr);
-        p.add(AbbreviationsAnnotator.class);
-        p.add(AbbreviationsAnnotatorTest.class);
-        p.process();
     }
 
     @Override

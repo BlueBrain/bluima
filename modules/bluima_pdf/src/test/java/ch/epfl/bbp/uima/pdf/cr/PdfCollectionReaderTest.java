@@ -8,6 +8,7 @@ import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT_DIRECTORY;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT_FILE;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_OUTPUT_DIR;
 import static ch.epfl.bbp.uima.io.DirectoryIterator.ZIP;
+import static ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader.PARAM_EXPAND_ABBREVIATIONS;
 import static ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader.PARAM_EXTRACT_TABLES;
 import static ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader.extractReferencesNaively;
 import static ch.epfl.bbp.uima.testutils.UimaTests.getTestCas;
@@ -29,6 +30,7 @@ import static org.slf4j.LoggerFactory.getLogger;
 
 import java.io.IOException;
 import java.util.Collection;
+import java.util.List;
 
 import org.apache.uima.analysis_engine.AnalysisEngine;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
@@ -85,8 +87,29 @@ public class PdfCollectionReaderTest {
     }
 
     @Test
+    public void testAbbrevs() throws Exception {
+
+        final String abbrevs[][] = { { "PMF", "MLT" }, {}, { "ICC", "HVA" } };
+
+        final List<JCas> pdfs = asList(createReader(PdfCollectionReader.class,
+                JULIE_TSD, PARAM_INPUT_DIRECTORY, "pdf", PARAM_EXTRACT_TABLES,
+                true, PARAM_EXPAND_ABBREVIATIONS, true));
+        assertEquals(3, pdfs.size());
+
+        for (int i = 0; i < 2; i++) {
+            String pdfText = pdfs.get(i).getDocumentText();
+            System.out.println(pdfText);
+            for (String abbrev : abbrevs[i]) {
+                assertTrue("all abbreviations '" + abbrev
+                        + "' should be removed in:: " + pdfText,
+                        pdfText.indexOf(abbrev) == -1);
+            }
+        }
+    }
+
+    @Test
     public void testZips() throws Exception {
-        
+
         JCasIterator it = iteratePipeline(
                 createReaderDescription(PdfCollectionReader.class, JULIE_TSD,
                         PARAM_INPUT_DIRECTORY, "pdf/zipPdfs.zip",
@@ -170,13 +193,15 @@ public class PdfCollectionReaderTest {
     @Ignore
     public void testOnSampleForExtractionQuality() throws Exception {
 
-        CollectionReader cr = createReader(PdfCollectionReader.class,
-                JULIE_TSD, PARAM_INPUT_DIRECTORY,
-                "/Users/richarde/data/_papers_etc/pubmed/sample_pdfs/pdfs");
+        CollectionReader cr = createReader(
+                PdfCollectionReader.class,
+                JULIE_TSD,
+                PARAM_INPUT_DIRECTORY,
+                "/Users/richarde/data_hdd/_papers_etc/pubmed/sample_pdfs_68/pdfs",
+                PARAM_EXPAND_ABBREVIATIONS, true);
 
         AnalysisEngine dumper = createEngine(DocumentTextWriter.class,
-                PARAM_OUTPUT_DIR,
-                "/Users/richarde/data/_papers_etc/pubmed/sample_pdfs/txts");
+                PARAM_OUTPUT_DIR, "/Users/richarde/Desktop/");
 
         runPipeline(cr, dumper);
     }

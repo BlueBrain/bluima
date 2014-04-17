@@ -58,6 +58,11 @@ public class PdfCollectionAnnotator extends JCasAnnotator_ImplBase {
     description = "whether to extract tables")
     private boolean extractTables;
 
+    public static final String PARAM_EXPAND_ABBREVIATIONS = "expandAbbrevs";
+    @ConfigurationParameter(name = PARAM_EXPAND_ABBREVIATIONS, defaultValue = "false", //
+    description = "whether to expand Abbreviations")
+    private boolean expandAbbrevs;
+
     private TableExtractor tableExtractor;
 
     @Override
@@ -97,7 +102,7 @@ public class PdfCollectionAnnotator extends JCasAnnotator_ImplBase {
             pdf.close();
 
             PdfCollectionReader.extractText(jCas, blueHandler.getDoc(),
-                    header.getDocId());
+                    header.getDocId(), expandAbbrevs);
 
             if (extractTables)
                 PdfCollectionReader

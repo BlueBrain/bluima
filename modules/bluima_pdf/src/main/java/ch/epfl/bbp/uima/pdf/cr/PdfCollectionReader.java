@@ -15,6 +15,7 @@ import java.text.Normalizer.Form;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.Set;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
@@ -35,6 +36,8 @@ import org.w3c.dom.Document;
 import org.w3c.dom.Element;
 
 import ch.epfl.bbp.StringUtils;
+import ch.epfl.bbp.uima.AbbreviationExpander;
+import ch.epfl.bbp.uima.AbbreviationExpander.Abbrev;
 import ch.epfl.bbp.uima.BlueUima;
 import ch.epfl.bbp.uima.cr.AbstractFileReader;
 import ch.epfl.bbp.uima.pdf.BBlock;
@@ -77,6 +80,12 @@ public class PdfCollectionReader extends AbstractFileReader {
     @ConfigurationParameter(name = PARAM_EXTRACT_TABLES, defaultValue = "false", //
     description = "whether to extract tables")
     private boolean extractTables;
+
+    public static final String PARAM_EXPAND_ABBREVIATIONS = "expandAbbrevs";
+    @ConfigurationParameter(name = PARAM_EXPAND_ABBREVIATIONS, defaultValue = "false", //
+    description = "whether to expand Abbreviations")
+    private boolean expandAbbrevs;
+
     public static final String PARAM_EXTRACT_REFERENCES = "extractReferences";
     @ConfigurationParameter(name = PARAM_EXTRACT_REFERENCES, defaultValue = "false", //
     description = "whether to extract references")
@@ -117,7 +126,8 @@ public class PdfCollectionReader extends AbstractFileReader {
         pdf.pipe(blueHandler);
         pdf.close();
 
-        extractText(jcas, blueHandler.getDoc(), header.getDocId());
+        extractText(jcas, blueHandler.getDoc(), header.getDocId(),
+                expandAbbrevs);
 
         if (extractTables)
             extractTables(tableExtractor, f, jcas);
@@ -129,8 +139,10 @@ public class PdfCollectionReader extends AbstractFileReader {
      * Adds block annotations
      * 
      * @param docId
+     * @param expandAbbrevs
      */
-    public static void extractText(JCas jcas, BDocument bDocument, String docId) {
+    public static void extractText(JCas jcas, BDocument bDocument,
+            String docId, boolean expandAbbrevs) {
 
         StringBuffer sb = new StringBuffer("");
         int currBegin = 0, currPageId = 0;
@@ -138,9 +150,22 @@ public class PdfCollectionReader extends AbstractFileReader {
         DocumentPage currPage = new DocumentPage(jcas);
         currPage.setBegin(0);
 
+        Set<Abbrev> abbrevs = null;
+        if (expandAbbrevs) {
+            // pass over the text to find abbrevs
+            StringBuffer abbrevSb = new StringBuffer("");
+            for (BBlock block : bDocument.getBlocks()) {
+                abbrevSb.append(cleanupText(block, docId));
+            }
+            abbrevs = AbbreviationExpander.getAbbrevs(abbrevSb.toString());
+        }
+
         for (BBlock block : bDocument.getBlocks()) {
 
             String text = cleanupText(block, docId);
+            if (expandAbbrevs) {
+                text = AbbreviationExpander.expand(text, abbrevs);
+            }
 
             // add lines
             int currLineBegin = currBegin;
@@ -148,6 +173,7 @@ public class PdfCollectionReader extends AbstractFileReader {
                 String lineText = bLine.getText();
                 int lineLength = lineText.replaceAll(" +", " ").length();
                 // LATER watch out: begin,end is ~approximate~
+                // TODO especially because of abbrev expansion!
                 DocumentLine annLine = new DocumentLine(jcas, currLineBegin,
                         currLineBegin + lineLength);
                 currLineBegin += lineLength;
@@ -158,12 +184,13 @@ public class PdfCollectionReader extends AbstractFileReader {
                 annLine.setPageId(block.getPageId());
                 annLine.setBlock(block.getId());
                 annLine.setLineText(lineText); // LATER a workaround
-                annLine.setBeginnings(new FloatArray(jcas, bLine.getBeginnings()
-                        .size()));
+                annLine.setBeginnings(new FloatArray(jcas, bLine
+                        .getBeginnings().size()));
                 for (int i = 0; i < bLine.getBeginnings().size(); i++) {
                     annLine.setBeginnings(i, bLine.getBeginnings().get(i));
                 }
-                annLine.setEndings(new FloatArray(jcas, bLine.getEndings().size()));
+                annLine.setEndings(new FloatArray(jcas, bLine.getEndings()
+                        .size()));
                 for (int i = 0; i < bLine.getEndings().size(); i++) {
                     annLine.setEndings(i, bLine.getEndings().get(i));
                 }
