@@ -29,33 +29,33 @@ import de.julielab.jules.types.Token;
 @TypeCapability(inputs = TOKEN, outputs = GENERAL_ENGLISH)
 public class GeneralEnglishAnnotator extends JCasAnnotator_ImplBase {
 
-    private List<String> generalEnglish;
+	private List<String> generalEnglish;
 
-    @Override
-    public void initialize(UimaContext context)
-            throws ResourceInitializationException {
-        super.initialize(context);
-        try {
-            String dict = BLUE_UTILS_ROOT + RESOURCES_PATH
-                    + "generalEnglish/basic_english.txt";
-            checkFileExists(dict);
-            generalEnglish = linesFrom(dict);
-        } catch (Throwable t) {
-            throw new ResourceInitializationException(t);
-        }
-    }
+	@Override
+	public void initialize(UimaContext context)
+			throws ResourceInitializationException {
+		super.initialize(context);
+		try {
+			String dict = BLUE_UTILS_ROOT + RESOURCES_PATH
+					+ "generalEnglish/basic_english.txt";
+			checkFileExists(dict);
+			generalEnglish = linesFrom(dict);
+		} catch (Throwable t) {
+			throw new ResourceInitializationException(t);
+		}
+	}
 
-    @Override
-    public void process(JCas jCas) throws AnalysisEngineProcessException {
+	@Override
+	public void process(JCas jCas) throws AnalysisEngineProcessException {
 
-        for (Token t : select(jCas, Token.class)) {
-            String text = t.getCoveredText().trim();
+		for (Token t : select(jCas, Token.class)) {
+			String text = t.getCoveredText().trim();
 
-            if (text.length() > 0 && generalEnglish.contains(text)) {
+			if (text.length() > 0 && generalEnglish.contains(text)) {
 
-                new GeneralEnglish(jCas, t.getBegin(), t.getEnd())
-                        .addToIndexes();
-            }
-        }
-    }
+				new GeneralEnglish(jCas, t.getBegin(), t.getEnd())
+						.addToIndexes();
+			}
+		}
+	}
 }
