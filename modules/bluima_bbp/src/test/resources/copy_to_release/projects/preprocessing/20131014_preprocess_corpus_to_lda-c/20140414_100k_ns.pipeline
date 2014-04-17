@@ -1,0 +1,55 @@
+
+##################################
+# Outputs 100k_ns corpus in DCA and LDA-C format
+##################################
+
+
+cr: OneDocPerLineReader2
+ #inputFile: /Users/richarde/dev/bluebrain/git/lda_mesh/corpora/110k_ns/100k_ns.abstracts.tsv
+ inputFile: /nfs4/bbp.epfl.ch/user/richarde/dev/git/lda_mesh/corpora/110k_ns/100k_ns.abstracts.tsv
+
+
+# PREPROC
+include: ../../../includes/preprocess.incl
+ae: PunctuationAnnotator
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+ae: PruneMeasuresAnnotator
+
+
+#include: 20140403_100k_entities.pipeline
+
+
+
+# FILTERING FRAMEWORK
+ae: ViterbiFilterAnnotator
+#ae: ch.epfl.bbp.uima.filter.Tokens2KeepAnnotator
+ae: BioLemmatizerNormalizerAnnotator
+ae: ch.epfl.bbp.uima.filter.StopwordFilterAnnotator
+ae: ch.epfl.bbp.uima.filter.PunctuationFilterAnnotator
+ae: ch.epfl.bbp.uima.filter.MeasureNormalizerAnnotator
+
+# VOCAB FILTERING
+ae: ch.epfl.bbp.uima.filter.FrequencyFilterWriter
+ outputFile: /nfs4/bbp.epfl.ch/simulation/nlp/data/lda/20140414_preprocess_abstracts_dca/100k_ns.vocab
+#ae: ch.epfl.bbp.uima.filter.FrequencyFilterAnnotator
+# inputFile: target/100k_ns.vocab
+# minimumFrequency__java: 3
+
+# OUTPUT in DCA format
+ae: ch.epfl.bbp.uima.ae.output.LdaCWriter
+ dcaFormat__java: true
+ outputFile: /nfs4/bbp.epfl.ch/simulation/nlp/data/lda/20140414_preprocess_abstracts_dca/100k_ns.dca_corpus
+ vocabularyOutputFile: /nfs4/bbp.epfl.ch/simulation/nlp/data/lda/20140414_preprocess_abstracts_dca/100k_ns.dca_corpus.vocab
+
+# OUTPUT in LDA-C format
+ae: ch.epfl.bbp.uima.ae.output.LdaCWriter
+ outputFile: /nfs4/bbp.epfl.ch/simulation/nlp/data/lda/20140414_preprocess_abstracts_dca/100k_ns.lda-c_corpus
+ vocabularyOutputFile: /nfs4/bbp.epfl.ch/simulation/nlp/data/lda/20140414_preprocess_abstracts_dca/100k_ns.lda-c.vocab
+
+
+
+# ae: ch.epfl.bbp.uima.filter.KeepsDumper
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 1000
+
