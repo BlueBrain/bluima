@@ -19,6 +19,9 @@ ae: BlueBioLemmatizer
 ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
 ae: PruneMeasuresAnnotator
 ae: LinnaeusAnnotator
+ae: ch.epfl.bbp.uima.ae.output.AnnotationTypeWriter2
+ annotationClass: ch.epfl.bbp.uima.types.LinnaeusSpecies
+ outputFile: $3/$2_$1_species.tsv
 ############################################
 
 # SERIALIZATION
@@ -28,9 +31,6 @@ ae: LinnaeusAnnotator
 # TOPDOWN ###########################################
 include: ner_$2.include
 # for martin
-#ae: AnnotationInstanceHistogramAnnotator
-# annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
-# annotationField: entityId
 ae: ch.epfl.bbp.uima.ae.output.AnnotationTypeWriter2
  annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
  featureName: entityId
