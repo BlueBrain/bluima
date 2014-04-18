@@ -6,19 +6,13 @@ def template(template_file, out_file,vars):
   out_f.close()
 
 
-for i in range(0,2067):
-  output_name = 'ftns_output_templates/bams_slurm%i.sh' % i
-  print 'sbatch %s' % output_name
-  template('ftns_template.sh', output_name, {
-    'job_id': '%i' % i,
-    'ner': 'bams'
-  })
 
+for ner in ['bams', 'aba', 'neuroner']:
 
-for i in range(0,2067):
-  output_name = 'ftns_output_templates/aba_slurm%i.sh' % i
-  print 'sbatch %s' % output_name
-  template('ftns_template.sh', output_name, {
-    'job_id': '%i' % i,
-    'ner': 'aba'
-  })
+  for i in range(0,2067):
+    output_name = 'ftns_output_templates/{0}_slurm{1}.sh'.format(ner, i)
+    print 'sbatch %s' % output_name
+    template('ftns_template.sh', output_name, {
+      'job_id': '%i' % i,
+      'ner': ner
+    })
