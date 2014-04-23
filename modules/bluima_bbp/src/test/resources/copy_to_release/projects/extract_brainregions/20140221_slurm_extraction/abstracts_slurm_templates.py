@@ -7,7 +7,7 @@ def template(template_file, out_file,vars):
 
 # max 24 511 642
 
-for ner in ['bams', 'aba', 'neuroner']:
+for ner in ['bams', 'aba', 'brainer']:
 
   for i in range(0,491):
     output_name = 'abstracts_output_templates/{0}_slurm{1}.sh'.format(ner, i)

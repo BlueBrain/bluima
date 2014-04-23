@@ -16,10 +16,10 @@ export LANG=en_US.UTF-8
 
 echo "%(job_id)s -- %(ner)s: started"
 
-cd /nfs4/bbp.epfl.ch/user/richarde/dev/bluebrain/bluima_20140226
+cd /nfs4/bbp.epfl.ch/user/richarde/dev/bluebrain/bluima_20140418
 
 ./bin/run_pipeline pipelines/projects/extract_brainregions/20140221_slurm_extraction/ftns.pipeline \
 %(job_id)s %(ner)s \
-/nfs4/bbp.epfl.ch/simulation/nlp/data/20140226_br_rels_ftns
+/nfs4/bbp.epfl.ch/simulation/nlp/data/20140418_br_rels_ftns
 
 

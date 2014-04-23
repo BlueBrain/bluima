@@ -7,7 +7,7 @@ def template(template_file, out_file,vars):
 
 
 
-for ner in ['bams', 'aba', 'neuroner']:
+for ner in ['bams', 'aba', 'brainer']:
 
   for i in range(0,2067):
     output_name = 'ftns_output_templates/{0}_slurm{1}.sh'.format(ner, i)

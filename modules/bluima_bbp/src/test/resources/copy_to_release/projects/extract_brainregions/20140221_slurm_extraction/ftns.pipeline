@@ -1,7 +1,7 @@
 ############################################
 #
 # $ 1 batch id
-# $ 2 bams|aba
+# $ 2 bams|aba|brainer
 # $ 3 output dir
 ############################################
 
@@ -11,7 +11,7 @@ cr: FromFilelistReader
  format__java: true
  pathPrefix: /nfs4/bbp.epfl.ch/scratch/richarde/pdfs/
 ae: ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator
-
+ expandAbbrevs__java: true
 
 include: main.include
 

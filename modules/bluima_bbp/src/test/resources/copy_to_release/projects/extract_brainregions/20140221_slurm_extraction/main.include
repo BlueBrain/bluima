@@ -21,6 +21,7 @@ ae: PruneMeasuresAnnotator
 ae: LinnaeusAnnotator
 ae: ch.epfl.bbp.uima.ae.output.AnnotationTypeWriter2
  annotationClass: ch.epfl.bbp.uima.types.LinnaeusSpecies
+ featureName: mostProbableSpeciesId
  outputFile: $3/$2_$1_species.tsv
 ############################################
 
@@ -52,13 +53,14 @@ ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesInLongSentences
 ae: CopyAnnotationsAnnotator2
  annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
  toView: topdown
+ deleteFrom__java: false
 ae: CopyAnnotationsAnnotator2
  annotationClass: ch.epfl.bbp.uima.types.Cooccurrence
  toView: topdown
 
 
 # KERNEL ###########################################
-include: ner_$2.include
+#include: ner_$2.include
 # CO_OCCS
 ae: ch.epfl.bbp.uima.ae.relations.ExtractSameCoocurrences
  annot1: ch.epfl.bbp.uima.types.BrainRegionDictTerm
@@ -72,13 +74,14 @@ ae: KeepLargestAnnotationAnnotator
 ae: CopyAnnotationsAnnotator2
  annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
  toView: kernel
+ deleteFrom__java: false
 ae: CopyAnnotationsAnnotator2
  annotationClass: ch.epfl.bbp.uima.types.Cooccurrence
  toView: kernel
 
 
 # RULES  ###########################################
-include: ner_$2.include
+#include: ner_$2.include
 #ae: PrintAnnotationInSentenceWriter
 # annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
 ae: org.apache.uima.ruta.engine.RutaEngine
@@ -98,6 +101,7 @@ ae: PostprocessRutaEngine
 ae: CopyAnnotationsAnnotator2
  annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
  toView: rules
+ deleteFrom__java: false
 ae: CopyAnnotationsAnnotator2
  annotationClass: ch.epfl.bbp.uima.types.Cooccurrence
  toView: rules

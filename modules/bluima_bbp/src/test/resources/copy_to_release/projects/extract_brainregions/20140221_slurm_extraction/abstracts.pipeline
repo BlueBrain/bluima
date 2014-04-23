@@ -10,6 +10,7 @@
 cr: PubmedDatabaseCR
  # db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" }
  between__java: new int[]{ $4, $5 }
+ expandAbbrevs__java: true
 # between__java: new int[]{1000000,1005000}
 
 # CLUSTER
