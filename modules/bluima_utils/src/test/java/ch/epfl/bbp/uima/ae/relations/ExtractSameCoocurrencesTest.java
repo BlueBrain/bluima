@@ -92,7 +92,7 @@ public class ExtractSameCoocurrencesTest {
                 PARAM_KEEP_ONLY_NEAREST_NEIGHBORS, true));
 
         List<Cooccurrence> cooc = asList(select(jCas, Cooccurrence.class));
-        assertEquals("should ",2, cooc.size());
+        assertEquals("should ", 2, cooc.size());
         assertEquals(ampa, cooc.get(0).getFirstEntity());
         assertEquals(gaba, cooc.get(0).getSecondEntity());
         assertEquals(d, cooc.get(1).getFirstEntity());

@@ -208,8 +208,10 @@ public class WriteCoocurrencesToLoadfile2 extends JCasAnnotator_ImplBase {
                         + s.substring(relA2Begin);
 
             } else {// overlap LATER
-                LOG.warn("don't know how to highlight snippet that overlaps, {}"
-                        + getHeaderDocId(jCas));
+                LOG.warn(
+                        "don't know how to highlight snippet that overlaps '{}' and '{}', pmid:{}"
+                                + getHeaderDocId(jCas), a1.getCoveredText(),
+                        a2.getCoveredText());
             }
 
             return s.replaceAll("[\r\t\n]", "");

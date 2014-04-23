@@ -3,6 +3,7 @@ package ch.epfl.bbp.uima.ae.output;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_ANNOTATION_CLASS;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_FEATURE_NAME;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_OUTPUT_FILE;
+import static org.apache.commons.io.IOUtils.closeQuietly;
 import static org.apache.uima.resource.ResourceInitializationException.NO_RESOURCE_FOR_PARAMETERS;
 
 import java.io.BufferedWriter;
@@ -10,7 +11,6 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.PrintWriter;
 
-import org.apache.commons.io.IOUtils;
 import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.cas.Feature;
@@ -116,6 +116,6 @@ public class AnnotationTypeWriter extends JCasAnnotator_ImplBase {
     @Override
     public void collectionProcessComplete()
             throws AnalysisEngineProcessException {
-        IOUtils.closeQuietly(writer);
+        closeQuietly(writer);
     }
 }

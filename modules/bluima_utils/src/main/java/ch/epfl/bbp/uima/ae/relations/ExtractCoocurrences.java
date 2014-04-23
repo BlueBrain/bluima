@@ -1,30 +1,8 @@
 package ch.epfl.bbp.uima.ae.relations;
 
-import ch.epfl.bbp.StringUtils;
-import ch.epfl.bbp.uima.BlueCasUtil;
-import ch.epfl.bbp.uima.types.Cooccurrence;
-import org.apache.uima.UimaContext;
-import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
-import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
-import org.apache.uima.fit.descriptor.ConfigurationParameter;
-import org.apache.uima.fit.descriptor.OperationalProperties;
-import org.apache.uima.fit.descriptor.TypeCapability;
-import org.apache.uima.fit.util.JCasUtil;
-import org.apache.uima.jcas.JCas;
-import org.apache.uima.jcas.cas.StringArray;
-import org.apache.uima.jcas.tcas.Annotation;
-import org.apache.uima.resource.ResourceInitializationException;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
-import java.lang.reflect.Method;
-import java.util.ArrayList;
-import java.util.HashMap;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Map;
-
 import static ch.epfl.bbp.uima.BlueCasUtil.asList;
+import static ch.epfl.bbp.uima.BlueCasUtil.distance;
+import static ch.epfl.bbp.uima.BlueCasUtil.haveSameBeginEnd;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_COOCCURRENCE_TYPE;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_ENCLOSING_SCOPE;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_FIRST_ANNOT;
@@ -34,10 +12,34 @@ import static ch.epfl.bbp.uima.BlueUima.PARAM_SECOND_ANNOT_ID_FIELD;
 import static ch.epfl.bbp.uima.typesystem.TypeSystem.COOCCURRENCE;
 import static ch.epfl.bbp.uima.typesystem.TypeSystem.SENTENCE;
 import static com.google.common.collect.Lists.newLinkedList;
+import static com.google.common.collect.Maps.newHashMap;
 import static java.lang.Math.max;
 import static java.lang.Math.min;
 import static org.apache.commons.lang3.StringUtils.capitalize;
+import static org.apache.uima.fit.util.JCasUtil.select;
 import static org.apache.uima.fit.util.JCasUtil.subiterate;
+
+import java.lang.reflect.Method;
+import java.util.ArrayList;
+import java.util.LinkedList;
+import java.util.List;
+import java.util.Map;
+
+import org.apache.uima.UimaContext;
+import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
+import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
+import org.apache.uima.fit.descriptor.ConfigurationParameter;
+import org.apache.uima.fit.descriptor.OperationalProperties;
+import org.apache.uima.fit.descriptor.TypeCapability;
+import org.apache.uima.jcas.JCas;
+import org.apache.uima.jcas.cas.StringArray;
+import org.apache.uima.jcas.tcas.Annotation;
+import org.apache.uima.resource.ResourceInitializationException;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+
+import ch.epfl.bbp.StringUtils;
+import ch.epfl.bbp.uima.types.Cooccurrence;
 
 /**
  * Extracts cooccurrences
@@ -122,10 +124,10 @@ public class ExtractCoocurrences extends JCasAnnotator_ImplBase {
 
     public void process(JCas jCas) throws AnalysisEngineProcessException {
 
-        Map<Annotation, Integer> annotToDistance = new HashMap<Annotation, Integer>();
-        Map<Annotation, Cooccurrence> annotationToCoOccurrence = new HashMap<Annotation, Cooccurrence>();
+        Map<Annotation, Integer> annotToDistance = newHashMap();
+        Map<Annotation, Cooccurrence> annotationToCoOccurrence = newHashMap();
 
-        for (Annotation enclosingAnnot : JCasUtil.select(jCas, enclosingScope)) {
+        for (Annotation enclosingAnnot : select(jCas, enclosingScope)) {
             // System.out.println("tt "+enclosingAnnot.getCoveredText());
 
             List<? extends Annotation> annots1 = asList(subiterate(jCas,
@@ -139,7 +141,7 @@ public class ExtractCoocurrences extends JCasAnnotator_ImplBase {
 
                 for (Annotation a1 : annots1) {
                     for (Annotation a2 : annots2) {
-                        if (a1 != a2) {
+                        if (!haveSameBeginEnd(a1, a2)) {
                             String[] firstIdValues = getValues(firstIdMethods,
                                     a1);
                             String[] secondIdValues = getValues(
@@ -147,16 +149,15 @@ public class ExtractCoocurrences extends JCasAnnotator_ImplBase {
 
                             if (keepOnlyNearestNeighbors) {
                                 /*
-                                 * The algorithm used below is simple. We keep
-                                 * track using a map of the distance between an
-                                 * element of a co-occurrence and the other. If
-                                 * a new nearest co-occurrence is detected, we
-                                 * remove the oldest (using another map).
+                                 * Keeps track using a map of the distance
+                                 * between an element of a co-occurrence and the
+                                 * other. If a new nearest co-occurrence is
+                                 * detected, we remove the oldest (using another
+                                 * map).
                                  */
                                 int oldDistanceForFirstAnnot = Integer.MAX_VALUE;
                                 int oldDistanceForSecondAnnot = Integer.MAX_VALUE;
-                                int distanceBetweenAnnot = BlueCasUtil
-                                        .distance(a1, a2);
+                                int distanceBetweenAnnot = distance(a1, a2);
                                 if (distanceBetweenAnnot != -1) {
                                     if (annotToDistance.containsKey(a1)) {
                                         oldDistanceForFirstAnnot = annotToDistance

@@ -1,14 +1,13 @@
 package ch.epfl.bbp.uima.ae.output;
 
 import static ch.epfl.bbp.MissingUtils.format;
+import static ch.epfl.bbp.uima.BlueCasUtil.getHeaderDocId;
 
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.tcas.Annotation;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-
-import ch.epfl.bbp.uima.BlueCasUtil;
 
 /**
  * A consumer that writes out specified Annotations and features to a specified
@@ -28,7 +27,9 @@ public class AnnotationTypeWriter2 extends AnnotationTypeWriter {
 
     @Override
     public void process(JCas jCas) throws AnalysisEngineProcessException {
-        String pmId = BlueCasUtil.getHeaderDocId(jCas);
+        
+        String pmId = getHeaderDocId(jCas);
+        
         try {
             for (Annotation a : jCas.getAnnotationIndex()) {
                 if (a.getClass().getName().equals(annotationClass)) {

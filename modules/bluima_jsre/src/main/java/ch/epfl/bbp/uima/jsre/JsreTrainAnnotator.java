@@ -10,6 +10,7 @@ import static ch.epfl.bbp.uima.typesystem.TypeSystem.TOKEN;
 import static com.google.common.collect.Lists.newArrayList;
 import static java.io.File.createTempFile;
 import static java.lang.Integer.parseInt;
+import static java.util.Collections.sort;
 import static org.apache.uima.fit.util.JCasUtil.indexCovered;
 
 import java.io.BufferedWriter;
@@ -18,7 +19,6 @@ import java.io.FileOutputStream;
 import java.io.FileWriter;
 import java.io.IOException;
 import java.util.Collection;
-import java.util.Collections;
 import java.util.Iterator;
 import java.util.List;
 import java.util.Map;
@@ -50,9 +50,6 @@ import org.slf4j.LoggerFactory;
 
 import ch.epfl.bbp.uima.types.Cooccurrence;
 import ch.epfl.bbp.uima.typesystem.To;
-
-import com.google.common.collect.Lists;
-
 import de.julielab.jules.types.Sentence;
 import de.julielab.jules.types.Token;
 
@@ -168,8 +165,8 @@ public class JsreTrainAnnotator extends JCasAnnotator_ImplBase {
                 // + "####################################");
 
                 // all BRs of this sentence, ordered by br.getBegin()
-                List<B> a = Lists.newArrayList(brIdx.get(uSentence));
-                Collections.sort(a, new java.util.Comparator<B>() {
+                List<B> a = newArrayList(brIdx.get(uSentence));
+                sort(a, new java.util.Comparator<B>() {
                     @Override
                     public int compare(B br1, B br2) {
                         return new Integer(br1.getBegin()).compareTo(br2
@@ -265,12 +262,14 @@ public class JsreTrainAnnotator extends JCasAnnotator_ImplBase {
                 // check both BR have been found
                 if (!matchedBr1) {
                     parsedOk = false;
-                    LOG.error("did not match br1: " + To.string(br1));
+                    LOG.error("did not match br1: " + To.string(br1)
+                            + " pmid{} start{}", pmId, br1.getBegin());
                     // throw new RuntimeException("did not match br1: "
                     // + To.string(br1));
                 } else if (!matchedBr2) {
                     parsedOk = false;
-                    LOG.error("did not match br2: " + To.string(br2));
+                    LOG.error("did not match br2: " + To.string(br2)
+                            + " pmid{} start{}", pmId, br2.getBegin());
                     // throw new RuntimeException("did not match br2: "
                     // + To.string(br2));
                 }
@@ -278,7 +277,8 @@ public class JsreTrainAnnotator extends JCasAnnotator_ImplBase {
                 for (int i = 0; i < allBrs.length; i++) {
                     if (allBrs[i] != null) {
                         parsedOk = false;
-                        LOG.error("did not match br: " + To.string(allBrs[i]));
+                        LOG.error("did not match br: " + To.string(allBrs[i])
+                                + " pmid{}", pmId);
                         // throw new RuntimeException("did not match br: "
                         // + To.string(allBrs[i]));
                     }
