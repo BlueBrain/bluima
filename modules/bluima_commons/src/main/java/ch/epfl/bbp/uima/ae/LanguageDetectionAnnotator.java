@@ -1,14 +1,15 @@
 package ch.epfl.bbp.uima.ae;
 
 import static ch.epfl.bbp.uima.BlueCasUtil.getHeaderDocId;
+import static ch.epfl.bbp.uima.BlueCasUtil.getTitle;
 
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
-import org.apache.uima.jcas.JCas;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.fit.descriptor.ConfigurationParameter;
 import org.apache.uima.fit.descriptor.TypeCapability;
+import org.apache.uima.jcas.JCas;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import com.cybozu.labs.langdetect.Detector;
 import com.cybozu.labs.langdetect.DetectorFactory;
@@ -44,12 +45,18 @@ public class LanguageDetectionAnnotator extends JCasAnnotator_ImplBase {
 
     // for testing
     public static final String MIN_TEXT_LENGTH = "min_text_length";
-    @ConfigurationParameter(name = MIN_TEXT_LENGTH, defaultValue = "200")
+    @ConfigurationParameter(name = MIN_TEXT_LENGTH, defaultValue = "150")
     private int minTextLenght;
 
     @Override
     public void process(JCas jCas) throws AnalysisEngineProcessException {
+        String title = getTitle(jCas);
         String text = jCas.getDocumentText();
+
+        // add title to text if too small
+        if (text.length() < minTextLenght && title.length() > 0) {
+            text = title + " " + text;
+        }
 
         // only detect if text is long enough
         if (text != null && text.length() > minTextLenght) {

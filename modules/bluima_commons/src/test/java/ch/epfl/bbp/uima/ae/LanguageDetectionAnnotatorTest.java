@@ -33,6 +33,9 @@ public class LanguageDetectionAnnotatorTest {
                 "zh-tw",
                 LanguageDetectionAnnotator
                         .detect("有一個很大的區別的頂部和底部的菜青蟲的藥用部位：根莖頂部的根有髓與結構的根莖;上三分之一擴大的根，根莖過渡區，還與髓;其他三分之二的擴大根的結構根無髓。藥用部分的菜青蟲adoxoides在不同發育階段的微觀結構提出了巨大的差距，結構定期增加植物的大小增加。這是第一次發現有結構的年輪在木質部的根及根莖的菜青蟲。"));
+        assertEquals(
+                "en",
+                getLang("The CNS-depressant effect of ethanol was markedly reduced in mice by simultaneous intraperitoneal injection of taurine. Effect of taurine on ethanol-induced sleeping time in mice."));
     }
 
     @Test
