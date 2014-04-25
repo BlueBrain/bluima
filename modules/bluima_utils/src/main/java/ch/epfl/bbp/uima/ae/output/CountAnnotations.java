@@ -25,7 +25,7 @@ import org.slf4j.LoggerFactory;
 import ch.epfl.bbp.uima.utils.LoadDataFileWriter;
 
 /**
- * Count specified annotationS
+ * Count specified annotationS, write 
  * 
  * @author renaud.richardet@epfl.ch
  */
@@ -64,7 +64,7 @@ public class CountAnnotations extends JCasAnnotator_ImplBase {
                 }
             }
 
-            LOG.info("writing LOAD DATA file to {}", outFile);
+            LOG.info("writing annotations file to {}", outFile);
             writer = new LoadDataFileWriter(new File(outFile), "\t",
                     fields.toArray(new String[fields.size()]));
 

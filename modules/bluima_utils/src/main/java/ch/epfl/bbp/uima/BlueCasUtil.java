@@ -412,7 +412,8 @@ public class BlueCasUtil {
     public static boolean keepDoc(JCas jCas) {
         String lang = jCas.getDocumentLanguage();
         if (lang.equals("x-unspecified")) {
-            LOG.warn("document language needed to decide whether to keepDoc(), but document language is not set.");
+            LOG.warn("document language needed to decide whether to keepDoc(), but document language is not set, pmId"
+                    + getHeaderDocId(jCas));
         }
         if (!(lang.equals("en") || lang.equals("x-unspecified")) || //
                 exists(jCas, TooFewTokensPerPage.class) || //

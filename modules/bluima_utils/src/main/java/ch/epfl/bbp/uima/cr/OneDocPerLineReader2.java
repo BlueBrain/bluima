@@ -30,17 +30,15 @@ public class OneDocPerLineReader2 extends OneDocPerLineReader {
         String[] split = nextLine.split("\t");
         checkEquals(3, split.length);
 
-        String pmid = split[0], title = unescapeCsv(split[1]), txt = unescapeCsv(split[2]);
+        String pmid = unescapeCsv(split[0]), title = unescapeCsv(split[1]), txt = unescapeCsv(split[2]);
 
         Header header = new Header(jCas);
         header.setDocId(pmid);
         header.setTitle(title);
         header.addToIndexes();
-        
 
         jCas.setDocumentText(title + ". " + txt);
-        
+
         jCas.setDocumentLanguage("en");
     }
-
 }

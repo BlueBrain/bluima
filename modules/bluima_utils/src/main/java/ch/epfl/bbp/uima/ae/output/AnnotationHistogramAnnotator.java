@@ -11,7 +11,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 import ch.epfl.bbp.Histogram;
 
 /**
- * Prints a histogram of the counts of each {@link Annotation}. E.g.
+ * Prints a histogram of the counts of each and every {@link Annotation} in the
+ * JCas. E.g.
  * 
  * <pre>
  * ch.epfl.bbp.uima.types.BrainRegionDictTerm: 123
