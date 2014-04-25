@@ -1,15 +1,27 @@
 
-##################################
-# Outputs 100k_ns corpus in DCA and LDA-C format
-##################################
+####################################################################
+#
+# Outputs 100k-ns or 2m_ns or pubmed corpus in DCA and LDA-C format
+# Minimal pre-processing
+# $ 1: 100k-ns | 2m_ns | pubmed
+# REM: need to change the cr, too
+#
+####################################################################
 
-
-cr: OneDocPerLineReader2
- inputFile: /Users/richarde/dev/bluebrain/git/lda_mesh/corpora/110k_ns/query_result.tsv
+cr: PubmedWholeDatabaseCR
+#cr: OneDocPerLineReader2
+# #inputFile: /Users/richarde/dev/bluebrain/git/lda_mesh/corpora/110k_ns/100k_ns.abstracts.tsv
+# inputFile:  /Users/richarde/dev/bluebrain/git/lda_mesh/corpora/2m_ns/2m_ns.abstracts.tsv
 
 
 # PREPROC
-include: ../../../includes/preprocess.incl
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+#ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
+ae: BlueBioLemmatizer
+ae: LanguageDetectionAnnotator
+
+# NERs
 ae: PunctuationAnnotator
 ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
 ae: PruneMeasuresAnnotator
@@ -23,26 +35,27 @@ ae: ch.epfl.bbp.uima.filter.PunctuationFilterAnnotator
 ae: ch.epfl.bbp.uima.filter.MeasureNormalizerAnnotator
 
 # VOCAB FILTERING
-#ae: ch.epfl.bbp.uima.filter.FrequencyFilterWriter
-# outputFile: target/100k_ns.vocab
-ae: ch.epfl.bbp.uima.filter.FrequencyFilterAnnotator
- inputFile: target/100k_ns.vocab
- minimumFrequency__java: 3
+ae: ch.epfl.bbp.uima.filter.FrequencyFilterWriter
+ outputFile: target/$1.vocab
+#NOPE ae: ch.epfl.bbp.uima.filter.FrequencyFilterAnnotator
+# inputFile: target/$1.vocab
+# minimumFrequency__java: 3
 
 # OUTPUT in DCA format
 ae: ch.epfl.bbp.uima.ae.output.LdaCWriter
  dcaFormat__java: true
- outputFile: target/100k_ns.dca_corpus
- vocabularyOutputFile: target/100k_ns.dca_corpus.vocab
+ outputFile: target/$1.dca_corpus
+ vocabularyOutputFile: target/$1.dca_corpus.vocab
+ idsOutputFile: target/$1.pmids
 
 # OUTPUT in LDA-C format
 ae: ch.epfl.bbp.uima.ae.output.LdaCWriter
- outputFile: target/100k_ns.lda-c_corpus
- vocabularyOutputFile: target/100k_ns.lda-c.vocab
-
+ outputFile: target/$1.lda-c_corpus
+ vocabularyOutputFile: target/$1.lda-c.vocab
 
 
 # ae: ch.epfl.bbp.uima.filter.KeepsDumper
 
 ae: StatsAnnotatorPlus
- printEvery__java: 100
+ printEvery__java: 1000
+ae: GarbageCollectorAnnotator

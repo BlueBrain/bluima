@@ -1,0 +1,75 @@
+########################################################################################
+#
+# Evaluating the gain in # of brain regions btw abstracts and fulltext
+#
+# abstracts: 
+# 507 ch.epfl.bbp.uima.types.BrainRegionDictTerm-annotations
+# 48477 de.julielab.jules.types.Token-annotations
+# processed 179 cas in 14s (avrg. 78ms per CAS)
+# 
+# ft:
+# 16397 ch.epfl.bbp.uima.types.BrainRegionDictTerm-annotations
+# 2172708 de.julielab.jules.types.Token-annotations
+# processed 179 cas in 203s
+# 
+# ft expandAbbrevs:
+# 21707 ch.epfl.bbp.uima.types.BrainRegionDictTerm-annotations
+# 2226675 de.julielab.jules.types.Token-annotations
+# processed 179 cas in 237s
+# 
+# ============================
+# 
+# ratio abstract / ft:
+# tokens: 48477 / 2172708 = 0.02 (4481% increase)
+# br:       507 /   16397 = 0.03 (3234% increase)
+# 
+# ration ft / ft expandAbbrevs:
+# 16397 / 21707 = 0.75 (32.3% more)
+#
+# 21707 - 16397 = 5310 abrevs
+# 
+#  507  / 179 = 2.8   brain regions on average per abstract
+# 16397 / 179 = 91.6  brain regions on average per article
+# 5310  / 179 = 29.7  abrevs        on average per article
+#
+########################################################################################
+
+#cr: PubmedFromListDatabaseCR
+# db_connection__java: new String[]{ "127.0.0.1", "bb_pubmed", "root", "" }
+# ids__java: new int[]{8986879,8989652,9087525,9120050,9205043,9208990,9215724,9254031,9259488,9268126,9364235,9368856,9414010,9482232,9527545,9548551,9550149,9579401,9699914,9714149,9853905,10022197,10076935,10235645,10379916,10398056,10413783,10421869,10531540,10545158,10545164,10660897,10842208,10861532,10906708,10972943,11056460,11086287,11135247,11135260,11169478,11745635,11745636,11754164,11807835,11807842,11891654,11891657,11984820,12115675,12115694,12124761,12124768,12209835,12209845,12378584,12389206,12389211,12412141,12442316,12541308,12541316,12577324,12640664,12811807,12898614,12898615,14556291,14566948,14574676,14595769,14608604,14750159,14983479,14986312,15024751,15048691,15067723,15067724,15164429,15174077,15174084,15236234,15248193,15305367,15368530,15514930,15803509,15977168,16041716,16082676,16255000,16261537,16385482,16566007,16786554,16856136,16874805,17029253,17099894,17154255,17206602,17311324,17311335,17348014,17394158,17447251,17492633,17534935,17534940,17722029,17722030,17722031,17722032,17722033,17722034,17722035,17722049,17879269,17879270,17879271,17879272,17879273,17879281,17912739,17912740,17912742,17912743,17912744,17912745,17948865,17948866,17948874,17948875,17948876,17948889,18076030,18076057,18076058,18076059,18076080,18076081,18076082,18076083,18076085,18076086,18189305,18189307,18189308,18220255,18220257,18220258,18273886,18311785,18338400,18381590,18381599,18521853,18521854,18521856,18663756,18729150,18729154,19003874,19003905,19107747,19107796,19107806,19107846,19107847,19132730,19137586,19137611,19177517,19177518,19177519,19177557,19180552,19180669}
+#expandAbbrevs__java: true
+
+cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+ inputDirectory: /Volumes/HDD2/ren_data/data_hdd/_papers_etc/j_of_comp_neurol_SAMPLE
+ expandAbbrevs__java: true
+
+############################################
+
+
+ae: ch.epfl.bbp.uima.ae.EnsureDocTextNotNullAnnotator
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
+ae: BlueBioLemmatizer
+# req by braiNER
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+ae: PruneMeasuresAnnotator
+ae: LinnaeusAnnotator
+
+# ABA-SYN
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/aba-syn")
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+
+# print pmid
+java:
+System.out.println("pmId: " + ch.epfl.bbp.uima.BlueCasUtil.getHeaderDocId(jCas));
+
+ae: ch.epfl.bbp.uima.ae.output.CountAnnotationsAnnotator
+ annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+
+ae: ch.epfl.bbp.uima.ae.output.CountAnnotationsAnnotator
+ annotationClass: de.julielab.jules.types.Token
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 10
