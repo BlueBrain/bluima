@@ -56,7 +56,7 @@ public class AbbreviationExpanderTest {
 
         String txt = "The subthalamic nucleus (STh) is a brain region. The STh (subthalamic nucleus) is here.";
         assertEquals(
-                "should not expand, since Sth is glued to medial",
+                "two definitions, should work",
                 "The subthalamic nucleus is a brain region. The subthalamic nucleus is here.",
                 expand(txt));
     }

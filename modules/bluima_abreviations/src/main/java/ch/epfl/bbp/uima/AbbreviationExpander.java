@@ -4,16 +4,11 @@ import static ch.epfl.bbp.StringUtils.snippetize;
 import static ch.epfl.bbp.uima.BlueUima.RESOURCES_PATH;
 import static ch.epfl.bbp.uima.ae.AbbreviationsAnnotator.ABREVIATIONS_HOME;
 import static ch.epfl.bbp.uima.utils.Preconditions.checkFileExists;
-import static com.google.common.collect.Lists.newArrayList;
-import static java.util.regex.Pattern.CASE_INSENSITIVE;
-import static java.util.regex.Pattern.compile;
 import static java.util.regex.Pattern.quote;
 import static org.slf4j.LoggerFactory.getLogger;
 
 import java.io.IOException;
 import java.util.Set;
-import java.util.regex.Matcher;
-import java.util.regex.Pattern;
 
 import org.slf4j.Logger;
 
@@ -57,44 +52,34 @@ public class AbbreviationExpander {
 
     public static class Abbrev {
 
-        // patterns:
-        // 1: '(lf) sf'
-        // 2: 'sf (lf)'
-        // 3: 'lf (sf)', oh yeah
-        // 4: 'sf', or without spaces if at end/beg of txt
-
-        final Pattern def1, def2, def3;
+        final String p1, p2, p3;
         final String sf, lf;
 
         private Abbrev(String longForm, String shortForm) {
             this.lf = longForm;
             this.sf = shortForm;
-            this.def1 = compile("\\(" + quote(lf) + "\\) " + quote(sf),
-                    CASE_INSENSITIVE);
-            this.def2 = compile(quote(sf) + " \\(" + quote(lf) + "\\)",
-                    CASE_INSENSITIVE);
-            this.def3 = compile(quote(lf) + " \\(" + quote(sf) + "\\)",
-                    CASE_INSENSITIVE);
+
+            // patterns:
+            // 1: '(lf) sf'
+            // 2: 'sf (lf)'
+            // 3: 'lf (sf)', oh yeah
+            // 4: 'sf', or without spaces if at end/beg of txt
+
+            this.p1 = "(?i)\\(" + quote(lf) + "\\) " + quote(sf);
+            this.p2 = "(?i)" + quote(sf) + " \\(" + quote(lf) + "\\)";
+            this.p3 = "(?i)" + quote(lf) + " \\(" + quote(sf) + "\\)";
+            // (?i) to turn case insensitivity
         }
 
         public String replace(String txt) {
 
-            // patterns 1-3
-            for (Pattern p : newArrayList(def1, def2, def3)) {
-                Matcher m = p.matcher(txt);
-                int idx = 0;
-                while (m.find(idx)) {
-                    int s = m.start(), e = m.end();
-                    txt = txt.substring(0, s) + lf + txt.substring(e);
-                    idx = e;
-                }
-            }
+            txt = txt.replaceAll(p1, lf).replaceAll(p2, lf).replaceAll(p3, lf);
 
-            // pattern 4: just the sf
+            // pattern 4: just the sf, case-sensitive
+            // check sf has NON-letter on the right AND left
             int idx = 0;
             while (txt.indexOf(sf, idx) > -1) {
                 int at = txt.indexOf(sf, idx);
-                // check abbrev has NON-letter on the right AND left
                 if (notLetter(txt, at - 1) && notLetter(txt, at + sf.length())) {
                     txt = txt.substring(0, at) + lf
                             + txt.substring(at + sf.length());
@@ -143,7 +128,9 @@ public class AbbreviationExpander {
                 if (a._longForm.indexOf('(') == -1 // parenthesis
                         && a._longForm.indexOf(')') == -1 // parenthesis
                         && !a._longForm.matches("et\\.? al") // citations
-                        && a._longForm.length() > 2) { // too short
+                        && a._shortForm.length() > 1 // shortform too short
+                        && a._longForm.length() > 2) // longform too short
+                {
                     // System.out.println(a._shortForm + " || " + a._longForm);
                     ret.add(new Abbrev(a._longForm, a._shortForm));
                 }
