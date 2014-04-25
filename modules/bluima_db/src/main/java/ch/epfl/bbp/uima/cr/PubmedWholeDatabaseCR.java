@@ -50,6 +50,11 @@ public class PubmedWholeDatabaseCR extends JCasCollectionReader_ImplBase {
     @ConfigurationParameter(name = BlueUima.PARAM_AND_QUERY, description = "specifies an additional query to filter on, e.g.  AND pubmed_id IN (SELECT id FROM neuroscience_ids_from_mesh)", defaultValue = "")
     private String andQuery;
 
+    public static final String PARAM_EXPAND_ABBREVIATIONS = "expandAbbrevs";
+    @ConfigurationParameter(name = PARAM_EXPAND_ABBREVIATIONS, defaultValue = "false", //
+    description = "whether to expand Abbreviations")
+    private boolean expandAbbrevs;
+
     @Override
     public void initialize(UimaContext context)
             throws ResourceInitializationException {
@@ -80,7 +85,7 @@ public class PubmedWholeDatabaseCR extends JCasCollectionReader_ImplBase {
 
     @Override
     public void getNext(JCas jcas) throws IOException, CollectionException {
-        PubmedDatabaseCR.getNext(jcas, res);
+        PubmedDatabaseCR.getNext(jcas, res, expandAbbrevs);
     }
 
     @Override

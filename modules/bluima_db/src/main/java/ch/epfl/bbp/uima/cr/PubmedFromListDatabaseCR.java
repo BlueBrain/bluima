@@ -40,6 +40,11 @@ public class PubmedFromListDatabaseCR extends JCasCollectionReader_ImplBase {
     @ConfigurationParameter(name = PUBMED_IDS, description = "a list of pubmed ids", mandatory = true)
     private int[] ids;
 
+    public static final String PARAM_EXPAND_ABBREVIATIONS = "expandAbbrevs";
+    @ConfigurationParameter(name = PARAM_EXPAND_ABBREVIATIONS, defaultValue = "false", //
+    description = "whether to expand Abbreviations")
+    private boolean expandAbbrevs;
+
     @Override
     public void initialize(UimaContext context)
             throws ResourceInitializationException {
@@ -61,7 +66,7 @@ public class PubmedFromListDatabaseCR extends JCasCollectionReader_ImplBase {
 
     @Override
     public void getNext(JCas jcas) throws IOException, CollectionException {
-        PubmedDatabaseCR.getNext(jcas, res);
+        PubmedDatabaseCR.getNext(jcas, res, expandAbbrevs);
     }
 
     @Override

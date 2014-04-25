@@ -19,6 +19,7 @@ import org.apache.uima.util.Progress;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import ch.epfl.bbp.uima.AbbreviationExpander;
 import ch.epfl.bbp.uima.db.utils.Database;
 import de.julielab.jules.types.pubmed.Header;
 
@@ -49,6 +50,11 @@ public class PubmedDatabaseCR extends JCasCollectionReader_ImplBase {
     description = "host, dbname, user, pw")
     private String[] db_connection;
 
+    public static final String PARAM_EXPAND_ABBREVIATIONS = "expandAbbrevs";
+    @ConfigurationParameter(name = PARAM_EXPAND_ABBREVIATIONS, defaultValue = "false", //
+    description = "whether to expand Abbreviations")
+    private boolean expandAbbrevs;
+
     @Override
     public void initialize(UimaContext context)
             throws ResourceInitializationException {
@@ -78,10 +84,12 @@ public class PubmedDatabaseCR extends JCasCollectionReader_ImplBase {
 
     @Override
     public void getNext(JCas jcas) throws IOException, CollectionException {
-        getNext(jcas, res);
+        getNext(jcas, res, expandAbbrevs);
     }
 
-    static void getNext(JCas jcas, ResultSet res_) throws CollectionException {
+    // shared among PubmedXXXXCR
+    static void getNext(JCas jcas, ResultSet res_, boolean expandAbbrevs_)
+            throws CollectionException {
         try {
             int pmid = res_.getInt(1);
             String title = res_.getString(2);
@@ -94,6 +102,9 @@ public class PubmedDatabaseCR extends JCasCollectionReader_ImplBase {
             h.setTitle(title);
             h.addToIndexes();
 
+            if (expandAbbrevs_) {
+                abstrct = AbbreviationExpander.expand(abstrct);
+            }
             jcas.setDocumentText(abstrct);
 
         } catch (SQLException e) {
