@@ -1,6 +1,9 @@
 package ch.epfl.bbp.uima.word2vec;
 
+import static ch.epfl.bbp.uima.utils.Preconditions.checkFileExists;
+import static com.google.common.collect.Maps.newHashMap;
 import static java.lang.Integer.parseInt;
+import static java.lang.Math.sqrt;
 
 import java.io.BufferedInputStream;
 import java.io.DataInputStream;
@@ -22,11 +25,12 @@ public class Word2Vec {
     private int size;
     private int topNSize = 40;
 
-    public void loadModel(String path) throws IOException {
+    public Word2Vec loadModel(String path) throws IOException {
         DataInputStream dis = null;
         BufferedInputStream bis = null;
         double len = 0;
         float vector = 0;
+        checkFileExists(path);
         try {
             bis = new BufferedInputStream(new FileInputStream(path));
             dis = new DataInputStream(bis);
@@ -44,7 +48,7 @@ public class Word2Vec {
                     len += vector * vector;
                     vectors[j] = (float) vector;
                 }
-                len = Math.sqrt(len);
+                len = sqrt(len);
 
                 for (int j = 0; j < vectors.length; j++) {
                     vectors[j] = (float) (vectors[j] / len);
@@ -57,6 +61,7 @@ public class Word2Vec {
             bis.close();
             dis.close();
         }
+        return this;
     }
 
     private static final int MAX_SIZE = 50;
@@ -69,9 +74,8 @@ public class Word2Vec {
         Set<Entry<String, float[]>> entrySet = wordMap.entrySet();
         float[] tempVector = null;
         List<WordEntry> wordEntrys = new ArrayList<WordEntry>(topNSize);
-        String name = null;
         for (Entry<String, float[]> entry : entrySet) {
-            name = entry.getKey();
+            String name = entry.getKey();
             if (name.equals(word)) {
                 continue;
             }
@@ -221,5 +225,25 @@ public class Word2Vec {
             if (wordVector[i] > threshold)
                 ret.add(i);
         return ret;
+    }
+
+    public static HashMap<String, Integer> loadClassModel(String path)
+            throws IOException {
+        checkFileExists(path);
+        HashMap<String, Integer> wordMap = newHashMap();
+        DataInputStream dis = null;
+        BufferedInputStream bis = null;
+        try {
+            bis = new BufferedInputStream(new FileInputStream(path));
+            dis = new DataInputStream(bis);
+            while (true) {
+                wordMap.put(readString(dis), parseInt(readString(dis)));
+            }
+        } catch (Exception e) {// nope
+        } finally {
+            bis.close();
+            dis.close();
+        }
+        return wordMap;
     }
 }
