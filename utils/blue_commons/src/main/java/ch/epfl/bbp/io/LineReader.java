@@ -110,7 +110,6 @@ public class LineReader implements Iterable<String>, Closeable {
     public static List<String> linesFrom(String filePath)
             throws FileNotFoundException {
         return linesFrom(new FileInputStream(filePath));
-
     }
 
     /**
@@ -145,7 +144,11 @@ public class LineReader implements Iterable<String>, Closeable {
         ArrayList<Integer> ints = new ArrayList<Integer>();
         for (String line : new LineReader(is)) {
             if (line.length() > 0 && !line.startsWith("#"))
-                ints.add(Integer.parseInt(line));
+                if (line.charAt(0) == '\"')// remove quotes
+                    ints.add(Integer.parseInt(line.substring(1,
+                            line.length() - 1)));
+                else
+                    ints.add(Integer.parseInt(line));
         }
         // copy it, because we can't cast from Integer to int...
         int[] ret = new int[ints.size()];

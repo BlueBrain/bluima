@@ -40,4 +40,15 @@ public class FileExtensionFilter implements FilenameFilter {
         }
         return false;
     }
+    
+    /**
+     * Convenience static method to create a {@link FileExtensionFilter}
+     * @param extensions
+     *            a list of allowed extensions, without the dot, e.g.
+     *            <code>"xml","html","rss"</code>. If it contains a dot, it will
+     *            be removed.
+     */
+    public static FileExtensionFilter filter(String... extensions){
+        return new FileExtensionFilter(extensions);
+    }
 }
