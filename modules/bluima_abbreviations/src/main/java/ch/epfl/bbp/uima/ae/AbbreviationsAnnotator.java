@@ -48,7 +48,7 @@ public class AbbreviationsAnnotator extends JCasAnnotator_ImplBase {
     private static boolean retrain;
 
     public static final String ABREVIATIONS_HOME = BLUE_UIMA_ROOT
-            + "modules/bluima_abreviations/";
+            + "modules/bluima_abbreviations/";
 
     protected AlignmentPredictionModel model;
 

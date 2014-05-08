@@ -45,22 +45,27 @@ import de.julielab.jules.types.Sentence;
 public class BartWriter extends JCasAnnotator_ImplBase {
     private static Logger LOG = LoggerFactory.getLogger(BartWriter.class);
 
-    private static final String PARAM_ADD_BRAT_FILES = "addBratFiles";
+    public static final String PARAM_ADD_BRAT_FILES = "addBratFiles";
     @ConfigurationParameter(name = PARAM_ADD_BRAT_FILES, defaultValue = "true", //
     description = "whether to add the complete, working brat server")
     private boolean addBratFiles;
 
-    private static final String PARAM_BATCH_PREFIX = "batchPrefix";
+    public static final String PARAM_BATCH_PREFIX = "batchPrefix";
     @ConfigurationParameter(name = PARAM_BATCH_PREFIX, defaultValue = "", //
     description = "prefix to add for each file in Brat; useful when comparing different batches")
     private String batchPrefix;
 
-    private static final String PARAM_DEBUG = "debug";
+    public static final String PARAM_DEBUG = "debug";
     @ConfigurationParameter(name = PARAM_DEBUG, defaultValue = "false", //
     description = "prints out annotations to StdOut")
     private boolean debug;
 
-    private static final String SPLIT_PER_PAGE = "splitPerPage";
+    public static final String PARAM_WRITE_NOTES = "notes";
+    @ConfigurationParameter(name = PARAM_WRITE_NOTES, defaultValue = "false", //
+    description = "write notes (for hover)")
+    private boolean writeNotes;
+
+    public static final String SPLIT_PER_PAGE = "splitPerPage";
     @ConfigurationParameter(name = SPLIT_PER_PAGE, defaultValue = "false", //
     description = "splits out Bart output per page")
     private boolean splitPerPage;
@@ -173,7 +178,8 @@ public class BartWriter extends JCasAnnotator_ImplBase {
                 }
             }
         }
-        annotWriter.append(notes);
+        if (writeNotes)
+            annotWriter.append(notes);
         annotWriter.close();
 
         // TODO write relations

@@ -1,5 +1,7 @@
 package ch.epfl.bbp.uima.uimafit;
 
+import static ch.epfl.bbp.uima.testutils.UimaTests.getTestCas;
+
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -9,20 +11,30 @@ import org.apache.uima.analysis_engine.AnalysisEngine;
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.collection.CollectionReaderDescription;
 import org.apache.uima.collection.metadata.CpeDescriptorException;
-import org.apache.uima.jcas.JCas;
-import org.apache.uima.resource.ResourceInitializationException;
-import org.apache.uima.util.InvalidXMLException;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.fit.factory.AnalysisEngineFactory;
 import org.apache.uima.fit.pipeline.SimplePipeline;
+import org.apache.uima.jcas.JCas;
+import org.apache.uima.resource.ResourceInitializationException;
+import org.apache.uima.util.InvalidXMLException;
 import org.xml.sax.SAXException;
 
+/**
+ * {@link PipelineBuilder} that handles one or more {@link JCas}es. To handle
+ * new {@link JCas}, call {@link #process(JCas)}
+ * 
+ * @author richarde
+ */
 public class JcasPipelineBuilder implements PipelineBuilder {
 
     private JCas jCas;
     private List<AnalysisEngineDescription> aeds = new ArrayList<AnalysisEngineDescription>();
 
     public JcasPipelineBuilder() {
+    }
+
+    public JcasPipelineBuilder(String txt) throws UIMAException {
+        this.jCas = getTestCas(txt);
     }
 
     public JcasPipelineBuilder(JCas jCas) {
@@ -36,9 +48,8 @@ public class JcasPipelineBuilder implements PipelineBuilder {
     }
 
     @Override
-    public void add(AnalysisEngineDescription aDesc)
-            throws IOException, SAXException, CpeDescriptorException,
-            InvalidXMLException {
+    public void add(AnalysisEngineDescription aDesc) throws IOException,
+            SAXException, CpeDescriptorException, InvalidXMLException {
         if (engines != null)
             throw new IllegalArgumentException(
                     "cannot add more engines after first call to process()");
@@ -53,8 +64,8 @@ public class JcasPipelineBuilder implements PipelineBuilder {
         if (engines != null)
             throw new IllegalArgumentException(
                     "cannot add more engines after first call to process()");
-        add(AnalysisEngineFactory
-                .createEngineDescription(annotatorClass, configurationData));
+        add(AnalysisEngineFactory.createEngineDescription(annotatorClass,
+                configurationData));
     }
 
     @Override
@@ -87,6 +98,5 @@ public class JcasPipelineBuilder implements PipelineBuilder {
             }
         }
         return engines;
-
     }
 }

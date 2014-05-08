@@ -1,5 +1,7 @@
+/* stylesheet copied from Bluima/modules/bluima_utils/src/main/resources/html_viewer */
 
-span.an {text-decoration:underline;}
+/*span.an {text-decoration:underline;}*/
+span.an {padding-left: 1px; padding-right: 1px;}
 
 .BioLexicon{color:black;background:lightgreen;}
 .Abbreviation{color:black;background:green;}
@@ -29,3 +31,17 @@ span.an {text-decoration:underline;}
 .BrainRegionDictTerm{color:black;background:orange;}
 
 .SurfaceForm{border-bottom:2px solid blue;}
+
+
+/* neurNER*/
+.Neuron{color:white;background:#606060;}
+.NeuronWithProperties{border-bottom:4px solid #606060;}
+.Orientation{color:black;background:yellow;}
+.Morphology{color:black;background:orange;}
+.Size{color:black;background:lightblue;}
+.ProteinP{color:white;background:brown;}
+.BrainRegionP{color:white;background:green;}
+.Neurotransmitter{color:black;background:salmon;}
+.Function{color:black;background:tan;}
+.Layer{color:black;background:gray;}
+.Electrophysiology{color:black;background:lightgreen;}

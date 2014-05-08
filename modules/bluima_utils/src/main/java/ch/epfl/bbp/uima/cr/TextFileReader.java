@@ -30,6 +30,8 @@ public class TextFileReader extends AbstractFileReader {
         super.initialize(context);
     }
 
+    int docId = 0;
+
     @Override
     public void getNext(JCas jCas) throws IOException, CollectionException {
 
@@ -38,6 +40,7 @@ public class TextFileReader extends AbstractFileReader {
 
         Header header = new Header(jCas);
         header.setSource(f.getAbsolutePath());
+        header.setDocId(docId++ + "");
         header.addToIndexes();
     }
 }

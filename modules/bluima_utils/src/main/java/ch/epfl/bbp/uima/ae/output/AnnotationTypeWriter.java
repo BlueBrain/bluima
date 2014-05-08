@@ -77,7 +77,7 @@ public class AnnotationTypeWriter extends JCasAnnotator_ImplBase {
     public void process(JCas jcas) throws AnalysisEngineProcessException {
         try {
             for (Annotation annotation : jcas.getAnnotationIndex()) {
-                if (annotation.getClass().getName().equals(annotationClass)) {
+                if (annotation.getType().getName().equals(annotationClass)) {
                     LOG.trace("printing " + annotation.getCoveredText());
                     if (featureName != null) {
                         Feature feature = annotation.getType()
@@ -105,7 +105,7 @@ public class AnnotationTypeWriter extends JCasAnnotator_ImplBase {
                     }
                 }
             }
-            writer.println();
+            //writer.println();
             writer.flush();
 
         } catch (Exception e) {

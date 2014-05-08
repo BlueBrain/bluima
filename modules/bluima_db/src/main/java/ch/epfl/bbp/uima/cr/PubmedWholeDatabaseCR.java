@@ -1,5 +1,7 @@
 package ch.epfl.bbp.uima.cr;
 
+import static ch.epfl.bbp.uima.BlueUima.PARAM_AND_QUERY;
+import static ch.epfl.bbp.uima.BlueUima.PARAM_DB_CONNECTION;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_SKIP_EMPTY_DOCS;
 import static org.apache.uima.resource.ResourceInitializationException.COULD_NOT_ACCESS_DATA;
 
@@ -37,17 +39,19 @@ public class PubmedWholeDatabaseCR extends JCasCollectionReader_ImplBase {
     protected int maxPubmedId;
     protected int currentBatchStart = 0, batchIncrement = 5000; // counters
 
-    @ConfigurationParameter(name = BlueUima.PARAM_DB_CONNECTION, mandatory = false, //
+    // warning: somehow "localhost" does not work...
+    @ConfigurationParameter(name = PARAM_DB_CONNECTION, mandatory = false,//
     defaultValue = { "128.178.187.160", "bb_pubmed", "bemyguest", "" },//
     // defaultValue = { "127.0.0.1", "bb_pubmed", "root", "" },//
     // warning: somehow "localhost" does not work...
     description = "host, dbname, user, pw")
-    protected String[] db_connection;
+    private String[] db_connection;
 
     @ConfigurationParameter(name = PARAM_SKIP_EMPTY_DOCS, description = " Skip PubMed articles that have no abstract", defaultValue = "true")
     protected boolean skipEmptyDocs;
 
-    @ConfigurationParameter(name = BlueUima.PARAM_AND_QUERY, description = "specifies an additional query to filter on, e.g.  AND pubmed_id IN (SELECT id FROM neuroscience_ids_from_mesh)", defaultValue = "")
+    public static String MESH = " AND pubmed_id IN (SELECT id FROM neuroscience_ids_from_mesh2)";
+    @ConfigurationParameter(name = PARAM_AND_QUERY, description = "specifies an additional query to filter on, e.g.  AND pubmed_id IN (SELECT id FROM neuroscience_ids_from_mesh)", defaultValue = "")
     private String andQuery;
 
     public static final String PARAM_EXPAND_ABBREVIATIONS = "expandAbbrevs";

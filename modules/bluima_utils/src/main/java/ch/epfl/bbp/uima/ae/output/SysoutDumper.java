@@ -7,7 +7,7 @@ import org.apache.uima.jcas.JCas;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 
 /**
- * Dumps to sysout
+ * Dumps document text to sysout
  * 
  * @author renaud.richardet@epfl.ch
  */
