@@ -84,7 +84,8 @@ public class LdaCWriter extends JCasAnnotator_ImplBase {
         try {
             List<String> words = newLinkedList();
             for (Keep k : select(jCas, Keep.class)) {
-                words.add(k.getNormalizedText());
+                // replace spaces by _ in multiwords
+                words.add(k.getNormalizedText().replace(' ', '_'));
             }
             if (!words.isEmpty()) {
                 writer.addDocument(words);

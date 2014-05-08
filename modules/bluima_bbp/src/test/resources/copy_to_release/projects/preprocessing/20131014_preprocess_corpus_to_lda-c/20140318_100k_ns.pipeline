@@ -1,45 +1,21 @@
-
 ####################################################################
 #
-# Outputs 100k-ns or 2m_ns or pubmed corpus in DCA and LDA-C format
+# Outputs 100k-ns or 1m_ns or pubmed corpus in DCA and LDA-C format
 # Minimal pre-processing
-# $ 1: 100k-ns | 2m_ns | pubmed
+# $ 1: 100k-ns | 1m_ns | pubmed
 # REM: need to change the cr, too
 #
 ####################################################################
 
+# for pubmed
 cr: PubmedWholeDatabaseCR
+
+# for 100k-ns | 1m_ns
 #cr: OneDocPerLineReader2
 # #inputFile: /Users/richarde/dev/bluebrain/git/lda_mesh/corpora/110k_ns/100k_ns.abstracts.tsv
-# inputFile:  /Users/richarde/dev/bluebrain/git/lda_mesh/corpora/2m_ns/2m_ns.abstracts.tsv
+# inputFile:  /Users/richarde/dev/bluebrain/git/lda_mesh/corpora/1m_ns/1m_ns.abstracts.tsv
 
-
-# PREPROC
-ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
-ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
-#ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
-ae: BlueBioLemmatizer
-ae: LanguageDetectionAnnotator
-
-# NERs
-ae: PunctuationAnnotator
-ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
-ae: PruneMeasuresAnnotator
-
-# FILTERING FRAMEWORK
-ae: ViterbiFilterAnnotator
-#ae: ch.epfl.bbp.uima.filter.Tokens2KeepAnnotator
-ae: BioLemmatizerNormalizerAnnotator
-ae: ch.epfl.bbp.uima.filter.StopwordFilterAnnotator
-ae: ch.epfl.bbp.uima.filter.PunctuationFilterAnnotator
-ae: ch.epfl.bbp.uima.filter.MeasureNormalizerAnnotator
-
-# VOCAB FILTERING
-ae: ch.epfl.bbp.uima.filter.FrequencyFilterWriter
- outputFile: target/$1.vocab
-#NOPE ae: ch.epfl.bbp.uima.filter.FrequencyFilterAnnotator
-# inputFile: target/$1.vocab
-# minimumFrequency__java: 3
+include: 20140318_100k_ns.include
 
 # OUTPUT in DCA format
 ae: ch.epfl.bbp.uima.ae.output.LdaCWriter
@@ -53,9 +29,7 @@ ae: ch.epfl.bbp.uima.ae.output.LdaCWriter
  outputFile: target/$1.lda-c_corpus
  vocabularyOutputFile: target/$1.lda-c.vocab
 
-
 # ae: ch.epfl.bbp.uima.filter.KeepsDumper
-
 ae: StatsAnnotatorPlus
  printEvery__java: 1000
 ae: GarbageCollectorAnnotator
