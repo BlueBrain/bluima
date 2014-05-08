@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <name>neuroner.NeuroNERTypeSystem</name>
+    <imports>
+        <import location="../BasicTypeSystem.xml"/>
+    </imports>
+    <types>
+        <typeDescription>
+            <name>neuroner.NeuroNER.Neuron</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.NeuronProperty</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.Orientation</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.Morphology</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.Size</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.ProteinName</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.Protein</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.BrainRegion</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.Neurotransmitter</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.Function</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.Layer</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.Electrophysiology</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.NeuronWithProperties</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.Missing</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+    </types>
+</typeSystemDescription>

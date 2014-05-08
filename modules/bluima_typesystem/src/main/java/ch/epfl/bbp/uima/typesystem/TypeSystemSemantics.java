@@ -68,18 +68,23 @@ public class TypeSystemSemantics {
      * {@link Keep}
      */
     public final static Set<String> NON_CONTENT_ANNOTATIONS_OR_TOKEN = newHashSet(
-            DocumentAnnotation.class.getName(),
-            // FIXME
-            // org.apache.uima.jcas.tcas.DocumentAnnotation.class.getName(),
-            Header.class.getName(), //
-            de.julielab.jules.types.pubmed.Header.class.getName(),
-            Sentence.class.getName(),//
-            GeniaPOSTag.class.getName(),//
-            DocumentPage.class.getName(),//
-            DocumentElement.class.getName(),//
-            DocumentBlock.class.getName(),//
-            Token.class.getName(),//
-            Keep.class.getName());
+            DocumentAnnotation.class.getName()//
+            , "uima.tcas.DocumentAnnotation"// LATER
+            , "org.apache.uima.jcas.tcas.DocumentAnnotation"// LATER
+            , Header.class.getName() //
+            , de.julielab.jules.types.pubmed.Header.class.getName()//
+            , Sentence.class.getName()//
+            , GeniaPOSTag.class.getName()//
+            , DocumentPage.class.getName()//
+            , DocumentElement.class.getName()//
+            , DocumentBlock.class.getName()//
+            , Token.class.getName()//
+            , TypeSystem.W//
+            , TypeSystem.SW//
+            , TypeSystem.CW//
+            , TypeSystem.RUTA_BASIC//
+            , Keep.class.getName()//
+    );
 
     /**
      * Defines semantic priority between annotations, in INCREASING order of
