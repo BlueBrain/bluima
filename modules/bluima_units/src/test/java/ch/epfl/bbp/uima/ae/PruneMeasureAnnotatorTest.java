@@ -20,7 +20,6 @@ import org.slf4j.Logger;
 import org.apache.uima.fit.factory.AnalysisEngineFactory;
 import org.apache.uima.fit.util.JCasUtil;
 
-import ch.epfl.bbp.uima.BlueUima;
 import ch.epfl.bbp.uima.testutils.UimaTests;
 import ch.epfl.bbp.uima.types.Concentration;
 import ch.epfl.bbp.uima.types.Measure;

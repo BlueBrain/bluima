@@ -9,9 +9,7 @@ import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.jcas.JCas;
 import org.junit.Test;
-import org.apache.uima.fit.pipeline.SimplePipeline;
 
-import ch.epfl.bbp.uima.testutils.UimaTests;
 import ch.epfl.bbp.uima.types.DictTerm;
 import ch.epfl.bbp.uima.types.Protein;
 

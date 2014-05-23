@@ -19,8 +19,8 @@ import ch.epfl.bbp.uima.types.Keep;
 import de.julielab.jules.types.Token;
 
 /**
- * Lemmatizes every {@link Keep} annotation and sets its
- * {@link Keep#setNormalizedText()}<br>
+ * Sets {@link Keep#setNormalizedText()}  for every {@link Keep} annotation 
+ * to the lemmatization of its covered text.
  * Expects that {@link Token} themselves have already been lemmatized (with
  * {@link Token#setLemmaStr()})
  * 
@@ -34,6 +34,10 @@ public class BioLemmatizerNormalizerAnnotator extends JCasAnnotator_ImplBase {
     @ConfigurationParameter(name = PARAM_CASE_SENSITIVE, defaultValue = "false",//
     description = "If true, tokens are not normalized to lowercase before string comparisions")
     private boolean caseSensitive;
+    
+    @ConfigurationParameter(name = "onlyTokens", defaultValue = "false",//
+    description = "Only lemmatize the Keeps that are Tokens, rest are left unchanged.")
+    private boolean onlyTokens;
 
     @Override
     public void initialize(UimaContext context)
@@ -48,33 +52,33 @@ public class BioLemmatizerNormalizerAnnotator extends JCasAnnotator_ImplBase {
 
         for (Keep k : select(jCas, Keep.class)) {
 
-            Annotation a = k.getEnclosedAnnot();
+            Annotation a = k.getEnclosedAnnot();   
             String normalized = null;
-
+            
             // sometimes, Tokens already have a lemma form, use this one.
             if (a instanceof Token) {
                 normalized = ((Token) a).getLemmaStr();
-            }
-
-            // Biolemmatizer
-            if (normalized == null) {
-                try {
-                    // FIXME provide POS
-                    normalized = BlueBioLemmatizer.lemmatize(a.getCoveredText(), "");
-                } catch (Exception e) {
-                    LOG.warn("failed to lemmatize '{}'", a.getCoveredText());
-                    k.setNormalizedText(a.getCoveredText().trim().toLowerCase());
+                if (!caseSensitive){
+                	normalized = normalized.toLowerCase();
                 }
+                k.setNormalizedText(normalized);
             }
-
-            // fallback
-            if (normalized == null)
-                normalized = a.getCoveredText().trim();
-
-            if (!caseSensitive)
-                normalized = normalized.toLowerCase();
-
-            k.setNormalizedText(normalized);
+            else if(!onlyTokens) {
+	            // Biolemmatizer
+	            try {
+	            	normalized = BlueBioLemmatizer.lemmatize(a.getCoveredText(), "");               
+	            } catch (Exception e) {
+	            	LOG.warn("Failed to lemmatize '{}'", a.getCoveredText());
+	                normalized = a.getCoveredText().trim();
+	            }
+	            finally{
+	                if (!caseSensitive){
+	                	normalized = normalized.toLowerCase();
+	                }
+	                
+	                k.setNormalizedText(normalized);
+                }
+            }      
         }
     }
 }

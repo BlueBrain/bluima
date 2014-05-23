@@ -56,10 +56,7 @@ public class FrequencyFilterWriter extends JCasAnnotator_ImplBase {
     public void process(JCas jCas) throws AnalysisEngineProcessException {
         if (BlueCasUtil.keepDoc(jCas))
             for (Keep keep : select(jCas, Keep.class)) {
-                // System.err.println(keep.getNormalizedText() + "\t\t"
-                // + keep.getEnclosedAnnot().getCoveredText() + "\t"
-                // + keep.getEnclosedAnnot().getClass());
-                trie.addWord(keep.getNormalizedText());
+                trie.addWord(keep.getNormalizedText().replace(' ', '_'));
             }
     }
 

@@ -61,7 +61,7 @@ public class LdaCWriter extends JCasAnnotator_ImplBase {
     @ConfigurationParameter(name = PARAM_DCA_FORMAT, defaultValue = "false",//
     description = "wheter to output in DCA format (without ':')")
     private boolean dcaFormat;
-
+    
     private Writer writer;
     private TextFileWriter idsWriter;
 
@@ -136,8 +136,8 @@ public class LdaCWriter extends JCasAnnotator_ImplBase {
             Map<Integer, Integer> documentMap = newHashMap();
 
             for (String word : words) {
-
-                Integer tokenId = vocabulary.get(word);
+            	
+            	Integer tokenId = vocabulary.get(word);
                 if (tokenId == null) {// add new to vocab
                     tokenId = vocabulary.size();
                     vocabulary.put(word, tokenId);

@@ -1,0 +1,60 @@
+# Reading: 
+cr: ch.epfl.bbp.uima.cr.OneDocPerLineReader2
+ inputFile: /home/michael/Documents/MasterProject/lda_mesh/BluimaTest2/test
+
+# Preprocessing:
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
+ae: BlueBioLemmatizer
+
+#Annotation retrieval:
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+ae: ch.epfl.bbp.uima.ae.PruneMeasuresAnnotator
+ae: ch.epfl.bbp.uima.ae.PunctuationAnnotator
+#NERs
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/age")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/disease")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/ionchannel")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/method")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/molecule")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/organism")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/region")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/sex")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/neuronames")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/cell")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/disease")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/protein")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/verb")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/nif/nif")
+
+#Choose annotations to keep (longest match rule)
+ae: ch.epfl.bbp.uima.ae.ViterbiFilterAnnotator
+
+#Normalization
+ae: ch.epfl.bbp.uima.ae.BioLemmatizerNormalizerAnnotator
+ae: ch.epfl.bbp.uima.filter.MeasureNormalizerAnnotator
+ removeSimpleMeasure__java: true
+ae: ch.epfl.bbp.uima.ae.EntityNormalizerAnnotator
+
+#Annotation filtering 
+ae: ch.epfl.bbp.uima.filter.PunctuationFilterAnnotator
+ae: ch.epfl.bbp.uima.filter.StopwordFilterAnnotator
+
+#Frecuency counts
+ae: ch.epfl.bbp.uima.filter.FrequencyFilterWriter
+ outputFile: /home/michael/Documents/MasterProject/lda_mesh/BluimaTest2/frequency
+	
+#Writing
+ae: ch.epfl.bbp.uima.ae.output.LdaCWriter 
+ dcaFormat__java: true
+ outputFile: /home/michael/Documents/MasterProject/lda_mesh/BluimaTest/output
+ vocabularyOutputFile: /home/michael/Documents/MasterProject/lda_mesh/BluimaTest2/vocab
+
+# Only recommended for testing.
+#ae: ch.epfl.bbp.uima.ae.output.BartWriter
+# debug__java: true
+# outputDir: /home/michael/Documents/MasterProject/lda_mesh/BluimaTest/bart
+
+ae: ch.epfl.bbp.uima.filter.KeepsDumper
+ printCoveredText__java: true

@@ -7,6 +7,7 @@ import java.util.HashMap;
 import org.junit.Ignore;
 import org.junit.Test;
 
+@Ignore
 public class Word2VecUtilsTest {
 
     @Test
