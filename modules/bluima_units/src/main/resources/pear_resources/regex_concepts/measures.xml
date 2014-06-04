@@ -63,13 +63,14 @@
       value="(?:\v{si_unit_derived_symbol}|\v{si_unit_derived_name})" />
 
     <!-- CURRENCIES UNITS -->
-    <variable name="currency_unit_symbol" value="(?:€|\$|£|¥|Sfr|A\$|C\$)" />
+    <variable name="currency_unit_symbol" value="(?:€|\$|£|¥|Sfr|A\$|C\$)" /><!-- 
+      TODO -->
     <variable name="currency_unit_abrevs"
       value="(?:EUR|USD|GBP|JPY|CHF|AUD|CAD|NZD|HKD|SEK)" />
     <variable name="currency_unit_name"
       value="(?:[Ee]uros?|[Dd]ollars?|[Pp]ounds? [Ss]terlings?|[Yy]ens?|[Ss]wiss [Ff]rancs?)" />
-    <variable name="currency_unit_prefix"
-      value="(?:\v{currency_unit_symbol}|\v{currency_unit_abrevs})" />
+    <variable name="currency_unit"
+      value="(?:\v{currency_unit_name}|\v{currency_unit_abrevs})" />
 
     <!-- OTHER UNITS -->
     <variable name="volume_unit" value="(?:l|L|liters?)" />
@@ -84,7 +85,7 @@
     <!-- COMBINED UNITS -->
     <!-- only si_unit and volume_unit gets si_prefix -->
     <variable name="unit"
-      value="(?:\v{si_prefix}?(?:\v{si_unit}|\v{si_unit_derived}|\v{volume_unit})|\v{time_unit}|\v{concentration_unit}|\v{other_unit})" />
+      value="(?:\v{si_prefix}?(?:\v{si_unit}|\v{si_unit_derived}|\v{volume_unit})|\v{time_unit}|\v{concentration_unit}|\v{currency_unit}|\v{other_unit})" />
     <variable name="unit_ratio"
       value="(?:(?:(?:\v{unit})?\v{separator_opt}\v{ratio_separator}\v{separator_opt})?\v{unit})" />
 
@@ -281,7 +282,7 @@
         <end group="3" />
         <setFeature name="textValue" type="String"
           normalization="Custom" class="ch.epfl.bbp.uima.ae.SeparatorRemover">$1</setFeature>
-        <setFeature name="unit" type="String" >pH</setFeature>
+        <setFeature name="unit" type="String">pH</setFeature>
         <setFeature name="value" type="Float" normalization="Custom"
           class="ch.epfl.bbp.uima.units.normalizers.NumberNormalizer">$3</setFeature>
       </annotation>

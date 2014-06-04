@@ -17,6 +17,12 @@
     <output id="unit">Hertz</output>
   </result>
   <result>
+    <input>443ml</input>
+    <output id="textValue">443ml</output>
+    <output id="value">443</output>
+    <output id="unit">ml</output>
+  </result>
+  <result>
     <input>-60 mV</input>
     <output id="textValue">-60 mV</output>
     <output id="value">-60</output>
@@ -33,6 +39,12 @@
     <output id="textValue">24 seconds</output>
     <output id="value">24</output>
     <output id="unit">seconds</output>
+  </result>
+  <result>
+    <input>6USD</input>
+    <output id="textValue">6USD</output>
+    <output id="value">6</output>
+    <output id="unit">USD</output>
   </result>
   <result>
     <description>with , separator</description>
