@@ -79,7 +79,8 @@ public class BrainRegionPipes {
 
         addLengthPipes(usedPipeNames, pipes);
 
-        addFullTextPipes(usedPipeNames, pipes);
+        if (Jcas2TokenSequence.NEW_FEATURES)
+            addFullTextPipes(usedPipeNames, pipes);
 
         // / if (StaticOption.getBoolean("HandMadeRegexPipes_MalletNEPipes")) {
         addHandMadeRegexPipes(usedPipeNames, pipes);

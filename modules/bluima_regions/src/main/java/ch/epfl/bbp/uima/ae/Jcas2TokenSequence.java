@@ -15,18 +15,15 @@ import java.util.Set;
 
 import org.apache.uima.cas.text.AnnotationFS;
 import org.apache.uima.jcas.JCas;
-import org.apache.uima.jcas.cas.DoubleArray;
 
 import cc.mallet.pipe.Pipe;
 import cc.mallet.types.Instance;
 import cc.mallet.types.TokenSequence;
-import ch.epfl.bbp.uima.topicmodels.annotators.DCATopicModelsAnnotator;
 import ch.epfl.bbp.uima.types.BrainRegion;
 import ch.epfl.bbp.uima.types.Gold;
 import ch.epfl.bbp.uima.types.LinnaeusSpecies;
 import ch.epfl.bbp.uima.types.Measure;
 import ch.epfl.bbp.uima.types.Topic;
-import ch.epfl.bbp.uima.utils.StaticOption;
 import de.julielab.jules.types.Sentence;
 import de.julielab.jules.types.Token;
 
@@ -44,11 +41,14 @@ public class Jcas2TokenSequence extends Pipe {
     public static final String PROPERTY_LEMMA = "u_LEMMA_";
     public static final String PROPERTY_TEXT = "u_TEXT_";
     public static final String PROPERTY_TOPICS = "u_TOPICID_";
+    public static final String PROPERTY_WORDVECTOR = "u_WORDVECT_";
     public static final String PROPERTY_SPECIES = "u_SPECIES_";
     public static final String PROPERTY_UNITS = "u_UNITS_";
 
     public static final String TARGET_I = "I";
     public static final String TARGET_O = "O";
+
+    public static final boolean NEW_FEATURES = true;
 
     /**
      * IN: one {@link JCas} <br/>
@@ -68,6 +68,7 @@ public class Jcas2TokenSequence extends Pipe {
      * Note: this {@link Pipe} creates more {@link Instance} than it gets (one
      * output {@link Instance} per input {@link Sentence}).
      */
+    @SuppressWarnings("unused")
     @Override
     public Iterator<Instance> newIteratorFrom(Iterator<Instance> source) {
         List<Instance> output = new LinkedList<Instance>();
@@ -112,6 +113,7 @@ public class Jcas2TokenSequence extends Pipe {
                     data.add(malletToken);
 
                     // POS, LEMMA
+
                     malletToken.setFeatureValue(PROPERTY_POS + t.getPos(), 1.0);
                     // /if (GridSearchConfiguration.getBoolean("Lemma")) {
                     if (t.getLemmaStr() != null && t.getLemmaStr().length() > 1)
@@ -121,6 +123,30 @@ public class Jcas2TokenSequence extends Pipe {
                     // malletToken.setFeatureValue(
                     // PROPERTY_TEXT + t.getCoveredText(), 1.0);
 
+                    // // Word2class
+                    // if (false) {
+                    // int classz = Word2VecUtils.getClass(t.getCoveredText());
+                    // malletToken.setFeatureValue(PROPERTY_WORDVECTOR//
+                    // + classz, 1.0);
+                    // }
+                    //
+                    // // Word2vec
+                    // if (false) {
+                    // float[] wordVector = Word2VecUtils.getWordVector(t
+                    // .getCoveredText());
+                    // if (wordVector != null) {
+                    //
+                    // for (int j = 0; j < wordVector.length; j++) {
+                    // malletToken.setFeatureValue(PROPERTY_WORDVECTOR//
+                    // + j, wordVector[j]);
+                    // }
+                    // } else {
+                    // System.out.println("no wordvec for "
+                    // + t.getCoveredText());
+                    // }
+                    // }
+
+                    /*-
                     // TOPICS
                     if (coveringTopics.containsKey(t)) {
                         Topic top = (Topic) coveringTopics.get(t).iterator()
@@ -178,10 +204,10 @@ public class Jcas2TokenSequence extends Pipe {
                                 }
                             }
                         }
-                    }
+                    }*/
 
                     // SPECIES
-                    if (species != null && !species.isEmpty()) {
+                    if (NEW_FEATURES && species != null && !species.isEmpty()) {
                         for (LinnaeusSpecies specie : species) {
                             malletToken.setFeatureValue(PROPERTY_SPECIES
                                     + specie.getMostProbableSpeciesId(), 1.0);
@@ -189,7 +215,7 @@ public class Jcas2TokenSequence extends Pipe {
                     }
 
                     // MEASURE
-                    if (coveringMeasures.containsKey(t)) {
+                    if (NEW_FEATURES && coveringMeasures.containsKey(t)) {
                         String unit = null;
                         for (AnnotationFS measure : coveringMeasures.get(t)) {
                             Measure m = (Measure) measure;

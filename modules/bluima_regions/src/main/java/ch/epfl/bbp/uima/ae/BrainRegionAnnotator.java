@@ -42,7 +42,8 @@ import cc.mallet.fst.CRFTrainerByThreadedLabelLikelihood;
 import cc.mallet.fst.Experiment;
 import cc.mallet.fst.Experiment.Fold;
 import cc.mallet.fst.Experiment.Trail;
-import cc.mallet.fst.MyLenientMultiSegmentationEvaluator;
+import cc.mallet.fst.MultiSegmentationEvaluator;
+import cc.mallet.fst.LenientMultiSegmentationEvaluator;
 import cc.mallet.fst.MyMultiSegmentationEvaluator;
 import cc.mallet.fst.Transducer;
 import cc.mallet.pipe.SerialPipes;
@@ -324,15 +325,20 @@ public class BrainRegionAnnotator extends JCasAnnotator_ImplBase {
         String[] tags = new String[] { Jcas2TokenSequence.TARGET_I };
         String[] continueTags = tags;
 
+        trainer.train(trainingSet);
+
         MyMultiSegmentationEvaluator eval = new MyMultiSegmentationEvaluator(
                 new InstanceList[] { testingSet },//
                 new String[] { "TTesting" }, tags, continueTags,
                 PRINT_MISSCLASSIFIED);
-        // trainer.addEvaluator(eval);
-        trainer.train(trainingSet);
         eval.evaluate(trainer); // eval at end of training
 
-        MyLenientMultiSegmentationEvaluator evalLenient = new MyLenientMultiSegmentationEvaluator(
+//        MultiSegmentationEvaluator evalOrig = new MultiSegmentationEvaluator(
+//                new InstanceList[] { testingSet },//
+//                new String[] { "TTesting" }, tags, continueTags);
+//        evalOrig.evaluate(trainer); // eval at end of training
+
+        LenientMultiSegmentationEvaluator evalLenient = new LenientMultiSegmentationEvaluator(
                 new InstanceList[] { testingSet },//
                 new String[] { "TTesting" }, tags, continueTags,
                 PRINT_MISSCLASSIFIED);
