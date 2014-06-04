@@ -2,6 +2,7 @@ package ch.epfl.bbp.uima.ae.output;
 
 import static ch.epfl.bbp.uima.BlueCasUtil.getHeaderDocId;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_OUTPUT_FILE;
+import static ch.epfl.bbp.uima.typesystem.TypeSystem.KEEP;
 import static com.google.common.collect.Lists.newLinkedList;
 import static com.google.common.collect.Maps.newHashMap;
 import static com.google.common.collect.Maps.newLinkedHashMap;
@@ -20,6 +21,7 @@ import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.fit.descriptor.ConfigurationParameter;
+import org.apache.uima.fit.descriptor.TypeCapability;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
 
@@ -43,6 +45,7 @@ import ch.epfl.bbp.uima.types.Keep;
  * 
  * @author renaud.richardet@epfl.ch
  */
+@TypeCapability(inputs = KEEP)
 public class LdaCWriter extends JCasAnnotator_ImplBase {
 
     @ConfigurationParameter(name = PARAM_OUTPUT_FILE, defaultValue = "lda-c.txt", mandatory = false)

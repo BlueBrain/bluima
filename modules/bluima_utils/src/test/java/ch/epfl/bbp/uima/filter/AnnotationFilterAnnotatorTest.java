@@ -36,4 +36,5 @@ public class AnnotationFilterAnnotatorTest {
                 asList(select(jCas, Sentence.class)).size());
         assertFalse("no more token", exists(jCas, Token.class));
     }
+
 }

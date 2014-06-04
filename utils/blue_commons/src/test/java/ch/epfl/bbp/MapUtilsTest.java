@@ -1,10 +1,13 @@
 package ch.epfl.bbp;
 
+import static ch.epfl.bbp.MapUtils.keyOfHighestValues;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
 
 import java.util.HashMap;
+import java.util.Iterator;
+import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Random;
 
@@ -24,6 +27,34 @@ public class MapUtilsTest {
         mapp.put("s2.6", 2.6);
 
         assertEquals("2s3.5", MapUtils.keyOfHighestValue(mapp));
+    }
+
+    @Test
+    public void testKeyOfHighestValues() {
+
+        Map<String, Double> mapp = new HashMap<String, Double>();
+        mapp.put("s3.5", 3.5);
+        mapp.put("s1.5", 1.5);
+        mapp.put("s0.5", 0.5);
+        mapp.put("s0.6", 0.6);
+        mapp.put("2s3.5", 3.5);
+        mapp.put("s2.6", 2.6);
+
+        LinkedHashMap<String, Double> m = MapUtils.keyOfHighestValues(mapp, 3);
+
+        Iterator<String> it = m.keySet().iterator();
+
+        assertEquals(3, m.size());
+        assertTrue(it.next().endsWith("s3.5"));
+        assertTrue(it.next().endsWith("s3.5"));
+        assertEquals("s2.6", it.next());
+
+        // exception cases
+        LinkedHashMap<String, Double> m2 = keyOfHighestValues(mapp, 0);
+        assertEquals(0, m2.size());
+        LinkedHashMap<String, Double> m3 = keyOfHighestValues(mapp, 100);
+        assertEquals(m3.size(), mapp.size());
+
     }
 
     // http://stackoverflow.com/a/2581754/125617

@@ -1,14 +1,18 @@
 package ch.epfl.bbp.uima.cr;
 
+import static com.google.common.base.Preconditions.checkArgument;
+
 import java.io.File;
 import java.io.FileInputStream;
 import java.io.IOException;
 
+import org.apache.uima.UimaContext;
 import org.apache.uima.cas.impl.XCASDeserializer;
 import org.apache.uima.cas.impl.XmiCasDeserializer;
 import org.apache.uima.collection.CollectionException;
-import org.apache.uima.jcas.JCas;
 import org.apache.uima.fit.descriptor.ConfigurationParameter;
+import org.apache.uima.jcas.JCas;
+import org.apache.uima.resource.ResourceInitializationException;
 import org.xml.sax.SAXException;
 
 /**
@@ -27,6 +31,15 @@ public class XCollectionReader extends AbstractFileReader {
     description = "specifies the UIMA XML serialization scheme that should be used. "
             + "Valid values for this parameter are 'XMI' and 'XCAS'")
     private String xmlScheme;
+
+    @Override
+    public void initialize(UimaContext context)
+            throws ResourceInitializationException {
+        checkArgument(xmlScheme.equals(XMI) || xmlScheme.equals(XCAS));
+        // overwrite filetype filter
+        fileExtensionFilter = xmlScheme.toLowerCase();
+        super.initialize(context);
+    }
 
     @Override
     public void getNext(JCas jCas) throws IOException, CollectionException {

@@ -1,8 +1,10 @@
 package cc.mallet.fst;
 
+import java.text.DecimalFormat;
 import java.util.LinkedList;
 import java.util.List;
 
+import cc.mallet.types.FeatureVector;
 import cc.mallet.types.Instance;
 import cc.mallet.types.InstanceList;
 import cc.mallet.types.Sequence;
@@ -10,17 +12,74 @@ import cc.mallet.types.Sequence;
 //import org.javatuples.Pair;
 
 /**
- * Lenient (overlap) evaluation.<br>
- * Only works when evaluating one instancelist<br>
+ * Lenient (overlap) evaluation. Only works when evaluating one instancelist<br>
+ * Usage:
  * 
+ * <pre>
+ * CRFTrainerByThreadedLabelLikelihood trainer = new CRFTrainerByThreadedLabelLikelihood(
+ *         crf, 4);
+ * String[] tags = new String[] { &quot;I&quot; }; // *I*nside, *O*utside
+ * String[] continueTags = tags; // same
+ * trainer.train(trainingSet);
+ * 
+ * MultiSegmentationEvaluator evalOrig = new MultiSegmentationEvaluator(
+ *         new InstanceList[] { testingSet },//
+ *         new String[] { &quot;thetest&quot; }, tags, continueTags);
+ * evalOrig.evaluate(trainer); // eval at end of training
+ * 
+ * MyLenientMultiSegmentationEvaluator evalLenient = new MyLenientMultiSegmentationEvaluator(
+ *         new InstanceList[] { testingSet },//
+ *         new String[] { &quot;thelenienttest&quot; }, tags, continueTags, true);
+ * evalLenient.evaluate(trainer);
+ * 
+ * System.out.println(&quot;Strict eval:&quot; + eval + &quot;, lenient eval:&quot; + evalLenient);
+ * </pre>
+ * 
+ * @see MultiSegmentationEvaluator
  * @author renaud.richardet@epfl.ch
  */
-public class MyLenientMultiSegmentationEvaluator extends
-        MyMultiSegmentationEvaluator {
+public class LenientMultiSegmentationEvaluator extends
+        MultiSegmentationEvaluator {
 
-    public MyLenientMultiSegmentationEvaluator(InstanceList[] il, String[] ild,
-            Object[] sst, Object[] sct, boolean printMissclassified) {
-        super(il, ild, sst, sct, printMissclassified);
+    private boolean printMissclassified;
+
+    /**
+     * @param printMissclassified
+     *            whether to output a detailed report of TP, FT and the sentence
+     *            to sys.out
+     */
+    public LenientMultiSegmentationEvaluator(InstanceList[] instanceLists,
+            String[] instanceListDescriptions, Object[] segmentStartTags,
+            Object[] segmentContinueTags, boolean printMissclassified) {
+        super(instanceLists, instanceListDescriptions, segmentStartTags,
+                segmentContinueTags);
+        this.printMissclassified = printMissclassified;
+    }
+
+    protected static final DecimalFormat f = new DecimalFormat("0.####");
+
+    protected double precision, recall, f1;
+
+    public double getPrecision() {
+        return precision;
+    }
+
+    public double getRecall() {
+        return recall;
+    }
+
+    public double getF1() {
+        return f1;
+    }
+
+    public String getReport() {
+        return "precision=" + f.format(precision) + " recall="
+                + f.format(recall) + " f1=" + f.format(f1);
+    }
+
+    @Override
+    public String toString() {
+        return getReport();
     }
 
     @SuppressWarnings("rawtypes")
@@ -50,7 +109,7 @@ public class MyLenientMultiSegmentationEvaluator extends
             StringBuilder sentencePrint = new StringBuilder();
             for (int j = 0; j < trueOutput.size(); j++) {
 
-                // 1. Find out if this j is a BR (in true and pred)
+                // 1. Find out if this j is a I (in true and pred)
                 boolean isTrue = false, isPred = false;
                 // Count true segment starts
                 for (int n = 0; n < segmentStartTags.length; n++) {
@@ -81,7 +140,7 @@ public class MyLenientMultiSegmentationEvaluator extends
 
                 // 2. Do we start a new /already are in a BR (in true and pred)?
                 // start new True?
-                String prefix = " ";
+                String prefix = " "; // for debug
                 if (lastTrue == -1 && isTrue == true) {
                     prefix += "<G";
                     lastTrue = j; // just register for later
@@ -91,7 +150,7 @@ public class MyLenientMultiSegmentationEvaluator extends
                     lastTrue = -1;
                     prefix += "G>";
                 }
-                // else do nothing (either it continues out or continues in
+                // else do nothing (either it continues out or continues in)
 
                 // start new Pred?
                 if (lastPred == -1 && isPred == true) {
@@ -105,7 +164,6 @@ public class MyLenientMultiSegmentationEvaluator extends
                 }
                 // else do nothing (either it continues out or continues in
 
-                // for printing
                 sentencePrint.append(prefix + getText(input, j));
             }
             if (printMissclassified)
@@ -116,7 +174,7 @@ public class MyLenientMultiSegmentationEvaluator extends
             for (Pair<Integer, Integer> expected : trueAnnots) {
                 boolean _localFN = true;
                 for (Pair<Integer, Integer> actual : predAnnots) {
-                    if (areTheSame(expected, actual)) {
+                    if (overlap(expected, actual)) {
                         _truePositives++;
                         _localFN = false;
                         break;// external_loop;
@@ -128,14 +186,14 @@ public class MyLenientMultiSegmentationEvaluator extends
             }
             int _falsePositives = 0;
             for (Pair<Integer, Integer> actual : predAnnots) {
-                boolean _localFP = false;
+                boolean _localTP = false;
                 for (Pair<Integer, Integer> expected : trueAnnots) {
-                    if (areTheSame(expected, actual)) {
-                        _localFP = true;
+                    if (overlap(expected, actual)) {
+                        _localTP = true;
                         break;// external_loop;
                     }
                 }
-                if (!_localFP) {
+                if (!_localTP) {
                     _falsePositives++;
                     if (printMissclassified)
                         System.out.println("FP: " + getText(input, actual));
@@ -162,24 +220,69 @@ public class MyLenientMultiSegmentationEvaluator extends
         return sb.toString();
     }
 
+    // /** Here we do a lenient comparison */
+    // // TODO add more comparisons, see TestEvaluator
+    // protected boolean areTheSameLenient(Pair<Integer, Integer> expected,
+    // Pair<Integer, Integer> actual) {
+    // if (expected.getKey() < actual.getValue()
+    // && expected.getValue() > actual.getKey()) {
+    // return true;
+    // }
+    // return false;
+    //
+    // }
+
     /** Here we do a lenient comparison */
-    // TODO add more comparisons, see TestEvaluator
-    protected boolean areTheSame_(Pair<Integer, Integer> expected,
+    protected boolean overlap(Pair<Integer, Integer> expected,
             Pair<Integer, Integer> actual) {
-        if (expected.getKey() < actual.getValue()
-                && expected.getValue() > actual.getKey()) {
+        // // a1 then a2
+        // if (a2.getBegin() - a1.getEnd() > 0)
+        // return Position.before;
+        //
+        // // a2 then a1
+        // if (a1.getBegin() - a2.getEnd() > 0)
+        // return Position.after;
+        //
+        // // overlap
+        // return Position.overlap;
+        //
+
+        if (actual.getKey() >= expected.getKey()
+                && actual.getValue() <= expected.getValue()) {
             return true;
         }
         return false;
+
+        // full overlap is too lenient
+        // if (expected.getKey() < actual.getValue()
+        // && actual.getKey() < expected.getValue()) {
+        // return true;
+        // }
+        // return false;
+
     }
 
-    /** Here we do a EXACT comparison */
-    protected boolean areTheSame(Pair<Integer, Integer> expected,
-            Pair<Integer, Integer> actual) {
-        if (expected.getKey() == actual.getKey()
-                && expected.getValue() == actual.getValue()) {
-            return true;
+    // /** Here we do a EXACT comparison */
+    // protected boolean areTheSame(Pair<Integer, Integer> expected,
+    // Pair<Integer, Integer> actual) {
+    // if (expected.getKey() == actual.getKey()
+    // && expected.getValue() == actual.getValue()) {
+    // return true;
+    // }
+    // return false;
+    // }
+
+    protected static String getText(
+            @SuppressWarnings("rawtypes") Sequence input, int j) {
+        FeatureVector fv = (FeatureVector) input.get(j);
+        for (int idx : fv.getIndices()) {
+
+            Object ooo = fv.getAlphabet().lookupObject(idx);
+            if (ooo.toString().startsWith("text=")
+                    && !ooo.toString().matches("^.+?\\/[-\\+]\\d$")) {
+                return ooo.toString().substring(5);
+            }
         }
-        return false;
+        return "";
     }
 }

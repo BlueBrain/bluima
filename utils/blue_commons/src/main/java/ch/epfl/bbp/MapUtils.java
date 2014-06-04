@@ -2,6 +2,7 @@ package ch.epfl.bbp;
 
 import java.util.Collections;
 import java.util.Comparator;
+import java.util.Iterator;
 import java.util.LinkedHashMap;
 import java.util.LinkedList;
 import java.util.List;
@@ -25,6 +26,26 @@ public class MapUtils {
             }
         }
         return bestKey;
+    }
+
+    /**
+     * @return the keys of the highest values of this map, in decreasing order.
+     *         Note: for multiple identical values, they are returned in
+     *         undefined order.
+     */
+    public static <K, V extends Comparable<V>> LinkedHashMap<K, V> keyOfHighestValues(
+            Map<K, V> map, int topN) {
+
+        LinkedHashMap<K, V> best = new LinkedHashMap<K, V>(topN);
+        Iterator<Entry<K, V>> sortedByValueIt = sortByValue(map, true)
+                .entrySet().iterator();
+
+        while (sortedByValueIt.hasNext() && topN > 0) {
+            Map.Entry<K, V> entry = sortedByValueIt.next();
+            best.put(entry.getKey(), entry.getValue());
+            topN--;
+        }
+        return best;
     }
 
     // http://stackoverflow.com/a/2581754/125617

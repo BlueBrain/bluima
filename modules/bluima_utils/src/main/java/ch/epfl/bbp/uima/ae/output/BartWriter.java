@@ -3,6 +3,8 @@ package ch.epfl.bbp.uima.ae.output;
 import static ch.epfl.bbp.uima.BlueCasUtil.filterStrict;
 import static ch.epfl.bbp.uima.BlueCasUtil.getHeaderDocId;
 import static ch.epfl.bbp.uima.BlueUima.BLUE_UTILS_ROOT;
+import static ch.epfl.bbp.uima.typesystem.TypeSystem.SENTENCE;
+import static ch.epfl.bbp.uima.typesystem.TypeSystem.TOKEN;
 import static ch.epfl.bbp.uima.typesystem.TypeSystemSemantics.NON_CONTENT_ANNOTATIONS;
 import static java.lang.System.out;
 import static org.apache.commons.io.FileUtils.copyDirectory;
@@ -24,6 +26,8 @@ import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.fit.descriptor.ConfigurationParameter;
+import org.apache.uima.fit.descriptor.OperationalProperties;
+import org.apache.uima.fit.descriptor.TypeCapability;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.tcas.Annotation;
 import org.apache.uima.resource.ResourceInitializationException;
@@ -42,6 +46,8 @@ import de.julielab.jules.types.Sentence;
  * 
  * @author renaud.richardet@epfl.ch
  */
+@OperationalProperties(multipleDeploymentAllowed = false)
+@TypeCapability(inputs = { SENTENCE, TOKEN })
 public class BartWriter extends JCasAnnotator_ImplBase {
     private static Logger LOG = LoggerFactory.getLogger(BartWriter.class);
 

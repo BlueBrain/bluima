@@ -73,7 +73,7 @@ public class HtmlViewerWriter extends JCasAnnotator_ImplBase {
                 pmId = getHeaderSource(jCas);
             Writer writer = new BufferedWriter(new FileWriter(outputDir + pmId
                     + ".html"));
-            writer.append("<html><body><head><link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\">"
+            writer.append("<html><body><head><meta http-equiv=\"Content-Type\" content=\"text/html; charset=utf-8\"><link href=\"style.css\" rel=\"stylesheet\" type=\"text/css\">"
                     + "<link href=\"http://netdna.bootstrapcdn.com/bootstrap/3.0.3/css/bootstrap.min.css\" rel=\"stylesheet\">"
                     + "</head><body><div class=\"container\">\n");
 
@@ -106,7 +106,7 @@ public class HtmlViewerWriter extends JCasAnnotator_ImplBase {
                         + "\" class=\"an " + join(shared, " ")
                         + "\">&ensp;</span>"); // breakable space
 
-                // add annot span
+                // add (annot) span
                 if (!annots.isEmpty()) {
                     writer.append("<span  title=\"" + join(annots, ", ")
                             + "\" class=\"an " + join(annots, " ") + "\">"
@@ -120,9 +120,10 @@ public class HtmlViewerWriter extends JCasAnnotator_ImplBase {
                     lastTokenClasses.clear();
                 }
             }
-            writer.append("\n"
-                    + "<p style=\"padding-top:30px;\">Legend: <span class=\"Neuron\">Neuron</span> <span class=\"NeuronWithProperties\">NeuronWithProperties</span> <span class=\"Orientation\">Orientation</span> <span class=\"Morphology\">Morphology</span> <span class=\"Size\">Size</span> <span class=\"Protein\">Protein</span> <span class=\"BrainRegion\">BrainRegion</span> <span class=\"Neurotransmitter\">Neurotransmitter</span> <span class=\"Function\">Function</span> <span class=\"Layer\">Layer</span> <span class=\"Electrophysiology\">Electrophysiology</span></p>"
-                    + "</div></body></html>");
+            // writer.append("\n"
+            // +
+            // "<p style=\"padding-top:30px;\">Legend: <span class=\"Neuron\">Neuron</span> <span class=\"NeuronWithProperties\">NeuronWithProperties</span> <span class=\"Orientation\">Orientation</span> <span class=\"Morphology\">Morphology</span> <span class=\"Size\">Size</span> <span class=\"Protein\">Protein</span> <span class=\"BrainRegion\">BrainRegion</span> <span class=\"Neurotransmitter\">Neurotransmitter</span> <span class=\"Function\">Function</span> <span class=\"Layer\">Layer</span> <span class=\"Electrophysiology\">Electrophysiology</span></p>");
+            writer.append("\n</div></body></html>");
             writer.close();
 
         } catch (IOException e) {

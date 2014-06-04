@@ -12,13 +12,16 @@ span.an {padding-left: 1px; padding-right: 1px;}
 .Measure{color:black;background:yellow;}
 .CellTypeProteinConcentration{color:black;background:tan;}
 .Verb{color:black;background:salmon;}
+.VerbDictTerm{color:black;background:salmon;}
 .BioVerb{color:black;background:salmon;}
 .POS{color:black;background:salmon;}
 .Age{color:black;background:yellow;}
 .Cell{border-bottom:2px solid cyan;}
 .Organism{border-bottom:2px solid green;}
 .Region{border-bottom:2px solid pink;}
+.RegionDictTerm{border-bottom:2px solid pink;}
 .Sex{color:black;background:blue;}
+.SexDictTerm{color:black;background:blue;}
 .Subcell{border-bottom:2px solid red;}
 .Uniprot{color:black;background:brown;}
 .Theontology{color:black;background:lightblue;}
@@ -29,6 +32,17 @@ span.an {padding-left: 1px; padding-right: 1px;}
 .Punctuation{color:black;background:orange;}
 .BrainRegion{color:black;background:orange;}
 .BrainRegionDictTerm{color:black;background:orange;}
+.NifTerm{color:black;background:orange;}
+
+
+/* TODO
+157 ch.epfl.bbp.uima.types.MoleculeDictTerm
+68  ch.epfl.bbp.uima.types.MethodDictTerm
+8   ch.epfl.bbp.uima.types.IonchannelDictTerm
+54  ch.epfl.bbp.uima.types.DiseaseDictTerm
+89  ch.epfl.bbp.uima.types.CellDictTerm
+3   ch.epfl.bbp.uima.types.AgeDictTerm */
+
 
 .SurfaceForm{border-bottom:2px solid blue;}
 
@@ -39,9 +53,15 @@ span.an {padding-left: 1px; padding-right: 1px;}
 .Orientation{color:black;background:yellow;}
 .Morphology{color:black;background:orange;}
 .Size{color:black;background:lightblue;}
-.ProteinP{color:white;background:brown;}
-.BrainRegionP{color:white;background:green;}
-.Neurotransmitter{color:black;background:salmon;}
+.ProteinProp{color:white;background:brown;}
+.BrainRegionProp{color:white;background:green;}
+.NeurotransmitterProp{color:black;background:salmon;}
 .Function{color:black;background:tan;}
 .Layer{color:black;background:gray;}
 .Electrophysiology{color:black;background:lightgreen;}
+
+/* neuroMorpho */
+.Neuromodulator{border-bottom:4px dotted red;}
+.Neurotransmitter{border-bottom:4px dotted red;}
+.Receptor{border-bottom:4px dotted red;}
+

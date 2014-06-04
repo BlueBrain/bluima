@@ -24,20 +24,20 @@ public class ValidationUtils {
      */
     public static Map<Integer, Integer> shuffledMap(int count, int bins) {
 
-	Map<Integer, Integer> ids = new HashMap<Integer, Integer>();
+        Map<Integer, Integer> ids = new HashMap<Integer, Integer>();
 
-	int running = 0;
-	for (int i = 0; i < count; i++) {
-	    ids.put(i, running++ % bins);
-	}
+        int running = 0;
+        for (int i = 0; i < count; i++) {
+            ids.put(i, running++ % bins);
+        }
 
-	List<Integer> valueList = new ArrayList<Integer>(ids.values());
-	Collections.shuffle(valueList);
-	Iterator<Integer> valueIt = valueList.iterator();
-	for (Map.Entry<Integer, Integer> e : ids.entrySet()) {
-	    e.setValue(valueIt.next());
-	}
-	return ids;
+        List<Integer> valueList = new ArrayList<Integer>(ids.values());
+        Collections.shuffle(valueList);
+        Iterator<Integer> valueIt = valueList.iterator();
+        for (Map.Entry<Integer, Integer> e : ids.entrySet()) {
+            e.setValue(valueIt.next());
+        }
+        return ids;
     }
 
 }
