@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** Represents a morpheme of a compound.
- * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class Simplex extends Annotation {
@@ -50,10 +50,13 @@ public class Simplex extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -62,14 +65,18 @@ public class Simplex extends Annotation {
   //* Feature: lemma
 
   /** getter for lemma - gets The lemma of the simplex, C
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public Lemma getLemma() {
     if (Simplex_Type.featOkTst && ((Simplex_Type)jcasType).casFeat_lemma == null)
       jcasType.jcas.throwFeatMissing("lemma", "de.julielab.jules.types.Simplex");
     return (Lemma)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Simplex_Type)jcasType).casFeatCode_lemma)));}
     
   /** setter for lemma - sets The lemma of the simplex, C 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setLemma(Lemma v) {
     if (Simplex_Type.featOkTst && ((Simplex_Type)jcasType).casFeat_lemma == null)
       jcasType.jcas.throwFeatMissing("lemma", "de.julielab.jules.types.Simplex");

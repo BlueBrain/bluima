@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** (Named) EntityMention (i.e. An entity is an object or set of objects in the world. Entitiy mentions may be refrenced in a text by their name, indicated by a common noun or noun phrase, or represented by a pronoun) annotation
- * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:57 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class EntityMention extends ConceptMention {
@@ -50,10 +50,13 @@ public class EntityMention extends ConceptMention {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -62,14 +65,18 @@ public class EntityMention extends ConceptMention {
   //* Feature: head
 
   /** getter for head - gets Head of an entity mention such as Northwest in the Northwest
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public Annotation getHead() {
     if (EntityMention_Type.featOkTst && ((EntityMention_Type)jcasType).casFeat_head == null)
       jcasType.jcas.throwFeatMissing("head", "de.julielab.jules.types.EntityMention");
     return (Annotation)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((EntityMention_Type)jcasType).casFeatCode_head)));}
     
   /** setter for head - sets Head of an entity mention such as Northwest in the Northwest 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setHead(Annotation v) {
     if (EntityMention_Type.featOkTst && ((EntityMention_Type)jcasType).casFeat_head == null)
       jcasType.jcas.throwFeatMissing("head", "de.julielab.jules.types.EntityMention");
@@ -80,14 +87,18 @@ public class EntityMention extends ConceptMention {
   //* Feature: mentionLevel
 
   /** getter for mentionLevel - gets mention level such as PRO (many), NOM, NAM (see ACE)
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getMentionLevel() {
     if (EntityMention_Type.featOkTst && ((EntityMention_Type)jcasType).casFeat_mentionLevel == null)
       jcasType.jcas.throwFeatMissing("mentionLevel", "de.julielab.jules.types.EntityMention");
     return jcasType.ll_cas.ll_getStringValue(addr, ((EntityMention_Type)jcasType).casFeatCode_mentionLevel);}
     
   /** setter for mentionLevel - sets mention level such as PRO (many), NOM, NAM (see ACE) 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setMentionLevel(String v) {
     if (EntityMention_Type.featOkTst && ((EntityMention_Type)jcasType).casFeat_mentionLevel == null)
       jcasType.jcas.throwFeatMissing("mentionLevel", "de.julielab.jules.types.EntityMention");

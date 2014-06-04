@@ -11,7 +11,7 @@ import org.apache.uima.jcas.cas.FSArray;
 
 
 /** Token annotation marks the span of a token and takes all additional annotations that are on the token level, including Part-of-Speech information, lemma, stemmed form,  grammatical features such as gender, number and orthographical information; furthemore, Token includes the information about dependency relations to other tokens (see correspondent annotation types for further infromation).
- * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class Token extends Annotation {
@@ -51,10 +51,13 @@ public class Token extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -63,14 +66,18 @@ public class Token extends Annotation {
   //* Feature: lemma
 
   /** getter for lemma - gets the lemma information, O
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public Lemma getLemma() {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_lemma == null)
       jcasType.jcas.throwFeatMissing("lemma", "de.julielab.jules.types.Token");
     return (Lemma)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Token_Type)jcasType).casFeatCode_lemma)));}
     
   /** setter for lemma - sets the lemma information, O 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setLemma(Lemma v) {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_lemma == null)
       jcasType.jcas.throwFeatMissing("lemma", "de.julielab.jules.types.Token");
@@ -81,14 +88,18 @@ public class Token extends Annotation {
   //* Feature: posTag
 
   /** getter for posTag - gets List contains part-of-speech tags of different part-of-speech tagsets (see also POSTag and subtypes), O
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public FSArray getPosTag() {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_posTag == null)
       jcasType.jcas.throwFeatMissing("posTag", "de.julielab.jules.types.Token");
     return (FSArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Token_Type)jcasType).casFeatCode_posTag)));}
     
   /** setter for posTag - sets List contains part-of-speech tags of different part-of-speech tagsets (see also POSTag and subtypes), O 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setPosTag(FSArray v) {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_posTag == null)
       jcasType.jcas.throwFeatMissing("posTag", "de.julielab.jules.types.Token");
@@ -115,14 +126,18 @@ public class Token extends Annotation {
   //* Feature: stemmedForm
 
   /** getter for stemmedForm - gets Contains the stemmed form of token (see StemmedForm), O
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public StemmedForm getStemmedForm() {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_stemmedForm == null)
       jcasType.jcas.throwFeatMissing("stemmedForm", "de.julielab.jules.types.Token");
     return (StemmedForm)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Token_Type)jcasType).casFeatCode_stemmedForm)));}
     
   /** setter for stemmedForm - sets Contains the stemmed form of token (see StemmedForm), O 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setStemmedForm(StemmedForm v) {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_stemmedForm == null)
       jcasType.jcas.throwFeatMissing("stemmedForm", "de.julielab.jules.types.Token");
@@ -133,14 +148,18 @@ public class Token extends Annotation {
   //* Feature: feats
 
   /** getter for feats - gets Contains grammatical features correspondent to the part-of-speech tag of current token (see GrammaticalFeats and subtypes), O
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public GrammaticalFeats getFeats() {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_feats == null)
       jcasType.jcas.throwFeatMissing("feats", "de.julielab.jules.types.Token");
     return (GrammaticalFeats)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Token_Type)jcasType).casFeatCode_feats)));}
     
   /** setter for feats - sets Contains grammatical features correspondent to the part-of-speech tag of current token (see GrammaticalFeats and subtypes), O 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setFeats(GrammaticalFeats v) {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_feats == null)
       jcasType.jcas.throwFeatMissing("feats", "de.julielab.jules.types.Token");
@@ -151,14 +170,18 @@ public class Token extends Annotation {
   //* Feature: orthogr
 
   /** getter for orthogr - gets see de.julielab.jules.types.Orthogrpahy
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getOrthogr() {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_orthogr == null)
       jcasType.jcas.throwFeatMissing("orthogr", "de.julielab.jules.types.Token");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Token_Type)jcasType).casFeatCode_orthogr);}
     
   /** setter for orthogr - sets see de.julielab.jules.types.Orthogrpahy 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setOrthogr(String v) {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_orthogr == null)
       jcasType.jcas.throwFeatMissing("orthogr", "de.julielab.jules.types.Token");
@@ -169,14 +192,18 @@ public class Token extends Annotation {
   //* Feature: depRel
 
   /** getter for depRel - gets Contains a list of syntactical dependencies, see DependencyRelation, O
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public FSArray getDepRel() {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_depRel == null)
       jcasType.jcas.throwFeatMissing("depRel", "de.julielab.jules.types.Token");
     return (FSArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Token_Type)jcasType).casFeatCode_depRel)));}
     
   /** setter for depRel - sets Contains a list of syntactical dependencies, see DependencyRelation, O 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setDepRel(FSArray v) {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_depRel == null)
       jcasType.jcas.throwFeatMissing("depRel", "de.julielab.jules.types.Token");
@@ -203,14 +230,18 @@ public class Token extends Annotation {
   //* Feature: pos
 
   /** getter for pos - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getPos() {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_pos == null)
       jcasType.jcas.throwFeatMissing("pos", "de.julielab.jules.types.Token");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Token_Type)jcasType).casFeatCode_pos);}
     
   /** setter for pos - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setPos(String v) {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_pos == null)
       jcasType.jcas.throwFeatMissing("pos", "de.julielab.jules.types.Token");
@@ -221,14 +252,18 @@ public class Token extends Annotation {
   //* Feature: lemmaStr
 
   /** getter for lemmaStr - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getLemmaStr() {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_lemmaStr == null)
       jcasType.jcas.throwFeatMissing("lemmaStr", "de.julielab.jules.types.Token");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Token_Type)jcasType).casFeatCode_lemmaStr);}
     
   /** setter for lemmaStr - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setLemmaStr(String v) {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_lemmaStr == null)
       jcasType.jcas.throwFeatMissing("lemmaStr", "de.julielab.jules.types.Token");
@@ -239,14 +274,18 @@ public class Token extends Annotation {
   //* Feature: topicIds
 
   /** getter for topicIds - gets topic model ids, separated by spaces
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getTopicIds() {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_topicIds == null)
       jcasType.jcas.throwFeatMissing("topicIds", "de.julielab.jules.types.Token");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Token_Type)jcasType).casFeatCode_topicIds);}
     
   /** setter for topicIds - sets topic model ids, separated by spaces 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setTopicIds(String v) {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_topicIds == null)
       jcasType.jcas.throwFeatMissing("topicIds", "de.julielab.jules.types.Token");

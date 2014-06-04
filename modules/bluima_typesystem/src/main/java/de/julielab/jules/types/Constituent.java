@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** The super-type for the constituent annotation, see subtypes
- * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:57 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class Constituent extends Annotation {
@@ -50,10 +50,13 @@ public class Constituent extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -62,14 +65,18 @@ public class Constituent extends Annotation {
   //* Feature: parent
 
   /** getter for parent - gets The parent in a constituency tree, C
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public Constituent getParent() {
     if (Constituent_Type.featOkTst && ((Constituent_Type)jcasType).casFeat_parent == null)
       jcasType.jcas.throwFeatMissing("parent", "de.julielab.jules.types.Constituent");
     return (Constituent)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Constituent_Type)jcasType).casFeatCode_parent)));}
     
   /** setter for parent - sets The parent in a constituency tree, C 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setParent(Constituent v) {
     if (Constituent_Type.featOkTst && ((Constituent_Type)jcasType).casFeat_parent == null)
       jcasType.jcas.throwFeatMissing("parent", "de.julielab.jules.types.Constituent");
@@ -80,14 +87,18 @@ public class Constituent extends Annotation {
   //* Feature: head
 
   /** getter for head - gets The head can be extracted with head rules, O
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public Token getHead() {
     if (Constituent_Type.featOkTst && ((Constituent_Type)jcasType).casFeat_head == null)
       jcasType.jcas.throwFeatMissing("head", "de.julielab.jules.types.Constituent");
     return (Token)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Constituent_Type)jcasType).casFeatCode_head)));}
     
   /** setter for head - sets The head can be extracted with head rules, O 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setHead(Token v) {
     if (Constituent_Type.featOkTst && ((Constituent_Type)jcasType).casFeat_head == null)
       jcasType.jcas.throwFeatMissing("head", "de.julielab.jules.types.Constituent");
@@ -98,14 +109,18 @@ public class Constituent extends Annotation {
   //* Feature: cat
 
   /** getter for cat - gets The category of the constituent (e.g. NP, VP)
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getCat() {
     if (Constituent_Type.featOkTst && ((Constituent_Type)jcasType).casFeat_cat == null)
       jcasType.jcas.throwFeatMissing("cat", "de.julielab.jules.types.Constituent");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Constituent_Type)jcasType).casFeatCode_cat);}
     
   /** setter for cat - sets The category of the constituent (e.g. NP, VP) 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setCat(String v) {
     if (Constituent_Type.featOkTst && ((Constituent_Type)jcasType).casFeat_cat == null)
       jcasType.jcas.throwFeatMissing("cat", "de.julielab.jules.types.Constituent");

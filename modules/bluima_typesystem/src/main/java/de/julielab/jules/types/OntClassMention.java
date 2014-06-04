@@ -12,7 +12,7 @@ import org.apache.uima.jcas.cas.StringArray;
 
 
 /** ontology class mention
- * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class OntClassMention extends Annotation {
@@ -52,10 +52,13 @@ public class OntClassMention extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -64,14 +67,18 @@ public class OntClassMention extends Annotation {
   //* Feature: ontClassId
 
   /** getter for ontClassId - gets ID of the corresponding ontology class
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getOntClassId() {
     if (OntClassMention_Type.featOkTst && ((OntClassMention_Type)jcasType).casFeat_ontClassId == null)
       jcasType.jcas.throwFeatMissing("ontClassId", "de.julielab.jules.types.OntClassMention");
     return jcasType.ll_cas.ll_getStringValue(addr, ((OntClassMention_Type)jcasType).casFeatCode_ontClassId);}
     
   /** setter for ontClassId - sets ID of the corresponding ontology class 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setOntClassId(String v) {
     if (OntClassMention_Type.featOkTst && ((OntClassMention_Type)jcasType).casFeat_ontClassId == null)
       jcasType.jcas.throwFeatMissing("ontClassId", "de.julielab.jules.types.OntClassMention");
@@ -82,14 +89,18 @@ public class OntClassMention extends Annotation {
   //* Feature: sourceOntology
 
   /** getter for sourceOntology - gets name or ID of the ontology the class comes from
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getSourceOntology() {
     if (OntClassMention_Type.featOkTst && ((OntClassMention_Type)jcasType).casFeat_sourceOntology == null)
       jcasType.jcas.throwFeatMissing("sourceOntology", "de.julielab.jules.types.OntClassMention");
     return jcasType.ll_cas.ll_getStringValue(addr, ((OntClassMention_Type)jcasType).casFeatCode_sourceOntology);}
     
   /** setter for sourceOntology - sets name or ID of the ontology the class comes from 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setSourceOntology(String v) {
     if (OntClassMention_Type.featOkTst && ((OntClassMention_Type)jcasType).casFeat_sourceOntology == null)
       jcasType.jcas.throwFeatMissing("sourceOntology", "de.julielab.jules.types.OntClassMention");
@@ -100,14 +111,18 @@ public class OntClassMention extends Annotation {
   //* Feature: textualRepresentation
 
   /** getter for textualRepresentation - gets Text of the annotated concept mention. Important for easily representing discontinuous mentions such as 'T cell'  in 'T and B cell'
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getTextualRepresentation() {
     if (OntClassMention_Type.featOkTst && ((OntClassMention_Type)jcasType).casFeat_textualRepresentation == null)
       jcasType.jcas.throwFeatMissing("textualRepresentation", "de.julielab.jules.types.OntClassMention");
     return jcasType.ll_cas.ll_getStringValue(addr, ((OntClassMention_Type)jcasType).casFeatCode_textualRepresentation);}
     
   /** setter for textualRepresentation - sets Text of the annotated concept mention. Important for easily representing discontinuous mentions such as 'T cell'  in 'T and B cell' 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setTextualRepresentation(String v) {
     if (OntClassMention_Type.featOkTst && ((OntClassMention_Type)jcasType).casFeat_textualRepresentation == null)
       jcasType.jcas.throwFeatMissing("textualRepresentation", "de.julielab.jules.types.OntClassMention");
@@ -118,14 +133,18 @@ public class OntClassMention extends Annotation {
   //* Feature: semanticTypes
 
   /** getter for semanticTypes - gets Names or IDs of associated semantic types.
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public StringArray getSemanticTypes() {
     if (OntClassMention_Type.featOkTst && ((OntClassMention_Type)jcasType).casFeat_semanticTypes == null)
       jcasType.jcas.throwFeatMissing("semanticTypes", "de.julielab.jules.types.OntClassMention");
     return (StringArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((OntClassMention_Type)jcasType).casFeatCode_semanticTypes)));}
     
   /** setter for semanticTypes - sets Names or IDs of associated semantic types. 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setSemanticTypes(StringArray v) {
     if (OntClassMention_Type.featOkTst && ((OntClassMention_Type)jcasType).casFeat_semanticTypes == null)
       jcasType.jcas.throwFeatMissing("semanticTypes", "de.julielab.jules.types.OntClassMention");
@@ -152,14 +171,18 @@ public class OntClassMention extends Annotation {
   //* Feature: preferredTerm
 
   /** getter for preferredTerm - gets The preferred term associated with the corresponding ontology class.
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getPreferredTerm() {
     if (OntClassMention_Type.featOkTst && ((OntClassMention_Type)jcasType).casFeat_preferredTerm == null)
       jcasType.jcas.throwFeatMissing("preferredTerm", "de.julielab.jules.types.OntClassMention");
     return jcasType.ll_cas.ll_getStringValue(addr, ((OntClassMention_Type)jcasType).casFeatCode_preferredTerm);}
     
   /** setter for preferredTerm - sets The preferred term associated with the corresponding ontology class. 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setPreferredTerm(String v) {
     if (OntClassMention_Type.featOkTst && ((OntClassMention_Type)jcasType).casFeat_preferredTerm == null)
       jcasType.jcas.throwFeatMissing("preferredTerm", "de.julielab.jules.types.OntClassMention");
@@ -170,14 +193,18 @@ public class OntClassMention extends Annotation {
   //* Feature: matchedTokens
 
   /** getter for matchedTokens - gets List of tokens the ontology class mention is comprised of.
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public FSArray getMatchedTokens() {
     if (OntClassMention_Type.featOkTst && ((OntClassMention_Type)jcasType).casFeat_matchedTokens == null)
       jcasType.jcas.throwFeatMissing("matchedTokens", "de.julielab.jules.types.OntClassMention");
     return (FSArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((OntClassMention_Type)jcasType).casFeatCode_matchedTokens)));}
     
   /** setter for matchedTokens - sets List of tokens the ontology class mention is comprised of. 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setMatchedTokens(FSArray v) {
     if (OntClassMention_Type.featOkTst && ((OntClassMention_Type)jcasType).casFeat_matchedTokens == null)
       jcasType.jcas.throwFeatMissing("matchedTokens", "de.julielab.jules.types.OntClassMention");
@@ -204,14 +231,18 @@ public class OntClassMention extends Annotation {
   //* Feature: matchedSourceTerm
 
   /** getter for matchedSourceTerm - gets E.g. an ontology class label that was found to correspond to the mention (e.g. as result of a dictionary lookup).
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getMatchedSourceTerm() {
     if (OntClassMention_Type.featOkTst && ((OntClassMention_Type)jcasType).casFeat_matchedSourceTerm == null)
       jcasType.jcas.throwFeatMissing("matchedSourceTerm", "de.julielab.jules.types.OntClassMention");
     return jcasType.ll_cas.ll_getStringValue(addr, ((OntClassMention_Type)jcasType).casFeatCode_matchedSourceTerm);}
     
   /** setter for matchedSourceTerm - sets E.g. an ontology class label that was found to correspond to the mention (e.g. as result of a dictionary lookup). 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setMatchedSourceTerm(String v) {
     if (OntClassMention_Type.featOkTst && ((OntClassMention_Type)jcasType).casFeat_matchedSourceTerm == null)
       jcasType.jcas.throwFeatMissing("matchedSourceTerm", "de.julielab.jules.types.OntClassMention");

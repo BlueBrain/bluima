@@ -22,6 +22,7 @@ import ch.epfl.bbp.uima.types.MethodDictTerm;
 import ch.epfl.bbp.uima.types.MoleculeDictTerm;
 import ch.epfl.bbp.uima.types.NifTerm;
 import ch.epfl.bbp.uima.types.OrganismDictTerm;
+import ch.epfl.bbp.uima.types.POSAdverb;
 import ch.epfl.bbp.uima.types.POSSkip;
 import ch.epfl.bbp.uima.types.POSVerb;
 import ch.epfl.bbp.uima.types.POSWh;
@@ -116,6 +117,7 @@ public class TypeSystemSemantics {
             , IonchannelDictTerm.class.getName() //
             , AgeDictTerm.class.getName() //
             , POSVerb.class.getName() //
+            , POSAdverb.class.getName() //
             , POSWh.class.getName() //
             , POSSkip.class.getName() //
             );

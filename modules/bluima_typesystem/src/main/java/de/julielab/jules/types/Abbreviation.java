@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** An abbreviation is a letter or group of letters, taken from a word or words. For example, the word "abbreviation" can be abbreviated as "abbr." or "abbrev."
- * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:57 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class Abbreviation extends Annotation {
@@ -50,10 +50,13 @@ public class Abbreviation extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -62,14 +65,18 @@ public class Abbreviation extends Annotation {
   //* Feature: expan
 
   /** getter for expan - gets The full form of an abbreviation. For example he fullform, for example for HLA (human leukocyte antigen), O
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getExpan() {
     if (Abbreviation_Type.featOkTst && ((Abbreviation_Type)jcasType).casFeat_expan == null)
       jcasType.jcas.throwFeatMissing("expan", "de.julielab.jules.types.Abbreviation");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Abbreviation_Type)jcasType).casFeatCode_expan);}
     
   /** setter for expan - sets The full form of an abbreviation. For example he fullform, for example for HLA (human leukocyte antigen), O 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setExpan(String v) {
     if (Abbreviation_Type.featOkTst && ((Abbreviation_Type)jcasType).casFeat_expan == null)
       jcasType.jcas.throwFeatMissing("expan", "de.julielab.jules.types.Abbreviation");
@@ -80,14 +87,18 @@ public class Abbreviation extends Annotation {
   //* Feature: textReference
 
   /** getter for textReference - gets Reference to the text span that contains the  full form of the abbreviation/acronym
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public Annotation getTextReference() {
     if (Abbreviation_Type.featOkTst && ((Abbreviation_Type)jcasType).casFeat_textReference == null)
       jcasType.jcas.throwFeatMissing("textReference", "de.julielab.jules.types.Abbreviation");
     return (Annotation)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Abbreviation_Type)jcasType).casFeatCode_textReference)));}
     
   /** setter for textReference - sets Reference to the text span that contains the  full form of the abbreviation/acronym 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setTextReference(Annotation v) {
     if (Abbreviation_Type.featOkTst && ((Abbreviation_Type)jcasType).casFeat_textReference == null)
       jcasType.jcas.throwFeatMissing("textReference", "de.julielab.jules.types.Abbreviation");
@@ -98,14 +109,18 @@ public class Abbreviation extends Annotation {
   //* Feature: definedHere
 
   /** getter for definedHere - gets The definedHere is true if the abbreviation/acronym is defined for the first time in the text, e.g. in "interleukin 2 (Il-2) receptor", it can be true only for locally introduced abbreviations/acronyms.
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public boolean getDefinedHere() {
     if (Abbreviation_Type.featOkTst && ((Abbreviation_Type)jcasType).casFeat_definedHere == null)
       jcasType.jcas.throwFeatMissing("definedHere", "de.julielab.jules.types.Abbreviation");
     return jcasType.ll_cas.ll_getBooleanValue(addr, ((Abbreviation_Type)jcasType).casFeatCode_definedHere);}
     
   /** setter for definedHere - sets The definedHere is true if the abbreviation/acronym is defined for the first time in the text, e.g. in "interleukin 2 (Il-2) receptor", it can be true only for locally introduced abbreviations/acronyms. 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setDefinedHere(boolean v) {
     if (Abbreviation_Type.featOkTst && ((Abbreviation_Type)jcasType).casFeat_definedHere == null)
       jcasType.jcas.throwFeatMissing("definedHere", "de.julielab.jules.types.Abbreviation");

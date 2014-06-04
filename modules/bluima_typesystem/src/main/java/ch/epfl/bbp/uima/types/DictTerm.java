@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class DictTerm extends org.apache.uima.conceptMapper.DictTerm {
@@ -53,10 +53,13 @@ public class DictTerm extends org.apache.uima.conceptMapper.DictTerm {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {/*default - does nothing empty block */}
      
  
@@ -65,14 +68,18 @@ public class DictTerm extends org.apache.uima.conceptMapper.DictTerm {
   //* Feature: entityId
 
   /** getter for entityId - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getEntityId() {
     if (DictTerm_Type.featOkTst && ((DictTerm_Type)jcasType).casFeat_entityId == null)
       jcasType.jcas.throwFeatMissing("entityId", "ch.epfl.bbp.uima.types.DictTerm");
     return jcasType.ll_cas.ll_getStringValue(addr, ((DictTerm_Type)jcasType).casFeatCode_entityId);}
     
   /** setter for entityId - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setEntityId(String v) {
     if (DictTerm_Type.featOkTst && ((DictTerm_Type)jcasType).casFeat_entityId == null)
       jcasType.jcas.throwFeatMissing("entityId", "ch.epfl.bbp.uima.types.DictTerm");
@@ -83,14 +90,18 @@ public class DictTerm extends org.apache.uima.conceptMapper.DictTerm {
   //* Feature: annotType
 
   /** getter for annotType - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getAnnotType() {
     if (DictTerm_Type.featOkTst && ((DictTerm_Type)jcasType).casFeat_annotType == null)
       jcasType.jcas.throwFeatMissing("annotType", "ch.epfl.bbp.uima.types.DictTerm");
     return jcasType.ll_cas.ll_getStringValue(addr, ((DictTerm_Type)jcasType).casFeatCode_annotType);}
     
   /** setter for annotType - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setAnnotType(String v) {
     if (DictTerm_Type.featOkTst && ((DictTerm_Type)jcasType).casFeat_annotType == null)
       jcasType.jcas.throwFeatMissing("annotType", "ch.epfl.bbp.uima.types.DictTerm");

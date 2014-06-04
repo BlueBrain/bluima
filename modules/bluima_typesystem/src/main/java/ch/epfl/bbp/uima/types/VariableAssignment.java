@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** e.g. x =3, p < 0.05
- * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:56 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class VariableAssignment extends Measure {
@@ -53,10 +53,13 @@ public class VariableAssignment extends Measure {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {/*default - does nothing empty block */}
      
  
@@ -65,14 +68,18 @@ public class VariableAssignment extends Measure {
   //* Feature: operator
 
   /** getter for operator - gets math operator like equal, lt, gt, ...
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getOperator() {
     if (VariableAssignment_Type.featOkTst && ((VariableAssignment_Type)jcasType).casFeat_operator == null)
       jcasType.jcas.throwFeatMissing("operator", "ch.epfl.bbp.uima.types.VariableAssignment");
     return jcasType.ll_cas.ll_getStringValue(addr, ((VariableAssignment_Type)jcasType).casFeatCode_operator);}
     
   /** setter for operator - sets math operator like equal, lt, gt, ... 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setOperator(String v) {
     if (VariableAssignment_Type.featOkTst && ((VariableAssignment_Type)jcasType).casFeat_operator == null)
       jcasType.jcas.throwFeatMissing("operator", "ch.epfl.bbp.uima.types.VariableAssignment");
@@ -83,14 +90,18 @@ public class VariableAssignment extends Measure {
   //* Feature: value
 
   /** getter for value - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public float getValue() {
     if (VariableAssignment_Type.featOkTst && ((VariableAssignment_Type)jcasType).casFeat_value == null)
       jcasType.jcas.throwFeatMissing("value", "ch.epfl.bbp.uima.types.VariableAssignment");
     return jcasType.ll_cas.ll_getFloatValue(addr, ((VariableAssignment_Type)jcasType).casFeatCode_value);}
     
   /** setter for value - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setValue(float v) {
     if (VariableAssignment_Type.featOkTst && ((VariableAssignment_Type)jcasType).casFeat_value == null)
       jcasType.jcas.throwFeatMissing("value", "ch.epfl.bbp.uima.types.VariableAssignment");
@@ -101,14 +112,18 @@ public class VariableAssignment extends Measure {
   //* Feature: variableName
 
   /** getter for variableName - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getVariableName() {
     if (VariableAssignment_Type.featOkTst && ((VariableAssignment_Type)jcasType).casFeat_variableName == null)
       jcasType.jcas.throwFeatMissing("variableName", "ch.epfl.bbp.uima.types.VariableAssignment");
     return jcasType.ll_cas.ll_getStringValue(addr, ((VariableAssignment_Type)jcasType).casFeatCode_variableName);}
     
   /** setter for variableName - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setVariableName(String v) {
     if (VariableAssignment_Type.featOkTst && ((VariableAssignment_Type)jcasType).casFeat_variableName == null)
       jcasType.jcas.throwFeatMissing("variableName", "ch.epfl.bbp.uima.types.VariableAssignment");
@@ -119,14 +134,18 @@ public class VariableAssignment extends Measure {
   //* Feature: textValue
 
   /** getter for textValue - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getTextValue() {
     if (VariableAssignment_Type.featOkTst && ((VariableAssignment_Type)jcasType).casFeat_textValue == null)
       jcasType.jcas.throwFeatMissing("textValue", "ch.epfl.bbp.uima.types.VariableAssignment");
     return jcasType.ll_cas.ll_getStringValue(addr, ((VariableAssignment_Type)jcasType).casFeatCode_textValue);}
     
   /** setter for textValue - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setTextValue(String v) {
     if (VariableAssignment_Type.featOkTst && ((VariableAssignment_Type)jcasType).casFeat_textValue == null)
       jcasType.jcas.throwFeatMissing("textValue", "ch.epfl.bbp.uima.types.VariableAssignment");

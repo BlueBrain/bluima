@@ -1,53 +1,64 @@
 
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Wed Jun 04 18:01:56 CEST 2014 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas; 
 import org.apache.uima.jcas.JCasRegistry;
 import org.apache.uima.jcas.cas.TOP_Type;
 
-import org.apache.uima.jcas.tcas.Annotation;
+import de.julielab.jules.types.POSTag;
 
 
-/** Document-level annotation signaling that this document has content that is bad and should not be (futher) analyzed.
- * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
+/** 
+ * Updated by JCasGen Wed Jun 04 18:01:56 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
-public class BadContent extends Annotation {
+public class POSAdverb extends POSTag {
   /** @generated
    * @ordered 
    */
   @SuppressWarnings ("hiding")
-  public final static int typeIndexID = JCasRegistry.register(BadContent.class);
+  public final static int typeIndexID = JCasRegistry.register(POSAdverb.class);
   /** @generated
    * @ordered 
    */
   @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
   @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
   /** Never called.  Disable default constructor
    * @generated */
-  protected BadContent() {/* intentionally empty block */}
+  protected POSAdverb() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
-  public BadContent(int addr, TOP_Type type) {
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
+  public POSAdverb(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
-  public BadContent(JCas jcas) {
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
+  public POSAdverb(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
-  public BadContent(JCas jcas, int begin, int end) {
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
+  public POSAdverb(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
     setEnd(end);
@@ -56,9 +67,9 @@ public class BadContent extends Annotation {
 
   /** 
    * <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  *
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
    * @generated modifiable 
    */
   private void readObject() {/*default - does nothing empty block */}

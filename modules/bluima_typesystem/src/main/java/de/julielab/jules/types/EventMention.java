@@ -11,7 +11,7 @@ import org.apache.uima.jcas.cas.FSArray;
 
 
 /** 
- * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:57 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class EventMention extends ConceptMention {
@@ -51,10 +51,13 @@ public class EventMention extends ConceptMention {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -63,14 +66,18 @@ public class EventMention extends ConceptMention {
   //* Feature: arguments
 
   /** getter for arguments - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public FSArray getArguments() {
     if (EventMention_Type.featOkTst && ((EventMention_Type)jcasType).casFeat_arguments == null)
       jcasType.jcas.throwFeatMissing("arguments", "de.julielab.jules.types.EventMention");
     return (FSArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((EventMention_Type)jcasType).casFeatCode_arguments)));}
     
   /** setter for arguments - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setArguments(FSArray v) {
     if (EventMention_Type.featOkTst && ((EventMention_Type)jcasType).casFeat_arguments == null)
       jcasType.jcas.throwFeatMissing("arguments", "de.julielab.jules.types.EventMention");
@@ -97,14 +104,18 @@ public class EventMention extends ConceptMention {
   //* Feature: polarity
 
   /** getter for polarity - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getPolarity() {
     if (EventMention_Type.featOkTst && ((EventMention_Type)jcasType).casFeat_polarity == null)
       jcasType.jcas.throwFeatMissing("polarity", "de.julielab.jules.types.EventMention");
     return jcasType.ll_cas.ll_getStringValue(addr, ((EventMention_Type)jcasType).casFeatCode_polarity);}
     
   /** setter for polarity - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setPolarity(String v) {
     if (EventMention_Type.featOkTst && ((EventMention_Type)jcasType).casFeat_polarity == null)
       jcasType.jcas.throwFeatMissing("polarity", "de.julielab.jules.types.EventMention");
@@ -115,14 +126,18 @@ public class EventMention extends ConceptMention {
   //* Feature: modality
 
   /** getter for modality - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getModality() {
     if (EventMention_Type.featOkTst && ((EventMention_Type)jcasType).casFeat_modality == null)
       jcasType.jcas.throwFeatMissing("modality", "de.julielab.jules.types.EventMention");
     return jcasType.ll_cas.ll_getStringValue(addr, ((EventMention_Type)jcasType).casFeatCode_modality);}
     
   /** setter for modality - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setModality(String v) {
     if (EventMention_Type.featOkTst && ((EventMention_Type)jcasType).casFeat_modality == null)
       jcasType.jcas.throwFeatMissing("modality", "de.julielab.jules.types.EventMention");
@@ -133,14 +148,18 @@ public class EventMention extends ConceptMention {
   //* Feature: tense
 
   /** getter for tense - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getTense() {
     if (EventMention_Type.featOkTst && ((EventMention_Type)jcasType).casFeat_tense == null)
       jcasType.jcas.throwFeatMissing("tense", "de.julielab.jules.types.EventMention");
     return jcasType.ll_cas.ll_getStringValue(addr, ((EventMention_Type)jcasType).casFeatCode_tense);}
     
   /** setter for tense - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setTense(String v) {
     if (EventMention_Type.featOkTst && ((EventMention_Type)jcasType).casFeat_tense == null)
       jcasType.jcas.throwFeatMissing("tense", "de.julielab.jules.types.EventMention");
@@ -151,14 +170,18 @@ public class EventMention extends ConceptMention {
   //* Feature: genericity
 
   /** getter for genericity - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getGenericity() {
     if (EventMention_Type.featOkTst && ((EventMention_Type)jcasType).casFeat_genericity == null)
       jcasType.jcas.throwFeatMissing("genericity", "de.julielab.jules.types.EventMention");
     return jcasType.ll_cas.ll_getStringValue(addr, ((EventMention_Type)jcasType).casFeatCode_genericity);}
     
   /** setter for genericity - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setGenericity(String v) {
     if (EventMention_Type.featOkTst && ((EventMention_Type)jcasType).casFeat_genericity == null)
       jcasType.jcas.throwFeatMissing("genericity", "de.julielab.jules.types.EventMention");
@@ -169,14 +192,18 @@ public class EventMention extends ConceptMention {
   //* Feature: trigger
 
   /** getter for trigger - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public EventTrigger getTrigger() {
     if (EventMention_Type.featOkTst && ((EventMention_Type)jcasType).casFeat_trigger == null)
       jcasType.jcas.throwFeatMissing("trigger", "de.julielab.jules.types.EventMention");
     return (EventTrigger)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((EventMention_Type)jcasType).casFeatCode_trigger)));}
     
   /** setter for trigger - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setTrigger(EventTrigger v) {
     if (EventMention_Type.featOkTst && ((EventMention_Type)jcasType).casFeat_trigger == null)
       jcasType.jcas.throwFeatMissing("trigger", "de.julielab.jules.types.EventMention");

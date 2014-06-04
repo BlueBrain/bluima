@@ -12,7 +12,7 @@ import org.apache.uima.jcas.cas.StringArray;
 
 
 /** A coocurrence btw two annotations.
- * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class Cooccurrence extends Annotation {
@@ -55,10 +55,13 @@ public class Cooccurrence extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {/*default - does nothing empty block */}
      
  
@@ -67,14 +70,18 @@ public class Cooccurrence extends Annotation {
   //* Feature: firstEntity
 
   /** getter for firstEntity - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public Annotation getFirstEntity() {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_firstEntity == null)
       jcasType.jcas.throwFeatMissing("firstEntity", "ch.epfl.bbp.uima.types.Cooccurrence");
     return (Annotation)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Cooccurrence_Type)jcasType).casFeatCode_firstEntity)));}
     
   /** setter for firstEntity - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setFirstEntity(Annotation v) {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_firstEntity == null)
       jcasType.jcas.throwFeatMissing("firstEntity", "ch.epfl.bbp.uima.types.Cooccurrence");
@@ -85,14 +92,18 @@ public class Cooccurrence extends Annotation {
   //* Feature: secondEntity
 
   /** getter for secondEntity - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public Annotation getSecondEntity() {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_secondEntity == null)
       jcasType.jcas.throwFeatMissing("secondEntity", "ch.epfl.bbp.uima.types.Cooccurrence");
     return (Annotation)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Cooccurrence_Type)jcasType).casFeatCode_secondEntity)));}
     
   /** setter for secondEntity - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setSecondEntity(Annotation v) {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_secondEntity == null)
       jcasType.jcas.throwFeatMissing("secondEntity", "ch.epfl.bbp.uima.types.Cooccurrence");
@@ -103,14 +114,18 @@ public class Cooccurrence extends Annotation {
   //* Feature: snippetBegin
 
   /** getter for snippetBegin - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public int getSnippetBegin() {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_snippetBegin == null)
       jcasType.jcas.throwFeatMissing("snippetBegin", "ch.epfl.bbp.uima.types.Cooccurrence");
     return jcasType.ll_cas.ll_getIntValue(addr, ((Cooccurrence_Type)jcasType).casFeatCode_snippetBegin);}
     
   /** setter for snippetBegin - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setSnippetBegin(int v) {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_snippetBegin == null)
       jcasType.jcas.throwFeatMissing("snippetBegin", "ch.epfl.bbp.uima.types.Cooccurrence");
@@ -121,14 +136,18 @@ public class Cooccurrence extends Annotation {
   //* Feature: snippetEnd
 
   /** getter for snippetEnd - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public int getSnippetEnd() {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_snippetEnd == null)
       jcasType.jcas.throwFeatMissing("snippetEnd", "ch.epfl.bbp.uima.types.Cooccurrence");
     return jcasType.ll_cas.ll_getIntValue(addr, ((Cooccurrence_Type)jcasType).casFeatCode_snippetEnd);}
     
   /** setter for snippetEnd - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setSnippetEnd(int v) {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_snippetEnd == null)
       jcasType.jcas.throwFeatMissing("snippetEnd", "ch.epfl.bbp.uima.types.Cooccurrence");
@@ -139,14 +158,18 @@ public class Cooccurrence extends Annotation {
   //* Feature: firstIds
 
   /** getter for firstIds - gets A list of string ids to identify the first occurrence
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public StringArray getFirstIds() {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_firstIds == null)
       jcasType.jcas.throwFeatMissing("firstIds", "ch.epfl.bbp.uima.types.Cooccurrence");
     return (StringArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Cooccurrence_Type)jcasType).casFeatCode_firstIds)));}
     
   /** setter for firstIds - sets A list of string ids to identify the first occurrence 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setFirstIds(StringArray v) {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_firstIds == null)
       jcasType.jcas.throwFeatMissing("firstIds", "ch.epfl.bbp.uima.types.Cooccurrence");
@@ -173,14 +196,18 @@ public class Cooccurrence extends Annotation {
   //* Feature: secondIds
 
   /** getter for secondIds - gets a list of string ids to identify the second occurrence
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public StringArray getSecondIds() {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_secondIds == null)
       jcasType.jcas.throwFeatMissing("secondIds", "ch.epfl.bbp.uima.types.Cooccurrence");
     return (StringArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Cooccurrence_Type)jcasType).casFeatCode_secondIds)));}
     
   /** setter for secondIds - sets a list of string ids to identify the second occurrence 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setSecondIds(StringArray v) {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_secondIds == null)
       jcasType.jcas.throwFeatMissing("secondIds", "ch.epfl.bbp.uima.types.Cooccurrence");
@@ -207,14 +234,18 @@ public class Cooccurrence extends Annotation {
   //* Feature: cooccurrenceType
 
   /** getter for cooccurrenceType - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getCooccurrenceType() {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_cooccurrenceType == null)
       jcasType.jcas.throwFeatMissing("cooccurrenceType", "ch.epfl.bbp.uima.types.Cooccurrence");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Cooccurrence_Type)jcasType).casFeatCode_cooccurrenceType);}
     
   /** setter for cooccurrenceType - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setCooccurrenceType(String v) {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_cooccurrenceType == null)
       jcasType.jcas.throwFeatMissing("cooccurrenceType", "ch.epfl.bbp.uima.types.Cooccurrence");
@@ -225,14 +256,18 @@ public class Cooccurrence extends Annotation {
   //* Feature: confidence
 
   /** getter for confidence - gets To which degree we are confident about this being a true co-occurrence
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public float getConfidence() {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_confidence == null)
       jcasType.jcas.throwFeatMissing("confidence", "ch.epfl.bbp.uima.types.Cooccurrence");
     return jcasType.ll_cas.ll_getFloatValue(addr, ((Cooccurrence_Type)jcasType).casFeatCode_confidence);}
     
   /** setter for confidence - sets To which degree we are confident about this being a true co-occurrence 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setConfidence(float v) {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_confidence == null)
       jcasType.jcas.throwFeatMissing("confidence", "ch.epfl.bbp.uima.types.Cooccurrence");
@@ -243,14 +278,18 @@ public class Cooccurrence extends Annotation {
   //* Feature: hasInteraction
 
   /** getter for hasInteraction - gets whether this cooccurrence signals an interaction between the two entities. This is relevant for the Whitetext corpus in particular.
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public boolean getHasInteraction() {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_hasInteraction == null)
       jcasType.jcas.throwFeatMissing("hasInteraction", "ch.epfl.bbp.uima.types.Cooccurrence");
     return jcasType.ll_cas.ll_getBooleanValue(addr, ((Cooccurrence_Type)jcasType).casFeatCode_hasInteraction);}
     
   /** setter for hasInteraction - sets whether this cooccurrence signals an interaction between the two entities. This is relevant for the Whitetext corpus in particular. 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setHasInteraction(boolean v) {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_hasInteraction == null)
       jcasType.jcas.throwFeatMissing("hasInteraction", "ch.epfl.bbp.uima.types.Cooccurrence");

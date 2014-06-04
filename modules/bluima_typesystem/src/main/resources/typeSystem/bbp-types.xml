@@ -1,4 +1,5 @@
-<?xml version="1.0" encoding="UTF-8"?><typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
   <name>bbp-basic-types</name>
   <description>The type system contains the basic annotation types.</description>
   <version>2.6</version>
@@ -51,6 +52,11 @@
     </typeDescription>
     <typeDescription>
       <name>ch.epfl.bbp.uima.types.POSSkip</name>
+      <description/>
+      <supertypeName>de.julielab.jules.types.POSTag</supertypeName>
+    </typeDescription>
+    <typeDescription>
+      <name>ch.epfl.bbp.uima.types.POSAdverb</name>
       <description/>
       <supertypeName>de.julielab.jules.types.POSTag</supertypeName>
     </typeDescription>

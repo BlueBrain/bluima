@@ -11,7 +11,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** 
- * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class DocumentElement extends Annotation {
@@ -54,10 +54,13 @@ public class DocumentElement extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {/*default - does nothing empty block */}
      
  
@@ -66,14 +69,18 @@ public class DocumentElement extends Annotation {
   //* Feature: ElementId
 
   /** getter for ElementId - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public int getElementId() {
     if (DocumentElement_Type.featOkTst && ((DocumentElement_Type)jcasType).casFeat_ElementId == null)
       jcasType.jcas.throwFeatMissing("ElementId", "ch.epfl.bbp.uima.types.DocumentElement");
     return jcasType.ll_cas.ll_getIntValue(addr, ((DocumentElement_Type)jcasType).casFeatCode_ElementId);}
     
   /** setter for ElementId - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setElementId(int v) {
     if (DocumentElement_Type.featOkTst && ((DocumentElement_Type)jcasType).casFeat_ElementId == null)
       jcasType.jcas.throwFeatMissing("ElementId", "ch.epfl.bbp.uima.types.DocumentElement");
@@ -84,14 +91,18 @@ public class DocumentElement extends Annotation {
   //* Feature: isBold
 
   /** getter for isBold - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public boolean getIsBold() {
     if (DocumentElement_Type.featOkTst && ((DocumentElement_Type)jcasType).casFeat_isBold == null)
       jcasType.jcas.throwFeatMissing("isBold", "ch.epfl.bbp.uima.types.DocumentElement");
     return jcasType.ll_cas.ll_getBooleanValue(addr, ((DocumentElement_Type)jcasType).casFeatCode_isBold);}
     
   /** setter for isBold - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setIsBold(boolean v) {
     if (DocumentElement_Type.featOkTst && ((DocumentElement_Type)jcasType).casFeat_isBold == null)
       jcasType.jcas.throwFeatMissing("isBold", "ch.epfl.bbp.uima.types.DocumentElement");
@@ -102,14 +113,18 @@ public class DocumentElement extends Annotation {
   //* Feature: height
 
   /** getter for height - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public float getHeight() {
     if (DocumentElement_Type.featOkTst && ((DocumentElement_Type)jcasType).casFeat_height == null)
       jcasType.jcas.throwFeatMissing("height", "ch.epfl.bbp.uima.types.DocumentElement");
     return jcasType.ll_cas.ll_getFloatValue(addr, ((DocumentElement_Type)jcasType).casFeatCode_height);}
     
   /** setter for height - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setHeight(float v) {
     if (DocumentElement_Type.featOkTst && ((DocumentElement_Type)jcasType).casFeat_height == null)
       jcasType.jcas.throwFeatMissing("height", "ch.epfl.bbp.uima.types.DocumentElement");
@@ -120,14 +135,18 @@ public class DocumentElement extends Annotation {
   //* Feature: width
 
   /** getter for width - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public float getWidth() {
     if (DocumentElement_Type.featOkTst && ((DocumentElement_Type)jcasType).casFeat_width == null)
       jcasType.jcas.throwFeatMissing("width", "ch.epfl.bbp.uima.types.DocumentElement");
     return jcasType.ll_cas.ll_getFloatValue(addr, ((DocumentElement_Type)jcasType).casFeatCode_width);}
     
   /** setter for width - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setWidth(float v) {
     if (DocumentElement_Type.featOkTst && ((DocumentElement_Type)jcasType).casFeat_width == null)
       jcasType.jcas.throwFeatMissing("width", "ch.epfl.bbp.uima.types.DocumentElement");
@@ -138,14 +157,18 @@ public class DocumentElement extends Annotation {
   //* Feature: x
 
   /** getter for x - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public float getX() {
     if (DocumentElement_Type.featOkTst && ((DocumentElement_Type)jcasType).casFeat_x == null)
       jcasType.jcas.throwFeatMissing("x", "ch.epfl.bbp.uima.types.DocumentElement");
     return jcasType.ll_cas.ll_getFloatValue(addr, ((DocumentElement_Type)jcasType).casFeatCode_x);}
     
   /** setter for x - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setX(float v) {
     if (DocumentElement_Type.featOkTst && ((DocumentElement_Type)jcasType).casFeat_x == null)
       jcasType.jcas.throwFeatMissing("x", "ch.epfl.bbp.uima.types.DocumentElement");
@@ -156,14 +179,18 @@ public class DocumentElement extends Annotation {
   //* Feature: y
 
   /** getter for y - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public float getY() {
     if (DocumentElement_Type.featOkTst && ((DocumentElement_Type)jcasType).casFeat_y == null)
       jcasType.jcas.throwFeatMissing("y", "ch.epfl.bbp.uima.types.DocumentElement");
     return jcasType.ll_cas.ll_getFloatValue(addr, ((DocumentElement_Type)jcasType).casFeatCode_y);}
     
   /** setter for y - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setY(float v) {
     if (DocumentElement_Type.featOkTst && ((DocumentElement_Type)jcasType).casFeat_y == null)
       jcasType.jcas.throwFeatMissing("y", "ch.epfl.bbp.uima.types.DocumentElement");
@@ -174,14 +201,18 @@ public class DocumentElement extends Annotation {
   //* Feature: pageId
 
   /** getter for pageId - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public int getPageId() {
     if (DocumentElement_Type.featOkTst && ((DocumentElement_Type)jcasType).casFeat_pageId == null)
       jcasType.jcas.throwFeatMissing("pageId", "ch.epfl.bbp.uima.types.DocumentElement");
     return jcasType.ll_cas.ll_getIntValue(addr, ((DocumentElement_Type)jcasType).casFeatCode_pageId);}
     
   /** setter for pageId - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setPageId(int v) {
     if (DocumentElement_Type.featOkTst && ((DocumentElement_Type)jcasType).casFeat_pageId == null)
       jcasType.jcas.throwFeatMissing("pageId", "ch.epfl.bbp.uima.types.DocumentElement");
@@ -192,14 +223,18 @@ public class DocumentElement extends Annotation {
   //* Feature: label
 
   /** getter for label - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getLabel() {
     if (DocumentElement_Type.featOkTst && ((DocumentElement_Type)jcasType).casFeat_label == null)
       jcasType.jcas.throwFeatMissing("label", "ch.epfl.bbp.uima.types.DocumentElement");
     return jcasType.ll_cas.ll_getStringValue(addr, ((DocumentElement_Type)jcasType).casFeatCode_label);}
     
   /** setter for label - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setLabel(String v) {
     if (DocumentElement_Type.featOkTst && ((DocumentElement_Type)jcasType).casFeat_label == null)
       jcasType.jcas.throwFeatMissing("label", "ch.epfl.bbp.uima.types.DocumentElement");
@@ -210,14 +245,18 @@ public class DocumentElement extends Annotation {
   //* Feature: medianFontsize
 
   /** getter for medianFontsize - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public double getMedianFontsize() {
     if (DocumentElement_Type.featOkTst && ((DocumentElement_Type)jcasType).casFeat_medianFontsize == null)
       jcasType.jcas.throwFeatMissing("medianFontsize", "ch.epfl.bbp.uima.types.DocumentElement");
     return jcasType.ll_cas.ll_getDoubleValue(addr, ((DocumentElement_Type)jcasType).casFeatCode_medianFontsize);}
     
   /** setter for medianFontsize - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setMedianFontsize(double v) {
     if (DocumentElement_Type.featOkTst && ((DocumentElement_Type)jcasType).casFeat_medianFontsize == null)
       jcasType.jcas.throwFeatMissing("medianFontsize", "ch.epfl.bbp.uima.types.DocumentElement");

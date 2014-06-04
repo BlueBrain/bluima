@@ -11,7 +11,7 @@ import org.apache.uima.jcas.cas.FSArray;
 
 
 /** Binary Relation between Entitiy Mentions
- * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class RelationMention extends ConceptMention {
@@ -51,10 +51,13 @@ public class RelationMention extends ConceptMention {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -63,14 +66,18 @@ public class RelationMention extends ConceptMention {
   //* Feature: tense
 
   /** getter for tense - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getTense() {
     if (RelationMention_Type.featOkTst && ((RelationMention_Type)jcasType).casFeat_tense == null)
       jcasType.jcas.throwFeatMissing("tense", "de.julielab.jules.types.RelationMention");
     return jcasType.ll_cas.ll_getStringValue(addr, ((RelationMention_Type)jcasType).casFeatCode_tense);}
     
   /** setter for tense - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setTense(String v) {
     if (RelationMention_Type.featOkTst && ((RelationMention_Type)jcasType).casFeat_tense == null)
       jcasType.jcas.throwFeatMissing("tense", "de.julielab.jules.types.RelationMention");
@@ -81,14 +88,18 @@ public class RelationMention extends ConceptMention {
   //* Feature: modality
 
   /** getter for modality - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getModality() {
     if (RelationMention_Type.featOkTst && ((RelationMention_Type)jcasType).casFeat_modality == null)
       jcasType.jcas.throwFeatMissing("modality", "de.julielab.jules.types.RelationMention");
     return jcasType.ll_cas.ll_getStringValue(addr, ((RelationMention_Type)jcasType).casFeatCode_modality);}
     
   /** setter for modality - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setModality(String v) {
     if (RelationMention_Type.featOkTst && ((RelationMention_Type)jcasType).casFeat_modality == null)
       jcasType.jcas.throwFeatMissing("modality", "de.julielab.jules.types.RelationMention");
@@ -99,14 +110,18 @@ public class RelationMention extends ConceptMention {
   //* Feature: arguments
 
   /** getter for arguments - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public FSArray getArguments() {
     if (RelationMention_Type.featOkTst && ((RelationMention_Type)jcasType).casFeat_arguments == null)
       jcasType.jcas.throwFeatMissing("arguments", "de.julielab.jules.types.RelationMention");
     return (FSArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((RelationMention_Type)jcasType).casFeatCode_arguments)));}
     
   /** setter for arguments - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setArguments(FSArray v) {
     if (RelationMention_Type.featOkTst && ((RelationMention_Type)jcasType).casFeat_arguments == null)
       jcasType.jcas.throwFeatMissing("arguments", "de.julielab.jules.types.RelationMention");
@@ -133,14 +148,18 @@ public class RelationMention extends ConceptMention {
   //* Feature: polarity
 
   /** getter for polarity - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getPolarity() {
     if (RelationMention_Type.featOkTst && ((RelationMention_Type)jcasType).casFeat_polarity == null)
       jcasType.jcas.throwFeatMissing("polarity", "de.julielab.jules.types.RelationMention");
     return jcasType.ll_cas.ll_getStringValue(addr, ((RelationMention_Type)jcasType).casFeatCode_polarity);}
     
   /** setter for polarity - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setPolarity(String v) {
     if (RelationMention_Type.featOkTst && ((RelationMention_Type)jcasType).casFeat_polarity == null)
       jcasType.jcas.throwFeatMissing("polarity", "de.julielab.jules.types.RelationMention");

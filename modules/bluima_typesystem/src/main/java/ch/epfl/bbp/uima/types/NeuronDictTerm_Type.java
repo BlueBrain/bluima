@@ -11,7 +11,7 @@ import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
 /** Represent nerve cells used at BBP
- * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:56 CEST 2014
  * @generated */
 public class NeuronDictTerm_Type extends CellDictTerm_Type {
   /** @generated */

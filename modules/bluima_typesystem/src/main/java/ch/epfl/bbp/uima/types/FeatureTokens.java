@@ -13,7 +13,7 @@ import org.apache.uima.jcas.cas.StringArray;
 
 
 /** a list of strings that represent the cleaned-up (pre-processed) tokens for use with LDA libs or others
- * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class FeatureTokens extends Annotation {
@@ -56,10 +56,13 @@ public class FeatureTokens extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {/*default - does nothing empty block */}
      
  
@@ -68,14 +71,18 @@ public class FeatureTokens extends Annotation {
   //* Feature: tokens
 
   /** getter for tokens - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public StringArray getTokens() {
     if (FeatureTokens_Type.featOkTst && ((FeatureTokens_Type)jcasType).casFeat_tokens == null)
       jcasType.jcas.throwFeatMissing("tokens", "ch.epfl.bbp.uima.types.FeatureTokens");
     return (StringArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((FeatureTokens_Type)jcasType).casFeatCode_tokens)));}
     
   /** setter for tokens - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setTokens(StringArray v) {
     if (FeatureTokens_Type.featOkTst && ((FeatureTokens_Type)jcasType).casFeat_tokens == null)
       jcasType.jcas.throwFeatMissing("tokens", "ch.epfl.bbp.uima.types.FeatureTokens");
@@ -102,14 +109,18 @@ public class FeatureTokens extends Annotation {
   //* Feature: beginnings
 
   /** getter for beginnings - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public IntegerArray getBeginnings() {
     if (FeatureTokens_Type.featOkTst && ((FeatureTokens_Type)jcasType).casFeat_beginnings == null)
       jcasType.jcas.throwFeatMissing("beginnings", "ch.epfl.bbp.uima.types.FeatureTokens");
     return (IntegerArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((FeatureTokens_Type)jcasType).casFeatCode_beginnings)));}
     
   /** setter for beginnings - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setBeginnings(IntegerArray v) {
     if (FeatureTokens_Type.featOkTst && ((FeatureTokens_Type)jcasType).casFeat_beginnings == null)
       jcasType.jcas.throwFeatMissing("beginnings", "ch.epfl.bbp.uima.types.FeatureTokens");
@@ -136,14 +147,18 @@ public class FeatureTokens extends Annotation {
   //* Feature: endings
 
   /** getter for endings - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public IntegerArray getEndings() {
     if (FeatureTokens_Type.featOkTst && ((FeatureTokens_Type)jcasType).casFeat_endings == null)
       jcasType.jcas.throwFeatMissing("endings", "ch.epfl.bbp.uima.types.FeatureTokens");
     return (IntegerArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((FeatureTokens_Type)jcasType).casFeatCode_endings)));}
     
   /** setter for endings - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setEndings(IntegerArray v) {
     if (FeatureTokens_Type.featOkTst && ((FeatureTokens_Type)jcasType).casFeat_endings == null)
       jcasType.jcas.throwFeatMissing("endings", "ch.epfl.bbp.uima.types.FeatureTokens");

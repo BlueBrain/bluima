@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:57 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class ArgumentMention extends Annotation {
@@ -50,10 +50,13 @@ public class ArgumentMention extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -62,14 +65,18 @@ public class ArgumentMention extends Annotation {
   //* Feature: ref
 
   /** getter for ref - gets Reference to the Annotation Object that acts as a argument here
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public Annotation getRef() {
     if (ArgumentMention_Type.featOkTst && ((ArgumentMention_Type)jcasType).casFeat_ref == null)
       jcasType.jcas.throwFeatMissing("ref", "de.julielab.jules.types.ArgumentMention");
     return (Annotation)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((ArgumentMention_Type)jcasType).casFeatCode_ref)));}
     
   /** setter for ref - sets Reference to the Annotation Object that acts as a argument here 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setRef(Annotation v) {
     if (ArgumentMention_Type.featOkTst && ((ArgumentMention_Type)jcasType).casFeat_ref == null)
       jcasType.jcas.throwFeatMissing("ref", "de.julielab.jules.types.ArgumentMention");
@@ -80,14 +87,18 @@ public class ArgumentMention extends Annotation {
   //* Feature: role
 
   /** getter for role - gets the role of the argument
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getRole() {
     if (ArgumentMention_Type.featOkTst && ((ArgumentMention_Type)jcasType).casFeat_role == null)
       jcasType.jcas.throwFeatMissing("role", "de.julielab.jules.types.ArgumentMention");
     return jcasType.ll_cas.ll_getStringValue(addr, ((ArgumentMention_Type)jcasType).casFeatCode_role);}
     
   /** setter for role - sets the role of the argument 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setRole(String v) {
     if (ArgumentMention_Type.featOkTst && ((ArgumentMention_Type)jcasType).casFeat_role == null)
       jcasType.jcas.throwFeatMissing("role", "de.julielab.jules.types.ArgumentMention");

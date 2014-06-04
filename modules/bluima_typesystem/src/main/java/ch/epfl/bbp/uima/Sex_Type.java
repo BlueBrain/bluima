@@ -12,7 +12,7 @@ import org.apache.uima.cas.Type;
 import de.julielab.jules.types.BioEntityMention_Type;
 
 /** 
- * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:54 CEST 2014
  * @generated */
 public class Sex_Type extends BioEntityMention_Type {
   /** @generated */

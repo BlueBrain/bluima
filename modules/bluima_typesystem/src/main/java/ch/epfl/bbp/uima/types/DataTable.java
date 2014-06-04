@@ -12,7 +12,7 @@ import org.apache.uima.jcas.cas.StringArray;
 
 
 /** A table that contains data, extracted from a pdf article
- * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class DataTable extends Annotation {
@@ -55,10 +55,13 @@ public class DataTable extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {/*default - does nothing empty block */}
      
  
@@ -67,14 +70,18 @@ public class DataTable extends Annotation {
   //* Feature: tableId
 
   /** getter for tableId - gets the id of this table in the document
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public int getTableId() {
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_tableId == null)
       jcasType.jcas.throwFeatMissing("tableId", "ch.epfl.bbp.uima.types.DataTable");
     return jcasType.ll_cas.ll_getIntValue(addr, ((DataTable_Type)jcasType).casFeatCode_tableId);}
     
   /** setter for tableId - sets the id of this table in the document 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setTableId(int v) {
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_tableId == null)
       jcasType.jcas.throwFeatMissing("tableId", "ch.epfl.bbp.uima.types.DataTable");
@@ -85,14 +92,18 @@ public class DataTable extends Annotation {
   //* Feature: rowCount
 
   /** getter for rowCount - gets the nr of rows
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public int getRowCount() {
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_rowCount == null)
       jcasType.jcas.throwFeatMissing("rowCount", "ch.epfl.bbp.uima.types.DataTable");
     return jcasType.ll_cas.ll_getIntValue(addr, ((DataTable_Type)jcasType).casFeatCode_rowCount);}
     
   /** setter for rowCount - sets the nr of rows 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setRowCount(int v) {
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_rowCount == null)
       jcasType.jcas.throwFeatMissing("rowCount", "ch.epfl.bbp.uima.types.DataTable");
@@ -103,14 +114,18 @@ public class DataTable extends Annotation {
   //* Feature: columnCount
 
   /** getter for columnCount - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public int getColumnCount() {
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_columnCount == null)
       jcasType.jcas.throwFeatMissing("columnCount", "ch.epfl.bbp.uima.types.DataTable");
     return jcasType.ll_cas.ll_getIntValue(addr, ((DataTable_Type)jcasType).casFeatCode_columnCount);}
     
   /** setter for columnCount - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setColumnCount(int v) {
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_columnCount == null)
       jcasType.jcas.throwFeatMissing("columnCount", "ch.epfl.bbp.uima.types.DataTable");
@@ -121,14 +136,18 @@ public class DataTable extends Annotation {
   //* Feature: caption
 
   /** getter for caption - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getCaption() {
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_caption == null)
       jcasType.jcas.throwFeatMissing("caption", "ch.epfl.bbp.uima.types.DataTable");
     return jcasType.ll_cas.ll_getStringValue(addr, ((DataTable_Type)jcasType).casFeatCode_caption);}
     
   /** setter for caption - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setCaption(String v) {
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_caption == null)
       jcasType.jcas.throwFeatMissing("caption", "ch.epfl.bbp.uima.types.DataTable");
@@ -139,14 +158,18 @@ public class DataTable extends Annotation {
   //* Feature: headings
 
   /** getter for headings - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public StringArray getHeadings() {
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_headings == null)
       jcasType.jcas.throwFeatMissing("headings", "ch.epfl.bbp.uima.types.DataTable");
     return (StringArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((DataTable_Type)jcasType).casFeatCode_headings)));}
     
   /** setter for headings - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setHeadings(StringArray v) {
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_headings == null)
       jcasType.jcas.throwFeatMissing("headings", "ch.epfl.bbp.uima.types.DataTable");
@@ -173,14 +196,18 @@ public class DataTable extends Annotation {
   //* Feature: body
 
   /** getter for body - gets the body of the table that contains data
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public StringArray getBody() {
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_body == null)
       jcasType.jcas.throwFeatMissing("body", "ch.epfl.bbp.uima.types.DataTable");
     return (StringArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((DataTable_Type)jcasType).casFeatCode_body)));}
     
   /** setter for body - sets the body of the table that contains data 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setBody(StringArray v) {
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_body == null)
       jcasType.jcas.throwFeatMissing("body", "ch.epfl.bbp.uima.types.DataTable");
@@ -207,14 +234,18 @@ public class DataTable extends Annotation {
   //* Feature: referenceText
 
   /** getter for referenceText - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getReferenceText() {
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_referenceText == null)
       jcasType.jcas.throwFeatMissing("referenceText", "ch.epfl.bbp.uima.types.DataTable");
     return jcasType.ll_cas.ll_getStringValue(addr, ((DataTable_Type)jcasType).casFeatCode_referenceText);}
     
   /** setter for referenceText - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setReferenceText(String v) {
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_referenceText == null)
       jcasType.jcas.throwFeatMissing("referenceText", "ch.epfl.bbp.uima.types.DataTable");
@@ -225,14 +256,18 @@ public class DataTable extends Annotation {
   //* Feature: pageNumber
 
   /** getter for pageNumber - gets the number of the page where the table is located in
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public int getPageNumber() {
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_pageNumber == null)
       jcasType.jcas.throwFeatMissing("pageNumber", "ch.epfl.bbp.uima.types.DataTable");
     return jcasType.ll_cas.ll_getIntValue(addr, ((DataTable_Type)jcasType).casFeatCode_pageNumber);}
     
   /** setter for pageNumber - sets the number of the page where the table is located in 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setPageNumber(int v) {
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_pageNumber == null)
       jcasType.jcas.throwFeatMissing("pageNumber", "ch.epfl.bbp.uima.types.DataTable");

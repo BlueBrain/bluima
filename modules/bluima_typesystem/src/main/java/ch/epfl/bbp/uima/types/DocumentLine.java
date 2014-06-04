@@ -11,7 +11,7 @@ import org.apache.uima.jcas.cas.FloatArray;
 
 
 /** 
- * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class DocumentLine extends DocumentElement {
@@ -54,10 +54,13 @@ public class DocumentLine extends DocumentElement {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {/*default - does nothing empty block */}
      
  
@@ -66,14 +69,18 @@ public class DocumentLine extends DocumentElement {
   //* Feature: block
 
   /** getter for block - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public int getBlock() {
     if (DocumentLine_Type.featOkTst && ((DocumentLine_Type)jcasType).casFeat_block == null)
       jcasType.jcas.throwFeatMissing("block", "ch.epfl.bbp.uima.types.DocumentLine");
     return jcasType.ll_cas.ll_getIntValue(addr, ((DocumentLine_Type)jcasType).casFeatCode_block);}
     
   /** setter for block - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setBlock(int v) {
     if (DocumentLine_Type.featOkTst && ((DocumentLine_Type)jcasType).casFeat_block == null)
       jcasType.jcas.throwFeatMissing("block", "ch.epfl.bbp.uima.types.DocumentLine");
@@ -84,14 +91,18 @@ public class DocumentLine extends DocumentElement {
   //* Feature: lineText
 
   /** getter for lineText - gets workaround to get the line text
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getLineText() {
     if (DocumentLine_Type.featOkTst && ((DocumentLine_Type)jcasType).casFeat_lineText == null)
       jcasType.jcas.throwFeatMissing("lineText", "ch.epfl.bbp.uima.types.DocumentLine");
     return jcasType.ll_cas.ll_getStringValue(addr, ((DocumentLine_Type)jcasType).casFeatCode_lineText);}
     
   /** setter for lineText - sets workaround to get the line text 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setLineText(String v) {
     if (DocumentLine_Type.featOkTst && ((DocumentLine_Type)jcasType).casFeat_lineText == null)
       jcasType.jcas.throwFeatMissing("lineText", "ch.epfl.bbp.uima.types.DocumentLine");
@@ -102,14 +113,18 @@ public class DocumentLine extends DocumentElement {
   //* Feature: beginnings
 
   /** getter for beginnings - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public FloatArray getBeginnings() {
     if (DocumentLine_Type.featOkTst && ((DocumentLine_Type)jcasType).casFeat_beginnings == null)
       jcasType.jcas.throwFeatMissing("beginnings", "ch.epfl.bbp.uima.types.DocumentLine");
     return (FloatArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((DocumentLine_Type)jcasType).casFeatCode_beginnings)));}
     
   /** setter for beginnings - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setBeginnings(FloatArray v) {
     if (DocumentLine_Type.featOkTst && ((DocumentLine_Type)jcasType).casFeat_beginnings == null)
       jcasType.jcas.throwFeatMissing("beginnings", "ch.epfl.bbp.uima.types.DocumentLine");
@@ -136,14 +151,18 @@ public class DocumentLine extends DocumentElement {
   //* Feature: endings
 
   /** getter for endings - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public FloatArray getEndings() {
     if (DocumentLine_Type.featOkTst && ((DocumentLine_Type)jcasType).casFeat_endings == null)
       jcasType.jcas.throwFeatMissing("endings", "ch.epfl.bbp.uima.types.DocumentLine");
     return (FloatArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((DocumentLine_Type)jcasType).casFeatCode_endings)));}
     
   /** setter for endings - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setEndings(FloatArray v) {
     if (DocumentLine_Type.featOkTst && ((DocumentLine_Type)jcasType).casFeat_endings == null)
       jcasType.jcas.throwFeatMissing("endings", "ch.epfl.bbp.uima.types.DocumentLine");

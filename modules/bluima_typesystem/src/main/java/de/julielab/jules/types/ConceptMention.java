@@ -12,7 +12,7 @@ import org.apache.uima.jcas.cas.TOP;
 
 
 /** 
- * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:57 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class ConceptMention extends Annotation {
@@ -52,10 +52,13 @@ public class ConceptMention extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -64,14 +67,18 @@ public class ConceptMention extends Annotation {
   //* Feature: specificType
 
   /** getter for specificType - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getSpecificType() {
     if (ConceptMention_Type.featOkTst && ((ConceptMention_Type)jcasType).casFeat_specificType == null)
       jcasType.jcas.throwFeatMissing("specificType", "de.julielab.jules.types.ConceptMention");
     return jcasType.ll_cas.ll_getStringValue(addr, ((ConceptMention_Type)jcasType).casFeatCode_specificType);}
     
   /** setter for specificType - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setSpecificType(String v) {
     if (ConceptMention_Type.featOkTst && ((ConceptMention_Type)jcasType).casFeat_specificType == null)
       jcasType.jcas.throwFeatMissing("specificType", "de.julielab.jules.types.ConceptMention");
@@ -82,14 +89,18 @@ public class ConceptMention extends Annotation {
   //* Feature: ref
 
   /** getter for ref - gets The reference to the Concept, we use here the super type TOP in order to avoid the recursive dependencies between type systems
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public TOP getRef() {
     if (ConceptMention_Type.featOkTst && ((ConceptMention_Type)jcasType).casFeat_ref == null)
       jcasType.jcas.throwFeatMissing("ref", "de.julielab.jules.types.ConceptMention");
     return (TOP)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((ConceptMention_Type)jcasType).casFeatCode_ref)));}
     
   /** setter for ref - sets The reference to the Concept, we use here the super type TOP in order to avoid the recursive dependencies between type systems 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setRef(TOP v) {
     if (ConceptMention_Type.featOkTst && ((ConceptMention_Type)jcasType).casFeat_ref == null)
       jcasType.jcas.throwFeatMissing("ref", "de.julielab.jules.types.ConceptMention");
@@ -100,14 +111,18 @@ public class ConceptMention extends Annotation {
   //* Feature: resourceEntryList
 
   /** getter for resourceEntryList - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public FSArray getResourceEntryList() {
     if (ConceptMention_Type.featOkTst && ((ConceptMention_Type)jcasType).casFeat_resourceEntryList == null)
       jcasType.jcas.throwFeatMissing("resourceEntryList", "de.julielab.jules.types.ConceptMention");
     return (FSArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((ConceptMention_Type)jcasType).casFeatCode_resourceEntryList)));}
     
   /** setter for resourceEntryList - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setResourceEntryList(FSArray v) {
     if (ConceptMention_Type.featOkTst && ((ConceptMention_Type)jcasType).casFeat_resourceEntryList == null)
       jcasType.jcas.throwFeatMissing("resourceEntryList", "de.julielab.jules.types.ConceptMention");
@@ -134,14 +149,18 @@ public class ConceptMention extends Annotation {
   //* Feature: textualRepresentation
 
   /** getter for textualRepresentation - gets This feature provides the text of the annotated concept mention (e.g., entity mention). important for easily representing discontinious mentions such as 'T cell'  in th expression 'T and B cell'
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getTextualRepresentation() {
     if (ConceptMention_Type.featOkTst && ((ConceptMention_Type)jcasType).casFeat_textualRepresentation == null)
       jcasType.jcas.throwFeatMissing("textualRepresentation", "de.julielab.jules.types.ConceptMention");
     return jcasType.ll_cas.ll_getStringValue(addr, ((ConceptMention_Type)jcasType).casFeatCode_textualRepresentation);}
     
   /** setter for textualRepresentation - sets This feature provides the text of the annotated concept mention (e.g., entity mention). important for easily representing discontinious mentions such as 'T cell'  in th expression 'T and B cell' 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setTextualRepresentation(String v) {
     if (ConceptMention_Type.featOkTst && ((ConceptMention_Type)jcasType).casFeat_textualRepresentation == null)
       jcasType.jcas.throwFeatMissing("textualRepresentation", "de.julielab.jules.types.ConceptMention");

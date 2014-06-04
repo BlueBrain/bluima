@@ -11,7 +11,7 @@ import org.apache.uima.jcas.cas.StringArray;
 
 
 /** 
- * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class GOMention extends ConceptMention {
@@ -51,10 +51,13 @@ public class GOMention extends ConceptMention {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -63,14 +66,18 @@ public class GOMention extends ConceptMention {
   //* Feature: categories
 
   /** getter for categories - gets created for the shared task, here we add the group
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public StringArray getCategories() {
     if (GOMention_Type.featOkTst && ((GOMention_Type)jcasType).casFeat_categories == null)
       jcasType.jcas.throwFeatMissing("categories", "de.julielab.jules.types.GOMention");
     return (StringArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((GOMention_Type)jcasType).casFeatCode_categories)));}
     
   /** setter for categories - sets created for the shared task, here we add the group 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setCategories(StringArray v) {
     if (GOMention_Type.featOkTst && ((GOMention_Type)jcasType).casFeat_categories == null)
       jcasType.jcas.throwFeatMissing("categories", "de.julielab.jules.types.GOMention");
@@ -97,14 +104,18 @@ public class GOMention extends ConceptMention {
   //* Feature: goID
 
   /** getter for goID - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getGoID() {
     if (GOMention_Type.featOkTst && ((GOMention_Type)jcasType).casFeat_goID == null)
       jcasType.jcas.throwFeatMissing("goID", "de.julielab.jules.types.GOMention");
     return jcasType.ll_cas.ll_getStringValue(addr, ((GOMention_Type)jcasType).casFeatCode_goID);}
     
   /** setter for goID - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setGoID(String v) {
     if (GOMention_Type.featOkTst && ((GOMention_Type)jcasType).casFeat_goID == null)
       jcasType.jcas.throwFeatMissing("goID", "de.julielab.jules.types.GOMention");

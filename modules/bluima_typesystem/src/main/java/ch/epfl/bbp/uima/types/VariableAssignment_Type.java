@@ -13,7 +13,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** e.g. x =3, p < 0.05
- * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:56 CEST 2014
  * @generated */
 public class VariableAssignment_Type extends Measure_Type {
   /** @generated */

@@ -25,7 +25,12 @@
       <version>${project.parent.version}</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <artifactId>bluima_lexica</artifactId>
+      <groupId>${project.groupId}</groupId>
+      <version>${project.parent.version}</version>
+      <scope>test</scope>
+    </dependency>
 
   </dependencies>
-
 </project>

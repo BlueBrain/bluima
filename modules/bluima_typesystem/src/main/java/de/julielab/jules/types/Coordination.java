@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:57 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class Coordination extends Annotation {
@@ -50,10 +50,13 @@ public class Coordination extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -62,14 +65,18 @@ public class Coordination extends Annotation {
   //* Feature: resolved
 
   /** getter for resolved - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getResolved() {
     if (Coordination_Type.featOkTst && ((Coordination_Type)jcasType).casFeat_resolved == null)
       jcasType.jcas.throwFeatMissing("resolved", "de.julielab.jules.types.Coordination");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Coordination_Type)jcasType).casFeatCode_resolved);}
     
   /** setter for resolved - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setResolved(String v) {
     if (Coordination_Type.featOkTst && ((Coordination_Type)jcasType).casFeat_resolved == null)
       jcasType.jcas.throwFeatMissing("resolved", "de.julielab.jules.types.Coordination");
@@ -80,14 +87,18 @@ public class Coordination extends Annotation {
   //* Feature: elliptical
 
   /** getter for elliptical - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public boolean getElliptical() {
     if (Coordination_Type.featOkTst && ((Coordination_Type)jcasType).casFeat_elliptical == null)
       jcasType.jcas.throwFeatMissing("elliptical", "de.julielab.jules.types.Coordination");
     return jcasType.ll_cas.ll_getBooleanValue(addr, ((Coordination_Type)jcasType).casFeatCode_elliptical);}
     
   /** setter for elliptical - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setElliptical(boolean v) {
     if (Coordination_Type.featOkTst && ((Coordination_Type)jcasType).casFeat_elliptical == null)
       jcasType.jcas.throwFeatMissing("elliptical", "de.julielab.jules.types.Coordination");

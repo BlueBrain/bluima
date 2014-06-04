@@ -13,6 +13,7 @@ import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.fit.descriptor.TypeCapability;
 import org.apache.uima.jcas.JCas;
 
+import ch.epfl.bbp.uima.types.POSAdverb;
 import ch.epfl.bbp.uima.types.POSSkip;
 import ch.epfl.bbp.uima.types.POSVerb;
 import ch.epfl.bbp.uima.types.POSWh;
@@ -47,8 +48,8 @@ public class SkipSomePosAnnotator extends JCasAnnotator_ImplBase {
             } else if (pos.startsWith("W")) { // Wh-thing
                 (new POSWh(jCas, t.getBegin(), t.getEnd())).addToIndexes();
             
-//            } else if (pos.startsWith("R")) { // Wh-thing
-//               (new POSAdverb(jCas, t.getBegin(), t.getEnd())).addToIndexes();
+            } else if (pos.startsWith("R")) { // Adverb
+               (new POSAdverb(jCas, t.getBegin(), t.getEnd())).addToIndexes();
 
             } else if (POS_SKIP.contains(pos)) { // to be skipped
                 (new POSSkip(jCas, t.getBegin(), t.getEnd())).addToIndexes();

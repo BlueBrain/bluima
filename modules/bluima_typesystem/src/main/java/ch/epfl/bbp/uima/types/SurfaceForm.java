@@ -11,7 +11,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** Surface form from BioLexicon's FORMS table
- * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:56 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class SurfaceForm extends Annotation {
@@ -54,10 +54,13 @@ public class SurfaceForm extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {/*default - does nothing empty block */}
      
  
@@ -66,14 +69,18 @@ public class SurfaceForm extends Annotation {
   //* Feature: id
 
   /** getter for id - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getId() {
     if (SurfaceForm_Type.featOkTst && ((SurfaceForm_Type)jcasType).casFeat_id == null)
       jcasType.jcas.throwFeatMissing("id", "ch.epfl.bbp.uima.types.SurfaceForm");
     return jcasType.ll_cas.ll_getStringValue(addr, ((SurfaceForm_Type)jcasType).casFeatCode_id);}
     
   /** setter for id - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setId(String v) {
     if (SurfaceForm_Type.featOkTst && ((SurfaceForm_Type)jcasType).casFeat_id == null)
       jcasType.jcas.throwFeatMissing("id", "ch.epfl.bbp.uima.types.SurfaceForm");
@@ -84,14 +91,18 @@ public class SurfaceForm extends Annotation {
   //* Feature: pos
 
   /** getter for pos - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getPos() {
     if (SurfaceForm_Type.featOkTst && ((SurfaceForm_Type)jcasType).casFeat_pos == null)
       jcasType.jcas.throwFeatMissing("pos", "ch.epfl.bbp.uima.types.SurfaceForm");
     return jcasType.ll_cas.ll_getStringValue(addr, ((SurfaceForm_Type)jcasType).casFeatCode_pos);}
     
   /** setter for pos - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setPos(String v) {
     if (SurfaceForm_Type.featOkTst && ((SurfaceForm_Type)jcasType).casFeat_pos == null)
       jcasType.jcas.throwFeatMissing("pos", "ch.epfl.bbp.uima.types.SurfaceForm");
@@ -102,14 +113,18 @@ public class SurfaceForm extends Annotation {
   //* Feature: semtype
 
   /** getter for semtype - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getSemtype() {
     if (SurfaceForm_Type.featOkTst && ((SurfaceForm_Type)jcasType).casFeat_semtype == null)
       jcasType.jcas.throwFeatMissing("semtype", "ch.epfl.bbp.uima.types.SurfaceForm");
     return jcasType.ll_cas.ll_getStringValue(addr, ((SurfaceForm_Type)jcasType).casFeatCode_semtype);}
     
   /** setter for semtype - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setSemtype(String v) {
     if (SurfaceForm_Type.featOkTst && ((SurfaceForm_Type)jcasType).casFeat_semtype == null)
       jcasType.jcas.throwFeatMissing("semtype", "ch.epfl.bbp.uima.types.SurfaceForm");

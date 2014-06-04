@@ -14,7 +14,7 @@ import org.apache.uima.cas.Feature;
 import de.julielab.jules.types.Annotation_Type;
 
 /** The scores of topics from a LDA analysis on a token
- * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:56 CEST 2014
  * @generated */
 public class Topic_Type extends Annotation_Type {
   /** @generated */

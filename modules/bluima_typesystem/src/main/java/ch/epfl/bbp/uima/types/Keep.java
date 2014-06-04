@@ -11,7 +11,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** 
- * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:56 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class Keep extends Annotation {
@@ -54,10 +54,13 @@ public class Keep extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {/*default - does nothing empty block */}
      
  
@@ -66,14 +69,18 @@ public class Keep extends Annotation {
   //* Feature: enclosedAnnot
 
   /** getter for enclosedAnnot - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public Annotation getEnclosedAnnot() {
     if (Keep_Type.featOkTst && ((Keep_Type)jcasType).casFeat_enclosedAnnot == null)
       jcasType.jcas.throwFeatMissing("enclosedAnnot", "ch.epfl.bbp.uima.types.Keep");
     return (Annotation)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Keep_Type)jcasType).casFeatCode_enclosedAnnot)));}
     
   /** setter for enclosedAnnot - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setEnclosedAnnot(Annotation v) {
     if (Keep_Type.featOkTst && ((Keep_Type)jcasType).casFeat_enclosedAnnot == null)
       jcasType.jcas.throwFeatMissing("enclosedAnnot", "ch.epfl.bbp.uima.types.Keep");
@@ -84,14 +91,18 @@ public class Keep extends Annotation {
   //* Feature: normalizedText
 
   /** getter for normalizedText - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getNormalizedText() {
     if (Keep_Type.featOkTst && ((Keep_Type)jcasType).casFeat_normalizedText == null)
       jcasType.jcas.throwFeatMissing("normalizedText", "ch.epfl.bbp.uima.types.Keep");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Keep_Type)jcasType).casFeatCode_normalizedText);}
     
   /** setter for normalizedText - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setNormalizedText(String v) {
     if (Keep_Type.featOkTst && ((Keep_Type)jcasType).casFeat_normalizedText == null)
       jcasType.jcas.throwFeatMissing("normalizedText", "ch.epfl.bbp.uima.types.Keep");

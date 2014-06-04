@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** Ohta, Tomoko, Yuka Tateisi, Hideki Mima and Jun'ichi Tsujii. (2002). GENIA Corpus: an Annotated Research Abstract Corpus in Molecular Biology Domain. In the Proceedings of he Human Language Technology Conference (HLT 2002). pp73--77.
- * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class GENIAConstituent extends PTBConstituent {
@@ -50,10 +50,13 @@ public class GENIAConstituent extends PTBConstituent {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -62,14 +65,18 @@ public class GENIAConstituent extends PTBConstituent {
   //* Feature: syn
 
   /** getter for syn - gets Marks coordinations, O
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getSyn() {
     if (GENIAConstituent_Type.featOkTst && ((GENIAConstituent_Type)jcasType).casFeat_syn == null)
       jcasType.jcas.throwFeatMissing("syn", "de.julielab.jules.types.GENIAConstituent");
     return jcasType.ll_cas.ll_getStringValue(addr, ((GENIAConstituent_Type)jcasType).casFeatCode_syn);}
     
   /** setter for syn - sets Marks coordinations, O 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setSyn(String v) {
     if (GENIAConstituent_Type.featOkTst && ((GENIAConstituent_Type)jcasType).casFeat_syn == null)
       jcasType.jcas.throwFeatMissing("syn", "de.julielab.jules.types.GENIAConstituent");

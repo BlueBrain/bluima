@@ -11,7 +11,7 @@ import org.apache.uima.jcas.cas.FSArray;
 
 
 /** Chains annotations of the same type
- * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:57 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class DiscontinuousAnnotation extends Annotation {
@@ -51,10 +51,13 @@ public class DiscontinuousAnnotation extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -63,14 +66,18 @@ public class DiscontinuousAnnotation extends Annotation {
   //* Feature: value
 
   /** getter for value - gets Annotations to be chained.
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public FSArray getValue() {
     if (DiscontinuousAnnotation_Type.featOkTst && ((DiscontinuousAnnotation_Type)jcasType).casFeat_value == null)
       jcasType.jcas.throwFeatMissing("value", "de.julielab.jules.types.DiscontinuousAnnotation");
     return (FSArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((DiscontinuousAnnotation_Type)jcasType).casFeatCode_value)));}
     
   /** setter for value - sets Annotations to be chained. 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setValue(FSArray v) {
     if (DiscontinuousAnnotation_Type.featOkTst && ((DiscontinuousAnnotation_Type)jcasType).casFeat_value == null)
       jcasType.jcas.throwFeatMissing("value", "de.julielab.jules.types.DiscontinuousAnnotation");

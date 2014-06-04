@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** Lemma is the canonical form of a lexeme. Lemma can be retrieved from lexicon or be produced by lemmatizer.
- * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class Lemma extends Annotation {
@@ -50,10 +50,13 @@ public class Lemma extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -62,14 +65,18 @@ public class Lemma extends Annotation {
   //* Feature: value
 
   /** getter for value - gets The value of lemma,C
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getValue() {
     if (Lemma_Type.featOkTst && ((Lemma_Type)jcasType).casFeat_value == null)
       jcasType.jcas.throwFeatMissing("value", "de.julielab.jules.types.Lemma");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Lemma_Type)jcasType).casFeatCode_value);}
     
   /** setter for value - sets The value of lemma,C 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setValue(String v) {
     if (Lemma_Type.featOkTst && ((Lemma_Type)jcasType).casFeat_value == null)
       jcasType.jcas.throwFeatMissing("value", "de.julielab.jules.types.Lemma");

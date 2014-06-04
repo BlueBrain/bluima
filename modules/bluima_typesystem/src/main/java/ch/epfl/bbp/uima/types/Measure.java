@@ -11,7 +11,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** a measure, e.g. 40g
- * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:56 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class Measure extends Annotation {
@@ -54,10 +54,13 @@ public class Measure extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {/*default - does nothing empty block */}
      
  
@@ -66,14 +69,18 @@ public class Measure extends Annotation {
   //* Feature: textValue
 
   /** getter for textValue - gets the complete surface form of this measure
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getTextValue() {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_textValue == null)
       jcasType.jcas.throwFeatMissing("textValue", "ch.epfl.bbp.uima.types.Measure");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Measure_Type)jcasType).casFeatCode_textValue);}
     
   /** setter for textValue - sets the complete surface form of this measure 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setTextValue(String v) {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_textValue == null)
       jcasType.jcas.throwFeatMissing("textValue", "ch.epfl.bbp.uima.types.Measure");
@@ -84,14 +91,18 @@ public class Measure extends Annotation {
   //* Feature: value
 
   /** getter for value - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public float getValue() {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_value == null)
       jcasType.jcas.throwFeatMissing("value", "ch.epfl.bbp.uima.types.Measure");
     return jcasType.ll_cas.ll_getFloatValue(addr, ((Measure_Type)jcasType).casFeatCode_value);}
     
   /** setter for value - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setValue(float v) {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_value == null)
       jcasType.jcas.throwFeatMissing("value", "ch.epfl.bbp.uima.types.Measure");
@@ -102,14 +113,18 @@ public class Measure extends Annotation {
   //* Feature: normalizedValue
 
   /** getter for normalizedValue - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public float getNormalizedValue() {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_normalizedValue == null)
       jcasType.jcas.throwFeatMissing("normalizedValue", "ch.epfl.bbp.uima.types.Measure");
     return jcasType.ll_cas.ll_getFloatValue(addr, ((Measure_Type)jcasType).casFeatCode_normalizedValue);}
     
   /** setter for normalizedValue - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setNormalizedValue(float v) {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_normalizedValue == null)
       jcasType.jcas.throwFeatMissing("normalizedValue", "ch.epfl.bbp.uima.types.Measure");
@@ -120,14 +135,18 @@ public class Measure extends Annotation {
   //* Feature: rangeStartValue
 
   /** getter for rangeStartValue - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public float getRangeStartValue() {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_rangeStartValue == null)
       jcasType.jcas.throwFeatMissing("rangeStartValue", "ch.epfl.bbp.uima.types.Measure");
     return jcasType.ll_cas.ll_getFloatValue(addr, ((Measure_Type)jcasType).casFeatCode_rangeStartValue);}
     
   /** setter for rangeStartValue - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setRangeStartValue(float v) {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_rangeStartValue == null)
       jcasType.jcas.throwFeatMissing("rangeStartValue", "ch.epfl.bbp.uima.types.Measure");
@@ -138,14 +157,18 @@ public class Measure extends Annotation {
   //* Feature: rangeEndValue
 
   /** getter for rangeEndValue - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public float getRangeEndValue() {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_rangeEndValue == null)
       jcasType.jcas.throwFeatMissing("rangeEndValue", "ch.epfl.bbp.uima.types.Measure");
     return jcasType.ll_cas.ll_getFloatValue(addr, ((Measure_Type)jcasType).casFeatCode_rangeEndValue);}
     
   /** setter for rangeEndValue - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setRangeEndValue(float v) {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_rangeEndValue == null)
       jcasType.jcas.throwFeatMissing("rangeEndValue", "ch.epfl.bbp.uima.types.Measure");
@@ -156,14 +179,18 @@ public class Measure extends Annotation {
   //* Feature: meanValue
 
   /** getter for meanValue - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public float getMeanValue() {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_meanValue == null)
       jcasType.jcas.throwFeatMissing("meanValue", "ch.epfl.bbp.uima.types.Measure");
     return jcasType.ll_cas.ll_getFloatValue(addr, ((Measure_Type)jcasType).casFeatCode_meanValue);}
     
   /** setter for meanValue - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setMeanValue(float v) {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_meanValue == null)
       jcasType.jcas.throwFeatMissing("meanValue", "ch.epfl.bbp.uima.types.Measure");
@@ -174,14 +201,18 @@ public class Measure extends Annotation {
   //* Feature: standardErrorValue
 
   /** getter for standardErrorValue - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public float getStandardErrorValue() {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_standardErrorValue == null)
       jcasType.jcas.throwFeatMissing("standardErrorValue", "ch.epfl.bbp.uima.types.Measure");
     return jcasType.ll_cas.ll_getFloatValue(addr, ((Measure_Type)jcasType).casFeatCode_standardErrorValue);}
     
   /** setter for standardErrorValue - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setStandardErrorValue(float v) {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_standardErrorValue == null)
       jcasType.jcas.throwFeatMissing("standardErrorValue", "ch.epfl.bbp.uima.types.Measure");
@@ -193,7 +224,9 @@ public class Measure extends Annotation {
 
   /** getter for accuracy - gets allows to store additional information about this
             measure, e.g. modifiers like '~', '+/-', 'approximately'
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getAccuracy() {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_accuracy == null)
       jcasType.jcas.throwFeatMissing("accuracy", "ch.epfl.bbp.uima.types.Measure");
@@ -201,7 +234,9 @@ public class Measure extends Annotation {
     
   /** setter for accuracy - sets allows to store additional information about this
             measure, e.g. modifiers like '~', '+/-', 'approximately' 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setAccuracy(String v) {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_accuracy == null)
       jcasType.jcas.throwFeatMissing("accuracy", "ch.epfl.bbp.uima.types.Measure");
@@ -212,14 +247,18 @@ public class Measure extends Annotation {
   //* Feature: unit
 
   /** getter for unit - gets iso
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getUnit() {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_unit == null)
       jcasType.jcas.throwFeatMissing("unit", "ch.epfl.bbp.uima.types.Measure");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Measure_Type)jcasType).casFeatCode_unit);}
     
   /** setter for unit - sets iso 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setUnit(String v) {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_unit == null)
       jcasType.jcas.throwFeatMissing("unit", "ch.epfl.bbp.uima.types.Measure");
@@ -230,14 +269,18 @@ public class Measure extends Annotation {
   //* Feature: normalizedUnit
 
   /** getter for normalizedUnit - gets iso
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getNormalizedUnit() {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_normalizedUnit == null)
       jcasType.jcas.throwFeatMissing("normalizedUnit", "ch.epfl.bbp.uima.types.Measure");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Measure_Type)jcasType).casFeatCode_normalizedUnit);}
     
   /** setter for normalizedUnit - sets iso 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setNormalizedUnit(String v) {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_normalizedUnit == null)
       jcasType.jcas.throwFeatMissing("normalizedUnit", "ch.epfl.bbp.uima.types.Measure");
@@ -249,7 +292,9 @@ public class Measure extends Annotation {
 
   /** getter for confidence - gets characterizes the confidence of the extractor
             that this is indeed a measure. default should be 1f
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public float getConfidence() {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_confidence == null)
       jcasType.jcas.throwFeatMissing("confidence", "ch.epfl.bbp.uima.types.Measure");
@@ -257,7 +302,9 @@ public class Measure extends Annotation {
     
   /** setter for confidence - sets characterizes the confidence of the extractor
             that this is indeed a measure. default should be 1f 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setConfidence(float v) {
     if (Measure_Type.featOkTst && ((Measure_Type)jcasType).casFeat_confidence == null)
       jcasType.jcas.throwFeatMissing("confidence", "ch.epfl.bbp.uima.types.Measure");

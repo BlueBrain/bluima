@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** Describes a word structure, default grammatical features of a noun
- * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class NounFeats extends GrammaticalFeats {
@@ -50,10 +50,13 @@ public class NounFeats extends GrammaticalFeats {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -62,14 +65,18 @@ public class NounFeats extends GrammaticalFeats {
   //* Feature: gender
 
   /** getter for gender - gets Gender, C
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getGender() {
     if (NounFeats_Type.featOkTst && ((NounFeats_Type)jcasType).casFeat_gender == null)
       jcasType.jcas.throwFeatMissing("gender", "de.julielab.jules.types.NounFeats");
     return jcasType.ll_cas.ll_getStringValue(addr, ((NounFeats_Type)jcasType).casFeatCode_gender);}
     
   /** setter for gender - sets Gender, C 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setGender(String v) {
     if (NounFeats_Type.featOkTst && ((NounFeats_Type)jcasType).casFeat_gender == null)
       jcasType.jcas.throwFeatMissing("gender", "de.julielab.jules.types.NounFeats");
@@ -80,14 +87,18 @@ public class NounFeats extends GrammaticalFeats {
   //* Feature: case
 
   /** getter for case - gets Case. C
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getCase() {
     if (NounFeats_Type.featOkTst && ((NounFeats_Type)jcasType).casFeat_case == null)
       jcasType.jcas.throwFeatMissing("case", "de.julielab.jules.types.NounFeats");
     return jcasType.ll_cas.ll_getStringValue(addr, ((NounFeats_Type)jcasType).casFeatCode_case);}
     
   /** setter for case - sets Case. C 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setCase(String v) {
     if (NounFeats_Type.featOkTst && ((NounFeats_Type)jcasType).casFeat_case == null)
       jcasType.jcas.throwFeatMissing("case", "de.julielab.jules.types.NounFeats");
@@ -98,14 +109,18 @@ public class NounFeats extends GrammaticalFeats {
   //* Feature: number
 
   /** getter for number - gets Number, C
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getNumber() {
     if (NounFeats_Type.featOkTst && ((NounFeats_Type)jcasType).casFeat_number == null)
       jcasType.jcas.throwFeatMissing("number", "de.julielab.jules.types.NounFeats");
     return jcasType.ll_cas.ll_getStringValue(addr, ((NounFeats_Type)jcasType).casFeatCode_number);}
     
   /** setter for number - sets Number, C 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setNumber(String v) {
     if (NounFeats_Type.featOkTst && ((NounFeats_Type)jcasType).casFeat_number == null)
       jcasType.jcas.throwFeatMissing("number", "de.julielab.jules.types.NounFeats");

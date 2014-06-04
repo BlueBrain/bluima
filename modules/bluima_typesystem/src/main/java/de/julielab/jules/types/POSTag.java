@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** POS is a linguistic category of words (tokens) that are defined by their particular syntactic/morphological behaviours (e.g. noun, verb).
- * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class POSTag extends Annotation {
@@ -50,10 +50,13 @@ public class POSTag extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -62,14 +65,18 @@ public class POSTag extends Annotation {
   //* Feature: tagsetId
 
   /** getter for tagsetId - gets Every POS tagset (see subtypes) has an identifier, C
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getTagsetId() {
     if (POSTag_Type.featOkTst && ((POSTag_Type)jcasType).casFeat_tagsetId == null)
       jcasType.jcas.throwFeatMissing("tagsetId", "de.julielab.jules.types.POSTag");
     return jcasType.ll_cas.ll_getStringValue(addr, ((POSTag_Type)jcasType).casFeatCode_tagsetId);}
     
   /** setter for tagsetId - sets Every POS tagset (see subtypes) has an identifier, C 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setTagsetId(String v) {
     if (POSTag_Type.featOkTst && ((POSTag_Type)jcasType).casFeat_tagsetId == null)
       jcasType.jcas.throwFeatMissing("tagsetId", "de.julielab.jules.types.POSTag");
@@ -80,14 +87,18 @@ public class POSTag extends Annotation {
   //* Feature: value
 
   /** getter for value - gets The value of POS (NN, JJ etc.)
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getValue() {
     if (POSTag_Type.featOkTst && ((POSTag_Type)jcasType).casFeat_value == null)
       jcasType.jcas.throwFeatMissing("value", "de.julielab.jules.types.POSTag");
     return jcasType.ll_cas.ll_getStringValue(addr, ((POSTag_Type)jcasType).casFeatCode_value);}
     
   /** setter for value - sets The value of POS (NN, JJ etc.) 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setValue(String v) {
     if (POSTag_Type.featOkTst && ((POSTag_Type)jcasType).casFeat_value == null)
       jcasType.jcas.throwFeatMissing("value", "de.julielab.jules.types.POSTag");

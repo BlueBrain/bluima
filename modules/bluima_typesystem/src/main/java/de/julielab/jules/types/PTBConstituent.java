@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** Penn Treebank constituent annotation (see Penn Treebank)
- * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class PTBConstituent extends Constituent {
@@ -50,10 +50,13 @@ public class PTBConstituent extends Constituent {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -62,14 +65,18 @@ public class PTBConstituent extends Constituent {
   //* Feature: formFuncDisc
 
   /** getter for formFuncDisc - gets Form/function discrepancies, O
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getFormFuncDisc() {
     if (PTBConstituent_Type.featOkTst && ((PTBConstituent_Type)jcasType).casFeat_formFuncDisc == null)
       jcasType.jcas.throwFeatMissing("formFuncDisc", "de.julielab.jules.types.PTBConstituent");
     return jcasType.ll_cas.ll_getStringValue(addr, ((PTBConstituent_Type)jcasType).casFeatCode_formFuncDisc);}
     
   /** setter for formFuncDisc - sets Form/function discrepancies, O 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setFormFuncDisc(String v) {
     if (PTBConstituent_Type.featOkTst && ((PTBConstituent_Type)jcasType).casFeat_formFuncDisc == null)
       jcasType.jcas.throwFeatMissing("formFuncDisc", "de.julielab.jules.types.PTBConstituent");
@@ -80,14 +87,18 @@ public class PTBConstituent extends Constituent {
   //* Feature: gramRole
 
   /** getter for gramRole - gets Grammatical role, O
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getGramRole() {
     if (PTBConstituent_Type.featOkTst && ((PTBConstituent_Type)jcasType).casFeat_gramRole == null)
       jcasType.jcas.throwFeatMissing("gramRole", "de.julielab.jules.types.PTBConstituent");
     return jcasType.ll_cas.ll_getStringValue(addr, ((PTBConstituent_Type)jcasType).casFeatCode_gramRole);}
     
   /** setter for gramRole - sets Grammatical role, O 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setGramRole(String v) {
     if (PTBConstituent_Type.featOkTst && ((PTBConstituent_Type)jcasType).casFeat_gramRole == null)
       jcasType.jcas.throwFeatMissing("gramRole", "de.julielab.jules.types.PTBConstituent");
@@ -98,14 +109,18 @@ public class PTBConstituent extends Constituent {
   //* Feature: adv
 
   /** getter for adv - gets Adverbials are generally VP adjuncts.
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getAdv() {
     if (PTBConstituent_Type.featOkTst && ((PTBConstituent_Type)jcasType).casFeat_adv == null)
       jcasType.jcas.throwFeatMissing("adv", "de.julielab.jules.types.PTBConstituent");
     return jcasType.ll_cas.ll_getStringValue(addr, ((PTBConstituent_Type)jcasType).casFeatCode_adv);}
     
   /** setter for adv - sets Adverbials are generally VP adjuncts. 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setAdv(String v) {
     if (PTBConstituent_Type.featOkTst && ((PTBConstituent_Type)jcasType).casFeat_adv == null)
       jcasType.jcas.throwFeatMissing("adv", "de.julielab.jules.types.PTBConstituent");
@@ -116,14 +131,18 @@ public class PTBConstituent extends Constituent {
   //* Feature: misc
 
   /** getter for misc - gets Miscellaneous
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getMisc() {
     if (PTBConstituent_Type.featOkTst && ((PTBConstituent_Type)jcasType).casFeat_misc == null)
       jcasType.jcas.throwFeatMissing("misc", "de.julielab.jules.types.PTBConstituent");
     return jcasType.ll_cas.ll_getStringValue(addr, ((PTBConstituent_Type)jcasType).casFeatCode_misc);}
     
   /** setter for misc - sets Miscellaneous 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setMisc(String v) {
     if (PTBConstituent_Type.featOkTst && ((PTBConstituent_Type)jcasType).casFeat_misc == null)
       jcasType.jcas.throwFeatMissing("misc", "de.julielab.jules.types.PTBConstituent");
@@ -134,14 +153,18 @@ public class PTBConstituent extends Constituent {
   //* Feature: nullElement
 
   /** getter for nullElement - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getNullElement() {
     if (PTBConstituent_Type.featOkTst && ((PTBConstituent_Type)jcasType).casFeat_nullElement == null)
       jcasType.jcas.throwFeatMissing("nullElement", "de.julielab.jules.types.PTBConstituent");
     return jcasType.ll_cas.ll_getStringValue(addr, ((PTBConstituent_Type)jcasType).casFeatCode_nullElement);}
     
   /** setter for nullElement - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setNullElement(String v) {
     if (PTBConstituent_Type.featOkTst && ((PTBConstituent_Type)jcasType).casFeat_nullElement == null)
       jcasType.jcas.throwFeatMissing("nullElement", "de.julielab.jules.types.PTBConstituent");
@@ -152,14 +175,18 @@ public class PTBConstituent extends Constituent {
   //* Feature: ref
 
   /** getter for ref - gets Th reference from the null constituent to the corresponding lexicalized constituent, O
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public Constituent getRef() {
     if (PTBConstituent_Type.featOkTst && ((PTBConstituent_Type)jcasType).casFeat_ref == null)
       jcasType.jcas.throwFeatMissing("ref", "de.julielab.jules.types.PTBConstituent");
     return (Constituent)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((PTBConstituent_Type)jcasType).casFeatCode_ref)));}
     
   /** setter for ref - sets Th reference from the null constituent to the corresponding lexicalized constituent, O 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setRef(Constituent v) {
     if (PTBConstituent_Type.featOkTst && ((PTBConstituent_Type)jcasType).casFeat_ref == null)
       jcasType.jcas.throwFeatMissing("ref", "de.julielab.jules.types.PTBConstituent");
@@ -170,14 +197,18 @@ public class PTBConstituent extends Constituent {
   //* Feature: map
 
   /** getter for map - gets In the case of gapping the reference to the corresponding constituent, O
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public Constituent getMap() {
     if (PTBConstituent_Type.featOkTst && ((PTBConstituent_Type)jcasType).casFeat_map == null)
       jcasType.jcas.throwFeatMissing("map", "de.julielab.jules.types.PTBConstituent");
     return (Constituent)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((PTBConstituent_Type)jcasType).casFeatCode_map)));}
     
   /** setter for map - sets In the case of gapping the reference to the corresponding constituent, O 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setMap(Constituent v) {
     if (PTBConstituent_Type.featOkTst && ((PTBConstituent_Type)jcasType).casFeat_map == null)
       jcasType.jcas.throwFeatMissing("map", "de.julielab.jules.types.PTBConstituent");
@@ -188,14 +219,18 @@ public class PTBConstituent extends Constituent {
   //* Feature: tpc
 
   /** getter for tpc - gets Marks elements that appear before the subject in a declarative sentence, O
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public boolean getTpc() {
     if (PTBConstituent_Type.featOkTst && ((PTBConstituent_Type)jcasType).casFeat_tpc == null)
       jcasType.jcas.throwFeatMissing("tpc", "de.julielab.jules.types.PTBConstituent");
     return jcasType.ll_cas.ll_getBooleanValue(addr, ((PTBConstituent_Type)jcasType).casFeatCode_tpc);}
     
   /** setter for tpc - sets Marks elements that appear before the subject in a declarative sentence, O 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setTpc(boolean v) {
     if (PTBConstituent_Type.featOkTst && ((PTBConstituent_Type)jcasType).casFeat_tpc == null)
       jcasType.jcas.throwFeatMissing("tpc", "de.julielab.jules.types.PTBConstituent");

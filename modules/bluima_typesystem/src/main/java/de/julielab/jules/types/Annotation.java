@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** The super-type for all types.
- * Updated by JCasGen Mon Feb 17 22:12:56 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:57 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class Annotation extends org.apache.uima.jcas.tcas.Annotation {
@@ -50,10 +50,13 @@ public class Annotation extends org.apache.uima.jcas.tcas.Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -62,14 +65,18 @@ public class Annotation extends org.apache.uima.jcas.tcas.Annotation {
   //* Feature: confidence
 
   /** getter for confidence - gets The component that made the annotation may put its confidence/score calculated internally here, O
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getConfidence() {
     if (Annotation_Type.featOkTst && ((Annotation_Type)jcasType).casFeat_confidence == null)
       jcasType.jcas.throwFeatMissing("confidence", "de.julielab.jules.types.Annotation");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Annotation_Type)jcasType).casFeatCode_confidence);}
     
   /** setter for confidence - sets The component that made the annotation may put its confidence/score calculated internally here, O 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setConfidence(String v) {
     if (Annotation_Type.featOkTst && ((Annotation_Type)jcasType).casFeat_confidence == null)
       jcasType.jcas.throwFeatMissing("confidence", "de.julielab.jules.types.Annotation");
@@ -80,14 +87,18 @@ public class Annotation extends org.apache.uima.jcas.tcas.Annotation {
   //* Feature: componentId
 
   /** getter for componentId - gets Indicates which NLP component has been used to derive the annotation, C
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getComponentId() {
     if (Annotation_Type.featOkTst && ((Annotation_Type)jcasType).casFeat_componentId == null)
       jcasType.jcas.throwFeatMissing("componentId", "de.julielab.jules.types.Annotation");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Annotation_Type)jcasType).casFeatCode_componentId);}
     
   /** setter for componentId - sets Indicates which NLP component has been used to derive the annotation, C 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setComponentId(String v) {
     if (Annotation_Type.featOkTst && ((Annotation_Type)jcasType).casFeat_componentId == null)
       jcasType.jcas.throwFeatMissing("componentId", "de.julielab.jules.types.Annotation");
@@ -98,14 +109,18 @@ public class Annotation extends org.apache.uima.jcas.tcas.Annotation {
   //* Feature: id
 
   /** getter for id - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getId() {
     if (Annotation_Type.featOkTst && ((Annotation_Type)jcasType).casFeat_id == null)
       jcasType.jcas.throwFeatMissing("id", "de.julielab.jules.types.Annotation");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Annotation_Type)jcasType).casFeatCode_id);}
     
   /** setter for id - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setId(String v) {
     if (Annotation_Type.featOkTst && ((Annotation_Type)jcasType).casFeat_id == null)
       jcasType.jcas.throwFeatMissing("id", "de.julielab.jules.types.Annotation");

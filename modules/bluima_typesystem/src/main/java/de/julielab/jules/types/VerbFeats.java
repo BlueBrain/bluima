@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** Describes a word structure, default grammatical features of a verb
- * Updated by JCasGen Mon Feb 17 22:12:57 CET 2014
+ * Updated by JCasGen Wed Jun 04 18:01:59 CEST 2014
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
  * @generated */
 public class VerbFeats extends GrammaticalFeats {
@@ -50,10 +50,13 @@ public class VerbFeats extends GrammaticalFeats {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
+  /** 
+   * <!-- begin-user-doc -->
     * Write your own initialization here
     * <!-- end-user-doc -->
-  @generated modifiable */
+  *
+   * @generated modifiable 
+   */
   private void readObject() {}
      
  
@@ -62,14 +65,18 @@ public class VerbFeats extends GrammaticalFeats {
   //* Feature: tense
 
   /** getter for tense - gets Tense
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getTense() {
     if (VerbFeats_Type.featOkTst && ((VerbFeats_Type)jcasType).casFeat_tense == null)
       jcasType.jcas.throwFeatMissing("tense", "de.julielab.jules.types.VerbFeats");
     return jcasType.ll_cas.ll_getStringValue(addr, ((VerbFeats_Type)jcasType).casFeatCode_tense);}
     
   /** setter for tense - sets Tense 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setTense(String v) {
     if (VerbFeats_Type.featOkTst && ((VerbFeats_Type)jcasType).casFeat_tense == null)
       jcasType.jcas.throwFeatMissing("tense", "de.julielab.jules.types.VerbFeats");
@@ -80,14 +87,18 @@ public class VerbFeats extends GrammaticalFeats {
   //* Feature: person
 
   /** getter for person - gets Person
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getPerson() {
     if (VerbFeats_Type.featOkTst && ((VerbFeats_Type)jcasType).casFeat_person == null)
       jcasType.jcas.throwFeatMissing("person", "de.julielab.jules.types.VerbFeats");
     return jcasType.ll_cas.ll_getStringValue(addr, ((VerbFeats_Type)jcasType).casFeatCode_person);}
     
   /** setter for person - sets Person 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setPerson(String v) {
     if (VerbFeats_Type.featOkTst && ((VerbFeats_Type)jcasType).casFeat_person == null)
       jcasType.jcas.throwFeatMissing("person", "de.julielab.jules.types.VerbFeats");
@@ -98,14 +109,18 @@ public class VerbFeats extends GrammaticalFeats {
   //* Feature: number
 
   /** getter for number - gets Number
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getNumber() {
     if (VerbFeats_Type.featOkTst && ((VerbFeats_Type)jcasType).casFeat_number == null)
       jcasType.jcas.throwFeatMissing("number", "de.julielab.jules.types.VerbFeats");
     return jcasType.ll_cas.ll_getStringValue(addr, ((VerbFeats_Type)jcasType).casFeatCode_number);}
     
   /** setter for number - sets Number 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setNumber(String v) {
     if (VerbFeats_Type.featOkTst && ((VerbFeats_Type)jcasType).casFeat_number == null)
       jcasType.jcas.throwFeatMissing("number", "de.julielab.jules.types.VerbFeats");
@@ -116,14 +131,18 @@ public class VerbFeats extends GrammaticalFeats {
   //* Feature: voice
 
   /** getter for voice - gets Voice
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getVoice() {
     if (VerbFeats_Type.featOkTst && ((VerbFeats_Type)jcasType).casFeat_voice == null)
       jcasType.jcas.throwFeatMissing("voice", "de.julielab.jules.types.VerbFeats");
     return jcasType.ll_cas.ll_getStringValue(addr, ((VerbFeats_Type)jcasType).casFeatCode_voice);}
     
   /** setter for voice - sets Voice 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setVoice(String v) {
     if (VerbFeats_Type.featOkTst && ((VerbFeats_Type)jcasType).casFeat_voice == null)
       jcasType.jcas.throwFeatMissing("voice", "de.julielab.jules.types.VerbFeats");
@@ -134,14 +153,18 @@ public class VerbFeats extends GrammaticalFeats {
   //* Feature: aspect
 
   /** getter for aspect - gets Aspect
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getAspect() {
     if (VerbFeats_Type.featOkTst && ((VerbFeats_Type)jcasType).casFeat_aspect == null)
       jcasType.jcas.throwFeatMissing("aspect", "de.julielab.jules.types.VerbFeats");
     return jcasType.ll_cas.ll_getStringValue(addr, ((VerbFeats_Type)jcasType).casFeatCode_aspect);}
     
   /** setter for aspect - sets Aspect 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setAspect(String v) {
     if (VerbFeats_Type.featOkTst && ((VerbFeats_Type)jcasType).casFeat_aspect == null)
       jcasType.jcas.throwFeatMissing("aspect", "de.julielab.jules.types.VerbFeats");
