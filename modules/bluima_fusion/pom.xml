@@ -18,6 +18,14 @@
       <groupId>${project.groupId}</groupId>
       <version>${project.parent.version}</version>
     </dependency>
+
+    <dependency>
+      <artifactId>bluima_opennlp</artifactId>
+      <groupId>${project.groupId}</groupId>
+      <version>${project.parent.version}</version>
+      <scope>test</scope>
+    </dependency>
+
   </dependencies>
 
 </project>

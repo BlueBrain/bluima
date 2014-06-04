@@ -51,7 +51,7 @@ public class ViterbiFilterAnnotatorTest {
     }
 
     /**
-     * Added 'de' annotation will get deleted, because it is covered by a
+     * Added 'cd' annotation will get deleted, because it is covered by a
      * shortest path through annotations 'abc' and 'ef'
      */
     @Test
@@ -59,9 +59,9 @@ public class ViterbiFilterAnnotatorTest {
 
         JCas jCas = getTestCas();
 
-        Protein de = new Protein(jCas, 4, 7);
-        de.addToIndexes();
-        assertEquals("c d", de.getCoveredText());
+        Protein cd = new Protein(jCas, 4, 7);
+        cd.addToIndexes();
+        assertEquals("c d", cd.getCoveredText());
 
         runPipeline(
                 jCas,

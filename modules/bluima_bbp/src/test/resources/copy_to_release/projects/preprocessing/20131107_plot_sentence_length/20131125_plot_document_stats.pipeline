@@ -15,9 +15,9 @@
 
 cr: PubmedWholeDatabaseCR
  defaultValue__java: new String[]{ "127.0.0.1", "bb_pubmed", "root", "" }
+ and_query: AND pubmed_id % 1001 = 0
 
 ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
-
 ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
 
 java:

@@ -3,6 +3,7 @@ package ch.epfl.bbp.uima.laucher;
 import static ch.epfl.bbp.uima.utils.TimeUtils.nowToHuman;
 import static com.google.common.collect.Lists.newArrayList;
 import static com.google.common.collect.Sets.newHashSet;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.slf4j.LoggerFactory.getLogger;
 
 import java.io.IOException;
@@ -15,8 +16,10 @@ import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.analysis_engine.TypeOrFeature;
 import org.apache.uima.collection.CollectionReaderDescription;
 import org.apache.uima.collection.metadata.CpeDescriptorException;
+import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.tcas.Annotation;
+import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.resource.metadata.Capability;
 import org.apache.uima.resource.metadata.ResourceMetaData;
 import org.apache.uima.util.InvalidXMLException;
@@ -33,7 +36,6 @@ import ch.epfl.bbp.uima.uimafit.PipelineBuilder;
  * 
  * @author renaud.richardet@epfl.ch
  */
-// TODO use builder interface
 public class Pipeline {
     private static Logger LOG = getLogger(Pipeline.class);
 
@@ -60,6 +62,13 @@ public class Pipeline {
     public void addAe(AnalysisEngineDescription description) {
         aeds.add(description);
         checkAndAddCapabilities(description);
+    }
+
+    public void add(Class<? extends JCasAnnotator_ImplBase> annotatorClass,
+            Object... configurationData) throws InvalidXMLException,
+            ResourceInitializationException, IOException, SAXException,
+            CpeDescriptorException {
+        addAe(createEngineDescription(annotatorClass, configurationData));
     }
 
     /** Add Aes from @param p to the current pipeline */
@@ -125,12 +134,14 @@ public class Pipeline {
         return builder;
     }
 
-    public void setThreads(int threads) {
+    public Pipeline setThreads(int threads) {
         this.threads = threads;
+        return this;
     }
 
-    public void setMaxErrors(int maxErrors) {
+    public Pipeline setMaxErrors(int maxErrors) {
         this.maxErrors = maxErrors;
+        return this;
     }
 
     public Pipeline addXml(String xml) {
@@ -181,5 +192,12 @@ public class Pipeline {
 
     public List<String> getOutputTypes() {
         return outputTypes;
+    }
+
+    public void addAesTo(PipelineBuilder builder) throws InvalidXMLException,
+            IOException, SAXException, CpeDescriptorException {
+        for (AnalysisEngineDescription aDesc : getAeds()) {
+            builder.add(aDesc);
+        }
     }
 }
