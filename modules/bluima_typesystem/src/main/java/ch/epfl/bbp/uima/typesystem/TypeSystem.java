@@ -272,6 +272,7 @@ public class TypeSystem {
             "typeSystem/ruta/SourceDocumentInformation",//
 
             "typeSystem/ruta/neuroNER/NeuroNERTypeSystem",//
+            "typeSystem/ruta/neuromodulo/NeuromoduloTypeSystem",//
 
     // "org/cleartk/TypeSystem",//
 

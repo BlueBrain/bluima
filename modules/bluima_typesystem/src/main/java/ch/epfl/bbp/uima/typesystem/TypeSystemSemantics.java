@@ -74,6 +74,7 @@ public class TypeSystemSemantics {
             , Header.class.getName() //
             , de.julielab.jules.types.pubmed.Header.class.getName()//
             , Sentence.class.getName()//
+            , neuromodulo.Neuromodulo.Sentence.class.getName()//
             , GeniaPOSTag.class.getName()//
             , DocumentPage.class.getName()//
             , DocumentElement.class.getName()//

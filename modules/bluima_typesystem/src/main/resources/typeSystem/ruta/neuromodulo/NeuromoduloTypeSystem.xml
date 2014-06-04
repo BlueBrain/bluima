@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<typeSystemDescription xmlns="http://uima.apache.org/resourceSpecifier">
+    <name>neuromodulo.NeuromoduloTypeSystem</name>
+    <imports>
+        <import location="../BasicTypeSystem.xml"/>
+        <import location="../neuroNER/NeuroNERTypeSystem.xml"/>
+    </imports>
+    <types>
+        <typeDescription>
+            <name>neuromodulo.Neuromodulo.Sentence</name>
+            <description>Type defined in neuromodulo.Neuromodulo</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuromodulo.Neuromodulo.Neuromodulator</name>
+            <description>Type defined in neuromodulo.Neuromodulo</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuromodulo.Neuromodulo.Neurotransmitter</name>
+            <description>Type defined in neuromodulo.Neuromodulo</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuromodulo.Neuromodulo.Receptor</name>
+            <description>Type defined in neuromodulo.Neuromodulo</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuromodulo.Neuromodulo.Sentence</name>
+            <description>Type defined in neuromodulo.Neuromodulo</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuromodulo.Neuromodulo.Neuromodulator</name>
+            <description>Type defined in neuromodulo.Neuromodulo</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuromodulo.Neuromodulo.Neurotransmitter</name>
+            <description>Type defined in neuromodulo.Neuromodulo</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuromodulo.Neuromodulo.Receptor</name>
+            <description>Type defined in neuromodulo.Neuromodulo</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
+    </types>
+</typeSystemDescription>
