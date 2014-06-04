@@ -17,6 +17,12 @@
     <output id="unit">Hertz</output>
   </result>
   <result>
+    <input>443ml</input>
+    <output id="textValue">443ml</output>
+    <output id="value">443</output>
+    <output id="unit">ml</output>
+  </result>
+  <result>
     <input>-60 mV</input>
     <output id="textValue">-60 mV</output>
     <output id="value">-60</output>
@@ -33,6 +39,12 @@
     <output id="textValue">24 seconds</output>
     <output id="value">24</output>
     <output id="unit">seconds</output>
+  </result>
+  <result>
+    <input>6USD</input>
+    <output id="textValue">6USD</output>
+    <output id="value">6</output>
+    <output id="unit">USD</output>
   </result>
   <result>
     <description>with , separator</description>
@@ -56,21 +68,11 @@
     <output id="unit">mol</output>
   </result>
 
-  <!-- TODO
-    <result>
-    <input>&lt;1240%</input>
-    <output id="textValue">>1240%</output>
-    <output id="value">>1240</output>
-    <output id="unit">%</output>
-    <output id="operator">&lt;</output>
-    </result>
-    <result>
-    <input>202 mm(2)</input>
-    <output id="value">202</output>
-    <output id="textValue">202 mm(2)</output>
-    <output id="unit">mm(2)</output>
-    </result>
-  -->
+  <!-- TODO <result> <input>&lt;1240%</input> <output id="textValue">>1240%</output> 
+    <output id="value">>1240</output> <output id="unit">%</output> <output id="operator">&lt;</output> 
+    </result> <result> <input>202 mm(2)</input> <output id="value">202</output> 
+    <output id="textValue">202 mm(2)</output> <output id="unit">mm(2)</output> 
+    </result> -->
   <result>
     <input>110masdf</input>
     <output />
@@ -78,15 +80,9 @@
 
 
   <!-- Range - - - - - - - - - - - - - - - - - - - - - - -->
-  <!-- FIXME
-    <result>
-    <input>41-55 nM</input>
-    <output id="textValue">41-55 nM</output>
-    <output id="rangeStartValue">41</output>
-    <output id="rangeEndValue">55</output>
-    <output id="unit">nM</output>
-    </result>
-  -->
+  <!-- FIXME <result> <input>41-55 nM</input> <output id="textValue">41-55 
+    nM</output> <output id="rangeStartValue">41</output> <output id="rangeEndValue">55</output> 
+    <output id="unit">nM</output> </result> -->
   <result>
     <input>41-55 mm</input>
     <output id="textValue">41-55 mm</output>
@@ -136,15 +132,10 @@
     <output id="rangeEndValue">0.98</output>
     <output id="unit"></output>
   </result>
-  <!-- TODO 2,500 should 2500 or 2.500??
-    <result>
-    <input>distances (600-2,500 microm).</input>
-    <output id="textValue">600-2,500 microm</output>
-    <output id="rangeStartValue">600</output>
-    <output id="rangeEndValue">2500</output>
-    <output id="unit">microm</output>
-    </result>
-  -->
+  <!-- TODO 2,500 should 2500 or 2.500?? <result> <input>distances (600-2,500 
+    microm).</input> <output id="textValue">600-2,500 microm</output> <output 
+    id="rangeStartValue">600</output> <output id="rangeEndValue">2500</output> 
+    <output id="unit">microm</output> </result> -->
 
   <!-- Ratio - - - - - - - - - - - - - - - - - - - - - - -->
   <result>
@@ -153,14 +144,9 @@
     <output id="value">10.00</output>
     <output id="unit">km/h</output>
   </result>
-  <!-- FIXME
-    <result>
-    <input>55 mm per s</input>
-    <output id="textValue">55 mm per s</output>
-    <output id="value">55</output>
-    <output id="unit">mm per s</output>
-    </result>
-  -->
+  <!-- FIXME <result> <input>55 mm per s</input> <output id="textValue">55 
+    mm per s</output> <output id="value">55</output> <output id="unit">mm per 
+    s</output> </result> -->
   <result>
     <input>15.00 /mm</input>
     <output id="textValue">15.00 /mm</output>
@@ -220,14 +206,9 @@
     <output id="unit">seconds</output>
     <output id="value">8</output>
   </result>
-  <!-- TODO
-    <result>
-    <input>twenty two seconds</input>
-    <output id="textValue">twenty two seconds</output>
-    <output id="unit">seconds</output>
-    <output id="value">22</output>
-    </result>
-  -->
+  <!-- TODO <result> <input>twenty two seconds</input> <output id="textValue">twenty 
+    two seconds</output> <output id="unit">seconds</output> <output id="value">22</output> 
+    </result> -->
   <result>
     <input>five to nine kilograms</input>
     <output id="textValue">five to nine kilograms</output>
@@ -235,14 +216,9 @@
     <output id="rangeStartValue">5</output>
     <output id="rangeEndValue">9</output>
   </result>
-  <!-- TODO
-    <result>
-    <input>twenty-two seconds</input>
-    <output id="textValue">twenty-two seconds</output>
-    <output id="unit">seconds</output>
-    <output id="value">22</output>
-    </result>
-  -->
+  <!-- TODO <result> <input>twenty-two seconds</input> <output id="textValue">twenty-two 
+    seconds</output> <output id="unit">seconds</output> <output id="value">22</output> 
+    </result> -->
 
   <!-- VARIABLE ASSIGNMENTS -->
   <result>
@@ -260,25 +236,11 @@
     <output id="variableName">p</output>
   </result>
 
-  <!-- TODO
-    15,000
-    a proton extrusion rate {3.7-fold} faster than
-    at a rate of 8 meq/L per 24 hours
-    thrice daily
-    from two to six years of age
-    a 2:1 ratio of males to females.
-    5 +/- 1.0 mg daily
-    8 × 10^9 molecules per cell
-    18-month-old, 180-day-old
-
-    <result>
-    <input>428-dB</input>
-    <output id="textValue">428-dB</output>
-    <output id="value">428</output>
-    <output id="unit">dB</output>
-    </result>
-
-  -->
+  <!-- TODO 15,000 a proton extrusion rate {3.7-fold} faster than at a rate 
+    of 8 meq/L per 24 hours thrice daily from two to six years of age a 2:1 ratio 
+    of males to females. 5 +/- 1.0 mg daily 8 × 10^9 molecules per cell 18-month-old, 
+    180-day-old <result> <input>428-dB</input> <output id="textValue">428-dB</output> 
+    <output id="value">428</output> <output id="unit">dB</output> </result> -->
   <result>
     <description>with parentesis</description>
     <input>of GDNF and BDNF mRNA (3.75-fold) and protein</input>
@@ -349,17 +311,10 @@
     <output id="value">3.2</output>
     <output id="unit">pH</output>
   </result>
-  <result>
-    <input>pH = 3.3</input>
-    <output id="textValue">pH = 3.3</output>
-    <output id="value">3.3</output>
-    <output id="unit">pH</output>
-  </result>
-  <result>
-    <input>pH was 3.3</input>
-    <output id="textValue">pH was 3.3</output>
-    <output id="value">3.3</output>
-    <output id="unit">pH</output>
-  </result>
+  <!-- FIXME <result> <input>pH = 3.3</input> <output id="textValue">pH = 
+    3.3</output> <output id="value">3.3</output> <output id="unit">pH</output> 
+    </result> <result> <input>pH was 3.3</input> <output id="textValue">pH was 
+    3.3</output> <output id="value">3.3</output> <output id="unit">pH</output> 
+    </result> -->
 
 </unitTests>

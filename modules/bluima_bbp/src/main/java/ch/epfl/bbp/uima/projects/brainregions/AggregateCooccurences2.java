@@ -1,6 +1,5 @@
 package ch.epfl.bbp.uima.projects.brainregions;
 
-import static ch.epfl.bbp.range.RangeBuilder.from;
 import static java.lang.Integer.parseInt;
 import static java.lang.Math.log;
 
@@ -42,10 +41,10 @@ public class AggregateCooccurences2 {
 
         TwoDHashMap<Integer, Integer, Histogram<Integer>> aggregate = new TwoDHashMap<Integer, Integer, Histogram<Integer>>();
 
-        for (int batchId : from(0).upto(767)) {
+        for (int batchId = 0; batchId < 767; batchId++) {
             System.out.println("batch " + batchId);
 
-            int cnt=0;
+            int cnt = 0;
             for (String line : new LineReader(new FileInputStream(//
                     in + batchId + "/br_sentence.load_data.txt"))) {
 
@@ -86,7 +85,7 @@ public class AggregateCooccurences2 {
                 aggregate.set(firstRegionId, secondRegionId, hist);
                 cnt++;
             }
-            System.out.println("  aggregated "+cnt+" entries");
+            System.out.println("  aggregated " + cnt + " entries");
         }
 
         // write aggregate

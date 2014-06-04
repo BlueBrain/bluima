@@ -2,7 +2,6 @@ package ch.epfl.bbp.uima.projects.misc;
 
 import static ch.epfl.bbp.StringUtils.nullToEmpty;
 import static ch.epfl.bbp.io.LineReader.linesFrom;
-import static ch.epfl.bbp.range.RangeBuilder.from;
 import static ch.epfl.bbp.uima.ae.PubmedArticleEntity.ABSTRACT;
 import static ch.epfl.bbp.uima.ae.PubmedArticleEntity.LANG;
 import static ch.epfl.bbp.uima.ae.PubmedArticleEntity.PUBLISHED_DATE;
@@ -51,7 +50,8 @@ public class UpdateAbstractDb {
         int maxPmId = 24511642;// TODO update every time
         for (int i = maxPmId; i > 1; i = i - BATCH_SIZE) {
             LOG.debug("query: {}-{}", i, i + BATCH_SIZE);
-            updateWithQuery(from(i).upto(i + BATCH_SIZE - 1).asList(), pubmed);
+            // FIXME updateWithQuery(from(i).upto(i + BATCH_SIZE - 1).asList(),
+            // pubmed);
         }
         System.out.println("done :-)");
     }
