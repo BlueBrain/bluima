@@ -7,7 +7,6 @@ import org.apache.uima.analysis_component.JCasAnnotator_ImplBase
 import de.julielab.jules.types.Token
 import scala.collection.JavaConversions._
 import ch.epfl.bbp.uima.types.Noise
-import ch.epfl.bbp.range.CharacterSequence
 
 /**
  * Marks tokens containing illegal character sequences with the Noise annotation
