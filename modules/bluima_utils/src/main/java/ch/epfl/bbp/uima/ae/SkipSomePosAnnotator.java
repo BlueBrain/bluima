@@ -27,8 +27,8 @@ import de.julielab.jules.types.Token;
 @TypeCapability(inputs = TOKEN, outputs = { POS_VERB, POS_TAG })
 public class SkipSomePosAnnotator extends JCasAnnotator_ImplBase {
 
-    public static final Set<String> POS_SKIP = newHashSet("CC", "IN", "PRP",
-            "PRP$", "PDT", "POS", "DT", "TO", "EX", "LS", "RP");
+    public static final Set<String> POS_SKIP = newHashSet("CC", "DT", "EX", "IN", 
+    		"LS", "MD", "PDT", "POS", "PRP", "PRP$", "RP",  "TO");
 
     @Override
     public void process(JCas jCas) throws AnalysisEngineProcessException {
@@ -46,6 +46,9 @@ public class SkipSomePosAnnotator extends JCasAnnotator_ImplBase {
 
             } else if (pos.startsWith("W")) { // Wh-thing
                 (new POSWh(jCas, t.getBegin(), t.getEnd())).addToIndexes();
+            
+//            } else if (pos.startsWith("R")) { // Wh-thing
+//               (new POSAdverb(jCas, t.getBegin(), t.getEnd())).addToIndexes();
 
             } else if (POS_SKIP.contains(pos)) { // to be skipped
                 (new POSSkip(jCas, t.getBegin(), t.getEnd())).addToIndexes();

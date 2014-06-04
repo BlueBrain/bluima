@@ -12,6 +12,7 @@ ae: BlueBioLemmatizer
 ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
 ae: ch.epfl.bbp.uima.ae.PruneMeasuresAnnotator
 ae: ch.epfl.bbp.uima.ae.PunctuationAnnotator
+ae: ch.epfl.bbp.uima.ae.SkipSomePosAnnotator
 #NERs
 ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/age")
 ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/disease")
@@ -37,24 +38,27 @@ ae: ch.epfl.bbp.uima.filter.MeasureNormalizerAnnotator
  removeSimpleMeasure__java: true
 ae: ch.epfl.bbp.uima.ae.EntityNormalizerAnnotator
 
-#Annotation filtering 
+#Annotation filtering
 ae: ch.epfl.bbp.uima.filter.PunctuationFilterAnnotator
 ae: ch.epfl.bbp.uima.filter.StopwordFilterAnnotator
+ae: ch.epfl.bbp.uima.filter.AnnotationFilterAnnotator
+ annotationClasses__java: new String[]{"ch.epfl.bbp.uima.types.POSSkip"}
 
 #Frecuency counts
 ae: ch.epfl.bbp.uima.filter.FrequencyFilterWriter
- outputFile: /home/michael/Documents/MasterProject/lda_mesh/BluimaTest2/frequency
-	
-#Writing
-ae: ch.epfl.bbp.uima.ae.output.LdaCWriter 
- dcaFormat__java: true
- outputFile: /home/michael/Documents/MasterProject/lda_mesh/BluimaTest/output
- vocabularyOutputFile: /home/michael/Documents/MasterProject/lda_mesh/BluimaTest2/vocab
+ outputFile: /home/michael/Documents/MasterProject/lda_mesh/BluimaTest2/1m_ns.vocab.raw
 
+# Writing
+ae: ch.epfl.bbp.uima.ae.output.LdaCWriter
+ dcaFormat__java: true
+ outputFile: /home/michael/Documents/MasterProject/lda_mesh/BluimaTest2/1m_ns.dca_corpus
+ vocabularyOutputFile: /home/michael/Documents/MasterProject/lda_mesh/BluimaTest2/1m_ns.dca_corpus.vocab
+ idsOutputFile: /home/michael/Documents/MasterProject/lda_mesh/BluimaTest2/1m_ns.pmids
+ 
 # Only recommended for testing.
 #ae: ch.epfl.bbp.uima.ae.output.BartWriter
 # debug__java: true
 # outputDir: /home/michael/Documents/MasterProject/lda_mesh/BluimaTest/bart
 
-ae: ch.epfl.bbp.uima.filter.KeepsDumper
- printCoveredText__java: true
+#ae: ch.epfl.bbp.uima.filter.KeepsDumper
+# printCoveredText__java: true

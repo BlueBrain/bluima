@@ -49,8 +49,13 @@ public class MeasureNormalizerAnnotator extends JCasAnnotator_ImplBase {
             
             if (a instanceof Measure) {
             	unit = ((Measure) a).getUnit();
-            	if(removeMeasure_ && unit.isEmpty() ){
-            		k.removeFromIndexes(jCas);
+            	if(removeMeasure_){
+            		if(unit == null){
+            			k.removeFromIndexes(jCas);
+            		}
+            		else if (unit.isEmpty()){
+            			k.removeFromIndexes(jCas);
+            		}
             	}
             	else{
             		k.setNormalizedText(MEASURE_MASK + unit);

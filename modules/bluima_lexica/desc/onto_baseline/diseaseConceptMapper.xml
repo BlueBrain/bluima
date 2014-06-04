@@ -273,6 +273,8 @@
 
     </configurationParameters>
     <configurationParameterSettings>
+
+
       <nameValuePair>
         <name>SpanFeatureStructure</name>
         <value>
@@ -293,6 +295,7 @@
             <!--
             <string>ref_id</string>
               -->
+	
           </array>
         </value>
       </nameValuePair>
