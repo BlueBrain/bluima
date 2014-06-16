@@ -6,13 +6,14 @@ public class TestResult {
 
     private double precision;
     private double recall;
-    //private int sizeExpected;
-    //private int sizeActual;
+
+    // private int sizeExpected;
+    // private int sizeActual;
 
     public TestResult(int sizeExpected, int sizeActual, double precision,
             double recall) {
         // this.sizeExpected = sizeExpected;
-        //  this.sizeActual = sizeActual;
+        // this.sizeActual = sizeActual;
         this.precision = precision;
         this.recall = recall;
     }
@@ -32,7 +33,8 @@ public class TestResult {
     @Override
     public String toString() {
         return format(
-                "TestResult:\n\tprecision:\t%.3f\n\trecall:\t%.3f\n\tF1:\t%.3f",
-                precision, recall, getF1());
+                "TestResult:\n\tprecision:\t%.3f\n\trecall:\t%.3f\n\tF1:\t%.3f\n"
+                        + "Latex:: %.1f\\%% & %.1f\\%% & %.1f\\%%", precision,
+                recall, getF1(), precision * 100, recall * 100, getF1() * 100);
     }
 }

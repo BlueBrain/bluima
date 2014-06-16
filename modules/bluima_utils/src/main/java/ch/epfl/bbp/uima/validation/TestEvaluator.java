@@ -41,7 +41,7 @@ public class TestEvaluator<T extends Annotation, U extends Annotation> {
                 sb.append("fn: " + expected.getCoveredText() + "\n");
             }
 
-            // System.out.println("XXX\t" + pmId + "\t" + expectedsCnt++ + "\t"
+            // System.out.println("XX\t" + pmId + "\t" + expectedsCnt++ + "\t"
             // + (_localFN ? "fn" : "ok\n"));
 
         }
@@ -120,12 +120,7 @@ public class TestEvaluator<T extends Annotation, U extends Annotation> {
         return new TestEvaluator<A, A>(simpleComparator);
     }
 
-    /**
-     * Compares the start/end on the same annotation.
-     * 
-     * @param annotation
-     * @return
-     */
+    /** Compares the start/end on the same annotation */
     public static <A extends Annotation, B extends Annotation> TestEvaluator<A, B> getExactEvaluator() {
 
         Comparator<A, B> simpleComparator = new Comparator<A, B>() {
@@ -141,6 +136,7 @@ public class TestEvaluator<T extends Annotation, U extends Annotation> {
         return new TestEvaluator<A, B>(simpleComparator);
     }
 
+    /** 'gold' is at least covered by 'system'; probably too lenient */
     public static <A extends Annotation, B extends Annotation> TestEvaluator<A, B> getAtLeastCoveredEvaluator() {
         Comparator<A, B> simpleComparator = new Comparator<A, B>() {
             @Override
@@ -155,12 +151,27 @@ public class TestEvaluator<T extends Annotation, U extends Annotation> {
         return new TestEvaluator<A, B>(simpleComparator);
     }
 
+    /** 'gold' is covering 'system' */
+    public static <A extends Annotation, B extends Annotation> TestEvaluator<A, B> getAtLeastCoveringEvaluator() {
+        Comparator<A, B> simpleComparator = new Comparator<A, B>() {
+            @Override
+            public boolean areTheSame(A expected, B actual) {
+                if (expected.getBegin() <= actual.getBegin()
+                        && expected.getEnd() >= actual.getEnd()) {
+                    return true;
+                }
+                return false;
+            }
+        };
+        return new TestEvaluator<A, B>(simpleComparator);
+    }
+
     public static <A extends Annotation, B extends Annotation> TestEvaluator<A, B> getOverlapEvaluator() {
         Comparator<A, B> simpleComparator = new Comparator<A, B>() {
             @Override
-            public boolean areTheSame(A gold, B system) {
-                if (gold.getBegin() < system.getEnd()
-                        && gold.getEnd() > system.getBegin()) {
+            public boolean areTheSame(A expected, B actual) {
+                if (expected.getBegin() < actual.getEnd()
+                        && expected.getEnd() > actual.getBegin()) {
                     return true;
                 }
                 return false;

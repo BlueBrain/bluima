@@ -4,8 +4,8 @@ include: ../../../includes/preprocess.incl
 
 # FILTER RODENTS
 ae: LinnaeusAnnotator
-ae: FilterIfNotRodent
- annotationClass: ch.epfl.bbp.uima.types.BrainRegion
+#ae: FilterIfNotRodent
+# annotationClass: ch.epfl.bbp.uima.types.BrainRegion
 
 ae: EvaluationPreprocessorAnnotator
  gold_annotation: ch.epfl.bbp.uima.types.BrainRegion
@@ -15,11 +15,12 @@ ae: EvaluationPreprocessorAnnotator
 ################################################################
 #ABA
 #ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/aba")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/aba-syn")
 #BAMS
 #ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2013")
 #ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2004")
 #ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2014")
-ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2014-syn")
+#ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2014-syn")
 
 #ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2004swanson")
 #ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/bams2004swanson-syn")
@@ -30,8 +31,8 @@ ae: KeepLargestAnnotationAnnotator
 
 
 # filter again, since original was moved to GOLD
-ae: FilterIfNotRodent
- annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
+#ae: FilterIfNotRodent
+# annotationClass: ch.epfl.bbp.uima.types.BrainRegionDictTerm
 
 
 
@@ -47,7 +48,7 @@ ae: EvaluationAnnotator
 ae: EvaluationAnnotator
  gold_annotation: ch.epfl.bbp.uima.types.BrainRegion
  system_annotation: ch.epfl.bbp.uima.types.BrainRegionDictTerm
- evaluator: overlap
+ evaluator: atLeastCovering
  verbose__java: false
 
 
