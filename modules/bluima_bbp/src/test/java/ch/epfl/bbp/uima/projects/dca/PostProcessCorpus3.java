@@ -17,20 +17,25 @@ import ch.epfl.bbp.io.TextFileWriter;
 
 /**
  * Post process a DCA corpus to remove too infrequent tokens. This allows to do
- * the DCA preprocessing in one single pass.
+ * the DCA preprocessing in one single pass.<br>
+ * Boosts multiwords
  * 
  * @author richarde
  */
-public class PostProcessCorpus2 {
+public class PostProcessCorpus3 {
 
     public static void main(String[] args) throws Exception {
 
-        final String root = "/Volumes/HDD2/ren_data/data_hdd/__mycorpora/1m_ns/1m_ns.dca_corpus";
+        final String root = "/nfs4/bbp.epfl.ch/simulation/nlp/corpus/dca/1m_ns_mw/1m_ns_mw.dca_corpus";
+        // final String root =
+        // "/Volumes/HDD2/ren_data/data_hdd/__mycorpora/1m_ns/1m_ns.dca_corpus";
         // String root =
         // "/nfs4/bbp.epfl.ch/simulation/nlp/data/lda/20140417_preprocess_abstracts_dca/pubmed.dca_corpus";
-        final int MIN_THRESHOLD = 20;
+        final int MIN_THRESHOLD = 200;
+        final int MIN_THRESHOLD_MULTIWORDS = 20;
 
-        String newSuffix = "_filtered-" + MIN_THRESHOLD;
+        String newSuffix = "_filtered-" + MIN_THRESHOLD + "-"
+                + MIN_THRESHOLD_MULTIWORDS;
         File corpus = new File(root);
         corpus.setReadOnly();
         File vocabF = new File(root + ".vocab");
@@ -54,7 +59,7 @@ public class PostProcessCorpus2 {
                     freqs.put(id, freqs.get(id) + freq);
 
                 } catch (Exception e) {
-                    System.err.println("could not find" + id);
+                    System.err.println("!could not find " + id);
                 }
             }
         }
@@ -66,7 +71,10 @@ public class PostProcessCorpus2 {
         TextFileWriter wvFreqs = new TextFileWriter(outVocabFreqs);
         int newIdIdx = 0;
         for (Entry<Integer, Integer> id_freq : freqs.entrySet()) {// id:freq
-            if (id_freq.getValue() > MIN_THRESHOLD) {
+
+            boolean isMultiword = vocab.get(id_freq.getKey()).contains("_");
+            if (id_freq.getValue() > MIN_THRESHOLD
+                    || (isMultiword && id_freq.getValue() > MIN_THRESHOLD_MULTIWORDS)) {
                 old2newId.put(id_freq.getKey(), newIdIdx++);
                 wvFreqs.addLine(vocab.get(id_freq.getKey()) + "\t"
                         + id_freq.getValue());
@@ -104,7 +112,7 @@ public class PostProcessCorpus2 {
             w.addLine(nrWords + sb.toString());
         }
         w.close();
-        System.out.println("done writing new corpus.\nkept=" + kept + "\nfilt="
+        System.out.println("done writing new corpus.\nkept tokens=" + kept + "\nfiltered tokens="
                 + filtered);
     }
 }
