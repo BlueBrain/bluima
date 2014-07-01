@@ -33,7 +33,7 @@ public class MapUtils {
      *         Note: for multiple identical values, they are returned in
      *         undefined order.
      */
-    public static <K, V extends Comparable<V>> LinkedHashMap<K, V> keyOfHighestValues(
+    public static <K, V extends Comparable<V>> LinkedHashMap<K, V> keysOfHighestValues(
             Map<K, V> map, int topN) {
 
         LinkedHashMap<K, V> best = new LinkedHashMap<K, V>(topN);

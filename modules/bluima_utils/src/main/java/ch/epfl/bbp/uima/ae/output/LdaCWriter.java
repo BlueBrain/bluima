@@ -1,8 +1,11 @@
 package ch.epfl.bbp.uima.ae.output;
 
+import static ch.epfl.bbp.io.LineReader.linesFrom;
 import static ch.epfl.bbp.uima.BlueCasUtil.getHeaderDocId;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_OUTPUT_FILE;
 import static ch.epfl.bbp.uima.typesystem.TypeSystem.KEEP;
+import static ch.epfl.bbp.uima.utils.Preconditions.checkFileExists;
+import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.collect.Lists.newLinkedList;
 import static com.google.common.collect.Maps.newHashMap;
 import static com.google.common.collect.Maps.newLinkedHashMap;
@@ -48,34 +51,50 @@ import ch.epfl.bbp.uima.types.Keep;
 @TypeCapability(inputs = KEEP)
 public class LdaCWriter extends JCasAnnotator_ImplBase {
 
-    @ConfigurationParameter(name = PARAM_OUTPUT_FILE, defaultValue = "lda-c.txt", mandatory = false)
+    @ConfigurationParameter(name = PARAM_OUTPUT_FILE, mandatory = true)
     private String outputFile;
 
     public static final String PARAM_VOCABULARY_OUTPUT_FILE = "vocabularyOutputFile";
-    @ConfigurationParameter(name = PARAM_VOCABULARY_OUTPUT_FILE, defaultValue = "lda-c.vocab", mandatory = false)
+    @ConfigurationParameter(name = PARAM_VOCABULARY_OUTPUT_FILE, mandatory = false)
     private String vocabularyOutputFile;
 
+    public static final String PARAM_VOCABULARY_INPUT_FILE = "vocabularyInputFile";
+    @ConfigurationParameter(name = PARAM_VOCABULARY_INPUT_FILE, mandatory = false)
+    private String vocabularyInputFile;
+
     public static final String PARAM_IDS_OUTPUT_FILE = "idsOutputFile";
-    @ConfigurationParameter(name = PARAM_IDS_OUTPUT_FILE, defaultValue = "lda-c.ids", //
-    mandatory = false, description = "outputs a list of pmids alongside")
+    @ConfigurationParameter(name = PARAM_IDS_OUTPUT_FILE, mandatory = false, //
+    description = "(optional) outputs a list of pmids alongside")
     private String idsOutputFile;
 
     public static final String PARAM_DCA_FORMAT = "dcaFormat";
     @ConfigurationParameter(name = PARAM_DCA_FORMAT, defaultValue = "false",//
     description = "wheter to output in DCA format (without ':')")
     private boolean dcaFormat;
-    
+
     private Writer writer;
-    private TextFileWriter idsWriter;
+    private TextFileWriter idsWriter = null;
 
     @Override
     public void initialize(UimaContext context)
             throws ResourceInitializationException {
         super.initialize(context);
+
+        checkArgument(vocabularyInputFile == null
+                ^ vocabularyOutputFile == null,
+                "please provide either input or output vocabulary file ");
+
         try {
             String separator = dcaFormat ? " " : ":";
-            writer = new Writer(separator, outputFile, vocabularyOutputFile);
-            idsWriter = new TextFileWriter(new File(idsOutputFile));
+            if (idsOutputFile != null)
+                idsWriter = new TextFileWriter(new File(idsOutputFile));
+            if (vocabularyOutputFile != null) { // create new vocab file
+                writer = new Writer(separator, outputFile, vocabularyOutputFile);
+            } else {// use existing vocab
+                checkFileExists(vocabularyInputFile);
+                writer = new Writer(separator, outputFile, linesFrom(new File(
+                        vocabularyInputFile).getAbsolutePath()));
+            }
         } catch (IOException e) {
             throw new ResourceInitializationException(e);
         }
@@ -91,8 +110,9 @@ public class LdaCWriter extends JCasAnnotator_ImplBase {
                 words.add(k.getNormalizedText().replace(' ', '_'));
             }
             if (!words.isEmpty()) {
-                writer.addDocument(words);
-                idsWriter.addLine(getHeaderDocId(jCas));
+                if (writer.addDocument(words) && idsWriter != null) {
+                    idsWriter.addLine(getHeaderDocId(jCas));
+                }
             }
 
         } catch (Exception e) {
@@ -106,7 +126,8 @@ public class LdaCWriter extends JCasAnnotator_ImplBase {
         super.collectionProcessComplete();
         try {
             writer.close();
-            idsWriter.close();
+            if (idsWriter != null)
+                idsWriter.close();
         } catch (IOException e) {
             throw new AnalysisEngineProcessException(e);
         }
@@ -117,31 +138,57 @@ public class LdaCWriter extends JCasAnnotator_ImplBase {
         /** Either space (DCA format) or colum (LDA-C format) */
         private String separator;
         private Map<String, Integer> vocabulary = newLinkedHashMap(); // ordered!
+        /** true=no more words are added, useful when providing the vocabulary */
+        private boolean vocabularyClosed = false;
         private PrintWriter corpusWriter;
-        private String vocabularyOutputFile;
+        private String vocabularyOutputFile = null;
 
         /**
          * @param separator
          *            ':' for LDA-C, ' ' for DCA
          * @param outputFile
          * @param vocabularyOutputFile
+         *            new vocabulary file to output
          */
         public Writer(String separator, String outputFile,
                 String vocabularyOutputFile) throws IOException {
             this.separator = separator;
-            this.vocabularyOutputFile = vocabularyOutputFile;
             corpusWriter = new PrintWriter(new BufferedWriter(new FileWriter(
                     new File(outputFile))));
+            this.vocabularyOutputFile = vocabularyOutputFile;
         }
 
-        public void addDocument(List<String> words) {
+        /**
+         * @param separator
+         *            ':' for LDA-C, ' ' for DCA
+         * @param outputFile
+         * @param providedVocabulary
+         *            existing vocabulary file to use. Words not found in this
+         *            vocabulary are simply ignored
+         */
+        public Writer(String separator, String outputFile,
+                List<String> providedVocabulary) throws IOException {
+            this.separator = separator;
+            corpusWriter = new PrintWriter(new BufferedWriter(new FileWriter(
+                    new File(outputFile))));
+            for (int i = 0; i < providedVocabulary.size(); i++) {
+                vocabulary.put(providedVocabulary.get(i), i);
+            }
+            vocabularyClosed = true;
+        }
+
+        /** @return true if the document is not empty */
+        public boolean addDocument(List<String> words) {
             // key: vocabulary id; val: count
             Map<Integer, Integer> documentMap = newHashMap();
 
             for (String word : words) {
-            	
-            	Integer tokenId = vocabulary.get(word);
-                if (tokenId == null) {// add new to vocab
+
+                Integer tokenId = vocabulary.get(word);
+                if (tokenId == null && vocabularyClosed) {
+                    continue; // just skip this word
+                } else if (tokenId == null && !vocabularyClosed) {
+                    // add new word to vocab
                     tokenId = vocabulary.size();
                     vocabulary.put(word, tokenId);
                 }
@@ -153,23 +200,29 @@ public class LdaCWriter extends JCasAnnotator_ImplBase {
                     documentMap.put(tokenId, cnt + 1);
                 }
             }
-            corpusWriter.print(documentMap.size());
-            for (Entry<Integer, Integer> entry : documentMap.entrySet()) {
-                corpusWriter.print(" " + entry.getKey() + separator
-                        + entry.getValue());
+            if (!documentMap.isEmpty()) { // do not print empty documents
+                corpusWriter.print(documentMap.size());
+                for (Entry<Integer, Integer> entry : documentMap.entrySet()) {
+                    corpusWriter.print(" " + entry.getKey() + separator
+                            + entry.getValue());
+                }
+                corpusWriter.println();
+                return true;
             }
-            corpusWriter.println();
+            return false;
         }
 
         public void close() throws IOException {
             corpusWriter.close();
-            // write vocab
-            PrintWriter vocabWriter = new PrintWriter(new BufferedWriter(
-                    new FileWriter(new File(vocabularyOutputFile))));
-            for (String vocabEntry : vocabulary.keySet()) {
-                vocabWriter.println(vocabEntry);
+
+            if (!vocabularyClosed) { // --> write vocab
+                PrintWriter vocabWriter = new PrintWriter(new BufferedWriter(
+                        new FileWriter(new File(vocabularyOutputFile))));
+                for (String vocabEntry : vocabulary.keySet()) {
+                    vocabWriter.println(vocabEntry);
+                }
+                vocabWriter.close();
             }
-            vocabWriter.close();
         }
     }
 }

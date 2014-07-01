@@ -1,6 +1,6 @@
 package ch.epfl.bbp;
 
-import static ch.epfl.bbp.MapUtils.keyOfHighestValues;
+import static ch.epfl.bbp.MapUtils.keysOfHighestValues;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.junit.Assert.assertTrue;
@@ -40,7 +40,7 @@ public class MapUtilsTest {
         mapp.put("2s3.5", 3.5);
         mapp.put("s2.6", 2.6);
 
-        LinkedHashMap<String, Double> m = MapUtils.keyOfHighestValues(mapp, 3);
+        LinkedHashMap<String, Double> m = MapUtils.keysOfHighestValues(mapp, 3);
 
         Iterator<String> it = m.keySet().iterator();
 
@@ -50,9 +50,9 @@ public class MapUtilsTest {
         assertEquals("s2.6", it.next());
 
         // exception cases
-        LinkedHashMap<String, Double> m2 = keyOfHighestValues(mapp, 0);
+        LinkedHashMap<String, Double> m2 = keysOfHighestValues(mapp, 0);
         assertEquals(0, m2.size());
-        LinkedHashMap<String, Double> m3 = keyOfHighestValues(mapp, 100);
+        LinkedHashMap<String, Double> m3 = keysOfHighestValues(mapp, 100);
         assertEquals(m3.size(), mapp.size());
 
     }

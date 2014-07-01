@@ -5,6 +5,7 @@ import static ch.epfl.bbp.uima.BlueUima.BLUE_UTILS_TEST_BASE;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT_FILE;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_OUTPUT_FILE;
 import static ch.epfl.bbp.uima.ae.output.LdaCWriter.PARAM_IDS_OUTPUT_FILE;
+import static ch.epfl.bbp.uima.ae.output.LdaCWriter.PARAM_VOCABULARY_INPUT_FILE;
 import static ch.epfl.bbp.uima.ae.output.LdaCWriter.PARAM_VOCABULARY_OUTPUT_FILE;
 import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static ch.epfl.bbp.uima.utils.Preconditions.checkFileExists;
@@ -52,5 +53,31 @@ public class LdaCWriterTest {
                 asText(new File(outFile)));
         assertEquals("this\nis\na\ntest\nhere\nanother\nwow\nworks\n",
                 asText(new File(vocabFile)));
+    }
+
+    @Test
+    public void testWithExistingVocab() throws Exception {
+
+        long time = System.currentTimeMillis();
+        String outFile = "target/ldac-" + time;
+        String idsFile = "target/ldac-ids" + time;
+
+        runPipeline(
+                createReader(OneDocPerLineReader.class, JULIE_TSD,
+                        PARAM_INPUT_FILE, BLUE_UTILS_TEST_BASE
+                                + "LdaCWriterTest.txt"),
+
+                createEngine(EnsureDocHasOneSentence.class),
+                createEngine(WhitespaceTokenizerAnnotator.class),
+                createEngine(Tokens2KeepAnnotator.class),
+
+                createEngine(LdaCWriter.class, PARAM_OUTPUT_FILE, outFile,
+                        PARAM_VOCABULARY_INPUT_FILE, BLUE_UTILS_TEST_BASE
+                                + "LdaCWriterVocabTest.txt",
+                        PARAM_IDS_OUTPUT_FILE, idsFile));
+
+        // check files
+        checkFileExists(new File(outFile));
+        assertEquals("2 0:1 1:1\n1 1:3\n2 0:1 2:1\n", asText(new File(outFile)));
     }
 }

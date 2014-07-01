@@ -28,7 +28,7 @@ public class OneDocPerLineReader2 extends OneDocPerLineReader {
     public void getNext(JCas jCas) throws IOException, CollectionException {
 
         String[] split = nextLine.split("\t");
-        checkEquals(3, split.length);
+        checkEquals(3, split.length, "pmid" + split[0]);
 
         String pmid = unescapeCsv(split[0]), title = unescapeCsv(split[1]), txt = unescapeCsv(split[2]);
 

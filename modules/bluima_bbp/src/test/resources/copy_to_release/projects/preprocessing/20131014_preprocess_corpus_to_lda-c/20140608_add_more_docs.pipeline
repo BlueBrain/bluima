@@ -1,0 +1,28 @@
+####################################################################
+#
+# adds more docs to 1m_ns corpus
+# Minimal pre-processing
+# 
+# processed 591 cas in 18s
+#
+####################################################################
+
+
+cr: OneDocPerLineReader2
+ inputFile:  /Volumes/HDD2/ren_scratch/Dropbox/frontiers/babylon_rec/data/fthns13/abstracts.tsv
+
+include: 20140318_100k_ns.include
+
+# OUTPUT in DCA format
+ae: ch.epfl.bbp.uima.ae.output.LdaCWriter
+ dcaFormat__java: true
+ outputFile: target/1m_fthns.dca_corpus
+ vocabularyInputFile: /Volumes/HDD2/ren_data/data_hdd/__mycorpora/1m_ns/1m_ns.dca_corpus_filtered-10.vocab
+ idsOutputFile: target/1m_fthns.pmids
+
+# OUTPUT for nHDB
+ae: ch.epfl.bbp.uima.ae.output.LdaCWriter
+ outputFile: target/1m_fthns.nHDP_corpus
+ vocabularyInputFile: /Volumes/HDD2/ren_data/data_hdd/__mycorpora/1m_ns/1m_ns.dca_corpus_filtered-1000.vocab
+
+ae: GarbageCollectorAnnotator
