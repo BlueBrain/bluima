@@ -43,6 +43,10 @@
 			<name>Favrod Philémon</name>
 			<email>philemon.favrod@epfl.ch</email>
 		</developer>
+		<developer>
+			<name>Erick Michael Cobos Tandazo</name>
+			<email>erick.cobos@epfl.ch</email>
+		</developer>
 	</developers>
 
 	<properties>
@@ -50,7 +54,8 @@
 		<uimaDependencyVersion>2.4</uimaDependencyVersion>
 		<maven.compiler.source>1.6</maven.compiler.source>
 		<maven.compiler.target>1.6</maven.compiler.target>
-		<scala.version>2.9.3</scala.version>
+		<scala.version>2.10.4</scala.version>
+		<scala.main.version>2.10</scala.main.version>
 		<jetty.maven.version>7.1.6.v20100715</jetty.maven.version>
 		<jersey.version>1.7</jersey.version>
 		<jackson.version>1.7.7</jackson.version>

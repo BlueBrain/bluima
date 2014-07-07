@@ -37,7 +37,7 @@ public class OneDocPerLineReader2 extends OneDocPerLineReader {
         header.setTitle(title);
         header.addToIndexes();
 
-        jCas.setDocumentText(title + ". " + txt);
+        jCas.setDocumentText(title + (title.endsWith(".") ? " " : ". ") + txt);
 
         jCas.setDocumentLanguage("en");
     }

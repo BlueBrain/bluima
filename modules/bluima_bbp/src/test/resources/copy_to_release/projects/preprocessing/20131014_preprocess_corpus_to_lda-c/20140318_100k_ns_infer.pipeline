@@ -8,23 +8,23 @@
 ####################################################################
 
 
-cr: TextArrayReader
- input__java: new String[]{"Homer1a is a core brain molecular correlate of sleep loss. Sleep is regulated by a homeostatic process that determines its need and by a circadian process that determines its timing. By using sleep deprivation and transcriptome profiling in inbred mouse strains, we show that genetic background affects susceptibility to sleep loss at the transcriptional level in a tissue-dependent manner. In the brain, Homer1a expression best reflects the response to sleep loss. Time-course gene expression analysis suggests that 2,032 brain transcripts are under circadian control. However, only 391 remain rhythmic when mice are sleep-deprived at four time points around the clock, suggesting that most diurnal changes in gene transcription are, in fact, sleep-wake-dependent. By generating a transgenic mouse line, we show that in Homer1-expressing cells specifically, apart from Homer1a, three other activity-induced genes (Ptgs2, Jph3, and Nptx2) are overexpressed after sleep loss. All four genes play a role in recovery from glutamate-induced neuronal hyperactivity. The consistent activation of Homer1a suggests a role for sleep in intracellular calcium homeostasis for protecting and recovering from the neuronal activation imposed by wakefulness.", "Genetics of narcolepsy and other major sleep disorders. One third of the population is affected by a sleep disorder with a major social, medical, and economic impact. Although very little is known about the genetics of normal sleep, familial and twin studies indicate an important influence of genetic factors. Most sleep disorders run in families and in several of them the contribution of genetic factors is increasingly recognised. With recent advances in the genetics of narcolepsy and the role of the hypocretin/orexin system, the possibility that other gene defects may contribute to the pathophysiology of major sleep disorders is worth indepth investigation."};
+#cr: TextArrayReader
+# input__java: new String[]{"Homer1a is a core brain molecular correlate of sleep loss. Sleep is regulated by a homeostatic process that determines its need and by a circadian process that determines its timing. By using sleep deprivation and transcriptome profiling in inbred mouse strains, we show that genetic background affects susceptibility to sleep loss at the transcriptional level in a tissue-dependent manner. In the brain, Homer1a expression best reflects the response to sleep loss. Time-course gene expression analysis suggests that 2,032 brain transcripts are under circadian control. However, only 391 remain rhythmic when mice are sleep-deprived at four time points around the clock, suggesting that most diurnal changes in gene transcription are, in fact, sleep-wake-dependent. By generating a transgenic mouse line, we show that in Homer1-expressing cells specifically, apart from Homer1a, three other activity-induced genes (Ptgs2, Jph3, and Nptx2) are overexpressed after sleep loss. All four genes play a role in recovery from glutamate-induced neuronal hyperactivity. The consistent activation of Homer1a suggests a role for sleep in intracellular calcium homeostasis for protecting and recovering from the neuronal activation imposed by wakefulness.", "Genetics of narcolepsy and other major sleep disorders. One third of the population is affected by a sleep disorder with a major social, medical, and economic impact. Although very little is known about the genetics of normal sleep, familial and twin studies indicate an important influence of genetic factors. Most sleep disorders run in families and in several of them the contribution of genetic factors is increasingly recognised. With recent advances in the genetics of narcolepsy and the role of the hypocretin/orexin system, the possibility that other gene defects may contribute to the pathophysiology of major sleep disorders is worth indepth investigation."};
 
 # for 100k-ns | 1m_ns
-#cr: OneDocPerLineReader2
+cr: OneDocPerLineReader2
+ inputFile:  /Volumes/HDD2/ren_scratch/Dropbox/frontiers/babylon_rec/data/fthns13/abstracts.tsv
 # #inputFile: /Users/richarde/dev/bluebrain/git/lda_mesh/corpora/110k_ns/100k_ns.abstracts.tsv
 # inputFile:  /Volumes/HDD2/ren_data/data_hdd/__mycorpora/1m_ns/1m_ns.abstracts.tsv
 
-include: 20140318_100k_ns.include
 
+include: 20140318_100k_ns.include
 # ae: ch.epfl.bbp.uima.filter.KeepsDumper
 
 
 ae: FeatureTokensExtractionAnnotator2
-
 ae: ch.epfl.bbp.uima.topicmodels.annotators.DCATopicModelsAnnotator3
- dcaDirectoryPath: /Volumes/HDD2/ren_data/dev_hdd/bluebrain/9_lda/1_dca/models/20140504_dca-1m_ns/trained__1000
+ dcaDirectoryPath: /Volumes/HDD2/ren_data/dev_hdd/bluebrain/9_lda/1_dca/models/20140504_dca-1m_ns/trained__2000
  dcaStem: 1m_ns
  inferenceIterations: 400
  inferenceBurnin: 200
@@ -32,5 +32,5 @@ ae: ch.epfl.bbp.uima.topicmodels.annotators.DCATopicModelsAnnotator3
 ae: ch.epfl.bbp.uima.ae.output.DumpTopics
 
 ae: StatsAnnotatorPlus
- printEvery__java: 1000
+ printEvery__java: 2
 ae: GarbageCollectorAnnotator

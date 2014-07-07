@@ -268,7 +268,12 @@ public class PipelineScriptParser {
             File parentFile, List<String> cliArgs) throws ParseException {
         LOG.info("+-parsing include line '{}'", line);
         String includeName = line.replaceFirst("include: ", "").trim();
-        File includeFile = new File(parentFile, includeName);
+        File includeFile = null;
+        if (includeName.startsWith("/")) {
+            includeFile = new File(includeName);
+        } else {
+            includeFile = new File(parentFile, includeName);
+        }
         if (!includeFile.exists()) {
             String didYouMean = "";
             if (new File(parentFile, "../" + includeName).exists()) {
@@ -455,7 +460,7 @@ public class PipelineScriptParser {
 
             if (aeName.endsWith(".class"))
                 aeName = aeName.substring(0, aeName.length() - 6);
-            
+
             // instantiate class
             Class<? extends AnalysisComponent> classz = null;
             // first prefix is for exact match, then 1st fallback is the generic
