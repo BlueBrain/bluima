@@ -125,8 +125,8 @@ object MeshCorrelation extends App {
     println("Read " + id_cnt + " PubMed ids. Found " + distinctMeshs + " distinct meshs ")
 
     val out = new PrintStream(meshIndicesOut)
-    meshToIndex.toList.sort((a, b) => a._2 < b._2)
-      .foreach(p => out.println(p._1))
+// TODO broken ren   meshToIndex.toList.sort((a, b) => a._2 < b._2)
+//      .foreach(p => out.println(p._1))
 
     Map(map.toList: _*)
   }
