@@ -9,13 +9,12 @@ class DCAInference(dcaDirectoryPath: String, dcaStem: String, averaged: Boolean 
   private val corpusSize = if (trainingCorpusSize <= 0) DCAFiles.estimateTrainingCorpusSize(dcaDirectoryPath, dcaStem)
   else trainingCorpusSize
 
-  private val counts = DCAFiles.getTermTopicCountsMatrix(dcaDirectoryPath, dcaStem, corpusSize, averaged)
-  private val wordProbs = DCAFiles.getTermTopicProbabilityMatrix(dcaDirectoryPath, dcaStem, averaged)
+  private val wordProbs:Array[Array[Double]] = null // FIXMEren DCAFiles.getTermTopicProbabilityMatrix(dcaDirectoryPath, dcaStem, averaged)
   private val alpha = DCAFiles.getAlpha(dcaDirectoryPath, dcaStem)
   private val beta = DCAFiles.getThetaPrior(dcaDirectoryPath, dcaStem)
   private val dict = DCAFiles.getTokenDict(dcaDirectoryPath, dcaStem)
 
-  private val minferencer = new MalletBasedInferencer(counts, alpha, beta: Double, dict)
+  private val minferencer = new MalletBasedInferencer(DCAFiles.getTermTopicCountsMatrix(dcaDirectoryPath, dcaStem, corpusSize, averaged), alpha, beta: Double, dict)
 
   /**
    * Estimates the topic probability distribution for a document.

@@ -1,11 +1,12 @@
 package ch.epfl.bbp.uima.topicmodels.inferencer
 import cc.mallet.topics.TopicInferencer
 import ch.epfl.bbp.uima.topicmodels.mallet.MalletUtils
+import ch.epfl.bbp.uima.ae.GarbageCollectorAnnotator
 
 /**
  * Wrapper for Mallet's TopicInferencer.
  */
-class MalletBasedInferencer(counts: Array[Array[Int]], alpha: Array[Double], beta: Double, dict: Map[String, Int]) {
+class MalletBasedInferencer(var counts: Array[Array[Int]], alpha: Array[Double], beta: Double, dict: Map[String, Int]) {
 
    val alphabet = MalletUtils.getAlphabet(dict,  Nil)
    val inferencer = new TopicInferencer(MalletUtils.getTypeTopicCounts(counts),
@@ -14,6 +15,9 @@ class MalletBasedInferencer(counts: Array[Array[Int]], alpha: Array[Double], bet
       alpha,
       beta,
       beta * alphabet.size)
+   
+   counts = null // frees memory
+   GarbageCollectorAnnotator.runGC
    
   def inference(doc: List[String], totalCycles: Int, burnin: Int): Array[Double] = {
      
@@ -26,6 +30,11 @@ class MalletBasedInferencer(counts: Array[Array[Int]], alpha: Array[Double], bet
 //      beta,
 //      beta * alphabet.size)
 
-    inferencer.getSampledDistribution(MalletUtils.createInstance(doc, alphabet, dict), totalCycles, 10, burnin)
+     /**iter, burnin, thin: 
+      * These parameters control how many Gibbs sampling draws are made. 
+      * The first burnin iterations are discarded and then every thin iteration 
+      * is returned for iter iterations.*/
+    inferencer.getSampledDistribution(MalletUtils.createInstance(doc, alphabet, dict), totalCycles, 100, burnin)
+    // FIXME thin is hardcoded!
   }
 }

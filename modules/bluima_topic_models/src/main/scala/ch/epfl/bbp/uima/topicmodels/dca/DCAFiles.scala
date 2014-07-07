@@ -135,7 +135,14 @@ object DCAFiles {
    * Converts p(w,z) matrix to a counts matrix where all the entries sum up to corpusSize
    */
   private def theta2Counts(theta: Array[Array[Double]], topic_dist: Array[Double], corpusSize: Int): Array[Array[Int]] = {
-    val coocurrenceMatrix = theta.map(l => l.zip(topic_dist).map(p => (p._1 * p._2)))
+
+    // inplace multiplication
+    for (l <- 0 to theta.length-1) {
+      for (t <- 0 to topic_dist.length-1) {
+        theta(l)(t) *= topic_dist(t)
+      }
+    }
+    val coocurrenceMatrix = theta//.map(l => l.zip(topic_dist).map(p => (p._1 * p._2)))
     MalletUtils.convertProbabilityMatrixToCountsMatrix(coocurrenceMatrix, corpusSize)
   }
 }

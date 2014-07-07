@@ -67,7 +67,6 @@ object MalletUtils {
 
     val cnt = counts.map(row => row.zipWithIndex.sortWith((a, b) => if (a._1 != b._1) a._1 > b._1 else a._2 > b._2) // sort in descending order
       .map(p => occurrencesToMask(p))) // convert to Mallets special format
-
     cnt
   }
 
@@ -82,7 +81,16 @@ object MalletUtils {
 
   def topicBits(nrTopics: Int) = Integer.bitCount(topicMask(nrTopics))
 
-  def tokensPerTopic(counts: Array[Array[Int]]): Array[Int] = counts.transpose.map(_.sum)
+  def tokensPerTopic(counts: Array[Array[Int]]): Array[Int] = {
+    val tokensCnt = new Array[Int](counts(1).length)
+    for (l <- 0 to counts.length - 1) {
+      for (t <- 0 to tokensCnt.length - 1) {
+        tokensCnt(t) += counts(l)(t)
+      }
+    }
+    return tokensCnt
+  }
+  //  def tokensPerTopic(counts: Array[Array[Int]]): Array[Int] = counts.transpose.map(_.sum)
 
   /**
    * Transforms a co-occurence matrix of terms and topics into counts, such that the entries in the matrix
