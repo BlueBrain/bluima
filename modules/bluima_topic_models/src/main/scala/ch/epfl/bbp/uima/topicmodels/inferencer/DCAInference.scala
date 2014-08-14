@@ -14,7 +14,7 @@ class DCAInference(dcaDirectoryPath: String, dcaStem: String, averaged: Boolean 
   private val beta = DCAFiles.getThetaPrior(dcaDirectoryPath, dcaStem)
   private val dict = DCAFiles.getTokenDict(dcaDirectoryPath, dcaStem)
 
-  private val minferencer = new MalletBasedInferencer(DCAFiles.getTermTopicCountsMatrix(dcaDirectoryPath, dcaStem, corpusSize, averaged), alpha, beta: Double, dict)
+  private val minferencer = new MalletBasedInferencer(DCAFiles.getTermTopicCountsMatrix(dcaDirectoryPath, dcaStem, corpusSize, averaged, dict.size), alpha, beta: Double, dict)
 
   /**
    * Estimates the topic probability distribution for a document.

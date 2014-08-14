@@ -50,13 +50,19 @@ object DCAFiles {
    *
    * If averaged is true, read matrix generated with the -A option ([stem].meantheta]). If it doesnt exist, fall back to [stem].theta
    */
-  def getTermTopicProbabilityMatrix(dirPath: String, stem: String, averaged: Boolean): Array[Array[Double]] = {
+  def getTermTopicProbabilityMatrix(dirPath: String, stem: String, averaged: Boolean, vocabSize: Int): Array[Array[Float]] = {
     val ending = getAppropriateEnding(dirPath, stem, averaged)
 
     val src = prepareFile(dirPath, stem, ending)
-    val m = src.getLines()
-      .map(l => l.split(' ').map(_.toDouble))
-    m.toArray.map(_.toArray)
+
+    //OutOfMemory src.getLines().map(l => l.split(' ').map(_.toDouble)).toArray
+    val ret = new Array[Array[Float]](vocabSize)
+    src.getLines.zipWithIndex.foreach {
+      case (line, i) =>
+        ret(i) = line.split(' ').map(_.toFloat)
+    }
+    ret
+    
   }
 
   /**
@@ -67,8 +73,8 @@ object DCAFiles {
    *
    * This function needs p(z) for the corpus. To get this, the command in the DCAFiles.topicCommand variable has to be executed
    */
-  def getTermTopicCountsMatrix(dirPath: String, stem: String, trainingCorpusSize: Int, averaged: Boolean): Array[Array[Int]] = {
-    val thetaArr = getTermTopicProbabilityMatrix(dirPath, stem, averaged)
+  def getTermTopicCountsMatrix(dirPath: String, stem: String, trainingCorpusSize: Int, averaged: Boolean, vocabSize:Int): Array[Array[Int]] = {
+    val thetaArr = getTermTopicProbabilityMatrix(dirPath, stem, averaged, vocabSize)
     theta2Counts(thetaArr, getTopicCounts(dirPath, stem, getAppropriateEnding(dirPath, stem, averaged)), trainingCorpusSize)
   }
 
@@ -95,7 +101,7 @@ object DCAFiles {
   }
 
   /**
-   * Gets the p(z) of the training corpus. This is read from some ".topics" file, which has to be generated beforehand
+   * Gets the p(z) of the training corpus. This is read from the "STEM.topics" file, which has to be generated beforehand
    * by the command in DCAFiles.topicCommand
    */
   private def getTopicCounts(dirPath: String, stem: String, matrixEnding: String): Array[Double] = {
@@ -134,15 +140,15 @@ object DCAFiles {
   /**
    * Converts p(w,z) matrix to a counts matrix where all the entries sum up to corpusSize
    */
-  private def theta2Counts(theta: Array[Array[Double]], topic_dist: Array[Double], corpusSize: Int): Array[Array[Int]] = {
+  private def theta2Counts(theta: Array[Array[Float]], topic_dist: Array[Double], corpusSize: Int): Array[Array[Int]] = {
 
     // inplace multiplication
-    for (l <- 0 to theta.length-1) {
-      for (t <- 0 to topic_dist.length-1) {
-        theta(l)(t) *= topic_dist(t)
+    for (l <- 0 to theta.length - 1) {
+      for (t <- 0 to topic_dist.length - 1) {
+        theta(l)(t) *= topic_dist(t).toFloat
       }
     }
-    val coocurrenceMatrix = theta//.map(l => l.zip(topic_dist).map(p => (p._1 * p._2)))
+    val coocurrenceMatrix = theta //.map(l => l.zip(topic_dist).map(p => (p._1 * p._2)))
     MalletUtils.convertProbabilityMatrixToCountsMatrix(coocurrenceMatrix, corpusSize)
   }
 }

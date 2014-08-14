@@ -98,7 +98,7 @@ object MalletUtils {
    *
    * With large matrices and a relatively small corpus size, the relative error might be large.
    */
-  def convertProbabilityMatrixToCountsMatrix(m: Array[Array[Double]], corpusSize: Int): Array[Array[Int]] = {
+  def convertProbabilityMatrixToCountsMatrix(m: Array[Array[Float]], corpusSize: Int): Array[Array[Int]] = {
     val msum = m.map(_.sum).sum
     val factor = corpusSize / msum
     val res = m.map(_.map(x => (x * factor).round.toInt))
