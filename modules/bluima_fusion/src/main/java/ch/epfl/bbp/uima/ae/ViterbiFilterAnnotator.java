@@ -19,6 +19,7 @@ import org.slf4j.LoggerFactory;
 import ch.epfl.bbp.uima.BlueCasUtil;
 import ch.epfl.bbp.uima.ae.Viterbi.Transition;
 import ch.epfl.bbp.uima.types.Keep;
+import ch.epfl.bbp.uima.typesystem.To;
 import ch.epfl.bbp.uima.typesystem.TypeSystemSemantics;
 import de.julielab.jules.types.Sentence;
 import de.julielab.jules.types.Token;
@@ -42,14 +43,19 @@ public class ViterbiFilterAnnotator extends JCasAnnotator_ImplBase {
     description = "Whether to remove annotations that are not on the shortest path")
     private boolean removeOtherAnnotations;
 
+    public static final String REMOVE_OVERLAPPING_ANNOTATIONS = "removeOverlappingAnnotations";
+    @ConfigurationParameter(name = REMOVE_OVERLAPPING_ANNOTATIONS, defaultValue = "true",//
+    description = "Whether to remove annotations that are not on the shortest path")
+    private boolean removeOverlappingAnnotations;
+
     public void process(JCas jCas) throws AnalysisEngineProcessException {
         if (BlueCasUtil.isEmptyText(jCas))
             return;
 
         for (Sentence s : select(jCas, Sentence.class)) {
 
-            // LOG.trace("sentence::: " + s.getCoveredText() + " {}-{}",
-            // s.getBegin(), s.getEnd());
+            LOG.trace("sentence::: " + s.getCoveredText() + " {}-{}",
+                    s.getBegin(), s.getEnd());
 
             List<Annotation> sentenceAnnotations = BlueCasUtil.selectCovered(
                     jCas.getCas(), s);
@@ -70,35 +76,45 @@ public class ViterbiFilterAnnotator extends JCasAnnotator_ImplBase {
             // /ts.foreach(t => ///dbg("* " + (t)))
             // /}
 
-            // keep the "best" annotation if multiple are on the same
+            // keep the "best" annotation if multiple overlap and are on the
+            // same
             // shortest-path node
             List<Annotation> prunedKeep = newArrayList();
-            for (List<Transition> ts : shortestPath) {
-                Transition bestT = null;
-                for (Transition t : ts) {
-                    if (bestT == null)
-                        bestT = t;
-                    else
-                        bestT = compare(bestT, t);
+            if (removeOverlappingAnnotations) {
+                for (List<Transition> ts : shortestPath) {
+                    Transition bestT = null;
+                    for (Transition t : ts) {
+                        if (bestT == null)
+                            bestT = t;
+                        else
+                            bestT = compare(bestT, t);
+                    }
+                    if (bestT.annot != null)
+                        prunedKeep.add(bestT.annot);
                 }
-                if (bestT.annot != null)
-                    prunedKeep.add(bestT.annot);
+            } else {
+                // keep all overlapping annotations
+                for (List<Transition> ts : shortestPath)
+                    for (Transition t : ts)
+                        if (t.annot != null)
+                            prunedKeep.add(t.annot);
             }
+            // index to speed up
             Set<Integer> prunedKeepIndex = new HashSet<Integer>();
             for (Annotation a : prunedKeep) {
                 prunedKeepIndex.add(a.getAddress());
             }
 
-            // LOG.debug("\nprunedShortestPath:::");
-            // for (Annotation a : prunedKeep) {
-            // // LOG.debug(a.getCoveredText() + " [["
-            // // + a.getClass().getSimpleName());
-            // LOG.debug(To.string(a));
-            // }
+            LOG.trace("\nprunedShortestPath:::");
+            for (Annotation a : prunedKeep) {
+                // LOG.debug(a.getCoveredText() + " [["
+                // + a.getClass().getSimpleName());
+                LOG.trace(To.string(a));
+            }
 
             // only Keep annotations on shortest path
             for (Annotation a : sentenceAnnotations) {
-                // LOG.debug("maybe [[" + To.string(a) + "]]");
+                LOG.trace("maybe [[" + To.string(a) + "]]");
 
                 if (prunedKeepIndex.contains(a.getAddress())) {
                     Keep keep = new Keep(jCas, a.getBegin(), a.getEnd());
