@@ -12,6 +12,7 @@ import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.fit.descriptor.TypeCapability;
 import org.apache.uima.fit.util.JCasUtil;
 
+import ch.epfl.bbp.uima.BlueCasUtil;
 import ch.epfl.bbp.uima.types.Measure;
 
 /**
@@ -25,25 +26,41 @@ import ch.epfl.bbp.uima.types.Measure;
 @TypeCapability(outputs = { MEASURE }, inputs = { MEASURE })
 public class PruneMeasuresAnnotator extends JCasAnnotator_ImplBase {
 
-	@Override
-	public void process(JCas jcas) throws AnalysisEngineProcessException {
+    @Override
+    public void process(JCas jcas) throws AnalysisEngineProcessException {
 
-		List<Measure> measures = new ArrayList<Measure>(select(jcas,
-				Measure.class));
+        List<Measure> measures = new ArrayList<Measure>(select(jcas,
+                Measure.class));
 
-		for (int i = 0; i < measures.size(); i++) {
+        for (int i = 0; i < measures.size(); i++) {
 
-			Measure outer = measures.get(i);
-			//System.out.println("outer : " + outer.getCoveredText());
+            Measure outer = measures.get(i);
+            // System.out.println("outer : " + outer.getCoveredText());
 
-			List<Measure> toPrunes = JCasUtil.selectCovered(Measure.class,
-					outer);
+            List<Measure> toPrunes = JCasUtil.selectCovered(Measure.class,
+                    outer);
 
-			if (toPrunes.size() > 0) {
-				for (Measure toPrune : toPrunes) {
-					toPrune.removeFromIndexes(jcas);
-				}
-			}
-		}
-	}
+            if (toPrunes.size() > 0) {
+                for (Measure toPrune : toPrunes) {
+                    toPrune.removeFromIndexes(jcas);
+                }
+            }
+        }
+
+        /*- NOT DONE...
+        List<Measure> ms = new ArrayList<Measure>(select(jcas, Measure.class));
+        for (int i = 0; i < ms.size(); i++) {
+            Measure m = ms.get(i);
+            for (int j = i; j < ms.size(); j++) {
+
+                if (BlueCasUtil.haveSameBeginEnd(ms.get(j), m)) {
+
+                } else if (BlueCasUtil.isContained(ms.get(j), m)) {
+
+                }
+
+            }
+
+        }*/
+    }
 }

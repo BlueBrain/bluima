@@ -20,6 +20,7 @@
     <variable name="approximation" value="(?:~|[Aa]pprox(?:imately|\.))" />
     <variable name="plus_minus" value="(?:±|\+/-)" />
     <variable name="math_operator" value="(?:=|&lt;=|&lt;|&gt;|&gt;=|!=)" />
+    <variable name="date_separator" value="(?:(?:⊂⊃)*|-|–|/|\\)?" />
 
     <!-- NUMBERS -->
 
@@ -89,6 +90,14 @@
     <variable name="unit_ratio"
       value="(?:(?:(?:\v{unit})?\v{separator_opt}\v{ratio_separator}\v{separator_opt})?\v{unit})" />
 
+    <!-- DATES -->
+    <variable name="year" value="(20|1[6789])\d\d" />
+    <variable name="month"
+      value="(?:[Jj]anuary|[Ff]ebruary|[Mm]arch|[Aa]pril|[Mm]ay|[Jj]une|[Jj]uly|[Aa]ugust|[Ss]eptember|[Oo]ctober|[Nn]ovember|[Dd]ecember)" />
+    <!-- watchout: may -->
+    <variable name="month_short"
+      value="(?:[Jj]an|[Ff]eb|[Mm]ar|[Aa]pr|[Mm]ay|[Jj]un|[Jj]ul|[Aa]ug|[Ss]ep|[Oo]ct|[Nn]ov|[Dd]ec)" />
+    <variable name="month_numeric" value="(?:[1-9]|1[0-2])" />
   </variables>
 
 
@@ -174,7 +183,7 @@
   <!-- Theses are "deduped" by PruneMeasuresAnnotator.java -->
   <concept name="numberDetection" processAllRules="true">
     <rules>
-      <rule regEx="\v{start_separator}(\v{number})\v{end_separator}"
+      <rule regEx="\v{start_separator}(\v{number}\p{Punct}*)\v{end_separator}"
         matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
         confidence="1.0" />
     </rules>
@@ -187,6 +196,26 @@
         <setFeature name="value" type="Float" normalization="Custom"
           class="ch.epfl.bbp.uima.units.normalizers.NumberNormalizer">$1</setFeature>
         <setFeature name="unit" type="String"></setFeature><!-- empty -->
+      </annotation>
+    </createAnnotations>
+  </concept>
+  
+  <!-- FRACTION example: "1/2" "0.2/1000" -->
+  <concept name="fraction" processAllRules="true">
+    <rules>
+      <rule regEx="\v{start_separator}(\v{number}/\v{number})\v{end_separator}"
+        matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+        confidence="1.0" />
+    </rules>
+    <createAnnotations>
+      <annotation type="ch.epfl.bbp.uima.types.Measure">
+        <begin group="1" />
+        <end group="1" />
+        <setFeature name="textValue" type="String"
+          normalization="Custom" class="ch.epfl.bbp.uima.ae.SeparatorRemover">$1</setFeature>
+        <setFeature name="value" type="Float" normalization="Custom"
+          class="ch.epfl.bbp.uima.units.normalizers.FractionNormalizer">$1</setFeature>
+        <setFeature name="unit" type="String"></setFeature>
       </annotation>
     </createAnnotations>
   </concept>
@@ -285,6 +314,52 @@
         <setFeature name="unit" type="String">pH</setFeature>
         <setFeature name="value" type="Float" normalization="Custom"
           class="ch.epfl.bbp.uima.units.normalizers.NumberNormalizer">$3</setFeature>
+      </annotation>
+    </createAnnotations>
+  </concept>
+
+  <!-- Dates -->
+  <concept name="dates" processAllRules="true">
+    <rules>
+      <rule ruleId="1992-june"
+        regEx="\v{start_separator}(\v{year}\v{date_separator}\v{month})"
+        matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+        confidence="1.0" />
+      <rule ruleId="mid-1990s" regEx="\v{start_separator}(mid-\v{year}s?)"
+        matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+        confidence="1.0" />
+      <rule ruleId="1998a"
+        regEx="\v{start_separator}(\v{year}[a-f])\v{end_separator}"
+        matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+        confidence="1.0" />
+      <rule ruleId="1997/1998"
+        regEx="\v{start_separator}(\v{year}\v{date_separator}\v{year})\v{end_separator}"
+        matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+        confidence="1.0" />
+      <rule ruleId="1995/6"
+        regEx="\v{start_separator}(\v{year}\v{date_separator}\v{month_numeric})\v{end_separator}"
+        matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+        confidence="1.0" />
+      <rule ruleId="may-June"
+        regEx="\v{start_separator}(\v{month}\v{date_separator}\v{month})\v{end_separator}"
+        matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+        confidence="1.0" />
+      <rule ruleId="mid-june"
+        regEx="\v{start_separator}(mid\v{date_separator}\v{month})\v{end_separator}"
+        matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+        confidence="1.0" />
+      <rule ruleId="june 2004"
+        regEx="\v{start_separator}(\v{month}\v{date_separator}\v{year})\v{end_separator}"
+        matchStrategy="matchAll" matchType="uima.tcas.DocumentAnnotation"
+        confidence="1.0" />
+    </rules>
+    <createAnnotations>
+      <annotation type="ch.epfl.bbp.uima.types.Measure">
+        <begin group="1" />
+        <end group="1" />
+        <setFeature name="textValue" type="String"
+          normalization="Custom" class="ch.epfl.bbp.uima.ae.SeparatorRemover">$1</setFeature>
+        <setFeature name="unit" type="String">Date</setFeature>
       </annotation>
     </createAnnotations>
   </concept>

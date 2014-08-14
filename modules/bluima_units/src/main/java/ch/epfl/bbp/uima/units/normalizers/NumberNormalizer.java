@@ -11,65 +11,65 @@ import java.util.regex.Pattern;
  * 
  */
 public class NumberNormalizer implements
-		org.apache.uima.annotator.regex.extension.Normalization {
+        org.apache.uima.annotator.regex.extension.Normalization {
 
-	private WrittenNumbersNormalizer writtenNumbersNormalizer;
+    private WrittenNumbersNormalizer writtenNumbersNormalizer;
+    public static final DecimalFormat FORMATTER = new DecimalFormat(
+            "#.##############################");
 
-	public NumberNormalizer() {
-		this.writtenNumbersNormalizer = new WrittenNumbersNormalizer();
-	}
+    public NumberNormalizer() {
+        this.writtenNumbersNormalizer = new WrittenNumbersNormalizer();
+    }
 
-	public String normalize(String input, String ruleId) {
-		try {
-			return normalizeExponents(writtenNumbersNormalizer.normalize(
-					normalizeComma(input), ruleId));
-		} catch (Exception e) {
-			System.err.println(e);
-		}
-		return input;
-	}
+    public String normalize(String input, String ruleId) {
+        try {
+            return normalizeExponents(writtenNumbersNormalizer.normalize(
+                    normalizeComma(input), ruleId));
+        } catch (Exception e) {
+            System.err.println(e);
+        }
+        return input;
+    }
 
-	private String normalizeComma(String input) {
-		return input.replaceAll(",", "\\.");
-	}
+    private String normalizeComma(String input) {
+        return input.replaceAll(",", "\\.");
+    }
 
-	private static final Pattern eExp = Pattern
-			.compile("(.*?)[eE]([+-])?(\\d+)");
-	private static final Pattern xExp = Pattern
-			.compile("(.*?)[xX] ?10 ?\\(([+-])?(\\d+)(?:⊂⊃)?\\)");
+    private static final Pattern eExp = Pattern
+            .compile("(.*?)[eE]([+-])?(\\d+)");
+    private static final Pattern xExp = Pattern
+            .compile("(.*?)[xX] ?10 ?\\(([+-])?(\\d+)(?:⊂⊃)?\\)");
 
-	/**
-	 * normalizes numbers with exponents, like 5E-5 or 5x10(-5)
-	 */
-	public static String normalizeExponents(String input) {
-		Matcher m = eExp.matcher(input);
-		if (m.find()) {
+    /**
+     * normalizes numbers with exponents, like 5E-5 or 5x10(-5)
+     */
+    public static String normalizeExponents(String input) {
+        Matcher m = eExp.matcher(input);
+        if (m.find()) {
 
-			Float number = Float.parseFloat(m.group(1));
-			int exp = Integer.parseInt(m.group(3));
-			boolean negative = m.group(2) != null && m.group(2).equals("-");
-			if (negative)
-				exp *= -1;
+            Float number = Float.parseFloat(m.group(1));
+            int exp = Integer.parseInt(m.group(3));
+            boolean negative = m.group(2) != null && m.group(2).equals("-");
+            if (negative)
+                exp *= -1;
 
-			return new DecimalFormat("#.##############################")
-					.format(number * Math.pow(10, exp));
-		}
+            return FORMATTER.format(number * Math.pow(10, exp));
+        }
 
-		// TODO refactor into 1
-		m = xExp.matcher(input);
-		if (m.find()) {
+        // TODO refactor into 1
+        m = xExp.matcher(input);
+        if (m.find()) {
 
-			Float number = Float.parseFloat(m.group(1));
-			int exp = Integer.parseInt(m.group(3));
-			boolean negative = m.group(2) != null && m.group(2).equals("-");
-			if (negative)
-				exp *= -1;
+            Float number = Float.parseFloat(m.group(1));
+            int exp = Integer.parseInt(m.group(3));
+            boolean negative = m.group(2) != null && m.group(2).equals("-");
+            if (negative)
+                exp *= -1;
 
-			String s = new DecimalFormat("#.##############################")
-					.format(number * Math.pow(10, exp));
-			return s;
-		}
+            String s = FORMATTER.format(number * Math.pow(10, exp));
+            return s;
+        }
 
-		return input;
-	}
+        return input;
+    }
 }

@@ -181,9 +181,9 @@
   </result>
   <result>
     <description>Should only find a number</description>
-    <input>113 masdf</input>
-    <output id="textValue">113</output>
-    <output id="value">113</output>
+    <input>-113 masdf</input>
+    <output id="textValue">-113</output>
+    <output id="value">-113</output>
     <output id="unit"></output>
   </result>
   <result>
@@ -192,6 +192,24 @@
     <output id="value">18</output>
     <output id="unit"></output>
   </result>
+  <result>
+    <input>2004)</input>
+    <output id="textValue">2004</output>
+    <output id="unit"></output>
+  </result>
+  <result>
+    <input>1/2</input>
+    <output id="textValue">1/2</output>
+    <output id="unit"></output>
+    <output id="value">0.5</output>
+  </result>
+  <result>
+    <input>1.0/2</input>
+    <output id="textValue">1.0/2</output>
+    <output id="unit"></output>
+    <output id="value">0.5</output>
+  </result>
+
 
 
   <!-- WRITTEN NUMBERS -->
@@ -316,5 +334,53 @@
     </result> <result> <input>pH was 3.3</input> <output id="textValue">pH was 
     3.3</output> <output id="value">3.3</output> <output id="unit">pH</output> 
     </result> -->
+
+  <!-- DATE -->
+  <result>
+    <input>1992-june</input>
+    <output id="textValue">1992-june</output>
+    <output id="unit">Date</output>
+  </result>
+  <result>
+    <input>mid-1990s</input>
+    <output id="textValue">mid-1990s</output>
+    <output id="unit">Date</output>
+  </result>
+  <result>
+    <input>1998a</input>
+    <output id="textValue">1998a</output>
+    <output id="unit">Date</output>
+  </result>
+  <result>
+    <input>1997/1998</input>
+    <output id="textValue">1997/1998</output>
+        <output id="unit"></output><!-- TODO should be date -->
+  </result>
+  <result>
+    <input>1995/6</input>
+    <output id="textValue">1995/6</output>
+    <output id="unit"></output><!-- TODO should be date -->
+  </result>
+  <result>
+    <input>may-June</input>
+    <output id="textValue">may-June</output>
+    <output id="unit">Date</output>
+  </result>
+  <result>
+    <input>may/june</input>
+    <output id="textValue">may/june</output>
+    <output id="unit">Date</output>
+  </result>
+  <result>
+    <input>mid-june</input>
+    <output id="textValue">mid-june</output>
+    <output id="unit">Date</output>
+  </result>
+  <result>
+    <input>june 2004</input>
+    <output id="textValue">june 2004</output>
+    <output id="unit">Date</output>
+  </result>
+  <!-- june June-july 95-june 31-june -->
 
 </unitTests>
