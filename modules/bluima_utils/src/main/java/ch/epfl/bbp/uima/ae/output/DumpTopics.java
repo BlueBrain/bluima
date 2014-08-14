@@ -19,7 +19,7 @@ import ch.epfl.bbp.uima.types.TopicDistribution;
  */
 public class DumpTopics extends JCasAnnotator_ImplBase {
 
-    final static NumberFormat nf = new DecimalFormat("0.###");
+    final static NumberFormat nf = new DecimalFormat("0.#####");
 
     @Override
     public void process(JCas jCas) throws AnalysisEngineProcessException {

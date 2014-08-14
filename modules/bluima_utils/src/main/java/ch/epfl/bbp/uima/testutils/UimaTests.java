@@ -50,6 +50,7 @@ public class UimaTests {
 	public static JCas getTestCas(String text) throws UIMAException {
 		JCas jCas = JCasFactory.createJCas(TypeSystem.JULIE_TSD);
 		jCas.setDocumentText(text);
+		jCas.setDocumentLanguage("en");
 		return jCas;
 	}
 

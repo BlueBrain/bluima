@@ -1,0 +1,31 @@
+# using new KeepsCleaner and improved measures
+
+cr: ch.epfl.bbp.uima.cr.OneDocPerLineReader2
+ inputFile: /Volumes/HDD2/ren_data/data_hdd/__mycorpora/1m_ns/1m_ns.abstracts.tsv
+# a sample of 9k abstracts
+# inputFile: /Volumes/HDD2/ren_data/data_hdd/__mycorpora/1m_ns/1m_ns.abstracts_sample.tsv
+
+#cr: TextArrayReader
+# input__java: new String[]{"Homer1a is 14 but I don't know about 14. However, on January 2003 I was away."};
+
+
+
+include: 20140512PreprocessingEntireCycle.include
+# NEW:final cleanup
+ae: ch.epfl.bbp.uima.filter.KeepsCleaner
+
+
+# Writing
+ae: ch.epfl.bbp.uima.filter.FrequencyFilterWriter
+ outputFile:           target/1m_ns_mw.vocab.raw
+ae: ch.epfl.bbp.uima.ae.output.LdaCWriter
+ dcaFormat__java: true
+ outputFile:           target/1m_ns_mw.dca_corpus
+ vocabularyOutputFile: target/1m_ns_mw.dca_corpus.vocab
+ idsOutputFile:        target/1m_ns_mw.pmids
+
+ae: ch.epfl.bbp.uima.filter.KeepsWriter
+ outputFile: target/1m_ns_mw.w2vec-corpus.txt
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

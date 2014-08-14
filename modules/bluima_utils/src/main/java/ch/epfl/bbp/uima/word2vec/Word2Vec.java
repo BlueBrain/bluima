@@ -19,10 +19,10 @@ import java.util.TreeSet;
 
 public class Word2Vec {
 
-    private HashMap<String, float[]> wordMap = new HashMap<String, float[]>();
+    private HashMap<String, float[]> vocabulary = new HashMap<String, float[]>();
 
-    private int words;
-    private int size;
+    private int vocabSize;
+    private int vectorSize;
     private int topNSize = 40;
 
     public Word2Vec loadModel(String path) throws IOException {
@@ -34,16 +34,16 @@ public class Word2Vec {
         try {
             bis = new BufferedInputStream(new FileInputStream(path));
             dis = new DataInputStream(bis);
-            words = parseInt(readString(dis));
-            size = parseInt(readString(dis));
+            vocabSize = parseInt(readString(dis));
+            vectorSize = parseInt(readString(dis));
 
             String word;
             float[] vectors = null;
-            for (int i = 0; i < words; i++) {
+            for (int i = 0; i < vocabSize; i++) {
                 word = readString(dis);
-                vectors = new float[size];
+                vectors = new float[vectorSize];
                 len = 0;
-                for (int j = 0; j < size; j++) {
+                for (int j = 0; j < vectorSize; j++) {
                     vector = readFloat(dis);
                     len += vector * vector;
                     vectors[j] = (float) vector;
@@ -53,7 +53,7 @@ public class Word2Vec {
                 for (int j = 0; j < vectors.length; j++) {
                     vectors[j] = (float) (vectors[j] / len);
                 }
-                wordMap.put(word, vectors);
+                vocabulary.put(word, vectors);
                 dis.read();
             }
 
@@ -71,7 +71,7 @@ public class Word2Vec {
         if (wordVector == null) {
             return null;
         }
-        Set<Entry<String, float[]>> entrySet = wordMap.entrySet();
+        Set<Entry<String, float[]>> entrySet = vocabulary.entrySet();
         float[] tempVector = null;
         List<WordEntry> wordEntrys = new ArrayList<WordEntry>(topNSize);
         for (Entry<String, float[]> entry : entrySet) {
@@ -97,14 +97,14 @@ public class Word2Vec {
         if (wv1 == null || wv2 == null || wv0 == null) {
             return null;
         }
-        float[] wordVector = new float[size];
-        for (int i = 0; i < size; i++) {
+        float[] wordVector = new float[vectorSize];
+        for (int i = 0; i < vectorSize; i++) {
             wordVector[i] = wv1[i] - wv0[i] + wv2[i];
         }
         float[] tempVector;
         String name;
         List<WordEntry> wordEntrys = new ArrayList<WordEntry>(topNSize);
-        for (Entry<String, float[]> entry : wordMap.entrySet()) {
+        for (Entry<String, float[]> entry : vocabulary.entrySet()) {
             name = entry.getKey();
             if (name.equals(word0) || name.equals(word1) || name.equals(word2)) {
                 continue;
@@ -165,7 +165,7 @@ public class Word2Vec {
     }
 
     public float[] getWordVector(String word) {
-        return wordMap.get(word);
+        return vocabulary.get(word);
     }
 
     private static float readFloat(InputStream is) throws IOException {
@@ -207,15 +207,15 @@ public class Word2Vec {
     }
 
     public HashMap<String, float[]> getWordMap() {
-        return wordMap;
+        return vocabulary;
     }
 
-    public int getWords() {
-        return words;
+    public int getVocabSize() {
+        return vocabSize;
     }
 
     public int getSize() {
-        return size;
+        return vectorSize;
     }
 
     public List<Integer> getMostFrequentTopics(String word, float threshold) {

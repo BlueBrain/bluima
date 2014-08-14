@@ -34,6 +34,11 @@ public class EvaluationPreprocessorAnnotator extends JCasAnnotator_ImplBase {
     private String goldAnnotationStr;
     private Class<? extends Annotation> goldAnnotation;
 
+    public static final String DELETE_FROM = "deleteFrom";
+    @ConfigurationParameter(name = DELETE_FROM, defaultValue = "true", //
+    description = "whether to delete the 'from' annotations (default, what you want most of the times), or leave them")
+    private boolean deleteFrom;
+
     @SuppressWarnings("unchecked")
     @Override
     public void initialize(UimaContext context)
@@ -70,7 +75,9 @@ public class EvaluationPreprocessorAnnotator extends JCasAnnotator_ImplBase {
         List<Annotation> toDelete = new ArrayList<Annotation>();
         for (Annotation g : goldsFromInitialView) {
             goldView.addFsToIndexes(casCopier.copyFs(g));
-            toDelete.add(g);
+            if (deleteFrom) {
+                toDelete.add(g);
+            }
         }
         Annotation[] arr = toDelete.toArray(new Annotation[toDelete.size()]);
         for (int i = 0; i < arr.length; i++) {

@@ -61,12 +61,18 @@ public class Histogram<T> {
         return map;
     }
 
-    /** @return the number of distinct 'values' in the Histogram */
+    /**
+     * @return the number of distinct 'values' in the Histogram
+     * @see {@link #totalSize()} as well.
+     */
     public int size() {
         return map.size();
     }
 
-    /** @return the total size of the dataset */
+    /**
+     * @return the total size of the dataset
+     * @see {@link #size()} as well.
+     */
     public Long totalSize() {
         long total = 0;
         for (Long vals : map.values()) {

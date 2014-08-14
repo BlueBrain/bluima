@@ -490,6 +490,15 @@ public class BlueCasUtil {
         return Position.overlap;
     }
 
+    /**
+     * @param annot1
+     * @param annot2
+     * @return whether annot1 is contained in annot2. true if has same begin-end
+     */
+    public static boolean isContained(Annotation a1, Annotation a2) {
+        return a1.getBegin() >= a2.getBegin() && a1.getEnd() <= a2.getEnd();
+    }
+
     public static List<String> toList(StringArray tokens) {
         List<String> l = new ArrayList<String>(tokens.size());
         for (int i = 0; i < tokens.size(); i++) {

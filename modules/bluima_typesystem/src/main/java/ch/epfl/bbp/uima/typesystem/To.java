@@ -6,6 +6,7 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.tcas.Annotation;
 
+import ch.epfl.bbp.uima.types.BrainRegion;
 import ch.epfl.bbp.uima.types.CellType;
 import ch.epfl.bbp.uima.types.CellTypeProteinConcentration;
 import ch.epfl.bbp.uima.types.Concentration;
@@ -91,6 +92,9 @@ public class To {
             // ///
             // ///
 
+        } else if (o instanceof BrainRegion) {
+            BrainRegion b = (BrainRegion) o;
+            return "BrainRegion[" + b.getCoveredText() + "]";
         } else if (o instanceof Concentration) {
             Concentration c = (Concentration) o;
             return "Concentration[" + c.getCoveredText() + "]val:"

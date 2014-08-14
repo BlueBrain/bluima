@@ -15,7 +15,8 @@ import ch.epfl.bbp.uima.types.Punctuation;
 import de.julielab.jules.types.Token;
 
 /**
- * Annotates punctuation chars. Extensive matching.
+ * Annotates Tokens consisting (exclusively) of punctuation chars. Extensive
+ * (agressive) matching (see {@link PunctuationAnnotator#PUNCT})
  * 
  * @input {@link Punctuation}
  * @author renaud.richardet@epfl.ch
