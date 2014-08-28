@@ -165,5 +165,10 @@
             <description>Type defined in neuroner.NeuroNER</description>
             <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.InBetweenMissing</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
+        </typeDescription>
     </types>
 </typeSystemDescription>
