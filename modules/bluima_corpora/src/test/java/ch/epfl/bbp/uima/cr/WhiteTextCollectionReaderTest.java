@@ -22,7 +22,6 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import ch.epfl.bbp.uima.BlueCasUtil;
 import ch.epfl.bbp.uima.types.BrainRegion;
 
 public class WhiteTextCollectionReaderTest extends JCasAnnotator_ImplBase {
@@ -67,7 +66,7 @@ public class WhiteTextCollectionReaderTest extends JCasAnnotator_ImplBase {
         LOG.debug(getHeaderDocId(cas)+"\t"+cas.getDocumentText());
         
         for (BrainRegion br : JCasUtil.select(cas, BrainRegion.class)) {
-            LOG.debut(br.getCoveredText());
+            LOG.debug(br.getCoveredText());
         }
 
     }

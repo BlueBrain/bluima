@@ -33,7 +33,7 @@ span.an {padding-left: 1px; padding-right: 1px;}
 .BrainRegion{color:black;background:orange;}
 .BrainRegionDictTerm{color:black;background:orange;}
 .NifTerm{color:black;background:orange;}
-
+.Missing{border-bottom:2px solid black;}
 
 /* TODO
 157 ch.epfl.bbp.uima.types.MoleculeDictTerm

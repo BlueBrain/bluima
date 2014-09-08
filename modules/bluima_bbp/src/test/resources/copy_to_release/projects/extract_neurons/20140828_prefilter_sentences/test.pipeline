@@ -1,0 +1,8 @@
+
+#cr: TextFileReader
+# inputDirectory: /Users/richarde/dev/bluebrain/git/neuroNER/input/articles_neurelectro
+
+cr: TextArrayReader
+ input__java: new String[]{"this sentence has interneuron. This one doesn't! The 3rd one talks about glia, yay!"};
+
+include: 20140827_fliter_sentences_from_ft.include

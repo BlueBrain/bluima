@@ -1,0 +1,9 @@
+#
+#
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+
+ae: ch.epfl.bbp.uima.filter.SentenceFilterAnnotator
+ outputDir: $1
+ regex: .*(neuron|cell|glia|astrocyte|oligodendrocyte|astroglia|microglia|motor?neur).*
+# regex: \\b((inter)?neurone?s?|cells?)\\b

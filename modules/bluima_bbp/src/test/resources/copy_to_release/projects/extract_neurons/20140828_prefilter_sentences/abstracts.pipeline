@@ -1,0 +1,16 @@
+############################################
+
+# $ 1 output dir
+# $ 2 from
+# $ 3 to
+############################################
+
+cr: PubmedDatabaseCR
+ # db_connection__java: new String[]{ "localhost", "bb_pubmed", "root", "" }
+ between__java: new int[]{ $2, $3 }
+ expandAbbrevs__java: true
+
+include: 20140827_fliter_sentences_from_ft.include
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 2000

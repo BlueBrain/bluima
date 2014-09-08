@@ -1,0 +1,18 @@
+############################################
+#
+# $ 1 output dir
+# $ 2 batch id
+############################################
+
+cr: FromFilelistReader
+ # 250 pdfs each
+ inputFile: /nfs4/bbp.epfl.ch/scratch/richarde/pdfs/splits2/$2
+ format__java: true
+ pathPrefix: /nfs4/bbp.epfl.ch/scratch/richarde/pdfs/
+ae: ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator
+ expandAbbrevs__java: true
+
+include: 20140827_fliter_sentences_from_ft.include
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

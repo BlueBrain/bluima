@@ -1,0 +1,12 @@
+############################################
+#
+# $ 1 batch id
+# $ 2 bams|aba
+# $ 3 output dir
+############################################
+
+
+cr: ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader
+ inputDirectory: $ROOT/modules/bluima_bbp/src/test/resources/ruta_fails/
+
+include: 20140827_fliter_sentences_from_ft.include
