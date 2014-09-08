@@ -69,7 +69,7 @@ public class PubmedDatabaseCR extends JCasCollectionReader_ImplBase {
     }
 
     public static Database getDb(String[] db_connection_) throws SQLException {
-        LOG.debug("connect to {} with user {}", db_connection_[0],
+        LOG.debug("connecting to {} with user {}", db_connection_[0],
                 db_connection_[2]);
         return new Database(db_connection_[0], db_connection_[1],
                 db_connection_[2], db_connection_[3]);
