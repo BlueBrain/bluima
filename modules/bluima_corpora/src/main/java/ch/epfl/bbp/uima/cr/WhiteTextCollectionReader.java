@@ -121,11 +121,14 @@ public class WhiteTextCollectionReader extends JCasCollectionReader_ImplBase {
 
                 i += text.length();
                 sb.append(text);
+                //System.err.print("[" + text + "]");
 
             } else if (child instanceof Text) {
                 Text text = (Text) child;
                 i += text.getText().length();
                 sb.append(text.getText());
+                //System.err.print("[" + text.getText() + "]");
+
             } else {
                 throw new RuntimeException("no match wit Element " + child);
             }

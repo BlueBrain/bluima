@@ -1,6 +1,7 @@
 package ch.epfl.bbp.uima;
 
 import static ch.epfl.bbp.uima.BlueUima.PARAM_ANNOTATION_CLASSES;
+import static ch.epfl.bbp.uima.testutils.UimaTests.getTestCas;
 import static ch.epfl.bbp.uima.testutils.UimaTests.getTokenizedTestCas;
 import static com.google.common.collect.Lists.newArrayList;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
@@ -8,6 +9,7 @@ import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
 import static org.apache.uima.fit.util.JCasUtil.exists;
 import static org.apache.uima.fit.util.JCasUtil.select;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 import static org.slf4j.LoggerFactory.getLogger;
 
@@ -20,9 +22,12 @@ import org.junit.Test;
 import org.slf4j.Logger;
 
 import ch.epfl.bbp.uima.ae.DeduplicatorAnnotator;
+import ch.epfl.bbp.uima.ae.NaiveSentenceSplitterAnnotator;
+import ch.epfl.bbp.uima.ae.RegexTokenizerAnnotator;
 import ch.epfl.bbp.uima.types.AgeDictTerm;
 import ch.epfl.bbp.uima.types.BrainRegionDictTerm;
 import ch.epfl.bbp.uima.types.DictTerm;
+import ch.epfl.bbp.uima.types.DiseaseDictTerm;
 import ch.epfl.bbp.uima.types.IonchannelDictTerm;
 import ch.epfl.bbp.uima.types.NavchannelDictTerm;
 import ch.epfl.bbp.uima.types.NeuronDictTerm;
@@ -65,6 +70,46 @@ public class LexicaHelperTest {
                 "narrow pyramidal neuron projecting to thalamus");
 
         testWith("nif/nif", NifTerm.class, "IPSP", "calbindin 1");
+    }
+
+    @Test
+    public void testAlternateTokenization() throws Exception {
+
+        JcasPipelineBuilder pipeline = new JcasPipelineBuilder();
+        pipeline.add(LexicaHelper.getConceptMapper("blueonto1/disease"));
+
+        // String test = "Taybi-Linder";
+        String test = "Cayler cardiofacial syndrome";
+        JCas jCas = getTokenizedTestCas("test with " + test + " test");
+        pipeline.process(jCas);
+        assertTrue("should contain '" + test + "'",
+                exists(jCas, DiseaseDictTerm.class));
+
+        test = "Taybi";
+        jCas = getTokenizedTestCas("test with " + test + " test");
+        pipeline.process(jCas);
+        assertFalse("should NOT contain '" + test + "'",
+                exists(jCas, DiseaseDictTerm.class));
+
+        // with regex tokenization
+        pipeline = new JcasPipelineBuilder();
+        pipeline.add(createEngineDescription(NaiveSentenceSplitterAnnotator.class));
+        pipeline.add(createEngineDescription(RegexTokenizerAnnotator.class,
+                RegexTokenizerAnnotator.PARAM_TOKENIZATION_PATTERN,
+                RegexTokenizerAnnotator.patterPunctuation));
+        pipeline.add(LexicaHelper.getConceptMapper(
+                "blueonto1/disease",
+                createEngineDescription(RegexTokenizerAnnotator.class,
+                        RegexTokenizerAnnotator.PARAM_TOKENIZATION_PATTERN,
+                        RegexTokenizerAnnotator.patterPunctuation)));
+        
+        // test = "Taybi";
+        test = "Cayler cardiofacial syndrome";
+        // test = "Taybi-Linder syndrome";
+        jCas = getTestCas("test with " + test + " test");
+        pipeline.process(jCas);
+        assertTrue("should contain '" + test + "'",
+                exists(jCas, DiseaseDictTerm.class));
     }
 
     /**

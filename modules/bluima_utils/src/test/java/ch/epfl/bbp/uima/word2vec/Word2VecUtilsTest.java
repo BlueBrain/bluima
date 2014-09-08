@@ -11,7 +11,7 @@ import org.junit.Test;
 
 import ch.epfl.bbp.uima.word2vec.Word2Vec.WordEntry;
 
-//@Ignore
+@Ignore
 public class Word2VecUtilsTest {
 
     @Test

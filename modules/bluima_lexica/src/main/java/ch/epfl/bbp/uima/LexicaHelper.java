@@ -28,16 +28,15 @@ public class LexicaHelper {
     public final static String LEXICA_ROOT = BlueUima.BLUE_UIMA_ROOT
             + "modules/bluima_lexica/";
 
-    private static File tokenDescrPath = null;
+    private static File tokenDescrPath = null; // TODO should not be static
 
-    private static String getTokenDescPath() throws IOException,
-            ResourceInitializationException, SAXException {
+    private static String getTokenDescPath(AnalysisEngineDescription tokenDesc)
+            throws IOException, ResourceInitializationException, SAXException {
 
         if (tokenDescrPath != null)
             return tokenDescrPath.getAbsolutePath();
 
         tokenDescrPath = File.createTempFile("tmp", "TokenizerAnnotator.xml");
-        AnalysisEngineDescription tokenDesc = OpenNlpHelper.getTokenizer();
         tokenDesc.toXML(new FileWriter(tokenDescrPath));
         return tokenDescrPath.getAbsolutePath();
     }
@@ -72,12 +71,12 @@ public class LexicaHelper {
         List argsArray;
         if (args == null) {
             argsArray = newArrayList("TokenizerDescriptorPath",
-                    getTokenDescPath(), "Stemmer",
+                    getTokenDescPath(OpenNlpHelper.getTokenizer()), "Stemmer",
                     SCharsStemmer.class.getName());
         } else {
             argsArray = Lists.newArrayList(args);
             argsArray.add("TokenizerDescriptorPath");
-            argsArray.add(getTokenDescPath());
+            argsArray.add(getTokenDescPath(OpenNlpHelper.getTokenizer()));
         }
 
         AnalysisEngineDescription aed = (AnalysisEngineDescription) createResourceCreationSpecifier(
@@ -91,6 +90,12 @@ public class LexicaHelper {
 
     public static AnalysisEngineDescription getConceptMapper(String path)
             throws UIMAException, IOException, SAXException {
+        return getConceptMapper(path, OpenNlpHelper.getTokenizer());
+    }
+
+    public static AnalysisEngineDescription getConceptMapper(String path,
+            AnalysisEngineDescription tokenDesc) throws UIMAException,
+            IOException, SAXException {
 
         String conceptMapper = LEXICA_ROOT + "desc/" + path
                 + "ConceptMapper.xml";
@@ -102,9 +107,9 @@ public class LexicaHelper {
                 + lexicon);
 
         AnalysisEngineDescription aed = (AnalysisEngineDescription) createResourceCreationSpecifier(
-                conceptMapper,
-                new Object[] { "TokenizerDescriptorPath", getTokenDescPath(),
-                        "Stemmer", SCharsStemmer.class.getName() });
+                conceptMapper, new Object[] { "TokenizerDescriptorPath",
+                        getTokenDescPath(tokenDesc), "Stemmer",
+                        SCharsStemmer.class.getName() });
 
         // Create the external resource dependency for the model and bind it
         ExternalResourceFactory.createDependencyAndBind(aed, "DictionaryFile",

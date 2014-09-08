@@ -1,7 +1,11 @@
 package ch.epfl.bbp.uima.word2vec;
 
+import static ch.epfl.bbp.uima.utils.Preconditions.checkEquals;
 import static ch.epfl.bbp.uima.utils.Preconditions.checkFileExists;
+import static com.google.common.base.Preconditions.checkArgument;
+import static com.google.common.collect.Lists.newArrayList;
 import static com.google.common.collect.Maps.newHashMap;
+import static com.google.common.collect.Sets.newHashSet;
 import static java.lang.Integer.parseInt;
 import static java.lang.Math.sqrt;
 
@@ -16,6 +20,8 @@ import java.util.List;
 import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeSet;
+
+import com.google.common.collect.Lists;
 
 public class Word2Vec {
 
@@ -119,6 +125,75 @@ public class Word2Vec {
         return new TreeSet<WordEntry>(wordEntrys);
     }
 
+    public TreeSet<WordEntry> analogy(String query) {
+
+        String[] split = query.split(" ");
+        checkArgument(split.length % 2 == 1, "should be uneven nr: " + query);
+
+        // true: +; false:-
+        boolean[] operators = new boolean[(split.length - 1) / 2];
+        for (int i = 0; i < (split.length - 1) / 2; i++) {
+            if (split[2 * i + 1].equals("+"))
+                operators[i] = true;
+            else if (split[2 * i + 1].equals("-"))
+                operators[i] = false;
+            else
+                throw new RuntimeException("illegal operator, was: '"
+                        + operators[i]);
+        }
+
+        float[][] ww = new float[(split.length + 1) / 2][getSize()];
+        List<String> queryNames = newArrayList();
+        for (int i = 0; i < (split.length + 1) / 2; i++) {
+            String word = split[2 * i];
+            queryNames.add(word);
+            ww[i] = getWordVector(word);
+            if (ww[i] == null)
+                throw new RuntimeException("no ww for: " + word);
+        }
+        checkEquals(ww.length - 1, operators.length);
+
+        System.out.print("'" + queryNames.get(0) + "' ");
+        for (int i = 0; i < operators.length; i++) {
+            System.out.print("'" + operators[i] + "' ");
+            System.out.print("'" + queryNames.get(i + 1) + "' ");
+        }
+        System.out.println();
+
+        List<WordEntry> wordEntrys = new ArrayList<WordEntry>(topNSize);
+        float[] wordVector = new float[vectorSize];
+        for (int i = 0; i < vectorSize; i++) {
+
+            float val = ww[0][i];
+
+            for (int j = 0; j < operators.length; j++) {
+                if (operators[j]) {
+                    val += ww[j + 1][i];
+                } else {
+                    val -= ww[j + 1][i];
+                }
+            }
+            wordVector[i] = val;
+        }
+        float[] tempVector;
+        String name;
+        for (Entry<String, float[]> entry : vocabulary.entrySet()) {
+            name = entry.getKey();
+
+            if (queryNames.contains(name)) {
+                continue;
+            }
+            float dist = 0;
+            tempVector = entry.getValue();
+            for (int i = 0; i < wordVector.length; i++) {
+                dist += wordVector[i] * tempVector[i];
+            }
+            insertTopN(name, dist, wordEntrys);
+        }
+
+        return new TreeSet<WordEntry>(wordEntrys);
+    }
+
     private void insertTopN(String name, float score,
             List<WordEntry> wordsEntrys) {
         if (wordsEntrys.size() < topNSize) {
@@ -140,7 +215,7 @@ public class Word2Vec {
         }
     }
 
-    public class WordEntry implements Comparable<WordEntry> {
+    public static class WordEntry implements Comparable<WordEntry> {
         public String name;
         public float score;
 

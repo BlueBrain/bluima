@@ -18,6 +18,7 @@ import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineFromPath;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
+import static org.uimafit.util.JCasUtil.select;
 import neuroner.NeuroNER.Missing;
 
 import org.apache.uima.analysis_engine.AnalysisEngine;
@@ -37,6 +38,7 @@ import ch.epfl.bbp.uima.ae.KeepLargestAnnotationAnnotator;
 import ch.epfl.bbp.uima.ae.NewlineSentenceSplitterAnnotator;
 import ch.epfl.bbp.uima.ae.StatsAnnotatorPlus;
 import ch.epfl.bbp.uima.ae.output.AnnotationTypeWriter;
+import ch.epfl.bbp.uima.ae.output.AnnotationTypeWriter2;
 import ch.epfl.bbp.uima.ae.output.BartWriter;
 import ch.epfl.bbp.uima.ae.output.HtmlViewerWriter;
 import ch.epfl.bbp.uima.cr.PubmedWholeDatabaseCR;
@@ -72,7 +74,10 @@ public class PrintMissingTest extends JCasAnnotator_ImplBase {
         // createJCas(createTypeSystemDescriptionFromPath(ROOT+"descriptor/neuroner/MainTypeSystem.xml"));
         // jCas.setDocumentText("three four parasol ganglion cells ahah");
 
-        JCas jCas = getTestCas("zero one two three four parasol ganglion neuron ahah");
+        JCas jCas = getTestCas("zero one large horizontal three four parasol ganglion neuron ahah. "
+                + "zero one inverted premier deuxieme ganglion neuron ahah. ");
+        // +
+        // "But some more inverted premier second parasol ganglion neuron aha.");
 
         runPipeline(
                 jCas,
@@ -83,7 +88,7 @@ public class PrintMissingTest extends JCasAnnotator_ImplBase {
                 createEngine(HtmlViewerWriter.class),
                 // createEngine(PrintMissingTest.class),//
                 createEngine(
-                        AnnotationTypeWriter.class,//
+                        AnnotationTypeWriter2.class,//
                         PARAM_ANNOTATION_CLASS, Missing.class,
                         PARAM_OUTPUT_FILE, "System"));
     }
@@ -131,8 +136,32 @@ public class PrintMissingTest extends JCasAnnotator_ImplBase {
                 createEngine(StatsAnnotatorPlus.class, PARAM_PRINT_EVERY, 500));
     }
 
-    @Override
-    public void process(JCas jCas) throws AnalysisEngineProcessException {
+    @Test
+    /** 
+     * Runs on a 'LIKE %neuron%' subset of PubMed abstracts. 
+     * MySQL takes some initial time but eventually it runs at ~15docs/s
+     */
+    public void testPubmedNs2() throws Exception {
+
+        runPipeline(
+                createReader(PubmedWholeDatabaseCR.class, JULIE_TSD,
+                        PARAM_DB_CONNECTION, new String[] { "127.0.0.1",
+                                "bb_pubmed", "root", "" }, PARAM_AND_QUERY,
+                        MESH + " AND abstrct LIKE '%neuron%' "),//
+                ruta,
+                longest,
+                createEngine(getSentenceSplitter()),
+                copyTokens,
+                createEngine(HtmlViewerWriter.class),
+                createEngine(
+                        AnnotationTypeWriter2.class,//
+                        PARAM_ANNOTATION_CLASS, Missing.class,
+                        PARAM_OUTPUT_FILE, "20140830_testPubmedNs.tsv"),
+                createEngine(StatsAnnotatorPlus.class, PARAM_PRINT_EVERY, 500));
+    }
+
+    // @Override
+    public void process_old(JCas jCas) throws AnalysisEngineProcessException {
         FSIterator<Annotation> it = jCas.getAnnotationIndex().iterator();
         StringBuffer sb = new StringBuffer();
         while (it.hasNext()) {
@@ -142,5 +171,20 @@ public class PrintMissingTest extends JCasAnnotator_ImplBase {
             a.prettyPrint(2, 2, sb, false);
             sb.append('\n');
         }
+    }
+
+    @Override
+    public void process(JCas jCas) throws AnalysisEngineProcessException {
+
+        StringBuffer sb = new StringBuffer();
+        for (Missing m : select(jCas, Missing.class)) {
+
+            // List<NeuronProperty> covered = selectCovered(jCas,
+            // NeuronProperty.class, m);
+            sb.append(m.getCoveredText() + '\n');
+            m.prettyPrint(2, 2, sb, false);
+            sb.append('\n');
+        }
+        System.out.println(sb);
     }
 }
