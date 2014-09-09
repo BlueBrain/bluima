@@ -49,7 +49,7 @@ ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/region")
 ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/sex")
 
 # lexicon-based from Biolexicon, OBO & co
-ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/biolexicon/biolexicon_senses")
+#ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/biolexicon/biolexicon_senses")
 
 # ok??
 ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/neuronames")
@@ -101,7 +101,7 @@ ae: ch.epfl.bbp.uima.topicmodels.annotators.DCATopicModelsAnnotator
 #ae: ch.epfl.bbp.uima.topicmodels.writers.exploitation.AnnotateTokensWithTopicWriter
 # outputDir: target
 # latexOutput: true
- 
+
 #ae: ch.epfl.bbp.uima.topicmodels.writers.exploitation.TopicDistributionWriter
 # outputDir: target
 # command: R --vanilla --slave -f $ROOTmodules/bluima_topic_models/scripts/plot_doc_topic_distribution.R --args {input} {output}
@@ -111,7 +111,7 @@ ae: ch.epfl.bbp.uima.topicmodels.annotators.DCATopicModelsAnnotator
 
 ae: BrainRegionAnnotator
  mode: eval
- trials__java: 1; 
+ trials__java: 1;
 
 ae: StatsAnnotatorPlus
  printEvery__java: 100

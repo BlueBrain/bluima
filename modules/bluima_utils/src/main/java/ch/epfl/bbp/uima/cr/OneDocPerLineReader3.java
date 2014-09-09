@@ -22,6 +22,7 @@ import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.util.Progress;
 
+
 import ch.epfl.bbp.io.LineReader;
 import ch.epfl.bbp.uima.ae.output.SentenceDumpAnnotator;
 import ch.epfl.bbp.uima.utils.Preconditions;
@@ -83,6 +84,7 @@ public class OneDocPerLineReader3 extends JCasCollectionReader_ImplBase {
         return hasNextLine();
     }
 
+ 
     private boolean hasNextLine() { // to deal with commented lines
 
 //        if (textFileReader.hasNext()) {

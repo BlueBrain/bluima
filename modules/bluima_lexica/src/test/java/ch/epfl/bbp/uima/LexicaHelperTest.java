@@ -160,7 +160,7 @@ public class LexicaHelperTest {
         FilenameFilter filter = new FilenameFilter() {
             @Override
             public boolean accept(File arg0, String name) {
-                if (newArrayList(".svn", "templates", ".DS_Store").contains(
+                if (newArrayList(".svn", "templates", ".DS_Store", "biolexicon").contains(
                         name))
                     return false;
                 return true;
