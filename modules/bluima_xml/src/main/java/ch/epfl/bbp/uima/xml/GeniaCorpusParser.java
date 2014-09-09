@@ -1,7 +1,5 @@
 package ch.epfl.bbp.uima.xml;
 
-import static javax.xml.XMLConstants.W3C_XML_SCHEMA_NS_URI;
-
 import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.net.URI;
@@ -19,6 +17,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.xml.sax.SAXException;
 
+import ch.epfl.bbp.uima.XmlHelper;
 import ch.epfl.bbp.uima.xml.genia.Set;
 
 /**
@@ -29,49 +28,50 @@ import ch.epfl.bbp.uima.xml.genia.Set;
  * 
  */
 public class GeniaCorpusParser {
-	Logger LOG = LoggerFactory.getLogger(GeniaCorpusParser.class);
 
-	private Unmarshaller unmarshaller;
+    Logger LOG = LoggerFactory.getLogger(GeniaCorpusParser.class);
 
-	private static JAXBContext jcSingelton = null;
+    private Unmarshaller unmarshaller;
 
-	/** Use singleton design pattern, since JAXBContext is expensive to create */
-	private JAXBContext getSingleton() throws JAXBException {
-		if (jcSingelton == null) {
-			ClassLoader classLoader = ch.epfl.bbp.uima.xml.genia.ObjectFactory.class
-					.getClassLoader();// TODO needed?
-			jcSingelton = JAXBContext.newInstance(Set.class.getPackage()
-					.getName(), classLoader);
-		}
-		return jcSingelton;
-	}
+    private static JAXBContext jcSingelton = null;
 
-	public GeniaCorpusParser() throws JAXBException, SAXException,
-			FileNotFoundException {
-		unmarshaller = getSingleton().createUnmarshaller();
+    /** Use singleton design pattern, since JAXBContext is expensive to create */
+    private JAXBContext getSingleton() throws JAXBException {
+        if (jcSingelton == null) {
+            ClassLoader classLoader = ch.epfl.bbp.uima.xml.genia.ObjectFactory.class
+                    .getClassLoader();// TODO needed?
+            jcSingelton = JAXBContext.newInstance(Set.class.getPackage()
+                    .getName(), classLoader);
+        }
+        return jcSingelton;
+    }
 
-		final SchemaFactory schemaFactory = SchemaFactory
-				.newInstance(W3C_XML_SCHEMA_NS_URI);
-		try {
-			String schemaLocation = "GENIAcorpus3.02/gpml.xsd";
-			URI uri = ch.epfl.bbp.uima.xml.genia.ObjectFactory.class
-					.getClassLoader().getResource(schemaLocation).toURI();
-			LOG.debug("using xsd schema at " + uri.toString());
-			final Schema s = schemaFactory
-					.newSchema(new Source[] { new StreamSource(uri.toString()) });
-			unmarshaller.setSchema(s);
-		} catch (Exception e) {
-			throw new RuntimeException(e);
-		}
-	}
+    public GeniaCorpusParser() throws JAXBException, SAXException,
+            FileNotFoundException {
+        unmarshaller = getSingleton().createUnmarshaller();
 
-	public Set parse(InputStream is) throws FileNotFoundException,
-			JAXBException {
-		LOG.debug("parsing genia");
-		try {
-			return (Set) unmarshaller.unmarshal(is);
-		} finally {
-			IOUtils.closeQuietly(is);
-		}
-	}
+        final SchemaFactory schemaFactory = SchemaFactory
+                .newInstance(XmlHelper.W3C_XML_SCHEMA_NS_URI);
+        try {
+            String schemaLocation = "GENIAcorpus3.02/gpml.xsd";
+            URI uri = ch.epfl.bbp.uima.xml.genia.ObjectFactory.class
+                    .getClassLoader().getResource(schemaLocation).toURI();
+            LOG.debug("using xsd schema at " + uri.toString());
+            final Schema s = schemaFactory
+                    .newSchema(new Source[] { new StreamSource(uri.toString()) });
+            unmarshaller.setSchema(s);
+        } catch (Exception e) {
+            throw new RuntimeException(e);
+        }
+    }
+
+    public Set parse(InputStream is) throws FileNotFoundException,
+            JAXBException {
+        LOG.debug("parsing genia");
+        try {
+            return (Set) unmarshaller.unmarshal(is);
+        } finally {
+            IOUtils.closeQuietly(is);
+        }
+    }
 }

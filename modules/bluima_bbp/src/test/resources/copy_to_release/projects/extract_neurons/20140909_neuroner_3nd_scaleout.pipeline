@@ -1,0 +1,16 @@
+
+
+cr: OneDocPerLineReader
+ inputFile:
+
+
+include: 20140818_neuroner_scaleout.include
+
+
+# OUTPUT
+ae: HtmlViewerWriter.class
+ae: AnnotationTypeWriter2
+ annotationClass: neuroner.NeuroNER.Missing
+ outputFile: 20140909_3rd_scaleout.tsv
+ae: StatsAnnotatorPlus
+ printEvery__java: 50

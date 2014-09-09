@@ -38,10 +38,11 @@ public class Viterbi {
     public static List<List<Transition>> viterbi(Iterable<Annotation> annots,
             JCas jCas) {
 
+        /** k: coord where the state occurs; v: the state itself */
         final TreeMap<Integer, State> states = new TreeMap<Integer, State>();
         final Multimap<Integer, Transition> transitions = HashMultimap.create();
 
-        // add all annotations, except Sentences
+        // add all content annotations (skip Sentences, ...)
         for (Annotation a : annots) {
             if (!NON_CONTENT_ANNOTATIONS.contains(a.getClass().getName())) {
                 int beg = a.getBegin();
@@ -110,8 +111,21 @@ public class Viterbi {
                 }
             }
         }
+
+        // print(transitions, jCas.getDocumentText());
+        // final List<List<Transition>> shortestPaths =
+        // backward(states.lastKey(),
+        // states, transitions, new ArrayList<List<Transition>>());
+        // print(transitions, jCas.getDocumentText());
+        // return shortestPaths;
         return backward(states.lastKey(), states, transitions,
                 new ArrayList<List<Transition>>());
+    }
+
+    private static void print(Multimap<Integer, Transition> transitions,
+            String txt) {
+        // TODO Auto-generated method stub
+
     }
 
     private static List<List<Transition>> backward(int stateId,

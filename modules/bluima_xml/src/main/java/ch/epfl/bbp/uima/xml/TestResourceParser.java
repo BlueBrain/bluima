@@ -4,7 +4,6 @@ import java.io.FileNotFoundException;
 import java.io.InputStream;
 import java.net.URI;
 
-import javax.xml.XMLConstants;
 import javax.xml.bind.JAXBContext;
 import javax.xml.bind.JAXBException;
 import javax.xml.bind.Unmarshaller;
@@ -18,6 +17,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.xml.sax.SAXException;
 
+import ch.epfl.bbp.uima.XmlHelper;
 import ch.epfl.bbp.uima.xml.testresources.UnitTests;
 
 /**
@@ -49,7 +49,7 @@ public class TestResourceParser {
 	unmarshaller = getSingleton().createUnmarshaller();
 
 	final SchemaFactory schemaFactory = SchemaFactory
-		.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
+		.newInstance(XmlHelper.W3C_XML_SCHEMA_NS_URI);
 	try {
 	    String schemaLocation = "test_resources/resource_unit_test.xsd";
 	    URI uri = ch.epfl.bbp.uima.xml.genia.ObjectFactory.class

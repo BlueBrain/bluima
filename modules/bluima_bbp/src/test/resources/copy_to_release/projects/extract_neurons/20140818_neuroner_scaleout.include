@@ -1,0 +1,13 @@
+
+# RUTA
+ae: /Users/richarde/dev/bluebrain/git/neuroNER/descriptor/neuroner/NeuroNEREngine.xml
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: neuroner.NeuroNER.Missing
+
+# TOKENIZE
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+ae: CopyAnnotationsAnnotator
+ from: org.apache.uima.ruta.type.W
+ to: de.julielab.jules.types.Token
+ deleteFrom__java: false
+

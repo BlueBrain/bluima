@@ -1,18 +1,10 @@
+
 cr: PubmedWholeDatabaseCR
  db_connection__java: new String[] { "127.0.0.1", "bb_pubmed", "root", "" }
  and_query: AND pubmed_id IN (SELECT id FROM neuroscience_ids_from_mesh2) AND abstrct LIKE '%neuron%'
 
-# RUTA
-ae: /Users/richarde/dev/bluebrain/git/neuroNER/descriptor/neuroner/NeuroNEREngine.xml
-ae: KeepLargestAnnotationAnnotator
- annotationClass: neuroner.NeuroNER.Missing
 
-# TOKENIZE
-ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
-ae: CopyAnnotationsAnnotator
- from: org.apache.uima.ruta.type.W
- to: de.julielab.jules.types.Token
- deleteFrom__java: false
+include: 20140818_neuroner_scaleout.include
 
 # OUTPUT
 ae: HtmlViewerWriter.class

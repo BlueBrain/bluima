@@ -1,0 +1,52 @@
+# print to Bart
+
+cr: WhiteTextCollectionReader
+
+# Copy the annotation to gold, leave it also in system
+ae: EvaluationPreprocessorAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.BrainRegion
+ deleteFrom__java: false
+
+# Preprocessing:
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
+ae: BlueBioLemmatizer
+
+# Annotation retrieval:
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+ae: ch.epfl.bbp.uima.ae.PruneMeasuresAnnotator
+ae: ch.epfl.bbp.uima.ae.PunctuationAnnotator
+
+# NERs
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/age")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/disease")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/ionchannel")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/method")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/molecule")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/organism")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/region")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/sex")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/brainregions/neuronames")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/cell")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/disease")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/protein")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/onto_baseline/verb")
+ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("/nif/nif")
+
+
+ae: BartWriter
+ batchPrefix: eval_viterbi_
+
+
+# Viterbi (longest match rule) and remove others
+ae: ch.epfl.bbp.uima.ae.ViterbiFilterAnnotator
+ removeOverlappingAnnotations__java: false 
+ae: ch.epfl.bbp.uima.filter.LeaveOnlyKeepsEnclosedAnnotationsAnnotator
+
+
+
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100
+ 
