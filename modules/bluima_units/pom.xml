@@ -5,12 +5,12 @@
   <parent>
     <groupId>ch.epfl.bbp.nlp</groupId>
     <artifactId>bluima_parent</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
   <artifactId>bluima_units</artifactId>
-  <name>BlueUima units and measures extraction</name>
+  <name>Bluima units and measures extraction</name>
 
   <dependencies>
     <dependency>

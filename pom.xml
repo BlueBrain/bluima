@@ -5,7 +5,7 @@
 
 	<groupId>ch.epfl.bbp.nlp</groupId>
 	<artifactId>bluima_parent</artifactId>
-	<version>0.1.0-SNAPSHOT</version>
+	<version>0.1</version>
 	<packaging>pom</packaging>
 	<name>Bluima Parent POM</name>
 	<description>Parent POM for bluima project, including common dependencies and repositories</description>
@@ -94,9 +94,12 @@
 		<module>modules/bluima_text2pmid</module>
 		<module>modules/bluima_references_classifier</module>
 		<module>modules/bluima_protein_concentrations</module>
+
 		<module>modules/bluima_bbp</module>
+
+		<module>modules/bluima_neuroner</module>
 		<!-- <module>modules/bluima_release</module> -->
-		<!--  TODO bluima_integration_tests -->
+
 	</modules>
 
 	<build>
@@ -186,9 +189,9 @@
 			<version>${project.version}</version>
 		</dependency>
 		<dependency>
-			<groupId>ch.epfl.bbp</groupId>
 			<artifactId>blue_commons</artifactId>
-			<version>0.1.0-SNAPSHOT</version>
+			<groupId>${project.groupId}</groupId>
+			<version>${project.version}</version>
 		</dependency>
 		<!--FIXME: remove-->
 		<dependency>

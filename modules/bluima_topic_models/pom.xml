@@ -5,7 +5,7 @@
   <parent>
     <groupId>ch.epfl.bbp.nlp</groupId>
     <artifactId>bluima_parent</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
@@ -91,7 +91,7 @@
     </plugins>
     <pluginManagement>
       <plugins>
-        <!--This plugin's configuration is used to store Eclipse m2e settings 
+        <!--This plugin's configuration is used to store Eclipse m2e settings
           only. It has no influence on the Maven build itself. -->
         <plugin>
           <groupId>org.eclipse.m2e</groupId>

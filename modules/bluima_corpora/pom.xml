@@ -5,7 +5,7 @@
   <parent>
     <groupId>ch.epfl.bbp.nlp</groupId>
     <artifactId>bluima_parent</artifactId>
-    <version>0.1.0-SNAPSHOT</version>
+    <version>0.1</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
@@ -15,9 +15,9 @@
 
   <dependencies>
     <dependency>
-      <groupId>${project.groupId}</groupId>
       <artifactId>bluima_utils</artifactId>
-      <version>0.1.0-SNAPSHOT</version>
+      <groupId>${project.groupId}</groupId>
+      <version>${project.version}</version>
     </dependency>
     <dependency>
       <artifactId>bluima_xml</artifactId>
