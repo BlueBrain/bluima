@@ -1,0 +1,19 @@
+
+
+# Sender
+cr: OneDocPerLineReader
+ inputFile: $1
+ae: NaiveSentenceSplitterAnnotator
+
+ 
+##BEGIN_RABBIT_SLAVE
+threads: 1
+ae: /Users/richarde/dev/bluebrain/git/neuroNER/descriptor/neuroner/NeuroNEREngine.xml
+
+
+##END_RABBIT_SLAVE
+ae: AnnotationTypeWriter2
+ annotationClass: neuroner.NeuroNER.Missing
+ outputFile: 20140909_3rd_scaleout.tsv
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

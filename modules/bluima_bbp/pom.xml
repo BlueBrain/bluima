@@ -146,6 +146,11 @@
       <version>0.4.9</version>
       <scope>test</scope>
     </dependency>
+    <dependency>
+      <artifactId>bluima_rabbit</artifactId>
+      <groupId>${project.groupId}</groupId>
+      <version>${project.parent.version}</version>
+    </dependency>
   </dependencies>
 
   <build>
@@ -161,6 +166,10 @@
             <program>
               <mainClass>ch.epfl.bbp.uima.laucher.Launcher</mainClass>
               <name>run_pipeline</name>
+            </program>
+            <program>
+              <mainClass>ch.epfl.bbp.nlp.rabbit.Rabbitify</mainClass>
+              <name>run_rabbit</name>
             </program>
           </programs>
         </configuration>
