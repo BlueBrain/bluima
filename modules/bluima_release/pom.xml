@@ -84,11 +84,11 @@
       <groupId>${project.groupId}</groupId>
       <version>${project.parent.version}</version>
     </dependency>
-    <dependency>
+<!--     <dependency>
       <artifactId>blueima_banner</artifactId>
       <groupId>${project.groupId}</groupId>
       <version>${project.parent.version}</version>
-    </dependency>
+    </dependency> -->
     <dependency>
       <artifactId>bluima_pubmed_ws</artifactId>
       <groupId>${project.groupId}</groupId>

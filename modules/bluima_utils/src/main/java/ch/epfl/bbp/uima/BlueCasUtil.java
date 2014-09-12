@@ -246,13 +246,14 @@ public class BlueCasUtil {
         }
     }
 
-    public static void setDocId(JCas jCas, int docId) {
+    public static JCas setDocId(JCas jCas, int docId) {
         if (JCasUtil.exists(jCas, Header.class)) {
             throw new IllegalArgumentException();
         }
         Header h = new Header(jCas);
         h.setDocId(docId + "");
         h.addToIndexes();
+        return jCas;
     }
 
     public static boolean haveSameBeginEnd(Annotation a, Annotation b) {

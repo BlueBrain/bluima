@@ -1,8 +1,8 @@
 package ch.epfl.bbp.uima.laucher;
 
-import static ch.epfl.bbp.uima.utils.TimeUtils.nowToHuman;
 import static com.google.common.collect.Lists.newArrayList;
 import static com.google.common.collect.Sets.newHashSet;
+import static java.lang.System.currentTimeMillis;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.slf4j.LoggerFactory.getLogger;
 
@@ -13,10 +13,12 @@ import java.util.Set;
 import org.apache.uima.UIMAException;
 import org.apache.uima.analysis_engine.AnalysisEngine;
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
+import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.analysis_engine.TypeOrFeature;
 import org.apache.uima.collection.CollectionReaderDescription;
 import org.apache.uima.collection.metadata.CpeDescriptorException;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
+import org.apache.uima.fit.pipeline.SimplePipeline;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.tcas.Annotation;
 import org.apache.uima.resource.ResourceInitializationException;
@@ -41,9 +43,9 @@ public class Pipeline {
 
     CollectionReaderDescription crd = null;
     List<AnalysisEngineDescription> aeds = newArrayList();
-    private int threads = 1;
+    private int threads = 2;
     private int maxErrors = 0;
-    private String xml = "";
+
     /**
      * The output types (Annotation class names) outputted by this pipeline, as
      * described in the @TypeCapability of {@link AnalysisEngine}s
@@ -88,16 +90,43 @@ public class Pipeline {
     }
 
     public void run() throws UIMAException, IOException {
-        try {
-            CpeBuilder cpeBuilder = (CpeBuilder) build(new CpeBuilder(this.crd)//
-                    .setMaxProcessingUnitThreatCount(threads)//
-                    .setMaxErrors(maxErrors));
-            cpeBuilder.process();
-        } catch (Exception e) {
-            throw new UIMAException(e);
+
+        if (threads == 1) {
+            // some scripts (RUTA) only work with 1 thread ATM (because of
+            // relative paths to typesystem) ...
+            long start = currentTimeMillis();
+            aeds.add(createEngineDescription(PrintNrDocs.class)); // stats
+            SimplePipeline.runPipeline(crd,
+                    aeds.toArray(new AnalysisEngineDescription[aeds.size()]));
+            LOG.info("Processing took " + (currentTimeMillis() - start) / 1000
+                    + "s in total");
+        } else {
+            try {
+                CpeBuilder cpeBuilder = (CpeBuilder) build(new CpeBuilder(
+                        this.crd)//
+                        .setMaxProcessingUnitThreatCount(threads)//
+                        .setMaxErrors(maxErrors));
+                cpeBuilder.process();
+            } catch (Exception e) {
+                throw new UIMAException(e);
+            }
         }
-        // SimplePipeline.runPipeline(cr,
-        // aeds.toArray(new AnalysisEngineDescription[aeds.size()]));
+    }
+
+    public static class PrintNrDocs extends JCasAnnotator_ImplBase {
+
+        private int nrDocs = 0;
+
+        @Override
+        public void process(JCas aJCas) throws AnalysisEngineProcessException {
+            nrDocs++;
+        }
+
+        @Override
+        public void collectionProcessComplete()
+                throws AnalysisEngineProcessException {
+            LOG.info("Processed " + nrDocs + " documents");
+        }
     }
 
     public void run(JCas jCas) throws UIMAException, IOException {
@@ -142,16 +171,6 @@ public class Pipeline {
     public Pipeline setMaxErrors(int maxErrors) {
         this.maxErrors = maxErrors;
         return this;
-    }
-
-    public Pipeline addXml(String xml) {
-        this.xml += xml;
-        return this;
-    }
-
-    public String getXml() {
-        return "<!-- Automatically generated on " + nowToHuman() + " -->\n"
-                + "<pipeline>\n" + this.xml + "</pipeline>\n";
     }
 
     /** Add this crd's capabilities for other downstream aeds. */

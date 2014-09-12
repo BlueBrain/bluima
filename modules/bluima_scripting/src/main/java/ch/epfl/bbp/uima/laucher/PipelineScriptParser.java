@@ -10,6 +10,7 @@ import static org.apache.commons.lang.StringUtils.isBlank;
 import static org.apache.commons.lang.StringUtils.join;
 import static org.apache.commons.lang3.StringEscapeUtils.escapeXml;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescriptionFromPath;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription;
 import static org.slf4j.LoggerFactory.getLogger;
 
@@ -32,7 +33,6 @@ import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.fit.component.JCasCollectionReader_ImplBase;
 import org.apache.uima.fit.descriptor.ConfigurationParameter;
 import org.apache.uima.fit.factory.AnalysisEngineFactory;
-import org.apache.uima.fit.factory.ResourceCreationSpecifierFactory;
 import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.resource.metadata.ResourceMetaData;
 import org.slf4j.Logger;
@@ -82,14 +82,32 @@ public class PipelineScriptParser {
                 scriptFile.exists(),
                 "could not find pipeline script file at "
                         + scriptFile.getAbsolutePath());
+        return parse(FileUtils.readLines(scriptFile), scriptFile.getParent(),
+                replacementVars);
+    }
+
+    /**
+     * Parses lines from a pipeline script.
+     * 
+     * @param scriptLines
+     *            the lines of a pipeline script to parse
+     * @param parentFilePath
+     *            the path to the parent File, used for resolving includes
+     * @param replacementVars
+     *            the variables to replace in the original pipeline script. The
+     *            first variable gets inserted in place of all $1, the second in
+     *            place of $2, etc.
+     * @return the parsed {@link Pipeline}
+     */
+    public static Pipeline parse(List<String> scriptLines,
+            String parentFilePath, List<String> replacementVars)
+            throws ParseException, IOException {
         if (replacementVars == null)
             replacementVars = new ArrayList<String>();
 
-        List<String> scriptLines = FileUtils.readLines(scriptFile);
-
         // parse
         Pipeline pipeline = parseAndDispatch(scriptLines, new Pipeline(),
-                scriptFile.getParentFile(), replacementVars);
+                parentFilePath, replacementVars);
 
         // verify pipeline not empty
         if (pipeline.crd == null)
@@ -105,8 +123,8 @@ public class PipelineScriptParser {
     }
 
     private static Pipeline parseAndDispatch(List<String> scriptLines,
-            Pipeline pipeline, File parentFile, List<String> replacementVars)
-            throws ParseException {
+            Pipeline pipeline, String parentFilePath,
+            List<String> replacementVars) throws ParseException {
 
         // replace variables ($ROOT, $1, $2, ...)
         List<String> replacedScriptLines = new ArrayList<String>();
@@ -138,7 +156,7 @@ public class PipelineScriptParser {
             } else if (current.startsWith("ae_java: ")) {
                 parseAEJava(current, it, pipeline);
             } else if (current.startsWith("include: ")) {
-                parseInclude(current, pipeline, parentFile, replacementVars);
+                parseInclude(current, pipeline, parentFilePath, replacementVars);
             } else if (current.startsWith("python:")) {
                 parsePython(it, pipeline);
             } else if (current.startsWith("java:")) {
@@ -165,7 +183,6 @@ public class PipelineScriptParser {
             String errorsStr = current.replaceFirst("max_errors: ", "").trim();
             int errors = parseInt(errorsStr);
             pipeline.setMaxErrors(errors);
-            pipeline.addXml("<maxErrors>" + errors + "</maxErrors>");
             LOG.info("+-using {} max_errors", errors);
         } catch (NumberFormatException e) {
             throw new ParseException(
@@ -185,7 +202,6 @@ public class PipelineScriptParser {
             int threads = parseInt(threadsStr);
             pipeline.setThreads(threads);
             LOG.info("+-using {} threads ", threads);
-            pipeline.addXml("<threads>" + threads + "</threads>");
         } catch (NumberFormatException e) {
             throw new ParseException("could not parse number of threads from "
                     + current, -1);
@@ -215,8 +231,6 @@ public class PipelineScriptParser {
                     .createEngineDescription(JythonAnnotator2.class,
                             JythonAnnotator2.SCRIPT_STRING, script);
             pipeline.addAe(aed);
-            pipeline.addXml("<pythonInline>" + escapeXml(script)
-                    + "</pythonInline>");
         } catch (ResourceInitializationException e) {
             throw new ParseException("could not create aed with script, "
                     + e.getMessage(), -1);
@@ -244,8 +258,6 @@ public class PipelineScriptParser {
         try {
             pipeline.aeds.add(createEngineDescription(BeanshellAnnotator.class,
                     SCRIPT_STRING, script));
-            pipeline.addXml("<javaInline>" + escapeXml(script)
-                    + "</javaInline>");
         } catch (ResourceInitializationException e) {
             throw new ParseException("could not create aed with script "
                     + script, -1);
@@ -265,21 +277,21 @@ public class PipelineScriptParser {
 
     /** parse include commands */
     private static void parseInclude(String line, Pipeline pipeline,
-            File parentFile, List<String> cliArgs) throws ParseException {
+            String parentFilePath, List<String> cliArgs) throws ParseException {
         LOG.info("+-parsing include line '{}'", line);
         String includeName = line.replaceFirst("include: ", "").trim();
         File includeFile = null;
         if (includeName.startsWith("/")) {
             includeFile = new File(includeName);
         } else {
-            includeFile = new File(parentFile, includeName);
+            includeFile = new File(parentFilePath, includeName);
         }
         if (!includeFile.exists()) {
             String didYouMean = "";
-            if (new File(parentFile, "../" + includeName).exists()) {
+            if (new File(parentFilePath, "../" + includeName).exists()) {
                 didYouMean = "\ndid you mean: '../" + includeName + "'";
-            } else if (new File(parentFile, includeName.replaceFirst("\\.\\./",
-                    "")).exists()) {
+            } else if (new File(parentFilePath, includeName.replaceFirst(
+                    "\\.\\./", "")).exists()) {
                 didYouMean = "\ndid you mean: '"
                         + includeName.replaceFirst("\\.\\./", "") + "'";
             }
@@ -291,8 +303,8 @@ public class PipelineScriptParser {
             List<String> includeStr = FileUtils.readLines(includeFile);
             includeStr.add("");
             includeStr.add("");
-            parseAndDispatch(includeStr, pipeline, includeFile.getParentFile(),
-                    cliArgs);
+            parseAndDispatch(includeStr, pipeline, includeFile.getParentFile()
+                    .getAbsolutePath(), cliArgs);
 
         } catch (IOException e) {
             throw new ParseException("cannot read include file ("
@@ -315,7 +327,6 @@ public class PipelineScriptParser {
             AnalysisEngineDescription aed = (AnalysisEngineDescription) i
                     .get("aed");
             pipeline.addAe(aed);
-            pipeline.addXml("<javaAe>" + escapeXml(script) + "</javaAe>");
         } catch (EvalError e) {
             e.fillInStackTrace();
             throw new ParseException(
@@ -362,8 +373,6 @@ public class PipelineScriptParser {
                 descr.setMetaData(metaData);
             }
             pipeline.setCr(descr);
-            pipeline.addXml("<cr id=\"" + name + "\">\n" + params.getValue()
-                    + "</cr>\n");
         } catch (ResourceInitializationException e) {
             throw new ParseException(
                     "could not instantiate CollectionReader, error: "
@@ -443,13 +452,8 @@ public class PipelineScriptParser {
 
             // create ae
             try {
-                AnalysisEngineDescription specifier = (AnalysisEngineDescription) ResourceCreationSpecifierFactory
-                        .createResourceCreationSpecifier(aeXml
-                                .getAbsolutePath(), params.getKey().toArray());
-                pipeline.addAe(specifier);
-                pipeline.addXml("<aeXml file=\"" + aeXml.getAbsolutePath()
-                        + "\">\n" + params.getValue() + "</aeXml>\n");
-
+                pipeline.addAe(createEngineDescriptionFromPath(
+                        aeXml.getAbsolutePath(), params.getKey().toArray()));
             } catch (Exception e) {
                 throw new ParseException(
                         "could not instantiate CollectionReader, error: "
@@ -493,8 +497,6 @@ public class PipelineScriptParser {
                         .createEngineDescription(classz, params.getKey()
                                 .toArray());
                 pipeline.addAe(aed);
-                pipeline.addXml("<ae class=\"" + classz.getName() + "\">\n"
-                        + params.getValue() + "</ae>\n");
 
             } catch (ResourceInitializationException e) {
                 throw new ParseException(

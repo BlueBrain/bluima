@@ -1,5 +1,6 @@
 package ch.epfl.bbp.uima.cr;
 
+import static ch.epfl.bbp.io.LineReader.asText;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_BETWEEN;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT_DIRECTORY;
 import static ch.epfl.bbp.uima.typesystem.TypeSystem.HEADER;
@@ -8,7 +9,6 @@ import static ch.epfl.bbp.uima.utils.Preconditions.checkFileExists;
 import static com.google.common.base.Preconditions.checkArgument;
 
 import java.io.File;
-import java.io.FileInputStream;
 import java.io.IOException;
 
 import org.apache.uima.UimaContext;
@@ -22,21 +22,13 @@ import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.util.Progress;
 
-
-import ch.epfl.bbp.io.LineReader;
-import ch.epfl.bbp.uima.ae.output.SentenceDumpAnnotator;
-import ch.epfl.bbp.uima.utils.Preconditions;
 import de.julielab.jules.types.Header;
 
 /**
- * {@link CollectionReader} that takes a simple text file as input. Each line is
+ * {@link CollectionReader} that takes simple text files as input. Each file is
  * turned into a new {@link CAS}. Format is:<br>
  * <code>docId{tab}text</code><br>
- * If not tab is found (= no docId is given), then the document text is the
- * whole line, and an incremental docId is generated.<br/>
- * Lines starting with '#' are ignored.
  * 
- * @see SentenceDumpAnnotator
  * @author renaud.richardet@epfl.ch
  */
 @TypeCapability(outputs = { HEADER })
@@ -52,7 +44,7 @@ public class OneDocPerLineReader3 extends JCasCollectionReader_ImplBase {
     private int[] between;
 
     private int nextPmid, lastPmid;
-    private File nextLine;
+    private String nextTxt = "";
 
     @Override
     public void initialize(UimaContext context)
@@ -61,40 +53,37 @@ public class OneDocPerLineReader3 extends JCasCollectionReader_ImplBase {
         checkFileExists(inputDir);
         checkEquals(2, between.length);
         checkArgument(between[0] < between[1]);
-        nextPmid = between[0];
+        nextPmid = between[0] - 1; // -1 since we increase it in hasNextDoc()
         lastPmid = between[1];
     }
 
     public void getNext(JCas jcas) throws IOException, CollectionException {
-        
-        
-//        String[] split = nextLine.split("\t");
-//        Header header = new Header(jcas);
-//        if (split.length == 2) {
-//            header.setDocId(split[0]);
-//            jcas.setDocumentText(split[1]);
-//        } else {
-//            header.setDocId(pmId++ + "_generated");
-//            jcas.setDocumentText(nextLine);
-//        }
-//        header.addToIndexes();
+
+        Header header = new Header(jcas);
+        header.setDocId("" + nextPmid);
+        header.addToIndexes();
+
+        jcas.setDocumentText(nextTxt);
     }
 
     public boolean hasNext() throws IOException, CollectionException {
-        return hasNextLine();
-    }
 
- 
-    private boolean hasNextLine() { // to deal with commented lines
+        while (true) { // file must exist and text not empty
 
-//        if (textFileReader.hasNext()) {
-//            nextLine = textFileReader.next();
-//            if (nextLine.startsWith("#"))
-//                return hasNextLine(); // recurse
-//            else
-//                return true;
-//        }
-        return false;
+            nextPmid++;
+            if (nextPmid > lastPmid)
+                return false;
+
+            File nextFile = new File(inputDir + "/" + nextPmid + ".tsv");
+            if (!nextFile.exists())
+                continue;
+
+            nextTxt = asText(nextFile).split("\t")[1];
+            if (nextTxt.trim().length() == 0)
+                continue;
+
+            return true;
+        }
     }
 
     public Progress[] getProgress() {// nope

@@ -1,7 +1,5 @@
 package ch.epfl.bbp.uima.laucher;
 
-import static ch.epfl.bbp.io.TextFileWriter.write;
-import static java.io.File.createTempFile;
 import static java.lang.Integer.parseInt;
 import static org.apache.commons.io.FileUtils.iterateFiles;
 import static org.apache.commons.lang.StringUtils.join;
@@ -189,10 +187,6 @@ public class Launcher {
                     + "\n(see the README.txt for the pipeline script format)",
                     e.getErrorOffset());
         }
-
-        File tmpXml = createTempFile(scriptFile.getName(), ".xml");
-        write(tmpXml, pipeline.getXml());
-        LOG.info("Xml serialization available at " + tmpXml.getAbsolutePath());
 
         LOG.info("Successfully parsed pipeline script, now starting pipeline...");
         LOG.info("*************************************************************");

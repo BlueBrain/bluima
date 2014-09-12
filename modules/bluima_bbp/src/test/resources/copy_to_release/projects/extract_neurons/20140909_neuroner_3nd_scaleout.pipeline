@@ -1,8 +1,8 @@
 
 
-cr: OneDocPerLineReader
- inputFile: aa
-
+cr: OneDocPerLineReader3
+ inputDirectory: /nfs4/bbp.epfl.ch/simulation/nlp/data/20140828_prefilter_sentences
+ between__java: new int[]{1,5000}
 
 include: 20140818_neuroner_scaleout.include
 

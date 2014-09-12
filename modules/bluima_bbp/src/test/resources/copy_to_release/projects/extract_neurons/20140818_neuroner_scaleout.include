@@ -1,6 +1,11 @@
 
 # RUTA
+
+# RUTA scripts only work with 1 thread ATM (because of relative paths to typesystem) ...
+threads: 1
+
 ae: /Users/richarde/dev/bluebrain/git/neuroNER/descriptor/neuroner/NeuroNEREngine.xml
+
 ae: KeepLargestAnnotationAnnotator
  annotationClass: neuroner.NeuroNER.Missing
 

@@ -61,12 +61,6 @@ public class PipelineScriptParserTest {
         Pipeline p = new Pipeline();
         PipelineScriptParser.parseAE("ae: "
                 + WhitespaceTokenizerAnnotator.class.getName(), EMPTY_ARGS, p);
-        assertTrue(
-                "xml works",
-                p.getXml()
-                        .endsWith(
-                                "<pipeline>\n<ae class=\"ch.epfl.bbp.uima.ae.WhitespaceTokenizerAnnotator\">\n</ae>\n"
-                                        + "</pipeline>\n"));
     }
 
     @Test
