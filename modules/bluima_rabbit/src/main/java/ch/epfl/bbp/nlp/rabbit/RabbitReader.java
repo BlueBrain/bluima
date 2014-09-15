@@ -87,8 +87,8 @@ public class RabbitReader extends JCasCollectionReader_ImplBase {
     public void getNext(JCas jCas) throws IOException, CollectionException {
         try {
             RabbitWriter.deserialize(jCas.getCas(), nextDelivery);
-            LOG.debug(" [Reader] '" + snippetize(jCas.getDocumentText(), 20)
-                    + "'");
+//            LOG.debug(" [Reader] '" + snippetize(jCas.getDocumentText(), 20)
+//                    + "'");
             receiveChannel.basicAck(deliveryTag, false);
 
         } catch (ClassNotFoundException e) {
@@ -102,7 +102,7 @@ public class RabbitReader extends JCasCollectionReader_ImplBase {
         try {
             Delivery d = consumer.nextDelivery(timeout * 1000);
             if (d == null) {
-                LOG.debug(" [RabbitReader] timout, exiting reader!");
+                LOG.info(" [RabbitReader] timout, exiting reader!");
                 return false;
             }
             nextDelivery = d.getBody();
@@ -110,7 +110,7 @@ public class RabbitReader extends JCasCollectionReader_ImplBase {
             return true;
 
         } catch (InterruptedException ie) {
-            LOG.debug(" [RabbitReader] timout2, exiting reader!");
+            LOG.info(" [RabbitReader] timout2, exiting reader!");
             return false;
         } catch (Exception e) {
             throw new CollectionException(e);

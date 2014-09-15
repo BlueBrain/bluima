@@ -44,7 +44,7 @@ public class Rabbitify {
     public static final String BEGIN_RABBITIFY = "##BEGIN_RABBIT_SLAVE";
     public static final String END_RABBITIFY = "##END_RABBIT_SLAVE";
 
-    enum Mode {
+    public enum Mode {
         /** the first part of the pipeline. */
         sender, //
         /** the middle part of a pipeline */
@@ -127,6 +127,9 @@ public class Rabbitify {
             lines.add(" " + PARAM_QUEUE + ": "
                     + getMasterToSlaveQueue(runId + ""));
 
+            lines.add("ae: StatsAnnotatorPlus");
+            lines.add(" printEvery__java: 1000");
+
         } else if (mode.equals(Mode.slave)) { // SLAVE PIPELINE
 
             // add Rabbit reader
@@ -152,6 +155,8 @@ public class Rabbitify {
                     + getSlaveToMasterQueue(runId + ""));
             lines.add(" " + PARAM_TIMEOUT + "__java: " + timeout);
 
+            lines.add("");
+            lines.add("threads: 1");
             lines.add("");
             lines.addAll(masterReceiver);
         }

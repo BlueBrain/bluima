@@ -1,6 +1,5 @@
 package ch.epfl.bbp.nlp.rabbit;
 
-import static ch.epfl.bbp.StringUtils.snippetize;
 import static ch.epfl.bbp.collections.Create.map;
 import static com.rabbitmq.client.MessageProperties.PERSISTENT_BASIC;
 
@@ -75,8 +74,8 @@ public class RabbitWriter extends JCasAnnotator_ImplBase {
         try {
             sendChannel.basicPublish("", queue, PERSISTENT_BASIC,
                     serialize(jCas.getCas()));
-            LOG.debug(" [RabbitWriter] '" + snippetize(jCas.getDocumentText(), 20)
-                    + "'");
+//            LOG.debug(" [RabbitWriter] '" + snippetize(jCas.getDocumentText(), 20)
+//                    + "'");
         } catch (IOException e) {
             throw new AnalysisEngineProcessException(e);
         }
