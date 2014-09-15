@@ -18,7 +18,7 @@ import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineFromPath;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
-import static org.uimafit.util.JCasUtil.select;
+import static org.apache.uima.fit.util.JCasUtil.select;
 import neuroner.NeuroNER.Missing;
 
 import org.apache.uima.analysis_engine.AnalysisEngine;
@@ -29,6 +29,7 @@ import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.tcas.Annotation;
 import org.apache.uima.ruta.type.W;
 import org.junit.Before;
+import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -45,6 +46,7 @@ import ch.epfl.bbp.uima.cr.PubmedWholeDatabaseCR;
 import ch.epfl.bbp.uima.cr.TextFileReader;
 import de.julielab.jules.types.Token;
 
+@Ignore
 public class PrintMissingTest extends JCasAnnotator_ImplBase {
     protected static Logger LOG = LoggerFactory
             .getLogger(PrintMissingTest.class);

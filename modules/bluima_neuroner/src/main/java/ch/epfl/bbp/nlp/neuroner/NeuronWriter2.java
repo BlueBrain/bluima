@@ -14,7 +14,6 @@ import java.io.FileWriter;
 import java.io.PrintWriter;
 import java.util.Collection;
 import java.util.Map;
-import java.util.Map.Entry;
 
 import neuroner.NeuroNER.Neuron;
 import neuroner.NeuroNER.NeuronProperty;
@@ -25,6 +24,8 @@ import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.cas.text.AnnotationFS;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.fit.descriptor.ConfigurationParameter;
+import org.apache.uima.fit.descriptor.OperationalProperties;
+import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
 import org.slf4j.Logger;
@@ -33,17 +34,21 @@ import org.slf4j.LoggerFactory;
 import de.julielab.jules.types.Sentence;
 
 /**
- * 
+ * Neuron format:<br>
+ * <code>pmId, neuron_id, sentence_id, begin, end, type, text</code>
  * 
  * @author renaud.richardet@epfl.ch
  */
-public class NeuronWriter extends JCasAnnotator_ImplBase {
-    private static Logger LOG = LoggerFactory.getLogger(NeuronWriter.class);
+// because of instance fields:
+@OperationalProperties(multipleDeploymentAllowed = false)
+public class NeuronWriter2 extends JCasAnnotator_ImplBase {
+    private static Logger LOG = LoggerFactory.getLogger(NeuronWriter2.class);
 
     @ConfigurationParameter(name = PARAM_OUTPUT_FILE, defaultValue = "out.txt", //
     description = "outputfile, or System for sysout")
     protected String outputFile;
 
+    private int sentence_id = 1, neuron_id = 1;
     private PrintWriter writer, sentenceWriter;
 
     public void initialize(UimaContext context)
@@ -67,7 +72,6 @@ public class NeuronWriter extends JCasAnnotator_ImplBase {
         int pmId = getHeaderIntDocId(jCas);
 
         try {
-
             Map<AnnotationFS, Collection<AnnotationFS>> idxSentences = indexCovered(
                     jCas.getCas(), //
                     getType(jCas, Sentence.class),
@@ -82,33 +86,40 @@ public class NeuronWriter extends JCasAnnotator_ImplBase {
                     getType(jCas, NeuronWithProperties.class),
                     getType(jCas, Neuron.class));
 
-            for (Entry<AnnotationFS, Collection<AnnotationFS>> sentence_nwp : idxSentences
-                    .entrySet()) {
+            for (Sentence s : JCasUtil.select(jCas, Sentence.class)) {
 
-                int cnt = 0;
-                Sentence s = (Sentence) sentence_nwp.getKey();
-
-                for (AnnotationFS nwp_ : sentence_nwp.getValue()) {
+                for (AnnotationFS nwp_ : idxSentences.get(s)) {
                     NeuronWithProperties nwp = (NeuronWithProperties) nwp_;
 
                     // properties
                     for (AnnotationFS np : idxProperties.get(nwp)) {
-                        writer.append(format(
-                                "%d\t%d\t%s\t%s\n",//
-                                pmId, cnt, "NeuronProperty",
-                                np.getCoveredText().replaceAll("[\t\r\n]", "")));
+                        String type = np.getType().getShortName();
+                        writer.append(format("%d\t%d\t%d\t%d\t%d\t%s\t%s\n",//
+                                pmId, neuron_id, sentence_id, np.getBegin(), np
+                                        .getEnd(), type, np.getCoveredText()
+                                        .replaceAll("[\t\r\n]", "")));
                     }
 
                     // neuron
                     Neuron n = ((Neuron) (idxNeurons.get(nwp).iterator().next()));
-                    writer.append(format("%d\t%d\t%s\t%s\n",//
-                            pmId, cnt++, "Neuron", n.getCoveredText()
+                    writer.append(format("%d\t%d\t%d\t%d\t%d\t%s\t%s\n",//
+                            pmId, neuron_id, sentence_id, n.getBegin(), n
+                                    .getEnd(), "Neuron", n.getCoveredText()
                                     .replaceAll("[\t\r\n]", "")));
+                    neuron_id++;
 
                 }
+                // sentence
+                sentenceWriter
+                        .append(sentence_id
+                                + "\t"
+                                + s.getCoveredText()
+                                        .replaceAll("[\t\r\n]", " ") + "\n");
+                sentence_id++;
             }
 
             writer.flush();
+            sentenceWriter.flush();
 
         } catch (Exception e) {
             LOG.warn("could not process " + pmId, e);
@@ -119,5 +130,6 @@ public class NeuronWriter extends JCasAnnotator_ImplBase {
     public void collectionProcessComplete()
             throws AnalysisEngineProcessException {
         closeQuietly(writer);
+        closeQuietly(sentenceWriter);
     }
 }

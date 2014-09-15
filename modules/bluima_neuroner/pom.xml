@@ -14,9 +14,21 @@
 
   <dependencies>
     <dependency>
-      <artifactId>bluima_bbp</artifactId>
+      <artifactId>bluima_utils</artifactId>
       <groupId>${project.groupId}</groupId>
       <version>${project.parent.version}</version>
+    </dependency>
+    <dependency>
+      <artifactId>bluima_db</artifactId>
+      <groupId>${project.groupId}</groupId>
+      <version>${project.parent.version}</version>
+      <scope>test</scope>
+    </dependency>
+    <dependency>
+      <artifactId>bluima_opennlp</artifactId>
+      <groupId>${project.groupId}</groupId>
+      <version>${project.parent.version}</version>
+      <scope>test</scope>
     </dependency>
   </dependencies>
 

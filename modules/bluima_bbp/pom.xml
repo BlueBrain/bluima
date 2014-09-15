@@ -151,6 +151,11 @@
       <groupId>${project.groupId}</groupId>
       <version>${project.parent.version}</version>
     </dependency>
+    <dependency>
+      <artifactId>bluima_neuroner</artifactId>
+      <groupId>${project.groupId}</groupId>
+      <version>${project.parent.version}</version>
+    </dependency>
   </dependencies>
 
   <build>
