@@ -1,3 +1,5 @@
+Resources originally compiled by Leon French
+
 directions.txt is from a google set using a few neuroanatomical directions for seeds
 chudler.txt from http://faculty.washington.edu/chudler/neuroroot.html multiword ones were split into single words
 stop.txt is english stopwords from the snowball project - comments and white space removed
