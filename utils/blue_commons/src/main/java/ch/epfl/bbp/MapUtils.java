@@ -35,9 +35,14 @@ public class MapUtils {
      */
     public static <K, V extends Comparable<V>> LinkedHashMap<K, V> keysOfHighestValues(
             Map<K, V> map, int topN) {
+        return keysOfHighestValues(map, topN, true);
+    }
+
+    public static <K, V extends Comparable<V>> LinkedHashMap<K, V> keysOfHighestValues(
+            Map<K, V> map, int topN, final boolean reverse) {
 
         LinkedHashMap<K, V> best = new LinkedHashMap<K, V>(topN);
-        Iterator<Entry<K, V>> sortedByValueIt = sortByValue(map, true)
+        Iterator<Entry<K, V>> sortedByValueIt = sortByValue(map, reverse)
                 .entrySet().iterator();
 
         while (sortedByValueIt.hasNext() && topN > 0) {

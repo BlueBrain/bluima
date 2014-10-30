@@ -1,7 +1,11 @@
 package ch.epfl.bbp;
 
+import static ch.epfl.bbp.MissingUtils.getOrElse;
+
 import java.util.HashMap;
+import java.util.Iterator;
 import java.util.Map;
+import java.util.Map.Entry;
 import java.util.TreeSet;
 
 /**
@@ -43,18 +47,22 @@ public class Histogram<T> {
             return;
 
         if (map.containsKey(value)) {
-            map.put(value, map.get(value) + 1);
+            map.put(value, map.get(value) + times);
         } else {
-            map.put(value, 1l);
+            map.put(value, times + 0l);
         }
     }
 
     /**
      * @param value
-     * @return the number of times that 'value' occurs in the Histogram
+     * @return the number of times that 'value' occurs in the Histogram, or 0 if
+     *         this value is not in the histogram
      */
     public Long getCount(T value) {
-        return map.get(value);
+        if (map.containsKey(value))
+            return map.get(value);
+        else
+            return 0L;
     }
 
     public Map<T, Long> getMap() {
@@ -90,5 +98,19 @@ public class Histogram<T> {
             sb.append(map.get(key) + "\t" + key + "\n"); // count tab entry
         }
         return sb.toString();
+    }
+
+    public void cutAtMin(final int minCount) {
+        Iterator<Entry<T, Long>> iter = map.entrySet().iterator();
+        while (iter.hasNext()) {
+            if (iter.next().getValue() < minCount)
+                iter.remove();
+        }
+    }
+
+    public void add(Histogram<T> anotherHistogram) {
+        for (Entry<T, Long> e : anotherHistogram.map.entrySet()) {
+            map.put(e.getKey(), getOrElse(map, e.getKey(), 0L) + e.getValue());
+        }
     }
 }
