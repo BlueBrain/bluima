@@ -24,7 +24,6 @@ import org.elasticsearch.client.Client;
 import org.elasticsearch.common.xcontent.XContentBuilder;
 
 import de.julielab.jules.types.Sentence;
-
 /**
  * Indexes every sentences and their corresponding neuron entities into
  * ElasticSearch.
@@ -50,6 +49,7 @@ public class NeuronIndexer extends ElasticIndexer {
     public static final String FIELD_PUBMED_ID = "pm_id";
     /** {@link Field} name for end of an annotation */
     public static final String FIELD_END = "end";
+  
 
     /** Indexes neuron and properties at the sentence level. */
     @Override
@@ -126,7 +126,7 @@ public class NeuronIndexer extends ElasticIndexer {
                 requests.add(client.prepareIndex(indexName, "sentence", uid)
                         .setSource(doc));
 
-                LOG.debug(doc.string());
+                LOG.trace(doc.string());
 
                 // write out sentences that contain a neuron
                 if (!idxNeuronWithProperties.get(s).isEmpty()) {

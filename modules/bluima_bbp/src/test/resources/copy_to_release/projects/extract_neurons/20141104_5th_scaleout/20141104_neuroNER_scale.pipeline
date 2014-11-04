@@ -1,0 +1,27 @@
+cr: OneDocPerLineReader2
+ inputFile: /Volumes/HDD2/ren_data/data_hdd/__mycorpora/1m_ns/1m_ns.abstracts.tsv
+
+// neuroNER fails otherwise
+threads: 1
+ae: /Users/richarde/dev/bluebrain/git/neuroNER/descriptor/neuroner/NeuroNEREngine.xml
+
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: neuroner.NeuroNER.NeuronWithProperties
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: neuroner.NeuroNER.NeuronProperty
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+
+ae: ch.epfl.bbp.uima.elasticsearch.NeuronIndexer
+ indexName: neuroner_20141104
+ clusterName: elasticsearch_neuroner_dev
+ host: localhost
+ port__java: 9300
+
+// print Missings
+ae: AnnotationTypeWriter2
+ annotationClass: neuroner.NeuroNER.Missing
+ outputFile: target/20141104_Missings.tsv
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 1000

@@ -148,7 +148,7 @@ public class NeuronIndexerTest {
 
         // print Missings
         builder.add(AnnotationTypeWriter2.class, PARAM_ANNOTATION_CLASS,
-                Missing.class, PARAM_OUTPUT_FILE, "20141028_Missings.tsv");
+                Missing.class, PARAM_OUTPUT_FILE, "target/20141028_Missings.tsv");
 
         builder.add(createEngineDescription(StatsAnnotatorPlus.class,
                 PARAM_PRINT_EVERY, 1000));
