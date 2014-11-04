@@ -12,14 +12,12 @@ import static ch.epfl.bbp.uima.elasticsearch.ElasticIndexer.PARAM_PORT;
 import static ch.epfl.bbp.uima.testutils.UimaTests.createAnnot;
 import static ch.epfl.bbp.uima.testutils.UimaTests.getTestCas;
 import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
-import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescriptionFromPath;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription;
 import static org.elasticsearch.common.settings.ImmutableSettings.settingsBuilder;
 import static org.junit.Assert.assertEquals;
 import neuroner.NeuroNER.BrainRegionProp;
-import neuroner.NeuroNER.Electrophysiology;
 import neuroner.NeuroNER.Layer;
 import neuroner.NeuroNER.Missing;
 import neuroner.NeuroNER.Morphology;
@@ -49,10 +47,10 @@ import ch.epfl.bbp.uima.uimafit.JcasPipelineBuilder;
 import ch.epfl.bbp.uima.uimafit.PipelineBuilder;
 import ch.epfl.bbp.uima.uimafit.SimplePipelineBuilder;
 
+@Ignore
 public class NeuronIndexerTest {
 
     @Test
-    @Ignore
     public void test() throws Exception {
 
         // INDEXING
@@ -124,8 +122,8 @@ public class NeuronIndexerTest {
 
         String indexName = "neuroner_20141029";
         String clusterName = "elasticsearch_neuroner_dev";
-        String host ="localhost";// "128.178.187.160";
-        int port = 9300;//9301;
+        String host = "localhost";// "128.178.187.160";
+        int port = 9300;// 9301;
 
         String overlap = "It is concluded that the P2X3 receptor subunit is expressed in specific functional groups of neurons; the major types are excitatory and inhibitory muscle motor neurons, ascending interneurons and cholinergic secretomotor neurons.";
 

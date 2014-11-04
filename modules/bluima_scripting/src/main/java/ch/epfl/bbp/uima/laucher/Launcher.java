@@ -20,6 +20,8 @@ import java.util.Properties;
 import org.apache.uima.UIMAException;
 import org.slf4j.Logger;
 
+import ch.epfl.bbp.uima.BlueUima;
+
 import com.google.common.collect.Lists;
 
 /**
@@ -73,6 +75,7 @@ public class Launcher {
         // welcome message
         System.out.println("////////////////////////////////////////////////");
         System.out.println("Bluima -- NLP pipeline for biomedical literature ");
+        System.out.println("Revision " + BlueUima.getGitCommitId());
         System.out
                 .println("////////////////////////////////////////////////\n");
 
