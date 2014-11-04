@@ -6,6 +6,7 @@ import static java.lang.Integer.parseInt;
 import static java.lang.System.currentTimeMillis;
 import static org.apache.uima.fit.util.JCasUtil.indexCovered;
 import static org.apache.uima.fit.util.JCasUtil.select;
+import static org.elasticsearch.common.settings.ImmutableSettings.settingsBuilder;
 import static org.elasticsearch.common.xcontent.XContentFactory.jsonBuilder;
 
 import java.io.IOException;
@@ -21,7 +22,7 @@ import org.apache.uima.fit.descriptor.ConfigurationParameter;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.tcas.Annotation;
 import org.apache.uima.resource.ResourceInitializationException;
-import org.elasticsearch.ElasticSearchException;
+import org.elasticsearch.ElasticsearchException;
 import org.elasticsearch.action.bulk.BulkItemResponse;
 import org.elasticsearch.action.bulk.BulkItemResponse.Failure;
 import org.elasticsearch.action.bulk.BulkRequestBuilder;
@@ -29,11 +30,9 @@ import org.elasticsearch.action.bulk.BulkResponse;
 import org.elasticsearch.action.index.IndexRequestBuilder;
 import org.elasticsearch.client.Client;
 import org.elasticsearch.client.transport.TransportClient;
-import org.elasticsearch.common.settings.ImmutableSettings;
 import org.elasticsearch.common.settings.Settings;
 import org.elasticsearch.common.transport.InetSocketTransportAddress;
 import org.elasticsearch.common.xcontent.XContentBuilder;
-import org.elasticsearch.node.Node;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -54,38 +53,41 @@ public class ElasticIndexer extends JCasAnnotator_ImplBase {
     protected static Logger LOG = LoggerFactory.getLogger(ElasticIndexer.class);
 
     private static final int FLUSH_EVERY = 100;
-    public static final String TYPE = "type_";
-    public static final String ID = "id";
-    public static final String TEXT = "text";
+    public static final String FIELD_TYPE = "type_";
+    public static final String FIELD_ID = "id";
+    public static final String FIELD_TEXT = "text";
 
     public static final String PARAM_HOST = "host";
     @ConfigurationParameter(name = PARAM_HOST, defaultValue = "localhost", //
-    mandatory = false, description = "the ES host name, use '128.178.187.248' for desktop")
-    private String host;
+    mandatory = false, description = "the ES host name, use '128.178.187.160' for desktop")
+    protected String host;
+
+    public static final String PARAM_PORT = "port";
+    @ConfigurationParameter(name = PARAM_PORT, defaultValue = "9300", //
+    mandatory = false, description = "the ES port name, defaults to 9300")
+    protected int port;
 
     public static final String PARAM_CLUSTER_NAME = "clusterName";
-    @ConfigurationParameter(name = PARAM_CLUSTER_NAME, defaultValue = "elasticsearch_framesearch", //
-    mandatory = false, description = "the ES cluster name")
-    private String clusterName;
+    @ConfigurationParameter(name = PARAM_CLUSTER_NAME, description = "the ES cluster name")
+    protected String clusterName;
 
     public static final String PARAM_INDEX_NAME = "indexName";
     @ConfigurationParameter(name = PARAM_INDEX_NAME, description = "the ES index name")
-    private String indexName;
+    protected String indexName;
 
-    private Node node;
-    private Client client;
-    BulkRequestBuilder bulkRequest;
+    protected Client client;
+    protected BulkRequestBuilder bulkRequest;
 
+    @SuppressWarnings("resource")
     @Override
     public void initialize(UimaContext context)
             throws ResourceInitializationException {
         super.initialize(context);
-        // node = nodeBuilder().client(true).clusterName(clusterName).node();
-        // client = node.client();
-        Settings settings = ImmutableSettings.settingsBuilder()
-                .put("cluster.name", clusterName).build();
+
+        Settings settings = settingsBuilder().put("cluster.name", clusterName)
+                .build();
         client = new TransportClient(settings)
-                .addTransportAddress(new InetSocketTransportAddress(host, 9300));
+                .addTransportAddress(new InetSocketTransportAddress(host, port));
         if (((TransportClient) client).connectedNodes().size() == 0) {
             throw new RuntimeException(
                     "Could not connect to ES cluster, using host: " + host);
@@ -112,22 +114,26 @@ public class ElasticIndexer extends JCasAnnotator_ImplBase {
         if (++cnt % FLUSH_EVERY == 0) {
             long start = currentTimeMillis();
             int sentencesCnt = bulkRequest.numberOfActions();
-            BulkResponse bulkResponse = bulkRequest.execute().actionGet();
-            if (bulkResponse.hasFailures()) {
-                for (BulkItemResponse r : bulkResponse.getItems()) {
-                    LOG.error(r.getFailureMessage());
-                    Failure failure = r.getFailure();
-                    // e.g. when ES server is overloaded
-                    throw new ElasticSearchException(failure.toString());
-                }
-            }
+            flushBulk();
             bulkRequest = client.prepareBulk(); // new one
-            LOG.debug("did index bulk ({} sentences), took {}ms", //
+            LOG.debug("flushed index  with {} sentences, took {}ms", //
                     sentencesCnt, (currentTimeMillis() - start));
         }
     }
 
-    public static List<IndexRequestBuilder> toRequest(JCas jCas, Client client,
+    private void flushBulk() {
+        BulkResponse bulkResponse = bulkRequest.execute().actionGet();
+        if (bulkResponse.hasFailures()) {
+            for (BulkItemResponse r : bulkResponse.getItems()) {
+                LOG.error(r.getFailureMessage());
+                Failure failure = r.getFailure();
+                // e.g. when ES server is overloaded
+                throw new ElasticsearchException(failure.toString());
+            }
+        }
+    }
+
+    protected List<IndexRequestBuilder> toRequest(JCas jCas, Client client,
             String indexName) throws IOException {
         List<IndexRequestBuilder> requests = newArrayList();
 
@@ -150,7 +156,7 @@ public class ElasticIndexer extends JCasAnnotator_ImplBase {
             int sentenceId = s.getBegin();
 
             XContentBuilder doc = jsonBuilder().startObject();
-            doc.field(TEXT, s.getCoveredText());
+            doc.field(FIELD_TEXT, s.getCoveredText());
             doc.field("pmId", pmId);
             doc.field("sentenceId", sentenceId);
 
@@ -160,8 +166,8 @@ public class ElasticIndexer extends JCasAnnotator_ImplBase {
                 for (DictTerm dt : dictTermIdx.get(s)) {
                     doc.startObject();
                     Pair<String, Integer> id = getId(dt);
-                    doc.field(TYPE, id.getKey());
-                    doc.field(ID, id.getValue());
+                    doc.field(FIELD_TYPE, id.getKey());
+                    doc.field(FIELD_ID, id.getValue());
                     doc.field("start", dt.getBegin());
                     doc.field("end", dt.getEnd());
                     doc.endObject();
@@ -170,7 +176,7 @@ public class ElasticIndexer extends JCasAnnotator_ImplBase {
             if (protIdx.containsKey(s)) {
                 for (Protein prot : protIdx.get(s)) {
                     doc.startObject();
-                    doc.field(TYPE, "protein");
+                    doc.field(FIELD_TYPE, "protein");
                     doc.field("id_string", prot.getCoveredText());// TODO get id
                     doc.field("start", prot.getBegin());
                     doc.field("end", prot.getEnd());
@@ -180,7 +186,7 @@ public class ElasticIndexer extends JCasAnnotator_ImplBase {
             if (brIdx.containsKey(s)) {
                 for (BrainRegion br : brIdx.get(s)) {
                     doc.startObject();
-                    doc.field(TYPE, "brainer");
+                    doc.field(FIELD_TYPE, "brainer");
                     doc.field("id_string", br.getCoveredText());// TODO get id
                     doc.field("start", br.getBegin());
                     doc.field("end", br.getEnd());
@@ -191,7 +197,7 @@ public class ElasticIndexer extends JCasAnnotator_ImplBase {
                 for (Measure m : measuresIdx.get(s)) {
                     if (m.getUnit() != null) { // only when units
                         doc.startObject();
-                        doc.field(TYPE, "measure");
+                        doc.field(FIELD_TYPE, "measure");
                         // TODO get id
                         doc.field("id_string", m.getNormalizedUnit());
                         doc.field("start", m.getBegin());
@@ -210,7 +216,7 @@ public class ElasticIndexer extends JCasAnnotator_ImplBase {
                     // FIXME for now only aba br-br
                     if (cooc.getCooccurrenceType().equals("br-aba-syn-jsre")) {
                         doc.startObject();
-                        doc.field(TYPE, cooc.getCooccurrenceType());
+                        doc.field(FIELD_TYPE, cooc.getCooccurrenceType());
                         doc.field("start1", cooc.getFirstEntity().getBegin());
                         doc.field("end1", cooc.getFirstEntity().getEnd());
                         // FIXME this is hardcoded for br-br coocs
@@ -251,9 +257,9 @@ public class ElasticIndexer extends JCasAnnotator_ImplBase {
         return requests;
     }
 
-    private static Pair<String, Integer> getId(Annotation annot) {
+    /** e.g. aba:123 or subcell:5883 */
+    static Pair<String, Integer> getId(Annotation annot) {
 
-        // e.g. aba:123 or subcell:5883
         if (annot instanceof DictTerm) {
             DictTerm dt = (DictTerm) annot;
             String[] split = dt.getEntityId().split(":");
@@ -271,8 +277,8 @@ public class ElasticIndexer extends JCasAnnotator_ImplBase {
     public void destroy() {
         super.destroy();
         if (bulkRequest.numberOfActions() > 0) {
-            bulkRequest.execute().actionGet();
+            flushBulk();
         }
-        node.close();
+        client.close();
     }
 }

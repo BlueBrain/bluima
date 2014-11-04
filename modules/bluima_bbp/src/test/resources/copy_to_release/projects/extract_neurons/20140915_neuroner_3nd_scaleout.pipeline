@@ -1,0 +1,24 @@
+
+# $1 output file path
+# $2,3 from to
+
+
+cr: OneDocPerLineReader3
+ inputDirectory: /nfs4/bbp.epfl.ch/simulation/nlp/data/20140828_prefilter_sentences
+ between__java: new int[]{ $2, $3}
+
+include: 20140818_neuroner_scaleout.include
+
+
+# OUTPUT
+ae: ch.epfl.bbp.nlp.neuroner.NeuronWriter2
+ outputFile: $1_Neurons_3rd_scaleout.tsv
+
+ae: AnnotationTypeWriter2
+ annotationClass: neuroner.NeuroNER.Missing
+ outputFile: $1_Missings_3rd_scaleout.tsv
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 50
+
+

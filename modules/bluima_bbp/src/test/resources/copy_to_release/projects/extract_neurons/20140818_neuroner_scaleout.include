@@ -5,6 +5,7 @@
 threads: 1
 
 ae: /Users/richarde/dev/bluebrain/git/neuroNER/descriptor/neuroner/NeuroNEREngine.xml
+#ae: /nfs4/bbp.epfl.ch/user/richarde/dev/bluebrain/bluima_20140912/pipelines/projects/extract_neurons/neuroNER/descriptor/neuroner/NeuroNEREngine.xml
 
 ae: KeepLargestAnnotationAnnotator
  annotationClass: neuroner.NeuroNER.Missing
