@@ -50,18 +50,23 @@ public class KeepLargestAnnotationAnnotator extends JCasAnnotator_ImplBase {
 
         List<? extends Annotation> annots = new ArrayList<Annotation>(select(
                 jcas, annotationClass));
-        Set<Annotation> toDelete = newHashSet();
 
-        for (int i = 0; i < annots.size(); i++) {
-            Annotation outer = annots.get(i);
-            if (!toDelete.contains(outer)) {
-                toDelete.addAll(selectCovered(annotationClass, outer));
+        if (annots.size() > 1) {
+
+            Set<Annotation> toDelete = newHashSet();
+
+            for (int i = 0; i < annots.size(); i++) {
+                Annotation outer = annots.get(i);
+                if (!toDelete.contains(outer)) {
+                    toDelete.addAll(selectCovered(annotationClass, outer));
+                }
             }
-        }
 
-        Annotation[] arr = toDelete.toArray(new Annotation[toDelete.size()]);
-        for (int i = 0; i < arr.length; i++) {
-            arr[i].removeFromIndexes(jcas);
+            Annotation[] arr = toDelete
+                    .toArray(new Annotation[toDelete.size()]);
+            for (int i = 0; i < arr.length; i++) {
+                arr[i].removeFromIndexes(jcas);
+            }
         }
     }
 }

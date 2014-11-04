@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!-- from Rajnish's Channelpedia db dump
+20140924 from Emmanuelle  -->
+<synonym>
+
+<token canonical="KV4.3" ref_id="ionchanel:KV4.3">
+  <variant base="Kv4.3" />
+  <variant base="kcnd3" />
+  <variant base="Kncd3" />
+  <variant base="Kcnd3" />
+  <variant base="potassium voltage-gated channel, Shal-related subfamily, member 3" />
+</token>
+
+<token canonical="KV4.1" ref_id="ionchanel:KV4.1">
+  <variant base="kcnd1" />
+  <variant base="Kcnd1" />
+  <variant base="Kv4.1" />
+  <variant base="mShal1" />
+  <variant base="potassium voltage-gated channel, Shal-related subfamily, member 1" />
+  <variant base="Shal" />
+  <variant base="Kca2-1" />
+</token>
+<token canonical="KV12.3" ref_id="ionchanel:KV12.3">
+  <variant base="potassium voltage-gated channel, subfamily H (eag-related), member 4" />
+  <variant base="Kv12.3" />
+  <variant base="Kcnh4" />
+</token>
+
+
+<token canonical="KV4.2" ref_id="ionchanel:KV4.2">
+  <variant base="Kv4.2" />
+  <variant base="RK5" />
+  <variant base="kcnd2" />
+  <variant base="potassium voltage-gated channel, Shal-related subfamily, member 2" />
+  <variant base="Kcnd2" />
+  <variant base="Shal1" />
+</token>
+
+<token canonical="KV6.1" ref_id="ionchanel:KV6.1">
+  <variant base="k13" />
+  <variant base="Kcng1" />
+  <variant base="kh2" />
+  <variant base="potassium voltage-gated channel, subfamily G, member 1" />
+  <variant base="Kv6.1" />
+  <variant base="kcng1" />
+  <variant base="kcng" />
+</token>
+<token canonical="KV6.2" ref_id="ionchanel:KV6.2">
+  <variant base="potassium voltage-gated channel, subfamily G, member 2" />
+  <variant base="Kv6.2" />
+  <variant base="Kcng2" />
+  <variant base="kcng2" />
+</token>
+
+<token canonical="KV6.4" ref_id="ionchanel:KV6.4">
+  <variant base="kcng4" />
+  <variant base="Kv6.4" />
+  <variant base="potassium voltage-gated channel, subfamily G, member 4" />
+  <variant base="Kcng4" />
+</token>
+
+<token canonical="KV10.1" ref_id="ionchanel:KV10.1">
+  <variant base="KCNH1" />
+  <variant base="Kv10.1" />
+  <variant base="MGC142269" />
+  <variant base="EAG" />
+  <variant base="h-eag" />
+  <variant base="EAG1" />
+  <variant base="potassium voltage-gated channel, subfamily H (eag-related), member 1" />
+  <variant base="Kcnh1" />
+</token>
+<token canonical="KV10.2" ref_id="ionchanel:KV10.2">
+  <variant base="kcnh5" />
+  <variant base="Kcnh5" />
+  <variant base="potassium voltage-gated channel, subfamily H (eag-related), member 5" />
+  <variant base="Kv10.2" />
+  <variant base="eag2" />
+  <variant base="h-eag2" />
+</token>
+
+<token canonical="KV6.3" ref_id="ionchanel:KV6.3">
+  <variant base="Kcng3" />
+  <variant base="kv10.1" />
+  <variant base="potassium voltage-gated channel, subfamily G, member 3" />
+  <variant base="Kv6.3" />
+  <variant base="kcng3" />
+</token>
+
+<token canonical="KV12.2" ref_id="ionchanel:KV12.2">
+  <variant base="Kv12.2" />
+  <variant base="Kcnh3" />
+  <variant base="potassium voltage-gated channel, subfamily H (eag-related), member 3" />
+</token>
+
+<token canonical="KV12.1" ref_id="ionchanel:KV12.1">
+  <variant base="ELK" />
+  <variant base="Kcnh8" />
+  <variant base="KCNH8" />
+  <variant base="elk3" />
+  <variant base="ELK1" />
+  <variant base="Kv12.1" />
+  <variant base="potassium voltage-gated channel, subfamily H (eag-related), member 8" />
+</token>
+
+
+<token canonical="KV9.3" ref_id="ionchanel:KV9.3">
+  <variant base="Kv9.3" />
+  <variant base="Kcns3" />
+  <variant base="potassium voltage-gated channel, delayed-rectifier, subfamily S, member 3" />
+  <variant base="kcns3" />
+</token>
+
+<token canonical="KV9.1" ref_id="ionchanel:KV9.1">
+  <variant base="Kv9.1" />
+  <variant base="potassium voltage-gated channel, delayed-rectifier, subfamily S, member 1" />
+  <variant base="kcns1" />
+  <variant base="Kcns1" />
+</token>
+
+
+<token canonical="KV3.1" ref_id="ionchanel:KV3.1">
+  <variant base="NGK2-KV4" />
+  <variant base="potassium voltage gated channel, Shaw-related subfamily, member 1" />
+  <variant base="Kcnc1" />
+  <variant base="KShIIIB" />
+  <variant base="Kv3.1" />
+  <variant base="Kv4" />
+</token>
+
+<token canonical="KV3.3" ref_id="ionchanel:KV3.3">
+  <variant base="Kcr2-3" />
+  <variant base="potassium voltage gated channel, Shaw-related subfamily, member 3" />
+  <variant base="Kcnc3" />
+  <variant base="KShIIID" />
+  <variant base="kcnc3" />
+  <variant base="Kv3.3" />
+</token>
+<token canonical="KV3.2" ref_id="ionchanel:KV3.2">
+  <variant base="Kcnc2" />
+  <variant base="Kv3.2" />
+  <variant base="KShIIIA" />
+  <variant base="kcnc2" />
+  <variant base="potassium voltage gated channel, Shaw-related subfamily, member 2" />
+</token>
+<token canonical="KV3.4" ref_id="ionchanel:KV3.4">
+  <variant base="kcnc4" />
+  <variant base="Kcnc4" />
+  <variant base="potassium voltage gated channel, Shaw-related subfamily, member 4" />
+  <variant base="Kcr2-4" />
+  <variant base="KSHIIIC" />
+  <variant base="Kv3.4" />
+</token>
+
+<token canonical="KV1.6" ref_id="ionchanel:KV1.6">
+  <variant base="kcna6" />
+  <variant base="MK1.6" />
+  <variant base="Kcna6" />
+  <variant base="Kv1.6" />
+  <variant base="potassium voltage gated channel, shaker related subfamily, member 6" />
+</token>
+
+<token canonical="KV11.1" ref_id="ionchanel:KV11.1">
+  <variant base="Kv11.1" />
+  <variant base="ERG1" />
+  <variant base="KCNH2" />
+  <variant base="HERG1" />
+  <variant base="Kcnh2" />
+  <variant base="HERG" />
+  <variant base="SQT1" />
+  <variant base="potassium voltage-gated channel, subfamily H (eag-related), member 2" />
+  <variant base="LQT2" />
+</token>
+<token canonical="KV11.3" ref_id="ionchanel:KV11.3">
+  <variant base="kcnh7" />
+  <variant base="erg3" />
+  <variant base="Kcnh7" />
+  <variant base="HERG3" />
+  <variant base="potassium voltage-gated channel, subfamily H (eag-related), member 7" />
+  <variant base="Kv11.3" />
+</token>
+<token canonical="KV11.2" ref_id="ionchanel:KV11.2">
+  <variant base="Kcnh6" />
+  <variant base="ERG2" />
+  <variant base="HERG2" />
+  <variant base="potassium voltage-gated channel, subfamily H (eag-related), member 6" />
+  <variant base="KCNH6" />
+  <variant base="Kv11.2" />
+</token>
+
+<token canonical="KV8.1" ref_id="ionchanel:KV8.1">
+  <variant base="Kcnv1" />
+  <variant base="potassium channel, subfamily V, member 1" />
+  <variant base="HNKA" />
+  <variant base="kcnv1" />
+  <variant base="Kv8.1" />
+</token>
+<token canonical="KV8.2" ref_id="ionchanel:KV8.2">
+  <variant base="RCD3B" />
+  <variant base="Kv11.1" />
+  <variant base="kcnv2" />
+  <variant base="Kv8.2" />
+  <variant base="Kcnv2" />
+  <variant base="potassium channel, subfamily V, member 2" />
+</token>
+
+<token canonical="KV9.2" ref_id="ionchanel:KV9.2">
+  <variant base="Kv9.2" />
+  <variant base="potassium voltage-gated channel, delayed-rectifier, subfamily S, member 2" />
+  <variant base="Kcns2" />
+  <variant base="kcns2" />
+</token>
+
+<token canonical="KV2.1" ref_id="ionchanel:KV2.1">
+  <variant base="drk1pc" />
+  <variant base="kcr1-1" />
+  <variant base="shab" />
+  <variant base="Kv2.1" />
+  <variant base="potassium voltage gated channel, Shab-related subfamily, member 1" />
+  <variant base="kcnb1" />
+  <variant base="Kcnb1" />
+</token>
+<token canonical="KV2.2" ref_id="ionchanel:KV2.2">
+  <variant base="kcnb2" />
+  <variant base="potassium voltage gated channel, Shab-related subfamily, member 2" />
+  <variant base="kcnb2-A" />
+  <variant base="Kv2.2" />
+  <variant base="Kcnb2" />
+</token>
+
+<token canonical="KV1.3" ref_id="ionchanel:KV1.3">
+  <variant base="Kv1.3" />
+  <variant base="kcna3" />
+  <variant base="potassium voltage-gated channel, shaker-related subfamily, member 3" />
+  <variant base="Kcna3" />
+</token>
+<token canonical="KV1.2" ref_id="ionchanel:KV1.2">
+  <variant base="Kv1.2" />
+  <variant base="kcna2" />
+  <variant base="NGK1" />
+  <variant base="BK2" />
+  <variant base="potassium voltage-gated channel, shaker-related subfamily, member 2" />
+  <variant base="Kcna2" />
+</token>
+<token canonical="KV1.1" ref_id="ionchanel:KV1.1">
+  <variant base="Kv1.1" />
+  <variant base="Kcna1" />
+  <variant base="potassium voltage-gated channel, shaker-related subfamily, member 1" />
+  <variant base="kcpvd" />
+  <variant base="kcna1" />
+</token>
+<token canonical="KV1.7" ref_id="ionchanel:KV1.7">
+  <variant base="kcna7" />
+  <variant base="HAK6" />
+  <variant base="Kv1.7" />
+  <variant base="potassium voltage-gated channel, shaker-related subfamily, member 7" />
+  <variant base="Kcna7" />
+</token>
+
+<token canonical="KV1.5" ref_id="ionchanel:KV1.5">
+  <variant base="potassium voltage-gated channel, shaker-related subfamily, member 5" />
+  <variant base="kcna5" />
+  <variant base="Kcna5" />
+  <variant base="Kv1.5" />
+</token>
+<token canonical="KV1.4" ref_id="ionchanel:KV1.4">
+  <variant base="RHK1" />
+  <variant base="RK3" />
+  <variant base="KCHAN" />
+  <variant base="Kv1.4" />
+  <variant base="potassium voltage-gated channel, shaker-related subfamily, member 4" />
+  <variant base="kv4" />
+  <variant base="kcna4" />
+  <variant base="Kcna4" />
+</token>
+<token canonical="KV1.8" ref_id="ionchanel:KV1.8">
+  <variant base="kcna10" />
+  <variant base="Kv1.8" />
+  <variant base="kcna8" />
+</token>
+
+<token canonical="KV7.4" ref_id="ionchanel:KV7.4">
+  <variant base="potassium voltage-gated channel, KQT-like subfamily, member 4" />
+  <variant base="DFNA2A" />
+  <variant base="DFNA2" />
+  <variant base="KCNQ4" />
+  <variant base="KV7.4" />
+  <variant base="Kv7.4" />
+  <variant base="Kcnq4" />
+</token>
+
+<token canonical="KV5.1" ref_id="ionchanel:KV5.1">
+  <variant base="potassium voltage-gated channel, subfamily F, member 1" />
+  <variant base="kh1" />
+  <variant base="ik8" />
+  <variant base="kcnf1" />
+  <variant base="Kv5.1" />
+  <variant base="kcnf" />
+  <variant base="Kcnf1" />
+</token>
+
+<token canonical="KV7.5" ref_id="ionchanel:KV7.5">
+  <variant base="Kv7.5" />
+  <variant base="potassium voltage-gated channel, KQT-like subfamily, member 5" />
+  <variant base="KCNQ5" />
+  <variant base="Kcnq5" />
+</token>
+
+<token canonical="KV7.2" ref_id="ionchanel:KV7.2">
+  <variant base="potassium voltage-gated channel, KQT-like subfamily, member 2" />
+  <variant base="Kcnq2" />
+  <variant base="EBN" />
+  <variant base="KCNQ2" />
+  <variant base="BFNC" />
+  <variant base="EBN1" />
+  <variant base="HNSPC" />
+  <variant base="ENB1" />
+  <variant base="KCNA11" />
+  <variant base="Kv7.2" />
+  <variant base="KVEBN1" />
+  <variant base="KV7.2" />
+</token>
+<token canonical="KV7.1" ref_id="ionchanel:KV7.1">
+  <variant base="potassium voltage-gated channel, KQT-like subfamily, member 1" />
+  <variant base="JLNS1" />
+  <variant base="LQT" />
+  <variant base="KVLQT1" />
+  <variant base="Kv1.9" />
+  <variant base="KCNA9" />
+  <variant base="KCNQ1" />
+  <variant base="SQT2" />
+  <variant base="RWS" />
+  <variant base="LQT1" />
+  <variant base="WRS" />
+  <variant base="KCNA8" />
+  <variant base="ATFB3" />
+  <variant base="Kcnq1" />
+  <variant base="Kv7.1" />
+  <variant base="ATFB1" />
+</token>
+
+<token canonical="KV7.3" ref_id="ionchanel:KV7.3">
+  <variant base="potassium voltage-gated channel, KQT-like subfamily, member 3" />
+  <variant base="BFNC2" />
+  <variant base="Kcnq3" />
+  <variant base="KCNQ3" />
+  <variant base="Kv7.3" />
+  <variant base="EBN2" />
+  <variant base="KV7.3" />
+</token>
+
+</synonym>

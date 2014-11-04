@@ -71,11 +71,21 @@ public class JcasPipelineBuilder implements PipelineBuilder {
     @Override
     public JCas process() throws CpeDescriptorException, UIMAException,
             IOException {
+        return process(false);
+    }
+
+    public JCas process(boolean close) throws CpeDescriptorException,
+            UIMAException, IOException {
         if (engines == null) {
             engines = createEngines(aeds
                     .toArray(new AnalysisEngineDescription[aeds.size()]));
         }
         SimplePipeline.runPipeline(jCas, engines);
+        if (close) {
+            for (AnalysisEngine engine : engines) {
+                engine.destroy();
+            }
+        }
         return jCas;
     }
 

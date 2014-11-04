@@ -18,9 +18,11 @@ public class Word2VecUtilsTest {
     public void test() {
         assertNotNull(Word2VecUtils.getWordVector("brain"));
         assertNotNull(Word2VecUtils.getWordVector("thalamic"));
+
     }
 
     @Test
+    @Ignore
     public void testClasses() throws Exception {
 
         final String MODEL_FILE = "/Volumes/HDD2/ren_data/dev_hdd/bluebrain/9_lda/50_word2vec/word2vec_trunk/1m_ns.w2v.100classes.bin";
@@ -162,6 +164,7 @@ public class Word2VecUtilsTest {
     }
 
     @Test
+    @Ignore
     public void testBrainRegions() throws Exception {
 
         assertNotNull(Word2VecUtils.getClass("brain"));

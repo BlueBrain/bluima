@@ -34,6 +34,7 @@
   <logger name="org.xml.sax" level="INFO" />
   <logger name="com.wcohen.ss" level="INFO" />
   <logger name="org.springframework" level="INFO" />
+  <logger name="org.elasticsearch.threadpool" level="INFO" />
 
   <!-- custom log levels for bbp -->
   <logger name="ch.epfl.bbp.uima.ae.AbnerAnnotator" level="INFO" />

@@ -5,7 +5,6 @@ import static ch.epfl.bbp.uima.utils.Preconditions.checkFileExists;
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.collect.Lists.newArrayList;
 import static com.google.common.collect.Maps.newHashMap;
-import static com.google.common.collect.Sets.newHashSet;
 import static java.lang.Integer.parseInt;
 import static java.lang.Math.sqrt;
 
@@ -21,15 +20,13 @@ import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeSet;
 
-import com.google.common.collect.Lists;
-
 public class Word2Vec {
 
-    private HashMap<String, float[]> vocabulary = new HashMap<String, float[]>();
+    protected HashMap<String, float[]> vocabulary = new HashMap<String, float[]>();
 
-    private int vocabSize;
-    private int vectorSize;
-    private int topNSize = 40;
+    protected int vocabSize;
+    protected int vectorSize;
+    protected int topNSize = 40;
 
     public Word2Vec loadModel(String path) throws IOException {
         DataInputStream dis = null;
@@ -194,7 +191,7 @@ public class Word2Vec {
         return new TreeSet<WordEntry>(wordEntrys);
     }
 
-    private void insertTopN(String name, float score,
+    protected void insertTopN(String name, float score,
             List<WordEntry> wordsEntrys) {
         if (wordsEntrys.size() < topNSize) {
             wordsEntrys.add(new WordEntry(name, score));
@@ -243,13 +240,13 @@ public class Word2Vec {
         return vocabulary.get(word);
     }
 
-    private static float readFloat(InputStream is) throws IOException {
+    protected static float readFloat(InputStream is) throws IOException {
         byte[] bytes = new byte[4];
         is.read(bytes);
         return getFloat(bytes);
     }
 
-    private static float getFloat(byte[] b) {
+    protected static float getFloat(byte[] b) {
         int accum = 0;
         accum = accum | (b[0] & 0xff) << 0;
         accum = accum | (b[1] & 0xff) << 8;
@@ -258,7 +255,7 @@ public class Word2Vec {
         return Float.intBitsToFloat(accum);
     }
 
-    private static String readString(DataInputStream dis) throws IOException {
+    protected static String readString(DataInputStream dis) throws IOException {
         byte[] bytes = new byte[MAX_SIZE];
         byte b = dis.readByte();
         int i = -1;
@@ -279,6 +276,10 @@ public class Word2Vec {
 
     public int getTopNSize() {
         return topNSize;
+    }
+
+    public void setTopNSize(int topNSize) {
+        this.topNSize = topNSize;
     }
 
     public HashMap<String, float[]> getWordMap() {

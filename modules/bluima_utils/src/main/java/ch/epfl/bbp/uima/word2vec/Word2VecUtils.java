@@ -10,7 +10,8 @@ import org.slf4j.Logger;
 public class Word2VecUtils {
     private static Logger LOG = getLogger(Word2VecUtils.class);
 
-    static final String MODEL_FILE = "/Volumes/HDD2/ren_data/dev_hdd/bluebrain/9_lda/50_word2vec/word2vec_trunk/1m_ns-40.w2v.bin";// FIXME
+    static final String MODEL_FILE = "/Users/richarde/data_hdd/word2vec_models/vectors.bin";// FIXME
+   // static final String MODEL_FILE = "/Volumes/HDD2/ren_data/dev_hdd/bluebrain/9_lda/50_word2vec/word2vec_trunk/1m_ns-40.w2v.bin";// FIXME
     // static final String MODEL_FILE =
     // "/Users/richarde/dev/bluebrain/git/Bluima/vectors.bin";// FIXME
 

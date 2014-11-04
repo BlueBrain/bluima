@@ -34,7 +34,7 @@ import org.slf4j.LoggerFactory;
 import de.julielab.jules.types.Sentence;
 
 /**
- * Neuron format:<br>
+ * Writes neurons to a file that can be imported in a db. Neuron format:<br>
  * <code>pmId, neuron_id, sentence_id, begin, end, type, text</code>
  * 
  * @author renaud.richardet@epfl.ch

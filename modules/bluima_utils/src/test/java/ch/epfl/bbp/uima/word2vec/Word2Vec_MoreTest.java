@@ -1,10 +1,12 @@
 package ch.epfl.bbp.uima.word2vec;
 
+import static ch.epfl.bbp.MissingUtils.printTabbed;
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.collect.Lists.newArrayList;
 import static java.lang.Math.sqrt;
 import static java.lang.System.arraycopy;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertNotNull;
+import static org.junit.Assert.assertTrue;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -17,6 +19,7 @@ import java.util.Map.Entry;
 import java.util.Set;
 import java.util.TreeSet;
 
+import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
 import org.junit.Before;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -35,14 +38,15 @@ public class Word2Vec_MoreTest {
     public void before() throws IOException {
         String MODEL_FILE;
         // MODEL_FILE =
-        // "/Volumes/HDD2/ren_data/dev_hdd/bluebrain/9_lda/50_word2vec/word2vec_trunk/1m_ns-40.w2v.bin";
-        MODEL_FILE = "/Volumes/HDD2/ren_data/dev_hdd/bluebrain/9_lda/50_word2vec/word2vec_trunk/vectors.bin";
+        // "/Volumes/HDD2/ren_data/dev_hdd/bluebrain/9_lda/50_word2vec/word2vec_trunk/vectors.bin";
         // MODEL_FILE =
         // "/Volumes/HDD2/ren_data/data_hdd/word2vec_models/PubMed-w2v.bin";
         // MODEL_FILE =
         // "/Volumes/HDD2/ren_data/data_hdd/word2vec_models/GoogleNews-vectors-negative300.bin";
         // MODEL_FILE =
         // "/Volumes/HDD2/ren_data/data_hdd/word2vec_models/wikipedia-pubmed-and-PMC-w2v.bin";
+
+        MODEL_FILE = "/Users/richarde/data_hdd/word2vec_models/vectors.bin";// FIXME
         w2v = new Word2Vec();
         w2v.loadModel(MODEL_FILE);
         assertNotNull(w2v.getWordVector("brain"));
@@ -69,12 +73,16 @@ public class Word2Vec_MoreTest {
                 "princess", "son", "daughter", "father", "mother", "actor",
                 "actress", "man" }) {
 
-            System.out.print(w);
-            for (float f : w2v.getWordVector(w)) {
-                System.out.print("\t" + f);
-            }
-            System.out.println();
+            printVector(w);
         }
+    }
+
+    void printVector(String w) {
+        System.out.print(w);
+        for (float f : w2v.getWordVector(w)) {
+            System.out.print("\t" + f);
+        }
+        System.out.println();
     }
 
     @Test
@@ -83,13 +91,94 @@ public class Word2Vec_MoreTest {
         for (String w : new String[] { "king", "queen", "prince", "president",
                 "major", "man", "woman", "child" }) {
 
-            System.out.println("---------------\n" + w);
+            System.out.print("---------------\n" + w.toUpperCase() + "\n\t");
+            printVector(w);
             for (WordEntry we : w2v.distance(w)) {
+                // System.out.print(we.score + "\t");
+                // printVector(we.name);
+                printProduct(w, we.name);
+            }
+            System.out.println();
+        }
+    }
+
+    @Test
+    public void testPrintDISSimilar() throws Exception {
+
+        printProduct("king", "flute");
+        printProduct("king", "pencil");
+    }
+
+    private void printProduct(String w, String sim) {
+
+        float[] wv = w2v.getWordVector(w);
+        float[] simv = w2v.getWordVector(sim);
+        float cosine = 0f;
+        System.out.print("COSINE\t" + sim);
+        for (int i = 0; i < wv.length; i++) {
+            System.out.print("\t" + wv[i] * simv[i]);
+            cosine += wv[i] * simv[i];
+        }
+        System.out.println("\t" + cosine);
+    }
+
+    @Test
+    public void testDistanceNegAndMax() throws Exception {
+
+        for (String w : new String[] { "king", "queen", "prince", "president",
+                "major", "man", "woman", "child", "pencil", "water" }) {
+
+            System.out.print("---------------\n" + w.toUpperCase() + "\n");
+            for (WordEntry we : w2v.distance(w)) {
+                // for (WordEntry we : w2v.distanceNeg(w)) {
+                // for (WordEntry we : w2v.distanceNegCnt(w)) {
+                // for (WordEntry we : w2v.distanceMax(w)) {
                 System.out.println(we);
             }
             System.out.println();
         }
     }
+
+    @Test
+    public void testDistribution() throws Exception {
+
+        DescriptiveStatistics[] stats = new DescriptiveStatistics[w2v.getSize()];
+        for (int i = 0; i < stats.length; i++) {
+            stats[i] = new DescriptiveStatistics();
+        }
+
+        for (float[] v : w2v.getWordMap().values()) {
+            for (int i = 0; i < v.length; i++) {
+                stats[i].addValue(v[i]);
+            }
+        }
+
+        printTabbed("i", "min", "max", "P25", "mean", "P75");
+        for (int i = 0; i < stats.length; i++) {
+
+            DescriptiveStatistics s = stats[i];
+            printTabbed(i, s.getMin(), s.getMax(), s.getPercentile(25),
+                    s.getMean(), s.getPercentile(75));
+        }
+    }
+
+    public static int[] calcHistogram(double[] data, double min, double max,
+            int numBins) {
+        final int[] result = new int[numBins];
+        final double binSize = (max - min) / numBins;
+
+        for (double d : data) {
+            int bin = (int) ((d - min) / binSize);
+            if (bin < 0) { /* this data is smaller than min */
+            } else if (bin >= numBins) { /* this data point is bigger than max */
+            } else {
+                result[bin] += 1;
+            }
+        }
+        return result;
+    }
+
+    // ////////////
 
     @Test
     public void testAnalogy() throws Exception {

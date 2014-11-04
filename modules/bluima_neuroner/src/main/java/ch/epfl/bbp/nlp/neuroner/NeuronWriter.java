@@ -33,7 +33,7 @@ import org.slf4j.LoggerFactory;
 import de.julielab.jules.types.Sentence;
 
 /**
- * 
+ * Writes neurons to a file that can be imported in a db.
  * 
  * @author renaud.richardet@epfl.ch
  */
