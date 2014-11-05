@@ -4,8 +4,6 @@ import java.io.InputStreamReader;
 import java.util.Map;
 import java.util.Set;
 
-import javatools.datatypes.FinalMap;
-import javatools.datatypes.FinalSet;
 
 /** 
 This class is part of the Java Tools (see http://mpii.de/yago-naga/javatools).

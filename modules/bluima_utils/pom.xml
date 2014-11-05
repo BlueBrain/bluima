@@ -15,12 +15,7 @@
   <description>Common UIMA and uimaj utilities</description>
 
   <dependencies>
-    <!-- SHOULD NOT ADD DEPS HERE, AS ALL bluima MODULES USE THIS -->
-    <dependency>
-      <artifactId>javatools</artifactId>
-      <groupId>${project.parent.groupId}</groupId>
-      <version>${project.parent.version}</version>
-    </dependency>
+    <!-- SHOULD NOT ADD DEPS HERE, AS ALL bluima MODULES USE THIS -->    
     <dependency>
       <groupId>org.apache.xmlbeans</groupId>
       <artifactId>xmlbeans</artifactId>

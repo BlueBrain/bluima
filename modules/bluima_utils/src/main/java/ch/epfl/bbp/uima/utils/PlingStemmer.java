@@ -6,7 +6,7 @@ import java.text.ParseException;
 import org.apache.uima.conceptMapper.support.stemmer.Stemmer;
 
 /**
- * Remove plurals of english words, using {@link PlingStemmer}
+ * Remove plurals of english words, using {@link javatools.parsers.PlingStemmer}
  * 
  * @author renaud.richardet@epfl.ch
  */

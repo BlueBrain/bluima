@@ -1,4 +1,4 @@
-package javatools.datatypes;
+package javatools.parsers;
 import java.util.TreeMap;
 
 /** 
@@ -22,6 +22,7 @@ Example:
    --> 2
 </PRE>
 */
+@SuppressWarnings({ "serial", "rawtypes" })
 public class FinalMap<T1 extends Comparable,T2> extends TreeMap<T1,T2>{
   /** Constructs a FinalMap from an array that contains key/value sequences */  
   @SuppressWarnings("unchecked")
@@ -31,11 +32,5 @@ public class FinalMap<T1 extends Comparable,T2> extends TreeMap<T1,T2>{
       if(containsKey((T1)a[i])) throw new RuntimeException("Duplicate key in FinalMap: "+a[i]);
       put((T1)a[i],(T2)a[i+1]);
     }
-  }
-  
-  /** Test routine */
-  public static void main(String[] args) {
-    FinalMap<String,Integer> f=new FinalMap<String,Integer>("a",1,"b",2);
-    System.out.println(f.get("b"));
   }
 }

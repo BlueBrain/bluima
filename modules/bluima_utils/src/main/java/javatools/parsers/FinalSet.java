@@ -1,9 +1,8 @@
-package javatools.datatypes;
+package javatools.parsers;
 import java.util.AbstractList;
 import java.util.Arrays;
 import java.util.Set;
 
-import javatools.administrative.D;
 /** 
 This class is part of the Java Tools (see http://mpii.de/yago-naga/javatools).
 It is licensed under the Creative Commons Attribution License 
@@ -28,6 +27,7 @@ Example:
    --> b
 </PRE>
 */
+@SuppressWarnings("rawtypes")
 public class FinalSet<T extends Comparable> extends AbstractList<T> implements Set<T>{
   /** Holds the data, must be sorted */
   public T[] data;  
@@ -43,7 +43,7 @@ public class FinalSet<T extends Comparable> extends AbstractList<T> implements S
     data=a;
   }
   /** Constructs a FinalSet from an array that does not need to be cloned */
-  public FinalSet(T... a) {
+  public FinalSet(@SuppressWarnings("unchecked") T... a) {
     this(false,a);
   }
   /** Tells whether x is in the container */
@@ -63,11 +63,5 @@ public class FinalSet<T extends Comparable> extends AbstractList<T> implements S
   /** Returns the number of elements in this FinalSet */
   public int size() {
     return(data.length);
-  }
-  
-  /** Test routine */
-  public static void main(String[] args) {
-    FinalSet<String> f=new FinalSet<String>("b","a","c");
-    D.p(f.get(1));
   }
 }

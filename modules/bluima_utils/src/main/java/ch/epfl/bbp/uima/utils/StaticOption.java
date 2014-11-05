@@ -14,8 +14,7 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import javatools.datatypes.Pair;
-
+import org.apache.commons.math3.util.Pair;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -118,7 +117,7 @@ public class StaticOption {
         // LOG.info("combinaisonIndex: " + combinaisonIndex);
         int totalCombinaisons = 1;
         for (Pair<Type, Object[]> v : optionsDefinitions.values()) {
-            totalCombinaisons *= v.second.length;
+            totalCombinaisons *= v.getValue().length;
         }
         if (ci > totalCombinaisons)
             throw new IllegalArgumentException(
@@ -128,8 +127,8 @@ public class StaticOption {
         for (Entry<String, Pair<Type, Object[]>> optionEntry : optionsDefinitions
                 .entrySet()) {
             String name = optionEntry.getKey();
-            Type type = optionEntry.getValue().first;
-            Object[] options = optionEntry.getValue().second;
+            Type type = optionEntry.getValue().getKey();
+            Object[] options = optionEntry.getValue().getValue();
 
             int l = totalCombinaisons / options.length;
             int whichBin = ci / l;
@@ -150,7 +149,7 @@ public class StaticOption {
     public static void print() {
         String msg = "choosen static options: ";
         for (Entry<String, Pair<Type, Object>> e : choosenOption.entrySet()) {
-            msg += e.getKey() + "::" + e.getValue().second + " ";
+            msg += e.getKey() + "::" + e.getValue().getValue() + " ";
         }
         LOG.info(msg);
     }
@@ -168,11 +167,11 @@ public class StaticOption {
         if (!choosenOption.containsKey(key))
             throw new IllegalArgumentException("no key " + key);
         Pair<Type, Object> pair = choosenOption.get(key);
-        if (pair.first.equals(type))
-            return pair.second;
+        if (pair.getKey().equals(type))
+            return pair.getValue();
         else
             throw new IllegalArgumentException("key " + key
-                    + " has wrong type: " + pair.first);
+                    + " has wrong type: " + pair.getKey());
     }
 
     public static boolean getBoolean(String key) {

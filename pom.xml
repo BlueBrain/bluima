@@ -66,7 +66,6 @@
         <!-- utils: do not depend on parent nor UIMA -->
         <module>utils/blue_commons</module>
         <module>utils/pdf_glyph_mapping</module>
-        <module>utils/javatools</module>
         <module>utils/mallet_utils</module>
 
         <module>modules/bluima_typesystem</module>
