@@ -31,6 +31,12 @@ public class KeepsWriter extends JCasAnnotator_ImplBase {
 
     @ConfigurationParameter(name = PARAM_OUTPUT_FILE)
     private String outputFile;
+
+    private static final String PARAM_WRITE_DASHES = "writeDashes";
+    @ConfigurationParameter(name = PARAM_WRITE_DASHES, mandatory = false, defaultValue = "false",//
+    description = "Whether to replace all spaces in (multi)words with dashes ('_')")
+    private boolean writeDashes;
+
     private PrintWriter writer;
 
     @Override
@@ -51,7 +57,12 @@ public class KeepsWriter extends JCasAnnotator_ImplBase {
     public void process(JCas jCas) throws AnalysisEngineProcessException {
         List<String> words = newArrayList();
         for (Keep k : select(jCas, Keep.class)) {
-            words.add(k.getNormalizedText());
+            if (writeDashes) {
+                words.add(k.getNormalizedText().replaceAll(" ", "_"));
+            } else {
+                words.add(k.getNormalizedText());
+            }
+
         }
         writer.println(join(words, " "));
 

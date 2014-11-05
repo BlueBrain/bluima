@@ -41,9 +41,6 @@ import de.julielab.jules.types.Header;
 // AbstractFileReader)
 @TypeCapability(outputs = BRAIN_REGION)
 public class UscTteCollectionReader extends AbstractFileReader {
-    @SuppressWarnings("unused")
-    private static Logger LOG = LoggerFactory
-            .getLogger(UscTteCollectionReader.class);
 
     private SAXBuilder builder;
     private XMLOutputter xo;
