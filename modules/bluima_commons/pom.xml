@@ -53,6 +53,17 @@
       <groupId>edu.ucdenver.ccp</groupId>
       <artifactId>biolemmatizer-core</artifactId>
       <version>1.1</version>
+      <exclusions>
+        <exclusion>
+          <groupId>edu.northwestern.at</groupId>
+          <artifactId>morphadorner</artifactId>
+        </exclusion>
+      </exclusions>
+    </dependency>
+    <dependency>
+      <groupId>org.wiki.harvester.dependency</groupId>
+      <artifactId>morphadorner</artifactId>
+      <version>1.0</version>
     </dependency>
     <dependency>
       <groupId>edu.ucdenver.ccp</groupId>
@@ -86,8 +97,8 @@
   <repositories>
     <!-- for Morphoadonner -->
     <repository>
-      <id>getalp.repository</id>
-      <url>http://getalp.imag.fr/m2</url>
+      <id>spotlight-releases-repository</id>
+      <url>https://github.com/dbpedia-spotlight/maven-repo/raw/master/releases</url>
     </repository>
     <repository>
       <name>Github personal repo (renaudr)</name>
