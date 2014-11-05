@@ -1,13 +1,10 @@
 package ch.epfl.bbp.uima.regions;
 
-import static ch.epfl.bbp.uima.utils.StaticOption.getBoolean;
-import static ch.epfl.bbp.uima.utils.StaticOption.getInt;
 import static ch.epfl.bbp.uima.utils.StaticOption.parseOptions;
 import static ch.epfl.bbp.uima.utils.StaticOption.setChoosenOption;
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.collect.Lists.newArrayList;
 import static com.google.common.collect.Maps.newTreeMap;
-import static java.lang.Double.parseDouble;
 import static java.lang.Integer.parseInt;
 
 import java.io.File;
@@ -15,9 +12,8 @@ import java.util.List;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import javatools.datatypes.Pair;
-
 import org.apache.commons.math3.stat.descriptive.DescriptiveStatistics;
+import org.apache.commons.math3.util.Pair;
 
 import ch.epfl.bbp.io.SVReader.CSVReader;
 import ch.epfl.bbp.uima.utils.StaticOption;
@@ -83,7 +79,7 @@ public class ParseGridsearchResults {
             System.out.print(i + "\t");
             for (Entry<String, Pair<Type, Object>> option : setChoosenOption(i)
                     .entrySet()) {
-                System.out.print(option.getValue().second + "\t");
+                System.out.print(option.getValue().getValue() + "\t");
             }
             System.out.println(sampleMap.get(i).getMean());
         }
@@ -158,7 +154,7 @@ public class ParseGridsearchResults {
         Pair<Type, Object[]> optionDefinition = StaticOption
                 .getOptionDefinition(optionName);
         List<String> optionValues = newArrayList();
-        for (Object optionValue : optionDefinition.second) {
+        for (Object optionValue : optionDefinition.getValue()) {
             optionValues.add(optionValue.toString());
         }
         return optionValues;

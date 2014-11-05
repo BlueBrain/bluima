@@ -1,103 +1,110 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-	<modelVersion>4.0.0</modelVersion>
+  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
 
-	<artifactId>bluima_commons</artifactId>
-	<name>Bluima common annotators</name>
+  <artifactId>bluima_commons</artifactId>
+  <name>Bluima common annotators</name>
 
-	<parent>
-		<groupId>ch.epfl.bbp.nlp</groupId>
-		<artifactId>bluima_parent</artifactId>
-		<version>0.1</version>
-		<relativePath>../../pom.xml</relativePath>
-	</parent>
+  <parent>
+    <groupId>ch.epfl.bbp.nlp</groupId>
+    <artifactId>bluima_parent</artifactId>
+    <version>0.1</version>
+    <relativePath>../../pom.xml</relativePath>
+  </parent>
 
-	<dependencies>
-		<dependency>
-			<artifactId>bluima_utils</artifactId>
-			<groupId>${project.groupId}</groupId>
-			<version>${project.version}</version>
-		</dependency>
-		<dependency>
-			<artifactId>bluima_scripting</artifactId>
-			<groupId>${project.groupId}</groupId>
-			<version>${project.version}</version>
-			<scope>test</scope>
-		</dependency>
+  <dependencies>
+    <dependency>
+      <artifactId>bluima_utils</artifactId>
+      <groupId>${project.groupId}</groupId>
+      <version>${project.version}</version>
+    </dependency>
 
-		<!-- BioAdi -->
-		<dependency>
-			<groupId>bioadi</groupId>
-			<artifactId>bioadi</artifactId>
-			<version>0.1</version>
-		</dependency>
-		<dependency>
-			<groupId>bioadi</groupId>
-			<artifactId>sptoolkit</artifactId>
-			<version>0.1</version>
-		</dependency>
-		<dependency>
-			<groupId>bioadi</groupId>
-			<artifactId>j-seqalign</artifactId>
-			<version>0.1</version>
-		</dependency>
-		<dependency>
-			<groupId>mallet</groupId>
-			<artifactId>mallet</artifactId>
-			<version>0.4</version>
-		</dependency>
+    <!-- BioAdi -->
+    <dependency>
+      <groupId>bioadi</groupId>
+      <artifactId>bioadi</artifactId>
+      <version>0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>bioadi</groupId>
+      <artifactId>sptoolkit</artifactId>
+      <version>0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>bioadi</groupId>
+      <artifactId>j-seqalign</artifactId>
+      <version>0.1</version>
+    </dependency>
+    <dependency>
+      <groupId>mallet</groupId>
+      <artifactId>mallet</artifactId>
+      <version>0.4</version>
+    </dependency>
 
-		<!-- Linnaeus -->
-		<dependency>
-			<groupId>hu.u_szeged.rgai.bio.uima</groupId>
-			<artifactId>linnaeus</artifactId>
-			<version>2.0</version>
-		</dependency>
+    <!-- Linnaeus -->
+    <dependency>
+      <groupId>hu.u_szeged.rgai.bio.uima</groupId>
+      <artifactId>linnaeus</artifactId>
+      <version>2.0</version>
+    </dependency>
 
-		<!-- BioLemmatizer -->
-		<dependency>
-			<groupId>edu.ucdenver.ccp</groupId>
-			<artifactId>biolemmatizer-core</artifactId>
-			<version>1.1</version>
-		</dependency>
-		<dependency>
-			<groupId>edu.ucdenver.ccp</groupId>
-			<artifactId>biolemmatizer-uima</artifactId>
-			<version>1.1</version>
-		</dependency>
+    <!-- BioLemmatizer -->
+    <dependency>
+      <groupId>edu.ucdenver.ccp</groupId>
+      <artifactId>biolemmatizer-core</artifactId>
+      <version>1.1</version>
+    </dependency>
+    <dependency>
+      <groupId>edu.ucdenver.ccp</groupId>
+      <artifactId>biolemmatizer-uima</artifactId>
+      <version>1.1</version>
+    </dependency>
 
-		<!-- WordNet -->
-		<dependency>
-			<groupId>edu.mit</groupId>
-			<artifactId>jwi</artifactId>
-			<version>2.2.3</version>
-		</dependency>
+    <!-- WordNet -->
+    <dependency>
+      <groupId>edu.mit</groupId>
+      <artifactId>jwi</artifactId>
+      <version>2.2.3</version>
+    </dependency>
 
-		<!-- Language detection -->
-		<dependency>
-			<groupId>com.cybozu.labs</groupId>
-			<artifactId>langdetect</artifactId>
-			<version>1.2.2</version>
-		</dependency>
-	</dependencies>
+    <!-- Language detection -->
+    <dependency>
+      <groupId>com.cybozu.labs</groupId>
+      <artifactId>langdetect</artifactId>
+      <version>1.2.2</version>
+    </dependency>
 
-	<repositories>
-		<repository>
-			<name>Github personal repo (renaudr)</name>
-			<id>renaudr</id>
-			<url>https://github.com/renaud/maven_repo/raw/master/snapshots</url>
-		</repository>
-		<repository>
-			<name>Github personal repo (renaudr)</name>
-			<id>renaudr2</id>
-			<url>https://raw.github.com/renaud/maven_repo/master/snapshots</url>
-		</repository>
+    <!-- TESTING -->
+    <dependency>
+      <artifactId>bluima_scripting</artifactId>
+      <groupId>${project.groupId}</groupId>
+      <version>${project.version}</version>
+      <scope>test</scope>
+    </dependency>
+  </dependencies>
 
-		<!-- Language detection -->
-		<repository>
-			<id>Github Imaginatio</id>
-			<url>https://github.com/Imaginatio/Maven-repository/raw/master</url>
-		</repository>
-	</repositories>
+  <repositories>
+    <!-- for Morphoadonner -->
+    <repository>
+      <id>getalp.repository</id>
+      <url>http://getalp.imag.fr/m2</url>
+    </repository>
+    <repository>
+      <name>Github personal repo (renaudr)</name>
+      <id>renaudr</id>
+      <url>https://github.com/renaud/maven_repo/raw/master/snapshots</url>
+    </repository>
+    <repository>
+      <name>Github personal repo (renaudr)</name>
+      <id>renaudr2</id>
+      <url>https://raw.github.com/renaud/maven_repo/master/snapshots</url>
+    </repository>
+
+    <!-- Language detection -->
+    <repository>
+      <id>Github Imaginatio</id>
+      <url>https://github.com/Imaginatio/Maven-repository/raw/master</url>
+    </repository>
+  </repositories>
 
 </project>

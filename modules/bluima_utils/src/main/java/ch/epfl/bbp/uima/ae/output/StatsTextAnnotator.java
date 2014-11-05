@@ -1,7 +1,5 @@
 package ch.epfl.bbp.uima.ae.output;
 
-import static java.lang.System.out;
-
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
@@ -35,7 +33,7 @@ public class StatsTextAnnotator extends JCasAnnotator_ImplBase {
     @Override
     public void collectionProcessComplete()
             throws AnalysisEngineProcessException {
-        out.println("StatsTextAnnotator\nempty\t" + emptyDocs + "\n"
+        System.out.println("StatsTextAnnotator\nempty\t" + emptyDocs + "\n"
                 + histogram.toString() + "\n");
     }
 }

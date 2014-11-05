@@ -15,7 +15,7 @@ public class StopwatchUtils {
 
     public static void START(final int id) {
         while (stopWatches.size() < id + 1)
-            stopWatches.add(new Stopwatch());
+            stopWatches.add(Stopwatch.createUnstarted());
         stopWatches.get(id).start();
     }
 

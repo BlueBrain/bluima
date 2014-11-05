@@ -14,7 +14,9 @@ import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.tcas.Annotation;
 import org.junit.Test;
 
+
 import ch.epfl.bbp.uima.ae.cleanup.DisambiguatorAnnotator;
+//import ch.epfl.bbp.uima.ae.cleanup.DisambiguatorAnnotator;
 import ch.epfl.bbp.uima.testutils.UimaTests;
 import ch.epfl.bbp.uima.types.AgeDictTerm;
 import ch.epfl.bbp.uima.types.Keep;

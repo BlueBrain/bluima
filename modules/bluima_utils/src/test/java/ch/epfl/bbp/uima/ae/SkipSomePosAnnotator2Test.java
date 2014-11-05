@@ -15,7 +15,7 @@ import ch.epfl.bbp.uima.types.Protein;
 import de.julielab.jules.types.Annotation;
 import de.julielab.jules.types.Token;
 
-public class SkipSomePosAnnotatorTest {
+public class SkipSomePosAnnotator2Test {
 
 	@Test
 	public void test() throws Exception {

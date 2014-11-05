@@ -106,7 +106,7 @@ public class ExtractCoocurrencesTest {
                 PARAM_KEEP_ONLY_NEAREST_NEIGHBORS, true));
 
         List<Cooccurrence> coocs = asList(select(jCas, Cooccurrence.class));
-        System.out.println(coocs);
+        // System.out.println(coocs);
         assertTrue("too many co-occurrences have been kept", coocs.size() == 1);
         assertEquals(CHOICE_ERROR, "a1 b1", coocs.get(0).getCoveredText());
     }
@@ -130,7 +130,7 @@ public class ExtractCoocurrencesTest {
                 PARAM_KEEP_ONLY_NEAREST_NEIGHBORS, true));
 
         List<Cooccurrence> coocs = asList(select(jCas, Cooccurrence.class));
-        System.out.println(coocs);
+        // System.out.println(coocs);
         assertTrue("too many co-occurrences have been kept", coocs.size() == 2);
         assertEquals(CHOICE_ERROR, "bli bla", coocs.get(0).getCoveredText());
         assertEquals(CHOICE_ERROR, "a2 b2", coocs.get(1).getCoveredText());

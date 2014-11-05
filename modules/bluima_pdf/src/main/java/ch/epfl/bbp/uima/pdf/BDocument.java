@@ -1,7 +1,5 @@
 package ch.epfl.bbp.uima.pdf;
 
-import static ch.lambdaj.Lambda.max;
-import static ch.lambdaj.Lambda.on;
 import static com.google.common.collect.Lists.newArrayList;
 import static java.lang.Double.MAX_VALUE;
 import static java.lang.Double.MIN_VALUE;
@@ -33,7 +31,11 @@ public class BDocument {
     List<BBlock> blocks = new ArrayList<BBlock>();
 
     public int getNumPages() {
-        return max(blocks, on(BBlock.class).getPageId()); // nice!
+        int maxPage=0;
+        for (BBlock b : blocks) {
+            maxPage = Math.max(maxPage, b.getPageId());
+        }
+        return maxPage;
     }
 
     public List<BBlock> getBlocks() {

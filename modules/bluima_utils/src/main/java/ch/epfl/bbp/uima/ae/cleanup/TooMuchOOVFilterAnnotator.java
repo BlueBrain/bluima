@@ -74,10 +74,6 @@ public class TooMuchOOVFilterAnnotator extends JCasAnnotator_ImplBase {
             }
 
             double ratio = freqTokens / tokenCnt;
-            // String pmId = BlueCasUtil.getHeaderDocId(jCas);
-            // String source = BlueCasUtil.getHeaderSource(jCas);
-            // System.out.println(pmId + "\t" + source + "\tratiooo\t" +
-            // ratio+"\ttokenCnt\t"+tokenCnt);
             if (ratio < RATIO_CUTOFF) {
                 new TooManyOOV(jCas).addToIndexes();
             }

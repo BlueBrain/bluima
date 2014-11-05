@@ -1,6 +1,6 @@
 package ch.epfl.bbp.uima.typesystem;
 
-import static com.google.common.collect.Sets.newHashSet;
+import static ch.epfl.bbp.uima.typesystem.TypeSystemSemantics.newHashSet;
 
 import java.util.Set;
 

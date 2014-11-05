@@ -1,15 +1,11 @@
 package ch.epfl.bbp.uima;
 
-import static ch.epfl.bbp.hamcrest.NoneOf.noneOf;
-import static ch.epfl.bbp.hamcrest.ShorterThan.shorterThan;
 import static ch.epfl.bbp.uima.BlueUima.BLUE_UIMA_ROOT;
-import static ch.lambdaj.Lambda.filter;
 import static java.util.regex.Pattern.compile;
 import static org.apache.commons.io.FileUtils.iterateFiles;
 import static org.apache.commons.io.FileUtils.readFileToString;
 import static org.apache.commons.io.FilenameUtils.getExtension;
 import static org.apache.commons.lang.StringUtils.join;
-import static org.hamcrest.text.StringContains.containsString;
 import static org.slf4j.LoggerFactory.getLogger;
 
 import java.io.File;
@@ -190,9 +186,7 @@ public class Documentation {
                 String[] split = rawJavaDoc.split("\n");
 
                 @SuppressWarnings("unchecked")
-                String javaDoc = join(
-                        filter(noneOf(shorterThan(3), containsString("@author")),
-                                split), " ");
+                String javaDoc = join(split, " ");
                 // remove {@link ... }
                 javaDoc = javaDoc.replaceAll("\\{@link (.*?)\\}", "$1");
                 // remove double spaces, breaks
@@ -207,5 +201,4 @@ public class Documentation {
         }
         return "";
     }
-
 }

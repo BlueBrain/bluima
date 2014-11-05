@@ -91,7 +91,6 @@ public class HtmlViewerWriter extends JCasAnnotator_ImplBase {
 
                 Set<String> annots = newHashSet();
                 for (AnnotationFS a : index.get(t)) {
-                    // System.out.println(a.getType().getName());
                     if (!NON_CONTENT_ANNOTATIONS_OR_TOKEN.contains(a.getType()
                             .getName())) {
                         annots.add(a.getType().getShortName());

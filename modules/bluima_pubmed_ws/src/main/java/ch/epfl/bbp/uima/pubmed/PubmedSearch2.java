@@ -7,10 +7,9 @@ import gov.nih.nlm.ncbi.www.soap.eutils.EUtilsServiceStub;
 import java.rmi.RemoteException;
 import java.util.ArrayList;
 import java.util.Iterator;
+import java.util.LinkedList;
 import java.util.List;
 import java.util.Queue;
-
-import javatools.datatypes.ArrayQueue;
 
 import org.apache.axis2.AxisFault;
 import org.apache.commons.lang.NotImplementedException;
@@ -172,7 +171,7 @@ public class PubmedSearch2 {
 
         return new Iterator<EFetchPubmedServiceStub.PubmedArticleType>() {
 
-            private Queue<PubmedArticleType> articlesQueue = new ArrayQueue<EFetchPubmedServiceStub.PubmedArticleType>();
+            private Queue<PubmedArticleType> articlesQueue = new LinkedList<EFetchPubmedServiceStub.PubmedArticleType>();
             private int nrResultsReturned = 0;
             private int fetchesPerRuns = Math.min(20, finalMaxNrResults);
             // private int runs = (int) Math.ceil(count

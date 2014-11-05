@@ -905,17 +905,4 @@ public class PlingStemmer {
         "tactics",
         "tropics"
         );
-  
-  /** Test routine */
-  public static void main(String[] argv) throws Exception {    
-    System.out.println("Enter an English word in plural form and press ENTER");
-    BufferedReader in=new BufferedReader(new InputStreamReader(System.in));
-    while(true) {
-      String w=in.readLine();
-      if(w.length()==0) break;
-      if(isPlural(w)) System.out.println("This word is plural");
-      if(isSingular(w)) System.out.println("This word is singular");
-      System.out.println("Stemmed to singular: "+stem(w));
-    }
-  }
 }

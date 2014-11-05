@@ -1,7 +1,8 @@
 package ch.epfl.bbp.uima.typesystem;
 
-import static com.google.common.collect.Sets.newHashSet;
-
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.HashSet;
 import java.util.List;
 import java.util.Set;
 
@@ -34,9 +35,6 @@ import ch.epfl.bbp.uima.types.SexDictTerm;
 import ch.epfl.bbp.uima.types.Verb;
 import ch.epfl.bbp.uima.types.VerbDictTerm;
 import ch.epfl.bbp.uima.types.WordnetDictTerm;
-
-import com.google.common.collect.Lists;
-
 import de.julielab.jules.types.Chemical;
 import de.julielab.jules.types.DocumentAnnotation;
 import de.julielab.jules.types.GeniaPOSTag;
@@ -92,7 +90,7 @@ public class TypeSystemSemantics {
      * Defines semantic priority between annotations, in INCREASING order of
      * prio. Used among others in ViterbiFilterAnnotator.
      */
-    public static final List<String> ANNOTATIONS_PRIORITY = Lists.newArrayList( //
+    public static final List<String> ANNOTATIONS_PRIORITY = newArrayList( //
             Token.class.getName() //
             , DictTerm.class.getName() //
             , Verb.class.getName() //
@@ -120,5 +118,19 @@ public class TypeSystemSemantics {
             , POSAdverb.class.getName() //
             , POSWh.class.getName() //
             , POSSkip.class.getName() //
-            );
+    );
+
+    public static <E> ArrayList<E> newArrayList(
+            @SuppressWarnings("unchecked") E... elements) {
+        ArrayList<E> list = new ArrayList<E>();
+        Collections.addAll(list, elements);
+        return list;
+    }
+
+    public static <E> HashSet<E> newHashSet(
+            @SuppressWarnings("unchecked") E... elements) {
+        HashSet<E> set = new HashSet<E>();
+        Collections.addAll(set, elements);
+        return set;
+    }
 }

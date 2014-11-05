@@ -1,6 +1,5 @@
 package ch.epfl.bbp.uima.filter;
 
-import static ch.epfl.bbp.MissingUtils.printf;
 import static ch.epfl.bbp.io.TsvUtils.loadIntString;
 import static ch.epfl.bbp.io.TsvUtils.loadStringInt;
 import static ch.epfl.bbp.uima.BlueCasUtil.getHeaderIntDocId;
@@ -74,7 +73,6 @@ public class SectionAnnotator extends JCasAnnotator_ImplBase {
     public void process(JCas jCas) throws AnalysisEngineProcessException {
         int pmId = getHeaderIntDocId(jCas);
         totCnt++;
-        // System.out.println(pmId);
 
         // COMPUTE AND RANK STATEGIES
         Set<Integer> strategyUppercase = newHashSet(), //
@@ -87,22 +85,19 @@ public class SectionAnnotator extends JCasAnnotator_ImplBase {
             if (cleanedBlockText == null)
                 cleanedBlockText = "";
             blocksCache.put(block, cleanedBlockText);
-            // System.out.println("TEXT\t" + cleanedBlockText);
 
             for (Entry<String, Integer> ent : sectionTitles.entrySet()) {
                 String trigger = ent.getKey();
                 int category = ent.getValue();
                 if (cleanedBlockText.startsWith(trigger.toUpperCase())) {
                     strategyUppercase.add(category);
-                   // System.out.println("STRATEGY_UC: " + trigger.toUpperCase());
+
                 }
                 if (cleanedBlockText.toLowerCase().equals(trigger)) {
                     strategyExactMatch.add(category);
-                 //   System.out.println("STRATEGY_EQ: " + trigger);
                 }
                 if (cleanedBlockText.toLowerCase().startsWith(trigger)) {
                     strategyStartsWith.add(category);
-                  //  System.out.println("STRATEGY_ST: " + trigger);
                 }
             }
         }
@@ -164,7 +159,6 @@ public class SectionAnnotator extends JCasAnnotator_ImplBase {
                 LOG.trace("{}\t***{}", cleanedBlockText, block.getCoveredText());
             }
         }
-        // printf("{}\t{}\t{}", pmId, mmCnt, Arrays.toString(mms.toArray()));
     }
 
     @Override
@@ -214,7 +208,6 @@ public class SectionAnnotator extends JCasAnnotator_ImplBase {
                 letters++;
         }
         if ((letters / (text.length() + 0d)) < 0.5d) {
-            // / System.out.println("not en letters: "+text);
             return null;
         }
 
@@ -226,7 +219,6 @@ public class SectionAnnotator extends JCasAnnotator_ImplBase {
 
         // trim at 30 chars
         String snippet = StringUtils.snippetize(stemmed.trim(), 30);
-        // / System.out.println("S>>>" + snippet+"\n\n");
         return snippet.trim();
     }
 }

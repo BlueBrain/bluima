@@ -3,12 +3,10 @@ package ch.epfl.bbp.uima.ae.relations;
 import static ch.epfl.bbp.uima.BlueCasUtil.haveSameBeginEnd;
 import static ch.epfl.bbp.uima.ae.EvaluationPreprocessorAnnotator.VIEW_GOLD;
 import static ch.epfl.bbp.uima.ae.EvaluationPreprocessorAnnotator.VIEW_SYSTEM;
-import static ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator.areTheSame;
 import static ch.epfl.bbp.uima.typesystem.TypeSystem.COOCCURRENCE;
 import static org.apache.uima.fit.util.JCasUtil.select;
 
 import java.util.Collection;
-import java.util.Set;
 
 import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;

@@ -146,11 +146,13 @@
       <version>0.4.9</version>
       <scope>test</scope>
     </dependency>
+    <!-- 
     <dependency>
       <artifactId>bluima_rabbit</artifactId>
       <groupId>${project.groupId}</groupId>
       <version>${project.parent.version}</version>
     </dependency>
+    -->
     <dependency>
       <artifactId>bluima_neuroner</artifactId>
       <groupId>${project.groupId}</groupId>
