@@ -22,7 +22,6 @@ import static org.apache.uima.fit.pipeline.SimplePipeline.iteratePipeline;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
 import static org.apache.uima.fit.util.JCasUtil.select;
 import static org.apache.uima.fit.util.JCasUtil.selectSingle;
-import static org.apache.uima.util.CasCreationUtils.createCas;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
@@ -30,11 +29,9 @@ import static org.slf4j.LoggerFactory.getLogger;
 
 import java.io.IOException;
 import java.util.Collection;
-import java.util.List;
 
 import org.apache.uima.analysis_engine.AnalysisEngine;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
-import org.apache.uima.cas.CAS;
 import org.apache.uima.collection.CollectionReader;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.fit.pipeline.JCasIterator;
@@ -44,6 +41,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 
+import ch.epfl.bbp.StringUtils;
 import ch.epfl.bbp.io.TextFileWriter;
 import ch.epfl.bbp.uima.ae.output.DocumentTextWriter;
 import ch.epfl.bbp.uima.cr.SingleFileReader;
@@ -53,29 +51,26 @@ import de.julielab.jules.types.Header;
 /**
  * @author renaud.richardet@epfl.ch
  */
-@Ignore // FIXME fails on Travis
 public class PdfCollectionReaderTest {
     Logger LOG = getLogger(PdfCollectionReaderTest.class);
 
     @Test
     public void test() throws Exception {
 
-        CollectionReader cr = createReader(PdfCollectionReader.class,
-                JULIE_TSD, PARAM_INPUT_DIRECTORY, "pdf", PARAM_EXTRACT_TABLES,
-                true);
-
         String start[] = { "R E S E A R C H", "BMC Oral Health" };
+        for (JCas pdf : asList(createReader(PdfCollectionReader.class,
+                JULIE_TSD, PARAM_INPUT_DIRECTORY, "pdf", PARAM_EXTRACT_TABLES,
+                true))) {
 
-        for (int i = 0; i < 2; i++) {
+            int id = getHeaderIntDocId(pdf);
+            LOG.debug("docid:{}, text:{}", id,
+                    StringUtils.snippetize(pdf.getDocumentText(), 200));
 
-            CAS cas = createCas(cr.getProcessingResourceMetaData());
-            cr.hasNext();
-            cr.getNext(cas);
+            if (id == 1 || id == 2) {
+                assertEquals(start[id - 1],
+                        pdf.getDocumentText().substring(0, 15));
 
-            int id = getHeaderIntDocId(cas.getJCas()) - 1;
-            LOG.debug("docid:{}, text:{}", id, cas.getDocumentText());
-            assertEquals(start[id], cas.getDocumentText().substring(0, 15));
-
+            }
             // check for tables FIXME
             // Collection<DataTable> tables = select(cas.getJCas(),
             // DataTable.class);
@@ -84,7 +79,6 @@ public class PdfCollectionReaderTest {
             // LOG.debug(DataTableUtils.toHtml(table));
             // }
         }
-        cr.close();
     }
 
     @Test
@@ -92,15 +86,14 @@ public class PdfCollectionReaderTest {
 
         final String abbrevs[][] = { { "PMF", "MLT" }, {}, { "ICC", "HVA" } };
 
-        final List<JCas> pdfs = asList(createReader(PdfCollectionReader.class,
+        for (JCas pdf : asList(createReader(PdfCollectionReader.class,
                 JULIE_TSD, PARAM_INPUT_DIRECTORY, "pdf", PARAM_EXTRACT_TABLES,
-                true, PARAM_EXPAND_ABBREVIATIONS, true));
-        assertEquals(3, pdfs.size());
+                true, PARAM_EXPAND_ABBREVIATIONS, true))) {
 
-        for (int i = 0; i < 2; i++) {
-            String pdfText = pdfs.get(i).getDocumentText();
+            int id = getHeaderIntDocId(pdf) - 1;
+            String pdfText = pdf.getDocumentText();
             System.out.println(pdfText);
-            for (String abbrev : abbrevs[i]) {
+            for (String abbrev : abbrevs[id]) {
                 assertTrue("all abbreviations '" + abbrev
                         + "' should be removed in:: " + pdfText,
                         pdfText.indexOf(abbrev) == -1);
