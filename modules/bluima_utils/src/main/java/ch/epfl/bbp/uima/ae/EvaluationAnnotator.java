@@ -109,6 +109,8 @@ public class EvaluationAnnotator extends JCasAnnotator_ImplBase {
         super.collectionProcessComplete();
 
         // print evaluation results
-        System.out.println(evaluator.compare());
+        System.out.println(goldAnnotation.getSimpleName() + "<-->"
+                + systemAnnotation.getSimpleName() + " [" + evaluatorType
+                + "] " + evaluator.compare());
     }
 }
