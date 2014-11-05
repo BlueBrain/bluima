@@ -32,6 +32,7 @@ public class CleanupTest {
         // PARAM_INPUT_DIRECTORY, PDF_TEST_RESOURCES + "pdf_Orianne/"))
 
         JCas pdf1 = pdfs.get(0);
+        System.out.println("SSource " + BlueCasUtil.getHeaderSource(pdf1));
         String txt = pdf1.getDocumentText();
         // System.out.println(txt);
 
