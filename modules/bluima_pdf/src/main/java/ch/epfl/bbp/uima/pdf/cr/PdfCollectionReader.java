@@ -119,8 +119,6 @@ public class PdfCollectionReader extends AbstractFileReader {
         header.setSource(f.getAbsolutePath());
         header.addToIndexes();
 
-        LOG.warn("extracting PDF for {}", f.getName());
-
         PDFTextStream pdf = new PDFTextStream(f);
         BlockHandler blueHandler = new BlockHandler();
         pdf.pipe(blueHandler);
