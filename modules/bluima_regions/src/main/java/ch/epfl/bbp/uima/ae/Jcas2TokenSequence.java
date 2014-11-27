@@ -100,7 +100,7 @@ public class Jcas2TokenSequence extends Pipe {
             final Collection<LinnaeusSpecies> species = select(jCas,
                     LinnaeusSpecies.class);
 
-            int i = 0;
+            int sentId = 0;
             for (Sentence s : select(jCas, Sentence.class)) {
 
                 List<cc.mallet.types.Token> data = newArrayList();
@@ -113,7 +113,6 @@ public class Jcas2TokenSequence extends Pipe {
                     data.add(malletToken);
 
                     // POS, LEMMA
-
                     malletToken.setFeatureValue(PROPERTY_POS + t.getPos(), 1.0);
                     // /if (GridSearchConfiguration.getBoolean("Lemma")) {
                     if (t.getLemmaStr() != null && t.getLemmaStr().length() > 1)
@@ -239,9 +238,8 @@ public class Jcas2TokenSequence extends Pipe {
                 }
 
                 output.add(new Instance(new TokenSequence(data), target, pmId
-                        + "__" + i, null));
-                // TODO s(entence) "unlinked" in the end, need to serialize
-                i++;
+                        + "__" + sentId, null));
+                sentId++;
             }
         }
         return output.iterator();

@@ -21,7 +21,6 @@ import java.io.FileInputStream;
 import java.io.ObjectInputStream;
 import java.util.Iterator;
 import java.util.List;
-import java.util.Random;
 import java.util.regex.Pattern;
 
 import org.apache.uima.UimaContext;
@@ -42,11 +41,11 @@ import cc.mallet.fst.CRFTrainerByThreadedLabelLikelihood;
 import cc.mallet.fst.Experiment;
 import cc.mallet.fst.Experiment.Fold;
 import cc.mallet.fst.Experiment.Trail;
-import cc.mallet.fst.MultiSegmentationEvaluator;
 import cc.mallet.fst.LenientMultiSegmentationEvaluator;
 import cc.mallet.fst.MyMultiSegmentationEvaluator;
 import cc.mallet.fst.Transducer;
 import cc.mallet.pipe.SerialPipes;
+import cc.mallet.types.DocumentCrossValidationIterator;
 import cc.mallet.types.Instance;
 import cc.mallet.types.InstanceList;
 import cc.mallet.types.Sequence;
@@ -236,9 +235,10 @@ public class BrainRegionAnnotator extends JCasAnnotator_ImplBase {
                         trials, folds);
                 for (int t = 0; t < trials; t++) {
                     Trail trail = new Trail();
-                    cc.mallet.types.InstanceList.CrossValidationIterator crossValidationIt = trainingInstanceList
-                            .crossValidationIterator(folds,
-                                    new Random().nextInt());
+                     DocumentCrossValidationIterator crossValidationIt = new DocumentCrossValidationIterator(trainingInstanceList,folds);;
+//                    cc.mallet.types.InstanceList.CrossValidationIterator crossValidationIt = trainingInstanceList
+//                            .crossValidationIterator(folds,
+//                                    new Random().nextInt());
                     int f = 0;
                     while (crossValidationIt.hasNext()) {
                         LOG.info(">>>> Trial {} Fold {} >>>>>>>>>>>>", t, f);
