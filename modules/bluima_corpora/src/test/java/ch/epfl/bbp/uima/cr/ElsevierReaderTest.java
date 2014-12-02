@@ -1,5 +1,6 @@
 package ch.epfl.bbp.uima.cr;
 
+import static ch.epfl.bbp.StringUtils.snippetize;
 import static ch.epfl.bbp.uima.BlueCasUtil.asList;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT_DIRECTORY;
 import static ch.epfl.bbp.uima.BlueUima.TEST_RESOURCES_PATH;
@@ -16,10 +17,13 @@ import org.apache.uima.collection.CollectionReader;
 import org.apache.uima.jcas.JCas;
 import org.junit.Ignore;
 import org.junit.Test;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 import ch.epfl.bbp.uima.ae.StatsAnnotatorPlus;
 
 public class ElsevierReaderTest {
+    Logger LOG = LoggerFactory.getLogger(ElsevierReaderTest.class);
 
     @Test
     public void test() throws Exception {
@@ -30,7 +34,7 @@ public class ElsevierReaderTest {
 
         assertEquals(1, cases.size());
         for (JCas jCas : cases) {
-            System.out.println(jCas.getDocumentText());
+            LOG.debug(snippetize(jCas.getDocumentText(), 200));
         }
     }
 

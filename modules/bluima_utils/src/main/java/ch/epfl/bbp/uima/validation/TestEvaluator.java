@@ -58,22 +58,24 @@ public class TestEvaluator<T extends Annotation, U extends Annotation> {
                 _falsePositives++;
                 sb.append("fp: " + actual.getCoveredText() + "\n");
 
+                /*-
                 // // to print nice output of false positives
-                // try {
-                // JCas jCas = actual.getCAS().getJCas();
-                // Sentence sentence = JCasUtil
-                // .selectCovering(jCas, Sentence.class, actual)
-                // .iterator().next();
+                try {
+                    JCas jCas = actual.getCAS().getJCas();
+                    Sentence sentence = JCasUtil
+                            .selectCovering(jCas, Sentence.class, actual)
+                            .iterator().next();
                 // Cooccurrence c = ((Cooccurrence) actual);
                 // String snippet = WriteCoocurrencesToLoadfile2.snippet(jCas,
-                // sentence.getBegin(), sentence.getEnd(),
-                // c.getFirstEntity(), c.getSecondEntity());
-                // MissingUtils
-                // .printf("<p>{} <a href='http://www.ncbi.nlm.nih.gov/pubmed/?term={}'>PubMed</a></p>",
-                // snippet, pmId);
-                // } catch (CASException e) {
-                // e.printStackTrace();
-                // }
+                //      sentence.getBegin(), sentence.getEnd(),
+                //      c.getFirstEntity(), c.getSecondEntity());
+                    String snippet = BlueCasUtil.inspect(actual);
+                    MissingUtils
+                            .printf("<p>{} <a href='http://www.ncbi.nlm.nih.gov/pubmed/?term={}'>PubMed</a></p>",
+                                    snippet, pmId);
+                } catch (Exception e) {
+                    e.printStackTrace();
+                }*/
             }
         }
 

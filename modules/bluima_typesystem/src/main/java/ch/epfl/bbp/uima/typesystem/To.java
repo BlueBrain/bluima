@@ -43,139 +43,148 @@ public class To {
      */
     public static String string(Object o) {
 
-        if (o == null) {
-            return "null";
-        }
+        try {
 
-        if (o instanceof Collection<?>) {
-            Collection<?> c = (Collection<?>) o;
-            StringBuilder sb = new StringBuilder();
-            for (Object oc : c) {
-                sb.append(string(oc) + "\r\n");
+            if (o == null) {
+                return "null";
             }
-            return sb.toString();
 
-        } else if (o instanceof Iterable<?>) {
-            Iterable<?> i = (Iterable<?>) o;
-            StringBuilder sb = new StringBuilder();
-            for (Object oc : i) {
-                sb.append(string(oc) + "\r\n");
+            if (o instanceof Collection<?>) {
+                Collection<?> c = (Collection<?>) o;
+                StringBuilder sb = new StringBuilder();
+                for (Object oc : c) {
+                    sb.append(string(oc) + "\r\n");
+                }
+                return sb.toString();
+
+            } else if (o instanceof Iterable<?>) {
+                Iterable<?> i = (Iterable<?>) o;
+                StringBuilder sb = new StringBuilder();
+                for (Object oc : i) {
+                    sb.append(string(oc) + "\r\n");
+                }
+                return sb.toString();
+
+            } else if (o instanceof JCas) {
+                JCas j = (JCas) o;
+                return string(j.getAnnotationIndex());
+
+                // ///
+                // ///
+
+            } else if (o instanceof Token) {
+                Token t = (Token) o;
+                return "Token[" + t.getCoveredText() + "]";
+
+            } else if (o instanceof Sentence) {
+                Sentence s = (Sentence) o;
+                return "Sentence[" + s.getCoveredText() + "]";
+
+            } else if (o instanceof DocumentAnnotation) {
+                DocumentAnnotation d = (DocumentAnnotation) o;
+                return "DocumentAnnotation[" + d.getCoveredText() + "]";
+
+            } else if (o instanceof Verb) {
+                Verb v = (Verb) o;
+                return "Verb[" + v.getCoveredText() + "]";
+            } else if (o instanceof Punctuation) {
+                Punctuation v = (Punctuation) o;
+                return "Punctuation[" + v.getCoveredText() + "]";
+
+                // ///
+                // ///
+
+            } else if (o instanceof BrainRegion) {
+                BrainRegion b = (BrainRegion) o;
+                return "BrainRegion[" + b.getCoveredText() + "]";
+            } else if (o instanceof Concentration) {
+                Concentration c = (Concentration) o;
+                return "Concentration[" + c.getCoveredText() + "]val:"
+                        + c.getValue() + ";unit:" + c.getUnit();
+            } else if (o instanceof Abbreviation) {
+                Abbreviation a = (Abbreviation) o;
+                return "Abbrev[" + a.getCoveredText() + "]expan:"
+                        + a.getExpan() + "; defhere:" + a.getDefinedHere();
+            } else if (o instanceof Cooccurrence) {
+                Cooccurrence c = (Cooccurrence) o;
+                return "Cooccurrence[" + c.getFirstEntity().getCoveredText()
+                        + " <--> " + c.getSecondEntity().getCoveredText()
+                        + "](" + c.getConfidence() + ")";
+            } else if (o instanceof Measure) {
+                Measure c = (Measure) o;
+                return "Measure[" + c.getCoveredText() + "]val:" + c.getValue()
+                        + ";unit:" + c.getUnit();
+
+            } else if (o instanceof DictTerm) {
+                DictTerm d = (DictTerm) o;
+                return "DictTerm[" + d.getCoveredText() + "]class:"
+                        + d.getClass().getSimpleName() + "; val:"
+                        + d.getEntityId() + ";canonical:" + d.getDictCanon();
+
+            } else if (o instanceof CellType) {
+                CellType c = (CellType) o;
+                return "CellType[" + c.getName() + "]";
+
+            } else if (o instanceof Protein) {
+                Protein p = (Protein) o;
+                return "Protein[" + p.getCoveredText() + "]val:" + p.getName()
+                        + ";id:" + p.getId();
+            } else if (o instanceof Chemical) {
+                Chemical c = (Chemical) o;
+                return "Chemical[" + c.getCoveredText() + "]reg:"
+                        + c.getRegistryNumber() + ";substname:"
+                        + c.getNameOfSubstance();
+            } else if (o instanceof SurfaceForm) {
+                SurfaceForm sf = (SurfaceForm) o;
+                return "SurfaceForm[" + sf.getCoveredText() + "]id:"
+                        + sf.getId();
+
+            } else if (o instanceof DependencyRelation) {
+                DependencyRelation d = (DependencyRelation) o;
+                String head = (d.getHead() == null) ? "" : d.getHead()
+                        .getCoveredText();
+                return "Dep[" + d.getCoveredText() + "]head:" + head
+                        + ";label:" + d.getLabel() + ";projective:"
+                        + d.getProjective();
+
+            } else if (o instanceof ConceptMention) {
+                ConceptMention c = (ConceptMention) o;
+                return "ConceptMention[" + c.getCoveredText() + "]val:"
+                        + c.getTextualRepresentation() + ";type:"
+                        + c.getSpecificType();
+
+            } else if (o instanceof GeniaPOSTag) {
+                GeniaPOSTag g = (GeniaPOSTag) o;
+                return "GeniaPOSTag[" + g.getCoveredText() + "]val:"
+                        + g.getValue();
+
+            } else if (o instanceof Abbreviation) {
+                Abbreviation a = (Abbreviation) o;
+                return "Abbreviation[" + a.getCoveredText() + "] expan:"
+                        + a.getExpan() + " textRef:" + a.getTextReference();
+
+            } else if (o instanceof Keep) {
+                Keep k = (Keep) o;
+                return "Keep[" + k.getCoveredText() + "] normalized:"
+                        + k.getNormalizedText() + " enclosedA:"
+                        + string(k.getEnclosedAnnot());
+
+            } else if (o instanceof CellTypeProteinConcentration) {
+                CellTypeProteinConcentration c = (CellTypeProteinConcentration) o;
+                return "CellTypeProteinConcentration[" + string(c.getProtein())
+                        + " - " + string(c.getConcentration()) + " - "
+                        + string(c.getCelltype().getCoveredText()) + "]";
+
+            } else if (o instanceof Annotation) { // fallback
+                return o.getClass().getSimpleName() + "["
+                        + ((Annotation) (o)).getCoveredText() + "]";
             }
-            return sb.toString();
 
-        } else if (o instanceof JCas) {
-            JCas j = (JCas) o;
-            return string(j.getAnnotationIndex());
-
-            // ///
-            // ///
-
-        } else if (o instanceof Token) {
-            Token t = (Token) o;
-            return "Token[" + t.getCoveredText() + "]";
-
-        } else if (o instanceof Sentence) {
-            Sentence s = (Sentence) o;
-            return "Sentence[" + s.getCoveredText() + "]";
-
-        } else if (o instanceof DocumentAnnotation) {
-            DocumentAnnotation d = (DocumentAnnotation) o;
-            return "DocumentAnnotation[" + d.getCoveredText() + "]";
-
-        } else if (o instanceof Verb) {
-            Verb v = (Verb) o;
-            return "Verb[" + v.getCoveredText() + "]";
-        } else if (o instanceof Punctuation) {
-            Punctuation v = (Punctuation) o;
-            return "Punctuation[" + v.getCoveredText() + "]";
-
-            // ///
-            // ///
-
-        } else if (o instanceof BrainRegion) {
-            BrainRegion b = (BrainRegion) o;
-            return "BrainRegion[" + b.getCoveredText() + "]";
-        } else if (o instanceof Concentration) {
-            Concentration c = (Concentration) o;
-            return "Concentration[" + c.getCoveredText() + "]val:"
-                    + c.getValue() + ";unit:" + c.getUnit();
-        } else if (o instanceof Abbreviation) {
-            Abbreviation a = (Abbreviation) o;
-            return "Abbrev[" + a.getCoveredText() + "]expan:" + a.getExpan()
-                    + "; defhere:" + a.getDefinedHere();
-        } else if (o instanceof Cooccurrence) {
-            Cooccurrence c = (Cooccurrence) o;
-            return "Cooccurrence[" + c.getFirstEntity().getCoveredText()
-                    + " <--> " + c.getSecondEntity().getCoveredText() + "]("
-                    + c.getConfidence() + ")";
-        } else if (o instanceof Measure) {
-            Measure c = (Measure) o;
-            return "Measure[" + c.getCoveredText() + "]val:" + c.getValue()
-                    + ";unit:" + c.getUnit();
-
-        } else if (o instanceof DictTerm) {
-            DictTerm d = (DictTerm) o;
-            return "DictTerm[" + d.getCoveredText() + "]class:"
-                    + d.getClass().getSimpleName() + "; val:" + d.getEntityId()
-                    + ";canonical:" + d.getDictCanon();
-
-        } else if (o instanceof CellType) {
-            CellType c = (CellType) o;
-            return "CellType[" + c.getName() + "]";
-
-        } else if (o instanceof Protein) {
-            Protein p = (Protein) o;
-            return "Protein[" + p.getCoveredText() + "]val:" + p.getName()
-                    + ";id:" + p.getId();
-        } else if (o instanceof Chemical) {
-            Chemical c = (Chemical) o;
-            return "Chemical[" + c.getCoveredText() + "]reg:"
-                    + c.getRegistryNumber() + ";substname:"
-                    + c.getNameOfSubstance();
-        } else if (o instanceof SurfaceForm) {
-            SurfaceForm sf = (SurfaceForm) o;
-            return "SurfaceForm[" + sf.getCoveredText() + "]id:" + sf.getId();
-
-        } else if (o instanceof DependencyRelation) {
-            DependencyRelation d = (DependencyRelation) o;
-            String head = (d.getHead() == null) ? "" : d.getHead()
-                    .getCoveredText();
-            return "Dep[" + d.getCoveredText() + "]head:" + head + ";label:"
-                    + d.getLabel() + ";projective:" + d.getProjective();
-
-        } else if (o instanceof ConceptMention) {
-            ConceptMention c = (ConceptMention) o;
-            return "ConceptMention[" + c.getCoveredText() + "]val:"
-                    + c.getTextualRepresentation() + ";type:"
-                    + c.getSpecificType();
-
-        } else if (o instanceof GeniaPOSTag) {
-            GeniaPOSTag g = (GeniaPOSTag) o;
-            return "GeniaPOSTag[" + g.getCoveredText() + "]val:" + g.getValue();
-
-        } else if (o instanceof Abbreviation) {
-            Abbreviation a = (Abbreviation) o;
-            return "Abbreviation[" + a.getCoveredText() + "] expan:"
-                    + a.getExpan() + " textRef:" + a.getTextReference();
-
-        } else if (o instanceof Keep) {
-            Keep k = (Keep) o;
-            return "Keep[" + k.getCoveredText() + "] normalized:"
-                    + k.getNormalizedText() + " enclosedA:"
-                    + string(k.getEnclosedAnnot());
-
-        } else if (o instanceof CellTypeProteinConcentration) {
-            CellTypeProteinConcentration c = (CellTypeProteinConcentration) o;
-            return "CellTypeProteinConcentration[" + string(c.getProtein())
-                    + " - " + string(c.getConcentration()) + " - "
-                    + string(c.getCelltype().getCoveredText()) + "]";
-
-        } else if (o instanceof Annotation) { // fallback
-            return o.getClass().getSimpleName() + "["
-                    + ((Annotation) (o)).getCoveredText() + "]";
+        } catch (Exception e) {
+            System.err.println("could not convert to string: " + o.toString());
         }
-
         return o.toString();
+
     }
 
     /**

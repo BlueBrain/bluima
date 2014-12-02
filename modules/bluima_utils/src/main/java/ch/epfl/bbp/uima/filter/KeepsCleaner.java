@@ -8,19 +8,30 @@ import java.util.regex.Pattern;
 
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
+import org.apache.uima.fit.descriptor.ConfigurationParameter;
 import org.apache.uima.jcas.JCas;
 
 import ch.epfl.bbp.uima.types.Keep;
 
 /**
  * Performs cleaning on {@link Keep#getNormalizedText()}. Should be performed at
- * the end of the filtering process.
+ * the end of the filtering process. Detailed steps: <br/>
+ * Remove Keep if normalizedText length < minLength or does not contain balanced
+ * parenthesis (e.g. "(hello") or text starts with 'www.' or text consist only
+ * of punctuation and numbers.<br/>
+ * Then optionally lowercase and finally removes punctuation if it starts or
+ * ends with punctuation.
  * 
  * @author renaud.richardet@epfl.ch
  */
 public class KeepsCleaner extends JCasAnnotator_ImplBase {
 
     private final int minLength = 3;
+
+    private static final String PARAM_TRANSFORM_LOWERCASE = "transformLowercase";
+    @ConfigurationParameter(name = PARAM_TRANSFORM_LOWERCASE, mandatory = false, defaultValue = "true",//
+    description = "Whether to transform lowercase all the Keep's getNormalizedText()")
+    private boolean transformLowercase;
 
     @Override
     public void process(JCas jCas) throws AnalysisEngineProcessException {
@@ -29,7 +40,7 @@ public class KeepsCleaner extends JCasAnnotator_ImplBase {
         Keep[] keeps = col.toArray(new Keep[col.size()]);
 
         for (int i = 0; i < keeps.length; i++) {
-            final String txt = keeps[i].getNormalizedText();
+            String txt = keeps[i].getNormalizedText();
 
             if (txt.length() < minLength //
                     || !isBalanced(txt) //
@@ -39,7 +50,10 @@ public class KeepsCleaner extends JCasAnnotator_ImplBase {
                 keeps[i].removeFromIndexes();
             } else {
                 // CLEAN
-                keeps[i].setNormalizedText(cleanup(txt));
+                if (transformLowercase)
+                    txt = txt.toLowerCase();
+                // removes punct if starts or ends with punctuation
+                keeps[i].setNormalizedText(txt.replaceAll("^\\W+|\\W+$", ""));
             }
         }
     }
@@ -49,12 +63,6 @@ public class KeepsCleaner extends JCasAnnotator_ImplBase {
 
     public static boolean isOnlyPunctAndNumbers(String txt) {
         return onlyPunctAndNumbers.matcher(txt).matches();
-    }
-
-    public static String cleanup(String txt) {
-        // 1) merge if starts or ends with punctuation
-        // 2) lowercase
-        return txt.replaceAll("^\\W+|\\W+$", "").toLowerCase();
     }
 
     /**

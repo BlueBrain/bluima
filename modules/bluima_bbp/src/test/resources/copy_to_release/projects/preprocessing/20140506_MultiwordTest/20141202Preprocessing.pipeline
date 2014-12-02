@@ -1,0 +1,22 @@
+# preprocessing for Luca on FT
+
+cr: TextArrayReader
+ input__java: new String[]{"Blue-cone monochromacy has the potential to erase all our sorrows, but only while Glutamate and Nowinewoien is available in Norway, Dataset Finland Software application"};
+
+#cr: TextLineReader
+# inputFile: /Volumes/HDD2/ren_data/data_hdd/__mycorpora/1m_ns/1m_ns_mw.w2vec-corpus.txt 
+# inputFile: /Users/richarde/dev/bluebrain/git/neuroNER_completion/resources/corpus/1500AbstractsPM.txt 
+
+include: 20141202Preprocessing.include
+
+ae: ch.epfl.bbp.uima.filter.KeepsCleaner
+ transformLowercase__java: false
+
+# Writing
+ae: ch.epfl.bbp.uima.filter.KeepsWriter
+ outputFile: target/1m_ns_mw.w2vec-corpus_preprocessed.txt 
+ #outputFile: target/1500AbstractsPM_preprocessed.txt 
+ writeDashes__java: true
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 50

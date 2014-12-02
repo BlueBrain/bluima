@@ -19,7 +19,6 @@ import org.slf4j.LoggerFactory;
 import ch.epfl.bbp.uima.BlueCasUtil;
 import ch.epfl.bbp.uima.ae.Viterbi.Transition;
 import ch.epfl.bbp.uima.types.Keep;
-import ch.epfl.bbp.uima.typesystem.To;
 import ch.epfl.bbp.uima.typesystem.TypeSystemSemantics;
 import de.julielab.jules.types.Sentence;
 import de.julielab.jules.types.Token;
@@ -35,6 +34,7 @@ import de.julielab.jules.types.Token;
  * @author renaud.richardet@epfl.ch
  */
 public class ViterbiFilterAnnotator extends JCasAnnotator_ImplBase {
+    @SuppressWarnings("unused")
     private static Logger LOG = LoggerFactory
             .getLogger(ViterbiFilterAnnotator.class);
 
@@ -54,8 +54,8 @@ public class ViterbiFilterAnnotator extends JCasAnnotator_ImplBase {
 
         for (Sentence s : select(jCas, Sentence.class)) {
 
-            LOG.trace("sentence::: " + s.getCoveredText() + " {}-{}",
-                    s.getBegin(), s.getEnd());
+            // LOG.trace("sentence::: " + s.getCoveredText() + " {}-{}",
+            // s.getBegin(), s.getEnd());
 
             List<Annotation> sentenceAnnotations = BlueCasUtil.selectCovered(
                     jCas.getCas(), s);
@@ -66,11 +66,11 @@ public class ViterbiFilterAnnotator extends JCasAnnotator_ImplBase {
             // sentenceAnnotations.add(a);
             // }
 
-            LOG.trace("added {} annotations", sentenceAnnotations.size());
+            // LOG.trace("added {} annotations", sentenceAnnotations.size());
 
             List<List<Transition>> shortestPath = Viterbi.viterbi(
                     sentenceAnnotations, jCas);
-            LOG.trace("path:::");
+            // LOG.trace("path:::");
             // /shortestPath.foreach { ts =>
             // /dbg(ts.head.from + "::" + ts.head.to)
             // /ts.foreach(t => ///dbg("* " + (t)))
@@ -105,16 +105,16 @@ public class ViterbiFilterAnnotator extends JCasAnnotator_ImplBase {
                 prunedKeepIndex.add(a.getAddress());
             }
 
-            LOG.trace("\nprunedShortestPath:::");
+            // LOG.trace("\nprunedShortestPath:::");
             for (Annotation a : prunedKeep) {
                 // LOG.debug(a.getCoveredText() + " [["
                 // + a.getClass().getSimpleName());
-                LOG.trace(To.string(a));
+                // LOG.trace(To.string(a));
             }
 
             // only Keep annotations on shortest path
             for (Annotation a : sentenceAnnotations) {
-                LOG.trace("maybe [[" + To.string(a) + "]]");
+                // LOG.trace("maybe [[" + To.string(a) + "]]");
 
                 if (prunedKeepIndex.contains(a.getAddress())) {
                     Keep keep = new Keep(jCas, a.getBegin(), a.getEnd());
