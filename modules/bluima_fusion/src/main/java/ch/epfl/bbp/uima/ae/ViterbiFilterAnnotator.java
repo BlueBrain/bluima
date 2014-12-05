@@ -1,5 +1,6 @@
 package ch.epfl.bbp.uima.ae;
 
+import static ch.epfl.bbp.uima.BlueCasUtil.getHeaderDocId;
 import static ch.epfl.bbp.uima.typesystem.TypeSystemSemantics.ANNOTATIONS_PRIORITY;
 import static com.google.common.collect.Lists.newArrayList;
 import static org.apache.uima.fit.util.JCasUtil.select;
@@ -34,7 +35,6 @@ import de.julielab.jules.types.Token;
  * @author renaud.richardet@epfl.ch
  */
 public class ViterbiFilterAnnotator extends JCasAnnotator_ImplBase {
-    @SuppressWarnings("unused")
     private static Logger LOG = LoggerFactory
             .getLogger(ViterbiFilterAnnotator.class);
 
@@ -52,92 +52,99 @@ public class ViterbiFilterAnnotator extends JCasAnnotator_ImplBase {
         if (BlueCasUtil.isEmptyText(jCas))
             return;
 
-        for (Sentence s : select(jCas, Sentence.class)) {
+        try {
 
-            // LOG.trace("sentence::: " + s.getCoveredText() + " {}-{}",
-            // s.getBegin(), s.getEnd());
+            for (Sentence s : select(jCas, Sentence.class)) {
 
-            List<Annotation> sentenceAnnotations = BlueCasUtil.selectCovered(
-                    jCas.getCas(), s);
-            // MUCH SLOWWWWER:
-            // List<Annotation> sentenceAnnotations = Lists.newArrayList();
-            // for (Annotation a : jCas.getAnnotationIndex()) {
-            // if (a.getBegin() >= s.getBegin() && a.getEnd() <= s.getEnd())
-            // sentenceAnnotations.add(a);
-            // }
+                // LOG.trace("sentence::: " + s.getCoveredText() + " {}-{}",
+                // s.getBegin(), s.getEnd());
 
-            // LOG.trace("added {} annotations", sentenceAnnotations.size());
+                List<Annotation> sentenceAnnotations = BlueCasUtil
+                        .selectCovered(jCas.getCas(), s);
+                // MUCH SLOWWWWER:
+                // List<Annotation> sentenceAnnotations = Lists.newArrayList();
+                // for (Annotation a : jCas.getAnnotationIndex()) {
+                // if (a.getBegin() >= s.getBegin() && a.getEnd() <= s.getEnd())
+                // sentenceAnnotations.add(a);
+                // }
 
-            List<List<Transition>> shortestPath = Viterbi.viterbi(
-                    sentenceAnnotations, jCas);
-            // LOG.trace("path:::");
-            // /shortestPath.foreach { ts =>
-            // /dbg(ts.head.from + "::" + ts.head.to)
-            // /ts.foreach(t => ///dbg("* " + (t)))
-            // /}
+                // LOG.trace("added {} annotations",
+                // sentenceAnnotations.size());
 
-            // keep the "best" annotation if multiple overlap and are on the
-            // same
-            // shortest-path node
-            List<Annotation> prunedKeep = newArrayList();
-            if (removeOverlappingAnnotations) {
-                for (List<Transition> ts : shortestPath) {
-                    Transition bestT = null;
-                    for (Transition t : ts) {
-                        if (bestT == null)
-                            bestT = t;
-                        else
-                            bestT = compare(bestT, t);
+                List<List<Transition>> shortestPath = Viterbi.viterbi(
+                        sentenceAnnotations, jCas);
+                // LOG.trace("path:::");
+                // /shortestPath.foreach { ts =>
+                // /dbg(ts.head.from + "::" + ts.head.to)
+                // /ts.foreach(t => ///dbg("* " + (t)))
+                // /}
+
+                // keep the "best" annotation if multiple overlap and are on the
+                // same
+                // shortest-path node
+                List<Annotation> prunedKeep = newArrayList();
+                if (removeOverlappingAnnotations) {
+                    for (List<Transition> ts : shortestPath) {
+                        Transition bestT = null;
+                        for (Transition t : ts) {
+                            if (bestT == null)
+                                bestT = t;
+                            else
+                                bestT = compare(bestT, t);
+                        }
+                        if (bestT.annot != null)
+                            prunedKeep.add(bestT.annot);
                     }
-                    if (bestT.annot != null)
-                        prunedKeep.add(bestT.annot);
+                } else {
+                    // keep all overlapping annotations
+                    for (List<Transition> ts : shortestPath)
+                        for (Transition t : ts)
+                            if (t.annot != null)
+                                prunedKeep.add(t.annot);
                 }
-            } else {
-                // keep all overlapping annotations
-                for (List<Transition> ts : shortestPath)
-                    for (Transition t : ts)
-                        if (t.annot != null)
-                            prunedKeep.add(t.annot);
-            }
-            // index to speed up
-            Set<Integer> prunedKeepIndex = new HashSet<Integer>();
-            for (Annotation a : prunedKeep) {
-                prunedKeepIndex.add(a.getAddress());
-            }
+                // index to speed up
+                Set<Integer> prunedKeepIndex = new HashSet<Integer>();
+                for (Annotation a : prunedKeep) {
+                    prunedKeepIndex.add(a.getAddress());
+                }
 
-            // LOG.trace("\nprunedShortestPath:::");
-            for (Annotation a : prunedKeep) {
+                // LOG.trace("\nprunedShortestPath:::");
+                // for (Annotation a : prunedKeep) {
                 // LOG.debug(a.getCoveredText() + " [["
                 // + a.getClass().getSimpleName());
                 // LOG.trace(To.string(a));
-            }
+                // }
 
-            // only Keep annotations on shortest path
-            for (Annotation a : sentenceAnnotations) {
-                // LOG.trace("maybe [[" + To.string(a) + "]]");
+                // only Keep annotations on shortest path
+                for (Annotation a : sentenceAnnotations) {
+                    // LOG.trace("maybe [[" + To.string(a) + "]]");
 
-                if (prunedKeepIndex.contains(a.getAddress())) {
-                    Keep keep = new Keep(jCas, a.getBegin(), a.getEnd());
-                    keep.setEnclosedAnnot(a);
-                    // just the annotation text:
-                    keep.setNormalizedText(a.getCoveredText());
-                    keep.addToIndexes();
+                    if (prunedKeepIndex.contains(a.getAddress())) {
+                        Keep keep = new Keep(jCas, a.getBegin(), a.getEnd());
+                        keep.setEnclosedAnnot(a);
+                        // just the annotation text:
+                        keep.setNormalizedText(a.getCoveredText());
+                        keep.addToIndexes();
 
-                } else {
-                    if (removeOtherAnnotations
-                            & !TypeSystemSemantics.NON_CONTENT_ANNOTATIONS
-                                    .contains(a.getClass().getName()) //
-                            // do not remove Tokens
-                            && a.getClass() != Token.class
-                            // do not remove annot without text
-                            && a.getEnd() != 0) {
+                    } else {
+                        if (removeOtherAnnotations
+                                & !TypeSystemSemantics.NON_CONTENT_ANNOTATIONS
+                                        .contains(a.getClass().getName()) //
+                                // do not remove Tokens
+                                && a.getClass() != Token.class
+                                // do not remove annot without text
+                                && a.getEnd() != 0) {
 
-                        // LOG.debug(" removing [[" + To.string(a) + "]]");
-                        a.removeFromIndexes(jCas);
+                            // LOG.debug(" removing [[" + To.string(a) + "]]");
+                            a.removeFromIndexes(jCas);
+                        }
                     }
                 }
             }
+        } catch (Exception e) {
+            LOG.error("Viterbi failed for pmid " + getHeaderDocId(jCas), e);
         }
+
     }
 
     public static Transition compare(Transition a, Transition b) {
