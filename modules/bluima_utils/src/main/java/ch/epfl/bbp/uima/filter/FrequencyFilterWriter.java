@@ -15,7 +15,7 @@ import org.apache.uima.fit.descriptor.TypeCapability;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
 
-import ch.epfl.bbp.triechar.Trie;
+import ch.epfl.bbp.triechar.TrieCnt;
 import ch.epfl.bbp.uima.BlueCasUtil;
 import ch.epfl.bbp.uima.types.Keep;
 
@@ -43,13 +43,13 @@ public class FrequencyFilterWriter extends JCasAnnotator_ImplBase {
     @ConfigurationParameter(name = PARAM_OUTPUT_FILE, description = "Where to write frequency file")
     private String tokenFrequencyFile;
 
-    private Trie trie;
+    private TrieCnt trie;
 
     @Override
     public void initialize(UimaContext context)
             throws ResourceInitializationException {
         super.initialize(context);
-        trie = new Trie(caseSensitive);
+        trie = new TrieCnt(caseSensitive);
     }
 
     @Override

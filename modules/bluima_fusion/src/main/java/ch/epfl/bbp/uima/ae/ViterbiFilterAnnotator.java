@@ -52,9 +52,8 @@ public class ViterbiFilterAnnotator extends JCasAnnotator_ImplBase {
         if (BlueCasUtil.isEmptyText(jCas))
             return;
 
-        try {
-
-            for (Sentence s : select(jCas, Sentence.class)) {
+        for (Sentence s : select(jCas, Sentence.class)) {
+            try {
 
                 // LOG.trace("sentence::: " + s.getCoveredText() + " {}-{}",
                 // s.getBegin(), s.getEnd());
@@ -140,9 +139,10 @@ public class ViterbiFilterAnnotator extends JCasAnnotator_ImplBase {
                         }
                     }
                 }
+            } catch (Exception e) {
+                LOG.error("Viterbi failed for sentence '" + s.getCoveredText()
+                        + "' in pmid " + getHeaderDocId(jCas), e);
             }
-        } catch (Exception e) {
-            LOG.error("Viterbi failed for pmid " + getHeaderDocId(jCas), e);
         }
 
     }

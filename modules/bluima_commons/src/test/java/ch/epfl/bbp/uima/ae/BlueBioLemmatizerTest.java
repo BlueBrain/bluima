@@ -53,5 +53,6 @@ public class BlueBioLemmatizerTest {
         assertEquals("condition", BlueBioLemmatizer.lemmatize("conditioned", null));
 
         assertEquals("house", BlueBioLemmatizer.lemmatize("houses", null));
+        assertEquals("acoustic area", BlueBioLemmatizer.lemmatize("acoustic areas", null));
     }
 }

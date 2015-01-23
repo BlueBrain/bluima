@@ -1,0 +1,32 @@
+
+cr: WhiteTextConnectionsCollectionReader
+
+ae: EvaluationPreprocessorAnnotator
+ gold_annotation: ch.epfl.bbp.uima.types.Cooccurrence
+
+
+# 1: base
+ae: ch.epfl.bbp.uima.ae.relations.ExtractCoocurrences
+ enclosingScope: de.julielab.jules.types.Sentence
+ annot1: ch.epfl.bbp.uima.types.BrainRegion
+ annot2: ch.epfl.bbp.uima.types.BrainRegion
+ keepOnlyNearestNeighbors__java: true
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+
+# 2: filter 'not'
+ae: ch.epfl.bbp.uima.ae.relations.FilterCoocurrencesByNot
+ae: ch.epfl.bbp.uima.ae.relations.CooccurrencesEvaluationAnnotator
+
+
+# TestResult:
+#   precision:  0.275
+#   recall: 0.507
+#   F1: 0.357
+# Latex:: 27.5\% & 50.7\% & 35.7\%
+
+# TestResult:
+#   precision:  0.279
+#   recall: 0.479
+#   F1: 0.352
+# Latex:: 27.9\% & 47.9\% & 35.2\%

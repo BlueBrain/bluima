@@ -1,5 +1,7 @@
 package ch.epfl.bbp.uima.ae;
 
+import static ch.epfl.bbp.uima.BlueCasUtil.fixNoSentences;
+import static ch.epfl.bbp.uima.BlueCasUtil.fixNoText;
 import static ch.epfl.bbp.uima.typesystem.TypeSystem.SENTENCE;
 import static ch.epfl.bbp.uima.typesystem.TypeSystem.TOKEN;
 import static org.apache.uima.fit.util.JCasUtil.select;
@@ -26,16 +28,19 @@ public class WhitespaceTokenizerAnnotator extends JCasAnnotator_ImplBase {
             .getLogger(WhitespaceTokenizerAnnotator.class);
 
     @Override
-    public void process(JCas jcas) throws AnalysisEngineProcessException {
+    public void process(JCas jCas) throws AnalysisEngineProcessException {
 
-        for (Sentence sentence : select(jcas, Sentence.class)) {
+        fixNoText(jCas);
+        fixNoSentences(jCas);
+
+        for (Sentence sentence : select(jCas, Sentence.class)) {
             int start = sentence.getBegin();
             String text = sentence.getCoveredText();
             if (text.endsWith("."))// remove trailing dot
                 text = text.substring(0, text.length() - 1);
 
             for (String word : text.split(" ")) {
-                Token token = new Token(jcas, start, start + word.length());
+                Token token = new Token(jCas, start, start + word.length());
                 token.setComponentId(WhitespaceTokenizerAnnotator.class
                         .getSimpleName());
                 token.addToIndexes();
