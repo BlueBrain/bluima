@@ -7,19 +7,19 @@ import java.util.HashMap;
 import java.util.Map;
 
 /**
- * @see Trie
+ * @see TrieCnt
  * @author renaud.richardet@epfl.ch
  */
-class TrieNode {
+/* package */class TrieNodeCnt {
 
     int cnt = 0;
     private char character;
-    protected Map<Character, TrieNode> children = new HashMap<Character, TrieNode>();
+    protected Map<Character, TrieNodeCnt> children = new HashMap<Character, TrieNodeCnt>();
 
-    public TrieNode() {
+    public TrieNodeCnt() {
     }
 
-    public TrieNode(char ch) {
+    public TrieNodeCnt(char ch) {
         this.character = ch;
     }
 
@@ -32,9 +32,9 @@ class TrieNode {
         } else {
             // represent the Child Node;
             char firstChar = word[0];
-            TrieNode child = children.get(firstChar);
+            TrieNodeCnt child = children.get(firstChar);
             if (child == null) {
-                child = new TrieNode(firstChar);
+                child = new TrieNodeCnt(firstChar);
                 children.put(firstChar, child);
             }
 
@@ -50,7 +50,7 @@ class TrieNode {
 
         } else { // walk down the tree
             char firstChar = word[0];
-            TrieNode child = children.get(firstChar);
+            TrieNodeCnt child = children.get(firstChar);
             if (child == null) {
                 // no entry for that word
                 return 0;
@@ -77,7 +77,7 @@ class TrieNode {
             writer.newLine();
         }
 
-        for (TrieNode child : children.values()) {
+        for (TrieNodeCnt child : children.values()) {
             char[] childPrefix = Arrays.copyOf(prefix, prefix.length + 1);
             childPrefix[childPrefix.length - 1] = character;
             child.writeFrequencies(writer, childPrefix);// recursive

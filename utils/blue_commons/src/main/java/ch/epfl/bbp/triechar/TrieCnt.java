@@ -11,18 +11,18 @@ import java.io.OutputStreamWriter;
  * 
  * @author renaud.richardet@epfl.ch
  */
-public class Trie {
+public class TrieCnt {
 
-    private TrieNode root;
+    private TrieNodeCnt root;
     private boolean caseSensitive;
 
-    public Trie() {
+    public TrieCnt() {
         this(false);
     }
 
-    public Trie(boolean caseSensitive) {
+    public TrieCnt(boolean caseSensitive) {
         this.caseSensitive = caseSensitive;
-        root = new TrieNode();
+        root = new TrieNodeCnt();
     }
 
     public void addWord(String word) {
@@ -42,7 +42,7 @@ public class Trie {
     public void toFrequencyFile(String filePath) throws IOException {
         BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(
                 new FileOutputStream(filePath), "UTF-8"));
-        for (TrieNode child : root.children.values()) {
+        for (TrieNodeCnt child : root.children.values()) {
             child.writeFrequencies(writer, new char[0]);// recursive
         }
         writer.close();

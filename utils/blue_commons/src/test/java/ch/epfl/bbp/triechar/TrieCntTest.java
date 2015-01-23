@@ -8,12 +8,12 @@ import java.io.File;
 
 import org.junit.Test;
 
-public class TrieCharTest {
+public class TrieCntTest {
 
     @Test
     public void test() {
 
-        Trie t = new Trie();
+        TrieCnt t = new TrieCnt();
         t.addWord("he");
         t.addWord("hello");
         t.addWord("hi");
@@ -35,7 +35,7 @@ public class TrieCharTest {
     @Test
     public void testCaseSensitive() {
 
-        ch.epfl.bbp.triechar.Trie t = new ch.epfl.bbp.triechar.Trie(true);
+        ch.epfl.bbp.triechar.TrieCnt t = new ch.epfl.bbp.triechar.TrieCnt(true);
         t.addWord("He");
         t.addWord("hi");
 
@@ -49,7 +49,7 @@ public class TrieCharTest {
     @Test
     public void testWrite() throws Exception {
 
-        ch.epfl.bbp.triechar.Trie t = new ch.epfl.bbp.triechar.Trie();
+        ch.epfl.bbp.triechar.TrieCnt t = new ch.epfl.bbp.triechar.TrieCnt();
         t.addWord("he");
         t.addWord("he");
         t.addWord("hello");
