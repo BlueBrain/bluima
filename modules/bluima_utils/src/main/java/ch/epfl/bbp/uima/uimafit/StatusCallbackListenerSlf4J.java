@@ -1,6 +1,6 @@
 package ch.epfl.bbp.uima.uimafit;
 
-import static ch.epfl.bbp.uima.utils.TimeUtils.toHuman;
+import static ch.epfl.bbp.DateUtils.toHuman;
 import static java.lang.String.format;
 import static java.lang.System.currentTimeMillis;
 import static org.apache.commons.lang.StringUtils.repeat;

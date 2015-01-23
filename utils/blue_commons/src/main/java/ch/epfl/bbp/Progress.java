@@ -25,6 +25,7 @@ public class Progress {
     public static void printProgressEvery(int every) {
         i++;
         if (i % every == 0)
-            System.out.println("PROgress: " + i + " at " + DateUtils.now());
+            System.out.println("PROgress: " + i + " at "
+                    + DateUtils.nowToHuman());
     }
 }
