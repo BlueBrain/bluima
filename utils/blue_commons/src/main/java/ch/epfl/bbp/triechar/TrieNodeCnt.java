@@ -2,6 +2,7 @@ package ch.epfl.bbp.triechar;
 
 import java.io.BufferedWriter;
 import java.io.IOException;
+import java.io.Serializable;
 import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
@@ -10,7 +11,8 @@ import java.util.Map;
  * @see TrieCnt
  * @author renaud.richardet@epfl.ch
  */
-/* package */class TrieNodeCnt {
+/* package */class TrieNodeCnt implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     int cnt = 0;
     private char character;

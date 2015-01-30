@@ -4,14 +4,16 @@ import java.io.BufferedWriter;
 import java.io.FileOutputStream;
 import java.io.IOException;
 import java.io.OutputStreamWriter;
+import java.io.Serializable;
 
 /**
- * Trie implementation to store strings (multiple occurences allowed) and retrieve the
- * frequency (count) of a word.
+ * Trie implementation to store strings (multiple occurences allowed) and
+ * retrieve the frequency (count) of a word.
  * 
  * @author renaud.richardet@epfl.ch
  */
-public class TrieCnt {
+public class TrieCnt implements Serializable {
+    private static final long serialVersionUID = 1L;
 
     private TrieNodeCnt root;
     private boolean caseSensitive;
