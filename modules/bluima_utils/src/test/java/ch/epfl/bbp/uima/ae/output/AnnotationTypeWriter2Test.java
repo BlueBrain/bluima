@@ -6,9 +6,10 @@ import static ch.epfl.bbp.uima.BlueUima.PARAM_FEATURE_NAME;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_OUTPUT_FILE;
 import static ch.epfl.bbp.uima.testutils.UimaTests.createAnnot;
-import static ch.epfl.bbp.uima.testutils.UimaTests.getTokenizedTestCas;
+import static ch.epfl.bbp.uima.testutils.UimaTests.*;
 import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static ch.epfl.bbp.uima.utils.Preconditions.checkFileExists;
+import static java.lang.System.currentTimeMillis;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
@@ -23,6 +24,7 @@ import ch.epfl.bbp.uima.ae.EnsureDocHasOneSentence;
 import ch.epfl.bbp.uima.ae.WhitespaceTokenizerAnnotator;
 import ch.epfl.bbp.uima.cr.TextArrayReader;
 import ch.epfl.bbp.uima.types.ProteinDictTerm;
+import de.julielab.jules.types.DocumentAnnotation;
 import de.julielab.jules.types.Token;
 
 public class AnnotationTypeWriter2Test {
@@ -72,7 +74,27 @@ public class AnnotationTypeWriter2Test {
 
         // check files
         checkFileExists(new File(outFile));
-        assertEquals("null\t6\t10\t1234\n",
-                asText(new File(outFile)));
+        assertEquals("null\t6\t10\t1234\n", asText(new File(outFile)));
+    }
+
+    @Test
+    public void testDocumentText() throws Exception {
+
+        String outFile = "target/AnnotationTypeWriter2Test-test3"
+                + currentTimeMillis();
+
+        JCas jCas = getTestCas("hello AMPA");
+
+        runPipeline(
+                jCas,
+                createEngine(AnnotationTypeWriter2.class,
+                        PARAM_OUTPUT_FILE,
+                        outFile, //
+                        PARAM_ANNOTATION_CLASS,
+                        "org.apache.uima.jcas.tcas.Annotation"));
+
+        // check files
+        checkFileExists(new File(outFile));
+        assertEquals("null\t0\t10\thello AMPA\n", asText(new File(outFile)));
     }
 }

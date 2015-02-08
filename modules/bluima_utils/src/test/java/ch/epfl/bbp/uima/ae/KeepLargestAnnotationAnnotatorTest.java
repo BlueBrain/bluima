@@ -2,7 +2,7 @@ package ch.epfl.bbp.uima.ae;
 
 import static ch.epfl.bbp.uima.BlueCasUtil.asList;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_ANNOTATION_CLASS;
-import static ch.epfl.bbp.uima.testutils.UimaTests.*;
+import static ch.epfl.bbp.uima.testutils.UimaTests.getTestCas;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
 import static org.apache.uima.fit.util.JCasUtil.select;

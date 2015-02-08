@@ -32,6 +32,7 @@ public class AnnotationTypeWriter2 extends AnnotationTypeWriter {
         
         try {
             for (Annotation a : jCas.getAnnotationIndex()) {
+                System.out.println(a.getClass().getName());
                 if (a.getClass().getName().equals(annotationClass)) {
                     String featureStr;
                     if (featureName != null) {

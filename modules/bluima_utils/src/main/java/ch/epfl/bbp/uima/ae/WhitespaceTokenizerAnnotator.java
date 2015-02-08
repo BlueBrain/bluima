@@ -10,10 +10,7 @@ import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.fit.descriptor.TypeCapability;
 import org.apache.uima.jcas.JCas;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
 
-import ch.epfl.bbp.uima.typesystem.To;
 import de.julielab.jules.types.Sentence;
 import de.julielab.jules.types.Token;
 
@@ -24,8 +21,9 @@ import de.julielab.jules.types.Token;
  */
 @TypeCapability(outputs = { TOKEN }, inputs = { SENTENCE })
 public class WhitespaceTokenizerAnnotator extends JCasAnnotator_ImplBase {
-    private static Logger LOG = LoggerFactory
-            .getLogger(WhitespaceTokenizerAnnotator.class);
+
+    public static final String COMPONENT_ID = WhitespaceTokenizerAnnotator.class
+            .getSimpleName();
 
     @Override
     public void process(JCas jCas) throws AnalysisEngineProcessException {
@@ -36,16 +34,14 @@ public class WhitespaceTokenizerAnnotator extends JCasAnnotator_ImplBase {
         for (Sentence sentence : select(jCas, Sentence.class)) {
             int start = sentence.getBegin();
             String text = sentence.getCoveredText();
-            if (text.endsWith("."))// remove trailing dot
+            if (text.endsWith(".")) // remove trailing dot
                 text = text.substring(0, text.length() - 1);
 
             for (String word : text.split(" ")) {
                 Token token = new Token(jCas, start, start + word.length());
-                token.setComponentId(WhitespaceTokenizerAnnotator.class
-                        .getSimpleName());
+                token.setComponentId(COMPONENT_ID);
                 token.addToIndexes();
                 start += word.length() + 1;
-                LOG.trace("tagging Token: " + To.string(token));
             }
         }
     }

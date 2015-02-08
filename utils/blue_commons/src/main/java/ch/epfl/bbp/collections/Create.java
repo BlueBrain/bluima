@@ -11,9 +11,18 @@ public class Create {
         return new ArrayList<E>();
     }
 
+    @SafeVarargs
     public static <E> ArrayList<E> list(E... elements) {
         ArrayList<E> list = new ArrayList<E>(elements.length);
         Collections.addAll(list, elements);
+        return list;
+    }
+
+    public static <E> ArrayList<E> list(Iterable<E> it) {
+        ArrayList<E> list = new ArrayList<E>();
+        for (E e : it) {
+            list.add(e);
+        }
         return list;
     }
 
