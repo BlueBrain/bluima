@@ -32,14 +32,16 @@ Setup BLUIMA_HOME, e.g. (in your .bash_profile):
 
 Get yourself a coffee. Rinse and repeat above command if error is "could not download artifacts"
 
+If gpg signing is not setup and you simply want to skip it then you can add `-Dgpg.skip=true` to the maven command line options.
+
 
 ### Maven Tests
 
 * The reference test environment is the command line.
 * Run all tests
-    > mvn clean test
+      > mvn clean test
 * Skip tests while building
-    > mvn install -Dmaven.test.skip=true
+      > mvn install -Dmaven.test.skip=true
 
 
 ### Eclipse
