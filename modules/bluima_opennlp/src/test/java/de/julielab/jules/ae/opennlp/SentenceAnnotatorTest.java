@@ -17,91 +17,44 @@
 
 package de.julielab.jules.ae.opennlp;
 
-import java.util.Iterator;
+import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
+import static org.junit.Assert.assertEquals;
 
-import junit.framework.TestCase;
+import java.util.Collection;
 
-import org.apache.uima.UIMAFramework;
-import org.apache.uima.analysis_engine.AnalysisEngine;
+import org.apache.uima.UIMAException;
+import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
-import org.apache.uima.jcas.JFSIndexRepository;
-import org.apache.uima.resource.ResourceInitializationException;
-import org.apache.uima.resource.ResourceSpecifier;
-import org.apache.uima.util.XMLInputSource;
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
+import org.junit.Test;
 
+import ch.epfl.bbp.shaded.opennlp.tools.util.Pair;
+import ch.epfl.bbp.uima.ae.OpenNlpHelper;
+import ch.epfl.bbp.uima.testutils.UimaTests;
 import de.julielab.jules.types.Sentence;
 
-public class SentenceAnnotatorTest {//TODO extends TestCase {
+public class SentenceAnnotatorTest {
 
-	/**
-	 * Logger for this class
-	 */
-	private static final Logger LOGGER = LoggerFactory
-			.getLogger(SentenceAnnotatorTest.class);
-	
-	String text = "First sentence. Second sentence!";
+    String text = "First sentence. Second sentence!";
+    Pair offsets[] = { new Pair(0, 15), new Pair(16, 32) };
 
-	String offsets = "0-15;16-32;";
+    @Test
+    public void test() throws UIMAException {
+        // Run the splitter annotator on `text`
+        JCas jCas = UimaTests.getTestCas(text);
+        runPipeline(jCas, OpenNlpHelper.getSentenceSplitter());
 
-	public void testProcess() {
+        Collection<Sentence> collection = JCasUtil.select(jCas, Sentence.class);
+        Sentence sentences[] = new Sentence[collection.size()];
+        collection.toArray(sentences);
 
-		boolean annotationsOK = true;
+        // Make sure the number of sentences and their offsets are corrects
+        assertEquals(sentences.length, offsets.length);
+        for (int i = 0; i < offsets.length; ++i) {
+            Sentence sentence = sentences[i];
+            Pair offset = offsets[i];
 
-		XMLInputSource sentenceXML = null;
-		ResourceSpecifier sentenceSpec = null;
-		AnalysisEngine sentenceAnnotator = null;
-
-		try {
-			sentenceXML = new XMLInputSource(
-					"src/test/resources/SentenceAnnotatorTest.xml");
-			sentenceSpec = UIMAFramework.getXMLParser().parseResourceSpecifier(
-					sentenceXML);
-			sentenceAnnotator = UIMAFramework
-					.produceAnalysisEngine(sentenceSpec);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-
-		JCas jcas = null;
-		try {
-			jcas = sentenceAnnotator.newJCas();
-		} catch (ResourceInitializationException e) {
-			e.printStackTrace();
-
-		}
-		jcas.setDocumentText(text);
-
-		try {
-			sentenceAnnotator.process(jcas, null);
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
-
-		// get the offsets of the sentences
-		JFSIndexRepository indexes = jcas.getJFSIndexRepository();
-		Iterator sentIter = indexes.getAnnotationIndex(Sentence.type)
-				.iterator();
-
-		String predictedOffsets = "";
-
-		while (sentIter.hasNext()) {
-			Sentence s = (Sentence) sentIter.next();
-			predictedOffsets += s.getBegin() + "-" + s.getEnd() + ";";
-		}
-
-		LOGGER.debug("\npredicted: " + predictedOffsets);
-		LOGGER.debug("wanted: " + offsets);
-
-		// compare offsets
-		if (!predictedOffsets.equals(offsets)) {
-			annotationsOK = false;
-
-		}
-
-	TestCase.	assertTrue(annotationsOK);
-
-	}
-
+            assertEquals(sentence.getBegin(), offset.a);
+            assertEquals(sentence.getEnd(), offset.b);
+        }
+    }
 }
