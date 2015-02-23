@@ -1,0 +1,21 @@
+############################################
+# $ 1 batch id
+############################################
+
+threads: 1
+
+cr: FromFilelistReader
+ # 250 pdfs each
+ inputFile: /nfs4/bbp.epfl.ch/scratch/richarde/pdfs/splits2/$1
+ format__java: true
+ pathPrefix: /nfs4/bbp.epfl.ch/scratch/richarde/pdfs/
+ae: ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator
+ expandAbbrevs__java: true
+
+# write plain text to file
+ae: ch.epfl.bbp.uima.ae.output.AnnotationTypeWriter2
+ outputFile: /nfs4/bbp.epfl.ch/simulation/nlp/data/20150206_ft/$1
+ annotationClass: org.apache.uima.jcas.tcas.Annotation
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 10

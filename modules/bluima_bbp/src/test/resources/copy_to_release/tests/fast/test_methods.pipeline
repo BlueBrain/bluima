@@ -11,9 +11,6 @@ ae: GeneralEnglishAnnotator
 
 ae_java: ch.epfl.bbp.uima.LexicaHelper.getConceptMapper("blueonto1/method")
 
-
-ae: VerbsCleanerAnnotator
-             
 ae: ViterbiFilterAnnotator
  removeOtherAnnotations__java: true
 

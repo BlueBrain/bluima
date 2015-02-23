@@ -19,7 +19,7 @@ ae: ViterbiFilterAnnotator
 ae: AnnotationHistogramAnnotator
 
 ae: TestAnnotator
- expects: de.julielab.jules.types.Token 12
+ expects: de.julielab.jules.types.Token 13
 
 #TODO test more
 

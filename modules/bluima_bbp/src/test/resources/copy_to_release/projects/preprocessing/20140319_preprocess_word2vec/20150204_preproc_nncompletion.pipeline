@@ -1,0 +1,46 @@
+####################################################################
+# Outputs ns abstracts to word2vec format (on doc per line)
+# NO stemming
+# 250 docs/s, total 1773358 in neuroscience_ids_from_journals table
+# 1773358 / 250 = 7093s ~= 2h
+#
+# more about preprocessing:
+# https://groups.google.com/forum/#!topic/word2vec-toolkit/TI-TQC-b53w
+#
+####################################################################
+
+
+cr: PubmedWholeDatabaseCR
+ db_connection__java: new String[] { "127.0.0.1", "bb_pubmed", "root", "" }
+ and_query: AND pubmed_id IN (SELECT id FROM neuroscience_ids_from_journals)
+
+
+#
+# pre-processing step (sentence splitter, word tokenizer, POS and lemmatizer)
+#
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer();
+#ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger();
+#ae: BlueBioLemmatizer
+
+# PREPROC
+#include: ../../../includes/preprocess.incl
+ae: PunctuationAnnotator
+ae_java: ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getAllAED()
+ae: PruneMeasuresAnnotator
+
+# FILTERING FRAMEWORK
+ae: ViterbiFilterAnnotator
+#ae: BioLemmatizerNormalizerAnnotator
+ae: ch.epfl.bbp.uima.filter.StopwordFilterAnnotator
+ae: ch.epfl.bbp.uima.filter.PunctuationFilterAnnotator
+ae: ch.epfl.bbp.uima.filter.MeasureNormalizerAnnotator
+
+
+# OUTPUT in word2vec train format
+ae: ch.epfl.bbp.uima.filter.KeepsWriter
+ outputFile: target/abstracts_ns_word2vec.txt
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 2000
+#ae: ch.epfl.bbp.uima.filter.KeepsDumper

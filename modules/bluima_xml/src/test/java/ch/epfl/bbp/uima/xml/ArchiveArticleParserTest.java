@@ -13,14 +13,14 @@ public class ArchiveArticleParserTest {
     @Test
     public void test() throws Exception {
 
-	// http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2586251/?tool=pubmed
+        // http://www.ncbi.nlm.nih.gov/pmc/articles/PMC2586251/?tool=pubmed
 
-	Article article = new PmcNxmlParser().parse(ResourceHelper
-		.getInputStream("src/test/resources/pmc/33147.xml"));
-	// "src/test/resources/pmc/e-67-o1696.xml"));
-	// "src/test/resources/99846.nxml"));
+        Article article = new PmcNxmlParser().parse(ResourceHelper
+                .getInputStream("src/test/resources/pmc/33147.xml"));
+        // "src/test/resources/pmc/e-67-o1696.xml"));
+        // "src/test/resources/99846.nxml"));
 
-	String text = PmcNxmlHelper.extractText(article);
-	LOG.debug(text);
+        String text = PmcNxmlHelper.extractText(article);
+        LOG.debug(text.substring(0, 100));
     }
 }

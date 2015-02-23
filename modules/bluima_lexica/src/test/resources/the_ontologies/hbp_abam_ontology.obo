@@ -1,0 +1,8447 @@
+format-version: 1.2
+date: 08:12:2014 15:41
+saved-by: telefont
+auto_generated_by: martins script
+default-namespace: hbp_abam
+ontology: HBP Allen Brain Atlas Mouse Extension
+
+[Term]
+id: 1
+name: Tuberomammillary nucleus, ventral part
+created_by: telefont
+part_of: 557 ! Tuberomammillary nucleus
+synonym: "TMv" RELATED []
+
+[Term]
+id: 10
+name: Superior colliculus, motor related, intermediate gray layer
+created_by: telefont
+part_of: 294 ! Superior colliculus, motor related
+synonym: "SCig" RELATED []
+
+[Term]
+id: 100
+name: Interpeduncular nucleus
+created_by: telefont
+part_of: 165 ! Midbrain raphe nuclei
+synonym: "IPN" RELATED []
+
+[Term]
+id: 1000
+name: extrapyramidal fiber systems
+created_by: telefont
+part_of: 1009 ! fiber tracts
+synonym: "eps" RELATED []
+
+[Term]
+id: 1001
+name: Lobule V
+created_by: telefont
+part_of: 928 ! Culmen
+synonym: "CUL5" RELATED []
+
+[Term]
+id: 1002
+name: Primary auditory area
+created_by: telefont
+part_of: 247 ! Auditory areas
+synonym: "AUDp" RELATED []
+
+[Term]
+id: 1003
+name: corticopontine tract
+created_by: telefont
+part_of: 784 ! corticospinal tract
+synonym: "cpt" RELATED []
+
+[Term]
+id: 1004
+name: Ventral premammillary nucleus
+created_by: telefont
+part_of: 467 ! Hypothalamic medial zone
+synonym: "PMv" RELATED []
+
+[Term]
+id: 1005
+name: Primary auditory area, layer 6b
+created_by: telefont
+part_of: 1002 ! Primary auditory area
+synonym: "AUDp6b" RELATED []
+
+[Term]
+id: 1006
+name: Primary somatosensory area, trunk, layer 1
+created_by: telefont
+part_of: 361 ! Primary somatosensory area, trunk
+synonym: "SSp-tr1" RELATED []
+
+[Term]
+id: 1007
+name: Simple lobule
+created_by: telefont
+part_of: 1073 ! Hemispheric regions
+synonym: "SIM" RELATED []
+
+[Term]
+id: 1008
+name: Geniculate group, dorsal thalamus
+created_by: telefont
+part_of: 864 ! Thalamus, sensory-motor cortex related
+synonym: "GENd" RELATED []
+
+[Term]
+id: 1009
+name: fiber tracts
+created_by: telefont
+part_of: 997 ! root
+synonym: "fiber tracts" RELATED []
+
+[Term]
+id: 101
+name: Ventral cochlear nucleus
+created_by: telefont
+part_of: 607 ! Cochlear nuclei
+synonym: "VCO" RELATED []
+
+[Term]
+id: 1010
+name: Visceral area, layer 4
+created_by: telefont
+part_of: 677 ! Visceral area
+synonym: "VISC4" RELATED []
+
+[Term]
+id: 1011
+name: Dorsal auditory area
+created_by: telefont
+part_of: 247 ! Auditory areas
+synonym: "AUDd" RELATED []
+
+[Term]
+id: 1012
+name: corticorubral tract
+created_by: telefont
+part_of: 784 ! corticospinal tract
+synonym: "crt" RELATED []
+
+[Term]
+id: 1014
+name: Geniculate group, ventral thalamus
+created_by: telefont
+part_of: 856 ! Thalamus, polymodal association cortex related
+synonym: "GENv" RELATED []
+
+[Term]
+id: 1015
+name: Anterior cingulate area, dorsal part, layer 5
+created_by: telefont
+part_of: 39 ! Anterior cingulate area, dorsal part
+synonym: "ACAd5" RELATED []
+
+[Term]
+id: 1016
+name: olfactory nerve layer of main olfactory bulb
+created_by: telefont
+part_of: 840 ! olfactory nerve
+synonym: "onl" RELATED []
+
+[Term]
+id: 1017
+name: Ansiform lobule
+created_by: telefont
+part_of: 1073 ! Hemispheric regions
+synonym: "AN" RELATED []
+
+[Term]
+id: 1018
+name: Ventral auditory area
+created_by: telefont
+part_of: 247 ! Auditory areas
+synonym: "AUDv" RELATED []
+
+[Term]
+id: 1019
+name: corticospinal tract, crossed
+created_by: telefont
+part_of: 784 ! corticospinal tract
+synonym: "cstc" RELATED []
+
+[Term]
+id: 102
+name: nigrostriatal tract
+created_by: telefont
+part_of: 760 ! cerebral nuclei related
+synonym: "nst" RELATED []
+
+[Term]
+id: 1020
+name: Posterior complex of the thalamus
+created_by: telefont
+part_of: 138 ! Lateral group of the dorsal thalamus
+synonym: "PO" RELATED []
+
+[Term]
+id: 1021
+name: Secondary motor area, layer 6a
+created_by: telefont
+part_of: 993 ! Secondary motor area
+synonym: "MOs6a" RELATED []
+
+[Term]
+id: 1022
+name: Globus pallidus, external segment
+created_by: telefont
+part_of: 818 ! Pallidum, dorsal region
+synonym: "GPe" RELATED []
+
+[Term]
+id: 1023
+name: Ventral auditory area, layer 5
+created_by: telefont
+part_of: 1018 ! Ventral auditory area
+synonym: "AUDv5" RELATED []
+
+[Term]
+id: 1024
+name: grooves
+created_by: telefont
+part_of: 997 ! root
+synonym: "grv" RELATED []
+
+[Term]
+id: 1025
+name: Paramedian lobule
+created_by: telefont
+part_of: 1073 ! Hemispheric regions
+synonym: "PRM" RELATED []
+
+[Term]
+id: 1026
+name: Primary somatosensory area, upper limb, layer 6b
+created_by: telefont
+part_of: 369 ! Primary somatosensory area, upper limb
+synonym: "SSp-ul6b" RELATED []
+
+[Term]
+id: 1027
+name: Posterior auditory area
+created_by: telefont
+part_of: 247 ! Auditory areas
+synonym: "AUDpo" RELATED []
+
+[Term]
+id: 1028
+name: corticospinal tract, uncrossed
+created_by: telefont
+part_of: 784 ! corticospinal tract
+synonym: "cstu" RELATED []
+
+[Term]
+id: 1029
+name: Posterior limiting nucleus of the thalamus
+created_by: telefont
+part_of: 138 ! Lateral group of the dorsal thalamus
+synonym: "POL" RELATED []
+
+[Term]
+id: 103
+name: Paraventricular hypothalamic nucleus, magnocellular division, posterior magnocellular part
+created_by: telefont
+part_of: 71 ! Paraventricular hypothalamic nucleus, magnocellular division
+synonym: "PVHpm" RELATED []
+
+[Term]
+id: 1030
+name: Primary somatosensory area, lower limb, layer 1
+created_by: telefont
+part_of: 337 ! Primary somatosensory area, lower limb
+synonym: "SSp-ll1" RELATED []
+
+[Term]
+id: 1031
+name: Globus pallidus, internal segment
+created_by: telefont
+part_of: 818 ! Pallidum, dorsal region
+synonym: "GPi" RELATED []
+
+[Term]
+id: 1032
+name: grooves of the cerebral cortex
+created_by: telefont
+part_of: 1024 ! grooves
+synonym: "grv of CTX" RELATED []
+
+[Term]
+id: 1033
+name: Copula pyramidis
+created_by: telefont
+part_of: 1073 ! Hemispheric regions
+synonym: "COPY" RELATED []
+
+[Term]
+id: 1034
+name: Taenia tecta, dorsal part, layer 1
+created_by: telefont
+part_of: 597 ! Taenia tecta, dorsal part
+synonym: "TTd1" RELATED []
+
+[Term]
+id: 1035
+name: Supplemental somatosensory area, layer 4
+created_by: telefont
+part_of: 378 ! Supplemental somatosensory area
+synonym: "SSs4" RELATED []
+
+[Term]
+id: 1036
+name: corticotectal tract
+created_by: telefont
+part_of: 784 ! corticospinal tract
+synonym: "cte" RELATED []
+
+[Term]
+id: 1037
+name: Postsubiculum
+created_by: telefont
+part_of: 822 ! Retrohippocampal region
+synonym: "POST" RELATED []
+
+[Term]
+id: 1038
+name: Primary somatosensory area, barrel field, layer 6a
+created_by: telefont
+part_of: 329 ! Primary somatosensory area, barrel field
+synonym: "SSp-bfd6a" RELATED []
+
+[Term]
+id: 1039
+name: Gracile nucleus
+created_by: telefont
+part_of: 720 ! Dorsal column nuclei
+synonym: "GR" RELATED []
+
+[Term]
+id: 104
+name: Agranular insular area, dorsal part
+created_by: telefont
+part_of: 95 ! Agranular insular area
+synonym: "AId" RELATED []
+
+[Term]
+id: 1040
+name: grooves of the cerebellar cortex
+created_by: telefont
+part_of: 1024 ! grooves
+synonym: "grv of CBX" RELATED []
+
+[Term]
+id: 1041
+name: Paraflocculus
+created_by: telefont
+part_of: 1073 ! Hemispheric regions
+synonym: "PFL" RELATED []
+
+[Term]
+id: 1042
+name: Taenia tecta, dorsal part, layer 2
+created_by: telefont
+part_of: 597 ! Taenia tecta, dorsal part
+synonym: "TTd2" RELATED []
+
+[Term]
+id: 1043
+name: crossed tectospinal pathway
+created_by: telefont
+part_of: 877 ! tectospinal pathway
+synonym: "tspc" RELATED []
+
+[Term]
+id: 1044
+name: Peripeduncular nucleus
+created_by: telefont
+part_of: 864 ! Thalamus, sensory-motor cortex related
+synonym: "PP" RELATED []
+
+[Term]
+id: 1045
+name: Ectorhinal area/Layer 6b
+created_by: telefont
+part_of: 895 ! Ectorhinal area
+synonym: "ECT6b" RELATED []
+
+[Term]
+id: 1046
+name: Anteromedial visual area, layer 6a
+created_by: telefont
+part_of: 394 ! Anteromedial visual area
+synonym: "VISam6a" RELATED []
+
+[Term]
+id: 1047
+name: Primary somatosensory area, barrel field, layer 4
+created_by: telefont
+part_of: 329 ! Primary somatosensory area, barrel field
+synonym: "SSp-bfd4" RELATED []
+
+[Term]
+id: 1048
+name: Gigantocellular reticular nucleus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "GRN" RELATED []
+
+[Term]
+id: 1049
+name: Flocculus
+created_by: telefont
+part_of: 1073 ! Hemispheric regions
+synonym: "FL" RELATED []
+
+[Term]
+id: 105
+name: Superior olivary complex, medial part
+created_by: telefont
+part_of: 398 ! Superior olivary complex
+synonym: "SOCm" RELATED []
+
+[Term]
+id: 1050
+name: Taenia tecta, dorsal part, layer 3
+created_by: telefont
+part_of: 597 ! Taenia tecta, dorsal part
+synonym: "TTd3" RELATED []
+
+[Term]
+id: 1051
+name: direct tectospinal pathway
+created_by: telefont
+part_of: 877 ! tectospinal pathway
+synonym: "tspd" RELATED []
+
+[Term]
+id: 1052
+name: Pedunculopontine nucleus
+created_by: telefont
+part_of: 348 ! Midbrain, behavioral state related
+synonym: "PPN" RELATED []
+
+[Term]
+id: 1053
+name: Anterior cingulate area, layer 2/3
+created_by: telefont
+part_of: 31 ! Anterior cingulate area
+synonym: "ACA2/3" RELATED []
+
+[Term]
+id: 1054
+name: Infralimbic area, layer 6a
+created_by: telefont
+part_of: 44 ! Infralimbic area
+synonym: "ILA6a" RELATED []
+
+[Term]
+id: 1055
+name: endorhinal groove
+created_by: telefont
+part_of: 1032 ! grooves of the cerebral cortex
+synonym: "eg" RELATED []
+
+[Term]
+id: 1056
+name: Crus 1
+created_by: telefont
+part_of: 1017 ! Ansiform lobule
+synonym: "ANcr1" RELATED []
+
+[Term]
+id: 1057
+name: Gustatory areas
+created_by: telefont
+part_of: 315 ! Isocortex
+synonym: "GU" RELATED []
+
+[Term]
+id: 1058
+name: Visceral area, layer 5
+created_by: telefont
+part_of: 677 ! Visceral area
+synonym: "VISC5" RELATED []
+
+[Term]
+id: 1059
+name: Taenia tecta, dorsal part, layer 4
+created_by: telefont
+part_of: 597 ! Taenia tecta, dorsal part
+synonym: "TTd4" RELATED []
+
+[Term]
+id: 106
+name: Inferior salivatory nucleus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "ISN" RELATED []
+
+[Term]
+id: 1060
+name: doral tegmental decussation
+created_by: telefont
+part_of: 877 ! tectospinal pathway
+synonym: "dtd" RELATED []
+
+[Term]
+id: 1061
+name: Posterior pretectal nucleus
+created_by: telefont
+part_of: 1100 ! Pretectal region
+synonym: "PPT" RELATED []
+
+[Term]
+id: 1062
+name: Primary somatosensory area, barrel field, layer 6b
+created_by: telefont
+part_of: 329 ! Primary somatosensory area, barrel field
+synonym: "SSp-bfd6b" RELATED []
+
+[Term]
+id: 1063
+name: hippocampal fissure
+created_by: telefont
+part_of: 1032 ! grooves of the cerebral cortex
+synonym: "hf" RELATED []
+
+[Term]
+id: 1064
+name: Crus 2
+created_by: telefont
+part_of: 1017 ! Ansiform lobule
+synonym: "ANcr2" RELATED []
+
+[Term]
+id: 1065
+name: Hindbrain
+created_by: telefont
+part_of: 343 ! Brain stem
+synonym: "HB" RELATED []
+
+[Term]
+id: 1066
+name: Anteromedial visual area, layer 2/3
+created_by: telefont
+part_of: 394 ! Anteromedial visual area
+synonym: "VISam2/3" RELATED []
+
+[Term]
+id: 1067
+name: Taenia tecta, ventral part, layer 1
+created_by: telefont
+part_of: 605 ! Taenia tecta, ventral part
+synonym: "TTv1" RELATED []
+
+[Term]
+id: 10671
+name: Median eminence
+created_by: telefont
+part_of: 1097 ! Hypothalamus
+synonym: "ME" RELATED []
+
+[Term]
+id: 10672
+name: Simple lobule, granular layer
+created_by: telefont
+part_of: 1007 ! Simple lobule
+synonym: "SIMgr" RELATED []
+
+[Term]
+id: 10673
+name: Simple lobule, Purkinje layer
+created_by: telefont
+part_of: 1007 ! Simple lobule
+synonym: "SIMpu" RELATED []
+
+[Term]
+id: 10674
+name: Simple lobule, molecular layer
+created_by: telefont
+part_of: 1007 ! Simple lobule
+synonym: "SIMmo" RELATED []
+
+[Term]
+id: 10675
+name: Crus 1, granular layer
+created_by: telefont
+part_of: 1056 ! Crus 1
+synonym: "ANcr1gr" RELATED []
+
+[Term]
+id: 10676
+name: Crus 1, Purkinje layer
+created_by: telefont
+part_of: 1056 ! Crus 1
+synonym: "ANcr1pu" RELATED []
+
+[Term]
+id: 10677
+name: Crus 1, molecular layer
+created_by: telefont
+part_of: 1056 ! Crus 1
+synonym: "ANcr1mo" RELATED []
+
+[Term]
+id: 10678
+name: Crus 2, granular layer
+created_by: telefont
+part_of: 1064 ! Crus 2
+synonym: "ANcr2gr" RELATED []
+
+[Term]
+id: 10679
+name: Crus 2, Purkinje layer
+created_by: telefont
+part_of: 1064 ! Crus 2
+synonym: "ANcr2pu" RELATED []
+
+[Term]
+id: 1068
+name: dorsal thalamus related
+created_by: telefont
+part_of: 824 ! hypothalamus related
+synonym: "mfbst" RELATED []
+
+[Term]
+id: 10680
+name: Crus 2, molecular layer
+created_by: telefont
+part_of: 1064 ! Crus 2
+synonym: "ANcr2mo" RELATED []
+
+[Term]
+id: 10681
+name: Paramedian lobule, granular layer
+created_by: telefont
+part_of: 1025 ! Paramedian lobule
+synonym: "PRMgr" RELATED []
+
+[Term]
+id: 10682
+name: Paramedian lobule, Purkinje layer
+created_by: telefont
+part_of: 1025 ! Paramedian lobule
+synonym: "PRMpu" RELATED []
+
+[Term]
+id: 10683
+name: Paramedian lobule, molecular layer
+created_by: telefont
+part_of: 1025 ! Paramedian lobule
+synonym: "PRMmo" RELATED []
+
+[Term]
+id: 10684
+name: Copula pyramidis, granular layer
+created_by: telefont
+part_of: 1033 ! Copula pyramidis
+synonym: "COPYgr" RELATED []
+
+[Term]
+id: 10685
+name: Copula pyramidis, Purkinje layer
+created_by: telefont
+part_of: 1033 ! Copula pyramidis
+synonym: "COPYpu" RELATED []
+
+[Term]
+id: 10686
+name: Copula pyramidis, molecular layer
+created_by: telefont
+part_of: 1033 ! Copula pyramidis
+synonym: "COPYmo" RELATED []
+
+[Term]
+id: 10687
+name: Paraflocculus, granular layer
+created_by: telefont
+part_of: 1041 ! Paraflocculus
+synonym: "PFLgr" RELATED []
+
+[Term]
+id: 10688
+name: Paraflocculus, Purkinje layer
+created_by: telefont
+part_of: 1041 ! Paraflocculus
+synonym: "PFLpu" RELATED []
+
+[Term]
+id: 10689
+name: Paraflocculus, molecular layer
+created_by: telefont
+part_of: 1041 ! Paraflocculus
+synonym: "PFLmo" RELATED []
+
+[Term]
+id: 1069
+name: Parapyramidal nucleus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "PPY" RELATED []
+
+[Term]
+id: 10690
+name: Flocculus, granular layer
+created_by: telefont
+part_of: 1049 ! Flocculus
+synonym: "FLgr" RELATED []
+
+[Term]
+id: 10691
+name: Flocculus, Purkinje layer
+created_by: telefont
+part_of: 1049 ! Flocculus
+synonym: "FLpu" RELATED []
+
+[Term]
+id: 10692
+name: Flocculus, molecular layer
+created_by: telefont
+part_of: 1049 ! Flocculus
+synonym: "FLmo" RELATED []
+
+[Term]
+id: 10693
+name: Parasubiculum, layer 1
+created_by: telefont
+part_of: 843 ! Parasubiculum
+synonym: "PAR1" RELATED []
+
+[Term]
+id: 10694
+name: Parasubiculum, layer 2
+created_by: telefont
+part_of: 843 ! Parasubiculum
+synonym: "PAR2" RELATED []
+
+[Term]
+id: 10695
+name: Parasubiculum, layer 3
+created_by: telefont
+part_of: 843 ! Parasubiculum
+synonym: "PAR3" RELATED []
+
+[Term]
+id: 10696
+name: Postsubiculum, layer 1
+created_by: telefont
+part_of: 1037 ! Postsubiculum
+synonym: "POST1" RELATED []
+
+[Term]
+id: 10697
+name: Postsubiculum, layer 2
+created_by: telefont
+part_of: 1037 ! Postsubiculum
+synonym: "POST2" RELATED []
+
+[Term]
+id: 10698
+name: Postsubiculum, layer 3
+created_by: telefont
+part_of: 1037 ! Postsubiculum
+synonym: "POST3" RELATED []
+
+[Term]
+id: 10699
+name: Presubiculum, layer 1
+created_by: telefont
+part_of: 1084 ! Presubiculum
+synonym: "PRE1" RELATED []
+
+[Term]
+id: 107
+name: Somatomotor areas, Layer 1
+created_by: telefont
+part_of: 500 ! Somatomotor areas
+synonym: "MO1" RELATED []
+
+[Term]
+id: 1070
+name: Primary somatosensory area, barrel field, layer 5
+created_by: telefont
+part_of: 329 ! Primary somatosensory area, barrel field
+synonym: "SSp-bfd5" RELATED []
+
+[Term]
+id: 10700
+name: Presubiculum, layer 2
+created_by: telefont
+part_of: 1084 ! Presubiculum
+synonym: "PRE2" RELATED []
+
+[Term]
+id: 10701
+name: Presubiculum, layer 3
+created_by: telefont
+part_of: 1084 ! Presubiculum
+synonym: "PRE3" RELATED []
+
+[Term]
+id: 10702
+name: Dentate gyrus, subgranular zone
+created_by: telefont
+part_of: 726 ! Dentate gyrus
+synonym: "DG-sgz" RELATED []
+
+[Term]
+id: 10703
+name: Dentate gyrus, molecular layer
+created_by: telefont
+part_of: 726 ! Dentate gyrus
+synonym: "DG-mo" RELATED []
+
+[Term]
+id: 10704
+name: Dentate gyrus, polymorph layer
+created_by: telefont
+part_of: 726 ! Dentate gyrus
+synonym: "DG-po" RELATED []
+
+[Term]
+id: 10705
+name: Lingula (I), granular layer
+created_by: telefont
+part_of: 912 ! Lingula (I)
+synonym: "LINGgr" RELATED []
+
+[Term]
+id: 10706
+name: Lingula (I), Purkinje layer
+created_by: telefont
+part_of: 912 ! Lingula (I)
+synonym: "LINGpu" RELATED []
+
+[Term]
+id: 10707
+name: Lingula (I), molecular layer
+created_by: telefont
+part_of: 912 ! Lingula (I)
+synonym: "LINGmo" RELATED []
+
+[Term]
+id: 10708
+name: Lobule II, granular layer
+created_by: telefont
+part_of: 976 ! Lobule II
+synonym: "CENT2gr" RELATED []
+
+[Term]
+id: 10709
+name: Lobule II, Purkinje layer
+created_by: telefont
+part_of: 976 ! Lobule II
+synonym: "CENT2pu" RELATED []
+
+[Term]
+id: 1071
+name: rhinal fissure
+created_by: telefont
+part_of: 1032 ! grooves of the cerebral cortex
+synonym: "rf" RELATED []
+
+[Term]
+id: 10710
+name: Lobule II, molecular layer
+created_by: telefont
+part_of: 976 ! Lobule II
+synonym: "CENT2mo" RELATED []
+
+[Term]
+id: 10711
+name: Lobule III, granular layer
+created_by: telefont
+part_of: 984 ! Lobule III
+synonym: "CENT3gr" RELATED []
+
+[Term]
+id: 10712
+name: Lobule III, Purkinje layer
+created_by: telefont
+part_of: 984 ! Lobule III
+synonym: "CENT3pu" RELATED []
+
+[Term]
+id: 10713
+name: Lobule III, molecular layer
+created_by: telefont
+part_of: 984 ! Lobule III
+synonym: "CENT3mo" RELATED []
+
+[Term]
+id: 10714
+name: Lobule IV, granular layer
+created_by: telefont
+part_of: 992 ! Lobule IV
+synonym: "CUL4gr" RELATED []
+
+[Term]
+id: 10715
+name: Lobule IV, Purkinje layer
+created_by: telefont
+part_of: 992 ! Lobule IV
+synonym: "CUL4pu" RELATED []
+
+[Term]
+id: 10716
+name: Lobule IV, molecular layer
+created_by: telefont
+part_of: 992 ! Lobule IV
+synonym: "CUL4mo" RELATED []
+
+[Term]
+id: 10717
+name: Lobule V, granular layer
+created_by: telefont
+part_of: 1001 ! Lobule V
+synonym: "CUL5gr" RELATED []
+
+[Term]
+id: 10718
+name: Lobule V, Purkinje layer
+created_by: telefont
+part_of: 1001 ! Lobule V
+synonym: "CUL5pu" RELATED []
+
+[Term]
+id: 10719
+name: Lobule V, molecular layer
+created_by: telefont
+part_of: 1001 ! Lobule V
+synonym: "CUL5mo" RELATED []
+
+[Term]
+id: 1072
+name: Medial geniculate complex, dorsal part
+created_by: telefont
+part_of: 475 ! Medial geniculate complex
+synonym: "MGd" RELATED []
+
+[Term]
+id: 10720
+name: Lobules IV-V, granular layer
+created_by: telefont
+part_of: 1091 ! Lobules IV-V
+synonym: "CUL4, 5gr" RELATED []
+
+[Term]
+id: 10721
+name: Lobules IV-V, Purkinje layer
+created_by: telefont
+part_of: 1091 ! Lobules IV-V
+synonym: "CUL4, 5pu" RELATED []
+
+[Term]
+id: 10722
+name: Lobules IV-V, molecular layer
+created_by: telefont
+part_of: 1091 ! Lobules IV-V
+synonym: "CUL4, 5mo" RELATED []
+
+[Term]
+id: 10723
+name: Declive (VI), granular layer
+created_by: telefont
+part_of: 936 ! Declive (VI)
+synonym: "DECgr" RELATED []
+
+[Term]
+id: 10724
+name: Declive (VI), Purkinje layer
+created_by: telefont
+part_of: 936 ! Declive (VI)
+synonym: "DECpu" RELATED []
+
+[Term]
+id: 10725
+name: Declive (VI), molecular layer
+created_by: telefont
+part_of: 936 ! Declive (VI)
+synonym: "DECmo" RELATED []
+
+[Term]
+id: 10726
+name: Folium-tuber vermis (VII), granular layer
+created_by: telefont
+part_of: 944 ! Folium-tuber vermis (VII)
+synonym: "FOTUgr" RELATED []
+
+[Term]
+id: 10727
+name: Folium-tuber vermis (VII), Purkinje layer
+created_by: telefont
+part_of: 944 ! Folium-tuber vermis (VII)
+synonym: "FOTUpu" RELATED []
+
+[Term]
+id: 10728
+name: Folium-tuber vermis (VII), molecular layer
+created_by: telefont
+part_of: 944 ! Folium-tuber vermis (VII)
+synonym: "FOTUmo" RELATED []
+
+[Term]
+id: 10729
+name: Pyramus (VIII), granular layer
+created_by: telefont
+part_of: 951 ! Pyramus (VIII)
+synonym: "PYRgr" RELATED []
+
+[Term]
+id: 1073
+name: Hemispheric regions
+created_by: telefont
+part_of: 528 ! Cerebellar cortex
+synonym: "HEM" RELATED []
+
+[Term]
+id: 10730
+name: Pyramus (VIII), Purkinje layer
+created_by: telefont
+part_of: 951 ! Pyramus (VIII)
+synonym: "PYRpu" RELATED []
+
+[Term]
+id: 10731
+name: Pyramus (VIII), molecular layer
+created_by: telefont
+part_of: 951 ! Pyramus (VIII)
+synonym: "PYRmo" RELATED []
+
+[Term]
+id: 10732
+name: Uvula (IX), granular layer
+created_by: telefont
+part_of: 957 ! Uvula (IX)
+synonym: "UVUgr" RELATED []
+
+[Term]
+id: 10733
+name: Uvula (IX), Purkinje layer
+created_by: telefont
+part_of: 957 ! Uvula (IX)
+synonym: "UVUpu" RELATED []
+
+[Term]
+id: 10734
+name: Uvula (IX), molecular layer
+created_by: telefont
+part_of: 957 ! Uvula (IX)
+synonym: "UVUmo" RELATED []
+
+[Term]
+id: 10735
+name: Nodulus (X), granular layer
+created_by: telefont
+part_of: 968 ! Nodulus (X)
+synonym: "NODgr" RELATED []
+
+[Term]
+id: 10736
+name: Nodulus (X), Purkinje layer
+created_by: telefont
+part_of: 968 ! Nodulus (X)
+synonym: "NODpu" RELATED []
+
+[Term]
+id: 10737
+name: Nodulus (X), molecular layer
+created_by: telefont
+part_of: 968 ! Nodulus (X)
+synonym: "NODmo" RELATED []
+
+[Term]
+id: 1074
+name: Anterolateral visual area, layer 1
+created_by: telefont
+part_of: 402 ! Anterolateral visual area
+synonym: "VISal1" RELATED []
+
+[Term]
+id: 1075
+name: Taenia tecta, ventral part, layer 2
+created_by: telefont
+part_of: 605 ! Taenia tecta, ventral part
+synonym: "TTv2" RELATED []
+
+[Term]
+id: 1076
+name: efferent cochleovestibular bundle
+created_by: telefont
+part_of: 933 ! vestibulocochlear nerve
+synonym: "cvb" RELATED []
+
+[Term]
+id: 1077
+name: Perireunensis nucleus
+created_by: telefont
+part_of: 444 ! Medial group of the dorsal thalamus
+synonym: "PR" RELATED []
+
+[Term]
+id: 1078
+name: rhinal incisure
+created_by: telefont
+part_of: 1032 ! grooves of the cerebral cortex
+synonym: "ri" RELATED []
+
+[Term]
+id: 1079
+name: Medial geniculate complex, ventral part
+created_by: telefont
+part_of: 475 ! Medial geniculate complex
+synonym: "MGv" RELATED []
+
+[Term]
+id: 108
+name: choroid plexus
+created_by: telefont
+part_of: 81 ! lateral ventricle
+synonym: "chpl" RELATED []
+
+[Term]
+id: 1080
+name: Hippocampal region
+created_by: telefont
+part_of: 1089 ! Hippocampal formation
+synonym: "HIP" RELATED []
+
+[Term]
+id: 1081
+name: Infralimbic area, layer 6b
+created_by: telefont
+part_of: 44 ! Infralimbic area
+synonym: "ILA6b" RELATED []
+
+[Term]
+id: 1082
+name: Taenia tecta, ventral part, layer 3
+created_by: telefont
+part_of: 605 ! Taenia tecta, ventral part
+synonym: "TTv3" RELATED []
+
+[Term]
+id: 1083
+name: epithalamus related
+created_by: telefont
+part_of: 824 ! hypothalamus related
+synonym: "mfbse" RELATED []
+
+[Term]
+id: 1084
+name: Presubiculum
+created_by: telefont
+part_of: 822 ! Retrohippocampal region
+synonym: "PRE" RELATED []
+
+[Term]
+id: 1085
+name: Secondary motor area, layer 6b
+created_by: telefont
+part_of: 993 ! Secondary motor area
+synonym: "MOs6b" RELATED []
+
+[Term]
+id: 1086
+name: Primary somatosensory area, trunk, layer 4
+created_by: telefont
+part_of: 361 ! Primary somatosensory area, trunk
+synonym: "SSp-tr4" RELATED []
+
+[Term]
+id: 1087
+name: precentral fissure
+created_by: telefont
+part_of: 1040 ! grooves of the cerebellar cortex
+synonym: "pce" RELATED []
+
+[Term]
+id: 1088
+name: Medial geniculate complex, medial part
+created_by: telefont
+part_of: 475 ! Medial geniculate complex
+synonym: "MGm" RELATED []
+
+[Term]
+id: 1089
+name: Hippocampal formation
+created_by: telefont
+part_of: 695 ! Cortical plate
+synonym: "HPF" RELATED []
+
+[Term]
+id: 109
+name: nigrothalamic fibers
+created_by: telefont
+part_of: 760 ! cerebral nuclei related
+synonym: "ntt" RELATED []
+
+[Term]
+id: 1090
+name: Supplemental somatosensory area, layer 5
+created_by: telefont
+part_of: 378 ! Supplemental somatosensory area
+synonym: "SSs5" RELATED []
+
+[Term]
+id: 1091
+name: Lobules IV-V
+created_by: telefont
+part_of: 928 ! Culmen
+synonym: "CUL4, 5" RELATED []
+
+[Term]
+id: 1092
+name: external medullary lamina of the thalamus
+created_by: telefont
+part_of: 896 ! thalamus related
+synonym: "em" RELATED []
+
+[Term]
+id: 1093
+name: Pontine reticular nucleus, caudal part
+created_by: telefont
+part_of: 987 ! Pons, motor related
+synonym: "PRNc" RELATED []
+
+[Term]
+id: 1094
+name: Primary somatosensory area, lower limb, layer 4
+created_by: telefont
+part_of: 337 ! Primary somatosensory area, lower limb
+synonym: "SSp-ll4" RELATED []
+
+[Term]
+id: 1095
+name: preculminate fissure
+created_by: telefont
+part_of: 1040 ! grooves of the cerebellar cortex
+synonym: "pcf" RELATED []
+
+[Term]
+id: 1096
+name: Anteromedial nucleus, dorsal part
+created_by: telefont
+part_of: 127 ! Anteromedial nucleus
+synonym: "AMd" RELATED []
+
+[Term]
+id: 1097
+name: Hypothalamus
+created_by: telefont
+part_of: 1129 ! Interbrain
+synonym: "HY" RELATED []
+
+[Term]
+id: 1098
+name: Medullary reticular nucleus, dorsal part
+created_by: telefont
+part_of: 395 ! Medullary reticular nucleus
+synonym: "MDRNd" RELATED []
+
+[Term]
+id: 1099
+name: fornix system
+created_by: telefont
+part_of: 768 ! cerebrum related
+synonym: "fxs" RELATED []
+
+[Term]
+id: 11
+name: posterolateral fissure
+created_by: telefont
+part_of: 1040 ! grooves of the cerebellar cortex
+synonym: "plf" RELATED []
+
+[Term]
+id: 110
+name: Paraventricular hypothalamic nucleus, parvicellular division, periventricular part
+created_by: telefont
+part_of: 94 ! Paraventricular hypothalamic nucleus, parvicellular division
+synonym: "PVHpv" RELATED []
+
+[Term]
+id: 1100
+name: Pretectal region
+created_by: telefont
+part_of: 323 ! Midbrain, motor related
+synonym: "PRT" RELATED []
+
+[Term]
+id: 1101
+name: Agranular insular area, dorsal part, layer 5
+created_by: telefont
+part_of: 104 ! Agranular insular area, dorsal part
+synonym: "AId5" RELATED []
+
+[Term]
+id: 1102
+name: Primary somatosensory area, mouth, layer 6a
+created_by: telefont
+part_of: 345 ! Primary somatosensory area, mouth
+synonym: "SSp-m6a" RELATED []
+
+[Term]
+id: 1103
+name: primary fissure
+created_by: telefont
+part_of: 1040 ! grooves of the cerebellar cortex
+synonym: "pri" RELATED []
+
+[Term]
+id: 1104
+name: Anteromedial nucleus, ventral part
+created_by: telefont
+part_of: 127 ! Anteromedial nucleus
+synonym: "AMv" RELATED []
+
+[Term]
+id: 1105
+name: Intercalated amygdalar nucleus
+created_by: telefont
+part_of: 278 ! Striatum-like amygdalar nuclei
+synonym: "IA" RELATED []
+
+[Term]
+id: 1106
+name: Visceral area, layer 2/3
+created_by: telefont
+part_of: 677 ! Visceral area
+synonym: "VISC2/3" RELATED []
+
+[Term]
+id: 1107
+name: Medullary reticular nucleus, ventral part
+created_by: telefont
+part_of: 395 ! Medullary reticular nucleus
+synonym: "MDRNv" RELATED []
+
+[Term]
+id: 1108
+name: genu of corpus callosum
+created_by: telefont
+part_of: 776 ! corpus callosum
+synonym: "ccg" RELATED []
+
+[Term]
+id: 1109
+name: Parastrial nucleus
+created_by: telefont
+part_of: 141 ! Periventricular region
+synonym: "PS" RELATED []
+
+[Term]
+id: 111
+name: Agranular insular area, posterior part
+created_by: telefont
+part_of: 95 ! Agranular insular area
+synonym: "AIp" RELATED []
+
+[Term]
+id: 1110
+name: Supramammillary nucleus, lateral part
+created_by: telefont
+part_of: 525 ! Supramammillary nucleus
+synonym: "SUMl" RELATED []
+
+[Term]
+id: 1111
+name: Primary somatosensory area, trunk, layer 5
+created_by: telefont
+part_of: 361 ! Primary somatosensory area, trunk
+synonym: "SSp-tr5" RELATED []
+
+[Term]
+id: 1112
+name: posterior superior fissure
+created_by: telefont
+part_of: 1040 ! grooves of the cerebellar cortex
+synonym: "psf" RELATED []
+
+[Term]
+id: 1113
+name: Interanterodorsal nucleus of the thalamus
+created_by: telefont
+part_of: 239 ! Anterior group of the dorsal thalamus
+synonym: "IAD" RELATED []
+
+[Term]
+id: 1114
+name: Anterolateral visual area, layer 4
+created_by: telefont
+part_of: 402 ! Anterolateral visual area
+synonym: "VISal4" RELATED []
+
+[Term]
+id: 1116
+name: genu of the facial nerve
+created_by: telefont
+part_of: 798 ! facial nerve
+synonym: "gVIIn" RELATED []
+
+[Term]
+id: 1117
+name: Pons, behavioral state related
+created_by: telefont
+part_of: 771 ! Pons
+synonym: "P-sat" RELATED []
+
+[Term]
+id: 1118
+name: Supramammillary nucleus, medial part
+created_by: telefont
+part_of: 525 ! Supramammillary nucleus
+synonym: "SUMm" RELATED []
+
+[Term]
+id: 1119
+name: prepyramidal fissure
+created_by: telefont
+part_of: 1040 ! grooves of the cerebellar cortex
+synonym: "ppf" RELATED []
+
+[Term]
+id: 112
+name: Granular lamina of the cochlear nuclei
+created_by: telefont
+part_of: 607 ! Cochlear nuclei
+synonym: "CNlam" RELATED []
+
+[Term]
+id: 1120
+name: Interanteromedial nucleus of the thalamus
+created_by: telefont
+part_of: 239 ! Anterior group of the dorsal thalamus
+synonym: "IAM" RELATED []
+
+[Term]
+id: 1121
+name: Entorhinal area, lateral part, layer 1
+created_by: telefont
+part_of: 918 ! Entorhinal area, lateral part
+synonym: "ENTl1" RELATED []
+
+[Term]
+id: 1123
+name: inferior cerebellar peduncle
+created_by: telefont
+part_of: 752 ! cerebellar peduncles
+synonym: "icp" RELATED []
+
+[Term]
+id: 1124
+name: Suprachiasmatic preoptic nucleus
+created_by: telefont
+part_of: 141 ! Periventricular region
+synonym: "PSCH" RELATED []
+
+[Term]
+id: 1125
+name: Orbital area, ventrolateral part, layer 5
+created_by: telefont
+part_of: 746 ! Orbital area, ventrolateral part
+synonym: "ORBvl5" RELATED []
+
+[Term]
+id: 1126
+name: Tuberomammillary nucleus, dorsal part
+created_by: telefont
+part_of: 557 ! Tuberomammillary nucleus
+synonym: "TMd" RELATED []
+
+[Term]
+id: 1127
+name: Temporal association areas, layer 2/3
+created_by: telefont
+part_of: 541 ! Temporal association areas
+synonym: "TEa2/3" RELATED []
+
+[Term]
+id: 1128
+name: Primary somatosensory area, lower limb, layer 5
+created_by: telefont
+part_of: 337 ! Primary somatosensory area, lower limb
+synonym: "SSp-ll5" RELATED []
+
+[Term]
+id: 1129
+name: Interbrain
+created_by: telefont
+part_of: 343 ! Brain stem
+synonym: "IB" RELATED []
+
+[Term]
+id: 113
+name: Primary somatosensory area, lower limb, layer 2/3
+created_by: telefont
+part_of: 337 ! Primary somatosensory area, lower limb
+synonym: "SSp-ll2/3" RELATED []
+
+[Term]
+id: 1131
+name: intermediate nerve
+created_by: telefont
+part_of: 798 ! facial nerve
+synonym: "iVIIn" RELATED []
+
+[Term]
+id: 1132
+name: Pons, sensory related
+created_by: telefont
+part_of: 771 ! Pons
+synonym: "P-sen" RELATED []
+
+[Term]
+id: 1133
+name: Entorhinal area, medial part, ventral zone, layer 5/6
+created_by: telefont
+part_of: 934 ! Entorhinal area, medial part, ventral zone
+synonym: "ENTmv5/6" RELATED []
+
+[Term]
+id: 1139
+name: Nucleus of the lateral olfactory tract, layer 3
+created_by: telefont
+part_of: 619 ! Nucleus of the lateral olfactory tract
+synonym: "NLOT3" RELATED []
+
+[Term]
+id: 114
+name: Superior olivary complex, lateral part
+created_by: telefont
+part_of: 398 ! Superior olivary complex
+synonym: "SOCl" RELATED []
+
+[Term]
+id: 1140
+name: Postpiriform transition area, layers 1
+created_by: telefont
+part_of: 566 ! Postpiriform transition area
+synonym: "TR1" RELATED []
+
+[Term]
+id: 1141
+name: Postpiriform transition area, layers 2
+created_by: telefont
+part_of: 566 ! Postpiriform transition area
+synonym: "TR2" RELATED []
+
+[Term]
+id: 1142
+name: Postpiriform transition area, layers 3
+created_by: telefont
+part_of: 566 ! Postpiriform transition area
+synonym: "TR3" RELATED []
+
+[Term]
+id: 1143
+name: Cerebellar cortex, granular layer
+created_by: telefont
+part_of: 528 ! Cerebellar cortex
+synonym: "CBXgr" RELATED []
+
+[Term]
+id: 1144
+name: Cerebellar cortex, molecular layer
+created_by: telefont
+part_of: 528 ! Cerebellar cortex
+synonym: "CBXmo" RELATED []
+
+[Term]
+id: 1145
+name: Cerebellar cortex, Purkinje layer
+created_by: telefont
+part_of: 528 ! Cerebellar cortex
+synonym: "CBXpu" RELATED []
+
+[Term]
+id: 115
+name: Trochlear nucleus
+created_by: telefont
+part_of: 323 ! Midbrain, motor related
+synonym: "IV" RELATED []
+
+[Term]
+id: 116
+name: choroid fissure
+created_by: telefont
+part_of: 81 ! lateral ventricle
+synonym: "chfl" RELATED []
+
+[Term]
+id: 117
+name: optic chiasm
+created_by: telefont
+part_of: 848 ! optic nerve
+synonym: "och" RELATED []
+
+[Term]
+id: 118
+name: Periventricular hypothalamic nucleus, intermediate part
+created_by: telefont
+part_of: 157 ! Periventricular zone
+synonym: "PVi" RELATED []
+
+[Term]
+id: 119
+name: Agranular insular area, ventral part
+created_by: telefont
+part_of: 95 ! Agranular insular area
+synonym: "AIv" RELATED []
+
+[Term]
+id: 12
+name: Interfascicular nucleus raphe
+created_by: telefont
+part_of: 165 ! Midbrain raphe nuclei
+synonym: "IF" RELATED []
+
+[Term]
+id: 120
+name: Agranular insular area, posterior part, layer 1
+created_by: telefont
+part_of: 111 ! Agranular insular area, posterior part
+synonym: "AIp1" RELATED []
+
+[Term]
+id: 121
+name: Lateral visual area, layer 6b
+created_by: telefont
+part_of: 409 ! Lateral visual area
+synonym: "VISl6b" RELATED []
+
+[Term]
+id: 122
+name: Superior olivary complex, periolivary region
+created_by: telefont
+part_of: 398 ! Superior olivary complex
+synonym: "POR" RELATED []
+
+[Term]
+id: 123
+name: Koelliker-Fuse subnucleus
+created_by: telefont
+part_of: 867 ! Parabrachial nucleus
+synonym: "KF" RELATED []
+
+[Term]
+id: 124
+name: interventricular foramen
+created_by: telefont
+part_of: 73 ! ventricular systems
+synonym: "IVF" RELATED []
+
+[Term]
+id: 125
+name: optic tract
+created_by: telefont
+part_of: 848 ! optic nerve
+synonym: "opt" RELATED []
+
+[Term]
+id: 126
+name: Periventricular hypothalamic nucleus, posterior part
+created_by: telefont
+part_of: 141 ! Periventricular region
+synonym: "PVp" RELATED []
+
+[Term]
+id: 127
+name: Anteromedial nucleus
+created_by: telefont
+part_of: 239 ! Anterior group of the dorsal thalamus
+synonym: "AM" RELATED []
+
+[Term]
+id: 128
+name: Midbrain reticular nucleus
+created_by: telefont
+part_of: 323 ! Midbrain, motor related
+synonym: "MRN" RELATED []
+
+[Term]
+id: 129
+name: third ventricle
+created_by: telefont
+part_of: 73 ! ventricular systems
+synonym: "V3" RELATED []
+
+[Term]
+id: 12993
+name: Somatosensory areas, layer 1
+created_by: telefont
+part_of: 453 ! Somatosensory areas
+synonym: "SS1" RELATED []
+
+[Term]
+id: 12994
+name: Somatosensory areas, layer 2/3
+created_by: telefont
+part_of: 453 ! Somatosensory areas
+synonym: "SS2/3" RELATED []
+
+[Term]
+id: 12995
+name: Somatosensory areas, layer 4
+created_by: telefont
+part_of: 453 ! Somatosensory areas
+synonym: "SS4" RELATED []
+
+[Term]
+id: 12996
+name: Somatosensory areas, layer 5
+created_by: telefont
+part_of: 453 ! Somatosensory areas
+synonym: "SS5" RELATED []
+
+[Term]
+id: 12997
+name: Somatosensory areas, layer 6a
+created_by: telefont
+part_of: 453 ! Somatosensory areas
+synonym: "SS6a" RELATED []
+
+[Term]
+id: 12998
+name: Somatosensory areas, layer 6b
+created_by: telefont
+part_of: 453 ! Somatosensory areas
+synonym: "SS6b" RELATED []
+
+[Term]
+id: 130
+name: Superior central nucleus raphe, medial part
+created_by: telefont
+part_of: 679 ! Superior central nucleus raphe
+synonym: "CSm" RELATED []
+
+[Term]
+id: 131
+name: Lateral amygdalar nucleus
+created_by: telefont
+part_of: 703 ! Cortical subplate
+synonym: "LA" RELATED []
+
+[Term]
+id: 132
+name: Prelimbic area, layer 6b
+created_by: telefont
+part_of: 972 ! Prelimbic area
+synonym: "PL6b" RELATED []
+
+[Term]
+id: 133
+name: Periventricular hypothalamic nucleus, preoptic part
+created_by: telefont
+part_of: 141 ! Periventricular region
+synonym: "PVpo" RELATED []
+
+[Term]
+id: 134
+name: pallidotegmental fascicle
+created_by: telefont
+part_of: 760 ! cerebral nuclei related
+synonym: "ptf" RELATED []
+
+[Term]
+id: 135
+name: Nucleus ambiguus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "AMB" RELATED []
+
+[Term]
+id: 136
+name: Intermediate reticular nucleus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "IRN" RELATED []
+
+[Term]
+id: 137
+name: Superior central nucleus raphe, lateral part
+created_by: telefont
+part_of: 679 ! Superior central nucleus raphe
+synonym: "CSl" RELATED []
+
+[Term]
+id: 138
+name: Lateral group of the dorsal thalamus
+created_by: telefont
+part_of: 856 ! Thalamus, polymodal association cortex related
+synonym: "LAT" RELATED []
+
+[Term]
+id: 139
+name: Entorhinal area, lateral part, layer 5
+created_by: telefont
+part_of: 918 ! Entorhinal area, lateral part
+synonym: "ENTl5" RELATED []
+
+[Term]
+id: 14
+name: internal medullary lamina of the thalamus
+created_by: telefont
+part_of: 896 ! thalamus related
+synonym: "im" RELATED []
+
+[Term]
+id: 140
+name: cerebral aqueduct
+created_by: telefont
+part_of: 73 ! ventricular systems
+synonym: "AQ" RELATED []
+
+[Term]
+id: 141
+name: Periventricular region
+created_by: telefont
+part_of: 1097 ! Hypothalamus
+synonym: "PVR" RELATED []
+
+[Term]
+id: 142
+name: pallidothalmic pathway
+created_by: telefont
+part_of: 760 ! cerebral nuclei related
+synonym: "pap" RELATED []
+
+[Term]
+id: 143
+name: Nucleus ambiguus, ventral division
+created_by: telefont
+part_of: 135 ! Nucleus ambiguus
+synonym: "AMBv" RELATED []
+
+[Term]
+id: 144
+name: Olfactory tubercle, layers 1-3
+created_by: telefont
+part_of: 754 ! Olfactory tubercle
+synonym: "OT1-3" RELATED []
+
+[Term]
+id: 145
+name: fourth ventricle
+created_by: telefont
+part_of: 73 ! ventricular systems
+synonym: "V4" RELATED []
+
+[Term]
+id: 146
+name: Pontine reticular nucleus
+created_by: telefont
+part_of: 1117 ! Pons, behavioral state related
+synonym: "PRNr" RELATED []
+
+[Term]
+id: 147
+name: Locus ceruleus
+created_by: telefont
+part_of: 1117 ! Pons, behavioral state related
+synonym: "LC" RELATED []
+
+[Term]
+id: 148
+name: Gustatory areas, layer 4
+created_by: telefont
+part_of: 1057 ! Gustatory areas
+synonym: "GU4" RELATED []
+
+[Term]
+id: 149
+name: Paraventricular nucleus of the thalamus
+created_by: telefont
+part_of: 571 ! Midline group of the dorsal thalamus
+synonym: "PVT" RELATED []
+
+[Term]
+id: 15
+name: Parataenial nucleus
+created_by: telefont
+part_of: 571 ! Midline group of the dorsal thalamus
+synonym: "PT" RELATED []
+
+[Term]
+id: 150
+name: periventricular bundle of the hypothalamus
+created_by: telefont
+part_of: 824 ! hypothalamus related
+synonym: "pvbh" RELATED []
+
+[Term]
+id: 151
+name: Accessory olfactory bulb
+created_by: telefont
+part_of: 698 ! Olfactory areas
+synonym: "AOB" RELATED []
+
+[Term]
+id: 152
+name: Piriform area, layers 1-3
+created_by: telefont
+part_of: 961 ! Piriform area
+synonym: "PIR1-3" RELATED []
+
+[Term]
+id: 153
+name: lateral recess
+created_by: telefont
+part_of: 145 ! fourth ventricle
+synonym: "V4r" RELATED []
+
+[Term]
+id: 154
+name: Perihypoglossal nuclei
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "PHY" RELATED []
+
+[Term]
+id: 155
+name: Lateral dorsal nucleus of thalamus
+created_by: telefont
+part_of: 239 ! Anterior group of the dorsal thalamus
+synonym: "LD" RELATED []
+
+[Term]
+id: 156
+name: Dorsal auditory area, layer 6a
+created_by: telefont
+part_of: 1011 ! Dorsal auditory area
+synonym: "AUDd6a" RELATED []
+
+[Term]
+id: 157
+name: Periventricular zone
+created_by: telefont
+part_of: 1097 ! Hypothalamus
+synonym: "PVZ" RELATED []
+
+[Term]
+id: 158
+name: posterior commissure
+created_by: telefont
+part_of: 832 ! oculomotor nerve
+synonym: "pc" RELATED []
+
+[Term]
+id: 159
+name: Anterior olfactory nucleus
+created_by: telefont
+part_of: 698 ! Olfactory areas
+synonym: "AON" RELATED []
+
+[Term]
+id: 16
+name: Layer 6b, isocortex
+created_by: telefont
+part_of: 703 ! Cortical subplate
+synonym: "6b" RELATED []
+
+[Term]
+id: 160
+name: Anterior olfactory nucleus, layer 1
+created_by: telefont
+part_of: 159 ! Anterior olfactory nucleus
+synonym: "AON1" RELATED []
+
+[Term]
+id: 161
+name: Nucleus intercalatus
+created_by: telefont
+part_of: 154 ! Perihypoglossal nuclei
+synonym: "NIS" RELATED []
+
+[Term]
+id: 162
+name: Laterodorsal tegmental nucleus
+created_by: telefont
+part_of: 1117 ! Pons, behavioral state related
+synonym: "LDT" RELATED []
+
+[Term]
+id: 163
+name: Agranular insular area, posterior part, layer 2/3
+created_by: telefont
+part_of: 111 ! Agranular insular area, posterior part
+synonym: "AIp2/3" RELATED []
+
+[Term]
+id: 164
+name: central canal, spinal cord/medulla
+created_by: telefont
+part_of: 73 ! ventricular systems
+synonym: "c" RELATED []
+
+[Term]
+id: 165
+name: Midbrain raphe nuclei
+created_by: telefont
+part_of: 348 ! Midbrain, behavioral state related
+synonym: "RAmb" RELATED []
+
+[Term]
+id: 166
+name: premammillary commissure
+created_by: telefont
+part_of: 824 ! hypothalamus related
+synonym: "pmx" RELATED []
+
+[Term]
+id: 167
+name: Anterior olfactory nucleus, dorsal part
+created_by: telefont
+part_of: 159 ! Anterior olfactory nucleus
+synonym: "AONd" RELATED []
+
+[Term]
+id: 168
+name: Anterior olfactory nucleus, layer 2
+created_by: telefont
+part_of: 159 ! Anterior olfactory nucleus
+synonym: "AON2" RELATED []
+
+[Term]
+id: 169
+name: Nucleus prepositus
+created_by: telefont
+part_of: 154 ! Perihypoglossal nuclei
+synonym: "PRP" RELATED []
+
+[Term]
+id: 17
+name: Superior colliculus, motor related, intermediate white layer
+created_by: telefont
+part_of: 294 ! Superior colliculus, motor related
+synonym: "SCiw" RELATED []
+
+[Term]
+id: 170
+name: Dorsal part of the lateral geniculate complex
+created_by: telefont
+part_of: 1008 ! Geniculate group, dorsal thalamus
+synonym: "LGd" RELATED []
+
+[Term]
+id: 171
+name: Prelimbic area, layer 1
+created_by: telefont
+part_of: 972 ! Prelimbic area
+synonym: "PL1" RELATED []
+
+[Term]
+id: 173
+name: Retrochiasmatic area
+created_by: telefont
+part_of: 290 ! Hypothalamic lateral zone
+synonym: "RCH" RELATED []
+
+[Term]
+id: 174
+name: preoptic commissure
+created_by: telefont
+part_of: 824 ! hypothalamus related
+synonym: "poc" RELATED []
+
+[Term]
+id: 175
+name: Anterior olfactory nucleus, external part
+created_by: telefont
+part_of: 159 ! Anterior olfactory nucleus
+synonym: "AONe" RELATED []
+
+[Term]
+id: 177
+name: Nucleus of Roller
+created_by: telefont
+part_of: 154 ! Perihypoglossal nuclei
+synonym: "NR" RELATED []
+
+[Term]
+id: 178
+name: Ventral part of the lateral geniculate complex
+created_by: telefont
+part_of: 1014 ! Geniculate group, ventral thalamus
+synonym: "LGv" RELATED []
+
+[Term]
+id: 179
+name: Anterior cingulate area, layer 6a
+created_by: telefont
+part_of: 31 ! Anterior cingulate area
+synonym: "ACA6a" RELATED []
+
+[Term]
+id: 18
+name: nodular fissure
+created_by: telefont
+part_of: 1040 ! grooves of the cerebellar cortex
+synonym: "nf" RELATED []
+
+[Term]
+id: 180
+name: Gustatory areas, layer 2/3
+created_by: telefont
+part_of: 1057 ! Gustatory areas
+synonym: "GU2/3" RELATED []
+
+[Term]
+id: 181
+name: Nucleus of reunions
+created_by: telefont
+part_of: 571 ! Midline group of the dorsal thalamus
+synonym: "RE" RELATED []
+
+[Term]
+id: 182
+name: propriohypothalamic pathways
+created_by: telefont
+part_of: 824 ! hypothalamus related
+synonym: "php" RELATED []
+
+[Term]
+id: 182305689
+name: Primary somatosensory area, unassigned
+created_by: telefont
+part_of: 322 ! Primary somatosensory area
+synonym: "SSp-un" RELATED []
+
+[Term]
+id: 182305693
+name: Primary somatosensory area, unassigned, layer 1
+created_by: telefont
+part_of: 182305689 ! Primary somatosensory area, unassigned
+synonym: "SSp-un1" RELATED []
+
+[Term]
+id: 182305697
+name: Primary somatosensory area, unassigned, layer 2/3
+created_by: telefont
+part_of: 182305689 ! Primary somatosensory area, unassigned
+synonym: "SSp-un2/3" RELATED []
+
+[Term]
+id: 182305701
+name: Primary somatosensory area, unassigned, layer 4
+created_by: telefont
+part_of: 182305689 ! Primary somatosensory area, unassigned
+synonym: "SSp-un4" RELATED []
+
+[Term]
+id: 182305705
+name: Primary somatosensory area, unassigned, layer 5
+created_by: telefont
+part_of: 182305689 ! Primary somatosensory area, unassigned
+synonym: "SSp-un5" RELATED []
+
+[Term]
+id: 182305709
+name: Primary somatosensory area, unassigned, layer 6a
+created_by: telefont
+part_of: 182305689 ! Primary somatosensory area, unassigned
+synonym: "SSp-un6a" RELATED []
+
+[Term]
+id: 182305713
+name: Primary somatosensory area, unassigned, layer 6b
+created_by: telefont
+part_of: 182305689 ! Primary somatosensory area, unassigned
+synonym: "SSp-un6b" RELATED []
+
+[Term]
+id: 183
+name: Anterior olfactory nucleus, lateral part
+created_by: telefont
+part_of: 159 ! Anterior olfactory nucleus
+synonym: "AONl" RELATED []
+
+[Term]
+id: 184
+name: Frontal pole, cerebral cortex
+created_by: telefont
+part_of: 315 ! Isocortex
+synonym: "FRP" RELATED []
+
+[Term]
+id: 185
+name: Parapyramidal nucleus, deep part
+created_by: telefont
+part_of: 1069 ! Parapyramidal nucleus
+synonym: "PPYd" RELATED []
+
+[Term]
+id: 186
+name: Lateral habenula
+created_by: telefont
+part_of: 958 ! Epithalamus
+synonym: "LH" RELATED []
+
+[Term]
+id: 187
+name: Gustatory areas, layer 5
+created_by: telefont
+part_of: 1057 ! Gustatory areas
+synonym: "GU5" RELATED []
+
+[Term]
+id: 188
+name: Accessory olfactory bulb, glomerular layer
+created_by: telefont
+part_of: 151 ! Accessory olfactory bulb
+synonym: "AOBgl" RELATED []
+
+[Term]
+id: 189
+name: Rhomboid nucleus
+created_by: telefont
+part_of: 51 ! Intralaminar nuclei of the dorsal thalamus
+synonym: "RH" RELATED []
+
+[Term]
+id: 19
+name: Induseum griseum
+created_by: telefont
+part_of: 1080 ! Hippocampal region
+synonym: "IG" RELATED []
+
+[Term]
+id: 190
+name: pyramid
+created_by: telefont
+part_of: 784 ! corticospinal tract
+synonym: "py" RELATED []
+
+[Term]
+id: 191
+name: Anterior olfactory nucleus, medial part
+created_by: telefont
+part_of: 159 ! Anterior olfactory nucleus
+synonym: "AONm" RELATED []
+
+[Term]
+id: 192
+name: Cortical amygdalar area, anterior part, layer 1
+created_by: telefont
+part_of: 639 ! Cortical amygdalar area, anterior part
+synonym: "COAa1" RELATED []
+
+[Term]
+id: 193
+name: Parapyramidal nucleus, superficial part
+created_by: telefont
+part_of: 1069 ! Parapyramidal nucleus
+synonym: "PPYs" RELATED []
+
+[Term]
+id: 194
+name: Lateral hypothalamic area
+created_by: telefont
+part_of: 290 ! Hypothalamic lateral zone
+synonym: "LHA" RELATED []
+
+[Term]
+id: 195
+name: Prelimbic area, layer 2
+created_by: telefont
+part_of: 972 ! Prelimbic area
+synonym: "PL2" RELATED []
+
+[Term]
+id: 196
+name: Accessory olfactory bulb, granular layer
+created_by: telefont
+part_of: 151 ! Accessory olfactory bulb
+synonym: "AOBgr" RELATED []
+
+[Term]
+id: 197
+name: Rostral linear nucleus raphe
+created_by: telefont
+part_of: 165 ! Midbrain raphe nuclei
+synonym: "RL" RELATED []
+
+[Term]
+id: 198
+name: pyramidal decussation
+created_by: telefont
+part_of: 784 ! corticospinal tract
+synonym: "pyd" RELATED []
+
+[Term]
+id: 199
+name: Anterior olfactory nucleus, posteroventral part
+created_by: telefont
+part_of: 159 ! Anterior olfactory nucleus
+synonym: "AONpv" RELATED []
+
+[Term]
+id: 2
+name: Primary somatosensory area, mouth, layer 6b
+created_by: telefont
+part_of: 345 ! Primary somatosensory area, mouth
+synonym: "SSp-m6b" RELATED []
+
+[Term]
+id: 20
+name: Entorhinal area, lateral part, layer 2
+created_by: telefont
+part_of: 918 ! Entorhinal area, lateral part
+synonym: "ENTl2" RELATED []
+
+[Term]
+id: 200
+name: Cortical amygdalar area, anterior part, layer 2
+created_by: telefont
+part_of: 639 ! Cortical amygdalar area, anterior part
+synonym: "COAa2" RELATED []
+
+[Term]
+id: 201
+name: Primary somatosensory area, barrel field, layer 2/3
+created_by: telefont
+part_of: 329 ! Primary somatosensory area, barrel field
+synonym: "SSp-bfd2/3" RELATED []
+
+[Term]
+id: 202
+name: Medial vestibular nucleus
+created_by: telefont
+part_of: 701 ! Vestibular nuclei
+synonym: "MV" RELATED []
+
+[Term]
+id: 203
+name: Linear nucleus of the medulla
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "LIN" RELATED []
+
+[Term]
+id: 204
+name: Accessory olfactory bulb, mitral layer
+created_by: telefont
+part_of: 151 ! Accessory olfactory bulb
+synonym: "AOBmi" RELATED []
+
+[Term]
+id: 205
+name: retriculospinal tract, lateral part
+created_by: telefont
+part_of: 855 ! retriculospinal tract
+synonym: "rstl" RELATED []
+
+[Term]
+id: 206
+name: Nucleus raphe magnus
+created_by: telefont
+part_of: 379 ! Medulla, behavioral state related
+synonym: "RM" RELATED []
+
+[Term]
+id: 207
+name: Area postrema
+created_by: telefont
+part_of: 386 ! Medulla, sensory related
+synonym: "AP" RELATED []
+
+[Term]
+id: 208
+name: Cortical amygdalar area, anterior part, layer 3
+created_by: telefont
+part_of: 639 ! Cortical amygdalar area, anterior part
+synonym: "COAa3" RELATED []
+
+[Term]
+id: 209
+name: Lateral vestibular nucleus
+created_by: telefont
+part_of: 701 ! Vestibular nuclei
+synonym: "LAV" RELATED []
+
+[Term]
+id: 21
+name: lateral olfactory tract, general
+created_by: telefont
+part_of: 840 ! olfactory nerve
+synonym: "lotg" RELATED []
+
+[Term]
+id: 210
+name: Lateral mammillary nucleus
+created_by: telefont
+part_of: 331 ! Mammillary body
+synonym: "LM" RELATED []
+
+[Term]
+id: 211
+name: Anterior cingulate area, dorsal part, layer 2/3
+created_by: telefont
+part_of: 39 ! Anterior cingulate area, dorsal part
+synonym: "ACAd2/3" RELATED []
+
+[Term]
+id: 212
+name: Main olfactory bulb, glomerular layer
+created_by: telefont
+part_of: 507 ! Main olfactory bulb
+synonym: "MOBgl" RELATED []
+
+[Term]
+id: 213
+name: retriculospinal tract, medial part
+created_by: telefont
+part_of: 855 ! retriculospinal tract
+synonym: "rstm" RELATED []
+
+[Term]
+id: 214
+name: Red nucleus
+created_by: telefont
+part_of: 323 ! Midbrain, motor related
+synonym: "RN" RELATED []
+
+[Term]
+id: 215
+name: Anterior pretectal nucleus
+created_by: telefont
+part_of: 1100 ! Pretectal region
+synonym: "APN" RELATED []
+
+[Term]
+id: 216
+name: Cortical amygdalar area, posterior part, lateral zone, layer 1
+created_by: telefont
+part_of: 655 ! Cortical amygdalar area, posterior part, lateral zone
+synonym: "COApl1" RELATED []
+
+[Term]
+id: 217
+name: Superior vestibular nucleus
+created_by: telefont
+part_of: 701 ! Vestibular nuclei
+synonym: "SUV" RELATED []
+
+[Term]
+id: 218
+name: Lateral posterior nucleus of the thalamus
+created_by: telefont
+part_of: 138 ! Lateral group of the dorsal thalamus
+synonym: "LP" RELATED []
+
+[Term]
+id: 219
+name: Somatomotor areas, Layer 2/3
+created_by: telefont
+part_of: 500 ! Somatomotor areas
+synonym: "MO2/3" RELATED []
+
+[Term]
+id: 22
+name: Posterior parietal association areas
+created_by: telefont
+part_of: 315 ! Isocortex
+synonym: "PTLp" RELATED []
+
+[Term]
+id: 220
+name: Main olfactory bulb, granule layer
+created_by: telefont
+part_of: 507 ! Main olfactory bulb
+synonym: "MOBgr" RELATED []
+
+[Term]
+id: 221
+name: rubroreticular tract
+created_by: telefont
+part_of: 863 ! rubrospinal tract
+synonym: "rrt" RELATED []
+
+[Term]
+id: 222
+name: Nucleus raphe obscurus
+created_by: telefont
+part_of: 379 ! Medulla, behavioral state related
+synonym: "RO" RELATED []
+
+[Term]
+id: 223
+name: Arcuate hypothalamic nucleus
+created_by: telefont
+part_of: 157 ! Periventricular zone
+synonym: "ARH" RELATED []
+
+[Term]
+id: 224
+name: Cortical amygdalar area, posterior part, lateral zone, layer 2
+created_by: telefont
+part_of: 655 ! Cortical amygdalar area, posterior part, lateral zone
+synonym: "COApl2" RELATED []
+
+[Term]
+id: 225
+name: Spinal vestibular nucleus
+created_by: telefont
+part_of: 701 ! Vestibular nuclei
+synonym: "SPIV" RELATED []
+
+[Term]
+id: 226
+name: Lateral preoptic area
+created_by: telefont
+part_of: 290 ! Hypothalamic lateral zone
+synonym: "LPO" RELATED []
+
+[Term]
+id: 227
+name: Anterior cingulate area, layer 6b
+created_by: telefont
+part_of: 31 ! Anterior cingulate area
+synonym: "ACA6b" RELATED []
+
+[Term]
+id: 228
+name: Main olfactory bulb, inner plexiform layer
+created_by: telefont
+part_of: 507 ! Main olfactory bulb
+synonym: "MOBipl" RELATED []
+
+[Term]
+id: 229
+name: sensory root of the trigeminal nerve
+created_by: telefont
+part_of: 901 ! trigeminal nerve
+synonym: "sV" RELATED []
+
+[Term]
+id: 23
+name: Anterior amygdalar area
+created_by: telefont
+part_of: 278 ! Striatum-like amygdalar nuclei
+synonym: "AAA" RELATED []
+
+[Term]
+id: 230
+name: Nucleus raphe pallidus
+created_by: telefont
+part_of: 379 ! Medulla, behavioral state related
+synonym: "RPA" RELATED []
+
+[Term]
+id: 231
+name: Anterior tegmental nucleus
+created_by: telefont
+part_of: 323 ! Midbrain, motor related
+synonym: "AT" RELATED []
+
+[Term]
+id: 232
+name: Cortical amygdalar area, posterior part, lateral zone, layer 3
+created_by: telefont
+part_of: 655 ! Cortical amygdalar area, posterior part, lateral zone
+synonym: "COApl3" RELATED []
+
+[Term]
+id: 233
+name: Anterolateral visual area, layer 5
+created_by: telefont
+part_of: 402 ! Anterolateral visual area
+synonym: "VISal5" RELATED []
+
+[Term]
+id: 234
+name: Temporal association areas, layer 4
+created_by: telefont
+part_of: 541 ! Temporal association areas
+synonym: "TEa4" RELATED []
+
+[Term]
+id: 235
+name: Lateral reticular nucleus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "LRN" RELATED []
+
+[Term]
+id: 236
+name: Main olfactory bulb, mitral layer
+created_by: telefont
+part_of: 507 ! Main olfactory bulb
+synonym: "MOBmi" RELATED []
+
+[Term]
+id: 237
+name: solitary tract
+created_by: telefont
+part_of: 917 ! vagus nerve
+synonym: "ts" RELATED []
+
+[Term]
+id: 238
+name: Nucleus raphe pontis
+created_by: telefont
+part_of: 1117 ! Pons, behavioral state related
+synonym: "RPO" RELATED []
+
+[Term]
+id: 239
+name: Anterior group of the dorsal thalamus
+created_by: telefont
+part_of: 856 ! Thalamus, polymodal association cortex related
+synonym: "ATN" RELATED []
+
+[Term]
+id: 240
+name: Cortical amygdalar area, posterior part, medial zone, layer 1
+created_by: telefont
+part_of: 663 ! Cortical amygdalar area, posterior part, medial zone
+synonym: "COApm1" RELATED []
+
+[Term]
+id: 241
+name: Posterior parietal association areas, layer 2/3
+created_by: telefont
+part_of: 22 ! Posterior parietal association areas
+synonym: "PTLp2/3" RELATED []
+
+[Term]
+id: 242
+name: Lateral septal nucleus
+created_by: telefont
+part_of: 275 ! Lateral septal complex
+synonym: "LS" RELATED []
+
+[Term]
+id: 243
+name: Dorsal auditory area, layer 6b
+created_by: telefont
+part_of: 1011 ! Dorsal auditory area
+synonym: "AUDd6b" RELATED []
+
+[Term]
+id: 244
+name: Main olfactory bulb, outer plexiform layer
+created_by: telefont
+part_of: 507 ! Main olfactory bulb
+synonym: "MOBopl" RELATED []
+
+[Term]
+id: 245
+name: spinocervical tract
+created_by: telefont
+part_of: 871 ! spinothalamic tract
+synonym: "scrt" RELATED []
+
+[Term]
+id: 246
+name: Midbrain reticular nucleus, retrorubral area
+created_by: telefont
+part_of: 323 ! Midbrain, motor related
+synonym: "RR" RELATED []
+
+[Term]
+id: 247
+name: Auditory areas
+created_by: telefont
+part_of: 315 ! Isocortex
+synonym: "AUD" RELATED []
+
+[Term]
+id: 248
+name: Cortical amygdalar area, posterior part, medial zone, layer 2
+created_by: telefont
+part_of: 663 ! Cortical amygdalar area, posterior part, medial zone
+synonym: "COApm2" RELATED []
+
+[Term]
+id: 249
+name: Posterior auditory area, layer 6a
+created_by: telefont
+part_of: 1027 ! Posterior auditory area
+synonym: "AUDpo6a" RELATED []
+
+[Term]
+id: 25
+name: simple fissure
+created_by: telefont
+part_of: 1040 ! grooves of the cerebellar cortex
+synonym: "sif" RELATED []
+
+[Term]
+id: 250
+name: Lateral septal nucleus, caudal (caudodorsal) part
+created_by: telefont
+part_of: 242 ! Lateral septal nucleus
+synonym: "LSc" RELATED []
+
+[Term]
+id: 251
+name: Primary auditory area, layer 2/3
+created_by: telefont
+part_of: 1002 ! Primary auditory area
+synonym: "AUDp2/3" RELATED []
+
+[Term]
+id: 252
+name: Dorsal auditory area, layer 5
+created_by: telefont
+part_of: 1011 ! Dorsal auditory area
+synonym: "AUDd5" RELATED []
+
+[Term]
+id: 253
+name: spinohypothalamic pathway
+created_by: telefont
+part_of: 871 ! spinothalamic tract
+synonym: "shp" RELATED []
+
+[Term]
+id: 254
+name: Retrosplenial area
+created_by: telefont
+part_of: 315 ! Isocortex
+synonym: "RSP" RELATED []
+
+[Term]
+id: 255
+name: Anteroventral nucleus of thalamus
+created_by: telefont
+part_of: 239 ! Anterior group of the dorsal thalamus
+synonym: "AV" RELATED []
+
+[Term]
+id: 256
+name: Cortical amygdalar area, posterior part, medial zone, layer 3
+created_by: telefont
+part_of: 663 ! Cortical amygdalar area, posterior part, medial zone
+synonym: "COApm3" RELATED []
+
+[Term]
+id: 257
+name: posteromedial visual area, layer 6a
+created_by: telefont
+part_of: 533 ! posteromedial visual area
+synonym: "VISpm6a" RELATED []
+
+[Term]
+id: 258
+name: Lateral septal nucleus, rostral (rostroventral) part
+created_by: telefont
+part_of: 242 ! Lateral septal nucleus
+synonym: "LSr" RELATED []
+
+[Term]
+id: 259
+name: Entorhinal area, medial part, ventral zone, layer 1
+created_by: telefont
+part_of: 934 ! Entorhinal area, medial part, ventral zone
+synonym: "ENTmv1" RELATED []
+
+[Term]
+id: 26
+name: Superior colliculus, motor related, deep gray layer
+created_by: telefont
+part_of: 294 ! Superior colliculus, motor related
+synonym: "SCdg" RELATED []
+
+[Term]
+id: 260
+name: Nucleus of the lateral olfactory tract, molecular layer
+created_by: telefont
+part_of: 619 ! Nucleus of the lateral olfactory tract
+synonym: "NLOT1" RELATED []
+
+[Term]
+id: 261
+name: spino-olivary pathway
+created_by: telefont
+part_of: 871 ! spinothalamic tract
+synonym: "sop" RELATED []
+
+[Term]
+id: 262
+name: Reticular nucleus of the thalamus
+created_by: telefont
+part_of: 856 ! Thalamus, polymodal association cortex related
+synonym: "RT" RELATED []
+
+[Term]
+id: 263
+name: Anteroventral preoptic nucleus
+created_by: telefont
+part_of: 141 ! Periventricular region
+synonym: "AVP" RELATED []
+
+[Term]
+id: 264
+name: Orbital area, layer 1
+created_by: telefont
+part_of: 714 ! Orbital area
+synonym: "ORB1" RELATED []
+
+[Term]
+id: 266
+name: Lateral septal nucleus, ventral part
+created_by: telefont
+part_of: 242 ! Lateral septal nucleus
+synonym: "LSv" RELATED []
+
+[Term]
+id: 267
+name: Dorsal peduncular area, layer 6a
+created_by: telefont
+part_of: 814 ! Dorsal peduncular area
+synonym: "DP6a" RELATED []
+
+[Term]
+id: 268
+name: Nucleus of the lateral olfactory tract, pyramidal layer
+created_by: telefont
+part_of: 619 ! Nucleus of the lateral olfactory tract
+synonym: "NLOT2" RELATED []
+
+[Term]
+id: 269
+name: Posterolateral visual area, layer 2/3
+created_by: telefont
+part_of: 425 ! Posterolateral visual area
+synonym: "VISpl2/3" RELATED []
+
+[Term]
+id: 27
+name: Intergeniculate leaflet of the lateral geniculate complex
+created_by: telefont
+part_of: 1014 ! Geniculate group, ventral thalamus
+synonym: "IGL" RELATED []
+
+[Term]
+id: 270
+name: spinoreticular pathway
+created_by: telefont
+part_of: 871 ! spinothalamic tract
+synonym: "srp" RELATED []
+
+[Term]
+id: 271
+name: Nucleus sagulum
+created_by: telefont
+part_of: 339 ! Midbrain, sensory related
+synonym: "SAG" RELATED []
+
+[Term]
+id: 272
+name: Anteroventral periventricular nucleus
+created_by: telefont
+part_of: 141 ! Periventricular region
+synonym: "AVPV" RELATED []
+
+[Term]
+id: 274
+name: Retrosplenial area, dorsal part, layer 6a
+created_by: telefont
+part_of: 879 ! Retrosplenial area, dorsal part
+synonym: "RSPd6a" RELATED []
+
+[Term]
+id: 275
+name: Lateral septal complex
+created_by: telefont
+part_of: 477 ! Striatum
+synonym: "LSX" RELATED []
+
+[Term]
+id: 276
+name: Piriform area, molecular layer
+created_by: telefont
+part_of: 961 ! Piriform area
+synonym: "PIR1" RELATED []
+
+[Term]
+id: 277
+name: spinotectal pathway
+created_by: telefont
+part_of: 871 ! spinothalamic tract
+synonym: "stp" RELATED []
+
+[Term]
+id: 278
+name: Striatum-like amygdalar nuclei
+created_by: telefont
+part_of: 477 ! Striatum
+synonym: "sAMY" RELATED []
+
+[Term]
+id: 279
+name: Retrosplenial area, lateral agranular part, layer 6b
+created_by: telefont
+part_of: 894 ! Retrosplenial area, lateral agranular part
+synonym: "RSPagl6b" RELATED []
+
+[Term]
+id: 28
+name: Entorhinal area, lateral part, layer 6a
+created_by: telefont
+part_of: 918 ! Entorhinal area, lateral part
+synonym: "ENTl6a" RELATED []
+
+[Term]
+id: 280
+name: Barrington's nucleus
+created_by: telefont
+part_of: 987 ! Pons, motor related
+synonym: "B" RELATED []
+
+[Term]
+id: 281
+name: Anteromedial visual area, layer 1
+created_by: telefont
+part_of: 394 ! Anteromedial visual area
+synonym: "VISam1" RELATED []
+
+[Term]
+id: 283
+name: Lateral tegmental nucleus
+created_by: telefont
+part_of: 987 ! Pons, motor related
+synonym: "LTN" RELATED []
+
+[Term]
+id: 284
+name: Piriform area, pyramidal layer
+created_by: telefont
+part_of: 961 ! Piriform area
+synonym: "PIR2" RELATED []
+
+[Term]
+id: 285
+name: spinotelenchephalic pathway
+created_by: telefont
+part_of: 871 ! spinothalamic tract
+synonym: "step" RELATED []
+
+[Term]
+id: 286
+name: Suprachiasmatic nucleus
+created_by: telefont
+part_of: 141 ! Periventricular region
+synonym: "SCH" RELATED []
+
+[Term]
+id: 287
+name: Bed nucleus of the anterior commissure
+created_by: telefont
+part_of: 809 ! Pallidum, caudal region
+synonym: "BAC" RELATED []
+
+[Term]
+id: 288
+name: Orbital area, ventrolateral part, layer 2/3
+created_by: telefont
+part_of: 746 ! Orbital area, ventrolateral part
+synonym: "ORBvl2/3" RELATED []
+
+[Term]
+id: 289
+name: Temporal association areas, layer 5
+created_by: telefont
+part_of: 541 ! Temporal association areas
+synonym: "TEa5" RELATED []
+
+[Term]
+id: 29
+name: lateral spinothalamic tract
+created_by: telefont
+part_of: 871 ! spinothalamic tract
+synonym: "sttl" RELATED []
+
+[Term]
+id: 290
+name: Hypothalamic lateral zone
+created_by: telefont
+part_of: 1097 ! Hypothalamus
+synonym: "LZ" RELATED []
+
+[Term]
+id: 291
+name: Piriform area, polymorph layer
+created_by: telefont
+part_of: 961 ! Piriform area
+synonym: "PIR3" RELATED []
+
+[Term]
+id: 292
+name: Bed nucleus of the accessory olfactory tract
+created_by: telefont
+part_of: 278 ! Striatum-like amygdalar nuclei
+synonym: "BA" RELATED []
+
+[Term]
+id: 293
+name: spinovestibular pathway
+created_by: telefont
+part_of: 871 ! spinothalamic tract
+synonym: "svp" RELATED []
+
+[Term]
+id: 294
+name: Superior colliculus, motor related
+created_by: telefont
+part_of: 323 ! Midbrain, motor related
+synonym: "SCm" RELATED []
+
+[Term]
+id: 295
+name: Basolateral amygdalar nucleus
+created_by: telefont
+part_of: 703 ! Cortical subplate
+synonym: "BLA" RELATED []
+
+[Term]
+id: 296
+name: Anterior cingulate area, ventral part, layer 2/3
+created_by: telefont
+part_of: 48 ! Anterior cingulate area, ventral part
+synonym: "ACAv2/3" RELATED []
+
+[Term]
+id: 297
+name: Taenia tecta, dorsal part, layers 1-4
+created_by: telefont
+part_of: 597 ! Taenia tecta, dorsal part
+synonym: "TTd1-4" RELATED []
+
+[Term]
+id: 298
+name: Magnocellular nucleus
+created_by: telefont
+part_of: 835 ! Pallidum, ventral region
+synonym: "MA" RELATED []
+
+[Term]
+id: 299
+name: Somatomotor areas, Layer 5
+created_by: telefont
+part_of: 500 ! Somatomotor areas
+synonym: "MO5" RELATED []
+
+[Term]
+id: 3
+name: secondary fissure
+created_by: telefont
+part_of: 1040 ! grooves of the cerebellar cortex
+synonym: "sec" RELATED []
+
+[Term]
+id: 30
+name: Periventricular hypothalamic nucleus, anterior part
+created_by: telefont
+part_of: 157 ! Periventricular zone
+synonym: "PVa" RELATED []
+
+[Term]
+id: 300
+name: Ventral part of the lateral geniculate complex, lateral zone
+created_by: telefont
+part_of: 178 ! Ventral part of the lateral geniculate complex
+synonym: "LGvl" RELATED []
+
+[Term]
+id: 301
+name: stria terminalis
+created_by: telefont
+part_of: 768 ! cerebrum related
+synonym: "st" RELATED []
+
+[Term]
+id: 302
+name: Superior colliculus, sensory related
+created_by: telefont
+part_of: 339 ! Midbrain, sensory related
+synonym: "SCs" RELATED []
+
+[Term]
+id: 303
+name: Basolateral amygdalar nucleus, anterior part
+created_by: telefont
+part_of: 295 ! Basolateral amygdalar nucleus
+synonym: "BLAa" RELATED []
+
+[Term]
+id: 304
+name: Prelimbic area, layer 2/3
+created_by: telefont
+part_of: 972 ! Prelimbic area
+synonym: "PL2/3" RELATED []
+
+[Term]
+id: 304325711
+name: retina
+created_by: telefont
+part_of: 997 ! root
+synonym: "retina" RELATED []
+
+[Term]
+id: 305
+name: Primary visual area, layer 6b
+created_by: telefont
+part_of: 385 ! Primary visual area
+synonym: "VISp6b" RELATED []
+
+[Term]
+id: 306
+name: Taenia tecta, ventral part, layers 1-3
+created_by: telefont
+part_of: 605 ! Taenia tecta, ventral part
+synonym: "TTv1-3" RELATED []
+
+[Term]
+id: 307
+name: Magnocellular reticular nucleus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "MARN" RELATED []
+
+[Term]
+id: 308
+name: Posterior parietal association areas, layer 6a
+created_by: telefont
+part_of: 22 ! Posterior parietal association areas
+synonym: "PTLp6a" RELATED []
+
+[Term]
+id: 309
+name: striatonigral pathway
+created_by: telefont
+part_of: 760 ! cerebral nuclei related
+synonym: "snp" RELATED []
+
+[Term]
+id: 31
+name: Anterior cingulate area
+created_by: telefont
+part_of: 315 ! Isocortex
+synonym: "ACA" RELATED []
+
+[Term]
+id: 310
+name: Septofimbrial nucleus
+created_by: telefont
+part_of: 275 ! Lateral septal complex
+synonym: "SF" RELATED []
+
+[Term]
+id: 311
+name: Basolateral amygdalar nucleus, posterior part
+created_by: telefont
+part_of: 295 ! Basolateral amygdalar nucleus
+synonym: "BLAp" RELATED []
+
+[Term]
+id: 312
+name: Entorhinal area, lateral part, layer 4/5
+created_by: telefont
+part_of: 918 ! Entorhinal area, lateral part
+synonym: "ENTl4/5" RELATED []
+
+[Term]
+id: 313
+name: Midbrain
+created_by: telefont
+part_of: 343 ! Brain stem
+synonym: "MB" RELATED []
+
+[Term]
+id: 314
+name: Agranular insular area, posterior part, layer 6a
+created_by: telefont
+part_of: 111 ! Agranular insular area, posterior part
+synonym: "AIp6a" RELATED []
+
+[Term]
+id: 315
+name: Isocortex
+created_by: telefont
+part_of: 695 ! Cortical plate
+synonym: "Isocortex" RELATED []
+
+[Term]
+id: 316
+name: Ventral part of the lateral geniculate complex, medial zone
+created_by: telefont
+part_of: 178 ! Ventral part of the lateral geniculate complex
+synonym: "LGvm" RELATED []
+
+[Term]
+id: 317
+name: subthalamic fascicle
+created_by: telefont
+part_of: 760 ! cerebral nuclei related
+synonym: "stf" RELATED []
+
+[Term]
+id: 318
+name: Supragenual nucleus
+created_by: telefont
+part_of: 987 ! Pons, motor related
+synonym: "SG" RELATED []
+
+[Term]
+id: 319
+name: Basomedial amygdalar nucleus
+created_by: telefont
+part_of: 703 ! Cortical subplate
+synonym: "BMA" RELATED []
+
+[Term]
+id: 320
+name: Primary motor area, Layer 1
+created_by: telefont
+part_of: 985 ! Primary motor area
+synonym: "MOp1" RELATED []
+
+[Term]
+id: 321
+name: Subgeniculate nucleus
+created_by: telefont
+part_of: 1014 ! Geniculate group, ventral thalamus
+synonym: "SubG" RELATED []
+
+[Term]
+id: 322
+name: Primary somatosensory area
+created_by: telefont
+part_of: 453 ! Somatosensory areas
+synonym: "SSp" RELATED []
+
+[Term]
+id: 323
+name: Midbrain, motor related
+created_by: telefont
+part_of: 313 ! Midbrain
+synonym: "MBmot" RELATED []
+
+[Term]
+id: 324
+name: Entorhinal area, medial part, ventral zone, layer 2
+created_by: telefont
+part_of: 934 ! Entorhinal area, medial part, ventral zone
+synonym: "ENTmv2" RELATED []
+
+[Term]
+id: 325
+name: Suprageniculate nucleus
+created_by: telefont
+part_of: 138 ! Lateral group of the dorsal thalamus
+synonym: "SGN" RELATED []
+
+[Term]
+id: 326
+name: superior cerebelar peduncles
+created_by: telefont
+part_of: 752 ! cerebellar peduncles
+synonym: "scp" RELATED []
+
+[Term]
+id: 327
+name: Basomedial amygdalar nucleus, anterior part
+created_by: telefont
+part_of: 319 ! Basomedial amygdalar nucleus
+synonym: "BMAa" RELATED []
+
+[Term]
+id: 328
+name: Agranular insular area, dorsal part, layer 2/3
+created_by: telefont
+part_of: 104 ! Agranular insular area, dorsal part
+synonym: "AId2/3" RELATED []
+
+[Term]
+id: 329
+name: Primary somatosensory area, barrel field
+created_by: telefont
+part_of: 322 ! Primary somatosensory area
+synonym: "SSp-bfd" RELATED []
+
+[Term]
+id: 33
+name: Primary visual area, layer 6a
+created_by: telefont
+part_of: 385 ! Primary visual area
+synonym: "VISp6a" RELATED []
+
+[Term]
+id: 330
+name: Retrosplenial area, dorsal part, layer 6b
+created_by: telefont
+part_of: 879 ! Retrosplenial area, dorsal part
+synonym: "RSPd6b" RELATED []
+
+[Term]
+id: 331
+name: Mammillary body
+created_by: telefont
+part_of: 467 ! Hypothalamic medial zone
+synonym: "MBO" RELATED []
+
+[Term]
+id: 332
+name: Accessory supraoptic group
+created_by: telefont
+part_of: 157 ! Periventricular zone
+synonym: "ASO" RELATED []
+
+[Term]
+id: 333
+name: Septohippocampal nucleus
+created_by: telefont
+part_of: 275 ! Lateral septal complex
+synonym: "SH" RELATED []
+
+[Term]
+id: 334
+name: Basomedial amygdalar nucleus, posterior part
+created_by: telefont
+part_of: 319 ! Basomedial amygdalar nucleus
+synonym: "BMAp" RELATED []
+
+[Term]
+id: 335
+name: Perirhinal area, layer 6a
+created_by: telefont
+part_of: 922 ! Perirhinal area
+synonym: "PERI6a" RELATED []
+
+[Term]
+id: 336
+name: superior colliculus commissure
+created_by: telefont
+part_of: 848 ! optic nerve
+synonym: "csc" RELATED []
+
+[Term]
+id: 337
+name: Primary somatosensory area, lower limb
+created_by: telefont
+part_of: 322 ! Primary somatosensory area
+synonym: "SSp-ll" RELATED []
+
+[Term]
+id: 338
+name: Subfornical organ
+created_by: telefont
+part_of: 141 ! Periventricular region
+synonym: "SFO" RELATED []
+
+[Term]
+id: 339
+name: Midbrain, sensory related
+created_by: telefont
+part_of: 313 ! Midbrain
+synonym: "MBsen" RELATED []
+
+[Term]
+id: 34
+name: intercrural fissure
+created_by: telefont
+part_of: 1040 ! grooves of the cerebellar cortex
+synonym: "icf" RELATED []
+
+[Term]
+id: 340
+name: Posterior parietal association areas, layer 6b
+created_by: telefont
+part_of: 22 ! Posterior parietal association areas
+synonym: "PTLp6b" RELATED []
+
+[Term]
+id: 341
+name: supramammillary decussation
+created_by: telefont
+part_of: 824 ! hypothalamus related
+synonym: "smd" RELATED []
+
+[Term]
+id: 342
+name: Substantia innominata
+created_by: telefont
+part_of: 835 ! Pallidum, ventral region
+synonym: "SI" RELATED []
+
+[Term]
+id: 343
+name: Brain stem
+created_by: telefont
+part_of: 8 ! Basic cell groups and regions
+synonym: "BS" RELATED []
+
+[Term]
+id: 344
+name: Agranular insular area, posterior part, layer 5
+created_by: telefont
+part_of: 111 ! Agranular insular area, posterior part
+synonym: "AIp5" RELATED []
+
+[Term]
+id: 345
+name: Primary somatosensory area, mouth
+created_by: telefont
+part_of: 322 ! Primary somatosensory area
+synonym: "SSp-m" RELATED []
+
+[Term]
+id: 346
+name: Primary somatosensory area, layer 2/3
+created_by: telefont
+part_of: 322 ! Primary somatosensory area
+synonym: "SSp2/3" RELATED []
+
+[Term]
+id: 347
+name: Subparaventricular zone
+created_by: telefont
+part_of: 141 ! Periventricular region
+synonym: "SBPV" RELATED []
+
+[Term]
+id: 348
+name: Midbrain, behavioral state related
+created_by: telefont
+part_of: 313 ! Midbrain
+synonym: "MBsta" RELATED []
+
+[Term]
+id: 349
+name: supraoptic commissures
+created_by: telefont
+part_of: 824 ! hypothalamus related
+synonym: "sup" RELATED []
+
+[Term]
+id: 35
+name: Oculomotor nucleus
+created_by: telefont
+part_of: 323 ! Midbrain, motor related
+synonym: "III" RELATED []
+
+[Term]
+id: 350
+name: Subceruleus nucleus
+created_by: telefont
+part_of: 1117 ! Pons, behavioral state related
+synonym: "SLC" RELATED []
+
+[Term]
+id: 351
+name: Bed nuclei of the stria terminalis
+created_by: telefont
+part_of: 809 ! Pallidum, caudal region
+synonym: "BST" RELATED []
+
+[Term]
+id: 352
+name: Orbital area, layer 5
+created_by: telefont
+part_of: 714 ! Orbital area
+synonym: "ORB5" RELATED []
+
+[Term]
+id: 353
+name: Primary somatosensory area, nose
+created_by: telefont
+part_of: 322 ! Primary somatosensory area
+synonym: "SSp-n" RELATED []
+
+[Term]
+id: 354
+name: Medulla
+created_by: telefont
+part_of: 1065 ! Hindbrain
+synonym: "MY" RELATED []
+
+[Term]
+id: 355
+name: Agranular insular area, posterior part, layer 6b
+created_by: telefont
+part_of: 111 ! Agranular insular area, posterior part
+synonym: "AIp6b" RELATED []
+
+[Term]
+id: 356
+name: Preparasubthalamic nucleus
+created_by: telefont
+part_of: 290 ! Hypothalamic lateral zone
+synonym: "PST" RELATED []
+
+[Term]
+id: 357
+name: tectothalamic pathway
+created_by: telefont
+part_of: 848 ! optic nerve
+synonym: "ttp" RELATED []
+
+[Term]
+id: 358
+name: Sublaterodorsal nucleus
+created_by: telefont
+part_of: 1117 ! Pons, behavioral state related
+synonym: "SLD" RELATED []
+
+[Term]
+id: 359
+name: Bed nuclei of the stria terminalis, anterior division
+created_by: telefont
+part_of: 351 ! Bed nuclei of the stria terminalis
+synonym: "BSTa" RELATED []
+
+[Term]
+id: 36
+name: Gustatory areas, layer 1
+created_by: telefont
+part_of: 1057 ! Gustatory areas
+synonym: "GU1" RELATED []
+
+[Term]
+id: 360
+name: Dorsal peduncular area, layer 2/3
+created_by: telefont
+part_of: 814 ! Dorsal peduncular area
+synonym: "DP2/3" RELATED []
+
+[Term]
+id: 361
+name: Primary somatosensory area, trunk
+created_by: telefont
+part_of: 322 ! Primary somatosensory area
+synonym: "SSp-tr" RELATED []
+
+[Term]
+id: 362
+name: Mediodorsal nucleus of thalamus
+created_by: telefont
+part_of: 444 ! Medial group of the dorsal thalamus
+synonym: "MD" RELATED []
+
+[Term]
+id: 363
+name: Prelimbic area, layer 5
+created_by: telefont
+part_of: 972 ! Prelimbic area
+synonym: "PL5" RELATED []
+
+[Term]
+id: 364
+name: Parasubthalamic nucleus
+created_by: telefont
+part_of: 290 ! Hypothalamic lateral zone
+synonym: "PSTN" RELATED []
+
+[Term]
+id: 365
+name: thalamic peduncles
+created_by: telefont
+part_of: 896 ! thalamus related
+synonym: "tp" RELATED []
+
+[Term]
+id: 366
+name: Submedial nucleus of the thalamus
+created_by: telefont
+part_of: 444 ! Medial group of the dorsal thalamus
+synonym: "SMT" RELATED []
+
+[Term]
+id: 367
+name: Bed nuclei of the stria terminalis, posterior division
+created_by: telefont
+part_of: 351 ! Bed nuclei of the stria terminalis
+synonym: "BSTp" RELATED []
+
+[Term]
+id: 368
+name: Perirhinal area, layer 6b
+created_by: telefont
+part_of: 922 ! Perirhinal area
+synonym: "PERI6b" RELATED []
+
+[Term]
+id: 369
+name: Primary somatosensory area, upper limb
+created_by: telefont
+part_of: 322 ! Primary somatosensory area
+synonym: "SSp-ul" RELATED []
+
+[Term]
+id: 37
+name: longitudinal association bundle
+created_by: telefont
+part_of: 768 ! cerebrum related
+synonym: "lab" RELATED []
+
+[Term]
+id: 370
+name: Medulla, motor related
+created_by: telefont
+part_of: 354 ! Medulla
+synonym: "MY-mot" RELATED []
+
+[Term]
+id: 371
+name: Entorhinal area, medial part, ventral zone, layer 3
+created_by: telefont
+part_of: 934 ! Entorhinal area, medial part, ventral zone
+synonym: "ENTmv3" RELATED []
+
+[Term]
+id: 372
+name: Infracerebellar nucleus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "ICB" RELATED []
+
+[Term]
+id: 373
+name: trigeminocerebellar tract
+created_by: telefont
+part_of: 752 ! cerebellar peduncles
+synonym: "tct" RELATED []
+
+[Term]
+id: 374
+name: Substantia nigra, compact part
+created_by: telefont
+part_of: 348 ! Midbrain, behavioral state related
+synonym: "SNc" RELATED []
+
+[Term]
+id: 375
+name: Ammon's horn
+created_by: telefont
+part_of: 1080 ! Hippocampal region
+synonym: "CA" RELATED []
+
+[Term]
+id: 376
+name: Cortical amygdalar area, posterior part, lateral zone, layers 1-3
+created_by: telefont
+part_of: 655 ! Cortical amygdalar area, posterior part, lateral zone
+synonym: "COApl1-3" RELATED []
+
+[Term]
+id: 377
+name: Posterolateral visual area, layer 6a
+created_by: telefont
+part_of: 425 ! Posterolateral visual area
+synonym: "VISpl6a" RELATED []
+
+[Term]
+id: 378
+name: Supplemental somatosensory area
+created_by: telefont
+part_of: 453 ! Somatosensory areas
+synonym: "SSs" RELATED []
+
+[Term]
+id: 379
+name: Medulla, behavioral state related
+created_by: telefont
+part_of: 354 ! Medulla
+synonym: "MY-sat" RELATED []
+
+[Term]
+id: 38
+name: Paraventricular hypothalamic nucleus
+created_by: telefont
+part_of: 157 ! Periventricular zone
+synonym: "PVH" RELATED []
+
+[Term]
+id: 380
+name: cuneate fascicle
+created_by: telefont
+part_of: 514 ! dorsal column
+synonym: "cuf" RELATED []
+
+[Term]
+id: 381
+name: Substantia nigra, reticular part
+created_by: telefont
+part_of: 323 ! Midbrain, motor related
+synonym: "SNr" RELATED []
+
+[Term]
+id: 382
+name: Field CA1
+created_by: telefont
+part_of: 375 ! Ammon's horn
+synonym: "CA1" RELATED []
+
+[Term]
+id: 383
+name: Cortical amygdalar area, posterior part, medial zone, layers 1-3
+created_by: telefont
+part_of: 663 ! Cortical amygdalar area, posterior part, medial zone
+synonym: "COApm1-3" RELATED []
+
+[Term]
+id: 384
+name: trochlear nerve decussation
+created_by: telefont
+part_of: 911 ! trochlear nerve
+synonym: "IVd" RELATED []
+
+[Term]
+id: 385
+name: Primary visual area
+created_by: telefont
+part_of: 669 ! Visual areas
+synonym: "VISp" RELATED []
+
+[Term]
+id: 386
+name: Medulla, sensory related
+created_by: telefont
+part_of: 354 ! Medulla
+synonym: "MY-sen" RELATED []
+
+[Term]
+id: 387
+name: Entorhinal area, lateral part, layer 5/6
+created_by: telefont
+part_of: 918 ! Entorhinal area, lateral part
+synonym: "ENTl5/6" RELATED []
+
+[Term]
+id: 388
+name: gracile fascicle
+created_by: telefont
+part_of: 514 ! dorsal column
+synonym: "grf" RELATED []
+
+[Term]
+id: 389
+name: ventral spinothalamic tract
+created_by: telefont
+part_of: 871 ! spinothalamic tract
+synonym: "sttv" RELATED []
+
+[Term]
+id: 39
+name: Anterior cingulate area, dorsal part
+created_by: telefont
+part_of: 31 ! Anterior cingulate area
+synonym: "ACAd" RELATED []
+
+[Term]
+id: 390
+name: Supraoptic nucleus
+created_by: telefont
+part_of: 157 ! Periventricular zone
+synonym: "SO" RELATED []
+
+[Term]
+id: 391
+name: Field CA1, stratum lacunosum-moleculare
+created_by: telefont
+part_of: 382 ! Field CA1
+synonym: "CA1slm" RELATED []
+
+[Term]
+id: 392
+name: Nucleus of the lateral olfactory tract, layers 1-3
+created_by: telefont
+part_of: 619 ! Nucleus of the lateral olfactory tract
+synonym: "NLOT1-3" RELATED []
+
+[Term]
+id: 393
+name: Posterolateral visual area, layer 6b
+created_by: telefont
+part_of: 425 ! Posterolateral visual area
+synonym: "VISpl6b" RELATED []
+
+[Term]
+id: 394
+name: Anteromedial visual area
+created_by: telefont
+part_of: 669 ! Visual areas
+synonym: "VISam" RELATED []
+
+[Term]
+id: 395
+name: Medullary reticular nucleus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "MDRN" RELATED []
+
+[Term]
+id: 396
+name: internal arcuate fibers
+created_by: telefont
+part_of: 514 ! dorsal column
+synonym: "iaf" RELATED []
+
+[Term]
+id: 397
+name: ventral tegmental decussation
+created_by: telefont
+part_of: 863 ! rubrospinal tract
+synonym: "vtd" RELATED []
+
+[Term]
+id: 398
+name: Superior olivary complex
+created_by: telefont
+part_of: 1132 ! Pons, sensory related
+synonym: "SOC" RELATED []
+
+[Term]
+id: 399
+name: Field CA1, stratum oriens
+created_by: telefont
+part_of: 382 ! Field CA1
+synonym: "CA1so" RELATED []
+
+[Term]
+id: 4
+name: Inferior colliculus
+created_by: telefont
+part_of: 339 ! Midbrain, sensory related
+synonym: "IC" RELATED []
+
+[Term]
+id: 400
+name: Piriform-amygdalar area, layers 1-3
+created_by: telefont
+part_of: 788 ! Piriform-amygdalar area
+synonym: "PAA1-3" RELATED []
+
+[Term]
+id: 401
+name: Anteromedial visual area, layer 4
+created_by: telefont
+part_of: 394 ! Anteromedial visual area
+synonym: "VISam4" RELATED []
+
+[Term]
+id: 402
+name: Anterolateral visual area
+created_by: telefont
+part_of: 669 ! Visual areas
+synonym: "VISal" RELATED []
+
+[Term]
+id: 403
+name: Medial amygdalar nucleus
+created_by: telefont
+part_of: 278 ! Striatum-like amygdalar nuclei
+synonym: "MEA" RELATED []
+
+[Term]
+id: 404
+name: olivocerebellar tract
+created_by: telefont
+part_of: 490 ! bulbocerebellar tract
+synonym: "oct" RELATED []
+
+[Term]
+id: 405
+name: ventrolateral hypothalamic tract
+created_by: telefont
+part_of: 824 ! hypothalamus related
+synonym: "vlt" RELATED []
+
+[Term]
+id: 406
+name: Subparafascicular nucleus
+created_by: telefont
+part_of: 864 ! Thalamus, sensory-motor cortex related
+synonym: "SPF" RELATED []
+
+[Term]
+id: 407
+name: Field CA1, pyramidal layer
+created_by: telefont
+part_of: 382 ! Field CA1
+synonym: "CA1sp" RELATED []
+
+[Term]
+id: 408
+name: Piriform-amygdalar area, molecular layer
+created_by: telefont
+part_of: 788 ! Piriform-amygdalar area
+synonym: "PAA1" RELATED []
+
+[Term]
+id: 409
+name: Lateral visual area
+created_by: telefont
+part_of: 669 ! Visual areas
+synonym: "VISl" RELATED []
+
+[Term]
+id: 41
+name: posteromedial visual area, layer 2/3
+created_by: telefont
+part_of: 533 ! posteromedial visual area
+synonym: "VISpm2/3" RELATED []
+
+[Term]
+id: 410
+name: reticulocerebellar tract
+created_by: telefont
+part_of: 490 ! bulbocerebellar tract
+synonym: "rct" RELATED []
+
+[Term]
+id: 411
+name: Medial amygdalar nucleus, anterodorsal part
+created_by: telefont
+part_of: 403 ! Medial amygdalar nucleus
+synonym: "MEAad" RELATED []
+
+[Term]
+id: 412
+name: Orbital area, lateral part, layer 2/3
+created_by: telefont
+part_of: 723 ! Orbital area, lateral part
+synonym: "ORBl2/3" RELATED []
+
+[Term]
+id: 413
+name: vestibular nerve
+created_by: telefont
+part_of: 933 ! vestibulocochlear nerve
+synonym: "vVIIIn" RELATED []
+
+[Term]
+id: 414
+name: Subparafascicular nucleus, magnocellular part
+created_by: telefont
+part_of: 406 ! Subparafascicular nucleus
+synonym: "SPFm" RELATED []
+
+[Term]
+id: 415
+name: Field CA1, stratum radiatum
+created_by: telefont
+part_of: 382 ! Field CA1
+synonym: "CA1sr" RELATED []
+
+[Term]
+id: 416
+name: Piriform-amygdalar area, pyramidal layer
+created_by: telefont
+part_of: 788 ! Piriform-amygdalar area
+synonym: "PAA2" RELATED []
+
+[Term]
+id: 418
+name: Medial amygdalar nucleus, anteroventral part
+created_by: telefont
+part_of: 403 ! Medial amygdalar nucleus
+synonym: "MEAav" RELATED []
+
+[Term]
+id: 419
+name: Entorhinal area, medial part, ventral zone, layer 4
+created_by: telefont
+part_of: 934 ! Entorhinal area, medial part, ventral zone
+synonym: "ENTmv4" RELATED []
+
+[Term]
+id: 42
+name: Superior colliculus, motor related, deep white layer
+created_by: telefont
+part_of: 294 ! Superior colliculus, motor related
+synonym: "SCdw" RELATED []
+
+[Term]
+id: 420
+name: precommissural fornix diagonal band
+created_by: telefont
+part_of: 745 ! precommissural fornix, general
+synonym: "db" RELATED []
+
+[Term]
+id: 421
+name: Lateral visual area, layer 1
+created_by: telefont
+part_of: 409 ! Lateral visual area
+synonym: "VISl1" RELATED []
+
+[Term]
+id: 422
+name: Subparafascicular nucleus, parvicellular part
+created_by: telefont
+part_of: 406 ! Subparafascicular nucleus
+synonym: "SPFp" RELATED []
+
+[Term]
+id: 423
+name: Field CA2
+created_by: telefont
+part_of: 375 ! Ammon's horn
+synonym: "CA2" RELATED []
+
+[Term]
+id: 424
+name: Piriform-amygdalar area, polymorph layer
+created_by: telefont
+part_of: 788 ! Piriform-amygdalar area
+synonym: "PAA3" RELATED []
+
+[Term]
+id: 425
+name: Posterolateral visual area
+created_by: telefont
+part_of: 669 ! Visual areas
+synonym: "VISpl" RELATED []
+
+[Term]
+id: 426
+name: Medial amygdalar nucleus, posterodorsal part
+created_by: telefont
+part_of: 403 ! Medial amygdalar nucleus
+synonym: "MEApd" RELATED []
+
+[Term]
+id: 427
+name: Ectorhinal area/Layer 2/3
+created_by: telefont
+part_of: 895 ! Ectorhinal area
+synonym: "ECT2/3" RELATED []
+
+[Term]
+id: 428
+name: medial corticohypothalmic tract
+created_by: telefont
+part_of: 737 ! postcommissural fornix
+synonym: "mct" RELATED []
+
+[Term]
+id: 429
+name: Spinal nucleus of the trigeminal, caudal part
+created_by: telefont
+part_of: 386 ! Medulla, sensory related
+synonym: "SPVC" RELATED []
+
+[Term]
+id: 43
+name: ansoparamedian fissure
+created_by: telefont
+part_of: 1040 ! grooves of the cerebellar cortex
+synonym: "apf" RELATED []
+
+[Term]
+id: 430
+name: Retrosplenial area, ventral part, layer 2/3
+created_by: telefont
+part_of: 886 ! Retrosplenial area, ventral part
+synonym: "RSPv2/3" RELATED []
+
+[Term]
+id: 431
+name: Field CA2, stratum lacunosum-moleculare
+created_by: telefont
+part_of: 423 ! Field CA2
+synonym: "CA2slm" RELATED []
+
+[Term]
+id: 432
+name: Nucleus circularis
+created_by: telefont
+part_of: 332 ! Accessory supraoptic group
+synonym: "NC" RELATED []
+
+[Term]
+id: 433
+name: Anteromedial visual area, layer 5
+created_by: telefont
+part_of: 394 ! Anteromedial visual area
+synonym: "VISam5" RELATED []
+
+[Term]
+id: 434
+name: Retrosplenial area, dorsal part, layer 2/3
+created_by: telefont
+part_of: 879 ! Retrosplenial area, dorsal part
+synonym: "RSPd2/3" RELATED []
+
+[Term]
+id: 435
+name: Medial amygdalar nucleus, posteroventral part
+created_by: telefont
+part_of: 403 ! Medial amygdalar nucleus
+synonym: "MEApv" RELATED []
+
+[Term]
+id: 436
+name: columns of the fornix
+created_by: telefont
+part_of: 737 ! postcommissural fornix
+synonym: "fx" RELATED []
+
+[Term]
+id: 437
+name: Spinal nucleus of the trigeminal, interpolar part
+created_by: telefont
+part_of: 386 ! Medulla, sensory related
+synonym: "SPVI" RELATED []
+
+[Term]
+id: 438
+name: Field CA2, stratum oriens
+created_by: telefont
+part_of: 423 ! Field CA2
+synonym: "CA2so" RELATED []
+
+[Term]
+id: 439
+name: Paraventricular hypothalamic nucleus, descending division, dorsal parvicellular part
+created_by: telefont
+part_of: 63 ! Paraventricular hypothalamic nucleus, descending division
+synonym: "PVHdp" RELATED []
+
+[Term]
+id: 44
+name: Infralimbic area
+created_by: telefont
+part_of: 315 ! Isocortex
+synonym: "ILA" RELATED []
+
+[Term]
+id: 440
+name: Orbital area, lateral part, layer 6a
+created_by: telefont
+part_of: 723 ! Orbital area, lateral part
+synonym: "ORBl6a" RELATED []
+
+[Term]
+id: 441
+name: Anteromedial visual area, layer 6b
+created_by: telefont
+part_of: 394 ! Anteromedial visual area
+synonym: "VISam6b" RELATED []
+
+[Term]
+id: 442
+name: Retrosplenial area, dorsal part, layer 1
+created_by: telefont
+part_of: 879 ! Retrosplenial area, dorsal part
+synonym: "RSPd1" RELATED []
+
+[Term]
+id: 443
+name: dorsal hippocampal commissure
+created_by: telefont
+part_of: 618 ! hippocampal commissures
+synonym: "dhc" RELATED []
+
+[Term]
+id: 444
+name: Medial group of the dorsal thalamus
+created_by: telefont
+part_of: 856 ! Thalamus, polymodal association cortex related
+synonym: "MED" RELATED []
+
+[Term]
+id: 445
+name: Spinal nucleus of the trigeminal, oral part
+created_by: telefont
+part_of: 386 ! Medulla, sensory related
+synonym: "SPVO" RELATED []
+
+[Term]
+id: 446
+name: Field CA2, pyramidal layer
+created_by: telefont
+part_of: 423 ! Field CA2
+synonym: "CA2sp" RELATED []
+
+[Term]
+id: 447
+name: Paraventricular hypothalamic nucleus, descending division, forniceal part
+created_by: telefont
+part_of: 63 ! Paraventricular hypothalamic nucleus, descending division
+synonym: "PVHf" RELATED []
+
+[Term]
+id: 448
+name: Orbital area, lateral part, layer 1
+created_by: telefont
+part_of: 723 ! Orbital area, lateral part
+synonym: "ORBl1" RELATED []
+
+[Term]
+id: 449
+name: ventral hippocampal commissure
+created_by: telefont
+part_of: 618 ! hippocampal commissures
+synonym: "vhc" RELATED []
+
+[Term]
+id: 45
+name: Spinal nucleus of the trigeminal, oral part, rostral dorsomedial part
+created_by: telefont
+part_of: 445 ! Spinal nucleus of the trigeminal, oral part
+synonym: "SPVOrdm" RELATED []
+
+[Term]
+id: 450
+name: Primary somatosensory area, upper limb, layer 1
+created_by: telefont
+part_of: 369 ! Primary somatosensory area, upper limb
+synonym: "SSp-ul1" RELATED []
+
+[Term]
+id: 451
+name: Basolateral amygdalar nucleus, ventral part
+created_by: telefont
+part_of: 295 ! Basolateral amygdalar nucleus
+synonym: "BLAv" RELATED []
+
+[Term]
+id: 452
+name: Median preoptic nucleus
+created_by: telefont
+part_of: 141 ! Periventricular region
+synonym: "MEPO" RELATED []
+
+[Term]
+id: 453
+name: Somatosensory areas
+created_by: telefont
+part_of: 315 ! Isocortex
+synonym: "SS" RELATED []
+
+[Term]
+id: 454
+name: Field CA2, stratum radiatum
+created_by: telefont
+part_of: 423 ! Field CA2
+synonym: "CA2sr" RELATED []
+
+[Term]
+id: 455
+name: Paraventricular hypothalamic nucleus, descending division, lateral parvicellular part
+created_by: telefont
+part_of: 63 ! Paraventricular hypothalamic nucleus, descending division
+synonym: "PVHlp" RELATED []
+
+[Term]
+id: 456
+name: Posterior auditory area, layer 6b
+created_by: telefont
+part_of: 1027 ! Posterior auditory area
+synonym: "AUDpo6b" RELATED []
+
+[Term]
+id: 457
+name: Visual areas, layer 6a
+created_by: telefont
+part_of: 669 ! Visual areas
+synonym: "VIS6a" RELATED []
+
+[Term]
+id: 458
+name: Olfactory tubercle, molecular layer
+created_by: telefont
+part_of: 754 ! Olfactory tubercle
+synonym: "OT1" RELATED []
+
+[Term]
+id: 459
+name: accessory olfactory tract
+created_by: telefont
+part_of: 21 ! lateral olfactory tract, general
+synonym: "aolt" RELATED []
+
+[Term]
+id: 46
+name: mammillary related
+created_by: telefont
+part_of: 824 ! hypothalamus related
+synonym: "mfbsma" RELATED []
+
+[Term]
+id: 460
+name: Midbrain trigeminal nucleus
+created_by: telefont
+part_of: 339 ! Midbrain, sensory related
+synonym: "MEV" RELATED []
+
+[Term]
+id: 461
+name: Primary somatosensory area, trunk, layer 6b
+created_by: telefont
+part_of: 361 ! Primary somatosensory area, trunk
+synonym: "SSp-tr6b" RELATED []
+
+[Term]
+id: 462
+name: Superior salivatory nucleus
+created_by: telefont
+part_of: 987 ! Pons, motor related
+synonym: "SSN" RELATED []
+
+[Term]
+id: 463
+name: Field CA3
+created_by: telefont
+part_of: 375 ! Ammon's horn
+synonym: "CA3" RELATED []
+
+[Term]
+id: 464
+name: Paraventricular hypothalamic nucleus, descending division, medial parvicellular part, ventral zone
+created_by: telefont
+part_of: 63 ! Paraventricular hypothalamic nucleus, descending division
+synonym: "PVHmpv" RELATED []
+
+[Term]
+id: 465
+name: Olfactory tubercle, pyramidal layer
+created_by: telefont
+part_of: 754 ! Olfactory tubercle
+synonym: "OT2" RELATED []
+
+[Term]
+id: 466
+name: alveus
+created_by: telefont
+part_of: 1099 ! fornix system
+synonym: "alv" RELATED []
+
+[Term]
+id: 467
+name: Hypothalamic medial zone
+created_by: telefont
+part_of: 1097 ! Hypothalamus
+synonym: "MEZ" RELATED []
+
+[Term]
+id: 468
+name: Entorhinal area, medial part, dorsal zone, layer 2a
+created_by: telefont
+part_of: 926 ! Entorhinal area, medial part, dorsal zone
+synonym: "ENTm2a" RELATED []
+
+[Term]
+id: 469
+name: posteromedial visual area, layer 6b
+created_by: telefont
+part_of: 533 ! posteromedial visual area
+synonym: "VISpm6b" RELATED []
+
+[Term]
+id: 47
+name: Paraventricular hypothalamic nucleus, magnocellular division, anterior magnocellular part
+created_by: telefont
+part_of: 71 ! Paraventricular hypothalamic nucleus, magnocellular division
+synonym: "PVHam" RELATED []
+
+[Term]
+id: 470
+name: Subthalamic nucleus
+created_by: telefont
+part_of: 290 ! Hypothalamic lateral zone
+synonym: "STN" RELATED []
+
+[Term]
+id: 471
+name: Field CA3, stratum lacunosum-moleculare
+created_by: telefont
+part_of: 463 ! Field CA3
+synonym: "CA3slm" RELATED []
+
+[Term]
+id: 472
+name: Medial amygdalar nucleus, posterodorsal part, sublayer a
+created_by: telefont
+part_of: 426 ! Medial amygdalar nucleus, posterodorsal part
+synonym: "MEApd-a" RELATED []
+
+[Term]
+id: 473
+name: Olfactory tubercle, polymorph layer
+created_by: telefont
+part_of: 754 ! Olfactory tubercle
+synonym: "OT3" RELATED []
+
+[Term]
+id: 474
+name: angular path
+created_by: telefont
+part_of: 1099 ! fornix system
+synonym: "ab" RELATED []
+
+[Term]
+id: 475
+name: Medial geniculate complex
+created_by: telefont
+part_of: 1008 ! Geniculate group, dorsal thalamus
+synonym: "MG" RELATED []
+
+[Term]
+id: 476
+name: Orbital area, layer 6a
+created_by: telefont
+part_of: 714 ! Orbital area
+synonym: "ORB6a" RELATED []
+
+[Term]
+id: 477
+name: Striatum
+created_by: telefont
+part_of: 623 ! Cerebral nuclei
+synonym: "STR" RELATED []
+
+[Term]
+id: 478
+name: Primary somatosensory area, lower limb, layer 6a
+created_by: telefont
+part_of: 337 ! Primary somatosensory area, lower limb
+synonym: "SSp-ll6a" RELATED []
+
+[Term]
+id: 479
+name: Field CA3, stratum lucidum
+created_by: telefont
+part_of: 463 ! Field CA3
+synonym: "CA3slu" RELATED []
+
+[Term]
+id: 48
+name: Anterior cingulate area, ventral part
+created_by: telefont
+part_of: 31 ! Anterior cingulate area
+synonym: "ACAv" RELATED []
+
+[Term]
+id: 480
+name: Medial amygdalar nucleus, posterodorsal part, sublayer b
+created_by: telefont
+part_of: 426 ! Medial amygdalar nucleus, posterodorsal part
+synonym: "MEApd-b" RELATED []
+
+[Term]
+id: 481
+name: Islands of Calleja
+created_by: telefont
+part_of: 754 ! Olfactory tubercle
+synonym: "isl" RELATED []
+
+[Term]
+id: 482
+name: brachium of the inferior colliculus
+created_by: telefont
+part_of: 948 ! cochlear nerve
+synonym: "bic" RELATED []
+
+[Term]
+id: 483
+name: Medial habenula
+created_by: telefont
+part_of: 958 ! Epithalamus
+synonym: "MH" RELATED []
+
+[Term]
+id: 484
+name: Orbital area, medial part, layer 1
+created_by: telefont
+part_of: 731 ! Orbital area, medial part
+synonym: "ORBm1" RELATED []
+
+[Term]
+id: 485
+name: Striatum dorsal region
+created_by: telefont
+part_of: 477 ! Striatum
+synonym: "STRd" RELATED []
+
+[Term]
+id: 486
+name: Field CA3, stratum oriens
+created_by: telefont
+part_of: 463 ! Field CA3
+synonym: "CA3so" RELATED []
+
+[Term]
+id: 487
+name: Medial amygdalar nucleus, posterodorsal part, sublayer c
+created_by: telefont
+part_of: 426 ! Medial amygdalar nucleus, posterodorsal part
+synonym: "MEApd-c" RELATED []
+
+[Term]
+id: 488
+name: Orbital area, lateral part, layer 6b
+created_by: telefont
+part_of: 723 ! Orbital area, lateral part
+synonym: "ORBl6b" RELATED []
+
+[Term]
+id: 489
+name: Major island of Calleja
+created_by: telefont
+part_of: 754 ! Olfactory tubercle
+synonym: "islm" RELATED []
+
+[Term]
+id: 49
+name: intraparafloccular fissure
+created_by: telefont
+part_of: 1040 ! grooves of the cerebellar cortex
+synonym: "ipf" RELATED []
+
+[Term]
+id: 490
+name: bulbocerebellar tract
+created_by: telefont
+part_of: 1123 ! inferior cerebellar peduncle
+synonym: "bct" RELATED []
+
+[Term]
+id: 491
+name: Medial mammillary nucleus
+created_by: telefont
+part_of: 331 ! Mammillary body
+synonym: "MM" RELATED []
+
+[Term]
+id: 492
+name: Orbital area, layer 2/3
+created_by: telefont
+part_of: 714 ! Orbital area
+synonym: "ORB2/3" RELATED []
+
+[Term]
+id: 493
+name: Striatum ventral region
+created_by: telefont
+part_of: 477 ! Striatum
+synonym: "STRv" RELATED []
+
+[Term]
+id: 494
+name: Superior colliculus, motor related, intermediate gray layer, sublayer a
+created_by: telefont
+part_of: 10 ! Superior colliculus, motor related, intermediate gray layer
+synonym: "SCig-a" RELATED []
+
+[Term]
+id: 495
+name: Field CA3, pyramidal layer
+created_by: telefont
+part_of: 463 ! Field CA3
+synonym: "CA3sp" RELATED []
+
+[Term]
+id: 496
+name: Dorsal peduncular area, layer 1
+created_by: telefont
+part_of: 814 ! Dorsal peduncular area
+synonym: "DP1" RELATED []
+
+[Term]
+id: 497
+name: Visual areas, layer 6b
+created_by: telefont
+part_of: 669 ! Visual areas
+synonym: "VIS6b" RELATED []
+
+[Term]
+id: 498
+name: Bed nuclei of the stria terminalis, anterior division, anteromedial area
+created_by: telefont
+part_of: 359 ! Bed nuclei of the stria terminalis, anterior division
+synonym: "BSTam" RELATED []
+
+[Term]
+id: 499
+name: cuneocerebellar tract
+created_by: telefont
+part_of: 1123 ! inferior cerebellar peduncle
+synonym: "cct" RELATED []
+
+[Term]
+id: 50
+name: Precommissural nucleus
+created_by: telefont
+part_of: 795 ! Periaqueductal gray
+synonym: "PRC" RELATED []
+
+[Term]
+id: 500
+name: Somatomotor areas
+created_by: telefont
+part_of: 315 ! Isocortex
+synonym: "MO" RELATED []
+
+[Term]
+id: 501
+name: posteromedial visual area, layer 4
+created_by: telefont
+part_of: 533 ! posteromedial visual area
+synonym: "VISpm4" RELATED []
+
+[Term]
+id: 502
+name: Subiculum
+created_by: telefont
+part_of: 822 ! Retrohippocampal region
+synonym: "SUB" RELATED []
+
+[Term]
+id: 503
+name: Superior colliculus, motor related, intermediate gray layer, sublayer b
+created_by: telefont
+part_of: 10 ! Superior colliculus, motor related, intermediate gray layer
+synonym: "SCig-b" RELATED []
+
+[Term]
+id: 504
+name: Field CA3, stratum radiatum
+created_by: telefont
+part_of: 463 ! Field CA3
+synonym: "CA3sr" RELATED []
+
+[Term]
+id: 505
+name: Bed nuclei of the stria terminalis, anterior division, dorsomedial nucleus
+created_by: telefont
+part_of: 359 ! Bed nuclei of the stria terminalis, anterior division
+synonym: "BSTdm" RELATED []
+
+[Term]
+id: 506
+name: dorsal acoustic stria
+created_by: telefont
+part_of: 948 ! cochlear nerve
+synonym: "das" RELATED []
+
+[Term]
+id: 507
+name: Main olfactory bulb
+created_by: telefont
+part_of: 698 ! Olfactory areas
+synonym: "MOB" RELATED []
+
+[Term]
+id: 508
+name: Entorhinal area, medial part, dorsal zone, layer 2b
+created_by: telefont
+part_of: 926 ! Entorhinal area, medial part, dorsal zone
+synonym: "ENTm2b" RELATED []
+
+[Term]
+id: 509
+name: Subiculum, dorsal part
+created_by: telefont
+part_of: 502 ! Subiculum
+synonym: "SUBd" RELATED []
+
+[Term]
+id: 51
+name: Intralaminar nuclei of the dorsal thalamus
+created_by: telefont
+part_of: 856 ! Thalamus, polymodal association cortex related
+synonym: "ILM" RELATED []
+
+[Term]
+id: 510
+name: Primary somatosensory area, lower limb, layer 6b
+created_by: telefont
+part_of: 337 ! Primary somatosensory area, lower limb
+synonym: "SSp-ll6b" RELATED []
+
+[Term]
+id: 511
+name: Superior colliculus, motor related, intermediate gray layer, sublayer c
+created_by: telefont
+part_of: 10 ! Superior colliculus, motor related, intermediate gray layer
+synonym: "SCig-c" RELATED []
+
+[Term]
+id: 512
+name: Cerebellum
+created_by: telefont
+part_of: 8 ! Basic cell groups and regions
+synonym: "CB" RELATED []
+
+[Term]
+id: 513
+name: Bed nuclei of the stria terminalis, anterior division, fusiform nucleus
+created_by: telefont
+part_of: 359 ! Bed nuclei of the stria terminalis, anterior division
+synonym: "BSTfu" RELATED []
+
+[Term]
+id: 514
+name: dorsal column
+created_by: telefont
+part_of: 932 ! cervicothalamic tract
+synonym: "dc" RELATED []
+
+[Term]
+id: 515
+name: Medial preoptic nucleus
+created_by: telefont
+part_of: 467 ! Hypothalamic medial zone
+synonym: "MPN" RELATED []
+
+[Term]
+id: 516
+name: Orbital area, layer 6b
+created_by: telefont
+part_of: 714 ! Orbital area
+synonym: "ORB6b" RELATED []
+
+[Term]
+id: 517
+name: Postpiriform transition area, layers 1-3
+created_by: telefont
+part_of: 566 ! Postpiriform transition area
+synonym: "TR1-3" RELATED []
+
+[Term]
+id: 518
+name: Subiculum, ventral part
+created_by: telefont
+part_of: 502 ! Subiculum
+synonym: "SUBv" RELATED []
+
+[Term]
+id: 519
+name: Cerebellar nuclei
+created_by: telefont
+part_of: 512 ! Cerebellum
+synonym: "CBN" RELATED []
+
+[Term]
+id: 52
+name: Entorhinal area, lateral part, layer 3
+created_by: telefont
+part_of: 918 ! Entorhinal area, lateral part
+synonym: "ENTl3" RELATED []
+
+[Term]
+id: 520
+name: Ventral auditory area, layer 6a
+created_by: telefont
+part_of: 1018 ! Ventral auditory area
+synonym: "AUDv6a" RELATED []
+
+[Term]
+id: 521
+name: Bed nuclei of the stria terminalis, anterior division, magnocellular nucleus
+created_by: telefont
+part_of: 359 ! Bed nuclei of the stria terminalis, anterior division
+synonym: "BSTmg" RELATED []
+
+[Term]
+id: 522
+name: dorsal commissure of the spinal cord
+created_by: telefont
+part_of: 932 ! cervicothalamic tract
+synonym: "dcm" RELATED []
+
+[Term]
+id: 523
+name: Medial preoptic area
+created_by: telefont
+part_of: 141 ! Periventricular region
+synonym: "MPO" RELATED []
+
+[Term]
+id: 524
+name: Orbital area, medial part, layer 2
+created_by: telefont
+part_of: 731 ! Orbital area, medial part
+synonym: "ORBm2" RELATED []
+
+[Term]
+id: 525
+name: Supramammillary nucleus
+created_by: telefont
+part_of: 331 ! Mammillary body
+synonym: "SUM" RELATED []
+
+[Term]
+id: 526
+name: Entorhinal area, medial part, dorsal zone, layer 1
+created_by: telefont
+part_of: 926 ! Entorhinal area, medial part, dorsal zone
+synonym: "ENTm1" RELATED []
+
+[Term]
+id: 527
+name: Dorsal auditory area, layer 1
+created_by: telefont
+part_of: 1011 ! Dorsal auditory area
+synonym: "AUDd1" RELATED []
+
+[Term]
+id: 528
+name: Cerebellar cortex
+created_by: telefont
+part_of: 512 ! Cerebellum
+synonym: "CBX" RELATED []
+
+[Term]
+id: 529
+name: Bed nuclei of the stria terminalis, anterior division, ventral nucleus
+created_by: telefont
+part_of: 359 ! Bed nuclei of the stria terminalis, anterior division
+synonym: "BSTv" RELATED []
+
+[Term]
+id: 53
+name: Spinal nucleus of the trigeminal, oral part, middle dorsomedial part, dorsal zone
+created_by: telefont
+part_of: 445 ! Spinal nucleus of the trigeminal, oral part
+synonym: "SPVOmdmd" RELATED []
+
+[Term]
+id: 530
+name: dorsal fornix
+created_by: telefont
+part_of: 1099 ! fornix system
+synonym: "df" RELATED []
+
+[Term]
+id: 531
+name: Medial pretectal area
+created_by: telefont
+part_of: 1100 ! Pretectal region
+synonym: "MPT" RELATED []
+
+[Term]
+id: 532
+name: Posterior parietal association areas, layer 1
+created_by: telefont
+part_of: 22 ! Posterior parietal association areas
+synonym: "PTLp1" RELATED []
+
+[Term]
+id: 533
+name: posteromedial visual area
+created_by: telefont
+part_of: 669 ! Visual areas
+synonym: "VISpm" RELATED []
+
+[Term]
+id: 534
+name: Supratrigeminal nucleus
+created_by: telefont
+part_of: 987 ! Pons, motor related
+synonym: "SUT" RELATED []
+
+[Term]
+id: 535
+name: Dorsal peduncular area, layer 2
+created_by: telefont
+part_of: 814 ! Dorsal peduncular area
+synonym: "DP2" RELATED []
+
+[Term]
+id: 536
+name: Central amygdalar nucleus
+created_by: telefont
+part_of: 278 ! Striatum-like amygdalar nuclei
+synonym: "CEA" RELATED []
+
+[Term]
+id: 537
+name: Bed nuclei of the stria terminalis, anterior division, anterolateral area
+created_by: telefont
+part_of: 359 ! Bed nuclei of the stria terminalis, anterior division
+synonym: "BSTal" RELATED []
+
+[Term]
+id: 538
+name: dorsal limb
+created_by: telefont
+part_of: 21 ! lateral olfactory tract, general
+synonym: "lotd" RELATED []
+
+[Term]
+id: 539
+name: Midbrain reticular nucleus, magnocellular part
+created_by: telefont
+part_of: 128 ! Midbrain reticular nucleus
+synonym: "MRNm" RELATED []
+
+[Term]
+id: 54
+name: medial forebrain bundle
+created_by: telefont
+part_of: 824 ! hypothalamus related
+synonym: "mfb" RELATED []
+
+[Term]
+id: 540
+name: Perirhinal area, layer 1
+created_by: telefont
+part_of: 922 ! Perirhinal area
+synonym: "PERI1" RELATED []
+
+[Term]
+id: 541
+name: Temporal association areas
+created_by: telefont
+part_of: 315 ! Isocortex
+synonym: "TEa" RELATED []
+
+[Term]
+id: 542
+name: Retrosplenial area, ventral part, layer 1
+created_by: telefont
+part_of: 886 ! Retrosplenial area, ventral part
+synonym: "RSPv1" RELATED []
+
+[Term]
+id: 543
+name: Entorhinal area, medial part, dorsal zone, layer 2
+created_by: telefont
+part_of: 926 ! Entorhinal area, medial part, dorsal zone
+synonym: "ENTm2" RELATED []
+
+[Term]
+id: 544
+name: Central amygdalar nucleus, capsular part
+created_by: telefont
+part_of: 536 ! Central amygdalar nucleus
+synonym: "CEAc" RELATED []
+
+[Term]
+id: 545
+name: Retrosplenial area, dorsal part, layer 4
+created_by: telefont
+part_of: 879 ! Retrosplenial area, dorsal part
+synonym: "RSPd4" RELATED []
+
+[Term]
+id: 546
+name: Bed nuclei of the stria terminalis, anterior division, juxtacapsular nucleus
+created_by: telefont
+part_of: 359 ! Bed nuclei of the stria terminalis, anterior division
+synonym: "BSTju" RELATED []
+
+[Term]
+id: 547
+name: dorsal longitudinal fascicle
+created_by: telefont
+part_of: 70 ! midbrain related
+synonym: "dlf" RELATED []
+
+[Term]
+id: 548
+name: Midbrain reticular nucleus, magnocellular part, general
+created_by: telefont
+part_of: 128 ! Midbrain reticular nucleus
+synonym: "MRNmg" RELATED []
+
+[Term]
+id: 549
+name: Thalamus
+created_by: telefont
+part_of: 1129 ! Interbrain
+synonym: "TH" RELATED []
+
+[Term]
+id: 55
+name: Paraventricular hypothalamic nucleus, parvicellular division, anterior parvicellular part
+created_by: telefont
+part_of: 94 ! Paraventricular hypothalamic nucleus, parvicellular division
+synonym: "PVHap" RELATED []
+
+[Term]
+id: 550
+name: Entorhinal area, medial part, dorsal zone, layer 5/6
+created_by: telefont
+part_of: 926 ! Entorhinal area, medial part, dorsal zone
+synonym: "ENTm5/6" RELATED []
+
+[Term]
+id: 551
+name: Central amygdalar nucleus, lateral part
+created_by: telefont
+part_of: 536 ! Central amygdalar nucleus
+synonym: "CEAl" RELATED []
+
+[Term]
+id: 552
+name: Pontine reticular nucleus, ventral part
+created_by: telefont
+part_of: 987 ! Pons, motor related
+synonym: "PRNv" RELATED []
+
+[Term]
+id: 553
+name: dorsal spinocerebellar tract
+created_by: telefont
+part_of: 1123 ! inferior cerebellar peduncle
+synonym: "sctd" RELATED []
+
+[Term]
+id: 554
+name: Bed nuclei of the stria terminalis, anterior division, oval nucleus
+created_by: telefont
+part_of: 359 ! Bed nuclei of the stria terminalis, anterior division
+synonym: "BSTov" RELATED []
+
+[Term]
+id: 555
+name: Midbrain reticular nucleus, parvicellular part
+created_by: telefont
+part_of: 128 ! Midbrain reticular nucleus
+synonym: "MRNp" RELATED []
+
+[Term]
+id: 556
+name: Infralimbic area, layer 2/3
+created_by: telefont
+part_of: 44 ! Infralimbic area
+synonym: "ILA2/3" RELATED []
+
+[Term]
+id: 557
+name: Tuberomammillary nucleus
+created_by: telefont
+part_of: 331 ! Mammillary body
+synonym: "TM" RELATED []
+
+[Term]
+id: 558
+name: Primary somatosensory area, nose, layer 1
+created_by: telefont
+part_of: 353 ! Primary somatosensory area, nose
+synonym: "SSp-n1" RELATED []
+
+[Term]
+id: 559
+name: Central amygdalar nucleus, medial part
+created_by: telefont
+part_of: 536 ! Central amygdalar nucleus
+synonym: "CEAm" RELATED []
+
+[Term]
+id: 56
+name: Nucleus accumbens
+created_by: telefont
+part_of: 493 ! Striatum ventral region
+synonym: "ACB" RELATED []
+
+[Term]
+id: 560
+name: Cochlear nucleus, subpedunclular granular region
+created_by: telefont
+part_of: 607 ! Cochlear nuclei
+synonym: "CNspg" RELATED []
+
+[Term]
+id: 561
+name: Visual areas, layer 2/3
+created_by: telefont
+part_of: 669 ! Visual areas
+synonym: "VIS2/3" RELATED []
+
+[Term]
+id: 562
+name: Bed nuclei of the stria terminalis, anterior division, rhomboid nucleus
+created_by: telefont
+part_of: 359 ! Bed nuclei of the stria terminalis, anterior division
+synonym: "BSTrh" RELATED []
+
+[Term]
+id: 563
+name: dorsal tegmental tract
+created_by: telefont
+part_of: 70 ! midbrain related
+synonym: "dtt" RELATED []
+
+[Term]
+id: 564
+name: Medial septal nucleus
+created_by: telefont
+part_of: 904 ! Medial septal complex
+synonym: "MS" RELATED []
+
+[Term]
+id: 565
+name: posteromedial visual area, layer 5
+created_by: telefont
+part_of: 533 ! posteromedial visual area
+synonym: "VISpm5" RELATED []
+
+[Term]
+id: 566
+name: Postpiriform transition area
+created_by: telefont
+part_of: 698 ! Olfactory areas
+synonym: "TR" RELATED []
+
+[Term]
+id: 567
+name: Cerebrum
+created_by: telefont
+part_of: 8 ! Basic cell groups and regions
+synonym: "CH" RELATED []
+
+[Term]
+id: 568
+name: Accessory abducens nucleus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "ACVI" RELATED []
+
+[Term]
+id: 569
+name: Bed nuclei of the stria terminalis, posterior division, dorsal nucleus
+created_by: telefont
+part_of: 367 ! Bed nuclei of the stria terminalis, posterior division
+synonym: "BSTd" RELATED []
+
+[Term]
+id: 57
+name: paramedian sulcus
+created_by: telefont
+part_of: 1040 ! grooves of the cerebellar cortex
+synonym: "pms" RELATED []
+
+[Term]
+id: 570
+name: dorsolateral fascicle
+created_by: telefont
+part_of: 932 ! cervicothalamic tract
+synonym: "dl" RELATED []
+
+[Term]
+id: 571
+name: Midline group of the dorsal thalamus
+created_by: telefont
+part_of: 856 ! Thalamus, polymodal association cortex related
+synonym: "MTN" RELATED []
+
+[Term]
+id: 572
+name: Anterior cingulate area, layer 1
+created_by: telefont
+part_of: 31 ! Anterior cingulate area
+synonym: "ACA1" RELATED []
+
+[Term]
+id: 573
+name: Lateral visual area, layer 4
+created_by: telefont
+part_of: 409 ! Lateral visual area
+synonym: "VISl4" RELATED []
+
+[Term]
+id: 574
+name: Tegmental reticular nucleus
+created_by: telefont
+part_of: 987 ! Pons, motor related
+synonym: "TRN" RELATED []
+
+[Term]
+id: 575
+name: Central lateral nucleus of the thalamus
+created_by: telefont
+part_of: 51 ! Intralaminar nuclei of the dorsal thalamus
+synonym: "CL" RELATED []
+
+[Term]
+id: 576
+name: Accessory facial motor nucleus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "ACVII" RELATED []
+
+[Term]
+id: 577
+name: Primary somatosensory area, upper limb, layer 4
+created_by: telefont
+part_of: 369 ! Primary somatosensory area, upper limb
+synonym: "SSp-ul4" RELATED []
+
+[Term]
+id: 578
+name: Bed nuclei of the stria terminalis, posterior division, principal nucleus
+created_by: telefont
+part_of: 367 ! Bed nuclei of the stria terminalis, posterior division
+synonym: "BSTpr" RELATED []
+
+[Term]
+id: 579
+name: external capsule
+created_by: telefont
+part_of: 956 ! corpus callosum, anterior forceps
+synonym: "ec" RELATED []
+
+[Term]
+id: 58
+name: Medial terminal nucleus of the accessory optic tract
+created_by: telefont
+part_of: 323 ! Midbrain, motor related
+synonym: "MT" RELATED []
+
+[Term]
+id: 580
+name: Nucleus of the brachium of the inferior colliculus
+created_by: telefont
+part_of: 339 ! Midbrain, sensory related
+synonym: "NB" RELATED []
+
+[Term]
+id: 581
+name: Triangular nucleus of septum
+created_by: telefont
+part_of: 826 ! Pallidum, medial region
+synonym: "TRS" RELATED []
+
+[Term]
+id: 582
+name: Orbital area, medial part, layer 2/3
+created_by: telefont
+part_of: 731 ! Orbital area, medial part
+synonym: "ORBm2/3" RELATED []
+
+[Term]
+id: 583
+name: Claustrum
+created_by: telefont
+part_of: 703 ! Cortical subplate
+synonym: "CLA" RELATED []
+
+[Term]
+id: 584
+name: Cortical amygdalar area, posterior part, lateral zone, layers 1-2
+created_by: telefont
+part_of: 655 ! Cortical amygdalar area, posterior part, lateral zone
+synonym: "COApl1-2" RELATED []
+
+[Term]
+id: 585
+name: Bed nuclei of the stria terminalis, posterior division, interfascicular nucleus
+created_by: telefont
+part_of: 367 ! Bed nuclei of the stria terminalis, posterior division
+synonym: "BSTif" RELATED []
+
+[Term]
+id: 586
+name: fasciculus proprius
+created_by: telefont
+part_of: 932 ! cervicothalamic tract
+synonym: "fpr" RELATED []
+
+[Term]
+id: 587
+name: Nucleus of Darkschewitsch
+created_by: telefont
+part_of: 795 ! Periaqueductal gray
+synonym: "ND" RELATED []
+
+[Term]
+id: 588
+name: Anterior cingulate area, ventral part, layer 1
+created_by: telefont
+part_of: 48 ! Anterior cingulate area, ventral part
+synonym: "ACAv1" RELATED []
+
+[Term]
+id: 589
+name: Taenia tecta
+created_by: telefont
+part_of: 698 ! Olfactory areas
+synonym: "TT" RELATED []
+
+[Term]
+id: 59
+name: Intermediodorsal nucleus of the thalamus
+created_by: telefont
+part_of: 444 ! Medial group of the dorsal thalamus
+synonym: "IMD" RELATED []
+
+[Term]
+id: 590
+name: Retrosplenial area, ventral part, layer 6a
+created_by: telefont
+part_of: 886 ! Retrosplenial area, ventral part
+synonym: "RSPv6a" RELATED []
+
+[Term]
+id: 591
+name: Central linear nucleus raphe
+created_by: telefont
+part_of: 165 ! Midbrain raphe nuclei
+synonym: "CLI" RELATED []
+
+[Term]
+id: 592
+name: Cortical amygdalar area, posterior part, medial zone, layers 1-2
+created_by: telefont
+part_of: 663 ! Cortical amygdalar area, posterior part, medial zone
+synonym: "COApm1-2" RELATED []
+
+[Term]
+id: 593
+name: Primary visual area, layer 1
+created_by: telefont
+part_of: 385 ! Primary visual area
+synonym: "VISp1" RELATED []
+
+[Term]
+id: 594
+name: Bed nuclei of the stria terminalis, posterior division, transverse nucleus
+created_by: telefont
+part_of: 367 ! Bed nuclei of the stria terminalis, posterior division
+synonym: "BSTtr" RELATED []
+
+[Term]
+id: 595
+name: fasciculus retroflexus
+created_by: telefont
+part_of: 1083 ! epithalamus related
+synonym: "fr" RELATED []
+
+[Term]
+id: 596
+name: Diagonal band nucleus
+created_by: telefont
+part_of: 904 ! Medial septal complex
+synonym: "NDB" RELATED []
+
+[Term]
+id: 597
+name: Taenia tecta, dorsal part
+created_by: telefont
+part_of: 589 ! Taenia tecta
+synonym: "TTd" RELATED []
+
+[Term]
+id: 598
+name: Ventral auditory area, layer 6b
+created_by: telefont
+part_of: 1018 ! Ventral auditory area
+synonym: "AUDv6b" RELATED []
+
+[Term]
+id: 599
+name: Central medial nucleus of the thalamus
+created_by: telefont
+part_of: 51 ! Intralaminar nuclei of the dorsal thalamus
+synonym: "CM" RELATED []
+
+[Term]
+id: 6
+name: internal capsule
+created_by: telefont
+part_of: 784 ! corticospinal tract
+synonym: "int" RELATED []
+
+[Term]
+id: 60
+name: Entorhinal area, lateral part, layer 6b
+created_by: telefont
+part_of: 918 ! Entorhinal area, lateral part
+synonym: "ENTl6b" RELATED []
+
+[Term]
+id: 600
+name: Dorsal auditory area, layer 2/3
+created_by: telefont
+part_of: 1011 ! Dorsal auditory area
+synonym: "AUDd2/3" RELATED []
+
+[Term]
+id: 601
+name: Anterolateral visual area, layer 6a
+created_by: telefont
+part_of: 402 ! Anterolateral visual area
+synonym: "VISal6a" RELATED []
+
+[Term]
+id: 602
+name: Bed nuclei of the stria terminalis, posterior division, strial extension
+created_by: telefont
+part_of: 367 ! Bed nuclei of the stria terminalis, posterior division
+synonym: "BSTse" RELATED []
+
+[Term]
+id: 603
+name: fimbria
+created_by: telefont
+part_of: 1099 ! fornix system
+synonym: "fi" RELATED []
+
+[Term]
+id: 604
+name: Nucleus incertus
+created_by: telefont
+part_of: 1117 ! Pons, behavioral state related
+synonym: "NI" RELATED []
+
+[Term]
+id: 605
+name: Taenia tecta, ventral part
+created_by: telefont
+part_of: 589 ! Taenia tecta
+synonym: "TTv" RELATED []
+
+[Term]
+id: 606
+name: Retrosplenial area, ventral part, layer 2
+created_by: telefont
+part_of: 886 ! Retrosplenial area, ventral part
+synonym: "RSPv2" RELATED []
+
+[Term]
+id: 607
+name: Cochlear nuclei
+created_by: telefont
+part_of: 386 ! Medulla, sensory related
+synonym: "CN" RELATED []
+
+[Term]
+id: 608
+name: Orbital area, ventrolateral part, layer 6a
+created_by: telefont
+part_of: 746 ! Orbital area, ventrolateral part
+synonym: "ORBvl6a" RELATED []
+
+[Term]
+id: 609
+name: Subparafascicular area
+created_by: telefont
+part_of: 864 ! Thalamus, sensory-motor cortex related
+synonym: "SPA" RELATED []
+
+[Term]
+id: 61
+name: Spinal nucleus of the trigeminal, oral part, middle dorsomedial part, ventral zone
+created_by: telefont
+part_of: 445 ! Spinal nucleus of the trigeminal, oral part
+synonym: "SPVOmdmv" RELATED []
+
+[Term]
+id: 610
+name: Retrosplenial area, dorsal part, layer 5
+created_by: telefont
+part_of: 879 ! Retrosplenial area, dorsal part
+synonym: "RSPd5" RELATED []
+
+[Term]
+id: 611
+name: habenular commissure
+created_by: telefont
+part_of: 1083 ! epithalamus related
+synonym: "hbc" RELATED []
+
+[Term]
+id: 612
+name: Nucleus of the lateral lemniscus
+created_by: telefont
+part_of: 1132 ! Pons, sensory related
+synonym: "NLL" RELATED []
+
+[Term]
+id: 613
+name: Lateral visual area, layer 5
+created_by: telefont
+part_of: 409 ! Lateral visual area
+synonym: "VISl5" RELATED []
+
+[Term]
+id: 614
+name: Tuberal nucleus
+created_by: telefont
+part_of: 290 ! Hypothalamic lateral zone
+synonym: "TU" RELATED []
+
+[Term]
+id: 615
+name: Substantia nigra, lateral part
+created_by: telefont
+part_of: 323 ! Midbrain, motor related
+synonym: "SNl" RELATED []
+
+[Term]
+id: 616
+name: Cuneiform nucleus
+created_by: telefont
+part_of: 323 ! Midbrain, motor related
+synonym: "CUN" RELATED []
+
+[Term]
+id: 617
+name: Mediodorsal nucleus of the thalamus, central part
+created_by: telefont
+part_of: 362 ! Mediodorsal nucleus of thalamus
+synonym: "MDc" RELATED []
+
+[Term]
+id: 618
+name: hippocampal commissures
+created_by: telefont
+part_of: 1099 ! fornix system
+synonym: "hc" RELATED []
+
+[Term]
+id: 619
+name: Nucleus of the lateral olfactory tract
+created_by: telefont
+part_of: 698 ! Olfactory areas
+synonym: "NLOT" RELATED []
+
+[Term]
+id: 62
+name: medial longitudinal fascicle
+created_by: telefont
+part_of: 832 ! oculomotor nerve
+synonym: "mlf" RELATED []
+
+[Term]
+id: 620
+name: Orbital area, medial part, layer 5
+created_by: telefont
+part_of: 731 ! Orbital area, medial part
+synonym: "ORBm5" RELATED []
+
+[Term]
+id: 621
+name: Motor nucleus of trigeminal
+created_by: telefont
+part_of: 987 ! Pons, motor related
+synonym: "V" RELATED []
+
+[Term]
+id: 622
+name: Retrosplenial area, ventral part, layer 6b
+created_by: telefont
+part_of: 886 ! Retrosplenial area, ventral part
+synonym: "RSPv6b" RELATED []
+
+[Term]
+id: 623
+name: Cerebral nuclei
+created_by: telefont
+part_of: 567 ! Cerebrum
+synonym: "CNU" RELATED []
+
+[Term]
+id: 624
+name: Interpeduncular fossa
+created_by: telefont
+part_of: 1024 ! grooves
+synonym: "IPF" RELATED []
+
+[Term]
+id: 625
+name: Primary somatosensory area, upper limb, layer 5
+created_by: telefont
+part_of: 369 ! Primary somatosensory area, upper limb
+synonym: "SSp-ul5" RELATED []
+
+[Term]
+id: 626
+name: Mediodorsal nucleus of the thalamus, lateral part
+created_by: telefont
+part_of: 362 ! Mediodorsal nucleus of thalamus
+synonym: "MDl" RELATED []
+
+[Term]
+id: 627
+name: hypothalamohypophysial tract
+created_by: telefont
+part_of: 285 ! spinotelenchephalic pathway
+synonym: "hht" RELATED []
+
+[Term]
+id: 628
+name: Nucleus of the optic tract
+created_by: telefont
+part_of: 1100 ! Pretectal region
+synonym: "NOT" RELATED []
+
+[Term]
+id: 629
+name: Ventral anterior-lateral complex of the thalamus
+created_by: telefont
+part_of: 637 ! Ventral group of the dorsal thalamus
+synonym: "VAL" RELATED []
+
+[Term]
+id: 63
+name: Paraventricular hypothalamic nucleus, descending division
+created_by: telefont
+part_of: 467 ! Hypothalamic medial zone
+synonym: "PVHd" RELATED []
+
+[Term]
+id: 630
+name: Orbital area, lateral part, layer 5
+created_by: telefont
+part_of: 723 ! Orbital area, lateral part
+synonym: "ORBl5" RELATED []
+
+[Term]
+id: 631
+name: Cortical amygdalar area
+created_by: telefont
+part_of: 698 ! Olfactory areas
+synonym: "COA" RELATED []
+
+[Term]
+id: 632
+name: Dentate gyrus, granule cell layer
+created_by: telefont
+part_of: 726 ! Dentate gyrus
+synonym: "DG-sg" RELATED []
+
+[Term]
+id: 633
+name: inferior colliculus commissure
+created_by: telefont
+part_of: 948 ! cochlear nerve
+synonym: "cic" RELATED []
+
+[Term]
+id: 634
+name: Nucleus of the posterior commissure
+created_by: telefont
+part_of: 1100 ! Pretectal region
+synonym: "NPC" RELATED []
+
+[Term]
+id: 635
+name: Posterior parietal association areas, layer 4
+created_by: telefont
+part_of: 22 ! Posterior parietal association areas
+synonym: "PTLp4" RELATED []
+
+[Term]
+id: 636
+name: Mediodorsal nucleus of the thalamus, medial part
+created_by: telefont
+part_of: 362 ! Mediodorsal nucleus of thalamus
+synonym: "MDm" RELATED []
+
+[Term]
+id: 637
+name: Ventral group of the dorsal thalamus
+created_by: telefont
+part_of: 864 ! Thalamus, sensory-motor cortex related
+synonym: "VENT" RELATED []
+
+[Term]
+id: 638
+name: Gustatory areas, layer 6a
+created_by: telefont
+part_of: 1057 ! Gustatory areas
+synonym: "GU6a" RELATED []
+
+[Term]
+id: 639
+name: Cortical amygdalar area, anterior part
+created_by: telefont
+part_of: 631 ! Cortical amygdalar area
+synonym: "COAa" RELATED []
+
+[Term]
+id: 64
+name: Anterodorsal nucleus
+created_by: telefont
+part_of: 239 ! Anterior group of the dorsal thalamus
+synonym: "AD" RELATED []
+
+[Term]
+id: 640
+name: Efferent vestibular nucleus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "EV" RELATED []
+
+[Term]
+id: 641
+name: intermediate acoustic stria
+created_by: telefont
+part_of: 948 ! cochlear nerve
+synonym: "ias" RELATED []
+
+[Term]
+id: 642
+name: Nucleus of the trapezoid body
+created_by: telefont
+part_of: 386 ! Medulla, sensory related
+synonym: "NTB" RELATED []
+
+[Term]
+id: 643
+name: Posterior auditory area, layer 2/3
+created_by: telefont
+part_of: 1027 ! Posterior auditory area
+synonym: "AUDpo2/3" RELATED []
+
+[Term]
+id: 644
+name: Somatomotor areas, Layer 6a
+created_by: telefont
+part_of: 500 ! Somatomotor areas
+synonym: "MO6a" RELATED []
+
+[Term]
+id: 645
+name: Vermal regions
+created_by: telefont
+part_of: 528 ! Cerebellar cortex
+synonym: "VERM" RELATED []
+
+[Term]
+id: 646
+name: Dorsal peduncular area, layer 5
+created_by: telefont
+part_of: 814 ! Dorsal peduncular area
+synonym: "DP5" RELATED []
+
+[Term]
+id: 647
+name: Cortical amygdalar area, posterior part
+created_by: telefont
+part_of: 631 ! Cortical amygdalar area
+synonym: "COAp" RELATED []
+
+[Term]
+id: 648
+name: Primary motor area, Layer 5
+created_by: telefont
+part_of: 985 ! Primary motor area
+synonym: "MOp5" RELATED []
+
+[Term]
+id: 649
+name: Anterolateral visual area, layer 6b
+created_by: telefont
+part_of: 402 ! Anterolateral visual area
+synonym: "VISal6b" RELATED []
+
+[Term]
+id: 65
+name: parafloccular sulcus
+created_by: telefont
+part_of: 1040 ! grooves of the cerebellar cortex
+synonym: "pfs" RELATED []
+
+[Term]
+id: 650
+name: juxtarestiform body
+created_by: telefont
+part_of: 1123 ! inferior cerebellar peduncle
+synonym: "jrb" RELATED []
+
+[Term]
+id: 651
+name: Nucleus of the solitary tract
+created_by: telefont
+part_of: 386 ! Medulla, sensory related
+synonym: "NTS" RELATED []
+
+[Term]
+id: 652
+name: Paraventricular hypothalamic nucleus, magnocellular division, posterior magnocellular part, lateral zone
+created_by: telefont
+part_of: 103 ! Paraventricular hypothalamic nucleus, magnocellular division, posterior magnocellular part
+synonym: "PVHpml" RELATED []
+
+[Term]
+id: 653
+name: Abducens nucleus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "VI" RELATED []
+
+[Term]
+id: 654
+name: Primary somatosensory area, nose, layer 4
+created_by: telefont
+part_of: 353 ! Primary somatosensory area, nose
+synonym: "SSp-n4" RELATED []
+
+[Term]
+id: 655
+name: Cortical amygdalar area, posterior part, lateral zone
+created_by: telefont
+part_of: 647 ! Cortical amygdalar area, posterior part
+synonym: "COApl" RELATED []
+
+[Term]
+id: 656
+name: Secondary motor area, layer 1
+created_by: telefont
+part_of: 993 ! Secondary motor area
+synonym: "MOs1" RELATED []
+
+[Term]
+id: 657
+name: Primary somatosensory area, mouth, layer 2/3
+created_by: telefont
+part_of: 345 ! Primary somatosensory area, mouth
+synonym: "SSp-m2/3" RELATED []
+
+[Term]
+id: 658
+name: lateral lemniscus
+created_by: telefont
+part_of: 948 ! cochlear nerve
+synonym: "ll" RELATED []
+
+[Term]
+id: 659
+name: Nucleus of the solitary tract, central part
+created_by: telefont
+part_of: 651 ! Nucleus of the solitary tract
+synonym: "NTSce" RELATED []
+
+[Term]
+id: 66
+name: Lateral terminal nucleus of the accessory optic tract
+created_by: telefont
+part_of: 323 ! Midbrain, motor related
+synonym: "LT" RELATED []
+
+[Term]
+id: 660
+name: Paraventricular hypothalamic nucleus, magnocellular division, posterior magnocellular part, medial zone
+created_by: telefont
+part_of: 103 ! Paraventricular hypothalamic nucleus, magnocellular division, posterior magnocellular part
+synonym: "PVHpmm" RELATED []
+
+[Term]
+id: 661
+name: Facial motor nucleus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "VII" RELATED []
+
+[Term]
+id: 662
+name: Gustatory areas, layer 6b
+created_by: telefont
+part_of: 1057 ! Gustatory areas
+synonym: "GU6b" RELATED []
+
+[Term]
+id: 663
+name: Cortical amygdalar area, posterior part, medial zone
+created_by: telefont
+part_of: 647 ! Cortical amygdalar area, posterior part
+synonym: "COApm" RELATED []
+
+[Term]
+id: 664
+name: Entorhinal area, medial part, dorsal zone, layer 3
+created_by: telefont
+part_of: 926 ! Entorhinal area, medial part, dorsal zone
+synonym: "ENTm3" RELATED []
+
+[Term]
+id: 665
+name: lateral olfactory tract, body
+created_by: telefont
+part_of: 21 ! lateral olfactory tract, general
+synonym: "lot" RELATED []
+
+[Term]
+id: 666
+name: Nucleus of the solitary tract, commissural part
+created_by: telefont
+part_of: 651 ! Nucleus of the solitary tract
+synonym: "NTSco" RELATED []
+
+[Term]
+id: 667
+name: Frontal pole, layer 2/3
+created_by: telefont
+part_of: 184 ! Frontal pole, cerebral cortex
+synonym: "FRP2/3" RELATED []
+
+[Term]
+id: 668
+name: Dorsomedial nucleus of the hypothalamus, anterior part
+created_by: telefont
+part_of: 830 ! Dorsomedial nucleus of the hypothalamus
+synonym: "DMHa" RELATED []
+
+[Term]
+id: 669
+name: Visual areas
+created_by: telefont
+part_of: 315 ! Isocortex
+synonym: "VIS" RELATED []
+
+[Term]
+id: 67
+name: Interstitial nucleus of Cajal
+created_by: telefont
+part_of: 795 ! Periaqueductal gray
+synonym: "INC" RELATED []
+
+[Term]
+id: 670
+name: Primary somatosensory area, trunk, layer 2/3
+created_by: telefont
+part_of: 361 ! Primary somatosensory area, trunk
+synonym: "SSp-tr2/3" RELATED []
+
+[Term]
+id: 671
+name: Retrosplenial area, lateral agranular part, layer 1
+created_by: telefont
+part_of: 894 ! Retrosplenial area, lateral agranular part
+synonym: "RSPagl1" RELATED []
+
+[Term]
+id: 672
+name: Caudoputamen
+created_by: telefont
+part_of: 485 ! Striatum dorsal region
+synonym: "CP" RELATED []
+
+[Term]
+id: 673
+name: mammillary peduncle
+created_by: telefont
+part_of: 46 ! mammillary related
+synonym: "mp" RELATED []
+
+[Term]
+id: 674
+name: Nucleus of the solitary tract, gelatinous part
+created_by: telefont
+part_of: 651 ! Nucleus of the solitary tract
+synonym: "NTSge" RELATED []
+
+[Term]
+id: 675
+name: Agranular insular area, ventral part, layer 6a
+created_by: telefont
+part_of: 119 ! Agranular insular area, ventral part
+synonym: "AIv6a" RELATED []
+
+[Term]
+id: 676
+name: Dorsomedial nucleus of the hypothalamus, posterior part
+created_by: telefont
+part_of: 830 ! Dorsomedial nucleus of the hypothalamus
+synonym: "DMHp" RELATED []
+
+[Term]
+id: 677
+name: Visceral area
+created_by: telefont
+part_of: 315 ! Isocortex
+synonym: "VISC" RELATED []
+
+[Term]
+id: 678
+name: Dorsal auditory area, layer 4
+created_by: telefont
+part_of: 1011 ! Dorsal auditory area
+synonym: "AUDd4" RELATED []
+
+[Term]
+id: 679
+name: Superior central nucleus raphe
+created_by: telefont
+part_of: 1117 ! Pons, behavioral state related
+synonym: "CS" RELATED []
+
+[Term]
+id: 68
+name: Frontal pole, layer 1
+created_by: telefont
+part_of: 184 ! Frontal pole, cerebral cortex
+synonym: "FRP1" RELATED []
+
+[Term]
+id: 680
+name: Orbital area, ventrolateral part, layer 6b
+created_by: telefont
+part_of: 746 ! Orbital area, ventrolateral part
+synonym: "ORBvl6b" RELATED []
+
+[Term]
+id: 681
+name: mammillotegmental tract
+created_by: telefont
+part_of: 46 ! mammillary related
+synonym: "mtg" RELATED []
+
+[Term]
+id: 682
+name: Nucleus of the solitary tract, lateral part
+created_by: telefont
+part_of: 651 ! Nucleus of the solitary tract
+synonym: "NTSl" RELATED []
+
+[Term]
+id: 683
+name: Posterior parietal association areas, layer 5
+created_by: telefont
+part_of: 22 ! Posterior parietal association areas
+synonym: "PTLp5" RELATED []
+
+[Term]
+id: 684
+name: Dorsomedial nucleus of the hypothalamus, ventral part
+created_by: telefont
+part_of: 830 ! Dorsomedial nucleus of the hypothalamus
+synonym: "DMHv" RELATED []
+
+[Term]
+id: 685
+name: Ventral medial nucleus of the thalamus
+created_by: telefont
+part_of: 637 ! Ventral group of the dorsal thalamus
+synonym: "VM" RELATED []
+
+[Term]
+id: 686
+name: Primary somatosensory area, layer 6a
+created_by: telefont
+part_of: 322 ! Primary somatosensory area
+synonym: "SSp6a" RELATED []
+
+[Term]
+id: 687
+name: Retrosplenial area, ventral part, layer 5
+created_by: telefont
+part_of: 886 ! Retrosplenial area, ventral part
+synonym: "RSPv5" RELATED []
+
+[Term]
+id: 688
+name: Cerebral cortex
+created_by: telefont
+part_of: 567 ! Cerebrum
+synonym: "CTX" RELATED []
+
+[Term]
+id: 689
+name: Ventrolateral preoptic nucleus
+created_by: telefont
+part_of: 141 ! Periventricular region
+synonym: "VLPO" RELATED []
+
+[Term]
+id: 69
+name: Spinal nucleus of the trigeminal, oral part, ventrolateral part
+created_by: telefont
+part_of: 445 ! Spinal nucleus of the trigeminal, oral part
+synonym: "SPVOvl" RELATED []
+
+[Term]
+id: 690
+name: mammilothalmic tract
+created_by: telefont
+part_of: 46 ! mammillary related
+synonym: "mtt" RELATED []
+
+[Term]
+id: 691
+name: Nucleus of the solitary tract, medial part
+created_by: telefont
+part_of: 651 ! Nucleus of the solitary tract
+synonym: "NTSm" RELATED []
+
+[Term]
+id: 692
+name: Perirhinal area, layer 5
+created_by: telefont
+part_of: 922 ! Perirhinal area
+synonym: "PERI5" RELATED []
+
+[Term]
+id: 693
+name: Ventromedial hypothalamic nucleus
+created_by: telefont
+part_of: 467 ! Hypothalamic medial zone
+synonym: "VMH" RELATED []
+
+[Term]
+id: 694
+name: Agranular insular area, ventral part, layer 2/3
+created_by: telefont
+part_of: 119 ! Agranular insular area, ventral part
+synonym: "AIv2/3" RELATED []
+
+[Term]
+id: 695
+name: Cortical plate
+created_by: telefont
+part_of: 688 ! Cerebral cortex
+synonym: "CTXpl" RELATED []
+
+[Term]
+id: 696
+name: Posterior auditory area, layer 1
+created_by: telefont
+part_of: 1027 ! Posterior auditory area
+synonym: "AUDpo1" RELATED []
+
+[Term]
+id: 697
+name: medial lemniscus
+created_by: telefont
+part_of: 932 ! cervicothalamic tract
+synonym: "ml" RELATED []
+
+[Term]
+id: 698
+name: Olfactory areas
+created_by: telefont
+part_of: 695 ! Cortical plate
+synonym: "OLF" RELATED []
+
+[Term]
+id: 699
+name: Agranular insular area, ventral part, layer 6b
+created_by: telefont
+part_of: 119 ! Agranular insular area, ventral part
+synonym: "AIv6b" RELATED []
+
+[Term]
+id: 7
+name: Principal sensory nucleus of the trigeminal
+created_by: telefont
+part_of: 1132 ! Pons, sensory related
+synonym: "PSV" RELATED []
+
+[Term]
+id: 70
+name: midbrain related
+created_by: telefont
+part_of: 824 ! hypothalamus related
+synonym: "mfbsm" RELATED []
+
+[Term]
+id: 700
+name: Anterior hypothalamic nucleus, anterior part
+created_by: telefont
+part_of: 88 ! Anterior hypothalamic nucleus
+synonym: "AHNa" RELATED []
+
+[Term]
+id: 701
+name: Vestibular nuclei
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "VNC" RELATED []
+
+[Term]
+id: 702
+name: Primary somatosensory area, nose, layer 5
+created_by: telefont
+part_of: 353 ! Primary somatosensory area, nose
+synonym: "SSp-n5" RELATED []
+
+[Term]
+id: 703
+name: Cortical subplate
+created_by: telefont
+part_of: 688 ! Cerebral cortex
+synonym: "CTXsp" RELATED []
+
+[Term]
+id: 704
+name: Agranular insular area, ventral part, layer 1
+created_by: telefont
+part_of: 119 ! Agranular insular area, ventral part
+synonym: "AIv1" RELATED []
+
+[Term]
+id: 705
+name: midbrain tract of the trigeminal nerve
+created_by: telefont
+part_of: 229 ! sensory root of the trigeminal nerve
+synonym: "mtV" RELATED []
+
+[Term]
+id: 706
+name: Olivary pretectal nucleus
+created_by: telefont
+part_of: 1100 ! Pretectal region
+synonym: "OP" RELATED []
+
+[Term]
+id: 707
+name: Infralimbic area, layer 1
+created_by: telefont
+part_of: 44 ! Infralimbic area
+synonym: "ILA1" RELATED []
+
+[Term]
+id: 708
+name: Anterior hypothalamic nucleus, central part
+created_by: telefont
+part_of: 88 ! Anterior hypothalamic nucleus
+synonym: "AHNc" RELATED []
+
+[Term]
+id: 709
+name: Ventral posterior complex of the thalamus
+created_by: telefont
+part_of: 637 ! Ventral group of the dorsal thalamus
+synonym: "VP" RELATED []
+
+[Term]
+id: 71
+name: Paraventricular hypothalamic nucleus, magnocellular division
+created_by: telefont
+part_of: 38 ! Paraventricular hypothalamic nucleus
+synonym: "PVHm" RELATED []
+
+[Term]
+id: 710
+name: abducens nerve
+created_by: telefont
+part_of: 967 ! cranial nerves
+synonym: "VIn" RELATED []
+
+[Term]
+id: 711
+name: Cuneate nucleus
+created_by: telefont
+part_of: 720 ! Dorsal column nuclei
+synonym: "CU" RELATED []
+
+[Term]
+id: 712
+name: Entorhinal area, medial part, dorsal zone, layer 4
+created_by: telefont
+part_of: 926 ! Entorhinal area, medial part, dorsal zone
+synonym: "ENTm4" RELATED []
+
+[Term]
+id: 713
+name: perforant path
+created_by: telefont
+part_of: 1099 ! fornix system
+synonym: "per" RELATED []
+
+[Term]
+id: 714
+name: Orbital area
+created_by: telefont
+part_of: 315 ! Isocortex
+synonym: "ORB" RELATED []
+
+[Term]
+id: 715
+name: Entorhinal area, lateral part, layer 2a
+created_by: telefont
+part_of: 918 ! Entorhinal area, lateral part
+synonym: "ENTl2a" RELATED []
+
+[Term]
+id: 716
+name: Anterior hypothalamic nucleus, dorsal part
+created_by: telefont
+part_of: 88 ! Anterior hypothalamic nucleus
+synonym: "AHNd" RELATED []
+
+[Term]
+id: 717
+name: accessory spinal nerve
+created_by: telefont
+part_of: 967 ! cranial nerves
+synonym: "XIn" RELATED []
+
+[Term]
+id: 718
+name: Ventral posterolateral nucleus of the thalamus
+created_by: telefont
+part_of: 709 ! Ventral posterior complex of the thalamus
+synonym: "VPL" RELATED []
+
+[Term]
+id: 719
+name: Primary somatosensory area, layer 6b
+created_by: telefont
+part_of: 322 ! Primary somatosensory area
+synonym: "SSp6b" RELATED []
+
+[Term]
+id: 72
+name: Anterodorsal preoptic nucleus
+created_by: telefont
+part_of: 141 ! Periventricular region
+synonym: "ADP" RELATED []
+
+[Term]
+id: 720
+name: Dorsal column nuclei
+created_by: telefont
+part_of: 386 ! Medulla, sensory related
+synonym: "DCN" RELATED []
+
+[Term]
+id: 721
+name: Primary visual area, layer 4
+created_by: telefont
+part_of: 385 ! Primary visual area
+synonym: "VISp4" RELATED []
+
+[Term]
+id: 722
+name: periventricular bundle of the thalamus
+created_by: telefont
+part_of: 1068 ! dorsal thalamus related
+synonym: "pvbt" RELATED []
+
+[Term]
+id: 723
+name: Orbital area, lateral part
+created_by: telefont
+part_of: 714 ! Orbital area
+synonym: "ORBl" RELATED []
+
+[Term]
+id: 724
+name: Anterior hypothalamic nucleus, posterior part
+created_by: telefont
+part_of: 88 ! Anterior hypothalamic nucleus
+synonym: "AHNp" RELATED []
+
+[Term]
+id: 725
+name: Ventral posterolateral nucleus of the thalamus, parvicellular part
+created_by: telefont
+part_of: 709 ! Ventral posterior complex of the thalamus
+synonym: "VPLpc" RELATED []
+
+[Term]
+id: 726
+name: Dentate gyrus
+created_by: telefont
+part_of: 1080 ! Hippocampal region
+synonym: "DG" RELATED []
+
+[Term]
+id: 727
+name: Entorhinal area, medial part, dorsal zone, layer 5
+created_by: telefont
+part_of: 926 ! Entorhinal area, medial part, dorsal zone
+synonym: "ENTm5" RELATED []
+
+[Term]
+id: 728
+name: arbor vitae
+created_by: telefont
+part_of: 960 ! cerebellum related fiber tracts
+synonym: "arb" RELATED []
+
+[Term]
+id: 729
+name: Temporal association areas, layer 6a
+created_by: telefont
+part_of: 541 ! Temporal association areas
+synonym: "TEa6a" RELATED []
+
+[Term]
+id: 73
+name: ventricular systems
+created_by: telefont
+part_of: 997 ! root
+synonym: "VS" RELATED []
+
+[Term]
+id: 730
+name: pineal stalk
+created_by: telefont
+part_of: 1083 ! epithalamus related
+synonym: "PIS" RELATED []
+
+[Term]
+id: 731
+name: Orbital area, medial part
+created_by: telefont
+part_of: 714 ! Orbital area
+synonym: "ORBm" RELATED []
+
+[Term]
+id: 732
+name: Medial mammillary nucleus, median part
+created_by: telefont
+part_of: 491 ! Medial mammillary nucleus
+synonym: "Mmme" RELATED []
+
+[Term]
+id: 733
+name: Ventral posteromedial nucleus of the thalamus
+created_by: telefont
+part_of: 709 ! Ventral posterior complex of the thalamus
+synonym: "VPM" RELATED []
+
+[Term]
+id: 734
+name: Dentate gyrus crest
+created_by: telefont
+part_of: 726 ! Dentate gyrus
+synonym: "DGcr" RELATED []
+
+[Term]
+id: 735
+name: Primary auditory area, layer 1
+created_by: telefont
+part_of: 1002 ! Primary auditory area
+synonym: "AUDp1" RELATED []
+
+[Term]
+id: 736
+name: central tegmental bundle
+created_by: telefont
+part_of: 1000 ! extrapyramidal fiber systems
+synonym: "ctb" RELATED []
+
+[Term]
+id: 737
+name: postcommissural fornix
+created_by: telefont
+part_of: 1099 ! fornix system
+synonym: "fxpo" RELATED []
+
+[Term]
+id: 738
+name: Orbital area, ventral part
+created_by: telefont
+part_of: 714 ! Orbital area
+synonym: "ORBv" RELATED []
+
+[Term]
+id: 739
+name: Anterior cingulate area, layer 5
+created_by: telefont
+part_of: 31 ! Anterior cingulate area
+synonym: "ACA5" RELATED []
+
+[Term]
+id: 74
+name: Lateral visual area, layer 6a
+created_by: telefont
+part_of: 409 ! Lateral visual area
+synonym: "VISl6a" RELATED []
+
+[Term]
+id: 740
+name: Medial preoptic nucleus, central part
+created_by: telefont
+part_of: 515 ! Medial preoptic nucleus
+synonym: "MPNc" RELATED []
+
+[Term]
+id: 741
+name: Ventral posteromedial nucleus of the thalamus, parvicellular part
+created_by: telefont
+part_of: 709 ! Ventral posterior complex of the thalamus
+synonym: "VPMpc" RELATED []
+
+[Term]
+id: 742
+name: Dentate gyrus crest, molecular layer
+created_by: telefont
+part_of: 734 ! Dentate gyrus crest
+synonym: "DGcr-mo" RELATED []
+
+[Term]
+id: 743
+name: Entorhinal area, medial part, dorsal zone, layer 6
+created_by: telefont
+part_of: 926 ! Entorhinal area, medial part, dorsal zone
+synonym: "ENTm6" RELATED []
+
+[Term]
+id: 744
+name: cerebellar commissure
+created_by: telefont
+part_of: 960 ! cerebellum related fiber tracts
+synonym: "cbc" RELATED []
+
+[Term]
+id: 745
+name: precommissural fornix, general
+created_by: telefont
+part_of: 1099 ! fornix system
+synonym: "fxprg" RELATED []
+
+[Term]
+id: 746
+name: Orbital area, ventrolateral part
+created_by: telefont
+part_of: 714 ! Orbital area
+synonym: "ORBvl" RELATED []
+
+[Term]
+id: 747
+name: Infralimbic area, layer 2
+created_by: telefont
+part_of: 44 ! Infralimbic area
+synonym: "ILA2" RELATED []
+
+[Term]
+id: 748
+name: Medial preoptic nucleus, lateral part
+created_by: telefont
+part_of: 515 ! Medial preoptic nucleus
+synonym: "MPNl" RELATED []
+
+[Term]
+id: 749
+name: Ventral tegmental area
+created_by: telefont
+part_of: 323 ! Midbrain, motor related
+synonym: "VTA" RELATED []
+
+[Term]
+id: 75
+name: Dorsal terminal nucleus of the accessory optic tract
+created_by: telefont
+part_of: 323 ! Midbrain, motor related
+synonym: "DT" RELATED []
+
+[Term]
+id: 750
+name: Posterolateral visual area, layer 1
+created_by: telefont
+part_of: 425 ! Posterolateral visual area
+synonym: "VISpl1" RELATED []
+
+[Term]
+id: 751
+name: Dentate gyrus crest, polymorph layer
+created_by: telefont
+part_of: 734 ! Dentate gyrus crest
+synonym: "DGcr-po" RELATED []
+
+[Term]
+id: 752
+name: cerebellar peduncles
+created_by: telefont
+part_of: 960 ! cerebellum related fiber tracts
+synonym: "cbp" RELATED []
+
+[Term]
+id: 753
+name: principal mammillary tract
+created_by: telefont
+part_of: 46 ! mammillary related
+synonym: "pm" RELATED []
+
+[Term]
+id: 754
+name: Olfactory tubercle
+created_by: telefont
+part_of: 493 ! Striatum ventral region
+synonym: "OT" RELATED []
+
+[Term]
+id: 755
+name: Ventral auditory area, layer 2/3
+created_by: telefont
+part_of: 1018 ! Ventral auditory area
+synonym: "AUDv2/3" RELATED []
+
+[Term]
+id: 756
+name: Medial preoptic nucleus, medial part
+created_by: telefont
+part_of: 515 ! Medial preoptic nucleus
+synonym: "MPNm" RELATED []
+
+[Term]
+id: 757
+name: Ventral tegmental nucleus
+created_by: telefont
+part_of: 323 ! Midbrain, motor related
+synonym: "VTN" RELATED []
+
+[Term]
+id: 758
+name: Dentate gyrus crest, granule cell layer
+created_by: telefont
+part_of: 734 ! Dentate gyrus crest
+synonym: "DGcr-sg" RELATED []
+
+[Term]
+id: 759
+name: Posterior auditory area, layer 4
+created_by: telefont
+part_of: 1027 ! Posterior auditory area
+synonym: "AUDpo4" RELATED []
+
+[Term]
+id: 76
+name: Interstitial nucleus of the vestibular nerve
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "INV" RELATED []
+
+[Term]
+id: 760
+name: cerebral nuclei related
+created_by: telefont
+part_of: 1000 ! extrapyramidal fiber systems
+synonym: "epsc" RELATED []
+
+[Term]
+id: 761
+name: Ventromedial hypothalamic nucleus, anterior part
+created_by: telefont
+part_of: 693 ! Ventromedial hypothalamic nucleus
+synonym: "VMHa" RELATED []
+
+[Term]
+id: 762
+name: propriohypothalamic pathways, dorsal
+created_by: telefont
+part_of: 182 ! propriohypothalamic pathways
+synonym: "phpd" RELATED []
+
+[Term]
+id: 763
+name: Vascular organ of the lamina terminalis
+created_by: telefont
+part_of: 141 ! Periventricular region
+synonym: "OV" RELATED []
+
+[Term]
+id: 764
+name: Entorhinal area, lateral part, layer 2b
+created_by: telefont
+part_of: 918 ! Entorhinal area, lateral part
+synonym: "ENTl2b" RELATED []
+
+[Term]
+id: 765
+name: Nucleus x
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "x" RELATED []
+
+[Term]
+id: 766
+name: Dentate gyrus lateral blade
+created_by: telefont
+part_of: 726 ! Dentate gyrus
+synonym: "DGlb" RELATED []
+
+[Term]
+id: 767
+name: Secondary motor area, layer 5
+created_by: telefont
+part_of: 993 ! Secondary motor area
+synonym: "MOs5" RELATED []
+
+[Term]
+id: 768
+name: cerebrum related
+created_by: telefont
+part_of: 991 ! medial forebrain bundle system
+synonym: "mfbc" RELATED []
+
+[Term]
+id: 769
+name: Ventromedial hypothalamic nucleus, central part
+created_by: telefont
+part_of: 693 ! Ventromedial hypothalamic nucleus
+synonym: "VMHc" RELATED []
+
+[Term]
+id: 77
+name: Spinal nucleus of the trigeminal, oral part, caudal dorsomedial part
+created_by: telefont
+part_of: 445 ! Spinal nucleus of the trigeminal, oral part
+synonym: "SPVOcdm" RELATED []
+
+[Term]
+id: 770
+name: propriohypothalamic pathways, lateral
+created_by: telefont
+part_of: 182 ! propriohypothalamic pathways
+synonym: "phpl" RELATED []
+
+[Term]
+id: 771
+name: Pons
+created_by: telefont
+part_of: 1065 ! Hindbrain
+synonym: "P" RELATED []
+
+[Term]
+id: 772
+name: Anterior cingulate area, ventral part, layer 5
+created_by: telefont
+part_of: 48 ! Anterior cingulate area, ventral part
+synonym: "ACAv5" RELATED []
+
+[Term]
+id: 773
+name: Hypoglossal nucleus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "XII" RELATED []
+
+[Term]
+id: 774
+name: Retrosplenial area, lateral agranular part, layer 5
+created_by: telefont
+part_of: 894 ! Retrosplenial area, lateral agranular part
+synonym: "RSPagl5" RELATED []
+
+[Term]
+id: 775
+name: Dentate gyrus lateral blade, molecular layer
+created_by: telefont
+part_of: 766 ! Dentate gyrus lateral blade
+synonym: "DGlb-mo" RELATED []
+
+[Term]
+id: 776
+name: corpus callosum
+created_by: telefont
+part_of: 983 ! lateral forebrain bundle system
+synonym: "cc" RELATED []
+
+[Term]
+id: 777
+name: Ventromedial hypothalamic nucleus, dorsomedial part
+created_by: telefont
+part_of: 693 ! Ventromedial hypothalamic nucleus
+synonym: "VMHdm" RELATED []
+
+[Term]
+id: 778
+name: Primary visual area, layer 5
+created_by: telefont
+part_of: 385 ! Primary visual area
+synonym: "VISp5" RELATED []
+
+[Term]
+id: 779
+name: propriohypothalamic pathways, medial
+created_by: telefont
+part_of: 182 ! propriohypothalamic pathways
+synonym: "phpm" RELATED []
+
+[Term]
+id: 78
+name: middle cerebellar peduncle
+created_by: telefont
+part_of: 752 ! cerebellar peduncles
+synonym: "mcp" RELATED []
+
+[Term]
+id: 780
+name: Posterior amygdalar nucleus
+created_by: telefont
+part_of: 703 ! Cortical subplate
+synonym: "PA" RELATED []
+
+[Term]
+id: 781
+name: Nucleus y
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "y" RELATED []
+
+[Term]
+id: 782
+name: Dentate gyrus lateral blade, polymorph layer
+created_by: telefont
+part_of: 766 ! Dentate gyrus lateral blade
+synonym: "DGlb-po" RELATED []
+
+[Term]
+id: 783
+name: Agranular insular area, dorsal part, layer 6a
+created_by: telefont
+part_of: 104 ! Agranular insular area, dorsal part
+synonym: "AId6a" RELATED []
+
+[Term]
+id: 784
+name: corticospinal tract
+created_by: telefont
+part_of: 983 ! lateral forebrain bundle system
+synonym: "cst" RELATED []
+
+[Term]
+id: 785
+name: Ventromedial hypothalamic nucleus, ventrolateral part
+created_by: telefont
+part_of: 693 ! Ventromedial hypothalamic nucleus
+synonym: "VMHvl" RELATED []
+
+[Term]
+id: 786
+name: Temporal association areas, layer 6b
+created_by: telefont
+part_of: 541 ! Temporal association areas
+synonym: "TEa6b" RELATED []
+
+[Term]
+id: 787
+name: propriohypothalamic pathways, ventral
+created_by: telefont
+part_of: 182 ! propriohypothalamic pathways
+synonym: "phpv" RELATED []
+
+[Term]
+id: 788
+name: Piriform-amygdalar area
+created_by: telefont
+part_of: 698 ! Olfactory areas
+synonym: "PAA" RELATED []
+
+[Term]
+id: 789
+name: Nucleus z
+created_by: telefont
+part_of: 386 ! Medulla, sensory related
+synonym: "z" RELATED []
+
+[Term]
+id: 79
+name: Paraventricular hypothalamic nucleus, magnocellular division, medial magnocellular part
+created_by: telefont
+part_of: 71 ! Paraventricular hypothalamic nucleus, magnocellular division
+synonym: "PVHmm" RELATED []
+
+[Term]
+id: 790
+name: Dentate gyrus lateral blade, granule cell layer
+created_by: telefont
+part_of: 766 ! Dentate gyrus lateral blade
+synonym: "DGlb-sg" RELATED []
+
+[Term]
+id: 791
+name: Posterior auditory area, layer 5
+created_by: telefont
+part_of: 1027 ! Posterior auditory area
+synonym: "AUDpo5" RELATED []
+
+[Term]
+id: 792
+name: dorsal roots
+created_by: telefont
+part_of: 967 ! cranial nerves
+synonym: "drt" RELATED []
+
+[Term]
+id: 793
+name: Primary somatosensory area, layer 1
+created_by: telefont
+part_of: 322 ! Primary somatosensory area
+synonym: "SSp1" RELATED []
+
+[Term]
+id: 794
+name: spinal tract of the trigeminal nerve
+created_by: telefont
+part_of: 229 ! sensory root of the trigeminal nerve
+synonym: "sptV" RELATED []
+
+[Term]
+id: 795
+name: Periaqueductal gray
+created_by: telefont
+part_of: 323 ! Midbrain, motor related
+synonym: "PAG" RELATED []
+
+[Term]
+id: 796
+name: Dopaminergic A13 group
+created_by: telefont
+part_of: 797 ! Zona incerta
+synonym: "A13" RELATED []
+
+[Term]
+id: 797
+name: Zona incerta
+created_by: telefont
+part_of: 290 ! Hypothalamic lateral zone
+synonym: "ZI" RELATED []
+
+[Term]
+id: 798
+name: facial nerve
+created_by: telefont
+part_of: 967 ! cranial nerves
+synonym: "VIIn" RELATED []
+
+[Term]
+id: 799
+name: Dentate gyrus medial blade
+created_by: telefont
+part_of: 726 ! Dentate gyrus
+synonym: "DGmb" RELATED []
+
+[Term]
+id: 8
+name: Basic cell groups and regions
+created_by: telefont
+part_of: 997 ! root
+synonym: "grey" RELATED []
+
+[Term]
+id: 80
+name: Anterior hypothalamic area
+created_by: telefont
+part_of: 141 ! Periventricular region
+synonym: "AHA" RELATED []
+
+[Term]
+id: 800
+name: Agranular insular area, ventral part, layer 5
+created_by: telefont
+part_of: 119 ! Agranular insular area, ventral part
+synonym: "AIv5" RELATED []
+
+[Term]
+id: 801
+name: Visual areas, layer 1
+created_by: telefont
+part_of: 669 ! Visual areas
+synonym: "VIS1" RELATED []
+
+[Term]
+id: 802
+name: stria medullaris
+created_by: telefont
+part_of: 1083 ! epithalamus related
+synonym: "sm" RELATED []
+
+[Term]
+id: 803
+name: Pallidum
+created_by: telefont
+part_of: 623 ! Cerebral nuclei
+synonym: "PAL" RELATED []
+
+[Term]
+id: 804
+name: Fields of Forel
+created_by: telefont
+part_of: 797 ! Zona incerta
+synonym: "FF" RELATED []
+
+[Term]
+id: 805
+name: posteromedial visual area, layer 1
+created_by: telefont
+part_of: 533 ! posteromedial visual area
+synonym: "VISpm1" RELATED []
+
+[Term]
+id: 806
+name: Supplemental somatosensory area, layer 2/3
+created_by: telefont
+part_of: 378 ! Supplemental somatosensory area
+synonym: "SSs2/3" RELATED []
+
+[Term]
+id: 807
+name: Dentate gyrus medial blade, molecular layer
+created_by: telefont
+part_of: 799 ! Dentate gyrus medial blade
+synonym: "DGmb-mo" RELATED []
+
+[Term]
+id: 808
+name: glossopharyngeal nerve
+created_by: telefont
+part_of: 967 ! cranial nerves
+synonym: "IXn" RELATED []
+
+[Term]
+id: 809
+name: Pallidum, caudal region
+created_by: telefont
+part_of: 803 ! Pallidum
+synonym: "PALc" RELATED []
+
+[Term]
+id: 81
+name: lateral ventricle
+created_by: telefont
+part_of: 73 ! ventricular systems
+synonym: "VL" RELATED []
+
+[Term]
+id: 810
+name: Anterior cingulate area, ventral part, 6a
+created_by: telefont
+part_of: 48 ! Anterior cingulate area, ventral part
+synonym: "ACAv6a" RELATED []
+
+[Term]
+id: 811
+name: Inferior colliculus, central nucleus
+created_by: telefont
+part_of: 4 ! Inferior colliculus
+synonym: "ICc" RELATED []
+
+[Term]
+id: 812
+name: superior cerebellar peduncle decussation
+created_by: telefont
+part_of: 326 ! superior cerebelar peduncles
+synonym: "dscp" RELATED []
+
+[Term]
+id: 813
+name: hypoglossal nerve
+created_by: telefont
+part_of: 967 ! cranial nerves
+synonym: "XIIn" RELATED []
+
+[Term]
+id: 814
+name: Dorsal peduncular area
+created_by: telefont
+part_of: 698 ! Olfactory areas
+synonym: "DP" RELATED []
+
+[Term]
+id: 815
+name: Dentate gyrus medial blade, polymorph layer
+created_by: telefont
+part_of: 799 ! Dentate gyrus medial blade
+synonym: "DGmb-po" RELATED []
+
+[Term]
+id: 816
+name: Primary auditory area, layer 4
+created_by: telefont
+part_of: 1002 ! Primary auditory area
+synonym: "AUDp4" RELATED []
+
+[Term]
+id: 817
+name: supraoptic commissures, anterior
+created_by: telefont
+part_of: 349 ! supraoptic commissures
+synonym: "supa" RELATED []
+
+[Term]
+id: 818
+name: Pallidum, dorsal region
+created_by: telefont
+part_of: 803 ! Pallidum
+synonym: "PALd" RELATED []
+
+[Term]
+id: 819
+name: Anterior cingulate area, ventral part, 6b
+created_by: telefont
+part_of: 48 ! Anterior cingulate area, ventral part
+synonym: "ACAv6b" RELATED []
+
+[Term]
+id: 82
+name: Nucleus of the lateral lemniscus, dorsal part
+created_by: telefont
+part_of: 612 ! Nucleus of the lateral lemniscus
+synonym: "NLLd" RELATED []
+
+[Term]
+id: 820
+name: Inferior colliculus, dorsal nucleus
+created_by: telefont
+part_of: 4 ! Inferior colliculus
+synonym: "ICd" RELATED []
+
+[Term]
+id: 821
+name: Primary visual area, layer 2/3
+created_by: telefont
+part_of: 385 ! Primary visual area
+synonym: "VISp2/3" RELATED []
+
+[Term]
+id: 822
+name: Retrohippocampal region
+created_by: telefont
+part_of: 1089 ! Hippocampal formation
+synonym: "RHP" RELATED []
+
+[Term]
+id: 823
+name: Dentate gyrus medial blade, granule cell layer
+created_by: telefont
+part_of: 799 ! Dentate gyrus medial blade
+synonym: "DGmb-sg" RELATED []
+
+[Term]
+id: 824
+name: hypothalamus related
+created_by: telefont
+part_of: 991 ! medial forebrain bundle system
+synonym: "mfsbshy" RELATED []
+
+[Term]
+id: 825
+name: supraoptic commissures, dorsal
+created_by: telefont
+part_of: 349 ! supraoptic commissures
+synonym: "supd" RELATED []
+
+[Term]
+id: 826
+name: Pallidum, medial region
+created_by: telefont
+part_of: 803 ! Pallidum
+synonym: "PALm" RELATED []
+
+[Term]
+id: 827
+name: Infralimbic area, layer 5
+created_by: telefont
+part_of: 44 ! Infralimbic area
+synonym: "ILA5" RELATED []
+
+[Term]
+id: 828
+name: Inferior colliculus, external nucleus
+created_by: telefont
+part_of: 4 ! Inferior colliculus
+synonym: "ICe" RELATED []
+
+[Term]
+id: 829
+name: Subiculum, dorsal part, molecular layer
+created_by: telefont
+part_of: 509 ! Subiculum, dorsal part
+synonym: "SUBd-m" RELATED []
+
+[Term]
+id: 83
+name: Inferior olivary complex
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "IO" RELATED []
+
+[Term]
+id: 830
+name: Dorsomedial nucleus of the hypothalamus
+created_by: telefont
+part_of: 141 ! Periventricular region
+synonym: "DMH" RELATED []
+
+[Term]
+id: 831
+name: Agranular insular area, dorsal part, layer 6b
+created_by: telefont
+part_of: 104 ! Agranular insular area, dorsal part
+synonym: "AId6b" RELATED []
+
+[Term]
+id: 832
+name: oculomotor nerve
+created_by: telefont
+part_of: 967 ! cranial nerves
+synonym: "IIIn" RELATED []
+
+[Term]
+id: 833
+name: supraoptic commissures, ventral
+created_by: telefont
+part_of: 349 ! supraoptic commissures
+synonym: "supv" RELATED []
+
+[Term]
+id: 834
+name: Superior colliculus, zonal layer
+created_by: telefont
+part_of: 302 ! Superior colliculus, sensory related
+synonym: "SCzo" RELATED []
+
+[Term]
+id: 835
+name: Pallidum, ventral region
+created_by: telefont
+part_of: 803 ! Pallidum
+synonym: "PALv" RELATED []
+
+[Term]
+id: 836
+name: Ectorhinal area/Layer 1
+created_by: telefont
+part_of: 895 ! Ectorhinal area
+synonym: "ECT1" RELATED []
+
+[Term]
+id: 837
+name: Subiculum, dorsal part, stratum radiatum
+created_by: telefont
+part_of: 509 ! Subiculum, dorsal part
+synonym: "SUBd-sr" RELATED []
+
+[Term]
+id: 838
+name: Primary somatosensory area, nose, layer 2/3
+created_by: telefont
+part_of: 353 ! Primary somatosensory area, nose
+synonym: "SSp-n2/3" RELATED []
+
+[Term]
+id: 839
+name: Dorsal motor nucleus of the vagus nerve
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "DMX" RELATED []
+
+[Term]
+id: 84
+name: Prelimbic area, layer 6a
+created_by: telefont
+part_of: 972 ! Prelimbic area
+synonym: "PL6a" RELATED []
+
+[Term]
+id: 840
+name: olfactory nerve
+created_by: telefont
+part_of: 967 ! cranial nerves
+synonym: "In" RELATED []
+
+[Term]
+id: 841
+name: trapezoid body
+created_by: telefont
+part_of: 948 ! cochlear nerve
+synonym: "tb" RELATED []
+
+[Term]
+id: 842
+name: Superior colliculus, superficial gray layer
+created_by: telefont
+part_of: 302 ! Superior colliculus, sensory related
+synonym: "SCsg" RELATED []
+
+[Term]
+id: 843
+name: Parasubiculum
+created_by: telefont
+part_of: 822 ! Retrohippocampal region
+synonym: "PAR" RELATED []
+
+[Term]
+id: 844
+name: Primary motor area, Layer 6a
+created_by: telefont
+part_of: 985 ! Primary motor area
+synonym: "MOp6a" RELATED []
+
+[Term]
+id: 845
+name: Subiculum, dorsal part, pyramidal layer
+created_by: telefont
+part_of: 509 ! Subiculum, dorsal part
+synonym: "SUBd-sp" RELATED []
+
+[Term]
+id: 846
+name: Dentate nucleus
+created_by: telefont
+part_of: 519 ! Cerebellar nuclei
+synonym: "DN" RELATED []
+
+[Term]
+id: 847
+name: Primary auditory area, layer 5
+created_by: telefont
+part_of: 1002 ! Primary auditory area
+synonym: "AUDp5" RELATED []
+
+[Term]
+id: 848
+name: optic nerve
+created_by: telefont
+part_of: 967 ! cranial nerves
+synonym: "IIn" RELATED []
+
+[Term]
+id: 849
+name: Visceral area, layer 6b
+created_by: telefont
+part_of: 677 ! Visceral area
+synonym: "VISC6b" RELATED []
+
+[Term]
+id: 85
+name: spinocerebellar tract
+created_by: telefont
+part_of: 812 ! superior cerebellar peduncle decussation
+synonym: "sct" RELATED []
+
+[Term]
+id: 850
+name: uncinate fascicle
+created_by: telefont
+part_of: 326 ! superior cerebelar peduncles
+synonym: "uf" RELATED []
+
+[Term]
+id: 851
+name: Superior colliculus, optic layer
+created_by: telefont
+part_of: 302 ! Superior colliculus, sensory related
+synonym: "SCop" RELATED []
+
+[Term]
+id: 852
+name: Parvicellular reticular nucleus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "PARN" RELATED []
+
+[Term]
+id: 853
+name: Subiculum, ventral part, molecular layer
+created_by: telefont
+part_of: 518 ! Subiculum, ventral part
+synonym: "SUBv-m" RELATED []
+
+[Term]
+id: 854
+name: Primary somatosensory area, upper limb, layer 2/3
+created_by: telefont
+part_of: 369 ! Primary somatosensory area, upper limb
+synonym: "SSp-ul2/3" RELATED []
+
+[Term]
+id: 855
+name: retriculospinal tract
+created_by: telefont
+part_of: 1000 ! extrapyramidal fiber systems
+synonym: "rst" RELATED []
+
+[Term]
+id: 856
+name: Thalamus, polymodal association cortex related
+created_by: telefont
+part_of: 549 ! Thalamus
+synonym: "DORpm" RELATED []
+
+[Term]
+id: 857
+name: Visceral area, layer 6a
+created_by: telefont
+part_of: 677 ! Visceral area
+synonym: "VISC6a" RELATED []
+
+[Term]
+id: 858
+name: ventral commissure of the spinal cord
+created_by: telefont
+part_of: 932 ! cervicothalamic tract
+synonym: "vc" RELATED []
+
+[Term]
+id: 859
+name: Parasolitary nucleus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "PAS" RELATED []
+
+[Term]
+id: 86
+name: middle thalamic commissure
+created_by: telefont
+part_of: 896 ! thalamus related
+synonym: "mtc" RELATED []
+
+[Term]
+id: 860
+name: Parabrachial nucleus, lateral division, central lateral part
+created_by: telefont
+part_of: 881 ! Parabrachial nucleus, lateral division
+synonym: "PBlc" RELATED []
+
+[Term]
+id: 861
+name: Subiculum, ventral part, stratum radiatum
+created_by: telefont
+part_of: 518 ! Subiculum, ventral part
+synonym: "SUBv-sr" RELATED []
+
+[Term]
+id: 862
+name: Supplemental somatosensory area, layer 6a
+created_by: telefont
+part_of: 378 ! Supplemental somatosensory area
+synonym: "SSs6a" RELATED []
+
+[Term]
+id: 863
+name: rubrospinal tract
+created_by: telefont
+part_of: 1000 ! extrapyramidal fiber systems
+synonym: "rust" RELATED []
+
+[Term]
+id: 864
+name: Thalamus, sensory-motor cortex related
+created_by: telefont
+part_of: 549 ! Thalamus
+synonym: "DORsm" RELATED []
+
+[Term]
+id: 865
+name: Primary somatosensory area, layer 4
+created_by: telefont
+part_of: 322 ! Primary somatosensory area
+synonym: "SSp4" RELATED []
+
+[Term]
+id: 866
+name: ventral spinocerebellar tract
+created_by: telefont
+part_of: 326 ! superior cerebelar peduncles
+synonym: "sctv" RELATED []
+
+[Term]
+id: 867
+name: Parabrachial nucleus
+created_by: telefont
+part_of: 1132 ! Pons, sensory related
+synonym: "PB" RELATED []
+
+[Term]
+id: 868
+name: Parabrachial nucleus, lateral division, dorsal lateral part
+created_by: telefont
+part_of: 881 ! Parabrachial nucleus, lateral division
+synonym: "PBld" RELATED []
+
+[Term]
+id: 869
+name: Posterolateral visual area, layer 4
+created_by: telefont
+part_of: 425 ! Posterolateral visual area
+synonym: "VISpl4" RELATED []
+
+[Term]
+id: 87
+name: Paraventricular hypothalamic nucleus, parvicellular division, medial parvicellular part, dorsal zone
+created_by: telefont
+part_of: 94 ! Paraventricular hypothalamic nucleus, parvicellular division
+synonym: "PVHmpd" RELATED []
+
+[Term]
+id: 870
+name: Subiculum, ventral part, pyramidal layer
+created_by: telefont
+part_of: 518 ! Subiculum, ventral part
+synonym: "SUBv-sp" RELATED []
+
+[Term]
+id: 871
+name: spinothalamic tract
+created_by: telefont
+part_of: 967 ! cranial nerves
+synonym: "sst" RELATED []
+
+[Term]
+id: 872
+name: Dorsal nucleus raphe
+created_by: telefont
+part_of: 165 ! Midbrain raphe nuclei
+synonym: "DR" RELATED []
+
+[Term]
+id: 873
+name: Supplemental somatosensory area, layer 1
+created_by: telefont
+part_of: 378 ! Supplemental somatosensory area
+synonym: "SSs1" RELATED []
+
+[Term]
+id: 874
+name: Parabigeminal nucleus
+created_by: telefont
+part_of: 339 ! Midbrain, sensory related
+synonym: "PBG" RELATED []
+
+[Term]
+id: 875
+name: Parabrachial nucleus, lateral division, external lateral part
+created_by: telefont
+part_of: 881 ! Parabrachial nucleus, lateral division
+synonym: "PBle" RELATED []
+
+[Term]
+id: 876
+name: accessory optic tract
+created_by: telefont
+part_of: 848 ! optic nerve
+synonym: "aot" RELATED []
+
+[Term]
+id: 877
+name: tectospinal pathway
+created_by: telefont
+part_of: 1000 ! extrapyramidal fiber systems
+synonym: "tsp" RELATED []
+
+[Term]
+id: 878
+name: Primary somatosensory area, mouth, layer 1
+created_by: telefont
+part_of: 345 ! Primary somatosensory area, mouth
+synonym: "SSp-m1" RELATED []
+
+[Term]
+id: 879
+name: Retrosplenial area, dorsal part
+created_by: telefont
+part_of: 254 ! Retrosplenial area
+synonym: "RSPd" RELATED []
+
+[Term]
+id: 88
+name: Anterior hypothalamic nucleus
+created_by: telefont
+part_of: 467 ! Hypothalamic medial zone
+synonym: "AHN" RELATED []
+
+[Term]
+id: 880
+name: Dorsal tegmental nucleus
+created_by: telefont
+part_of: 987 ! Pons, motor related
+synonym: "DTN" RELATED []
+
+[Term]
+id: 881
+name: Parabrachial nucleus, lateral division
+created_by: telefont
+part_of: 867 ! Parabrachial nucleus
+synonym: "PBl" RELATED []
+
+[Term]
+id: 882
+name: Primary motor area, Layer 6b
+created_by: telefont
+part_of: 985 ! Primary motor area
+synonym: "MOp6b" RELATED []
+
+[Term]
+id: 883
+name: Parabrachial nucleus, lateral division, superior lateral part
+created_by: telefont
+part_of: 881 ! Parabrachial nucleus, lateral division
+synonym: "PBls" RELATED []
+
+[Term]
+id: 884
+name: amygdalar capsule
+created_by: telefont
+part_of: 768 ! cerebrum related
+synonym: "amc" RELATED []
+
+[Term]
+id: 885
+name: terminal nerve
+created_by: telefont
+part_of: 967 ! cranial nerves
+synonym: "tn" RELATED []
+
+[Term]
+id: 886
+name: Retrosplenial area, ventral part
+created_by: telefont
+part_of: 254 ! Retrosplenial area
+synonym: "RSPv" RELATED []
+
+[Term]
+id: 887
+name: Efferent cochlear group
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "ECO" RELATED []
+
+[Term]
+id: 888
+name: Perirhinal area, layer 2/3
+created_by: telefont
+part_of: 922 ! Perirhinal area
+synonym: "PERI2/3" RELATED []
+
+[Term]
+id: 889
+name: Primary somatosensory area, nose, layer 6a
+created_by: telefont
+part_of: 353 ! Primary somatosensory area, nose
+synonym: "SSp-n6a" RELATED []
+
+[Term]
+id: 89
+name: rhinocele
+created_by: telefont
+part_of: 81 ! lateral ventricle
+synonym: "RC" RELATED []
+
+[Term]
+id: 890
+name: Parabrachial nucleus, medial division
+created_by: telefont
+part_of: 867 ! Parabrachial nucleus
+synonym: "PBm" RELATED []
+
+[Term]
+id: 891
+name: Parabrachial nucleus, lateral division, ventral lateral part
+created_by: telefont
+part_of: 881 ! Parabrachial nucleus, lateral division
+synonym: "PBlv" RELATED []
+
+[Term]
+id: 892
+name: ansa peduncularis
+created_by: telefont
+part_of: 768 ! cerebrum related
+synonym: "apd" RELATED []
+
+[Term]
+id: 893
+name: Supplemental somatosensory area, layer 6b
+created_by: telefont
+part_of: 378 ! Supplemental somatosensory area
+synonym: "SSs6b" RELATED []
+
+[Term]
+id: 894
+name: Retrosplenial area, lateral agranular part
+created_by: telefont
+part_of: 254 ! Retrosplenial area
+synonym: "RSPagl" RELATED []
+
+[Term]
+id: 895
+name: Ectorhinal area
+created_by: telefont
+part_of: 315 ! Isocortex
+synonym: "ECT" RELATED []
+
+[Term]
+id: 896
+name: thalamus related
+created_by: telefont
+part_of: 983 ! lateral forebrain bundle system
+synonym: "lfbst" RELATED []
+
+[Term]
+id: 897
+name: Visceral area, layer 1
+created_by: telefont
+part_of: 677 ! Visceral area
+synonym: "VISC1" RELATED []
+
+[Term]
+id: 898
+name: Pontine central gray
+created_by: telefont
+part_of: 987 ! Pons, motor related
+synonym: "PCG" RELATED []
+
+[Term]
+id: 899
+name: Parabrachial nucleus, medial division, external medial part
+created_by: telefont
+part_of: 890 ! Parabrachial nucleus, medial division
+synonym: "PBme" RELATED []
+
+[Term]
+id: 9
+name: Primary somatosensory area, trunk, layer 6a
+created_by: telefont
+part_of: 361 ! Primary somatosensory area, trunk
+synonym: "SSp-tr6a" RELATED []
+
+[Term]
+id: 90
+name: Nucleus of the lateral lemniscus, horizontal part
+created_by: telefont
+part_of: 612 ! Nucleus of the lateral lemniscus
+synonym: "NLLh" RELATED []
+
+[Term]
+id: 900
+name: anterior commissure, olfactory limb
+created_by: telefont
+part_of: 840 ! olfactory nerve
+synonym: "aco" RELATED []
+
+[Term]
+id: 901
+name: trigeminal nerve
+created_by: telefont
+part_of: 967 ! cranial nerves
+synonym: "Vn" RELATED []
+
+[Term]
+id: 902
+name: Posterolateral visual area, layer 5
+created_by: telefont
+part_of: 425 ! Posterolateral visual area
+synonym: "VISpl5" RELATED []
+
+[Term]
+id: 903
+name: External cuneate nucleus
+created_by: telefont
+part_of: 386 ! Medulla, sensory related
+synonym: "ECU" RELATED []
+
+[Term]
+id: 904
+name: Medial septal complex
+created_by: telefont
+part_of: 826 ! Pallidum, medial region
+synonym: "MSC" RELATED []
+
+[Term]
+id: 905
+name: Anterolateral visual area, layer 2/3
+created_by: telefont
+part_of: 402 ! Anterolateral visual area
+synonym: "VISal2/3" RELATED []
+
+[Term]
+id: 906
+name: Retrosplenial area, lateral agranular part, layer 6a
+created_by: telefont
+part_of: 894 ! Retrosplenial area, lateral agranular part
+synonym: "RSPagl6a" RELATED []
+
+[Term]
+id: 907
+name: Paracentral nucleus
+created_by: telefont
+part_of: 51 ! Intralaminar nuclei of the dorsal thalamus
+synonym: "PCN" RELATED []
+
+[Term]
+id: 908
+name: anterior commissure, temporal limb
+created_by: telefont
+part_of: 768 ! cerebrum related
+synonym: "act" RELATED []
+
+[Term]
+id: 909
+name: Entorhinal area
+created_by: telefont
+part_of: 822 ! Retrohippocampal region
+synonym: "ENT" RELATED []
+
+[Term]
+id: 91
+name: Interposed nucleus
+created_by: telefont
+part_of: 519 ! Cerebellar nuclei
+synonym: "IP" RELATED []
+
+[Term]
+id: 910
+name: Orbital area, medial part, layer 6a
+created_by: telefont
+part_of: 731 ! Orbital area, medial part
+synonym: "ORBm6a" RELATED []
+
+[Term]
+id: 911
+name: trochlear nerve
+created_by: telefont
+part_of: 967 ! cranial nerves
+synonym: "IVn" RELATED []
+
+[Term]
+id: 912
+name: Lingula (I)
+created_by: telefont
+part_of: 645 ! Vermal regions
+synonym: "LING" RELATED []
+
+[Term]
+id: 913
+name: Visual areas, layer 4
+created_by: telefont
+part_of: 669 ! Visual areas
+synonym: "VIS4" RELATED []
+
+[Term]
+id: 914
+name: Posterodorsal preoptic nucleus
+created_by: telefont
+part_of: 141 ! Periventricular region
+synonym: "PD" RELATED []
+
+[Term]
+id: 915
+name: Parabrachial nucleus, medial division, medial medial part
+created_by: telefont
+part_of: 890 ! Parabrachial nucleus, medial division
+synonym: "PBmm" RELATED []
+
+[Term]
+id: 916
+name: brachium of the superior colliculus
+created_by: telefont
+part_of: 848 ! optic nerve
+synonym: "bsc" RELATED []
+
+[Term]
+id: 917
+name: vagus nerve
+created_by: telefont
+part_of: 967 ! cranial nerves
+synonym: "Xn" RELATED []
+
+[Term]
+id: 918
+name: Entorhinal area, lateral part
+created_by: telefont
+part_of: 909 ! Entorhinal area
+synonym: "ENTl" RELATED []
+
+[Term]
+id: 919
+name: Anterior cingulate area, dorsal part, layer 6a
+created_by: telefont
+part_of: 39 ! Anterior cingulate area, dorsal part
+synonym: "ACAd6a" RELATED []
+
+[Term]
+id: 92
+name: Entorhinal area, lateral part, layer 4
+created_by: telefont
+part_of: 918 ! Entorhinal area, lateral part
+synonym: "ENTl4" RELATED []
+
+[Term]
+id: 920
+name: Central lobule
+created_by: telefont
+part_of: 645 ! Vermal regions
+synonym: "CENT" RELATED []
+
+[Term]
+id: 921
+name: Primary somatosensory area, layer 5
+created_by: telefont
+part_of: 322 ! Primary somatosensory area
+synonym: "SSp5" RELATED []
+
+[Term]
+id: 922
+name: Perirhinal area
+created_by: telefont
+part_of: 315 ! Isocortex
+synonym: "PERI" RELATED []
+
+[Term]
+id: 923
+name: Parabrachial nucleus, medial division, ventral medial part
+created_by: telefont
+part_of: 890 ! Parabrachial nucleus, medial division
+synonym: "PBmv" RELATED []
+
+[Term]
+id: 924
+name: cerebal peduncle
+created_by: telefont
+part_of: 784 ! corticospinal tract
+synonym: "cpd" RELATED []
+
+[Term]
+id: 925
+name: ventral roots
+created_by: telefont
+part_of: 967 ! cranial nerves
+synonym: "vrt" RELATED []
+
+[Term]
+id: 926
+name: Entorhinal area, medial part, dorsal zone
+created_by: telefont
+part_of: 909 ! Entorhinal area
+synonym: "ENTm" RELATED []
+
+[Term]
+id: 927
+name: Anterior cingulate area, dorsal part, layer 6b
+created_by: telefont
+part_of: 39 ! Anterior cingulate area, dorsal part
+synonym: "ACAd6b" RELATED []
+
+[Term]
+id: 928
+name: Culmen
+created_by: telefont
+part_of: 645 ! Vermal regions
+synonym: "CUL" RELATED []
+
+[Term]
+id: 929
+name: Primary somatosensory area, nose, layer 6b
+created_by: telefont
+part_of: 353 ! Primary somatosensory area, nose
+synonym: "SSp-n6b" RELATED []
+
+[Term]
+id: 93
+name: motor root of the trigeminal nerve
+created_by: telefont
+part_of: 901 ! trigeminal nerve
+synonym: "moV" RELATED []
+
+[Term]
+id: 930
+name: Parafascicular nucleus
+created_by: telefont
+part_of: 51 ! Intralaminar nuclei of the dorsal thalamus
+synonym: "PF" RELATED []
+
+[Term]
+id: 931
+name: Pontine gray
+created_by: telefont
+part_of: 987 ! Pons, motor related
+synonym: "PG" RELATED []
+
+[Term]
+id: 932
+name: cervicothalamic tract
+created_by: telefont
+part_of: 792 ! dorsal roots
+synonym: "cett" RELATED []
+
+[Term]
+id: 933
+name: vestibulocochlear nerve
+created_by: telefont
+part_of: 967 ! cranial nerves
+synonym: "VIIIn" RELATED []
+
+[Term]
+id: 934
+name: Entorhinal area, medial part, ventral zone
+created_by: telefont
+part_of: 909 ! Entorhinal area
+synonym: "ENTmv" RELATED []
+
+[Term]
+id: 935
+name: Anterior cingulate area, dorsal part, layer 1
+created_by: telefont
+part_of: 39 ! Anterior cingulate area, dorsal part
+synonym: "ACAd1" RELATED []
+
+[Term]
+id: 936
+name: Declive (VI)
+created_by: telefont
+part_of: 645 ! Vermal regions
+synonym: "DEC" RELATED []
+
+[Term]
+id: 937
+name: Visual areas, layer 5
+created_by: telefont
+part_of: 669 ! Visual areas
+synonym: "VIS5" RELATED []
+
+[Term]
+id: 938
+name: Paragigantocellular reticular nucleus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "PGRN" RELATED []
+
+[Term]
+id: 939
+name: Nucleus ambiguus, dorsal division
+created_by: telefont
+part_of: 135 ! Nucleus ambiguus
+synonym: "AMBd" RELATED []
+
+[Term]
+id: 94
+name: Paraventricular hypothalamic nucleus, parvicellular division
+created_by: telefont
+part_of: 38 ! Paraventricular hypothalamic nucleus
+synonym: "PVHp" RELATED []
+
+[Term]
+id: 940
+name: cingulum bundle
+created_by: telefont
+part_of: 768 ! cerebrum related
+synonym: "cing" RELATED []
+
+[Term]
+id: 941
+name: vestibulospinal pathway
+created_by: telefont
+part_of: 1000 ! extrapyramidal fiber systems
+synonym: "vsp" RELATED []
+
+[Term]
+id: 942
+name: Endopiriform nucleus
+created_by: telefont
+part_of: 703 ! Cortical subplate
+synonym: "EP" RELATED []
+
+[Term]
+id: 943
+name: Primary motor area, Layer 2/3
+created_by: telefont
+part_of: 985 ! Primary motor area
+synonym: "MOp2/3" RELATED []
+
+[Term]
+id: 944
+name: Folium-tuber vermis (VII)
+created_by: telefont
+part_of: 645 ! Vermal regions
+synonym: "FOTU" RELATED []
+
+[Term]
+id: 945
+name: Primary somatosensory area, upper limb, layer 6a
+created_by: telefont
+part_of: 369 ! Primary somatosensory area, upper limb
+synonym: "SSp-ul6a" RELATED []
+
+[Term]
+id: 946
+name: Posterior hypothalamic nucleus
+created_by: telefont
+part_of: 467 ! Hypothalamic medial zone
+synonym: "PH" RELATED []
+
+[Term]
+id: 947
+name: Somatomotor areas, Layer 6b
+created_by: telefont
+part_of: 500 ! Somatomotor areas
+synonym: "MO6b" RELATED []
+
+[Term]
+id: 948
+name: cochlear nerve
+created_by: telefont
+part_of: 933 ! vestibulocochlear nerve
+synonym: "cVIIIn" RELATED []
+
+[Term]
+id: 949
+name: vomeronasal nerve
+created_by: telefont
+part_of: 967 ! cranial nerves
+synonym: "von" RELATED []
+
+[Term]
+id: 95
+name: Agranular insular area
+created_by: telefont
+part_of: 315 ! Isocortex
+synonym: "AI" RELATED []
+
+[Term]
+id: 950
+name: Primary somatosensory area, mouth, layer 4
+created_by: telefont
+part_of: 345 ! Primary somatosensory area, mouth
+synonym: "SSp-m4" RELATED []
+
+[Term]
+id: 951
+name: Pyramus (VIII)
+created_by: telefont
+part_of: 645 ! Vermal regions
+synonym: "PYR" RELATED []
+
+[Term]
+id: 952
+name: Endopiriform nucleus, dorsal part
+created_by: telefont
+part_of: 942 ! Endopiriform nucleus
+synonym: "EPd" RELATED []
+
+[Term]
+id: 953
+name: Pineal body
+created_by: telefont
+part_of: 958 ! Epithalamus
+synonym: "PIN" RELATED []
+
+[Term]
+id: 954
+name: Primary auditory area, layer 6a
+created_by: telefont
+part_of: 1002 ! Primary auditory area
+synonym: "AUDp6a" RELATED []
+
+[Term]
+id: 955
+name: Lateral reticular nucleus, magnocellular part
+created_by: telefont
+part_of: 235 ! Lateral reticular nucleus
+synonym: "LRNm" RELATED []
+
+[Term]
+id: 956
+name: corpus callosum, anterior forceps
+created_by: telefont
+part_of: 776 ! corpus callosum
+synonym: "fa" RELATED []
+
+[Term]
+id: 957
+name: Uvula (IX)
+created_by: telefont
+part_of: 645 ! Vermal regions
+synonym: "UVU" RELATED []
+
+[Term]
+id: 958
+name: Epithalamus
+created_by: telefont
+part_of: 856 ! Thalamus, polymodal association cortex related
+synonym: "EPI" RELATED []
+
+[Term]
+id: 959
+name: Ventral auditory area, layer 1
+created_by: telefont
+part_of: 1018 ! Ventral auditory area
+synonym: "AUDv1" RELATED []
+
+[Term]
+id: 96
+name: Dorsal cochlear nucleus
+created_by: telefont
+part_of: 607 ! Cochlear nuclei
+synonym: "DCO" RELATED []
+
+[Term]
+id: 960
+name: cerebellum related fiber tracts
+created_by: telefont
+part_of: 1009 ! fiber tracts
+synonym: "cbf" RELATED []
+
+[Term]
+id: 961
+name: Piriform area
+created_by: telefont
+part_of: 698 ! Olfactory areas
+synonym: "PIR" RELATED []
+
+[Term]
+id: 962
+name: Secondary motor area, layer 2/3
+created_by: telefont
+part_of: 993 ! Secondary motor area
+synonym: "MOs2/3" RELATED []
+
+[Term]
+id: 963
+name: Lateral reticular nucleus, parvicellular part
+created_by: telefont
+part_of: 235 ! Lateral reticular nucleus
+synonym: "LRNp" RELATED []
+
+[Term]
+id: 964
+name: corpus callosum, extreme capsule
+created_by: telefont
+part_of: 776 ! corpus callosum
+synonym: "ee" RELATED []
+
+[Term]
+id: 965
+name: Retrosplenial area, lateral agranular part, layer 2/3
+created_by: telefont
+part_of: 894 ! Retrosplenial area, lateral agranular part
+synonym: "RSPagl2/3" RELATED []
+
+[Term]
+id: 966
+name: Endopiriform nucleus, ventral part
+created_by: telefont
+part_of: 942 ! Endopiriform nucleus
+synonym: "EPv" RELATED []
+
+[Term]
+id: 967
+name: cranial nerves
+created_by: telefont
+part_of: 1009 ! fiber tracts
+synonym: "cm" RELATED []
+
+[Term]
+id: 968
+name: Nodulus (X)
+created_by: telefont
+part_of: 645 ! Vermal regions
+synonym: "NOD" RELATED []
+
+[Term]
+id: 969
+name: Orbital area, ventrolateral part, layer 1
+created_by: telefont
+part_of: 746 ! Orbital area, ventrolateral part
+synonym: "ORBvl1" RELATED []
+
+[Term]
+id: 97
+name: Temporal association areas, layer 1
+created_by: telefont
+part_of: 541 ! Temporal association areas
+synonym: "TEa1" RELATED []
+
+[Term]
+id: 970
+name: Paragigantocellular reticular nucleus, dorsal part
+created_by: telefont
+part_of: 938 ! Paragigantocellular reticular nucleus
+synonym: "PGRNd" RELATED []
+
+[Term]
+id: 971
+name: corpus callosum, posterior forceps
+created_by: telefont
+part_of: 776 ! corpus callosum
+synonym: "fp" RELATED []
+
+[Term]
+id: 972
+name: Prelimbic area
+created_by: telefont
+part_of: 315 ! Isocortex
+synonym: "PL" RELATED []
+
+[Term]
+id: 973
+name: Lateral visual area, layer 2/3
+created_by: telefont
+part_of: 409 ! Lateral visual area
+synonym: "VISl23" RELATED []
+
+[Term]
+id: 974
+name: Primary somatosensory area, mouth, layer 5
+created_by: telefont
+part_of: 345 ! Primary somatosensory area, mouth
+synonym: "SSp-m5" RELATED []
+
+[Term]
+id: 975
+name: Edinger-Westphal nucleus
+created_by: telefont
+part_of: 323 ! Midbrain, motor related
+synonym: "EW" RELATED []
+
+[Term]
+id: 976
+name: Lobule II
+created_by: telefont
+part_of: 920 ! Central lobule
+synonym: "CENT2" RELATED []
+
+[Term]
+id: 977
+name: Ectorhinal area/Layer 6a
+created_by: telefont
+part_of: 895 ! Ectorhinal area
+synonym: "ECT6a" RELATED []
+
+[Term]
+id: 978
+name: Paragigantocellular reticular nucleus, lateral part
+created_by: telefont
+part_of: 938 ! Paragigantocellular reticular nucleus
+synonym: "PGRNl" RELATED []
+
+[Term]
+id: 979
+name: corpus callosum, rostrum
+created_by: telefont
+part_of: 776 ! corpus callosum
+synonym: "ccr" RELATED []
+
+[Term]
+id: 98
+name: subependymal zone
+created_by: telefont
+part_of: 81 ! lateral ventricle
+synonym: "SEZ" RELATED []
+
+[Term]
+id: 980
+name: Dorsal premammillary nucleus
+created_by: telefont
+part_of: 467 ! Hypothalamic medial zone
+synonym: "PMd" RELATED []
+
+[Term]
+id: 981
+name: Primary somatosensory area, barrel field, layer 1
+created_by: telefont
+part_of: 329 ! Primary somatosensory area, barrel field
+synonym: "SSp-bfd1" RELATED []
+
+[Term]
+id: 982
+name: Fasciola cinerea
+created_by: telefont
+part_of: 1080 ! Hippocampal region
+synonym: "FC" RELATED []
+
+[Term]
+id: 983
+name: lateral forebrain bundle system
+created_by: telefont
+part_of: 1009 ! fiber tracts
+synonym: "lfbs" RELATED []
+
+[Term]
+id: 984
+name: Lobule III
+created_by: telefont
+part_of: 920 ! Central lobule
+synonym: "CENT3" RELATED []
+
+[Term]
+id: 985
+name: Primary motor area
+created_by: telefont
+part_of: 500 ! Somatomotor areas
+synonym: "MOp" RELATED []
+
+[Term]
+id: 986
+name: corpus callosum, splenium
+created_by: telefont
+part_of: 776 ! corpus callosum
+synonym: "ccs" RELATED []
+
+[Term]
+id: 987
+name: Pons, motor related
+created_by: telefont
+part_of: 771 ! Pons
+synonym: "P-mot" RELATED []
+
+[Term]
+id: 988
+name: Ectorhinal area/Layer 5
+created_by: telefont
+part_of: 895 ! Ectorhinal area
+synonym: "ECT5" RELATED []
+
+[Term]
+id: 989
+name: Fastigial nucleus
+created_by: telefont
+part_of: 519 ! Cerebellar nuclei
+synonym: "FN" RELATED []
+
+[Term]
+id: 99
+name: Nucleus of the lateral lemniscus, ventral part
+created_by: telefont
+part_of: 612 ! Nucleus of the lateral lemniscus
+synonym: "NLLv" RELATED []
+
+[Term]
+id: 990
+name: Ventral auditory area, layer 4
+created_by: telefont
+part_of: 1018 ! Ventral auditory area
+synonym: "AUDv4" RELATED []
+
+[Term]
+id: 991
+name: medial forebrain bundle system
+created_by: telefont
+part_of: 1009 ! fiber tracts
+synonym: "mfbs" RELATED []
+
+[Term]
+id: 992
+name: Lobule IV
+created_by: telefont
+part_of: 928 ! Culmen
+synonym: "CUL4" RELATED []
+
+[Term]
+id: 993
+name: Secondary motor area
+created_by: telefont
+part_of: 500 ! Somatomotor areas
+synonym: "MOs" RELATED []
+
+[Term]
+id: 994
+name: corticobulbar tract
+created_by: telefont
+part_of: 784 ! corticospinal tract
+synonym: "cbt" RELATED []
+
+[Term]
+id: 995
+name: Paramedian reticular nucleus
+created_by: telefont
+part_of: 370 ! Medulla, motor related
+synonym: "PMR" RELATED []
+
+[Term]
+id: 996
+name: Agranular insular area, dorsal part, layer 1
+created_by: telefont
+part_of: 104 ! Agranular insular area, dorsal part
+synonym: "AId1" RELATED []
+
+[Term]
+id: 997
+name: root
+created_by: telefont
+synonym: "root" RELATED []
+
+[Term]
+id: 998
+name: Fundus of striatum
+created_by: telefont
+part_of: 493 ! Striatum ventral region
+synonym: "FS" RELATED []
+
+[Term]
+id: 999
+name: Entorhinal area, lateral part, layer 2/3
+created_by: telefont
+part_of: 918 ! Entorhinal area, lateral part
+synonym: "ENTl2/3" RELATED []

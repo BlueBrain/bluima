@@ -49,7 +49,7 @@ public class BlueBioLemmatizerTest {
         assertEquals("thalamic", BlueBioLemmatizer.lemmatize("Thalamic", null));
         assertEquals("thalamus", BlueBioLemmatizer.lemmatize("thalamus", null));
         
-        assertEquals("conditioning", BlueBioLemmatizer.lemmatize("conditioning", null));
+        assertEquals("conditioning", BlueBioLemmatizer.lemmatize("conditioning", null)); // FAIL!
         assertEquals("condition", BlueBioLemmatizer.lemmatize("conditioned", null));
 
         assertEquals("house", BlueBioLemmatizer.lemmatize("houses", null));
