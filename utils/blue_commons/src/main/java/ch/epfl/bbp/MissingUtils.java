@@ -29,11 +29,15 @@ public class MissingUtils {
 
             final char c = msg.charAt(i);
             if (c == '{' && msg.charAt(i + 1) == '}') {
-                Object val = args[argId++];
-                if (val == null)
-                    sb.append("null");
-                else
-                    sb.append(val.toString());
+                if (args.length > argId) {
+                    Object val = args[argId++];
+                    if (val == null)
+                        sb.append("null");
+                    else
+                        sb.append(val.toString());
+                } else {
+                    sb.append("{{MISSING ARG}}");
+                }
                 i++;
             } else {
                 sb.append(c);

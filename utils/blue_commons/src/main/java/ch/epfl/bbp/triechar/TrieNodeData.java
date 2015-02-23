@@ -13,78 +13,97 @@ import java.util.Map;
  * @see TrieData
  * @author renaud.richardet@epfl.ch
  */
-/* package */class TrieNodeData<T> implements Serializable {
-	private static final long serialVersionUID = 1L;
+public/* package */class TrieNodeData<T> implements Serializable {
+    private static final long serialVersionUID = 1L;
 
-	T data = null;
-	private char character;
-	protected Map<Character, TrieNodeData<T>> children = new HashMap<Character, TrieNodeData<T>>();
+    T data = null;
+    private char character;
+    protected Map<Character, TrieNodeData<T>> children = new HashMap<Character, TrieNodeData<T>>();
 
-	public TrieNodeData() {
-	}
+    private TrieNodeData<T> parent;
 
-	public TrieNodeData(char ch) {
-		this.character = ch;
-	}
+    public TrieNodeData() {
+    }
 
-	public void addWord(char[] word, T data) {
+    public TrieNodeData(char ch) {
+        this.character = ch;
+    }
 
-		if (word.length == 0) {
-			this.data = data;
-			return;
+    public void addWord(TrieNodeData<T> parent, char[] word, T data) {
 
-		} else {
-			// represent the Child Node;
-			char firstChar = word[0];
-			TrieNodeData<T> child = children.get(firstChar);
-			if (child == null) {
-				child = new TrieNodeData<T>(firstChar);
-				children.put(firstChar, child);
-			}
+        this.parent = parent; // to backtrack
 
-			// add remaining characters
-			child.addWord(copyOfRange(word, 1, word.length), data); // recursive
-		}
-	}
+        if (word.length == 0) {
+            this.data = data;
+            return;
 
-	public T getWordData(char[] word) {
-		if (word.length == 0) {
-			// we are at the leaf
-			return data;
+        } else {
+            // represent the Child Node;
+            char firstChar = word[0];
+            TrieNodeData<T> child = children.get(firstChar);
+            if (child == null) {
+                child = new TrieNodeData<T>(firstChar);
+                children.put(firstChar, child);
+            }
 
-		} else { // walk down the tree
-			char firstChar = word[0];
-			TrieNodeData<T> child = children.get(firstChar);
-			if (child == null) {
-				// no entry for that word
-				return null;
-			} else {
-				return child.getWordData(copyOfRange(word, 1, word.length)); // recursive
-			}
-		}
-	}
+            // add remaining characters
+            child.addWord(this, copyOfRange(word, 1, word.length), data); // recursive
+        }
+    }
 
-	@Override
-	public String toString() {
-		return character + ":" + data;
-	}
+    public T getWordData(char[] word) {
+        if (word.length == 0) {
+            // we are at the leaf
+            return data;
 
-	public void writeIds(BufferedWriter writer, char[] prefix)
-			throws IOException {
+        } else { // walk down the tree
+            char firstChar = word[0];
+            TrieNodeData<T> child = children.get(firstChar);
+            if (child == null) {
+                // no entry for that word
+                return null;
+            } else {
+                return child.getWordData(copyOfRange(word, 1, word.length)); // recursive
+            }
+        }
+    }
 
-		if (data != null) {
-			for (char c : prefix) {
-				writer.write(c);
-			}
-			writer.write(character);
-			writer.write("\t" + data.toString());
-			writer.newLine();
-		}
+    public T getData() {
+        return data;
+    }
 
-		for (TrieNodeData<T> child : children.values()) {
-			char[] childPrefix = copyOf(prefix, prefix.length + 1);
-			childPrefix[childPrefix.length - 1] = character;
-			child.writeIds(writer, childPrefix); // recursive
-		}
-	}
+    @Override
+    public String toString() {
+        StringBuilder sb = new StringBuilder();
+        getWord(sb);
+        return sb + ":" + data;
+    }
+
+    public void writeIds(BufferedWriter writer, char[] prefix)
+            throws IOException {
+
+        if (data != null) {
+            for (char c : prefix) {
+                writer.write(c);
+            }
+            writer.write(character);
+            writer.write("\t" + data.toString());
+            writer.newLine();
+        }
+
+        for (TrieNodeData<T> child : children.values()) {
+            char[] childPrefix = copyOf(prefix, prefix.length + 1);
+            childPrefix[childPrefix.length - 1] = character;
+            child.writeIds(writer, childPrefix); // recursive
+        }
+    }
+
+    public void getWord(StringBuilder sb) {
+        if (character == 0) { // at root -> return
+            return;
+        } else {
+            sb.insert(0, character); // prepends to sb
+            parent.getWord(sb); // recursive
+        }
+    }
 }

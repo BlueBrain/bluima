@@ -17,66 +17,66 @@ import java.util.Queue;
  * @author renaud.richardet@epfl.ch
  */
 public class TrieData<T> implements Iterable<TrieNodeData<T>>, Serializable {
-	private static final long serialVersionUID = 1L;
+    private static final long serialVersionUID = 1L;
 
-	private TrieNodeData<T> root;
-	private boolean caseSensitive;
+    private TrieNodeData<T> root;
+    private boolean caseSensitive;
 
-	public TrieData() {
-		this(false);
-	}
+    public TrieData() {
+        this(false);
+    }
 
-	public TrieData(boolean caseSensitive) {
-		this.caseSensitive = caseSensitive;
-		root = new TrieNodeData<T>();
-	}
+    public TrieData(boolean caseSensitive) {
+        this.caseSensitive = caseSensitive;
+        root = new TrieNodeData<T>();
+    }
 
-	public void addWord(String word, T data) {
-		if (!caseSensitive)
-			word = word.toLowerCase();
-		root.addWord(word.toCharArray(), data);
-	}
+    public void addWord(String word, T data) {
+        if (!caseSensitive)
+            word = word.toLowerCase();
+        root.addWord(root, word.toCharArray(), data);
+    }
 
-	/** @return the data of that word in the trie */
-	public T getWordData(String word) {
-		if (!caseSensitive)
-			word = word.toLowerCase();
-		return root.getWordData(word.toCharArray());
-	}
+    /** @return the data of that word in the trie */
+    public T getWordData(String word) {
+        if (!caseSensitive)
+            word = word.toLowerCase();
+        return root.getWordData(word.toCharArray());
+    }
 
-	/** one entry per line. word first, then tab, then data */
-	public void toIdFile(OutputStream os) throws IOException {
-		BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(os));
-		for (TrieNodeData<T> child : root.children.values()) {
-			child.writeIds(writer, new char[0]);// recursive
-		}
-		writer.close();
-	}
+    /** one entry per line. word first, then tab, then data */
+    public void toIdFile(OutputStream os) throws IOException {
+        BufferedWriter writer = new BufferedWriter(new OutputStreamWriter(os));
+        for (TrieNodeData<T> child : root.children.values()) {
+            child.writeIds(writer, new char[0]);// recursive
+        }
+        writer.close();
+    }
 
-	@Override
-	public Iterator<TrieNodeData<T>> iterator() {
+    @Override
+    public Iterator<TrieNodeData<T>> iterator() {
 
-		return new Iterator<TrieNodeData<T>>() {
+        return new Iterator<TrieNodeData<T>>() {
 
-			Queue<TrieNodeData<T>> queue = new LinkedList<TrieNodeData<T>>(
-					asList(root));
+            Queue<TrieNodeData<T>> queue = new LinkedList<TrieNodeData<T>>(
+                    asList(root));
 
-			@Override
-			public boolean hasNext() {
-				return !queue.isEmpty();
-			}
+            @Override
+            public boolean hasNext() {
+                return !queue.isEmpty();
+            }
 
-			@Override
-			public TrieNodeData<T> next() {
-				TrieNodeData<T> head = queue.poll();
-				queue.addAll(head.children.values());
-				return head;
-			}
+            @Override
+            public TrieNodeData<T> next() {
+                TrieNodeData<T> head = queue.poll();
+                queue.addAll(head.children.values());
+                return head;
+            }
 
-			@Override
-			public void remove() {
-				throw new IllegalArgumentException();
-			}
-		};
-	}
+            @Override
+            public void remove() {
+                throw new IllegalArgumentException();
+            }
+        };
+    }
 }

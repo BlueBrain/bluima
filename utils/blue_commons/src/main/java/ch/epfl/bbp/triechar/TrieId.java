@@ -16,10 +16,10 @@ import ch.epfl.bbp.io.LineReader;
  * @author renaud.richardet@epfl.ch
  */
 public class TrieId implements Serializable {
-    private static final long serialVersionUID = 1L;
+    protected static final long serialVersionUID = 1L;
 
-    private TrieData<Integer> trie;
-    private int maxId = 0;
+    protected TrieData<Integer> trie;
+    protected int maxId = 0;
 
     public TrieId() {
         this(false);
@@ -29,8 +29,13 @@ public class TrieId implements Serializable {
         trie = new TrieData<Integer>(caseSensitive);
     }
 
+    public int getSize() {
+        return maxId;
+    }
+
     public int addWord(String word) {
-        if (word==null||word.length()==0)throw new IllegalArgumentException("word cannot be null or empty");;
+        if (word == null || word.length() == 0)
+            throw new IllegalArgumentException("word cannot be null or empty");
         Integer id = trie.getWordData(word);
         if (id == null) {
             id = maxId;
@@ -71,7 +76,7 @@ public class TrieId implements Serializable {
                                 + "' does not contain a tab. Format must be 'word{tab}id'");
             } else if (split.length == 2) {
                 t.trie.addWord(split[0], parseInt(split[1]));
-            } else  {
+            } else {
                 StringBuilder sb = new StringBuilder();
                 sb.append(split[0]);
                 for (int i = 1; i < split.length - 1; i++) {
