@@ -8,6 +8,7 @@ import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
 
+import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.junit.Test;
 
 import ch.epfl.bbp.uima.cr.TextArrayReader;
@@ -18,6 +19,12 @@ public class TestAnnotatorTest {
     public void test() throws Exception {
         runPipeline(getTokenizedTestCas("a b c"),
                 createEngine(TestAnnotator.class, "expects", TOKEN + " 3"));
+    }
+
+    @Test(expected = AnalysisEngineProcessException.class)
+    public void test2() throws Exception {
+        runPipeline(getTokenizedTestCas("a b c"),
+                createEngine(TestAnnotator.class, "expects", TOKEN + " 111"));
     }
 
     @Test

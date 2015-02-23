@@ -4,6 +4,8 @@ import static com.google.common.base.Preconditions.checkArgument;
 import static java.lang.Integer.parseInt;
 import static org.apache.commons.lang.StringUtils.isNumeric;
 
+import javax.management.RuntimeErrorException;
+
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.fit.descriptor.ConfigurationParameter;
@@ -80,14 +82,15 @@ public class TestAnnotator extends JCasAnnotator_ImplBase {
                         for (Annotation a : JCasUtil.select(jCas, annotClass)) {
                             found += a.getCoveredText() + "\n";
                         }
-                        System.err
-                                .println("FATAL ERROR [TestAnnotator] assertion failed: found "
-                                        + actual
-                                        + " "
-                                        + annot
-                                        + " instead of "
-                                        + expected + ", found:\n" + found);
-                        System.exit(1);
+                        String msg = "FATAL ERROR [TestAnnotator] assertion failed: found "
+                                + actual
+                                + " "
+                                + annot
+                                + " instead of "
+                                + expected + ", found:\n" + found;
+                        System.err.println(msg);
+                        throw new RuntimeErrorException(null, msg);
+                        // System.exit(1);
                     }
                 } catch (ClassNotFoundException e1) {
                     throw new RuntimeException("could not load class " + annot);
