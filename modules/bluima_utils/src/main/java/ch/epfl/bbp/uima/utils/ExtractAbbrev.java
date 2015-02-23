@@ -315,7 +315,6 @@ public class ExtractAbbrev {
         System.err.println("       <filename> contains text from which abbreviations are extracted");
         System.err.println("       -testlist <file> = list of true abbreviation definition pairs");
         System.err.println("       -usage or -help = this message");
-        System.exit(1);
     }
 
     public static void main(String[] args) {

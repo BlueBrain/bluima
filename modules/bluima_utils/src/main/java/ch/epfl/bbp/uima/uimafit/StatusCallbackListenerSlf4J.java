@@ -54,7 +54,7 @@ public class StatusCallbackListenerSlf4J implements StatusCallbackListener {
         if (entityCount == 0) {
             LOG.info("[{}] collectionProcessComplete, processed 0 cas",
                     getName());
-            System.exit(0); // otherwise it hangs, somehow...
+            //System.exit(0); // otherwise it hangs, somehow...
             return;
         }
 
@@ -126,7 +126,7 @@ public class StatusCallbackListenerSlf4J implements StatusCallbackListener {
     public void aborted() {
         LOG.info("[{}] aborted", getName());
         // forcing program to quit, otherwise hangs forever...
-        System.exit(17);
+        //System.exit(17);
     }
 
     /**
