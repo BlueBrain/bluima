@@ -3,7 +3,7 @@ before_script:
   - "export BLUIMA_HOME=`pwd`"
 jdk:
   - oraclejdk7
-script: mvn clean install -Dgpg.skip=true
+script: mvn clean install
 branches:
   only:
   - master
