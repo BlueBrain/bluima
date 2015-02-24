@@ -56,8 +56,7 @@ public class SeerSuiteTableExtractor {
     		File pdfDir = new File(pdfFileDir);
     		int counter = 1;
     		if(!pdfDir.isDirectory()) {
-    			System.out.println("Need directory in this mode");
-			System.exit(-1);
+    		    throw new IOException("Need directory in this mode");
     		}
     		for (File fid: pdfDir.listFiles(new PDFFilter())) {
     			extractTable(pdfDir.getPath()+"/"+fid.getName(),Integer.toString(counter));

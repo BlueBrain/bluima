@@ -23,11 +23,11 @@ import ch.epfl.bbp.uima.laucher.PipelineScriptParser;
 /**
  * @author renaud.richardet@epfl.ch
  */
+@Ignore
 public class RunPipelineTest {
 	private static Logger LOG = getLogger(RunPipeline.class);
 
 	@Test
-	@Ignore
 	public void testParseAllPipelines() throws Exception {
 		Iterator<File> it = FileUtils.iterateFiles(RunPipeline.PIPELINES,
 				new String[] { "pipeline" }, true);

@@ -20,6 +20,11 @@ import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
 import javax.xml.parsers.DocumentBuilderFactory;
+import javax.xml.transform.Transformer;
+import javax.xml.transform.TransformerException;
+import javax.xml.transform.TransformerFactory;
+import javax.xml.transform.dom.DOMSource;
+import javax.xml.transform.stream.StreamResult;
 
 import org.apache.uima.UimaContext;
 import org.apache.uima.collection.CollectionException;
@@ -44,7 +49,6 @@ import ch.epfl.bbp.uima.pdf.BBlock;
 import ch.epfl.bbp.uima.pdf.BDocument;
 import ch.epfl.bbp.uima.pdf.BLine;
 import ch.epfl.bbp.uima.pdf.BlockHandler;
-import ch.epfl.bbp.uima.pdf.XMLFormExport;
 import ch.epfl.bbp.uima.pdf.cleanup.HyphenRemover;
 import ch.epfl.bbp.uima.types.DataTable;
 import ch.epfl.bbp.uima.types.DocumentBlock;
@@ -375,12 +379,22 @@ public class PdfCollectionReader extends AbstractFileReader {
             // htmlElt.appendChild(boxfit);
 
             Writer out = new OutputStreamWriter(new FileOutputStream(file));
-            XMLFormExport.serializeXMLDocument(dom, out);
+            serializeXMLDocument(dom, out);
             out.close();
 
         } catch (Exception e) {
             e.printStackTrace();
         }
+    }
+    /**
+     * Writes the given Document to the given Writer using a no-op XSL transformation.
+     */
+    public static void serializeXMLDocument (Document doc, Writer output) throws TransformerException {
+        // serialize XML document using identity transformation
+        Transformer trans = TransformerFactory.newInstance().newTransformer();
+        DOMSource source = new DOMSource(doc);
+        StreamResult result = new StreamResult(output);
+        trans.transform(source, result);
     }
 
     private static Element addElem(Element addTo, String name,
