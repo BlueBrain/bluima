@@ -17,6 +17,7 @@ import ch.epfl.bbp.uima.ae.OpenNlpHelper;
 import ch.epfl.bbp.uima.testutils.UimaTests;
 import ch.epfl.bbp.uima.typesystem.Prin;
 import de.julielab.jules.types.Chunk;
+import de.julielab.jules.types.POSTag;
 import de.julielab.jules.types.Sentence;
 import de.julielab.jules.types.Token;
 
@@ -123,4 +124,28 @@ public class OpenNlpHelperTest {
         }
     }
 
+    @Test
+    public void testPOS() throws UIMAException {
+        String text = "A study on the Prethcamide";
+        String postags = "DT;NN;IN;DT;NN;";
+
+        JCas jCas = UimaTests.getTestCas(text);
+        // POS annotator assumes sentences and tokens have been annotated
+        runPipeline(jCas, OpenNlpHelper.getSentenceSplitter(),
+                OpenNlpHelper.getTokenizer(), OpenNlpHelper.getPosTagger());
+
+        Collection<Token> tokens = JCasUtil.select(jCas, Token.class);
+        assertEquals(5, tokens.size());
+
+        Iterator<Token> tokenIt = tokens.iterator();
+        String predictedPOSTags = "";
+
+        while (tokenIt.hasNext()) {
+            Token t = tokenIt.next();
+            POSTag tag = (POSTag) t.getPosTag().get(0);
+            predictedPOSTags = predictedPOSTags + tag.getValue() + ";";
+        }
+
+        assertEquals(postags, predictedPOSTags);
+    }
 }
