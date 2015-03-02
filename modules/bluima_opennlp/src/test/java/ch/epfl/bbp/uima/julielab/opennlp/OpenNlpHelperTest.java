@@ -95,24 +95,24 @@ public class OpenNlpHelperTest {
 
     @Test
     public void testChunker() throws Exception {
+        String text = "A study on the Prethcamide hydroxylation system in rat hepatic microsomes .";
+        String chunks = "ChunkNP,ChunkPP,ChunkNP,ChunkPP,ChunkNP,";
 
-        JCas jCas = UimaTests
-                .getTestCas("Terminologies which lack semantic connectivity hamper the effective search in biomedical fact databases and document retrieval systems. We here focus on the integration of two such isolated resources, the term lists from the protein fact database UNIPROT and the indexing vocabulary MESH from the bibliographic database MEDLINE.");
+        JCas jCas = UimaTests.getTestCas(text);
+        // Run chunker pipeline
         SimplePipeline.runPipeline(jCas, OpenNlpHelper.getSentenceSplitter(),
                 OpenNlpHelper.getTokenizer(), OpenNlpHelper.getPosTagger(),
                 OpenNlpHelper.getChunker());
 
-        Collection<Chunk> chunks = JCasUtil.select(jCas, Chunk.class);
-        assertEquals(23, chunks.size());
-        for (Chunk chunk : chunks) {
-            Prin.t(chunk);
+        Collection<Chunk> collection = JCasUtil.select(jCas, Chunk.class);
+        assertEquals(5, collection.size());
+
+        String predictedChunks = "";
+        for (Chunk chunk : collection) {
+            predictedChunks += chunk.getType().getShortName() + ",";
         }
 
-        // Iterator<Chunk> it = chunks.iterator();
-        // it.hasNext();
-        // assertEquals(
-        // "Terminologies which lack semantic connectivity hamper the effective search in biomedical fact databases and document retrieval systems.",
-        // it.next().getCoveredText());
+        assertEquals(chunks, predictedChunks);
     }
 
     @Test
