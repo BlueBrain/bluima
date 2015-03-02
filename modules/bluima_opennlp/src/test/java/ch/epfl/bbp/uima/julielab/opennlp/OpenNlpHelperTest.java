@@ -24,7 +24,7 @@ public class OpenNlpHelperTest {
 
     @Test
     public void testTokenizer() throws Exception {
-
+        // First test
         JCas jCas = UimaTests.getTestCas("the red cat is blue");
         SimplePipeline.runPipeline(jCas, OpenNlpHelper.getTokenizer());
 
@@ -32,8 +32,26 @@ public class OpenNlpHelperTest {
         assertEquals(5, tokens.size());
 
         Iterator<Token> it = tokens.iterator();
-        it.hasNext();
         assertEquals("the", it.next().getCoveredText());
+
+        // Second test
+        String text = "CD44, at any stage, is a XYZ";
+        String offsets = "0-4;4-5;6-8;9-12;13-18;18-19;20-22;23-24;25-28";
+        jCas = UimaTests.getTestCas(text);
+        SimplePipeline.runPipeline(jCas, OpenNlpHelper.getTokenizer());
+
+        tokens = JCasUtil.select(jCas, Token.class);
+
+        Iterator<Token> tokenIt = tokens.iterator();
+        String predictedOffsets = "";
+
+        while (tokenIt.hasNext()) {
+            Token t = tokenIt.next();
+            predictedOffsets += (predictedOffsets.length() > 0) ? ";" : "";
+            predictedOffsets += t.getBegin() + "-" + t.getEnd();
+        }
+
+        assertEquals(offsets, predictedOffsets);
     }
 
     @Test
