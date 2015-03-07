@@ -16,15 +16,16 @@ import org.apache.commons.lang.StringUtils;
 import org.apache.uima.UIMAException;
 import org.apache.uima.analysis_engine.AnalysisEngine;
 import org.apache.uima.fit.factory.JCasFactory;
+import org.apache.uima.fit.factory.TypeSystemDescriptionFactory;
 import org.apache.uima.fit.pipeline.SimplePipeline;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.cas.TOP;
 import org.apache.uima.jcas.tcas.Annotation;
+import org.apache.uima.resource.metadata.TypeSystemDescription;
 
 import ch.epfl.bbp.uima.ae.DotSentenceSplitterAnnotator;
 import ch.epfl.bbp.uima.ae.WhitespaceTokenizerAnnotator;
 import ch.epfl.bbp.uima.typesystem.To;
-import ch.epfl.bbp.uima.typesystem.TypeSystem;
 
 /**
  * Helper / Convenience methods for Uima tests
@@ -46,7 +47,9 @@ public class UimaTests {
     }
 
     public static JCas getTestCas(String text) throws UIMAException {
-        JCas jCas = JCasFactory.createJCas(TypeSystem.JULIE_TSD);
+        JCas jCas = JCasFactory.createJCas();
+        TypeSystemDescription ts = TypeSystemDescriptionFactory
+                .createTypeSystemDescription();
         jCas.setDocumentText(text);
         jCas.setDocumentLanguage("en");
         return jCas;

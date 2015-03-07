@@ -4,7 +4,6 @@ import static ch.epfl.bbp.uima.BlueCasUtil.asList;
 import static ch.epfl.bbp.uima.BlueCasUtil.getHeaderDocId;
 import static ch.epfl.bbp.uima.BlueCasUtil.iterator;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_MAX_NR_RESULTS;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.apache.uima.fit.util.JCasUtil.select;
 import static org.junit.Assert.assertEquals;
@@ -26,12 +25,11 @@ import ch.epfl.bbp.uima.types.BrainRegion;
 
 public class WhiteTextCollectionReaderTest extends JCasAnnotator_ImplBase {
     Logger LOG = LoggerFactory.getLogger(WhiteTextCollectionReaderTest.class);
-    
+
     @Test
     public void test() throws Exception {
 
-        CollectionReader cr = createReader(WhiteTextCollectionReader.class,
-                JULIE_TSD);
+        CollectionReader cr = createReader(WhiteTextCollectionReader.class);
 
         JCas jCas = iterator(cr).next();
 
@@ -46,15 +44,14 @@ public class WhiteTextCollectionReaderTest extends JCasAnnotator_ImplBase {
     public void testMaxNr() throws Exception {
 
         CollectionReader cr = createReader(WhiteTextCollectionReader.class,
-                JULIE_TSD, PARAM_MAX_NR_RESULTS, 10);
+                PARAM_MAX_NR_RESULTS, 10);
         assertEquals(10, asList(cr).size());
 
     }
 
     public static void main(String[] args) throws Exception {
 
-        CollectionReader cr = createReader(WhiteTextCollectionReader.class,
-                JULIE_TSD);
+        CollectionReader cr = createReader(WhiteTextCollectionReader.class);
 
         SimplePipeline.runPipeline(cr, AnalysisEngineFactory
                 .createEngine(WhiteTextCollectionReaderTest.class));
@@ -63,8 +60,8 @@ public class WhiteTextCollectionReaderTest extends JCasAnnotator_ImplBase {
     @Override
     public void process(JCas cas) throws AnalysisEngineProcessException {
 
-        LOG.debug(getHeaderDocId(cas)+"\t"+cas.getDocumentText());
-        
+        LOG.debug(getHeaderDocId(cas) + "\t" + cas.getDocumentText());
+
         for (BrainRegion br : JCasUtil.select(cas, BrainRegion.class)) {
             LOG.debug(br.getCoveredText());
         }

@@ -3,7 +3,6 @@ package ch.epfl.bbp.uima.cr;
 import static ch.epfl.bbp.MissingUtils.printf;
 import static ch.epfl.bbp.uima.BlueCasUtil.getHeaderDocId;
 import static ch.epfl.bbp.uima.BlueCasUtil.iterator;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.apache.uima.fit.util.JCasUtil.select;
 import static org.apache.uima.fit.util.JCasUtil.selectCovered;
@@ -25,8 +24,7 @@ public class WhiteTextConnectionsCollectionReaderTest {
     @Test
     public void test() throws Exception {
 
-        Iterator<JCas> cr = iterator(createReader(
-                WhiteTextConnectionsCollectionReader.class, JULIE_TSD));
+        Iterator<JCas> cr = iterator(createReader(WhiteTextConnectionsCollectionReader.class));
 
         JCas jCas = cr.next();
         System.out.println(jCas.getDocumentText());
@@ -49,8 +47,7 @@ public class WhiteTextConnectionsCollectionReaderTest {
     }
 
     public static void main(String[] args) throws Exception {
-        Iterator<JCas> cr = iterator(createReader(
-                WhiteTextConnectionsCollectionReader.class, JULIE_TSD));
+        Iterator<JCas> cr = iterator(createReader(WhiteTextConnectionsCollectionReader.class));
         int docs = 0, sentenceCnt = 0, brCnt = 0, coocCnt = 0;
         while (cr.hasNext()) {
             JCas jCas = cr.next();

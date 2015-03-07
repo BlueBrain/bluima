@@ -20,11 +20,13 @@ import neuroner.NeuroNER.NeuronWithProperties;
 import neuroner.NeuroNER.Size;
 
 import org.apache.uima.jcas.JCas;
+import org.junit.Ignore;
 import org.junit.Test;
 
 public class NeuronWriter2Test {
 
     @Test
+    @Ignore //FIXME neuroner types
     public void test() throws Exception {
 
         JCas jCas = getTokenizedTestCas("This is a pyramidal neuron. And a pyramidal blah and a large glia cell.");

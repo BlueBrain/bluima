@@ -1,10 +1,9 @@
 package ch.epfl.bbp.uima.mongo;
 
 import static ch.epfl.bbp.uima.BlueUima.PARAM_DB_CONNECTION;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static com.google.common.base.Preconditions.checkArgument;
-import static org.apache.uima.resource.ResourceInitializationException.NO_RESOURCE_FOR_PARAMETERS;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
+import static org.apache.uima.resource.ResourceInitializationException.NO_RESOURCE_FOR_PARAMETERS;
 
 import java.io.IOException;
 import java.util.HashMap;
@@ -17,15 +16,15 @@ import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_engine.AnalysisEngine;
 import org.apache.uima.collection.CollectionException;
 import org.apache.uima.collection.CollectionReader;
+import org.apache.uima.fit.component.JCasCollectionReader_ImplBase;
+import org.apache.uima.fit.descriptor.ConfigurationParameter;
+import org.apache.uima.fit.factory.AnalysisEngineFactory;
+import org.apache.uima.fit.pipeline.SimplePipeline;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.util.Progress;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.apache.uima.fit.component.JCasCollectionReader_ImplBase;
-import org.apache.uima.fit.descriptor.ConfigurationParameter;
-import org.apache.uima.fit.factory.AnalysisEngineFactory;
-import org.apache.uima.fit.pipeline.SimplePipeline;
 
 import ch.epfl.bbp.uima.ae.StatsAnnotatorPlus;
 
@@ -127,7 +126,7 @@ public class MongoCollectionRemover extends JCasCollectionReader_ImplBase {
 	public static void removeAnnotations(String[] conn,
 			String... annotationsToDelete) throws UIMAException, IOException {
 		CollectionReader cr = createReader(
-				MongoCollectionRemover.class, JULIE_TSD, PARAM_DB_CONNECTION,
+				MongoCollectionRemover.class,  PARAM_DB_CONNECTION,
 				conn, PARAM_DELETE_ANNOTATIONS, annotationsToDelete);
 		AnalysisEngine noAE = AnalysisEngineFactory
 				.createEngine(StatsAnnotatorPlus.class);

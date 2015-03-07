@@ -15,8 +15,8 @@ object PubmedDumper extends App {
   outputFile.createNewFile()
 
   val cr = CollectionReaderFactory.createReader(
-//TODO    classOf[PubmedWholeDatabaseCR], TypeSystem.JULIE_TSD: TypeSystemDescription)
-    classOf[TextArrayReader], TypeSystem.JULIE_TSD: TypeSystemDescription)
+//TODO    classOf[PubmedWholeDatabaseCR])
+    classOf[TextArrayReader])
 
   var cnt = 0
   val cas = CasCreationUtils.createCas(cr.getProcessingResourceMetaData());

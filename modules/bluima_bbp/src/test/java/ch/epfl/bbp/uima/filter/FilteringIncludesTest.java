@@ -5,7 +5,6 @@ import static ch.epfl.bbp.uima.BlueUima.TEST_RESOURCES_PATH;
 import static ch.epfl.bbp.uima.BlueUimaHelper.BLUE_UIMA_MODULE_HOME;
 import static ch.epfl.bbp.uima.BlueUimaHelper.SCRIPT_ROOT;
 import static ch.epfl.bbp.uima.laucher.PipelineScriptParser.parse;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static com.google.common.collect.Lists.newArrayList;
 import static junit.framework.Assert.assertEquals;
 import static junit.framework.Assert.assertFalse;
@@ -51,7 +50,6 @@ public class FilteringIncludesTest extends JCasAnnotator_ImplBase {
         // create pipeline with a PDF document
         Pipeline pipeline = new Pipeline();
         pipeline.setCr(createReaderDescription(SingleFileReader.class,
-                JULIE_TSD, //
                 PARAM_INPUT_FILE, BLUE_UIMA_MODULE_HOME + TEST_RESOURCES_PATH
                         + "bams/1/10842230.pdf"));
         pipeline.addAe(createEngineDescription(PdfCollectionAnnotator.class));
@@ -102,8 +100,8 @@ public class FilteringIncludesTest extends JCasAnnotator_ImplBase {
                 g = null;
             Pair<String, String> s = systemI.next();
 
-            LOG.debug("l"+
-                    lineNr++ + " gold: '{}' system: '{}' text = '"
+            LOG.debug(
+                    "l" + lineNr++ + " gold: '{}' system: '{}' text = '"
                             + s.getValue() + "'", g, s.getKey());
             assertEquals(g, s.getKey());
         }

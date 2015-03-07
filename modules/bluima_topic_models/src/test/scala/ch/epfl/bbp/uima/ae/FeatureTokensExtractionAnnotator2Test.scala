@@ -37,7 +37,7 @@ class FeatureTokensExtractionAnnotator2Test extends FunSuite {
     s2.setNormalizedText("c")
 
     val builder = new JcasPipelineBuilder(jCas)
-    builder.add(AnalysisEngineFactory.createEngineDescription(classOf[FeatureTokensExtractionAnnotator2], TypeSystem.JULIE_TSD: TypeSystemDescription))
+    builder.add(AnalysisEngineFactory.createEngineDescription(classOf[FeatureTokensExtractionAnnotator2]))
     builder.process()
 
     assert(2 === select(jCas, classOf[Keep]).size)

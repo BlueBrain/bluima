@@ -12,7 +12,6 @@ import static ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader.PARAM_EXPAND_ABBREVIAT
 import static ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader.PARAM_EXTRACT_TABLES;
 import static ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader.extractReferencesNaively;
 import static ch.epfl.bbp.uima.testutils.UimaTests.getTestCas;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static ch.epfl.bbp.uima.utils.DataTableUtils.toHtml;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
@@ -59,7 +58,7 @@ public class PdfCollectionReaderTest {
 
         String start[] = { "R E S E A R C H", "BMC Oral Health" };
         for (JCas pdf : asList(createReader(PdfCollectionReader.class,
-                JULIE_TSD, PARAM_INPUT_DIRECTORY, "pdf", PARAM_EXTRACT_TABLES,
+                 PARAM_INPUT_DIRECTORY, "pdf", PARAM_EXTRACT_TABLES,
                 true))) {
 
             int id = getHeaderIntDocId(pdf);
@@ -87,7 +86,7 @@ public class PdfCollectionReaderTest {
         final String abbrevs[][] = { { "PMF", "MLT" }, {}, { "ICC", "HVA" } };
 
         for (JCas pdf : asList(createReader(PdfCollectionReader.class,
-                JULIE_TSD, PARAM_INPUT_DIRECTORY, "pdf", PARAM_EXTRACT_TABLES,
+                 PARAM_INPUT_DIRECTORY, "pdf", PARAM_EXTRACT_TABLES,
                 true, PARAM_EXPAND_ABBREVIATIONS, true))) {
 
             int id = getHeaderIntDocId(pdf) - 1;
@@ -105,7 +104,7 @@ public class PdfCollectionReaderTest {
     public void testZips() throws Exception {
 
         JCasIterator it = iteratePipeline(
-                createReaderDescription(PdfCollectionReader.class, JULIE_TSD,
+                createReaderDescription(PdfCollectionReader.class, 
                         PARAM_INPUT_DIRECTORY, "pdf/zipPdfs.zip",
                         PARAM_DIRECTORY_ITERATOR, ZIP)).iterator();
         int i = 0;
@@ -126,7 +125,7 @@ public class PdfCollectionReaderTest {
     public void testFails() throws Exception {
 
         CollectionReader cr = createReader(PdfCollectionReader.class,
-                JULIE_TSD, PARAM_INPUT_DIRECTORY, "pdf_fail");
+                 PARAM_INPUT_DIRECTORY, "pdf_fail");
 
         for (JCas jCas : asList(cr)) {
             LOG.warn("docid:{}, text:{}", getHeaderDocId(jCas),
@@ -141,7 +140,7 @@ public class PdfCollectionReaderTest {
     public void testSinglePdfForGlyphMapping() throws Exception {
 
         runPipeline(
-                createReaderDescription(SingleFileReader.class, JULIE_TSD,
+                createReaderDescription(SingleFileReader.class, 
                         PARAM_INPUT_FILE, "src/test/resources/pdf_fail/30.pdf"), //
                 createEngineDescription(PdfCollectionAnnotator.class));
     }
@@ -151,7 +150,7 @@ public class PdfCollectionReaderTest {
     public void testExtractTablesOnSample() throws Exception {
 
         CollectionReader cr = createReader(PdfCollectionReader.class,
-                JULIE_TSD, PARAM_INPUT_DIRECTORY,
+                 PARAM_INPUT_DIRECTORY,
                 "/Users/richarde/data/_papers_etc/pmc_pdfs_sample");
 
         AnalysisEngine dumper = createEngine(TableWriter.class);
@@ -189,7 +188,6 @@ public class PdfCollectionReaderTest {
 
         CollectionReader cr = createReader(
                 PdfCollectionReader.class,
-                JULIE_TSD,
                 PARAM_INPUT_DIRECTORY,
                 "/Users/richarde/data_hdd/_papers_etc/pubmed/sample_pdfs_68/pdfs",
                 PARAM_EXPAND_ABBREVIATIONS, true);
@@ -205,11 +203,23 @@ public class PdfCollectionReaderTest {
     public void testOnSampleForSrikanth() throws Exception {
 
         CollectionReader cr = createReader(PdfCollectionReader.class,
-                JULIE_TSD, PARAM_INPUT_DIRECTORY, "pdf_srikanth");
+                 PARAM_INPUT_DIRECTORY, "pdf_srikanth");
 
         AnalysisEngine dumper = createEngine(DocumentTextWriter.class,
                 PARAM_OUTPUT_DIR, "/Users/richarde/Desktop/");
 
+        SimplePipeline.runPipeline(cr, dumper);
+    }
+    @Test
+    @Ignore
+    public void testAbbrevFiles() throws Exception {
+        
+        CollectionReader cr = createReader(PdfCollectionReader.class,
+                 PARAM_INPUT_DIRECTORY, "pdf_abbrevs",PARAM_EXPAND_ABBREVIATIONS, true);
+        
+        AnalysisEngine dumper = createEngine(DocumentTextWriter.class,
+                PARAM_OUTPUT_DIR, "/Users/richarde/Desktop/");
+        
         SimplePipeline.runPipeline(cr, dumper);
     }
 

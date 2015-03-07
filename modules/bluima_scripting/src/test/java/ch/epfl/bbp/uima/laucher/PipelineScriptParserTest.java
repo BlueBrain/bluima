@@ -1,7 +1,6 @@
 package ch.epfl.bbp.uima.laucher;
 
 import static ch.epfl.bbp.uima.laucher.PipelineScriptParser.parse;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static com.google.common.collect.Lists.newArrayList;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.junit.Assert.assertEquals;
@@ -115,7 +114,7 @@ public class PipelineScriptParserTest {
     // helper to test ae_java:
     public static AnalysisEngineDescription getTestAE()
             throws ResourceInitializationException {
-        return createEngineDescription(EnsureDocHasHeader.class, JULIE_TSD);
+        return createEngineDescription(EnsureDocHasHeader.class);
     }
 
     @Test

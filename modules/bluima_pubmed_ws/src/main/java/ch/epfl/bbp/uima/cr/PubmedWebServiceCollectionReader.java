@@ -15,15 +15,15 @@ import java.util.Iterator;
 import org.apache.uima.UimaContext;
 import org.apache.uima.collection.CollectionException;
 import org.apache.uima.collection.CollectionReader;
+import org.apache.uima.fit.component.JCasCollectionReader_ImplBase;
+import org.apache.uima.fit.descriptor.ConfigurationParameter;
+import org.apache.uima.fit.descriptor.TypeCapability;
+import org.apache.uima.fit.factory.CollectionReaderFactory;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.util.Progress;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.apache.uima.fit.component.JCasCollectionReader_ImplBase;
-import org.apache.uima.fit.descriptor.ConfigurationParameter;
-import org.apache.uima.fit.descriptor.TypeCapability;
-import org.apache.uima.fit.factory.CollectionReaderFactory;
 
 import ch.epfl.bbp.uima.BlueUima;
 import ch.epfl.bbp.uima.pubmed.PubmedSearch;
@@ -127,7 +127,7 @@ public class PubmedWebServiceCollectionReader extends
     public static CollectionReader getCR(String query, int nrResults)
             throws ResourceInitializationException {
         return CollectionReaderFactory.createReader(
-                PubmedWebServiceCollectionReader.class, TypeSystem.JULIE_TSD,
+                PubmedWebServiceCollectionReader.class, 
                 BlueUima.PARAM_MAX_NR_RESULTS, nrResults,//
                 BlueUima.PARAM_QUERY, query);
     }

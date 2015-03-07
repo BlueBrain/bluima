@@ -21,22 +21,21 @@ object PreprocessingEngine {
    * Pre-processing chain (without Reader) for 20 Newsgroups
    */
   def getTwentyNewsgroupsPreprocessing(stopwordsFilePath: String): List[AnalysisEngineDescription] = {
-    val ts = TypeSystem.JULIE_TSD
 
-    val tokenizer = AnalysisEngineFactory.createEngineDescription(classOf[RegexTokenizerAnnotator], ts)
-    val punctuation = AnalysisEngineFactory.createEngineDescription(classOf[PunctuationAnnotator], ts)
-    val stemmer = AnalysisEngineFactory.createEngineDescription(classOf[SimpleStemmingAnnotator], ts)
-    val stopwords = AnalysisEngineFactory.createEngineDescription(classOf[StopwordsAnnotator], ts, StopwordsAnnotator.StopwordsFilePath, stopwordsFilePath)
+    val tokenizer = AnalysisEngineFactory.createEngineDescription(classOf[RegexTokenizerAnnotator])
+    val punctuation = AnalysisEngineFactory.createEngineDescription(classOf[PunctuationAnnotator])
+    val stemmer = AnalysisEngineFactory.createEngineDescription(classOf[SimpleStemmingAnnotator])
+    val stopwords = AnalysisEngineFactory.createEngineDescription(classOf[StopwordsAnnotator], StopwordsAnnotator.StopwordsFilePath, stopwordsFilePath)
 
     val blackList: Array[String] = Array("%", ")", "(", ".", ",", ";", "!", "?", "\"", "_", ">",
       "<", "#", "^", ":", "/", "\\", "=", "-", "+", "*", "$", "@", "`", "[", "]", "&", "{", "}", "|") ++
       (0 to 9).map(_.toString) // get also rid of numbers, normally another annotator would do this (MeasureRegexAnnotator doesn't work on these data)
-    val illegalChars = AnalysisEngineFactory.createEngineDescription(classOf[IllegalCharacterSequenceAnnotator], ts,
+    val illegalChars = AnalysisEngineFactory.createEngineDescription(classOf[IllegalCharacterSequenceAnnotator],
       IllegalCharacterSequenceAnnotator.CharacterBlackList, blackList,
       IllegalCharacterSequenceAnnotator.IncludeWhiteSpace, "true")
 
-    val filter = AnalysisEngineFactory.createEngineDescription(classOf[FeatureTokensFilterAnnotator], ts)
-    val extractor = AnalysisEngineFactory.createEngineDescription(classOf[FeatureTokensExtractionAnnotator], ts)
+    val filter = AnalysisEngineFactory.createEngineDescription(classOf[FeatureTokensFilterAnnotator])
+    val extractor = AnalysisEngineFactory.createEngineDescription(classOf[FeatureTokensExtractionAnnotator])
 
     tokenizer :: punctuation :: stemmer :: stopwords :: illegalChars :: filter :: extractor :: Nil
   }

@@ -2,7 +2,6 @@ package ch.epfl.bbp.uima.validation;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_CORPUS_NAME;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_MAX_NR_RESULTS;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static ch.epfl.bbp.uima.validation.CrossvalidationReader.PARAM_MODE_EVAL;
 import static ch.epfl.bbp.uima.validation.CrossvalidationReader.PARAM_SLICE;
 import static com.google.common.collect.Lists.newArrayList;
@@ -41,7 +40,7 @@ public class CrossvalidationTest extends JCasAnnotator_ImplBase {
 			testInput.add(i + "_");
 		}
 
-		CollectionReader cr = createReader(TextArrayReader.class, JULIE_TSD,
+		CollectionReader cr = createReader(TextArrayReader.class,
 				PARAM_INPUT, testInput.toArray(new String[testInput.size()]));
 
 		runPipeline(cr,//
@@ -50,7 +49,6 @@ public class CrossvalidationTest extends JCasAnnotator_ImplBase {
 
 		// retrieve
 		CollectionReader cr2 = createReader(CrossvalidationReader.class,//
-				JULIE_TSD,//
 				PARAM_CORPUS_NAME, corpusName,//
 				PARAM_MAX_NR_RESULTS, 100,//
 				PARAM_SLICE, 1,//
@@ -62,7 +60,6 @@ public class CrossvalidationTest extends JCasAnnotator_ImplBase {
 
 		// retrieve2
 		CollectionReader cr3 = createReader(CrossvalidationReader.class,//
-				JULIE_TSD,//
 				PARAM_CORPUS_NAME, corpusName,//
 				PARAM_MAX_NR_RESULTS, 100,//
 				PARAM_SLICE, 1,//

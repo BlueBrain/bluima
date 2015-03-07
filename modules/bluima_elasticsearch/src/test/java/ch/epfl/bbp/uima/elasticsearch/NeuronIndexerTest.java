@@ -11,7 +11,6 @@ import static ch.epfl.bbp.uima.elasticsearch.ElasticIndexer.PARAM_INDEX_NAME;
 import static ch.epfl.bbp.uima.elasticsearch.ElasticIndexer.PARAM_PORT;
 import static ch.epfl.bbp.uima.testutils.UimaTests.createAnnot;
 import static ch.epfl.bbp.uima.testutils.UimaTests.getTestCas;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescriptionFromPath;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription;
@@ -128,9 +127,9 @@ public class NeuronIndexerTest {
         String overlap = "It is concluded that the P2X3 receptor subunit is expressed in specific functional groups of neurons; the major types are excitatory and inhibitory muscle motor neurons, ascending interneurons and cholinergic secretomotor neurons.";
 
         PipelineBuilder builder = new SimplePipelineBuilder(
-                // createReaderDescription(TextArrayReader.class, JULIE_TSD,
+                // createReaderDescription(TextArrayReader.class, 
                 // BlueUima.PARAM_INPUT,overlap));
-                createReaderDescription(OneDocPerLineReader2.class, JULIE_TSD,
+                createReaderDescription(OneDocPerLineReader2.class, 
                         PARAM_INPUT_FILE,
                         // "/Volumes/HDD2/ren_data/data_hdd/__mycorpora/1m_ns/1m_ns.abstracts_sample.tsv"));
                         "/Volumes/HDD2/ren_data/data_hdd/__mycorpora/1m_ns/1m_ns.abstracts.tsv"));

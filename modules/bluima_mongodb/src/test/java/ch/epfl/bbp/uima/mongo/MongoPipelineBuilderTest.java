@@ -2,7 +2,6 @@ package ch.epfl.bbp.uima.mongo;
 
 import static ch.epfl.bbp.uima.BlueCasUtil.asList;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_DB_CONNECTION;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.junit.Assert.assertEquals;
 import static org.slf4j.LoggerFactory.getLogger;
@@ -61,7 +60,7 @@ public class MongoPipelineBuilderTest {
 
 		LOG.debug("GET AGAIN AND SEE IF INCREMENTAL WORKED");
 		List<JCas> l = asList(createReader(
-				MongoCollectionReader.class, JULIE_TSD, PARAM_DB_CONNECTION,
+				MongoCollectionReader.class,  PARAM_DB_CONNECTION,
 				conn));
 		assertEquals(1, l.size());
 

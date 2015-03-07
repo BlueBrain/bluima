@@ -9,15 +9,13 @@ import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.collection.CollectionReader;
 import org.apache.uima.collection.CollectionReaderDescription;
 import org.apache.uima.collection.metadata.CpeDescriptorException;
-import org.apache.uima.resource.ResourceInitializationException;
-import org.apache.uima.util.InvalidXMLException;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.fit.factory.AnalysisEngineFactory;
 import org.apache.uima.fit.factory.CollectionReaderFactory;
 import org.apache.uima.fit.pipeline.SimplePipeline;
+import org.apache.uima.resource.ResourceInitializationException;
+import org.apache.uima.util.InvalidXMLException;
 import org.xml.sax.SAXException;
-
-import ch.epfl.bbp.uima.typesystem.TypeSystem;
 
 public class SimplePipelineBuilder implements PipelineBuilder {
 
@@ -36,7 +34,7 @@ public class SimplePipelineBuilder implements PipelineBuilder {
 			Object... configurationData) throws IOException, SAXException,
 			CpeDescriptorException, ResourceInitializationException {
 		setReader(CollectionReaderFactory.createReaderDescription(readerClass,
-				TypeSystem.JULIE_TSD, configurationData));
+				 configurationData));
 	}
 
 	@Override

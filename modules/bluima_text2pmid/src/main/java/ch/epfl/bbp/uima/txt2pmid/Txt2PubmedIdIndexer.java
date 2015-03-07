@@ -1,6 +1,7 @@
 package ch.epfl.bbp.uima.txt2pmid;
 
 import static ch.epfl.bbp.uima.BlueCasUtil.getTitle;
+import static ch.epfl.bbp.uima.BlueUima.PARAM_DB_CONNECTION;
 import static ch.epfl.bbp.uima.ae.StatsAnnotatorPlus.PARAM_PRINT_EVERY;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 
@@ -22,17 +23,15 @@ import org.apache.lucene.util.Version;
 import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.collection.CollectionReader;
-import org.apache.uima.jcas.JCas;
-import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.fit.factory.CollectionReaderFactory;
 import org.apache.uima.fit.pipeline.SimplePipeline;
+import org.apache.uima.jcas.JCas;
+import org.apache.uima.resource.ResourceInitializationException;
 
 import ch.epfl.bbp.uima.BlueCasUtil;
-import ch.epfl.bbp.uima.BlueUima;
 import ch.epfl.bbp.uima.ae.StatsAnnotatorPlus;
 import ch.epfl.bbp.uima.cr.PubmedWholeDatabaseCR;
-import ch.epfl.bbp.uima.typesystem.TypeSystem;
 
 /**
  * @author renaud.richardet@epfl.ch
@@ -48,9 +47,8 @@ public class Txt2PubmedIdIndexer {
 
         // cr
         CollectionReader cr = CollectionReaderFactory.createReader(
-                PubmedWholeDatabaseCR.class, TypeSystem.JULIE_TSD,
-                BlueUima.PARAM_DB_CONNECTION, new String[] { "localhost",
-                        "bb_pubmed", "root", "" });
+                PubmedWholeDatabaseCR.class, PARAM_DB_CONNECTION, new String[] {
+                        "localhost", "bb_pubmed", "root", "" });
 
         SimplePipeline.runPipeline(
                 cr,

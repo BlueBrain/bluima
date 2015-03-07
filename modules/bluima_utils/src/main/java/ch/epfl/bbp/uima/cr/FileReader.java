@@ -1,7 +1,6 @@
 package ch.epfl.bbp.uima.cr;
 
 import static ch.epfl.bbp.uima.typesystem.TypeSystem.HEADER;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 
 import java.io.File;
@@ -10,9 +9,9 @@ import java.io.IOException;
 import org.apache.uima.analysis_engine.AnalysisEngine;
 import org.apache.uima.collection.CollectionException;
 import org.apache.uima.collection.CollectionReader;
+import org.apache.uima.fit.descriptor.TypeCapability;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
-import org.apache.uima.fit.descriptor.TypeCapability;
 
 import ch.epfl.bbp.uima.BlueUima;
 import de.julielab.jules.types.Header;
@@ -43,7 +42,7 @@ public class FileReader extends AbstractFileReader {
 
     public static CollectionReader getCR(String inputDir)
             throws ResourceInitializationException {
-        return createReader(FileReader.class, JULIE_TSD,
+        return createReader(FileReader.class, 
                 BlueUima.PARAM_INPUT_DIRECTORY, inputDir);
     }
 }

@@ -1,7 +1,6 @@
 package ch.epfl.bbp.uima.ae;
 
 import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL_FILE;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static com.google.common.base.Preconditions.checkArgument;
 import static de.julielab.jules.ae.opennlp.PosTagAnnotator.PARAM_TAG_DICT;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
@@ -35,7 +34,7 @@ public class OpenNlpHelper {
                 + "src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz";
         checkArgument(new File(modelFile).exists(), "no model file at "
                 + modelFile);
-        return createEngineDescription(SentenceAnnotator.class, JULIE_TSD,
+        return createEngineDescription(SentenceAnnotator.class,
                 BlueUima.PARAM_MODEL_FILE, modelFile);
     }
 
@@ -45,7 +44,7 @@ public class OpenNlpHelper {
                 + "src/main/resources/pear_resources/models/token/TokenizerGenia.bin.gz";
         checkArgument(new File(modelFile).exists(), "no model file at "
                 + modelFile);
-        return createEngineDescription(TokenAnnotator.class, JULIE_TSD,
+        return createEngineDescription(TokenAnnotator.class,
                 PARAM_MODEL_FILE, modelFile);
     }
 
@@ -57,7 +56,7 @@ public class OpenNlpHelper {
                 + "src/main/resources/pear_resources/models/postag/Tagger_Genia.bin.gz";
         checkArgument(new File(tagDict).exists(), "no tag dict file at "
                 + tagDict);
-        return createEngineDescription(PosTagAnnotator.class, JULIE_TSD,
+        return createEngineDescription(PosTagAnnotator.class,
                 PARAM_TAG_DICT, tagDict, PARAM_MODEL_FILE, modelFile);
     }
 
@@ -99,7 +98,7 @@ public class OpenNlpHelper {
             throws ResourceInitializationException {
         String modelFile = OPENNLP_ROOT
                 + "src/main/resources/pear_resources/models/chunker/Chunker_Genia.bin.gz";
-        return createEngineDescription(ChunkAnnotator.class, JULIE_TSD,
+        return createEngineDescription(ChunkAnnotator.class,
                 PARAM_MODEL_FILE, modelFile);
     }
 

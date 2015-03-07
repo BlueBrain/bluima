@@ -28,7 +28,6 @@ import org.slf4j.LoggerFactory;
 
 import ch.epfl.bbp.ResourceHelper;
 import ch.epfl.bbp.uima.BlueUima;
-import ch.epfl.bbp.uima.typesystem.TypeSystem;
 import ch.epfl.bbp.uima.xml.PmcNxmlHelper;
 import ch.epfl.bbp.uima.xml.PmcNxmlParser;
 import ch.epfl.bbp.uima.xml.archivearticle3.Article;
@@ -169,7 +168,7 @@ public class PubmedArchiveCollectionReader extends
 		File testcaseDir = ResourceHelper.getFile(path);
 
 		return CollectionReaderFactory.createReader(
-				PubmedArchiveCollectionReader.class, TypeSystem.JULIE_TSD,
+				PubmedArchiveCollectionReader.class,
 				BlueUima.PARAM_INPUT_DIRECTORY, testcaseDir.getAbsolutePath());
 	}
 }

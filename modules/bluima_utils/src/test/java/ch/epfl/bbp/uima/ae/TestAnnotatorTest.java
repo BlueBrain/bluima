@@ -2,7 +2,6 @@ package ch.epfl.bbp.uima.ae;
 
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT;
 import static ch.epfl.bbp.uima.testutils.UimaTests.getTokenizedTestCas;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static ch.epfl.bbp.uima.typesystem.TypeSystem.TOKEN;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
@@ -31,8 +30,8 @@ public class TestAnnotatorTest {
     public void testTwoDocs() throws Exception {
 
         runPipeline(
-                createReader(TextArrayReader.class, JULIE_TSD, PARAM_INPUT,
-                        new String[] { "a b c", "d e f g" }),
+                createReader(TextArrayReader.class, PARAM_INPUT, new String[] {
+                        "a b c", "d e f g" }),
                 createEngine(DotSentenceSplitterAnnotator.class),
                 createEngine(WhitespaceTokenizerAnnotator.class),
                 createEngine(TestAnnotator.class, "expects", TOKEN + " 3",
@@ -43,8 +42,8 @@ public class TestAnnotatorTest {
     public void testTwoDocsButNotEnoughExpects() throws Exception {
 
         runPipeline(
-                createReader(TextArrayReader.class, JULIE_TSD, PARAM_INPUT,
-                        new String[] { "a b c", "d e f g" }),
+                createReader(TextArrayReader.class, PARAM_INPUT, new String[] {
+                        "a b c", "d e f g" }),
                 createEngine(DotSentenceSplitterAnnotator.class),
                 createEngine(WhitespaceTokenizerAnnotator.class),
                 createEngine(TestAnnotator.class, "expects", TOKEN + " 3"));

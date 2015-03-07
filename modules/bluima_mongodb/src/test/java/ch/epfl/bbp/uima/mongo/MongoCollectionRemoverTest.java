@@ -5,21 +5,20 @@ import static ch.epfl.bbp.uima.BlueCasUtil.getHeaderIntDocId;
 import static ch.epfl.bbp.uima.BlueCasUtil.setDocId;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_DB_CONNECTION;
 import static ch.epfl.bbp.uima.testutils.UimaTests.getTestCas;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static java.lang.Thread.sleep;
+import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
+import static org.apache.uima.fit.util.JCasUtil.select;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertFalse;
 import static org.slf4j.LoggerFactory.getLogger;
-import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
-import static org.apache.uima.fit.util.JCasUtil.select;
 
 import java.util.Collection;
 import java.util.List;
 
+import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
 import org.junit.Test;
 import org.slf4j.Logger;
-import org.apache.uima.fit.util.JCasUtil;
 
 import ch.epfl.bbp.uima.ae.NaiveSentenceSplitterAnnotator;
 import ch.epfl.bbp.uima.ae.WhitespaceTokenizerAnnotator;
@@ -48,7 +47,7 @@ public class MongoCollectionRemoverTest {
 
 		LOG.debug("GET AND VERIFIES IT HAS TOKEN ANNOT");
 		List<JCas> l = asList(createReader(
-				MongoCollectionReader.class, JULIE_TSD, PARAM_DB_CONNECTION,
+				MongoCollectionReader.class,  PARAM_DB_CONNECTION,
 				conn));
 		assertEquals(1, l.size());
 		jCas = l.get(0);
@@ -60,7 +59,7 @@ public class MongoCollectionRemoverTest {
 
 		LOG.debug("GET AGAIN AND TEST IF IT REMOVED ALL TOKENS");
 		List<JCas> l2 = asList(createReader(
-				MongoCollectionReader.class, JULIE_TSD, PARAM_DB_CONNECTION,
+				MongoCollectionReader.class,  PARAM_DB_CONNECTION,
 				conn));
 		assertEquals(1, l2.size());
 		jCas = l2.get(0);

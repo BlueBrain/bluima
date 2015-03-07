@@ -5,7 +5,6 @@ import static ch.epfl.bbp.uima.BlueCasUtil.asList;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT_DIRECTORY;
 import static ch.epfl.bbp.uima.BlueUima.TEST_RESOURCES_PATH;
 import static ch.epfl.bbp.uima.CorporaHelper.CORPORA_HOME;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
@@ -28,7 +27,7 @@ public class ElsevierReaderTest {
     @Test
     public void test() throws Exception {
 
-        List<JCas> cases = asList(createReader(ElsevierReader.class, JULIE_TSD,
+        List<JCas> cases = asList(createReader(ElsevierReader.class,
                 PARAM_INPUT_DIRECTORY, CORPORA_HOME + TEST_RESOURCES_PATH
                         + "elsevier"));
 
@@ -44,7 +43,6 @@ public class ElsevierReaderTest {
 
         CollectionReader cr = createReader(
                 ElsevierReader.class,
-                JULIE_TSD,
                 PARAM_INPUT_DIRECTORY,
                 "/Users/richarde/Desktop/BBP_experiments/23_extract_brainregions/crawl/neuroscience");
 

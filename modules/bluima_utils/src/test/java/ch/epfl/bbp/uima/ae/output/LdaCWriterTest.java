@@ -7,7 +7,6 @@ import static ch.epfl.bbp.uima.BlueUima.PARAM_OUTPUT_FILE;
 import static ch.epfl.bbp.uima.ae.output.LdaCWriter.PARAM_IDS_OUTPUT_FILE;
 import static ch.epfl.bbp.uima.ae.output.LdaCWriter.PARAM_VOCABULARY_INPUT_FILE;
 import static ch.epfl.bbp.uima.ae.output.LdaCWriter.PARAM_VOCABULARY_OUTPUT_FILE;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static ch.epfl.bbp.uima.utils.Preconditions.checkFileExists;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
@@ -34,7 +33,7 @@ public class LdaCWriterTest {
         String idsFile = "target/ldac-ids" + time;
 
         runPipeline(
-                createReader(OneDocPerLineReader.class, JULIE_TSD,
+                createReader(OneDocPerLineReader.class,
                         PARAM_INPUT_FILE, BLUE_UTILS_TEST_BASE
                                 + "LdaCWriterTest.txt"),
 
@@ -63,7 +62,7 @@ public class LdaCWriterTest {
         String idsFile = "target/ldac-ids" + time;
 
         runPipeline(
-                createReader(OneDocPerLineReader.class, JULIE_TSD,
+                createReader(OneDocPerLineReader.class,
                         PARAM_INPUT_FILE, BLUE_UTILS_TEST_BASE
                                 + "LdaCWriterTest.txt"),
 

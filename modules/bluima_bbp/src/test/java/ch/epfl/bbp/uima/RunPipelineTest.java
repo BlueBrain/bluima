@@ -25,68 +25,63 @@ import ch.epfl.bbp.uima.laucher.PipelineScriptParser;
  */
 @Ignore
 public class RunPipelineTest {
-	private static Logger LOG = getLogger(RunPipeline.class);
+    private static Logger LOG = getLogger(RunPipeline.class);
 
-	@Test
-	public void testParseAllPipelines() throws Exception {
-		Iterator<File> it = FileUtils.iterateFiles(RunPipeline.PIPELINES,
-				new String[] { "pipeline" }, true);
+    @Test
+    public void testParseAllPipelines() throws Exception {
+        Iterator<File> it = FileUtils.iterateFiles(RunPipeline.PIPELINES,
+                new String[] { "pipeline" }, true);
 
-		boolean justListThem = false; // to speed error fixing...
-		List<ParseException> exeptions = newArrayList();
+        boolean justListThem = false; // to speed error fixing...
+        List<ParseException> exeptions = newArrayList();
 
-		while (it.hasNext()) {
-			File pipeline = it.next();
-			try {
-				PipelineScriptParser.parse(pipeline);
-			} catch (ParseException e) {
-				if (e.getMessage().indexOf("$") > -1) {
-					System.err.println("ERROR parsing, maybe because of args "
-							+ pipeline.getPath() + " " + e.getMessage());
-				} else {
-					ParseException pe = new ParseException("ERROR parsing "
-							+ pipeline.getPath() + " " + e.getMessage(),
-							e.getErrorOffset());
-					if (justListThem)
-						exeptions.add(pe);
-					else
-						throw pe;
-				}
-			}
-		}
-		if (justListThem) {
-			System.err.println("\nFAULTY PIPELINES");
-			for (ParseException pe : exeptions) {
-				System.err.println(pe);
-			}
-		}
-	}
+        while (it.hasNext()) {
+            File pipeline = it.next();
+            try {
+                PipelineScriptParser.parse(pipeline);
+            } catch (ParseException e) {
+                if (e.getMessage().indexOf("$") > -1) {
+                    System.err.println("ERROR parsing, maybe because of args "
+                            + pipeline.getPath() + " " + e.getMessage());
+                } else {
+                    ParseException pe = new ParseException("ERROR parsing "
+                            + pipeline.getPath() + " " + e.getMessage(),
+                            e.getErrorOffset());
+                    if (justListThem)
+                        exeptions.add(pe);
+                    else
+                        throw pe;
+                }
+            }
+        }
+        if (justListThem) {
+            System.err.println("\nFAULTY PIPELINES");
+            for (ParseException pe : exeptions) {
+                System.err.println(pe);
+            }
+        }
+    }
 
-	@Test
-	@Ignore
-	// FIXME not passing yet
-	public void testAllExamplePipelines() throws Exception {
-		runPipeline(new File(BlueUimaHelper.EXAMPLE_ROOT));
-	}
+    @Test
+    @Ignore
+    // FIXME not passing yet
+    public void testAllExamplePipelines() throws Exception {
+        runPipeline(new File(BlueUimaHelper.EXAMPLE_ROOT));
+    }
 
-	@Test
-	public void testAllTestsPipelines() throws Exception {
-		runPipeline(new File(BlueUimaHelper.TESTS_ROOT));
-	}
+    private static void runPipeline(File pipelineRoot) throws ParseException,
+            IOException, UIMAException {
 
-	private static void runPipeline(File pipelineRoot) throws ParseException,
-			IOException, UIMAException {
+        assertTrue(pipelineRoot.exists());
 
-		assertTrue(pipelineRoot.exists());
-
-		Iterator<File> it = iterateFiles(pipelineRoot,
-				new String[] { "pipeline" }, true);
-		while (it.hasNext()) {
-			File script = it.next();
-			LOG.debug("running script {} >----------------------------",
-					script.getName());
-			Pipeline pipeline = PipelineScriptParser.parse(script);
-			pipeline.run();
-		}
-	}
+        Iterator<File> it = iterateFiles(pipelineRoot,
+                new String[] { "pipeline" }, true);
+        while (it.hasNext()) {
+            File script = it.next();
+            LOG.debug("running script {} >----------------------------",
+                    script.getName());
+            Pipeline pipeline = PipelineScriptParser.parse(script);
+            pipeline.run();
+        }
+    }
 }

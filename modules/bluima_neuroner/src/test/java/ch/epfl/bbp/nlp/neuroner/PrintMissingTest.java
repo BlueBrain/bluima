@@ -13,7 +13,6 @@ import static ch.epfl.bbp.uima.ae.StatsAnnotatorPlus.PARAM_PRINT_EVERY;
 import static ch.epfl.bbp.uima.ae.output.BartWriter.PARAM_BATCH_PREFIX;
 import static ch.epfl.bbp.uima.cr.PubmedWholeDatabaseCR.MESH;
 import static ch.epfl.bbp.uima.testutils.UimaTests.getTestCas;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineFromPath;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
@@ -99,9 +98,8 @@ public class PrintMissingTest extends JCasAnnotator_ImplBase {
     public void testNeuroNerDocs() throws Exception {
 
         runPipeline(
-                createReader(TextFileReader.class, JULIE_TSD,
-                        PARAM_INPUT_DIRECTORY, ROOT //
-                                + "input/"),//
+                createReader(TextFileReader.class, PARAM_INPUT_DIRECTORY, ROOT //
+                        + "input/"),//
                 // + "input/articles_neurelectro/"),//
                 ruta, longest//
                 // createEngine(getSentenceSplitter())//
@@ -117,10 +115,9 @@ public class PrintMissingTest extends JCasAnnotator_ImplBase {
     public void testPubmedNs() throws Exception {
 
         runPipeline(
-                createReader(PubmedWholeDatabaseCR.class, JULIE_TSD,
-                        PARAM_DB_CONNECTION, new String[] { "127.0.0.1",
-                                "bb_pubmed", "root", "" }, PARAM_AND_QUERY,
-                        MESH + " AND abstrct LIKE '%neuron%' "),//
+                createReader(PubmedWholeDatabaseCR.class, PARAM_DB_CONNECTION,
+                        new String[] { "127.0.0.1", "bb_pubmed", "root", "" },
+                        PARAM_AND_QUERY, MESH + " AND abstrct LIKE '%neuron%' "),//
                 ruta, //
                 longest//
                 ,
@@ -146,10 +143,9 @@ public class PrintMissingTest extends JCasAnnotator_ImplBase {
     public void testPubmedNs2() throws Exception {
 
         runPipeline(
-                createReader(PubmedWholeDatabaseCR.class, JULIE_TSD,
-                        PARAM_DB_CONNECTION, new String[] { "127.0.0.1",
-                                "bb_pubmed", "root", "" }, PARAM_AND_QUERY,
-                        MESH + " AND abstrct LIKE '%neuron%' "),//
+                createReader(PubmedWholeDatabaseCR.class, PARAM_DB_CONNECTION,
+                        new String[] { "127.0.0.1", "bb_pubmed", "root", "" },
+                        PARAM_AND_QUERY, MESH + " AND abstrct LIKE '%neuron%' "),//
                 ruta,
                 longest,
                 createEngine(getSentenceSplitter()),

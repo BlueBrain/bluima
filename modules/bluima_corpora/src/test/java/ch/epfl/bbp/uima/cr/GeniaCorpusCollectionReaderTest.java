@@ -1,6 +1,5 @@
 package ch.epfl.bbp.uima.cr;
 
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.apache.uima.fit.util.JCasUtil.select;
 import static org.apache.uima.util.CasCreationUtils.createCas;
@@ -27,8 +26,7 @@ public class GeniaCorpusCollectionReaderTest extends JCasAnnotator_ImplBase {
     @Ignore
     // too slow
     public void test() throws Exception {
-        CollectionReader cr = createReader(GeniaCorpusCollectionReader.class,
-                JULIE_TSD);
+        CollectionReader cr = createReader(GeniaCorpusCollectionReader.class);
         SimplePipeline
                 .runPipeline(
                         cr,
@@ -50,8 +48,7 @@ public class GeniaCorpusCollectionReaderTest extends JCasAnnotator_ImplBase {
 
     @Test
     public void testFaster() throws Exception {
-        CollectionReader cr = createReader(GeniaCorpusCollectionReader.class,
-                JULIE_TSD);
+        CollectionReader cr = createReader(GeniaCorpusCollectionReader.class);
         cr.hasNext();
         CAS cas = createCas(cr.getProcessingResourceMetaData());
         cr.getNext(cas);

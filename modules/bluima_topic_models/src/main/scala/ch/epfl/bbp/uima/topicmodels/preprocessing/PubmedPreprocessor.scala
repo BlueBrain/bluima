@@ -26,7 +26,7 @@ import org.apache.uima.fit.factory.AnalysisEngineFactory
  * Preprocess Pubmed abstracts
  */
 object PubmedPreprocessor extends App {
-  
+
   val root = "/home/mazimmer/private"
   val outDir = root + "/corpora/pubmed_complete"
   val tokenFrequencies = root + "/corpora/pubmed_complete/token_frequency"
@@ -36,12 +36,12 @@ object PubmedPreprocessor extends App {
   val folds: Integer = 1
   val writeTestFolds = false
   val seed = 1352130938
-    
+
   val stopwords = GenericConf.pubmedStopwords
   val rawCorpusPath = GenericConf.pubmedAbstractsRawCorpusDir
 
   val reader = CollectionReaderFactory.createReaderDescription(classOf[SingleFileCollectionReader],
-    TypeSystem.JULIE_TSD: TypeSystemDescription, SingleFileCollectionReader.FilePath, rawCorpusPath)
+    SingleFileCollectionReader.FilePath, rawCorpusPath)
   //, SingleFileCollectionReader.ProportionToRead, "0.04")) // for testing
   //SingleFileCollectionReader.MaxDocsToRead, "1000"))
 
@@ -50,12 +50,12 @@ object PubmedPreprocessor extends App {
   val writers = Nil
   //(new DCAWriter(outDir + "/dca/dca.txtbag", outDir + "/dca/dca.tokens", outDir + "/dca", folds, writeTestFolds)) :: Nil
   // 	(new PLDAWriter(outDir + "/plda/plda_train", outDir + "/plda/plda_test", folds, writeTestFolds)) ::
-  // 	(new VowpalWabbitWriter(outDir + "/vw/vw_train", outDir + "/vw/vw_test", folds, writeTestFolds)) :: Nil 
+  // 	(new VowpalWabbitWriter(outDir + "/vw/vw_train", outDir + "/vw/vw_test", folds, writeTestFolds)) :: Nil
 
   val writerKey = "pubmed"
   WriterConfig.addConfig(writerKey, writers)
 
-  val post = AnalysisEngineFactory.createEngineDescription(classOf[JCasWriterConsumer], TypeSystem.JULIE_TSD,
+  val post = AnalysisEngineFactory.createEngineDescription(classOf[JCasWriterConsumer],
     JCasWriterConsumer.Seed, seed.toString(),
     JCasWriterConsumer.Writers, writerKey,
     JCasWriterConsumer.TestSetFraction, testsetfraction,

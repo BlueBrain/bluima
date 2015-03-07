@@ -27,7 +27,6 @@ import org.slf4j.LoggerFactory;
 
 import ch.epfl.bbp.uima.cr.FileReader;
 import ch.epfl.bbp.uima.pdf.BlockHandler;
-import ch.epfl.bbp.uima.typesystem.TypeSystem;
 
 import com.snowtide.pdf.PDFTextStream;
 
@@ -119,7 +118,7 @@ public class PdfCollectionAnnotator extends JCasAnnotator_ImplBase {
 
     public static JCas newCasFromFile(String filePath, String docId)
             throws UIMAException {
-        JCas jCas = JCasFactory.createJCas(TypeSystem.JULIE_TSD);
+        JCas jCas = JCasFactory.createJCas();
         Header header = new Header(jCas);
         header.setDocId(docId);
         header.setSource(filePath);

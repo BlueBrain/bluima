@@ -29,10 +29,9 @@ object TwentyNewsgroupsPreprocessor extends App {
   val start = System.currentTimeMillis()
 
   val reader = CollectionReaderFactory.createReaderDescription(classOf[TwentyNewsgroupsCollectionReader],
-    TypeSystem.JULIE_TSD: TypeSystemDescription,
     TwentyNewsgroupsCollectionReader.CorpusDirPath, GenericConf.twentyNewsgroupsRawCorpusDir)
 
-  val pre = AnalysisEngineFactory.createEngineDescription(classOf[RegexTokenizerAnnotator], TypeSystem.JULIE_TSD) :: Nil //PreprocessingEngine.getTwentyNewsgroupsPreprocessing(malletStopwords)
+  val pre = AnalysisEngineFactory.createEngineDescription(classOf[RegexTokenizerAnnotator]) :: Nil //PreprocessingEngine.getTwentyNewsgroupsPreprocessing(malletStopwords)
 
   val nfolds: Integer = 1 // generates files for n-fold crossvalidation
   val writeTestFolds = false // also write out text files
@@ -45,7 +44,7 @@ object TwentyNewsgroupsPreprocessor extends App {
   val writerKey = "20news"
   WriterConfig.addConfig(writerKey, writers)
 
-  val post = AnalysisEngineFactory.createEngineDescription(classOf[JCasWriterConsumer], TypeSystem.JULIE_TSD,
+  val post = AnalysisEngineFactory.createEngineDescription(classOf[JCasWriterConsumer],
     JCasWriterConsumer.Seed, seed.toString(),
     JCasWriterConsumer.Writers, writerKey,
     JCasWriterConsumer.TestSetFraction, testsetfraction,

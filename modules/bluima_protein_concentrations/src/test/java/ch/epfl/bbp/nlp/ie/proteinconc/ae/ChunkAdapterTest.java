@@ -8,7 +8,6 @@ import static ch.epfl.bbp.uima.ae.OpenNlpHelper.getPosTagger;
 import static ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter;
 import static ch.epfl.bbp.uima.ae.OpenNlpHelper.getTokenizer;
 import static ch.epfl.bbp.uima.testutils.UimaTests.getTestCas;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
@@ -63,7 +62,7 @@ public class ChunkAdapterTest {
 	@Test
 	public void endOfSentenceTest() throws Exception {
 		SimplePipelineBuilder builder = new SimplePipelineBuilder(
-				createReaderDescription(PdfCollectionReader.class, JULIE_TSD,//
+				createReaderDescription(PdfCollectionReader.class,//
 						PARAM_INPUT_DIRECTORY, EXTRACT_ROOT
 								+ "src/test/resources/test_pdfs/chunk_adapter"));
 

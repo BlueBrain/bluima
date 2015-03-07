@@ -1,12 +1,11 @@
 package ch.epfl.bbp.uima.mongo;
 
 import static ch.epfl.bbp.uima.BlueCasUtil.asList;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
+import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
+import static org.apache.uima.fit.util.JCasUtil.selectSingle;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.slf4j.LoggerFactory.getLogger;
-import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
-import static org.apache.uima.fit.util.JCasUtil.selectSingle;
 
 import java.util.List;
 
@@ -71,7 +70,7 @@ public class MongoFieldMappingTest {
 
         // read
         List<JCas> l = asList(createReader(
-                MongoCollectionReader.class, JULIE_TSD,
+                MongoCollectionReader.class, 
                 BlueUima.PARAM_DB_CONNECTION, conn));
         assertEquals(1, l.size());
 

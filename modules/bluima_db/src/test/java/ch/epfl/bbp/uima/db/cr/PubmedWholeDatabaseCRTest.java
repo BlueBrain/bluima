@@ -4,7 +4,6 @@ import static ch.epfl.bbp.uima.BlueUima.PARAM_DB_CONNECTION;
 import static ch.epfl.bbp.uima.ae.StatsAnnotatorPlus.PARAM_PRINT_EVERY;
 import static ch.epfl.bbp.uima.cr.PubmedWholeDatabaseCR.PARAM_EXPAND_ABBREVIATIONS;
 import static ch.epfl.bbp.uima.testutils.UimaTests.assertResultsContains;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
@@ -28,8 +27,7 @@ public class PubmedWholeDatabaseCRTest {
     @Test
     public void test() throws Exception {
 
-        CollectionReader cr = createReader(PubmedWholeDatabaseCR.class,
-                JULIE_TSD);
+        CollectionReader cr = createReader(PubmedWholeDatabaseCR.class);
 
         CAS cas = createCas(cr.getProcessingResourceMetaData());
         cr.getNext(cas);
@@ -53,9 +51,8 @@ public class PubmedWholeDatabaseCRTest {
         String[] conn = { "127.0.0.1", "bb_pubmed", "root", "" };
 
         runPipeline(
-                createReader(PubmedWholeDatabaseCR.class, JULIE_TSD,
-                        PARAM_DB_CONNECTION, conn, PARAM_EXPAND_ABBREVIATIONS,
-                        true),
+                createReader(PubmedWholeDatabaseCR.class, PARAM_DB_CONNECTION,
+                        conn, PARAM_EXPAND_ABBREVIATIONS, true),
                 createEngine(StatsAnnotatorPlus.class, PARAM_PRINT_EVERY, 1000));
     }
 

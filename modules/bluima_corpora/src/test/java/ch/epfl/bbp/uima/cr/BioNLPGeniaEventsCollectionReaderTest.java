@@ -20,7 +20,7 @@ public class BioNLPGeniaEventsCollectionReaderTest {
     public void test() throws Exception {
 
 	CollectionReader cr = CollectionReaderFactory.createReader(
-		BioNLPGeniaEventsCollectionReader.class, TypeSystem.JULIE_TSD);
+		BioNLPGeniaEventsCollectionReader.class);
 
 	int i = 0;
 	while (cr.hasNext()) {

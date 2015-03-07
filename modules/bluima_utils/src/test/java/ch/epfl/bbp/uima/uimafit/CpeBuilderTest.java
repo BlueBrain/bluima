@@ -2,7 +2,6 @@ package ch.epfl.bbp.uima.uimafit;
 
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT;
 import static ch.epfl.bbp.uima.testutils.UimaTests.getTestCas;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription;
 import static org.apache.uima.fit.util.JCasUtil.select;
 import static org.junit.Assert.assertEquals;
@@ -22,7 +21,7 @@ public class CpeBuilderTest {
     public void testCpeBuilder() throws Exception {
 
         PipelineBuilder cpeBuilder = new CpeBuilder(createReaderDescription(
-                TextArrayReader.class, JULIE_TSD, PARAM_INPUT,
+                TextArrayReader.class,  PARAM_INPUT,
                 new String[] { "hello world. how goes?" }))
                 .setMaxProcessingUnitThreatCount(1);
 

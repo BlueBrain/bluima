@@ -4,10 +4,9 @@ import static ch.epfl.bbp.uima.BlueCasUtil.asList;
 import static ch.epfl.bbp.uima.BlueCasUtil.getHeaderIntDocId;
 import static ch.epfl.bbp.uima.BlueUima.BLUE_UTILS_TEST_BASE;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT_FILE;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
-import static org.junit.Assert.assertEquals;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.apache.uima.fit.util.JCasUtil.selectSingle;
+import static org.junit.Assert.assertEquals;
 
 import java.io.File;
 import java.util.List;
@@ -32,7 +31,7 @@ public class FromFilelistReaderTest {
         writer.close();
 
         List<JCas> jCases = asList(createReader(FromFilelistReader.class,
-                JULIE_TSD, PARAM_INPUT_FILE, tmp.getAbsolutePath()));
+                PARAM_INPUT_FILE, tmp.getAbsolutePath()));
         assertEquals(2, jCases.size());
         assertEquals(1, getHeaderIntDocId(jCases.get(0)));
     }
@@ -47,8 +46,8 @@ public class FromFilelistReaderTest {
         writer.close();
 
         List<JCas> jCases = asList(createReader(FromFilelistReader.class,
-                JULIE_TSD, PARAM_INPUT_FILE, tmp.getAbsolutePath(),
-                BlueUima.PARAM_FORMAT, true));
+                PARAM_INPUT_FILE, tmp.getAbsolutePath(), BlueUima.PARAM_FORMAT,
+                true));
         assertEquals(1, jCases.size());
         assertEquals(1, getHeaderIntDocId(jCases.get(0)));
 

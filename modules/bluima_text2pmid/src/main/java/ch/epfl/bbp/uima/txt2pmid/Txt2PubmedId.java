@@ -2,7 +2,6 @@ package ch.epfl.bbp.uima.txt2pmid;
 
 import static ch.epfl.bbp.uima.txt2pmid.Txt2PubmedIdIndexer.CONTENT_FIELD;
 import static ch.epfl.bbp.uima.txt2pmid.Txt2PubmedIdIndexer.PMID_FIELD;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static com.google.common.base.Splitter.on;
 import static com.google.common.collect.Lists.newArrayList;
 import static com.google.common.collect.Lists.partition;
@@ -71,7 +70,7 @@ public class Txt2PubmedId {
 	public PmId extract(File pdfF) {
 		try {
 			// parse pdf
-			JCas jCas = JCasFactory.createJCas(JULIE_TSD);
+			JCas jCas = JCasFactory.createJCas();
 			PDFTextStream pdf = new PDFTextStream(pdfF);
 			BlockHandler blueHandler = new BlockHandler();
 			pdf.pipe(blueHandler);

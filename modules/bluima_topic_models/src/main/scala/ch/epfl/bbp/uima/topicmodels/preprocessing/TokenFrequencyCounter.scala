@@ -19,11 +19,11 @@ object TokenFrequencyCounter extends App {
   val rawCorpusPath = GenericConf.pubmedAbstractsRawCorpusDir
 
   val reader = CollectionReaderFactory.createReaderDescription(classOf[SingleFileCollectionReader],
-    TypeSystem.JULIE_TSD: TypeSystemDescription, SingleFileCollectionReader.FilePath, rawCorpusPath)
+    SingleFileCollectionReader.FilePath, rawCorpusPath)
 
   val pre = PreprocessingEngine.getPubmedRawPreprocessing()
 
-  val post = AnalysisEngineFactory.createEngineDescription(classOf[TokenFrequencyCounterWriter], TypeSystem.JULIE_TSD,
+  val post = AnalysisEngineFactory.createEngineDescription(classOf[TokenFrequencyCounterWriter],
     TokenFrequencyCounterWriter.FilePath, outDir + "/token_frequency") :: Nil
 
   val annotators = (pre ::: post)

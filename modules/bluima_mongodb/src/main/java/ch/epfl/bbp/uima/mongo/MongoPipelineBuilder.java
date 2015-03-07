@@ -2,7 +2,6 @@ package ch.epfl.bbp.uima.mongo;
 
 import static ch.epfl.bbp.uima.BlueUima.PARAM_DB_CONNECTION;
 import static ch.epfl.bbp.uima.mongo.MongoUpdateWriter.PARAM_UPDATE_ANNOTATIONS;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription;
 
 import java.io.IOException;
@@ -49,7 +48,7 @@ public class MongoPipelineBuilder extends CpeBuilder {
     public MongoPipelineBuilder(int nrThreads, String[] connection,
             String... updateAnnotations) throws IOException, SAXException,
             CpeDescriptorException, ResourceInitializationException {
-        super(createReaderDescription(MongoCollectionReader.class, JULIE_TSD,
+        super(createReaderDescription(MongoCollectionReader.class,
                 PARAM_DB_CONNECTION, connection));
         this.setMaxProcessingUnitThreatCount(nrThreads);
         this.connection = connection;

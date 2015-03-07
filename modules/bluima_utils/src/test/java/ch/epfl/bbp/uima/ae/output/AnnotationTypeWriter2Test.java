@@ -6,8 +6,8 @@ import static ch.epfl.bbp.uima.BlueUima.PARAM_FEATURE_NAME;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_OUTPUT_FILE;
 import static ch.epfl.bbp.uima.testutils.UimaTests.createAnnot;
-import static ch.epfl.bbp.uima.testutils.UimaTests.*;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
+import static ch.epfl.bbp.uima.testutils.UimaTests.getTestCas;
+import static ch.epfl.bbp.uima.testutils.UimaTests.getTokenizedTestCas;
 import static ch.epfl.bbp.uima.utils.Preconditions.checkFileExists;
 import static java.lang.System.currentTimeMillis;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine;
@@ -24,7 +24,6 @@ import ch.epfl.bbp.uima.ae.EnsureDocHasOneSentence;
 import ch.epfl.bbp.uima.ae.WhitespaceTokenizerAnnotator;
 import ch.epfl.bbp.uima.cr.TextArrayReader;
 import ch.epfl.bbp.uima.types.ProteinDictTerm;
-import de.julielab.jules.types.DocumentAnnotation;
 import de.julielab.jules.types.Token;
 
 public class AnnotationTypeWriter2Test {
@@ -37,7 +36,7 @@ public class AnnotationTypeWriter2Test {
                 + System.currentTimeMillis();
 
         runPipeline(
-                createReader(TextArrayReader.class, JULIE_TSD, PARAM_INPUT,
+                createReader(TextArrayReader.class, PARAM_INPUT,
                         input),
 
                 createEngine(EnsureDocHasOneSentence.class),

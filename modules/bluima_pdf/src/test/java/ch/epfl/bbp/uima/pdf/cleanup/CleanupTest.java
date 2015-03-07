@@ -4,7 +4,6 @@ import static ch.epfl.bbp.uima.BlueCasUtil.asList;
 import static ch.epfl.bbp.uima.BlueCasUtil.getHeaderSource;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT_DIRECTORY;
 import static ch.epfl.bbp.uima.PdfHelper.PDF_TEST_RESOURCES;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertTrue;
@@ -27,7 +26,7 @@ public class CleanupTest {
     public void testCleanup() throws Exception {
 
         for (JCas pdf : asList(createReader(PdfCollectionReader.class,
-                JULIE_TSD, PARAM_INPUT_DIRECTORY, PDF_TEST_RESOURCES + "pdf/"))) {
+                PARAM_INPUT_DIRECTORY, PDF_TEST_RESOURCES + "pdf/"))) {
 
             if (getHeaderSource(pdf).endsWith("resources/pdf/1.pdf")) {
 

@@ -1,8 +1,6 @@
 package ch.epfl.bbp.uima.laucher;
 
 import static ch.epfl.bbp.uima.ae.BeanshellAnnotator.SCRIPT_STRING;
-import static ch.epfl.bbp.uima.ae.PrintCommentAnnotator.MSG_STRING;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static com.google.common.base.Preconditions.checkArgument;
 import static com.google.common.collect.Sets.newHashSet;
 import static java.lang.Integer.parseInt;
@@ -42,7 +40,6 @@ import bsh.Interpreter;
 import ch.epfl.bbp.IteratorWithPrevious;
 import ch.epfl.bbp.uima.BlueUima;
 import ch.epfl.bbp.uima.ae.BeanshellAnnotator;
-import ch.epfl.bbp.uima.ae.PrintCommentAnnotator;
 import ch.epfl.bbp.uima.jython.JythonAnnotator2;
 
 /**
@@ -161,8 +158,6 @@ public class PipelineScriptParser {
                 parsePython(it, pipeline);
             } else if (current.startsWith("java:")) {
                 parseJava(it, pipeline);
-            } else if (current.startsWith("print:")) {
-                parsePrint(current, pipeline);
             } else {
                 throw new ParseException(
                         "could not parse line '"
@@ -170,7 +165,7 @@ public class PipelineScriptParser {
                                 + "'\n--> line should start with one of the "
                                 + "following, followed by a space:\n# (a comment)\n\nthreads:\n"
                                 + "cr:\nae:\nae_java:\ninclude:\npython:\njava:\n"
-                                + "print:\nmax_errors:\n", -1);
+                                + "max_errors:\n", -1);
             }
         }
         return pipeline;
@@ -264,17 +259,6 @@ public class PipelineScriptParser {
         }
     }
 
-    /** Creates an AE that prints the given msg */
-    private static void parsePrint(String msg, Pipeline pipeline)
-            throws ParseException {
-        try {
-            pipeline.aeds.add(createEngineDescription(
-                    PrintCommentAnnotator.class, MSG_STRING, msg.trim()));
-        } catch (ResourceInitializationException e) {
-            throw new ParseException("could not create aed with msg " + msg, -1);
-        }
-    }
-
     /** parse include commands */
     private static void parseInclude(String line, Pipeline pipeline,
             String parentFilePath, List<String> cliArgs) throws ParseException {
@@ -365,7 +349,7 @@ public class PipelineScriptParser {
         // create cr
         try {
             CollectionReaderDescription descr = createReaderDescription(classz,
-                    JULIE_TSD, params.getKey().toArray());
+                    params.getKey().toArray());
             String name = descr.getMetaData().getName();
             if (name == null) {
                 ResourceMetaData metaData = descr.getMetaData();

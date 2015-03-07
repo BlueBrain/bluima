@@ -6,7 +6,6 @@ import static ch.epfl.bbp.uima.BlueUima.PARAM_BETWEEN;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT_DIRECTORY;
 import static ch.epfl.bbp.uima.ae.StatsAnnotatorPlus.PARAM_PRINT_EVERY;
 import static ch.epfl.bbp.uima.testutils.UimaTests.getTestCas;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static java.lang.System.currentTimeMillis;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
@@ -51,18 +50,18 @@ public class RangeBinaryCasReaderTest {
 
         // READING
         List<JCas> res = asList(createReader(RangeBinaryCasReader.class,
-                JULIE_TSD, PARAM_INPUT_DIRECTORY, out, PARAM_BETWEEN,
+                PARAM_INPUT_DIRECTORY, out, PARAM_BETWEEN,
                 new int[] { 1, 5000 }));
         assertEquals("with upper bound 5000, all 3 test cases are returned", 3,
                 res.size());
 
-        res = asList(createReader(RangeBinaryCasReader.class, JULIE_TSD,
+        res = asList(createReader(RangeBinaryCasReader.class,
                 PARAM_INPUT_DIRECTORY, out, PARAM_BETWEEN, new int[] { 1, 500 }));
         assertEquals(
                 "with upper bound 500, only first 2 test cases are returned",
                 2, res.size());
 
-        res = asList(createReader(RangeBinaryCasReader.class, JULIE_TSD,
+        res = asList(createReader(RangeBinaryCasReader.class,
                 PARAM_INPUT_DIRECTORY, out, PARAM_BETWEEN, new int[] { 10000,
                         10500 }));
         assertEquals("with upper bound too high, NO docs are returned", 0,
@@ -73,7 +72,7 @@ public class RangeBinaryCasReaderTest {
         String out = "/Volumes/simulation/nlp/data/20131120_preprocessed/";
 
         CpeBuilder.runPipeline(
-                createReaderDescription(RangeBinaryCasReader.class, JULIE_TSD,
+                createReaderDescription(RangeBinaryCasReader.class,
                         PARAM_INPUT_DIRECTORY, out, PARAM_BETWEEN, new int[] {
                                 15000000, 15005000 }),
                 createEngineDescription(StatsAnnotatorPlus.class,

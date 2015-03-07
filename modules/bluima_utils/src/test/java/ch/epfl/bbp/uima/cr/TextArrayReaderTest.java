@@ -2,7 +2,6 @@ package ch.epfl.bbp.uima.cr;
 
 import static ch.epfl.bbp.uima.BlueCasUtil.asList;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.junit.Assert.assertEquals;
 
@@ -18,7 +17,7 @@ public class TextArrayReaderTest {
 
         String[] testText = { "This is doc1.", "This is doc2." };
 
-        List<JCas> docs = asList(createReader(TextArrayReader.class, JULIE_TSD,
+        List<JCas> docs = asList(createReader(TextArrayReader.class,
                 PARAM_INPUT, testText));
 
         assertEquals(2, docs.size());

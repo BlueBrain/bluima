@@ -1,8 +1,8 @@
 package ch.epfl.bbp.nlp.rabbit;
 
 import static ch.epfl.bbp.nlp.rabbit.Rabbitify.RABBITIFY_HOME;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
-import static org.junit.Assert.*;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import java.io.File;
 import java.io.IOException;
@@ -67,7 +67,7 @@ public class RabbitifyTest {
         byte[] serialized = RabbitWriter.serialize(jCas.getCas());
 
         // deserialize
-        JCas jCas2 = JCasFactory.createJCas(JULIE_TSD);
+        JCas jCas2 = JCasFactory.createJCas();
         RabbitWriter.deserialize(jCas2.getCas(), serialized);
 
         assertEquals(jCas.getDocumentText(), jCas2.getDocumentText());

@@ -1,7 +1,6 @@
 package ch.epfl.bbp.uima.cr;
 
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT_FILE;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.junit.Assert.assertTrue;
 
@@ -25,7 +24,7 @@ public class XmlTestcaseCollectionReaderTest {
     public void test() throws Exception {
 
         CollectionReader cr = createReader(XmlTestcaseCollectionReader.class,
-                JULIE_TSD, PARAM_INPUT_FILE, "testcases/example.xml");
+                PARAM_INPUT_FILE, "testcases/example.xml");
 
         CAS cas = CasCreationUtils
                 .createCas(cr.getProcessingResourceMetaData());

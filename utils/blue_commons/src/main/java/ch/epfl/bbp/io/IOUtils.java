@@ -90,6 +90,52 @@ public class IOUtils {
     }
 
     /**
+     * Sniffs the content type for images and other common types
+     * 
+     * @param inpuStream
+     *            the inputStream to sniff
+     * @return the content type of the stream if it matches a known signature,
+     *         otherwise Null
+     * @throws IOException
+     */
+    protected static String sniffContentType(InputStream inputStream)
+            throws IOException {
+        if (inputStream == null)
+            return null;
+        byte[] bytes = new byte[8];
+        inputStream.read(bytes);
+        String[] hex = new String[8];
+        String hexString = "";
+        for (int i = 0; i < 8; i++) {
+            hex[i] = getHexValue(bytes[i]);
+            hexString += hex[i] + " ";
+        }
+        String prefix = new String(bytes);
+        if (prefix.startsWith("GIF87") || prefix.startsWith("GIF89"))
+            return "image/gif";
+        if (hex[0].equals("ff") && hex[1].equals("d8"))
+            return "image/jpeg";
+        if (hex[0].equals("42") && hex[1].equals("4d"))
+            return "image/bmp";
+        if (hex[0].equals("00") && hex[1].equals("00") && hex[2].equals("01")
+                && hex[3].equals("00"))
+            return "image/vnd.microsoft.icon";
+        if (hexString.trim().equals("89 50 4e 47 0d 0a 1a 0a"))
+            return "image/png";
+        return null;
+    }
+
+    private static String getHexValue(byte b) {
+        String hex;
+        hex = Integer.toHexString(0x00 | b);
+        if (hex.length() == 1)
+            hex = "0" + hex;
+        if (hex.length() > 2)
+            hex = hex.substring(hex.length() - 2);
+        return hex;
+    }
+
+    /**
      * @param inFile
      *            a zip file containing a unique file
      */

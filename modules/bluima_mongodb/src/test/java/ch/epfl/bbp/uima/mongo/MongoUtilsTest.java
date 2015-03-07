@@ -1,9 +1,8 @@
 package ch.epfl.bbp.uima.mongo;
 
 import static ch.epfl.bbp.uima.BlueCasUtil.asList;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
-import static org.junit.Assert.assertEquals;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
+import static org.junit.Assert.assertEquals;
 
 import java.util.List;
 
@@ -28,7 +27,7 @@ public class MongoUtilsTest {
 
         String query = "{ftr.blih:1}";
         List<JCas> l = asList(createReader(
-                MongoCollectionReader.class, JULIE_TSD,
+                MongoCollectionReader.class, 
                 BlueUima.PARAM_DB_CONNECTION, conn, BlueUima.PARAM_QUERY, query));
         assertEquals("there should be 3 docs with flag 'blih'", 3, l.size());
 
@@ -37,7 +36,7 @@ public class MongoUtilsTest {
 
         query = "{ftr.blah:1}";
         l = asList(createReader(MongoCollectionReader.class,
-                JULIE_TSD, BlueUima.PARAM_DB_CONNECTION, conn,
+                 BlueUima.PARAM_DB_CONNECTION, conn,
                 BlueUima.PARAM_QUERY, query));
         assertEquals("there should be 2 docs with flag 'blah'", 2, l.size());
     }
@@ -56,7 +55,7 @@ public class MongoUtilsTest {
 
         String query = "{ftr.blih:1}";
         List<JCas> l = asList(createReader(
-                MongoCollectionReader.class, JULIE_TSD,
+                MongoCollectionReader.class, 
                 BlueUima.PARAM_DB_CONNECTION, conn, BlueUima.PARAM_QUERY, query));
         assertEquals("there should be 2 docs with flag 'blah'", 6, l.size());
 
@@ -70,13 +69,13 @@ public class MongoUtilsTest {
 
         query = "{ $and: [ { ftr.blah: 1 }, { ftr.bluh: 1} ] }";
         l = asList(createReader(MongoCollectionReader.class,
-                JULIE_TSD, BlueUima.PARAM_DB_CONNECTION, conn,
+                 BlueUima.PARAM_DB_CONNECTION, conn,
                 BlueUima.PARAM_QUERY, query));
         assertEquals("there should be 1 docs", 1, l.size());
 
         query = "{ $and: [ { ftr.blah: { $ne: 1 } }, { ftr.bluh: 1} ] }";
         l = asList(createReader(MongoCollectionReader.class,
-                JULIE_TSD, BlueUima.PARAM_DB_CONNECTION, conn,
+                 BlueUima.PARAM_DB_CONNECTION, conn,
                 BlueUima.PARAM_QUERY, query));
         assertEquals("there should be 2 docs", 2, l.size());
 

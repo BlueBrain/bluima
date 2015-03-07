@@ -3,11 +3,10 @@ package ch.epfl.bbp.uima.units.regex;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT_DIRECTORY;
 import static ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.BLUE_UIMA_MEASURES;
 import static ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.addMeasureAnnotators;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
-import static org.junit.Assert.assertEquals;
-import static org.slf4j.LoggerFactory.getLogger;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription;
 import static org.apache.uima.fit.util.JCasUtil.select;
+import static org.junit.Assert.assertEquals;
+import static org.slf4j.LoggerFactory.getLogger;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -18,19 +17,17 @@ import org.apache.uima.UIMAException;
 import org.apache.uima.cas.Feature;
 import org.apache.uima.cas.text.AnnotationFS;
 import org.apache.uima.collection.metadata.CpeDescriptorException;
+import org.apache.uima.fit.util.CasUtil;
 import org.apache.uima.jcas.JCas;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
-import org.apache.uima.fit.util.CasUtil;
-import org.apache.uima.fit.util.JCasUtil;
 
 import ch.epfl.bbp.uima.ae.MeasureRegexAnnotators;
 import ch.epfl.bbp.uima.ae.OpenNlpHelper;
 import ch.epfl.bbp.uima.annotationviewer.BlueAnnotationViewerAnnotator;
 import ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader;
 import ch.epfl.bbp.uima.testutils.UimaTests;
-import ch.epfl.bbp.uima.types.BodyCitation;
 import ch.epfl.bbp.uima.types.Measure;
 import ch.epfl.bbp.uima.typesystem.To;
 import ch.epfl.bbp.uima.uimafit.JcasPipelineBuilder;
@@ -83,7 +80,7 @@ public class MeasureRegexAnnotatorTest {
         String pdfs = "/Users/richarde/data/_papers_etc/pmc_pdfs_sample/";
 
         PipelineBuilder pipeline = new SimplePipelineBuilder(createReaderDescription(
-                PdfCollectionReader.class, JULIE_TSD, PARAM_INPUT_DIRECTORY,
+                PdfCollectionReader.class,  PARAM_INPUT_DIRECTORY,
                 pdfs));
 
         addMeasureAnnotators(pipeline);

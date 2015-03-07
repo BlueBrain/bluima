@@ -7,13 +7,12 @@ import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT;
 import static ch.epfl.bbp.uima.ae.DatabaseAnnotationWriter.PARAM_CREATE_TABLE_STATEMENT;
 import static ch.epfl.bbp.uima.ae.DatabaseAnnotationWriter.PARAM_INSERT_STATEMENT;
 import static ch.epfl.bbp.uima.cr.PubmedDatabaseCR.getDb;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static java.lang.System.currentTimeMillis;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 import java.sql.ResultSet;
 
@@ -55,7 +54,7 @@ public class DatabaseAnnotationWriterTest {
                 Token.class.getName(), PARAM_ANNOTATION_FIELDS, fields);
 
         runPipeline(
-                createReader(TextArrayReader.class, JULIE_TSD,
+                createReader(TextArrayReader.class, 
                         PARAM_INPUT, new String[] { "bli blah", "boo" }), //
                 createEngineDescription(NaiveSentenceSplitterAnnotator.class),
                 createEngineDescription(WhitespaceTokenizerAnnotator.class),

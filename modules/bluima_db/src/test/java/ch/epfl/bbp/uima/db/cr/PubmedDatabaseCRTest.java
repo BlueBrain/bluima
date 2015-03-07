@@ -4,7 +4,6 @@ import static ch.epfl.bbp.uima.BlueCasUtil.asList;
 import static ch.epfl.bbp.uima.BlueCasUtil.getHeaderIntDocId;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_BETWEEN;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_SKIP_EMPTY_DOCS;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.junit.Assert.assertEquals;
 
@@ -19,13 +18,14 @@ import org.junit.Test;
 import ch.epfl.bbp.uima.BlueUima;
 import ch.epfl.bbp.uima.cr.PubmedDatabaseCR;
 
-@Ignore //TODO requires db access
+@Ignore
+// TODO requires db access
 public class PubmedDatabaseCRTest {
 
     @Test
     public void testLimit10() throws Exception {
 
-        CollectionReader cr = createReader(PubmedDatabaseCR.class, JULIE_TSD,
+        CollectionReader cr = createReader(PubmedDatabaseCR.class,
                 BlueUima.PARAM_BETWEEN, new int[] { 0, 9 },
                 BlueUima.PARAM_SKIP_EMPTY_DOCS, false);
 
@@ -42,8 +42,8 @@ public class PubmedDatabaseCRTest {
     public void testOffset10() throws Exception {
 
         List<JCas> jCases = asList(createReader(PubmedDatabaseCR.class,
-                JULIE_TSD, PARAM_BETWEEN, new int[] { 5, 14 },
-                PARAM_SKIP_EMPTY_DOCS, false));
+                PARAM_BETWEEN, new int[] { 5, 14 }, PARAM_SKIP_EMPTY_DOCS,
+                false));
 
         assertEquals(10, jCases.size());
     }

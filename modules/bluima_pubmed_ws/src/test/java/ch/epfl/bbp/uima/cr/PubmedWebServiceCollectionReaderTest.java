@@ -2,12 +2,11 @@ package ch.epfl.bbp.uima.cr;
 
 import static ch.epfl.bbp.uima.BlueUima.PARAM_MAX_NR_RESULTS;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_QUERY;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
+import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
+import static org.apache.uima.fit.util.JCasUtil.selectSingle;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.slf4j.LoggerFactory.getLogger;
-import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
-import static org.apache.uima.fit.util.JCasUtil.selectSingle;
 
 import java.util.Iterator;
 import java.util.List;
@@ -27,7 +26,7 @@ public class PubmedWebServiceCollectionReaderTest {
     public void testCat() throws Exception {
 
         CollectionReader cr = createReader(
-                PubmedWebServiceCollectionReader.class, JULIE_TSD,//
+                PubmedWebServiceCollectionReader.class,//
                 PARAM_QUERY, "mouse", PARAM_MAX_NR_RESULTS, 20);
 
         List<JCas> results = BlueCasUtil.asList(cr);

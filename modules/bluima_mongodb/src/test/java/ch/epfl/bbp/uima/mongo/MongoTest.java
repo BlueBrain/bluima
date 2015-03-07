@@ -5,19 +5,18 @@ import static ch.epfl.bbp.uima.BlueUima.PARAM_BETWEEN;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_DB_CONNECTION;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_FIELD_NAME;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_QUERY;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.apache.uima.fit.util.JCasUtil.selectSingle;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 import java.util.List;
 
+import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.jcas.tcas.Annotation;
 import org.junit.BeforeClass;
 import org.junit.Test;
-import org.apache.uima.fit.util.JCasUtil;
 
 import ch.epfl.bbp.uima.BlueUima;
 import ch.epfl.bbp.uima.testutils.UimaTests;
@@ -59,7 +58,7 @@ public class MongoTest {
 
         // read
         List<JCas> l = asList(createReader(
-                MongoCollectionReader.class, JULIE_TSD,
+                MongoCollectionReader.class, 
                 BlueUima.PARAM_DB_CONNECTION, conn));
         assertEquals(1, l.size());
 
@@ -84,7 +83,7 @@ public class MongoTest {
 
         String query = "{_id: \"17\"}";
         List<JCas> l = asList(createReader(
-                MongoCollectionReader.class, JULIE_TSD,
+                MongoCollectionReader.class, 
                 BlueUima.PARAM_DB_CONNECTION, conn, BlueUima.PARAM_QUERY, query));
         assertEquals(1, l.size());
     }
@@ -94,19 +93,19 @@ public class MongoTest {
 
         String query = "{pmid: { $gt: 12, $lt: 19 }}";
         List<JCas> l = asList(createReader(
-                MongoCollectionReader.class, JULIE_TSD,
+                MongoCollectionReader.class, 
                 BlueUima.PARAM_DB_CONNECTION, conn, BlueUima.PARAM_QUERY, query));
         assertEquals(1, l.size());
 
         query = "{pmid: { $gt: 18, $lt: 19 }}";
         l = asList(createReader(MongoCollectionReader.class,
-                JULIE_TSD, BlueUima.PARAM_DB_CONNECTION, conn,
+                 BlueUima.PARAM_DB_CONNECTION, conn,
                 BlueUima.PARAM_QUERY, query));
         assertEquals(0, l.size());
 
         query = "{pmid: { $gt: 8, $lt: 11 }}";
         l = asList(createReader(MongoCollectionReader.class,
-                JULIE_TSD, BlueUima.PARAM_DB_CONNECTION, conn,
+                 BlueUima.PARAM_DB_CONNECTION, conn,
                 BlueUima.PARAM_QUERY, query));
         assertEquals(0, l.size());
     }
@@ -116,13 +115,13 @@ public class MongoTest {
 
         String query = "{pmid:{$in:[12,17]}}";
         List<JCas> l = asList(createReader(
-                MongoCollectionReader.class, JULIE_TSD,
+                MongoCollectionReader.class, 
                 BlueUima.PARAM_DB_CONNECTION, conn, BlueUima.PARAM_QUERY, query));
         assertEquals(1, l.size());
 
         query = "{pmid:{$in:[12,16]}}";
         l = asList(createReader(MongoCollectionReader.class,
-                JULIE_TSD, BlueUima.PARAM_DB_CONNECTION, conn,
+                 BlueUima.PARAM_DB_CONNECTION, conn,
                 BlueUima.PARAM_QUERY, query));
         assertEquals(0, l.size());
     }
@@ -132,7 +131,7 @@ public class MongoTest {
 
         String query = "{_id: \"1sadfsaf7\"}";
         List<JCas> l = asList(createReader(
-                MongoCollectionReader.class, JULIE_TSD,
+                MongoCollectionReader.class, 
                 BlueUima.PARAM_DB_CONNECTION, conn, BlueUima.PARAM_QUERY, query));
         assertEquals(0, l.size());
     }
@@ -145,7 +144,7 @@ public class MongoTest {
         for (String positivePattern : new String[] { "..", "17", ".7", "1.",
                 ".*" }) {
             List<JCas> l = asList(createReader(
-                    RegexMongoCollectionReader.class, JULIE_TSD,
+                    RegexMongoCollectionReader.class, 
                     PARAM_DB_CONNECTION, conn, PARAM_QUERY, positivePattern,
                     PARAM_FIELD_NAME, field));
             assertEquals("pattern " + positivePattern + " should match", 1,
@@ -154,7 +153,7 @@ public class MongoTest {
 
         for (String negPattern : new String[] { ".2", ".*aF" }) {
             List<JCas> l = asList(createReader(
-                    RegexMongoCollectionReader.class, JULIE_TSD,
+                    RegexMongoCollectionReader.class, 
                     PARAM_DB_CONNECTION, conn, PARAM_QUERY, negPattern,
                     PARAM_FIELD_NAME, field));
             assertEquals("pattern " + negPattern + " should NOT match", 0,
@@ -166,12 +165,12 @@ public class MongoTest {
     public void testBetween() throws Exception {
 
         List<JCas> l = asList(createReader(
-                BetweenMongoCollectionReader.class, JULIE_TSD,
+                BetweenMongoCollectionReader.class, 
                 PARAM_DB_CONNECTION, conn, PARAM_BETWEEN, new int[] { 12, 19 }));
         assertEquals("[12-19] should find 17", 1, l.size());
 
         l = asList(createReader(BetweenMongoCollectionReader.class,
-                JULIE_TSD, PARAM_DB_CONNECTION, conn, PARAM_BETWEEN, new int[] {
+                 PARAM_DB_CONNECTION, conn, PARAM_BETWEEN, new int[] {
                         12, 14 }));
         assertEquals("[12-14] should not find 17", 0, l.size());
 

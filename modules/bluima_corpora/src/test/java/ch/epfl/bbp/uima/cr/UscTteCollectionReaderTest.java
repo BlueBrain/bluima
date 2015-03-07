@@ -3,7 +3,6 @@ package ch.epfl.bbp.uima.cr;
 import static ch.epfl.bbp.StringUtils.snippetize;
 import static ch.epfl.bbp.uima.BlueCasUtil.asList;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT_DIRECTORY;
-import static ch.epfl.bbp.uima.typesystem.TypeSystem.JULIE_TSD;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReader;
 import static org.apache.uima.fit.util.JCasUtil.select;
 
@@ -27,8 +26,7 @@ public class UscTteCollectionReaderTest {
     public void test() throws Exception {
 
         for (JCas jCas : BlueCasUtil.asList(createReader(
-                UscTteCollectionReader.class, JULIE_TSD, PARAM_INPUT_DIRECTORY,
-                "dummy"))) {
+                UscTteCollectionReader.class, PARAM_INPUT_DIRECTORY, "dummy"))) {
 
             LOG.debug("text: {}", snippetize(jCas.getDocumentText(), 200));
 
@@ -36,10 +34,10 @@ public class UscTteCollectionReaderTest {
             for (BrainRegion br : brs)
                 LOG.debug("{}-{} " + To.string(br), br.getBegin(), br.getEnd());
 
-            //assertEquals(61, brs.size());
+            // assertEquals(61, brs.size());
 
-           // BrainRegion br = brs.iterator().next();
-            //assertEquals("the cerebellum", br.getCoveredText());
+            // BrainRegion br = brs.iterator().next();
+            // assertEquals("the cerebellum", br.getCoveredText());
         }
     }
 }
