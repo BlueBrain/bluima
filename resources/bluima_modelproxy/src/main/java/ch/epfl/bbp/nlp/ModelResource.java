@@ -1,5 +1,8 @@
 package ch.epfl.bbp.nlp;
 
 public interface ModelResource {
-    public String getResourceName();
+    /**
+     * Return the path to the resource inside the jar, e.g. `/file.txt`
+     */
+    public String getResourcePath();
 }

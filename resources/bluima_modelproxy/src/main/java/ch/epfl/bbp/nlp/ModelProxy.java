@@ -12,11 +12,12 @@ public class ModelProxy {
      * Open a stream to a given model's resource
      * 
      * @param modelclass
-     *            a ModelResource class
-     * @return an input stream or null if no resource was found
+     *            a class name that implements ModelResource
+     * @return an input stream
      * @throws ModelProxyException
-     *             if the class couldn't be found, is not a ModelResource or if
-     *             an instance of this class couldn't be created
+     *             if the class or its resource couldn't be found, or if the
+     *             class is not implementing ModelResource or if an instance of
+     *             this class couldn't be created
      */
     public static ModelStream getStream(String modelclass)
             throws ModelProxyException {
@@ -27,10 +28,14 @@ public class ModelProxy {
                     .forName(modelclass);
             return getStream(res.newInstance());
 
-        } catch (Exception e) {
-            throw new ModelProxyException("Unable to load resource from "
-                    + modelclass, e);
+        } catch (InstantiationException | IllegalAccessException e) {
+            String err = "Unable to instanciate " + modelclass;
+            throw new ModelProxyException(err, e);
+        } catch (ClassNotFoundException e) {
+            String err = "Unable to find class " + modelclass;
+            throw new ModelProxyException(err, e);
         }
+
     }
 
     /**
@@ -39,9 +44,12 @@ public class ModelProxy {
      * @param res
      *            A model resource
      * @return an input stream or null if no resource was found
+     * @throws ModelProxyException
+     *             if the resource couldn't be opened
      */
-    public static ModelStream getStream(ModelResource res) {
-        return getStream(res.getClass(), res.getResourceName());
+    public static ModelStream getStream(ModelResource res)
+            throws ModelProxyException {
+        return getStream(res.getClass(), res.getResourcePath());
     }
 
     /**
@@ -52,12 +60,21 @@ public class ModelProxy {
      * @param filepath
      *            path to the file with the root of the path (`/`) being the
      *            root of the jar archive
-     * @return an input stream or null if no resource was found
+     * @return an input stream
+     * @throws ModelProxyException
+     *             if the resource couldn't be opened
      */
-    public static <T> ModelStream getStream(Class<T> klass, String filepath) {
+    public static <T> ModelStream getStream(Class<T> klass, String filepath)
+            throws ModelProxyException {
+
         String name = new File(filepath).getName();
-        ClassLoader loader = klass.getClassLoader();
-        InputStream stream = loader.getResourceAsStream(filepath);
+        InputStream stream = klass.getResourceAsStream(filepath);
+
+        if (stream == null) {
+            String err = "Unable to open stream to " + filepath;
+            throw new ModelProxyException(err);
+        }
+
         return new ModelStream(name, stream);
     }
 }
