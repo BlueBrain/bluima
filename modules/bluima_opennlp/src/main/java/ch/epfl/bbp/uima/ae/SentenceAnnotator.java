@@ -32,7 +32,7 @@ public class SentenceAnnotator extends JCasAnnotator_ImplBase {
     private static Logger LOG = LoggerFactory
             .getLogger(SentenceAnnotator.class);
 
-    @ConfigurationParameter(name = BlueUima.PARAM_MODEL_FILE)
+    @ConfigurationParameter(name = BlueUima.PARAM_MODEL)
     private String model;
 
     /** component id for CAS */
