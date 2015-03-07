@@ -79,6 +79,9 @@
         <module>utils/pdf_glyph_mapping</module>
         <module>utils/mallet_utils</module>
 
+        <!-- ModelProxy does not depend on parent not UIMA -->
+        <module>resources/bluima_modelproxy</module>
+
         <module>modules/bluima_typesystem</module>
         <module>modules/bluima_utils</module>
         <module>modules/bluima_xml</module>
@@ -242,6 +245,12 @@
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-math3</artifactId>
             <version>3.0</version>
+        </dependency>
+
+        <dependency>
+            <artifactId>bluima_modelproxy</artifactId>
+            <groupId>${project.groupId}</groupId>
+            <version>${project.version}</version>
         </dependency>
 
         <!-- UIMA -->
