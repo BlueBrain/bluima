@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:10:28 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** (Named) EntityMention (i.e. An entity is an object or set of objects in the world. Entitiy mentions may be refrenced in a text by their name, indicated by a common noun or noun phrase, or represented by a pronoun) annotation
- * Updated by JCasGen Wed Jun 04 18:01:57 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class EntityMention_Type extends ConceptMention_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class EntityMention_Type extends ConceptMention_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = EntityMention.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.EntityMention");
  
   /** @generated */
   final Feature casFeat_head;
   /** @generated */
   final int     casFeatCode_head;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getHead(int addr) {
         if (featOkTst && casFeat_head == null)
       jcas.throwFeatMissing("head", "de.julielab.jules.types.EntityMention");
     return ll_cas.ll_getRefValue(addr, casFeatCode_head);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setHead(int addr, int v) {
         if (featOkTst && casFeat_head == null)
       jcas.throwFeatMissing("head", "de.julielab.jules.types.EntityMention");
@@ -62,13 +73,19 @@ public class EntityMention_Type extends ConceptMention_Type {
   final Feature casFeat_mentionLevel;
   /** @generated */
   final int     casFeatCode_mentionLevel;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getMentionLevel(int addr) {
         if (featOkTst && casFeat_mentionLevel == null)
       jcas.throwFeatMissing("mentionLevel", "de.julielab.jules.types.EntityMention");
     return ll_cas.ll_getStringValue(addr, casFeatCode_mentionLevel);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setMentionLevel(int addr, String v) {
         if (featOkTst && casFeat_mentionLevel == null)
       jcas.throwFeatMissing("mentionLevel", "de.julielab.jules.types.EntityMention");
@@ -79,7 +96,10 @@ public class EntityMention_Type extends ConceptMention_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public EntityMention_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

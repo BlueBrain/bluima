@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Sun May 27 17:27:29 CEST 2012 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package com.digitalpebble.rasp;
 
 import org.apache.uima.jcas.JCas;
@@ -14,10 +14,12 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** A dependency between two word forms
- * Updated by JCasGen Sun May 27 17:27:29 CEST 2012
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class Dependency_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -48,13 +50,19 @@ public class Dependency_Type extends Annotation_Type {
   final Feature casFeat_deptype;
   /** @generated */
   final int     casFeatCode_deptype;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getDeptype(int addr) {
         if (featOkTst && casFeat_deptype == null)
       jcas.throwFeatMissing("deptype", "com.digitalpebble.rasp.Dependency");
     return ll_cas.ll_getStringValue(addr, casFeatCode_deptype);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setDeptype(int addr, String v) {
         if (featOkTst && casFeat_deptype == null)
       jcas.throwFeatMissing("deptype", "com.digitalpebble.rasp.Dependency");
@@ -66,13 +74,19 @@ public class Dependency_Type extends Annotation_Type {
   final Feature casFeat_subtype;
   /** @generated */
   final int     casFeatCode_subtype;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getSubtype(int addr) {
         if (featOkTst && casFeat_subtype == null)
       jcas.throwFeatMissing("subtype", "com.digitalpebble.rasp.Dependency");
     return ll_cas.ll_getStringValue(addr, casFeatCode_subtype);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setSubtype(int addr, String v) {
         if (featOkTst && casFeat_subtype == null)
       jcas.throwFeatMissing("subtype", "com.digitalpebble.rasp.Dependency");
@@ -84,13 +98,19 @@ public class Dependency_Type extends Annotation_Type {
   final Feature casFeat_head;
   /** @generated */
   final int     casFeatCode_head;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getHead(int addr) {
         if (featOkTst && casFeat_head == null)
       jcas.throwFeatMissing("head", "com.digitalpebble.rasp.Dependency");
     return ll_cas.ll_getRefValue(addr, casFeatCode_head);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setHead(int addr, int v) {
         if (featOkTst && casFeat_head == null)
       jcas.throwFeatMissing("head", "com.digitalpebble.rasp.Dependency");
@@ -102,13 +122,19 @@ public class Dependency_Type extends Annotation_Type {
   final Feature casFeat_dep;
   /** @generated */
   final int     casFeatCode_dep;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getDep(int addr) {
         if (featOkTst && casFeat_dep == null)
       jcas.throwFeatMissing("dep", "com.digitalpebble.rasp.Dependency");
     return ll_cas.ll_getRefValue(addr, casFeatCode_dep);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setDep(int addr, int v) {
         if (featOkTst && casFeat_dep == null)
       jcas.throwFeatMissing("dep", "com.digitalpebble.rasp.Dependency");
@@ -119,7 +145,10 @@ public class Dependency_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public Dependency_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

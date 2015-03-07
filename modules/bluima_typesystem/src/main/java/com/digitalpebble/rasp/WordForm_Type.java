@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Sun May 27 17:27:29 CEST 2012 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package com.digitalpebble.rasp;
 
 import org.apache.uima.jcas.JCas;
@@ -14,10 +14,12 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** A WordForm consists of a POS tag, a lemma and possibly a probability. There is one or more WordForm per Token (as in the MAF ISO Norm)
- * Updated by JCasGen Sun May 27 17:27:29 CEST 2012
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class WordForm_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -48,13 +50,19 @@ public class WordForm_Type extends Annotation_Type {
   final Feature casFeat_lemma;
   /** @generated */
   final int     casFeatCode_lemma;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getLemma(int addr) {
         if (featOkTst && casFeat_lemma == null)
       jcas.throwFeatMissing("lemma", "com.digitalpebble.rasp.WordForm");
     return ll_cas.ll_getStringValue(addr, casFeatCode_lemma);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setLemma(int addr, String v) {
         if (featOkTst && casFeat_lemma == null)
       jcas.throwFeatMissing("lemma", "com.digitalpebble.rasp.WordForm");
@@ -66,13 +74,19 @@ public class WordForm_Type extends Annotation_Type {
   final Feature casFeat_POS;
   /** @generated */
   final int     casFeatCode_POS;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getPOS(int addr) {
         if (featOkTst && casFeat_POS == null)
       jcas.throwFeatMissing("POS", "com.digitalpebble.rasp.WordForm");
     return ll_cas.ll_getStringValue(addr, casFeatCode_POS);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setPOS(int addr, String v) {
         if (featOkTst && casFeat_POS == null)
       jcas.throwFeatMissing("POS", "com.digitalpebble.rasp.WordForm");
@@ -84,13 +98,19 @@ public class WordForm_Type extends Annotation_Type {
   final Feature casFeat_probability;
   /** @generated */
   final int     casFeatCode_probability;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public double getProbability(int addr) {
         if (featOkTst && casFeat_probability == null)
       jcas.throwFeatMissing("probability", "com.digitalpebble.rasp.WordForm");
     return ll_cas.ll_getDoubleValue(addr, casFeatCode_probability);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setProbability(int addr, double v) {
         if (featOkTst && casFeat_probability == null)
       jcas.throwFeatMissing("probability", "com.digitalpebble.rasp.WordForm");
@@ -102,13 +122,19 @@ public class WordForm_Type extends Annotation_Type {
   final Feature casFeat_suffix;
   /** @generated */
   final int     casFeatCode_suffix;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getSuffix(int addr) {
         if (featOkTst && casFeat_suffix == null)
       jcas.throwFeatMissing("suffix", "com.digitalpebble.rasp.WordForm");
     return ll_cas.ll_getStringValue(addr, casFeatCode_suffix);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setSuffix(int addr, String v) {
         if (featOkTst && casFeat_suffix == null)
       jcas.throwFeatMissing("suffix", "com.digitalpebble.rasp.WordForm");
@@ -119,7 +145,10 @@ public class WordForm_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public WordForm_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -14,10 +14,12 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** a list of strings that represent the cleaned-up (pre-processed) tokens for use with LDA libs or others
- * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class FeatureTokens_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -48,29 +50,43 @@ public class FeatureTokens_Type extends Annotation_Type {
   final Feature casFeat_tokens;
   /** @generated */
   final int     casFeatCode_tokens;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getTokens(int addr) {
         if (featOkTst && casFeat_tokens == null)
       jcas.throwFeatMissing("tokens", "ch.epfl.bbp.uima.types.FeatureTokens");
     return ll_cas.ll_getRefValue(addr, casFeatCode_tokens);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setTokens(int addr, int v) {
         if (featOkTst && casFeat_tokens == null)
       jcas.throwFeatMissing("tokens", "ch.epfl.bbp.uima.types.FeatureTokens");
     ll_cas.ll_setRefValue(addr, casFeatCode_tokens, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public String getTokens(int addr, int i) {
         if (featOkTst && casFeat_tokens == null)
       jcas.throwFeatMissing("tokens", "ch.epfl.bbp.uima.types.FeatureTokens");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_tokens), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_tokens), i);
-  return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_tokens), i);
+	return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_tokens), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setTokens(int addr, int i, String v) {
         if (featOkTst && casFeat_tokens == null)
       jcas.throwFeatMissing("tokens", "ch.epfl.bbp.uima.types.FeatureTokens");
@@ -85,29 +101,43 @@ public class FeatureTokens_Type extends Annotation_Type {
   final Feature casFeat_beginnings;
   /** @generated */
   final int     casFeatCode_beginnings;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getBeginnings(int addr) {
         if (featOkTst && casFeat_beginnings == null)
       jcas.throwFeatMissing("beginnings", "ch.epfl.bbp.uima.types.FeatureTokens");
     return ll_cas.ll_getRefValue(addr, casFeatCode_beginnings);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setBeginnings(int addr, int v) {
         if (featOkTst && casFeat_beginnings == null)
       jcas.throwFeatMissing("beginnings", "ch.epfl.bbp.uima.types.FeatureTokens");
     ll_cas.ll_setRefValue(addr, casFeatCode_beginnings, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public int getBeginnings(int addr, int i) {
         if (featOkTst && casFeat_beginnings == null)
       jcas.throwFeatMissing("beginnings", "ch.epfl.bbp.uima.types.FeatureTokens");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getIntArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_beginnings), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_beginnings), i);
-  return ll_cas.ll_getIntArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_beginnings), i);
+	return ll_cas.ll_getIntArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_beginnings), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setBeginnings(int addr, int i, int v) {
         if (featOkTst && casFeat_beginnings == null)
       jcas.throwFeatMissing("beginnings", "ch.epfl.bbp.uima.types.FeatureTokens");
@@ -122,29 +152,43 @@ public class FeatureTokens_Type extends Annotation_Type {
   final Feature casFeat_endings;
   /** @generated */
   final int     casFeatCode_endings;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getEndings(int addr) {
         if (featOkTst && casFeat_endings == null)
       jcas.throwFeatMissing("endings", "ch.epfl.bbp.uima.types.FeatureTokens");
     return ll_cas.ll_getRefValue(addr, casFeatCode_endings);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setEndings(int addr, int v) {
         if (featOkTst && casFeat_endings == null)
       jcas.throwFeatMissing("endings", "ch.epfl.bbp.uima.types.FeatureTokens");
     ll_cas.ll_setRefValue(addr, casFeatCode_endings, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public int getEndings(int addr, int i) {
         if (featOkTst && casFeat_endings == null)
       jcas.throwFeatMissing("endings", "ch.epfl.bbp.uima.types.FeatureTokens");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getIntArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_endings), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_endings), i);
-  return ll_cas.ll_getIntArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_endings), i);
+	return ll_cas.ll_getIntArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_endings), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setEndings(int addr, int i, int v) {
         if (featOkTst && casFeat_endings == null)
       jcas.throwFeatMissing("endings", "ch.epfl.bbp.uima.types.FeatureTokens");
@@ -158,7 +202,10 @@ public class FeatureTokens_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public FeatureTokens_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

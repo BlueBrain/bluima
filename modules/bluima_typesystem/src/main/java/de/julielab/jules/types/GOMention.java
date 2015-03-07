@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Wed Oct 19 19:10:28 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,19 +11,24 @@ import org.apache.uima.jcas.cas.StringArray;
 
 
 /** 
- * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
- * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/target/jcasgen/typesystem.xml
  * @generated */
 public class GOMention extends ConceptMention {
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = JCasRegistry.register(GOMention.class);
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
+  @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
   /** Never called.  Disable default constructor
@@ -31,19 +36,28 @@ public class GOMention extends ConceptMention {
   protected GOMention() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
   public GOMention(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
   public GOMention(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
   public GOMention(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -53,12 +67,12 @@ public class GOMention extends ConceptMention {
 
   /** 
    * <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  *
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
    * @generated modifiable 
    */
-  private void readObject() {}
+  private void readObject() {/*default - does nothing empty block */}
      
  
     
@@ -84,7 +98,10 @@ public class GOMention extends ConceptMention {
     jcasType.ll_cas.ll_setRefValue(addr, ((GOMention_Type)jcasType).casFeatCode_categories, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for categories - gets an indexed value - created for the shared task, here we add the group
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public String getCategories(int i) {
     if (GOMention_Type.featOkTst && ((GOMention_Type)jcasType).casFeat_categories == null)
       jcasType.jcas.throwFeatMissing("categories", "de.julielab.jules.types.GOMention");
@@ -92,7 +109,10 @@ public class GOMention extends ConceptMention {
     return jcasType.ll_cas.ll_getStringArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((GOMention_Type)jcasType).casFeatCode_categories), i);}
 
   /** indexed setter for categories - sets an indexed value - created for the shared task, here we add the group
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setCategories(int i, String v) { 
     if (GOMention_Type.featOkTst && ((GOMention_Type)jcasType).casFeat_categories == null)
       jcasType.jcas.throwFeatMissing("categories", "de.julielab.jules.types.GOMention");

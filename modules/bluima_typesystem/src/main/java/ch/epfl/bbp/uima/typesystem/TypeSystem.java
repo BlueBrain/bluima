@@ -278,7 +278,7 @@ public class TypeSystem {
 
     };
 
-    /** Typesystem from Julie Lab, version 2.6.8 FIXME update to Bluima */
-    public static final TypeSystemDescription JULIE_TSD = TypeSystemDescriptionFactory
-            .createTypeSystemDescription(JULIE_TSD_ARRAY);
+//    /** Typesystem from Julie Lab, version 2.6.8 FIXME update to Bluima */
+//    public static final TypeSystemDescription JULIE_TSD = TypeSystemDescriptionFactory
+//            .createTypeSystemDescription(JULIE_TSD_ARRAY);
 }

@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -14,10 +14,12 @@ import org.apache.uima.cas.Feature;
 import de.julielab.jules.types.Annotation_Type;
 
 /** The scores of topics from a LDA analysis on a token
- * Updated by JCasGen Wed Jun 04 18:01:56 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class Topic_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -48,29 +50,43 @@ public class Topic_Type extends Annotation_Type {
   final Feature casFeat_scores;
   /** @generated */
   final int     casFeatCode_scores;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getScores(int addr) {
         if (featOkTst && casFeat_scores == null)
       jcas.throwFeatMissing("scores", "ch.epfl.bbp.uima.types.Topic");
     return ll_cas.ll_getRefValue(addr, casFeatCode_scores);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setScores(int addr, int v) {
         if (featOkTst && casFeat_scores == null)
       jcas.throwFeatMissing("scores", "ch.epfl.bbp.uima.types.Topic");
     ll_cas.ll_setRefValue(addr, casFeatCode_scores, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public double getScores(int addr, int i) {
         if (featOkTst && casFeat_scores == null)
       jcas.throwFeatMissing("scores", "ch.epfl.bbp.uima.types.Topic");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getDoubleArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_scores), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_scores), i);
-  return ll_cas.ll_getDoubleArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_scores), i);
+	return ll_cas.ll_getDoubleArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_scores), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setScores(int addr, int i, double v) {
         if (featOkTst && casFeat_scores == null)
       jcas.throwFeatMissing("scores", "ch.epfl.bbp.uima.types.Topic");
@@ -85,13 +101,19 @@ public class Topic_Type extends Annotation_Type {
   final Feature casFeat_mostLikelyTopic;
   /** @generated */
   final int     casFeatCode_mostLikelyTopic;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getMostLikelyTopic(int addr) {
         if (featOkTst && casFeat_mostLikelyTopic == null)
       jcas.throwFeatMissing("mostLikelyTopic", "ch.epfl.bbp.uima.types.Topic");
     return ll_cas.ll_getIntValue(addr, casFeatCode_mostLikelyTopic);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setMostLikelyTopic(int addr, int v) {
         if (featOkTst && casFeat_mostLikelyTopic == null)
       jcas.throwFeatMissing("mostLikelyTopic", "ch.epfl.bbp.uima.types.Topic");
@@ -102,7 +124,10 @@ public class Topic_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public Topic_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

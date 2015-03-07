@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -14,10 +14,12 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** 
- * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class CellType_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -48,13 +50,19 @@ public class CellType_Type extends Annotation_Type {
   final Feature casFeat_name;
   /** @generated */
   final int     casFeatCode_name;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getName(int addr) {
         if (featOkTst && casFeat_name == null)
       jcas.throwFeatMissing("name", "ch.epfl.bbp.uima.types.CellType");
     return ll_cas.ll_getStringValue(addr, casFeatCode_name);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setName(int addr, String v) {
         if (featOkTst && casFeat_name == null)
       jcas.throwFeatMissing("name", "ch.epfl.bbp.uima.types.CellType");
@@ -66,13 +74,19 @@ public class CellType_Type extends Annotation_Type {
   final Feature casFeat_id;
   /** @generated */
   final int     casFeatCode_id;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getId(int addr) {
         if (featOkTst && casFeat_id == null)
       jcas.throwFeatMissing("id", "ch.epfl.bbp.uima.types.CellType");
     return ll_cas.ll_getStringValue(addr, casFeatCode_id);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setId(int addr, String v) {
         if (featOkTst && casFeat_id == null)
       jcas.throwFeatMissing("id", "ch.epfl.bbp.uima.types.CellType");
@@ -83,7 +97,10 @@ public class CellType_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public CellType_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

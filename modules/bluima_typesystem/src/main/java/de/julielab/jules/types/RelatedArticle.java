@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Wed Oct 19 19:10:41 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -10,19 +10,24 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Fri Dec 09 11:59:26 CET 2011
- * XML source: /Users/richarde/dev/bluebrain/svn_nlp/UIMA/blue_uima/trunk/julielab_typesystem-2.6.8/src/main/resources/typeSystem/julie-document-meta-types.xml
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/target/jcasgen/typesystem.xml
  * @generated */
 public class RelatedArticle extends Annotation {
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = JCasRegistry.register(RelatedArticle.class);
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
+  @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
   /** Never called.  Disable default constructor
@@ -30,19 +35,28 @@ public class RelatedArticle extends Annotation {
   protected RelatedArticle() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
   public RelatedArticle(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
   public RelatedArticle(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
   public RelatedArticle(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -50,11 +64,14 @@ public class RelatedArticle extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  @generated modifiable */
-  private void readObject() {}
+  /** 
+   * <!-- begin-user-doc -->
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
+   * @generated modifiable 
+   */
+  private void readObject() {/*default - does nothing empty block */}
      
  
     
@@ -62,14 +79,18 @@ public class RelatedArticle extends Annotation {
   //* Feature: relatedArticle
 
   /** getter for relatedArticle - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getRelatedArticle() {
     if (RelatedArticle_Type.featOkTst && ((RelatedArticle_Type)jcasType).casFeat_relatedArticle == null)
       jcasType.jcas.throwFeatMissing("relatedArticle", "de.julielab.jules.types.RelatedArticle");
     return jcasType.ll_cas.ll_getStringValue(addr, ((RelatedArticle_Type)jcasType).casFeatCode_relatedArticle);}
     
   /** setter for relatedArticle - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setRelatedArticle(String v) {
     if (RelatedArticle_Type.featOkTst && ((RelatedArticle_Type)jcasType).casFeat_relatedArticle == null)
       jcasType.jcas.throwFeatMissing("relatedArticle", "de.julielab.jules.types.RelatedArticle");

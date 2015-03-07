@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:10:41 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Fri Dec 09 11:59:26 CET 2011
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class RelatedArticleList_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,38 +38,54 @@ public class RelatedArticleList_Type extends Annotation_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = RelatedArticleList.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.RelatedArticleList");
  
   /** @generated */
   final Feature casFeat_relatedArticles;
   /** @generated */
   final int     casFeatCode_relatedArticles;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getRelatedArticles(int addr) {
         if (featOkTst && casFeat_relatedArticles == null)
       jcas.throwFeatMissing("relatedArticles", "de.julielab.jules.types.RelatedArticleList");
     return ll_cas.ll_getRefValue(addr, casFeatCode_relatedArticles);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setRelatedArticles(int addr, int v) {
         if (featOkTst && casFeat_relatedArticles == null)
       jcas.throwFeatMissing("relatedArticles", "de.julielab.jules.types.RelatedArticleList");
     ll_cas.ll_setRefValue(addr, casFeatCode_relatedArticles, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public int getRelatedArticles(int addr, int i) {
         if (featOkTst && casFeat_relatedArticles == null)
       jcas.throwFeatMissing("relatedArticles", "de.julielab.jules.types.RelatedArticleList");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_relatedArticles), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_relatedArticles), i);
-  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_relatedArticles), i);
+	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_relatedArticles), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setRelatedArticles(int addr, int i, int v) {
         if (featOkTst && casFeat_relatedArticles == null)
       jcas.throwFeatMissing("relatedArticles", "de.julielab.jules.types.RelatedArticleList");
@@ -80,7 +99,10 @@ public class RelatedArticleList_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public RelatedArticleList_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

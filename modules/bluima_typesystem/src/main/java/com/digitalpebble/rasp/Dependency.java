@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Sun May 27 17:27:29 CEST 2012 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package com.digitalpebble.rasp;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,8 +11,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** A dependency between two word forms
- * Updated by JCasGen Sun May 27 17:27:29 CEST 2012
- * XML source: /Users/richarde/dev/bluebrain/svn_nlp/UIMA/blue_uima/trunk/modules/julielab_typesystem-2.6.8/src/main/resources/typeSystem/RASPTypes.xml
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/target/jcasgen/typesystem.xml
  * @generated */
 public class Dependency extends Annotation {
   /** @generated
@@ -25,7 +25,9 @@ public class Dependency extends Annotation {
    */
   @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
   @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
@@ -34,19 +36,28 @@ public class Dependency extends Annotation {
   protected Dependency() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
   public Dependency(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
   public Dependency(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
   public Dependency(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -54,10 +65,13 @@ public class Dependency extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  @generated modifiable */
+  /** 
+   * <!-- begin-user-doc -->
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
+   * @generated modifiable 
+   */
   private void readObject() {/*default - does nothing empty block */}
      
  
@@ -66,14 +80,18 @@ public class Dependency extends Annotation {
   //* Feature: deptype
 
   /** getter for deptype - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getDeptype() {
     if (Dependency_Type.featOkTst && ((Dependency_Type)jcasType).casFeat_deptype == null)
       jcasType.jcas.throwFeatMissing("deptype", "com.digitalpebble.rasp.Dependency");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Dependency_Type)jcasType).casFeatCode_deptype);}
     
   /** setter for deptype - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setDeptype(String v) {
     if (Dependency_Type.featOkTst && ((Dependency_Type)jcasType).casFeat_deptype == null)
       jcasType.jcas.throwFeatMissing("deptype", "com.digitalpebble.rasp.Dependency");
@@ -84,14 +102,18 @@ public class Dependency extends Annotation {
   //* Feature: subtype
 
   /** getter for subtype - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getSubtype() {
     if (Dependency_Type.featOkTst && ((Dependency_Type)jcasType).casFeat_subtype == null)
       jcasType.jcas.throwFeatMissing("subtype", "com.digitalpebble.rasp.Dependency");
     return jcasType.ll_cas.ll_getStringValue(addr, ((Dependency_Type)jcasType).casFeatCode_subtype);}
     
   /** setter for subtype - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setSubtype(String v) {
     if (Dependency_Type.featOkTst && ((Dependency_Type)jcasType).casFeat_subtype == null)
       jcasType.jcas.throwFeatMissing("subtype", "com.digitalpebble.rasp.Dependency");
@@ -102,14 +124,18 @@ public class Dependency extends Annotation {
   //* Feature: head
 
   /** getter for head - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public WordForm getHead() {
     if (Dependency_Type.featOkTst && ((Dependency_Type)jcasType).casFeat_head == null)
       jcasType.jcas.throwFeatMissing("head", "com.digitalpebble.rasp.Dependency");
     return (WordForm)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Dependency_Type)jcasType).casFeatCode_head)));}
     
   /** setter for head - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setHead(WordForm v) {
     if (Dependency_Type.featOkTst && ((Dependency_Type)jcasType).casFeat_head == null)
       jcasType.jcas.throwFeatMissing("head", "com.digitalpebble.rasp.Dependency");
@@ -120,14 +146,18 @@ public class Dependency extends Annotation {
   //* Feature: dep
 
   /** getter for dep - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public WordForm getDep() {
     if (Dependency_Type.featOkTst && ((Dependency_Type)jcasType).casFeat_dep == null)
       jcasType.jcas.throwFeatMissing("dep", "com.digitalpebble.rasp.Dependency");
     return (WordForm)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((Dependency_Type)jcasType).casFeatCode_dep)));}
     
   /** setter for dep - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setDep(WordForm v) {
     if (Dependency_Type.featOkTst && ((Dependency_Type)jcasType).casFeat_dep == null)
       jcasType.jcas.throwFeatMissing("dep", "com.digitalpebble.rasp.Dependency");

@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -14,10 +14,12 @@ import org.apache.uima.cas.Feature;
 import de.julielab.jules.types.POSTag_Type;
 
 /** 
- * Updated by JCasGen Wed Jun 04 18:01:56 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class POSVerb_Type extends POSTag_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -48,13 +50,19 @@ public class POSVerb_Type extends POSTag_Type {
   final Feature casFeat_biolexicon_id;
   /** @generated */
   final int     casFeatCode_biolexicon_id;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getBiolexicon_id(int addr) {
         if (featOkTst && casFeat_biolexicon_id == null)
       jcas.throwFeatMissing("biolexicon_id", "ch.epfl.bbp.uima.types.POSVerb");
     return ll_cas.ll_getStringValue(addr, casFeatCode_biolexicon_id);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setBiolexicon_id(int addr, String v) {
         if (featOkTst && casFeat_biolexicon_id == null)
       jcas.throwFeatMissing("biolexicon_id", "ch.epfl.bbp.uima.types.POSVerb");
@@ -65,7 +73,10 @@ public class POSVerb_Type extends POSTag_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public POSVerb_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

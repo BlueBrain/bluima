@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:10:28 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class EventTrigger_Type extends ConceptMention_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class EventTrigger_Type extends ConceptMention_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = EventTrigger.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.EventTrigger");
  
   /** @generated */
   final Feature casFeat_probability;
   /** @generated */
   final int     casFeatCode_probability;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getProbability(int addr) {
         if (featOkTst && casFeat_probability == null)
       jcas.throwFeatMissing("probability", "de.julielab.jules.types.EventTrigger");
     return ll_cas.ll_getStringValue(addr, casFeatCode_probability);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setProbability(int addr, String v) {
         if (featOkTst && casFeat_probability == null)
       jcas.throwFeatMissing("probability", "de.julielab.jules.types.EventTrigger");
@@ -62,13 +73,19 @@ public class EventTrigger_Type extends ConceptMention_Type {
   final Feature casFeat_specifity;
   /** @generated */
   final int     casFeatCode_specifity;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getSpecifity(int addr) {
         if (featOkTst && casFeat_specifity == null)
       jcas.throwFeatMissing("specifity", "de.julielab.jules.types.EventTrigger");
     return ll_cas.ll_getStringValue(addr, casFeatCode_specifity);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setSpecifity(int addr, String v) {
         if (featOkTst && casFeat_specifity == null)
       jcas.throwFeatMissing("specifity", "de.julielab.jules.types.EventTrigger");
@@ -80,13 +97,19 @@ public class EventTrigger_Type extends ConceptMention_Type {
   final Feature casFeat_importance;
   /** @generated */
   final int     casFeatCode_importance;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getImportance(int addr) {
         if (featOkTst && casFeat_importance == null)
       jcas.throwFeatMissing("importance", "de.julielab.jules.types.EventTrigger");
     return ll_cas.ll_getStringValue(addr, casFeatCode_importance);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setImportance(int addr, String v) {
         if (featOkTst && casFeat_importance == null)
       jcas.throwFeatMissing("importance", "de.julielab.jules.types.EventTrigger");
@@ -97,7 +120,10 @@ public class EventTrigger_Type extends ConceptMention_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public EventTrigger_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

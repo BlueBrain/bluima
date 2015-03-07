@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -13,8 +13,8 @@ import org.apache.uima.jcas.cas.TOP;
 
 
 /** 
- * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
- * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/target/jcasgen/typesystem.xml
  * @generated */
 public class BioVerb extends Annotation {
   /** @generated
@@ -27,7 +27,9 @@ public class BioVerb extends Annotation {
    */
   @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
   @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
@@ -36,19 +38,28 @@ public class BioVerb extends Annotation {
   protected BioVerb() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
   public BioVerb(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
   public BioVerb(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
   public BioVerb(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -58,9 +69,9 @@ public class BioVerb extends Annotation {
 
   /** 
    * <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  *
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
    * @generated modifiable 
    */
   private void readObject() {/*default - does nothing empty block */}
@@ -179,7 +190,10 @@ public class BioVerb extends Annotation {
     jcasType.ll_cas.ll_setRefValue(addr, ((BioVerb_Type)jcasType).casFeatCode_matchedTokens, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for matchedTokens - gets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public TOP getMatchedTokens(int i) {
     if (BioVerb_Type.featOkTst && ((BioVerb_Type)jcasType).casFeat_matchedTokens == null)
       jcasType.jcas.throwFeatMissing("matchedTokens", "ch.epfl.bbp.uima.types.BioVerb");
@@ -187,7 +201,10 @@ public class BioVerb extends Annotation {
     return (TOP)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((BioVerb_Type)jcasType).casFeatCode_matchedTokens), i)));}
 
   /** indexed setter for matchedTokens - sets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setMatchedTokens(int i, TOP v) { 
     if (BioVerb_Type.featOkTst && ((BioVerb_Type)jcasType).casFeat_matchedTokens == null)
       jcasType.jcas.throwFeatMissing("matchedTokens", "ch.epfl.bbp.uima.types.BioVerb");

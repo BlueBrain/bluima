@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:10:28 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** ontology class mention
- * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class OntClassMention_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class OntClassMention_Type extends Annotation_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = OntClassMention.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.OntClassMention");
  
   /** @generated */
   final Feature casFeat_ontClassId;
   /** @generated */
   final int     casFeatCode_ontClassId;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getOntClassId(int addr) {
         if (featOkTst && casFeat_ontClassId == null)
       jcas.throwFeatMissing("ontClassId", "de.julielab.jules.types.OntClassMention");
     return ll_cas.ll_getStringValue(addr, casFeatCode_ontClassId);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setOntClassId(int addr, String v) {
         if (featOkTst && casFeat_ontClassId == null)
       jcas.throwFeatMissing("ontClassId", "de.julielab.jules.types.OntClassMention");
@@ -62,13 +73,19 @@ public class OntClassMention_Type extends Annotation_Type {
   final Feature casFeat_sourceOntology;
   /** @generated */
   final int     casFeatCode_sourceOntology;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getSourceOntology(int addr) {
         if (featOkTst && casFeat_sourceOntology == null)
       jcas.throwFeatMissing("sourceOntology", "de.julielab.jules.types.OntClassMention");
     return ll_cas.ll_getStringValue(addr, casFeatCode_sourceOntology);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setSourceOntology(int addr, String v) {
         if (featOkTst && casFeat_sourceOntology == null)
       jcas.throwFeatMissing("sourceOntology", "de.julielab.jules.types.OntClassMention");
@@ -80,13 +97,19 @@ public class OntClassMention_Type extends Annotation_Type {
   final Feature casFeat_textualRepresentation;
   /** @generated */
   final int     casFeatCode_textualRepresentation;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getTextualRepresentation(int addr) {
         if (featOkTst && casFeat_textualRepresentation == null)
       jcas.throwFeatMissing("textualRepresentation", "de.julielab.jules.types.OntClassMention");
     return ll_cas.ll_getStringValue(addr, casFeatCode_textualRepresentation);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setTextualRepresentation(int addr, String v) {
         if (featOkTst && casFeat_textualRepresentation == null)
       jcas.throwFeatMissing("textualRepresentation", "de.julielab.jules.types.OntClassMention");
@@ -98,29 +121,43 @@ public class OntClassMention_Type extends Annotation_Type {
   final Feature casFeat_semanticTypes;
   /** @generated */
   final int     casFeatCode_semanticTypes;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getSemanticTypes(int addr) {
         if (featOkTst && casFeat_semanticTypes == null)
       jcas.throwFeatMissing("semanticTypes", "de.julielab.jules.types.OntClassMention");
     return ll_cas.ll_getRefValue(addr, casFeatCode_semanticTypes);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setSemanticTypes(int addr, int v) {
         if (featOkTst && casFeat_semanticTypes == null)
       jcas.throwFeatMissing("semanticTypes", "de.julielab.jules.types.OntClassMention");
     ll_cas.ll_setRefValue(addr, casFeatCode_semanticTypes, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public String getSemanticTypes(int addr, int i) {
         if (featOkTst && casFeat_semanticTypes == null)
       jcas.throwFeatMissing("semanticTypes", "de.julielab.jules.types.OntClassMention");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_semanticTypes), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_semanticTypes), i);
-  return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_semanticTypes), i);
+	return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_semanticTypes), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setSemanticTypes(int addr, int i, String v) {
         if (featOkTst && casFeat_semanticTypes == null)
       jcas.throwFeatMissing("semanticTypes", "de.julielab.jules.types.OntClassMention");
@@ -135,13 +172,19 @@ public class OntClassMention_Type extends Annotation_Type {
   final Feature casFeat_preferredTerm;
   /** @generated */
   final int     casFeatCode_preferredTerm;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getPreferredTerm(int addr) {
         if (featOkTst && casFeat_preferredTerm == null)
       jcas.throwFeatMissing("preferredTerm", "de.julielab.jules.types.OntClassMention");
     return ll_cas.ll_getStringValue(addr, casFeatCode_preferredTerm);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setPreferredTerm(int addr, String v) {
         if (featOkTst && casFeat_preferredTerm == null)
       jcas.throwFeatMissing("preferredTerm", "de.julielab.jules.types.OntClassMention");
@@ -153,29 +196,43 @@ public class OntClassMention_Type extends Annotation_Type {
   final Feature casFeat_matchedTokens;
   /** @generated */
   final int     casFeatCode_matchedTokens;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getMatchedTokens(int addr) {
         if (featOkTst && casFeat_matchedTokens == null)
       jcas.throwFeatMissing("matchedTokens", "de.julielab.jules.types.OntClassMention");
     return ll_cas.ll_getRefValue(addr, casFeatCode_matchedTokens);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setMatchedTokens(int addr, int v) {
         if (featOkTst && casFeat_matchedTokens == null)
       jcas.throwFeatMissing("matchedTokens", "de.julielab.jules.types.OntClassMention");
     ll_cas.ll_setRefValue(addr, casFeatCode_matchedTokens, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public int getMatchedTokens(int addr, int i) {
         if (featOkTst && casFeat_matchedTokens == null)
       jcas.throwFeatMissing("matchedTokens", "de.julielab.jules.types.OntClassMention");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_matchedTokens), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_matchedTokens), i);
-  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_matchedTokens), i);
+	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_matchedTokens), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setMatchedTokens(int addr, int i, int v) {
         if (featOkTst && casFeat_matchedTokens == null)
       jcas.throwFeatMissing("matchedTokens", "de.julielab.jules.types.OntClassMention");
@@ -190,13 +247,19 @@ public class OntClassMention_Type extends Annotation_Type {
   final Feature casFeat_matchedSourceTerm;
   /** @generated */
   final int     casFeatCode_matchedSourceTerm;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getMatchedSourceTerm(int addr) {
         if (featOkTst && casFeat_matchedSourceTerm == null)
       jcas.throwFeatMissing("matchedSourceTerm", "de.julielab.jules.types.OntClassMention");
     return ll_cas.ll_getStringValue(addr, casFeatCode_matchedSourceTerm);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setMatchedSourceTerm(int addr, String v) {
         if (featOkTst && casFeat_matchedSourceTerm == null)
       jcas.throwFeatMissing("matchedSourceTerm", "de.julielab.jules.types.OntClassMention");
@@ -207,7 +270,10 @@ public class OntClassMention_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public OntClassMention_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

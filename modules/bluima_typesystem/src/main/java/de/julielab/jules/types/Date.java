@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Wed Oct 19 19:10:41 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -10,19 +10,24 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** Type to store dates
- * Updated by JCasGen Fri Dec 09 11:59:26 CET 2011
- * XML source: /Users/richarde/dev/bluebrain/svn_nlp/UIMA/blue_uima/trunk/julielab_typesystem-2.6.8/src/main/resources/typeSystem/julie-document-meta-types.xml
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/target/jcasgen/typesystem.xml
  * @generated */
 public class Date extends Annotation {
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = JCasRegistry.register(Date.class);
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
+  @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
   /** Never called.  Disable default constructor
@@ -30,19 +35,28 @@ public class Date extends Annotation {
   protected Date() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
   public Date(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
   public Date(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
   public Date(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -50,11 +64,14 @@ public class Date extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  @generated modifiable */
-  private void readObject() {}
+  /** 
+   * <!-- begin-user-doc -->
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
+   * @generated modifiable 
+   */
+  private void readObject() {/*default - does nothing empty block */}
      
  
     
@@ -62,14 +79,18 @@ public class Date extends Annotation {
   //* Feature: day
 
   /** getter for day - gets day of the month, C
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public int getDay() {
     if (Date_Type.featOkTst && ((Date_Type)jcasType).casFeat_day == null)
       jcasType.jcas.throwFeatMissing("day", "de.julielab.jules.types.Date");
     return jcasType.ll_cas.ll_getIntValue(addr, ((Date_Type)jcasType).casFeatCode_day);}
     
   /** setter for day - sets day of the month, C 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setDay(int v) {
     if (Date_Type.featOkTst && ((Date_Type)jcasType).casFeat_day == null)
       jcasType.jcas.throwFeatMissing("day", "de.julielab.jules.types.Date");
@@ -80,14 +101,18 @@ public class Date extends Annotation {
   //* Feature: month
 
   /** getter for month - gets month of the year, C
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public int getMonth() {
     if (Date_Type.featOkTst && ((Date_Type)jcasType).casFeat_month == null)
       jcasType.jcas.throwFeatMissing("month", "de.julielab.jules.types.Date");
     return jcasType.ll_cas.ll_getIntValue(addr, ((Date_Type)jcasType).casFeatCode_month);}
     
   /** setter for month - sets month of the year, C 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setMonth(int v) {
     if (Date_Type.featOkTst && ((Date_Type)jcasType).casFeat_month == null)
       jcasType.jcas.throwFeatMissing("month", "de.julielab.jules.types.Date");
@@ -98,14 +123,18 @@ public class Date extends Annotation {
   //* Feature: year
 
   /** getter for year - gets full year (e.g. 2006 and NOT 06), C
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public int getYear() {
     if (Date_Type.featOkTst && ((Date_Type)jcasType).casFeat_year == null)
       jcasType.jcas.throwFeatMissing("year", "de.julielab.jules.types.Date");
     return jcasType.ll_cas.ll_getIntValue(addr, ((Date_Type)jcasType).casFeatCode_year);}
     
   /** setter for year - sets full year (e.g. 2006 and NOT 06), C 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setYear(int v) {
     if (Date_Type.featOkTst && ((Date_Type)jcasType).casFeat_year == null)
       jcasType.jcas.throwFeatMissing("year", "de.julielab.jules.types.Date");

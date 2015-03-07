@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Wed Oct 19 19:10:41 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -10,19 +10,24 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** 
- * Updated by JCasGen Fri Dec 09 11:59:26 CET 2011
- * XML source: /Users/richarde/dev/bluebrain/svn_nlp/UIMA/blue_uima/trunk/julielab_typesystem-2.6.8/src/main/resources/typeSystem/julie-document-meta-types.xml
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/target/jcasgen/typesystem.xml
  * @generated */
 public class FullTextLink extends Annotation {
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = JCasRegistry.register(FullTextLink.class);
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
+  @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
   /** Never called.  Disable default constructor
@@ -30,19 +35,28 @@ public class FullTextLink extends Annotation {
   protected FullTextLink() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
   public FullTextLink(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
   public FullTextLink(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
   public FullTextLink(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -50,11 +64,14 @@ public class FullTextLink extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  @generated modifiable */
-  private void readObject() {}
+  /** 
+   * <!-- begin-user-doc -->
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
+   * @generated modifiable 
+   */
+  private void readObject() {/*default - does nothing empty block */}
      
  
     
@@ -62,14 +79,18 @@ public class FullTextLink extends Annotation {
   //* Feature: url
 
   /** getter for url - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getUrl() {
     if (FullTextLink_Type.featOkTst && ((FullTextLink_Type)jcasType).casFeat_url == null)
       jcasType.jcas.throwFeatMissing("url", "de.julielab.jules.types.FullTextLink");
     return jcasType.ll_cas.ll_getStringValue(addr, ((FullTextLink_Type)jcasType).casFeatCode_url);}
     
   /** setter for url - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setUrl(String v) {
     if (FullTextLink_Type.featOkTst && ((FullTextLink_Type)jcasType).casFeat_url == null)
       jcasType.jcas.throwFeatMissing("url", "de.julielab.jules.types.FullTextLink");
@@ -80,14 +101,18 @@ public class FullTextLink extends Annotation {
   //* Feature: iconUrl
 
   /** getter for iconUrl - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getIconUrl() {
     if (FullTextLink_Type.featOkTst && ((FullTextLink_Type)jcasType).casFeat_iconUrl == null)
       jcasType.jcas.throwFeatMissing("iconUrl", "de.julielab.jules.types.FullTextLink");
     return jcasType.ll_cas.ll_getStringValue(addr, ((FullTextLink_Type)jcasType).casFeatCode_iconUrl);}
     
   /** setter for iconUrl - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setIconUrl(String v) {
     if (FullTextLink_Type.featOkTst && ((FullTextLink_Type)jcasType).casFeat_iconUrl == null)
       jcasType.jcas.throwFeatMissing("iconUrl", "de.julielab.jules.types.FullTextLink");

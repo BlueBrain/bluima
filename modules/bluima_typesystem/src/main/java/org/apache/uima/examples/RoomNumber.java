@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Tue Jan 31 19:04:31 CET 2012 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package org.apache.uima.examples;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,8 +11,8 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** 
- * Updated by JCasGen Tue Jan 31 19:04:31 CET 2012
- * XML source: /Users/richarde/dev/bluebrain/svn_nlp/UIMA/blue_uima/trunk/julielab_typesystem-2.6.8/src/main/resources/typeSystem/RoomNumber.xml
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/target/jcasgen/typesystem.xml
  * @generated */
 public class RoomNumber extends Annotation {
   /** @generated
@@ -25,7 +25,9 @@ public class RoomNumber extends Annotation {
    */
   @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
   @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
@@ -34,19 +36,28 @@ public class RoomNumber extends Annotation {
   protected RoomNumber() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
   public RoomNumber(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
   public RoomNumber(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
   public RoomNumber(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -54,10 +65,13 @@ public class RoomNumber extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  @generated modifiable */
+  /** 
+   * <!-- begin-user-doc -->
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
+   * @generated modifiable 
+   */
   private void readObject() {/*default - does nothing empty block */}
      
  
@@ -66,14 +80,18 @@ public class RoomNumber extends Annotation {
   //* Feature: building
 
   /** getter for building - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getBuilding() {
     if (RoomNumber_Type.featOkTst && ((RoomNumber_Type)jcasType).casFeat_building == null)
       jcasType.jcas.throwFeatMissing("building", "org.apache.uima.examples.RoomNumber");
     return jcasType.ll_cas.ll_getStringValue(addr, ((RoomNumber_Type)jcasType).casFeatCode_building);}
     
   /** setter for building - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setBuilding(String v) {
     if (RoomNumber_Type.featOkTst && ((RoomNumber_Type)jcasType).casFeat_building == null)
       jcasType.jcas.throwFeatMissing("building", "org.apache.uima.examples.RoomNumber");

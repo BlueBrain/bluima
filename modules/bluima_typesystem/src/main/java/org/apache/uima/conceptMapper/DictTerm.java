@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Sun Mar 11 02:53:34 CET 2012 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package org.apache.uima.conceptMapper;
 
 import org.apache.uima.jcas.JCas; 
@@ -13,8 +13,8 @@ import org.apache.uima.jcas.cas.TOP;
 
 
 /** Annotation for dictionary lookup matches
- * Updated by JCasGen Wed Jun 04 18:01:59 CEST 2014
- * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/target/jcasgen/typesystem.xml
  * @generated */
 public class DictTerm extends Annotation {
   /** @generated
@@ -27,7 +27,9 @@ public class DictTerm extends Annotation {
    */
   @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
   @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
@@ -36,19 +38,28 @@ public class DictTerm extends Annotation {
   protected DictTerm() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
   public DictTerm(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
   public DictTerm(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
   public DictTerm(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -58,9 +69,9 @@ public class DictTerm extends Annotation {
 
   /** 
    * <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  *
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
    * @generated modifiable 
    */
   private void readObject() {/*default - does nothing empty block */}
@@ -155,7 +166,10 @@ public class DictTerm extends Annotation {
     jcasType.ll_cas.ll_setRefValue(addr, ((DictTerm_Type)jcasType).casFeatCode_matchedTokens, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for matchedTokens - gets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public TOP getMatchedTokens(int i) {
     if (DictTerm_Type.featOkTst && ((DictTerm_Type)jcasType).casFeat_matchedTokens == null)
       jcasType.jcas.throwFeatMissing("matchedTokens", "org.apache.uima.conceptMapper.DictTerm");
@@ -163,7 +177,10 @@ public class DictTerm extends Annotation {
     return (TOP)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((DictTerm_Type)jcasType).casFeatCode_matchedTokens), i)));}
 
   /** indexed setter for matchedTokens - sets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setMatchedTokens(int i, TOP v) { 
     if (DictTerm_Type.featOkTst && ((DictTerm_Type)jcasType).casFeat_matchedTokens == null)
       jcasType.jcas.throwFeatMissing("matchedTokens", "org.apache.uima.conceptMapper.DictTerm");

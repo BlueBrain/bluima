@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Sun May 27 17:27:29 CEST 2012 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package com.digitalpebble.rasp;
 
 import org.apache.uima.jcas.JCas;
@@ -14,10 +14,12 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** A clause as returned by the RASP analyser. It can contain one or more word forms or clauses
- * Updated by JCasGen Sun May 27 17:27:29 CEST 2012
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class Clause_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -48,13 +50,19 @@ public class Clause_Type extends Annotation_Type {
   final Feature casFeat_rule;
   /** @generated */
   final int     casFeatCode_rule;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getRule(int addr) {
         if (featOkTst && casFeat_rule == null)
       jcas.throwFeatMissing("rule", "com.digitalpebble.rasp.Clause");
     return ll_cas.ll_getStringValue(addr, casFeatCode_rule);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setRule(int addr, String v) {
         if (featOkTst && casFeat_rule == null)
       jcas.throwFeatMissing("rule", "com.digitalpebble.rasp.Clause");
@@ -66,19 +74,29 @@ public class Clause_Type extends Annotation_Type {
   final Feature casFeat_subclauses;
   /** @generated */
   final int     casFeatCode_subclauses;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getSubclauses(int addr) {
         if (featOkTst && casFeat_subclauses == null)
       jcas.throwFeatMissing("subclauses", "com.digitalpebble.rasp.Clause");
     return ll_cas.ll_getRefValue(addr, casFeatCode_subclauses);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setSubclauses(int addr, int v) {
         if (featOkTst && casFeat_subclauses == null)
       jcas.throwFeatMissing("subclauses", "com.digitalpebble.rasp.Clause");
     ll_cas.ll_setRefValue(addr, casFeatCode_subclauses, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public int getSubclauses(int addr, int i) {
         if (featOkTst && casFeat_subclauses == null)
       jcas.throwFeatMissing("subclauses", "com.digitalpebble.rasp.Clause");
@@ -88,7 +106,11 @@ public class Clause_Type extends Annotation_Type {
 	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_subclauses), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setSubclauses(int addr, int i, int v) {
         if (featOkTst && casFeat_subclauses == null)
       jcas.throwFeatMissing("subclauses", "com.digitalpebble.rasp.Clause");
@@ -102,7 +124,10 @@ public class Clause_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public Clause_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

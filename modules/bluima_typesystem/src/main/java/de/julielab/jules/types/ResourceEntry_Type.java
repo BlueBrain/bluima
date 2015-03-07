@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:10:28 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** The reference to an external resource
- * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class ResourceEntry_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class ResourceEntry_Type extends Annotation_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = ResourceEntry.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.ResourceEntry");
  
   /** @generated */
   final Feature casFeat_source;
   /** @generated */
   final int     casFeatCode_source;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getSource(int addr) {
         if (featOkTst && casFeat_source == null)
       jcas.throwFeatMissing("source", "de.julielab.jules.types.ResourceEntry");
     return ll_cas.ll_getStringValue(addr, casFeatCode_source);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setSource(int addr, String v) {
         if (featOkTst && casFeat_source == null)
       jcas.throwFeatMissing("source", "de.julielab.jules.types.ResourceEntry");
@@ -62,13 +73,19 @@ public class ResourceEntry_Type extends Annotation_Type {
   final Feature casFeat_entryId;
   /** @generated */
   final int     casFeatCode_entryId;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getEntryId(int addr) {
         if (featOkTst && casFeat_entryId == null)
       jcas.throwFeatMissing("entryId", "de.julielab.jules.types.ResourceEntry");
     return ll_cas.ll_getStringValue(addr, casFeatCode_entryId);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setEntryId(int addr, String v) {
         if (featOkTst && casFeat_entryId == null)
       jcas.throwFeatMissing("entryId", "de.julielab.jules.types.ResourceEntry");
@@ -80,13 +97,19 @@ public class ResourceEntry_Type extends Annotation_Type {
   final Feature casFeat_version;
   /** @generated */
   final int     casFeatCode_version;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getVersion(int addr) {
         if (featOkTst && casFeat_version == null)
       jcas.throwFeatMissing("version", "de.julielab.jules.types.ResourceEntry");
     return ll_cas.ll_getStringValue(addr, casFeatCode_version);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setVersion(int addr, String v) {
         if (featOkTst && casFeat_version == null)
       jcas.throwFeatMissing("version", "de.julielab.jules.types.ResourceEntry");
@@ -97,7 +120,10 @@ public class ResourceEntry_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public ResourceEntry_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

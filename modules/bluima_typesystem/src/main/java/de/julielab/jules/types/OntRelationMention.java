@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Wed Oct 19 19:10:28 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,19 +11,24 @@ import org.apache.uima.jcas.cas.FSArray;
 
 
 /** 
- * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
- * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/target/jcasgen/typesystem.xml
  * @generated */
 public class OntRelationMention extends Annotation {
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = JCasRegistry.register(OntRelationMention.class);
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
+  @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
   /** Never called.  Disable default constructor
@@ -31,19 +36,28 @@ public class OntRelationMention extends Annotation {
   protected OntRelationMention() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
   public OntRelationMention(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
   public OntRelationMention(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
   public OntRelationMention(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -53,12 +67,12 @@ public class OntRelationMention extends Annotation {
 
   /** 
    * <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  *
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
    * @generated modifiable 
    */
-  private void readObject() {}
+  private void readObject() {/*default - does nothing empty block */}
      
  
     
@@ -128,7 +142,10 @@ public class OntRelationMention extends Annotation {
     jcasType.ll_cas.ll_setRefValue(addr, ((OntRelationMention_Type)jcasType).casFeatCode_domainList, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for domainList - gets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public Annotation getDomainList(int i) {
     if (OntRelationMention_Type.featOkTst && ((OntRelationMention_Type)jcasType).casFeat_domainList == null)
       jcasType.jcas.throwFeatMissing("domainList", "de.julielab.jules.types.OntRelationMention");
@@ -136,7 +153,10 @@ public class OntRelationMention extends Annotation {
     return (Annotation)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((OntRelationMention_Type)jcasType).casFeatCode_domainList), i)));}
 
   /** indexed setter for domainList - sets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setDomainList(int i, Annotation v) { 
     if (OntRelationMention_Type.featOkTst && ((OntRelationMention_Type)jcasType).casFeat_domainList == null)
       jcasType.jcas.throwFeatMissing("domainList", "de.julielab.jules.types.OntRelationMention");
@@ -166,7 +186,10 @@ public class OntRelationMention extends Annotation {
     jcasType.ll_cas.ll_setRefValue(addr, ((OntRelationMention_Type)jcasType).casFeatCode_rangeList, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for rangeList - gets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public Annotation getRangeList(int i) {
     if (OntRelationMention_Type.featOkTst && ((OntRelationMention_Type)jcasType).casFeat_rangeList == null)
       jcasType.jcas.throwFeatMissing("rangeList", "de.julielab.jules.types.OntRelationMention");
@@ -174,7 +197,10 @@ public class OntRelationMention extends Annotation {
     return (Annotation)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((OntRelationMention_Type)jcasType).casFeatCode_rangeList), i)));}
 
   /** indexed setter for rangeList - sets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setRangeList(int i, Annotation v) { 
     if (OntRelationMention_Type.featOkTst && ((OntRelationMention_Type)jcasType).casFeat_rangeList == null)
       jcasType.jcas.throwFeatMissing("rangeList", "de.julielab.jules.types.OntRelationMention");

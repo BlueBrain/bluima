@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Fri Dec 23 13:41:29 CET 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.genia;
 
 import org.apache.uima.jcas.JCas; 
@@ -8,15 +8,14 @@ import org.apache.uima.jcas.JCasRegistry;
 import org.apache.uima.jcas.cas.TOP_Type;
 
 import org.apache.uima.jcas.cas.FSArray;
-import org.apache.uima.jcas.cas.FSList;
 import org.apache.uima.jcas.tcas.Annotation;
 import ch.epfl.bbp.uima.types.Protein;
 
 
 /** See
         http://2011.bionlp-st.org/home/genia-event-extraction-genia
- * Updated by JCasGen Wed Jun 04 18:01:54 CEST 2014
- * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/target/jcasgen/typesystem.xml
  * @generated */
 public class Event extends Annotation {
   /** @generated
@@ -29,7 +28,9 @@ public class Event extends Annotation {
    */
   @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
   @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
@@ -38,19 +39,28 @@ public class Event extends Annotation {
   protected Event() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
   public Event(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
   public Event(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
   public Event(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -60,9 +70,9 @@ public class Event extends Annotation {
 
   /** 
    * <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  *
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
    * @generated modifiable 
    */
   private void readObject() {/*default - does nothing empty block */}
@@ -113,7 +123,10 @@ public class Event extends Annotation {
     jcasType.ll_cas.ll_setRefValue(addr, ((Event_Type)jcasType).casFeatCode_themes_protein, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for themes_protein - gets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public Protein getThemes_protein(int i) {
     if (Event_Type.featOkTst && ((Event_Type)jcasType).casFeat_themes_protein == null)
       jcasType.jcas.throwFeatMissing("themes_protein", "ch.epfl.bbp.uima.genia.Event");
@@ -121,7 +134,10 @@ public class Event extends Annotation {
     return (Protein)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((Event_Type)jcasType).casFeatCode_themes_protein), i)));}
 
   /** indexed setter for themes_protein - sets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setThemes_protein(int i, Protein v) { 
     if (Event_Type.featOkTst && ((Event_Type)jcasType).casFeat_themes_protein == null)
       jcasType.jcas.throwFeatMissing("themes_protein", "ch.epfl.bbp.uima.genia.Event");
@@ -151,7 +167,10 @@ public class Event extends Annotation {
     jcasType.ll_cas.ll_setRefValue(addr, ((Event_Type)jcasType).casFeatCode_causes_protein, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for causes_protein - gets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public Protein getCauses_protein(int i) {
     if (Event_Type.featOkTst && ((Event_Type)jcasType).casFeat_causes_protein == null)
       jcasType.jcas.throwFeatMissing("causes_protein", "ch.epfl.bbp.uima.genia.Event");
@@ -159,7 +178,10 @@ public class Event extends Annotation {
     return (Protein)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((Event_Type)jcasType).casFeatCode_causes_protein), i)));}
 
   /** indexed setter for causes_protein - sets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setCauses_protein(int i, Protein v) { 
     if (Event_Type.featOkTst && ((Event_Type)jcasType).casFeat_causes_protein == null)
       jcasType.jcas.throwFeatMissing("causes_protein", "ch.epfl.bbp.uima.genia.Event");
@@ -233,7 +255,10 @@ public class Event extends Annotation {
     jcasType.ll_cas.ll_setRefValue(addr, ((Event_Type)jcasType).casFeatCode_themes_event, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for themes_event - gets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public Event getThemes_event(int i) {
     if (Event_Type.featOkTst && ((Event_Type)jcasType).casFeat_themes_event == null)
       jcasType.jcas.throwFeatMissing("themes_event", "ch.epfl.bbp.uima.genia.Event");
@@ -241,7 +266,10 @@ public class Event extends Annotation {
     return (Event)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((Event_Type)jcasType).casFeatCode_themes_event), i)));}
 
   /** indexed setter for themes_event - sets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setThemes_event(int i, Event v) { 
     if (Event_Type.featOkTst && ((Event_Type)jcasType).casFeat_themes_event == null)
       jcasType.jcas.throwFeatMissing("themes_event", "ch.epfl.bbp.uima.genia.Event");
@@ -271,7 +299,10 @@ public class Event extends Annotation {
     jcasType.ll_cas.ll_setRefValue(addr, ((Event_Type)jcasType).casFeatCode_causes_event, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for causes_event - gets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public Event getCauses_event(int i) {
     if (Event_Type.featOkTst && ((Event_Type)jcasType).casFeat_causes_event == null)
       jcasType.jcas.throwFeatMissing("causes_event", "ch.epfl.bbp.uima.genia.Event");
@@ -279,7 +310,10 @@ public class Event extends Annotation {
     return (Event)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((Event_Type)jcasType).casFeatCode_causes_event), i)));}
 
   /** indexed setter for causes_event - sets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setCauses_event(int i, Event v) { 
     if (Event_Type.featOkTst && ((Event_Type)jcasType).casFeat_causes_event == null)
       jcasType.jcas.throwFeatMissing("causes_event", "ch.epfl.bbp.uima.genia.Event");

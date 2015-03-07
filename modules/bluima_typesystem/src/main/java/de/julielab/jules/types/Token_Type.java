@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:10:28 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** Token annotation marks the span of a token and takes all additional annotations that are on the token level, including Part-of-Speech information, lemma, stemmed form,  grammatical features such as gender, number and orthographical information; furthemore, Token includes the information about dependency relations to other tokens (see correspondent annotation types for further infromation).
- * Updated by JCasGen Wed Jun 04 18:01:59 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class Token_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class Token_Type extends Annotation_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = Token.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.Token");
  
   /** @generated */
   final Feature casFeat_lemma;
   /** @generated */
   final int     casFeatCode_lemma;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getLemma(int addr) {
         if (featOkTst && casFeat_lemma == null)
       jcas.throwFeatMissing("lemma", "de.julielab.jules.types.Token");
     return ll_cas.ll_getRefValue(addr, casFeatCode_lemma);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setLemma(int addr, int v) {
         if (featOkTst && casFeat_lemma == null)
       jcas.throwFeatMissing("lemma", "de.julielab.jules.types.Token");
@@ -62,29 +73,43 @@ public class Token_Type extends Annotation_Type {
   final Feature casFeat_posTag;
   /** @generated */
   final int     casFeatCode_posTag;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getPosTag(int addr) {
         if (featOkTst && casFeat_posTag == null)
       jcas.throwFeatMissing("posTag", "de.julielab.jules.types.Token");
     return ll_cas.ll_getRefValue(addr, casFeatCode_posTag);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setPosTag(int addr, int v) {
         if (featOkTst && casFeat_posTag == null)
       jcas.throwFeatMissing("posTag", "de.julielab.jules.types.Token");
     ll_cas.ll_setRefValue(addr, casFeatCode_posTag, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public int getPosTag(int addr, int i) {
         if (featOkTst && casFeat_posTag == null)
       jcas.throwFeatMissing("posTag", "de.julielab.jules.types.Token");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_posTag), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_posTag), i);
-  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_posTag), i);
+	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_posTag), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setPosTag(int addr, int i, int v) {
         if (featOkTst && casFeat_posTag == null)
       jcas.throwFeatMissing("posTag", "de.julielab.jules.types.Token");
@@ -99,13 +124,19 @@ public class Token_Type extends Annotation_Type {
   final Feature casFeat_stemmedForm;
   /** @generated */
   final int     casFeatCode_stemmedForm;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getStemmedForm(int addr) {
         if (featOkTst && casFeat_stemmedForm == null)
       jcas.throwFeatMissing("stemmedForm", "de.julielab.jules.types.Token");
     return ll_cas.ll_getRefValue(addr, casFeatCode_stemmedForm);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setStemmedForm(int addr, int v) {
         if (featOkTst && casFeat_stemmedForm == null)
       jcas.throwFeatMissing("stemmedForm", "de.julielab.jules.types.Token");
@@ -117,13 +148,19 @@ public class Token_Type extends Annotation_Type {
   final Feature casFeat_feats;
   /** @generated */
   final int     casFeatCode_feats;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getFeats(int addr) {
         if (featOkTst && casFeat_feats == null)
       jcas.throwFeatMissing("feats", "de.julielab.jules.types.Token");
     return ll_cas.ll_getRefValue(addr, casFeatCode_feats);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setFeats(int addr, int v) {
         if (featOkTst && casFeat_feats == null)
       jcas.throwFeatMissing("feats", "de.julielab.jules.types.Token");
@@ -135,13 +172,19 @@ public class Token_Type extends Annotation_Type {
   final Feature casFeat_orthogr;
   /** @generated */
   final int     casFeatCode_orthogr;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getOrthogr(int addr) {
         if (featOkTst && casFeat_orthogr == null)
       jcas.throwFeatMissing("orthogr", "de.julielab.jules.types.Token");
     return ll_cas.ll_getStringValue(addr, casFeatCode_orthogr);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setOrthogr(int addr, String v) {
         if (featOkTst && casFeat_orthogr == null)
       jcas.throwFeatMissing("orthogr", "de.julielab.jules.types.Token");
@@ -153,29 +196,43 @@ public class Token_Type extends Annotation_Type {
   final Feature casFeat_depRel;
   /** @generated */
   final int     casFeatCode_depRel;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getDepRel(int addr) {
         if (featOkTst && casFeat_depRel == null)
       jcas.throwFeatMissing("depRel", "de.julielab.jules.types.Token");
     return ll_cas.ll_getRefValue(addr, casFeatCode_depRel);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setDepRel(int addr, int v) {
         if (featOkTst && casFeat_depRel == null)
       jcas.throwFeatMissing("depRel", "de.julielab.jules.types.Token");
     ll_cas.ll_setRefValue(addr, casFeatCode_depRel, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public int getDepRel(int addr, int i) {
         if (featOkTst && casFeat_depRel == null)
       jcas.throwFeatMissing("depRel", "de.julielab.jules.types.Token");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_depRel), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_depRel), i);
-  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_depRel), i);
+	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_depRel), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setDepRel(int addr, int i, int v) {
         if (featOkTst && casFeat_depRel == null)
       jcas.throwFeatMissing("depRel", "de.julielab.jules.types.Token");
@@ -190,13 +247,19 @@ public class Token_Type extends Annotation_Type {
   final Feature casFeat_pos;
   /** @generated */
   final int     casFeatCode_pos;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getPos(int addr) {
         if (featOkTst && casFeat_pos == null)
       jcas.throwFeatMissing("pos", "de.julielab.jules.types.Token");
     return ll_cas.ll_getStringValue(addr, casFeatCode_pos);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setPos(int addr, String v) {
         if (featOkTst && casFeat_pos == null)
       jcas.throwFeatMissing("pos", "de.julielab.jules.types.Token");
@@ -208,13 +271,19 @@ public class Token_Type extends Annotation_Type {
   final Feature casFeat_lemmaStr;
   /** @generated */
   final int     casFeatCode_lemmaStr;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getLemmaStr(int addr) {
         if (featOkTst && casFeat_lemmaStr == null)
       jcas.throwFeatMissing("lemmaStr", "de.julielab.jules.types.Token");
     return ll_cas.ll_getStringValue(addr, casFeatCode_lemmaStr);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setLemmaStr(int addr, String v) {
         if (featOkTst && casFeat_lemmaStr == null)
       jcas.throwFeatMissing("lemmaStr", "de.julielab.jules.types.Token");
@@ -226,13 +295,19 @@ public class Token_Type extends Annotation_Type {
   final Feature casFeat_topicIds;
   /** @generated */
   final int     casFeatCode_topicIds;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getTopicIds(int addr) {
         if (featOkTst && casFeat_topicIds == null)
       jcas.throwFeatMissing("topicIds", "de.julielab.jules.types.Token");
     return ll_cas.ll_getStringValue(addr, casFeatCode_topicIds);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setTopicIds(int addr, String v) {
         if (featOkTst && casFeat_topicIds == null)
       jcas.throwFeatMissing("topicIds", "de.julielab.jules.types.Token");
@@ -243,7 +318,10 @@ public class Token_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public Token_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

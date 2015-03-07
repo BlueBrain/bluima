@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,12 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** e.g. x =3, p < 0.05
- * Updated by JCasGen Wed Jun 04 18:01:56 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class VariableAssignment_Type extends Measure_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -47,13 +49,19 @@ public class VariableAssignment_Type extends Measure_Type {
   final Feature casFeat_operator;
   /** @generated */
   final int     casFeatCode_operator;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getOperator(int addr) {
         if (featOkTst && casFeat_operator == null)
       jcas.throwFeatMissing("operator", "ch.epfl.bbp.uima.types.VariableAssignment");
     return ll_cas.ll_getStringValue(addr, casFeatCode_operator);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setOperator(int addr, String v) {
         if (featOkTst && casFeat_operator == null)
       jcas.throwFeatMissing("operator", "ch.epfl.bbp.uima.types.VariableAssignment");
@@ -65,13 +73,19 @@ public class VariableAssignment_Type extends Measure_Type {
   final Feature casFeat_value;
   /** @generated */
   final int     casFeatCode_value;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public float getValue(int addr) {
         if (featOkTst && casFeat_value == null)
       jcas.throwFeatMissing("value", "ch.epfl.bbp.uima.types.VariableAssignment");
     return ll_cas.ll_getFloatValue(addr, casFeatCode_value);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setValue(int addr, float v) {
         if (featOkTst && casFeat_value == null)
       jcas.throwFeatMissing("value", "ch.epfl.bbp.uima.types.VariableAssignment");
@@ -83,13 +97,19 @@ public class VariableAssignment_Type extends Measure_Type {
   final Feature casFeat_variableName;
   /** @generated */
   final int     casFeatCode_variableName;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getVariableName(int addr) {
         if (featOkTst && casFeat_variableName == null)
       jcas.throwFeatMissing("variableName", "ch.epfl.bbp.uima.types.VariableAssignment");
     return ll_cas.ll_getStringValue(addr, casFeatCode_variableName);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setVariableName(int addr, String v) {
         if (featOkTst && casFeat_variableName == null)
       jcas.throwFeatMissing("variableName", "ch.epfl.bbp.uima.types.VariableAssignment");
@@ -101,13 +121,19 @@ public class VariableAssignment_Type extends Measure_Type {
   final Feature casFeat_textValue;
   /** @generated */
   final int     casFeatCode_textValue;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getTextValue(int addr) {
         if (featOkTst && casFeat_textValue == null)
       jcas.throwFeatMissing("textValue", "ch.epfl.bbp.uima.types.VariableAssignment");
     return ll_cas.ll_getStringValue(addr, casFeatCode_textValue);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setTextValue(int addr, String v) {
         if (featOkTst && casFeat_textValue == null)
       jcas.throwFeatMissing("textValue", "ch.epfl.bbp.uima.types.VariableAssignment");
@@ -118,7 +144,10 @@ public class VariableAssignment_Type extends Measure_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public VariableAssignment_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

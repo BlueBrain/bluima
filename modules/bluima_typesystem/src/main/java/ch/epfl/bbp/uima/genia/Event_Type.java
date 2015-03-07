@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Fri Dec 23 13:41:29 CET 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.genia;
 
 import org.apache.uima.jcas.JCas;
@@ -15,10 +15,12 @@ import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** See
         http://2011.bionlp-st.org/home/genia-event-extraction-genia
- * Updated by JCasGen Wed Jun 04 18:01:54 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class Event_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -49,13 +51,19 @@ public class Event_Type extends Annotation_Type {
   final Feature casFeat_event_type;
   /** @generated */
   final int     casFeatCode_event_type;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getEvent_type(int addr) {
         if (featOkTst && casFeat_event_type == null)
       jcas.throwFeatMissing("event_type", "ch.epfl.bbp.uima.genia.Event");
     return ll_cas.ll_getStringValue(addr, casFeatCode_event_type);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setEvent_type(int addr, String v) {
         if (featOkTst && casFeat_event_type == null)
       jcas.throwFeatMissing("event_type", "ch.epfl.bbp.uima.genia.Event");
@@ -67,29 +75,43 @@ public class Event_Type extends Annotation_Type {
   final Feature casFeat_themes_protein;
   /** @generated */
   final int     casFeatCode_themes_protein;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getThemes_protein(int addr) {
         if (featOkTst && casFeat_themes_protein == null)
       jcas.throwFeatMissing("themes_protein", "ch.epfl.bbp.uima.genia.Event");
     return ll_cas.ll_getRefValue(addr, casFeatCode_themes_protein);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setThemes_protein(int addr, int v) {
         if (featOkTst && casFeat_themes_protein == null)
       jcas.throwFeatMissing("themes_protein", "ch.epfl.bbp.uima.genia.Event");
     ll_cas.ll_setRefValue(addr, casFeatCode_themes_protein, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public int getThemes_protein(int addr, int i) {
         if (featOkTst && casFeat_themes_protein == null)
       jcas.throwFeatMissing("themes_protein", "ch.epfl.bbp.uima.genia.Event");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_themes_protein), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_themes_protein), i);
-  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_themes_protein), i);
+	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_themes_protein), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setThemes_protein(int addr, int i, int v) {
         if (featOkTst && casFeat_themes_protein == null)
       jcas.throwFeatMissing("themes_protein", "ch.epfl.bbp.uima.genia.Event");
@@ -104,29 +126,43 @@ public class Event_Type extends Annotation_Type {
   final Feature casFeat_causes_protein;
   /** @generated */
   final int     casFeatCode_causes_protein;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getCauses_protein(int addr) {
         if (featOkTst && casFeat_causes_protein == null)
       jcas.throwFeatMissing("causes_protein", "ch.epfl.bbp.uima.genia.Event");
     return ll_cas.ll_getRefValue(addr, casFeatCode_causes_protein);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setCauses_protein(int addr, int v) {
         if (featOkTst && casFeat_causes_protein == null)
       jcas.throwFeatMissing("causes_protein", "ch.epfl.bbp.uima.genia.Event");
     ll_cas.ll_setRefValue(addr, casFeatCode_causes_protein, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public int getCauses_protein(int addr, int i) {
         if (featOkTst && casFeat_causes_protein == null)
       jcas.throwFeatMissing("causes_protein", "ch.epfl.bbp.uima.genia.Event");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_causes_protein), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_causes_protein), i);
-  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_causes_protein), i);
+	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_causes_protein), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setCauses_protein(int addr, int i, int v) {
         if (featOkTst && casFeat_causes_protein == null)
       jcas.throwFeatMissing("causes_protein", "ch.epfl.bbp.uima.genia.Event");
@@ -141,13 +177,19 @@ public class Event_Type extends Annotation_Type {
   final Feature casFeat_site;
   /** @generated */
   final int     casFeatCode_site;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getSite(int addr) {
         if (featOkTst && casFeat_site == null)
       jcas.throwFeatMissing("site", "ch.epfl.bbp.uima.genia.Event");
     return ll_cas.ll_getStringValue(addr, casFeatCode_site);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setSite(int addr, String v) {
         if (featOkTst && casFeat_site == null)
       jcas.throwFeatMissing("site", "ch.epfl.bbp.uima.genia.Event");
@@ -159,13 +201,19 @@ public class Event_Type extends Annotation_Type {
   final Feature casFeat_id;
   /** @generated */
   final int     casFeatCode_id;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getId(int addr) {
         if (featOkTst && casFeat_id == null)
       jcas.throwFeatMissing("id", "ch.epfl.bbp.uima.genia.Event");
     return ll_cas.ll_getStringValue(addr, casFeatCode_id);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setId(int addr, String v) {
         if (featOkTst && casFeat_id == null)
       jcas.throwFeatMissing("id", "ch.epfl.bbp.uima.genia.Event");
@@ -177,29 +225,43 @@ public class Event_Type extends Annotation_Type {
   final Feature casFeat_themes_event;
   /** @generated */
   final int     casFeatCode_themes_event;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getThemes_event(int addr) {
         if (featOkTst && casFeat_themes_event == null)
       jcas.throwFeatMissing("themes_event", "ch.epfl.bbp.uima.genia.Event");
     return ll_cas.ll_getRefValue(addr, casFeatCode_themes_event);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setThemes_event(int addr, int v) {
         if (featOkTst && casFeat_themes_event == null)
       jcas.throwFeatMissing("themes_event", "ch.epfl.bbp.uima.genia.Event");
     ll_cas.ll_setRefValue(addr, casFeatCode_themes_event, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public int getThemes_event(int addr, int i) {
         if (featOkTst && casFeat_themes_event == null)
       jcas.throwFeatMissing("themes_event", "ch.epfl.bbp.uima.genia.Event");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_themes_event), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_themes_event), i);
-  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_themes_event), i);
+	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_themes_event), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setThemes_event(int addr, int i, int v) {
         if (featOkTst && casFeat_themes_event == null)
       jcas.throwFeatMissing("themes_event", "ch.epfl.bbp.uima.genia.Event");
@@ -214,29 +276,43 @@ public class Event_Type extends Annotation_Type {
   final Feature casFeat_causes_event;
   /** @generated */
   final int     casFeatCode_causes_event;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getCauses_event(int addr) {
         if (featOkTst && casFeat_causes_event == null)
       jcas.throwFeatMissing("causes_event", "ch.epfl.bbp.uima.genia.Event");
     return ll_cas.ll_getRefValue(addr, casFeatCode_causes_event);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setCauses_event(int addr, int v) {
         if (featOkTst && casFeat_causes_event == null)
       jcas.throwFeatMissing("causes_event", "ch.epfl.bbp.uima.genia.Event");
     ll_cas.ll_setRefValue(addr, casFeatCode_causes_event, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public int getCauses_event(int addr, int i) {
         if (featOkTst && casFeat_causes_event == null)
       jcas.throwFeatMissing("causes_event", "ch.epfl.bbp.uima.genia.Event");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_causes_event), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_causes_event), i);
-  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_causes_event), i);
+	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_causes_event), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setCauses_event(int addr, int i, int v) {
         if (featOkTst && casFeat_causes_event == null)
       jcas.throwFeatMissing("causes_event", "ch.epfl.bbp.uima.genia.Event");
@@ -250,7 +326,10 @@ public class Event_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public Event_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

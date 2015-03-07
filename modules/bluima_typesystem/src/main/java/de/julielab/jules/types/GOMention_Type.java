@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:10:28 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class GOMention_Type extends ConceptMention_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,38 +38,54 @@ public class GOMention_Type extends ConceptMention_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = GOMention.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.GOMention");
  
   /** @generated */
   final Feature casFeat_categories;
   /** @generated */
   final int     casFeatCode_categories;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getCategories(int addr) {
         if (featOkTst && casFeat_categories == null)
       jcas.throwFeatMissing("categories", "de.julielab.jules.types.GOMention");
     return ll_cas.ll_getRefValue(addr, casFeatCode_categories);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setCategories(int addr, int v) {
         if (featOkTst && casFeat_categories == null)
       jcas.throwFeatMissing("categories", "de.julielab.jules.types.GOMention");
     ll_cas.ll_setRefValue(addr, casFeatCode_categories, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public String getCategories(int addr, int i) {
         if (featOkTst && casFeat_categories == null)
       jcas.throwFeatMissing("categories", "de.julielab.jules.types.GOMention");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_categories), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_categories), i);
-  return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_categories), i);
+	return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_categories), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setCategories(int addr, int i, String v) {
         if (featOkTst && casFeat_categories == null)
       jcas.throwFeatMissing("categories", "de.julielab.jules.types.GOMention");
@@ -81,13 +100,19 @@ public class GOMention_Type extends ConceptMention_Type {
   final Feature casFeat_goID;
   /** @generated */
   final int     casFeatCode_goID;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getGoID(int addr) {
         if (featOkTst && casFeat_goID == null)
       jcas.throwFeatMissing("goID", "de.julielab.jules.types.GOMention");
     return ll_cas.ll_getStringValue(addr, casFeatCode_goID);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setGoID(int addr, String v) {
         if (featOkTst && casFeat_goID == null)
       jcas.throwFeatMissing("goID", "de.julielab.jules.types.GOMention");
@@ -98,7 +123,10 @@ public class GOMention_Type extends ConceptMention_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public GOMention_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

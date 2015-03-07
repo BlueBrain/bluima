@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:10:41 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** The Header type stores the bibliographical document information.
- * Updated by JCasGen Fri Dec 09 11:59:26 CET 2011
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class Header_Type extends DocumentAnnotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class Header_Type extends DocumentAnnotation_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = Header.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.Header");
  
   /** @generated */
   final Feature casFeat_docType;
   /** @generated */
   final int     casFeatCode_docType;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getDocType(int addr) {
         if (featOkTst && casFeat_docType == null)
       jcas.throwFeatMissing("docType", "de.julielab.jules.types.Header");
     return ll_cas.ll_getStringValue(addr, casFeatCode_docType);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setDocType(int addr, String v) {
         if (featOkTst && casFeat_docType == null)
       jcas.throwFeatMissing("docType", "de.julielab.jules.types.Header");
@@ -62,13 +73,19 @@ public class Header_Type extends DocumentAnnotation_Type {
   final Feature casFeat_source;
   /** @generated */
   final int     casFeatCode_source;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getSource(int addr) {
         if (featOkTst && casFeat_source == null)
       jcas.throwFeatMissing("source", "de.julielab.jules.types.Header");
     return ll_cas.ll_getStringValue(addr, casFeatCode_source);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setSource(int addr, String v) {
         if (featOkTst && casFeat_source == null)
       jcas.throwFeatMissing("source", "de.julielab.jules.types.Header");
@@ -80,13 +97,19 @@ public class Header_Type extends DocumentAnnotation_Type {
   final Feature casFeat_docId;
   /** @generated */
   final int     casFeatCode_docId;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getDocId(int addr) {
         if (featOkTst && casFeat_docId == null)
       jcas.throwFeatMissing("docId", "de.julielab.jules.types.Header");
     return ll_cas.ll_getStringValue(addr, casFeatCode_docId);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setDocId(int addr, String v) {
         if (featOkTst && casFeat_docId == null)
       jcas.throwFeatMissing("docId", "de.julielab.jules.types.Header");
@@ -98,13 +121,19 @@ public class Header_Type extends DocumentAnnotation_Type {
   final Feature casFeat_copyright;
   /** @generated */
   final int     casFeatCode_copyright;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getCopyright(int addr) {
         if (featOkTst && casFeat_copyright == null)
       jcas.throwFeatMissing("copyright", "de.julielab.jules.types.Header");
     return ll_cas.ll_getStringValue(addr, casFeatCode_copyright);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setCopyright(int addr, String v) {
         if (featOkTst && casFeat_copyright == null)
       jcas.throwFeatMissing("copyright", "de.julielab.jules.types.Header");
@@ -116,13 +145,19 @@ public class Header_Type extends DocumentAnnotation_Type {
   final Feature casFeat_truncated;
   /** @generated */
   final int     casFeatCode_truncated;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public boolean getTruncated(int addr) {
         if (featOkTst && casFeat_truncated == null)
       jcas.throwFeatMissing("truncated", "de.julielab.jules.types.Header");
     return ll_cas.ll_getBooleanValue(addr, casFeatCode_truncated);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setTruncated(int addr, boolean v) {
         if (featOkTst && casFeat_truncated == null)
       jcas.throwFeatMissing("truncated", "de.julielab.jules.types.Header");
@@ -134,29 +169,43 @@ public class Header_Type extends DocumentAnnotation_Type {
   final Feature casFeat_authors;
   /** @generated */
   final int     casFeatCode_authors;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getAuthors(int addr) {
         if (featOkTst && casFeat_authors == null)
       jcas.throwFeatMissing("authors", "de.julielab.jules.types.Header");
     return ll_cas.ll_getRefValue(addr, casFeatCode_authors);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setAuthors(int addr, int v) {
         if (featOkTst && casFeat_authors == null)
       jcas.throwFeatMissing("authors", "de.julielab.jules.types.Header");
     ll_cas.ll_setRefValue(addr, casFeatCode_authors, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public int getAuthors(int addr, int i) {
         if (featOkTst && casFeat_authors == null)
       jcas.throwFeatMissing("authors", "de.julielab.jules.types.Header");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_authors), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_authors), i);
-  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_authors), i);
+	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_authors), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setAuthors(int addr, int i, int v) {
         if (featOkTst && casFeat_authors == null)
       jcas.throwFeatMissing("authors", "de.julielab.jules.types.Header");
@@ -171,13 +220,19 @@ public class Header_Type extends DocumentAnnotation_Type {
   final Feature casFeat_title;
   /** @generated */
   final int     casFeatCode_title;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getTitle(int addr) {
         if (featOkTst && casFeat_title == null)
       jcas.throwFeatMissing("title", "de.julielab.jules.types.Header");
     return ll_cas.ll_getStringValue(addr, casFeatCode_title);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setTitle(int addr, String v) {
         if (featOkTst && casFeat_title == null)
       jcas.throwFeatMissing("title", "de.julielab.jules.types.Header");
@@ -189,29 +244,43 @@ public class Header_Type extends DocumentAnnotation_Type {
   final Feature casFeat_pubTypeList;
   /** @generated */
   final int     casFeatCode_pubTypeList;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getPubTypeList(int addr) {
         if (featOkTst && casFeat_pubTypeList == null)
       jcas.throwFeatMissing("pubTypeList", "de.julielab.jules.types.Header");
     return ll_cas.ll_getRefValue(addr, casFeatCode_pubTypeList);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setPubTypeList(int addr, int v) {
         if (featOkTst && casFeat_pubTypeList == null)
       jcas.throwFeatMissing("pubTypeList", "de.julielab.jules.types.Header");
     ll_cas.ll_setRefValue(addr, casFeatCode_pubTypeList, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public int getPubTypeList(int addr, int i) {
         if (featOkTst && casFeat_pubTypeList == null)
       jcas.throwFeatMissing("pubTypeList", "de.julielab.jules.types.Header");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_pubTypeList), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_pubTypeList), i);
-  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_pubTypeList), i);
+	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_pubTypeList), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setPubTypeList(int addr, int i, int v) {
         if (featOkTst && casFeat_pubTypeList == null)
       jcas.throwFeatMissing("pubTypeList", "de.julielab.jules.types.Header");
@@ -226,13 +295,19 @@ public class Header_Type extends DocumentAnnotation_Type {
   final Feature casFeat_language;
   /** @generated */
   final int     casFeatCode_language;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getLanguage(int addr) {
         if (featOkTst && casFeat_language == null)
       jcas.throwFeatMissing("language", "de.julielab.jules.types.Header");
     return ll_cas.ll_getStringValue(addr, casFeatCode_language);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setLanguage(int addr, String v) {
         if (featOkTst && casFeat_language == null)
       jcas.throwFeatMissing("language", "de.julielab.jules.types.Header");
@@ -244,13 +319,19 @@ public class Header_Type extends DocumentAnnotation_Type {
   final Feature casFeat_doi;
   /** @generated */
   final int     casFeatCode_doi;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getDoi(int addr) {
         if (featOkTst && casFeat_doi == null)
       jcas.throwFeatMissing("doi", "de.julielab.jules.types.Header");
     return ll_cas.ll_getStringValue(addr, casFeatCode_doi);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setDoi(int addr, String v) {
         if (featOkTst && casFeat_doi == null)
       jcas.throwFeatMissing("doi", "de.julielab.jules.types.Header");
@@ -261,7 +342,10 @@ public class Header_Type extends DocumentAnnotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public Header_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

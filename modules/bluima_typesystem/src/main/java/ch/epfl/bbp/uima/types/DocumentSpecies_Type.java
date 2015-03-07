@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Feb 17 12:27:27 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -14,10 +14,12 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** the most probable species of a document
- * Updated by JCasGen Mon Feb 17 12:27:27 CET 2014
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class DocumentSpecies_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -48,13 +50,19 @@ public class DocumentSpecies_Type extends Annotation_Type {
   final Feature casFeat_familyName;
   /** @generated */
   final int     casFeatCode_familyName;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getFamilyName(int addr) {
         if (featOkTst && casFeat_familyName == null)
       jcas.throwFeatMissing("familyName", "ch.epfl.bbp.uima.types.DocumentSpecies");
     return ll_cas.ll_getStringValue(addr, casFeatCode_familyName);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setFamilyName(int addr, String v) {
         if (featOkTst && casFeat_familyName == null)
       jcas.throwFeatMissing("familyName", "ch.epfl.bbp.uima.types.DocumentSpecies");
@@ -65,7 +73,10 @@ public class DocumentSpecies_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public DocumentSpecies_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -12,8 +12,8 @@ import org.apache.uima.jcas.cas.StringArray;
 
 
 /** A table that contains data, extracted from a pdf article
- * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
- * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/target/jcasgen/typesystem.xml
  * @generated */
 public class DataTable extends Annotation {
   /** @generated
@@ -26,7 +26,9 @@ public class DataTable extends Annotation {
    */
   @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
   @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
@@ -35,19 +37,28 @@ public class DataTable extends Annotation {
   protected DataTable() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
   public DataTable(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
   public DataTable(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
   public DataTable(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -57,9 +68,9 @@ public class DataTable extends Annotation {
 
   /** 
    * <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  *
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
    * @generated modifiable 
    */
   private void readObject() {/*default - does nothing empty block */}
@@ -176,7 +187,10 @@ public class DataTable extends Annotation {
     jcasType.ll_cas.ll_setRefValue(addr, ((DataTable_Type)jcasType).casFeatCode_headings, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for headings - gets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public String getHeadings(int i) {
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_headings == null)
       jcasType.jcas.throwFeatMissing("headings", "ch.epfl.bbp.uima.types.DataTable");
@@ -184,7 +198,10 @@ public class DataTable extends Annotation {
     return jcasType.ll_cas.ll_getStringArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((DataTable_Type)jcasType).casFeatCode_headings), i);}
 
   /** indexed setter for headings - sets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setHeadings(int i, String v) { 
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_headings == null)
       jcasType.jcas.throwFeatMissing("headings", "ch.epfl.bbp.uima.types.DataTable");
@@ -214,7 +231,10 @@ public class DataTable extends Annotation {
     jcasType.ll_cas.ll_setRefValue(addr, ((DataTable_Type)jcasType).casFeatCode_body, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for body - gets an indexed value - the body of the table that contains data
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public String getBody(int i) {
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_body == null)
       jcasType.jcas.throwFeatMissing("body", "ch.epfl.bbp.uima.types.DataTable");
@@ -222,7 +242,10 @@ public class DataTable extends Annotation {
     return jcasType.ll_cas.ll_getStringArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((DataTable_Type)jcasType).casFeatCode_body), i);}
 
   /** indexed setter for body - sets an indexed value - the body of the table that contains data
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setBody(int i, String v) { 
     if (DataTable_Type.featOkTst && ((DataTable_Type)jcasType).casFeat_body == null)
       jcasType.jcas.throwFeatMissing("body", "ch.epfl.bbp.uima.types.DataTable");

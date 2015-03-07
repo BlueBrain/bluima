@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,12 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class DocumentBlock_Type extends DocumentElement_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -47,13 +49,19 @@ public class DocumentBlock_Type extends DocumentElement_Type {
   final Feature casFeat_hasBold;
   /** @generated */
   final int     casFeatCode_hasBold;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public boolean getHasBold(int addr) {
         if (featOkTst && casFeat_hasBold == null)
       jcas.throwFeatMissing("hasBold", "ch.epfl.bbp.uima.types.DocumentBlock");
     return ll_cas.ll_getBooleanValue(addr, casFeatCode_hasBold);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setHasBold(int addr, boolean v) {
         if (featOkTst && casFeat_hasBold == null)
       jcas.throwFeatMissing("hasBold", "ch.epfl.bbp.uima.types.DocumentBlock");
@@ -65,13 +73,19 @@ public class DocumentBlock_Type extends DocumentElement_Type {
   final Feature casFeat_hasManyFontsizes;
   /** @generated */
   final int     casFeatCode_hasManyFontsizes;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public boolean getHasManyFontsizes(int addr) {
         if (featOkTst && casFeat_hasManyFontsizes == null)
       jcas.throwFeatMissing("hasManyFontsizes", "ch.epfl.bbp.uima.types.DocumentBlock");
     return ll_cas.ll_getBooleanValue(addr, casFeatCode_hasManyFontsizes);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setHasManyFontsizes(int addr, boolean v) {
         if (featOkTst && casFeat_hasManyFontsizes == null)
       jcas.throwFeatMissing("hasManyFontsizes", "ch.epfl.bbp.uima.types.DocumentBlock");
@@ -82,7 +96,10 @@ public class DocumentBlock_Type extends DocumentElement_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public DocumentBlock_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

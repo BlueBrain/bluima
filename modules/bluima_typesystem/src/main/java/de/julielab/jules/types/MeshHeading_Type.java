@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:10:41 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** Medical Subject Headings, see NLM's MeSH for a detailed description.
- * Updated by JCasGen Fri Dec 09 11:59:26 CET 2011
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class MeshHeading_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class MeshHeading_Type extends Annotation_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = MeshHeading.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.MeshHeading");
  
   /** @generated */
   final Feature casFeat_descriptorName;
   /** @generated */
   final int     casFeatCode_descriptorName;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getDescriptorName(int addr) {
         if (featOkTst && casFeat_descriptorName == null)
       jcas.throwFeatMissing("descriptorName", "de.julielab.jules.types.MeshHeading");
     return ll_cas.ll_getStringValue(addr, casFeatCode_descriptorName);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setDescriptorName(int addr, String v) {
         if (featOkTst && casFeat_descriptorName == null)
       jcas.throwFeatMissing("descriptorName", "de.julielab.jules.types.MeshHeading");
@@ -62,13 +73,19 @@ public class MeshHeading_Type extends Annotation_Type {
   final Feature casFeat_qualifierName;
   /** @generated */
   final int     casFeatCode_qualifierName;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getQualifierName(int addr) {
         if (featOkTst && casFeat_qualifierName == null)
       jcas.throwFeatMissing("qualifierName", "de.julielab.jules.types.MeshHeading");
     return ll_cas.ll_getStringValue(addr, casFeatCode_qualifierName);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setQualifierName(int addr, String v) {
         if (featOkTst && casFeat_qualifierName == null)
       jcas.throwFeatMissing("qualifierName", "de.julielab.jules.types.MeshHeading");
@@ -80,13 +97,19 @@ public class MeshHeading_Type extends Annotation_Type {
   final Feature casFeat_descriptorNameMajorTopic;
   /** @generated */
   final int     casFeatCode_descriptorNameMajorTopic;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public boolean getDescriptorNameMajorTopic(int addr) {
         if (featOkTst && casFeat_descriptorNameMajorTopic == null)
       jcas.throwFeatMissing("descriptorNameMajorTopic", "de.julielab.jules.types.MeshHeading");
     return ll_cas.ll_getBooleanValue(addr, casFeatCode_descriptorNameMajorTopic);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setDescriptorNameMajorTopic(int addr, boolean v) {
         if (featOkTst && casFeat_descriptorNameMajorTopic == null)
       jcas.throwFeatMissing("descriptorNameMajorTopic", "de.julielab.jules.types.MeshHeading");
@@ -98,13 +121,19 @@ public class MeshHeading_Type extends Annotation_Type {
   final Feature casFeat_qualifierNameMajorTopic;
   /** @generated */
   final int     casFeatCode_qualifierNameMajorTopic;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public boolean getQualifierNameMajorTopic(int addr) {
         if (featOkTst && casFeat_qualifierNameMajorTopic == null)
       jcas.throwFeatMissing("qualifierNameMajorTopic", "de.julielab.jules.types.MeshHeading");
     return ll_cas.ll_getBooleanValue(addr, casFeatCode_qualifierNameMajorTopic);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setQualifierNameMajorTopic(int addr, boolean v) {
         if (featOkTst && casFeat_qualifierNameMajorTopic == null)
       jcas.throwFeatMissing("qualifierNameMajorTopic", "de.julielab.jules.types.MeshHeading");
@@ -115,7 +144,10 @@ public class MeshHeading_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public MeshHeading_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

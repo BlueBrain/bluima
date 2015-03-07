@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Wed Oct 19 19:10:41 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,19 +11,24 @@ import org.apache.uima.jcas.cas.FSArray;
 
 
 /** 
- * Updated by JCasGen Fri Dec 09 11:59:26 CET 2011
- * XML source: /Users/richarde/dev/bluebrain/svn_nlp/UIMA/blue_uima/trunk/julielab_typesystem-2.6.8/src/main/resources/typeSystem/julie-document-meta-types.xml
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/target/jcasgen/typesystem.xml
  * @generated */
 public class RelatedArticleList extends Annotation {
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = JCasRegistry.register(RelatedArticleList.class);
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
+  @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
   /** Never called.  Disable default constructor
@@ -31,19 +36,28 @@ public class RelatedArticleList extends Annotation {
   protected RelatedArticleList() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
   public RelatedArticleList(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
   public RelatedArticleList(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
   public RelatedArticleList(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -51,11 +65,14 @@ public class RelatedArticleList extends Annotation {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  @generated modifiable */
-  private void readObject() {}
+  /** 
+   * <!-- begin-user-doc -->
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
+   * @generated modifiable 
+   */
+  private void readObject() {/*default - does nothing empty block */}
      
  
     
@@ -63,21 +80,28 @@ public class RelatedArticleList extends Annotation {
   //* Feature: relatedArticles
 
   /** getter for relatedArticles - gets 
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public FSArray getRelatedArticles() {
     if (RelatedArticleList_Type.featOkTst && ((RelatedArticleList_Type)jcasType).casFeat_relatedArticles == null)
       jcasType.jcas.throwFeatMissing("relatedArticles", "de.julielab.jules.types.RelatedArticleList");
     return (FSArray)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefValue(addr, ((RelatedArticleList_Type)jcasType).casFeatCode_relatedArticles)));}
     
   /** setter for relatedArticles - sets  
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setRelatedArticles(FSArray v) {
     if (RelatedArticleList_Type.featOkTst && ((RelatedArticleList_Type)jcasType).casFeat_relatedArticles == null)
       jcasType.jcas.throwFeatMissing("relatedArticles", "de.julielab.jules.types.RelatedArticleList");
     jcasType.ll_cas.ll_setRefValue(addr, ((RelatedArticleList_Type)jcasType).casFeatCode_relatedArticles, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for relatedArticles - gets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public RelatedArticle getRelatedArticles(int i) {
     if (RelatedArticleList_Type.featOkTst && ((RelatedArticleList_Type)jcasType).casFeat_relatedArticles == null)
       jcasType.jcas.throwFeatMissing("relatedArticles", "de.julielab.jules.types.RelatedArticleList");
@@ -85,7 +109,10 @@ public class RelatedArticleList extends Annotation {
     return (RelatedArticle)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((RelatedArticleList_Type)jcasType).casFeatCode_relatedArticles), i)));}
 
   /** indexed setter for relatedArticles - sets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setRelatedArticles(int i, RelatedArticle v) { 
     if (RelatedArticleList_Type.featOkTst && ((RelatedArticleList_Type)jcasType).casFeat_relatedArticles == null)
       jcasType.jcas.throwFeatMissing("relatedArticles", "de.julielab.jules.types.RelatedArticleList");

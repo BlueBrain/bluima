@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Sun May 27 17:27:29 CEST 2012 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package com.digitalpebble.rasp;
 
 import org.apache.uima.jcas.JCas;
@@ -12,10 +12,12 @@ import org.apache.uima.cas.Type;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** Annotation for a Sentence
- * Updated by JCasGen Sun May 27 17:27:29 CEST 2012
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class Sentence_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -45,7 +47,10 @@ public class Sentence_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public Sentence_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

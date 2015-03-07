@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Jun 04 18:01:56 CEST 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -12,7 +12,7 @@ import org.apache.uima.cas.Type;
 import de.julielab.jules.types.POSTag_Type;
 
 /** 
- * Updated by JCasGen Wed Jun 04 18:01:56 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class POSAdverb_Type extends POSTag_Type {
   /** @generated 

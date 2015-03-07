@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:11:10 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** item of a list
- * Updated by JCasGen Fri Oct 21 11:02:43 CEST 2011
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class ListItem_Type extends Zone_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,38 +38,54 @@ public class ListItem_Type extends Zone_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = ListItem.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.ListItem");
  
   /** @generated */
   final Feature casFeat_itemList;
   /** @generated */
   final int     casFeatCode_itemList;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getItemList(int addr) {
         if (featOkTst && casFeat_itemList == null)
       jcas.throwFeatMissing("itemList", "de.julielab.jules.types.ListItem");
     return ll_cas.ll_getRefValue(addr, casFeatCode_itemList);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setItemList(int addr, int v) {
         if (featOkTst && casFeat_itemList == null)
       jcas.throwFeatMissing("itemList", "de.julielab.jules.types.ListItem");
     ll_cas.ll_setRefValue(addr, casFeatCode_itemList, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public int getItemList(int addr, int i) {
         if (featOkTst && casFeat_itemList == null)
       jcas.throwFeatMissing("itemList", "de.julielab.jules.types.ListItem");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_itemList), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_itemList), i);
-  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_itemList), i);
+	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_itemList), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setItemList(int addr, int i, int v) {
         if (featOkTst && casFeat_itemList == null)
       jcas.throwFeatMissing("itemList", "de.julielab.jules.types.ListItem");
@@ -81,13 +100,19 @@ public class ListItem_Type extends Zone_Type {
   final Feature casFeat_level;
   /** @generated */
   final int     casFeatCode_level;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getLevel(int addr) {
         if (featOkTst && casFeat_level == null)
       jcas.throwFeatMissing("level", "de.julielab.jules.types.ListItem");
     return ll_cas.ll_getIntValue(addr, casFeatCode_level);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setLevel(int addr, int v) {
         if (featOkTst && casFeat_level == null)
       jcas.throwFeatMissing("level", "de.julielab.jules.types.ListItem");
@@ -98,7 +123,10 @@ public class ListItem_Type extends Zone_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public ListItem_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

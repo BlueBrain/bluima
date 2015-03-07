@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -14,10 +14,12 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** 
- * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class BioVerb_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -48,13 +50,19 @@ public class BioVerb_Type extends Annotation_Type {
   final Feature casFeat_ref_id;
   /** @generated */
   final int     casFeatCode_ref_id;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getRef_id(int addr) {
         if (featOkTst && casFeat_ref_id == null)
       jcas.throwFeatMissing("ref_id", "ch.epfl.bbp.uima.types.BioVerb");
     return ll_cas.ll_getStringValue(addr, casFeatCode_ref_id);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setRef_id(int addr, String v) {
         if (featOkTst && casFeat_ref_id == null)
       jcas.throwFeatMissing("ref_id", "ch.epfl.bbp.uima.types.BioVerb");
@@ -66,13 +74,19 @@ public class BioVerb_Type extends Annotation_Type {
   final Feature casFeat_canonical;
   /** @generated */
   final int     casFeatCode_canonical;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getCanonical(int addr) {
         if (featOkTst && casFeat_canonical == null)
       jcas.throwFeatMissing("canonical", "ch.epfl.bbp.uima.types.BioVerb");
     return ll_cas.ll_getStringValue(addr, casFeatCode_canonical);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setCanonical(int addr, String v) {
         if (featOkTst && casFeat_canonical == null)
       jcas.throwFeatMissing("canonical", "ch.epfl.bbp.uima.types.BioVerb");
@@ -84,13 +98,19 @@ public class BioVerb_Type extends Annotation_Type {
   final Feature casFeat_enclosingSpan;
   /** @generated */
   final int     casFeatCode_enclosingSpan;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getEnclosingSpan(int addr) {
         if (featOkTst && casFeat_enclosingSpan == null)
       jcas.throwFeatMissing("enclosingSpan", "ch.epfl.bbp.uima.types.BioVerb");
     return ll_cas.ll_getRefValue(addr, casFeatCode_enclosingSpan);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setEnclosingSpan(int addr, int v) {
         if (featOkTst && casFeat_enclosingSpan == null)
       jcas.throwFeatMissing("enclosingSpan", "ch.epfl.bbp.uima.types.BioVerb");
@@ -102,13 +122,19 @@ public class BioVerb_Type extends Annotation_Type {
   final Feature casFeat_matchedText;
   /** @generated */
   final int     casFeatCode_matchedText;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getMatchedText(int addr) {
         if (featOkTst && casFeat_matchedText == null)
       jcas.throwFeatMissing("matchedText", "ch.epfl.bbp.uima.types.BioVerb");
     return ll_cas.ll_getStringValue(addr, casFeatCode_matchedText);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setMatchedText(int addr, String v) {
         if (featOkTst && casFeat_matchedText == null)
       jcas.throwFeatMissing("matchedText", "ch.epfl.bbp.uima.types.BioVerb");
@@ -120,29 +146,43 @@ public class BioVerb_Type extends Annotation_Type {
   final Feature casFeat_matchedTokens;
   /** @generated */
   final int     casFeatCode_matchedTokens;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getMatchedTokens(int addr) {
         if (featOkTst && casFeat_matchedTokens == null)
       jcas.throwFeatMissing("matchedTokens", "ch.epfl.bbp.uima.types.BioVerb");
     return ll_cas.ll_getRefValue(addr, casFeatCode_matchedTokens);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setMatchedTokens(int addr, int v) {
         if (featOkTst && casFeat_matchedTokens == null)
       jcas.throwFeatMissing("matchedTokens", "ch.epfl.bbp.uima.types.BioVerb");
     ll_cas.ll_setRefValue(addr, casFeatCode_matchedTokens, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public int getMatchedTokens(int addr, int i) {
         if (featOkTst && casFeat_matchedTokens == null)
       jcas.throwFeatMissing("matchedTokens", "ch.epfl.bbp.uima.types.BioVerb");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_matchedTokens), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_matchedTokens), i);
-  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_matchedTokens), i);
+	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_matchedTokens), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setMatchedTokens(int addr, int i, int v) {
         if (featOkTst && casFeat_matchedTokens == null)
       jcas.throwFeatMissing("matchedTokens", "ch.epfl.bbp.uima.types.BioVerb");
@@ -156,7 +196,10 @@ public class BioVerb_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public BioVerb_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

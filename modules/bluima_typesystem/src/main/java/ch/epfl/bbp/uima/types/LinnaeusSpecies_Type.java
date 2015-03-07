@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Feb 17 12:27:27 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -14,10 +14,12 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** Species annotation type holds information for Linnaeus species tagger's annotation.
- * Updated by JCasGen Mon Feb 17 12:27:27 CET 2014
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class LinnaeusSpecies_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -48,13 +50,19 @@ public class LinnaeusSpecies_Type extends Annotation_Type {
   final Feature casFeat_mostProbableSpeciesId;
   /** @generated */
   final int     casFeatCode_mostProbableSpeciesId;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getMostProbableSpeciesId(int addr) {
         if (featOkTst && casFeat_mostProbableSpeciesId == null)
       jcas.throwFeatMissing("mostProbableSpeciesId", "ch.epfl.bbp.uima.types.LinnaeusSpecies");
     return ll_cas.ll_getStringValue(addr, casFeatCode_mostProbableSpeciesId);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setMostProbableSpeciesId(int addr, String v) {
         if (featOkTst && casFeat_mostProbableSpeciesId == null)
       jcas.throwFeatMissing("mostProbableSpeciesId", "ch.epfl.bbp.uima.types.LinnaeusSpecies");
@@ -66,13 +74,19 @@ public class LinnaeusSpecies_Type extends Annotation_Type {
   final Feature casFeat_allIdsString;
   /** @generated */
   final int     casFeatCode_allIdsString;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getAllIdsString(int addr) {
         if (featOkTst && casFeat_allIdsString == null)
       jcas.throwFeatMissing("allIdsString", "ch.epfl.bbp.uima.types.LinnaeusSpecies");
     return ll_cas.ll_getStringValue(addr, casFeatCode_allIdsString);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setAllIdsString(int addr, String v) {
         if (featOkTst && casFeat_allIdsString == null)
       jcas.throwFeatMissing("allIdsString", "ch.epfl.bbp.uima.types.LinnaeusSpecies");
@@ -84,13 +98,19 @@ public class LinnaeusSpecies_Type extends Annotation_Type {
   final Feature casFeat_ambigous;
   /** @generated */
   final int     casFeatCode_ambigous;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public boolean getAmbigous(int addr) {
         if (featOkTst && casFeat_ambigous == null)
       jcas.throwFeatMissing("ambigous", "ch.epfl.bbp.uima.types.LinnaeusSpecies");
     return ll_cas.ll_getBooleanValue(addr, casFeatCode_ambigous);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setAmbigous(int addr, boolean v) {
         if (featOkTst && casFeat_ambigous == null)
       jcas.throwFeatMissing("ambigous", "ch.epfl.bbp.uima.types.LinnaeusSpecies");
@@ -101,7 +121,10 @@ public class LinnaeusSpecies_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public LinnaeusSpecies_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

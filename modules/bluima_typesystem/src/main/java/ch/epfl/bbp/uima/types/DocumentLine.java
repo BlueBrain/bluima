@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,8 +11,8 @@ import org.apache.uima.jcas.cas.FloatArray;
 
 
 /** 
- * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
- * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/target/jcasgen/typesystem.xml
  * @generated */
 public class DocumentLine extends DocumentElement {
   /** @generated
@@ -25,7 +25,9 @@ public class DocumentLine extends DocumentElement {
    */
   @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
   @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
@@ -34,19 +36,28 @@ public class DocumentLine extends DocumentElement {
   protected DocumentLine() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
   public DocumentLine(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
   public DocumentLine(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
   public DocumentLine(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -56,9 +67,9 @@ public class DocumentLine extends DocumentElement {
 
   /** 
    * <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  *
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
    * @generated modifiable 
    */
   private void readObject() {/*default - does nothing empty block */}
@@ -131,7 +142,10 @@ public class DocumentLine extends DocumentElement {
     jcasType.ll_cas.ll_setRefValue(addr, ((DocumentLine_Type)jcasType).casFeatCode_beginnings, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for beginnings - gets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public float getBeginnings(int i) {
     if (DocumentLine_Type.featOkTst && ((DocumentLine_Type)jcasType).casFeat_beginnings == null)
       jcasType.jcas.throwFeatMissing("beginnings", "ch.epfl.bbp.uima.types.DocumentLine");
@@ -139,7 +153,10 @@ public class DocumentLine extends DocumentElement {
     return jcasType.ll_cas.ll_getFloatArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((DocumentLine_Type)jcasType).casFeatCode_beginnings), i);}
 
   /** indexed setter for beginnings - sets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setBeginnings(int i, float v) { 
     if (DocumentLine_Type.featOkTst && ((DocumentLine_Type)jcasType).casFeat_beginnings == null)
       jcasType.jcas.throwFeatMissing("beginnings", "ch.epfl.bbp.uima.types.DocumentLine");
@@ -169,7 +186,10 @@ public class DocumentLine extends DocumentElement {
     jcasType.ll_cas.ll_setRefValue(addr, ((DocumentLine_Type)jcasType).casFeatCode_endings, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for endings - gets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public float getEndings(int i) {
     if (DocumentLine_Type.featOkTst && ((DocumentLine_Type)jcasType).casFeat_endings == null)
       jcasType.jcas.throwFeatMissing("endings", "ch.epfl.bbp.uima.types.DocumentLine");
@@ -177,7 +197,10 @@ public class DocumentLine extends DocumentElement {
     return jcasType.ll_cas.ll_getFloatArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((DocumentLine_Type)jcasType).casFeatCode_endings), i);}
 
   /** indexed setter for endings - sets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setEndings(int i, float v) { 
     if (DocumentLine_Type.featOkTst && ((DocumentLine_Type)jcasType).casFeat_endings == null)
       jcasType.jcas.throwFeatMissing("endings", "ch.epfl.bbp.uima.types.DocumentLine");

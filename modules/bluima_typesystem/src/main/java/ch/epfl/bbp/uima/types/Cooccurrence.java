@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -12,8 +12,8 @@ import org.apache.uima.jcas.cas.StringArray;
 
 
 /** A coocurrence btw two annotations.
- * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
- * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/target/jcasgen/typesystem.xml
  * @generated */
 public class Cooccurrence extends Annotation {
   /** @generated
@@ -26,7 +26,9 @@ public class Cooccurrence extends Annotation {
    */
   @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
   @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
@@ -35,19 +37,28 @@ public class Cooccurrence extends Annotation {
   protected Cooccurrence() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
   public Cooccurrence(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
   public Cooccurrence(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
   public Cooccurrence(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -57,9 +68,9 @@ public class Cooccurrence extends Annotation {
 
   /** 
    * <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  *
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
    * @generated modifiable 
    */
   private void readObject() {/*default - does nothing empty block */}
@@ -176,7 +187,10 @@ public class Cooccurrence extends Annotation {
     jcasType.ll_cas.ll_setRefValue(addr, ((Cooccurrence_Type)jcasType).casFeatCode_firstIds, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for firstIds - gets an indexed value - A list of string ids to identify the first occurrence
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public String getFirstIds(int i) {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_firstIds == null)
       jcasType.jcas.throwFeatMissing("firstIds", "ch.epfl.bbp.uima.types.Cooccurrence");
@@ -184,7 +198,10 @@ public class Cooccurrence extends Annotation {
     return jcasType.ll_cas.ll_getStringArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((Cooccurrence_Type)jcasType).casFeatCode_firstIds), i);}
 
   /** indexed setter for firstIds - sets an indexed value - A list of string ids to identify the first occurrence
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setFirstIds(int i, String v) { 
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_firstIds == null)
       jcasType.jcas.throwFeatMissing("firstIds", "ch.epfl.bbp.uima.types.Cooccurrence");
@@ -214,7 +231,10 @@ public class Cooccurrence extends Annotation {
     jcasType.ll_cas.ll_setRefValue(addr, ((Cooccurrence_Type)jcasType).casFeatCode_secondIds, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for secondIds - gets an indexed value - a list of string ids to identify the second occurrence
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public String getSecondIds(int i) {
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_secondIds == null)
       jcasType.jcas.throwFeatMissing("secondIds", "ch.epfl.bbp.uima.types.Cooccurrence");
@@ -222,7 +242,10 @@ public class Cooccurrence extends Annotation {
     return jcasType.ll_cas.ll_getStringArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((Cooccurrence_Type)jcasType).casFeatCode_secondIds), i);}
 
   /** indexed setter for secondIds - sets an indexed value - a list of string ids to identify the second occurrence
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setSecondIds(int i, String v) { 
     if (Cooccurrence_Type.featOkTst && ((Cooccurrence_Type)jcasType).casFeat_secondIds == null)
       jcasType.jcas.throwFeatMissing("secondIds", "ch.epfl.bbp.uima.types.Cooccurrence");

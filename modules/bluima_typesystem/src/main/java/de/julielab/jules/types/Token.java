@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Wed Oct 19 19:10:28 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -11,19 +11,24 @@ import org.apache.uima.jcas.cas.FSArray;
 
 
 /** Token annotation marks the span of a token and takes all additional annotations that are on the token level, including Part-of-Speech information, lemma, stemmed form,  grammatical features such as gender, number and orthographical information; furthemore, Token includes the information about dependency relations to other tokens (see correspondent annotation types for further infromation).
- * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
- * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/target/jcasgen/typesystem.xml
  * @generated */
 public class Token extends Annotation {
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = JCasRegistry.register(Token.class);
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
+  @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
   /** Never called.  Disable default constructor
@@ -31,19 +36,28 @@ public class Token extends Annotation {
   protected Token() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
   public Token(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
   public Token(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
   public Token(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -53,12 +67,12 @@ public class Token extends Annotation {
 
   /** 
    * <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  *
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
    * @generated modifiable 
    */
-  private void readObject() {}
+  private void readObject() {/*default - does nothing empty block */}
      
  
     
@@ -106,7 +120,10 @@ public class Token extends Annotation {
     jcasType.ll_cas.ll_setRefValue(addr, ((Token_Type)jcasType).casFeatCode_posTag, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for posTag - gets an indexed value - List contains part-of-speech tags of different part-of-speech tagsets (see also POSTag and subtypes), O
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public POSTag getPosTag(int i) {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_posTag == null)
       jcasType.jcas.throwFeatMissing("posTag", "de.julielab.jules.types.Token");
@@ -114,7 +131,10 @@ public class Token extends Annotation {
     return (POSTag)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((Token_Type)jcasType).casFeatCode_posTag), i)));}
 
   /** indexed setter for posTag - sets an indexed value - List contains part-of-speech tags of different part-of-speech tagsets (see also POSTag and subtypes), O
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setPosTag(int i, POSTag v) { 
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_posTag == null)
       jcasType.jcas.throwFeatMissing("posTag", "de.julielab.jules.types.Token");
@@ -210,7 +230,10 @@ public class Token extends Annotation {
     jcasType.ll_cas.ll_setRefValue(addr, ((Token_Type)jcasType).casFeatCode_depRel, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for depRel - gets an indexed value - Contains a list of syntactical dependencies, see DependencyRelation, O
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public DependencyRelation getDepRel(int i) {
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_depRel == null)
       jcasType.jcas.throwFeatMissing("depRel", "de.julielab.jules.types.Token");
@@ -218,7 +241,10 @@ public class Token extends Annotation {
     return (DependencyRelation)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((Token_Type)jcasType).casFeatCode_depRel), i)));}
 
   /** indexed setter for depRel - sets an indexed value - Contains a list of syntactical dependencies, see DependencyRelation, O
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setDepRel(int i, DependencyRelation v) { 
     if (Token_Type.featOkTst && ((Token_Type)jcasType).casFeat_depRel == null)
       jcasType.jcas.throwFeatMissing("depRel", "de.julielab.jules.types.Token");

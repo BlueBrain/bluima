@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:10:28 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** Syntactic dependency relation annotation, see subtypes
- * Updated by JCasGen Wed Jun 04 18:01:57 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class DependencyRelation_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class DependencyRelation_Type extends Annotation_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = DependencyRelation.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.DependencyRelation");
  
   /** @generated */
   final Feature casFeat_head;
   /** @generated */
   final int     casFeatCode_head;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getHead(int addr) {
         if (featOkTst && casFeat_head == null)
       jcas.throwFeatMissing("head", "de.julielab.jules.types.DependencyRelation");
     return ll_cas.ll_getRefValue(addr, casFeatCode_head);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setHead(int addr, int v) {
         if (featOkTst && casFeat_head == null)
       jcas.throwFeatMissing("head", "de.julielab.jules.types.DependencyRelation");
@@ -62,13 +73,19 @@ public class DependencyRelation_Type extends Annotation_Type {
   final Feature casFeat_projective;
   /** @generated */
   final int     casFeatCode_projective;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public boolean getProjective(int addr) {
         if (featOkTst && casFeat_projective == null)
       jcas.throwFeatMissing("projective", "de.julielab.jules.types.DependencyRelation");
     return ll_cas.ll_getBooleanValue(addr, casFeatCode_projective);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setProjective(int addr, boolean v) {
         if (featOkTst && casFeat_projective == null)
       jcas.throwFeatMissing("projective", "de.julielab.jules.types.DependencyRelation");
@@ -80,13 +97,19 @@ public class DependencyRelation_Type extends Annotation_Type {
   final Feature casFeat_label;
   /** @generated */
   final int     casFeatCode_label;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getLabel(int addr) {
         if (featOkTst && casFeat_label == null)
       jcas.throwFeatMissing("label", "de.julielab.jules.types.DependencyRelation");
     return ll_cas.ll_getStringValue(addr, casFeatCode_label);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setLabel(int addr, String v) {
         if (featOkTst && casFeat_label == null)
       jcas.throwFeatMissing("label", "de.julielab.jules.types.DependencyRelation");
@@ -97,7 +120,10 @@ public class DependencyRelation_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public DependencyRelation_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

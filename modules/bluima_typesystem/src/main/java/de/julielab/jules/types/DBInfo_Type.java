@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:10:41 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** References to other databases, e.g. SwissProt, INTERPRO e.g.
- * Updated by JCasGen Fri Dec 09 11:59:26 CET 2011
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class DBInfo_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class DBInfo_Type extends Annotation_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = DBInfo.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.DBInfo");
  
   /** @generated */
   final Feature casFeat_name;
   /** @generated */
   final int     casFeatCode_name;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getName(int addr) {
         if (featOkTst && casFeat_name == null)
       jcas.throwFeatMissing("name", "de.julielab.jules.types.DBInfo");
     return ll_cas.ll_getStringValue(addr, casFeatCode_name);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setName(int addr, String v) {
         if (featOkTst && casFeat_name == null)
       jcas.throwFeatMissing("name", "de.julielab.jules.types.DBInfo");
@@ -62,29 +73,43 @@ public class DBInfo_Type extends Annotation_Type {
   final Feature casFeat_acList;
   /** @generated */
   final int     casFeatCode_acList;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getAcList(int addr) {
         if (featOkTst && casFeat_acList == null)
       jcas.throwFeatMissing("acList", "de.julielab.jules.types.DBInfo");
     return ll_cas.ll_getRefValue(addr, casFeatCode_acList);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setAcList(int addr, int v) {
         if (featOkTst && casFeat_acList == null)
       jcas.throwFeatMissing("acList", "de.julielab.jules.types.DBInfo");
     ll_cas.ll_setRefValue(addr, casFeatCode_acList, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public String getAcList(int addr, int i) {
         if (featOkTst && casFeat_acList == null)
       jcas.throwFeatMissing("acList", "de.julielab.jules.types.DBInfo");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_acList), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_acList), i);
-  return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_acList), i);
+	return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_acList), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setAcList(int addr, int i, String v) {
         if (featOkTst && casFeat_acList == null)
       jcas.throwFeatMissing("acList", "de.julielab.jules.types.DBInfo");
@@ -98,7 +123,10 @@ public class DBInfo_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public DBInfo_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

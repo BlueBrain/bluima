@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,12 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class DocumentLine_Type extends DocumentElement_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -47,13 +49,19 @@ public class DocumentLine_Type extends DocumentElement_Type {
   final Feature casFeat_block;
   /** @generated */
   final int     casFeatCode_block;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getBlock(int addr) {
         if (featOkTst && casFeat_block == null)
       jcas.throwFeatMissing("block", "ch.epfl.bbp.uima.types.DocumentLine");
     return ll_cas.ll_getIntValue(addr, casFeatCode_block);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setBlock(int addr, int v) {
         if (featOkTst && casFeat_block == null)
       jcas.throwFeatMissing("block", "ch.epfl.bbp.uima.types.DocumentLine");
@@ -65,13 +73,19 @@ public class DocumentLine_Type extends DocumentElement_Type {
   final Feature casFeat_lineText;
   /** @generated */
   final int     casFeatCode_lineText;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getLineText(int addr) {
         if (featOkTst && casFeat_lineText == null)
       jcas.throwFeatMissing("lineText", "ch.epfl.bbp.uima.types.DocumentLine");
     return ll_cas.ll_getStringValue(addr, casFeatCode_lineText);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setLineText(int addr, String v) {
         if (featOkTst && casFeat_lineText == null)
       jcas.throwFeatMissing("lineText", "ch.epfl.bbp.uima.types.DocumentLine");
@@ -83,29 +97,43 @@ public class DocumentLine_Type extends DocumentElement_Type {
   final Feature casFeat_beginnings;
   /** @generated */
   final int     casFeatCode_beginnings;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getBeginnings(int addr) {
         if (featOkTst && casFeat_beginnings == null)
       jcas.throwFeatMissing("beginnings", "ch.epfl.bbp.uima.types.DocumentLine");
     return ll_cas.ll_getRefValue(addr, casFeatCode_beginnings);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setBeginnings(int addr, int v) {
         if (featOkTst && casFeat_beginnings == null)
       jcas.throwFeatMissing("beginnings", "ch.epfl.bbp.uima.types.DocumentLine");
     ll_cas.ll_setRefValue(addr, casFeatCode_beginnings, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public float getBeginnings(int addr, int i) {
         if (featOkTst && casFeat_beginnings == null)
       jcas.throwFeatMissing("beginnings", "ch.epfl.bbp.uima.types.DocumentLine");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getFloatArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_beginnings), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_beginnings), i);
-  return ll_cas.ll_getFloatArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_beginnings), i);
+	return ll_cas.ll_getFloatArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_beginnings), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setBeginnings(int addr, int i, float v) {
         if (featOkTst && casFeat_beginnings == null)
       jcas.throwFeatMissing("beginnings", "ch.epfl.bbp.uima.types.DocumentLine");
@@ -120,29 +148,43 @@ public class DocumentLine_Type extends DocumentElement_Type {
   final Feature casFeat_endings;
   /** @generated */
   final int     casFeatCode_endings;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getEndings(int addr) {
         if (featOkTst && casFeat_endings == null)
       jcas.throwFeatMissing("endings", "ch.epfl.bbp.uima.types.DocumentLine");
     return ll_cas.ll_getRefValue(addr, casFeatCode_endings);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setEndings(int addr, int v) {
         if (featOkTst && casFeat_endings == null)
       jcas.throwFeatMissing("endings", "ch.epfl.bbp.uima.types.DocumentLine");
     ll_cas.ll_setRefValue(addr, casFeatCode_endings, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public float getEndings(int addr, int i) {
         if (featOkTst && casFeat_endings == null)
       jcas.throwFeatMissing("endings", "ch.epfl.bbp.uima.types.DocumentLine");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getFloatArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_endings), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_endings), i);
-  return ll_cas.ll_getFloatArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_endings), i);
+	return ll_cas.ll_getFloatArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_endings), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setEndings(int addr, int i, float v) {
         if (featOkTst && casFeat_endings == null)
       jcas.throwFeatMissing("endings", "ch.epfl.bbp.uima.types.DocumentLine");
@@ -156,7 +198,10 @@ public class DocumentLine_Type extends DocumentElement_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public DocumentLine_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

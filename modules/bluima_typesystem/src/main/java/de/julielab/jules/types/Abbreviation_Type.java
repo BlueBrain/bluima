@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:10:28 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** An abbreviation is a letter or group of letters, taken from a word or words. For example, the word "abbreviation" can be abbreviated as "abbr." or "abbrev."
- * Updated by JCasGen Wed Jun 04 18:01:57 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class Abbreviation_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class Abbreviation_Type extends Annotation_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = Abbreviation.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.Abbreviation");
  
   /** @generated */
   final Feature casFeat_expan;
   /** @generated */
   final int     casFeatCode_expan;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getExpan(int addr) {
         if (featOkTst && casFeat_expan == null)
       jcas.throwFeatMissing("expan", "de.julielab.jules.types.Abbreviation");
     return ll_cas.ll_getStringValue(addr, casFeatCode_expan);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setExpan(int addr, String v) {
         if (featOkTst && casFeat_expan == null)
       jcas.throwFeatMissing("expan", "de.julielab.jules.types.Abbreviation");
@@ -62,13 +73,19 @@ public class Abbreviation_Type extends Annotation_Type {
   final Feature casFeat_textReference;
   /** @generated */
   final int     casFeatCode_textReference;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getTextReference(int addr) {
         if (featOkTst && casFeat_textReference == null)
       jcas.throwFeatMissing("textReference", "de.julielab.jules.types.Abbreviation");
     return ll_cas.ll_getRefValue(addr, casFeatCode_textReference);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setTextReference(int addr, int v) {
         if (featOkTst && casFeat_textReference == null)
       jcas.throwFeatMissing("textReference", "de.julielab.jules.types.Abbreviation");
@@ -80,13 +97,19 @@ public class Abbreviation_Type extends Annotation_Type {
   final Feature casFeat_definedHere;
   /** @generated */
   final int     casFeatCode_definedHere;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public boolean getDefinedHere(int addr) {
         if (featOkTst && casFeat_definedHere == null)
       jcas.throwFeatMissing("definedHere", "de.julielab.jules.types.Abbreviation");
     return ll_cas.ll_getBooleanValue(addr, casFeatCode_definedHere);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setDefinedHere(int addr, boolean v) {
         if (featOkTst && casFeat_definedHere == null)
       jcas.throwFeatMissing("definedHere", "de.julielab.jules.types.Abbreviation");
@@ -97,7 +120,10 @@ public class Abbreviation_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public Abbreviation_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

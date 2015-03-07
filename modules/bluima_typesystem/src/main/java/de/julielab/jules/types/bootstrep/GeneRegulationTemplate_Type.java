@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:12:42 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types.bootstrep;
 
 import org.apache.uima.jcas.JCas;
@@ -14,10 +14,13 @@ import org.apache.uima.cas.Feature;
 import de.julielab.jules.types.Annotation_Type;
 
 /** Gene Regulation Template for BootStrep
- * Updated by JCasGen Wed Oct 19 19:12:42 CEST 2011
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class GeneRegulationTemplate_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -36,22 +39,30 @@ public class GeneRegulationTemplate_Type extends Annotation_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = GeneRegulationTemplate.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.bootstrep.GeneRegulationTemplate");
  
   /** @generated */
   final Feature casFeat_relation;
   /** @generated */
   final int     casFeatCode_relation;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getRelation(int addr) {
         if (featOkTst && casFeat_relation == null)
       jcas.throwFeatMissing("relation", "de.julielab.jules.types.bootstrep.GeneRegulationTemplate");
     return ll_cas.ll_getRefValue(addr, casFeatCode_relation);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setRelation(int addr, int v) {
         if (featOkTst && casFeat_relation == null)
       jcas.throwFeatMissing("relation", "de.julielab.jules.types.bootstrep.GeneRegulationTemplate");
@@ -63,13 +74,19 @@ public class GeneRegulationTemplate_Type extends Annotation_Type {
   final Feature casFeat_ligand;
   /** @generated */
   final int     casFeatCode_ligand;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getLigand(int addr) {
         if (featOkTst && casFeat_ligand == null)
       jcas.throwFeatMissing("ligand", "de.julielab.jules.types.bootstrep.GeneRegulationTemplate");
     return ll_cas.ll_getRefValue(addr, casFeatCode_ligand);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setLigand(int addr, int v) {
         if (featOkTst && casFeat_ligand == null)
       jcas.throwFeatMissing("ligand", "de.julielab.jules.types.bootstrep.GeneRegulationTemplate");
@@ -81,13 +98,19 @@ public class GeneRegulationTemplate_Type extends Annotation_Type {
   final Feature casFeat_cellGrowthCondition;
   /** @generated */
   final int     casFeatCode_cellGrowthCondition;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getCellGrowthCondition(int addr) {
         if (featOkTst && casFeat_cellGrowthCondition == null)
       jcas.throwFeatMissing("cellGrowthCondition", "de.julielab.jules.types.bootstrep.GeneRegulationTemplate");
     return ll_cas.ll_getRefValue(addr, casFeatCode_cellGrowthCondition);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setCellGrowthCondition(int addr, int v) {
         if (featOkTst && casFeat_cellGrowthCondition == null)
       jcas.throwFeatMissing("cellGrowthCondition", "de.julielab.jules.types.bootstrep.GeneRegulationTemplate");
@@ -99,13 +122,19 @@ public class GeneRegulationTemplate_Type extends Annotation_Type {
   final Feature casFeat_investigationTechnique;
   /** @generated */
   final int     casFeatCode_investigationTechnique;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getInvestigationTechnique(int addr) {
         if (featOkTst && casFeat_investigationTechnique == null)
       jcas.throwFeatMissing("investigationTechnique", "de.julielab.jules.types.bootstrep.GeneRegulationTemplate");
     return ll_cas.ll_getRefValue(addr, casFeatCode_investigationTechnique);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setInvestigationTechnique(int addr, int v) {
         if (featOkTst && casFeat_investigationTechnique == null)
       jcas.throwFeatMissing("investigationTechnique", "de.julielab.jules.types.bootstrep.GeneRegulationTemplate");
@@ -116,7 +145,10 @@ public class GeneRegulationTemplate_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public GeneRegulationTemplate_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

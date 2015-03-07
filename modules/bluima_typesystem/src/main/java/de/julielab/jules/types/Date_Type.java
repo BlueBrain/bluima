@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:10:41 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** Type to store dates
- * Updated by JCasGen Fri Dec 09 11:59:26 CET 2011
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class Date_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class Date_Type extends Annotation_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = Date.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.Date");
  
   /** @generated */
   final Feature casFeat_day;
   /** @generated */
   final int     casFeatCode_day;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getDay(int addr) {
         if (featOkTst && casFeat_day == null)
       jcas.throwFeatMissing("day", "de.julielab.jules.types.Date");
     return ll_cas.ll_getIntValue(addr, casFeatCode_day);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setDay(int addr, int v) {
         if (featOkTst && casFeat_day == null)
       jcas.throwFeatMissing("day", "de.julielab.jules.types.Date");
@@ -62,13 +73,19 @@ public class Date_Type extends Annotation_Type {
   final Feature casFeat_month;
   /** @generated */
   final int     casFeatCode_month;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getMonth(int addr) {
         if (featOkTst && casFeat_month == null)
       jcas.throwFeatMissing("month", "de.julielab.jules.types.Date");
     return ll_cas.ll_getIntValue(addr, casFeatCode_month);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setMonth(int addr, int v) {
         if (featOkTst && casFeat_month == null)
       jcas.throwFeatMissing("month", "de.julielab.jules.types.Date");
@@ -80,13 +97,19 @@ public class Date_Type extends Annotation_Type {
   final Feature casFeat_year;
   /** @generated */
   final int     casFeatCode_year;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getYear(int addr) {
         if (featOkTst && casFeat_year == null)
       jcas.throwFeatMissing("year", "de.julielab.jules.types.Date");
     return ll_cas.ll_getIntValue(addr, casFeatCode_year);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setYear(int addr, int v) {
         if (featOkTst && casFeat_year == null)
       jcas.throwFeatMissing("year", "de.julielab.jules.types.Date");
@@ -97,7 +120,10 @@ public class Date_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public Date_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:10:28 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** Penn Treebank constituent annotation (see Penn Treebank)
- * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class PTBConstituent_Type extends Constituent_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class PTBConstituent_Type extends Constituent_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = PTBConstituent.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.PTBConstituent");
  
   /** @generated */
   final Feature casFeat_formFuncDisc;
   /** @generated */
   final int     casFeatCode_formFuncDisc;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getFormFuncDisc(int addr) {
         if (featOkTst && casFeat_formFuncDisc == null)
       jcas.throwFeatMissing("formFuncDisc", "de.julielab.jules.types.PTBConstituent");
     return ll_cas.ll_getStringValue(addr, casFeatCode_formFuncDisc);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setFormFuncDisc(int addr, String v) {
         if (featOkTst && casFeat_formFuncDisc == null)
       jcas.throwFeatMissing("formFuncDisc", "de.julielab.jules.types.PTBConstituent");
@@ -62,13 +73,19 @@ public class PTBConstituent_Type extends Constituent_Type {
   final Feature casFeat_gramRole;
   /** @generated */
   final int     casFeatCode_gramRole;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getGramRole(int addr) {
         if (featOkTst && casFeat_gramRole == null)
       jcas.throwFeatMissing("gramRole", "de.julielab.jules.types.PTBConstituent");
     return ll_cas.ll_getStringValue(addr, casFeatCode_gramRole);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setGramRole(int addr, String v) {
         if (featOkTst && casFeat_gramRole == null)
       jcas.throwFeatMissing("gramRole", "de.julielab.jules.types.PTBConstituent");
@@ -80,13 +97,19 @@ public class PTBConstituent_Type extends Constituent_Type {
   final Feature casFeat_adv;
   /** @generated */
   final int     casFeatCode_adv;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getAdv(int addr) {
         if (featOkTst && casFeat_adv == null)
       jcas.throwFeatMissing("adv", "de.julielab.jules.types.PTBConstituent");
     return ll_cas.ll_getStringValue(addr, casFeatCode_adv);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setAdv(int addr, String v) {
         if (featOkTst && casFeat_adv == null)
       jcas.throwFeatMissing("adv", "de.julielab.jules.types.PTBConstituent");
@@ -98,13 +121,19 @@ public class PTBConstituent_Type extends Constituent_Type {
   final Feature casFeat_misc;
   /** @generated */
   final int     casFeatCode_misc;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getMisc(int addr) {
         if (featOkTst && casFeat_misc == null)
       jcas.throwFeatMissing("misc", "de.julielab.jules.types.PTBConstituent");
     return ll_cas.ll_getStringValue(addr, casFeatCode_misc);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setMisc(int addr, String v) {
         if (featOkTst && casFeat_misc == null)
       jcas.throwFeatMissing("misc", "de.julielab.jules.types.PTBConstituent");
@@ -116,13 +145,19 @@ public class PTBConstituent_Type extends Constituent_Type {
   final Feature casFeat_nullElement;
   /** @generated */
   final int     casFeatCode_nullElement;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getNullElement(int addr) {
         if (featOkTst && casFeat_nullElement == null)
       jcas.throwFeatMissing("nullElement", "de.julielab.jules.types.PTBConstituent");
     return ll_cas.ll_getStringValue(addr, casFeatCode_nullElement);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setNullElement(int addr, String v) {
         if (featOkTst && casFeat_nullElement == null)
       jcas.throwFeatMissing("nullElement", "de.julielab.jules.types.PTBConstituent");
@@ -134,13 +169,19 @@ public class PTBConstituent_Type extends Constituent_Type {
   final Feature casFeat_ref;
   /** @generated */
   final int     casFeatCode_ref;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getRef(int addr) {
         if (featOkTst && casFeat_ref == null)
       jcas.throwFeatMissing("ref", "de.julielab.jules.types.PTBConstituent");
     return ll_cas.ll_getRefValue(addr, casFeatCode_ref);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setRef(int addr, int v) {
         if (featOkTst && casFeat_ref == null)
       jcas.throwFeatMissing("ref", "de.julielab.jules.types.PTBConstituent");
@@ -152,13 +193,19 @@ public class PTBConstituent_Type extends Constituent_Type {
   final Feature casFeat_map;
   /** @generated */
   final int     casFeatCode_map;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getMap(int addr) {
         if (featOkTst && casFeat_map == null)
       jcas.throwFeatMissing("map", "de.julielab.jules.types.PTBConstituent");
     return ll_cas.ll_getRefValue(addr, casFeatCode_map);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setMap(int addr, int v) {
         if (featOkTst && casFeat_map == null)
       jcas.throwFeatMissing("map", "de.julielab.jules.types.PTBConstituent");
@@ -170,13 +217,19 @@ public class PTBConstituent_Type extends Constituent_Type {
   final Feature casFeat_tpc;
   /** @generated */
   final int     casFeatCode_tpc;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public boolean getTpc(int addr) {
         if (featOkTst && casFeat_tpc == null)
       jcas.throwFeatMissing("tpc", "de.julielab.jules.types.PTBConstituent");
     return ll_cas.ll_getBooleanValue(addr, casFeatCode_tpc);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setTpc(int addr, boolean v) {
         if (featOkTst && casFeat_tpc == null)
       jcas.throwFeatMissing("tpc", "de.julielab.jules.types.PTBConstituent");
@@ -187,7 +240,10 @@ public class PTBConstituent_Type extends Constituent_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public PTBConstituent_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

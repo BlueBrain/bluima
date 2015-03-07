@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:10:41 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** AuthorInfo Type annotates the text segments containing the information about an author and his/her affiliation information.
- * Updated by JCasGen Fri Dec 09 11:59:26 CET 2011
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class AuthorInfo_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class AuthorInfo_Type extends Annotation_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = AuthorInfo.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.AuthorInfo");
  
   /** @generated */
   final Feature casFeat_foreName;
   /** @generated */
   final int     casFeatCode_foreName;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getForeName(int addr) {
         if (featOkTst && casFeat_foreName == null)
       jcas.throwFeatMissing("foreName", "de.julielab.jules.types.AuthorInfo");
     return ll_cas.ll_getStringValue(addr, casFeatCode_foreName);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setForeName(int addr, String v) {
         if (featOkTst && casFeat_foreName == null)
       jcas.throwFeatMissing("foreName", "de.julielab.jules.types.AuthorInfo");
@@ -62,13 +73,19 @@ public class AuthorInfo_Type extends Annotation_Type {
   final Feature casFeat_affiliation;
   /** @generated */
   final int     casFeatCode_affiliation;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getAffiliation(int addr) {
         if (featOkTst && casFeat_affiliation == null)
       jcas.throwFeatMissing("affiliation", "de.julielab.jules.types.AuthorInfo");
     return ll_cas.ll_getStringValue(addr, casFeatCode_affiliation);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setAffiliation(int addr, String v) {
         if (featOkTst && casFeat_affiliation == null)
       jcas.throwFeatMissing("affiliation", "de.julielab.jules.types.AuthorInfo");
@@ -80,13 +97,19 @@ public class AuthorInfo_Type extends Annotation_Type {
   final Feature casFeat_contact;
   /** @generated */
   final int     casFeatCode_contact;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getContact(int addr) {
         if (featOkTst && casFeat_contact == null)
       jcas.throwFeatMissing("contact", "de.julielab.jules.types.AuthorInfo");
     return ll_cas.ll_getStringValue(addr, casFeatCode_contact);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setContact(int addr, String v) {
         if (featOkTst && casFeat_contact == null)
       jcas.throwFeatMissing("contact", "de.julielab.jules.types.AuthorInfo");
@@ -98,13 +121,19 @@ public class AuthorInfo_Type extends Annotation_Type {
   final Feature casFeat_lastName;
   /** @generated */
   final int     casFeatCode_lastName;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getLastName(int addr) {
         if (featOkTst && casFeat_lastName == null)
       jcas.throwFeatMissing("lastName", "de.julielab.jules.types.AuthorInfo");
     return ll_cas.ll_getStringValue(addr, casFeatCode_lastName);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setLastName(int addr, String v) {
         if (featOkTst && casFeat_lastName == null)
       jcas.throwFeatMissing("lastName", "de.julielab.jules.types.AuthorInfo");
@@ -116,13 +145,19 @@ public class AuthorInfo_Type extends Annotation_Type {
   final Feature casFeat_initials;
   /** @generated */
   final int     casFeatCode_initials;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getInitials(int addr) {
         if (featOkTst && casFeat_initials == null)
       jcas.throwFeatMissing("initials", "de.julielab.jules.types.AuthorInfo");
     return ll_cas.ll_getStringValue(addr, casFeatCode_initials);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setInitials(int addr, String v) {
         if (featOkTst && casFeat_initials == null)
       jcas.throwFeatMissing("initials", "de.julielab.jules.types.AuthorInfo");
@@ -133,7 +168,10 @@ public class AuthorInfo_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public AuthorInfo_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

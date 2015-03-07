@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:10:28 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** Describes a word structure, default grammatical features of a adjective
- * Updated by JCasGen Wed Jun 04 18:01:57 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class AdjectiveFeats_Type extends GrammaticalFeats_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class AdjectiveFeats_Type extends GrammaticalFeats_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = AdjectiveFeats.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.AdjectiveFeats");
  
   /** @generated */
   final Feature casFeat_degree;
   /** @generated */
   final int     casFeatCode_degree;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getDegree(int addr) {
         if (featOkTst && casFeat_degree == null)
       jcas.throwFeatMissing("degree", "de.julielab.jules.types.AdjectiveFeats");
     return ll_cas.ll_getStringValue(addr, casFeatCode_degree);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setDegree(int addr, String v) {
         if (featOkTst && casFeat_degree == null)
       jcas.throwFeatMissing("degree", "de.julielab.jules.types.AdjectiveFeats");
@@ -61,7 +72,10 @@ public class AdjectiveFeats_Type extends GrammaticalFeats_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public AdjectiveFeats_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

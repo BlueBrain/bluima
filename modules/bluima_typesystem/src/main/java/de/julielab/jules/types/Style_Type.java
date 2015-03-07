@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:11:10 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** Text-markup information (italic, bold etc.) on any (e.g. character) level. Allows to keep the original style markup of the text, several style types might be set to same (or overlapping) range, when different styles are set to the same text region.
- * Updated by JCasGen Fri Oct 21 11:02:43 CEST 2011
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class Style_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class Style_Type extends Annotation_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = Style.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.Style");
  
   /** @generated */
   final Feature casFeat_styleName;
   /** @generated */
   final int     casFeatCode_styleName;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getStyleName(int addr) {
         if (featOkTst && casFeat_styleName == null)
       jcas.throwFeatMissing("styleName", "de.julielab.jules.types.Style");
     return ll_cas.ll_getStringValue(addr, casFeatCode_styleName);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setStyleName(int addr, String v) {
         if (featOkTst && casFeat_styleName == null)
       jcas.throwFeatMissing("styleName", "de.julielab.jules.types.Style");
@@ -62,13 +73,19 @@ public class Style_Type extends Annotation_Type {
   final Feature casFeat_encoding;
   /** @generated */
   final int     casFeatCode_encoding;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getEncoding(int addr) {
         if (featOkTst && casFeat_encoding == null)
       jcas.throwFeatMissing("encoding", "de.julielab.jules.types.Style");
     return ll_cas.ll_getStringValue(addr, casFeatCode_encoding);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setEncoding(int addr, String v) {
         if (featOkTst && casFeat_encoding == null)
       jcas.throwFeatMissing("encoding", "de.julielab.jules.types.Style");
@@ -79,7 +96,10 @@ public class Style_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public Style_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:11:10 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** Object, on our case, are annotations such as figures, tables, boxed text etc.
- * Updated by JCasGen Fri Oct 21 11:02:43 CEST 2011
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class TextObject_Type extends Zone_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class TextObject_Type extends Zone_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = TextObject.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.TextObject");
  
   /** @generated */
   final Feature casFeat_objectType;
   /** @generated */
   final int     casFeatCode_objectType;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getObjectType(int addr) {
         if (featOkTst && casFeat_objectType == null)
       jcas.throwFeatMissing("objectType", "de.julielab.jules.types.TextObject");
     return ll_cas.ll_getStringValue(addr, casFeatCode_objectType);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setObjectType(int addr, String v) {
         if (featOkTst && casFeat_objectType == null)
       jcas.throwFeatMissing("objectType", "de.julielab.jules.types.TextObject");
@@ -62,13 +73,19 @@ public class TextObject_Type extends Zone_Type {
   final Feature casFeat_objectId;
   /** @generated */
   final int     casFeatCode_objectId;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getObjectId(int addr) {
         if (featOkTst && casFeat_objectId == null)
       jcas.throwFeatMissing("objectId", "de.julielab.jules.types.TextObject");
     return ll_cas.ll_getStringValue(addr, casFeatCode_objectId);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setObjectId(int addr, String v) {
         if (featOkTst && casFeat_objectId == null)
       jcas.throwFeatMissing("objectId", "de.julielab.jules.types.TextObject");
@@ -80,13 +97,19 @@ public class TextObject_Type extends Zone_Type {
   final Feature casFeat_objectLabel;
   /** @generated */
   final int     casFeatCode_objectLabel;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getObjectLabel(int addr) {
         if (featOkTst && casFeat_objectLabel == null)
       jcas.throwFeatMissing("objectLabel", "de.julielab.jules.types.TextObject");
     return ll_cas.ll_getStringValue(addr, casFeatCode_objectLabel);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setObjectLabel(int addr, String v) {
         if (featOkTst && casFeat_objectLabel == null)
       jcas.throwFeatMissing("objectLabel", "de.julielab.jules.types.TextObject");
@@ -98,13 +121,19 @@ public class TextObject_Type extends Zone_Type {
   final Feature casFeat_objectCaption;
   /** @generated */
   final int     casFeatCode_objectCaption;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getObjectCaption(int addr) {
         if (featOkTst && casFeat_objectCaption == null)
       jcas.throwFeatMissing("objectCaption", "de.julielab.jules.types.TextObject");
     return ll_cas.ll_getRefValue(addr, casFeatCode_objectCaption);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setObjectCaption(int addr, int v) {
         if (featOkTst && casFeat_objectCaption == null)
       jcas.throwFeatMissing("objectCaption", "de.julielab.jules.types.TextObject");
@@ -115,7 +144,10 @@ public class TextObject_Type extends Zone_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public TextObject_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -14,10 +14,12 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** 
- * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class DocumentElement_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -48,13 +50,19 @@ public class DocumentElement_Type extends Annotation_Type {
   final Feature casFeat_ElementId;
   /** @generated */
   final int     casFeatCode_ElementId;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getElementId(int addr) {
         if (featOkTst && casFeat_ElementId == null)
       jcas.throwFeatMissing("ElementId", "ch.epfl.bbp.uima.types.DocumentElement");
     return ll_cas.ll_getIntValue(addr, casFeatCode_ElementId);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setElementId(int addr, int v) {
         if (featOkTst && casFeat_ElementId == null)
       jcas.throwFeatMissing("ElementId", "ch.epfl.bbp.uima.types.DocumentElement");
@@ -66,13 +74,19 @@ public class DocumentElement_Type extends Annotation_Type {
   final Feature casFeat_isBold;
   /** @generated */
   final int     casFeatCode_isBold;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public boolean getIsBold(int addr) {
         if (featOkTst && casFeat_isBold == null)
       jcas.throwFeatMissing("isBold", "ch.epfl.bbp.uima.types.DocumentElement");
     return ll_cas.ll_getBooleanValue(addr, casFeatCode_isBold);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setIsBold(int addr, boolean v) {
         if (featOkTst && casFeat_isBold == null)
       jcas.throwFeatMissing("isBold", "ch.epfl.bbp.uima.types.DocumentElement");
@@ -84,13 +98,19 @@ public class DocumentElement_Type extends Annotation_Type {
   final Feature casFeat_height;
   /** @generated */
   final int     casFeatCode_height;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public float getHeight(int addr) {
         if (featOkTst && casFeat_height == null)
       jcas.throwFeatMissing("height", "ch.epfl.bbp.uima.types.DocumentElement");
     return ll_cas.ll_getFloatValue(addr, casFeatCode_height);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setHeight(int addr, float v) {
         if (featOkTst && casFeat_height == null)
       jcas.throwFeatMissing("height", "ch.epfl.bbp.uima.types.DocumentElement");
@@ -102,13 +122,19 @@ public class DocumentElement_Type extends Annotation_Type {
   final Feature casFeat_width;
   /** @generated */
   final int     casFeatCode_width;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public float getWidth(int addr) {
         if (featOkTst && casFeat_width == null)
       jcas.throwFeatMissing("width", "ch.epfl.bbp.uima.types.DocumentElement");
     return ll_cas.ll_getFloatValue(addr, casFeatCode_width);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setWidth(int addr, float v) {
         if (featOkTst && casFeat_width == null)
       jcas.throwFeatMissing("width", "ch.epfl.bbp.uima.types.DocumentElement");
@@ -120,13 +146,19 @@ public class DocumentElement_Type extends Annotation_Type {
   final Feature casFeat_x;
   /** @generated */
   final int     casFeatCode_x;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public float getX(int addr) {
         if (featOkTst && casFeat_x == null)
       jcas.throwFeatMissing("x", "ch.epfl.bbp.uima.types.DocumentElement");
     return ll_cas.ll_getFloatValue(addr, casFeatCode_x);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setX(int addr, float v) {
         if (featOkTst && casFeat_x == null)
       jcas.throwFeatMissing("x", "ch.epfl.bbp.uima.types.DocumentElement");
@@ -138,13 +170,19 @@ public class DocumentElement_Type extends Annotation_Type {
   final Feature casFeat_y;
   /** @generated */
   final int     casFeatCode_y;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public float getY(int addr) {
         if (featOkTst && casFeat_y == null)
       jcas.throwFeatMissing("y", "ch.epfl.bbp.uima.types.DocumentElement");
     return ll_cas.ll_getFloatValue(addr, casFeatCode_y);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setY(int addr, float v) {
         if (featOkTst && casFeat_y == null)
       jcas.throwFeatMissing("y", "ch.epfl.bbp.uima.types.DocumentElement");
@@ -156,13 +194,19 @@ public class DocumentElement_Type extends Annotation_Type {
   final Feature casFeat_pageId;
   /** @generated */
   final int     casFeatCode_pageId;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getPageId(int addr) {
         if (featOkTst && casFeat_pageId == null)
       jcas.throwFeatMissing("pageId", "ch.epfl.bbp.uima.types.DocumentElement");
     return ll_cas.ll_getIntValue(addr, casFeatCode_pageId);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setPageId(int addr, int v) {
         if (featOkTst && casFeat_pageId == null)
       jcas.throwFeatMissing("pageId", "ch.epfl.bbp.uima.types.DocumentElement");
@@ -174,13 +218,19 @@ public class DocumentElement_Type extends Annotation_Type {
   final Feature casFeat_label;
   /** @generated */
   final int     casFeatCode_label;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getLabel(int addr) {
         if (featOkTst && casFeat_label == null)
       jcas.throwFeatMissing("label", "ch.epfl.bbp.uima.types.DocumentElement");
     return ll_cas.ll_getStringValue(addr, casFeatCode_label);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setLabel(int addr, String v) {
         if (featOkTst && casFeat_label == null)
       jcas.throwFeatMissing("label", "ch.epfl.bbp.uima.types.DocumentElement");
@@ -192,13 +242,19 @@ public class DocumentElement_Type extends Annotation_Type {
   final Feature casFeat_medianFontsize;
   /** @generated */
   final int     casFeatCode_medianFontsize;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public double getMedianFontsize(int addr) {
         if (featOkTst && casFeat_medianFontsize == null)
       jcas.throwFeatMissing("medianFontsize", "ch.epfl.bbp.uima.types.DocumentElement");
     return ll_cas.ll_getDoubleValue(addr, casFeatCode_medianFontsize);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setMedianFontsize(int addr, double v) {
         if (featOkTst && casFeat_medianFontsize == null)
       jcas.throwFeatMissing("medianFontsize", "ch.epfl.bbp.uima.types.DocumentElement");
@@ -209,7 +265,10 @@ public class DocumentElement_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public DocumentElement_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

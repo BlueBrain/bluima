@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,12 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class DictTerm_Type extends org.apache.uima.conceptMapper.DictTerm_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -47,13 +49,19 @@ public class DictTerm_Type extends org.apache.uima.conceptMapper.DictTerm_Type {
   final Feature casFeat_entityId;
   /** @generated */
   final int     casFeatCode_entityId;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getEntityId(int addr) {
         if (featOkTst && casFeat_entityId == null)
       jcas.throwFeatMissing("entityId", "ch.epfl.bbp.uima.types.DictTerm");
     return ll_cas.ll_getStringValue(addr, casFeatCode_entityId);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setEntityId(int addr, String v) {
         if (featOkTst && casFeat_entityId == null)
       jcas.throwFeatMissing("entityId", "ch.epfl.bbp.uima.types.DictTerm");
@@ -65,13 +73,19 @@ public class DictTerm_Type extends org.apache.uima.conceptMapper.DictTerm_Type {
   final Feature casFeat_annotType;
   /** @generated */
   final int     casFeatCode_annotType;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getAnnotType(int addr) {
         if (featOkTst && casFeat_annotType == null)
       jcas.throwFeatMissing("annotType", "ch.epfl.bbp.uima.types.DictTerm");
     return ll_cas.ll_getStringValue(addr, casFeatCode_annotType);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setAnnotType(int addr, String v) {
         if (featOkTst && casFeat_annotType == null)
       jcas.throwFeatMissing("annotType", "ch.epfl.bbp.uima.types.DictTerm");
@@ -82,7 +96,10 @@ public class DictTerm_Type extends org.apache.uima.conceptMapper.DictTerm_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public DictTerm_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

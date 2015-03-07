@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -14,10 +14,12 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** 
- * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class CellTypeProteinConcentration_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -48,13 +50,19 @@ public class CellTypeProteinConcentration_Type extends Annotation_Type {
   final Feature casFeat_protein;
   /** @generated */
   final int     casFeatCode_protein;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getProtein(int addr) {
         if (featOkTst && casFeat_protein == null)
       jcas.throwFeatMissing("protein", "ch.epfl.bbp.uima.types.CellTypeProteinConcentration");
     return ll_cas.ll_getRefValue(addr, casFeatCode_protein);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setProtein(int addr, int v) {
         if (featOkTst && casFeat_protein == null)
       jcas.throwFeatMissing("protein", "ch.epfl.bbp.uima.types.CellTypeProteinConcentration");
@@ -66,13 +74,19 @@ public class CellTypeProteinConcentration_Type extends Annotation_Type {
   final Feature casFeat_concentration;
   /** @generated */
   final int     casFeatCode_concentration;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getConcentration(int addr) {
         if (featOkTst && casFeat_concentration == null)
       jcas.throwFeatMissing("concentration", "ch.epfl.bbp.uima.types.CellTypeProteinConcentration");
     return ll_cas.ll_getRefValue(addr, casFeatCode_concentration);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setConcentration(int addr, int v) {
         if (featOkTst && casFeat_concentration == null)
       jcas.throwFeatMissing("concentration", "ch.epfl.bbp.uima.types.CellTypeProteinConcentration");
@@ -84,13 +98,19 @@ public class CellTypeProteinConcentration_Type extends Annotation_Type {
   final Feature casFeat_celltype;
   /** @generated */
   final int     casFeatCode_celltype;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getCelltype(int addr) {
         if (featOkTst && casFeat_celltype == null)
       jcas.throwFeatMissing("celltype", "ch.epfl.bbp.uima.types.CellTypeProteinConcentration");
     return ll_cas.ll_getRefValue(addr, casFeatCode_celltype);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setCelltype(int addr, int v) {
         if (featOkTst && casFeat_celltype == null)
       jcas.throwFeatMissing("celltype", "ch.epfl.bbp.uima.types.CellTypeProteinConcentration");
@@ -101,7 +121,10 @@ public class CellTypeProteinConcentration_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public CellTypeProteinConcentration_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

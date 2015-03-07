@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -14,10 +14,12 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** A table that contains data, extracted from a pdf article
- * Updated by JCasGen Wed Jun 04 18:01:55 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class DataTable_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -48,13 +50,19 @@ public class DataTable_Type extends Annotation_Type {
   final Feature casFeat_tableId;
   /** @generated */
   final int     casFeatCode_tableId;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getTableId(int addr) {
         if (featOkTst && casFeat_tableId == null)
       jcas.throwFeatMissing("tableId", "ch.epfl.bbp.uima.types.DataTable");
     return ll_cas.ll_getIntValue(addr, casFeatCode_tableId);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setTableId(int addr, int v) {
         if (featOkTst && casFeat_tableId == null)
       jcas.throwFeatMissing("tableId", "ch.epfl.bbp.uima.types.DataTable");
@@ -66,13 +74,19 @@ public class DataTable_Type extends Annotation_Type {
   final Feature casFeat_rowCount;
   /** @generated */
   final int     casFeatCode_rowCount;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getRowCount(int addr) {
         if (featOkTst && casFeat_rowCount == null)
       jcas.throwFeatMissing("rowCount", "ch.epfl.bbp.uima.types.DataTable");
     return ll_cas.ll_getIntValue(addr, casFeatCode_rowCount);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setRowCount(int addr, int v) {
         if (featOkTst && casFeat_rowCount == null)
       jcas.throwFeatMissing("rowCount", "ch.epfl.bbp.uima.types.DataTable");
@@ -84,13 +98,19 @@ public class DataTable_Type extends Annotation_Type {
   final Feature casFeat_columnCount;
   /** @generated */
   final int     casFeatCode_columnCount;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getColumnCount(int addr) {
         if (featOkTst && casFeat_columnCount == null)
       jcas.throwFeatMissing("columnCount", "ch.epfl.bbp.uima.types.DataTable");
     return ll_cas.ll_getIntValue(addr, casFeatCode_columnCount);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setColumnCount(int addr, int v) {
         if (featOkTst && casFeat_columnCount == null)
       jcas.throwFeatMissing("columnCount", "ch.epfl.bbp.uima.types.DataTable");
@@ -102,13 +122,19 @@ public class DataTable_Type extends Annotation_Type {
   final Feature casFeat_caption;
   /** @generated */
   final int     casFeatCode_caption;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getCaption(int addr) {
         if (featOkTst && casFeat_caption == null)
       jcas.throwFeatMissing("caption", "ch.epfl.bbp.uima.types.DataTable");
     return ll_cas.ll_getStringValue(addr, casFeatCode_caption);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setCaption(int addr, String v) {
         if (featOkTst && casFeat_caption == null)
       jcas.throwFeatMissing("caption", "ch.epfl.bbp.uima.types.DataTable");
@@ -120,29 +146,43 @@ public class DataTable_Type extends Annotation_Type {
   final Feature casFeat_headings;
   /** @generated */
   final int     casFeatCode_headings;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getHeadings(int addr) {
         if (featOkTst && casFeat_headings == null)
       jcas.throwFeatMissing("headings", "ch.epfl.bbp.uima.types.DataTable");
     return ll_cas.ll_getRefValue(addr, casFeatCode_headings);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setHeadings(int addr, int v) {
         if (featOkTst && casFeat_headings == null)
       jcas.throwFeatMissing("headings", "ch.epfl.bbp.uima.types.DataTable");
     ll_cas.ll_setRefValue(addr, casFeatCode_headings, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public String getHeadings(int addr, int i) {
         if (featOkTst && casFeat_headings == null)
       jcas.throwFeatMissing("headings", "ch.epfl.bbp.uima.types.DataTable");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_headings), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_headings), i);
-  return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_headings), i);
+	return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_headings), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setHeadings(int addr, int i, String v) {
         if (featOkTst && casFeat_headings == null)
       jcas.throwFeatMissing("headings", "ch.epfl.bbp.uima.types.DataTable");
@@ -157,29 +197,43 @@ public class DataTable_Type extends Annotation_Type {
   final Feature casFeat_body;
   /** @generated */
   final int     casFeatCode_body;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getBody(int addr) {
         if (featOkTst && casFeat_body == null)
       jcas.throwFeatMissing("body", "ch.epfl.bbp.uima.types.DataTable");
     return ll_cas.ll_getRefValue(addr, casFeatCode_body);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setBody(int addr, int v) {
         if (featOkTst && casFeat_body == null)
       jcas.throwFeatMissing("body", "ch.epfl.bbp.uima.types.DataTable");
     ll_cas.ll_setRefValue(addr, casFeatCode_body, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public String getBody(int addr, int i) {
         if (featOkTst && casFeat_body == null)
       jcas.throwFeatMissing("body", "ch.epfl.bbp.uima.types.DataTable");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_body), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_body), i);
-  return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_body), i);
+	return ll_cas.ll_getStringArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_body), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setBody(int addr, int i, String v) {
         if (featOkTst && casFeat_body == null)
       jcas.throwFeatMissing("body", "ch.epfl.bbp.uima.types.DataTable");
@@ -194,13 +248,19 @@ public class DataTable_Type extends Annotation_Type {
   final Feature casFeat_referenceText;
   /** @generated */
   final int     casFeatCode_referenceText;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getReferenceText(int addr) {
         if (featOkTst && casFeat_referenceText == null)
       jcas.throwFeatMissing("referenceText", "ch.epfl.bbp.uima.types.DataTable");
     return ll_cas.ll_getStringValue(addr, casFeatCode_referenceText);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setReferenceText(int addr, String v) {
         if (featOkTst && casFeat_referenceText == null)
       jcas.throwFeatMissing("referenceText", "ch.epfl.bbp.uima.types.DataTable");
@@ -212,13 +272,19 @@ public class DataTable_Type extends Annotation_Type {
   final Feature casFeat_pageNumber;
   /** @generated */
   final int     casFeatCode_pageNumber;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getPageNumber(int addr) {
         if (featOkTst && casFeat_pageNumber == null)
       jcas.throwFeatMissing("pageNumber", "ch.epfl.bbp.uima.types.DataTable");
     return ll_cas.ll_getIntValue(addr, casFeatCode_pageNumber);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setPageNumber(int addr, int v) {
         if (featOkTst && casFeat_pageNumber == null)
       jcas.throwFeatMissing("pageNumber", "ch.epfl.bbp.uima.types.DataTable");
@@ -229,7 +295,10 @@ public class DataTable_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public DataTable_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

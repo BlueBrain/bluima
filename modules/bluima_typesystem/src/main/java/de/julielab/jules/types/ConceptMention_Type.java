@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:10:28 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Wed Jun 04 18:01:57 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class ConceptMention_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class ConceptMention_Type extends Annotation_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = ConceptMention.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.ConceptMention");
  
   /** @generated */
   final Feature casFeat_specificType;
   /** @generated */
   final int     casFeatCode_specificType;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getSpecificType(int addr) {
         if (featOkTst && casFeat_specificType == null)
       jcas.throwFeatMissing("specificType", "de.julielab.jules.types.ConceptMention");
     return ll_cas.ll_getStringValue(addr, casFeatCode_specificType);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setSpecificType(int addr, String v) {
         if (featOkTst && casFeat_specificType == null)
       jcas.throwFeatMissing("specificType", "de.julielab.jules.types.ConceptMention");
@@ -62,13 +73,19 @@ public class ConceptMention_Type extends Annotation_Type {
   final Feature casFeat_ref;
   /** @generated */
   final int     casFeatCode_ref;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getRef(int addr) {
         if (featOkTst && casFeat_ref == null)
       jcas.throwFeatMissing("ref", "de.julielab.jules.types.ConceptMention");
     return ll_cas.ll_getRefValue(addr, casFeatCode_ref);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setRef(int addr, int v) {
         if (featOkTst && casFeat_ref == null)
       jcas.throwFeatMissing("ref", "de.julielab.jules.types.ConceptMention");
@@ -80,29 +97,43 @@ public class ConceptMention_Type extends Annotation_Type {
   final Feature casFeat_resourceEntryList;
   /** @generated */
   final int     casFeatCode_resourceEntryList;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getResourceEntryList(int addr) {
         if (featOkTst && casFeat_resourceEntryList == null)
       jcas.throwFeatMissing("resourceEntryList", "de.julielab.jules.types.ConceptMention");
     return ll_cas.ll_getRefValue(addr, casFeatCode_resourceEntryList);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setResourceEntryList(int addr, int v) {
         if (featOkTst && casFeat_resourceEntryList == null)
       jcas.throwFeatMissing("resourceEntryList", "de.julielab.jules.types.ConceptMention");
     ll_cas.ll_setRefValue(addr, casFeatCode_resourceEntryList, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public int getResourceEntryList(int addr, int i) {
         if (featOkTst && casFeat_resourceEntryList == null)
       jcas.throwFeatMissing("resourceEntryList", "de.julielab.jules.types.ConceptMention");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_resourceEntryList), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_resourceEntryList), i);
-  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_resourceEntryList), i);
+	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_resourceEntryList), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setResourceEntryList(int addr, int i, int v) {
         if (featOkTst && casFeat_resourceEntryList == null)
       jcas.throwFeatMissing("resourceEntryList", "de.julielab.jules.types.ConceptMention");
@@ -117,13 +148,19 @@ public class ConceptMention_Type extends Annotation_Type {
   final Feature casFeat_textualRepresentation;
   /** @generated */
   final int     casFeatCode_textualRepresentation;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getTextualRepresentation(int addr) {
         if (featOkTst && casFeat_textualRepresentation == null)
       jcas.throwFeatMissing("textualRepresentation", "de.julielab.jules.types.ConceptMention");
     return ll_cas.ll_getStringValue(addr, casFeatCode_textualRepresentation);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setTextualRepresentation(int addr, String v) {
         if (featOkTst && casFeat_textualRepresentation == null)
       jcas.throwFeatMissing("textualRepresentation", "de.julielab.jules.types.ConceptMention");
@@ -134,7 +171,10 @@ public class ConceptMention_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public ConceptMention_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

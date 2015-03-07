@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Wed Oct 19 19:12:42 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types.bootstrep;
 
 import org.apache.uima.jcas.JCas; 
@@ -12,39 +12,53 @@ import de.julielab.jules.types.BioRelationMention;
 
 /** specificType: positive, negative, unspecified
 contains regulation of gene transcription as well
- * Updated by JCasGen Wed Oct 19 19:12:42 CEST 2011
- * XML source: /Users/ren/dev/bluebrain/svn_nlp/UIMA/julielab/trunk/julielab_typesystem-2.6.8/src/main/resources/typeSystem/julie-semantics-bootstrep-types.xml
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/target/jcasgen/typesystem.xml
  * @generated */
 public class RegulationOfGeneExpression extends BioRelationMention {
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = JCasRegistry.register(RegulationOfGeneExpression.class);
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
+  @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
   /** Never called.  Disable default constructor
    * @generated */
-  protected RegulationOfGeneExpression() {}
+  protected RegulationOfGeneExpression() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
   public RegulationOfGeneExpression(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
   public RegulationOfGeneExpression(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
   public RegulationOfGeneExpression(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -52,11 +66,14 @@ public class RegulationOfGeneExpression extends BioRelationMention {
     readObject();
   }   
 
-  /** <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  @generated modifiable */
-  private void readObject() {}
+  /** 
+   * <!-- begin-user-doc -->
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
+   * @generated modifiable 
+   */
+  private void readObject() {/*default - does nothing empty block */}
      
  
     
@@ -64,14 +81,18 @@ public class RegulationOfGeneExpression extends BioRelationMention {
   //* Feature: physicalContact
 
   /** getter for physicalContact - gets yes, no, unknown
-   * @generated */
+   * @generated
+   * @return value of the feature 
+   */
   public String getPhysicalContact() {
     if (RegulationOfGeneExpression_Type.featOkTst && ((RegulationOfGeneExpression_Type)jcasType).casFeat_physicalContact == null)
       jcasType.jcas.throwFeatMissing("physicalContact", "de.julielab.jules.types.bootstrep.RegulationOfGeneExpression");
     return jcasType.ll_cas.ll_getStringValue(addr, ((RegulationOfGeneExpression_Type)jcasType).casFeatCode_physicalContact);}
     
   /** setter for physicalContact - sets yes, no, unknown 
-   * @generated */
+   * @generated
+   * @param v value to set into the feature 
+   */
   public void setPhysicalContact(String v) {
     if (RegulationOfGeneExpression_Type.featOkTst && ((RegulationOfGeneExpression_Type)jcasType).casFeat_physicalContact == null)
       jcasType.jcas.throwFeatMissing("physicalContact", "de.julielab.jules.types.bootstrep.RegulationOfGeneExpression");

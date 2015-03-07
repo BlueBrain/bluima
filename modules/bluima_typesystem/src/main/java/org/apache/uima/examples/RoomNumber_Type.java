@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue Jan 31 19:04:31 CET 2012 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package org.apache.uima.examples;
 
 import org.apache.uima.jcas.JCas;
@@ -14,10 +14,12 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** 
- * Updated by JCasGen Tue Jan 31 19:04:31 CET 2012
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class RoomNumber_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -48,13 +50,19 @@ public class RoomNumber_Type extends Annotation_Type {
   final Feature casFeat_building;
   /** @generated */
   final int     casFeatCode_building;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getBuilding(int addr) {
         if (featOkTst && casFeat_building == null)
       jcas.throwFeatMissing("building", "org.apache.uima.examples.RoomNumber");
     return ll_cas.ll_getStringValue(addr, casFeatCode_building);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setBuilding(int addr, String v) {
         if (featOkTst && casFeat_building == null)
       jcas.throwFeatMissing("building", "org.apache.uima.examples.RoomNumber");
@@ -65,7 +73,10 @@ public class RoomNumber_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public RoomNumber_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

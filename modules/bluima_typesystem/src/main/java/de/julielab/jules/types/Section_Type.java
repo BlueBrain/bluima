@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:11:10 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** a section is a part of the text that often has a heading, an id, a section type, figures, tables, citations and footnotes that occur in this section
- * Updated by JCasGen Fri Oct 21 11:02:43 CEST 2011
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class Section_Type extends Zone_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class Section_Type extends Zone_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = Section.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.Section");
  
   /** @generated */
   final Feature casFeat_sectionHeading;
   /** @generated */
   final int     casFeatCode_sectionHeading;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getSectionHeading(int addr) {
         if (featOkTst && casFeat_sectionHeading == null)
       jcas.throwFeatMissing("sectionHeading", "de.julielab.jules.types.Section");
     return ll_cas.ll_getRefValue(addr, casFeatCode_sectionHeading);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setSectionHeading(int addr, int v) {
         if (featOkTst && casFeat_sectionHeading == null)
       jcas.throwFeatMissing("sectionHeading", "de.julielab.jules.types.Section");
@@ -62,13 +73,19 @@ public class Section_Type extends Zone_Type {
   final Feature casFeat_sectionType;
   /** @generated */
   final int     casFeatCode_sectionType;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getSectionType(int addr) {
         if (featOkTst && casFeat_sectionType == null)
       jcas.throwFeatMissing("sectionType", "de.julielab.jules.types.Section");
     return ll_cas.ll_getStringValue(addr, casFeatCode_sectionType);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setSectionType(int addr, String v) {
         if (featOkTst && casFeat_sectionType == null)
       jcas.throwFeatMissing("sectionType", "de.julielab.jules.types.Section");
@@ -80,29 +97,43 @@ public class Section_Type extends Zone_Type {
   final Feature casFeat_textObjects;
   /** @generated */
   final int     casFeatCode_textObjects;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getTextObjects(int addr) {
         if (featOkTst && casFeat_textObjects == null)
       jcas.throwFeatMissing("textObjects", "de.julielab.jules.types.Section");
     return ll_cas.ll_getRefValue(addr, casFeatCode_textObjects);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setTextObjects(int addr, int v) {
         if (featOkTst && casFeat_textObjects == null)
       jcas.throwFeatMissing("textObjects", "de.julielab.jules.types.Section");
     ll_cas.ll_setRefValue(addr, casFeatCode_textObjects, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public int getTextObjects(int addr, int i) {
         if (featOkTst && casFeat_textObjects == null)
       jcas.throwFeatMissing("textObjects", "de.julielab.jules.types.Section");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_textObjects), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_textObjects), i);
-  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_textObjects), i);
+	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_textObjects), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setTextObjects(int addr, int i, int v) {
         if (featOkTst && casFeat_textObjects == null)
       jcas.throwFeatMissing("textObjects", "de.julielab.jules.types.Section");
@@ -117,13 +148,19 @@ public class Section_Type extends Zone_Type {
   final Feature casFeat_sectionId;
   /** @generated */
   final int     casFeatCode_sectionId;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getSectionId(int addr) {
         if (featOkTst && casFeat_sectionId == null)
       jcas.throwFeatMissing("sectionId", "de.julielab.jules.types.Section");
     return ll_cas.ll_getStringValue(addr, casFeatCode_sectionId);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setSectionId(int addr, String v) {
         if (featOkTst && casFeat_sectionId == null)
       jcas.throwFeatMissing("sectionId", "de.julielab.jules.types.Section");
@@ -134,7 +171,10 @@ public class Section_Type extends Zone_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public Section_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

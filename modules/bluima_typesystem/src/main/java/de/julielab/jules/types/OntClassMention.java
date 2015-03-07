@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Wed Oct 19 19:10:28 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -12,19 +12,24 @@ import org.apache.uima.jcas.cas.StringArray;
 
 
 /** ontology class mention
- * Updated by JCasGen Wed Jun 04 18:01:58 CEST 2014
- * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/target/jcasgen/typesystem.xml
  * @generated */
 public class OntClassMention extends Annotation {
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = JCasRegistry.register(OntClassMention.class);
   /** @generated
    * @ordered 
    */
+  @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
+  @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
   /** Never called.  Disable default constructor
@@ -32,19 +37,28 @@ public class OntClassMention extends Annotation {
   protected OntClassMention() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
   public OntClassMention(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
   public OntClassMention(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
   public OntClassMention(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -54,12 +68,12 @@ public class OntClassMention extends Annotation {
 
   /** 
    * <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  *
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
    * @generated modifiable 
    */
-  private void readObject() {}
+  private void readObject() {/*default - does nothing empty block */}
      
  
     
@@ -151,7 +165,10 @@ public class OntClassMention extends Annotation {
     jcasType.ll_cas.ll_setRefValue(addr, ((OntClassMention_Type)jcasType).casFeatCode_semanticTypes, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for semanticTypes - gets an indexed value - Names or IDs of associated semantic types.
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public String getSemanticTypes(int i) {
     if (OntClassMention_Type.featOkTst && ((OntClassMention_Type)jcasType).casFeat_semanticTypes == null)
       jcasType.jcas.throwFeatMissing("semanticTypes", "de.julielab.jules.types.OntClassMention");
@@ -159,7 +176,10 @@ public class OntClassMention extends Annotation {
     return jcasType.ll_cas.ll_getStringArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((OntClassMention_Type)jcasType).casFeatCode_semanticTypes), i);}
 
   /** indexed setter for semanticTypes - sets an indexed value - Names or IDs of associated semantic types.
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setSemanticTypes(int i, String v) { 
     if (OntClassMention_Type.featOkTst && ((OntClassMention_Type)jcasType).casFeat_semanticTypes == null)
       jcasType.jcas.throwFeatMissing("semanticTypes", "de.julielab.jules.types.OntClassMention");
@@ -211,7 +231,10 @@ public class OntClassMention extends Annotation {
     jcasType.ll_cas.ll_setRefValue(addr, ((OntClassMention_Type)jcasType).casFeatCode_matchedTokens, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for matchedTokens - gets an indexed value - List of tokens the ontology class mention is comprised of.
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public Token getMatchedTokens(int i) {
     if (OntClassMention_Type.featOkTst && ((OntClassMention_Type)jcasType).casFeat_matchedTokens == null)
       jcasType.jcas.throwFeatMissing("matchedTokens", "de.julielab.jules.types.OntClassMention");
@@ -219,7 +242,10 @@ public class OntClassMention extends Annotation {
     return (Token)(jcasType.ll_cas.ll_getFSForRef(jcasType.ll_cas.ll_getRefArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((OntClassMention_Type)jcasType).casFeatCode_matchedTokens), i)));}
 
   /** indexed setter for matchedTokens - sets an indexed value - List of tokens the ontology class mention is comprised of.
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setMatchedTokens(int i, Token v) { 
     if (OntClassMention_Type.featOkTst && ((OntClassMention_Type)jcasType).casFeat_matchedTokens == null)
       jcasType.jcas.throwFeatMissing("matchedTokens", "de.julielab.jules.types.OntClassMention");

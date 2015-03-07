@@ -1,6 +1,6 @@
 
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas; 
@@ -12,8 +12,8 @@ import org.apache.uima.jcas.cas.DoubleArray;
 
 
 /** The distr of topic from a LDA analysis on that document
- * Updated by JCasGen Wed Jun 04 18:01:56 CEST 2014
- * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/bbp-types.xml
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
+ * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/target/jcasgen/typesystem.xml
  * @generated */
 public class TopicDistribution extends Annotation {
   /** @generated
@@ -26,7 +26,9 @@ public class TopicDistribution extends Annotation {
    */
   @SuppressWarnings ("hiding")
   public final static int type = typeIndexID;
-  /** @generated  */
+  /** @generated
+   * @return index of the type  
+   */
   @Override
   public              int getTypeIndexID() {return typeIndexID;}
  
@@ -35,19 +37,28 @@ public class TopicDistribution extends Annotation {
   protected TopicDistribution() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
-   * @generated */
+   * @generated
+   * @param addr low level Feature Structure reference
+   * @param type the type of this Feature Structure 
+   */
   public TopicDistribution(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
   
-  /** @generated */
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs 
+   */
   public TopicDistribution(JCas jcas) {
     super(jcas);
     readObject();   
   } 
 
-  /** @generated */  
+  /** @generated
+   * @param jcas JCas to which this Feature Structure belongs
+   * @param begin offset to the begin spot in the SofA
+   * @param end offset to the end spot in the SofA 
+  */  
   public TopicDistribution(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
@@ -57,9 +68,9 @@ public class TopicDistribution extends Annotation {
 
   /** 
    * <!-- begin-user-doc -->
-    * Write your own initialization here
-    * <!-- end-user-doc -->
-  *
+   * Write your own initialization here
+   * <!-- end-user-doc -->
+   *
    * @generated modifiable 
    */
   private void readObject() {/*default - does nothing empty block */}
@@ -88,7 +99,10 @@ public class TopicDistribution extends Annotation {
     jcasType.ll_cas.ll_setRefValue(addr, ((TopicDistribution_Type)jcasType).casFeatCode_probability, jcasType.ll_cas.ll_getFSRef(v));}    
     
   /** indexed getter for probability - gets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to get
+   * @return value of the element at index i 
+   */
   public double getProbability(int i) {
     if (TopicDistribution_Type.featOkTst && ((TopicDistribution_Type)jcasType).casFeat_probability == null)
       jcasType.jcas.throwFeatMissing("probability", "ch.epfl.bbp.uima.types.TopicDistribution");
@@ -96,7 +110,10 @@ public class TopicDistribution extends Annotation {
     return jcasType.ll_cas.ll_getDoubleArrayValue(jcasType.ll_cas.ll_getRefValue(addr, ((TopicDistribution_Type)jcasType).casFeatCode_probability), i);}
 
   /** indexed setter for probability - sets an indexed value - 
-   * @generated */
+   * @generated
+   * @param i index in the array to set
+   * @param v value to set into the array 
+   */
   public void setProbability(int i, double v) { 
     if (TopicDistribution_Type.featOkTst && ((TopicDistribution_Type)jcasType).casFeat_probability == null)
       jcasType.jcas.throwFeatMissing("probability", "ch.epfl.bbp.uima.types.TopicDistribution");

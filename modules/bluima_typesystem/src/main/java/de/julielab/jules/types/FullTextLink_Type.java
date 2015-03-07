@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:10:41 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** 
- * Updated by JCasGen Fri Dec 09 11:59:26 CET 2011
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class FullTextLink_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,22 +38,30 @@ public class FullTextLink_Type extends Annotation_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = FullTextLink.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.FullTextLink");
  
   /** @generated */
   final Feature casFeat_url;
   /** @generated */
   final int     casFeatCode_url;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getUrl(int addr) {
         if (featOkTst && casFeat_url == null)
       jcas.throwFeatMissing("url", "de.julielab.jules.types.FullTextLink");
     return ll_cas.ll_getStringValue(addr, casFeatCode_url);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setUrl(int addr, String v) {
         if (featOkTst && casFeat_url == null)
       jcas.throwFeatMissing("url", "de.julielab.jules.types.FullTextLink");
@@ -62,13 +73,19 @@ public class FullTextLink_Type extends Annotation_Type {
   final Feature casFeat_iconUrl;
   /** @generated */
   final int     casFeatCode_iconUrl;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getIconUrl(int addr) {
         if (featOkTst && casFeat_iconUrl == null)
       jcas.throwFeatMissing("iconUrl", "de.julielab.jules.types.FullTextLink");
     return ll_cas.ll_getStringValue(addr, casFeatCode_iconUrl);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setIconUrl(int addr, String v) {
         if (featOkTst && casFeat_iconUrl == null)
       jcas.throwFeatMissing("iconUrl", "de.julielab.jules.types.FullTextLink");
@@ -79,7 +96,10 @@ public class FullTextLink_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public FullTextLink_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

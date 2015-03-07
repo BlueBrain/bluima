@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Sun Mar 11 02:53:34 CET 2012 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package org.apache.uima.conceptMapper;
 
 import org.apache.uima.jcas.JCas;
@@ -14,10 +14,12 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** Annotation for dictionary lookup matches
- * Updated by JCasGen Wed Jun 04 18:01:59 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class DictTerm_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -48,13 +50,19 @@ public class DictTerm_Type extends Annotation_Type {
   final Feature casFeat_DictCanon;
   /** @generated */
   final int     casFeatCode_DictCanon;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getDictCanon(int addr) {
         if (featOkTst && casFeat_DictCanon == null)
       jcas.throwFeatMissing("DictCanon", "org.apache.uima.conceptMapper.DictTerm");
     return ll_cas.ll_getStringValue(addr, casFeatCode_DictCanon);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setDictCanon(int addr, String v) {
         if (featOkTst && casFeat_DictCanon == null)
       jcas.throwFeatMissing("DictCanon", "org.apache.uima.conceptMapper.DictTerm");
@@ -66,13 +74,19 @@ public class DictTerm_Type extends Annotation_Type {
   final Feature casFeat_enclosingSpan;
   /** @generated */
   final int     casFeatCode_enclosingSpan;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getEnclosingSpan(int addr) {
         if (featOkTst && casFeat_enclosingSpan == null)
       jcas.throwFeatMissing("enclosingSpan", "org.apache.uima.conceptMapper.DictTerm");
     return ll_cas.ll_getRefValue(addr, casFeatCode_enclosingSpan);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setEnclosingSpan(int addr, int v) {
         if (featOkTst && casFeat_enclosingSpan == null)
       jcas.throwFeatMissing("enclosingSpan", "org.apache.uima.conceptMapper.DictTerm");
@@ -84,13 +98,19 @@ public class DictTerm_Type extends Annotation_Type {
   final Feature casFeat_matchedText;
   /** @generated */
   final int     casFeatCode_matchedText;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public String getMatchedText(int addr) {
         if (featOkTst && casFeat_matchedText == null)
       jcas.throwFeatMissing("matchedText", "org.apache.uima.conceptMapper.DictTerm");
     return ll_cas.ll_getStringValue(addr, casFeatCode_matchedText);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setMatchedText(int addr, String v) {
         if (featOkTst && casFeat_matchedText == null)
       jcas.throwFeatMissing("matchedText", "org.apache.uima.conceptMapper.DictTerm");
@@ -102,29 +122,43 @@ public class DictTerm_Type extends Annotation_Type {
   final Feature casFeat_matchedTokens;
   /** @generated */
   final int     casFeatCode_matchedTokens;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getMatchedTokens(int addr) {
         if (featOkTst && casFeat_matchedTokens == null)
       jcas.throwFeatMissing("matchedTokens", "org.apache.uima.conceptMapper.DictTerm");
     return ll_cas.ll_getRefValue(addr, casFeatCode_matchedTokens);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setMatchedTokens(int addr, int v) {
         if (featOkTst && casFeat_matchedTokens == null)
       jcas.throwFeatMissing("matchedTokens", "org.apache.uima.conceptMapper.DictTerm");
     ll_cas.ll_setRefValue(addr, casFeatCode_matchedTokens, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public int getMatchedTokens(int addr, int i) {
         if (featOkTst && casFeat_matchedTokens == null)
       jcas.throwFeatMissing("matchedTokens", "org.apache.uima.conceptMapper.DictTerm");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_matchedTokens), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_matchedTokens), i);
-  return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_matchedTokens), i);
+	return ll_cas.ll_getRefArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_matchedTokens), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setMatchedTokens(int addr, int i, int v) {
         if (featOkTst && casFeat_matchedTokens == null)
       jcas.throwFeatMissing("matchedTokens", "org.apache.uima.conceptMapper.DictTerm");
@@ -138,7 +172,10 @@ public class DictTerm_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public DictTerm_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

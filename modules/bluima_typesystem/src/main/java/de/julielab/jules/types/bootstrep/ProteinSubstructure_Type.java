@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Wed Oct 19 19:12:42 CEST 2011 */
+/* First created by JCasGen Sat Mar 07 22:05:57 CET 2015 */
 package de.julielab.jules.types.bootstrep;
 
 import org.apache.uima.jcas.JCas;
@@ -13,10 +13,13 @@ import de.julielab.jules.types.BioEntityMention_Type;
 
 /** A protein domain or structural motif that is part of a transcription regulator or polymerase, such as a TF DNA binding site.
 specificType: protein_substructure, unspecified
- * Updated by JCasGen Wed Oct 19 19:12:42 CEST 2011
+ * Updated by JCasGen Sat Mar 07 22:05:57 CET 2015
  * @generated */
 public class ProteinSubstructure_Type extends BioEntityMention_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
+  @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
   private final FSGenerator fsGenerator = 
@@ -35,15 +38,20 @@ public class ProteinSubstructure_Type extends BioEntityMention_Type {
   	  }
     };
   /** @generated */
+  @SuppressWarnings ("hiding")
   public final static int typeIndexID = ProteinSubstructure.typeIndexID;
   /** @generated 
      @modifiable */
+  @SuppressWarnings ("hiding")
   public final static boolean featOkTst = JCasRegistry.getFeatOkTst("de.julielab.jules.types.bootstrep.ProteinSubstructure");
 
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public ProteinSubstructure_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());

@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Mon Feb 17 12:26:53 CET 2014 */
+/* First created by JCasGen Sat Mar 07 22:05:56 CET 2015 */
 package ch.epfl.bbp.uima.types;
 
 import org.apache.uima.jcas.JCas;
@@ -14,10 +14,12 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** The distr of topic from a LDA analysis on that document
- * Updated by JCasGen Wed Jun 04 18:01:56 CEST 2014
+ * Updated by JCasGen Sat Mar 07 22:05:56 CET 2015
  * @generated */
 public class TopicDistribution_Type extends Annotation_Type {
-  /** @generated */
+  /** @generated 
+   * @return the generator for this type
+   */
   @Override
   protected FSGenerator getFSGenerator() {return fsGenerator;}
   /** @generated */
@@ -48,29 +50,43 @@ public class TopicDistribution_Type extends Annotation_Type {
   final Feature casFeat_probability;
   /** @generated */
   final int     casFeatCode_probability;
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
   public int getProbability(int addr) {
         if (featOkTst && casFeat_probability == null)
       jcas.throwFeatMissing("probability", "ch.epfl.bbp.uima.types.TopicDistribution");
     return ll_cas.ll_getRefValue(addr, casFeatCode_probability);
   }
-  /** @generated */    
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
   public void setProbability(int addr, int v) {
         if (featOkTst && casFeat_probability == null)
       jcas.throwFeatMissing("probability", "ch.epfl.bbp.uima.types.TopicDistribution");
     ll_cas.ll_setRefValue(addr, casFeatCode_probability, v);}
     
-   /** @generated */
+   /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @return value at index i in the array 
+   */
   public double getProbability(int addr, int i) {
         if (featOkTst && casFeat_probability == null)
       jcas.throwFeatMissing("probability", "ch.epfl.bbp.uima.types.TopicDistribution");
     if (lowLevelTypeChecks)
       return ll_cas.ll_getDoubleArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_probability), i, true);
     jcas.checkArrayBounds(ll_cas.ll_getRefValue(addr, casFeatCode_probability), i);
-  return ll_cas.ll_getDoubleArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_probability), i);
+	return ll_cas.ll_getDoubleArrayValue(ll_cas.ll_getRefValue(addr, casFeatCode_probability), i);
   }
    
-  /** @generated */ 
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param i index of item in the array
+   * @param v value to set
+   */ 
   public void setProbability(int addr, int i, double v) {
         if (featOkTst && casFeat_probability == null)
       jcas.throwFeatMissing("probability", "ch.epfl.bbp.uima.types.TopicDistribution");
@@ -84,7 +100,10 @@ public class TopicDistribution_Type extends Annotation_Type {
 
 
   /** initialize variables to correspond with Cas Type and Features
-	* @generated */
+	 * @generated
+	 * @param jcas JCas
+	 * @param casType Type 
+	 */
   public TopicDistribution_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
