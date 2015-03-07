@@ -18,6 +18,9 @@ import org.apache.uima.resource.ResourceInitializationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import ch.epfl.bbp.nlp.ModelProxy;
+import ch.epfl.bbp.nlp.ModelProxyException;
+import ch.epfl.bbp.nlp.ModelStream;
 import ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector;
 import ch.epfl.bbp.uima.BlueUima;
 import ch.epfl.bbp.uima.testutils.UimaTests;
@@ -85,13 +88,12 @@ public class OpenNlpHelper {
     }
 
     public static ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector getSentenceDetector()
-            throws IOException {
-        String modelFile = OPENNLP_ROOT
-                + "src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz";
-        checkArgument(new File(modelFile).exists(), "no model file at "
-                + modelFile);
+            throws IOException, ModelProxyException {
+        // TODO shouldn't it use some config settings instead of
+        // hard coded string?
+        ModelStream model = ModelProxy.getStream("PennBioResource");
         return new ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector(
-                modelFile);
+                model);
     }
 
     public static AnalysisEngineDescription getChunker()

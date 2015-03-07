@@ -23,6 +23,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import ch.epfl.bbp.nlp.ModelStream;
 import ch.epfl.bbp.shaded.opennlp.maxent.io.SuffixSensitiveGISModelReader;
 import ch.epfl.bbp.shaded.opennlp.tools.sentdetect.SentenceDetectorME;
 
@@ -40,10 +41,25 @@ public class SentenceDetector extends SentenceDetectorME {
    * Loads a new sentence detector using the model specified by the model name.
    * @param modelName The name of the maxent model trained for sentence detection. 
    * @throws IOException If the model specified can not be read.
+   *
+   * TODO remove me (?)
    */
-  public SentenceDetector(String modelName) throws IOException {
+  private SentenceDetector(String modelName) throws IOException {
     super((new SuffixSensitiveGISModelReader(new File(modelName))).getModel());
   }
+
+    /**
+     * Loads a new sentence detector using the model specified by the model
+     * stream.
+     * 
+     * @param modelStream
+     *            The stream of the maxent model trained for sentence detection.
+     * @throws IOException
+     *             If the model specified can not be read.
+     */
+    public SentenceDetector(ModelStream modelStream) throws IOException {
+        super((new SuffixSensitiveGISModelReader(modelStream)).getModel());
+    }
 
   /**
    * Perform sentence detection the input stream.  A blank line will be treated as a paragraph boundry.

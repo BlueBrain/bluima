@@ -17,8 +17,16 @@
 //////////////////////////////////////////////////////////////////////////////   
 package ch.epfl.bbp.shaded.opennlp.maxent.io;
 
-import java.io.*;
-import java.util.zip.*;
+import java.io.BufferedReader;
+import java.io.DataInputStream;
+import java.io.File;
+import java.io.FileInputStream;
+import java.io.IOException;
+import java.io.InputStream;
+import java.io.InputStreamReader;
+import java.util.zip.GZIPInputStream;
+
+import ch.epfl.bbp.nlp.ModelStream;
 
 /**
  * A reader for GIS models which inspects the filename and invokes the
@@ -41,37 +49,37 @@ public class SuffixSensitiveGISModelReader extends GISModelReader {
      *
      * @param f The File in which the model is stored.
      */
-    public SuffixSensitiveGISModelReader (File f) throws IOException {
-	InputStream input;
-	String filename = f.getName();
-	
-	// handle the zipped/not zipped distinction
-	if (filename.endsWith(".gz")) {
-	    input = new GZIPInputStream(new FileInputStream(f));
-	    filename = filename.substring(0,filename.length()-3);
-	}
-	else {
-	    input = new FileInputStream(f);
-	}
+    public SuffixSensitiveGISModelReader(File f) throws IOException {
+        this(new ModelStream(f.getName(), new FileInputStream(f)));
+    }
 
-	// handle the different formats
-	if (filename.endsWith(".bin")) {
-	    suffixAppropriateReader =
-		new BinaryGISModelReader(new DataInputStream(input));
-	}
-	// add more else ifs here to add further Reader types, e.g.
-	// else if (filename.endsWith(".xml"))
-	//     suffixAppropriateReader = new XmlGISModelReader(input);
-	// of course, a BufferedReader may not be what is wanted here,
-	// so you might have to do a bit more to get
-	// SuffixSensitiveGISModelReader to work for xml or other formats.
-	// However, the default should be plain text (.txt).
-	else {  // filename ends with ".txt"
-	    suffixAppropriateReader =
-		new PlainTextGISModelReader(
-		    new BufferedReader(new InputStreamReader(input)));
-	}
-	
+    public SuffixSensitiveGISModelReader(ModelStream modelStream)
+            throws IOException {
+        InputStream input = modelStream;
+        String filename = modelStream.getFilename();
+
+        // handle the zipped/not zipped distinction
+        if (filename.endsWith(".gz")) {
+            input = new GZIPInputStream(modelStream);
+            filename = filename.substring(0, filename.length() - 3);
+        }
+
+        // handle the different formats
+        if (filename.endsWith(".bin")) {
+            suffixAppropriateReader = new BinaryGISModelReader(
+                    new DataInputStream(input));
+        }
+        // add more else ifs here to add further Reader types, e.g.
+        // else if (filename.endsWith(".xml"))
+        // suffixAppropriateReader = new XmlGISModelReader(input);
+        // of course, a BufferedReader may not be what is wanted here,
+        // so you might have to do a bit more to get
+        // SuffixSensitiveGISModelReader to work for xml or other formats.
+        // However, the default should be plain text (.txt).
+        else { // filename ends with ".txt"
+            suffixAppropriateReader = new PlainTextGISModelReader(
+                    new BufferedReader(new InputStreamReader(input)));
+        }
     }
 
     // activate this if adding another type of reader which can't read model
