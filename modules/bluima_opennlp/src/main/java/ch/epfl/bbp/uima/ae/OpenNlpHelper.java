@@ -34,7 +34,8 @@ public class OpenNlpHelper {
     public static AnalysisEngineDescription getSentenceSplitter()
             throws ResourceInitializationException {
         return createEngineDescription(SentenceAnnotator.class,
-                BlueUima.PARAM_MODEL, "ch.epfl.bbp.nlp.PennBioResource");
+                BlueUima.PARAM_MODEL,
+                "ch.epfl.bbp.nlp.res.sentence.PennBioResource");
     }
 
     public static AnalysisEngineDescription getTokenizer()
@@ -88,7 +89,7 @@ public class OpenNlpHelper {
         // TODO shouldn't it use some config settings instead of
         // hard coded string?
         ModelStream model = ModelProxy
-                .getStream("ch.epfl.bbp.nlp.PennBioResource");
+                .getStream("ch.epfl.bbp.nlp.res.sentence.PennBioResource");
         return new ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector(
                 model);
     }

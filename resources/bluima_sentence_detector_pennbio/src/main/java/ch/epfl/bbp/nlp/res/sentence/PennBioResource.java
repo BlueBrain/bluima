@@ -1,4 +1,6 @@
-package ch.epfl.bbp.nlp;
+package ch.epfl.bbp.nlp.res.sentence;
+
+import ch.epfl.bbp.nlp.ModelResource;
 
 /**
  * PennBio model for sentence splitter annotator
