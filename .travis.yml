@@ -3,6 +3,8 @@ before_script:
   - "export BLUIMA_HOME=`pwd`"
 jdk:
   - oraclejdk7
+install:
+  - true
 script:
   - ./install_resources.sh
   - mvn clean install
