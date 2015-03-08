@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import ch.epfl.bbp.nlp.res.sentence.PennBioResource;
 
-public class TestPennBioResource {
+public class PennBioResourceTest {
 
     @Test
     public final void testGetModelFromName() throws ModelProxyException {

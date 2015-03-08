@@ -5,7 +5,7 @@ import org.junit.Test;
 
 import ch.epfl.bbp.nlp.res.sentence.GeniaResource;
 
-public class TestGeniaResource {
+public class GeniaResourceTest {
 
     @Test
     public final void testGetModelFromName() throws ModelProxyException {

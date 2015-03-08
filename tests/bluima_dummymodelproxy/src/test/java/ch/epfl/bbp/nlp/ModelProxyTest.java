@@ -6,7 +6,7 @@ import java.util.Scanner;
 import org.junit.Assert;
 import org.junit.Test;
 
-public class TestModelProxy {
+public class ModelProxyTest {
 
     @Test
     public final void testGetModelFromName() throws ModelProxyException {
