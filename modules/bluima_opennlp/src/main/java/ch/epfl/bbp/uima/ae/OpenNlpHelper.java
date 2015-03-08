@@ -33,6 +33,8 @@ public class OpenNlpHelper {
 
     public static AnalysisEngineDescription getSentenceSplitter()
             throws ResourceInitializationException {
+        // TODO shouldn't it use some config settings instead of
+        // hard coded string?
         return createEngineDescription(SentenceAnnotator.class,
                 BlueUima.PARAM_MODEL,
                 "ch.epfl.bbp.nlp.res.sentence.PennBioResource");
