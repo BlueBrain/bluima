@@ -33,12 +33,8 @@ public class OpenNlpHelper {
 
     public static AnalysisEngineDescription getSentenceSplitter()
             throws ResourceInitializationException {
-        String modelFile = OPENNLP_ROOT
-                + "src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz";
-        checkArgument(new File(modelFile).exists(), "no model file at "
-                + modelFile);
         return createEngineDescription(SentenceAnnotator.class,
-                BlueUima.PARAM_MODEL_FILE, modelFile);
+                BlueUima.PARAM_MODEL, "ch.epfl.bbp.nlp.PennBioResource");
     }
 
     public static AnalysisEngineDescription getTokenizer()
@@ -91,7 +87,8 @@ public class OpenNlpHelper {
             throws IOException, ModelProxyException {
         // TODO shouldn't it use some config settings instead of
         // hard coded string?
-        ModelStream model = ModelProxy.getStream("PennBioResource");
+        ModelStream model = ModelProxy
+                .getStream("ch.epfl.bbp.nlp.PennBioResource");
         return new ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector(
                 model);
     }
