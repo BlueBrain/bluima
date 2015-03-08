@@ -79,7 +79,7 @@
         <module>utils/pdf_glyph_mapping</module>
         <module>utils/mallet_utils</module>
 
-        <!-- ModelProxy does not depend on parent not UIMA -->
+        <!-- ModelProxy does not depend on parent nor UIMA -->
         <module>resources/bluima_modelproxy</module>
 
         <module>modules/bluima_typesystem</module>
