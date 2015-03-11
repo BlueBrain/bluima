@@ -6,6 +6,8 @@ import java.util.Scanner;
 import org.junit.Assert;
 import org.junit.Test;
 
+import ch.epfl.bbp.nlp.res.sentence.GeniaResource;
+
 public class ModelProxyTest {
 
     @Test
@@ -40,6 +42,20 @@ public class ModelProxyTest {
             s.useDelimiter("\\A");
             return s.hasNext() ? s.next() : "";
         }
+    }
+
+    // Test loading one resource from another jar
+    @Test
+    public final void testExternalGetModelFromName() throws ModelProxyException {
+        ModelStream stream = ModelProxy
+                .getStream("ch.epfl.bbp.nlp.res.sentence.GeniaResource");
+        Assert.assertNotNull("Resource is not null", stream);
+    }
+
+    @Test
+    public final void testExternalGetModelFromInstance() throws ModelProxyException {
+        ModelStream stream = ModelProxy.getStream(new GeniaResource());
+        Assert.assertNotNull("Resource is not null", stream);
     }
 
 }
