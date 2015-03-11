@@ -6,7 +6,6 @@ jdk:
 install:
   - true
 script:
-  - ./install_resources.sh
   - mvn clean install
 branches:
   only:

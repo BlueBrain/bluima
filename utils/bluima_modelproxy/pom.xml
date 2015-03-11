@@ -5,7 +5,6 @@
   <groupId>ch.epfl.bbp.nlp</groupId>
   <artifactId>bluima_modelproxy</artifactId>
   <version>0.1</version>
-  <packaging>jar</packaging>
 
   <name>Model Proxy</name>
   <description>Utility to load Model's resources from jar archives</description>
