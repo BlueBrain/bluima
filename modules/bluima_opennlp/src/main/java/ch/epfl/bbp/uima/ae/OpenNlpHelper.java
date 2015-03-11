@@ -1,8 +1,8 @@
 package ch.epfl.bbp.uima.ae;
 
 import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL_FILE;
+import static ch.epfl.bbp.uima.ae.PosTagAnnotator.PARAM_TAG_DICT;
 import static com.google.common.base.Preconditions.checkArgument;
-import static de.julielab.jules.ae.opennlp.PosTagAnnotator.PARAM_TAG_DICT;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
 
