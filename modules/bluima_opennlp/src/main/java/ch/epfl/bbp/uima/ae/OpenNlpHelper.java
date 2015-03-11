@@ -31,10 +31,9 @@ public class OpenNlpHelper {
     public final static String OPENNLP_ROOT = BlueUima.BLUE_UIMA_ROOT
             + "modules/bluima_opennlp/";
 
+    @Deprecated(/* Use SentenceAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getSentenceSplitter()
             throws ResourceInitializationException {
-        // TODO shouldn't it use some config settings instead of
-        // hard coded string?
         return createEngineDescription(SentenceAnnotator.class,
                 BlueUima.PARAM_MODEL,
                 "ch.epfl.bbp.nlp.res.sentence.PennBioResource");
@@ -86,10 +85,9 @@ public class OpenNlpHelper {
         return sentences;
     }
 
+    @Deprecated(/* Use SentenceDetector directly with appropriate model */)
     public static ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector getSentenceDetector()
             throws IOException, ModelProxyException {
-        // TODO shouldn't it use some config settings instead of
-        // hard coded string?
         ModelStream model = ModelProxy
                 .getStream("ch.epfl.bbp.nlp.res.sentence.PennBioResource");
         return new ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector(

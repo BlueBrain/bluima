@@ -37,16 +37,22 @@ import ch.epfl.bbp.shaded.opennlp.tools.sentdetect.SentenceDetectorME;
  */
 
 public class SentenceDetector extends SentenceDetectorME {
-  /**
-   * Loads a new sentence detector using the model specified by the model name.
-   * @param modelName The name of the maxent model trained for sentence detection. 
-   * @throws IOException If the model specified can not be read.
-   *
-   * TODO remove me (?)
-   */
-  private SentenceDetector(String modelName) throws IOException {
-    super((new SuffixSensitiveGISModelReader(new File(modelName))).getModel());
-  }
+    /**
+     * Loads a new sentence detector using the model specified by the model
+     * name.
+     * 
+     * @param modelName
+     *            The name of the maxent model trained for sentence detection.
+     * @throws IOException
+     *             If the model specified can not be read.
+     * 
+     * @deprecated Use SentenceDetector(ModelStream modelStream) instead
+     */
+    @Deprecated
+    public SentenceDetector(String modelName) throws IOException {
+        super((new SuffixSensitiveGISModelReader(new File(modelName)))
+                .getModel());
+    }
 
     /**
      * Loads a new sentence detector using the model specified by the model
