@@ -4,9 +4,9 @@
 
   <parent>
     <groupId>ch.epfl.bbp.nlp</groupId>
-    <artifactId>bluima_parent</artifactId>
+    <artifactId>bluima_module_parent</artifactId>
     <version>0.1</version>
-    <relativePath>../../pom.xml</relativePath>
+    <relativePath>../pom.xml</relativePath>
   </parent>
 
   <artifactId>bluima_opennlp</artifactId>
@@ -28,6 +28,22 @@
       <groupId>de.jules</groupId>
       <artifactId>jules-utilities</artifactId>
       <version>2.1.1</version>
+    </dependency>
+
+    <!-- Resources for tests -->
+    <dependency>
+        <groupId>ch.epfl.bbp.nlp</groupId>
+        <artifactId>bluima_sentence_detector_genia</artifactId>
+        <version>0.1</version>
+        <scope>test</scope>
+    </dependency>
+
+    <!-- TODO currently this resource is needed by the impl
+         but this should probably not be the case... -->
+    <dependency>
+        <groupId>ch.epfl.bbp.nlp</groupId>
+        <artifactId>bluima_sentence_detector_pennbio</artifactId>
+        <version>0.1</version>
     </dependency>
   </dependencies>
 </project>

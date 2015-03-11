@@ -11,6 +11,8 @@ import org.apache.uima.resource.ResourceInitializationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import ch.epfl.bbp.nlp.ModelProxy;
+import ch.epfl.bbp.nlp.ModelStream;
 import ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector;
 import ch.epfl.bbp.uima.BlueUima;
 import ch.epfl.bbp.uima.ScriptingShortcut;
@@ -30,8 +32,8 @@ public class SentenceAnnotator extends JCasAnnotator_ImplBase {
     private static Logger LOG = LoggerFactory
             .getLogger(SentenceAnnotator.class);
 
-    @ConfigurationParameter(name = BlueUima.PARAM_MODEL_FILE)
-    private String modelFile;
+    @ConfigurationParameter(name = BlueUima.PARAM_MODEL)
+    private String model;
 
     /** component id for CAS */
     private static final String COMPONENT_ID = "de.julielab.types.OpenNLPSentenceDetector";
@@ -48,8 +50,10 @@ public class SentenceAnnotator extends JCasAnnotator_ImplBase {
         // modelFile);
 
         try {
+            ModelStream modelStream = ModelProxy.getStream(model);
+            // TODO couldn't we use OpenNlpHelper.getSentenceDetector ?
             sentenceSplitter = new ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector(
-                    modelFile);
+                    modelStream);
         } catch (Exception e) {
             LOG.error("[OpenNLP Sentence Annotator] Could not load sentence splitter model: "
                     + e.getMessage());

@@ -1,8 +1,8 @@
 package ch.epfl.bbp.uima.ae;
 
 import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL_FILE;
+import static ch.epfl.bbp.uima.ae.PosTagAnnotator.PARAM_TAG_DICT;
 import static com.google.common.base.Preconditions.checkArgument;
-import static de.julielab.jules.ae.opennlp.PosTagAnnotator.PARAM_TAG_DICT;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
 
@@ -18,6 +18,9 @@ import org.apache.uima.resource.ResourceInitializationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import ch.epfl.bbp.nlp.ModelProxy;
+import ch.epfl.bbp.nlp.ModelProxyException;
+import ch.epfl.bbp.nlp.ModelStream;
 import ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector;
 import ch.epfl.bbp.uima.BlueUima;
 import ch.epfl.bbp.uima.testutils.UimaTests;
@@ -28,14 +31,12 @@ public class OpenNlpHelper {
     public final static String OPENNLP_ROOT = BlueUima.BLUE_UIMA_ROOT
             + "modules/bluima_opennlp/";
 
+    @Deprecated(/* Use SentenceAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getSentenceSplitter()
             throws ResourceInitializationException {
-        String modelFile = OPENNLP_ROOT
-                + "src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz";
-        checkArgument(new File(modelFile).exists(), "no model file at "
-                + modelFile);
         return createEngineDescription(SentenceAnnotator.class,
-                BlueUima.PARAM_MODEL_FILE, modelFile);
+                BlueUima.PARAM_MODEL,
+                "ch.epfl.bbp.nlp.res.sentence.PennBioResource");
     }
 
     public static AnalysisEngineDescription getTokenizer()
@@ -84,14 +85,13 @@ public class OpenNlpHelper {
         return sentences;
     }
 
+    @Deprecated(/* Use SentenceDetector directly with appropriate model */)
     public static ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector getSentenceDetector()
-            throws IOException {
-        String modelFile = OPENNLP_ROOT
-                + "src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz";
-        checkArgument(new File(modelFile).exists(), "no model file at "
-                + modelFile);
+            throws IOException, ModelProxyException {
+        ModelStream model = ModelProxy
+                .getStream("ch.epfl.bbp.nlp.res.sentence.PennBioResource");
         return new ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector(
-                modelFile);
+                model);
     }
 
     public static AnalysisEngineDescription getChunker()

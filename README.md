@@ -66,7 +66,7 @@ The release can be deployed on any computer with a JRE (e.g. cluster).
 ### Conventions (over configuration)
 
 * Maven projects are named bluima_{project-name}
-* Class naming convetions
+* Class naming conventions
  * UIMA Analysis Engines are named   `Annotator`
  * UIMA Collection Readers are named `CollectionReader`
  * UIMA Cas Consumers are named      `Writer`
