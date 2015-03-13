@@ -4,10 +4,10 @@
 ## Create a new resource package
 ##
 ## Usage:
-##  ./create_resource.sh --id <id> --file <path> --output <dir> --category <category> --name <name>
+##  ./create_resource.sh --id <id> --file <path> --category <category> --name <name>
 ##
 ##  - The id should be a valid Maven artifactId.
-##  - The output directory is denoted by <dir> relative to this script.
+##  - The output directory is <id> relative to this script.
 ##  - The category is the end of the package; i.e. ch.epfl.bbp.nlp.res.<category>.
 ##  - The name should be in CamelCase.
 ##
@@ -40,6 +40,11 @@ do
     --id)
         id="$2"
         idOk=true
+
+        # output is also based on $id
+        output="$2"
+        if [ -e "$output" ]; then error "output directory $output already exists"; fi
+        outputOk=true
         ;;
     --file)
         path="$2"
@@ -50,11 +55,6 @@ do
         else
             error "$path is not a file or is not readable"
         fi
-        ;;
-    --output)
-        output="$2"
-        if [ -e "$output" ]; then error "output directory $output already exists"; fi
-        outputOk=true
         ;;
     --category)
         category="$2"
