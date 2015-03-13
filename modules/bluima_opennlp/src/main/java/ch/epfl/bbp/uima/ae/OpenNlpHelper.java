@@ -1,5 +1,6 @@
 package ch.epfl.bbp.uima.ae;
 
+import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL_FILE;
 import static ch.epfl.bbp.uima.ae.PosTagAnnotator.PARAM_TAG_DICT;
 import static com.google.common.base.Preconditions.checkArgument;
@@ -34,19 +35,15 @@ public class OpenNlpHelper {
     @Deprecated(/* Use SentenceAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getSentenceSplitter()
             throws ResourceInitializationException {
-        return createEngineDescription(SentenceAnnotator.class,
-                BlueUima.PARAM_MODEL,
+        return createEngineDescription(SentenceAnnotator.class, PARAM_MODEL,
                 "ch.epfl.bbp.nlp.res.sentence.PennBioResource");
     }
 
+    @Deprecated(/* Use TokenAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getTokenizer()
             throws ResourceInitializationException {
-        String modelFile = OPENNLP_ROOT
-                + "src/main/resources/pear_resources/models/token/TokenizerGenia.bin.gz";
-        checkArgument(new File(modelFile).exists(), "no model file at "
-                + modelFile);
-        return createEngineDescription(TokenAnnotator.class,
-                PARAM_MODEL_FILE, modelFile);
+        return createEngineDescription(TokenAnnotator.class, PARAM_MODEL,
+                "ch.epfl.bpp.nlp.res.token.GeniaResource");
     }
 
     public static AnalysisEngineDescription getPosTagger()
