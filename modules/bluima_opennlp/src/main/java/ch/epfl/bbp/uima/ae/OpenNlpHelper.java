@@ -1,7 +1,6 @@
 package ch.epfl.bbp.uima.ae;
 
 import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL;
-import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL_FILE;
 import static ch.epfl.bbp.uima.ae.PosTagAnnotator.PARAM_TAG_DICT;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
@@ -24,6 +23,7 @@ import ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector;
 import ch.epfl.bbp.uima.BlueUima;
 import ch.epfl.bbp.uima.testutils.UimaTests;
 
+@Deprecated(/* Use annotators directly instead */)
 public class OpenNlpHelper {
     private static Logger LOG = LoggerFactory.getLogger(OpenNlpHelper.class);
 
@@ -85,12 +85,11 @@ public class OpenNlpHelper {
                 model);
     }
 
+    @Deprecated(/* Use ChunkAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getChunker()
             throws ResourceInitializationException {
-        String modelFile = OPENNLP_ROOT
-                + "src/main/resources/pear_resources/models/chunker/Chunker_Genia.bin.gz";
-        return createEngineDescription(ChunkAnnotator.class,
-                PARAM_MODEL_FILE, modelFile);
+        return createEngineDescription(ChunkAnnotator.class, PARAM_MODEL,
+                "ch.epfl.bpp.nlp.res.chunk.GeniaResource");
     }
 
     /**
