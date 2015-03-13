@@ -3,11 +3,9 @@ package ch.epfl.bbp.uima.ae;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL_FILE;
 import static ch.epfl.bbp.uima.ae.PosTagAnnotator.PARAM_TAG_DICT;
-import static com.google.common.base.Preconditions.checkArgument;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -46,16 +44,12 @@ public class OpenNlpHelper {
                 "ch.epfl.bpp.nlp.res.token.GeniaResource");
     }
 
+    @Deprecated(/* Use PosTagAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getPosTagger()
             throws ResourceInitializationException {
-        String tagDict = OPENNLP_ROOT
-                + "src/main/resources/pear_resources/models/postag/tagdict-genia", //
-        modelFile = OPENNLP_ROOT
-                + "src/main/resources/pear_resources/models/postag/Tagger_Genia.bin.gz";
-        checkArgument(new File(tagDict).exists(), "no tag dict file at "
-                + tagDict);
-        return createEngineDescription(PosTagAnnotator.class,
-                PARAM_TAG_DICT, tagDict, PARAM_MODEL_FILE, modelFile);
+        return createEngineDescription(PosTagAnnotator.class, PARAM_TAG_DICT,
+                "ch.epfl.bpp.nlp.res.tag.dict.GeniaResource", PARAM_MODEL,
+                "ch.epfl.bpp.nlp.res.tag.GeniaResource");
     }
 
     /**

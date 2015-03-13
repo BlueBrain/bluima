@@ -23,6 +23,7 @@ import java.io.File;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
+import ch.epfl.bbp.nlp.ModelStream;
 import ch.epfl.bbp.shaded.opennlp.maxent.MaxentModel;
 import ch.epfl.bbp.shaded.opennlp.maxent.io.SuffixSensitiveGISModelReader;
 import ch.epfl.bbp.shaded.opennlp.tools.ngram.Dictionary;
@@ -43,27 +44,47 @@ import ch.epfl.bbp.shaded.opennlp.tools.postag.TagDictionary;
 
 public class PosTagger extends POSTaggerME {
 
-  public PosTagger(String modelFile, Dictionary dict, TagDictionary tagdict) {
-      super(getModel(modelFile), new DefaultPOSContextGenerator(dict),tagdict);
-  }
-  
-  public PosTagger(String modelFile, TagDictionary tagdict) {
-    super(getModel(modelFile), new DefaultPOSContextGenerator(null),tagdict);
-}
-
-  public PosTagger(String modelFile, Dictionary dict) {
-    super(getModel(modelFile), new DefaultPOSContextGenerator(dict));
-  }
-
-  private static MaxentModel getModel(String name) {
-    try {
-      return new SuffixSensitiveGISModelReader(new File(name)).getModel();
+    public PosTagger(String modelFile, Dictionary dict, TagDictionary tagdict) {
+        super(getModel(modelFile), new DefaultPOSContextGenerator(dict),
+                tagdict);
     }
-    catch (IOException e) {
-      e.printStackTrace();
-      return null;
+
+    public PosTagger(String modelFile, TagDictionary tagdict) {
+        super(getModel(modelFile), new DefaultPOSContextGenerator(null),
+                tagdict);
     }
-  }
+
+    public PosTagger(String modelFile, Dictionary dict) {
+        super(getModel(modelFile), new DefaultPOSContextGenerator(dict));
+    }
+
+    public PosTagger(ModelStream modelStream, Dictionary dict,
+            POSDictionary tagdict) {
+        super(getModel(modelStream), new DefaultPOSContextGenerator(dict),
+                tagdict);
+    }
+
+    public PosTagger(ModelStream modelStream, Dictionary dict) {
+        super(getModel(modelStream), new DefaultPOSContextGenerator(dict));
+    }
+
+    private static MaxentModel getModel(ModelStream modelStream) {
+        try {
+            return new SuffixSensitiveGISModelReader(modelStream).getModel();
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
+
+    private static MaxentModel getModel(String name) {
+        try {
+            return new SuffixSensitiveGISModelReader(new File(name)).getModel();
+        } catch (IOException e) {
+            e.printStackTrace();
+            return null;
+        }
+    }
 
   /**
    * <p>Part-of-speech tag a string passed in on the command line. For
