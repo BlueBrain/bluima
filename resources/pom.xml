@@ -22,6 +22,7 @@
         <module>bluima_tokenizer_genia</module>
         <module>bluima_postagger_genia</module>
         <module>bluima_tagdict_genia</module>
+        <module>bluima_chunker_genia</module>
         <module>bluima_validatemodelproxy</module>
     </modules>
 </project>
