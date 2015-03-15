@@ -82,7 +82,7 @@ if [ "$categoryOk" = false ]; then error "missing category"; fi
 if [ "$nameOk" = false ]; then error "missing name"; fi
 
 # compute package
-basePkg='ch.epfl.bpp.nlp.res'
+basePkg='ch.epfl.bbp.nlp.res'
 pkg="$basePkg.$category"
 basePkgPath=`echo $basePkg | tr . /`
 pkgPath=`echo $pkg | tr . /`
