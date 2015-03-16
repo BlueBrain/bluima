@@ -41,15 +41,15 @@ public class OpenNlpHelper {
     public static AnalysisEngineDescription getTokenizer()
             throws ResourceInitializationException {
         return createEngineDescription(TokenAnnotator.class, PARAM_MODEL,
-                "ch.epfl.bpp.nlp.res.token.GeniaResource");
+                "ch.epfl.bbp.nlp.res.token.GeniaResource");
     }
 
     @Deprecated(/* Use PosTagAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getPosTagger()
             throws ResourceInitializationException {
         return createEngineDescription(PosTagAnnotator.class, PARAM_TAG_DICT,
-                "ch.epfl.bpp.nlp.res.tag.dict.GeniaResource", PARAM_MODEL,
-                "ch.epfl.bpp.nlp.res.tag.GeniaResource");
+                "ch.epfl.bbp.nlp.res.tag.dict.GeniaResource", PARAM_MODEL,
+                "ch.epfl.bbp.nlp.res.tag.GeniaResource");
     }
 
     /**
