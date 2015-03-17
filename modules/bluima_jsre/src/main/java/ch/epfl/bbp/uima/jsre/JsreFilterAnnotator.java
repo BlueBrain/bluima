@@ -88,9 +88,8 @@ public class JsreFilterAnnotator extends JCasAnnotator_ImplBase {
 		try {
 
 			if (modelFile == null) {
+                // TODO un-hardcode model
 				modelFile = JsreHelper.JSRE_HOME
-				// + "resources/models/20131203_model.zip";
-				// + "resources/models/20131224_model.zip";
 						+ "resources/models/20140211_model.zip";
 			}
 
