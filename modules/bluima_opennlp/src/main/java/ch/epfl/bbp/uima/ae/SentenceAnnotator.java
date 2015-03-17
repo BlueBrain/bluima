@@ -22,7 +22,7 @@ import de.julielab.jules.types.Sentence;
 /**
  * Sentence splitter, based on OpenNLP's MaxEnt {@link SentenceDetector}, and
  * trained on biomedical corpora (PennBio or Genia corpora).
- * 
+ *
  * @author buyko
  * @author renaud.richardet@epfl.ch
  */
@@ -51,7 +51,6 @@ public class SentenceAnnotator extends JCasAnnotator_ImplBase {
 
         try {
             ModelStream modelStream = ModelProxy.getStream(model);
-            // TODO couldn't we use OpenNlpHelper.getSentenceDetector ?
             sentenceSplitter = new ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector(
                     modelStream);
         } catch (Exception e) {

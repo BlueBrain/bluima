@@ -1,12 +1,10 @@
 package ch.epfl.bbp.uima.ae;
 
-import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL_FILE;
+import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL;
 import static ch.epfl.bbp.uima.ae.PosTagAnnotator.PARAM_TAG_DICT;
-import static com.google.common.base.Preconditions.checkArgument;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
 
-import java.io.File;
 import java.io.IOException;
 import java.util.ArrayList;
 import java.util.List;
@@ -25,6 +23,7 @@ import ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector;
 import ch.epfl.bbp.uima.BlueUima;
 import ch.epfl.bbp.uima.testutils.UimaTests;
 
+@Deprecated(/* Use annotators directly instead */)
 public class OpenNlpHelper {
     private static Logger LOG = LoggerFactory.getLogger(OpenNlpHelper.class);
 
@@ -34,31 +33,23 @@ public class OpenNlpHelper {
     @Deprecated(/* Use SentenceAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getSentenceSplitter()
             throws ResourceInitializationException {
-        return createEngineDescription(SentenceAnnotator.class,
-                BlueUima.PARAM_MODEL,
+        return createEngineDescription(SentenceAnnotator.class, PARAM_MODEL,
                 "ch.epfl.bbp.nlp.res.sentence.PennBioResource");
     }
 
+    @Deprecated(/* Use TokenAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getTokenizer()
             throws ResourceInitializationException {
-        String modelFile = OPENNLP_ROOT
-                + "src/main/resources/pear_resources/models/token/TokenizerGenia.bin.gz";
-        checkArgument(new File(modelFile).exists(), "no model file at "
-                + modelFile);
-        return createEngineDescription(TokenAnnotator.class,
-                PARAM_MODEL_FILE, modelFile);
+        return createEngineDescription(TokenAnnotator.class, PARAM_MODEL,
+                "ch.epfl.bbp.nlp.res.token.GeniaResource");
     }
 
+    @Deprecated(/* Use PosTagAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getPosTagger()
             throws ResourceInitializationException {
-        String tagDict = OPENNLP_ROOT
-                + "src/main/resources/pear_resources/models/postag/tagdict-genia", //
-        modelFile = OPENNLP_ROOT
-                + "src/main/resources/pear_resources/models/postag/Tagger_Genia.bin.gz";
-        checkArgument(new File(tagDict).exists(), "no tag dict file at "
-                + tagDict);
-        return createEngineDescription(PosTagAnnotator.class,
-                PARAM_TAG_DICT, tagDict, PARAM_MODEL_FILE, modelFile);
+        return createEngineDescription(PosTagAnnotator.class, PARAM_TAG_DICT,
+                "ch.epfl.bbp.nlp.res.tag.dict.GeniaResource", PARAM_MODEL,
+                "ch.epfl.bbp.nlp.res.tag.GeniaResource");
     }
 
     /**
@@ -94,12 +85,11 @@ public class OpenNlpHelper {
                 model);
     }
 
+    @Deprecated(/* Use ChunkAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getChunker()
             throws ResourceInitializationException {
-        String modelFile = OPENNLP_ROOT
-                + "src/main/resources/pear_resources/models/chunker/Chunker_Genia.bin.gz";
-        return createEngineDescription(ChunkAnnotator.class,
-                PARAM_MODEL_FILE, modelFile);
+        return createEngineDescription(ChunkAnnotator.class, PARAM_MODEL,
+                "ch.epfl.bbp.nlp.res.chunk.GeniaResource");
     }
 
     /**

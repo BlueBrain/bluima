@@ -21,6 +21,7 @@ package ch.epfl.bbp.shaded.opennlp.tools.lang.english;
 import java.io.File;
 import java.io.IOException;
 
+import ch.epfl.bbp.nlp.ModelStream;
 import ch.epfl.bbp.shaded.opennlp.maxent.MaxentModel;
 import ch.epfl.bbp.shaded.opennlp.maxent.io.SuffixSensitiveGISModelReader;
 import ch.epfl.bbp.shaded.opennlp.tools.tokenize.TokenizerME;
@@ -42,6 +43,10 @@ public class Tokenizer extends TokenizerME  {
     super(model);
     setAlphaNumericOptimization(true);
   }
+
+    public Tokenizer(ModelStream modelStream) throws IOException {
+        super((new SuffixSensitiveGISModelReader(modelStream)).getModel());
+    }
 
   public static void main(String[] args) throws IOException {
     if (args.length == 0) {

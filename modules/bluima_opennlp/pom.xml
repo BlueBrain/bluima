@@ -45,5 +45,25 @@
         <artifactId>bluima_sentence_detector_pennbio</artifactId>
         <version>0.1</version>
     </dependency>
+    <dependency>
+        <groupId>ch.epfl.bbp.nlp</groupId>
+        <artifactId>bluima_tokenizer_genia</artifactId>
+        <version>0.1</version>
+    </dependency>
+    <dependency>
+        <groupId>ch.epfl.bbp.nlp</groupId>
+        <artifactId>bluima_postagger_genia</artifactId>
+        <version>0.1</version>
+    </dependency>
+    <dependency>
+        <groupId>ch.epfl.bbp.nlp</groupId>
+        <artifactId>bluima_tagdict_genia</artifactId>
+        <version>0.1</version>
+    </dependency>
+    <dependency>
+        <groupId>ch.epfl.bbp.nlp</groupId>
+        <artifactId>bluima_chunker_genia</artifactId>
+        <version>0.1</version>
+    </dependency>
   </dependencies>
 </project>
