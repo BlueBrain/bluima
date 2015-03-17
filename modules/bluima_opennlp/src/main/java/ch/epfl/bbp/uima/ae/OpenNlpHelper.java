@@ -89,7 +89,7 @@ public class OpenNlpHelper {
     public static AnalysisEngineDescription getChunker()
             throws ResourceInitializationException {
         return createEngineDescription(ChunkAnnotator.class, PARAM_MODEL,
-                "ch.epfl.bpp.nlp.res.chunk.GeniaResource");
+                "ch.epfl.bbp.nlp.res.chunk.GeniaResource");
     }
 
     /**
