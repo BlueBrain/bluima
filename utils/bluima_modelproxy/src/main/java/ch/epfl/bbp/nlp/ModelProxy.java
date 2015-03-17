@@ -32,7 +32,7 @@ public class ModelProxy {
             String err = "Unable to instanciate " + modelclass;
             throw new ModelProxyException(err, e);
         } catch (ClassNotFoundException e) {
-            String err = "Unable to find class " + modelclass;
+            String err = "Unable to find model " + modelclass;
             throw new ModelProxyException(err, e);
         }
 
