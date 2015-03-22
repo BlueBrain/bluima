@@ -14,7 +14,7 @@
  * 
  * Analysis Engine that invokes the OpenNLP POS Tagger. This annotator assumes that
  * sentences and tokens have been annotated in the CAS. We iterate over sentences, 
- * then iterate over tokens in the current sentece to accumulate a list of tokens, then invoke the
+ * then iterate over tokens in the current sentence to accumulate a list of tokens, then invoke the
  * OpenNLP POS Tagger on the list of tokens. 
  **/
 

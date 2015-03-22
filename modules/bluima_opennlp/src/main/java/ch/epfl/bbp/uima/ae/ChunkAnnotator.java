@@ -101,6 +101,7 @@ public class ChunkAnnotator extends JCasAnnotator_ImplBase {
         LOG.info("[OpenNLP Chunk Annotator] initializing OpenNLP Chunk Annotator ...");
         super.initialize(aContext);
 
+        // TODO should it be a cfg param?
         // String modelFile = (String) aContext
         // .getConfigParameterValue("modelFile");
         // mappings = (String[]) aContext.getConfigParameterValue("mappings");
