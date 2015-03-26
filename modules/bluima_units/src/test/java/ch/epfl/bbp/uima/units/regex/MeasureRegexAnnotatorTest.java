@@ -6,6 +6,7 @@ import static ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.addMeasureAnnotators;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription;
 import static org.apache.uima.fit.util.JCasUtil.select;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 import static org.slf4j.LoggerFactory.getLogger;
 
 import java.io.FileInputStream;
@@ -18,6 +19,7 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.cas.text.AnnotationFS;
 import org.apache.uima.collection.metadata.CpeDescriptorException;
 import org.apache.uima.fit.util.CasUtil;
+import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
 import org.junit.Ignore;
 import org.junit.Test;
@@ -52,25 +54,84 @@ public class MeasureRegexAnnotatorTest {
     @Test
     public void testSimple() throws Exception {
 
+        // Load the pipeline
         JcasPipelineBuilder pipeline = new JcasPipelineBuilder();
         MeasureRegexAnnotators.addMeasureAnnotators(pipeline);
 
-        JCas jCas = UimaTests.getTokenizedTestCas("48 Hertz");
-//        JCas jCas = UimaTests.getTokenizedTestCas("43 - 55 milliseconds");
+        // FIXME using float type set `text` to "48.0 Hertz" and makes the test
+        // fail: two measures are generated: {48, ø} and {0, Hertz}. However, if
+        // `text` is manually set to "48,0 Hertz" the test passes. This means
+        // that '.' and ',' are not treated the same way. This should probably
+        // be investigated.
+
+        // Run pipeline on a very simple text
+        final int value = 48;
+        final String unit = "Hertz";
+        final String text = value + unit;
+        JCas jCas = UimaTests.getTokenizedTestCas(text);
         pipeline.process(jCas);
-        LOG.debug(To.string(jCas));
+
+        // Make sure the result is what was expected
+        Collection<Measure> measures = JCasUtil.select(jCas, Measure.class);
+        assertEquals("Exactly one measure is expected", 1, measures.size());
+
+        Measure measure = measures.iterator().next();
+        assertNotNull(measure);
+        assertEquals(text, measure.getTextValue());
+        // The value should be 100% precise in this simple case
+        assertEquals(value, measure.getValue(), Float.MIN_VALUE);
+        assertEquals(unit, measure.getUnit());
     }
 
     @Test
     public void testSimple2() throws Exception {
 
+        // Load the pipeline
         JcasPipelineBuilder pipeline = new JcasPipelineBuilder();
         MeasureRegexAnnotators.addMeasureAnnotators(pipeline);
 
-        JCas jCas = UimaTests
-                .getTokenizedTestCas("aa bb 70 kg ddd 24 mm ddd 2002.");
+        // Run pipeline on a slightly more complex text
+        final DummyMeasure[] dummies = new DummyMeasure[] {
+                new DummyMeasure(70, "kg"), new DummyMeasure(24, "mm"),
+                new DummyMeasure(2002, "") };
+        final String text = "aa bb " + dummies[0] + " ddd " + dummies[1] + " "
+                + dummies[2] + ".";
+        JCas jCas = UimaTests.getTokenizedTestCas(text);
         pipeline.process(jCas);
-        LOG.debug(To.string(jCas));
+
+        // Make sure the result is what was expected
+        Collection<Measure> measures = JCasUtil.select(jCas, Measure.class);
+        assertEquals("Exactly three measures are expected", 3, measures.size());
+
+        for (Measure measure : measures) {
+            int count = 0;
+            for (DummyMeasure dummy : dummies) {
+                if (dummy.isEqual(measure)) {
+                    ++count;
+                }
+            }
+            assertEquals("Exactly one dummy must match the measure", 1, count);
+        }
+    }
+
+    class DummyMeasure {
+        public DummyMeasure(int value, String unit) {
+            this.value = value;
+            this.unit = unit;
+        }
+
+        public Boolean isEqual(Measure measure) {
+            return measure != null && measure.getValue() == value
+                    && measure.getUnit().equals(unit);
+        }
+
+        private int value;
+        private String unit;
+
+        @Override
+        public String toString() {
+            return value + " " + unit;
+        }
     }
 
     @Test
