@@ -10,6 +10,7 @@ import org.apache.uima.UIMAException;
 import org.apache.uima.fit.pipeline.SimplePipeline;
 import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import ch.epfl.bbp.shaded.opennlp.tools.util.Pair;
@@ -115,6 +116,8 @@ public class OpenNlpHelperTest {
         assertEquals(chunks, predictedChunks);
     }
 
+    // FIXME this actual tests nothing -- only print
+    @Ignore
     @Test
     public void testTokenizedTestCas() throws Exception {
         JCas jCas = OpenNlpHelper
