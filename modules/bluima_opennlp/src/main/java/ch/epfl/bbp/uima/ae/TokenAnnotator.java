@@ -32,9 +32,6 @@ import org.apache.uima.resource.ResourceInitializationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import ch.epfl.bbp.nlp.ModelProxy;
-import ch.epfl.bbp.nlp.ModelProxyException;
-import ch.epfl.bbp.nlp.ModelStream;
 import ch.epfl.bbp.shaded.opennlp.tools.util.Span;
 import ch.epfl.bbp.uima.BlueCasUtil;
 import ch.epfl.bbp.uima.BlueUima;
@@ -58,8 +55,8 @@ public class TokenAnnotator extends JCasAnnotator_ImplBase {
      */
     public static final String COMPONENT_ID = "de.julielab.jules.OpenNLPTokenizer";
 
-    @ConfigurationParameter(name = BlueUima.PARAM_MODEL)
-    private String model;
+    @ConfigurationParameter(name = BlueUima.PARAM_MODEL_FILE)
+    private String modelFile;
 
     /**
      * instance of the OpenNLP Tokenizer
@@ -72,10 +69,9 @@ public class TokenAnnotator extends JCasAnnotator_ImplBase {
         super.initialize(aContext);
 
         try {
-            ModelStream modelStream = ModelProxy.getStream(model);
             tokenizer = new ch.epfl.bbp.shaded.opennlp.tools.lang.english.Tokenizer(
-                    modelStream);
-        } catch (ModelProxyException | IOException e) {
+                    modelFile);
+        } catch (IOException e) {
             LOGGER.error("[OpenNLP Token Annotator] Could not load tokenizer model: "
                     + e.getMessage());
             throw new ResourceInitializationException(e);

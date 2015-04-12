@@ -38,8 +38,6 @@ import org.apache.uima.resource.ResourceInitializationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import ch.epfl.bbp.nlp.ModelProxy;
-import ch.epfl.bbp.nlp.ModelStream;
 import ch.epfl.bbp.shaded.opennlp.tools.lang.english.PosTagger;
 import ch.epfl.bbp.shaded.opennlp.tools.ngram.Dictionary;
 import ch.epfl.bbp.shaded.opennlp.tools.postag.POSDictionary;
@@ -77,29 +75,26 @@ public class PosTagAnnotator extends JCasAnnotator_ImplBase {
 	private Boolean useTagdict;
 
 	public static final String PARAM_TAG_DICT = "tagDict";
-    @ConfigurationParameter(name = PARAM_TAG_DICT, //
-    description = "Name of the model holding the tag Dictionary")
+	@ConfigurationParameter(name = PARAM_TAG_DICT, defaultValue = "pear_resources/models/postag/tagdict-genia", //
+	description = "Path to tag Dictionary")
 	private String tagdict;
 
-    @ConfigurationParameter(name = BlueUima.PARAM_MODEL, //
+	@ConfigurationParameter(name = BlueUima.PARAM_MODEL_FILE, defaultValue = "pear_resources/models/postag/Tagger_Genia.bin.gz", //
 	description = "")
-    private String model;
+	private String modelFile;
 
 	@Override
 	public void initialize(UimaContext aContext)
 			throws ResourceInitializationException {
 		super.initialize(aContext);
 		try {
-            // Get OpenNLP POS Tagger, initialize with a model
-            ModelStream modelStream = ModelProxy.getStream(model);
-            if (useTagdict) {
-                ModelStream dictStream = ModelProxy.getStream(tagdict);
-                tagger = new PosTagger(modelStream, (Dictionary) null,
-                        new POSDictionary(dictStream, caseSensitive));
-            } else {
-                tagger = new PosTagger(modelStream, (Dictionary) null);
-            }
-        } catch (Exception e) {
+			// Get OpenNLP POS Tagger, initialize with a model
+			if (useTagdict)
+				tagger = new PosTagger(modelFile, (Dictionary) null,
+						new POSDictionary(tagdict, caseSensitive));
+			else
+				tagger = new PosTagger(modelFile, (Dictionary) null);
+		} catch (Exception e) {
 			throw new ResourceInitializationException(e);
 		}
 	}

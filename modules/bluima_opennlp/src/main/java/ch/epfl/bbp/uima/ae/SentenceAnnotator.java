@@ -11,8 +11,6 @@ import org.apache.uima.resource.ResourceInitializationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import ch.epfl.bbp.nlp.ModelProxy;
-import ch.epfl.bbp.nlp.ModelStream;
 import ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector;
 import ch.epfl.bbp.uima.BlueUima;
 import ch.epfl.bbp.uima.ScriptingShortcut;
@@ -22,7 +20,7 @@ import de.julielab.jules.types.Sentence;
 /**
  * Sentence splitter, based on OpenNLP's MaxEnt {@link SentenceDetector}, and
  * trained on biomedical corpora (PennBio or Genia corpora).
- *
+ * 
  * @author buyko
  * @author renaud.richardet@epfl.ch
  */
@@ -32,8 +30,8 @@ public class SentenceAnnotator extends JCasAnnotator_ImplBase {
     private static Logger LOG = LoggerFactory
             .getLogger(SentenceAnnotator.class);
 
-    @ConfigurationParameter(name = BlueUima.PARAM_MODEL)
-    private String model;
+    @ConfigurationParameter(name = BlueUima.PARAM_MODEL_FILE)
+    private String modelFile;
 
     /** component id for CAS */
     private static final String COMPONENT_ID = "de.julielab.types.OpenNLPSentenceDetector";
@@ -50,9 +48,8 @@ public class SentenceAnnotator extends JCasAnnotator_ImplBase {
         // modelFile);
 
         try {
-            ModelStream modelStream = ModelProxy.getStream(model);
             sentenceSplitter = new ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector(
-                    modelStream);
+                    modelFile);
         } catch (Exception e) {
             LOG.error("[OpenNLP Sentence Annotator] Could not load sentence splitter model: "
                     + e.getMessage());
