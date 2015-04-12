@@ -27,13 +27,12 @@ public class OpenNlpHelper {
     private static Logger LOG = LoggerFactory.getLogger(OpenNlpHelper.class);
 
     public final static String OPENNLP_ROOT = BlueUima.BLUE_UIMA_ROOT
-            + "modules/bluima_opennlp/";
+            + "resources/opennlp/";
 
     @Deprecated(/* Use SentenceAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getSentenceSplitter()
             throws ResourceInitializationException {
-        String modelFile = OPENNLP_ROOT
-                + "src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz";
+        String modelFile = OPENNLP_ROOT + "/sentence/SentDetectPennBio.bin.gz";
         checkArgument(new File(modelFile).exists(), "no model file at "
                 + modelFile);
         return createEngineDescription(SentenceAnnotator.class,
@@ -43,8 +42,7 @@ public class OpenNlpHelper {
     @Deprecated(/* Use TokenAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getTokenizer()
             throws ResourceInitializationException {
-        String modelFile = OPENNLP_ROOT
-                + "src/main/resources/pear_resources/models/token/TokenizerGenia.bin.gz";
+        String modelFile = OPENNLP_ROOT + "/token/TokenizerGenia.bin.gz";
         checkArgument(new File(modelFile).exists(), "no model file at "
                 + modelFile);
         return createEngineDescription(TokenAnnotator.class,
@@ -54,10 +52,8 @@ public class OpenNlpHelper {
     @Deprecated(/* Use PosTagAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getPosTagger()
             throws ResourceInitializationException {
-        String tagDict = OPENNLP_ROOT
-                + "src/main/resources/pear_resources/models/postag/tagdict-genia", //
-        modelFile = OPENNLP_ROOT
-                + "src/main/resources/pear_resources/models/postag/Tagger_Genia.bin.gz";
+        String tagDict = OPENNLP_ROOT + "/postag/tagdict-genia";
+        String modelFile = OPENNLP_ROOT + "/postag/Tagger_Genia.bin.gz";
         checkArgument(new File(tagDict).exists(), "no tag dict file at "
                 + tagDict);
         return createEngineDescription(PosTagAnnotator.class,
@@ -91,8 +87,7 @@ public class OpenNlpHelper {
     @Deprecated(/* Use SentenceDetector directly with appropriate model */)
     public static ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector getSentenceDetector()
             throws IOException {
-        String modelFile = OPENNLP_ROOT
-                + "src/main/resources/pear_resources/models/sentence/SentDetectPennBio.bin.gz";
+        String modelFile = OPENNLP_ROOT + "/sentence/SentDetectPennBio.bin.gz";
         checkArgument(new File(modelFile).exists(), "no model file at "
                 + modelFile);
         return new ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector(
@@ -102,8 +97,7 @@ public class OpenNlpHelper {
     @Deprecated(/* Use ChunkAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getChunker()
             throws ResourceInitializationException {
-        String modelFile = OPENNLP_ROOT
-                + "src/main/resources/pear_resources/models/chunker/Chunker_Genia.bin.gz";
+        String modelFile = OPENNLP_ROOT + "/chunker/Chunker_Genia.bin.gz";
         return createEngineDescription(ChunkAnnotator.class,
                 PARAM_MODEL_FILE, modelFile);
     }
