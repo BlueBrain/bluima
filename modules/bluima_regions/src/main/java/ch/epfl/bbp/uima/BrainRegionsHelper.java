@@ -14,6 +14,7 @@ import org.apache.uima.ruta.engine.RutaEngine;
 /**
  * @author renaud.richardet@epfl.ch
  */
+@Deprecated(/* Use annotators directly instead */)
 public class BrainRegionsHelper {
 
     public static final String BRAIN_REGIONS_HOME = BLUE_UIMA_ROOT
@@ -26,6 +27,7 @@ public class BrainRegionsHelper {
             + "src/test/resources/";
 
     /** Many pre- and postprocessing needed, see the tests */
+    @Deprecated(/* Use script directly with appropriate paths */)
     public static AnalysisEngineDescription getBrainregionRules()
             throws ResourceInitializationException {
         return createEngineDescription(RutaEngine.class,//

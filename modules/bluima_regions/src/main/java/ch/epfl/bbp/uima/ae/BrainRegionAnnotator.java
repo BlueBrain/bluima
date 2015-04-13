@@ -91,6 +91,8 @@ public class BrainRegionAnnotator extends JCasAnnotator_ImplBase {
     private String modeStr;
     private Mode mode;
 
+    // TODO should probably be detected automatically instead of hard coded
+    // default value
     public static final String PARAM_THREADS = "threads";
     @ConfigurationParameter(name = PARAM_THREADS, defaultValue = "3", mandatory = false,//
     description = "how many threads for eval and train")
