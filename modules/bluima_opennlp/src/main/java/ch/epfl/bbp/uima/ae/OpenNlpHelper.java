@@ -32,6 +32,8 @@ public class OpenNlpHelper {
     @Deprecated(/* Use SentenceAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getSentenceSplitter()
             throws ResourceInitializationException {
+        warnDeprecated("getSentenceSplitter");
+
         String modelFile = OPENNLP_ROOT + "/sentence/SentDetectPennBio.bin.gz";
         checkArgument(new File(modelFile).exists(), "no model file at "
                 + modelFile);
@@ -42,6 +44,8 @@ public class OpenNlpHelper {
     @Deprecated(/* Use TokenAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getTokenizer()
             throws ResourceInitializationException {
+        warnDeprecated("getTokenizer");
+
         String modelFile = OPENNLP_ROOT + "/token/TokenizerGenia.bin.gz";
         checkArgument(new File(modelFile).exists(), "no model file at "
                 + modelFile);
@@ -52,6 +56,8 @@ public class OpenNlpHelper {
     @Deprecated(/* Use PosTagAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getPosTagger()
             throws ResourceInitializationException {
+        warnDeprecated("getPosTagger");
+
         String tagDict = OPENNLP_ROOT + "/postag/tagdict-genia";
         String modelFile = OPENNLP_ROOT + "/postag/Tagger_Genia.bin.gz";
         checkArgument(new File(tagDict).exists(), "no tag dict file at "
@@ -87,6 +93,8 @@ public class OpenNlpHelper {
     @Deprecated(/* Use SentenceDetector directly with appropriate model */)
     public static ch.epfl.bbp.shaded.opennlp.tools.lang.english.SentenceDetector getSentenceDetector()
             throws IOException {
+        warnDeprecated("getSentenceDetector");
+
         String modelFile = OPENNLP_ROOT + "/sentence/SentDetectPennBio.bin.gz";
         checkArgument(new File(modelFile).exists(), "no model file at "
                 + modelFile);
@@ -97,6 +105,8 @@ public class OpenNlpHelper {
     @Deprecated(/* Use ChunkAnnotator directly with appropriate model */)
     public static AnalysisEngineDescription getChunker()
             throws ResourceInitializationException {
+        warnDeprecated("getChunker");
+
         String modelFile = OPENNLP_ROOT + "/chunker/Chunker_Genia.bin.gz";
         return createEngineDescription(ChunkAnnotator.class,
                 PARAM_MODEL_FILE, modelFile);
@@ -106,10 +116,17 @@ public class OpenNlpHelper {
      * @param text
      * @return a JCas that has been (naively) sentence splitted and tokenized
      */
+    @Deprecated(/* Use annotators directly with their appropriate models */)
     public static JCas getOpenNlpTokenizedTestCas(String text)
             throws UIMAException, IOException {
+        warnDeprecated("getOpenNlpTokenizedTestCas");
+
         JCas testCas = UimaTests.getTestCas(text);
         runPipeline(testCas, getSentenceSplitter(), getTokenizer());
         return testCas;
+    }
+
+    private static void warnDeprecated(String name) {
+        LOG.warn("[OpenNlpHelper] method " + name + " is deprecated");
     }
 }
