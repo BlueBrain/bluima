@@ -19,7 +19,7 @@ public class SpeciesAnnotatorTest {
 
         JCas jCas = getTestCas(TEST_DEPENDENCY);
 
-        runPipeline(jCas, createEngine(LinnaeusAnnotator.class),
+        runPipeline(jCas, LinnaeusAnnotatorTest.createLinnaeusEngine(),
                 createEngine(SpeciesAnnotator.class));
 
         DocumentSpecies ds = selectSingle(jCas, DocumentSpecies.class);

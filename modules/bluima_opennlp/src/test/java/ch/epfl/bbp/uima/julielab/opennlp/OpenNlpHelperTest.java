@@ -32,24 +32,26 @@ import de.julielab.jules.types.Token;
 
 public class OpenNlpHelperTest {
 
-    static private String BLUIMA_RESOURCE_DIR;
+    static private String BLUIMA_RESOURCE_DIR = System
+            .getProperty("BLUIMA_RESOURCE_DIR");
 
     @BeforeClass
     public static void setup() {
-        BLUIMA_RESOURCE_DIR = System.getProperty("BLUIMA_RESOURCE_DIR");
         assertNotNull("BLUIMA_RESOURCE_DIR system property is not set",
                 BLUIMA_RESOURCE_DIR);
     }
 
-    @Test
-    public void testTokenizer() throws Exception {
-        // Load the tokenizer
+    private static AnalysisEngineDescription createTokenizerEngineDescription()
+            throws ResourceInitializationException {
         String tokenModel = BLUIMA_RESOURCE_DIR
                 + "/opennlp/token/TokenizerGenia.bin.gz";
-        AnalysisEngineDescription tokenizer = createEngineDescription(
-                TokenAnnotator.class, PARAM_MODEL_FILE, tokenModel);
+        return createEngineDescription(TokenAnnotator.class, PARAM_MODEL_FILE,
+                tokenModel);
+    }
 
-        testTokenizerImpl(tokenizer);
+    @Test
+    public void testTokenizer() throws Exception {
+        testTokenizerImpl(createTokenizerEngineDescription());
     }
 
     // Test the now deprecated OpenNlpHelper
