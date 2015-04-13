@@ -1,6 +1,5 @@
 package ch.epfl.bbp.uima.ae;
 
-import static ch.epfl.bbp.uima.CommonAnnotatorsHelper.COMMON_ANNOTATORS_ROOT;
 import static ch.epfl.bbp.uima.typesystem.TypeSystem.LINNAEUS_SPECIES;
 import static com.google.common.base.Preconditions.checkArgument;
 import static java.util.logging.Level.WARNING;
@@ -43,8 +42,9 @@ public class LinnaeusAnnotator extends JCasAnnotator_ImplBase {
     private Matcher matcher;
     private Logger logger = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 
+    // TODO for consistency it should be PARAM_MODEL_FILE, no?
     public static final String CONFIG_FILE = "CONFIG_FILE";
-    @ConfigurationParameter(name = CONFIG_FILE, mandatory = false)
+    @ConfigurationParameter(name = CONFIG_FILE, mandatory = true)
     private String configFile;
 
     @Override
@@ -52,11 +52,6 @@ public class LinnaeusAnnotator extends JCasAnnotator_ImplBase {
             throws ResourceInitializationException {
         super.initialize(context);
         logger.setLevel(WARNING); // be quiet!!
-
-        if (configFile == null) {
-            configFile = COMMON_ANNOTATORS_ROOT
-                    + "src/main/resources/config/linnaeus/properties.conf";
-        }
 
         checkArgument(new File(configFile).exists(),
                 "please provide a valid configuration file for Linnaeus, not found: "
