@@ -1,5 +1,6 @@
 package ch.epfl.bbp.uima.ae;
 
+import static ch.epfl.bbp.uima.BlueUima.PARAM_ANNOTATION_CLASS;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL_FILE;
 import static ch.epfl.bbp.uima.BrainRegionsHelper.TEST_BASE;
 import static ch.epfl.bbp.uima.ae.PosTagAnnotator.PARAM_TAG_DICT;
@@ -33,6 +34,7 @@ import org.slf4j.Logger;
 import cc.mallet.fst.CRF;
 import ch.epfl.bbp.uima.BlueUima;
 import ch.epfl.bbp.uima.types.BrainRegion;
+import ch.epfl.bbp.uima.types.Measure;
 import ch.epfl.bbp.uima.typesystem.To;
 
 /**
@@ -142,7 +144,8 @@ public class BrainRegionAnnotatorTest {
                 createEngineDescription(BlueBioLemmatizer.class),
                 // Required by braiNER
                 MeasureRegexAnnotators.getAllAED(),
-                createEngineDescription(PruneMeasuresAnnotator.class),
+                createEngineDescription(KeepLargestAnnotationAnnotator.class,
+                        PARAM_ANNOTATION_CLASS, Measure.class),
                 createLinnaeusEngineDescription(),
                 // Moving BrainRegion annotations to Gold-sofa
                 createEngineDescription(EvaluationPreprocessorAnnotator.class,
