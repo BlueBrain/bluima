@@ -28,6 +28,7 @@ import org.apache.uima.annotator.regex.Feature;
 import org.apache.uima.annotator.regex.FilterFeature;
 import org.apache.uima.annotator.regex.Rule;
 import org.apache.uima.annotator.regex.RuleException;
+import org.apache.uima.annotator.regex.impl.Annotation_impl;
 import org.apache.uima.annotator.regex.impl.ConceptFileParser_impl;
 import org.apache.uima.annotator.regex.impl.Concept_impl;
 import org.apache.uima.annotator.regex.impl.RegexAnnotatorConfigException;
@@ -348,6 +349,9 @@ public class RegExAnnotator extends CasAnnotator_ImplBase {
 
        // get the match type where the rule should be processed on
        Type matchType = conceptRules[ruleCount].getMatchType();
+       if (null == matchType) {// ren: dunno why it fails...
+           matchType = aCAS.getDocumentAnnotation().getType();
+       }
 
        // get match type iterator from the CAS
        FSIterator<?> mtIterator = aCAS.getAnnotationIndex(matchType).iterator();
@@ -657,6 +661,14 @@ public class RegExAnnotator extends CasAnnotator_ImplBase {
    Annotation[] annotations = concept.getAnnotations();
    for (int a = 0; a < annotations.length; a++) {
      // get annotation type
+     Annotation aa = annotations[a];
+     if (null == aa.getAnnotationType()) {// ren: dunno why it fails...
+         try {
+             ((Annotation_impl) aa).typeInit(aCAS.getTypeSystem());
+         } catch (Exception e) {// abandon then
+             throw new RegexAnnotatorProcessException(e); 
+         }
+     }
      Type annotType = annotations[a].getAnnotationType();
 
      // get local start and end position of the match in the matchingText

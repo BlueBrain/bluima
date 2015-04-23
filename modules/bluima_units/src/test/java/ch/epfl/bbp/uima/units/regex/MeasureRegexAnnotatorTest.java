@@ -1,8 +1,10 @@
 package ch.epfl.bbp.uima.units.regex;
 
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT_DIRECTORY;
+import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL_FILE;
 import static ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.BLUE_UIMA_MEASURES;
 import static ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.addMeasureAnnotators;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription;
 import static org.apache.uima.fit.util.JCasUtil.select;
 import static org.junit.Assert.assertEquals;
@@ -15,18 +17,24 @@ import java.util.Collection;
 import java.util.List;
 
 import org.apache.uima.UIMAException;
+import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.cas.Feature;
 import org.apache.uima.cas.text.AnnotationFS;
 import org.apache.uima.collection.metadata.CpeDescriptorException;
 import org.apache.uima.fit.util.CasUtil;
 import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
+import org.apache.uima.resource.ResourceInitializationException;
+import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
+import org.springframework.expression.spel.ast.OpNE;
 
 import ch.epfl.bbp.uima.ae.MeasureRegexAnnotators;
 import ch.epfl.bbp.uima.ae.OpenNlpHelper;
+import ch.epfl.bbp.uima.ae.SentenceAnnotator;
+import ch.epfl.bbp.uima.ae.TokenAnnotator;
 import ch.epfl.bbp.uima.annotationviewer.BlueAnnotationViewerAnnotator;
 import ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader;
 import ch.epfl.bbp.uima.testutils.UimaTests;
@@ -140,9 +148,9 @@ public class MeasureRegexAnnotatorTest {
 
         String pdfs = "/Users/richarde/data/_papers_etc/pmc_pdfs_sample/";
 
-        PipelineBuilder pipeline = new SimplePipelineBuilder(createReaderDescription(
-                PdfCollectionReader.class,  PARAM_INPUT_DIRECTORY,
-                pdfs));
+        PipelineBuilder pipeline = new SimplePipelineBuilder(
+                createReaderDescription(PdfCollectionReader.class,
+                        PARAM_INPUT_DIRECTORY, pdfs));
 
         addMeasureAnnotators(pipeline);
         pipeline.add(BlueAnnotationViewerAnnotator.class);
@@ -153,9 +161,19 @@ public class MeasureRegexAnnotatorTest {
     @Test
     public void testWithXmlTestsuite() throws Exception {
 
+        String BLUIMA_RESOURCE_DIR = System.getProperty("BLUIMA_RESOURCE_DIR");
+
+        assertNotNull("BLUIMA_RESOURCE_DIR system property is not set",
+                BLUIMA_RESOURCE_DIR);
+
+        String sentenceModel = BLUIMA_RESOURCE_DIR
+                + "/opennlp/sentence/SentDetectGenia.bin.gz";
+        String tokenModel = BLUIMA_RESOURCE_DIR
+                + "/opennlp/token/TokenizerGenia.bin.gz";
+
         JcasPipelineBuilder pipeline = new JcasPipelineBuilder();
-        pipeline.add(OpenNlpHelper.getSentenceSplitter());
-        pipeline.add(OpenNlpHelper.getTokenizer());
+        pipeline.add(SentenceAnnotator.class,PARAM_MODEL_FILE, sentenceModel);
+        pipeline.add(TokenAnnotator.class, PARAM_MODEL_FILE, tokenModel);
         MeasureRegexAnnotators.addMeasureAnnotators(pipeline);
 
         UnitTests tests = new TestResourceParser()
@@ -187,7 +205,7 @@ public class MeasureRegexAnnotatorTest {
         // retrieve the extracted annotation from the pipeline
         Collection<AnnotationFS> extractedConc = CasUtil.select(jCas.getCas(),
                 CasUtil.getType(jCas.getCas(), annotation));
-        //System.err.println(extractedConc.size());
+        // System.err.println(extractedConc.size());
 
         StringBuilder sb = new StringBuilder();
         for (AnnotationFS a : extractedConc) {
