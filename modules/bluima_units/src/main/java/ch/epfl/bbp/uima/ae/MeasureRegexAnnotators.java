@@ -20,11 +20,11 @@ import ch.epfl.bbp.uima.uimafit.PipelineBuilder;
 public class MeasureRegexAnnotators {
 
     public static final String BLUE_UIMA_MEASURES = BlueUima.BLUE_UIMA_ROOT
-            + "modules/bluima_units/";
+            + "resources/regex_concepts/";
     public static final String CONCEPTS_CONCENTRATION = BLUE_UIMA_MEASURES
-            + "src/main/resources/pear_resources/regex_concepts/concentrations.xml";
+            + "concentrations.xml";
     public static final String CONCEPTS_MEASURE = BLUE_UIMA_MEASURES
-            + "src/main/resources/pear_resources/regex_concepts/measures.xml";
+            + "measures.xml";
 
     public static void addMeasureAnnotators(PipelineBuilder cpeBuilder)
             throws InvalidXMLException, ResourceInitializationException,

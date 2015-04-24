@@ -2,37 +2,29 @@ package ch.epfl.bbp.uima.units.regex;
 
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT_DIRECTORY;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL_FILE;
-import static ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.BLUE_UIMA_MEASURES;
 import static ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.addMeasureAnnotators;
-import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription;
 import static org.apache.uima.fit.util.JCasUtil.select;
 import static org.junit.Assert.assertEquals;
 import static org.junit.Assert.assertNotNull;
 import static org.slf4j.LoggerFactory.getLogger;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Collection;
 import java.util.List;
 
 import org.apache.uima.UIMAException;
-import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.cas.Feature;
 import org.apache.uima.cas.text.AnnotationFS;
 import org.apache.uima.collection.metadata.CpeDescriptorException;
 import org.apache.uima.fit.util.CasUtil;
 import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
-import org.apache.uima.resource.ResourceInitializationException;
-import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
-import org.springframework.expression.spel.ast.OpNE;
 
 import ch.epfl.bbp.uima.ae.MeasureRegexAnnotators;
-import ch.epfl.bbp.uima.ae.OpenNlpHelper;
 import ch.epfl.bbp.uima.ae.SentenceAnnotator;
 import ch.epfl.bbp.uima.ae.TokenAnnotator;
 import ch.epfl.bbp.uima.annotationviewer.BlueAnnotationViewerAnnotator;
@@ -177,8 +169,8 @@ public class MeasureRegexAnnotatorTest {
         MeasureRegexAnnotators.addMeasureAnnotators(pipeline);
 
         UnitTests tests = new TestResourceParser()
-                .parse(new FileInputStream(BLUE_UIMA_MEASURES
-                        + "src/test/resources/regex_concepts/measures_test.xml"));
+                .parse(MeasureRegexAnnotatorTest.class
+                        .getResourceAsStream("/regex_concepts/measures_test.xml"));
 
         for (Result result : tests.getResult()) {
             testSingleResult(pipeline, result, Measure.class.getName());
