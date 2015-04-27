@@ -74,9 +74,43 @@
     </properties>
 
     <modules>
-        <module>utils/bluima_modelproxy</module> <!-- Doesn't depend on this pom in order to break dependency cycle. -->
-        <module>resources</module>
-        <module>modules</module>
+        <!-- utils: do not depend on parent nor UIMA -->
+        <module>utils/blue_commons</module>
+        <module>utils/pdf_glyph_mapping</module>
+        <module>utils/mallet_utils</module>
+
+        <module>modules/bluima_typesystem</module>
+        <module>modules/bluima_utils</module>
+        <module>modules/bluima_xml</module>
+        <module>modules/bluima_scripting</module>
+        <module>modules/bluima_jython</module>
+        <module>modules/bluima_db</module>
+        <module>modules/bluima_units</module>
+        <module>modules/bluima_lexica</module>
+        <module>modules/bluima_commons</module>
+        <module>modules/bluima_opennlp</module>
+        <module>modules/bluima_banner</module>
+        <module>modules/bluima_oscar4</module>
+        <module>modules/bluima_fusion</module>
+        <module>modules/bluima_topic_models</module>
+        <module>modules/bluima_abbreviations</module>
+        <module>modules/bluima_corpora</module>
+        <module>modules/bluima_pubmed_ws</module>
+        <module>modules/bluima_pdf</module>
+        <module>modules/bluima_mongodb</module>
+        <module>modules/bluima_elasticsearch</module>
+        <module>modules/bluima_regions</module>
+        <module>modules/bluima_jsre</module>
+        <module>modules/bluima_text2pmid</module>
+        <module>modules/bluima_references_classifier</module>
+        <module>modules/bluima_protein_concentrations</module>
+        <!-- <module>modules/bluima_rabbit</module> -->
+
+        <module>modules/bluima_neuroner</module>
+
+        <module>modules/bluima_bbp</module>
+        <!-- <module>modules/bluima_release</module> -->
+
     </modules>
 
     <build>
@@ -92,22 +126,25 @@
                     <encoding>UTF-8</encoding>
                     <systemProperties>
                         <property>
-                            <name>bluima_home</name>
-                            <value>${bluima_home}</value>
+                              <name>bluima_home</name>
+                             <value>${bluima_home}</value>
                         </property>
                     </systemProperties>
                 </configuration>
             </plugin>
-            <!-- more memory for tests -->
+            <!-- more memory & set resource directory for tests -->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-surefire-plugin</artifactId>
-                <version>2.13</version>
+                <version>2.18.1</version>
                 <configuration>
                     <argLine>-Xms1G -Xmx2G</argLine>
+                    <systemPropertyVariables>
+                        <BLUIMA_RESOURCE_DIR>${project.parent.basedir}/resources/</BLUIMA_RESOURCE_DIR>
+                    </systemPropertyVariables>
                 </configuration>
             </plugin>
-            <!-- attach sources to jars -->
+            <!-- attach sources to jars-->
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
                 <artifactId>maven-source-plugin</artifactId>
@@ -131,13 +168,13 @@
                     <execution>
                         <goals>
                             <goal>revision</goal>
-                        </goals>
+                         </goals>
                     </execution>
                 </executions>
                 <configuration>
                     <generateGitPropertiesFile>true</generateGitPropertiesFile>
                     <generateGitPropertiesFilename>src/main/resources/git.properties</generateGitPropertiesFilename>
-                </configuration>
+				</configuration>
             </plugin>
         </plugins>
         <pluginManagement>
@@ -185,20 +222,77 @@
         </pluginManagement>
     </build>
 
-    <!-- DEPENDENCIES SHARED AMONG ALL BLUE_UIMA MODULES AND RESOURCES -->
+    <!-- DEPENDENCIES SHARED AMONG ALL BLUE_UIMA MODULES -->
     <dependencies>
+
+        <!-- COMMON UTILS -->
+        <dependency>
+            <artifactId>bluima_typesystem</artifactId>
+            <groupId>${project.groupId}</groupId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <artifactId>blue_commons</artifactId>
+            <groupId>${project.groupId}</groupId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <version>3.0</version>
+        </dependency>
+
+        <!-- UIMA -->
+        <dependency>
+            <groupId>org.apache.uima</groupId>
+            <artifactId>ruta-core</artifactId>
+            <!-- <version>2.2.1-SNAPSHOT</version> -->
+            <version>2.1.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.uima</groupId>
+            <artifactId>RegularExpressionAnnotator</artifactId>
+            <version>2.3.2-BBP</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.uima</groupId>
+            <artifactId>SnowballAnnotator</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.uima</groupId>
+            <artifactId>ConceptMapper</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+
+        <!-- LOGGING -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>1.6.5</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.0.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.6.5</version>
+        </dependency>
+
         <!-- TESTING -->
         <dependency>
             <groupId>junit</groupId>
             <artifactId>junit</artifactId>
             <version>4.11</version>
             <scope>test</scope>
-        </dependency>
-
-        <dependency>
-            <artifactId>bluima_modelproxy</artifactId>
-            <groupId>${project.groupId}</groupId>
-            <version>${project.version}</version>
         </dependency>
     </dependencies>
 
@@ -314,8 +408,7 @@
                                 </configuration>
                             </execution>
 
-                            <!-- needed by lexica... TODO move to resources
-                                folder -->
+                            <!-- needed by lexica... TODO move to resources folder -->
                             <execution>
                                 <id>duplicate-resources-to-appassembler_release2_TODO</id>
                                 <phase>install</phase>
@@ -332,8 +425,7 @@
                                     </resources>
                                 </configuration>
                             </execution>
-                            <!-- COPY STATIC MODULE RESOURCES (that don't
-                                belong to the jar) -->
+                            <!-- COPY STATIC MODULE RESOURCES (that don't belong to the jar) -->
                             <execution>
                                 <id>duplicate-resources-to-appassembler_release3_TODO</id>
                                 <phase>install</phase>
@@ -362,17 +454,17 @@
                 <plugins>
                     <!-- create javadocs -->
                     <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-javadoc-plugin</artifactId>
-                        <version>2.9.1</version>
-                        <executions>
-                            <execution>
-                                <id>attach-javadocs</id>
-                                <goals>
-                                    <goal>jar</goal>
-                                </goals>
-                            </execution>
-                        </executions>
+                      <groupId>org.apache.maven.plugins</groupId>
+                      <artifactId>maven-javadoc-plugin</artifactId>
+                      <version>2.9.1</version>
+                      <executions>
+                        <execution>
+                          <id>attach-javadocs</id>
+                          <goals>
+                            <goal>jar</goal>
+                          </goals>
+                        </execution>
+                      </executions>
                     </plugin>
                     <plugin>
                         <groupId>org.apache.maven.plugins</groupId>
@@ -399,19 +491,19 @@
                         </configuration>
                     </plugin>
                     <!--GPG for Nexus -->
-                    <plugin>
-                        <groupId>org.apache.maven.plugins</groupId>
-                        <artifactId>maven-gpg-plugin</artifactId>
-                        <version>1.5</version>
-                        <executions>
-                            <execution>
-                                <id>sign-artifacts</id>
-                                <phase>verify</phase>
-                                <goals>
-                                    <goal>sign</goal>
-                                </goals>
-                            </execution>
-                        </executions>
+                     <plugin>
+                      <groupId>org.apache.maven.plugins</groupId>
+                      <artifactId>maven-gpg-plugin</artifactId>
+                      <version>1.5</version>
+                      <executions>
+                        <execution>
+                          <id>sign-artifacts</id>
+                          <phase>verify</phase>
+                          <goals>
+                            <goal>sign</goal>
+                          </goals>
+                        </execution>
+                      </executions>
                     </plugin>
 
                 </plugins>

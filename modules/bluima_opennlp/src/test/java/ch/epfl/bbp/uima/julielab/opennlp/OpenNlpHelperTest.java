@@ -1,19 +1,28 @@
 package ch.epfl.bbp.uima.julielab.opennlp;
 
+import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL_FILE;
+import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 
 import java.util.Collection;
 import java.util.Iterator;
 
 import org.apache.uima.UIMAException;
+import org.apache.uima.analysis_engine.AnalysisEngineDescription;
+import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.fit.pipeline.SimplePipeline;
 import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
+import org.apache.uima.resource.ResourceInitializationException;
+import org.junit.BeforeClass;
+import org.junit.Ignore;
 import org.junit.Test;
 
 import ch.epfl.bbp.shaded.opennlp.tools.util.Pair;
 import ch.epfl.bbp.uima.ae.OpenNlpHelper;
+import ch.epfl.bbp.uima.ae.TokenAnnotator;
 import ch.epfl.bbp.uima.testutils.UimaTests;
 import ch.epfl.bbp.uima.typesystem.Prin;
 import de.julielab.jules.types.Chunk;
@@ -23,11 +32,41 @@ import de.julielab.jules.types.Token;
 
 public class OpenNlpHelperTest {
 
+    static private String BLUIMA_RESOURCE_DIR = System
+            .getProperty("BLUIMA_RESOURCE_DIR");
+
+    @BeforeClass
+    public static void setup() {
+        assertNotNull("BLUIMA_RESOURCE_DIR system property is not set",
+                BLUIMA_RESOURCE_DIR);
+    }
+
+    private static AnalysisEngineDescription createTokenizerEngineDescription()
+            throws ResourceInitializationException {
+        String tokenModel = BLUIMA_RESOURCE_DIR
+                + "/opennlp/token/TokenizerGenia.bin.gz";
+        return createEngineDescription(TokenAnnotator.class, PARAM_MODEL_FILE,
+                tokenModel);
+    }
+
     @Test
     public void testTokenizer() throws Exception {
+        testTokenizerImpl(createTokenizerEngineDescription());
+    }
+
+    // Test the now deprecated OpenNlpHelper
+    @Test
+    public void testTokenizerDeprecated() throws Exception {
+        AnalysisEngineDescription tokenizer = OpenNlpHelper.getTokenizer();
+        testTokenizerImpl(tokenizer);
+    }
+
+    private void testTokenizerImpl(AnalysisEngineDescription tokenizer)
+            throws UIMAException, AnalysisEngineProcessException,
+            ResourceInitializationException {
         // First test
         JCas jCas = UimaTests.getTestCas("the red cat is blue");
-        SimplePipeline.runPipeline(jCas, OpenNlpHelper.getTokenizer());
+        SimplePipeline.runPipeline(jCas, tokenizer);
 
         Collection<Token> tokens = JCasUtil.select(jCas, Token.class);
         assertEquals(5, tokens.size());
@@ -39,7 +78,7 @@ public class OpenNlpHelperTest {
         String text = "CD44, at any stage, is a XYZ";
         String offsets = "0-4;4-5;6-8;9-12;13-18;18-19;20-22;23-24;25-28";
         jCas = UimaTests.getTestCas(text);
-        SimplePipeline.runPipeline(jCas, OpenNlpHelper.getTokenizer());
+        SimplePipeline.runPipeline(jCas, tokenizer);
 
         tokens = JCasUtil.select(jCas, Token.class);
 
@@ -115,6 +154,8 @@ public class OpenNlpHelperTest {
         assertEquals(chunks, predictedChunks);
     }
 
+    // FIXME this actual tests nothing -- only print
+    @Ignore
     @Test
     public void testTokenizedTestCas() throws Exception {
         JCas jCas = OpenNlpHelper

@@ -21,7 +21,6 @@ import java.io.File;
 import java.io.IOException;
 import java.util.List;
 
-import ch.epfl.bbp.nlp.ModelStream;
 import ch.epfl.bbp.shaded.opennlp.maxent.MaxentModel;
 import ch.epfl.bbp.shaded.opennlp.maxent.io.SuffixSensitiveGISModelReader;
 import ch.epfl.bbp.shaded.opennlp.tools.chunker.ChunkerContextGenerator;
@@ -72,19 +71,7 @@ public class TreebankChunker extends ChunkerME {
     super(mod, cg, beamSize);
   }
 
-    /**
-     * Creates an English Treebank Chunker which uses the specified model file.
-     * 
-     * @param modelStream
-     *            The input stream of the maxent model to be used.
-     * @throws IOException
-     *             When the model file can't be open or read.
-     */
-    public TreebankChunker(ModelStream modelStream) throws IOException {
-        this(new SuffixSensitiveGISModelReader(modelStream).getModel());
-    }
-
-private boolean validOutcome(String outcome, String prevOutcome) {
+  private boolean validOutcome(String outcome, String prevOutcome) {
     if (outcome.startsWith("I-")) {
       if (prevOutcome == null) {
         return (false);

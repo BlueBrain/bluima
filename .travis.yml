@@ -7,9 +7,6 @@ install:
   - true
 script:
   - mvn clean install
-branches:
-  only:
-  - master
 notifications:
   email:
   - renaud.richardet@epfl.ch

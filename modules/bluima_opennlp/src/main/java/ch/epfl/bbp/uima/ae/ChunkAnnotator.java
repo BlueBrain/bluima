@@ -42,9 +42,6 @@ import org.apache.uima.resource.ResourceInitializationException;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import ch.epfl.bbp.nlp.ModelProxy;
-import ch.epfl.bbp.nlp.ModelProxyException;
-import ch.epfl.bbp.nlp.ModelStream;
 import ch.epfl.bbp.shaded.opennlp.tools.lang.english.TreebankChunker;
 import ch.epfl.bbp.uima.BlueUima;
 import de.julielab.jules.types.Chunk;
@@ -68,9 +65,9 @@ public class ChunkAnnotator extends JCasAnnotator_ImplBase {
      */
     private TreebankChunker chunker;
 
-    @ConfigurationParameter(name = BlueUima.PARAM_MODEL, defaultValue = "", //
+    @ConfigurationParameter(name = BlueUima.PARAM_MODEL_FILE, defaultValue = "", //
     description = "")
-    private String model;
+    private String modelFile;
 
     public static final String PARAM_posTagSetPreference = "posTagSetPreference";
     @ConfigurationParameter(name = PARAM_posTagSetPreference, defaultValue = "de.julielab.jules.types.GeniaPOSTag", //
@@ -104,18 +101,18 @@ public class ChunkAnnotator extends JCasAnnotator_ImplBase {
         LOG.info("[OpenNLP Chunk Annotator] initializing OpenNLP Chunk Annotator ...");
         super.initialize(aContext);
 
+        // TODO should it be a cfg param?
         // String modelFile = (String) aContext
         // .getConfigParameterValue("modelFile");
         // mappings = (String[]) aContext.getConfigParameterValue("mappings");
         loadMappings();
 
         try {
-            ModelStream modelStream = ModelProxy.getStream(model);
-            chunker = new TreebankChunker(modelStream);
-        } catch (IOException | ModelProxyException e) {
+            chunker = new TreebankChunker(modelFile);
+        } catch (IOException e) {
             LOG.error("[OpenNLP Chunk Annotator] could not load Chunk model: "
                     + e.getMessage());
-            throw new ResourceInitializationException(e);
+
         }
     }
 

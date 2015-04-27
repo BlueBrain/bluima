@@ -1,14 +1,14 @@
 package ch.epfl.bbp.uima.units.regex;
 
 import static ch.epfl.bbp.uima.BlueUima.PARAM_INPUT_DIRECTORY;
-import static ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.BLUE_UIMA_MEASURES;
+import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL_FILE;
 import static ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.addMeasureAnnotators;
 import static org.apache.uima.fit.factory.CollectionReaderFactory.createReaderDescription;
 import static org.apache.uima.fit.util.JCasUtil.select;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 import static org.slf4j.LoggerFactory.getLogger;
 
-import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Collection;
 import java.util.List;
@@ -18,13 +18,15 @@ import org.apache.uima.cas.Feature;
 import org.apache.uima.cas.text.AnnotationFS;
 import org.apache.uima.collection.metadata.CpeDescriptorException;
 import org.apache.uima.fit.util.CasUtil;
+import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 
 import ch.epfl.bbp.uima.ae.MeasureRegexAnnotators;
-import ch.epfl.bbp.uima.ae.OpenNlpHelper;
+import ch.epfl.bbp.uima.ae.SentenceAnnotator;
+import ch.epfl.bbp.uima.ae.TokenAnnotator;
 import ch.epfl.bbp.uima.annotationviewer.BlueAnnotationViewerAnnotator;
 import ch.epfl.bbp.uima.pdf.cr.PdfCollectionReader;
 import ch.epfl.bbp.uima.testutils.UimaTests;
@@ -52,25 +54,84 @@ public class MeasureRegexAnnotatorTest {
     @Test
     public void testSimple() throws Exception {
 
+        // Load the pipeline
         JcasPipelineBuilder pipeline = new JcasPipelineBuilder();
         MeasureRegexAnnotators.addMeasureAnnotators(pipeline);
 
-        JCas jCas = UimaTests.getTokenizedTestCas("48 Hertz");
-//        JCas jCas = UimaTests.getTokenizedTestCas("43 - 55 milliseconds");
+        // FIXME using float type set `text` to "48.0 Hertz" and makes the test
+        // fail: two measures are generated: {48, ø} and {0, Hertz}. However, if
+        // `text` is manually set to "48,0 Hertz" the test passes. This means
+        // that '.' and ',' are not treated the same way. This should probably
+        // be investigated.
+
+        // Run pipeline on a very simple text
+        final int value = 48;
+        final String unit = "Hertz";
+        final String text = value + unit;
+        JCas jCas = UimaTests.getTokenizedTestCas(text);
         pipeline.process(jCas);
-        LOG.debug(To.string(jCas));
+
+        // Make sure the result is what was expected
+        Collection<Measure> measures = JCasUtil.select(jCas, Measure.class);
+        assertEquals("Exactly one measure is expected", 1, measures.size());
+
+        Measure measure = measures.iterator().next();
+        assertNotNull(measure);
+        assertEquals(text, measure.getTextValue());
+        // The value should be 100% precise in this simple case
+        assertEquals(value, measure.getValue(), Float.MIN_VALUE);
+        assertEquals(unit, measure.getUnit());
     }
 
     @Test
     public void testSimple2() throws Exception {
 
+        // Load the pipeline
         JcasPipelineBuilder pipeline = new JcasPipelineBuilder();
         MeasureRegexAnnotators.addMeasureAnnotators(pipeline);
 
-        JCas jCas = UimaTests
-                .getTokenizedTestCas("aa bb 70 kg ddd 24 mm ddd 2002.");
+        // Run pipeline on a slightly more complex text
+        final DummyMeasure[] dummies = new DummyMeasure[] {
+                new DummyMeasure(70, "kg"), new DummyMeasure(24, "mm"),
+                new DummyMeasure(2002, "") };
+        final String text = "aa bb " + dummies[0] + " ddd " + dummies[1] + " "
+                + dummies[2] + ".";
+        JCas jCas = UimaTests.getTokenizedTestCas(text);
         pipeline.process(jCas);
-        LOG.debug(To.string(jCas));
+
+        // Make sure the result is what was expected
+        Collection<Measure> measures = JCasUtil.select(jCas, Measure.class);
+        assertEquals("Exactly three measures are expected", 3, measures.size());
+
+        for (Measure measure : measures) {
+            int count = 0;
+            for (DummyMeasure dummy : dummies) {
+                if (dummy.isEqual(measure)) {
+                    ++count;
+                }
+            }
+            assertEquals("Exactly one dummy must match the measure", 1, count);
+        }
+    }
+
+    class DummyMeasure {
+        public DummyMeasure(int value, String unit) {
+            this.value = value;
+            this.unit = unit;
+        }
+
+        public Boolean isEqual(Measure measure) {
+            return measure != null && measure.getValue() == value
+                    && measure.getUnit().equals(unit);
+        }
+
+        private int value;
+        private String unit;
+
+        @Override
+        public String toString() {
+            return value + " " + unit;
+        }
     }
 
     @Test
@@ -79,9 +140,9 @@ public class MeasureRegexAnnotatorTest {
 
         String pdfs = "/Users/richarde/data/_papers_etc/pmc_pdfs_sample/";
 
-        PipelineBuilder pipeline = new SimplePipelineBuilder(createReaderDescription(
-                PdfCollectionReader.class,  PARAM_INPUT_DIRECTORY,
-                pdfs));
+        PipelineBuilder pipeline = new SimplePipelineBuilder(
+                createReaderDescription(PdfCollectionReader.class,
+                        PARAM_INPUT_DIRECTORY, pdfs));
 
         addMeasureAnnotators(pipeline);
         pipeline.add(BlueAnnotationViewerAnnotator.class);
@@ -92,14 +153,24 @@ public class MeasureRegexAnnotatorTest {
     @Test
     public void testWithXmlTestsuite() throws Exception {
 
+        String BLUIMA_RESOURCE_DIR = System.getProperty("BLUIMA_RESOURCE_DIR");
+
+        assertNotNull("BLUIMA_RESOURCE_DIR system property is not set",
+                BLUIMA_RESOURCE_DIR);
+
+        String sentenceModel = BLUIMA_RESOURCE_DIR
+                + "/opennlp/sentence/SentDetectGenia.bin.gz";
+        String tokenModel = BLUIMA_RESOURCE_DIR
+                + "/opennlp/token/TokenizerGenia.bin.gz";
+
         JcasPipelineBuilder pipeline = new JcasPipelineBuilder();
-        pipeline.add(OpenNlpHelper.getSentenceSplitter());
-        pipeline.add(OpenNlpHelper.getTokenizer());
+        pipeline.add(SentenceAnnotator.class,PARAM_MODEL_FILE, sentenceModel);
+        pipeline.add(TokenAnnotator.class, PARAM_MODEL_FILE, tokenModel);
         MeasureRegexAnnotators.addMeasureAnnotators(pipeline);
 
         UnitTests tests = new TestResourceParser()
-                .parse(new FileInputStream(BLUE_UIMA_MEASURES
-                        + "src/test/resources/regex_concepts/measures_test.xml"));
+                .parse(MeasureRegexAnnotatorTest.class
+                        .getResourceAsStream("/regex_concepts/measures_test.xml"));
 
         for (Result result : tests.getResult()) {
             testSingleResult(pipeline, result, Measure.class.getName());
@@ -126,7 +197,7 @@ public class MeasureRegexAnnotatorTest {
         // retrieve the extracted annotation from the pipeline
         Collection<AnnotationFS> extractedConc = CasUtil.select(jCas.getCas(),
                 CasUtil.getType(jCas.getCas(), annotation));
-        //System.err.println(extractedConc.size());
+        // System.err.println(extractedConc.size());
 
         StringBuilder sb = new StringBuilder();
         for (AnnotationFS a : extractedConc) {

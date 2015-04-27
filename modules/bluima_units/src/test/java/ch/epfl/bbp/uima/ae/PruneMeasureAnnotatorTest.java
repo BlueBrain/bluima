@@ -3,22 +3,21 @@ package ch.epfl.bbp.uima.ae;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_ANNOTATION_CLASS;
 import static ch.epfl.bbp.uima.ae.MeasureRegexAnnotators.getMeasuresAED;
 import static ch.epfl.bbp.uima.testutils.UimaTests.getTokenizedTestCas;
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
-import static org.slf4j.LoggerFactory.getLogger;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
 import static org.apache.uima.fit.util.JCasUtil.select;
+import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
+import static org.slf4j.LoggerFactory.getLogger;
 
 import java.util.Collection;
 
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
-import org.apache.uima.jcas.JCas;
-import org.junit.Ignore;
-import org.junit.Test;
-import org.slf4j.Logger;
 import org.apache.uima.fit.factory.AnalysisEngineFactory;
 import org.apache.uima.fit.util.JCasUtil;
+import org.apache.uima.jcas.JCas;
+import org.junit.Test;
+import org.slf4j.Logger;
 
 import ch.epfl.bbp.uima.testutils.UimaTests;
 import ch.epfl.bbp.uima.types.Concentration;
@@ -68,12 +67,12 @@ public class PruneMeasureAnnotatorTest {
     }
 
     @Test
-    @Ignore
-    // FIXME should work
     public void testWithRegexAnnotator() throws Exception {
 
         AnalysisEngineDescription regexAnnotator = getMeasuresAED();
-        AnalysisEngineDescription prune = createEngineDescription(KeepLargestAnnotationAnnotator.class);
+        AnalysisEngineDescription prune = createEngineDescription(
+                KeepLargestAnnotationAnnotator.class, PARAM_ANNOTATION_CLASS,
+                Measure.class);
 
         JCas jCas = getTokenizedTestCas("bla bla 40 - 55 mm bli bli");
 

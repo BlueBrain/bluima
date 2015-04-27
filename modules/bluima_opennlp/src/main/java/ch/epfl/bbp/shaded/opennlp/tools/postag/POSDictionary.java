@@ -25,8 +25,6 @@ import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Map;
 
-import ch.epfl.bbp.nlp.ModelStream;
-
 /** Provides a means of determining which tags are valid for a particular word based on a tag dictionary read from a file.
  * @author Tom Morton
  */
@@ -68,25 +66,7 @@ public class POSDictionary implements TagDictionary {
     }
   }
 
-    /**
-     * Create tag dictionary object with contents of specified model stream and
-     * using specified case to determine how to access entries in the tag
-     * dictionary.
-     * 
-     * @param modelStream
-     *            The input stream to the tag dictionary.
-     * @param caseSensitive
-     *            Specifies whether the tag dictionary is case sensitive or not.
-     * @throws IOException
-     *             when the specified file can not be read.
-     */
-    public POSDictionary(ModelStream modelStream, Boolean caseSensitive)
-            throws IOException {
-        this(new BufferedReader(new InputStreamReader(modelStream)),
-                caseSensitive);
-    }
-
-/**
+  /**
    * Returns a list of valid tags for the specified word. 
    * @param word The word.
    * @return A list of valid tags for the specified word or null if no information is available for that word.

@@ -38,7 +38,7 @@ public class FilterIfNotRodentTest {
 
         runPipeline(
                 jCas,//
-                createEngine(LinnaeusAnnotator.class),
+                LinnaeusAnnotatorTest.createLinnaeusEngine(),
                 createEngine(FilterIfNotRodent.class, //
                         PARAM_ANNOTATION_CLASS, aClass.getName()));
 

@@ -1,0 +1,4 @@
+[submodule "resources"]
+	path = resources
+    url = https://github.com/BlueBrain/bluima_resources.git
+	branch = master

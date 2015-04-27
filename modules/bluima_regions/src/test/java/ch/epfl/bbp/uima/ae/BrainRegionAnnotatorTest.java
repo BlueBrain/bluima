@@ -1,13 +1,17 @@
 package ch.epfl.bbp.uima.ae;
 
+import static ch.epfl.bbp.uima.BlueUima.PARAM_ANNOTATION_CLASS;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL_FILE;
 import static ch.epfl.bbp.uima.BrainRegionsHelper.TEST_BASE;
+import static ch.epfl.bbp.uima.ae.PosTagAnnotator.PARAM_TAG_DICT;
 import static ch.epfl.bbp.uima.laucher.PipelineScriptParser.parse;
 import static ch.epfl.bbp.uima.testutils.UimaTests.assertResultsContainsText;
 import static ch.epfl.bbp.uima.testutils.UimaTests.getTestCas;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
+import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
 import static org.apache.uima.fit.util.JCasUtil.select;
 import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertNotNull;
 import static org.slf4j.LoggerFactory.getLogger;
 
 import java.io.File;
@@ -19,25 +23,35 @@ import java.text.ParseException;
 import java.util.Collection;
 
 import org.apache.uima.UIMAException;
+import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.jcas.JCas;
+import org.apache.uima.resource.ResourceInitializationException;
+import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 
 import cc.mallet.fst.CRF;
-import ch.epfl.bbp.uima.BrainRegionsHelper;
-import ch.epfl.bbp.uima.laucher.Pipeline;
+import ch.epfl.bbp.uima.BlueUima;
 import ch.epfl.bbp.uima.types.BrainRegion;
+import ch.epfl.bbp.uima.types.Measure;
 import ch.epfl.bbp.uima.typesystem.To;
 
 /**
  * @author renaud.richardet@epfl.ch
  */
 public class BrainRegionAnnotatorTest {
-    private static Logger LOG = getLogger(BrainRegionAnnotatorTest.class);
 
-    private static final String MODEL_FILE = BrainRegionsHelper.BRAIN_REGIONS_HOME
-            + "resources/models/20131116_BrainRegion.model";
+    static private String BLUIMA_RESOURCE_DIR = System
+            .getProperty("BLUIMA_RESOURCE_DIR");
+
+    @BeforeClass
+    public static void setup() {
+        assertNotNull("BLUIMA_RESOURCE_DIR system property is not set",
+                BLUIMA_RESOURCE_DIR);
+    }
+
+    private static Logger LOG = getLogger(BrainRegionAnnotatorTest.class);
 
     @Test
     public void testInfer() throws Exception {
@@ -84,32 +98,89 @@ public class BrainRegionAnnotatorTest {
          */
     }
 
+    private static AnalysisEngineDescription createPosTaggerEngineDescription()
+            throws ResourceInitializationException {
+        String tagDict = BLUIMA_RESOURCE_DIR + "/opennlp/postag/tagdict-genia";
+        String modelFile = BLUIMA_RESOURCE_DIR
+                + "/opennlp/postag/Tagger_Genia.bin.gz";
+        return createEngineDescription(PosTagAnnotator.class, PARAM_TAG_DICT,
+                tagDict, PARAM_MODEL_FILE, modelFile);
+    }
+
+    private static AnalysisEngineDescription createTokenizerEngineDescription()
+            throws ResourceInitializationException {
+        String tokenModel = BLUIMA_RESOURCE_DIR
+                + "/opennlp/token/TokenizerGenia.bin.gz";
+        return createEngineDescription(TokenAnnotator.class, PARAM_MODEL_FILE,
+                tokenModel);
+    }
+
+    private static AnalysisEngineDescription createSentenceEngineDescription()
+            throws ResourceInitializationException {
+        String modelFile = BLUIMA_RESOURCE_DIR
+                + "/opennlp/sentence/SentDetectPennBio.bin.gz";
+        return createEngineDescription(SentenceAnnotator.class,
+                BlueUima.PARAM_MODEL_FILE, modelFile);
+    }
+
+    private static AnalysisEngineDescription createLinnaeusEngineDescription()
+            throws ResourceInitializationException {
+        String config = BLUIMA_RESOURCE_DIR + "/linnaeus/properties.conf";
+        return createEngineDescription(LinnaeusAnnotator.class,
+                LinnaeusAnnotator.CONFIG_FILE, config);
+    }
+
     private static void infer(String txt, int expectedBrCnt,
             String... expectedBrs) throws UIMAException, IOException,
             ParseException {
-
         JCas jCas = getTestCas(txt);
-        Pipeline pipeline = parse(new File(TEST_BASE
-                + "pipelines/preprocess.incl"));
-        pipeline.addAe(createEngineDescription(BrainRegionAnnotator.class,
-                PARAM_MODEL_FILE, MODEL_FILE));
-        pipeline.run(jCas);
+
+        runPipeline(
+                jCas,
+                // Preprocessing
+                createSentenceEngineDescription(),
+                createTokenizerEngineDescription(),
+                createPosTaggerEngineDescription(),
+                createEngineDescription(BlueBioLemmatizer.class),
+                // Required by braiNER
+                MeasureRegexAnnotators.getAllAED(),
+                createEngineDescription(KeepLargestAnnotationAnnotator.class,
+                        PARAM_ANNOTATION_CLASS, Measure.class),
+                createLinnaeusEngineDescription(),
+                // Moving BrainRegion annotations to Gold-sofa
+                createEngineDescription(EvaluationPreprocessorAnnotator.class,
+                        EvaluationPreprocessorAnnotator.PARAM_GOLD_ANNOTATION,
+                        "ch.epfl.bbp.uima.types.BrainRegion"),
+                // Brain annotator
+                createBrainRegionEngineDescription());
 
         Collection<BrainRegion> brs = select(jCas, BrainRegion.class);
+        
         for (BrainRegion br : brs) {
             LOG.debug(To.string(br));
         }
+        
         assertEquals("wrong number of brain regions found", expectedBrCnt,
                 brs.size());
         if (expectedBrCnt > 0 && expectedBrs.length > 0)
             assertResultsContainsText(brs, expectedBrs);
     }
 
+    private static AnalysisEngineDescription createBrainRegionEngineDescription()
+            throws ResourceInitializationException {
+        String modelFile = BLUIMA_RESOURCE_DIR
+                + "/regions/20131116_BrainRegion.model";
+        return createEngineDescription(BrainRegionAnnotator.class,
+                PARAM_MODEL_FILE, modelFile);
+    }
+
     @Test
     @Ignore
     public void testPrintFactors() throws Exception {
+        String modelFile = BLUIMA_RESOURCE_DIR
+                + "regions/20131116_BrainRegion.model";
         ObjectInputStream s = new ObjectInputStream(new FileInputStream(
-                MODEL_FILE));
+                modelFile));
         CRF trainedCrf = (CRF) s.readObject();
         s.close();
         // Factors factors = trainedCrf.getParameters();

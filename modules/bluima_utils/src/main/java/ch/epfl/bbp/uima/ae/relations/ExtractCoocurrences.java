@@ -73,7 +73,7 @@ public class ExtractCoocurrences extends JCasAnnotator_ImplBase {
     protected String[] firstIdFields;
     protected List<Method> firstIdMethods = new ArrayList<Method>();
 
-    @ConfigurationParameter(name = PARAM_SECOND_ANNOT, description = "the first annotation to extract co-occurrences from")
+    @ConfigurationParameter(name = PARAM_SECOND_ANNOT, description = "the second annotation to extract co-occurrences from")
     protected String annotationStr2;
     protected Class<? extends Annotation> annotation2;
 
@@ -274,7 +274,7 @@ public class ExtractCoocurrences extends JCasAnnotator_ImplBase {
             }
 
             if (idMethod == null) {
-                throw new RuntimeException(idField + " field for first annot "
+                throw new RuntimeException(idField + " field for annot "
                         + annotationClass.getCanonicalName() + " not found");
             } else {
                 idMethods.add(idMethod);
