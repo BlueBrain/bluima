@@ -10,8 +10,11 @@ import org.apache.uima.cas.FeatureStructure;
 import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
 
+import org.apache.uima.cas.impl.FeatureImpl;
+import org.apache.uima.cas.Feature;
+
 /** Type defined in neuroner.NeuroNER
- * Updated by JCasGen Tue May 13 16:26:11 CEST 2014
+ * Updated by JCasGen Fri May 01 14:09:39 CEST 2015
  * @generated */
 public class Layer_Type extends NeuronProperty_Type {
   /** @generated 
@@ -45,6 +48,56 @@ public class Layer_Type extends NeuronProperty_Type {
 
 
 
+  /** @generated */
+  final Feature casFeat_name;
+  /** @generated */
+  final int     casFeatCode_name;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getName(int addr) {
+        if (featOkTst && casFeat_name == null)
+      jcas.throwFeatMissing("name", "neuroner.NeuroNER.Layer");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_name);
+  }
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setName(int addr, String v) {
+        if (featOkTst && casFeat_name == null)
+      jcas.throwFeatMissing("name", "neuroner.NeuroNER.Layer");
+    ll_cas.ll_setStringValue(addr, casFeatCode_name, v);}
+    
+  
+ 
+  /** @generated */
+  final Feature casFeat_ontologyId;
+  /** @generated */
+  final int     casFeatCode_ontologyId;
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @return the feature value 
+   */ 
+  public String getOntologyId(int addr) {
+        if (featOkTst && casFeat_ontologyId == null)
+      jcas.throwFeatMissing("ontologyId", "neuroner.NeuroNER.Layer");
+    return ll_cas.ll_getStringValue(addr, casFeatCode_ontologyId);
+  }
+  /** @generated
+   * @param addr low level Feature Structure reference
+   * @param v value to set 
+   */    
+  public void setOntologyId(int addr, String v) {
+        if (featOkTst && casFeat_ontologyId == null)
+      jcas.throwFeatMissing("ontologyId", "neuroner.NeuroNER.Layer");
+    ll_cas.ll_setStringValue(addr, casFeatCode_ontologyId, v);}
+    
+  
+
+
+
   /** initialize variables to correspond with Cas Type and Features
 	 * @generated
 	 * @param jcas JCas
@@ -53,6 +106,14 @@ public class Layer_Type extends NeuronProperty_Type {
   public Layer_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
+
+ 
+    casFeat_name = jcas.getRequiredFeatureDE(casType, "name", "uima.cas.String", featOkTst);
+    casFeatCode_name  = (null == casFeat_name) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_name).getCode();
+
+ 
+    casFeat_ontologyId = jcas.getRequiredFeatureDE(casType, "ontologyId", "uima.cas.String", featOkTst);
+    casFeatCode_ontologyId  = (null == casFeat_ontologyId) ? JCas.INVALID_FEATURE_CODE : ((FeatureImpl)casFeat_ontologyId).getCode();
 
   }
 }

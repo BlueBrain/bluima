@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue May 13 16:25:02 CEST 2014 */
+/* First created by JCasGen Fri May 01 09:47:27 CEST 2015 */
 package neuroner.NeuroNER;
 
 import org.apache.uima.jcas.JCas;
@@ -12,9 +12,9 @@ import org.apache.uima.cas.Type;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** Type defined in neuroner.NeuroNER
- * Updated by JCasGen Tue May 13 16:26:11 CEST 2014
+ * Updated by JCasGen Fri May 01 14:09:39 CEST 2015
  * @generated */
-public class NeuronWithProperties_Type extends Annotation_Type {
+public class PostNeuron_Type extends Annotation_Type {
   /** @generated 
    * @return the generator for this type
    */
@@ -24,25 +24,25 @@ public class NeuronWithProperties_Type extends Annotation_Type {
   private final FSGenerator fsGenerator = 
     new FSGenerator() {
       public FeatureStructure createFS(int addr, CASImpl cas) {
-  			 if (NeuronWithProperties_Type.this.useExistingInstance) {
+  			 if (PostNeuron_Type.this.useExistingInstance) {
   			   // Return eq fs instance if already created
-  		     FeatureStructure fs = NeuronWithProperties_Type.this.jcas.getJfsFromCaddr(addr);
+  		     FeatureStructure fs = PostNeuron_Type.this.jcas.getJfsFromCaddr(addr);
   		     if (null == fs) {
-  		       fs = new NeuronWithProperties(addr, NeuronWithProperties_Type.this);
-  			   NeuronWithProperties_Type.this.jcas.putJfsFromCaddr(addr, fs);
+  		       fs = new PostNeuron(addr, PostNeuron_Type.this);
+  			   PostNeuron_Type.this.jcas.putJfsFromCaddr(addr, fs);
   			   return fs;
   		     }
   		     return fs;
-        } else return new NeuronWithProperties(addr, NeuronWithProperties_Type.this);
+        } else return new PostNeuron(addr, PostNeuron_Type.this);
   	  }
     };
   /** @generated */
   @SuppressWarnings ("hiding")
-  public final static int typeIndexID = NeuronWithProperties.typeIndexID;
+  public final static int typeIndexID = PostNeuron.typeIndexID;
   /** @generated 
      @modifiable */
   @SuppressWarnings ("hiding")
-  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("neuroner.NeuroNER.NeuronWithProperties");
+  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("neuroner.NeuroNER.PostNeuron");
 
 
 
@@ -51,7 +51,7 @@ public class NeuronWithProperties_Type extends Annotation_Type {
 	 * @param jcas JCas
 	 * @param casType Type 
 	 */
-  public NeuronWithProperties_Type(JCas jcas, Type casType) {
+  public PostNeuron_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 

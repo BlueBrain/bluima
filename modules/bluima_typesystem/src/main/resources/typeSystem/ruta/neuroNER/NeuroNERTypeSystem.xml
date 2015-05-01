@@ -6,7 +6,7 @@
     </imports>
     <types>
         <typeDescription>
-            <name>neuroner.NeuroNER.Neuron</name>
+            <name>neuroner.NeuroNER.NeuronTrigger</name>
             <description>Type defined in neuroner.NeuroNER</description>
             <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>
@@ -14,16 +14,6 @@
             <name>neuroner.NeuroNER.NeuronProperty</name>
             <description>Type defined in neuroner.NeuroNER</description>
             <supertypeName>uima.tcas.Annotation</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>neuroner.NeuroNER.Developmental</name>
-            <description>Type defined in neuroner.NeuroNER</description>
-            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>neuroner.NeuroNER.Species</name>
-            <description>Type defined in neuroner.NeuroNER</description>
-            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
         </typeDescription>
         <typeDescription>
             <name>neuroner.NeuroNER.Function</name>
@@ -46,12 +36,85 @@
             <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>
         <typeDescription>
+            <name>neuroner.NeuroNER.Developmental</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>name</name>
+                    <description>name</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>ontologyId</name>
+                    <description>ontologyId</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.NeurotransmitterProp</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>name</name>
+                    <description>name</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>ontologyId</name>
+                    <description>ontologyId</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.Layer</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>name</name>
+                    <description>name</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>ontologyId</name>
+                    <description>ontologyId</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.Species</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>name</name>
+                    <description>name</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>ontologyId</name>
+                    <description>ontologyId</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
+        </typeDescription>
+        <typeDescription>
             <name>neuroner.NeuroNER.Orientation</name>
             <description>Type defined in neuroner.NeuroNER</description>
             <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
         </typeDescription>
         <typeDescription>
             <name>neuroner.NeuroNER.Size</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.Electrophysiology</name>
             <description>Type defined in neuroner.NeuroNER</description>
             <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
         </typeDescription>
@@ -66,22 +129,17 @@
             <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>neuroner.NeuroNER.NeurotransmitterProp</name>
+            <name>neuroner.NeuroNER.Neuron</name>
             <description>Type defined in neuroner.NeuroNER</description>
-            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>neuroner.NeuroNER.Layer</name>
+            <name>neuroner.NeuroNER.PreNeuron</name>
             <description>Type defined in neuroner.NeuroNER</description>
-            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>neuroner.NeuroNER.Electrophysiology</name>
-            <description>Type defined in neuroner.NeuroNER</description>
-            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>neuroner.NeuroNER.NeuronWithProperties</name>
+            <name>neuroner.NeuroNER.PostNeuron</name>
             <description>Type defined in neuroner.NeuroNER</description>
             <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>
@@ -96,7 +154,7 @@
             <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>neuroner.NeuroNER.Neuron</name>
+            <name>neuroner.NeuroNER.NeuronTrigger</name>
             <description>Type defined in neuroner.NeuroNER</description>
             <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>
@@ -104,16 +162,6 @@
             <name>neuroner.NeuroNER.NeuronProperty</name>
             <description>Type defined in neuroner.NeuroNER</description>
             <supertypeName>uima.tcas.Annotation</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>neuroner.NeuroNER.Developmental</name>
-            <description>Type defined in neuroner.NeuroNER</description>
-            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>neuroner.NeuroNER.Species</name>
-            <description>Type defined in neuroner.NeuroNER</description>
-            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
         </typeDescription>
         <typeDescription>
             <name>neuroner.NeuroNER.Function</name>
@@ -136,12 +184,85 @@
             <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>
         <typeDescription>
+            <name>neuroner.NeuroNER.Developmental</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>name</name>
+                    <description>name</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>ontologyId</name>
+                    <description>ontologyId</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.NeurotransmitterProp</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>name</name>
+                    <description>name</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>ontologyId</name>
+                    <description>ontologyId</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.Layer</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>name</name>
+                    <description>name</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>ontologyId</name>
+                    <description>ontologyId</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.Species</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>name</name>
+                    <description>name</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+                <featureDescription>
+                    <name>ontologyId</name>
+                    <description>ontologyId</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
+        </typeDescription>
+        <typeDescription>
             <name>neuroner.NeuroNER.Orientation</name>
             <description>Type defined in neuroner.NeuroNER</description>
             <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
         </typeDescription>
         <typeDescription>
             <name>neuroner.NeuroNER.Size</name>
+            <description>Type defined in neuroner.NeuroNER</description>
+            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+        </typeDescription>
+        <typeDescription>
+            <name>neuroner.NeuroNER.Electrophysiology</name>
             <description>Type defined in neuroner.NeuroNER</description>
             <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
         </typeDescription>
@@ -156,22 +277,17 @@
             <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>neuroner.NeuroNER.NeurotransmitterProp</name>
+            <name>neuroner.NeuroNER.Neuron</name>
             <description>Type defined in neuroner.NeuroNER</description>
-            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>neuroner.NeuroNER.Layer</name>
+            <name>neuroner.NeuroNER.PreNeuron</name>
             <description>Type defined in neuroner.NeuroNER</description>
-            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
+            <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>
         <typeDescription>
-            <name>neuroner.NeuroNER.Electrophysiology</name>
-            <description>Type defined in neuroner.NeuroNER</description>
-            <supertypeName>neuroner.NeuroNER.NeuronProperty</supertypeName>
-        </typeDescription>
-        <typeDescription>
-            <name>neuroner.NeuroNER.NeuronWithProperties</name>
+            <name>neuroner.NeuroNER.PostNeuron</name>
             <description>Type defined in neuroner.NeuroNER</description>
             <supertypeName>uima.tcas.Annotation</supertypeName>
         </typeDescription>

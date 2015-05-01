@@ -1,24 +1,25 @@
 
 
-/* First created by JCasGen Tue May 13 16:25:02 CEST 2014 */
+/* First created by JCasGen Fri May 01 09:47:27 CEST 2015 */
 package neuroner.NeuroNER;
 
 import org.apache.uima.jcas.JCas; 
 import org.apache.uima.jcas.JCasRegistry;
 import org.apache.uima.jcas.cas.TOP_Type;
 
+import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** Type defined in neuroner.NeuroNER
  * Updated by JCasGen Fri May 01 14:09:39 CEST 2015
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/ruta/neuroNER/NeuroNERTypeSystem.xml
  * @generated */
-public class Electrophysiology extends NeuronProperty {
+public class PreNeuron extends Annotation {
   /** @generated
    * @ordered 
    */
   @SuppressWarnings ("hiding")
-  public final static int typeIndexID = JCasRegistry.register(Electrophysiology.class);
+  public final static int typeIndexID = JCasRegistry.register(PreNeuron.class);
   /** @generated
    * @ordered 
    */
@@ -32,14 +33,14 @@ public class Electrophysiology extends NeuronProperty {
  
   /** Never called.  Disable default constructor
    * @generated */
-  protected Electrophysiology() {/* intentionally empty block */}
+  protected PreNeuron() {/* intentionally empty block */}
     
   /** Internal - constructor used by generator 
    * @generated
    * @param addr low level Feature Structure reference
    * @param type the type of this Feature Structure 
    */
-  public Electrophysiology(int addr, TOP_Type type) {
+  public PreNeuron(int addr, TOP_Type type) {
     super(addr, type);
     readObject();
   }
@@ -47,7 +48,7 @@ public class Electrophysiology extends NeuronProperty {
   /** @generated
    * @param jcas JCas to which this Feature Structure belongs 
    */
-  public Electrophysiology(JCas jcas) {
+  public PreNeuron(JCas jcas) {
     super(jcas);
     readObject();   
   } 
@@ -57,7 +58,7 @@ public class Electrophysiology extends NeuronProperty {
    * @param begin offset to the begin spot in the SofA
    * @param end offset to the end spot in the SofA 
   */  
-  public Electrophysiology(JCas jcas, int begin, int end) {
+  public PreNeuron(JCas jcas, int begin, int end) {
     super(jcas);
     setBegin(begin);
     setEnd(end);

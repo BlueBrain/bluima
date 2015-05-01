@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** Type defined in neuroner.NeuroNER
- * Updated by JCasGen Tue May 13 16:26:11 CEST 2014
+ * Updated by JCasGen Fri May 01 14:09:39 CEST 2015
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/ruta/neuroNER/NeuroNERTypeSystem.xml
  * @generated */
 public class Layer extends NeuronProperty {
@@ -73,6 +73,48 @@ public class Layer extends NeuronProperty {
    */
   private void readObject() {/*default - does nothing empty block */}
      
-}
+  //*--------------*
+  //* Feature: name
+
+  /** getter for name - gets name
+   * @generated
+   * @return value of the feature 
+   */
+  public String getName() {
+    if (Layer_Type.featOkTst && ((Layer_Type)jcasType).casFeat_name == null)
+      jcasType.jcas.throwFeatMissing("name", "neuroner.NeuroNER.Layer");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((Layer_Type)jcasType).casFeatCode_name);}
+    
+  /** setter for name - sets name 
+   * @generated
+   * @param v value to set into the feature 
+   */
+  public void setName(String v) {
+    if (Layer_Type.featOkTst && ((Layer_Type)jcasType).casFeat_name == null)
+      jcasType.jcas.throwFeatMissing("name", "neuroner.NeuroNER.Layer");
+    jcasType.ll_cas.ll_setStringValue(addr, ((Layer_Type)jcasType).casFeatCode_name, v);}    
+   
+    
+  //*--------------*
+  //* Feature: ontologyId
+
+  /** getter for ontologyId - gets ontologyId
+   * @generated
+   * @return value of the feature 
+   */
+  public String getOntologyId() {
+    if (Layer_Type.featOkTst && ((Layer_Type)jcasType).casFeat_ontologyId == null)
+      jcasType.jcas.throwFeatMissing("ontologyId", "neuroner.NeuroNER.Layer");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((Layer_Type)jcasType).casFeatCode_ontologyId);}
+    
+  /** setter for ontologyId - sets ontologyId 
+   * @generated
+   * @param v value to set into the feature 
+   */
+  public void setOntologyId(String v) {
+    if (Layer_Type.featOkTst && ((Layer_Type)jcasType).casFeat_ontologyId == null)
+      jcasType.jcas.throwFeatMissing("ontologyId", "neuroner.NeuroNER.Layer");
+    jcasType.ll_cas.ll_setStringValue(addr, ((Layer_Type)jcasType).casFeatCode_ontologyId, v);}    
+  }
 
     

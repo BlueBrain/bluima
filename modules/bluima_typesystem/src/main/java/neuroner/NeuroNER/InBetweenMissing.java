@@ -11,7 +11,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** Type defined in neuroner.NeuroNER
- * Updated by JCasGen Mon Aug 18 21:23:44 CEST 2014
+ * Updated by JCasGen Fri May 01 14:09:39 CEST 2015
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/ruta/neuroNER/NeuroNERTypeSystem.xml
  * @generated */
 public class InBetweenMissing extends Annotation {

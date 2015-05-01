@@ -12,7 +12,7 @@ import org.apache.uima.cas.Type;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** Type defined in neuroner.NeuroNER
- * Updated by JCasGen Mon Aug 18 21:23:44 CEST 2014
+ * Updated by JCasGen Fri May 01 14:09:39 CEST 2015
  * @generated */
 public class InBetweenMissing_Type extends Annotation_Type {
   /** @generated 

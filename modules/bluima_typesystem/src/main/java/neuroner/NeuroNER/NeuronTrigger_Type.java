@@ -1,5 +1,5 @@
 
-/* First created by JCasGen Tue May 13 16:25:02 CEST 2014 */
+/* First created by JCasGen Fri May 01 09:47:27 CEST 2015 */
 package neuroner.NeuroNER;
 
 import org.apache.uima.jcas.JCas;
@@ -9,11 +9,12 @@ import org.apache.uima.cas.impl.FSGenerator;
 import org.apache.uima.cas.FeatureStructure;
 import org.apache.uima.cas.impl.TypeImpl;
 import org.apache.uima.cas.Type;
+import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** Type defined in neuroner.NeuroNER
  * Updated by JCasGen Fri May 01 14:09:39 CEST 2015
  * @generated */
-public class Size_Type extends NeuronProperty_Type {
+public class NeuronTrigger_Type extends Annotation_Type {
   /** @generated 
    * @return the generator for this type
    */
@@ -23,25 +24,25 @@ public class Size_Type extends NeuronProperty_Type {
   private final FSGenerator fsGenerator = 
     new FSGenerator() {
       public FeatureStructure createFS(int addr, CASImpl cas) {
-  			 if (Size_Type.this.useExistingInstance) {
+  			 if (NeuronTrigger_Type.this.useExistingInstance) {
   			   // Return eq fs instance if already created
-  		     FeatureStructure fs = Size_Type.this.jcas.getJfsFromCaddr(addr);
+  		     FeatureStructure fs = NeuronTrigger_Type.this.jcas.getJfsFromCaddr(addr);
   		     if (null == fs) {
-  		       fs = new Size(addr, Size_Type.this);
-  			   Size_Type.this.jcas.putJfsFromCaddr(addr, fs);
+  		       fs = new NeuronTrigger(addr, NeuronTrigger_Type.this);
+  			   NeuronTrigger_Type.this.jcas.putJfsFromCaddr(addr, fs);
   			   return fs;
   		     }
   		     return fs;
-        } else return new Size(addr, Size_Type.this);
+        } else return new NeuronTrigger(addr, NeuronTrigger_Type.this);
   	  }
     };
   /** @generated */
   @SuppressWarnings ("hiding")
-  public final static int typeIndexID = Size.typeIndexID;
+  public final static int typeIndexID = NeuronTrigger.typeIndexID;
   /** @generated 
      @modifiable */
   @SuppressWarnings ("hiding")
-  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("neuroner.NeuroNER.Size");
+  public final static boolean featOkTst = JCasRegistry.getFeatOkTst("neuroner.NeuroNER.NeuronTrigger");
 
 
 
@@ -50,7 +51,7 @@ public class Size_Type extends NeuronProperty_Type {
 	 * @param jcas JCas
 	 * @param casType Type 
 	 */
-  public Size_Type(JCas jcas, Type casType) {
+  public NeuronTrigger_Type(JCas jcas, Type casType) {
     super(jcas, casType);
     casImpl.getFSClassRegistry().addGeneratorForType((TypeImpl)this.casType, getFSGenerator());
 

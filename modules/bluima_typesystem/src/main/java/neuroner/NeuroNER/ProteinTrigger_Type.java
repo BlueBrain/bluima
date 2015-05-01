@@ -12,7 +12,7 @@ import org.apache.uima.cas.Type;
 import org.apache.uima.jcas.tcas.Annotation_Type;
 
 /** Type defined in neuroner.NeuroNER
- * Updated by JCasGen Tue May 13 16:26:11 CEST 2014
+ * Updated by JCasGen Fri May 01 14:09:39 CEST 2015
  * @generated */
 public class ProteinTrigger_Type extends Annotation_Type {
   /** @generated 

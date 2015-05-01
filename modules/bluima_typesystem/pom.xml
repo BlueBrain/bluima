@@ -60,6 +60,7 @@
               <limitToProject>true</limitToProject>
               <typeSystemIncludes>
                 <include>src/main/resources/desc/type/**/*.xml</include>
+                <include>src/main/resources/typeSystem/ruta/neuroNER/NeuroNERTypeSystem.xml</include>
               </typeSystemIncludes>
               <outputDirectory>src/main/java/</outputDirectory>
             </configuration>
