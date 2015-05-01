@@ -1,0 +1,40 @@
+############################################
+# based on 20150501_neuroNER_scale.pipeline
+#
+# $ 1 batch id
+#
+############################################
+
+cr: FromFilelistReader
+ # 250 pdfs each
+ inputFile: /nfs4/bbp.epfl.ch/scratch/richarde/pdfs/splits2/$1
+ format__java: true
+ pathPrefix: /nfs4/bbp.epfl.ch/scratch/richarde/pdfs/
+ae: ch.epfl.bbp.uima.pdf.cr.PdfCollectionAnnotator
+ expandAbbrevs__java: true
+
+# neuroNER fails otherwise
+threads: 1
+ae: /nfs4/bbp.epfl.ch/user/richarde/dev/bluebrain/bluima_20150501/pipelines/projects/extract_neurons/20150501_6th_scaleout/neuroNER/descriptor/neuroner/NeuroNEREngine.xml
+
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: neuroner.NeuroNER.Neuron
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: neuroner.NeuroNER.NeuronProperty
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+
+ae: ch.epfl.bbp.uima.elasticsearch.NeuronIndexer
+ indexName: neuroner_20150504_ft
+ clusterName: elasticsearch_neuroner
+ host: 128.178.51.50
+ onlyIndexNeurons__java: true
+ flushEvery__java: 10
+
+// print Missings
+ae: AnnotationTypeWriter2
+ annotationClass: neuroner.NeuroNER.Missing
+ outputFile: /nfs4/bbp.epfl.ch/simulation/nlp/data/20150504_neuroner_6th_scaleout_missings_ft/$1_Missings.tsv
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 1

@@ -15,7 +15,7 @@ import java.util.List;
 
 import neuroner.NeuroNER.Neuron;
 import neuroner.NeuroNER.NeuronProperty;
-import neuroner.NeuroNER.NeuronWithProperties;
+import neuroner.NeuroNER.NeuronTrigger;
 
 import org.apache.uima.jcas.JCas;
 import org.junit.Ignore;
@@ -31,8 +31,8 @@ public class NeuronWriterTest {
         setDocId(jCas, 17);
 
         createAnnot(jCas, NeuronProperty.class, 10, 19, "pyramidal");
-        createAnnot(jCas, Neuron.class, 20, 26, "neuron");
-        createAnnot(jCas, NeuronWithProperties.class, 10, 26,
+        createAnnot(jCas, NeuronTrigger.class, 20, 26, "neuron");
+        createAnnot(jCas, Neuron.class, 10, 26,
                 "pyramidal neuron");
 
         // alone, should not get printed
@@ -40,8 +40,8 @@ public class NeuronWriterTest {
 
         createAnnot(jCas, NeuronProperty.class, 55, 60, "large");
         createAnnot(jCas, NeuronProperty.class, 61, 65, "glia");
-        createAnnot(jCas, Neuron.class, 66, 70, "cell");
-        createAnnot(jCas, NeuronWithProperties.class, 55, 70, "large glia cell");
+        createAnnot(jCas, NeuronTrigger.class, 66, 70, "cell");
+        createAnnot(jCas, Neuron.class, 55, 70, "large glia cell");
 
         String tmp = new File("target/NeuronWriterTest_" + currentTimeMillis()
                 + ".tsv").getAbsolutePath();

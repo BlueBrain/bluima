@@ -22,7 +22,7 @@ import neuroner.NeuroNER.Missing;
 import neuroner.NeuroNER.Morphology;
 import neuroner.NeuroNER.Neuron;
 import neuroner.NeuroNER.NeuronProperty;
-import neuroner.NeuroNER.NeuronWithProperties;
+import neuroner.NeuroNER.Neuron;
 
 import org.apache.uima.jcas.JCas;
 import org.elasticsearch.action.search.SearchResponse;
@@ -64,7 +64,7 @@ public class NeuronIndexerTest {
         createAnnot(jCas, BrainRegionProp.class, 13, 32, "prefrontal cortical");
         createAnnot(jCas, Morphology.class, 33, 42, "pyramidal");
         createAnnot(jCas, Neuron.class, 43, 50, "neurons");
-        createAnnot(jCas, NeuronWithProperties.class, 5, 50,
+        createAnnot(jCas, Neuron.class, 5, 50,
                 "layer V prefrontal cortical pyramidal neurons");
 
         JcasPipelineBuilder builder = new JcasPipelineBuilder(jCas);
@@ -106,7 +106,7 @@ public class NeuronIndexerTest {
         createAnnot(jCas, Layer.class, 5, 12, "layer 3");
         createAnnot(jCas, BrainRegionProp.class, 13, 17, "glia");
         createAnnot(jCas, Neuron.class, 18, 25, "neurons");
-        createAnnot(jCas, NeuronWithProperties.class, 5, 25,
+        createAnnot(jCas, Neuron.class, 5, 25,
                 "layer 3 glia neurons");
 
         JcasPipelineBuilder builder = new JcasPipelineBuilder(jCas);
@@ -136,7 +136,7 @@ public class NeuronIndexerTest {
 
         builder.add(createEngineDescriptionFromPath("/Users/richarde/dev/bluebrain/git/neuroNER/descriptor/neuroner/NeuroNEREngine.xml"));
         builder.add(KeepLargestAnnotationAnnotator.class,
-                PARAM_ANNOTATION_CLASS, NeuronWithProperties.class.getName());
+                PARAM_ANNOTATION_CLASS, Neuron.class.getName());
         builder.add(KeepLargestAnnotationAnnotator.class,
                 PARAM_ANNOTATION_CLASS, NeuronProperty.class.getName());
 
