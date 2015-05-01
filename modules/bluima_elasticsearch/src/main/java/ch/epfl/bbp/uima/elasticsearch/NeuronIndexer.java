@@ -14,7 +14,7 @@ import java.util.Map;
 
 import neuroner.NeuroNER.Neuron;
 import neuroner.NeuroNER.NeuronProperty;
-import neuroner.NeuroNER.NeuronWithProperties;
+import neuroner.NeuroNER.NeuronTrigger;
 
 import org.apache.lucene.document.Field;
 import org.apache.uima.cas.text.AnnotationFS;
@@ -35,7 +35,7 @@ public class NeuronIndexer extends ElasticIndexer {
     // Lucene field definitions
     /** {@link Field} name for the whole ({@link Sentence} */
     public static final String FIELD_SENTENCE_TEXT = "sentence_text";
-    /** {@link Field} name for the whole neuron ({@link NeuronWithProperties} */
+    /** {@link Field} name for the whole neuron ({@link Neuron} */
     public static final String FIELD_NEURON_TEXT = "neuron_text";
     /** {@link Field} name for the neuron type ({@link NeuronProperty} class) */
     public static final String FIELD_NEURON_TYPE = "neuron_type";
@@ -61,18 +61,18 @@ public class NeuronIndexer extends ElasticIndexer {
 
         try {
             // UIMA CAS indexes so that we build them once for all sentences.
-            Map<AnnotationFS, Collection<AnnotationFS>> idxNeuronWithProperties = indexCovered(
+            Map<AnnotationFS, Collection<AnnotationFS>> idxNeuron = indexCovered(
                     jCas.getCas(), //
                     getType(jCas, Sentence.class),
-                    getType(jCas, NeuronWithProperties.class));
+                    getType(jCas, Neuron.class));
             Map<AnnotationFS, Collection<AnnotationFS>> idxNeuronProperties = indexCovered(
                     jCas.getCas(), //
-                    getType(jCas, NeuronWithProperties.class),
+                    getType(jCas, Neuron.class),
                     getType(jCas, NeuronProperty.class));
             Map<AnnotationFS, Collection<AnnotationFS>> idxNeurons = indexCovered(
                     jCas.getCas(), //
-                    getType(jCas, NeuronWithProperties.class),
-                    getType(jCas, Neuron.class));
+                    getType(jCas, Neuron.class),
+                    getType(jCas, NeuronTrigger.class));
 
             for (Sentence s : select(jCas, Sentence.class)) {
 
@@ -85,8 +85,8 @@ public class NeuronIndexer extends ElasticIndexer {
 
                 doc.startArray("neuron");
 
-                for (AnnotationFS nwp_ : idxNeuronWithProperties.get(s)) {
-                    NeuronWithProperties nwp = (NeuronWithProperties) nwp_;
+                for (AnnotationFS nwp_ : idxNeuron.get(s)) {
+                    Neuron nwp = (Neuron) nwp_;
                     doc.startObject();
                     doc.field(FIELD_NEURON_TEXT, nwp.getCoveredText());
                     doc.field(FIELD_START, nwp.getBegin() - sentenceStart);
@@ -95,7 +95,7 @@ public class NeuronIndexer extends ElasticIndexer {
                     // properties
                     doc.startArray("neuron_properties");
                     // neuron(trigger), handle as it were a property
-                    Neuron n = ((Neuron) (idxNeurons.get(nwp).iterator().next()));
+                    NeuronTrigger n = ((NeuronTrigger) (idxNeurons.get(nwp).iterator().next()));
                     doc.startObject();
                     doc.field(FIELD_NEURON_TYPE, n.getType().getShortName()
                             .replaceAll("Prop$", ""));
@@ -129,7 +129,7 @@ public class NeuronIndexer extends ElasticIndexer {
                 LOG.trace(doc.string());
 
                 // write out sentences that contain a neuron
-                if (!idxNeuronWithProperties.get(s).isEmpty()) {
+                if (!idxNeuron.get(s).isEmpty()) {
                     // FIXME
                 }
             }

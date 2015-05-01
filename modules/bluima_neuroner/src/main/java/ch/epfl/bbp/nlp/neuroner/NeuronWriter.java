@@ -18,7 +18,7 @@ import java.util.Map.Entry;
 
 import neuroner.NeuroNER.Neuron;
 import neuroner.NeuroNER.NeuronProperty;
-import neuroner.NeuroNER.NeuronWithProperties;
+import neuroner.NeuroNER.Neuron;
 
 import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
@@ -71,15 +71,15 @@ public class NeuronWriter extends JCasAnnotator_ImplBase {
             Map<AnnotationFS, Collection<AnnotationFS>> idxSentences = indexCovered(
                     jCas.getCas(), //
                     getType(jCas, Sentence.class),
-                    getType(jCas, NeuronWithProperties.class));
+                    getType(jCas, Neuron.class));
 
             Map<AnnotationFS, Collection<AnnotationFS>> idxProperties = indexCovered(
                     jCas.getCas(), //
-                    getType(jCas, NeuronWithProperties.class),
+                    getType(jCas, Neuron.class),
                     getType(jCas, NeuronProperty.class));
             Map<AnnotationFS, Collection<AnnotationFS>> idxNeurons = indexCovered(
                     jCas.getCas(), //
-                    getType(jCas, NeuronWithProperties.class),
+                    getType(jCas, Neuron.class),
                     getType(jCas, Neuron.class));
 
             for (Entry<AnnotationFS, Collection<AnnotationFS>> sentence_nwp : idxSentences
@@ -89,7 +89,7 @@ public class NeuronWriter extends JCasAnnotator_ImplBase {
                 Sentence s = (Sentence) sentence_nwp.getKey();
 
                 for (AnnotationFS nwp_ : sentence_nwp.getValue()) {
-                    NeuronWithProperties nwp = (NeuronWithProperties) nwp_;
+                    Neuron nwp = (Neuron) nwp_;
 
                     // properties
                     for (AnnotationFS np : idxProperties.get(nwp)) {

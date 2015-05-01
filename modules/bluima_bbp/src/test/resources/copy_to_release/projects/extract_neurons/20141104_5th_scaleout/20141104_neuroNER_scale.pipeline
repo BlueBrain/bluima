@@ -6,7 +6,7 @@ threads: 1
 ae: /Users/richarde/git2/neuroNER/descriptor/neuroner/NeuroNEREngine.xml
 
 ae: KeepLargestAnnotationAnnotator
- annotationClass: neuroner.NeuroNER.NeuronWithProperties
+ annotationClass: neuroner.NeuroNER.Neuron
 ae: KeepLargestAnnotationAnnotator
  annotationClass: neuroner.NeuroNER.NeuronProperty
 
