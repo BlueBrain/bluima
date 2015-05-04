@@ -83,6 +83,7 @@ public class JcasPipelineBuilder implements PipelineBuilder {
         SimplePipeline.runPipeline(jCas, engines);
         if (close) {
             for (AnalysisEngine engine : engines) {
+            	engine.collectionProcessComplete();
                 engine.destroy();
             }
         }
