@@ -41,6 +41,7 @@ import org.apache.uima.cas.Type;
 import org.apache.uima.cas.TypeSystem;
 import org.apache.uima.cas.text.AnnotationFS;
 import org.apache.uima.fit.component.CasAnnotator_ImplBase;
+import org.apache.uima.fit.descriptor.ConfigurationParameter;
 import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.util.Level;
@@ -66,6 +67,9 @@ public class RegExAnnotator extends CasAnnotator_ImplBase {
  public static final String PATH_SEPARATOR = System.getProperty("path.separator");
 
  private Logger logger;
+
+ @ConfigurationParameter(name = REGEX_CONCEPTS_FILES)
+ private String[] conceptFileNames;
 
  private Concept[] regexConcepts;
 
@@ -93,11 +97,6 @@ public class RegExAnnotator extends CasAnnotator_ImplBase {
 
    // create a concept file parser object
    ConceptFileParser parser = new ConceptFileParser_impl();
-
-   // get configuration parameter settings
-   // get parameter ConceptFiles, default is an empty array
-   String[] conceptFileNames = safeGetConfigParameterStringArrayValue(getContext(),
-       REGEX_CONCEPTS_FILES, new String[] {});
 
    // get UIMA datapath and tokenize it into its elements
    StringTokenizer tokenizer = new StringTokenizer(getContext().getDataPath(), PATH_SEPARATOR);
@@ -172,22 +171,6 @@ public class RegExAnnotator extends CasAnnotator_ImplBase {
    for (int i = 0; i < this.regexConcepts.length; i++) {
      ((Concept_impl) this.regexConcepts[i]).initialize(this.logger);
    }
- }
-
- /**
-  * @param context
-  * @param param
-  * @param defaultValue
-  * @return returns the boolean parameter value
-  * @throws AnnotatorContextException
-  */
- private static String[] safeGetConfigParameterStringArrayValue(UimaContext context, String param,
-     String[] defaultValue) {
-   String[] array = (String[]) context.getConfigParameterValue(param);
-   if (array != null && array.length > 0) {
-     return array;
-   }
-   return defaultValue;
  }
 
  private static final boolean containsWildcardChar(String filename) {
