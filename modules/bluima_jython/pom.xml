@@ -2,12 +2,12 @@
 	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
 	<modelVersion>4.0.0</modelVersion>
 
-	<parent>
-		<groupId>ch.epfl.bbp.nlp</groupId>
-		<artifactId>bluima_parent</artifactId>
-		<version>1.0.0</version>
-		<relativePath>../../pom.xml</relativePath>
-	</parent>
+  <parent>
+    <groupId>ch.epfl.bbp.nlp</groupId>
+    <artifactId>bluima_module</artifactId>
+    <version>1.0.1</version>
+    <relativePath>../pom.xml</relativePath>
+  </parent>
 
 	<artifactId>bluima_jython</artifactId>
 	<name>Bluima Jython support (Python in Java)</name>

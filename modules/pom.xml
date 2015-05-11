@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <parent>
+        <groupId>ch.epfl.bbp.nlp</groupId>
+        <artifactId>bluima_parent</artifactId>
+        <version>1.0.1</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+
+    <artifactId>bluima_module</artifactId>
+    <packaging>pom</packaging>
+    <name>Bluima Modules POM</name>
+    <description>Modules POM for bluima project, including common dependencies and repositories</description>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <uimaDependencyVersion>2.4</uimaDependencyVersion>
+        <maven.compiler.source>1.7</maven.compiler.source>
+        <maven.compiler.target>1.7</maven.compiler.target>
+        <scala.version>2.10.4</scala.version>
+        <scala.main.version>2.10</scala.main.version>
+        <jetty.maven.version>7.1.6.v20100715</jetty.maven.version>
+        <jersey.version>1.7</jersey.version>
+        <jackson.version>1.7.7</jackson.version>
+        <slf4j.version>1.6.5</slf4j.version>
+    </properties>
+
+    <modules>
+        <module>bluima_utils</module>
+        <module>bluima_xml</module>
+        <module>bluima_scripting</module>
+        <module>bluima_jython</module>
+        <module>bluima_db</module>
+        <module>bluima_units</module>
+        <module>bluima_lexica</module>
+        <module>bluima_commons</module>
+        <module>bluima_opennlp</module>
+        <module>bluima_banner</module>
+        <module>bluima_oscar4</module>
+        <module>bluima_fusion</module>
+        <module>bluima_topic_models</module>
+        <module>bluima_abbreviations</module>
+        <module>bluima_corpora</module>
+        <module>bluima_pubmed_ws</module>
+        <module>bluima_pdf</module>
+        <module>bluima_mongodb</module>
+        <module>bluima_elasticsearch</module>
+        <module>bluima_regions</module>
+        <module>bluima_jsre</module>
+        <module>bluima_text2pmid</module>
+        <module>bluima_references_classifier</module>
+        <module>bluima_protein_concentrations</module>
+        <module>bluima_neuroner</module>
+        <module>bluima_bbp</module>
+    </modules>
+
+    <!-- DEPENDENCIES SHARED AMONG ALL MODULES -->
+    <dependencies>
+
+        <!-- COMMON UTILS -->
+        <dependency>
+            <artifactId>bluima_typesystem</artifactId>
+            <groupId>${project.groupId}</groupId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <artifactId>blue_commons</artifactId>
+            <groupId>${project.groupId}</groupId>
+            <version>${project.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava</artifactId>
+            <version>18.0</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-math3</artifactId>
+            <version>3.0</version>
+        </dependency>
+
+        <!-- UIMA -->
+        <dependency>
+            <groupId>org.apache.uima</groupId>
+            <artifactId>ruta-core</artifactId>
+            <version>${ruta.version}</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.uima</groupId>
+            <artifactId>RegularExpressionAnnotator</artifactId>
+            <version>2.3.2-BBP</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.uima</groupId>
+            <artifactId>SnowballAnnotator</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.apache.uima</groupId>
+            <artifactId>ConceptMapper</artifactId>
+            <version>2.3.1</version>
+        </dependency>
+
+        <!-- LOGGING -->
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>jcl-over-slf4j</artifactId>
+            <version>1.6.5</version>
+        </dependency>
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.0.6</version>
+        </dependency>
+        <dependency>
+            <groupId>org.slf4j</groupId>
+            <artifactId>slf4j-api</artifactId>
+            <version>1.6.5</version>
+        </dependency>
+
+        <!-- TESTING -->
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>${junit.version}</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <repositories>
+        <repository>
+            <id>ren_googlecode</id>
+            <url>https://ren-maven-repo.googlecode.com/git/snapshots/</url>
+        </repository>
+        <repository>
+            <name>Github personal repo (renaudr)</name>
+            <id>renaudr</id>
+            <url>https://github.com/renaud/maven_repo/raw/master/snapshots</url>
+        </repository>
+        <repository>
+            <name>Github personal repo (renaudr)</name>
+            <id>renaudr2</id>
+            <url>https://raw.github.com/renaud/maven_repo/master/snapshots</url>
+        </repository>
+        <repository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>central</id>
+            <name>Maven Repository Switchboard</name>
+            <url>http://repo1.maven.org/maven2</url>
+        </repository>
+        <repository>
+            <id>apache snapshots</id>
+            <url>http://people.apache.org/repo/m2-snapshot-repository/</url>
+        </repository>
+        <repository>
+            <id>apache snapshots2</id>
+            <url>http://repository.apache.org/snapshots/</url>
+        </repository>
+        <repository>
+            <id>ApacheIncubatorRepository</id>
+            <url>http://people.apache.org/repo/m2-incubating-repository/</url>
+        </repository>
+        <repository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <id>JBoss</id>
+            <name>jboss-maven2-release-repository</name>
+            <url>https://oss.sonatype.org/content/repositories/JBoss</url>
+        </repository>
+        <repository>
+            <snapshots>
+                <enabled>false</enabled>
+            </snapshots>
+            <name>Old OpenNLP repo</name>
+            <id>old-opennlp</id>
+            <url>http://opennlp.sourceforge.net/maven2/</url>
+        </repository>
+        <repository>
+            <id>com.springsource.repository.bundles.release</id>
+            <name>SpringSource Enterprise Bundle Repository - SpringSource Bundle Releases</name>
+            <url>http://repository.springsource.com/maven/bundles/release</url>
+        </repository>
+        <repository>
+            <id>com.springsource.repository.bundles.external</id>
+            <name>SpringSource Enterprise Bundle Repository - External Bundle Releases</name>
+            <url>http://repository.springsource.com/maven/bundles/external</url>
+        </repository>
+        <repository>
+            <id>cleartk-googlecode</id>
+            <name>ClearTK Google Code repository</name>
+            <url>http://cleartk.googlecode.com/svn/repo/</url>
+        </repository>
+        <repository>
+            <id>scala-tools.org</id>
+            <name>Scala-Tools Maven2 Repository</name>
+            <url>http://nexus.scala-tools.org/content/repositories/releases</url>
+        </repository>
+    </repositories>
+    <pluginRepositories>
+        <pluginRepository>
+            <name>Github personal repo (renaudr)</name>
+            <id>renaudr</id>
+            <url>https://github.com/renaud/maven_repo/raw/master/snapshots</url>
+            <releases>
+                <enabled>true</enabled>
+                <updatePolicy>always</updatePolicy>
+                <checksumPolicy>warn</checksumPolicy>
+            </releases>
+        </pluginRepository>
+    </pluginRepositories>
+
+    <profiles>
+        <profile>
+            <id>appassembler_release</id>
+            <build>
+                <plugins>
+                    <!-- copy resources -->
+                    <plugin>
+                        <artifactId>maven-resources-plugin</artifactId>
+                        <version>2.5</version>
+                        <executions>
+                            <execution>
+                                <id>duplicate-resources-to-appassembler_release</id>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>copy-resources</goal>
+                                </goals>
+                                <configuration>
+                                    <encoding>UTF-8</encoding>
+                                    <outputDirectory>${appassembler.resources}/modules/${project.artifactId}/src/main/resources</outputDirectory>
+                                    <resources>
+                                        <resource>
+                                            <directory>src/main/resources</directory>
+                                        </resource>
+                                    </resources>
+                                </configuration>
+                            </execution>
+
+                            <!-- needed by lexica... TODO move to resources folder -->
+                            <execution>
+                                <id>duplicate-resources-to-appassembler_release2_TODO</id>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>copy-resources</goal>
+                                </goals>
+                                <configuration>
+                                    <encoding>UTF-8</encoding>
+                                    <outputDirectory>${appassembler.resources}/modules/${project.artifactId}/desc</outputDirectory>
+                                    <resources>
+                                        <resource>
+                                            <directory>desc</directory>
+                                        </resource>
+                                    </resources>
+                                </configuration>
+                            </execution>
+                            <!-- COPY STATIC MODULE RESOURCES (that don't belong to the jar) -->
+                            <execution>
+                                <id>duplicate-resources-to-appassembler_release3_TODO</id>
+                                <phase>install</phase>
+                                <goals>
+                                    <goal>copy-resources</goal>
+                                </goals>
+                                <configuration>
+                                    <encoding>UTF-8</encoding>
+                                    <outputDirectory>${appassembler.resources}/modules/${project.artifactId}/resources</outputDirectory>
+                                    <resources>
+                                        <resource>
+                                            <directory>resources</directory>
+                                        </resource>
+                                    </resources>
+                                </configuration>
+                            </execution>
+                        </executions>
+                    </plugin>
+                </plugins>
+            </build>
+        </profile>
+    </profiles>
+</project>
