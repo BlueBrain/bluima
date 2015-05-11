@@ -5,7 +5,7 @@
 
     <groupId>ch.epfl.bbp.nlp</groupId>
     <artifactId>bluima_parent</artifactId>
-    <version>1.0.1</version>
+    <version>1.0.2-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Bluima Parent POM with release info</name>
     <description>Parent POM for bluima project with release info, but no dependency</description>
