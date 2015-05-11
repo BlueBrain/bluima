@@ -2,7 +2,6 @@
 (A) remove FIXME
 (A) set artifact versions in parent pom only
 (B) retire ResourceHelper
-(B) should build without (pubmed) db
 (C) check TODOs in code
 (C) merge some modules, e.g. Viterbi into utils, etc
 (C) remove Deprecated classes
@@ -11,6 +10,7 @@
 (C) rename copy_to_release folder to pipelines
 
 
+x (B) should build without (pubmed) db
 x (C) drop javatools
 x (C) remove sysout calls
 x (Z) gimli models are VERY large 1.5GB

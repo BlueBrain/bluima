@@ -5,7 +5,7 @@
 
     <groupId>ch.epfl.bbp.nlp</groupId>
     <artifactId>bluima_parent</artifactId>
-    <version>0.1</version>
+    <version>1.0.0</version>
     <packaging>pom</packaging>
     <name>Bluima Parent POM</name>
     <description>Parent POM for bluima project, including common dependencies and repositories</description>
@@ -47,8 +47,30 @@
             <name>Erick Michael Cobos Tandazo</name>
             <email>erick.cobos@epfl.ch</email>
         </developer>
+        <developer>
+            <name>Marco Antognini</name>
+            <email>marco.antognini@epfl.ch</email>
+        </developer>
     </developers>
+    <licenses>
+        <license>
+            <name>The Apache Software License, Version 2.0</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0.txt</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
 
+
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>7</version>
+    </parent>
+    <scm>
+        <connection>scm:git:git@github.com:BlueBrain/bluima</connection>
+        <developerConnection>scm:git:git@github.com:BlueBrain/bluima</developerConnection>
+        <url>http://github.com/BlueBrain/bluima</url>
+    </scm>
     <distributionManagement>
         <snapshotRepository>
             <id>ossrh</id>
@@ -74,12 +96,13 @@
     </properties>
 
     <modules>
-        <!-- utils: do not depend on parent nor UIMA -->
+        <!-- utils and typesystem: do not depend on parent nor UIMA -->
         <module>utils/blue_commons</module>
         <module>utils/pdf_glyph_mapping</module>
         <module>utils/mallet_utils</module>
-
         <module>modules/bluima_typesystem</module>
+
+        <!-- modules: depend on this parent -->
         <module>modules/bluima_utils</module>
         <module>modules/bluima_xml</module>
         <module>modules/bluima_scripting</module>
@@ -105,7 +128,6 @@
         <module>modules/bluima_references_classifier</module>
         <module>modules/bluima_protein_concentrations</module>
         <!-- <module>modules/bluima_rabbit</module> -->
-
         <module>modules/bluima_neuroner</module>
 
         <module>modules/bluima_bbp</module>
@@ -488,6 +510,7 @@
                             <serverId>ossrh</serverId>
                             <nexusUrl>https://oss.sonatype.org/</nexusUrl>
                             <autoReleaseAfterClose>true</autoReleaseAfterClose>
+                            <stagingProfileId>864df237df1ef3</stagingProfileId>
                         </configuration>
                     </plugin>
                     <!--GPG for Nexus -->

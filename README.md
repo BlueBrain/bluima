@@ -4,6 +4,11 @@ Bluima:: UIMA components at BlueBrain
 [![Build Status](https://travis-ci.org/BlueBrain/bluima.svg?branch=master)](https://travis-ci.org/BlueBrain/bluima)
 
 
+### About
+
+Bluima is a natural language processing (NLP) pipeline focusing on the extraction of neuroscientific content and based on the [UIMA framework](http://uima.apache.org/). Bluima builds upon models from biomedical NLP (BioNLP) like specialized tokenizers and lemmatizers. It adds further models and tools specific to neuroscience (e.g. named entity recognizer for neuron or brain region mentions) and provides collection readers for neuroscientific corpora.
+
+
 ### Papers
 
 * Richardet, Renaud, Jean-Cédric Chappelier, and Martin Telefont.
@@ -14,7 +19,7 @@ Bluima:: UIMA components at BlueBrain
 
 ### Dependencies
 
-* Java JDK 6 or higher (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
+* Java JDK 7 or higher (http://www.oracle.com/technetwork/java/javase/downloads/index.html)
 * Maven 3			   (http://maven.apache.org/download.html#Installation)
 
 
@@ -60,7 +65,7 @@ If gpg signing is not setup and you simply want to skip it then you can add `-Dg
     > cd modules/bluima
     > sh release.sh
 
-The release can be deployed on any computer with a JRE (e.g. cluster).
+The release includes all dependencies can be deployed on any computer with a JRE (e.g. cluster).
 
 
 ### Conventions (over configuration)

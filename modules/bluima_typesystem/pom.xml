@@ -3,7 +3,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <groupId>ch.epfl.bbp.nlp</groupId>
-  <version>0.1</version>
+  <version>1.0.0</version>
   <artifactId>bluima_typesystem</artifactId>
   <name>Bluima Typesystem</name>
   <description>Typesystem, based on julielab's Typesystem</description>
@@ -13,6 +13,12 @@
     <uima.version>2.6.0</uima.version>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
+
+  <parent>
+    <groupId>org.sonatype.oss</groupId>
+    <artifactId>oss-parent</artifactId>
+    <version>7</version>
+  </parent>
 
   <build>
     <plugins>
@@ -41,7 +47,7 @@
     <dependency>
       <groupId>junit</groupId>
       <artifactId>junit</artifactId>
-      <version>4.11</version>
+      <version>4.12</version>
       <scope>test</scope>
     </dependency>
   </dependencies>

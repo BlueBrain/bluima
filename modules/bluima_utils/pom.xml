@@ -5,7 +5,7 @@
   <parent>
     <groupId>ch.epfl.bbp.nlp</groupId>
     <artifactId>bluima_parent</artifactId>
-    <version>0.1</version>
+    <version>1.0.0</version>
     <relativePath>../../pom.xml</relativePath>
   </parent>
 
@@ -16,7 +16,6 @@
 
   <dependencies>
     <!-- SHOULD NOT ADD DEPS HERE, AS ALL bluima MODULES USE THIS -->
-    <!-- SHOULD NOT ADD DEPS HERE, AS ALL bluima MODULES USE THIS -->    
     <dependency>
       <groupId>org.apache.xmlbeans</groupId>
       <artifactId>xmlbeans</artifactId>
