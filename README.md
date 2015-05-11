@@ -67,6 +67,8 @@ If gpg signing is not setup and you simply want to skip it then you can add `-Dg
 
 The release includes all dependencies can be deployed on any computer with a JRE (e.g. cluster).
 
+To release to nexus: `mvnt clean deploy  -Dgpg.passphrase="si......" -P release`
+
 
 ### Conventions (over configuration)
 

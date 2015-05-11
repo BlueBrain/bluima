@@ -1,42 +1,42 @@
 <project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
-  xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
-  <modelVersion>4.0.0</modelVersion>
+	xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+	<modelVersion>4.0.0</modelVersion>
 
-  <parent>
-    <groupId>ch.epfl.bbp.nlp</groupId>
-    <artifactId>bluima_parent</artifactId>
-    <version>1.0.0</version>
-    <relativePath>../../pom.xml</relativePath>
-  </parent>
+	<parent>
+		<groupId>ch.epfl.bbp.nlp</groupId>
+		<artifactId>bluima_module</artifactId>
+		<version>1.0.1</version>
+		<relativePath>../pom.xml</relativePath>
+	</parent>
 
-  <artifactId>bluima_oscar4</artifactId>
-  <name>Oscar Chemical NER</name>
+	<artifactId>bluima_oscar4</artifactId>
+	<name>Oscar Chemical NER</name>
 
-  <dependencies>
-    <dependency>
-      <artifactId>bluima_utils</artifactId>
-      <groupId>${project.groupId}</groupId>
-      <version>${project.version}</version>
-    </dependency>
-    <dependency>
-      <groupId>uk.ac.cam.ch.wwmm.oscar</groupId>
-      <artifactId>oscar4-api</artifactId>
-      <version>4.1</version>
-      <exclusions>
-        <exclusion>
-          <groupId>org.slf4j</groupId>
-          <artifactId>slf4j-simple</artifactId>
-        </exclusion>
-      </exclusions>
-    </dependency>
-  </dependencies>
+	<dependencies>
+		<dependency>
+			<artifactId>bluima_utils</artifactId>
+			<groupId>${project.groupId}</groupId>
+			<version>${project.version}</version>
+		</dependency>
+		<dependency>
+			<groupId>uk.ac.cam.ch.wwmm.oscar</groupId>
+			<artifactId>oscar4-api</artifactId>
+			<version>4.1</version>
+			<exclusions>
+				<exclusion>
+					<groupId>org.slf4j</groupId>
+					<artifactId>slf4j-simple</artifactId>
+				</exclusion>
+			</exclusions>
+		</dependency>
+	</dependencies>
 
-  <repositories>
-    <repository>
-      <name>OSCAR repo</name>
-      <id>ucc-repo</id>
-      <url>http://maven.ch.cam.ac.uk/m2repo</url>
-    </repository>
-  </repositories>
+	<repositories>
+		<repository>
+			<name>OSCAR repo</name>
+			<id>ucc-repo</id>
+			<url>http://maven.ch.cam.ac.uk/m2repo</url>
+		</repository>
+	</repositories>
 
 </project>

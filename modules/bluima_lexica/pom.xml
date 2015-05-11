@@ -4,9 +4,9 @@
 
   <parent>
     <groupId>ch.epfl.bbp.nlp</groupId>
-    <artifactId>bluima_parent</artifactId>
-    <version>1.0.0</version>
-    <relativePath>../../pom.xml</relativePath>
+    <artifactId>bluima_module</artifactId>
+    <version>1.0.1</version>
+    <relativePath>../pom.xml</relativePath>
   </parent>
 
   <artifactId>bluima_lexica</artifactId>
