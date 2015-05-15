@@ -24,6 +24,7 @@ import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 
+import ch.epfl.bbp.TestWithBluimaResource;
 import ch.epfl.bbp.uima.ae.MeasureRegexAnnotators;
 import ch.epfl.bbp.uima.ae.SentenceAnnotator;
 import ch.epfl.bbp.uima.ae.TokenAnnotator;
@@ -48,7 +49,7 @@ import de.julielab.jules.types.Token;
  * @author renaud.richardet@epfl.ch
  * @author joelle.portmann@epfl.ch
  */
-public class MeasureRegexAnnotatorTest {
+public class MeasureRegexAnnotatorTest extends TestWithBluimaResource {
     private static Logger LOG = getLogger(MeasureRegexAnnotatorTest.class);
 
     @Test
@@ -152,12 +153,6 @@ public class MeasureRegexAnnotatorTest {
 
     @Test
     public void testWithXmlTestsuite() throws Exception {
-
-        String BLUIMA_RESOURCE_DIR = System.getProperty("BLUIMA_RESOURCE_DIR");
-
-        assertNotNull("BLUIMA_RESOURCE_DIR system property is not set",
-                BLUIMA_RESOURCE_DIR);
-
         String sentenceModel = BLUIMA_RESOURCE_DIR
                 + "/opennlp/sentence/SentDetectGenia.bin.gz";
         String tokenModel = BLUIMA_RESOURCE_DIR

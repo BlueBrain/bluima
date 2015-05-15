@@ -6,7 +6,6 @@ import static ch.epfl.bbp.uima.testutils.UimaTests.getTestCas;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.util.JCasUtil.select;
-import static org.junit.Assert.assertNotNull;
 
 import java.io.InputStream;
 import java.util.Collection;
@@ -16,21 +15,12 @@ import org.apache.uima.analysis_engine.AnalysisEngine;
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
-import org.junit.BeforeClass;
 import org.junit.Test;
 
+import ch.epfl.bbp.TestWithBluimaResource;
 import ch.epfl.bbp.uima.types.LinnaeusSpecies;
 
-public class LinnaeusAnnotatorTest {
-
-    static private String BLUIMA_RESOURCE_DIR = System
-            .getProperty("BLUIMA_RESOURCE_DIR");
-
-    @BeforeClass
-    public static void setup() {
-        assertNotNull("BLUIMA_RESOURCE_DIR system property is not set",
-                BLUIMA_RESOURCE_DIR);
-    }
+public class LinnaeusAnnotatorTest extends TestWithBluimaResource {
 
     static AnalysisEngineDescription createLinnaeusEngineDescription()
             throws ResourceInitializationException {

@@ -12,7 +12,6 @@ import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDesc
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
 import static org.apache.uima.fit.util.JCasUtil.select;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
 import static org.slf4j.LoggerFactory.getLogger;
 
 import java.io.File;
@@ -27,12 +26,12 @@ import org.apache.uima.UIMAException;
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
-import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 
 import cc.mallet.fst.CRF;
+import ch.epfl.bbp.TestWithBluimaResource;
 import ch.epfl.bbp.uima.types.BrainRegion;
 import ch.epfl.bbp.uima.types.Measure;
 import ch.epfl.bbp.uima.typesystem.To;
@@ -40,16 +39,7 @@ import ch.epfl.bbp.uima.typesystem.To;
 /**
  * @author renaud.richardet@epfl.ch
  */
-public class BrainRegionAnnotatorTest {
-
-    static private String BLUIMA_RESOURCE_DIR = System
-            .getProperty("BLUIMA_RESOURCE_DIR");
-
-    @BeforeClass
-    public static void setup() {
-        assertNotNull("BLUIMA_RESOURCE_DIR system property is not set",
-                BLUIMA_RESOURCE_DIR);
-    }
+public class BrainRegionAnnotatorTest extends TestWithBluimaResource {
 
     private static Logger LOG = getLogger(BrainRegionAnnotatorTest.class);
 
