@@ -1,5 +1,6 @@
 package ch.epfl.bbp.uima.ae;
 
+import static ch.epfl.bbp.uima.BlueUima.PARAM_CONFIG_FILE;
 import static ch.epfl.bbp.uima.typesystem.TypeSystem.LINNAEUS_SPECIES;
 import static com.google.common.base.Preconditions.checkArgument;
 import static java.util.logging.Level.WARNING;
@@ -42,9 +43,7 @@ public class LinnaeusAnnotator extends JCasAnnotator_ImplBase {
     private Matcher matcher;
     private Logger logger = Logger.getLogger(Logger.GLOBAL_LOGGER_NAME);
 
-    // TODO for consistency it should be PARAM_MODEL_FILE, no?
-    public static final String CONFIG_FILE = "CONFIG_FILE";
-    @ConfigurationParameter(name = CONFIG_FILE, mandatory = true)
+    @ConfigurationParameter(name = PARAM_CONFIG_FILE, mandatory = true)
     private String configFile;
 
     @Override

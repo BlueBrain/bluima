@@ -1,5 +1,6 @@
 package ch.epfl.bbp.uima.ae;
 
+import static ch.epfl.bbp.uima.BlueUima.PARAM_CONFIG_FILE;
 import static ch.epfl.bbp.uima.testutils.UimaTests.assertResultsContains;
 import static ch.epfl.bbp.uima.testutils.UimaTests.getTestCas;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngine;
@@ -35,14 +36,13 @@ public class LinnaeusAnnotatorTest {
             throws ResourceInitializationException {
         String config = BLUIMA_RESOURCE_DIR + "/linnaeus/properties.conf";
         return createEngineDescription(LinnaeusAnnotator.class,
-                LinnaeusAnnotator.CONFIG_FILE, config);
+                PARAM_CONFIG_FILE, config);
     }
 
     static AnalysisEngine createLinnaeusEngine()
             throws ResourceInitializationException {
         String config = BLUIMA_RESOURCE_DIR + "/linnaeus/properties.conf";
-        return createEngine(LinnaeusAnnotator.class,
-                LinnaeusAnnotator.CONFIG_FILE, config);
+        return createEngine(LinnaeusAnnotator.class, PARAM_CONFIG_FILE, config);
     }
 
     @Test

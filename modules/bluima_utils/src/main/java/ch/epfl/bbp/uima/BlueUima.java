@@ -34,6 +34,7 @@ public final class BlueUima {
     public static final String PARAM_ENCLOSING_SCOPE = "enclosingScope";
     public static final String PARAM_COOCCURRENCE_TYPE = "cooccurrenceType";
 
+    public static final String PARAM_CONFIG_FILE = "configFile";
     public static final String PARAM_MODEL_FILE = "modelFile";
     public static final String PARAM_MODEL = "model";
 

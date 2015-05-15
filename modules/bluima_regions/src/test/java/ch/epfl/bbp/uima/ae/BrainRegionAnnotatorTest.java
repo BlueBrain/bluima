@@ -1,6 +1,7 @@
 package ch.epfl.bbp.uima.ae;
 
 import static ch.epfl.bbp.uima.BlueUima.PARAM_ANNOTATION_CLASS;
+import static ch.epfl.bbp.uima.BlueUima.PARAM_CONFIG_FILE;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL_FILE;
 import static ch.epfl.bbp.uima.BrainRegionsHelper.TEST_BASE;
 import static ch.epfl.bbp.uima.ae.PosTagAnnotator.PARAM_TAG_DICT;
@@ -32,7 +33,6 @@ import org.junit.Test;
 import org.slf4j.Logger;
 
 import cc.mallet.fst.CRF;
-import ch.epfl.bbp.uima.BlueUima;
 import ch.epfl.bbp.uima.types.BrainRegion;
 import ch.epfl.bbp.uima.types.Measure;
 import ch.epfl.bbp.uima.typesystem.To;
@@ -120,14 +120,14 @@ public class BrainRegionAnnotatorTest {
         String modelFile = BLUIMA_RESOURCE_DIR
                 + "/opennlp/sentence/SentDetectPennBio.bin.gz";
         return createEngineDescription(SentenceAnnotator.class,
-                BlueUima.PARAM_MODEL_FILE, modelFile);
+                PARAM_MODEL_FILE, modelFile);
     }
 
     private static AnalysisEngineDescription createLinnaeusEngineDescription()
             throws ResourceInitializationException {
         String config = BLUIMA_RESOURCE_DIR + "/linnaeus/properties.conf";
         return createEngineDescription(LinnaeusAnnotator.class,
-                LinnaeusAnnotator.CONFIG_FILE, config);
+                PARAM_CONFIG_FILE, config);
     }
 
     private static void infer(String txt, int expectedBrCnt,
