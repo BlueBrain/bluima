@@ -18,7 +18,6 @@ import java.util.Map.Entry;
 
 import neuroner.NeuroNER.Neuron;
 import neuroner.NeuroNER.NeuronProperty;
-import neuroner.NeuroNER.Neuron;
 
 import org.apache.uima.UimaContext;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
