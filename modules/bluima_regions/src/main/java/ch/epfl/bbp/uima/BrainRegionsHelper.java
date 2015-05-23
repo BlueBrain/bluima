@@ -13,16 +13,23 @@ import org.apache.uima.ruta.engine.RutaEngine;
 
 /**
  * @author renaud.richardet@epfl.ch
+ * 
+ *         TODO this class should be removed, the resources used by this package
+ *         should all be moved to bluima_resources and tests should be updated
+ *         to reflect those changes.
  */
 @Deprecated(/* Use annotators directly instead */)
 public class BrainRegionsHelper {
 
+    @Deprecated
     public static final String BRAIN_REGIONS_HOME = BLUE_UIMA_ROOT
             + "modules/bluima_regions/";
 
+    @Deprecated
     public static final String LEXICON_HOME = BRAIN_REGIONS_HOME
             + RESOURCES_PATH + "lexicons/";
 
+    @Deprecated
     public static final String TEST_BASE = BRAIN_REGIONS_HOME
             + "src/test/resources/";
 
