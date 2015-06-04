@@ -68,7 +68,7 @@ public class ReferencesClassifierAnnotatorTest {
             }
 
             double ratio = tp / total;
-            if (!(ratio > 0.9 && ratio <= 1)) {
+            if (!(ratio > 0.85 && ratio <= 1)) {
                 throw new Exception("tp ratio " + ratio + " too low: " + tp
                         + " out of total " + total);
             } else {

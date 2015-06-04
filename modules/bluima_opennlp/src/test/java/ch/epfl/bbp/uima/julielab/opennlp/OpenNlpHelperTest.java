@@ -4,7 +4,6 @@ import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL_FILE;
 import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDescription;
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
 
 import java.util.Collection;
 import java.util.Iterator;
@@ -16,10 +15,10 @@ import org.apache.uima.fit.pipeline.SimplePipeline;
 import org.apache.uima.fit.util.JCasUtil;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
-import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
 
+import ch.epfl.bbp.TestWithBluimaResource;
 import ch.epfl.bbp.shaded.opennlp.tools.util.Pair;
 import ch.epfl.bbp.uima.ae.OpenNlpHelper;
 import ch.epfl.bbp.uima.ae.TokenAnnotator;
@@ -30,16 +29,7 @@ import de.julielab.jules.types.POSTag;
 import de.julielab.jules.types.Sentence;
 import de.julielab.jules.types.Token;
 
-public class OpenNlpHelperTest {
-
-    static private String BLUIMA_RESOURCE_DIR = System
-            .getProperty("BLUIMA_RESOURCE_DIR");
-
-    @BeforeClass
-    public static void setup() {
-        assertNotNull("BLUIMA_RESOURCE_DIR system property is not set",
-                BLUIMA_RESOURCE_DIR);
-    }
+public class OpenNlpHelperTest extends TestWithBluimaResource {
 
     private static AnalysisEngineDescription createTokenizerEngineDescription()
             throws ResourceInitializationException {

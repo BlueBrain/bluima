@@ -20,6 +20,7 @@
 
     <modules>
         <!-- utils and typesystem: do not depend on UIMA -->
+        <module>utils/bluima_test_helper</module>
         <module>utils/blue_commons</module>
         <module>utils/pdf_glyph_mapping</module>
         <module>utils/mallet_utils</module>

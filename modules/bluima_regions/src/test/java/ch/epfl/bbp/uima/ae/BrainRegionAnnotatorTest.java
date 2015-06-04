@@ -1,6 +1,7 @@
 package ch.epfl.bbp.uima.ae;
 
 import static ch.epfl.bbp.uima.BlueUima.PARAM_ANNOTATION_CLASS;
+import static ch.epfl.bbp.uima.BlueUima.PARAM_CONFIG_FILE;
 import static ch.epfl.bbp.uima.BlueUima.PARAM_MODEL_FILE;
 import static ch.epfl.bbp.uima.BrainRegionsHelper.TEST_BASE;
 import static ch.epfl.bbp.uima.ae.PosTagAnnotator.PARAM_TAG_DICT;
@@ -11,7 +12,6 @@ import static org.apache.uima.fit.factory.AnalysisEngineFactory.createEngineDesc
 import static org.apache.uima.fit.pipeline.SimplePipeline.runPipeline;
 import static org.apache.uima.fit.util.JCasUtil.select;
 import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertNotNull;
 import static org.slf4j.LoggerFactory.getLogger;
 
 import java.io.File;
@@ -26,13 +26,12 @@ import org.apache.uima.UIMAException;
 import org.apache.uima.analysis_engine.AnalysisEngineDescription;
 import org.apache.uima.jcas.JCas;
 import org.apache.uima.resource.ResourceInitializationException;
-import org.junit.BeforeClass;
 import org.junit.Ignore;
 import org.junit.Test;
 import org.slf4j.Logger;
 
 import cc.mallet.fst.CRF;
-import ch.epfl.bbp.uima.BlueUima;
+import ch.epfl.bbp.TestWithBluimaResource;
 import ch.epfl.bbp.uima.types.BrainRegion;
 import ch.epfl.bbp.uima.types.Measure;
 import ch.epfl.bbp.uima.typesystem.To;
@@ -40,16 +39,7 @@ import ch.epfl.bbp.uima.typesystem.To;
 /**
  * @author renaud.richardet@epfl.ch
  */
-public class BrainRegionAnnotatorTest {
-
-    static private String BLUIMA_RESOURCE_DIR = System
-            .getProperty("BLUIMA_RESOURCE_DIR");
-
-    @BeforeClass
-    public static void setup() {
-        assertNotNull("BLUIMA_RESOURCE_DIR system property is not set",
-                BLUIMA_RESOURCE_DIR);
-    }
+public class BrainRegionAnnotatorTest extends TestWithBluimaResource {
 
     private static Logger LOG = getLogger(BrainRegionAnnotatorTest.class);
 
@@ -120,14 +110,14 @@ public class BrainRegionAnnotatorTest {
         String modelFile = BLUIMA_RESOURCE_DIR
                 + "/opennlp/sentence/SentDetectPennBio.bin.gz";
         return createEngineDescription(SentenceAnnotator.class,
-                BlueUima.PARAM_MODEL_FILE, modelFile);
+                PARAM_MODEL_FILE, modelFile);
     }
 
     private static AnalysisEngineDescription createLinnaeusEngineDescription()
             throws ResourceInitializationException {
         String config = BLUIMA_RESOURCE_DIR + "/linnaeus/properties.conf";
         return createEngineDescription(LinnaeusAnnotator.class,
-                LinnaeusAnnotator.CONFIG_FILE, config);
+                PARAM_CONFIG_FILE, config);
     }
 
     private static void infer(String txt, int expectedBrCnt,
