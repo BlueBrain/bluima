@@ -11,7 +11,6 @@ import java.util.Collection;
 import org.apache.uima.analysis_engine.AnalysisEngineProcessException;
 import org.apache.uima.fit.component.JCasAnnotator_ImplBase;
 import org.apache.uima.jcas.JCas;
-import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -24,8 +23,7 @@ import de.julielab.jules.types.Abbreviation;
 public class AbbreviationExpanderScript extends JCasAnnotator_ImplBase {
     Logger LOG = LoggerFactory.getLogger(AbbreviationExpanderScript.class);
 
-    @Test
-    public void test() throws Exception {
+    public static void main(String[] args) throws Exception {
 
         runPipeline(
                 createReaderDescription(SingleFileReader.class,

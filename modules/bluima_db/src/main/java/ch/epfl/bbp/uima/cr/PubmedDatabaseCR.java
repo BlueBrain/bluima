@@ -14,6 +14,7 @@ import org.apache.uima.collection.CollectionException;
 import org.apache.uima.fit.component.JCasCollectionReader_ImplBase;
 import org.apache.uima.fit.descriptor.ConfigurationParameter;
 import org.apache.uima.jcas.JCas;
+import org.apache.uima.jcas.cas.FSArray;
 import org.apache.uima.resource.ResourceInitializationException;
 import org.apache.uima.util.Progress;
 import org.slf4j.Logger;
@@ -21,6 +22,7 @@ import org.slf4j.LoggerFactory;
 
 import ch.epfl.bbp.uima.AbbreviationExpander;
 import ch.epfl.bbp.uima.db.utils.Database;
+import de.julielab.jules.types.AuthorInfo;
 import de.julielab.jules.types.pubmed.Header;
 
 /**
@@ -44,7 +46,7 @@ public class PubmedDatabaseCR extends JCasCollectionReader_ImplBase {
     private boolean skipEmptyDocs;
 
     @ConfigurationParameter(name = PARAM_DB_CONNECTION, mandatory = false,//
-    defaultValue = { "128.178.187.160", "bb_pubmed", "bemyguest", "" },//
+    defaultValue = { "128.178.51.90", "bb_pubmed", "bemyguest", "" },//
     // defaultValue = { "127.0.0.1", "bb_pubmed", "root", "" },//
     // warning: somehow "localhost" does not work...
     description = "host, dbname, user, pw")
@@ -75,8 +77,21 @@ public class PubmedDatabaseCR extends JCasCollectionReader_ImplBase {
                 db_connection_[2], db_connection_[3]);
     }
 
+    /*-
+    `pubmed_id` int(11) NOT NULL,
+    `abstrct` longtext,
+    `authors_raw` varchar(255) DEFAULT NULL,
+    `journal_raw` varchar(255) DEFAULT NULL,
+    `meshs_raw` varchar(255) DEFAULT NULL,
+    `published_date` varchar(255) DEFAULT NULL,
+    `title` varchar(511) NOT NULL DEFAULT '',
+    `doi` varchar(255) DEFAULT NULL,
+    `data_path` varchar(255) DEFAULT NULL,
+    `lang` varchar(15) DEFAULT NULL,
+     */
+
     private static String getSqlQuery(int[] between, boolean skipEmptyDocs) {
-        return "SELECT pubmed_id, title, abstrct FROM pubmed_abstracts "
+        return "SELECT pubmed_id, title, abstrct, authors_raw, published_date FROM pubmed_abstracts "
                 + ((between == null) ? "" : (" WHERE pubmed_id BETWEEN "
                         + between[0] + " AND " + between[1]))
                 + (skipEmptyDocs ? " AND abstrct IS NOT NULL" : "");
@@ -100,6 +115,34 @@ public class PubmedDatabaseCR extends JCasCollectionReader_ImplBase {
             Header h = new Header(jcas);
             h.setDocId(pmid + "");
             h.setTitle(title);
+            String authorsRaw = "";
+            try {
+                authorsRaw = res_.getString(4);
+                String[] authorsString = authorsRaw.split("__-__");
+                FSArray slots = new FSArray(jcas, authorsString.length);
+                for (int i = 0; i < authorsString.length; i++) {
+                    String authorStr = authorsString[i];
+                    String[] split = authorStr.split("___");
+                    String lastName = split[2], foreName = split[1];
+                    AuthorInfo ai = new AuthorInfo(jcas);
+                    ai.setForeName(foreName);
+                    ai.setLastName(lastName);
+                    slots.set(i, ai);
+                }
+                h.setAuthors(slots);
+            } catch (Exception e) {
+                LOG.debug("Failed to set authors {} for pmid {}", authorsRaw,
+                        pmid);
+            }
+
+            String publishDate = "";
+            try {
+                publishDate = res_.getString(5);
+                h.setCopyright(publishDate);
+            } catch (Exception e) {
+                LOG.debug("Failed to set publishDate {} for pmid {}",
+                        publishDate, pmid);
+            }
             h.addToIndexes();
 
             if (expandAbbrevs_) {
