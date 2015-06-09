@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** Type defined in neuroner.NeuroNER
- * Updated by JCasGen Fri May 01 14:09:39 CEST 2015
+ * Updated by JCasGen Tue Jun 09 19:55:09 CEST 2015
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/ruta/neuroNER/NeuroNERTypeSystem.xml
  * @generated */
 public class Function extends NeuronProperty {

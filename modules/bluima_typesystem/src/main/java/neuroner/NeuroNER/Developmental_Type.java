@@ -14,7 +14,7 @@ import org.apache.uima.cas.impl.FeatureImpl;
 import org.apache.uima.cas.Feature;
 
 /** Type defined in neuroner.NeuroNER
- * Updated by JCasGen Fri May 01 14:09:39 CEST 2015
+ * Updated by JCasGen Tue Jun 09 19:55:09 CEST 2015
  * @generated */
 public class Developmental_Type extends NeuronProperty_Type {
   /** @generated 

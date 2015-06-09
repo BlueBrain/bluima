@@ -14,6 +14,13 @@
             <name>neuroner.NeuroNER.NeuronProperty</name>
             <description>Type defined in neuroner.NeuroNER</description>
             <supertypeName>uima.tcas.Annotation</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>ontologyId</name>
+                    <description>ontologyId</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
         </typeDescription>
         <typeDescription>
             <name>neuroner.NeuroNER.Function</name>
@@ -79,11 +86,6 @@
                     <description>name</description>
                     <rangeTypeName>uima.cas.String</rangeTypeName>
                 </featureDescription>
-                <featureDescription>
-                    <name>ontologyId</name>
-                    <description>ontologyId</description>
-                    <rangeTypeName>uima.cas.String</rangeTypeName>
-                </featureDescription>
             </features>
         </typeDescription>
         <typeDescription>
@@ -94,11 +96,6 @@
                 <featureDescription>
                     <name>name</name>
                     <description>name</description>
-                    <rangeTypeName>uima.cas.String</rangeTypeName>
-                </featureDescription>
-                <featureDescription>
-                    <name>ontologyId</name>
-                    <description>ontologyId</description>
                     <rangeTypeName>uima.cas.String</rangeTypeName>
                 </featureDescription>
             </features>
@@ -162,6 +159,13 @@
             <name>neuroner.NeuroNER.NeuronProperty</name>
             <description>Type defined in neuroner.NeuroNER</description>
             <supertypeName>uima.tcas.Annotation</supertypeName>
+            <features>
+                <featureDescription>
+                    <name>ontologyId</name>
+                    <description>ontologyId</description>
+                    <rangeTypeName>uima.cas.String</rangeTypeName>
+                </featureDescription>
+            </features>
         </typeDescription>
         <typeDescription>
             <name>neuroner.NeuroNER.Function</name>
@@ -227,11 +231,6 @@
                     <description>name</description>
                     <rangeTypeName>uima.cas.String</rangeTypeName>
                 </featureDescription>
-                <featureDescription>
-                    <name>ontologyId</name>
-                    <description>ontologyId</description>
-                    <rangeTypeName>uima.cas.String</rangeTypeName>
-                </featureDescription>
             </features>
         </typeDescription>
         <typeDescription>
@@ -242,11 +241,6 @@
                 <featureDescription>
                     <name>name</name>
                     <description>name</description>
-                    <rangeTypeName>uima.cas.String</rangeTypeName>
-                </featureDescription>
-                <featureDescription>
-                    <name>ontologyId</name>
-                    <description>ontologyId</description>
                     <rangeTypeName>uima.cas.String</rangeTypeName>
                 </featureDescription>
             </features>

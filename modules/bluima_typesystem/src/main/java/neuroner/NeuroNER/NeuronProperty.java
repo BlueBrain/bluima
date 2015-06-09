@@ -11,7 +11,7 @@ import org.apache.uima.jcas.tcas.Annotation;
 
 
 /** Type defined in neuroner.NeuroNER
- * Updated by JCasGen Fri May 01 14:09:39 CEST 2015
+ * Updated by JCasGen Tue Jun 09 19:55:09 CEST 2015
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/ruta/neuroNER/NeuroNERTypeSystem.xml
  * @generated */
 public class NeuronProperty extends Annotation {
@@ -74,6 +74,26 @@ public class NeuronProperty extends Annotation {
    */
   private void readObject() {/*default - does nothing empty block */}
      
-}
+  //*--------------*
+  //* Feature: ontologyId
+
+  /** getter for ontologyId - gets ontologyId
+   * @generated
+   * @return value of the feature 
+   */
+  public String getOntologyId() {
+    if (NeuronProperty_Type.featOkTst && ((NeuronProperty_Type)jcasType).casFeat_ontologyId == null)
+      jcasType.jcas.throwFeatMissing("ontologyId", "neuroner.NeuroNER.NeuronProperty");
+    return jcasType.ll_cas.ll_getStringValue(addr, ((NeuronProperty_Type)jcasType).casFeatCode_ontologyId);}
+    
+  /** setter for ontologyId - sets ontologyId 
+   * @generated
+   * @param v value to set into the feature 
+   */
+  public void setOntologyId(String v) {
+    if (NeuronProperty_Type.featOkTst && ((NeuronProperty_Type)jcasType).casFeat_ontologyId == null)
+      jcasType.jcas.throwFeatMissing("ontologyId", "neuroner.NeuroNER.NeuronProperty");
+    jcasType.ll_cas.ll_setStringValue(addr, ((NeuronProperty_Type)jcasType).casFeatCode_ontologyId, v);}    
+  }
 
     

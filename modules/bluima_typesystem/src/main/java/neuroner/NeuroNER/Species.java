@@ -10,7 +10,7 @@ import org.apache.uima.jcas.cas.TOP_Type;
 
 
 /** Type defined in neuroner.NeuroNER
- * Updated by JCasGen Fri May 01 14:09:39 CEST 2015
+ * Updated by JCasGen Tue Jun 09 19:55:09 CEST 2015
  * XML source: /Users/richarde/dev/bluebrain/git/Bluima/modules/bluima_typesystem/src/main/resources/typeSystem/ruta/neuroNER/NeuroNERTypeSystem.xml
  * @generated */
 public class Species extends NeuronProperty {
@@ -93,28 +93,6 @@ public class Species extends NeuronProperty {
     if (Species_Type.featOkTst && ((Species_Type)jcasType).casFeat_name == null)
       jcasType.jcas.throwFeatMissing("name", "neuroner.NeuroNER.Species");
     jcasType.ll_cas.ll_setStringValue(addr, ((Species_Type)jcasType).casFeatCode_name, v);}    
-   
-    
-  //*--------------*
-  //* Feature: ontologyId
-
-  /** getter for ontologyId - gets ontologyId
-   * @generated
-   * @return value of the feature 
-   */
-  public String getOntologyId() {
-    if (Species_Type.featOkTst && ((Species_Type)jcasType).casFeat_ontologyId == null)
-      jcasType.jcas.throwFeatMissing("ontologyId", "neuroner.NeuroNER.Species");
-    return jcasType.ll_cas.ll_getStringValue(addr, ((Species_Type)jcasType).casFeatCode_ontologyId);}
-    
-  /** setter for ontologyId - sets ontologyId 
-   * @generated
-   * @param v value to set into the feature 
-   */
-  public void setOntologyId(String v) {
-    if (Species_Type.featOkTst && ((Species_Type)jcasType).casFeat_ontologyId == null)
-      jcasType.jcas.throwFeatMissing("ontologyId", "neuroner.NeuroNER.Species");
-    jcasType.ll_cas.ll_setStringValue(addr, ((Species_Type)jcasType).casFeatCode_ontologyId, v);}    
   }
 
     
