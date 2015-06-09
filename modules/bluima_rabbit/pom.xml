@@ -6,7 +6,7 @@
     <groupId>ch.epfl.bbp.nlp</groupId>
     <artifactId>bluima_module</artifactId>
     <version>1.0.1</version>
-    <relativePath>../pom.xml</relativePath>
+    <relativePath>../../pom.xml</relativePath>
   </parent>
 
   <artifactId>bluima_rabbit</artifactId>
@@ -27,7 +27,7 @@
     <dependency>
       <groupId>com.rabbitmq</groupId>
       <artifactId>amqp-client</artifactId>
-      <version>3.0.2</version>
+      <version>3.5.3</version>
     </dependency>
 
   </dependencies>
