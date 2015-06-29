@@ -1,0 +1,38 @@
+# $1 output file path
+# $2,3 from to
+
+
+cr: PubmedDatabaseCR
+ db_connection__java: new String[]{ "128.178.51.90", "bb_pubmed", "bemyguest", "" }
+ between__java: new int[]{ $2, $3 }
+ expandAbbrevs__java: true
+#cr: TextArrayReader
+# input__java: new String[]{"layer V and layer iii large pyramidal neurons.", "parvalbumin-positive fast-spiking basket cells, somatostatin-positive regular-spiking bipolar and multipolar cells, and cholecystokinin-positive irregular-spiking bipolar and multipolar cells) and projection neurons (thick-tufted layer 5 nonadapting pyramidal neurons and layer 6 adapting corticothalamic neurons"}
+#cr: OneDocPerLineReader2
+# inputFile: /Volumes/HDD2/ren_data/data_hdd/__mycorpora/1m_ns/1m_ns.abstracts.tsv
+
+// neuroNER fails otherwise
+threads: 1
+
+# /Volumes/HDD2/ren_data/dev_hdd/bluebrain/git2/neuroNER
+ae: /nfs4/bbp.epfl.ch/user/richarde/dev/bluebrain/bluima_20150610/pipelines/projects/extract_neurons/20150610_7th_scaleout/neuroNER/descriptor/neuroner/NeuroNEREngine.xml
+
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: neuroner.NeuroNER.Neuron
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: neuroner.NeuroNER.NeuronProperty
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+
+ae: ch.epfl.bbp.uima.elasticsearch.NeuronIndexer2
+ indexName: neuroner_20150610
+ clusterName: elasticsearch_neuroner
+ host: 128.178.51.90
+
+// print Missings
+ae: AnnotationTypeWriter2
+ annotationClass: neuroner.NeuroNER.Missing
+ outputFile: /nfs4/bbp.epfl.ch/simulation/nlp/data/20150610_neuroner_7th_scaleout_missings/$1_Missings.tsv
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

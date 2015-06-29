@@ -51,11 +51,13 @@ public class NeuronIndexer extends ElasticIndexer {
 	public static final String FIELD_PUBMED_ID = "pm_id";
 	/** {@link Field} name for end of an annotation */
 	public static final String FIELD_END = "end";
+	/** {@link Field} name for ontology id */
+	public static final String FIELD_ONTOLOGY_ID = "onto_id";
 
 	public static final String PARAM_ONLY_INDEX_SENTENCES_WITH_NEURONS = "onlyIndexNeurons";
 	@ConfigurationParameter(name = PARAM_ONLY_INDEX_SENTENCES_WITH_NEURONS, defaultValue = "false", //
 	mandatory = false, description = "whether to only index sentences that have neurons in it. else index all sentences.")
-	private boolean onlyIndexNeurons;
+	protected boolean onlyIndexNeurons;
 
 	/** Indexes neuron and properties at the sentence level. */
 	@Override
