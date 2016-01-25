@@ -1,0 +1,130 @@
+PACKAGE neuroner;
+
+RETAINTYPE(BREAK, SPACE); // BREAK so that two neurons on two different lines do not collide
+// SPACE needed to match lexical resources
+
+DECLARE Annotation NeuronProperty(STRING name, STRING ontologyId); // base class for properties 
+
+DECLARE NeuronTrigger;  // acts as a trigger
+MARKFAST(NeuronTrigger, 'bluima/neuroner/neuron_triggers.txt', true, 3);
+
+// DEVELOPMENTAL STAGES
+DECLARE NeuronProperty Developmental; 
+MARKTABLE(Developmental, 1, 'bluima/neuroner/hbp_developmental_ontology.csv', true, 2, "", 2, "ontologyId" = 2);
+
+// NEUROTRANSMITTER
+DECLARE NeuronProperty NeurotransmitterProp(STRING name, STRING ontologyId);
+MARKTABLE(NeurotransmitterProp, 1, 'bluima/neuroner/hbp_neurotransmitter_ontology.csv', true, 2, "", 2, "ontologyId" = 2);
+
+// LAYER
+DECLARE NeuronProperty Layer;
+MARKTABLE(Layer, 1, 'bluima/neuroner/hbp_layer_ontology.csv', true, 2, "", 2, "ontologyId" = 2);
+
+// MORPHOLOGY
+DECLARE NeuronProperty Morphology;
+MARKTABLE(Morphology, 1, 'bluima/neuroner/hbp_morphology_ontology.csv', true, 2, "", 2, "ontologyId" = 2);
+
+// SPECIES
+WORDTABLE speciesWt = 'bluima/neuroner/ncbi_species_top1000.csv';
+DECLARE NeuronProperty Species;
+MARKTABLE(Species, 1, speciesWt, true, 2, "", 0, "ontologyId" = 2);
+
+// ORIENTATION
+DECLARE NeuronProperty Orientation;
+"(?i)inverted|horizontal|descending|upper|lower" -> Orientation;
+
+// SIZE
+DECLARE NeuronProperty Size;
+"(?i)large|medium|small|narrow|giant" -> Size;
+
+// ELECTROPHYSIOLOGY
+DECLARE Annotation EphysTrigger(STRING name, STRING ontologyId);
+DECLARE Annotation EphysProp(STRING name, STRING ontologyId);
+MARKTABLE(EphysTrigger, 1, 'bluima/neuroner/hbp_electrophysiology-triggers_ontology.csv', true, 2, "", 2, "ontologyId" = 2);
+MARKTABLE(EphysProp, 1, 'bluima/neuroner/hbp_electrophysiology_ontology.csv', true, 2, "", 2, "ontologyId" = 2);
+
+// FUNCTIONS
+DECLARE NeuronProperty Function;
+MARKFAST(Function, 'bluima/neuroner/functions.txt', true, 4, false);
+
+// BRAIN REGION
+DECLARE NeuronProperty BrainRegionProp; // so as not to be confused w/ other BrainRegion annotations
+MARKTABLE(BrainRegionProp, 1, 'bluima/neuroner/regions.csv', true, 2, "", 2, "ontologyId" = 2);
+MARKTABLE(BrainRegionProp, 1, 'bluima/neuroner/hbp_brainregions_aba-syn.csv', true, 2, "", 2, "ontologyId" = 2);
+// TODO keep in prio the ones with an id
+//(BrainRegionProp{-> UNMARK(BrainRegionProp)}){AND(FEATURE("ontologyId", "NO_ID"), PARTOFNEQ(BrainRegionProp))};
+
+// PROTEIN
+DECLARE NeuronProperty ProteinProp; 
+MARKTABLE(ProteinProp, 1, 'bluima/neuroner/GeneNames.csv', true, 2, "", 2, "ontologyId" = 2);
+
+REMOVERETAINTYPE(SPACE); // SPACE not needed anymore in aggregations
+
+//
+// AGGREGATE PROPERTIES ////////////////////////////////////////////////////////////////////////////////////
+
+DECLARE NeuronProperty Electrophysiology;
+(EphysTrigger|EphysProp|"-")+ {-> MARK(Electrophysiology)};
+Electrophysiology{(Electrophysiology.end - Electrophysiology.begin) < 2 -> UNMARK(Electrophysiology)}; // remove single hyphens
+
+DECLARE ProteinTrigger;
+"(?i)(contain|secret|releas|bind|synthesiz|express|contain)ing|\\+|principal|immuno(nega|posi|reac)tive|(reac|posi)tive|immunoreactivity|
+reactive|labeled|stained|[Cc]re" -> ProteinTrigger;
+// aggregate protein names (as it was matched above) with a ProteinTrigger 
+ProteinProp {-> SHIFT(ProteinProp,1,4)} "-"? ProteinTrigger? ProteinTrigger?;
+ProteinTrigger "-"? ProteinTrigger? "-"? ProteinProp {-> SHIFT(ProteinProp,1,5)};
+(ProteinProp (COMMA | "and" | (COMMA "and") | (COMMA "or"))){-> SHIFT(ProteinProp,1,2)} ProteinProp;
+
+(NeurotransmitterProp "-"? ProteinTrigger){-> SHIFT(NeurotransmitterProp,1,3)}; // also apply protein rules to neurotransmitters
+
+(NeuronProperty{-> UNMARK(NeuronProperty)}){PARTOFNEQ(NeuronProperty)}; // only keep longest property
+
+//
+// AGGREGATE NEURONS ////////////////////////////////////////////////////////////////////////////////////
+
+// aggregate multiple triggers together
+(NeuronTrigger "and"? NeuronTrigger){-> SHIFT(NeuronTrigger)};
+
+DECLARE Neuron;                // matches the whole span of a neuron definition
+DECLARE PreNeuron, PostNeuron; // context before and after a neuron trigger
+
+// gather NeuronProperty occurring before and after Neuron into Pre and PostNeuron
+NeuronProperty+{-> MARK(PreNeuron, 1, 1)} NeuronTrigger;
+(NeuronProperty+ ("-" | COMMA | "and" | (COMMA "and") | (COMMA "or")))* {-> MARK(PreNeuron, 1, 2)} NeuronProperty+ NeuronTrigger;
+(("and" | "in" | "of" | "with") "the"? NeuronProperty+)+ {-> MARK(PostNeuron)};
+NeuronTrigger NeuronProperty+ {-> MARK(PostNeuron, 2, 2)};
+
+// aggregate Pre and PostNeurons into Neuron, remove them
+PreNeuron NeuronTrigger PostNeuron {-> MARK(Neuron, 1, 3)};
+NeuronTrigger PostNeuron {-> MARK(Neuron, 1, 2)};
+PreNeuron NeuronTrigger {-> MARK(Neuron, 1, 2)};
+//PreNeuron{-> DEL};
+//PostNeuron{-> DEL};
+
+NeuronTrigger{NOT(REGEXP("[Cc]ells?")) -> MARK(Neuron, 1, 1)}; // remove single isolated Neuron, unless "cell"
+
+Neuron{CONTAINS(BREAK) -> DEL}; // remove neuron that have line breaks 
+// TODO check above with pdf (new lines?)
+
+(Neuron{-> UNMARK(Neuron)}){PARTOFNEQ(Neuron)}; // only keep longest Neuron
+
+// TODO remove cells without NeuronProperty
+
+
+//
+// MISSING ///////////////////////////////////////////////////////////////////////////////////////////////
+// Find up to 3 unmatched words preceding a Neuron to see what is still missing
+DECLARE Missing, InBetweenMissing;
+NeuronProperty (ANY{-PARTOF(NeuronProperty)})                                                           {-> MARK(Missing, 2, 2)} (Neuron|NeuronTrigger);
+NeuronProperty (ANY{-PARTOF(NeuronProperty)} ANY{-PARTOF(NeuronProperty)})                              {-> MARK(Missing, 2, 2)} (Neuron|NeuronTrigger);
+NeuronProperty (ANY{-PARTOF(NeuronProperty)} ANY{-PARTOF(NeuronProperty)} ANY{-PARTOF(NeuronProperty)}) {-> MARK(Missing, 2, 2)} (Neuron|NeuronTrigger);
+NeuronTrigger  (ANY{-PARTOF(NeuronProperty)})                                                           {-> MARK(Missing, 2, 2)} PostNeuron;
+Neuron         (ANY{-PARTOF(NeuronProperty)})                                                           {-> MARK(Missing, 2, 2)} PostNeuron;
+NeuronTrigger  (ANY{-PARTOF(NeuronProperty)} ANY{-PARTOF(NeuronProperty)})                              {-> MARK(Missing, 2, 2)} PostNeuron;
+Neuron         (ANY{-PARTOF(NeuronProperty)} ANY{-PARTOF(NeuronProperty)})                              {-> MARK(Missing, 2, 2)} PostNeuron;
+NeuronTrigger  (ANY{-PARTOF(NeuronProperty)} ANY{-PARTOF(NeuronProperty)} ANY{-PARTOF(NeuronProperty)}) {-> MARK(Missing, 2, 2)} PostNeuron;
+Neuron         (ANY{-PARTOF(NeuronProperty)} ANY{-PARTOF(NeuronProperty)} ANY{-PARTOF(NeuronProperty)}) {-> MARK(Missing, 2, 2)} PostNeuron;
+
+//TODO Missing{IF((end-begin) < 2)->DEL};
+
+
