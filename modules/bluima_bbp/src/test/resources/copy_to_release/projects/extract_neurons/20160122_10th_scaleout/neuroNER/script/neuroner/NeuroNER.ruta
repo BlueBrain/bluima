@@ -3,31 +3,31 @@ PACKAGE neuroner;
 RETAINTYPE(BREAK, SPACE); // BREAK so that two neurons on two different lines do not collide
 // SPACE needed to match lexical resources
 
-DECLARE Annotation NeuronProperty(STRING name, STRING ontologyId); // base class for properties 
+DECLARE Annotation NeuronProperty(STRING name, STRING ontologyId); // base class for properties
 
 DECLARE NeuronTrigger;  // acts as a trigger
 MARKFAST(NeuronTrigger, 'bluima/neuroner/neuron_triggers.txt', true, 3);
 
 // DEVELOPMENTAL STAGES
-DECLARE NeuronProperty Developmental; 
-MARKTABLE(Developmental, 1, 'bluima/neuroner/hbp_developmental_ontology.csv', true, 2, "", 2, "ontologyId" = 2);
+DECLARE NeuronProperty Developmental;
+MARKTABLE(Developmental, 1, 'bluima/neuroner/hbp_developmental_ontology.csv', true, 3, "", 2, "ontologyId" = 2);
 
 // NEUROTRANSMITTER
 DECLARE NeuronProperty NeurotransmitterProp(STRING name, STRING ontologyId);
-MARKTABLE(NeurotransmitterProp, 1, 'bluima/neuroner/hbp_neurotransmitter_ontology.csv', true, 2, "", 2, "ontologyId" = 2);
+MARKTABLE(NeurotransmitterProp, 1, 'bluima/neuroner/hbp_neurotransmitter_ontology.csv', true, 3, "", 2, "ontologyId" = 2);
 
 // LAYER
 DECLARE NeuronProperty Layer;
-MARKTABLE(Layer, 1, 'bluima/neuroner/hbp_layer_ontology.csv', true, 2, "", 2, "ontologyId" = 2);
+MARKTABLE(Layer, 1, 'bluima/neuroner/hbp_layer_ontology.csv', true, 3, "", 2, "ontologyId" = 2);
 
 // MORPHOLOGY
 DECLARE NeuronProperty Morphology;
-MARKTABLE(Morphology, 1, 'bluima/neuroner/hbp_morphology_ontology.csv', true, 2, "", 2, "ontologyId" = 2);
+MARKTABLE(Morphology, 1, 'bluima/neuroner/hbp_morphology_ontology.csv', true, 3, "", 2, "ontologyId" = 2);
 
 // SPECIES
 WORDTABLE speciesWt = 'bluima/neuroner/ncbi_species_top1000.csv';
 DECLARE NeuronProperty Species;
-MARKTABLE(Species, 1, speciesWt, true, 2, "", 0, "ontologyId" = 2);
+MARKTABLE(Species, 1, speciesWt, true, 3, "", 0, "ontologyId" = 2);
 
 // ORIENTATION
 DECLARE NeuronProperty Orientation;
@@ -40,23 +40,23 @@ DECLARE NeuronProperty Size;
 // ELECTROPHYSIOLOGY
 DECLARE Annotation EphysTrigger(STRING name, STRING ontologyId);
 DECLARE Annotation EphysProp(STRING name, STRING ontologyId);
-MARKTABLE(EphysTrigger, 1, 'bluima/neuroner/hbp_electrophysiology-triggers_ontology.csv', true, 2, "", 2, "ontologyId" = 2);
-MARKTABLE(EphysProp, 1, 'bluima/neuroner/hbp_electrophysiology_ontology.csv', true, 2, "", 2, "ontologyId" = 2);
+MARKTABLE(EphysTrigger, 1, 'bluima/neuroner/hbp_electrophysiology-triggers_ontology.csv', true, 3, "", 2, "ontologyId" = 2);
+MARKTABLE(EphysProp, 1, 'bluima/neuroner/hbp_electrophysiology_ontology.csv', true, 3, "", 2, "ontologyId" = 2);
 
 // FUNCTIONS
 DECLARE NeuronProperty Function;
-MARKFAST(Function, 'bluima/neuroner/functions.txt', true, 4, false);
+MARKFAST(Function, 'bluima/neuroner/functions.txt', true, 3, false);
 
 // BRAIN REGION
 DECLARE NeuronProperty BrainRegionProp; // so as not to be confused w/ other BrainRegion annotations
-MARKTABLE(BrainRegionProp, 1, 'bluima/neuroner/regions.csv', true, 2, "", 2, "ontologyId" = 2);
-MARKTABLE(BrainRegionProp, 1, 'bluima/neuroner/hbp_brainregions_aba-syn.csv', true, 2, "", 2, "ontologyId" = 2);
+MARKTABLE(BrainRegionProp, 1, 'bluima/neuroner/regions.csv', true, 3, "", 2, "ontologyId" = 2);
+MARKTABLE(BrainRegionProp, 1, 'bluima/neuroner/hbp_brainregions_aba-syn.csv', true, 3, "", 2, "ontologyId" = 2);
 // TODO keep in prio the ones with an id
 //(BrainRegionProp{-> UNMARK(BrainRegionProp)}){AND(FEATURE("ontologyId", "NO_ID"), PARTOFNEQ(BrainRegionProp))};
 
 // PROTEIN
-DECLARE NeuronProperty ProteinProp; 
-MARKTABLE(ProteinProp, 1, 'bluima/neuroner/GeneNames.csv', true, 2, "", 2, "ontologyId" = 2);
+DECLARE NeuronProperty ProteinProp;
+MARKTABLE(ProteinProp, 1, 'bluima/neuroner/GeneNames.csv', true, 3, "", 2, "ontologyId" = 2);
 
 REMOVERETAINTYPE(SPACE); // SPACE not needed anymore in aggregations
 
@@ -70,7 +70,7 @@ Electrophysiology{(Electrophysiology.end - Electrophysiology.begin) < 2 -> UNMAR
 DECLARE ProteinTrigger;
 "(?i)(contain|secret|releas|bind|synthesiz|express|contain)ing|\\+|principal|immuno(nega|posi|reac)tive|(reac|posi)tive|immunoreactivity|
 reactive|labeled|stained|[Cc]re" -> ProteinTrigger;
-// aggregate protein names (as it was matched above) with a ProteinTrigger 
+// aggregate protein names (as it was matched above) with a ProteinTrigger
 ProteinProp {-> SHIFT(ProteinProp,1,4)} "-"? ProteinTrigger? ProteinTrigger?;
 ProteinTrigger "-"? ProteinTrigger? "-"? ProteinProp {-> SHIFT(ProteinProp,1,5)};
 (ProteinProp (COMMA | "and" | (COMMA "and") | (COMMA "or"))){-> SHIFT(ProteinProp,1,2)} ProteinProp;
@@ -103,7 +103,7 @@ PreNeuron NeuronTrigger {-> MARK(Neuron, 1, 2)};
 
 NeuronTrigger{NOT(REGEXP("[Cc]ells?")) -> MARK(Neuron, 1, 1)}; // remove single isolated Neuron, unless "cell"
 
-Neuron{CONTAINS(BREAK) -> DEL}; // remove neuron that have line breaks 
+Neuron{CONTAINS(BREAK) -> DEL}; // remove neuron that have line breaks
 // TODO check above with pdf (new lines?)
 
 (Neuron{-> UNMARK(Neuron)}){PARTOFNEQ(Neuron)}; // only keep longest Neuron
