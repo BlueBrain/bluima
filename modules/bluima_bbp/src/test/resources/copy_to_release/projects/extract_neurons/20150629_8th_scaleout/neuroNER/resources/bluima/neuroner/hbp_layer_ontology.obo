@@ -1,0 +1,395 @@
+format-version: 1.2
+data-version: 0.1
+date: 23:01:2015 15:31
+saved-by: renaud.richardet@epfl.ch
+default-namespace: HBP_LAYER
+ontology: HBP Neocortex Layer
+
+synonymtypedef: ALTERNATE_SPELLING "alternate spelling" EXACT
+synonymtypedef: ALTERNATE_PLURAL_SPELLING "alternate plural spelling" EXACT
+synonymtypedef: MISSPELLING "misspelling" RELATED
+synonymtypedef: PLURAL "plural term" EXACT
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! single layers
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[Term]
+id: HBP_LAYER:0000001
+name: layer 1
+synonym: "layer1"  EXACT ALTERNATE_SPELLING []
+synonym: "layer i" EXACT ALTERNATE_SPELLING []
+synonym: "layer I" EXACT ALTERNATE_SPELLING []
+synonym_r: "layer ?[Ii]" EXACT ALTERNATE_SPELLING []
+
+[Term]
+id: HBP_LAYER:0000002
+name: layer 2
+synonym: "layer2"   EXACT ALTERNATE_SPELLING []
+synonym: "layer ii" EXACT ALTERNATE_SPELLING []
+synonym: "layer II" EXACT ALTERNATE_SPELLING []
+
+[Term]
+id: HBP_LAYER:0000003
+name: layer 3
+synonym: "layer3"    EXACT ALTERNATE_SPELLING []
+synonym: "layer iii" EXACT ALTERNATE_SPELLING []
+synonym: "layer III" EXACT ALTERNATE_SPELLING []
+
+[Term]
+id: HBP_LAYER:0000004
+name: layer 4
+synonym: "layer4"   EXACT ALTERNATE_SPELLING []
+synonym: "layer iv" EXACT ALTERNATE_SPELLING []
+synonym: "layer IV" EXACT ALTERNATE_SPELLING []
+
+[Term]
+id: HBP_LAYER:0000005
+name: layer 5
+synonym: "layer5"  EXACT ALTERNATE_SPELLING []
+synonym: "layer v" EXACT ALTERNATE_SPELLING []
+synonym: "layer V" EXACT ALTERNATE_SPELLING []
+
+[Term]
+id: HBP_LAYER:0000006
+name: layer 6
+synonym: "layer6"   EXACT ALTERNATE_SPELLING []
+synonym: "layer vi" EXACT ALTERNATE_SPELLING []
+synonym: "layer VI" EXACT ALTERNATE_SPELLING []
+
+[Term]
+id: HBP_LAYER:0000007
+name: layer 7
+synonym: "layer VII" EXACT ALTERNATE_SPELLING []
+comment: "this is unlikely, but has been found in articles TODO cite"
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! sub-layers
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+[Term]
+id: HBP_LAYER:0000030
+name: layer 3a
+synonym: "layer IIIa"  EXACT ALTERNATE_SPELLING []  ! unlikely
+synonym: "layer III a" EXACT ALTERNATE_SPELLING []  ! unlikely
+synonym: "layer 3 a"   EXACT ALTERNATE_SPELLING []
+is_a: HBP_LAYER:0000003
+
+[Term]
+id: HBP_LAYER:0000031
+name: layer 3b
+synonym: "layer IIIb"  EXACT ALTERNATE_SPELLING []  ! unlikely
+synonym: "layer III b" EXACT ALTERNATE_SPELLING []  ! unlikely
+synonym: "layer 3 b"   EXACT ALTERNATE_SPELLING []
+is_a: HBP_LAYER:0000003
+
+
+[Term]
+id: HBP_LAYER:0000040
+name: layer 4a
+synonym: "layer IVa"  EXACT ALTERNATE_SPELLING []  ! unlikely
+synonym: "layer IV a" EXACT ALTERNATE_SPELLING []  ! unlikely
+synonym: "layer 4 a"  EXACT ALTERNATE_SPELLING []
+is_a: HBP_LAYER:0000004
+
+[Term]
+id: HBP_LAYER:0000041
+name: layer 4b
+synonym: "layer IVb"  EXACT ALTERNATE_SPELLING []  ! unlikely
+synonym: "layer IV b" EXACT ALTERNATE_SPELLING []  ! unlikely
+synonym: "layer 4 b"  EXACT ALTERNATE_SPELLING []
+is_a: HBP_LAYER:0000004
+
+[Term]
+id: HBP_LAYER:0000050
+name: layer 5a
+synonym: "layer Va"  EXACT ALTERNATE_SPELLING []  ! unlikely
+synonym: "layer V a" EXACT ALTERNATE_SPELLING []  ! unlikely
+synonym: "layer 5 a" EXACT ALTERNATE_SPELLING []
+is_a: HBP_LAYER:0000005
+
+[Term]
+id: HBP_LAYER:0000051
+name: layer 5b
+synonym: "layer Vb"  EXACT ALTERNATE_SPELLING []  ! unlikely
+synonym: "layer V b" EXACT ALTERNATE_SPELLING []  ! unlikely
+synonym: "layer 5 b" EXACT ALTERNATE_SPELLING []
+is_a: HBP_LAYER:0000005
+
+[Term]
+id: HBP_LAYER:0000060
+name: layer 6a
+synonym: "layer VIa"  EXACT ALTERNATE_SPELLING []  ! unlikely
+synonym: "layer VI a" EXACT ALTERNATE_SPELLING []  ! unlikely
+synonym: "layer 6 a"  EXACT ALTERNATE_SPELLING []
+is_a: HBP_LAYER:0000006
+
+[Term]
+id: HBP_LAYER:0000061
+name: layer 6b
+synonym: "layer VIb"  EXACT ALTERNATE_SPELLING []  ! unlikely
+synonym: "layer VI b" EXACT ALTERNATE_SPELLING []  ! unlikely
+synonym: "layer 6 b"  EXACT ALTERNATE_SPELLING []
+is_a: HBP_LAYER:0000006
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! RANGES: layer x-y
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+! 1-x
+
+[Term]
+id: HBP_LAYER:0000101
+name: layer 1-2
+synonym: "layer I-II"  EXACT ALTERNATE_SPELLING []
+synonym: "layer II-I"  EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layer 2-1"   EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layers 1-2"  EXACT PLURAL []
+synonym: "layers I-II" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000001
+union_of: HBP_LAYER:0000002
+
+[Term]
+id: HBP_LAYER:0000102
+name: layer 1-3
+synonym: "layer I-III"  EXACT ALTERNATE_SPELLING []
+synonym: "layer III-I"  EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layer 3-1"    EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layers 1-3"   EXACT PLURAL []
+synonym: "layers I-III" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000001
+union_of: HBP_LAYER:0000002
+union_of: HBP_LAYER:0000003
+
+[Term]
+id: HBP_LAYER:0000103
+name: layer 1-4
+synonym: "layer I-IV"  EXACT ALTERNATE_SPELLING []
+synonym: "layer IV-I"  EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layer 4-1"   EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layers 1-4"  EXACT PLURAL []
+synonym: "layers I-IV" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000001
+union_of: HBP_LAYER:0000002
+union_of: HBP_LAYER:0000003
+union_of: HBP_LAYER:0000004
+
+[Term]
+id: HBP_LAYER:0000104
+name: layer 1-5
+synonym: "layer I-V"  EXACT ALTERNATE_SPELLING []
+synonym: "layer V-I"  EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layer 5-1"  EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layers 1-5" EXACT PLURAL []
+synonym: "layers I-V" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000001
+union_of: HBP_LAYER:0000002
+union_of: HBP_LAYER:0000003
+union_of: HBP_LAYER:0000004
+union_of: HBP_LAYER:0000005
+
+[Term]
+id: HBP_LAYER:0000105
+name: layer 1-6
+synonym: "layer I-VI"  EXACT ALTERNATE_SPELLING []
+synonym: "layer VI-I"  EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layer 6-1"   EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layers 1-6"  EXACT PLURAL []
+synonym: "layers I-VI" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000001
+union_of: HBP_LAYER:0000002
+union_of: HBP_LAYER:0000003
+union_of: HBP_LAYER:0000004
+union_of: HBP_LAYER:0000005
+union_of: HBP_LAYER:0000006
+
+! 2-x
+
+[Term]
+id: HBP_LAYER:0000111
+name: layer 2-3
+synonym: "layer II-III"  EXACT ALTERNATE_SPELLING []
+synonym: "layer III-II"  EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layer 3-2"     EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layers 2-3"    EXACT PLURAL []
+synonym: "layers II-III" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000002
+union_of: HBP_LAYER:0000003
+
+[Term]
+id: HBP_LAYER:0000112
+name: layer 2-4
+synonym: "layer II-IV"  EXACT ALTERNATE_SPELLING []
+synonym: "layer IV-II"  EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layer 4-2"    EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layers 2-4"   EXACT PLURAL []
+synonym: "layers II-IV" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000002
+union_of: HBP_LAYER:0000003
+union_of: HBP_LAYER:0000004
+
+[Term]
+id: HBP_LAYER:0000113
+name: layer 2-5
+synonym: "layer II-V"  EXACT ALTERNATE_SPELLING []
+synonym: "layer V-II"  EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layer 5-2"   EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layers 2-5"  EXACT PLURAL []
+synonym: "layers II-V" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000002
+union_of: HBP_LAYER:0000003
+union_of: HBP_LAYER:0000004
+union_of: HBP_LAYER:0000005
+
+[Term]
+id: HBP_LAYER:0000114
+name: layer 2-6
+synonym: "layer II-VI"  EXACT ALTERNATE_SPELLING []
+synonym: "layer VI-II"  EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layer 6-2"    EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layers 2-6"   EXACT PLURAL []
+synonym: "layers II-VI" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000002
+union_of: HBP_LAYER:0000003
+union_of: HBP_LAYER:0000004
+union_of: HBP_LAYER:0000005
+union_of: HBP_LAYER:0000006
+
+! 3-x
+
+[Term]
+id: HBP_LAYER:0000121
+name: layer 3-4
+synonym: "layer III-IV"  EXACT ALTERNATE_SPELLING []
+synonym: "layer IV-III"  EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layer 4-3"     EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layers 3-4"    EXACT PLURAL []
+synonym: "layers III-IV" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000003
+union_of: HBP_LAYER:0000004
+
+[Term]
+id: HBP_LAYER:0000122
+name: layer 3-5
+synonym: "layer III-V"  EXACT ALTERNATE_SPELLING []
+synonym: "layer V-III"  EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layer 5-3"    EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layers 3-5"   EXACT PLURAL []
+synonym: "layers III-V" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000003
+union_of: HBP_LAYER:0000004
+union_of: HBP_LAYER:0000005
+
+[Term]
+id: HBP_LAYER:0000123
+name: layer 3-6
+synonym: "layer III-VI"  EXACT ALTERNATE_SPELLING []
+synonym: "layer VI-III"  EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layer 6-3"     EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layers 3-6"    EXACT PLURAL []
+synonym: "layers III-VI" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000003
+union_of: HBP_LAYER:0000004
+union_of: HBP_LAYER:0000005
+union_of: HBP_LAYER:0000006
+
+! 4-x
+
+[Term]
+id: HBP_LAYER:0000131
+name: layer 4-5
+synonym: "layer IV-V"  EXACT ALTERNATE_SPELLING []
+synonym: "layer V-IV"  EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layer 5-4"   EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layers 4-5"  EXACT PLURAL []
+synonym: "layers IV-V" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000004
+union_of: HBP_LAYER:0000005
+
+[Term]
+id: HBP_LAYER:0000132
+name: layer 4-6
+synonym: "layer IV-VI"  EXACT ALTERNATE_SPELLING []
+synonym: "layer VI-IV"  EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layer 6-4"    EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layers 4-6"   EXACT PLURAL []
+synonym: "layers IV-VI" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000004
+union_of: HBP_LAYER:0000005
+union_of: HBP_LAYER:0000006
+
+! 5-x
+
+[Term]
+id: HBP_LAYER:0000141
+name: layer 5-6
+synonym: "layer V-VI"  EXACT ALTERNATE_SPELLING []
+synonym: "layer VI-V"  EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layer 6-5"   EXACT ALTERNATE_SPELLING [] ! unlikely
+synonym: "layers 5-6"  EXACT PLURAL []
+synonym: "layers V-VI" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000005
+union_of: HBP_LAYER:0000006
+
+
+
+
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!! layer x/y
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+
+
+
+[Term]
+id: HBP_LAYER:0000201
+name: layer 1/2
+synonym: "layer I/II"  EXACT ALTERNATE_SPELLING []
+synonym: "layers 1/2"  EXACT PLURAL []
+synonym: "layers I/II" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000001
+union_of: HBP_LAYER:0000002
+
+[Term]
+id: HBP_LAYER:0000202
+name: layer 2/3
+synonym: "layer II/III"  EXACT ALTERNATE_SPELLING []
+synonym: "layers 2/3"    EXACT PLURAL []
+synonym: "layers II/III" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000002
+union_of: HBP_LAYER:0000003
+
+[Term]
+id: HBP_LAYER:0000203
+name: layer 3/4
+synonym: "layer III/IV"  EXACT ALTERNATE_SPELLING []
+synonym: "layers 3/4"    EXACT PLURAL []
+synonym: "layers III/IV" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000003
+union_of: HBP_LAYER:0000004
+
+[Term]
+id: HBP_LAYER:0000204
+name: layer 4/5
+synonym: "layer IV/V"  EXACT ALTERNATE_SPELLING []
+synonym: "layers 4/5"  EXACT PLURAL []
+synonym: "layers IV/V" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000004
+union_of: HBP_LAYER:0000005
+
+[Term]
+id: HBP_LAYER:0000205
+name: layer 5/6
+synonym: "layer V/VI"  EXACT ALTERNATE_SPELLING []
+synonym: "layers 5/6"  EXACT PLURAL []
+synonym: "layers V/VI" EXACT ALTERNATE_PLURAL_SPELLING []
+union_of: HBP_LAYER:0000005
+union_of: HBP_LAYER:0000006
+
+! TODO do we  need layer 3a/3b?
+! TODO do we  need layer 3/5?

@@ -1,0 +1,36 @@
+cr: TextArrayReader
+ input__java: new String[]{"layer V and layer iii large non-pyramidal neurons.", "parvalbumin-positive fast-spiking basket cells, somatostatin-positive regular-spiking bipolar and multipolar cells, and cholecystokinin-positive irregular-spiking bipolar and multipolar cells) and projection neurons (thick-tufted layer 5 nonadapting pyramidal neurons and layer 6 adapting corticothalamic neurons"}
+
+
+// neuroNER fails otherwise
+threads: 1
+
+
+
+ae: /gpfs/bbp.cscs.ch/home/richarde/dev/bluima_20150629/pipelines/projects/extract_neurons/20150629_8th_scaleout/neuroNER/descriptor/neuroner/NeuroNEREngine.xml
+#ae: org.apache.uima.ruta.engine.RutaEngine
+# mainScript: Main
+# scriptPaths: $ROOT/resources/neuroner/
+# resourcePaths: $ROOT/resources/neuroner/
+# additionalEngines_java: new String[]{"org.apache.uima.ruta.ontologies.OntoActionExtension"}
+
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: neuroner.NeuroNER.Neuron
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: neuroner.NeuroNER.NeuronProperty
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+
+ae: ch.epfl.bbp.uima.elasticsearch.NeuronIndexer2
+ host: 128.178.51.90
+ indexName: neuroner_20150629
+ clusterName: elasticsearch_neuroner
+
+
+// print Missings
+ae: AnnotationTypeWriter2
+ annotationClass: neuroner.NeuroNER.Missing
+ outputFile: test_Missings.tsv
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

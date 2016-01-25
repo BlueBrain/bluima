@@ -1,0 +1,84 @@
+format-version: 1.1
+data-version: 0.1
+date: 26:06:2015 12:00
+saved-by: stripathy@chibi.ubc.ca
+default-namespace: HBP_EPHYS
+ontology: HBP Electrophysiology
+
+synonymtypedef: ALTERNATE_SPELLING "alternate spelling" EXACT
+synonymtypedef: MISSPELLING "misspelling" RELATED
+synonymtypedef: ACRONYM "acronym" BROAD
+synonymtypedef: ADJECTIVE "adjective" RELATED
+synonymtypedef: ADVERB "adverb" RELATED
+synonymtypedef: PLURAL "plural term" EXACT
+synonymtypedef: CHEMICAL_FORMULA "chemical formula" EXACT
+
+
+[Term]
+id: HBP_EPHYS:0000001
+name: regular
+rsynonym: "(regular|tonic)(ly)?"
+synonym: "RS" BROAD ACRONYM []
+
+[Term]
+id: HBP_EPHYS:0000010
+name: irregular
+rsynonym: "ir?regular(ly)?"
+! TODO acronym?
+
+[Term]
+id: HBP_EPHYS:0000020
+name: late
+rsynonym: "(late|delay|delayed)"
+synonym: "LS" BROAD ACRONYM []
+
+[Term]
+id: HBP_EPHYS:0000030
+name: continuous
+rsynonym: "continous(ly)?"
+
+[Term]
+id: HBP_EPHYS:0000040
+name: intrinsic
+rsynonym: "intrinsic(ally)?"
+
+[Term]
+id: HBP_EPHYS:0000050
+name: classical
+rsynonym: "classical(ly)?"
+!disjoint_from: HBP_EPHYS:0000015 ! adapting
+
+[Term]
+id: HBP_EPHYS:0000060
+name: hyperpolarized
+
+[Term]
+id: HBP_EPHYS:0000070
+name: depolarized
+
+[Term]
+id: HBP_EPHYS:0000080
+name: fast
+rsynonym: "(fast|rapid)(ly)?"
+synonym: "FS" BROAD ACRONYM []
+
+[Term]
+id: HBP_EPHYS:0000090
+name: non-fast
+rsynonym: "(non|not|un)[- ]?(fast|rapid)(ly)?"
+
+[Term]
+id: HBP_EPHYS:0000100
+name: slow
+rsynonym: "(slow)(ly)?"
+
+[Term]
+id: HBP_EPHYS:0000110
+name: low threshold
+rsynonym: "low[- ]threshold"
+synonym: "LTS" BROAD ACRONYM []
+
+[Term]
+id: HBP_EPHYS:0000120
+name: spontaneous
+rsynonym: "spontaneous(ly)?"

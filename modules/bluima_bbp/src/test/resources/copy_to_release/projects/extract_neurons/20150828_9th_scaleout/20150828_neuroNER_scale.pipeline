@@ -1,0 +1,41 @@
+# $1 output file path
+# $2,3 from to
+
+
+cr: PubmedDatabaseCR
+ db_connection__java: new String[]{ "128.178.97.193", "bb_pubmed", "bemyguest", "" }
+ between__java: new int[]{ $2, $3 }
+ expandAbbrevs__java: true
+
+// neuroNER fails otherwise
+threads: 1
+
+# /Volumes/HDD2/ren_data/dev_hdd/bluebrain/git2/neuroNER
+ae: /gpfs/bbp.cscs.ch/home/richarde/dev/bluima_20150902/pipelines/projects/extract_neurons/20150828_9th_scaleout/neuroNER/descriptor/neuroner/NeuroNEREngine.xml
+
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: neuroner.NeuroNER.Neuron
+ae: KeepLargestAnnotationAnnotator
+ annotationClass: neuroner.NeuroNER.NeuronProperty
+
+ae_java: ch.epfl.bbp.uima.ae.OpenNlpHelper.getSentenceSplitter();
+
+ae: ch.epfl.bbp.uima.elasticsearch.NeuronIndexer2
+ indexName: neuroner_20150828
+ clusterName: elasticsearch_neuroner
+ host: 128.178.97.193
+
+ae: ch.epfl.bbp.uima.elasticsearch.NeuronIndexer2
+ indexName: neuroner_20150828s
+ onlyIndexNeurons__java: true
+ clusterName: elasticsearch_neuroner
+ host: 128.178.97.193
+ flushEvery__java: 2000
+
+// print Missings
+ae: AnnotationTypeWriter2
+ annotationClass: neuroner.NeuroNER.Missing
+ outputFile: /gpfs/bbp.cscs.ch/home/richarde/slurm_logs/20150828_neuroner_9th_scaleout_missings/$1_Missings.tsv
+
+ae: StatsAnnotatorPlus
+ printEvery__java: 100

@@ -1,0 +1,337 @@
+format-version: 1.1
+data-version: 0.1
+date: 23:01:2015 15:31
+saved-by: stripathy@chibi.ubc.ca
+default-namespace: HBP_MORPHOLOGY
+ontology: HBP Morphology
+
+synonymtypedef: ALTERNATE_SPELLING "alternate spelling" EXACT
+synonymtypedef: MISSPELLING "misspelling" RELATED
+synonymtypedef: ACRONYM "acronym" BROAD
+synonymtypedef: ADJECTIVE "adjective" RELATED
+synonymtypedef: ADVERB "adverb" RELATED
+synonymtypedef: PLURAL "plural term" EXACT
+synonymtypedef: CHEMICAL_FORMULA "chemical formula" EXACT
+
+!TODO thick (in thick L5 cells)
+
+[Term]
+id: HBP_MORPHOLOGY:0000001
+name: pyramidal
+
+[Term]
+id: HBP_MORPHOLOGY:0000002
+name: nonpyramidal
+synonym: "non-pyramidal" RELATED ADJECTIVE []
+synonym: "non pyramidal" RELATED ADJECTIVE []
+disjoint_from: HBP_MORPHOLOGY:0000001 ! pyramidal
+
+[Term]
+id: HBP_MORPHOLOGY:0000003
+name: bitufted
+synonym: "bi-tufted" RELATED ADJECTIVE []
+
+[Term]
+id: HBP_MORPHOLOGY:0000004
+name: bouquet
+
+[Term]
+id: HBP_MORPHOLOGY:0000005
+name: double bouquet
+synonym: "double-bouquet" RELATED ADJECTIVE []
+
+[Term]
+id: HBP_MORPHOLOGY:0000006
+name: bipolar
+
+[Term]
+id: HBP_MORPHOLOGY:0000007
+name: chandelier
+
+[Term]
+id: HBP_MORPHOLOGY:0000008
+name: Cajal-Retzius
+
+[Term]
+id: HBP_MORPHOLOGY:0000009
+name: early bifurcating
+
+[Term]
+id: HBP_MORPHOLOGY:0000010
+name: late bifurcating
+
+[Term]
+id: HBP_MORPHOLOGY:0000011
+name: spiny
+
+[Term]
+id: HBP_MORPHOLOGY:0000012
+name: aspiny
+synonym: "non-spiny" RELATED ADJECTIVE []
+synonym: "nonspiny" RELATED ADJECTIVE []
+synonym: "a-spiny" RELATED ADJECTIVE []
+disjoint_from: HBP_MORPHOLOGY:0000011 ! spiny
+
+[Term]
+id: HBP_MORPHOLOGY:0000013
+name: stellate
+synonym: "star" RELATED ADJECTIVE []
+
+[Term]
+id: HBP_MORPHOLOGY:0000014
+name: thick-tufted
+synonym: "thick tufted" RELATED ADJECTIVE []
+
+[Term]
+id: HBP_MORPHOLOGY:0000015
+name: slender-tufted
+synonym: "slender tufted" RELATED ADJECTIVE []
+
+[Term]
+id: HBP_MORPHOLOGY:0000016
+name: slender
+
+[Term]
+id: HBP_MORPHOLOGY:0000017
+name: Martinotti
+
+[Term]
+id: HBP_MORPHOLOGY:0000018
+name: nest
+
+[Term]
+id: HBP_MORPHOLOGY:0000019
+name: basket
+
+[Term]
+id: HBP_MORPHOLOGY:0000020
+name: neurogliaform
+
+[Term]
+id: HBP_MORPHOLOGY:0000021
+name: dwarf
+
+[Term]
+id: HBP_MORPHOLOGY:0000022
+name: axo-axonic
+synonym: "axoaxonic" RELATED ADJECTIVE []
+synonym: "axo axonic" RELATED ADJECTIVE []
+
+[Term]
+id: HBP_MORPHOLOGY:0000023
+name: fusiform
+
+[Term]
+id: HBP_MORPHOLOGY:0000024
+name: cartwheel
+
+[Term]
+id: HBP_MORPHOLOGY:0000025
+name: octopus
+
+[Term]
+id: HBP_MORPHOLOGY:0000026
+name: granule
+
+[Term]
+id: HBP_MORPHOLOGY:0000027
+name: horizontal
+
+[Term]
+id: HBP_MORPHOLOGY:0000028
+name: vertical
+
+[Term]
+id: HBP_MORPHOLOGY:0000029
+name: polymorphous
+synonym: "polymorphic" RELATED ADJECTIVE []
+
+[Term]
+id: HBP_MORPHOLOGY:0000030
+name: mitral
+
+[Term]
+id: HBP_MORPHOLOGY:0000031
+name: tufted
+
+[Term]
+id: HBP_MORPHOLOGY:0000032
+name: short-axon
+synonym: "short axon" RELATED ADJECTIVE []
+
+[Term]
+id: HBP_MORPHOLOGY:0000033
+name: Blanes
+! there's correspondence between this and short-axon cells in the olfactory bulb
+
+[Term]
+id: HBP_MORPHOLOGY:0000034
+name: semilunar
+synonym: "semi-lunar" RELATED ADJECTIVE []
+
+[Term]
+id: HBP_MORPHOLOGY:0000035
+name: multipolar
+
+[Term]
+id: HBP_MORPHOLOGY:0000036
+name: Purkinje
+synonym: "Purkyne" RELATED ADJECTIVE []
+
+[Term]
+id: HBP_MORPHOLOGY:0000037
+name: Lugaro
+
+[Term]
+id: HBP_MORPHOLOGY:0000038
+name: candelabrum
+
+[Term]
+id: HBP_MORPHOLOGY:0000039
+name: Bergmann
+
+[Term]
+id: HBP_MORPHOLOGY:0000040
+name: Golgi
+
+[Term]
+id: HBP_MORPHOLOGY:0000041
+name: unipolar
+
+[Term]
+id: HBP_MORPHOLOGY:0000042
+name: unipolar brush
+synonym: "unipolar-brush" RELATED ADJECTIVE []
+
+[Term]
+id: HBP_MORPHOLOGY:0000043
+name: brush
+
+[Term]
+id: HBP_MORPHOLOGY:0000044
+name: amacrine
+
+[Term]
+id: HBP_MORPHOLOGY:0000045
+name: photoreceptor
+
+[Term]
+id: HBP_MORPHOLOGY:0000046
+name: rod
+
+[Term]
+id: HBP_MORPHOLOGY:0000047
+name: cone
+
+[Term]
+id: HBP_MORPHOLOGY:0000048
+name: midget
+
+[Term]
+id: HBP_MORPHOLOGY:0000049
+name: parasol
+
+[Term]
+id: HBP_MORPHOLOGY:0000050
+name: starburst
+
+[Term]
+id: HBP_MORPHOLOGY:0000051
+name: Müller
+
+[Term]
+id: HBP_MORPHOLOGY:0000052
+name: stem
+
+[Term]
+id: HBP_MORPHOLOGY:0000053
+name: neural stem
+
+[Term]
+id: HBP_MORPHOLOGY:0000054
+name: hair
+
+[Term]
+id: HBP_MORPHOLOGY:0000055
+name: spiral
+
+[Term]
+id: HBP_MORPHOLOGY:0000056
+name: Renshaw
+
+[Term]
+id: HBP_MORPHOLOGY:0000057
+name: Merkel
+
+[Term]
+id: HBP_MORPHOLOGY:0000058
+name: ganglion
+
+[Term]
+id: HBP_MORPHOLOGY:0000059
+name: Schwann
+
+[Term]
+id: HBP_MORPHOLOGY:0000060
+name: glial
+
+[Term]
+id: HBP_MORPHOLOGY:0000061
+name: oligodendrogrial
+
+[Term]
+id: HBP_MORPHOLOGY:0000062
+name: magnocellular
+
+[Term]
+id: HBP_MORPHOLOGY:0000063
+name: parvocellular
+
+[Term]
+id: HBP_MORPHOLOGY:0000064
+name: mossy
+
+[Term]
+id: HBP_MORPHOLOGY:0000065
+name: bistratified
+synonym: "bi-stratified" RELATED ADJECTIVE []
+
+[Term]
+id: HBP_MORPHOLOGY:0000066
+name: monopolar
+
+[Term]
+id: HBP_MORPHOLOGY:0000067
+name: radial
+
+[Term]
+id: HBP_MORPHOLOGY:0000068
+name: polygonal
+
+[Term]
+id: HBP_MORPHOLOGY:0000069
+name: beaded
+
+[Term]
+id: HBP_MORPHOLOGY:0000070
+name: triangular
+
+[Term]
+id: HBP_MORPHOLOGY:0000071
+name: trilaminar
+
+[Term]
+id: HBP_MORPHOLOGY:0000072
+name: bushy
+
+[Term]
+id: HBP_MORPHOLOGY:0000073
+name: globular
+
+[Term]
+id: HBP_MORPHOLOGY:0000074
+name: untufted
+
+[Term]
+id: HBP_MORPHOLOGY:0000075
+name: spherical

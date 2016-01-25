@@ -1,0 +1,61 @@
+format-version: 1.1
+data-version: 0.1
+date: 26:06:2015 12:00
+saved-by: stripathy@chibi.ubc.ca
+default-namespace: HBP_EPHYS_TRIGGER
+ontology: HBP Electrophysiology Trigger
+
+synonymtypedef: ALTERNATE_SPELLING "alternate spelling" EXACT
+synonymtypedef: MISSPELLING "misspelling" RELATED
+synonymtypedef: ACRONYM "acronym" BROAD
+synonymtypedef: ADJECTIVE "adjective" RELATED
+synonymtypedef: ADVERB "adverb" RELATED
+synonymtypedef: PLURAL "plural term" EXACT
+
+
+[Term]
+id: HBP_EPHYS_TRIGGER:0000001
+name: accommodating
+rsynonym: "acc?omm?odating"
+synonym: "accomodating" RELATED MISSPELLING []
+
+[Term]
+id: HBP_EPHYS_TRIGGER:0000002
+name: non-accommodating
+rsynonym: "(non|not|un)[- ]?accomodating"
+disjoint_from: HBP_EPHYS_TRIGGER:0000001 ! accommodating
+
+[Term]
+id: HBP_EPHYS_TRIGGER:0000003
+name: spiking
+rsynonym: "spik(ing|e)"
+
+[Term]
+id: HBP_EPHYS_TRIGGER:0000004
+name: firing
+
+[Term]
+id: HBP_EPHYS_TRIGGER:0000005
+name: burst
+rsynonym: "burst(ing)?"
+
+[Term]
+id: HBP_EPHYS_TRIGGER:0000006
+name: stuttering
+rsynonym: "stutter(ing)?"
+synonym: "STUT" BROAD ACRONYM []
+
+[Term]
+id: HBP_EPHYS_TRIGGER:0000007
+name: chattering
+rsynonym: "chatter(ing)?"
+
+[Term]
+id: HBP_EPHYS_TRIGGER:0000008
+name: adapting
+
+[Term]
+id: HBP_EPHYS_TRIGGER:0000009
+name: nonadapting
+rsynonym: "(non|not|un)[- ]?adapting"
+disjoint_from: HBP_EPHYS_TRIGGER:0000008 ! adapting

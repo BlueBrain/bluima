@@ -1,0 +1,182 @@
+format-version: 1.2
+data-version: 0.1
+date: 23:01:2015 15:31
+saved-by: renaud.richardet@epfl.ch
+default-namespace: HBP_NEUROTRANSMITTER
+ontology: HBP Neurotransmitter
+
+synonymtypedef: ALTERNATE_SPELLING "alternate spelling" EXACT
+synonymtypedef: MISSPELLING "misspelling" RELATED
+synonymtypedef: ACRONYM "acronym" BROAD
+synonymtypedef: ADJECTIVE "adjective" RELATED
+synonymtypedef: ADVERB "adverb" RELATED
+synonymtypedef: PLURAL "plural term" EXACT
+synonymtypedef: CHEMICAL_FORMULA "chemical formula" EXACT
+
+
+[TypeDef]
+id: has_effect
+name: has_effect
+def: "the behaviour of post-synaptic cell" []
+
+
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000001
+name: serotonin
+synonym: "serotonine" RELATED MISSPELLING []
+synonym: "serotonergic" RELATED ADJECTIVE []
+synonym: "serotoninergic" RELATED ADJECTIVE []
+synonym: "5-HT3" RELATED ADJECTIVE []
+synonym: "5HT-3" RELATED ADJECTIVE []
+
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000002
+name: nonserotonergic
+synonym: "non-serotonergic" RELATED ADJECTIVE []
+disjoint_from: HBP_NEUROTRANSMITTER:0000001 ! serotonin
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000003
+name: gaba
+has_effect: inhibitory
+synonym: "gabaergic" RELATED ADJECTIVE []
+synonym: "GABAergic" RELATED ADJECTIVE []
+synonym: "GABA" BROAD ACRONYM []
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000004
+name: glutamate
+has_effect: exhibitatory
+synonym: "glutamic acid" []
+synonym: "2-Aminopentanedioic acid" []
+synonym: "2-aminoglutaric acid" []
+synonym: "glutamatergic" RELATED ADJECTIVE []
+synonym: "Glu" BROAD ACRONYM []
+synonym: "glutamates" EXACT PLURAL []
+def: "An α-amino acid that is glutaric acid bearing a single amino substituent at position 2." [CHEBI:18237]
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000005
+name: acetylcholine
+has_effect: inhibitory
+synonym: "cholinergic" RELATED ADJECTIVE []
+synonym: "acetylcholinergic" RELATED ADJECTIVE []
+synonym: "ACh" BROAD ACRONYM []
+! TODO add synonyms http://www.nlm.nih.gov/cgi/mesh/2014/MB_cgi?mode=&term=Acetylcholine
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000019
+name: noncholinergic
+disjoint_from: HBP_NEUROTRANSMITTER:0000005 ! acetylcholine
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000006
+name: adrenalin
+synonym: "adrenaline" RELATED MISSPELLING []
+synonym: "adrenergic" RELATED ADJECTIVE []
+synonym: "epinephrine" []
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000007
+name: dopamine
+synonym: "dopaminergic" RELATED ADJECTIVE []
+synonym: "3,4-dihydroxyphenethylamine" EXACT CHEMICAL_FORMULA []
+synonym: "DA" BROAD ACRONYM []
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000020
+name: nondopaminergic
+disjoint_from: HBP_NEUROTRANSMITTER:0000007 ! dopamine
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000008
+name: glycine
+has_effect: inhibitory
+synonym: "glycinergic" RELATED ADJECTIVE []
+synonym: "Gly" BROAD ACRONYM []
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000009
+name: histamine
+synonym: "histaminergic" RELATED ADJECTIVE []
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000010
+name: neuropeptide Y
+synonym: "neuropeptidergic" RELATED ADJECTIVE []
+synonym: "NPY" BROAD ACRONYM []
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000011
+name: enkephalin
+synonym: "enkephalinergic" RELATED ADJECTIVE []
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000012
+name: hypocretin
+synonym: "orexin" []
+synonym: "orexinergic" []
+synonym: "hypocretinergic" RELATED ADJECTIVE []
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000013
+name: corticotrophin releasing hormone
+synonym: "corticotropin-releasing hormone" EXACT ALTERNATE_SPELLING []
+synonym: "CRH" BROAD ACRONYM []
+synonym: "Corticotropin-releasing hormone" EXACT PLURAL []
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000014
+name: vasopressin
+synonym: "arginine vasopressin" []
+synonym: "argipressin" []
+synonym: "antidiuretic hormone" []
+synonym: "vasopressinergic" RELATED ADJECTIVE []
+synonym: "AVP" BROAD ACRONYM []
+synonym: "ADH" BROAD ACRONYM []
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000015
+name: substance P
+!TODO validate synonym: "tachykinin, precursor 1" []
+synonym: "SP" BROAD ACRONYM []
+!TODO validate synonym: "TAC1" BROAD ACRONYM []
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000016
+name: noradrenaline
+synonym: "NAd" BROAD ACRONYM []
+synonym: "norad" BROAD ACRONYM []
+synonym: "noradrenergic" EXACT ADJECTIVE []
+synonym: "norepinephrine" []
+synonym: "norepi" BROAD ACRONYM []
+synonym: "NE" BROAD ACRONYM []
+!part_of.... HBP_NEUROTRANSMITTER:0000021 ! monoamine
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000017
+name: oxytocin
+synonym: "oxytocinergic" EXACT ADJECTIVE []
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000018
+name: catecholamine
+synonym: "catecholaminergic" EXACT ADJECTIVE []
+
+[Term]
+id: HBP_NEUROTRANSMITTER:0000021
+name: monoamine
+synonym: "monoaminergic" EXACT ADJECTIVE []
+
+
+
+!TODO
+! prolactin
+! aminergic
+! nitrergic
+! nonpeptidergic
+! nonpeptiergic
+! peptidergic
+! gonadotropin-releasing hormone
