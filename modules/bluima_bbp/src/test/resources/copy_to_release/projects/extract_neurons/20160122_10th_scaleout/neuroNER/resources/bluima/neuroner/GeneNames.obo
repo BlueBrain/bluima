@@ -1814,7 +1814,7 @@ id: NCBI_GENE:12425
 name: Cckar
 synonym: "AW106902" RELATED ADJECTIVE []
 synonym: "Cckar" RELATED ADJECTIVE []
-synonym: "cholecystokinin" RELATED ADJECTIVE []
+synonym: "cholecystokinin A receptor" RELATED ADJECTIVE []
 
 [Term]
 id: NCBI_GENE:20293
@@ -3884,6 +3884,15 @@ synonym: "mCG_128578" RELATED ADJECTIVE []
 synonym: "Drd3" RELATED ADJECTIVE []
 
 [Term]
+id: NCBI_GENE:13491
+name: Drd4
+synonym: "Dopamine receptor 4" RELATED ADJECTIVE []
+synonym: "D4R" RELATED ADJECTIVE []
+synonym: "Drd-4" RELATED ADJECTIVE []
+synonym: "AW125663" RELATED ADJECTIVE []
+synonym: "Drd4" RELATED ADJECTIVE []
+
+[Term]
 id: NCBI_GENE:76843
 name: Dtl
 synonym: "Dtl" RELATED ADJECTIVE []
@@ -5594,6 +5603,15 @@ synonym: "C77564" RELATED ADJECTIVE []
 synonym: "1110001F24Rik" RELATED ADJECTIVE []
 synonym: "GLTP" RELATED ADJECTIVE []
 synonym: "C76925" RELATED ADJECTIVE []
+
+[Term]
+id: NCBI_GENE:269132
+name: Colgalt2
+synonym: "Colgalt2" RELATED ADJECTIVE []
+synonym: "collagen beta(1-O)galactosyltransferase 2" RELATED ADJECTIVE []
+synonym: "Glt25d2" RELATED ADJECTIVE []
+synonym: "AI427652" RELATED ADJECTIVE []
+synonym: "D730024P12" RELATED ADJECTIVE []
 
 [Term]
 id: NCBI_GENE:14661

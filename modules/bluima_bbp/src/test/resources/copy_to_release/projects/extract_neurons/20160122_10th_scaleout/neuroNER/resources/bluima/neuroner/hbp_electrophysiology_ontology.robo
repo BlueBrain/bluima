@@ -17,34 +17,40 @@ synonymtypedef: CHEMICAL_FORMULA "chemical formula" EXACT
 [Term]
 id: HBP_EPHYS:0000001
 name: regular
+acronym: R
 rsynonym: "(regular|tonic)(ly)?"
 synonym: "RS" BROAD ACRONYM []
 
 [Term]
 id: HBP_EPHYS:0000010
 name: irregular
+acronym: I
 rsynonym: "ir?regular(ly)?"
-! TODO acronym?
+synonym: "IS" BROAD ACRONYM []
 
 [Term]
 id: HBP_EPHYS:0000020
 name: late
+acronym: L
 rsynonym: "(late|delay|delayed)"
 synonym: "LS" BROAD ACRONYM []
 
 [Term]
 id: HBP_EPHYS:0000030
 name: continuous
+acronym: C
 rsynonym: "continous(ly)?"
 
 [Term]
 id: HBP_EPHYS:0000040
 name: intrinsic
+acronym: I
 rsynonym: "intrinsic(ally)?"
 
 [Term]
 id: HBP_EPHYS:0000050
 name: classical
+acronym: C
 rsynonym: "classical(ly)?"
 !disjoint_from: HBP_EPHYS:0000015 ! adapting
 
@@ -59,26 +65,32 @@ name: depolarized
 [Term]
 id: HBP_EPHYS:0000080
 name: fast
+acronym: F
 rsynonym: "(fast|rapid)(ly)?"
+rsynonym: "(Fast|Rapid)(ly)?"
 synonym: "FS" BROAD ACRONYM []
 
 [Term]
 id: HBP_EPHYS:0000090
 name: non-fast
+acronym: NF
 rsynonym: "(non|not|un)[- ]?(fast|rapid)(ly)?"
 
 [Term]
 id: HBP_EPHYS:0000100
 name: slow
+acronym: S
 rsynonym: "(slow)(ly)?"
 
 [Term]
 id: HBP_EPHYS:0000110
 name: low threshold
+acronym: LT
 rsynonym: "low[- ]threshold"
 synonym: "LTS" BROAD ACRONYM []
 
 [Term]
 id: HBP_EPHYS:0000120
 name: spontaneous
+acronym: S
 rsynonym: "spontaneous(ly)?"

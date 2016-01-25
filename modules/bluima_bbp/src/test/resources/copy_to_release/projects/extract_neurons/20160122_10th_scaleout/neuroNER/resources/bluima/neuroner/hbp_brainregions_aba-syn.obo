@@ -9,11 +9,6 @@ synonymtypedef: ACRONYM "acronym" BROAD
 synonymtypedef: PLURAL "plural term" EXACT
 
 
-!TODO medial prefrontal cortex
-!TODO somatosensory cortex
-!TODO CA3 and CA1
-
-
 [Term]
 id: ABA_REGION:248
 name: Cortical amygdalar area, posterior part, medial zone, layer 2
@@ -418,6 +413,10 @@ synonym: "basal nucleus of the amygdala" []
 synonym: "Basolateral amygdalar nucleus" []
 synonym: "Nucleus basalis amygdalae" []
 synonym: "basal amygdaloid nucleus" []
+synonym: "basolateral amygdala" []
+synonym: "Amygdala basolateral nucleus" []
+
+
 
 [Term]
 id: ABA_REGION:294
@@ -1470,6 +1469,9 @@ id: ABA_REGION:1080
 name: Hippocampal region
 synonym: "Hippocampal region" []
 synonym: "hippocampal" [] ! curator=RR
+synonym: "Hippocampus" []
+synonym: "hippocampus" []
+
 
 [Term]
 id: ABA_REGION:788
@@ -2442,6 +2444,7 @@ synonym: "somatomotor areas" []
 synonym: "Somatomotor areas" []
 synonym: "motor area" []
 synonym: "motor cortex" []
+synonym: "sensorimotor cortex" []
 
 [Term]
 id: ABA_REGION:700
@@ -2887,6 +2890,9 @@ synonym: "orbital areas" []
 synonym: "orbitofrontal cortex" []
 synonym: "Gyrus orbitalis" []
 synonym: "Gyri orbitales" []
+synonym: "medial prefrontal cortex" [] ! best match I could find - SJT
+synonym: "prefrontal cortex" [] ! best match I could find - SJT
+synonym: "frontal cortex" [] ! best match I could find - SJT
 
 [Term]
 id: ABA_REGION:717
@@ -3696,6 +3702,8 @@ synonym: "pars reticulata" []
 synonym: "Pars reticulata, subnucleus medialis" []
 synonym: "Substantia nigra, reticular part" []
 synonym: "substantia nigra, reticular part" []
+synonym: "substantia nigra pars reticulata" []
+synonym: "substantia nigra, pars reticulata" []
 
 [Term]
 id: ABA_REGION:382
@@ -3712,6 +3720,7 @@ synonym: "field CA1, Ammon's horn" []
 synonym: "CA1 field of the hippocampus" []
 synonym: "regio superior of the hippocampus" []
 synonym: "CA1" [] ! curator=RR
+synonym: "hippocampus CA1" [] ! curator=SJT
 
 [Term]
 id: ABA_REGION:383
@@ -4160,6 +4169,7 @@ synonym: "Nucleus substantiae nigrae, Pars compacta" []
 synonym: "Substantia nigra, pars compacta" []
 synonym: "Substantia nigra, compact part" []
 synonym: "substantia nigra, compact part" []
+synonym: "Substantia nigra pars compacta" []
 
 [Term]
 id: ABA_REGION:375
@@ -4167,12 +4177,10 @@ name: Ammon's horn
 synonym: "Hippocampus proprius" []
 synonym: "ammon horn" []
 synonym: "hippocampus major" []
-synonym: "Hippocampus" []
 synonym: "CA fields" []
 synonym: "hippocampus proper" []
 synonym: "Ammon's horn" []
 synonym: "Cornu Ammonis" []
-synonym: "hippocampus" []
 synonym: "Cornu ammonis" []
 
 [Term]
@@ -4291,6 +4299,7 @@ synonym: "Locus ceruleus" []
 synonym: "Nucleus loci caerulei" []
 synonym: "Nucleus pigmentosus pontis" []
 synonym: "Substantia ferruginea" []
+synonym: "Locus Cereuleus" []
 
 [Term]
 id: ABA_REGION:148
@@ -4518,6 +4527,7 @@ synonym: "Nucleus lateralis amygdalae" []
 synonym: "lateral nucleus of amygdala" []
 synonym: "lateral nucleus of the amygdala" []
 synonym: "lateral amygdalar nucleus" []
+synonym: "lateral amygdala" []
 
 [Term]
 id: ABA_REGION:138
@@ -5252,6 +5262,7 @@ synonym: "Lingula (I)" []
 id: ABA_REGION:993
 name: Secondary motor area
 synonym: "Secondary motor area" []
+synonym: "secondary motor cortex" []
 
 [Term]
 id: ABA_REGION:992
@@ -5988,12 +5999,13 @@ id: ABA_REGION:688
 name: Cerebral cortex
 synonym: "Cortex cerebralis" []
 synonym: "cerebral cortex" []
-synonym: "cortical plate" []
 synonym: "pallium" []
 synonym: "Cerebral cortex" []
 synonym: "Cortex cerebri" []
-synonym: "cortex" [] ! curator=RR
+synonym: "cortex" [] ! curator=RR 
 synonym: "cortical" [] ! curator=RR
+! in terms of text-mining, and what authors mean
+! these regions should go with Isocortex
 
 [Term]
 id: ABA_REGION:689
@@ -6103,11 +6115,8 @@ synonym: "Parabrachial nucleus, medial division, external medial part" []
 [Term]
 id: ABA_REGION:695
 name: Cortical plate
-synonym: "Cortex cerebralis" []
-synonym: "cerebral cortex" []
 synonym: "cortical plate" []
 synonym: "Cortical plate" []
-synonym: "Cortex cerebri" []
 
 [Term]
 id: ABA_REGION:696
@@ -6781,6 +6790,8 @@ synonym: "anterior cingulate area" []
 synonym: "agranular cingulate area" []
 synonym: "Anterior cingulate area" []
 synonym: "Brodmann's area 24" []
+synonym: "Cingulate cortex" []
+
 
 [Term]
 id: ABA_REGION:649
@@ -7125,7 +7136,6 @@ synonym: "Raphe pontis" []
 synonym: "Nucleus raphes pontis" []
 synonym: "raphe of pons" []
 synonym: "pontine raphe nucleus" []
-synonym: "Raphe" []
 synonym: "raphe pontis nucleus" []
 synonym: "Nucleus raphe pontis" []
 
@@ -7425,6 +7435,7 @@ synonym: "Cornu Ammonis 2" []
 synonym: "Region CA2" []
 synonym: "field CA2, Ammon's horn" []
 synonym: "field CA2 of hippocampus" []
+synonym: "hippocampus CA2" [] ! curator=SJT
 
 [Term]
 id: ABA_REGION:420
@@ -8279,6 +8290,8 @@ synonym: "CA3 field of the hippocampus" []
 synonym: "CA3 field" []
 synonym: "field CA3 of hippocampus" []
 synonym: "CA3" [] ! curator=RR
+synonym: "hippocampus CA3" [] ! curator=SJT
+
 
 [Term]
 id: ABA_REGION:462
@@ -8374,6 +8387,8 @@ synonym: "Nucleus raphes dorsalis" []
 synonym: "Nucleus dorsalis raphes" []
 synonym: "dorsal raphe nucleus" []
 synonym: "dorsal nucleus of the raphe" []
+synonym: "dorsal Raphe" []
+synonym: "dorsal raphe" []
 
 [Term]
 id: ABA_REGION:870
@@ -8393,6 +8408,8 @@ name: Somatosensory areas
 synonym: "Somatosensory areas" []
 synonym: "somatosensory areas" []
 synonym: "somesthetic areas" []
+synonym: "somatosensory cortex" []
+synonym: "Somatosensory cortex" []
 
 [Term]
 id: ABA_REGION:456

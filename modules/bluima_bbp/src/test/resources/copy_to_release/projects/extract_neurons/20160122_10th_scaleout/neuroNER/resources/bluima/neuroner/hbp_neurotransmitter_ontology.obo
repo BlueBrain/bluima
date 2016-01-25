@@ -24,6 +24,7 @@ def: "the behaviour of post-synaptic cell" []
 [Term]
 id: HBP_NEUROTRANSMITTER:0000001
 name: serotonin
+acronym: 5HT
 synonym: "serotonine" RELATED MISSPELLING []
 synonym: "serotonergic" RELATED ADJECTIVE []
 synonym: "serotoninergic" RELATED ADJECTIVE []
@@ -34,12 +35,14 @@ synonym: "5HT-3" RELATED ADJECTIVE []
 [Term]
 id: HBP_NEUROTRANSMITTER:0000002
 name: nonserotonergic
+acronym: N5HT
 synonym: "non-serotonergic" RELATED ADJECTIVE []
 disjoint_from: HBP_NEUROTRANSMITTER:0000001 ! serotonin
 
 [Term]
 id: HBP_NEUROTRANSMITTER:0000003
 name: gaba
+acronym: gaba
 has_effect: inhibitory
 synonym: "gabaergic" RELATED ADJECTIVE []
 synonym: "GABAergic" RELATED ADJECTIVE []
@@ -48,6 +51,7 @@ synonym: "GABA" BROAD ACRONYM []
 [Term]
 id: HBP_NEUROTRANSMITTER:0000004
 name: glutamate
+acronym: glu
 has_effect: exhibitatory
 synonym: "glutamic acid" []
 synonym: "2-Aminopentanedioic acid" []
@@ -60,6 +64,7 @@ def: "An α-amino acid that is glutaric acid bearing a single amino substituent 
 [Term]
 id: HBP_NEUROTRANSMITTER:0000005
 name: acetylcholine
+acronym: ACh
 has_effect: inhibitory
 synonym: "cholinergic" RELATED ADJECTIVE []
 synonym: "acetylcholinergic" RELATED ADJECTIVE []
@@ -69,11 +74,13 @@ synonym: "ACh" BROAD ACRONYM []
 [Term]
 id: HBP_NEUROTRANSMITTER:0000019
 name: noncholinergic
+acronym: NACh
 disjoint_from: HBP_NEUROTRANSMITTER:0000005 ! acetylcholine
 
 [Term]
 id: HBP_NEUROTRANSMITTER:0000006
 name: adrenalin
+acronym: Adr
 synonym: "adrenaline" RELATED MISSPELLING []
 synonym: "adrenergic" RELATED ADJECTIVE []
 synonym: "epinephrine" []
@@ -81,6 +88,7 @@ synonym: "epinephrine" []
 [Term]
 id: HBP_NEUROTRANSMITTER:0000007
 name: dopamine
+acronym: DA
 synonym: "dopaminergic" RELATED ADJECTIVE []
 synonym: "3,4-dihydroxyphenethylamine" EXACT CHEMICAL_FORMULA []
 synonym: "DA" BROAD ACRONYM []
@@ -88,11 +96,13 @@ synonym: "DA" BROAD ACRONYM []
 [Term]
 id: HBP_NEUROTRANSMITTER:0000020
 name: nondopaminergic
+acronym: NDA
 disjoint_from: HBP_NEUROTRANSMITTER:0000007 ! dopamine
 
 [Term]
 id: HBP_NEUROTRANSMITTER:0000008
 name: glycine
+acronym: gly
 has_effect: inhibitory
 synonym: "glycinergic" RELATED ADJECTIVE []
 synonym: "Gly" BROAD ACRONYM []
@@ -100,22 +110,26 @@ synonym: "Gly" BROAD ACRONYM []
 [Term]
 id: HBP_NEUROTRANSMITTER:0000009
 name: histamine
+acronym: hist
 synonym: "histaminergic" RELATED ADJECTIVE []
 
 [Term]
 id: HBP_NEUROTRANSMITTER:0000010
 name: neuropeptide Y
+acronym: NPY
 synonym: "neuropeptidergic" RELATED ADJECTIVE []
 synonym: "NPY" BROAD ACRONYM []
 
 [Term]
 id: HBP_NEUROTRANSMITTER:0000011
 name: enkephalin
+acronym: ENK
 synonym: "enkephalinergic" RELATED ADJECTIVE []
 
 [Term]
 id: HBP_NEUROTRANSMITTER:0000012
 name: hypocretin
+acronym: Orex
 synonym: "orexin" []
 synonym: "orexinergic" []
 synonym: "hypocretinergic" RELATED ADJECTIVE []
@@ -123,6 +137,7 @@ synonym: "hypocretinergic" RELATED ADJECTIVE []
 [Term]
 id: HBP_NEUROTRANSMITTER:0000013
 name: corticotrophin releasing hormone
+acronym: CRH
 synonym: "corticotropin-releasing hormone" EXACT ALTERNATE_SPELLING []
 synonym: "CRH" BROAD ACRONYM []
 synonym: "Corticotropin-releasing hormone" EXACT PLURAL []
@@ -130,6 +145,7 @@ synonym: "Corticotropin-releasing hormone" EXACT PLURAL []
 [Term]
 id: HBP_NEUROTRANSMITTER:0000014
 name: vasopressin
+acronym: VP
 synonym: "arginine vasopressin" []
 synonym: "argipressin" []
 synonym: "antidiuretic hormone" []
@@ -140,6 +156,7 @@ synonym: "ADH" BROAD ACRONYM []
 [Term]
 id: HBP_NEUROTRANSMITTER:0000015
 name: substance P
+acronym: SP
 !TODO validate synonym: "tachykinin, precursor 1" []
 synonym: "SP" BROAD ACRONYM []
 !TODO validate synonym: "TAC1" BROAD ACRONYM []
@@ -147,6 +164,7 @@ synonym: "SP" BROAD ACRONYM []
 [Term]
 id: HBP_NEUROTRANSMITTER:0000016
 name: noradrenaline
+acronym: NAdr
 synonym: "NAd" BROAD ACRONYM []
 synonym: "norad" BROAD ACRONYM []
 synonym: "noradrenergic" EXACT ADJECTIVE []
@@ -158,16 +176,19 @@ synonym: "NE" BROAD ACRONYM []
 [Term]
 id: HBP_NEUROTRANSMITTER:0000017
 name: oxytocin
+acronym: Oxy
 synonym: "oxytocinergic" EXACT ADJECTIVE []
 
 [Term]
 id: HBP_NEUROTRANSMITTER:0000018
 name: catecholamine
+acronym: CAch
 synonym: "catecholaminergic" EXACT ADJECTIVE []
 
 [Term]
 id: HBP_NEUROTRANSMITTER:0000021
 name: monoamine
+acronym: MA
 synonym: "monoaminergic" EXACT ADJECTIVE []
 
 

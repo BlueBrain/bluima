@@ -1,0 +1,46 @@
+format-version: 1.2
+data-version: 0.1
+date: 23:01:2015 15:31
+saved-by: renaud.richardet@epfl.ch
+default-namespace: HBP_PROJECTION
+ontology: HBP Projection
+
+synonymtypedef: ALTERNATE_SPELLING "alternate spelling" EXACT
+synonymtypedef: MISSPELLING "misspelling" RELATED
+synonymtypedef: ACRONYM "acronym" BROAD
+synonymtypedef: ADJECTIVE "adjective" RELATED
+synonymtypedef: ADVERB "adverb" RELATED
+synonymtypedef: PLURAL "plural term" EXACT
+synonymtypedef: CHEMICAL_FORMULA "chemical formula" EXACT
+
+[Term]
+id: HBP_PROJECTION:22
+name: corticospinal
+acronym: CSp
+
+[Term]
+id: HBP_PROJECTION:113
+name: corticothalamic
+acronym: CThal
+
+[Term]
+id: HBP_PROJECTION:7322
+name: corticostriatal
+acronym: CStr
+
+[Term]
+id: HBP_PROJECTION:7323
+name: corticocortical
+synonym: "corticocallosal" RELATED ADJECTIVE []
+acronym: CCo
+
+[Term]
+id: HBP_PROJECTION:7324
+name: corticotrigeminal
+acronym: CTrig
+
+[Term]
+id: HBP_PROJECTION:7325
+name: corticotectal
+acronym: CTect
+

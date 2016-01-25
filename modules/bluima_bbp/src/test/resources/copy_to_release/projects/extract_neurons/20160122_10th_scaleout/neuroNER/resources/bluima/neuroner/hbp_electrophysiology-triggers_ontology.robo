@@ -16,46 +16,56 @@ synonymtypedef: PLURAL "plural term" EXACT
 [Term]
 id: HBP_EPHYS_TRIGGER:0000001
 name: accommodating
+acronym: Ac
 rsynonym: "acc?omm?odating"
 synonym: "accomodating" RELATED MISSPELLING []
 
 [Term]
 id: HBP_EPHYS_TRIGGER:0000002
 name: non-accommodating
+acronym: NAc
 rsynonym: "(non|not|un)[- ]?accomodating"
 disjoint_from: HBP_EPHYS_TRIGGER:0000001 ! accommodating
 
 [Term]
 id: HBP_EPHYS_TRIGGER:0000003
 name: spiking
+acronym: S
 rsynonym: "spik(ing|e)"
 
 [Term]
 id: HBP_EPHYS_TRIGGER:0000004
 name: firing
+acronym: S
+! TODO: consider merging with spiking
 
 [Term]
 id: HBP_EPHYS_TRIGGER:0000005
 name: burst
+acronym: B
 rsynonym: "burst(ing)?"
 
 [Term]
 id: HBP_EPHYS_TRIGGER:0000006
 name: stuttering
+acronym: Stut
 rsynonym: "stutter(ing)?"
 synonym: "STUT" BROAD ACRONYM []
 
 [Term]
 id: HBP_EPHYS_TRIGGER:0000007
 name: chattering
+acronym: Chat
 rsynonym: "chatter(ing)?"
 
 [Term]
 id: HBP_EPHYS_TRIGGER:0000008
 name: adapting
+acronym: Ad
 
 [Term]
 id: HBP_EPHYS_TRIGGER:0000009
 name: nonadapting
+acronym: NAd
 rsynonym: "(non|not|un)[- ]?adapting"
 disjoint_from: HBP_EPHYS_TRIGGER:0000008 ! adapting

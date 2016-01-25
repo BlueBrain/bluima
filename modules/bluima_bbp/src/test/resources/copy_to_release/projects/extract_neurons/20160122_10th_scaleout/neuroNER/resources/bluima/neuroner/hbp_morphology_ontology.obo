@@ -18,10 +18,12 @@ synonymtypedef: CHEMICAL_FORMULA "chemical formula" EXACT
 [Term]
 id: HBP_MORPHOLOGY:0000001
 name: pyramidal
+acronym: Pyr
 
 [Term]
 id: HBP_MORPHOLOGY:0000002
 name: nonpyramidal
+acronym: NPyr
 synonym: "non-pyramidal" RELATED ADJECTIVE []
 synonym: "non pyramidal" RELATED ADJECTIVE []
 disjoint_from: HBP_MORPHOLOGY:0000001 ! pyramidal
@@ -80,24 +82,29 @@ synonym: "star" RELATED ADJECTIVE []
 [Term]
 id: HBP_MORPHOLOGY:0000014
 name: thick-tufted
+acronym: TT
 synonym: "thick tufted" RELATED ADJECTIVE []
 
 [Term]
 id: HBP_MORPHOLOGY:0000015
 name: slender-tufted
+acronym: ST
 synonym: "slender tufted" RELATED ADJECTIVE []
 
 [Term]
 id: HBP_MORPHOLOGY:0000016
 name: slender
+acronym: ST
 
 [Term]
 id: HBP_MORPHOLOGY:0000017
 name: Martinotti
+acronym: Mart
 
 [Term]
 id: HBP_MORPHOLOGY:0000018
 name: nest
+acronym: nest
 
 [Term]
 id: HBP_MORPHOLOGY:0000019
@@ -106,6 +113,7 @@ name: basket
 [Term]
 id: HBP_MORPHOLOGY:0000020
 name: neurogliaform
+acronym: NG
 
 [Term]
 id: HBP_MORPHOLOGY:0000021
@@ -157,11 +165,13 @@ name: tufted
 [Term]
 id: HBP_MORPHOLOGY:0000032
 name: short-axon
+acronym: SA
 synonym: "short axon" RELATED ADJECTIVE []
 
 [Term]
 id: HBP_MORPHOLOGY:0000033
 name: Blanes
+acronym: Blanes
 ! there's correspondence between this and short-axon cells in the olfactory bulb
 
 [Term]
